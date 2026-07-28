@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Newport Street Directory Archive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --bg: #120f0d;
+      --card-bg: #1c1815;
+      --card-border: #2e2722;
+      --text: #e6e1da;
+      --muted: #9e9389;
+      --accent: #c89d54;
+      --accent-muted: #8c6e3b;
+      --heading-font: 'Instrument Serif', Georgia, serif;
+      --sans-font: 'Inter', -apple-system, sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { 
+      background-color: var(--bg); 
+      color: var(--text); 
+      font-family: var(--sans-font); 
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    header { 
+      padding: 2rem 3rem; 
+      border-bottom: 1px solid var(--card-border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: var(--bg);
+    }
+    header a { 
+      color: var(--accent); 
+      text-decoration: none; 
+      font-family: var(--heading-font);
+      font-size: 1.75rem;
+      letter-spacing: -0.02em;
+    }
+
+    .container { max-width: 1400px; margin: 0 auto; padding: 3rem 2rem; }
+    .view { display: none; }
+    .view.active { display: block; }
+
+    /* Home View */
+    .hero { 
+      text-align: center; 
+      max-width: 800px; 
+      margin: 2rem auto 4rem auto; 
+      padding: 4rem 2rem;
+    }
+    
+    .label-tag { 
+      text-transform: uppercase; 
+      font-size: 0.75rem; 
+      letter-spacing: 0.25em; 
+      color: var(--accent); 
+      margin-bottom: 1rem;
+      display: inline-block;
+    }
+    .hero h1 { 
+      font-family: var(--heading-font); 
+      font-size: 3.75rem; 
+      font-weight: 400;
+      line-height: 1.1; 
+      margin-bottom: 1rem;
+      color: var(--text);
+    }
+    .hero p { color: var(--muted); margin-bottom: 2.5rem; font-size: 1.15rem; }
+
+    /* Search Box & Auto-complete Wrapper */
+    .search-box-wrapper {
+      position: relative;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .search-box { display: flex; gap: 0.75rem; }
+    .search-box input { 
+      flex: 1; 
+      padding: 1rem 1.25rem; 
+      font-size: 1rem; 
+      background: var(--card-bg);
+      border: 1px solid var(--card-border); 
+      color: var(--text);
+      border-radius: 4px; 
+      outline: none; 
+    }
+    .search-box input:focus { border-color: var(--accent); }
+    .search-box button { 
+      padding: 1rem 2rem; 
+      background: var(--accent); 
+      color: var(--bg); 
+      border: none; 
+      border-radius: 4px; 
+      font-size: 0.95rem; 
+      cursor: pointer; 
+      font-weight: 600; 
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    /* Auto-complete Dropdown Styling */
+    .autocomplete-results {
+      position: absolute;
+      top: calc(100% + 0.5rem);
+      left: 0;
+      right: 0;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 4px;
+      max-height: 260px;
+      overflow-y: auto;
+      z-index: 100;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+      display: none;
+    }
+
+    .autocomplete-results.active { display: block; }
+
+    .autocomplete-item {
+      padding: 0.85rem 1.25rem;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid rgba(46, 39, 34, 0.5);
+      font-size: 0.95rem;
+      color: var(--text);
+      text-align: left;
+    }
+
+    .autocomplete-item:last-child { border-bottom: none; }
+
+    .autocomplete-item:hover,
+    .autocomplete-item.selected {
+      background: rgba(200, 157, 84, 0.15);
+      color: var(--accent);
+    }
+
+    .autocomplete-item .type-tag {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+    }
+
+    /* Navigation / Breadcrumb */
+    .breadcrumb { margin-bottom: 2rem; color: var(--muted); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.1em; }
+    .breadcrumb a { color: var(--accent); text-decoration: none; }
+
+    /* Property Header with Contour Topo Background */
+    .property-header { 
+      margin-bottom: 2.5rem; 
+      padding: 2.5rem;
+      border-radius: 8px;
+      border: 1px solid var(--card-border);
+      position: relative;
+      overflow: hidden;
+      background-color: #171310;
+      background-image: 
+        radial-gradient(ellipse at 80% 20%, rgba(200, 157, 84, 0.08) 0%, transparent 60%),
+        repeating-radial-gradient(circle at 10% 90%, transparent, transparent 15px, rgba(200, 157, 84, 0.03) 16px, rgba(200, 157, 84, 0.03) 17px, transparent 18px),
+        repeating-radial-gradient(circle at 85% 15%, transparent, transparent 25px, rgba(200, 157, 84, 0.04) 26px, rgba(200, 157, 84, 0.04) 27px, transparent 28px);
+    }
+
+    .property-heading-line {
+      font-family: var(--heading-font);
+      font-size: 4.5rem;
+      line-height: 1;
+      display: flex;
+      align-items: baseline;
+      gap: 0.75rem;
+      position: relative;
+      z-index: 2;
+    }
+    .property-heading-line .num {
+      color: #ffffff;
+      font-style: normal;
+    }
+    .property-heading-line .street {
+      color: var(--accent);
+      font-style: italic;
+    }
+
+    .property-intro-text {
+      color: var(--muted);
+      font-size: 1.1rem;
+      max-width: 850px;
+      margin-top: 1rem;
+      line-height: 1.6;
+      position: relative;
+      z-index: 2;
+    }
+
+    .grid-2col { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 2.5rem; }
+
+    /* Panels */
+    .panel { 
+      background: var(--card-bg); 
+      border: 1px solid var(--card-border); 
+      border-radius: 6px; 
+      padding: 2rem; 
+    }
+    .panel-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; }
+    .panel-title { 
+      font-family: var(--heading-font); 
+      font-size: 2.25rem; 
+      color: var(--text); 
+    }
+
+    /* Media Container */
+    .property-image-container {
+      background: #0d0b09;
+      border: 1px solid var(--card-border);
+      border-radius: 6px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      position: sticky;
+      top: 2rem;
+    }
+    .property-image-container img {
+      width: 100%;
+      height: 420px;
+      object-fit: cover;
+      display: none;
+    }
+    .property-image-container iframe {
+      width: 100%;
+      height: 420px;
+      border: 0;
+      display: block;
+      filter: grayscale(0.2) contrast(1.1) invert(0.9) hue-rotate(180deg);
+    }
+    .image-caption {
+      padding: 1rem 1.25rem;
+      font-size: 0.8rem;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+      border-top: 1px solid var(--card-border);
+      background: var(--card-bg);
+    }
+
+    /* Timeline */
+    .timeline { list-style: none; position: relative; padding-left: 1.5rem; }
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 3px;
+      top: 12px;
+      bottom: 12px;
+      width: 1px;
+      background: var(--card-border);
+    }
+    .timeline-item { position: relative; margin-bottom: 2rem; }
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -1.5rem;
+      top: 10px;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--accent);
+    }
+
+    .timeline-card {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--card-border);
+      border-radius: 6px;
+      padding: 1.25rem;
+    }
+
+    .timeline-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.5rem;
+    }
+
+    .timeline-year { 
+      font-family: var(--heading-font); 
+      font-style: italic; 
+      color: var(--accent); 
+      font-size: 1.5rem; 
+      line-height: 1;
+    }
+
+    .era-badge {
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      padding: 0.2rem 0.5rem;
+      border-radius: 3px;
+      background: rgba(200, 157, 84, 0.1);
+      color: var(--accent);
+      border: 1px solid var(--accent-muted);
+    }
+
+    .timeline-name { font-size: 1.15rem; font-weight: 500; color: #ffffff; }
+    .timeline-trade { font-size: 0.95rem; color: var(--muted); margin-top: 0.1rem; }
+    
+    .timeline-meta {
+      display: flex;
+      gap: 1.5rem;
+      margin-top: 0.75rem;
+      padding-top: 0.75rem;
+      border-top: 1px dashed var(--card-border);
+      font-size: 0.75rem;
+      color: var(--accent-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .street-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1.25rem; }
+    .street-card { 
+      background: var(--card-bg); 
+      border: 1px solid var(--card-border); 
+      border-radius: 6px; 
+      padding: 1.5rem; 
+      text-decoration: none; 
+      color: inherit; 
+      transition: border-color 0.2s;
+    }
+    .street-card:hover { border-color: var(--accent); }
+    .street-card .num { font-family: var(--heading-font); font-size: 2.25rem; color: var(--accent); }
+    .street-card .occupant { font-size: 0.85rem; color: var(--muted); margin-top: 0.5rem; }
+
+    @media (max-width: 900px) {
+      .grid-2col { grid-template-columns: 1fr; }
+      .property-heading-line { font-size: 3rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="#home">Newport Street Directory</a>
+  </header>
+
+  <div class="container">
+    
+    <!-- HOME SEARCH VIEW -->
+    <section id="view-home" class="view active">
+      <div class="hero">
+        <span class="label-tag">Cartographic Archive</span>
+        <h1>Explore Newport's History</h1>
+        <p>Search by street or property number to view occupant records from 1876 to 1950.</p>
+        
+        <div class="search-box-wrapper">
+          <form id="search-form" class="search-box" autocomplete="off">
+            <input type="text" id="search-input" placeholder="e.g. 1 Victoria Place or Victoria Place" required />
+            <button type="submit">Search</button>
+          </form>
+          <div id="autocomplete-results" class="autocomplete-results"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STREET VIEW -->
+    <section id="view-street" class="view">
+      <div class="breadcrumb"><a href="#home">Home</a> &rarr; <span id="street-title">Street</span></div>
+      <div class="property-header">
+        <span class="label-tag">Street Directory</span>
+        <div class="property-heading-line">
+          <span class="street" id="street-heading">Properties</span>
+        </div>
+      </div>
+      <div id="house-grid" class="street-grid"></div>
+    </section>
+
+    <!-- INDIVIDUAL HOUSE VIEW -->
+    <section id="view-house" class="view">
+      <div class="breadcrumb">
+        <a href="#home">Home</a> &rarr; 
+        <a href="#" id="house-street-link">Street</a> &rarr; 
+        <span id="house-breadcrumb-num">House</span>
+      </div>
+
+      <div class="property-header">
+        <span class="label-tag">Property Record</span>
+        <div class="property-heading-line">
+          <span class="num" id="house-number-display">1</span>
+          <span class="street" id="house-street-display">Victoria Place.</span>
+        </div>
+        <div class="property-intro-text" id="property-intro">
+          Historical directory timeline for No. 1 Victoria Place.
+        </div>
+      </div>
+
+      <div class="grid-2col">
+        <!-- Left: Timeline -->
+        <div class="panel">
+          <div class="panel-header">
+            <h2 class="panel-title">Occupant Timeline</h2>
+            <span class="label-tag" id="record-count">0 Records</span>
+          </div>
+          <ul id="timeline-list" class="timeline"></ul>
+        </div>
+
+        <!-- Right: Image / Dynamic Map Media Display -->
+        <div>
+          <div class="property-image-container">
+            <img id="property-image" src="" alt="Archival Property Facade" />
+            <iframe id="property-map" loading="lazy"></iframe>
+            <div class="image-caption">
+              <span id="image-caption-title">Location View</span>
+              <span id="image-caption-date">Newport, Wales</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <script>
+    let directoryData = [];
+    let uniqueStreets = [];
+    let selectedIndex = -1;
+
+    const cleanStr = (s) => {
+      if (!s) return '';
+      return String(s)
+        .replace(/^"|"$/g, '')
+        .replace(/,\s*[a-zA-Z0-9\s]+\b/g, '')
+        .toLowerCase()
+        .replace(/\brd\b\.?/g, 'road')
+        .replace(/\bst\b\.?/g, 'street')
+        .replace(/\bave\b\.?/g, 'avenue')
+        .replace(/\bter\b\.?/g, 'terrace')
+        .replace(/\bpl\b\.?/g, 'place')
+        .replace(/\bsq\b\.?/g, 'square')
+        .replace(/[^a-z0-9]/g, '');
+    };
+
+    const formatStreetName = (str) => {
+      if (!str) return '';
+      let clean = str
+        .replace(/^"|"$/g, '')
+        .replace(/,\s*[a-zA-Z0-9\s]+\b/g, '')
+        .replace(/\brd\b\.?/gi, 'Road')
+        .replace(/\bst\b\.?/gi, 'Street')
+        .replace(/\bave\b\.?/gi, 'Avenue')
+        .replace(/\bter\b\.?/gi, 'Terrace')
+        .replace(/\bpl\b\.?/gi, 'Place')
+        .replace(/\bsq\b\.?/gi, 'Square')
+        .replace(/\.+$/, '')
+        .trim();
+
+      return clean.replace(/\w\S*/g, (txt) => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase());
+    };
+
+    function cleanOccupation(trade) {
+      if (!trade || trade.trim() === '' || trade === '-') {
+        return 'Residence / Private';
+      }
+
+      let clean = trade.trim();
+
+      clean = clean
+        .replace(/\bironwkr\b/gi, 'Ironworker')
+        .replace(/\bstlwkr\b/gi, 'Steelworker')
+        .replace(/wkr\b/gi, 'worker');
+
+      clean = clean
+        .replace(/\blabr\b/gi, 'Labourer')
+        .replace(/\bdvr\b/gi, 'Driver')
+        .replace(/\bbricklyr\b/gi, 'Bricklayer')
+        .replace(/\bcarptr\b/gi, 'Carpenter')
+        .replace(/\beng dvr\b/gi, 'Engine Driver');
+
+      clean = clean.replace(/\w\S*/g, (txt) => {
+        return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+      });
+
+      return clean;
+    }
+
+    function getEraTag(yearStr) {
+      const yr = parseInt(yearStr);
+      if (yr < 1901) return 'Late Victorian';
+      if (yr <= 1914) return 'Edwardian Era';
+      if (yr <= 1939) return 'Interwar Period';
+      return 'Post-War Era';
+    }
+
+    async function loadData() {
+      try {
+        const response = await fetch('data.csv');
+        const text = await response.text();
+        directoryData = parseCSV(text);
+
+        const streetSet = new Map();
+        directoryData.forEach(r => {
+          const formatted = formatStreetName(r.street);
+          const cleaned = cleanStr(r.street);
+          if (cleaned && !streetSet.has(cleaned)) {
+            streetSet.set(cleaned, formatted);
+          }
+        });
+        uniqueStreets = Array.from(streetSet.values()).sort();
+      } catch (err) {
+        console.error("Failed loading data.csv", err);
+      }
+    }
+
+    function parseCSV(text) {
+      const lines = text.trim().split('\n');
+      if (lines.length <= 1) return [];
+
+      const ignoredPhrases = [
+        "newport", "past", "search", "records", "maritime", 
+        "20th century", "19th century", "early history", "gallery", 
+        "home", "back", "many thanks", "butcher's", "butchers"
+      ];
+
+      const parsedRecords = [];
+
+      for (let i = 1; i < lines.length; i++) {
+        const line = lines[i].trim();
+        if (!line) continue;
+
+        const rawStr = line.toLowerCase();
+        if (ignoredPhrases.some(p => rawStr.includes(p))) continue;
+
+        const cols = line.split(/,(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)/).map(c => c.replace(/^"|"$/g, '').trim());
+        if (cols.length < 2) continue;
+
+        const year = cols[0] || '';
+        const street = cols[1] || '';
+        let houseNumber = cols[2] || '';
+        let buildingName = cols[3] || '';
+        let surname = cols[4] || '';
+        let forename = cols[5] || '';
+        let trade = cols[6] || '';
+
+        if (!houseNumber) {
+          const numIdx = cols.findIndex((val, idx) => idx > 1 && /^\d+[a-zA-Z]?$/.test(val));
+          if (numIdx !== -1) houseNumber = cols[numIdx];
+        }
+
+        const quotedCol = cols.find(c => c.includes(','));
+        if (quotedCol && (!surname || !forename)) {
+          const parts = quotedCol.split(',').map(p => p.trim());
+          if (parts.length >= 1) surname = parts[0];
+          if (parts.length >= 2) forename = parts[1];
+          if (parts.length >= 3) trade = parts.slice(2).join(', ');
+        }
+
+        // 1. Fix Thompson initial/trade split ("Thompson, A. steam tug owner")
+        if (forename && !trade) {
+          const match = forename.match(/^([A-Z]\.?(?:\s+[A-Z]\.?)?)\s+([a-z].*)$/);
+          if (match) {
+            forename = match[1];
+            trade = match[2];
+          }
+        }
+
+        // 2. Fix mid-name trade pattern ONLY when separated by hyphen or tilde ("Albert - labourer")
+        if (forename) {
+          const hypenTradeMatch = forename.match(/^(.*?)\s*[-~]\s*([a-z].*)$/);
+          if (hypenTradeMatch) {
+            forename = hypenTradeMatch[1].trim();
+            const extractedTrade = hypenTradeMatch[2].trim();
+            trade = (!trade || trade === '-') ? extractedTrade : `${extractedTrade}, ${trade}`;
+          }
+        }
+
+        // 3. Clean trailing initials left in trade column (e.g. "D, Collier" -> trade becomes "Collier")
+        if (trade) {
+          const initialPrefixMatch = trade.match(/^[A-Z]\s*,\s*(.*)$/);
+          if (initialPrefixMatch) {
+            trade = initialPrefixMatch[1].trim();
+          } else if (/^[A-Z]$/.test(trade.trim())) {
+            trade = ''; // Clear lone initials like "Y" or "D" from trade field
+          }
+        }
+
+        parsedRecords.push({ year, street, house_number: houseNumber, building_name: buildingName, surname, forename, trade });
+      }
+
+      return parsedRecords;
+    }
+
+    // Auto-complete Functionality
+    const searchInput = document.getElementById('search-input');
+    const autocompleteContainer = document.getElementById('autocomplete-results');
+
+    searchInput.addEventListener('input', () => {
+      const query = searchInput.value;
+      const { number, street } = parseSearchQuery(query);
+      
+      if (!street || street.length < 2) {
+        autocompleteContainer.classList.remove('active');
+        return;
+      }
+
+      const cleanQuery = cleanStr(street);
+      const matches = uniqueStreets.filter(s => cleanStr(s).includes(cleanQuery)).slice(0, 7);
+
+      if (matches.length === 0) {
+        autocompleteContainer.classList.remove('active');
+        return;
+      }
+
+      selectedIndex = -1;
+      autocompleteContainer.innerHTML = '';
+      matches.forEach(matchStreet => {
+        const item = document.createElement('div');
+        item.className = 'autocomplete-item';
+        
+        const displayValue = number ? `${number} ${matchStreet}` : matchStreet;
+        const tagText = number ? 'Property Search' : 'Street Directory';
+
+        item.innerHTML = `<span>${displayValue}</span><span class="type-tag">${tagText}</span>`;
+        item.addEventListener('click', () => {
+          searchInput.value = displayValue;
+          autocompleteContainer.classList.remove('active');
+          document.getElementById('search-form').dispatchEvent(new Event('submit'));
+        });
+        autocompleteContainer.appendChild(item);
+      });
+
+      autocompleteContainer.classList.add('active');
+    });
+
+    searchInput.addEventListener('keydown', (e) => {
+      const items = autocompleteContainer.querySelectorAll('.autocomplete-item');
+      if (!autocompleteContainer.classList.contains('active') || items.length === 0) return;
+
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        selectedIndex = (selectedIndex + 1) % items.length;
+        updateSelection(items);
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        selectedIndex = (selectedIndex - 1 + items.length) % items.length;
+        updateSelection(items);
+      } else if (e.key === 'Enter' && selectedIndex >= 0) {
+        e.preventDefault();
+        items[selectedIndex].click();
+      } else if (e.key === 'Escape') {
+        autocompleteContainer.classList.remove('active');
+      }
+    });
+
+    function updateSelection(items) {
+      items.forEach((item, idx) => {
+        if (idx === selectedIndex) {
+          item.classList.add('selected');
+          item.scrollIntoView({ block: 'nearest' });
+        } else {
+          item.classList.remove('selected');
+        }
+      });
+    }
+
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('.search-box-wrapper')) {
+        autocompleteContainer.classList.remove('active');
+      }
+    });
+
+    function navigate() {
+      const hash = window.location.hash || '#home';
+      document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+      autocompleteContainer.classList.remove('active');
+
+      if (hash.startsWith('#street=')) {
+        const street = decodeURIComponent(hash.replace('#street=', ''));
+        renderStreetView(street);
+        document.getElementById('view-street').classList.add('active');
+      } else if (hash.startsWith('#house=')) {
+        const [street, num] = decodeURIComponent(hash.replace('#house=', '')).split('|');
+        renderHouseView(street, num);
+        document.getElementById('view-house').classList.add('active');
+      } else {
+        document.getElementById('view-home').classList.add('active');
+      }
+    }
+
+    function parseSearchQuery(query) {
+      const match = query.trim().match(/^(\d+[a-zA-Z]?)\s+(.*)/);
+      if (match) {
+        return { number: match[1], street: match[2] };
+      }
+      return { number: null, street: query.trim() };
+    }
+
+    document.getElementById('search-form').addEventListener('submit', (e) => {
+      e.preventDefault();
+      const rawQuery = searchInput.value;
+      const { number, street } = parseSearchQuery(rawQuery);
+
+      const matchedRecord = directoryData.find(r => cleanStr(r.street) === cleanStr(street));
+      const targetStreet = matchedRecord ? formatStreetName(matchedRecord.street) : formatStreetName(street);
+
+      if (number) {
+        window.location.hash = `#house=${encodeURIComponent(targetStreet + '|' + number)}`;
+      } else {
+        window.location.hash = `#street=${encodeURIComponent(targetStreet)}`;
+      }
+    });
+
+    function renderStreetView(rawStreetName) {
+      const displayName = formatStreetName(rawStreetName);
+      document.getElementById('street-title').innerText = displayName;
+      document.getElementById('street-heading').innerText = displayName;
+
+      const streetRecords = directoryData.filter(r => cleanStr(r.street) === cleanStr(rawStreetName));
+      const houses = [...new Set(streetRecords.map(r => r.house_number))].filter(Boolean).sort((a,b) => parseInt(a) - parseInt(b));
+
+      const grid = document.getElementById('house-grid');
+      grid.innerHTML = '';
+
+      if (houses.length === 0) {
+        grid.innerHTML = '<p style="color: var(--muted);">No matching property records found for this street.</p>';
+        return;
+      }
+
+      houses.forEach(num => {
+        const latestRecord = streetRecords
+          .filter(r => cleanStr(r.house_number) === cleanStr(num))
+          .sort((a,b) => parseInt(b.year) - parseInt(a.year))[0];
+
+        const card = document.createElement('a');
+        card.className = 'street-card';
+        card.href = `#house=${encodeURIComponent(displayName + '|' + num)}`;
+        card.innerHTML = `
+          <div class="num">${num}</div>
+          <div class="occupant">${latestRecord ? `${latestRecord.forename} ${latestRecord.surname}` : ''}</div>
+        `;
+        grid.appendChild(card);
+      });
+    }
+
+    function renderHouseView(rawStreetName, houseNum) {
+      const displayName = formatStreetName(rawStreetName);
+      document.getElementById('house-breadcrumb-num').innerText = `No. ${houseNum}`;
+      document.getElementById('house-number-display').innerText = houseNum;
+      document.getElementById('house-street-display').innerText = `${displayName}.`;
+      
+      const streetLink = document.getElementById('house-street-link');
+      streetLink.innerText = displayName;
+      streetLink.href = `#street=${encodeURIComponent(displayName)}`;
+
+      const records = directoryData
+        .filter(r => cleanStr(r.street) === cleanStr(rawStreetName) && cleanStr(r.house_number) === cleanStr(houseNum))
+        .sort((a, b) => parseInt(b.year) - parseInt(a.year));
+
+      document.getElementById('record-count').innerText = `${records.length} Records Found`;
+
+      document.getElementById('property-intro').innerText = 
+        `Historical directory timeline for No. ${houseNum} ${displayName}. Spanning ${records.length} recorded entries across archival street directories.`;
+
+      const imgElement = document.getElementById('property-image');
+      const mapIframe = document.getElementById('property-map');
+      
+      const buildingSlug = cleanStr(displayName) + houseNum;
+      const localAssetSrc = `/assets/images/properties/${buildingSlug}/archive/facade.jpg`;
+      const addressQuery = encodeURIComponent(`${houseNum} ${displayName}, Newport, Wales`);
+
+      const testImg = new Image();
+      testImg.src = localAssetSrc;
+
+      testImg.onload = function() {
+        imgElement.src = localAssetSrc;
+        imgElement.style.display = 'block';
+        mapIframe.style.display = 'none';
+        document.getElementById('image-caption-title').innerText = 'Archival Facade View';
+        document.getElementById('image-caption-date').innerText = 'Archive Asset';
+      };
+
+      testImg.onerror = function() {
+        imgElement.style.display = 'none';
+        mapIframe.src = `https://maps.google.com/maps?q=${addressQuery}&t=&z=17&ie=UTF8&iwloc=&output=embed`;
+        mapIframe.style.display = 'block';
+        document.getElementById('image-caption-title').innerText = 'Interactive Location Map';
+        document.getElementById('image-caption-date').innerText = 'Newport, Wales';
+      };
+
+      const timeline = document.getElementById('timeline-list');
+      timeline.innerHTML = '';
+
+      if (records.length === 0) {
+        timeline.innerHTML = '<li class="timeline-item"><div class="timeline-trade">No historical records available for this number.</div></li>';
+        return;
+      }
+
+      records.forEach((r, idx) => {
+        const era = getEraTag(r.year);
+        
+        let gapNote = '';
+        if (idx < records.length - 1) {
+          const diff = parseInt(r.year) - parseInt(records[idx + 1].year);
+          gapNote = `${diff}-Yr Interval`;
+        } else {
+          gapNote = 'Earliest Entry';
+        }
+
+        const displayTrade = cleanOccupation(r.trade);
+
+        const li = document.createElement('li');
+        li.className = 'timeline-item';
+        li.innerHTML = `
+          <div class="timeline-card">
+            <div class="timeline-top">
+              <span class="timeline-year">${r.year}</span>
+              <span class="era-badge">${era}</span>
+            </div>
+            <div class="timeline-name">${r.forename} ${r.surname}</div>
+            <div class="timeline-trade">${displayTrade}</div>
+            <div class="timeline-meta">
+              <span>${gapNote}</span>
+              ${r.building_name ? `<span>• ${r.building_name}</span>` : ''}
+            </div>
+          </div>
+        `;
+        timeline.appendChild(li);
+      });
+    }
+
+    window.addEventListener('hashchange', navigate);
+    window.addEventListener('DOMContentLoaded', async () => {
+      await loadData();
+      navigate();
+    });
+  </script>
+</body>
+</html>

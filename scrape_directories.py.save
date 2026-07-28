@@ -1,0 +1,154 @@
+import csv
+import re
+import string
+import time
+from urllib.parse import urljoin
+import requests
+from bs4 import BeautifulSoup
+
+DIRECTORIES = [
+    {"year": 1897, "slug": "johns1897"},
+    {"year": 1905, "slug": "johns1905"},
+    {"year": 1914, "slug": "johns1914"},
+]
+
+BASE_URL = "https://www.newportpast.com/records/directories/"
+OUTPUT_CSV = "newport_directories.csv"
+
+def parse_line(line_text):
+    parts = [p.strip() for p in re.split(r"\xa0\xa0|\s{2,}", line_text) if p.strip()]
+    if not parts:
+        return None
+
+    building_name = ""
+    house_number = ""
+    surname = ""
+    forename = ""
+    trade = ""
+
+    addr_part = parts[0]
+    if addr_part.endswith(",") or addr_part == "-":
+        addr_clean = addr_part.rstrip(",").strip()
+        parts = parts[1:]
+
+        if addr_clean != "-":
+            num_match = re.search(r"(.*?)(?:,\s*|\s+)(\d+[a-zA-Z]?)$", addr_clean)
+            if num_match:
+                building_name = num_match.group(1).strip()
+                house_number = num_match.group(2).strip()
+            elif addr_clean.isdigit():
+                house_number = addr_clean
+            else:
+                building_name = addr_clean
+
+    if len(parts) >= 1:
+        surname = parts[0].rstrip(",")
+    if len(parts) >= 2:
+        forename = parts[1].rstrip(",")
+    if len(parts) >= 3:
+        trade = ", ".join(parts[2:]).rstrip(",")
+
+    return {
+        "building_name": building_name,
+        "house_number": house_number,
+        "surname": surname,
+        "forename": forename,
+        "trade": trade,
+    }
+
+def scrape_street(session, year, street_name, url):
+    try:
+        resp = session.get(url, timeout=10)
+        resp.raise_for_status()
+    except Exception as e:
+        print(f"Error fetching {url}: {e}")
+        return []
+
+    soup = BeautifulSoup(resp.content, "html.parser")
+    main_div = soup.find("div", id="content") or soup.body
+
+    for br in main_div.find_all("br"):
+        br.replace_with("\n")
+
+    lines = main_div.get_text().split("\n")
+    records = []
+
+    for line in lines:
+        line_str = line.strip()
+        if (
+            not line_str
+            or "Johns'" in line_str
+            or "Directory" in line_str
+            or "BACK TO" in line_str
+            or line_str == street_name
+        ):
+            continue
+
+        if "," in line_str or line_str.startswith("-"):
+            parsed = parse_line(line_str)
+            if parsed and (parsed["surname"] or parsed["house_number"]):
+                parsed["year"] = year
+                parsed["street"] = street_name
+                records.append(parsed)
+
+    return records
+
+def scrape_directory(session, dir_info):
+    year = dir_info["year"]
+    slug = dir_info["slug"]
+    print(f"\n--- Processing {year} ({slug}) ---")
+
+    all_records = []
+
+    for letter in string.ascii_uppercase:
+        alphabet_url = f"{BASE_URL}{slug}/roads.php?letter={letter}"
+        try:
+            resp = session.get(alphabet_url, timeout=10)
+            if resp.status_code != 200:
+                continue
+        except Exception as e:
+            print(f"Failed loading letter {letter}: {e}")
+            continue
+
+        soup = BeautifulSoup(resp.content, "html.parser")
+        street_links = soup.find_all(
+            "a", href=re.compile(r"search\.php\?road=")
+        )
+
+        for link in street_links:
+            street_name = link.get_text().strip()
+            street_url = urljoin(alphabet_url, link["href"])
+
+            print(f"[{year}] Scraping: {street_name}")
+            records = scrape_street(session, year, street_name, street_url)
+            all_records.extend(records)
+
+            time.sleep(0.2)
+
+    return all_records
+
+def main():
+    session = requests.Session()
+    session.headers.update({"User-Agent": "NewportHistoryResearch/1.0"})
+
+    fieldnames = [
+        "year",
+        "street",
+        "house_number",
+        "building_name",
+        "surname",
+        "forename",
+        "trade",
+    ]
+
+    with open(OUTPUT_CSV, mode="w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+
+        for dir_info in DIRECTORIES:
+            records = scrape_directory(session, dir_info)
+            writer.writerows(records)
+            print(f"Saved {len(records)} records for {dir_info['year']}.")
+
+if __name__ == "__main__":
+    main()

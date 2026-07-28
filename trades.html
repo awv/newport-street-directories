@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Occupations Audit — Newport Street Directory</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --bg: #120f0d;
+      --card-bg: #1c1815;
+      --card-border: #2e2722;
+      --text: #e6e1da;
+      --muted: #9e9389;
+      --accent: #c89d54;
+      --heading-font: 'Instrument Serif', Georgia, serif;
+      --sans-font: 'Inter', -apple-system, sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { 
+      background-color: var(--bg); 
+      color: var(--text); 
+      font-family: var(--sans-font); 
+      line-height: 1.6;
+      padding: 3rem 2rem;
+    }
+
+    .container { max-width: 1200px; margin: 0 auto; }
+
+    header {
+      margin-bottom: 2.5rem;
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+
+    h1 {
+      font-family: var(--heading-font);
+      font-size: 3rem;
+      color: var(--accent);
+      font-weight: 400;
+      line-height: 1.1;
+    }
+
+    .subtitle { color: var(--muted); font-size: 1rem; margin-top: 0.25rem; }
+
+    .controls {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .search-input {
+      flex: 1;
+      padding: 0.85rem 1.25rem;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      color: var(--text);
+      border-radius: 4px;
+      font-size: 1rem;
+      outline: none;
+    }
+
+    .search-input:focus { border-color: var(--accent); }
+
+    .stats-badge {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      padding: 0.85rem 1.5rem;
+      border-radius: 4px;
+      font-size: 0.9rem;
+      color: var(--accent);
+      white-space: nowrap;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 6px;
+      overflow: hidden;
+    }
+
+    th, td {
+      padding: 1rem 1.25rem;
+      text-align: left;
+      border-bottom: 1px solid var(--card-border);
+    }
+
+    th {
+      background: #171310;
+      color: var(--accent);
+      font-weight: 600;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: rgba(200, 157, 84, 0.05); }
+
+    .count-col { width: 120px; font-weight: 600; color: var(--accent); }
+    .example-col { color: var(--muted); font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <div>
+        <h1>Occupation Audit</h1>
+        <div class="subtitle">Reviewing unique trades across Newport Directory records</div>
+      </div>
+      <div class="stats-badge" id="total-count">0 Unique Trades Found</div>
+    </header>
+
+    <div class="controls">
+      <input type="text" id="trade-search" class="search-input" placeholder="Filter occupations (e.g. Labourer, Driver, Mason)..." />
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Occupation / Trade</th>
+          <th class="count-col">Frequency</th>
+          <th class="example-col">Sample Entry</th>
+        </tr>
+      </thead>
+      <tbody id="trade-table-body">
+        <tr><td colspan="3" style="color: var(--muted);">Loading trade records...</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <script>
+    let tradeMap = new Map();
+
+    function cleanOccupation(trade) {
+      if (!trade || trade.trim() === '' || trade === '-') {
+        return 'Residence / Private';
+      }
+
+      let clean = trade.trim();
+
+      // 1. Specific compound word & suffix expansions
+      clean = clean
+        .replace(/\bironwkr\b/gi, 'Ironworker')
+        .replace(/\bstlwkr\b/gi, 'Steelworker')
+        .replace(/wkr\b/gi, 'worker');
+
+      // 2. Standard trade abbreviations
+      clean = clean
+        .replace(/\blabr\b/gi, 'Labourer')
+        .replace(/\bdvr\b/gi, 'Driver')
+        .replace(/\bbricklyr\b/gi, 'Bricklayer')
+        .replace(/\bcarptr\b/gi, 'Carpenter')
+        .replace(/\beng dvr\b/gi, 'Engine Driver');
+
+      // 3. Title-case all words
+      clean = clean.replace(/\w\S*/g, (txt) => {
+        return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+      });
+
+      return clean;
+    }
+
+    async function loadTrades() {
+      try {
+        const response = await fetch('data.csv');
+        const text = await response.text();
+        parseAndGroupTrades(text);
+      } catch (err) {
+        console.error("Failed to load CSV", err);
+      }
+    }
+
+    function parseAndGroupTrades(text) {
+      const lines = text.trim().split('\n');
+      tradeMap.clear();
+
+      for (let i = 1; i < lines.length; i++) {
+        const line = lines[i].trim();
+        if (!line) continue;
+
+        const cols = line.split(/,(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)/).map(c => c.replace(/^"|"$/g, '').trim());
+        if (cols.length < 2) continue;
+
+        let surname = cols[4] || '';
+        let forename = cols[5] || '';
+        let trade = cols[6] || '';
+
+        // Handle Thompson name/trade split fix
+        if (forename && !trade) {
+          const match = forename.match(/^([A-Z]\.?(?:\s+[A-Z]\.?)?)\s+([a-z].*)$/);
+          if (match) {
+            forename = match[1];
+            trade = match[2];
+          }
+        }
+
+        const tradeKey = cleanOccupation(trade);
+        const sampleName = `${forename} ${surname}`.trim();
+
+        if (tradeMap.has(tradeKey)) {
+          const item = tradeMap.get(tradeKey);
+          item.count++;
+        } else {
+          tradeMap.set(tradeKey, { count: 1, sample: sampleName });
+        }
+      }
+
+      renderTable();
+    }
+
+    function renderTable(filterQuery = '') {
+      const tbody = document.getElementById('trade-table-body');
+      tbody.innerHTML = '';
+
+      const cleanQuery = filterQuery.toLowerCase().trim();
+      
+      const sortedTrades = Array.from(tradeMap.entries())
+        .filter(([trade]) => !cleanQuery || trade.toLowerCase().includes(cleanQuery))
+        .sort((a, b) => b[1].count - a[1].count);
+
+      document.getElementById('total-count').innerText = `${sortedTrades.length} Occupations Displayed`;
+
+      if (sortedTrades.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="3" style="color: var(--muted);">No matching occupations found.</td></tr>';
+        return;
+      }
+
+      sortedTrades.forEach(([trade, data]) => {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td>${trade}</td>
+          <td class="count-col">${data.count}</td>
+          <td class="example-col">${data.sample}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    document.getElementById('trade-search').addEventListener('input', (e) => {
+      renderTable(e.target.value);
+    });
+
+    window.addEventListener('DOMContentLoaded', loadTrades);
+  </script>
+</body>
+</html>
