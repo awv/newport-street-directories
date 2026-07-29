@@ -6,7 +6,7 @@
   <title>Newport Street Directories Archive</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   
   <style>
     :root {
@@ -16,6 +16,7 @@
       --text: #e6e1da;
       --muted: #9e9389;
       --accent: #c89d54;
+      --accent-hover: #dbb369;
       --accent-muted: #8c6e3b;
       --heading-font: 'Instrument Serif', Georgia, serif;
       --sans-font: 'Inter', -apple-system, sans-serif;
@@ -31,7 +32,6 @@
       overflow-x: hidden;
     }
 
-    /* Standard Layout Container for Aligning Content */
     .page-width {
       max-width: 1400px;
       margin: 0 auto;
@@ -40,13 +40,17 @@
       width: 100%;
     }
 
-    /* Floating, Borderless Header */
+    /* Floating Sticky Blur Header */
     header { 
-      position: absolute;
-      top: 0; left: 0; right: 0;
+      position: sticky;
+      top: 0;
       z-index: 100;
-      padding-top: 2.5rem;
-      padding-bottom: 2.5rem;
+      background: rgba(18, 15, 13, 0.88);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border-bottom: 1px solid rgba(46, 39, 34, 0.8);
+      padding: 1.25rem 0;
+      transition: all 0.3s ease;
     }
     header .header-inner {
       display: flex;
@@ -57,115 +61,213 @@
       color: var(--accent); 
       text-decoration: none; 
       font-family: var(--heading-font);
-      font-size: 1.75rem;
-      letter-spacing: -0.02em;
+      font-size: 1.85rem;
+      letter-spacing: -0.01em;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
     }
-    header nav { display: flex; gap: 2rem; }
+    header .logo:hover {
+      color: var(--accent-hover);
+    }
+    header nav { display: flex; gap: 2rem; align-items: center; }
     header nav a {
       color: var(--text);
       text-decoration: none;
-      font-size: 0.9rem;
+      font-size: 0.88rem;
       text-transform: uppercase;
       letter-spacing: 0.1em;
       font-weight: 500;
       transition: color 0.2s;
     }
     header nav a:hover { color: var(--accent); }
+    header nav a.nav-btn {
+      background: rgba(200, 157, 84, 0.12);
+      border: 1px solid var(--accent-muted);
+      color: var(--accent);
+      padding: 0.45rem 1rem;
+      border-radius: 4px;
+    }
+    header nav a.nav-btn:hover {
+      background: var(--accent);
+      color: var(--bg);
+    }
 
     .view { display: none; }
     .view.active { display: block; }
 
-    /* Topography Background Class */
+    /* Topography Background */
     .topo-bg {
       background-color: #171310;
       background-image: 
-        radial-gradient(ellipse at 80% 20%, rgba(200, 157, 84, 0.08) 0%, transparent 60%),
+        radial-gradient(ellipse at 80% 20%, rgba(200, 157, 84, 0.1) 0%, transparent 60%),
         repeating-radial-gradient(circle at 10% 90%, transparent, transparent 15px, rgba(200, 157, 84, 0.03) 16px, rgba(200, 157, 84, 0.03) 17px, transparent 18px),
         repeating-radial-gradient(circle at 85% 15%, transparent, transparent 25px, rgba(200, 157, 84, 0.04) 26px, rgba(200, 157, 84, 0.04) 27px, transparent 28px);
     }
 
-    /* Full Page Hero Banner (Home View) */
     .hero-banner {
-      min-height: 100vh;
+      padding-top: 5rem;
+      padding-bottom: 7rem;
       display: flex;
       align-items: center;
       justify-content: center;
+      position: relative;
+      border-bottom: 1px solid var(--card-border);
     }
 
-    /* Page Banners */
     .page-banner {
       width: 100%;
-      padding-top: 9rem; 
-      padding-bottom: 4rem;
+      padding-top: 5rem; 
+      padding-bottom: 3.5rem;
       border-bottom: 1px solid var(--card-border);
       margin-bottom: 3.5rem;
     }
 
     .content-container { padding-bottom: 5rem; }
 
-    /* Home View specific */
-    .hero { text-align: center; max-width: 800px; margin: 0 auto; padding: 2rem 0; }
+    /* Home View */
+    .hero { text-align: center; max-width: 850px; margin: 0 auto; }
     
-    .label-tag { 
-      text-transform: uppercase; 
-      font-size: 0.75rem; 
-      letter-spacing: 0.25em; 
-      color: var(--accent); 
-      margin-bottom: 1rem;
-      display: inline-block;
+    .pulse-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.4rem 1rem;
+      background: rgba(200, 157, 84, 0.1);
+      border: 1px solid var(--accent-muted);
+      border-radius: 20px;
+      color: var(--accent);
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
     }
+    .pulse-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 10px var(--accent);
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0% { opacity: 0.3; transform: scale(0.9); }
+      50% { opacity: 1; transform: scale(1.2); }
+      100% { opacity: 0.3; transform: scale(0.9); }
+    }
+
     .hero h1 { 
       font-family: var(--heading-font); 
-      font-size: 3.75rem; 
+      font-size: 4.25rem; 
       font-weight: 400;
-      line-height: 1.1; 
-      margin-bottom: 1rem;
-      color: var(--text);
+      line-height: 1.05; 
+      margin-bottom: 1.25rem;
+      color: #ffffff;
+      letter-spacing: -0.01em;
     }
-    .hero p { color: var(--muted); margin-bottom: 2.5rem; font-size: 1.15rem; }
+    .hero h1 .highlight {
+      color: var(--accent);
+      font-style: italic;
+    }
+    .hero p { color: var(--muted); margin-bottom: 2.5rem; font-size: 1.2rem; max-width: 680px; margin-left: auto; margin-right: auto; }
 
-    /* Search Box & Auto-complete Wrapper */
-    .search-box-wrapper { position: relative; max-width: 600px; margin: 0 auto; }
+    /* Search Box & Quick Chips */
+    .search-box-wrapper { position: relative; max-width: 680px; margin: 0 auto; }
     .search-box { display: flex; gap: 0.75rem; }
     .search-box input { 
       flex: 1; 
-      padding: 1rem 1.25rem; 
-      font-size: 1rem; 
-      background: rgba(28, 24, 21, 0.9);
+      padding: 1.15rem 1.4rem; 
+      font-size: 1.05rem; 
+      background: rgba(28, 24, 21, 0.95);
       border: 1px solid var(--card-border); 
       color: var(--text);
-      border-radius: 4px; 
+      border-radius: 6px; 
       outline: none; 
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+      transition: border-color 0.2s, box-shadow 0.2s;
     }
-    .search-box input:focus { border-color: var(--accent); }
+    .search-box input:focus { 
+      border-color: var(--accent); 
+      box-shadow: 0 0 0 3px rgba(200, 157, 84, 0.2);
+    }
     .search-box button { 
-      padding: 1rem 2rem; 
+      padding: 1.15rem 2.25rem; 
       background: var(--accent); 
       color: var(--bg); 
       border: none; 
-      border-radius: 4px; 
+      border-radius: 6px; 
       font-size: 0.95rem; 
       cursor: pointer; 
-      font-weight: 600; 
+      font-weight: 700; 
       text-transform: uppercase;
-      letter-spacing: 0.05em;
+      letter-spacing: 0.08em;
+      transition: background-color 0.2s, transform 0.15s;
+    }
+    .search-box button:hover {
+      background: var(--accent-hover);
+      transform: translateY(-1px);
     }
 
-    /* Auto-complete Dropdown Styling */
+    .quick-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      justify-content: center;
+      align-items: center;
+      margin-top: 1.25rem;
+    }
+    .chip-label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+      margin-right: 0.25rem;
+    }
+    .chip {
+      background: rgba(28, 24, 21, 0.8);
+      border: 1px solid var(--card-border);
+      color: var(--text);
+      padding: 0.35rem 0.85rem;
+      border-radius: 20px;
+      font-size: 0.82rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+    .chip:hover {
+      background: rgba(200, 157, 84, 0.15);
+      border-color: var(--accent);
+      color: var(--accent);
+      transform: translateY(-1px);
+    }
+
     .autocomplete-results {
       position: absolute;
       top: calc(100% + 0.5rem);
       left: 0; right: 0;
       background: var(--card-bg);
       border: 1px solid var(--card-border);
-      border-radius: 4px;
-      max-height: 260px;
+      border-radius: 6px;
+      max-height: 380px;
       overflow-y: auto;
       z-index: 1000;
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.8);
+      box-shadow: 0 14px 35px rgba(0, 0, 0, 0.85);
       display: none;
+      text-align: left;
     }
     .autocomplete-results.active { display: block; }
+    .autocomplete-group-title {
+      padding: 0.6rem 1.25rem;
+      background: #171310;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--accent);
+      border-bottom: 1px solid var(--card-border);
+    }
     .autocomplete-item {
       padding: 0.85rem 1.25rem;
       cursor: pointer;
@@ -175,7 +277,6 @@
       border-bottom: 1px solid rgba(46, 39, 34, 0.5);
       font-size: 0.95rem;
       color: var(--text);
-      text-align: left;
     }
     .autocomplete-item:last-child { border-bottom: none; }
     .autocomplete-item:hover, .autocomplete-item.selected {
@@ -184,11 +285,188 @@
     }
     .autocomplete-item .type-tag { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); }
 
-    /* Navigation / Breadcrumb */
+    /* Archive Impact Stats Counter Grid */
+    .stats-overview {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+      margin-top: -3.5rem;
+      margin-bottom: 5rem;
+      position: relative;
+      z-index: 10;
+    }
+    .stat-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      padding: 1.75rem;
+      text-align: center;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.45);
+      transition: transform 0.2s, border-color 0.2s;
+    }
+    .stat-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--accent);
+    }
+    .stat-num {
+      font-family: var(--heading-font);
+      font-size: 3rem;
+      color: var(--accent);
+      line-height: 1;
+      margin-bottom: 0.4rem;
+    }
+    .stat-label {
+      font-size: 0.82rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+    }
+
+    /* Homepage Sections */
+    .home-section {
+      padding-bottom: 5rem;
+    }
+    .section-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-bottom: 2rem;
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 1rem;
+    }
+    .section-title {
+      font-family: var(--heading-font);
+      font-size: 2.75rem;
+      font-weight: 400;
+      color: var(--text);
+      line-height: 1.1;
+    }
+    .section-link {
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.88rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-weight: 600;
+      transition: color 0.2s;
+    }
+    .section-link:hover {
+      color: var(--accent-hover);
+    }
+
+    /* Featured Streets Showcase */
+    .featured-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+    }
+    .featured-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      padding: 1.75rem;
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.25s ease;
+    }
+    .featured-card:hover {
+      border-color: var(--accent);
+      transform: translateY(-5px);
+      box-shadow: 0 14px 35px rgba(0,0,0,0.55);
+    }
+    .featured-card-badge {
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--accent);
+      background: rgba(200, 157, 84, 0.12);
+      border: 1px solid rgba(200, 157, 84, 0.3);
+      padding: 0.2rem 0.65rem;
+      border-radius: 4px;
+      align-self: flex-start;
+      margin-bottom: 1.25rem;
+      font-weight: 500;
+    }
+    .featured-card h3 {
+      font-family: var(--heading-font);
+      font-size: 2rem;
+      color: #ffffff;
+      margin-bottom: 0.6rem;
+      font-weight: 400;
+    }
+    .featured-card p {
+      font-size: 0.92rem;
+      color: var(--muted);
+      line-height: 1.55;
+      margin-bottom: 1.75rem;
+    }
+    .featured-link-text {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    /* Era & Trade Explorer */
+    .eras-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .era-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      padding: 1.75rem;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+    }
+    .era-card:hover {
+      border-color: var(--accent);
+      background: rgba(34, 29, 25, 0.95);
+      transform: translateY(-4px);
+    }
+    .era-card.highlight-card {
+      background: linear-gradient(135deg, rgba(200, 157, 84, 0.14) 0%, var(--card-bg) 100%);
+      border-color: var(--accent-muted);
+    }
+    .era-icon {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+    }
+    .era-title {
+      font-family: var(--heading-font);
+      font-size: 1.6rem;
+      color: #ffffff;
+      margin-bottom: 0.5rem;
+    }
+    .era-desc {
+      font-size: 0.9rem;
+      color: var(--muted);
+      line-height: 1.5;
+      margin-bottom: 1.5rem;
+      flex: 1;
+    }
+    .era-chip-btn {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    /* Navigation & Breadcrumbs */
     .breadcrumb { margin-bottom: 1.5rem; color: var(--muted); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.1em; }
     .breadcrumb a { color: var(--accent); text-decoration: none; }
 
-    /* Page Banner Headers */
     .property-heading-line {
       font-family: var(--heading-font);
       font-size: 4.5rem;
@@ -199,53 +477,272 @@
     }
     .property-heading-line .num { color: #ffffff; font-style: normal; margin-right: 0.6rem; }
     .property-heading-line .street { color: var(--accent); font-style: italic; }
-
     .property-intro-text { color: var(--muted); font-size: 1.1rem; max-width: 850px; margin-top: 1rem; line-height: 1.6; }
 
-    /* Grid Layouts */
-    .grid-2col { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 2.5rem; }
+    /* Search Results View Components */
+    .search-tabs { display: flex; gap: 0.75rem; margin-bottom: 2rem; border-bottom: 1px solid var(--card-border); padding-bottom: 1rem; }
+    .tab-btn {
+      background: transparent;
+      border: 1px solid var(--card-border);
+      color: var(--muted);
+      padding: 0.6rem 1.25rem;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      transition: all 0.2s;
+    }
+    .tab-btn:hover { border-color: var(--accent); color: var(--text); }
+    .tab-btn.active { background: rgba(200, 157, 84, 0.15); border-color: var(--accent); color: var(--accent); }
 
+    .results-list { display: grid; gap: 1rem; }
+    .result-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 6px;
+      padding: 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-decoration: none;
+      color: inherit;
+      transition: border-color 0.2s;
+    }
+    .result-card:hover { border-color: var(--accent); }
+    .result-main { display: flex; flex-direction: column; gap: 0.25rem; }
+    .result-title { font-size: 1.25rem; font-weight: 500; color: #ffffff; }
+    .result-sub { font-size: 0.95rem; color: var(--muted); }
+    .result-meta { display: flex; align-items: center; gap: 1rem; }
+    .result-address { color: var(--accent); font-size: 1.25rem; font-family: var(--heading-font); font-style: italic; }
+
+    .pagination { display: flex; justify-content: space-between; align-items: center; margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid var(--card-border); }
+    .page-btn { background: var(--card-bg); border: 1px solid var(--card-border); color: var(--text); padding: 0.6rem 1.25rem; border-radius: 4px; cursor: pointer; }
+    .page-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+
+    .grid-2col { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 2.5rem; }
     .panel { background: var(--card-bg); border: 1px solid var(--card-border); border-radius: 6px; padding: 2rem; }
     .panel-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; }
     .panel-title { font-family: var(--heading-font); font-size: 2.25rem; color: var(--text); }
 
-    /* Media Container */
-    .property-image-container { background: #0d0b09; border: 1px solid var(--card-border); border-radius: 6px; overflow: hidden; display: flex; flex-direction: column; position: sticky; top: 2rem; }
+    .property-image-container { background: #0d0b09; border: 1px solid var(--card-border); border-radius: 6px; overflow: hidden; display: flex; flex-direction: column; position: sticky; top: 5rem; }
     .property-image-container img { width: 100%; height: 420px; object-fit: cover; display: none; }
     .property-image-container iframe { width: 100%; height: 420px; border: 0; display: block; filter: grayscale(0.2) contrast(1.1) invert(0.9) hue-rotate(180deg); }
     .image-caption { padding: 1rem 1.25rem; font-size: 0.8rem; color: var(--muted); display: flex; justify-content: space-between; border-top: 1px solid var(--card-border); background: var(--card-bg); }
 
-    /* Timeline */
+    /* Multi-occupant timeline formatting */
     .timeline { list-style: none; position: relative; padding-left: 1.5rem; }
     .timeline::before { content: ''; position: absolute; left: 3px; top: 12px; bottom: 12px; width: 1px; background: var(--card-border); }
     .timeline-item { position: relative; margin-bottom: 2rem; }
     .timeline-item::before { content: ''; position: absolute; left: -1.5rem; top: 10px; width: 7px; height: 7px; border-radius: 50%; background: var(--accent); }
     .timeline-card { background: rgba(255, 255, 255, 0.02); border: 1px solid var(--card-border); border-radius: 6px; padding: 1.25rem; }
-    .timeline-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; }
+    .timeline-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem; }
     .timeline-year { font-family: var(--heading-font); font-style: italic; color: var(--accent); font-size: 1.5rem; line-height: 1; }
     .era-badge { font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.1em; padding: 0.2rem 0.5rem; border-radius: 3px; background: rgba(200, 157, 84, 0.1); color: var(--accent); border: 1px solid var(--accent-muted); }
-    .timeline-name { font-size: 1.15rem; font-weight: 500; color: #ffffff; }
-    .timeline-trade { font-size: 0.95rem; color: var(--muted); margin-top: 0.1rem; }
-    .timeline-meta { display: flex; gap: 1.5rem; margin-top: 0.75rem; padding-top: 0.75rem; border-top: 1px dashed var(--card-border); font-size: 0.75rem; color: var(--accent-muted); text-transform: uppercase; letter-spacing: 0.05em; }
+    
+    .occupants-list { display: flex; flex-direction: column; gap: 0.85rem; }
+    .occupant-entry { border-bottom: 1px dashed rgba(46, 39, 34, 0.8); padding-bottom: 0.75rem; }
+    .occupant-entry:last-child { border-bottom: none; padding-bottom: 0; }
+    .timeline-name { font-size: 1.1rem; font-weight: 500; color: #ffffff; }
+    .timeline-trade { font-size: 0.9rem; color: var(--muted); margin-top: 0.1rem; }
 
-    /* Alphabet Sections (Directories) */
     .alpha-section { margin-bottom: 3.5rem; }
     .alpha-header { font-family: var(--heading-font); font-size: 2.25rem; color: var(--accent); margin-bottom: 1.5rem; border-bottom: 1px solid var(--card-border); padding-bottom: 0.5rem; }
 
-    /* Street & Directory Grids */
     .street-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1.25rem; }
     .street-card { background: var(--card-bg); border: 1px solid var(--card-border); border-radius: 6px; padding: 1.5rem; text-decoration: none; color: inherit; transition: border-color 0.2s; display: block; }
     .street-card:hover { border-color: var(--accent); }
-    .street-card .num { font-family: var(--heading-font); font-size: 2.25rem; color: var(--accent); }
+    .street-card .num { font-family: var(--heading-font); font-size: 2rem; color: var(--accent); line-height: 1.2; word-break: break-word; }
     .street-card .occupant { font-size: 0.85rem; color: var(--muted); margin-top: 0.5rem; }
+
+    /* Property Page Enhancements */
+    .breadcrumb-nav-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .street-nav-controls {
+      display: flex;
+      gap: 0.5rem;
+    }
+    .house-nav-btn {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      color: var(--accent);
+      padding: 0.35rem 0.85rem;
+      border-radius: 4px;
+      text-decoration: none;
+      font-size: 0.8rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      transition: all 0.2s;
+    }
+    .house-nav-btn:hover {
+      background: rgba(200, 157, 84, 0.15);
+      border-color: var(--accent);
+    }
+    .house-nav-btn.disabled {
+      opacity: 0.3;
+      pointer-events: none;
+    }
+
+    .property-stats-bar {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--card-border);
+    }
+    .p-stat {
+      display: flex;
+      flex-direction: column;
+    }
+    .p-stat-val {
+      font-family: var(--heading-font);
+      font-size: 1.8rem;
+      color: var(--accent);
+      line-height: 1.1;
+    }
+    .p-stat-lbl {
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+    }
+
+    .era-filter-row {
+      display: flex;
+      gap: 0.4rem;
+      margin-top: 0.5rem;
+      flex-wrap: wrap;
+    }
+    .era-filter-btn {
+      background: transparent;
+      border: 1px solid var(--card-border);
+      color: var(--muted);
+      font-size: 0.72rem;
+      padding: 0.25rem 0.65rem;
+      border-radius: 3px;
+      cursor: pointer;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      transition: all 0.2s;
+    }
+    .era-filter-btn:hover, .era-filter-btn.active {
+      border-color: var(--accent);
+      color: var(--accent);
+      background: rgba(200, 157, 84, 0.12);
+    }
+
+    .clickable-occupant-name {
+      color: #ffffff;
+      text-decoration: none;
+      transition: color 0.2s;
+      cursor: pointer;
+    }
+    .clickable-occupant-name:hover {
+      color: var(--accent);
+      text-decoration: underline;
+    }
+
+    .clickable-trade-tag {
+      color: var(--muted);
+      text-decoration: none;
+      cursor: pointer;
+      transition: color 0.2s;
+      display: inline-block;
+    }
+    .clickable-trade-tag:hover {
+      color: var(--accent);
+    }
+
+    .right-panel-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+    .media-tabs {
+      display: flex;
+      border-bottom: 1px solid var(--card-border);
+      background: #120f0d;
+    }
+    .media-tab-btn {
+      flex: 1;
+      background: transparent;
+      border: none;
+      color: var(--muted);
+      padding: 0.65rem 1rem;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .media-tab-btn.active {
+      color: var(--accent);
+      border-bottom: 2px solid var(--accent);
+      background: var(--card-bg);
+    }
+
+    .citation-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 6px;
+      padding: 1.25rem;
+    }
+    .citation-title {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--accent);
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+    }
+    .citation-text {
+      font-size: 0.82rem;
+      color: var(--muted);
+      font-family: monospace;
+      background: #120f0d;
+      padding: 0.65rem;
+      border-radius: 4px;
+      border: 1px solid var(--card-border);
+      word-break: break-all;
+      margin-bottom: 0.75rem;
+    }
+    .citation-copy-btn {
+      width: 100%;
+      background: rgba(200, 157, 84, 0.12);
+      border: 1px solid var(--accent-muted);
+      color: var(--accent);
+      padding: 0.5rem;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+    .citation-copy-btn:hover {
+      background: var(--accent);
+      color: var(--bg);
+    }
 
     @media (max-width: 900px) {
       .grid-2col { grid-template-columns: 1fr; }
       .property-heading-line { font-size: 3rem; }
       .page-width { padding-left: 1.5rem; padding-right: 1.5rem; }
-      header { position: relative; padding-top: 1.5rem; padding-bottom: 1.5rem; }
+      header { position: sticky; padding-top: 1rem; padding-bottom: 1rem; }
       header .header-inner { flex-direction: column; gap: 1rem; }
+      .hero h1 { font-size: 3rem; }
       .page-banner { padding-top: 3rem; }
+      .result-card { flex-direction: column; align-items: flex-start; gap: 1rem; }
+      .stats-overview { margin-top: 2rem; margin-bottom: 3rem; }
     }
   </style>
 </head>
@@ -254,9 +751,13 @@
   <header>
     <div class="page-width">
       <div class="header-inner">
-        <a href="#home" class="logo">Newport Street Directories Archive</a>
+        <a href="#home" class="logo">
+          <span>🏛️</span> Newport Directory Archive
+        </a>
         <nav>
-          <a href="#directories">Directories</a>
+          <a href="#home">Home</a>
+          <a href="#streets">All Streets</a>
+          <a href="trades.html" class="nav-btn">Occupations Audit</a>
         </nav>
       </div>
     </div>
@@ -267,58 +768,191 @@
     <div class="topo-bg hero-banner">
       <div class="page-width">
         <div class="hero">
-          <span class="label-tag">Cartographic Archive</span>
-          <h1>Explore Newport's History</h1>
-          <p>Search by street or property number to view occupant records from 1876 to 1950.</p>
+          <div class="pulse-badge">
+            <span class="pulse-dot"></span>
+            1876 – 1950 Cartographic Archive
+          </div>
+          <h1>Explore Newport's <span class="highlight">Living History</span></h1>
+          <p>Discover residents, historic properties, and trade directory records across 74 years of Newport, Wales archives.</p>
           
           <div class="search-box-wrapper">
             <form id="search-form" class="search-box" autocomplete="off">
-              <input type="text" id="search-input" placeholder="e.g. 1 Victoria Place or Victoria Place" required />
+              <input type="text" id="search-input" placeholder="Search street name, resident, or occupation (e.g. Victoria Place)..." required />
               <button type="submit">Search</button>
             </form>
             <div id="autocomplete-results" class="autocomplete-results"></div>
+
+            <div class="quick-chips">
+              <span class="chip-label">Try searching:</span>
+              <button type="button" class="chip" onclick="quickSearch('High Street')">📍 High Street</button>
+              <button type="button" class="chip" onclick="quickSearch('Victoria Place')">📍 Victoria Place</button>
+              <button type="button" class="chip" onclick="quickSearch('Commercial Street')">📍 Commercial Street</button>
+              <button type="button" class="chip" onclick="quickSearch('Ironworker')">🛠️ Ironworker</button>
+              <button type="button" class="chip" onclick="quickSearch('Blacksmith')">🛠️ Blacksmith</button>
+            </div>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- Stats Overview Cards -->
+    <div class="stats-overview page-width" id="home-stats">
+      <div class="stat-card">
+        <div class="stat-num" id="stat-records-count">8,375</div>
+        <div class="stat-label">Directory Records</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num" id="stat-streets-count">150+</div>
+        <div class="stat-label">Historic Streets</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">600+</div>
+        <div class="stat-label">Unique Trades</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">1876–1950</div>
+        <div class="stat-label">Historical Era</div>
+      </div>
+    </div>
+
+    <!-- Featured Historic Streets Section -->
+    <div class="home-section page-width">
+      <div class="section-header">
+        <div>
+          <span class="label-tag">Featured Thoroughfares</span>
+          <h2 class="section-title">Historic Newport Streets</h2>
+        </div>
+        <a href="#streets" class="section-link">View All Streets &rarr;</a>
+      </div>
+
+      <div class="featured-grid">
+        <a href="#street=Victoria%20Place" class="featured-card">
+          <div>
+            <div class="featured-card-badge">Residential Terrace</div>
+            <h3>Victoria Place</h3>
+            <p>Historic residential terrace housing sea captains, merchants, and municipal officers.</p>
+          </div>
+          <span class="featured-link-text">Explore Street Directory &rarr;</span>
+        </a>
+        <a href="#street=High%20Street" class="featured-card">
+          <div>
+            <div class="featured-card-badge">Commercial Hub</div>
+            <h3>High Street</h3>
+            <p>Primary Victorian commercial hub featuring historic hotels, drapers, and banks.</p>
+          </div>
+          <span class="featured-link-text">Explore Street Directory &rarr;</span>
+        </a>
+        <a href="#street=Commercial%20Street" class="featured-card">
+          <div>
+            <div class="featured-card-badge">Trade & Retail Artery</div>
+            <h3>Commercial Street</h3>
+            <p>Bustling retail corridor connecting central Newport to the shipping docks.</p>
+          </div>
+          <span class="featured-link-text">Explore Street Directory &rarr;</span>
+        </a>
+        <a href="#street=Stow%20Hill" class="featured-card">
+          <div>
+            <div class="featured-card-badge">Civic & Historic</div>
+            <h3>Stow Hill</h3>
+            <p>Elevated historic avenue leading to St Woolos Cathedral with rich architectural heritage.</p>
+          </div>
+          <span class="featured-link-text">Explore Street Directory &rarr;</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Era & Trade Explorer Section -->
+    <div class="home-section page-width">
+      <div class="section-header">
+        <div>
+          <span class="label-tag">Historical Deep Dive</span>
+          <h2 class="section-title">Explore by Era & Trade</h2>
+        </div>
+        <a href="trades.html" class="section-link">Open Trade Audit Tool &rarr;</a>
+      </div>
+
+      <div class="eras-grid">
+        <div class="era-card" onclick="quickSearch('Ironworker')">
+          <div class="era-icon">🔨</div>
+          <div class="era-title">Industrial Trades</div>
+          <div class="era-desc">Ironworkers, Steelworkers, Blacksmiths, and Dockers who built Newport's industrial power.</div>
+          <div class="era-chip-btn">Filter Industrial Trades &rarr;</div>
+        </div>
+
+        <div class="era-card" onclick="quickSearch('Captain')">
+          <div class="era-icon">⚓</div>
+          <div class="era-title">Maritime & Docks</div>
+          <div class="era-desc">Ship Masters, Pilots, Mariners, and Coal Trimmers connected to Newport Docks.</div>
+          <div class="era-chip-btn">Filter Maritime Trades &rarr;</div>
+        </div>
+
+        <div class="era-card" onclick="quickSearch('Draper')">
+          <div class="era-icon">🎩</div>
+          <div class="era-title">Merchants & Retail</div>
+          <div class="era-desc">Drapers, Grocers, Tailors, and Shopkeepers across central arcades.</div>
+          <div class="era-chip-btn">Filter Merchants &rarr;</div>
+        </div>
+
+        <a href="trades.html" class="era-card highlight-card">
+          <div class="era-icon">📊</div>
+          <div class="era-title">Occupation Audit</div>
+          <div class="era-desc">Interactive frequency analysis and index of over 600 unique historic trades.</div>
+          <div class="era-chip-btn">Open Audit Page &rarr;</div>
+        </a>
+      </div>
+    </div>
   </section>
 
-  <!-- DIRECTORIES OVERVIEW -->
-  <section id="view-directories" class="view">
+  <!-- GENERAL SEARCH RESULTS VIEW -->
+  <section id="view-search" class="view">
     <div class="topo-bg page-banner">
       <div class="page-width">
-        <div class="breadcrumb"><a href="#home">Home</a> &rarr; <span>Directories</span></div>
-        <span class="label-tag">Archive Collections</span>
+        <div class="breadcrumb"><a href="#home">Home</a> &rarr; <span>Search Results</span></div>
+        <span class="label-tag">Query Results</span>
         <div class="property-heading-line">
-          <span class="street">Historical Directories</span>
+          <span class="street" id="search-query-display">"Query"</span>
         </div>
+        <div class="property-intro-text" id="search-summary-text">Searching archive records...</div>
       </div>
     </div>
     <div class="content-container page-width">
-      <div id="directories-grid" class="street-grid"></div>
-    </div>
-  </section>
+      <div class="search-tabs" id="search-tabs">
+        <button class="tab-btn active" onclick="setSearchFilter('all', this)">All (<span id="count-all">0</span>)</button>
+        <button class="tab-btn" onclick="setSearchFilter('people', this)">People (<span id="count-people">0</span>)</button>
+        <button class="tab-btn" onclick="setSearchFilter('occupations', this)">Occupations (<span id="count-occupations">0</span>)</button>
+        <button class="tab-btn" onclick="setSearchFilter('streets', this)">Streets (<span id="count-streets">0</span>)</button>
+      </div>
 
-  <!-- SINGLE DIRECTORY YEAR VIEW -->
-  <section id="view-directory-year" class="view">
-    <div class="topo-bg page-banner">
-      <div class="page-width">
-        <div class="breadcrumb"><a href="#home">Home</a> &rarr; <a href="#directories">Directories</a> &rarr; <span id="dir-year-breadcrumb">Year</span></div>
-        <span class="label-tag">Directory Index</span>
-        <div class="property-heading-line">
-          <span class="num" id="dir-year-heading-num"></span>
-          <span class="street">Directory</span>
-        </div>
+      <div id="search-results-list" class="results-list"></div>
+
+      <div class="pagination">
+        <button id="prev-page" class="page-btn" onclick="changeSearchPage(-1)">Previous</button>
+        <span id="page-indicator" style="color: var(--muted); font-size: 0.9rem;">Page 1</span>
+        <button id="next-page" class="page-btn" onclick="changeSearchPage(1)">Next</button>
       </div>
     </div>
-    <div class="content-container page-width" id="dir-year-content"></div>
   </section>
 
-  <!-- STREET VIEW -->
+  <!-- ALL STREETS OVERVIEW -->
+  <section id="view-streets" class="view">
+    <div class="topo-bg page-banner">
+      <div class="page-width">
+        <div class="breadcrumb"><a href="#home">Home</a> &rarr; <span>Streets</span></div>
+        <span class="label-tag">Street Index</span>
+        <div class="property-heading-line">
+          <span class="street">All Streets</span>
+        </div>
+        <div class="property-intro-text" id="streets-summary-text">Alphabetical index of all recorded streets.</div>
+      </div>
+    </div>
+    <div class="content-container page-width" id="streets-content"></div>
+  </section>
+
+  <!-- SINGLE STREET VIEW -->
   <section id="view-street" class="view">
     <div class="topo-bg page-banner">
       <div class="page-width">
-        <div class="breadcrumb"><a href="#home">Home</a> &rarr; <span id="street-title">Street</span></div>
+        <div class="breadcrumb"><a href="#home">Home</a> &rarr; <a href="#streets">Streets</a> &rarr; <span id="street-title">Street</span></div>
         <span class="label-tag">Street Directory</span>
         <div class="property-heading-line">
           <span class="street" id="street-heading">Properties</span>
@@ -330,44 +964,91 @@
     </div>
   </section>
 
-  <!-- INDIVIDUAL HOUSE VIEW -->
+  <!-- INDIVIDUAL HOUSE / BUILDING VIEW -->
   <section id="view-house" class="view">
     <div class="topo-bg page-banner">
       <div class="page-width">
-        <div class="breadcrumb">
-          <a href="#home">Home</a> &rarr; 
-          <a href="#" id="house-street-link">Street</a> &rarr; 
-          <span id="house-breadcrumb-num">House</span>
+        <div class="breadcrumb-nav-row">
+          <div class="breadcrumb">
+            <a href="#home">Home</a> &rarr; 
+            <a href="#" id="house-street-link">Street</a> &rarr; 
+            <span id="house-breadcrumb-num">House</span>
+          </div>
+
+          <div class="street-nav-controls">
+            <a id="prev-house-btn" class="house-nav-btn" href="#">&larr; Prev Property</a>
+            <a id="next-house-btn" class="house-nav-btn" href="#">Next Property &rarr;</a>
+          </div>
         </div>
-        <span class="label-tag">Property Record</span>
+
+        <span class="label-tag">Historical Property Profile</span>
         <div class="property-heading-line">
           <span class="num" id="house-number-display">1</span>
           <span class="street" id="house-street-display">Victoria Place</span>
         </div>
         <div class="property-intro-text" id="property-intro"></div>
+
+        <!-- Property Quick Metrics Bar -->
+        <div class="property-stats-bar" id="property-stats-bar">
+          <div class="p-stat">
+            <span class="p-stat-val" id="p-stat-earliest">-</span>
+            <span class="p-stat-lbl">Earliest Record</span>
+          </div>
+          <div class="p-stat">
+            <span class="p-stat-val" id="p-stat-latest">-</span>
+            <span class="p-stat-lbl">Latest Record</span>
+          </div>
+          <div class="p-stat">
+            <span class="p-stat-val" id="p-stat-total">-</span>
+            <span class="p-stat-lbl">Total Occupants</span>
+          </div>
+          <div class="p-stat">
+            <span class="p-stat-val" id="p-stat-primary-trade">-</span>
+            <span class="p-stat-lbl">Primary Usage</span>
+          </div>
+        </div>
       </div>
     </div>
 
     <div class="content-container page-width">
       <div class="grid-2col">
-        <!-- Left: Timeline -->
+        <!-- Left: Timeline & Controls -->
         <div class="panel">
           <div class="panel-header">
-            <h2 class="panel-title">Occupant Timeline</h2>
+            <div>
+              <h2 class="panel-title">Occupant Timeline</h2>
+              <div class="era-filter-row" id="era-filter-row">
+                <button class="era-filter-btn active" onclick="filterTimeline('all', this)">All Eras</button>
+                <button class="era-filter-btn" onclick="filterTimeline('Victorian', this)">Victorian</button>
+                <button class="era-filter-btn" onclick="filterTimeline('Edwardian', this)">Edwardian</button>
+                <button class="era-filter-btn" onclick="filterTimeline('Interwar', this)">Interwar / Post-War</button>
+              </div>
+            </div>
             <span class="label-tag" id="record-count">0 Records</span>
           </div>
           <ul id="timeline-list" class="timeline"></ul>
         </div>
 
-        <!-- Right: Image / Dynamic Map Media Display -->
-        <div>
+        <!-- Right: Image / Map & Citation Card -->
+        <div class="right-panel-wrapper">
           <div class="property-image-container">
+            <div class="media-tabs">
+              <button id="media-btn-facade" class="media-tab-btn active" onclick="switchMediaMode('facade')">📷 Archival View</button>
+              <button id="media-btn-map" class="media-tab-btn" onclick="switchMediaMode('map')">🗺️ Location Map</button>
+            </div>
             <img id="property-image" src="" alt="Archival Property Facade" />
             <iframe id="property-map" loading="lazy"></iframe>
             <div class="image-caption">
               <span id="image-caption-title">Location View</span>
               <span id="image-caption-date">Newport, Wales</span>
             </div>
+          </div>
+
+          <!-- Academic / Genealogist Citation Card -->
+          <div class="citation-card">
+            <div class="citation-title">📜 Genealogist & Academic Citation</div>
+            <div class="citation-text" id="citation-text">Newport Directory Archive — Property Record</div>
+            <button class="citation-copy-btn" id="citation-btn" onclick="copyCitation()">Copy Archival Citation</button>
           </div>
         </div>
       </div>
@@ -378,6 +1059,12 @@
     let directoryData = [];
     let uniqueStreets = [];
     let selectedIndex = -1;
+
+    // Search Results State
+    let currentSearchResults = { all: [], people: [], occupations: [], streets: [] };
+    let currentSearchTab = 'all';
+    let currentPage = 1;
+    const PAGE_SIZE = 25;
 
     // Full Forename Abbreviation Lookup Dictionary
     const FORENAME_MAP = {
@@ -464,12 +1151,14 @@
         .replace(/^"|"$/g, '')
         .replace(/,\s*[a-zA-Z0-9\s]+\b/g, '')
         .toLowerCase()
+        .replace(/\.[a-z]$/g, '')
         .replace(/\brd\b\.?/g, 'road')
         .replace(/\bst\b\.?/g, 'street')
         .replace(/\bave\b\.?/g, 'avenue')
         .replace(/\bter\b\.?/g, 'terrace')
         .replace(/\bpl\b\.?/g, 'place')
         .replace(/\bsq\b\.?/g, 'square')
+        .replace(/\(the\s+/g, '(')
         .replace(/[^a-z0-9]/g, '');
     };
 
@@ -478,13 +1167,15 @@
       let clean = str
         .replace(/^"|"$/g, '')
         .replace(/,\s*[a-zA-Z0-9\s]+\b/g, '')
+        .replace(/\.[a-z]$/gi, '')
+        .replace(/\.+$/, '')
         .replace(/\brd\b\.?/gi, 'Road')
         .replace(/\bst\b\.?/gi, 'Street')
         .replace(/\bave\b\.?/gi, 'Avenue')
         .replace(/\bter\b\.?/gi, 'Terrace')
         .replace(/\bpl\b\.?/gi, 'Place')
         .replace(/\bsq\b\.?/gi, 'Square')
-        .replace(/\.+$/, '')
+        .replace(/\(The\s+/gi, '(')
         .trim();
       return clean.replace(/\w\S*/g, (txt) => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase());
     };
@@ -506,6 +1197,12 @@
       return 'Post-War Era';
     }
 
+    function quickSearch(query) {
+      const input = document.getElementById('search-input');
+      if (input) input.value = query;
+      window.location.hash = `#search=${encodeURIComponent(query)}`;
+    }
+
     async function loadData() {
       try {
         const response = await fetch('data.csv');
@@ -521,6 +1218,13 @@
           }
         });
         uniqueStreets = Array.from(streetSet.values()).sort();
+
+        // Dynamically update home page stat counters
+        const recordsElem = document.getElementById('stat-records-count');
+        if (recordsElem) recordsElem.innerText = directoryData.length.toLocaleString();
+        
+        const streetsElem = document.getElementById('stat-streets-count');
+        if (streetsElem) streetsElem.innerText = `${uniqueStreets.length}+`;
       } catch (err) {
         console.error("Failed loading data.csv", err);
       }
@@ -537,6 +1241,11 @@
       ];
 
       const parsedRecords = [];
+      
+      let activeStreetKey = '';
+      let activeYear = '';
+      let activeHouseNum = '';
+      let activeBuildingName = '';
 
       for (let i = 1; i < lines.length; i++) {
         const line = lines[i].trim();
@@ -545,7 +1254,7 @@
         const rawStr = line.toLowerCase();
         if (ignoredPhrases.some(p => rawStr.includes(p))) continue;
 
-        const cols = line.split(/,(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)/).map(c => c.replace(/^"|"$/g, '').trim());
+        const cols = line.split(/,(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)/).map(c => c ? c.replace(/^"|"$/g, '').trim() : '');
         if (cols.length < 2) continue;
 
         const year = cols[0] || '';
@@ -556,115 +1265,197 @@
         let forename = cols[5] || '';
         let trade = cols[6] || '';
 
-        if (!houseNumber) {
-          const numIdx = cols.findIndex((val, idx) => idx > 1 && /^\d+[a-zA-Z]?$/.test(val));
-          if (numIdx !== -1) houseNumber = cols[numIdx];
+        surname = surname.replace(/^[-~\s]+/, '').trim();
+        houseNumber = houseNumber.replace(/^[-~\s]+/, '').trim();
+
+        // Reset street-level context if street or year changes
+        if (cleanStr(street) !== activeStreetKey || year !== activeYear) {
+          activeStreetKey = cleanStr(street);
+          activeYear = year;
+          activeHouseNum = '';
+          activeBuildingName = '';
         }
 
-        const quotedCol = cols.find(c => c.includes(','));
+        // Check if raw line defines a structural building heading (e.g. "PENCRAIG FLATS")
+        const rawEntityName = `${surname} ${forename}`.trim();
+        const isBuildingHeading = /\b(chambers|arcade|hotel|house|inn|vaults|depot|station|chmbrs|flats|mansions|court)\b/i.test(rawEntityName) && !trade;
+
+        if (isBuildingHeading) {
+          activeHouseNum = ''; // Hard reset street house number
+          activeBuildingName = formatStreetName(rawEntityName);
+          continue;
+        }
+
+        if (houseNumber === '-' || houseNumber === '~') houseNumber = '';
+
+        // Reset active building name when encountering a distinct house number without explicit building column data
+        if (houseNumber && !cols[3]) {
+          activeBuildingName = '';
+        }
+
+        // IF INSIDE A NAMED BUILDING BLOCK (e.g. Pencraig Flats):
+        if (activeBuildingName) {
+          if (houseNumber) {
+            buildingName = `${activeBuildingName} ${houseNumber}`;
+            houseNumber = ''; // Strip from street house_number so it doesn't match No. 1 Street
+          } else {
+            buildingName = activeBuildingName;
+          }
+        } else {
+          // Normal street property behavior
+          if (houseNumber) {
+            activeHouseNum = houseNumber;
+            if (buildingName) activeBuildingName = buildingName;
+          } else {
+            houseNumber = activeHouseNum;
+            if (!buildingName) buildingName = activeBuildingName;
+          }
+        }
+
+        const quotedCol = cols.find(c => c && c.includes(','));
         if (quotedCol && (!surname || !forename)) {
           const parts = quotedCol.split(',').map(p => p.trim());
-          if (parts.length >= 1) surname = parts[0];
+          if (parts.length >= 1) surname = parts[0].replace(/^[-~\s]+/, '');
           if (parts.length >= 2) forename = parts[1];
           if (parts.length >= 3) trade = parts.slice(2).join(', ');
         }
 
-        if (forename && !trade) {
-          const match = forename.match(/^([A-Z]\.?(?:\s+[A-Z]\.?)?)\s+([a-z].*)$/);
-          if (match) { forename = match[1]; trade = match[2]; }
-        }
+        const combinedRaw = `${forename} ${surname}`.trim();
+        const isBusinessOrStatus = /\b(&|ltd|limited|co|company|sons|bros|brothers|shop|void|stores|chambers|works|inn|hotel|arms|vaults|depot|society)\b/i.test(combinedRaw) ||
+                                  /\b(&|ltd|limited|co|company|sons|bros|brothers|shop|void|stores|chambers|works|inn|hotel|arms|vaults|depot|society)\b/i.test(surname);
 
-        if (forename) {
-          const hypenTradeMatch = forename.match(/^(.*?)\s*[-~]\s*([a-z].*)$/);
-          if (hypenTradeMatch) {
-            forename = hypenTradeMatch[1].trim();
-            const extractedTrade = hypenTradeMatch[2].trim();
-            trade = (!trade || trade === '-') ? extractedTrade : `${extractedTrade}, ${trade}`;
+        if (isBusinessOrStatus) {
+          if (surname && forename) {
+            if (/^&|&$/i.test(forename.trim())) {
+              surname = `${surname} ${forename}`.trim();
+              forename = '';
+            } else {
+              surname = `${forename} ${surname}`.trim();
+              forename = '';
+            }
           }
+        } else if (forename) {
+          const match = forename.match(/^(.*?)\s*[-~]\s*([a-z].*)$/i) || forename.match(/^([A-Z][A-Za-z\.]*(?:\s+[A-Z][A-Za-z\.]*)*)\s+([a-z].*)$/);
+          if (match && match[2] && match[2].trim() !== '-') {
+            forename = match[1].trim();
+            let extractedTrade = match[2].replace(/^[-~\s]+/, '').trim();
+            trade = (!trade || trade === '-' || trade.toLowerCase() === 'residence / private')
+              ? extractedTrade
+              : `${extractedTrade}, ${trade}`;
+          }
+          forename = forename.replace(/\s*[-~]+\s*$/, '').trim();
         }
 
         if (trade) {
-          const initialPrefixMatch = trade.match(/^[A-Z]\s*,\s*(.*)$/);
-          if (initialPrefixMatch) {
-            trade = initialPrefixMatch[1].trim();
-          } else if (/^[A-Z]$/.test(trade.trim())) {
-            trade = '';
+          trade = trade.replace(/^[-~\s]+|[-~\s]+$/g, '').trim();
+          if (trade && (trade.length > 60 || /\d+[A-Za-z]/.test(trade))) {
+            const match = trade.match(/^([A-Za-z\s\/&]+?)(?=\d+[A-Z]|$)/);
+            trade = (match && match[1]) ? match[1].trim() : '';
           }
         }
+
+        if (/^\d+(st|nd|rd|th)\s+floor$/i.test(combinedRaw) && !trade) continue;
 
         parsedRecords.push({ year, street, house_number: houseNumber, building_name: buildingName, surname, forename, trade });
       }
       return parsedRecords;
     }
 
-    // --- Search Autocomplete Logic ---
+    // --- Categorised Search Autocomplete Logic ---
     const searchInput = document.getElementById('search-input');
     const autocompleteContainer = document.getElementById('autocomplete-results');
 
-    searchInput.addEventListener('input', () => {
-      const query = searchInput.value;
-      const { number, street } = parseSearchQuery(query);
-      
-      if (!street || street.length < 2) {
-        autocompleteContainer.classList.remove('active');
-        return;
-      }
+    if (searchInput && autocompleteContainer) {
+      searchInput.addEventListener('input', () => {
+        const query = searchInput.value.trim().toLowerCase();
+        
+        if (query.length < 2 || !directoryData.length) {
+          autocompleteContainer.classList.remove('active');
+          return;
+        }
 
-      const cleanQuery = cleanStr(street);
-      const matches = uniqueStreets.filter(s => cleanStr(s).includes(cleanQuery)).slice(0, 7);
+        const matchingStreets = uniqueStreets
+          .filter(s => cleanStr(s).includes(cleanStr(query)))
+          .slice(0, 3);
+        
+        const matchingPeopleMap = new Map();
+        for (const r of directoryData) {
+          const forename = r.forename ? expandForename(r.forename) : '';
+          const surname = r.surname || '';
+          const fullName = `${forename} ${surname}`.trim();
+          
+          if (fullName.toLowerCase().includes(query) && !matchingPeopleMap.has(fullName.toLowerCase())) {
+            const locLabel = r.house_number ? `No. ${r.house_number}` : (r.building_name || 'Street');
+            matchingPeopleMap.set(fullName.toLowerCase(), {
+              name: fullName,
+              street: formatStreetName(r.street),
+              targetKey: r.building_name || r.house_number,
+              tag: `${locLabel} ${formatStreetName(r.street)}`
+            });
+            if (matchingPeopleMap.size >= 3) break;
+          }
+        }
+        const matchingPeople = Array.from(matchingPeopleMap.values());
 
-      if (matches.length === 0) {
-        autocompleteContainer.classList.remove('active');
-        return;
-      }
+        const matchingOccupationsSet = new Set();
+        for (const r of directoryData) {
+          const displayTrade = cleanOccupation(r.trade);
+          if (
+            displayTrade &&
+            displayTrade !== 'Residence / Private' &&
+            displayTrade.length < 40 &&
+            displayTrade.toLowerCase().includes(query)
+          ) {
+            matchingOccupationsSet.add(displayTrade);
+            if (matchingOccupationsSet.size >= 3) break;
+          }
+        }
+        const matchingOccupations = Array.from(matchingOccupationsSet);
 
-      selectedIndex = -1;
-      autocompleteContainer.innerHTML = '';
-      matches.forEach(matchStreet => {
+        if (!matchingStreets.length && !matchingPeople.length && !matchingOccupations.length) {
+          autocompleteContainer.classList.remove('active');
+          return;
+        }
+
+        autocompleteContainer.innerHTML = '';
+
+        if (matchingStreets.length) {
+          appendAutocompleteGroup('Streets', matchingStreets.map(s => ({
+            label: `🏠 ${s}`, tag: 'Street', hash: `#street=${encodeURIComponent(s)}`
+          })));
+        }
+
+        if (matchingPeople.length) {
+          appendAutocompleteGroup('People', matchingPeople.map(p => ({
+            label: `👤 ${p.name}`, tag: p.tag, hash: `#house=${encodeURIComponent(p.street + '|' + p.targetKey)}`
+          })));
+        }
+
+        if (matchingOccupations.length) {
+          appendAutocompleteGroup('Occupations', matchingOccupations.map(o => ({
+            label: `🛠️ ${o}`, tag: 'Occupation', hash: `#search=${encodeURIComponent(o)}`
+          })));
+        }
+
+        autocompleteContainer.classList.add('active');
+      });
+    }
+
+    function appendAutocompleteGroup(title, items) {
+      const groupHeader = document.createElement('div');
+      groupHeader.className = 'autocomplete-group-title';
+      groupHeader.innerText = title;
+      autocompleteContainer.appendChild(groupHeader);
+
+      items.forEach(itemData => {
         const item = document.createElement('div');
         item.className = 'autocomplete-item';
-        const displayValue = number ? `${number} ${matchStreet}` : matchStreet;
-        const tagText = number ? 'Property Search' : 'Street Directory';
-
-        item.innerHTML = `<span>${displayValue}</span><span class="type-tag">${tagText}</span>`;
+        item.innerHTML = `<span>${itemData.label}</span><span class="type-tag">${itemData.tag}</span>`;
         item.addEventListener('click', () => {
-          searchInput.value = displayValue;
           autocompleteContainer.classList.remove('active');
-          document.getElementById('search-form').dispatchEvent(new Event('submit'));
+          window.location.hash = itemData.hash;
         });
         autocompleteContainer.appendChild(item);
-      });
-      autocompleteContainer.classList.add('active');
-    });
-
-    searchInput.addEventListener('keydown', (e) => {
-      const items = autocompleteContainer.querySelectorAll('.autocomplete-item');
-      if (!autocompleteContainer.classList.contains('active') || items.length === 0) return;
-
-      if (e.key === 'ArrowDown') {
-        e.preventDefault();
-        selectedIndex = (selectedIndex + 1) % items.length;
-        updateSelection(items);
-      } else if (e.key === 'ArrowUp') {
-        e.preventDefault();
-        selectedIndex = (selectedIndex - 1 + items.length) % items.length;
-        updateSelection(items);
-      } else if (e.key === 'Enter' && selectedIndex >= 0) {
-        e.preventDefault();
-        items[selectedIndex].click();
-      } else if (e.key === 'Escape') {
-        autocompleteContainer.classList.remove('active');
-      }
-    });
-
-    function updateSelection(items) {
-      items.forEach((item, idx) => {
-        if (idx === selectedIndex) {
-          item.classList.add('selected');
-          item.scrollIntoView({ block: 'nearest' });
-        } else {
-          item.classList.remove('selected');
-        }
       });
     }
 
@@ -674,32 +1465,6 @@
       }
     });
 
-    // --- Navigation Logic ---
-    function navigate() {
-      const hash = window.location.hash || '#home';
-      document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
-      autocompleteContainer.classList.remove('active');
-
-      if (hash.startsWith('#street=')) {
-        const street = decodeURIComponent(hash.replace('#street=', ''));
-        renderStreetView(street);
-        document.getElementById('view-street').classList.add('active');
-      } else if (hash.startsWith('#house=')) {
-        const [street, num] = decodeURIComponent(hash.replace('#house=', '')).split('|');
-        renderHouseView(street, num);
-        document.getElementById('view-house').classList.add('active');
-      } else if (hash === '#directories') {
-        renderDirectoriesView();
-        document.getElementById('view-directories').classList.add('active');
-      } else if (hash.startsWith('#directory=')) {
-        const year = hash.replace('#directory=', '');
-        renderDirectoryYearView(year);
-        document.getElementById('view-directory-year').classList.add('active');
-      } else {
-        document.getElementById('view-home').classList.add('active');
-      }
-    }
-
     function parseSearchQuery(query) {
       const match = query.trim().match(/^(\d+[a-zA-Z]?)\s+(.*)/);
       if (match) return { number: match[1], street: match[2] };
@@ -708,220 +1473,607 @@
 
     document.getElementById('search-form').addEventListener('submit', (e) => {
       e.preventDefault();
-      const rawQuery = searchInput.value;
+      const rawQuery = searchInput.value.trim();
       const { number, street } = parseSearchQuery(rawQuery);
 
-      const matchedRecord = directoryData.find(r => cleanStr(r.street) === cleanStr(street));
-      const targetStreet = matchedRecord ? formatStreetName(matchedRecord.street) : formatStreetName(street);
+      const matchedStreetRecord = directoryData.find(r => cleanStr(r.street) === cleanStr(street));
 
-      if (number) {
+      if (number && matchedStreetRecord) {
+        const targetStreet = formatStreetName(matchedStreetRecord.street);
         window.location.hash = `#house=${encodeURIComponent(targetStreet + '|' + number)}`;
       } else {
-        window.location.hash = `#street=${encodeURIComponent(targetStreet)}`;
+        window.location.hash = `#search=${encodeURIComponent(rawQuery)}`;
       }
     });
 
-    // --- View Rendering Logic ---
+    // --- Navigation Router ---
+    function navigate() {
+      const hash = window.location.hash || '#home';
+      document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+      autocompleteContainer.classList.remove('active');
 
-    function renderDirectoriesView() {
-      const years = [...new Set(directoryData.map(r => r.year))].filter(Boolean).sort((a,b) => b - a);
-      const grid = document.getElementById('directories-grid');
-      grid.innerHTML = '';
-
-      years.forEach(year => {
-        const count = directoryData.filter(r => r.year === year).length;
-        const era = getEraTag(year);
-        
-        const card = document.createElement('a');
-        card.className = 'street-card';
-        card.href = `#directory=${year}`;
-        card.innerHTML = `
-          <div class="era-badge" style="display:inline-block; margin-bottom: 0.75rem;">${era}</div>
-          <div class="num" style="font-size: 1.75rem;">${year} Directory</div>
-          <div class="occupant">${count} recorded entries</div>
-        `;
-        grid.appendChild(card);
-      });
+      if (hash.startsWith('#search=')) {
+        const query = decodeURIComponent(hash.replace('#search=', ''));
+        renderSearchView(query);
+        document.getElementById('view-search').classList.add('active');
+      } else if (hash.startsWith('#street=')) {
+        const street = decodeURIComponent(hash.replace('#street=', ''));
+        renderStreetView(street);
+        document.getElementById('view-street').classList.add('active');
+      } else if (hash.startsWith('#house=')) {
+        const [street, locKey] = decodeURIComponent(hash.replace('#house=', '')).split('|');
+        renderHouseView(street, locKey);
+        document.getElementById('view-house').classList.add('active');
+      } else if (hash === '#streets') {
+        renderStreetsView();
+        document.getElementById('view-streets').classList.add('active');
+      } else {
+        document.getElementById('view-home').classList.add('active');
+      }
     }
 
-    function renderDirectoryYearView(year) {
-      document.getElementById('dir-year-breadcrumb').innerText = year;
-      document.getElementById('dir-year-heading-num').innerText = year;
-      
-      const yearRecords = directoryData.filter(r => r.year === year);
-      
-      const streetMap = new Map();
-      yearRecords.forEach(r => {
-        const clean = cleanStr(r.street);
-        if (!clean) return;
-        if (!streetMap.has(clean)) {
-           streetMap.set(clean, { displayName: formatStreetName(r.street), houses: new Set() });
+    // --- General Search View Rendering ---
+    function renderSearchView(query) {
+      document.getElementById('search-query-display').innerText = `"${query}"`;
+      const cleanQ = query.toLowerCase().trim();
+
+      const matchedPeople = [];
+      const matchedOccupations = [];
+      const matchedStreetsMap = new Map();
+
+      directoryData.forEach(r => {
+        const formattedStreet = formatStreetName(r.street);
+        const fullName = `${expandForename(r.forename)} ${r.surname}`.trim();
+        const displayTrade = cleanOccupation(r.trade);
+        const locTarget = r.building_name || r.house_number;
+        const locAddress = r.house_number ? `No. ${r.house_number} ${formattedStreet}` : `${r.building_name || 'Street'}, ${formattedStreet}`;
+
+        if (cleanStr(r.street).includes(cleanStr(cleanQ)) && !matchedStreetsMap.has(cleanStr(r.street))) {
+          matchedStreetsMap.set(cleanStr(r.street), { type: 'street', title: formattedStreet, sub: 'Street Directory', hash: `#street=${encodeURIComponent(formattedStreet)}` });
         }
-        streetMap.get(clean).houses.add(r.house_number);
+
+        if (fullName.toLowerCase().includes(cleanQ)) {
+          matchedPeople.push({
+            type: 'person',
+            title: fullName,
+            sub: `${r.year} Directory • ${displayTrade}`,
+            address: locAddress,
+            hash: `#house=${encodeURIComponent(formattedStreet + '|' + locTarget)}`
+          });
+        }
+
+        if (displayTrade !== 'Residence / Private' && displayTrade.toLowerCase().includes(cleanQ)) {
+          matchedOccupations.push({
+            type: 'occupation',
+            title: `${fullName}`,
+            sub: `${r.year} Directory • ${displayTrade}`,
+            address: locAddress,
+            hash: `#house=${encodeURIComponent(formattedStreet + '|' + locTarget)}`
+          });
+        }
+      });
+
+      const matchedStreets = Array.from(matchedStreetsMap.values());
+
+      currentSearchResults = {
+        people: matchedPeople,
+        occupations: matchedOccupations,
+        streets: matchedStreets,
+        all: [...matchedStreets, ...matchedPeople, ...matchedOccupations]
+      };
+
+      document.getElementById('count-all').innerText = currentSearchResults.all.length;
+      document.getElementById('count-people').innerText = currentSearchResults.people.length;
+      document.getElementById('count-occupations').innerText = currentSearchResults.occupations.length;
+      document.getElementById('count-streets').innerText = currentSearchResults.streets.length;
+
+      currentPage = 1;
+      setSearchFilter('all');
+    }
+
+    function setSearchFilter(tab, element) {
+      currentSearchTab = tab;
+      currentPage = 1;
+
+      document.querySelectorAll('.search-tabs .tab-btn').forEach(btn => btn.classList.remove('active'));
+      
+      if (element) {
+        element.classList.add('active');
+      } else {
+        const defaultBtn = document.querySelector(`.search-tabs .tab-btn[onclick*="'${tab}'"]`);
+        if (defaultBtn) defaultBtn.classList.add('active');
+      }
+
+      renderSearchResultsList();
+    }
+
+    function renderSearchResultsList() {
+      const listContainer = document.getElementById('search-results-list');
+      listContainer.innerHTML = '';
+
+      const dataset = currentSearchResults[currentSearchTab] || [];
+      const totalCount = dataset.length;
+      const totalPages = Math.ceil(totalCount / PAGE_SIZE) || 1;
+
+      document.getElementById('search-summary-text').innerText = `Found ${totalCount} matching record entries.`;
+
+      if (totalCount === 0) {
+        listContainer.innerHTML = '<p style="color: var(--muted); padding: 2rem 0;">No matching records found for this category filter.</p>';
+        document.getElementById('page-indicator').innerText = 'Page 0 of 0';
+        document.getElementById('prev-page').disabled = true;
+        document.getElementById('next-page').disabled = true;
+        return;
+      }
+
+      const startIdx = (currentPage - 1) * PAGE_SIZE;
+      const pageData = dataset.slice(startIdx, startIdx + PAGE_SIZE);
+
+      pageData.forEach(item => {
+        const card = document.createElement('a');
+        card.className = 'result-card';
+        card.href = item.hash;
+        card.innerHTML = `
+          <div class="result-main">
+            <div class="result-title">${item.title}</div>
+            <div class="result-sub">${item.sub}</div>
+          </div>
+          <div class="result-meta">
+            <div class="result-address">${item.address || 'Explore Street'}</div>
+          </div>
+        `;
+        listContainer.appendChild(card);
+      });
+
+      document.getElementById('page-indicator').innerText = `Page ${currentPage} of ${totalPages}`;
+      document.getElementById('prev-page').disabled = currentPage === 1;
+      document.getElementById('next-page').disabled = currentPage >= totalPages;
+    }
+
+    function changeSearchPage(delta) {
+      currentPage += delta;
+      renderSearchResultsList();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // --- All Streets View Rendering ---
+    function renderStreetsView() {
+      const streetMap = new Map();
+
+      directoryData.forEach(r => {
+        const cleanKey = cleanStr(r.street);
+        if (!cleanKey) return;
+
+        if (!streetMap.has(cleanKey)) {
+          streetMap.set(cleanKey, {
+            displayName: formatStreetName(r.street),
+            houses: new Set(),
+            recordsCount: 0,
+            namedBuildings: new Set(),
+            years: new Set()
+          });
+        }
+
+        const entry = streetMap.get(cleanKey);
+        entry.recordsCount++;
+
+        if (r.house_number && r.house_number !== '-' && r.house_number !== '0') {
+          entry.houses.add(r.house_number);
+        }
+        if (r.building_name) {
+          entry.namedBuildings.add(r.building_name);
+        }
+        if (r.year) {
+          entry.years.add(parseInt(r.year));
+        }
       });
 
       const sortedStreets = Array.from(streetMap.values()).sort((a, b) => a.displayName.localeCompare(b.displayName));
-      const container = document.getElementById('dir-year-content');
+      const container = document.getElementById('streets-content');
       container.innerHTML = '';
+
+      document.getElementById('streets-summary-text').innerText = 
+        `Index of ${sortedStreets.length} unique streets recorded across archive directory collections.`;
 
       let currentLetter = '';
       let currentGrid = null;
 
-      if (sortedStreets.length === 0) {
-        container.innerHTML = '<p style="color: var(--muted);">No records found for this directory year.</p>';
-        return;
-      }
-
       sortedStreets.forEach(data => {
         const firstLetter = data.displayName.charAt(0).toUpperCase();
         if (firstLetter !== currentLetter) {
-           currentLetter = firstLetter;
-           
-           const section = document.createElement('div');
-           section.className = 'alpha-section';
-           
-           const header = document.createElement('h2');
-           header.className = 'alpha-header';
-           header.innerText = currentLetter;
-           
-           currentGrid = document.createElement('div');
-           currentGrid.className = 'street-grid';
-           
-           section.appendChild(header);
-           section.appendChild(currentGrid);
-           container.appendChild(section);
+          currentLetter = firstLetter;
+
+          const section = document.createElement('div');
+          section.className = 'alpha-section';
+
+          const header = document.createElement('h2');
+          header.className = 'alpha-header';
+          header.innerText = currentLetter;
+
+          currentGrid = document.createElement('div');
+          currentGrid.className = 'street-grid';
+
+          section.appendChild(header);
+          section.appendChild(currentGrid);
+          container.appendChild(section);
         }
-        
-        const validHouses = Array.from(data.houses).filter(Boolean);
-        const propText = validHouses.length === 1 ? '1 Property Recorded' : `${validHouses.length} Properties Recorded`;
-        
+
+        const validHouses = Array.from(data.houses);
+        let propText = '';
+
+        if (validHouses.length > 0) {
+          propText = validHouses.length === 1 ? '1 Property' : `${validHouses.length} Properties`;
+        } else if (data.namedBuildings.size > 0) {
+          propText = `${data.namedBuildings.size} Named Premises`;
+        } else {
+          propText = `${data.recordsCount} Unnumbered Record${data.recordsCount > 1 ? 's' : ''}`;
+        }
+
+        const yearArray = Array.from(data.years).filter(y => !isNaN(y)).sort((a,b) => a - b);
+        let yearSpanText = '';
+        if (yearArray.length > 1) {
+          yearSpanText = `${yearArray[0]} – ${yearArray[yearArray.length - 1]}`;
+        } else if (yearArray.length === 1) {
+          yearSpanText = `${yearArray[0]} Directory`;
+        }
+
         const card = document.createElement('a');
         card.className = 'street-card';
         card.href = `#street=${encodeURIComponent(data.displayName)}`;
         card.innerHTML = `
           <div style="font-family: var(--heading-font); font-size: 1.85rem; color: var(--accent); margin-bottom: 0.25rem;">${data.displayName}</div>
-          <div class="occupant">${propText}</div>
+          <div class="occupant">${propText} • ${yearSpanText}</div>
         `;
         currentGrid.appendChild(card);
       });
     }
 
+    // --- Single Street View Rendering ---
     function renderStreetView(rawStreetName) {
       const displayName = formatStreetName(rawStreetName);
       document.getElementById('street-title').innerText = displayName;
       document.getElementById('street-heading').innerText = displayName;
 
       const streetRecords = directoryData.filter(r => cleanStr(r.street) === cleanStr(rawStreetName));
-      const houses = [...new Set(streetRecords.map(r => r.house_number))].filter(Boolean).sort((a,b) => parseInt(a) - parseInt(b));
+      const locationsMap = new Map();
+
+      streetRecords.forEach(r => {
+        let cleanSurname = (r.surname || '').replace(/^[-~\s]+/, '').trim();
+        let cleanForename = (r.forename || '').trim();
+        
+        let fullName = cleanForename ? `${cleanForename} ${cleanSurname}` : cleanSurname;
+        fullName = fullName.replace(/^[-~\s]+/, '').trim();
+
+        let key = '';
+        let displayTitle = '';
+        let isExplicitLocation = false;
+
+        if (r.building_name && r.building_name !== '-' && r.building_name !== '~' && r.building_name !== '0') {
+          key = cleanStr(r.building_name);
+          displayTitle = r.building_name;
+          isExplicitLocation = true;
+        } else if (r.house_number && r.house_number !== '-' && r.house_number !== '~' && r.house_number !== '0') {
+          key = cleanStr(r.house_number);
+          displayTitle = r.house_number;
+          isExplicitLocation = true;
+        } else if (fullName) {
+          key = cleanStr(fullName);
+          displayTitle = fullName;
+        }
+
+        if (!key) return;
+
+        if (!locationsMap.has(key)) {
+          locationsMap.set(key, {
+            key: key,
+            displayTitle: displayTitle,
+            isExplicitLocation: isExplicitLocation,
+            targetKey: (isExplicitLocation ? (r.building_name || r.house_number) : fullName),
+            records: []
+          });
+        }
+        locationsMap.get(key).records.push(r);
+      });
 
       const grid = document.getElementById('house-grid');
       grid.innerHTML = '';
 
-      if (houses.length === 0) {
+      if (locationsMap.size === 0) {
         grid.innerHTML = '<p style="color: var(--muted);">No matching property records found for this street.</p>';
         return;
       }
 
-      houses.forEach(num => {
-        const latestRecord = streetRecords
-          .filter(r => cleanStr(r.house_number) === cleanStr(num))
-          .sort((a,b) => parseInt(b.year) - parseInt(a.year))[0];
+      const sortedLocations = Array.from(locationsMap.values()).sort((a, b) => {
+        const numA = parseInt(a.displayTitle);
+        const numB = parseInt(b.displayTitle);
+        if (!isNaN(numA) && !isNaN(numB)) return numA - numB;
+        if (!isNaN(numA)) return -1;
+        if (!isNaN(numB)) return 1;
+        return a.displayTitle.localeCompare(b.displayTitle);
+      });
 
-        const expandedForename = expandForename(latestRecord ? latestRecord.forename : '');
-        const occupantName = latestRecord ? `${expandedForename} ${latestRecord.surname}`.trim() : '';
+      sortedLocations.forEach(loc => {
+        const maxYear = Math.max(...loc.records.map(r => parseInt(r.year)).filter(y => !isNaN(y)));
+        const latestRecords = loc.records.filter(r => parseInt(r.year) === maxYear);
+
+        let subText = '';
+
+        if (loc.isExplicitLocation) {
+          if (latestRecords.length === 1) {
+            const r = latestRecords[0];
+            const sName = (r.surname || '').replace(/^[-~\s]+/, '').trim();
+            const fName = (r.forename || '').trim();
+            const name = fName ? `${expandForename(fName)} ${sName}` : sName;
+            subText = name || cleanOccupation(r.trade);
+          } else {
+            const first = latestRecords[0];
+            const sName = (first.surname || '').replace(/^[-~\s]+/, '').trim();
+            const fName = (first.forename || '').trim();
+            const firstName = fName ? `${expandForename(fName)} ${sName}` : sName;
+            subText = `${firstName} + ${latestRecords.length - 1} other${latestRecords.length > 2 ? 's' : ''}`;
+          }
+        } else {
+          const r = latestRecords[0];
+          subText = cleanOccupation(r.trade);
+        }
+
+        let cleanTitle = loc.displayTitle.replace(/^[-~\s]+/, '').trim();
 
         const card = document.createElement('a');
         card.className = 'street-card';
-        card.href = `#house=${encodeURIComponent(displayName + '|' + num)}`;
+        card.href = `#house=${encodeURIComponent(displayName + '|' + loc.targetKey)}`;
         card.innerHTML = `
-          <div class="num">${num}</div>
-          <div class="occupant">${occupantName}</div>
+          <div class="num">${cleanTitle}</div>
+          <div class="occupant">${subText}</div>
         `;
         grid.appendChild(card);
       });
     }
 
-    function renderHouseView(rawStreetName, houseNum) {
+    // --- House & Building Timeline View State & Enhancements ---
+    let currentHouseRecords = [];
+    let currentTimelineEraFilter = 'all';
+    let currentActiveMediaMode = 'facade';
+
+    function filterTimeline(era, btn) {
+      currentTimelineEraFilter = era;
+      document.querySelectorAll('.era-filter-btn').forEach(b => b.classList.remove('active'));
+      if (btn) btn.classList.add('active');
+      renderTimelineItems();
+    }
+
+    function switchMediaMode(mode) {
+      currentActiveMediaMode = mode;
+      const imgElement = document.getElementById('property-image');
+      const mapIframe = document.getElementById('property-map');
+      const btnFacade = document.getElementById('media-btn-facade');
+      const btnMap = document.getElementById('media-btn-map');
+
+      if (mode === 'facade') {
+        if (btnFacade) btnFacade.classList.add('active');
+        if (btnMap) btnMap.classList.remove('active');
+        imgElement.style.display = 'block';
+        mapIframe.style.display = 'none';
+        document.getElementById('image-caption-title').innerText = 'Archival Facade View';
+      } else {
+        if (btnMap) btnMap.classList.add('active');
+        if (btnFacade) btnFacade.classList.remove('active');
+        imgElement.style.display = 'none';
+        mapIframe.style.display = 'block';
+        document.getElementById('image-caption-title').innerText = 'Interactive Location Map';
+      }
+    }
+
+    function copyCitation() {
+      const citationText = document.getElementById('citation-text').innerText;
+      navigator.clipboard.writeText(citationText).then(() => {
+        const btn = document.getElementById('citation-btn');
+        const orig = btn.innerText;
+        btn.innerText = '✓ Citation Copied!';
+        btn.style.background = '#c89d54';
+        btn.style.color = '#120f0d';
+        setTimeout(() => {
+          btn.innerText = orig;
+          btn.style.background = '';
+          btn.style.color = '';
+        }, 2000);
+      });
+    }
+
+    function renderHouseView(rawStreetName, locationKey) {
       const displayName = formatStreetName(rawStreetName);
-      document.getElementById('house-breadcrumb-num').innerText = `No. ${houseNum}`;
-      document.getElementById('house-number-display').innerText = houseNum;
+      const cleanLocKey = cleanStr(locationKey);
+
+      // 1. Gather all street properties to compute Prev / Next house navigation links
+      const streetRecords = directoryData.filter(r => cleanStr(r.street) === cleanStr(rawStreetName));
+      const locationKeysSet = new Set();
+      streetRecords.forEach(r => {
+        const target = r.building_name || r.house_number || `${expandForename(r.forename)} ${r.surname}`.trim();
+        if (target) locationKeysSet.add(target);
+      });
+
+      const sortedLocKeys = Array.from(locationKeysSet).sort((a, b) => {
+        const numA = parseInt(a);
+        const numB = parseInt(b);
+        if (!isNaN(numA) && !isNaN(numB)) return numA - numB;
+        if (!isNaN(numA)) return -1;
+        if (!isNaN(numB)) return 1;
+        return a.localeCompare(b);
+      });
+
+      const currentIdx = sortedLocKeys.findIndex(k => cleanStr(k) === cleanLocKey);
+      const prevBtn = document.getElementById('prev-house-btn');
+      const nextBtn = document.getElementById('next-house-btn');
+
+      if (currentIdx > 0) {
+        prevBtn.classList.remove('disabled');
+        prevBtn.href = `#house=${encodeURIComponent(displayName + '|' + sortedLocKeys[currentIdx - 1])}`;
+      } else {
+        prevBtn.classList.add('disabled');
+        prevBtn.href = '#';
+      }
+
+      if (currentIdx !== -1 && currentIdx < sortedLocKeys.length - 1) {
+        nextBtn.classList.remove('disabled');
+        nextBtn.href = `#house=${encodeURIComponent(displayName + '|' + sortedLocKeys[currentIdx + 1])}`;
+      } else {
+        nextBtn.classList.add('disabled');
+        nextBtn.href = '#';
+      }
+
+      // 2. Filter records for this exact house / location
+      currentHouseRecords = directoryData
+        .filter(r => {
+          if (cleanStr(r.street) !== cleanStr(rawStreetName)) return false;
+
+          const rHouseNum = cleanStr(r.house_number);
+          const rBldgName = cleanStr(r.building_name);
+          const fullName = cleanStr(`${expandForename(r.forename)} ${r.surname}`);
+
+          if (rBldgName && rBldgName === cleanLocKey) return true;
+          if (rHouseNum && rHouseNum === cleanLocKey && !rBldgName) return true;
+          if (!rHouseNum && !rBldgName && fullName === cleanLocKey) return true;
+
+          return false;
+        })
+        .sort((a, b) => parseInt(b.year) - parseInt(a.year));
+
+      const isNumeric = /^\d+[a-zA-Z]?$/.test(locationKey.trim());
+      const headerLabel = isNumeric ? locationKey : locationKey;
+      const breadcrumbLabel = isNumeric ? `No. ${locationKey}` : locationKey;
+
+      document.getElementById('house-breadcrumb-num').innerText = breadcrumbLabel;
+      document.getElementById('house-number-display').innerText = headerLabel;
       document.getElementById('house-street-display').innerText = displayName;
       
       const streetLink = document.getElementById('house-street-link');
       streetLink.innerText = displayName;
       streetLink.href = `#street=${encodeURIComponent(displayName)}`;
 
-      const records = directoryData
-        .filter(r => cleanStr(r.street) === cleanStr(rawStreetName) && cleanStr(r.house_number) === cleanStr(houseNum))
-        .sort((a, b) => parseInt(b.year) - parseInt(a.year));
-
-      document.getElementById('record-count').innerText = `${records.length} Records Found`;
-
+      document.getElementById('record-count').innerText = `${currentHouseRecords.length} Records Found`;
       document.getElementById('property-intro').innerText = 
-        `Historical directory timeline for No. ${houseNum} ${displayName}. Spanning ${records.length} recorded entries across archival street directories.`;
+        `Historical directory timeline for ${isNumeric ? 'No. ' + locationKey : locationKey} ${displayName}. Spanning ${currentHouseRecords.length} recorded entries across archival street directories.`;
 
+      // 3. Populate Property Quick Metrics Bar
+      const yearsArray = currentHouseRecords.map(r => parseInt(r.year)).filter(y => !isNaN(y)).sort((a,b) => a - b);
+      const earliestYr = yearsArray.length ? yearsArray[0] : '-';
+      const latestYr = yearsArray.length ? yearsArray[yearsArray.length - 1] : '-';
+      
+      document.getElementById('p-stat-earliest').innerText = earliestYr;
+      document.getElementById('p-stat-latest').innerText = latestYr;
+      document.getElementById('p-stat-total').innerText = currentHouseRecords.length;
+
+      const tradesList = currentHouseRecords.map(r => cleanOccupation(r.trade)).filter(t => t && t !== 'Residence / Private');
+      const primaryTrade = tradesList.length ? tradesList[0] : 'Private Residence';
+      document.getElementById('p-stat-primary-trade').innerText = primaryTrade.length > 18 ? primaryTrade.substring(0, 16) + '...' : primaryTrade;
+
+      // 4. Update Archival Citation Text
+      const citationText = `Newport Directory Archive — ${isNumeric ? 'No. ' + locationKey : locationKey} ${displayName}, Newport, Wales (${earliestYr}–${latestYr}).`;
+      document.getElementById('citation-text').innerText = citationText;
+
+      // 5. Media Image / Map Handling
       const imgElement = document.getElementById('property-image');
       const mapIframe = document.getElementById('property-map');
       
-      const buildingSlug = cleanStr(displayName) + houseNum;
+      const buildingSlug = cleanStr(displayName) + cleanStr(locationKey);
       const localAssetSrc = `/assets/images/properties/${buildingSlug}/archive/facade.jpg`;
-      const addressQuery = encodeURIComponent(`${houseNum} ${displayName}, Newport, Wales`);
+      const addressQuery = encodeURIComponent(`${isNumeric ? locationKey : ''} ${displayName}, Newport, Wales`);
+
+      mapIframe.src = `https://maps.google.com/maps?q=${addressQuery}&t=&z=17&ie=UTF8&iwloc=&output=embed`;
 
       const testImg = new Image();
       testImg.src = localAssetSrc;
 
       testImg.onload = function() {
         imgElement.src = localAssetSrc;
-        imgElement.style.display = 'block';
-        mapIframe.style.display = 'none';
-        document.getElementById('image-caption-title').innerText = 'Archival Facade View';
-        document.getElementById('image-caption-date').innerText = 'Archive Asset';
+        switchMediaMode('facade');
       };
 
       testImg.onerror = function() {
-        imgElement.style.display = 'none';
-        mapIframe.src = `https://maps.google.com/maps?q=${addressQuery}&t=&z=17&ie=UTF8&iwloc=&output=embed`;
-        mapIframe.style.display = 'block';
-        document.getElementById('image-caption-title').innerText = 'Interactive Location Map';
-        document.getElementById('image-caption-date').innerText = 'Newport, Wales';
+        switchMediaMode('map');
       };
 
+      // 6. Reset Era filter & render timeline items
+      currentTimelineEraFilter = 'all';
+      document.querySelectorAll('.era-filter-btn').forEach(b => b.classList.remove('active'));
+      const allEraBtn = document.querySelector('.era-filter-btn[onclick*="\'all\'"]');
+      if (allEraBtn) allEraBtn.classList.add('active');
+
+      renderTimelineItems();
+    }
+
+    function renderTimelineItems() {
       const timeline = document.getElementById('timeline-list');
       timeline.innerHTML = '';
 
-      if (records.length === 0) {
-        timeline.innerHTML = '<li class="timeline-item"><div class="timeline-trade">No historical records available for this number.</div></li>';
+      let filteredRecords = currentHouseRecords;
+      if (currentTimelineEraFilter !== 'all') {
+        filteredRecords = currentHouseRecords.filter(r => {
+          const era = getEraTag(r.year);
+          if (currentTimelineEraFilter === 'Victorian') return era === 'Late Victorian';
+          if (currentTimelineEraFilter === 'Edwardian') return era === 'Edwardian Era';
+          if (currentTimelineEraFilter === 'Interwar') return era === 'Interwar Period' || era === 'Post-War Era';
+          return true;
+        });
+      }
+
+      if (filteredRecords.length === 0) {
+        timeline.innerHTML = '<li class="timeline-item"><div class="timeline-trade">No historical records available for this selected era filter.</div></li>';
         return;
       }
 
-      records.forEach((r, idx) => {
-        const era = getEraTag(r.year);
+      const yearGroupsMap = new Map();
+      filteredRecords.forEach(r => {
+        if (!yearGroupsMap.has(r.year)) {
+          yearGroupsMap.set(r.year, []);
+        }
+        yearGroupsMap.get(r.year).push(r);
+      });
+
+      const sortedYears = Array.from(yearGroupsMap.keys()).sort((a,b) => parseInt(b) - parseInt(a));
+
+      sortedYears.forEach((yr, idx) => {
+        const yearRecords = yearGroupsMap.get(yr);
+        const era = getEraTag(yr);
         
         let gapNote = '';
-        if (idx < records.length - 1) {
-          const diff = parseInt(r.year) - parseInt(records[idx + 1].year);
+        if (idx < sortedYears.length - 1) {
+          const diff = parseInt(yr) - parseInt(sortedYears[idx + 1]);
           gapNote = `${diff}-Yr Interval`;
         } else {
           gapNote = 'Earliest Entry';
         }
 
-        const displayTrade = cleanOccupation(r.trade);
-        const expandedForename = expandForename(r.forename);
-        const fullResidentName = `${expandedForename} ${r.surname}`.trim();
+        let occupantsHTML = '';
+        yearRecords.forEach(r => {
+          const displayTrade = cleanOccupation(r.trade);
+          const expandedForename = expandForename(r.forename);
+          const fullResidentName = `${expandedForename} ${r.surname}`.trim();
+
+          const searchNameHash = `#search=${encodeURIComponent(fullResidentName)}`;
+          const searchTradeHash = `#search=${encodeURIComponent(displayTrade)}`;
+
+          occupantsHTML += `
+            <div class="occupant-entry">
+              <a href="${searchNameHash}" class="timeline-name clickable-occupant-name" title="Search all records for ${fullResidentName}">${fullResidentName}</a>
+              <div><a href="${searchTradeHash}" class="timeline-trade clickable-trade-tag" title="Search all ${displayTrade} entries">${displayTrade}</a></div>
+            </div>
+          `;
+        });
 
         const li = document.createElement('li');
         li.className = 'timeline-item';
         li.innerHTML = `
           <div class="timeline-card">
             <div class="timeline-top">
-              <span class="timeline-year">${r.year}</span>
+              <span class="timeline-year">${yr}</span>
               <span class="era-badge">${era}</span>
             </div>
-            <div class="timeline-name">${fullResidentName}</div>
-            <div class="timeline-trade">${displayTrade}</div>
+            <div class="occupants-list">
+              ${occupantsHTML}
+            </div>
             <div class="timeline-meta">
               <span>${gapNote}</span>
-              ${r.building_name ? `<span>• ${r.building_name}</span>` : ''}
+              <span>• ${yearRecords.length} Occupant${yearRecords.length > 1 ? 's' : ''}</span>
             </div>
           </div>
         `;
