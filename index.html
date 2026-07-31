@@ -957,6 +957,7 @@
         <div class="property-heading-line">
           <span class="street" id="street-heading">Properties</span>
         </div>
+        <div class="property-intro-text" id="street-intro" style="margin-top: 0.5rem; color: var(--muted); font-size: 1.05rem;"></div>
       </div>
     </div>
     <div class="content-container page-width">
@@ -1312,7 +1313,7 @@
           }
         }
 
-        const quotedCol = cols.find(c => c && c.includes(','));
+        const quotedCol = [cols[4], cols[5]].find(c => c && c.includes(','));
         if (quotedCol && (!surname || !forename)) {
           const parts = quotedCol.split(',').map(p => p.trim());
           if (parts.length >= 1) surname = parts[0].replace(/^[-~\s]+/, '');
@@ -1326,13 +1327,8 @@
 
         if (isBusinessOrStatus) {
           if (surname && forename) {
-            if (/^&|&$/i.test(forename.trim())) {
-              surname = `${surname} ${forename}`.trim();
-              forename = '';
-            } else {
-              surname = `${forename} ${surname}`.trim();
-              forename = '';
-            }
+            surname = `${surname} ${forename}`.trim();
+            forename = '';
           }
         } else if (forename) {
           const match = forename.match(/^(.*?)\s*[-~]\s*([a-z].*)$/i) || forename.match(/^([A-Z][A-Za-z\.]*(?:\s+[A-Z][A-Za-z\.]*)*)\s+([a-z].*)$/);
@@ -1734,6 +1730,24 @@
       document.getElementById('street-heading').innerText = displayName;
 
       const streetRecords = directoryData.filter(r => cleanStr(r.street) === cleanStr(rawStreetName));
+
+      // Calculate street development origin era
+      const streetYears = streetRecords.map(r => parseInt(r.year)).filter(y => !isNaN(y)).sort((a,b) => a - b);
+      const firstYr = streetYears.length ? streetYears[0] : 1876;
+      const lastYr = streetYears.length ? streetYears[streetYears.length - 1] : 1950;
+      
+      let eraText = '';
+      if (firstYr <= 1876) eraText = '📜 Victorian Core Street (Recorded since 1876)';
+      else if (firstYr <= 1897) eraText = `🏛️ Late Victorian Urban Expansion (First recorded in ${firstYr} directory)`;
+      else if (firstYr <= 1914) eraText = `🏡 Edwardian Housing Expansion (First recorded in ${firstYr} directory)`;
+      else if (firstYr <= 1939) eraText = `🌳 Interwar Garden Suburb / Municipal Estate (First recorded in ${firstYr} directory)`;
+      else eraText = `🏗️ Post-War Development (First recorded in ${firstYr} directory)`;
+
+      const introElem = document.getElementById('street-intro');
+      if (introElem) {
+        introElem.innerText = `${eraText}. Recorded across ${streetRecords.length} directory entries from ${firstYr} to ${lastYr}.`;
+      }
+
       const locationsMap = new Map();
 
       streetRecords.forEach(r => {
@@ -1747,13 +1761,13 @@
         let displayTitle = '';
         let isExplicitLocation = false;
 
-        if (r.building_name && r.building_name !== '-' && r.building_name !== '~' && r.building_name !== '0') {
-          key = cleanStr(r.building_name);
-          displayTitle = r.building_name;
-          isExplicitLocation = true;
-        } else if (r.house_number && r.house_number !== '-' && r.house_number !== '~' && r.house_number !== '0') {
+        if (r.house_number && r.house_number !== '-' && r.house_number !== '~' && r.house_number !== '0') {
           key = cleanStr(r.house_number);
           displayTitle = r.house_number;
+          isExplicitLocation = true;
+        } else if (r.building_name && r.building_name !== '-' && r.building_name !== '~' && r.building_name !== '0') {
+          key = cleanStr(r.building_name);
+          displayTitle = r.building_name;
           isExplicitLocation = true;
         } else if (fullName) {
           key = cleanStr(fullName);
@@ -1767,7 +1781,7 @@
             key: key,
             displayTitle: displayTitle,
             isExplicitLocation: isExplicitLocation,
-            targetKey: (isExplicitLocation ? (r.building_name || r.house_number) : fullName),
+            targetKey: (r.house_number || r.building_name || fullName),
             records: []
           });
         }
@@ -1782,12 +1796,17 @@
         return;
       }
 
+      // Hybrid Spatial Sort: Numbered properties sort numerically (1, 2, 3... 12, 14), followed by named premises
       const sortedLocations = Array.from(locationsMap.values()).sort((a, b) => {
-        const numA = parseInt(a.displayTitle);
-        const numB = parseInt(b.displayTitle);
-        if (!isNaN(numA) && !isNaN(numB)) return numA - numB;
-        if (!isNaN(numA)) return -1;
-        if (!isNaN(numB)) return 1;
+        const parseNum = (str) => {
+          const m = str.match(/^(\d+)/);
+          return m ? parseInt(m[1]) : null;
+        };
+        const numA = parseNum(a.displayTitle);
+        const numB = parseNum(b.displayTitle);
+        if (numA !== null && numB !== null) return numA - numB;
+        if (numA !== null) return -1;
+        if (numB !== null) return 1;
         return a.displayTitle.localeCompare(b.displayTitle);
       });
 
@@ -1883,24 +1902,33 @@
       const displayName = formatStreetName(rawStreetName);
       const cleanLocKey = cleanStr(locationKey);
 
+      // Extract leading house number prefix if present (e.g. "35-35A" from "35-35A Smith W. H. & Son")
+      const numMatch = locationKey.trim().match(/^(\d+[a-zA-Z]?(?:-\d+[a-zA-Z]?)?)/);
+      const extractedHouseNum = numMatch ? numMatch[1] : locationKey;
+      const cleanExtractedNum = cleanStr(extractedHouseNum);
+
       // 1. Gather all street properties to compute Prev / Next house navigation links
       const streetRecords = directoryData.filter(r => cleanStr(r.street) === cleanStr(rawStreetName));
       const locationKeysSet = new Set();
       streetRecords.forEach(r => {
-        const target = r.building_name || r.house_number || `${expandForename(r.forename)} ${r.surname}`.trim();
+        const target = r.house_number || r.building_name || `${expandForename(r.forename)} ${r.surname}`.trim();
         if (target) locationKeysSet.add(target);
       });
 
       const sortedLocKeys = Array.from(locationKeysSet).sort((a, b) => {
-        const numA = parseInt(a);
-        const numB = parseInt(b);
-        if (!isNaN(numA) && !isNaN(numB)) return numA - numB;
-        if (!isNaN(numA)) return -1;
-        if (!isNaN(numB)) return 1;
+        const parseNum = (str) => {
+          const m = str.match(/^(\d+)/);
+          return m ? parseInt(m[1]) : null;
+        };
+        const numA = parseNum(a);
+        const numB = parseNum(b);
+        if (numA !== null && numB !== null) return numA - numB;
+        if (numA !== null) return -1;
+        if (numB !== null) return 1;
         return a.localeCompare(b);
       });
 
-      const currentIdx = sortedLocKeys.findIndex(k => cleanStr(k) === cleanLocKey);
+      const currentIdx = sortedLocKeys.findIndex(k => cleanStr(k) === cleanLocKey || cleanStr(k) === cleanExtractedNum);
       const prevBtn = document.getElementById('prev-house-btn');
       const nextBtn = document.getElementById('next-house-btn');
 
@@ -1929,17 +1957,18 @@
           const rBldgName = cleanStr(r.building_name);
           const fullName = cleanStr(`${expandForename(r.forename)} ${r.surname}`);
 
-          if (rBldgName && rBldgName === cleanLocKey) return true;
-          if (rHouseNum && rHouseNum === cleanLocKey && !rBldgName) return true;
-          if (!rHouseNum && !rBldgName && fullName === cleanLocKey) return true;
+          if (rBldgName && (rBldgName === cleanLocKey || rBldgName === cleanExtractedNum)) return true;
+          if (rHouseNum && (rHouseNum === cleanLocKey || rHouseNum === cleanExtractedNum) && !rBldgName) return true;
+          if (!rHouseNum && !rBldgName && (fullName === cleanLocKey || cleanLocKey.includes(fullName))) return true;
 
           return false;
         })
         .sort((a, b) => parseInt(b.year) - parseInt(a.year));
 
-      const isNumeric = /^\d+[a-zA-Z]?$/.test(locationKey.trim());
-      const headerLabel = isNumeric ? locationKey : locationKey;
-      const breadcrumbLabel = isNumeric ? `No. ${locationKey}` : locationKey;
+      const displayLocationLabel = numMatch ? extractedHouseNum : locationKey;
+      const isNumeric = /^\d+[a-zA-Z]?(?:-\d+[a-zA-Z]?)?$/.test(displayLocationLabel.trim());
+      const headerLabel = displayLocationLabel;
+      const breadcrumbLabel = isNumeric ? `No. ${displayLocationLabel}` : displayLocationLabel;
 
       document.getElementById('house-breadcrumb-num').innerText = breadcrumbLabel;
       document.getElementById('house-number-display').innerText = headerLabel;
@@ -1970,15 +1999,67 @@
       const citationText = `Newport Directory Archive — ${isNumeric ? 'No. ' + locationKey : locationKey} ${displayName}, Newport, Wales (${earliestYr}–${latestYr}).`;
       document.getElementById('citation-text').innerText = citationText;
 
-      // 5. Media Image / Map Handling
+      // 5. Media Image / Map Handling & Comprehensive Historical Location Mapping
       const imgElement = document.getElementById('property-image');
-      const mapIframe = document.getElementById('property-map');
+      const oldMapIframe = document.getElementById('property-map');
       
+      const HISTORICAL_LOCATION_MAPS = {
+        // Municipal Fire Brigade
+        'firestationflats': { address: 'Dock Street, Newport, Wales', note: 'Demolished Municipal Fire Brigade Quarters (1930s). Historically located off Dock Street.' },
+        'firestationcottages': { address: 'Dock Street, Newport, Wales', note: 'Demolished Municipal Fire Brigade Staff Cottages (1930s). Historically located off Dock Street.' },
+        
+        // Newport Town Dock & Wharves (Infilled 1930s)
+        'docktown': { address: 'Commercial Road, Newport, Wales', note: 'Historic Newport Town Dock (1842–1930s, infilled). Now George Street Bridge / Commercial Road area.' },
+        'dockthetown': { address: 'Commercial Road, Newport, Wales', note: 'Historic Newport Town Dock (1842–1930s, infilled). Now George Street Bridge / Commercial Road area.' },
+        'docktheold': { address: 'Commercial Road, Newport, Wales', note: 'Historic Newport Old Town Dock (infilled 1930s).' },
+        'dockstreetwharves': { address: 'Dock Street, Newport, Wales', note: 'Historic Town Dock Wharves Area (Redeveloped).' },
+        'dockparade': { address: 'Commercial Road, Newport, Wales', note: 'Historic Town Dock East Parade (Redeveloped 1930s).' },
+        
+        // Friars Walk / Austin Friars Area (Redeveloped 2015)
+        'austinfriars': { address: 'Friars Walk, Newport, Wales', note: 'Historic Austin Friars Friary Site. Redeveloped into modern Friars Walk & Kingsway (2015).' },
+        'austinfriarschambers': { address: 'Friars Walk, Newport, Wales', note: 'Historic Austin Friars Chambers. Site now part of Friars Walk & Kingsway.' },
+        
+        // Monmouthshire Canal Basin (Infilled 1930s for Kingsway A4042)
+        'canalbank': { address: 'Kingsway, Newport, Wales', note: 'Monmouthshire Canal Newport Basin (Infilled 1930s). Now Kingsway / A4042 carriageway.' },
+        'canalparade': { address: 'Kingsway, Newport, Wales', note: 'Monmouthshire Canal Basin Parade (Infilled 1930s). Now Kingsway.' },
+        'canalstreet': { address: 'Kingsway, Newport, Wales', note: 'Monmouthshire Canal Basin Street (Infilled 1930s). Now Kingsway.' },
+        'canalterrace': { address: 'Kingsway, Newport, Wales', note: 'Monmouthshire Canal Basin Terrace (Infilled 1930s).' },
+
+        // Military Barracks (Chartist Uprising 1839 era)
+        'barracklane': { address: 'Cardiff Road, Newport, Wales', note: 'Historic Newport Military Barracks Lane (1839 Chartist Era Barracks site).' },
+        'barrackroad': { address: 'Cardiff Road, Newport, Wales', note: 'Historic Newport Military Barracks Road (Chartist Era site).' },
+
+        // Courtybella Ironworks & Tramroads
+        'courtybella': { address: 'Cardiff Road, Newport, Wales', note: 'Historic Courtybella Ironworks & Tramroad Siding (Cardiff Road area).' },
+        'courtybellastreet': { address: 'Cardiff Road, Newport, Wales', note: 'Historic Courtybella Ironworks Housing (Cardiff Road area).' },
+        'courtybellaterrace': { address: 'Cardiff Road, Newport, Wales', note: 'Historic Courtybella Ironworks Housing (Cardiff Road area).' },
+
+        // Workhouse & Institutional
+        'workhousecottages': { address: 'Stow Hill, Newport, Wales', note: 'Former Union Workhouse Quarters, Stow Hill (now St Woolos Hospital campus).' }
+      };
+
+      const streetKey = cleanStr(displayName);
+      const histConfig = HISTORICAL_LOCATION_MAPS[streetKey];
+
       const buildingSlug = cleanStr(displayName) + cleanStr(locationKey);
       const localAssetSrc = `/assets/images/properties/${buildingSlug}/archive/facade.jpg`;
-      const addressQuery = encodeURIComponent(`${isNumeric ? locationKey : ''} ${displayName}, Newport, Wales`);
+      const targetAddress = histConfig ? histConfig.address : `${isNumeric ? locationKey : ''} ${displayName}, Newport, Wales`;
+      const addressQuery = encodeURIComponent(targetAddress);
+      const mapUrl = `https://maps.google.com/maps?q=${addressQuery}&t=&z=17&ie=UTF8&iwloc=&output=embed`;
 
-      mapIframe.src = `https://maps.google.com/maps?q=${addressQuery}&t=&z=17&ie=UTF8&iwloc=&output=embed`;
+      const introElem = document.getElementById('property-intro');
+      if (histConfig) {
+        introElem.innerText = `🏛️ Historic Site Notice: ${histConfig.note} Spanning ${currentHouseRecords.length} recorded entries in archival street directories.`;
+      }
+
+      if (oldMapIframe && oldMapIframe.parentNode) {
+        const newIframe = document.createElement('iframe');
+        newIframe.id = 'property-map';
+        newIframe.setAttribute('loading', 'lazy');
+        newIframe.style.display = oldMapIframe.style.display;
+        newIframe.src = mapUrl;
+        oldMapIframe.parentNode.replaceChild(newIframe, oldMapIframe);
+      }
 
       const testImg = new Image();
       testImg.src = localAssetSrc;
@@ -2035,14 +2116,6 @@
         const yearRecords = yearGroupsMap.get(yr);
         const era = getEraTag(yr);
         
-        let gapNote = '';
-        if (idx < sortedYears.length - 1) {
-          const diff = parseInt(yr) - parseInt(sortedYears[idx + 1]);
-          gapNote = `${diff}-Yr Interval`;
-        } else {
-          gapNote = 'Earliest Entry';
-        }
-
         let occupantsHTML = '';
         yearRecords.forEach(r => {
           const displayTrade = cleanOccupation(r.trade);
@@ -2072,8 +2145,7 @@
               ${occupantsHTML}
             </div>
             <div class="timeline-meta">
-              <span>${gapNote}</span>
-              <span>• ${yearRecords.length} Occupant${yearRecords.length > 1 ? 's' : ''}</span>
+              <span>${yearRecords.length} Occupant${yearRecords.length > 1 ? 's' : ''}</span>
             </div>
           </div>
         `;
