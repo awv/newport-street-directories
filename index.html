@@ -1272,31 +1272,31 @@
     const autocompleteContainer = document.getElementById('autocomplete-results');
 
     if (searchInput && autocompleteContainer) {
-      searchInput.addEventListener('input', () => {
+      searchInput.addEventListener('input', async () => {
         const query = searchInput.value.trim().toLowerCase();
         
-        if (query.length < 2 || !directoryData.length) {
+        if (query.length < 2) {
           autocompleteContainer.classList.remove('active');
           return;
         }
 
-        const matchingStreets = uniqueStreets
-          .filter(s => cleanStr(s).includes(cleanStr(query)))
-          .slice(0, 3);
+        const indexData = await loadSearchIndex();
+
+        const matchingStreets = (masterStreetsList || [])
+          .filter(s => s.displayName.toLowerCase().includes(query))
+          .slice(0, 3)
+          .map(s => s.displayName);
         
         const matchingPeopleMap = new Map();
-        for (const r of directoryData) {
-          const forename = r.forename ? expandForename(r.forename) : '';
-          const surname = r.surname || '';
-          const fullName = `${forename} ${surname}`.trim();
-          
+        for (const r of (indexData || [])) {
+          const fullName = r.n || '';
           if (fullName.toLowerCase().includes(query) && !matchingPeopleMap.has(fullName.toLowerCase())) {
-            const locLabel = r.house_number ? `No. ${r.house_number}` : (r.building_name || 'Street');
+            const locLabel = r.k ? `${r.k}` : 'Street';
             matchingPeopleMap.set(fullName.toLowerCase(), {
               name: fullName,
-              street: formatStreetName(r.street),
-              targetKey: r.building_name || r.house_number,
-              tag: `${locLabel} ${formatStreetName(r.street)}`
+              street: r.s,
+              targetKey: r.k,
+              tag: `${locLabel} ${r.s}`
             });
             if (matchingPeopleMap.size >= 3) break;
           }
@@ -1304,8 +1304,8 @@
         const matchingPeople = Array.from(matchingPeopleMap.values());
 
         const matchingOccupationsSet = new Set();
-        for (const r of directoryData) {
-          const displayTrade = cleanOccupation(r.trade);
+        for (const r of (indexData || [])) {
+          const displayTrade = cleanOccupation(r.t);
           if (
             displayTrade &&
             displayTrade !== 'Residence / Private' &&
@@ -1841,16 +1841,14 @@
       }
 
       // 2. Filter records for this exact house / location
-      currentHouseRecords = directoryData
+      currentHouseRecords = streetRecords
         .filter(r => {
-          if (cleanStr(r.street) !== cleanStr(rawStreetName)) return false;
-
           const rHouseNum = cleanStr(r.house_number);
           const rBldgName = cleanStr(r.building_name);
           const fullName = cleanStr(`${expandForename(r.forename)} ${r.surname}`);
 
+          if (rHouseNum && (rHouseNum === cleanLocKey || rHouseNum === cleanExtractedNum)) return true;
           if (rBldgName && (rBldgName === cleanLocKey || rBldgName === cleanExtractedNum)) return true;
-          if (rHouseNum && (rHouseNum === cleanLocKey || rHouseNum === cleanExtractedNum) && !rBldgName) return true;
           if (!rHouseNum && !rBldgName && (fullName === cleanLocKey || cleanLocKey.includes(fullName))) return true;
 
           return false;
