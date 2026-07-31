@@ -57,6 +57,65 @@
       }
     },
     {
+      "reason": "Crindau Road 1897: Map unnumbered Geo Jones to House 8.",
+      "match": {
+        "street": "Crindau Road",
+        "year": "1897",
+        "surname": "Jones",
+        "forename_contains": "Geo"
+      },
+      "apply": {
+        "house_number": "8"
+      }
+    },
+    {
+      "reason": "Crindau Road 1897: Map unnumbered Geo Pritchard to House 10.",
+      "match": {
+        "street": "Crindau Road",
+        "year": "1897",
+        "surname": "Pritchard",
+        "forename_contains": "Geo"
+      },
+      "apply": {
+        "house_number": "10"
+      }
+    },
+    {
+      "reason": "Crindau Road 1897: Map unnumbered Philip Bailey to House 12.",
+      "match": {
+        "street": "Crindau Road",
+        "year": "1897",
+        "surname": "Bailey",
+        "forename_contains": "Philip"
+      },
+      "apply": {
+        "house_number": "12"
+      }
+    },
+    {
+      "reason": "Crindau Road 1897: Unify Glass Works Manager's House building_name.",
+      "match": {
+        "street": "Crindau Road",
+        "year": "1897",
+        "building_name": "manager's house"
+      },
+      "apply": {
+        "building_name": ""
+      }
+    },
+    {
+      "reason": "Crindau Road 1905: Map Mrs. W. H. Willis to House 3.",
+      "match": {
+        "street": "Crindau Road",
+        "year": "1905",
+        "surname": "Willis",
+        "forename_contains": "Mrs"
+      },
+      "apply": {
+        "house_number": "3"
+      }
+    },
+    {
       "reason": "High Street: Standardize 35-35A W.H. Smith & Son branch.",
       "match": {
         "street": "High Street",

@@ -37,7 +37,9 @@ CROSS_STREET_REGEX = re.compile(
     r'|^\s*\[?(?:here\s+are|here\s+is|here\s+cross|\[?return\]?|\(return\.?\)|return\.?)\]?\b'
     r'|^\s*[\(\[]?\s*return\.?\s*[\)\]]?\s*$'
     r'|^\s*see\s+also\s+[A-Za-z]+'
-    r'|^\s*(?:maindee|newport|pill)from\b',
+    r'|^\s*(?:maindee|newport|pill)from\b'
+    r'|^\s*from\s+[A-Za-z\s]+'
+    r'|^\s*[A-Za-z\s]+street\s+from\b',
     re.I
 )
 
