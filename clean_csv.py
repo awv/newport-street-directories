@@ -106,10 +106,20 @@ def clean_record(row):
 
     # Crindau Road Beckwith & Crindau House normalization
     if street == "Crindau Road":
-        if bldg_name == "John Crindau House":
+        combined_crindau = f"{bldg_name} {surname} {forename} {trade}"
+        if "Crindau House" in combined_crindau:
             bldg_name = "Crindau House"
-            if not forename and surname == "Hutchins":
-                forename = "John"
+            if "Jones" in combined_crindau:
+                surname = "Jones"
+                if "Griffith" in combined_crindau:
+                    forename = "Griffith J."
+                    trade = "Justice of the Peace"
+                elif "Theophilus" in combined_crindau:
+                    forename = "Theophilus"
+        elif surname == "Jones" and "Griffith" in forename:
+            bldg_name = "Crindau House"
+            forename = "Griffith J."
+            trade = "Justice of the Peace"
         elif bldg_name == "Beckwith" and not house_num:
             house_num = "1"
 
