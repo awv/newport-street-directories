@@ -1204,157 +1204,67 @@
       window.location.hash = `#search=${encodeURIComponent(query)}`;
     }
 
-    async function loadData() {
+    function cleanSlug(text) {
+      if (!text) return '';
+      return text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') || 'unnamed';
+    }
+
+    let masterStreetsList = [];
+    const streetCacheMap = new Map();
+    let searchIndexData = null;
+    let isSearchLoading = false;
+
+    async function loadMasterStreets() {
+      if (masterStreetsList.length) return masterStreetsList;
       try {
-        const response = await fetch('data.csv');
-        const text = await response.text();
-        directoryData = parseCSV(text);
+        const response = await fetch('data/streets.json');
+        masterStreetsList = await response.json();
+        uniqueStreets = masterStreetsList.map(s => s.displayName);
 
-        const streetSet = new Map();
-        directoryData.forEach(r => {
-          const formatted = formatStreetName(r.street);
-          const cleaned = cleanStr(r.street);
-          if (cleaned && !streetSet.has(cleaned)) {
-            streetSet.set(cleaned, formatted);
-          }
-        });
-        uniqueStreets = Array.from(streetSet.values()).sort();
-
-        // Dynamically update home page stat counters
+        // Update home stat counters
+        const totalRecords = masterStreetsList.reduce((acc, s) => acc + s.recordsCount, 0);
         const recordsElem = document.getElementById('stat-records-count');
-        if (recordsElem) recordsElem.innerText = directoryData.length.toLocaleString();
+        if (recordsElem) recordsElem.innerText = totalRecords.toLocaleString();
         
         const streetsElem = document.getElementById('stat-streets-count');
-        if (streetsElem) streetsElem.innerText = `${uniqueStreets.length}+`;
+        if (streetsElem) streetsElem.innerText = `${masterStreetsList.length}+`;
+
+        return masterStreetsList;
       } catch (err) {
-        console.error("Failed loading data.csv", err);
+        console.error("Failed loading data/streets.json", err);
+        return [];
       }
     }
 
-    function parseCSV(text) {
-      const lines = text.trim().split('\n');
-      if (lines.length <= 1) return [];
+    async function loadStreetData(rawStreetName) {
+      const slug = cleanSlug(rawStreetName);
+      if (streetCacheMap.has(slug)) return streetCacheMap.get(slug);
 
-      const ignoredPhrases = [
-        "newport", "past", "search", "records", "maritime", 
-        "20th century", "19th century", "early history", "gallery", 
-        "home", "back", "many thanks", "butcher's", "butchers"
-      ];
-
-      const parsedRecords = [];
-      
-      let activeStreetKey = '';
-      let activeYear = '';
-      let activeHouseNum = '';
-      let activeBuildingName = '';
-
-      for (let i = 1; i < lines.length; i++) {
-        const line = lines[i].trim();
-        if (!line) continue;
-
-        const rawStr = line.toLowerCase();
-        if (ignoredPhrases.some(p => rawStr.includes(p))) continue;
-
-        const cols = line.split(/,(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)/).map(c => c ? c.replace(/^"|"$/g, '').trim() : '');
-        if (cols.length < 2) continue;
-
-        const year = cols[0] || '';
-        const street = cols[1] || '';
-        let houseNumber = cols[2] || '';
-        let buildingName = cols[3] || '';
-        let surname = cols[4] || '';
-        let forename = cols[5] || '';
-        let trade = cols[6] || '';
-
-        surname = surname.replace(/^[-~\s]+/, '').trim();
-        houseNumber = houseNumber.replace(/^[-~\s]+/, '').trim();
-
-        // Reset street-level context if street or year changes
-        if (cleanStr(street) !== activeStreetKey || year !== activeYear) {
-          activeStreetKey = cleanStr(street);
-          activeYear = year;
-          activeHouseNum = '';
-          activeBuildingName = '';
-        }
-
-        // Check if raw line defines a structural building heading (e.g. "PENCRAIG FLATS")
-        const rawEntityName = `${surname} ${forename}`.trim();
-        const isBuildingHeading = /\b(chambers|arcade|hotel|house|inn|vaults|depot|station|chmbrs|flats|mansions|court)\b/i.test(rawEntityName) && !trade;
-
-        if (isBuildingHeading) {
-          activeHouseNum = ''; // Hard reset street house number
-          activeBuildingName = formatStreetName(rawEntityName);
-          continue;
-        }
-
-        if (houseNumber === '-' || houseNumber === '~') houseNumber = '';
-
-        // Reset active building name when encountering a distinct house number without explicit building column data
-        if (houseNumber && !cols[3]) {
-          activeBuildingName = '';
-        }
-
-        // IF INSIDE A NAMED BUILDING BLOCK (e.g. Pencraig Flats):
-        if (activeBuildingName) {
-          if (houseNumber) {
-            buildingName = `${activeBuildingName} ${houseNumber}`;
-            houseNumber = ''; // Strip from street house_number so it doesn't match No. 1 Street
-          } else {
-            buildingName = activeBuildingName;
-          }
-        } else {
-          // Normal street property behavior
-          if (houseNumber) {
-            activeHouseNum = houseNumber;
-            if (buildingName) activeBuildingName = buildingName;
-          } else {
-            houseNumber = activeHouseNum;
-            if (!buildingName) buildingName = activeBuildingName;
-          }
-        }
-
-        const quotedCol = [cols[4], cols[5]].find(c => c && c.includes(','));
-        if (quotedCol && (!surname || !forename)) {
-          const parts = quotedCol.split(',').map(p => p.trim());
-          if (parts.length >= 1) surname = parts[0].replace(/^[-~\s]+/, '');
-          if (parts.length >= 2) forename = parts[1];
-          if (parts.length >= 3) trade = parts.slice(2).join(', ');
-        }
-
-        const combinedRaw = `${forename} ${surname}`.trim();
-        const isBusinessOrStatus = /\b(&|ltd|limited|co|company|sons|bros|brothers|shop|void|stores|chambers|works|inn|hotel|arms|vaults|depot|society)\b/i.test(combinedRaw) ||
-                                  /\b(&|ltd|limited|co|company|sons|bros|brothers|shop|void|stores|chambers|works|inn|hotel|arms|vaults|depot|society)\b/i.test(surname);
-
-        if (isBusinessOrStatus) {
-          if (surname && forename) {
-            surname = `${surname} ${forename}`.trim();
-            forename = '';
-          }
-        } else if (forename) {
-          const match = forename.match(/^(.*?)\s*[-~]\s*([a-z].*)$/i) || forename.match(/^([A-Z][A-Za-z\.]*(?:\s+[A-Z][A-Za-z\.]*)*)\s+([a-z].*)$/);
-          if (match && match[2] && match[2].trim() !== '-') {
-            forename = match[1].trim();
-            let extractedTrade = match[2].replace(/^[-~\s]+/, '').trim();
-            trade = (!trade || trade === '-' || trade.toLowerCase() === 'residence / private')
-              ? extractedTrade
-              : `${extractedTrade}, ${trade}`;
-          }
-          forename = forename.replace(/\s*[-~]+\s*$/, '').trim();
-        }
-
-        if (trade) {
-          trade = trade.replace(/^[-~\s]+|[-~\s]+$/g, '').trim();
-          if (trade && (trade.length > 60 || /\d+[A-Za-z]/.test(trade))) {
-            const match = trade.match(/^([A-Za-z\s\/&]+?)(?=\d+[A-Z]|$)/);
-            trade = (match && match[1]) ? match[1].trim() : '';
-          }
-        }
-
-        if (/^\d+(st|nd|rd|th)\s+floor$/i.test(combinedRaw) && !trade) continue;
-
-        parsedRecords.push({ year, street, house_number: houseNumber, building_name: buildingName, surname, forename, trade });
+      try {
+        const response = await fetch(`data/streets/${slug}.json`);
+        if (!response.ok) return { records: [], summary: {} };
+        const data = await response.json();
+        streetCacheMap.set(slug, data);
+        return data;
+      } catch (err) {
+        console.error(`Failed loading street JSON for ${slug}`, err);
+        return { records: [], summary: {} };
       }
-      return parsedRecords;
+    }
+
+    async function loadSearchIndex() {
+      if (searchIndexData || isSearchLoading) return searchIndexData;
+      isSearchLoading = true;
+      try {
+        const response = await fetch('data/search_index.json');
+        searchIndexData = await response.json();
+        isSearchLoading = false;
+        return searchIndexData;
+      } catch (err) {
+        console.error("Failed loading search_index.json", err);
+        isSearchLoading = false;
+        return [];
+      }
     }
 
     // --- Categorised Search Autocomplete Logic ---
@@ -1472,10 +1382,10 @@
       const rawQuery = searchInput.value.trim();
       const { number, street } = parseSearchQuery(rawQuery);
 
-      const matchedStreetRecord = directoryData.find(r => cleanStr(r.street) === cleanStr(street));
+      const matchedStreet = masterStreetsList.find(s => cleanStr(s.displayName) === cleanStr(street));
 
-      if (number && matchedStreetRecord) {
-        const targetStreet = formatStreetName(matchedStreetRecord.street);
+      if (number && matchedStreet) {
+        const targetStreet = matchedStreet.displayName;
         window.location.hash = `#house=${encodeURIComponent(targetStreet + '|' + number)}`;
       } else {
         window.location.hash = `#search=${encodeURIComponent(rawQuery)}`;
@@ -1483,68 +1393,90 @@
     });
 
     // --- Navigation Router ---
-    function navigate() {
+    async function navigate() {
       const hash = window.location.hash || '#home';
       document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
-      autocompleteContainer.classList.remove('active');
+      if (autocompleteContainer) autocompleteContainer.classList.remove('active');
+
+      await loadMasterStreets();
 
       if (hash.startsWith('#search=')) {
         const query = decodeURIComponent(hash.replace('#search=', ''));
-        renderSearchView(query);
+        await renderSearchView(query);
         document.getElementById('view-search').classList.add('active');
       } else if (hash.startsWith('#street=')) {
         const street = decodeURIComponent(hash.replace('#street=', ''));
-        renderStreetView(street);
+        await renderStreetView(street);
         document.getElementById('view-street').classList.add('active');
       } else if (hash.startsWith('#house=')) {
         const [street, locKey] = decodeURIComponent(hash.replace('#house=', '')).split('|');
-        renderHouseView(street, locKey);
+        await renderHouseView(street, locKey);
         document.getElementById('view-house').classList.add('active');
       } else if (hash === '#streets') {
         renderStreetsView();
         document.getElementById('view-streets').classList.add('active');
       } else {
+        renderStreetsView();
         document.getElementById('view-home').classList.add('active');
       }
+
+      window.scrollTo(0, 0);
     }
 
-    // --- General Search View Rendering ---
-    function renderSearchView(query) {
-      document.getElementById('search-query-display').innerText = `"${query}"`;
-      const cleanQ = query.toLowerCase().trim();
+    // --- Search View Rendering ---
+    async function renderSearchView(query) {
+      document.getElementById('search-query-display').innerText = query;
 
+      const searchInput = document.getElementById('search-input');
+      if (searchInput) searchInput.value = query;
+
+      const cleanQ = query.trim().toLowerCase();
+      if (!cleanQ) return;
+
+      const indexData = await loadSearchIndex();
+
+      const matchedStreetsMap = new Map();
       const matchedPeople = [];
       const matchedOccupations = [];
-      const matchedStreetsMap = new Map();
 
-      directoryData.forEach(r => {
-        const formattedStreet = formatStreetName(r.street);
-        const fullName = `${expandForename(r.forename)} ${r.surname}`.trim();
-        const displayTrade = cleanOccupation(r.trade);
-        const locTarget = r.building_name || r.house_number;
-        const locAddress = r.house_number ? `No. ${r.house_number} ${formattedStreet}` : `${r.building_name || 'Street'}, ${formattedStreet}`;
-
-        if (cleanStr(r.street).includes(cleanStr(cleanQ)) && !matchedStreetsMap.has(cleanStr(r.street))) {
-          matchedStreetsMap.set(cleanStr(r.street), { type: 'street', title: formattedStreet, sub: 'Street Directory', hash: `#street=${encodeURIComponent(formattedStreet)}` });
+      // Match streets from masterStreetsList
+      masterStreetsList.forEach(st => {
+        if (st.displayName.toLowerCase().includes(cleanQ)) {
+          matchedStreetsMap.set(st.slug, {
+            type: 'street',
+            title: st.displayName,
+            sub: `${st.houseCount || st.recordsCount} Properties • ${st.yearsSpan}`,
+            address: 'Explore Street',
+            hash: `#street=${encodeURIComponent(st.displayName)}`
+          });
         }
+      });
+
+      // Match residents & trades from searchIndexData
+      (indexData || []).forEach(r => {
+        const fullName = r.n || '';
+        const trade = r.t || '';
+        const street = r.s || '';
+        const locKey = r.k || '';
+        const locAddress = `${locKey} ${street}`;
 
         if (fullName.toLowerCase().includes(cleanQ)) {
           matchedPeople.push({
             type: 'person',
             title: fullName,
-            sub: `${r.year} Directory • ${displayTrade}`,
+            sub: trade || 'Resident',
             address: locAddress,
-            hash: `#house=${encodeURIComponent(formattedStreet + '|' + locTarget)}`
+            hash: `#house=${encodeURIComponent(street + '|' + locKey)}`
           });
         }
 
-        if (displayTrade !== 'Residence / Private' && displayTrade.toLowerCase().includes(cleanQ)) {
+        if (trade && trade.toLowerCase().includes(cleanQ)) {
           matchedOccupations.push({
             type: 'occupation',
-            title: `${fullName}`,
-            sub: `${r.year} Directory • ${displayTrade}`,
+            title: fullName,
+            sub: trade,
             address: locAddress,
-            hash: `#house=${encodeURIComponent(formattedStreet + '|' + locTarget)}`
+            hash: `#house=${encodeURIComponent(street + '|' + locKey)}`
           });
         }
       });
@@ -1633,47 +1565,22 @@
 
     // --- All Streets View Rendering ---
     function renderStreetsView() {
-      const streetMap = new Map();
-
-      directoryData.forEach(r => {
-        const cleanKey = cleanStr(r.street);
-        if (!cleanKey) return;
-
-        if (!streetMap.has(cleanKey)) {
-          streetMap.set(cleanKey, {
-            displayName: formatStreetName(r.street),
-            houses: new Set(),
-            recordsCount: 0,
-            namedBuildings: new Set(),
-            years: new Set()
-          });
-        }
-
-        const entry = streetMap.get(cleanKey);
-        entry.recordsCount++;
-
-        if (r.house_number && r.house_number !== '-' && r.house_number !== '0') {
-          entry.houses.add(r.house_number);
-        }
-        if (r.building_name) {
-          entry.namedBuildings.add(r.building_name);
-        }
-        if (r.year) {
-          entry.years.add(parseInt(r.year));
-        }
-      });
-
-      const sortedStreets = Array.from(streetMap.values()).sort((a, b) => a.displayName.localeCompare(b.displayName));
       const container = document.getElementById('streets-content');
+      if (!container) return;
       container.innerHTML = '';
 
+      if (!masterStreetsList.length) {
+        container.innerHTML = '<p style="color: var(--muted); padding: 2rem;">Loading street directory...</p>';
+        return;
+      }
+
       document.getElementById('streets-summary-text').innerText = 
-        `Index of ${sortedStreets.length} unique streets recorded across archive directory collections.`;
+        `Index of ${masterStreetsList.length} unique streets recorded across archive directory collections.`;
 
       let currentLetter = '';
       let currentGrid = null;
 
-      sortedStreets.forEach(data => {
+      masterStreetsList.forEach(data => {
         const firstLetter = data.displayName.charAt(0).toUpperCase();
         if (firstLetter !== currentLetter) {
           currentLetter = firstLetter;
@@ -1693,43 +1600,27 @@
           container.appendChild(section);
         }
 
-        const validHouses = Array.from(data.houses);
-        let propText = '';
-
-        if (validHouses.length > 0) {
-          propText = validHouses.length === 1 ? '1 Property' : `${validHouses.length} Properties`;
-        } else if (data.namedBuildings.size > 0) {
-          propText = `${data.namedBuildings.size} Named Premises`;
-        } else {
-          propText = `${data.recordsCount} Unnumbered Record${data.recordsCount > 1 ? 's' : ''}`;
-        }
-
-        const yearArray = Array.from(data.years).filter(y => !isNaN(y)).sort((a,b) => a - b);
-        let yearSpanText = '';
-        if (yearArray.length > 1) {
-          yearSpanText = `${yearArray[0]} – ${yearArray[yearArray.length - 1]}`;
-        } else if (yearArray.length === 1) {
-          yearSpanText = `${yearArray[0]} Directory`;
-        }
+        const propText = data.houseCount > 0 ? `${data.houseCount} Properties` : `${data.recordsCount} Records`;
 
         const card = document.createElement('a');
         card.className = 'street-card';
         card.href = `#street=${encodeURIComponent(data.displayName)}`;
         card.innerHTML = `
           <div style="font-family: var(--heading-font); font-size: 1.85rem; color: var(--accent); margin-bottom: 0.25rem;">${data.displayName}</div>
-          <div class="occupant">${propText} • ${yearSpanText}</div>
+          <div class="occupant">${propText} • ${data.yearsSpan}</div>
         `;
         currentGrid.appendChild(card);
       });
     }
 
     // --- Single Street View Rendering ---
-    function renderStreetView(rawStreetName) {
+    async function renderStreetView(rawStreetName) {
       const displayName = formatStreetName(rawStreetName);
       document.getElementById('street-title').innerText = displayName;
       document.getElementById('street-heading').innerText = displayName;
 
-      const streetRecords = directoryData.filter(r => cleanStr(r.street) === cleanStr(rawStreetName));
+      const streetData = await loadStreetData(rawStreetName);
+      const streetRecords = streetData.records || [];
 
       // Calculate street development origin era
       const streetYears = streetRecords.map(r => parseInt(r.year)).filter(y => !isNaN(y)).sort((a,b) => a - b);
@@ -1898,7 +1789,7 @@
       });
     }
 
-    function renderHouseView(rawStreetName, locationKey) {
+    async function renderHouseView(rawStreetName, locationKey) {
       const displayName = formatStreetName(rawStreetName);
       const cleanLocKey = cleanStr(locationKey);
 
@@ -1908,7 +1799,8 @@
       const cleanExtractedNum = cleanStr(extractedHouseNum);
 
       // 1. Gather all street properties to compute Prev / Next house navigation links
-      const streetRecords = directoryData.filter(r => cleanStr(r.street) === cleanStr(rawStreetName));
+      const streetData = await loadStreetData(rawStreetName);
+      const streetRecords = streetData.records || [];
       const locationKeysSet = new Set();
       streetRecords.forEach(r => {
         const target = r.house_number || r.building_name || `${expandForename(r.forename)} ${r.surname}`.trim();
@@ -2155,8 +2047,8 @@
 
     window.addEventListener('hashchange', navigate);
     window.addEventListener('DOMContentLoaded', async () => {
-      await loadData();
-      navigate();
+      await loadMasterStreets();
+      await navigate();
     });
   </script>
 </body>
