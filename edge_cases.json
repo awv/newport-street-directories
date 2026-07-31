@@ -1,0 +1,75 @@
+{
+  "description": "Historical edge cases, manual overrides, and specific record corrections for Newport Street Directories.",
+  "overrides": [
+    {
+      "reason": "Crindau House: Link 1933 listing of Griffith J. Jones J.P. to Crindau House.",
+      "match": {
+        "street": "Crindau Road",
+        "year": "1933",
+        "surname": "Jones",
+        "forename_contains": "Griffith"
+      },
+      "apply": {
+        "building_name": "Crindau House",
+        "surname": "Jones",
+        "forename": "Griffith J.",
+        "trade": "Justice of the Peace"
+      }
+    },
+    {
+      "reason": "Crindau House: Fix 1927 corrupted surname 'Crindau House Jones'.",
+      "match": {
+        "street": "Crindau Road",
+        "year": "1927",
+        "surname_contains": "Crindau House"
+      },
+      "apply": {
+        "building_name": "Crindau House",
+        "surname": "Jones",
+        "forename": "Griffith J.",
+        "trade": "Justice of the Peace"
+      }
+    },
+    {
+      "reason": "Crindau House: Fix 1905 building name 'John Crindau House'.",
+      "match": {
+        "street": "Crindau Road",
+        "year": "1905",
+        "building_name": "John Crindau House"
+      },
+      "apply": {
+        "building_name": "Crindau House",
+        "surname": "Hutchins",
+        "forename": "John"
+      }
+    },
+    {
+      "reason": "Beckwith: Link 1897 1 Beckwith to House 1 Crindau Road.",
+      "match": {
+        "street": "Crindau Road",
+        "year": "1897",
+        "building_name": "Beckwith",
+        "house_number": ""
+      },
+      "apply": {
+        "house_number": "1",
+        "building_name": "Beckwith"
+      }
+    },
+    {
+      "reason": "High Street: Standardize 35-35A W.H. Smith & Son branch.",
+      "match": {
+        "street": "High Street",
+        "house_number": "35-35A"
+      },
+      "apply_conditional": {
+        "if_surname_contains": "Smith",
+        "apply": {
+          "surname": "W. H. Smith & Son Ltd.",
+          "forename": "",
+          "building_name": ""
+        }
+      }
+    }
+  ]
+}

@@ -1,8 +1,21 @@
 import csv
+import json
+import os
 import re
 
 INPUT_CSV = "data.csv"
 OUTPUT_CSV = "data.csv"
+EDGE_CASES_FILE = "edge_cases.json"
+
+# Load Edge Cases Configuration
+EDGE_CASES = []
+if os.path.exists(EDGE_CASES_FILE):
+    with open(EDGE_CASES_FILE, "r", encoding="utf-8") as ef:
+        try:
+            EDGE_CASES = json.load(ef).get("overrides", [])
+            print(f"Loaded {len(EDGE_CASES)} historical edge cases from {EDGE_CASES_FILE}")
+        except Exception as e:
+            print(f"Warning: Could not load {EDGE_CASES_FILE}: {e}")
 
 # Dictionary of standard street suffix expansions
 ABBREVIATIONS = {
@@ -62,26 +75,65 @@ def clean_street_name(name):
     if not name:
         return ""
     
-    # 1. Strip surrounding quotes
     clean = name.replace('"', '').strip()
-    
-    # 2. Strip ward codes/district references (e.g. ", C", ", W", ", E 7")
     clean = re.sub(r",\s*[A-Za-z0-9\s]+\b", "", clean)
     
-    # 3. Expand abbreviations (e.g. "Crindau Rd" -> "Crindau Road")
     for pattern, replacement in ABBREVIATIONS.items():
         clean = re.sub(pattern, replacement, clean, flags=re.IGNORECASE)
         
-    # 4. Clean trailing dots and spaces
     clean = clean.rstrip(".")
-    
-    # 5. Title-case for consistent output
     return clean.title().strip()
 
 def title_case_name(name):
     if not name:
         return ""
     return re.sub(r"\w\S*", lambda m: m.group(0).capitalize() if m.group(0).islower() else m.group(0), name).strip()
+
+def apply_edge_cases(record):
+    """Applies structured edge-case overrides from edge_cases.json."""
+    st = record["street"]
+    yr = record["year"]
+    h_num = record["house_number"]
+    bldg = record["building_name"]
+    s = record["surname"]
+    f = record["forename"]
+    t = record["trade"]
+
+    for rule in EDGE_CASES:
+        match = rule.get("match", {})
+        
+        # Match street
+        if match.get("street") and match["street"].lower() != st.lower():
+            continue
+        # Match year
+        if match.get("year") and match["year"] != yr:
+            continue
+        # Match house_number
+        if "house_number" in match and match["house_number"] != h_num:
+            continue
+        # Match surname
+        if match.get("surname") and match["surname"].lower() != s.lower():
+            continue
+        if match.get("surname_contains") and match["surname_contains"].lower() not in s.lower():
+            continue
+        if match.get("forename_contains") and match["forename_contains"].lower() not in f.lower():
+            continue
+        if match.get("building_name") and match["building_name"].lower() != bldg.lower():
+            continue
+
+        # Apply direct override
+        if "apply" in rule:
+            for k, v in rule["apply"].items():
+                record[k] = v
+
+        # Apply conditional override
+        if "apply_conditional" in rule:
+            cond = rule["apply_conditional"]
+            if cond.get("if_surname_contains") and cond["if_surname_contains"].lower() in s.lower():
+                for k, v in cond["apply"].items():
+                    record[k] = v
+
+    return record
 
 def clean_record(row):
     year = (row.get("year") or "").strip()
@@ -103,25 +155,6 @@ def clean_record(row):
     # Strip district headers (e.g. MaindeeFrom, NewportFrom)
     surname = re.sub(r'^(maindee|newport|pill)from\s*', '', surname, flags=re.I).strip()
     forename = re.sub(r'^(maindee|newport|pill)from\s*', '', forename, flags=re.I).strip()
-
-    # Crindau Road Beckwith & Crindau House normalization
-    if street == "Crindau Road":
-        combined_crindau = f"{bldg_name} {surname} {forename} {trade}"
-        if "Crindau House" in combined_crindau:
-            bldg_name = "Crindau House"
-            if "Jones" in combined_crindau:
-                surname = "Jones"
-                if "Griffith" in combined_crindau:
-                    forename = "Griffith J."
-                    trade = "Justice of the Peace"
-                elif "Theophilus" in combined_crindau:
-                    forename = "Theophilus"
-        elif surname == "Jones" and "Griffith" in forename:
-            bldg_name = "Crindau House"
-            forename = "Griffith J."
-            trade = "Justice of the Peace"
-        elif bldg_name == "Beckwith" and not house_num:
-            house_num = "1"
 
     # 2. Fix shifted surname/forename/trade in building_name (e.g. bldg='Jones', surname='Geo', forename='labourer')
     if bldg_name and bldg_name[0].isupper() and not any(w in bldg_name.lower() for w in ['house', 'villa', 'cottage', 'chambers', 'works', 'inn', 'arms', 'hotel', 'building', 'school', 'lodge', 'place', 'hall']):
@@ -218,21 +251,7 @@ def clean_record(row):
         elif not house_num:
             house_num = ext_num
 
-    # 11. W. H. Smith & Son Specific Standardization
-    combined_entry = f"{bldg_name} {surname} {forename} {trade}"
-    if "Smith" in combined_entry and ("WH" in combined_entry or "W. H." in combined_entry or "W.H." in combined_entry) and ("Son" in combined_entry or "&" in combined_entry):
-        is_ltd = "Ltd" in combined_entry or "limited" in combined_entry.lower() or year in ["1905", "1938", "1946", "1950"]
-        surname = "W. H. Smith & Son Ltd." if is_ltd else "W. H. Smith & Son"
-        forename = ""
-        bldg_name = ""
-        if "bookseller" in combined_entry.lower():
-            trade = "booksellers, etc."
-        elif "stationer" in combined_entry.lower():
-            trade = "stationers, etc."
-        else:
-            trade = "booksellers & stationers"
-
-    # 12. Fix bad ampersand surname rows (e.g. surname='&', forename='13 Evans W. E. & Co.')
+    # 11. Fix bad ampersand surname rows (e.g. surname='&', forename='13 Evans W. E. & Co.')
     if surname == "&" and forename:
         match = re.match(r"^(\d+(?:-\d+)?)\s+(.*)$", forename)
         if match:
@@ -243,7 +262,7 @@ def clean_record(row):
             surname = parts[0]
             forename = f"{parts[1]} &"
 
-    # 13. Handle surnames ending with Ltd / Co (e.g. surname='Dean Ltd', forename='John H' -> surname='John H Dean Ltd', forename='')
+    # 12. Handle surnames ending with Ltd / Co (e.g. surname='Dean Ltd', forename='John H' -> surname='John H Dean Ltd', forename='')
     corp_match = re.match(r"^(.*?)\s+(Ltd\.?|Co\.?|& Co\.?|Co\.? Ltd\.?)$", surname, re.I)
     if corp_match and forename and not re.match(r"^\d", forename):
         base_s = corp_match.group(1)
@@ -256,17 +275,17 @@ def clean_record(row):
             surname = f"{base_s} {corp_suf}".strip()
             forename = ""
 
-    # 14. Fix cases where forename is initials and surname contains company suffix (e.g. surname='Lovell & Co Ltd', forename='GF')
+    # 13. Fix cases where forename is initials and surname contains company suffix (e.g. surname='Lovell & Co Ltd', forename='GF')
     if forename and re.match(r"^[A-Z]\.?(?:\s*[A-Z]\.?)*$", forename) and re.search(r"\b(&|ltd|limited|co|company|sons|bros|brothers)\b", surname, re.I):
         surname = f"{forename} {surname}".strip()
         forename = ""
 
-    # 15. Handle location-suffix forenames (e.g. surname='Bollom', forename='of Bristol' -> 'Bollom of Bristol')
+    # 14. Handle location-suffix forenames (e.g. surname='Bollom', forename='of Bristol' -> 'Bollom of Bristol')
     if re.match(r"^of\s+[A-Za-z]", forename, re.I):
         surname = f"{surname} {forename}".strip()
         forename = ""
 
-    # 16. Handle initials + company suffix forenames (e.g. surname='Lovell', forename='GF & Co Ltd' -> surname='GF Lovell & Co Ltd', forename='')
+    # 15. Handle initials + company suffix forenames (e.g. surname='Lovell', forename='GF & Co Ltd' -> surname='GF Lovell & Co Ltd', forename='')
     init_biz_match = re.match(r"^([A-Z]\.?(?:\s*[A-Z]\.?)*)\s+(&(?:.*)|ltd.*|co.*|sons.*|bros.*|limited.*)$", forename, re.I)
     if init_biz_match:
         initials = init_biz_match.group(1).strip()
@@ -274,19 +293,19 @@ def clean_record(row):
         surname = f"{initials} {surname} {biz_suffix}".strip()
         forename = ""
 
-    # 17. Handle hyphenated trade trapped in forename (e.g. '& Son - cycle factors')
+    # 16. Handle hyphenated trade trapped in forename (e.g. '& Son - cycle factors')
     if " - " in forename:
         parts = forename.split(" - ", 1)
         forename = parts[0].strip()
         extra_trade = parts[1].strip()
         trade = f"{extra_trade}, {trade}".strip(", ") if trade else extra_trade
 
-    # 18. Fix pure business / organization name ordering (e.g. 'Taylor' + '& Son' -> 'Taylor & Son')
+    # 17. Fix pure business / organization name ordering (e.g. 'Taylor' + '& Son' -> 'Taylor & Son')
     if forename and BUSINESS_SUFFIX_REGEX.search(forename.strip()):
         surname = title_case_name(f"{surname} {forename}".strip())
         forename = ""
 
-    # 19. Extract middle initials trapped in trade (e.g. 'T. mechanic')
+    # 18. Extract middle initials trapped in trade (e.g. 'T. mechanic')
     if trade:
         initial_match = re.match(r"^([A-Z]\.)\s+(.*)$", trade)
         if initial_match:
@@ -294,7 +313,7 @@ def clean_record(row):
             trade = initial_match.group(2)
             forename = f"{forename} {mid_init}".strip()
 
-    # 20. Expand Journeyman (j.) / (j) tags
+    # 19. Expand Journeyman (j.) / (j) tags
     if "(j.)" in forename.lower() or "(j)" in forename.lower() or "(j.)" in trade.lower() or "(j)" in trade.lower():
         forename = re.sub(r"\s*\([jJ]\.?\)\s*", " ", forename).strip()
         if "(j.)" in trade.lower() or "(j)" in trade.lower():
@@ -302,7 +321,7 @@ def clean_record(row):
         else:
             trade = f"Journeyman {trade}".strip()
 
-    # 21. Split remaining trades trapped in forenames
+    # 20. Split remaining trades trapped in forenames
     if forename:
         match = re.match(r"^(.*?)\s+([a-z].*)$", forename)
         if match:
@@ -317,10 +336,7 @@ def clean_record(row):
     forename = forename.strip(' ,"-~')
     trade = trade.strip(' ,"-~')
 
-    if not surname and not forename and not trade and not bldg_name:
-        return None
-
-    return {
+    rec = {
         "year": year,
         "street": street,
         "house_number": house_num,
@@ -329,6 +345,14 @@ def clean_record(row):
         "forename": forename,
         "trade": trade,
     }
+
+    # 21. Apply Structured Edge-Case Overrides from edge_cases.json
+    rec = apply_edge_cases(rec)
+
+    if not rec["surname"] and not rec["forename"] and not rec["trade"] and not rec["building_name"]:
+        return None
+
+    return rec
 
 def main():
     rows = []
