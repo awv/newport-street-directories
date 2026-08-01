@@ -546,8 +546,48 @@
     .timeline-name { font-size: 1.1rem; font-weight: 500; color: #ffffff; }
     .timeline-trade { font-size: 0.9rem; color: var(--muted); margin-top: 0.1rem; }
 
-    .alpha-section { margin-bottom: 3.5rem; }
+    .alpha-section { margin-bottom: 3.5rem; scroll-margin-top: 2rem; }
     .alpha-header { font-family: var(--heading-font); font-size: 2.25rem; color: var(--accent); margin-bottom: 1.5rem; border-bottom: 1px solid var(--card-border); padding-bottom: 0.5rem; }
+
+    .alpha-jump-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-top: 1.25rem;
+    }
+    .alpha-jump-btn {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      color: var(--muted);
+      min-width: 2.2rem;
+      height: 2.2rem;
+      padding: 0 0.4rem;
+      border-radius: 4px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--heading-font);
+      font-size: 1.15rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      text-decoration: none;
+    }
+    .alpha-jump-btn.active {
+      color: var(--accent);
+      border-color: var(--accent-muted);
+      background: rgba(200, 157, 84, 0.08);
+    }
+    .alpha-jump-btn.active:hover {
+      background: var(--accent);
+      color: #120f0d;
+      border-color: var(--accent);
+      transform: translateY(-2px);
+      box-shadow: 0 2px 8px rgba(200, 157, 84, 0.3);
+    }
+    .alpha-jump-btn.disabled {
+      opacity: 0.25;
+      cursor: not-allowed;
+    }
 
     .street-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1.25rem; }
     .street-card { background: var(--card-bg); border: 1px solid var(--card-border); border-radius: 6px; padding: 1.5rem; text-decoration: none; color: inherit; transition: border-color 0.2s; display: block; }
@@ -943,6 +983,7 @@
           <span class="street">All Streets</span>
         </div>
         <div class="property-intro-text" id="streets-summary-text">Alphabetical index of all recorded streets.</div>
+        <div class="alpha-jump-bar" id="alpha-jump-bar"></div>
       </div>
     </div>
     <div class="content-container page-width" id="streets-content"></div>
@@ -1577,6 +1618,31 @@
       document.getElementById('streets-summary-text').innerText = 
         `Index of ${masterStreetsList.length} unique streets recorded across archive directory collections.`;
 
+      // Build A-Z Quick Jump Bar
+      const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+      const activeLetters = new Set(masterStreetsList.map(s => s.displayName.charAt(0).toUpperCase()));
+
+      const jumpBar = document.getElementById('alpha-jump-bar');
+      if (jumpBar) {
+        jumpBar.innerHTML = '';
+        alphabet.forEach(letVal => {
+          const btn = document.createElement('button');
+          const isActive = activeLetters.has(letVal);
+          btn.className = `alpha-jump-btn ${isActive ? 'active' : 'disabled'}`;
+          btn.innerText = letVal;
+          if (isActive) {
+            btn.onclick = (e) => {
+              e.preventDefault();
+              const targetSection = document.getElementById(`letter-${letVal}`);
+              if (targetSection) {
+                targetSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+              }
+            };
+          }
+          jumpBar.appendChild(btn);
+        });
+      }
+
       let currentLetter = '';
       let currentGrid = null;
 
@@ -1587,6 +1653,7 @@
 
           const section = document.createElement('div');
           section.className = 'alpha-section';
+          section.id = `letter-${currentLetter}`;
 
           const header = document.createElement('h2');
           header.className = 'alpha-header';
