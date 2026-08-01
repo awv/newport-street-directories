@@ -73,18 +73,51 @@ VILLA_WORD = re.compile(
 
 NON_PERSON_WORDS = ['wagon', 'coal', 'iron', 'colliery', 'docks', 'railway', 'supply', 'stores', 'drapery']
 
+SAINT_STREET_MAP = {
+    r'^St\.\s*Annes?\b.*': "St. Anne's Crescent",
+    r'^St\.\s*Brides?\b.*': "St. Bride's Crescent",
+    r'^St\.\s*Johns?\b.*': "St. John's Road",
+    r'^St\.\s*Julians?\s*Ave.*': "St. Julian's Avenue",
+    r'^St\.\s*Julians?\s*Rd.*': "St. Julian's Road",
+    r'^St\.\s*Marks?\b.*': "St. Mark's Crescent",
+    r'^St\.\s*Marys?\s*Rd.*': "St. Mary's Road",
+    r'^St\.\s*Stephens?\b.*': "St. Stephen's Road",
+    r'^St\.\s*Woollos?\s*Rd.*': "St. Woolos Road",
+    r'^St\.\s*Woolos?\s*Pl.*': "St. Woolos Place"
+}
+
 def clean_street_name(name):
     if not name:
         return ""
     
     clean = name.replace('"', '').strip()
     clean = re.sub(r",\s*[A-Za-z0-9\s]+\b", "", clean)
-    
+
+    # 1. Strip trailing district/ward letter codes (e.g. '.T', '. P', ' P', ' M', '. C', '. W')
+    clean = re.sub(r'[\.\s]+[A-Z]$', '', clean, flags=re.IGNORECASE).rstrip(". ")
+
+    # 2. Expand 'Street [Saint Name]' -> 'St. [Saint Name]' (e.g. 'Street Anne's' -> 'St. Anne's')
+    clean = re.sub(r'^Street\s+([A-Z])', r'St. \1', clean, flags=re.IGNORECASE)
+    clean = re.sub(r'^St\b\.?\s*', 'St. ', clean, flags=re.IGNORECASE)
+
+    # 3. Standardize possessive apostrophes & capital 'S (e.g. King'S -> King's, Protheroe's Row -> Protheroes Row)
+    if 'protheroe' in clean.lower():
+        clean = 'Protheroes Row'
+
+    clean = re.sub(r"' S\b", "'s", clean)
+    clean = re.sub(r"'S\b", "'s", clean)
+
+    # 4. Standardize Saint street names with apostrophes
+    for pat, rep in SAINT_STREET_MAP.items():
+        if re.match(pat, clean, flags=re.IGNORECASE):
+            clean = rep
+            break
+            
+    # 5. Expand abbreviations
     for pattern, replacement in ABBREVIATIONS.items():
         clean = re.sub(pattern, replacement, clean, flags=re.IGNORECASE)
         
-    clean = clean.rstrip(".")
-    return clean.title().strip()
+    return clean.strip()
 
 def title_case_name(name):
     if not name:
