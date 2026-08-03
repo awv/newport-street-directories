@@ -2037,7 +2037,6 @@
       const addressQuery = encodeURIComponent(targetAddress);
       const mapUrl = `https://maps.google.com/maps?q=${addressQuery}&t=&z=17&ie=UTF8&iwloc=&output=embed`;
 
-      const introElem = document.getElementById('property-intro');
       if (histConfig) {
         introElem.innerText = `🏛️ Historic Site Notice: ${histConfig.note} Spanning ${currentHouseRecords.length} recorded entries in archival street directories.`;
       }
