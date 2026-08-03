@@ -1020,6 +1020,12 @@ def clean_record(row):
                 trade = re.sub(r'\bi[\x27\x22\x60]worker\b', 'Ironworker', trade, flags=re.I)
             if re.search(r'\bfurnacem\b', trade, re.I):
                 trade = re.sub(r'\bfurnacem\b', 'Furnaceman', trade, flags=re.I)
+            if re.search(r'\bglass\s+wks\b', trade, re.I):
+                trade = re.sub(r'\bglass\s+wks\b', 'Glass Works', trade, flags=re.I)
+            if re.search(r'\bins\.?\s+superintendent\b', trade, re.I):
+                trade = re.sub(r'\bins\.?\s+superintendent\b', 'Insurance Superintendent', trade, flags=re.I)
+            if re.search(r'\bgenl\.?\s+shop\b', trade, re.I):
+                trade = re.sub(r'\bgenl\.?\s+shop\b', 'General Shop', trade, flags=re.I)
             if re.search(r'\bwatermn\b', trade, re.I):
                 trade = re.sub(r'\bwatermn\b', 'Waterman', trade, flags=re.I)
             if re.search(r'\bshoemkr\b', trade, re.I):

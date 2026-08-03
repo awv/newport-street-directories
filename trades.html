@@ -265,8 +265,9 @@
         .replace(/\bdecor[\x27\x22\x60]?tr\b/gi, 'Decorator')
         .replace(/\bboilermk\b/gi, 'Boilermaker')
         .replace(/\bpltlyr\b/gi, 'Platelayer')
-        .replace(/\bi[\x27\x22\x60]?wrkr\b/gi, 'Ironworker')
-        .replace(/\bfurnacem\b/gi, 'Furnaceman')
+        .replace(/\bglass\s+wks\b/gi, 'Glass Works')
+        .replace(/\bins\.?\s+superintendent\b/gi, 'Insurance Superintendent')
+        .replace(/\bgenl\.?\s+shop\b/gi, 'General Shop')
         .replace(/\bironwkr\b/gi, 'Ironworker')
         .replace(/\bstlwkr\b/gi, 'Steelworker')
         .replace(/wkr\b/gi, 'worker');
