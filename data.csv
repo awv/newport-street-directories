@@ -99,7 +99,6 @@ year,street,house_number,building_name,surname,forename,trade
 1876,Alma Street,34,,Devonad,James,water collector
 1876,Alma Street,35,,Mayne,Thomas,dock porter
 1876,Alma Street,36,,Flanders,James,plate layer
-1876,Alma Street (Upper),,,(Continuation of Alma street),,
 1876,Alma Street (Upper),1,,Groves,John,mason
 1876,Alma Street (Upper),2,,Siddall,Mattw,mechanic
 1876,Alma Street (Upper),3,,Sadler,Albt,mechanic
@@ -440,7 +439,6 @@ year,street,house_number,building_name,surname,forename,trade
 1876,Bridge Street,37,,Warren,John C.E,mining engineer
 1876,Bridge Street,37,,Graham,William,"& Son, auctioneers"
 1876,Bridge Street,37,,Blount,Charles,solicitor
-1876,Bridge (The),,,(Continuation of High street.),,
 1876,Bridge (The),,,Trubey,Mrs. C. general shop,
 1876,Bridge (The),,,Ludlow,D,brewery agent
 1876,Bridge (The),,,Evans,Henry,nail works
@@ -2231,7 +2229,6 @@ year,street,house_number,building_name,surname,forename,trade
 1876,Lewis Street,53,,Brooks,Richard,mariner
 1876,Lewis Street,54,,Barratt,James,shoemaker
 1876,Lewis Street,55,,Hayes,Robert,tailor
-1876,Lewis Street (Upper),,,(Continuation of Lewis street),,
 1876,Lewis Street (Upper),1,,Roderick,Thomas,milkman
 1876,Lewis Street (Upper),2,,Jones,John,mechanic
 1876,Lewis Street (Upper),3,,Thompson,A. steam tug owner,
@@ -2770,7 +2767,6 @@ year,street,house_number,building_name,surname,forename,trade
 1876,Raglan Street,59,,Mackey,William,mechanic
 1876,Raglan Street,60,,Winter,Charles,shipwright
 1876,Raglan Street,,,Horwood,George J,brewer
-1876,Raglan Street (Upper),,,(Continuation of Raglan street),,
 1876,Raglan Street (Upper),1,,Littleton,J. F,brewer's agent
 1876,Raglan Street (Upper),2,,Russell,J. foreman,
 1876,Raglan Street (Upper),3,,Frewens,William,mechanic
@@ -3187,7 +3183,6 @@ year,street,house_number,building_name,surname,forename,trade
 1876,Stow Hill,,,Catholic,Boy's school,
 1876,Stow Hill,,,Catholic,Infants' school,
 1876,Stow Hill,126,,Iggulden,S,financial agent
-1876,Stow Park,,,(In,continuation from Stow hill),
 1876,Stow Park,,Holmes view,Evans,William,
 1876,Stow Park,,Brae-side,Stevens,James A,
 1876,Stow Park,,,Allfrey,Frank,
@@ -3265,7 +3260,6 @@ year,street,house_number,building_name,surname,forename,trade
 1876,The Arcade,,,Arcade Chambers,,
 1876,The Arcade,,,Gane & Jackson accountants,,
 1876,The Arcade,,,Arcade Chambers,,
-1876,The Bridge,,,(Continuation of High street.),,
 1876,The Bridge,,,Trubey,Mrs. C. general shop,
 1876,The Bridge,,,Ludlow,D,brewery agent
 1876,The Bridge,,,Evans,Henry,nail works
@@ -3396,12 +3390,10 @@ year,street,house_number,building_name,surname,forename,trade
 1876,Union Street,,,Dennis,John,shoeing forge
 1876,Union Street,,,Avery,James,"coachbuilder, etc"
 1876,Union Street,14,,Dallimore,John,shoemaker
-1876,Upper Alma Street,,,(Continuation of Alma street),,
 1876,Upper Alma Street,1,,Groves,John,mason
 1876,Upper Alma Street,2,,Siddall,Mattw,mechanic
 1876,Upper Alma Street,3,,Sadler,Albt,mechanic
 1876,Upper Alma Street,,Baptist Chapel,English,,
-1876,Upper Lewis Street,,,(Continuation of Lewis street),,
 1876,Upper Lewis Street,1,,Roderick,Thomas,milkman
 1876,Upper Lewis Street,2,,Jones,John,mechanic
 1876,Upper Lewis Street,3,,Thompson,A. steam tug owner,
@@ -3416,7 +3408,6 @@ year,street,house_number,building_name,surname,forename,trade
 1876,Upper Merchant Street,9,,Wade,William,]Sr. cooper
 1876,Upper Merchant Street,10,"Henry, Turner",Pritchard,James,
 1876,Upper Merchant Street,,,O'Reilly,W C. metal,broker
-1876,Upper Raglan Street,,,(Continuation of Raglan street),,
 1876,Upper Raglan Street,1,,Littleton,J. F,brewer's agent
 1876,Upper Raglan Street,2,,Russell,J. foreman,
 1876,Upper Raglan Street,3,,Frewens,William,mechanic
@@ -20428,7 +20419,6 @@ year,street,house_number,building_name,surname,forename,trade
 1905,Coldra Road,5,,Smith,T,G.W.R. inspector
 1905,Coldra Road,3,,Moore,Edwin,bricklayer
 1905,Coldra Road,1,,Davies coal trimr,William,
-1905,Commercial Road,,,continuation of Commercial st,,
 1905,Commercial Road,1,,Williams,J A. T,tobacnist
 1905,Commercial Road,,,lA,Llewellyn Miss S. dressmkr,
 1905,Commercial Road,,,Carter,W. J,hairdresser
@@ -99361,7 +99351,6 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Colston Place,1,,Blesher,W. J,ironworker
 1938,Colston Place,2,,Miller,Horace,G.W.R.
 1938,Colston Place,3,,Deacon,Albert,G.W.R.
-1938,Commercial Road,,,Continuation Commercial street,o f,
 1938,Commercial Road,,,Stone,C. A,surg applnce maker
 1938,Commercial Road,1a,,Llewellyn,Miss S. A,
 1938,Commercial Road,,,Edwards,Miss Hilda,
@@ -126216,7 +126205,6 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Colston Place,1,,Belsher,W. J,ironworker
 1946,Colston Place,2,,Phillips,Frederick,ironwkr
 1946,Colston Place,3,,Deacon,Albert,G.W.R.
-1946,Commercial Road,,,Continuation of Commercial st,,
 1946,Commercial Road,1,,Stone,C. A,surg applnce maker
 1946,Commercial Road,,,La,Burgham Alfred,docker
 1946,Commercial Road,,,lb,Jenkins Mrs. Grace,
@@ -138529,7 +138517,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Nash Road,,,Telephone,Kiosk here,
 1946,Neston Road,1,,Moss,Maurice,steelworker
 1946,Neston Road,,Denewood,Salt,Stanley S,mechanic
-1946,Neston Road,,,Joseph,S,French Polisher
+1946,Neston Road,,S,French,Polisher,Joseph
 1946,Neston Road,,Tarkwa,Watts,Thomas,fitter
 1946,Neston Road,,Montrose,Landers,Thomas. R,postman
 1946,Neston Road,,Nyeaidd,Meachen,Thomas,labourer

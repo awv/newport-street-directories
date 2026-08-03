@@ -53,7 +53,8 @@ CROSS_STREET_REGEX = re.compile(
     r'|\bcommonly\s+called\s+pill\b'
     r'|^\s*(?:newport\s*)?bottom\s+of\b'
     r'|\boff\s+[a-z0-9\s\.\-]+(?:avenue|st|street|rd|road|lane|place|terrace|hill|way|drive|crescent|cres|cres\.|parade|pde|av|av\.|square|estate)\b'
-    r'|^\s*(?:west|east|north|south)\s+side\s+of\b',
+    r'|^\s*(?:west|east|north|south)\s+side\s+of\b'
+    r'|\bcontinuation\b',
     re.I
 )
 
