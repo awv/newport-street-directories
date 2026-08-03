@@ -20,7 +20,7 @@ if os.path.exists(EDGE_CASES_FILE):
 # Dictionary of standard street suffix expansions
 ABBREVIATIONS = {
     r"\bRd\b\.?": "Road",
-    r"\bSt\b\.?": "Street",
+    r"\bSt\b\.?$": "Street",
     r"\bAve\b\.?": "Avenue",
     r"\bTer\b\.?": "Terrace",
     r"\bPl\b\.?": "Place",
@@ -52,7 +52,8 @@ CROSS_STREET_REGEX = re.compile(
     r'|\bis\s+a\s+district\s+lying\s+between\b'
     r'|\bcommonly\s+called\s+pill\b'
     r'|^\s*(?:newport\s*)?bottom\s+of\b'
-    r'|\boff\s+[a-z0-9\s\.\-]+(?:avenue|st|street|rd|road|lane|place|terrace|hill|way|drive|crescent|cres|cres\.|parade|pde|av|av\.|square|estate)\b',
+    r'|\boff\s+[a-z0-9\s\.\-]+(?:avenue|st|street|rd|road|lane|place|terrace|hill|way|drive|crescent|cres|cres\.|parade|pde|av|av\.|square|estate)\b'
+    r'|^\s*(?:west|east|north|south)\s+side\s+of\b',
     re.I
 )
 
@@ -208,16 +209,24 @@ def is_person_name_or_title(t):
     return False
 
 SAINT_STREET_MAP = {
-    r'^St\.\s*Annes?\b.*': "St. Anne's Crescent",
-    r'^St\.\s*Brides?\b.*': "St. Bride's Crescent",
-    r'^St\.\s*Johns?\b.*': "St. John's Road",
-    r'^St\.\s*Julians?\s*Ave.*': "St. Julian's Avenue",
-    r'^St\.\s*Julians?\s*Rd.*': "St. Julian's Road",
-    r'^St\.\s*Marks?\b.*': "St. Mark's Crescent",
-    r'^St\.\s*Marys?\s*Rd.*': "St. Mary's Road",
-    r'^St\.\s*Stephens?\b.*': "St. Stephen's Road",
-    r'^St\.\s*Woollos?\s*Rd.*': "St. Woolos Road",
-    r'^St\.\s*Woolos?\s*Pl.*': "St. Woolos Place"
+    r'^(?:St\.|Street)\s*Annes?\b.*': "St. Anne's Crescent",
+    r'^(?:St\.|Street)\s*Brides?\b.*': "St. Bride's Crescent",
+    r'^(?:St\.|Street)\s*Edwards?\b.*': "St. Edward Street",
+    r'^(?:St\.|Street)\s*Johns?\b.*': "St. John's Road",
+    r'^(?:St\.|Street)\s*Julians?\s*Ave.*': "St. Julian's Avenue",
+    r'^(?:St\.|Street)\s*Julians?\s*Rd.*': "St. Julian's Road",
+    r'^(?:St\.|Street)\s*Julians?\s*St.*': "St. Julian Street",
+    r'^(?:St\.|Street)\s*Marks?\b.*': "St. Mark's Crescent",
+    r'^(?:St\.|Street)\s*Marys?\s*Rd.*': "St. Mary's Road",
+    r'^(?:St\.|Street)\s*Marys?\s*St.*': "St. Mary Street",
+    r'^(?:St\.|Street)\s*Michaels?\b.*': "St. Michael Street",
+    r'^(?:St\.|Street)\s*Stephens?\b.*': "St. Stephen's Road",
+    r'^(?:St\.|Street)\s*Streetephens?\b.*': "St. Stephen's Road",
+    r'^(?:St\.|Street)\s*Vincents?\b.*': "St. Vincent's Road",
+    r'^(?:St\.|Street)\s*Woollos?\s*Rd.*': "St. Woolos Road",
+    r'^(?:St\.|Street)\s*Woolos?\s*Rd.*': "St. Woolos Road",
+    r'^(?:St\.|Street)\s*Woolos?\s*Pl.*': "St. Woolos Place",
+    r'^(?:St\.|Street)\s*Woollos?\s*Pl.*': "St. Woolos Place"
 }
 
 def clean_street_name(name):
@@ -230,11 +239,11 @@ def clean_street_name(name):
     # 1. Strip trailing district/ward letter codes (e.g. '.T', '. P', ' P', ' M', '. C', '. W', '.T,')
     clean = re.sub(r'[\.\s]+[A-Z][\.,\s]*$', '', clean, flags=re.IGNORECASE).rstrip(" ,.-")
 
-    # 2. Expand 'Street [Saint Name]' -> 'St. [Saint Name]' (e.g. 'Street Anne's' -> 'St. Anne's')
+    # 2. Convert 'Street [Saint Name]' -> 'St. [Saint Name]'
     clean = re.sub(r'^Street\s+([A-Z])', r'St. \1', clean, flags=re.IGNORECASE)
     clean = re.sub(r'^St\b\.?\s*', 'St. ', clean, flags=re.IGNORECASE)
 
-    # 3. Standardize possessive apostrophes & capital 'S (e.g. King'S -> King's, Protheroe's Row -> Protheroes Row)
+    # 3. Standardize possessive apostrophes & capital 'S
     if 'protheroe' in clean.lower():
         clean = 'Protheroes Row'
 
@@ -244,8 +253,7 @@ def clean_street_name(name):
     # 4. Standardize Saint street names with apostrophes
     for pat, rep in SAINT_STREET_MAP.items():
         if re.match(pat, clean, flags=re.IGNORECASE):
-            clean = rep
-            break
+            return rep
             
     # 5. Expand abbreviations
     for pattern, replacement in ABBREVIATIONS.items():
