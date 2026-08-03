@@ -1178,6 +1178,39 @@ def clean_record(row):
             bldg_name = title_case_name(surname)
             surname = ""
 
+    # Neston Road specific cleanup for reversed names & shifted fields
+    if street.strip().lower() == "neston road":
+        comb = f"{bldg_name} {surname} {forename}".strip().lower()
+        if "building" in comb and "site" in comb:
+            bldg_name, surname, forename, trade = "Building Sites", "", "", ""
+        elif bldg_name == "Dade R" and surname == "coppersmith" and forename == "Woodville":
+            bldg_name, surname, forename, trade = "Woodville", "Dade", "R.", "Coppersmith"
+        elif surname == "Nash" and forename == "Jack" and "inglenook" in trade.lower():
+            bldg_name, surname, forename, trade = "Inglenook", "Nash", "Jack", "clerk"
+        elif bldg_name == "The Gables" and surname == "Elliott" and forename == "Edward":
+            bldg_name, surname, forename = "The Gables", "Elliott", "Edward"
+        elif bldg_name == "Kenneth H" and surname == "Belvoir" and forename == "Moore":
+            bldg_name, surname, forename = "Belvoir", "Moore", "Kenneth H."
+        elif bldg_name == "Meadow View" and surname == "Hayward" and forename in ["Robert J", "Robt. J"]:
+            bldg_name, surname = "Meadow View", "Hayward"
+        elif bldg_name == "Graig Haven" and surname == "Cowmeadow" and forename == "Hector":
+            bldg_name, surname, forename = "Graig Haven", "Cowmeadow", "Hector"
+        elif bldg_name == "Woodville" and surname == "Dade":
+            bldg_name, surname = "Woodville", "Dade"
+        else:
+            m_rev_50 = re.match(r'^([A-Z][a-zA-Z\x27\-]+)\s+([A-Za-z\.\s]+)$', forename)
+            if m_rev_50 and surname and not bldg_name:
+                bldg_name, surname, forename = surname, m_rev_50.group(1), m_rev_50.group(2)
+            else:
+                m_shift_46 = re.match(r'^([A-Z][a-zA-Z\x27\-]+)\s+([A-Za-z\.\s]+)$', bldg_name)
+                if m_shift_46 and surname and forename:
+                    sn = m_shift_46.group(1)
+                    fn = m_shift_46.group(2)
+                    if forename.lower() in ['polisher', 'hand']:
+                        bldg_name, surname, forename, trade = "", sn, fn, f"{surname} {forename}".strip()
+                    else:
+                        bldg_name, surname, forename, trade = forename, sn, fn, surname
+
     rec = {
         "year": year,
         "street": street,
