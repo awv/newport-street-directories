@@ -33,10 +33,11 @@ ABBREVIATIONS = {
 HEADER_SURNAMES = {"butcher's", "thompson's", "johns'", "johns's", "directory"}
 
 CROSS_STREET_REGEX = re.compile(
-    r'\b(?:avenue|st|street|rd|road|lane|place|terrace|hill|way|drive|crescent|parade|pde|av|av\.)\b.*?\bto\b.*?\b(?:avenue|st|street|rd|road|lane|place|terrace|hill|way|drive|crescent|parade|pde|av|av\.)\b'
+    r'\b(?:avenue|st|street|rd|road|lane|place|terrace|hill|way|drive|crescent|cres|cres\.|parade|pde|av|av\.)\b.*?\bto\b.*?\b(?:avenue|st|street|rd|road|lane|place|terrace|hill|way|drive|crescent|cres|cres\.|parade|pde|av|av\.|square)\b'
     r'|^\s*\[?(?:here\s+are|here\s+is|here\s+cross|\[?return\]?|\(return\.?\)|return\.?)\]?\b'
     r'|^\s*[\(\[]?\s*return\.?\s*[\)\]]?\s*$'
     r'|^\s*see\s+also\s+[A-Za-z]+'
+    r'|^\s*now\s+(?:in|see)\s+[a-z0-9\s\.\-]+'
     r'|^\s*(?:maindee|newport|pill)from\b'
     r'|^\s*from\s+[A-Za-z\s]+'
     r'|^\s*[A-Za-z\s]+street\s+from\b'
@@ -48,7 +49,9 @@ CROSS_STREET_REGEX = re.compile(
     r'|\bderives\s+its\s+name\s+from\s+the\s+well\b'
     r'|\biron\s+ring\s+let\s+into\s+the\s+pavement\b'
     r'|\bembraces\s+the\s+numerous\s+streets\b'
-    r'|\bis\s+a\s+district\s+lying\s+between\b',
+    r'|\bis\s+a\s+district\s+lying\s+between\b'
+    r'|\bcommonly\s+called\s+pill\b'
+    r'|\bbarnard\s+town\s*(?:maindee)?\s*$',
     re.I
 )
 
