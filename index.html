@@ -1940,22 +1940,37 @@
         })
         .sort((a, b) => parseInt(b.year) - parseInt(a.year));
 
-      const displayLocationLabel = numMatch ? extractedHouseNum : locationKey;
+      // Clean up any raw cross-reference prefix from locationKey (e.g. "NewportSee Stow Hill" -> "Stow Hill")
+      const rawCleanLabel = locationKey.replace(/^(newport\s*)?see\s*/i, '').trim();
+      const seeMatch = locationKey.match(/(?:newport\s*)?see\s+(.*)/i);
+      const targetStreetRef = seeMatch ? seeMatch[1].trim() : null;
+
+      const displayLocationLabel = numMatch ? extractedHouseNum : rawCleanLabel;
       const isNumeric = /^\d+[a-zA-Z]?(?:-\d+[a-zA-Z]?)?$/.test(displayLocationLabel.trim());
       const headerLabel = displayLocationLabel;
       const breadcrumbLabel = isNumeric ? `No. ${displayLocationLabel}` : displayLocationLabel;
+      const cleanStreetDisplay = displayName.replace(/^(newport\s*)?see\s*/i, '').trim();
 
       document.getElementById('house-breadcrumb-num').innerText = breadcrumbLabel;
       document.getElementById('house-number-display').innerText = headerLabel;
-      document.getElementById('house-street-display').innerText = displayName;
+      document.getElementById('house-street-display').innerText = cleanStreetDisplay;
       
       const streetLink = document.getElementById('house-street-link');
-      streetLink.innerText = displayName;
-      streetLink.href = `#street=${encodeURIComponent(displayName)}`;
+      streetLink.innerText = cleanStreetDisplay;
+      streetLink.href = `#street=${encodeURIComponent(cleanStreetDisplay)}`;
 
       document.getElementById('record-count').innerText = `${currentHouseRecords.length} Records Found`;
-      document.getElementById('property-intro').innerText = 
-        `Historical directory timeline for ${isNumeric ? 'No. ' + locationKey : locationKey} ${displayName}. Spanning ${currentHouseRecords.length} recorded entries across archival street directories.`;
+
+      const introElem = document.getElementById('property-intro');
+      if (currentHouseRecords.length === 0) {
+        if (targetStreetRef) {
+          introElem.innerHTML = `🏛️ Archival Cross-Reference Notice: In historical street directories, this location was an index cross-reference pointing readers to <strong>${targetStreetRef}</strong>. No individual resident entries are filed under this heading. <a href="#street=${encodeURIComponent(targetStreetRef)}" style="color: #c89d54; text-decoration: underline; font-weight: 600; margin-left: 6px;">View ${targetStreetRef} Directory →</a>`;
+        } else {
+          introElem.innerText = `🏛️ Archival Directory Notice: No resident entries recorded for ${isNumeric ? 'No. ' + displayLocationLabel : displayLocationLabel} ${cleanStreetDisplay}. It may have been a cross-reference pointer or historical indexing note.`;
+        }
+      } else {
+        introElem.innerText = `Historical directory timeline for ${isNumeric ? 'No. ' + displayLocationLabel : displayLocationLabel} ${cleanStreetDisplay}. Spanning ${currentHouseRecords.length} recorded entries across archival street directories.`;
+      }
 
       // 3. Populate Property Quick Metrics Bar
       const yearsArray = currentHouseRecords.map(r => parseInt(r.year)).filter(y => !isNaN(y)).sort((a,b) => a - b);
