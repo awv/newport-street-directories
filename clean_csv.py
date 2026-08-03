@@ -36,7 +36,7 @@ CROSS_STREET_REGEX = re.compile(
     r'\b(?:avenue|st|street|rd|road|lane|place|terrace|hill|way|drive|crescent|parade|pde|av|av\.)\b.*?\bto\b.*?\b(?:avenue|st|street|rd|road|lane|place|terrace|hill|way|drive|crescent|parade|pde|av|av\.)\b'
     r'|^\s*\[?(?:here\s+are|here\s+is|here\s+cross|\[?return\]?|\(return\.?\)|return\.?)\]?\b'
     r'|^\s*[\(\[]?\s*return\.?\s*[\)\]]?\s*$'
-    r'|^\s*see\s+also\s+[A-Za-z]+'
+    r'|^\s*\[?\s*(?:newport\s*)?see\b'
     r'|^\s*(?:maindee|newport|pill)from\b'
     r'|^\s*from\s+[A-Za-z\s]+'
     r'|^\s*[A-Za-z\s]+street\s+from\b'
@@ -332,6 +332,17 @@ def clean_record(row):
     forename = pat_side_strip.sub('', forename).strip(' ,"-~.')
     bldg_name = pat_side_strip.sub('', bldg_name).strip(' ,"-~.')
     trade = pat_side_strip.sub('', trade).strip(' ,"-~.')
+
+    # Aid post fix (e.g. surname='First', forename='aid post')
+    if surname.lower() == "first" and forename.lower() == "aid post":
+        surname = "First Aid Post"
+        forename = ""
+        trade = "First Aid Post"
+
+    # Standardize Ld -> Ltd for company names (e.g. 'Newport Labour Hall Ld')
+    bldg_name = re.sub(r'\bLd\.?\b', 'Ltd', bldg_name)
+    surname = re.sub(r'\bLd\.?\b', 'Ltd', surname)
+    trade = re.sub(r'\bLd\.?\b', 'Ltd', trade)
 
     # 2. Fix shifted surname/forename/trade in building_name (e.g. bldg='Jones', surname='Geo', forename='labourer')
     if bldg_name and bldg_name[0].isupper() and not any(w in bldg_name.lower() for w in ['house', 'villa', 'cottage', 'chambers', 'works', 'inn', 'arms', 'hotel', 'building', 'school', 'lodge', 'place', 'hall']):
