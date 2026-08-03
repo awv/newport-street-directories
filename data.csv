@@ -446,7 +446,7 @@ year,street,house_number,building_name,surname,forename,trade
 1876,Bridge (The),,,Evans,Henry,nail works
 1876,Caerau,,Stanley villas,Wood,E,surgeon's assistant
 1876,Caerau,,,Wallis Charles,T,clerk
-1876,Caerau,,Carter James,clerk,Clifford crescent,
+1876,Caerau,,Clifford crescent,Carter,James,Clerk
 1876,Caerau,,,Clifford,crescent,
 1876,Caerau,,,Mathias,W,"master mariner, Clifford crescent"
 1876,Caerau,,,Clifford,crescent,
@@ -847,7 +847,7 @@ year,street,house_number,building_name,surname,forename,trade
 1876,Clarence Street,35,,Simmons,William,tinman
 1876,Clarence Street,,,Wesleyan,Day schools,
 1876,Clarence Street,,,Matthews,P. nail factory,
-1876,Clifford Crescent,,Carter James,clerk,Clifford crescent,
+1876,Clifford Crescent,,Clifford crescent,Carter,James,Clerk
 1876,Clifford Crescent,,,Mathias,W,"master mariner, Clifford crescent"
 1876,Clifton Place,1,Watkin,Richards,Charles,
 1876,Clifton Place,3,,Cadle,William,
@@ -18870,7 +18870,7 @@ year,street,house_number,building_name,surname,forename,trade
 1905,Caerleon Road,,Julians Lodge,Barber,Rd,
 1905,Caerleon Road,,Lower St. Julians,Cuvilji,Oswald B,
 1905,Caerleon Road,,,Wheeler,Frederick,dairyman
-1905,Caerleon Road,,West Charles,builder,Blorenge,
+1905,Caerleon Road,,Blorenge,West,Charles,Builder
 1905,Caerleon Road,,Torvain,Price,Jas. G,
 1905,Caerleon Road,,Egremont,Greenaway,James,
 1905,Caerleon Road,,Claremont,,,
@@ -19355,7 +19355,7 @@ year,street,house_number,building_name,surname,forename,trade
 1905,Cardiff Road,,Gaer Fach,Duckham,Hy,
 1905,Cardiff Road,,,Palmer,Alfred,gardener
 1905,Cardiff Road,,,Wilkinson,M. William. packer,
-1905,Cardiff Road,,The Oaks,Smith,C. H,
+1905,Cardiff Road,,C. H,The,Oaks,Smith
 1905,Cardiff Road,,Gaer Lodge,Trick,Richd,
 1905,Cardiff Road,,Superintendent,Belle,Vue Public Park John Trowbridge,
 1905,Cardiff Road,,Bellue Vue Court,Matthews,Rev. A. A,
@@ -19740,7 +19740,7 @@ year,street,house_number,building_name,surname,forename,trade
 1905,Chepstow Road,,Richmond House,Collett,W,
 1905,Chepstow Road,,Fonmon,Johnson,Eden S,
 1905,Chepstow Road,,Labuam,Samuel Jervis,,
-1905,Chepstow Road,,Kelson Joseph,baker,etc,
+1905,Chepstow Road,,etc,Kelson,Joseph,Baker
 1905,Chepstow Road,,,Bucknall,F. J,bootmaker
 1905,Chepstow Road,,,Grove,Thomas William,
 1905,Chepstow Road,,,Forgie,Mrs. A,
@@ -21449,7 +21449,7 @@ year,street,house_number,building_name,surname,forename,trade
 1905,Crindau Road,2,,Smith,Luke,labourer
 1905,Crindau Road,,,Crindau Gas Works,,
 1905,Crindau Road,,,South Wales Glass Manufacturing Co. Office & Works,,glass manufacturers
-1905,Cromwell Road,,Pitt Richard,builder,Cromwell house,
+1905,Cromwell Road,,Cromwell house,Pitt,Richard,Builder
 1905,Cromwell Road,,,Jones,Thomas,roller
 1905,Cromwell Road,,,Willey,James E,Engine Driver
 1905,Cromwell Road,,House,,,
@@ -21466,7 +21466,7 @@ year,street,house_number,building_name,surname,forename,trade
 1905,Cromwell Road,,,Newland,William H,fitter
 1905,Cromwell Road,,,Lewis,James,labourer
 1905,Cromwell Road,,,Williams,G,ironworker
-1905,Cromwell Road,,Somerton Ho,Baker,Richard,
+1905,Cromwell Road,,Richard,Somerton,Ho,Baker
 1905,Cromwell Road,,Rose Cottage,Mogridge,Thomas,
 1905,Cromwell Road,,,Moulton,William. Rd,carpenter
 1905,Cromwell Road,,,Cotton,Arthur,stocktaker
@@ -27381,7 +27381,7 @@ year,street,house_number,building_name,surname,forename,trade
 1905,Palmyra Place,3,Dan Y Bryn House,Jennings,Mrs. O. H,
 1905,Palmyra Place,4,Laughton House,Maybury,John,
 1905,Palmyra Place,5,Beecher H,Huxtable,A. J,
-1905,Palmyra Place,,Shepherd William,gardener,Kings hill lodge,
+1905,Palmyra Place,,Kings hill lodge,Shepherd,William,Gardener
 1905,Palmyra Place,,Palmyra House,Budd,William,
 1905,Pant Road,1,,English,Charles,labourer
 1905,Pant Road,3,,Brister,William,
@@ -29293,7 +29293,7 @@ year,street,house_number,building_name,surname,forename,trade
 1905,Street Julian Street,28,,Watts,Henry,seaman
 1905,Street Julian Street,29,,Griffiths,William. T. seaman,
 1905,Street Julian Street,30,,Benny,Joseph,seaman
-1905,Street Julian's Avenue,,Hazell Alfred,builder,The Lodge,
+1905,Street Julian's Avenue,,The Lodge,Hazell,Alfred,Builder
 1905,Street Julian's Avenue,,Hazlemere,Thomas,Gwilym,
 1905,Street Julian's Avenue,,Sunnydale,Blow,William,
 1905,Street Julian's Avenue,,Vacant Site,,,
@@ -34420,7 +34420,7 @@ year,street,house_number,building_name,surname,forename,trade
 1914,Cardiff Road,,Gaer Fach,Duckham,Henry,
 1914,Cardiff Road,,Gaer Lodge,Masi,John,gardener
 1914,Cardiff Road,,Wilkinson,MW,packer,
-1914,Cardiff Road,,The Oaks,Smith,CH,
+1914,Cardiff Road,,CH,The,Oaks,Smith
 1914,Cardiff Road,,Trowbridge,John,supt Belle Vue Park,
 1914,Cardiff Road,,Belle Vue Court,Ford,William,caretaker
 1914,Cardiff Road,15,,Bevan,John,labourer
@@ -45103,7 +45103,7 @@ year,street,house_number,building_name,surname,forename,trade
 1914,Somerton Road,,,Paul,David,shoemaker
 1914,Somerton Road,,Wm E Junior,,Coldrick,
 1914,Somerton Road,,Berry,Saml,Edwin,postman
-1914,Somerton Road,,Iron Worker,Smith,Jas,
+1914,Somerton Road,,Jas,Iron,Worker,Smith
 1914,Somerton Road,1,Claremont Terrace,Bird,Jos. H,iron worker
 1914,Somerton Road,2,Claremont Terrace,Clifford,Robert,iron worker
 1914,Somerton Road,3,Claremont Terrace,Hughes,Elijah A,insurance agent
@@ -70062,7 +70062,7 @@ year,street,house_number,building_name,surname,forename,trade
 1933,Barrack Lane,,Stenerith,Jacobs,Isaac,clerk
 1933,Barrack Lane,,Cadgwan,Davies,Tom,schoolmaster
 1933,Barrack Lane,,Oakwood,Pearson,Miss Enid F,
-1933,Barrack Lane,,Blue Firs,Smith,Sam IR,
+1933,Barrack Lane,,Sam IR,Blue,Firs,Smith
 1933,Barrack Lane,,Cartref,Jones,John W,
 1933,Barrack Lane,,Upperdale,James,Horace C,Great Western Railway
 1933,Barrack Lane,,Harweldene,Harman,Richd H,policeman
@@ -79880,7 +79880,7 @@ year,street,house_number,building_name,surname,forename,trade
 1933,Greenmeadow Avenue,5,,Willmott,Frederick,steel worker
 1933,Greenmeadow Avenue,3,,Nicholls,William,steel worker
 1933,Greenmeadow Road,,Ivydene,South,George W,fireman
-1933,Greenmeadow Road,,The Oaks,Mason,Mrs E,
+1933,Greenmeadow Road,,Mrs E,The,Oaks,Mason
 1933,Greenmeadow Road,,Glen Roy,Wall,Herbert,chauffeur
 1933,Greenmeadow Road,,Alandale,Hughes,Richd,
 1933,Greenmeadow Road,,Willowmere,Kitcher,,
@@ -85948,7 +85948,7 @@ year,street,house_number,building_name,surname,forename,trade
 1933,Penylan Road,,Dorrington,Hobbs,Arthur C,
 1933,Penylan Road,,The Beeches,Hawes,A,Post Office
 1933,Penylan Road,,Vaynor,Oram,Robert W,traveller
-1933,Penylan Road,,The Oaks,Smith,Norman T,
+1933,Penylan Road,,Norman T,The,Oaks,Smith
 1933,Penylan Road,,The Crest,Bevan,Joseph W,manager
 1933,Penylan Road,,Omega,Blomley,Vivian E,Great Western Railway
 1933,Penylan Road,,Melita,Gray,Jas W,plumber
@@ -92047,7 +92047,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Aberthaw Road,,Taylor Henry J,haulage,con,
 1938,Aberthaw Road,,Melpomene,Shier,Mrs. Maud,
 1938,Aberthaw Road,,Vowles W,inwkr,Tranmere,
-1938,Aberthaw Road,,Buckman C. W,steelworker,Elim,
+1938,Aberthaw Road,,Elim,Buckman,C. W,Steelworker
 1938,Aberthaw Road,,Davies Chas. A,patternmkr,Rowlstone,
 1938,Aberthaw Road,,Edwards Ed,irnmldr,Mayfair,
 1938,Aberthaw Road,,Moulton Arthur A,confctnr,Allandale,
@@ -92086,7 +92086,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Acacia Avenue,,,Sansom,W,baker
 1938,Acacia Avenue,,,Attwood,Mrs,
 1938,Acacia Avenue,,Springfield,John,Mrs,
-1938,Acacia Avenue,,Betts Albert H,joiner,The Grove,
+1938,Acacia Avenue,,The Grove,Betts,Albert H,Joiner
 1938,Acacia Avenue,20,,Hunt,Ed. A. W,
 1938,Acacia Avenue,18,,Hammett,Charles,cochbldr
 1938,Acacia Avenue,16,,Townshend,Cecil E,plbr
@@ -92549,7 +92549,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Alderney Street,,,Young,Alexander J,foreman
 1938,Alderney Street,,Lovell G. F. & Co,Ltd,canteen,
 1938,Alderney Street,,Sonoma,McGowan,John,
-1938,Alderney Street,,Cowell Ernest,manager,Marshall villa,
+1938,Alderney Street,,Marshall villa,Cowell,Ernest,Manager
 1938,Alderney Street,,Meton Villa,Williams,Daniel,
 1938,Alderney Street,,,Entrance,to Lovell's Recreation ground,
 1938,Alexandra Docks,,,G.W,Ry. Docks police office,
@@ -92558,7 +92558,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Alexandra Docks,,Dock Branch Inst,G.W.R,Social Educational Union,
 1938,Alexandra Docks,,Scott Geo. & Co,Ltd,stevedores,
 1938,Alexandra Docks,,,Discharging,berths,
-1938,Alexandra Docks,,Great Company Western Railway General Offices H. B,Smith,Dock Manager,
+1938,Alexandra Docks,,Dock Manager,Great,Company Western Railway General Offices H. B,Smith
 1938,Alexandra Docks,,G.W.R,Dock,Engineers' office M. C,"Harrison, Div. Docks Engineer; J. F. Arthur, Dock Mechanic. Engineer"
 1938,Alexandra Docks,,,G.W.R,Garage,
 1938,Alexandra Docks,,,Telephone,Call Office,
@@ -92851,7 +92851,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Allt-Yr-Yn Avenue,83,Kelvin,Campbell,John H,
 1938,Allt-Yr-Yn Avenue,,Fairmead,Davies,Owen W,
 1938,Allt-Yr-Yn Avenue,,Ombersley,Davies,H. J,
-1938,Allt-Yr-Yn Avenue,,Kerr R. B,Tailor,Wycliffe,
+1938,Allt-Yr-Yn Avenue,,Wycliffe,Kerr,R. B,Tailor
 1938,Allt-Yr-Yn Avenue,,Dolman A. F,solicitor,Thorn Falcon,
 1938,Allt-Yr-Yn Avenue,,Wood K,solr,Briar Hill,
 1938,Allt-Yr-Yn Avenue,,Ty Tyla,Meacock,Robert,
@@ -93092,7 +93092,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Allt-Yr-Yn View,,Evans John E,schoolteacher,Penallt,
 1938,Allt-Yr-Yn View,,Deans Albert R,civil,servant,
 1938,Allt-Yr-Yn View,,,Coles,W'illiam,school teacher Overvale
-1938,Allt-Yr-Yn View,,Curtis Reg,grocer,Oldbury,
+1938,Allt-Yr-Yn View,,Oldbury,Curtis,Reg,Grocer
 1938,Allt-Yr-Yn View,,,Mead Archibald,eng,driver
 1938,Allt-Yr-Yn View,,Stenerith,Jacobs,Isaac,
 1938,Allt-Yr-Yn View,,Davies Tom,schoolmaster,Cadwgan,
@@ -94005,14 +94005,14 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Bank Street,,,Whitfield,L,general stores
 1938,Bank Street,,Chape Dd,stlwkr,Hawthorn View,
 1938,Bank Street,,,Kirkham,Glengarra,
-1938,Bank Street,,Reynolds A,carpenter,Dawlish,
+1938,Bank Street,,Dawlish,Reynolds,A,Carpenter
 1938,Bank Street,,James Wm. D,salesman,Hendre,
 1938,Bank Street,,Peachy Henry,G.W.R,Avimore,
 1938,Bank Street,,Verona,Green,Frederick,
 1938,Bank Street,,Sherlyn,Bishop,John J,
 1938,Bank Street,,Hicks Sidney T. J,G.W.R,Kempsey,
 1938,Bank Street,,,Pickford's Ltd,,furn warhse
-1938,Bank Street,,Prowse Reg,mason,The Bungalow,
+1938,Bank Street,,The Bungalow,Prowse,Reg,Mason
 1938,Bank Street,10,,Mackey,James J,labr
 1938,Bank Street,8,,Duggan,Leslie G,carptr
 1938,Bank Street,6,,Corfield,William,sweep
@@ -94263,7 +94263,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Bassalleg Road,,,NANT,COCH HILL,
 1938,Bassalleg Road,,Tucker Wm. F,electron,St. Donats,
 1938,Bassalleg Road,,Ware Robt. Jas,chaff,engnr,
-1938,Bassalleg Road,,Whittle William,clerk,Mellor,
+1938,Bassalleg Road,,Mellor,Whittle,William,Clerk
 1938,Bassalleg Road,,Powell Donald H,G.W.R,Hillcrest,
 1938,Bassalleg Road,,Highley Miss A,schl,tchr,
 1938,Bassalleg Road,,Herbar,Matthews,William. J,
@@ -94271,10 +94271,10 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Bassalleg Road,,Loring W. J,drgtsmn,Geista,
 1938,Bassalleg Road,,Gibson Ernest,wire,drawer,
 1938,Bassalleg Road,,Allott Winson,wire,drawer,
-1938,Bassalleg Road,,Young A. G,builder,Tredegar Fach,
+1938,Bassalleg Road,,Tredegar Fach,Young,A. G,Builder
 1938,Bassalleg Road,2,,houses,vacant,
 1938,Bassalleg Road,,Berry Philip,stlwkr,Ty Bryn,
-1938,Bassalleg Road,,Jones James D,clerk,Etheldene,
+1938,Bassalleg Road,,Etheldene,Jones,James D,Clerk
 1938,Bassalleg Road,,,GAER,PARK CRESCENT,
 1938,Bassalleg Road,26,,Powell,Ivor,labourer
 1938,Bassalleg Road,25,,Palfrey,Lancelot,gas insp
@@ -94519,8 +94519,8 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Beechcroft Road,,Phelps Ernest H,marine,engr,
 1938,Beechcroft Road,,Hobbs Chas. T,chief,stwd,
 1938,Beechcroft Road,,Barnes Ernest G,moulder,Branksome,
-1938,Beechcroft Road,,Collins Albert R,clerk,St. Margarets,
-1938,Beechcroft Road,,Wilshire S. T,electrician,Craig-ny-Baa,
+1938,Beechcroft Road,,St. Margarets,Collins,Albert R,Clerk
+1938,Beechcroft Road,,Craig-ny-Baa,Wilshire,S. T,Electrician
 1938,Beechcroft Road,,Morgan D,sports,editor,
 1938,Beechcroft Road,,Richards J. T,roller,Glenworth,
 1938,Beechcroft Road,,Hill Wm. Jas,cashier,Glencoe,
@@ -94678,7 +94678,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Bettws Lane,,Preece James,gardener Cottage,Waterside,
 1938,Bettws Lane,,Trout Cottage,Jones,Mrs. Lavinia,
 1938,Bettws Lane,,No. 1 Bungalow,Bailey,Matthew,
-1938,Bettws Lane,,Crick Wm. Arthur,labourer,No. 2 Bungalow,
+1938,Bettws Lane,,No. 2 Bungalow,Crick,Wm. Arthur,Labourer
 1938,Bettws Lane,,Pentwyn House,Stanfield,Richard,
 1938,Bilston Street,2,,Burman,Frederick. T,sweep
 1938,Bilston Street,4,,Reynolds,Mrs. Beatrice E,
@@ -94812,22 +94812,22 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Blaen-Y-Pant Avenue,12,,Collier,W. H,"musical dlr, Abington"
 1938,Blaen-Y-Pant Cottages,1,,Leonard,Michael,
 1938,Blaen-Y-Pant Cottages,2,,Picton,William H,
-1938,Blaen-Y-Pant Crescent,,Williams T. M,fitter,Bryndene,
+1938,Blaen-Y-Pant Crescent,,Bryndene,Williams,T. M,Fitter
 1938,Blaen-Y-Pant Crescent,,,Williams,R. D,builder
 1938,Blaen-Y-Pant Crescent,,Watkins C. E,civil,servant,
 1938,Blaen-Y-Pant Crescent,6,Houses,,,
 1938,Blaen-Y-Pant Crescent,2,Houses,,,
 1938,Blaen-Y-Pant Place,,Moutdore,Pickersgill,Mrs,
 1938,Blaen-Y-Pant Place,,Arnold H,P.C,Casita,
-1938,Blaen-Y-Pant Place,,Morgan L. A,clerk,The Braids,
+1938,Blaen-Y-Pant Place,,The Braids,Morgan,L. A,Clerk
 1938,Blaen-Y-Pant Place,,House,,,
 1938,Blaen-Y-Pant Place,,Miles L,traveller,Hillcrest,
 1938,Blaen-Y-Pant Place,,Kenmore,Clark,A. J,
 1938,Blaen-Y-Pant Place,,,Davey,F. J,G.W.R.
-1938,Blaen-Y-Pant Place,,James Henry,manager,Glen Roy,
+1938,Blaen-Y-Pant Place,,Glen Roy,James,Henry,Manager
 1938,Blaen-Y-Pant Place,,Watkins Wm,civil,servant,
 1938,Blaen-Y-Pant Place,,Griffiths T,bridge,insptr,G.W.R.
-1938,Blaen-Y-Pant Place,,Gillard W. T,boot,shop mang,
+1938,Blaen-Y-Pant Place,,shop mang,Gillard,W. T,Boot
 1938,Blake Road,6,,Houses,building,
 1938,Blenheim Road,2,,Nurdin,James B,doubler
 1938,Blenheim Road,4,,Clark,,
@@ -95387,18 +95387,18 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Brynglas Avenue,18,,Wilkins,George. B. P,firemn
 1938,Brynglas Avenue,20,,Lilygreen,A,labourer
 1938,Brynglas Avenue,22,,Franklin,Albert,shop
-1938,Brynglas Avenue,,Read B. S,baker,Lynwood,
+1938,Brynglas Avenue,,Lynwood,Read,B. S,Baker
 1938,Brynglas Avenue,,Smith E,G.W.R,Bradley house,
-1938,Brynglas Avenue,,Davies Archibald,clerk,St. Hilary,
+1938,Brynglas Avenue,,St. Hilary,Davies,Archibald,Clerk
 1938,Brynglas Avenue,,Smith F. H,clk,Dairy,
 1938,Brynglas Avenue,,Cranleigh,Linton,W,
 1938,Brynglas Avenue,,Colbourne F. H,hairdsr,Overdale,
 1938,Brynglas Avenue,,Josedene,Parry,Thomas,
-1938,Brynglas Avenue,,Darby Alfred E,clerk,Ethelene,
+1938,Brynglas Avenue,,Ethelene,Darby,Alfred E,Clerk
 1938,Brynglas Avenue,,West Geo. F,G.W.R,Corbiere,
 1938,Brynglas Avenue,,Jones Harold,furnaceman,Beech Dale,
-1938,Brynglas Avenue,,Daykin Hy. Geo,mason,Hillcrest,
-1938,Brynglas Avenue,,Suller Fredk. E,painter,Dorothea,
+1938,Brynglas Avenue,,Hillcrest,Daykin,Hy. Geo,Mason
+1938,Brynglas Avenue,,Dorothea,Suller,Fredk. E,Painter
 1938,Brynglas Avenue,27,,Smith,Harold H,clerk
 1938,Brynglas Avenue,25,,Davies,Harry,carpenter
 1938,Brynglas Avenue,19,,Powell,Hy. Jno,secretary
@@ -95763,12 +95763,12 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Cae Brynton Road,,Rondel H,hoistman,Hyllrene,
 1938,Cae Brynton Road,,Price I. H,roller,Brent-Tor,
 1938,Cae Brynton Road,,Ray James,labr,Petti-Tor,
-1938,Cae Brynton Road,,Haynes Cyril,fitter,Lorna Doone,
+1938,Cae Brynton Road,,Lorna Doone,Haynes,Cyril,Fitter
 1938,Cae Brynton Road,,Morgan Dd. J,furnaceman,Glen Rosa,
 1938,Cae Brynton Road,,High Field,Jackson,William,fitter
 1938,Cae Brynton Road,,Harries A,paintr Court,Rodin,
-1938,Cae Brynton Road,,Ray Reg,clerk,Y-nith,
-1938,Cae Brynton Road,,Evenson Wm,engine,dvr,
+1938,Cae Brynton Road,,Y-nith,Ray,Reg,Clerk
+1938,Cae Brynton Road,,dvr,Evenson,Wm,Engine
 1938,Cae Brynton Road,,Bickerstaffe John,stevedore,Rossbank,
 1938,Cae Brynton Road,,Rowden L,G.W.R,Rougemont,
 1938,Cae Brynton Road,,Hurd Ed,upholst,Verdula,
@@ -95778,9 +95778,9 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Cae Brynton Road,,Peters D. M,boiler,mkr,
 1938,Cae Brynton Road,,,Stevens,Mrs. A,Oak stores
 1938,Cae Brynton Road,,,Williams Jas,pass,guard
-1938,Cae Brynton Road,,Bissex J,baker,Longdendale,
+1938,Cae Brynton Road,,Longdendale,Bissex,J,Baker
 1938,Cae Brynton Road,,Netley,Bright,Henry,
-1938,Cae Brynton Road,,Jones R. H,clerk,Kynance,
+1938,Cae Brynton Road,,Kynance,Jones,R. H,Clerk
 1938,Cae Brynton Road,,,Whitehead I. J,solctr,clerk
 1938,Cae Brynton Road,,Arlesford,Morey,Douglas F,
 1938,Cae Brynton Road,,Earlswood,Lewis,Frederick. M,
@@ -95821,16 +95821,16 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Cae Perllan Road,41,Hazelmawn,Tucker,Edgar E,painter
 1938,Cae Perllan Road,43,Illyria,Trice,Ivor,fitter
 1938,Cae Perllan Road,,Hayman Ernest G,G.W.R,Kingswear,
-1938,Cae Perllan Road,,Hockey Sidney,butcher,Regina,
-1938,Cae Perllan Road,,Venn Alfred,pilot,Lyncroft,
-1938,Cae Perllan Road,,Stone Edwin C,fitter,The Knoll,
+1938,Cae Perllan Road,,Regina,Hockey,Sidney,Butcher
+1938,Cae Perllan Road,,Lyncroft,Venn,Alfred,Pilot
+1938,Cae Perllan Road,,The Knoll,Stone,Edwin C,Fitter
 1938,Cae Perllan Road,,Binding Godfrey,G.W.R,Avalon,
 1938,Cae Perllan Road,59,,Orice,John,painter
 1938,Cae Perllan Road,,Holmsview,Lowe,Mrs,
 1938,Cae Perllan Road,,Watts Wilfred G,traveller,Dounia,
 1938,Cae Perllan Road,,,Giles,Frank,sign writer
 1938,Cae Perllan Road,,Allen Fredk,dental,mec,
-1938,Cae Perllan Road,,Warner Fredk,painter,Alandale,
+1938,Cae Perllan Road,,Alandale,Warner,Fredk,Painter
 1938,Cae Perllan Road,,,William Albert W,estate,agent
 1938,Cae Perllan Road,103,,Lewis,Alec,G.W.R. Lansdowne
 1938,Cae Perllan Road,105,Bavik,Matthews,Mrs. Emily J,
@@ -96254,7 +96254,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Caerleon Road,433,,Booth,A. E,clerk
 1938,Caerleon Road,435,,Hopkins,W,corp emply
 1938,Caerleon Road,437,,Wood,Reg. G,motor eng
-1938,Caerleon Road,,Fisk John,builder,Walcot villa,
+1938,Caerleon Road,,Walcot villa,Fisk,John,Builder
 1938,Caerleon Road,,,St,Julian's Park,
 1938,Caerleon Road,439,,Jenkins,Robert,Old St. Julians farm
 1938,Caerleon Road,441,Sefton,Breckell,Thomas. R,joiner
@@ -96325,7 +96325,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Caerleon Road,,,Jones T,elec,engineer
 1938,Caerleon Road,1,Curtis Reginald H,stwkr,St. Julians Park Lodge,
 1938,Caerleon Road,,,Ford,George. H,St. Julians Tea Gardens
-1938,Caerleon Road,,Newberry Jesse,labourer cottage,Hawthorn,
+1938,Caerleon Road,,Hawthorn,Newberry,Jesse,Labourer Cottage
 1938,Caerleon Road,,Ford G. H,ship,broker,
 1938,Caerleon Road,,Cartmall Edwin J,mech,Zemindar,
 1938,Caerleon Road,,,Collett,Wrm,timber merch & saw mills
@@ -96337,7 +96337,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Caerleon Road,,Fairhaven bungalow,Williams,W. J,
 1938,Caerleon Road,,Fairmead,Thomas,A,
 1938,Caerleon Road,,Glanteifon,Jones,Miss H. A,
-1938,Caerleon Road,,Fish Geo. S,builder,Oak Lodge,
+1938,Caerleon Road,,Oak Lodge,Fish,Geo. S,Builder
 1938,Caerleon Road,,Julian's Cottage,Jones,Vincent,
 1938,Caerleon Road,556,,Mullins,Cyril,masseur and medical electrician
 1938,Caerleon Road,554,Springfield,Jones,A,
@@ -96465,7 +96465,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Caerleon Road,,Vacant Site,,,
 1938,Caerleon Road,,,Telephone,Kiosk,
 1938,Caerleon Road,,Hurley H. T,constable,St. Honore,
-1938,Caerleon Road,,Lewis Charles,butcher,Cotswier,
+1938,Caerleon Road,,Cotswier,Lewis,Charles,Butcher
 1938,Caerleon Road,336,,Rackham,R. Hy,labr
 1938,Caerleon Road,334,,Lewis,George,motor man
 1938,Caerleon Road,332,,Edmunds,Mrs. W,
@@ -97057,7 +97057,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Cardiff Road,14,,Brown,G. W,pilot
 1938,Cardiff Road,,William H. T,custom & excise,,
 1938,Cardiff Road,,Thain George,compass,adjuster,
-1938,Cardiff Road,,Moore F. W,builder,Ben Gairn,
+1938,Cardiff Road,,Ben Gairn,Moore,F. W,Builder
 1938,Cardiff Road,14a,,Short,William,"moulder, Maryland"
 1938,Cardiff Road,,Langtree,Little,Henry,
 1938,Cardiff Road,,Thorn E,engr,Westonby,
@@ -97068,7 +97068,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Cardiff Road,,Gibbs A. A,fruiterer,Kingsley,
 1938,Cardiff Road,,Trevarth,Jones,Henry,
 1938,Cardiff Road,,,Weeks,Edgar,
-1938,Cardiff Road,,Trask D. A,joiner,Kingscroft,
+1938,Cardiff Road,,Kingscroft,Trask,D. A,Joiner
 1938,Cardiff Road,,,Smith,O. A,
 1938,Cardiff Road,,Wearside,Austwick,H. S,
 1938,Cardiff Road,,Buttiegieg George,conftnr,The Blue Bird,
@@ -97126,29 +97126,29 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Cardiff Road,,Etheldene,Morgan,Charles,
 1938,Cardiff Road,,,St,Thomas' Church,
 1938,Cardiff Road,,,Orders,Arthur,
-1938,Cardiff Road,,Rowlands Chas,carpenter,Rosedene,
+1938,Cardiff Road,,Rosedene,Rowlands,Chas,Carpenter
 1938,Cardiff Road,,,Lewis,Albert E,
 1938,Cardiff Road,,Bridge Hse,Simmonds,Leslie,
 1938,Cardiff Road,,San,,Remo,
-1938,Cardiff Road,,McNab Leonard,engineer,Bonheur,
+1938,Cardiff Road,,Bonheur,McNab,Leonard,Engineer
 1938,Cardiff Road,,Thelsford,Woolf,Norman,
 1938,Cardiff Road,,Waite W. F,G.W.R,Strathleigh,
 1938,Cardiff Road,,,Durant Wm. C,eng,driver
 1938,Cardiff Road,,Ivydene,Self,James,
 1938,Cardiff Road,,Valrosa,Purnell,Thomas. J,
 1938,Cardiff Road,,Phillips David,painter,Oaklands,
-1938,Cardiff Road,,Lewis G,steelworker,Cavina,
+1938,Cardiff Road,,Cavina,Lewis,G,Steelworker
 1938,Cardiff Road,,,Cole,Arthur,lorry driver Sunnyside
-1938,Cardiff Road,,David Thos. J,fitter,Ty-Daffyd,
+1938,Cardiff Road,,Ty-Daffyd,David,Thos. J,Fitter
 1938,Cardiff Road,,,Gale,Ernest,G.W.R. Trevethyn
 1938,Cardiff Road,,Robins Hy,ironwkr,Langley,
-1938,Cardiff Road,,Diddams J. Geo,painter,St. Clears,
-1938,Cardiff Road,,Waite John,fireman,Halmore,
-1938,Cardiff Road,,Francis T,shunter,Cartref,
-1938,Cardiff Road,,Larcombe Maurice,shunter,Fairmeade,
+1938,Cardiff Road,,St. Clears,Diddams,J. Geo,Painter
+1938,Cardiff Road,,Halmore,Waite,John,Fireman
+1938,Cardiff Road,,Cartref,Francis,T,Shunter
+1938,Cardiff Road,,Fairmeade,Larcombe,Maurice,Shunter
 1938,Cardiff Road,,,Emms Wm,ins,inspector
 1938,Cardiff Road,,Davies Lennox,steel,tester,
-1938,Cardiff Road,,Davies Wm,dairyman,Lynwood,
+1938,Cardiff Road,,Lynwood,Davies,Wm,Dairyman
 1938,Cardiff Road,,,TRE-AP-GWILYM,,
 1938,Cardiff Road,32,,Wadge,Frank,shunter
 1938,Cardiff Road,31,Haslemere,Regan,Samuel,trimmer
@@ -97184,7 +97184,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Cardiff Road,3,,Williams,Edw,irnwkr
 1938,Cardiff Road,2,,Harman,Frederick J,G.W.R.
 1938,Cardiff Road,1,,Mackie,William,haulier
-1938,Cardiff Road,,Davies W. D,trimmer,Sunnybrae,
+1938,Cardiff Road,,Sunnybrae,Davies,W. D,Trimmer
 1938,Cardiff Road,,,Park Stores,,
 1938,Cardiff Road,,,Davies,W. L,plumber & engineer
 1938,Cardiff Road,,Davies D. W,G.W.R,St. Davids,
@@ -97195,14 +97195,14 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Cardiff Road,,Tregudda,Stephens,Mrs. Ellen L,
 1938,Cardiff Road,,,Plaister,H. J,Boot Repairer
 1938,Cardiff Road,,Cole D. E,confectioner,The Glen,
-1938,Cardiff Road,,Oliver Hugh H,clerk,Hazlemere,
+1938,Cardiff Road,,Hazlemere,Oliver,Hugh H,Clerk
 1938,Cardiff Road,,Moore A. E,bricklayer,Colwyn,
 1938,Cardiff Road,,Estcott,Mockridge,William. H,
 1938,Cardiff Road,,Llanishen,Cook,Joseph R,
 1938,Cardiff Road,,Abraham Frank,boatman,Rosscarbery,
 1938,Cardiff Road,,Tygwyn,Mendelson,H,
 1938,Cardiff Road,,,Landstrom,William. O,G.W.R. Watcombe
-1938,Cardiff Road,,Huntley Hy. J,carpenter,Hyfrydle,
+1938,Cardiff Road,,Hyfrydle,Huntley,Hy. J,Carpenter
 1938,Cardiff Road,,Eversley,Baker,Mrs,
 1938,Cardiff Road,,Tucker E. J,G.W.R,St. Albans,
 1938,Cardiff Road,,Maiesmore,Hooper,W,
@@ -97220,7 +97220,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Cardiff Road,,Evans Howard M,G.W.R,Mostyn,
 1938,Cardiff Road,,,Cankett J. H,bus,driver
 1938,Cardiff Road,,Harris Stanley,eng,dvr,
-1938,Cardiff Road,,Hobbs Alf,guard,Rosevean,
+1938,Cardiff Road,,Rosevean,Hobbs,Alf,Guard
 1938,Cardiff Road,,,Whyman Arthur E,crane,driver
 1938,Cardiff Road,,,Edwards Albt. J,dk,pilot
 1938,Cardiff Road,,Oaks Cottage,Wilkinson,Mrs. E,
@@ -97526,7 +97526,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Charles Street,,,Murphy,G. W,labourer
 1938,Charles Street,24,,Mcllvaney,J as,watch repr
 1938,Charles Street,25,,Scannell,W. J,Bootmaker
-1938,Charles Street,,Hearts of Oak Benefit Soc,agent,W. A. Scannell,
+1938,Charles Street,,W. A. Scannell,Hearts,of Oak Benefit Soc,Agent
 1938,Charles Street,26,,Cowley,E,ladies' outfitr
 1938,Charles Street,27,,Friendly Insurance United Ltd. Co,,
 1938,Charles Street,,,Bolt,G.W.R,
@@ -97887,8 +97887,8 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Chepstow Road,,,Dickinson J. H. F. Bank,,manager
 1938,Chepstow Road,,Grasmere,Madley,Herb. G,
 1938,Chepstow Road,,Glenholme,Watkins,William. A,
-1938,Chepstow Road,,Harrhy C. T,outfitter,Gorley house,
-1938,Chepstow Road,,Lilbourne Capt,master,mar,
+1938,Chepstow Road,,Gorley house,Harrhy,C. T,Outfitter
+1938,Chepstow Road,,mar,Lilbourne,Capt,Master
 1938,Chepstow Road,,Woodside,,,
 1938,Chepstow Road,612,,Drewitt,E. M,Bishpool stores
 1938,Chepstow Road,610,Park view,Deer,Sidney,
@@ -98183,7 +98183,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Chepstow Road,102,,J. W. Hooper Ltd,,drprs
 1938,Chepstow Road,100,,W. E. Evans & Co,,"Ltd., boot dealers"
 1938,Chepstow Road,,,Gent,A,ship's steward
-1938,Chepstow Road,,Huckle Will,tailor,costumier and furrier,
+1938,Chepstow Road,,costumier and furrier,Huckle,Will,Tailor
 1938,Chepstow Road,98,,James,Baldwin,leather and grindery stores
 1938,Chepstow Road,,,Hall,Mrs,
 1938,Chepstow Road,,,Blackwell,,
@@ -98576,7 +98576,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Christchurch Road,,,Simcox,H,butcher
 1938,Christchurch Road,,,Locke,Miss M,shop
 1938,Christchurch Road,88a,,Brinton,E,prof footbllr
-1938,Christchurch Road,,South Albert S,labourer,Lower Sparkenhoe,
+1938,Christchurch Road,,Lower Sparkenhoe,South,Albert S,Labourer
 1938,Christchurch Road,88,Upper Sparkenhoe,Wilks,Mrs,
 1938,Christchurch Road,,,TEMPERANCE,COTTAGES,
 1938,Christchurch Road,86,,Bastin,Mrs. M. J,
@@ -98937,10 +98937,10 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Clevedon Road,4,,Matthews,H. Rowland,
 1938,Clevedon Road,,Vacant Site,,,
 1938,Clevedon Road,,Ansell,Molyneux,R,
-1938,Clevedon Road,,Turner Geo. E,fitter,Strathmore,
+1938,Clevedon Road,,Strathmore,Turner,Geo. E,Fitter
 1938,Clevedon Road,,,Bailey,Thone,
 1938,Clevedon Road,,,Hancock W. E. Bank,,clerk
-1938,Clevedon Road,,Harris H. C,builder,Clevedon Chine,
+1938,Clevedon Road,,Clevedon Chine,Harris,H. C,Builder
 1938,Clevedon Road,,Beverston,Price,Miss E. M,
 1938,Clevedon Road,,Jury A. R,p.c,Rough Acre,
 1938,Clevedon Road,,Thomas W. S,architect,Bella Vista,
@@ -100957,7 +100957,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Coverack Road,42,,Rogers,Alf. C. D,lorry dvr
 1938,Coverack Road,44,,Grey,William,
 1938,Coverack Road,48,,Johnsey,William,roller
-1938,Coverack Road,,Sherman Jas. H,mason cottage,Uskside,
+1938,Coverack Road,,Uskside,Sherman,Jas. H,Mason Cottage
 1938,Coverack Road,,Uskside Paint Mills,Jenkins,H. S,
 1938,Coverack Road,,Guest,Keen & Nettlefolds Ltd,,
 1938,Coverack Road,,,Morgan,William. S,blacksmt shop
@@ -100981,7 +100981,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Crawford Street,2,,Gorman,J,coal merchant
 1938,Crawford Street,4,"Welder, Loma House",Corner,C. H,
 1938,Crawford Street,,,Reece's,yard,
-1938,Crawford Street,,Merrett Alb,ironworker,The Bungalow,
+1938,Crawford Street,,The Bungalow,Merrett,Alb,Ironworker
 1938,Crawford Street,,,Walters & Lane,,wheelwrights
 1938,Crawford Street,18-20-22,,Venn & McPherson Ltd. & warehouse,garage,
 1938,Crawford Street,24,,Harvey,Ernest,G.W.R. Aylesham
@@ -101716,11 +101716,11 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Dock (The Town),,,Cambrian,Iron Foundry T,Spittle Ltd
 1938,Dock (The Town),,Rhymney,,wharf,
 1938,Dock (The Town),,Vacant Site,,,
-1938,Dock (The Town),,Price John,carpenter,Rhymney house,
+1938,Dock (The Town),,Rhymney house,Price,John,Carpenter
 1938,Dock (The Town),,,Penner,wharf,
 1938,Dock (The Town),,Malt House,Phillips & Sons Ltd,,
 1938,Dock (The Town),,,Beddow,J. H,maltster
-1938,Dock (The Town),,Thompson S,platelayer,Dock house,
+1938,Dock (The Town),,Dock house,Thompson,S,Platelayer
 1938,Dock (The Town),,Dock Cottage,Neath,Mrs,
 1938,Dock (The Town),,,The,Town Dock is now closed,
 1938,Dock (The Town),,,West,side from Dock street,
@@ -102740,7 +102740,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,East Grove Road,,Fairview,Vickery,Robert. J,
 1938,East Grove Road,,Bellevue,Willmott,William. A,
 1938,East Grove Road,,The Beeches,Jones,Harold J,
-1938,East Grove Road,,Cooper Wm,baker,TheCedars,
+1938,East Grove Road,,TheCedars,Cooper,Wm,Baker
 1938,East Grove Road,,Reevyland,Wadsworth,Gerald,
 1938,East Market Street,,,East,side Cattle Market,
 1938,East Market Street,1,,Blackley,Jos. H,seaman
@@ -102946,8 +102946,8 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Elaine Crescent,,,Elliott Herbt. J,mas,mariner
 1938,Elaine Crescent,,Jones Donald A. S,shoe,buyer,
 1938,Elaine Crescent,,Kenney Herbert S,com,travlr,
-1938,Elaine Crescent,,Owen Robert,grocer,Brynteg,
-1938,Elaine Crescent,,Jones D. C,draper,Medwyn,
+1938,Elaine Crescent,,Brynteg,Owen,Robert,Grocer
+1938,Elaine Crescent,,Medwyn,Jones,D. C,Draper
 1938,Elaine Crescent,,,Marsh J ohn,ins,agent
 1938,Elaine Crescent,,Wright Ed,P.C,Thornbury,
 1938,Elaine Crescent,,Baylis John E,warehseman,Richford,
@@ -103091,13 +103091,13 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Eveswell Park,3,Dolecoed,Smallwood,A,
 1938,Eveswell Park,4,,Jones,Llew,teacher
 1938,Eveswell Park,5,Elstow,Hussey,George,
-1938,Eveswell Park,,Venn J. H,builder,Staddon,
+1938,Eveswell Park,,Staddon,Venn,J. H,Builder
 1938,Eveswell Park,,Rosendale,Basham,J. Hubert,
 1938,Eveswell Park,,Akenhead Francis,solicitor,Mount Eveswell,
 1938,Eveswell Park,,Vacant Site,,,
 1938,Eveswell Park,,Mt. Pleasant,Lovering,Hy. E,
 1938,Eveswell Park,,Hillcrest,Hutchingson,Robert,
-1938,Eveswell Park,,Thomas W. V,builder,Thornbury,
+1938,Eveswell Park,,Thornbury,Thomas,W. V,Builder
 1938,Eveswell Park,,Vacant Site,,,
 1938,Eveswell Park,,Rydal,,Mount,
 1938,Eveswell Park,,Woodbury,Searle,Miss Ella,
@@ -104199,10 +104199,10 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Gaer Road,,Vacant Site,,,
 1938,Gaer Road,,Stoneman Geo,watchmaker,Devoran,
 1938,Gaer Road,,Scott Fredk,moulder,Tiverton,
-1938,Gaer Road,,Shinton Wm. A,steelworker,Lismore,
+1938,Gaer Road,,Lismore,Shinton,Wm. A,Steelworker
 1938,Gaer Road,,,Reade,Cyril,radio dealer
 1938,Gaer Road,,Woodford Hugh,fitter,Bryn-teg,
-1938,Gaer Road,,James Wm,fitter,Glen-rosa,
+1938,Gaer Road,,Glen-rosa,James,Wm,Fitter
 1938,Gaer Street,1,,Jones,Thomas,eng dvr
 1938,Gaer Street,3,,Brady,C. C,
 1938,Gaer Street,5,,Morgan,A,fireman
@@ -104350,9 +104350,9 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Gibbs Road,53,Shirley,Thomas,Frederick. E,
 1938,Gibbs Road,57,Kynance,Turner,C. W,
 1938,Gibbs Road,,,Korna House,,
-1938,Gibbs Road,,Sockett Percy,clerk,St. Anthony,
-1938,Gibbs Road,,Ayre Frank A,builder,Gwenfra,
-1938,Gibbs Road,,Tucker F,gardener,Inverskip,
+1938,Gibbs Road,,St. Anthony,Sockett,Percy,Clerk
+1938,Gibbs Road,,Gwenfra,Ayre,Frank A,Builder
+1938,Gibbs Road,,Inverskip,Tucker,F,Gardener
 1938,Gibbs Road,,Daymond S. W,shopkeeper,Rosemond,
 1938,Gibbs Road,,,Hopkins,H. E,boilr mkr
 1938,Gibbs Road,,,Little,Ballan 10,
@@ -105277,7 +105277,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Greenmeadow Road,9,,Poole,,
 1938,Greenmeadow Road,7,,Hicks,William,
 1938,Greenmeadow Road,,Worker,Holt Joseph,tube,
-1938,Greenmeadow Road,,Holly Chas,fitter,Fern-Lea,
+1938,Greenmeadow Road,,Fern-Lea,Holly,Chas,Fitter
 1938,Griffin Street,,,Great Universal Stores Ltd,,
 1938,Griffin Street,,,Provision,Market,
 1938,Griffin Street,,,Traffic,dept,(tramways and omnibuses) offices
@@ -105298,7 +105298,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Griffin Street,,,Ltd Cecil & Co,,Drapers
 1938,Griffin Street,,Edington H. C,solicitor,commissioner for oaths,
 1938,Griffiths Street,,Risca Road,Penllyn,Estate,
-1938,Haisbro Avenue,,McKenzie H. G,fitter,Ty-Gwyn,
+1938,Haisbro Avenue,,Ty-Gwyn,McKenzie,H. G,Fitter
 1938,Haisbro Avenue,,,Edwards,Robert,agent
 1938,Haisbro Avenue,1,,Edwards,R. G,clerk
 1938,Haisbro Avenue,3,,Moses,N,
@@ -106993,11 +106993,11 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Kensington Place,,,Jones,A. G,
 1938,Kensington Place,27,,Plaisted,Sydney J,bus inspector
 1938,Kensington Place,,Lynton,Roberts,G. F,
-1938,Kensington Place,,Harries Albert W,clerk,Tresco,
+1938,Kensington Place,,Tresco,Harries,Albert W,Clerk
 1938,Kensington Place,,Glenisla,Irvine,Jas,
 1938,Kensington Place,,May Field,Dowdall,Mrs. Mary,
 1938,Kensington Place,,Selston,Banfield,J. D,
-1938,Kensington Place,,Weager Jas,engineer,Armadale,
+1938,Kensington Place,,Armadale,Weager,Jas,Engineer
 1938,Kensington Place,,,Weager,Miss P,
 1938,Kensington Place,,Brenall,Hartland,A,
 1938,Kensington Place,28,,Francis,T. W,
@@ -107238,7 +107238,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Lambert Street,4,,Martin,Mrs. Gertrude E,
 1938,Lambert Street,2,,Scott,John,postman
 1938,Lawn Terrace,216-230,,Nos,Chepstow road,
-1938,Lawrence Hill,,Basham E. Horace,draper,Bryncliffe,
+1938,Lawrence Hill,,Bryncliffe,Basham,E. Horace,Draper
 1938,Lawrence Hill,,Dauncey F. H,registrar of County Court,,
 1938,Lawrence Hill,,Parnall R.H.B,solicitor,Glanmor,
 1938,Lawrence Hill,,,Hatherleigh,Secondary School,
@@ -107491,23 +107491,23 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Libeneth Road,15,,Parry,Joseph,Cranedriver
 1938,Libeneth Road,16,,Jones,Evan R,labourer
 1938,Libeneth Road,,Melpomene,Shier,Mrs. Maud,
-1938,Libeneth Road,,Vickery Geo,labourer,Chestnut,
-1938,Libeneth Road,,Vowles Wilfred,ironworker,Tranmer,
+1938,Libeneth Road,,Chestnut,Vickery,Geo,Labourer
+1938,Libeneth Road,,Tranmer,Vowles,Wilfred,Ironworker
 1938,Libeneth Road,,Buckman Chas. W,steelwkr,Elim,
 1938,Libeneth Road,,Rowlstone,Davies,C,
 1938,Libeneth Road,,Edwards Edward,ironwkr,Mayfair,
 1938,Libeneth Road,,Moulton Arthur A,confctr,Alandale,
 1938,Libeneth Road,2,Houses,,,
-1938,Libeneth Road,,Spragg Ivor,ironworker,The Gables,
+1938,Libeneth Road,,The Gables,Spragg,Ivor,Ironworker
 1938,Libeneth Road,,,Miller,Trierco,
 1938,Libeneth Road,,Smith Job,shipbreaker,The Holt,
 1938,Libeneth Road,,,Waite,Albert,lime worker
 1938,Libeneth Road,,,Ladyhill,putting green,
 1938,Libeneth Road,,,Edwards A,scrap,collector
-1938,Libeneth Road,,Cleaver J ames,ironworker,South view,
+1938,Libeneth Road,,South view,Cleaver,J ames,Ironworker
 1938,Libeneth Road,,Bagdad,Hobbs,Mrs,
 1938,Libeneth Road,,Ibrox,Mcllree,Mrs. Rachel,
-1938,Libeneth Road,,Wareham Alfred H,painter,Clifton View,
+1938,Libeneth Road,,Clifton View,Wareham,Alfred H,Painter
 1938,Libeneth Road,,Bloom Florence,sch,teacher,
 1938,Lilleshall Street,2,,Ralph,Mrs. Matilda,
 1938,Lilleshall Street,4,,Fieldhouse,E,ironworker
@@ -108083,7 +108083,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Lliswerry Road,,Thomas Arthur F,assistant cottage,Myrtle,
 1938,Lliswerry Road,,Roseville,Wilkinson,William,
 1938,Lliswerry Road,,Holmlea,Parsons,Alfred William,
-1938,Lliswerry Road,,Deidun Frank,fitter,Rheimo,
+1938,Lliswerry Road,,Rheimo,Deidun,Frank,Fitter
 1938,Lliswerry Road,,Hill Francis,ironworker,Chez-Nous,
 1938,Lliswerry Road,2,Houses,,,
 1938,Lliswerry Road,,The Ferns,Bennett,E. B,
@@ -108127,10 +108127,10 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Lliswerry Road,,Extence Ernest,machinist,Beryldene,
 1938,Lliswerry Road,,Anthony House,,,
 1938,Lliswerry Road,,Thomas Clifford,lime,merch,
-1938,Lliswerry Road,,Rance Albert,shunter,Mayfield,
+1938,Lliswerry Road,,Mayfield,Rance,Albert,Shunter
 1938,Lliswerry Road,,Uskhaven,Lewis,Miss Rosa,
 1938,Lliswerry Road,,Craig,,Moor,
-1938,Lliswerry Road,,Ayres Charles W,fitter,Hibernia,
+1938,Lliswerry Road,,Hibernia,Ayres,Charles W,Fitter
 1938,Lliswerry Road,,Turner Wm. E,hydraulic,tester,
 1938,Lliswerry Road,6,,Houses,built,
 1938,Lliswerry Road,,Jones Edwd,builder & contr,,
@@ -108138,18 +108138,18 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Lliswerry Road,,James A,machinist,Rosslyn,
 1938,Lliswerry Road,,Karachi,Brunning,Charles,
 1938,Lliswerry Road,,House,,,
-1938,Lliswerry Road,,Curtis A,greengrocer,Belle Vue,
+1938,Lliswerry Road,,Belle Vue,Curtis,A,Greengrocer
 1938,Lliswerry Road,,Elms Farm,Lewis,Harry M,
 1938,Lliswerry Road,,Evans James W,foreman,Lliswerry house,
 1938,Lliswerry Road,,Wm. Ball,Lliswerry Hotel,,
 1938,Lliswerry Road,,Lliswerry Cottage,Wallace,Mrs. Edith,
-1938,Lliswerry Road,,Johnson Reg,steelworker,Bro-deg,
+1938,Lliswerry Road,,Bro-deg,Johnson,Reg,Steelworker
 1938,Lliswerry Road,,Lapstone Cot,Jones,William. E,
 1938,Lliswerry Road,,Lloyd Horace,seaman,Corner house,
 1938,Lliswerry Road,,,Thomas,Miss Margaret,shop
 1938,Lliswerry Road,,Bowen,irnwkr,Maudania,
 1938,Lliswerry Road,,Boucher H,ironwkr,Oakdene,
-1938,Lliswerry Road,,White Geo. F,ironworker,Jeanesen,
+1938,Lliswerry Road,,Jeanesen,White,Geo. F,Ironworker
 1938,Lliswerry Road,,Duro,,,
 1938,Lliswerry Road,,Kiln Cottage,Fife,William,
 1938,Lliswerry Road,,,Pope,Mrs. Mary,
@@ -108157,7 +108157,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Lliswerry Road,,Beddington Frank,foreman,Clovelly,
 1938,Lliswerry Road,,Westonia,Wesson,Reg,
 1938,Lliswerry Road,,The Retreat,Harris,Mrs. C. M,
-1938,Lliswerry Road,,Whittington John,labourer,Cefn-Bryn,
+1938,Lliswerry Road,,Cefn-Bryn,Whittington,John,Labourer
 1938,Lliswerry Road,82,,Pope,Jacob,"ironworker, St. Ives"
 1938,Lliswerry Road,80,The Haven,Traynor,Frank,steelwrkr
 1938,Lliswerry Road,78,Lewis David T,Machinist,Cartref,
@@ -109282,7 +109282,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Malpas Road,3,,Parfitt,Clifford,
 1938,Malpas Road,2,,Jenkins,C. P,park ranger
 1938,Malpas Road,1,,Davis,G,chauffeur
-1938,Malpas Road,,Evans S. C,grocer,The Grange,
+1938,Malpas Road,,The Grange,Evans,S. C,Grocer
 1938,Malpas Road,,Keane Dr. H. A,M.B,B.CH,"surgeon, Ormidale"
 1938,Malpas Road,,,Harris,Mrs. Mary A,
 1938,Malpas Road,,,WESTFIELD,CRESCENT,
@@ -109365,7 +109365,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Malpas Road,,Parc-y-prior,Steer,E. Pemberton,
 1938,Malpas Road,,Claremont,Brewer,Mrs. J. C,
 1938,Malpas Road,,,WOODLANDS,DRIVE,
-1938,Malpas Road,,Dowden Leslie H,carpenter,Kitoko,
+1938,Malpas Road,,Kitoko,Dowden,Leslie H,Carpenter
 1938,Malpas Road,,,Burgess Bert,ins,agent
 1938,Malpas Road,,,Thomas A,dental,mechanic
 1938,Malpas Road,,Dove J. A,traveller,Colinbar,
@@ -109375,16 +109375,16 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Malpas Road,1,Malpas Villa,Palfrey,E,
 1938,Malpas Road,2,Malpas Villa,Fitzgerald,Jno,
 1938,Malpas Road,,Pugh Wm,farmer,Malpas Farm,
-1938,Malpas Road,,Murphy C. W,builder,Alfriston,
+1938,Malpas Road,,Alfriston,Murphy,C. W,Builder
 1938,Malpas Road,,Chappell Trevor,milkman,Colbrook,
 1938,Malpas Road,,Rees Alfred K,schoolmaster,Avalon,
 1938,Malpas Road,,Hawker Francis,traveller,Alton Dene,
 1938,Malpas Road,,Sydenham,Palmer,S. E,
 1938,Malpas Road,,Williams Fred,pattern,maker,
-1938,Malpas Road,,Luffman Wilfred,carpenter,Nortongarth,
+1938,Malpas Road,,Nortongarth,Luffman,Wilfred,Carpenter
 1938,Malpas Road,,A.T.C.L,Luffman,Miss D,
-1938,Malpas Road,,Hopkins Frank W,fitter,Fairview,
-1938,Malpas Road,,Cavill Wm. Cyril,butcher,Heatherdene,
+1938,Malpas Road,,Fairview,Hopkins,Frank W,Fitter
+1938,Malpas Road,,Heatherdene,Cavill,Wm. Cyril,Butcher
 1938,Malpas Road,,Lewis Wm. H,P.C,Rosedene,
 1938,Malpas Road,,Sherwood,Trigg,George,
 1938,Malpas Road,,Holyoake Fredk. Wm,stlwkr,Pendeen,
@@ -109448,9 +109448,9 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Malpas Road,3,,Avery,Frederick,electrician
 1938,Malpas Road,2,,West,William,billiard markr
 1938,Malpas Road,1,,Care,Claud,clerk
-1938,Malpas Road,,White Patrick,draper,Boglily,
+1938,Malpas Road,,Boglily,White,Patrick,Draper
 1938,Malpas Road,,Baker,Leonard,chauffeur,
-1938,Malpas Road,,Eynon James,builder,Carency,
+1938,Malpas Road,,Carency,Eynon,James,Builder
 1938,Malpas Road,,Heyope,Matthews,H. C,
 1938,Malpas Road,,Salcombe House,White,Mrs. Wr,
 1938,Malpas Road,,,Malpas Church,,
@@ -109572,23 +109572,23 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Malpas Road,,,Malpas,Road Recreation Ground,
 1938,Malpas Road,,Gardner Richd J,G.W.R,Jimela,
 1938,Malpas Road,,Jenkins Reuben J,G.P.O.,Amor,
-1938,Malpas Road,,Davy Fredk,builder,Glenbow,
+1938,Malpas Road,,Glenbow,Davy,Fredk,Builder
 1938,Malpas Road,,Weaving Henry,chargeman,Crai-g-nor,
 1938,Malpas Road,,,Gough Wm. P. School,,master
 1938,Malpas Road,,St.Brannocks,Davies,R. G,
 1938,Malpas Road,,Perambur,Jewell,William. George,
 1938,Malpas Road,,Norlands,Powell,Arthur,
-1938,Malpas Road,,Davies Charles H,clerk,Lochnagar,
+1938,Malpas Road,,Lochnagar,Davies,Charles H,Clerk
 1938,Malpas Road,,Fowler Wm. R,G.W.R,Kelston,
 1938,Malpas Road,,,Wildbore,William. B,labourer
 1938,Malpas Road,2,Picton W. H,boilersmth,Blaen-y-Pant cottage,
 1938,Malpas Road,1,Leonard M,furnaceman,Blaen-y-Pant cottage,
 1938,Malpas Road,,Pearce Arthur E,hairdrsr,Rus-in-Urbe,
-1938,Malpas Road,,Max George,engineer,Godrevy,
+1938,Malpas Road,,Godrevy,Max,George,Engineer
 1938,Malpas Road,,Pritchard Wm. G,G.W.R,Park View,
 1938,Malpas Road,,Lovelock A. L,coach,pntr,
-1938,Malpas Road,,Ware Albert,plumber,Brynewel,
-1938,Malpas Road,,Evans Arthur,butcher,Brynderi,
+1938,Malpas Road,,Brynewel,Ware,Albert,Plumber
+1938,Malpas Road,,Brynderi,Evans,Arthur,Butcher
 1938,Malpas Road,,Donaghy W. F,M.B,B.CH,"physician & surg, Sydenham"
 1938,Malpas Road,,The Laurels,Morgan,Mrs. A. E,
 1938,Malpas Road,,The Ferns,Powell,Arthur J,
@@ -110285,27 +110285,27 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Melfort Road,,Allsopp Henry C,P.C,Lyncombe,
 1938,Melfort Road,,The Trossacks,Jones,E. M,
 1938,Melfort Road,,Springthorpe Wm,furnacem,Kia Ora,
-1938,Melfort Road,,Durant Sidney G,grocer,Kingsway,
+1938,Melfort Road,,Kingsway,Durant,Sidney G,Grocer
 1938,Melfort Road,,,Vale Alfred H,chief,clerk
 1938,Melfort Road,,Weaver Thos,millwright,Claremont,
 1938,Melfort Road,,Penfro,Gwyther,W. L,
 1938,Melfort Road,,,Payne,Penanda,
 1938,Melfort Road,,Charrington Harry,accnt,Stelvanton,
 1938,Melfort Road,,Hicks Robert H,garage,prop,
-1938,Melfort Road,,Clarke Ivor,clerk,Kinshaser,
+1938,Melfort Road,,Kinshaser,Clarke,Ivor,Clerk
 1938,Melfort Road,,Newing P. J,stevedore,Armadale,
 1938,Melfort Road,,,Ashcroft,Newsham,
 1938,Melfort Road,,,Hulbert,Windyridge,
 1938,Melfort Road,,,Millinship,Fre-Delyn,
 1938,Melfort Road,,,Oliver,Colin,
-1938,Melfort Road,,Evans Kenneth,clerk,Jelda,
+1938,Melfort Road,,Jelda,Evans,Kenneth,Clerk
 1938,Melfort Road,,Hall Robt. G,chaffeur,Holme,
 1938,Melfort Road,,,Williams Danl. Bank,,clerk
-1938,Melfort Road,,Geen Henry C,plumber,Bryn-y-mor,
+1938,Melfort Road,,Bryn-y-mor,Geen,Henry C,Plumber
 1938,Melfort Road,,,White John H,engine,driver
 1938,Melfort Road,,Skinner Miss,school,teacher,
-1938,Melfort Road,,Preece Samuel J,fireman,Pendennis,
-1938,Melfort Road,,Monday H. R,telegraph,clrk,
+1938,Melfort Road,,Pendennis,Preece,Samuel J,Fireman
+1938,Melfort Road,,clrk,Monday,H. R,Telegraph
 1938,Melfort Road,,Wentloog,French & R,Misses A,
 1938,Melfort Road,,,Building,sites,
 1938,Mellon Street,1,,Hardie,Mrs. Minnie,
@@ -111077,10 +111077,10 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Nash Road,,Upper Lakes Farm,Haime,J.F,
 1938,Nash Road,,,Haime,F. H,Nash road bakery
 1938,Nash Road,,Perry Thos,ironwkr,High Mead,
-1938,Nash Road,,Webb Reg,assistant,The Bungalow,
+1938,Nash Road,,The Bungalow,Webb,Reg,Assistant
 1938,Nash Road,,Vacant Site,,,
-1938,Nash Road,,Priest James H,builder,Kington,
-1938,Nash Road,,Jones John P,clerk,Mortehoe,
+1938,Nash Road,,Kington,Priest,James H,Builder
+1938,Nash Road,,Mortehoe,Jones,John P,Clerk
 1938,Nash Road,97,Fields View,Yoxall,William,ironworker
 1938,Nash Road,95,"Crane Drvr, Milford House",Lockley,J ames,
 1938,Nash Road,93,Southam Harry,Ironworker,Neon,
@@ -111697,7 +111697,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Pant Road,6,,Mayor,William,annealer
 1938,Pant Road,4,,Jones,Albert,
 1938,Pant Road,2,,Moss,George. F,plasterer
-1938,Parfitt Street,,Horton R,labourer,Montana,
+1938,Parfitt Street,,Montana,Horton,R,Labourer
 1938,Parfitt Street,1,,Brown,Sidney,G.W.R.
 1938,Parfitt Street,3,,Evans,Howard,labourer
 1938,Parfitt Street,5,,Wilkinson,George,Ironworker
@@ -111705,25 +111705,25 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Parfitt Street,9,,Livell,Frederick,boot repairer
 1938,Parfitt Street,,Millard S. V,corn,mercht,
 1938,Parfitt Street,,Anthony Edwd. Hy,stlwr,Hazlewood,
-1938,Parfitt Street,,King H. C,ironworker,Braer Glen,
-1938,Parfitt Street,,Hockey R,haulier,Bright Holm,
+1938,Parfitt Street,,Braer Glen,King,H. C,Ironworker
+1938,Parfitt Street,,Bright Holm,Hockey,R,Haulier
 1938,Parfitt Street,,Helmaen,,,
 1938,Parfitt Street,,Phillips Geo. H,agent,Danes Bord,
 1938,Parfitt Street,,Edwards L,prof,footbllr,
 1938,Parfitt Street,,Edward Thos,ironworkr,Glyn-dor,
 1938,Parfitt Street,,Wilcox Wm,weighman,Hunderton,
 1938,Parfitt Street,,Edwards A. H,cold,rollr,
-1938,Park Avenue,,Bright Geo,labourer,Fleetwood,
+1938,Park Avenue,,Fleetwood,Bright,Geo,Labourer
 1938,Park Avenue,,,Gould J,ins,agent
 1938,Park Avenue,,Williams C. H,G.W.R,Crossways,
-1938,Park Avenue,,Bartlett Edwd,clerk,Kewstoke,
+1938,Park Avenue,,Kewstoke,Bartlett,Edwd,Clerk
 1938,Park Avenue,,Ivelchester,Garrett,Ernest G,
 1938,Park Avenue,,Park machine yard,Young,Arth. J,
 1938,Park Avenue,,,Henderson,Wilford,G.W.R.
 1938,Park Avenue,,Richards A. J,labr,Koti,
 1938,Park Avenue,,Lewis Wm,G.W.R,The Nook,
-1938,Park Avenue,,Sergant Edward,ironworker,Etruscan,
-1938,Park Avenue,,Knight Wm. G,carpenter,West view,
+1938,Park Avenue,,Etruscan,Sergant,Edward,Ironworker
+1938,Park Avenue,,West view,Knight,Wm. G,Carpenter
 1938,Park Avenue,,,Lovett,George,docker
 1938,Park Avenue,,,Ellwood Wm,motor,driver
 1938,Park Avenue,,,O'Keefe,Cornelius,lorry driver
@@ -111745,7 +111745,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Park Crescent,,Thomas,ironworker,Oakdene,
 1938,Park Crescent,,The Chalet,Montgomery,J. G,
 1938,Park Crescent,,Barnes G. R,G.W.R,Keinton,
-1938,Park Crescent,,Hayes Tom,postman,Tynewydd,
+1938,Park Crescent,,Tynewydd,Hayes,Tom,Postman
 1938,Park Crescent,,The Presbytery,Moloney,Rev. Father,
 1938,Park Crescent,,Park View,Glover,George,
 1938,Park Crescent,,Minroy,Kerrell,F. H,
@@ -111759,10 +111759,10 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Park Crescent,,Biddiscombe Jas. J,stlwkr,Lansbury,
 1938,Park Crescent,,Beard Clifford L,storekeeper,Clifnel,
 1938,Park Crescent,,Scott Ernest,steelwrkr,Evern,
-1938,Park Crescent,,Travers Geo. T,steelworker,Everton,
+1938,Park Crescent,,Everton,Travers,Geo. T,Steelworker
 1938,Park Crescent,,Ryan Thos,chemist's,asst,
 1938,Park Crescent,,Hill Wm. E. G,labr,Fairleigh,
-1938,Park Crescent,,Biddlescombe J,labourer,Milton,
+1938,Park Crescent,,Milton,Biddlescombe,J,Labourer
 1938,Park Crescent,,Inker Wm. H,docker,St. Anne,
 1938,Park Crescent,,Daly Jno,watcher,St.Teresa,
 1938,Park Crescent,,Blackborow Wm,steelwrkr,St. Julians,
@@ -112027,10 +112027,10 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Pill Mawr Road,,Chelfridge Ho,Parker,Mrs. F,
 1938,Pill Mawr Road,,Workman Arthur,G.W.R. cottage,Myrtle,
 1938,Pill Mawr Road,,Ryburn,Holland,Mrs,
-1938,Pill Mawr Road,,Farr Tom,carpenter cot,Fern,
+1938,Pill Mawr Road,,Fern,Farr,Tom,Carpenter Cot
 1938,Pill Mawr Road,,Horse Shoes Inn,Three,,
 1938,Pill Mawr Road,,Three Horse Shoes cottages,Crum,C. A,
-1938,Pill Mawr Road,,Stevens A. B,butcher cottages,Three Horse Shoes,
+1938,Pill Mawr Road,,Three Horse Shoes,Stevens,A. B,Butcher Cottages
 1938,Pill Mawr Road,,Devon Cotgs,Edwards,Henry,
 1938,Pill Mawr Road,,Devon Cotgs,Middleton,T. H,
 1938,Pill Mawr Road,,,THE,STRAND,
@@ -112050,18 +112050,18 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Pill Mawr Road,,Ty Craig,Nichols,R. J,
 1938,Pill Mawr Road,,,House,built,
 1938,Pill Mawr Road,,Fuller W. E. R,civil,servant,
-1938,Pill Mawr Road,,Gold Wm. B,electrician,Fair Haven,
-1938,Pill Mawr Road,,Rogers Thomas J,electrician,The Channings,
+1938,Pill Mawr Road,,Fair Haven,Gold,Wm. B,Electrician
+1938,Pill Mawr Road,,The Channings,Rogers,Thomas J,Electrician
 1938,Pill Mawr Road,,Whiston J. M,G.W.R,Clare Abbey,
 1938,Pill Mawr Road,,Green Banks,Burleigh,G,
-1938,Pill Mawr Road,,Thomas S. G,engineer,Gwylfa,
+1938,Pill Mawr Road,,Gwylfa,Thomas,S. G,Engineer
 1938,Pill Mawr Road,,Baxendale W,traveller,Cranmore,
-1938,Pill Mawr Road,,Davies Jno. T,clerk,Sunnyside,
+1938,Pill Mawr Road,,Sunnyside,Davies,Jno. T,Clerk
 1938,Pill Mawr Road,,,O'Shea,Hy,sign writer
 1938,Pill Mawr Road,,,O'Shea H. N,ins,agent
 1938,Pill Mawr Road,,,Blakesley J. H,mill,manager
-1938,Pill Mawr Road,,Tadman T. H,fitter,Trafford house,
-1938,Pill Mawr Road,,Evans A. W,boot,maker,
+1938,Pill Mawr Road,,Trafford house,Tadman,T. H,Fitter
+1938,Pill Mawr Road,,maker,Evans,A. W,Boot
 1938,Pill Mawr Road,,Foley Thos. B,Asst,Sec,
 1938,Pill Mawr Road,,Johnson Wm. E,customs,officer,
 1938,Pill Mawr Road,,Palmer Wm. K,G.W.R,Rosedale,
@@ -112070,7 +112070,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Pill Mawr Road,,Coggans Harry,ship,breaker,
 1938,Pill Mawr Road,,Gale Arthur H,trade,union organiser,
 1938,Pill Mawr Road,,Vaughan Edw,printer,Rathlyn,
-1938,Pill Mawr Road,,Hunt Geo. Wm,manager,Honey Meade,
+1938,Pill Mawr Road,,Honey Meade,Hunt,Geo. Wm,Manager
 1938,Poplar Road,,,Somerton,Gardens Estate,
 1938,Poplar Road,1,,Wareham,Herbert,Labourer
 1938,Poplar Road,3,,Hodson,Arthur,steelwkr
@@ -112798,7 +112798,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Queen's Hill Crescent,,John Ivor,G.W.R,Lundwood,
 1938,Queen's Hill Crescent,,Pendennis,Nancarrow,Herbert Francis,
 1938,Queen's Hill Crescent,,Maryland,Drayton,Henry J,
-1938,Queen's Hill Crescent,,Telling E,boot,repr,
+1938,Queen's Hill Crescent,,repr,Telling,E,Boot
 1938,Queen's Hill Crescent,,Verona,Fisher,Miss,
 1938,Queen's Hill Crescent,,Cartref,Cambridge,Capt. W. H,
 1938,Queen's Hill Crescent,,Reveille,Chalklin,Joseph E,
@@ -112824,7 +112824,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Queen's Hill Crescent,38,Cora Linn,Gibbons,Ernest,
 1938,Queen's Hill Crescent,,Coakham Chas. W,bldrs,foreman,
 1938,Queen's Hill Crescent,,Bond Reg. S,school,tchr,
-1938,Queen's Hill Crescent,,Burnett Jno,clerk,Porton,
+1938,Queen's Hill Crescent,,Porton,Burnett,Jno,Clerk
 1938,Queen's Hill Crescent,,Tamplin H. E,steward,Tregenna,
 1938,Queen's Hill Crescent,2,Houses,,,
 1938,Queen's Hill Crescent,,,Building,sites,
@@ -113248,7 +113248,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Ridgeway Avenue,,,Moore,Mrs. D. E,
 1938,Ridgeway Avenue,,Ravenstone,Gunn,Reginald,
 1938,Ridgeway Avenue,,Haverford,Morris,Herbert,
-1938,Ridgeway Avenue,,Bell A. C,engineer,Perivale,
+1938,Ridgeway Avenue,,Perivale,Bell,A. C,Engineer
 1938,Ridgeway Avenue,,Avonleigh,Andrews,E. G,
 1938,Ridgeway Avenue,,Deighton,,,
 1938,Ridgeway Avenue,,Vacant Site,,,
@@ -113264,7 +113264,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Ridgeway Avenue,,,Sach Stanley,insur,agent
 1938,Ridgeway Avenue,,Crantock,Hughes,K,
 1938,Ridgeway Avenue,,St. Aubins,Thomas,Rev. William,
-1938,Ridgeway Avenue,,Driscoll L. F,engineer,St. Anthonys,
+1938,Ridgeway Avenue,,St. Anthonys,Driscoll,L. F,Engineer
 1938,Ridgeway Avenue,,Pommedor,Jones,Douglas A,
 1938,Ridgeway Avenue,,,Building,sites,
 1938,Ridgeway Avenue,,Prosser Roger D,insurance,super,
@@ -113297,7 +113297,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Ridgeway Crescent,,Vacant Site,,,
 1938,Ridgeway Crescent,8,,Griffiths,Miss H. M,
 1938,Ridgeway Crescent,,,Jones,Miss E. H,
-1938,Ridgeway Crescent,,Griffiths J. A,clerk,Brynawel,
+1938,Ridgeway Crescent,,Brynawel,Griffiths,J. A,Clerk
 1938,Ridgeway Crescent,4,Henleaze,Russell,I. E,
 1938,Ridgeway Crescent,2,Penshurst,Hayman,Gilbert,
 1938,Ridgeway Drive,30,Ellon,Ruxton,Dr. Irene T. J,
@@ -113334,10 +113334,10 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Ridgeway Drive,31,Ingle Dene,Garth,E,
 1938,Ridgeway Grove,,Ravenscroft,Freeguard,James Newton,
 1938,Ridgeway Grove,,Hiles J. W,architect,Newlyn,
-1938,Ridgeway Grove,,Bailey Cyril,clerk,Glengarry,
-1938,Ridgeway Grove,,Jenkins John,clerk,Delfryn,
+1938,Ridgeway Grove,,Glengarry,Bailey,Cyril,Clerk
+1938,Ridgeway Grove,,Delfryn,Jenkins,John,Clerk
 1938,Ridgeway Grove,,Seascale,Beynon,Rev. D. J,
-1938,Ridgeway Grove,,Mills T. A,clerk,Brendon,
+1938,Ridgeway Grove,,Brendon,Mills,T. A,Clerk
 1938,Ridgeway Grove,,Vacant Site,,,
 1938,Ridgeway Grove,,Jenkins V. C,schoolmaster,Penmorfa,
 1938,Ridgeway Grove,,Vacant Site,,,
@@ -113349,7 +113349,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Ridgeway Grove,,,Williams,Mrs. M. W,
 1938,Ridgeway Grove,,Bridgestow,Cumberpatch,W. G,
 1938,Ridgeway Grove,,Elms Albert E,traveller,Henleaze,
-1938,Ridgeway Grove,,Davies Trevor,butcher,Highclere,
+1938,Ridgeway Grove,,Highclere,Davies,Trevor,Butcher
 1938,Ridgeway Grove,,,Moses,Norman C,solicitor
 1938,Ridgeway Grove,,,Building,sites,
 1938,Ridgeway Park Road,1,,Andrews,Harry,"accntnt, Bertholey"
@@ -113426,7 +113426,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Risca Road,,Hillside,Vernon,Arthur,
 1938,Risca Road,,Springfield,Williams,H. E,
 1938,Risca Road,,Lynmouth,Burr,C. J,
-1938,Risca Road,,Fyfe R. J,clerk,The Oaks,
+1938,Risca Road,,The Oaks,Fyfe,R. J,Clerk
 1938,Risca Road,,Rosedale,Cullum,Miss G,
 1938,Risca Road,,Font-y-Gary,Mortimer,Mrs. Agnes H,
 1938,Risca Road,,Mears John G,bk,cashier,
@@ -113459,14 +113459,14 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Risca Road,,O'Neill Fredk,steel,wrkr,
 1938,Risca Road,,Buckland,Deare,Mrs. Norah,
 1938,Risca Road,,Ashford,Railton,Courtney H,
-1938,Risca Road,,Baker Leslie J. S,fitter,Can wood,
+1938,Risca Road,,Can wood,Baker,Leslie J. S,Fitter
 1938,Risca Road,,Barrett Arthur H,mtr,salesman,
-1938,Risca Road,,Childs Wm,gardener,The Hawthorns,
-1938,Risca Road,,Darters John,clerk,Tredegarville,
+1938,Risca Road,,The Hawthorns,Childs,Wm,Gardener
+1938,Risca Road,,Tredegarville,Darters,John,Clerk
 1938,Risca Road,,Arlington,Pilikas,Peter,
 1938,Risca Road,,Essex,Wilkinson,Mrs. H. S,
 1938,Risca Road,,Tintern,,,
-1938,Risca Road,,Jones Fred G,engineer,Oakfield,
+1938,Risca Road,,Oakfield,Jones,Fred G,Engineer
 1938,Risca Road,,Redwick,Matthias,Reg,
 1938,Risca Road,,Sunnyglade,Dennis,William. C,
 1938,Risca Road,,The Dene,Stewart,William. C,
@@ -113490,8 +113490,8 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Risca Road,,Michael D. F,P.O,Hafod,
 1938,Risca Road,,Broad E,bank,cashier,
 1938,Risca Road,,Downs A. Bromley,G.P.O.,super,
-1938,Risca Road,,Wheeler Norman C,clerk,Kingcoed,
-1938,Risca Road,,Richards Reg,engineer,Kenross,
+1938,Risca Road,,Kingcoed,Wheeler,Norman C,Clerk
+1938,Risca Road,,Kenross,Richards,Reg,Engineer
 1938,Risca Road,,,Francis Jenkin,ins,agent
 1938,Risca Road,,Mon-A.bri,Rixon,Phillip,
 1938,Risca Road,,Jones John,colliery,windr,
@@ -113499,9 +113499,9 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Risca Road,,Wilson Fredk. W,incor,secretary,
 1938,Risca Road,,,Clark,F. E. S,chemist
 1938,Risca Road,,Fernbank,Richards,William,
-1938,Risca Road,,Blatchley Percy,grocer's,mangr,
+1938,Risca Road,,mangr,Blatchley,Percy,Grocer's
 1938,Risca Road,,Vonwest,Williams,Miss Margaret,
-1938,Risca Road,,Brock Harold,clerk,Cross Mount,
+1938,Risca Road,,Cross Mount,Brock,Harold,Clerk
 1938,Risca Road,,St. Annes,Artess,A,
 1938,Risca Road,,Withers James,foreman,Flaxley,
 1938,Risca Road,,Moore H,P.C,Hazelmere,
@@ -113515,7 +113515,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Risca Road,,Irvine H,accntnt,St. Albans,
 1938,Risca Road,,Roberts Daniel,grocer & pro. merchant,,
 1938,Risca Road,,Finstell,James,W. Needham,
-1938,Risca Road,,Ley Lionel J,clerk,Birdbush,
+1938,Risca Road,,Birdbush,Ley,Lionel J,Clerk
 1938,Risca Road,,The Chalet,Hayman,L,
 1938,Risca Road,,Castleton,Joseph,Mrs. O,
 1938,Risca Road,,Oldbury,Howell,Jas. T,
@@ -113524,9 +113524,9 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Risca Road,,Tansy Hollow,Morgan,Mrs. Rachel,
 1938,Risca Road,,Greystoke,Rogers,Thomas. C,
 1938,Risca Road,,Williams Bertram F,clk,Cefn Bryn,
-1938,Risca Road,,Minett James W,builder,Ivanhoe,
+1938,Risca Road,,Ivanhoe,Minett,James W,Builder
 1938,Risca Road,,Kenmar,Joshua,David R,
-1938,Risca Road,,Tripp Edward,dairyman,Bryndovey,
+1938,Risca Road,,Bryndovey,Tripp,Edward,Dairyman
 1938,Risca Road,,Davis Percy W. H,com,traveller,
 1938,Risca Road,,Havana,Nash,Thomas,
 1938,Risca Road,,High Friars,Gwatkin,Miss A. J,
@@ -113538,7 +113538,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Risca Road,,Harptree,Dagger,Thomas,
 1938,Risca Road,,Springburn,Vaux,Mrs. S. J,
 1938,Risca Road,,Wayside,Ingham,Mrs. B. E,
-1938,Risca Road,,Evans Henry,clerk,Arley,
+1938,Risca Road,,Arley,Evans,Henry,Clerk
 1938,Risca Road,,Maitland Villa,Morgan,Mrs. T. C,
 1938,Risca Road,,The Redlands,Hill,T,
 1938,Risca Road,,St.Meva,Ball,Thomas,
@@ -113562,7 +113562,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Risca Road,,Power Anthony J,mangr,Woodstock,
 1938,Risca Road,,Jones Arthur E,traveller,Caederwen,
 1938,Risca Road,,Palmer Geo,G.W.R,St. Helens,
-1938,Risca Road,,Williams Cyril,manager,Narobi,
+1938,Risca Road,,Narobi,Williams,Cyril,Manager
 1938,Risca Road,,Southwood,Mortimer,Stanley H,
 1938,Risca Road,,Dwyer Ernest,civil,servnt,
 1938,Risca Road,,Chisewell Robt. J,bk,clk,
@@ -113572,7 +113572,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Risca Road,,Freeman Miss,school,mistress,
 1938,Risca Road,,,Searle,,
 1938,Risca Road,,Cowell Smith R,forestry,com,
-1938,Risca Road,,Basham Stephen,draper,Linda Vista,
+1938,Risca Road,,Linda Vista,Basham,Stephen,Draper
 1938,Risca Road,,N,,antcoch,
 1938,Risca Road,,Nantcoch Lodge,Atkinson,Arthur,
 1938,Risca Road,,James Edw. Stanley,com,traveller,
@@ -114835,7 +114835,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Somerton Road,70-72,,Harry Thomas & Sons Ltd,,butchers
 1938,Somerton Road,74,,Mitchell,Thomas. A,Lorry Driver
 1938,Somerton Road,76,Hughes,The,King A,
-1938,Somerton Road,,Richards Harold,painter,Chota Mohal,
+1938,Somerton Road,,Chota Mohal,Richards,Harold,Painter
 1938,Somerton Road,,,Johnson,William,ironworker
 1938,Somerton Road,,Kiora bungalow,Hillman,Sidney R,
 1938,Somerton Road,,,Skelding,William. D,G.W.R.
@@ -115766,7 +115766,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Stelvio Park Drive,,Gifford Stanley S,shop,asst,
 1938,Stelvio Park Drive,,Ellis Robert,sales,mangr,
 1938,Stelvio Park Drive,,Denton,Armstrong,J. E,
-1938,Stelvio Park Drive,,Greenland H. I,clerk,Wyngates,
+1938,Stelvio Park Drive,,Wyngates,Greenland,H. I,Clerk
 1938,Stelvio Park Drive,,Jones J. Llewellyn,coal,mercht,
 1938,Stockton Road,2,,Woods,,
 1938,Stockton Road,4,,Rendall,John,inspector
@@ -116281,7 +116281,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Summerhill Avenue,5,,Oberholzer,H. A,"physical trainer, Palestra"
 1938,Summerhill Avenue,3,Glenview,Parfitt,F. C,
 1938,Summerhill Avenue,,,Building,sites,
-1938,Summerhill Avenue,,Thomas Evan,clerk,St. Margaret,
+1938,Summerhill Avenue,,St. Margaret,Thomas,Evan,Clerk
 1938,Summerhill Avenue,,Middlemiss Wm,bricklyr,Anthony house,
 1938,Summerhill Avenue,,,Jenkins,Vivian,school teacher
 1938,Summerhill Avenue,,Goddard,plasterer,Glen Rosa,
@@ -116571,7 +116571,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Tennyson Road,,Smith S. C,motor,dlr,
 1938,Tennyson Road,,North A. J,corn,merch,
 1938,Tennyson Road,,Watts Reg,accountant,Tolcarne,
-1938,Tennyson Road,,Selby B. M,clerk,Innisfree,
+1938,Tennyson Road,,Innisfree,Selby,B. M,Clerk
 1938,Tennyson Road,2,Houses,,,
 1938,Tennyson Road,,,Harris,William. Hy,furncmn
 1938,Tennyson Road,,House,,,
@@ -117495,7 +117495,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,West Market Street,5,,Dawes,Mrs. Clara,
 1938,West Market Street,,,Perry,Harry,dredgerman
 1938,West Market Street,6,,Jenkins,Mrs. Annie,
-1938,West Market Street,,Prosser Geo,builder,etc,
+1938,West Market Street,,etc,Prosser,Geo,Builder
 1938,West Park,,,Right of Bassalleg road,,
 1938,West Park,,West Park,See Ombersley Upton And West Park Roads,,
 1938,West Park Road,2,,Davies,Harry,
@@ -117606,7 +117606,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Western Avenue,,Johns Hy. F,ins,inspctr,
 1938,Western Avenue,,,Fisher,Lionel,traveller
 1938,Western Avenue,41,,Reakes,A. S,manager
-1938,Western Avenue,,Crowther A. E,tailor,Greengates,
+1938,Western Avenue,,Greengates,Crowther,A. E,Tailor
 1938,Western Avenue,,Pugsley C. F,secretary,Loxhore,
 1938,Western Avenue,47,,Scott,George,engineer
 1938,Western Avenue,2,Houses,,,
@@ -117614,15 +117614,15 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Western Avenue,,Cleaves H. F,schoolmstr,Terridale,
 1938,Western Avenue,,Michael P. M,schoolmaster,Macrina,
 1938,Western Avenue,,Box Arthur W,schoolmstr,Avalon,
-1938,Western Avenue,,Whittaker P. R,clerk,Windermere,
+1938,Western Avenue,,Windermere,Whittaker,P. R,Clerk
 1938,Western Avenue,,Sutcliffe W. E,elect,engnr,
 1938,Western Avenue,,Marvell John,G.P.O.,Brawnstone,
 1938,Western Avenue,,,Jones,Pennard,
 1938,Western Avenue,,,Harris Rowland,G.P.O.,clerk
 1938,Western Avenue,,Chequers,Crook,William,
-1938,Western Avenue,,Bennett A. J,builder,Avening,
+1938,Western Avenue,,Avening,Bennett,A. J,Builder
 1938,Western Avenue,,Jones Geo. L,traveller,Fairways,
-1938,Western Avenue,,Evans Evan,clerk,G.W.R,
+1938,Western Avenue,,G.W.R,Evans,Evan,Clerk
 1938,Western Avenue,,Jenkins Roderick G,civ,serv,
 1938,Western Avenue,,,Brunskill,Rev. F. R,
 1938,Western Avenue,,Merevale,Peace,Mrs. L. S,
@@ -117635,18 +117635,18 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Western Avenue,,Mullion,Airey,A. L,
 1938,Western Avenue,,,Morle,Mrs,
 1938,Western Avenue,,Hastybank,Borlase,Arthur,
-1938,Western Avenue,,Sandy H,clerk,Saxondale,
+1938,Western Avenue,,Saxondale,Sandy,H,Clerk
 1938,Western Avenue,,Inishmore,Welch,Mrs. E,
 1938,Western Avenue,,,Nicholas W. B,lorry,driver
 1938,Western Avenue,,Margam Glen,Evans,W,
 1938,Western Avenue,,,Simmonds,C,grocer
 1938,Western Avenue,,Langley Alfred,schoolmastr,Silverdale,
-1938,Western Avenue,,Walker Thos. P,engineer,Hawkwood,
+1938,Western Avenue,,Hawkwood,Walker,Thos. P,Engineer
 1938,Western Avenue,,Greenwood F,schoolmaster,Netherfield,
 1938,Western Avenue,,Dullatur,Phillips,Mrs. F. M,
 1938,Western Avenue,,Pyle Cyril R,traveller,Kyrie,
 1938,Western Avenue,,The Sheiling,Jones,Wilson,
-1938,Western Avenue,,Bennett Albert,builder,The Firs,
+1938,Western Avenue,,The Firs,Bennett,Albert,Builder
 1938,Westfield Avenue,1,,Brown,A. E,printer
 1938,Westfield Avenue,3,,Naish,James H,G.W.R.
 1938,Westfield Avenue,5,,Evans,Oliver,postman
@@ -118483,15 +118483,15 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Abbey Road,,,Oliver,John,foreman
 1946,Abbey Road,,Smith C. H. N,draughtsman,Redbrook,
 1946,Abbey Road,,Saywell Harry,cashier,Salopia,
-1946,Abbey Road,,Williams H. H,clerk,St. Donats,
-1946,Abbey Road,,McNeil Hugh,steelworker,Glen Falls,
+1946,Abbey Road,,St. Donats,Williams,H. H,Clerk
+1946,Abbey Road,,Glen Falls,McNeil,Hugh,Steelworker
 1946,Abbey Road,,,Griffiths Percival,lorry,driver
 1946,Abbey Road,,Wesson Rowland,haulage,contractor,
-1946,Abbey Road,,Anderson T. J,engineer,Ancreem,
+1946,Abbey Road,,Ancreem,Anderson,T. J,Engineer
 1946,Abbey Road,,Llanvair,Taylor,Cyril,
 1946,Abbey Road,,Jones Albert George,foreman,Ty-Isaf,
 1946,Abbey Road,,The Croft,Radford,A. S,motor engineer
-1946,Abbey Road,,Browning Geo. Hy,engineer,Nearwood,
+1946,Abbey Road,,Nearwood,Browning,Geo. Hy,Engineer
 1946,Abbey Road,3,,Wilde,Joseph,"engineer, Pomme D'Or"
 1946,Abbey Road,,,Chave,William,
 1946,Abbey Road,,Llewellin Thos. J,garage,attendant,
@@ -118501,22 +118501,22 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Aberthaw Road,,Oak Tree Bungalow,Williams,George,
 1946,Aberthaw Road,,Barrett Edward,seaman,Melpomene,
 1946,Aberthaw Road,,Vowles W,inwkr,Tranmere,
-1946,Aberthaw Road,,Buckman C. W,steelworker,Elim,
+1946,Aberthaw Road,,Elim,Buckman,C. W,Steelworker
 1946,Aberthaw Road,,Davies Chas. A,patternmkr,Rowlstone,
 1946,Aberthaw Road,,Edwards Ed,irnmldr,Mayfair,
 1946,Aberthaw Road,,Moulton Arthur A,confctnr,Allandale,
-1946,Aberthaw Road,,Mepham Thos,clerk,West Winds,
-1946,Aberthaw Road,,Foster Henry,electrician,Briardene,
+1946,Aberthaw Road,,West Winds,Mepham,Thos,Clerk
+1946,Aberthaw Road,,Briardene,Foster,Henry,Electrician
 1946,Aberthaw Road,,Newman,Charles,G,
 1946,Aberthaw Road,,Trivico,Kassiotis,Mrs. Margaret,
-1946,Aberthaw Road,,The Holt,Smith,Mrs. Emma,
+1946,Aberthaw Road,,Mrs. Emma,The,Holt,Smith
 1946,Aberthaw Road,,,Ward,John H,gen. shop
 1946,Aberthaw Road,,,Coronation Stores,,
 1946,Aberthaw Road,,,Building,sites,
 1946,Aberthaw Road,,,Knorz,William,baker
 1946,Aberthaw Road,,,Murrison Robt,lorry,driver
 1946,Aberthaw Road,,,Ellis,Thomas. A,labourer
-1946,Aberthaw Road,,Coombes Howard,fitter,Koti,
+1946,Aberthaw Road,,Koti,Coombes,Howard,Fitter
 1946,Aberthaw Road,35,,Harry,Cyril,steelworker
 1946,Aberthaw Road,36,,Davies,Thomas,munition wkr
 1946,Aberthaw Road,37,The Wayside,Lewis,William,labourer
@@ -119006,7 +119006,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Alderney Street,,,Jenkins,David,manager (sweets department)
 1946,Alderney Street,,Lovell G. F. & Co,Ltd,canteen,
 1946,Alderney Street,,Sonoma,McGowan,John,
-1946,Alderney Street,,Cowell Ernest,manager,Marshall villa,
+1946,Alderney Street,,Marshall villa,Cowell,Ernest,Manager
 1946,Alderney Street,,Meton Villa,Williams,Daniel,
 1946,Alderney Street,,,Entrance,to Lovell's Recreation ground,
 1946,Alexandra Docks,,,G.W,Ry. Docks,police office Inspector Martin
@@ -120494,7 +120494,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Bank Street,17,,Shore coal merchant,T. H,
 1946,Bank Street,,,Chape,Dd,stlwkr.. Hawthorn view
 1946,Bank Street,,Glengarra,Kirkham,H,
-1946,Bank Street,,Reynolds A,carpenter,Dawlish,
+1946,Bank Street,,Dawlish,Reynolds,A,Carpenter
 1946,Bank Street,,James Wm. D,salesman,Hendre,
 1946,Bank Street,,Peachy Henry,G.W.R,Avimore,
 1946,Bank Street,,Verona,Green,Frederick,
@@ -120771,14 +120771,14 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Bassalleg Road,,,NANT,COCH HILL,
 1946,Bassalleg Road,,,Tucker,William. F,electrician and plumber
 1946,Bassalleg Road,,Powell D. H,G.W.R,Hillcrest,
-1946,Bassalleg Road,,Whittle Wm,clerk,Mellor,
+1946,Bassalleg Road,,Mellor,Whittle,Wm,Clerk
 1946,Bassalleg Road,,Ware Robt. J,chauffeur,Snaefel,
 1946,Bassalleg Road,,Highley Miss A,schl,tchr,
 1946,Bassalleg Road,,Herbar,Matthews,William. J,
 1946,Bassalleg Road,,,Buttigieg G,crane,driver
-1946,Bassalleg Road,,Batten Geo,fireman,Genista,
-1946,Bassalleg Road,,Candlin Wm,steelworker,Kildare,
-1946,Bassalleg Road,,Brooks M,engineer,Heathfield,
+1946,Bassalleg Road,,Genista,Batten,Geo,Fireman
+1946,Bassalleg Road,,Kildare,Candlin,Wm,Steelworker
+1946,Bassalleg Road,,Heathfield,Brooks,M,Engineer
 1946,Bassalleg Road,,Griffiths,Albert,T,
 1946,Bassalleg Road,,Hazelview,Underwood,H,
 1946,Bassalleg Road,,Hinde G. W,draughtsman,Silver Barton,
@@ -120786,8 +120786,8 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Bassalleg Road,,Davies Cyril,roller,Bleak hse,
 1946,Bassalleg Road,,Arscott Edwd. Chas,macht,Chez Nous,
 1946,Bassalleg Road,,Reade F,G.W.R. Columb,St,
-1946,Bassalleg Road,,Berry Philip,steelworker,Ty Bryn,
-1946,Bassalleg Road,,Jones James D,clerk,Etheldene,
+1946,Bassalleg Road,,Ty Bryn,Berry,Philip,Steelworker
+1946,Bassalleg Road,,Etheldene,Jones,James D,Clerk
 1946,Bassalleg Road,,,GAER,PARK CRESCENT:,
 1946,Bassalleg Road,26,,Powell,Ivor,labourer
 1946,Bassalleg Road,25,,Courtney,,
@@ -121112,7 +121112,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Beechfield Avenue,,Tynemouth,Gray,Jas. William,
 1946,Beechfield Avenue,,,Williams,Jno. Thomas,steelwkr
 1946,Beechfield Avenue,,Bryant Stewart,traveller,Norbreck,
-1946,Beechfield Avenue,,Jennings B. J,engineer,St Brelades,
+1946,Beechfield Avenue,,St Brelades,Jennings,B. J,Engineer
 1946,Beechfield Avenue,,,Morgan,S. S,welder
 1946,Beechfield Avenue,,,Anthony,C. G,shop manager
 1946,Beechfield Avenue,,,Building,sites,
@@ -121363,18 +121363,18 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Blaen-Y-Pant Avenue,,,Hughes Walter R,engine,driver
 1946,Blaen-Y-Pant Avenue,,,Wilkins Charles C,ins,agent
 1946,Blaen-Y-Pant Avenue,,Goss Thos,G.W.R,Oakdale,
-1946,Blaen-Y-Pant Avenue,,Day G. H,clerk,Glenbrae,
+1946,Blaen-Y-Pant Avenue,,Glenbrae,Day,G. H,Clerk
 1946,Blaen-Y-Pant Avenue,,L.R.C.M,Warburton,Mrs,
 1946,Blaen-Y-Pant Avenue,,,Warburton,A,
 1946,Blaen-Y-Pant Avenue,,,Villars,Reg,engineer
-1946,Blaen-Y-Pant Crescent,,Baldwin R. M,fitter,Thisledome,
+1946,Blaen-Y-Pant Crescent,,Thisledome,Baldwin,R. M,Fitter
 1946,Blaen-Y-Pant Crescent,,Petitor,Bullock,Albert,
 1946,Blaen-Y-Pant Crescent,,,Building,sites,
-1946,Blaen-Y-Pant Crescent,,Williams T. M,fitter,Bryndene,
+1946,Blaen-Y-Pant Crescent,,Bryndene,Williams,T. M,Fitter
 1946,Blaen-Y-Pant Crescent,,,Williams,R. D,builder
 1946,Blaen-Y-Pant Crescent,4,,Watkins,C. E,"civil servant, Raeburn"
 1946,Blaen-Y-Pant Crescent,,Kenlea,Pulsford,Claude,
-1946,Blaen-Y-Pant Crescent,,Vokes R,fitter,Highbourne,
+1946,Blaen-Y-Pant Crescent,,Highbourne,Vokes,R,Fitter
 1946,Blaen-Y-Pant Crescent,,,Chappell,Albert,contractor
 1946,Blaen-Y-Pant Crescent,,Adams Alfred J,confectioner,Ruthin,
 1946,Blaen-Y-Pant Crescent,,St. Helens,Ackford,S,
@@ -121388,11 +121388,11 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Blaen-Y-Pant Place,,The Braids,Hindson,J,
 1946,Blaen-Y-Pant Place,,,Gold Wm. B,electrical,fitter
 1946,Blaen-Y-Pant Place,,Glasfryn,Andrews,A. J,
-1946,Blaen-Y-Pant Place,,Dalby B,fitter,Glenderry,
+1946,Blaen-Y-Pant Place,,Glenderry,Dalby,B,Fitter
 1946,Blaen-Y-Pant Place,,Miles L,traveller,Hillcrest,
 1946,Blaen-Y-Pant Place,,Kenmore,Clark,A. J,
 1946,Blaen-Y-Pant Place,,,Davey,F. J,G.W.R.
-1946,Blaen-Y-Pant Place,,James Henry,manager,Glen Roy,
+1946,Blaen-Y-Pant Place,,Glen Roy,James,Henry,Manager
 1946,Blaen-Y-Pant Place,,Belmont,Watkins,William civil servant,
 1946,Blaen-Y-Pant Place,,Griffiths T,bridge,insptr,G.W.R.
 1946,Blaen-Y-Pant Place,,,Gillard W. T,shop,manager
@@ -122444,12 +122444,12 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Cae Brynton Road,,Rondel H,hoistman,Hyllrene,
 1946,Cae Brynton Road,,Price I. H,roller,Brent-Tor,
 1946,Cae Brynton Road,,Ray James,labr,Petti-Tor,
-1946,Cae Brynton Road,,Haynes Cyril,fitter,Lorna Doone,
+1946,Cae Brynton Road,,Lorna Doone,Haynes,Cyril,Fitter
 1946,Cae Brynton Road,,Morgan Dd. J,furaceman,Glen Rosa,
-1946,Cae Brynton Road,,Jackson Wm,fitter,High Field,
+1946,Cae Brynton Road,,High Field,Jackson,Wm,Fitter
 1946,Cae Brynton Road,,Harries A,paintr Court,Roclin,
-1946,Cae Brynton Road,,Ray Reg,clerk,Y-nith,
-1946,Cae Brynton Road,,Evenson Wm,engine,dvr,
+1946,Cae Brynton Road,,Y-nith,Ray,Reg,Clerk
+1946,Cae Brynton Road,,dvr,Evenson,Wm,Engine
 1946,Cae Brynton Road,,Bickerstaffe John,stevedore,Rossbank,
 1946,Cae Brynton Road,,,Rowden,L..G.W.R. .Rougemont,
 1946,Cae Brynton Road,,Verdula,Hurd,Mrs E,
@@ -122459,7 +122459,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Cae Brynton Road,,Peters D. M,boiler,mkr,
 1946,Cae Brynton Road,,Powell Strs,Powell,Edwin F,
 1946,Cae Brynton Road,,,Williams Jas,pass,guard
-1946,Cae Brynton Road,,Bissex J,baker,Longdendale,
+1946,Cae Brynton Road,,Longdendale,Bissex,J,Baker
 1946,Cae Brynton Road,,Netley,Bright,Henry,
 1946,Cae Brynton Road,,Kynance,Jones,Mrs. Gertrude,
 1946,Cae Brynton Road,,,Whitehead I. J,solctr,clerk
@@ -122468,7 +122468,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Cae Brynton Road,,Cecil Geo,G.W.R,Hatfield,
 1946,Cae Brynton Road,,Jones Wm. H,decorator,Glen Avon,
 1946,Cae Brynton Road,,Fairmont,Rowitt,Thomas,
-1946,Cae Brynton Road,,Harris James,fireman,Aval,
+1946,Cae Brynton Road,,Aval,Harris,James,Fireman
 1946,Cae Brynton Road,,Brown Kenneth J,electrn,Kenvere,
 1946,Cae Brynton Road,,Crantock,Cankett,D,
 1946,Cae Brynton Road,,Dunromin,Griffiths,Martin H,
@@ -122589,7 +122589,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Caerau Crescent,5,,Austin,K,
 1946,Caerau Crescent,6,,Wreford,F,municipal offr
 1946,Caerau Crescent,9,,Morgan,John B,chem rep
-1946,Caerau Crescent,,Williams Arthur E,fitter,Norfolk house,
+1946,Caerau Crescent,,Norfolk house,Williams,Arthur E,Fitter
 1946,Caerau Crescent,10,Englefield,Edwards,W. S. (Capt.),senior inspector of taxes
 1946,Caerau Crescent,11,,Thomas,Lancelot P,
 1946,Caerau Crescent,,,Thomas,Chris. W,
@@ -122607,7 +122607,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Caerau Road,6,,Underwood,W,bricklyr
 1946,Caerau Road,7,,Jones,Miss G. G,
 1946,Caerau Road,8,,Cheeseman,Mrs. M,
-1946,Caerau Road,,Chick A. E,builder,etc,
+1946,Caerau Road,,etc,Chick,A. E,Builder
 1946,Caerau Road,9,,Hallet,F,
 1946,Caerau Road,10,,Downer,Alf. J,gardener
 1946,Caerau Road,11,,Hole,Samuel,plasterer
@@ -123012,7 +123012,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Caerleon Road,575,Julians Park Lodge,O'Leary,John M. stlwkr,1 St
 1946,Caerleon Road,577,,Ford,George. H,St. Julians Tea Gardens
 1946,Caerleon Road,579,"Labr, Hawthorn Cottage",Newberry,Jesse,
-1946,Caerleon Road,,Saunders Geoffrey,fitter,Shobdon,
+1946,Caerleon Road,,Shobdon,Saunders,Geoffrey,Fitter
 1946,Caerleon Road,,Cartmall Edwin J,mech,Zemindar,
 1946,Caerleon Road,,,Collett,William,timber merch and saw mills
 1946,Caerleon Road,,Julian's Hotel,St,,Baker Percy
@@ -123024,7 +123024,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Caerleon Road,,,Griffiths Geo. H,retired,inspector
 1946,Caerleon Road,,Fairmead,Thomas,Hay,
 1946,Caerleon Road,,Glanteifon,Jones,Miss H. A,
-1946,Caerleon Road,,Jenkins John L,clerk,Oak Lodge,
+1946,Caerleon Road,,Oak Lodge,Jenkins,John L,Clerk
 1946,Caerleon Road,,J Ulian's Cottage,Jones,Vincent,
 1946,Caerleon Road,556,,Mullins,Cyril,masseur and medical electrician
 1946,Caerleon Road,554,,Lewis,Miss,
@@ -123741,7 +123741,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Cardiff Road,14,,Brown,Mrs. Elizabeth,
 1946,Cardiff Road,15,Montorguil,Stewart,E,
 1946,Cardiff Road,,Lewis J ohn,British,Legion secretary,
-1946,Cardiff Road,,Moore F. W,builder,Ben Gairn,
+1946,Cardiff Road,,Ben Gairn,Moore,F. W,Builder
 1946,Cardiff Road,14a,,Rees,William,"machine opatr., Maryland"
 1946,Cardiff Road,,Langtree,Little,Henry,
 1946,Cardiff Road,,Westonby,Thorn,Mrs,
@@ -123752,7 +123752,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Cardiff Road,,Jenkins Thos. E,stevedore,Kingsley,
 1946,Cardiff Road,,Trevarth,Jones,Mrs. E. M,
 1946,Cardiff Road,,,Weeks,Edgar,
-1946,Cardiff Road,,Trask D. A,joiner,Kingscroft,
+1946,Cardiff Road,,Kingscroft,Trask,D. A,Joiner
 1946,Cardiff Road,,,Smith,A. O,
 1946,Cardiff Road,,Wearside,Austwick,H. S,
 1946,Cardiff Road,,,Suller,H. A,The Belle Vue Stores
@@ -123790,7 +123790,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Cardiff Road,,Hillsboro,Harris,C,
 1946,Cardiff Road,,Nethey,Quinton,S,
 1946,Cardiff Road,,Lyndhurst,Stanley,J,
-1946,Cardiff Road,,Charles W. E,porter,Dunromin,
+1946,Cardiff Road,,Dunromin,Charles,W. E,Porter
 1946,Cardiff Road,,,Ebbw & Institute,Bridge N.P. Club,
 1946,Cardiff Road,,,Newport Co-op Society Stores,,
 1946,Cardiff Road,,,Sims,E. L,butcher
@@ -123816,22 +123816,22 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Cardiff Road,,Ebbw Cottage,Lewis,Mrs. C,
 1946,Cardiff Road,,Bridge Hse,Simmonds,Leslie,
 1946,Cardiff Road,,Howitt Jesse,G.W.R,San Remo,
-1946,Cardiff Road,,McNab Leonard,engineer,Bonheur,
+1946,Cardiff Road,,Bonheur,McNab,Leonard,Engineer
 1946,Cardiff Road,,Thelsford,Woolf,Norman,
 1946,Cardiff Road,,Waite W. F,G.W.R,Strathleigh,
 1946,Cardiff Road,,,Durant Wm. C,eng,driver
 1946,Cardiff Road,,Ivy Dene,Self,James,
 1946,Cardiff Road,,Valrosa,Purnell,Thomas. T. J,
 1946,Cardiff Road,,Phillips David,painter,Oaklands,
-1946,Cardiff Road,,Lewis G. C. D,steelworker,Cavina,
+1946,Cardiff Road,,Cavina,Lewis,G. C. D,Steelworker
 1946,Cardiff Road,,,Cole Arthur,lorry,driver
-1946,Cardiff Road,,David Thos. J,fitter,Ty-Daflyd,
+1946,Cardiff Road,,Ty-Daflyd,David,Thos. J,Fitter
 1946,Cardiff Road,,Gale Ernest,G.W.R,Trevethin,
 1946,Cardiff Road,,Robins Hy,ironwkr,Langley,
-1946,Cardiff Road,,Diddams J. Geo,painter,St. Clears,
-1946,Cardiff Road,,Waite John,fireman,Halmore,
-1946,Cardiff Road,,Francis T,shunter,Cartref,
-1946,Cardiff Road,,Larcombe Maurice,shunter,Fairmeade,
+1946,Cardiff Road,,St. Clears,Diddams,J. Geo,Painter
+1946,Cardiff Road,,Halmore,Waite,John,Fireman
+1946,Cardiff Road,,Cartref,Francis,T,Shunter
+1946,Cardiff Road,,Fairmeade,Larcombe,Maurice,Shunter
 1946,Cardiff Road,,,Emms Wm,ins,inspector
 1946,Cardiff Road,,Davies Lennox,steel,tester,
 1946,Cardiff Road,,Davies Wm,farmer,Lynwood,
@@ -123879,14 +123879,14 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Cardiff Road,,Ledley Geo. L,steelwkr,Tregudda,
 1946,Cardiff Road,,,Plaister,H. J,Boot Repairer
 1946,Cardiff Road,,,Gilbert,Mrs. E,general shop. The Glen
-1946,Cardiff Road,,Oliver Hugh H,clerk,Hazlemere,
+1946,Cardiff Road,,Hazlemere,Oliver,Hugh H,Clerk
 1946,Cardiff Road,,Moore A. E,bricklayer,Colwyn,
 1946,Cardiff Road,,Estcott,Mockridge,William. H,
 1946,Cardiff Road,,Llanishen,Cook,Joseph R,
 1946,Cardiff Road,,Abraham Frank,boatman,Rosscarbery,
 1946,Cardiff Road,,Tygwyn,Mendelson,H,
 1946,Cardiff Road,,Landstrom Wm. O,G.W.R,Watcombe,
-1946,Cardiff Road,,Huntley Hy. J,carpenter,Hyfrydle,
+1946,Cardiff Road,,Hyfrydle,Huntley,Hy. J,Carpenter
 1946,Cardiff Road,,,Ball J. W,engine,driver
 1946,Cardiff Road,,St. Albans,Tucker,Mrs,
 1946,Cardiff Road,,,Maisemore-Void,,
@@ -123903,14 +123903,14 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Cardiff Road,,Evans Howard M,G.W.R,Mostyn,
 1946,Cardiff Road,,Foster Edwd,operator,aluminum works,
 1946,Cardiff Road,,Channel View,Marshall,T. J,
-1946,Cardiff Road,,Hobbs Alf,guard,Rosevean,
+1946,Cardiff Road,,Rosevean,Hobbs,Alf,Guard
 1946,Cardiff Road,,Llwyna,Whyman,Mrs. Maud May,
 1946,Cardiff Road,,,Edwards Albt. J,dk,pilot
 1946,Cardiff Road,,Lewis Thos. Hy,tipper,Crigau,
 1946,Cardiff Road,,St. Winfrid,Wilkinson,Mrs. E,
 1946,Cardiff Road,2,Houses,,,
 1946,Cardiff Road,,Rosyth,Beardmore,G. A,
-1946,Cardiff Road,,Fielding H. D,electrician,Edmonton,
+1946,Cardiff Road,,Edmonton,Fielding,H. D,Electrician
 1946,Cardiff Road,,Kowloon,Brown,F,
 1946,Cardiff Road,,Mayston,Knight,A. O,
 1946,Cardiff Road,,,Watkins,John,steelwkr
@@ -124211,7 +124211,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Charles Street,24,,McIlvaney,James,watch repairer
 1946,Charles Street,,,Rabaiotti,,
 1946,Charles Street,25,,Scannell,Mrs. E,bootmaker
-1946,Charles Street,,Hearts of Oak Benefit Soc,agent,W. A. Scannell,
+1946,Charles Street,,W. A. Scannell,Hearts,of Oak Benefit Soc,Agent
 1946,Charles Street,26,,Cowley,E,ladies' outfitr
 1946,Charles Street,27,"Brace F., Proprietor",A.R.P,shop,
 1946,Charles Street,,,Hoar,George. A,custom officer
@@ -124270,9 +124270,9 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Chaucer Road,,Le Morny,Hayes,L,
 1946,Chaucer Road,,Fashoda,Edwards,,
 1946,Chaucer Road,,Lyndhurst,Collard,,
-1946,Chaucer Road,,Devney J. H,clerk,Lyndmouth,
+1946,Chaucer Road,,Lyndmouth,Devney,J. H,Clerk
 1946,Chaucer Road,,Highfield,Dunk,G,
-1946,Chaucer Road,,Lewis T. T,engineer,Mur Don,
+1946,Chaucer Road,,Mur Don,Lewis,T. T,Engineer
 1946,Chaucer Road,,Bern Tor,Wiltshire,S. V,
 1946,Chaucer Road,,,Building,sites,
 1946,Chelston Place,2,,Baggs,T,accountant
@@ -124584,7 +124584,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Chepstow Road,665,Langholme,Lilboume,Capt,master mariner
 1946,Chepstow Road,667,,Wall,Jno,
 1946,Chepstow Road,,Colborne G,solicitor,Dan-y-graig,
-1946,Chepstow Road,,Rice Walter,gardener,Dan-y-graig Lodge,
+1946,Chepstow Road,,Dan-y-graig Lodge,Rice,Walter,Gardener
 1946,Chepstow Road,,Woolley W. T,managing,director,
 1946,Chepstow Road,,Strong G. C,brush,manftr,
 1946,Chepstow Road,,Farmwood,Rees,Ithel Treharne,
@@ -124593,17 +124593,17 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Chepstow Road,,Christchurch House,Simmonds,A,
 1946,Chepstow Road,,Treberth Lodge,Hopkins,Wyndham,
 1946,Chepstow Road,,Williams Stanley,farmer,Treberth farm,
-1946,Chepstow Road,,Smith Joseph,labourer cottage,Treberth,
-1946,Chepstow Road,,Webb Francis,mason cottage,Grove,
+1946,Chepstow Road,,Treberth,Smith,Joseph,Labourer Cottage
+1946,Chepstow Road,,Grove,Webb,Francis,Mason Cottage
 1946,Chepstow Road,,Llewellyn Mrs. F. H,Royal,Oak Hotel,
 1946,Chepstow Road,,,Barnes,A. R. J,post office Royal Oak
 1946,Chepstow Road,,,Barnes,Miss A. D,sub postmistress
 1946,Chepstow Road,,Dando Clifford G,marine,eng,
 1946,Chepstow Road,,Reade Edwd,works,managr,
-1946,Chepstow Road,,Thompson R,butcher,The Grove,
+1946,Chepstow Road,,The Grove,Thompson,R,Butcher
 1946,Chepstow Road,,Marstell,James,Mrs. F. C,
 1946,Chepstow Road,,Jesmond,England,Frederick,
-1946,Chepstow Road,,Webb K. H,butcher,Taistock,
+1946,Chepstow Road,,Taistock,Webb,K. H,Butcher
 1946,Chepstow Road,,,Paton,R,
 1946,Chepstow Road,,,Andrews G. R,furnisher's,manager
 1946,Chepstow Road,,Woolley J,schoolmaster,Meriden,
@@ -124615,7 +124615,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Chepstow Road,,Fairclough J. H,merchant,Nijiliat,
 1946,Chepstow Road,,Wyverne,Lewis,Edward J,
 1946,Chepstow Road,,Eversleigh,Weston,,
-1946,Chepstow Road,,Morris Jas. S,boilermaker,Sherborne,
+1946,Chepstow Road,,Sherborne,Morris,Jas. S,Boilermaker
 1946,Chepstow Road,,,Rodda J,G.W.R,engineer
 1946,Chepstow Road,,Tugwell J. E,school,teacher,
 1946,Chepstow Road,,Tugwell Edmund,coach,bldr,
@@ -124624,7 +124624,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Chepstow Road,,,Burton G. G,elect,engineer
 1946,Chepstow Road,,Hodges A. E,quarry,mangr,
 1946,Chepstow Road,,Elliott R,travlr,Lydford,
-1946,Chepstow Road,,William S,postman,The Laurels,
+1946,Chepstow Road,,The Laurels,William,S,Postman
 1946,Chepstow Road,,St Donats,Thomas,Mrs. M. A,
 1946,Chepstow Road,,Crockford Wm. Geo,Caversham House,,
 1946,Chepstow Road,,,Thompson,,
@@ -124635,7 +124635,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Chepstow Road,,,The,Coldra,Lydia Beynon Maternity Hospital
 1946,Chepstow Road,,Davies A. J,chauffeur,Coldra Lodge,
 1946,Chepstow Road,,Rixor. J. F,dairyman,Gwentland,
-1946,Chepstow Road,,Hannah Rowland,fitter,Rand,
+1946,Chepstow Road,,Rand,Hannah,Rowland,Fitter
 1946,Chepstow Road,,,Hamilton L,commission,agent
 1946,Chepstow Road,,Owen Robt,G.P.O.,Penbanchor,
 1946,Chepstow Road,,Keene J,G.W.R,Oakland,
@@ -124648,20 +124648,20 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Chepstow Road,,,Smith Geo,motor,driver
 1946,Chepstow Road,,Blease E,P.C,MON. C.C. P. Station,
 1946,Chepstow Road,,Denewood,Kitcher,Donald,
-1946,Chepstow Road,,Cheshire W. H,clerk,Greenfields,
-1946,Chepstow Road,,Rixon Bernard,dairyman,Finchfield,
+1946,Chepstow Road,,Greenfields,Cheshire,W. H,Clerk
+1946,Chepstow Road,,Finchfield,Rixon,Bernard,Dairyman
 1946,Chepstow Road,,Lonicera,Panting,Reg,
 1946,Chepstow Road,,The Chines,Pearce,E,
 1946,Chepstow Road,,Bedevere,Thomas,J. H,
-1946,Chepstow Road,,Morrison F. J,steelworker,Glynarthen,
+1946,Chepstow Road,,Glynarthen,Morrison,F. J,Steelworker
 1946,Chepstow Road,,Roseville,Horn,J,
 1946,Chepstow Road,,Southfield,Cosham,,
 1946,Chepstow Road,,Billing W. T,insurance,mgr,
-1946,Chepstow Road,,James D,clerk,Woodlands,
+1946,Chepstow Road,,Woodlands,James,D,Clerk
 1946,Chepstow Road,,,Harris Captn. J,master,mariner
 1946,Chepstow Road,,,Nash,J. H,clerk. Brynderwyn
-1946,Chepstow Road,,Green Wm. Geo,gardener,Woodgate Chine,
-1946,Chepstow Road,,Short Alfred,rigger,Moira,
+1946,Chepstow Road,,Woodgate Chine,Green,Wm. Geo,Gardener
+1946,Chepstow Road,,Moira,Short,Alfred,Rigger
 1946,Chepstow Road,,Northboro,Edwards,,
 1946,Chepstow Road,,Fairview,McGrory,Jno,
 1946,Chepstow Road,,Main S. S,G.W.R,Denbre,
@@ -124675,21 +124675,21 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Chepstow Road,,Rowlands W. C,Treberth Stores,,grocer & genrl shop
 1946,Chepstow Road,,,Building,sites,
 1946,Chepstow Road,,Acorn,Rowsell,,
-1946,Chepstow Road,,Sykes J. E,engineer,Pierremont,
+1946,Chepstow Road,,Pierremont,Sykes,J. E,Engineer
 1946,Chepstow Road,,,Building,sites,
 1946,Chepstow Road,,,New,road,
 1946,Chepstow Road,,,Building,sites,
 1946,Chepstow Road,,St. Andrews,Burford,,
 1946,Chepstow Road,,House,,,
-1946,Chepstow Road,,Rees E. R,engineer,Broadway,
+1946,Chepstow Road,,Broadway,Rees,E. R,Engineer
 1946,Chepstow Road,,Clontarf,Woodcock,A.A. patrol,
-1946,Chepstow Road,,Preece R,builder,Maudania,
+1946,Chepstow Road,,Maudania,Preece,R,Builder
 1946,Chepstow Road,,,New,road,
 1946,Chepstow Road,,,Hopton L. A,ins,agent
 1946,Chepstow Road,,The Glen,Kelly,V,
 1946,Chepstow Road,,Gibson L. H,contractor,Raeburn,
 1946,Chepstow Road,,,Building,sites,
-1946,Chepstow Road,,Bown B,builder,The Bungalow,
+1946,Chepstow Road,,The Bungalow,Bown,B,Builder
 1946,Chepstow Road,,Chullora,Roberts,W. J,
 1946,Chepstow Road,,Bevan Morgan,trav,Brynteg,
 1946,Chepstow Road,,St. John's,Peake,H,
@@ -124697,10 +124697,10 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Chepstow Road,,Worker,Richards W,fuel,
 1946,Chepstow Road,,Garden Hurst,Wait,V,
 1946,Chepstow Road,,Beddington Frank,foreman,Selworthy,
-1946,Chepstow Road,,Moss Walter G,carpenter,Ledbury,
+1946,Chepstow Road,,Ledbury,Moss,Walter G,Carpenter
 1946,Chepstow Road,,Manderley,Jones,Wilfred,
 1946,Chepstow Road,,Bush Frank,slaughterman,Fran-Dor,
-1946,Chepstow Road,,Cheek Arthur,clerk,Naomi,
+1946,Chepstow Road,,Naomi,Cheek,Arthur,Clerk
 1946,Chepstow Road,,Horton G. J,insurance,super,
 1946,Chepstow Road,,,BISHPOOL,TERRACE,
 1946,Chepstow Road,8,,Rogers,Mrs. A. M,
@@ -125414,7 +125414,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Christchurch Road,88b,,Lewis,F. W,draughtsman
 1946,Christchurch Road,,,Simcox,H,butcher
 1946,Christchurch Road,88a,,Wilford,F,tobacconist
-1946,Christchurch Road,,South Albert S,labourer,Lower Sparkenhoe,
+1946,Christchurch Road,,Lower Sparkenhoe,South,Albert S,Labourer
 1946,Christchurch Road,88,Upper Sparkenhoe,Soffe,William. Christopher,marine fitter
 1946,Christchurch Road,,,TEMPERANCE,COTTAGES,
 1946,Christchurch Road,86,,Bastin,Mrs. M. J,
@@ -125742,7 +125742,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Clevedon Road,,Hillcrest,Honeywell,John,
 1946,Clevedon Road,,Jones P. G,civil,servant,
 1946,Clevedon Road,,Evans Iorwerth,B.sc,teacher,
-1946,Clevedon Road,,Graham Jas,boilermaker,The Firs,
+1946,Clevedon Road,,The Firs,Graham,Jas,Boilermaker
 1946,Clevedon Road,,The Firs,Case,Frank,
 1946,Clevedon Road,,The Firs,Sheaf,The Misses,
 1946,Clevedon Road,,,A.R.P,wardens Post,16A
@@ -125758,21 +125758,21 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Clevedon Road,4,,Lander,Francis G,teacher
 1946,Clevedon Road,5,,Nicholson,J. Frank,"M.D., physician and surgeon, Mayfield"
 1946,Clevedon Road,6,,Tovey,Percy J,funeral director; The Gables
-1946,Clevedon Road,,Brooks H. J. P,pilot,Kyle Rona,
+1946,Clevedon Road,,Kyle Rona,Brooks,H. J. P,Pilot
 1946,Clevedon Road,,Happy Landing,Jenkins,T,
 1946,Clevedon Road,,Happy Landing,Jones,D,
 1946,Clevedon Road,,Cartref,Williams,Thomas,
 1946,Clevedon Road,,Hazelmere,Williams,Miss L,
 1946,Clevedon Road,,Webb H. L,traveller,Cawsand,
-1946,Clevedon Road,,Reid Jas,electrician,Duncarn,
-1946,Clevedon Road,,Roach Stephen D,electrician,Lynton,
+1946,Clevedon Road,,Duncarn,Reid,Jas,Electrician
+1946,Clevedon Road,,Lynton,Roach,Stephen D,Electrician
 1946,Clevedon Road,,Highfield,Hallifax,H. H. .traveller,
 1946,Clevedon Road,,Cawley D. R,police,Gladholme,
 1946,Clevedon Road,,The Headlands,Harrington,John R,
 1946,Clevedon Road,,Fernlea,Kenney,E,
 1946,Clevedon Road,,,Building,sites,
 1946,Clevedon Road,,Bickleigh,Harris,J. P,
-1946,Clevedon Road,,Mason H. E,clerk,Dunster,
+1946,Clevedon Road,,Dunster,Mason,H. E,Clerk
 1946,Clevedon Road,,Wood H. G,Mon,County valuer,
 1946,Clevedon Road,,,THE,CAMP,
 1946,Clevedon Road,1,,Metcalfe,G. J,"consulting optician, Wynds Point, A.R.P. warden"
@@ -125781,11 +125781,11 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Clevedon Road,4,,Matthews,H. Rowland,
 1946,Clevedon Road,,Vacant Site,,,
 1946,Clevedon Road,,Ansdell,Pittman,Mrs. B. R,
-1946,Clevedon Road,,Turner Geo. E,fitter,Strathmore,
+1946,Clevedon Road,,Strathmore,Turner,Geo. E,Fitter
 1946,Clevedon Road,,,Thone-Void,,
 1946,Clevedon Road,,Oliver G. A. H,accountant,Fairways,
-1946,Clevedon Road,,Ellison James,manager,Clevedon Chine,
-1946,Clevedon Road,,Fleming A. E,clerk,Beverston,
+1946,Clevedon Road,,Clevedon Chine,Ellison,James,Manager
+1946,Clevedon Road,,Beverston,Fleming,A. E,Clerk
 1946,Clevedon Road,,Jury A. R,p.c,Rough Acre,
 1946,Clevedon Road,,Thomas W. S,architect,Bella Vista,
 1946,Clevedon Road,,,Building,site,
@@ -127821,7 +127821,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Coverack Road,44,,Hughes,Charles. H,st wkr
 1946,Coverack Road,46,,Evans,,
 1946,Coverack Road,48,,Scriven,Thomas,jointer
-1946,Coverack Road,,Sherman Jas. H,mason cottage,Uskside,
+1946,Coverack Road,,Uskside,Sherman,Jas. H,Mason Cottage
 1946,Coverack Road,,Uskside Paint Mills,Jenkins,H. S,
 1946,Coverack Road,,Hall D. G. & Co,Ltd. contractors,Wagon,"builders and repairers. Life boat, raft & buoyant apparatus Manufacturers"
 1946,Coverack Road,,,Imperial Works,,
@@ -128095,7 +128095,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Crown Arcade,,,2nd,Floor,
 1946,Crown Arcade,,Newport Corporation,Water,Dept,
 1946,Crown Arcade,,,1st,Floor,
-1946,Crown Arcade,,Registrar of Births and Deaths,Baker,Registr,
+1946,Crown Arcade,,Registr,Registrar,of Births and Deaths,Baker
 1946,Crown Arcade,,Registrar of Births and Deaths,Williams,Registrar,
 1946,Crown Arcade,,,Registrars of Marriages for Npt. District,W,Baker C. G
 1946,Crown Arcade,,,Royal,Liver Friendly Society-T. H. Skinner,manager
@@ -128642,7 +128642,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Dock (The Town),,,Cambrian,Iron Foundry,G 6 Spittle T. Ltd
 1946,Dock (The Town),,,Rhymney,wharf-void,
 1946,Dock (The Town),,Vacant Site,,,
-1946,Dock (The Town),,Price John,carpenter,Rhymney house,
+1946,Dock (The Town),,Rhymney house,Price,John,Carpenter
 1946,Dock (The Town),,,Penner,wharf,
 1946,Dock (The Town),,Malt House,Phillips & Sons Ltd,,
 1946,Dock (The Town),,,Beddow,J. H,maltster
@@ -129652,7 +129652,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,East Grove Road,,Wilmott Wm. A,bricklayer,Bellevue,
 1946,East Grove Road,,Ropke Alfred Hy,salesman,The Beeches,
 1946,East Grove Road,,,Cooper,William,baker
-1946,East Grove Road,,McCarty Albert F,labourer,Hillcrest,
+1946,East Grove Road,,Hillcrest,McCarty,Albert F,Labourer
 1946,East Grove Road,,Vickery Robt. J,motor,dvr,
 1946,East Grove Road,,,Building,sites,
 1946,East Grove Road,10,Granroy,Wilmott,Frederick. Charles,ironworker
@@ -129826,7 +129826,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Edward Vii Avenue,6,Wyecliffe,Deakin,Miss Mary E,
 1946,Edward Vii Avenue,4,St. Ioans,Fudge,A .G .E . J,
 1946,Edward Vii Avenue,2,,Phillips,Ernest E,"stock & share broker, Crossways"
-1946,Edward Vii Avenue,,Bulling Alec,engineer,Llandenny,
+1946,Edward Vii Avenue,,Llandenny,Bulling,Alec,Engineer
 1946,Edward Vii Crescent,1,Fairhaven,Thomas,Lewis,
 1946,Edward Vii Crescent,3,Ithiel,Lewis,Frederick J,
 1946,Edward Vii Crescent,5,,Richards,Arthur B,
@@ -130136,9 +130136,9 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Eveswell Park,,Vacant Site,,,
 1946,Eveswell Park,,Mt. Pleasant,Lovering,Hy. E,
 1946,Eveswell Park,,Hillcrest,Lewis,James P,
-1946,Eveswell Park,,Thomas W. V,builder,Thombury,
+1946,Eveswell Park,,Thombury,Thomas,W. V,Builder
 1946,Eveswell Park,,Vacant Site,,,
-1946,Eveswell Park,,Stephens F. M,collector,Denewood,
+1946,Eveswell Park,,Denewood,Stephens,F. M,Collector
 1946,Eveswell Park,,Pearson Geo. H,engineers,rep,
 1946,Eveswell Park,,,Barret Chas. N,ins,manager
 1946,Eveswell Park,,Woodbury,Searle,Miss Ella,
@@ -130781,9 +130781,9 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Frederick Street,,,Smith,H,contractors yd
 1946,Friars Chambers,,,Friars-street,,
 1946,Friars Crescent,,Ismailia,Allen,J,
-1946,Friars Crescent,,Tucker George M,joiner,Knightcott,
+1946,Friars Crescent,,Knightcott,Tucker,George M,Joiner
 1946,Friars Crescent,,Hillcrest,Elliott,Mrs. C. A,
-1946,Friars Crescent,,Busfield F. L,engineer,Hillcrest,
+1946,Friars Crescent,,Hillcrest,Busfield,F. L,Engineer
 1946,Friars Road,1,,Burge,Sydney G,"solicitor, Henbury"
 1946,Friars Road,9,,Watts,Thomas N,G.W.R.
 1946,Friars Road,11,,Richards,Frederick,G.W.R.
@@ -130871,7 +130871,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Frobisher Road,4,,Campbell,William,labourer
 1946,Frobisher Road,2,,Gould,George. Charles,pickler
 1946,Fulford's Cottages,23-7,,Nos,Victoria-avenue,
-1946,Gaer Fach,,Evans W. T,grocer,Ty Edwydd,
+1946,Gaer Fach,,Ty Edwydd,Evans,W. T,Grocer
 1946,Gaer Fach,,Stivichell,Conibear,Rev. J. R,
 1946,Gaer Fach,,Gaer Fach Farm,Thomas,Edmund W,
 1946,Gaer Fach,,,Grice,Austin,cottage
@@ -131136,9 +131136,9 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Gaer Park Hill,5,,Evans,Wilfred,corporation electricity depart
 1946,Gaer Park Hill,7,,Prujeen,John E,G.P.O.
 1946,Gaer Park Hill,,Vacant Site,,,
-1946,Gaer Park Hill,,Dunbar Donald,collector,Braemar,
+1946,Gaer Park Hill,,Braemar,Dunbar,Donald,Collector
 1946,Gaer Park Hill,,Strathmore,McCaffray,J. C,
-1946,Gaer Park Hill,,Davies Archibald,clerk,St. Anthon,
+1946,Gaer Park Hill,,St. Anthon,Davies,Archibald,Clerk
 1946,Gaer Park Hill,,Hislop Donald,labr,Aldon,
 1946,Gaer Park Hill,16,,Johns,Frederick,Insurance Agent
 1946,Gaer Park Hill,14,,Mills,George,engineer
@@ -131297,7 +131297,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Gaer Road,,Vacant Site,,,
 1946,Gaer Road,,Stoneman Geo. J,watchmkr,Devoran,
 1946,Gaer Road,,Scott Fredk,moulder,Tiverton,
-1946,Gaer Road,,Shinton Wm. A,steelworker,Lismore,
+1946,Gaer Road,,Lismore,Shinton,Wm. A,Steelworker
 1946,Gaer Road,,,Boucher,Bernard W,clerk
 1946,Gaer Road,,Woodford H,fitter,Bryn-teg,
 1946,Gaer Road,,Glen-rosa,Jenkins,Percy,
@@ -132365,7 +132365,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Greenmeadow Road,9,,Chance,Jessie,ironworker
 1946,Greenmeadow Road,7,,Rawlings,A. E. J,plumbr
 1946,Greenmeadow Road,,Holt Joseph,tubeworker,The Firs,
-1946,Greenmeadow Road,,Holly Chas,fitter,Fern-Lea,
+1946,Greenmeadow Road,,Fern-Lea,Holly,Chas,Fitter
 1946,Griffin Street,,,Hills & Steele,,Universal Stores
 1946,Griffin Street,,,PROVISION,MARKET,
 1946,Griffin Street,,,Traffic,dept,(tramways and omnibuses) offices
@@ -132383,7 +132383,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Griffin Street,,,Ltd Cecil & Co,,Drapers
 1946,Griffin Street,,,Butcher,Henry,masseur & medical electrician
 1946,Groves Road,1,The Grove,Cope,Mrs. Annie,
-1946,Groves Road,,Bacon Louis,electrician,Sunnynook,
+1946,Groves Road,,Sunnynook,Bacon,Louis,Electrician
 1946,Groves Road,3,,Golding,Hy,
 1946,Groves Road,7,Glascoed,Bates,,
 1946,Groves Road,9,Balloch,Jenkins,L. R. J,bank clerk
@@ -132405,7 +132405,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Groves Road,49,The Uplands,Jennings,G. A,civil Engineer
 1946,Groves Road,51,Gwent,Edmunds,J. P,
 1946,Groves Road,53,Reculer,Upton,J. P,
-1946,Groves Road,,Bailey F. W,outfitter,Thorsby,
+1946,Groves Road,,Thorsby,Bailey,F. W,Outfitter
 1946,Groves Road,,Prest Mrs. L. W,Jones,Miss G. A,
 1946,Groves Road,,,Thorne H. A,insurance,inspector
 1946,Haisbro Avenue,,King H. C,labr,Ty-Gwyn,
@@ -132852,10 +132852,10 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Heather Road,29,,Proffitt,Osmond,"traveller, Mondella"
 1946,Heather Road,31,Bramford,Roberts,Arthur W. J,manager
 1946,Heather Road,33,,Galbraith,E,"traveller, Hillcroft"
-1946,Heather Road,,Owens M. G,draper's,buyer,
+1946,Heather Road,,buyer,Owens,M. G,Draper's
 1946,Heather Road,,Amarah,North,Frederick. H,
 1946,Heather Road,39,,Lewis,George,"butcher, Oaklands"
-1946,Heather Road,,Jones Wilfred D,clerk,Roedean,
+1946,Heather Road,,Roedean,Jones,Wilfred D,Clerk
 1946,Heather Road,,Shannon Dennis,customs & excise,,
 1946,Heather Road,,Dunstan Harold S,stat. & tobacconist,,
 1946,Heather Road,,Merrey J. G,P.C,Everdon,
@@ -133483,9 +133483,9 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Highcross Lane,,Thomas D,schoolmaster,Heathcote,
 1946,Highcross Lane,,Droskyn,Kirk,D. G,
 1946,Highcross Lane,,Phillips,teacher,Meadow Croft,
-1946,Highcross Lane,,Walters Miss E,nurse,Woodbine,
+1946,Highcross Lane,,Woodbine,Walters,Miss E,Nurse
 1946,Highcross Lane,,Harris G,accountant,Colaba,
-1946,Highcross Lane,,John H,grocer,Lulworth,
+1946,Highcross Lane,,Lulworth,John,H,Grocer
 1946,Highcross Lane,,Hodgkiss A. J,analytical,chemist,
 1946,Highcross Lane,1,,Laughton,T. B,surveyor
 1946,Highcross Lane,2,,Williams,Miss,
@@ -133505,18 +133505,18 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Highcross Lane,,Valland,Harris,R,
 1946,Highcross Lane,,The Firs,Yernall,Mrs. A. M,
 1946,Highcross Lane,,Madras,Preece,Miss,
-1946,Highcross Lane,,Jones W. E,clerk,The Bryn,
-1946,Highcross Lane,,Shanks E. E,clerk,Coombe Dingle,
+1946,Highcross Lane,,The Bryn,Jones,W. E,Clerk
+1946,Highcross Lane,,Coombe Dingle,Shanks,E. E,Clerk
 1946,Highcross Lane,,East Gate,Sowden,J. S,
 1946,Highcross Lane,,,Jobbins F. W,G.W.R,guard
-1946,Highcross Lane,,Bearne R. V,clerk,Windy Ridge,
+1946,Highcross Lane,,Windy Ridge,Bearne,R. V,Clerk
 1946,Highcross Lane,,Summers Llewellyn J,engr,Fairoak,
 1946,Highcross Lane,,The Hollies,Jenkins,E,
-1946,Highcross Lane,,Harries Herbert,fitter,Bronleigh,
+1946,Highcross Lane,,Bronleigh,Harries,Herbert,Fitter
 1946,Highcross Lane,,Faenza,Barrett,C,
 1946,Highcross Lane,,Davies,A,C,
 1946,Highcross Lane,,The Meadow,Harley,Frederick,
-1946,Highcross Lane,,Rollason E. L,clerk,Stanmore,
+1946,Highcross Lane,,Stanmore,Rollason,E. L,Clerk
 1946,Highcross Lane,,Benha,Moore,A. S,
 1946,Highcross Lane,,,Devereux Gough,estate,agent
 1946,Highcross Lane,,Syracuse,Jones,Mrs. F. E,
@@ -133898,13 +133898,13 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Jeddo Street,102,,Oldfield,William,moulder
 1946,Jeddo Street,100,,Bale,Herbert R,stlwkr
 1946,Jeddo Street,98,,Bale,William. Hy,steelwkr
-1946,Jeddo Street,,Gillingham V. C,blacksmith,Glenhurst,
-1946,Jeddo Street,,Comer Thos. G,painter,Parkside,
+1946,Jeddo Street,,Glenhurst,Gillingham,V. C,Blacksmith
+1946,Jeddo Street,,Parkside,Comer,Thos. G,Painter
 1946,Jeddo Street,,,Pritchard,C. T,dairyman
-1946,Jeddo Street,,Hughes Thos. H,trimmer,St. Davids,
+1946,Jeddo Street,,St. Davids,Hughes,Thos. H,Trimmer
 1946,Jeddo Street,,St. Clare Cyril A,G.W.R,St. Annes,
 1946,Jeddo Street,,Thayer Herbert,ciane,dvr,
-1946,Jeddo Street,,Gardiner A. E,plumber,Thirlmere,
+1946,Jeddo Street,,Thirlmere,Gardiner,A. E,Plumber
 1946,Jeddo Street,96,,James,Albert,labourer
 1946,Jeddo Street,94,,Gough,Alfd,trimmer
 1946,Jeddo Street,92,,Young,A,docker
@@ -134232,11 +134232,11 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Kensington Place,,,Jones,A. G,
 1946,Kensington Place,27,,Plaisted,Sydney J,bus inspector
 1946,Kensington Place,,Lynton,Roberts,G. F,
-1946,Kensington Place,,Harries Albert W,clerk,Tresco,
+1946,Kensington Place,,Tresco,Harries,Albert W,Clerk
 1946,Kensington Place,,Glenisla,Irvine,Jas,
 1946,Kensington Place,,Mayfield,Dowdall,Mrs. Mary,
 1946,Kensington Place,,Selston,Banfield,J. D,
-1946,Kensington Place,,Weager Jas,engineer,Armadale,
+1946,Kensington Place,,Armadale,Weager,Jas,Engineer
 1946,Kensington Place,,Brenall,Hartland,A,
 1946,Kensington Place,28,,Hurst,,
 1946,Kensington Place,29,Harlyn,Wall,,
@@ -135232,23 +135232,23 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Llanvair Road,,,S,Wales Brattice Cloth and India Rubber works,
 1946,Llanwern Road,,,Building,sites,
 1946,Llanwern Road,,Avelon,Walters,Mis,
-1946,Llanwern Road,,Gower J. G. K,clerk,Fairfax,
+1946,Llanwern Road,,Fairfax,Gower,J. G. K,Clerk
 1946,Llanwern Road,,Perry O. F,millwright,Rycroft,
 1946,Llanwern Road,,Howells Tudor,farmer,Whitson,
 1946,Llanwern Road,,,Building,site,
 1946,Llanwern Road,,Davies Wm,hoistman,Elm Villa,
 1946,Llanwern Road,,Newton,Levin,Emanuel,
 1946,Llanwern Road,,,Rowsell G. G,shop,manager
-1946,Llanwern Road,,Wilkins Jno. R,builder,St. Anns,
+1946,Llanwern Road,,St. Anns,Wilkins,Jno. R,Builder
 1946,Llanwern Road,,Porton,Keyte,Mrs. Jane,
 1946,Llanwern Road,,,Hocking,A,
 1946,Llanwern Road,,,Blight H. J,foundry,manager
 1946,Llanwern Road,,Thomas E. F,moulder,Clarinda,
-1946,Llanwern Road,,Morse W. C,grocer,Sandelheath,
+1946,Llanwern Road,,Sandelheath,Morse,W. C,Grocer
 1946,Llanwern Road,14,,Fry & G. E. N,The Misses K. G. M,
 1946,Llanwern Road,,,Building,site,
 1946,Llanwern Road,,Lilybrook,Spicer,Arthur W,
-1946,Llanwern Road,,Puxley F. H,clerk,Moorlands,
+1946,Llanwern Road,,Moorlands,Puxley,F. H,Clerk
 1946,Llanwern Street,2,,Lucas,R,
 1946,Llanwern Street,4,,Howell,Alf,annealer
 1946,Llanwern Street,,,Williams,H,labourer
@@ -135323,13 +135323,13 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Lliswerry Road,,,Mullis,W m,fitter's mate
 1946,Lliswerry Road,,Walrosa,Maddock,W. J,
 1946,Lliswerry Road,,Clarke G,draughtsman,Danesbury,
-1946,Lliswerry Road,,Clarke A. W,fitter,Wenmere,
+1946,Lliswerry Road,,Wenmere,Clarke,A. W,Fitter
 1946,Lliswerry Road,,Brookfields,Badger,Ed. C. J,
 1946,Lliswerry Road,9,,Millard,Sidney,stores asst
 1946,Lliswerry Road,11,,Gallear,J n o,steelworker
 1946,Lliswerry Road,,Taylor Wm. C,G.W.R,Killarney,
 1946,Lliswerry Road,,Fields View,Stevens,,
-1946,Lliswerry Road,,Flook S. G,ironworker,Eschol Villa,
+1946,Lliswerry Road,,Eschol Villa,Flook,S. G,Ironworker
 1946,Lliswerry Road,,Evergreen Cot,Binning,R e g,
 1946,Lliswerry Road,,,Maisey,William. J,haulier
 1946,Lliswerry Road,,,Price,Mrs,
@@ -135340,7 +135340,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Lliswerry Road,,Thomas Arthur F,clerk cottage,Myrtle,
 1946,Lliswerry Road,,Roseville,Wilkinson,William,
 1946,Lliswerry Road,,Holmlea,Parsons,Alfred William,
-1946,Lliswerry Road,,Deidun Frank,fitter,Rheims,
+1946,Lliswerry Road,,Rheims,Deidun,Frank,Fitter
 1946,Lliswerry Road,,Hill Francis,ironworker,Chez-Nous,
 1946,Lliswerry Road,,Worker,Elwell Dennis,tube,
 1946,Lliswerry Road,,Allen Alfred L,tool,setter,
@@ -135377,7 +135377,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Lliswerry Road,,Rance Albt,G.W.R,Devonia,
 1946,Lliswerry Road,,Jasmine House,Reece,T. W,
 1946,Lliswerry Road,,Hicks Albert Wm,watchman cottage,Jasmine,
-1946,Lliswerry Road,,Higgs C. E,labourer,Shirley,
+1946,Lliswerry Road,,Shirley,Higgs,C. E,Labourer
 1946,Lliswerry Road,,Wribbenhall,Cartwright,W. J,
 1946,Lliswerry Road,,Gardenia,Heath,Mrs. Sarah,
 1946,Lliswerry Road,,St. Hughes,Lavin,E. J,
@@ -135388,14 +135388,14 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Lliswerry Road,,Jones J,labr,Rockfields,
 1946,Lliswerry Road,,Liswerry Farm,Thompson,Miss A,
 1946,Lliswerry Road,,Berydene,Bowyer,W. H,
-1946,Lliswerry Road,,Davies E. J,carpenter,Brynhyfryd,
+1946,Lliswerry Road,,Brynhyfryd,Davies,E. J,Carpenter
 1946,Lliswerry Road,,Thomas Clifford,lime,merch,
 1946,Lliswerry Road,,,Tennant,J. S. St. Annes,
 1946,Lliswerry Road,,Lee A. E,army,Mayfield,
 1946,Lliswerry Road,,Board T. E,clk,Holmleigh,
 1946,Lliswerry Road,,Uskhaven,Lewis,Miss Rosa,
 1946,Lliswerry Road,,Craig Moor,Davies,,
-1946,Lliswerry Road,,Ayres Charles W,fitter,Hibernia,
+1946,Lliswerry Road,,Hibernia,Ayres,Charles W,Fitter
 1946,Lliswerry Road,,Turner Wm. E,hydraulic,tester,
 1946,Lliswerry Road,191,,Holmes,Anthony J,Engineer
 1946,Lliswerry Road,193,,Smith,F,clerk
@@ -135423,7 +135423,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Lliswerry Road,,Goodacre,Murray,A. W,
 1946,Lliswerry Road,,Highbury,Manship,W. M,
 1946,Lliswerry Road,,Elson,Evans,John,
-1946,Lliswerry Road,,Jones H,inspector,Pioneer Check Providers,
+1946,Lliswerry Road,,Pioneer Check Providers,Jones,H,Inspector
 1946,Lliswerry Road,,Penybryn,Francis,E. P,
 1946,Lliswerry Road,,Tinslea,Harvey,J. H,
 1946,Lliswerry Road,,Mearvaldis,Roberts,Albert,
@@ -135433,7 +135433,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Lliswerry Road,,,M'Candless W,secretary,manager
 1946,Lliswerry Road,,James A,machinist,Rosslyn,
 1946,Lliswerry Road,,The Woodlands,Margetts,Frank,
-1946,Lliswerry Road,,Curtis A,greengrocer,Belle Vue,
+1946,Lliswerry Road,,Belle Vue,Curtis,A,Greengrocer
 1946,Lliswerry Road,,Elms Farm,Lewis,Harry M,
 1946,Lliswerry Road,,Evans James W,foreman,Lliswerry house,
 1946,Lliswerry Road,,Wm. Ball,Lliswerry Hotel,,
@@ -136587,7 +136587,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Malpas Road,3,,Parfitt,Clifford,
 1946,Malpas Road,2,,Jenkins,C. P,park ranger
 1946,Malpas Road,1,,David,Mrs. Nellie,
-1946,Malpas Road,,Evans S. C,grocer,The Grange,
+1946,Malpas Road,,The Grange,Evans,S. C,Grocer
 1946,Malpas Road,,Keane Dr. H. A,M.B,B.CH,"surgeon, Ormidale"
 1946,Malpas Road,,,Harris,Mrs. Mary A,
 1946,Malpas Road,,,WESTFIELD,CRESCENT,
@@ -136674,16 +136674,16 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Malpas Road,1,Malpas Villa,Palfrey,E,
 1946,Malpas Road,2,Malpas Villa,Fitzgerald,Jno,
 1946,Malpas Road,,Pugh Wm,farmer,Malpas farm,
-1946,Malpas Road,,Murphy C. W,builder,Alfriston,
+1946,Malpas Road,,Alfriston,Murphy,C. W,Builder
 1946,Malpas Road,,,Pearce,Jas. Hy,ship's officer
 1946,Malpas Road,,Chappell Trevor,milkman,Colbrook,
 1946,Malpas Road,,Rees Alfred K,schoolmaster,Avalon,
 1946,Malpas Road,,Hawker Francis,traveller,Alton Dene,
 1946,Malpas Road,,Sydenham,Palmer,Mrs. E,
 1946,Malpas Road,,Williams Fred,pattern,maker,
-1946,Malpas Road,,Luffman Wilfred,carpenter,Nortongarth,
+1946,Malpas Road,,Nortongarth,Luffman,Wilfred,Carpenter
 1946,Malpas Road,,A.T.C.L,Luffman,Miss D,
-1946,Malpas Road,,Hopkins Frank W,fitter,Fairview,
+1946,Malpas Road,,Fairview,Hopkins,Frank W,Fitter
 1946,Malpas Road,,Morrissey,butcher,Heatherdene,
 1946,Malpas Road,,Lewis Wm. H,p.c,Rosedene,
 1946,Malpas Road,,Sherwood,Trigg,George,
@@ -136693,7 +136693,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Malpas Road,,Roana,Jones,William,
 1946,Malpas Road,,New Cliff,Blackwell,Mrs. Jane,
 1946,Malpas Road,,Penton,Jones,Norman,
-1946,Malpas Road,,Davies F. A,engineer,Safaddan,
+1946,Malpas Road,,Safaddan,Davies,F. A,Engineer
 1946,Malpas Road,,Preston Miss E. K,teacher,Roglen,
 1946,Malpas Road,,Turnbull Victor,(captain,Alvicta,
 1946,Malpas Road,,Wakefield,Francis,Mrs. A. G,
@@ -136713,7 +136713,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Malpas Road,,,Powell,Miss,
 1946,Malpas Road,,,MALPAS,SCHOOLS,
 1946,Malpas Road,,,Blackwell,H. (junr.),fish bar
-1946,Malpas Road,,Blackwell H,grocer,Pioneer Stores,
+1946,Malpas Road,,Pioneer Stores,Blackwell,H,Grocer
 1946,Malpas Road,,,GRAIG,PARK CRESCENT,
 1946,Malpas Road,,,Hunt Wm. G,shop,manager
 1946,Malpas Road,35,,Burrough,Syd,traveller
@@ -136752,9 +136752,9 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Malpas Road,3,,Avery,Frederick,electrician
 1946,Malpas Road,2,,Gardener,Henry,clerk-ofworks
 1946,Malpas Road,1,,John,,
-1946,Malpas Road,,White Patrick,draper,Boglily,
+1946,Malpas Road,,Boglily,White,Patrick,Draper
 1946,Malpas Road,,Baker,Leonard,chauffeur,
-1946,Malpas Road,,Eynon James,builder,Carency,
+1946,Malpas Road,,Carency,Eynon,James,Builder
 1946,Malpas Road,,Heyope,Matthews,Mrs,
 1946,Malpas Road,,Salcombe House,White,Mrs. W,
 1946,Malpas Road,,,MALPAS CHURCH,,
@@ -136883,11 +136883,11 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Malpas Road,,Jenkins Reuben J,G.P.O.,Amor,
 1946,Malpas Road,,Welsh Geo. Hy,fishfryer,Glenbow,
 1946,Malpas Road,,Glenderry,Cordwell,Alfred E,
-1946,Malpas Road,,Jones Percy E,clerk,Pentwyn,
-1946,Malpas Road,,Fernandez Jose,fitter,Modeste,
+1946,Malpas Road,,Pentwyn,Jones,Percy E,Clerk
+1946,Malpas Road,,Modeste,Fernandez,Jose,Fitter
 1946,Malpas Road,,,Vickery Robt,lorry,driver
 1946,Malpas Road,,Weaving Henry,chargeman,Craig-y-nor,
-1946,Malpas Road,,Hoggett Henry,butcher,Lydney,
+1946,Malpas Road,,Lydney,Hoggett,Henry,Butcher
 1946,Malpas Road,,Gough Wm. P,schoolmaster,Troed-y-bryn,
 1946,Malpas Road,,St. Brannocks,Davies,R. G,
 1946,Malpas Road,,Perambur,Jewell,William. George,
@@ -136898,16 +136898,16 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Malpas Road,2,Picton W. H,boilersmth,Blaen-y-Pant cottage,
 1946,Malpas Road,1,Leonard M,furnaceman,Blaen-y-Pant cottage,
 1946,Malpas Road,,Rus-in-Urbe,Pearce,Mrs. E,
-1946,Malpas Road,,Max George,engineer,Godrevy,
+1946,Malpas Road,,Godrevy,Max,George,Engineer
 1946,Malpas Road,,Pritchard Wm. G,G.W.R,Park View,
 1946,Malpas Road,,Lovelock A. L,coach,pntr,
-1946,Malpas Road,,Ware Albert,plumber,Bryn-awel,
-1946,Malpas Road,,Evans Arthur,butcher,Bryn-Deri,
+1946,Malpas Road,,Bryn-awel,Ware,Albert,Plumber
+1946,Malpas Road,,Bryn-Deri,Evans,Arthur,Butcher
 1946,Malpas Road,,Donaghy W. F,M.B,B.CH,"physician & surg, Sydenham"
 1946,Malpas Road,,The Laurels,Morgan,Mrs. J. H,
 1946,Malpas Road,,The Ferns,Powell,Arthur J,
 1946,Malpas Road,,Gregory W. C,G.W.R,Woodburn,
-1946,Malpas Road,,Mason Thos,carpenter,Braedale,
+1946,Malpas Road,,Braedale,Mason,Thos,Carpenter
 1946,Malpas Road,,One Ash,Wells,Mrs. D,
 1946,Malpas Road,,Tunnadine A,Carlton,ho,sweet shop
 1946,Malpas Road,,,Building,sites,
@@ -137635,30 +137635,30 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Melfort Road,,Raloma,Webb,W. G,
 1946,Melfort Road,,The Trossacks,Jones,T. H,
 1946,Melfort Road,,Springthorpe Wm,furnacem,Kia Ora,
-1946,Melfort Road,,Collett Thos. Hy,clerk,Kingsway,
-1946,Melfort Road,,Haines P. M,clerk,Kingsway,
+1946,Melfort Road,,Kingsway,Collett,Thos. Hy,Clerk
+1946,Melfort Road,,Kingsway,Haines,P. M,Clerk
 1946,Melfort Road,,Davies,A,Glenburn,
 1946,Melfort Road,,Claremont,Weaver,Mrs,
 1946,Melfort Road,,Penfro,Gwyther,W. L,
-1946,Melfort Road,,Dobson C,butcher,Penanda,
+1946,Melfort Road,,Penanda,Dobson,C,Butcher
 1946,Melfort Road,,Charrington Harry,accnt,Stelvanton,
 1946,Melfort Road,,Hicks Robert H,garage,prop,
-1946,Melfort Road,,Clarke Fdk. Ivor,clerk,Kinshasa,
+1946,Melfort Road,,Kinshasa,Clarke,Fdk. Ivor,Clerk
 1946,Melfort Road,,Newing P. J,stevedore,Armadale,
 1946,Melfort Road,,Newsham,Ashcroft,William,
 1946,Melfort Road,,Windyridge,Hulbert,K. G,
 1946,Melfort Road,,Millichip F. H,P.S,Fre-Delyn,
 1946,Melfort Road,,Seven Steps,Oliver,Colin,
-1946,Melfort Road,,Evans Kenneth,clerk,Jelda,
+1946,Melfort Road,,Jelda,Evans,Kenneth,Clerk
 1946,Melfort Road,,,New,Road,
-1946,Melfort Road,,James Stanley,baker,Alum Chine,
+1946,Melfort Road,,Alum Chine,James,Stanley,Baker
 1946,Melfort Road,,Jones W. T. L,civil,servant,
 1946,Melfort Road,,Allen,Fredk,dental mech,
 1946,Melfort Road,,Channing,Mrs,Isabel,
-1946,Melfort Road,,Russell Frank,engineer,Kevela,
+1946,Melfort Road,,Kevela,Russell,Frank,Engineer
 1946,Melfort Road,,Stiles,Mrs,B,
-1946,Melfort Road,,George W. J,draper,Durlston,
-1946,Melfort Road,,Johns R. a,electrician,Dunedin,
+1946,Melfort Road,,Durlston,George,W. J,Draper
+1946,Melfort Road,,Dunedin,Johns,R. a,Electrician
 1946,Melfort Road,,Woolway A. E,G.W.R,St. Davids,
 1946,Melfort Road,,White H. N,captain,Rosmoney,
 1946,Melfort Road,,Oriel,Smith,,
@@ -137666,11 +137666,11 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Melfort Road,,White Jno. H,G.W.R,Graham house,
 1946,Melfort Road,,Drury T. J,civil,servant,
 1946,Melfort Road,,Merrow Down,Skinner,Miss J,
-1946,Melfort Road,,Ryan R. M,fitter,Channel Breeze,
-1946,Melfort Road,,Preece Samuel J,fireman,Pendennis,
-1946,Melfort Road,,Clarke A. H,steelworker,Brent Knoll,
+1946,Melfort Road,,Channel Breeze,Ryan,R. M,Fitter
+1946,Melfort Road,,Pendennis,Preece,Samuel J,Fireman
+1946,Melfort Road,,Brent Knoll,Clarke,A. H,Steelworker
 1946,Melfort Road,,Lewis R. M,draughtsman,Seacroft,
-1946,Melfort Road,,Hamilton James,clerk,Smithfield,
+1946,Melfort Road,,Smithfield,Hamilton,James,Clerk
 1946,Melfort Road,,,Building,sites,
 1946,Melfort Road,1,Hawaii,Smale,Miss T,
 1946,Melfort Road,2,Totley,Overland,H,Engineer
@@ -138483,7 +138483,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Nash Road,,Upper Lakes,Harley,Joseph,
 1946,Nash Road,,Upper Lakes Farm,Haime,J.F,
 1946,Nash Road,,Cox Wm. H,crane,dvr,
-1946,Nash Road,,Hopkins Ivor L,labourer,Upper Lakes,
+1946,Nash Road,,Upper Lakes,Hopkins,Ivor L,Labourer
 1946,Nash Road,,Nash-rd Bkry,Haime,Mrs. E,
 1946,Nash Road,,Perry Thos,ironwkr,High Mead,
 1946,Nash Road,,Pring Ivor J,shoe,repairer,
@@ -138543,15 +138543,15 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Nash Road,,,Telephone,Kiosk here,
 1946,Neston Road,1,,Moss,Maurice,steelworker
 1946,Neston Road,,Denewood,Salt,Stanley S,mechanic
-1946,Neston Road,,,Coakley,Joseph S,French polisher
-1946,Neston Road,,Tarkwa,Watts,Thos,fitter
-1946,Neston Road,,Montrose,Landers,Thos. R,postman
-1946,Neston Road,,Nyeaidd,Meachen,Thos,labourer
+1946,Neston Road,,Joseph S,French,Polisher,Coakley
+1946,Neston Road,,Tarkwa,Watts,Thomas,fitter
+1946,Neston Road,,Montrose,Landers,Thomas. R,postman
+1946,Neston Road,,Nyeaidd,Meachen,Thomas,labourer
 1946,Neston Road,,Belvoir,Moore,Kenneth,electrician
-1946,Neston Road,,Meadow View,Hayward,Robt. J,shearer
+1946,Neston Road,,Robert. J,Meadow,View,Hayward
 1946,Neston Road,,Inglenook,Nash,Jack,clerk
 1946,Neston Road,,Graig Haven,Cowmeadow,Hector,boilermaker
-1946,Neston Road,,Woodville,Dade,R.,Coppersmith
+1946,Neston Road,,Woodville,Dade,R,Coppersmith
 1946,Neston Road,,Building Sites,,,
 1946,New Ruperra Street,1,,Ridout,Hubert,clerk
 1946,New Ruperra Street,3,,Peters,Glyn,moulder
@@ -138859,7 +138859,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Oakley Street,1,,Carter,Thomas,ironworker
 1946,Oaks Close,,Caygill Arthur W,steelwkr,Tredegar villa,
 1946,Oaks Close,,Jones Frederick H,G.W.R,Kingston,
-1946,Oaks Close,,Cook Wm. A. M,plumber,The Croft,
+1946,Oaks Close,,The Croft,Cook,Wm. A. M,Plumber
 1946,Oaks Close,,Thomas Thos. Daniel,trimr,Beaufort,
 1946,Oaks Close,,Henry Constantine,motor,dvr,
 1946,Oaks Close,,Dean John,chargeman,Amberley,
@@ -139171,17 +139171,17 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Parfitt Street,6,,James,Frank J,"postman, Glyn Dwr"
 1946,Parfitt Street,4,Hunderton,Taylor,Oswald S,lorry driver
 1946,Parfitt Street,2,"Driller, Malvern House",Fry,Lewis,
-1946,Park Avenue,,Bright Geo,labourer,Fleetwood,
+1946,Park Avenue,,Fleetwood,Bright,Geo,Labourer
 1946,Park Avenue,,,Gould J,ins,agent
-1946,Park Avenue,,Stock Albert,electrician,Crossways,
-1946,Park Avenue,,Bartlett Edwd,clerk,Kewstoke,
+1946,Park Avenue,,Crossways,Stock,Albert,Electrician
+1946,Park Avenue,,Kewstoke,Bartlett,Edwd,Clerk
 1946,Park Avenue,,Ivelchester,Garrett,Ernest G,
 1946,Park Avenue,,Park machine yard,Young,Arth. J,
 1946,Park Avenue,,,Henderson,Wilford,G.W.R.
 1946,Park Avenue,5,,Purnell,John H,boatman
 1946,Park Avenue,,Young John,G.W.R,The Nook,
-1946,Park Avenue,,Sergant Edward,ironworker,Etruscan,
-1946,Park Avenue,,Knight Wm. G,carpenter,West view,
+1946,Park Avenue,,Etruscan,Sergant,Edward,Ironworker
+1946,Park Avenue,,West view,Knight,Wm. G,Carpenter
 1946,Park Avenue,,Lewis Leslie,traveller,Mayfield,
 1946,Park Avenue,,Worker,Virgo Chas. S,timber,
 1946,Park Avenue,,,Pope,W,
@@ -139189,7 +139189,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Park Avenue,,Harvey Thos. R,G.W.R,Pendeen,
 1946,Park Avenue,,Stone Wm,roller,Eskdale,
 1946,Park Avenue,,,Virgo,Thomas. C,labourer Mondray
-1946,Park Avenue,,Thomas Douglas M,engineer,Ranworth,
+1946,Park Avenue,,Ranworth,Thomas,Douglas M,Engineer
 1946,Park Avenue,,Stanford Francis M,customs,Stanford Lodge,
 1946,Park Close,1,Beersheba,Lane,Ivor H,builder
 1946,Park Close,2,,Hall,David G,waggon builder
@@ -139199,10 +139199,10 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Park Close,5,,Davies,C,plasterer. Coolgreeny
 1946,Park Crescent,,,ROMAN,CATHOLIC SCHOOLS,
 1946,Park Crescent,,,ST,DAVID'S R.C. CHURCH,
-1946,Park Crescent,,Watkins Wm. J,trimmer,Glengarrie,
+1946,Park Crescent,,Glengarrie,Watkins,Wm. J,Trimmer
 1946,Park Crescent,,Rees Cyril S,P.c,Ivydene,
 1946,Park Crescent,,Hancock Geo,G.W.R,Portia,
-1946,Park Crescent,,Thomas Daniel,ironworker,Oakdene,
+1946,Park Crescent,,Oakdene,Thomas,Daniel,Ironworker
 1946,Park Crescent,,The Chalet,Carter,T,
 1946,Park Crescent,,Barnes G. R,G.W.R,Keinton,
 1946,Park Crescent,,Tynewydd,Hayes,Mrs. E,
@@ -139219,10 +139219,10 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Park Crescent,,Biddiscombe Jas. J,stlwkr,Lansbury,
 1946,Park Crescent,,Malvern,Bale,,
 1946,Park Crescent,,Scott Ernest,steelwrkr,Evern,
-1946,Park Crescent,,Travers Geo. T,steelworker,Everton,
+1946,Park Crescent,,Everton,Travers,Geo. T,Steelworker
 1946,Park Crescent,,Ryan Thos,chemist's,asst,
 1946,Park Crescent,,Hill Wm. E. G,labr,Fairleigh,
-1946,Park Crescent,,Biddlescombe J,labourer,Milton,
+1946,Park Crescent,,Milton,Biddlescombe,J,Labourer
 1946,Park Crescent,,Inker Wm. H,docker,St. Anne,
 1946,Park Crescent,,Daly Jno,watcher,St. Teresa,
 1946,Park Crescent,,Blackborow Wm,steelwrkr,St. Julians,
@@ -139490,10 +139490,10 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Pillmawr Road,,Alvereta,Turnbull,A,
 1946,Pillmawr Road,,Wakefield,Vaux,,
 1946,Pillmawr Road,,Ryburn,Holland,Mrs. P,
-1946,Pillmawr Road,,Farr Tom,carpenter cot,Fern,
+1946,Pillmawr Road,,Fern,Farr,Tom,Carpenter Cot
 1946,Pillmawr Road,,Horse Shoes Inn,Three,,
 1946,Pillmawr Road,,Three Horse Shoes cottages,Crum,C. A,
-1946,Pillmawr Road,,Stevens A. B,butcher cottages,Three Horse Shoes,
+1946,Pillmawr Road,,Three Horse Shoes,Stevens,A. B,Butcher Cottages
 1946,Pillmawr Road,,Devon Cotgs,Edwards,Henry,
 1946,Pillmawr Road,,Devon Cotgs,Middleton,T. H,
 1946,Pillmawr Road,,,THE,STRAND,
@@ -139514,15 +139514,15 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Pillmawr Road,,Meyrick Islwyn,teacher,Ty-Gored,
 1946,Pillmawr Road,,Jesmond Dene,Morris,Mrs. Cecilia,
 1946,Pillmawr Road,,Fair Haven,Thomas,Capt. George,
-1946,Pillmawr Road,,Rogers Thomas J,electrician,The Channings,
+1946,Pillmawr Road,,The Channings,Rogers,Thomas J,Electrician
 1946,Pillmawr Road,,Whiston J. M,G.W.R,Clare Abbey,
 1946,Pillmawr Road,,Green Banks,Burleigh,George W,
-1946,Pillmawr Road,,Thomas S. G,engineer,Gwylfa,
+1946,Pillmawr Road,,Gwylfa,Thomas,S. G,Engineer
 1946,Pillmawr Road,,Potter Henry Chas,surveyor,Cranmore,
-1946,Pillmawr Road,,Davies Jno. T,clerk,Sunnyside,
+1946,Pillmawr Road,,Sunnyside,Davies,Jno. T,Clerk
 1946,Pillmawr Road,,Harmston Edgar,salesman,Sherwood,
 1946,Pillmawr Road,,,Blakesley J. H,mill,manager
-1946,Pillmawr Road,,Tadman T. H,fitter,Trafford house,
+1946,Pillmawr Road,,Trafford house,Tadman,T. H,Fitter
 1946,Pillmawr Road,,Hird Geo. W,mill,foreman,
 1946,Pillmawr Road,,Collett Wm,timber,merchant,
 1946,Pillmawr Road,,Johnson Wm. E,customs,officer,
@@ -139532,7 +139532,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Pillmawr Road,,Viewforth,Hands,Miss M,
 1946,Pillmawr Road,,Gale Arthur H,trade,union organiser,
 1946,Pillmawr Road,,Jones E. G,meter,reader,
-1946,Pillmawr Road,,Hunt Wm. Geo,manager,Honey Meade,
+1946,Pillmawr Road,,Honey Meade,Hunt,Wm. Geo,Manager
 1946,Poplar Road,,,SOMERTON,GARDENS ESTATE,
 1946,Poplar Road,1,,Wareham,Herbert,Labourer
 1946,Poplar Road,3,,Hodson,Arthur,steelwkr
@@ -140203,9 +140203,9 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Queen's Hill Crescent,,,GIRL,GUIDES' DIV. H.Q,
 1946,Queen's Hill Crescent,,HARRIS HALL,NATHAN,,
 1946,Queen's Hill Crescent,,,SYNAGOGUE AND HEBREW SCHOOL,,
-1946,Queen's Hill Crescent,,Cox Wm. C,electrician,Shenstone,
+1946,Queen's Hill Crescent,,Shenstone,Cox,Wm. C,Electrician
 1946,Queen's Hill Crescent,,,Jones Wm. S,sports,Outfitter
-1946,Queen's Hill Crescent,,Thomas Leslie,engineer,Westcott,
+1946,Queen's Hill Crescent,,Westcott,Thomas,Leslie,Engineer
 1946,Queen's Hill Crescent,,Tettenhall,Galvin,J. P,
 1946,Queen's Hill Crescent,1,Credenhill,Powell,Mrs,
 1946,Queen's Hill Crescent,3,"H.M.C., St. Clears",Couchman,George,
@@ -140293,9 +140293,9 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Queen's Hill Crescent,,Thomas Enoch,hoistman,Tregenna,
 1946,Queen's Hill Crescent,,Porter Arthur,p.c,Eltham,
 1946,Queen's Hill Crescent,,,Building,sites,
-1946,Queen's Hill Crescent,,Bywater Ernest,clerk,Copthorne,
+1946,Queen's Hill Crescent,,Copthorne,Bywater,Ernest,Clerk
 1946,Queen's Hill Crescent,,,Building,sites,
-1946,Queen's Hill Crescent,,Atkin Geo,manager,Desilva,
+1946,Queen's Hill Crescent,,Desilva,Atkin,Geo,Manager
 1946,Queen's Hill Crescent,,,St,Monsons,
 1946,Queen's Hill Crescent,,,Eastwood Fred,pipe,fitter
 1946,Queen's Hill Crescent,36,Avalon,Corbin,Thomas,
@@ -140744,12 +140744,12 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Ridgeway Avenue,,Vacant Site,,,
 1946,Ridgeway Avenue,,Pontwain,Pedler,Basil,
 1946,Ridgeway Avenue,15,Bedruthan,Davies,Jenkin S,
-1946,Ridgeway Avenue,,Kerr K. B,draper,Lyndhurst,
+1946,Ridgeway Avenue,,Lyndhurst,Kerr,K. B,Draper
 1946,Ridgeway Avenue,,Vacant Site,,,
 1946,Ridgeway Avenue,,Vacant Site,,,
 1946,Ridgeway Avenue,,Ravenstone,Gunn,Reginald,
 1946,Ridgeway Avenue,,,Haverford-void,,
-1946,Ridgeway Avenue,,Bell A. C,engineer,Perivale,
+1946,Ridgeway Avenue,,Perivale,Bell,A. C,Engineer
 1946,Ridgeway Avenue,,Avonleigh,Andrews,E. G,
 1946,Ridgeway Avenue,,Deighton,Hunter,Thomas,
 1946,Ridgeway Avenue,,Vacant Site,,,
@@ -140843,9 +140843,9 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Ridgeway Grove,,Hiles J. W,architect,Newlyn,
 1946,Ridgeway Grove,,Glengarry,Hayman,Gilbert,
 1946,Ridgeway Grove,,Rillage,Ravalde,Reg. J,
-1946,Ridgeway Grove,,Moore Reg. B,clerk,West ways,
+1946,Ridgeway Grove,,West ways,Moore,Reg. B,Clerk
 1946,Ridgeway Grove,,Brendon,Mann,R. H,
-1946,Ridgeway Grove,,Perry Reg. P,manager,Inglestone,
+1946,Ridgeway Grove,,Inglestone,Perry,Reg. P,Manager
 1946,Ridgeway Grove,,Jenkins V. C,schoolmaster,Penmorfa,
 1946,Ridgeway Grove,9,Crosby,Llewellyn,Arthur S,loco Engineer
 1946,Ridgeway Grove,8,Formosa,Lewis,Reg. E,estate agent
@@ -140854,7 +140854,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Ridgeway Grove,,,Williams,Mrs. M. W,
 1946,Ridgeway Grove,,Bridgestow,Cumberpatch,W. G,
 1946,Ridgeway Grove,,Henleaze,Patterson,Thomas. J,
-1946,Ridgeway Grove,,Davies Trevor,butcher,Highclere,
+1946,Ridgeway Grove,,Highclere,Davies,Trevor,Butcher
 1946,Ridgeway Grove,,,Berridge Wm. E. School,,master
 1946,Ridgeway Grove,,Smith W. H,Pubilc Works Contractor,,
 1946,Ridgeway Park Road,1,,Andrews,Harry,"deputy borough treasurer and comptroller, Butholey"
@@ -140892,11 +140892,11 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Ringwood Avenue,,Wilding Harry,acetylene,welder,
 1946,Ringwood Avenue,,Lee Herbert,Carpenter And,,joiner
 1946,Ringwood Avenue,,Hazeldene,Bird,,
-1946,Ringwood Avenue,,Cammerman C,clerk,Menai,
+1946,Ringwood Avenue,,Menai,Cammerman,C,Clerk
 1946,Ringwood Avenue,,,Howe Montague,G.P.O.,clerk
-1946,Ringwood Avenue,,Sampson Clifford,fitter,Sidcliffe,
+1946,Ringwood Avenue,,Sidcliffe,Sampson,Clifford,Fitter
 1946,Ringwood Avenue,,,Whitfield R. E,turbine,fitter
-1946,Ringwood Avenue,,Williams Emest,tailor,The Woodlands,
+1946,Ringwood Avenue,,The Woodlands,Williams,Emest,Tailor
 1946,Ringwood Avenue,,,Building,sites,
 1946,Ringwood Avenue,,,Attwood Henry E,grocers,manager
 1946,Ringwood Avenue,,Kowloon,HattonMrs,M. J,
@@ -140970,12 +140970,12 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Risca Road,,Hillside,Vernon,Arthur,
 1946,Risca Road,,Springfield,Williams,H. E,
 1946,Risca Road,,,Sim Norman S. D,electrical,engineer
-1946,Risca Road,,Fyfe R. J,clerk,The Oaks,
+1946,Risca Road,,The Oaks,Fyfe,R. J,Clerk
 1946,Risca Road,,Rosedale,Cullum,Miss G,
 1946,Risca Road,,Font-y-Gary,Mortimer,Mrs. Agnes H,
 1946,Risca Road,,Howell P. H,civil,servant,
 1946,Risca Road,,Berkeley,Webb,,
-1946,Risca Road,,Pritchard Reginald Alfred,electrician,Delhi,
+1946,Risca Road,,Delhi,Pritchard,Reginald Alfred,Electrician
 1946,Risca Road,,Nant Coch Lodge,Thomas,E. J,
 1946,Risca Road,,Stroma,Laird,Dr. Andrewenia,
 1946,Risca Road,,Glengariffe,Pophim,J. R,
@@ -141003,16 +141003,16 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Risca Road,,Hurstlea,Davies,Wilfrid Thomas,
 1946,Risca Road,,Billinghurst,Hunt,Thomas,
 1946,Risca Road,,Moses Mrs,Roselle,O'Neill Frederick,"steel wrkr, Bryn Ivor"
-1946,Risca Road,,Harries Jno,electrician,Buckland,
+1946,Risca Road,,Buckland,Harries,Jno,Electrician
 1946,Risca Road,,Ashford,Railton,Miss Kathleen,
-1946,Risca Road,,Baker Leslie J. S,fitter,Canwood,
+1946,Risca Road,,Canwood,Baker,Leslie J. S,Fitter
 1946,Risca Road,,Greylands,Arthur,Tudor,
-1946,Risca Road,,Childs Wm,gardener,The Hawthorns,
-1946,Risca Road,,Darters John,clerk,Tredegarville,
+1946,Risca Road,,The Hawthorns,Childs,Wm,Gardener
+1946,Risca Road,,Tredegarville,Darters,John,Clerk
 1946,Risca Road,,Arlington,Pilikas,Peter,
 1946,Risca Road,,Essex,Wilkinson,Mrs. H. S,
 1946,Risca Road,,Tintern,Monks,Leslie,
-1946,Risca Road,,Jones Fred G,engineer,Oakfield,
+1946,Risca Road,,Oakfield,Jones,Fred G,Engineer
 1946,Risca Road,,,Jones H. L,crane,driver
 1946,Risca Road,,Sunnyglade,Dennis,William. C,
 1946,Risca Road,,The Dene,Stewart,William. C,
@@ -141025,13 +141025,13 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Risca Road,,Broadclyst,White,Ernest W. P,
 1946,Risca Road,,Endelston,Walters,,
 1946,Risca Road,,Greenland James,garage,prop,
-1946,Risca Road,,Cullimore Donald,engineer,Tynewydd,
+1946,Risca Road,,Tynewydd,Cullimore,Donald,Engineer
 1946,Risca Road,,Barnard J,engr,Cranleigh,
 1946,Risca Road,,Glen-Roy,Grundy,W,
 1946,Risca Road,,Vacant Site,,,
 1946,Risca Road,,,Morville-void,,
 1946,Risca Road,,Kingcoed,Cook,Miss C. H,
-1946,Risca Road,,Richards Reg,engineer,Kenross,
+1946,Risca Road,,Kenross,Richards,Reg,Engineer
 1946,Risca Road,,,Francis Jenkin,ins,agent
 1946,Risca Road,,Mon-Abri,Rixon,Phillip,
 1946,Risca Road,,Jones John,colliery,windr,
@@ -141040,9 +141040,9 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Risca Road,,,Clark,F. E. S,chemist
 1946,Risca Road,,Fernbank,Richards,William,
 1946,Risca Road,,,HIGH,CROSS CHURCH,
-1946,Risca Road,,Blatchley Percy,grocer's,mangr,
+1946,Risca Road,,mangr,Blatchley,Percy,Grocer's
 1946,Risca Road,,Williams Miss Margaret,school,mistress,
-1946,Risca Road,,Brock Harold,clerk,Cross Mount,
+1946,Risca Road,,Cross Mount,Brock,Harold,Clerk
 1946,Risca Road,,St. Annes,Artess,A,
 1946,Risca Road,,Flaxley,Harries,J,
 1946,Risca Road,,Hazelmere,,,
@@ -141057,7 +141057,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Risca Road,,St. Albans,Storer,,
 1946,Risca Road,,,Roberts Lloyd,bus,driver
 1946,Risca Road,,Finstell,Ingram,Charles. L. G.W.R,
-1946,Risca Road,,Ley Lionel J,clerk,Birdbush,
+1946,Risca Road,,Birdbush,Ley,Lionel J,Clerk
 1946,Risca Road,,The Chalet,Hayman,L,
 1946,Risca Road,,Caslteton,Culloty,Timothy,
 1946,Risca Road,,Morrish Herbert,com,traveller,
@@ -141065,10 +141065,10 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Risca Road,,,Long T. C,electrical,engineer
 1946,Risca Road,,Hall Josias,engineer,Tansy Hollow,
 1946,Risca Road,,Greystoke,Rogers,Thomas. C,
-1946,Risca Road,,Green John,boilermaker,Cefn Bryn,
+1946,Risca Road,,Cefn Bryn,Green,John,Boilermaker
 1946,Risca Road,,Mountain View,Nelmes,James,
 1946,Risca Road,,Kenmar,Joshua,David R,
-1946,Risca Road,,Robinson Jas,dairyman,Bryndovey,
+1946,Risca Road,,Bryndovey,Robinson,Jas,Dairyman
 1946,Risca Road,,Stonesfield,Christopher,Jas,
 1946,Risca Road,,Havana,Nash,Thomas Charles,
 1946,Risca Road,,High,,Friars,
@@ -141077,8 +141077,8 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Risca Road,,Harptree,Dagger,T. D,
 1946,Risca Road,,Frost A. D,surveyor,Springburn,
 1946,Risca Road,,Wayside,Ingham,Mrs. B. E,
-1946,Risca Road,,Evans Henry,clerk,Arley,
-1946,Risca Road,,Minett J. W,builder,Maitland villa,
+1946,Risca Road,,Arley,Evans,Henry,Clerk
+1946,Risca Road,,Maitland villa,Minett,J. W,Builder
 1946,Risca Road,,The Redlands,Cleverly,Miss A. P,
 1946,Risca Road,,St. Meva,Ball,Thomas,
 1946,Risca Road,,Inglenook,Francis,Hugh J,
@@ -141088,7 +141088,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Risca Road,,Wallasey,Prosser,Reg. G,
 1946,Risca Road,,Waddell John,H.M,Insp. of Factories,
 1946,Risca Road,,James J. W,transport,officer for ministry of food,
-1946,Risca Road,,Bailey R. E,engineer,Darnley,
+1946,Risca Road,,Darnley,Bailey,R. E,Engineer
 1946,Risca Road,,Hazeldene,Oliver,G. C,
 1946,Risca Road,,Solva,Edwards,Daniel J,
 1946,Risca Road,,Southery,Dixey,Frank,
@@ -141101,7 +141101,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Risca Road,,Power Anthony J,mangr,Woodstock,
 1946,Risca Road,,Jones Arthur E,traveller,Caederwen,
 1946,Risca Road,,Palmer Geo,G.W.R,St. Helens,
-1946,Risca Road,,Williams Cyril,manager,Narobi,
+1946,Risca Road,,Narobi,Williams,Cyril,Manager
 1946,Risca Road,,Southwood,Mortimer,Stanley H,
 1946,Risca Road,,Dwyer Ernest,civil,servnt,
 1946,Risca Road,,,Williams D. G. Bank,,clerk
@@ -141111,7 +141111,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Risca Road,,Freeman Miss,school,mistress,
 1946,Risca Road,,,Searle,Miss J,sch. mistress
 1946,Risca Road,,Glasllwch House,Matthews,A. B. (Major),
-1946,Risca Road,,Basham Stephen,draper,Linda Vista,
+1946,Risca Road,,Linda Vista,Basham,Stephen,Draper
 1946,Risca Road,,,Telephone,Kiosk,
 1946,Risca Road,,Beverley,Hayes,Mrs. E. A,
 1946,Risca Road,,Smedley Fredk,draughtsman,Risley,
@@ -141123,7 +141123,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Risca Road,,,Haines,R. M,clerk
 1946,Risca Road,,Ashley,Gregory,Mrs,
 1946,Risca Road,,Brynawel,Evans,W. A. J,
-1946,Risca Road,,Hargreaves Leslie A,steelworker,Kewstroke,
+1946,Risca Road,,Kewstroke,Hargreaves,Leslie A,Steelworker
 1946,Risca Road,,Dolman Arthur,solicitor,Pinetrees,
 1946,Risca Road,,James Edw. Stanley,com,traveller,
 1946,Risca Road,,Trevorrick,Benn,H,
@@ -141729,42 +141729,42 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Rothesay Road,,,Tonks,William. C,moulder
 1946,Rothesay Road,2,,Richards,William,labourer
 1946,Royston Crescent,,,Off,Thompson's-avenue,
-1946,Royston Crescent,,Pennell Percy,fitter,Cenarth,
+1946,Royston Crescent,,Cenarth,Pennell,Percy,Fitter
 1946,Royston Crescent,,Noble Jno,bricklayer,Cardi,
 1946,Royston Crescent,,Melvern,Hughes,,
-1946,Royston Crescent,,Horn G,electrician,Norton,
+1946,Royston Crescent,,Norton,Horn,G,Electrician
 1946,Royston Crescent,,Davies E. J,,Caerhafren,
 1946,Royston Crescent,,Perrett W. H. J,steelwkr,Wyverne,
 1946,Royston Crescent,,Arnan,Jones,,
 1946,Royston Crescent,,Smith Geo,ironwkr,Malva,
 1946,Royston Crescent,,,Webb,F. E,machinist. Pinecroft
-1946,Royston Crescent,,Ogden T. H,fitter,Rookwood,
-1946,Royston Crescent,,Noonan T,boilermaker,Excelsior,
+1946,Royston Crescent,,Rookwood,Ogden,T. H,Fitter
+1946,Royston Crescent,,Excelsior,Noonan,T,Boilermaker
 1946,Royston Crescent,,Beard B,brassfdr,Branskome,
 1946,Royston Crescent,,,Leatherland Neville,lorry,driver
-1946,Royston Crescent,,Perry Herbert,ironworker,Peacehaven,
+1946,Royston Crescent,,Peacehaven,Perry,Herbert,Ironworker
 1946,Royston Crescent,,Perry Austin,G.W.R,Pensam,
 1946,Royston Crescent,,Lynch Michael J,ironwkr,Raymond,
-1946,Royston Crescent,,Fennel Albert M,shunter,Cartref,
+1946,Royston Crescent,,Cartref,Fennel,Albert M,Shunter
 1946,Royston Crescent,,,Beard,Dennis,grocer. Ravens wood
 1946,Royston Crescent,,,Woodsford Alfred A,bus,driver
 1946,Royston Crescent,,Evans Walter R,moulder,Avondale,
 1946,Royston Crescent,,,Swift Joseph,lorry,driver
-1946,Royston Crescent,,Gabb Albert A,ironworker,Ray Moir,
+1946,Royston Crescent,,Ray Moir,Gabb,Albert A,Ironworker
 1946,Royston Crescent,,Lindcrest,Perry,Mrs. Alice M,
 1946,Royston Crescent,,,Ralph Wm. H,lorry,driver
 1946,Royston Crescent,,Ellis Wm. A,furnaceman,Rosedale,
 1946,Royston Crescent,,Silverdene,Thornhill,Mrs,
 1946,Royston Crescent,,Woodman W,,Mayfield,
-1946,Royston Crescent,,Haviland Gilbert,fitter,Winton,
+1946,Royston Crescent,,Winton,Haviland,Gilbert,Fitter
 1946,Royston Crescent,,Watts Albert E,salesman,The Firs,
-1946,Royston Crescent,,Couch Wm. H,ironworker,Tivoli,
+1946,Royston Crescent,,Tivoli,Couch,Wm. H,Ironworker
 1946,Royston Crescent,,Ffynon Taf,Collins,Mrs. K,
-1946,Royston Crescent,,Lowe Edw,ironworker,Rose Marie,
+1946,Royston Crescent,,Rose Marie,Lowe,Edw,Ironworker
 1946,Royston Crescent,,Kirk Benj,warehouseman,Deinkerry,
 1946,Royston Crescent,,,Corbin Wm. H,bus,driver
 1946,Royston Crescent,,,Churchill Geo. H,ins,Agent
-1946,Royston Crescent,,Anstee B. G,gardener,Quarryside,
+1946,Royston Crescent,,Quarryside,Anstee,B. G,Gardener
 1946,Rudry Street,1,,Cornwall,W. J,shop
 1946,Rudry Street,2,,Cullen,Patrick,labourer
 1946,Rudry Street,3,,Green,William,chauffeur
@@ -143306,12 +143306,12 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Stelvio Park Drive,17,Whiteoaks,Finney,George. T,chemical wks manager
 1946,Stelvio Park Drive,15,Davaar,Craig,Robert,Office manager
 1946,Stelvio Park Drive,13,Kings Lynn,Meacock,W,accountant
-1946,Stelvio Park Drive,,Brown F. W,manager,timber imptrs,
+1946,Stelvio Park Drive,,timber imptrs,Brown,F. W,Manager
 1946,Stelvio Park Drive,,Gifford Stanley S,shop,asst,
 1946,Stelvio Park Drive,,,Kirk George Herbert Bank,,clerk
 1946,Stelvio Park Drive,,,Pritchard,J. W,
 1946,Stelvio Park Drive,,Denton,Armstrong,J. E,
-1946,Stelvio Park Drive,,Greenland H. I,clerk,Wyngates,
+1946,Stelvio Park Drive,,Wyngates,Greenland,H. I,Clerk
 1946,Stelvio Park Drive,,Jones J. Llewellyn,coal,mercht,
 1946,Stockton Road,2,,Wood,Theodore E,fitter
 1946,Stockton Road,4,,Rendall,John,inspector
@@ -143869,7 +143869,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Summerhill Avenue,,Cankett Roy,bus,conductor,
 1946,Summerhill Avenue,,Attwood Anthony,trvllr,Kingsley,
 1946,Summerhill Avenue,,,Winfield Joseph,grocer's,assistant
-1946,Summerhill Avenue,,Bellew Cyril,carpenter,Bel-ver-dene,
+1946,Summerhill Avenue,,Bel-ver-dene,Bellew,Cyril,Carpenter
 1946,Surrey Place,1,,Wolfson,M,salesman
 1946,Surrey Place,3,,Boundy,Leslie,
 1946,Surrey Place,5,,Gulliver,Mrs. Mary E,
@@ -144155,7 +144155,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Tennyson Road,,Ashford,Jenkins,M. E,
 1946,Tennyson Road,,,Pelling,Reg. Charles,journalist
 1946,Tennyson Road,,Ashweir,Dyer,,
-1946,Tennyson Road,,Prosser F. V,engineer,Beechtops,
+1946,Tennyson Road,,Beechtops,Prosser,F. V,Engineer
 1946,Tennyson Road,,Robins Wm,G.W.R,Omega,
 1946,Tennyson Road,,,Building,Sites,
 1946,Tennyson Road,88,,McBride,Jas,confectioner
@@ -144230,29 +144230,29 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Thompson Avenue,,,Cocking J,motor,engineer
 1946,Thompson Avenue,,Brynrosa,Ford,H. G,
 1946,Thompson Avenue,,Astra,Davies,J,
-1946,Thompson Avenue,,Glynn Wm,steelworker,Glyn Haven,
+1946,Thompson Avenue,,Glyn Haven,Glynn,Wm,Steelworker
 1946,Thompson Avenue,,Thomas A,iron,moulder,
 1946,Thompson Avenue,,Beard Geo,G.W.R,Colwyn,
 1946,Thompson Avenue,,Hallard Percy,labourer,Beryl Dean,
 1946,Thompson Avenue,,Summerhill Geo. Thos,ironworker,Glyndawin,
-1946,Thompson Avenue,,Carter Wm,steelworker,Medway,
+1946,Thompson Avenue,,Medway,Carter,Wm,Steelworker
 1946,Thompson Avenue,,Edwards Wm,doubler,Denene,
 1946,Thompson Avenue,,Barton Fredk,machinist,Trewern,
-1946,Thompson Avenue,,Watkins H,steelworker,Willowdene,
+1946,Thompson Avenue,,Willowdene,Watkins,H,Steelworker
 1946,Thompson Avenue,,Coldrick Wm. C,ironmoulder,Colwell,
 1946,Thompson Avenue,,Elaine,Pearce,L,
-1946,Thompson Avenue,,Cooper W,ironworker,Tarnock,
+1946,Thompson Avenue,,Tarnock,Cooper,W,Ironworker
 1946,Thompson Avenue,,Malgra,Hadley,Joseph,
-1946,Thompson Avenue,,Punt Samuel,ironworker,Le Chalet,
-1946,Thompson Avenue,,Swift J,ironworker,Ferndale,
-1946,Thompson Avenue,,Caple E. J,baker,The Gables,
+1946,Thompson Avenue,,Le Chalet,Punt,Samuel,Ironworker
+1946,Thompson Avenue,,Ferndale,Swift,J,Ironworker
+1946,Thompson Avenue,,The Gables,Caple,E. J,Baker
 1946,Thompson Avenue,,Wyelands,W,,
-1946,Thompson Avenue,,Cooper Bert,ironworker,Beaconsfield,
+1946,Thompson Avenue,,Beaconsfield,Cooper,Bert,Ironworker
 1946,Thompson Avenue,,Webb R. A,shop,asst,
 1946,Thompson Avenue,,Knee C. J,machinist,Cheriton,
 1946,Thompson Avenue,,Gaytona,Smith,A. Thomas,
 1946,Thompson Avenue,,Luxton L,machinist,Kalestone,
-1946,Thompson Avenue,,Turford E. F,ironworker,Cynford,
+1946,Thompson Avenue,,Cynford,Turford,E. F,Ironworker
 1946,Thompson Avenue,,Han cox S,ironwkr,Morlene,
 1946,Thompson Avenue,,Champion H,roller,St. Denis,
 1946,Thompson Avenue,,,Adlam A. L,roller,driver
@@ -144261,40 +144261,40 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Thompson Avenue,,Balvaford,Priestnall,C. F,
 1946,Thompson Avenue,,Glyn Dwr,Edwards,Thomas,
 1946,Thompson Avenue,,Gateswell,Cartwright,H,
-1946,Thompson Avenue,,Bourne C. A,ironworker,Milford,
+1946,Thompson Avenue,,Milford,Bourne,C. A,Ironworker
 1946,Thompson Avenue,,Davis A,bus,dvr,
 1946,Thompson Avenue,,Baker H. V,window,cleaner,
 1946,Thompson Avenue,,Regina,Southern,R,
 1946,Thompson Avenue,,Saham Toney,Mickleborough,A. C,
-1946,Thompson Avenue,,Davies J,steelworker,Lorna Doone,
-1946,Thompson Avenue,,Cox Albert,steelworker,Glenwood,
+1946,Thompson Avenue,,Lorna Doone,Davies,J,Steelworker
+1946,Thompson Avenue,,Glenwood,Cox,Albert,Steelworker
 1946,Thompson Avenue,,Thomas D. J,traveller,Daytona,
-1946,Thompson Avenue,,Kenny A. R,fitter,Cordale,
+1946,Thompson Avenue,,Cordale,Kenny,A. R,Fitter
 1946,Thompson Avenue,,Appleby F,vanman,Ich Dien,
-1946,Thompson Avenue,,Jones F. G,labourer,Hazle Dene,
+1946,Thompson Avenue,,Hazle Dene,Jones,F. G,Labourer
 1946,Thompson Avenue,,Donovan T,tile,maker,
 1946,Thompson Avenue,,Langfield E. C,G.W.R,Lyndhurst,
 1946,Thompson Avenue,,Iles F. W,shop,asst,
 1946,Thompson Avenue,,St. Anne,Baker,Mrs. Annie,
 1946,Thompson Avenue,,,Davies,William. Clive,
 1946,Thompson Avenue,,The Mendips,Clark,G. T,
-1946,Thompson Avenue,,Thomas W,electrician,St. Malo,
+1946,Thompson Avenue,,St. Malo,Thomas,W,Electrician
 1946,Thompson Avenue,,Mann E. C,G.W.R,St. Tydvil,
 1946,Thompson Avenue,,Wilcox Wm,traffic,foreman,
 1946,Thompson Avenue,,Smith Wm,,Llanberis,
 1946,Thompson Avenue,,Brown Sidney T,printer,Sidonie,
-1946,Thompson Avenue,,Parker Jno,ironworker,Blendene,
-1946,Thompson Avenue,,Stevens E,steelworker,Ascalon,
+1946,Thompson Avenue,,Blendene,Parker,Jno,Ironworker
+1946,Thompson Avenue,,Ascalon,Stevens,E,Steelworker
 1946,Thompson Avenue,,Fowler Fred,moulder,Lancastria,
 1946,Thompson Avenue,,Telsley,S,R,ironworker
-1946,Thompson Avenue,,Jones Wm. Hy,labourer,Pendarvis,
+1946,Thompson Avenue,,Pendarvis,Jones,Wm. Hy,Labourer
 1946,Thompson Avenue,,Morton,Beard,William,
-1946,Thompson Avenue,,King B. L. J,steelworker,Epals,
+1946,Thompson Avenue,,Epals,King,B. L. J,Steelworker
 1946,Thompson Avenue,,,Kirby H. J,crane,driver
-1946,Thompson Avenue,,Proctor Reg,steelworker,Briardale,
+1946,Thompson Avenue,,Briardale,Proctor,Reg,Steelworker
 1946,Thompson Avenue,,Hales S,works,foreman,
-1946,Thompson Avenue,,Baker A. R,butcher,The Hayes,
-1946,Thompson Avenue,,Coldrick W. J,clerk,Walmin,
+1946,Thompson Avenue,,The Hayes,Baker,A. R,Butcher
+1946,Thompson Avenue,,Walmin,Coldrick,W. J,Clerk
 1946,Thompson Avenue,,Burns J ames,furnaceman,Milton,
 1946,Thompson Avenue,,Williams R,furnaceman,Mount Olive,
 1946,Thompson Avenue,,Gunstone Fredk,machinist,Portreath,
@@ -144302,13 +144302,13 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Thompson Avenue,,Kyle Wm. A,Waiter,Sylvannia,
 1946,Thompson Avenue,,Heaton,Jenner,Mrs. Edith,
 1946,Thompson Avenue,,Glenroy,Watkins,William,
-1946,Thompson Avenue,,Harries Wnf,labourer,St. Helena,
+1946,Thompson Avenue,,St. Helena,Harries,Wnf,Labourer
 1946,Tre-Ap-Gwilym,,Tre-Ap-Gwilym,See Cardiff,,
 1946,Treberth Estate,,Christchurch,Chepstow,road,
 1946,Treberth Estate,,Gibson Lance,haulage,contractor,
 1946,Treberth Estate,,The Glen,Kelly,R. V,domestic engineer
 1946,Treberth Estate,,,Hopton L. A,insurance,agent
-1946,Treberth Estate,,Davies Edward,engineer,Hillside,
+1946,Treberth Estate,,Hillside,Davies,Edward,Engineer
 1946,Treberth Estate,,,Williams Harry,steel,inspector
 1946,Treberth Estate,,Trelleck,Stubbins,,
 1946,Treberth Estate,,Driscoll Wallace,watchmaker,Clonmel,
@@ -144317,13 +144317,13 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Treberth Estate,,Hopkins Wyndham Geo,rubber,wkr,
 1946,Treberth Estate,,Preece R. I. R,Builder And Contractor,,
 1946,Treberth Estate,,Woodcock D. T,A.A,Scout,inspector
-1946,Treberth Estate,,Webb Frank,mason cottage,Grove,
+1946,Treberth Estate,,Grove,Webb,Frank,Mason Cottage
 1946,Treberth Estate,,Upper Treberth Cottage,Smith,Joseph,
 1946,Treberth Estate,,Williams E,farmer,Treberth farm,
-1946,Treberth Estate,,Rees Edwd. Rhys,engineer,Broadway,
+1946,Treberth Estate,,Broadway,Rees,Edwd. Rhys,Engineer
 1946,Treberth Estate,,Rowsell C. H,chartered,accnt,
 1946,Treberth Estate,,Pierremont,Sykes,,
-1946,Treberth Estate,,Young Y. A,manager,St. Andrews,
+1946,Treberth Estate,,St. Andrews,Young,Y. A,Manager
 1946,Treberth Estate,,Marlborough,Trowbridge,,
 1946,Treberth Estate,,St. Andrews,Burford,,
 1946,Treberth Estate,,,Rowlands,W. G,Treberth Stores
@@ -144368,12 +144368,12 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Trinity Place,11,,Kelly,Mrs,
 1946,Troston Road,,Westholme,Merrett,Mrs,
 1946,Troston Road,,The Coppins,Prior,Mrs. B,
-1946,Troston Road,,Crick Wm. A,labourer,Pasha,
+1946,Troston Road,,Pasha,Crick,Wm. A,Labourer
 1946,Troston Road,,Beverley,Thomas,,
 1946,Troston Road,,,Hazlewood,Jno. Thomas,furnaceman
 1946,Troston Road,,,Knight,D,pickler
 1946,Troston Road,,Worker,Dando Ivor Jno,tube,
-1946,Troston Road,,Lloyd Albert,fitter,Harmala,
+1946,Troston Road,,Harmala,Lloyd,Albert,Fitter
 1946,Troston Road,23,,Evans,Mrs. Beatrice A,
 1946,Troston Road,,Greystones,Edmunds,T. H,
 1946,Troston Road,,,Woodman,H. J,brick lyr
@@ -144384,12 +144384,12 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Troston Road,,Eregen,Hayward,W,
 1946,Troston Road,33,,Robinson,,
 1946,Troston Road,,Graham William T,furnaceman,The Thistle,
-1946,Troston Road,,Griffiths Reg,labourer,The Knoll,
+1946,Troston Road,,The Knoll,Griffiths,Reg,Labourer
 1946,Troston Road,,The Gables,McCray,J,
 1946,Troston Road,,St. Clements,Farmer,William,
 1946,Troston Road,,Brynem,Homfray,V,
 1946,Troston Road,,Carmingle,Jones,E. G,
-1946,Troston Road,,Edwards J,ironworker,Meadow View,
+1946,Troston Road,,Meadow View,Edwards,J,Ironworker
 1946,Troston Road,1,,Wynn,W. T. G,
 1946,Troston Road,2,,Griffin,F,
 1946,Troston Road,3,,Ball,Charles,
@@ -145362,7 +145362,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Western Avenue,,,A.R.P,Sub-post D. area 6,
 1946,Western Avenue,39,,Fisher,Lionel,traveller
 1946,Western Avenue,41,,Reakes,A. S,manager
-1946,Western Avenue,,Crowther A. E,tailor,Greengates,
+1946,Western Avenue,,Greengates,Crowther,A. E,Tailor
 1946,Western Avenue,,Pugsley C. F,secretary,Loxhore,
 1946,Western Avenue,47,,Scott,George,engineer
 1946,Western Avenue,,Jones Jno. Wm,schoolteacher,Inglenook,
@@ -145374,15 +145374,15 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Western Avenue,,Michael D. P. M,schoolmaster,A.R.P. Warden,
 1946,Western Avenue,,Box Arthur W,schoolmstr,Avalon,
 1946,Western Avenue,,Avalon,Thomas,,
-1946,Western Avenue,,Whittaker P. R,clerk,Windermere,
+1946,Western Avenue,,Windermere,Whittaker,P. R,Clerk
 1946,Western Avenue,64,,Holgate,Pollard H,civil servant
 1946,Western Avenue,62,Brawstone,Brian,,
 1946,Western Avenue,60,Pennard,Jones,M,
 1946,Western Avenue,,,Harris Rowland,G.P.O.,clerk
 1946,Western Avenue,,Chequers,Wade,Mrs. R. G. N,
-1946,Western Avenue,,Barron L. I,engineer,Porth Kerry,
+1946,Western Avenue,,Porth Kerry,Barron,L. I,Engineer
 1946,Western Avenue,,Jones Geo. L,traveller,Fairways,
-1946,Western Avenue,,Evans Evan,clerk,G.W.R,
+1946,Western Avenue,,G.W.R,Evans,Evan,Clerk
 1946,Western Avenue,,Westwood S. J,secretary,Greyfriars,
 1946,Western Avenue,46,Riversdale,Brunskill,Rev. F. R,
 1946,Western Avenue,,Merevale,Smith,H. J,
@@ -145395,18 +145395,18 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Western Avenue,,Mullion,Airey,A. L,
 1946,Western Avenue,14,,Peat,I. C,civil servant
 1946,Western Avenue,26,Kincorth,Dunn,James Kenneth,
-1946,Western Avenue,,Sandy H,clerk,Saxondale,
+1946,Western Avenue,,Saxondale,Sandy,H,Clerk
 1946,Western Avenue,,Inishmore,Welch,Mrs. E,
 1946,Western Avenue,,,Nicholas W. B,lorry,driver
 1946,Western Avenue,,Margam Glen,Evans,W,
-1946,Western Avenue,,Simmonds C,grocer,Dunmarklyn,
+1946,Western Avenue,,Dunmarklyn,Simmonds,C,Grocer
 1946,Western Avenue,,Silverdale,Peploy,Mrs. H,
-1946,Western Avenue,,Walker Thos. P,engineer,Hawkwood,
+1946,Western Avenue,,Hawkwood,Walker,Thos. P,Engineer
 1946,Western Avenue,,Greenwood F,schoolmaster,A.R.P. Warden,
 1946,Western Avenue,,Dullatur,Phillips,Mrs. F. M,
 1946,Western Avenue,,Morris David,solicitor,Shaldon,
 1946,Western Avenue,,The Sheiling,Jones,Wilson,
-1946,Western Avenue,,Bennett Albert,builder,The Firs,
+1946,Western Avenue,,The Firs,Bennett,Albert,Builder
 1946,Westfield Avenue,1,,Browm,A. E,printer
 1946,Westfield Avenue,3,,Boyles,William. S,seaman
 1946,Westfield Avenue,5,,Evans,Oliver,postman
@@ -146202,7 +146202,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Worcester Crescent,10,,Long,Laurence G,Engineer
 1946,Worcester Crescent,,,Building,sites,
 1946,Wordsworth Road,,Walker Fredk,tool,setter,
-1946,Wordsworth Road,,Bastin Robert,fitter,Moira,
+1946,Wordsworth Road,,Moira,Bastin,Robert,Fitter
 1946,Wordsworth Road,,Edwards D. G,motor,salesm,
 1946,Wordsworth Road,,,Richardson Arthur G,factory,manager
 1946,Wyeverne Road,,Chepstow-road,Between,Blenheim-road and Hawarden-road,
@@ -166454,7 +166454,7 @@ year,street,house_number,building_name,surname,forename,trade
 1950,Neston Road,7,Tarkwa,Watts,Thomas,
 1950,Neston Road,9,Montrose,Rogers,Mrs C,
 1950,Neston Road,11,Nyeaidd,Meachen,Thomas,
-1950,Neston Road,13,Belvoir,Moore,Kenneth H.,
+1950,Neston Road,13,Belvoir,Moore,Kenneth H,
 1950,Neston Road,15,Meadow View,Hayward,Robert J,
 1950,Neston Road,17,Inglenook,Nash,Jack,
 1950,Neston Road,19,Graig Haven,Cowmeadow,Hector,

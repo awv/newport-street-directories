@@ -1211,6 +1211,20 @@ def clean_record(row):
                     else:
                         bldg_name, surname, forename, trade = forename, sn, fn, surname
 
+    # General Shifted Villa Pattern across ALL streets (227 records):
+    # bldg_name holds 'Surname Forename', surname holds a trade, forename holds house name
+    if bldg_name and surname and forename and not house_num and not trade:
+        s_low = surname.lower().strip()
+        if s_low in TRADE_KEYWORDS or any(tr in s_low for tr in ['fitter', 'electrician', 'boilermaker', 'labourer', 'postman', 'coppersmith', 'shearer', 'mechanic', 'carpenter', 'painter', 'plumber', 'grocer', 'draper', 'mason', 'butcher', 'baker', 'tailor', 'joiner', 'shunter', 'signalman', 'dairyman', 'builder', 'haulier']):
+            m_shift = re.match(r'^([A-Z][a-zA-Z\x27\-]+)\s+([A-Za-z\.\s]+)$', bldg_name)
+            if m_shift and not any(k in bldg_name.lower() for k in ['house', 'villa', 'cottage', 'chambers', 'works', 'inn', 'arms', 'hotel', 'building', 'school', 'lodge', 'place', 'hall', 'terrace', 'view', 'court', 'gardens', 'crescent', 'square', 'parade', 'street', 'road', 'lane', 'hill', 'avenue', 'farm', 'dene', 'haven', 'knoll', 'gables', 'bungalow', 'mount', 'wood', 'crest', 'bank', 'grange', 'manor', 'croft', 'retreat']):
+                sn = m_shift.group(1)
+                fn_real = m_shift.group(2)
+                bldg_name = forename
+                surname = sn
+                forename = fn_real
+                trade = title_case_name(s_low)
+
     rec = {
         "year": year,
         "street": street,
