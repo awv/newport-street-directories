@@ -427,8 +427,23 @@ def clean_record(row):
             house_num = extracted_hno
         surname = title_case_name(extracted_surname)
         forename = extracted_forename
-        bldg_name = title_case_name(combined_villa)
-        trade = ""
+    # 5d. Clean numeric / misplaced building unit numbers in trade (e.g. trade='1', trade='2', trade='1 The Hollies', trade='fitter, 2 Blewitt cot')
+    if trade.isdigit():
+        if trade == house_num:
+            trade = ""
+        elif not house_num:
+            house_num = trade
+            trade = ""
+        else:
+            bldg_name = title_case_name(f"{trade} {bldg_name}".strip()) if bldg_name else bldg_name
+            trade = ""
+    else:
+        m_num_villa_trade = re.search(r'^(?:(.*?),\s*)?(\d+\s+[A-Za-z\s\x27\-]*?\b(?:villa|villas|cottage|cottages|cot|place|house|terrace|view|chambers|buildings?|inn|hotel|lodge|hall)\b[A-Za-z\s]*)$', trade, re.I)
+        if m_num_villa_trade:
+            extra_t = (m_num_villa_trade.group(1) or "").strip()
+            extracted_bldg = m_num_villa_trade.group(2).strip()
+            bldg_name = title_case_name(f"{extracted_bldg} {bldg_name}".strip()) if bldg_name else title_case_name(extracted_bldg)
+            trade = extra_t
 
     if "St. Marks Vicarage" in trade or "St. Mark's Vicarage" in trade:
         bldg_name = "St. Mark's Vicarage"

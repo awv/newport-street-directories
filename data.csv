@@ -2085,7 +2085,7 @@ year,street,house_number,building_name,surname,forename,trade
 1876,Hill Street,34,,Hurd,Edwin C,carpenter
 1876,Hill Street,35,,Morris,Henry,pattern maker
 1876,Hill Street,37,,Jones,William,tin plate worker
-1876,Isca Terrace,,,Craddock,W. J,1 Isca terrace
+1876,Isca Terrace,1,,Isca Terrace Craddock,W. J,
 1876,Isca Terrace,,,Edwards,T. H. 2 Isca terrace,
 1876,Ivor Street,1,,Vaughan,Samuel,bedding manufacturer
 1876,Ivor Street,2,,Vaughan,James,commercial traveller
@@ -3204,7 +3204,7 @@ year,street,house_number,building_name,surname,forename,trade
 1876,Stow Park,,Cambridge House,Mason,John,
 1876,Stow Park,,Maindee,Summer,hill,
 1876,Stow Park,,,Fleming cottage,Frederick Isca,
-1876,Stow Park,,,Craddock,W. J,1 Isca terrace
+1876,Stow Park,1,,Isca Terrace Craddock,W. J,
 1876,Stow Park,,,Isca,terrace,
 1876,Stow Park,,,Edwards,T. H. 2 Isca terrace,
 1876,Stow Park,,,Isca,terrace,
@@ -19637,8 +19637,8 @@ year,street,house_number,building_name,surname,forename,trade
 1905,Chepstow Road,99A,,Wright & Lee,,printers
 1905,Chepstow Road,,,Maindee,Schools,
 1905,Chepstow Road,,,entrance,to Merriotts place,
-1905,Chepstow Road,103,Fair Oak Villa,Murdoch,Thomas,1
-1905,Chepstow Road,105,Fair Oak Villa,Burford,Jesse,2
+1905,Chepstow Road,103-1,,Fair Oak Villa Murdoch,Thomas,
+1905,Chepstow Road,105-2,,Fair Oak Villa Burford,Jesse,
 1905,Chepstow Road,109,Maindee Hotel,Price &,Mrs. Rachel,
 1905,Chepstow Road,111,,Leighton,J. P. fish shop,
 1905,Chepstow Road,113,,Carver,Jas. A. picture frame maker,
@@ -20235,8 +20235,8 @@ year,street,house_number,building_name,surname,forename,trade
 1905,Clifton Road,12,,Herberts,coal yard,
 1905,Clifton Road,13,Pant Yr Eos Cottage,Reid,Arthur,
 1905,Clifton Terrace,52,Clifton Terrace,See to,,
-1905,Clyffard Crescent,,,Hazell,Walter,1 Blewitt cot
-1905,Clyffard Crescent,,,Collier,Fkd,"fitter, 2 Blewitt cot"
+1905,Clyffard Crescent,1,,Blewitt Cot Hazell,Walter,
+1905,Clyffard Crescent,2,,Blewitt Cot Collier,Fkd,fitter
 1905,Clyffard Crescent,1,,Watts,Alfred G,
 1905,Clyffard Crescent,2,,Compton,William,gardener
 1905,Clyffard Crescent,3,,Doran,John,tailor
@@ -23087,7 +23087,7 @@ year,street,house_number,building_name,surname,forename,trade
 1905,Fair Oak Avenue,19,,do,,
 1905,Fair Oak Avenue,20,,do,,
 1905,Fair Oak Avenue,21,,Jones,W. Fair Oak,nursery
-1905,Fair Oak Avenue,22,,Clarke,The Misses,1 Torquay villas
+1905,Fair Oak Avenue,22-1,,Torquay Villas Clarke,The Misses,
 1905,Fair Oak Avenue,23,,Davey,A. G. 2 Torquay villas,
 1905,Fair Oak Avenue,24,Seaton Ho,Whitmore,S,
 1905,Fair Oak Avenue,25,Lynton Villa,Brown,L. J,
@@ -25780,7 +25780,7 @@ year,street,house_number,building_name,surname,forename,trade
 1905,Lliswerry,,,Pratt,Arthur S,ironworker
 1905,Lliswerry,,,Johns,William,labourer
 1905,Lliswerry,,,Jones,Henry,carriage buildr
-1905,Lliswerry,,,Jones,Miss Ann,1 Vine place
+1905,Lliswerry,1,,Vine Place Jones,Miss Ann,
 1905,Lliswerry,,,Price,Henry,quarryman
 1905,Lliswerry,,Orchard Dairy,Brown,William,
 1905,Lliswerry,,,Lewis commission agt,John,
@@ -31026,7 +31026,7 @@ year,street,house_number,building_name,surname,forename,trade
 1905,Whitstone Road,,Rose Cottage,Smedley,Thomas,
 1905,Whitstone Road,,Hatherl H,Noad,W. E. gardenr,
 1905,Whitstone Road,,L Church View,Webb,F,mason
-1905,Whitstone Road,,,Rowe,G. gardnr,2 Church view
+1905,Whitstone Road,2,,Church View Rowe,G. gardnr,
 1905,Whitstone Road,,Pleasant Vw,Cox,C. stonemasn,
 1905,Whitstone Road,,The Firs,Collett,H,butcher
 1905,Whitstone Road,,The Firs,Ball,T,Engine Driver
@@ -31493,7 +31493,7 @@ year,street,house_number,building_name,surname,forename,trade
 1914,Adeline Street,55,,Buck,George,boatman
 1914,Adeline Street,53,,Bartlett,David,labourer
 1914,Adeline Street,51,,Boddy,John H,weighman
-1914,Adeline Street,,Foley,Mrs,Cath,49
+1914,Adeline Street,49,Foley,Mrs,Cath,
 1914,Adeline Street,47,,Rondel,Charles,hoistman
 1914,Adeline Street,45,,Carty,GW,rigger
 1914,Adeline Street,43,,Lightfoot,Charles Henry,helper
@@ -32120,7 +32120,7 @@ year,street,house_number,building_name,surname,forename,trade
 1914,Alma Street,42,,Tregembo,WJ,oil dealer
 1914,Alma Street,40,,Hickey,Mrs Maria,
 1914,Alma Street,38,,Hockridge,Bert F,carpenter
-1914,Alma Street,36,,Rich,John Alfred,36
+1914,Alma Street,36,,Rich,John Alfred,
 1914,Alma Street,34,,Collins,Albert,dock labourer
 1914,Alma Street,30,,Morgan,John H,ale & wine merchant
 1914,Alma Street,28,,Thatcher & Son Ltd,,Bristol Brewery
@@ -33105,7 +33105,7 @@ year,street,house_number,building_name,surname,forename,trade
 1914,Blewitt Street,65,,Morgan,Frank,carpenter
 1914,Blewitt Street,66,,Corbett,Saml J,labourer
 1914,Blewitt Street,67,,Parsons,WJ,labourer
-1914,Blewitt Street,68,,Bowen,Robt,68
+1914,Blewitt Street,68,,Bowen,Robt,
 1914,Blewitt Street,69,,Rowe,William,compositor
 1914,Blewitt Street,70,,Moulton,Thomas,
 1914,Blewitt Street,71,,Lee,John,moulder
@@ -93884,7 +93884,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Baldwin Street,95,,Beckett,Mrs. Rose,
 1938,Baldwin Street,97,,Shorney,Mrs. Sarah,
 1938,Baldwin Street,99,,Evans,Stanley,dk. labr
-1938,Baldwin Street,,,New Houses Built,,6
+1938,Baldwin Street,6,,New Houses Built,,
 1938,Baldwin Street,90,,Litson,Miss Lilian,
 1938,Baldwin Street,88,,Grace,James,trimmer
 1938,Baldwin Street,86,,Fitzgerald,Mrs. Mary C,
@@ -94121,7 +94121,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Barrack Hill,,Bradford House,Grist,John,
 1938,Barrack Hill,9,,Vaughan,Arthur E,fitter
 1938,Barrack Hill,11,,Whitefield,Miss E. M,
-1938,Barrack Hill,13,,Llewellyn,W,1 Glen view
+1938,Barrack Hill,13-1,,Glen View Llewellyn,W,
 1938,Barrack Hill,15,,Thain,Alfred,stoker
 1938,Barrack Hill,17,The Limes,Collier,Mrs. Selina C,
 1938,Barrack Hill,,,Capel,Ed. V,traveller
@@ -97760,7 +97760,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Chepstow Road,,,Maindee,Schools,
 1938,Chepstow Road,,,entrance,to Merriott's place,
 1938,Chepstow Road,1,,Fairoak,villa,
-1938,Chepstow Road,105,Fair Oak Villa,Burford,Mrs. Ada,2
+1938,Chepstow Road,105-2,,Fair Oak Villa Burford,Mrs. Ada,
 1938,Chepstow Road,107-109,George E. Jones,Maindee Hotel,,
 1938,Chepstow Road,113,,Davies,Griff,tailor and outfitter
 1938,Chepstow Road,,,Walliker,H. E,postman
@@ -103330,8 +103330,8 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Fair Oak Avenue,18,,Baker,H. V,
 1938,Fair Oak Avenue,19,,Walker,Joseph,labourer
 1938,Fair Oak Avenue,21,,Jones,Albert E,Fair Oak nursery
-1938,Fair Oak Avenue,22,,Roberts,Walter,"charge hand, 1 Torquay villas"
-1938,Fair Oak Avenue,23,,Shepherd,Arthur J,2 Torquay villas
+1938,Fair Oak Avenue,22-1,,Torquay Villas Roberts,Walter,charge hand
+1938,Fair Oak Avenue,23-2,,Torquay Villas Shepherd,Arthur J,
 1938,Fair Oak Avenue,24,St. Matthew's Vicarage,Thomas,Rev. Richard,
 1938,Fair Oak Avenue,25,,Campbell,Angus,fuel wkr
 1938,Fair Oak Avenue,26,Clyde V,Jenkins,D. C,
@@ -109451,8 +109451,8 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Malpas Road,15,,Ramsey,William,miller
 1938,Malpas Road,16,,Fenton,W. J,Shop Assistant
 1938,Malpas Road,,Cefn Coed,Raikes,Francis W,
-1938,Malpas Road,,Gothic Cottage,Foster,Henry George,1
-1938,Malpas Road,,Gothic Cottage,Evans,Mrs. Harriet A,2
+1938,Malpas Road,1,Gothic Cottage,Foster,Henry George,
+1938,Malpas Road,2,Gothic Cottage,Evans,Mrs. Harriet A,
 1938,Malpas Road,,Wilkinson L. W,gen,shop,
 1938,Malpas Road,,Roker,Middlemiss,Robert,
 1938,Malpas Road,,Eastnor,,,
@@ -109520,8 +109520,8 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Malpas Road,,Evans Windsor W,G.P.O,Lilwyn,
 1938,Malpas Road,,Peroma,Watkins,F,
 1938,Malpas Road,,E.W. Pugsley Secretary,Malpas,War Memorial Institute,
-1938,Malpas Road,,Malpas Villa,Palfrey,E,1
-1938,Malpas Road,,Malpas Villa,Fitzgerald,Jno,2
+1938,Malpas Road,1,Malpas Villa,Palfrey,E,
+1938,Malpas Road,2,Malpas Villa,Fitzgerald,Jno,
 1938,Malpas Road,,Pugh Wm,farmer,Malpas Farm,
 1938,Malpas Road,,Murphy C. W,builder,Alfriston,
 1938,Malpas Road,,Chappell Trevor,milkman,Colbrook,
@@ -113615,8 +113615,8 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Risca Road,,Glasllwch Farm,Harris,Mrs. L,
 1938,Risca Road,,,GLASLLWCH,CRESCENT,
 1938,Risca Road,,,N.C.E.D,sub-station,
-1938,Risca Road,,Glasllwch Cottage,Payne,William,1
-1938,Risca Road,,Glasllwch Cottage,Thomas,Leslie,2
+1938,Risca Road,1,Glasllwch Cottage,Payne,William,
+1938,Risca Road,2,Glasllwch Cottage,Thomas,Leslie,
 1938,Risca Road,,Warhilda,Yates,Mrs. Eliz'bth,
 1938,Risca Road,,Winscombe,Burrough,Fredk,
 1938,Risca Road,,Whaley Thos. D,solicitor,Haws,
@@ -120731,7 +120731,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Barrack Hill,,,Grist,John,
 1946,Barrack Hill,9,,Vaughan,Mrs. Martha,
 1946,Barrack Hill,11,,Whitefield,Miss E. M,
-1946,Barrack Hill,13,,Llewellyn,W,1 Glen view
+1946,Barrack Hill,13-1,,Glen View Llewellyn,W,
 1946,Barrack Hill,15,,Thomas,George. E,
 1946,Barrack Hill,17,,Capel,Ed. V,traveller
 1946,Barrack Hill,19,The Waldens,Collier,William C,
@@ -130531,8 +130531,8 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Fairoak Avenue,19,,Walker,Joseph,labourer
 1946,Fairoak Avenue,20,,Stritton,James,
 1946,Fairoak Avenue,21,,Jones,Albert E,Fair Oak nursery
-1946,Fairoak Avenue,22,,Roberts,Walter,"charge hand, 1 Torquay villas"
-1946,Fairoak Avenue,23,,Shepherd,Arthur J,2 Torquay villas
+1946,Fairoak Avenue,22-1,,Torquay Villas Roberts,Walter,charge hand
+1946,Fairoak Avenue,23-2,,Torquay Villas Shepherd,Arthur J,
 1946,Fairoak Avenue,24,St. Matthew's Vicarage,Thomas,Rev. Richard,
 1946,Fairoak Avenue,25,,Parry,Charles. William,corporation foreman
 1946,Fairoak Avenue,26,Clyde V,Jenkins,D. C,
@@ -136884,7 +136884,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Malpas Road,15,,Davies,D. G,school tchr
 1946,Malpas Road,16,,Fenton,W. J,Shop Assistant
 1946,Malpas Road,,Cefn Coed,Raikes,Francis W,
-1946,Malpas Road,,Gothic Cottage,Pugh,,2
+1946,Malpas Road,2,Gothic Cottage,Pugh,,
 1946,Malpas Road,,Gothic Cot,Evans,Miss Rose,
 1946,Malpas Road,,The Bungalow,Gould,E,
 1946,Malpas Road,,Roker,Middlemiss,Robert,
@@ -136947,8 +136947,8 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Malpas Road,,Claremont,Brewer,Mrs. J. C,
 1946,Malpas Road,,,Roberts,Mrs,
 1946,Malpas Road,,Malpas War Memorial Institute,R,G. Mogridge,Secretary
-1946,Malpas Road,,Malpas Villa,Palfrey,E,1
-1946,Malpas Road,,Malpas Villa,Fitzgerald,Jno,2
+1946,Malpas Road,1,Malpas Villa,Palfrey,E,
+1946,Malpas Road,2,Malpas Villa,Fitzgerald,Jno,
 1946,Malpas Road,,Pugh Wm,farmer,Malpas farm,
 1946,Malpas Road,,Murphy C. W,builder,Alfriston,
 1946,Malpas Road,,,Pearce,Jas. Hy,ship's officer
@@ -141289,8 +141289,8 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Risca Road,,,here,ts Glasllwch-lane,
 1946,Risca Road,,,GLASLLWCH,CRESCENT,
 1946,Risca Road,,,N.C.E.D,sub-station,
-1946,Risca Road,,Glasllwch Cottage,Payne,William,1
-1946,Risca Road,,Glasllwch Cottage,Stewart,Miss,2
+1946,Risca Road,1,Glasllwch Cottage,Payne,William,
+1946,Risca Road,2,Glasllwch Cottage,Stewart,Miss,
 1946,Risca Road,,Warilda,Yates,Mrs. Elizabeth,
 1946,Risca Road,,Winscombe,Burrough,Fredk,
 1946,Risca Road,,Haws,Hodges,Tudor,
