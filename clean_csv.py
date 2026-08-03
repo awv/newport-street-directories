@@ -373,13 +373,40 @@ def clean_record(row):
         surname = "Crindau Gas Works"
         forename = ""
 
-    # 4. Extract trade trapped in forename (e.g. 'H. A. wine', 'Mrs. milliner', 'J. F. professor of drawing', 'J. cabinet maker')
+    # 4. Extract trade trapped in forename or surname (e.g. 'Thos. chimney sweep', 'S. W. butcher', 'Stanley & beer retailer')
+    TRAPPED_TRADE_PAT = (
+        r'chimney\s+sweeps?|chimney\s+sweeper|wholesale\s+tobacconist|tobacconist|'
+        r'cab\s+proprietor|beer\s+retailer|general\s+dealer|greengrocer|'
+        r'pork\s+butcher|butcher|plumber|draper|grocer|mason|'
+        r'carpenter|blacksmith|shoemaker|bootmaker|ironmonger|'
+        r'haulier|painter|tinman|tinsmith|marine\s+stores|'
+        r'stationer|newsagent|fruiterer|fishmonger|baker|'
+        r'confectioner|tailor|outfitter|hairdresser|upholsterer|'
+        r'dairyman|cowkeeper|builder|wheelwright|saddler|'
+        r'watchmaker|jeweller|pawnbroker|house\s+agent|coal\s+merchant|'
+        r'wine\s+merchant|spirit\s+merchant|chemist|druggist|'
+        r'milliner|wine|cabinet\s+maker|professor\s+of\s+\w+|registry\s+office|'
+        r'auctioneer|dressmaker|gardener|solicitor|surgeon|dentist|'
+        r'architect|engineer|broker|accountant|merchant|agent|'
+        r'licensed\s+victualler|publican'
+    )
     if forename:
-        match_t_f = re.match(r"^(.*?)\s+(milliner|wine|cabinet maker|professor of \w+|shopkeeper|registry office|auctioneer|dressmaker|gardener|grocer|chemist|draper|tailor|bootmaker|solicitor|surgeon|dentist|architect|engineer|builder|broker|accountant|merchant|agent|beer retailer|licensed victualler|publican)$", forename, re.I)
+        match_t_f = re.match(r"^(.*?)\s+\b(" + TRAPPED_TRADE_PAT + r")\b$", forename, re.I)
         if match_t_f:
-            forename = match_t_f.group(1).strip()
+            c_fn = match_t_f.group(1).strip()
             extra_t = match_t_f.group(2).strip()
-            trade = f"{extra_t}, {trade}".strip(", ") if trade else extra_t
+            if c_fn and (c_fn[0].isupper() or c_fn.endswith('.')):
+                forename = c_fn
+                trade = f"{extra_t}, {trade}".strip(", ") if trade else extra_t
+
+    if surname:
+        match_t_s = re.match(r"^(.*?)\s*&\s*\b(" + TRAPPED_TRADE_PAT + r")\b$", surname, re.I)
+        if match_t_s:
+            c_sn = match_t_s.group(1).strip()
+            extra_t = match_t_s.group(2).strip()
+            if c_sn and c_sn[0].isupper():
+                surname = c_sn
+                trade = f"{extra_t}, {trade}".strip(", ") if trade else extra_t
 
     # 5. Fix institution names split across surname & forename (e.g. 'Conservative' + 'Association', 'Baptist' + 'chapel')
     if forename and INSTITUTION_WORD.search(forename.strip()):
