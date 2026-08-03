@@ -413,14 +413,21 @@ def clean_record(row):
         surname = title_case_name(f"{surname} {forename}".strip())
         forename = ""
 
-    # 5b. Extract Villa & Building names from trade (e.g. '1 St. Marks view', '1 St. Ia vil', 'St. Marks Vicarage', 'Bryn tegid')
-    m_num_villa = re.match(r'^\s*(\d+)\s+(St\.\s*[A-Z][a-zA-Z\s\x27\-]+?\s*(?:view|vil|villa))\s*$', trade, re.I)
-    if m_num_villa:
-        num = m_num_villa.group(1)
-        vname = m_num_villa.group(2)
-        vname = re.sub(r'\bvil\b', 'Villa', vname, flags=re.I)
-        vname = re.sub(r'\bview\b', 'View', vname, flags=re.I)
-        bldg_name = f"{num} {vname}"
+    # 5c. Extract shifted villa lines where house number, resident surname & forename are trapped in trade (e.g. trade='31, Foden, Thos', surname='Shaldon House')
+    m_shifted_villa = re.match(r'^\s*(\d+[a-zA-Z]?)\s*,\s*([A-Za-z\x27\s\-]+?)\s*,\s*([A-Za-z\.\s]+)\s*$', trade, re.I)
+    if m_shifted_villa:
+        extracted_hno = m_shifted_villa.group(1).strip()
+        extracted_surname = m_shifted_villa.group(2).strip()
+        extracted_forename = m_shifted_villa.group(3).strip()
+
+        villa_parts = [p for p in [bldg_name, surname, forename] if p and not p.isdigit()]
+        combined_villa = " ".join(villa_parts).strip()
+
+        if extracted_hno and not house_num:
+            house_num = extracted_hno
+        surname = title_case_name(extracted_surname)
+        forename = extracted_forename
+        bldg_name = title_case_name(combined_villa)
         trade = ""
 
     if "St. Marks Vicarage" in trade or "St. Mark's Vicarage" in trade:

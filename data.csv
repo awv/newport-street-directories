@@ -6880,8 +6880,8 @@ year,street,house_number,building_name,surname,forename,trade
 1897,Barrack Hill,7,Bradford House,Jewell,Mrs M,
 1897,Barrack Hill,9,Alltwen Villa,Symons,Thomas,
 1897,Barrack Hill,11,Lyndhurst,Whitefield,John,
-1897,Barrack Hill,1,,Glen,View,"13, Mackie, Miss"
-1897,Barrack Hill,2,,Glen,View,"15, Farmer, AW"
+1897,Barrack Hill,1,Glen View,Mackie,Miss,
+1897,Barrack Hill,2,Glen View,Farmer,AW,
 1897,Barrack Hill,17,,Collier,Frank J,builder
 1897,Barrack Hill,19,St Vedas,Snell,Richd,
 1897,Barrack Hill,,,Garraway,Henry,plasterer
@@ -6961,7 +6961,7 @@ year,street,house_number,building_name,surname,forename,trade
 1897,Batchelor Road,1,Eveswell Park,Pollett,Robt,
 1897,Batchelor Road,3,Eveswell Park,Lundbrum,Henrick E,
 1897,Batchelor Road,5,Eveswell Park,Morris,Rowland E,
-1897,Batchelor Road,,Eveswell Park,Warwick House,,"8, Edwards, Evan"
+1897,Batchelor Road,8,Eveswell Park Warwick House,Edwards,Evan,
 1897,Batchelor Road,6,Eveswell Park,Jones,Lewis R,
 1897,Batchelor Road,4,Eveswell Park,Scott,Ralph,engineer
 1897,Batchelor Road,2,Eveswell Park,Wilson,George,
@@ -7651,33 +7651,33 @@ year,street,house_number,building_name,surname,forename,trade
 1897,Caerleon Road,231,,Mapp,CV,tailor
 1897,Caerleon Road,233,Osborne Place,Uzzell,AH,greengrocer
 1897,Caerleon Road,235,Osborne Place,Bowen,Edward,porter
-1897,Caerleon Road,,Osborne Place,Northam House,,"237, Pugsley, John"
+1897,Caerleon Road,237,Osborne Place Northam House,Pugsley,John,
 1897,Caerleon Road,239,Osborne Place,Simpson,William,insurance superintendent
-1897,Caerleon Road,,Osborne Place,Leicester House,,"241, Morley, H"
-1897,Caerleon Road,,Osborne Place,Hayle,Cottage,"243, Phillpotts, G"
-1897,Caerleon Road,,Osborne Place,Beresford House,,"245, Jenkins, Philip"
-1897,Caerleon Road,,Osborne Place,Melbourne House,,"247, Russell, Rev J"
-1897,Caerleon Road,,Osborne Place,Lynton House,,"249, Stone, AE"
+1897,Caerleon Road,241,Osborne Place Leicester House,Morley,H,
+1897,Caerleon Road,243,Osborne Place Hayle Cottage,Phillpotts,G,
+1897,Caerleon Road,245,Osborne Place Beresford House,Jenkins,Philip,
+1897,Caerleon Road,247,Osborne Place Melbourne House,Russell,Rev J,
+1897,Caerleon Road,249,Osborne Place Lynton House,Stone,AE,
 1897,Caerleon Road,251,Osborne Place,Shrewing,Joseph senior,
 1897,Caerleon Road,253,Osborne Place,Cumming,David,engineer
 1897,Caerleon Road,,Cope,C,general shop,
 1897,Caerleon Road,,Osborne Place,Rawlings,Arthur,
-1897,Caerleon Road,,Osborne Place,Lavender House,,"257, Pedler, Arthur"
-1897,Caerleon Road,,Osborne Place,Jesmond House,,"259, Lander, Henry"
-1897,Caerleon Road,,Osborne Place,Woodvill House,,"261, Purnell, John"
-1897,Caerleon Road,,Osborne Place,Woodbine House,,"263, Bolt, Albert"
-1897,Caerleon Road,,Osborne Place,Somerset House,,"265, Trickey, Albert"
+1897,Caerleon Road,257,Osborne Place Lavender House,Pedler,Arthur,
+1897,Caerleon Road,259,Osborne Place Jesmond House,Lander,Henry,
+1897,Caerleon Road,261,Osborne Place Woodvill House,Purnell,John,
+1897,Caerleon Road,263,Osborne Place Woodbine House,Bolt,Albert,
+1897,Caerleon Road,265,Osborne Place Somerset House,Trickey,Albert,
 1897,Caerleon Road,267,Osborne Place,Jones,Edwin,painter
-1897,Caerleon Road,,Osborne Place,Fern,Lea,"269, Brenton, WA"
+1897,Caerleon Road,269,Osborne Place Fern Lea,Brenton,WA,
 1897,Caerleon Road,,Osborne Place,Jenkins,William,
-1897,Caerleon Road,,Osborne Place,Fern,Glen,"273, Merryweather, Robt"
+1897,Caerleon Road,273,Osborne Place Fern Glen,Merryweather,Robt,
 1897,Caerleon Road,275,Osborne Place,Preddy,WJ,telegraphist
 1897,Caerleon Road,277,Osborne Place,Paget,Mrs Harriet,
 1897,Caerleon Road,279,Osborne Place,Jobbins,George,
 1897,Caerleon Road,281,Osborne Place,Williams,William,teacher
 1897,Caerleon Road,283,Osborne Place,Davis,Charles,clerk
 1897,Caerleon Road,285,Osborne Place,Evans,Thomas,pattern maker
-1897,Caerleon Road,,Osborne Place,Pickwick House,,"287, West, C"
+1897,Caerleon Road,287,Osborne Place Pickwick House,West,C,
 1897,Caerleon Road,289,Osborne Place,Turner,Jas,
 1897,Caerleon Road,295,Osborne Place,Le,Riche Charles,
 1897,Caerleon Road,299,Osborne Place,Vickery,Jas T,joiner
@@ -7698,7 +7698,7 @@ year,street,house_number,building_name,surname,forename,trade
 1897,Caerleon Road,337,Carlisle Place,Williams,Thomas,labourer
 1897,Caerleon Road,339,Carlisle Place,Williams,George,carpenter
 1897,Caerleon Road,341,Carlisle Place,Grant,Thomas,
-1897,Caerleon Road,,Carlisle Place,Rose,Cottage,"343, Kettle, Hannah"
+1897,Caerleon Road,343,Carlisle Place Rose Cottage,Kettle,Hannah,
 1897,Caerleon Road,345,Carlisle Place,Phillips,Jacob,
 1897,Caerleon Road,347,Carlisle Place,Marsh,John,labourer
 1897,Caerleon Road,349,Carlisle Place,Bearne,Lewis J,labourer
@@ -7797,7 +7797,7 @@ year,street,house_number,building_name,surname,forename,trade
 1897,Caerleon Road,10,,Pinkstone,George,saddler
 1897,Caerleon Road,8,,Orbison,John,laundry
 1897,Caerleon Road,6,,Bowen,F,hairdresser
-1897,Caerleon Road,1,,Eastgate,Villa,"2, Edes, T"
+1897,Caerleon Road,1,Eastgate Villa,Edes,T,
 1897,Cambrian Road,,Lloyd,Yorath & Ltd,,Cambrian Brewery
 1897,Cambrian Road,,,,Greenland,& McDaniel
 1897,Cambrian Road,,Taylor,&,Gait,drapers
@@ -7985,7 +7985,7 @@ year,street,house_number,building_name,surname,forename,trade
 1897,Capel Crescent,74,,Thomas,Robt,moulder
 1897,Capel Crescent,75,,Davies,Ogley,fitter
 1897,Capel Crescent,,Cock,Jas,carpenter's shop,
-1897,Capel Crescent,1,,The,Hollies,"76, James, Wm"
+1897,Capel Crescent,1,The Hollies,James,William,
 1897,Capel Crescent,77,,James,Robt,carpenter
 1897,Capel Crescent,,Chick,JW & Son,,carpenter's shop
 1897,Capel Crescent,,Thomas,David,pattern shop,
@@ -8284,7 +8284,7 @@ year,street,house_number,building_name,surname,forename,trade
 1897,Chelston Place,6,,Phillips,Benjamin,
 1897,Chelston Place,7,,Lancum,Robt,
 1897,Chelston Place,8,,Davies,Edwin,signalman
-1897,Chepstow Road,2,,Eastgate,Villas,"1, Perry, E"
+1897,Chepstow Road,2,Eastgate Villas,Perry,E,
 1897,Chepstow Road,3,Lyncombe Villa,Greenland,Mrs E,
 1897,Chepstow Road,5,Melverton Villa,Williams,JT,
 1897,Chepstow Road,,Amaral,BC Consul,Portuguese Vice,
@@ -8316,21 +8316,21 @@ year,street,house_number,building_name,surname,forename,trade
 1897,Chepstow Road,59,The Beeches,Bebb,Miss,Collegiate School
 1897,Chepstow Road,61,Queensland Terrace,Tovey Bros,,undertakers
 1897,Chepstow Road,,,Burleigh,William,
-1897,Chepstow Road,,Queensland Terrace,St,Wilfrid's,"63, Parfitt, WH"
-1897,Chepstow Road,,Queensland Terrace,Devon House,,"65, Thomas, Evan"
-1897,Chepstow Road,,Queensland Terrace,Westward,Ho,"67, McKaig, J"
-1897,Chepstow Road,,Queensland Terrace,Craven House,,"71, Lloyd, Thos"
+1897,Chepstow Road,63,Queensland Terrace St Wilfrid's,Parfitt,WH,
+1897,Chepstow Road,65,Queensland Terrace Devon House,Thomas,Evan,
+1897,Chepstow Road,67,Queensland Terrace Westward Ho,McKaig,J,
+1897,Chepstow Road,71,Queensland Terrace Craven House,Lloyd,Thomas,
 1897,Chepstow Road,73,Queensland Terrace,Wright,George,foreman
 1897,Chepstow Road,75,Queensland Terrace,Gould,John,
-1897,Chepstow Road,,Queensland Terrace,St,Ives,"77, Williams, Jere"
+1897,Chepstow Road,77,Queensland Terrace St Ives,Williams,Jere,
 1897,Chepstow Road,89,Kingsland Terrace,Morgan,Mrs Jemima,
 1897,Chepstow Road,93,Kingsland Terrace,Sutherland,Alexander,
 1897,Chepstow Road,95,Kingsland Terrace,Brettell & H,Misses A,dressmakers
 1897,Chepstow Road,97,Kingsland Terrace,Green,Thomas Edward,
 1897,Chepstow Road,99,Kingsland Terrace,Gomm,Mrs Anna,
 1897,Chepstow Road,,,Gomm,Miss,dressmaker
-1897,Chepstow Road,1,Oak Villa,Fair,,"103, Small, Mrs E"
-1897,Chepstow Road,2,Oak Villa,Fair,,"105, Burford, Jesse"
+1897,Chepstow Road,1,Oak Villa Fair,Small,Mrs E,
+1897,Chepstow Road,2,Oak Villa Fair,Burford,Jesse,
 1897,Chepstow Road,107,Maindee Hotel,Price,Mrs,
 1897,Chepstow Road,111,,Page,Thomas W,ironmonger
 1897,Chepstow Road,113,,Davies,WH,bootmaker
@@ -8349,12 +8349,12 @@ year,street,house_number,building_name,surname,forename,trade
 1897,Chepstow Road,141,Mile End Terrace,Gladstone,M,grocer
 1897,Chepstow Road,143,Mile End Terrace,Morgan,GH,hairdresser
 1897,Chepstow Road,145,Mile End Terrace,Blunt,Frank,confectioner
-1897,Chepstow Road,,Mile End Terrace,Shepherd's,Pride,"147, Watkins, Henry"
+1897,Chepstow Road,147,Mile End Terrace Shepherd's Pride,Watkins,Henry,
 1897,Chepstow Road,149,Mile End Terrace,Jones,William,confectioner
 1897,Chepstow Road,151,Mile End Terrace,Bate & Co,,corn merchant
 1897,Chepstow Road,153,Mile End Terrace,Collman,S,"decorator, etc"
 1897,Chepstow Road,155,Mile End Terrace,Atkins,Albert,fishmonger
-1897,Chepstow Road,,Mile End Terrace,George Hotel,,"157, Williams, J"
+1897,Chepstow Road,157,Mile End Terrace George Hotel,Williams,J,
 1897,Chepstow Road,159,,Honey,Arthur,saddler
 1897,Chepstow Road,161,,Jenkins,Henry,hairdresser
 1897,Chepstow Road,163,,Summerfield,WF,tailor
@@ -8432,23 +8432,23 @@ year,street,house_number,building_name,surname,forename,trade
 1897,Chepstow Road,236,Eveswell Terrace,Jakeway,Walter,
 1897,Chepstow Road,234,Eveswell Terrace,Bentley,William Fredk,
 1897,Chepstow Road,232,Eveswell Terrace,Sanders,Thomas,
-1897,Chepstow Road,,Lawn Terrace,Grove House,,"230, Orphan, Mrs"
-1897,Chepstow Road,,Lawn Terrace,Melrose House,,"228, Goldsworthy, WJ"
+1897,Chepstow Road,230,Lawn Terrace Grove House,Orphan,Mrs,
+1897,Chepstow Road,228,Lawn Terrace Melrose House,Goldsworthy,WJ,
 1897,Chepstow Road,226,Lawn Terrace,Williams,Joseph,
-1897,Chepstow Road,,Lawn Terrace,Piermont House,,"224, Glover, Geo"
+1897,Chepstow Road,224,Lawn Terrace Piermont House,Glover,George,
 1897,Chepstow Road,222,Lawn Terrace,Jones,Mrs WH,
-1897,Chepstow Road,,Lawn Terrace,Westoe House,,"220, Hodge, Robt"
-1897,Chepstow Road,,Lawn Terrace,Hollins House,,"218, Hammett, FT"
+1897,Chepstow Road,220,Lawn Terrace Westoe House,Hodge,Robt,
+1897,Chepstow Road,218,Lawn Terrace Hollins House,Hammett,FT,
 1897,Chepstow Road,216,Lawn Terrace,Roe,William Henry,
-1897,Chepstow Road,,Lawn Terrace,Leighton House,,"214, Price, Mrs N"
-1897,Chepstow Road,,Lawn Terrace,Cambridge,Villa,"212, Phillips, WW"
-1897,Chepstow Road,,Lawn Terrace,Oxford,Villa,"210, Brooks, Jas"
-1897,Chepstow Road,,Lawn Terrace,Frankfort House,,"208, Fry, Robt"
-1897,Chepstow Road,,Lawn Terrace,Moorlane House,,"206, Morgan, Mrs E"
+1897,Chepstow Road,214,Lawn Terrace Leighton House,Price,Mrs N,
+1897,Chepstow Road,212,Lawn Terrace Cambridge Villa,Phillips,WW,
+1897,Chepstow Road,210,Lawn Terrace Oxford Villa,Brooks,Jas,
+1897,Chepstow Road,208,Lawn Terrace Frankfort House,Fry,Robt,
+1897,Chepstow Road,206,Lawn Terrace Moorlane House,Morgan,Mrs E,
 1897,Chepstow Road,,Lawn Terrace,Goldthorn House,,"204, Ballard, TA, JP"
-1897,Chepstow Road,,Lawn Terrace,Alstone House,,"202, Vaughan, Jas"
-1897,Chepstow Road,,Lawn Terrace,Eltham,Villa,"200, Banks, GE"
-1897,Chepstow Road,,Lawn Terrace,Dunedin House,,"198, Owen, DJ"
+1897,Chepstow Road,202,Lawn Terrace Alstone House,Vaughan,Jas,
+1897,Chepstow Road,200,Lawn Terrace Eltham Villa,Banks,GE,
+1897,Chepstow Road,198,Lawn Terrace Dunedin House,Owen,DJ,
 1897,Chepstow Road,196,Upton Place,Adams,William,
 1897,Chepstow Road,194,Upton Place,Warne,Luke,
 1897,Chepstow Road,192,Upton Place,Williams,John A,clerk
@@ -8459,7 +8459,7 @@ year,street,house_number,building_name,surname,forename,trade
 1897,Chepstow Road,182,Upton Place,Lewis,Philip,haulier
 1897,Chepstow Road,180,Upton Place,Howarth,Charles,greengrocer
 1897,Chepstow Road,178,Upton Place,Jones,George,butcher
-1897,Chepstow Road,,Upton Place,King,William 111,"176, Williams, M"
+1897,Chepstow Road,176,Upton Place King William 111,Williams,M,
 1897,Chepstow Road,174,Fair Oak House,Taylor,Mrs G,
 1897,Chepstow Road,172,,Walden,Henry,dealer
 1897,Chepstow Road,170,,Millington,Mrs Ann,
@@ -8651,7 +8651,7 @@ year,street,house_number,building_name,surname,forename,trade
 1897,Church Road,41,Austin Place,Gronow,Sylvanus,engine driver
 1897,Church Road,42,Austin Place,Evans,Thomas,Post Office clerk
 1897,Church Road,43,Austin Place,Hadden,George,clerk
-1897,Church Road,,Austin Place,Alcombe House,,"44, Hill, Thos"
+1897,Church Road,44,Austin Place Alcombe House,Hill,Thomas,
 1897,Church Road,45,Austin Place,Lang,J,insurance agent
 1897,Church Road,46,Austin Place,Bryant,A,confectioner
 1897,Church Road,47,Austin Place,Coates,Henry,"decorator, etc"
@@ -8664,20 +8664,20 @@ year,street,house_number,building_name,surname,forename,trade
 1897,Church Road,53,Austin Place,Conta,William,carpenter
 1897,Church Road,54,Austin Place,Fussell,HJG,printer
 1897,Church Road,55,Austin Place,Giddings,George,decorator
-1897,Church Road,,Austin Place,Seamoor House,,"56, Griffiths, Levi"
+1897,Church Road,56,Austin Place Seamoor House,Griffiths,Levi,
 1897,Church Road,57,Austin Place,Hews,W,bootmaker
 1897,Church Road,59,Calne Place,Lanfear,MA,"grocer, etc"
 1897,Church Road,60,Clane Place,Cheek,Mrs Jane,
 1897,Church Road,61,Calne Place,Harris,Miss Mary,
 1897,Church Road,62,Calne Place,Hunt,William,engine driver
 1897,Church Road,63,Calne Place,Marsh,H,insurance agent
-1897,Church Road,,Calne Place,Rose,Cottage,"64, Pendleton, John"
-1897,Church Road,,Calne Place,Oak,Cottage,"65, Porter, J"
+1897,Church Road,64,Calne Place Rose Cottage,Pendleton,John,
+1897,Church Road,65,Calne Place Oak Cottage,Porter,J,
 1897,Church Road,66,Calne Place,Hayward,Thomas,
-1897,Church Road,,Calne Place,Ash,Cottage,"67, Pearce, Evan"
-1897,Church Road,,Calne Place,Fern,Cottage,"68, Jones, David E"
-1897,Church Road,,Calne Place,Moss,Cottage,"69, Coyle, Neil"
-1897,Church Road,,Calne Place,Ivy,Cottage,"70, Sccombe, BH"
+1897,Church Road,67,Calne Place Ash Cottage,Pearce,Evan,
+1897,Church Road,68,Calne Place Fern Cottage,Jones,David E,
+1897,Church Road,69,Calne Place Moss Cottage,Coyle,Neil,
+1897,Church Road,70,Calne Place Ivy Cottage,Sccombe,BH,
 1897,Church Road,71,Calne Place,Banfield,Henry,carpenter
 1897,Church Road,72,Caln Place,Boyett,Mrs J,shopkeeper
 1897,Church Road,73,Calne Place,Farley,FE,grocer & baker
@@ -9539,9 +9539,9 @@ year,street,house_number,building_name,surname,forename,trade
 1897,Crescent Road,14,Pembroke Terrace,Toogood,Jas R,painter
 1897,Crescent Road,15,Pembroke Terrace,Allen,Henry Jas,teacher
 1897,Crescent Road,16,Pembroke Terrace,Medlicott,John,
-1897,Crescent Road,,Garth Terrace,Rose,Villa,"17, Harris, Jos"
+1897,Crescent Road,17,Garth Terrace Rose Villa,Harris,Jos,
 1897,Crescent Road,18,Garth Terrace,Bradley,Thomas,gardener
-1897,Crescent Road,,Garth Terrace,Auckland,Villa,"19, Price, H"
+1897,Crescent Road,19,Garth Terrace Auckland Villa,Price,H,
 1897,Crescent Road,20,Garth Terrace,Robinson,William,manager
 1897,Crescent Road,21,Garth Terrace,Burns,JD,building inspector
 1897,Crescent Road,,Garth Terrace,Clarke,EG,
@@ -10401,8 +10401,8 @@ year,street,house_number,building_name,surname,forename,trade
 1897,Duckpool Road,,Hartland,JS,accountant,
 1897,Duckpool Road,,West,Geo,waiter,
 1897,Duckpool Road,128,Auckland Terrace,Brunt,Henry Jas,grocer
-1897,Duckpool Road,,Auckland Terrace,Oddfellows Inn,,"129, Binning, Walter"
-1897,Duckpool Road,,Auckland Terrace,The,Star,"130, Eddolls, Chas"
+1897,Duckpool Road,129,Auckland Terrace Oddfellows Inn,Binning,Walter,
+1897,Duckpool Road,130,Auckland Terrace The Star,Eddolls,Charles,
 1897,Duckpool Road,132,Orchard Buildings,Morgan,Henry,signalman
 1897,Duckpool Road,133,Orchard Buildings,Lacey,Charles,cabman
 1897,Duckpool Road,134,Orchard Buildings,Giddings,Charles,mason
@@ -10415,7 +10415,7 @@ year,street,house_number,building_name,surname,forename,trade
 1897,Duckpool Road,141,Orchard Terrace,Sheedy,William,haulier
 1897,Duckpool Road,142,Orchard Terrace,R Hurley & Sons,,"aerated water manufacturers, bottlers of Bass"
 1897,Duckpool Road,143,Orchard Terrace,Hurley,Robt,
-1897,Duckpool Road,,Orchard Terrace,Myrtle,Cottage,"144, Turner, FW"
+1897,Duckpool Road,144,Orchard Terrace Myrtle Cottage,Turner,FW,
 1897,Duckpool Road,145,Orchard Terrace,Tucker,Harry,insurance agent
 1897,Duckpool Road,146,Orchard Terrace,Thomas,George,plasterer
 1897,Duke Street,,,,Hockey,hay stores
@@ -10812,11 +10812,11 @@ year,street,house_number,building_name,surname,forename,trade
 1897,Fair Oak Avenue,19,Broseley Terrace,Fry,Henry,bank cashier
 1897,Fair Oak Avenue,20,Broseley Terrace,Willans,Benjamin,
 1897,Fair Oak Avenue,21,Broseley Terrace,Jones,W,Fair Oak Nursery
-1897,Fair Oak Avenue,,Broseley Terrace,1,Torquay Villas,"22, Clarke, The Misses"
-1897,Fair Oak Avenue,,Broseley Terrace,2,Torquay Villas,"23, Davies, Rev Thos A"
-1897,Fair Oak Avenue,,Broseley Terrace,Seaton House,,"24, Happerfield, D"
-1897,Fair Oak Avenue,,Broseley Terrace,Lynton,Villa,"25, Hopgood, Richd J"
-1897,Fair Oak Avenue,,Broseley Terrace,Clyde,Villa,"26, Sainsbury, WJ"
+1897,Fair Oak Avenue,22,Broseley Terrace Torquay Villas,Clarke,The Misses,
+1897,Fair Oak Avenue,23,Broseley Terrace Torquay Villas,Davies,Rev Thomas A,
+1897,Fair Oak Avenue,24,Broseley Terrace Seaton House,Happerfield,D,
+1897,Fair Oak Avenue,25,Broseley Terrace Lynton Villa,Hopgood,Richd J,
+1897,Fair Oak Avenue,26,Broseley Terrace Clyde Villa,Sainsbury,WJ,
 1897,Fair Oak Avenue,,Broseley Terrace,Vaughan,DA,JP
 1897,Fair Oak Avenue,28,Broseley Terrace,Keefe,Dennis,tailor
 1897,Fair Oak Avenue,29,Broseley Terrace,Tanner,William,policeman
@@ -10846,8 +10846,8 @@ year,street,house_number,building_name,surname,forename,trade
 1897,Fair Oak Avenue,53,Cambria Cottages,Monks,Stephen,builder
 1897,Fair Oak Avenue,55,Cambria Cottages,Martin,William,clerk
 1897,Fair Oak Avenue,56,Cambria Cottages,Moulton,CE,builder
-1897,Fair Oak Avenue,,Cambria Cottages,Clifton House,,"57, Lawson, John"
-1897,Fair Oak Avenue,,Cambria Cottages,French,Villa,"58, Jordan, Mrs"
+1897,Fair Oak Avenue,57,Cambria Cottages Clifton House,Lawson,John,
+1897,Fair Oak Avenue,58,Cambria Cottages French Villa,Jordan,Mrs,
 1897,Fair Oak Avenue,61,Lawson Terrace,Morgan,John,
 1897,Fair Oak Avenue,62,Lawson Terrace,Benson,Jas,
 1897,Fair Oak Avenue,63,Lawson Terrace,Rossitter,William,foreman
@@ -11218,14 +11218,14 @@ year,street,house_number,building_name,surname,forename,trade
 1897,Godfrey Road,19,Brynhyfryd,Dawson,J,
 1897,Godfrey Road,20,Glendower,Siedle,Adolph,
 1897,Godfrey Road,22,Hillside,Paxton,Fredk,
-1897,Godfrey Road,1,,St,Mark's View,"23, Read, John"
+1897,Godfrey Road,1,St Mark's View,Read,John,
 1897,Godfrey Road,25,Bryn Tirion,Evans,Henry Challinder,
 1897,Godfrey Road,26,Uplands,Cooke,Edwin,
 1897,Godfrey Road,27,Hafod,Woodcock,AJ,
 1897,Godfrey Road,28,Corwen Villa,Campbell,WC,
 1897,Godfrey Road,29,The Lea,Swalwell,Jas,
-1897,Godfrey Road,1,Ia Villa,St,,"30, Caldicot, Mrs R"
-1897,Godfrey Road,2,Ia Villa,St,,"31, Steel, T Dyne"
+1897,Godfrey Road,1,Ia Villa St,Caldicot,Mrs R,
+1897,Godfrey Road,2,Ia Villa St,Steel,T Dyne,
 1897,Godfrey Road,32,Enville House,Evans,Mrs HW,
 1897,Godfrey Road,33,The Chase,Skyrme,HAT,
 1897,Godfrey Road,34,Fern Glen,Heybyrne,FJ,
@@ -11600,11 +11600,11 @@ year,street,house_number,building_name,surname,forename,trade
 1897,Herbert Street,25,Gothic Villas,Scannell,William Jas,
 1897,Herbert Street,26,Gothic Villas,Strangeby,Nicoli,clerk
 1897,Herbert Street,27,Gothic Villas,Salmon,Harry H,
-1897,Herbert Street,,Gothic Villas,Thistle,Cottage,"28, Williams, Mrs M"
-1897,Herbert Street,,Gothic Villas,Maple,Cottage,"29, Mason, W"
-1897,Herbert Street,,Gothic Villas,Sydenham House,,"30, Rees, Henry"
-1897,Herbert Street,,Gothic Villas,Claremont House,,"31, Hayes, Richd"
-1897,Herbert Street,,Gothic Villas,Thorn,Villa,"32, Phillips, David"
+1897,Herbert Street,28,Gothic Villas Thistle Cottage,Williams,Mrs M,
+1897,Herbert Street,29,Gothic Villas Maple Cottage,Mason,W,
+1897,Herbert Street,30,Gothic Villas Sydenham House,Rees,Henry,
+1897,Herbert Street,31,Gothic Villas Claremont House,Hayes,Richd,
+1897,Herbert Street,32,Gothic Villas Thorn Villa,Phillips,David,
 1897,Hereford Street,1,,Hillier,Henry,plumber
 1897,Hereford Street,2,,Thomas,Thomas,haulier
 1897,Hereford Street,3,,Bird,William,bus driver
@@ -12867,18 +12867,18 @@ year,street,house_number,building_name,surname,forename,trade
 1897,Maindee Parade,31,Sidbury Terrace,Matthews,Fredk,
 1897,Maindee Parade,32,Sidbury Terrace,Andrews,Alfred,haulier
 1897,Maindee Parade,33,Sidbury Terrace,Sims,Jas,carpenter
-1897,Maindee Parade,,Sidbury Terrace,Vanstone,Cottage,"34, Cox, Henry"
+1897,Maindee Parade,34,Sidbury Terrace Vanstone Cottage,Cox,Henry,
 1897,Maindee Parade,35,Sidbury Terrace,Biggs,George John,mason
 1897,Maindee Parade,36,Sidbury Terrace,Greenway,A,bricklayer
 1897,Maindee Parade,37,Sidbury Terrace,Dunstan,Henry George,
 1897,Maindee Parade,38,Sidbury Terrace,Harper,JJ,dairyman
-1897,Maindee Parade,,Sidbury Terrace,Belmont,Cottage,"39, Williams, Edgar W"
-1897,Maindee Parade,,Sidbury Terrace,Alma,Cottage,"40, Williams, Geo"
-1897,Maindee Parade,,Sidbury Terrace,Oscar House,,"41, Rickard, TH"
-1897,Maindee Parade,,Sidbury Terrace,Oscar House,,"42, Rickard, J"
+1897,Maindee Parade,39,Sidbury Terrace Belmont Cottage,Williams,Edgar W,
+1897,Maindee Parade,40,Sidbury Terrace Alma Cottage,Williams,George,
+1897,Maindee Parade,41,Sidbury Terrace Oscar House,Rickard,TH,
+1897,Maindee Parade,42,Sidbury Terrace Oscar House,Rickard,J,
 1897,Maindee Parade,,Sidbury Terrace,Roy,Villa,"42, Wynn, R, carrier"
-1897,Maindee Parade,,Sidbury Terrace,Norton,Cottage,"43, Hallett, John"
-1897,Maindee Parade,,Sidbury Terrace,Marlow,Cottage,"44, Williams, Miss"
+1897,Maindee Parade,43,Sidbury Terrace Norton Cottage,Hallett,John,
+1897,Maindee Parade,44,Sidbury Terrace Marlow Cottage,Williams,Miss,
 1897,Maindee Parade,45,Sidbury Terrace,Hodder,George,labourer
 1897,Malpas Road,1,,Reed,Charles H,builder
 1897,Malpas Road,3,,Eveleigh,Mrs ES,
@@ -13324,18 +13324,18 @@ year,street,house_number,building_name,surname,forename,trade
 1897,Morden Road,29,Highweek Terrace,Purkiss,Mrs Emma,
 1897,Morden Road,,,Roberts,William,
 1897,Morden Road,30,Highweek Terrace,Blowden,Edward John,
-1897,Morden Road,,Highweek Terrace,Shaldon House,,"31, Foden, Thos"
+1897,Morden Road,31,Highweek Terrace Shaldon House,Foden,Thomas,
 1897,Morden Road,32,Highweek Terrace,Page,C Ernest,surveyor
-1897,Morden Road,,Highweek Terrace,Melverton House,,"33, Baylis, John"
-1897,Morden Road,,Highweek Terrace,The,Retreat,"34, Hull, Roland"
+1897,Morden Road,33,Highweek Terrace Melverton House,Baylis,John,
+1897,Morden Road,34,Highweek Terrace The Retreat,Hull,Roland,
 1897,Morden Road,,Highweek Terrace,Brown,LJ,
 1897,Morden Road,,Belle Vue Terrace,Mills,George,
-1897,Morden Road,,Belle Vue Terrace,Hackfall House,,"37, Phillips, Wm"
+1897,Morden Road,37,Belle Vue Terrace Hackfall House,Phillips,William,
 1897,Morden Road,38,Belle Vue Terrace,Rees,Frank,accountant
 1897,Morden Road,39,Belle Vue Terrace,Clements,FC,master mariner
 1897,Morden Road,41,Belle Vue Terrace,Barnes,AE,
-1897,Morden Road,,Belle Vue Terrace,Swanleigh House,,"44, Hagarty, W"
-1897,Morden Road,,Belle Vue Terrace,Norwood House,,"45, Hayman, WH"
+1897,Morden Road,44,Belle Vue Terrace Swanleigh House,Hagarty,W,
+1897,Morden Road,45,Belle Vue Terrace Norwood House,Hayman,WH,
 1897,Morden Road,46,Belle Vue Terrace,Lewis,John Floyd,
 1897,Morden Road,48,Belle Vue Terrace,Jones,Rev AT,(Baptist)
 1897,Morden Road,49,Arcadia Terrace,Turner,Alfred,engineer
@@ -13360,11 +13360,11 @@ year,street,house_number,building_name,surname,forename,trade
 1897,Morden Road,71,Arcadia Terrace,Popham,John,master mariner
 1897,Morden Road,72,Arcadia Terrace,Jenkins,William,accountant
 1897,Morden Road,73,Arcadia Terrace,Hull,Giles,goods inspector
-1897,Morden Road,,Arcadia Terrace,Stanmore House,,"74, Lewis, Rev T"
-1897,Morden Road,,Arcadia Terrace,Richmond House,,"75, Cliff, Joseph"
-1897,Morden Road,,Arcadia Terrace,Combo House,,"76, Green, Jas"
-1897,Morden Road,,Arcadia Terrace,Glenfield House,,"77, Locke, WM"
-1897,Morden Road,,Arcadia Terrace,Burghfield House,,"79, Holbrook, F"
+1897,Morden Road,74,Arcadia Terrace Stanmore House,Lewis,Rev T,
+1897,Morden Road,75,Arcadia Terrace Richmond House,Cliff,Joseph,
+1897,Morden Road,76,Arcadia Terrace Combo House,Green,Jas,
+1897,Morden Road,77,Arcadia Terrace Glenfield House,Locke,WM,
+1897,Morden Road,79,Arcadia Terrace Burghfield House,Holbrook,F,
 1897,Morgan Street,1,,Wilcox,Harry,clerk
 1897,Morgan Street,2,,Francis,David,
 1897,Morgan Street,3,,Curry,Walter,agent
@@ -13591,7 +13591,7 @@ year,street,house_number,building_name,surname,forename,trade
 1897,North Street,12,Britannia Buildings,Bartlett,Henry,cabman
 1897,North Street,13,Britannia Buildings,Ellaway,William,G.W.R.
 1897,North Street,14,Britannia Buildings,Keyse,William,sawyer
-1897,North Street,,Britannia Buildings,Britannia Inn,,"15, Gordon, AG"
+1897,North Street,15,Britannia Buildings Britannia Inn,Gordon,AG,
 1897,North Street,16,Jubilee Terrace,Height,Fredk W,musician
 1897,North Street,17,Jubilee Terrace,Pullenger,Jane,widow
 1897,North Street,18,Jubilee Terrace,Desmarons,Charles,seaman
@@ -14224,12 +14224,12 @@ year,street,house_number,building_name,surname,forename,trade
 1897,Queens Hill,,Queen's Hill Terrace,Edmunds,Alfred,
 1897,Queens Hill,13,Queen's Hill Terrace,Davies,Richd,foreman
 1897,Queens Hill,,Queen's Hill Terrace,Baker,George R,
-1897,Queens Hill,,Queen's Hill Terrace,Rigel House,,"15, Seymour, Mrs R"
+1897,Queens Hill,15,Queen's Hill Terrace Rigel House,Seymour,Mrs R,
 1897,Queens Hill,16,Queen's Hill Terrace,Wring,TW,
 1897,Queens Hill,,Queen's Hill Terrace,Darke,JD,
-1897,Queens Hill,,Queen's Hill Terrace,Lea,Holme,"18, Neville, CE"
+1897,Queens Hill,18,Queen's Hill Terrace Lea Holme,Neville,CE,
 1897,Queens Hill,,Queen's Hill Terrace,Westacott,Tom,
-1897,Queens Hill,,Queen's Hill Terrace,St,Helens,"20, Butler, Miss S"
+1897,Queens Hill,20,Queen's Hill Terrace St Helens,Butler,Miss S,
 1897,Queens Hill,21,Oakdene,Stevens,Mrs M,
 1897,Queens Hill,22,Aville House,Morkham,John,
 1897,Queens Hill,23,,Hargreaves,Rev George,
@@ -15434,7 +15434,7 @@ year,street,house_number,building_name,surname,forename,trade
 1897,Stow Hill,114,,Reid,Alexander,
 1897,Stow Hill,116,,Richardson,Mrs,grocer
 1897,Stow Hill,120,Cambria Place,Vaughan-Davies,Mrs,
-1897,Stow Hill,,Cambria Place,Prospect,Cottage,"122, Whitley, S"
+1897,Stow Hill,122,Cambria Place Prospect Cottage,Whitley,S,
 1897,Stow Hill,124,Cambria Place,Rosser,Miss Ea,
 1897,Stow Hill,124,Cambria Place,Torrens,Mrs SA,
 1897,Stow Hill,126,Cambria Place,Vanderplank,William,
@@ -15531,29 +15531,29 @@ year,street,house_number,building_name,surname,forename,trade
 1897,Stow Hill,5,,Wilcox,Rev George,St Marie's Catholic Church
 1897,Stow Hill,5,,Bath,Rev M,St Marie's Catholic Church
 1897,Stow Hill,1,,Wilks,T,photographer
-1897,Stow Park Circus,,Outer Circle,The,Hawthorns,"1, Hawkins, Mrs F"
-1897,Stow Park Circus,,Outer Circle,The,Woodlands,"3, Linton, John"
+1897,Stow Park Circus,1,Outer Circle The Hawthorns,Hawkins,Mrs F,
+1897,Stow Park Circus,3,Outer Circle The Woodlands,Linton,John,
 1897,Stow Park Circus,,Outer Circle,Oliver,AH,
 1897,Stow Park Circus,,Outer Circle,Vaughan,Fredk,
 1897,Stow Park Circus,,Outer Circle,Goss,AJT,
 1897,Stow Park Circus,,Outer Circle,Mordey,Mark,JP
-1897,Stow Park Circus,,Outer Circle,Craig,Hafren,"13, Llewellyn, JC"
+1897,Stow Park Circus,13,Outer Circle Craig Hafren,Llewellyn,JC,
 1897,Stow Park Circus,,Outer Circle,Williams,RP,
 1897,Stow Park Circus,,Outer Circle,Jones,WS,
 1897,Stow Park Circus,,Outer Circle,Filleul,AP,
-1897,Stow Park Circus,,Outer Circle,Cader,Idris,"21, Howell, TH"
+1897,Stow Park Circus,21,Outer Circle Cader Idris,Howell,TH,
 1897,Stow Park Circus,,Outer Circle,Williams,Walter Henry,
 1897,Stow Park Circus,,Outer Circle,Payne,Mrs E,
 1897,Stow Park Circus,27,Outer Circle,Wilson,JG,
 1897,Stow Park Circus,,Outer Circle,The,Grange,"31, Cordey, Thos, JP"
 1897,Stow Park Circus,,Outer Circle,St,Helens,"33, Marsh, CWE, JP"
-1897,Stow Park Circus,,Outer Circle,St,Olaves,"35, Watkins, TE"
+1897,Stow Park Circus,35,Outer Circle St Olaves,Watkins,TE,
 1897,Stow Park Circus,,Inner Circle,Fuller,WM,
 1897,Stow Park Circus,,Inner Circle,Bron-y-Gaer,4,
-1897,Stow Park Circus,,Inner Circle,Rock,Dale,"6, Morris, Mrs C"
-1897,Stow Park Circus,,Inner Circle,The,Redlands,"8, Raikes, FW"
+1897,Stow Park Circus,6,Inner Circle Rock Dale,Morris,Mrs C,
+1897,Stow Park Circus,8,Inner Circle The Redlands,Raikes,FW,
 1897,Stow Park Circus,,Inner Circle,Dawson,Thomas,
-1897,Stow Park Circus,,Inner Circle,St,Gwnlliw,"12, Hawkins, E Twisden"
+1897,Stow Park Circus,12,Inner Circle St Gwnlliw,Hawkins,E Twisden,
 1897,Stow Park Circus,,Inner Circle,Reynolds,Mrs,
 1897,Stow Park Crescent,1,Fairlight,Kirk,TC,
 1897,Stow Park Crescent,2,Bron-Gain,Jayne,Henry,
@@ -15605,7 +15605,7 @@ year,street,house_number,building_name,surname,forename,trade
 1897,Stow Park Road,,Stow Park Gardens,Ingram,SD,
 1897,Stow Park Road,,Stow Park Gardens,Tremellen,HJ,
 1897,Stow Park Road,,Stow Park Gardens,Gratte,Alfred,
-1897,Stow Park Road,,Stow Park Gardens,Sea,View,"37, Phillips, Miss"
+1897,Stow Park Road,37,Stow Park Gardens Sea View,Phillips,Miss,
 1897,Stow Park Road,,Stow Park Gardens,Carney,JH,
 1897,Stow Passage,1,,Wooley,Fredk,cabman
 1897,Stow Passage,2,,Heslop,Thomas,tailor
@@ -15643,10 +15643,10 @@ year,street,house_number,building_name,surname,forename,trade
 1897,Summer Hill Road,42,Peringa Villa,Llewellin,Isaac,
 1897,Summer Hill Road,43,Gogerddan Villa,Richards,JR,JP
 1897,Summer Hill Road,,Summer Hill Villas,Hill,Edwin,
-1897,Summer Hill Road,,Summer Hill Villas,Clwyd,Villa,"45, Twist, R"
-1897,Summer Hill Road,,Summer Hill Villas,The,Retreat,"46, Watkins, W"
+1897,Summer Hill Road,45,Summer Hill Villas Clwyd Villa,Twist,R,
+1897,Summer Hill Road,46,Summer Hill Villas The Retreat,Watkins,W,
 1897,Summer Hill Road,47,Summer Hill Villas,Cherry,Edwin,
-1897,Summer Hill Road,,Summer Hill Villas,Glen,Vue,"48, Harries, Geo"
+1897,Summer Hill Road,48,Summer Hill Villas Glen Vue,Harries,George,
 1897,Summer Hill Road,,Summer Hill Villas,Mullins,JH,
 1897,Sutton Road,1,Olive House,Webber,TT,builder
 1897,Sutton Road,2,,Richards,A,cab proprietor
@@ -15980,8 +15980,8 @@ year,street,house_number,building_name,surname,forename,trade
 1897,Victoria Avenue,45,,Cox,Abraham,coal dealer
 1897,Victoria Avenue,46,,James,Thomas,tailor
 1897,Victoria Avenue,47,Somerset House,Myers,Nathan,
-1897,Victoria Avenue,,Wrington Terrace,1,Wrington Villa,"50, Rees, John"
-1897,Victoria Avenue,,Wrington Terrace,2,Wrington Villa,"52, Harse, Saml"
+1897,Victoria Avenue,50,Wrington Terrace Wrington Villa,Rees,John,
+1897,Victoria Avenue,52,Wrington Terrace Wrington Villa,Harse,Saml,
 1897,Victoria Avenue,53,Wrington Terrace,Evans,Jesse Welford,
 1897,Victoria Avenue,54,Wrington Terrace,Samuel,RW,insurance agent
 1897,Victoria Avenue,55,Wrington Terrace,Johnstone,John,mariner
@@ -15999,39 +15999,39 @@ year,street,house_number,building_name,surname,forename,trade
 1897,Victoria Avenue,67,Wrington Terrace,Eaves,T Arthur,clerk
 1897,Victoria Avenue,,Wrington Terrace,Dunning,HE,
 1897,Victoria Avenue,,Wrington Terrace,Robertson,Albert W,
-1897,Victoria Avenue,,Wrington Terrace,Churchill,Villa,"74, Felton, TJ"
-1897,Victoria Avenue,,Wrington Terrace,Mendip,Villa,"75, Manhire, WH"
+1897,Victoria Avenue,74,Wrington Terrace Churchill Villa,Felton,TJ,
+1897,Victoria Avenue,75,Wrington Terrace Mendip Villa,Manhire,WH,
 1897,Victoria Avenue,76,Wrington Terrace,Worner,John,greengrocer
-1897,Victoria Avenue,,Wrington Terrace,Severn,View,"77, Powell, JF"
+1897,Victoria Avenue,77,Wrington Terrace Severn View,Powell,JF,
 1897,Victoria Avenue,78,Wrington Terrace,Aldridge,Alfred,
 1897,Victoria Avenue,79,Wrington Terrace,Williams,JP,
-1897,Victoria Avenue,,Wrington Terrace,Bleak House,,"80, Downham, Fredk"
+1897,Victoria Avenue,80,Wrington Terrace Bleak House,Downham,Fredk,
 1897,Victoria Avenue,81,Queen's Place,Francis,John,
 1897,Victoria Avenue,82,Queen's Place,Ackerman,George,G.W.R.
 1897,Victoria Avenue,83,Queen's Place,Basden,Robt Ernest,
 1897,Victoria Avenue,84,Queen's Place,Goldsworthy,ET,pilot
 1897,Victoria Avenue,85,Queen's Place,Alker,Jas,watchmaker
-1897,Victoria Avenue,,Queen's Place,Alma,Cottage,"86, Mitchell, JEP"
+1897,Victoria Avenue,86,Queen's Place Alma Cottage,Mitchell,JEP,
 1897,Victoria Avenue,87,Queen's Place,Mills,Allan,greengrocer
 1897,Victoria Avenue,88,Queen's Place,Powell,William,gardener
 1897,Victoria Avenue,89,Queen's Place,Simpson,Edward,plasterer
 1897,Victoria Avenue,90,Queen's Place,Butcher,Jas,carpenter
 1897,Victoria Avenue,91,Queen's Place,Hickey,Mrs Margt,
-1897,Victoria Avenue,,Queen's Place,Victoria,Villa,"92, Rutter, Jas"
-1897,Victoria Avenue,,Queen's Place,Victoria,Cottage,"93, Richards, Mrs"
-1897,Victoria Avenue,,Queen's Place,Fernside,Villa,"95, Parkinson, G"
-1897,Victoria Avenue,,Queen's Place,Holte,Villa,"96, Berrill, Mrs M"
-1897,Victoria Avenue,,Queen's Place,Swiss,Villa,"97, Frost, Calvin"
+1897,Victoria Avenue,92,Queen's Place Victoria Villa,Rutter,Jas,
+1897,Victoria Avenue,93,Queen's Place Victoria Cottage,Richards,Mrs,
+1897,Victoria Avenue,95,Queen's Place Fernside Villa,Parkinson,G,
+1897,Victoria Avenue,96,Queen's Place Holte Villa,Berrill,Mrs M,
+1897,Victoria Avenue,97,Queen's Place Swiss Villa,Frost,Calvin,
 1897,Victoria Avenue,,Queen's Place,Marienberg,98,
-1897,Victoria Avenue,,Queen's Place,Farleigh House,,"99, Williams, OB"
-1897,Victoria Avenue,,Queen's Place,Holly House,,"100, Williams, Miss SA"
+1897,Victoria Avenue,99,Queen's Place Farleigh House,Williams,OB,
+1897,Victoria Avenue,100,Queen's Place Holly House,Williams,Miss SA,
 1897,Victoria Avenue,102,Queen's Place,Sturley,William,lath render
 1897,Victoria Avenue,103,Queen's Place,Jones,Mrs E,
-1897,Victoria Avenue,,Queen's Place,Lydgate,Cottage,"104, Biggs, Wm"
-1897,Victoria Avenue,,Queen's Place,Cowling,Cottage,"106, Taylor, Jas"
+1897,Victoria Avenue,104,Queen's Place Lydgate Cottage,Biggs,William,
+1897,Victoria Avenue,106,Queen's Place Cowling Cottage,Taylor,Jas,
 1897,Victoria Avenue,107,Queen's Place,Jory,George,cab proprietor
-1897,Victoria Avenue,,Queen's Place,Clyde,Villa,"108, Mogford, JH"
-1897,Victoria Avenue,,Queen's Place,Silverton,Villa,"109, Ridley, WJ"
+1897,Victoria Avenue,108,Queen's Place Clyde Villa,Mogford,JH,
+1897,Victoria Avenue,109,Queen's Place Silverton Villa,Ridley,WJ,
 1897,Victoria Avenue,110,Queen's Place,Newbury,Robt,Dos works
 1897,Victoria Avenue,111,Queen's Place,Jones,William,carpenter
 1897,Victoria Avenue,112,Queen's Place,Jenkins,William,fireman
@@ -16496,14 +16496,14 @@ year,street,house_number,building_name,surname,forename,trade
 1897,York Place,23,,Hazell,Thomas Henry,
 1897,York Place,25,,Tirner,Mrs John T,
 1897,York Place,27,,Allen,Allan,
-1897,York Place,,Brodawel Gardens,St,Gothard's,"31, Sherrin, EB"
+1897,York Place,31,Brodawel Gardens St Gothard's,Sherrin,EB,
 1897,York Place,,Brodawel Gardens,Abraham,Rev H,
-1897,York Place,,Brodawel Gardens,Mon,Abri,"37, Hancock, Alfred"
+1897,York Place,37,Brodawel Gardens Mon Abri,Hancock,Alfred,
 1897,York Place,41,Brodawel Gardens,Smith,WA,draper
 1897,York Place,43,Brodawel Gardens,Newcombe,Jas,corn merchant
-1897,York Place,,Brodawel Gardens,The,Glyn,"49, Davies, Rev J Glyn"
-1897,York Place,,Brodawel Gardens,Fern,Lea,"51, Vaughan, Henry"
-1897,York Place,,Brodawel Gardens,Glen,View,"53, Berryman, T"
+1897,York Place,49,Brodawel Gardens The Glyn,Davies,Rev J Glyn,
+1897,York Place,51,Brodawel Gardens Fern Lea,Vaughan,Henry,
+1897,York Place,53,Brodawel Gardens Glen View,Berryman,T,
 1897,York Place,62,Glanmire,Davies,Herbert,
 1897,York Place,62,Glanmire,Cole,WF,
 1897,York Place,60,Tenby House,Rees,William F,
@@ -32626,8 +32626,8 @@ year,street,house_number,building_name,surname,forename,trade
 1914,Barrack Hill,7,Bradford House,Jewell,Charles,
 1914,Barrack Hill,9,Alltwen Villa,Symons,T,
 1914,Barrack Hill,11,Lyndhurst,Whitefield,J,
-1914,Barrack Hill,1,,Glen,View,"13, Kirby, Albert J"
-1914,Barrack Hill,2,,Glen,View,"15, Jewell, Wm"
+1914,Barrack Hill,1,Glen View,Kirby,Albert J,
+1914,Barrack Hill,2,Glen View,Jewell,William,
 1914,Barrack Hill,,Jewell,& Sons,,builders
 1914,Barrack Hill,17,,Collier,Frank J,builder
 1914,Barrack Hill,19,The Waldens,Collier,William C,
@@ -34782,8 +34782,8 @@ year,street,house_number,building_name,surname,forename,trade
 1914,Chepstow Road,97,,Giddings,C,monumental mason
 1914,Chepstow Road,99,,Hayward,Thomas,
 1914,Chepstow Road,99a,,Wright & Lee,,printers & illuminators
-1914,Chepstow Road,1,,Fairoak,Villa,"103, Wynn, Robt"
-1914,Chepstow Road,2,Oak Villa,Fair,,"105, Burford, Jesse"
+1914,Chepstow Road,1,Fairoak Villa,Wynn,Robt,
+1914,Chepstow Road,2,Oak Villa Fair,Burford,Jesse,
 1914,Chepstow Road,,Maindee Hotel,107-109,Lock Mrs A,
 1914,Chepstow Road,111,,Snowdon,LW,fish shop
 1914,Chepstow Road,113,,Edwards,I,grocer
@@ -35499,7 +35499,7 @@ year,street,house_number,building_name,surname,forename,trade
 1914,Clifton Road,11,,John Jenkins Ltd,,builders
 1914,Clifton Road,12,,Herbert,J,yard
 1914,Clifton Road,12,Post Office Linesman,Thomas,Arthur T,
-1914,Clyffard Crescent,1,,Blewitt,Cottages,"1a, Hazell, Walter"
+1914,Clyffard Crescent,1,Blewitt Cottages,Hazell,Walter,
 1914,Clyffard Crescent,2,,Blewitt,Cottages,"1b, Collier, Fredk, fitter"
 1914,Clyffard Crescent,1,,Andrew,John,chemical worker
 1914,Clyffard Crescent,2,,Waterman,Robt,
@@ -38471,8 +38471,8 @@ year,street,house_number,building_name,surname,forename,trade
 1914,Fair Oak Avenue,17,,Green,John,JP
 1914,Fair Oak Avenue,20,,Smith,FC,
 1914,Fair Oak Avenue,21,,Jones,W,Fair Oak nursery
-1914,Fair Oak Avenue,1,,Torquay,Villas,"22, Clarke, The Misses"
-1914,Fair Oak Avenue,2,,Torquay,Villa,"23, Havard, RD"
+1914,Fair Oak Avenue,1,Torquay Villas,Clarke,The Misses,
+1914,Fair Oak Avenue,2,Torquay Villa,Havard,RD,
 1914,Fair Oak Avenue,24,Seaton House,Whitmore,S,
 1914,Fair Oak Avenue,25,Lynton Villa,Ayres,Rev Oliver,
 1914,Fair Oak Avenue,26,Clyde Villa,Sainsbury,WJ,
@@ -38508,8 +38508,8 @@ year,street,house_number,building_name,surname,forename,trade
 1914,Fair Oak Avenue,56,Cambria Cottages,Moulton,Charles E,builder
 1914,Fair Oak Avenue,57,Cambria Cottages,Houghton,JH,draper
 1914,Fair Oak Avenue,58,Cambria Cottages,Cattell,J,wholesale confectioner & tea dealer
-1914,Fair Oak Avenue,,Cambria Cottages,Paignton,Villa,"59, Cattell, J"
-1914,Fair Oak Avenue,,Cambria Cottages,French,Villa,"60, Padden, Fred Geo"
+1914,Fair Oak Avenue,59,Cambria Cottages Paignton Villa,Cattell,J,
+1914,Fair Oak Avenue,60,Cambria Cottages French Villa,Padden,Fred George,
 1914,Fair Oak Avenue,61,Cambria Cottages,Reese,Ed. Benjamin,fitter
 1914,Fair Oak Avenue,62,Cambria Cottages,Boyne,Arthur Robt,fitter
 1914,Fair Oak Avenue,63,Cambria Cottages,Swadling,Thomas,signalman
@@ -39137,15 +39137,15 @@ year,street,house_number,building_name,surname,forename,trade
 1914,Godfrey Road,20,Glendower,Joyce,Cecil,
 1914,Godfrey Road,21,Laurels,Ash,Michael,
 1914,Godfrey Road,22,,Harrhy,JW,
-1914,Godfrey Road,1,,St,Mark's View,"23, Llewellyn, Isaac"
-1914,Godfrey Road,2,,St,Mark's View,"24, Hayes, Mrs AE"
+1914,Godfrey Road,1,St Mark's View,Llewellyn,Isaac,
+1914,Godfrey Road,2,St Mark's View,Hayes,Mrs AE,
 1914,Godfrey Road,25,Bryn Tirion,Evans,Henry Chalinder,
 1914,Godfrey Road,26,The Uplands,Cook,Edwyn,
 1914,Godfrey Road,27,Hafod,Jones,J Howard,
 1914,Godfrey Road,28,Corwen Villa,Campbell,WC,
 1914,Godfrey Road,29,The Lea,Fisher,Fredk,
-1914,Godfrey Road,1,Ia Villa,St,,"30, Morgan, CE"
-1914,Godfrey Road,2,Ia Villa,St,,"31, Sturgess, Miss"
+1914,Godfrey Road,1,Ia Villa St,Morgan,CE,
+1914,Godfrey Road,2,Ia Villa St,Sturgess,Miss,
 1914,Godfrey Road,32,Enville House,Patterson,Miss I,
 1914,Godfrey Road,33,The Chase,Skyrme,HAT,
 1914,Godfrey Road,34,Fern Glen,Heybyrne,Mrs MS,
@@ -42907,7 +42907,7 @@ year,street,house_number,building_name,surname,forename,trade
 1914,North Street,12,(Britannia Buildings),Miles,George,labourer
 1914,North Street,13,(Britannia Buildings),Brickley,William,caretaker
 1914,North Street,14,(Britannia Buildings),Lester,Henry,
-1914,North Street,,(Britannia Buildings),Britannia Inn,,"15, Chamberlain, Mrs Florence"
+1914,North Street,15,(Britannia Buildings) Britannia Inn,Chamberlain,Mrs Florence,
 1914,North Street,16,(Britannia Buildings),Charles,Mrs Lucy,
 1914,North Street,17,(Britannia Buildings),Bickley,A,cabinet maker
 1914,North Street,20,,Boucher,Charles,
@@ -43903,11 +43903,11 @@ year,street,house_number,building_name,surname,forename,trade
 1914,Queens Hill,,(Queen's Hill Terrace),Davies,Richd,
 1914,Queens Hill,,(Queen's Hill Terrace),Collins,Francis,
 1914,Queens Hill,36,(Queen's Hill Terrace),Fletcher,Philip,
-1914,Queens Hill,,(Queen's Hill Terrace),Melville House,,"38, Wring, TW"
+1914,Queens Hill,38,(Queen's Hill Terrace) Melville House,Wring,TW,
 1914,Queens Hill,,(Queen's Hill Terrace),Darke,JD,
 1914,Queens Hill,,(Queen's Hill Terrace),Neville,Mrs A,
 1914,Queens Hill,,(Queen's Hill Terrace),Morley,Henry,
-1914,Queens Hill,,(Queen's Hill Terrace),St,Helens,"46, Huggett, Mrs S"
+1914,Queens Hill,46,(Queen's Hill Terrace) St Helens,Huggett,Mrs S,
 1914,Queens Hill,48,(Queen's Hill Terrace),Buckley,Mrs Elizth,
 1914,Queens Hill,50,(Queen's Hill Terrace),Morkham,Miss,
 1914,Queens Hill,52,(Queen's Hill Terrace),Bull,George B,
