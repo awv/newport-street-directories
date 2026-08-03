@@ -1139,14 +1139,15 @@ def clean_record(row):
     bldg_name = pat_gpo.sub('G.P.O.', bldg_name)
     trade = pat_gpo.sub('G.P.O.', trade)
 
-    # Expand common forename abbreviations (Thos, Wm, Benj, Geo, Chas, Rbt)
+    # Expand common forename abbreviations (Thos, Wm, Benj, Geo, Chas, Rbt, Robt, Fredk)
     if forename:
         forename = re.sub(r'\bThos?\.?\b', 'Thomas', forename)
         forename = re.sub(r'\bWm\.?\b', 'William', forename)
         forename = re.sub(r'\bBenj\.?\b', 'Benjamin', forename)
         forename = re.sub(r'\bGeo\.?\b', 'George', forename)
         forename = re.sub(r'\bChas\.?\b', 'Charles', forename)
-        forename = re.sub(r'\bRbt\.?\b', 'Robert', forename)
+        forename = re.sub(r'\bRobt?\.?\b', 'Robert', forename)
+        forename = re.sub(r'\bFredk?\.?\b', 'Frederick', forename)
 
     # Clean trailing commas, quotes & spaces
     surname = surname.strip(' ,"-~')
