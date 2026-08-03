@@ -1107,9 +1107,14 @@ def clean_record(row):
             elif t_low in {'trm', 'trm.'}:
                 trade = 'trimmer'
 
-    # Expand Thos / Thos. / Tho. -> Thomas
+    # Expand common forename abbreviations (Thos, Wm, Benj, Geo, Chas, Rbt)
     if forename:
         forename = re.sub(r'\bThos?\.?\b', 'Thomas', forename)
+        forename = re.sub(r'\bWm\.?\b', 'William', forename)
+        forename = re.sub(r'\bBenj\.?\b', 'Benjamin', forename)
+        forename = re.sub(r'\bGeo\.?\b', 'George', forename)
+        forename = re.sub(r'\bChas\.?\b', 'Charles', forename)
+        forename = re.sub(r'\bRbt\.?\b', 'Robert', forename)
 
     # Clean trailing commas, quotes & spaces
     surname = surname.strip(' ,"-~')
