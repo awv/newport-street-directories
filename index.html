@@ -1719,9 +1719,15 @@
       else if (firstYr <= 1939) eraText = `🌳 Interwar Garden Suburb / Municipal Estate (First recorded in ${firstYr} directory)`;
       else eraText = `🏗️ Post-War Development (First recorded in ${firstYr} directory)`;
 
+      const crossRefRec = streetRecords.find(r => r.surname && r.surname.toLowerCase().startsWith('see '));
       const introElem = document.getElementById('street-intro');
       if (introElem) {
-        introElem.innerText = `${eraText}. Recorded across ${streetRecords.length} directory entries from ${firstYr} to ${lastYr}.`;
+        if (crossRefRec) {
+          const targetStreet = crossRefRec.surname.substring(4).trim();
+          introElem.innerHTML = `🏛️ Archival Directory Notice: In historical directories, <strong>${displayName}</strong> is an index cross-reference pointing readers to <strong>${targetStreet}</strong>. <a href="#street=${encodeURIComponent(targetStreet)}" style="color: #c89d54; text-decoration: underline; font-weight: 600; margin-left: 6px;">Check the ${targetStreet} Directory →</a>`;
+        } else {
+          introElem.innerText = `${eraText}. Recorded across ${streetRecords.length} directory entries from ${firstYr} to ${lastYr}.`;
+        }
       }
 
       const locationsMap = new Map();
@@ -1962,7 +1968,12 @@
       document.getElementById('record-count').innerText = `${currentHouseRecords.length} Records Found`;
 
       const introElem = document.getElementById('property-intro');
-      if (currentHouseRecords.length === 0) {
+      const houseCrossRefRec = currentHouseRecords.find(r => r.surname && r.surname.toLowerCase().startsWith('see '));
+
+      if (houseCrossRefRec) {
+        const targetStreet = houseCrossRefRec.surname.substring(4).trim();
+        introElem.innerHTML = `🏛️ Archival Directory Notice: In historical directories, <strong>${cleanStreetDisplay}</strong> points readers to <strong>${targetStreet}</strong>. <a href="#street=${encodeURIComponent(targetStreet)}" style="color: #c89d54; text-decoration: underline; font-weight: 600; margin-left: 6px;">Check ${targetStreet} Directory →</a>`;
+      } else if (currentHouseRecords.length === 0) {
         if (targetStreetRef) {
           introElem.innerHTML = `🏛️ Archival Cross-Reference Notice: In historical street directories, this location was an index cross-reference pointing readers to <strong>${targetStreetRef}</strong>. No individual resident entries are filed under this heading. <a href="#street=${encodeURIComponent(targetStreetRef)}" style="color: #c89d54; text-decoration: underline; font-weight: 600; margin-left: 6px;">View ${targetStreetRef} Directory →</a>`;
         } else {

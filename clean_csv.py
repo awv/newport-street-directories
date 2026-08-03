@@ -36,7 +36,7 @@ CROSS_STREET_REGEX = re.compile(
     r'\b(?:avenue|st|street|rd|road|lane|place|terrace|hill|way|drive|crescent|parade|pde|av|av\.)\b.*?\bto\b.*?\b(?:avenue|st|street|rd|road|lane|place|terrace|hill|way|drive|crescent|parade|pde|av|av\.)\b'
     r'|^\s*\[?(?:here\s+are|here\s+is|here\s+cross|\[?return\]?|\(return\.?\)|return\.?)\]?\b'
     r'|^\s*[\(\[]?\s*return\.?\s*[\)\]]?\s*$'
-    r'|^\s*\[?\s*(?:newport\s*)?see\b'
+    r'|^\s*see\s+also\s+[A-Za-z]+'
     r'|^\s*(?:maindee|newport|pill)from\b'
     r'|^\s*from\s+[A-Za-z\s]+'
     r'|^\s*[A-Za-z\s]+street\s+from\b'
@@ -343,6 +343,18 @@ def clean_record(row):
     bldg_name = re.sub(r'\bLd\.?\b', 'Ltd', bldg_name)
     surname = re.sub(r'\bLd\.?\b', 'Ltd', surname)
     trade = re.sub(r'\bLd\.?\b', 'Ltd', trade)
+
+    # Standardize directory cross-reference entries (e.g. surname='NewportSee', forename='Stow Hill', street='Lamb Cottages')
+    raw_all_fields = f"{bldg_name} {surname} {forename}".strip()
+    cross_ref_match = re.search(r'\[?\b(?:newport\s*)?see\s+(?:also\s+)?(?:under\s+|no\.\s*\d+\s+)?([A-Za-z\s]+)', raw_all_fields, re.I)
+    if cross_ref_match:
+        target_dest = cross_ref_match.group(1).strip(']. ')
+        target_dest = re.sub(r'^(?:under\s+|no\.\s*\d+\s+)', '', target_dest, flags=re.I).strip()
+        target_dest = re.sub(r'(\b(?:street|road|lane|hill|place|terrace|avenue|square|parade|chambers|cottages)\b).*', r'\1', target_dest, flags=re.I).strip()
+        surname = f"See {target_dest}"
+        forename = ""
+        bldg_name = street
+        trade = "Directory Cross-Reference"
 
     # 2. Fix shifted surname/forename/trade in building_name (e.g. bldg='Jones', surname='Geo', forename='labourer')
     if bldg_name and bldg_name[0].isupper() and not any(w in bldg_name.lower() for w in ['house', 'villa', 'cottage', 'chambers', 'works', 'inn', 'arms', 'hotel', 'building', 'school', 'lodge', 'place', 'hall']):
