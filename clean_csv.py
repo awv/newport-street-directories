@@ -51,7 +51,8 @@ CROSS_STREET_REGEX = re.compile(
     r'|\bembraces\s+the\s+numerous\s+streets\b'
     r'|\bis\s+a\s+district\s+lying\s+between\b'
     r'|\bcommonly\s+called\s+pill\b'
-    r'|\bbarnard\s+town\s*(?:maindee)?\s*$',
+    r'|^\s*(?:newport\s*)?bottom\s+of\b'
+    r'|\boff\s+[a-z0-9\s\.\-]+(?:avenue|st|street|rd|road|lane|place|terrace|hill|way|drive|crescent|cres|cres\.|parade|pde|av|av\.|square|estate)\b',
     re.I
 )
 
@@ -392,7 +393,7 @@ def clean_record(row):
         r'milliner|wine|cabinet\s+maker|professor\s+of\s+\w+|registry\s+office|'
         r'auctioneer|dressmaker|gardener|solicitor|surgeon|dentist|'
         r'architect|engineer|broker|accountant|merchant|agent|'
-        r'licensed\s+victualler|publican'
+        r'licensed\s+victualler|publican|storekeeper|store\s+keeper|timekeeper|gatekeeper'
     )
     if forename:
         match_t_f = re.match(r"^(.*?)\s+\b(" + TRAPPED_TRADE_PAT + r")\b$", forename, re.I)
@@ -1155,7 +1156,13 @@ def clean_record(row):
     forename = forename.strip(' ,"-~')
     trade = trade.strip(' ,"-~')
 
-    # 21g. Clean 'void' property entries
+    # 21g. Clean 'void' and 'vacant site' property entries
+    comb_sv = f"{surname} {forename}".strip().lower()
+    if comb_sv in {"vacant site", "site vacant", "vacant sites", "sites vacant", "site (allotments) vacant", "vacant site (allotments)"} or comb_sv.startswith("vacant site") or comb_sv.startswith("site vacant"):
+        surname = ""
+        forename = ""
+        bldg_name = "Vacant Site"
+
     if trade.lower() in {'void', 'void.'}:
         trade = ""
         if surname and not is_person_name_or_title(surname) and not bldg_name:
