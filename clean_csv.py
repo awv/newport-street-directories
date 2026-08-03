@@ -359,10 +359,11 @@ def clean_record(row):
         bldg_name = street
         trade = "Directory Cross-Reference"
 
-    # 2. Fix shifted surname/forename/trade in building_name (e.g. bldg='Jones', surname='Geo', forename='labourer')
-    if bldg_name and bldg_name[0].isupper() and not any(w in bldg_name.lower() for w in ['house', 'villa', 'cottage', 'chambers', 'works', 'inn', 'arms', 'hotel', 'building', 'school', 'lodge', 'place', 'hall']):
-        if forename.lower() in TRADE_KEYWORDS or forename.lower() in ['labourer', 'sorter', 'fitter', 'carpenter', 'driver', 'grocer', 'draper', 'mason']:
-            trade = forename
+    # 2. Fix shifted surname/forename/trade in building_name (e.g. bldg='Bennett', surname='AG', forename='brewery hand')
+    if bldg_name and bldg_name[0].isupper() and not any(w in bldg_name.lower() for w in ['house', 'villa', 'cottage', 'chambers', 'works', 'inn', 'arms', 'hotel', 'building', 'school', 'lodge', 'place', 'hall', 'terrace', 'view', 'court', 'gardens']):
+        f_low = forename.lower()
+        if f_low in TRADE_KEYWORDS or any(w in f_low for w in ['hand', 'worker', 'labourer', 'sorter', 'fitter', 'carpenter', 'driver', 'grocer', 'draper', 'mason', 'butcher', 'bootmaker', 'shoemaker', 'painter', 'plumber', 'tailor', 'baker', 'signalman', 'postman', 'shunter', 'timekeeper', 'tobacconist', 'waterman', 'greengrocer']):
+            trade = title_case_name(forename)
             forename = surname
             surname = bldg_name
             bldg_name = ""
