@@ -104,6 +104,13 @@ def main():
                 "records": records
             }, sf, indent=None, separators=(',', ':'))
 
+    # Clean up stale per-street JSON files
+    for existing_file in os.listdir(STREETS_DIR):
+        if existing_file.endswith(".json"):
+            file_slug = existing_file[:-5]
+            if file_slug not in records_by_street:
+                os.remove(os.path.join(STREETS_DIR, existing_file))
+
     # Sort master streets index alphabetically
     streets_summary.sort(key=lambda s: s["displayName"].lower())
 
