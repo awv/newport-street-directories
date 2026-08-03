@@ -283,9 +283,11 @@
         .replace(/\bcarptr\b/gi, 'Carpenter')
         .replace(/\beng dvr\b/gi, 'Engine Driver');
 
-      // 3. Preserve G.W.R. casing if present
+      // 3. Preserve G.W.R. and G.P.O. casing if present
+      clean = clean.replace(/\b(g\.?p\.?o\.?)\b\.?/gi, 'G.P.O.');
       clean = clean.replace(/\w\S*/g, (txt) => {
         if (txt.toUpperCase() === 'G.W.R.') return 'G.W.R.';
+        if (txt.toUpperCase() === 'G.P.O.') return 'G.P.O.';
         return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
       });
 

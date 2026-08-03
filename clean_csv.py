@@ -1129,6 +1129,13 @@ def clean_record(row):
             elif t_low in {'trm', 'trm.'}:
                 trade = 'trimmer'
 
+    # Standardize G.p.o. / G.p.o / GPO / G.P.O -> G.P.O.
+    pat_gpo = re.compile(r'\b(g\.?p\.?o\.?)\b\.?', re.I)
+    surname = pat_gpo.sub('G.P.O.', surname)
+    forename = pat_gpo.sub('G.P.O.', forename)
+    bldg_name = pat_gpo.sub('G.P.O.', bldg_name)
+    trade = pat_gpo.sub('G.P.O.', trade)
+
     # Expand common forename abbreviations (Thos, Wm, Benj, Geo, Chas, Rbt)
     if forename:
         forename = re.sub(r'\bThos?\.?\b', 'Thomas', forename)
