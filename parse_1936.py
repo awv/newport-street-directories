@@ -183,6 +183,17 @@ def parse_tsv(input_path, output_path):
                     bldg = notes
                     notes = ""
             
+            # Filter out non-resident landmark/institution note rows (e.g. churches, gas works, football grounds)
+            # that do not have any associated person name or house number
+            if not h_num and not forename and not surname:
+                comb_val = f"{trade} {bldg} {notes}".lower()
+                landmark_keywords = {
+                    'church', 'ch.', 'chapel', 'grounds', 'gas works', 'gasworks', 
+                    'see also', 'school', 'schools', 'hall', 'chambers', 'depot', 'works'
+                }
+                if any(kw in comb_val for kw in landmark_keywords):
+                    continue
+            
             # Standardize trades
             trade = clean_trade(trade)
             
