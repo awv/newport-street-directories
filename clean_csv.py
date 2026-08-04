@@ -86,7 +86,62 @@ TRADE_TYPO_MAP = {
     'sailmkr': 'sailmaker', 'confectionr': 'confectioner', 'inspectr': 'inspector',
     'caretakr': 'caretaker', 'upholster': 'upholsterer', 'hailier': 'haulier',
     'shunterr': 'shunter', 'paintetr': 'painter', 'draughtsmn': 'draughtsman',
-    'dairym': 'dairyman', 'dairymen': 'dairyman', 'solictrs': 'solicitors'
+    'dairym': 'dairyman', 'dairymen': 'dairyman', 'solictrs': 'solicitors',
+
+    # User additions:
+    'carpntr': 'carpenter',
+    'furnacemn': 'furnaceman',
+    'furnaceman': 'furnaceman',
+    'wiredrawr': 'wiredrawer',
+    'salesmn': 'salesman',
+    'machst': 'machinist',
+    'greengrcr': 'greengrocer',
+    'butchr': 'butcher',
+    'hairdsr': 'hairdresser',
+    'shipwgt': 'shipwright',
+    'plumbr': 'plumber',
+    'fnceman': 'financeman',
+    'blrmkr': 'boilermaker',
+    'schoolmstr': 'schoolmaster',
+    'shopkpr': 'shopkeeper',
+    'foremn': 'foreman',
+    'shipwght': 'shipwright',
+    'furncmn': 'furnaceman',
+    'chauffr': 'chauffeur',
+    'firemn': 'fireman',
+    'acctnt': 'accountant',
+    'wheelwght': 'wheelwright',
+    'dairymn': 'dairyman',
+    'newsagnt': 'newsagent',
+    'decrtr': 'decorator',
+    'slsman': 'salesman',
+    'electricn': 'electrician',
+    'hairdrssr': 'hairdresser',
+    'electrcn': 'electrician',
+    'haulr': 'haulier',
+    'dressmkr': 'dressmaker',
+    'patternmkr': 'patternmaker',
+    'weighmn': 'weighman',
+    'plbr': 'plumber',
+    'fruitr': 'fruiterer',
+    'whsmn': 'warehouseman',
+    'schlmaster': 'schoolmaster',
+    'dcrtr': 'decorator',
+    'blrmaker': 'boilermaker',
+    'watchmn': 'watchman',
+    'trimmr': 'trimmer',
+    'crane drivr': 'crane driver',
+    'eng. drivr': 'engine driver',
+    'platelayr': 'platelayer',
+    'plastr': 'plasterer',
+    'managr': 'manager',
+    'stockbrkr': 'stockbroker',
+    'gaswrkr': 'gasworker',
+    'whseman': 'warehouseman',
+    'dectr': 'decorator',
+    'newsagt': 'newsagent',
+    'travllr': 'traveller',
+    'cranedrvr': 'crane driver',
 }
 
 TRADE_EXACT_MAP = {
@@ -95,10 +150,17 @@ TRADE_EXACT_MAP = {
     'plate layer': 'platelayer', 'platelayer': 'platelayer', 'brick layer': 'bricklayer',
     'bricklayer': 'bricklayer', 'boot maker': 'bootmaker', 'bootmaker': 'bootmaker',
     'hair dresser': 'hairdresser', 'hairdresser': 'hairdresser', 'black smith': 'blacksmith',
-    'blacksmith': 'blacksmith', 'gasworker': 'gas worker', 'ship wright': 'shipwright',
+    'blacksmith': 'blacksmith', 'gasworker': 'gasworker', 'ship wright': 'shipwright',
     'shipwright': 'shipwright', 'furnace man': 'furnaceman', 'furnaceman': 'furnaceman',
     'dairy man': 'dairyman', 'dairyman': 'dairyman', 'shop keeper': 'shopkeeper',
-    'shopkeeper': 'shopkeeper'
+    'shopkeeper': 'shopkeeper',
+
+    # User additions:
+    'gas worker': 'gasworker',
+    'stl worker': 'steelworker',
+    'st worker': 'steelworker',
+    'pattern maker': 'patternmaker',
+    'lathrender': 'lath render'
 }
 
 TRADE_ABBREV_MAP = {
@@ -109,7 +171,60 @@ TRADE_ABBREV_MAP = {
     'lry dvr': 'lorry driver', 'lorry drv': 'lorry driver', 'dk. labourer': 'dock labourer',
     'dock labr': 'dock labourer', 'dock lbr': 'dock labourer', 'civ servant': 'civil servant',
     'civil srvt': 'civil servant', 'cargo wk': 'cargo worker', 'cargo wkr': 'cargo worker',
-    'gen shp': 'general shop', 'gen shop': 'general shop'
+    'gen shp': 'general shop', 'gen shop': 'general shop',
+
+    # User additions:
+    'eng driver': 'engine driver',
+    'eng. drvr': 'engine driver',
+    'eng drvr': 'engine driver',
+    'eng. driver': 'engine driver',
+    'warehsman': 'warehouseman',
+    'warehsmn': 'warehouseman',
+    'warehousemn': 'warehouseman',
+    'irn worker': 'ironworker',
+    'iworker': 'ironworker',
+    'ironwk': 'ironworker',
+    'ironwr': 'ironworker',
+    'iron wrkr': 'ironworker',
+    'i\'worker': 'ironworker',
+    'irnwr': 'ironworker',
+    'dk labourer': 'dock labourer',
+    'dk lab': 'dock labourer',
+    'dk pilot': 'dock pilot',
+    'tram drvr': 'tram driver',
+    'motor mec': 'motor mechanic',
+    'motor eng': 'motor engineer',
+    'boot rpr': 'boot repairer',
+    'trnspt worker': 'transport worker',
+    'dckr': 'docker',
+    'dockr': 'docker',
+    'bus condctr': 'bus conductor',
+    'steelwr': 'steelworker',
+    'stworker': 'steelworker',
+    'furniture dlr': 'furniture dealer',
+    'motor dv': 'motor driver',
+    'dk worker': 'dock worker',
+    'dck worker': 'dock worker',
+    'transpt worker': 'transport worker',
+    'cargo wrkr': 'cargo worker',
+    'grocer\'s asst': 'grocer\'s assistant',
+    'mec': 'mechanic',
+    'trans worker': 'transport worker',
+    'lino optr': 'linotype operator',
+    'rivet mkr': 'rivet maker',
+    'ship stwd': 'ship steward',
+    'coach bldr': 'coach builder',
+    'conf': 'confectioner',
+    'van drvr': 'van driver',
+    'fitters hlp': 'fitters helper',
+    'fitter\'s hlp': 'fitter\'s helper',
+    'chimney swp': 'chimney sweep',
+    'coal merc': 'coal merchant',
+    'corn mcht': 'corn merchant',
+    'cycle dlr': 'cycle dealer',
+    'genrl shop': 'general shop',
+    'bus drvr': 'bus driver',
+    'park attdt': 'park attendant',
 }
 
 BUSINESS_SUFFIX_REGEX = re.compile(
@@ -1175,30 +1290,39 @@ def clean_record(row):
             trade = re.sub(r'([a-zA-Z]{3,})\.\s*$', r'\1', trade)
 
             t_low = trade.lower().strip(' ,"-~.')
-            changed_words = False
             
-            val = t_low
-            if val in TRADE_TYPO_MAP:
-                val = TRADE_TYPO_MAP[val]
-                changed_words = True
-            if val in TRADE_EXACT_MAP:
-                val = TRADE_EXACT_MAP[val]
-                changed_words = True
-            if val in TRADE_ABBREV_MAP:
-                val = TRADE_ABBREV_MAP[val]
-                changed_words = True
-
-            case_insensitive_standards = {
-                'engine driver', 'coal trimmer', 'motor driver', 'lorry driver',
-                'crane driver', 'insurance agent', 'boot repairer'
+            # Acronyms casing
+            acronyms = {
+                'p.c.': 'P.C.',
+                'p.o. clerk': 'P.O. Clerk',
             }
-            if val in case_insensitive_standards:
-                trade = val
-            elif not changed_words and val == trade.strip(' ,"-~.').lower():
-                # Keep original casing (like G.W.R.) if we didn't change the words
-                trade = trade.strip(' ,"-~.')
+            if t_low in acronyms:
+                trade = acronyms[t_low]
             else:
-                trade = val
+                changed_words = False
+                val = t_low
+                if val in TRADE_TYPO_MAP:
+                    val = TRADE_TYPO_MAP[val]
+                    changed_words = True
+                if val in TRADE_EXACT_MAP:
+                    val = TRADE_EXACT_MAP[val]
+                    changed_words = True
+                if val in TRADE_ABBREV_MAP:
+                    val = TRADE_ABBREV_MAP[val]
+                    changed_words = True
+
+                case_insensitive_standards = {
+                    'engine driver', 'coal trimmer', 'motor driver', 'lorry driver',
+                    'crane driver', 'insurance agent', 'boot repairer', 'dock labourer',
+                    'civil servant', 'police sergeant', 'linotype operator'
+                }
+                if val in case_insensitive_standards:
+                    trade = val
+                elif not changed_words and val == trade.strip(' ,"-~.').lower():
+                    # Keep original casing if we didn't change the actual text content
+                    trade = trade.strip(' ,"-~.')
+                else:
+                    trade = val
 
     # Standardize G.p.o. / G.p.o / GPO / G.P.O -> G.P.O.
     pat_gpo = re.compile(r'\b(g\.?p\.?o\.?)\b\.?', re.I)
