@@ -142,6 +142,43 @@ TRADE_TYPO_MAP = {
     'newsagt': 'newsagent',
     'travllr': 'traveller',
     'cranedrvr': 'crane driver',
+
+    # Second list additions:
+    'wheeleright': 'wheelwright',
+    'master marnr': 'master mariner',
+    'ironfdr': 'ironfoundry',
+    'pattern makrs': 'patternmakers',
+    'laundrs': 'launderers',
+    'brushmakr': 'brushmaker',
+    'bootdlr': 'bootdealer',
+    'cabintmkr': 'cabinetmaker',
+    'fu\'nsher': 'furnisher',
+    'ourveyor': 'purveyor',
+    'ploice': 'police',
+    'berthing mas': 'berthing master',
+    'insp. of works': 'inspector of works',
+    'engne driver': 'engine driver',
+    'travllng. draper': 'travelling draper',
+    'ironmngr': 'ironmonger',
+    'confect\'ner': 'confectioner',
+    'railwaym': 'railwayman',
+    'sculpt': 'sculptor',
+    'stlwk': 'steelworker',
+    'clerl': 'clerk',
+    'blmaker': 'boilermaker',
+    'hairdrsr': 'hairdresser',
+    'boilermakr': 'boilermaker',
+    'shipcarpenter': 'ship carpenter',
+    ']sr. cooper': 'senior cooper',
+    'ex-police insp': 'ex-police inspector',
+    'dockwrkr': 'dockworker',
+    'eng\'eer': 'engineer',
+    'dectrs': 'decorators',
+    'foundrymn': 'foundryman',
+    'warehoman': 'warehouseman',
+    'wagon repr': 'wagon repairer',
+    'wiredrwr': 'wiredrawer',
+    'laqbr': 'labourer',
 }
 
 TRADE_EXACT_MAP = {
@@ -160,7 +197,17 @@ TRADE_EXACT_MAP = {
     'stl worker': 'steelworker',
     'st worker': 'steelworker',
     'pattern maker': 'patternmaker',
-    'lathrender': 'lath render'
+    'lathrender': 'lath render',
+
+    # Second list additions:
+    'boot dlrs': 'bootdealers',
+    'shio carpenter': 'ship carpenter',
+    'cabinetmkr': 'cabinetmaker',
+    'cabinet mkr': 'cabinetmaker',
+    'cabinet maker': 'cabinetmaker',
+    'pattern makers': 'patternmakers',
+    'master mariner': 'master mariner',
+    'dockworker': 'dockworker'
 }
 
 TRADE_ABBREV_MAP = {
@@ -225,6 +272,36 @@ TRADE_ABBREV_MAP = {
     'genrl shop': 'general shop',
     'bus drvr': 'bus driver',
     'park attdt': 'park attendant',
+
+    # Second list additions:
+    'rly. porter': 'railway porter',
+    'pilots assist': 'pilot\'s assistant',
+    'firewood yd': 'firewood yard',
+    'jun. fireman': 'junior fireman',
+    'train exmr': 'train examiner',
+    'jno. clerk': 'junior clerk',
+    'railway. porter': 'railway porter',
+    'ship carp': 'ship carpenter',
+    'spirit merchant, wine': 'wine and spirit merchant',
+    'surg. assistant': 'surgeon\'s assistant',
+    'junr. scale maker': 'junior scale maker',
+    'pork bt': 'pork butcher',
+    'cab proptr': 'cab proprietor',
+    'bottle blwr': 'bottle blower',
+    'wire drwr': 'wire drawer',
+    'helve': 'helve maker',
+    'baker,, etc': 'barker, etc',
+    'coal tr': 'coal trimmer',
+    'com trav': 'commercial traveller',
+    'com. trav': 'commercial traveller',
+    'insur manager': 'insurance manager',
+    'fitters\' hlp': 'fitters\' helper',
+    'grcr asst': 'grocer\'s assistant',
+    'painter & dectr': 'painter and decorator',
+    'chem wrkr': 'chemical worker',
+    'com agent': 'commercial agent',
+    'fitter\'s mate': 'fitters\' mate',
+    'window clnr': 'window cleaner',
 }
 
 BUSINESS_SUFFIX_REGEX = re.compile(
@@ -1295,6 +1372,7 @@ def clean_record(row):
             acronyms = {
                 'p.c.': 'P.C.',
                 'p.o. clerk': 'P.O. Clerk',
+                'h.m.c': 'H.M.C.',
             }
             if t_low in acronyms:
                 trade = acronyms[t_low]
@@ -1314,7 +1392,11 @@ def clean_record(row):
                 case_insensitive_standards = {
                     'engine driver', 'coal trimmer', 'motor driver', 'lorry driver',
                     'crane driver', 'insurance agent', 'boot repairer', 'dock labourer',
-                    'civil servant', 'police sergeant', 'linotype operator'
+                    'civil servant', 'police sergeant', 'linotype operator',
+                    'inspector of works', 'travelling draper', 'wine and spirit merchant',
+                    'junior scale maker', 'ex-police inspector', 'insurance manager',
+                    'painter and decorator', 'chemical worker', 'commercial agent',
+                    'window cleaner'
                 }
                 if val in case_insensitive_standards:
                     trade = val
