@@ -36,16 +36,21 @@ CROSS_STREET_REGEX = re.compile(
     r'\b(?:avenue|st|street|rd|road|lane|place|terrace|hill|way|drive|crescent|cres|cres\.|parade|pde|av|av\.)\b.*?\bto\b.*?\b(?:avenue|st|street|rd|road|lane|place|terrace|hill|way|drive|crescent|cres|cres\.|parade|pde|av|av\.|square)\b'
     r'|^\s*\[?(?:here\s+are|here\s+is|here\s+cross|\[?return\]?|\(return\.?\)|return\.?)\]?\b'
     r'|^\s*[\(\[]?\s*return\.?\s*[\)\]]?\s*$'
-    r'|^\s*see\s+also\s+[A-Za-z]+'
-    r'|^\s*now\s+(?:in|see)\s+[a-z0-9\s\.\-]+'
+    r'|\bsee\b'
+    r'|\bsee\s+also\b'
+    r'|\b[a-zA-Z]+see\b'
+    r'|^\s*now\s+[a-z0-9\s\.\-\(\)]+'
     r'|^\s*(?:maindee|newport|pill)from\b'
     r'|^\s*from\s+[A-Za-z\s]+'
     r'|^\s*[A-Za-z\s]+street\s+from\b'
-    r'|^\s*[\(\[]?\s*(?:right|left)\s+hand\s*(?:side)?\s*[\)\]]?\s*$'
-    r'|^\s*[\(\[]?\s*(?:right|left)\s+hand\s+side\b'
-    r'|^\s*(?:from\s+)?[a-z0-9\s\.\-]+\s*[\(\[]?\s*(?:right|left)\s+hand\s*[\)\]]?\s*(?:opposite\s+[a-z0-9\s\.\-]+)?\s*$'
+    r'|^\s*[\(\[]?\s*(?:right|left)[\s\-]+hand\s*(?:side)?\s*[\)\]]?\s*$'
+    r'|^\s*[\(\[]?\s*(?:right|left)[\s\-]+hand\s+side\b'
+    r'|^\s*(?:from\s+)?[a-z0-9\s\.\-]+\s*[\(\[]?\s*(?:right|left)[\s\-]+hand\s*[\)\]]?\s*(?:opposite\s+[a-z0-9\s\.\-]+)?\s*$'
     r'|^\s*opposite\s+(?:maindee\s+schools|board\s+schools|st\.\s*woolos\s+church|malpas\s+school|kensington\s+place|stow\s+park|stow-park)'
-    r'|^\s*last\s+corporation[\s\-]*road\s+street\s+on\s+left\s+hand\s+side'
+    r'|^\s*last\s+corporation[\s\-]*road\s+street\s+on\s+left[\s\-]+hand\s+side'
+    r'|^\s*(?:west|east|north|south)\s+side\s+of\b'
+    r'|\bcontinuation\b'
+    r'|\btowards\b'
     r'|\bderives\s+its\s+name\s+from\s+the\s+well\b'
     r'|\biron\s+ring\s+let\s+into\s+the\s+pavement\b'
     r'|\bembraces\s+the\s+numerous\s+streets\b'
@@ -516,6 +521,7 @@ def clean_street_name(name):
     clean = re.sub(r'Eveswel\]', 'Eveswell', clean, flags=re.IGNORECASE)
     clean = re.sub(r'([a-z])\]', r'\1l', clean)
     clean = re.sub(r'\bMalpas\s*\(\s*Main\s*\)\s*Road\b', 'Malpas Road', clean, flags=re.IGNORECASE)
+    clean = re.sub(r'\bFair[\s\-]*Oak\s*Ave[nu]+e\b', 'Fairoak Avenue', clean, flags=re.IGNORECASE)
         
     return clean.strip(" ,.-")
 
@@ -584,8 +590,10 @@ def clean_record(row):
         return None
 
     combined_name = f"{surname} {forename}".strip()
-    if CROSS_STREET_REGEX.search(combined_name) or CROSS_STREET_REGEX.search(bldg_name) or CROSS_STREET_REGEX.search(surname):
-        return None
+    is_chambers_street = any(term in street.lower() for term in ["chambers", "cottages", "villas", "arcade"])
+    if not is_chambers_street:
+        if CROSS_STREET_REGEX.search(combined_name) or CROSS_STREET_REGEX.search(bldg_name) or CROSS_STREET_REGEX.search(surname):
+            return None
 
     # Strip district headers (e.g. MaindeeFrom, NewportFrom)
     surname = re.sub(r'^(maindee|newport|pill)from\s*', '', surname, flags=re.I).strip()

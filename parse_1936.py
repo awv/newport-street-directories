@@ -75,8 +75,10 @@ CROSS_STREET_PAT = re.compile(
     r'\b(?:avenue|st|street|rd|road|lane|place|terrace|hill|way|drive|crescent|cres|cres\.|parade|pde|av|av\.)\b.*?\bto\b.*?\b(?:avenue|st|street|rd|road|lane|place|terrace|hill|way|drive|crescent|cres|cres\.|parade|pde|av|av\.|square)\b'
     r'|^\s*\[?(?:here\s+are|here\s+is|here\s+cross|\[?return\]?|\(return\.?\)|return\.?)\]?\b'
     r'|^\s*[\(\[]?\s*return\.?\s*[\)\]]?\s*$'
-    r'|^\s*see\s+also\s+[A-Za-z]+'
-    r'|^\s*now\s+(?:in|see)\s+[a-z0-9\s\.\-]+'
+    r'|\bsee\b'
+    r'|\bsee\s+also\b'
+    r'|\b[a-zA-Z]+see\b'
+    r'|^\s*now\s+[a-z0-9\s\.\-|\(\)]+'
     r'|^\s*(?:maindee|newport|pill)from\b'
     r'|^\s*from\s+[A-Za-z\s]+'
     r'|^\s*[A-Za-z\s]+street\s+from\b'
@@ -86,7 +88,8 @@ CROSS_STREET_PAT = re.compile(
     r'|^\s*opposite\s+(?:maindee\s+schools|board\s+schools|st\.\s*woolos\s+church|malpas\s+school|kensington\s+place|stow\s+park|stow-park)'
     r'|^\s*last\s+corporation[\s\-]*road\s+street\s+on\s+left[\s\-]+hand\s+side'
     r'|^\s*(?:west|east|north|south)\s+side\s+of\b'
-    r'|\bcontinuation\b',
+    r'|\bcontinuation\b'
+    r'|\btowards\b',
     re.I
 )
 

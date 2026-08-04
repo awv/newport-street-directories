@@ -1725,6 +1725,8 @@
         if (crossRefRec) {
           const targetStreet = crossRefRec.surname.substring(4).trim();
           introElem.innerHTML = `🏛️ Archival Directory Notice: In historical directories, <strong>${displayName}</strong> is an index cross-reference pointing readers to <strong>${targetStreet}</strong>. <a href="#street=${encodeURIComponent(targetStreet)}" style="color: #c89d54; text-decoration: underline; font-weight: 600; margin-left: 6px;">Check the ${targetStreet} Directory →</a>`;
+          document.getElementById('house-grid').innerHTML = '';
+          return;
         } else {
           introElem.innerText = `${eraText}. Recorded across ${streetRecords.length} directory entries from ${firstYr} to ${lastYr}.`;
         }
@@ -2125,12 +2127,21 @@
           const searchNameHash = `#search=${encodeURIComponent(fullResidentName)}`;
           const searchTradeHash = `#search=${encodeURIComponent(displayTrade)}`;
 
-          occupantsHTML += `
-            <div class="occupant-entry">
-              <a href="${searchNameHash}" class="timeline-name clickable-occupant-name" title="Search all records for ${fullResidentName}">${fullResidentName}</a>
-              <div><a href="${searchTradeHash}" class="timeline-trade clickable-trade-tag" title="Search all ${displayTrade} entries">${displayTrade}</a></div>
-            </div>
-          `;
+          if (r.surname && r.surname.toLowerCase().startsWith('see ')) {
+            const targetStreet = r.surname.substring(4).trim();
+            occupantsHTML += `
+              <div class="occupant-entry cross-ref-entry" style="font-style: italic; opacity: 0.9;">
+                👉 Directory Cross-Reference: <a href="#street=${encodeURIComponent(targetStreet)}" class="timeline-name clickable-occupant-name" style="color: #c89d54; text-decoration: underline; font-weight: 500;">See ${targetStreet}</a>
+              </div>
+            `;
+          } else {
+            occupantsHTML += `
+              <div class="occupant-entry">
+                <a href="${searchNameHash}" class="timeline-name clickable-occupant-name" title="Search all records for ${fullResidentName}">${fullResidentName}</a>
+                <div><a href="${searchTradeHash}" class="timeline-trade clickable-trade-tag" title="Search all ${displayTrade} entries">${displayTrade}</a></div>
+              </div>
+            `;
+          }
         });
 
         const li = document.createElement('li');
