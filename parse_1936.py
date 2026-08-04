@@ -80,11 +80,11 @@ CROSS_STREET_PAT = re.compile(
     r'|^\s*(?:maindee|newport|pill)from\b'
     r'|^\s*from\s+[A-Za-z\s]+'
     r'|^\s*[A-Za-z\s]+street\s+from\b'
-    r'|^\s*[\(\[]?\s*(?:right|left)\s+hand\s*(?:side)?\s*[\)\]]?\s*$'
-    r'|^\s*[\(\[]?\s*(?:right|left)\s+hand\s+side\b'
-    r'|^\s*(?:from\s+)?[a-z0-9\s\.\-]+\s*[\(\[]?\s*(?:right|left)\s+hand\s*[\)\]]?\s*(?:opposite\s+[a-z0-9\s\.\-]+)?\s*$'
+    r'|^\s*[\(\[]?\s*(?:right|left)[\s\-]+hand\s*(?:side)?\s*[\)\]]?\s*$'
+    r'|^\s*[\(\[]?\s*(?:right|left)[\s\-]+hand\s+side\b'
+    r'|^\s*(?:from\s+)?[a-z0-9\s\.\-]+\s*[\(\[]?\s*(?:right|left)[\s\-]+hand\s*[\)\]]?\s*(?:opposite\s+[a-z0-9\s\.\-]+)?\s*$'
     r'|^\s*opposite\s+(?:maindee\s+schools|board\s+schools|st\.\s*woolos\s+church|malpas\s+school|kensington\s+place|stow\s+park|stow-park)'
-    r'|^\s*last\s+corporation[\s\-]*road\s+street\s+on\s+left\s+hand\s+side'
+    r'|^\s*last\s+corporation[\s\-]*road\s+street\s+on\s+left[\s\-]+hand\s+side'
     r'|^\s*(?:west|east|north|south)\s+side\s+of\b'
     r'|\bcontinuation\b',
     re.I
@@ -121,13 +121,16 @@ def parse_tsv(input_path, output_path):
             if not any(p for p in parts):
                 continue
                 
-            # If any column contains a cross-street or return indicator, skip the entire row
-            is_note = False
-            for part in parts:
-                if part and CROSS_STREET_PAT.search(part):
-                    is_note = True
-                    break
-            if is_note:
+            # Combine all non-empty columns with a space to check cross-street descriptions
+            combined_row = " ".join([p for p in parts if p]).strip()
+            
+            # Check for divider patterns (like **, ***, ---)
+            if re.match(r'^[\s\*\-\_\=\#\+]+$', combined_row):
+                continue
+                
+            # Check for cross-street descriptions on the combined row and its symbol-stripped version
+            combined_row_stripped = combined_row.strip(' *-_~()[]')
+            if CROSS_STREET_PAT.search(combined_row) or CROSS_STREET_PAT.search(combined_row_stripped):
                 continue
                 
             col0 = parts[0]
