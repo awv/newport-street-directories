@@ -71,6 +71,47 @@ TRADE_KEYWORDS = [
     "milliner", "wine", "cabinet maker", "professor", "sorter"
 ]
 
+# Trade normalization mappings to clean up typos, spacing variations, and abbreviations
+TRADE_TYPO_MAP = {
+    'accountnt': 'accountant', 'shopkeepr': 'shopkeeper', 'seamaqn': 'seaman',
+    'glassblwr': 'glass blower', 'mouldr': 'moulder', 'agnt': 'agent',
+    'stevedr': 'stevedore', 'plastrer': 'plasterer', 'sadler': 'saddler',
+    'electician': 'electrician', 'furnceman': 'furnaceman', 'boilrmkr': 'boilermaker',
+    'boilr mkr': 'boilermaker', 'joinr': 'joiner', 'photogrphr': 'photographer',
+    'mechnc': 'mechanic', 'machinst': 'machinist', 'brklayer': 'bricklayer',
+    'boor repairer': 'boot repairer', 'buildr': 'builder', 'coal merchnt': 'coal merchant',
+    'dock wrkr': 'dock worker', 'warehseman': 'warehouseman', 'warehsemn': 'warehouseman',
+    'warehousem': 'warehouseman', 'foremaqn': 'foreman', 'grocrs': 'grocers',
+    'iron workr': 'iron worker', 'confectnrs': 'confectioners', 'sailmakr': 'sailmaker',
+    'sailmkr': 'sailmaker', 'confectionr': 'confectioner', 'inspectr': 'inspector',
+    'caretakr': 'caretaker', 'upholster': 'upholsterer', 'hailier': 'haulier',
+    'shunterr': 'shunter', 'paintetr': 'painter', 'draughtsmn': 'draughtsman',
+    'dairym': 'dairyman', 'dairymen': 'dairyman', 'solictrs': 'solicitors'
+}
+
+TRADE_EXACT_MAP = {
+    'iron worker': 'ironworker', 'ironworker': 'ironworker', 'steel worker': 'steelworker',
+    'steelworker': 'steelworker', 'boiler maker': 'boilermaker', 'boilermaker': 'boilermaker',
+    'plate layer': 'platelayer', 'platelayer': 'platelayer', 'brick layer': 'bricklayer',
+    'bricklayer': 'bricklayer', 'boot maker': 'bootmaker', 'bootmaker': 'bootmaker',
+    'hair dresser': 'hairdresser', 'hairdresser': 'hairdresser', 'black smith': 'blacksmith',
+    'blacksmith': 'blacksmith', 'gasworker': 'gas worker', 'ship wright': 'shipwright',
+    'shipwright': 'shipwright', 'furnace man': 'furnaceman', 'furnaceman': 'furnaceman',
+    'dairy man': 'dairyman', 'dairyman': 'dairyman', 'shop keeper': 'shopkeeper',
+    'shopkeeper': 'shopkeeper'
+}
+
+TRADE_ABBREV_MAP = {
+    'labr': 'labourer', 'lbr': 'labourer', 'laBR': 'labourer', 'ironwkr': 'ironworker',
+    'iron wkr': 'ironworker', 'steelwkr': 'steelworker', 'steel wkr': 'steelworker',
+    'clk': 'clerk', 'ptr': 'painter', 'dvr': 'driver', 'trm': 'trimmer',
+    'car drvr': 'car driver', 'mtr drvr': 'motor driver', 'mtr dvr': 'motor driver',
+    'lry dvr': 'lorry driver', 'lorry drv': 'lorry driver', 'dk. labourer': 'dock labourer',
+    'dock labr': 'dock labourer', 'dock lbr': 'dock labourer', 'civ servant': 'civil servant',
+    'civil srvt': 'civil servant', 'cargo wk': 'cargo worker', 'cargo wkr': 'cargo worker',
+    'gen shp': 'general shop', 'gen shop': 'general shop'
+}
+
 BUSINESS_SUFFIX_REGEX = re.compile(
     r"^(?:&|and|ltd|limited|co\.?|company|sons|bros|brothers|school|academy|place\s+school|house|depot|works|chambers|stores|hotel|inn|arms|vaults)\b",
     re.I
@@ -1133,15 +1174,31 @@ def clean_record(row):
 
             trade = re.sub(r'([a-zA-Z]{3,})\.\s*$', r'\1', trade)
 
-            t_low = trade.lower()
-            if t_low in {'ptr', 'ptr.'}:
-                trade = 'painter'
-            elif t_low in {'clk', 'clk.'}:
-                trade = 'clerk'
-            elif t_low in {'dvr', 'dvr.'}:
-                trade = 'driver'
-            elif t_low in {'trm', 'trm.'}:
-                trade = 'trimmer'
+            t_low = trade.lower().strip(' ,"-~.')
+            changed_words = False
+            
+            val = t_low
+            if val in TRADE_TYPO_MAP:
+                val = TRADE_TYPO_MAP[val]
+                changed_words = True
+            if val in TRADE_EXACT_MAP:
+                val = TRADE_EXACT_MAP[val]
+                changed_words = True
+            if val in TRADE_ABBREV_MAP:
+                val = TRADE_ABBREV_MAP[val]
+                changed_words = True
+
+            case_insensitive_standards = {
+                'engine driver', 'coal trimmer', 'motor driver', 'lorry driver',
+                'crane driver', 'insurance agent', 'boot repairer'
+            }
+            if val in case_insensitive_standards:
+                trade = val
+            elif not changed_words and val == trade.strip(' ,"-~.').lower():
+                # Keep original casing (like G.W.R.) if we didn't change the words
+                trade = trade.strip(' ,"-~.')
+            else:
+                trade = val
 
     # Standardize G.p.o. / G.p.o / GPO / G.P.O -> G.P.O.
     pat_gpo = re.compile(r'\b(g\.?p\.?o\.?)\b\.?', re.I)
