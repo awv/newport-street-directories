@@ -359,8 +359,27 @@ NON_VILLA_WORDS = {
 def is_trade_word(text):
     if not text:
         return False
-    t_low = text.lower()
-    return any(kw in t_low for kw in TRADE_KEYWORDS) or t_low in {'fitter', 'wiredrawer', 'secretary', 'accountant', 'cranedriver', 'supervisor', 'joiner', 'clerk', 'painter', 'builder', 'driver', 'grocer', 'draper', 'mason', 'baker', 'tailor', 'agent', 'manager', 'salesman'}
+    t_low = text.lower().strip(' ,.-')
+    words = [w.strip(' ,.-') for w in t_low.split()]
+    
+    known_trade_parts = {
+        'fitter', 'wiredrawer', 'secretary', 'accountant', 'cranedriver', 'supervisor',
+        'joiner', 'clerk', 'painter', 'builder', 'driver', 'grocer', 'draper', 'mason',
+        'baker', 'tailor', 'agent', 'manager', 'salesman', 'postman', 'seaman', 'docker',
+        'butcher', 'traveller', 'foreman', 'electrician', 'plumber', 'machinist',
+        'decorator', 'confectioner', 'shunter', 'moulder', 'printer', 'coal merchant',
+        'warehouseman', 'signalman', 'general shop', 'fruiterer', 'checker', 'teacher',
+        'chauffeur', 'roller', 'steward', 'laundress', 'police', 'dvr', 'srvnt', 'srvt',
+        'clk', 'ptr', 'trm', 'labourer', 'labr', 'lbr', 'eng', 'drvr', 'pilot', 'porter'
+    }
+    
+    for w in words:
+        if w in TRADE_TYPO_MAP or w in TRADE_EXACT_MAP or w in TRADE_ABBREV_MAP or w in known_trade_parts or w in TRADE_KEYWORDS:
+            return True
+            
+    if t_low in TRADE_TYPO_MAP or t_low in TRADE_EXACT_MAP or t_low in TRADE_ABBREV_MAP:
+        return True
+    return any(kw in t_low for kw in TRADE_KEYWORDS) or any(kw in t_low for kw in known_trade_parts)
 
 BUILDING_NAME_TRADE_REGEX = re.compile(
     r'^\s*The\s+(?:Laurels|Firs|Knoll|Bungalow|Ferns|Nook|Grove|Oaks|Limes|Retreat|Woodlands|Mount|Hollies|Dell|Grange|Dingle|Beeches|Croft|Gables|Haven|Egg Market|Lawn|Poplars|Elms|Cedars|Willows|Pines|Vicarage|Rectory)\b',

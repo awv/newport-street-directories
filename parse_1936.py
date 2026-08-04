@@ -149,6 +149,19 @@ def parse_tsv(input_path, output_path):
             bldg = parts[4]
             notes = parts[5]
             
+            # Shift misaligned titles/forenames in the 'Business / Entity' or 'Job / Trade' columns to 'Forenames'
+            for val in [trade, bldg]:
+                if val:
+                    val_low = val.strip().lower()
+                    if val_low.startswith("mrs") or val_low.startswith("miss") or val_low.startswith("mr") or val_low.startswith("dr") or val_low.startswith("rev"):
+                        if not forename:
+                            forename = val
+                            if val == trade:
+                                trade = ""
+                            else:
+                                bldg = ""
+                            break
+
             # Check if this row is purely a cross-street or return indicator in Layout/Notes
             if not h_num and not forename and not surname and not trade and not bldg and notes:
                 if CROSS_STREET_PAT.search(notes):
