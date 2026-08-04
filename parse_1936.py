@@ -121,6 +121,15 @@ def parse_tsv(input_path, output_path):
             if not any(p for p in parts):
                 continue
                 
+            # If any column contains a cross-street or return indicator, skip the entire row
+            is_note = False
+            for part in parts:
+                if part and CROSS_STREET_PAT.search(part):
+                    is_note = True
+                    break
+            if is_note:
+                continue
+                
             col0 = parts[0]
             other_cols_empty = all(not p for p in parts[1:])
             
