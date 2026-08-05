@@ -97,15 +97,39 @@ def is_valid_street_name(s):
     s = s.strip()
     if not s:
         return False
-    if not s.isupper():
+    # Clean common suffixes from street name candidates
+    s_clean = s
+    s_clean = re.sub(r'[\s\-—]+continued\b', '', s_clean, flags=re.I).strip()
+    s_clean = re.sub(r'\b(?:from|to|off)\s+.*', '', s_clean, flags=re.I).strip()
+    s_clean = re.sub(r'[\(\[].*?[\)\]]', '', s_clean, flags=re.I).strip()
+    
+    if not s_clean:
         return False
-    if s.startswith('(') or s.startswith('[') or s.startswith('*') or s.endswith(')'):
+    if not s_clean.isupper():
         return False
-    if s.lower() in {'(return)', 'return', 'continued', 'tregare street—continued'}:
+        
+    # Ignore short stray page headers (like ARC, ALB, STO)
+    if len(s_clean) <= 4:
         return False
-    if s.startswith("OFF ") or s.startswith("FROM ") or s.startswith("TO "):
+        
+    # Ignore grid reference patterns (e.g. "D 5", "E 12")
+    if re.match(r'^[A-Z]\s*\d+$', s_clean):
         return False
-    if s in {"LEFT HAND SIDE", "RIGHT HAND SIDE", "EAST SIDE", "WEST SIDE"}:
+        
+    # Ignore generic page directory titles
+    if s_clean in {
+        "NEWPORT STREET DIRECTORY", "NEWPORT", "STREET DIRECTORY", 
+        "DIRECTORY", "ALEXANDRA SCHOOLS", "SPRING GARDENS SCHOOL"
+    }:
+        return False
+        
+    if s_clean.startswith('(') or s_clean.startswith('[') or s_clean.startswith('*') or s_clean.endswith(')'):
+        return False
+    if s_clean.lower() in {'(return)', 'return', 'continued'}:
+        return False
+    if s_clean.startswith("OFF ") or s_clean.startswith("FROM ") or s_clean.startswith("TO "):
+        return False
+    if s_clean in {"LEFT HAND SIDE", "RIGHT HAND SIDE", "EAST SIDE", "WEST SIDE"}:
         return False
     return True
 
@@ -124,6 +148,21 @@ def parse_tsv(input_path, output_path):
             if not any(p for p in parts):
                 continue
                 
+            col0 = parts[0]
+            
+            # Identify street header
+            is_street = False
+            if col0 and is_valid_street_name(col0):
+                is_street = True
+                    
+            if is_street:
+                s_clean = col0.strip()
+                s_clean = re.sub(r'[\s\-—]+continued\b', '', s_clean, flags=re.I).strip()
+                s_clean = re.sub(r'\b(?:from|to|off)\s+.*', '', s_clean, flags=re.I).strip()
+                s_clean = re.sub(r'[\(\[].*?[\)\]]', '', s_clean, flags=re.I).strip()
+                current_street = clean_street_name(s_clean)
+                continue
+                
             # Combine all non-empty columns with a space to check cross-street descriptions
             combined_row = " ".join([p for p in parts if p]).strip()
             
@@ -134,19 +173,6 @@ def parse_tsv(input_path, output_path):
             # Check for cross-street descriptions on the combined row and its symbol-stripped version
             combined_row_stripped = combined_row.strip(' *-_~()[]')
             if CROSS_STREET_PAT.search(combined_row) or CROSS_STREET_PAT.search(combined_row_stripped):
-                continue
-                
-            col0 = parts[0]
-            other_cols_empty = all(not p for p in parts[1:])
-            
-            # Identify street header
-            is_street = False
-            if col0 and other_cols_empty:
-                if is_valid_street_name(col0):
-                    is_street = True
-                    
-            if is_street:
-                current_street = clean_street_name(col0)
                 continue
                 
             # If we don't have an active street name, skip records

@@ -148,6 +148,21 @@ def parse_tsv(input_path, output_path):
             if not any(p for p in parts):
                 continue
                 
+            col0 = parts[0]
+            
+            # Identify street header
+            is_street = False
+            if col0 and is_valid_street_name(col0):
+                is_street = True
+                    
+            if is_street:
+                s_clean = col0.strip()
+                s_clean = re.sub(r'[\s\-—]+continued\b', '', s_clean, flags=re.I).strip()
+                s_clean = re.sub(r'\b(?:from|to|off)\s+.*', '', s_clean, flags=re.I).strip()
+                s_clean = re.sub(r'[\(\[].*?[\)\]]', '', s_clean, flags=re.I).strip()
+                current_street = clean_street_name(s_clean)
+                continue
+                
             # Combine all non-empty columns with a space to check cross-street descriptions
             combined_row = " ".join([p for p in parts if p]).strip()
             
@@ -165,28 +180,6 @@ def parse_tsv(input_path, output_path):
                 combined_row_lower.startswith("opposite ") or 
                 combined_row_lower.startswith("here is ") or 
                 combined_row_lower.startswith("here are ")):
-                continue
-                
-            col0 = parts[0]
-            
-            # Identify street header
-            is_street = False
-            if col0:
-                cols_are_empty_or_dup = True
-                for p in parts[1:]:
-                    if p and p != col0 and p not in col0 and col0 not in p:
-                        cols_are_empty_or_dup = False
-                        break
-                if cols_are_empty_or_dup:
-                    if is_valid_street_name(col0):
-                        is_street = True
-                    
-            if is_street:
-                s_clean = col0.strip()
-                s_clean = re.sub(r'[\s\-—]+continued\b', '', s_clean, flags=re.I).strip()
-                s_clean = re.sub(r'\b(?:from|to|off)\s+.*', '', s_clean, flags=re.I).strip()
-                s_clean = re.sub(r'[\(\[].*?[\)\]]', '', s_clean, flags=re.I).strip()
-                current_street = clean_street_name(s_clean)
                 continue
                 
             # If we don't have an active street name, skip records

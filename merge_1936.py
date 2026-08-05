@@ -1,20 +1,37 @@
 import csv
 
-# We read 1936_cleaned.csv and append to data.csv
-records_to_append = []
-with open("1936_cleaned.csv", "r", encoding="utf-8") as f_in:
-    reader = csv.DictReader(f_in)
-    for r in reader:
-        records_to_append.append(r)
+data_csv = "data.csv"
+cleaned_csv = "1936_cleaned.csv"
 
-# Read the header of data.csv to ensure we keep fields in correct order
-with open("data.csv", "r", encoding="utf-8") as f_data:
-    reader = csv.DictReader(f_data)
-    fieldnames = reader.fieldnames
+# 1. Read existing data.csv and filter out any existing 1936 records
+header = None
+records_to_keep = []
+existing_count = 0
 
-# Append to data.csv
-with open("data.csv", "a", encoding="utf-8", newline="") as f_out:
-    writer = csv.DictWriter(f_out, fieldnames=fieldnames)
-    writer.writerows(records_to_append)
+with open(data_csv, "r", encoding="utf-8") as f_data:
+    reader = csv.reader(f_data)
+    header = next(reader)
+    for row in reader:
+        if row and row[0] == "1936":
+            existing_count += 1
+            continue
+        records_to_keep.append(row)
 
-print(f"Appended {len(records_to_append)} records to data.csv successfully.")
+print(f"Found and removed {existing_count} old 1936 records from {data_csv}.")
+
+# 2. Read new clean 1936 records
+new_records = []
+with open(cleaned_csv, "r", encoding="utf-8") as f_new:
+    reader = csv.reader(f_new)
+    new_header = next(reader) # Skip header
+    for row in reader:
+        new_records.append(row)
+
+# 3. Write everything back to data.csv
+with open(data_csv, "w", encoding="utf-8", newline="") as f_out:
+    writer = csv.writer(f_out)
+    writer.writerow(header)
+    writer.writerows(records_to_keep)
+    writer.writerows(new_records)
+
+print(f"Successfully merged {len(new_records)} new clean 1936 records into {data_csv}.")
