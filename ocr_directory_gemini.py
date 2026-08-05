@@ -114,13 +114,14 @@ Rules:
                     )
                     break # Success! Break out of the retry loop.
                 except Exception as e:
-                    # Check if it is a 429 rate limit error
-                    if "429" in str(e) or "exhausted" in str(e).lower() or "limit" in str(e).lower():
-                        print(f"  [Rate Limited] 429 error. Attempt {attempt}/{max_retries}. Waiting {backoff_delay} seconds...")
+                    # Check if it is a 429 rate limit or 503 temporary server error
+                    err_str = str(e).lower()
+                    if "429" in err_str or "503" in err_str or "exhausted" in err_str or "limit" in err_str or "unavailable" in err_str:
+                        print(f"  [Temporary Error/Rate Limited] Spikes in demand or rate limit. Attempt {attempt}/{max_retries}. Waiting {backoff_delay} seconds...")
                         time.sleep(backoff_delay)
                         backoff_delay = min(backoff_delay * 2, 120) # Exponential backoff capped at 2 minutes
                     else:
-                        raise e # Re-raise if it's not a rate limit error
+                        raise e # Re-raise if it's not a retryable error
             
             if response is None:
                 print(f"Error: Failed to process {filename} after {max_retries} attempts due to rate limits.")
