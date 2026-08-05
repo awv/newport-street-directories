@@ -97,15 +97,19 @@ def is_valid_street_name(s):
     s = s.strip()
     if not s:
         return False
-    if not s.isupper():
+    # Clean the street name to remove common suffixes like "- continued" or "—continued"
+    s_clean = re.sub(r'[\s\-—]+continued\b', '', s, flags=re.I).strip()
+    if not s_clean:
         return False
-    if s.startswith('(') or s.startswith('[') or s.startswith('*') or s.endswith(')'):
+    if not s_clean.isupper():
         return False
-    if s.lower() in {'(return)', 'return', 'continued', 'tregare street—continued'}:
+    if s_clean.startswith('(') or s_clean.startswith('[') or s_clean.startswith('*') or s_clean.endswith(')'):
         return False
-    if s.startswith("OFF ") or s.startswith("FROM ") or s.startswith("TO "):
+    if s_clean.lower() in {'(return)', 'return', 'continued'}:
         return False
-    if s in {"LEFT HAND SIDE", "RIGHT HAND SIDE", "EAST SIDE", "WEST SIDE"}:
+    if s_clean.startswith("OFF ") or s_clean.startswith("FROM ") or s_clean.startswith("TO "):
+        return False
+    if s_clean in {"LEFT HAND SIDE", "RIGHT HAND SIDE", "EAST SIDE", "WEST SIDE"}:
         return False
     return True
 
@@ -154,6 +158,7 @@ def parse_tsv(input_path, output_path):
                     
             if is_street:
                 current_street = clean_street_name(col0)
+                current_street = re.sub(r'[\s\-—]+continued\b', '', current_street, flags=re.I).strip()
                 continue
                 
             # If we don't have an active street name, skip records
