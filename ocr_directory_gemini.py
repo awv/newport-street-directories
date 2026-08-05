@@ -44,7 +44,7 @@ def main():
         }
     )
 
-    image_dir = "/Users/robgale/Documents/Newport Street Directory Project/assets/Johns Directory 1927"
+    image_dir = "/Users/robgale/Documents/Newport Street Directory Project/original_scans/Johns Directory 1927"
     image_paths = sorted(glob.glob(os.path.join(image_dir, "*.jpeg")) + glob.glob(os.path.join(image_dir, "*.jpg")))
 
     if not image_paths:
