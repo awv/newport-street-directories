@@ -108,9 +108,8 @@ Rules:
             
             for attempt in range(1, max_retries + 1):
                 try:
-                    # Call Gemini using the new SDK generate_content method
                     response = client.models.generate_content(
-                        model='gemini-1.5-flash',
+                        model='gemini-flash-lite-latest',
                         contents=[img, prompt]
                     )
                     break # Success! Break out of the retry loop.
