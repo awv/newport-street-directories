@@ -44,7 +44,7 @@ def main():
         }
     )
 
-    image_dir = "/Users/robgale/Desktop/Blip/Johns Directory 1878"
+    image_dir = "/Users/robgale/Documents/Newport Street Directory Project/assets/Johns Directory 1927"
     image_paths = sorted(glob.glob(os.path.join(image_dir, "*.jpeg")) + glob.glob(os.path.join(image_dir, "*.jpg")))
 
     if not image_paths:
@@ -52,8 +52,8 @@ def main():
         sys.exit(1)
 
     print(f"Found {len(image_paths)} images to process.")
-    output_tsv = "1878.tsv"
-    processed_log = "processed_images.txt"
+    output_tsv = "1927.tsv"
+    processed_log = "processed_images_1927.txt"
 
     # Header for the TSV
     header = "Number\tForenames\tSurname\tJob / Trade\tBusiness / Entity\tLayout / Notes\n"
