@@ -1942,7 +1942,7 @@
 
           if (rHouseNum && (rHouseNum === cleanLocKey || rHouseNum === cleanExtractedNum)) return true;
           if (rBldgName && (rBldgName === cleanLocKey || rBldgName === cleanExtractedNum)) return true;
-          if (!rHouseNum && !rBldgName && (fullName === cleanLocKey || cleanLocKey.includes(fullName))) return true;
+          if (!rHouseNum && !rBldgName && fullName && (fullName === cleanLocKey || cleanLocKey.includes(fullName))) return true;
 
           return false;
         })
