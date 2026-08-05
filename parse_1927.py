@@ -97,12 +97,32 @@ def is_valid_street_name(s):
     s = s.strip()
     if not s:
         return False
-    # Clean the street name to remove common suffixes like "- continued" or "—continued"
-    s_clean = re.sub(r'[\s\-—]+continued\b', '', s, flags=re.I).strip()
+    # Clean common suffixes from street name candidates
+    s_clean = s
+    s_clean = re.sub(r'[\s\-—]+continued\b', '', s_clean, flags=re.I).strip()
+    s_clean = re.sub(r'\b(?:from|to|off)\s+.*', '', s_clean, flags=re.I).strip()
+    s_clean = re.sub(r'[\(\[].*?[\)\]]', '', s_clean, flags=re.I).strip()
+    
     if not s_clean:
         return False
     if not s_clean.isupper():
         return False
+        
+    # Ignore short stray page headers (like ARC, ALB, STO)
+    if len(s_clean) <= 4:
+        return False
+        
+    # Ignore grid reference patterns (e.g. "D 5", "E 12")
+    if re.match(r'^[A-Z]\s*\d+$', s_clean):
+        return False
+        
+    # Ignore generic page directory titles
+    if s_clean in {
+        "NEWPORT STREET DIRECTORY", "NEWPORT", "STREET DIRECTORY", 
+        "DIRECTORY", "ALEXANDRA SCHOOLS", "SPRING GARDENS SCHOOL"
+    }:
+        return False
+        
     if s_clean.startswith('(') or s_clean.startswith('[') or s_clean.startswith('*') or s_clean.endswith(')'):
         return False
     if s_clean.lower() in {'(return)', 'return', 'continued'}:
@@ -148,17 +168,25 @@ def parse_tsv(input_path, output_path):
                 continue
                 
             col0 = parts[0]
-            other_cols_empty = all(not p for p in parts[1:])
             
             # Identify street header
             is_street = False
-            if col0 and other_cols_empty:
-                if is_valid_street_name(col0):
-                    is_street = True
+            if col0:
+                cols_are_empty_or_dup = True
+                for p in parts[1:]:
+                    if p and p != col0 and p not in col0 and col0 not in p:
+                        cols_are_empty_or_dup = False
+                        break
+                if cols_are_empty_or_dup:
+                    if is_valid_street_name(col0):
+                        is_street = True
                     
             if is_street:
-                current_street = clean_street_name(col0)
-                current_street = re.sub(r'[\s\-—]+continued\b', '', current_street, flags=re.I).strip()
+                s_clean = col0.strip()
+                s_clean = re.sub(r'[\s\-—]+continued\b', '', s_clean, flags=re.I).strip()
+                s_clean = re.sub(r'\b(?:from|to|off)\s+.*', '', s_clean, flags=re.I).strip()
+                s_clean = re.sub(r'[\(\[].*?[\)\]]', '', s_clean, flags=re.I).strip()
+                current_street = clean_street_name(s_clean)
                 continue
                 
             # If we don't have an active street name, skip records
