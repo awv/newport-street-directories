@@ -168,9 +168,8 @@ Rules:
                     
             print(f"Successfully appended {len(cleaned_lines)} lines from {filename}")
             
-            # Base sleep delay between pages to be gentle on the API
-            time.sleep(5)
-            
+            # Base sleep delay between pages to keep under the 5 RPM rate limit
+            time.sleep(16)
         except Exception as e:
             print(f"Error processing {os.path.basename(img_path)}: {e}")
             print("Skipping to next page...")
