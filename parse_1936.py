@@ -140,6 +140,7 @@ def parse_tsv(input_path, output_path):
     with open(input_path, "r", encoding="utf-8") as f:
         for line_num, line in enumerate(f, start=1):
             parts = [p.strip() for p in line.split('\t')]
+            raw_parts_for_extra = parts[5:]
             while len(parts) < 6:
                 parts.append('')
             parts = parts[:6]
@@ -240,6 +241,89 @@ def parse_tsv(input_path, output_path):
                     "forename": forename,
                     "trade": trade
                 })
+                
+                # Secondary residents extraction from raw_parts_for_extra
+                extra_str = " / ".join([p for p in raw_parts_for_extra if p]).strip()
+                if extra_str:
+                    extra_parts = [ep.strip() for ep in extra_str.split('/')]
+                    for ep in extra_parts:
+                        if not ep:
+                            continue
+                        ep_low = ep.lower()
+                        
+                        # 1. Check if it is a building name
+                        is_bldg = False
+                        bldg_keywords = {'house', 'villa', 'cottage', 'cot', 'hotel', 'chambers', 'hall', 'buildings', 'school', 'church', 'chapel'}
+                        if any(kw in ep_low for kw in bldg_keywords) and len(ep.split()) <= 3:
+                            if not records[-1]['building_name']:
+                                records[-1]['building_name'] = ep
+                            continue
+                            
+                        # 2. Check if it is a trade
+                        is_td = False
+                        trade_keywords = {
+                            'labourer', 'labr', 'carpenter', 'carpntr', 'steward', 'salesman', 'clerk', 
+                            'mason', 'fitter', 'builder', 'haulier', 'fireman', 'guard', 'shoemaker',
+                            'draper', 'baker', 'rigger', 'tailor', 'painter', 'smith', 'engineer',
+                            'mechanic', 'machinist', 'bricklayer', 'conductor', 'plumber', 'driver',
+                            'steelworker', 'platelayer', 'coal', 'trimmer', 'pilot', 'porter',
+                            'agent', 'merchant', 'dentist', 'hairdresser', 'chiropodist', 'dressmaker'
+                        }
+                        if ep_low in trade_keywords or clean_trade(ep) != ep:
+                            if records:
+                                records[-1]['trade'] = clean_trade(ep)
+                            continue
+                            
+                        # 3. Otherwise, parse as a secondary resident
+                        tokens = ep.split()
+                        if not tokens:
+                            continue
+                            
+                        s_name = tokens[0]
+                        f_name = ""
+                        t_name = ""
+                        
+                        if len(tokens) == 2:
+                            f_name = tokens[1]
+                        elif len(tokens) >= 3:
+                            last_low = tokens[-1].lower()
+                            if last_low in trade_keywords:
+                                if len(tokens) >= 4 and tokens[-2].lower() in {'ship', 'coal', 'crane', 'dock', 'goods', 'engine', 'motor', 'police', 'stone', 'shoe', 'wood'}:
+                                    t_name = " ".join(tokens[-2:])
+                                    f_name = " ".join(tokens[1:-2])
+                                else:
+                                    t_name = tokens[-1]
+                                    f_name = " ".join(tokens[1:-1])
+                            else:
+                                f_name = " ".join(tokens[1:])
+                                
+                        s_name = s_name.strip(' ,"-~.')
+                        f_name = f_name.strip(' ,"-~.')
+                        t_name = clean_trade(t_name)
+                        f_name = clean_name_abbr(f_name)
+                        
+                        if f_name and ',' in f_name:
+                            f_name_part, trade_part = f_name.split(',', 1)
+                            f_name = f_name_part.strip()
+                            if not t_name:
+                                t_name = clean_trade(trade_part)
+                                
+                        if s_name and ',' in s_name:
+                            s_name_part, trade_part = s_name.split(',', 1)
+                            s_name = s_name_part.strip()
+                            if not t_name:
+                                t_name = clean_trade(trade_part)
+                                
+                        if s_name or f_name or t_name:
+                            records.append({
+                                "year": "1936",
+                                "street": current_street,
+                                "house_number": h_num,
+                                "building_name": bldg,
+                                "surname": s_name,
+                                "forename": f_name,
+                                "trade": t_name
+                            })
                 
     # Write to temp output
     with open(output_path, "w", encoding="utf-8", newline="") as f_out:
