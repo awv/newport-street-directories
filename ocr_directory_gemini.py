@@ -110,7 +110,7 @@ Rules:
                 try:
                     # Call Gemini using the new SDK generate_content method
                     response = client.models.generate_content(
-                        model='gemini-flash-latest',
+                        model='gemini-1.5-flash',
                         contents=[img, prompt]
                     )
                     break # Success! Break out of the retry loop.
@@ -168,8 +168,8 @@ Rules:
                     
             print(f"Successfully appended {len(cleaned_lines)} lines from {filename}")
             
-            # Base sleep delay between pages to keep under the 5 RPM rate limit
-            time.sleep(16)
+            # Base sleep delay between pages to keep under the 15 RPM rate limit
+            time.sleep(6)
         except Exception as e:
             print(f"Error processing {os.path.basename(img_path)}: {e}")
             print("Skipping to next page...")
