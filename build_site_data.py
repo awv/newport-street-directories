@@ -13,6 +13,64 @@ def clean_slug(text):
     slug = re.sub(r'[^a-z0-9]+', '-', text.lower()).strip('-')
     return slug or "unnamed"
 
+def parse_street_content(slug):
+    content_path = os.path.join("street_content", slug)
+    md_file = os.path.join(content_path, "index.md")
+    
+    data = {
+        "description": "",
+        "latitude": "",
+        "longitude": "",
+        "map_query": "",
+        "images": []
+    }
+    
+    if not os.path.isdir(content_path):
+        return data
+        
+    # List images
+    valid_exts = {".jpg", ".jpeg", ".png", ".gif", ".webp"}
+    try:
+        for f in os.listdir(content_path):
+            ext = os.path.splitext(f)[1].lower()
+            if ext in valid_exts:
+                data["images"].append(f"street_content/{slug}/{f}")
+    except Exception as e:
+        print(f"Warning: Could not list files in {content_path}: {e}")
+            
+    if os.path.exists(md_file):
+        try:
+            with open(md_file, "r", encoding="utf-8") as f:
+                lines = f.readlines()
+                
+            frontmatter = {}
+            body = []
+            in_fm = False
+            fm_count = 0
+            
+            for line in lines:
+                stripped = line.strip()
+                if stripped == "---":
+                    in_fm = not in_fm
+                    fm_count += 1
+                    continue
+                    
+                if in_fm and fm_count == 1:
+                    if ":" in line:
+                        k, v = line.split(":", 1)
+                        frontmatter[k.strip().lower()] = v.strip().strip('"\'')
+                else:
+                    body.append(line)
+                    
+            data["description"] = "".join(body).strip()
+            data["latitude"] = frontmatter.get("latitude", "")
+            data["longitude"] = frontmatter.get("longitude", "")
+            data["map_query"] = frontmatter.get("map_query", "")
+        except Exception as e:
+            print(f"Warning: Could not parse {md_file}: {e}")
+        
+    return data
+
 def main():
     os.makedirs(STREETS_DIR, exist_ok=True)
     
@@ -82,6 +140,9 @@ def main():
         first_yr = int(years_sorted[0]) if years_sorted and years_sorted[0].isdigit() else 1876
         last_yr = int(years_sorted[-1]) if years_sorted and years_sorted[-1].isdigit() else 1950
 
+        # Load custom street content (description, images, coordinates override)
+        content = parse_street_content(slug)
+
         summary = {
             "displayName": stats["displayName"],
             "slug": slug,
@@ -90,7 +151,10 @@ def main():
             "buildingCount": len(stats["namedBuildings"]),
             "earliestYear": first_yr,
             "latestYear": last_yr,
-            "yearsSpan": f"{first_yr}–{last_yr}" if first_yr != last_yr else str(first_yr)
+            "yearsSpan": f"{first_yr}–{last_yr}" if first_yr != last_yr else str(first_yr),
+            "latitude": content["latitude"],
+            "longitude": content["longitude"],
+            "hasContent": bool(content["description"] or content["images"])
         }
         streets_summary.append(summary)
 
@@ -101,7 +165,10 @@ def main():
                 "street": stats["displayName"],
                 "slug": slug,
                 "summary": summary,
-                "records": records
+                "records": records,
+                "description": content["description"],
+                "images": content["images"],
+                "mapQuery": content["map_query"]
             }, sf, indent=None, separators=(',', ':'))
 
     # Clean up stale per-street JSON files

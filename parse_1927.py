@@ -97,11 +97,12 @@ def is_valid_street_name(s):
     s = s.strip()
     if not s:
         return False
-    # Clean common suffixes from street name candidates
+    # Clean common suffixes and trailing punctuation from street name candidates
     s_clean = s
     s_clean = re.sub(r'[\s\-—]+continued\b', '', s_clean, flags=re.I).strip()
     s_clean = re.sub(r'\b(?:from|to|off)\s+.*', '', s_clean, flags=re.I).strip()
     s_clean = re.sub(r'[\(\[].*?[\)\]]', '', s_clean, flags=re.I).strip()
+    s_clean = s_clean.rstrip('. -—,')
     
     if not s_clean:
         return False
@@ -116,11 +117,18 @@ def is_valid_street_name(s):
     if re.match(r'^[A-Z]\s*\d+$', s_clean):
         return False
         
-    # Ignore generic page directory titles
-    if s_clean in {
+    # Ignore generic page directory titles and institution/church headers
+    ignored_headers = {
         "NEWPORT STREET DIRECTORY", "NEWPORT", "STREET DIRECTORY", 
-        "DIRECTORY", "ALEXANDRA SCHOOLS", "SPRING GARDENS SCHOOL"
-    }:
+        "DIRECTORY", "ALEXANDRA SCHOOLS", "SPRING GARDENS SCHOOL",
+        "WESLEYAN METH CHURCH", "WESLEYAN METHODIST CHAPEL", "WESLEYAN METHODIST MISSION HALL",
+        "THE BARRACKS", "THE BARRACKS—", "UNITED METHODIST CHURCH", "PRESBYTERIAN CHURCH",
+        "TEMPERANCE COTTAGES", "NEW TERRITORIAL DRILL", "MARSHES HALL", "NORTH STREET MEETING",
+        "PENYLAN MISSION ROOM", "PILLGWENLLY WESLEYAN", "PUBLIC PARK", "FOR GOOD SHIRT AND COLLAR DRESSING",
+        "KINDLY SERVICE THE KEYNOTE OF THIS ESTABLISHMENT", "WOODLAND STREET DIRECTORY"
+    }
+    norm_clean = re.sub(r'[^A-Z0-9\s]', '', s_clean).strip()
+    if norm_clean in {re.sub(r'[^A-Z0-9\s]', '', h) for h in ignored_headers}:
         return False
         
     if s_clean.startswith('(') or s_clean.startswith('[') or s_clean.startswith('*') or s_clean.endswith(')'):
