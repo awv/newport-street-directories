@@ -72,6 +72,11 @@ def main():
     prompt = """You are an expert OCR transcription assistant specializing in historical street directories.
 Transcribe the directory on this page into a clean tab-separated (TSV) table.
 
+CRITICAL HOUSE NUMBER RULE:
+- Each listing usually starts with a house number (e.g. 1, 2, 3, 4, 5...).
+- WARNING: These house numbers are often printed in a very narrow column right up against the vertical dividing lines.
+- You MUST capture these numbers and put them in the 'Number' column. Do NOT skip them, and do NOT merge them into the surname. They are critical!
+
 CRITICAL LAYOUT RULE:
 The page is printed in THREE side-by-side vertical columns (Column 1 on the left, Column 2 in the middle, Column 3 on the right).
 You MUST transcribe Column 1 first (top-to-bottom), then Column 2 (top-to-bottom), and finally Column 3 (top-to-bottom) so they form a single continuous list of rows.
@@ -124,7 +129,7 @@ General Rules:
             for attempt in range(1, max_retries + 1):
                 try:
                     response = client.models.generate_content(
-                        model='gemini-2.0-flash',
+                        model='gemini-flash-lite-latest',
                         contents=[img, prompt]
                     )
                     break # Success! Break out of the retry loop.
