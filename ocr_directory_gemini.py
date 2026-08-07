@@ -44,7 +44,7 @@ def main():
         }
     )
 
-    image_dir = "/Users/robgale/Documents/Newport Street Directory Project/original_scans/Johns Directory 1927"
+    image_dir = "/Users/robgale/Documents/Newport Street Directory Project/original_scans/Johns Directory 1971"
     image_paths = sorted(glob.glob(os.path.join(image_dir, "*.jpeg")) + glob.glob(os.path.join(image_dir, "*.jpg")))
 
     if not image_paths:
@@ -52,8 +52,8 @@ def main():
         sys.exit(1)
 
     print(f"Found {len(image_paths)} images to process.")
-    output_tsv = "1927.tsv"
-    processed_log = "processed_images_1927.txt"
+    output_tsv = "1971.tsv"
+    processed_log = "processed_images_1971.txt"
 
     # Header for the TSV
     header = "Number\tForenames\tSurname\tJob / Trade\tBusiness / Entity\tLayout / Notes\n"
@@ -70,18 +70,33 @@ def main():
             processed_files = set(line.strip() for line in f if line.strip())
 
     prompt = """You are an expert OCR transcription assistant specializing in historical street directories.
-Transcribe the columns of the directory on this page into a clean tab-separated (TSV) table.
+Transcribe the directory on this page into a clean tab-separated (TSV) table.
+
+CRITICAL LAYOUT RULE:
+The page is printed in THREE side-by-side vertical columns (Column 1 on the left, Column 2 in the middle, Column 3 on the right).
+You MUST transcribe Column 1 first (top-to-bottom), then Column 2 (top-to-bottom), and finally Column 3 (top-to-bottom) so they form a single continuous list of rows.
+Do NOT merge side-by-side column entries into the same row. Each resident/listing must be on its own separate row.
+Do NOT append any extra columns, labels, or indicators like "Left Column", "Right Column", or "Column 1" to the rows.
 
 Use exactly these six columns:
 Number	Forenames	Surname	Job / Trade	Business / Entity	Layout / Notes
 
-Rules:
+Special Instructions for Paid Advertisements:
+- This directory contains random "paid advertisements" in larger bold font with descriptions inline (e.g. "WILDINGS LIMITED", "CAINES (NEWPORT) LTD").
+- Treat them as normal resident listings at their respective street numbers.
+- Map the business name (e.g., "Wildings Limited", "Reynolds of Newport") to the 'Business / Entity' column.
+- Map the main description/trade (e.g., "departmental store", "outfitters") to the 'Job / Trade' column.
+- Put any extra info or extended blurbs into the 'Layout / Notes' column, but **omit telephone numbers entirely** (do not transcribe references like "Tel. 62861" or "Telephone, Newport 64897/8").
+
+Special Instructions for Flats & Sub-units:
+- If a listing features a flat number next to the house number (e.g. "568 (flat 11) Lowe S. E"), put the base house number (e.g., "568") in the 'Number' column, and put the flat name (e.g., "Flat 11") in the 'Business / Entity' column.
+
+General Rules:
 1. Output ONLY the raw TSV lines inside a markdown code block starting with ```tsv. No introductory or concluding text.
 2. When a new street name header is listed, put it in ALL CAPS on its own line without any tab characters (e.g. "ACACIA AVENUE").
 3. For individual resident lines, map them to the TSV columns. Separate the names into Forenames and Surnames.
 4. Align business names, trades, and numbers correctly.
-5. If there are notes like "(return)", "(left hand side)", or cross-streets like "here is Myrtle-grove", put them in the appropriate column (e.g., Layout/Notes or Job/Trade if it represents a listing note) to match the standard layout.
-6. Transcribe the entire page faithfully. Do not skip any lines.
+5. Transcribe the entire page faithfully. Do not skip any lines.
 """
 
     for i, img_path in enumerate(image_paths, start=1):

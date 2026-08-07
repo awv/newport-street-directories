@@ -610,6 +610,13 @@ def clean_record(row):
     bldg_name = pat_side_strip.sub('', bldg_name).strip(' ,"-~.')
     trade = pat_side_strip.sub('', trade).strip(' ,"-~.')
 
+    # Strip telephone numbers (e.g. "Tel. Newport 66092 & 67834", "Telephone 62861")
+    phone_pattern = re.compile(r'\b(?:tel|phone|telephone)\.?,?\s*(?:newport\s*)?\d+(?:\s*(?:&|and)\s*\d+)?\b', re.I)
+    surname = phone_pattern.sub('', surname).strip(' ,"-~.')
+    forename = phone_pattern.sub('', forename).strip(' ,"-~.')
+    bldg_name = phone_pattern.sub('', bldg_name).strip(' ,"-~.')
+    trade = phone_pattern.sub('', trade).strip(' ,"-~.')
+
     # Aid post fix (e.g. surname='First', forename='aid post')
     if surname.lower() == "first" and forename.lower() == "aid post":
         surname = "First Aid Post"
