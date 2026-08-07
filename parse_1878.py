@@ -97,17 +97,47 @@ def is_valid_street_name(s):
     s = s.strip()
     if not s:
         return False
-    if not s.isupper():
+    
+    # Clean common suffixes and trailing punctuation from street name candidates
+    s_clean = s
+    s_clean = re.sub(r'[\s\-—]+continued\b', '', s_clean, flags=re.I).strip()
+    s_clean = re.sub(r'\b(?:from|to|off)\s+.*', '', s_clean, flags=re.I).strip()
+    s_clean = re.sub(r'[\(\[].*?[\)\]]', '', s_clean, flags=re.I).strip()
+    s_clean = s_clean.rstrip('. -—,')
+    
+    if not s_clean:
         return False
-    if s.startswith('(') or s.startswith('[') or s.startswith('*') or s.endswith(')'):
+    if not s_clean.isupper():
         return False
-    if s.lower() in {'(return)', 'return', 'continued', 'tregare street—continued'}:
+        
+    # Ignore short stray page headers (like ARC, ALB, STO, TEM, WIN, etc.)
+    if len(s_clean) <= 4:
         return False
-    if s.startswith("OFF ") or s.startswith("FROM ") or s.startswith("TO "):
+        
+    # Ignore generic page directory titles and institution/church headers
+    ignored_headers = {
+        "NEWPORT STREET DIRECTORY", "NEWPORT", "STREET DIRECTORY", 
+        "DIRECTORY", "ALEXANDRA SCHOOLS", "SPRING GARDENS SCHOOL",
+        "WESLEYAN METH CHURCH", "WESLEYAN METHODIST CHAPEL", "WESLEYAN METHODIST MISSION HALL",
+        "THE BARRACKS", "THE BARRACKS—", "UNITED METHODIST CHURCH", "PRESBYTERIAN CHURCH",
+        "TEMPERANCE COTTAGES", "NEW TERRITORIAL DRILL", "MARSHES HALL", "NORTH STREET MEETING",
+        "PENYLAN MISSION ROOM", "PILLGWENLLY WESLEYAN", "PUBLIC PARK", "FOR GOOD SHIRT AND COLLAR DRESSING",
+        "KINDLY SERVICE THE KEYNOTE OF THIS ESTABLISHMENT", "WOODLAND STREET DIRECTORY"
+    }
+    norm_clean = re.sub(r'[^A-Z0-9\s]', '', s_clean).strip()
+    if norm_clean in {re.sub(r'[^A-Z0-9\s]', '', h) for h in ignored_headers}:
         return False
-    if s in {"LEFT HAND SIDE", "RIGHT HAND SIDE", "EAST SIDE", "WEST SIDE"}:
+        
+    if s_clean.startswith('(') or s_clean.startswith('[') or s_clean.startswith('*') or s_clean.endswith(')'):
+        return False
+    if s_clean.lower() in {'(return)', 'return', 'continued', 'tregare street—continued'}:
+        return False
+    if s_clean.startswith("OFF ") or s_clean.startswith("FROM ") or s_clean.startswith("TO "):
+        return False
+    if s_clean in {"LEFT HAND SIDE", "RIGHT HAND SIDE", "EAST SIDE", "WEST SIDE"}:
         return False
     return True
+
 
 def parse_tsv(input_path, output_path):
     records = []

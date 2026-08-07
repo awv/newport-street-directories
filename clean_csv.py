@@ -2,6 +2,7 @@ import csv
 import json
 import os
 import re
+from collections import defaultdict
 
 INPUT_CSV = "data.csv"
 OUTPUT_CSV = "data.csv"
@@ -497,6 +498,9 @@ def clean_street_name(name):
     # 1. Strip trailing district/ward letter codes (e.g. '.T', '. P', ' P', ' M', '. C', '. W', '.T,')
     clean = re.sub(r'[\.\s]+[A-Z][\.,\s]*$', '', clean, flags=re.IGNORECASE).rstrip(" ,.-")
 
+    # 1b. Strip trailing grid references (e.g. '. E 5', ' B 4', '. B4')
+    clean = re.sub(r'[\s\.,—\-–]+[A-Z]\s*\d+\s*$', '', clean, flags=re.I).rstrip(" ,.-")
+
     # 2. Convert 'Street [Saint Name]' -> 'St. [Saint Name]'
     clean = re.sub(r'^Street\s+([A-Z])', r'St. \1', clean, flags=re.IGNORECASE)
     clean = re.sub(r'^St\b\.?\s*', 'St. ', clean, flags=re.IGNORECASE)
@@ -605,6 +609,13 @@ def clean_record(row):
     forename = pat_side_strip.sub('', forename).strip(' ,"-~.')
     bldg_name = pat_side_strip.sub('', bldg_name).strip(' ,"-~.')
     trade = pat_side_strip.sub('', trade).strip(' ,"-~.')
+
+    # Strip telephone numbers (e.g. "Tel. Newport 66092 & 67834", "Telephone 62861")
+    phone_pattern = re.compile(r'\b(?:tel|phone|telephone)\.?,?\s*(?:newport\s*)?\d+(?:\s*(?:&|and)\s*\d+)?\b', re.I)
+    surname = phone_pattern.sub('', surname).strip(' ,"-~.')
+    forename = phone_pattern.sub('', forename).strip(' ,"-~.')
+    bldg_name = phone_pattern.sub('', bldg_name).strip(' ,"-~.')
+    trade = phone_pattern.sub('', trade).strip(' ,"-~.')
 
     # Aid post fix (e.g. surname='First', forename='aid post')
     if surname.lower() == "first" and forename.lower() == "aid post":
@@ -1720,6 +1731,67 @@ def main():
                     skipped_count += 1
                 else:
                     rows.append(cleaned)
+
+    # 1. Group street names by lowercase value to resolve casing variations automatically
+    street_casings = defaultdict(list)
+    for row in rows:
+        st = row.get("street", "").strip()
+        if st:
+            street_casings[st.lower()].append(st)
+            
+    # For each group, find the best casing (mixed case preferred over all-caps)
+    casing_map = {}
+    for lower_name, variations in street_casings.items():
+        variations = list(set(variations))
+        if len(variations) == 1:
+            continue
+            
+        mixed = [v for v in variations if any(c.islower() for c in v)]
+        uppers = [v for v in variations if not any(c.islower() for c in v)]
+        
+        # Pick the one with mixed case if available, else pick longest/first
+        candidates = mixed if mixed else uppers
+        candidates.sort(key=lambda v: (len(v), v), reverse=True)
+        best = candidates[0]
+        
+        for v in variations:
+            if v != best:
+                casing_map[v] = best
+                
+    if casing_map:
+        print(f"Automatically resolving {len(casing_map)} casing variations...")
+        auto_case_count = 0
+        for row in rows:
+            st = row.get("street", "").strip()
+            if st in casing_map:
+                row["street"] = casing_map[st]
+                auto_case_count += 1
+        print(f"Auto-cased {auto_case_count} records.")
+
+    # Apply manual street amendments from review TSV if it exists
+    tsv_file = "Street Amendments v2 - streets_review_v2.tsv"
+    if not os.path.exists(tsv_file):
+        tsv_file = "Street Amendments - streets_review.tsv"
+        
+    if os.path.exists(tsv_file):
+        amendments = {}
+        with open(tsv_file, "r", encoding="utf-8") as f:
+            reader = csv.DictReader(f, delimiter="\t")
+            for r in reader:
+                raw_name = r.get("Street Name", "").strip()
+                amended = r.get("Amendment", "").strip()
+                if raw_name and amended:
+                    amendments[raw_name] = amended
+        
+        if amendments:
+            print(f"Applying {len(amendments)} manual street amendments from {tsv_file}...")
+            amended_count = 0
+            for row in rows:
+                st = row.get("street", "").strip()
+                if st in amendments:
+                    row["street"] = amendments[st]
+                    amended_count += 1
+            print(f"Applied manual amendments to {amended_count} records.")
 
     with open(OUTPUT_CSV, mode="w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
