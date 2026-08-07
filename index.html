@@ -784,6 +784,137 @@
       color: var(--bg);
     }
 
+    /* Library / Book Shelf Styles */
+    .library-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 2.5rem 2rem;
+      padding: 3rem 0;
+      justify-items: center;
+    }
+    .book-container {
+      perspective: 1000px;
+      cursor: pointer;
+      text-align: center;
+      width: 150px;
+    }
+    .book {
+      width: 140px;
+      height: 200px;
+      position: relative;
+      transform-style: preserve-3d;
+      transition: transform 0.4s ease;
+      box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+      border-radius: 3px 8px 8px 3px;
+    }
+    .book-container:hover .book {
+      transform: rotateY(-20deg) translateZ(10px);
+      box-shadow: 10px 10px 25px rgba(0,0,0,0.6);
+    }
+    .book-cover {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 3px 8px 8px 3px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 1.25rem 1rem;
+      box-sizing: border-box;
+      border-left: 5px solid rgba(0, 0, 0, 0.45);
+      background-size: cover;
+    }
+    .book-cover::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, rgba(255,255,255,0.07) 0%, rgba(255,255,255,0.02) 3%, rgba(0,0,0,0.1) 6%, rgba(255,255,255,0.03) 10%, transparent 100%);
+      pointer-events: none;
+      border-radius: 3px 8px 8px 3px;
+    }
+    /* Processed Book Covers */
+    .book-processed.book-color-1 .book-cover { background: #5a1c1c; } /* Crimson */
+    .book-processed.book-color-2 .book-cover { background: #1c3d5a; } /* Navy */
+    .book-processed.book-color-3 .book-cover { background: #1c5a3d; } /* Forest Green */
+    .book-processed.book-color-4 .book-cover { background: #5a4b1c; } /* Ochre/Gold */
+    .book-processed.book-color-5 .book-cover { background: #441c5a; } /* Royal Purple */
+    
+    /* Unprocessed Book Covers */
+    .book-unprocessed .book-cover {
+      background: #2a2624;
+      border-color: #1a1614;
+      opacity: 0.65;
+      filter: grayscale(80%);
+    }
+    
+    .book-spine-accent {
+      width: 8px;
+      height: 100%;
+      background: rgba(0,0,0,0.3);
+      position: absolute;
+      left: 5px;
+      top: 0;
+    }
+    
+    .book-title {
+      font-family: var(--heading-font);
+      font-size: 0.72rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.85);
+      margin-top: 0.5rem;
+      line-height: 1.3;
+    }
+    .book-year {
+      font-family: var(--heading-font);
+      font-size: 1.8rem;
+      color: #ffffff;
+      font-weight: 700;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+      margin: auto 0;
+    }
+    .book-meta {
+      font-size: 0.62rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--accent);
+      font-weight: 600;
+    }
+    .book-unprocessed .book-meta {
+      color: #777777;
+    }
+    .book-label {
+      margin-top: 0.75rem;
+      font-family: var(--body-font);
+      font-size: 0.82rem;
+      color: var(--text);
+      font-weight: 500;
+      display: block;
+    }
+    .book-status-badge {
+      font-size: 0.6rem;
+      padding: 0.15rem 0.4rem;
+      border-radius: 3px;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      display: inline-block;
+      margin-top: 0.25rem;
+    }
+    .badge-processed {
+      background: rgba(200, 157, 84, 0.25);
+      color: var(--accent);
+      border: 1px solid var(--accent);
+    }
+    .badge-unprocessed {
+      background: rgba(255, 255, 255, 0.08);
+      color: #999999;
+      border: 1px solid rgba(255,255,255,0.15);
+    }
+
     @media (max-width: 900px) {
       .grid-2col { grid-template-columns: 1fr; }
       .property-heading-line { font-size: 3rem; }
@@ -807,6 +938,7 @@
         </a>
         <nav>
           <a href="#home">Home</a>
+          <a href="#directories">Directories</a>
           <a href="#streets">All Streets</a>
           <a href="trades.html" class="nav-btn">Occupations Audit</a>
         </nav>
@@ -980,6 +1112,26 @@
         <button id="prev-page" class="page-btn" onclick="changeSearchPage(-1)">Previous</button>
         <span id="page-indicator" style="color: var(--muted); font-size: 0.9rem;">Page 1</span>
         <button id="next-page" class="page-btn" onclick="changeSearchPage(1)">Next</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIRECTORIES LIBRARY VIEW -->
+  <section id="view-directories" class="view">
+    <div class="topo-bg page-banner">
+      <div class="page-width">
+        <div class="breadcrumb"><a href="#home">Home</a> &rarr; <span>Directories</span></div>
+        <span class="label-tag">Archives Library</span>
+        <div class="property-heading-line">
+          <span class="street">Street Directories</span>
+        </div>
+        <div class="property-intro-text">Chronological shelf of historical directory volumes. Highlighted books are fully processed and searchable.</div>
+      </div>
+    </div>
+    
+    <div class="page-width">
+      <div class="library-grid" id="library-grid">
+        <!-- Directory books rendered here dynamically -->
       </div>
     </div>
   </section>
@@ -1474,6 +1626,13 @@
       } else if (hash === '#streets') {
         renderStreetsView();
         document.getElementById('view-streets').classList.add('active');
+      } else if (hash === '#directories') {
+        renderDirectoriesView();
+        document.getElementById('view-directories').classList.add('active');
+      } else if (hash.startsWith('#directories=')) {
+        const year = hash.replace('#directories=', '');
+        renderStreetsView(year);
+        document.getElementById('view-streets').classList.add('active');
       } else {
         renderStreetsView();
         document.getElementById('view-home').classList.add('active');
@@ -1623,7 +1782,7 @@
     }
 
     // --- All Streets View Rendering ---
-    function renderStreetsView() {
+    function renderStreetsView(filterYear = null) {
       const container = document.getElementById('streets-content');
       if (!container) return;
       container.innerHTML = '';
@@ -1633,12 +1792,23 @@
         return;
       }
 
-      document.getElementById('streets-summary-text').innerText = 
-        `Index of ${masterStreetsList.length} unique streets recorded across archive directory collections.`;
+      let streetsToShow = masterStreetsList;
+      if (filterYear) {
+        streetsToShow = masterStreetsList.filter(s => s.yearsSpan && s.yearsSpan.includes(filterYear));
+        document.getElementById('streets-summary-text').innerText = 
+          `Index of ${streetsToShow.length} streets recorded in the ${filterYear} directory collection.`;
+        document.querySelector('#view-streets .street').innerText = `${filterYear} Directory Streets`;
+        document.querySelector('#view-streets .breadcrumb').innerHTML = `<a href="#home">Home</a> &rarr; <a href="#directories">Directories</a> &rarr; <span>${filterYear}</span>`;
+      } else {
+        document.getElementById('streets-summary-text').innerText = 
+          `Index of ${masterStreetsList.length} unique streets recorded across archive directory collections.`;
+        document.querySelector('#view-streets .street').innerText = `All Streets`;
+        document.querySelector('#view-streets .breadcrumb').innerHTML = `<a href="#home">Home</a> &rarr; <span>Streets</span>`;
+      }
 
       // Build A-Z Quick Jump Bar
       const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
-      const activeLetters = new Set(masterStreetsList.map(s => s.displayName.charAt(0).toUpperCase()));
+      const activeLetters = new Set(streetsToShow.map(s => s.displayName.charAt(0).toUpperCase()));
 
       const jumpBar = document.getElementById('alpha-jump-bar');
       if (jumpBar) {
@@ -1664,7 +1834,7 @@
       let currentLetter = '';
       let currentGrid = null;
 
-      masterStreetsList.forEach(data => {
+      streetsToShow.forEach(data => {
         const firstLetter = data.displayName.charAt(0).toUpperCase();
         if (firstLetter !== currentLetter) {
           currentLetter = firstLetter;
@@ -2161,6 +2331,82 @@
           </div>
         `;
         timeline.appendChild(li);
+      });
+    }
+
+    function renderDirectoriesView() {
+      const container = document.getElementById('library-grid');
+      if (!container) return;
+
+      // Define our directories list
+      // Processed directories have metadata (like record counts)
+      // Unprocessed directories are placeholders for the 1848-1974 range
+      const directories = [
+        { year: 1848, name: "Hunt's Directory", processed: false },
+        { year: 1850, name: "Scammell's Directory", processed: false },
+        { year: 1865, name: "Morris' Directory", processed: false },
+        { year: 1878, name: "Johns' Directory", processed: true, records: 3267 },
+        { year: 1880, name: "Johns' Directory", processed: false },
+        { year: 1887, name: "Johns' Directory", processed: true, records: 7226 },
+        { year: 1890, name: "Johns' Directory", processed: true, records: 10222 },
+        { year: 1893, name: "Johns' Directory", processed: true, records: 10637 },
+        { year: 1897, name: "Johns' Directory", processed: false },
+        { year: 1901, name: "Johns' Directory", processed: false },
+        { year: 1905, name: "Johns' Directory", processed: false },
+        { year: 1914, name: "Johns' Directory", processed: false },
+        { year: 1920, name: "Johns' Directory", processed: false },
+        { year: 1927, name: "Johns' Directory", processed: true, records: 19069 },
+        { year: 1933, name: "Johns' Directory", processed: false },
+        { year: 1936, name: "Johns' Directory", processed: true, records: 40925 },
+        { year: 1938, name: "Johns' Directory", processed: false },
+        { year: 1946, name: "Johns' Directory", processed: false },
+        { year: 1950, name: "Johns' Directory", processed: false },
+        { year: 1961, name: "Johns' Directory", processed: false },
+        { year: 1971, name: "Johns' Directory", processed: true, records: 40925 },
+        { year: 1974, name: "Johns' Directory", processed: false }
+      ];
+
+      // Sort chronological
+      directories.sort((a, b) => a.year - b.year);
+
+      container.innerHTML = '';
+      let colorIndex = 1;
+
+      directories.forEach(d => {
+        const div = document.createElement('div');
+        div.className = 'book-container';
+        
+        if (d.processed) {
+          const colorClass = `book-color-${colorIndex}`;
+          colorIndex = (colorIndex % 5) + 1; // Cycle 1-5 colors
+          
+          div.innerHTML = `
+            <div class="book book-processed ${colorClass}" onclick="window.location.hash = '#directories=${d.year}'">
+              <div class="book-spine-accent"></div>
+              <div class="book-cover">
+                <div class="book-title">${d.name}</div>
+                <div class="book-year">${d.year}</div>
+                <div class="book-meta">View Streets</div>
+              </div>
+            </div>
+            <span class="book-label">${d.name} (${d.year})</span>
+            <span class="book-status-badge badge-processed">${d.records.toLocaleString()} Records</span>
+          `;
+        } else {
+          div.innerHTML = `
+            <div class="book book-unprocessed">
+              <div class="book-spine-accent"></div>
+              <div class="book-cover">
+                <div class="book-title">${d.name}</div>
+                <div class="book-year">${d.year}</div>
+                <div class="book-meta">Archived</div>
+              </div>
+            </div>
+            <span class="book-label">${d.name} (${d.year})</span>
+            <span class="book-status-badge badge-unprocessed">Awaiting OCR</span>
+          `;
+        }
+        container.appendChild(div);
       });
     }
 

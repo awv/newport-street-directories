@@ -124,7 +124,7 @@ General Rules:
             for attempt in range(1, max_retries + 1):
                 try:
                     response = client.models.generate_content(
-                        model='gemini-flash-lite-latest',
+                        model='gemini-2.0-flash',
                         contents=[img, prompt]
                     )
                     break # Success! Break out of the retry loop.
