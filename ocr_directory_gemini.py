@@ -37,7 +37,7 @@ def main():
 
     client = genai.Client(api_key=api_key)
 
-    image_dir = "/Users/robgale/Documents/Newport Street Directory Project/original_scans/Johns Directory 1902"
+    image_dir = "/Users/robgale/Documents/Newport Street Directory Project/original_scans/Johns Directory 1898"
     image_paths = sorted(glob.glob(os.path.join(image_dir, "*.jpeg")) + glob.glob(os.path.join(image_dir, "*.jpg")))
 
     if not image_paths:
@@ -45,8 +45,8 @@ def main():
         sys.exit(1)
 
     print(f"Found {len(image_paths)} images to process.")
-    output_tsv = "1902.tsv"
-    processed_log = "processed_images_1902.txt"
+    output_tsv = "1898.tsv"
+    processed_log = "processed_images_1898.txt"
 
     # Header for the TSV
     header = "Number\tForenames\tSurname\tJob / Trade\tBusiness / Entity\tLayout / Notes\n"
@@ -60,13 +60,12 @@ def main():
     processed_files = set()
     if os.path.exists(processed_log):
         with open(processed_log, "r", encoding="utf-8") as f:
-            processed_files = set(line.strip() for line in f if line.strip())
+            processed_files = {line.strip() for line in f if line.strip()}
 
-    prompt = """You are an expert OCR transcription assistant specializing in historical street directories.
-Transcribe the directory on this page into a clean tab-separated (TSV) table.
+    prompt = """
+You are an expert OCR transcription assistant. Your task is to transcribe the attached image of a historical Newport Street Directory page.
 
 CRITICAL HOUSE NUMBER RULE:
-- Each listing usually starts with a house number (e.g. 1, 2, 3, 4, 5...).
 - WARNING: These house numbers are often printed in a very narrow column right up against the vertical dividing lines.
 - You MUST capture these numbers and put them in the 'Number' column. Do NOT skip them, and do NOT merge them into the surname. They are critical!
 
@@ -75,6 +74,10 @@ The page is printed in THREE side-by-side vertical columns (Column 1 on the left
 You MUST transcribe Column 1 first (top-to-bottom), then Column 2 (top-to-bottom), and finally Column 3 (top-to-bottom) so they form a single continuous list of rows.
 Do NOT merge side-by-side column entries into the same row. Each resident/listing must be on its own separate row.
 Do NOT append any extra columns, labels, or indicators like "Left Column", "Right Column", or "Column 1" to the rows.
+
+CRITICAL CROSSED-OUT TEXT RULE:
+- Some entries or whole sections of text might have been crossed out or marked through in pencil (light or dark gray lines).
+- You MUST still transcribe these crossed-out entries exactly as they were printed. Do NOT skip or ignore text because it has a pencil line drawn through it.
 
 Use exactly these six columns:
 Number	Forenames	Surname	Job / Trade	Business / Entity	Layout / Notes
