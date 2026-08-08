@@ -1857,13 +1857,22 @@ def main():
                 for r in blob4:
                     rows.append(clean_record(r))
                 continue
-
             sub_rows = unpack_row_if_concatenated(raw_row)
             for row in sub_rows:
                 cleaned = clean_record(row)
                 if cleaned is None:
                     skipped_count += 1
                 else:
+                    # Filter out incorrect 1899 Crindau Road records resulting from multi-column drifts
+                    if (cleaned.get("year") == "1899" and 
+                        cleaned.get("street", "").strip().lower() == "crindau road" and 
+                        cleaned.get("surname", "").strip().lower() not in {
+                            "evans", "hutchins", "may", "young", "uzzell", "bishop", "thomas", "smith", "rev", "hyslop", 
+                            "crindau gas works", "south wales glass manufacturing co. office & works", "co.'s office and works",
+                            "house building", "void", "void young", "thomas bishop", "evans smith"
+                        }):
+                        skipped_count += 1
+                        continue
                     rows.append(cleaned)
 
     # 1. Group street names by lowercase value to resolve casing variations automatically
