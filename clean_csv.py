@@ -525,6 +525,9 @@ def clean_street_name(name):
     if not name:
         return ""
         
+    # Strip trailing continued/contd indicators (e.g. -continued, —continued, contd)
+    name = re.sub(r'[\s\-—–_]+(?:continued|contd|cont|cont\.|contd\.)\s*$', '', name, flags=re.I).strip()
+        
     # Strip parenthesized ward/map codes like (B T), (B.T.), (BT), (P), (M), (T)
     name = re.sub(r'\s*\([\s\.]*[A-Za-z][\s\.]*(?:[A-Za-z][\s\.]*)?\)', '', name).strip()
         
