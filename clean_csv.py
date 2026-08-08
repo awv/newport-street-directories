@@ -64,6 +64,38 @@ CROSS_STREET_REGEX = re.compile(
     re.I
 )
 
+LAYOUT_ONLY_REGEX = re.compile(
+    r'^\s*(?:left|right|east|west|north|south)\s+side\b'
+    r'|^\s*\(?no\s+thoroughfare\.?\)?\s*$'
+    r'|^\s*map\s+[a-z]\s*\d+\.?\s*$'
+    r'|^\s*map\s+[a-z]\d+\.?\s*$'
+    r'|^\s*from\s+\d*\s*\b(?:rowan|melbourne|monnon|road|way|street|lane|place|drive|crescent|cres|av|ave|avenue)\b.*'
+    r'|^\s*(?:its|ts)\s+junction\s+.*'
+    r'|^\s*\(?junior\s+mixed\s+&\s+infants\)?\s*$'
+    r'|^\s*fants\b\s*$'
+    r'|^\s*mixed\s+&\s+infants\b\s*$'
+    r'|^\s*primary\s+school\s+\(?junior\b'
+    r'|^\s*\(junior\s*$'
+    r'|^\s*\(?no\s+thoroughfare\)?\s*$'
+    r'|^\s*vancouver\s+drive\s*\.?\s*map\s+[a-z]\d+\s*$'
+    r'|^\s*here\s+(?:is|are)\b.*'
+    r'|^\s*opposite\s+\b.*',
+    re.I
+)
+
+LAYOUT_STRIP_REGEX = re.compile(
+    r'\b(?:left|right)\s+side\b'
+    r'|\bno\s+thoroughfare\b'
+    r'|\bmap\s+[a-z]\s*\d+\b'
+    r'|\bmap\s+[a-z]\d+\b'
+    r'|\bfrom\s+\d*\s*\b(?:rowan|melbourne|monnon|road|way|street|lane|place|drive|crescent|cres|av|ave|avenue)\b\.?'
+    r'|\b(?:its|ts)\s+junction\s+with\b\.?'
+    r'|\b(?:its|ts)\s+junction\s+[A-Za-z0-9\s]+\b'
+    r'|\bvancouver\s+drive\b',
+    re.I
+)
+
+
 # Trade keywords to identify trade bleeding into forename
 TRADE_KEYWORDS = [
     "mechanic", "clerk", "grocer", "mariner", "driver", "fitter", "carpenter",
@@ -607,6 +639,10 @@ def clean_record(row):
     st_low = street.lower().strip()
     if len(st_low) <= 1 or re.match(r'^[a-z]\s+\d+.*$', st_low) or st_low in {'c o. (', 'c.o.', 'l.d.'}:
         return None
+        
+    # Reject layout street names
+    if st_low in {"left side", "right side", "left hand side", "right hand side", "east side", "west side", "north side", "south side", "directories"}:
+        return None
 
     house_num = (row.get("house_number") or "").strip().strip(',"-~\'')
     bldg_name = (row.get("building_name") or "").strip().strip(',"-~\'')
@@ -619,6 +655,24 @@ def clean_record(row):
     surname = (row.get("surname") or "").strip().strip(',"-~\'')
     forename = (row.get("forename") or "").strip().strip(',"-~\'')
     trade = (row.get("trade") or "").strip().strip(',"-~\'')
+
+    # Discard records that are purely layout artifacts
+    combined_fields = f"{house_num} {bldg_name} {surname} {forename} {trade}".lower().strip()
+    if LAYOUT_ONLY_REGEX.search(combined_fields):
+        return None
+
+    # Discard rows that are just cross-street headers (e.g. surname="Vancouver drive" with no other fields)
+    if surname and not forename and not house_num and not trade and not bldg_name:
+        s_low = surname.lower()
+        suffixes = {'street', 'road', 'lane', 'place', 'terrace', 'crescent', 'square', 'avenue', 'drive', 'hill', 'parade', 'gardens', 'walk', 'close', 'view', 'grove', 'way', 'rise', 'arcade'}
+        if any(f" {suff}" in s_low or s_low.endswith(f" {suff}") for suff in suffixes):
+            return None
+
+    # Strip layout substrings from individual fields
+    surname = LAYOUT_STRIP_REGEX.sub('', surname).strip(' ,"-~.')
+    forename = LAYOUT_STRIP_REGEX.sub('', forename).strip(' ,"-~.')
+    bldg_name = LAYOUT_STRIP_REGEX.sub('', bldg_name).strip(' ,"-~.')
+    trade = LAYOUT_STRIP_REGEX.sub('', trade).strip(' ,"-~.')
 
     # 1. Filter out Directory Header Artifacts, Cross-street Headings & (return) Markers
     if surname.lower() in HEADER_SURNAMES and (forename.isdigit() or not trade):
@@ -1825,7 +1879,9 @@ def main():
         print(f"Auto-cased {auto_case_count} records.")
 
     # Apply manual street amendments from review TSV if it exists
-    tsv_file = "streets_review_v14.tsv"
+    tsv_file = "streets_review_v15.tsv"
+    if not os.path.exists(tsv_file):
+        tsv_file = "streets_review_v14.tsv"
     if not os.path.exists(tsv_file):
         tsv_file = "streets_review_v13.tsv"
     if not os.path.exists(tsv_file):
