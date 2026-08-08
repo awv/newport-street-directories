@@ -35,14 +35,7 @@ def main():
         sys.exit(1)
     os.environ["GEMINI_API_KEY"] = api_key
 
-    # Initialize the new Google GenAI client (forcing standard Developer API gateway)
-    client = genai.Client(
-        api_key=api_key,
-        http_options={
-            'api_version': 'v1beta',
-            'base_url': 'https://generativelanguage.googleapis.com'
-        }
-    )
+    client = genai.Client(api_key=api_key)
 
     image_dir = "/Users/robgale/Documents/Newport Street Directory Project/original_scans/Johns Directory 1893"
     image_paths = sorted(glob.glob(os.path.join(image_dir, "*.jpeg")) + glob.glob(os.path.join(image_dir, "*.jpg")))
