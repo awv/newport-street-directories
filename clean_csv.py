@@ -69,6 +69,7 @@ LAYOUT_ONLY_REGEX = re.compile(
     r'|^\s*\(?no\s+thoroughfare\.?\)?\s*$'
     r'|^\s*map\s+[a-z]\s*\d+\.?\s*$'
     r'|^\s*map\s+[a-z]\d+\.?\s*$'
+    r'|^\s*from\s+\d+\s+.*'
     r'|^\s*from\s+\d*\s*\b(?:rowan|melbourne|monnon|road|way|street|lane|place|drive|crescent|cres|av|ave|avenue)\b.*'
     r'|^\s*(?:its|ts)\s+junction\s+.*'
     r'|^\s*\(?junior\s+mixed\s+&\s+infants\)?\s*$'
@@ -524,6 +525,9 @@ def clean_street_name(name):
     if not name:
         return ""
         
+    # Strip parenthesized ward/map codes like (B T), (B.T.), (BT), (P), (M), (T)
+    name = re.sub(r'\s*\([\s\.]*[A-Za-z][\s\.]*(?:[A-Za-z][\s\.]*)?\)', '', name).strip()
+        
     # If the street name is in all-caps, convert it to Capital Case
     if name.isupper():
         words = name.split()
@@ -661,6 +665,15 @@ def clean_record(row):
     if LAYOUT_ONLY_REGEX.search(combined_fields):
         return None
 
+    # Discard records where surname is just a number (drifted house numbers)
+    if surname.isdigit() and not forename and not trade:
+        return None
+
+    # Discard records where surname or building_name is just a coordinate reference (e.g. "E 9", "E 8, E 9, D 10")
+    if (re.match(r'^[A-Za-z]{1,2}[\s\.,\d&and]*$', surname) and any(c.isdigit() for c in surname) and not forename and not trade) or \
+       (re.match(r'^[A-Za-z]{1,2}[\s\.,\d&and]*$', bldg_name) and any(c.isdigit() for c in bldg_name) and not surname and not forename and not trade):
+        return None
+
     # Discard rows that are just cross-street headers (e.g. surname="Vancouver drive" with no other fields)
     if surname and not forename and not house_num and not trade and not bldg_name:
         s_low = surname.lower()
@@ -701,6 +714,14 @@ def clean_record(row):
     forename = phone_pattern.sub('', forename).strip(' ,"-~.')
     bldg_name = phone_pattern.sub('', bldg_name).strip(' ,"-~.')
     trade = phone_pattern.sub('', trade).strip(' ,"-~.')
+
+    # Fix Ty Dedwydd split (where the house name is split as a resident name)
+    s_low = surname.lower()
+    f_low = forename.lower()
+    if (s_low == "ty" and f_low in {"dedwydd", "edwydd"}) or (not surname and f_low in {"dedwydd", "edwydd"} and bldg_name.lower() == "ty"):
+        bldg_name = "Ty Dedwydd"
+        surname = ""
+        forename = ""
 
     # Aid post fix (e.g. surname='First', forename='aid post')
     if surname.lower() == "first" and forename.lower() == "aid post":
@@ -1879,7 +1900,9 @@ def main():
         print(f"Auto-cased {auto_case_count} records.")
 
     # Apply manual street amendments from review TSV if it exists
-    tsv_file = "streets_review_v15.tsv"
+    tsv_file = "streets_review_v16.tsv"
+    if not os.path.exists(tsv_file):
+        tsv_file = "streets_review_v15.tsv"
     if not os.path.exists(tsv_file):
         tsv_file = "streets_review_v14.tsv"
     if not os.path.exists(tsv_file):
