@@ -628,6 +628,31 @@ def clean_record(row):
     surname = re.sub(r'\bLd\.?\b', 'Ltd', surname)
     trade = re.sub(r'\bLd\.?\b', 'Ltd', trade)
 
+    # Merge split business names (e.g. surname='Indian', forename='Rampore Tea Co.')
+    if surname and forename:
+        f_low = forename.lower()
+        if any(suffix in f_low for suffix in ['tea co', 'ltd', 'limited', 'co. ltd', 'company', '& co', '& sons']):
+            surname = f"{surname} {forename}".strip()
+            forename = ""
+
+    # Realign cases where the surname is a business/company and the forename is actually the trade
+    # e.g., surname="Newman & Sons'", forename="music warehouse"
+    if surname and forename and not trade:
+        f_low = forename.lower()
+        s_low = surname.lower()
+        is_business = any(suffix in s_low for suffix in ['& sons', '& co', 'ltd', 'limited', 'company', ' co.', ' tea co'])
+        trade_keywords = [
+            'music warehouse', 'warehouse', 'provision', 'dealer', 'merchant', 'store',
+            'agent', 'inn', 'hotel', 'tavern', 'publican', 'shop', 'office', 'depot',
+            'works', 'foundry', 'brewery', 'chapel', 'church', 'school', 'hall',
+            'baker', 'butcher', 'draper', 'tailor', 'hairdresser', 'shoemaker', 'bootmaker',
+            'printer', 'stationer', 'chemist', 'tobacconist', 'fruiterer', 'fishmonger',
+            'builder', 'cabinet maker', 'upholsterer', 'ironmonger', 'cooper', 'smith'
+        ]
+        if is_business and any(kw in f_low for kw in trade_keywords):
+            trade = forename
+            forename = ""
+
     # Standardize directory cross-reference entries (e.g. surname='NewportSee', forename='Stow Hill', street='Lamb Cottages')
     raw_all_fields = f"{bldg_name} {surname} {forename}".strip()
     cross_ref_match = re.search(r'\[?\b(?:newport\s*)?see\s+(?:also\s+)?(?:under\s+|no\.\s*\d+\s+)?([A-Za-z\s]+)', raw_all_fields, re.I)
