@@ -90,10 +90,22 @@ CROSS_STREET_PAT = re.compile(
     re.I
 )
 
+# Load known street names from data.csv (excluding 1910) for validation reference
+known_streets = set()
+if os.path.exists("data.csv"):
+    with open("data.csv", "r", encoding="utf-8") as f_data:
+        reader_data = csv.DictReader(f_data)
+        for row_data in reader_data:
+            if row_data.get("year") != "1910":
+                st_val = row_data.get("street", "").strip().lower()
+                if st_val:
+                    known_streets.add(st_val)
+
 def is_valid_street_name(s):
     s = s.strip()
     if not s:
         return False
+        
     s_clean = s
     s_clean = re.sub(r'[\s\-—]+continued\b', '', s_clean, flags=re.I).strip()
     s_clean = re.sub(r'\b(?:from|to|off)\s+.*', '', s_clean, flags=re.I).strip()
@@ -104,8 +116,6 @@ def is_valid_street_name(s):
     
     if len(s_clean) <= 1:
         return False
-    if s_clean.isdigit():
-        return False
         
     ignored_streets = {
         "left hand side", "right hand side", "east side", "west side", "north side", "south side",
@@ -114,7 +124,33 @@ def is_valid_street_name(s):
     }
     if s_clean.lower() in ignored_streets:
         return False
-    return True
+        
+    if CROSS_STREET_PAT.search(s_clean):
+        return False
+        
+    # 1. Matches a known street from other years (case-insensitive)
+    if s_clean.lower() in known_streets:
+        return True
+        
+    # 2. Must be uppercase (no lowercase letters allowed)
+    if not any(c.islower() for c in s_clean):
+        return True
+        
+    # 3. Contains a street suffix and doesn't look like a resident listing
+    suffixes = {'street', 'road', 'avenue', 'place', 'terrace', 'hill', 'lane', 'crescent', 'cres', 'cres.', 'parade', 'way', 'drive', 'grove', 'villas', 'gardens', 'walk', 'square', 'court', 'close', 'view', 'park', 'green', 'st', 'rd', 'av', 'pl', 'ln', 'sq', 'ct', 'cl', 'pk'}
+    tokens = re.findall(r'[a-zA-Z\.]+', s_clean)
+    if tokens:
+        last_word = tokens[-1].lower().strip('.')
+        if last_word in suffixes:
+            if re.match(r'^\d', s):
+                return False
+            resident_pattern = r'\b(?:mrs|mr|miss|rev|dr|doctor|nurse|junior|senior|widow|son|sons|bros|brothers|co|ltd|limited|labourer|labr|carpenter|clerk|mason|fitter|builder|haulier|fireman|guard|shoemaker|draper|baker|rigger|tailor|painter|smith|engineer|mechanic|driver|steelworker|platelayer|porter|agent|merchant|hairdresser|dressmaker|postman|seaman|watchman|butcher)\b'
+            if re.search(resident_pattern, s, re.I):
+                return False
+            return True
+            
+    return False
+
 
 def parse_tsv(input_path, output_path):
     records = []
