@@ -129,7 +129,7 @@ General Rules:
             for attempt in range(1, max_retries + 1):
                 try:
                     response = client.models.generate_content(
-                        model='gemini-flash-lite-latest',
+                        model='gemini-2.5-flash',
                         contents=[img, prompt]
                     )
                     break # Success! Break out of the retry loop.
@@ -188,8 +188,8 @@ General Rules:
                     
             print(f"Successfully appended {len(cleaned_lines)} lines from {filename}")
             
-            # Base sleep delay between pages to keep under the rate/TPM limits (especially on free/preview tiers)
-            time.sleep(20)
+            # Base sleep delay between pages (practically instant on paid tier)
+            time.sleep(0.2)
         except Exception as e:
             print(f"Error processing {os.path.basename(img_path)}: {e}")
             print("Skipping to next page...")
