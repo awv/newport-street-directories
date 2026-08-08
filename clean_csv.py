@@ -1879,6 +1879,22 @@ def main():
                         skipped_count += 1
                         continue
                         
+                    # Filter out incorrect 1971 Crindau Road records resulting from Cromwell Road drifts
+                    if cleaned.get("year") == "1971" and st_lower == "crindau road":
+                        h_num = cleaned.get("house_number", "").strip()
+                        first_num_match = re.search(r'\d+', h_num)
+                        if first_num_match:
+                            val = int(first_num_match.group())
+                            if val > 14:
+                                skipped_count += 1
+                                continue
+                        else:
+                            # Drop Cromwell Road landmarks
+                            sur_low = cleaned.get("surname", "").strip().lower()
+                            if any(kw in sur_low for kw in {"watkins", "garage", "methodist", "patrick", "presbytery", "foley", "bosco", "hall", "lavin"}):
+                                skipped_count += 1
+                                continue
+                        
                     # Filter out incorrect 1899 Agincourt Street records resulting from header drifts
                     if (cleaned.get("year") == "1899" and 
                         st_lower == "agincourt street" and 
