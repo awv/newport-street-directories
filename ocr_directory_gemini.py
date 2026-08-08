@@ -37,7 +37,7 @@ def main():
 
     client = genai.Client(api_key=api_key)
 
-    image_dir = "/Users/robgale/Documents/Newport Street Directory Project/original_scans/Johns Directory 1893"
+    image_dir = "/Users/robgale/Documents/Newport Street Directory Project/original_scans/Johns Directory 1894"
     image_paths = sorted(glob.glob(os.path.join(image_dir, "*.jpeg")) + glob.glob(os.path.join(image_dir, "*.jpg")))
 
     if not image_paths:
@@ -45,8 +45,8 @@ def main():
         sys.exit(1)
 
     print(f"Found {len(image_paths)} images to process.")
-    output_tsv = "1893.tsv"
-    processed_log = "processed_images_1893.txt"
+    output_tsv = "1894.tsv"
+    processed_log = "processed_images_1894.txt"
 
     # Header for the TSV
     header = "Number\tForenames\tSurname\tJob / Trade\tBusiness / Entity\tLayout / Notes\n"
