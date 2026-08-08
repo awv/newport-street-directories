@@ -37,7 +37,7 @@ def main():
 
     client = genai.Client(api_key=api_key)
 
-    image_dir = "/Users/robgale/Documents/Newport Street Directory Project/original_scans/John Directory 1903"
+    image_dir = "/Users/robgale/Documents/Newport Street Directory Project/original_scans/Johns Directory 1910"
     image_paths = sorted(glob.glob(os.path.join(image_dir, "*.jpeg")) + glob.glob(os.path.join(image_dir, "*.jpg")))
 
     if not image_paths:
@@ -45,8 +45,8 @@ def main():
         sys.exit(1)
 
     print(f"Found {len(image_paths)} images to process.")
-    output_tsv = "1903.tsv"
-    processed_log = "processed_images_1903.txt"
+    output_tsv = "1910.tsv"
+    processed_log = "processed_images_1910.txt"
 
     # Header for the TSV
     header = "Number\tForenames\tSurname\tJob / Trade\tBusiness / Entity\tLayout / Notes\n"
@@ -78,6 +78,11 @@ Do NOT append any extra columns, labels, or indicators like "Left Column", "Righ
 CRITICAL CROSSED-OUT TEXT RULE:
 - Some entries or whole sections of text might have been crossed out or marked through in pencil (light or dark gray lines).
 - You MUST still transcribe these crossed-out entries exactly as they were printed. Do NOT skip or ignore text because it has a pencil line drawn through it.
+
+CRITICAL INK SMUDGE RULE:
+- Some pages contain ink splatters, blots, or smudges.
+- You MUST make every effort to read the text under or around the ink smudges and transcribe it completely.
+- Do NOT skip or omit lines just because they have ink on them. Use the surrounding context and faint visible shapes to transcribe them accurately.
 
 Use exactly these six columns:
 Number	Forenames	Surname	Job / Trade	Business / Entity	Layout / Notes

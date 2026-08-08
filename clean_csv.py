@@ -1900,7 +1900,9 @@ def main():
         print(f"Auto-cased {auto_case_count} records.")
 
     # Apply manual street amendments from review TSV if it exists
-    tsv_file = "streets_review_v16.tsv"
+    tsv_file = "streets_review_v17.tsv"
+    if not os.path.exists(tsv_file):
+        tsv_file = "streets_review_v16.tsv"
     if not os.path.exists(tsv_file):
         tsv_file = "streets_review_v15.tsv"
     if not os.path.exists(tsv_file):
