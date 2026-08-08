@@ -610,6 +610,12 @@ def clean_record(row):
 
     house_num = (row.get("house_number") or "").strip().strip(',"-~\'')
     bldg_name = (row.get("building_name") or "").strip().strip(',"-~\'')
+    
+    # Clear layout artifacts like '0' or duplicate numbers in building name
+    if bldg_name.isdigit():
+        if bldg_name == "0" or bldg_name == "00" or house_num:
+            bldg_name = ""
+
     surname = (row.get("surname") or "").strip().strip(',"-~\'')
     forename = (row.get("forename") or "").strip().strip(',"-~\'')
     trade = (row.get("trade") or "").strip().strip(',"-~\'')
