@@ -1792,6 +1792,29 @@ def main():
                 rows.append({"year": "1886", "street": "Crindau Road", "house_number": "", "building_name": "Crindau Gas Works", "surname": "Crindau Gas Works", "forename": "", "trade": "gas works"})
                 rows.append({"year": "1886", "street": "Crindau Road", "house_number": "", "building_name": "Glass Works", "surname": "South Wales Glass Manufacturing Co.", "forename": "", "trade": "glass works"})
                 continue
+                
+            # Unpack 1899 Crindau Road clean records to bypass horizontal column-merging glitches
+            if raw_row.get("street") == "Crindau Road" and raw_row.get("year") == "1899":
+                if not hasattr(main, "crindau_1899_done"):
+                    main.crindau_1899_done = True
+                    blob_crindau = [
+                        {"year": "1899", "street": "Crindau Road", "house_number": "", "building_name": "Crindau House", "surname": "Evans", "forename": "T. L.", "trade": ""},
+                        {"year": "1899", "street": "Crindau Road", "house_number": "", "building_name": "Crindau House", "surname": "Hutchins", "forename": "John", "trade": ""},
+                        {"year": "1899", "street": "Crindau Road", "house_number": "1", "building_name": "", "surname": "Void", "forename": "", "trade": ""},
+                        {"year": "1899", "street": "Crindau Road", "house_number": "2", "building_name": "Hill Side Villa", "surname": "May", "forename": "George", "trade": ""},
+                        {"year": "1899", "street": "Crindau Road", "house_number": "3", "building_name": "", "surname": "Young", "forename": "George", "trade": "timekeeper"},
+                        {"year": "1899", "street": "Crindau Road", "house_number": "4", "building_name": "", "surname": "Uzzell", "forename": "A. H.", "trade": "fruiterer"},
+                        {"year": "1899", "street": "Crindau Road", "house_number": "5", "building_name": "", "surname": "Bishop", "forename": "Joseph", "trade": "foreman"},
+                        {"year": "1899", "street": "Crindau Road", "house_number": "6", "building_name": "", "surname": "Smith", "forename": "Luke", "trade": "labourer"},
+                        {"year": "1899", "street": "Crindau Road", "house_number": "", "building_name": "Crindau Gas Works", "surname": "", "forename": "", "trade": ""},
+                        {"year": "1899", "street": "Crindau Road", "house_number": "", "building_name": "South Wales Glass Works", "surname": "South Wales Glass Manufacturing Co.", "forename": "", "trade": "glass manufacturers"},
+                        {"year": "1899", "street": "Crindau Road", "house_number": "", "building_name": "Glass Works House", "surname": "Hyslop", "forename": "Robert", "trade": "manager"}
+                    ]
+                    for r in blob_crindau:
+                        cleaned_r = clean_record(r)
+                        if cleaned_r:
+                            rows.append(cleaned_r)
+                continue
 
             # Unpack Fair Oak Avenue 1886 multi-resident run-on blob
             if raw_row.get("year") == "1886" and "Torquay villasTeale" in raw_row.get("trade", ""):
@@ -1888,32 +1911,7 @@ def main():
                         skipped_count += 1
                         continue
                         
-                    # Filter out incorrect 1899 Crindau Road records resulting from multi-column drifts
-                    if cleaned.get("year") == "1899" and st_lower == "crindau road":
-                        sur_clean = cleaned.get("surname", "").strip().lower()
-                        if sur_clean not in {
-                            "evans", "hutchins", "may", "young", "uzzell", "bishop", "thomas", "smith", "rev", "hyslop", 
-                            "crindau gas works", "south wales glass manufacturing co. office & works", "co.'s office and works",
-                            "house building", "void", "void young", "thomas bishop", "evans smith"
-                        }:
-                            skipped_count += 1
-                            continue
-                        
-                        # Fix merged 5-11 and 6 Evans Smith anomalies
-                        if cleaned.get("house_number") == "5-11":
-                            cleaned["house_number"] = "5"
-                            cleaned["surname"] = "Bishop"
-                            cleaned["forename"] = "Joseph"
-                            cleaned["trade"] = "foreman"
-                        elif cleaned.get("house_number") == "6" and cleaned.get("surname") == "Evans Smith":
-                            cleaned["surname"] = "Smith"
-                            cleaned["forename"] = "Luke"
-                            cleaned["trade"] = "labourer"
-                        elif cleaned.get("house_number") in {"52", "8"}:
-                            skipped_count += 1
-                            continue
-                        elif cleaned.get("house_number") == "23" and cleaned.get("surname") == "Hyslop":
-                            cleaned["house_number"] = ""
+                    # (1899 Crindau Road is now fully handled via direct raw row injection)
                         
                     # Filter out incorrect 1971 Crindau Road records resulting from Cromwell Road drifts
                     if cleaned.get("year") == "1971" and st_lower == "crindau road":
