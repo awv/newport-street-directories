@@ -648,7 +648,7 @@ def clean_record(row):
         return None
         
     # Reject layout street names
-    if st_low in {"left side", "right side", "left hand side", "right hand side", "east side", "west side", "north side", "south side", "directories"}:
+    if st_low in {"newport street list", "newport street", "left side", "right side", "left hand side", "right hand side", "east side", "west side", "north side", "south side", "directories"}:
         return None
 
     house_num = (row.get("house_number") or "").strip().strip(',"-~\'')
@@ -1863,9 +1863,14 @@ def main():
                 if cleaned is None:
                     skipped_count += 1
                 else:
+                    st_lower = cleaned.get("street", "").strip().lower()
+                    if st_lower in {"newport street list", "newport street"}:
+                        skipped_count += 1
+                        continue
+                        
                     # Filter out incorrect 1899 Crindau Road records resulting from multi-column drifts
                     if (cleaned.get("year") == "1899" and 
-                        cleaned.get("street", "").strip().lower() == "crindau road" and 
+                        st_lower == "crindau road" and 
                         cleaned.get("surname", "").strip().lower() not in {
                             "evans", "hutchins", "may", "young", "uzzell", "bishop", "thomas", "smith", "rev", "hyslop", 
                             "crindau gas works", "south wales glass manufacturing co. office & works", "co.'s office and works",
@@ -1873,6 +1878,19 @@ def main():
                         }):
                         skipped_count += 1
                         continue
+                        
+                    # Filter out incorrect 1899 Agincourt Street records resulting from header drifts
+                    if (cleaned.get("year") == "1899" and 
+                        st_lower == "agincourt street" and 
+                        cleaned.get("surname", "").strip().lower() not in {
+                            "lloyd", "ball", "stockham", "francis", "collins", "jones", "lewis", "sysum", "wren", 
+                            "michael", "gay", "jenkins", "cruise", "white", "wathen", "bates", "short", "tutton", 
+                            "whittington", "ricks", "thomas", "rodburn", "williams", "kyte", "grace", "watson", 
+                            "ware", "henson", "void"
+                        }):
+                        skipped_count += 1
+                        continue
+                        
                     rows.append(cleaned)
 
     # 1. Group street names by lowercase value to resolve casing variations automatically
