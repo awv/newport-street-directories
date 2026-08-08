@@ -491,6 +491,25 @@ SAINT_STREET_MAP = {
 def clean_street_name(name):
     if not name:
         return ""
+        
+    # If the street name is in all-caps, convert it to Capital Case
+    if name.isupper():
+        words = name.split()
+        capitalized_words = []
+        for word in words:
+            word_clean = word.strip('.,()-"\'')
+            if word_clean.lower() in {'g.w.r.', 'gwr', 'g.w.r', 'm.o.', 'y.m.c.a.', 'ymca', 'r.a.f.'}:
+                capitalized_words.append(word.upper())
+            elif word_clean.upper() in {'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X'}:
+                capitalized_words.append(word.upper())
+            elif word.lower().startswith("glo'"):
+                capitalized_words.append("Glo'" + word[4:].lower().capitalize())
+            elif "'" in word:
+                parts = word.split("'")
+                capitalized_words.append("'".join(p.capitalize() for p in parts))
+            else:
+                capitalized_words.append(word.capitalize())
+        name = " ".join(capitalized_words)
     
     clean = name.replace('"', '').strip(' ,.-~—–_')
     clean = re.sub(r",\s*[A-Za-z0-9\s]+\b", "", clean)
@@ -583,6 +602,12 @@ def apply_edge_cases(record):
 def clean_record(row):
     year = (row.get("year") or "").strip()
     street = clean_street_name(row.get("street") or "")
+    
+    # Reject coordinates like 'B 5 & 6', 'C 4 17', 'D 5 58', single letters, and fragments
+    st_low = street.lower().strip()
+    if len(st_low) <= 1 or re.match(r'^[a-z]\s+\d+.*$', st_low) or st_low in {'c o. (', 'c.o.', 'l.d.'}:
+        return None
+
     house_num = (row.get("house_number") or "").strip().strip(',"-~\'')
     bldg_name = (row.get("building_name") or "").strip().strip(',"-~\'')
     surname = (row.get("surname") or "").strip().strip(',"-~\'')
@@ -1794,7 +1819,9 @@ def main():
         print(f"Auto-cased {auto_case_count} records.")
 
     # Apply manual street amendments from review TSV if it exists
-    tsv_file = "streets_review_v9.tsv"
+    tsv_file = "streets_review_v10.tsv"
+    if not os.path.exists(tsv_file):
+        tsv_file = "streets_review_v9.tsv"
     if not os.path.exists(tsv_file):
         tsv_file = "streets_review_v8.tsv"
     if not os.path.exists(tsv_file):
