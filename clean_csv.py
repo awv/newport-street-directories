@@ -583,11 +583,11 @@ def apply_edge_cases(record):
 def clean_record(row):
     year = (row.get("year") or "").strip()
     street = clean_street_name(row.get("street") or "")
-    house_num = (row.get("house_number") or "").strip().strip(',"-~')
-    bldg_name = (row.get("building_name") or "").strip().strip(',"-~')
-    surname = (row.get("surname") or "").strip().strip(',"-~')
-    forename = (row.get("forename") or "").strip().strip(',"-~')
-    trade = (row.get("trade") or "").strip().strip(',"-~')
+    house_num = (row.get("house_number") or "").strip().strip(',"-~\'')
+    bldg_name = (row.get("building_name") or "").strip().strip(',"-~\'')
+    surname = (row.get("surname") or "").strip().strip(',"-~\'')
+    forename = (row.get("forename") or "").strip().strip(',"-~\'')
+    trade = (row.get("trade") or "").strip().strip(',"-~\'')
 
     # 1. Filter out Directory Header Artifacts, Cross-street Headings & (return) Markers
     if surname.lower() in HEADER_SURNAMES and (forename.isdigit() or not trade):

@@ -452,7 +452,7 @@ year,street,house_number,building_name,surname,forename,trade
 1876,Caerau,,Mount Pleasant Villa,Lawrence,B,
 1876,Caerau,,,Davies,Rev. J. Bryn-mynw,
 1876,Caerau,,,Norman,E. F,station master
-1876,Caerau,,,Clapp,William M,'Caerau'
+1876,Caerau,,Caerau,Clapp,William M,
 1876,Caerleon Chambers,,Llanllecha House,Firbank,Jh,
 1876,Caerleon Chambers,,Duckpool House,Lane,W. C.E,
 1876,Caerleon Chambers,,Julian's Inn,Brown,Joseph St,
@@ -1768,7 +1768,7 @@ year,street,house_number,building_name,surname,forename,trade
 1876,Francis Street,,,Lewis,Charles,dairyman
 1876,Francis Street,,,Parks,William,ship carpenter
 1876,Francis Street,5,,Westacott,Robert,carpenter
-1876,Francis Street,,,Jews',Schools,
+1876,Francis Street,,,Jews,Schools,
 1876,Francis Street,,,Brooks,James,mechanic
 1876,Francis Street,,,Meredith,Joseph,milkman
 1876,Francis Street,6,,Phillips,J.W,master mariner
@@ -5513,7 +5513,7 @@ year,street,house_number,building_name,surname,forename,trade
 1886,Railway Street,27,,Mills,W. J,traveller
 1886,Railway Street,28,,Griffiths,Mrs. H,
 1886,Railway Street,28,,Edwards,Thomas,waiter
-1886,Rees' Buildings,,,Rees',Buildings,
+1886,Rees' Buildings,,,Rees,Buildings,
 1886,Rees' Buildings,1,,Morgan,James2 Taylor Mrs. Sarah3 Saunders William,carpenter
 1886,Rees' Buildings,4,,Simmonds,John,brewer
 1886,Rees' Buildings,5,,Barnes,George,carpenter
@@ -5836,7 +5836,7 @@ year,street,house_number,building_name,surname,forename,trade
 1886,Victoria Square,18,,Jones,John,smith
 1886,Victoria Square,19,,Cousins,Alf,haulier
 1886,Victoria Square,20,,Jones,Margaret,widow
-1886,Waters' Lane,,,Waters',Lane,NewportFrom
+1886,Waters' Lane,,,Waters,Lane,NewportFrom
 1886,Waters' Lane,10,,Stow,hill.Nott W,masonWilliams Ed. lay readerSt. Woolos Mission roomWeights Richard
 1886,Wedlock's Court,,,Wedlock's,Court,NewportFrom
 1886,Wedlock's Court,9,,Mill,parade,
@@ -5858,7 +5858,7 @@ year,street,house_number,building_name,surname,forename,trade
 1886,Windsor Terrace,6,,Gay,John,stonemason
 1886,Windsor Terrace,9,,Void10,Fry Henry,
 1886,Winmill Street,,,Winmill,Street,NewportFrom John street to South Market street
-1886,Winmill Street,1,,Phillips & Sons',,stores
+1886,Winmill Street,1,,Phillips & Sons,,stores
 1886,Winmill Street,2,,James,P. W,engine driver
 1886,Winmill Street,3,,James,Benjamin,sailor
 1886,Winmill Street,4,,Fraley,H. B,brewer
@@ -7443,7 +7443,7 @@ year,street,house_number,building_name,surname,forename,trade
 1897,Caerau Road,30,,Witts,Mrs Mary A,
 1897,Caerau Road,32,,Cross,Thomas Clifford,
 1897,Caerau Road,33,,Clements,Jas,iron merchant
-1897,Caerau Road,34,Hillsbro',Wheeler,Moses,
+1897,Caerau Road,34,Hillsbro,Wheeler,Moses,
 1897,Caerau Road,35,Glencairn,Boucher,Charles,
 1897,Caerau Road,36,,Davis,Thomas,schoolmaster
 1897,Caerau Road,37,Clyro Villa,Lewis,Mrs Thomas,
@@ -33909,7 +33909,7 @@ year,street,house_number,building_name,surname,forename,trade
 1914,Caerleon Chambers,160-158,,Davies,J Lloyd,physician & surgeon
 1914,Caerleon Chambers,156,Ty Beryn,Duckham,R,
 1914,Caerleon Chambers,154,Alhena Villa,Ambrose,C,
-1914,Caerleon Chambers,152,Woodbro',Batchly,W,
+1914,Caerleon Chambers,152,Woodbro,Batchly,W,
 1914,Caerleon Chambers,150,Isca Vale,Chapman,Herbert M,insurance Superintendent
 1914,Caerleon Chambers,148,King's Lynn,King,SJ,
 1914,Caerleon Chambers,146,,Hook,Colin,
@@ -35245,7 +35245,7 @@ year,street,house_number,building_name,surname,forename,trade
 1914,Clarence Place,17,Isca Hotel,Thomas,Mrs E,
 1914,Clarence Place,15,,Spencer,SH,cycle agent & athletic goods
 1914,Clarence Place,13,,Phillips Bros,,outfitters
-1914,Clarence Place,11,Temperance Bar,Thomas',?,
+1914,Clarence Place,11,Temperance Bar,Thomas,?,
 1914,Clarence Place,3,,Pope,WH,umbrella maker
 1914,Clarence Place,1,,Stewart & Brown,,furniture dealers
 1914,Clarence Street,,Thomas,CH,shoeing,smith
@@ -45516,7 +45516,7 @@ year,street,house_number,building_name,surname,forename,trade
 1914,St. Woolos Road,31,,Lyons,John,painter
 1914,St. Woolos Road,32,,Cane,William Robert,inspector
 1914,St. Woolos Road,33,,James,Thomas,baker
-1914,St. Woolos Road,,James',?,bakehouse,
+1914,St. Woolos Road,,James,?,bakehouse,
 1914,St. Woolos Road,34,,Chalkin,Thomas,crane driver
 1914,Stafford Road,1,,Cain,Arthur,clerk
 1914,Stafford Road,3,,Williams,Jas,
@@ -72080,7 +72080,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Alexandra Docks,,,Davies,The Bungalow,
 1938,Alexandra Docks,,,Pumping,Electrical,and Hyd. Power Station
 1938,Alexandra Docks,,,British Coated Board and Paper Mills Ltd,,
-1938,Alexandra Docks,,Pier Masters',Pilots' And Tel. Offices,,
+1938,Alexandra Docks,,Pier Masters,Pilots' And Tel. Offices,,
 1938,Alexandra Docks,,,Customs And Excise,,
 1938,Alexandra Docks,,,South,Dock,Coal hoists and necessary sidings
 1938,Alexandra Docks,,,Dock,hydraulic shop,
@@ -72865,7 +72865,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Arcades,6,,Jones,Stanley,stationer
 1938,Arcades,7,,Jones,Stanley,music warehouse and bookseller
 1938,Arcades,8-9,,Gore Pritchard & Co,,baby linen and children's outfitters
-1938,Arcades,10-11,,Davies',Dairy,
+1938,Arcades,10-11,,Davies,Dairy,
 1938,Arcades,12,,Wagstaff,Mrs,hairdresser
 1938,Arcades,,,CARLTON CHAMBERS,,
 1938,Arcades,,Arcades,See High street,,
@@ -73154,7 +73154,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Austin Friars,,,Westminster Bank Chambers,,
 1938,Austin Friars,,,Registry of the High Court and District Court County,,
 1938,Austin Friars,,,Hurley,W. D,stock and share brokers
-1938,Austin Friars,,,Justices',Clerk's Office,
+1938,Austin Friars,,,Justices,Clerk's Office,
 1938,Austin Friars,,,Payne,A. W,tob & Confectioner
 1938,Austin Friars,,The Wool Shop,Houghton,Miss K,
 1938,Austin Friars,,,Dents,dry cleaners and dyers,
@@ -74654,7 +74654,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Bridge Street,66,,Lyceum (Newport) Ltd,,"Jenkins George, manager"
 1938,Bridge Street,,,TREDEGAR,PLACE,
 1938,Bridge Street,67,,Millar,J. Leslie,furrier & ladies' tailor
-1938,Bridge Street,68,,Davies',music stores,
+1938,Bridge Street,68,,Davies,music stores,
 1938,Bridge Street,69,,Pullars of Perth,,dyers & cleaners
 1938,Bridge Street,70,,G. F. Lovell & Co. Ltd,,"confctnrs, Queen's cafe"
 1938,Bridge Street,,,Swales,Stanley,auctioneer valuer & estate agent
@@ -75568,7 +75568,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Caerleon Chambers,151,Don Cafe,Cornelius,F. W,
 1938,Caerleon Chambers,153,Clarence House,Jones,Thomas,
 1938,Caerleon Chambers,155,,Rowe,W. W,carpenter and organ builder
-1938,Caerleon Chambers,157-159,,Davies',dairy,
+1938,Caerleon Chambers,157-159,,Davies,dairy,
 1938,Caerleon Chambers,,,Blanks,Miss,
 1938,Caerleon Chambers,159,,Ellis,P. C,
 1938,Caerleon Chambers,161,,Co-operative Society's Stores,,
@@ -76677,7 +76677,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Cardiff Road,,Gwent College,Jones,W. J. Hamilton B.Sc,
 1938,Cardiff Road,,Gwent coll. Lodge,Wilkinson,M,
 1938,Cardiff Road,,Jones Stanley,carp,Hyde,
-1938,Cardiff Road,,Sweeney F. E,G.W.R,Marlboro',
+1938,Cardiff Road,,Sweeney F. E,G.W.R,Marlboro,
 1938,Cardiff Road,,Betterton Stanley F. J,G.W.R,Hazeldene,
 1938,Cardiff Road,,Rosedale,Harris,Frederick,
 1938,Cardiff Road,,Buttigieg Lawrence,chef,Malta,
@@ -77005,7 +77005,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Charles Street,33,,Edwards,E,ladieshairdrsr
 1938,Charles Street,,,Bown,P. W,plumber
 1938,Charles Street,33a,,Blythe,Mrs. M. J,
-1938,Charles Street,34,,Scholls',foot appliances depot,
+1938,Charles Street,34,,Scholls,foot appliances depot,
 1938,Charles Street,,,Knight,Mrs,
 1938,Charles Street,35,,Farmer,A,confectioner
 1938,Charles Street,,,Entrance Cookery Centre Carter Robt,to Newport Secondary School and,caretaker
@@ -77630,7 +77630,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Chepstow road,124,,Sowdons,The Misses,drapers & milliners
 1938,Chepstow road,,,Black H,tailor,draper
 1938,Chepstow road,122,,Dairy Maypole Ltd. Co,,
-1938,Chepstow road,122a,,Busbys',photographers,
+1938,Chepstow road,122a,,Busbys,photographers,
 1938,Chepstow road,120,,Cayzer,W. C,"hosier, etc"
 1938,Chepstow road,118,,Bird,J. H,pork butcher
 1938,Chepstow road,,,Goulding,D. W,van dvr
@@ -78208,7 +78208,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Church Street,11,,Hagie,N,chief officer
 1938,Church Street,12,,O'Connell,John,trimmer
 1938,Church Street,13,,Lynch,J,coal merchant
-1938,Church Street,,,Boilermakers',Institute,
+1938,Church Street,,,Boilermakers,Institute,
 1938,Church Street,,,Newport,Brass Foundry,
 1938,Church Street,,,Coppersmiths' & Co. Ltd,,
 1938,Church Street,14,,Cooper,Edward,seaman
@@ -79118,8 +79118,8 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Commercial Street,,,Kay,Tom,public assistance officer
 1938,Commercial Street,,,Joseph,Rev. D. D,probation officer
 1938,Commercial Street,,,TOWN HALL,,
-1938,Commercial Street,,,Members',room,
-1938,Commercial Street,,,Magistrates',room,
+1938,Commercial Street,,,Members,room,
+1938,Commercial Street,,,Magistrates,room,
 1938,Commercial Street,,,Police,Court,
 1938,Commercial Street,2,,No,Committee room,
 1938,Commercial Street,3,,No,Committee room,
@@ -79127,7 +79127,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Commercial Street,,,Council,Chamber,
 1938,Commercial Street,,,Mayor's,Parlour,
 1938,Commercial Street,,,Mayor's,Sec. room,
-1938,Commercial Street,,,Mayoress',Parlour,
+1938,Commercial Street,,,Mayoress,Parlour,
 1938,Commercial Street,,Town Hall,Parkyn,John,keeper
 1938,Commercial Street,,Boro Archct,Ward,C. F,
 1938,Commercial Street,,West Wm. C,A.M.I.C.E,Borough,engineer
@@ -79269,7 +79269,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Commercial Street,82,Forward Movement Central Hall,Newport,,
 1938,Commercial Street,,,COMMERCIAL,BUILDINGS,
 1938,Commercial Street,83,,Garages Atlas Ltd,,motor dealers
-1938,Commercial Street,84-85,,Jones',Newport Garage,
+1938,Commercial Street,84-85,,Jones,Newport Garage,
 1938,Commercial Street,86-87,,Motors Gwent Ltd,,
 1938,Commercial Street,,,NATIONAL,BUILDINGS,
 1938,Commercial Street,88,,H. Thomas & Sons Ltd,,butchers
@@ -81758,7 +81758,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Duckpool Road,12,,Thomas,Richd,ironworker
 1938,Duckpool Road,13,,Adams,William,signalman
 1938,Duckpool Road,14,,Underwood,Ed,G.W.R
-1938,Duckpool Road,,,Christians',Meeting Room,
+1938,Duckpool Road,,,Christians,Meeting Room,
 1938,Duckpool Road,15,,Trezise,William,steelworker
 1938,Duckpool Road,16,,Dunstan,John,insurance agent
 1938,Duckpool Road,17,,Butcher,Ralph,grocer
@@ -83020,7 +83020,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Fields Park Road,3,The Heath,Skingley,H. C,
 1938,Fields Park Road,1,Devonfield,,,
 1938,Fields Road,,,County,Council Offices,
-1938,Fields Road,,,Girls',entrance to High School,
+1938,Fields Road,,,Girls,entrance to High School,
 1938,Fields Road,1,Solar Lodge,Clarke,Percy L,
 1938,Fields Road,2,Bettina,Frew,William. M,
 1938,Fields Road,3,St. Maur,Haley,Henry,
@@ -83144,7 +83144,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Francis Street,1,,Hicks,Reginald,haulier
 1938,Francis Street,,,Cowmeadows,Garage,
 1938,Francis Street,2,,Burston,Francis George,
-1938,Francis Street,,,Phillips',garage,
+1938,Francis Street,,,Phillips,garage,
 1938,Francis Street,3,,Trevorrow,John,eng. dvr
 1938,Francis Street,4,,Crandon,Thomas,striker
 1938,Francis Street,6,,Budden,J,haulage contcr
@@ -84026,7 +84026,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Godfrey Road,28,Corwen Villa,Campbell,Mrs. A,
 1938,Godfrey Road,30,,School,annexe,"Drayton High School with staff hostel, Mr. Walter and Mrs. Jenkins"
 1938,Godfrey Road,31,,Morgan,Leslie L,
-1938,Godfrey Road,32,,Pupils',entrance,Drayton High School
+1938,Godfrey Road,32,,Pupils,entrance,Drayton High School
 1938,Godfrey Road,33a,,Kelly,Hbt. S,accountant
 1938,Godfrey Road,,,Harris,F. P,civil servant
 1938,Godfrey Road,33,The Chase,Skyrme,Miss M. A. B,
@@ -84231,7 +84231,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Gore Street,1,,Curnock,William George,
 1938,Gore Street,3,,Cavill,Arthur G,ironworker
 1938,Gore Street,5,,Lawrence,Claude,G.W.R
-1938,Gore Street,7,,Jones,Wilfred 1',fitter
+1938,Gore Street,7,,Jones,Wilfred 1,fitter
 1938,Gore Street,9,,Meaker,Henry J,painter
 1938,Gore Street,11,,Garrett,Ben,wagon repairer
 1938,Gore Street,13,Watchmaker,Weeks,Herbt,
@@ -85221,7 +85221,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Heather Road,8,Bryngelly,James,H. I,
 1938,Heather Road,6,Onska Glette,Owens,Glyndwr,
 1938,Heather Road,,,Brown Bros,,motor engnrs
-1938,Heather Road,,,Graces',corn stores,
+1938,Heather Road,,,Graces,corn stores,
 1938,Henry Street,1,,Boddy,William,gardener
 1938,Henry Street,2,,Marney,Alfred,inspector G.W.R
 1938,Henry Street,3,,Taylor,Mrs. Lavinia,
@@ -87328,7 +87328,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Llanthewy Road,20,Inglefield,McKinnon,John Henry,
 1938,Llanthewy Road,22,Wyeclitic,Simpson,Mrs. W. J,
 1938,Llanthewy Road,26,Lifford,Jones,Ernest G,medical electrician and masseur
-1938,Llanthewy Road,28,Hillsboro',Haggett,R. A,
+1938,Llanthewy Road,28,Hillsboro,Haggett,R. A,
 1938,Llanthewy Road,30,,Burman,Mrs. F,
 1938,Llanthewy Road,34,Haslehurst,Williams,Charles,engineer
 1938,Llanthewy Road,36,Wyvenhoe,Traylor,Mrs. Annie,
@@ -92853,7 +92853,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Risca Road,97,,O'Reiley,,
 1938,Risca Road,,,The,Cemetery,
 1938,Risca Road,,Cemetery Lodge,Oliver,A. G,
-1938,Risca Road,,,Jews',Cemetery,
+1938,Risca Road,,,Jews,Cemetery,
 1938,Risca Road,,,Coed,Melyn Recreation Ground,
 1938,Risca Road,,Greenacre,Dunn,George James,
 1938,Risca Road,,Oakfield,,,
@@ -93173,7 +93173,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,River Banks,,,Hydraulic,Power Station,
 1938,River Banks,,,Sea,Lock,
 1938,River Banks,,,London,wharf,Davies Bros (Newport) Ltd. builders' merchants
-1938,River Banks,,,Commissioners',Landing stage,
+1938,River Banks,,,Commissioners,Landing stage,
 1938,River Banks,,,Clarence,wharf,
 1938,River Banks,,Sessions & Sons,Ltd,,"builders merchants, etc"
 1938,River Banks,,,Kerament Wall and Floor Tile Co,,
@@ -93404,7 +93404,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Rodney Parade,,,ARTILLERY,PLACE,
 1938,Rodney Parade,,,Davies Bros. (Newport) Ltd,,builders' merchants
 1938,Rodney Parade,,Campbell P. & A. Ltd..offices,Bristol,Channel Passenger Steamboat Service,"agent Vickery R. G., Landing stg"
-1938,Rodney Parade,,,HarbourCommissioners',Landing Stage,
+1938,Rodney Parade,,,HarbourCommissioners,Landing Stage,
 1938,Rodney Parade,,Wildy J,chauffeur,Rodney house,
 1938,Rodney Parade,,,Labour,Exchange,men's entrance
 1938,Rodney Parade,3,,Sully,Ebenezer,pontoon attendant officer
@@ -93851,7 +93851,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Shaftesbury Street,61,,Lloyd,Mrs. Louisa,
 1938,Shaftesbury Street,63,,Horsham,Alfred John,
 1938,Shaftesbury Street,65,,Guest,Bert,G.W.R
-1938,Shaftesbury Street,67,William E. Woodward,Moulders',Anns,
+1938,Shaftesbury Street,67,William E. Woodward,Moulders,Anns,
 1938,Shaftesbury Street,69,,Hillier,Harry,
 1938,Shaftesbury Street,71-75,,Polish Ideal Co,,
 1938,Shaftesbury Street,,Clyde Lewis,Brynglas Co. E,Packing,
@@ -94077,7 +94077,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Skinner Street,28,,G. F. Lovell & Co,,"Ltd., confectioners"
 1938,Skinner Street,,,Olympia,Cinema Theatre,
 1938,Skinner Street,29,,G. F. Lovell & Co.. Ltd,,confectioners
-1938,Skinner Street,30,,Kings',cafe,
+1938,Skinner Street,30,,Kings,cafe,
 1938,Skinner Street,,,ALBANY CHAMBERS,,see Commercial street
 1938,Slade Street,1,,Ralph,John W,ironworker
 1938,Slade Street,3,,Pitt,Samuel,bricklayer
@@ -94117,7 +94117,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Somerset Road,23,,Cock,George. W,boot merch
 1938,Somerset Road,25,,Lewis,Humphry,shopman
 1938,Somerset Road,27,Rylston,Bell,Matthew,
-1938,Somerset Road,29,,Marais,Henry P.',mariner
+1938,Somerset Road,29,,Marais,Henry P,mariner
 1938,Somerset Road,31,,Saunders,John W,grocer
 1938,Somerset Road,33,,Mills,George,cashier
 1938,Somerset Road,35,Langland,Kerr,Mrs. E. L,
@@ -95083,7 +95083,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,St. Woolos Road,32,,James,Stanley,baker
 1938,St. Woolos Road,33,,Beacham,Alfred,G.W.R
 1938,St. Woolos Road,,,Basham,Mrs. J,
-1938,St. Woolos Road,,,James',bakehouse,
+1938,St. Woolos Road,,,James,bakehouse,
 1938,St. Woolos Road,34,,Dolling,H. R,Greengrocer
 1938,Stafford Road,1a,,Phillips,W,motor cycles and repairer
 1938,Stafford Road,1,,White,George,
@@ -96546,7 +96546,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Vine Place,4,,Wood,William,labourer
 1938,Vine Place,5,,Wood,John,wagon repairer
 1938,Vine Place,,,Clarke & Sons,George,garage and stables
-1938,Vivian Road,,,Fearis',bakehouse,
+1938,Vivian Road,,,Fearis,bakehouse,
 1938,Vivian Road,1,,Lazaretti,Mrs. Mary Ann,
 1938,Vivian Road,3,,Wells,Howard,ironworker
 1938,Vivian Road,5,,Maiden,Mrs. Elizabeth,
@@ -97486,7 +97486,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Windsor Road,54,,Hood,Thomas. S,lorry driver
 1938,Windsor Road,52,,Mays,Frederick. R,sunblind maker
 1938,Windsor Road,50,,Shurmer,Jas. L,machinist
-1938,Windsor Road,,,Shurmer,Miss B. L. ladies',hairdresser
+1938,Windsor Road,,,Shurmer,Miss B. L. ladies,hairdresser
 1938,Windsor Road,48,,Brooks,F,clerk
 1938,Windsor Road,44,,Purnell,Frederick G,ironworker
 1938,Windsor Road,42,,Gibbon,Jas.H,cabinetmaker
@@ -97661,7 +97661,7 @@ year,street,house_number,building_name,surname,forename,trade
 1938,Wolseley street,41,,Johnson,Mrs. Annie,
 1938,Wolseley street,43,,Smith,George,G.W.R
 1938,Wolseley street,45,,Wroot,George F,shunter
-1938,Wolseley street,,,Stevens',marine stores,
+1938,Wolseley street,,,Stevens,marine stores,
 1938,Wolseley street,,,Colwell,Thomas. E,general shop
 1938,Wolseley street,56,,Jones,Mrs. Alice M,
 1938,Wolseley street,54,,Hood,Joseph W,trimmer
@@ -98077,7 +98077,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Adeline Street,47,,Rondel,Charles,hoistman
 1946,Adeline Street,45,,Ayres,Henry,coal tpr
 1946,Adeline Street,43,,O'Connell,Daniel,smith
-1946,Adeline Street,41,,Williams,Michael,' docker
+1946,Adeline Street,41,,Williams,Michael,docker
 1946,Adeline Street,39,,Wall,John H,trans'pt w'r
 1946,Adeline Street,37,,Williams,John,coal trim
 1946,Adeline Street,35,,Pring,Miss Winnie,
@@ -98446,7 +98446,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Alexandra Docks,,,G.W.R,Garage,
 1946,Alexandra Docks,,,Telephone,Call Office,
 1946,Alexandra Docks,,Bailey C. H,Ltd,,Dry Dock and Offices
-1946,Alexandra Docks,,,E',Maintenance R.A.F,
+1946,Alexandra Docks,,,E,Maintenance R.A.F,
 1946,Alexandra Docks,,,DOCK,COTTAGES,
 1946,Alexandra Docks,4,,Orford,Charles. H,gateman
 1946,Alexandra Docks,5,,Morgan,George. William,G.P.O.
@@ -98488,7 +98488,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Alexandra Docks,,The Bungalow,Bone,Harry,
 1946,Alexandra Docks,,,Pumping,Electrical,and Hyd Power Station
 1946,Alexandra Docks,,,Royal,Air Force,stores
-1946,Alexandra Docks,,Pier Masters',Pilots' And Tel Offices,,
+1946,Alexandra Docks,,Pier Masters,Pilots' And Tel Offices,,
 1946,Alexandra Docks,,,Customs And Excise,,
 1946,Alexandra Docks,,,South,Dock,Coal hoists and necessary sidings
 1946,Alexandra Docks,,,Dock,hydraulic shop,
@@ -99886,7 +99886,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Baneswell Road,7,,George,Percy,labourer
 1946,Baneswell Road,7a,Hairdresser,Carter,Frederick. G,
 1946,Baneswell Road,,Watchmaker,Florida,W. H,
-1946,Baneswell Road,8,,Davies',Music Stores,
+1946,Baneswell Road,8,,Davies,Music Stores,
 1946,Baneswell Road,,,Bellamy,George,
 1946,Baneswell Road,9,,Sims,F. H,fish bar
 1946,Baneswell Road,10,,Pritchard,Jno,
@@ -101184,7 +101184,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Bridge Street,66,,LYCEUM (NEWPORT) LTD,,"Jenkins George, manager"
 1946,Bridge Street,,,TREDEGAR,PLACE,
 1946,Bridge Street,67,,MILLAR,J. LESLIE,furrier and ladies' tailor
-1946,Bridge Street,68,,Davies',music stores,
+1946,Bridge Street,68,,Davies,music stores,
 1946,Bridge Street,69,,Pullars of Perth,,dyers & cleaners
 1946,Bridge Street,69a,,White,Leslie,hairdresser
 1946,Bridge Street,70,,G. F. Lovell & Co. Ltd,,"confctnrs, Queen's cafe"
@@ -102203,7 +102203,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Caerleon Chambers,151,,Capus,Joseph B,grocer
 1946,Caerleon Chambers,153,,Jones,Thomas,"engine dvr, Clarence ho"
 1946,Caerleon Chambers,155,,Mole,William. P,sawyer
-1946,Caerleon Chambers,157-159,,Davies',dairy,
+1946,Caerleon Chambers,157-159,,Davies,dairy,
 1946,Caerleon Chambers,,,Evans,W. H,works foreman
 1946,Caerleon Chambers,159,,Harris,F,
 1946,Caerleon Chambers,161,,Co-operative Society's Stores,,
@@ -102267,7 +102267,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Caerleon Chambers,,,Spreadborough,Tom,
 1946,Caerleon Chambers,253,,Thomas,Mrs. E. M,shop
 1946,Caerleon Chambers,255,,Hamilton,Robert,flr sllr
-1946,Caerleon Chambers,257,Lavender House,Pedler,Ernest,G.W.R. '
+1946,Caerleon Chambers,257,Lavender House,Pedler,Ernest,G.W.R
 1946,Caerleon Chambers,259,Jesmond Ho,Price,David,
 1946,Caerleon Chambers,261,,Chapman,H. M,steel sheet inspector
 1946,Caerleon Chambers,263,,Baker,Charles H,
@@ -102435,7 +102435,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Caerleon Chambers,,,Collett,William,timber merch and saw mills
 1946,Caerleon Chambers,,Julian's Hotel,St,,Baker Percy
 1946,Caerleon Chambers,,Twine Wm. C,farm,labr,
-1946,Caerleon Chambers,,Tucker,drapers',mngr,
+1946,Caerleon Chambers,,Tucker,drapers,mngr,
 1946,Caerleon Chambers,,Worker,Willis Alfd,steel,
 1946,Caerleon Chambers,,Scannell E. E,welder,Colloway,
 1946,Caerleon Chambers,,Neagle W,G.W.R,Elsinore,
@@ -102497,7 +102497,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Caerleon Chambers,462,,Leonard Phillips & Co,,motor engineers
 1946,Caerleon Chambers,460,,Thomas,J. W,"grocer and confectioner, Beaufort stores"
 1946,Caerleon Chambers,458,,Dark,Mrs. T. H,
-1946,Caerleon Chambers,458a,,Builders',yard,
+1946,Caerleon Chambers,458a,,Builders,yard,
 1946,Caerleon Chambers,456,,Barclay,William,G.W.R
 1946,Caerleon Chambers,454,,Woodfield,Mrs. Elizabeth,
 1946,Caerleon Chambers,,,Kirby,Percy,steelwrkr
@@ -103062,7 +103062,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Capel Crescent,90,,Watkins,William,painter
 1946,Capel Crescent,91,,Jones,Frank,
 1946,Capel Crescent,92,Fern Cottage,Woolgar,R,
-1946,Capel Crescent,93,Builders',,shed,
+1946,Capel Crescent,93,Builders,,shed,
 1946,Capel Crescent,94,,Shepherd,A. I,house painters and decorators
 1946,Capel Crescent,95,,Thissen & Jenkins,,garage
 1946,Capel Crescent,96,,R.A.F,,
@@ -103179,7 +103179,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Cardiff Road,,,COURTYBELLA,COTTAGES,
 1946,Cardiff Road,,Whitehead Ltd. Offices,Coles,W,watchman
 1946,Cardiff Road,2,,Jones,John J,foremn fitr
-1946,Cardiff Road,3,,Barton,T. W',chief electm
+1946,Cardiff Road,3,,Barton,T. W,chief electm
 1946,Cardiff Road,4 - 6,,Whitehead Ltd. Offices,,
 1946,Cardiff Road,,,Maesglas,engine sheds,
 1946,Cardiff Road,,,Great,Western Railway,
@@ -103311,7 +103311,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Cardiff Road,,GWENT COLLEGE FOR BOYS,Jones,W. J. Hamilton B.SC,
 1946,Cardiff Road,,Gwent coll. Lodge,Wilkinson,M,
 1946,Cardiff Road,,Jones Stanley,carp,Hyde,
-1946,Cardiff Road,,Sweeney F. E,G.W.R,Marlboro',
+1946,Cardiff Road,,Sweeney F. E,G.W.R,Marlboro,
 1946,Cardiff Road,,Betterton Stanley F. J,G.W.R,Hazeldene,
 1946,Cardiff Road,,Rosedale,Harris,Frederick,
 1946,Cardiff Road,,Malta,Buttigieg,Mrs. Giovanna,
@@ -104410,7 +104410,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Chepstow road,126,,Pitchford & Son Ltd,,butchers
 1946,Chepstow road,124,,BLACK H. (NEWPORT) LTD,,"tailors, drapers, outfitters, boot dealers"
 1946,Chepstow road,122,,Dairy Maypole Ltd Co,,
-1946,Chepstow road,122a,,Busbys',photographers,
+1946,Chepstow road,122a,,Busbys,photographers,
 1946,Chepstow road,120,,Cayzer,W. C,"hosier, etc"
 1946,Chepstow road,118,,Bird,J. H,pork butcher
 1946,Chepstow road,,,Dymond,J. W. S,butcher
@@ -104997,7 +104997,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Church Street,11,,Hagie,N,chief officer
 1946,Church Street,12,,O'Connell,John,trimmer
 1946,Church Street,13,,Lynch,J,coal merchant
-1946,Church Street,,,BOILERMAKERS',INSTITUTE,
+1946,Church Street,,,BOILERMAKERS,INSTITUTE,
 1946,Church Street,,,Brass Foundry Newport & Coppersmiths' Co. Ltd,,
 1946,Church Street,14,,Morgan,Mrs. Elsie,
 1946,Church Street,15,,Desmond,Mrs. Mary,
@@ -105091,7 +105091,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Clarence Place,,,Barron,A,dentist
 1946,Clarence Place,4,,Anderson,E. A,tobacco and hairdresser
 1946,Clarence Place,2,,Barlows of Newport Ltd. furnishers,,
-1946,Clarence Place,,Davies Bros. (Deebee) Ltd,bldrs',mchnts,
+1946,Clarence Place,,Davies Bros. (Deebee) Ltd,bldrs,mchnts,
 1946,Clarence Street,1a,,McCarthy,Patrick,rigger
 1946,Clarence Street,1,,Collins,Michael,labourer
 1946,Clarence Street,2,,Collins,Jno,labourer
@@ -105333,7 +105333,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Clytha Park,16,"M.D., M.CH., Etc",Roche,Dr. W. J,
 1946,Clytha Park,,,Civic,Centre building,
 1946,Clytha Park,,,Police,Court,
-1946,Clytha Park,,,Magistrates',room,
+1946,Clytha Park,,,Magistrates,room,
 1946,Clytha Park,,,Police,offices,
 1946,Clytha Park,,Chief Constable's office,C,M. Harris,chief con
 1946,Clytha Park,,,War,Duty Admin.' Dept,
@@ -105581,7 +105581,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Colne Street,7,,Matthews,Ed. D,
 1946,Colne Street,9,,Williams,Mrs. A,
 1946,Colne Street,11,,Strong,E. J,dairyman
-1946,Colne Street,13,,Turner,Mrs. Blanche A. ',
+1946,Colne Street,13,,Turner,Mrs. Blanche A,
 1946,Colne Street,,,Smith,Mrs. M,
 1946,Colne Street,15,,Bridges,Reg,four miller
 1946,Colne Street,17,,Bristow,Emmanuel S. J,clerk
@@ -105911,14 +105911,14 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Commercial Street,,,Social Committee offices,Welfare,
 1946,Commercial Street,,,Kay,Tom,Director of Social Welfare
 1946,Commercial Street,,,TOWN HALL,,
-1946,Commercial Street,,,Members',room,
+1946,Commercial Street,,,Members,room,
 1946,Commercial Street,2,,No,Committee room,
 1946,Commercial Street,3,,No,Committee room,
 1946,Commercial Street,4,,No,Committee room,
 1946,Commercial Street,,,Council,Chamber,
 1946,Commercial Street,,,Mayor's,Parlour,
 1946,Commercial Street,,,Mayor's,Sec. room,
-1946,Commercial Street,,,Mayoress',Parlour,
+1946,Commercial Street,,,Mayoress,Parlour,
 1946,Commercial Street,,Town Hall,Parkyn,John,keeper
 1946,Commercial Street,,Boro Archct,Ward,C. F,
 1946,Commercial Street,,West Wm. C,A.M.I.C.E,Borough,engineer
@@ -105974,7 +105974,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Commercial Street,,,Wine,Lodge,
 1946,Commercial Street,38,,Kendall & Sons,,"Ltd., Newport Umbrella Hospital"
 1946,Commercial Street,,,Martin,Mrs. J. N,hairdresser
-1946,Commercial Street,,,Rosser,Miss M,dressmkr'
+1946,Commercial Street,,,Rosser,Miss M,dressmaker
 1946,Commercial Street,39,,Donegals,tailors,
 1946,Commercial Street,,Biddescombe Ivor E,F.R.E.I,estate,agent and valuer
 1946,Commercial Street,40,,W. E. Evans & Co,,Ltd bootmakers
@@ -106714,7 +106714,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Corporation Road,17,,James,Thomas,
 1946,Corporation Road,19,Hazelhurst,Davies,R,
 1946,Corporation Road,21,,Treasure,Mrs. S. A,
-1946,Corporation Road,23,Cedar House,Watts,J. W',yeast mcht
+1946,Corporation Road,23,Cedar House,Watts,J. W,yeast mcht
 1946,Corporation Road,25,,Ingram,Sid,butcher
 1946,Corporation Road,27,,Jukes,Alfred,
 1946,Corporation Road,29,,Mogford,B. C,"grndsmn, St. Elmo"
@@ -108403,7 +108403,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Dock Street,194,,Fussells,Sports Depot,
 1946,Dock Street,195,,Jacobs (A. J.) & Sons,,"jewellers, pawnbrokers and clothiers"
 1946,Dock Street,,,Morgan,James B,
-1946,Dock Street,198,,Butchers',Allocation Dpt,
+1946,Dock Street,198,,Butchers,Allocation Dpt,
 1946,Dock Street,200 - 201,,GRIFFITHS & SONS,,general outfitters
 1946,Dock Street,,,King's,Head Tap,
 1946,Dolphin Street,1,,Collins,Albert,tool maker
@@ -108624,7 +108624,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Duckpool Road,12,,Thomas,Richd,ironworker
 1946,Duckpool Road,13,,Adams,William,signalman
 1946,Duckpool Road,14,,Underwood,Ed,G.W.R
-1946,Duckpool Road,,,CHRISTIANS',MEETING ROOM,
+1946,Duckpool Road,,,CHRISTIANS,MEETING ROOM,
 1946,Duckpool Road,15,,Isitt,L.R,
 1946,Duckpool Road,16,,Dunstan,John,insurance agent
 1946,Duckpool Road,17,,Butcher,Ralph,grocer
@@ -109980,7 +109980,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Fields Park Road,3,,R.A.F,The Heath,
 1946,Fields Park Road,1,,John,A. J,"com. traveller, St. Govans"
 1946,Fields Road,,,COUNTY,COUNCIL OFFICES,
-1946,Fields Road,,,Girls',entrance to High School,
+1946,Fields Road,,,Girls,entrance to High School,
 1946,Fields Road,1,Solar Lodge,Clarke,Percy L,
 1946,Fields Road,2,Bettina,Frew,William. M,
 1946,Fields Road,3,St. Maur,Haley,Henry,
@@ -110135,7 +110135,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Francis Street,1,,Hicks,Reginald,haulier
 1946,Francis Street,,,Burnett's,garage,
 1946,Francis Street,2,,Burston,Francis George,
-1946,Francis Street,,,Phillips',garage,
+1946,Francis Street,,,Phillips,garage,
 1946,Francis Street,3,,Davies,Ronald P,cranedriver
 1946,Francis Street,4,,James,John,
 1946,Francis Street,6,,Budden,J,haulage conter
@@ -112182,7 +112182,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Hawthorn Avenue,59,,Lucas,James,ironworker
 1946,Hawthorn Avenue,57,,Capel,E,van man
 1946,Hawthorn Avenue,55,,Pope,Melville,ironworker
-1946,Hawthorn Avenue,,,Wardens',Post B,18 area
+1946,Hawthorn Avenue,,,Wardens,Post B,18 area
 1946,Hawthorn Avenue,53,,Jones,Allen,steelworker
 1946,Hawthorn Avenue,51,,Pring,John Henry,fitter
 1946,Hawthorn Avenue,49,,Goodwin,Sidney Yorath,
@@ -112306,7 +112306,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Heather Road,4,,Williams,Mrs. Helen,
 1946,Heather Road,,,CHURCH OF S.S. JULIUS AND AARON,,
 1946,Heather Road,2,,E,C. Brown,motor Engineer
-1946,Heather Road,,,Graces',corn stores,
+1946,Heather Road,,,Graces,corn stores,
 1946,Henry Street,1,,Boddy,William,gardener
 1946,Henry Street,2,,Marney,Alfred,"inspector, G.W.R"
 1946,Henry Street,3,,Corps,Edwd. F,brick layr
@@ -112571,7 +112571,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Hewertson Street,16,,Bastin,William,labourer
 1946,Hewertson Street,17,,Tyler,William,labourer
 1946,Hewertson Street,18,,Heames,Reg. F,labourer
-1946,Hewertson Street,19,,Betts,William. J. ironworke',
+1946,Hewertson Street,19,,Betts,William. J. ironworke,
 1946,Hewertson Street,20,,Mills,Frederick C,
 1946,Hewertson Street,21,,Wookey,A,labourer
 1946,Hewertson Street,22,,Reed,Mrs. Sarah Ann,
@@ -112710,7 +112710,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,High Street,,,here,ts Market-street,
 1946,High Street,,,Newport,Corp. Electricity Dept,showrooms
 1946,High Street,,,Milk,Bar,
-1946,High Street,24,,Citizens',Advice Bureau,
+1946,High Street,24,,Citizens,Advice Bureau,
 1946,High Street,,,Alexandre Ltd,,tailors
 1946,High Street,,CROWN ARCADE,ROYAL CHAMBERS,,
 1946,High Street,,,Lloyd & Yorath Ltd,,wine and spirit stores
@@ -112978,7 +112978,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Hill Street,32,,Neat,Charles. E,waggon rep
 1946,Hill Street,33,,Sullivan,D. J,painter and decorator
 1946,Hill Street,34 - 35,,Newport,Liberal Association and Institute J,"Parry Brown, hon. Secretary"
-1946,Hill Street,,,Officers',Club (temporary),
+1946,Hill Street,,,Officers,Club (temporary),
 1946,Hill Street,,,PARK HALL AND LESSER PARK HALL,,
 1946,Hopefield,1,,Kinnersley,Frederick. M,
 1946,Hopefield,2,,Fisher,Thomas,
@@ -113736,7 +113736,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Kingsmill Terrace,7,,Davis,T,fish salesman
 1946,Kingsmill Terrace,,,Hughes,B. T,boilersmith
 1946,Kingsmill Terrace,8,,Williams,Mrs. Edith H,
-1946,Kingsmill Terrace,9,,Watkins,Regd. J,' clerk
+1946,Kingsmill Terrace,9,,Watkins,Regd. J,clerk
 1946,Kingsmill Terrace,10,,Williams,L. J,labourer
 1946,Kingsmill Terrace,11,Haresfield,Thomas,Mrs. A. E,
 1946,Kingston Road,2,,Martin,Miss Mary,
@@ -114263,7 +114263,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Lime Street,94,,Powrie,Charles,newsagent
 1946,Lime Street,92,,Hodges,Frederick,ironworker
 1946,Lime Street,90,,Hobbs,Thomas. G.W.R,
-1946,Lime Street,88,,Allen,',
+1946,Lime Street,88,,Allen,,
 1946,Lime Street,86,,Williams,Mrs. Iris,
 1946,Lime Street,84,,Jones,C,ships painter
 1946,Lime Street,82,,Johnson,Mrs. Annie,
@@ -114508,7 +114508,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Llanthewy Road,20,Inglefield,McKinnon,John Henry,
 1946,Llanthewy Road,22,Wyecliffe,Simpson,Mrs. W. J,
 1946,Llanthewy Road,24 - 26,,A.T.S,,
-1946,Llanthewy Road,28,Hillsboro',Haggett,R. A,
+1946,Llanthewy Road,28,Hillsboro,Haggett,R. A,
 1946,Llanthewy Road,30,,Burman,Mrs. F,
 1946,Llanthewy Road,,,Huxtable,Mrs. Dorothy,
 1946,Llanthewy Road,34,Haslehurst,Hide,Mrs. E. M,
@@ -116979,7 +116979,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Marshfield Street,30,,Haynes,Joseph,ironworker
 1946,Marshfield Street,28,,Hughes,,
 1946,Marshfield Street,26,,Meehan,Jas. H,labourer
-1946,Marshfield Street,24,,Dennison,Mrs. May',
+1946,Marshfield Street,24,,Dennison,Mrs. May,
 1946,Marshfield Street,22,,Williams,George. F,checks
 1946,Marshfield Street,20,,Guilfoyle,William,ironworker
 1946,Marshfield Street,18,,Crawley,Mrs. Lily,
@@ -117076,14 +117076,14 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Mellon Street,3,,Morgan,Mrs. Gertrude,
 1946,Mellon Street,5,,Jones,William. G,blacksmith's striker
 1946,Mellon Street,7,,Truman,Reg. J,labourer
-1946,Mellon Street,9,,Bishop,George',fish frier
+1946,Mellon Street,9,,Bishop,George,fish frier
 1946,Mellon Street,11,,Ryan,W,labourer
 1946,Mellon Street,13,,Reardon,J,labourer
 1946,Mellon Street,15,,Reardon,J,army
 1946,Mellon Street,17,,O'Brien,Mrs. Mary,
 1946,Mellon Street,19,,Coombes,William,labourer
 1946,Mellon Street,21,,Perriam,W . H,labourer
-1946,Mellon Street,,,Griffiths',clothing factory,
+1946,Mellon Street,,,Griffiths,clothing factory,
 1946,Mellon Street,,Johns R. H,Ltd,warehse,
 1946,Mellon Street,40,,Egeh,Noor,
 1946,Mellon Street,38,,Windsor,Ivor,dealer
@@ -117988,7 +117988,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Arcade (Newport),6,,Jones,Stanley,"stationer, bookseller & music whse"
 1946,Arcade (Newport),7,,Jones,Stanley,music warehouse and bookseller
 1946,Arcade (Newport),8-9,,Gore Pritchard & Co,,baby linen and children's outfitters
-1946,Arcade (Newport),10-11,,Davies',Dairy,
+1946,Arcade (Newport),10-11,,Davies,Dairy,
 1946,Arcade (Newport),12,,J. H. Wagstaff Ltd,,
 1946,Arcade (Newport),,,CARLTON CHAMBERS,,
 1946,Arcade (Newport),,Arcade (Newport),See High,,
@@ -118232,7 +118232,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Oakley Street,58,,Clarke,J,
 1946,Oakley Street,60,,Dunn,Samuel,
 1946,Oakley Street,62,,Foy,Mrs. Selina,
-1946,Oakley Street,,,Entrance,to Sparkes',builders yard & office
+1946,Oakley Street,,,Entrance,to Sparkes,builders yard & office
 1946,Oakley Street,33,,Parker,,
 1946,Oakley Street,31,,Farrell,Gethin,roller
 1946,Oakley Street,29,,Jarvis,Stanley,watchman
@@ -119453,7 +119453,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Pump Street,,Garage,Davies,J. M,
 1946,Pump Street,,,Ince,Garage,
 1946,Pump Street,,,Smith,George,plasterer (warehouse)
-1946,Queen Street,,,Sewell',s garage,
+1946,Queen Street,,,Sewell,s garage,
 1946,Queen Street,,,Nesford,A,motor Engineer
 1946,Queen Street,1,,Matthews,A. F,motor dvr
 1946,Queen Street,3,,Murray,George. C,inspector
@@ -120668,7 +120668,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,River Banks,,,Hydraulic,Power Station,
 1946,River Banks,,,Sea,Lock,
 1946,River Banks,,,London,wharf,Davies Bros. (Deebee) Ltd. Builders merchants
-1946,River Banks,,,Commissioners',Landing stage,
+1946,River Banks,,,Commissioners,Landing stage,
 1946,River Banks,,Clarence wharf - Sessions & Sons,Ltd,,"builders merchants, etc"
 1946,River Banks,,,Chemical Hall Co,,
 1946,River Banks,,Jenkins H. S. & Co,oil,colour and linseed oil putty manufacturers,
@@ -121564,7 +121564,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Skinner Street,28,,G. F. Lovell & Co,,"Ltd., confectioners"
 1946,Skinner Street,,,Olympia,Cinema Theatre,
 1946,Skinner Street,29,,G. F. Lovell & Co.. Ltd,,confectioners
-1946,Skinner Street,30,,Kings',cafe,
+1946,Skinner Street,30,,Kings,cafe,
 1946,Slade Street,1,,Ralph,John W,ironworker
 1946,Slade Street,3,,Pitt,Mrs. Hannah,
 1946,Slade Street,5,,Shergold,Edward,labourer
@@ -122569,7 +122569,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,St. Woolos Road,31,,Peebles,W,bus driver
 1946,St. Woolos Road,32,,Stacey,Frank M,baker
 1946,St. Woolos Road,33,,Jones,Thomas,steelworker
-1946,St. Woolos Road,,,James',bakehouse,
+1946,St. Woolos Road,,,James,bakehouse,
 1946,St. Woolos Road,34,,Dolling,Mrs. Clara,general shop
 1946,Stafford Road,1,,White,George,
 1946,Stafford Road,3,,Pritchard,Cyril C,labourer
@@ -124247,7 +124247,7 @@ year,street,house_number,building_name,surname,forename,trade
 1946,Vine Place,4,,Wood,William,labourer
 1946,Vine Place,5,,Wood,John,wagon repairer
 1946,Vine Place,,,Clarke & Sons,George,garage
-1946,Vivian Road,,,Fearis',bakehouse,
+1946,Vivian Road,,,Fearis,bakehouse,
 1946,Vivian Road,1,,Lazaretti,Mrs. Mary Ann,
 1946,Vivian Road,3,,Wells,Howard,ironworker
 1946,Vivian Road,5,,Maiden,Mrs. Elizabeth,
@@ -154968,7 +154968,7 @@ year,street,house_number,building_name,surname,forename,trade
 1878,Bolton Terrace,23,,Morgan,Samuel,tailor
 1878,Bolton Terrace,24,,John,Lewis,puddler
 1878,Bolton Terrace,25,,Fooks,Mrs,
-1878,Bolton Terrace,26,,Jones,J,overseer 'Star'
+1878,Bolton Terrace,26,,Jones,J,overseer 'Star
 1878,Bolton Terrace,27,,Gaisford,Mary Mrs,
 1878,Bolton Terrace,28,,Fitzgerald,Jas,Shoemaker
 1878,Bolton Terrace,29,,Smith,William,porter
@@ -156066,7 +156066,7 @@ year,street,house_number,building_name,surname,forename,trade
 1878,COMMERCIAL ROAD (CONTD.),185,void,,,
 1878,COMMERCIAL ROAD (CONTD.),186,,Pring,H. B,
 1878,COMMERCIAL ROAD (CONTD.),187,,Pync,Mrs,
-1878,COMMERCIAL ROAD (CONTD.),188,E. Cooke,Monmouthshire Wagon  Co,T.,
+1878,COMMERCIAL ROAD (CONTD.),188,E. Cooke,T Monmouthshire Wagon Co,,
 1878,COMMERCIAL ROAD (CONTD.),189,,Nancekevil,James,
 1878,COMMERCIAL ROAD (CONTD.),190,,Duffner,H,watchmakr
 1878,COMMERCIAL ROAD (CONTD.),191,,Powell,J,asst. overseer
@@ -156495,7 +156495,7 @@ year,street,house_number,building_name,surname,forename,trade
 1878,Dock Street,42,Railway Hotel,Hobbs,Mrs,
 1878,Dock Street,,,,L,& N. W. goods statn
 1878,Dock Street,,,,,Midland goods station
-1878,Dock Street,,,,G W.,& M. goods statn
+1878,Dock Street,,,,G W,& M. goods statn
 1878,Dock Street,,Westrn Valleys Rystatn,,,
 1878,Dock Street,44,Western Valleys Hotel,Vine,William. H,
 1878,Dock Street,46,,A. Pugsley & Co,,ship chandlers
@@ -156521,7 +156521,7 @@ year,street,house_number,building_name,surname,forename,trade
 1878,Dock Street,64,,,,Brecon and Merthyr Ry Office
 1878,Dock Street,65,,T. Phillips & Sons,,wine and spirit merchants
 1878,Dock Street,,,Edwards,W. Y,ship brokr
-1878,Dock Street,66,,,M R.,& C. & Co's offices
+1878,Dock Street,66,,,M R,& C. & Co's offices
 1878,Dock Street,67,,J. Berrill & Co,,shpbrks
 1878,Dock Street,68,Dock Offices,,,
 1878,Dock Street,69,Heard and Co,Jones,G. W,"ship brokers, etc"
@@ -159208,7 +159208,7 @@ year,street,house_number,building_name,surname,forename,trade
 1887,Baneswell,,,QUEEN'S BUILDINGS—,,
 1887,Baneswell,9,Mon. Merlin office,South,W,"Telegram office, H. Praill, manager"
 1887,Baneswell,,,Brecon and Merthyr Rly Co's Engineer's office,,
-1887,Baneswell,11,Temperance Hotel,Schofields',,
+1887,Baneswell,11,Temperance Hotel,Schofields,,
 1887,Baneswell,12,,Wellsteed,Mrs.E,butcher
 1887,Baneswell,13,newsagent and printer,Johns,Robert,H.stationer
 1887,Baneswell,14,Newport Directory office,Jones,Thomas,ironmonger
@@ -160036,7 +160036,7 @@ year,street,house_number,building_name,surname,forename,trade
 1887,NEWPORT STREET LIST,,,Davies,Isaac,Pilot
 1887,NEWPORT STREET LIST,,Davies,19,,
 1887,NEWPORT STREET LIST,,Davies,Thomas,Mrs. J. Felix,
-1887,NEWPORT STREET LIST,Capel,Jones,Street,P W H.,master mar
+1887,NEWPORT STREET LIST,Capel,Jones,Street,P W H,master mar
 1887,NEWPORT STREET LIST,Capel,Jones,Ty-ywen,,
 1887,NEWPORT STREET LIST,"From 144, Commercial-road.",Thomas,54,Fry,"Henry James, pilot"
 1887,NEWPORT STREET LIST,"From 144, Commercial-road.",Thomas,J,F. ditto,
@@ -160305,7 +160305,7 @@ year,street,house_number,building_name,surname,forename,trade
 1887,NEWPORT STREET LIST,6,Williams-street,Thomas D,Thomas,pattern mkr
 1887,NEWPORT STREET LIST,6A,,Dalton J,Dalton,greengrocer
 1887,NEWPORT STREET LIST,7,,Steele,Steele,"stephen, mariner"
-1887,NEWPORT STREET LIST,8,,Jeffery Jas,Jeffery,'boat builder
+1887,NEWPORT STREET LIST,8,,Jeffery Jas,Jeffery,boat builder
 1887,NEWPORT STREET LIST,9,Dl. Iron Dresser,Baiss,Baiss,
 1887,NEWPORT STREET LIST,10,,Blake Jno. H,Blake,gen. dlr
 1887,NEWPORT STREET LIST,,,Tredegar Wf. Infnts' Schl,,
@@ -160680,7 +160680,7 @@ year,street,house_number,building_name,surname,forename,trade
 1887,NEWPORT STREET LIST,Burdett,,Rev,H. P,
 1887,NEWPORT STREET LIST,2,P,Bolt,Mrs H,
 1887,NEWPORT STREET LIST,3,,Jones,Wyndham,JP
-1887,NEWPORT STREET LIST,5-6,The Laurels,Lewis,Miss M E.,Ladies' school
+1887,NEWPORT STREET LIST,5-6,The Laurels,Lewis,Miss M E,Ladies' school
 1887,NEWPORT STREET LIST,7,French Consul,Bellaguet,Leon,
 1887,NEWPORT STREET LIST,8,"T., B.A",Anthony,Rev,
 1887,NEWPORT STREET LIST,9,,Baker,George,
@@ -160877,7 +160877,7 @@ year,street,house_number,building_name,surname,forename,trade
 1887,NEWPORT STREET LIST,14,Picton Arms,J,,
 1887,NEWPORT STREET LIST,14,,Davis,,
 1887,NEWPORT STREET LIST,14,,Hy,guard,
-1887,NEWPORT STREET LIST,15,,Vaux,Mrs G.,"cutler, etc"
+1887,NEWPORT STREET LIST,15,,Vaux,Mrs G,"cutler, etc"
 1887,NEWPORT STREET LIST,15,,58,,"Lawrence W. hosier,, etc"
 1887,NEWPORT STREET LIST,16,,9,Orders Frederick,
 1887,NEWPORT STREET LIST,16,,Bullock,,
@@ -161095,7 +161095,7 @@ year,street,house_number,building_name,surname,forename,trade
 1887,NEWPORT STREET LIST,200-54,,Mrs E. George confectr,,
 1887,NEWPORT STREET LIST,Salutation Inn,George Mrs E. confectr,,Phillips E. W,"solicitor, 55"
 1887,NEWPORT STREET LIST,Salutation Inn,George Mrs E. confectr,56,,
-1887,NEWPORT STREET LIST,Salutation Inn,,George Mrs E. confectr,Price D W.,Draper And
+1887,NEWPORT STREET LIST,Salutation Inn,,George Mrs E. confectr,Price D W,Draper And
 1887,Commercial Street,mercial-road.,Sims J. C. printer and,,G. Roberts,manager
 1887,Commercial Street,mercial-road.,Sims J. C. printer and,basket,maker,
 1887,Commercial Street,,basket maker,58,,
@@ -161537,7 +161537,7 @@ year,street,house_number,building_name,surname,forename,trade
 1887,Clytha Terrace,22,,Mrs,Latch Louisa,
 1887,Clytha Terrace,23,,Jas,Hamilton,Jas. J. traveller
 1887,Clytha Terrace,22,,Robt,Morris,robt.railway clk
-1887,Clytha Terrace,23,W. Custom's Officer,R. C,Merrick R C.,
+1887,Clytha Terrace,23,W. Custom's Officer,R. C,Merrick R C,
 1887,Clytha Terrace,24,,Geo. H,Marley,porter
 1887,Clytha Terrace,25,,Jos,Crumb,Jos. mason
 1887,Clytha Terrace,26,,Joseph,Hooper,plasterer
@@ -161739,7 +161739,7 @@ year,street,house_number,building_name,surname,forename,trade
 1887,NEWPORT STREET LIST,50,"R. Thomas, agent",Brokers And Steamship,,
 1887,NEWPORT STREET LIST,51,Newport Old Dock offices,Beynon T. & Co.Limited,,
 1887,NEWPORT STREET LIST,51,Newport Old Dock offices,Agents And At Cardiff,,
-1887,NEWPORT STREET LIST,80-67,,shipbrokers and ship,G W.,R. Co's offices
+1887,NEWPORT STREET LIST,80-67,,shipbrokers and ship,G W R.,Co's offices
 1887,NEWPORT STREET LIST,80,,Clarke Stephenson & Co,,
 1887,NEWPORT STREET LIST,68,Hoskins & Llewelyn,owners,,
 1887,NEWPORT STREET LIST,,Hoskins & Llewelyn,steamship,owners and,
@@ -161783,7 +161783,7 @@ year,street,house_number,building_name,surname,forename,trade
 1887,NEWPORT STREET LIST,,,"T. Lloyd, manager",,here is Ruperra-street
 1887,NEWPORT STREET LIST,,,owners ship & brokers,,
 1887,NEWPORT STREET LIST,61-87,,"Jenkins E. Grocer, & Bkr Hotel",,
-1887,NEWPORT STREET LIST,61-87,,Harbour,Commissioners',
+1887,NEWPORT STREET LIST,61-87,,Harbour,Commissioners,
 1887,NEWPORT STREET LIST,88,,Refreshment rooms,74,Nicholas J. W. grocer
 1887,NEWPORT STREET LIST,88,,Pilotage,ditto [offices,
 1887,NEWPORT STREET LIST,62-89,,"Cockbain Sarah, tobacst",75,Jones R. W. & Co. mer
@@ -162569,7 +162569,7 @@ year,street,house_number,building_name,surname,forename,trade
 1887,NEWPORT STREET LIST,17,Fennell,Wall,Frederick,"auctioneer, 11"
 1887,NEWPORT STREET LIST,17,Fennell,fishmonger E &,,
 1887,NEWPORT STREET LIST,17,Fennell,31,,
-1887,NEWPORT STREET LIST,17,Fennell,Davies,D P.,and Co
+1887,NEWPORT STREET LIST,17,Fennell,Davies,D P,and Co
 1887,NEWPORT STREET LIST,,,WallMrsG.J.private sch,,ice merchant
 1887,NEWPORT STREET LIST,,,woollen,drapers,
 1887,NEWPORT STREET LIST,18,Wm. bootmaker,Jobling,Robertship carptr,12-3Evans
@@ -162663,7 +162663,7 @@ year,street,house_number,building_name,surname,forename,trade
 1887,NEWPORT STREET LIST,,Mrs M. A,41,,
 1887,NEWPORT STREET LIST,,Mrs M. A,Thomas,,
 1887,NEWPORT STREET LIST,,,Mrs M. A,John,Grocer
-1887,NEWPORT STREET LIST,24A,,Davies,D M.,& Co. col
+1887,NEWPORT STREET LIST,24A,,Davies,D M,& Co. col
 1887,NEWPORT STREET LIST,24A,,Davies 42,,
 1887,NEWPORT STREET LIST,24A,,Davies Oliver,,
 1887,NEWPORT STREET LIST,24A,,Davies Geo,bootmaker,
@@ -162695,7 +162695,7 @@ year,street,house_number,building_name,surname,forename,trade
 1887,NEWPORT STREET LIST,,,G,confectnr,
 1887,NEWPORT STREET LIST,,Old Green Hotel,,3,
 1887,NEWPORT STREET LIST,,Old Green Hotel,27,,
-1887,NEWPORT STREET LIST,,Old Green Hotel,Wareham,J T.,draper
+1887,NEWPORT STREET LIST,,Old Green Hotel,Wareham,J T,draper
 1887,NEWPORT STREET LIST,,Old Green Hotel,47,,
 1887,NEWPORT STREET LIST,,Old Green Hotel,Clement,,
 1887,NEWPORT STREET LIST,,Old Green Hotel,Samuel,grocer,
@@ -163656,15 +163656,15 @@ year,street,house_number,building_name,surname,forename,trade
 1887,Wyndham Terrace,42,,Evans,"George, West of England Tavern",
 1887,Wyndham Terrace,,Tunnadine's brick yard,,Williams,
 1887,Wyndham Terrace,,,,"Slipway, Dry Dock, & Engineering Co's. works",
-1887,Wyndham Terrace,,,,Davison W R.,& Co. engineers
-1887,Wyndham Terrace,,,,Barnes W J.,"tinsmith,, etc"
+1887,Wyndham Terrace,,,,Davison W R,& Co. engineers
+1887,Wyndham Terrace,,,,Barnes W J,"tinsmith,, etc"
 1887,Wyndham Terrace,,,"Brooks  & Marsh, shipwrights",,
 1887,Wyndham Terrace,,,Tredegar Iron  & Coal Co's office—G. Sparke,,agent
 1887,Wyndham Terrace,,,,Mill Street,
 1887,Wyndham Terrace,,,,Pentonville to Marshes-road,
 1887,Wyndham Terrace,,,,Congregational Church,
 1887,Wyndham Terrace,,,House Void,,
-1887,Wyndham Terrace,,,,Morrish H W.,agent to Pickford & Co. carriers
+1887,Wyndham Terrace,,,,Morrish H W,agent to Pickford & Co. carriers
 1887,Wyndham Terrace,,,,Thomas,Wm. plasterer
 1887,Wyndham Terrace,,,,Edwards,Geo. George and Dragon
 1887,Wyndham Terrace,,,,Carter,Mrs. Horse & Jockey
@@ -164268,7 +164268,7 @@ year,street,house_number,building_name,surname,forename,trade
 1887,Price Street,27,,Mills,W. J,traveller
 1887,Price Street,28,,Griffiths,Mrs H,
 1887,Price Street,29,,Lyons,John,clerk
-1887,Price Street,,,Rees',Buildings,
+1887,Price Street,,,Rees,Buildings,
 1887,Price Street,1,,Morgan,Mrs James,
 1887,Price Street,3,,Saunders,William,carpenter
 1887,Price Street,4,,Simmonds,Jno,brewer
@@ -164324,7 +164324,7 @@ year,street,house_number,building_name,surname,forename,trade
 1887,NEWPORT STREET LIST,"Collard Henry, baker",,"Hardie Tom, engineer",43,Richards Alf. Labourer
 1887,NEWPORT STREET LIST,"Dowling G., Rutha cottage-8",,44,Thomas,Dl. moulder
 1887,NEWPORT STREET LIST,"Dowling G., Rutha cottage-8",,Downham,Fk. account't,
-1887,NEWPORT STREET LIST,"Price T. farmer, Ty-Llwyd-9",,45,Williams W H.,labourer
+1887,NEWPORT STREET LIST,"Price T. farmer, Ty-Llwyd-9",,45,Williams W H,labourer
 1887,NEWPORT STREET LIST,"Price T. farmer, Ty-Llwyd-9",,Hazel,Alfred,builder
 1887,NEWPORT STREET LIST,"Phillips C.D., Nant-coch fm-10",,Jones W. Tinnman 46,Williams William,labourer
 1887,NEWPORT STREET LIST,"Colborne Thos., Nant-coch-11",,47,Vickery,Geo. shipwright
@@ -164352,7 +164352,7 @@ year,street,house_number,building_name,surname,forename,trade
 1887,NEWPORT STREET LIST,10-23,,StonehouseA.shipbroker Barrett Wm. coal trimr,Newport Cricket Ground,
 1887,NEWPORT STREET LIST,11-24,,"Corner Jno. Oliver Buckler Sidney, hobbler",Williams' aerated water wks,
 1887,NEWPORT STREET LIST,12-25,,"Rice John, Blacksmith James Morgan, pat mkr",Dunning H. E. Rodney ho,
-1887,NEWPORT STREET LIST,13-26,Rodney House,Berrill J.& Co.shipbrokrs Parry Wm. boiler make,WilliamsH.L.,
+1887,NEWPORT STREET LIST,13-26,Rodney House,Berrill J.& Co.shipbrokrs Parry Wm. boiler make,WilliamsH.L,
 1887,NEWPORT STREET LIST,,,174,,
 1887,NEWPORT STREET LIST,Rup,,Jones John,shipbroker,
 1887,NEWPORT STREET LIST,Thomas W,,agent for,Tir-Pentwys Colliery,
@@ -164786,7 +164786,7 @@ year,street,house_number,building_name,surname,forename,trade
 1887,Cambria Place,99,,Phillips,"Mary, widow",
 1887,Cambria Place,100,,Hy. Hawkes coachman,,
 1887,Cambria Place,101,,Rowe,Mrs Peter,
-1887,Cambria Place,102,,Brooke,"Mrs., Servants'",
+1887,Cambria Place,102,,Brooke,"Mrs., Servants",
 1887,Cambria Place,.,,Registry office,,office
 1887,Cambria Place,103,,Wring,Tom Walker,
 1887,Cambria Place,.,,Wring,"Missse., dressmks",
@@ -165516,7 +165516,7 @@ year,street,house_number,building_name,surname,forename,trade
 1887,NEWPORT STREET LIST,6,,,[house,
 1887,NEWPORT STREET LIST,8,,Dew,Henry,
 1887,NEWPORT STREET LIST,9,,Johnson,B M,
-1887,NEWPORT STREET LIST,10,,Duckham,Miss,ladies'
+1887,NEWPORT STREET LIST,10,,Duckham,Miss,ladies
 1887,NEWPORT STREET LIST,,,"school, Acland house",,
 1887,NEWPORT STREET LIST,11,surgeon,Brewer,R E,
 1887,NEWPORT STREET LIST,12,,Baker,Henry D,
@@ -167131,7 +167131,7 @@ year,street,house_number,building_name,surname,forename,trade
 1890,NEWPORT STREET LIST,,,7,Warren T,brewer
 1890,NEWPORT STREET LIST,,,8,Probert,Thos. platelayer
 1890,NEWPORT STREET LIST,,,8,Payne,"Sidney, gardener"
-1890,NEWPORT STREET LIST,,,8,Andrews A D.,haulier
+1890,NEWPORT STREET LIST,,,8,Andrews A D,haulier
 1890,NEWPORT STREET LIST,,,8,Chivers E,porter
 1890,NEWPORT STREET LIST,,,9,Price,Wm. plumber
 1890,NEWPORT STREET LIST,,Hy. Chairmaker,10,Davey C,
@@ -167637,7 +167637,7 @@ year,street,house_number,building_name,surname,forename,trade
 1890,Caerau Crescent,,,"Jones G., 1 Eleanor villa",,
 1890,Caerau Crescent,,,"Pettengill J., 2 do",,
 1890,Caerau Crescent,,,"Boucher Chas., Glencairn",,
-1890,Caerau Crescent,,,"Wheeler Moses, Hillsbro'",,
+1890,Caerau Crescent,,,"Wheeler Moses, Hillsbro",,
 1890,Caerau Crescent,,,"Sutherland A., Mont-caerau",,
 1890,Caerau Crescent,,,"School, Cromer house",,
 1890,Caerau Crescent,,,Compton C. E. architect,,
@@ -167887,7 +167887,7 @@ year,street,house_number,building_name,surname,forename,trade
 1890,NEWPORT STREET LIST,,Thos. Cam,34,Channing,
 1890,NEWPORT STREET LIST,,,brian Arms,,
 1890,NEWPORT STREET LIST,,,37,Pullin,Thos. labourer
-1890,NEWPORT STREET LIST,Cambria Cottages.,,38,Symonds J W.,ironworker
+1890,NEWPORT STREET LIST,Cambria Cottages.,,38,Symonds J W,ironworker
 1890,NEWPORT STREET LIST,,,40,Sullivan,Jas. labourer
 1890,NEWPORT STREET LIST,Cambria Place.,,41,Channing,Jno. labourer
 1890,NEWPORT STREET LIST,,,43,Hard,Wm. labourer
@@ -168294,7 +168294,7 @@ year,street,house_number,building_name,surname,forename,trade
 1890,Courtybella,3,,Price,W,tailor
 1890,Courtybella,4,"Charlotte Street, P",Gibb,W. J,poulterer &
 1890,Courtybella,5,From 23 Alma-street to,bootmaker,,
-1890,Courtybella,Jones G. W.,Capel-street,builders',merct,
+1890,Courtybella,Jones G. W.,Capel-street,builders,merct,
 1890,Courtybella,phreys,,proprietor,,
 1890,Courtybella,Harry,,Wood,confect'nrs,
 1890,Courtybella,Davies,,Sons,fruitrers,
@@ -168308,7 +168308,7 @@ year,street,house_number,building_name,surname,forename,trade
 1890,THE NEW THEATRE,8,,Jeffery,J,boat builder
 1890,THE NEW THEATRE,9,,Baiss,D,iron dresser
 1890,THE NEW THEATRE,10,,Blake,J. H,genl. dealer
-1890,THE NEW THEATRE,Tredegar,,Wf. Infnts',schl,
+1890,THE NEW THEATRE,Tredegar,,Wf. Infnts,schl,
 1890,THE NEW THEATRE,11,,Sparkes,Jno,bricklayer
 1890,THE NEW THEATRE,11A,,Daniell,A,shopkeeper
 1890,THE NEW THEATRE,12,Llewellyn,Jones,John,
@@ -168482,7 +168482,7 @@ year,street,house_number,building_name,surname,forename,trade
 1890,NEWPORT STREET LIST,West End house-5,Park House,,,5 Watkins W
 1890,NEWPORT STREET LIST,West End house-5,,newsagent,,
 1890,NEWPORT STREET LIST,house & van proprietor,butcher,6,,
-1890,NEWPORT STREET LIST,5-170,Field Villa,Thomas & Co. fruiterers,Nancekievell J.,
+1890,NEWPORT STREET LIST,5-170,Field Villa,Thomas & Co. fruiterers,Nancekievell J,
 1890,NEWPORT STREET LIST,7,,Miller,John,plasterer
 1890,NEWPORT STREET LIST,8,,Hadden,George,guard
 1890,NEWPORT STREET LIST,9,Pickwick Ho,West,Charles,
@@ -168607,7 +168607,7 @@ year,street,house_number,building_name,surname,forename,trade
 1890,TALGARTH,,,to Dock-parade,,
 1890,TALGARTH,Channing,Place,Saml,butcher Clarence,
 1890,TALGARTH,Taylor,Chepstow-rd,G,general shop,From Bridge to
-1890,TALGARTH,,builders',,Davies,mer
+1890,TALGARTH,,builders,,Davies,mer
 1890,TALGARTH,171,,,"chants, London",wharf
 1890,TALGARTH,Cla,,NEWPORT STREET LIST,Clu,
 1890,TALGARTH,Clarence Place-continued-7,,,"Clarence Street, P",
@@ -168788,7 +168788,7 @@ year,street,house_number,building_name,surname,forename,trade
 1890,TALGARTH,tioneers & valuers,Charles,21,,
 1890,TALGARTH,tioneers & valuers,Charles,Lee,,
 1890,TALGARTH,tioneers & valuers,,Charles,Richard,Labourer
-1890,TALGARTH,25-22,,Rawlings,L,"tobacconist, 5-6Hitchcock Miss, Ladies'"
+1890,TALGARTH,25-22,,Rawlings,L,"tobacconist, 5-6Hitchcock Miss, Ladies"
 1890,TALGARTH,25-22,,Sifton,,
 1890,TALGARTH,25-22,,Wm,labourer,
 1890,TALGARTH,,,,"college, the Laurels",
@@ -168885,8 +168885,8 @@ year,street,house_number,building_name,surname,forename,trade
 1890,Faulkner Road,,Paul,Clytha Square—continued,29,
 1890,Faulkner Road,,Paul,Vendee,ho,
 1890,Faulkner Road,,dresser,30,Phillips,
-1890,Faulkner Road,,Odd-fellows',32,Clarke,
-1890,Faulkner Road,,Odd-fellows',surgery,,
+1890,Faulkner Road,,Odd-fellows,32,Clarke,
+1890,Faulkner Road,,Odd-fellows,surgery,,
 1890,Faulkner Road,,the Grove,Jones,John,
 1890,Faulkner Road,,,CLYTHA TERRACE,,
 1890,Faulkner Road,,Caerleon-road,,Dean-street,
@@ -169078,7 +169078,7 @@ year,street,house_number,building_name,surname,forename,trade
 1890,NEWPORT STREET LIST,122,Turner,Burpitt,,
 1890,NEWPORT STREET LIST,122,Turner,F,E. general,
 1890,NEWPORT STREET LIST,and confectioner,,London stores,,house furnisher
-1890,NEWPORT STREET LIST,123,,Pearce,Sanders J C.,Draper
+1890,NEWPORT STREET LIST,123,,Pearce,Sanders J C,Draper
 1890,NEWPORT STREET LIST,123,Pearce,189,,
 1890,NEWPORT STREET LIST,123,Pearce,Jones,,
 1890,NEWPORT STREET LIST,123,Pearce,R,F,draper
@@ -169119,7 +169119,7 @@ year,street,house_number,building_name,surname,forename,trade
 1890,NEWPORT STREET LIST,131,Stagg,Salutation Inn,,
 1890,NEWPORT STREET LIST,132-167,,Creese Evans,G. F.ironmonger,
 1890,NEWPORT STREET LIST,132,Creese,Ed,basketm'kr,
-1890,NEWPORT STREET LIST,133-169,King's Arms,Andrews Osborne,L.,
+1890,NEWPORT STREET LIST,133-169,King's Arms,Andrews Osborne,L,
 1890,NEWPORT STREET LIST,133,,Andrews,O B,Butcher
 1890,NEWPORT STREET LIST,134,,Leonard,J. Olive Branch,mercial-road
 1890,NEWPORT STREET LIST,135,ALBANY CHAMBERS,Sanders,Jno. F,grocer
@@ -169251,7 +169251,7 @@ year,street,house_number,building_name,surname,forename,trade
 1890,THE TABERNACLE,75,,Townsend H. W. furnishing & genl ironm'r,,
 1890,THE TABERNACLE,,,76ADowdall H. Victoria coffee & dining rooms,,
 1890,THE TABERNACLE,77,,Spiridion M. watchm'kr and jeweller [Arms,,
-1890,THE TABERNACLE,78,,Morgan J. Oddfellows',,
+1890,THE TABERNACLE,78,,Morgan J. Oddfellows,,
 1890,THE TABERNACLE,79,,Ingleton F. B. grocer,,
 1890,THE TABERNACLE,80,,Walters W. D. eating ho,,
 1890,THE TABERNACLE,,,81,,
@@ -169496,7 +169496,7 @@ year,street,house_number,building_name,surname,forename,trade
 1890,WESTGATE,25,,Chicken,William,fitter
 1890,WESTGATE,26,tyg boat,John,Charles E,
 1890,WESTGATE,Mon. Wagon,,Co.’s,repair,
-1890,WESTGATE,ing shops,,'Till Bank Yard,,
+1890,WESTGATE,ing shops,,Till Bank Yard,,
 1890,WESTGATE,27,,Lawrence,Hy,coal mer
 1890,WESTGATE,,,and ironfounder,,
 1890,WESTGATE,28,,Walker,Jno,no.Engine Driver
@@ -169585,13 +169585,13 @@ year,street,house_number,building_name,surname,forename,trade
 1890,NEWPORT STREET LIST,Spark,Glass Manufacturing Co.’s office and works,Geo. Olive Mount,S,Wales (Siemen’s Patent)
 1890,Garth Terrace,6,,Brind,"G. J., Holmes-view",
 1890,Garth Terrace,5,WORKS COTTAGES—,Biddulph,"Thomas. H., Bertram villa",
-1890,Garth Terrace,4,Auckland Villa,Wheater,Blatchley J J.,Plumber
+1890,Garth Terrace,4,Auckland Villa,Wheater,Blatchley J J,Plumber
 1890,Garth Terrace,4,Wheater,Thos,glass wks,
 1890,Garth Terrace,4,Wheater,do,,
 1890,Garth Terrace,3,Nichols,Smale,T. P,"haulier, 2"
 1890,Garth Terrace,3,Nichols,John,,
 1890,Garth Terrace,3,Nichols,do,,
-1890,Garth Terrace,2-3,Rose Villa,Fouweather Harris,Jos.,
+1890,Garth Terrace,2-3,Rose Villa,Fouweather Harris,Jos,
 1890,Garth Terrace,2,Fouweather,John,,
 1890,Garth Terrace,2,Fouweather,do,,
 1890,Garth Terrace,1-4,,Brook Callaghan,Hugh,
@@ -169639,7 +169639,7 @@ year,street,house_number,building_name,surname,forename,trade
 1890,REGENT PLACE,Road to Bryn glas,do,24,Robinson William,
 1890,REGENT PLACE,Horton,Saml,25,,
 1890,REGENT PLACE,Horton,Saml,do,,
-1890,REGENT PLACE,Steel,S House,"T. Dyne, ditto",Brown J D.,manager’
+1890,REGENT PLACE,Steel,S House,"T. Dyne, ditto",Brown J D,manager’
 1890,CRINDAU TERRACE,Veall,,"H. W., Beechworth",,
 1890,CRINDAU TERRACE,May,Lane,Cross,,
 1890,CRINDAU TERRACE,180,,From 21,Dock-street,
@@ -170043,7 +170043,7 @@ year,street,house_number,building_name,surname,forename,trade
 1890,NEWPORT STREET LIST,,Eagle Hotel,,,
 1890,NEWPORT STREET LIST,55,"Partridge, Jones, and Co",,,
 1890,NEWPORT STREET LIST,,,,,Ltd. colliery propr’tors
-1890,NEWPORT STREET LIST,,,,D H.,"Morris, agent"
+1890,NEWPORT STREET LIST,,,,D H,"Morris, agent"
 1890,NEWPORT STREET LIST,56,Williams C. & E. opti,,,
 1890,NEWPORT STREET LIST,,,,,cians & chron’r makers
 1890,NEWPORT STREET LIST,,,,,"Twist R. & Son, ship"
@@ -170547,7 +170547,7 @@ year,street,house_number,building_name,surname,forename,trade
 1890,Vine Place,3,,22,,
 1890,Vine Place,3,,Hail,Mrs,
 1890,Vine Place,3,,Phoebe,,
-1890,Vine Place,5,Oddfellows',Pocock,Susan,
+1890,Vine Place,5,Oddfellows,Pocock,Susan,
 1890,Vine Place,5,,Cole,Mrs,
 1890,Vine Place,5,,Alma,,
 1890,Vine Place,5,,24,,
@@ -170974,7 +170974,7 @@ year,street,house_number,building_name,surname,forename,trade
 1890,Lawson Terrace,4,,Morton,Henry,
 1890,Lawson Terrace,5,,Schulman,Rev. Max,
 1890,Lawson Terrace,,,,Jewish Synagogue,
-1890,Lawson Terrace,,,,Edwards F W.,builder
+1890,Lawson Terrace,,,,Edwards F W,builder
 1890,Lawson Terrace,6,,Gray,Al. Customs' officer,
 1890,Lawson Terrace,7,,Richards,B. ditto,
 1890,Lawson Terrace,8,,Richards,J. B. dept. supt,
@@ -171612,7 +171612,7 @@ year,street,house_number,building_name,surname,forename,trade
 1890,KENSINGTON TERRACE,,,"Betton, Sayce, Vaughan and Co",,
 1890,KENSINGTON TERRACE,46,,Galsworthy,G,confectnr
 1890,KENSINGTON TERRACE,47,,Clement,Samuel,grocer
-1890,KENSINGTON TERRACE,48,J House,Hollingdale,W.,hold Supply stores
+1890,KENSINGTON TERRACE,48,J House,Hollingdale,W,hold Supply stores
 1890,KENSINGTON TERRACE,49,,Price,Mrs. R,greyhound
 1890,KENSINGTON TERRACE,50,,"Greenland & McDaniel, Noah’s Ark",,
 1890,KENSINGTON TERRACE,51,Newport Trimming Shop,R. F. and Laslett Co,,
@@ -172295,7 +172295,7 @@ year,street,house_number,building_name,surname,forename,trade
 1890,Lliswerry,Davies,Lliswerry common,Rees,W,butcher
 1890,Lliswerry,Edmonds,Lliswerryfm,J,B,
 1890,Lliswerry,Fulford,Eschol Villa,John,,
-1890,Lliswerry,Jones,'The Elms',Miss,Ann,farmer
+1890,Lliswerry,Jones,The Elms,Miss,Ann,farmer
 1890,Lliswerry,Pearce,,Chas,Belle vue,
 1890,Lliswerry,Thomas,Crossing Lime Kilns,Wm,B,
 1890,Lliswerry,Thompson,,T,Lliswerry farm,
@@ -172464,7 +172464,7 @@ year,street,house_number,building_name,surname,forename,trade
 1890,Lucas Street,6,,Lloyd,Hy,coachman
 1890,Lucas Street,,,,Maddox Close,
 1890,Lucas Street,,,,Newport Gas Works,
-1890,Lucas Street,,,,Dos Works Nail Factory J J.,Cordes & Co. Ltd
+1890,Lucas Street,,,,Dos Works Nail Factory J J,Cordes & Co. Ltd
 1890,Lucas Street,2,Dos Lodge,Evaus,Thomas,
 1890,Lucas Street,4,,Lewis,William,
 1890,Lucas Street,5,,Dowdell,George,
@@ -172592,7 +172592,7 @@ year,street,house_number,building_name,surname,forename,trade
 1890,NEWPORT STREET LIST,Manley Road.,Edward Thomas,Market Street,6,
 1890,NEWPORT STREET LIST,"Harry Miss, Hollybush cot-7",Millington 2,,,
 1890,NEWPORT STREET LIST,"Harry Miss, Hollybush cot",Millington,R,B. fishman,
-1890,NEWPORT STREET LIST,Rogers Geo. Ivy cottage,Moulder's Arms-ter,3,Pinnell W J.,butcher
+1890,NEWPORT STREET LIST,Rogers Geo. Ivy cottage,Moulder's Arms-ter,3,Pinnell W J,butcher
 1890,NEWPORT STREET LIST,Fern bank-void-8,,4,Smith J,earth ware dlr
 1890,NEWPORT STREET LIST,Fern bank-void-8,,Hodder,,
 1890,NEWPORT STREET LIST,Fern bank-void-8,,Thos,moulder,
@@ -172874,7 +172874,7 @@ year,street,house_number,building_name,surname,forename,trade
 1890,Wyndham Terrace,35,,Watkins,Jas,labourer
 1890,Wyndham Terrace,36,,Wood,John,boarding ho
 1890,Wyndham Terrace,37,,"J. B. Serjeant & Sons, ship chandlers, &c",,
-1890,NEWPORT STREET LIST,,,Mor',,
+1890,NEWPORT STREET LIST,,,Mor,,
 1890,NEWPORT STREET LIST,39,,Parry,J,stationer and ironmonger
 1890,NEWPORT STREET LIST,40,,Oakey,Charles,clothier
 1890,NEWPORT STREET LIST,41,,Pring,Jno,berthing master
@@ -173459,11 +173459,11 @@ year,street,house_number,building_name,surname,forename,trade
 1890,PLYMOUTH CRESCENT,and shoeing smiths,E. Baltic oil,Wilkes,,
 1890,PLYMOUTH CRESCENT,and shoeing smiths,E. Baltic oil,H,N. cab,driver
 1890,PLYMOUTH CRESCENT,4,,Potter,Jas,here is Trinity-place
-1890,PLYMOUTH CRESCENT,4,,Matthews',nail factory,
+1890,PLYMOUTH CRESCENT,4,,Matthews,nail factory,
 1890,PLYMOUTH CRESCENT,5-31,,Hughes,John,clerk
 1890,PLYMOUTH CRESCENT,5-31,,Ridge,,
 1890,PLYMOUTH CRESCENT,5-31,,R,Thomas,grocer
-1890,PLYMOUTH CRESCENT,5-31,,Jacobs,A J.,& E. pawn
+1890,PLYMOUTH CRESCENT,5-31,,Jacobs,A J,& E. pawn
 1890,PLYMOUTH CRESCENT,6-32,,Ashwin,William,hairdress'r
 1890,PLYMOUTH CRESCENT,6-32,,Johns,,
 1890,PLYMOUTH CRESCENT,6-32,,Jno,engineerdriver,
@@ -173555,7 +173555,7 @@ year,street,house_number,building_name,surname,forename,trade
 1890,PLYMOUTH CRESCENT,10-12,,Collins,,
 1890,PLYMOUTH CRESCENT,10-12,,Jasper,coal trimr,
 1890,PLYMOUTH CRESCENT,10-12,,Richards,E,
-1890,PLYMOUTH CRESCENT,10-12,,builders',shop,
+1890,PLYMOUTH CRESCENT,10-12,,builders,shop,
 1890,PLYMOUTH CRESCENT,11-13,,Rabinovitz,S,glazier
 1890,PLYMOUTH CRESCENT,11-13,,Collins,,
 1890,PLYMOUTH CRESCENT,11-13,,John,,
@@ -174235,7 +174235,7 @@ year,street,house_number,building_name,surname,forename,trade
 1890,BAPTIST CHAPEL,36,,Sully Joseph,foreman,
 1890,BAPTIST CHAPEL,37,,Dredge Frank,gas,fitter
 1890,BAPTIST CHAPEL,38,,Shellard J,bookbinder,
-1890,BAPTIST CHAPEL,39,,Fulford Jno,Oddfellows',
+1890,BAPTIST CHAPEL,39,,Fulford Jno,Oddfellows,
 1890,BAPTIST CHAPEL,,,and Forester's Arms,,
 1890,BAPTIST CHAPEL,40,,Dallen John,L,& N.W
 1890,BAPTIST CHAPEL,41,,James John,carpenter,
@@ -174317,7 +174317,7 @@ year,street,house_number,building_name,surname,forename,trade
 1890,HILLMINSTER TERRACE,31,,Collard W,joiner,
 1890,HILLMINSTER TERRACE,32,,James Geo,H,police
 1890,NEWPORT STREET LIST,33,,James,Thomas,baker
-1890,NEWPORT STREET LIST,,,James,',bakehouse
+1890,NEWPORT STREET LIST,,,James,,bakehouse
 1890,NEWPORT STREET LIST,Prosser-11,,Parnell Robt. & Co Wm,,coal merchant
 1890,NEWPORT STREET LIST,,,School Terrace,,
 1890,NEWPORT STREET LIST,1,,Thomas,John,hawker
@@ -174606,7 +174606,7 @@ year,street,house_number,building_name,surname,forename,trade
 1890,UNION,93,,Hall,J,carver & glider
 1890,UNION,94,,House of Refuge,,
 1890,UNION,95,Superintendent,Crane,Charles,
-1890,UNION,Brethrens',,Meeting room,,
+1890,UNION,Brethrens,,Meeting room,,
 1890,UNION,Wood,,Mrs,,
 1890,UNION,97,,Giddy,Mrs,
 1890,UNION,98,,Cartmell,Edward,
@@ -175247,7 +175247,7 @@ year,street,house_number,building_name,surname,forename,trade
 1890,NEWPORT STREET LIST,43,,Richardson,Eph,guard
 1890,NEWPORT STREET LIST,44,,Oakley,Mrs Mary,
 1890,NEWPORT STREET LIST,45,,Ley,Henry,carpenter
-1890,NEWPORT STREET LIST,46,,Tooze,'chas,mason
+1890,NEWPORT STREET LIST,46,,Tooze,chas,mason
 1890,NEWPORT STREET LIST,47,,Bunt,Saml,shipbroker
 1890,NEWPORT STREET LIST,48,breaksman,Griffiths,F J,
 1890,NEWPORT STREET LIST,49,Tabitha,Florida,Mrs,
@@ -175436,7 +175436,7 @@ year,street,house_number,building_name,surname,forename,trade
 1890,NEWPORT STREET LIST,8,\,Dew,Henry,\
 1890,NEWPORT STREET LIST,9,\,Johnson,B. M,\
 1890,NEWPORT STREET LIST,school,,Acland house,\,\
-1890,NEWPORT STREET LIST,10,\,Duckham,Miss,ladies'
+1890,NEWPORT STREET LIST,10,\,Duckham,Miss,ladies
 1890,NEWPORT STREET LIST,12,\,Baker,Henry D,\
 1890,NEWPORT STREET LIST,13,\,Hill House,,
 1890,NEWPORT STREET LIST,14,\,,\,\
@@ -175622,7 +175622,7 @@ year,street,house_number,building_name,surname,forename,trade
 1890,NEWPORT STREET LIST,,The Powder House,proprietor,,
 1890,NEWPORT STREET LIST,,,Risca wharf—London & S,The Watchhouse,
 1890,NEWPORT STREET LIST,,Harbour House,Price William. Wales Coal Co,,
-1890,NEWPORT STREET LIST,,,Harbour Commercial wf—Partridge Commissioners',,
+1890,NEWPORT STREET LIST,,,Harbour Commercial wf—Partridge Commissioners,,
 1890,NEWPORT STREET LIST,,Ballast Jetties,Jones & Co. Ltd.—Office,,
 1890,NEWPORT STREET LIST,55,The Powder House,Dock street,,
 1890,NEWPORT STREET LIST,,,Deri wharf,T. Spittle,"Scannel John, engineman"
@@ -177291,7 +177291,7 @@ year,street,house_number,building_name,surname,forename,trade
 1893,Bridge Street,9,,Mrs Ann E,Brown,
 1893,Bridge Street,10,,Geo. W,Corner,
 1893,Bridge Street,,,H. D,Yorath,Brewer
-1893,Bridge Street,11,matron—hours,Servants',Home—Miss,
+1893,Bridge Street,11,matron—hours,Servants,Home—Miss,
 1893,Bridge Street,1,,to 4,,
 1893,Bridge Street,12,,Edward,Williams,
 1893,Bridge Street,13,,Williams,Miss,school
@@ -177324,7 +177324,7 @@ year,street,house_number,building_name,surname,forename,trade
 1893,Bridge Street,,,"countant, valuer, etc",,
 1893,Bridge Street,31,,Guy,Miss,
 1893,Bridge Street,,,Porter,Mrs,milliner
-1893,Bridge Street,33,,Coker E,ladies',tailor
+1893,Bridge Street,33,,Coker E,ladies,tailor
 1893,Bridge Street,34,,Brecon &,Merthyr Rail,
 1893,Bridge Street,,,Way Co.'s Office,,
 1893,Bridge Street,,,"Adams W & Vachell, civil",,
@@ -177502,7 +177502,7 @@ year,street,house_number,building_name,surname,forename,trade
 1893,Caerau Road,31,,Richards,Henry,builder
 1893,Caerau Road,32,,Harrison,Mrs Jane,
 1893,Caerau Road,33,Mont-caerau,Sutherland,A,
-1893,Caerau Road,34,Hillsbro',Wheeler,Moses,
+1893,Caerau Road,34,Hillsbro,Wheeler,Moses,
 1893,Caerau Road,35,Glencairn,Boucher,Charles,
 1893,Caerau Road,36,,Davies,Thomas,schoolmaster
 1893,Caerau Road,37,,Lewis,Mrs Thomas,
@@ -177514,7 +177514,7 @@ year,street,house_number,building_name,surname,forename,trade
 1893,Caerau Road,43,Ll,Morris,Lewis,
 1893,Caerau Road,44,ho,Taylor,Hy,
 1893,Caerau Road,45,vista,White,W. G Linda,
-1893,Caerau Road,46,,Clapp,the Misses,'Caerau'
+1893,Caerau Road,46,Caerau,Clapp,the Misses,
 1893,Caerau Road,47,Felsted,Colborne,G. F,
 1893,Caerau Road,48,vil,Muller,Jens,
 1893,Caerau Road,49,Hurstleigh,Barnett,W. B,
@@ -178150,7 +178150,7 @@ year,street,house_number,building_name,surname,forename,trade
 1893,Castle Street,,,Uskside Engineering Co,,
 1893,Castle Street,,,Ca,,
 1893,Castle Street,13,mould,Short,"Edwin, moulder",moulder
-1893,Castle Street,10,shopk',Danaher,Mich. shopk'per,shopk'per
+1893,Castle Street,10,shopk,Danaher,Mich. shopk'per,shopk'per
 1893,Caxton Place,From 34 Bridge-street.,Alfred,33,Bland Alfred,
 1893,Caxton Place,1,tailor,Price,W,"tailor, tailor"
 1893,Caxton Place,Boshier,,F. T. Office Office,,office
@@ -178247,7 +178247,7 @@ year,street,house_number,building_name,surname,forename,trade
 1893,Queensland Terrace,36,Craven house,Lloyd,Thomas. Craven house,
 1893,Queensland Terrace,37,foreman,Wright,George. foreman,foreman
 1893,Queensland Terrace,38,John,Gould,John John,
-1893,Queensland Terrace,39,St. Ives',Williams,Jere. St. Ives',
+1893,Queensland Terrace,39,St. Ives,Williams,Jere. St. Ives,
 1893,Queensland Terrace,Vacant sites,Vacant Site,,,
 1893,Queensland Terrace,209,,209,209,
 1893,Queensland Terrace,"161 and 162, Commercial Street, NEWPORT-161",,"And 162, Commercial Street, NEWPORT 161 And 162, Commercial Street, NEWPORT And 162, Commercial Street, NEWPORT",,"161 and 162, Commercial Street, NEWPORT"
@@ -178801,7 +178801,7 @@ year,street,house_number,building_name,surname,forename,trade
 1893,Clarence Place,14,,Gill,W,postmaster
 1893,Clarence Place,Chave,,"Edwin, fruiterer",,
 1893,Clarence Place,Hunt,,"John, bootmaker",,
-1893,Clarence Place,Perry',,E. Livery stables,,
+1893,Clarence Place,Perry,,E. Livery stables,,
 1893,Clarence Place,Perry,,F. A. tobacconist,,
 1893,Clarence Place,Groome,,Hy. watchmaker,,
 1893,Clarence Place,16,,"J. Powis & Son, coach bldrs",,
@@ -178936,7 +178936,7 @@ year,street,house_number,building_name,surname,forename,trade
 1893,Club Row,30,Porter's Arms,James,Dd,
 1893,Club Row,31,,Morris,Jno. W,labourer
 1893,Club Row,32,,Baker,George,sailor
-1893,Clyffard Crescent,Cole-13,Stanley Villa,James,J.,
+1893,Clyffard Crescent,Cole-13,Stanley Villa,James,J,
 1893,Clyffard Crescent,Palmer,,S. W,Endsleigh vil,
 1893,Clyffard Crescent,Cole-14,,John,"T., the Birches",
 1893,Clyffard Crescent,James,Clyde Villa,Tom,,
@@ -178948,7 +178948,7 @@ year,street,house_number,building_name,surname,forename,trade
 1893,Clyffard Crescent,Sheppard,,Ed,Southfield,
 1893,Clyffard Crescent,WilliamsRev-18,,D.H,Lochfan v,
 1893,Clyffard Crescent,Jones-19,,Walter,Sydenham vil,
-1893,Clyffard Crescent,Napper-20,Albany Villa,Mrs,E.,
+1893,Clyffard Crescent,Napper-20,Albany Villa,Mrs,E,
 1893,Clyffard Crescent,Prust-21,Bleak House,Mrs,,
 1893,Clyffard Crescent,Walters,,John,Wentwoodview,
 1893,Clyffard Crescent,Gall,,John,Mount Pleasant,
@@ -179339,7 +179339,7 @@ year,street,house_number,building_name,surname,forename,trade
 1893,TOWN HALL,32,,"Davies, manager",Oliver,George. Bootmaker
 1893,TOWN HALL,35,,Bland,A,confectioner
 1893,TOWN HALL,36,,Birkley,P,watchmaker
-1893,TOWN HALL,37,Hare And Greyhound,Grove,Mrs E W.,
+1893,TOWN HALL,37,Hare And Greyhound,Grove,Mrs E W,
 1893,TOWN HALL,38,,Williams,G,tobacconist
 1893,TOWN HALL,39,,"Prudential Assurance Co. Ltd.—District office, W","Naish, superintendent",Prudential Assurance Co. Ltd
 1893,TOWN HALL,,,40,,
@@ -180060,7 +180060,7 @@ year,street,house_number,building_name,surname,forename,trade
 1893,NEWPORT STREET LIST,33,,"Eames Frank, engraver",here is Dumfries-place,and Co. Tipton
 1893,NEWPORT STREET LIST,39,,Wade Wm. solicitor,"G. H. Jones, works and","James & Emanuel, colliery"
 1893,NEWPORT STREET LIST,40,,Richards Mrs Margaret,Central Mews,"proprietors, Abersychan"
-1893,NEWPORT STREET LIST,,,"Hodgson J. Hydraulic Wilcox W. F. prof, music &",G H.,"Jones, agent"
+1893,NEWPORT STREET LIST,,,"Hodgson J. Hydraulic Wilcox W. F. prof, music &",G H,"Jones, agent"
 1893,NEWPORT STREET LIST,41,,Phillips Ll. J. solicitor,general,"engineer, here is Dumfries-place"
 1893,NEWPORT STREET LIST,42,Central Mews,Tovey Bros. undertakers,Guéret L,coal merchant
 1893,NEWPORT STREET LIST,,Hodgson J. Hydraulic &,And Carriage Proprietors,,and shipbroker
@@ -180075,7 +180075,7 @@ year,street,house_number,building_name,surname,forename,trade
 1893,NEWPORT STREET LIST,,Fothergill Geo. tobacco,,"Marks Isaac, traveller",Vein Steam Coal offices
 1893,NEWPORT STREET LIST,50,Cwmbran-Aberearn Black,Smith J. L. Avery Jas. coach builder & Co. colliery,,
 1893,NEWPORT STREET LIST,51,,Williams & Co. solicitors,proprietors,Vein Steam Coal offices
-1893,NEWPORT STREET LIST,52,,Hillman Jno. auctioneer,"Stanley Rachel, Custom H J.","Tremellen, agent"
+1893,NEWPORT STREET LIST,52,,Hillman Jno. auctioneer,"Stanley Rachel, Custom H J","Tremellen, agent"
 1893,NEWPORT STREET LIST,53,House Inn,S. Woolos Parochial offices,,Smith J. L. & Co. colliery
 1893,NEWPORT STREET LIST,,proprietors,,Powell Miss,Frazer and Co. bonded
 1893,NEWPORT STREET LIST,54,"Stanley Rachel, Custom",Thorburn W. draper,"store merchants, etc",
@@ -180129,7 +180129,7 @@ year,street,house_number,building_name,surname,forename,trade
 1893,NEWPORT STREET LIST,,Eagle Hotel,,92,
 1893,NEWPORT STREET LIST,,,Partridge,Jones,and Co
 1893,NEWPORT STREET LIST,,,,,Ltd. colliery proprietors
-1893,NEWPORT STREET LIST,,,,D H.,"Morris, agent"
+1893,NEWPORT STREET LIST,,,,D H,"Morris, agent"
 1893,NEWPORT STREET LIST,,L'anilleth Cottage,,,
 1893,NEWPORT STREET LIST,,,,,ing Co. Ltd. offices
 1893,NEWPORT STREET LIST,,,,94,Villiamss E. E. optician
@@ -180148,7 +180148,7 @@ year,street,house_number,building_name,surname,forename,trade
 1893,NEWPORT STREET LIST,,,,,broker
 1893,NEWPORT STREET LIST,,,Edwards,Robertson,and
 1893,NEWPORT STREET LIST,,,,,"Co. shipbrokers, etc"
-1893,NEWPORT STREET LIST,,,,R S.,"Roberts, manager"
+1893,NEWPORT STREET LIST,,,,R S,"Roberts, manager"
 1893,NEWPORT STREET LIST,Doc,Doc,,,
 1893,Dock Street,,"Powell, Supt",W Collins Wm. junr. & Co,,
 1893,Dock Street,,,Jones Chas. H. & Co. ship,109,Ponsonby and Co. ship
@@ -180226,7 +180226,7 @@ year,street,house_number,building_name,surname,forename,trade
 1893,Dock Street,,,"brokers, and at Cardiff",,
 1893,Dock Street,,,Morell Bros. and Co,,
 1893,Dock Street,,,shipowners and brokers,,
-1893,Dock Street,,,Harbour Commissioners',,
+1893,Dock Street,,,Harbour Commissioners,,
 1893,Dock Street,,,offices,,
 1893,Dock Street,,,Pilotage ditto,,
 1893,Dock Street,,,Wilks Thos. and Co. ship,,
@@ -180287,7 +180287,7 @@ year,street,house_number,building_name,surname,forename,trade
 1893,Dock Street,Doc,,CONGREGATIONAL CHURCH CO-OPERATIVE INDUSTRIAL SOCIETY LTD,,grocery
 1893,Dock Street,Doc,CONGREGATIONAL CHURCH,BOOTS & SHOES-T. Higgs,,
 1893,Dock Street,Doc,CONGREGATIONAL CHURCH,secretary GINS & mangr,,
-1893,Dock Street,Doc,CONGREGATIONAL CHURCH,PRINTERS',Institute,
+1893,Dock Street,Doc,CONGREGATIONAL CHURCH,PRINTERS,Institute,
 1893,Dock Street,Doc,CONGREGATIONAL CHURCH,JOHNS & Lewis,,tailors
 1893,Dock Street,Doc,CONGREGATIONAL CHURCH,HEYBYRNE & Brown,,"insur brokers, estate agents, etc"
 1893,Dock Street,Doc,CONGREGATIONAL CHURCH,LINTON'S,building yard HERE IS AUSTIN,
@@ -180298,8 +180298,6 @@ year,street,house_number,building_name,surname,forename,trade
 1893,Dock Street,Doc,CONGREGATIONAL CHURCH,Magistrates,Clerk's office,
 1893,Dock Street,Doc,CONGREGATIONAL CHURCH,COLOURS,Jas,caretaker
 1893,Dock Street,Doc,CONGREGATIONAL CHURCH,WIDCOMBE,J,policesorgt
-1893,Dock Street,Doc,CONGREGATIONAL CHURCH,HERE IS CORN W. EVANS & Co. Ltd. flour & provision merchants,,
-1893,Dock Street,Doc,CONGREGATIONAL CHURCH,HERE IS SKINNER W. A. and BAKER Co.'s foundry,,
 1893,Dock Street,Doc,CONGREGATIONAL CHURCH,WALES BRATTICE CLOTH S & INDIA RUBBER CO. LTD,,
 1893,Dock Street,Doc,CONGREGATIONAL CHURCH,A,M. James,COLE W. F. P
 1893,Dock Street,Doc,,CONGREGATIONAL CHURCH,LITTLE,And Co. Tailors
@@ -180342,7 +180340,7 @@ year,street,house_number,building_name,surname,forename,trade
 1893,Dock Street,Doc,CONGREGATIONAL CHURCH,JARDINE,William. D. seaman,
 1893,Dock Street,Doc,CONGREGATIONAL CHURCH,JEFFRIES,B. J. milkman,
 1893,Dock Street,Doc,CONGREGATIONAL CHURCH,ROBERTS,Mrs Sarah,
-1893,Dock Street,Doc,,CONGREGATIONAL CHURCH,BEATON H P.,Baker
+1893,Dock Street,Doc,,CONGREGATIONAL CHURCH,BEATON H P,Baker
 1893,Dock Street,Doc,CONGREGATIONAL CHURCH,ROBERTS,William. Sarah,
 1893,Dock Street,Doc,CONGREGATIONAL CHURCH,MCGRATH,Bridget,
 1893,Dock Street,Doc,CONGREGATIONAL CHURCH,JONES,John,steam riser
@@ -180403,7 +180401,7 @@ year,street,house_number,building_name,surname,forename,trade
 1893,Dock Street,166,,"Co-operative Industrial Society Ltd.—grocery, Drapery, Hardware Co-operative Industrial Society Ltd",,"grocery, drapery, hardware"
 1893,Dock Street,167,Higgs,Boots T & Shoes,,
 1893,Dock Street,168,,"gins, secretary & mangr",,"gins, secretary & mangr"
-1893,Dock Street,169,,Printers',Institute,
+1893,Dock Street,169,,Printers,Institute,
 1893,Dock Street,170,,Johns Johns & Lewis & Lewis,,tailors
 1893,Dock Street,172,,"Heybyrne Heybyrne & Brown, insur brokers, estate agents, etc & Brown",,"insur brokers, estate agents, etc here is Friars-street"
 1893,Dock Street,,,,Linton's,building yard here is Austin-friars
@@ -181847,7 +181845,7 @@ year,street,house_number,building_name,surname,forename,trade
 1893,here is the Arcade,,,Tucker Bros. Ltd,,
 1893,here is the Arcade,16,,D,Ingleton,the Newport Supply stores
 1893,here is the Arcade,17,Bunch Of Grapes,R. M,Plummer,
-1893,here is the Arcade,18,,,Arnold A G.,and Co. furnishing ironmongers
+1893,here is the Arcade,18,,,Arnold A G,and Co. furnishing ironmongers
 1893,here is the Arcade,20,,John,Young,chemist
 1893,here is the Arcade,,,Ivor,Harries,solicitor
 1893,here is the Arcade,21,Old Ship,Jno,Hyndman,
@@ -182039,7 +182037,7 @@ year,street,house_number,building_name,surname,forename,trade
 1893,Victoria Road Congregation,34-32,,Ryan,Mich,crane driver
 1893,Victoria Road Congregation,35,,Liberal Association,Rms,
 1893,Victoria Road Congregation,—W.-34,,H,Brown,agent
-1893,Victoria Road Congregation,36,,Jones',tin workshop,
+1893,Victoria Road Congregation,36,,Jones,tin workshop,
 1893,Victoria Road Congregation,,,HOPEFIELD,,
 1893,Victoria Road Congregation,1-41,,Sparks,John,"painter, etc"
 1893,Victoria Road Congregation,2,,Heannes,Frederick,shearer
@@ -183364,7 +183362,7 @@ year,street,house_number,building_name,surname,forename,trade
 1893,Mellon Street,12,,O'Brian Jas,labourer,
 1893,Mellon Street,13,,Keefe Dl,sailor,
 1893,Mellon Street,14,,Manley M,coal,dealer
-1893,Mellon Street,,,,Watkins',marine stores
+1893,Mellon Street,,,,Watkins,marine stores
 1893,Mellon Street,,,Newport Firewood  Co,,
 1893,Mellon Street,,,,Rothwell and Hayes,paint works
 1893,Mellon Square,1,,Leyshon John,mason,
@@ -183914,7 +183912,7 @@ year,street,house_number,building_name,surname,forename,trade
 1893,Park Square,5,"Edwin Grove, Chairman",Richards,"J., Sydenham vil",
 1893,Park Square,5,,3,,
 1893,Park Square,5,,Stores,,
-1893,Park Square,6,Meth. Free Church,Long,"Mrs., Alma villa H S.","Gustard, clerk"
+1893,Park Square,6,Meth. Free Church,Long,"Mrs., Alma villa H S","Gustard, clerk"
 1893,Park Square,7,"Wm. Tanner, Surveyor",Jones,"C. H., Malvern vil",
 1893,Park Square,7,,4,,
 1893,Park Square,7,,Miller,,
@@ -184100,7 +184098,7 @@ year,street,house_number,building_name,surname,forename,trade
 1893,POTTER's STREET LIST,28,,Leary,Thomas,smith
 1893,POTTER's STREET LIST,29,,Hughes,Mrs Marianne,
 1893,POTTER's STREET LIST,30,A,Wilkes,Mrs,
-1893,POTTER's STREET LIST,31,,Matthews',nail factory,
+1893,POTTER's STREET LIST,31,,Matthews,nail factory,
 1893,POTTER's STREET LIST,32,& E,Jacobs,A J,
 1893,POTTER's STREET LIST,32,& E,pawn-brokers & outfitters,,
 1893,POTTER's STREET LIST,33,,J,Taylor,manager
@@ -184619,7 +184617,7 @@ year,street,house_number,building_name,surname,forename,trade
 1893,Rodney Parade,,,Drill Hall,,1st Monmouth
 1893,Rodney Parade,,,shire,Artillery Volunteers,
 1893,Rodney Parade,,,Loftus,Bombardier,
-1893,Rodney Parade,,,Williams',aerated water works,
+1893,Rodney Parade,,,Williams,aerated water works,
 1893,Rodney Parade,,,Carter,Sergt.-Major,1st Mon
 1893,Rodney Parade,,Rodney House,V. A,,
 1893,Rodney Parade,,Rodney Ho,Williams,H. L,
@@ -185865,7 +185863,7 @@ year,street,house_number,building_name,surname,forename,trade
 1893,Vicarage Lane,7,,Thomas,Henry,plasterer
 1893,Vicarage Lane,,,Dursley house,,
 1893,Vicarage Lane,,,TRAPNELL & GANE are Manufacturers of Furniture,,
-1893,Vicarage Lane,Hodges,,Jas,Glencoe vale',
+1893,Vicarage Lane,Hodges,,Jas,Glencoe vale,
 1893,Vicarage Lane,Emerson,,Mrs. dressmaker,,
 1893,Vicarage Lane,Milner,,Clarence,carpenter,
 1893,Vicarage Lane,Williams,,O. B,painter,
@@ -186284,8 +186282,8 @@ year,street,house_number,building_name,surname,forename,trade
 1893,NEWPORT STREET LIST,,craneman,Anstice,Stephen,
 1893,NEWPORT STREET LIST,,Pilot's,,Carey,
 1893,NEWPORT STREET LIST,,Pilot's,pill,,
-1893,NEWPORT STREET LIST,,BROS. builders',,LONDON,
-1893,NEWPORT STREET LIST,,BROS. builders',merchants,,
+1893,NEWPORT STREET LIST,,BROS. builders,,LONDON,
+1893,NEWPORT STREET LIST,,BROS. builders,merchants,,
 1893,NEWPORT STREET LIST,,Pontoon,,The,
 1893,NEWPORT STREET LIST,,Gridiron,,The,
 1893,NEWPORT STREET LIST,,Lime,Rodney  Co,,
@@ -187357,7 +187355,7 @@ year,street,house_number,building_name,surname,forename,trade
 1894,Arlington Terrace,29,,Hancock,Robert,plasterer
 1894,Arlington Terrace,30,,Sayce,John C,mason
 1894,Arlington Terrace,31,,Coney,Miss Mary Ann,
-1894,Arlington Terrace,32,,Nott,R. P P O.,clerk
+1894,Arlington Terrace,32,,Nott,R. P P O,clerk
 1894,Arlington Terrace,33,,Hale,W,police sergeant
 1894,Arlington Terrace,34,,Ballhatchett,T,whitesmth
 1894,Arlington Terrace,35,,Alford,Arthur I,clerk
@@ -187778,7 +187776,7 @@ year,street,house_number,building_name,surname,forename,trade
 1894,Blewitt Terrace,37,,Walsh,John,labourer
 1894,Blewitt Terrace,38,,Rees,William,labourer
 1894,Blewitt Terrace,39,,Forster,Mrs Sarah,
-1894,Bolton Road,1,,Adams,Ernest W H.,tailor
+1894,Bolton Road,1,,Adams,Ernest W H,tailor
 1894,Bolton Road,2,"R., Home Cot",Pobjop,Jno,
 1894,Bolton Road,3,Rose Cot,Andrews,Benjamin,
 1894,Bolton Road,4,Thorn Cot,Young,Andrew,
@@ -188111,7 +188109,7 @@ year,street,house_number,building_name,surname,forename,trade
 1894,Caerau Road,31,,"Henry, builder",Richards,
 1894,Caerau Road,32,,Mrs Jane,Harris,
 1894,Caerau Road,33,,Jas. iron mercht,Clements,
-1894,Caerau Road,34,,"Moses, Hillsbro'",Wheeler,
+1894,Caerau Road,34,,"Moses, Hillsbro",Wheeler,
 1894,Caerau Road,35,,"Chas., Glencairn",Boucher,
 1894,Caerau Road,36,,Thos. schoolmaster,Davies,
 1894,Caerau Road,37,,Mrs Thomas,Lewis,
@@ -189364,7 +189362,7 @@ year,street,house_number,building_name,surname,forename,trade
 1894,Talgarth Place,13,,Power,William. Royal George,
 1894,Talgarth Place,,,Trinity Church Schools—,,
 1894,Talgarth Place,,,Girls and Infants,,
-1894,Talgarth Place,14,,Davis,"Jane, Carpenters'",
+1894,Talgarth Place,14,,Davis,"Jane, Carpenters",
 1894,Talgarth Place,,,Arms,,
 1894,Talgarth Place,15,,Game,Mrs,
 1894,Talgarth Place,16,,Lawrence,John,rigger
@@ -189611,7 +189609,7 @@ year,street,house_number,building_name,surname,forename,trade
 1894,St. Mary's Road,Cly,,Com,,
 1894,St. Mary's Road,28-32,,"Morris Henry, Fernside",,"Dore Edward J., surgeon"
 1894,St. Mary's Road,24,,"Ellis T. F., Ivybank",,house
-1894,St. Mary's Road,24,,Oddfellows',surgery,
+1894,St. Mary's Road,24,,Oddfellows,surgery,
 1894,St. Mary's Road,25,"Williams W., Arborland","Thomas A. G., M.D., Car",,
 1894,St. Mary's Road,25,,Jones,John Day,surgeon
 1894,St. Mary's Road,,"Taylor G. T., Brookfield",,digan villa,
@@ -189683,7 +189681,7 @@ year,street,house_number,building_name,surname,forename,trade
 1894,St. Mary's Road,14,Ruperra,Mann,MrsCecilia,
 1894,St. Mary's Road,15,,,"Groves J. Francis, Durlstone",
 1894,St. Mary's Road,15,,Hoskins,G,JP Mayfield h
-1894,St. Mary's Road,16,Norton House,,Haynes R. H.,
+1894,St. Mary's Road,16,Norton House,,Haynes R. H,
 1894,St. Mary's Road,16,Drumlanrig Ho,Kerr,W,
 1894,St. Mary's Road,16,,20,,
 1894,St. Mary's Road,16,,Williams & Smith,,tailors
@@ -189726,7 +189724,7 @@ year,street,house_number,building_name,surname,forename,trade
 1894,St. Mary's Road,27,,,BRYNGWYN ROAD—,
 1894,St. Mary's Road,27,,Llewellin,Isaac,
 1894,St. Mary's Road,27,,28,,
-1894,St. Mary's Road,27,Castle Hotel,Gibbs,W.,
+1894,St. Mary's Road,27,Castle Hotel,Gibbs,W,
 1894,St. Mary's Road,28,,,"L'Abbe Paul, The Bungalow",
 1894,St. Mary's Road,28,,Callaghan,Hugh,
 1894,St. Mary's Road,28,,29,,Burpitt F. E. decora
@@ -190058,7 +190056,7 @@ year,street,house_number,building_name,surname,forename,trade
 1894,Commercial Street,43,Dufner H,Dufner H,watchmaker,
 1894,Commercial Street,44,,Alger R. and Sons,ironmongers,"cutlers, & tool dealers, Alger R. and Sons"
 1894,Commercial Street,45,London Royal Restaurant,"Bevan Isaac, London Royal restaurant",Bevan Isaac,
-1894,Commercial Street,46,Davies Mrs,Davies Mrs,ladies',and children's outfitters
+1894,Commercial Street,46,Davies Mrs,Davies Mrs,ladies,and children's outfitters
 1894,Commercial Street,,,artists & photographers,,artists & photographers
 1894,Commercial Street,47,,artists Dando I. T. and Sons & photographers,,Dando I. T. and Sons
 1894,Commercial Street,48,,"Francis D. currier, etc",,"Francis D. currier, etc"
@@ -190084,9 +190082,9 @@ year,street,house_number,building_name,surname,forename,trade
 1894,Commercial Street,66,Harp And Shamrock,Rogers Robt,Harp and Shamrock,
 1894,Commercial Street,67,Void,,,
 1894,Commercial Street,68,Tobacconist,Hewertson T,Hewertson T,
-1894,Commercial Street,69,Tunstall H. T Tunstall H. T,Hairdresser,Tobacconist,
+1894,Commercial Street,69,Tobacconist,Tunstall H. T Tunstall H. T,Hairdresser,
 1894,Commercial Street,,,[Arms,,[Arms
-1894,Commercial Street,70,,Sims John,Mechanics',Mechanics'
+1894,Commercial Street,70,,Sims John,Mechanics,Mechanics
 1894,Commercial Street,71,,Henry Thomas,Henry Thomas,Grocer
 1894,Commercial Street,,,72,,
 1894,Commercial Street,73,Wyndham Arms,Powell A,,
@@ -190282,7 +190280,7 @@ year,street,house_number,building_name,surname,forename,trade
 1894,Courtybella,2,,Connor,Mrs Catherine,
 1894,Courtybella,3,,Watkins,Saml,labourer
 1894,Courtybella,6,,Tolcher,Robert,labourer
-1894,Courtybella,Re-building,,carpenters',,
+1894,Courtybella,Re-building,,carpenters,,
 1894,Courtybella,,,shops for E. Richards,,
 1894,Courtybella,,,builder,,
 1894,Courtybella,7,,Coughlan,Timothy,tailor
@@ -190678,7 +190676,7 @@ year,street,house_number,building_name,surname,forename,trade
 1894,Dock Street,2,,Bradbury & Co,,
 1894,Dock Street,3,,Bowen S. M,tobacconist,
 1894,Dock Street,4,,Wauters Hy,the Dorothy café,
-1894,Dock Street,5,,'Sims L,bootmaker,
+1894,Dock Street,5,,Sims L,bootmaker,
 1894,Dock Street,6,,Vaughan D.A.&Co,potato merchants,
 1894,Dock Street,,,,Clarke A. G,new stores
 1894,Dock Street,,,,Corporation yard,
@@ -190795,7 +190793,7 @@ year,street,house_number,building_name,surname,forename,trade
 1894,Dock Street,—,D. H,—,D. H. Morris,agent
 1894,Dock Street,—,office,— LlanhillethCottageBuild-ing Co. Ltd. office,,LlanhillethCottageBuilding Co. Ltd
 1894,Dock Street,—,office,—,,
-1894,Dock Street,94,—,Williams E. E. optician & chronometer maker,Williams E E.,optician & chronometer maker
+1894,Dock Street,94,—,Williams E. E. optician & chronometer maker,Williams E E,optician & chronometer maker
 1894,Dock Street,—,shipchandlers & sailmakers,—,Twist R,"and Son, shipchandlers & sailmakers, Twist R. and Son"
 1894,Dock Street,—,shipchandlers & sailmakers,—,,
 1894,Dock Street,95,—,"Lennard, Harris, and Co. shipbrokers, & at Cardiff","Lennard, Harris, and Co","shipbrokers, & at Cardiff"
@@ -190851,10 +190849,10 @@ year,street,house_number,building_name,surname,forename,trade
 1894,Dock Street,Pratt & Paton's,agents for the Sussex Portland Cement Co,surgeon,dentists,
 1894,Dock Street,Moses John and Co.,"ship-brokers, and at Cardiff",ship-brokers,123,"Cory J., Sons, & Co"
 1894,Dock Street,Moses John and Co.,"ship-brokers, and at Cardiff",152,,
-1894,Dock Street,110,Masonic Hotel,Harbour Commissioners',Reed Jno,
-1894,Dock Street,110,Harbour Commissioners',offices,,
-1894,Dock Street,110,Harbour Commissioners',153,,
-1894,Dock Street,110,Harbour Commissioners',Solicitor And Notary Public,,
+1894,Dock Street,110,Masonic Hotel,Harbour Commissioners,Reed Jno,
+1894,Dock Street,110,Harbour Commissioners,offices,,
+1894,Dock Street,110,Harbour Commissioners,153,,
+1894,Dock Street,110,Harbour Commissioners,Solicitor And Notary Public,,
 1894,Dock Street,111,,Pilotage ditto,Nicholas J. W,Grocer
 1894,Dock Street,111,Pilotage ditto,Registry Office For Servants,,
 1894,Dock Street,112-125,,Wilks Thos. & Co Jones R. W. & Co,,
@@ -191209,7 +191207,7 @@ year,street,house_number,building_name,surname,forename,trade
 1894,Auckland Terrace,,W. painter,,Baldwin,
 1894,Auckland Terrace,,Alfd. policeman,,Attwood,
 1894,Auckland Terrace,,Dd. policeman,,Rowland,
-1894,Auckland Terrace,,,,Williams J H.,mason
+1894,Auckland Terrace,,,,Williams J H,mason
 1894,Auckland Terrace,,"John, carpenter",,Garland,
 1894,Auckland Terrace,,A. J. engineer,,Herbert,
 1894,Auckland Terrace,,Walter,,Prevost,
@@ -192363,7 +192361,7 @@ year,street,house_number,building_name,surname,forename,trade
 1894,NEWPORT STREET LIST,,,Harries,Ivor,solicitor
 1894,NEWPORT STREET LIST,21,Old Ship,Hyndman,John,
 1894,NEWPORT STREET LIST,22,,N. Wells & Son,,jewellers and opticians
-1894,NEWPORT STREET LIST,23,,"Stead and Simpson, Ltd",,'National' boot mfrs—
+1894,NEWPORT STREET LIST,23,,"Stead and Simpson, Ltd",,National' boot mfrs—
 1894,NEWPORT STREET LIST,,,"R. G. Fisher, manager",,
 1894,NEWPORT STREET LIST,23A,,"Victoria Tea Co.—Wm. Hall, manager",,
 1894,NEWPORT STREET LIST,,,entrance to the Market,,
@@ -192943,7 +192941,7 @@ year,street,house_number,building_name,surname,forename,trade
 1894,Kingsmill Terrace,Connell,,Benj,hobbler,
 1894,Kingsmill Terrace,6,,Hall,Patrick,hobbler
 1894,Kingsmill Terrace,7,,Roach,Mark,labourer
-1894,Kingsmill Terrace,8,'Prince of Wales',Pring,Robert C,
+1894,Kingsmill Terrace,8,Prince of Wales,Pring,Robert C,
 1894,Kingsmill Terrace,9,,Morrison,William,coal trim'r
 1894,Kingsmill Terrace,10,,Dermody,Isaac,hobbler
 1894,Kingsmill Terrace,Dacey,,Wm,labourer,
@@ -194131,7 +194129,7 @@ year,street,house_number,building_name,surname,forename,trade
 1894,NEWPORT STREET LIST,17-3,,Smith Watson,William. bricklayer,
 1894,NEWPORT STREET LIST,17,Smith,Mrs,Catherine,
 1894,NEWPORT STREET LIST,,"Charles, mariner",,4,
-1894,Nash Road,"Capper Robt., Pontfaen farm",,6,Gillard C H.,"plumber, etc"
+1894,Nash Road,"Capper Robt., Pontfaen farm",,6,Gillard C H,"plumber, etc"
 1894,Nash Road,Capper Chas. Victoria Inn,,6,Betts,"James, painter"
 1894,Nash Road,,,"Hall & Snelling, wheelwrights",,
 1894,Nash Road,Lliswerry Board School,,"New Street, P",,
@@ -194143,7 +194141,7 @@ year,street,house_number,building_name,surname,forename,trade
 1894,Nelson Street,1,,Plaisted,William,Labourer
 1894,Nelson Street,2,,Mapstone,Vaughan,Thomas. Baker
 1894,Nelson Street,2,,Mapstone,William,Smith
-1894,Nelson Street,3,,Long,Broadribb S J.,Baker
+1894,Nelson Street,3,,Long,Broadribb S J,Baker
 1894,Nelson Street,3,,Long,Henry,Labourer
 1894,Nelson Street,4,"James, fireman",Lewis,George,haulier
 1894,Nelson Street,5,,Price,Griffiths J,engine driver
@@ -194182,7 +194180,7 @@ year,street,house_number,building_name,surname,forename,trade
 1894,Nelson Street,22-24,,Burke Naish,Jas. basket maker,
 1894,Nelson Street,22,Burke,Maur,coal,trimmer
 1894,Nelson Street,23,,Rogers,Barry,Mich. Labourer
-1894,Nelson Street,23,Rogers,Margt,Foresters',
+1894,Nelson Street,23,Rogers,Margt,Foresters,
 1894,Nelson Street,,,Arms,,
 1894,Nelson Street,"TRAPNELL & GANE. Furniture for the Mansion, Villa, and Cottage.",,258,,
 1894,NEWPORT STREET LIST,,,Nor,,
@@ -194219,7 +194217,7 @@ year,street,house_number,building_name,surname,forename,trade
 1894,JUBILEE TERRACE,26,,Meaker John T. painter,,
 1894,JUBILEE TERRACE,27,,Dunn Mrs Susannah,,
 1894,JUBILEE TERRACE,28,,Manship Mrs Mary,,
-1894,JUBILEE TERRACE,29,,'Allen Mrs Annie C,,
+1894,JUBILEE TERRACE,29,,Allen Mrs Annie C,,
 1894,JUBILEE TERRACE,30,,"Chivers Thomas, ostler",,
 1894,JUBILEE TERRACE,31,,"Barroll Amos, coachman",,
 1894,JUBILEE TERRACE,32,,Boucher Mrs Theresa,,
@@ -194510,7 +194508,7 @@ year,street,house_number,building_name,surname,forename,trade
 1894,NEWPORT STREET LIST,28,,O'Leary,Thomas,smith
 1894,NEWPORT STREET LIST,29,,Hughes,Mrs Marianne,
 1894,NEWPORT STREET LIST,30,,Wilkes,Mrs S. A,
-1894,NEWPORT STREET LIST,31,,Matthews',nail,factory
+1894,NEWPORT STREET LIST,31,,Matthews,nail,factory
 1894,NEWPORT STREET LIST,32,,A. J. Jacobs &,E,pawn
 1894,NEWPORT STREET LIST,33,,brokers & outfitters,,
 1894,NEWPORT STREET LIST,,,"Potter's Parade, P",,
@@ -195056,7 +195054,7 @@ year,street,house_number,building_name,surname,forename,trade
 1894,Risca Road,4,,Houses Void,,"49 Sullivan Michael, mould'r"
 1894,Risca Road,5-9,,Houses Building,,"Lawrence H. iron and brass founder, coal merchant, etc"
 1894,Risca Road,5,,Rees,William. moulder (return.),
-1894,Risca Road,,,"Davies Maddocks, Cotham brow",Collard H J.,Baker
+1894,Risca Road,,,"Davies Maddocks, Cotham brow",Collard H J,Baker
 1894,Risca Road,,"Davies Maddocks, Cotham brow",7,,
 1894,Risca Road,,"Davies Maddocks, Cotham brow",Jenkins,Samuel,bailiff
 1894,Risca Road,,,,8,Smallwood J. sol'tr's clerk
@@ -195075,7 +195073,7 @@ year,street,house_number,building_name,surname,forename,trade
 1894,Risca Road,,Davies,10,Barrett W,coal trimmer
 1894,Risca Road,,Davies,Bros,London wharf,builders' merchants
 1894,Risca Road,,,11,Cotterrall,"John, labourer"
-1894,Risca Road,,THE PONTOON,12,Coombs B D.,engine driver
+1894,Risca Road,,THE PONTOON,12,Coombs B D,engine driver
 1894,Risca Road,,Drill,13,Parry,Wm. boilermaker
 1894,Risca Road,,Drill,Hall,1st Monmouth-shire Artillery Volunteers,
 1894,Risca Road,,Drill,9,,"Clarke George, G.W.R"
@@ -195083,7 +195081,7 @@ year,street,house_number,building_name,surname,forename,trade
 1894,Risca Road,,,10,,
 1894,Risca Road,,Fern Cot,Stephens,William. H,
 1894,Risca Road,,Williams,15,Heard,Thos. labourer
-1894,Risca Road,,Williams,'erated,water works,
+1894,Risca Road,,Williams,erated,water works,
 1894,Risca Road,,Williams,11,,
 1894,Risca Road,,Williams,Parkin,Edwin,plumber
 1894,Risca Road,,Carter,16,Scott Sergt,"Major, 1st Mon"
@@ -195522,7 +195520,7 @@ year,street,house_number,building_name,surname,forename,trade
 1894,St. Woolos Place,31,,Collard,W,joiner
 1894,St. Woolos Place,32,,James,George,policeman
 1894,St. Woolos Place,33,telegrap'st,Morgan,W E,
-1894,St. Woolos Place,James',,bakehouse,,
+1894,St. Woolos Place,James,,bakehouse,,
 1894,St. Woolos Place,34,,Prosser,William,coal mer
 1894,Scard Street,1,,Vale,Mrs M. A,
 1894,Scard Street,2,,Watkins,J,hallkeeper
@@ -195791,7 +195789,7 @@ year,street,house_number,building_name,surname,forename,trade
 1894,Stow Hill,,,"Arthur F. F.C.S., analytical & consulting chemist",Morgan,
 1894,Stow Hill,"(Bon Marche (The) Tailoring—Boy's and Youths' Ready-made Clothing—Hosiery,&c",,37,Watts Thomas,
 1894,Stow Hill,ILDINGS'LIMITED,"H. A. wine, spirit, ale & porter merchant",4,{,Smith
-1894,Stow Hill,,'Limited,5,{,
+1894,Stow Hill,,Limited,5,{,
 1894,Stow Hill,7,Mon. and Newport Constitutional Club,6,Conservative Association,"offices—W. S. Claypole Smith, secretary"
 1894,Stow Hill,,Mon. and Newport Constitutional Club,8,,"Partridge W. H. F. auctioneer, house agent,, etc"
 1894,Stow Hill,,Mon. and Newport Constitutional Club,9,,Doherty J. surgeon dent
@@ -195821,7 +195819,7 @@ year,street,house_number,building_name,surname,forename,trade
 1894,Stow Hill,20-22,,25,,
 1894,Stow Hill,20-22,,Fennell,Percy,
 1894,Stow Hill,20-22,,26,,
-1894,Stow Hill,20-22,Cross House,Vaughan,D. A. J.P.,here is Havelock-st
+1894,Stow Hill,20-22,Cross House,Vaughan,D. A. J.P,here is Havelock-st
 1894,Stow Hill,20-22,,DORSET,PLACE—,
 1894,Stow Hill,20-22,,27,,
 1894,Stow Hill,20-22,,Basset,W. physician and,surgeon
@@ -195904,7 +195902,7 @@ year,street,house_number,building_name,surname,forename,trade
 1894,Stow Hill,.,"Buchanan Misses, ladies",Jones,Mrs M,
 1894,Stow Hill,.,"school, Milford house",Kirkby,"William., Belmont vil",
 1894,Stow Hill,.,Void,Davies,H. mon. sculptor,
-1894,Stow Hill,.,,"Gay Edwin, Salvation",Price A J.,Carpenter
+1894,Stow Hill,.,,"Gay Edwin, Salvation",Price A J,Carpenter
 1894,Stow Hill,.,Army officer,Leader,"Mrs S., Six Bells",
 1894,Stow Hill,.,Schools (Stow hill),Children's,Refuge—Sis,
 1894,Stow Hill,.,,ters of S. John Baptist,117,"Ciceri John, china mer"
@@ -197758,7 +197756,7 @@ year,street,house_number,building_name,surname,forename,trade
 1899,NEWPORT STREET LIST,29,Strode,22,,
 1899,NEWPORT STREET LIST,29,Strode,Burgess,,
 1899,NEWPORT STREET LIST,29,,Strode,William,Labourer
-1899,NEWPORT STREET LIST,30,,James,Watts A G.,Plumber
+1899,NEWPORT STREET LIST,30,,James,Watts A G,Plumber
 1899,NEWPORT STREET LIST,30,,James,Francis,Haulier
 1899,NEWPORT STREET LIST,30,James,20,,
 1899,NEWPORT STREET LIST,30,James,Mansfield,,
@@ -197864,7 +197862,7 @@ year,street,house_number,building_name,surname,forename,trade
 1899,NEWPORT STREET LIST,25,,Forrest Hazall,William,Labourer
 1899,NEWPORT STREET LIST,25,,Forrest,John,Trimmer
 1899,NEWPORT STREET LIST,25,Forrest,5,,
-1899,NEWPORT STREET LIST,25,Forrest,Johns,R H.,stationer
+1899,NEWPORT STREET LIST,25,Forrest,Johns,R H,stationer
 1899,NEWPORT STREET LIST,27,,Sullivan Street,John,Labourer
 1899,NEWPORT STREET LIST,27,Sullivan,John,irondressr,"printer, and newsagent"
 1899,NEWPORT STREET LIST,,,Hathway Lewis,Thomas,Labourer
@@ -198841,7 +198839,7 @@ year,street,house_number,building_name,surname,forename,trade
 1899,Caerau Road,31,,Redford,George,
 1899,Caerau Road,32-0,,Cross,Thomas Clifford,
 1899,Caerau Road,33-0,,Clements,Jas,iron merch
-1899,Caerau Road,34-0,Hillsbro',Wheeler,Moses,
+1899,Caerau Road,34-0,Hillsbro,Wheeler,Moses,
 1899,Caerau Road,35-0,Glencairn,Boucher,Charles,
 1899,Caerau Road,36,Hudson Vil,Davis,Thomas,
 1899,Caerau Road,37,Clyro Villa,Gaccon,J. A,
@@ -199042,7 +199040,7 @@ year,street,house_number,building_name,surname,forename,trade
 1899,Carlisle Place,158,,T. L,Davies,physician and surgeon
 1899,Carlisle Place,156,Pendeen,,,
 1899,Carlisle Place,154,Allhena Vil,W. F,Jones,
-1899,Carlisle Place,152,Woodboro',W,Blatchely,
+1899,Carlisle Place,152,Woodboro,W,Blatchely,
 1899,Carlisle Place,150,Void,,,
 1899,Carlisle Place,148,King's Lynn,S. J,King,
 1899,Carlisle Place,146,,Samuel,Swanton,
@@ -199068,7 +199066,7 @@ year,street,house_number,building_name,surname,forename,trade
 1899,NEWPORT STREET LIST,118,,Leonard,James,
 1899,NEWPORT STREET LIST,116,Void,,,
 1899,NEWPORT STREET LIST,114,,Bourton George,Henry,
-1899,NEWPORT STREET LIST,,,Co,J.,"Coutanch, mgr 12"
+1899,NEWPORT STREET LIST,,,J Co,,"Coutanch, mgr 12"
 1899,NEWPORT STREET LIST,112,,Karo Co-operative Tea,,
 1899,NEWPORT STREET LIST,104,Spring Vale,H. B,Howell,
 1899,NEWPORT STREET LIST,102,Insurance Superintendent,Dl. Ll,Hughes,
@@ -199141,7 +199139,7 @@ year,street,house_number,building_name,surname,forename,trade
 1899,Cambria Road,,,,,Greenland&Co.-TheCorridor
 1899,Cambria Road,,,,,"Bryant A. & Co., Domestic"
 1899,Cambria Road,,,,,Supply stores
-1899,Cambria Road,,,,S W.,Wine and Spirit Vaults
+1899,Cambria Road,,,,S W,Wine and Spirit Vaults
 1899,Newport Arcade,,,,,43 High-street
 1899,Newport Arcade,,,,,43 High-street)
 1899,Newport Arcade,,,,,Supply stores
@@ -199161,7 +199159,7 @@ year,street,house_number,building_name,surname,forename,trade
 1899,Newport Arcade,,William Birkett,,,
 1899,Newport Arcade,,,241,,
 1899,Newport Arcade,Cam,,Newport Street List,Cap,
-1899,Newport Arcade,"CAMELOT PLACE, B.T.-2",Cambodian Arms,Jones John Hy. Nelson Inn 34,Phillipps T.,
+1899,Newport Arcade,"CAMELOT PLACE, B.T.-2",Cambodian Arms,Jones John Hy. Nelson Inn 34,Phillipps T,
 1899,Newport Arcade,Whitby-pl. to Manchester-st.,,"Barry Ellen, greengrocer",35,"Dacey James, Labourer"
 1899,Newport Arcade,1-4,,Price Frank A. plasterer,36,"Hoskins Albert, labourer"
 1899,Newport Arcade,1-4,,Barber,Jas. Hy. foreman,
@@ -199175,7 +199173,7 @@ year,street,house_number,building_name,surname,forename,trade
 1899,Newport Arcade,6-8,,"Crotty John, junior",41,"Huntley George, haulier"
 1899,Newport Arcade,6-8,,Green,Walter,labourer
 1899,Newport Arcade,7-9,,"Morris Frank, iron worker",42,"Hockridge John, seaman"
-1899,Newport Arcade,7-9,Fountain Inn,Huntley,Sl.,
+1899,Newport Arcade,7-9,Fountain Inn,Huntley,Sl,
 1899,Newport Arcade,8,,Atkinson Miss A,43,O'Connell Patk. labourer
 1899,Newport Arcade,9,"CANON STREET, B.T","Dowd Daniel, sailor",44,"Driscoll Dennis, labourer"
 1899,Newport Arcade,10,From Junction-road,Coles Thomas,45,"Driscoll Martin, labourer"
@@ -199791,7 +199789,7 @@ year,street,house_number,building_name,surname,forename,trade
 1899,Wise Harris,152,shoemaker,Harvey Robt.shoemaker,Harvey Robert,
 1899,Wise Harris,150,fruiterer,Bevan Wm. J. fruiterer,Bevan,
 1899,Wise Harris,148,,"SimmondsC.P.grocer,&c",SimmondsC.P,"grocer,, etc"
-1899,Wise Harris,146,Carpenters',Goodwin W. Carpenters',Goodwin W,
+1899,Wise Harris,146,Carpenters,Goodwin W. Carpenters,Goodwin W,
 1899,Wise Harris,,,Arms Arms,,
 1899,Wise Harris,144,baker,Kelson Jos. junr.. baker,Kelson,
 1899,Wise Harris,142,family butchr,Haggett F. family butchr,Haggett F,
@@ -200091,7 +200089,7 @@ year,street,house_number,building_name,surname,forename,trade
 1899,Calne Place,,,4,Dick,
 1899,Calne Place,,,5,Ward,
 1899,Calne Place,,,6,Newport,
-1899,Calne Place,,,,Phillips',
+1899,Calne Place,,,,Phillips,
 1899,Calne Place,,,7,Glass,
 1899,Calne Place,,,8,Shewring,
 1899,Calne Place,9,,Hall,,
@@ -200108,7 +200106,7 @@ year,street,house_number,building_name,surname,forename,trade
 1899,Calne Place,,,17,Winsor,
 1899,Calne Place,,,17A,White,
 1899,Calne Place,,,18,Hollingdale,
-1899,Calne Place,,,20,Spiers',
+1899,Calne Place,,,20,Spiers,
 1899,Calne Place,,,21,Booth,
 1899,Calne Place,249,,22,Perry,
 1899,Calne Place,Cla,Cly,,NEWPORT STREET LIST,
@@ -200354,7 +200352,7 @@ year,street,house_number,building_name,surname,forename,trade
 1899,Thompson Wm,,,house,,
 1899,Thompson Wm,7,,"Handford J., Alwington h",,
 1899,Thompson Wm,8,,Thompson G. R. analyst,,
-1899,Thompson Wm,,,'Lilliesdon house,,
+1899,Thompson Wm,,,Lilliesdon house,,
 1899,Thompson Wm,9,,Thompson James,,
 1899,Thompson Wm,10,,"Edgar George, engineer",,
 1899,Thompson Wm,11,,Williams F. A,[house,
@@ -200798,7 +200796,7 @@ year,street,house_number,building_name,surname,forename,trade
 1899,Commercial Street,,,Jones,T,"Baker, solicitor"
 1899,Commercial Street,,Spanish Consul,Cubas,Don J,
 1899,Commercial Street,,,Armstrong,J,Leslie & Co. accountants and auditors
-1899,Commercial Street,1,,Newman & Sons',,music warehouse
+1899,Commercial Street,1,,Newman & Sons,,music warehouse
 1899,Commercial Street,2,,Indian Rampore Tea Co,,"Alf. Turner, manager"
 1899,Commercial Street,3,,Evans,D. Roger,solicitor
 1899,Commercial Street,,British Mutual Life Assurance Co,Evans,Thomas. Ll,district manager
@@ -201194,7 +201192,7 @@ year,street,house_number,building_name,surname,forename,trade
 1899,NEWPORT STREET LIST,,Williams Alfred R. tailor,,"surgeon, Denver villa",
 1899,NEWPORT STREET LIST,,Williams Alfred R. tailor,Davey,W,confectioner
 1899,NEWPORT STREET LIST,,"Thomas John, mill manager",,"Price Benjamin, Brentburn",
-1899,NEWPORT STREET LIST,,,"Thomas John, mill manager",Humphrey S J.,Grocer
+1899,NEWPORT STREET LIST,,,"Thomas John, mill manager",Humphrey S J,Grocer
 1899,NEWPORT STREET LIST,,"Baker James, labourer",,"Dawkes Harry, Penshurst","Webb Joseph, painter, etc"
 1899,NEWPORT STREET LIST,,"Davies Fred, gardener",,Vacaat sites,
 1899,NEWPORT STREET LIST,,"Davies Fred, gardener",Maggs,Alfred,butcher
@@ -201204,7 +201202,7 @@ year,street,house_number,building_name,surname,forename,trade
 1899,NEWPORT STREET LIST,,Wilson George,,Shop void,
 1899,NEWPORT STREET LIST,,Wilson George,Sayer,Walter,grocer
 1899,NEWPORT STREET LIST,,"Jones John, carpenter",,Miller J. B,fruiterer
-1899,NEWPORT STREET LIST,,,"Jones John, carpenter",Lewis J R.,Grocer
+1899,NEWPORT STREET LIST,,,"Jones John, carpenter",Lewis J R,Grocer
 1899,NEWPORT STREET LIST,,,"Knee John, labourer",,Fox Mrs H. Greengrocer
 1899,NEWPORT STREET LIST,,"Knee John, labourer",Shop,,
 1899,NEWPORT STREET LIST,,"Francis Joseph, bootmaker",,CunninghamDd.confect'ner,"Williams John, foreman"
@@ -201426,7 +201424,7 @@ year,street,house_number,building_name,surname,forename,trade
 1899,Crindau Road,42,,16,,
 1899,Crindau Road,42,,Nicholls,,
 1899,Crindau Road,42,,Whitfield,grocer,
-1899,Crindau Road,40,,10,Clarke Mrs H.,dressmaker
+1899,Crindau Road,40,,10,Clarke Mrs H,dressmaker
 1899,Crindau Road,40,,Selfe,,
 1899,Crindau Road,40,,John,William,labourer
 1899,Crindau Road,40,,17,,
@@ -201793,12 +201791,12 @@ year,street,house_number,building_name,surname,forename,trade
 1899,Corporation market yard,72,,Smith J. L. & Co. colliery proprietors & shipbrokers,,here is South Market-st
 1899,Corporation market yard,92,"Murray Nora (Miss), Eagle Hotel","Rhymney Iron Co., Ltd",,
 1899,Corporation market yard,93,"Partridge, Jones, & Co., Ltd. colliery proprietors","H. E. Buddeley, shipping agent",,
-1899,Corporation market yard,,"H. Murrow, Agt",etc J.,,
+1899,Corporation market yard,,"H. Murrow, Agt",etc J,,
 1899,Corporation market yard,,,266,,
 1899,Corporation market yard,94,,Williams E. E. optician and chronometer maker,,
 1899,Corporation market yard,,,Twist R. and Son; ship-chandlers & sailmakers,,
 1899,Corporation market yard,95,,Williams Jonathan & Co. colliery prop'trs&merets,,
-1899,Corporation market yard,,,'Tir Pentwys Black-Vein Steam Coal & Coke Co. Ltd. and at Cardiff---J,,
+1899,Corporation market yard,,,Tir Pentwys Black-Vein Steam Coal & Coke Co. Ltd. and at Cardiff---J,,
 1899,Corporation market yard,,,"W. Kilminster, manager",,
 1899,Corporation market yard,97,,"Chief Telegraph office, & Branch Post office",,
 1899,Corporation market yard,98,,"Budd & Co. shipbrokers, and at Cardiff",,
@@ -203074,7 +203072,7 @@ year,street,house_number,building_name,surname,forename,trade
 1899,George Street,37,,Wills,Arthur,smith
 1899,George Street,38,,Renouf,Charles,smith
 1899,George Street,39,,James,Mrs Mary,
-1899,George Street,40,,Jenkins,Mrs E J.,grocer
+1899,George Street,40,,Jenkins,Mrs E J,grocer
 1899,George Street,41,,and baker,,
 1899,George Street,42,Prince's Head,Todd,John,
 1899,George Street,43,,Ingram,Mrs Sarah,
@@ -203092,7 +203090,7 @@ year,street,house_number,building_name,surname,forename,trade
 1899,Friars Road,7,,Downer,Alfred,gardener
 1899,Friars Street,,,From 34 Commercial-street,,
 1899,Friars Street,7,,Eames,Frank,engraver
-1899,Friars Street,4,,Advertisers',Billposting,
+1899,Friars Street,4,,Advertisers,Billposting,
 1899,Friars Street,,,Co.—J. W. Jones,mangr,
 1899,Friars Street,6,,Shop void,,
 1899,Friars Street,8,,Fox,C. J,architect
@@ -203502,7 +203500,7 @@ year,street,house_number,building_name,surname,forename,trade
 1899,Griffin Street,1,,Gale,A. J,South Wales Luncheon Bar
 1899,Griffin Street,,,THE MARKET HOUSE,,
 1899,Griffin Street,2,,King,B,picture frame mkr
-1899,Griffin Street,3,,Hopkins',Curiosity shop,
+1899,Griffin Street,3,,Hopkins,Curiosity shop,
 1899,Griffin Street,4,,Burns,,toy dealer
 1899,Griffin Street,5,,Harris,E. E,furnisher
 1899,Griffin Street,6,,Clarke,George,salt stores
@@ -203547,7 +203545,7 @@ year,street,house_number,building_name,surname,forename,trade
 1899,Halstead Street,54,Ballinger Hy. Waterman,"Pritchard Thomas, G.W.R",13,
 1899,Halstead Street,52,,"Jones John, g.w.r",14,"Jones George, carpenter"
 1899,Halstead Street,50,,Hookway Wm. G.W.R,15,Thomas Fredk. fireman
-1899,Halstead Street,48,,'Sherrard Wm. teacher,16,Johnston Jas. ironworker
+1899,Halstead Street,48,,Sherrard Wm. teacher,16,Johnston Jas. ironworker
 1899,Halstead Street,46,,,17,"Hawkins Seth, butcher"
 1899,Halstead Street,44,"James William, Hawker",,18,
 1899,Halstead Street,42,"Cooke James, Storeman",Banbury Thos. I. mason,19,
@@ -203720,7 +203718,7 @@ year,street,house_number,building_name,surname,forename,trade
 1899,Hereford Place,,,Church-road,,
 1899,Hereford Place,1,,Cruse,William,tailor
 1899,Hereford Place,2,,Thomas,Thomas,haulier
-1899,Hereford Place,3,,Bird,William,'bus driver
+1899,Hereford Place,3,,Bird,William,bus driver
 1899,Hereford Place,4,,Davies,Mrs Elizabeth,
 1899,Hereford Place,5,,Poor,James,signalman
 1899,Hereford Place,6,,Williams,John,clerk
@@ -203883,7 +203881,7 @@ year,street,house_number,building_name,surname,forename,trade
 1899,NEWPORT STREET LIST,,,Swallwell,Harold H auc,tioneer and valuer
 1899,NEWPORT STREET LIST,21,,Phillips,Alfd. J,architect
 1899,NEWPORT STREET LIST,22,,"Nugent Wells & Son, Ltd",,jewellers and opticians
-1899,NEWPORT STREET LIST,23,"—R. G. Fisher, manager","Stead & Simpson, Ltd",,'National' boot mfrs
+1899,NEWPORT STREET LIST,23,"—R. G. Fisher, manager","Stead & Simpson, Ltd",,National' boot mfrs
 1899,NEWPORT STREET LIST,23A,,Broomhall's,Tea stores,entrance to the Market
 1899,NEWPORT STREET LIST,,,"Lloyd & Yorath, Ltd",,brewers & wine and spirit merchants
 1899,NEWPORT STREET LIST,,,Hince,T. A. Crown,Wine Vaults
@@ -203891,7 +203889,7 @@ year,street,house_number,building_name,surname,forename,trade
 1899,NEWPORT STREET LIST,,,Principality,Per. Invest. Building Society's office,
 1899,NEWPORT STREET LIST,,,Evans,William,saddler and harness maker
 1899,NEWPORT STREET LIST,25,,Eastman's Ltd,,purveyors
-1899,NEWPORT STREET LIST,26,,Simmonds,Alf,"Hatter, etc"
+1899,NEWPORT STREET LIST,26,"Hatter, Etc",Simmonds,Alf,
 1899,NEWPORT STREET LIST,26A,,Tea Chinese Co,,
 1899,NEWPORT STREET LIST,,Offices,,,
 1899,NEWPORT STREET LIST,27,"Co.—F. W. Smith, mgr",Ballantyne,W. E,"accoun- tant,house&emigrn'agt & New York Life Insurance"
@@ -204063,11 +204061,10 @@ year,street,house_number,building_name,surname,forename,trade
 1899,Hoskins Street,,ST. GEORGE'S BUILDINGS,Davies,Charles,
 1899,Hoskins Street,9,,England William Whomack,Sl. glass works,1 Richardson Jos. boilermkr
 1899,Hoskins Street,11,"Parkes James, Moulder House",,,2 Thomas Saint. Geo. lab'rer
-1899,Hoskins Street,15,Here Is Gaincy's-court,Ahlstrand Wm. labourer Wetter,"Charles, miller",
 1899,Hoskins Street,17,"Evans William, Rigger House",,,"4 Jones David, carpenter"
 1899,Hoskins Street,19,,"Bailey William, labourer Thomas",Thomas,"fitter, 5 Void"
 1899,Hoskins Street,21,"Shea John, Coal Trimmer House",,,Prothero & Co. cabinetmkrs
-1899,Hoskins Street,23,,"Litson Samuel, labourer Cosh",Albert,"labourer, Newport General Builders'"
+1899,Hoskins Street,23,,"Litson Samuel, labourer Cosh",Albert,"labourer, Newport General Builders"
 1899,Hoskins Street,25,,"Grice Clement, eng. drvr Larkin",David Charles,office and workshop-S
 1899,Hoskins Street,27,,"Smith Thomas, labourer Spritt",Thomas,"Stennett, secretary"
 1899,Hoskins Street,29,"Ritter Jacob, Ship Carp'tr House",,,
@@ -204230,7 +204227,7 @@ year,street,house_number,building_name,surname,forename,trade
 1899,Jeffrey Street,,,286,,
 1899,NEWPORT STREET LIST,,Kingsmill Gardens,,"Kensington Place, M",
 1899,NEWPORT STREET LIST,,"Cuerun, Facing Kingsmill-ter",,From 175 Chepstow-road,
-1899,NEWPORT STREET LIST,1-2,"Padfield S. J., Nailsworth Vil",,Dauncey F. S.,solicitor
+1899,NEWPORT STREET LIST,1-2,"Padfield S. J., Nailsworth Vil",,Dauncey F. S,solicitor
 1899,NEWPORT STREET LIST,3,,,Locke Harvey J,"Davis W. E., Pen-y-bryn"
 1899,NEWPORT STREET LIST,4,Preston Villa,,Waetzig E. A,
 1899,NEWPORT STREET LIST,Jon,"Price Wm. builder, Rosemont",,,5 Dunning George
@@ -204698,7 +204695,6 @@ year,street,house_number,building_name,surname,forename,trade
 1899,Llanarth street,13-4,"Haynes R. H., Norton Ho",Dickson Mrs E. R. out,9,
 1899,Llanarth street,13-4,,Phelps,Walter,labourer
 1899,Llanarth street,14,Llanvapley Road,fitter and pawnbroker,11,
-1899,Llanarth street,,,From Howell's iron warehouse Constance,,street
 1899,Llanarth street,20,,"Nelson Andrew, carpentr",13,"Alderton C. W., Syding"
 1899,Llanarth street,21,Ton House,"Taylor Stephen, baker",,
 1899,Llanarth street,21,,Bowen,Daniel,tailor
@@ -207392,8 +207388,8 @@ year,street,house_number,building_name,surname,forename,trade
 1899,St. John's Road,36,,Sully,Joseph,foreman
 1899,St. John's Road,37,,Carpenter,William,coalman
 1899,St. John's Road,38,Stuart,Pitt,John,
-1899,St. John's Road,39,Oddfellows',Huntley,Mark,
-1899,St. John's Road,,Arms,and,Forsters',
+1899,St. John's Road,39,Oddfellows,Huntley,Mark,
+1899,St. John's Road,,Arms,and,Forsters,
 1899,St. John's Road,40,,Edwards,Walter,plasterer
 1899,St. John's Road,41,,James,George,plasterer
 1899,St. John's Road,42,,Cox,Alfred,smith
@@ -207569,7 +207565,7 @@ year,street,house_number,building_name,surname,forename,trade
 1899,NEWPORT STREET LIST,61,,Charles,Saysell,sawyer
 1899,NEWPORT STREET LIST,63,,Wm. Alfred,Lane,smith
 1899,NEWPORT STREET LIST,65,,Lewis William,Lewis,labourer
-1899,NEWPORT STREET LIST,67,,Thomas,Evans,Moulders'
+1899,NEWPORT STREET LIST,67,,Thomas,Evans,Moulders
 1899,NEWPORT STREET LIST,,,ARMS,,
 1899,NEWPORT STREET LIST,69,,Mrs,Cooper Eliza,
 1899,Moulders' arms terrace,71,,Edwin,Gallivan,
@@ -207754,7 +207750,7 @@ year,street,house_number,building_name,surname,forename,trade
 1899,Moulders' arms terrace,15,,"Smith & Co., Ltd., corn merchants and condiment manufact'rs",,
 1899,Moulders' arms terrace,19,,Herbert,J. tallow chandler,
 1899,Moulders' arms terrace,20,,Jones,W. E. Windsor Castle,
-1899,Moulders' arms terrace,21,,Westgate,Foundry and Ironworks W.,"A. Baker and Co., Ltd"
+1899,Moulders' arms terrace,21,,Westgate,Foundry and Ironworks W A.,"Baker and Co., Ltd"
 1899,Moulders' arms terrace,,,Slipway Cottages,,
 1899,Moulders' arms terrace,1-2,,Wedlake,"Henry, mangr",
 1899,Moulders' arms terrace,3,,Fife,"William, foreman",
@@ -209128,7 +209124,7 @@ year,street,house_number,building_name,surname,forename,trade
 1899,NEWPORT STREET LIST,2,,8,Trembeth,"James, labourer"
 1899,NEWPORT STREET LIST,2,,Brook,,
 1899,NEWPORT STREET LIST,2,,Joseph,turner,
-1899,NEWPORT STREET LIST,2,,Girls',entrance,
+1899,NEWPORT STREET LIST,2,,Girls,entrance,
 1899,NEWPORT STREET LIST,3,"Henry, Crane Drivr",9,Kelly,
 1899,NEWPORT STREET LIST,3,,Fyne,,
 1899,NEWPORT STREET LIST,3,,Rev,Simeon (Rabbi),
@@ -211286,7 +211282,7 @@ year,street,house_number,building_name,surname,forename,trade
 1927,Brickyard Road,8,,Phillips,William,labourer
 1927,Brickyard Road,9,,Jones,John,labourer
 1927,Brickyard Road,10,,Preece,Alf,rustic works
-1927,Bridge Street,,,J Midland Bank Limited,A.,"Matthews, manager"
+1927,Bridge Street,,,A J Midland Bank Limited,,"Matthews, manager"
 1927,Bridge Street,,,(here,cross over),
 1927,Bridge Street,19,,Queen's Hotel,Mrs. E. E,"Morgan, manageress"
 1927,Bridge Street,20,"Colborne, Coulman & Lawrence, solicitors",VICTORIA CHAMBERS,,Nantyglo & Blaina Ironworks Co. Ltd
@@ -211358,8 +211354,8 @@ year,street,house_number,building_name,surname,forename,trade
 1927,Bridge Street,,,Queen Square,,
 1927,Bridge Street,,,TREDEGAR PLACE—,,
 1927,Bridge Street,67,,Leslie,Millar J,furrier &
-1927,Bridge Street,,,,ladies',tailor
-1927,Bridge Street,68,,Davies',music stores,
+1927,Bridge Street,,,,ladies,tailor
+1927,Bridge Street,68,,Davies,music stores,
 1927,Bridge Street,69,,B,Moore J,drapers
 1927,Bridge Street,69a,,dyers,,"Pullars of Perth, etc"
 1927,Bridge Street,70,,John Young & Whittaker,,
@@ -211397,7 +211393,7 @@ year,street,house_number,building_name,surname,forename,trade
 1927,Bridge Street,,,Canada Life Assurance 29 Co,,
 1927,Bridge Street,,,30,District,manager—
 1927,Bridge Street,31,,,W. Homfray Davies,
-1927,Bridge Street,,,32,Monmouthshire Farmers',
+1927,Bridge Street,,,32,Monmouthshire Farmers,
 1927,Bridge Street,33,,,Union—W. Homfray,
 1927,Bridge Street,,,,Davies,"34, secretary"
 1927,Bridge Street,,,Chepstow Farmers' 35 Ltd,,
@@ -211826,7 +211822,7 @@ year,street,house_number,building_name,surname,forename,trade
 1927,CALL OFFICE,155,,Takel,F. J,motor proptr
 1927,CALL OFFICE,157,,Jones,I. L,butcher
 1927,CALL OFFICE,,,Richardson,H,billposter
-1927,CALL OFFICE,159,,Davies',Dairy,
+1927,CALL OFFICE,159,,Davies,Dairy,
 1927,CALL OFFICE,161,,Co-operative Society's Stores,,
 1927,CALL OFFICE,163,,Co-operative Society's Butchers' Shop,,
 1927,CALL OFFICE,,,Burns,Robert,
@@ -212593,7 +212589,7 @@ year,street,house_number,building_name,surname,forename,trade
 1927,Cardiff Road,4,Corner,Mrs. J. H,Scott Mrs,
 1927,Cardiff Road,4,Corner,S,Craigside,
 1927,Cardiff Road,4,Corner,42-43,,
-1927,Cardiff Road,4,,Corner,Gillard C H.,Gasfitter
+1927,Cardiff Road,4,,Corner,Gillard C H,Gasfitter
 1927,Cardiff Road,5,"J., G.W.R",Hanger,Frederick,
 1927,Cardiff Road,,"J., G.W.R",44,,
 1927,Cardiff Road,,"J., G.W.R",Orler,Phil,tobacconist and confectioner
@@ -212635,7 +212631,7 @@ year,street,house_number,building_name,surname,forename,trade
 1927,Cardiff Road,8,,S. G. Jones Houses Building,,"Stevens Wm., G.W.R. Cartref, asst. Secretary"
 1927,Cardiff Road,,Fach,Alban,Thomas,
 1927,Cardiff Road,,Fach,17,,
-1927,Cardiff Road,,Fach,Nurses',Home,
+1927,Cardiff Road,,Fach,Nurses,Home,
 1927,Cardiff Road,,Fach,Brown,Albt,police
 1927,Cardiff Road,,Hyde,Stanley,Jones,carp
 1927,Cardiff Road,,Hyde,18,,
@@ -212779,12 +212775,12 @@ year,street,house_number,building_name,surname,forename,trade
 1927,CENFED STREET,11,,Evans,Robert. O,G.W.R
 1927,Charles Street,,,Stow-hill The Empire-Moss Empires Ltd,,proprietors
 1927,Charles Street,6,,Fennell,A,hairdresser
-1927,Charles Street,7,,Parkes,W. C,'Douglas' motor cycle depot
+1927,Charles Street,7,,Parkes,W. C,Douglas' motor cycle depot
 1927,Charles Street,8,,Pacello,Mrs. Emily,
 1927,Charles Street,9,,Cafe,Collman's,
 1927,Charles Street,10,,Bird,A. G,house decorator
 1927,Charles Street,,,Seager,H,shop
-1927,Charles Street,11,,Equitable Advance Southern Co Ltd,E.,"R. Axton, manager"
+1927,Charles Street,11,,E Equitable Advance Southern Co Ltd,R.,"Axton, manager"
 1927,Charles Street,,,English,Baptist Church,
 1927,Charles Street,,,Newport,Education Offices-Eaves T. Arth. secretary; Moores G. W,assistant secretary
 1927,Charles Street,,,Juvenile,Employment Department,
@@ -213321,7 +213317,7 @@ year,street,house_number,building_name,surname,forename,trade
 1927,BARNARD TOWN SCHOOL,51,,Mrs. Mary,Fowler,
 1927,BARNARD TOWN SCHOOL,51,,Lynch,J,coal merchant
 1927,BARNARD TOWN SCHOOL,52,,Charles,Morgan,bricklayer
-1927,BARNARD TOWN SCHOOL,52,,BOILERMAKERS',INSTITUTE,
+1927,BARNARD TOWN SCHOOL,52,,BOILERMAKERS,INSTITUTE,
 1927,BARNARD TOWN SCHOOL,53,,Alfred,Fry,labourer
 1927,BARNARD TOWN SCHOOL,53,,Brass Foundry Newport & Coppersmiths' Co. Ltd,,
 1927,BARNARD TOWN SCHOOL,54,,H. E,Banfield,carpenter
@@ -213369,7 +213365,7 @@ year,street,house_number,building_name,surname,forename,trade
 1927,Clarence Place,,,J. E,Kettle,manager
 1927,Clarence Place,,,Seal,Red,Cycle Co
 1927,Clarence Place,28,,R,REES,"and costumier. , draper"
-1927,Clarence Place,,,ladies',Dellas,hairdresser
+1927,Clarence Place,,,ladies,Dellas,hairdresser
 1927,Clarence Place,,,Samuel,Regan,
 1927,Clarence Place,34,,Leather Co. (Langfords),Standard,
 1927,Clarence Place,23,Vacara Bros. timber yard,Vacara,Vacara,"fish bar, fish bar"
@@ -213986,12 +213982,12 @@ year,street,house_number,building_name,surname,forename,trade
 1927,FRANCIS’ DYE WORKS. ESTAB. 1890,"Doody John, steward",,Moxon Witness' room & Petty,,solicitors
 1927,FRANCIS’ DYE WORKS. ESTAB. 1890,"J. H. Pring, secretary","O.B.E., Solicitor",Justices' Clerk's office,Moxon John,
 1927,FRANCIS’ DYE WORKS. ESTAB. 1890,189,Town Hall,and com. for oaths,Carter T. C,keeper
-1927,FRANCIS’ DYE WORKS. ESTAB. 1890,and tobacconist,,First Floor,to Governors of Williams',
+1927,FRANCIS’ DYE WORKS. ESTAB. 1890,and tobacconist,,First Floor,to Governors of Williams,
 1927,FRANCIS’ DYE WORKS. ESTAB. 1890,"Schools, Caerleon",,Assembly,room,
 1927,FRANCIS’ DYE WORKS. ESTAB. 1890,190,,Evans J. Petty Henry John & Co,,"No. 1 Committee Room, outftrs, solicitor"
 1927,FRANCIS’ DYE WORKS. ESTAB. 1890,191,"Jacksons Ltd., hat & boot",India Hunt & Witts & China Tea Co,,"19, Engineer merchants"
 1927,FRANCIS’ DYE WORKS. ESTAB. 1890,"Anstice W. C., dock wrkr",,Britannic Assurance Co. stores Ltd,,
-1927,FRANCIS’ DYE WORKS. ESTAB. 1890,"Claridge Geo., haulier","Superintendent., Ladies'",Dando Miss Isabel,—J. W. Folley,
+1927,FRANCIS’ DYE WORKS. ESTAB. 1890,"Claridge Geo., haulier","Superintendent., Ladies",Dando Miss Isabel,—J. W. Folley,
 1927,FRANCIS’ DYE WORKS. ESTAB. 1890,192,hairdresser,Morris 5 & Co,,"Phillips J. & Son, corn, tobacconist"
 1927,FRANCIS’ DYE WORKS. ESTAB. 1890,193,,and seed merchants,Brash J. R. F,"Duckham Jas. & Sons,, wardrobe"
 1927,FRANCIS’ DYE WORKS. ESTAB. 1890,dealer,,Wernet A. jeweller,6,cattle salesman
@@ -214007,7 +214003,7 @@ year,street,house_number,building_name,surname,forename,trade
 1927,FRANCIS’ DYE WORKS. ESTAB. 1890,tioner,,Port Sanitary office,Ayliffe F. A,dentist
 1927,FRANCIS’ DYE WORKS. ESTAB. 1890,199A,,Liscombe & Dawson,Llewellyn Miss R news,"Food & Drugs Inspector's, soli"
 1927,FRANCIS’ DYE WORKS. ESTAB. 1890,agent and tobacconist,,office,citors,
-1927,FRANCIS’ DYE WORKS. ESTAB. 1890,200,,Newport Ratepayers',Hodges Joseph J,"here is Austin-friars, Salu"
+1927,FRANCIS’ DYE WORKS. ESTAB. 1890,200,,Newport Ratepayers,Hodges Joseph J,"here is Austin-friars, Salu"
 1927,FRANCIS’ DYE WORKS. ESTAB. 1890,tation Hotel,"Midland Bank, Ltd",John Association,,"25-26, Secretary"
 1927,FRANCIS’ DYE WORKS. ESTAB. 1890,Benner,,(Metropolitan Bank Brch),,
 1927,Commercial Street,mercial-road,,Metropolitan Bank,Ayliffe C. M. F.S.A.A,in
@@ -214046,7 +214042,7 @@ year,street,house_number,building_name,surname,forename,trade
 1927,FRANCIS' DYE WORKS. ESTAB. 1890,76,"Brooks Ltd., dry cleaners and dyers",Brooks Ltd,,and dyers
 1927,FRANCIS' DYE WORKS. ESTAB. 1890,76a,"Bartlett Mrs. M. M., hair-dresser",Bartlett Mrs,M. M,hair-dresser
 1927,FRANCIS' DYE WORKS. ESTAB. 1890,77,,"Sewell Sewell & Co., plumbers, electrical engineers & Co",,Plumbers
-1927,FRANCIS' DYE WORKS. ESTAB. 1890,78,Odafjellows' Arms,Odafjellows','Arms,here is Palmyra-place
+1927,FRANCIS' DYE WORKS. ESTAB. 1890,78,Odafjellows' Arms,Odafjellows Arms,,here is Palmyra-place
 1927,FRANCIS' DYE WORKS. ESTAB. 1890,,"Adams J. H., china dealer",J. H,Adams,china dealer
 1927,FRANCIS' DYE WORKS. ESTAB. 1890,,"Stokes Vera, ladies' outfitting",Stokes,Vera,ladies' outfitting
 1927,FRANCIS' DYE WORKS. ESTAB. 1890,,"Guy T. & Co., dairy",T. Guy & Co,,dairy
@@ -214118,7 +214114,7 @@ year,street,house_number,building_name,surname,forename,trade
 1927,FRANCIS' DYE WORKS. ESTAB. 1890,149-50-51,"Reynolds & Co., Ltd. drapers, milliners, fancy warehouseman & house furnishers",Reynolds & Co,,"drapers, milliners, fancy warehouseman & house furnishers, Ltd"
 1927,FRANCIS' DYE WORKS. ESTAB. 1890,152,"Millett E. G., govt. sur-plus stores",G,Millett E,govt. sur
 1927,FRANCIS' DYE WORKS. ESTAB. 1890,,,plus stores,plus stores,
-1927,FRANCIS' DYE WORKS. ESTAB. 1890,153,Rivlins' Stores here is McCarthy's Court,Stores,Rivlins',here is McCarthy's Court
+1927,FRANCIS' DYE WORKS. ESTAB. 1890,153,Rivlins' Stores here is McCarthy's Court,Stores,Rivlins,here is McCarthy's Court
 1927,FRANCIS' DYE WORKS. ESTAB. 1890,154,Handford,J. P Handford J. P. Ltd. shipping & gen. ironmongers,,
 1927,FRANCIS' DYE WORKS. ESTAB. 1890,155-6,"Woolworth F. W. Co., Ltd., bazaar",F. W,Woolworth,"Co., Ltd., bazaar"
 1927,FRANCIS' DYE WORKS. ESTAB. 1890,156aDavies,,Buildings),(Wesley,"Davies (Wesley Buildings) Ltd., drapers, milliners &"
@@ -214189,7 +214185,7 @@ year,street,house_number,building_name,surname,forename,trade
 1927,FRANCIS' DYE WORKS. ESTAB. 1890,,F. J. mantle,Beck,,G.W.R
 1927,FRANCIS' DYE WORKS. ESTAB. 1890,29,Viner,Warehouse Co,,
 1927,FRANCIS' DYE WORKS. ESTAB. 1890,,Viner,William,,"R., G.W.R"
-1927,FRANCIS' DYE WORKS. ESTAB. 1890,,Wiltshire,manufacturers,Pearson T. W D J.,G.W.R
+1927,FRANCIS' DYE WORKS. ESTAB. 1890,,Wiltshire,manufacturers,Pearson T. W D J,G.W.R
 1927,FRANCIS' DYE WORKS. ESTAB. 1890,,Ltd. boot,175,Williams W. Henry,
 1927,FRANCIS' DYE WORKS. ESTAB. 1890,,Ltd. boot,33,,
 1927,FRANCIS' DYE WORKS. ESTAB. 1890,,Ltd. boot,Gregory,Arch,
@@ -214226,7 +214222,7 @@ year,street,house_number,building_name,surname,forename,trade
 1927,FRANCIS' DYE WORKS. ESTAB. 1890,,"Denis, hoistman",Davies,Alfred,
 1927,FRANCIS' DYE WORKS. ESTAB. 1890,,"Denis, hoistman",postman,,
 1927,FRANCIS' DYE WORKS. ESTAB. 1890,,,444,,
-1927,FRANCIS' DYE WORKS. ESTAB. 1890,,,FRANCIS',DYE WORKS 26 CHURCH ROAD,MAINDEE. ESTAB. 1890
+1927,FRANCIS' DYE WORKS. ESTAB. 1890,,,FRANCIS,DYE WORKS 26 CHURCH ROAD,MAINDEE. ESTAB. 1890
 1927,FRANCIS' DYE WORKS. ESTAB. 1890,48-68,,Townsend,Thomas. L,fitter
 1927,FRANCIS' DYE WORKS. ESTAB. 1890,46-70,,Evans,Albert Jas,baker
 1927,FRANCIS' DYE WORKS. ESTAB. 1890,44-72,,Parsons,C. F,carpenter
@@ -214837,7 +214833,7 @@ year,street,house_number,building_name,surname,forename,trade
 1927,Crescent Road,48,,Ricks,Ricks Edgar V,"polisher, polisher"
 1927,Coverack Road,,,Corporation-road,to Riverside,
 1927,Coverack Road,2,,Richards,John,"shearer, shearer"
-1927,Coverack Road,3,Richards Harry,Ironworker,Ironworker,
+1927,Coverack Road,3,,Richards Harry,Ironworker,ironworker
 1927,Coverack Road,4,,Isitt,Lemuel,clerk
 1927,Coverack Road,6,,Sargent,William,labourer
 1927,Coverack Road,,,Parsons,William. Hy,w'tchm
@@ -214847,7 +214843,7 @@ year,street,house_number,building_name,surname,forename,trade
 1927,Coverack Road,14,,Rice,Edwin J,ironworker
 1927,Coverack Road,16,,Griffiths,Mrs. Prudence,
 1927,Coverack Road,18,,Gabica,Gabica Joseph,
-1927,Coverack Road,20,Asquith Arthur,Ironworker,Ironworker,
+1927,Coverack Road,20,,Asquith Arthur,Ironworker,ironworker
 1927,Coverack Road,22,,England,Albert,"baker, baker"
 1927,Coverack Road,24,,Sadler,Sadler William,
 1927,Coverack Road,,Vacant Site,,,
@@ -215122,7 +215118,7 @@ year,street,house_number,building_name,surname,forename,trade
 1927,Devon Place,29,,Woodroffe,Sam,G.W.R
 1927,Devon Place,30,,Davies,Arthur E,G.W.R
 1927,Devon Place,31,,Kibblewhite,John,guard
-1927,Devon Place,32,Lewis William,William,Engine Driver,
+1927,Devon Place,32,,Lewis William,William,engine driver
 1927,Devon Place,33,,Cawthorne,R. G,G.W.R
 1927,Devon Place,34,,Lewis,Joseph,G.W.R
 1927,Devon Place,35,,Breillat,Miss,registry office
@@ -215431,7 +215427,7 @@ year,street,house_number,building_name,surname,forename,trade
 1927,Dewstow Street,The West side is used for dis,—,—,,
 1927,Dewstow Street,"charging cargoes, loading","Matthews W. & Son, scale",Newport District Board,—,—
 1927,Dewstow Street,"charging cargoes, loading","Matthews W. & Son, scale",—,,
-1927,Dewstow Street,"iron, etc.",makers,South Wales Coalowners',—,—
+1927,Dewstow Street,"iron, etc.",makers,South Wales Coalowners,—,—
 1927,Dewstow Street,"iron, etc.",makers,—,,
 1927,Dewstow Street,DOC-51,,Tanner Fredk. J secretary,—,
 1927,Dewstow Street,DOC,Tanner Fredk. J,DOC,,
@@ -215503,13 +215499,13 @@ year,street,house_number,building_name,surname,forename,trade
 1927,Corporation Yard,Black Vein Steam Coal,,Stevenson George. A. (ship'g) Ltd,,
 1927,Corporation Yard,Bull Geo. B.,,Rutland Trading Co Ltd,,
 1927,Corporation Yard,Heslop & Son,,H. Maclaine & Co. (London) Ltd,,
-1927,Corporation Yard,eng'r & marine survy'rs,Australian Commonwealth Line of Steamers,Tovey Bros.',67,works and
+1927,Corporation Yard,eng'r & marine survy'rs,Australian Commonwealth Line of Steamers,Tovey Bros,67,works and
 1927,Corporation Yard,Central mews,,Daniel D. M. & Co,,"shipbrokers, Ltd"
 1927,Corporation Yard,69,shipbrokers,78,Thompson G. Rudd,"Daniel D. M. & Co., Ltd.,, public"
 1927,Corporation Yard,analyst for Monmouth,Pollex Fen And,Morison,,
 1927,Corporation Yard,shire and County Boro,,Blair Ltd,,
 1927,Corporation Yard,of Newport,,Sheean Evans & Co Ltd,,
-1927,Corporation Yard,Thompson G. Rudd and,Clearing-house,Employers',,
+1927,Corporation Yard,Thompson G. Rudd and,Clearing-house,Employers,,
 1927,Corporation Yard,"Partners, Ltd.","Mon., Ship",(Newport,,
 1927,Corporation Yard,69,,Blow William. coal & Co,,owners' Association)—
 1927,Corporation Yard,exporters & merchants,,John,Cole,secretary
@@ -215578,7 +215574,7 @@ year,street,house_number,building_name,surname,forename,trade
 1927,Corporation Yard,,,G Hinde W. E. & Co,,"Treverton Jones, colliery proprietors, shipowners, etc"
 1927,Corporation Yard,,,Harbour Newport Commissioners' offices—A. J. Phillips,,clerk
 1927,Corporation Yard,,,114,G.W.R. offices—James W. George,"Goss O. & Co., Ltd., shipchandlers and bonded store merchants, depot master"
-1927,Corporation Yard,,,Engineers',Dept.—W. Rhys Williams,engineer
+1927,Corporation Yard,,,Engineers,Dept.—W. Rhys Williams,engineer
 1927,Corporation Yard,,,,Town Dock Office,Bonded Stores (25)
 1927,Corporation Yard,,,Capt,R. B. Pugsley,harbour master
 1927,Corporation Yard,125,Vulcan Hotel,Crumlin Valley 115 Coll'y Ltd,,Harbottle Mrs. E. E
@@ -215964,7 +215960,7 @@ year,street,house_number,building_name,surname,forename,trade
 1927,Duckpool Road,14-110,,Francis,James,G.W.R
 1927,Duckpool Road,14-110,,Williams,,
 1927,Duckpool Road,14-110,,Mrs,Martha,
-1927,Duckpool Road,111,James,MEETING,CHRISTIANS',
+1927,Duckpool Road,111,James,MEETING,CHRISTIANS,
 1927,Duckpool Road,,James,Arthur,,
 1927,Duckpool Road,,James,Leonard,,
 1927,Duckpool Road,,Gething,Room J,Arthur,
@@ -215977,7 +215973,7 @@ year,street,house_number,building_name,surname,forename,trade
 1927,Duckpool Road,18,iworker,Edmond,Perry J,
 1927,Duckpool Road,18,iworker,and,Fairoak-avenue,
 1927,Duckpool Road,19-115,,J,Davies,furnaceman
-1927,Duckpool Road,19-115,,Houghton,J H.,& Son
+1927,Duckpool Road,19-115,,Houghton,J H,& Son
 1927,Duckpool Road,19a,tailors and outfitters,Mrs. Lucy,Gabb,
 1927,Duckpool Road,20-116,,Frank,Martin,baker
 1927,Duckpool Road,20-116,,Houghton,J. E,
@@ -216033,7 +216029,7 @@ year,street,house_number,building_name,surname,forename,trade
 1927,Duckpool Road,134,,Bell,William,fitter
 1927,Duckpool Road,135,,Martin,Miss Emily,
 1927,Duckpool Road,136,,Bruce,William,shop
-1927,Duckpool Road,137,,Clements,H,'Oddfellows'
+1927,Duckpool Road,137,Oddfellows,Clements,H,
 1927,Duckpool Road,138,The Star,Fowler,William,
 1927,Duckpool Road,139,,George,Mrs,nurseryman
 1927,Duckpool Road,139A,,garage,Parker,
@@ -217994,12 +217990,12 @@ year,street,house_number,building_name,surname,forename,trade
 1927,35-35A,,,T. H,Pulsford,"Ministry of Pensions (Monmouth area Medical section), credit dpr and boot factor (12)"
 1927,35-35A,,,T. O,Mahoney,"Welsh National Board of Health—Silas Williams, inspector, educatnlst"
 1927,35-35A,,,Pumprurettes Inspector of Factories—Andrew Fotheringham Ltd,,pump manufacturers (28)
-1927,35-35A,59,,C Newport Keene & South Wales Wine & Spirit Co. Ltd,E.,"& Co., tobacconists"
+1927,35-35A,59,,E C Newport Keene & South Wales Wine & Spirit Co. Ltd,,"& Co., tobacconists"
 1927,35-35A,59,,Cordy,Secretary’s office (2),"Henry & Son, gentlemen’s outfitter, hatter and hosier"
 1927,35-35A,,,60-1-2 GENERAL POST OFFICE,Third Floor,
 1927,35-35A,,CORN EXCHANGE,F. J,Kimpton,"44, tailor, complete school & sports outfitter, sole maker of the famous ‘Tupants’ suits. ‘; also Newport Arcade"
 1927,35-35A,,,EXCHANGE CHAMBERS—,NEWPORT ARCADE,
-1927,35-35A,,,Rees,NEWPORT ARCADE W G.,& Sons
+1927,35-35A,,,Rees,NEWPORT ARCADE W G,& Sons
 1927,35-35A,,Blethyn T. C.E,L. R,Crouch,
 1927,35-35A,,"Harry, solicitor",Howells Ltd,,
 1927,35-35A,,"Robathan, Thompson & Co., chart accounts",Trueform Boot Co. 46 Ltd,,
@@ -218038,9 +218034,9 @@ year,street,house_number,building_name,surname,forename,trade
 1927,35-35A,,,C. V. Benson,,proprietor
 1927,35-35A,68,,Price,L,"& A., milliners"
 1927,35-35A,,,Redshaws’ Ltd,,"69, specialist in millinery, blouses, gowns, and corsets"
-1927,35-35A,,,Keene,C E.,"& Co., tobcnst"
+1927,35-35A,,,Keene,C E,"& Co., tobcnst"
 1927,35-35A,,,IMPERIAL CHAMBERS—(First Floor),,
-1927,35-35A,,,Robjent,F P.,& Co. stock and share brokers
+1927,35-35A,,,Robjent,F P,& Co. stock and share brokers
 1927,35-35A,,,(Second Floor),,
 1927,35-35A,481,,Parsons,,"& Jolliffe, chartered accountants"
 1927,35-35A,,,Telephone,,()
@@ -218971,7 +218967,7 @@ year,street,house_number,building_name,surname,forename,trade
 1927,Liverpool Street,,dvr,Robin,Hood,
 1927,Liverpool Street,2-4,,William,Insull,bricklayer
 1927,Liverpool Street,2-4,,Lewis,,hairdresser
-1927,Liverpool Street,,Industrial,5-6 Co,,operative
+1927,Liverpool Street,5-6,Industrial,Co,,operative
 1927,Livingstone Place,1,,Geo. Hy,Morgan,clerk
 1927,Livingstone Place,2-10,,Albert,Colwell Thomas,
 1927,Livingstone Place,2-10,,Tothill,,
@@ -219081,7 +219077,7 @@ year,street,house_number,building_name,surname,forename,trade
 1927,LLANTHWEY ROAD,22,Wye-cliffe,Mrs. W. J,Simpson,
 1927,LLANTHWEY ROAD,24,Dun-kerry,Montague E,Jacobs,
 1927,LLANTHWEY ROAD,26,,Ernest G,Jones,Lifford med Electrician and masseur
-1927,LLANTHWEY ROAD,28,Hillsboro',R. A,Haggett,
+1927,LLANTHWEY ROAD,28,Hillsboro,R. A,Haggett,
 1927,LLANTHWEY ROAD,30,Hillside,C. V,Southey,traveller
 1927,LLANTHWEY ROAD,32,Homevale,A. R,Bezant,
 1927,LLANTHWEY ROAD,36,Wyvenhoe,W. J,Traylor,
@@ -219149,7 +219145,7 @@ year,street,house_number,building_name,surname,forename,trade
 1927,Lliswerry Road,–,Clovelly,Hughes,Richard,
 1927,Lliswerry Road,–,,Weson,Reginald,coal merch't
 1927,Lliswerry Road,–,The Retreat,Harris Carey,M,
-1927,Lliswerry Road,–,,Robertson,William. C G.W.R. Cefn,Bryn
+1927,Lliswerry Road,–,Bryn,Robertson,William. C G.W.R. Cefn,
 1927,Lliswerry Road,–,,Haines,H,"welder, The"
 1927,Lliswerry Road,–,Berry Wm. H A,Ironworker,Cartref,
 1927,Lliswerry Road,–,,Thomas,David J,traveller
@@ -219173,7 +219169,7 @@ year,street,house_number,building_name,surname,forename,trade
 1927,Lliswerry Road,–,,Beck Geo. H,George. H,fruiterer
 1927,Lliswerry Road,–,,Pitt John,John,"foreman, Littleburn, foreman"
 1927,Lliswerry Road,–,Cananahine,Macleod John A,A,
-1927,Lliswerry Road,–,,Jones W,W G.W.R. Plas,Bryn
+1927,Lliswerry Road,–,Bryn,Jones W,W G.W.R. Plas,
 1927,Lliswerry Road,–,Freystrop,Vaughan Lewis L,Lewis L,
 1927,Lliswerry Road,–,Wren's Nest,Green Thos,Thomas,
 1927,Lliswerry Road,–,Compton Ho,Noakes Harry,Harry,
@@ -219824,7 +219820,7 @@ year,street,house_number,building_name,surname,forename,trade
 1927,Market Street,60,,Turner,Ivor J,
 1927,Marlborough Road,1,,52,Weeks Shadrach,Pratt Miss B. W
 1927,Marlborough Road,1,,Roberts,William. platepayer,
-1927,Marlborough Road,3,Void,R,Phillips,"50, Marlboro'"
+1927,Marlborough Road,3,Void,R,Phillips,"50, Marlboro"
 1927,Marlborough Road,3,Void,3,,
 1927,Marlborough Road,3,Void,Kersley,Edwrd. ironwkr,
 1927,Marlborough Road,house-5,,Small Chas. H. Mason Williams Mrs. F. A,48,
@@ -219910,7 +219906,7 @@ year,street,house_number,building_name,surname,forename,trade
 1927,Mendalgief Road,14,,J. G,Witheridge,boatmn
 1927,Mendalgief Road,16,trimmer,Bernard,Dunn G,
 1927,Mendalgief Road,16,trimmer,Harding,,
-1927,Mendalgief Road,16,trimmer,Misses,B O.,& B
+1927,Mendalgief Road,16,trimmer,Misses,B O,& B
 1927,Mendalgief Road,18,labourer,Jno,Jones Hy,
 1927,Mendalgief Road,18,labourer,Thorn,,
 1927,Mendalgief Road,18,labourer,Edwin,,fitter
@@ -220033,7 +220029,7 @@ year,street,house_number,building_name,surname,forename,trade
 1927,METHUFN ROAD,9,baker,George,Cann Henry,
 1927,METHUFN ROAD,10,scavger,John,Kettle H,
 1927,METHUFN ROAD,10,scavger,Harding,,
-1927,METHUFN ROAD,10,scavger,Misses,B O.,& B
+1927,METHUFN ROAD,10,scavger,Misses,B O,& B
 1927,METHUFN ROAD,11,,Daniel,Maynard,labourer
 1927,METHUFN ROAD,11,,Thorn,,
 1927,METHUFN ROAD,11,,Edwin,,fitter
@@ -221148,7 +221144,7 @@ year,street,house_number,building_name,surname,forename,trade
 1927,Pottery Road,Thomas,,grocer,W. J,here is Jeddo-street
 1927,Pottery Road,22,,bakehouse,Hockey's,
 1927,Pottery Road,23,,Mrs. A,Burton,here is Marion-street
-1927,Pottery Road,24,,Hall,Dockers',
+1927,Pottery Road,24,,Hall,Dockers,
 1927,Pottery Road,15,NaN,Carlyle,Frederic,inspector
 1927,Pottery Road,15,NaN,NaN,,
 1927,Pottery Road,17,NaN,Bywater,Frederick,
@@ -221881,7 +221877,7 @@ year,street,house_number,building_name,surname,forename,trade
 1927,Risca Road,,,THE,CEMETERY,
 1927,Risca Road,,Ceme,Wm,Underwood,
 1927,Risca Road,,,tery,lodge,
-1927,Risca Road,,,Jews',Cemetery,
+1927,Risca Road,,,Jews,Cemetery,
 1927,Risca Road,,,Melyn,Coed,recreation
 1927,Risca Road,,,ground,,
 1927,Risca Road,,Nant,Mrs. Annie,Angove,
@@ -222046,7 +222042,7 @@ year,street,house_number,building_name,surname,forename,trade
 1927,Risca Road,22,,Godfrey T,Sewell,boot rp
 1927,Risca Road,20,,Thomas,Dixon,
 1927,Risca Road,16,,E. greengrocer,Bown,
-1927,Risca Road,14,,A,Poole W H.,"& Sons, butchers"
+1927,Risca Road,14,,A,Poole W H,"& Sons, butchers"
 1927,Risca Road,,,Brown,Frederick,
 1927,Risca Road,12,Risca Cot,Anne,Morgan,
 1927,Risca Road,10,,P. W,Bown,sanit Engineer
@@ -222062,7 +222058,7 @@ year,street,house_number,building_name,surname,forename,trade
 1927,River Banks,,,Carne,,"A., marine store dealer"
 1927,River Banks,,,Ebbw,,"Vale Steel, Iron, and Coal Co.'s Ebbw Vale wharf"
 1927,River Banks,RIV,,RIV,NEWPORT STREET DIRECTORY,
-1927,River Banks,"Powell's Town wharf.—Budd & Davies Geo. H., labourer",Cork wharf.—Braithwaite & Co,Engineers Ltd,J.,"N. Hinton, manager"
+1927,River Banks,"Powell's Town wharf.—Budd & Davies Geo. H., labourer",Cork wharf.—Braithwaite & Co,J Engineers Ltd,N.,"Hinton, manager"
 1927,River Banks,Co. colliery proprietors,,Gittins James,Powell Mrs. A,
 1927,River Banks,"Haggerty Wm., wagon repr",,Kelland G Mersey Insulation Co,,"platelayer, Ltd., ship repairers, etc"
 1927,River Banks,Pontypool whrf.—E. Vale Co,,G.W.R. ALEXANDRA DOCKS—,Phillips Ernest,
@@ -223334,11 +223330,11 @@ year,street,house_number,building_name,surname,forename,trade
 1927,Skinner Street,3,Ltd,Albert,Lonnon,"Co. (1919), Ltd"
 1927,Skinner Street,tailors,,Moseley's,27,gramophone
 1927,Skinner Street,4,,dealers,Employers' Liability,
-1927,Skinner Street,"Assurance Corp'tn, Ltd.-28",,Lovell,G F.,"& Co., Ltd"
+1927,Skinner Street,"Assurance Corp'tn, Ltd.-28",,Lovell,G F,"& Co., Ltd"
 1927,Skinner Street,R. C. Hudson,,confectioners,res. inspt,
 1927,Skinner Street,5,Cinema Theatre,prov. stores,Hampton,
 1927,Skinner Street,6-29,,Rennie Taylor & Co,,
-1927,Skinner Street,6-29,,Lovell,G F.,"& Co., Ltd"
+1927,Skinner Street,6-29,,Lovell,G F,"& Co., Ltd"
 1927,F,Ltd.,,Commercial-street,,
 1927,F,7,SLADE STREET,E. J. & Son,Abel,piano
 1927,F,7,SLADE STREET,E,3,
@@ -224271,7 +224267,7 @@ year,street,house_number,building_name,surname,forename,trade
 1927,Stow Park Avenue,15,"D.L., Elmscott",W. Lyndon,Moore,
 1927,Stow Park Avenue,17,St. Quentin,George B,Bailey,
 1927,Stow Park Avenue,19,,Col. John,Evans,Grouville JP St. Helens
-1927,Stow Park Avenue,21,,T. H,Howell JP Cader,Idris
+1927,Stow Park Avenue,21,Idris,T. H,Howell JP Cader,
 1927,Stow Park Avenue,23,Wnystay,Mrs. Gwendoline H,Jones,
 1927,Stow Park Avenue,25,Boverton,Frederic,Wilkes,
 1927,Stow Park Avenue,27,,Reginald C,Banks,
@@ -227829,7 +227825,7 @@ year,street,house_number,building_name,surname,forename,trade
 1936,Arthur Street,35,,Wilson,William E,Carpenter
 1936,Artillery Place,,,Ltd,,
 1936,Artillery Place,,,London,Wharf,
-1936,Artillery Place,,,Builders',merchants,
+1936,Artillery Place,,,Builders,merchants,
 1936,Artillery Place,,,Ltd,,
 1936,Artillery Place,,,B,W. Stream,agent
 1936,Artillery Place,,,,,Harbour Commissioners' landing stage
@@ -229396,12 +229392,12 @@ year,street,house_number,building_name,surname,forename,trade
 1936,Bridge Street,,Gamesons,,,
 1936,Bridge Street,,,Hairdressing,saloon,
 1936,Bridge Street,48,Ltd,Shepherd,M,
-1936,Bridge Street,48,Ltd,Decorators',merchants,
+1936,Bridge Street,48,Ltd,Decorators,merchants,
 1936,Bridge Street,49,,Courtney,James,Newsagent
 1936,Bridge Street,50,Void,,,
 1936,Bridge Street,51,,New Bridge Inn,,
 1936,Bridge Street,51,,Albert,J. Arundell,manager
-1936,Bridge Street,52,,F Western Mail and Echo Ltd,G.,Snook manager
+1936,Bridge Street,52,,G F Western Mail and Echo Ltd,,Snook manager
 1936,Bridge Street,53,Cake Shop,Jacklyn,A,
 1936,Bridge Street,54,Chemist,Treharne,Howell,
 1936,Bridge Street,54,,dispensing High-class & family,,
@@ -229438,7 +229434,7 @@ year,street,house_number,building_name,surname,forename,trade
 1936,Bridge Street,,,Brangham,Mrs. L,
 1936,Bridge Street,75,Jeweller,Ince,C,
 1936,Bridge Street,76,Void,,,
-1936,Bridge Street,,,,G F.,& Co. Ltd
+1936,Bridge Street,,,,G F,& Co. Ltd
 1936,Bridge Street,,,Confectioners,,
 1936,Bridge Street,77,Void,,,
 1936,Bridge Street,78,Incorporated accountants,Kimpton Holland & Co,,
@@ -231389,7 +231385,7 @@ year,street,house_number,building_name,surname,forename,trade
 1936,Cardiff Road,,,Roberts,Mrs. Hilda,Stores
 1936,Cardiff Road,,Hairdressing Saloon,Bailey,Mrs. C. E,
 1936,Cardiff Road,,The Bon,,,
-1936,Cardiff Road,,,Ladies',outfitters,
+1936,Cardiff Road,,,Ladies,outfitters,
 1936,Cardiff Road,,,Cahalane,J,Greengrocer
 1936,Cardiff Road,,M.P.S. Chemist,Lidgett,G. W,
 1936,Cardiff Road,,,Thomas,K,Milliner & Draper
@@ -231510,7 +231506,7 @@ year,street,house_number,building_name,surname,forename,trade
 1936,Cardiff Road,,B.Sc. L.C.P. Principal,Jones,W. J. Hamilton,
 1936,Cardiff Road,,Gwent Coll. Lodge,Wilkinson,Mrs. M,
 1936,Cardiff Road,,,Jones,Stanley,Carpenter Hyde
-1936,Cardiff Road,,,Sweeney,F. E,G.W.R. Marlboro'
+1936,Cardiff Road,,,Sweeney,F. E,G.W.R. Marlboro
 1936,Cardiff Road,,,Betterton,Stanley F. J,G.W.R. Hazeldene
 1936,Cardiff Road,,Rosedale,Harris,Frederick,
 1936,Cardiff Road,,Chef Malta,Buttigieg,Lawrence,
@@ -231553,7 +231549,7 @@ year,street,house_number,building_name,surname,forename,trade
 1936,Cardiff Road,,Clytha house,Morgan,Cecil,
 1936,Cardiff Road,,,entrance to Clytha-square,,
 1936,Cardiff Road,23,Dentist,Hazell,W. S,
-1936,Cardiff Road,24,,Courtybella Works Inst,— F J.,Bader secretary
+1936,Cardiff Road,24,,Courtybella Works Inst,— F J,Bader secretary
 1936,Cardiff Road,25,,E. Davies & Son,,Plasterers
 1936,Cardiff Road,26,,E. Harding & B,,Tobacco and Confectioners
 1936,Cardiff Road,27-28,,Gibb,Stanley,Fruiterer
@@ -232360,7 +232356,7 @@ year,street,house_number,building_name,surname,forename,trade
 1936,Church Street,12,,O'Connell,John,Trimmer
 1936,Church Street,13,,Lynch,J,Coal Merchant
 1936,Church Street,,BOILERMAKERS' INSTITUTE,,,
-1936,Church Street,,INSTITUTE,BOILERMAKERS',INSTITUTE,
+1936,Church Street,,INSTITUTE,BOILERMAKERS,INSTITUTE,
 1936,Church Street,14,,Cooper,Edward,Seaman
 1936,Church Street,15,,Desmond,Mrs. Mary,
 1936,Church Street,16,Tipper,Andrews,Ivor J,
@@ -232689,7 +232685,7 @@ year,street,house_number,building_name,surname,forename,trade
 1936,Clytha Park Road,2-2a,Tobacconist,Cocker,R,
 1936,Clytha Park Road,3,Void,,,
 1936,Clytha Park Road,4,Chemists,Bannister & Thatcher Ltd,,
-1936,Clytha Park Road,5,,Direct Farm Supply,— G E.,Waters / Everson Ivor clerk
+1936,Clytha Park Road,5,,Direct Farm Supply,— G E,Waters / Everson Ivor clerk
 1936,Clytha Park Road,6,Saunders E. I,Saunders,E. I,
 1936,Clytha Park Road,7,,Wardley,Harold... J,hairdresser
 1936,Clytha Park Road,,,Telephone Kiosk,,
@@ -232759,7 +232755,7 @@ year,street,house_number,building_name,surname,forename,trade
 1936,Clytha Square,9,,West,Walton,
 1936,Clytha Square,10,Void,,规律,
 1936,Clytha Square,11,,Richardson,Mrs. E,
-1936,Clytha Square,12,(Royal Gwent Hospital)—Richmond house,Nurses',Home,
+1936,Clytha Square,12,(Royal Gwent Hospital)—Richmond house,Nurses,Home,
 1936,Clytha Square,13,,Wolfson,I.L,
 1936,Clytha Square,13,,The,Channings,
 1936,Clytha Square,14,,Pitchford,J.B,
@@ -234316,7 +234312,7 @@ year,street,house_number,building_name,surname,forename,trade
 1936,Depot Street,1,,Rossitter,Mrs. Margaret,
 1936,Depot Street,2,Wall Papers Salon,Trace,Mrs. E. M,
 1936,Depot Street,3,,Smith,John H,dairyman
-1936,Depot Street,4,,Woodside Daries,J L.,Farmer manager
+1936,Depot Street,4,,Woodside Daries,J L,Farmer manager
 1936,Depot Street,5,Watchman,Spencer,Thomas,
 1936,Depot Street,,Country Women's Market,,,
 1936,Depot Street,,,(Fridays),,
@@ -234609,7 +234605,7 @@ year,street,house_number,building_name,surname,forename,trade
 1936,Dock Road,8,,Witt,Alfred,
 1936,Dock Road,9,,Jones,F,
 1936,Dock Road,28,,Holtham,Bert,Newport Enamel Slate Co. (1910) Ltd
-1936,Dock Road,,,,W A.,& Co. (1910) Ltd
+1936,Dock Road,,,,W A,& Co. (1910) Ltd
 1936,Dock Road,,,Westgate,foundries and iron works,
 1936,Dock Road,,,,T,Spittle Ltd
 1936,Dock Road,,Rhymney Wharf—void,,,
@@ -234777,7 +234773,7 @@ year,street,house_number,building_name,surname,forename,trade
 1936,Dock Street,80,,Railway Hotel,,
 1936,Dock Street,80,,Wallace,J. Riley,
 1936,Dock Street,81,Void,,,
-1936,Dock Street,82,,G.W.R. Goods Depot,L M.,& S. do
+1936,Dock Street,82,,G.W.R. Goods Depot,L M,& S. do
 1936,Dock Street,,,,,Road to Town Dock
 1936,Dock Street,83,,Thomas' Patent Metallic Packing Co,,
 1936,Dock Street,84,Void,,,
@@ -234911,7 +234907,7 @@ year,street,house_number,building_name,surname,forename,trade
 1936,Dock Street,129,,Butt,Mrs. Emily,
 1936,Dock Street,129,,caretkr,,
 1936,Dock Street,129,,Postle,Noah,
-1936,Dock Street,130,,Newport Coal and Fuel Supplies,C A.,Carter agent
+1936,Dock Street,130,,Newport Coal and Fuel Supplies,C A,Carter agent
 1936,Dock Street,,,Ltd Ocean Oil Co,,
 1936,Dock Street,,,Howells,————,
 1936,Dock Street,,,Lumbard,J. H,Printer & paper merchant
@@ -237758,7 +237754,7 @@ year,street,house_number,building_name,surname,forename,trade
 1936,Gold Tops,22,Coedrath,Tennyson-Evans,A,
 1936,Gold Tops,23,Brynaur Villa,Thomas,Ernest E,
 1936,Gold Tops,24,,Pagefield College,,Principal: Dr. Harold F. Reeve LL.D
-1936,Gold Tops,,,Tredegar Estate Offices—,J I.,Storrar agent (town estate) / L. Foster Stedman agent (agricultural estate) / J. F. Groves architect / P. R. W. Perry account't / Percival Bundock caretaker
+1936,Gold Tops,,,Tredegar Estate Offices—,J I,Storrar agent (town estate) / L. Foster Stedman agent (agricultural estate) / J. F. Groves architect / P. R. W. Perry account't / Percival Bundock caretaker
 1936,Gold Tops,,,Public telephone kiosk,,
 1936,Goodrich Crescent,,,,,(FORMERLY ROSS AND GOODRICH STREETS)
 1936,Goodrich Crescent,,,,,From 43 Malpas-road
@@ -238754,7 +238750,7 @@ year,street,house_number,building_name,surname,forename,trade
 1936,Harrow Road,37,Ryecroft,Thomas,Mrs. E,
 1936,Harrow Road,39,Thomas,Johnson,William,
 1936,Harrow Road,41,,Davies,Mrs. L,
-1936,Harrow Road,43,,T United Yeast Co,J.,Gimblett manager Harrow Road Garage
+1936,Harrow Road,43,,J T United Yeast Co,,Gimblett manager Harrow Road Garage
 1936,Havelock Street,1,,Leyshon,Mrs. Annie,
 1936,Havelock Street,2,,Patterson,Charles,Fitter
 1936,Havelock Street,3,,Gay,Miss Isabel,
@@ -239442,7 +239438,7 @@ year,street,house_number,building_name,surname,forename,trade
 1936,35-35A,,,,,Pegler's Stores Ltd
 1936,35-35A,,,Provision,merchants,
 1936,35-35A,,Marcya,,,
-1936,35-35A,,,Ladies',hairdresser,
+1936,35-35A,,,Ladies,hairdresser,
 1936,35-35A,39-40,,Masters & Co. (Clothiers) Ltd,,
 1936,35-35A,39-40,,Fleur,Madame phrenolgst,
 1936,35-35A,39-40,,Don,Rae photo studio,
@@ -239465,7 +239461,7 @@ year,street,house_number,building_name,surname,forename,trade
 1936,35-35A,,corporate accountant / Caldwell H,Williams,T. B. paper mer,
 1936,35-35A,,corporate accountant / Caldwell H,Paper Mills Baltic Co. (14),,Newport Chamber of Commerce—Pugh A. E
 1936,35-35A,,corporate accountant / Caldwell H,sec,(12),
-1936,35-35A,,corporate accountant / Caldwell H,manufacturers',agent (6),
+1936,35-35A,,corporate accountant / Caldwell H,manufacturers,agent (6),
 1936,35-35A,,,Third Floor — Coles Mrs. M. A. caretkr,,
 1936,35-35A,44,,Kimpton,F. J,Tailor complete school & sports outfitter
 1936,35-35A,44,,sole,maker of the famous 'Tupants' suits. '; also Newport Arcade,
@@ -239490,7 +239486,7 @@ year,street,house_number,building_name,surname,forename,trade
 1936,35-35A,53,Murenger House,Fullerton,A. E,
 1936,35-35A,53,,Confectioner And Restaurant,,
 1936,35-35A,54,C. S. Plummer,Tredegar Arms Hotel,— R,
-1936,35-35A,55,,Lloyds Bank (High street branch),— H W.,Iles manager
+1936,35-35A,55,,Lloyds Bank (High street branch),— H W,Iles manager
 1936,35-35A,,,,Railway,station approach
 1936,35-35A,,,F P.  & Co,,
 1936,35-35A,,,Stockbrokers,,
@@ -241147,7 +241143,7 @@ year,street,house_number,building_name,surname,forename,trade
 1936,Llanthewy Road,24,Dunkerry,Jacobs,Montague E,
 1936,Llanthewy Road,26,,Jones,Ernest G,Medical Electrician and Masseur
 1936,Llanthewy Road,26,,Lifford,,
-1936,Llanthewy Road,28,Hillsboro',Haggett,R. A,
+1936,Llanthewy Road,28,Hillsboro,Haggett,R. A,
 1936,Llanthewy Road,30,Void,,,
 1936,Llanthewy Road,32,Homevale,Bezant,A. R,
 1936,Llanthewy Road,34,,Williams,Charles,Engineer
@@ -242625,7 +242621,7 @@ year,street,house_number,building_name,surname,forename,trade
 1936,Malpas Road,56,,Coles,F. B,Confectioner
 1936,Malpas Road,54,,Mathlin,George H,ironworker
 1936,Malpas Road,52,,Prosser,Ivor,Clerk
-1936,Malpas Road,52,,Prosser,Miss M. ladies',hairdresser
+1936,Malpas Road,52,,Prosser,Miss M. ladies,hairdresser
 1936,Malpas Road,50,,Donovan,John,Decorator
 1936,Malpas Road,48,,Truscott,E. C,hairdresser
 1936,Malpas Road,46,,Clayton,Mrs. A. E,
@@ -242766,7 +242762,7 @@ year,street,house_number,building_name,surname,forename,trade
 1936,MALPAS  ROAD,,,Uzzell,Jack,Fruiterer
 1936,MALPAS  ROAD,,,South,Woodlands,
 1936,MALPAS  ROAD,,Parc-y-Prior,Steer,E. P,
-1936,MALPAS  ROAD,,,MALPAS WAR MEMORIAL INSTITUTE—,E G.,Pugsley secretary
+1936,MALPAS  ROAD,,,MALPAS WAR MEMORIAL INSTITUTE—,E G,Pugsley secretary
 1936,MALPAS  ROAD,,Malpas Villa,Palfrey,E,
 1936,MALPAS  ROAD,,Malpas Villa,Taylor,E,
 1936,MALPAS  ROAD,,Farmer,Pugh,William,
@@ -243797,7 +243793,7 @@ year,street,house_number,building_name,surname,forename,trade
 1936,Mill Street,,,Greengrocer,,
 1936,Mill Street,,Radcliffe,,,
 1936,Mill Street,,,Olive,,
-1936,Mill Street,,,Ladies',Hairdressing Salon,
+1936,Mill Street,,,Ladies,Hairdressing Salon,
 1936,Mill Street,23,Cafe,Sweeting,Walter,
 1936,Mill Street,23,,Thompson,W. A,furniture dealer
 1936,Mill Street,24,Furnishers,Bryant & Sons,,
@@ -243808,7 +243804,7 @@ year,street,house_number,building_name,surname,forename,trade
 1936,Mill Street,26,Fish Bar Etc,Orlidge,E,
 1936,Mill Street,27,Hurley,George and Dragon,H,
 1936,Mill Street,28,,Moran,Jno,G.W.R. Shop
-1936,Mill Street,29,,Auto Electrical Service,C W.,S. Weller proprietor / Cambrian Warehouse
+1936,Mill Street,29,,Auto Electrical Service,C W S.,Weller proprietor / Cambrian Warehouse
 1936,Mill Street,30,Shop,Marsh,William,
 1936,Mill Street,31,,Old White Lion,,Edgar Griffin / White Lion Buffet—E. Griffin
 1936,Mill Street,,,,,Builder
@@ -246345,7 +246341,7 @@ year,street,house_number,building_name,surname,forename,trade
 1936,Queen's Hill,32,,Borge,Edward,Engineer
 1936,Queen's Hill,30,Brenteg,Day,James H,
 1936,Queen's Hill,28,,Marshall,Reg. H,Postman
-1936,Queen's Hill,26,,Nat. Deposit (approved) Friendly Society,H J.,Powell dist. secretary
+1936,Queen's Hill,26,,Nat. Deposit (approved) Friendly Society,H J,Powell dist. secretary
 1936,Queen's Hill,24,Owen,Mason,John,Clerk
 1936,Queen's Hill,22,Monteville,Cole,Mrs. A. M,
 1936,Queen's Hill,20,,Edmunds,F,Teacher
@@ -246484,7 +246480,7 @@ year,street,house_number,building_name,surname,forename,trade
 1936,Queen Street,13,,Allsop,William G,fitter
 1936,Queen Street,15,,Gray,Calbert,Clerk Kasenga
 1936,Queen Street,17,A,Humphry,,P.O. Arlington
-1936,Queen Street,12,,British Legion Club,E E.,Partridge steward / G. J. Edward Secretary
+1936,Queen Street,12,,British Legion Club,E E,Partridge steward / G. J. Edward Secretary
 1936,Queen Street,10,,Abraham,Cecil,Seaman
 1936,Queen Street,8,Railwayman,Llewellyn,M,
 1936,Queen Street,6,,Williams,Mrs. A. L,
@@ -247386,7 +247382,7 @@ year,street,house_number,building_name,surname,forename,trade
 1936,Risca Road,,,Incorporated,Secretary,
 1936,Risca Road,,,Branksome,,
 1936,Risca Road,,P,,,
-1936,Risca Road,,,Builders',Merchant,
+1936,Risca Road,,,Builders,Merchant,
 1936,Risca Road,,,Richards,William,
 1936,Risca Road,,,Fernbank,,
 1936,Risca Road,,Witts,,,
@@ -247659,7 +247655,7 @@ year,street,house_number,building_name,surname,forename,trade
 1936,Risca Road,,,Incorporated,Secretary,
 1936,Risca Road,,,Branksome,,
 1936,Risca Road,,P,,,
-1936,Risca Road,,,Builders',Merchant,
+1936,Risca Road,,,Builders,Merchant,
 1936,Risca Road,,,Richards,William,
 1936,Risca Road,,,Fernbank,,
 1936,Risca Road,,Witts,,,
@@ -248112,7 +248108,7 @@ year,street,house_number,building_name,surname,forename,trade
 1936,River Banks,,Commissioners' Landing Stage,,,
 1936,River Banks,,Clarence Wharf—,,,
 1936,River Banks,,,Ltd,,
-1936,River Banks,,,Builders',Merchants,etc
+1936,River Banks,,,Builders,Merchants,etc
 1936,River Banks,,,,,Kerament Wall and Floor Tile Co
 1936,River Banks,,,T H.  & Co,,
 1936,River Banks,,,Iron,Merchants,
@@ -248304,7 +248300,7 @@ year,street,house_number,building_name,surname,forename,trade
 1936,ROCKFIELD ROAD,,,Off  Constance,,street
 1936,Rodney Parade,,ARTILLERY PLACE—,,,
 1936,Rodney Parade,,,,,Davies Bros. (Newport) Ltd
-1936,Rodney Parade,,,Builders',merchants,
+1936,Rodney Parade,,,Builders,merchants,
 1936,Rodney Parade,,,,P,& A. Ltd
 1936,Rodney Parade,,,Offices,,
 1936,Rodney Parade,,,Bristol,Channel Passenger Steamboat Service—agent B. W. Stream,
@@ -248910,7 +248906,7 @@ year,street,house_number,building_name,surname,forename,trade
 1936,Ruperra Street,29-30,Buxton J,MISSIONS TO SEAMEN'S INSTITUTE,,
 1936,Ruperra Street,29-30,,caretaker,,
 1936,Ruperra Street,31,,Wetto,Miss Jessie,
-1936,Ruperra Street,,,MASONIC HALL,W O.,H. Smithurst
+1936,Ruperra Street,,,MASONIC HALL,W O H.,Smithurst
 1936,Ruperra Street,,,resident,tyler,
 1936,Ruperra Street,32,,Moses,John,(Newport) Ltd. shipbrokers
 1936,Ruperra Street,32,,Jarvis,Francis Charles,
@@ -249565,7 +249561,7 @@ year,street,house_number,building_name,surname,forename,trade
 1936,St. Mary Street,33,,Evans,Walter,Chauffeur
 1936,St. Mary Street,34,,Crimp,William,Grocer
 1936,St. Mary Street,,,G,H,
-1936,St. Mary Street,,,Builders',Yard,
+1936,St. Mary Street,,,Builders,Yard,
 1936,St. Mary Street,,,ST. MARY STREET BAPTIST CHURCH,,
 1936,St. Mary Street,35,,,,BAPTIST SUNDAY SCHOOL
 1936,St. Mary Street,36,,Clarke,Bert,Joiner
@@ -251668,7 +251664,7 @@ year,street,house_number,building_name,surname,forename,trade
 1936,Turner Street,,,Mrs,Matilda,
 1936,Turner Street,,,Chelston,,
 1936,Turner Street,,,,,King & Co
-1936,Turner Street,,,Builders',yard,
+1936,Turner Street,,,Builders,yard,
 1936,Turner Street,,,,,Baker
 1936,Turner Street,,,C,A,
 1936,Turner Street,,Ashfield house,Furniture,remover,
@@ -253329,7 +253325,7 @@ year,street,house_number,building_name,surname,forename,trade
 1936,Wolseley street,41,,Johnson,Mrs. Annie,
 1936,Wolseley street,43,,Smith,George,G.W.R
 1936,Wolseley street,45,,Pearce,Trevor,fitter
-1936,Wolseley street,45,,Stevens',marine stores,
+1936,Wolseley street,45,,Stevens,marine stores,
 1936,Wolseley street,,Evans,,,
 1936,Wolseley street,,,Arthur,,general shop
 1936,Wolseley street,56,,Jones,Mrs. Alice M,
@@ -255109,7 +255105,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,Alma Street,,,Hobbs Mrs. M,41,
 1971,Alma Street,,,Symmonds Mrs. G. M,,
 1971,Alma Street,,,Gunn Wm I,43,
-1971,Alma Street,,,Jones Mrs. L. M. ladies',,
+1971,Alma Street,,,Jones Mrs. L. M. ladies,,
 1971,Alma Street,hairdrssr,,45,,
 1971,Alma Street,,,Delea Miss E,47,
 1971,Alma Street,,,STREET DIRECTORY,,
@@ -261292,7 +261288,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,TAXIS,(including Silver Line-167-247,,"Joyce's, toy dirs",Noad Arth. M,
 1971,TAXIS,Taxis)-167-249,,Girardi Michelle,Rees Bernard J,
 1971,TAXIS,taxi cab proprs. Tel.-169-251,,Oberholzer Mrs,Burton Herbt A,
-1971,TAXIS,Newport 51111 & 63333-169-253,,Robson Kathln. ladies',Baxter David A,
+1971,TAXIS,Newport 51111 & 63333-169-253,,Robson Kathln. ladies,Baxter David A,
 1971,TAXIS,& 712112-255,,hairdrssr,Hughes Mrs. E. M,
 1971,TAXIS,Maindee Junior School-171-257,,Reynolds I. I,Fowler Mrs. M. S,
 1971,TAXIS,(boys & girls)-171A-259,,Kensington Garage,Bransfield Jn A,
@@ -261597,7 +261593,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,SPRINGFIELD PREPARATORY SCHOOL,11,,David,Jones,
 1971,SPRINGFIELD PREPARATORY SCHOOL,10,,Regnld,Anstee,cnfetnrs
 1971,SPRINGFIELD PREPARATORY SCHOOL,9,,Glyn W,Anstee,Merrett's Ltd. bakers
-1971,SPRINGFIELD PREPARATORY SCHOOL,8,,"James Jennifer, Ladies'",Mrs. L,Smith
+1971,SPRINGFIELD PREPARATORY SCHOOL,8,,"James Jennifer, Ladies",Mrs. L,Smith
 1971,SPRINGFIELD PREPARATORY SCHOOL,7,,Regnld. C,Jones,hairdresser
 1971,SPRINGFIELD PREPARATORY SCHOOL,6,Adams Clifford L,Derek,Jones,
 1971,SPRINGFIELD PREPARATORY SCHOOL,5,,Regnld. S,Jones,here is Warwick rd
@@ -261649,7 +261645,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,SPRINGFIELD PREPARATORY SCHOOL,,,,Child Welfare Centre,
 1971,SPRINGFIELD PREPARATORY SCHOOL,422,"Lingrays, Confetnrs","Lingrays, confetnrs",,
 1971,SPRINGFIELD PREPARATORY SCHOOL,420,,Merrett's Ltd. bakers,,Merrett's Ltd. bakers
-1971,SPRINGFIELD PREPARATORY SCHOOL,420,"James Jennifer, Ladies'","James Jennifer, ladies'",,
+1971,SPRINGFIELD PREPARATORY SCHOOL,420,"James Jennifer, Ladies","James Jennifer, ladies",,
 1971,SPRINGFIELD PREPARATORY SCHOOL,,,hairdrssr,,hairdresser
 1971,SPRINGFIELD PREPARATORY SCHOOL,418,Adams Clifford L,Adams Clifford L,,
 1971,SPRINGFIELD PREPARATORY SCHOOL,416,,"Welsh Craft Shop, fancy",,"Welsh Craft Shop, fancy"
@@ -261690,7 +261686,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,SPRINGFIELD PREPARATORY SCHOOL,,,drssrs,drssrs,
 1971,SPRINGFIELD PREPARATORY SCHOOL,350,Beechwood Carpets,Beechwood Carpets,,
 1971,SPRINGFIELD PREPARATORY SCHOOL,350,Glazier Benj,Glazier Benj,,
-1971,SPRINGFIELD PREPARATORY SCHOOL,348,,P. O. Repeater Station,P O.,Repeater Station
+1971,SPRINGFIELD PREPARATORY SCHOOL,348,,P. O. Repeater Station,P O,Repeater Station
 1971,SPRINGFIELD PREPARATORY SCHOOL,348,Payne Douglas H,Payne Douglas H,,
 1971,SPRINGFIELD PREPARATORY SCHOOL,340,,Joseph C. newsagt,,Joseph C. newsagt
 1971,SPRINGFIELD PREPARATORY SCHOOL,338,Beachwood Doreen M,Beachwood Doreen M,,
@@ -262822,12 +262818,12 @@ year,street,house_number,building_name,surname,forename,trade
 1971,Clytha Park Road,9,Symonds Miss Rosemary,J. H. Evans & Partners,,
 1971,Clytha Park Road,architects,,,ladies' hairdrssr,
 1971,Clytha Park Road,10,St. David's Clinic (D,Cogdon,Geoffrey R,
-1971,L.D.S,surgn,,,"L.R.C.P., D. Buckley",
-1971,L.D.S,Victoria Chambers.,,,"M.B., B.Ch., D. R",
-1971,L.D.S,"Colborne, Coulman &",,Brown  & H. Williams,,
-1971,L.D.S,"Lawrence, solicitors.",,,surgrns. (surgeries),
-1971,L.D.S,Telephone Nos. New,,R.C.O.G. physens  &,,
-1971,L.D.S,port 64194/5,,,surgrns. (surgeries),
+1971,L.D,surgn,,,"L.R.C.P., D. Buckley",
+1971,L.D,Victoria Chambers.,,,"M.B., B.Ch., D. R",
+1971,L.D,"Colborne, Coulman &",,Brown  & H. Williams,,
+1971,L.D,"Lawrence, solicitors.",,,surgrns. (surgeries),
+1971,L.D,Telephone Nos. New,,R.C.O.G. physens  &,,
+1971,L.D,port 64194/5,,,surgrns. (surgeries),
 1971,Clytha Square,,,From 62 to 58 Cardiff road,,
 1971,Clytha Square,,,Map E 7,,
 1971,Clytha Square,,,Left side,,
@@ -263637,7 +263633,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,Constance Street,,,Map D 5,,
 1971,Constance Street,,,Left side,,
 1971,Constance Street,,,Clytha Buildings,,
-1971,Constance Street,1,,"Sadler Jackie, ladies'",,
+1971,Constance Street,1,,"Sadler Jackie, ladies",,
 1971,Constance Street,,,hairdrssr,,
 1971,Constance Street,2,,"Durston & Jones, boot",,
 1971,Constance Street,,,repr,,
@@ -263907,7 +263903,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,Conway Sac,59-15,,White,Charles,Draper
 1971,Conway Sac,59-15,,Stuart,,
 1971,Conway Sac,59-15,,W,,
-1971,Conway Sac,57,,"Arlene, ladies'",hairdrssr,here cross over
+1971,Conway Sac,57,,"Arlene, ladies",hairdrssr,here cross over
 1971,Conway Sac,57-17,,Davidson Davies,Mallcolm,
 1971,Conway Sac,57,Davidson,Jn,W,
 1971,Conway Sac,... here is Carisbrooke rd ...,,18,Christensen I. M,
@@ -264216,7 +264212,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,Corn Street,323,Ivor,W,Webb,
 1971,Corn Street,325,Screen Geo. J,Jas,Hutchinson,
 1971,Corn Street,329,Lloyd Horace W,Patrick J,Kiely,
-1971,Corn Street,329,Brown Alan,'ladies' hairdrssr,Louise,
+1971,Corn Street,329,Brown Alan,ladies' hairdrssr,Louise,
 1971,Corn Street,329,Coombes Wltr T,Repairs (Newport) motor engrs,Vehicle,
 1971,Corn Street,331,British Dredging (Concrete Products) Ltd. concrete products mfrs,Jn. E,Richards,
 1971,Corn Street,333,Edwards Ernest Jas,Mrs. B,Thomas,
@@ -264445,7 +264441,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,Courtybella Street,20,,D. T,"Newobsbox, newsagt",
 1971,Courtybella Street,20,,Clara,Davies,
 1971,Courtybella Street,18,,Rosina,Jones,
-1971,Courtybella Street,,Salon,ladies',Bettes,
+1971,Courtybella Street,,Salon,ladies,Bettes,
 1971,Courtybella Street,,,hairdrssr,,
 1971,Courtybella Street,18,,Lewis,Michl,
 1971,Courtybella Street,18,,K. V,Mowbray,
@@ -265471,7 +265467,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,DAWSON CLOSE,23,,Collins,Mrs. I,
 1971,DAWSON CLOSE,24,,Strode,Frederick,
 1971,DAWSON CLOSE,25,,Jones,Brinley,
-1971,DAWSON CLOSE,26,,James,Mrs. F',
+1971,DAWSON CLOSE,26,,James,Mrs. F,
 1971,DAWSON CLOSE,27,,Cole,D. L,
 1971,DAWSON CLOSE,30,,Cashman,Frederick. J,
 1971,DAWSON CLOSE,28,,Reed,Mrs,
@@ -265607,7 +265603,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,Dean Street,,Tel,boot  & shoe,,factories
 1971,Dean Street,,,,59085,
 1971,Dean Street,5,,Fernley,Edwd. C,
-1971,Dean Street,,,Salon,Julianne,ladies'
+1971,Dean Street,,,Salon,Julianne,ladies
 1971,Dean Street,,,,hairdrssrs,
 1971,DERBY GROVE,,,,From 22 Hampshire cres,
 1971,DERBY GROVE,,,,Map G 4,
@@ -265678,7 +265674,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,Devon Place,17,,Bowen,Clarence R,
 1971,Devon Place,18,,Maloney,D. B,
 1971,Devon Place,,,19,,
-1971,Devon Place,20,,"Avril, ladies'",hairdrssr,
+1971,Devon Place,20,,"Avril, ladies",hairdrssr,
 1971,Devon Place,20,,Williams,J. H,
 1971,Devon Place,,,,British Rail,(Western
 1971,Devon Place,,Maintenance,,Region),&
@@ -266127,7 +266123,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,DICKENS DRIVE,84/85,Cory Wm. & Son Ltd. coal expts,"MOLLISON H. & CO. LTD., wholesale mers (stationery, fancy goods, toys, hardware, rugs, carpets, knitwear, hosiery, etc) (office & warehouse)",,105/107
 1971,DICKENS DRIVE,86/87-106,,Wieczorek Fälks,,
 1971,DICKENS DRIVE,86/87,Wieczorek Fälks,173,,
-1971,DICKENS DRIVE,86/87,,Wieczorek Fälks,Scott J L.,Tobacconist & Gentlemen's Hair- Dresser.  & Gentlemen's Establishment
+1971,DICKENS DRIVE,86/87,,Wieczorek Fälks,Scott J L,Tobacconist & Gentlemen's Hair- Dresser.  & Gentlemen's Establishment
 1971,DICKENS DRIVE,106,Wieczorek Mrs M,Knight Raymond P,,
 1971,DICKENS DRIVE,87,Board of Trade (Mercantile Marine office),"King Ivor & Sons, wholesale general merchants & warehousemen (household goods, hardware, toys, stationery, haberdashery &c.)",,173a
 1971,DICKENS DRIVE,87,Board of Trade (Mercantile Marine office),Immigration,Officer,
@@ -268152,7 +268148,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,Fair Oak Terrace,"20A, Albert avenue.",Hill,12,Ivor Regnld,
 1971,Fair Oak Terrace,"Map D 5, E 5.",Howard,14,Gerard S,
 1971,Fair Oak Terrace,Left side.,Mallard,16,Jack,
-1971,Fair Oak Terrace,"1A, Golden Comb, ladies'",Humphreys B,18,R. E,
+1971,Fair Oak Terrace,"1A, Golden Comb, ladies",Humphreys B,18,R. E,
 1971,Fair Oak Terrace,hairdressers,Stark,20,Clifford A,
 1971,Fair Oak Terrace,1,From 589 Chepstow road to,Short Arth,,
 1971,Fair Oak Terrace,2-65,,Lawrence Hill avenue French J,,
@@ -270122,7 +270118,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,GLANMOR Crescent,,,,Beard,Owen (Tremore)
 1971,GLANMOR Crescent,,,,Rees,Wm G. (Westlea)
 1971,GLANMOR Crescent,,,,Earl,Alfd. H. (Warilda)
-1971,GLANMOR Crescent,,,,Weaver T C.,(Cyncoed)
+1971,GLANMOR Crescent,,,,Weaver T C,(Cyncoed)
 1971,GLANMOR Crescent,,,,Davies D,(The Hawes)
 1971,GLANMOR Crescent,,,,Meredith,Glyn (The Haven)
 1971,GLANMOR Crescent,,,,Pye,Wm F. (Hurstlea)
@@ -270549,7 +270545,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,GRAFTON JOINERY,3,,GRAFTON,(J R,
 1971,GRAFTON JOINERY,,,JOINERY,,"Hall, propr.), joinery"
 1971,GRAFTON JOINERY,,,,mfrs. Tel. Newport,
-1971,GRAFTON JOINERY,74273,,,(Private),(Tel. 66205)
+1971,GRAFTON JOINERY,,,,(Private),() (Tel. 74273)
 1971,GRAFTON JOINERY,,(Pens-ford),Lavender,George W,
 1971,1 HICKS ALBERT,,,E. LTD,,here is Edward la
 1971,1 HICKS ALBERT,32,Fitzgerald,,directors,
@@ -273039,7 +273035,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,HIGHBURY CHMBERS,9,Nelson,Hewertson,Thomas,
 1971,HIGHBURY CHMBERS,7,,Moore,Alex,(Benha)
 1971,HIGHBURY CHMBERS,5,,May,B,
-1971,HIGHBURY CHMBERS,3,,Jones,Mrs F E.,(Syrecuse)
+1971,HIGHBURY CHMBERS,3,,Jones,Mrs F E,(Syrecuse)
 1971,HIGHBURY CHMBERS,1,,Jenkins,Arth R,
 1971,HIGHSROSS LANE,,,Right side,,
 1971,HIGHSROSS LANE,4,,Benson,Miss,
@@ -274908,7 +274904,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,C O. (,Kingsway Petrol Station,Couture,Violet,D,
 1971,C O. (,Ltd. petrol filling sta-45,,Davies Wm,,
 1971,C O. (,tion,Jenkins,Mrs,M,
-1971,MERCHANTS,LTD.-55,,O’Hehir builders',From 87 Lewis street to 71,
+1971,MERCHANTS,LTD.-55,,O’Hehir builders,From 87 Lewis street to 71,
 1971,MERCHANTS,LTD.,O’Hehir,Jn,F,
 1971,MERCHANTS,merchants (registered,Kings Albt. D,Alma street: Map F 7,57,
 1971,MERCHANTS,"office), Telephone 65365-59",,1,Bowles Thomas,
@@ -275374,7 +275370,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,LANDSEER CLOSE,169,,"Chanelle, ladies' hair-dresser",,
 1971,LANDSEER CLOSE,,,Right side,,
 1971,LANDSEER CLOSE,171,Whatley's,"Whatley's, butcher",,
-1971,LANDSEER CLOSE,173/175,,C Wixcey Wixcey C. J. & Sons Ltd,J.,"& Sons Ltd, Grocers"
+1971,LANDSEER CLOSE,173/175,,J C Wixcey Wixcey C. J. & Sons Ltd,,"& Sons Ltd, Grocers"
 1971,LANDSEER CLOSE,2,,Carter,Kenneth R,
 1971,LANDSEER CLOSE,4,,Edmunds,Peter A,
 1971,LANDSEER CLOSE,6,,Shea,Jn,
@@ -277010,7 +277006,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,Locke Street,4,,Blute,Jas,
 1971,Locke Street,5,,Elias,William,
 1971,Locke Street,7,,Reardon,Edwd,
-1971,Locke Street,8a,,"Jones, ladies'",hairdrssr,
+1971,Locke Street,8a,,"Jones, ladies",hairdrssr,
 1971,Locke Street,8,,Jenkins,Ernest H,
 1971,Locke Street,9,,Rudduck,F. H,
 1971,Locke Street,10,,Kirk,Ernest,
@@ -278637,7 +278633,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,Maple Avenue,66,,Day,Mrs A,
 1971,Maple Avenue,68,,Steed,K. A,
 1971,Maple Avenue,70,,Berry,William,
-1971,Maple Avenue,72,,Williams,Misses P L.,& 10
+1971,Maple Avenue,72,,Williams,Misses P L,& 10
 1971,Maple Avenue,,,H,,
 1971,Maple Avenue,74,,Pocock,Ronald,
 1971,Maple Avenue,76,,East,William J,
@@ -279724,7 +279720,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,Mendalgief Road,92,,Mears Sidney,here is road to Maesglas,
 1971,Mendalgief Road,92a,,Davies Thos,,& Cardiff roads
 1971,Mendalgief Road,,,"92b, Rondel Jsph. L",,
-1971,Mendalgief Road,94,Cooke Arth. Jas,Salvation Army Officers',41,
+1971,Mendalgief Road,94,Cooke Arth. Jas,Salvation Army Officers,41,
 1971,Mendalgief Road,Quarters,,39,Morgan Glyn H,
 1971,Mendalgief Road,94,Davies R,Moss Chas F,37,
 1971,Mendalgief Road,96,Swift Melville,West Mrs. E,35,
@@ -281741,7 +281737,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,Nash Road,,,Richardson,Ronald (The Bungalow),
 1971,Nash Road,107,,yacht chandlers Nashcraft & repairers,,
 1971,Nash Road,,,STEVENS,BILL,fabrication welding & erection
-1971,Nash Road,,,107,Haine A W.,baker
+1971,Nash Road,,,107,Haine A W,baker
 1971,Nash Road,,,105,STEVENS BILL,
 1971,Nash Road,,Jn. P,99,Jones,
 1971,Nash Road,,,97b,Lewis,Mason D
@@ -282395,7 +282391,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,OLD HILL,Stratton,,Mrs. M. (Bryn Iswyn),Appleby D,(The Laurels)
 1971,OLD HILL,Jackman,,S. (Fern Lea),Pearce,Arth J. (Hope cott)
 1971,OLD HILL,Pritchard,,Clifford (Usk View),,
-1971,OLD HILL,Packer,,Wltr. F. (Step cott),Giles G M.,(Briareroft)
+1971,OLD HILL,Packer,,Wltr. F. (Step cott),Giles G M,(Briareroft)
 1971,OLD HILL,Benson,,Chas V. (Cuntisbury),Benson,Ronald V. (Rivendell)
 1971,OLD HILL,Kerby,,Mrs W. (Yew Tree cott),Nuttall,Andrew F. (Ashgrove)
 1971,OLD HILL,Griffin,,Fredk W. (Bronydd),,
@@ -284466,7 +284462,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,Queen's Close,3,,Abbott Fras,,
 1971,Queen's Close,5,,Prosser David J,,
 1971,Queen's Close,7,,Nener Geoffrey,,
-1971,Queen's Close,9,,Wookey Geo. (Northend',,
+1971,Queen's Close,9,,Wookey Geo. (Northend,,
 1971,Queen's Close,13,,Burridge Lawrence,,
 1971,Queen's Close,15,,Daniels Geoffrey N,,
 1971,Queen's Close,17,,Ward Donald C. (St. Vincent),,
@@ -286062,7 +286058,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,Risca Road,,Thom Kenneth S,,150,
 1971,Risca Road,,Jones Mrs,,148,
 1971,Risca Road,,,24,,
-1971,Risca Road,,Ladies',Elizabeth,Jane,
+1971,Risca Road,,Ladies,Elizabeth,Jane,
 1971,Risca Road,,,,146,hairdresser
 1971,Risca Road,,,,144,Noot Jn. J. K
 1971,Risca Road,,,24,,
@@ -286122,7 +286118,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,Risca Road,,Keelan Nancy,,78,
 1971,Risca Road,,,Cardiff,Telephone Area,
 1971,Risca Road,,(Solva,,76,
-1971,Risca Road,,(Solva,(Engineers',,
+1971,Risca Road,,(Solva,(Engineers,,
 1971,Risca Road,,(Solva,Division),,
 1971,Risca Road,,(yard),,ho),
 1971,Risca Road,,,,74,here are Lliswerry Pill &
@@ -287046,7 +287042,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,Russell Drive,37a,,Potts,Mrs. L. A. M,
 1971,Russell Drive,39a,,Pearce,C. M,
 1971,Russell Drive,41,Dorothy's,"Dorothy's, ladies' hair-dressers",,
-1971,Russell Drive,41,Dorothy's,ladies',hair-dressers,
+1971,Russell Drive,41,Dorothy's,ladies,hair-dressers,
 1971,Russell Drive,41a,,Stafford,Mrs. D. M,
 1971,Russell Drive,43,,Hawkins,The Bakers,
 1971,Russell Drive,43,,Hawkins,The Bakers,
@@ -287117,7 +287113,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,St. Anne's Crescent,7,,Shakesheff,George,
 1971,St. Anne's Crescent,8,,Hurditch,Thomas,
 1971,St. Anne's Crescent,9,,Baker,Melville,
-1971,St. Anne's Crescent,10,,Vittle,Jas',
+1971,St. Anne's Crescent,10,,Vittle,Jas,
 1971,St. Anne's Crescent,11,,Berry,Leslie,
 1971,St. Anne's Crescent,12,,Gibbon,Colin,
 1971,St. Anne's Crescent,13,,Foster,Edwd. C,
@@ -287527,7 +287523,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,St. Mark's Crescent,53,Blake David,Float Sidney E,16,
 1971,St. Mark's Crescent,53,Fitzmaurice Michl,Broughton Miss,10,
 1971,St. Mark's Crescent,53,Walsh Jn,Float Sidney E,8,
-1971,St. Mark's Crescent,26,,Baynham Jn R,39,Oddfellows' & Foresters'
+1971,St. Mark's Crescent,26,,Baynham Jn R,39,Oddfellows' & Foresters
 1971,St. Mark's Crescent,24,Arms P.H,Axford Mrs,,
 1971,St. Mark's Crescent,39,,Nicholson,Terence E,
 1971,St. Mark's Crescent,22,Rogers Jn,Phillips Michl,40,
@@ -287946,7 +287942,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,Shakespeare Crescent,65,,,Parry Charles. G,
 1971,Shakespeare Crescent,63,,,Peters R. A,
 1971,Shakespeare Crescent,61,,,Brown Gordon,
-1971,Shakespeare Crescent,59,,,'Hughes Thomas. H,
+1971,Shakespeare Crescent,59,,,Hughes Thomas. H,
 1971,Shakespeare Crescent,47,,,Roberts Edith P,
 1971,Shakespeare Crescent,45,,,Wall J. R. M,
 1971,Shakespeare Crescent,43,,,Coughlan Terrence,
@@ -288117,8 +288113,8 @@ year,street,house_number,building_name,surname,forename,trade
 1971,Skinner Street,,,"Evans, ladies' outfitters",,
 1971,Skinner Street,26,,Woolwich Equitable Building Society,,
 1971,Skinner Street,,,29,,
-1971,Skinner Street,2',& 30,& 4,Giles Henry C,
-1971,Skinner Street,2',& 30,Michelle,ladies',hairdresser
+1971,Skinner Street,2,& 30,& 4,Giles Henry C,
+1971,Skinner Street,2,& 30,Michelle,ladies,hairdresser
 1971,Skinner Street,,,Son Ltd,,
 1971,Skinner Street,30,,Ferrari's Bakeries Ltd,,
 1971,Skinner Street,32,,"Cann Wilfred & Son, confectioners",,
@@ -288361,11 +288357,11 @@ year,street,house_number,building_name,surname,forename,trade
 1971,Spencer Road,,,British Steel,Corporation (South Wales Group),British Steel Corporation (South Wales Group)
 1971,Spencer Road,,,(Spencer works),,Spencer works
 1971,Spencer Road,,,ROUNDABOUT PUBLIC HOUSE,,
-1971,Spencer Road,,,T (T. A. Johnsey Ltd.),A.,Johnsey Ltd
+1971,Spencer Road,,,A T (T. A. Johnsey Ltd.),,Johnsey Ltd
 1971,Spencer Road,,,Telephone,Newport 73613,
 1971,Spencer Road,,Shermans Football Pools,Shermans Football Pools,,
 1971,Spencer Road,,,ROUNDABOUT FILLING STATION,,
-1971,Spencer Road,,,T (T. A. Johnsey Ltd.),A.,Johnsey Ltd
+1971,Spencer Road,,,A T (T. A. Johnsey Ltd.),,Johnsey Ltd
 1971,Spencer Road,,,Tel,Newport 71638,
 1971,Spring Street,,,Left side,,
 1971,Spring Street,1,,Vick,Leonard,
@@ -289033,7 +289029,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,NEWPORT CORPORATION,,"Darene, who",,,119/121
 1971,NEWPORT CORPORATION,,,,,hosiery distributors
 1971,NEWPORT CORPORATION,,Seer J. grocer,,,119/121
-1971,NEWPORT CORPORATION,,,,,"117a, Ann Scarlett, ladies'"
+1971,NEWPORT CORPORATION,117a,,Ann Scarlett,ladies,"117a, Ann Scarlett, ladies"
 1971,NEWPORT CORPORATION,,,,,hairdresser
 1971,NEWPORT CORPORATION,115,Griffiths Mrs. M. statur,,,
 1971,NEWPORT CORPORATION,,,,,& post office
