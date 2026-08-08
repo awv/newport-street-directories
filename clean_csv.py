@@ -648,7 +648,27 @@ def clean_record(row):
         return None
         
     # Reject layout street names
-    if st_low in {"newport street list", "newport street", "left side", "right side", "left hand side", "right hand side", "east side", "west side", "north side", "south side", "directories"}:
+    if (st_low in {"newport street list", "newport street", "left side", "right side", "left hand side", "right hand side", "east side", "west side", "north side", "south side", "directories"} or
+        st_low.startswith("here is") or 
+        st_low.startswith("rt.-hand") or 
+        st_low.startswith("lt.-hand") or 
+        st_low.startswith("right-hand") or 
+        st_low.startswith("left-hand") or 
+        "street list" in st_low or 
+        "(from" in st_low or 
+        st_low.startswith("from ") or 
+        st_low.startswith("to ") or 
+        st_low.startswith("off ") or 
+        "road to " in st_low or 
+        "street to " in st_low or 
+        "avenue to " in st_low or
+        st_low.startswith("east side") or
+        st_low.startswith("west side") or
+        st_low.startswith("north side") or
+        st_low.startswith("south side") or
+        st_low.startswith("right side") or
+        st_low.startswith("left side")
+    ):
         return None
 
     house_num = (row.get("house_number") or "").strip().strip(',"-~\'')
@@ -1869,15 +1889,26 @@ def main():
                         continue
                         
                     # Filter out incorrect 1899 Crindau Road records resulting from multi-column drifts
-                    if (cleaned.get("year") == "1899" and 
-                        st_lower == "crindau road" and 
-                        cleaned.get("surname", "").strip().lower() not in {
+                    if cleaned.get("year") == "1899" and st_lower == "crindau road":
+                        sur_clean = cleaned.get("surname", "").strip().lower()
+                        if sur_clean not in {
                             "evans", "hutchins", "may", "young", "uzzell", "bishop", "thomas", "smith", "rev", "hyslop", 
                             "crindau gas works", "south wales glass manufacturing co. office & works", "co.'s office and works",
                             "house building", "void", "void young", "thomas bishop", "evans smith"
-                        }):
-                        skipped_count += 1
-                        continue
+                        }:
+                            skipped_count += 1
+                            continue
+                        
+                        # Fix merged 5-11 and 6 Evans Smith anomalies
+                        if cleaned.get("house_number") == "5-11":
+                            cleaned["house_number"] = "5"
+                            cleaned["surname"] = "Bishop"
+                            cleaned["forename"] = "Joseph"
+                            cleaned["trade"] = "foreman"
+                        elif cleaned.get("house_number") == "6" and cleaned.get("surname") == "Evans Smith":
+                            cleaned["surname"] = "Smith"
+                            cleaned["forename"] = "Luke"
+                            cleaned["trade"] = "labourer"
                         
                     # Filter out incorrect 1971 Crindau Road records resulting from Cromwell Road drifts
                     if cleaned.get("year") == "1971" and st_lower == "crindau road":
