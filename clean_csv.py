@@ -1909,6 +1909,11 @@ def main():
                             cleaned["surname"] = "Smith"
                             cleaned["forename"] = "Luke"
                             cleaned["trade"] = "labourer"
+                        elif cleaned.get("house_number") in {"52", "8"}:
+                            skipped_count += 1
+                            continue
+                        elif cleaned.get("house_number") == "23" and cleaned.get("surname") == "Hyslop":
+                            cleaned["house_number"] = ""
                         
                     # Filter out incorrect 1971 Crindau Road records resulting from Cromwell Road drifts
                     if cleaned.get("year") == "1971" and st_lower == "crindau road":
