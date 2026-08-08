@@ -492,7 +492,7 @@ def clean_street_name(name):
     if not name:
         return ""
     
-    clean = name.replace('"', '').strip(' ,.-~')
+    clean = name.replace('"', '').strip(' ,.-~—–_')
     clean = re.sub(r",\s*[A-Za-z0-9\s]+\b", "", clean)
 
     # 1. Strip trailing district/ward letter codes (e.g. '.T', '. P', ' P', ' M', '. C', '. W', '.T,')

@@ -100,14 +100,19 @@ def is_valid_street_name(s):
     s_clean = re.sub(r'[\(\[].*?[\)\]]', '', s_clean, flags=re.I).strip()
     s_clean = s_clean.rstrip('. -—,')
     
+    # Ignore non-street block headers (chambers, villas, buildings)
+    words = s_clean.lower().split()
+    if words:
+        last_word = words[-1].strip('.,()-')
+        ignored_suffixes = {'buildings', 'chambers', 'court', 'wharf', 'villas', 'cottages'}
+        if last_word in ignored_suffixes or any(w in ignored_suffixes for w in words):
+            return False
+    
     if not s_clean:
         return False
         
     suffixes = {
-        'street', 'road', 'lane', 'place', 'terrace', 'crescent', 'square', 'avenue',
-        'hill', 'parade', 'gardens', 'drive', 'buildings', 'chambers', 'court', 'wharf',
-        'villas', 'walk', 'close', 'view', 'grove', 'way', 'passage', 'row', 'rise',
-        'market', 'precincts', 'alms-houses', 'cottages', 'arcade', 'ch.'
+        'arcade', 'avenue', 'ch.', 'close', 'crescent', 'drive', 'gardens', 'grove', 'hill', 'lane', 'market', 'parade', 'passage', 'place', 'precincts', 'rise', 'road', 'row', 'square', 'street', 'terrace', 'view', 'walk', 'way'
     }
     words = s_clean.lower().split()
     if not words:

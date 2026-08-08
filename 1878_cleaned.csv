@@ -139,11 +139,11 @@ year,street,house_number,building_name,surname,forename,trade
 1878,ARCADE (THE),7,,Berridge,William.,toy dlr
 1878,ARCADE (THE),8,,Newcombe,H.,com. agt
 1878,ARCADE (THE),9,,Kick,Charles.,hairdresser
-1878,ARCADE CHAMBERS,,,Hewertson,N. (execs. of),timber & bark merchants
-1878,ARCADE CHAMBERS,,,Jones,D.,manager
-1878,ARCADE CHAMBERS,,Game & Jackson,,,accountants & auditors
-1878,ARCADE CHAMBERS,,Cromwell Bros.,,,metal and lime merchants
-1878,ARCADE CHAMBERS,,Lawrence (Harold) & Jones,,,coal and metal brokers
+1878,ARCADE (THE),,,Hewertson,N. (execs. of),timber & bark merchants
+1878,ARCADE (THE),,,Jones,D.,manager
+1878,ARCADE (THE),,Game & Jackson,,,accountants & auditors
+1878,ARCADE (THE),,Cromwell Bros.,,,metal and lime merchants
+1878,ARCADE (THE),,Lawrence (Harold) & Jones,,,coal and metal brokers
 1878,AUSTIN FRIARS,,"Rees, Trcharne & Sons",,,civil engineers & survrs
 1878,BAILEY STREET,1,,Clifford,Jesse,fruit dlr
 1878,BAILEY STREET,2,,Jones,Caroline,
@@ -258,24 +258,24 @@ year,street,house_number,building_name,surname,forename,trade
 1878,BANESWELL ROAD,,Smith's porter stores,,,
 1878,BANESWELL ROAD,7,,Sullivan,P. J.,bkr & con
 1878,BANESWELL ROAD,8,,McKay,Peter,frtr &c
-1878,QUEENS' BUILDINGS,9,,,,void
-1878,QUEENS' BUILDINGS,10,fmly grcrs,Davies & Co.,,
-1878,QUEENS' BUILDINGS,,,Williams,Evan,gas fitter
-1878,QUEENS' BUILDINGS,11,Coffee Palace,Watkins,T.,manager
-1878,QUEENS' BUILDINGS,12,,Townsend,W.,bylagney
-1878,QUEENS' BUILDINGS,13,,Lankester,Richard,
-1878,QUEENS' BUILDINGS,14,,Johns,R. H,bookbinder stationer newsagent &c:
-1878,QUEENS' BUILDINGS,15,,Perry,Charles.,carpenter
-1878,QUEENS' BUILDINGS,,,Hutton,T.,haircutter
-1878,QUEENS' BUILDINGS,16,,Hunter,S.,Mrs grcr & bkr
-1878,QUEENS' BUILDINGS,17,,Wellsteed,Thomas.,butcher
-1878,QUEENS' BUILDINGS,18,,Townsend,D.,fishmngr
-1878,QUEENS' BUILDINGS,19,,Spencer,George.,traveller
-1878,QUEENS' BUILDINGS,20,,Porter,Sarah,dyer
-1878,QUEENS' BUILDINGS,,,Cromwell,W.,gasfitter
-1878,QUEENS' BUILDINGS,,Coal yard,Price,John,
-1878,QUEENS' BUILDINGS,21,,Blackmore,W.,hobbler
-1878,QUEENS' BUILDINGS,,,Price,John,greengrocer
+1878,BANESWELL ROAD,9,,,,void
+1878,BANESWELL ROAD,10,fmly grcrs,Davies & Co.,,
+1878,BANESWELL ROAD,,,Williams,Evan,gas fitter
+1878,BANESWELL ROAD,11,Coffee Palace,Watkins,T.,manager
+1878,BANESWELL ROAD,12,,Townsend,W.,bylagney
+1878,BANESWELL ROAD,13,,Lankester,Richard,
+1878,BANESWELL ROAD,14,,Johns,R. H,bookbinder stationer newsagent &c:
+1878,BANESWELL ROAD,15,,Perry,Charles.,carpenter
+1878,BANESWELL ROAD,,,Hutton,T.,haircutter
+1878,BANESWELL ROAD,16,,Hunter,S.,Mrs grcr & bkr
+1878,BANESWELL ROAD,17,,Wellsteed,Thomas.,butcher
+1878,BANESWELL ROAD,18,,Townsend,D.,fishmngr
+1878,BANESWELL ROAD,19,,Spencer,George.,traveller
+1878,BANESWELL ROAD,20,,Porter,Sarah,dyer
+1878,BANESWELL ROAD,,,Cromwell,W.,gasfitter
+1878,BANESWELL ROAD,,Coal yard,Price,John,
+1878,BANESWELL ROAD,21,,Blackmore,W.,hobbler
+1878,BANESWELL ROAD,,,Price,John,greengrocer
 1878,BOLTON TERRACE,23,,Morgan,Samuel,tailor
 1878,BOLTON TERRACE,24,,John,Lewis,puddler
 1878,BOLTON TERRACE,25,,Fooks,Mrs.,
@@ -286,14 +286,14 @@ year,street,house_number,building_name,surname,forename,trade
 1878,BOLTON TERRACE,30,,Munt Brown & Co.,drprs,
 1878,BOLTON TERRACE,,,Welsford,W.,agent
 1878,BOLTON TERRACE,,Queen's Hotel,Matthews,F.,
-1878,BANK CHAMBERS,,,Lloyd,W. J. and H. G.,solicitors
-1878,BANK CHAMBERS,,Llanarth estate,Lyne,Col.,
-1878,BANK CHAMBERS,,,Lyne,Charles. Rbt.,solicitor
-1878,BANK CHAMBERS,,,Lawrence,Edw.,solicitor
-1878,BANK CHAMBERS,,,Steel,T. D.,civil engineer
-1878,BANK CHAMBERS,,,"Tyngye Bros, and Steel",,hydraulic & gen. engnrs
-1878,BANK CHAMBERS,,,Simpson,C.,metal broker
-1878,BANK CHAMBERS,,,Davies,E. J. Cox,solicitor
+1878,BOLTON TERRACE,,,Lloyd,W. J. and H. G.,solicitors
+1878,BOLTON TERRACE,,Llanarth estate,Lyne,Col.,
+1878,BOLTON TERRACE,,,Lyne,Charles. Rbt.,solicitor
+1878,BOLTON TERRACE,,,Lawrence,Edw.,solicitor
+1878,BOLTON TERRACE,,,Steel,T. D.,civil engineer
+1878,BOLTON TERRACE,,,"Tyngye Bros, and Steel",,hydraulic & gen. engnrs
+1878,BOLTON TERRACE,,,Simpson,C.,metal broker
+1878,BOLTON TERRACE,,,Davies,E. J. Cox,solicitor
 1878,TREDEGAR PLACE,1,(W. & A. Gilbey),Buckingham,E. E.,wine agent
 1878,TREDEGAR PLACE,,,Lawrence,B.,architect
 1878,TREDEGAR PLACE,2,,Davies,L. & E.,tobacnst
@@ -1599,54 +1599,54 @@ year,street,house_number,building_name,surname,forename,trade
 1878,COMMERCIAL STREET CONTD,,,,Jeffreys & Sons,pork butchers
 1878,COMMERCIAL STREET CONTD,175,,Harse,S.,china dealer
 1878,COMMERCIAL STREET CONTD,,Westgate hotel,Hallen,S. T.,
-1878,COMMERCIAL WHARF,1,Commerce hotel,Derrett,Mrs H.,
-1878,COMMERCIAL WHARF,2,,Magub,Robert.,master mar
-1878,COMMERCIAL WHARF,3,,Burt,William.,dockgateman
-1878,COMMERCIAL WHARF,4,,Jones,Evan,berthing master
-1878,COMMERCIAL WHARF,5,,Overton,William.,dock man
-1878,COMMERCIAL WHARF,6,,Robinson,John,berthing master
-1878,COMMERCIAL WHARF,8,,Carter,W.,general shop
-1878,COMMERCIAL WHARF,9,,Gillett,Charles.,hobbler
-1878,COMMERCIAL WHARF,10,Mariners' Arms,Butcher,H.,
-1878,COMMERCIAL WHARF,11,,Davy,Charles,blcksmth
-1878,COMMERCIAL WHARF,12,,Goodwin,George.,haulier
-1878,COMMERCIAL WHARF,13,,Cashman,William.,engineer
-1878,COMMERCIAL WHARF,14,,Zeale,Jno.,dock labourer
-1878,COMMERCIAL WHARF,15,,Allen,Mrs.,widow
-1878,COMMERCIAL WHARF,16,,Allen,William.,
-1878,COMMERCIAL WHARF,17,Lamb Inn,Price,W.,
-1878,COMMERCIAL WHARF,18,,Taylor,George.,dock man
-1878,COMMERCIAL WHARF,19,,Richardson,Edward,do
-1878,COMMERCIAL WHARF,20,,Williams,William,do
-1878,COMMERCIAL WHARF,21,,Edwards,John,hobbler
-1878,COMMERCIAL WHARF,22,,Thomas,William,haulier
-1878,COMMERCIAL WHARF,23,"Dockhouse, Dockhead",Quest,William Kirton,
+1878,COMMERCIAL STREET CONTD,1,Commerce hotel,Derrett,Mrs H.,
+1878,COMMERCIAL STREET CONTD,2,,Magub,Robert.,master mar
+1878,COMMERCIAL STREET CONTD,3,,Burt,William.,dockgateman
+1878,COMMERCIAL STREET CONTD,4,,Jones,Evan,berthing master
+1878,COMMERCIAL STREET CONTD,5,,Overton,William.,dock man
+1878,COMMERCIAL STREET CONTD,6,,Robinson,John,berthing master
+1878,COMMERCIAL STREET CONTD,8,,Carter,W.,general shop
+1878,COMMERCIAL STREET CONTD,9,,Gillett,Charles.,hobbler
+1878,COMMERCIAL STREET CONTD,10,Mariners' Arms,Butcher,H.,
+1878,COMMERCIAL STREET CONTD,11,,Davy,Charles,blcksmth
+1878,COMMERCIAL STREET CONTD,12,,Goodwin,George.,haulier
+1878,COMMERCIAL STREET CONTD,13,,Cashman,William.,engineer
+1878,COMMERCIAL STREET CONTD,14,,Zeale,Jno.,dock labourer
+1878,COMMERCIAL STREET CONTD,15,,Allen,Mrs.,widow
+1878,COMMERCIAL STREET CONTD,16,,Allen,William.,
+1878,COMMERCIAL STREET CONTD,17,Lamb Inn,Price,W.,
+1878,COMMERCIAL STREET CONTD,18,,Taylor,George.,dock man
+1878,COMMERCIAL STREET CONTD,19,,Richardson,Edward,do
+1878,COMMERCIAL STREET CONTD,20,,Williams,William,do
+1878,COMMERCIAL STREET CONTD,21,,Edwards,John,hobbler
+1878,COMMERCIAL STREET CONTD,22,,Thomas,William,haulier
+1878,COMMERCIAL STREET CONTD,23,"Dockhouse, Dockhead",Quest,William Kirton,
 1878,COOMASSIA STREET,,,Hawkins,Thomas. R.,Shpchdlr
 1878,CORN STREET,1,,,Palmer & Son,lith'grphrs
 1878,CORN STREET,2,,Jones,T.,marine stre dlr
-1878,MULLOCK's COURT,3,,Lockyer,Ed.,haulier
-1878,MULLOCK's COURT,4,,Rees,James,labourer
-1878,MULLOCK's COURT,5,,Phillips,Mrs. M. A.,
-1878,MULLOCK's COURT,6,Post Office tavern,Webber,Mary,
-1878,MULLOCK's COURT,7,,Noah,Joseph,china dlr
-1878,MULLOCK's COURT,8,,Powell,Edward,gen. shp
-1878,MULLOCK's COURT,9,,Gibb,William,bootmkr
-1878,MULLOCK's COURT,10,,Dudley,John,machanic
-1878,MULLOCK's COURT,11,,Corfield,F.,marine store
-1878,MULLOCK's COURT,"12, 13",,Corner,T,auctioneer and lodging house
-1878,MULLOCK's COURT,14,,Ford,T.,potato merchnt
-1878,MULLOCK's COURT,15,,Parsons,William.,labourer
-1878,MULLOCK's COURT,16,,Pope,Jno. F.,wheelwrht
-1878,MULLOCK's COURT,17,Potters' arms,Davies,Dl.,
-1878,MULLOCK's COURT,18,,LeCouteur,J.,potato mcht
-1878,MULLOCK's COURT,19,,Gosling,Robert,grocer
-1878,MULLOCK's COURT,20,,Stevens,A.,hairdresser
-1878,MULLOCK's COURT,21,,Whittaker,William.,porter
-1878,MULLOCK's COURT,22,Plumbers arms,Lynes,Jeremiah,
-1878,MULLOCK's COURT,23,,Evans,W.,prvisn mrcht
-1878,MULLOCK's COURT,24,,Gibb,W. Jas.,shoemakr
-1878,MULLOCK's COURT,25,,Gray,Mrs. A.,gerngrocr
-1878,MULLOCK's COURT,26,,Knight,G.,umbrella makr
+1878,CORN STREET,3,,Lockyer,Ed.,haulier
+1878,CORN STREET,4,,Rees,James,labourer
+1878,CORN STREET,5,,Phillips,Mrs. M. A.,
+1878,CORN STREET,6,Post Office tavern,Webber,Mary,
+1878,CORN STREET,7,,Noah,Joseph,china dlr
+1878,CORN STREET,8,,Powell,Edward,gen. shp
+1878,CORN STREET,9,,Gibb,William,bootmkr
+1878,CORN STREET,10,,Dudley,John,machanic
+1878,CORN STREET,11,,Corfield,F.,marine store
+1878,CORN STREET,"12, 13",,Corner,T,auctioneer and lodging house
+1878,CORN STREET,14,,Ford,T.,potato merchnt
+1878,CORN STREET,15,,Parsons,William.,labourer
+1878,CORN STREET,16,,Pope,Jno. F.,wheelwrht
+1878,CORN STREET,17,Potters' arms,Davies,Dl.,
+1878,CORN STREET,18,,LeCouteur,J.,potato mcht
+1878,CORN STREET,19,,Gosling,Robert,grocer
+1878,CORN STREET,20,,Stevens,A.,hairdresser
+1878,CORN STREET,21,,Whittaker,William.,porter
+1878,CORN STREET,22,Plumbers arms,Lynes,Jeremiah,
+1878,CORN STREET,23,,Evans,W.,prvisn mrcht
+1878,CORN STREET,24,,Gibb,W. Jas.,shoemakr
+1878,CORN STREET,25,,Gray,Mrs. A.,gerngrocr
+1878,CORN STREET,26,,Knight,G.,umbrella makr
 1878,CROSS STREET,1,,Freeman,J.,
 1878,CROSS STREET,2,Wiltshire house,Smith,M.,
 1878,CROSS STREET,,,Trueman,Alfred,barrwmkr
@@ -2655,15 +2655,15 @@ year,street,house_number,building_name,surname,forename,trade
 1878,JAMES STREET,13,,Scott,Robert,fitter
 1878,JAMES STREET,14,,Hughes,Thomas,coalshpr
 1878,JAMES STREET,16,,Edwards,Morris,
-1878,JAYNE's BUILDINGS,1,,Jones,Humphrey,plasterer
-1878,JAYNE's BUILDINGS,2,,Gross,Henry,carpenter
-1878,JAYNE's BUILDINGS,3,,Johns,L.,iron weigher
-1878,JAYNE's BUILDINGS,4,,Clapp,J.,wheelwright
-1878,JAYNE's BUILDINGS,5,,Thomas,J.,seaman
-1878,JAYNE's BUILDINGS,6,,Reed,Mrs,
-1878,JAYNE's BUILDINGS,7,,Roberts,D.,builder
-1878,JAYNE's BUILDINGS,8,,Morgan,Nat,gardener
-1878,JAYNE's BUILDINGS,9,,Pritchard,J.,mason
+1878,JAMES STREET,1,,Jones,Humphrey,plasterer
+1878,JAMES STREET,2,,Gross,Henry,carpenter
+1878,JAMES STREET,3,,Johns,L.,iron weigher
+1878,JAMES STREET,4,,Clapp,J.,wheelwright
+1878,JAMES STREET,5,,Thomas,J.,seaman
+1878,JAMES STREET,6,,Reed,Mrs,
+1878,JAMES STREET,7,,Roberts,D.,builder
+1878,JAMES STREET,8,,Morgan,Nat,gardener
+1878,JAMES STREET,9,,Pritchard,J.,mason
 1878,JEDDO STREET,1,,Derly,Mrs Jane,
 1878,JEDDO STREET,2,,Mell,Lindsley,carpenter
 1878,JEDDO STREET,3,,Vincent,Thomas,platelyr
@@ -3507,8 +3507,8 @@ year,street,house_number,building_name,surname,forename,trade
 1878,RAILWAY STREET,28,,Mrs Thos.,Griffiths,
 1878,RAILWAY STREET,,,Thomas,Walker,clerk
 1878,RAILWAY STREET,29,,Thomas,Barrett,
-1878,REFORM BUILDINGS,Reilly,,marine stores,J. O.,
-1878,REFORM BUILDINGS,Syner,,Forester's Arms,A.,
+1878,RAILWAY STREET,Reilly,,marine stores,J. O.,
+1878,RAILWAY STREET,Syner,,Forester's Arms,A.,
 1878,RODNEY PARADE,Tapson,,shipbroker,A. H.,
 1878,RODNEY PARADE,Essery,,shipwright,W.,
 1878,RODNEY PARADE,Mills,,,master mariner,

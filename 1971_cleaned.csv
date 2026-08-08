@@ -637,7 +637,8 @@ year,street,house_number,building_name,surname,forename,trade
 1971,ALANBROOKE AV,Pantry Frank H,,,G. F. & Co. Ltd.,mfng. confctnrs. (fac-tory) (Rexville)
 1971,ALANBROOKE AV,Brydon Raymond,,,Davies Mervyn,
 1971,ALANBROOKE AV,,,,Powell Horace W,
-1971,ALBANY CHAMBERS,,,,Sweet Rd A,
+1971,ALANBROOKE AV,ALBANY CHAMBERS.,,,Job Donald,
+1971,ALANBROOKE AV,,,,Sweet Rd A,
 1971,ALBANY STREET,From 2 Malpas road.,,,Lockyer F. coal mer,
 1971,ALBANY STREET,"Map C 5, C 6.",,,Noonan Magnus,
 1971,ALBANY STREET,Left side.,,,Brock Vivian N,
@@ -1171,27 +1172,28 @@ year,street,house_number,building_name,surname,forename,trade
 1971,ALLT-YR-YN CLOSE,6,,Donald E. J,Lang,
 1971,ALLT-YR-YN CLOSE,4,,Fred J,Hando,
 1971,ALLT-YR-YN CLOSE,2,,Vernon J,Parfitt,
-1971,ALLT-YR-YN COURT,,,Right side.,,
-1971,ALLT-YR-YN COURT,2,,McIlvaney Fras,,
-1971,ALLT-YR-YN COURT,4,,McIntosh Frank L,,
-1971,ALLT-YR-YN COURT,6,,Carleton Ian,,
-1971,ALLT-YR-YN COURT,8,,Roberts Hy,,
-1971,ALLT-YR-YN COURT,10,,Showring Jsph. A,,
-1971,ALLT-YR-YN COURT,12,,Worrall Roy,,
-1971,ALLT-YR-YN COURT,14,,Hemsley Jas,,
-1971,ALLT-YR-YN COURT,16,,Reed Miss Ethel A,,
-1971,ALLT-YR-YN COURT,18,,Morgan Danl,,
-1971,ALLT-YR-YN COURT,20,,Dunn Jsph,,
-1971,ALLT-YR-YN COURT,22,,George Wm. L,,
-1971,ALLT-YR-YN COURT,24,,Waring Irene,,
-1971,ALLT-YR-YN COURT,26,,Lewis Iris C,,
-1971,ALLT-YR-YN COURT,28,,Howitt Dudley H,,
-1971,ALLT-YR-YN COURT,30,,Collard Mrs. G,,
-1971,ALLT-YR-YN COURT,32,,Jenkins Miss E,,
-1971,ALLT-YR-YN COURT,34,,Lewis Sarah,,
-1971,ALLT-YR-YN COURT,36,,Davies Mrs. L,,
-1971,ALLT-YR-YN COURT,38,,Collins Miss,,
-1971,ALLT-YR-YN COURT,38,,Wilce Miss,,
+1971,ALLT-YR-YN CLOSE,,,ALLT-YR-YN COURT.,,
+1971,ALLT-YR-YN CLOSE,,,Right side.,,
+1971,ALLT-YR-YN CLOSE,2,,McIlvaney Fras,,
+1971,ALLT-YR-YN CLOSE,4,,McIntosh Frank L,,
+1971,ALLT-YR-YN CLOSE,6,,Carleton Ian,,
+1971,ALLT-YR-YN CLOSE,8,,Roberts Hy,,
+1971,ALLT-YR-YN CLOSE,10,,Showring Jsph. A,,
+1971,ALLT-YR-YN CLOSE,12,,Worrall Roy,,
+1971,ALLT-YR-YN CLOSE,14,,Hemsley Jas,,
+1971,ALLT-YR-YN CLOSE,16,,Reed Miss Ethel A,,
+1971,ALLT-YR-YN CLOSE,18,,Morgan Danl,,
+1971,ALLT-YR-YN CLOSE,20,,Dunn Jsph,,
+1971,ALLT-YR-YN CLOSE,22,,George Wm. L,,
+1971,ALLT-YR-YN CLOSE,24,,Waring Irene,,
+1971,ALLT-YR-YN CLOSE,26,,Lewis Iris C,,
+1971,ALLT-YR-YN CLOSE,28,,Howitt Dudley H,,
+1971,ALLT-YR-YN CLOSE,30,,Collard Mrs. G,,
+1971,ALLT-YR-YN CLOSE,32,,Jenkins Miss E,,
+1971,ALLT-YR-YN CLOSE,34,,Lewis Sarah,,
+1971,ALLT-YR-YN CLOSE,36,,Davies Mrs. L,,
+1971,ALLT-YR-YN CLOSE,38,,Collins Miss,,
+1971,ALLT-YR-YN CLOSE,38,,Wilce Miss,,
 1971,ALLT-YR-YN Crescent,,,From 50 Allt-yr-yn view.,,
 1971,ALLT-YR-YN Crescent,,,(Right side).,,
 1971,ALLT-YR-YN Crescent,2,,Gardner Mrs. S,,
@@ -1722,6 +1724,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,ARAGON STREET,,Flat 1,Thomas,"Alfd G. (flat 1, The Residence, Crindau Gas works)",Thomas Alfd G
 1971,ARAGON STREET,,,,...... here is pathway to Redland sta ......,
 1971,ARAGON STREET,,,,"...... here are Arlington, Allesbury & Argyle sts ...",
+1971,ARAGON STREET,,,ARCADE CHAMBERS.,,
 1971,ARCHIBALD STREET,,,,Right side.,
 1971,ARCHIBALD STREET,1,,Woodruff,Saml,
 1971,ARCHIBALD STREET,2,,Batts,Ernest W,
@@ -1838,6 +1841,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,ANSON GREEN,6,,Rumsey,Mrs. E,
 1971,ANSON GREEN,4,,Sully,Frederick,
 1971,ANSON GREEN,2,,Coyne,Jas,
+1971,ANSON GREEN,,,ARLINGTON CHAMBERS.,,
 1971,ARLINGTON CLOSE,,,(No thoroughfare.),,
 1971,ARLINGTON CLOSE,,,From 18 Montgomery road.,,
 1971,ARLINGTON CLOSE,,,Map aA 5.,,
@@ -5143,49 +5147,50 @@ year,street,house_number,building_name,surname,forename,trade
 1971,BRYNGLAS CLOSE,,,22 Lucas Hy. F,,
 1971,BRYNGLAS CLOSE,,,23 Powell Malcolm R,,
 1971,BRYNGLAS CLOSE,,,24 Fletcher Jn. H,,
-1971,BRYNGLAS COURT,,,From 65 Brynglas drive.,,
-1971,BRYNGLAS COURT,,,Map B 6.,,
-1971,BRYNGLAS COURT,,,(No thoroughfare.),,
-1971,BRYNGLAS COURT,,,Left side.,,
-1971,BRYNGLAS COURT,,,1 Baker Fredk. J,,
-1971,BRYNGLAS COURT,,,3 Fry M,,
-1971,BRYNGLAS COURT,,,5 Plumb J. H,,
-1971,BRYNGLAS COURT,,,7 Waters Wm. J,,
-1971,BRYNGLAS COURT,,,9 Dennis Ronald R,,
-1971,BRYNGLAS COURT,,,11 Dearden Harry,,
-1971,BRYNGLAS COURT,,,13 Edmunds Rd W,,
-1971,BRYNGLAS COURT,,,15 Hughes Jas. R,,
-1971,BRYNGLAS COURT,,,17 Waters Mrs. C,,
-1971,BRYNGLAS COURT,,,19 Harris W,,
-1971,BRYNGLAS COURT,,,21 Francis Rt. A,,
-1971,BRYNGLAS COURT,,,23 Morgan W. G,,
-1971,BRYNGLAS COURT,,,25 Smith C. J,,
-1971,BRYNGLAS COURT,,,27 Chalker Regnld. C,,
-1971,BRYNGLAS COURT,,,29 Griffiths T. A,,
-1971,BRYNGLAS COURT,,,31 Dowding W. J,,
-1971,BRYNGLAS COURT,,,33 Keyse J. D,,
-1971,BRYNGLAS COURT,,,35 Casagrande Fras. H,,
-1971,BRYNGLAS COURT,,,36 Lawrence Harold,,
-1971,BRYNGLAS COURT,,,39 Oldfield Hy,,
-1971,BRYNGLAS COURT,,,41 Bailey Leslie R,,
-1971,BRYNGLAS COURT,,,43 Evans Mrs. I. M,,
-1971,BRYNGLAS COURT,,,45 Hall Jn. T,,
-1971,BRYNGLAS COURT,,,2 Johns W. E,,
-1971,BRYNGLAS COURT,,,4 Underwood Gordon P,,
-1971,BRYNGLAS COURT,,,6 Lurvey T,,
-1971,BRYNGLAS COURT,,,8 Wookey Clifford K,,
-1971,BRYNGLAS COURT,,,10 Townsend C. E,,
-1971,BRYNGLAS COURT,,,12 Corten Geo. A,,
-1971,BRYNGLAS COURT,,,14 Gale F. R,,
-1971,BRYNGLAS COURT,,,16 Chivers Amy,,
-1971,BRYNGLAS COURT,,,18 Wookey F. A,,
-1971,BRYNGLAS COURT,,,20 Baker Mrs,,
-1971,BRYNGLAS COURT,,,22 Waters Ernest J,,
-1971,BRYNGLAS COURT,,,24 Richardson Wm. L,,
-1971,BRYNGLAS COURT,,,26 Piper Mrs. D. I,,
-1971,BRYNGLAS COURT,,,28 Tiley Christphr J,,
-1971,BRYNGLAS COURT,,,30 Bates Theophilus,,
-1971,BRYNGLAS COURT,,,32 Hillman Jsph. H,,
+1971,BRYNGLAS CLOSE,,,BRYNGLAS COURT.,,
+1971,BRYNGLAS CLOSE,,,From 65 Brynglas drive.,,
+1971,BRYNGLAS CLOSE,,,Map B 6.,,
+1971,BRYNGLAS CLOSE,,,(No thoroughfare.),,
+1971,BRYNGLAS CLOSE,,,Left side.,,
+1971,BRYNGLAS CLOSE,,,1 Baker Fredk. J,,
+1971,BRYNGLAS CLOSE,,,3 Fry M,,
+1971,BRYNGLAS CLOSE,,,5 Plumb J. H,,
+1971,BRYNGLAS CLOSE,,,7 Waters Wm. J,,
+1971,BRYNGLAS CLOSE,,,9 Dennis Ronald R,,
+1971,BRYNGLAS CLOSE,,,11 Dearden Harry,,
+1971,BRYNGLAS CLOSE,,,13 Edmunds Rd W,,
+1971,BRYNGLAS CLOSE,,,15 Hughes Jas. R,,
+1971,BRYNGLAS CLOSE,,,17 Waters Mrs. C,,
+1971,BRYNGLAS CLOSE,,,19 Harris W,,
+1971,BRYNGLAS CLOSE,,,21 Francis Rt. A,,
+1971,BRYNGLAS CLOSE,,,23 Morgan W. G,,
+1971,BRYNGLAS CLOSE,,,25 Smith C. J,,
+1971,BRYNGLAS CLOSE,,,27 Chalker Regnld. C,,
+1971,BRYNGLAS CLOSE,,,29 Griffiths T. A,,
+1971,BRYNGLAS CLOSE,,,31 Dowding W. J,,
+1971,BRYNGLAS CLOSE,,,33 Keyse J. D,,
+1971,BRYNGLAS CLOSE,,,35 Casagrande Fras. H,,
+1971,BRYNGLAS CLOSE,,,36 Lawrence Harold,,
+1971,BRYNGLAS CLOSE,,,39 Oldfield Hy,,
+1971,BRYNGLAS CLOSE,,,41 Bailey Leslie R,,
+1971,BRYNGLAS CLOSE,,,43 Evans Mrs. I. M,,
+1971,BRYNGLAS CLOSE,,,45 Hall Jn. T,,
+1971,BRYNGLAS CLOSE,,,2 Johns W. E,,
+1971,BRYNGLAS CLOSE,,,4 Underwood Gordon P,,
+1971,BRYNGLAS CLOSE,,,6 Lurvey T,,
+1971,BRYNGLAS CLOSE,,,8 Wookey Clifford K,,
+1971,BRYNGLAS CLOSE,,,10 Townsend C. E,,
+1971,BRYNGLAS CLOSE,,,12 Corten Geo. A,,
+1971,BRYNGLAS CLOSE,,,14 Gale F. R,,
+1971,BRYNGLAS CLOSE,,,16 Chivers Amy,,
+1971,BRYNGLAS CLOSE,,,18 Wookey F. A,,
+1971,BRYNGLAS CLOSE,,,20 Baker Mrs,,
+1971,BRYNGLAS CLOSE,,,22 Waters Ernest J,,
+1971,BRYNGLAS CLOSE,,,24 Richardson Wm. L,,
+1971,BRYNGLAS CLOSE,,,26 Piper Mrs. D. I,,
+1971,BRYNGLAS CLOSE,,,28 Tiley Christphr J,,
+1971,BRYNGLAS CLOSE,,,30 Bates Theophilus,,
+1971,BRYNGLAS CLOSE,,,32 Hillman Jsph. H,,
 1971,BRYNGLAS Crescent,,,From 1 Brynglas avenue to,,
 1971,BRYNGLAS Crescent,,,10 Spring street. Map C6.,,
 1971,BRYNGLAS Crescent,,,Left side.,,
@@ -7756,12 +7761,13 @@ year,street,house_number,building_name,surname,forename,trade
 1971,CHELMER WALK,14,-,Durant,Eliz,
 1971,CHELMER WALK,16,-,Hayes,D. L,
 1971,CHELMER WALK,18,-,Francis,Alice L,
-1971,CHAUCER COURT,-,From 1 Milton road. (No thoroughfare.),-,,
-1971,CHAUCER COURT,1,-,Marsh,Gerald E,
-1971,CHAUCER COURT,2,-,Agland,Jn. F,
-1971,CHAUCER COURT,3,-,Neilson,Bernard T,
-1971,CHAUCER COURT,4,-,Holt,Leonard W,
-1971,CHAUCER COURT,5,-,Davies,E. C,
+1971,CHARTIST TOWER,CHAUCER COURT.,-,-,,
+1971,CHARTIST TOWER,-,From 1 Milton road. (No thoroughfare.),-,,
+1971,CHARTIST TOWER,1,-,Marsh,Gerald E,
+1971,CHARTIST TOWER,2,-,Agland,Jn. F,
+1971,CHARTIST TOWER,3,-,Neilson,Bernard T,
+1971,CHARTIST TOWER,4,-,Holt,Leonard W,
+1971,CHARTIST TOWER,5,-,Davies,E. C,
 1971,CHAUCER ROAD,-,From 21 to 103 Tennyson rd. Map E 4. Right side.,-,,
 1971,CHAUCER ROAD,-,... here is Wordsworth rd,-,,
 1971,CHAUCER ROAD,2a,-,Hodgson,Harvey B,
@@ -9263,7 +9269,9 @@ year,street,house_number,building_name,surname,forename,trade
 1971,CLEVEDON ROAD,24,,Symonds S. R. plumber,,Symonds S. R. plumber
 1971,CLEVEDON ROAD,4,,Broadfoot Jn. L,,Broadfoot Jn. L
 1971,CLEVEDON ROAD,2,,Lewis Jas. P,,Lewis Jas. P
-1971,CLEWER COURT MEWS,294,,,NEWPORT,
+1971,CLEVEDON ROAD,CLEWER COURT.,,,CLEWER COURT.,
+1971,CLEVEDON ROAD,CLEWER COURT MEWS.,,,CLEWER COURT MEWS.,
+1971,CLEVEDON ROAD,294,,,NEWPORT,
 1971,CLIFTON PLACE,,,,11,Jenkins Misses D. & O
 1971,CLIFTON PLACE,,,Misses,D. & O Jenkins,
 1971,CLIFTON PLACE,From 3 Clifton road.,electrol conrctrs,,12,Haigh & Ringrose Ltd
@@ -9792,18 +9800,19 @@ year,street,house_number,building_name,surname,forename,trade
 1971,COLSTON AVENUE,,,...here is cross over,,
 1971,COLSTON AVENUE,52,,Jenkins,Jn,
 1971,COLSTON AVENUE,60,,Long,Victor G,
-1971,COLSTON COURT,From 52 Colston avenue.,,Map G 4. (No thoroughfare.),,
-1971,COLSTON COURT,1,,James,Frank,
-1971,COLSTON COURT,3,,Joy,Malcolm,
-1971,COLSTON COURT,4,,Davies,Brinley,L
-1971,COLSTON COURT,5,,Madigan,Thomas,
-1971,COLSTON COURT,6,,Pembridge,Jn S,
-1971,COLSTON COURT,7,,Williams,David,E
-1971,COLSTON COURT,8,,Francis,David,R
-1971,COLSTON COURT,9,,Arnesen,Roy,E
-1971,COLSTON COURT,10,,Brocklehurst,Michl,
-1971,COLSTON COURT,11,,Bradbury,Ronald,C
-1971,COLSTON COURT,12,,Croone,Anthony,R
+1971,COLSTON AVENUE,,,COLSTON COURT.,,
+1971,COLSTON AVENUE,From 52 Colston avenue.,,Map G 4. (No thoroughfare.),,
+1971,COLSTON AVENUE,1,,James,Frank,
+1971,COLSTON AVENUE,3,,Joy,Malcolm,
+1971,COLSTON AVENUE,4,,Davies,Brinley,L
+1971,COLSTON AVENUE,5,,Madigan,Thomas,
+1971,COLSTON AVENUE,6,,Pembridge,Jn S,
+1971,COLSTON AVENUE,7,,Williams,David,E
+1971,COLSTON AVENUE,8,,Francis,David,R
+1971,COLSTON AVENUE,9,,Arnesen,Roy,E
+1971,COLSTON AVENUE,10,,Brocklehurst,Michl,
+1971,COLSTON AVENUE,11,,Bradbury,Ronald,C
+1971,COLSTON AVENUE,12,,Croone,Anthony,R
 1971,COLSTON PLACE,,,Left side.,,
 1971,COLSTON PLACE,1,,Bush,Malcolm,C
 1971,COLSTON PLACE,2,,Phillips,Frederick,
@@ -10121,86 +10130,87 @@ year,street,house_number,building_name,surname,forename,trade
 1971,BURNICLE STUDIOS,80,marine equipment,W. & E. Ltd.,Turner,boot & shoe dlrs
 1971,BURNICLE STUDIOS,81/82,,Mamselle,Mansell,ladies' 112 Model Shop
 1971,BURNICLE STUDIOS,83,113 Stanley Mrs,R. J. & Sons,Ware,cycl-agts
-1971,NATIONAL BUILDINGS,86,"153 Joan's, gowns",Harry & Sons,Thomas,"Ltd, butchers"
-1971,NATIONAL BUILDINGS,88,"here is McCarthy's court, 154 Cavendish Furniture Co. Ltd. house furnishers",Saml & Co.,Moore,118 Moore H. J
-1971,NATIONAL BUILDINGS,88,119/120 PROSSER GOFF LTD,C. F.,Wilk,fitters
-1971,NATIONAL BUILDINGS,88,119/120 PROSSER GOFF LTD,155,,
-1971,NATIONAL BUILDINGS,88,119/120 PROSSER GOFF LTD,156,Boots The Chemists Ltd,
-1971,NATIONAL BUILDINGS,89/90,"baby carriage dealers, nursery furniture, baby linen, toys & cycles","C. & Co. (Newport, Mon.)",Marks,radio supplies
-1971,NATIONAL BUILDINGS,89/90,"baby carriage dealers, nursery furniture, baby linen, toys & cycles",157,Hardy & Co. Ltd. house furnishers,
-1971,NATIONAL BUILDINGS,89/91,,National Buildings -ings (Flats):,,
-1971,NATIONAL BUILDINGS,89/91,,158,Lilley & Skinner Ltd. shoe dlrs,
-1971,NATIONAL BUILDINGS,1,159 Greig David Ltd. provsn. mers,Mrs,Prin,"121 Adele, ladies' hairdrrssr"
-1971,NATIONAL BUILDINGS,1a,160 Dolcis Ltd. boot & shoe dlrs,Marsh,Ethelbert,122 Marks Jn
-1971,NATIONAL BUILDINGS,2,"161/162/163 C & A Modes Ltd., ladies' outfitters",Mrs. E,Gardner,123 Atkinson Rentals Ltd. television rentals
-1971,NATIONAL BUILDINGS,2a,164 Royal Albert Grill,P. H,Edmonds,"124 Lovell G. F. & Co Ltd, confctnrs"
-1971,NATIONAL BUILDINGS,3,"165 WILDINGS LIMITED,",Leah,Jones,126 Hornblower PH
-1971,NATIONAL BUILDINGS,4,"boys', girls' & ladies' outfitters, schoolwear specialists, china, glass & fancy goods",Michael,Amen,127/129 Tesco Supermarkets Ltd. grocers
-1971,NATIONAL BUILDINGS,4a,,Sidney W,Lalies,"130 Space-Fluka Centre, soft furnishing goods"
-1971,NATIONAL BUILDINGS,5,"phone, Newport 62861",Daniel A,Richards,"131 Granada Ltd, television rentals"
-1971,NATIONAL BUILDINGS,5a,"166/168 London House, dept store",Llewellyn,Fletcher,132 Johnson Cleaners (South West) Ltd. dyers & cleaners
-1971,NATIONAL BUILDINGS,6,"166/168 Mothercare, baby linen dlrs",Geo. E,Armstrong,"133 Dominic Peter, wine & spirit dlr"
-1971,NATIONAL BUILDINGS,6a,169 Stead & Simpson Ltd. shoe mkrs,Ivor,Richards,134 Cowan M. outfitter
-1971,NATIONAL BUILDINGS,92,"171 Freeman, Hardy & Willis Ltd, boot & shoe dlrs",G,Morris,135 Brighter Homes wallpaper mers
-1971,NATIONAL BUILDINGS,93,171 Westgate Chmbrs.:,IV P.H,William,here is Hill st
-1971,NATIONAL BUILDINGS,94,3 & 4 Dalton & Hayward (Builders Contractors) Ltd,Cardiff rd.,is,"138/139 Homeland, house furnishers"
-1971,NATIONAL BUILDINGS,94,3 & 4 Town Stores (Cwmbran) Ltd (regd office),Gwen's men's wear,Gwyn's,140 Powe Hector Ltd. tailors
-1971,NATIONAL BUILDINGS,94a,9/11 Davies J. W. solctr. & commssnr. for oaths,Devon Pie Shop,Devon,140 Malpas Finance Company Ltd
-1971,NATIONAL BUILDINGS,95/96,"14/18 Roe, Potter & Bowen, chartrd. accntnts",Maria's Milk Bar,Maria's,140 Peacocks Stores. departmental store
-1971,NATIONAL BUILDINGS,97,,D.E.R. Ltd. television rentals,,
-1971,NATIONAL BUILDINGS,98,Gethin Davey E. & Co. insur brkrs,Restaurant,Mayfower,140 Henson T. M
-1971,NATIONAL BUILDINGS,100/104,,"CAINES (NEWPORT) LTD,","141a, Fine Fare Ltd. grocers",24/25/27 Newton - Brooks & Co. & Co. chartered accountants
-1971,NATIONAL BUILDINGS,,,"complete house furnishers, carpets &c.",142 & 143 Halford Cycle Co. Ltd. cycle dlrs,Thomas & Co. chartered accountants
-1971,NATIONAL BUILDINGS,105 & 106,,Peacocks Stores. departmental store,144 Star Buildings:,26/27 Lewis Detective Agency
-1971,NATIONAL BUILDINGS,106,"28/29 Lee Michl, caretaker",Mrs. C. I,Evans,"Stone Lawrence, outfitter"
-1971,NATIONAL BUILDINGS,107,,Caines (Newport) Ltd (showrooms),145 Broadmead Ltd. radio dlrs,39/40
-1971,NATIONAL BUILDINGS,,,Wrenford Memorial Hall,,
-1971,NATIONAL BUILDINGS,,,44,,
-1971,NATIONAL BUILDINGS,,,48,Morgan T. & Co. (Newport) Ltd. regd. office,
-1971,NATIONAL BUILDINGS,,,St. Paul's Church,48/49 Evans & Deakins (showrooms),
-1971,NATIONAL BUILDINGS,108/110,,"Bollingtons, clothiers",147/148 Woolworth F. W. & Co. Ltd,55/59 Newport Secretarial Bureau
-1971,NATIONAL BUILDINGS,,,Newport Young Men's Christian Association,here is Charles st,
-1971,NATIONAL BUILDINGS,,,Mrs. A,Yeoman,
-1971,NATIONAL BUILDINGS,,,Miss Ethel,Baynham,
-1971,NATIONAL BUILDINGS,,,Fredk,Russel,
-1971,NATIONAL BUILDINGS,,,Kenneth,Fisher,
-1971,NATIONAL BUILDINGS,302,,NEWPORT,,
-1971,NATIONAL BUILDINGS,56,70,Monmouthshire Branch,Davies Edw,Club & Institute Union
-1971,NATIONAL BUILDINGS,56,70,Fuller,Terence W,
-1971,NATIONAL BUILDINGS,57,O'Connell Terence,Allen L. E. & Co. (Car- 72,Hourahine Ronald E,"diff) Ltd., consulting 74"
-1971,NATIONAL BUILDINGS,57,O'Connell Terence,engineers,Tel 65220 76,
-1971,NATIONAL BUILDINGS,57,O'Connell Terence,Williams,Edwrd. S,
-1971,NATIONAL BUILDINGS,62,80,Ansel-Thom Ltd. engin- 78,Johnson Gerald H,eering designers
-1971,NATIONAL BUILDINGS,62,80,Bevan,Harry,
-1971,NATIONAL BUILDINGS,,82,,,
-1971,NATIONAL BUILDINGS,,82,Roche,Dennis G,
-1971,NATIONAL BUILDINGS,172,,Collier Jn. tailor,84,Channing Chas. W
-1971,NATIONAL BUILDINGS,173,88,Samuels H. Ltd. jewel- 86,Murray Edgar C,lers
-1971,NATIONAL BUILDINGS,173,88,Willey,Hy. A,
-1971,NATIONAL BUILDINGS,174,,"Westons, ladies' outfitters 90",Lewis J. H,
-1971,NATIONAL BUILDINGS,175,,Lennards Ltd. boot dlrs 92,Morgan I. W,
-1971,NATIONAL BUILDINGS,Westgate Buildings.,,94,Leyson Jas. T,
-1971,NATIONAL BUILDINGS,Principality Dry Cleaning 96,Barry Philip J,Wyton Gordon,Co. Ltd. dyers,98
-1971,NATIONAL BUILDINGS,,100,,,
-1971,NATIONAL BUILDINGS,,100,Needs,William. G,
-1971,NATIONAL BUILDINGS,53,,EVANS & DEAKIN,102,Clarke L
-1971,NATIONAL BUILDINGS,(T. Morgan & Co. (New- 104,Berry Keith,Collier Stanley,port) Ltd),106
-1971,NATIONAL BUILDINGS,corsetières (NPT 1TO). 108,Walsh Leo B,Wiltshire Raymond W,Tel 64269,110
-1971,NATIONAL BUILDINGS,,112,,,
-1971,NATIONAL BUILDINGS,,112,Jones,W. D,
-1971,NATIONAL BUILDINGS,"Thornton's, confctnrs",,114,Betts Regald. G,
-1971,NATIONAL BUILDINGS,Westgate Hotel (Trust 116,Stacey S. J,Jarman Wm. F,Houses Ltd),118
-1971,NATIONAL BUILDINGS,"Hudson Howard, oph- 120",Richards Rt. H,Roberts G. C,thalmic optician,122
-1971,NATIONAL BUILDINGS,Payne A. W. tobccnst,,124,Carvell Michl J,
-1971,NATIONAL BUILDINGS,Pleasance and Harper 126,Berry Jas. H,Stroud Cyril R,"Ltd., jewellers",128
-1971,NATIONAL BUILDINGS,,130,,,
-1971,NATIONAL BUILDINGS,,130,Edmunds,Trevor H,
-1971,NATIONAL BUILDINGS,,132,,,
-1971,NATIONAL BUILDINGS,,132,Bristow,D,
-1971,WHARF,,138,,,
-1971,WHARF,,138,Waggett,Rt,
-1971,WHARF,,140,,,
-1971,WHARF,,140,Edmunds,L. W,
+1971,BURNICLE STUDIOS,86,"153 Joan's, gowns",Harry & Sons,Thomas,"Ltd, butchers"
+1971,BURNICLE STUDIOS,88,"here is McCarthy's court, 154 Cavendish Furniture Co. Ltd. house furnishers",Saml & Co.,Moore,118 Moore H. J
+1971,BURNICLE STUDIOS,88,119/120 PROSSER GOFF LTD,C. F.,Wilk,fitters
+1971,BURNICLE STUDIOS,88,119/120 PROSSER GOFF LTD,155,,
+1971,BURNICLE STUDIOS,88,119/120 PROSSER GOFF LTD,156,Boots The Chemists Ltd,
+1971,BURNICLE STUDIOS,89/90,"baby carriage dealers, nursery furniture, baby linen, toys & cycles","C. & Co. (Newport, Mon.)",Marks,radio supplies
+1971,BURNICLE STUDIOS,89/90,"baby carriage dealers, nursery furniture, baby linen, toys & cycles",157,Hardy & Co. Ltd. house furnishers,
+1971,BURNICLE STUDIOS,89/91,,National Buildings -ings (Flats):,,
+1971,BURNICLE STUDIOS,89/91,,158,Lilley & Skinner Ltd. shoe dlrs,
+1971,BURNICLE STUDIOS,1,159 Greig David Ltd. provsn. mers,Mrs,Prin,"121 Adele, ladies' hairdrrssr"
+1971,BURNICLE STUDIOS,1a,160 Dolcis Ltd. boot & shoe dlrs,Marsh,Ethelbert,122 Marks Jn
+1971,BURNICLE STUDIOS,2,"161/162/163 C & A Modes Ltd., ladies' outfitters",Mrs. E,Gardner,123 Atkinson Rentals Ltd. television rentals
+1971,BURNICLE STUDIOS,2a,164 Royal Albert Grill,P. H,Edmonds,"124 Lovell G. F. & Co Ltd, confctnrs"
+1971,BURNICLE STUDIOS,3,"165 WILDINGS LIMITED,",Leah,Jones,126 Hornblower PH
+1971,BURNICLE STUDIOS,4,"boys', girls' & ladies' outfitters, schoolwear specialists, china, glass & fancy goods",Michael,Amen,127/129 Tesco Supermarkets Ltd. grocers
+1971,BURNICLE STUDIOS,4a,,Sidney W,Lalies,"130 Space-Fluka Centre, soft furnishing goods"
+1971,BURNICLE STUDIOS,5,"phone, Newport 62861",Daniel A,Richards,"131 Granada Ltd, television rentals"
+1971,BURNICLE STUDIOS,5a,"166/168 London House, dept store",Llewellyn,Fletcher,132 Johnson Cleaners (South West) Ltd. dyers & cleaners
+1971,BURNICLE STUDIOS,6,"166/168 Mothercare, baby linen dlrs",Geo. E,Armstrong,"133 Dominic Peter, wine & spirit dlr"
+1971,BURNICLE STUDIOS,6a,169 Stead & Simpson Ltd. shoe mkrs,Ivor,Richards,134 Cowan M. outfitter
+1971,BURNICLE STUDIOS,92,"171 Freeman, Hardy & Willis Ltd, boot & shoe dlrs",G,Morris,135 Brighter Homes wallpaper mers
+1971,BURNICLE STUDIOS,93,171 Westgate Chmbrs.:,IV P.H,William,here is Hill st
+1971,BURNICLE STUDIOS,94,3 & 4 Dalton & Hayward (Builders Contractors) Ltd,Cardiff rd.,is,"138/139 Homeland, house furnishers"
+1971,BURNICLE STUDIOS,94,3 & 4 Town Stores (Cwmbran) Ltd (regd office),Gwen's men's wear,Gwyn's,140 Powe Hector Ltd. tailors
+1971,BURNICLE STUDIOS,94a,9/11 Davies J. W. solctr. & commssnr. for oaths,Devon Pie Shop,Devon,140 Malpas Finance Company Ltd
+1971,BURNICLE STUDIOS,95/96,"14/18 Roe, Potter & Bowen, chartrd. accntnts",Maria's Milk Bar,Maria's,140 Peacocks Stores. departmental store
+1971,BURNICLE STUDIOS,97,,D.E.R. Ltd. television rentals,,
+1971,BURNICLE STUDIOS,98,Gethin Davey E. & Co. insur brkrs,Restaurant,Mayfower,140 Henson T. M
+1971,BURNICLE STUDIOS,100/104,,"CAINES (NEWPORT) LTD,","141a, Fine Fare Ltd. grocers",24/25/27 Newton - Brooks & Co. & Co. chartered accountants
+1971,BURNICLE STUDIOS,,,"complete house furnishers, carpets &c.",142 & 143 Halford Cycle Co. Ltd. cycle dlrs,Thomas & Co. chartered accountants
+1971,BURNICLE STUDIOS,105 & 106,,Peacocks Stores. departmental store,144 Star Buildings:,26/27 Lewis Detective Agency
+1971,BURNICLE STUDIOS,106,"28/29 Lee Michl, caretaker",Mrs. C. I,Evans,"Stone Lawrence, outfitter"
+1971,BURNICLE STUDIOS,107,,Caines (Newport) Ltd (showrooms),145 Broadmead Ltd. radio dlrs,39/40
+1971,BURNICLE STUDIOS,,,Wrenford Memorial Hall,,
+1971,BURNICLE STUDIOS,,,44,,
+1971,BURNICLE STUDIOS,,,48,Morgan T. & Co. (Newport) Ltd. regd. office,
+1971,BURNICLE STUDIOS,,,St. Paul's Church,48/49 Evans & Deakins (showrooms),
+1971,BURNICLE STUDIOS,108/110,,"Bollingtons, clothiers",147/148 Woolworth F. W. & Co. Ltd,55/59 Newport Secretarial Bureau
+1971,BURNICLE STUDIOS,,,Newport Young Men's Christian Association,here is Charles st,
+1971,BURNICLE STUDIOS,,,Mrs. A,Yeoman,
+1971,BURNICLE STUDIOS,,,Miss Ethel,Baynham,
+1971,BURNICLE STUDIOS,,,Fredk,Russel,
+1971,BURNICLE STUDIOS,,,Kenneth,Fisher,
+1971,BURNICLE STUDIOS,302,,NEWPORT,,
+1971,BURNICLE STUDIOS,56,70,Monmouthshire Branch,Davies Edw,Club & Institute Union
+1971,BURNICLE STUDIOS,56,70,Fuller,Terence W,
+1971,BURNICLE STUDIOS,57,O'Connell Terence,Allen L. E. & Co. (Car- 72,Hourahine Ronald E,"diff) Ltd., consulting 74"
+1971,BURNICLE STUDIOS,57,O'Connell Terence,engineers,Tel 65220 76,
+1971,BURNICLE STUDIOS,57,O'Connell Terence,Williams,Edwrd. S,
+1971,BURNICLE STUDIOS,62,80,Ansel-Thom Ltd. engin- 78,Johnson Gerald H,eering designers
+1971,BURNICLE STUDIOS,62,80,Bevan,Harry,
+1971,BURNICLE STUDIOS,,82,,,
+1971,BURNICLE STUDIOS,,82,Roche,Dennis G,
+1971,BURNICLE STUDIOS,172,,Collier Jn. tailor,84,Channing Chas. W
+1971,BURNICLE STUDIOS,173,88,Samuels H. Ltd. jewel- 86,Murray Edgar C,lers
+1971,BURNICLE STUDIOS,173,88,Willey,Hy. A,
+1971,BURNICLE STUDIOS,174,,"Westons, ladies' outfitters 90",Lewis J. H,
+1971,BURNICLE STUDIOS,175,,Lennards Ltd. boot dlrs 92,Morgan I. W,
+1971,BURNICLE STUDIOS,Westgate Buildings.,,94,Leyson Jas. T,
+1971,BURNICLE STUDIOS,Principality Dry Cleaning 96,Barry Philip J,Wyton Gordon,Co. Ltd. dyers,98
+1971,BURNICLE STUDIOS,,100,,,
+1971,BURNICLE STUDIOS,,100,Needs,William. G,
+1971,BURNICLE STUDIOS,53,,EVANS & DEAKIN,102,Clarke L
+1971,BURNICLE STUDIOS,(T. Morgan & Co. (New- 104,Berry Keith,Collier Stanley,port) Ltd),106
+1971,BURNICLE STUDIOS,corsetières (NPT 1TO). 108,Walsh Leo B,Wiltshire Raymond W,Tel 64269,110
+1971,BURNICLE STUDIOS,,112,,,
+1971,BURNICLE STUDIOS,,112,Jones,W. D,
+1971,BURNICLE STUDIOS,"Thornton's, confctnrs",,114,Betts Regald. G,
+1971,BURNICLE STUDIOS,Westgate Hotel (Trust 116,Stacey S. J,Jarman Wm. F,Houses Ltd),118
+1971,BURNICLE STUDIOS,"Hudson Howard, oph- 120",Richards Rt. H,Roberts G. C,thalmic optician,122
+1971,BURNICLE STUDIOS,Payne A. W. tobccnst,,124,Carvell Michl J,
+1971,BURNICLE STUDIOS,Pleasance and Harper 126,Berry Jas. H,Stroud Cyril R,"Ltd., jewellers",128
+1971,BURNICLE STUDIOS,,130,,,
+1971,BURNICLE STUDIOS,,130,Edmunds,Trevor H,
+1971,BURNICLE STUDIOS,,132,,,
+1971,BURNICLE STUDIOS,,132,Bristow,D,
+1971,COMMERCIAL,WHARF.,,136,Beames Roy A,
+1971,COMMERCIAL,,138,,,
+1971,COMMERCIAL,,138,Waggett,Rt,
+1971,COMMERCIAL,,140,,,
+1971,COMMERCIAL,,140,Edmunds,L. W,
 1971,CONSTA,,111,,,
 1971,CONSTA,,111,Williams,Douglas S,
 1971,CONSTA,From 136 Heather road.,,109,Baldwin Leslie W,
@@ -11054,6 +11064,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,COURTNEY STREET,14,,Wm,Fisher,
 1971,COURTNEY STREET,15,,Mrs,Banks,
 1971,COURTNEY STREET,16,,Clifford T,Jones,
+1971,COURTYBELLA,,,COTTAGES.,,
 1971,COURTYBELLA Street,,,From 110 Commercial road,,
 1971,COURTYBELLA Street,,,to 33 Albion street.,,
 1971,COURTYBELLA Street,,,Map F 7.,,
@@ -11359,6 +11370,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,CRAWFORD STREET,,,,1,Holland Mrs
 1971,CRAWFORD STREET,,,,...... here are Morgan st. &,
 1971,CRAWFORD STREET,,,,Courtney st......,
+1971,CRAWFORD STREET,,,CRESCENT COURT.,,
 1971,CRESCENT ROAD,,,,From 76 Victoria avenue to,
 1971,CRESCENT ROAD,,,,25 Woodland road.,
 1971,CRESCENT ROAD,,,,Map E 4.,
@@ -11631,6 +11643,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,CUMBERLAND ROAD,10,,Pritchett,Jn L,
 1971,CUMBERLAND ROAD,8,,Walker,Glyn,
 1971,CUMBERLAND ROAD,6,,Baldwin,Anthony H,
+1971,CUMBERLAND ROAD,,,CROWN BUILDINGS.,,
 1971,CROWN STREET,,,Map E 5.,,
 1971,CROWN STREET,,,Left side.,,
 1971,CROWN STREET,1,,Woodcock,Arth,
@@ -12276,30 +12289,31 @@ year,street,house_number,building_name,surname,forename,trade
 1971,DERBY GROVE,6,,Kidd,Ivor,
 1971,DERBY GROVE,4,,Griffiths,Albt. L,
 1971,DERBY GROVE,2,,McCray,Arth. L,
-1971,DERWENT COURT,,,,From 301 Monnow way,
-1971,DERWENT COURT,,,,Map,A A 8
-1971,DERWENT COURT,,,,(No thoroughfare.),
-1971,DERWENT COURT,,,,Left side.,
-1971,DERWENT COURT,1,,Hawkins,Colin,R
-1971,DERWENT COURT,3,,Buckley,S. A,
-1971,DERWENT COURT,5,,Jukes,Clive,
-1971,DERWENT COURT,,,7,,
-1971,DERWENT COURT,,,9,,
-1971,DERWENT COURT,11,,Lacey,Terence,
-1971,DERWENT COURT,13,,Richards,Anthony,
-1971,DERWENT COURT,15,,Smith,Charles,
-1971,DERWENT COURT,17,,Davies,Jas,
-1971,DERWENT COURT,22,,Paine,Jas F,
-1971,DERWENT COURT,20,,Owens,David,
-1971,DERWENT COURT,18,,Rogerson,George,
-1971,DERWENT COURT,16,,Canitelo,David,G
-1971,DERWENT COURT,14,,Hiscock,Jas,
-1971,DERWENT COURT,12,,Grace,Thomas,
-1971,DERWENT COURT,10,,Suilley,Peter,
-1971,DERWENT COURT,8,,Oliver,Basil,
-1971,DERWENT COURT,6,,Cootes,Derrick,S
-1971,DERWENT COURT,4,,Otton,Terence,W
-1971,DERWENT COURT,2,,Johnson,Kenneth,
+1971,DERBY GROVE,,,DERWENT COURT.,,
+1971,DERBY GROVE,,,,From 301 Monnow way,
+1971,DERBY GROVE,,,,Map,A A 8
+1971,DERBY GROVE,,,,(No thoroughfare.),
+1971,DERBY GROVE,,,,Left side.,
+1971,DERBY GROVE,1,,Hawkins,Colin,R
+1971,DERBY GROVE,3,,Buckley,S. A,
+1971,DERBY GROVE,5,,Jukes,Clive,
+1971,DERBY GROVE,,,7,,
+1971,DERBY GROVE,,,9,,
+1971,DERBY GROVE,11,,Lacey,Terence,
+1971,DERBY GROVE,13,,Richards,Anthony,
+1971,DERBY GROVE,15,,Smith,Charles,
+1971,DERBY GROVE,17,,Davies,Jas,
+1971,DERBY GROVE,22,,Paine,Jas F,
+1971,DERBY GROVE,20,,Owens,David,
+1971,DERBY GROVE,18,,Rogerson,George,
+1971,DERBY GROVE,16,,Canitelo,David,G
+1971,DERBY GROVE,14,,Hiscock,Jas,
+1971,DERBY GROVE,12,,Grace,Thomas,
+1971,DERBY GROVE,10,,Suilley,Peter,
+1971,DERBY GROVE,8,,Oliver,Basil,
+1971,DERBY GROVE,6,,Cootes,Derrick,S
+1971,DERBY GROVE,4,,Otton,Terence,W
+1971,DERBY GROVE,2,,Johnson,Kenneth,
 1971,DEVON PLACE,1,,Knock,Gordon,
 1971,DEVON PLACE,,,2,,
 1971,DEVON PLACE,3,,Davies,Frank,
@@ -12972,6 +12986,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,DON CLOSE,1116,,Davis,Kenneth R,
 1971,DON CLOSE,120,,Jackson,Frederick,
 1971,DON CLOSE,122,,Wallace,E. A,
+1971,DON CLOSE,,,DOS COTTAGES.,,
 1971,DOS ROAD,,,Map C 6.,,
 1971,DOS ROAD,,,Left side.,,
 1971,DOS ROAD,1,,Price,T,
@@ -15471,6 +15486,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,FIRBANK Crescent,,,5 Daymond Sidney L,,
 1971,FIRBANK Crescent,,,3 Berwick Mrs. P,,
 1971,FIRBANK Crescent,,,1 Dinwoodie B,,
+1971,FIRE STATION,,,COTTAGES.,,
 1971,FISHER CLOSE,,,From 111 Hove circle.,,
 1971,FISHER CLOSE,,,Left side.,,
 1971,FISHER CLOSE,,,1 Berry G. E,,
@@ -15704,6 +15720,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,FREDERICK STREET,,,1 Gillard Mrs. H. D,,
 1971,FREDERICK STREET,,,Gwent Contractors' Plant,,
 1971,FREDERICK STREET,,,Hire Co. Ltd. (yard),,
+1971,FREDERICK STREET,,,FRIARS CHAMBERS.,,
 1971,FRIARS CRESCENT,,,From 2 Friars road to 121,,
 1971,FRIARS CRESCENT,,,Stow hill. Map E 7,,
 1971,FRIARS CRESCENT,,,Left side.,,
@@ -15912,6 +15929,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,FROME WALK,60,.,Durant,Frederick,
 1971,FROME WALK,58,.,Hampton,Philip M,
 1971,FROME WALK,.,here is Gaer Park hill,.,.,
+1971,FROME WALK,,,FULFORD COTTAGES,,
 1971,GAER PARK AVENUE,,,From 22 Gaer Park drive.,,
 1971,GAER PARK AVENUE,,,Map E 9.,,
 1971,GAER PARK AVENUE,,,Left side.,,
@@ -17160,18 +17178,19 @@ year,street,house_number,building_name,surname,forename,trade
 1971,GLASLLWCH LANE,... here is Western av......,,... here is Western av......,,
 1971,GLASLLWCH LANE,...here is Western av......,,...here is Western av......,,
 1971,GLASLLWCH LANE,...here is Western av......,,...here is Western av......,,
-1971,GLASS WORKS COTTAGES,Right side.,,Right side.,,
-1971,GLASS WORKS COTTAGES,2 Smith Rt D,2,Smith,Rt D,
-1971,GLASS WORKS COTTAGES,3 Saunders Arth,3,Saunders,Arth,
-1971,GLASS WORKS COTTAGES,4 Beagen Wm.G,4,Beagen,WilliamG,
-1971,GLASS WORKS COTTAGES,5 McManigan Mrs. M,5,McManigan,Mrs. M,
-1971,GLASS WORKS COTTAGES,... here cross over,,... here cross over,,
-1971,GLASS WORKS COTTAGES,6 Chapman Mrs. S,6,Chapman,Mrs. S,
-1971,GLASS WORKS COTTAGES,7 Clayton Harry,7,Clayton,Harry,
-1971,GLASS WORKS COTTAGES,8 Lewis Hy,8,Lewis,Hy,
-1971,GLASS WORKS COTTAGES,9 Chapman Regnld. Jn,9,Chapman,Regnld. Jn,
-1971,GLASS WORKS COTTAGES,10 Holder Hy. J,10,Holder,Hy. J,
-1971,GLASS WORKS COTTAGES,344,,,NEWPORT,
+1971,GLASLLWCH LANE,GLASS WORKS COTTAGES.,,GLASS WORKS COTTAGES.,,
+1971,GLASLLWCH LANE,Right side.,,Right side.,,
+1971,GLASLLWCH LANE,2 Smith Rt D,2,Smith,Rt D,
+1971,GLASLLWCH LANE,3 Saunders Arth,3,Saunders,Arth,
+1971,GLASLLWCH LANE,4 Beagen Wm.G,4,Beagen,WilliamG,
+1971,GLASLLWCH LANE,5 McManigan Mrs. M,5,McManigan,Mrs. M,
+1971,GLASLLWCH LANE,... here cross over,,... here cross over,,
+1971,GLASLLWCH LANE,6 Chapman Mrs. S,6,Chapman,Mrs. S,
+1971,GLASLLWCH LANE,7 Clayton Harry,7,Clayton,Harry,
+1971,GLASLLWCH LANE,8 Lewis Hy,8,Lewis,Hy,
+1971,GLASLLWCH LANE,9 Chapman Regnld. Jn,9,Chapman,Regnld. Jn,
+1971,GLASLLWCH LANE,10 Holder Hy. J,10,Holder,Hy. J,
+1971,GLASLLWCH LANE,344,,,NEWPORT,
 1971,GLOSTER STREET,,,STREET DIRECTORY.,,345
 1971,GLOSTER STREET,21,,Monmouthshire County Council Further Education Dept.,29,Poole Colin J
 1971,GLOSTER STREET,,,,31,Wallace Mrs. M
@@ -17776,96 +17795,97 @@ year,street,house_number,building_name,surname,forename,trade
 1971,GRAIG PARK LANE,\,\,Graig,Park Gospel Hall,
 1971,GRAIG PARK LANE,7,\,Frettler,Leslie,\
 1971,GRAIG PARK LANE,7,\,\,,
-1971,GRAIG PARK VILLAS,\,\,\,\,\
-1971,GRAIG PARK VILLAS,\,\,From,8 Graig Park road to,
-1971,GRAIG PARK VILLAS,\,\,\,\,2 Graig Park avenue
-1971,GRAIG PARK VILLAS,\,\,\,\,Map A 6
-1971,GRAIG PARK VILLAS,\,\,\,\,Left side
-1971,GRAIG PARK VILLAS,2,\,Roberts,Trevellan,S. G
-1971,GRAIG PARK VILLAS,2,\,\,,
-1971,GRAIG PARK VILLAS,4,\,Spencer,Clifford,\
-1971,GRAIG PARK VILLAS,4,\,\,,
-1971,GRAIG PARK VILLAS,6,\,Snell,William,\
-1971,GRAIG PARK VILLAS,6,\,\,,
-1971,GRAIG PARK VILLAS,8,\,Brown,William,\
-1971,GRAIG PARK VILLAS,8,\,\,,
-1971,GRAIG PARK VILLAS,10,\,Parry,Albt. P,\
-1971,GRAIG PARK VILLAS,10,\,\,,
-1971,GRAIG PARK VILLAS,12,\,Palmer,George,\
-1971,GRAIG PARK VILLAS,12,\,\,,
-1971,GRAIG PARK VILLAS,14,\,Cheetham,Mrs. Ellen,\
-1971,GRAIG PARK VILLAS,14,\,\,,
-1971,GRAIG PARK VILLAS,16,\,Foley,Clara,\
-1971,GRAIG PARK VILLAS,16,\,\,,
-1971,GRAIG PARK VILLAS,18,\,Crump,Mrs. E,\
-1971,GRAIG PARK VILLAS,18,\,\,,
-1971,GRAIG PARK VILLAS,20,\,Hilliar,Sydney,\
-1971,GRAIG PARK VILLAS,20,\,\,,
-1971,GRAIG PARK VILLAS,22,\,Evans,Albt,\
-1971,GRAIG PARK VILLAS,22,\,\,,
-1971,GRAIG PARK VILLAS,24,\,Lewis,L. E,\
-1971,GRAIG PARK VILLAS,24,\,\,,
-1971,GRAIG PARK VILLAS,26,\,Erskine,Jnthn. G,\
-1971,GRAIG PARK VILLAS,26,\,\,,
-1971,GRAIG PARK VILLAS,28,\,Lewis,Margt,\
-1971,GRAIG PARK VILLAS,28,\,\,,
-1971,GRAIG PARK VILLAS,\,\,\,\,\
-1971,GRAIG PARK VILLAS,\,\,here,cross over,
-1971,GRAIG PARK VILLAS,31,\,Bowden,William. L,\
-1971,GRAIG PARK VILLAS,31,\,\,,
-1971,GRAIG PARK VILLAS,29,\,Monks,Stephen J,\
-1971,GRAIG PARK VILLAS,29,\,\,,
-1971,GRAIG PARK VILLAS,27,\,Griffiths,Rt,\
-1971,GRAIG PARK VILLAS,27,\,\,,
-1971,GRAIG PARK VILLAS,25,\,Parry,Jack,\
-1971,GRAIG PARK VILLAS,25,\,\,,
-1971,GRAIG PARK VILLAS,23,\,Penhale,B,\
-1971,GRAIG PARK VILLAS,23,\,\,,
-1971,GRAIG PARK VILLAS,21,\,Bishop,Arth. J,\
-1971,GRAIG PARK VILLAS,21,\,\,,
-1971,GRAIG PARK VILLAS,19,\,Saunders,Allan,\
-1971,GRAIG PARK VILLAS,19,\,\,,
-1971,GRAIG PARK VILLAS,17,\,Owen,Jn H,\
-1971,GRAIG PARK VILLAS,17,\,\,,
-1971,GRAIG PARK VILLAS,15,\,Williams,Edwin J,\
-1971,GRAIG PARK VILLAS,15,\,\,,
-1971,GRAIG PARK VILLAS,13,\,Pretlove,Frank,\
-1971,GRAIG PARK VILLAS,13,\,\,,
-1971,GRAIG PARK VILLAS,11,\,Reynolds,Mrs,\
-1971,GRAIG PARK VILLAS,11,\,\,,
-1971,GRAIG PARK VILLAS,9,\,Ball,Maurice O,\
-1971,GRAIG PARK VILLAS,9,\,\,,
-1971,GRAIG PARK VILLAS,7,\,Brewster,Brian,\
-1971,GRAIG PARK VILLAS,7,\,\,,
-1971,GRAIG PARK VILLAS,28,\,Johns,Mrs. C. M,\
-1971,GRAIG PARK VILLAS,28,\,\,,
-1971,GRAIG PARK VILLAS,26,\,Harrald,Charles H,\
-1971,GRAIG PARK VILLAS,26,\,\,,
-1971,GRAIG PARK VILLAS,24,\,Taylor,Denis M,\
-1971,GRAIG PARK VILLAS,24,\,\,,
-1971,GRAIG PARK VILLAS,22,\,Holder,Regnld,\
-1971,GRAIG PARK VILLAS,22,\,\,,
-1971,GRAIG PARK VILLAS,20,\,Hussett,Rodney B,\
-1971,GRAIG PARK VILLAS,20,\,\,,
-1971,GRAIG PARK VILLAS,18,\,Smith,Mrs. Lilian,\
-1971,GRAIG PARK VILLAS,18,\,\,,
-1971,GRAIG PARK VILLAS,16,\,Brown,Edwd. O,\
-1971,GRAIG PARK VILLAS,16,\,\,,
-1971,GRAIG PARK VILLAS,14,\,Mullins,Jsph,\
-1971,GRAIG PARK VILLAS,14,\,\,,
-1971,GRAIG PARK VILLAS,12,\,Hern,Thomas,\
-1971,GRAIG PARK VILLAS,12,\,\,,
-1971,GRAIG PARK VILLAS,10,\,Bigglestone,Donald J,\
-1971,GRAIG PARK VILLAS,10,\,\,,
-1971,GRAIG PARK VILLAS,8,\,Hall,Miss E,\
-1971,GRAIG PARK VILLAS,8,\,\,,
-1971,GRAIG PARK VILLAS,6,\,Collins,William,\
-1971,GRAIG PARK VILLAS,6,\,\,,
-1971,GRAIG PARK VILLAS,4,\,Blackwell,Terence H,\
-1971,GRAIG PARK VILLAS,4,\,\,,
-1971,GRAIG PARK VILLAS,2,\,Edwards,William. H,\
-1971,GRAIG PARK VILLAS,2,\,\,,
-1971,GRAIG PARK VILLAS,\,\,\,\,here is Graig Park rd
+1971,GRAIG PARK LANE,,,GRAIG PARK VILLAS.,,
+1971,GRAIG PARK LANE,\,\,\,\,\
+1971,GRAIG PARK LANE,\,\,From,8 Graig Park road to,
+1971,GRAIG PARK LANE,\,\,\,\,2 Graig Park avenue
+1971,GRAIG PARK LANE,\,\,\,\,Map A 6
+1971,GRAIG PARK LANE,\,\,\,\,Left side
+1971,GRAIG PARK LANE,2,\,Roberts,Trevellan,S. G
+1971,GRAIG PARK LANE,2,\,\,,
+1971,GRAIG PARK LANE,4,\,Spencer,Clifford,\
+1971,GRAIG PARK LANE,4,\,\,,
+1971,GRAIG PARK LANE,6,\,Snell,William,\
+1971,GRAIG PARK LANE,6,\,\,,
+1971,GRAIG PARK LANE,8,\,Brown,William,\
+1971,GRAIG PARK LANE,8,\,\,,
+1971,GRAIG PARK LANE,10,\,Parry,Albt. P,\
+1971,GRAIG PARK LANE,10,\,\,,
+1971,GRAIG PARK LANE,12,\,Palmer,George,\
+1971,GRAIG PARK LANE,12,\,\,,
+1971,GRAIG PARK LANE,14,\,Cheetham,Mrs. Ellen,\
+1971,GRAIG PARK LANE,14,\,\,,
+1971,GRAIG PARK LANE,16,\,Foley,Clara,\
+1971,GRAIG PARK LANE,16,\,\,,
+1971,GRAIG PARK LANE,18,\,Crump,Mrs. E,\
+1971,GRAIG PARK LANE,18,\,\,,
+1971,GRAIG PARK LANE,20,\,Hilliar,Sydney,\
+1971,GRAIG PARK LANE,20,\,\,,
+1971,GRAIG PARK LANE,22,\,Evans,Albt,\
+1971,GRAIG PARK LANE,22,\,\,,
+1971,GRAIG PARK LANE,24,\,Lewis,L. E,\
+1971,GRAIG PARK LANE,24,\,\,,
+1971,GRAIG PARK LANE,26,\,Erskine,Jnthn. G,\
+1971,GRAIG PARK LANE,26,\,\,,
+1971,GRAIG PARK LANE,28,\,Lewis,Margt,\
+1971,GRAIG PARK LANE,28,\,\,,
+1971,GRAIG PARK LANE,\,\,\,\,\
+1971,GRAIG PARK LANE,\,\,here,cross over,
+1971,GRAIG PARK LANE,31,\,Bowden,William. L,\
+1971,GRAIG PARK LANE,31,\,\,,
+1971,GRAIG PARK LANE,29,\,Monks,Stephen J,\
+1971,GRAIG PARK LANE,29,\,\,,
+1971,GRAIG PARK LANE,27,\,Griffiths,Rt,\
+1971,GRAIG PARK LANE,27,\,\,,
+1971,GRAIG PARK LANE,25,\,Parry,Jack,\
+1971,GRAIG PARK LANE,25,\,\,,
+1971,GRAIG PARK LANE,23,\,Penhale,B,\
+1971,GRAIG PARK LANE,23,\,\,,
+1971,GRAIG PARK LANE,21,\,Bishop,Arth. J,\
+1971,GRAIG PARK LANE,21,\,\,,
+1971,GRAIG PARK LANE,19,\,Saunders,Allan,\
+1971,GRAIG PARK LANE,19,\,\,,
+1971,GRAIG PARK LANE,17,\,Owen,Jn H,\
+1971,GRAIG PARK LANE,17,\,\,,
+1971,GRAIG PARK LANE,15,\,Williams,Edwin J,\
+1971,GRAIG PARK LANE,15,\,\,,
+1971,GRAIG PARK LANE,13,\,Pretlove,Frank,\
+1971,GRAIG PARK LANE,13,\,\,,
+1971,GRAIG PARK LANE,11,\,Reynolds,Mrs,\
+1971,GRAIG PARK LANE,11,\,\,,
+1971,GRAIG PARK LANE,9,\,Ball,Maurice O,\
+1971,GRAIG PARK LANE,9,\,\,,
+1971,GRAIG PARK LANE,7,\,Brewster,Brian,\
+1971,GRAIG PARK LANE,7,\,\,,
+1971,GRAIG PARK LANE,28,\,Johns,Mrs. C. M,\
+1971,GRAIG PARK LANE,28,\,\,,
+1971,GRAIG PARK LANE,26,\,Harrald,Charles H,\
+1971,GRAIG PARK LANE,26,\,\,,
+1971,GRAIG PARK LANE,24,\,Taylor,Denis M,\
+1971,GRAIG PARK LANE,24,\,\,,
+1971,GRAIG PARK LANE,22,\,Holder,Regnld,\
+1971,GRAIG PARK LANE,22,\,\,,
+1971,GRAIG PARK LANE,20,\,Hussett,Rodney B,\
+1971,GRAIG PARK LANE,20,\,\,,
+1971,GRAIG PARK LANE,18,\,Smith,Mrs. Lilian,\
+1971,GRAIG PARK LANE,18,\,\,,
+1971,GRAIG PARK LANE,16,\,Brown,Edwd. O,\
+1971,GRAIG PARK LANE,16,\,\,,
+1971,GRAIG PARK LANE,14,\,Mullins,Jsph,\
+1971,GRAIG PARK LANE,14,\,\,,
+1971,GRAIG PARK LANE,12,\,Hern,Thomas,\
+1971,GRAIG PARK LANE,12,\,\,,
+1971,GRAIG PARK LANE,10,\,Bigglestone,Donald J,\
+1971,GRAIG PARK LANE,10,\,\,,
+1971,GRAIG PARK LANE,8,\,Hall,Miss E,\
+1971,GRAIG PARK LANE,8,\,\,,
+1971,GRAIG PARK LANE,6,\,Collins,William,\
+1971,GRAIG PARK LANE,6,\,\,,
+1971,GRAIG PARK LANE,4,\,Blackwell,Terence H,\
+1971,GRAIG PARK LANE,4,\,\,,
+1971,GRAIG PARK LANE,2,\,Edwards,William. H,\
+1971,GRAIG PARK LANE,2,\,\,,
+1971,GRAIG PARK LANE,\,\,\,\,here is Graig Park rd
 1971,GRAIG PARK PARADE,\,\,\,\,\
 1971,GRAIG PARK PARADE,\,\,From,1 Graig Park road to,
 1971,GRAIG PARK PARADE,\,\,\,\,14 Graig Park avenue
@@ -21696,6 +21716,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,KENSINGTON PLACE,8,,Ryley Dennis,,
 1971,KENSINGTON PLACE,9,,Crisp Wm,E,
 1971,KENSINGTON PLACE,9,,(rear of),Fisk G.,S. bldr
+1971,KINGS ACRE,,,KING'S CHAMBERS.,,
 1971,KING's PARADE,4,,Mahoney James,& Co. Ltd.,scrap iron & metal mers
 1971,KING's PARADE,6,,Pritchard Thos.,C,
 1971,KING's PARADE,8,,Hourihane Edwd,,
@@ -22567,6 +22588,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,LEICESTER ROAD,35,,Giblin,Anthony S,
 1971,LEICESTER ROAD,37,,Griffiths,Patrick J,
 1971,LEICESTER ROAD,39,,Burnap,V,
+1971,LEICESTER ROAD,,,LEICESTER HOUSE CHAMBERS.,,
 1971,LEICESTER ROAD,,,From 103 Duckpool road. Map D 5. (No thoroughfare.),,
 1971,LEICESTER ROAD,,,Left side.,,
 1971,LEICESTER ROAD,3,,Jones,Arth. O,
@@ -23157,43 +23179,44 @@ year,street,house_number,building_name,surname,forename,trade
 1971,LIVALE CLOSE,21,,Davies,T,
 1971,LIVALE CLOSE,23,,Tucker,Melville B,
 1971,LIVALE CLOSE,25,,Marriott,W. A,
-1971,LIVALE COURT,,,From 45 Livale road.,,
-1971,LIVALE COURT,,,Left side.,,
-1971,LIVALE COURT,1,,Williams,A. E,
-1971,LIVALE COURT,3,,Davies,T,
-1971,LIVALE COURT,5,,Lamb,B. C,
-1971,LIVALE COURT,7,,Hendy,B. J,
-1971,LIVALE COURT,9,,Davies,"B. G, H",
-1971,LIVALE COURT,11,,Parry,A. L,
-1971,LIVALE COURT,13,,Morgan,G,
-1971,LIVALE COURT,15,,Holmes,Jas D,
-1971,LIVALE COURT,17,,Morris,David T,
-1971,LIVALE COURT,19,,Reynolds,Edwd.,
-1971,LIVALE COURT,21,,McCarthy,S. J,
-1971,LIVALE COURT,23,,Capel,Ronald L.,
-1971,LIVALE COURT,25,,Sterry,L,
-1971,LIVALE COURT,27,,Stringer,Bevan W,
-1971,LIVALE COURT,29,,Leadley,Ethel M,
-1971,LIVALE COURT,31,,Yorston,Gertrude,
-1971,LIVALE COURT,33,,Palmer,Mrs. G. M,
-1971,LIVALE COURT,35,,Collins,E. M,
-1971,LIVALE COURT,,,Right side.,,
-1971,LIVALE COURT,32,,Bead,Mrs. F. L,
-1971,LIVALE COURT,30,,Abbott,J. M,
-1971,LIVALE COURT,28,,Logan,"Mrs. E, C",
-1971,LIVALE COURT,26,,Newsway,R. S,
-1971,LIVALE COURT,24,,Evans,A. J,
-1971,LIVALE COURT,22,,Boots,C. V,
-1971,LIVALE COURT,20,,Fletcher,Clynton J,
-1971,LIVALE COURT,18,,Meredith,Jas B,
-1971,LIVALE COURT,16,,Molloy,J. J,
-1971,LIVALE COURT,14,,Stock,J,
-1971,LIVALE COURT,12,,Rich,J. G,
-1971,LIVALE COURT,10,,Hale,Gordon,
-1971,LIVALE COURT,8,,Williams,K. L,
-1971,LIVALE COURT,6,,Truman,W. A,
-1971,LIVALE COURT,4,,Oakey,Bernard,
-1971,LIVALE COURT,2,,Jeffreys,Ethel,
+1971,LIVALE CLOSE,,,LIVALE COURT.,,
+1971,LIVALE CLOSE,,,From 45 Livale road.,,
+1971,LIVALE CLOSE,,,Left side.,,
+1971,LIVALE CLOSE,1,,Williams,A. E,
+1971,LIVALE CLOSE,3,,Davies,T,
+1971,LIVALE CLOSE,5,,Lamb,B. C,
+1971,LIVALE CLOSE,7,,Hendy,B. J,
+1971,LIVALE CLOSE,9,,Davies,"B. G, H",
+1971,LIVALE CLOSE,11,,Parry,A. L,
+1971,LIVALE CLOSE,13,,Morgan,G,
+1971,LIVALE CLOSE,15,,Holmes,Jas D,
+1971,LIVALE CLOSE,17,,Morris,David T,
+1971,LIVALE CLOSE,19,,Reynolds,Edwd.,
+1971,LIVALE CLOSE,21,,McCarthy,S. J,
+1971,LIVALE CLOSE,23,,Capel,Ronald L.,
+1971,LIVALE CLOSE,25,,Sterry,L,
+1971,LIVALE CLOSE,27,,Stringer,Bevan W,
+1971,LIVALE CLOSE,29,,Leadley,Ethel M,
+1971,LIVALE CLOSE,31,,Yorston,Gertrude,
+1971,LIVALE CLOSE,33,,Palmer,Mrs. G. M,
+1971,LIVALE CLOSE,35,,Collins,E. M,
+1971,LIVALE CLOSE,,,Right side.,,
+1971,LIVALE CLOSE,32,,Bead,Mrs. F. L,
+1971,LIVALE CLOSE,30,,Abbott,J. M,
+1971,LIVALE CLOSE,28,,Logan,"Mrs. E, C",
+1971,LIVALE CLOSE,26,,Newsway,R. S,
+1971,LIVALE CLOSE,24,,Evans,A. J,
+1971,LIVALE CLOSE,22,,Boots,C. V,
+1971,LIVALE CLOSE,20,,Fletcher,Clynton J,
+1971,LIVALE CLOSE,18,,Meredith,Jas B,
+1971,LIVALE CLOSE,16,,Molloy,J. J,
+1971,LIVALE CLOSE,14,,Stock,J,
+1971,LIVALE CLOSE,12,,Rich,J. G,
+1971,LIVALE CLOSE,10,,Hale,Gordon,
+1971,LIVALE CLOSE,8,,Williams,K. L,
+1971,LIVALE CLOSE,6,,Truman,W. A,
+1971,LIVALE CLOSE,4,,Oakey,Bernard,
+1971,LIVALE CLOSE,2,,Jeffreys,Ethel,
 1971,LIVALE ROAD,,,From 7/10 Monnow way.,,
 1971,LIVALE ROAD,,,Left side,,
 1971,LIVALE ROAD,1,,Connor,M,
@@ -23336,6 +23359,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,LIVINGSTONE Place,20,,Ashman,Mervyn,C
 1971,LIVINGSTONE Place,21,,Hughes,William.,F
 1971,LIVINGSTONE Place,22,,Williams,Iorwerth,L
+1971,LIVINGSTONE Place,,,LLANOVER ESTATE BUILDINGS.,,
 1971,LLANTHEWY ROAD,,,Right side.,,
 1971,LLANTHEWY ROAD,2,,Taylor,Bertie,
 1971,LLANTHEWY ROAD,,,4,,
@@ -23991,29 +24015,30 @@ year,street,house_number,building_name,surname,forename,trade
 1971,LLOYD STREET,6,,Adams,T. M,
 1971,LLOYD STREET,4,,Hall,Ronald,
 1971,LLOYD STREET,2,,Paginton,William. J,
-1971,CHAMBERS,16,,Lewis,Peter,
-1971,CHAMBERS,14,,Payne,Florence M,
-1971,CHAMBERS,12,,Cawley,Jn,
-1971,CHAMBERS,10,,Ludlow,M,
-1971,CHAMBERS,10,,Tame,R. F,
-1971,CHAMBERS,8,,Joseph,"B, C",
-1971,CHAMBERS,6,,Baines,Edwd,
-1971,CHAMBERS,4,,Wall,W. J,
-1971,CHAMBERS,2,,Francis,M. G,
-1971,CHAMBERS,,,,Left side.,
-1971,CHAMBERS,27,,Lewis,William,
-1971,CHAMBERS,25,,Bell,Michl D,
-1971,CHAMBERS,23,,Key,Gary E,
-1971,CHAMBERS,21,,Guerra,Dennis J,
-1971,CHAMBERS,19,,Rogers,Heather,
-1971,CHAMBERS,17,,Dore,Granville R,
-1971,CHAMBERS,15,,Hoskin,B,
-1971,CHAMBERS,13,,Clements,M. C,
-1971,CHAMBERS,11,,Francis,Terence D,
-1971,CHAMBERS,9,,Thomas,Trevor G,
-1971,CHAMBERS,5,,Lewis,Gwilliam,
-1971,CHAMBERS,3,,Thomas,Miss L. L. O,
-1971,CHAMBERS,1,,Jones,Regnkd. T,
+1971,LLOYDS BANK,,,CHAMBERS.,,
+1971,LLOYDS BANK,16,,Lewis,Peter,
+1971,LLOYDS BANK,14,,Payne,Florence M,
+1971,LLOYDS BANK,12,,Cawley,Jn,
+1971,LLOYDS BANK,10,,Ludlow,M,
+1971,LLOYDS BANK,10,,Tame,R. F,
+1971,LLOYDS BANK,8,,Joseph,"B, C",
+1971,LLOYDS BANK,6,,Baines,Edwd,
+1971,LLOYDS BANK,4,,Wall,W. J,
+1971,LLOYDS BANK,2,,Francis,M. G,
+1971,LLOYDS BANK,,,,Left side.,
+1971,LLOYDS BANK,27,,Lewis,William,
+1971,LLOYDS BANK,25,,Bell,Michl D,
+1971,LLOYDS BANK,23,,Key,Gary E,
+1971,LLOYDS BANK,21,,Guerra,Dennis J,
+1971,LLOYDS BANK,19,,Rogers,Heather,
+1971,LLOYDS BANK,17,,Dore,Granville R,
+1971,LLOYDS BANK,15,,Hoskin,B,
+1971,LLOYDS BANK,13,,Clements,M. C,
+1971,LLOYDS BANK,11,,Francis,Terence D,
+1971,LLOYDS BANK,9,,Thomas,Trevor G,
+1971,LLOYDS BANK,5,,Lewis,Gwilliam,
+1971,LLOYDS BANK,3,,Thomas,Miss L. L. O,
+1971,LLOYDS BANK,1,,Jones,Regnkd. T,
 1971,LLOYD ROAD,,,,From 42 Oakfield road to,
 1971,LLOYD ROAD,,,,Edward VII avenue.,
 1971,LLOYD ROAD,,,,Map D 8.,
@@ -26238,6 +26263,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,MAUGHAM CLOSE,,,6,Fletcher,Mrs. S
 1971,MAUGHAM CLOSE,,,4,Virgo,Thos. Hy
 1971,MAUGHAM CLOSE,,,2,Stephens,Thos. R
+1971,MAUGHAM CLOSE,,,MARTINS BANK CHAMBERS.,,
 1971,MASEFIELD VALE,,,Gaer,Estate.,
 1971,MASEFIELD VALE,,,Left,side.,
 1971,MASEFIELD VALE,,,1,Ward,Roy
@@ -26363,41 +26389,42 @@ year,street,house_number,building_name,surname,forename,trade
 1971,MEDWAY CLOSE,,,16,Cripps,David
 1971,MEDWAY CLOSE,,,18,Small,Graham
 1971,MEDWAY CLOSE,,,20,Jones,Stanley
-1971,MEDWAY COURT,,,,(No,thoroughfare.)
-1971,MEDWAY COURT,,,,Left,side
-1971,MEDWAY COURT,,,1,Block,May
-1971,MEDWAY COURT,,,3,Carvell,I
-1971,MEDWAY COURT,,,5,Austin,Rd H
-1971,MEDWAY COURT,,,7,Williams,Alan
-1971,MEDWAY COURT,,,9,Brewis,E
-1971,MEDWAY COURT,,,11,Doran,Anthony D
-1971,MEDWAY COURT,,,13,Fisher,I. M
-1971,MEDWAY COURT,,,15,Davies,Brynmor T
-1971,MEDWAY COURT,,,17,Morris,Jn R
-1971,MEDWAY COURT,,,19,Bryan,Lyndon R
-1971,MEDWAY COURT,,,21,,
-1971,MEDWAY COURT,,,23,Sullivan,J
-1971,MEDWAY COURT,,,25,Yalland,Michl J
-1971,MEDWAY COURT,,,27,Fox,M
-1971,MEDWAY COURT,,,29,Jones,Bryn T
-1971,MEDWAY COURT,,,31,Jenkins,Thos C
-1971,MEDWAY COURT,,,33,Girling,Wm S
-1971,MEDWAY COURT,,,35,Boshier,Hy
-1971,MEDWAY COURT,,J,37,Jenkins,Raymond
-1971,MEDWAY COURT,,,39,Penning,Wm
-1971,MEDWAY COURT,,,,...here,cross over
-1971,MEDWAY COURT,,,2,Horton,N. A
-1971,MEDWAY COURT,4,,Sheppard,Charles,
-1971,MEDWAY COURT,6,,McCarthy,Mary,
-1971,MEDWAY COURT,8,,Goodwin,George,
-1971,MEDWAY COURT,10,,Hill,Gregory,
-1971,MEDWAY COURT,12,,Thomas,Lyndon,
-1971,MEDWAY COURT,14,,Cook,Raymond,
-1971,MEDWAY COURT,16,,Davies,Graham,
-1971,MEDWAY COURT,18,,Zaliock,P,
-1971,MEDWAY COURT,20,,Bevan,Kenneth,
-1971,MEDWAY COURT,22,,Lee,Edward,
-1971,MEDWAY COURT,STREET DIRECTORY,,395,,
+1971,MEDWAY CLOSE,,,MEDWAY COURT.,,
+1971,MEDWAY CLOSE,,,,(No,thoroughfare.)
+1971,MEDWAY CLOSE,,,,Left,side
+1971,MEDWAY CLOSE,,,1,Block,May
+1971,MEDWAY CLOSE,,,3,Carvell,I
+1971,MEDWAY CLOSE,,,5,Austin,Rd H
+1971,MEDWAY CLOSE,,,7,Williams,Alan
+1971,MEDWAY CLOSE,,,9,Brewis,E
+1971,MEDWAY CLOSE,,,11,Doran,Anthony D
+1971,MEDWAY CLOSE,,,13,Fisher,I. M
+1971,MEDWAY CLOSE,,,15,Davies,Brynmor T
+1971,MEDWAY CLOSE,,,17,Morris,Jn R
+1971,MEDWAY CLOSE,,,19,Bryan,Lyndon R
+1971,MEDWAY CLOSE,,,21,,
+1971,MEDWAY CLOSE,,,23,Sullivan,J
+1971,MEDWAY CLOSE,,,25,Yalland,Michl J
+1971,MEDWAY CLOSE,,,27,Fox,M
+1971,MEDWAY CLOSE,,,29,Jones,Bryn T
+1971,MEDWAY CLOSE,,,31,Jenkins,Thos C
+1971,MEDWAY CLOSE,,,33,Girling,Wm S
+1971,MEDWAY CLOSE,,,35,Boshier,Hy
+1971,MEDWAY CLOSE,,J,37,Jenkins,Raymond
+1971,MEDWAY CLOSE,,,39,Penning,Wm
+1971,MEDWAY CLOSE,,,,...here,cross over
+1971,MEDWAY CLOSE,,,2,Horton,N. A
+1971,MEDWAY CLOSE,4,,Sheppard,Charles,
+1971,MEDWAY CLOSE,6,,McCarthy,Mary,
+1971,MEDWAY CLOSE,8,,Goodwin,George,
+1971,MEDWAY CLOSE,10,,Hill,Gregory,
+1971,MEDWAY CLOSE,12,,Thomas,Lyndon,
+1971,MEDWAY CLOSE,14,,Cook,Raymond,
+1971,MEDWAY CLOSE,16,,Davies,Graham,
+1971,MEDWAY CLOSE,18,,Zaliock,P,
+1971,MEDWAY CLOSE,20,,Bevan,Kenneth,
+1971,MEDWAY CLOSE,22,,Lee,Edward,
+1971,MEDWAY CLOSE,STREET DIRECTORY,,395,,
 1971,MEDWAY ROAD,,,Left side.,,
 1971,MEDWAY ROAD,1,,Down,S. T,
 1971,MEDWAY ROAD,3,,Holmes,Brian A,
@@ -26878,6 +26905,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,MEON CLOSE,6,,Hicks Mrs. A,,
 1971,MEON CLOSE,4,,Elliott V. L,,
 1971,MEON CLOSE,2,,Troake Mrs. A,,
+1971,MEON CLOSE,,,MERCANTILE CHAMBERS.,,
 1971,MEREDITH CLOSE,,,Gaer Estate.,,
 1971,MEREDITH CLOSE,,,From 13 Rupert Brooke,,
 1971,MEREDITH CLOSE,,,drive. Map E 9.,,
@@ -27350,6 +27378,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,MILTON ROAD,4,|,|,,
 1971,MILTON ROAD,2,|,Slocombe Sidney,|,|
 1971,MILTON ROAD,2,|,|,,
+1971,MILTON ROAD,MODERATOR WHARF.,|,|,|,|
 1971,MOLE CLOSE,From 129 Medway road,|,|,|,|
 1971,MOLE CLOSE,Map A 7.,|,|,|,|
 1971,MOLE CLOSE,(No thoroughfare.),|,|,|,|
@@ -29555,6 +29584,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,OLD CARDIFF ROAD,17,,St. Thomas's Church,St. Thomas' Church Hall,
 1971,OLD CARDIFF ROAD,23,,Tapsell,A. J,
 1971,OLD CARDIFF ROAD,6,,Ansen,William,
+1971,OLD CARDIFF ROAD,,,OLD COTTAGES.,,
 1971,OLD HILL,Christchurch.,,From Christchurch road.,"Map E 1, E 2.",
 1971,OLD HILL,,,Left side.,,
 1971,OLD HILL,Greyhound Inn,,,Purnell,Jn S. (Tolcarne)
@@ -31079,6 +31109,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,PONT FAEN ROAD,18,,Bajjada,Anthony F,
 1971,PONT FAEN ROAD,16,,Graham,Douglas C,
 1971,POOL LANE,,,(No thoroughfare.),,
+1971,POOL LANE,,,POPLAR COTTAGES,,
 1971,POPLAR ROAD,,,From 10 Acacia avenue. Map F 3.,,
 1971,POPLAR ROAD,,,Left side.,,
 1971,POPLAR ROAD,1,,Wareham,Mrs,
@@ -31717,7 +31748,8 @@ year,street,house_number,building_name,surname,forename,trade
 1971,QUEEN VICTORIA MEMORIAL ALMS-HOUSES,6,,Stevens Ernest,,
 1971,QUEEN VICTORIA MEMORIAL ALMS-HOUSES,4,,Watts Alex,,
 1971,QUEEN VICTORIA MEMORIAL ALMS-HOUSES,2,,Williams Myrs B,,
-1971,QUEEN's CHAMBERS,,,424,,
+1971,QUEEN VICTORIA MEMORIAL ALMS-HOUSES,,,QUEEN'S CHAMBERS.,,
+1971,QUEEN VICTORIA MEMORIAL ALMS-HOUSES,,,424,,
 1971,QUEEN's HILL,,,"Map C 6, D 6, D 7.",,
 1971,QUEEN's HILL,,,Left side.,,
 1971,QUEEN's HILL,5,,Sheehy,Mrs. B.,
@@ -32599,21 +32631,22 @@ year,street,house_number,building_name,surname,forename,trade
 1971,RIDGEWAY DRIVE,,,,27 Wentworth D. Martin,
 1971,RIDGEWAY DRIVE,,,,29 Davies Mrs. D,
 1971,RIDGEWAY DRIVE,,,,31 Sach Raymond,
-1971,RIDGEWAY COURT,,,From 8 Ridgeway crescent.,,
-1971,RIDGEWAY COURT,,,(No thoroughfare.),,
-1971,RIDGEWAY COURT,,,Map D 8.,,
-1971,RIDGEWAY COURT,,,,West side.,
-1971,RIDGEWAY COURT,,,,1 Lynch Raymond H,
-1971,RIDGEWAY COURT,,,,2 Jones Leonard W,
-1971,RIDGEWAY COURT,,,,3 Cole Miss E,
-1971,RIDGEWAY COURT,,,,3 Cochran Dulcie E,
-1971,RIDGEWAY COURT,,,,4 Harrison Doris M,
-1971,RIDGEWAY COURT,,,,[East side.,
-1971,RIDGEWAY COURT,,,,5 Paget Vincent H,
-1971,RIDGEWAY COURT,,,,6 Gale D. F,
-1971,RIDGEWAY COURT,,,,7 Lloyd Dinah,
-1971,RIDGEWAY COURT,,,,8 Tovey Arth. R,
-1971,RIDGEWAY COURT,,,,9 Evans Mrs. M,
+1971,RIDGEWAY DRIVE,,,RIDGEWAY COURT.,,
+1971,RIDGEWAY DRIVE,,,From 8 Ridgeway crescent.,,
+1971,RIDGEWAY DRIVE,,,(No thoroughfare.),,
+1971,RIDGEWAY DRIVE,,,Map D 8.,,
+1971,RIDGEWAY DRIVE,,,,West side.,
+1971,RIDGEWAY DRIVE,,,,1 Lynch Raymond H,
+1971,RIDGEWAY DRIVE,,,,2 Jones Leonard W,
+1971,RIDGEWAY DRIVE,,,,3 Cole Miss E,
+1971,RIDGEWAY DRIVE,,,,3 Cochran Dulcie E,
+1971,RIDGEWAY DRIVE,,,,4 Harrison Doris M,
+1971,RIDGEWAY DRIVE,,,,[East side.,
+1971,RIDGEWAY DRIVE,,,,5 Paget Vincent H,
+1971,RIDGEWAY DRIVE,,,,6 Gale D. F,
+1971,RIDGEWAY DRIVE,,,,7 Lloyd Dinah,
+1971,RIDGEWAY DRIVE,,,,8 Tovey Arth. R,
+1971,RIDGEWAY DRIVE,,,,9 Evans Mrs. M,
 1971,RIDGEWAY Crescent,,,From 19 Ridgeway avenue,,
 1971,RIDGEWAY Crescent,,,to 13 Ridgeway grove.,,
 1971,RIDGEWAY Crescent,,,"Map D 8, D 9.",,
@@ -34091,6 +34124,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,ROWAN WAY,182,,Copp,Ronald W,
 1971,ROWAN WAY,184,,Jones,Idris,
 1971,ROWAN WAY,186,,Martin,Barri O,
+1971,ROWAN WAY,,,ROYAL CHAMBERS.,,
 1971,ROYSTON Crescent,,,"From 47 Thompson avenue. Map G 3, G. 4.",,
 1971,ROYSTON Crescent,,,Right side.,,
 1971,ROYSTON Crescent,36,,Hall,Keith,
@@ -35760,13 +35794,15 @@ year,street,house_number,building_name,surname,forename,trade
 1971,STAFFORD ROAD,,,49,,
 1971,STAFFORD ROAD,51,,Kaighen,Edwd N,
 1971,STAFFORD ROAD,,,STREET DIRECTORY.,,
-1971,STAR BUILDINGS,58,,Macey,Alfd,
-1971,STAR BUILDINGS,55,,Williams,William. D,
-1971,STAR BUILDINGS,57,,Sullivan,Brian,
-1971,STAR BUILDINGS,,,"Scotts Engineering Holdings Ltd., precision engineers",,here is Stelvio Park cres
-1971,STAR BUILDINGS,20,,John,Thomas B,
-1971,STAR BUILDINGS,18,,Tilley,Cyril T,
-1971,STAR BUILDINGS,16,,Inker,George,
+1971,STAFFORD ROAD,,,STAR BUILDINGS.,,
+1971,STAFFORD ROAD,58,,Macey,Alfd,
+1971,STAFFORD ROAD,55,,Williams,William. D,
+1971,STAFFORD ROAD,57,,Sullivan,Brian,
+1971,STAFFORD ROAD,,,"Scotts Engineering Holdings Ltd., precision engineers",,here is Stelvio Park cres
+1971,STAFFORD ROAD,20,,John,Thomas B,
+1971,STAFFORD ROAD,18,,Tilley,Cyril T,
+1971,STAFFORD ROAD,16,,Inker,George,
+1971,STAFFORD ROAD,,,STATION CHAMBERS.,,
 1971,STATION STREET,,,Left side.,,
 1971,STATION STREET,,,Gowett,Peter A. decrtr,
 1971,STATION STREET,14,,Chapman,Terry,
@@ -39828,9 +39864,10 @@ year,street,house_number,building_name,surname,forename,trade
 1971,WESTVILLE ROAD,4,,Armstrong,Peter,
 1971,WESTVILLE ROAD,5,,O'Gonnor,Jn,
 1971,WESTVILLE ROAD,6,,Davis,Frank,
-1971,WHARF ROAD,,,Map E 5.,,
-1971,WHARF ROAD,,,Left side.,,
-1971,WHARF ROAD,3,,Reynolds,George. H,
+1971,WESTVILLE ROAD,,,WHARF ROAD.,,
+1971,WESTVILLE ROAD,,,Map E 5.,,
+1971,WESTVILLE ROAD,,,Left side.,,
+1971,WESTVILLE ROAD,3,,Reynolds,George. H,
 1971,TAYLOR,7,,Thomas,Mrs. H. E,
 1971,TAYLOR,9,,Bullock,Christphr,
 1971,TAYLOR,11,,Thompson,William,
@@ -40839,7 +40876,8 @@ year,street,house_number,building_name,surname,forename,trade
 1971,YEWBERRY LANE,,,Right side.,,
 1971,YEWBERRY LANE,,,Hy. R. (Yewberry cott),Ballantyne,
 1971,YEWBERRY LANE,,,Alan R. (The Pigeon Hole),Green,
-1971,Y.M.C.A. BUILDINGS,,,STREET DIRECTORY.,,
+1971,YEWBERRY LANE,,,Y.M.C.A. BUILDINGS.,,
+1971,YEWBERRY LANE,,,STREET DIRECTORY.,,
 1971,YORK PLACE,,,Left side.,,
 1971,YORK PLACE,1,,Lily E,James,
 1971,YORK PLACE,1,,Margt L,Thompson,
