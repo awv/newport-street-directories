@@ -2020,15 +2020,17 @@
       await loadMasterStreets();
 
       if (hash.startsWith('#search=')) {
-        const query = decodeURIComponent(hash.replace('#search=', ''));
+        const query = decodeURIComponent(hash.substring(8));
         await renderSearchView(query);
         document.getElementById('view-search').classList.add('active');
       } else if (hash.startsWith('#street=')) {
-        const street = decodeURIComponent(hash.replace('#street=', ''));
-        await renderStreetView(street);
+        const rawStreet = decodeURIComponent(hash.substring(8));
+        await renderStreetView(rawStreet);
         document.getElementById('view-street').classList.add('active');
       } else if (hash.startsWith('#house=')) {
-        const [street, locKey] = decodeURIComponent(hash.replace('#house=', '')).split('|');
+        const parts = decodeURIComponent(hash.substring(7)).split('|');
+        const street = parts[0] || '';
+        const locKey = parts[1] || '';
         await renderHouseView(street, locKey);
         document.getElementById('view-house').classList.add('active');
       } else if (hash === '#streets') {
