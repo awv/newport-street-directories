@@ -1794,23 +1794,11 @@
         .replace(/[^a-z0-9]/g, '');
     };
 
-    const formatStreetName = (str) => {
-      if (!str) return '';
-      let clean = str
-        .replace(/^"|"$/g, '')
-        .replace(/,\s*[a-zA-Z0-9\s]+\b/g, '')
-        .replace(/\.[a-z]$/gi, '')
-        .replace(/\.+$/, '')
-        .replace(/\brd\b\.?/gi, 'Road')
-        .replace(/\bst\b\.?/gi, 'Street')
-        .replace(/\bave\b\.?/gi, 'Avenue')
-        .replace(/\bter\b\.?/gi, 'Terrace')
-        .replace(/\bpl\b\.?/gi, 'Place')
-        .replace(/\bsq\b\.?/gi, 'Square')
-        .replace(/\(The\s+/gi, '(')
-        .trim();
+    function formatStreetName(name) {
+      if (!name) return '';
+      let clean = name.replace(/[-_]+/g, ' ').trim();
       return clean.replace(/\w\S*/g, (txt) => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase());
-    };
+    }
 
     function cleanOccupation(trade) {
       if (!trade || trade.trim() === '' || trade === '-') return 'Residence / Private';
