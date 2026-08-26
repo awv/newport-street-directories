@@ -1571,6 +1571,9 @@
                 <button class="era-filter-btn" onclick="filterTimeline('Victorian', this)">Victorian</button>
                 <button class="era-filter-btn" onclick="filterTimeline('Edwardian', this)">Edwardian</button>
                 <button class="era-filter-btn" onclick="filterTimeline('Interwar', this)">Interwar / Post-War</button>
+                <span style="border-left: 1px solid var(--card-border); margin: 0 0.25rem;"></span>
+                <button class="era-filter-btn active" id="btn-mode-tenure" onclick="setTimelineViewMode('tenure', this)" title="Group contiguous directory years for the same occupant/business">⏳ Tenure Ranges</button>
+                <button class="era-filter-btn" id="btn-mode-yearly" onclick="setTimelineViewMode('yearly', this)" title="Show every individual directory year edition">📜 Yearly Editions</button>
               </div>
             </div>
             <span class="label-tag" id="record-count">0 Records</span>
@@ -2744,6 +2747,60 @@
       renderTimelineItems();
     }
 
+    let currentHouseRecords = [];
+    let currentTimelineEraFilter = 'all';
+    let currentTimelineViewMode = 'tenure'; // 'tenure' (Grouped Tenure Ranges) or 'yearly' (Every Edition Year)
+    let currentActiveMediaMode = 'facade';
+
+    function setTimelineViewMode(mode, btn) {
+      currentTimelineViewMode = mode;
+      document.getElementById('btn-mode-tenure').classList.remove('active');
+      document.getElementById('btn-mode-yearly').classList.remove('active');
+      if (btn) btn.classList.add('active');
+      renderTimelineItems();
+    }
+
+    function filterTimeline(era, btn) {
+      currentTimelineEraFilter = era;
+      const eraBtns = document.querySelectorAll('.era-filter-row .era-filter-btn');
+      eraBtns.forEach(b => {
+        if (b.id !== 'btn-mode-tenure' && b.id !== 'btn-mode-yearly') b.classList.remove('active');
+      });
+      if (btn) btn.classList.add('active');
+      renderTimelineItems();
+    }
+
+    function switchMediaMode(mode) {
+      currentActiveMediaMode = mode;
+      const imgElement = document.getElementById('property-image');
+      const mapIframe = document.getElementById('property-map');
+      const btnFacade = document.getElementById('media-btn-facade');
+      const btnMap = document.getElementById('media-btn-map');
+
+      if (mode === 'facade') {
+        if (btnFacade) btnFacade.classList.add('active');
+        if (btnMap) btnMap.classList.remove('active');
+        imgElement.style.display = 'block';
+        mapIframe.style.display = 'none';
+        document.getElementById('image-caption-title').innerText = 'Archival Facade View';
+      } else {
+        if (btnMap) btnMap.classList.add('active');
+        if (btnFacade) btnFacade.classList.remove('active');
+        imgElement.style.display = 'none';
+        mapIframe.style.display = 'block';
+        document.getElementById('image-caption-title').innerText = 'Interactive Location Map';
+      }
+    }
+
+    function copyCitation() {
+      const citationText = document.getElementById('citation-text').innerText;
+      navigator.clipboard.writeText(citationText).then(() => {
+        const btn = document.getElementById('citation-btn');
+        btn.innerText = '✓ Citation Copied!';
+        setTimeout(() => btn.innerText = 'Copy Archival Citation', 2500);
+      });
+    }
+
     function renderTimelineItems() {
       const timeline = document.getElementById('timeline-list');
       timeline.innerHTML = '';
@@ -2764,61 +2821,89 @@
         return;
       }
 
-      const yearGroupsMap = new Map();
-      filteredRecords.forEach(r => {
-        if (!yearGroupsMap.has(r.year)) {
-          yearGroupsMap.set(r.year, []);
-        }
-        yearGroupsMap.get(r.year).push(r);
-      });
+      if (currentTimelineViewMode === 'tenure') {
+        // --- TENURE RANGES VIEW MODE ---
+        // Group records chronologically by occupant signature (surname + forename or building_name + trade)
+        const sortedAsc = [...filteredRecords].sort((a,b) => parseInt(a.year) - parseInt(b.year));
+        const tenureBlocks = [];
+        let currentBlock = null;
 
-      const sortedYears = Array.from(yearGroupsMap.keys()).sort((a,b) => parseInt(b) - parseInt(a));
+        const getOccupantSig = (r) => {
+          const b = cleanStr(r.building_name);
+          const s = cleanStr(r.surname);
+          const f = cleanStr(r.forename);
+          const t = cleanStr(r.trade);
+          return b ? `${b}|${s}|${t}` : `${s}|${f}|${t}`;
+        };
 
-      sortedYears.forEach((yr, idx) => {
-        const yearRecords = yearGroupsMap.get(yr);
-        const era = getEraTag(yr);
-        
-        let occupantsHTML = '';
-        yearRecords.forEach(r => {
-          const displayTrade = cleanOccupation(r.trade);
-          const expandedForename = expandForename(r.forename);
-          const fullResidentName = `${expandedForename} ${r.surname}`.trim();
-
-          const searchNameHash = `#search=${encodeURIComponent(fullResidentName)}`;
-          const searchTradeHash = `#search=${encodeURIComponent(displayTrade)}`;
-
-          const encSt = encodeURIComponent(r.street || '');
-          const encHn = encodeURIComponent(r.house_number || '');
-          const encBn = encodeURIComponent(r.building_name || '');
-          const encSn = encodeURIComponent(r.surname || '');
-          const encFn = encodeURIComponent(r.forename || '');
-          const encTr = encodeURIComponent(r.trade || '');
-
-          const escFn = (str) => (str || '').replace(/'/g, "\\'");
-
-          if (r.surname && r.surname.toLowerCase().startsWith('see ')) {
-            const targetStreet = r.surname.substring(4).trim();
-            occupantsHTML += `
-              <div class="occupant-entry cross-ref-entry" style="font-style: italic; opacity: 0.9; display: flex; justify-content: space-between; align-items: center;">
-                <div>👉 Directory Cross-Reference: <a href="#street=${encodeURIComponent(targetStreet)}" class="timeline-name clickable-occupant-name" style="color: #c89d54; text-decoration: underline; font-weight: 500;">See ${targetStreet}</a></div>
-                <button class="record-edit-btn" onclick="openTimelineRecordEditor(event, '${r.year}', '${escFn(encSt)}', '${escFn(encHn)}', '${escFn(encBn)}', '${escFn(encSn)}', '${escFn(encFn)}', '${escFn(encTr)}')">✏️ Edit</button>
-              </div>
-            `;
+        sortedAsc.forEach(r => {
+          const sig = getOccupantSig(r);
+          if (!currentBlock || currentBlock.sig !== sig) {
+            currentBlock = {
+              sig: sig,
+              startYear: r.year,
+              endYear: r.year,
+              records: [r]
+            };
+            tenureBlocks.push(currentBlock);
           } else {
-            let primaryTitleHTML = '';
-            let subtitleHTML = '';
+            currentBlock.endYear = r.year;
+            currentBlock.records.push(r);
+          }
+        });
+
+        // Render tenure blocks descending (most recent tenure top)
+        tenureBlocks.reverse().forEach(block => {
+          const isSpan = block.startYear !== block.endYear;
+          const startYrNum = parseInt(block.startYear);
+          const endYrNum = parseInt(block.endYear);
+          const totalYearsDuration = isSpan ? (endYrNum - startYrNum + 1) : 1;
+          const displayYearLabel = isSpan ? `${block.startYear} – ${block.endYear}` : block.startYear;
+          const spanBadgeLabel = isSpan ? `${totalYearsDuration} Years Tenure` : `Directory Record`;
+
+          const firstRec = block.records[0];
+          const era = getEraTag(block.endYear);
+
+          let occupantsHTML = '';
+          // Deduplicate occupants inside tenure block if same person appears multiple times
+          const dedupedBlockRecords = [];
+          const seenSig = new Set();
+          block.records.forEach(r => {
+            const key = `${r.surname}|${r.forename}|${r.building_name}|${r.trade}`;
+            if (!seenSig.has(key)) {
+              seenSig.add(key);
+              dedupedBlockRecords.push(r);
+            }
+          });
+
+          dedupedBlockRecords.forEach(r => {
+            const displayTrade = cleanOccupation(r.trade);
+            const expandedForename = expandForename(r.forename);
+            const fullResidentName = `${expandedForename} ${r.surname}`.trim();
+
+            const searchNameHash = `#search=${encodeURIComponent(fullResidentName)}`;
+            const searchTradeHash = `#search=${encodeURIComponent(displayTrade)}`;
+
+            const encSt = encodeURIComponent(r.street || '');
+            const encHn = encodeURIComponent(r.house_number || '');
+            const encBn = encodeURIComponent(r.building_name || '');
+            const encSn = encodeURIComponent(r.surname || '');
+            const encFn = encodeURIComponent(r.forename || '');
+            const encTr = encodeURIComponent(r.trade || '');
+
+            const escFn = (str) => (str || '').replace(/'/g, "\\'");
 
             const bName = (r.building_name || '').trim();
             const trdName = (r.trade || '').trim();
             const isPubTrade = /vaults|inn|hotel|tavern|arms|bar|saloon|club|laboratory/i.test(trdName);
-
             const effectiveBldgName = bName || (isPubTrade ? trdName : '');
 
+            let primaryTitleHTML = '';
+            let subtitleHTML = '';
+
             if (effectiveBldgName) {
-              // Building / Pub / Villa Name is Primary Prominent Title
               const searchBldgHash = `#search=${encodeURIComponent(effectiveBldgName)}`;
               primaryTitleHTML = `<a href="${searchBldgHash}" class="timeline-name clickable-occupant-name" title="Search all records for ${effectiveBldgName}">${effectiveBldgName}</a>`;
-              
               if (fullResidentName) {
                 subtitleHTML += `<div style="font-size: 0.95rem; color: #e2d7c5; font-weight: 500; margin-top: 0.15rem;">👤 Occupant: <a href="${searchNameHash}" class="clickable-occupant-name" style="color: #ffffff; text-decoration: underline;" title="Search all records for ${fullResidentName}">${fullResidentName}</a></div>`;
               }
@@ -2826,7 +2911,6 @@
                 subtitleHTML += `<div><a href="${searchTradeHash}" class="timeline-trade clickable-trade-tag" title="Search all ${displayTrade} entries">${displayTrade}</a></div>`;
               }
             } else {
-              // Standard Resident / Person Primary Title
               primaryTitleHTML = `<a href="${searchNameHash}" class="timeline-name clickable-occupant-name" title="Search all records for ${fullResidentName}">${fullResidentName}</a>`;
               if (displayTrade && displayTrade !== 'Residence / Private') {
                 subtitleHTML += `<div><a href="${searchTradeHash}" class="timeline-trade clickable-trade-tag" title="Search all ${displayTrade} entries">${displayTrade}</a></div>`;
@@ -2842,36 +2926,145 @@
                 <button class="record-edit-btn" onclick="openTimelineRecordEditor(event, '${r.year}', '${escFn(encSt)}', '${escFn(encHn)}', '${escFn(encBn)}', '${escFn(encSn)}', '${escFn(encFn)}', '${escFn(encTr)}')">✏️ Edit</button>
               </div>
             `;
-          }
+          });
+
+          const isSecondary = firstRec && firstRec.source_type === 'Secondary';
+          const sourceBadgeHTML = isSecondary 
+            ? `<span class="source-badge source-badge-secondary" title="Secondary Source: Historical Research / Manual Record">Research</span>`
+            : `<span class="source-badge source-badge-primary" title="Primary Source: Published Street Directory">Directory</span>`;
+
+          const li = document.createElement('li');
+          li.className = 'timeline-item';
+          li.innerHTML = `
+            <div class="timeline-card">
+              <div class="timeline-top">
+                <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+                  <span class="timeline-year" style="font-size: 1.5rem; letter-spacing: -0.02em;">${displayYearLabel}</span>
+                  ${sourceBadgeHTML}
+                  <span style="font-size: 0.72rem; font-weight: 600; color: var(--accent); background: rgba(200, 157, 84, 0.12); padding: 0.18rem 0.5rem; border-radius: 10px;">${spanBadgeLabel}</span>
+                </div>
+                <span class="era-badge">${era}</span>
+              </div>
+              <div class="occupants-list">
+                ${occupantsHTML}
+              </div>
+              <div class="timeline-meta">
+                <span>Recorded in ${block.records.length} Directory Edition${block.records.length > 1 ? 's' : ''} (${block.records.map(r => r.year).join(', ')})</span>
+              </div>
+            </div>
+          `;
+          timeline.appendChild(li);
         });
 
-        const firstRec = yearRecords[0];
-        const isSecondary = firstRec && firstRec.source_type === 'Secondary';
-        const sourceBadgeHTML = isSecondary 
-          ? `<span class="source-badge source-badge-secondary" title="Secondary Source: Historical Research / Manual Record">Research</span>`
-          : `<span class="source-badge source-badge-primary" title="Primary Source: Published Street Directory">Directory</span>`;
+      } else {
+        // --- INDIVIDUAL YEARLY EDITIONS VIEW MODE ---
+        const yearGroupsMap = new Map();
+        filteredRecords.forEach(r => {
+          if (!yearGroupsMap.has(r.year)) {
+            yearGroupsMap.set(r.year, []);
+          }
+          yearGroupsMap.get(r.year).push(r);
+        });
 
-        const li = document.createElement('li');
-        li.className = 'timeline-item';
-        li.innerHTML = `
-          <div class="timeline-card">
-            <div class="timeline-top">
-              <div style="display: flex; align-items: center;">
-                <span class="timeline-year">${yr}</span>
-                ${sourceBadgeHTML}
+        const sortedYears = Array.from(yearGroupsMap.keys()).sort((a,b) => parseInt(b) - parseInt(a));
+
+        sortedYears.forEach((yr, idx) => {
+          const yearRecords = yearGroupsMap.get(yr);
+          const era = getEraTag(yr);
+          
+          let occupantsHTML = '';
+          yearRecords.forEach(r => {
+            const displayTrade = cleanOccupation(r.trade);
+            const expandedForename = expandForename(r.forename);
+            const fullResidentName = `${expandedForename} ${r.surname}`.trim();
+
+            const searchNameHash = `#search=${encodeURIComponent(fullResidentName)}`;
+            const searchTradeHash = `#search=${encodeURIComponent(displayTrade)}`;
+
+            const encSt = encodeURIComponent(r.street || '');
+            const encHn = encodeURIComponent(r.house_number || '');
+            const encBn = encodeURIComponent(r.building_name || '');
+            const encSn = encodeURIComponent(r.surname || '');
+            const encFn = encodeURIComponent(r.forename || '');
+            const encTr = encodeURIComponent(r.trade || '');
+
+            const escFn = (str) => (str || '').replace(/'/g, "\\'");
+
+            if (r.surname && r.surname.toLowerCase().startsWith('see ')) {
+              const targetStreet = r.surname.substring(4).trim();
+              occupantsHTML += `
+                <div class="occupant-entry cross-ref-entry" style="font-style: italic; opacity: 0.9; display: flex; justify-content: space-between; align-items: center;">
+                  <div>👉 Directory Cross-Reference: <a href="#street=${encodeURIComponent(targetStreet)}" class="timeline-name clickable-occupant-name" style="color: #c89d54; text-decoration: underline; font-weight: 500;">See ${targetStreet}</a></div>
+                  <button class="record-edit-btn" onclick="openTimelineRecordEditor(event, '${r.year}', '${escFn(encSt)}', '${escFn(encHn)}', '${escFn(encBn)}', '${escFn(encSn)}', '${escFn(encFn)}', '${escFn(encTr)}')">✏️ Edit</button>
+                </div>
+              `;
+            } else {
+              let primaryTitleHTML = '';
+              let subtitleHTML = '';
+
+              const bName = (r.building_name || '').trim();
+              const trdName = (r.trade || '').trim();
+              const isPubTrade = /vaults|inn|hotel|tavern|arms|bar|saloon|club|laboratory/i.test(trdName);
+
+              const effectiveBldgName = bName || (isPubTrade ? trdName : '');
+
+              if (effectiveBldgName) {
+                const searchBldgHash = `#search=${encodeURIComponent(effectiveBldgName)}`;
+                primaryTitleHTML = `<a href="${searchBldgHash}" class="timeline-name clickable-occupant-name" title="Search all records for ${effectiveBldgName}">${effectiveBldgName}</a>`;
+                
+                if (fullResidentName) {
+                  subtitleHTML += `<div style="font-size: 0.95rem; color: #e2d7c5; font-weight: 500; margin-top: 0.15rem;">👤 Occupant: <a href="${searchNameHash}" class="clickable-occupant-name" style="color: #ffffff; text-decoration: underline;" title="Search all records for ${fullResidentName}">${fullResidentName}</a></div>`;
+                }
+                if (displayTrade && displayTrade !== 'Residence / Private' && displayTrade.toLowerCase() !== effectiveBldgName.toLowerCase()) {
+                  subtitleHTML += `<div><a href="${searchTradeHash}" class="timeline-trade clickable-trade-tag" title="Search all ${displayTrade} entries">${displayTrade}</a></div>`;
+                }
+              } else {
+                primaryTitleHTML = `<a href="${searchNameHash}" class="timeline-name clickable-occupant-name" title="Search all records for ${fullResidentName}">${fullResidentName}</a>`;
+                if (displayTrade && displayTrade !== 'Residence / Private') {
+                  subtitleHTML += `<div><a href="${searchTradeHash}" class="timeline-trade clickable-trade-tag" title="Search all ${displayTrade} entries">${displayTrade}</a></div>`;
+                }
+              }
+
+              occupantsHTML += `
+                <div class="occupant-entry" style="display: flex; justify-content: space-between; align-items: flex-start;">
+                  <div>
+                    ${primaryTitleHTML}
+                    ${subtitleHTML}
+                  </div>
+                  <button class="record-edit-btn" onclick="openTimelineRecordEditor(event, '${r.year}', '${escFn(encSt)}', '${escFn(encHn)}', '${escFn(encBn)}', '${escFn(encSn)}', '${escFn(encFn)}', '${escFn(encTr)}')">✏️ Edit</button>
+                </div>
+              `;
+            }
+          });
+
+          const firstRec = yearRecords[0];
+          const isSecondary = firstRec && firstRec.source_type === 'Secondary';
+          const sourceBadgeHTML = isSecondary 
+            ? `<span class="source-badge source-badge-secondary" title="Secondary Source: Historical Research / Manual Record">Research</span>`
+            : `<span class="source-badge source-badge-primary" title="Primary Source: Published Street Directory">Directory</span>`;
+
+          const li = document.createElement('li');
+          li.className = 'timeline-item';
+          li.innerHTML = `
+            <div class="timeline-card">
+              <div class="timeline-top">
+                <div style="display: flex; align-items: center;">
+                  <span class="timeline-year">${yr}</span>
+                  ${sourceBadgeHTML}
+                </div>
+                <span class="era-badge">${era}</span>
               </div>
-              <span class="era-badge">${era}</span>
+              <div class="occupants-list">
+                ${occupantsHTML}
+              </div>
+              <div class="timeline-meta">
+                <span>${yearRecords.length} Occupant${yearRecords.length > 1 ? 's' : ''}</span>
+              </div>
             </div>
-            <div class="occupants-list">
-              ${occupantsHTML}
-            </div>
-            <div class="timeline-meta">
-              <span>${yearRecords.length} Occupant${yearRecords.length > 1 ? 's' : ''}</span>
-            </div>
-          </div>
-        `;
-        timeline.appendChild(li);
-      });
+          `;
+          timeline.appendChild(li);
+        });
+      }
     }
 
     function renderDirectoriesView() {
