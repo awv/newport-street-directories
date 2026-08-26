@@ -2865,12 +2865,16 @@
       const streetData = await loadStreetData(street);
       const records = streetData.records || [];
       
-      // Find latest record for key
-      const matchingRecs = records.filter(r => 
-        cleanStr(r.house_number) === cleanStr(key) || 
-        cleanStr(r.building_name) === cleanStr(key) || 
-        cleanStr(`${r.forename} ${r.surname}`) === cleanStr(key)
-      );
+      // Find matching records for key
+      const cleanKeyStr = cleanStr(key);
+      const matchingRecs = records.filter(r => {
+        const hNum = cleanStr(r.house_number);
+        const bName = cleanStr(r.building_name);
+        const name = cleanStr(`${r.forename} ${r.surname}`);
+        return (hNum && (hNum === cleanKeyStr || cleanKeyStr.includes(hNum))) ||
+               (bName && (bName === cleanKeyStr || cleanKeyStr.includes(bName))) ||
+               (name && (name === cleanKeyStr || cleanKeyStr.includes(name)));
+      });
 
       const rec = matchingRecs.length ? matchingRecs[0] : { street, year: '1938', house_number: key };
 
