@@ -638,9 +638,133 @@ def apply_edge_cases(record):
 
     return record
 
+def split_surname_forename(full_name_str):
+    name_str = full_name_str.strip()
+    if not name_str or " " not in name_str:
+        return name_str, ""
+        
+    name_lower = name_str.lower()
+    
+    # Common business, place, and institutional keywords to protect from splitting
+    business_keywords = {
+        '&', 'and', 'ltd', 'limited', 'co', 'co.', 'company', 'sons', 'brothers', 'bros',
+        'works', 'gas', 'glass', 'railway', 'board', 'national', 'society', 'station',
+        'club', 'office', 'hall', 'house', 'villa', 'cottage', 'yard', 'wharf', 'clinic',
+        'hospital', 'trust', 'garage', 'hotel', 'arms', 'tavern', 'inn', 'vicarage',
+        'rectory', 'chapel', 'church', 'school', 'schools', 'association', 'dept',
+        'department', 'committee', 'council', 'corporation', 'board', 'post', 'firewood',
+        'builders', 'drapers', 'butchers', 'grocers', 'machinist', 'laundry', 'works', 'mill',
+        'army', 'barrack', 'barracks', 'police', 'constabulary', 'salvation', 'institute', 'mission',
+        'motors', 'motor', 'engineering', 'coal', 'iron', 'steel', 'metal', 'steam', 'gasworks',
+        'electric', 'electricity', 'water', 'dock', 'docks', 'shipping', 'transport', 'haulage',
+        'wholesalers', 'retailers', 'stores', 'shop', 'market', 'bazaar', 'theatre', 'cinema',
+        'baths', 'baths.', 'library', 'museum', 'gallery', 'estate', 'farm', 'nurseries',
+        'villas', 'cottages', 'gardens', 'terrace', 'place', 'hill', 'lane', 'road', 'street',
+        'avenue', 'crescent', 'square', 'gardens', 'park', 'view', 'grove', 'walk', 'close',
+        'court', 'parade', 'wharf', 'dock', 'docks', 'quay', 'pier', 'harbour', 'port',
+        'railway', 'g.w.r.', 'gwr', 'g.w.r', 'station', 'depot', 'works', 'factory', 'mills',
+        'mill', 'foundry', 'forge', 'yard', 'office', 'chambers', 'hall', 'chapel', 'church',
+        'cathedral', 'temple', 'synagogue', 'mosque', 'school', 'schools', 'college',
+        'university', 'academy', 'institute', 'institution', 'hospital', 'infirmary', 'clinic',
+        'sanatorium', 'asylum', 'home', 'hotel', 'inn', 'tavern', 'arms', 'vaults', 'bar',
+        'saloon', 'club', 'society', 'association', 'union', 'lodge', 'order', 'post', 'office',
+        'bank', 'exchange', 'mart', 'market', 'stores', 'co-operative', 'cooperative', 'cemetery',
+        'crematorium', 'allotments', 'works', 'gasworks', 'gas', 'waterworks', 'reservoir',
+        'power', 'electricity', 'telegraph', 'telephone', 'post-office', 'police', 'station',
+        'barracks', 'barrack', 'camp', 'fort', 'castle', 'manor', 'hall', 'house', 'palace',
+        'court', 'villa', 'cottage', 'bungalow', 'chalet', 'lodge', 'grange', 'priory', 'abbey',
+        'convent', 'monastery', 'nunnery', 'rectory', 'vicarage', 'parsonage', 'manse', 'presbytery'
+    }
+    
+    # Check if any business keyword is in the name
+    words = re.findall(r'\b[a-zA-Z0-9\&\.\-\x27]+\b', name_lower)
+    if any(w in business_keywords for w in words):
+        return name_str, ""
+        
+    # Skip cross-references or layout cues
+    layout_keywords = {
+        'see', 'under', 'opposite', 'here', 'crosses', 'return', 'void', 'vacant',
+        'site', 'closed', 'demolished', 'rebuilt', 'consolidated'
+    }
+    if any(w in layout_keywords for w in words):
+        return name_str, ""
+        
+    # Split the name
+    parts = name_str.split()
+    if len(parts) < 2:
+        return name_str, ""
+        
+    # Check for multi-word surname prefixes (e.g. "St. John", "de Carteret")
+    prefix_lower = parts[0].lower().rstrip('.')
+    if prefix_lower in {'st', 'de', 'la', 'van', 'von', 'ap', 'mc', 'mac'} and len(parts) >= 3:
+        surname = f"{parts[0]} {parts[1]}"
+        forename = " ".join(parts[2:])
+    else:
+        surname = parts[0]
+        forename = " ".join(parts[1:])
+        
+    return surname, forename
+
 def clean_record(row):
     year = (row.get("year") or "").strip()
     street = clean_street_name(row.get("street") or "")
+    
+    # Special handle for mangled 1893 Park Square column merges
+    if year == "1893" and street.lower().strip() == "park square":
+        global INJECTED_1893_PARK_SQUARE
+        if not globals().get('INJECTED_1893_PARK_SQUARE', False):
+            globals()['INJECTED_1893_PARK_SQUARE'] = True
+            return [
+                # Park Square records
+                {"year": "1893", "street": "Park Square", "house_number": "1", "building_name": "", "surname": "Fawckner", "forename": "J. F.", "trade": "architect"},
+                {"year": "1893", "street": "Park Square", "house_number": "2", "building_name": "Peterstone Villa", "surname": "Grave", "forename": "Dd.", "trade": ""},
+                {"year": "1893", "street": "Park Square", "house_number": "3", "building_name": "Lothian Villa", "surname": "Lang", "forename": "W. V.", "trade": ""},
+                {"year": "1893", "street": "Park Square", "house_number": "4", "building_name": "Park Villa", "surname": "Watts", "forename": "Mrs L. V.", "trade": ""},
+                {"year": "1893", "street": "Park Square", "house_number": "5", "building_name": "Sydenham Villa", "surname": "Richards", "forename": "J.", "trade": ""},
+                {"year": "1893", "street": "Park Square", "house_number": "6", "building_name": "Alma Villa", "surname": "Long", "forename": "Mrs", "trade": ""},
+                {"year": "1893", "street": "Park Square", "house_number": "7", "building_name": "Malvern Villa", "surname": "Jones", "forename": "C. H.", "trade": ""},
+                {"year": "1893", "street": "Park Square", "house_number": "8", "building_name": "Richmond Villa", "surname": "Jones", "forename": "E. W.", "trade": ""},
+                {"year": "1893", "street": "Park Square", "house_number": "9", "building_name": "Roslyn House", "surname": "Maddock", "forename": "Jas.", "trade": ""},
+                {"year": "1893", "street": "Park Square", "house_number": "10", "building_name": "Thorntree House", "surname": "Davies", "forename": "B.", "trade": "M.D."},
+                {"year": "1893", "street": "Park Square", "house_number": "11", "building_name": "The Mount", "surname": "Williams", "forename": "Herbt. Egerton", "trade": "surgeon"},
+                {"year": "1893", "street": "Park Square", "house_number": "12", "building_name": "Prospect Villa", "surname": "Schofield", "forename": "Wm.", "trade": ""},
+                {"year": "1893", "street": "Park Square", "house_number": "13", "building_name": "Balmoral Villa", "surname": "Stephens", "forename": "Mrs A. J.", "trade": ""},
+                {"year": "1893", "street": "Park Square", "house_number": "13", "building_name": "Balmoral Villa", "surname": "Thomas", "forename": "Mrs Lloyd", "trade": ""},
+                
+                # Park Street records
+                {"year": "1893", "street": "Park Street", "house_number": "1", "building_name": "", "surname": "Warner", "forename": "Chas.", "trade": "hobbler"},
+                {"year": "1893", "street": "Park Street", "house_number": "2", "building_name": "", "surname": "Hanks", "forename": "Geo.", "trade": "labourer"},
+                {"year": "1893", "street": "Park Street", "house_number": "3", "building_name": "", "surname": "Clarke", "forename": "Alfred", "trade": "labourer"},
+                {"year": "1893", "street": "Park Street", "house_number": "4", "building_name": "", "surname": "Daley", "forename": "John", "trade": "engineman"},
+                {"year": "1893", "street": "Park Street", "house_number": "5", "building_name": "", "surname": "Bishop", "forename": "Chas.", "trade": "labourer"},
+                {"year": "1893", "street": "Park Street", "house_number": "6", "building_name": "", "surname": "Harris", "forename": "Benj.", "trade": "baker"},
+                {"year": "1893", "street": "Park Street", "house_number": "7", "building_name": "", "surname": "Mansell", "forename": "Thos.", "trade": "labourer"},
+                {"year": "1893", "street": "Park Street", "house_number": "8", "building_name": "", "surname": "Olsen", "forename": "Chas.", "trade": "labourer"},
+                {"year": "1893", "street": "Park Street", "house_number": "9", "building_name": "", "surname": "Bath", "forename": "Thos.", "trade": "labourer"},
+                {"year": "1893", "street": "Park Street", "house_number": "10", "building_name": "", "surname": "Jones", "forename": "Thos.", "trade": "labourer"},
+                {"year": "1893", "street": "Park Street", "house_number": "11", "building_name": "", "surname": "Lewis", "forename": "Wm.", "trade": "labourer"},
+                {"year": "1893", "street": "Park Street", "house_number": "12", "building_name": "", "surname": "Harris", "forename": "Thos.", "trade": "tailor"},
+                {"year": "1893", "street": "Park Street", "house_number": "13", "building_name": "", "surname": "Taylor", "forename": "Wm.", "trade": "labourer"},
+                {"year": "1893", "street": "Park Street", "house_number": "14", "building_name": "", "surname": "Woodrow", "forename": "Chas.", "trade": "engineer"},
+                {"year": "1893", "street": "Park Street", "house_number": "15", "building_name": "", "surname": "Haswell", "forename": "Johnson", "trade": "nailmaker"},
+                {"year": "1893", "street": "Park Street", "house_number": "16", "building_name": "", "surname": "Powell", "forename": "Wm.", "trade": "signal fitter"},
+                {"year": "1893", "street": "Park Street", "house_number": "17", "building_name": "", "surname": "Curthoys", "forename": "Henry", "trade": "G.W.R."},
+
+                # Portland Street records
+                {"year": "1893", "street": "Portland Street", "house_number": "25", "building_name": "", "surname": "Gearing", "forename": "Cor.", "trade": "labourer"},
+                {"year": "1893", "street": "Portland Street", "house_number": "26", "building_name": "", "surname": "Collins", "forename": "Jasper", "trade": "coal trimmer"},
+                {"year": "1893", "street": "Portland Street", "house_number": "27", "building_name": "", "surname": "Hughes", "forename": "Ll.", "trade": "pipemaker"},
+                {"year": "1893", "street": "Portland Street", "house_number": "28", "building_name": "", "surname": "Vowell", "forename": "Jno.", "trade": "timekeeper"},
+                {"year": "1893", "street": "Portland Street", "house_number": "", "building_name": "", "surname": "Chas. Jordan & Sons, Ltd", "forename": "", "trade": "Pillgwenlly Iron Foundry"},
+                {"year": "1893", "street": "Portland Street", "house_number": "30", "building_name": "", "surname": "Cashman", "forename": "Mrs Hannah", "trade": ""},
+                {"year": "1893", "street": "Portland Street", "house_number": "31", "building_name": "", "surname": "Void", "forename": "", "trade": ""},
+                {"year": "1893", "street": "Portland Street", "house_number": "32", "building_name": "", "surname": "Johns", "forename": "Jno.", "trade": "engine driver"},
+                {"year": "1893", "street": "Portland Street", "house_number": "33", "building_name": "", "surname": "Dunstan", "forename": "James", "trade": "rigger"},
+                {"year": "1893", "street": "Portland Street", "house_number": "34", "building_name": "", "surname": "Rumsey", "forename": "George", "trade": "fitter"},
+                {"year": "1893", "street": "Portland Street", "house_number": "35", "building_name": "", "surname": "Cowling", "forename": "Wm.", "trade": "sailor"},
+                {"year": "1893", "street": "Portland Street", "house_number": "", "building_name": "", "surname": "Evans", "forename": "John", "trade": "seaman"}
+            ]
+        return None
     
     # Reject coordinates like 'B 5 & 6', 'C 4 17', 'D 5 58', single letters, and fragments
     st_low = street.lower().strip()
@@ -683,9 +807,158 @@ def clean_record(row):
     forename = (row.get("forename") or "").strip().strip(',"-~\'')
     trade = (row.get("trade") or "").strip().strip(',"-~\'')
 
+    # Realign shifted 1971 records and strip school/layout parentheticals
+    if year == "1971":
+        # Realign 1971 records where the entire line was parsed into the surname column (no tabs)
+        if not house_num and not forename and surname:
+            parts = surname.strip().split()
+            if parts:
+                first_word = parts[0]
+                if first_word.isdigit() or re.match(r'^\d+[a-zA-Z]?$', first_word):
+                    house_num = first_word
+                    remaining_name = parts[1:]
+                    if remaining_name:
+                        surname = remaining_name[0]
+                        forename = " ".join(remaining_name[1:])
+                    else:
+                        surname = ""
+                        forename = ""
+
+        # First clean off parenthetical layout noise in house_number
+        h_low = house_num.lower()
+        if "no thoroughfare" in h_low or "junior" in h_low or "infants" in h_low or "mixed &" in h_low:
+            house_num = ""
+            if surname.isdigit() or re.match(r'^\d+[a-zA-Z]?$', surname) or surname.lower() == "la":
+                # Realign shifted columns
+                if surname.lower() == "la":
+                    house_num = "1a"
+                else:
+                    house_num = surname
+                surname = forename
+                forename = bldg_name
+                bldg_name = ""
+                
+        # If the record is still shifted (e.g. house number in surname)
+        if not house_num and surname:
+            sur_strip = surname.strip()
+            if sur_strip.isdigit() or re.match(r'^\d+[a-zA-Z]?$', sur_strip) or sur_strip.lower() == "la":
+                if sur_strip.lower() == "la":
+                    house_num = "1a"
+                else:
+                    house_num = sur_strip
+                
+                full_name = forename.strip()
+                if full_name:
+                    name_parts = full_name.split()
+                    if len(name_parts) >= 2:
+                        surname = name_parts[0]
+                        forename = " ".join(name_parts[1:])
+                    else:
+                        surname = full_name
+                        forename = ""
+                        
+        # Post-processing name split if surname contains space (e.g. "Phillips Bernard")
+        # but house_num is correctly set.
+        if house_num and surname and not forename:
+            name_parts = surname.strip().split()
+            if len(name_parts) >= 2 and not name_parts[0].isdigit():
+                surname = name_parts[0]
+                forename = " ".join(name_parts[1:])
+
+    # Realign specific scrambled Baneswell Road entries
+    if street.lower().strip() == "baneswell road":
+        # Discard 1902 long Reynolds advertising banner
+        if "reynolds" in f"{house_num} {bldg_name} {surname} {forename} {trade}".lower():
+            return None
+            
+        # 1893 Baneswell Road column shifts (Smith's porter stores, Monmouthshire Club, Barfoot, S. Wales Daily News)
+        if year == "1893":
+            if house_num.lower() == "smith's" and surname.lower() == "porter stores":
+                house_num = ""
+                bldg_name = "Smith's Porter Stores"
+                surname = ""
+                forename = ""
+                trade = "porter stores"
+            elif house_num.lower() == "monmouthshire" and "club" in surname.lower():
+                house_num = ""
+                bldg_name = "Monmouthshire Club"
+                surname = "Andrews"
+                forename = "George"
+                trade = "steward"
+            elif house_num.lower() == "barfoot" and "tobacconist" in surname.lower():
+                house_num = "14"
+                bldg_name = ""
+                surname = "Barfoot"
+                forename = "T. A."
+                trade = "tobacconist"
+            elif house_num.lower().startswith("s. wales"):
+                house_num = ""
+                bldg_name = "South Wales Daily News & Echo Office"
+                surname = "Williams"
+                forename = "E."
+                trade = "agent"
+
+        # 1938 & 1936 Canterbury Lamb Store 6-6A fixes
+        if year in ["1938", "1936"] and (house_num in ["6 - 6", "6-6A"] or "canterbury" in f"{surname} {forename} {trade}".lower()):
+            house_num = "6-6A"
+            bldg_name = ""
+            surname = "Woodley H. & Co. Ltd."
+            forename = ""
+            trade = "Canterbury Lamb Store, butchers"
+
+    # Realign specific scrambled 1938 Brynglas Avenue entries
+    if year == "1938" and street.lower().strip() == "brynglas avenue" and not house_num:
+        b_low = bldg_name.lower().strip()
+        s_low = surname.lower().strip()
+        f_low = forename.lower().strip()
+        
+        if b_low == "smith e" and s_low == "g.w.r" and f_low == "bradley house":
+            bldg_name = "Bradley house"
+            surname = "Smith"
+            forename = "E"
+            trade = "G.W.R"
+        elif b_low == "colbourne f. h" and s_low == "hairdsr" and f_low == "overdale":
+            bldg_name = "Overdale"
+            surname = "Colbourne"
+            forename = "F. H."
+            trade = "hairdresser"
+        elif b_low == "west geo. f" and s_low == "g.w.r" and f_low == "corbiere":
+            bldg_name = "Corbiere"
+            surname = "West"
+            forename = "Geo. F."
+            trade = "G.W.R"
+        elif b_low == "jones harold" and s_low == "furnaceman" and f_low == "beech dale":
+            bldg_name = "Beech Dale"
+            surname = "Jones"
+            forename = "Harold"
+            trade = "furnaceman"
+        elif b_low == "smith f. h" and s_low == "clk" and f_low == "dairy":
+            bldg_name = "Dairy"
+            surname = "Smith"
+            forename = "F. H."
+            trade = "clerk"
+
+    # Realign specific scrambled 1927 Brynglas Crescent entry
+    if year == "1927" and street.lower().strip() == "brynglas crescent" and house_num == "8":
+        if surname.lower().strip() == "j":
+            surname = "Hicks"
+            forename = "Thomas J."
+            trade = "tailor"
+            bldg_name = ""
+
     # Discard records that are purely layout artifacts
     combined_fields = f"{house_num} {bldg_name} {surname} {forename} {trade}".lower().strip()
     if LAYOUT_ONLY_REGEX.search(combined_fields):
+        return None
+
+    # Discard records that are just "continued" street headers or location descriptions
+    if "continued" in combined_fields or "—continued" in combined_fields or "-continued" in combined_fields:
+        return None
+    if "top of upper" in combined_fields or "top of" in combined_fields or "road to" in combined_fields:
+        return None
+
+    # Discard records that contain parenthetical former-name markers like "(late ...)"
+    if "(late" in bldg_name.lower() or "(late" in surname.lower() or "(late" in forename.lower() or "(late" in trade.lower():
         return None
 
     # Discard records where surname is just a number (drifted house numbers)
@@ -702,6 +975,49 @@ def clean_record(row):
         s_low = surname.lower()
         suffixes = {'street', 'road', 'lane', 'place', 'terrace', 'crescent', 'square', 'avenue', 'drive', 'hill', 'parade', 'gardens', 'walk', 'close', 'view', 'grove', 'way', 'rise', 'arcade'}
         if any(f" {suff}" in s_low or s_low.endswith(f" {suff}") for suff in suffixes):
+            return None
+
+    # Strip map references from all fields (e.g. "Map E 9.", "Map F 7, G 7.", "Map E 4")
+    map_ref_pat = re.compile(r'\bMap\s+[A-Za-z0-9\s,\.&-]*\d+[A-Za-z0-9\s,\.&-]*\b\.?', re.I)
+    house_num = map_ref_pat.sub('', house_num).strip(' ,"-~.')
+    bldg_name = map_ref_pat.sub('', bldg_name).strip(' ,"-~.')
+    surname = map_ref_pat.sub('', surname).strip(' ,"-~.')
+    forename = map_ref_pat.sub('', forename).strip(' ,"-~.')
+    trade = map_ref_pat.sub('', trade).strip(' ,"-~.')
+
+    # Strip specific layout prefixes from surname (e.g. "And Albert-avenue Hall William" -> "Hall William")
+    layout_prefix_pat = re.compile(r'^\s*(?:and|off|entrance\s+to)?\s*(?:a\s*lbert[\s\-]*avenue|duckpool[\s\-]*road|gibbs[\s\-]*road)\s*', re.I)
+    surname = layout_prefix_pat.sub('', surname).strip(' ,"-~.')
+
+    # Fix corrupted Japanese katakana characters and column alignment in names
+    if "grットン" in house_num.lower() or "grットン" in bldg_name.lower() or "grットン" in surname.lower():
+        house_num = ""
+        surname = "Gretton"
+        forename = "Chas"
+        trade = "labourer"
+
+    # Discard records that are layout artifacts / description residues in names
+    noise_words = {
+        "orc", "par", "road", "que", "s", "w", "h", "st", "gery)", "newport", "yard",
+        "street directory", "close & wye cres", "off corporation", "no thoroughfare",
+        "no thoroughfare.", "(no thoroughfare.)", "house building", "map e.4", "map e4",
+        "map e. 4", "void", "vacant", "nil", "queens", "queen's", "queens buildings",
+        "+queens", "+queen's", "bolton", "bolton terrace", "bolton terrace—", "ban"
+    }
+    
+    # Check if there is no other identifying info and fields contain only noise
+    if not house_num and not forename and not trade:
+        sur_clean = surname.lower().strip(" ,.-—_")
+        bldg_clean = bldg_name.lower().strip(" ,.-—_")
+        if sur_clean in noise_words or bldg_clean in noise_words or len(sur_clean) == 1:
+            return None
+        if "street directory" in sur_clean or "street directory" in bldg_clean:
+            return None
+
+    # Discard cross-reference layout artifacts under Parkfield Place
+    if street.lower().strip() == "parkfield place" and not house_num and not surname and not forename and not trade:
+        b_low = bldg_name.lower().strip()
+        if any(kw in b_low for kw in {"clytha", "pembroke", "penllyn", "risca", "pentonville", "penylan"}):
             return None
 
     # Strip layout substrings from individual fields
@@ -737,6 +1053,13 @@ def clean_record(row):
     forename = phone_pattern.sub('', forename).strip(' ,"-~.')
     bldg_name = phone_pattern.sub('', bldg_name).strip(' ,"-~.')
     trade = phone_pattern.sub('', trade).strip(' ,"-~.')
+
+    # Split reversed "Surname Forename" names if forename is empty and surname contains space
+    if surname and not forename and " " in surname:
+        sn_split, fn_split = split_surname_forename(surname)
+        if fn_split:
+            surname = title_case_name(sn_split)
+            forename = title_case_name(fn_split)
 
     # Fix Ty Dedwydd split (where the house name is split as a resident name)
     s_low = surname.lower()
@@ -795,12 +1118,14 @@ def clean_record(row):
         trade = "Directory Cross-Reference"
 
     # 2. Fix shifted surname/forename/trade in building_name (e.g. bldg='Bennett', surname='AG', forename='brewery hand')
-    if bldg_name and bldg_name[0].isupper() and not any(w in bldg_name.lower() for w in ['house', 'villa', 'cottage', 'chambers', 'works', 'inn', 'arms', 'hotel', 'building', 'school', 'lodge', 'place', 'hall', 'terrace', 'view', 'court', 'gardens']):
-        f_low = forename.lower()
-        if f_low in TRADE_KEYWORDS or any(w in f_low for w in ['hand', 'worker', 'labourer', 'sorter', 'fitter', 'carpenter', 'driver', 'grocer', 'draper', 'mason', 'butcher', 'bootmaker', 'shoemaker', 'painter', 'plumber', 'tailor', 'baker', 'signalman', 'postman', 'shunter', 'timekeeper', 'tobacconist', 'waterman', 'greengrocer']):
-            trade = title_case_name(forename)
-            forename = surname
-            surname = bldg_name
+    if bldg_name and bldg_name[0].isupper() and not any(w in bldg_name.lower() for w in ['house', 'villa', 'villas', 'cottage', 'cottages', 'chambers', 'works', 'inn', 'arms', 'hotel', 'building', 'buildings', 'school', 'lodge', 'place', 'hall', 'terrace', 'view', 'court', 'gardens', 'flat', 'flats', 'store', 'stores', 'shop', 'office', 'offices', 'bank', 'vaults', 'laundry', 'chapel', 'church', 'depot', 'yard', 'mills']):
+        # If building_name contains a person name that overlaps with forename or surname, clean building_name
+        b_low = bldg_name.lower().strip()
+        s_low = surname.lower().strip()
+        f_low = forename.lower().strip()
+        if f_low in b_low or s_low in b_low or f_low in TRADE_KEYWORDS or any(w in f_low for w in ['hand', 'worker', 'labourer', 'sorter', 'fitter', 'carpenter', 'driver', 'grocer', 'draper', 'mason', 'butcher', 'bootmaker', 'shoemaker', 'painter', 'plumber', 'tailor', 'baker', 'signalman', 'postman', 'shunter', 'timekeeper', 'tobacconist', 'waterman', 'greengrocer']):
+            if not trade and (is_trade_word(forename) or is_trade_word(surname)):
+                trade = title_case_name(forename if is_trade_word(forename) else surname)
             bldg_name = ""
 
     # 3. Handle Crindau Glass / Gas Works company titles
@@ -1204,6 +1529,25 @@ def clean_record(row):
             else:
                 forename = person_part
             trade = real_trade
+
+    # Extract standalone trade titles mistakenly stored in surname or building_name
+    # (e.g. surname="Hairdresser" or building_name="Hairdresser", building_name="Watchmaker", building_name="Butcher")
+    TRADES_STANDALONE = {
+        "hairdresser", "hairdr'sr", "hairdsr", "butcher", "bchrs", "pork butcher", "porkbutcher",
+        "watchmaker", "greengrocer", "grocer", "draper", "baker", "confectioner", "solicitor",
+        "fruiterer", "fish bar", "bootmaker", "bootmakers", "tailor", "printer", "stationer",
+        "chemist", "dairyman", "builder", "plumber", "painter", "mason", "haulier"
+    }
+
+    if surname and surname.strip().lower() in TRADES_STANDALONE:
+        if not trade:
+            trade = title_case_name(surname)
+        surname = ""
+
+    if bldg_name and bldg_name.strip().lower() in TRADES_STANDALONE:
+        if not trade:
+            trade = title_case_name(bldg_name)
+        bldg_name = ""
 
         # 21f. Normalize trade abbreviations
         if trade:
@@ -1689,6 +2033,34 @@ def clean_record(row):
                 forename = fn_real
                 trade = title_case_name(s_low)
 
+    # Swapped Forename & Surname Detection & Swap Logic
+    # (e.g. forename='Jones', surname='John' -> forename='John', surname='Jones')
+    if surname and forename:
+        strict_surnames = {"smith", "jones", "williams", "davies", "evans", "roberts", "lewis", "hughes", "morgan", "griffiths", "edwards", "hill", "moore", "clark", "wright"}
+        common_forenames = {"john", "william", "thomas", "james", "george", "charles", "henry", "david", "richard", "joseph", "edward", "frederick", "alfred", "arthur", "walter", "frank", "samuel", "robert", "harry", "albert", "ernest", "herbert", "edwin", "benjamin", "daniel"}
+        
+        sn_low = surname.strip().lower()
+        fn_low = forename.strip().lower()
+        
+        if sn_low in common_forenames and fn_low in strict_surnames:
+            surname, forename = title_case_name(forename), title_case_name(surname)
+
+    # Extract trade keywords trapped in forename when trade is empty or incomplete
+    if forename and (not trade or len(trade) < 3):
+        fn_tokens = forename.split()
+        fn_keep = []
+        extracted_trades = []
+        for tok in fn_tokens:
+            tok_clean = tok.strip('.,()')
+            tok_low = tok_clean.lower()
+            if tok_low in {"mechanic", "clerk", "grocer", "mariner", "driver", "fitter", "carpenter", "platelayer", "labourer", "shoemaker", "draper", "baker", "mason", "rigger", "tailor", "painter", "smith", "builder", "haulier", "fireman", "guard", "joiner", "dealer", "assistant", "manager", "plasterer", "engineer", "inspector", "agent", "blacksmith", "ironworker", "steelworker", "trimmer", "pilot", "brewer", "porter", "dressmaker", "gardener", "milliner", "butcher", "chemist", "solicitor", "accountant", "auctioneer", "surgeon", "dairyman", "newsagent", "decorator", "salesman", "electrician", "hairdresser", "weighman", "fruiterer", "warehouseman", "watchman", "patternmaker", "cabinetmaker", "shunter", "upholsterer"}:
+                extracted_trades.append(title_case_name(tok_clean))
+            else:
+                fn_keep.append(tok)
+        if extracted_trades and fn_keep:
+            forename = " ".join(fn_keep)
+            trade = ", ".join(extracted_trades) if not trade else f"{', '.join(extracted_trades)}, {trade}"
+
     rec = {
         "year": year,
         "street": street,
@@ -1905,6 +2277,8 @@ def main():
                 cleaned = clean_record(row)
                 if cleaned is None:
                     skipped_count += 1
+                elif isinstance(cleaned, list):
+                    rows.extend(cleaned)
                 else:
                     st_lower = cleaned.get("street", "").strip().lower()
                     if st_lower in {"newport street list", "newport street"}:
@@ -1941,6 +2315,13 @@ def main():
                         skipped_count += 1
                         continue
                         
+                    # Clear building_name if it mistakenly repeats the street name
+                    bldg_val = cleaned.get("building_name", "").strip()
+                    if bldg_val and st_lower:
+                        bldg_low = bldg_val.lower()
+                        if bldg_low == st_lower or bldg_low == st_lower + "s":
+                            cleaned["building_name"] = ""
+
                     rows.append(cleaned)
 
     # 1. Group street names by lowercase value to resolve casing variations automatically
@@ -2029,6 +2410,32 @@ def main():
                     row["street"] = amendments[st]
                     amended_count += 1
             print(f"Applied manual amendments to {amended_count} records.")
+
+    # Append newly added secondary/gap-year historical research records from edge_cases.json
+    added_gap_count = 0
+    for edge in EDGE_CASES:
+        match = edge.get("match", {})
+        apply = edge.get("apply", {})
+        # If edge case is a standalone newly added record (has street, year, apply fields but no match criteria except street/year)
+        if match.get("street") and match.get("year") and apply.get("surname") and not match.get("surname") and not match.get("surname_contains") and not match.get("house_number"):
+            # Check if this exact record is already in rows
+            exists = any(r.get("street") == match["street"] and r.get("year") == match["year"] and r.get("surname") == apply.get("surname") for r in rows)
+            if not exists:
+                new_row = {
+                    "year": match["year"],
+                    "street": match["street"],
+                    "house_number": apply.get("house_number", ""),
+                    "building_name": apply.get("building_name", ""),
+                    "surname": apply.get("surname", ""),
+                    "forename": apply.get("forename", ""),
+                    "trade": apply.get("trade", ""),
+                    "source_type": apply.get("source_type", "Secondary")
+                }
+                rows.append(new_row)
+                added_gap_count += 1
+
+    if added_gap_count > 0:
+        print(f"Appended {added_gap_count} supplemental gap-year historical research records into dataset.")
 
     with open(OUTPUT_CSV, mode="w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
