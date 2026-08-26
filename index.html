@@ -2279,7 +2279,7 @@
 
     // --- Single Street View Rendering ---
     async function renderStreetView(rawStreetName) {
-      const displayName = formatStreetName(rawStreetName);
+      const displayName = rawStreetName.trim();
       document.getElementById('street-title').innerText = displayName;
       document.getElementById('street-heading').innerText = displayName;
 
