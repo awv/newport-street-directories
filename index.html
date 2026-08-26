@@ -2808,15 +2808,21 @@
             let primaryTitleHTML = '';
             let subtitleHTML = '';
 
-            if (r.building_name && r.building_name.trim() !== '') {
+            const bName = (r.building_name || '').trim();
+            const trdName = (r.trade || '').trim();
+            const isPubTrade = /vaults|inn|hotel|tavern|arms|bar|saloon|club|laboratory/i.test(trdName);
+
+            const effectiveBldgName = bName || (isPubTrade ? trdName : '');
+
+            if (effectiveBldgName) {
               // Building / Pub / Villa Name is Primary Prominent Title
-              const searchBldgHash = `#search=${encodeURIComponent(r.building_name.trim())}`;
-              primaryTitleHTML = `<a href="${searchBldgHash}" class="timeline-name clickable-occupant-name" title="Search all records for ${r.building_name.trim()}">${r.building_name.trim()}</a>`;
+              const searchBldgHash = `#search=${encodeURIComponent(effectiveBldgName)}`;
+              primaryTitleHTML = `<a href="${searchBldgHash}" class="timeline-name clickable-occupant-name" title="Search all records for ${effectiveBldgName}">${effectiveBldgName}</a>`;
               
               if (fullResidentName) {
                 subtitleHTML += `<div style="font-size: 0.95rem; color: #e2d7c5; font-weight: 500; margin-top: 0.15rem;">👤 Occupant: <a href="${searchNameHash}" class="clickable-occupant-name" style="color: #ffffff; text-decoration: underline;" title="Search all records for ${fullResidentName}">${fullResidentName}</a></div>`;
               }
-              if (displayTrade && displayTrade !== 'Residence / Private') {
+              if (displayTrade && displayTrade !== 'Residence / Private' && displayTrade.toLowerCase() !== effectiveBldgName.toLowerCase()) {
                 subtitleHTML += `<div><a href="${searchTradeHash}" class="timeline-trade clickable-trade-tag" title="Search all ${displayTrade} entries">${displayTrade}</a></div>`;
               }
             } else {
