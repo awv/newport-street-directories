@@ -2714,12 +2714,14 @@
           const encFn = encodeURIComponent(r.forename || '');
           const encTr = encodeURIComponent(r.trade || '');
 
+          const escFn = (str) => (str || '').replace(/'/g, "\\'");
+
           if (r.surname && r.surname.toLowerCase().startsWith('see ')) {
             const targetStreet = r.surname.substring(4).trim();
             occupantsHTML += `
               <div class="occupant-entry cross-ref-entry" style="font-style: italic; opacity: 0.9; display: flex; justify-content: space-between; align-items: center;">
                 <div>👉 Directory Cross-Reference: <a href="#street=${encodeURIComponent(targetStreet)}" class="timeline-name clickable-occupant-name" style="color: #c89d54; text-decoration: underline; font-weight: 500;">See ${targetStreet}</a></div>
-                <button class="record-edit-btn" onclick="openTimelineRecordEditor(event, '${r.year}', '${encSt}', '${encHn}', '${encBn}', '${encSn}', '${encFn}', '${encTr}')">✏️ Edit</button>
+                <button class="record-edit-btn" onclick="openTimelineRecordEditor(event, '${r.year}', '${escFn(encSt)}', '${escFn(encHn)}', '${escFn(encBn)}', '${escFn(encSn)}', '${escFn(encFn)}', '${escFn(encTr)}')">✏️ Edit</button>
               </div>
             `;
           } else {
@@ -2729,7 +2731,7 @@
                   <a href="${searchNameHash}" class="timeline-name clickable-occupant-name" title="Search all records for ${fullResidentName}">${fullResidentName}</a>
                   <div><a href="${searchTradeHash}" class="timeline-trade clickable-trade-tag" title="Search all ${displayTrade} entries">${displayTrade}</a></div>
                 </div>
-                <button class="record-edit-btn" onclick="openTimelineRecordEditor(event, '${r.year}', '${encSt}', '${encHn}', '${encBn}', '${encSn}', '${encFn}', '${encTr}')">✏️ Edit</button>
+                <button class="record-edit-btn" onclick="openTimelineRecordEditor(event, '${r.year}', '${escFn(encSt)}', '${escFn(encHn)}', '${escFn(encBn)}', '${escFn(encSn)}', '${escFn(encFn)}', '${escFn(encTr)}')">✏️ Edit</button>
               </div>
             `;
           }
