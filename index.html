@@ -2805,10 +2805,12 @@
               </div>
             `;
           } else {
+            const bldgTagHTML = (r.building_name && r.building_name.trim() !== '') ? `<div style="font-size: 0.8rem; color: #c89d54; font-weight: 600; margin-top: 0.15rem;">🏛️ ${r.building_name}</div>` : '';
             occupantsHTML += `
               <div class="occupant-entry" style="display: flex; justify-content: space-between; align-items: flex-start;">
                 <div>
                   <a href="${searchNameHash}" class="timeline-name clickable-occupant-name" title="Search all records for ${fullResidentName}">${fullResidentName}</a>
+                  ${bldgTagHTML}
                   <div><a href="${searchTradeHash}" class="timeline-trade clickable-trade-tag" title="Search all ${displayTrade} entries">${displayTrade}</a></div>
                 </div>
                 <button class="record-edit-btn" onclick="openTimelineRecordEditor(event, '${r.year}', '${escFn(encSt)}', '${escFn(encHn)}', '${escFn(encBn)}', '${escFn(encSn)}', '${escFn(encFn)}', '${escFn(encTr)}')">✏️ Edit</button>
