@@ -64,22 +64,44 @@ When multiple businesses or professionals occupy rooms in a single numbered buil
 
 ---
 
-## 4. How to Use the Form Editor in the Browser
+## 4. Complete Editing & Merging Workflow
 
-1. **Open any Street**: Navigate to any street view in your browser (e.g., `#street=Albany%20Street`).
-2. **Click "✏️ Edit Record"**: Hover over any property card or timeline item and click the **Edit** button.
-3. **Modify Fields**: Select the **Entry Type** (`Person` vs `Business`) and update any shifted fields.
-4. **Instant Live Preview**: Click **"Apply Preview"** to inspect how the card looks immediately.
-5. **Export Overrides**: Click **"Export All Overrides (`edge_cases.json`)"** to copy or download the exact JSON rules for the build pipeline.
+### Step 1: Edit Records in the Browser
+1. Navigate to any street view in your browser (e.g. `http://127.0.0.1:5500/index.html#street=Albany%20Street` or `#house=High%20Street%7C1`).
+2. Hover over any property card or timeline entry and click the **`✏️ Edit`** button.
+3. Modify the fields in the pop-up form (e.g., separate building names from occupant surnames, select `Person` or `Business`, add sub-unit details like `Room 4`).
+4. Click **"Save & Preview Correction"**.
+   - Your change will immediately render in the browser.
+   - **LocalStorage Persistence**: Edits are automatically saved in your browser cache, so refreshing the page or restarting your browser **will NOT lose your active session edits**.
 
 ---
 
-## 5. Build Pipeline Integration
+### Step 2: Download Your Overrides File
+When you are finished reviewing a street (or multiple streets):
+1. Look at the gold **Session Edits Active** drawer docked at the bottom of your screen.
+2. Click **"📥 Download user_overrides.json"**.
+3. A file named `user_overrides.json` will automatically save into your `Downloads` folder.
 
-Once override JSON blocks are copied into `edge_cases.json`, run the standard build pipeline from your terminal:
+---
+
+### Step 3: Run the Automatic Merge Script
+Open your terminal in the project directory and run:
 
 ```bash
-python3 clean_csv.py && python3 build_site_data.py
+python3 merge_overrides.py
 ```
 
-This applies your manual corrections cleanly across the entire site without regressing other streets.
+#### What `python3 merge_overrides.py` Does:
+1. **Locates the file**: Automatically finds `user_overrides.json` in your `Downloads/` directory (or current directory).
+2. **Merges cleanly**: Appends your new rules into `edge_cases.json` while skipping duplicates.
+3. **Rebuilds dataset**: Runs `python3 clean_csv.py && python3 build_site_data.py` to regenerate the entire site dataset automatically.
+
+---
+
+### Optional Terminal Flags & Commands:
+- Merge a specific file path:
+  ```bash
+  python3 merge_overrides.py /path/to/my_overrides.json
+  ```
+- Clear browser session edits manually:
+  Click **"Clear All"** in the bottom drawer, or clear your browser's local storage.
