@@ -2805,13 +2805,33 @@
               </div>
             `;
           } else {
-            const bldgTagHTML = (r.building_name && r.building_name.trim() !== '') ? `<div style="font-size: 0.8rem; color: #c89d54; font-weight: 600; margin-top: 0.15rem;">🏛️ ${r.building_name}</div>` : '';
+            let primaryTitleHTML = '';
+            let subtitleHTML = '';
+
+            if (r.building_name && r.building_name.trim() !== '') {
+              // Building / Pub / Villa Name is Primary Prominent Title
+              const searchBldgHash = `#search=${encodeURIComponent(r.building_name.trim())}`;
+              primaryTitleHTML = `<a href="${searchBldgHash}" class="timeline-name clickable-occupant-name" title="Search all records for ${r.building_name.trim()}">${r.building_name.trim()}</a>`;
+              
+              if (fullResidentName) {
+                subtitleHTML += `<div style="font-size: 0.95rem; color: #e2d7c5; font-weight: 500; margin-top: 0.15rem;">👤 Occupant: <a href="${searchNameHash}" class="clickable-occupant-name" style="color: #ffffff; text-decoration: underline;" title="Search all records for ${fullResidentName}">${fullResidentName}</a></div>`;
+              }
+              if (displayTrade && displayTrade !== 'Residence / Private') {
+                subtitleHTML += `<div><a href="${searchTradeHash}" class="timeline-trade clickable-trade-tag" title="Search all ${displayTrade} entries">${displayTrade}</a></div>`;
+              }
+            } else {
+              // Standard Resident / Person Primary Title
+              primaryTitleHTML = `<a href="${searchNameHash}" class="timeline-name clickable-occupant-name" title="Search all records for ${fullResidentName}">${fullResidentName}</a>`;
+              if (displayTrade && displayTrade !== 'Residence / Private') {
+                subtitleHTML += `<div><a href="${searchTradeHash}" class="timeline-trade clickable-trade-tag" title="Search all ${displayTrade} entries">${displayTrade}</a></div>`;
+              }
+            }
+
             occupantsHTML += `
               <div class="occupant-entry" style="display: flex; justify-content: space-between; align-items: flex-start;">
                 <div>
-                  <a href="${searchNameHash}" class="timeline-name clickable-occupant-name" title="Search all records for ${fullResidentName}">${fullResidentName}</a>
-                  ${bldgTagHTML}
-                  <div><a href="${searchTradeHash}" class="timeline-trade clickable-trade-tag" title="Search all ${displayTrade} entries">${displayTrade}</a></div>
+                  ${primaryTitleHTML}
+                  ${subtitleHTML}
                 </div>
                 <button class="record-edit-btn" onclick="openTimelineRecordEditor(event, '${r.year}', '${escFn(encSt)}', '${escFn(encHn)}', '${escFn(encBn)}', '${escFn(encSn)}', '${escFn(encFn)}', '${escFn(encTr)}')">✏️ Edit</button>
               </div>
