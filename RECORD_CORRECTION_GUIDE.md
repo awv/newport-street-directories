@@ -80,7 +80,9 @@ When multiple businesses or professionals occupy rooms in a single numbered buil
 When you are finished reviewing a street (or multiple streets):
 1. Look at the gold **Session Edits Active** drawer docked at the bottom of your screen.
 2. Click **"📥 Download user_overrides.json"**.
-3. A file named `user_overrides.json` will automatically save into your `Downloads` folder.
+3. The downloaded `user_overrides.json` file can be placed into:
+   - **`overrides_inbox/`** directory inside the project (recommended for neat organization), **OR**
+   - Left in your default **`~/Downloads/`** folder (the script checks both automatically!).
 
 ---
 
@@ -92,16 +94,26 @@ python3 merge_overrides.py
 ```
 
 #### What `python3 merge_overrides.py` Does:
-1. **Locates the file**: Automatically finds `user_overrides.json` in your `Downloads/` directory (or current directory).
-2. **Merges cleanly**: Appends your new rules into `edge_cases.json` while skipping duplicates.
-3. **Rebuilds dataset**: Runs `python3 clean_csv.py && python3 build_site_data.py` to regenerate the entire site dataset automatically.
+1. **Locates the file(s)**: Automatically checks `overrides_inbox/`, the project root, and your `~/Downloads/` folder for exported JSON override files.
+2. **Merges cleanly**: Appends your new rules into `edge_cases.json` while skipping any duplicate entries.
+3. **Rebuilds dataset**: Runs `python3 clean_csv.py && python3 build_site_data.py` to regenerate all street JSON files automatically.
 
 ---
 
-### Optional Terminal Flags & Commands:
-- Merge a specific file path:
+### Folder Structure Summary:
+```
+Newport Street Directory Project/
+├── edge_cases.json           <-- Master overrides database (automatically updated)
+├── merge_overrides.py         <-- Run this script in terminal
+├── overrides_inbox/          <-- (Optional) Drop your downloaded JSON files here!
+│   └── user_overrides.json
+└── RECORD_CORRECTION_GUIDE.md
+```
+
+### Optional Commands:
+- Merge a specific custom file path:
   ```bash
   python3 merge_overrides.py /path/to/my_overrides.json
   ```
 - Clear browser session edits manually:
-  Click **"Clear All"** in the bottom drawer, or clear your browser's local storage.
+  Click **"Clear All"** in the bottom drawer.

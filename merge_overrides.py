@@ -20,19 +20,30 @@ PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
 EDGE_CASES_FILE = os.path.join(PROJECT_DIR, "edge_cases.json")
 DOWNLOADS_DIR = os.path.expanduser("~/Downloads")
 
+INBOX_DIR = os.path.join(PROJECT_DIR, "overrides_inbox")
+
 def find_user_overrides_file(arg_path=None):
     if arg_path and os.path.exists(arg_path):
-        return arg_path
-    
+        return [arg_path]
+
+    found = []
+    # Check overrides_inbox directory first
+    if os.path.exists(INBOX_DIR):
+        for fname in os.listdir(INBOX_DIR):
+            if fname.endswith(".json"):
+                found.append(os.path.join(INBOX_DIR, fname))
+
+    # Check root project directory
     local_path = os.path.join(PROJECT_DIR, "user_overrides.json")
-    if os.path.exists(local_path):
-        return local_path
+    if os.path.exists(local_path) and local_path not in found:
+        found.append(local_path)
 
+    # Check system Downloads folder
     downloads_path = os.path.join(DOWNLOADS_DIR, "user_overrides.json")
-    if os.path.exists(downloads_path):
-        return downloads_path
+    if os.path.exists(downloads_path) and downloads_path not in found:
+        found.append(downloads_path)
 
-    return None
+    return found
 
 def merge_overrides(source_file):
     if not os.path.exists(EDGE_CASES_FILE):
@@ -84,14 +95,18 @@ def merge_overrides(source_file):
 
 def main():
     arg = sys.argv[1] if len(sys.argv) > 1 else None
-    source = find_user_overrides_file(arg)
-    if not source:
-        print("No 'user_overrides.json' file found in current directory or ~/Downloads.")
-        print("Please export your overrides from the browser first or specify file path.")
+    sources = find_user_overrides_file(arg)
+    if not sources:
+        print(f"No override JSON files found in:\n  - {INBOX_DIR}/\n  - {PROJECT_DIR}/\n  - {DOWNLOADS_DIR}/user_overrides.json")
+        print("\nPlease save your exported 'user_overrides.json' into the 'overrides_inbox/' folder or specify a file path.")
         sys.exit(1)
 
-    if merge_overrides(source):
-        # Trigger rebuild
+    merged_any = False
+    for src in sources:
+        if merge_overrides(src):
+            merged_any = True
+
+    if merged_any:
         print("\nRebuilding dataset with new merged edge cases...")
         os.system("python3 clean_csv.py && python3 build_site_data.py")
 
