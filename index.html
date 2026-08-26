@@ -1595,9 +1595,10 @@
       <span>✏️ Session Edits Active:</span>
       <span class="override-count-badge" id="override-count-badge">0 Overrides</span>
     </div>
-    <div style="display: flex; gap: 0.75rem;">
-      <button class="btn-cancel" style="padding: 0.4rem 0.85rem; font-size: 0.82rem;" onclick="clearSessionOverrides()">Clear All</button>
-      <button class="btn-save" style="padding: 0.4rem 0.85rem; font-size: 0.82rem;" onclick="exportSessionOverrides()">Export edge_cases.json JSON</button>
+    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+      <button class="btn-cancel" style="padding: 0.4rem 0.75rem; font-size: 0.8rem;" onclick="clearSessionOverrides()">Clear All</button>
+      <button class="btn-cancel" style="padding: 0.4rem 0.75rem; font-size: 0.8rem; border-color: var(--accent); color: var(--accent);" onclick="copySessionOverrides()">📋 Copy JSON</button>
+      <button class="btn-save" style="padding: 0.4rem 0.85rem; font-size: 0.8rem;" onclick="downloadSessionOverrides()">📥 Download user_overrides.json</button>
     </div>
   </div>
 
@@ -2951,14 +2952,22 @@
       }
 
       sessionOverrides.push(overrideObj);
+      saveSessionToLocalStorage();
       updateOverrideDrawer();
       closeEditorModal();
 
       // Instant local preview update
+      applyLocalOverridePreview(street, year, houseNum, currentEditingRecord, bldgName, surname, forename, trade);
+
+      // Refresh current view
+      navigate();
+    }
+
+    function applyLocalOverridePreview(street, year, houseNum, origRec, bldgName, surname, forename, trade) {
       if (streetCacheMap.has(cleanSlug(street))) {
         const cached = streetCacheMap.get(cleanSlug(street));
         if (cached && cached.records) {
-          const rec = cached.records.find(r => r.year === year && (cleanStr(r.house_number) === cleanStr(houseNum) || cleanStr(r.surname) === cleanStr(currentEditingRecord.surname)));
+          const rec = cached.records.find(r => r.year === year && (cleanStr(r.house_number) === cleanStr(houseNum) || (origRec && origRec.surname && cleanStr(r.surname) === cleanStr(origRec.surname))));
           if (rec) {
             rec.house_number = houseNum;
             rec.building_name = bldgName;
@@ -2968,9 +2977,42 @@
           }
         }
       }
+    }
 
-      // Refresh current view
-      navigate();
+    function saveSessionToLocalStorage() {
+      try {
+        localStorage.setItem('newport_session_overrides', JSON.stringify(sessionOverrides));
+      } catch (e) {
+        console.warn("LocalStorage save failed", e);
+      }
+    }
+
+    function loadSessionFromLocalStorage() {
+      try {
+        const stored = localStorage.getItem('newport_session_overrides');
+        if (stored) {
+          sessionOverrides = JSON.parse(stored);
+          updateOverrideDrawer();
+          
+          // Re-apply preview overrides to cached data
+          sessionOverrides.forEach(ov => {
+            if (ov.match && ov.apply) {
+              applyLocalOverridePreview(
+                ov.match.street,
+                ov.match.year,
+                ov.apply.house_number,
+                { surname: ov.match.surname_contains || '' },
+                ov.apply.building_name,
+                ov.apply.surname,
+                ov.apply.forename,
+                ov.apply.trade
+              );
+            }
+          });
+        }
+      } catch (e) {
+        console.warn("LocalStorage load failed", e);
+      }
     }
 
     function updateOverrideDrawer() {
@@ -2985,23 +3027,40 @@
     }
 
     function clearSessionOverrides() {
-      sessionOverrides = [];
-      updateOverrideDrawer();
+      if (confirm("Clear all un-merged session edits?")) {
+        sessionOverrides = [];
+        localStorage.removeItem('newport_session_overrides');
+        updateOverrideDrawer();
+        location.reload();
+      }
     }
 
-    function exportSessionOverrides() {
+    function copySessionOverrides() {
       if (sessionOverrides.length === 0) return;
       const jsonStr = JSON.stringify(sessionOverrides, null, 2);
-      
-      // Copy to clipboard
       navigator.clipboard.writeText(jsonStr).then(() => {
-        alert(`Copied ${sessionOverrides.length} JSON override rules to clipboard!\n\nYou can paste this directly into edge_cases.json.`);
+        alert(`Copied ${sessionOverrides.length} JSON override rules to clipboard!\n\nYou can paste this into edge_cases.json or specify it with merge_overrides.py.`);
       });
+    }
+
+    function downloadSessionOverrides() {
+      if (sessionOverrides.length === 0) return;
+      const jsonStr = JSON.stringify(sessionOverrides, null, 2);
+      const blob = new Blob([jsonStr], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'user_overrides.json';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
     }
 
     window.addEventListener('hashchange', navigate);
     window.addEventListener('DOMContentLoaded', async () => {
       await loadMasterStreets();
+      loadSessionFromLocalStorage();
       await navigate();
     });
   </script>
