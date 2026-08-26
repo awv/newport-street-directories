@@ -2394,7 +2394,7 @@
               <a href="#house=${encodeURIComponent(displayName + '|' + loc.targetKey)}" style="text-decoration: none; color: inherit; display: flex; align-items: center; gap: 0.6rem; flex: 1;">
                 ${headerTitleHtml}
               </a>
-              <button class="record-edit-btn" onclick="openRecordEditor('${encodeURIComponent(displayName)}', '${encodeURIComponent(loc.targetKey)}')">✏️ Edit</button>
+              <button class="record-edit-btn" onclick="openRecordEditor(event, '${encodeURIComponent(displayName)}', '${encodeURIComponent(loc.targetKey)}')">✏️ Edit</button>
             </div>
             <a href="#house=${encodeURIComponent(displayName + '|' + loc.targetKey)}" class="card-body-section" style="text-decoration: none;">
               <div class="card-resident-name">${residentName || 'Residence'}</div>
@@ -2719,7 +2719,7 @@
             occupantsHTML += `
               <div class="occupant-entry cross-ref-entry" style="font-style: italic; opacity: 0.9; display: flex; justify-content: space-between; align-items: center;">
                 <div>👉 Directory Cross-Reference: <a href="#street=${encodeURIComponent(targetStreet)}" class="timeline-name clickable-occupant-name" style="color: #c89d54; text-decoration: underline; font-weight: 500;">See ${targetStreet}</a></div>
-                <button class="record-edit-btn" onclick="openTimelineRecordEditor('${r.year}', '${encSt}', '${encHn}', '${encBn}', '${encSn}', '${encFn}', '${encTr}')">✏️ Edit</button>
+                <button class="record-edit-btn" onclick="openTimelineRecordEditor(event, '${r.year}', '${encSt}', '${encHn}', '${encBn}', '${encSn}', '${encFn}', '${encTr}')">✏️ Edit</button>
               </div>
             `;
           } else {
@@ -2729,7 +2729,7 @@
                   <a href="${searchNameHash}" class="timeline-name clickable-occupant-name" title="Search all records for ${fullResidentName}">${fullResidentName}</a>
                   <div><a href="${searchTradeHash}" class="timeline-trade clickable-trade-tag" title="Search all ${displayTrade} entries">${displayTrade}</a></div>
                 </div>
-                <button class="record-edit-btn" onclick="openTimelineRecordEditor('${r.year}', '${encSt}', '${encHn}', '${encBn}', '${encSn}', '${encFn}', '${encTr}')">✏️ Edit</button>
+                <button class="record-edit-btn" onclick="openTimelineRecordEditor(event, '${r.year}', '${encSt}', '${encHn}', '${encBn}', '${encSn}', '${encFn}', '${encTr}')">✏️ Edit</button>
               </div>
             `;
           }
@@ -2858,67 +2858,82 @@
       }
     }
 
-    async function openRecordEditor(encodedStreet, encodedKey) {
-      const street = decodeURIComponent(encodedStreet);
-      const key = decodeURIComponent(encodedKey);
-      
-      const streetData = await loadStreetData(street);
-      const records = streetData.records || [];
-      
-      // Find matching records for key
-      const cleanKeyStr = cleanStr(key);
-      const matchingRecs = records.filter(r => {
-        const hNum = cleanStr(r.house_number);
-        const bName = cleanStr(r.building_name);
-        const name = cleanStr(`${r.forename} ${r.surname}`);
-        return (hNum && (hNum === cleanKeyStr || cleanKeyStr.includes(hNum))) ||
-               (bName && (bName === cleanKeyStr || cleanKeyStr.includes(bName))) ||
-               (name && (name === cleanKeyStr || cleanKeyStr.includes(name)));
-      });
+    async function openRecordEditor(event, encodedStreet, encodedKey) {
+      if (event && event.stopPropagation) event.stopPropagation();
+      if (event && event.preventDefault) event.preventDefault();
 
-      const rec = matchingRecs.length ? matchingRecs[0] : { street, year: '1938', house_number: key };
+      try {
+        const street = decodeURIComponent(encodedStreet);
+        const key = decodeURIComponent(encodedKey);
+        
+        const streetData = await loadStreetData(street);
+        const records = streetData.records || [];
+        
+        // Find matching records for key
+        const cleanKeyStr = cleanStr(key);
+        const matchingRecs = records.filter(r => {
+          const hNum = cleanStr(r.house_number);
+          const bName = cleanStr(r.building_name);
+          const name = cleanStr(`${r.forename} ${r.surname}`);
+          return (hNum && (hNum === cleanKeyStr || cleanKeyStr.includes(hNum) || cleanKeyStr.includes(hNum))) ||
+                 (bName && (bName === cleanKeyStr || cleanKeyStr.includes(bName))) ||
+                 (name && (name === cleanKeyStr || cleanKeyStr.includes(name)));
+        });
 
-      openTimelineRecordEditor(
-        rec.year || '1938',
-        encodeURIComponent(street),
-        encodeURIComponent(rec.house_number || key),
-        encodeURIComponent(rec.building_name || ''),
-        encodeURIComponent(rec.surname || ''),
-        encodeURIComponent(rec.forename || ''),
-        encodeURIComponent(rec.trade || '')
-      );
+        const rec = matchingRecs.length ? matchingRecs[0] : { street, year: '1938', house_number: key };
+
+        openTimelineRecordEditor(
+          null,
+          rec.year || '1938',
+          encodeURIComponent(street),
+          encodeURIComponent(rec.house_number || key),
+          encodeURIComponent(rec.building_name || ''),
+          encodeURIComponent(rec.surname || ''),
+          encodeURIComponent(rec.forename || ''),
+          encodeURIComponent(rec.trade || '')
+        );
+      } catch (err) {
+        console.error("Error in openRecordEditor:", err);
+      }
     }
 
-    function openTimelineRecordEditor(yr, encStreet, encHouseNum, encBldgName, encSurname, encForename, encTrade) {
-      const street = decodeURIComponent(encStreet);
-      const houseNum = decodeURIComponent(encHouseNum);
-      const bldgName = decodeURIComponent(encBldgName);
-      const surname = decodeURIComponent(encSurname);
-      const forename = decodeURIComponent(encForename);
-      const trade = decodeURIComponent(encTrade);
+    function openTimelineRecordEditor(event, yr, encStreet, encHouseNum, encBldgName, encSurname, encForename, encTrade) {
+      if (event && event.stopPropagation) event.stopPropagation();
+      if (event && event.preventDefault) event.preventDefault();
 
-      currentEditingRecord = {
-        street, year: yr, house_number: houseNum, building_name: bldgName,
-        surname, forename, trade
-      };
+      try {
+        const street = decodeURIComponent(encStreet || '');
+        const houseNum = decodeURIComponent(encHouseNum || '');
+        const bldgName = decodeURIComponent(encBldgName || '');
+        const surname = decodeURIComponent(encSurname || '');
+        const forename = decodeURIComponent(encForename || '');
+        const trade = decodeURIComponent(encTrade || '');
 
-      document.getElementById('edit-street').value = street;
-      document.getElementById('edit-year').value = yr;
-      document.getElementById('edit-house-number').value = houseNum;
-      document.getElementById('edit-sub-unit').value = '';
-      document.getElementById('edit-building-name').value = bldgName;
-      document.getElementById('edit-surname').value = surname;
-      document.getElementById('edit-forename').value = forename;
-      document.getElementById('edit-trade').value = trade;
-      document.getElementById('edit-reason').value = `${street}: Standardized record formatting for house ${houseNum || bldgName}`;
+        currentEditingRecord = {
+          street, year: yr, house_number: houseNum, building_name: bldgName,
+          surname, forename, trade
+        };
 
-      const entryType = (surname.toLowerCase().startsWith('see ')) ? 'Cross-Reference' :
-                        (!forename && (surname.includes('&') || surname.toLowerCase().includes('ltd') || surname.toLowerCase().includes('club') || surname.toLowerCase().includes('co'))) ? 'Business' : 'Person';
+        document.getElementById('edit-street').value = street;
+        document.getElementById('edit-year').value = yr;
+        document.getElementById('edit-house-number').value = houseNum;
+        document.getElementById('edit-sub-unit').value = '';
+        document.getElementById('edit-building-name').value = bldgName;
+        document.getElementById('edit-surname').value = surname;
+        document.getElementById('edit-forename').value = forename;
+        document.getElementById('edit-trade').value = trade;
+        document.getElementById('edit-reason').value = `${street}: Standardized record formatting for house ${houseNum || bldgName}`;
 
-      document.getElementById('edit-entry-type').value = entryType;
-      toggleEntryTypeFields();
+        const entryType = (surname.toLowerCase().startsWith('see ')) ? 'Cross-Reference' :
+                          (!forename && (surname.includes('&') || surname.toLowerCase().includes('ltd') || surname.toLowerCase().includes('club') || surname.toLowerCase().includes('co'))) ? 'Business' : 'Person';
 
-      document.getElementById('editor-modal-backdrop').classList.add('active');
+        document.getElementById('edit-entry-type').value = entryType;
+        toggleEntryTypeFields();
+
+        document.getElementById('editor-modal-backdrop').classList.add('active');
+      } catch (err) {
+        console.error("Error in openTimelineRecordEditor:", err);
+      }
     }
 
     function closeEditorModal() {
