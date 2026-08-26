@@ -2489,6 +2489,7 @@
     // --- House & Building Timeline View State & Enhancements ---
     let currentHouseRecords = [];
     let currentTimelineEraFilter = 'all';
+    let currentTimelineViewMode = 'tenure';
     let currentActiveMediaMode = 'facade';
 
     function filterTimeline(era, btn) {
@@ -2737,11 +2738,6 @@
 
       renderTimelineItems();
     }
-
-    let currentHouseRecords = [];
-    let currentTimelineEraFilter = 'all';
-    let currentTimelineViewMode = 'tenure'; // 'tenure' (Grouped Tenure Ranges) or 'yearly' (Every Edition Year)
-    let currentActiveMediaMode = 'facade';
 
     function setTimelineViewMode(mode, btn) {
       currentTimelineViewMode = mode;
