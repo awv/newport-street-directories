@@ -2151,10 +2151,7 @@ def main():
     
     with open(INPUT_CSV, mode="r", encoding="utf-8") as f:
         reader = csv.DictReader(f)
-        fieldnames = list(reader.fieldnames) if reader.fieldnames else ["year", "street", "house_number", "building_name", "surname", "forename", "trade"]
-        if "source_type" not in fieldnames:
-            fieldnames.append("source_type")
-            
+        fieldnames = reader.fieldnames
         for raw_row in reader:
             # Unpack 1886 Crindau Gas Works run-on blob
             if raw_row.get("street") == "Crindau Road" and raw_row.get("year") == "1886" and "Williams Joseph" in raw_row.get("trade", ""):

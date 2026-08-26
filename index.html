@@ -2936,7 +2936,7 @@
                 ${occupantsHTML}
               </div>
               <div class="timeline-meta">
-                <span>Recorded in ${block.records.length} Directory Edition${block.records.length > 1 ? 's' : ''} (${block.records.map(r => r.year).join(', ')})</span>
+                <span>Recorded in ${[...new Set(block.records.map(r => r.year))].length} Directory Edition${[...new Set(block.records.map(r => r.year))].length > 1 ? 's' : ''} (${[...new Set(block.records.map(r => r.year))].join(', ')})</span>
               </div>
             </div>
           `;
