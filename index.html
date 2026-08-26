@@ -2467,7 +2467,7 @@
       const cleanLocKey = cleanStr(locationKey);
 
       // Extract leading house number prefix if present (e.g. "35-35A" from "35-35A Smith W. H. & Son")
-      const numMatch = locationKey.trim().match(/^(\d+[a-zA-Z]?(?:-\d+[a-zA-Z]?)?)/);
+      const numMatch = locationKey.trim().match(/^(\d+[a-zA-Z]?(?:-\d+[a-zA-Z]?)?)$/);
       const extractedHouseNum = numMatch ? numMatch[1] : locationKey;
       const cleanExtractedNum = cleanStr(extractedHouseNum);
 
