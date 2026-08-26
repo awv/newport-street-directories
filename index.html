@@ -2308,10 +2308,11 @@
       else if (firstYr <= 1939) eraText = `🌳 Interwar Garden Suburb / Municipal Estate (First recorded in ${firstYr} directory)`;
       else eraText = `🏗️ Post-War Development (First recorded in ${firstYr} directory)`;
 
+      const isPureCrossRefStreet = streetRecords.length > 0 && streetRecords.every(r => r.surname && r.surname.toLowerCase().startsWith('see '));
       const crossRefRec = streetRecords.find(r => r.surname && r.surname.toLowerCase().startsWith('see '));
       const introElem = document.getElementById('street-intro');
       if (introElem) {
-        if (crossRefRec) {
+        if (isPureCrossRefStreet && crossRefRec) {
           const targetStreet = crossRefRec.surname.substring(4).trim();
           introElem.innerHTML = `🏛️ Archival Directory Notice: In historical directories, <strong>${displayName}</strong> is an index cross-reference pointing readers to <strong>${targetStreet}</strong>. <a href="#street=${encodeURIComponent(targetStreet)}" style="color: #c89d54; text-decoration: underline; font-weight: 600; margin-left: 6px;">Check the ${targetStreet} Directory →</a>`;
           document.getElementById('house-grid').innerHTML = '';
