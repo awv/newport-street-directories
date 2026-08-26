@@ -2979,7 +2979,21 @@
         overrideObj.apply.sub_unit = subUnit;
       }
 
-      sessionOverrides.push(overrideObj);
+      // Check if an override for this exact record already exists in active session
+      const existingIdx = sessionOverrides.findIndex(ov => 
+        ov.match.street === overrideObj.match.street &&
+        ov.match.year === overrideObj.match.year &&
+        (
+          (ov.match.house_number && ov.match.house_number === overrideObj.match.house_number) ||
+          (ov.match.surname_contains && ov.match.surname_contains === overrideObj.match.surname_contains)
+        )
+      );
+
+      if (existingIdx !== -1) {
+        sessionOverrides[existingIdx] = overrideObj;
+      } else {
+        sessionOverrides.push(overrideObj);
+      }
       saveSessionToLocalStorage();
       updateOverrideDrawer();
       closeEditorModal();

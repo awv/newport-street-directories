@@ -47,7 +47,19 @@ When multiple businesses or professionals occupy rooms in a single numbered buil
 
 ---
 
-### B. Inn, Pub & Hotel Listings (e.g. Lamb Inn, Queen's Hotel)
+### B. Commercial & Business Entities (e.g. Universal Dental Laboratory, W.H. Smith & Son)
+For commercial companies, shops, institutions, or laboratories without a named individual person:
+- **`entry_type`**: `"Business"`
+- **`surname`**: `"Universal Dental Laboratory"` *(Put full commercial title here as the primary display name!)*
+- **`forename`**: `""` *(Leave empty)*
+- **`trade`**: `"Dental Laboratory"` *(Optional industry description)*
+- **`building_name`**: `""` *(Unless located in a named building like King's Chambers)*
+
+> **Why Commercial Titles Belong in `surname`**: The `surname` field serves as the primary occupant title in the database schema. Placing the business title in `surname` ensures it displays in **bold white text** on property cards and registers properly in global search.
+
+---
+
+### C. Inn, Pub & Hotel Listings (e.g. Lamb Inn, Queen's Hotel)
 - **`house_number`**: `"5"` (or leave blank if unnumbered)
 - **`building_name`**: `"Lamb Inn"`
 - **`entry_type`**: `"Person"` (if licensee named) OR `"Business"`
@@ -57,7 +69,7 @@ When multiple businesses or professionals occupy rooms in a single numbered buil
 
 ---
 
-### C. Directory Cross-References (e.g. "See Stow Hill")
+### D. Directory Cross-References (e.g. "See Stow Hill")
 - **`entry_type`**: `"Cross-Reference"`
 - **`surname`**: `"See Stow Hill"`
 - **`trade`**: `"Directory Cross-Reference"`
