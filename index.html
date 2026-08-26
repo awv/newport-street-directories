@@ -3055,6 +3055,11 @@
       a.click();
       document.body.removeChild(a);
       URL.revokeObjectURL(url);
+
+      // Auto-clear active session queue after export so next batch starts fresh
+      sessionOverrides = [];
+      localStorage.removeItem('newport_session_overrides');
+      updateOverrideDrawer();
     }
 
     window.addEventListener('hashchange', navigate);

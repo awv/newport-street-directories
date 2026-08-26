@@ -105,6 +105,13 @@ def main():
     for src in sources:
         if merge_overrides(src):
             merged_any = True
+            # Clean up merged file if inside overrides_inbox
+            if src.startswith(INBOX_DIR) and os.path.exists(src):
+                try:
+                    os.remove(src)
+                    print(f"🧹 Cleaned up inbox file: {os.path.basename(src)}")
+                except Exception as e:
+                    print(f"Notice: Could not auto-delete {src}: {e}")
 
     if merged_any:
         print("\nRebuilding dataset with new merged edge cases...")
