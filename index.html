@@ -600,13 +600,275 @@
       cursor: not-allowed;
     }
 
-    .street-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1.25rem; }
-    .street-card { background: var(--card-bg); border: 1px solid var(--card-border); border-radius: 6px; padding: 1.5rem; text-decoration: none; color: inherit; transition: border-color 0.2s; display: block; }
-    .street-card:hover { border-color: var(--accent); }
-    .street-card .num { font-family: var(--heading-font); font-size: 2rem; color: var(--accent); line-height: 1.2; word-break: break-word; }
-    .street-card .occupant { font-size: 0.85rem; color: var(--muted); margin-top: 0.5rem; }
+    .street-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 1.25rem; }
+    .street-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      overflow: hidden;
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+      transition: all 0.25s ease;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.35);
+    }
+    .street-card:hover {
+      border-color: var(--accent);
+      transform: translateY(-4px);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.65);
+    }
+    .card-top-section {
+      background: #241e1a;
+      border-bottom: 2px solid var(--accent);
+      padding: 0.75rem 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    .card-num {
+      font-family: var(--heading-font);
+      font-size: 2.2rem;
+      color: var(--accent);
+      line-height: 1;
+      font-weight: 400;
+    }
+    .card-sep {
+      color: var(--accent);
+      font-size: 1.1rem;
+      opacity: 0.8;
+    }
+    .card-hname {
+      font-family: var(--sans-font);
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--accent-hover);
+      letter-spacing: 0.03em;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .card-body-section {
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+      flex: 1;
+      justify-content: center;
+    }
+    .card-resident-name {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #ffffff;
+      line-height: 1.3;
+    }
+    .card-trade-title {
+      font-size: 0.88rem;
+      font-style: italic;
+      color: var(--muted);
+      line-height: 1.35;
+    }
 
-    /* Property Page Enhancements */
+    /* All Streets Index Overview Cards */
+    .street-index-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      padding: 1.5rem;
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.25s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .street-index-card:hover {
+      border-color: var(--accent);
+      transform: translateY(-3px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+    }
+    .street-index-title {
+      font-family: var(--heading-font);
+      font-size: 1.85rem;
+      color: var(--accent);
+      margin-bottom: 0.35rem;
+      line-height: 1.15;
+    }
+    .street-index-meta {
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    /* Property Page Enhancements & Interactive Editor */
+    .record-edit-btn {
+      background: rgba(200, 157, 84, 0.15);
+      border: 1px solid var(--accent-muted);
+      color: var(--accent);
+      font-size: 0.72rem;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      cursor: pointer;
+      font-family: var(--sans-font);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      transition: all 0.2s;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      margin-left: auto;
+    }
+    .record-edit-btn:hover {
+      background: var(--accent);
+      color: #120f0d;
+      border-color: var(--accent);
+    }
+
+    /* Modal Overlay & Form */
+    .editor-modal-backdrop {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.82);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      z-index: 10000;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+    }
+    .editor-modal-backdrop.active { display: flex; }
+    .editor-modal {
+      background: #1c1815;
+      border: 1px solid var(--accent-muted);
+      border-radius: 12px;
+      width: 100%;
+      max-width: 650px;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.85);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .editor-modal-header {
+      background: #241e1a;
+      padding: 1.25rem 1.5rem;
+      border-bottom: 1px solid var(--card-border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .editor-modal-title {
+      font-family: var(--heading-font);
+      font-size: 1.6rem;
+      color: var(--accent);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .editor-modal-close {
+      background: transparent;
+      border: none;
+      color: var(--muted);
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+    .editor-modal-close:hover { color: #ffffff; }
+    .editor-modal-body {
+      padding: 1.5rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.25rem;
+      max-height: 75vh;
+      overflow-y: auto;
+    }
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+    .form-group.full-width { grid-column: 1 / -1; }
+    .form-label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent);
+      font-weight: 600;
+    }
+    .form-input, .form-select, .form-textarea {
+      background: #120f0d;
+      border: 1px solid var(--card-border);
+      color: #ffffff;
+      padding: 0.6rem 0.85rem;
+      border-radius: 6px;
+      font-family: var(--sans-font);
+      font-size: 0.95rem;
+      transition: border-color 0.2s;
+    }
+    .form-input:focus, .form-select:focus, .form-textarea:focus {
+      outline: none;
+      border-color: var(--accent);
+    }
+    .editor-modal-footer {
+      background: #171310;
+      padding: 1rem 1.5rem;
+      border-top: 1px solid var(--card-border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .btn-save {
+      background: var(--accent);
+      border: none;
+      color: #120f0d;
+      padding: 0.6rem 1.25rem;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .btn-save:hover { background: var(--accent-hover); }
+    .btn-cancel {
+      background: transparent;
+      border: 1px solid var(--card-border);
+      color: var(--muted);
+      padding: 0.6rem 1.25rem;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      cursor: pointer;
+    }
+    .btn-cancel:hover { color: #ffffff; border-color: #ffffff; }
+
+    /* Sticky Bottom Override Drawer */
+    .override-drawer {
+      position: fixed;
+      bottom: 0; left: 0; right: 0;
+      background: rgba(24, 20, 17, 0.96);
+      backdrop-filter: blur(12px);
+      border-top: 2px solid var(--accent);
+      padding: 0.85rem 2rem;
+      z-index: 999;
+      display: none;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 -10px 30px rgba(0,0,0,0.8);
+    }
+    .override-drawer.active { display: flex; }
+    .override-drawer-info {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      font-size: 0.92rem;
+    }
+    .override-count-badge {
+      background: var(--accent);
+      color: #120f0d;
+      padding: 0.2rem 0.6rem;
+      border-radius: 12px;
+      font-weight: 700;
+      font-size: 0.8rem;
+    }
+
     .breadcrumb-nav-row {
       display: flex;
       justify-content: space-between;
@@ -1267,6 +1529,78 @@
     </div>
   </section>
 
+  <!-- Interactive Data Correction Modal -->
+  <div class="editor-modal-backdrop" id="editor-modal-backdrop">
+    <div class="editor-modal">
+      <div class="editor-modal-header">
+        <div class="editor-modal-title">✏️ Edit Property Record</div>
+        <button class="editor-modal-close" onclick="closeEditorModal()">&times;</button>
+      </div>
+      <div class="editor-modal-body">
+        <div class="form-group">
+          <label class="form-label">Street Name</label>
+          <input type="text" id="edit-street" class="form-input" readonly />
+        </div>
+        <div class="form-group">
+          <label class="form-label">Directory Year</label>
+          <input type="text" id="edit-year" class="form-input" />
+        </div>
+        <div class="form-group">
+          <label class="form-label">House Number / Range</label>
+          <input type="text" id="edit-house-number" class="form-input" placeholder="e.g. 14, 14A, or 12-13" />
+        </div>
+        <div class="form-group">
+          <label class="form-label">Sub-Unit / Suite / Floor</label>
+          <input type="text" id="edit-sub-unit" class="form-input" placeholder="e.g. Room 4, Flat 2" />
+        </div>
+        <div class="form-group full-width">
+          <label class="form-label">Building / House Name</label>
+          <input type="text" id="edit-building-name" class="form-input" placeholder="e.g. Westgate Chambers, Lamb Inn, Home Cottage" />
+        </div>
+        <div class="form-group full-width">
+          <label class="form-label">Entry Type</label>
+          <select id="edit-entry-type" class="form-select" onchange="toggleEntryTypeFields()">
+            <option value="Person">Person (Resident)</option>
+            <option value="Business">Business / Commercial / Institution</option>
+            <option value="Cross-Reference">Directory Cross-Reference Pointer</option>
+          </select>
+        </div>
+        <div class="form-group" id="group-surname">
+          <label class="form-label" id="label-surname">Surname / Commercial Name</label>
+          <input type="text" id="edit-surname" class="form-input" placeholder="Occupant Surname or Full Business Title" />
+        </div>
+        <div class="form-group" id="group-forename">
+          <label class="form-label">Forename / Initials</label>
+          <input type="text" id="edit-forename" class="form-input" placeholder="Resident Given Name(s)" />
+        </div>
+        <div class="form-group full-width">
+          <label class="form-label">Trade / Occupation</label>
+          <input type="text" id="edit-trade" class="form-input" placeholder="e.g. Solicitor, Steward, Grocer" />
+        </div>
+        <div class="form-group full-width">
+          <label class="form-label">Correction Reason / Notes</label>
+          <input type="text" id="edit-reason" class="form-input" placeholder="e.g. Fixed trade trapped in surname field for No. 12" />
+        </div>
+      </div>
+      <div class="editor-modal-footer">
+        <button class="btn-cancel" onclick="closeEditorModal()">Cancel</button>
+        <button class="btn-save" onclick="saveRecordCorrection()">Save & Preview Correction</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Persistent Session Overrides Drawer -->
+  <div class="override-drawer" id="override-drawer">
+    <div class="override-drawer-info">
+      <span>✏️ Session Edits Active:</span>
+      <span class="override-count-badge" id="override-count-badge">0 Overrides</span>
+    </div>
+    <div style="display: flex; gap: 0.75rem;">
+      <button class="btn-cancel" style="padding: 0.4rem 0.85rem; font-size: 0.82rem;" onclick="clearSessionOverrides()">Clear All</button>
+      <button class="btn-save" style="padding: 0.4rem 0.85rem; font-size: 0.82rem;" onclick="exportSessionOverrides()">Export edge_cases.json JSON</button>
+    </div>
+  </div>
+
   <script>
     let directoryData = [];
     let uniqueStreets = [];
@@ -1634,7 +1968,6 @@
         renderStreetsView(year);
         document.getElementById('view-streets').classList.add('active');
       } else {
-        renderStreetsView();
         document.getElementById('view-home').classList.add('active');
       }
 
@@ -1858,11 +2191,11 @@
         const propText = data.houseCount > 0 ? `${data.houseCount} Properties` : `${data.recordsCount} Records`;
 
         const card = document.createElement('a');
-        card.className = 'street-card';
+        card.className = 'street-index-card';
         card.href = `#street=${encodeURIComponent(data.displayName)}`;
         card.innerHTML = `
-          <div style="font-family: var(--heading-font); font-size: 1.85rem; color: var(--accent); margin-bottom: 0.25rem;">${data.displayName}</div>
-          <div class="occupant">${propText} • ${data.yearsSpan}</div>
+          <div class="street-index-title">${data.displayName}</div>
+          <div class="street-index-meta">${propText} • ${data.yearsSpan}</div>
         `;
         currentGrid.appendChild(card);
       });
@@ -1950,56 +2283,132 @@
         return;
       }
 
-      // Hybrid Spatial Sort: Numbered properties sort numerically (1, 2, 3... 12, 14), followed by named premises
-      const sortedLocations = Array.from(locationsMap.values()).sort((a, b) => {
-        const parseNum = (str) => {
-          const m = str.match(/^(\d+)/);
-          return m ? parseInt(m[1]) : null;
-        };
+      // Partition locations into Numbered Properties, Named Villas & Buildings, and Unnumbered Listings
+      const numberedProperties = [];
+      const namedVillas = [];
+      const unnumberedListings = [];
+
+      Array.from(locationsMap.values()).forEach(loc => {
+        const hasHouseNum = loc.records.some(r => r.house_number && r.house_number !== '-' && r.house_number !== '~' && r.house_number !== '0');
+        const hasBldgName = loc.records.some(r => r.building_name && r.building_name !== '-' && r.building_name !== '~' && r.building_name !== '0');
+
+        if (hasHouseNum) {
+          numberedProperties.push(loc);
+        } else if (hasBldgName) {
+          namedVillas.push(loc);
+        } else {
+          unnumberedListings.push(loc);
+        }
+      });
+
+      // Sort helpers
+      const parseNum = (str) => {
+        const m = str.match(/^(\d+)/);
+        return m ? parseInt(m[1]) : null;
+      };
+      const sortNumeric = (a, b) => {
         const numA = parseNum(a.displayTitle);
         const numB = parseNum(b.displayTitle);
         if (numA !== null && numB !== null) return numA - numB;
         if (numA !== null) return -1;
         if (numB !== null) return 1;
         return a.displayTitle.localeCompare(b.displayTitle);
-      });
+      };
+      const sortAlpha = (a, b) => a.displayTitle.localeCompare(b.displayTitle);
 
-      sortedLocations.forEach(loc => {
-        const maxYear = Math.max(...loc.records.map(r => parseInt(r.year)).filter(y => !isNaN(y)));
-        const latestRecords = loc.records.filter(r => parseInt(r.year) === maxYear);
+      numberedProperties.sort(sortNumeric);
+      namedVillas.sort(sortAlpha);
+      unnumberedListings.sort(sortAlpha);
 
-        let subText = '';
+      grid.style.display = 'flex';
+      grid.style.flexDirection = 'column';
+      grid.style.gap = '2.5rem';
 
-        if (loc.isExplicitLocation) {
-          if (latestRecords.length === 1) {
-            const r = latestRecords[0];
-            const sName = (r.surname || '').replace(/^[-~\s]+/, '').trim();
-            const fName = (r.forename || '').trim();
-            const name = fName ? `${expandForename(fName)} ${sName}` : sName;
-            subText = name || cleanOccupation(r.trade);
-          } else {
-            const first = latestRecords[0];
-            const sName = (first.surname || '').replace(/^[-~\s]+/, '').trim();
-            const fName = (first.forename || '').trim();
-            const firstName = fName ? `${expandForename(fName)} ${sName}` : sName;
-            subText = `${firstName} + ${latestRecords.length - 1} other${latestRecords.length > 2 ? 's' : ''}`;
-          }
-        } else {
-          const r = latestRecords[0];
-          subText = cleanOccupation(r.trade);
-        }
+      function renderSection(title, locations) {
+        if (locations.length === 0) return;
 
-        let cleanTitle = loc.displayTitle.replace(/^[-~\s]+/, '').trim();
-
-        const card = document.createElement('a');
-        card.className = 'street-card';
-        card.href = `#house=${encodeURIComponent(displayName + '|' + loc.targetKey)}`;
-        card.innerHTML = `
-          <div class="num">${cleanTitle}</div>
-          <div class="occupant">${subText}</div>
+        const section = document.createElement('div');
+        section.innerHTML = `
+          <h3 style="font-family: var(--heading-font); font-size: 1.65rem; color: var(--accent); margin-bottom: 1rem; border-bottom: 1px solid var(--card-border); padding-bottom: 0.5rem; display: flex; align-items: center; gap: 0.75rem;">
+            <span>${title}</span>
+            <span style="font-size: 0.85rem; font-family: var(--sans-font); background: rgba(200, 157, 84, 0.12); color: var(--accent); padding: 0.2rem 0.6rem; border-radius: 12px; font-weight: 600;">${locations.length}</span>
+          </h3>
+          <div class="street-grid"></div>
         `;
-        grid.appendChild(card);
-      });
+        const subGrid = section.querySelector('.street-grid');
+
+        locations.forEach(loc => {
+          const maxYear = Math.max(...loc.records.map(r => parseInt(r.year)).filter(y => !isNaN(y)));
+          const latestRecords = loc.records.filter(r => parseInt(r.year) === maxYear);
+
+          let residentName = '';
+          let tradeTitle = '';
+
+          if (loc.isExplicitLocation) {
+            if (latestRecords.length === 1) {
+              const r = latestRecords[0];
+              const sName = (r.surname || '').replace(/^[-~\s]+/, '').trim();
+              const fName = (r.forename || '').trim();
+              const name = fName ? `${expandForename(fName)} ${sName}` : sName;
+              residentName = name;
+              tradeTitle = cleanOccupation(r.trade);
+            } else {
+              const first = latestRecords[0];
+              const sName = (first.surname || '').replace(/^[-~\s]+/, '').trim();
+              const fName = (first.forename || '').trim();
+              const firstName = fName ? `${expandForename(fName)} ${sName}` : sName;
+              residentName = `${firstName} + ${latestRecords.length - 1} other${latestRecords.length > 2 ? 's' : ''}`;
+              tradeTitle = cleanOccupation(first.trade);
+            }
+          } else {
+            const r = latestRecords[0];
+            residentName = cleanOccupation(r.trade);
+          }
+
+          let cleanTitle = loc.displayTitle.replace(/^[-~\s]+/, '').trim();
+          const bldg = loc.records.find(r => {
+            if (!r.building_name || r.building_name === '-' || r.building_name === '~' || r.building_name === '0') return false;
+            const b = r.building_name.trim();
+            if (r.surname && b.toLowerCase().includes(r.surname.toLowerCase())) return false;
+            return true;
+          });
+
+          let headerTitleHtml = '';
+          if (bldg && cleanTitle !== bldg.building_name) {
+            headerTitleHtml = `
+              <span class="card-num">${cleanTitle}</span>
+              <span class="card-sep">—</span>
+              <span class="card-hname">${bldg.building_name}</span>
+            `;
+          } else {
+            headerTitleHtml = `
+              <span class="card-num">${cleanTitle}</span>
+            `;
+          }
+
+          const card = document.createElement('div');
+          card.className = 'street-card';
+          card.innerHTML = `
+            <div class="card-top-section">
+              <a href="#house=${encodeURIComponent(displayName + '|' + loc.targetKey)}" style="text-decoration: none; color: inherit; display: flex; align-items: center; gap: 0.6rem; flex: 1;">
+                ${headerTitleHtml}
+              </a>
+              <button class="record-edit-btn" onclick="openRecordEditor('${encodeURIComponent(displayName)}', '${encodeURIComponent(loc.targetKey)}')">✏️ Edit</button>
+            </div>
+            <a href="#house=${encodeURIComponent(displayName + '|' + loc.targetKey)}" class="card-body-section" style="text-decoration: none;">
+              <div class="card-resident-name">${residentName || 'Residence'}</div>
+              ${tradeTitle && tradeTitle !== 'Residence / Private' ? `<div class="card-trade-title">${tradeTitle}</div>` : ''}
+            </a>
+          `;
+          subGrid.appendChild(card);
+        });
+
+        grid.appendChild(section);
+      }
+
+      renderSection('Numbered Properties', numberedProperties);
+      renderSection('Named Villas & Buildings', namedVillas);
+      renderSection('Unnumbered Listings / Other', unnumberedListings);
     }
 
     // --- House & Building Timeline View State & Enhancements ---
@@ -2300,15 +2709,19 @@
           if (r.surname && r.surname.toLowerCase().startsWith('see ')) {
             const targetStreet = r.surname.substring(4).trim();
             occupantsHTML += `
-              <div class="occupant-entry cross-ref-entry" style="font-style: italic; opacity: 0.9;">
-                👉 Directory Cross-Reference: <a href="#street=${encodeURIComponent(targetStreet)}" class="timeline-name clickable-occupant-name" style="color: #c89d54; text-decoration: underline; font-weight: 500;">See ${targetStreet}</a>
+              <div class="occupant-entry cross-ref-entry" style="font-style: italic; opacity: 0.9; display: flex; justify-content: space-between; align-items: center;">
+                <div>👉 Directory Cross-Reference: <a href="#street=${encodeURIComponent(targetStreet)}" class="timeline-name clickable-occupant-name" style="color: #c89d54; text-decoration: underline; font-weight: 500;">See ${targetStreet}</a></div>
+                <button class="record-edit-btn" onclick="openTimelineRecordEditor('${r.year}', '${encodeURIComponent(r.street || '')}', '${encodeURIComponent(r.house_number || '')}', '${encodeURIComponent(r.building_name || '')}', '${encodeURIComponent(r.surname || '')}', '${encodeURIComponent(r.forename || '')}', '${encodeURIComponent(r.trade || '')}')">✏️ Edit</button>
               </div>
             `;
           } else {
             occupantsHTML += `
-              <div class="occupant-entry">
-                <a href="${searchNameHash}" class="timeline-name clickable-occupant-name" title="Search all records for ${fullResidentName}">${fullResidentName}</a>
-                <div><a href="${searchTradeHash}" class="timeline-trade clickable-trade-tag" title="Search all ${displayTrade} entries">${displayTrade}</a></div>
+              <div class="occupant-entry" style="display: flex; justify-content: space-between; align-items: flex-start;">
+                <div>
+                  <a href="${searchNameHash}" class="timeline-name clickable-occupant-name" title="Search all records for ${fullResidentName}">${fullResidentName}</a>
+                  <div><a href="${searchTradeHash}" class="timeline-trade clickable-trade-tag" title="Search all ${displayTrade} entries">${displayTrade}</a></div>
+                </div>
+                <button class="record-edit-btn" onclick="openTimelineRecordEditor('${r.year}', '${encodeURIComponent(r.street || '')}', '${encodeURIComponent(r.house_number || '')}', '${encodeURIComponent(r.building_name || '')}', '${encodeURIComponent(r.surname || '')}', '${encodeURIComponent(r.forename || '')}', '${encodeURIComponent(r.trade || '')}')">✏️ Edit</button>
               </div>
             `;
           }
@@ -2413,6 +2826,176 @@
           `;
         }
         container.appendChild(div);
+      });
+    }
+
+    // --- Interactive Record Editor State & Functions ---
+    let currentEditingRecord = null;
+    let sessionOverrides = [];
+
+    function toggleEntryTypeFields() {
+      const type = document.getElementById('edit-entry-type').value;
+      const groupForename = document.getElementById('group-forename');
+      const labelSurname = document.getElementById('label-surname');
+
+      if (type === 'Business') {
+        if (groupForename) groupForename.style.display = 'none';
+        if (labelSurname) labelSurname.innerText = 'Commercial / Business Name';
+      } else if (type === 'Cross-Reference') {
+        if (groupForename) groupForename.style.display = 'none';
+        if (labelSurname) labelSurname.innerText = 'Cross-Reference Pointer (e.g. See Stow Hill)';
+      } else {
+        if (groupForename) groupForename.style.display = 'flex';
+        if (labelSurname) labelSurname.innerText = 'Surname';
+      }
+    }
+
+    async function openRecordEditor(encodedStreet, encodedKey) {
+      const street = decodeURIComponent(encodedStreet);
+      const key = decodeURIComponent(encodedKey);
+      
+      const streetData = await loadStreetData(street);
+      const records = streetData.records || [];
+      
+      // Find latest record for key
+      const matchingRecs = records.filter(r => 
+        cleanStr(r.house_number) === cleanStr(key) || 
+        cleanStr(r.building_name) === cleanStr(key) || 
+        cleanStr(`${r.forename} ${r.surname}`) === cleanStr(key)
+      );
+
+      const rec = matchingRecs.length ? matchingRecs[0] : { street, year: '1938', house_number: key };
+
+      openTimelineRecordEditor(
+        rec.year || '1938',
+        encodeURIComponent(street),
+        encodeURIComponent(rec.house_number || key),
+        encodeURIComponent(rec.building_name || ''),
+        encodeURIComponent(rec.surname || ''),
+        encodeURIComponent(rec.forename || ''),
+        encodeURIComponent(rec.trade || '')
+      );
+    }
+
+    function openTimelineRecordEditor(yr, encStreet, encHouseNum, encBldgName, encSurname, encForename, encTrade) {
+      const street = decodeURIComponent(encStreet);
+      const houseNum = decodeURIComponent(encHouseNum);
+      const bldgName = decodeURIComponent(encBldgName);
+      const surname = decodeURIComponent(encSurname);
+      const forename = decodeURIComponent(encForename);
+      const trade = decodeURIComponent(encTrade);
+
+      currentEditingRecord = {
+        street, year: yr, house_number: houseNum, building_name: bldgName,
+        surname, forename, trade
+      };
+
+      document.getElementById('edit-street').value = street;
+      document.getElementById('edit-year').value = yr;
+      document.getElementById('edit-house-number').value = houseNum;
+      document.getElementById('edit-sub-unit').value = '';
+      document.getElementById('edit-building-name').value = bldgName;
+      document.getElementById('edit-surname').value = surname;
+      document.getElementById('edit-forename').value = forename;
+      document.getElementById('edit-trade').value = trade;
+      document.getElementById('edit-reason').value = `${street}: Standardized record formatting for house ${houseNum || bldgName}`;
+
+      const entryType = (surname.toLowerCase().startsWith('see ')) ? 'Cross-Reference' :
+                        (!forename && (surname.includes('&') || surname.toLowerCase().includes('ltd') || surname.toLowerCase().includes('club') || surname.toLowerCase().includes('co'))) ? 'Business' : 'Person';
+
+      document.getElementById('edit-entry-type').value = entryType;
+      toggleEntryTypeFields();
+
+      document.getElementById('editor-modal-backdrop').classList.add('active');
+    }
+
+    function closeEditorModal() {
+      document.getElementById('editor-modal-backdrop').classList.remove('active');
+    }
+
+    function saveRecordCorrection() {
+      const street = document.getElementById('edit-street').value.trim();
+      const year = document.getElementById('edit-year').value.trim();
+      const houseNum = document.getElementById('edit-house-number').value.trim();
+      const subUnit = document.getElementById('edit-sub-unit').value.trim();
+      const bldgName = document.getElementById('edit-building-name').value.trim();
+      const entryType = document.getElementById('edit-entry-type').value;
+      const surname = document.getElementById('edit-surname').value.trim();
+      const forename = (entryType === 'Person') ? document.getElementById('edit-forename').value.trim() : '';
+      const trade = document.getElementById('edit-trade').value.trim();
+      const reason = document.getElementById('edit-reason').value.trim();
+
+      const overrideObj = {
+        reason: reason || `${street} ${year}: Manual record correction.`,
+        match: {
+          street: street,
+          year: year
+        },
+        apply: {
+          house_number: houseNum,
+          building_name: bldgName,
+          surname: surname,
+          forename: forename,
+          trade: trade
+        }
+      };
+
+      if (currentEditingRecord && currentEditingRecord.surname) {
+        overrideObj.match.surname_contains = currentEditingRecord.surname.substring(0, 8);
+      } else if (houseNum) {
+        overrideObj.match.house_number = houseNum;
+      }
+
+      if (subUnit) {
+        overrideObj.apply.sub_unit = subUnit;
+      }
+
+      sessionOverrides.push(overrideObj);
+      updateOverrideDrawer();
+      closeEditorModal();
+
+      // Instant local preview update
+      if (streetCacheMap.has(cleanSlug(street))) {
+        const cached = streetCacheMap.get(cleanSlug(street));
+        if (cached && cached.records) {
+          const rec = cached.records.find(r => r.year === year && (cleanStr(r.house_number) === cleanStr(houseNum) || cleanStr(r.surname) === cleanStr(currentEditingRecord.surname)));
+          if (rec) {
+            rec.house_number = houseNum;
+            rec.building_name = bldgName;
+            rec.surname = surname;
+            rec.forename = forename;
+            rec.trade = trade;
+          }
+        }
+      }
+
+      // Refresh current view
+      navigate();
+    }
+
+    function updateOverrideDrawer() {
+      const drawer = document.getElementById('override-drawer');
+      const badge = document.getElementById('override-count-badge');
+      if (sessionOverrides.length > 0) {
+        drawer.classList.add('active');
+        badge.innerText = `${sessionOverrides.length} Override${sessionOverrides.length > 1 ? 's' : ''}`;
+      } else {
+        drawer.classList.remove('active');
+      }
+    }
+
+    function clearSessionOverrides() {
+      sessionOverrides = [];
+      updateOverrideDrawer();
+    }
+
+    function exportSessionOverrides() {
+      if (sessionOverrides.length === 0) return;
+      const jsonStr = JSON.stringify(sessionOverrides, null, 2);
+      
+      // Copy to clipboard
+      navigator.clipboard.writeText(jsonStr).then(() => {
+        alert(`Copied ${sessionOverrides.length} JSON override rules to clipboard!\n\nYou can paste this directly into edge_cases.json.`);
       });
     }
 
