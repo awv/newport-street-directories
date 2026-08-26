@@ -1483,6 +1483,7 @@
           </div>
 
           <div class="street-nav-controls">
+            <button class="btn-add-record" onclick="openAddRecordModal()">➕ Add Record</button>
             <a id="prev-house-btn" class="house-nav-btn" href="#">&larr; Prev Property</a>
             <a id="next-house-btn" class="house-nav-btn" href="#">Next Property &rarr;</a>
           </div>
@@ -2430,19 +2431,17 @@
             `;
           }
 
-          const card = document.createElement('div');
+          const card = document.createElement('a');
           card.className = 'street-card';
+          card.href = `#house=${encodeURIComponent(displayName + '|' + loc.targetKey)}`;
           card.innerHTML = `
             <div class="card-top-section">
-              <a href="#house=${encodeURIComponent(displayName + '|' + loc.targetKey)}" style="text-decoration: none; color: inherit; display: flex; align-items: center; gap: 0.6rem; flex: 1;">
-                ${headerTitleHtml}
-              </a>
-              <button class="record-edit-btn" onclick="openRecordEditor(event, '${encodeURIComponent(displayName)}', '${encodeURIComponent(loc.targetKey)}')">✏️ Edit</button>
+              ${headerTitleHtml}
             </div>
-            <a href="#house=${encodeURIComponent(displayName + '|' + loc.targetKey)}" class="card-body-section" style="text-decoration: none;">
+            <div class="card-body-section">
               <div class="card-resident-name">${residentName || 'Residence'}</div>
               ${tradeTitle && tradeTitle !== 'Residence / Private' ? `<div class="card-trade-title">${tradeTitle}</div>` : ''}
-            </a>
+            </div>
           `;
           subGrid.appendChild(card);
         });
