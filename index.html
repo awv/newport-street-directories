@@ -697,6 +697,43 @@
     .street-index-meta {
       font-size: 0.85rem;
       color: var(--muted);
+    /* Interactive Record Editor Controls & Visibility Scoping */
+    .record-edit-btn,
+    .btn-add-record,
+    .override-drawer {
+      display: none !important;
+    }
+    body.editor-mode .record-edit-btn {
+      display: inline-flex !important;
+    }
+    body.editor-mode .btn-add-record {
+      display: inline-flex !important;
+    }
+    body.editor-mode .override-drawer {
+      display: flex !important;
+    }
+
+    .record-edit-btn {
+      background: rgba(200, 157, 84, 0.15);
+      border: 1px solid var(--accent-muted);
+      color: var(--accent);
+      font-size: 0.72rem;
+      padding: 0.2rem 0.55rem;
+      border-radius: 4px;
+      cursor: pointer;
+      font-family: var(--sans-font);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      transition: all 0.2s;
+      align-items: center;
+      gap: 0.25rem;
+      margin-left: auto;
+    }
+    .record-edit-btn:hover {
+      background: var(--accent);
+      color: #120f0d;
+      border-color: var(--accent);
     }
 
     /* Source Provenance Badges (Option D - Sleek Micro-Dot Style) */
@@ -3191,8 +3228,44 @@
       updateOverrideDrawer();
     }
 
+    // --- Editor Mode Authorization & Keyboard Shortcut (Option 2) ---
+    function checkEditorMode() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const isEditorQuery = urlParams.get('editor') === 'true' || urlParams.get('edit') === 'true';
+      const isEditorStored = localStorage.getItem('newport_editor_mode') === 'true';
+
+      if (isEditorQuery || isEditorStored) {
+        document.body.classList.add('editor-mode');
+        localStorage.setItem('newport_editor_mode', 'true');
+      } else {
+        document.body.classList.remove('editor-mode');
+      }
+    }
+
+    function toggleEditorMode() {
+      const isCurrent = document.body.classList.contains('editor-mode');
+      if (isCurrent) {
+        document.body.classList.remove('editor-mode');
+        localStorage.setItem('newport_editor_mode', 'false');
+        alert("🔒 Editor Mode Disabled. Site is now in Public Read-Only Mode.");
+      } else {
+        document.body.classList.add('editor-mode');
+        localStorage.setItem('newport_editor_mode', 'true');
+        alert("✏️ Editor Mode Enabled! Edit & Add Record buttons are now active.");
+      }
+    }
+
+    window.addEventListener('keydown', (e) => {
+      // Toggle Editor Mode on Cmd + Shift + E (Mac) or Ctrl + Shift + E (Windows)
+      if ((e.metaKey || e.ctrlKey) && e.shiftKey && (e.key === 'E' || e.key === 'e')) {
+        e.preventDefault();
+        toggleEditorMode();
+      }
+    });
+
     window.addEventListener('hashchange', navigate);
     window.addEventListener('DOMContentLoaded', async () => {
+      checkEditorMode();
       await loadMasterStreets();
       loadSessionFromLocalStorage();
       await navigate();
