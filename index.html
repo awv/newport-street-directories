@@ -1864,6 +1864,26 @@
         if (!response.ok) return { records: [], summary: {} };
         const data = await response.json();
         streetCacheMap.set(slug, data);
+        
+        // Auto-apply active session overrides to freshly loaded street data
+        if (sessionOverrides.length > 0) {
+          sessionOverrides.forEach(ov => {
+            if (ov.match && ov.apply && cleanSlug(ov.match.street) === slug) {
+              applyLocalOverridePreview(
+                ov.match.street,
+                ov.match.year,
+                ov.apply.house_number || ov.match.house_number || '',
+                { surname: ov.match.surname_contains || '', building_name: ov.match.building_name || '' },
+                ov.apply.building_name,
+                ov.apply.surname,
+                ov.apply.forename,
+                ov.apply.trade,
+                ov.apply.source_type || 'Primary'
+              );
+            }
+          });
+        }
+
         return data;
       } catch (err) {
         console.error(`Failed loading street JSON for ${slug}`, err);
