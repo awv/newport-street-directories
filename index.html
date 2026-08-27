@@ -3330,7 +3330,21 @@
       if (streetCacheMap.has(cleanSlug(street))) {
         const cached = streetCacheMap.get(cleanSlug(street));
         if (cached && cached.records) {
-          const rec = cached.records.find(r => r.year === year && (cleanStr(r.house_number) === cleanStr(houseNum) || (origRec && origRec.surname && cleanStr(r.surname) === cleanStr(origRec.surname))));
+          const targetHouse = cleanStr(houseNum);
+          const targetSurname = origRec && origRec.surname ? cleanStr(origRec.surname) : '';
+          const targetBldg = origRec && origRec.building_name ? cleanStr(origRec.building_name) : '';
+
+          const rec = cached.records.find(r => {
+            if (r.year !== year) return false;
+            const rHouse = cleanStr(r.house_number);
+            const rSurname = cleanStr(r.surname);
+            const rBldg = cleanStr(r.building_name);
+
+            if (targetHouse && rHouse === targetHouse) return true;
+            if (targetSurname && (rSurname === targetSurname || rSurname.includes(targetSurname))) return true;
+            if (targetBldg && rBldg === targetBldg) return true;
+            return false;
+          });
           if (rec) {
             rec.house_number = houseNum;
             rec.building_name = bldgName;
