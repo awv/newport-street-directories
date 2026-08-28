@@ -561,7 +561,7 @@ def clean_street_name(name):
         'aberrthaw road': 'Aberthaw Road',
         'aberthaw road. 2': 'Aberthaw Road',
         'aberthaw road 2': 'Aberthaw Road',
-        'abbots-york place': 'Abbots-York Place',
+        'abbots-york place': 'York Place',
         'albany': 'Albany Street',
         'all saints': "All Saints' Road",
         "all saints'": "All Saints' Road",
