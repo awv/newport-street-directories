@@ -7,6 +7,10 @@ DATA_CSV = "data.csv"
 OUTPUT_DIR = "data"
 STREETS_DIR = os.path.join(OUTPUT_DIR, "streets")
 
+# Maximum year permitted for public distribution (100-year rolling rule requested by Newport Library).
+# Set to None to include all historical years.
+MAX_PUBLIC_YEAR = 1925
+
 def clean_slug(text):
     if not text:
         return ""
@@ -74,7 +78,11 @@ def parse_street_content(slug):
 def main():
     os.makedirs(STREETS_DIR, exist_ok=True)
     
-    print(f"Reading {DATA_CSV}...")
+    if MAX_PUBLIC_YEAR:
+        print(f"Reading {DATA_CSV} (Restricting build to years <= {MAX_PUBLIC_YEAR} per 100-year policy)...")
+    else:
+        print(f"Reading {DATA_CSV} (Including all historical years)...")
+
     records_by_street = {}
     street_stats = {}
     dedup_search = {}
@@ -84,6 +92,10 @@ def main():
         for row in reader:
             st = row["street"].strip()
             if not st:
+                continue
+
+            yr_str = (row.get("year") or "").strip()
+            if MAX_PUBLIC_YEAR and yr_str.isdigit() and int(yr_str) > MAX_PUBLIC_YEAR:
                 continue
 
             slug = clean_slug(st)
