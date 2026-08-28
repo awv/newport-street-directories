@@ -191,7 +191,16 @@ def parse_tsv(input_path, output_path):
                 "FAI": "FAIROAK TERRACE",
             }
             
-            for part_val in parts:
+            non_empty_parts = [p for p in parts if p]
+            candidates = []
+            if non_empty_parts:
+                candidates.append(non_empty_parts[0])
+                if len(non_empty_parts) > 1:
+                    candidates.append(f"{non_empty_parts[0]} {non_empty_parts[1]}")
+                if len(non_empty_parts) > 2:
+                    candidates.append(f"{non_empty_parts[0]} {non_empty_parts[1]} {non_empty_parts[2]}")
+            
+            for part_val in candidates:
                 p_trim = part_val.strip()
                 p_upper = p_trim.upper()
                 if p_trim and is_valid_street_name(p_trim):
@@ -209,7 +218,9 @@ def parse_tsv(input_path, output_path):
                 s_clean = re.sub(r'\b(?:from|to|off)\s+.*', '', s_clean, flags=re.I).strip()
                 s_clean = re.sub(r'[\(\[].*?[\)\]]', '', s_clean, flags=re.I).strip()
                 current_street = clean_street_name(s_clean)
-                continue
+                # Don't skip the line if it also contains valid resident data in rightmost TSV columns
+                if not parts[4] and not parts[5] and not parts[2]:
+                    continue
                 
             # Combine all non-empty columns with a space to check cross-street descriptions
             combined_row = " ".join([p for p in parts if p]).strip()
@@ -218,17 +229,18 @@ def parse_tsv(input_path, output_path):
             if re.match(r'^[\s\*\-\_\=\#\+]+$', combined_row):
                 continue
                 
-            # Check for cross-street descriptions on the combined row and its symbol-stripped version
+            # Check for cross-street descriptions only on non-house-number rows
             combined_row_stripped = combined_row.strip(' *-_~()[]')
             combined_row_lower = combined_row_stripped.lower()
-            if (CROSS_STREET_PAT.search(combined_row) or 
-                CROSS_STREET_PAT.search(combined_row_stripped) or
-                combined_row_lower.startswith("from ") or 
-                combined_row_lower.startswith("to ") or 
-                combined_row_lower.startswith("opposite ") or 
-                combined_row_lower.startswith("here is ") or 
-                combined_row_lower.startswith("here are ")):
-                continue
+            if not re.match(r'^\d+[A-Za-z]?\b', parts[0]):
+                if (CROSS_STREET_PAT.search(combined_row) or 
+                    CROSS_STREET_PAT.search(combined_row_stripped) or
+                    combined_row_lower.startswith("from ") or 
+                    combined_row_lower.startswith("to ") or 
+                    combined_row_lower.startswith("opposite ") or 
+                    combined_row_lower.startswith("here is ") or 
+                    combined_row_lower.startswith("here are ")):
+                    continue
                 
             # If we don't have an active street name, skip records
             if not current_street:
