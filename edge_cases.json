@@ -2287,6 +2287,46 @@
         "forename_contains": "Animals"
       },
       "action": "exclude"
+    },
+    {
+      "reason": "Gaer Park Lane 1936: Excluded redundant/invalid record ().",
+      "match": {
+        "street": "Gaer Park Lane",
+        "year": "1936"
+      },
+      "action": "exclude"
+    },
+    {
+      "reason": "Abbey Road: Standardized record formatting for house",
+      "match": {
+        "street": "Abbey Road",
+        "year": "1971",
+        "surname_contains": "Marsh"
+      },
+      "apply": {
+        "house_number": "12",
+        "building_name": "The Croft",
+        "surname": "Marsh",
+        "forename": "Ronald J.",
+        "trade": "",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Abbey Road: Standardized record formatting for house",
+      "match": {
+        "street": "Abbey Road",
+        "year": "1971",
+        "surname_contains": "Thomas"
+      },
+      "apply": {
+        "house_number": "10",
+        "building_name": "Near-Wood",
+        "surname": "Thomas",
+        "forename": "Robert R.",
+        "trade": "",
+        "source_type": "Primary"
+      }
     }
   ]
 }

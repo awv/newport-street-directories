@@ -102,6 +102,8 @@ def is_valid_street_name(s):
     
     if not s_clean:
         return False
+    if not s_clean.isupper():
+        return False
         
     # Ignore non-street block headers (chambers, villas, buildings)
     words = s_clean.lower().split()

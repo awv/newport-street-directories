@@ -310,7 +310,7 @@ def parse_tsv(input_path, output_path):
             # Build record
             if forename or surname or trade or bldg:
                 records.append({
-                    "year": "1927",
+                    "year": "1900",
                     "street": current_street,
                     "house_number": h_num,
                     "building_name": bldg,
@@ -393,7 +393,7 @@ def parse_tsv(input_path, output_path):
                                 
                         if s_name or f_name or t_name:
                             records.append({
-                                "year": "1927",
+                                "year": "1900",
                                 "street": current_street,
                                 "house_number": h_num,
                                 "building_name": bldg,
@@ -411,4 +411,4 @@ def parse_tsv(input_path, output_path):
     print(f"Parsed {len(records)} records from {input_path} into {output_path}.")
 
 if __name__ == "__main__":
-    parse_tsv("1927.tsv", "1927_cleaned.csv")
+    parse_tsv("1900.tsv", "1900_cleaned.csv")

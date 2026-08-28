@@ -110,6 +110,10 @@ def is_valid_street_name(s):
     
     if not s_clean:
         return False
+    if not s_clean.isupper():
+        return False
+    if s_clean.isdigit() or re.match(r'^\d+[-—\d\s]*[a-zA-Z]?$', s_clean):
+        return False
         
     suffixes = {
         'arcade', 'avenue', 'ch.', 'close', 'crescent', 'drive', 'gardens', 'grove', 'hill', 'lane', 'market', 'parade', 'passage', 'place', 'precincts', 'rise', 'road', 'row', 'square', 'street', 'terrace', 'view', 'walk', 'way'

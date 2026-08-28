@@ -108,7 +108,7 @@ def is_valid_street_name(s):
     words = s_clean.lower().split()
     if words:
         last_word = words[-1].strip('.,()-')
-        ignored_suffixes = {'buildings', 'chambers', 'court', 'wharf', 'villas', 'cottages'}
+        ignored_suffixes = {'buildings', 'chambers', 'wharf', 'villas', 'cottages'}
         if last_word in ignored_suffixes or any(w in ignored_suffixes for w in words):
             return False
     
@@ -180,7 +180,7 @@ def is_valid_street_name(s):
 def parse_tsv(input_path, output_path):
     records = []
     current_street = ""
-    
+    last_non_empty_col0 = ""
     with open(input_path, "r", encoding="utf-8") as f:
         for line_num, line in enumerate(f, start=1):
             parts = [p.strip() for p in line.split('\t')]
@@ -197,16 +197,42 @@ def parse_tsv(input_path, output_path):
             
             # Identify street header
             is_street = False
-            if col0 and is_valid_street_name(col0):
-                is_street = True
-                    
+            matched_street_name = ""
+            
+            # Check for split headers where the previous line was the prefix and this is the suffix
+            col0_clean = col0.strip(' .,-_~()[]')
+            col0_upper = col0_clean.upper()
+            if col0_upper in {"DRIVE", "ROAD", "STREET", "COURT", "TERRACE", "PLACE", "CRESCENT", "AVENUE", "WAY", "CLOSE"} and last_non_empty_col0:
+                combined = f"{last_non_empty_col0} {col0_clean}"
+                if is_valid_street_name(combined):
+                    is_street = True
+                    matched_street_name = combined
+            
+            if not is_street:
+                if col0 and is_valid_street_name(col0):
+                    is_street = True
+                    matched_street_name = col0
+                else:
+                    # Check for inline street header in other columns
+                    for part in parts:
+                        p_clean = part.strip(' .,-_~()[]')
+                        p_low = p_clean.lower()
+                        if p_low in {"malpas road", "st. julian's road"}:
+                            is_street = True
+                            matched_street_name = p_clean.upper()
+                            break
+                        
             if is_street:
-                s_clean = col0.strip()
+                s_clean = matched_street_name.strip()
                 s_clean = re.sub(r'[\s\-—]+continued\b', '', s_clean, flags=re.I).strip()
                 s_clean = re.sub(r'\b(?:from|to|off)\s+.*', '', s_clean, flags=re.I).strip()
                 s_clean = re.sub(r'[\(\[].*?[\)\]]', '', s_clean, flags=re.I).strip()
                 current_street = clean_street_name(s_clean)
+                last_non_empty_col0 = s_clean
                 continue
+                
+            if col0:
+                last_non_empty_col0 = col0.strip(' .,-_~()[]')
                 
             # Combine all non-empty columns with a space to check cross-street descriptions
             combined_row = " ".join([p for p in parts if p]).strip()

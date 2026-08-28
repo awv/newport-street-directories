@@ -114,6 +114,10 @@ def is_valid_street_name(s):
     # Strip trailing grid references
     s_clean = re.sub(r'[\.\s]+[A-Z][\s\.,\d]*$', '', s_clean, flags=re.I).strip(' ,.-')
     
+    # Reject pure numbers, ranges, and page headers
+    if s_clean.isdigit() or re.match(r'^\d+[-—\d\s]*[a-zA-Z]?$', s_clean):
+        return False
+    
     if len(s_clean) <= 1:
         return False
         
