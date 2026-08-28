@@ -550,6 +550,10 @@ def clean_street_name(name):
                 capitalized_words.append(word.capitalize())
         name = " ".join(capitalized_words)
     
+    # Normalize High Street, P. or High Street, P to High Street, Pill
+    if re.search(r'\bHigh\s+Street\s*[\.,]?\s*P\b', name, flags=re.I):
+        return 'High Street, Pill'
+
     clean = name.replace('"', '').strip(' ,.-~—–_')
     # Strip trailing commas unless specifying Pill / Pillgwenlly (e.g. High Street, Pill)
     if not re.search(r',\s*Pill(?:gwenlly)?\b', clean, flags=re.I):

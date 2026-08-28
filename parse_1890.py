@@ -197,11 +197,24 @@ def parse_tsv(input_path, output_path):
             
             # Identify street header
             is_street = False
+            matched_street_name = ""
             if col0 and is_valid_street_name(col0):
                 is_street = True
+                matched_street_name = col0
+            elif col0 and col0.strip().upper() in {"HIGH STREET, P.", "HIGH STREET, P"}:
+                is_street = True
+                matched_street_name = "HIGH STREET, PILL"
+            else:
+                for part in parts:
+                    p_clean = part.strip(' .,-_~()[]')
+                    p_low = p_clean.lower()
+                    if p_low in {"cross lane", "cross street"}:
+                        is_street = True
+                        matched_street_name = p_clean.upper()
+                        break
                     
             if is_street:
-                s_clean = col0.strip()
+                s_clean = matched_street_name.strip()
                 s_clean = re.sub(r'[\s\-—]+continued\b', '', s_clean, flags=re.I).strip()
                 s_clean = re.sub(r'\b(?:from|to|off)\s+.*', '', s_clean, flags=re.I).strip()
                 s_clean = re.sub(r'[\(\[].*?[\)\]]', '', s_clean, flags=re.I).strip()
