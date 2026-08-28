@@ -555,37 +555,71 @@ def clean_street_name(name):
         return 'High Street, Pill'
 
     clean = name.replace('"', '').strip(' ,.-~—–_')
-    # Strip trailing commas unless specifying Pill / Pillgwenlly (e.g. High Street, Pill)
-    if not re.search(r',\s*Pill(?:gwenlly)?\b', clean, flags=re.I):
-        clean = re.sub(r",\s*[A-Za-z0-9\s]+\b", "", clean)
 
-    # 1. Strip trailing district/ward letter codes (e.g. '.T', '. P', ' P', ' M', '. C', '. W', '.T,')
-    clean = re.sub(r'[\.\s]+[A-Z][\.,\s]*$', '', clean, flags=re.IGNORECASE).rstrip(" ,.-")
+    # Specific street name merges and corrections
+    street_map = {
+        'aberrthaw road': 'Aberthaw Road',
+        'aberthaw road. 2': 'Aberthaw Road',
+        'aberthaw road 2': 'Aberthaw Road',
+        'abbots-york place': 'Abbots-York Place',
+        'albany': 'Albany Street',
+        'all saints': "All Saints' Road",
+        "all saints'": "All Saints' Road",
+        "all saints' church": "All Saints' Road",
+        'alma st. baptist church': 'Alma Street',
+        'baptist': 'Commercial Road',
+        'bible': 'Hoskins Street',
+        "bible christian mis'n": 'Hoskins Street',
+        'belle': 'Belle Vue Lane',
+        'belle vue park': 'Belle Vue Lane',
+        'bella-terrace': 'Courtybella Terrace',
+        'bilton street': 'Bilston Street',
+        'boilermakers\' institute': 'Commercial Road',
+        'branch reading': 'Corporation Road',
+        'branch reading room': 'Corporation Road',
+        'britannia': 'Commercial Road',
+        'capel': 'Capel Street',
+        'central': 'Dock Street',
+        'central bd. schools': 'Dock Street',
+        'chepstown road': 'Chepstow Road',
+        'coldram': 'Coldra Road',
+        'corporation road baptist church': 'Corporation Road',
+        'county': 'Commercial Street',
+        'county council offices': 'Commercial Street',
+        'county court offices': 'Commercial Street',
+        'county police station': 'Commercial Street',
+        'crindau gospel hall': 'Malpas Road',
+        'dewsdland park road': 'Dewsland Park Road',
+        'donnington': 'Donnington Street',
+        'east market street. e.4': 'East Market Street',
+        'east usk baptist chapel': 'East Usk Road',
+        'easy loans—the star money society—the best': 'Caerleon Road',
+        "edwards ltd. & sports' outfitters": 'St. Mary Street',
+        "edwards ltd.' outfitters. tel. 531": 'St. Mary Street',
+        "edwards ltd., 'sports' outfitters. tel. 531": 'St. Mary Street',
+        "fenell's": 'High Street',
+        "francis' dye works. estab": 'Commercial Street',
+        "francis' dye works. estab. 1890. cc": 'Commercial Street',
+        's. john baptist high school': 'St. John’s Road',
+        '11': 'High Street',
+        '28 fire brigade station': 'Commercial Street',
+        '113-113a': 'Commercial Street',
+        '32-32a': 'Commercial Street',
+        '4a & 5': 'Commercial Street',
+        '24 lane thos': 'Thomas Street',
+        '3 lane alfred': 'Alfred Street',
+        '3 michl.. mkr bream place': 'Bream Place',
+        '33 lane thomas': 'Thomas Street',
+        '5 lane thos': 'Thomas Street',
+        '54 void north street': 'North Street',
+        '8 dennis lane': 'Dennis Street'
+    }
+    
+    clean_low = clean.lower()
+    if clean_low in street_map:
+        return street_map[clean_low]
 
-    # 1b. Strip trailing grid references (e.g. '. E 5', ' B 4', '. B4')
-    clean = re.sub(r'[\s\.,—\-–]+[A-Z]\s*\d+\s*$', '', clean, flags=re.I).rstrip(" ,.-")
-
-    # 2. Convert 'Street [Saint Name]' -> 'St. [Saint Name]'
-    clean = re.sub(r'^Street\s+([A-Z])', r'St. \1', clean, flags=re.IGNORECASE)
-    clean = re.sub(r'^St\b\.?\s*', 'St. ', clean, flags=re.IGNORECASE)
-
-    # 3. Standardize possessive apostrophes & capital 'S
-    if 'protheroe' in clean.lower():
-        clean = 'Protheroes Row'
-
-    clean = re.sub(r"' S\b", "'s", clean)
-    clean = re.sub(r"'S\b", "'s", clean)
-
-    # 4. Standardize Saint street names with apostrophes
-    for pat, rep in SAINT_STREET_MAP.items():
-        if re.match(pat, clean, flags=re.IGNORECASE):
-            return rep
-            
-    # 5. Expand abbreviations
-    for pattern, replacement in ABBREVIATIONS.items():
-        clean = re.sub(pattern, replacement, clean, flags=re.IGNORECASE)
-
-    # 6. Fix OCR symbol typos & specific street name merges (e.g. 'Eveswel]' -> 'Eveswell', 'Malpas (Main) Road' -> 'Malpas Road')
+    # Fix OCR symbol typos & specific street name merges
     clean = re.sub(r'Eveswel\]', 'Eveswell', clean, flags=re.IGNORECASE)
     clean = re.sub(r'([a-z])\]', r'\1l', clean)
     clean = re.sub(r'\bMalpas\s*\(\s*Main\s*\)\s*Road\b', 'Malpas Road', clean, flags=re.IGNORECASE)
