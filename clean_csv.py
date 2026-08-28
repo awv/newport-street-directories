@@ -551,7 +551,9 @@ def clean_street_name(name):
         name = " ".join(capitalized_words)
     
     clean = name.replace('"', '').strip(' ,.-~—–_')
-    clean = re.sub(r",\s*[A-Za-z0-9\s]+\b", "", clean)
+    # Strip trailing commas unless specifying Pill / Pillgwenlly (e.g. High Street, Pill)
+    if not re.search(r',\s*Pill(?:gwenlly)?\b', clean, flags=re.I):
+        clean = re.sub(r",\s*[A-Za-z0-9\s]+\b", "", clean)
 
     # 1. Strip trailing district/ward letter codes (e.g. '.T', '. P', ' P', ' M', '. C', '. W', '.T,')
     clean = re.sub(r'[\.\s]+[A-Z][\.,\s]*$', '', clean, flags=re.IGNORECASE).rstrip(" ,.-")
