@@ -1498,8 +1498,9 @@
       <div class="page-width">
         <div class="breadcrumb"><a href="#home">Home</a> &rarr; <a href="#streets">Streets</a> &rarr; <span id="street-title">Street</span></div>
         <span class="label-tag">Street Directory</span>
-        <div class="property-heading-line">
+        <div class="property-heading-line" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
           <span class="street" id="street-heading">Properties</span>
+          <button class="btn-add-record" onclick="openAddPropertyModal()" style="display: inline-flex; align-items: center; gap: 0.4rem; background: rgba(200, 157, 84, 0.15); color: var(--accent); border: 1px solid rgba(200, 157, 84, 0.4); padding: 0.45rem 0.9rem; border-radius: 6px; font-weight: 600; cursor: pointer; transition: all 0.2s ease;">➕ Add Property / Record</button>
         </div>
         <div class="property-intro-text" id="street-intro" style="margin-top: 0.5rem; color: var(--muted); font-size: 1.05rem;"></div>
       </div>
@@ -3259,6 +3260,29 @@
       } catch (err) {
         console.error("Error in openTimelineRecordEditor:", err);
       }
+    }
+
+    function openAddPropertyModal() {
+      const street = document.getElementById('street-heading') ? document.getElementById('street-heading').innerText : '';
+
+      currentEditingRecord = null;
+      const delBtn = document.getElementById('btn-delete-record');
+      if (delBtn) delBtn.style.display = 'none';
+
+      document.getElementById('edit-street').value = street;
+      document.getElementById('edit-year').value = '';
+      document.getElementById('edit-house-number').value = '';
+      document.getElementById('edit-sub-unit').value = '';
+      document.getElementById('edit-building-name').value = '';
+      document.getElementById('edit-surname').value = '';
+      document.getElementById('edit-forename').value = '';
+      document.getElementById('edit-trade').value = '';
+      document.getElementById('edit-source-type').value = 'Secondary';
+      document.getElementById('edit-entry-type').value = 'Person';
+      document.getElementById('edit-reason').value = `${street}: Added new property and record`;
+
+      toggleEntryTypeFields();
+      document.getElementById('editor-modal-backdrop').classList.add('active');
     }
 
     function openAddRecordModal() {
