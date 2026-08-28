@@ -321,4 +321,4 @@ def parse_tsv(input_path, output_path):
     print(f"Parsed {len(records)} records from {input_path} into {output_path}.")
 
 if __name__ == "__main__":
-    parse_tsv("1910.tsv", "1910_cleaned.csv")
+    parse_tsv("raw_tsvs/1910.tsv", "volume_csvs/1910_cleaned.csv")

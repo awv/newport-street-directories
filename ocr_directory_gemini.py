@@ -45,8 +45,8 @@ def main():
         sys.exit(1)
 
     print(f"Found {len(image_paths)} images to process.")
-    output_tsv = "1882.tsv"
-    processed_log = "processed_images_1882.txt"
+    output_tsv = "raw_tsvs/1882.tsv"
+    processed_log = "log_files/processed_images_1882.txt"
 
     # Header for the TSV
     header = "Number\tForenames\tSurname\tJob / Trade\tBusiness / Entity\tLayout / Notes\n"

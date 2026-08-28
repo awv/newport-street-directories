@@ -508,4 +508,4 @@ def apply_1893_printing_error_fixes(records):
     print(f"Parsed {len(records)} records from {input_path} into {output_path}.")
 
 if __name__ == "__main__":
-    parse_tsv("1893.tsv", "1893_cleaned.csv")
+    parse_tsv("raw_tsvs/1893.tsv", "volume_csvs/1893_cleaned.csv")

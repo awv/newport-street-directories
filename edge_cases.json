@@ -2327,6 +2327,246 @@
         "trade": "",
         "source_type": "Primary"
       }
+    },
+    {
+      "reason": "York Place: Standardized record formatting for house 1",
+      "match": {
+        "street": "York Place",
+        "year": "1903",
+        "surname_contains": "Thorne"
+      },
+      "apply": {
+        "house_number": "1",
+        "building_name": "",
+        "surname": "Thorne",
+        "forename": "Mrs W B",
+        "trade": "",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "York Place: Standardized record formatting for house 1",
+      "match": {
+        "street": "York Place",
+        "year": "1900",
+        "surname_contains": "Edwd. pl"
+      },
+      "apply": {
+        "house_number": "1",
+        "building_name": "",
+        "surname": "Edward",
+        "forename": "Thomas",
+        "trade": "Plasterer",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "York Place: Standardized record formatting for house 1",
+      "match": {
+        "street": "York Place",
+        "year": "1893",
+        "surname_contains": "Mattick"
+      },
+      "apply": {
+        "house_number": "1",
+        "building_name": "",
+        "surname": "Mattick",
+        "forename": "Joseph",
+        "trade": "Traveller",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "York Place: Standardized record formatting for house 2",
+      "match": {
+        "street": "York Place",
+        "year": "1913",
+        "surname_contains": "Henry"
+      },
+      "apply": {
+        "house_number": "2",
+        "building_name": "",
+        "surname": "Langmaid",
+        "forename": "Henry",
+        "trade": "Builder",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "York Place: Standardized record formatting for house 2",
+      "match": {
+        "street": "York Place",
+        "year": "1900",
+        "surname_contains": "Henry"
+      },
+      "apply": {
+        "house_number": "2",
+        "building_name": "",
+        "surname": "Langmaid",
+        "forename": "Henry",
+        "trade": "Builder",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "York Place: Standardized record formatting for house 2",
+      "match": {
+        "street": "York Place",
+        "year": "1900",
+        "surname_contains": "Wm. coal"
+      },
+      "apply": {
+        "house_number": "2",
+        "building_name": "",
+        "surname": "Coles",
+        "forename": "William",
+        "trade": "Coal Merchant",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "York Place: Standardized record formatting for house 2",
+      "match": {
+        "street": "York Place",
+        "year": "1890",
+        "surname_contains": "Hall Joh"
+      },
+      "apply": {
+        "house_number": "2",
+        "building_name": "",
+        "surname": "Hall",
+        "forename": "John R",
+        "trade": "",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "York Place: Standardized record formatting for house 3",
+      "match": {
+        "street": "York Place",
+        "year": "1900",
+        "surname_contains": "Mrs M. J"
+      },
+      "apply": {
+        "house_number": "3",
+        "building_name": "",
+        "surname": "Edwards",
+        "forename": "Mrs M. J",
+        "trade": "",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "York Place: Standardized record formatting for house 3",
+      "match": {
+        "street": "York Place",
+        "year": "1900",
+        "surname_contains": "Mrs Mary"
+      },
+      "apply": {
+        "house_number": "3",
+        "building_name": "",
+        "surname": "Everson",
+        "forename": "Mrs Mary",
+        "trade": "",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "York Place: Standardized record formatting for house 3",
+      "match": {
+        "street": "York Place",
+        "year": "1900",
+        "surname_contains": "Mrs Jane"
+      },
+      "apply": {
+        "house_number": "3",
+        "building_name": "",
+        "surname": "Worthy",
+        "forename": "Mrs Jane",
+        "trade": "",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "York Place: Standardized record formatting for house 4",
+      "match": {
+        "street": "York Place",
+        "year": "1913",
+        "surname_contains": "Misses"
+      },
+      "apply": {
+        "house_number": "4",
+        "building_name": "Clyde House",
+        "surname": "Collier",
+        "forename": "Misses",
+        "trade": "",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "York Place: Standardized record formatting for house 4",
+      "match": {
+        "street": "York Place",
+        "year": "1902",
+        "surname_contains": "Collier"
+      },
+      "apply": {
+        "house_number": "4",
+        "building_name": "Clyde House",
+        "surname": "Collier",
+        "forename": "Misses",
+        "trade": "",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "York Place: Standardized record formatting for house 4",
+      "match": {
+        "street": "York Place",
+        "year": "1903",
+        "surname_contains": "Collier"
+      },
+      "apply": {
+        "house_number": "4",
+        "building_name": "Clyde House",
+        "surname": "Collier",
+        "forename": "Misses",
+        "trade": "",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "York Place: Standardized record formatting for house 4",
+      "match": {
+        "street": "York Place",
+        "year": "1900",
+        "surname_contains": "Misses"
+      },
+      "apply": {
+        "house_number": "4",
+        "building_name": "Clyde House",
+        "surname": "Misses",
+        "forename": "Collier",
+        "trade": "",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "York Place: Standardized record formatting for house 4",
+      "match": {
+        "street": "York Place",
+        "year": "1900",
+        "surname_contains": "Hy. Thos"
+      },
+      "apply": {
+        "house_number": "4",
+        "building_name": "",
+        "surname": "Ford",
+        "forename": "Henry Thomas",
+        "trade": "Upholsterer",
+        "source_type": "Primary"
+      }
     }
   ]
 }

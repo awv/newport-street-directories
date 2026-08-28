@@ -1,7 +1,7 @@
 import csv
 
 data_csv = "data.csv"
-cleaned_csv = "1927_cleaned.csv"
+cleaned_csv = "volume_csvs/1927_cleaned.csv"
 
 # 1. Read existing data.csv and filter out any existing 1927 records
 header = None
