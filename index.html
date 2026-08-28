@@ -2614,11 +2614,13 @@
         .filter(r => {
           const rHouseNum = cleanStr(r.house_number);
           const rBldgName = cleanStr(r.building_name);
-          const fullName = cleanStr(`${expandForename(r.forename)} ${r.surname}`);
+          const rawFullName = (r.forename ? `${r.forename} ${r.surname}` : r.surname).trim();
+          const fullName = cleanStr(rawFullName);
+          const expandedFullName = cleanStr(`${expandForename(r.forename)} ${r.surname}`);
 
           if (rHouseNum && (rHouseNum === cleanLocKey || rHouseNum === cleanExtractedNum)) return true;
           if (rBldgName && (rBldgName === cleanLocKey || rBldgName === cleanExtractedNum)) return true;
-          if (!rHouseNum && !rBldgName && fullName && (fullName === cleanLocKey || cleanLocKey.includes(fullName))) return true;
+          if (!rHouseNum && !rBldgName && (fullName === cleanLocKey || expandedFullName === cleanLocKey || cleanLocKey.includes(fullName) || fullName.includes(cleanLocKey))) return true;
 
           return false;
         })
