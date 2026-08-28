@@ -811,6 +811,11 @@ def clean_record(row):
     forename = (row.get("forename") or "").replace("\\t", "").replace("\\n", "").strip().strip(',"-~\'')
     trade = (row.get("trade") or "").replace("\\t", "").replace("\\n", "").strip().strip(',"-~\'')
 
+    # Auto-realign records where a business name or entity was placed in the trade field without a surname or house number
+    if not house_num and not bldg_name and not surname and not forename and trade:
+        surname = trade
+        trade = ""
+
     # Realign shifted 1971 records and strip school/layout parentheticals
     if year == "1971":
         # Realign 1971 records where the entire line was parsed into the surname column (no tabs)
