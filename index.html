@@ -1669,6 +1669,7 @@
       </div>
       <div class="editor-modal-footer">
         <button class="btn-cancel" onclick="closeEditorModal()">Cancel</button>
+        <button class="btn-delete" id="btn-delete-record" onclick="deleteCurrentRecord()" style="background: rgba(220, 53, 69, 0.15); color: #ff6b6b; border: 1px solid rgba(220, 53, 69, 0.4); padding: 0.55rem 1rem; border-radius: 6px; font-weight: 600; cursor: pointer; transition: all 0.2s ease;">🗑️ Delete Record</button>
         <button class="btn-save" onclick="saveRecordCorrection()">Save & Preview Correction</button>
       </div>
     </div>
@@ -3249,6 +3250,9 @@
         document.getElementById('edit-entry-type').value = entryType;
         toggleEntryTypeFields();
 
+        const delBtn = document.getElementById('btn-delete-record');
+        if (delBtn) delBtn.style.display = 'inline-block';
+
         document.getElementById('editor-modal-backdrop').classList.add('active');
       } catch (err) {
         console.error("Error in openTimelineRecordEditor:", err);
@@ -3260,6 +3264,8 @@
       const houseNum = document.getElementById('house-number-display') ? document.getElementById('house-number-display').innerText : '';
 
       currentEditingRecord = null;
+      const delBtn = document.getElementById('btn-delete-record');
+      if (delBtn) delBtn.style.display = 'none';
 
       document.getElementById('edit-street').value = street;
       document.getElementById('edit-year').value = '';
@@ -3279,6 +3285,47 @@
 
     function closeEditorModal() {
       document.getElementById('editor-modal-backdrop').classList.remove('active');
+    }
+
+    function deleteCurrentRecord() {
+      if (!currentEditingRecord) return;
+      const street = document.getElementById('edit-street').value.trim();
+      const year = document.getElementById('edit-year').value.trim();
+      const houseNum = document.getElementById('edit-house-number').value.trim();
+      const surname = document.getElementById('edit-surname').value.trim();
+
+      if (!confirm(`Are you sure you want to delete/exclude this record (${surname} - ${year})?`)) return;
+
+      const overrideObj = {
+        reason: `${street} ${year}: Excluded redundant/invalid record (${surname}).`,
+        match: {
+          street: street,
+          year: year
+        },
+        action: "exclude"
+      };
+
+      if (surname) {
+        overrideObj.match.surname_contains = surname.substring(0, 8);
+      } else if (houseNum) {
+        overrideObj.match.house_number = houseNum;
+      }
+
+      sessionOverrides.push(overrideObj);
+      saveSessionToLocalStorage();
+      updateOverrideDrawer();
+      closeEditorModal();
+
+      // Remove from local in-memory preview cache
+      if (streetCacheMap.has(cleanSlug(street))) {
+        const cached = streetCacheMap.get(cleanSlug(street));
+        if (cached && cached.records) {
+          const targetSur = cleanStr(surname);
+          cached.records = cached.records.filter(r => !(r.year === year && cleanStr(r.surname) === targetSur));
+        }
+      }
+
+      navigate();
     }
 
     function saveRecordCorrection() {

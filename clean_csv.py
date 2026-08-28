@@ -624,6 +624,10 @@ def apply_edge_cases(record):
         if match.get("building_name") and match["building_name"].lower() != bldg.lower():
             continue
 
+        # Check for record exclusion / deletion rule
+        if rule.get("action") == "exclude":
+            return None
+
         # Apply direct override
         if "apply" in rule:
             for k, v in rule["apply"].items():
@@ -795,17 +799,17 @@ def clean_record(row):
     ):
         return None
 
-    house_num = (row.get("house_number") or "").strip().strip(',"-~\'')
-    bldg_name = (row.get("building_name") or "").strip().strip(',"-~\'')
+    house_num = (row.get("house_number") or "").replace("\\t", "").replace("\\n", "").strip().strip(',"-~\'')
+    bldg_name = (row.get("building_name") or "").replace("\\t", "").replace("\\n", "").strip().strip(',"-~\'')
     
     # Clear layout artifacts like '0' or duplicate numbers in building name
     if bldg_name.isdigit():
         if bldg_name == "0" or bldg_name == "00" or house_num:
             bldg_name = ""
 
-    surname = (row.get("surname") or "").strip().strip(',"-~\'')
-    forename = (row.get("forename") or "").strip().strip(',"-~\'')
-    trade = (row.get("trade") or "").strip().strip(',"-~\'')
+    surname = (row.get("surname") or "").replace("\\t", "").replace("\\n", "").strip().strip(',"-~\'')
+    forename = (row.get("forename") or "").replace("\\t", "").replace("\\n", "").strip().strip(',"-~\'')
+    trade = (row.get("trade") or "").replace("\\t", "").replace("\\n", "").strip().strip(',"-~\'')
 
     # Realign shifted 1971 records and strip school/layout parentheticals
     if year == "1971":
@@ -2073,6 +2077,8 @@ def clean_record(row):
 
     # 21. Apply Structured Edge-Case Overrides from edge_cases.json
     rec = apply_edge_cases(rec)
+    if rec is None:
+        return None
 
     if not rec["surname"] and not rec["forename"] and not rec["trade"] and not rec["building_name"]:
         return None
