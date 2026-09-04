@@ -16,8 +16,11 @@ import json
 import os
 import sys
 
-PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
+# Root project directory is parent of scripts directory
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_DIR = os.path.abspath(os.path.join(SCRIPT_DIR, ".."))
 EDGE_CASES_FILE = os.path.join(PROJECT_DIR, "edge_cases.json")
+MASTER_STREETS_FILE = os.path.join(PROJECT_DIR, "master_streets.json")
 DOWNLOADS_DIR = os.path.expanduser("~/Downloads")
 
 INBOX_DIR = os.path.join(PROJECT_DIR, "overrides_inbox")
@@ -64,10 +67,31 @@ def merge_overrides(source_file):
         print(f"Error: Invalid format in '{source_file}'. Expected list or object with 'overrides' key.")
         return False
 
+    master_streets_data = {}
+    if os.path.exists(MASTER_STREETS_FILE):
+        with open(MASTER_STREETS_FILE, "r", encoding="utf-8") as f:
+            master_streets_data = json.load(f)
+
     existing_list = master_data.get("overrides", [])
     added_count = 0
+    registry_updated_count = 0
 
     for new_item in new_list:
+        if isinstance(new_item, dict) and new_item.get("action") == "UPDATE_MASTER_REGISTRY":
+            slug = new_item.get("slug")
+            if slug and slug in master_streets_data.get("streets", {}):
+                st = master_streets_data["streets"][slug]
+                if "audit_status" in new_item: st["audit_status"] = new_item["audit_status"]
+                if "former_names" in new_item: st["former_names"] = new_item["former_names"]
+                if "sub_sections" in new_item: st["sub_sections"] = new_item["sub_sections"]
+                if "numbering_scheme" in new_item: st["numbering_scheme"] = new_item["numbering_scheme"]
+                if "district" in new_item: st["district"] = new_item["district"]
+                if "parish" in new_item: st["parish"] = new_item["parish"]
+                if "coordinates" in new_item: st["coordinates"] = new_item["coordinates"]
+                if "notes" in new_item: st["notes"] = new_item["notes"]
+                registry_updated_count += 1
+            continue
+
         # Avoid duplicate match rules
         match_str = json.dumps(new_item.get("match"), sort_keys=True)
         apply_str = json.dumps(new_item.get("apply"), sort_keys=True)
@@ -89,6 +113,12 @@ def merge_overrides(source_file):
     with open(EDGE_CASES_FILE, "w", encoding="utf-8") as f:
         json.dump(master_data, f, indent=2, ensure_ascii=False)
         f.write("\n")
+
+    if registry_updated_count > 0:
+        with open(MASTER_STREETS_FILE, "w", encoding="utf-8") as f:
+            json.dump(master_streets_data, f, indent=2, ensure_ascii=False)
+            f.write("\n")
+        print(f"🏛️ Updated {registry_updated_count} street entry(ies) in '{MASTER_STREETS_FILE}'.")
 
     print(f"✅ Successfully merged {added_count} new override rule(s) from '{source_file}' into '{EDGE_CASES_FILE}'.")
     return True
@@ -115,7 +145,7 @@ def main():
 
     if merged_any:
         print("\nRebuilding dataset with new merged edge cases...")
-        os.system("python3 clean_csv.py && python3 build_site_data.py")
+        os.system(f"python3 '{os.path.join(SCRIPT_DIR, 'clean_csv.py')}' && python3 '{os.path.join(SCRIPT_DIR, 'build_site_data.py')}'")
 
 if __name__ == "__main__":
     main()
