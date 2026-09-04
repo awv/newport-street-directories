@@ -524,7 +524,7 @@ let selectedIndex = -1;
 
     function setStreetAuditFilter(filter) {
       currentAuditFilter = filter;
-      ['all', 'verified', 'unverified'].forEach(f => {
+      ['all', 'name_verified', 'fully_enriched', 'unverified'].forEach(f => {
         const btn = document.getElementById(`tab-audit-${f}`);
         if (btn) {
           if (f === filter) btn.classList.add('active');
@@ -553,22 +553,28 @@ let selectedIndex = -1;
       });
 
       const totalCount = masterStreetsList.length;
-      let verifiedCount = 0;
+      let nameVerifiedCount = 0;
+      let fullyEnrichedCount = 0;
       let unverifiedCount = 0;
 
       masterStreetsList.forEach(s => {
         const slug = cleanStr(s.displayName).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
         const overrideStatus = masterDict[slug] ? masterDict[slug].audit.status : null;
-        const status = overrideStatus || s.auditStatus || 'UNVERIFIED';
-        if (status === 'VERIFIED') verifiedCount++;
+        let status = overrideStatus || s.auditStatus || 'UNVERIFIED';
+        if (status === 'VERIFIED') status = 'NAME_VERIFIED';
+
+        if (status === 'FULLY_ENRICHED') fullyEnrichedCount++;
+        else if (status === 'NAME_VERIFIED') nameVerifiedCount++;
         else unverifiedCount++;
       });
 
       const cntAll = document.getElementById('count-audit-all');
-      const cntVer = document.getElementById('count-audit-verified');
+      const cntNameVer = document.getElementById('count-audit-name_verified');
+      const cntEnriched = document.getElementById('count-audit-fully_enriched');
       const cntUnver = document.getElementById('count-audit-unverified');
       if (cntAll) cntAll.innerText = totalCount;
-      if (cntVer) cntVer.innerText = verifiedCount;
+      if (cntNameVer) cntNameVer.innerText = nameVerifiedCount;
+      if (cntEnriched) cntEnriched.innerText = fullyEnrichedCount;
       if (cntUnver) cntUnver.innerText = unverifiedCount;
 
       let streetsToShow = masterStreetsList;
@@ -579,17 +585,25 @@ let selectedIndex = -1;
         document.querySelector('#view-streets .street').innerText = `${filterYear} Directory Streets`;
         document.querySelector('#view-streets .breadcrumb').innerHTML = `<a href="#home">Home</a> &rarr; <a href="#directories">Directories</a> &rarr; <span>${filterYear}</span>`;
       } else {
-        if (currentAuditFilter === 'verified') {
+        if (currentAuditFilter === 'name_verified') {
+          streetsToShow = masterStreetsList.filter(s => {
+            const slug = cleanStr(s.displayName).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+            let status = masterDict[slug] ? masterDict[slug].audit.status : (s.auditStatus || 'UNVERIFIED');
+            if (status === 'VERIFIED') status = 'NAME_VERIFIED';
+            return status === 'NAME_VERIFIED';
+          });
+        } else if (currentAuditFilter === 'fully_enriched') {
           streetsToShow = masterStreetsList.filter(s => {
             const slug = cleanStr(s.displayName).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
             const status = masterDict[slug] ? masterDict[slug].audit.status : (s.auditStatus || 'UNVERIFIED');
-            return status === 'VERIFIED';
+            return status === 'FULLY_ENRICHED';
           });
         } else if (currentAuditFilter === 'unverified') {
           streetsToShow = masterStreetsList.filter(s => {
             const slug = cleanStr(s.displayName).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-            const status = masterDict[slug] ? masterDict[slug].audit.status : (s.auditStatus || 'UNVERIFIED');
-            return status !== 'VERIFIED';
+            let status = masterDict[slug] ? masterDict[slug].audit.status : (s.auditStatus || 'UNVERIFIED');
+            if (status === 'VERIFIED') status = 'NAME_VERIFIED';
+            return status === 'UNVERIFIED';
           });
         }
 
@@ -655,10 +669,15 @@ let selectedIndex = -1;
 
         const propText = data.houseCount > 0 ? `${data.houseCount} Properties` : `${data.recordsCount} Records`;
         const slug = cleanStr(data.displayName).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-        const currentStatus = masterDict[slug] ? masterDict[slug].audit.status : (data.auditStatus || 'UNVERIFIED');
-        const badgeHTML = currentStatus === 'VERIFIED'
-          ? '<span class="source-pill source-pill-user" style="font-size: 0.65rem; margin-left: 0.5rem;">🔒 VERIFIED</span>'
-          : '<span class="source-pill source-pill-primary" style="font-size: 0.65rem; margin-left: 0.5rem; opacity: 0.7;">⚠️ UNVERIFIED</span>';
+        let currentStatus = masterDict[slug] ? masterDict[slug].audit.status : (data.auditStatus || 'UNVERIFIED');
+        if (currentStatus === 'VERIFIED') currentStatus = 'NAME_VERIFIED';
+
+        let badgeHTML = '<span class="source-pill source-pill-primary" style="font-size: 0.65rem; margin-left: 0.5rem; opacity: 0.7;">⚠️ RAW</span>';
+        if (currentStatus === 'FULLY_ENRICHED') {
+          badgeHTML = '<span class="source-pill source-pill-user" style="font-size: 0.65rem; margin-left: 0.5rem; background: rgba(200, 157, 84, 0.2); color: var(--accent); border-color: var(--accent);">🌟 ENRICHED</span>';
+        } else if (currentStatus === 'NAME_VERIFIED') {
+          badgeHTML = '<span class="source-pill source-pill-user" style="font-size: 0.65rem; margin-left: 0.5rem;">🔒 NAME VERIFIED</span>';
+        }
 
         const card = document.createElement('a');
         card.className = 'street-index-card';
@@ -1992,7 +2011,9 @@ let selectedIndex = -1;
 
       document.getElementById('reg-canonical-title').innerText = entry.canonical_name || targetStreet;
       document.getElementById('reg-slug-subtitle').innerText = `slug: ${slug}`;
-      document.getElementById('reg-status-select').value = (entry.audit && entry.audit.status) ? entry.audit.status : 'UNVERIFIED';
+      let initStatus = (entry.audit && entry.audit.status) ? entry.audit.status : 'UNVERIFIED';
+      if (initStatus === 'VERIFIED') initStatus = 'NAME_VERIFIED';
+      document.getElementById('reg-status-select').value = initStatus;
       document.getElementById('reg-former-names').value = (entry.former_names || []).join(', ');
       document.getElementById('reg-sub-sections').value = (entry.sub_sections || []).join(', ');
       document.getElementById('reg-numbering-type').value = (entry.numbering_scheme && entry.numbering_scheme.type) ? entry.numbering_scheme.type : 'ODDS_EVENS';

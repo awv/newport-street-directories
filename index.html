@@ -235,10 +235,11 @@
         <div class="property-intro-text" id="streets-summary-text">Alphabetical index of all recorded streets.</div>
         
         <!-- Audit Status Filter Tabs -->
-        <div class="search-tabs" style="margin-top: 1.5rem; margin-bottom: 0;">
-          <button class="tab-btn active" id="tab-audit-all" onclick="setStreetAuditFilter('all')">All Streets (<span id="count-audit-all">0</span>)</button>
-          <button class="tab-btn" id="tab-audit-verified" onclick="setStreetAuditFilter('verified')">🔒 Verified (<span id="count-audit-verified">0</span>)</button>
-          <button class="tab-btn" id="tab-audit-unverified" onclick="setStreetAuditFilter('unverified')">⚠️ Unverified / Review (<span id="count-audit-unverified">0</span>)</button>
+        <div class="search-tabs" style="margin-top: 1.5rem; margin-bottom: 0; flex-wrap: wrap;">
+          <button class="tab-btn active" id="tab-audit-all" onclick="setStreetAuditFilter('all')">All (<span id="count-audit-all">0</span>)</button>
+          <button class="tab-btn" id="tab-audit-name_verified" onclick="setStreetAuditFilter('name_verified')">🔒 Name Verified (<span id="count-audit-name_verified">0</span>)</button>
+          <button class="tab-btn" id="tab-audit-fully_enriched" onclick="setStreetAuditFilter('fully_enriched')">🌟 Fully Enriched (<span id="count-audit-fully_enriched">0</span>)</button>
+          <button class="tab-btn" id="tab-audit-unverified" onclick="setStreetAuditFilter('unverified')">⚠️ Unverified / Raw (<span id="count-audit-unverified">0</span>)</button>
         </div>
       </div>
     </div>
@@ -455,8 +456,9 @@
           </div>
           <div style="margin-left: auto;">
             <select id="reg-status-select" style="background: #120f0d; border: 1px solid var(--accent); color: #ffffff; padding: 0.4rem 0.75rem; border-radius: 4px; font-weight: 600;">
-              <option value="VERIFIED">🔒 VERIFIED (Locked)</option>
-              <option value="UNVERIFIED">⚠️ UNVERIFIED</option>
+              <option value="UNVERIFIED">⚠️ UNVERIFIED (Raw)</option>
+              <option value="NAME_VERIFIED">🔒 NAME VERIFIED (Protected Name)</option>
+              <option value="FULLY_ENRICHED">🌟 FULLY ENRICHED (Rich Profile Complete)</option>
             </select>
           </div>
         </div>
