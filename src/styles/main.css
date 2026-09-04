@@ -692,6 +692,8 @@
     /* Interactive Record Editor Controls & Visibility Scoping */
     .record-edit-btn,
     .btn-add-record,
+    .master-registry-btn,
+    .master-audit-toolbar,
     .override-drawer {
       display: none !important;
     }
@@ -700,6 +702,12 @@
     }
     body.editor-mode .btn-add-record {
       display: inline-flex !important;
+    }
+    body.editor-mode .master-registry-btn {
+      display: inline-flex !important;
+    }
+    body.editor-mode .master-audit-toolbar {
+      display: flex !important;
     }
     body.editor-mode .override-drawer {
       display: flex !important;
