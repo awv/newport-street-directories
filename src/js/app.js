@@ -683,9 +683,9 @@ let selectedIndex = -1;
         card.className = 'street-index-card';
         card.href = `#street=${encodeURIComponent(data.displayName)}`;
         card.innerHTML = `
-          <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+          <div class="street-index-header">
             <div class="street-index-title">${data.displayName}</div>
-            ${badgeHTML}
+            <div class="street-index-badge">${badgeHTML}</div>
           </div>
           <div class="street-index-meta">${propText} • ${data.yearsSpan}</div>
         `;
