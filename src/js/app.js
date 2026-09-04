@@ -520,6 +520,20 @@ let selectedIndex = -1;
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
+    let currentAuditFilter = 'all';
+
+    function setStreetAuditFilter(filter) {
+      currentAuditFilter = filter;
+      ['all', 'verified', 'unverified'].forEach(f => {
+        const btn = document.getElementById(`tab-audit-${f}`);
+        if (btn) {
+          if (f === filter) btn.classList.add('active');
+          else btn.classList.remove('active');
+        }
+      });
+      renderStreetsView();
+    }
+
     // --- All Streets View Rendering ---
     function renderStreetsView(filterYear = null) {
       const container = document.getElementById('streets-content');
@@ -531,6 +545,32 @@ let selectedIndex = -1;
         return;
       }
 
+      // Update Audit Counters
+      let masterDict = {};
+      const storedOverrides = sessionOverrides.filter(o => o.action === 'UPDATE_MASTER_REGISTRY');
+      storedOverrides.forEach(o => {
+        masterDict[o.slug] = { audit: { status: o.audit_status } };
+      });
+
+      const totalCount = masterStreetsList.length;
+      let verifiedCount = 0;
+      let unverifiedCount = 0;
+
+      masterStreetsList.forEach(s => {
+        const slug = cleanStr(s.displayName).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+        const overrideStatus = masterDict[slug] ? masterDict[slug].audit.status : null;
+        const status = overrideStatus || s.auditStatus || 'UNVERIFIED';
+        if (status === 'VERIFIED') verifiedCount++;
+        else unverifiedCount++;
+      });
+
+      const cntAll = document.getElementById('count-audit-all');
+      const cntVer = document.getElementById('count-audit-verified');
+      const cntUnver = document.getElementById('count-audit-unverified');
+      if (cntAll) cntAll.innerText = totalCount;
+      if (cntVer) cntVer.innerText = verifiedCount;
+      if (cntUnver) cntUnver.innerText = unverifiedCount;
+
       let streetsToShow = masterStreetsList;
       if (filterYear) {
         streetsToShow = masterStreetsList.filter(s => s.yearsSpan && s.yearsSpan.includes(filterYear));
@@ -539,10 +579,29 @@ let selectedIndex = -1;
         document.querySelector('#view-streets .street').innerText = `${filterYear} Directory Streets`;
         document.querySelector('#view-streets .breadcrumb').innerHTML = `<a href="#home">Home</a> &rarr; <a href="#directories">Directories</a> &rarr; <span>${filterYear}</span>`;
       } else {
+        if (currentAuditFilter === 'verified') {
+          streetsToShow = masterStreetsList.filter(s => {
+            const slug = cleanStr(s.displayName).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+            const status = masterDict[slug] ? masterDict[slug].audit.status : (s.auditStatus || 'UNVERIFIED');
+            return status === 'VERIFIED';
+          });
+        } else if (currentAuditFilter === 'unverified') {
+          streetsToShow = masterStreetsList.filter(s => {
+            const slug = cleanStr(s.displayName).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+            const status = masterDict[slug] ? masterDict[slug].audit.status : (s.auditStatus || 'UNVERIFIED');
+            return status !== 'VERIFIED';
+          });
+        }
+
         document.getElementById('streets-summary-text').innerText = 
-          `Index of ${masterStreetsList.length} unique streets recorded across archive directory collections.`;
+          `Showing ${streetsToShow.length} of ${masterStreetsList.length} total recorded streets in archive collections.`;
         document.querySelector('#view-streets .street').innerText = `All Streets`;
         document.querySelector('#view-streets .breadcrumb').innerHTML = `<a href="#home">Home</a> &rarr; <span>Streets</span>`;
+      }
+
+      if (!streetsToShow.length) {
+        container.innerHTML = '<p style="color: var(--muted); padding: 3rem 0; text-align: center;">No streets match the selected audit filter.</p>';
+        return;
       }
 
       // Build A-Z Quick Jump Bar
@@ -595,12 +654,20 @@ let selectedIndex = -1;
         }
 
         const propText = data.houseCount > 0 ? `${data.houseCount} Properties` : `${data.recordsCount} Records`;
+        const slug = cleanStr(data.displayName).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+        const currentStatus = masterDict[slug] ? masterDict[slug].audit.status : (data.auditStatus || 'UNVERIFIED');
+        const badgeHTML = currentStatus === 'VERIFIED'
+          ? '<span class="source-pill source-pill-user" style="font-size: 0.65rem; margin-left: 0.5rem;">🔒 VERIFIED</span>'
+          : '<span class="source-pill source-pill-primary" style="font-size: 0.65rem; margin-left: 0.5rem; opacity: 0.7;">⚠️ UNVERIFIED</span>';
 
         const card = document.createElement('a');
         card.className = 'street-index-card';
         card.href = `#street=${encodeURIComponent(data.displayName)}`;
         card.innerHTML = `
-          <div class="street-index-title">${data.displayName}</div>
+          <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+            <div class="street-index-title">${data.displayName}</div>
+            ${badgeHTML}
+          </div>
           <div class="street-index-meta">${propText} • ${data.yearsSpan}</div>
         `;
         currentGrid.appendChild(card);
@@ -1986,6 +2053,131 @@ let selectedIndex = -1;
       closeMasterRegistryModal();
 
       alert(`✅ Master Registry settings for ${currentEditingStreetSlug} saved to session queue (${status})!`);
+      renderStreetsView();
+    }
+
+    // --- Master Street CSV Export & Import ---
+    async function exportMasterStreetsCSV() {
+      let masterDict = {};
+      try {
+        const resp = await fetch('master_streets.json');
+        if (resp.ok) {
+          const data = await resp.json();
+          masterDict = data.streets || {};
+        }
+      } catch (err) {
+        console.warn("Could not fetch master_streets.json", err);
+      }
+
+      // Incorporate active session overrides into export
+      sessionOverrides.filter(o => o.action === 'UPDATE_MASTER_REGISTRY').forEach(o => {
+        masterDict[o.slug] = {
+          canonical_name: masterDict[o.slug] ? masterDict[o.slug].canonical_name : o.slug,
+          slug: o.slug,
+          audit: { status: o.audit_status, notes: o.notes || '' },
+          former_names: o.former_names || [],
+          sub_sections: o.sub_sections || [],
+          numbering_scheme: o.numbering_scheme || { type: 'ODDS_EVENS' },
+          district: o.district || '',
+          parish: o.parish || '',
+          coordinates: o.coordinates || { lat: null, lng: null }
+        };
+      });
+
+      const headers = ["slug", "canonical_name", "audit_status", "former_names", "sub_sections", "numbering_type", "renumbering_year", "district", "parish", "latitude", "longitude", "notes"];
+      const csvRows = [headers.join(",")];
+
+      masterStreetsList.forEach(s => {
+        const slug = cleanStr(s.displayName).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+        const entry = masterDict[slug] || {
+          canonical_name: s.displayName,
+          slug: slug,
+          audit: { status: s.auditStatus || 'UNVERIFIED', notes: '' },
+          former_names: [],
+          sub_sections: [],
+          numbering_scheme: { type: 'ODDS_EVENS' },
+          district: '',
+          parish: '',
+          coordinates: { lat: null, lng: null }
+        };
+
+        const escapeCSV = (val) => `"${String(val || '').replace(/"/g, '""')}"`;
+
+        const row = [
+          escapeCSV(slug),
+          escapeCSV(entry.canonical_name || s.displayName),
+          escapeCSV(entry.audit ? entry.audit.status : 'UNVERIFIED'),
+          escapeCSV((entry.former_names || []).join('; ')),
+          escapeCSV((entry.sub_sections || []).join('; ')),
+          escapeCSV(entry.numbering_scheme ? entry.numbering_scheme.type : 'ODDS_EVENS'),
+          escapeCSV(entry.numbering_scheme ? entry.numbering_scheme.approx_change_year : ''),
+          escapeCSV(entry.district || ''),
+          escapeCSV(entry.parish || ''),
+          escapeCSV(entry.coordinates ? entry.coordinates.lat : ''),
+          escapeCSV(entry.coordinates ? entry.coordinates.lng : ''),
+          escapeCSV(entry.audit ? entry.audit.notes : '')
+        ];
+        csvRows.push(row.join(","));
+      });
+
+      const csvContent = "data:text/csv;charset=utf-8," + encodeURIComponent(csvRows.join("\n"));
+      const dlAnchor = document.createElement('a');
+      dlAnchor.setAttribute("href", csvContent);
+      dlAnchor.setAttribute("download", `master_streets_export_${new Date().toISOString().slice(0,10)}.csv`);
+      document.body.appendChild(dlAnchor);
+      dlAnchor.click();
+      dlAnchor.remove();
+    }
+
+    function importMasterStreetsCSV(event) {
+      const file = event.target.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        const text = e.target.result;
+        const lines = text.split(/\r?\n/).filter(Boolean);
+        if (lines.length < 2) return;
+
+        let importCount = 0;
+        for (let i = 1; i < lines.length; i++) {
+          const cols = lines[i].split(/,(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)/).map(c => c.replace(/^"|"$/g, '').replace(/""/g, '"').trim());
+          if (cols.length >= 3 && cols[0]) {
+            const slug = cols[0];
+            const status = cols[2] || 'UNVERIFIED';
+            const former_names = cols[3] ? cols[3].split(';').map(x => x.trim()).filter(Boolean) : [];
+            const sub_sections = cols[4] ? cols[4].split(';').map(x => x.trim()).filter(Boolean) : [];
+            const numberingType = cols[5] || 'ODDS_EVENS';
+            const numberingYear = cols[6] ? parseInt(cols[6]) : null;
+            const district = cols[7] || '';
+            const parish = cols[8] || '';
+            const lat = cols[9] ? parseFloat(cols[9]) : null;
+            const lng = cols[10] ? parseFloat(cols[10]) : null;
+            const notes = cols[11] || '';
+
+            sessionOverrides.push({
+              action: 'UPDATE_MASTER_REGISTRY',
+              slug: slug,
+              audit_status: status,
+              former_names: former_names,
+              sub_sections: sub_sections,
+              numbering_scheme: { type: numberingType, approx_change_year: numberingYear },
+              district: district,
+              parish: parish,
+              coordinates: { lat: lat, lng: lng },
+              notes: notes,
+              timestamp: new Date().toISOString()
+            });
+            importCount++;
+          }
+        }
+
+        saveSessionToLocalStorage();
+        updateOverrideDrawer();
+        renderStreetsView();
+        alert(`📥 Successfully imported ${importCount} street records from CSV into your active session queue!`);
+      };
+      reader.readAsText(file);
     }
 
     window.addEventListener('keydown', (e) => {
