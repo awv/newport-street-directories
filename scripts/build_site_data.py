@@ -165,11 +165,14 @@ def main():
         # Load custom street content (description, images, coordinates override)
         content = parse_street_content(slug)
 
-        # Attach master_streets.json metadata (former names, sub-sections, verification lock)
+        # Attach master_streets.json metadata (former names, sub-sections, audit status, verification lock)
         m_info = MASTER_STREETS.get(slug, {})
         former_names = [f.get("name") for f in m_info.get("former_names", []) if f.get("name")]
         sub_sections = m_info.get("sub_sections", [])
-        is_verified = m_info.get("audit", {}).get("status") == "VERIFIED"
+        audit_status = m_info.get("audit_status") or m_info.get("audit", {}).get("status") or "UNVERIFIED"
+        if audit_status == "VERIFIED":
+            audit_status = "NAME_VERIFIED"
+        is_verified = audit_status in ["NAME_VERIFIED", "FULLY_ENRICHED"]
 
         summary = {
             "displayName": stats["displayName"],
@@ -185,6 +188,7 @@ def main():
             "hasContent": bool(content["description"] or content["images"]),
             "formerNames": former_names,
             "subSections": sub_sections,
+            "auditStatus": audit_status,
             "isVerified": is_verified
         }
         streets_summary.append(summary)
