@@ -672,11 +672,11 @@ let selectedIndex = -1;
         let currentStatus = masterDict[slug] ? masterDict[slug].audit.status : (data.auditStatus || 'UNVERIFIED');
         if (currentStatus === 'VERIFIED') currentStatus = 'NAME_VERIFIED';
 
-        let badgeHTML = '<span class="source-pill source-pill-primary" style="font-size: 0.65rem; margin-left: 0.5rem; opacity: 0.7;">⚠️ RAW</span>';
+        let badgeHTML = '<span class="source-pill source-pill-primary" style="font-size: 0.65rem; opacity: 0.7;">⚠️ RAW</span>';
         if (currentStatus === 'FULLY_ENRICHED') {
-          badgeHTML = '<span class="source-pill source-pill-user" style="font-size: 0.65rem; margin-left: 0.5rem; background: rgba(200, 157, 84, 0.2); color: var(--accent); border-color: var(--accent);">🌟 ENRICHED</span>';
+          badgeHTML = '<span class="source-pill source-pill-user" style="font-size: 0.65rem; background: rgba(200, 157, 84, 0.2); color: var(--accent); border-color: var(--accent);">🌟 ENRICHED</span>';
         } else if (currentStatus === 'NAME_VERIFIED') {
-          badgeHTML = '<span class="source-pill source-pill-user" style="font-size: 0.65rem; margin-left: 0.5rem;">🔒 NAME VERIFIED</span>';
+          badgeHTML = '<span class="source-pill source-pill-user" style="font-size: 0.65rem;">🔒 NAME VERIFIED</span>';
         }
 
         const card = document.createElement('a');

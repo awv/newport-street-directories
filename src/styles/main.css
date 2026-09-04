@@ -687,11 +687,10 @@
     }
     .street-index-footer {
       display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 0.5rem;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.4rem;
       margin-top: auto;
-      flex-wrap: wrap;
     }
     .street-index-meta {
       font-size: 0.85rem;
@@ -702,6 +701,7 @@
     }
     body.editor-mode .street-index-badge {
       display: inline-flex !important;
+      margin-top: 0.15rem;
     }
 
     /* Interactive Record Editor Controls & Visibility Scoping */
