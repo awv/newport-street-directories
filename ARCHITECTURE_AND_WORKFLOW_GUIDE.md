@@ -75,21 +75,45 @@ Historical volumes frequently switch between 1-column and 3-column side-by-side 
   - `forename`: `"Hy."`
   - `building_name`: `"Bridge Hotel"`
 
+### C. Master Street Registry & Verification Locks (`master_streets.json`)
+The project maintains a 2-tier **Master Street Registry** (`master_streets.json`) tracking all 900+ historical streets.
+- **Audit Lock Status**: Streets can be flagged as `"status": "VERIFIED"` (locked) or `"status": "UNVERIFIED"` (raw/unreviewed).
+- **Automated Protection**: When a street is flagged as `VERIFIED`, python cleanup scripts (`clean_csv.py` and `build_site_data.py`) preserve all manually assigned canonical names, former names, sub-sections, and numbering schemes without overwriting them during global automated regex sweeps.
+- **Master Street Schema**:
+  ```json
+  "jackson-place": {
+    "canonical_name": "Jackson Place",
+    "slug": "jackson-place",
+    "district": "Baneswell",
+    "parish": "St. Woolos",
+    "former_names": ["Jackson's Row"],
+    "sub_sections": ["Victoria Terrace"],
+    "numbering_scheme": { "type": "ODDS_EVENS", "approx_change_year": 1895 },
+    "coordinates": { "lat": 51.5882, "lng": -2.9977 },
+    "audit": { "status": "VERIFIED", "notes": "Verified against 1891 OS Map" }
+  }
+  ```
+
 ---
 
-## 5. Web Application Architecture (`index.html`)
+## 6. Web Application Architecture (`index.html`)
 
 ### A. SPA Hash Navigation & Routing
 Navigation is driven by URL fragment hashes:
-- **`#home`**: Master street index with quick search, letter filter, and stats.
-- **`#street={StreetName}`**: Street profile view with map coordinates, history notes, house list, and timeline.
+- **`#home`**: Master home search view with quick pills and site stats.
+- **`#streets`**: All Streets index featuring the **Master Street Audit Dashboard** (with filters for `All`, `🔒 Verified`, and `⚠️ Unverified`).
+- **`#street={StreetName}`**: Street profile view with history notes, sub-terrace groupings, house list, and timeline.
 - **`#house={StreetName}%7C{HouseNumber}`**: Detailed property modal showing all historical residents across all directory years.
-- **`#trades`**: Interactive occupation audit page categorizing over 600 historic trades.
+- **`#trades`**: Interactive occupation audit page categorizing historic trades.
 
-### B. Interactive Editor Mode
-- **Toggle**: Press **`Cmd + Shift + E`** (Mac) or **`Ctrl + Shift + E`** (Windows) to enable/disable Editor Mode.
-- **Persistence**: Edits made via the property modal are stored in browser `localStorage` under `newport_user_overrides`.
-- **Exporting**: Clicking **"📥 Download user_overrides.json"** downloads active edits. Running `python3 merge_overrides.py` ingests them into `edge_cases.json` and updates `data.csv`.
+### B. Interactive Editor Mode & Master Street Audit
+- **Toggle Editor Mode**: Press **`Cmd + Shift + E`** (Mac) or **`Ctrl + Shift + E`** (Windows) to enable/disable Editor Mode.
+- **Master Registry Modal**: Clicking **`🏛️ Registry Settings`** on any street page allows live editing of canonical names, audit lock status, former street names, sub-sections, numbering schemes, and pinpoint coordinates (`lat` / `lng`).
+- **Batch CSV Export & Import Workflow**:
+  - Click **`📥 Export Master CSV`** on the `#streets` page to download a complete spreadsheet containing all 901 historical street entries.
+  - Edit the CSV in Excel, Google Sheets, or a text editor.
+  - Click **`📤 Import Master CSV`** to re-upload the spreadsheet. All changes immediately populate into your active session queue for review and commit.
+- **Persistence & Merging**: Session edits are saved in browser `localStorage`. Clicking **`📥 Download user_overrides.json`** exports edits for python ingestion into `edge_cases.json` and `master_streets.json`.
 
 ---
 
