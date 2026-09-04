@@ -19,14 +19,16 @@
       line-height: 1.6;
       min-height: 100vh;
       overflow-x: hidden;
+      width: 100%;
     }
 
     .page-width {
       max-width: 1400px;
       margin: 0 auto;
-      padding-left: 4rem;
-      padding-right: 4rem;
+      padding-left: 2rem;
+      padding-right: 2rem;
       width: 100%;
+      box-sizing: border-box;
     }
 
     /* Floating Sticky Blur Header */
@@ -846,7 +848,7 @@
       flex-direction: column;
       gap: 0.35rem;
     }
-    .form-group.full-width { grid-column: 1 / -1; }
+    .form-group.full-width, .full-width { grid-column: 1 / -1; }
     .form-label {
       font-size: 0.75rem;
       text-transform: uppercase;

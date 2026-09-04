@@ -607,9 +607,12 @@ let selectedIndex = -1;
       });
     }
 
+    let currentStreet = '';
+
     // --- Single Street View Rendering ---
     async function renderStreetView(rawStreetName) {
       const displayName = rawStreetName.trim();
+      currentStreet = displayName;
       document.getElementById('street-title').innerText = displayName;
       document.getElementById('street-heading').innerText = displayName;
 
@@ -1878,6 +1881,111 @@ let selectedIndex = -1;
         localStorage.setItem('newport_editor_mode', 'true');
         alert("✏️ Editor Mode Enabled! Edit & Add Record buttons are now active.");
       }
+    }
+
+    // --- Master Street Registry Editor Modal Functions ---
+    let currentEditingStreetSlug = '';
+
+    async function openMasterRegistryModal(streetName = null) {
+      let targetStreet = streetName || currentStreet;
+
+      if (!targetStreet && window.location.hash.startsWith('#street=')) {
+        targetStreet = decodeURIComponent(window.location.hash.substring(8)).trim();
+      }
+
+      if (!targetStreet) {
+        alert("Please navigate to a specific street directory page first.");
+        return;
+      }
+
+      const slug = cleanStr(targetStreet).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+      currentEditingStreetSlug = slug;
+
+      let masterDict = {};
+      try {
+        const resp = await fetch('master_streets.json');
+        if (resp.ok) {
+          const data = await resp.json();
+          masterDict = data.streets || {};
+        }
+      } catch (err) {
+        console.warn("Could not load master_streets.json", err);
+      }
+
+      const entry = masterDict[slug] || {
+        canonical_name: targetStreet,
+        slug: slug,
+        former_names: [],
+        sub_sections: [],
+        numbering_scheme: { type: 'ODDS_EVENS', changed_from: '', approx_change_year: null, notes: '' },
+        district: '',
+        parish: '',
+        audit: { status: 'UNVERIFIED', notes: '' }
+      };
+
+      document.getElementById('reg-canonical-title').innerText = entry.canonical_name || targetStreet;
+      document.getElementById('reg-slug-subtitle').innerText = `slug: ${slug}`;
+      document.getElementById('reg-status-select').value = (entry.audit && entry.audit.status) ? entry.audit.status : 'UNVERIFIED';
+      document.getElementById('reg-former-names').value = (entry.former_names || []).join(', ');
+      document.getElementById('reg-sub-sections').value = (entry.sub_sections || []).join(', ');
+      document.getElementById('reg-numbering-type').value = (entry.numbering_scheme && entry.numbering_scheme.type) ? entry.numbering_scheme.type : 'ODDS_EVENS';
+      document.getElementById('reg-numbering-year').value = (entry.numbering_scheme && entry.numbering_scheme.approx_change_year) ? entry.numbering_scheme.approx_change_year : '';
+      document.getElementById('reg-district').value = entry.district || '';
+      document.getElementById('reg-parish').value = entry.parish || '';
+      document.getElementById('reg-latitude').value = (entry.coordinates && entry.coordinates.lat) ? entry.coordinates.lat : '';
+      document.getElementById('reg-longitude').value = (entry.coordinates && entry.coordinates.lng) ? entry.coordinates.lng : '';
+      document.getElementById('reg-notes').value = (entry.audit && entry.audit.notes) ? entry.audit.notes : '';
+
+      document.getElementById('master-registry-modal-overlay').classList.add('active');
+    }
+
+    function closeMasterRegistryModal() {
+      document.getElementById('master-registry-modal-overlay').classList.remove('active');
+    }
+
+    function saveMasterRegistryEntry() {
+      if (!currentEditingStreetSlug) return;
+
+      const formerNamesRaw = document.getElementById('reg-former-names').value;
+      const subSectionsRaw = document.getElementById('reg-sub-sections').value;
+
+      const former_names = formerNamesRaw.split(',').map(s => s.trim()).filter(Boolean);
+      const sub_sections = subSectionsRaw.split(',').map(s => s.trim()).filter(Boolean);
+      const status = document.getElementById('reg-status-select').value;
+      const numberingType = document.getElementById('reg-numbering-type').value;
+      const numberingYear = document.getElementById('reg-numbering-year').value;
+      const district = document.getElementById('reg-district').value.trim();
+      const parish = document.getElementById('reg-parish').value.trim();
+      const latitude = document.getElementById('reg-latitude').value.trim();
+      const longitude = document.getElementById('reg-longitude').value.trim();
+      const notes = document.getElementById('reg-notes').value.trim();
+
+      const registryOverride = {
+        action: 'UPDATE_MASTER_REGISTRY',
+        slug: currentEditingStreetSlug,
+        audit_status: status,
+        former_names: former_names,
+        sub_sections: sub_sections,
+        numbering_scheme: {
+          type: numberingType,
+          approx_change_year: numberingYear ? parseInt(numberingYear) : null
+        },
+        district: district,
+        parish: parish,
+        coordinates: {
+          lat: latitude ? parseFloat(latitude) : null,
+          lng: longitude ? parseFloat(longitude) : null
+        },
+        notes: notes,
+        timestamp: new Date().toISOString()
+      };
+
+      sessionOverrides.push(registryOverride);
+      saveSessionToLocalStorage();
+      updateOverrideDrawer();
+      closeMasterRegistryModal();
+
+      alert(`✅ Master Registry settings for ${currentEditingStreetSlug} saved to session queue (${status})!`);
     }
 
     window.addEventListener('keydown', (e) => {
