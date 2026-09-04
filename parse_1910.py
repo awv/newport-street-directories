@@ -170,13 +170,19 @@ def parse_tsv(input_path, output_path):
             if not row or all(not val.strip() for val in row):
                 continue
                 
-            # If the row has no tabs and is all caps, it's a street header
+            # Check if row contains a street header in col0
+            col0_val = row[0].strip()
+            col0_clean = col0_val.split(",")[0].strip()
+            if col0_clean.upper() in ["FACTORY ROAD", "FACTORY-ROAD"]:
+                current_street = "Factory Road"
+                continue
+                
             if len(row) == 1 or (len(row) > 1 and all(not val.strip() for val in row[1:]) and row[0].strip()):
                 val = row[0].strip()
                 if is_valid_street_name(val):
                     current_street = clean_street_name(val)
                 continue
-                
+                    
             if not current_street:
                 continue
                 
@@ -185,8 +191,8 @@ def parse_tsv(input_path, output_path):
                 row.append("")
                 
             number_val = row[0].strip()
-            forenames_val = row[1].strip()
-            surname_val = row[2].strip()
+            surname_val = row[1].strip()
+            forenames_val = row[2].strip()
             job_val = row[3].strip()
             business_val = row[4].strip()
             notes_val = row[5].strip()
@@ -215,6 +221,43 @@ def parse_tsv(input_path, output_path):
             if (job_val == '"' or job_val.lower() == 'do' or job_val.lower() == 'ditto') and prev_trade:
                 trade = prev_trade
                 
+            if current_street.lower() in ["factory road", "factory-road"]:
+                # Specific clean handling for Factory Road in 1910 (3 entries as shown on original scan):
+                # Line 8050: Newport Gas Works
+                # Line 8051: Evans Mrs. E., Dos lodge
+                # Line 8052: Cordes (Dos Works), Ltd. nail, spike, etc. manufacturers
+                if "Gas Works" in combined_fields:
+                    records.append({
+                        "year": "1910",
+                        "street": "Factory Road",
+                        "house_number": "",
+                        "building_name": "",
+                        "surname": "",
+                        "forename": "Newport Gas Works",
+                        "trade": ""
+                    })
+                elif "Dos lodge" in combined_fields or "Evans" in combined_fields:
+                    records.append({
+                        "year": "1910",
+                        "street": "Factory Road",
+                        "house_number": "",
+                        "building_name": "Dos Lodge",
+                        "surname": "Evans",
+                        "forename": "Mrs. E.",
+                        "trade": ""
+                    })
+                elif "Cordes" in combined_fields or "Dos Works" in combined_fields:
+                    records.append({
+                        "year": "1910",
+                        "street": "Factory Road",
+                        "house_number": "",
+                        "building_name": "Dos Works",
+                        "surname": "Cordes (Dos Works) Ltd.",
+                        "forename": "",
+                        "trade": "Nail, spike, etc. manufacturers"
+                    })
+                continue
+
             if surname or forename or trade or bldg or h_num:
                 records.append({
                     "year": "1910",

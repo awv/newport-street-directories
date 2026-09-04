@@ -2912,18 +2912,19 @@
             let primaryTitleHTML = '';
             let subtitleHTML = '';
 
-            if (effectiveBldgName) {
-              const searchBldgHash = `#search=${encodeURIComponent(effectiveBldgName)}`;
-              primaryTitleHTML = `<a href="${searchBldgHash}" class="timeline-name clickable-occupant-name" title="Search all records for ${effectiveBldgName}">${effectiveBldgName}</a>`;
-              if (fullResidentName) {
-                subtitleHTML += `<div style="font-size: 0.95rem; color: #e2d7c5; font-weight: 500; margin-top: 0.15rem;">👤 Occupant: <a href="${searchNameHash}" class="clickable-occupant-name" style="color: #ffffff; text-decoration: underline;" title="Search all records for ${fullResidentName}">${fullResidentName}</a></div>`;
+            if (fullResidentName) {
+              primaryTitleHTML = `<a href="${searchNameHash}" class="timeline-name clickable-occupant-name" title="Search all records for ${fullResidentName}">${fullResidentName}</a>`;
+              if (effectiveBldgName) {
+                const searchBldgHash = `#search=${encodeURIComponent(effectiveBldgName)}`;
+                subtitleHTML += `<div style="font-size: 0.95rem; color: #e2d7c5; font-weight: 500; margin-top: 0.15rem;">🏠 House Name: <a href="${searchBldgHash}" class="clickable-occupant-name" style="color: #ffffff; text-decoration: underline;" title="Search all records for ${effectiveBldgName}">${effectiveBldgName}</a></div>`;
               }
               if (displayTrade && displayTrade !== 'Residence / Private' && displayTrade.toLowerCase() !== effectiveBldgName.toLowerCase()) {
                 subtitleHTML += `<div><a href="${searchTradeHash}" class="timeline-trade clickable-trade-tag" title="Search all ${displayTrade} entries">${displayTrade}</a></div>`;
               }
             } else {
-              primaryTitleHTML = `<a href="${searchNameHash}" class="timeline-name clickable-occupant-name" title="Search all records for ${fullResidentName}">${fullResidentName}</a>`;
-              if (displayTrade && displayTrade !== 'Residence / Private') {
+              const searchBldgHash = `#search=${encodeURIComponent(effectiveBldgName)}`;
+              primaryTitleHTML = `<a href="${searchBldgHash}" class="timeline-name clickable-occupant-name" title="Search all records for ${effectiveBldgName}">${effectiveBldgName}</a>`;
+              if (displayTrade && displayTrade !== 'Residence / Private' && displayTrade.toLowerCase() !== effectiveBldgName.toLowerCase()) {
                 subtitleHTML += `<div><a href="${searchTradeHash}" class="timeline-trade clickable-trade-tag" title="Search all ${displayTrade} entries">${displayTrade}</a></div>`;
               }
             }
@@ -3019,19 +3020,19 @@
 
               const effectiveBldgName = bName || (isPubTrade ? trdName : '');
 
-              if (effectiveBldgName) {
-                const searchBldgHash = `#search=${encodeURIComponent(effectiveBldgName)}`;
-                primaryTitleHTML = `<a href="${searchBldgHash}" class="timeline-name clickable-occupant-name" title="Search all records for ${effectiveBldgName}">${effectiveBldgName}</a>`;
-                
-                if (fullResidentName) {
-                  subtitleHTML += `<div style="font-size: 0.95rem; color: #e2d7c5; font-weight: 500; margin-top: 0.15rem;">👤 Occupant: <a href="${searchNameHash}" class="clickable-occupant-name" style="color: #ffffff; text-decoration: underline;" title="Search all records for ${fullResidentName}">${fullResidentName}</a></div>`;
+              if (fullResidentName) {
+                primaryTitleHTML = `<a href="${searchNameHash}" class="timeline-name clickable-occupant-name" title="Search all records for ${fullResidentName}">${fullResidentName}</a>`;
+                if (effectiveBldgName) {
+                  const searchBldgHash = `#search=${encodeURIComponent(effectiveBldgName)}`;
+                  subtitleHTML += `<div style="font-size: 0.95rem; color: #e2d7c5; font-weight: 500; margin-top: 0.15rem;">🏠 House Name: <a href="${searchBldgHash}" class="clickable-occupant-name" style="color: #ffffff; text-decoration: underline;" title="Search all records for ${effectiveBldgName}">${effectiveBldgName}</a></div>`;
                 }
                 if (displayTrade && displayTrade !== 'Residence / Private' && displayTrade.toLowerCase() !== effectiveBldgName.toLowerCase()) {
                   subtitleHTML += `<div><a href="${searchTradeHash}" class="timeline-trade clickable-trade-tag" title="Search all ${displayTrade} entries">${displayTrade}</a></div>`;
                 }
               } else {
-                primaryTitleHTML = `<a href="${searchNameHash}" class="timeline-name clickable-occupant-name" title="Search all records for ${fullResidentName}">${fullResidentName}</a>`;
-                if (displayTrade && displayTrade !== 'Residence / Private') {
+                const searchBldgHash = `#search=${encodeURIComponent(effectiveBldgName)}`;
+                primaryTitleHTML = `<a href="${searchBldgHash}" class="timeline-name clickable-occupant-name" title="Search all records for ${effectiveBldgName}">${effectiveBldgName}</a>`;
+                if (displayTrade && displayTrade !== 'Residence / Private' && displayTrade.toLowerCase() !== effectiveBldgName.toLowerCase()) {
                   subtitleHTML += `<div><a href="${searchTradeHash}" class="timeline-trade clickable-trade-tag" title="Search all ${displayTrade} entries">${displayTrade}</a></div>`;
                 }
               }

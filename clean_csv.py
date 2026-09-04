@@ -581,8 +581,8 @@ def clean_street_name(name):
         'capel': 'Capel Street',
         'central': 'Dock Street',
         'central bd. schools': 'Dock Street',
-        'chepstown road': 'Chepstow Road',
-        'coldram': 'Coldra Road',
+        'obersley road': 'Ombersley Road',
+        'barnard': 'Caerleon Road',
         'corporation road baptist church': 'Corporation Road',
         'county': 'Commercial Street',
         'county council offices': 'Commercial Street',
@@ -717,15 +717,100 @@ def clean_street_name(name):
         'masonic hall': 'Commercial Street',
         "moulders' arms terrace": "Moulders' Arms Terrace",
         'p. e. gane ltd.—162 commercial street': 'Commercial Street',
+        'and merchants, steam-ship and colliery furnishers. large stock of hose packings, i.r. valves and sheets, delivery hose, brewers\' hose, leather cup leathers, guage glasses, machine beltings, &c., &c., 157 commercial-st': 'Commercial Street',
         'potter street': 'Potter Street',
         'r. h. johns ltd. & stationers': 'Commercial Street',
         'row': 'Protheroes Row',
         'royal gwent hospital': 'Cardiff Road',
+        'beer john, mount view': 'Mount View',
+        'bryngblas crescent': 'Brynglas Crescent',
+        'bryngblas road': 'Brynglas Road',
+        'constance': 'Constance Street',
+        'courtybella ter': 'Courtybella Terrace',
+        'auckland villas:': 'Auckland Villas',
+        'arcade (the)': 'Market Arcade',
+        'wharves (the)': 'Wharves (The)',
+        'the old cemetery-place. woolos-road': 'St. Woolos Road',
+        'crowwell road': 'Cromwell Road',
+        'cambridge road, d. 8': 'Cambridge Road',
+        'cardiff-rd. to alexandra-dock': 'Cardiff Road',
+        'carlisle-st. to alexandra-rd': 'Carlisle Street',
+        'catholic schools': 'Stow Hill',
+        'church and schools': 'Church Road',
+        "christians'": 'Hoskins Street',
+        'clarence place post office, m.o., s.b. & a. & i. office': 'Clarence Place',
         's. market street': 'South Market Street',
         'station street': 'Station Street',
         'tabernacle congregational church': 'Commercial Street',
         'tel. no. 956': 'Caerleon Road',
-        'trapnell': 'Commercial Street'
+        'lliswerry board schoo': 'Corporation Road',
+        'logie john, river view': 'River View',
+        'office, m.o. & s.b. & a. & i': 'Commercial Street',
+        'wesleyan meth. chapel': 'Commercial Road',
+        'wheeler': 'Wheeler Street',
+        'whitby': 'Whitby Place',
+        'whitstone': 'Whitstone Road',
+        'wolseley': 'Wolseley Street',
+        'commercial rd., e': 'Commercial Road',
+        'commercial-st': 'Commercial Street',
+        'fields park cres': 'Fields Park Crescent',
+        'friars road': "Friars' Road",
+        'marlborough rd': 'Marlborough Road',
+        'screw packet rd': 'Screw Packet Road',
+        'st. woolos pl': 'St. Woolos Place',
+        'baneswell-rd. to clyffard-cres': 'Baneswell Road',
+        'corporation-rd. to eton-rd': 'Corporation Road',
+        'corporation-rd. to riverside': 'Corporation Road',
+        'corporation-rd. to rodney-rd': 'Corporation Road',
+        'end of george-st. to skinner-st': 'George Street',
+        'frederick-st. to portland-st': 'Frederick Street',
+        'grafton-rd.to athletic ground': 'Grafton Road',
+        'john-st. to south market-st': 'John Street',
+        'mendalgief-rd. to wolseley-st': 'Mendalgief Road',
+        'mountjoy-rd. to clytha-cres': 'Mountjoy Road',
+        'redland-st. to crindau-rd': 'Redland Street',
+        'victoria-av. to woodland-rd': 'Victoria Avenue',
+        'whitby-pl. to manchester-st': 'Whitby Place',
+        'hereford-st. to london-st': 'Hereford Street',
+        'potter street': 'Potter Street',
+        '& i. office': 'Commercial Street',
+        '5, 17a': 'Commercial Street',
+        'a.t.s': 'Preston Avenue',
+        'alt-yr-yn hospital': 'Allt-yr-yn Avenue',
+        'b.s., lond': 'London Street',
+        'beechwood public park': 'Chepstow Road',
+        'beechwood park': 'Chepstow Road',
+        'canns & taylor golf clubs': 'Shaftesbury Street',
+        'agincourt street c': 'Agincourt Street',
+        'albany street, c': 'Albany Street',
+        'alexandra dock': 'Alexandra Docks',
+        'bachelor road, m': 'Bachelor Road',
+        'barthropp street. e': 'Barthropp Street',
+        'beechwood road, ch': 'Beechwood Road',
+        'bassalleg road': 'Bassaleg Road',
+        'bryngwas road': 'Brynglas Road',
+        'blewitt street, b': 'Blewitt Street',
+        'bolt street, p': 'Bolt Street',
+        'altery road': 'Alteryn Road',
+        'alteryns road': 'Alteryn Road',
+        'alteyn road': 'Alteryn Road',
+        'bryngwyn': 'Bryngwyn Road',
+        'bryngzas avenue': 'Brynglas Avenue',
+        'belle vue court': 'Belle Vue Lane',
+        'belgave place': 'Chepstow Road',
+        'obersley road': 'Ombersley Road',
+        'pill athletic ground': 'Mendalgief Road',
+        's. john evangelist church': 'Oaklands Road',
+        'united methodist chapel': 'Caerleon Road',
+        'tional church': 'Commercial Street',
+        'francis\' dye works, 26 church road, maindee. estab. 1890. cc': 'Church Road',
+        'francis\' dye works, 26 church road, maindee': 'Church Road',
+        'marshes rd. board schools': 'Marshes Road',
+        'glass works cottaces, c': 'Corporation Road',
+        'st. michael\'s catholic church and schools': 'Stow Hill',
+        'commercial wharf, e': 'Commercial Wharf',
+        'pottery terrace, p': 'Pottery Terrace',
+        'wrington terrace, m': 'Wrington Terrace'
     }
     
     clean_low = clean.lower()
@@ -737,6 +822,10 @@ def clean_street_name(name):
     clean = re.sub(r'([a-z])\]', r'\1l', clean)
     clean = re.sub(r'\bMalpas\s*\(\s*Main\s*\)\s*Road\b', 'Malpas Road', clean, flags=re.IGNORECASE)
     clean = re.sub(r'\bFair[\s\-]*Oak\s*Ave[nu]+e\b', 'Fairoak Avenue', clean, flags=re.IGNORECASE)
+    clean = re.sub(r'\bAlteryn\b', 'Allt-yr-yn', clean, flags=re.IGNORECASE)
+
+    # Strip trailing map grid coordinates (e.g., ", E 2", ", C 5", ", B 4", ", D 3", ", C.4", ", C. 4", ", C.3")
+    clean = re.sub(r'[,\s]+[A-Z][\.\s]*\d+$', '', clean, flags=re.IGNORECASE).strip()
         
     return clean.strip(" ,.-")
 
@@ -964,6 +1053,30 @@ def clean_record(row):
     forename = (row.get("forename") or "").replace("\\t", "").replace("\\n", "").strip().strip(',"-~\'')
     trade = (row.get("trade") or "").replace("\\t", "").replace("\\n", "").strip().strip(',"-~\'')
 
+    # Reassign sub-terrace section headers to physical parent street while preserving terrace section in building_name
+    st_raw_low = street.lower().strip()
+    if st_raw_low in ["highweek terrace", "belle vue terrace"]:
+        terrace_label = "Highweek Terrace" if st_raw_low == "highweek terrace" else "Belle Vue Terrace"
+        street = "Morden Road"
+        if not bldg_name:
+            bldg_name = terrace_label
+        elif terrace_label.lower() not in bldg_name.lower():
+            bldg_name = f"{terrace_label} ({bldg_name})"
+    elif st_raw_low in ["auckland", "auckland terrace", "auckland villas"]:
+        terrace_label = "Auckland Villas" if st_raw_low == "auckland villas" else "Auckland Terrace"
+        street = "Christchurch Road"
+        if not bldg_name:
+            bldg_name = terrace_label
+        elif terrace_label.lower() not in bldg_name.lower():
+            bldg_name = f"{terrace_label} ({bldg_name})"
+    elif st_raw_low in ["eseswell terrace", "esveswell terrace"]:
+        terrace_label = "Eveswell Terrace"
+        street = "Chepstow Road"
+        if not bldg_name:
+            bldg_name = terrace_label
+        elif terrace_label.lower() not in bldg_name.lower():
+            bldg_name = f"{terrace_label} ({bldg_name})"
+
     # Auto-realign records where a business name or entity was placed in the trade field without a surname or house number
     if not house_num and not bldg_name and not surname and not forename and trade:
         surname = trade
@@ -1141,11 +1254,17 @@ def clean_record(row):
 
     # Strip map references from all fields (e.g. "Map E 9.", "Map F 7, G 7.", "Map E 4")
     map_ref_pat = re.compile(r'\bMap\s+[A-Za-z0-9\s,\.&-]*\d+[A-Za-z0-9\s,\.&-]*\b\.?', re.I)
-    house_num = map_ref_pat.sub('', house_num).strip(' ,"-~.')
-    bldg_name = map_ref_pat.sub('', bldg_name).strip(' ,"-~.')
-    surname = map_ref_pat.sub('', surname).strip(' ,"-~.')
-    forename = map_ref_pat.sub('', forename).strip(' ,"-~.')
-    trade = map_ref_pat.sub('', trade).strip(' ,"-~.')
+    house_num = map_ref_pat.sub('', house_num).strip(' ,"-~.\\/')
+    bldg_name = map_ref_pat.sub('', bldg_name).strip(' ,"-~.\\/')
+    surname = map_ref_pat.sub('', surname).strip(' ,"-~.\\/')
+    forename = map_ref_pat.sub('', forename).strip(' ,"-~.\\/')
+    trade = map_ref_pat.sub('', trade).strip(' ,"-~.\\/')
+
+    # Reject records that consist only of backslashes / empty placeholders
+    if not house_num and not bldg_name and not surname and not forename and not trade:
+        return None
+    if not surname and not forename and not trade and not bldg_name:
+        return None
 
     # Strip specific layout prefixes from surname (e.g. "And Albert-avenue Hall William" -> "Hall William")
     layout_prefix_pat = re.compile(r'^\s*(?:and|off|entrance\s+to)?\s*(?:a\s*lbert[\s\-]*avenue|duckpool[\s\-]*road|gibbs[\s\-]*road)\s*', re.I)

@@ -221,8 +221,8 @@ def parse_tsv(input_path, output_path):
                 continue
                 
             h_num = parts[0]
-            forename = parts[1]
-            surname = parts[2]
+            surname = parts[1]
+            forename = parts[2]
             trade = parts[3]
             bldg = parts[4]
             notes = parts[5]

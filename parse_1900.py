@@ -178,12 +178,17 @@ def parse_tsv(input_path, output_path):
                 "FAI": "FAIROAK TERRACE",
             }
             col0_upper = col0.upper().strip()
-            if col0 and is_valid_street_name(col0):
-                is_street = True
-                matched_street_name = col0
-            elif col0_upper in page_abbrev_map:
-                is_street = True
-                matched_street_name = page_abbrev_map[col0_upper]
+            if col0:
+                col0_clean_check = col0.strip().rstrip('., -—')
+                if is_valid_street_name(col0):
+                    is_street = True
+                    matched_street_name = col0
+                elif any(col0_clean_check.lower().endswith(suf) for suf in [' street', ' road', ' lane', ' terrace', ' avenue', ' place', ' cres', ' crescent']) and not col0_clean_check[0].isdigit():
+                    is_street = True
+                    matched_street_name = col0_clean_check
+                elif col0_upper in page_abbrev_map:
+                    is_street = True
+                    matched_street_name = page_abbrev_map[col0_upper]
                     
             if is_street:
                 s_clean = matched_street_name.strip()
@@ -221,8 +226,8 @@ def parse_tsv(input_path, output_path):
                 continue
                 
             h_num = parts[0]
-            forename = parts[1]
-            surname = parts[2]
+            surname = parts[1]
+            forename = parts[2]
             trade = parts[3]
             bldg = parts[4]
             notes = parts[5]

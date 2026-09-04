@@ -210,11 +210,17 @@ def parse_tsv(input_path, output_path):
             col0 = parts[0]
             
             is_street = False
-            if col0 and is_valid_street_name(col0):
-                is_street = True
+            if col0:
+                col0_clean_check = col0.strip().rstrip('., -—')
+                if is_valid_street_name(col0):
+                    is_street = True
+                    matched_street_name = col0
+                elif any(col0_clean_check.lower().endswith(suf) for suf in [' street', ' road', ' lane', ' terrace', ' avenue', ' place', ' cres', ' crescent']) and not col0_clean_check[0].isdigit():
+                    is_street = True
+                    matched_street_name = col0_clean_check
                     
             if is_street:
-                s_clean = col0.strip()
+                s_clean = matched_street_name.strip()
                 s_clean = re.sub(r'[\s\-—]+continued\b', '', s_clean, flags=re.I).strip()
                 s_clean = re.sub(r'\b(?:from|to|off)\s+.*', '', s_clean, flags=re.I).strip()
                 s_clean = re.sub(r'[\(\[].*?[\)\]]', '', s_clean, flags=re.I).strip()

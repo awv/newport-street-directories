@@ -2567,6 +2567,22 @@
         "trade": "Upholsterer",
         "source_type": "Primary"
       }
+    },
+    {
+      "reason": "Bacon Place: Standardized record formatting for house 10",
+      "match": {
+        "street": "Bacon Place",
+        "year": "1971",
+        "surname_contains": "Fowler"
+      },
+      "apply": {
+        "house_number": "10",
+        "building_name": "",
+        "surname": "Fowler",
+        "forename": "Reginald S",
+        "trade": "",
+        "source_type": "Primary"
+      }
     }
   ]
 }
