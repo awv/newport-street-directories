@@ -683,11 +683,11 @@ let selectedIndex = -1;
         card.className = 'street-index-card';
         card.href = `#street=${encodeURIComponent(data.displayName)}`;
         card.innerHTML = `
-          <div class="street-index-header">
-            <div class="street-index-title">${data.displayName}</div>
-            <div class="street-index-badge">${badgeHTML}</div>
+          <div class="street-index-title">${data.displayName}</div>
+          <div class="street-index-footer">
+            <span class="street-index-meta">${propText} • ${data.yearsSpan}</span>
+            <span class="street-index-badge">${badgeHTML}</span>
           </div>
-          <div class="street-index-meta">${propText} • ${data.yearsSpan}</div>
         `;
         currentGrid.appendChild(card);
       });

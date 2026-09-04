@@ -678,30 +678,32 @@
       transform: translateY(-3px);
       box-shadow: 0 8px 24px rgba(0,0,0,0.5);
     }
-    .street-index-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      gap: 0.75rem;
-      margin-bottom: 0.5rem;
-    }
     .street-index-title {
       font-family: var(--heading-font);
       font-size: 1.85rem;
       color: var(--accent);
       line-height: 1.15;
-      flex: 1;
+      margin-bottom: 0.75rem;
     }
-    .street-index-badge {
-      flex-shrink: 0;
-      white-space: nowrap;
-      margin-top: 0.2rem;
+    .street-index-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 0.5rem;
+      margin-top: auto;
+      flex-wrap: wrap;
     }
     .street-index-meta {
       font-size: 0.85rem;
       color: var(--muted);
-      margin-top: auto;
     }
+    .street-index-badge {
+      display: none !important;
+    }
+    body.editor-mode .street-index-badge {
+      display: inline-flex !important;
+    }
+
     /* Interactive Record Editor Controls & Visibility Scoping */
     .record-edit-btn,
     .btn-add-record,
