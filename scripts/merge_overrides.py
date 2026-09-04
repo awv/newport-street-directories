@@ -78,9 +78,16 @@ def merge_overrides(source_file):
 
     for new_item in new_list:
         if isinstance(new_item, dict) and new_item.get("action") == "UPDATE_MASTER_REGISTRY":
-            slug = new_item.get("slug")
-            if slug and slug in master_streets_data.get("streets", {}):
-                st = master_streets_data["streets"][slug]
+            raw_slug = new_item.get("slug") or ""
+            # Normalize slug to hyphenated format (e.g. aberthawroad -> aberthaw-road)
+            slug_key = raw_slug if raw_slug in master_streets_data.get("streets", {}) else None
+            if not slug_key:
+                for k in master_streets_data.get("streets", {}):
+                    if k.replace("-", "") == raw_slug.replace("-", ""):
+                        slug_key = k
+                        break
+            if slug_key:
+                st = master_streets_data["streets"][slug_key]
                 if "audit_status" in new_item: st["audit_status"] = new_item["audit_status"]
                 if "former_names" in new_item: st["former_names"] = new_item["former_names"]
                 if "sub_sections" in new_item: st["sub_sections"] = new_item["sub_sections"]

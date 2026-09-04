@@ -25,7 +25,8 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED"
     },
     "acacia-terrace": {
       "canonical_name": "Acacia Terrace",
@@ -103,7 +104,8 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED"
     },
     "adeline-street": {
       "canonical_name": "Adeline Street",
@@ -129,7 +131,8 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED"
     },
     "agincourt-street": {
       "canonical_name": "Agincourt Street",
@@ -233,7 +236,8 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED"
     },
     "albany-terrace": {
       "canonical_name": "Albany Terrace",
@@ -285,7 +289,8 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED"
     },
     "albert-place": {
       "canonical_name": "Albert Place",
@@ -1539,7 +1544,8 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED"
     },
     "barrack-lane": {
       "canonical_name": "Barrack Lane",
@@ -1773,7 +1779,8 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED"
     },
     "belle-vue-lane": {
       "canonical_name": "Belle Vue Lane",
@@ -3830,7 +3837,7 @@
       }
     },
     "carpenters-lane": {
-      "canonical_name": "Carpenters\u2019 Lane",
+      "canonical_name": "Carpenters’ Lane",
       "slug": "carpenters-lane",
       "district": "",
       "parish": "",
@@ -9342,7 +9349,7 @@
       }
     },
     "glos-ter-place": {
-      "canonical_name": "Glos\u2019ter Place",
+      "canonical_name": "Glos’ter Place",
       "slug": "glos-ter-place",
       "district": "",
       "parish": "",
@@ -15328,7 +15335,7 @@
       }
     },
     "p-e-gane-ltd-161-162-commercial-street-newport": {
-      "canonical_name": "P. E. Gane Ltd., 161\u2013162 Commercial Street, Newport",
+      "canonical_name": "P. E. Gane Ltd., 161–162 Commercial Street, Newport",
       "slug": "p-e-gane-ltd-161-162-commercial-street-newport",
       "district": "",
       "parish": "",
@@ -16784,7 +16791,7 @@
       }
     },
     "queen-s-hill-crescent": {
-      "canonical_name": "Queen\u2019s Hill Crescent",
+      "canonical_name": "Queen’s Hill Crescent",
       "slug": "queen-s-hill-crescent",
       "district": "",
       "parish": "",
@@ -19202,7 +19209,7 @@
       }
     },
     "st-stephen-s-road-e": {
-      "canonical_name": "St. Stephen\u2019s Road. E",
+      "canonical_name": "St. Stephen’s Road. E",
       "slug": "st-stephen-s-road-e",
       "district": "",
       "parish": "",
@@ -19280,7 +19287,7 @@
       }
     },
     "st-vincent-s-road-c": {
-      "canonical_name": "St. Vincent\u2019s Road. C",
+      "canonical_name": "St. Vincent’s Road. C",
       "slug": "st-vincent-s-road-c",
       "district": "",
       "parish": "",
