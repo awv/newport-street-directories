@@ -411,171 +411,6 @@
       }
     },
     {
-      "reason": "High Street: Standardized record formatting for house 19",
-      "match": {
-        "street": "High Street",
-        "year": "1946",
-        "surname_contains": "Thirty-F"
-      },
-      "apply": {
-        "house_number": "19",
-        "building_name": "",
-        "surname": "The Fifty Shilling Tailors",
-        "forename": "",
-        "trade": "Tailors"
-      }
-    },
-    {
-      "reason": "High Street: Standardized record formatting for house 19",
-      "match": {
-        "street": "High Street",
-        "year": "1938",
-        "surname_contains": "Fifty"
-      },
-      "apply": {
-        "house_number": "19",
-        "building_name": "",
-        "surname": "The Fifty Shilling Tailors",
-        "forename": "",
-        "trade": "Tailors"
-      }
-    },
-    {
-      "reason": "High Street: Standardized record formatting for house 19",
-      "match": {
-        "street": "High Street",
-        "year": "1936",
-        "surname_contains": "Fifty"
-      },
-      "apply": {
-        "house_number": "19",
-        "building_name": "",
-        "surname": "The Fifty Shilling Tailors",
-        "forename": "",
-        "trade": "Tailors"
-      }
-    },
-    {
-      "reason": "High Street: Standardized record formatting for house 19",
-      "match": {
-        "street": "High Street",
-        "year": "1927",
-        "surname_contains": "Gale’s"
-      },
-      "apply": {
-        "house_number": "19",
-        "building_name": "",
-        "surname": "Gale’s Refreshment Rooms",
-        "forename": "",
-        "trade": "Refreshment Rooms"
-      }
-    },
-    {
-      "reason": "High Street: Standardized record formatting for house 19",
-      "match": {
-        "street": "High Street",
-        "year": "1914",
-        "surname_contains": "EP Lawlo"
-      },
-      "apply": {
-        "house_number": "19",
-        "building_name": "",
-        "surname": "E.P. Lawlor Ltd",
-        "forename": "",
-        "trade": "House Furnishers"
-      }
-    },
-    {
-      "reason": "High Street: Standardized record formatting for house 19",
-      "match": {
-        "street": "High Street",
-        "year": "1905",
-        "surname_contains": "Lawlor"
-      },
-      "apply": {
-        "house_number": "19",
-        "building_name": "",
-        "surname": "E. P. Lawlor Ltd",
-        "forename": "",
-        "trade": "House Furnishings"
-      }
-    },
-    {
-      "reason": "High Street: Standardized record formatting for house 19",
-      "match": {
-        "street": "High Street",
-        "year": "1899",
-        "surname_contains": "Arnold"
-      },
-      "apply": {
-        "house_number": "19",
-        "building_name": "",
-        "surname": "A.G. Arnold & Co.",
-        "forename": "",
-        "trade": "Furnishing Ironmongers"
-      }
-    },
-    {
-      "reason": "High Street: Standardized record formatting for house 19",
-      "match": {
-        "street": "High Street",
-        "year": "1899",
-        "surname_contains": "A.G. Arn"
-      },
-      "apply": {
-        "house_number": "19",
-        "building_name": "",
-        "surname": "A.G. Arnold & Co",
-        "forename": "",
-        "trade": "Furnishing Ironmongers"
-      }
-    },
-    {
-      "reason": "High Street: Standardized record formatting for house 19",
-      "match": {
-        "street": "High Street",
-        "year": "1897",
-        "surname_contains": "AG Arnol"
-      },
-      "apply": {
-        "house_number": "19",
-        "building_name": "",
-        "surname": "A.G. Arnold & Co",
-        "forename": "",
-        "trade": "Furnishing Ironmongers"
-      }
-    },
-    {
-      "reason": "High Street: Standardized record formatting for house 19",
-      "match": {
-        "street": "High Street",
-        "year": "1878",
-        "surname_contains": "Waters &"
-      },
-      "apply": {
-        "house_number": "19",
-        "building_name": "",
-        "surname": "Waters & Arnold",
-        "forename": "",
-        "trade": "Iron Mongers"
-      }
-    },
-    {
-      "reason": "High Street: Standardized record formatting for house 19",
-      "match": {
-        "street": "High Street",
-        "year": "1876",
-        "surname_contains": "H. Green"
-      },
-      "apply": {
-        "house_number": "19",
-        "building_name": "",
-        "surname": "H. Greene & Co.",
-        "forename": "",
-        "trade": "Ironmongers"
-      }
-    },
-    {
       "reason": "High Street: Standardized record formatting for house 23",
       "match": {
         "street": "High Street",
@@ -588,38 +423,6 @@
         "surname": "Wimpy Bar",
         "forename": "",
         "trade": "Restaurant",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "High Street: Standardized record formatting for house 23",
-      "match": {
-        "street": "High Street",
-        "year": "1927",
-        "surname_contains": "T. A"
-      },
-      "apply": {
-        "house_number": "23",
-        "building_name": "",
-        "surname": "Hince",
-        "forename": "T.A.",
-        "trade": "Crown Wine Vaults",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "High Street: Standardized record formatting for house 23",
-      "match": {
-        "street": "High Street",
-        "year": "1927",
-        "surname_contains": "Hince"
-      },
-      "apply": {
-        "house_number": "23",
-        "building_name": "Crown Wine Vaults",
-        "surname": "Hince",
-        "forename": "T.A.",
-        "trade": "Publican",
         "source_type": "Primary"
       }
     },
@@ -640,90 +443,10 @@
       }
     },
     {
-      "reason": "High Street: Standardized record formatting for house 65",
-      "match": {
-        "street": "High Street",
-        "year": "1899",
-        "surname_contains": "Tredegar"
-      },
-      "apply": {
-        "house_number": "65",
-        "building_name": "Tredegar Estate Offices",
-        "surname": "Justice",
-        "forename": "Col.",
-        "trade": "Agent",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "High Street: Standardized record formatting for house 65",
-      "match": {
-        "street": "High Street",
-        "year": "1899",
-        "surname_contains": "Justice"
-      },
-      "apply": {
-        "house_number": "65",
-        "building_name": "Tredegar Estate Offices",
-        "surname": "Justice",
-        "forename": "Colonel",
-        "trade": "Agent",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "High Street: Standardized record formatting for house 65",
-      "match": {
-        "street": "High Street",
-        "year": "1905",
-        "surname_contains": "Tredegar"
-      },
-      "apply": {
-        "house_number": "65",
-        "building_name": "Tredegar Estate Office",
-        "surname": "Mitchell Innes",
-        "forename": "G. P.",
-        "trade": "",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "High Street: Standardized record formatting for house 65",
-      "match": {
-        "street": "High Street",
-        "year": "1897",
-        "surname_contains": "Justice"
-      },
-      "apply": {
-        "house_number": "65",
-        "building_name": "Tredegar Estate Office",
-        "surname": "Justice",
-        "forename": "Colonel",
-        "trade": "agent",
-        "source_type": "Primary"
-      }
-    },
-    {
       "reason": "High Street: Standardized record formatting for house 73",
       "match": {
         "street": "High Street",
         "year": "1905",
-        "surname_contains": "Shaftesb"
-      },
-      "apply": {
-        "house_number": "73",
-        "building_name": "",
-        "surname": "Shaftesbury Restaurant",
-        "forename": "",
-        "trade": "",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "High Street: Standardized record formatting for house 73",
-      "match": {
-        "street": "High Street",
-        "year": "1899",
         "surname_contains": "Shaftesb"
       },
       "apply": {
@@ -780,118 +503,6 @@
         "surname": "Universal Smokers Service",
         "forename": "",
         "trade": "",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "High Street: Standardized record formatting for house 83",
-      "match": {
-        "street": "High Street",
-        "year": "1938",
-        "surname_contains": "Universa"
-      },
-      "apply": {
-        "house_number": "83",
-        "building_name": "",
-        "surname": "Universal Smokers Service",
-        "forename": "",
-        "trade": "",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "High Street: Standardized record formatting for house 83",
-      "match": {
-        "street": "High Street",
-        "year": "1933",
-        "surname_contains": "Taylor"
-      },
-      "apply": {
-        "house_number": "83",
-        "building_name": "",
-        "surname": "E. W. Taylor",
-        "forename": "",
-        "trade": "Outfitter",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "High Street: Standardized record formatting for house 83",
-      "match": {
-        "street": "High Street",
-        "year": "1914",
-        "surname_contains": "Taylor"
-      },
-      "apply": {
-        "house_number": "83",
-        "building_name": "",
-        "surname": "E. W. Taylor",
-        "forename": "",
-        "trade": "Outfitter",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "High Street: Standardized record formatting for house 83",
-      "match": {
-        "street": "High Street",
-        "year": "1905",
-        "surname_contains": "Taylor"
-      },
-      "apply": {
-        "house_number": "83",
-        "building_name": "",
-        "surname": "E. W. Taylor",
-        "forename": "",
-        "trade": "Outfitter",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "High Street: Standardized record formatting for house 83",
-      "match": {
-        "street": "High Street",
-        "year": "1902",
-        "surname_contains": "Taylor"
-      },
-      "apply": {
-        "house_number": "83",
-        "building_name": "",
-        "surname": "E. W. Taylor",
-        "forename": "",
-        "trade": "Outfitter",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "High Street: Standardized record formatting for house 83",
-      "match": {
-        "street": "High Street",
-        "year": "1899",
-        "surname_contains": "Bowen"
-      },
-      "apply": {
-        "house_number": "83",
-        "building_name": "",
-        "surname": "S.M. Bowen",
-        "forename": "",
-        "trade": "Tobacconist and Fancy Dealer",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "High Street: Standardized record formatting for house 83",
-      "match": {
-        "street": "High Street",
-        "year": "1897",
-        "surname_contains": "Bowen"
-      },
-      "apply": {
-        "house_number": "83",
-        "building_name": "",
-        "surname": "S.M. Bowen",
-        "forename": "",
-        "trade": "Tobacconist & Fancy Dealer",
         "source_type": "Primary"
       }
     },
@@ -959,90 +570,10 @@
       }
     },
     {
-      "reason": "Garth Terrace: Standardized record formatting for house 16",
-      "match": {
-        "street": "Garth Terrace",
-        "year": "1894",
-        "surname_contains": "Gough Ch"
-      },
-      "apply": {
-        "house_number": "16",
-        "building_name": "",
-        "surname": "Gough",
-        "forename": "Charles",
-        "trade": "Shoemaker",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "Garth Terrace: Standardized record formatting for house 16",
-      "match": {
-        "street": "Garth Terrace",
-        "year": "1894",
-        "surname_contains": "Brothers"
-      },
-      "apply": {
-        "house_number": "16",
-        "building_name": "",
-        "surname": "Brothers",
-        "forename": "George",
-        "trade": "Painter",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "Garth Terrace: Standardized record formatting for house 16",
-      "match": {
-        "street": "Garth Terrace",
-        "year": "1894",
-        "surname_contains": "Attewell"
-      },
-      "apply": {
-        "house_number": "16",
-        "building_name": "",
-        "surname": "Attewell",
-        "forename": "Mrs S. J",
-        "trade": "",
-        "source_type": "Primary"
-      }
-    },
-    {
       "reason": "Garth Terrace: Standardized record formatting for house 35",
       "match": {
         "street": "Garth Terrace",
         "year": "1899",
-        "surname_contains": "Reakes"
-      },
-      "apply": {
-        "house_number": "35",
-        "building_name": "",
-        "surname": "Reakes",
-        "forename": "Arthur F",
-        "trade": "SIgnalman",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "Garth Terrace: Standardized record formatting for house 35",
-      "match": {
-        "street": "Garth Terrace",
-        "year": "1894",
-        "surname_contains": "Crowley "
-      },
-      "apply": {
-        "house_number": "35",
-        "building_name": "",
-        "surname": "Crowley",
-        "forename": "Denis",
-        "trade": "Labourer",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "Garth Terrace: Standardized record formatting for house 35",
-      "match": {
-        "street": "Garth Terrace",
-        "year": "1898",
         "surname_contains": "Reakes"
       },
       "apply": {
@@ -1167,22 +698,6 @@
       }
     },
     {
-      "reason": "Avon Close: Standardized record formatting for house 28",
-      "match": {
-        "street": "Avon Close",
-        "year": "1971",
-        "surname_contains": "Blakeley"
-      },
-      "apply": {
-        "house_number": "28",
-        "building_name": "",
-        "surname": "Blakeley",
-        "forename": "R. H.",
-        "trade": "",
-        "source_type": "Primary"
-      }
-    },
-    {
       "reason": "Austin Road: Standardized record formatting for house 6",
       "match": {
         "street": "Austin Road",
@@ -1199,22 +714,6 @@
       }
     },
     {
-      "reason": "Austin Road: Standardized record formatting for house 6",
-      "match": {
-        "street": "Austin Road",
-        "year": "1898",
-        "surname_contains": "William"
-      },
-      "apply": {
-        "house_number": "6",
-        "building_name": "",
-        "surname": "Sergeant",
-        "forename": "William",
-        "trade": "mason",
-        "source_type": "Primary"
-      }
-    },
-    {
       "reason": "Bachelor Road: Standardized record formatting for house 24",
       "match": {
         "street": "Bachelor Road",
@@ -1226,22 +725,6 @@
         "building_name": "",
         "surname": "Watkins",
         "forename": "JOhn",
-        "trade": "Tailor",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "Bachelor Road: Standardized record formatting for house 24",
-      "match": {
-        "street": "Bachelor Road",
-        "year": "1894",
-        "surname_contains": "Watkins"
-      },
-      "apply": {
-        "house_number": "24",
-        "building_name": "",
-        "surname": "Watkins",
-        "forename": "John",
         "trade": "Tailor",
         "source_type": "Primary"
       }
@@ -1391,22 +874,6 @@
       }
     },
     {
-      "reason": "Balmoral Road: Standardized record formatting for house 14",
-      "match": {
-        "street": "Balmoral Road",
-        "year": "1936",
-        "surname_contains": "Phillips"
-      },
-      "apply": {
-        "house_number": "14",
-        "building_name": "",
-        "surname": "Phillips",
-        "forename": "Sidney Herbert",
-        "trade": "P.O.",
-        "source_type": "Primary"
-      }
-    },
-    {
       "reason": "Balmoral Road: Standardized record formatting for house 16",
       "match": {
         "street": "Balmoral Road",
@@ -1471,70 +938,6 @@
       }
     },
     {
-      "reason": "Bond Street: Standardized record formatting for house 25",
-      "match": {
-        "street": "Bond Street",
-        "year": "1910",
-        "surname_contains": "Hy. G. e"
-      },
-      "apply": {
-        "house_number": "25",
-        "building_name": "",
-        "surname": "Bladon",
-        "forename": "Henry G.",
-        "trade": "Engine Driver",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "Bond Street: Standardized record formatting for house 25",
-      "match": {
-        "street": "Bond Street",
-        "year": "1902",
-        "surname_contains": "Bladon"
-      },
-      "apply": {
-        "house_number": "25",
-        "building_name": "",
-        "surname": "Bladon",
-        "forename": "Henry G.",
-        "trade": "Engine Driver",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "Bond Street: Standardized record formatting for house 25",
-      "match": {
-        "street": "Bond Street",
-        "year": "1902",
-        "surname_contains": "drivr"
-      },
-      "apply": {
-        "house_number": "25",
-        "building_name": "",
-        "surname": "Bladon",
-        "forename": "Henry G.",
-        "trade": "Engine Driver",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "Bond Street: Standardized record formatting for house 25",
-      "match": {
-        "street": "Bond Street",
-        "year": "1898",
-        "surname_contains": "Bladon"
-      },
-      "apply": {
-        "house_number": "25",
-        "building_name": "",
-        "surname": "Bladon",
-        "forename": "Henry G.",
-        "trade": "Engine Driver",
-        "source_type": "Primary"
-      }
-    },
-    {
       "reason": "Bond Street: Standardized record formatting for house 26",
       "match": {
         "street": "Bond Street",
@@ -1583,22 +986,6 @@
       }
     },
     {
-      "reason": "Bond Street: Standardized record formatting for house 28",
-      "match": {
-        "street": "Bond Street",
-        "year": "1910",
-        "surname_contains": "George"
-      },
-      "apply": {
-        "house_number": "28",
-        "building_name": "",
-        "surname": "Cooke",
-        "forename": "George",
-        "trade": "Labourer",
-        "source_type": "Primary"
-      }
-    },
-    {
       "reason": "Bond Street: Standardized record formatting for house 24",
       "match": {
         "street": "Bond Street",
@@ -1627,86 +1014,6 @@
         "surname": "Moss",
         "forename": "Ronald William",
         "trade": "",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "Bond Street: Standardized record formatting for house 23",
-      "match": {
-        "street": "Bond Street",
-        "year": "1910",
-        "surname_contains": "Rd. Will"
-      },
-      "apply": {
-        "house_number": "23",
-        "building_name": "",
-        "surname": "Moss",
-        "forename": "Rd. William",
-        "trade": "Carpenter",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "Bond Street: Standardized record formatting for house 23",
-      "match": {
-        "street": "Bond Street",
-        "year": "1910",
-        "surname_contains": "Moss"
-      },
-      "apply": {
-        "house_number": "23",
-        "building_name": "",
-        "surname": "Moss",
-        "forename": "Ronald William",
-        "trade": "Carpenter",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "Bond Street: Standardized record formatting for house 23",
-      "match": {
-        "street": "Bond Street",
-        "year": "1902",
-        "surname_contains": "Moss"
-      },
-      "apply": {
-        "house_number": "23",
-        "building_name": "",
-        "surname": "Moss",
-        "forename": "Rd William",
-        "trade": "Carpenter",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "Bond Street: Standardized record formatting for house 23",
-      "match": {
-        "street": "Bond Street",
-        "year": "1898",
-        "surname_contains": "Moss"
-      },
-      "apply": {
-        "house_number": "23",
-        "building_name": "",
-        "surname": "Moss",
-        "forename": "Ronald William",
-        "trade": "Carpenter",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "Bond Street: Standardized record formatting for house 23",
-      "match": {
-        "street": "Bond Street",
-        "year": "1902",
-        "surname_contains": "Moss"
-      },
-      "apply": {
-        "house_number": "23",
-        "building_name": "",
-        "surname": "Moss",
-        "forename": "Ronald William",
-        "trade": "Carpenter",
         "source_type": "Primary"
       }
     },
@@ -1743,38 +1050,6 @@
       }
     },
     {
-      "reason": "Bolton Road: Standardized record formatting for house 3",
-      "match": {
-        "street": "Bolton Road",
-        "year": "1898",
-        "surname_contains": "Harrison"
-      },
-      "apply": {
-        "house_number": "3",
-        "building_name": "Rose Cottage",
-        "surname": "Harrison",
-        "forename": "Arthur",
-        "trade": "",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "Bolton Road: Standardized record formatting for house 3",
-      "match": {
-        "street": "Bolton Road",
-        "year": "1902",
-        "surname_contains": "Witts"
-      },
-      "apply": {
-        "house_number": "3",
-        "building_name": "Rose Cottage",
-        "surname": "Witts",
-        "forename": "Alfred George",
-        "trade": "",
-        "source_type": "Primary"
-      }
-    },
-    {
       "reason": "Bolton Road: Standardized record formatting for house 2",
       "match": {
         "street": "Bolton Road",
@@ -1786,70 +1061,6 @@
         "building_name": "Home Cottage",
         "surname": "Thomas",
         "forename": "Hutchins",
-        "trade": "",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "Bolton Road: Standardized record formatting for house 2",
-      "match": {
-        "street": "Bolton Road",
-        "year": "1898",
-        "surname_contains": "Powell"
-      },
-      "apply": {
-        "house_number": "2",
-        "building_name": "Home Cottage",
-        "surname": "Powell",
-        "forename": "Daniel",
-        "trade": "",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "Bolton Road: Standardized record formatting for house 2",
-      "match": {
-        "street": "Bolton Road",
-        "year": "1902",
-        "surname_contains": "Powell"
-      },
-      "apply": {
-        "house_number": "2",
-        "building_name": "Home Cottage",
-        "surname": "Powell",
-        "forename": "Daniel",
-        "trade": "",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "Bolton Road: Standardized record formatting for house 2",
-      "match": {
-        "street": "Bolton Road",
-        "year": "1893",
-        "surname_contains": "Pobjoy J"
-      },
-      "apply": {
-        "house_number": "2",
-        "building_name": "Home Cottage",
-        "surname": "Pobjoy",
-        "forename": "Jno. R.",
-        "trade": "",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "Bolton Road: Standardized record formatting for house 2",
-      "match": {
-        "street": "Bolton Road",
-        "year": "1893",
-        "surname_contains": "Pobjoy"
-      },
-      "apply": {
-        "house_number": "2",
-        "building_name": "Home Cottage",
-        "surname": "Pobjoy",
-        "forename": "John R.",
         "trade": "",
         "source_type": "Primary"
       }
@@ -2025,7 +1236,7 @@
         "house_number": "20",
         "building_name": "",
         "surname": "Duggan",
-        "forename": "Noël",
+        "forename": "No\u00ebl",
         "trade": "",
         "source_type": "Primary"
       }
@@ -2207,22 +1418,6 @@
       }
     },
     {
-      "reason": "Friars Street: Standardized record formatting for house 10",
-      "match": {
-        "street": "Friars Street",
-        "year": "1893",
-        "surname_contains": "Powell"
-      },
-      "apply": {
-        "house_number": "10",
-        "building_name": "",
-        "surname": "Powell",
-        "forename": "Charles R",
-        "trade": "Engine Driver",
-        "source_type": "Primary"
-      }
-    },
-    {
       "reason": "Gaer Park Lane: Standardized record formatting for house 3",
       "match": {
         "street": "Gaer Park Lane",
@@ -2235,22 +1430,6 @@
         "surname": "Storey",
         "forename": "L. D.",
         "trade": "Wire Drawer",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "Gaer Park Lane: Standardized record formatting for house 3",
-      "match": {
-        "street": "Gaer Park Lane",
-        "year": "1971",
-        "surname_contains": "Rees"
-      },
-      "apply": {
-        "house_number": "3",
-        "building_name": "",
-        "surname": "Rees",
-        "forename": "Thomas Jn",
-        "trade": "",
         "source_type": "Primary"
       }
     },
@@ -2313,22 +1492,6 @@
       }
     },
     {
-      "reason": "Abbey Road: Standardized record formatting for house",
-      "match": {
-        "street": "Abbey Road",
-        "year": "1971",
-        "surname_contains": "Thomas"
-      },
-      "apply": {
-        "house_number": "10",
-        "building_name": "Near-Wood",
-        "surname": "Thomas",
-        "forename": "Robert R.",
-        "trade": "",
-        "source_type": "Primary"
-      }
-    },
-    {
       "reason": "York Place: Standardized record formatting for house 1",
       "match": {
         "street": "York Place",
@@ -2345,38 +1508,6 @@
       }
     },
     {
-      "reason": "York Place: Standardized record formatting for house 1",
-      "match": {
-        "street": "York Place",
-        "year": "1900",
-        "surname_contains": "Edwd. pl"
-      },
-      "apply": {
-        "house_number": "1",
-        "building_name": "",
-        "surname": "Edward",
-        "forename": "Thomas",
-        "trade": "Plasterer",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "York Place: Standardized record formatting for house 1",
-      "match": {
-        "street": "York Place",
-        "year": "1893",
-        "surname_contains": "Mattick"
-      },
-      "apply": {
-        "house_number": "1",
-        "building_name": "",
-        "surname": "Mattick",
-        "forename": "Joseph",
-        "trade": "Traveller",
-        "source_type": "Primary"
-      }
-    },
-    {
       "reason": "York Place: Standardized record formatting for house 2",
       "match": {
         "street": "York Place",
@@ -2389,54 +1520,6 @@
         "surname": "Langmaid",
         "forename": "Henry",
         "trade": "Builder",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "York Place: Standardized record formatting for house 2",
-      "match": {
-        "street": "York Place",
-        "year": "1900",
-        "surname_contains": "Henry"
-      },
-      "apply": {
-        "house_number": "2",
-        "building_name": "",
-        "surname": "Langmaid",
-        "forename": "Henry",
-        "trade": "Builder",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "York Place: Standardized record formatting for house 2",
-      "match": {
-        "street": "York Place",
-        "year": "1900",
-        "surname_contains": "Wm. coal"
-      },
-      "apply": {
-        "house_number": "2",
-        "building_name": "",
-        "surname": "Coles",
-        "forename": "William",
-        "trade": "Coal Merchant",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "York Place: Standardized record formatting for house 2",
-      "match": {
-        "street": "York Place",
-        "year": "1890",
-        "surname_contains": "Hall Joh"
-      },
-      "apply": {
-        "house_number": "2",
-        "building_name": "",
-        "surname": "Hall",
-        "forename": "John R",
-        "trade": "",
         "source_type": "Primary"
       }
     },
@@ -2457,38 +1540,6 @@
       }
     },
     {
-      "reason": "York Place: Standardized record formatting for house 3",
-      "match": {
-        "street": "York Place",
-        "year": "1900",
-        "surname_contains": "Mrs Mary"
-      },
-      "apply": {
-        "house_number": "3",
-        "building_name": "",
-        "surname": "Everson",
-        "forename": "Mrs Mary",
-        "trade": "",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "York Place: Standardized record formatting for house 3",
-      "match": {
-        "street": "York Place",
-        "year": "1900",
-        "surname_contains": "Mrs Jane"
-      },
-      "apply": {
-        "house_number": "3",
-        "building_name": "",
-        "surname": "Worthy",
-        "forename": "Mrs Jane",
-        "trade": "",
-        "source_type": "Primary"
-      }
-    },
-    {
       "reason": "York Place: Standardized record formatting for house 4",
       "match": {
         "street": "York Place",
@@ -2501,70 +1552,6 @@
         "surname": "Collier",
         "forename": "Misses",
         "trade": "",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "York Place: Standardized record formatting for house 4",
-      "match": {
-        "street": "York Place",
-        "year": "1902",
-        "surname_contains": "Collier"
-      },
-      "apply": {
-        "house_number": "4",
-        "building_name": "Clyde House",
-        "surname": "Collier",
-        "forename": "Misses",
-        "trade": "",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "York Place: Standardized record formatting for house 4",
-      "match": {
-        "street": "York Place",
-        "year": "1903",
-        "surname_contains": "Collier"
-      },
-      "apply": {
-        "house_number": "4",
-        "building_name": "Clyde House",
-        "surname": "Collier",
-        "forename": "Misses",
-        "trade": "",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "York Place: Standardized record formatting for house 4",
-      "match": {
-        "street": "York Place",
-        "year": "1900",
-        "surname_contains": "Misses"
-      },
-      "apply": {
-        "house_number": "4",
-        "building_name": "Clyde House",
-        "surname": "Misses",
-        "forename": "Collier",
-        "trade": "",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "York Place: Standardized record formatting for house 4",
-      "match": {
-        "street": "York Place",
-        "year": "1900",
-        "surname_contains": "Hy. Thos"
-      },
-      "apply": {
-        "house_number": "4",
-        "building_name": "",
-        "surname": "Ford",
-        "forename": "Henry Thomas",
-        "trade": "Upholsterer",
         "source_type": "Primary"
       }
     },
@@ -2617,38 +1604,6 @@
       }
     },
     {
-      "reason": "Exeter Street: Standardized record formatting for house 1",
-      "match": {
-        "street": "Exeter Street",
-        "year": "1913",
-        "surname_contains": "Bowen"
-      },
-      "apply": {
-        "house_number": "1",
-        "building_name": "Wyndcliffe House",
-        "surname": "Bowen",
-        "forename": "Edgar",
-        "trade": "timekeeper",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "Exeter Street: Standardized record formatting for house 1",
-      "match": {
-        "street": "Exeter Street",
-        "year": "1920",
-        "surname_contains": "Boke"
-      },
-      "apply": {
-        "house_number": "1",
-        "building_name": "Wyndcliffe House",
-        "surname": "Boke",
-        "forename": "Frederick",
-        "trade": "plumber",
-        "source_type": "Primary"
-      }
-    },
-    {
       "reason": "Exeter Street: Standardized record formatting for house 9",
       "match": {
         "street": "Exeter Street",
@@ -2685,22 +1640,6 @@
       "match": {
         "street": "Exeter Street",
         "year": "1920",
-        "surname_contains": "Williams"
-      },
-      "apply": {
-        "house_number": "10",
-        "building_name": "",
-        "surname": "Williams",
-        "forename": "Hopton",
-        "trade": "Foreman G.W.R",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "Exeter Street: Standardized record formatting for house 10",
-      "match": {
-        "street": "Exeter Street",
-        "year": "1913",
         "surname_contains": "Williams"
       },
       "apply": {
@@ -2757,38 +1696,6 @@
         "surname": "Smith",
         "forename": "Thomas",
         "trade": "Sheet Weigher",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "Aberthaw Road: Standardized record formatting for house 4",
-      "match": {
-        "street": "Aberthaw Road",
-        "year": "1903",
-        "surname_contains": "Fontaine"
-      },
-      "apply": {
-        "house_number": "4",
-        "building_name": "",
-        "surname": "Fontaine",
-        "forename": "Alf J",
-        "trade": "Ironfounder",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "Aberthaw Road: Standardized record formatting for house 4",
-      "match": {
-        "street": "Aberthaw Road",
-        "year": "1902",
-        "surname_contains": "Fontaine"
-      },
-      "apply": {
-        "house_number": "4",
-        "building_name": "",
-        "surname": "Fontaine",
-        "forename": "Alf J",
-        "trade": "Ironfounder",
         "source_type": "Primary"
       }
     },
@@ -2857,22 +1764,6 @@
       }
     },
     {
-      "reason": "Arundel Road: Standardized record formatting for house 5",
-      "match": {
-        "street": "Arundel Road",
-        "year": "1910",
-        "surname_contains": "Doell"
-      },
-      "apply": {
-        "house_number": "5",
-        "building_name": "",
-        "surname": "Doell",
-        "forename": "William Jas",
-        "trade": "Attend. Officer",
-        "source_type": "Primary"
-      }
-    },
-    {
       "reason": "Arundel Road: Standardized record formatting for house 6",
       "match": {
         "street": "Arundel Road",
@@ -2916,22 +1807,6 @@
         "building_name": "",
         "surname": "Pickering",
         "forename": "C H",
-        "trade": "",
-        "source_type": "Primary"
-      }
-    },
-    {
-      "reason": "Arundel Road: Standardized record formatting for house 14",
-      "match": {
-        "street": "Arundel Road",
-        "year": "1913",
-        "surname_contains": "dk"
-      },
-      "apply": {
-        "house_number": "14",
-        "building_name": "",
-        "surname": "dk",
-        "forename": "police",
         "trade": "",
         "source_type": "Primary"
       }
@@ -3094,6 +1969,61 @@
         "forename": "William",
         "trade": "Veterinary Surgeon",
         "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Bishopsgate Parade 1902: Reassign Jeffreys Street section starting at Osborne Thomas (#74)",
+      "match": {
+        "street": "Bishopsgate Parade",
+        "year": "1902",
+        "house_number": "74"
+      },
+      "apply": {
+        "street": "Jeffreys Street"
+      }
+    },
+    {
+      "reason": "Bishopsgate Parade 1903: Reassign Jeffreys Street section starting at Willis Henry (line index 7)",
+      "match": {
+        "street": "Bishopgate Parade",
+        "year": "1903",
+        "forename_contains": "Willis Henry"
+      },
+      "apply": {
+        "street": "Jeffreys Street"
+      }
+    },
+    {
+      "reason": "Bishopsgate Parade 1898: Reassign Jeffreys Street section starting at Black Horse (Morgan G)",
+      "match": {
+        "street": "Bishopsgate Parade",
+        "year": "1898",
+        "building_name": "Black Horse"
+      },
+      "apply": {
+        "street": "Jeffreys Street"
+      }
+    },
+    {
+      "reason": "Bishopgate Parade 1899: Reassign Jeffreys Street section starting at Black Horse (Morgan G)",
+      "match": {
+        "street": "Bishopgate Parade",
+        "year": "1899",
+        "building_name": "Black Horse"
+      },
+      "apply": {
+        "street": "Jeffreys Street"
+      }
+    },
+    {
+      "reason": "Bishopgate Parade 1903: Reassign Jeffreys Street section starting at Willis Henry",
+      "match": {
+        "street": "Bishopgate Parade",
+        "year": "1903",
+        "forename_contains": "Willis Henry"
+      },
+      "apply": {
+        "street": "Jeffreys Street"
       }
     }
   ]
