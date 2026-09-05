@@ -1983,17 +1983,6 @@
       }
     },
     {
-      "reason": "Bishopsgate Parade 1903: Reassign Jeffreys Street section starting at Willis Henry (line index 7)",
-      "match": {
-        "street": "Bishopgate Parade",
-        "year": "1903",
-        "forename_contains": "Willis Henry"
-      },
-      "apply": {
-        "street": "Jeffreys Street"
-      }
-    },
-    {
       "reason": "Bishopsgate Parade 1898: Reassign Jeffreys Street section starting at Black Horse (Morgan G)",
       "match": {
         "street": "Bishopsgate Parade",
@@ -2010,17 +1999,6 @@
         "street": "Bishopgate Parade",
         "year": "1899",
         "building_name": "Black Horse"
-      },
-      "apply": {
-        "street": "Jeffreys Street"
-      }
-    },
-    {
-      "reason": "Bishopgate Parade 1903: Reassign Jeffreys Street section starting at Willis Henry",
-      "match": {
-        "street": "Bishopgate Parade",
-        "year": "1903",
-        "forename_contains": "Willis Henry"
       },
       "apply": {
         "street": "Jeffreys Street"
@@ -2484,6 +2462,21 @@
         "surname": "Hazell",
         "forename": "Godfrey",
         "trade": "",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Bishopsgate Parade 1903: Add verified #7 James Hart (labourer)",
+      "match": {
+        "street": "Bishopsgate Parade",
+        "year": "1903"
+      },
+      "apply": {
+        "house_number": "7",
+        "building_name": "",
+        "surname": "Hart",
+        "forename": "James",
+        "trade": "labourer",
         "source_type": "Primary"
       }
     },

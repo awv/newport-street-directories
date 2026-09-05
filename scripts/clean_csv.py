@@ -2654,23 +2654,27 @@ def main():
                     # Clean 1903 Bishopgate Parade format where house numbers are in surname (e.g. surname='1', forename='James John')
                     if (cleaned.get("year") == "1903" and 
                         st_lower in {"bishopsgate parade", "bishopgate parade"} and 
-                        sn_raw in {"1", "2", "3", "4", "4A", "5", "7"}):
+                        sn_raw in {"1", "2", "3", "4", "4A", "5", "6", "7"}):
                         if sn_raw == "7":
-                            cleaned["street"] = "Bishton Street"
                             cleaned["house_number"] = "7"
                             cleaned["surname"] = "Hart"
                             cleaned["forename"] = "James"
                             cleaned["trade"] = "labourer"
-                        elif sn_raw == "3":
-                            cleaned["house_number"] = "3"
-                            cleaned["surname"] = "Craddock"
-                            cleaned["forename"] = "J."
-                            cleaned["trade"] = "labourer"
+                        elif sn_raw == "6":
+                            cleaned["house_number"] = "6"
+                            cleaned["surname"] = "Void"
+                            cleaned["forename"] = ""
+                            cleaned["trade"] = ""
                         elif sn_raw == "5":
                             cleaned["house_number"] = "5"
                             cleaned["surname"] = "Void"
                             cleaned["forename"] = ""
                             cleaned["trade"] = ""
+                        elif sn_raw == "3":
+                            cleaned["house_number"] = "3"
+                            cleaned["surname"] = "Craddock"
+                            cleaned["forename"] = "J."
+                            cleaned["trade"] = "labourer"
                         else:
                             cleaned["house_number"] = sn_raw
                             parts = cleaned.get("forename", "").strip().split(maxsplit=1)
