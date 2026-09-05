@@ -717,17 +717,28 @@ let selectedIndex = -1;
       else if (firstYr <= 1939) eraText = `🌳 Interwar Garden Suburb / Municipal Estate (First recorded in ${firstYr} directory)`;
       else eraText = `🏗️ Post-War Development (First recorded in ${firstYr} directory)`;
 
+      // Render former names badge if recorded in street summary
+      const summary = streetData.summary || {};
+      const formerNames = summary.formerNames || [];
+      const formerHTML = formerNames.length > 0
+        ? `<div style="margin-top: 0.5rem; display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+            <span style="font-size: 0.85rem; color: var(--accent); background: rgba(200, 157, 84, 0.15); border: 1px solid var(--accent-muted); padding: 0.2rem 0.6rem; border-radius: 12px; font-weight: 500;">
+              📜 Formally recorded as: <strong>${formerNames.join(', ')}</strong>
+            </span>
+           </div>`
+        : '';
+
       const isPureCrossRefStreet = streetRecords.length > 0 && streetRecords.every(r => r.surname && r.surname.toLowerCase().startsWith('see '));
       const crossRefRec = streetRecords.find(r => r.surname && r.surname.toLowerCase().startsWith('see '));
       const introElem = document.getElementById('street-intro');
       if (introElem) {
         if (isPureCrossRefStreet && crossRefRec) {
           const targetStreet = crossRefRec.surname.substring(4).trim();
-          introElem.innerHTML = `🏛️ Archival Directory Notice: In historical directories, <strong>${displayName}</strong> is an index cross-reference pointing readers to <strong>${targetStreet}</strong>. <a href="#street=${encodeURIComponent(targetStreet)}" style="color: #c89d54; text-decoration: underline; font-weight: 600; margin-left: 6px;">Check the ${targetStreet} Directory →</a>`;
+          introElem.innerHTML = `🏛️ Archival Directory Notice: In historical directories, <strong>${displayName}</strong> is an index cross-reference pointing readers to <strong>${targetStreet}</strong>. <a href="#street=${encodeURIComponent(targetStreet)}" style="color: #c89d54; text-decoration: underline; font-weight: 600; margin-left: 6px;">Check the ${targetStreet} Directory →</a>${formerHTML}`;
           document.getElementById('house-grid').innerHTML = '';
           return;
         } else {
-          introElem.innerText = `${eraText}. Recorded across ${streetRecords.length} directory entries from ${firstYr} to ${lastYr}.`;
+          introElem.innerHTML = `<div>${eraText}. Recorded across ${streetRecords.length} directory entries from ${firstYr} to ${lastYr}.</div>${formerHTML}`;
         }
       }
 
