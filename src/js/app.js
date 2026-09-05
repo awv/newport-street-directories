@@ -1984,7 +1984,7 @@ let selectedIndex = -1;
         return;
       }
 
-      const slug = cleanStr(targetStreet).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+      const slug = cleanSlug(targetStreet);
       currentEditingStreetSlug = slug;
 
       let masterDict = {};
