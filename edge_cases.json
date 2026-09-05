@@ -1983,22 +1983,143 @@
       }
     },
     {
-      "reason": "Bishopsgate Parade 1898: Reassign Jeffreys Street section starting at Black Horse (Morgan G)",
+      "reason": "Bishopsgate Parade 1898: Reassign Jeffreys Street section starting at Browning Wm.",
       "match": {
         "street": "Bishopsgate Parade",
         "year": "1898",
-        "building_name": "Black Horse"
+        "surname": "Browning"
       },
       "apply": {
         "street": "Jeffreys Street"
       }
     },
     {
-      "reason": "Bishopgate Parade 1899: Reassign Jeffreys Street section starting at Black Horse (Morgan G)",
+      "reason": "Bishopsgate Parade 1898: Reassign Jeffreys Street section starting at Five Houses Building",
       "match": {
-        "street": "Bishopgate Parade",
+        "street": "Bishopsgate Parade",
+        "year": "1898",
+        "surname": "Five Houses Building"
+      },
+      "apply": {
+        "street": "Jeffreys Street"
+      }
+    },
+    {
+      "reason": "Bishopsgate Parade 1898: Reassign Jeffreys Street section starting at Three houses void",
+      "match": {
+        "street": "Bishopsgate Parade",
+        "year": "1898",
+        "surname": "Three houses void"
+      },
+      "apply": {
+        "street": "Jeffreys Street"
+      }
+    },
+    {
+      "reason": "Bishopsgate Parade 1898: Reassign Jeffreys Street section starting at Two houses void",
+      "match": {
+        "street": "Bishopsgate Parade",
+        "year": "1898",
+        "surname": "Two houses void"
+      },
+      "apply": {
+        "street": "Jeffreys Street"
+      }
+    },
+    {
+      "reason": "Bishopsgate Parade 1898: Reassign Jeffreys Street section starting at Clyffard-crescent",
+      "match": {
+        "street": "Bishopsgate Parade",
+        "year": "1898",
+        "surname": "Clyffard-crescent"
+      },
+      "apply": {
+        "street": "Jeffreys Street"
+      }
+    },
+    {
+      "reason": "Bishopsgate Parade 1898: Reassign Jeffreys Street section Rosedale (James Campbell)",
+      "match": {
+        "street": "Bishopsgate Parade",
+        "year": "1898",
+        "surname": "Campbell"
+      },
+      "apply": {
+        "street": "Jeffreys Street"
+      }
+    },
+    {
+      "reason": "Bishopsgate Parade 1898: Reassign Jeffreys Street section Silverleigh (George Wood)",
+      "match": {
+        "street": "Bishopsgate Parade",
+        "year": "1898",
+        "surname": "Wood"
+      },
+      "apply": {
+        "street": "Jeffreys Street"
+      }
+    },
+    {
+      "reason": "Bishopsgate Parade 1898: Reassign Jeffreys Street section Waters Alfred Hy.",
+      "match": {
+        "street": "Bishopsgate Parade",
+        "year": "1898",
+        "surname": "Waters"
+      },
+      "apply": {
+        "street": "Jeffreys Street"
+      }
+    },
+    {
+      "reason": "Bishopsgate Parade 1898: Reassign Jeffreys Street section Knight Mrs Martha",
+      "match": {
+        "street": "Bishopsgate Parade",
+        "year": "1898",
+        "surname": "Knight"
+      },
+      "apply": {
+        "street": "Jeffreys Street"
+      }
+    },
+    {
+      "reason": "Bishopsgate Parade 1898: Reassign Jeffreys Street section Rees Evan",
+      "match": {
+        "street": "Bishopsgate Parade",
+        "year": "1898",
+        "surname": "Rees"
+      },
+      "apply": {
+        "street": "Jeffreys Street"
+      }
+    },
+    {
+      "reason": "Bishopsgate Parade 1898: Reassign Jeffreys Street section Jones Mrs Esther",
+      "match": {
+        "street": "Bishopsgate Parade",
+        "year": "1898",
+        "surname": "Jones"
+      },
+      "apply": {
+        "street": "Jeffreys Street"
+      }
+    },
+    {
+      "reason": "Bishopsgate Parade 1899: Reassign Jeffreys Street section Jones Mrs Esther",
+      "match": {
+        "street": "Bishopsgate Parade",
         "year": "1899",
-        "building_name": "Black Horse"
+        "surname": "Jones"
+      },
+      "apply": {
+        "street": "Jeffreys Street"
+      }
+    },
+    {
+      "reason": "Bishopsgate Parade 1899: Reassign Jeffreys Street section Thomas Mrs",
+      "match": {
+        "street": "Bishopsgate Parade",
+        "year": "1899",
+        "surname": "Thomas"
       },
       "apply": {
         "street": "Jeffreys Street"
