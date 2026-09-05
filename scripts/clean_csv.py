@@ -2630,18 +2630,6 @@ def main():
                                 skipped_count += 1
                                 continue
                         
-                    # Filter out incorrect 1899 Agincourt Street records resulting from header drifts
-                    if (cleaned.get("year") == "1899" and 
-                        st_lower == "agincourt street" and 
-                        cleaned.get("surname", "").strip().lower() not in {
-                            "lloyd", "ball", "stockham", "francis", "collins", "jones", "lewis", "sysum", "wren", 
-                            "michael", "gay", "jenkins", "cruise", "white", "wathen", "bates", "short", "tutton", 
-                            "whittington", "ricks", "thomas", "rodburn", "williams", "kyte", "grace", "watson", 
-                            "ware", "henson", "void"
-                        }):
-                        skipped_count += 1
-                        continue
-                        
                     # Clear building_name if it mistakenly repeats the street name
                     bldg_val = cleaned.get("building_name", "").strip()
                     if bldg_val and st_lower:

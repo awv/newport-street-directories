@@ -460,12 +460,12 @@
       "match": {
         "street": "High Street",
         "year": "1927",
-        "surname_contains": "Gale\u2019s"
+        "surname_contains": "Gale’s"
       },
       "apply": {
         "house_number": "19",
         "building_name": "",
-        "surname": "Gale\u2019s Refreshment Rooms",
+        "surname": "Gale’s Refreshment Rooms",
         "forename": "",
         "trade": "Refreshment Rooms"
       }
@@ -2025,7 +2025,7 @@
         "house_number": "20",
         "building_name": "",
         "surname": "Duggan",
-        "forename": "No\u00ebl",
+        "forename": "Noël",
         "trade": "",
         "source_type": "Primary"
       }
@@ -3077,6 +3077,22 @@
         "surname": "Perry",
         "forename": "E.",
         "trade": "",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Chepstow road: Standardized record formatting for house 1",
+      "match": {
+        "street": "Chepstow road",
+        "year": "1878",
+        "surname_contains": "Sheaf"
+      },
+      "apply": {
+        "house_number": "1",
+        "building_name": "Windsor House",
+        "surname": "Sheaf",
+        "forename": "William",
+        "trade": "Veterinary Surgeon",
         "source_type": "Primary"
       }
     }

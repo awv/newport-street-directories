@@ -167,14 +167,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -182,7 +180,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "albany-road": {
       "canonical_name": "Albany Road",
@@ -193,14 +194,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -208,7 +207,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "albany-street": {
       "canonical_name": "Albany Street",
@@ -323,14 +325,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -338,7 +338,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "albert-terrace": {
       "canonical_name": "Albert Terrace",
@@ -349,14 +352,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -364,7 +365,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "albion-street": {
       "canonical_name": "Albion Street",
@@ -450,23 +454,17 @@
       "district": "",
       "parish": "",
       "former_names": [
-        {
-          "name": "Inkerman Street",
-          "until_year": 1890,
-          "notes": "Renamed to Alexandra Road circa 1890"
-        }
+        "[object Object]"
       ],
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -474,7 +472,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "alfred-street": {
       "canonical_name": "Alfred Street",
@@ -485,14 +486,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -500,7 +499,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "alice-street": {
       "canonical_name": "Alice Street",
@@ -670,14 +672,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -685,7 +685,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "alma-street-upper": {
       "canonical_name": "Alma Street (Upper)",
@@ -749,14 +752,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -764,7 +765,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "aragon-street-c": {
       "canonical_name": "Aragon Street, C",
@@ -985,9 +989,7 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
@@ -1000,7 +1002,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "UNVERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "arlington-terrace": {
       "canonical_name": "Arlington Terrace",
@@ -1037,14 +1042,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -1052,7 +1055,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "artillery-place": {
       "canonical_name": "Artillery Place",
@@ -1116,14 +1122,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -1131,7 +1135,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "aston-crescent": {
       "canonical_name": "Aston Crescent",
@@ -1169,14 +1176,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -1184,7 +1189,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "austin-place": {
       "canonical_name": "Austin Place",
@@ -1273,14 +1281,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -1288,7 +1294,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "baldwin-street": {
       "canonical_name": "Baldwin Street",
@@ -1299,14 +1308,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -1314,7 +1321,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "balmoral-road": {
       "canonical_name": "Balmoral Road",
@@ -1325,14 +1335,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -1340,7 +1348,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "baneswell": {
       "canonical_name": "Baneswell",
@@ -1455,14 +1466,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -1470,7 +1479,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "barnard-street": {
       "canonical_name": "Barnard Street",
@@ -1481,14 +1493,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -1496,7 +1506,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "barnard-town": {
       "canonical_name": "Barnard Town",
@@ -1585,14 +1598,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -1600,7 +1611,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "bassaleg-road": {
       "canonical_name": "Bassaleg Road",
@@ -1611,14 +1625,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -1626,7 +1638,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "batchelor-road": {
       "canonical_name": "Batchelor Road",
@@ -1637,14 +1652,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -1652,7 +1665,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "bath-street": {
       "canonical_name": "Bath Street",
@@ -1663,14 +1679,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -1678,7 +1692,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "beaufort-terrace": {
       "canonical_name": "Beaufort Terrace",
@@ -1741,14 +1758,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -1756,7 +1771,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "beechwood-road": {
       "canonical_name": "Beechwood Road",
@@ -1793,14 +1811,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -1808,7 +1824,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "belvedere-terrace": {
       "canonical_name": "Belvedere Terrace",
@@ -1819,14 +1838,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -1834,7 +1851,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "beresford-road": {
       "canonical_name": "Beresford Road",
@@ -1845,14 +1865,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -1860,7 +1878,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "beynon-s-court": {
       "canonical_name": "Beynon's Court",
@@ -1897,14 +1918,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -1912,7 +1931,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "bishop-street": {
       "canonical_name": "Bishop Street",
@@ -1975,14 +1997,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -1990,25 +2010,28 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "Bishopsgate Parade",
+      "notes": ""
     },
     "bishopsgate-parade": {
       "canonical_name": "Bishopsgate Parade",
       "slug": "bishopsgate-parade",
       "district": "",
       "parish": "",
-      "former_names": [],
+      "former_names": [
+        "Bishopgate Parade"
+      ],
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -2016,7 +2039,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "bishton-street": {
       "canonical_name": "Bishton Street",
