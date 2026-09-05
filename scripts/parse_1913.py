@@ -176,9 +176,15 @@ def parse_tsv(input_path, output_path):
             matched_street_name = ""
             page_abbrev_map = {
                 "FAI": "FAIROAK TERRACE",
+                "BISHOPSGATE PAR.": "BISHOPSGATE PARADE",
+                "BISHOPSGATE PAR": "BISHOPSGATE PARADE",
+                "BISHOPSGATE PAR., D 3": "BISHOPSGATE PARADE",
             }
             col0_upper = col0.upper().strip()
-            if col0 and is_valid_street_name(col0):
+            if "BISHOPSGATE PAR" in col0_upper:
+                is_street = True
+                matched_street_name = "BISHOPSGATE PARADE"
+            elif col0 and is_valid_street_name(col0):
                 is_street = True
                 matched_street_name = col0
             elif col0_upper in page_abbrev_map:

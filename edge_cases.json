@@ -2141,6 +2141,126 @@
         "forename": "Mrs",
         "trade": ""
       }
+    },
+    {
+      "reason": "Bishopsgate Parade 1910: Add verified #1 John Clarke (engine driver)",
+      "match": {
+        "street": "Bishopsgate Parade",
+        "year": "1910"
+      },
+      "apply": {
+        "house_number": "1",
+        "building_name": "",
+        "surname": "Clarke",
+        "forename": "John",
+        "trade": "engine driver",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Bishopsgate Parade 1910: Add verified #2 Frank Hunt (mason)",
+      "match": {
+        "street": "Bishopsgate Parade",
+        "year": "1910"
+      },
+      "apply": {
+        "house_number": "2",
+        "building_name": "",
+        "surname": "Hunt",
+        "forename": "Frank",
+        "trade": "mason",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Bishopsgate Parade 1913: Add verified #1 Thomas Parker (musician)",
+      "match": {
+        "street": "Bishopsgate Parade",
+        "year": "1913"
+      },
+      "apply": {
+        "house_number": "1",
+        "building_name": "",
+        "surname": "Parker",
+        "forename": "Thomas",
+        "trade": "musician",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Bishopsgate Parade 1913: Add verified #2 Frank Hunt (mason)",
+      "match": {
+        "street": "Bishopsgate Parade",
+        "year": "1913"
+      },
+      "apply": {
+        "house_number": "2",
+        "building_name": "",
+        "surname": "Hunt",
+        "forename": "Frank",
+        "trade": "mason",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Bishopsgate Parade 1913: Add verified #3 Wm. Snell (dock labourer)",
+      "match": {
+        "street": "Bishopsgate Parade",
+        "year": "1913"
+      },
+      "apply": {
+        "house_number": "3",
+        "building_name": "",
+        "surname": "Snell",
+        "forename": "William",
+        "trade": "dock labourer",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Bishopsgate Parade 1913: Add verified #4 Mrs. Mary Stringer",
+      "match": {
+        "street": "Bishopsgate Parade",
+        "year": "1913"
+      },
+      "apply": {
+        "house_number": "4",
+        "building_name": "",
+        "surname": "Stringer",
+        "forename": "Mrs. Mary",
+        "trade": "",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Bishopsgate Parade 1913: Add verified #5 George Clarke (labourer)",
+      "match": {
+        "street": "Bishopsgate Parade",
+        "year": "1913"
+      },
+      "apply": {
+        "house_number": "5",
+        "building_name": "",
+        "surname": "Clarke",
+        "forename": "George",
+        "trade": "labourer",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Bishopsgate Parade 1913: Add verified #6 Thomas Ion (stevedore)",
+      "match": {
+        "street": "Bishopsgate Parade",
+        "year": "1913"
+      },
+      "apply": {
+        "house_number": "6",
+        "building_name": "",
+        "surname": "Ion",
+        "forename": "Thomas",
+        "trade": "stevedore",
+        "source_type": "Primary"
+      }
     }
   ]
 }

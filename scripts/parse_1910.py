@@ -141,7 +141,7 @@ def is_valid_street_name(s):
         return True
         
     # 3. Contains a street suffix and doesn't look like a resident listing
-    suffixes = {'street', 'road', 'avenue', 'place', 'terrace', 'hill', 'lane', 'crescent', 'cres', 'cres.', 'parade', 'way', 'drive', 'grove', 'villas', 'gardens', 'walk', 'square', 'court', 'close', 'view', 'park', 'green', 'st', 'rd', 'av', 'pl', 'ln', 'sq', 'ct', 'cl', 'pk'}
+    suffixes = {'street', 'road', 'avenue', 'place', 'terrace', 'hill', 'lane', 'crescent', 'cres', 'cres.', 'parade', 'pde', 'par', 'par.', 'way', 'drive', 'grove', 'villas', 'gardens', 'walk', 'square', 'court', 'close', 'view', 'park', 'green', 'st', 'rd', 'av', 'pl', 'ln', 'sq', 'ct', 'cl', 'pk'}
     tokens = re.findall(r'[a-zA-Z\.]+', s_clean)
     if tokens:
         last_word = tokens[-1].lower().strip('.')
@@ -175,6 +175,9 @@ def parse_tsv(input_path, output_path):
             col0_clean = col0_val.split(",")[0].strip()
             if col0_clean.upper() in ["FACTORY ROAD", "FACTORY-ROAD"]:
                 current_street = "Factory Road"
+                continue
+            if "BISHOPSGATE PAR" in col0_val.upper():
+                current_street = "Bishopsgate Parade"
                 continue
                 
             if len(row) == 1 or (len(row) > 1 and all(not val.strip() for val in row[1:]) and row[0].strip()):
