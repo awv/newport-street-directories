@@ -94,6 +94,7 @@ def merge_overrides(source_file):
                         st["audit"] = {}
                     st["audit"]["status"] = new_item["audit_status"]
                 if "former_names" in new_item: st["former_names"] = new_item["former_names"]
+                if "renamed_to" in new_item: st["renamed_to"] = new_item["renamed_to"]
                 if "sub_sections" in new_item: st["sub_sections"] = new_item["sub_sections"]
                 if "numbering_scheme" in new_item: st["numbering_scheme"] = new_item["numbering_scheme"]
                 if "district" in new_item: st["district"] = new_item["district"]

@@ -174,6 +174,7 @@ def main():
                 former_names.append(fn["name"])
             elif isinstance(fn, str) and fn.strip():
                 former_names.append(fn.strip())
+        renamed_to = m_info.get("renamed_to") or m_info.get("modern_name") or ""
         sub_sections = m_info.get("sub_sections", [])
         audit_status = m_info.get("audit_status") or m_info.get("audit", {}).get("status") or "UNVERIFIED"
         if audit_status == "VERIFIED":
@@ -193,6 +194,7 @@ def main():
             "longitude": content["longitude"],
             "hasContent": bool(content["description"] or content["images"]),
             "formerNames": former_names,
+            "renamedTo": renamed_to,
             "subSections": sub_sections,
             "auditStatus": audit_status,
             "isVerified": is_verified

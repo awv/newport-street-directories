@@ -717,17 +717,27 @@ let selectedIndex = -1;
       else if (firstYr <= 1939) eraText = `🌳 Interwar Garden Suburb / Municipal Estate (First recorded in ${firstYr} directory)`;
       else eraText = `🏗️ Post-War Development (First recorded in ${firstYr} directory)`;
 
-      // Render former names badge if recorded in street summary
+      // Render former names or modern renamed name badge if recorded in street summary
       const summary = streetData.summary || {};
       const formerNames = summary.formerNames || [];
-      const formerLinks = formerNames.map(fn => `<a href="#street=${encodeURIComponent(fn)}" style="color: var(--accent); text-decoration: underline; font-weight: 600;">${fn}</a>`).join(', ');
-      const formerHTML = formerNames.length > 0
-        ? `<div style="margin-top: 0.5rem; display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+      const renamedTo = summary.renamedTo || summary.modernName || '';
+      
+      let formerHTML = '';
+      if (renamedTo) {
+        formerHTML += `<div style="margin-top: 0.5rem; display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
             <span style="font-size: 0.85rem; color: var(--accent); background: rgba(200, 157, 84, 0.15); border: 1px solid var(--accent-muted); padding: 0.2rem 0.6rem; border-radius: 12px; font-weight: 500;">
-              📜 Formally recorded as: <strong>${formerLinks}</strong>
+              🔀 Renamed to: <a href="#street=${encodeURIComponent(renamedTo)}" style="color: var(--accent); text-decoration: underline; font-weight: 600;">${renamedTo}</a>
             </span>
-           </div>`
-        : '';
+           </div>`;
+      }
+      if (formerNames.length > 0) {
+        const formerLinks = formerNames.map(fn => `<a href="#street=${encodeURIComponent(fn)}" style="color: var(--accent); text-decoration: underline; font-weight: 600;">${fn}</a>`).join(', ');
+        formerHTML += `<div style="margin-top: 0.5rem; display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+            <span style="font-size: 0.85rem; color: var(--accent); background: rgba(200, 157, 84, 0.15); border: 1px solid var(--accent-muted); padding: 0.2rem 0.6rem; border-radius: 12px; font-weight: 500;">
+              📜 Formerly recorded as: <strong>${formerLinks}</strong>
+            </span>
+           </div>`;
+      }
 
       const isPureCrossRefStreet = streetRecords.length > 0 && streetRecords.every(r => r.surname && r.surname.toLowerCase().startsWith('see '));
       const crossRefRec = streetRecords.find(r => r.surname && r.surname.toLowerCase().startsWith('see '));
@@ -2028,6 +2038,7 @@ let selectedIndex = -1;
       if (initStatus === 'VERIFIED') initStatus = 'NAME_VERIFIED';
       document.getElementById('reg-status-select').value = initStatus;
       document.getElementById('reg-former-names').value = (entry.former_names || []).join(', ');
+      document.getElementById('reg-renamed-to').value = entry.renamed_to || entry.modern_name || '';
       document.getElementById('reg-sub-sections').value = (entry.sub_sections || []).join(', ');
       document.getElementById('reg-numbering-type').value = (entry.numbering_scheme && entry.numbering_scheme.type) ? entry.numbering_scheme.type : 'ODDS_EVENS';
       document.getElementById('reg-numbering-year').value = (entry.numbering_scheme && entry.numbering_scheme.approx_change_year) ? entry.numbering_scheme.approx_change_year : '';
@@ -2048,6 +2059,7 @@ let selectedIndex = -1;
       if (!currentEditingStreetSlug) return;
 
       const formerNamesRaw = document.getElementById('reg-former-names').value;
+      const renamedTo = document.getElementById('reg-renamed-to').value.trim();
       const subSectionsRaw = document.getElementById('reg-sub-sections').value;
 
       const former_names = formerNamesRaw.split(',').map(s => s.trim()).filter(Boolean);
@@ -2066,6 +2078,7 @@ let selectedIndex = -1;
         slug: currentEditingStreetSlug,
         audit_status: status,
         former_names: former_names,
+        renamed_to: renamedTo,
         sub_sections: sub_sections,
         numbering_scheme: {
           type: numberingType,
