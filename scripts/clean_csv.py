@@ -2666,6 +2666,34 @@ def main():
     if deduped_count > 0:
         print(f"Deduplicated {deduped_count} exact duplicate records.")
 
+    # Sub-terrace inheritance: propagate terrace section headers to downstream records without a building name
+    header_kw_re = re.compile(r'\b(?:TERRACE|VILLAS|COTTAGES|PLACE|PARADE|BUILDINGS|HOUSES|ROW)\b', re.I)
+    terrace_assigned_count = 0
+    # Group rows by (street, year) preserving original order
+    groups = defaultdict(list)
+    for r in rows:
+        groups[(r.get("street", "").strip().lower(), r.get("year", ""))].append(r)
+
+    for (st, yr), glist in groups.items():
+        active_terrace = ""
+        for r in glist:
+            sn = r.get("surname", "").strip()
+            fn = r.get("forename", "").strip()
+            tr = r.get("trade", "").strip()
+            bn = r.get("building_name", "").strip()
+            hn = r.get("house_number", "").strip()
+
+            is_header = bool(header_kw_re.search(sn)) and not fn and not tr and not (hn.isdigit() and len(hn) <= 3)
+            if is_header:
+                clean_name = sn.rstrip("—").rstrip("-").rstrip(".").strip()
+                active_terrace = clean_name
+            elif active_terrace and not bn and hn:
+                r["building_name"] = active_terrace
+                terrace_assigned_count += 1
+
+    if terrace_assigned_count > 0:
+        print(f"Propagated terrace building names to {terrace_assigned_count} records.")
+
     # 1. Group street names by lowercase value to resolve casing variations automatically
     street_casings = defaultdict(list)
     for row in rows:
