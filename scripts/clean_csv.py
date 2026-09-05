@@ -2665,13 +2665,15 @@ def main():
                         bn_low = cleaned.get("building_name", "").strip().lower()
                         hn_str = cleaned.get("house_number", "").strip()
                         # In 1903, house numbers are in surname (e.g. surname='3', forename='Singleton James') after Jeffreys-street header
+                        valid_bishopsgate_surnames = {"soffe", "hunt", "evans", "johnson", "edwards", "hicks", "vinnicomb", "clissett", "1", "2", "3", "4", "windsor", "hazell", "bristow", "grinter", "clarke", "ion", "parker", "snell", "stringer", "james", "curran", "pritchard"}
+                        valid_bishopsgate_forenames = {"john", "godfrey", "stephen", "george", "thomas", "alfred j", "kate", "lucy", "amy", "frank", "edwin", "benjamin", "morris", "jesse", "jas", "william", "mary", "margaret", "christopher"}
                         if (bn_low == "black horse" or 
                             "willis henry" in fn_low or "willis henry" in sn_low or
                             (cleaned.get("year") == "1903" and sn_low.isdigit() and int(sn_low) >= 3 and sn_low not in {"1", "2", "4"}) or
                             (cleaned.get("year") == "1902" and hn_str in {"74", "72", "68", "66", "64", "62", "60", "58", "56", "54", "52", "50", "48"}) or
                             (cleaned.get("year") == "1903" and hn_str in {"29", "35", "55", "57", "61", "63"}) or
                             hn_str in {"15 to 33", "37 to 41"} or
-                            (hn_str in {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"} and sn_low not in {"soffe", "hunt", "evans", "johnson", "edwards", "hicks", "vinnicomb", "clissett", "1", "2", "3", "4"} and fn_low not in {"john", "godfrey", "stephen", "george", "thomas", "alfred j", "kate", "lucy", "amy"})):
+                            (hn_str in {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"} and sn_low not in valid_bishopsgate_surnames and fn_low not in valid_bishopsgate_forenames)):
                             cleaned["street"] = "Jeffreys Street"
                         
                     # Clear building_name if it mistakenly repeats the street name
