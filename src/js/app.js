@@ -1989,7 +1989,7 @@ let selectedIndex = -1;
 
       let masterDict = {};
       try {
-        const resp = await fetch('master_streets.json');
+        const resp = await fetch(`master_streets.json?v=${Date.now()}`);
         if (resp.ok) {
           const data = await resp.json();
           masterDict = data.streets || {};
@@ -2006,12 +2006,13 @@ let selectedIndex = -1;
         numbering_scheme: { type: 'ODDS_EVENS', changed_from: '', approx_change_year: null, notes: '' },
         district: '',
         parish: '',
+        audit_status: 'UNVERIFIED',
         audit: { status: 'UNVERIFIED', notes: '' }
       };
 
       document.getElementById('reg-canonical-title').innerText = entry.canonical_name || targetStreet;
       document.getElementById('reg-slug-subtitle').innerText = `slug: ${slug}`;
-      let initStatus = (entry.audit && entry.audit.status) ? entry.audit.status : 'UNVERIFIED';
+      let initStatus = entry.audit_status || (entry.audit && entry.audit.status) || 'UNVERIFIED';
       if (initStatus === 'VERIFIED') initStatus = 'NAME_VERIFIED';
       document.getElementById('reg-status-select').value = initStatus;
       document.getElementById('reg-former-names').value = (entry.former_names || []).join(', ');
@@ -2022,7 +2023,7 @@ let selectedIndex = -1;
       document.getElementById('reg-parish').value = entry.parish || '';
       document.getElementById('reg-latitude').value = (entry.coordinates && entry.coordinates.lat) ? entry.coordinates.lat : '';
       document.getElementById('reg-longitude').value = (entry.coordinates && entry.coordinates.lng) ? entry.coordinates.lng : '';
-      document.getElementById('reg-notes').value = (entry.audit && entry.audit.notes) ? entry.audit.notes : '';
+      document.getElementById('reg-notes').value = entry.notes || (entry.audit && entry.audit.notes) || '';
 
       document.getElementById('master-registry-modal-overlay').classList.add('active');
     }
