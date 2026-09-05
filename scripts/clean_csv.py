@@ -2630,6 +2630,25 @@ def main():
                                 skipped_count += 1
                                 continue
                         
+                    # Filter out raw cross-street header rows (e.g. Jeffreys-street)
+                    sn_raw = cleaned.get("surname", "").strip()
+                    if sn_raw.lower() in {"jeffreys-street", "jeffreys street"} and not cleaned.get("forename", "").strip() and not cleaned.get("trade", "").strip():
+                        skipped_count += 1
+                        continue
+
+                    # Clean 1903 Bishopgate Parade format where house numbers are in surname (e.g. surname='1', forename='James John')
+                    if (cleaned.get("year") == "1903" and 
+                        st_lower in {"bishopsgate parade", "bishopgate parade"} and 
+                        sn_raw in {"1", "2", "3", "4", "4A"}):
+                        cleaned["house_number"] = sn_raw
+                        parts = cleaned.get("forename", "").strip().split(maxsplit=1)
+                        if len(parts) == 2:
+                            cleaned["surname"] = parts[0]
+                            cleaned["forename"] = parts[1]
+                        elif len(parts) == 1:
+                            cleaned["surname"] = parts[0]
+                            cleaned["forename"] = ""
+
                     # Re-assign Jeffreys Street section header drift from Bishopsgate Parade
                     if st_lower in {"bishopsgate parade", "bishopgate parade"}:
                         sn_low = cleaned.get("surname", "").strip().lower()
