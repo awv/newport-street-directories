@@ -1150,13 +1150,15 @@ def clean_record(row):
                         surname = full_name
                         forename = ""
                         
-        # Post-processing name split if surname contains space (e.g. "Phillips Bernard")
-        # but house_num is correctly set.
-        if house_num and surname and not forename:
-            name_parts = surname.strip().split()
-            if len(name_parts) >= 2 and not name_parts[0].isdigit():
-                surname = name_parts[0]
-                forename = " ".join(name_parts[1:])
+        # Post-processing name split if surname contains space (e.g. "Windsor John", "Ion Thomas")
+        if house_num and surname:
+            if not forename or forename.lower() in {"labourer", "labr", "stevedore", "platelayer", "mason", "ostler", "waterman", "engine driver", "musician"}:
+                if forename and not trade:
+                    trade = forename
+                name_parts = surname.strip().split(maxsplit=1)
+                if len(name_parts) == 2 and not name_parts[0].isdigit():
+                    surname = name_parts[0]
+                    forename = name_parts[1]
 
     # Realign specific scrambled Baneswell Road entries
     if street.lower().strip() == "baneswell road":
@@ -2630,12 +2632,16 @@ def main():
                                 skipped_count += 1
                                 continue
                         
-                    # Filter out 1893 & 1899 OCR advertisement/fragment junk for Bishopgate Parade
+                    # Filter out 1893 & 1899 OCR advertisement/fragment junk and 1882 two-column drift for Bishopsgate Parade
                     if st_lower in {"bishopsgate parade", "bishopgate parade"}:
                         # Unify all historical Bishopgate Parade records to Bishopsgate Parade
                         cleaned["street"] = "Bishopsgate Parade"
                         sn_raw = cleaned.get("surname", "").strip()
+                        fn_raw = cleaned.get("forename", "").strip()
                         if "TRAPNELL" in sn_raw.upper() or "CROSSWELL" in sn_raw.upper() or sn_raw.upper() == "BLE":
+                            skipped_count += 1
+                            continue
+                        if cleaned.get("year") == "1882" and ("COMOBS" in sn_raw.upper() or "COMOBS" in fn_raw.upper() or fn_raw == "51"):
                             skipped_count += 1
                             continue
 
@@ -2648,34 +2654,33 @@ def main():
                     # Clean 1903 Bishopgate Parade format where house numbers are in surname (e.g. surname='1', forename='James John')
                     if (cleaned.get("year") == "1903" and 
                         st_lower in {"bishopsgate parade", "bishopgate parade"} and 
-                        sn_raw in {"1", "2", "3", "4", "4A"}):
-                        cleaned["house_number"] = sn_raw
-                        parts = cleaned.get("forename", "").strip().split(maxsplit=1)
-                        if len(parts) == 2:
-                            cleaned["surname"] = parts[0]
-                            cleaned["forename"] = parts[1]
-                        elif len(parts) == 1:
-                            cleaned["surname"] = parts[0]
+                        sn_raw in {"1", "2", "3", "4", "4A", "5", "7"}):
+                        if sn_raw == "7":
+                            cleaned["street"] = "Bishton Street"
+                            cleaned["house_number"] = "7"
+                            cleaned["surname"] = "Hart"
+                            cleaned["forename"] = "James"
+                            cleaned["trade"] = "labourer"
+                        elif sn_raw == "3":
+                            cleaned["house_number"] = "3"
+                            cleaned["surname"] = "Craddock"
+                            cleaned["forename"] = "J."
+                            cleaned["trade"] = "labourer"
+                        elif sn_raw == "5":
+                            cleaned["house_number"] = "5"
+                            cleaned["surname"] = "Void"
                             cleaned["forename"] = ""
+                            cleaned["trade"] = ""
+                        else:
+                            cleaned["house_number"] = sn_raw
+                            parts = cleaned.get("forename", "").strip().split(maxsplit=1)
+                            if len(parts) == 2:
+                                cleaned["surname"] = parts[0]
+                                cleaned["forename"] = parts[1]
+                            elif len(parts) == 1:
+                                cleaned["surname"] = parts[0]
+                                cleaned["forename"] = ""
 
-                    # Re-assign Jeffreys Street section header drift from Bishopsgate Parade
-                    if st_lower in {"bishopsgate parade", "bishopgate parade"}:
-                        sn_low = cleaned.get("surname", "").strip().lower()
-                        fn_low = cleaned.get("forename", "").strip().lower()
-                        bn_low = cleaned.get("building_name", "").strip().lower()
-                        hn_str = cleaned.get("house_number", "").strip()
-                        # In 1903, house numbers are in surname (e.g. surname='3', forename='Singleton James') after Jeffreys-street header
-                        valid_bishopsgate_surnames = {"soffe", "hunt", "evans", "johnson", "edwards", "hicks", "vinnicomb", "clissett", "1", "2", "3", "4", "windsor", "hazell", "bristow", "grinter", "clarke", "ion", "parker", "snell", "stringer", "james", "curran", "pritchard"}
-                        valid_bishopsgate_forenames = {"john", "godfrey", "stephen", "george", "thomas", "alfred j", "kate", "lucy", "amy", "frank", "edwin", "benjamin", "morris", "jesse", "jas", "william", "mary", "margaret", "christopher"}
-                        if (bn_low == "black horse" or 
-                            "willis henry" in fn_low or "willis henry" in sn_low or
-                            (cleaned.get("year") == "1903" and sn_low.isdigit() and int(sn_low) >= 3 and sn_low not in {"1", "2", "4"}) or
-                            (cleaned.get("year") == "1902" and hn_str in {"74", "72", "68", "66", "64", "62", "60", "58", "56", "54", "52", "50", "48"}) or
-                            (cleaned.get("year") == "1903" and hn_str in {"29", "35", "55", "57", "61", "63"}) or
-                            hn_str in {"15 to 33", "37 to 41"} or
-                            (hn_str in {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"} and sn_low not in valid_bishopsgate_surnames and fn_low not in valid_bishopsgate_forenames)):
-                            cleaned["street"] = "Jeffreys Street"
-                        
                     # Clear building_name if it mistakenly repeats the street name
                     bldg_val = cleaned.get("building_name", "").strip()
                     if bldg_val and st_lower:

@@ -2321,6 +2321,186 @@
         "trade": "stevedore",
         "source_type": "Primary"
       }
+    },
+    {
+      "reason": "Bishopsgate Parade 1920: Add verified #1 John Windsor (labourer)",
+      "match": {
+        "street": "Bishopsgate Parade",
+        "year": "1920"
+      },
+      "apply": {
+        "house_number": "1",
+        "building_name": "",
+        "surname": "Windsor",
+        "forename": "John",
+        "trade": "labourer",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Bishopsgate Parade 1920: Add verified #3 Stephen Bristow (labourer)",
+      "match": {
+        "street": "Bishopsgate Parade",
+        "year": "1920"
+      },
+      "apply": {
+        "house_number": "3",
+        "building_name": "",
+        "surname": "Bristow",
+        "forename": "Stephen",
+        "trade": "labourer",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Bishopsgate Parade 1920: Add verified #5 Mrs. Amy Clarke",
+      "match": {
+        "street": "Bishopsgate Parade",
+        "year": "1920"
+      },
+      "apply": {
+        "house_number": "5",
+        "building_name": "",
+        "surname": "Clarke",
+        "forename": "Mrs. Amy",
+        "trade": "",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Bishopsgate Parade 1920: Add verified #6 Thomas Ion (stevedore)",
+      "match": {
+        "street": "Bishopsgate Parade",
+        "year": "1920"
+      },
+      "apply": {
+        "house_number": "6",
+        "building_name": "",
+        "surname": "Ion",
+        "forename": "Thomas",
+        "trade": "stevedore",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Bishopsgate Parade 1925: Add verified #1 Alfred J. Windsor (labourer)",
+      "match": {
+        "street": "Bishopsgate Parade",
+        "year": "1925"
+      },
+      "apply": {
+        "house_number": "1",
+        "building_name": "",
+        "surname": "Windsor",
+        "forename": "Alfred J.",
+        "trade": "labourer",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Bishopsgate Parade 1925: Add verified #3 Mrs. Kate Bristow",
+      "match": {
+        "street": "Bishopsgate Parade",
+        "year": "1925"
+      },
+      "apply": {
+        "house_number": "3",
+        "building_name": "",
+        "surname": "Bristow",
+        "forename": "Mrs. Kate",
+        "trade": "",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Bishopsgate Parade 1925: Add verified #4 Mrs. Lucy Grinter",
+      "match": {
+        "street": "Bishopsgate Parade",
+        "year": "1925"
+      },
+      "apply": {
+        "house_number": "4",
+        "building_name": "",
+        "surname": "Grinter",
+        "forename": "Mrs. Lucy",
+        "trade": "",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Bishopsgate Parade 1925: Add verified #5 Mrs. Amy Clarke",
+      "match": {
+        "street": "Bishopsgate Parade",
+        "year": "1925"
+      },
+      "apply": {
+        "house_number": "5",
+        "building_name": "",
+        "surname": "Clarke",
+        "forename": "Mrs. Amy",
+        "trade": "",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Bishopsgate Parade 1920: Add verified #2 Godfrey Hazell",
+      "match": {
+        "street": "Bishopsgate Parade",
+        "year": "1920"
+      },
+      "apply": {
+        "house_number": "2",
+        "building_name": "",
+        "surname": "Hazell",
+        "forename": "Godfrey",
+        "trade": "",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Bishopsgate Parade 1920: Add verified #4 George Grinter",
+      "match": {
+        "street": "Bishopsgate Parade",
+        "year": "1920"
+      },
+      "apply": {
+        "house_number": "4",
+        "building_name": "",
+        "surname": "Grinter",
+        "forename": "George",
+        "trade": "",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Bishopsgate Parade 1925: Add verified #2 Godfrey Hazell",
+      "match": {
+        "street": "Bishopsgate Parade",
+        "year": "1925"
+      },
+      "apply": {
+        "house_number": "2",
+        "building_name": "",
+        "surname": "Hazell",
+        "forename": "Godfrey",
+        "trade": "",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Bishopsgate Parade 1925: Add verified #6 Thomas Ion (stevedore)",
+      "match": {
+        "street": "Bishopsgate Parade",
+        "year": "1925"
+      },
+      "apply": {
+        "house_number": "6",
+        "building_name": "",
+        "surname": "Ion",
+        "forename": "Thomas",
+        "trade": "stevedore",
+        "source_type": "Primary"
+      }
     }
   ]
 }
