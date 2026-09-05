@@ -2632,6 +2632,8 @@ def main():
                         
                     # Filter out 1893 & 1899 OCR advertisement/fragment junk for Bishopgate Parade
                     if st_lower in {"bishopsgate parade", "bishopgate parade"}:
+                        # Unify all historical Bishopgate Parade records to Bishopsgate Parade
+                        cleaned["street"] = "Bishopsgate Parade"
                         sn_raw = cleaned.get("surname", "").strip()
                         if "TRAPNELL" in sn_raw.upper() or "CROSSWELL" in sn_raw.upper() or sn_raw.upper() == "BLE":
                             skipped_count += 1
