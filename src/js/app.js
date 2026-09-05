@@ -2236,7 +2236,7 @@ let selectedIndex = -1;
 
       // Save on Enter key inside active editor modals
       if (e.key === 'Enter' && !e.shiftKey) {
-        const propModal = document.getElementById('editor-modal-overlay');
+        const propModal = document.getElementById('editor-modal-backdrop');
         const regModal = document.getElementById('master-registry-modal-overlay');
         
         if (propModal && propModal.classList.contains('active')) {
