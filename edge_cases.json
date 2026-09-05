@@ -460,12 +460,12 @@
       "match": {
         "street": "High Street",
         "year": "1927",
-        "surname_contains": "Gale’s"
+        "surname_contains": "Gale\u2019s"
       },
       "apply": {
         "house_number": "19",
         "building_name": "",
-        "surname": "Gale’s Refreshment Rooms",
+        "surname": "Gale\u2019s Refreshment Rooms",
         "forename": "",
         "trade": "Refreshment Rooms"
       }
@@ -2025,7 +2025,7 @@
         "house_number": "20",
         "building_name": "",
         "surname": "Duggan",
-        "forename": "Noël",
+        "forename": "No\u00ebl",
         "trade": "",
         "source_type": "Primary"
       }
@@ -3060,6 +3060,22 @@
         "building_name": "",
         "surname": "Verrinder",
         "forename": "John",
+        "trade": "",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Chepstow Road 1898: Fix garbled name Perry E., 2 Eastgate Villas to E. Perry at 2 Eastgate Villas",
+      "match": {
+        "street": "Chepstow road",
+        "year": "1898",
+        "surname_contains": "E., 2"
+      },
+      "apply": {
+        "house_number": "1",
+        "building_name": "2 Eastgate Villas",
+        "surname": "Perry",
+        "forename": "E.",
         "trade": "",
         "source_type": "Primary"
       }
