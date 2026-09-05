@@ -178,7 +178,10 @@ def parse_tsv(input_path, output_path):
                 "FAI": "FAIROAK TERRACE",
             }
             col0_upper = col0.upper().strip()
-            if col0 and is_valid_street_name(col0):
+            if "BISHOPGATE PAR" in col0_upper or "BISHOPSGATE PAR" in col0_upper:
+                is_street = True
+                matched_street_name = "Bishopsgate Parade"
+            elif col0 and is_valid_street_name(col0):
                 is_street = True
                 matched_street_name = col0
             elif col0_upper in page_abbrev_map:
