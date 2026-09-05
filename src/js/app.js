@@ -1815,6 +1815,7 @@ let selectedIndex = -1;
 
       // Check if an override for this exact record already exists in active session
       const existingIdx = sessionOverrides.findIndex(ov => 
+        ov.match &&
         ov.match.street === overrideObj.match.street &&
         ov.match.year === overrideObj.match.year &&
         (
