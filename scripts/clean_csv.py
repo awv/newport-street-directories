@@ -2630,6 +2630,13 @@ def main():
                                 skipped_count += 1
                                 continue
                         
+                    # Filter out 1893 & 1899 OCR advertisement/fragment junk for Bishopgate Parade
+                    if st_lower in {"bishopsgate parade", "bishopgate parade"}:
+                        sn_raw = cleaned.get("surname", "").strip()
+                        if "TRAPNELL" in sn_raw.upper() or "CROSSWELL" in sn_raw.upper() or sn_raw.upper() == "BLE":
+                            skipped_count += 1
+                            continue
+
                     # Filter out raw cross-street header rows (e.g. Jeffreys-street)
                     sn_raw = cleaned.get("surname", "").strip()
                     if sn_raw.lower() in {"jeffreys-street", "jeffreys street"} and not cleaned.get("forename", "").strip() and not cleaned.get("trade", "").strip():
