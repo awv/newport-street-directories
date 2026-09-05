@@ -720,10 +720,11 @@ let selectedIndex = -1;
       // Render former names badge if recorded in street summary
       const summary = streetData.summary || {};
       const formerNames = summary.formerNames || [];
+      const formerLinks = formerNames.map(fn => `<a href="#street=${encodeURIComponent(fn)}" style="color: var(--accent); text-decoration: underline; font-weight: 600;">${fn}</a>`).join(', ');
       const formerHTML = formerNames.length > 0
         ? `<div style="margin-top: 0.5rem; display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
             <span style="font-size: 0.85rem; color: var(--accent); background: rgba(200, 157, 84, 0.15); border: 1px solid var(--accent-muted); padding: 0.2rem 0.6rem; border-radius: 12px; font-weight: 500;">
-              📜 Formally recorded as: <strong>${formerNames.join(', ')}</strong>
+              📜 Formally recorded as: <strong>${formerLinks}</strong>
             </span>
            </div>`
         : '';
