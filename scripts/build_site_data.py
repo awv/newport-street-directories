@@ -167,7 +167,13 @@ def main():
 
         # Attach master_streets.json metadata (former names, sub-sections, audit status, verification lock)
         m_info = MASTER_STREETS.get(slug, {})
-        former_names = [f.get("name") for f in m_info.get("former_names", []) if f.get("name")]
+        raw_former = m_info.get("former_names", [])
+        former_names = []
+        for fn in raw_former:
+            if isinstance(fn, dict) and fn.get("name"):
+                former_names.append(fn["name"])
+            elif isinstance(fn, str) and fn.strip():
+                former_names.append(fn.strip())
         sub_sections = m_info.get("sub_sections", [])
         audit_status = m_info.get("audit_status") or m_info.get("audit", {}).get("status") or "UNVERIFIED"
         if audit_status == "VERIFIED":
