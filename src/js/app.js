@@ -2073,7 +2073,6 @@ let selectedIndex = -1;
       updateOverrideDrawer();
       closeMasterRegistryModal();
 
-      alert(`✅ Master Registry settings for ${currentEditingStreetSlug} saved to session queue (${status})!`);
       renderStreetsView();
     }
 
