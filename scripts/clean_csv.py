@@ -29,7 +29,8 @@ if os.path.exists(MASTER_STREETS_FILE):
             m_data = json.load(mf).get("streets", {})
             MASTER_STREETS = m_data
             for slug, info in m_data.items():
-                if info.get("audit", {}).get("status") == "VERIFIED":
+                status = info.get("audit_status") or info.get("audit", {}).get("status")
+                if status in ["VERIFIED", "NAME_VERIFIED", "FULLY_ENRICHED"]:
                     LOCKED_SLUGS.add(slug)
             print(f"Loaded {len(MASTER_STREETS)} master streets ({len(LOCKED_SLUGS)} verified & locked).")
         except Exception as e:

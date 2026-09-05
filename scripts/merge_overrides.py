@@ -88,7 +88,11 @@ def merge_overrides(source_file):
                         break
             if slug_key:
                 st = master_streets_data["streets"][slug_key]
-                if "audit_status" in new_item: st["audit_status"] = new_item["audit_status"]
+                if "audit_status" in new_item:
+                    st["audit_status"] = new_item["audit_status"]
+                    if "audit" not in st or not isinstance(st["audit"], dict):
+                        st["audit"] = {}
+                    st["audit"]["status"] = new_item["audit_status"]
                 if "former_names" in new_item: st["former_names"] = new_item["former_names"]
                 if "sub_sections" in new_item: st["sub_sections"] = new_item["sub_sections"]
                 if "numbering_scheme" in new_item: st["numbering_scheme"] = new_item["numbering_scheme"]

@@ -10,14 +10,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -26,7 +24,8 @@
         "lat": null,
         "lng": null
       },
-      "audit_status": "NAME_VERIFIED"
+      "audit_status": "NAME_VERIFIED",
+      "notes": ""
     },
     "acacia-terrace": {
       "canonical_name": "Acacia Terrace",
@@ -89,14 +88,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -105,7 +102,8 @@
         "lat": null,
         "lng": null
       },
-      "audit_status": "NAME_VERIFIED"
+      "audit_status": "NAME_VERIFIED",
+      "notes": ""
     },
     "adeline-street": {
       "canonical_name": "Adeline Street",
@@ -116,14 +114,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -132,7 +128,8 @@
         "lat": null,
         "lng": null
       },
-      "audit_status": "NAME_VERIFIED"
+      "audit_status": "NAME_VERIFIED",
+      "notes": ""
     },
     "agincourt-street": {
       "canonical_name": "Agincourt Street",
@@ -221,14 +218,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -237,7 +232,8 @@
         "lat": null,
         "lng": null
       },
-      "audit_status": "NAME_VERIFIED"
+      "audit_status": "NAME_VERIFIED",
+      "notes": ""
     },
     "albany-terrace": {
       "canonical_name": "Albany Terrace",
@@ -274,14 +270,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -290,7 +284,8 @@
         "lat": null,
         "lng": null
       },
-      "audit_status": "NAME_VERIFIED"
+      "audit_status": "NAME_VERIFIED",
+      "notes": ""
     },
     "albert-place": {
       "canonical_name": "Albert Place",
@@ -405,9 +400,7 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
@@ -420,7 +413,9 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "notes": ""
     },
     "alexandra-docks": {
       "canonical_name": "Alexandra Docks",
@@ -1529,14 +1524,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -1545,7 +1538,8 @@
         "lat": null,
         "lng": null
       },
-      "audit_status": "NAME_VERIFIED"
+      "audit_status": "NAME_VERIFIED",
+      "notes": ""
     },
     "barrack-lane": {
       "canonical_name": "Barrack Lane",
@@ -1764,14 +1758,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -1780,7 +1772,8 @@
         "lat": null,
         "lng": null
       },
-      "audit_status": "NAME_VERIFIED"
+      "audit_status": "NAME_VERIFIED",
+      "notes": ""
     },
     "belle-vue-lane": {
       "canonical_name": "Belle Vue Lane",
@@ -2207,9 +2200,7 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
@@ -2222,7 +2213,9 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "notes": ""
     },
     "bolton-place": {
       "canonical_name": "Bolton Place",
@@ -8343,9 +8336,7 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
@@ -8358,7 +8349,9 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "notes": ""
     },
     "ford-street-b": {
       "canonical_name": "Ford Street, B",
@@ -9097,9 +9090,7 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
@@ -9112,7 +9103,9 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "notes": ""
     },
     "glass-works-cottages": {
       "canonical_name": "Glass Works Cottages",
@@ -9435,9 +9428,7 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
@@ -9450,7 +9441,9 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "notes": ""
     },
     "goodrich-crescent": {
       "canonical_name": "Goodrich Crescent",
@@ -9747,9 +9740,7 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
@@ -9762,7 +9753,9 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "notes": ""
     },
     "griffiths-street": {
       "canonical_name": "Griffiths Street",
@@ -10657,9 +10650,7 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
@@ -10672,7 +10663,9 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "notes": ""
     },
     "hoskin-street": {
       "canonical_name": "Hoskin Street",
@@ -11255,9 +11248,7 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
@@ -11270,7 +11261,9 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "notes": ""
     },
     "katherine-street": {
       "canonical_name": "Katherine Street",
@@ -19893,9 +19886,7 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
@@ -19908,7 +19899,9 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "notes": ""
     },
     "summer-hill-av": {
       "canonical_name": "Summer Hill Av",
@@ -19967,13 +19960,13 @@
       "slug": "summer-hill-road",
       "district": "",
       "parish": "",
-      "former_names": [],
+      "former_names": [
+        "Summer Hill"
+      ],
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
@@ -19986,7 +19979,9 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "notes": ""
     },
     "summer-hill-villas": {
       "canonical_name": "Summer Hill Villas",
@@ -21245,9 +21240,7 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
@@ -21260,7 +21253,9 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "notes": ""
     },
     "usk-street": {
       "canonical_name": "Usk Street",
@@ -21349,9 +21344,7 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
@@ -21364,7 +21357,9 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "notes": ""
     },
     "victoria-avenue": {
       "canonical_name": "Victoria Avenue",
@@ -21505,9 +21500,7 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
@@ -21520,7 +21513,9 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "notes": ""
     },
     "victoria-road": {
       "canonical_name": "Victoria Road",
@@ -21661,9 +21656,7 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
@@ -21676,7 +21669,9 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "notes": ""
     },
     "walford-street": {
       "canonical_name": "Walford Street",
@@ -21687,9 +21682,7 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
@@ -21702,7 +21695,9 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "notes": ""
     },
     "walis-street": {
       "canonical_name": "Walis Street",
@@ -22103,9 +22098,7 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
@@ -22118,7 +22111,9 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "notes": ""
     },
     "wesley-place": {
       "canonical_name": "Wesley Place",
@@ -22259,9 +22254,7 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
@@ -22274,7 +22267,9 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "notes": ""
     },
     "westfield": {
       "canonical_name": "Westfield",
@@ -22467,9 +22462,7 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
@@ -22482,7 +22475,9 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "notes": ""
     },
     "whitby-place": {
       "canonical_name": "Whitby Place",
@@ -23325,9 +23320,7 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
@@ -23340,7 +23333,9 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "notes": ""
     },
     "wyndham-terrace": {
       "canonical_name": "Wyndham Terrace",
@@ -23403,9 +23398,7 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
@@ -23418,7 +23411,9 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "notes": ""
     },
     "york-road": {
       "canonical_name": "York Road",
@@ -23429,9 +23424,7 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
@@ -23444,7 +23437,9 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "notes": ""
     }
   }
 }
