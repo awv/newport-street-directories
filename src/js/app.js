@@ -2233,6 +2233,20 @@ let selectedIndex = -1;
         e.preventDefault();
         toggleEditorMode();
       }
+
+      // Save on Enter key inside active editor modals
+      if (e.key === 'Enter' && !e.shiftKey) {
+        const propModal = document.getElementById('editor-modal-overlay');
+        const regModal = document.getElementById('master-registry-modal-overlay');
+        
+        if (propModal && propModal.classList.contains('active')) {
+          e.preventDefault();
+          saveRecordCorrection();
+        } else if (regModal && regModal.classList.contains('active')) {
+          e.preventDefault();
+          saveMasterRegistryEntry();
+        }
+      }
     });
 
     window.addEventListener('hashchange', navigate);
