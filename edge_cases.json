@@ -2025,6 +2025,122 @@
       "apply": {
         "street": "Jeffreys Street"
       }
+    },
+    {
+      "reason": "Bishopgate Parade 1876: Assign Edwin James to House 1",
+      "match": {
+        "street": "Bishopgate Parade",
+        "year": "1876",
+        "surname": "James"
+      },
+      "apply": {
+        "house_number": "1",
+        "surname": "James",
+        "forename": "Edwin",
+        "trade": "Coal Merchant"
+      }
+    },
+    {
+      "reason": "Bishopgate Parade 1878: Assign Edwin James to House 1",
+      "match": {
+        "street": "Bishopgate Parade",
+        "year": "1878",
+        "surname": "James"
+      },
+      "apply": {
+        "house_number": "1",
+        "surname": "James",
+        "forename": "Edwin",
+        "trade": "Coal Merchant"
+      }
+    },
+    {
+      "reason": "Bishopgate Parade 1893: Fix Boulton C to House 1 Spirit Merchant",
+      "match": {
+        "street": "Bishopgate Parade",
+        "year": "1893",
+        "house_number": "Boulton"
+      },
+      "apply": {
+        "house_number": "1",
+        "surname": "Boulton",
+        "forename": "C. A.",
+        "trade": "Spirit Merchant"
+      }
+    },
+    {
+      "reason": "Bishopgate Parade 1893: Fix Philpin Jos to House 2 Fireman",
+      "match": {
+        "street": "Bishopgate Parade",
+        "year": "1893",
+        "house_number": "Philpin"
+      },
+      "apply": {
+        "house_number": "2",
+        "surname": "Philpin",
+        "forename": "Joseph",
+        "trade": "Fireman"
+      }
+    },
+    {
+      "reason": "Bishopgate Parade 1893: Fix Pritchard Stephen to House 3 Labourer",
+      "match": {
+        "street": "Bishopgate Parade",
+        "year": "1893",
+        "house_number": "Pritchard"
+      },
+      "apply": {
+        "house_number": "3",
+        "surname": "Pritchard",
+        "forename": "Stephen",
+        "trade": "Labourer"
+      }
+    },
+    {
+      "reason": "Bishopgate Parade 1893: Fix Trickey Robt to House 4 Moulder",
+      "match": {
+        "street": "Bishopgate Parade",
+        "year": "1893",
+        "house_number": "Trickey"
+      },
+      "apply": {
+        "house_number": "4",
+        "surname": "Trickey",
+        "forename": "Robert",
+        "trade": "Moulder"
+      }
+    },
+    {
+      "reason": "Bishopgate Parade 1899: Clean unnumbered Mrs Esther Jones",
+      "match": {
+        "street": "Bishopgate Parade",
+        "year": "1899",
+        "surname": "Jones",
+        "forename": "Mrs Esther"
+      },
+      "apply": {
+        "house_number": "Unnumbered",
+        "building_name": "",
+        "surname": "Jones",
+        "forename": "Mrs Esther",
+        "trade": ""
+      }
+    },
+    {
+      "reason": "Bishopgate Parade 1899: Clean unnumbered Mrs Thomas",
+      "match": {
+        "street": "Bishopgate Parade",
+        "year": "1899",
+        "surname": "Thomas",
+        "forename": "Mrs"
+      },
+      "apply": {
+        "house_number": "Unnumbered",
+        "building_name": "",
+        "surname": "Thomas",
+        "forename": "Mrs",
+        "trade": ""
+      }
     }
   ]
 }
