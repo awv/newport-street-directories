@@ -2651,6 +2651,21 @@ def main():
 
                     rows.append(cleaned)
 
+    # Global deduplication: remove exact identical duplicate rows
+    unique_rows = []
+    seen_keys = set()
+    deduped_count = 0
+    for r in rows:
+        key = (r.get("year", ""), r.get("street", ""), r.get("house_number", ""), r.get("building_name", ""), r.get("surname", ""), r.get("forename", ""), r.get("trade", ""), r.get("source_type", ""))
+        if key in seen_keys:
+            deduped_count += 1
+        else:
+            seen_keys.add(key)
+            unique_rows.append(r)
+    rows = unique_rows
+    if deduped_count > 0:
+        print(f"Deduplicated {deduped_count} exact duplicate records.")
+
     # 1. Group street names by lowercase value to resolve casing variations automatically
     street_casings = defaultdict(list)
     for row in rows:

@@ -140,14 +140,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -155,7 +153,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "ailesbury-street": {
       "canonical_name": "Ailesbury Street",
@@ -510,14 +511,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -525,7 +524,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "all-saints-road": {
       "canonical_name": "All Saints' Road",
@@ -588,14 +590,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -603,7 +603,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "allt-yr-yn-hospital": {
       "canonical_name": "Allt-yr-yn Hospital",
@@ -640,14 +643,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -655,7 +656,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "alma-street": {
       "canonical_name": "Alma Street",
@@ -718,14 +722,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -733,7 +735,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "aragon-street": {
       "canonical_name": "Aragon Street",
@@ -926,14 +931,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -941,7 +944,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "argyle-street": {
       "canonical_name": "Argyle Street",
@@ -952,14 +958,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -967,7 +971,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "arlington-street": {
       "canonical_name": "Arlington Street",
@@ -1082,14 +1089,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -1097,7 +1102,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "ashley-road": {
       "canonical_name": "Ashley Road",
@@ -1134,14 +1142,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -1149,7 +1155,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "austin-friars": {
       "canonical_name": "Austin Friars",
@@ -19891,7 +19900,7 @@
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -19901,7 +19910,8 @@
         "lng": null
       },
       "audit_status": "NAME_VERIFIED",
-      "notes": ""
+      "notes": "",
+      "renamed_to": "Summer Hill Road"
     },
     "summer-hill-av": {
       "canonical_name": "Summer Hill Av",
@@ -19971,7 +19981,7 @@
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -20694,14 +20704,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -20709,7 +20717,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "tredegar-street-p": {
       "canonical_name": "Tredegar Street, P",
@@ -21370,14 +21381,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -21385,7 +21394,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "victoria-chambers": {
       "canonical_name": "Victoria Chambers",
@@ -21422,14 +21434,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -21437,7 +21447,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "victoria-hall": {
       "canonical_name": "Victoria Hall",
@@ -21812,14 +21825,12 @@
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
-        "changed_from": "",
-        "approx_change_year": null,
-        "notes": ""
+        "approx_change_year": null
       },
       "cross_streets": [],
       "aliases": [],
       "audit": {
-        "status": "UNVERIFIED",
+        "status": "NAME_VERIFIED",
         "verified_by": "",
         "verified_date": "",
         "notes": ""
@@ -21827,7 +21838,10 @@
       "coordinates": {
         "lat": null,
         "lng": null
-      }
+      },
+      "audit_status": "NAME_VERIFIED",
+      "renamed_to": "",
+      "notes": ""
     },
     "walmer-street": {
       "canonical_name": "Walmer Street",

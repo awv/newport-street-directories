@@ -2583,6 +2583,486 @@
         "trade": "",
         "source_type": "Primary"
       }
+    },
+    {
+      "reason": "Exeter Street: Standardized record formatting for house 3",
+      "match": {
+        "street": "Exeter Street",
+        "year": "1910",
+        "surname_contains": "Wright"
+      },
+      "apply": {
+        "house_number": "3",
+        "building_name": "Porth House",
+        "surname": "Wright",
+        "forename": "William. H",
+        "trade": "",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Exeter Street: Standardized record formatting for house 1",
+      "match": {
+        "street": "Exeter Street",
+        "year": "1910",
+        "surname_contains": "Bowen"
+      },
+      "apply": {
+        "house_number": "1",
+        "building_name": "Wyndcliffe House",
+        "surname": "Bowen",
+        "forename": "E",
+        "trade": "",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Exeter Street: Standardized record formatting for house 1",
+      "match": {
+        "street": "Exeter Street",
+        "year": "1913",
+        "surname_contains": "Bowen"
+      },
+      "apply": {
+        "house_number": "1",
+        "building_name": "Wyndcliffe House",
+        "surname": "Bowen",
+        "forename": "Edgar",
+        "trade": "timekeeper",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Exeter Street: Standardized record formatting for house 1",
+      "match": {
+        "street": "Exeter Street",
+        "year": "1920",
+        "surname_contains": "Boke"
+      },
+      "apply": {
+        "house_number": "1",
+        "building_name": "Wyndcliffe House",
+        "surname": "Boke",
+        "forename": "Frederick",
+        "trade": "plumber",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Exeter Street: Standardized record formatting for house 9",
+      "match": {
+        "street": "Exeter Street",
+        "year": "1910",
+        "surname_contains": "Morgan"
+      },
+      "apply": {
+        "house_number": "9",
+        "building_name": "Exeter House",
+        "surname": "Morgan",
+        "forename": "Hy",
+        "trade": "",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Exeter Street: Standardized record formatting for house 11",
+      "match": {
+        "street": "Exeter Street",
+        "year": "1913",
+        "surname_contains": "Acteson"
+      },
+      "apply": {
+        "house_number": "11",
+        "building_name": "",
+        "surname": "Acteson",
+        "forename": "Mrs. Emma",
+        "trade": "",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Exeter Street: Standardized record formatting for house 10",
+      "match": {
+        "street": "Exeter Street",
+        "year": "1920",
+        "surname_contains": "Williams"
+      },
+      "apply": {
+        "house_number": "10",
+        "building_name": "",
+        "surname": "Williams",
+        "forename": "Hopton",
+        "trade": "Foreman G.W.R",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Exeter Street: Standardized record formatting for house 10",
+      "match": {
+        "street": "Exeter Street",
+        "year": "1913",
+        "surname_contains": "Williams"
+      },
+      "apply": {
+        "house_number": "10",
+        "building_name": "",
+        "surname": "Williams",
+        "forename": "Hopton",
+        "trade": "Foreman G.W.R",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Aberthaw Road: Standardized record formatting for house 1",
+      "match": {
+        "street": "Aberthaw Road",
+        "year": "1902",
+        "surname_contains": "Griffith"
+      },
+      "apply": {
+        "house_number": "1",
+        "building_name": "",
+        "surname": "Griffiths",
+        "forename": "Morgan H",
+        "trade": "Pilot",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Aberthaw Road: Standardized record formatting for house 2",
+      "match": {
+        "street": "Aberthaw Road",
+        "year": "1920",
+        "surname_contains": "Woodridg"
+      },
+      "apply": {
+        "house_number": "2",
+        "building_name": "",
+        "surname": "Woodridge",
+        "forename": "Albert William",
+        "trade": "Groundsman",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Aberthaw Road: Standardized record formatting for house 4",
+      "match": {
+        "street": "Aberthaw Road",
+        "year": "1913",
+        "surname_contains": "Smith"
+      },
+      "apply": {
+        "house_number": "4",
+        "building_name": "",
+        "surname": "Smith",
+        "forename": "Thomas",
+        "trade": "Sheet Weigher",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Aberthaw Road: Standardized record formatting for house 4",
+      "match": {
+        "street": "Aberthaw Road",
+        "year": "1903",
+        "surname_contains": "Fontaine"
+      },
+      "apply": {
+        "house_number": "4",
+        "building_name": "",
+        "surname": "Fontaine",
+        "forename": "Alf J",
+        "trade": "Ironfounder",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Aberthaw Road: Standardized record formatting for house 4",
+      "match": {
+        "street": "Aberthaw Road",
+        "year": "1902",
+        "surname_contains": "Fontaine"
+      },
+      "apply": {
+        "house_number": "4",
+        "building_name": "",
+        "surname": "Fontaine",
+        "forename": "Alf J",
+        "trade": "Ironfounder",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Arundel Road: Standardized record formatting for house 3",
+      "match": {
+        "street": "Arundel Road",
+        "year": "1910",
+        "surname_contains": "Jones"
+      },
+      "apply": {
+        "house_number": "3",
+        "building_name": "",
+        "surname": "Jones",
+        "forename": "J C",
+        "trade": "",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Arundel Road: Standardized record formatting for house 2",
+      "match": {
+        "street": "Arundel Road",
+        "year": "1913",
+        "surname_contains": "Parker"
+      },
+      "apply": {
+        "house_number": "2",
+        "building_name": "",
+        "surname": "Parker",
+        "forename": "Ronald H",
+        "trade": "Brewer",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Arundel Road: Standardized record formatting for house 4",
+      "match": {
+        "street": "Arundel Road",
+        "year": "1925",
+        "surname_contains": "Venn"
+      },
+      "apply": {
+        "house_number": "4",
+        "building_name": "",
+        "surname": "Venn",
+        "forename": "John J",
+        "trade": "Master Mariner",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Arundel Road: Standardized record formatting for house 5",
+      "match": {
+        "street": "Arundel Road",
+        "year": "1913",
+        "surname_contains": "Doel"
+      },
+      "apply": {
+        "house_number": "5",
+        "building_name": "",
+        "surname": "Doel",
+        "forename": "William J",
+        "trade": "Attend. Officer",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Arundel Road: Standardized record formatting for house 5",
+      "match": {
+        "street": "Arundel Road",
+        "year": "1910",
+        "surname_contains": "Doell"
+      },
+      "apply": {
+        "house_number": "5",
+        "building_name": "",
+        "surname": "Doell",
+        "forename": "William Jas",
+        "trade": "Attend. Officer",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Arundel Road: Standardized record formatting for house 6",
+      "match": {
+        "street": "Arundel Road",
+        "year": "1913",
+        "surname_contains": "Kovachic"
+      },
+      "apply": {
+        "house_number": "6",
+        "building_name": "",
+        "surname": "Kovachich",
+        "forename": "George B",
+        "trade": "Smith",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Arundel Road: Standardized record formatting for house 13",
+      "match": {
+        "street": "Arundel Road",
+        "year": "1913",
+        "surname_contains": "Steele"
+      },
+      "apply": {
+        "house_number": "13",
+        "building_name": "",
+        "surname": "Steele",
+        "forename": "Philip A",
+        "trade": "Ironworker",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Arundel Road: Standardized record formatting for house 14",
+      "match": {
+        "street": "Arundel Road",
+        "year": "1913",
+        "surname_contains": "Pickerin"
+      },
+      "apply": {
+        "house_number": "14",
+        "building_name": "",
+        "surname": "Pickering",
+        "forename": "C H",
+        "trade": "",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Arundel Road: Standardized record formatting for house 14",
+      "match": {
+        "street": "Arundel Road",
+        "year": "1913",
+        "surname_contains": "dk"
+      },
+      "apply": {
+        "house_number": "14",
+        "building_name": "",
+        "surname": "dk",
+        "forename": "police",
+        "trade": "",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Arundel Road: Standardized record formatting for house 15",
+      "match": {
+        "street": "Arundel Road",
+        "year": "1913",
+        "surname_contains": "Eddolls"
+      },
+      "apply": {
+        "house_number": "15",
+        "building_name": "",
+        "surname": "Eddolls",
+        "forename": "Albt Jas",
+        "trade": "Plumber",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Arundel Road: Standardized record formatting for house 19",
+      "match": {
+        "street": "Arundel Road",
+        "year": "1913",
+        "surname_contains": "Davey"
+      },
+      "apply": {
+        "house_number": "19",
+        "building_name": "",
+        "surname": "Davey",
+        "forename": "Charles H",
+        "trade": "Milkman",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Arundel Road: Standardized record formatting for house 23",
+      "match": {
+        "street": "Arundel Road",
+        "year": "1913",
+        "surname_contains": "Miller"
+      },
+      "apply": {
+        "house_number": "23",
+        "building_name": "",
+        "surname": "Miller",
+        "forename": "Albt Ernest",
+        "trade": "Fitter",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Arundel Road: Standardized record formatting for house 21",
+      "match": {
+        "street": "Arundel Road",
+        "year": "1913",
+        "surname_contains": "Thomas"
+      },
+      "apply": {
+        "house_number": "21",
+        "building_name": "",
+        "surname": "Thomas",
+        "forename": "Frank G",
+        "trade": "Engineer",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Arundel Road: Standardized record formatting for house 29",
+      "match": {
+        "street": "Arundel Road",
+        "year": "1913",
+        "surname_contains": "James"
+      },
+      "apply": {
+        "house_number": "29",
+        "building_name": "",
+        "surname": "James",
+        "forename": "Alfred W",
+        "trade": "Bootmaker",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Arundel Road: Standardized record formatting for house 26",
+      "match": {
+        "street": "Arundel Road",
+        "year": "1913",
+        "surname_contains": "Tudor"
+      },
+      "apply": {
+        "house_number": "26",
+        "building_name": "",
+        "surname": "Tudor",
+        "forename": "William Hy",
+        "trade": "Collier",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Argyle Street: Standardized record formatting for house 3",
+      "match": {
+        "street": "Argyle Street",
+        "year": "1925",
+        "surname_contains": "Jones He"
+      },
+      "apply": {
+        "house_number": "3",
+        "building_name": "",
+        "surname": "Jones",
+        "forename": "Henry Albert",
+        "trade": "Labourer",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Argyle Street: Standardized record formatting for house 21",
+      "match": {
+        "street": "Argyle Street",
+        "year": "1925",
+        "surname_contains": "Verrinde"
+      },
+      "apply": {
+        "house_number": "21",
+        "building_name": "",
+        "surname": "Verrinder",
+        "forename": "John",
+        "trade": "",
+        "source_type": "Primary"
+      }
     }
   ]
 }
