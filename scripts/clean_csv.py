@@ -2360,6 +2360,32 @@ def clean_record(row):
             forename = " ".join(fn_keep)
             trade = ", ".join(extracted_trades) if not trade else f"{', '.join(extracted_trades)}, {trade}"
 
+    # Deduplicate repeated identical tokens in surname, forename, and trade
+    # (e.g. surname="Dix John Hy", forename="Dix John Hy" -> surname="Dix", forename="John Hy")
+    # (e.g. trade="labourer, labourer, labourer" -> trade="Labourer")
+    if surname and forename and surname.strip().lower() == forename.strip().lower():
+        parts = surname.strip().split()
+        if len(parts) >= 2:
+            surname = parts[0]
+            forename = " ".join(parts[1:])
+
+    def dedupe_field(text):
+        if not text: return ""
+        parts = [p.strip() for p in text.replace(',', ' ').split() if p.strip()]
+        seen = []
+        for p in parts:
+            if not seen or p.lower() != seen[-1].lower():
+                seen.append(p)
+        return " ".join(seen)
+
+    if trade and ("," in trade or " " in trade):
+        trade_items = [t.strip() for t in trade.split(",") if t.strip()]
+        unique_trades = []
+        for ti in trade_items:
+            if not unique_trades or ti.lower() != unique_trades[-1].lower():
+                unique_trades.append(ti)
+        trade = ", ".join(unique_trades)
+
     rec = {
         "year": year,
         "street": street,
