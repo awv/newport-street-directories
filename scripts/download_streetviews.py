@@ -6,8 +6,11 @@ import urllib.request
 import urllib.parse
 import ssl
 
-API_KEY = "AIzaSyAnDY3jWVqtycqgT94oRRYYNcR72ooct2E"
-MASTER_JSON_PATH = "master_streets.json"
+API_KEY = os.environ.get("GOOGLE_MAPS_API_KEY", "")
+
+if not API_KEY:
+    # Optional local fallback / placeholder
+    print("Warning: GOOGLE_MAPS_API_KEY environment variable not set.")
 OUTPUT_DIR = "assets/images/streetview"
 
 ssl_context = ssl.create_default_context()
