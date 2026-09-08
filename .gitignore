@@ -1,3 +1,9 @@
 .DS_Store
 original_scans/
 1878_old.tsv
+
+# Local Secrets & Environment Variables (Do Not Commit)
+.env
+*.env
+.env.local
+

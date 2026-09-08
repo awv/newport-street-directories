@@ -6,11 +6,24 @@ import urllib.request
 import urllib.parse
 import ssl
 
+# Auto-load local .env file if present
+def load_env_file():
+    env_path = os.path.join(os.path.dirname(__file__), "..", ".env")
+    if os.path.exists(env_path):
+        with open(env_path, "r") as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith("#") and "=" in line:
+                    key, val = line.split("=", 1)
+                    os.environ[key.strip()] = val.strip().strip("'\"")
+
+load_env_file()
+
 API_KEY = os.environ.get("GOOGLE_MAPS_API_KEY", "")
 
 if not API_KEY:
-    # Optional local fallback / placeholder
-    print("Warning: GOOGLE_MAPS_API_KEY environment variable not set.")
+    print("Warning: GOOGLE_MAPS_API_KEY environment variable not set in system or .env file.")
+
 MASTER_JSON_PATH = "master_streets.json"
 OUTPUT_DIR = "assets/images/streetview"
 
