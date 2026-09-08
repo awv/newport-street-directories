@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newport Directory Archive - Interactive Map Explorer (POC)</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    
+    <style>
+        :root {
+            --bg-dark: #0f1115;
+            --bg-card: #181b21;
+            --bg-card-hover: #222630;
+            --gold-primary: #d4af37;
+            --gold-light: #f3e5ab;
+            --gold-dim: #8a7322;
+            --text-main: #e2e8f0;
+            --text-muted: #94a3b8;
+            --border-color: rgba(212, 175, 55, 0.2);
+            --font-heading: 'Cinzel', serif;
+            --font-body: 'Inter', sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: var(--font-body);
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        /* Header */
+        header {
+            background-color: rgba(15, 17, 21, 0.95);
+            border-bottom: 1px solid var(--border-color);
+            padding: 12px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 1000;
+            backdrop-filter: blur(8px);
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .brand-icon {
+            color: var(--gold-primary);
+            font-size: 24px;
+        }
+
+        .brand-title {
+            font-family: var(--font-heading);
+            font-size: 20px;
+            color: var(--gold-primary);
+            letter-spacing: 0.5px;
+        }
+
+        .badge-poc {
+            background: rgba(212, 175, 55, 0.15);
+            border: 1px solid var(--gold-primary);
+            color: var(--gold-light);
+            font-size: 11px;
+            padding: 2px 8px;
+            border-radius: 12px;
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        .header-nav {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .btn-link {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.2s;
+        }
+        .btn-link:hover {
+            color: var(--gold-primary);
+        }
+
+        /* Main Workspace Layout */
+        .main-container {
+            display: flex;
+            flex: 1;
+            position: relative;
+            height: calc(100vh - 61px);
+        }
+
+        /* Map Canvas */
+        #map {
+            flex: 1;
+            height: 100%;
+            background: #0d0f12;
+        }
+
+        /* Enhanced Gold Pin Visibility & Pulse */
+        .gold-pin-dot {
+            background: #ffd700;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            border: 2px solid #ffffff;
+            box-shadow: 0 0 14px rgba(255, 215, 0, 1), 0 0 4px rgba(0,0,0,0.8);
+            transition: all 0.3s ease;
+        }
+        .gold-pin-dot.dimmed {
+            background: #444444 !important;
+            border-color: #666666 !important;
+            box-shadow: none !important;
+            opacity: 0.3 !important;
+        }
+
+        /* Sidebar Control Panel */
+        .sidebar {
+            width: 380px;
+            background: var(--bg-card);
+            border-left: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+            z-index: 900;
+            box-shadow: -4px 0 20px rgba(0,0,0,0.5);
+        }
+
+        .sidebar-header {
+            padding: 20px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .sidebar-title {
+            font-family: var(--font-heading);
+            font-size: 18px;
+            color: var(--gold-light);
+            margin-bottom: 6px;
+        }
+
+        .sidebar-subtitle {
+            font-size: 13px;
+            color: var(--text-muted);
+            line-height: 1.4;
+        }
+
+        .search-box {
+            margin-top: 14px;
+            position: relative;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 10px 14px 10px 36px;
+            background: rgba(0,0,0,0.3);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 6px;
+            color: var(--text-main);
+            font-size: 14px;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+        .search-input:focus {
+            border-color: var(--gold-primary);
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+        }
+
+        /* Layers / Filter Section */
+        .filter-section {
+            padding: 16px 20px;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+            background: rgba(0,0,0,0.15);
+        }
+
+        .filter-label {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--gold-primary);
+            font-weight: 600;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .layer-toggles {
+            display: flex;
+            gap: 8px;
+        }
+
+        .btn-toggle {
+            flex: 1;
+            padding: 8px;
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            color: var(--text-muted);
+            border-radius: 4px;
+            font-size: 12px;
+            cursor: pointer;
+            text-align: center;
+            transition: all 0.2s;
+        }
+
+        .btn-toggle.active {
+            background: rgba(212, 175, 55, 0.15);
+            border-color: var(--gold-primary);
+            color: var(--gold-light);
+            font-weight: 600;
+        }
+
+        /* Timeline Slider Overlay Container */
+        .timeline-overlay {
+            position: absolute;
+            bottom: 24px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(24, 27, 33, 0.95);
+            border: 1px solid var(--gold-primary);
+            border-radius: 12px;
+            padding: 16px 24px;
+            width: 480px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+            backdrop-filter: blur(12px);
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .timeline-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .timeline-title {
+            font-family: var(--font-heading);
+            font-size: 14px;
+            color: var(--gold-light);
+            letter-spacing: 0.5px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .year-display {
+            font-family: var(--font-heading);
+            font-size: 22px;
+            color: var(--gold-primary);
+            font-weight: 700;
+            text-shadow: 0 0 10px rgba(212,175,55,0.3);
+        }
+
+        .slider-controls {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .btn-play {
+            background: rgba(212, 175, 55, 0.2);
+            border: 1px solid var(--gold-primary);
+            color: var(--gold-light);
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.2s;
+        }
+
+        .btn-play:hover {
+            background: var(--gold-primary);
+            color: #000;
+            box-shadow: 0 0 12px rgba(212, 175, 55, 0.5);
+        }
+
+        .year-slider {
+            flex: 1;
+            accent-color: var(--gold-primary);
+            cursor: pointer;
+            height: 6px;
+        }
+
+        .timeline-ticks {
+            display: flex;
+            justify-content: space-between;
+            font-size: 10px;
+            color: var(--text-muted);
+            padding: 0 2px;
+        }
+
+        /* Street List Panel */
+        .street-list {
+            flex: 1;
+            overflow-y: auto;
+            padding: 10px 0;
+        }
+
+        .street-item {
+            padding: 12px 20px;
+            border-bottom: 1px solid rgba(255,255,255,0.03);
+            cursor: pointer;
+            transition: background 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .street-item:hover {
+            background: var(--bg-card-hover);
+        }
+
+        .street-item.selected {
+            background: rgba(212, 175, 55, 0.1);
+            border-left: 3px solid var(--gold-primary);
+        }
+
+        .street-item.inactive {
+            opacity: 0.35;
+        }
+
+        .street-name {
+            font-size: 15px;
+            font-weight: 500;
+            color: var(--text-main);
+            margin-bottom: 3px;
+        }
+
+        .street-meta {
+            font-size: 12px;
+            color: var(--text-muted);
+            display: flex;
+            gap: 12px;
+        }
+
+        .street-badge {
+            background: rgba(255,255,255,0.08);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 11px;
+            color: var(--gold-light);
+        }
+
+        /* Detail Modal Overlay / Card */
+        .street-card-pop {
+            position: absolute;
+            bottom: 100px;
+            left: 24px;
+            width: 360px;
+            background: rgba(24, 27, 33, 0.95);
+            border: 1px solid var(--gold-primary);
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.7);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            display: none;
+            animation: slideUp 0.3s ease-out;
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card-pop-title {
+            font-family: var(--font-heading);
+            font-size: 20px;
+            color: var(--gold-primary);
+            margin-bottom: 6px;
+        }
+
+        .card-pop-subtitle {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 16px;
+        }
+
+        .card-pop-stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin-bottom: 16px;
+            background: rgba(0,0,0,0.3);
+            padding: 10px;
+            border-radius: 6px;
+            text-align: center;
+        }
+
+        .stat-val {
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--gold-light);
+        }
+
+        .stat-lbl {
+            font-size: 10px;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            margin-top: 2px;
+        }
+
+        .btn-open-street {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background: linear-gradient(135deg, var(--gold-primary), var(--gold-dim));
+            color: #000;
+            font-weight: 700;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 14px;
+            transition: opacity 0.2s;
+        }
+        .btn-open-street:hover {
+            opacity: 0.9;
+        }
+
+        .close-card {
+            position: absolute;
+            top: 12px;
+            right: 14px;
+            color: var(--text-muted);
+            cursor: pointer;
+            font-size: 18px;
+        }
+        .close-card:hover {
+            color: #fff;
+        }
+
+        /* Leaflet Dark Theme Overrides */
+        .leaflet-popup-content-wrapper {
+            background: var(--bg-card) !important;
+            color: var(--text-main) !important;
+            border: 1px solid var(--gold-primary) !important;
+            border-radius: 6px !important;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.6) !important;
+        }
+        .leaflet-popup-tip {
+            background: var(--bg-card) !important;
+            border: 1px solid var(--gold-primary) !important;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="brand">
+            <span class="brand-icon">🏛️</span>
+            <span class="brand-title">Newport Directory Archive</span>
+            <span class="badge-poc">Map POC</span>
+        </div>
+        <div class="header-nav">
+            <a href="index.html" class="btn-link" target="_blank">← Return to Directory Site</a>
+        </div>
+    </header>
+
+    <div class="main-container">
+
+        <!-- Leaflet Map Canvas -->
+        <div id="map"></div>
+
+        <!-- Floating Timeline Slider Overlay -->
+        <div class="timeline-overlay">
+            <div class="timeline-header">
+                <div class="timeline-title">
+                    <span>⏳ Timeline Filter</span>
+                </div>
+                <div id="yearDisplay" class="year-display">ALL YEARS</div>
+            </div>
+
+            <div class="slider-controls">
+                <button id="btnPlay" class="btn-play" onclick="togglePlayTimeline()" title="Play/Pause Time-Lapse">▶</button>
+                <input type="range" id="yearSlider" class="year-slider" min="1877" max="1925" value="1877" step="1" oninput="onSliderInput(this.value)">
+            </div>
+
+            <div class="timeline-ticks">
+                <span>All</span>
+                <span>1878</span>
+                <span>1890</span>
+                <span>1900</span>
+                <span>1910</span>
+                <span>1920</span>
+                <span>1925</span>
+            </div>
+        </div>
+
+        <!-- Pop-up Floating Card for Selected Street -->
+        <div id="streetCard" class="street-card-pop">
+            <span class="close-card" onclick="closeCard()">&times;</span>
+            <div id="cardTitle" class="card-pop-title">Street Name</div>
+            <div id="cardMeta" class="card-pop-subtitle">Victorian Expansion • 1893–1925</div>
+            
+            <div class="card-pop-stats">
+                <div>
+                    <div id="statRecords" class="stat-val">41</div>
+                    <div class="stat-lbl">Records</div>
+                </div>
+                <div>
+                    <div id="statHouses" class="stat-val">7</div>
+                    <div class="stat-lbl">Properties</div>
+                </div>
+                <div>
+                    <div id="statSpan" class="stat-val">1893–1925</div>
+                    <div class="stat-lbl">Years</div>
+                </div>
+            </div>
+
+            <a id="cardBtnLink" href="#" target="_blank" class="btn-open-street">Open Full Directory View ➔</a>
+        </div>
+
+        <!-- Sidebar Navigation -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <div class="sidebar-title">Spatial Directory Explorer</div>
+                <div class="sidebar-subtitle">Select a street pin on the map or sidebar to inspect historical occupancy records.</div>
+                
+                <div class="search-box">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="searchInput" class="search-input" placeholder="Search street name..." oninput="filterStreets()">
+                </div>
+            </div>
+
+            <div class="filter-section">
+                <div class="filter-label">
+                    <span>Base Map Layer</span>
+                </div>
+                <div class="layer-toggles">
+                    <button id="btnPositronMap" class="btn-toggle active" onclick="switchBaseMap('positron')">Positron (Light)</button>
+                    <button id="btnDarkMap" class="btn-toggle" onclick="switchBaseMap('dark')">Dark Matter</button>
+                    <button id="btnVoyagerMap" class="btn-toggle" onclick="switchBaseMap('voyager')">Voyager</button>
+                    <button id="btnOSMap" class="btn-toggle" onclick="switchBaseMap('os')">OS Standard</button>
+                </div>
+            </div>
+
+            <div id="streetList" class="street-list">
+                <!-- Street Items populated dynamically -->
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <script>
+        // Key Sample Streets with precise point coordinates in Newport
+        const SAMPLE_STREETS = [
+            {
+                name: "Bishopsgate Parade",
+                slug: "bishopsgate-parade",
+                lat: 51.5898,
+                lng: -2.9961,
+                records: 41,
+                houses: 7,
+                startYear: 1893,
+                endYear: 1925,
+                span: "1893–1925",
+                verified: true,
+                desc: "Late Victorian Urban Expansion in Maindee / Victoria ward."
+            },
+            {
+                name: "High Street",
+                slug: "high-street",
+                lat: 51.5886,
+                lng: -2.9972,
+                records: 1240,
+                houses: 85,
+                startYear: 1878,
+                endYear: 1925,
+                span: "1878–1925",
+                verified: true,
+                desc: "Primary commercial thoroughfare in Newport town center."
+            },
+            {
+                name: "Commercial Street",
+                slug: "commercial-street",
+                lat: 51.5845,
+                lng: -2.9930,
+                records: 2150,
+                houses: 140,
+                startYear: 1878,
+                endYear: 1925,
+                span: "1878–1925",
+                verified: true,
+                desc: "Major retail arterial road connecting South Newport to Town Center."
+            },
+            {
+                name: "Baneswell Road",
+                slug: "baneswell-road",
+                lat: 51.5862,
+                lng: -2.9998,
+                records: 620,
+                houses: 45,
+                startYear: 1882,
+                endYear: 1925,
+                span: "1882–1925",
+                verified: false,
+                desc: "Historic residential and trade district west of High Street."
+            },
+            {
+                name: "Stow Hill",
+                slug: "stow-hill",
+                lat: 51.5851,
+                lng: -2.9985,
+                records: 980,
+                houses: 92,
+                startYear: 1878,
+                endYear: 1925,
+                span: "1878–1925",
+                verified: true,
+                desc: "Steep historical ridge running up towards St Woolos Cathedral."
+            },
+            {
+                name: "Jeffreys Street",
+                slug: "jeffreys-street",
+                lat: 51.5912,
+                lng: -2.9950,
+                records: 180,
+                houses: 24,
+                startYear: 1898,
+                endYear: 1925,
+                span: "1898–1925",
+                verified: true,
+                desc: "Residential street adjacent to Bishopsgate Parade."
+            },
+            {
+                name: "Crindau Road",
+                slug: "crindau-road",
+                lat: 51.6010,
+                lng: -2.9940,
+                records: 430,
+                houses: 52,
+                startYear: 1890,
+                endYear: 1925,
+                span: "1890–1925",
+                verified: true,
+                desc: "Northern industrial corridor and residential quarter."
+            }
+        ];
+
+        let map, darkTileLayer, osTileLayer;
+        let markersMap = {};
+        let selectedYear = null; // null = all years
+        let isPlaying = false;
+        let playInterval = null;
+
+        // Initialize Map
+        function initMap() {
+            // Newport Town Center Coordinates
+            const newportCenter = [51.5880, -2.9960];
+            
+            map = L.map('map', {
+                center: newportCenter,
+                zoom: 15,
+                zoomControl: false
+            });
+
+            L.control.zoom({ position: 'topleft' }).addTo(map);
+
+            // Dark Basemap (CartoDB Dark Matter with API Key)
+            darkTileLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png?key=cb1_2yvg_1_ff40e3899c6af5a0c5f71e43', {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+                subdomains: 'abcd',
+                maxZoom: 19
+            });
+
+            // CartoDB Positron (Minimal Light Gray)
+            positronTileLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png?key=cb1_2yvg_1_ff40e3899c6af5a0c5f71e43', {
+                attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
+                subdomains: 'abcd',
+                maxZoom: 19
+            });
+
+            // CartoDB Voyager (High contrast clear roads)
+            voyagerTileLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png?key=cb1_2yvg_1_ff40e3899c6af5a0c5f71e43', {
+                attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
+                subdomains: 'abcd',
+                maxZoom: 19
+            });
+
+            // OpenStreetMap Standard Layer
+            osTileLayer = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; OpenStreetMap contributors',
+                maxZoom: 19
+            });
+
+            positronTileLayer.addTo(map);
+
+            // Render Initial Markers
+            SAMPLE_STREETS.forEach(street => {
+                const marker = createMarker(street);
+                marker.addTo(map);
+                
+                marker.on('click', () => {
+                    selectStreet(street);
+                });
+
+                markersMap[street.slug] = { marker, data: street };
+            });
+
+            renderStreetList(SAMPLE_STREETS);
+        }
+
+        function createMarker(street, isActive = true) {
+            const goldIcon = L.divIcon({
+                className: `pin-wrapper-${street.slug}`,
+                html: `<div id="pin-${street.slug}" class="gold-pin-dot ${isActive ? '' : 'dimmed'}"></div>`,
+                iconSize: [16, 16],
+                iconAnchor: [8, 8]
+            });
+
+            const marker = L.marker([street.lat, street.lng], { icon: goldIcon });
+            return marker;
+        }
+
+        function switchBaseMap(type) {
+            document.getElementById('btnDarkMap').classList.toggle('active', type === 'dark');
+            document.getElementById('btnPositronMap').classList.toggle('active', type === 'positron');
+            document.getElementById('btnVoyagerMap').classList.toggle('active', type === 'voyager');
+            document.getElementById('btnOSMap').classList.toggle('active', type === 'os');
+
+            map.removeLayer(darkTileLayer);
+            map.removeLayer(osTileLayer);
+            if (window.voyagerTileLayer) map.removeLayer(voyagerTileLayer);
+            if (window.positronTileLayer) map.removeLayer(positronTileLayer);
+
+            if (type === 'dark') {
+                darkTileLayer.addTo(map);
+            } else if (type === 'positron') {
+                positronTileLayer.addTo(map);
+            } else if (type === 'voyager') {
+                voyagerTileLayer.addTo(map);
+            } else {
+                osTileLayer.addTo(map);
+            }
+        }
+
+        function onSliderInput(val) {
+            const num = parseInt(val);
+            if (num === 1877) {
+                selectedYear = null;
+                document.getElementById('yearDisplay').innerText = "ALL YEARS";
+            } else {
+                selectedYear = num;
+                document.getElementById('yearDisplay').innerText = num;
+            }
+
+            updateTimeFilter();
+        }
+
+        function updateTimeFilter() {
+            SAMPLE_STREETS.forEach(street => {
+                const isActive = (selectedYear === null) || (selectedYear >= street.startYear && selectedYear <= street.endYear);
+                const pinEl = document.getElementById(`pin-${street.slug}`);
+                if (pinEl) {
+                    pinEl.classList.toggle('dimmed', !isActive);
+                }
+
+                const listEl = document.getElementById(`item-${street.slug}`);
+                if (listEl) {
+                    listEl.classList.toggle('inactive', !isActive);
+                }
+            });
+        }
+
+        function togglePlayTimeline() {
+            const btn = document.getElementById('btnPlay');
+            if (isPlaying) {
+                clearInterval(playInterval);
+                isPlaying = false;
+                btn.innerText = '▶';
+            } else {
+                isPlaying = true;
+                btn.innerText = '⏸';
+                
+                let slider = document.getElementById('yearSlider');
+                if (parseInt(slider.value) >= 1925) slider.value = 1878;
+
+                playInterval = setInterval(() => {
+                    let currentVal = parseInt(slider.value);
+                    if (currentVal === 1877) currentVal = 1878;
+                    else currentVal++;
+
+                    if (currentVal > 1925) {
+                        currentVal = 1877;
+                        clearInterval(playInterval);
+                        isPlaying = false;
+                        btn.innerText = '▶';
+                    }
+
+                    slider.value = currentVal;
+                    onSliderInput(currentVal);
+                }, 400);
+            }
+        }
+
+        function renderStreetList(streets) {
+            const container = document.getElementById('streetList');
+            container.innerHTML = '';
+
+            streets.forEach(street => {
+                const div = document.createElement('div');
+                div.className = 'street-item';
+                div.id = `item-${street.slug}`;
+                div.onclick = () => selectStreet(street);
+
+                div.innerHTML = `
+                    <div>
+                        <div class="street-name">${street.name}</div>
+                        <div class="street-meta">
+                            <span>${street.houses} Properties</span>
+                            <span>•</span>
+                            <span>${street.span}</span>
+                        </div>
+                    </div>
+                    <span class="street-badge">${street.records} Recs</span>
+                `;
+                container.appendChild(div);
+            });
+        }
+
+        function selectStreet(street) {
+            // Pan to marker
+            map.flyTo([street.lat, street.lng], 16, { duration: 1.2 });
+
+            // Highlight List Item
+            document.querySelectorAll('.street-item').forEach(el => el.classList.remove('selected'));
+            const listItem = document.getElementById(`item-${street.slug}`);
+            if (listItem) {
+                listItem.classList.add('selected');
+                listItem.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }
+
+            // Populate Card
+            document.getElementById('cardTitle').innerText = street.name;
+            document.getElementById('cardMeta').innerText = street.desc;
+            document.getElementById('statRecords').innerText = street.records;
+            document.getElementById('statHouses').innerText = street.houses;
+            document.getElementById('statSpan').innerText = street.span;
+            document.getElementById('cardBtnLink').href = `index.html#street=${encodeURIComponent(street.name)}`;
+
+            document.getElementById('streetCard').style.display = 'block';
+        }
+
+        function closeCard() {
+            document.getElementById('streetCard').style.display = 'none';
+            document.querySelectorAll('.street-item').forEach(el => el.classList.remove('selected'));
+        }
+
+        function filterStreets() {
+            const query = document.getElementById('searchInput').value.toLowerCase();
+            const filtered = SAMPLE_STREETS.filter(s => s.name.toLowerCase().includes(query));
+            renderStreetList(filtered);
+            updateTimeFilter();
+        }
+
+        window.onload = initMap;
+    </script>
+</body>
+</html>

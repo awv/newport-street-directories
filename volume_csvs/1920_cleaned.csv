@@ -20,7 +20,7 @@ year,street,house_number,building_name,surname,forename,trade
 1920,Adelaide Street,4,,Chivers,William.,"G., taxi drivr"
 1920,Adelaide Street,2,,Wright,W.,"A., motor driver"
 1920,Adelaide Street,,"Charles John & Son, bldrs",,,
-1920,Adelaide Street,,"Charles Thos., blacksmith and coal merchant",,,
+1920,Adelaide Street,2,,Charles,Thomas,blacksmith and coal merchant
 1920,Adeline Street,1,,Williams,Mrs.,Lydia
 1920,Adeline Street,2,,Parsons,W.,sailmaker
 1920,Adeline Street,3,,Griffiths,James,shipwright
@@ -865,78 +865,78 @@ year,street,house_number,building_name,surname,forename,trade
 1920,Austin Friars,Vaughan,"Co.,",W.,E.,Ltd
 1920,Austin Friars,Mullock,printers,&,Sons,Ltd
 1920,"The Newport Steam Laundry Co., Bath Street",82,6,Saunders,James,"D, builder"
-1920,"The Newport Steam Laundry Co., Bath Street",80,,Joseph,Edwin J. clerk,78
-1920,"The Newport Steam Laundry Co., Bath Street",78,,Boyce,Mrs. M.,76
-1920,"The Newport Steam Laundry Co., Bath Street",76,,Rollingson,Arthur,(RIGHT HAND SIDE.)
-1920,"The Newport Steam Laundry Co., Bath Street",74,Carruthers,Pratt,Mrs. F.,George C
-1920,"The Newport Steam Laundry Co., Bath Street",72,,Price,Henry,"Handpost, plasterer"
-1920,"The Newport Steam Laundry Co., Bath Street",70,Roberts,Taylor,S. T.,"4, ironworker"
-1920,"The Newport Steam Laundry Co., Bath Street",70,Roberts,R,L.,Montpellier
-1920,"The Newport Steam Laundry Co., Bath Street",70,Roberts,19,,
-1920,"The Newport Steam Laundry Co., Bath Street",68,,Farrell,Sergt.-major,here is Ombersley-road
-1920,"The Newport Steam Laundry Co., Bath Street",66,Matthias,Wayland,Thomas,"6, P.O"
-1920,"The Newport Steam Laundry Co., Bath Street",66,Matthias,J,Deangate,
-1920,"The Newport Steam Laundry Co., Bath Street",64,West,Walters,Thomas,"Fredk. A., Ridge"
-1920,"The Newport Steam Laundry Co., Bath Street",62,,Brown,Charles. Marsh,"bourne, guard"
-1920,"The Newport Steam Laundry Co., Bath Street",,Johnson,Baldock,A. W.,Vernon N
-1920,"The Newport Steam Laundry Co., Bath Street",,"Luther, Monway",farm,12,Davies
-1920,"The Newport Steam Laundry Co., Bath Street",58,Sims,Cookson,Henry,"16, G.W.R ins"
-1920,"The Newport Steam Laundry Co., Bath Street",58,Sims,F,R.,St. Hilda
-1920,"The Newport Steam Laundry Co., Bath Street",56,Skinner,Shipley,Henry R.,18
-1920,"The Newport Steam Laundry Co., Bath Street",56,Skinner,James,,
-1920,"The Newport Steam Laundry Co., Bath Street",54,O'Sullivan,Woods,William. foundryman,20
-1920,"The Newport Steam Laundry Co., Bath Street",54,O'Sullivan,J,St. Albans,
-1920,"The Newport Steam Laundry Co., Bath Street",52,Newcombe,Higgs,Tom,James M
-1920,"The Newport Steam Laundry Co., Bath Street",50,,Roberts,William. W. traveller,Oakridge
-1920,"The Newport Steam Laundry Co., Bath Street",48,May,Bennett,Edward,"24, police"
-1920,"The Newport Steam Laundry Co., Bath Street",48,May,F,S. W.,Cartref
-1920,"The Newport Steam Laundry Co., Bath Street",48,May,01,,
-1920,"The Newport Steam Laundry Co., Bath Street",46,Jones,Lane,George,Miss Louisa B
-1920,"The Newport Steam Laundry Co., Bath Street",44,[Kenton,Whitfield,Mrs. Elizabeth,Penlee
-1920,"The Newport Steam Laundry Co., Bath Street",,Richardson,Caldicott,James,Mrs. F. J
-1920,"The Newport Steam Laundry Co., Bath Street",42,Price,Morgan,Harry,"30, clerk"
-1920,"The Newport Steam Laundry Co., Bath Street",42,Price,Mrs,A.,Hefryd
-1920,"The Newport Steam Laundry Co., Bath Street",40,Hayes,Chapman,T. W.,"32, mason"
-1920,"The Newport Steam Laundry Co., Bath Street",40,Hayes,Alfred,S.,Penrhiw
-1920,"The Newport Steam Laundry Co., Bath Street",38,Bird,Bishop,Joseph,"34, foreman"
-1920,"The Newport Steam Laundry Co., Bath Street",38,Bird,A,G.,Homewood
-1920,"The Newport Steam Laundry Co., Bath Street",36,Dix,Cox,James,"36, plasterer"
-1920,"The Newport Steam Laundry Co., Bath Street",36,Dix,H,B.,Sunnyside
-1920,"The Newport Steam Laundry Co., Bath Street",,,Armitage,Samuel,here is West Park-road
-1920,"The Newport Steam Laundry Co., Bath Street",34,Davis,Knowles,F.,"38, Woodside"
-1920,"The Newport Steam Laundry Co., Bath Street",34,Davis,H,West Park ho,
-1920,"The Newport Steam Laundry Co., Bath Street",32,Joseph,Phillips,Edgar,"40, Arundel v"
-1920,"The Newport Steam Laundry Co., Bath Street",32,Joseph,Edward,Usk view,
-1920,"The Newport Steam Laundry Co., Bath Street",30,Price,Higgs,Dd.,"42, smith"
-1920,"The Newport Steam Laundry Co., Bath Street",30,Price,Mrs,Alice,
-1920,"The Newport Steam Laundry Co., Bath Street",28,Pearse,Vialls,Mrs. Mary,44
-1920,"The Newport Steam Laundry Co., Bath Street",28,Pearse,G,G.,Gatchel
-1920,"The Newport Steam Laundry Co., Bath Street",26,Pearse,Biggs,Jos. sheetweigher,46
-1920,"The Newport Steam Laundry Co., Bath Street",26,Pearse,Godfrey,Charles,
-1920,"The Newport Steam Laundry Co., Bath Street",24,,Roberts,Arthur,"THE CEMETERY, linesman"
-1920,"The Newport Steam Laundry Co., Bath Street",22,,Townsend,Dl. J. hairdresser,(return)
-1920,"The Newport Steam Laundry Co., Bath Street",20,Bailey,Stiles,John,"37, haulier"
-1920,"The Newport Steam Laundry Co., Bath Street",20,Bailey,Mrs,C. H.,Stelvio
-1920,"The Newport Steam Laundry Co., Bath Street",18,Hornby,Llanman,Charles. postman,"L. H., solicitor"
-1920,"The Newport Steam Laundry Co., Bath Street",16,,Burrows,Joseph,"Quartleston, postman"
-1920,"The Newport Steam Laundry Co., Bath Street",14,Latch,Barnes,J. H.,"33, painter"
-1920,"The Newport Steam Laundry Co., Bath Street",14,Latch,Miss,Quantock,
-1920,"The Newport Steam Laundry Co., Bath Street",12,Thomas,Curtiss,James,31
-1920,"The Newport Steam Laundry Co., Bath Street",12,Thomas,Mrs,A.,Bronwydd
-1920,"The Newport Steam Laundry Co., Bath Street",10,Foreman,Jeffs,Mrs. Elizabeth,29
-1920,"The Newport Steam Laundry Co., Bath Street",10,Foreman,Ed,Hazelmere,
-1920,"The Newport Steam Laundry Co., Bath Street",10,Foreman,12,,
-1920,"The Newport Steam Laundry Co., Bath Street",8,Trimmer,Heames,D. O.,"27, printer"
-1920,"The Newport Steam Laundry Co., Bath Street",8,Trimmer,W,Tymawr,
-1920,"The Newport Steam Laundry Co., Bath Street",6,Elliott,Griffiths,William. labourer,25
-1920,"The Newport Steam Laundry Co., Bath Street",6,Elliott,R,Haldon,
-1920,"The Newport Steam Laundry Co., Bath Street",4,Fletcher,Powell,William J.,23
-1920,"The Newport Steam Laundry Co., Bath Street",4,Fletcher,Kyrle,Lismore,
-1920,"The Newport Steam Laundry Co., Bath Street",,Frederick P.,Mabur John,21,Horden
-1920,"The Newport Steam Laundry Co., Bath Street",2,Roberts,Quick,Frank,"19, chem. wrker"
-1920,"The Newport Steam Laundry Co., Bath Street",2,Roberts,D,W.,Chingford
-1920,"The Newport Steam Laundry Co., Bath Street",2,Roberts,16,,
-1920,"The Newport Steam Laundry Co., Bath Street",,"Charles, Hillcrest",(Off Ilfon-street),17,Collier
+1920,"Bassaleg Road",80,,Joseph,Edwin J. clerk,78
+1920,"Bassaleg Road",78,,Boyce,Mrs. M.,76
+1920,"Bassaleg Road",76,,Rollingson,Arthur,(RIGHT HAND SIDE.)
+1920,"Bassaleg Road",74,Carruthers,Pratt,Mrs. F.,George C
+1920,"Bassaleg Road",72,,Price,Henry,"Handpost, plasterer"
+1920,"Bassaleg Road",70,Roberts,Taylor,S. T.,"4, ironworker"
+1920,"Bassaleg Road",70,Roberts,R,L.,Montpellier
+1920,"Bassaleg Road",70,Roberts,19,,
+1920,"Bassaleg Road",68,,Farrell,Sergt.-major,here is Ombersley-road
+1920,"Bassaleg Road",66,Matthias,Wayland,Thomas,"6, P.O"
+1920,"Bassaleg Road",66,Matthias,J,Deangate,
+1920,"Bassaleg Road",64,West,Walters,Thomas,"Fredk. A., Ridge"
+1920,"Bassaleg Road",62,,Brown,Charles. Marsh,"bourne, guard"
+1920,"Bassaleg Road",,Johnson,Baldock,A. W.,Vernon N
+1920,"Bassaleg Road",,"Luther, Monway",farm,12,Davies
+1920,"Bassaleg Road",58,Sims,Cookson,Henry,"16, G.W.R ins"
+1920,"Bassaleg Road",58,Sims,F,R.,St. Hilda
+1920,"Bassaleg Road",56,Skinner,Shipley,Henry R.,18
+1920,"Bassaleg Road",56,Skinner,James,,
+1920,"Bassaleg Road",54,O'Sullivan,Woods,William. foundryman,20
+1920,"Bassaleg Road",54,O'Sullivan,J,St. Albans,
+1920,"Bassaleg Road",52,Newcombe,Higgs,Tom,James M
+1920,"Bassaleg Road",50,,Roberts,William. W. traveller,Oakridge
+1920,"Bassaleg Road",48,May,Bennett,Edward,"24, police"
+1920,"Bassaleg Road",48,May,F,S. W.,Cartref
+1920,"Bassaleg Road",48,May,01,,
+1920,"Bassaleg Road",46,Jones,Lane,George,Miss Louisa B
+1920,"Bassaleg Road",44,[Kenton,Whitfield,Mrs. Elizabeth,Penlee
+1920,"Bassaleg Road",,Richardson,Caldicott,James,Mrs. F. J
+1920,"Bassaleg Road",42,Price,Morgan,Harry,"30, clerk"
+1920,"Bassaleg Road",42,Price,Mrs,A.,Hefryd
+1920,"Bassaleg Road",40,Hayes,Chapman,T. W.,"32, mason"
+1920,"Bassaleg Road",40,Hayes,Alfred,S.,Penrhiw
+1920,"Bassaleg Road",38,Bird,Bishop,Joseph,"34, foreman"
+1920,"Bassaleg Road",38,Bird,A,G.,Homewood
+1920,"Bassaleg Road",36,Dix,Cox,James,"36, plasterer"
+1920,"Bassaleg Road",36,Dix,H,B.,Sunnyside
+1920,"Bassaleg Road",,,Armitage,Samuel,here is West Park-road
+1920,"Bassaleg Road",34,Davis,Knowles,F.,"38, Woodside"
+1920,"Bassaleg Road",34,Davis,H,West Park ho,
+1920,"Bassaleg Road",32,Joseph,Phillips,Edgar,"40, Arundel v"
+1920,"Bassaleg Road",32,Joseph,Edward,Usk view,
+1920,"Bassaleg Road",30,Price,Higgs,Dd.,"42, smith"
+1920,"Bassaleg Road",30,Price,Mrs,Alice,
+1920,"Bassaleg Road",28,Pearse,Vialls,Mrs. Mary,44
+1920,"Bassaleg Road",28,Pearse,G,G.,Gatchel
+1920,"Bassaleg Road",26,Pearse,Biggs,Jos. sheetweigher,46
+1920,"Bassaleg Road",26,Pearse,Godfrey,Charles,
+1920,"Bassaleg Road",24,,Roberts,Arthur,"THE CEMETERY, linesman"
+1920,"Bassaleg Road",22,,Townsend,Dl. J. hairdresser,(return)
+1920,"Bassaleg Road",20,Bailey,Stiles,John,"37, haulier"
+1920,"Bassaleg Road",20,Bailey,Mrs,C. H.,Stelvio
+1920,"Bassaleg Road",18,Hornby,Llanman,Charles. postman,"L. H., solicitor"
+1920,"Bassaleg Road",16,,Burrows,Joseph,"Quartleston, postman"
+1920,"Bassaleg Road",14,Latch,Barnes,J. H.,"33, painter"
+1920,"Bassaleg Road",14,Latch,Miss,Quantock,
+1920,"Bassaleg Road",12,Thomas,Curtiss,James,31
+1920,"Bassaleg Road",12,Thomas,Mrs,A.,Bronwydd
+1920,"Bassaleg Road",10,Foreman,Jeffs,Mrs. Elizabeth,29
+1920,"Bassaleg Road",10,Foreman,Ed,Hazelmere,
+1920,"Bassaleg Road",10,Foreman,12,,
+1920,"Bassaleg Road",8,Trimmer,Heames,D. O.,"27, printer"
+1920,"Bassaleg Road",8,Trimmer,W,Tymawr,
+1920,"Bassaleg Road",6,Elliott,Griffiths,William. labourer,25
+1920,"Bassaleg Road",6,Elliott,R,Haldon,
+1920,"Bassaleg Road",4,Fletcher,Powell,William J.,23
+1920,"Bassaleg Road",4,Fletcher,Kyrle,Lismore,
+1920,"Bassaleg Road",,Frederick P.,Mabur John,21,Horden
+1920,"Bassaleg Road",2,Roberts,Quick,Frank,"19, chem. wrker"
+1920,"Bassaleg Road",2,Roberts,D,W.,Chingford
+1920,"Bassaleg Road",2,Roberts,16,,
+1920,"Bassaleg Road",,"Charles, Hillcrest",(Off Ilfon-street),17,Collier
 1920,Barthropp Street,2,,Page,William. ironworker,Rylands
 1920,Barthropp Street,4,Morgan,Davies,—,11
 1920,Barthropp Street,4,Morgan,David,,
@@ -13769,13 +13769,13 @@ year,street,house_number,building_name,surname,forename,trade
 1920,Trinity Place,4,,Shea,James,trimmer
 1920,Trinity Place,5,,Gearon,Michael,do
 1920,Largest Furniture Showrooms In South Wales,1,"The Laurels, The",E.E.,Williams,
-1920,Largest Furniture Showrooms In South Wales,,,Trinity Place--continued,,
-1920,Largest Furniture Showrooms In South Wales,6,,Hannan,John,boilermkr
-1920,Largest Furniture Showrooms In South Wales,7,,Greer,John,boilermaker
-1920,Largest Furniture Showrooms In South Wales,8,,O'Brien,Daniel,labourer
-1920,Largest Furniture Showrooms In South Wales,9,,Westacott,John,bricklyer
-1920,Largest Furniture Showrooms In South Wales,10,,Maher,Charles,"Edward, trimmer"
-1920,Largest Furniture Showrooms In South Wales,11,,Cooper,Mrs.,J
+1920,Trinity Place,,,Trinity Place--continued,,
+1920,Trinity Place,6,,Hannan,John,boilermkr
+1920,Trinity Place,7,,Greer,John,boilermaker
+1920,Trinity Place,8,,O'Brien,Daniel,labourer
+1920,Trinity Place,9,,Westacott,John,bricklyer
+1920,Trinity Place,10,,Maher,Charles,"Edward, trimmer"
+1920,Trinity Place,11,,Cooper,Mrs.,J
 1920,Troston Road,Cooper,,Joseph,ironworker,
 1920,Troston Road,Rickman,,George,,
 1920,Troston Road,Griffin,,Richard,,
@@ -14230,10 +14230,10 @@ year,street,house_number,building_name,surname,forename,trade
 1920,Vine Place,3,,Price,George,gardener
 1920,Vine Place,4,,Wood,William,labourer
 1920,Vine Place,5,,Mitchell,Frederick.,bricklyr
-1920,"P. E. Gane Ltd., 161–162 Commercial Street, Newport",VIV,,NEWPORT STREET DIRECTORY.,WAL,
-1920,"P. E. Gane Ltd., 161–162 Commercial Street, Newport",2,19,Pearson,Enoch,"r, ironwork'r"
-1920,"P. E. Gane Ltd., 161–162 Commercial Street, Newport",,B,Alsop,& Sons,"t, carriage wks"
-1920,"P. E. Gane Ltd., 161–162 Commercial Street, Newport",,B,4,,
+1920,Trinity Place,VIV,,NEWPORT STREET DIRECTORY.,WAL,
+1920,Trinity Place,2,19,Pearson,Enoch,"r, ironwork'r"
+1920,Trinity Place,,B,Alsop,& Sons,"t, carriage wks"
+1920,Trinity Place,,B,4,,
 1920,Walford Street,2,r,Parkin,E. sanitary enginr,
 1920,Walford Street,4,,Bignold,Charles. ironworker,
 1920,Walford Street,6,,Dunning,F. J. ironworker,
@@ -14500,40 +14500,40 @@ year,street,house_number,building_name,surname,forename,trade
 1920,West Park,,,Right of Bassalleg-road,,
 1920,West Park,,,West Park-roads,,
 1920,West Park Road,2,,Thomas,Mrs. Jeanette,
-1920,"P. E. Gane Ltd., 161–162 Commercial Street, Newport",4,,Chicken,Thomas,
-1920,"P. E. Gane Ltd., 161–162 Commercial Street, Newport",6,,Spencer,F. W.,Twyford
-1920,"P. E. Gane Ltd., 161–162 Commercial Street, Newport",8,,Beaven,Henry,W
-1920,"P. E. Gane Ltd., 161–162 Commercial Street, Newport",10,printer,Winter,William.,R
-1920,"P. E. Gane Ltd., 161–162 Commercial Street, Newport",12,Clodagh,Jones,Henry,W
-1920,"P. E. Gane Ltd., 161–162 Commercial Street, Newport",14,,Davies,Thomas.,Pemberton
-1920,"P. E. Gane Ltd., 161–162 Commercial Street, Newport",16,"S.,",Heybyrne,G.,E
-1920,"P. E. Gane Ltd., 161–162 Commercial Street, Newport",16,"S.,",Highclere,,
-1920,"P. E. Gane Ltd., 161–162 Commercial Street, Newport",18,,Pritchard,Thomas,
-1920,"P. E. Gane Ltd., 161–162 Commercial Street, Newport",20,&,Morris,A.,O
-1920,"P. E. Gane Ltd., 161–162 Commercial Street, Newport",22,,Weaver,B.,W
-1920,"P. E. Gane Ltd., 161–162 Commercial Street, Newport",24,,Baddeley,W.,C
-1920,"P. E. Gane Ltd., 161–162 Commercial Street, Newport",26,,Griffiths,Thomas,O
-1920,"P. E. Gane Ltd., 161–162 Commercial Street, Newport",28,,Edwards,Talesin,
-1920,"P. E. Gane Ltd., 161–162 Commercial Street, Newport",30,,Ivins,John,
-1920,"P. E. Gane Ltd., 161–162 Commercial Street, Newport",33,,Hastings,George.,Williams
-1920,"P. E. Gane Ltd., 161–162 Commercial Street, Newport",31,,Jones,R.,G
-1920,"P. E. Gane Ltd., 161–162 Commercial Street, Newport",29,Clovelly,Harries,William.,D
-1920,"P. E. Gane Ltd., 161–162 Commercial Street, Newport",27,E.,Davis,M.,L
-1920,"P. E. Gane Ltd., 161–162 Commercial Street, Newport",25,,Harman,C.,J
-1920,"P. E. Gane Ltd., 161–162 Commercial Street, Newport",23,,Campbell,Cadogan,B
-1920,"P. E. Gane Ltd., 161–162 Commercial Street, Newport",21,Silver,Thomas,Walter,R
-1920,"P. E. Gane Ltd., 161–162 Commercial Street, Newport",21,Silver,Craig,,
-1920,"P. E. Gane Ltd., 161–162 Commercial Street, Newport",19,,Barnett,Herbert,James
-1920,"P. E. Gane Ltd., 161–162 Commercial Street, Newport",17,,Reider,Joseph,J
-1920,"P. E. Gane Ltd., 161–162 Commercial Street, Newport",15,Springfield,Foxwell,Charles,Herbert
-1920,"P. E. Gane Ltd., 161–162 Commercial Street, Newport",13,"A.,",Brown,Mrs.,E
-1920,"P. E. Gane Ltd., 161–162 Commercial Street, Newport",13,"A.,",Lisbert,,
-1920,"P. E. Gane Ltd., 161–162 Commercial Street, Newport",11,chauffeur,Lloyd,William.,J
-1920,"P. E. Gane Ltd., 161–162 Commercial Street, Newport",9,,Vanderplank,W.,
-1920,"P. E. Gane Ltd., 161–162 Commercial Street, Newport",7,,Witts,A.,
-1920,"P. E. Gane Ltd., 161–162 Commercial Street, Newport",3,Parkstone,Davies,Mrs.,M
-1920,"P. E. Gane Ltd., 161–162 Commercial Street, Newport",3,,Ferris,Stephen,Edwin
-1920,"P. E. Gane Ltd., 161–162 Commercial Street, Newport",1,Ivyholme,Orlige,Edwd.,F
+1920,Trinity Place,4,,Chicken,Thomas,
+1920,Trinity Place,6,,Spencer,F. W.,Twyford
+1920,Trinity Place,8,,Beaven,Henry,W
+1920,Trinity Place,10,printer,Winter,William.,R
+1920,Trinity Place,12,Clodagh,Jones,Henry,W
+1920,Trinity Place,14,,Davies,Thomas.,Pemberton
+1920,Trinity Place,16,"S.,",Heybyrne,G.,E
+1920,Trinity Place,16,"S.,",Highclere,,
+1920,Trinity Place,18,,Pritchard,Thomas,
+1920,Trinity Place,20,&,Morris,A.,O
+1920,Trinity Place,22,,Weaver,B.,W
+1920,Trinity Place,24,,Baddeley,W.,C
+1920,Trinity Place,26,,Griffiths,Thomas,O
+1920,Trinity Place,28,,Edwards,Talesin,
+1920,Trinity Place,30,,Ivins,John,
+1920,Trinity Place,33,,Hastings,George.,Williams
+1920,Trinity Place,31,,Jones,R.,G
+1920,Trinity Place,29,Clovelly,Harries,William.,D
+1920,Trinity Place,27,E.,Davis,M.,L
+1920,Trinity Place,25,,Harman,C.,J
+1920,Trinity Place,23,,Campbell,Cadogan,B
+1920,Trinity Place,21,Silver,Thomas,Walter,R
+1920,Trinity Place,21,Silver,Craig,,
+1920,Trinity Place,19,,Barnett,Herbert,James
+1920,Trinity Place,17,,Reider,Joseph,J
+1920,Trinity Place,15,Springfield,Foxwell,Charles,Herbert
+1920,Trinity Place,13,"A.,",Brown,Mrs.,E
+1920,Trinity Place,13,"A.,",Lisbert,,
+1920,Trinity Place,11,chauffeur,Lloyd,William.,J
+1920,Trinity Place,9,,Vanderplank,W.,
+1920,Trinity Place,7,,Witts,A.,
+1920,Trinity Place,3,Parkstone,Davies,Mrs.,M
+1920,Trinity Place,3,,Ferris,Stephen,Edwin
+1920,Trinity Place,1,Ivyholme,Orlige,Edwd.,F
 1920,West Street,1,,Davies,J.,grocer
 1920,West Street,2,,Orders,Frederick.,plumber
 1920,West Street,3,,Ferris,Stephen,Edwin
@@ -14863,12 +14863,12 @@ year,street,house_number,building_name,surname,forename,trade
 1920,Wilson Street,7,,Keyes William,,
 1920,Winmill Street,9,,Morgan John,,labourer
 1920,Winmill Street,1,,James Evan,,
-1920,"The Newport Steam Laundry Co., Bath Street",WIN,,NEWPORT STREET DIRECTORY,WOO,
-1920,"The Newport Steam Laundry Co., Bath Street",2,,Davies,Edward,
-1920,"The Newport Steam Laundry Co., Bath Street",3,,Evans,Alfred,labourer
-1920,"The Newport Steam Laundry Co., Bath Street",4,,Purvis,Mrs.,Caroline
-1920,"The Newport Steam Laundry Co., Bath Street",5,,Benson,Charles.,labourer
-1920,"The Newport Steam Laundry Co., Bath Street",New,,Century,Institute,D 326
+1920,Trinity Place,WIN,,NEWPORT STREET DIRECTORY,WOO,
+1920,Trinity Place,2,,Davies,Edward,
+1920,Trinity Place,3,,Evans,Alfred,labourer
+1920,Trinity Place,4,,Purvis,Mrs.,Caroline
+1920,Trinity Place,5,,Benson,Charles.,labourer
+1920,Trinity Place,New,,Century,Institute,D 326
 1920,Witham,Off,hand,Coverack-road,,side Corporation-rd
 1920,Witham,1,,Evans,Richard,T
 1920,Witham,3,,Smith,Harry,hawker

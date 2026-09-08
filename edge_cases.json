@@ -1236,7 +1236,7 @@
         "house_number": "20",
         "building_name": "",
         "surname": "Duggan",
-        "forename": "No\u00ebl",
+        "forename": "Noël",
         "trade": "",
         "source_type": "Primary"
       }
@@ -2613,6 +2613,1391 @@
         "surname": "Ion",
         "forename": "Thomas",
         "trade": "stevedore",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Alma Street (Upper)' to 'Upper Alma Street'",
+      "match": {
+        "street": "Alma Street (Upper)"
+      },
+      "apply": {
+        "street": "Upper Alma Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Baneswell road' to 'Baneswell Road'",
+      "match": {
+        "street": "Baneswell road"
+      },
+      "apply": {
+        "street": "Baneswell Road"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Calne' to 'Calne Place'",
+      "match": {
+        "street": "Calne"
+      },
+      "apply": {
+        "street": "Calne Place"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Collingwood St' to 'Collingwood Street'",
+      "match": {
+        "street": "Collingwood St"
+      },
+      "apply": {
+        "street": "Collingwood Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'E S Arundel Road' to 'Arundel Road'",
+      "match": {
+        "street": "E S Arundel Road"
+      },
+      "apply": {
+        "street": "Arundel Road"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Edward VII. Avenue' to 'Edward VII Avenue'",
+      "match": {
+        "street": "Edward VII. Avenue"
+      },
+      "apply": {
+        "street": "Edward VII Avenue"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Edward VII. Crescent' to 'Edward VII Crescent'",
+      "match": {
+        "street": "Edward VII. Crescent"
+      },
+      "apply": {
+        "street": "Edward VII Crescent"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'George Street (Lower)' to 'Lower George Street'",
+      "match": {
+        "street": "George Street (Lower)"
+      },
+      "apply": {
+        "street": "Lower George Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Jayne'S Buildings' to 'Jayne's Buildings'",
+      "match": {
+        "street": "Jayne'S Buildings"
+      },
+      "apply": {
+        "street": "Jayne's Buildings"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Queen'S Buildings' to 'Queen's Buildings'",
+      "match": {
+        "street": "Queen'S Buildings"
+      },
+      "apply": {
+        "street": "Queen's Buildings"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Aragon Street, C' to 'Aragon Street'",
+      "match": {
+        "street": "Aragon Street, C"
+      },
+      "apply": {
+        "street": "Aragon Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Bishop Street, B.t' to 'Bishop Street'",
+      "match": {
+        "street": "Bishop Street, B.t"
+      },
+      "apply": {
+        "street": "Bishop Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Cambria Road' to 'Cambrian Road'",
+      "match": {
+        "street": "Cambria Road"
+      },
+      "apply": {
+        "street": "Cambrian Road"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Caldicot' to 'Caldicot Street'",
+      "match": {
+        "street": "Caldicot"
+      },
+      "apply": {
+        "street": "Caldicot Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Cambria' to 'Cambria Place'",
+      "match": {
+        "street": "Cambria"
+      },
+      "apply": {
+        "street": "Cambria Place"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Carisbrook Rd' to 'Carisbrooke Road'",
+      "match": {
+        "street": "Carisbrook Rd"
+      },
+      "apply": {
+        "street": "Carisbrooke Road"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Carpenters’ Lane' to 'Carpenter's Arms Lane'",
+      "match": {
+        "street": "Carpenters’ Lane"
+      },
+      "apply": {
+        "street": "Carpenter's Arms Lane"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Caston Place' to 'Caxton Place'",
+      "match": {
+        "street": "Caston Place"
+      },
+      "apply": {
+        "street": "Caxton Place"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Commercial St' to 'Commercial Street'",
+      "match": {
+        "street": "Commercial St"
+      },
+      "apply": {
+        "street": "Commercial Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Constables'' to 'Constables Lane'",
+      "match": {
+        "street": "Constables'"
+      },
+      "apply": {
+        "street": "Constables Lane"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Coomassie' to 'Coomassie Street'",
+      "match": {
+        "street": "Coomassie"
+      },
+      "apply": {
+        "street": "Coomassie Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Coowassie Street' to 'Coomassie Street'",
+      "match": {
+        "street": "Coowassie Street"
+      },
+      "apply": {
+        "street": "Coomassie Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Court-y-bella Street' to 'Courtybella Street'",
+      "match": {
+        "street": "Court-y-bella Street"
+      },
+      "apply": {
+        "street": "Courtybella Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Courtybella St' to 'Courtybella Street'",
+      "match": {
+        "street": "Courtybella St"
+      },
+      "apply": {
+        "street": "Courtybella Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Courtybella' to 'Courtybella Street'",
+      "match": {
+        "street": "Courtybella"
+      },
+      "apply": {
+        "street": "Courtybella Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Dorset' to 'Dorset Place'",
+      "match": {
+        "street": "Dorset"
+      },
+      "apply": {
+        "street": "Dorset Place"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Downing' to 'Downing Street'",
+      "match": {
+        "street": "Downing"
+      },
+      "apply": {
+        "street": "Downing Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Duckpool' to 'Duckpool Road'",
+      "match": {
+        "street": "Duckpool"
+      },
+      "apply": {
+        "street": "Duckpool Road"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'East Market St' to 'East Market Street'",
+      "match": {
+        "street": "East Market St"
+      },
+      "apply": {
+        "street": "East Market Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Factroy Road' to 'Factory Road'",
+      "match": {
+        "street": "Factroy Road"
+      },
+      "apply": {
+        "street": "Factory Road"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Ford Street, B' to 'Ford Street'",
+      "match": {
+        "street": "Ford Street, B"
+      },
+      "apply": {
+        "street": "Ford Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Frederick Street, P' to 'Frederick Street'",
+      "match": {
+        "street": "Frederick Street, P"
+      },
+      "apply": {
+        "street": "Frederick Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Harryh Street' to 'Harrhy Street'",
+      "match": {
+        "street": "Harryh Street"
+      },
+      "apply": {
+        "street": "Harrhy Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Ifton Street, L' to 'Ifton Street'",
+      "match": {
+        "street": "Ifton Street, L"
+      },
+      "apply": {
+        "street": "Ifton Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'James Street, P' to 'James Street'",
+      "match": {
+        "street": "James Street, P"
+      },
+      "apply": {
+        "street": "James Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Jeddo Street, P' to 'Jeddo Street'",
+      "match": {
+        "street": "Jeddo Street, P"
+      },
+      "apply": {
+        "street": "Jeddo Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Kensington Pl' to 'Kensington Place'",
+      "match": {
+        "street": "Kensington Pl"
+      },
+      "apply": {
+        "street": "Kensington Place"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Lime Street, P' to 'Lime Street'",
+      "match": {
+        "street": "Lime Street, P"
+      },
+      "apply": {
+        "street": "Lime Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Line Street' to 'Lime Street'",
+      "match": {
+        "street": "Line Street"
+      },
+      "apply": {
+        "street": "Lime Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Llanarth Street. D' to 'Llanarth Street'",
+      "match": {
+        "street": "Llanarth Street. D"
+      },
+      "apply": {
+        "street": "Llanarth Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Llanthamthi Street' to 'Llanthewy Road'",
+      "match": {
+        "street": "Llanthamthi Street"
+      },
+      "apply": {
+        "street": "Llanthewy Road"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Llanthanthi' to 'Llanthewy Road'",
+      "match": {
+        "street": "Llanthanthi"
+      },
+      "apply": {
+        "street": "Llanthewy Road"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Llewellin Street, L' to 'Llewellyn Street'",
+      "match": {
+        "street": "Llewellin Street, L"
+      },
+      "apply": {
+        "street": "Llewellyn Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'London Street, M' to 'London Street'",
+      "match": {
+        "street": "London Street, M"
+      },
+      "apply": {
+        "street": "London Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Lord Street, B.t' to 'Lord Street'",
+      "match": {
+        "street": "Lord Street, B.t"
+      },
+      "apply": {
+        "street": "Lord Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Lords Street' to 'Lord Street'",
+      "match": {
+        "street": "Lords Street"
+      },
+      "apply": {
+        "street": "Lord Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Marion Street, P' to 'Marion Street'",
+      "match": {
+        "street": "Marion Street, P"
+      },
+      "apply": {
+        "street": "Marion Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Marian Street, Pill' to 'Marion Street'",
+      "match": {
+        "street": "Marian Street, Pill"
+      },
+      "apply": {
+        "street": "Marion Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Mendalgfief Road' to 'Mendalgief Road'",
+      "match": {
+        "street": "Mendalgfief Road"
+      },
+      "apply": {
+        "street": "Mendalgief Road"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'New Street, P' to 'New Street'",
+      "match": {
+        "street": "New Street, P"
+      },
+      "apply": {
+        "street": "New Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'New Ruperra St' to 'New Ruperra Street'",
+      "match": {
+        "street": "New Ruperra St"
+      },
+      "apply": {
+        "street": "New Ruperra Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Potter Street, P' to 'Potter Street'",
+      "match": {
+        "street": "Potter Street, P"
+      },
+      "apply": {
+        "street": "Potter Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Potter'S Parade, P' to 'Potters Parade'",
+      "match": {
+        "street": "Potter'S Parade, P"
+      },
+      "apply": {
+        "street": "Potters Parade"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Price' to 'Price Street'",
+      "match": {
+        "street": "Price"
+      },
+      "apply": {
+        "street": "Price Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Prince' to 'Prince Street'",
+      "match": {
+        "street": "Prince"
+      },
+      "apply": {
+        "street": "Prince Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Scard Street. D' to 'Scard Street'",
+      "match": {
+        "street": "Scard Street. D"
+      },
+      "apply": {
+        "street": "Scard Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Screw Packet Rd. C' to 'Screw Packet Road'",
+      "match": {
+        "street": "Screw Packet Rd. C"
+      },
+      "apply": {
+        "street": "Screw Packet Road"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Serpentine Road. C' to 'Serpentine Road'",
+      "match": {
+        "street": "Serpentine Road. C"
+      },
+      "apply": {
+        "street": "Serpentine Road"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Shaftesbury St' to 'Shaftesbury Street'",
+      "match": {
+        "street": "Shaftesbury St"
+      },
+      "apply": {
+        "street": "Shaftesbury Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'South Market St' to 'South Market Street'",
+      "match": {
+        "street": "South Market St"
+      },
+      "apply": {
+        "street": "South Market Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'St. Edward Street D 5/60' to 'St. Edward Street'",
+      "match": {
+        "street": "St. Edward Street D 5/60"
+      },
+      "apply": {
+        "street": "St. Edward Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'St. Mark's Cres' to 'St. Mark's Crescent'",
+      "match": {
+        "street": "St. Mark's Cres"
+      },
+      "apply": {
+        "street": "St. Mark's Crescent"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'St. Stephen’s Road. E' to 'St. Stephen's Road'",
+      "match": {
+        "street": "St. Stephen’s Road. E"
+      },
+      "apply": {
+        "street": "St. Stephen's Road"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'St. Vincent’s Road. C' to 'St. Vincent Road'",
+      "match": {
+        "street": "St. Vincent’s Road. C"
+      },
+      "apply": {
+        "street": "St. Vincent Road"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'St. Vincent's Road' to 'St. Vincent Road'",
+      "match": {
+        "street": "St. Vincent's Road"
+      },
+      "apply": {
+        "street": "St. Vincent Road"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'St. Woolos Place. D' to 'St. Woolos Place'",
+      "match": {
+        "street": "St. Woolos Place. D"
+      },
+      "apply": {
+        "street": "St. Woolos Place"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'St. Woolos Road. D' to 'St. Woolos Road'",
+      "match": {
+        "street": "St. Woolos Road. D"
+      },
+      "apply": {
+        "street": "St. Woolos Road"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Summer Hill Av' to 'Summerhill Avenue'",
+      "match": {
+        "street": "Summer Hill Av"
+      },
+      "apply": {
+        "street": "Summerhill Avenue"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Summer Hill Avenue' to 'Summerhill Avenue'",
+      "match": {
+        "street": "Summer Hill Avenue"
+      },
+      "apply": {
+        "street": "Summerhill Avenue"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Temple Street, P' to 'Temple Street'",
+      "match": {
+        "street": "Temple Street, P"
+      },
+      "apply": {
+        "street": "Temple Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Tgare Street' to 'Tregare Street'",
+      "match": {
+        "street": "Tgare Street"
+      },
+      "apply": {
+        "street": "Tregare Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Tredegar Street, P' to 'Tredegar Street'",
+      "match": {
+        "street": "Tredegar Street, P"
+      },
+      "apply": {
+        "street": "Tredegar Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Triley Street, M' to 'Triley Street'",
+      "match": {
+        "street": "Triley Street, M"
+      },
+      "apply": {
+        "street": "Triley Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Trinity Place, P' to 'Trinity Place'",
+      "match": {
+        "street": "Trinity Place, P"
+      },
+      "apply": {
+        "street": "Trinity Place"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Watchhouse Par. P' to 'Watchhouse Parade'",
+      "match": {
+        "street": "Watchhouse Par. P"
+      },
+      "apply": {
+        "street": "Watchhouse Parade"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Water'S Lane' to 'Waters Lane'",
+      "match": {
+        "street": "Water'S Lane"
+      },
+      "apply": {
+        "street": "Waters Lane"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Wednesbury St' to 'Wednesbury Street'",
+      "match": {
+        "street": "Wednesbury St"
+      },
+      "apply": {
+        "street": "Wednesbury Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'West Market St' to 'West Market Street'",
+      "match": {
+        "street": "West Market St"
+      },
+      "apply": {
+        "street": "West Market Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Westville' to 'Westville Road'",
+      "match": {
+        "street": "Westville"
+      },
+      "apply": {
+        "street": "Westville Road"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Whitby Place, B.t' to 'Whitby Place'",
+      "match": {
+        "street": "Whitby Place, B.t"
+      },
+      "apply": {
+        "street": "Whitby Place"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Williams Street, P' to 'Williams Street'",
+      "match": {
+        "street": "Williams Street, P"
+      },
+      "apply": {
+        "street": "Williams Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Windsor Terrace, B' to 'Windsor Terrace'",
+      "match": {
+        "street": "Windsor Terrace, B"
+      },
+      "apply": {
+        "street": "Windsor Terrace"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Withey' to 'Withey Bed'",
+      "match": {
+        "street": "Withey"
+      },
+      "apply": {
+        "street": "Withey Bed"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Witham' to 'Witham Street'",
+      "match": {
+        "street": "Witham"
+      },
+      "apply": {
+        "street": "Witham Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Wolseley Street, P' to 'Wolseley Street'",
+      "match": {
+        "street": "Wolseley Street, P"
+      },
+      "apply": {
+        "street": "Wolseley Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Wolesly' to 'Wolseley Street'",
+      "match": {
+        "street": "Wolesly"
+      },
+      "apply": {
+        "street": "Wolseley Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Caxton Street' to 'Caxton Place'",
+      "match": {
+        "street": "Caxton Street"
+      },
+      "apply": {
+        "street": "Caxton Place"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Clytha Council' to 'Clytha Park Road'",
+      "match": {
+        "street": "Clytha Council"
+      },
+      "apply": {
+        "street": "Clytha Park Road"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Clythrough Road' to 'Clytha Square'",
+      "match": {
+        "street": "Clythrough Road"
+      },
+      "apply": {
+        "street": "Clytha Square"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Rock Dale' to 'Rockfield Road'",
+      "match": {
+        "street": "Rock Dale"
+      },
+      "apply": {
+        "street": "Rockfield Road"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Eveswell Park' to 'Eveswell Park Road'",
+      "match": {
+        "street": "Eveswell Park"
+      },
+      "apply": {
+        "street": "Eveswell Park Road"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Eseswell Park' to 'Eveswell Park Road'",
+      "match": {
+        "street": "Eseswell Park"
+      },
+      "apply": {
+        "street": "Eveswell Park Road"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Eswewell Park' to 'Eveswell Park Road'",
+      "match": {
+        "street": "Eswewell Park"
+      },
+      "apply": {
+        "street": "Eveswell Park Road"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Chapel' to 'Chapel Street'",
+      "match": {
+        "street": "Chapel"
+      },
+      "apply": {
+        "street": "Chapel Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Cattle Market' to 'Commercial Road'",
+      "match": {
+        "street": "Cattle Market"
+      },
+      "apply": {
+        "street": "Commercial Road"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Christchurch Cemetery' to 'Christchurch Road'",
+      "match": {
+        "street": "Christchurch Cemetery"
+      },
+      "apply": {
+        "street": "Christchurch Road"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Corporation Baths And Gymnasium' to 'Carlisle Place'",
+      "match": {
+        "street": "Corporation Baths And Gymnasium"
+      },
+      "apply": {
+        "street": "Carlisle Place"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Corporation Market Yard' to 'Commercial Road'",
+      "match": {
+        "street": "Corporation Market Yard"
+      },
+      "apply": {
+        "street": "Commercial Road"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Corporation Yard' to 'Commercial Road'",
+      "match": {
+        "street": "Corporation Yard"
+      },
+      "apply": {
+        "street": "Commercial Road"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Edwards Ltd., 'Sports' Outfitters, 64 Commercial Street. Tel. 531' to 'Commercial Street'",
+      "match": {
+        "street": "Edwards Ltd., 'Sports' Outfitters, 64 Commercial Street. Tel. 531"
+      },
+      "apply": {
+        "street": "Commercial Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Edwards Ltd., Gunmakers & Sports' Outfitters, 64 Commercial Street' to 'Commercial Street'",
+      "match": {
+        "street": "Edwards Ltd., Gunmakers & Sports' Outfitters, 64 Commercial Street"
+      },
+      "apply": {
+        "street": "Commercial Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'F.r.c.s.i' to 'Commercial Street'",
+      "match": {
+        "street": "F.r.c.s.i"
+      },
+      "apply": {
+        "street": "Commercial Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'F.s.i' to 'Commercial Street'",
+      "match": {
+        "street": "F.s.i"
+      },
+      "apply": {
+        "street": "Commercial Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Francis' Dye Works, 26 Church Road Maindee' to 'Church Road'",
+      "match": {
+        "street": "Francis' Dye Works, 26 Church Road Maindee"
+      },
+      "apply": {
+        "street": "Church Road"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Francis' Dye Works, 26 Church Road, Maindee. Estab' to 'Church Road'",
+      "match": {
+        "street": "Francis' Dye Works, 26 Church Road, Maindee. Estab"
+      },
+      "apply": {
+        "street": "Church Road"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Francis' Dye Works, 26 Church Road, Maindee. Estab. 1890' to 'Church Road'",
+      "match": {
+        "street": "Francis' Dye Works, 26 Church Road, Maindee. Estab. 1890"
+      },
+      "apply": {
+        "street": "Church Road"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Francis' Dye Works, 26 Church Road, Mandee. Estab. 1890' to 'Church Road'",
+      "match": {
+        "street": "Francis' Dye Works, 26 Church Road, Mandee. Estab. 1890"
+      },
+      "apply": {
+        "street": "Church Road"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'G.W.R' to 'High Street'",
+      "match": {
+        "street": "G.W.R"
+      },
+      "apply": {
+        "street": "High Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Gibbon H. railway gu'rd' to 'Railway Street'",
+      "match": {
+        "street": "Gibbon H. railway gu'rd"
+      },
+      "apply": {
+        "street": "Railway Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Geo. Greenland & Sons, Proprietors. Telephone 2416' to 'Commercial Street'",
+      "match": {
+        "street": "Geo. Greenland & Sons, Proprietors. Telephone 2416"
+      },
+      "apply": {
+        "street": "Commercial Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Geo. Greenland & Sons, Proprietors. Nat. Tel. 0180' to 'Commercial Street'",
+      "match": {
+        "street": "Geo. Greenland & Sons, Proprietors. Nat. Tel. 0180"
+      },
+      "apply": {
+        "street": "Commercial Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'H. C. P' to 'Commercial Street'",
+      "match": {
+        "street": "H. C. P"
+      },
+      "apply": {
+        "street": "Commercial Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Herbert Edwards Ltd' to 'Commercial Street'",
+      "match": {
+        "street": "Herbert Edwards Ltd"
+      },
+      "apply": {
+        "street": "Commercial Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Higher' to 'High Street'",
+      "match": {
+        "street": "Higher"
+      },
+      "apply": {
+        "street": "High Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Holy Cross' to 'St. Woolos Road'",
+      "match": {
+        "street": "Holy Cross"
+      },
+      "apply": {
+        "street": "St. Woolos Road"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Holy Trinity' to 'Trinity Place'",
+      "match": {
+        "street": "Holy Trinity"
+      },
+      "apply": {
+        "street": "Trinity Place"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Hughing' to 'High Street'",
+      "match": {
+        "street": "Hughing"
+      },
+      "apply": {
+        "street": "High Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'L. & N.w.r' to 'High Street'",
+      "match": {
+        "street": "L. & N.w.r"
+      },
+      "apply": {
+        "street": "High Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'L.r.c.p' to 'Commercial Street'",
+      "match": {
+        "street": "L.r.c.p"
+      },
+      "apply": {
+        "street": "Commercial Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Langmaid, House Agent, Newport And Blackwood' to 'High Street'",
+      "match": {
+        "street": "Langmaid, House Agent, Newport And Blackwood"
+      },
+      "apply": {
+        "street": "High Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Langmaid, Western Mail Chambers, High Street, Newport' to 'High Street'",
+      "match": {
+        "street": "Langmaid, Western Mail Chambers, High Street, Newport"
+      },
+      "apply": {
+        "street": "High Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Largest Furniture Showrooms In South Wales' to 'Commercial Street'",
+      "match": {
+        "street": "Largest Furniture Showrooms In South Wales"
+      },
+      "apply": {
+        "street": "Commercial Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'M.b., B.ch' to 'Commercial Street'",
+      "match": {
+        "street": "M.b., B.ch"
+      },
+      "apply": {
+        "street": "Commercial Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'M.o., S.b. & A. I. Office' to 'Commercial Street'",
+      "match": {
+        "street": "M.o., S.b. & A. I. Office"
+      },
+      "apply": {
+        "street": "Commercial Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'M.o., S.b., A. & I' to 'Commercial Street'",
+      "match": {
+        "street": "M.o., S.b., A. & I"
+      },
+      "apply": {
+        "street": "Commercial Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'M.r.c.s' to 'Commercial Street'",
+      "match": {
+        "street": "M.r.c.s"
+      },
+      "apply": {
+        "street": "Commercial Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Maindee Schools' to 'Maindee'",
+      "match": {
+        "street": "Maindee Schools"
+      },
+      "apply": {
+        "street": "Maindee"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Mourning Orders Promptly Attended To. Telephone 2080' to 'Commercial Street'",
+      "match": {
+        "street": "Mourning Orders Promptly Attended To. Telephone 2080"
+      },
+      "apply": {
+        "street": "Commercial Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Newport Elementary' to 'Commercial Street'",
+      "match": {
+        "street": "Newport Elementary"
+      },
+      "apply": {
+        "street": "Commercial Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'P. E. Gane Ltd., 161–162 Commercial Street, Newport' to 'Carlisle Place'",
+      "match": {
+        "street": "P. E. Gane Ltd., 161–162 Commercial Street, Newport"
+      },
+      "apply": {
+        "street": "Carlisle Place"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'P. E. Gane Ltd., Commercial Street, Newport' to 'Commercial Street'",
+      "match": {
+        "street": "P. E. Gane Ltd., Commercial Street, Newport"
+      },
+      "apply": {
+        "street": "Commercial Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'P. E. Gane Ltd., Furnishers, Commercial Street, Newport' to 'Commercial Street'",
+      "match": {
+        "street": "P. E. Gane Ltd., Furnishers, Commercial Street, Newport"
+      },
+      "apply": {
+        "street": "Commercial Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Poole G. T' to 'Commercial Street'",
+      "match": {
+        "street": "Poole G. T"
+      },
+      "apply": {
+        "street": "Commercial Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Pillgwenlly Post Office T. & M.o., S.b., And A. And I. Office' to 'Commercial Road'",
+      "match": {
+        "street": "Pillgwenlly Post Office T. & M.o., S.b., And A. And I. Office"
+      },
+      "apply": {
+        "street": "Commercial Road"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'R. H. Johns Ltd., Paper Merchants, 46 Commercial Street, Newport' to 'Commercial Street'",
+      "match": {
+        "street": "R. H. Johns Ltd., Paper Merchants, 46 Commercial Street, Newport"
+      },
+      "apply": {
+        "street": "Commercial Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'R. H. Johns Ltd., Printers & Stationers, 46 Commercial St., Newport' to 'Commercial Street'",
+      "match": {
+        "street": "R. H. Johns Ltd., Printers & Stationers, 46 Commercial St., Newport"
+      },
+      "apply": {
+        "street": "Commercial Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'R.a.o.b' to 'Commercial Street'",
+      "match": {
+        "street": "R.a.o.b"
+      },
+      "apply": {
+        "street": "Commercial Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'R.f.a' to 'Commercial Street'",
+      "match": {
+        "street": "R.f.a"
+      },
+      "apply": {
+        "street": "Commercial Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'S. John Baptist' to 'Church Street'",
+      "match": {
+        "street": "S. John Baptist"
+      },
+      "apply": {
+        "street": "Church Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'St. James' Church' to 'St. James Street'",
+      "match": {
+        "street": "St. James' Church"
+      },
+      "apply": {
+        "street": "St. James Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'St. Mary Street Baptist' to 'St. Mary Street'",
+      "match": {
+        "street": "St. Mary Street Baptist"
+      },
+      "apply": {
+        "street": "St. Mary Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'St. Mary Street Baptist Chapel' to 'St. Mary Street'",
+      "match": {
+        "street": "St. Mary Street Baptist Chapel"
+      },
+      "apply": {
+        "street": "St. Mary Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'St. Matthew'S Church' to 'St. Matthew Street'",
+      "match": {
+        "street": "St. Matthew'S Church"
+      },
+      "apply": {
+        "street": "St. Matthew Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 't.s.o' to 'Commercial Street'",
+      "match": {
+        "street": "t.s.o"
+      },
+      "apply": {
+        "street": "Commercial Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Telephone' to 'Commercial Street'",
+      "match": {
+        "street": "Telephone"
+      },
+      "apply": {
+        "street": "Commercial Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'The Provision Market' to 'Market Street'",
+      "match": {
+        "street": "The Provision Market"
+      },
+      "apply": {
+        "street": "Market Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Town Hall' to 'Commercial Street'",
+      "match": {
+        "street": "Town Hall"
+      },
+      "apply": {
+        "street": "Commercial Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Trapnell' to 'Commercial Street'",
+      "match": {
+        "street": "Trapnell"
+      },
+      "apply": {
+        "street": "Commercial Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Tredegar Corn Exchange' to 'Commercial Street'",
+      "match": {
+        "street": "Tredegar Corn Exchange"
+      },
+      "apply": {
+        "street": "Commercial Street"
+      }
+    },
+    {
+      "reason": "Batch audit: Map 'Victoria Hall' to 'Victoria Road'",
+      "match": {
+        "street": "Victoria Hall"
+      },
+      "apply": {
+        "street": "Victoria Road"
+      }
+    },
+    {
+      "reason": "Batch audit: Reassign 1893 Arlington Street records to Stow Hill (Arlington Terrace)",
+      "match": {
+        "street": "Arlington Street",
+        "year": "1893"
+      },
+      "apply": {
+        "street": "Stow Hill"
+      }
+    },
+    {
+      "reason": "Batch audit: Merge 'Caerleon' into 'Caerleon Road'",
+      "match": {
+        "street": "Caerleon"
+      },
+      "apply": {
+        "street": "Caerleon Road"
+      }
+    },
+    {
+      "reason": "Alice Street: Standardized record formatting for house 1",
+      "match": {
+        "street": "Alice Street",
+        "year": "1893",
+        "surname_contains": "W"
+      },
+      "apply": {
+        "house_number": "1",
+        "building_name": "",
+        "surname": "Brown",
+        "forename": "W",
+        "trade": "Printer",
         "source_type": "Primary"
       }
     }
