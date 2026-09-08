@@ -11,6 +11,7 @@ API_KEY = os.environ.get("GOOGLE_MAPS_API_KEY", "")
 if not API_KEY:
     # Optional local fallback / placeholder
     print("Warning: GOOGLE_MAPS_API_KEY environment variable not set.")
+MASTER_JSON_PATH = "master_streets.json"
 OUTPUT_DIR = "assets/images/streetview"
 
 ssl_context = ssl.create_default_context()
