@@ -721,19 +721,42 @@ let selectedIndex = -1;
       const summary = streetData.summary || {};
       const formerNames = summary.formerNames || [];
       const renamedTo = summary.renamedTo || summary.modernName || '';
+      const lat = summary.latitude || '';
+      const lon = summary.longitude || '';
+      const streetSlug = cleanSlug(displayName);
       
+      const heroMediaElem = document.getElementById('street-hero-media');
+      if (heroMediaElem) {
+        if (lat && lon) {
+          heroMediaElem.innerHTML = `
+            <div style="border: 1px solid var(--accent-muted); border-radius: 10px; overflow: hidden; background: #120f0d; box-shadow: 0 8px 24px rgba(0,0,0,0.5);">
+              <div style="position: relative; overflow: hidden; height: 210px; background: #000;">
+                <img src="assets/images/streetview/${streetSlug}.jpg" alt="${displayName} Street View" style="width: 100%; height: 100%; object-fit: cover; display: block;" onerror="this.onerror=null; document.getElementById('street-hero-media').style.display='none';" />
+              </div>
+              <div style="padding: 0.6rem 0.9rem; background: rgba(18, 15, 13, 0.95); font-size: 0.82rem; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid var(--accent-muted);">
+                <span style="color: var(--accent); font-weight: 500; display: inline-flex; align-items: center; gap: 0.3rem;">📍 <strong>${lat}, ${lon}</strong></span>
+                <a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${lat},${lon}" target="_blank" rel="noopener" style="color: var(--accent); text-decoration: underline; font-weight: 600;">Explore Street View ↗</a>
+              </div>
+            </div>`;
+          heroMediaElem.style.display = 'block';
+        } else {
+          heroMediaElem.style.display = 'none';
+          heroMediaElem.innerHTML = '';
+        }
+      }
+
       let formerHTML = '';
       if (renamedTo) {
-        formerHTML += `<div style="margin-top: 0.5rem; display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
-            <span style="font-size: 0.85rem; color: var(--accent); background: rgba(200, 157, 84, 0.15); border: 1px solid var(--accent-muted); padding: 0.2rem 0.6rem; border-radius: 12px; font-weight: 500;">
+        formerHTML += `<div style="margin-top: 0.75rem; display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+            <span style="font-size: 0.85rem; color: var(--accent); background: rgba(200, 157, 84, 0.15); border: 1px solid var(--accent-muted); padding: 0.25rem 0.65rem; border-radius: 12px; font-weight: 500;">
               🔀 Renamed to: <a href="#street=${encodeURIComponent(renamedTo)}" style="color: var(--accent); text-decoration: underline; font-weight: 600;">${renamedTo}</a>
             </span>
            </div>`;
       }
       if (formerNames.length > 0) {
         const formerLinks = formerNames.map(fn => `<a href="#street=${encodeURIComponent(fn)}" style="color: var(--accent); text-decoration: underline; font-weight: 600;">${fn}</a>`).join(', ');
-        formerHTML += `<div style="margin-top: 0.5rem; display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
-            <span style="font-size: 0.85rem; color: var(--accent); background: rgba(200, 157, 84, 0.15); border: 1px solid var(--accent-muted); padding: 0.2rem 0.6rem; border-radius: 12px; font-weight: 500;">
+        formerHTML += `<div style="margin-top: 0.75rem; display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+            <span style="font-size: 0.85rem; color: var(--accent); background: rgba(200, 157, 84, 0.15); border: 1px solid var(--accent-muted); padding: 0.25rem 0.65rem; border-radius: 12px; font-weight: 500;">
               📜 Formerly recorded as: <strong>${formerLinks}</strong>
             </span>
            </div>`;
@@ -2045,9 +2068,24 @@ let selectedIndex = -1;
       document.getElementById('reg-numbering-year').value = (entry.numbering_scheme && entry.numbering_scheme.approx_change_year) ? entry.numbering_scheme.approx_change_year : '';
       document.getElementById('reg-district').value = entry.district || '';
       document.getElementById('reg-parish').value = entry.parish || '';
-      document.getElementById('reg-latitude').value = (entry.coordinates && entry.coordinates.lat) ? entry.coordinates.lat : '';
-      document.getElementById('reg-longitude').value = (entry.coordinates && entry.coordinates.lng) ? entry.coordinates.lng : '';
+      const lat = entry.latitude || (entry.coordinates && entry.coordinates.lat) || '';
+      const lng = entry.longitude || (entry.coordinates && entry.coordinates.lng) || '';
+      const heading = entry.heading !== undefined ? entry.heading : '';
+      document.getElementById('reg-latitude').value = lat;
+      document.getElementById('reg-longitude').value = lng;
+      document.getElementById('reg-heading').value = heading;
       document.getElementById('reg-notes').value = entry.notes || (entry.audit && entry.audit.notes) || '';
+
+      const previewContainer = document.getElementById('reg-streetview-preview-container');
+      const previewImg = document.getElementById('reg-streetview-img');
+      const previewLink = document.getElementById('reg-streetview-link');
+      if (lat && lng) {
+        previewImg.src = `assets/images/streetview/${slug}.jpg`;
+        previewLink.href = `https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${lat},${lng}`;
+        previewContainer.style.display = 'block';
+      } else {
+        previewContainer.style.display = 'none';
+      }
 
       document.getElementById('master-registry-modal-overlay').classList.add('active');
     }
@@ -2072,6 +2110,7 @@ let selectedIndex = -1;
       const parish = document.getElementById('reg-parish').value.trim();
       const latitude = document.getElementById('reg-latitude').value.trim();
       const longitude = document.getElementById('reg-longitude').value.trim();
+      const heading = document.getElementById('reg-heading').value.trim();
       const notes = document.getElementById('reg-notes').value.trim();
 
       const registryOverride = {
@@ -2087,6 +2126,9 @@ let selectedIndex = -1;
         },
         district: district,
         parish: parish,
+        latitude: latitude,
+        longitude: longitude,
+        heading: heading !== '' ? parseFloat(heading) : null,
         coordinates: {
           lat: latitude ? parseFloat(latitude) : null,
           lng: longitude ? parseFloat(longitude) : null
@@ -2100,7 +2142,12 @@ let selectedIndex = -1;
       updateOverrideDrawer();
       closeMasterRegistryModal();
 
-      renderStreetsView();
+      if (window.location.hash.startsWith('#street=')) {
+        const rawStreet = decodeURIComponent(window.location.hash.substring(8));
+        renderStreetView(rawStreet);
+      } else if (window.location.hash === '#streets') {
+        renderStreetsView();
+      }
     }
 
     // --- Master Street CSV Export & Import ---

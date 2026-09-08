@@ -256,18 +256,28 @@
 
   <!-- SINGLE STREET VIEW -->
   <section id="view-street" class="view">
-    <div class="topo-bg page-banner">
+    <div class="topo-bg page-banner" style="padding-bottom: 2.5rem;">
       <div class="page-width">
         <div class="breadcrumb"><a href="#home">Home</a> &rarr; <a href="#streets">Streets</a> &rarr; <span id="street-title">Street</span></div>
         <span class="label-tag">Street Directory</span>
-        <div class="property-heading-line" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
-          <span class="street" id="street-heading">Properties</span>
-          <div style="display: flex; gap: 0.75rem; align-items: center;">
-            <button class="master-registry-btn" id="btn-edit-master-registry" onclick="openMasterRegistryModal()" style="display: inline-flex; align-items: center; gap: 0.4rem; background: rgba(200, 157, 84, 0.12); color: var(--accent); border: 1px solid var(--accent-muted); padding: 0.45rem 0.9rem; border-radius: 6px; font-weight: 600; cursor: pointer; transition: all 0.2s ease;">🏛️ Registry Settings</button>
-            <button class="btn-add-record" onclick="openAddPropertyModal()" style="display: inline-flex; align-items: center; gap: 0.4rem; background: rgba(200, 157, 84, 0.15); color: var(--accent); border: 1px solid rgba(200, 157, 84, 0.4); padding: 0.45rem 0.9rem; border-radius: 6px; font-weight: 600; cursor: pointer; transition: all 0.2s ease;">➕ Add Property / Record</button>
+        
+        <div class="street-hero-layout" style="display: flex; gap: 2rem; justify-content: space-between; align-items: flex-start; margin-top: 0.5rem; flex-wrap: wrap;">
+          <div class="street-hero-main" style="flex: 1 1 450px; min-width: 280px;">
+            <div class="property-heading-line" style="margin-bottom: 0.5rem;">
+              <span class="street" id="street-heading">Properties</span>
+            </div>
+            <div class="property-intro-text" id="street-intro" style="color: var(--muted); font-size: 1.05rem; line-height: 1.6;"></div>
+            
+            <div style="display: flex; gap: 0.75rem; align-items: center; margin-top: 1.25rem; flex-wrap: wrap;">
+              <button class="master-registry-btn" id="btn-edit-master-registry" onclick="openMasterRegistryModal()" style="display: inline-flex; align-items: center; gap: 0.4rem; background: rgba(200, 157, 84, 0.12); color: var(--accent); border: 1px solid var(--accent-muted); padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; cursor: pointer; transition: all 0.2s ease;">🏛️ Registry Settings</button>
+              <button class="btn-add-record" onclick="openAddPropertyModal()" style="display: inline-flex; align-items: center; gap: 0.4rem; background: rgba(200, 157, 84, 0.15); color: var(--accent); border: 1px solid rgba(200, 157, 84, 0.4); padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; cursor: pointer; transition: all 0.2s ease;">➕ Add Property / Record</button>
+            </div>
+          </div>
+
+          <div id="street-hero-media" class="street-hero-media" style="display: none; flex: 0 0 380px; width: 100%; max-width: 420px;">
+            <!-- Rendered dynamically in app.js -->
           </div>
         </div>
-        <div class="property-intro-text" id="street-intro" style="margin-top: 0.5rem; color: var(--muted); font-size: 1.05rem;"></div>
       </div>
     </div>
     <div class="content-container page-width">
@@ -510,6 +520,21 @@
         <div class="form-group">
           <label class="form-label">Longitude (Pinpoint Coordinates)</label>
           <input type="text" id="reg-longitude" class="form-input" placeholder="e.g. -2.9977" />
+        </div>
+
+        <div class="form-group full-width">
+          <label class="form-label">Camera Angle / Heading (Optional 0°–360° Override)</label>
+          <input type="text" id="reg-heading" class="form-input" placeholder="Leave empty for auto road direction (e.g. 180 for South)" />
+        </div>
+
+        <div class="form-group full-width" id="reg-streetview-preview-container" style="display: none; margin-top: 0.5rem;">
+          <label class="form-label">📷 Street View Preview</label>
+          <div style="border: 1px solid var(--accent-muted); border-radius: 8px; overflow: hidden; background: #000; text-align: center; position: relative;">
+            <img id="reg-streetview-img" src="" alt="Street View" style="width: 100%; max-height: 220px; object-fit: cover; display: block;" />
+            <div style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.75); padding: 4px 8px; border-radius: 4px; font-size: 0.75rem; color: var(--accent);">
+              <a id="reg-streetview-link" href="#" target="_blank" rel="noopener" style="color: #fff; text-decoration: underline;">Open Google Maps ↗</a>
+            </div>
+          </div>
         </div>
 
         <div class="form-group full-width">
