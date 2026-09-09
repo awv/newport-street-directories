@@ -300,19 +300,29 @@
       clean = clean.replace(/^(?:\d+\s+)?(?:do\.?|ditto)\s*[\.,]*\s*(?:\[(.*?)\]|(.*?))$/i, (m, g1, g2) => (g1 || g2 || '').trim());
       clean = clean.replace(/^[-—_\|,\s]+/, '').replace(/[-—_\|,\s]+$/, '').trim();
 
-      // Strip leading house/flat numbers (e.g. "4a, Workers" -> "Workers", "29, Independent..." -> "Independent...")
-      clean = clean.replace(/^\d+[a-z]?\s*,\s*/i, '').trim();
+      // Strip trailing or embedded house numbers from institutional spills (e.g. "Duffryn Junior High 22" -> "Duffryn Junior High", "Independent Order Of 29" -> "Independent Order")
+      clean = clean
+        .replace(/\s+\d+[a-z]?$/i, '')
+        .replace(/^\d+[a-z]?\s+/i, '')
+        .trim();
 
-      if (!clean || clean === '-' || clean === '—' || NON_TRADES_REGEX.test(clean)) {
-        return 'Residence / Private';
+      // Clean municipal address spills & institution fragment lines
+      if (
+        /^(county borough of|council offices|home for the aged|home for aged|aged \(men\)|aged \(females\))/i.test(clean) ||
+        /^(independent order of|adult education|british steel corporation|engineering & foundry)/i.test(clean)
+      ) {
+        if (/county borough of/i.test(clean)) return 'Municipal / Council Office';
+        if (/home for/i.test(clean) || /aged \(/i.test(clean)) return 'Care Home / Residential Home';
+        if (/independent order/i.test(clean)) return 'Friendly Society / Lodge';
+        if (/adult education/i.test(clean)) return 'Educational Institution';
+        if (/british steel/i.test(clean)) return 'Steel Works / Office';
+        if (/engineering & foundry/i.test(clean)) return 'Engineering & Foundry';
       }
 
-      // Clean trailing ", &c" / ", etc" / "(return)" / Phone number suffixes
-      clean = clean
-        .replace(/[\,;\s]+(?:&c|etc)\.?$/i, '')
-        .replace(/\s*\(\s*return\s*\)\.?$/i, '')
-        .replace(/\s*\(\s*tel\.?\s*\d+.*?\)$/i, '')
-        .trim();
+      // Handle School institutional titles (e.g. "Duffryn Junior High 22" -> "School / High School")
+      if (/school|junior high|senior high|grammar school|convent school/i.test(clean)) {
+        return 'School / Educational Institution';
+      }
 
       // 2. Specific multi-line commercial consolidations & compound expansions
       if (/newsagent.*stationer/i.test(clean)) return 'Newsagent & Stationer';
