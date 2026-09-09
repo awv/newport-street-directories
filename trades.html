@@ -108,6 +108,33 @@
 
     .count-col { width: 120px; font-weight: 600; color: var(--accent); }
     .example-col { color: var(--muted); font-size: 0.9rem; }
+
+    .btn {
+      padding: 0.75rem 1.25rem;
+      border-radius: 4px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      cursor: pointer;
+      border: 1px solid var(--card-border);
+      background: var(--card-bg);
+      color: var(--text);
+      transition: all 0.2s ease;
+    }
+
+    .btn:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .btn-secondary {
+      background: rgba(200, 157, 84, 0.1);
+      border-color: rgba(200, 157, 84, 0.3);
+      color: var(--accent);
+    }
+
+    .btn-secondary:hover {
+      background: rgba(200, 157, 84, 0.2);
+    }
   </style>
 </head>
 <body>
@@ -118,7 +145,10 @@
         <h1>Occupation Audit</h1>
         <div class="subtitle">Reviewing unique trades across Newport Directory records</div>
       </div>
-      <div class="stats-badge" id="total-count">0 Unique Trades Found</div>
+      <div style="display: flex; gap: 1rem; align-items: center;">
+        <button id="view-overrides-btn" class="btn btn-secondary" onclick="showOverridesModal()">Rules (0)</button>
+        <div class="stats-badge" id="total-count">0 Unique Trades Found</div>
+      </div>
     </header>
 
     <div class="controls">
@@ -131,26 +161,35 @@
           <th>Occupation / Trade</th>
           <th class="count-col">Frequency</th>
           <th class="example-col">Sample Entry</th>
+          <th style="width: 140px; text-align: right;">Action</th>
         </tr>
       </thead>
       <tbody id="trade-table-body">
-        <tr><td colspan="3" style="color: var(--muted);">Loading trade records...</td></tr>
+        <tr><td colspan="4" style="color: var(--muted);">Loading trade records...</td></tr>
       </tbody>
     </table>
   </div>
 
   <script>
-    let tradeMap = new Map();
+    // Overrides management via localStorage
+    let tradeOverrides = JSON.parse(localStorage.getItem('trade_overrides') || '{}');
 
-    const NON_TRADES_REGEX = /^(mrs\.?|miss\.?|mr\.?|thos\.?|jas\.?|wm\.?|saml\.?|john|geo\.?|chas\.?|hy\.?|richd\.?|harry|ernest|fredk\.?|arthur|edwd\.?|walt\.?|david|danl\.?|benj\.?|stepn\.?|iss e|ltd\.?|limited|co\.?|& co\.?|co\.? ltd\.?|ld\.?|henry|joseph|albert|reginald|harold|alfred|frank|edward|herbert|edwin|fred|norman|ivor|stanley|leslie|sidney|horace|edgar|lewis|percy|wilfred|bernard|eric|clifford|trevor)$/i;
+    function saveOverrides() {
+      localStorage.setItem('trade_overrides', JSON.stringify(tradeOverrides));
+    }
 
     function cleanOccupation(trade) {
       if (!trade) return 'Residence / Private';
 
       let clean = trade.trim();
 
-      // Clean dittos, dashes, pipes, underscores, and standalone symbols
-      if (/^(do\.?|ditto|[-—_\|]+|&c|etc|\.|\,)$/i.test(clean) || NON_TRADES_REGEX.test(clean)) {
+      // Check user overrides first
+      if (tradeOverrides[clean.toLowerCase()]) {
+        return tradeOverrides[clean.toLowerCase()];
+      }
+
+      // Clean dittos, dashes, pipes, underscores, JSON blobs, and standalone symbols
+      if (/^(do\.?|ditto|[-—_\|\\\[\]\{\}\.\,\&\;\:\?\!]+|&c|etc|\(?return\)?\.?|;;;)$/i.test(clean) || NON_TRADES_REGEX.test(clean)) {
         return 'Residence / Private';
       }
 
@@ -162,8 +201,8 @@
         return 'Residence / Private';
       }
 
-      // Clean trailing ", &c" / ", etc" suffixes
-      clean = clean.replace(/[\,;\s]+(?:&c|etc)\.?$/i, '').trim();
+      // Clean trailing ", &c" / ", etc" / "(return)" suffixes
+      clean = clean.replace(/[\,;\s]+(?:&c|etc)\.?$/i, '').replace(/\s*\(\s*return\s*\)\.?$/i, '').trim();
 
       // 1. Specific compound word & suffix expansions
       clean = clean
@@ -198,9 +237,11 @@
         .replace(/\belec\s+engineer\b/gi, 'Electrical Engineer')
         .replace(/\bstl\s+worker\b/gi, 'Steel Worker')
         .replace(/\bmotor\s+(drvr|dr)\b/gi, 'Motor Driver')
-        .replace(/\bins\s+agt\b/gi, 'Insurance Agent')
+        .replace(/\bins\.?\s*agt\.?\b/gi, 'Insurance Agent')
+        .replace(/\binsur\.?\s*agent\b/gi, 'Insurance Agent')
         .replace(/\bins\s+mercht?\b/gi, 'Insurance Merchant')
         .replace(/\bcoal\s+mercht?\b/gi, 'Coal Merchant')
+        .replace(/\bcoal\s+mer\b/gi, 'Coal Merchant')
         .replace(/\bpostmn\b/gi, 'Postman')
         .replace(/\bcivil\s+serv(t|nt)\b/gi, 'Civil Servant')
         .replace(/\bdk\s+worker\b/gi, 'Dock Worker')
@@ -314,22 +355,24 @@
       return clean;
     }
 
+    let csvLinesRaw = [];
+
     async function loadTrades() {
       try {
         const response = await fetch('data.csv');
         const text = await response.text();
-        parseAndGroupTrades(text);
+        csvLinesRaw = text.trim().split('\n');
+        parseAndGroupTrades();
       } catch (err) {
         console.error("Failed to load CSV", err);
       }
     }
 
-    function parseAndGroupTrades(text) {
-      const lines = text.trim().split('\n');
+    function parseAndGroupTrades() {
       tradeMap.clear();
 
-      for (let i = 1; i < lines.length; i++) {
-        const line = lines[i].trim();
+      for (let i = 1; i < csvLinesRaw.length; i++) {
+        const line = csvLinesRaw[i].trim();
         if (!line) continue;
 
         const cols = line.split(/,(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)/).map(c => c.replace(/^"|"$/g, '').trim());
@@ -337,29 +380,65 @@
 
         let surname = cols[4] || '';
         let forename = cols[5] || '';
-        let trade = cols[6] || '';
+        let rawTrade = cols[6] || '';
 
         // Handle Thompson name/trade split fix
-        if (forename && !trade) {
+        if (forename && !rawTrade) {
           const match = forename.match(/^([A-Z]\.?(?:\s+[A-Z]\.?)?)\s+([a-z].*)$/);
           if (match) {
             forename = match[1];
-            trade = match[2];
+            rawTrade = match[2];
           }
         }
 
-        const tradeKey = cleanOccupation(trade);
+        const tradeKey = cleanOccupation(rawTrade);
         const sampleName = `${forename} ${surname}`.trim();
 
         if (tradeMap.has(tradeKey)) {
           const item = tradeMap.get(tradeKey);
           item.count++;
+          if (rawTrade && !item.rawSamples.includes(rawTrade)) {
+            item.rawSamples.push(rawTrade);
+          }
         } else {
-          tradeMap.set(tradeKey, { count: 1, sample: sampleName });
+          tradeMap.set(tradeKey, { 
+            count: 1, 
+            sample: sampleName,
+            rawSamples: rawTrade ? [rawTrade] : []
+          });
         }
       }
 
       renderTable();
+      renderOverridesBadge();
+    }
+
+    function renderOverridesBadge() {
+      const overrideCount = Object.keys(tradeOverrides).length;
+      const btn = document.getElementById('view-overrides-btn');
+      if (btn) {
+        btn.innerText = `Rules (${overrideCount})`;
+      }
+    }
+
+    function editTradeRule(canonicalName, rawSamples) {
+      const newName = prompt(`Enter corrected canonical trade name for "${canonicalName}":`, canonicalName);
+      if (newName === null) return;
+
+      const trimmed = newName.trim();
+      if (!trimmed) return;
+
+      // Add override mapping for all raw variants under this canonical name
+      if (rawSamples && rawSamples.length > 0) {
+        rawSamples.forEach(raw => {
+          tradeOverrides[raw.toLowerCase()] = trimmed;
+        });
+      } else {
+        tradeOverrides[canonicalName.toLowerCase()] = trimmed;
+      }
+
+      saveOverrides();
+      parseAndGroupTrades();
     }
 
     function renderTable(filterQuery = '') {
@@ -375,19 +454,102 @@
       document.getElementById('total-count').innerText = `${sortedTrades.length} Occupations Displayed`;
 
       if (sortedTrades.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="3" style="color: var(--muted);">No matching occupations found.</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="4" style="color: var(--muted);">No matching occupations found.</td></tr>';
         return;
       }
 
       sortedTrades.forEach(([trade, data]) => {
         const tr = document.createElement('tr');
+        const isCustom = data.rawSamples.some(r => tradeOverrides[r.toLowerCase()]);
+        
         tr.innerHTML = `
-          <td>${trade}</td>
+          <td>
+            <div style="display: flex; align-items: center; gap: 0.5rem;">
+              <span class="trade-title" style="font-weight: 500;">${trade}</span>
+              ${isCustom ? '<span style="font-size: 0.75rem; background: rgba(200, 157, 84, 0.2); color: var(--accent); padding: 0.1rem 0.4rem; border-radius: 3px;">Overridden</span>' : ''}
+            </div>
+            <div style="font-size: 0.75rem; color: var(--muted); margin-top: 0.15rem;">Variants: ${data.rawSamples.slice(0, 5).join(', ') || 'None'}</div>
+          </td>
           <td class="count-col">${data.count}</td>
           <td class="example-col">${data.sample}</td>
+          <td style="text-align: right;">
+            <button class="btn btn-secondary" style="padding: 0.4rem 0.75rem; font-size: 0.8rem;" onclick='editTradeRule(${JSON.stringify(trade)}, ${JSON.stringify(data.rawSamples)})'>Edit Rule</button>
+          </td>
         `;
         tbody.appendChild(tr);
       });
+    }
+
+    function showOverridesModal() {
+      let modal = document.getElementById('overrides-modal');
+      if (!modal) {
+        modal = document.createElement('div');
+        modal.id = 'overrides-modal';
+        modal.style.cssText = `
+          position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+          background: rgba(0,0,0,0.8); z-index: 1000; display: flex; align-items: center; justify-content: center;
+        `;
+        document.body.appendChild(modal);
+      }
+
+      const overrideEntries = Object.entries(tradeOverrides);
+      let contentHtml = `
+        <div style="background: var(--card-bg); border: 1px solid var(--card-border); padding: 2rem; border-radius: 8px; width: 600px; max-width: 90vw; max-height: 80vh; overflow-y: auto;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; border-bottom: 1px solid var(--card-border); padding-bottom: 1rem;">
+            <h2 style="font-family: var(--heading-font); color: var(--accent); font-size: 2rem; font-weight: 400;">Active Trade Overrides</h2>
+            <button class="btn btn-secondary" onclick="document.getElementById('overrides-modal').style.display='none'">Close</button>
+          </div>
+          <div style="margin-bottom: 1.5rem;">
+            <button class="btn btn-secondary" style="margin-right: 0.5rem;" onclick="exportOverridesJSON()">Export JSON</button>
+            <button class="btn btn-secondary" onclick="clearAllOverrides()">Clear All Overrides</button>
+          </div>
+      `;
+
+      if (overrideEntries.length === 0) {
+        contentHtml += '<p style="color: var(--muted);">No custom rules or overrides defined yet. Click "Edit Rule" on any occupation row to customize it.</p>';
+      } else {
+        contentHtml += '<table style="width: 100%; border-collapse: collapse;"><thead><tr><th>Raw Input</th><th>Mapped Canonical Trade</th><th>Action</th></tr></thead><tbody>';
+        overrideEntries.forEach(([raw, clean]) => {
+          contentHtml += `
+            <tr>
+              <td><code>${raw}</code></td>
+              <td style="color: var(--accent);">${clean}</td>
+              <td><button class="btn btn-secondary" style="padding: 0.2rem 0.5rem; font-size: 0.75rem;" onclick="removeOverride('${raw.replace(/'/g, "\\'")}')">Remove</button></td>
+            </tr>
+          `;
+        });
+        contentHtml += 'tbody></table>';
+      }
+
+      contentHtml += '</div>';
+      modal.innerHTML = contentHtml;
+      modal.style.display = 'flex';
+    }
+
+    function removeOverride(rawKey) {
+      delete tradeOverrides[rawKey];
+      saveOverrides();
+      parseAndGroupTrades();
+      showOverridesModal();
+    }
+
+    function clearAllOverrides() {
+      if (confirm("Are you sure you want to clear all custom trade rules?")) {
+        tradeOverrides = {};
+        saveOverrides();
+        parseAndGroupTrades();
+        showOverridesModal();
+      }
+    }
+
+    function exportOverridesJSON() {
+      const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(tradeOverrides, null, 2));
+      const downloadAnchor = document.createElement('a');
+      downloadAnchor.setAttribute("href", dataStr);
+      downloadAnchor.setAttribute("download", "trade_overrides.json");
+      document.body.appendChild(downloadAnchor);
+      downloadAnchor.click();
+      downloadAnchor.remove();
     }
 
     document.getElementById('trade-search').addEventListener('input', (e) => {
@@ -396,5 +558,6 @@
 
     window.addEventListener('DOMContentLoaded', loadTrades);
   </script>
+
 </body>
 </html>
