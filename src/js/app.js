@@ -2676,7 +2676,6 @@ let selectedIndex = -1;
       subtitle.innerText = `${year} Johns Directory • ${streetName || 'Archive Volume'}`;
       
       updateScanModalDisplay(fileList, lineIdx);
-      modal.style.display = 'flex';
       modal.classList.add('active');
     }
 
@@ -2734,7 +2733,6 @@ let selectedIndex = -1;
     function closeScanInspectorModal() {
       const modal = document.getElementById('scan-inspector-modal');
       if (modal) {
-        modal.style.display = 'none';
         modal.classList.remove('active');
       }
     }
