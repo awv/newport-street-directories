@@ -135,6 +135,52 @@
     .btn-secondary:hover {
       background: rgba(200, 157, 84, 0.2);
     }
+
+    .tabs-bar {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 1.25rem;
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 0.5rem;
+    }
+
+    .tab-btn {
+      background: transparent;
+      border: none;
+      color: var(--muted);
+      font-family: var(--sans-font);
+      font-size: 0.9rem;
+      font-weight: 500;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      transition: all 0.2s ease;
+    }
+
+    .tab-btn:hover {
+      color: var(--text);
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .tab-btn.active {
+      color: var(--accent);
+      background: rgba(200, 157, 84, 0.15);
+    }
+
+    .tab-badge {
+      font-size: 0.75rem;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 0.1rem 0.45rem;
+      border-radius: 10px;
+    }
+
+    .tab-btn.active .tab-badge {
+      background: var(--accent);
+      color: #120f0d;
+    }
   </style>
 </head>
 <body>
@@ -151,6 +197,21 @@
       </div>
     </header>
 
+    <div class="tabs-bar">
+      <button class="tab-btn active" data-tab="all" onclick="switchTab('all')">
+        All Occupations <span class="tab-badge" id="tab-count-all">0</span>
+      </button>
+      <button class="tab-btn" data-tab="issues" onclick="switchTab('issues')">
+        ⚠️ Needs Review <span class="tab-badge" id="tab-count-issues" style="background: rgba(245, 101, 101, 0.3); color: #f56565;">0</span>
+      </button>
+      <button class="tab-btn" data-tab="verified" onclick="switchTab('verified')">
+        ✓ Verified <span class="tab-badge" id="tab-count-verified">0</span>
+      </button>
+      <button class="tab-btn" data-tab="overridden" onclick="switchTab('overridden')">
+        ✏️ Custom Rules <span class="tab-badge" id="tab-count-overridden">0</span>
+      </button>
+    </div>
+
     <div class="controls">
       <input type="text" id="trade-search" class="search-input" placeholder="Filter occupations (e.g. Labourer, Driver, Mason)..." />
     </div>
@@ -161,7 +222,7 @@
           <th>Occupation / Trade</th>
           <th class="count-col">Frequency</th>
           <th class="example-col">Sample Entry</th>
-          <th style="width: 140px; text-align: right;">Action</th>
+          <th style="width: 220px; text-align: right;">Action</th>
         </tr>
       </thead>
       <tbody id="trade-table-body">
@@ -174,11 +235,40 @@
     let tradeMap = new Map();
     const NON_TRADES_REGEX = /^(mrs\.?|miss\.?|mr\.?|thos\.?|jas\.?|wm\.?|saml\.?|john|geo\.?|chas\.?|hy\.?|richd\.?|harry|ernest|fredk\.?|arthur|edwd\.?|walt\.?|david|danl\.?|benj\.?|stepn\.?|iss e|ltd\.?|limited|co\.?|& co\.?|co\.? ltd\.?|ld\.?|henry|joseph|albert|reginald|harold|alfred|frank|edward|herbert|edwin|fred|norman|ivor|stanley|leslie|sidney|horace|edgar|lewis|percy|wilfred|bernard|eric|clifford|trevor|return\.?|junr?\.?|&|&c|etc|\{.*\}|;;;)$/i;
 
-    // Overrides management via localStorage
+    // Overrides & Verified Management via localStorage
     let tradeOverrides = JSON.parse(localStorage.getItem('trade_overrides') || '{}');
+    let verifiedTrades = new Set(JSON.parse(localStorage.getItem('trade_verified') || '[]'));
+    let currentFilterTab = 'all'; // 'all', 'issues', 'verified', 'overridden'
 
     function saveOverrides() {
       localStorage.setItem('trade_overrides', JSON.stringify(tradeOverrides));
+    }
+
+    function saveVerified() {
+      localStorage.setItem('trade_verified', JSON.stringify(Array.from(verifiedTrades)));
+    }
+
+    function toggleVerified(canonicalName) {
+      if (verifiedTrades.has(canonicalName)) {
+        verifiedTrades.delete(canonicalName);
+      } else {
+        verifiedTrades.add(canonicalName);
+      }
+      saveVerified();
+      renderTable(document.getElementById('trade-search').value);
+      updateTabCounts();
+    }
+
+    function isLikelyIssue(trade, data) {
+      // 1. Short or strange punctuation/abbreviations leftover
+      if (/[;\/:_\{\}\[\]\\\|]/.test(trade)) return true;
+      if (/\b(dvr|drvr|ptr|clk|trm|labr|wkr|agt|mer|co|ltd|mcht|eng)\b/i.test(trade)) return true;
+      if (trade.length <= 3 && trade !== 'G.W.R.' && trade !== 'G.P.O.') return true;
+      // 2. Contains digits or unusual mixed casing
+      if (/\d/.test(trade)) return true;
+      // 3. Raw variants contain obvious uncleaned shortcuts
+      if (data.rawSamples.some(r => /[\;\:\\\/_\{\}]/.test(r) || /\b(do\.?|ditto)\b/i.test(r))) return true;
+      return false;
     }
 
     function cleanOccupation(trade) {
@@ -439,8 +529,38 @@
         }
       }
 
-      renderTable();
+      updateTabCounts();
+      renderTable(document.getElementById('trade-search').value);
       renderOverridesBadge();
+    }
+
+    function updateTabCounts() {
+      let issuesCount = 0;
+      let verifiedCount = 0;
+      let overriddenCount = 0;
+
+      tradeMap.forEach((data, trade) => {
+        const isCustom = data.rawSamples.some(r => tradeOverrides[r.toLowerCase()]);
+        const isVerified = verifiedTrades.has(trade);
+        const hasIssue = isLikelyIssue(trade, data);
+
+        if (isCustom) overriddenCount++;
+        if (isVerified) verifiedCount++;
+        if (hasIssue && !isVerified && !isCustom) issuesCount++;
+      });
+
+      document.getElementById('tab-count-all').innerText = tradeMap.size;
+      document.getElementById('tab-count-issues').innerText = issuesCount;
+      document.getElementById('tab-count-verified').innerText = verifiedCount;
+      document.getElementById('tab-count-overridden').innerText = overriddenCount;
+    }
+
+    function switchTab(tabName) {
+      currentFilterTab = tabName;
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.tab === tabName);
+      });
+      renderTable(document.getElementById('trade-search').value);
     }
 
     function renderOverridesBadge() {
@@ -467,6 +587,9 @@
         tradeOverrides[canonicalName.toLowerCase()] = trimmed;
       }
 
+      // Automatically mark as verified when rule is added
+      verifiedTrades.add(trimmed);
+      saveVerified();
       saveOverrides();
       parseAndGroupTrades();
     }
@@ -478,32 +601,58 @@
       const cleanQuery = filterQuery.toLowerCase().trim();
       
       const sortedTrades = Array.from(tradeMap.entries())
-        .filter(([trade]) => !cleanQuery || trade.toLowerCase().includes(cleanQuery))
+        .filter(([trade, data]) => {
+          if (cleanQuery && !trade.toLowerCase().includes(cleanQuery)) return false;
+          
+          const isCustom = data.rawSamples.some(r => tradeOverrides[r.toLowerCase()]);
+          const isVerified = verifiedTrades.has(trade);
+          const hasIssue = isLikelyIssue(trade, data);
+
+          if (currentFilterTab === 'issues') {
+            return hasIssue && !isVerified && !isCustom;
+          }
+          if (currentFilterTab === 'verified') {
+            return isVerified;
+          }
+          if (currentFilterTab === 'overridden') {
+            return isCustom;
+          }
+          return true;
+        })
         .sort((a, b) => b[1].count - a[1].count);
 
       document.getElementById('total-count').innerText = `${sortedTrades.length} Occupations Displayed`;
 
       if (sortedTrades.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="4" style="color: var(--muted);">No matching occupations found.</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="4" style="color: var(--muted);">No occupations match this filter.</td></tr>';
         return;
       }
 
       sortedTrades.forEach(([trade, data]) => {
         const tr = document.createElement('tr');
         const isCustom = data.rawSamples.some(r => tradeOverrides[r.toLowerCase()]);
+        const isVerified = verifiedTrades.has(trade);
+        const hasIssue = isLikelyIssue(trade, data);
         
         tr.innerHTML = `
           <td>
-            <div style="display: flex; align-items: center; gap: 0.5rem;">
+            <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
               <span class="trade-title" style="font-weight: 500;">${trade}</span>
+              ${isVerified ? '<span style="font-size: 0.75rem; background: rgba(72, 187, 120, 0.2); color: #48bb78; padding: 0.1rem 0.4rem; border-radius: 3px; font-weight: 500;">✓ Verified</span>' : ''}
               ${isCustom ? '<span style="font-size: 0.75rem; background: rgba(200, 157, 84, 0.2); color: var(--accent); padding: 0.1rem 0.4rem; border-radius: 3px;">Overridden</span>' : ''}
+              ${hasIssue && !isVerified && !isCustom ? '<span style="font-size: 0.75rem; background: rgba(245, 101, 101, 0.2); color: #f56565; padding: 0.1rem 0.4rem; border-radius: 3px;">Needs Review</span>' : ''}
             </div>
             <div style="font-size: 0.75rem; color: var(--muted); margin-top: 0.15rem;">Variants: ${data.rawSamples.slice(0, 5).join(', ') || 'None'}</div>
           </td>
           <td class="count-col">${data.count}</td>
           <td class="example-col">${data.sample}</td>
           <td style="text-align: right;">
-            <button class="btn btn-secondary" style="padding: 0.4rem 0.75rem; font-size: 0.8rem;" onclick='editTradeRule(${JSON.stringify(trade)}, ${JSON.stringify(data.rawSamples)})'>Edit Rule</button>
+            <div style="display: flex; gap: 0.5rem; justify-content: flex-end;">
+              <button class="btn ${isVerified ? 'btn-secondary' : ''}" style="padding: 0.4rem 0.75rem; font-size: 0.8rem;" onclick='toggleVerified(${JSON.stringify(trade)})'>
+                ${isVerified ? 'Unmark' : '✓ Mark Complete'}
+              </button>
+              <button class="btn btn-secondary" style="padding: 0.4rem 0.75rem; font-size: 0.8rem;" onclick='editTradeRule(${JSON.stringify(trade)}, ${JSON.stringify(data.rawSamples)})'>Edit Rule</button>
+            </div>
           </td>
         `;
         tbody.appendChild(tr);
@@ -530,7 +679,7 @@
             <button class="btn btn-secondary" onclick="document.getElementById('overrides-modal').style.display='none'">Close</button>
           </div>
           <div style="margin-bottom: 1.5rem;">
-            <button class="btn btn-secondary" style="margin-right: 0.5rem;" onclick="exportOverridesJSON()">Export JSON</button>
+            <button class="btn btn-secondary" style="margin-right: 0.5rem;" onclick="exportOverridesJSON()">Export Rules JSON</button>
             <button class="btn btn-secondary" onclick="clearAllOverrides()">Clear All Overrides</button>
           </div>
       `;
