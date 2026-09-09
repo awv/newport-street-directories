@@ -110,7 +110,7 @@ let selectedIndex = -1;
       return clean.replace(/\w\S*/g, (txt) => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase());
     }
 
-    const NON_TRADES_REGEX = /^(mrs\.?|miss\.?|mr\.?|thos\.?|jas\.?|wm\.?|saml\.?|john|geo\.?|chas\.?|hy\.?|richd\.?|harry|ernest|fredk\.?|arthur|edwd\.?|walt\.?|david|danl\.?|benj\.?|stepn\.?|iss e|ltd\.?|limited|co\.?|& co\.?|co\.? ltd\.?|ld\.?|henry|joseph|albert|reginald|harold|alfred|frank|edward|herbert|edwin|fred|norman|ivor|stanley|leslie|sidney|horace|edgar|lewis|percy|wilfred|bernard|eric|clifford|trevor|return\.?|junr?\.?|&|&c|etc|\{.*\}|;;;)$/i;
+    var NON_TRADES_REGEX = /^(mrs\.?|miss\.?|mr\.?|thos\.?|jas\.?|wm\.?|saml\.?|john|geo\.?|chas\.?|hy\.?|richd\.?|harry|ernest|fredk\.?|arthur|edwd\.?|walt\.?|david|danl\.?|benj\.?|stepn\.?|iss e|ltd\.?|limited|co\.?|& co\.?|co\.? ltd\.?|ld\.?|henry|joseph|albert|reginald|harold|alfred|frank|edward|herbert|edwin|fred|norman|ivor|stanley|leslie|sidney|horace|edgar|lewis|percy|wilfred|bernard|eric|clifford|trevor|return\.?|junr?\.?|&|&c|etc|\{.*\}|;;;)$/i;
 
     function getTradeOverrides() {
       try {
@@ -617,7 +617,7 @@ let selectedIndex = -1;
     }
 
     document.addEventListener('click', (e) => {
-      if (!e.target.closest('.search-box-wrapper')) {
+      if (autocompleteContainer && !e.target.closest('.search-box-wrapper')) {
         autocompleteContainer.classList.remove('active');
       }
     });
@@ -628,7 +628,8 @@ let selectedIndex = -1;
       return { number: null, street: query.trim() };
     }
 
-    document.getElementById('search-form').addEventListener('submit', (e) => {
+    const searchForm = document.getElementById('search-form');
+    if (searchForm) searchForm.addEventListener('submit', (e) => {
       e.preventDefault();
       const rawQuery = searchInput.value.trim();
       const { number, street } = parseSearchQuery(rawQuery);
