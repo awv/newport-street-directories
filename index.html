@@ -555,6 +555,37 @@
     </div>
   </div>
 
+  <!-- ORIGINAL DIRECTORY SCAN INSPECTOR MODAL -->
+  <div class="editor-modal-overlay" id="scan-inspector-modal" style="display: none; align-items: center; justify-content: center; z-index: 10050;">
+    <div class="editor-modal-content" style="max-width: 900px; width: 95%; max-height: 90vh; display: flex; flex-direction: column;">
+      <div class="editor-modal-header" style="display: flex; justify-content: space-between; align-items: center;">
+        <div>
+          <h3 style="margin: 0; font-family: var(--font-serif); color: var(--gold-primary); font-size: 1.25rem;">📷 Directory Page Scan Inspector</h3>
+          <span style="font-size: 0.85rem; color: var(--muted);" id="scan-modal-subtitle">Johns Directory</span>
+        </div>
+        <button class="modal-close-btn" onclick="closeScanInspectorModal()" style="background: none; border: none; color: #fff; font-size: 1.5rem; cursor: pointer;">&times;</button>
+      </div>
+      
+      <div class="scan-controls-bar" style="display: flex; gap: 0.75rem; align-items: center; background: rgba(0,0,0,0.4); padding: 0.5rem 1rem; border-bottom: 1px solid var(--card-border); flex-wrap: wrap;">
+        <button class="btn-cancel" style="padding: 0.3rem 0.6rem; font-size: 0.8rem;" onclick="changeScanPage(-1)">&larr; Prev Page</button>
+        <span style="font-size: 0.85rem; color: var(--gold-muted);" id="scan-page-counter">Page 1 of 10</span>
+        <button class="btn-cancel" style="padding: 0.3rem 0.6rem; font-size: 0.8rem;" onclick="changeScanPage(1)">Next Page &rarr;</button>
+        <span style="border-left: 1px solid var(--card-border); height: 16px; margin: 0 0.25rem;"></span>
+        <button class="btn-cancel" style="padding: 0.3rem 0.6rem; font-size: 0.8rem;" onclick="zoomScan(0.25)">🔍 Zoom In</button>
+        <button class="btn-cancel" style="padding: 0.3rem 0.6rem; font-size: 0.8rem;" onclick="zoomScan(-0.25)">🔍 Zoom Out</button>
+        <button class="btn-cancel" style="padding: 0.3rem 0.6rem; font-size: 0.8rem;" onclick="resetScanZoom()">↺ Reset</button>
+        <a id="scan-open-raw-btn" href="#" target="_blank" rel="noopener" class="btn-cancel" style="padding: 0.3rem 0.6rem; font-size: 0.8rem; margin-left: auto; border-color: var(--accent); color: var(--accent);">↗ Full Image</a>
+      </div>
+
+      <div style="flex: 1; overflow: auto; position: relative; background: #0a0807; display: flex; justify-content: center; align-items: flex-start; padding: 1rem; min-height: 450px;">
+        <div id="scan-image-wrapper" style="position: relative; transition: transform 0.2s ease; transform-origin: top center;">
+          <img id="scan-modal-img" src="" alt="Directory Scan Page" style="max-width: 100%; display: block; border-radius: 4px; box-shadow: 0 8px 32px rgba(0,0,0,0.8);" />
+          <div id="scan-highlight-box" style="position: absolute; left: 5%; width: 90%; height: 36px; top: 100px; border: 2px solid #e5c07b; background: rgba(229, 192, 123, 0.22); box-shadow: 0 0 15px rgba(229, 192, 123, 0.6); pointer-events: none; border-radius: 3px; display: none; transition: top 0.3s ease;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <div class="override-drawer" id="override-drawer">
     <div class="override-drawer-info">

@@ -1679,7 +1679,10 @@ let selectedIndex = -1;
                   ${primaryTitleHTML}
                   ${subtitleHTML}
                 </div>
-                <button class="record-edit-btn" onclick="openTimelineRecordEditor(event, '${r.year}', '${escFn(encSt)}', '${escFn(encHn)}', '${escFn(encBn)}', '${escFn(encSn)}', '${escFn(encFn)}', '${escFn(encTr)}')">✏️ Edit</button>
+                <div style="display: flex; gap: 0.35rem; align-items: center;">
+                  <button class="btn-edit-record" onclick="openScanInspectorModal('${r.year}', '${escFn(r.street)}', '${escFn(r.house_number)}')" style="border-color: var(--accent-muted); color: var(--accent);" title="View original directory scan page image for ${r.year}">📷 Scan</button>
+                  <button class="btn-edit-record" onclick="openRecordEditorModal('${r.year}', '${escFn(r.street)}', '${escFn(r.house_number)}', '${escFn(r.building_name)}', '${escFn(r.surname)}', '${escFn(r.forename)}', '${escFn(r.trade)}')" title="Correct this property record">✏️ Edit</button>
+                </div>
               </div>
             `;
           });
@@ -2623,3 +2626,110 @@ let selectedIndex = -1;
       loadSessionFromLocalStorage();
       await navigate();
     });
+
+    // --- Original Directory Scan Inspector Logic ---
+    let scansIndex = null;
+    let currentScanYear = null;
+    let currentScanPageIdx = 0;
+    let currentScanZoomLevel = 1.0;
+
+    async function loadScansIndex() {
+      if (scansIndex) return scansIndex;
+      try {
+        const resp = await fetch('data/scans_index.json');
+        scansIndex = await resp.json();
+        return scansIndex;
+      } catch (err) {
+        console.error("Failed loading data/scans_index.json", err);
+        return {};
+      }
+    }
+
+    async function openScanInspectorModal(year, streetName = '', houseNum = '', lineIdx = -1) {
+      const modal = document.getElementById('scan-inspector-modal');
+      const subtitle = document.getElementById('scan-modal-subtitle');
+
+      if (!modal) return;
+
+      const idxData = await loadScansIndex();
+      const yrStr = String(year);
+      const fileList = idxData[yrStr] || [];
+
+      if (!fileList.length) {
+        alert(`No original page scans indexed for the ${year} directory edition.`);
+        return;
+      }
+
+      currentScanYear = yrStr;
+      currentScanPageIdx = 0;
+      currentScanZoomLevel = 1.0;
+      resetScanZoom();
+
+      subtitle.innerText = `${year} Johns Directory • ${streetName || 'Archive Volume'}`;
+      
+      updateScanModalDisplay(fileList, lineIdx);
+      modal.style.display = 'flex';
+    }
+
+    function updateScanModalDisplay(fileList, lineIdx = -1) {
+      const img = document.getElementById('scan-modal-img');
+      const highlightBox = document.getElementById('scan-highlight-box');
+      const pageCounter = document.getElementById('scan-page-counter');
+      const openRawBtn = document.getElementById('scan-open-raw-btn');
+
+      if (!fileList || !fileList.length) return;
+
+      if (currentScanPageIdx < 0) currentScanPageIdx = 0;
+      if (currentScanPageIdx >= fileList.length) currentScanPageIdx = fileList.length - 1;
+
+      const imagePath = fileList[currentScanPageIdx];
+      img.src = imagePath;
+      openRawBtn.href = imagePath;
+      pageCounter.innerText = `Page ${currentScanPageIdx + 1} of ${fileList.length}`;
+
+      if (lineIdx >= 0) {
+        highlightBox.style.display = 'block';
+        const estimatedTop = 140 + (lineIdx * 24);
+        highlightBox.style.top = `${estimatedTop}px`;
+      } else {
+        highlightBox.style.display = 'none';
+      }
+    }
+
+    function changeScanPage(delta) {
+      if (!scansIndex || !currentScanYear) return;
+      const fileList = scansIndex[currentScanYear] || [];
+      currentScanPageIdx += delta;
+      updateScanModalDisplay(fileList);
+    }
+
+    function zoomScan(delta) {
+      currentScanZoomLevel += delta;
+      if (currentScanZoomLevel < 0.5) currentScanZoomLevel = 0.5;
+      if (currentScanZoomLevel > 3.0) currentScanZoomLevel = 3.0;
+
+      const wrapper = document.getElementById('scan-image-wrapper');
+      if (wrapper) {
+        wrapper.style.transform = `scale(${currentScanZoomLevel})`;
+      }
+    }
+
+    function resetScanZoom() {
+      currentScanZoomLevel = 1.0;
+      const wrapper = document.getElementById('scan-image-wrapper');
+      if (wrapper) {
+        wrapper.style.transform = `scale(1.0)`;
+      }
+    }
+
+    function closeScanInspectorModal() {
+      const modal = document.getElementById('scan-inspector-modal');
+      if (modal) modal.style.display = 'none';
+    }
+
+    // Attach scan functions to window for global access
+    window.openScanInspectorModal = openScanInspectorModal;
+    window.closeScanInspectorModal = closeScanInspectorModal;
+    window.changeScanPage = changeScanPage;
+    window.zoomScan = zoomScan;
+    window.resetScanZoom = resetScanZoom;
