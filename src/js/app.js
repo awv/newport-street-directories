@@ -131,12 +131,35 @@ let selectedIndex = -1;
         return overrides[clean.toLowerCase()];
       }
 
+      // Catch JSON block spills (e.g. Butcher"", ""Business / Entity"":""..."", Outfitter And Pawnbroker...)
+      if (/\{|""|Business \/ Entity|Layout \/ Notes|Forenames|Surname/i.test(clean)) {
+        if (/butcher/i.test(clean)) return 'Butcher';
+        if (/outfitter/i.test(clean)) return 'Outfitter';
+        if (/pawnbroker/i.test(clean)) return 'Pawnbroker';
+        return 'Residence / Private';
+      }
+
+      // Catch Bengali or non-ASCII OCR artifacts (e.g. "ভিন")
+      if (/[\u0980-\u09FF\u0600-\u06FF\u0400-\u04FF\u4E00-\u9FFF]/.test(clean)) {
+        return 'Residence / Private';
+      }
+
       // Catch Waypoints, Address Spills, Flat numbers, Phone numbers, & Non-trade OCR spills
       if (
         /^(here is|here are|from\s+\d+|from\s+[a-z]+|\(?the roundabout\)?|\(?flat\s+\d+.*?\)?)/i.test(clean) ||
         /^(tel\.?|telephone|newport\s+\d+|\d+\s*\(after|\d+[a-z]?,?\s*workers)/i.test(clean) ||
         /^(do\.?|ditto|[-—_\|\\\[\]\{\}\.\,\&\;\:\?\!]+|&c|etc|\(?return\)?\.?|;;;)$/i.test(clean) ||
+        /^(ltd\.?|co\.?|& co\.?|co\.?\s+ltd\.?|ltd\.?,\s*ltd|ltd\.?,\s*co\.?|gas\s+co|way\s+co\.?'?s?\s*office|1st\s+floor|2nd\s+floor|3rd\s+floor)$/i.test(clean) ||
+        /^(&|\*|are|for|de|en|et|si|tai|vw|wks|rd|to\s+\d+\s+unbuilt|\(3\)|p\.o\.?|& m|& b)$/i.test(clean) ||
         NON_TRADES_REGEX.test(clean)
+      ) {
+        return 'Residence / Private';
+      }
+
+      // Filter house/villa/building names left in trade column (e.g., "The Woodlands", "Norwood", "Eversley", "Rosetta", "Brynholme", "Gasworks", "Woolmer")
+      if (
+        /^(the\s+woodlands|norwood|eversley|rosetta|brynholme|gasworks|woolmer)$/i.test(clean) ||
+        /^(bryn|villas?|cottage|house|lodge|manor|hall|court|view|terrace|gardens)\b/i.test(clean)
       ) {
         return 'Residence / Private';
       }
@@ -145,21 +168,41 @@ let selectedIndex = -1;
       clean = clean.replace(/^(?:\d+\s+)?(?:do\.?|ditto)\s*[\.,]*\s*(?:\[(.*?)\]|(.*?))$/i, (m, g1, g2) => (g1 || g2 || '').trim());
       clean = clean.replace(/^[-—_\|,\s]+/, '').replace(/[-—_\|,\s]+$/, '').trim();
 
-      // Strip trailing or embedded house numbers from institutional spills
+      // Strip house numbers and address prefixes (e.g. "20-24, Boot Repairer" -> "Boot Repairer", "52, Labourer" -> "Labourer", "60, Eastern Valleys", "(From 16 Merchant Street)")
       clean = clean
+        .replace(/^\(from\s+\d+[^)]*\)\s*/i, '')
+        .replace(/^\[?(\d+[-\d]*[a-z]?),?\s*/i, '')
+        .replace(/^\d+[a-z]?,\s*/i, '')
         .replace(/\s+\d+[a-z]?$/i, '')
-        .replace(/^\d+[a-z]?\s+/i, '')
+        .replace(/^\[/g, '')
+        .replace(/\]$/g, '')
         .trim();
 
-      if (!clean || clean === '-' || clean === '—' || NON_TRADES_REGEX.test(clean)) {
+      // Strip person name spills and company spills preceding trades
+      clean = clean
+        .replace(/^[a-z\s\.,'\-]+\b(mrs|mr|miss)\b.*?,?\s*/i, '')
+        .replace(/^[a-z\s\.,'\-]+\b(and|&)\s+co\.?'?s?\s+(offices|works|stores)\s*,?\s*/i, '')
+        .replace(/^[a-z\s\.,'\-]+,?\s*(mar\.?\s*eng'?n?r|eng'?r|eng'?n?r)/i, '$1');
+
+      // De-duplicate concatenated OCR phrases (e.g. "Bootmakers—j. O., Ltd, Ltd Bootmakers—j. O" -> "Bootmakers")
+      clean = clean.replace(/^([^,\-]+?)\s*[\,;\—\-].*?\b\1\b/i, '$1').trim();
+
+      // Clean leading & trailing company suffixes
+      clean = clean
+        .replace(/^(ltd\.?|co\.?|& co\.?|& co\.?,?\s*ltd\.?|and co\.?)\s*,?\s*/i, '')
+        .replace(/[\,;\s]+(ltd\.?|co\.?|& co\.?|co\.?\s+ltd\.?)$/i, '')
+        .trim();
+
+      if (!clean || clean === '-' || clean === '—' || /^(ltd\.?|co\.?|& co\.?|&|and)$/i.test(clean) || NON_TRADES_REGEX.test(clean)) {
         return 'Residence / Private';
       }
 
-      // Clean trailing ", &c" / ", etc" / "(return)" / Phone number suffixes
+      // Clean trailing ", &c" / ", etc" / "(return)" / Phone number suffixes / Ditto fragments
       clean = clean
         .replace(/[\,;\s]+(?:&c|etc)\.?$/i, '')
         .replace(/\s*\(\s*return\s*\)\.?$/i, '')
         .replace(/\s*\(\s*tel\.?\s*\d+.*?\)$/i, '')
+        .replace(/\s+ditto$/i, '')
         .trim();
 
       // Clean municipal address spills & institution fragment lines
@@ -181,6 +224,25 @@ let selectedIndex = -1;
       }
 
       // Specific multi-line commercial consolidations & compound expansions
+      if (/^eng\.?\s*du'?vr$/i.test(clean)) return 'Engine Driver';
+      if (/^m'?sion\s*agt$/i.test(clean)) return 'Commission Agent';
+      if (/^m\.?b\.?\s*do$/i.test(clean)) return 'Physician & Surgeon';
+      if (/^house\s*agt$/i.test(clean)) return 'House Agent';
+      if (/^wol\s*mcht$/i.test(clean)) return 'Wool Merchant';
+      if (/^min\.?\s*eng$/i.test(clean)) return 'Mining Engineer';
+      if (/^engr\s*&\s*mer$/i.test(clean)) return 'Engineer & Merchant';
+      if (/^eng\.?,\s*surg\.?\s*dentist$/i.test(clean)) return 'Dental Surgeon';
+      if (/^l\.?d\.?s\.?,?\s*r\.?c\.?s\.?/i.test(clean)) return 'Dental Surgeon';
+      if (/^wgn$/i.test(clean)) return 'Wagon Repairer';
+      if (/^dgr$/i.test(clean)) return 'Dredger';
+      if (/bootmaker/i.test(clean)) return 'Bootmaker';
+      if (/bakers?.*confection/i.test(clean)) return 'Baker & Confectioner';
+      if (/dispensing chemist/i.test(clean)) return 'Chemist';
+      if (/potato mer/i.test(clean)) return 'Potato Merchant';
+      if (/provision mer/i.test(clean)) return 'Provision Merchant';
+      if (/builders?.*merchant/i.test(clean)) return 'Builders Merchant';
+      if (/china.*glass/i.test(clean)) return 'China & Glass Merchant';
+      if (/consulting eng/i.test(clean)) return 'Consulting Engineer';
       if (/newsagent.*stationer/i.test(clean)) return 'Newsagent & Stationer';
       if (/surveyor.*estate agent/i.test(clean)) return 'Estate Agent & Surveyor';
       if (/scrap.*metal/i.test(clean)) return 'Scrap Metal Merchant';

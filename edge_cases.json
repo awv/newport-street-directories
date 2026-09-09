@@ -4000,6 +4000,150 @@
         "trade": "Printer",
         "source_type": "Primary"
       }
+    },
+    {
+      "reason": "Clytha Terrace: Standardized record formatting for house 28",
+      "match": {
+        "street": "Clytha Terrace",
+        "year": "1894",
+        "surname_contains": "Hicks"
+      },
+      "apply": {
+        "house_number": "28",
+        "building_name": "",
+        "surname": "Hicks",
+        "forename": "George",
+        "trade": "Engineers' Depot, G.W.R",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Clytha Terrace: Standardized record formatting for house 1",
+      "match": {
+        "street": "Clytha Terrace",
+        "year": "1887",
+        "surname_contains": "Hy"
+      },
+      "apply": {
+        "house_number": "1",
+        "building_name": "",
+        "surname": "Davie",
+        "forename": "Henry",
+        "trade": "Insurance Agent",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Clytha Terrace: Standardized record formatting for house 2",
+      "match": {
+        "street": "Clytha Terrace",
+        "year": "1894",
+        "surname_contains": "Wigmore"
+      },
+      "apply": {
+        "house_number": "2",
+        "building_name": "",
+        "surname": "Wigmore",
+        "forename": "W. J",
+        "trade": "Works & Machinery Stores",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Swapped House Name (\"binder\") and Trade (\"\") fields.",
+      "match": {
+        "street": "Clytha Terrace",
+        "year": "1894",
+        "surname_contains": "Reeve"
+      },
+      "apply": {
+        "house_number": "3",
+        "building_name": "",
+        "surname": "Reeve",
+        "forename": "Thomas",
+        "trade": "Binder",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Clytha Terrace: Standardized record formatting for house 22",
+      "match": {
+        "street": "Clytha Terrace",
+        "year": "1887",
+        "surname_contains": "Robt"
+      },
+      "apply": {
+        "house_number": "22",
+        "building_name": "",
+        "surname": "Morris",
+        "forename": "Robert",
+        "trade": "Railway Clerk",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Swapped House Name (\"stonemsn\") and Trade (\"\") fields.",
+      "match": {
+        "street": "Clytha Terrace",
+        "year": "1894",
+        "surname_contains": "Walters"
+      },
+      "apply": {
+        "house_number": "47",
+        "building_name": "",
+        "surname": "Walters",
+        "forename": "Hy",
+        "trade": "Stonemason",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Dock Parade: Standardized record formatting for house 11",
+      "match": {
+        "street": "Dock Parade",
+        "year": "1913",
+        "surname_contains": "Thomas"
+      },
+      "apply": {
+        "house_number": "11",
+        "building_name": "",
+        "surname": "Thomas",
+        "forename": "Frederick J",
+        "trade": "Tug Captain",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Dock Parade: Standardized record formatting for house 11",
+      "match": {
+        "street": "Dock Parade",
+        "year": "1920",
+        "surname_contains": "Thomas"
+      },
+      "apply": {
+        "house_number": "11",
+        "building_name": "",
+        "surname": "Thomas",
+        "forename": "Frederick. J",
+        "trade": "Tug Captain",
+        "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Dock Parade: Standardized record formatting for house 11",
+      "match": {
+        "street": "Dock Parade",
+        "year": "1925",
+        "surname_contains": "Thomas"
+      },
+      "apply": {
+        "house_number": "11",
+        "building_name": "",
+        "surname": "Thomas",
+        "forename": "Frederick J",
+        "trade": "tug capt",
+        "source_type": "Primary"
+      }
     }
   ]
 }
