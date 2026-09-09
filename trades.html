@@ -973,9 +973,11 @@
     }
 
     function clearAllOverrides() {
-      if (confirm("Are you sure you want to clear all custom trade rules?")) {
+      if (confirm("Are you sure you want to clear all custom trade rules, single-record edits, and verified status?")) {
         tradeOverrides = {};
+        verifiedTrades.clear();
         saveOverrides();
+        saveVerified();
         parseAndGroupTrades();
         showOverridesModal();
       }
