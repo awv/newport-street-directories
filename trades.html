@@ -1019,7 +1019,7 @@
       if (modal) modal.classList.remove('active');
     }
 
-    window.addEventListener('DOMContentLoaded', loadTrades);
+    if (document.readyState === 'loading') { window.addEventListener('DOMContentLoaded', loadTrades); } else { loadTrades(); }
   </script>
 
 </body>
