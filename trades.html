@@ -255,9 +255,12 @@
         </div>
       </div>
 
-      <div style="display: flex; justify-content: flex-end; gap: 0.75rem; margin-top: 1.5rem; border-top: 1px solid var(--card-border); padding-top: 1rem;">
-        <button class="btn btn-secondary" onclick="closeTradesRecordModal()">Close</button>
-        <a id="rec-timeline-btn" href="#" target="_blank" class="btn" style="padding: 0.45rem 1rem; font-size: 0.85rem; text-decoration: none;">Explore Property Timeline ↗</a>
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1.5rem; border-top: 1px solid var(--card-border); padding-top: 1rem; flex-wrap: wrap; gap: 0.5rem;">
+        <button id="rec-edit-single-btn" class="btn btn-secondary" style="padding: 0.45rem 0.85rem; font-size: 0.85rem; border-color: var(--accent); color: var(--accent);">✏️ Edit This Entry Only</button>
+        <div style="display: flex; gap: 0.75rem;">
+          <button class="btn btn-secondary" onclick="closeTradesRecordModal()">Close</button>
+          <a id="rec-timeline-btn" href="#" target="_blank" class="btn" style="padding: 0.45rem 1rem; font-size: 0.85rem; text-decoration: none;">Explore Property Timeline ↗</a>
+        </div>
       </div>
     </div>
   </div>
@@ -715,7 +718,10 @@
           }
         }
 
-        const tradeKey = cleanOccupation(rawTrade);
+        // Check individual record override first
+        const recordKey = `single:${year}:${street}:${houseNum}:${forename}:${surname}:${rawTrade}`;
+        const effectiveTrade = tradeOverrides[recordKey] || rawTrade;
+        const tradeKey = cleanOccupation(effectiveTrade);
         const sampleName = `${forename} ${surname}`.trim();
         let year = cols[0] || '';
         let street = cols[1] || '';
@@ -1002,6 +1008,22 @@
       const scanBtn = document.getElementById('rec-scan-btn');
       if (scanBtn) {
         scanBtn.onclick = (e) => openScanInspectorModal(e, rec.year, rec.street, rec.house_number);
+      }
+
+      const editSingleBtn = document.getElementById('rec-edit-single-btn');
+      if (editSingleBtn) {
+        editSingleBtn.onclick = () => {
+          const newTrade = prompt(`Correct occupation for ${rec.forename} ${rec.surname} (${rec.year}, ${rec.street}):`, rec.trade || '');
+          if (newTrade !== null && newTrade.trim() !== '') {
+            const trimmed = newTrade.trim();
+            // Store exact record-level override key
+            const recordKey = `single:${rec.year}:${rec.street}:${rec.house_number}:${rec.forename}:${rec.surname}:${rec.trade}`;
+            tradeOverrides[recordKey] = trimmed;
+            saveOverrides();
+            parseAndGroupTrades();
+            closeTradesRecordModal();
+          }
+        };
       }
 
       const timelineBtn = document.getElementById('rec-timeline-btn');
