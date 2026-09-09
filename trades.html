@@ -665,28 +665,54 @@
         const isCustom = data.rawSamples.some(r => tradeOverrides[r.toLowerCase()]);
         const isVerified = verifiedTrades.has(trade);
         const hasIssue = isLikelyIssue(trade, data);
-        
-        tr.innerHTML = `
-          <td>
-            <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
-              <span class="trade-title" style="font-weight: 500;">${trade}</span>
-              ${isVerified ? '<span style="font-size: 0.75rem; background: rgba(72, 187, 120, 0.2); color: #48bb78; padding: 0.1rem 0.4rem; border-radius: 3px; font-weight: 500;">✓ Verified</span>' : ''}
-              ${isCustom ? '<span style="font-size: 0.75rem; background: rgba(200, 157, 84, 0.2); color: var(--accent); padding: 0.1rem 0.4rem; border-radius: 3px;">Overridden</span>' : ''}
-              ${hasIssue && !isVerified && !isCustom ? '<span style="font-size: 0.75rem; background: rgba(245, 101, 101, 0.2); color: #f56565; padding: 0.1rem 0.4rem; border-radius: 3px;">Needs Review</span>' : ''}
-            </div>
-            <div style="font-size: 0.75rem; color: var(--muted); margin-top: 0.15rem;">Variants: ${data.rawSamples.slice(0, 5).join(', ') || 'None'}</div>
-          </td>
-          <td class="count-col">${data.count}</td>
-          <td class="example-col">${data.sample}</td>
-          <td style="text-align: right;">
-            <div style="display: flex; gap: 0.5rem; justify-content: flex-end;">
-              <button class="btn ${isVerified ? 'btn-secondary' : ''}" style="padding: 0.4rem 0.75rem; font-size: 0.8rem;" onclick='toggleVerified(${JSON.stringify(trade)})'>
-                ${isVerified ? 'Unmark' : '✓ Mark Complete'}
-              </button>
-              <button class="btn btn-secondary" style="padding: 0.4rem 0.75rem; font-size: 0.8rem;" onclick='editTradeRule(${JSON.stringify(trade)}, ${JSON.stringify(data.rawSamples)})'>Edit Rule</button>
-            </div>
-          </td>
+
+        const tdName = document.createElement('td');
+        tdName.innerHTML = `
+          <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+            <span class="trade-title" style="font-weight: 500;"></span>
+            ${isVerified ? '<span style="font-size: 0.75rem; background: rgba(72, 187, 120, 0.2); color: #48bb78; padding: 0.1rem 0.4rem; border-radius: 3px; font-weight: 500;">✓ Verified</span>' : ''}
+            ${isCustom ? '<span style="font-size: 0.75rem; background: rgba(200, 157, 84, 0.2); color: var(--accent); padding: 0.1rem 0.4rem; border-radius: 3px;">Overridden</span>' : ''}
+            ${hasIssue && !isVerified && !isCustom ? '<span style="font-size: 0.75rem; background: rgba(245, 101, 101, 0.2); color: #f56565; padding: 0.1rem 0.4rem; border-radius: 3px;">Needs Review</span>' : ''}
+          </div>
+          <div style="font-size: 0.75rem; color: var(--muted); margin-top: 0.15rem;">Variants: ${data.rawSamples.slice(0, 5).join(', ') || 'None'}</div>
         `;
+        tdName.querySelector('.trade-title').textContent = trade;
+
+        const tdCount = document.createElement('td');
+        tdCount.className = 'count-col';
+        tdCount.textContent = data.count;
+
+        const tdSample = document.createElement('td');
+        tdSample.className = 'example-col';
+        tdSample.textContent = data.sample;
+
+        const tdActions = document.createElement('td');
+        tdActions.style.textAlign = 'right';
+
+        const actionDiv = document.createElement('div');
+        actionDiv.style.cssText = 'display: flex; gap: 0.5rem; justify-content: flex-end;';
+
+        const btnVerify = document.createElement('button');
+        btnVerify.className = `btn ${isVerified ? 'btn-secondary' : ''}`;
+        btnVerify.style.cssText = 'padding: 0.4rem 0.75rem; font-size: 0.8rem;';
+        btnVerify.textContent = isVerified ? 'Unmark' : '✓ Mark Complete';
+        btnVerify.onclick = () => toggleVerified(trade);
+
+        const btnEdit = document.createElement('button');
+        btnEdit.className = 'btn btn-secondary';
+        btnEdit.style.cssText = 'padding: 0.4rem 0.75rem; font-size: 0.8rem;';
+        btnEdit.textContent = 'Edit Rule';
+        btnEdit.onclick = () => editTradeRule(trade, data.rawSamples);
+
+        actionDiv.appendChild(btnVerify);
+        actionDiv.appendChild(btnEdit);
+        tdActions.appendChild(actionDiv);
+
+        tr.appendChild(tdName);
+        tr.appendChild(tdCount);
+        tr.appendChild(tdSample);
+        tr.appendChild(tdActions);
+
         tbody.appendChild(tr);
       });
     }
