@@ -1680,8 +1680,8 @@ let selectedIndex = -1;
                   ${subtitleHTML}
                 </div>
                 <div style="display: flex; gap: 0.35rem; align-items: center;">
-                  <button class="btn-edit-record" onclick="openScanInspectorModal('${r.year}', '${escFn(r.street)}', '${escFn(r.house_number)}')" style="border-color: var(--accent-muted); color: var(--accent);" title="View original directory scan page image for ${r.year}">📷 Scan</button>
-                  <button class="btn-edit-record" onclick="openRecordEditorModal('${r.year}', '${escFn(r.street)}', '${escFn(r.house_number)}', '${escFn(r.building_name)}', '${escFn(r.surname)}', '${escFn(r.forename)}', '${escFn(r.trade)}')" title="Correct this property record">✏️ Edit</button>
+                  <button class="record-edit-btn" onclick="openScanInspectorModal('${r.year}', '${escFn(r.street)}', '${escFn(r.house_number)}')" title="View original directory scan page image for ${r.year}">📷 Scan</button>
+                  <button class="record-edit-btn" onclick="openTimelineRecordEditor(event, '${r.year}', '${escFn(encSt)}', '${escFn(encHn)}', '${escFn(encBn)}', '${escFn(encSn)}', '${escFn(encFn)}', '${escFn(encTr)}')">✏️ Edit</button>
                 </div>
               </div>
             `;
@@ -1791,7 +1791,10 @@ let selectedIndex = -1;
                     ${primaryTitleHTML}
                     ${subtitleHTML}
                   </div>
-                  <button class="record-edit-btn" onclick="openTimelineRecordEditor(event, '${r.year}', '${escFn(encSt)}', '${escFn(encHn)}', '${escFn(encBn)}', '${escFn(encSn)}', '${escFn(encFn)}', '${escFn(encTr)}')">✏️ Edit</button>
+                  <div style="display: flex; gap: 0.35rem; align-items: center;">
+                    <button class="record-edit-btn" onclick="openScanInspectorModal('${r.year}', '${escFn(r.street)}', '${escFn(r.house_number)}')" title="View original directory scan page image for ${r.year}">📷 Scan</button>
+                    <button class="record-edit-btn" onclick="openTimelineRecordEditor(event, '${r.year}', '${escFn(encSt)}', '${escFn(encHn)}', '${escFn(encBn)}', '${escFn(encSn)}', '${escFn(encFn)}', '${escFn(encTr)}')">✏️ Edit</button>
+                  </div>
                 </div>
               `;
             }
