@@ -110,12 +110,229 @@ let selectedIndex = -1;
       return clean.replace(/\w\S*/g, (txt) => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase());
     }
 
+    const NON_TRADES_REGEX = /^(mrs\.?|miss\.?|mr\.?|thos\.?|jas\.?|wm\.?|saml\.?|john|geo\.?|chas\.?|hy\.?|richd\.?|harry|ernest|fredk\.?|arthur|edwd\.?|walt\.?|david|danl\.?|benj\.?|stepn\.?|iss e|ltd\.?|limited|co\.?|& co\.?|co\.? ltd\.?|ld\.?|henry|joseph|albert|reginald|harold|alfred|frank|edward|herbert|edwin|fred|norman|ivor|stanley|leslie|sidney|horace|edgar|lewis|percy|wilfred|bernard|eric|clifford|trevor|return\.?|junr?\.?|&|&c|etc|\{.*\}|;;;)$/i;
+
+    function getTradeOverrides() {
+      try {
+        return JSON.parse(localStorage.getItem('trade_overrides') || '{}');
+      } catch (e) {
+        return {};
+      }
+    }
+
     function cleanOccupation(trade) {
       if (!trade || trade.trim() === '' || trade === '-') return 'Residence / Private';
+
       let clean = trade.trim();
-      clean = clean.replace(/\bironwkr\b/gi, 'Ironworker').replace(/\bstlwkr\b/gi, 'Steelworker').replace(/wkr\b/gi, 'worker');
-      clean = clean.replace(/\blabr\b/gi, 'Labourer').replace(/\bdvr\b/gi, 'Driver').replace(/\bbricklyr\b/gi, 'Bricklayer').replace(/\bcarptr\b/gi, 'Carpenter').replace(/\beng dvr\b/gi, 'Engine Driver');
-      clean = clean.replace(/\w\S*/g, (txt) => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase());
+      const overrides = getTradeOverrides();
+
+      // Check custom trade overrides first
+      if (overrides[clean.toLowerCase()]) {
+        return overrides[clean.toLowerCase()];
+      }
+
+      // Catch Waypoints, Address Spills, Flat numbers, Phone numbers, & Non-trade OCR spills
+      if (
+        /^(here is|here are|from\s+\d+|from\s+[a-z]+|\(?the roundabout\)?|\(?flat\s+\d+.*?\)?)/i.test(clean) ||
+        /^(tel\.?|telephone|newport\s+\d+|\d+\s*\(after|\d+[a-z]?,?\s*workers)/i.test(clean) ||
+        /^(do\.?|ditto|[-—_\|\\\[\]\{\}\.\,\&\;\:\?\!]+|&c|etc|\(?return\)?\.?|;;;)$/i.test(clean) ||
+        NON_TRADES_REGEX.test(clean)
+      ) {
+        return 'Residence / Private';
+      }
+
+      // Handle "do. [Trade]" or "ditto [Trade]" patterns
+      clean = clean.replace(/^(?:\d+\s+)?(?:do\.?|ditto)\s*[\.,]*\s*(?:\[(.*?)\]|(.*?))$/i, (m, g1, g2) => (g1 || g2 || '').trim());
+      clean = clean.replace(/^[-—_\|,\s]+/, '').replace(/[-—_\|,\s]+$/, '').trim();
+
+      // Strip trailing or embedded house numbers from institutional spills
+      clean = clean
+        .replace(/\s+\d+[a-z]?$/i, '')
+        .replace(/^\d+[a-z]?\s+/i, '')
+        .trim();
+
+      if (!clean || clean === '-' || clean === '—' || NON_TRADES_REGEX.test(clean)) {
+        return 'Residence / Private';
+      }
+
+      // Clean trailing ", &c" / ", etc" / "(return)" / Phone number suffixes
+      clean = clean
+        .replace(/[\,;\s]+(?:&c|etc)\.?$/i, '')
+        .replace(/\s*\(\s*return\s*\)\.?$/i, '')
+        .replace(/\s*\(\s*tel\.?\s*\d+.*?\)$/i, '')
+        .trim();
+
+      // Clean municipal address spills & institution fragment lines
+      if (
+        /^(county borough of|council offices|home for the aged|home for aged|aged \(men\)|aged \(females\))/i.test(clean) ||
+        /^(independent order of|adult education|british steel corporation|engineering & foundry)/i.test(clean)
+      ) {
+        if (/county borough of/i.test(clean)) return 'Municipal / Council Office';
+        if (/home for/i.test(clean) || /aged \(/i.test(clean)) return 'Care Home / Residential Home';
+        if (/independent order/i.test(clean)) return 'Friendly Society / Lodge';
+        if (/adult education/i.test(clean)) return 'Educational Institution';
+        if (/british steel/i.test(clean)) return 'Steel Works / Office';
+        if (/engineering & foundry/i.test(clean)) return 'Engineering & Foundry';
+      }
+
+      // Handle School institutional titles
+      if (/school|junior high|senior high|grammar school|convent school/i.test(clean)) {
+        return 'School / Educational Institution';
+      }
+
+      // Specific multi-line commercial consolidations & compound expansions
+      if (/newsagent.*stationer/i.test(clean)) return 'Newsagent & Stationer';
+      if (/surveyor.*estate agent/i.test(clean)) return 'Estate Agent & Surveyor';
+      if (/scrap.*metal/i.test(clean)) return 'Scrap Metal Merchant';
+      if (/john ambulance/i.test(clean)) return 'St. John Ambulance Hall';
+
+      clean = clean
+        .replace(/\bg[\.\s]*w[\.\s]*r[\.\s]*/gi, 'G.W.R. ')
+        .replace(/G\.W\.R\.\s*[\.,]+/gi, 'G.W.R. ')
+        .replace(/\s+/g, ' ')
+        .trim()
+        .replace(/G\.W\.R\.\s*$/gi, 'G.W.R.')
+        .replace(/\bgov\.?\s+offcl\b/gi, 'Government Official')
+        .replace(/\bdk\s+police\b/gi, 'Dock Police')
+        .replace(/\bldg\s+ho\b/gi, 'Lodging House')
+        .replace(/\bdrapers\s+collctr\b/gi, 'Drapers Collector')
+        .replace(/\bgas\s+inspct\b/gi, 'Gas Inspector')
+        .replace(/\bblrmr\b/gi, 'Boilermaker')
+        .replace(/\bcustom\s+offr\b/gi, 'Custom Officer')
+        .replace(/\bglass\s+(wrkr|wk)\b/gi, 'Glass Worker')
+        .replace(/\bice\s+cream\s+vendr\b/gi, 'Ice Cream Vendor')
+        .replace(/\bcoal\s+tipr\b/gi, 'Coal Tipper')
+        .replace(/\bdentst\b/gi, 'Dentist')
+        .replace(/\bbus\s+drvi\b/gi, 'Bus Driver')
+        .replace(/\bwagon\s+rp\b/gi, 'Wagon Repairer')
+        .replace(/\b(electcn|electrn|elect|elct)\b/gi, 'Electrician')
+        .replace(/\bflour\s+packr\b/gi, 'Flour Packer')
+        .replace(/\broad\s+swp\b/gi, 'Road Sweeper')
+        .replace(/\b(ironwor|ironwrkr|ironworkr|iworker|irn\s+worker)\b/gi, 'Ironworker')
+        .replace(/\bbuilding\s+contr\s*&\s*engnrs\b/gi, 'Building Contractors and Engineers')
+        .replace(/\bsales\s+drvr\b/gi, 'Sales Driver')
+        .replace(/\btbeworker\b/gi, 'Tubeworker')
+        .replace(/\bshoe\s+repr\b/gi, 'Shoe Repairer')
+        .replace(/\bsteehvorkr\b/gi, 'Steelworker')
+        .replace(/\bcrane\s+dr\b/gi, 'Crane Driver')
+        .replace(/\belec\s+engineer\b/gi, 'Electrical Engineer')
+        .replace(/\bstl\s+worker\b/gi, 'Steel Worker')
+        .replace(/\bmotor\s+(drvr|dr)\b/gi, 'Motor Driver')
+        .replace(/\bins\.?\s*agt\.?\b/gi, 'Insurance Agent')
+        .replace(/\binsur\.?\s*agent\b/gi, 'Insurance Agent')
+        .replace(/\bins\s+mercht?\b/gi, 'Insurance Merchant')
+        .replace(/\bcoal\s+mercht?\b/gi, 'Coal Merchant')
+        .replace(/\bcoal\s+mer\b/gi, 'Coal Merchant')
+        .replace(/\bpostmn\b/gi, 'Postman')
+        .replace(/\bcivil\s+serv(t|nt)\b/gi, 'Civil Servant')
+        .replace(/\bdk\s+worker\b/gi, 'Dock Worker')
+        .replace(/\btrmr\b/gi, 'Trimmer')
+        .replace(/\bbricklayr\b/gi, 'Bricklayer')
+        .replace(/\bsupt\.?\b/gi, 'Superintendent')
+        .replace(/\bupholstr\b/gi, 'Upholsterer')
+        .replace(/\bloco\s+driver\b/gi, 'Locomotive Driver')
+        .replace(/\bclrk\b/gi, 'Clerk')
+        .replace(/\b(steelworkr|steehvorkr|stlwrkr)\b/gi, 'Steelworker')
+        .replace(/\bship\s+brkr\b/gi, 'Ship Broker')
+        .replace(/\bfitters\s+hlpr\b/gi, 'Fitters Helper')
+        .replace(/\bmarbl\s+polshr\b/gi, 'Marble Polisher')
+        .replace(/\bcab\s+proprtr\b/gi, 'Cab Proprietor')
+        .replace(/\bmonu\.?\s+mason\b/gi, 'Monumental Mason')
+        .replace(/\brailwymn\b/gi, 'Railwayman')
+        .replace(/\brly\s+foreman\b/gi, 'Railway Foreman')
+        .replace(/\brly\s+inspt\b/gi, 'Railway Inspector')
+        .replace(/\btram\s+inspt\b/gi, 'Tram Inspector')
+        .replace(/\binspt\b/gi, 'Inspector')
+        .replace(/\bironw6rker\b/gi, 'Ironworker')
+        .replace(/\bgeneral\s+grocr\b/gi, 'General Grocer')
+        .replace(/\blaborr\b/gi, 'Labourer')
+        .replace(/\bpier\s+mastr\b/gi, 'Pier Master')
+        .replace(/\bhouse\s+fur\b/gi, 'House Furnisher')
+        .replace(/\bhatter\s*,\s*,\s*etc\b/gi, 'Hatter, etc.')
+        .replace(/\bboot\s+manuftrs\b/gi, 'Boot Manufacturers')
+        .replace(/\bphotogrpr\b/gi, 'Photographer')
+        .replace(/\bmotormn\b/gi, 'Motorman')
+        .replace(/\btug\s+drvr\b/gi, 'Tug Driver')
+        .replace(/\belec\.?\s+eng\b/gi, 'Electrical Engineer')
+        .replace(/\bcoachmn\b/gi, 'Coachman')
+        .replace(/\brway\s+ganger\b/gi, 'Railway Ganger')
+        .replace(/\beng\.?\s+drvr\.?\s+g\.?w\.?r\.?\b/gi, 'Engine Driver G.W.R.')
+        .replace(/\bwoodtrnr\b/gi, 'Woodturner')
+        .replace(/\btel\.?\s+clerk\b/gi, 'Telephone Clerk')
+        .replace(/\bcellrmn\b/gi, 'Cellarman')
+        .replace(/\bstrkr\b/gi, 'Striker')
+        .replace(/\b(l;ab|labour[\x27\x22\x60]?r|lab[\x27\x22\x60]?r|lab[\x27\x22\x60]?rer)\b/gi, 'Labourer')
+        .replace(/\btail;ors\b/gi, 'Tailors')
+        .replace(/\bbrewerr\b/gi, 'Brewer')
+        .replace(/\bprovision\s+merchanty\b/gi, 'Provision Merchant')
+        .replace(/\bglass\s+blr\b/gi, 'Glassblower')
+        .replace(/\btransp[\x27\x22\x60]?t\s+w[\x27\x22\x60]?r\b/gi, 'Transport Worker')
+        .replace(/\bcr\.?\s*driver\b/gi, 'Crane Driver')
+        .replace(/\btr[\x27\x22\x60]?mmer\b/gi, 'Trimmer')
+        .replace(/\bhse\s+craft\s+mistress\b/gi, 'House Craft Mistress')
+        .replace(/\bcanteen\s+stwd\b/gi, 'Canteen Steward')
+        .replace(/\biron\s*&\s*metal\s+mcht\s+and\s+marine\s+stores\b/gi, 'Iron & Metal Merchant and Marine Stores')
+        .replace(/\biworker\s*&\s*shop\b/gi, 'Ironworker and Shop')
+        .replace(/\bnews\s*&\s*hairdr\b/gi, 'News and Hairdresser')
+        .replace(/\bturf\s+acnt\b/gi, 'Turf Accountant')
+        .replace(/\bahopkeeper\b/gi, 'Shopkeeper')
+        .replace(/\btime\s+kp\b/gi, 'Timekeeper')
+        .replace(/\bpump\s+attd?t\b/gi, 'Pump Attendant')
+        .replace(/\bcoal\s+tmr\b/gi, 'Coal Trimmer')
+        .replace(/\bblksth\b/gi, 'Blacksmith')
+        .replace(/\bschool\s+teach\b/gi, 'School Teacher')
+        .replace(/\bshop\s+ft[\x27\x22\x60]?rs\b/gi, 'Shop Fitters')
+        .replace(/\binsurnc\s+agt\b/gi, 'Insurance Agent')
+        .replace(/\bhead\s+waitr\b/gi, 'Head Waiter')
+        .replace(/\brailwaymn\b/gi, 'Railwayman')
+        .replace(/\bbootmkrs\b/gi, 'Bootmakers')
+        .replace(/\bgreengrcrs\b/gi, 'Greengrocers')
+        .replace(/\bpolice\s+sgt\b/gi, 'Police Sergeant')
+        .replace(/\btobacnst\b/gi, 'Tobacconist')
+        .replace(/\bbuilders\s+yd\b/gi, 'Builders Yard')
+        .replace(/\bsecty\b/gi, 'Secretary')
+        .replace(/\bgenl\s+dealer\b/gi, 'General Dealer')
+        .replace(/\bcellarmn\b/gi, 'Cellarman')
+        .replace(/\btravellr\b/gi, 'Traveller')
+        .replace(/\bcycle\s+repr\b/gi, 'Cycle Repairer')
+        .replace(/\benginemn\b/gi, 'Engineman')
+        .replace(/\bpipe\s+fittr\b/gi, 'Pipe Fitter')
+        .replace(/\bstocktkr\b/gi, 'Stocktaker')
+        .replace(/\bwheelwgt\b/gi, 'Wheelwright')
+        .replace(/\bwardrobe\s+dlr\b/gi, 'Wardrobe Dealer')
+        .replace(/\bdecor[\x27\x22\x60]?tr\b/gi, 'Decorator')
+        .replace(/\bboilermk\b/gi, 'Boilermaker')
+        .replace(/\bpltlyr\b/gi, 'Platelayer')
+        .replace(/\bglass\s+wks\b/gi, 'Glass Works')
+        .replace(/\bins\.?\s+superintendent\b/gi, 'Insurance Superintendent')
+        .replace(/\bgenl\.?\s+shop\b/gi, 'General Shop')
+        .replace(/\bironwkr\b/gi, 'Ironworker')
+        .replace(/\bstlwkr\b/gi, 'Steelworker')
+        .replace(/wkr\b/gi, 'worker');
+
+      // Standard trade abbreviations
+      clean = clean
+        .replace(/\blabr\b/gi, 'Labourer')
+        .replace(/\bdvr\b/gi, 'Driver')
+        .replace(/\bdrvr\b/gi, 'Driver')
+        .replace(/\bdrivr\b/gi, 'Driver')
+        .replace(/\beng\.?\s+driver\b/gi, 'Engine Driver')
+        .replace(/\beng\.?\s+dvr\b/gi, 'Engine Driver')
+        .replace(/\bptr\b/gi, 'Painter')
+        .replace(/\bclk\b/gi, 'Clerk')
+        .replace(/\btrm\b/gi, 'Trimmer')
+        .replace(/\bbricklyr\b/gi, 'Bricklayer')
+        .replace(/\bcarptr\b/gi, 'Carpenter')
+        .replace(/\beng dvr\b/gi, 'Engine Driver');
+
+      // Preserve G.W.R. and G.P.O. casing if present
+      clean = clean.replace(/\b(g\.?p\.?o\.?)\b\.?/gi, 'G.P.O.');
+      clean = clean.replace(/\w\S*/g, (txt) => {
+        if (txt.toUpperCase() === 'G.W.R.') return 'G.W.R.';
+        if (txt.toUpperCase() === 'G.P.O.') return 'G.P.O.';
+        return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+      });
+
       return clean;
     }
 
