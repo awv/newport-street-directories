@@ -6,32 +6,16 @@
   <title>Occupations Audit — Newport Street Directory</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/styles/main.css">
   
   <style>
-    :root {
-      --bg: #120f0d;
-      --card-bg: #1c1815;
-      --card-border: #2e2722;
-      --text: #e6e1da;
-      --muted: #9e9389;
-      --accent: #c89d54;
-      --heading-font: 'Instrument Serif', Georgia, serif;
-      --sans-font: 'Inter', -apple-system, sans-serif;
-    }
-
-    * { box-sizing: border-box; margin: 0; padding: 0; }
     body { 
-      background-color: var(--bg); 
-      color: var(--text); 
-      font-family: var(--sans-font); 
-      line-height: 1.6;
-      padding: 3rem 2rem;
+      padding: 0;
     }
 
-    .container { max-width: 1200px; margin: 0 auto; }
+    .container { max-width: 1200px; margin: 0 auto; padding: 2.5rem 1.5rem; }
 
-    header {
+    .page-header {
       margin-bottom: 2.5rem;
       border-bottom: 1px solid var(--card-border);
       padding-bottom: 1.5rem;
@@ -185,8 +169,25 @@
 </head>
 <body>
 
+  <header>
+    <div class="page-width">
+      <div class="header-inner">
+        <a href="index.html#home" class="logo">
+          <span>🏛️</span> Newport Directory Archive
+        </a>
+        <nav>
+          <a href="index.html#home">Home</a>
+          <a href="index.html#directories">Directories</a>
+          <a href="index.html#streets">All Streets</a>
+          <a href="map.html" class="nav-btn" style="background: rgba(200, 157, 84, 0.15); border-color: var(--accent); color: var(--accent);">🗺️ Map Explorer</a>
+          <a href="trades.html" class="nav-btn active" style="background: var(--accent); color: var(--bg);">Occupations Audit</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
   <div class="container">
-    <header>
+    <div class="page-header">
       <div>
         <h1>Occupation Audit</h1>
         <div class="subtitle">Reviewing unique trades across Newport Directory records</div>
@@ -195,7 +196,7 @@
         <button id="view-overrides-btn" class="btn btn-secondary" onclick="showOverridesModal()">Rules (0)</button>
         <div class="stats-badge" id="total-count">0 Unique Trades Found</div>
       </div>
-    </header>
+    </div>
 
     <div class="tabs-bar">
       <button class="tab-btn active" data-tab="all" onclick="switchTab('all')">
