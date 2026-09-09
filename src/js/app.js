@@ -2660,6 +2660,7 @@ let selectedIndex = -1;
       if (!modal) return;
 
       const idxData = await loadScansIndex();
+      const yrStr = String(year);
       const yrData = idxData[yrStr] || {};
       const fileList = yrData.files || (Array.isArray(yrData) ? yrData : []);
 
