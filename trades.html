@@ -784,10 +784,10 @@
     }
 
     function renderOverridesBadge() {
-      const overrideCount = Object.keys(tradeOverrides).length;
+      const globalRulesCount = Object.keys(tradeOverrides).filter(k => !k.startsWith('single:')).length;
       const btn = document.getElementById('view-overrides-btn');
       if (btn) {
-        btn.innerText = `Rules (${overrideCount})`;
+        btn.innerText = `Rules (${globalRulesCount})`;
       }
     }
 
@@ -931,7 +931,7 @@
         document.body.appendChild(modal);
       }
 
-      const overrideEntries = Object.entries(tradeOverrides);
+      const overrideEntries = Object.entries(tradeOverrides).filter(([k]) => !k.startsWith('single:'));
       let contentHtml = `
         <div style="background: var(--card-bg); border: 1px solid var(--card-border); padding: 2rem; border-radius: 8px; width: 600px; max-width: 90vw; max-height: 80vh; overflow-y: auto;">
           <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; border-bottom: 1px solid var(--card-border); padding-bottom: 1rem;">
