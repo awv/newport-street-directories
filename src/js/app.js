@@ -144,13 +144,33 @@ let selectedIndex = -1;
         return 'Residence / Private';
       }
 
+      // Catch year-only spills in parentheses or raw (e.g. "(1910)", "1910", ". S")
+      if (/^\(?\d{4}\)?$/i.test(clean) || /^\.\s*[a-z]$/i.test(clean)) {
+        return 'Residence / Private';
+      }
+
+      // Catch professional qualifications / engineering suffixes
+      if (/^m\.?i\.?c\.?e\.?/i.test(clean) || /^r\.?c\.?s\.?/i.test(clean)) {
+        if (/civ\.?\s*eng/i.test(clean) || /eng/i.test(clean)) return 'Civil Engineer';
+        if (/surg|dentist/i.test(clean)) return 'Dental Surgeon';
+        return 'Civil Engineer';
+      }
+
+      // Catch long multi-line advertisement spills (e.g. "India Rubber, Gutta Percha...", "Guest, Keen & Nettlefolds...", "Colliery Proprietors...", "Al Exporters...")
+      if (/gutta percha|hose packings|steamship and colliery furnishers|imperial mills|colliery proprietors|agents for the united national/i.test(clean)) {
+        if (/rubber|gutta percha/i.test(clean)) return 'India Rubber & Gutta Percha Manufacturers';
+        if (/mills|nettlefolds/i.test(clean)) return 'Iron & Steel Manufacturers';
+        if (/colliery|coal/i.test(clean)) return 'Colliery Proprietors & Coal Exporters';
+        return 'Commercial Business';
+      }
+
       // Catch Waypoints, Address Spills, Flat numbers, Phone numbers, & Non-trade OCR spills
       if (
         /^(here is|here are|from\s+\d+|from\s+[a-z]+|\(?the roundabout\)?|\(?flat\s+\d+.*?\)?)/i.test(clean) ||
         /^(tel\.?|telephone|newport\s+\d+|\d+\s*\(after|\d+[a-z]?,?\s*workers)/i.test(clean) ||
         /^(do\.?|ditto|[-—_\|\\\[\]\{\}\.\,\&\;\:\?\!]+|&c|etc|\(?return\)?\.?|;;;)$/i.test(clean) ||
         /^(ltd\.?|co\.?|& co\.?|co\.?\s+ltd\.?|ltd\.?,\s*ltd|ltd\.?,\s*co\.?|gas\s+co|way\s+co\.?'?s?\s*office|1st\s+floor|2nd\s+floor|3rd\s+floor)$/i.test(clean) ||
-        /^(&|\*|are|for|de|en|et|si|tai|vw|wks|rd|to\s+\d+\s+unbuilt|\(3\)|p\.o\.?|& m|& b)$/i.test(clean) ||
+        /^(&|\*|are|for|de|en|et|si|tai|vw|wks|rd|to\s+\d+\s+unbuilt|\(3\)|p\.o\.?|& m|& b|and at cardiff.*)$/i.test(clean) ||
         NON_TRADES_REGEX.test(clean)
       ) {
         return 'Residence / Private';
@@ -168,7 +188,7 @@ let selectedIndex = -1;
       clean = clean.replace(/^(?:\d+\s+)?(?:do\.?|ditto)\s*[\.,]*\s*(?:\[(.*?)\]|(.*?))$/i, (m, g1, g2) => (g1 || g2 || '').trim());
       clean = clean.replace(/^[-—_\|,\s]+/, '').replace(/[-—_\|,\s]+$/, '').trim();
 
-      // Strip house numbers and address prefixes (e.g. "20-24, Boot Repairer" -> "Boot Repairer", "52, Labourer" -> "Labourer", "60, Eastern Valleys", "(From 16 Merchant Street)")
+      // Strip house numbers and address prefixes (e.g. "20-24, Boot Repairer" -> "Boot Repairer", "52, Labourer" -> "Labourer", "Engrocer, 19 Foster F. J. Greengrocer")
       clean = clean
         .replace(/^\(from\s+\d+[^)]*\)\s*/i, '')
         .replace(/^\[?(\d+[-\d]*[a-z]?),?\s*/i, '')
@@ -176,15 +196,17 @@ let selectedIndex = -1;
         .replace(/\s+\d+[a-z]?$/i, '')
         .replace(/^\[/g, '')
         .replace(/\]$/g, '')
+        .replace(/^[a-z]+,\s*\d+\s+[a-z\s\.,']+/i, '')
         .trim();
 
       // Strip person name spills and company spills preceding trades
       clean = clean
         .replace(/^[a-z\s\.,'\-]+\b(mrs|mr|miss)\b.*?,?\s*/i, '')
-        .replace(/^[a-z\s\.,'\-]+\b(and|&)\s+co\.?'?s?\s+(offices|works|stores)\s*,?\s*/i, '')
+        .replace(/^[a-z\s\.,'\-]+\b(and|&)\s+co\.?'?s?\s+(offices|works|stores|yard)\s*,?\s*/i, '')
+        .replace(/^[a-z0-9\s\.,'&\-]+\b(co\.?|ltd\.?|& co\.?)\s*,?\s*(land agents|surveyors|auctioneers|shipping agents|steam\s*ship|coal exporters|brickworks|milliners|iron|draper)/i, '$2')
         .replace(/^[a-z\s\.,'\-]+,?\s*(mar\.?\s*eng'?n?r|eng'?r|eng'?n?r)/i, '$1');
 
-      // De-duplicate concatenated OCR phrases (e.g. "Bootmakers—j. O., Ltd, Ltd Bootmakers—j. O" -> "Bootmakers")
+      // De-duplicate concatenated OCR phrases (e.g. "Milliners, Ltd., Milliners" -> "Milliners", "Baby Linen... Outfitters, Ltd., Baby Linen..." -> "Baby Linen & Childrens Outfitters", "Brewers, Ltd." -> "Brewers")
       clean = clean.replace(/^([^,\-]+?)\s*[\,;\—\-].*?\b\1\b/i, '$1').trim();
 
       // Clean leading & trailing company suffixes
@@ -224,6 +246,7 @@ let selectedIndex = -1;
       }
 
       // Specific multi-line commercial consolidations & compound expansions
+      if (/^dkr$/i.test(clean)) return 'Docker';
       if (/^eng\.?\s*du'?vr$/i.test(clean)) return 'Engine Driver';
       if (/^m'?sion\s*agt$/i.test(clean)) return 'Commission Agent';
       if (/^m\.?b\.?\s*do$/i.test(clean)) return 'Physician & Surgeon';
