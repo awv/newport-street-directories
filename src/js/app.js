@@ -2660,8 +2660,8 @@ let selectedIndex = -1;
       if (!modal) return;
 
       const idxData = await loadScansIndex();
-      const yrStr = String(year);
-      const fileList = idxData[yrStr] || [];
+      const yrData = idxData[yrStr] || {};
+      const fileList = yrData.files || (Array.isArray(yrData) ? yrData : []);
 
       if (!fileList.length) {
         alert(`No original page scans indexed for the ${year} directory edition.`);
@@ -2669,7 +2669,23 @@ let selectedIndex = -1;
       }
 
       currentScanYear = yrStr;
-      currentScanPageIdx = 0;
+      
+      // Calculate target page index for street
+      let targetPageIdx = 0;
+      if (streetName && yrData.streets) {
+        const cleanSt = streetName.toLowerCase().replace(/[^a-z0-9]/g, '');
+        if (yrData.streets[cleanSt] !== undefined) {
+          targetPageIdx = yrData.streets[cleanSt];
+        } else {
+          // Find closest matching street key
+          const matchKey = Object.keys(yrData.streets).find(k => k.includes(cleanSt) || cleanSt.includes(k));
+          if (matchKey) {
+            targetPageIdx = yrData.streets[matchKey];
+          }
+        }
+      }
+
+      currentScanPageIdx = targetPageIdx;
       currentScanZoomLevel = 1.0;
       resetScanZoom();
 
@@ -2706,7 +2722,8 @@ let selectedIndex = -1;
 
     function changeScanPage(delta) {
       if (!scansIndex || !currentScanYear) return;
-      const fileList = scansIndex[currentScanYear] || [];
+      const yrData = scansIndex[currentScanYear] || {};
+      const fileList = yrData.files || (Array.isArray(yrData) ? yrData : []);
       currentScanPageIdx += delta;
       updateScanModalDisplay(fileList);
     }
