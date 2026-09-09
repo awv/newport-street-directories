@@ -408,8 +408,13 @@
           <input type="text" id="edit-sub-unit" class="form-input" placeholder="e.g. Room 4, Flat 2" />
         </div>
         <div class="form-group full-width">
-          <label class="form-label">Building / House Name</label>
-          <input type="text" id="edit-building-name" class="form-input" placeholder="e.g. Westgate Chambers, Lamb Inn, Home Cottage" />
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <label class="form-label" style="margin-bottom: 0;">Building / House Name</label>
+            <button type="button" id="btn-swap-building-trade" onclick="swapBuildingNameAndTrade()" style="background: rgba(200, 157, 84, 0.15); border: 1px solid var(--accent); color: var(--accent); font-size: 0.75rem; padding: 0.2rem 0.6rem; border-radius: 4px; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 0.3rem;">
+              ⇄ Swap (House Name & Trade)
+            </button>
+          </div>
+          <input type="text" id="edit-building-name" class="form-input" style="margin-top: 0.35rem;" placeholder="e.g. Westgate Chambers, Lamb Inn, Home Cottage" />
         </div>
         <div class="form-group full-width">
           <label class="form-label">Source Classification</label>
@@ -440,7 +445,7 @@
         </div>
         <div class="form-group full-width">
           <label class="form-label">Correction Reason / Notes</label>
-          <input type="text" id="edit-reason" class="form-input" placeholder="e.g. Fixed trade trapped in surname field for No. 12" />
+          <input type="text" id="edit-reason" class="form-input" placeholder="e.g. Swapped house name and trade fields" />
         </div>
       </div>
       <div class="editor-modal-footer">

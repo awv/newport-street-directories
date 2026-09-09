@@ -1676,6 +1676,7 @@ let selectedIndex = -1;
               const bName = (r.building_name || '').trim();
               const trdName = (r.trade || '').trim();
               const isPubTrade = /vaults|inn|hotel|tavern|arms|bar|saloon|club|laboratory/i.test(trdName);
+              const isBldgTrade = /masons?|grocers?|blacksmiths?|butchers?|engineers?|drapers?|labourers?|painters?|fitters?|clerks?|merchants?|tailors?|shoemakers?|shoerepairers?|builders?|contractors?|hauliers?|bakers?|carpenters?|printers?/i.test(bName);
 
               const effectiveBldgName = bName || (isPubTrade ? trdName : '');
 
@@ -1683,7 +1684,7 @@ let selectedIndex = -1;
                 primaryTitleHTML = `<a href="${searchNameHash}" class="timeline-name clickable-occupant-name" title="Search all records for ${fullResidentName}">${fullResidentName}</a>`;
                 if (effectiveBldgName) {
                   const searchBldgHash = `#search=${encodeURIComponent(effectiveBldgName)}`;
-                  subtitleHTML += `<div style="font-size: 0.95rem; color: #e2d7c5; font-weight: 500; margin-top: 0.15rem;">🏠 House Name: <a href="${searchBldgHash}" class="clickable-occupant-name" style="color: #ffffff; text-decoration: underline;" title="Search all records for ${effectiveBldgName}">${effectiveBldgName}</a></div>`;
+                  subtitleHTML += `<div style="font-size: 0.95rem; color: #e2d7c5; font-weight: 500; margin-top: 0.15rem;">🏠 House Name: <a href="${searchBldgHash}" class="clickable-occupant-name" style="color: #ffffff; text-decoration: underline;" title="Search all records for ${effectiveBldgName}">${effectiveBldgName}</a> ${isBldgTrade ? '<span style="font-size: 0.7rem; background: rgba(245, 101, 101, 0.2); color: #f56565; padding: 0.1rem 0.35rem; border-radius: 3px; margin-left: 0.3rem;" title="Trade may be trapped in House Name field">💡 Trade in House Name?</span>' : ''}</div>`;
                 }
                 if (displayTrade && displayTrade !== 'Residence / Private' && displayTrade.toLowerCase() !== effectiveBldgName.toLowerCase()) {
                   subtitleHTML += `<div><a href="${searchTradeHash}" class="timeline-trade clickable-trade-tag" title="Search all ${displayTrade} entries">${displayTrade}</a></div>`;
@@ -1919,6 +1920,23 @@ let selectedIndex = -1;
         document.getElementById('editor-modal-backdrop').classList.add('active');
       } catch (err) {
         console.error("Error in openTimelineRecordEditor:", err);
+      }
+    }
+
+    function swapBuildingNameAndTrade() {
+      const bldgElem = document.getElementById('edit-building-name');
+      const tradeElem = document.getElementById('edit-trade');
+      if (!bldgElem || !tradeElem) return;
+
+      const oldBldg = bldgElem.value;
+      const oldTrade = tradeElem.value;
+
+      bldgElem.value = oldTrade;
+      tradeElem.value = oldBldg;
+
+      const reasonElem = document.getElementById('edit-reason');
+      if (reasonElem) {
+        reasonElem.value = `Swapped House Name ("${oldBldg}") and Trade ("${oldTrade}") fields.`;
       }
     }
 
