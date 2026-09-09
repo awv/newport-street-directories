@@ -769,6 +769,23 @@
                     const marker = createMarker(street);
                     marker.addTo(map);
                     
+                    const popupHtml = `
+                        <div style="min-width: 220px; font-family: var(--font-body);">
+                            <div style="font-family: var(--font-heading); font-size: 16px; color: var(--gold-primary); font-weight: 700; margin-bottom: 4px;">${street.name}</div>
+                            <div style="font-size: 11px; color: var(--text-muted); margin-bottom: 8px;">${street.span} • ${street.houses > 0 ? street.houses + ' Properties' : street.records + ' Records'}</div>
+                            
+                            <div style="width: 100%; height: 110px; border-radius: 4px; overflow: hidden; margin-bottom: 10px; background: #0d0f12;">
+                                <img src="assets/images/streetview/${street.slug}.jpg" alt="${street.name}" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.style.display='none';" />
+                            </div>
+
+                            <a href="index.html#street=${encodeURIComponent(street.name)}" target="_blank" style="display: block; width: 100%; padding: 6px 10px; background: var(--gold-primary); color: #000; font-weight: 700; font-size: 12px; text-align: center; border-radius: 4px; text-decoration: none;">
+                                Inspect Street Directory ➔
+                            </a>
+                        </div>
+                    `;
+
+                    marker.bindPopup(popupHtml);
+
                     marker.on('click', () => {
                         selectStreet(street);
                     });
@@ -901,8 +918,11 @@
         }
 
         function selectStreet(street) {
-            // Pan to marker
+            // Pan to marker and open popup
             map.flyTo([street.lat, street.lng], 16, { duration: 1.2 });
+            if (markersMap[street.slug] && markersMap[street.slug].marker) {
+                markersMap[street.slug].marker.openPopup();
+            }
 
             // Highlight List Item
             document.querySelectorAll('.street-item').forEach(el => el.classList.remove('selected'));
