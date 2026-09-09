@@ -2677,6 +2677,7 @@ let selectedIndex = -1;
       
       updateScanModalDisplay(fileList, lineIdx);
       modal.style.display = 'flex';
+      modal.classList.add('active');
     }
 
     function updateScanModalDisplay(fileList, lineIdx = -1) {
@@ -2732,7 +2733,10 @@ let selectedIndex = -1;
 
     function closeScanInspectorModal() {
       const modal = document.getElementById('scan-inspector-modal');
-      if (modal) modal.style.display = 'none';
+      if (modal) {
+        modal.style.display = 'none';
+        modal.classList.remove('active');
+      }
     }
 
     // Attach scan functions to window for global access
