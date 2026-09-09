@@ -607,7 +607,7 @@ let selectedIndex = -1;
           }
 
           autocompleteContainer.classList.add('active');
-        }, 150);
+        }, 300);
       });
     }
 
@@ -725,34 +725,41 @@ let selectedIndex = -1;
         }
       });
 
-      // Match residents & trades from searchIndexData
-      (indexData || []).forEach(r => {
-        const fullName = r.n || '';
-        const trade = r.t || '';
-        const street = r.s || '';
-        const locKey = r.k || '';
-        const locAddress = `${locKey} ${street}`;
+      // Match residents & trades from searchIndexData (with caps for ultra-responsive rendering)
+      if (indexData && indexData.length) {
+        for (let i = 0; i < indexData.length; i++) {
+          const r = indexData[i];
+          const fullName = r.n || '';
+          const trade = r.t || '';
+          const street = r.s || '';
+          const locKey = r.k || '';
+          const locAddress = `${locKey} ${street}`;
 
-        if (fullName.toLowerCase().includes(cleanQ)) {
-          matchedPeople.push({
-            type: 'person',
-            title: fullName,
-            sub: trade || 'Resident',
-            address: locAddress,
-            hash: `#house=${encodeURIComponent(street + '|' + locKey)}`
-          });
-        }
+          if (matchedPeople.length < 200 && fullName.toLowerCase().includes(cleanQ)) {
+            matchedPeople.push({
+              type: 'person',
+              title: fullName,
+              sub: trade || 'Resident',
+              address: locAddress,
+              hash: `#house=${encodeURIComponent(street + '|' + locKey)}`
+            });
+          }
 
-        if (trade && trade.toLowerCase().includes(cleanQ)) {
-          matchedOccupations.push({
-            type: 'occupation',
-            title: fullName,
-            sub: trade,
-            address: locAddress,
-            hash: `#house=${encodeURIComponent(street + '|' + locKey)}`
-          });
+          if (matchedOccupations.length < 200 && trade && trade.toLowerCase().includes(cleanQ)) {
+            matchedOccupations.push({
+              type: 'occupation',
+              title: fullName,
+              sub: trade,
+              address: locAddress,
+              hash: `#house=${encodeURIComponent(street + '|' + locKey)}`
+            });
+          }
+
+          if (matchedPeople.length >= 200 && matchedOccupations.length >= 200) {
+            break;
+          }
         }
-      });
+      }
 
       const matchedStreets = Array.from(matchedStreetsMap.values());
 
