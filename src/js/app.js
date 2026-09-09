@@ -1680,7 +1680,7 @@ let selectedIndex = -1;
                   ${subtitleHTML}
                 </div>
                 <div style="display: flex; gap: 0.35rem; align-items: center;">
-                  <button class="record-edit-btn" onclick="openScanInspectorModal('${r.year}', '${escFn(r.street)}', '${escFn(r.house_number)}')" title="View original directory scan page image for ${r.year}">📷 Scan</button>
+                  <button class="record-edit-btn" onclick="openScanInspectorModal(event, '${r.year}', '${escFn(r.street)}', '${escFn(r.house_number)}')" title="View original directory scan page image for ${r.year}">📷 Scan</button>
                   <button class="record-edit-btn" onclick="openTimelineRecordEditor(event, '${r.year}', '${escFn(encSt)}', '${escFn(encHn)}', '${escFn(encBn)}', '${escFn(encSn)}', '${escFn(encFn)}', '${escFn(encTr)}')">✏️ Edit</button>
                 </div>
               </div>
@@ -1792,7 +1792,7 @@ let selectedIndex = -1;
                     ${subtitleHTML}
                   </div>
                   <div style="display: flex; gap: 0.35rem; align-items: center;">
-                    <button class="record-edit-btn" onclick="openScanInspectorModal('${r.year}', '${escFn(r.street)}', '${escFn(r.house_number)}')" title="View original directory scan page image for ${r.year}">📷 Scan</button>
+                    <button class="record-edit-btn" onclick="openScanInspectorModal(event, '${r.year}', '${escFn(r.street)}', '${escFn(r.house_number)}')" title="View original directory scan page image for ${r.year}">📷 Scan</button>
                     <button class="record-edit-btn" onclick="openTimelineRecordEditor(event, '${r.year}', '${escFn(encSt)}', '${escFn(encHn)}', '${escFn(encBn)}', '${escFn(encSn)}', '${escFn(encFn)}', '${escFn(encTr)}')">✏️ Edit</button>
                   </div>
                 </div>
@@ -2648,7 +2648,12 @@ let selectedIndex = -1;
       }
     }
 
-    async function openScanInspectorModal(year, streetName = '', houseNum = '', lineIdx = -1) {
+    async function openScanInspectorModal(e, year, streetName = '', houseNum = '', lineIdx = -1) {
+      if (e && e.stopPropagation) {
+        e.stopPropagation();
+        e.preventDefault();
+      }
+
       const modal = document.getElementById('scan-inspector-modal');
       const subtitle = document.getElementById('scan-modal-subtitle');
 
