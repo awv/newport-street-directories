@@ -2624,6 +2624,7 @@ let selectedIndex = -1;
 
     window.addEventListener('hashchange', navigate);
     window.addEventListener('DOMContentLoaded', async () => {
+      if (!document.getElementById('street-nav')) return;
       checkEditorMode();
       await loadMasterStreets();
       loadSessionFromLocalStorage();
