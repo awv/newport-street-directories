@@ -684,6 +684,10 @@
 
         const tradeKey = cleanOccupation(rawTrade);
         const sampleName = `${forename} ${surname}`.trim();
+        let year = cols[0] || '';
+        let street = cols[1] || '';
+        let houseNum = cols[2] || '';
+        let bldgName = cols[3] || '';
         const sampleRecord = { year, street, house_number: houseNum, building_name: bldgName, surname, forename, trade: rawTrade };
 
         if (tradeMap.has(tradeKey)) {
