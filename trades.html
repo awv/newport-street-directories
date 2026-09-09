@@ -260,13 +260,18 @@
     }
 
     function isLikelyIssue(trade, data) {
-      // 1. Short or strange punctuation/abbreviations leftover
+      // 1. Non-trade / Address / Waypoint leftovers
+      if (/^(here is|here are|from\s+\d+|from\s+newport|\(?the roundabout\)?)/i.test(trade)) return true;
+      if (/^(tel|telephone|newport\s+\d+|\d+\s*\(after)/i.test(trade)) return true;
+      if (/^\(flat\s+\d+/i.test(trade)) return true;
+      
+      // 2. Short or strange punctuation/abbreviations leftover
       if (/[;\/:_\{\}\[\]\\\|]/.test(trade)) return true;
       if (/\b(dvr|drvr|ptr|clk|trm|labr|wkr|agt|mer|co|ltd|mcht|eng)\b/i.test(trade)) return true;
       if (trade.length <= 3 && trade !== 'G.W.R.' && trade !== 'G.P.O.') return true;
-      // 2. Contains digits or unusual mixed casing
+      // 3. Contains digits or unusual mixed casing
       if (/\d/.test(trade)) return true;
-      // 3. Raw variants contain obvious uncleaned shortcuts
+      // 4. Raw variants contain obvious uncleaned shortcuts
       if (data.rawSamples.some(r => /[\;\:\\\/_\{\}]/.test(r) || /\b(do\.?|ditto)\b/i.test(r))) return true;
       return false;
     }
@@ -281,8 +286,13 @@
         return tradeOverrides[clean.toLowerCase()];
       }
 
-      // Clean dittos, dashes, pipes, underscores, JSON blobs, and standalone symbols
-      if (/^(do\.?|ditto|[-—_\|\\\[\]\{\}\.\,\&\;\:\?\!]+|&c|etc|\(?return\)?\.?|;;;)$/i.test(clean) || NON_TRADES_REGEX.test(clean)) {
+      // 1. Catch Waypoints, Address Spills, Flat numbers, Phone numbers, & Non-trade OCR spills
+      if (
+        /^(here is|here are|from\s+\d+|from\s+[a-z]+|\(?the roundabout\)?|\(?flat\s+\d+.*?\)?)/i.test(clean) ||
+        /^(tel\.?|telephone|newport\s+\d+|\d+\s*\(after|\d+[a-z]?,?\s*workers)/i.test(clean) ||
+        /^(do\.?|ditto|[-—_\|\\\[\]\{\}\.\,\&\;\:\?\!]+|&c|etc|\(?return\)?\.?|;;;)$/i.test(clean) ||
+        NON_TRADES_REGEX.test(clean)
+      ) {
         return 'Residence / Private';
       }
 
@@ -290,14 +300,26 @@
       clean = clean.replace(/^(?:\d+\s+)?(?:do\.?|ditto)\s*[\.,]*\s*(?:\[(.*?)\]|(.*?))$/i, (m, g1, g2) => (g1 || g2 || '').trim());
       clean = clean.replace(/^[-—_\|,\s]+/, '').replace(/[-—_\|,\s]+$/, '').trim();
 
+      // Strip leading house/flat numbers (e.g. "4a, Workers" -> "Workers", "29, Independent..." -> "Independent...")
+      clean = clean.replace(/^\d+[a-z]?\s*,\s*/i, '').trim();
+
       if (!clean || clean === '-' || clean === '—' || NON_TRADES_REGEX.test(clean)) {
         return 'Residence / Private';
       }
 
-      // Clean trailing ", &c" / ", etc" / "(return)" suffixes
-      clean = clean.replace(/[\,;\s]+(?:&c|etc)\.?$/i, '').replace(/\s*\(\s*return\s*\)\.?$/i, '').trim();
+      // Clean trailing ", &c" / ", etc" / "(return)" / Phone number suffixes
+      clean = clean
+        .replace(/[\,;\s]+(?:&c|etc)\.?$/i, '')
+        .replace(/\s*\(\s*return\s*\)\.?$/i, '')
+        .replace(/\s*\(\s*tel\.?\s*\d+.*?\)$/i, '')
+        .trim();
 
-      // 1. Specific compound word & suffix expansions
+      // 2. Specific multi-line commercial consolidations & compound expansions
+      if (/newsagent.*stationer/i.test(clean)) return 'Newsagent & Stationer';
+      if (/surveyor.*estate agent/i.test(clean)) return 'Estate Agent & Surveyor';
+      if (/scrap.*metal/i.test(clean)) return 'Scrap Metal Merchant';
+      if (/john ambulance/i.test(clean)) return 'St. John Ambulance Hall';
+
       clean = clean
         .replace(/\bg[\.\s]*w[\.\s]*r[\.\s]*/gi, 'G.W.R. ')
         .replace(/G\.W\.R\.\s*[\.,]+/gi, 'G.W.R. ')
