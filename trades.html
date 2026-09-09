@@ -186,6 +186,49 @@
     </div>
   </header>
 
+  <!-- RECORD INSPECTOR / EDITOR MODAL -->
+  <div class="editor-modal-backdrop" id="trades-record-modal" style="z-index: 10050;">
+    <div class="editor-modal-content" style="max-width: 650px; width: 95%;">
+      <div class="editor-modal-header" style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--card-border); padding-bottom: 1rem; margin-bottom: 1rem;">
+        <div>
+          <h3 style="margin: 0; font-family: var(--heading-font); color: var(--accent); font-size: 1.5rem;">📋 Record Inspector</h3>
+          <span style="font-size: 0.85rem; color: var(--muted);" id="rec-modal-subtitle">Directory Entry Detail</span>
+        </div>
+        <button onclick="closeTradesRecordModal()" style="background: none; border: none; color: #fff; font-size: 1.5rem; cursor: pointer;">&times;</button>
+      </div>
+      
+      <div style="display: flex; flex-direction: column; gap: 1rem;">
+        <div style="background: rgba(0,0,0,0.3); padding: 1rem; border-radius: 8px; border: 1px solid var(--card-border);">
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; font-size: 0.9rem;">
+            <div><span style="color: var(--muted);">Year:</span> <strong id="rec-year" style="color: var(--accent);">-</strong></div>
+            <div><span style="color: var(--muted);">Street:</span> <strong id="rec-street">-</strong></div>
+            <div><span style="color: var(--muted);">House No:</span> <strong id="rec-housenum">-</strong></div>
+            <div><span style="color: var(--muted);">Building Name:</span> <strong id="rec-bldgname">-</strong></div>
+            <div><span style="color: var(--muted);">Forename:</span> <strong id="rec-forename">-</strong></div>
+            <div><span style="color: var(--muted);">Surname:</span> <strong id="rec-surname">-</strong></div>
+          </div>
+          <div style="margin-top: 0.75rem; border-top: 1px dashed var(--card-border); padding-top: 0.75rem; font-size: 0.95rem;">
+            <span style="color: var(--muted);">Raw Occupation / Trade:</span><br/>
+            <strong id="rec-trade" style="color: #fff; font-size: 1.05rem;">-</strong>
+          </div>
+        </div>
+
+        <div style="display: flex; justify-content: space-between; align-items: center; background: rgba(200, 157, 84, 0.1); border: 1px solid var(--accent-muted); padding: 0.75rem 1rem; border-radius: 8px;">
+          <div>
+            <span style="font-size: 0.85rem; color: var(--accent); font-weight: 500;">📷 Directory Scan Page</span>
+            <div style="font-size: 0.75rem; color: var(--muted);">View original printed scan page for this record</div>
+          </div>
+          <button id="rec-scan-btn" class="btn" style="padding: 0.4rem 0.85rem; font-size: 0.8rem;">📷 View Original Scan</button>
+        </div>
+      </div>
+
+      <div style="display: flex; justify-content: flex-end; gap: 0.75rem; margin-top: 1.5rem; border-top: 1px solid var(--card-border); padding-top: 1rem;">
+        <button class="btn btn-secondary" onclick="closeTradesRecordModal()">Close</button>
+        <a id="rec-timeline-btn" href="#" target="_blank" class="btn" style="padding: 0.45rem 1rem; font-size: 0.85rem; text-decoration: none;">Explore Property Timeline ↗</a>
+      </div>
+    </div>
+  </div>
+
   <div class="container">
     <div class="page-header">
       <div>
@@ -641,6 +684,7 @@
 
         const tradeKey = cleanOccupation(rawTrade);
         const sampleName = `${forename} ${surname}`.trim();
+        const sampleRecord = { year, street, house_number: houseNum, building_name: bldgName, surname, forename, trade: rawTrade };
 
         if (tradeMap.has(tradeKey)) {
           const item = tradeMap.get(tradeKey);
@@ -648,10 +692,14 @@
           if (rawTrade && !item.rawSamples.includes(rawTrade)) {
             item.rawSamples.push(rawTrade);
           }
+          if (!item.sampleRecord) {
+            item.sampleRecord = sampleRecord;
+          }
         } else {
           tradeMap.set(tradeKey, { 
             count: 1, 
             sample: sampleName,
+            sampleRecord: sampleRecord,
             rawSamples: rawTrade ? [rawTrade] : []
           });
         }
@@ -780,7 +828,19 @@
 
         const tdSample = document.createElement('td');
         tdSample.className = 'example-col';
-        tdSample.textContent = data.sample;
+        if (data.sampleRecord) {
+          const a = document.createElement('a');
+          a.href = '#';
+          a.style.cssText = 'color: var(--accent); text-decoration: underline; cursor: pointer; font-weight: 500;';
+          a.textContent = data.sample || 'View Record';
+          a.onclick = (e) => {
+            e.preventDefault();
+            openTradesRecordModal(data.sampleRecord);
+          };
+          tdSample.appendChild(a);
+        } else {
+          tdSample.textContent = data.sample || '-';
+        }
 
         const tdActions = document.createElement('td');
         tdActions.style.textAlign = 'right';
@@ -888,6 +948,37 @@
     document.getElementById('trade-search').addEventListener('input', (e) => {
       renderTable(e.target.value);
     });
+
+    
+    function openTradesRecordModal(rec) {
+      if (!rec) return;
+      document.getElementById('rec-year').innerText = rec.year || '-';
+      document.getElementById('rec-street').innerText = rec.street || '-';
+      document.getElementById('rec-housenum').innerText = rec.house_number || '-';
+      document.getElementById('rec-bldgname').innerText = rec.building_name || '-';
+      document.getElementById('rec-forename').innerText = rec.forename || '-';
+      document.getElementById('rec-surname').innerText = rec.surname || '-';
+      document.getElementById('rec-trade').innerText = rec.trade || '-';
+
+      const scanBtn = document.getElementById('rec-scan-btn');
+      if (scanBtn) {
+        scanBtn.onclick = (e) => openScanInspectorModal(e, rec.year, rec.street, rec.house_number);
+      }
+
+      const timelineBtn = document.getElementById('rec-timeline-btn');
+      if (timelineBtn) {
+        const locKey = rec.house_number || rec.building_name || (rec.forename + ' ' + rec.surname);
+        timelineBtn.href = `index.html#house=${encodeURIComponent((rec.street || '') + '|' + locKey)}`;
+      }
+
+      const modal = document.getElementById('trades-record-modal');
+      if (modal) modal.classList.add('active');
+    }
+
+    function closeTradesRecordModal() {
+      const modal = document.getElementById('trades-record-modal');
+      if (modal) modal.classList.remove('active');
+    }
 
     window.addEventListener('DOMContentLoaded', loadTrades);
   </script>
