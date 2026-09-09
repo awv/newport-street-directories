@@ -503,17 +503,17 @@
 
             <div class="slider-controls">
                 <button id="btnPlay" class="btn-play" onclick="togglePlayTimeline()" title="Play/Pause Time-Lapse">▶</button>
-                <input type="range" id="yearSlider" class="year-slider" min="1877" max="1925" value="1877" step="1" oninput="onSliderInput(this.value)">
+                <input type="range" id="yearSlider" class="year-slider" min="1875" max="1950" value="1875" step="1" oninput="onSliderInput(this.value)">
             </div>
 
             <div class="timeline-ticks">
                 <span>All</span>
-                <span>1878</span>
+                <span>1876</span>
                 <span>1890</span>
-                <span>1900</span>
-                <span>1910</span>
+                <span>1905</span>
                 <span>1920</span>
-                <span>1925</span>
+                <span>1935</span>
+                <span>1950</span>
             </div>
         </div>
 
@@ -536,9 +536,11 @@
                     <div id="statSpan" class="stat-val">1893–1925</div>
                     <div class="stat-lbl">Years</div>
                 </div>
+            <div style="width: 100%; height: 140px; border-radius: 6px; overflow: hidden; margin-bottom: 12px; background: #0d0f12; border: 1px solid rgba(212, 175, 55, 0.2);">
+                <img id="streetViewImg" src="" alt="Street View" style="width: 100%; height: 100%; object-fit: cover; display: none;" />
             </div>
 
-            <a id="cardBtnLink" href="#" target="_blank" class="btn-open-street">Open Full Directory View ➔</a>
+            <a id="cardBtnLink" href="#" class="btn-open-street">Open Full Directory View ➔</a>
         </div>
 
         <!-- Sidebar Navigation -->
@@ -671,20 +673,26 @@
             }
         ];
 
-        let map, darkTileLayer, osTileLayer;
+        let ALL_STREETS = [];
+        let map, darkTileLayer, osTileLayer, voyagerTileLayer, positronTileLayer;
         let markersMap = {};
         let selectedYear = null; // null = all years
         let isPlaying = false;
         let playInterval = null;
 
+        function cleanSlug(text) {
+          if (!text) return '';
+          return text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') || 'unnamed';
+        }
+
         // Initialize Map
-        function initMap() {
+        async function initMap() {
             // Newport Town Center Coordinates
             const newportCenter = [51.5880, -2.9960];
             
             map = L.map('map', {
                 center: newportCenter,
-                zoom: 15,
+                zoom: 14,
                 zoomControl: false
             });
 
@@ -692,7 +700,7 @@
 
             // Dark Basemap (CartoDB Dark Matter with API Key)
             darkTileLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png?key=cb1_2yvg_1_ff40e3899c6af5a0c5f71e43', {
-                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+                attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
                 subdomains: 'abcd',
                 maxZoom: 19
             });
@@ -704,7 +712,7 @@
                 maxZoom: 19
             });
 
-            // CartoDB Voyager (High contrast clear roads)
+            // CartoDB Voyager
             voyagerTileLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png?key=cb1_2yvg_1_ff40e3899c6af5a0c5f71e43', {
                 attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
                 subdomains: 'abcd',
@@ -717,27 +725,67 @@
                 maxZoom: 19
             });
 
-            positronTileLayer.addTo(map);
+            darkTileLayer.addTo(map);
 
-            // Render Initial Markers
-            SAMPLE_STREETS.forEach(street => {
-                const marker = createMarker(street);
-                marker.addTo(map);
+            // Fetch all 465 geocoded streets from data/streets.json
+            try {
+                const response = await fetch('data/streets.json');
+                const rawStreets = await response.json();
                 
-                marker.on('click', () => {
-                    selectStreet(street);
+                // Filter down to streets with valid latitude and longitude coordinates
+                ALL_STREETS = rawStreets.filter(s => s.latitude && s.longitude).map(s => {
+                    const lat = parseFloat(s.latitude);
+                    const lng = parseFloat(s.longitude);
+                    const slug = cleanSlug(s.displayName);
+                    
+                    // Parse start and end years
+                    let startYear = 1876;
+                    let endYear = 1950;
+                    if (s.yearsSpan) {
+                        const yearsArr = s.yearsSpan.split(/[^0-9]+/).map(n => parseInt(n)).filter(n => !isNaN(n));
+                        if (yearsArr.length >= 1) startYear = yearsArr[0];
+                        if (yearsArr.length >= 2) endYear = yearsArr[yearsArr.length - 1];
+                    }
+
+                    return {
+                        name: s.displayName,
+                        slug: slug,
+                        lat: lat,
+                        lng: lng,
+                        records: s.recordsCount || 0,
+                        houses: s.houseCount || 0,
+                        startYear: startYear,
+                        endYear: endYear,
+                        span: s.yearsSpan || `${startYear}–${endYear}`,
+                        status: s.auditStatus || 'UNVERIFIED',
+                        desc: s.formerNames && s.formerNames.length ? `Formerly known as ${s.formerNames.join(', ')}` : `Recorded thoroughfare in Newport archives (${s.yearsSpan || '1876–1950'}).`
+                    };
                 });
 
-                markersMap[street.slug] = { marker, data: street };
-            });
+                document.querySelector('.sidebar-subtitle').innerText = `Displaying ${ALL_STREETS.length} mapped historic streets with GPS coordinates.`;
 
-            renderStreetList(SAMPLE_STREETS);
+                // Render Pins for all 465 streets
+                ALL_STREETS.forEach(street => {
+                    const marker = createMarker(street);
+                    marker.addTo(map);
+                    
+                    marker.on('click', () => {
+                        selectStreet(street);
+                    });
+
+                    markersMap[street.slug] = { marker, data: street };
+                });
+
+                renderStreetList(ALL_STREETS);
+            } catch (err) {
+                console.error("Failed to load data/streets.json for map view", err);
+            }
         }
 
         function createMarker(street, isActive = true) {
             const goldIcon = L.divIcon({
                 className: `pin-wrapper-${street.slug}`,
-                html: `<div id="pin-${street.slug}" class="gold-pin-dot ${isActive ? '' : 'dimmed'}"></div>`,
+                html: `<div id="pin-${street.slug}" class="gold-pin-dot ${isActive ? '' : 'dimmed'}" title="${street.name}"></div>`,
                 iconSize: [16, 16],
                 iconAnchor: [8, 8]
             });
@@ -770,7 +818,7 @@
 
         function onSliderInput(val) {
             const num = parseInt(val);
-            if (num === 1877) {
+            if (num === 1875) {
                 selectedYear = null;
                 document.getElementById('yearDisplay').innerText = "ALL YEARS";
             } else {
@@ -782,7 +830,7 @@
         }
 
         function updateTimeFilter() {
-            SAMPLE_STREETS.forEach(street => {
+            ALL_STREETS.forEach(street => {
                 const isActive = (selectedYear === null) || (selectedYear >= street.startYear && selectedYear <= street.endYear);
                 const pinEl = document.getElementById(`pin-${street.slug}`);
                 if (pinEl) {
@@ -807,15 +855,15 @@
                 btn.innerText = '⏸';
                 
                 let slider = document.getElementById('yearSlider');
-                if (parseInt(slider.value) >= 1925) slider.value = 1878;
+                if (parseInt(slider.value) >= 1950) slider.value = 1876;
 
                 playInterval = setInterval(() => {
                     let currentVal = parseInt(slider.value);
-                    if (currentVal === 1877) currentVal = 1878;
+                    if (currentVal === 1875) currentVal = 1876;
                     else currentVal++;
 
-                    if (currentVal > 1925) {
-                        currentVal = 1877;
+                    if (currentVal > 1950) {
+                        currentVal = 1875;
                         clearInterval(playInterval);
                         isPlaying = false;
                         btn.innerText = '▶';
@@ -841,12 +889,12 @@
                     <div>
                         <div class="street-name">${street.name}</div>
                         <div class="street-meta">
-                            <span>${street.houses} Properties</span>
+                            <span>${street.houses > 0 ? street.houses + ' Properties' : street.records + ' Recs'}</span>
                             <span>•</span>
                             <span>${street.span}</span>
                         </div>
                     </div>
-                    <span class="street-badge">${street.records} Recs</span>
+                    <span class="street-badge">${street.status === 'FULLY_ENRICHED' ? '🌟 Enriched' : (street.status === 'NAME_VERIFIED' ? '🔒 Verified' : '⚠️ Raw')}</span>
                 `;
                 container.appendChild(div);
             });
@@ -872,6 +920,18 @@
             document.getElementById('statSpan').innerText = street.span;
             document.getElementById('cardBtnLink').href = `index.html#street=${encodeURIComponent(street.name)}`;
 
+            // Load Street View thumbnail if available
+            const imgElem = document.getElementById('streetViewImg');
+            if (imgElem) {
+                imgElem.src = `assets/images/streetview/${street.slug}.jpg`;
+                imgElem.onerror = () => {
+                    imgElem.style.display = 'none';
+                };
+                imgElem.onload = () => {
+                    imgElem.style.display = 'block';
+                };
+            }
+
             document.getElementById('streetCard').style.display = 'block';
         }
 
@@ -882,7 +942,7 @@
 
         function filterStreets() {
             const query = document.getElementById('searchInput').value.toLowerCase();
-            const filtered = SAMPLE_STREETS.filter(s => s.name.toLowerCase().includes(query));
+            const filtered = ALL_STREETS.filter(s => s.name.toLowerCase().includes(query));
             renderStreetList(filtered);
             updateTimeFilter();
         }
