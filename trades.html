@@ -145,11 +145,25 @@
     const NON_TRADES_REGEX = /^(mrs\.?|miss\.?|mr\.?|thos\.?|jas\.?|wm\.?|saml\.?|john|geo\.?|chas\.?|hy\.?|richd\.?|harry|ernest|fredk\.?|arthur|edwd\.?|walt\.?|david|danl\.?|benj\.?|stepn\.?|iss e|ltd\.?|limited|co\.?|& co\.?|co\.? ltd\.?|ld\.?|henry|joseph|albert|reginald|harold|alfred|frank|edward|herbert|edwin|fred|norman|ivor|stanley|leslie|sidney|horace|edgar|lewis|percy|wilfred|bernard|eric|clifford|trevor)$/i;
 
     function cleanOccupation(trade) {
-      if (!trade || trade.trim() === '' || trade === '-' || NON_TRADES_REGEX.test(trade.trim())) {
+      if (!trade) return 'Residence / Private';
+
+      let clean = trade.trim();
+
+      // Clean dittos, dashes, pipes, underscores, and standalone symbols
+      if (/^(do\.?|ditto|[-—_\|]+|&c|etc|\.|\,)$/i.test(clean) || NON_TRADES_REGEX.test(clean)) {
         return 'Residence / Private';
       }
 
-      let clean = trade.trim();
+      // Handle "do. [Trade]" or "ditto [Trade]" patterns
+      clean = clean.replace(/^(?:\d+\s+)?(?:do\.?|ditto)\s*[\.,]*\s*(?:\[(.*?)\]|(.*?))$/i, (m, g1, g2) => (g1 || g2 || '').trim());
+      clean = clean.replace(/^[-—_\|,\s]+/, '').replace(/[-—_\|,\s]+$/, '').trim();
+
+      if (!clean || clean === '-' || clean === '—' || NON_TRADES_REGEX.test(clean)) {
+        return 'Residence / Private';
+      }
+
+      // Clean trailing ", &c" / ", etc" suffixes
+      clean = clean.replace(/[\,;\s]+(?:&c|etc)\.?$/i, '').trim();
 
       // 1. Specific compound word & suffix expansions
       clean = clean
@@ -185,6 +199,8 @@
         .replace(/\bstl\s+worker\b/gi, 'Steel Worker')
         .replace(/\bmotor\s+(drvr|dr)\b/gi, 'Motor Driver')
         .replace(/\bins\s+agt\b/gi, 'Insurance Agent')
+        .replace(/\bins\s+mercht?\b/gi, 'Insurance Merchant')
+        .replace(/\bcoal\s+mercht?\b/gi, 'Coal Merchant')
         .replace(/\bpostmn\b/gi, 'Postman')
         .replace(/\bcivil\s+serv(t|nt)\b/gi, 'Civil Servant')
         .replace(/\bdk\s+worker\b/gi, 'Dock Worker')
@@ -223,7 +239,7 @@
         .replace(/\btel\.?\s+clerk\b/gi, 'Telephone Clerk')
         .replace(/\bcellrmn\b/gi, 'Cellarman')
         .replace(/\bstrkr\b/gi, 'Striker')
-        .replace(/\b(l;ab|labour[\x27\x22\x60]?r)\b/gi, 'Labourer')
+        .replace(/\b(l;ab|labour[\x27\x22\x60]?r|lab[\x27\x22\x60]?r|lab[\x27\x22\x60]?rer)\b/gi, 'Labourer')
         .replace(/\btail;ors\b/gi, 'Tailors')
         .replace(/\bbrewerr\b/gi, 'Brewer')
         .replace(/\bprovision\s+merchanty\b/gi, 'Provision Merchant')
@@ -276,6 +292,10 @@
       clean = clean
         .replace(/\blabr\b/gi, 'Labourer')
         .replace(/\bdvr\b/gi, 'Driver')
+        .replace(/\bdrvr\b/gi, 'Driver')
+        .replace(/\bdrivr\b/gi, 'Driver')
+        .replace(/\beng\.?\s+driver\b/gi, 'Engine Driver')
+        .replace(/\beng\.?\s+dvr\b/gi, 'Engine Driver')
         .replace(/\bptr\b/gi, 'Painter')
         .replace(/\bclk\b/gi, 'Clerk')
         .replace(/\btrm\b/gi, 'Trimmer')
