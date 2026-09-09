@@ -27,6 +27,7 @@ flowchart TD
 
 | Path / File | Purpose & Description |
 | :--- | :--- |
+| **`trades.html`** | Interactive occupation audit page featuring Record Inspector modal, single-record editing, Scan Inspector integration, and bulk trade normalization. |
 | **`index.html`** | Single Page Application (SPA) built with Vanilla HTML5, CSS3, and JavaScript. Features interactive timelines, house modals, global search, and built-in editor mode. |
 | **`data.csv`** | The authoritative master CSV containing **209,000+ historical records** across all imported directory years. |
 | **`edge_cases.json`** | Persistent rule store for manual data overrides, exclusions, and layout fixes exported from the Web Editor. |

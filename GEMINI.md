@@ -45,3 +45,24 @@ For extremely distorted/complex layout anomalies, use direct array/dict injectio
 ## 🌐 Local Development & Cache
 * Frontend assets are served at `http://127.0.0.1:5500/`.
 * Since data is loaded via `fetch` requests, browsers cache the JSON files aggressively. **Always perform a hard reload (`Cmd+Shift+R` or empty caches)** when verifying database cleanups.
+
+---
+
+## ⚡ Recent UI & Data Pipeline Enhancements (Sep 2026)
+
+### 1. Occupations Audit (`trades.html`) & Record Inspector Modal
+* **Person Links & Record Inspector**: Clicking any sample person's name on `trades.html` opens the **Record Inspector Modal** showing full entry metadata (Year, Street, House No, Building Name, Forename, Surname, Raw Occupation).
+* **Single-Record vs Bulk Rules**:
+  * **`✏️ Edit This Entry Only`**: Updates the occupation for *that specific person's record* (`single:year:street:house:forename:surname:trade`), bypassing bulk rules without affecting other records sharing the same raw trade title.
+  * **`Edit Rule`**: Updates canonical mapping across *all* matching raw entries in the dataset.
+* **Original Scan & Timeline Cross-Linking**: Includes direct launchers for `openScanInspectorModal(...)` (view printed directory scan page) and `index.html#house=...` (property timeline view).
+
+### 2. High-Performance Live Search & DOM Rendering
+* **Search Autocomplete Debouncing & Capping**: Live search input in `src/js/app.js` is debounced to 300ms, and search loop iterations across the 129,000-entry `search_index.json` cap at 200 items per category for near-instant rendering without UI lag.
+* **DocumentFragment Batching**: `trades.html` renders all ~1,000+ occupation rows offscreen in memory using a `DocumentFragment`, preventing layout thrashing and reflow bottlenecks.
+* **Standalone Page Guards**: `app.js` event listeners check for `#street-nav` before initializing SPA routing, allowing standalone pages like `trades.html` to run cleanly without `TypeError` exceptions.
+
+### 3. OCR Street Name Header Spillover Fixes
+* **Risca Road / "39 Prosser T"**: Reassigned 1898 records where house #39 (*"39 Prosser T. M., Clytha view"*) was OCR-parsed into the street column.
+* **Dewstow Street / Dock Street**: Reassigned 24 records from 1925 where *DOCK (THE TOWN)* page headers spilled under *Dewstow Street*.
+* **Commercial Road / Post Office Header**: Reassigned 62 records from 1920 where the header *"COMMERCIAL ROAD POST OFFICE..."* was misparsed as a street name.
