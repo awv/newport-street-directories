@@ -517,32 +517,6 @@
             </div>
         </div>
 
-        <!-- Pop-up Floating Card for Selected Street -->
-        <div id="streetCard" class="street-card-pop">
-            <span class="close-card" onclick="closeCard()">&times;</span>
-            <div id="cardTitle" class="card-pop-title">Street Name</div>
-            <div id="cardMeta" class="card-pop-subtitle">Victorian Expansion • 1893–1925</div>
-            
-            <div class="card-pop-stats">
-                <div>
-                    <div id="statRecords" class="stat-val">41</div>
-                    <div class="stat-lbl">Records</div>
-                </div>
-                <div>
-                    <div id="statHouses" class="stat-val">7</div>
-                    <div class="stat-lbl">Properties</div>
-                </div>
-                <div>
-                    <div id="statSpan" class="stat-val">1893–1925</div>
-                    <div class="stat-lbl">Years</div>
-                </div>
-            <div style="width: 100%; height: 140px; border-radius: 6px; overflow: hidden; margin-bottom: 12px; background: #0d0f12; border: 1px solid rgba(212, 175, 55, 0.2);">
-                <img id="streetViewImg" src="" alt="Street View" style="width: 100%; height: 100%; object-fit: cover; display: none;" />
-            </div>
-
-            <a id="cardBtnLink" href="#" class="btn-open-street">Open Full Directory View ➔</a>
-        </div>
-
         <!-- Sidebar Navigation -->
         <div class="sidebar">
             <div class="sidebar-header">
@@ -931,32 +905,9 @@
                 listItem.classList.add('selected');
                 listItem.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
             }
-
-            // Populate Card
-            document.getElementById('cardTitle').innerText = street.name;
-            document.getElementById('cardMeta').innerText = street.desc;
-            document.getElementById('statRecords').innerText = street.records;
-            document.getElementById('statHouses').innerText = street.houses;
-            document.getElementById('statSpan').innerText = street.span;
-            document.getElementById('cardBtnLink').href = `index.html#street=${encodeURIComponent(street.name)}`;
-
-            // Load Street View thumbnail if available
-            const imgElem = document.getElementById('streetViewImg');
-            if (imgElem) {
-                imgElem.src = `assets/images/streetview/${street.slug}.jpg`;
-                imgElem.onerror = () => {
-                    imgElem.style.display = 'none';
-                };
-                imgElem.onload = () => {
-                    imgElem.style.display = 'block';
-                };
-            }
-
-            document.getElementById('streetCard').style.display = 'block';
         }
 
         function closeCard() {
-            document.getElementById('streetCard').style.display = 'none';
             document.querySelectorAll('.street-item').forEach(el => el.classList.remove('selected'));
         }
 
