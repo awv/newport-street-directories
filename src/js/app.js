@@ -522,79 +522,92 @@ let selectedIndex = -1;
     const searchInput = document.getElementById('search-input');
     const autocompleteContainer = document.getElementById('autocomplete-results');
 
+        let searchDebounceTimer = null;
     if (searchInput && autocompleteContainer) {
-      searchInput.addEventListener('input', async () => {
-        const query = searchInput.value.trim().toLowerCase();
-        
-        if (query.length < 2) {
-          autocompleteContainer.classList.remove('active');
-          return;
-        }
-
-        const indexData = await loadSearchIndex();
-
-        const matchingStreets = (masterStreetsList || [])
-          .filter(s => s.displayName.toLowerCase().includes(query))
-          .slice(0, 3)
-          .map(s => s.displayName);
-        
-        const matchingPeopleMap = new Map();
-        for (const r of (indexData || [])) {
-          const fullName = r.n || '';
-          if (fullName.toLowerCase().includes(query) && !matchingPeopleMap.has(fullName.toLowerCase())) {
-            const locLabel = r.k ? `${r.k}` : 'Street';
-            matchingPeopleMap.set(fullName.toLowerCase(), {
-              name: fullName,
-              street: r.s,
-              targetKey: r.k,
-              tag: `${locLabel} ${r.s}`
-            });
-            if (matchingPeopleMap.size >= 3) break;
+      searchInput.addEventListener('input', () => {
+        clearTimeout(searchDebounceTimer);
+        searchDebounceTimer = setTimeout(async () => {
+          const query = searchInput.value.trim().toLowerCase();
+          
+          if (query.length < 2) {
+            autocompleteContainer.classList.remove('active');
+            return;
           }
-        }
-        const matchingPeople = Array.from(matchingPeopleMap.values());
 
-        const matchingOccupationsSet = new Set();
-        for (const r of (indexData || [])) {
-          const displayTrade = cleanOccupation(r.t);
-          if (
-            displayTrade &&
-            displayTrade !== 'Residence / Private' &&
-            displayTrade.length < 40 &&
-            displayTrade.toLowerCase().includes(query)
-          ) {
-            matchingOccupationsSet.add(displayTrade);
-            if (matchingOccupationsSet.size >= 3) break;
+          const indexData = await loadSearchIndex();
+
+          const matchingStreets = (masterStreetsList || [])
+            .filter(s => s.displayName.toLowerCase().includes(query))
+            .slice(0, 3)
+            .map(s => s.displayName);
+          
+          const matchingPeopleMap = new Map();
+          const matchingOccupationsSet = new Set();
+
+          if (indexData && indexData.length) {
+            for (let i = 0; i < indexData.length; i++) {
+              const r = indexData[i];
+              if (matchingPeopleMap.size < 3) {
+                const fullName = r.n || '';
+                if (fullName.toLowerCase().includes(query) && !matchingPeopleMap.has(fullName.toLowerCase())) {
+                  const locLabel = r.k ? `${r.k}` : 'Street';
+                  matchingPeopleMap.set(fullName.toLowerCase(), {
+                    name: fullName,
+                    street: r.s,
+                    targetKey: r.k,
+                    tag: `${locLabel} ${r.s}`
+                  });
+                }
+              }
+
+              if (matchingOccupationsSet.size < 3) {
+                const displayTrade = cleanOccupation(r.t);
+                if (
+                  displayTrade &&
+                  displayTrade !== 'Residence / Private' &&
+                  displayTrade.length < 40 &&
+                  displayTrade.toLowerCase().includes(query)
+                ) {
+                  matchingOccupationsSet.add(displayTrade);
+                }
+              }
+
+              if (matchingPeopleMap.size >= 3 && matchingOccupationsSet.size >= 3) {
+                break;
+              }
+            }
           }
-        }
-        const matchingOccupations = Array.from(matchingOccupationsSet);
 
-        if (!matchingStreets.length && !matchingPeople.length && !matchingOccupations.length) {
-          autocompleteContainer.classList.remove('active');
-          return;
-        }
+          const matchingPeople = Array.from(matchingPeopleMap.values());
+          const matchingOccupations = Array.from(matchingOccupationsSet);
 
-        autocompleteContainer.innerHTML = '';
+          if (!matchingStreets.length && !matchingPeople.length && !matchingOccupations.length) {
+            autocompleteContainer.classList.remove('active');
+            return;
+          }
 
-        if (matchingStreets.length) {
-          appendAutocompleteGroup('Streets', matchingStreets.map(s => ({
-            label: `🏠 ${s}`, tag: 'Street', hash: `#street=${encodeURIComponent(s)}`
-          })));
-        }
+          autocompleteContainer.innerHTML = '';
 
-        if (matchingPeople.length) {
-          appendAutocompleteGroup('People', matchingPeople.map(p => ({
-            label: `👤 ${p.name}`, tag: p.tag, hash: `#house=${encodeURIComponent(p.street + '|' + p.targetKey)}`
-          })));
-        }
+          if (matchingStreets.length) {
+            appendAutocompleteGroup('Streets', matchingStreets.map(s => ({
+              label: `🏠 ${s}`, tag: 'Street', hash: `#street=${encodeURIComponent(s)}`
+            })));
+          }
 
-        if (matchingOccupations.length) {
-          appendAutocompleteGroup('Occupations', matchingOccupations.map(o => ({
-            label: `🛠️ ${o}`, tag: 'Occupation', hash: `#search=${encodeURIComponent(o)}`
-          })));
-        }
+          if (matchingPeople.length) {
+            appendAutocompleteGroup('People', matchingPeople.map(p => ({
+              label: `👤 ${p.name}`, tag: p.tag, hash: `#house=${encodeURIComponent(p.street + '|' + p.targetKey)}`
+            })));
+          }
 
-        autocompleteContainer.classList.add('active');
+          if (matchingOccupations.length) {
+            appendAutocompleteGroup('Occupations', matchingOccupations.map(o => ({
+              label: `🛠️ ${o}`, tag: 'Occupation', hash: `#search=${encodeURIComponent(o)}`
+            })));
+          }
+
+          autocompleteContainer.classList.add('active');
+        }, 150);
       });
     }
 
