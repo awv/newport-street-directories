@@ -350,21 +350,7 @@
         "trade": "steward, Coronation Club & Working Men's Institute"
       }
     },
-    {
-      "reason": "Albany Street 1887: Clear erroneous Foaming Tankard building name from 21 Albany Street.",
-      "match": {
-        "street": "Albany Street",
-        "year": "1887",
-        "building_name": "Foaming Tankard"
-      },
-      "apply": {
-        "house_number": "21",
-        "building_name": "",
-        "surname": "Davies",
-        "forename": "John",
-        "trade": ""
-      }
-    },
+
     {
       "reason": "Corrected trade",
       "match": {
@@ -3463,12 +3449,12 @@
       }
     },
     {
-      "reason": "Batch audit: Map 'Cattle Market' to 'Commercial Road'",
+      "reason": "Batch audit: Keep Cattle Market as independent street",
       "match": {
         "street": "Cattle Market"
       },
       "apply": {
-        "street": "Commercial Road"
+        "street": "Cattle Market"
       }
     },
     {
@@ -4143,6 +4129,3156 @@
         "forename": "Frederick J",
         "trade": "tug capt",
         "source_type": "Primary"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Gregory & Roberts",
+        "house_number": "33"
+      },
+      "apply": {
+        "house_number": "33",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Gregory & Roberts",
+        "forename": "",
+        "trade": "Grocers"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Evans & Willmett",
+        "house_number": "39"
+      },
+      "apply": {
+        "house_number": "39",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Evans & Willmett",
+        "forename": "",
+        "trade": "Fishmongers"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Holborn",
+        "house_number": ""
+      },
+      "apply": {
+        "house_number": "",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Holborn",
+        "forename": "Henry",
+        "trade": "Photographer"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Beynon-Hughes",
+        "house_number": ""
+      },
+      "apply": {
+        "house_number": "",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Beynon-Hughes",
+        "forename": "Mrs",
+        "trade": "Teacher of Music"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Baker & Sons",
+        "house_number": "74"
+      },
+      "apply": {
+        "house_number": "74",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Baker & Sons",
+        "forename": "",
+        "trade": "Shipbrokers",
+        "entry_type": "Business"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Pyne",
+        "house_number": ""
+      },
+      "apply": {
+        "house_number": "",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Pyne",
+        "forename": "Alfred",
+        "trade": "Commercial Traveller"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "J. Jacobs A & E",
+        "house_number": "99-101"
+      },
+      "apply": {
+        "house_number": "99-101",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "J. Jacobs A & E",
+        "forename": "",
+        "trade": "Pawnbrokers & Outfitters"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Fox",
+        "house_number": ""
+      },
+      "apply": {
+        "house_number": "",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Fox",
+        "forename": "William",
+        "trade": "Photographer"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Woodruff",
+        "house_number": "1"
+      },
+      "apply": {
+        "house_number": "1",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Woodruff",
+        "forename": "R",
+        "trade": "China Dealer"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Morgan",
+        "house_number": "2"
+      },
+      "apply": {
+        "house_number": "2",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Morgan",
+        "forename": "David",
+        "trade": "Flour and Corn Store"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Taylor",
+        "house_number": "3"
+      },
+      "apply": {
+        "house_number": "3",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Taylor",
+        "forename": "Henry",
+        "trade": "Draper"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Flook",
+        "house_number": "4"
+      },
+      "apply": {
+        "house_number": "4",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Flook",
+        "forename": "Henry",
+        "trade": "Ffishmonger"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Guy",
+        "house_number": "5"
+      },
+      "apply": {
+        "house_number": "5",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Guy",
+        "forename": "Frank",
+        "trade": "Newsagent and Tobacconist"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Griffiths",
+        "house_number": "6"
+      },
+      "apply": {
+        "house_number": "6",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Griffiths",
+        "forename": "Benjamin",
+        "trade": "Chemist"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Quarm",
+        "house_number": "8"
+      },
+      "apply": {
+        "house_number": "8",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Quarm",
+        "forename": "George",
+        "trade": "Ironmonger"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Vaux",
+        "house_number": "9"
+      },
+      "apply": {
+        "house_number": "9",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Vaux",
+        "forename": "George",
+        "trade": "Cutler"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Tanner",
+        "house_number": "11"
+      },
+      "apply": {
+        "house_number": "11",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Tanner",
+        "forename": "C",
+        "trade": "Leather Seller"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Selwood",
+        "house_number": "12"
+      },
+      "apply": {
+        "house_number": "12",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Selwood",
+        "forename": "Philip",
+        "trade": "Hatter"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Poole",
+        "house_number": "13"
+      },
+      "apply": {
+        "house_number": "13",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Poole",
+        "forename": "J R",
+        "trade": "Fancy Repository"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Childs",
+        "house_number": "15"
+      },
+      "apply": {
+        "house_number": "15",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Childs",
+        "forename": "S T",
+        "trade": "Grocer"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Bullock",
+        "house_number": "16"
+      },
+      "apply": {
+        "house_number": "16",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Bullock",
+        "forename": "W",
+        "trade": "Confectioner"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Hicks",
+        "house_number": "17"
+      },
+      "apply": {
+        "house_number": "17",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Hicks",
+        "forename": "Albert",
+        "trade": "Butcher"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Beer",
+        "house_number": "19"
+      },
+      "apply": {
+        "house_number": "19",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Beer",
+        "forename": "John",
+        "trade": "Shoemaker"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Reed",
+        "house_number": "20"
+      },
+      "apply": {
+        "house_number": "20",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Reed",
+        "forename": "George",
+        "trade": "Outfitter"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Jobbling",
+        "house_number": "21"
+      },
+      "apply": {
+        "house_number": "21",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Jobbling",
+        "forename": "Robert",
+        "trade": "Tobacconist"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Jones",
+        "house_number": "22"
+      },
+      "apply": {
+        "house_number": "22",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Jones",
+        "forename": "Morris",
+        "trade": "Jeweller"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Allen",
+        "house_number": "23"
+      },
+      "apply": {
+        "house_number": "23",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Allen",
+        "forename": "Robert",
+        "trade": "General Shop"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Bailey",
+        "house_number": "25"
+      },
+      "apply": {
+        "house_number": "25",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Bailey",
+        "forename": "James",
+        "trade": "Greengrocer"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Frost",
+        "house_number": "26"
+      },
+      "apply": {
+        "house_number": "26",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Frost",
+        "forename": "Edward",
+        "trade": "Grocer"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Burpitt",
+        "house_number": "29"
+      },
+      "apply": {
+        "house_number": "29",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Burpitt",
+        "forename": "F E",
+        "trade": "Decorator"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Dean",
+        "house_number": "28"
+      },
+      "apply": {
+        "house_number": "28",
+        "sub_unit": "",
+        "building_name": "Castle Inn",
+        "surname": "Dean",
+        "forename": "Samuel",
+        "trade": ""
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Brooks",
+        "house_number": "24"
+      },
+      "apply": {
+        "house_number": "24",
+        "sub_unit": "",
+        "building_name": "Eating House",
+        "surname": "Brooks",
+        "forename": "James",
+        "trade": ""
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Jenkins",
+        "house_number": "35"
+      },
+      "apply": {
+        "house_number": "35",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Jenkins",
+        "forename": "William",
+        "trade": "Trunkmaker"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Crosta",
+        "house_number": "36"
+      },
+      "apply": {
+        "house_number": "36",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Crosta",
+        "forename": "J",
+        "trade": "Brush Maker"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Freedman",
+        "house_number": "37"
+      },
+      "apply": {
+        "house_number": "37",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Freedman",
+        "forename": "L",
+        "trade": "Clothier"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Poole",
+        "house_number": "38"
+      },
+      "apply": {
+        "house_number": "38",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Poole",
+        "forename": "Edward J",
+        "trade": "Butcher"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Reynolds",
+        "house_number": "41"
+      },
+      "apply": {
+        "house_number": "41",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Reynolds",
+        "forename": "Lydia",
+        "trade": "Shell Fish"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Griffiths",
+        "house_number": "42"
+      },
+      "apply": {
+        "house_number": "42",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Griffiths",
+        "forename": "John",
+        "trade": "Hatter"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Scandrett",
+        "house_number": "43"
+      },
+      "apply": {
+        "house_number": "43",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Scandrett",
+        "forename": "S. W",
+        "trade": "Butcher"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Newman",
+        "house_number": "44"
+      },
+      "apply": {
+        "house_number": "44",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Newman",
+        "forename": "Alfred",
+        "trade": "Stationer"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Walters",
+        "house_number": "45"
+      },
+      "apply": {
+        "house_number": "45",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Walters",
+        "forename": "W. R",
+        "trade": "Shoemaker"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Thomas",
+        "house_number": "47"
+      },
+      "apply": {
+        "house_number": "47",
+        "sub_unit": "",
+        "building_name": "Commercial Inn",
+        "surname": "Thomas",
+        "forename": "Henry",
+        "trade": ""
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Hazell",
+        "house_number": "48"
+      },
+      "apply": {
+        "house_number": "48",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Hazell",
+        "forename": "M",
+        "trade": "Draper"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Hockey",
+        "house_number": "49"
+      },
+      "apply": {
+        "house_number": "49",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Hockey",
+        "forename": "James",
+        "trade": "Grocer"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Cooke",
+        "house_number": "50"
+      },
+      "apply": {
+        "house_number": "50",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Cooke",
+        "forename": "Charles",
+        "trade": "Hair Cutter"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Morgan",
+        "house_number": "52"
+      },
+      "apply": {
+        "house_number": "52",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Morgan",
+        "forename": "Henry",
+        "trade": "Butcher"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Griffiths",
+        "house_number": "54"
+      },
+      "apply": {
+        "house_number": "54",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Griffiths",
+        "forename": "H",
+        "trade": "Grocer and Draper"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Gratte",
+        "house_number": "55"
+      },
+      "apply": {
+        "house_number": "55",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Gratte",
+        "forename": "Henry J",
+        "trade": "Chemist"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Ray",
+        "house_number": "57"
+      },
+      "apply": {
+        "house_number": "57",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Ray",
+        "forename": "Henry",
+        "trade": "Pilot"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Peters",
+        "house_number": "58"
+      },
+      "apply": {
+        "house_number": "58",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Peters",
+        "forename": "R",
+        "trade": "Tobacconist"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Roberts",
+        "house_number": "59"
+      },
+      "apply": {
+        "house_number": "59",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Roberts",
+        "forename": "R",
+        "trade": "Engine Driver"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Hill",
+        "house_number": "60"
+      },
+      "apply": {
+        "house_number": "60",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Hill",
+        "forename": "Alfred",
+        "trade": "Eating House"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Ellery",
+        "house_number": "62"
+      },
+      "apply": {
+        "house_number": "62",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Ellery",
+        "forename": "Samuel",
+        "trade": "Master Mariner"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Thomas and Williams",
+        "house_number": "63"
+      },
+      "apply": {
+        "house_number": "63",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Thomas and Williams",
+        "forename": "",
+        "trade": "Opticians",
+        "entry_type": "Business"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Thompson",
+        "house_number": "64"
+      },
+      "apply": {
+        "house_number": "64",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Thompson",
+        "forename": "Alfred",
+        "trade": "Steam Tugs"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Liles",
+        "house_number": "65"
+      },
+      "apply": {
+        "house_number": "65",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Liles",
+        "forename": "William",
+        "trade": "Wine Merchant"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Folk",
+        "house_number": "66"
+      },
+      "apply": {
+        "house_number": "66",
+        "sub_unit": "",
+        "building_name": "Falcon Inn",
+        "surname": "Folk",
+        "forename": "Henry",
+        "trade": ""
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Freedman",
+        "house_number": "67"
+      },
+      "apply": {
+        "house_number": "67",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Freedman",
+        "forename": "L",
+        "trade": "Pawnbroker"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Reeve",
+        "house_number": "68"
+      },
+      "apply": {
+        "house_number": "68",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Reeve",
+        "forename": "T",
+        "trade": "Plumber"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "White",
+        "house_number": "69"
+      },
+      "apply": {
+        "house_number": "69",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "White",
+        "forename": "James R",
+        "trade": "Butcher"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Free",
+        "house_number": "70"
+      },
+      "apply": {
+        "house_number": "70",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Free Public Library (Branch)",
+        "forename": "",
+        "trade": "",
+        "entry_type": "Business"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Hutchings",
+        "house_number": "56"
+      },
+      "apply": {
+        "house_number": "56",
+        "sub_unit": "",
+        "building_name": "Windsor Castle",
+        "surname": "Hutchings",
+        "forename": "Mrs",
+        "trade": ""
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Hunter",
+        "house_number": "71"
+      },
+      "apply": {
+        "house_number": "71",
+        "sub_unit": "",
+        "building_name": "Phoenix Potato Stores",
+        "surname": "Hunter",
+        "forename": "W. J",
+        "trade": ""
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Abbott",
+        "house_number": "72"
+      },
+      "apply": {
+        "house_number": "72",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Abbott",
+        "forename": "J",
+        "trade": "General Shop"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Broad",
+        "house_number": "73"
+      },
+      "apply": {
+        "house_number": "73",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Broad",
+        "forename": "John",
+        "trade": "Boat Builder"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Sanders",
+        "house_number": "75"
+      },
+      "apply": {
+        "house_number": "75",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Sanders",
+        "forename": "J",
+        "trade": "Painter"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Stromberg",
+        "house_number": "76"
+      },
+      "apply": {
+        "house_number": "76",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Stromberg",
+        "forename": "Alf",
+        "trade": "Tobacconist"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Coleman",
+        "house_number": "77"
+      },
+      "apply": {
+        "house_number": "77",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Coleman",
+        "forename": "G. T",
+        "trade": "Outfitter"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Williams",
+        "house_number": "78"
+      },
+      "apply": {
+        "house_number": "78",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Williams",
+        "forename": "James",
+        "trade": "General Shop"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "White",
+        "house_number": "79"
+      },
+      "apply": {
+        "house_number": "79",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "White",
+        "forename": "Charles",
+        "trade": "Confectioner"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Faulkner",
+        "house_number": "80, 81"
+      },
+      "apply": {
+        "house_number": "80, 81",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Faulkner",
+        "forename": "H",
+        "trade": "Chemist"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Richards",
+        "house_number": "82"
+      },
+      "apply": {
+        "house_number": "82",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Richards",
+        "forename": "William",
+        "trade": "Grocer"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Pyne",
+        "house_number": "83"
+      },
+      "apply": {
+        "house_number": "83",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Pyne",
+        "forename": "M. A",
+        "trade": "Haberdasher"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Oliver",
+        "house_number": "84"
+      },
+      "apply": {
+        "house_number": "84",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Oliver",
+        "forename": "Joseph",
+        "trade": "Grocer"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Moses",
+        "house_number": "85"
+      },
+      "apply": {
+        "house_number": "85",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Moses",
+        "forename": "E",
+        "trade": "Clothier"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Jones",
+        "house_number": "86"
+      },
+      "apply": {
+        "house_number": "86",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Jones",
+        "forename": "John",
+        "trade": "Grocer"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Kerslake",
+        "house_number": "88"
+      },
+      "apply": {
+        "house_number": "88",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Kerslake",
+        "forename": "W",
+        "trade": "Miller"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Davies",
+        "house_number": "90, 91"
+      },
+      "apply": {
+        "house_number": "90, 91",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Davies",
+        "forename": "R",
+        "trade": "Draper"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Miles",
+        "house_number": "92"
+      },
+      "apply": {
+        "house_number": "92",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Miles",
+        "forename": "Charles",
+        "trade": "Greengrocer"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Hockey",
+        "house_number": "94"
+      },
+      "apply": {
+        "house_number": "94",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Hockey",
+        "forename": "James",
+        "trade": "Butcher"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Oakey",
+        "house_number": "95"
+      },
+      "apply": {
+        "house_number": "95",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Oakey",
+        "forename": "Frederick",
+        "trade": "Outfitter"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Martin",
+        "house_number": "96"
+      },
+      "apply": {
+        "house_number": "96",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Martin",
+        "forename": "William",
+        "trade": "Butcher"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Sheppurd",
+        "house_number": "97"
+      },
+      "apply": {
+        "house_number": "97",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Sheppard",
+        "forename": "Mrs E",
+        "trade": "Butcher"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Dixon",
+        "house_number": "98"
+      },
+      "apply": {
+        "house_number": "98",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Dixon",
+        "forename": "John",
+        "trade": "Butcher"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Jacobs A J. & E",
+        "house_number": "99-101"
+      },
+      "apply": {
+        "house_number": "99-101",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "A J. & E Jacobs",
+        "forename": "",
+        "trade": "Pawnbrokers & Outfittrs",
+        "entry_type": "Business"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Beer",
+        "house_number": "102"
+      },
+      "apply": {
+        "house_number": "102",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Beer",
+        "forename": "William",
+        "trade": "Bootmaker"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Turner",
+        "house_number": "103"
+      },
+      "apply": {
+        "house_number": "103",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Turner",
+        "forename": "F",
+        "trade": "Grocer"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Davies",
+        "house_number": "104, 105"
+      },
+      "apply": {
+        "house_number": "104, 105",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Davies",
+        "forename": "A",
+        "trade": "China and Ware Dealer"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Stock",
+        "house_number": "106"
+      },
+      "apply": {
+        "house_number": "106",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Stock",
+        "forename": "William",
+        "trade": "Butcher"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Blackmore",
+        "house_number": "107"
+      },
+      "apply": {
+        "house_number": "107",
+        "sub_unit": "",
+        "building_name": "Auction Rooms",
+        "surname": "Blackmore",
+        "forename": "C. W",
+        "trade": ""
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Roberts",
+        "house_number": "108"
+      },
+      "apply": {
+        "house_number": "108",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Roberts",
+        "forename": "Edward",
+        "trade": "Compositor"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Thompson",
+        "house_number": "109"
+      },
+      "apply": {
+        "house_number": "109",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Thompson",
+        "forename": "G. W",
+        "trade": "Grocer"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Channing",
+        "house_number": "110"
+      },
+      "apply": {
+        "house_number": "110",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Channing",
+        "forename": "Saml",
+        "trade": "Butcher"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Lilwall",
+        "house_number": "163"
+      },
+      "apply": {
+        "house_number": "163",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Lilwall",
+        "forename": "Henry",
+        "trade": ""
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Jenkins",
+        "house_number": "164"
+      },
+      "apply": {
+        "house_number": "164",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Jenkins",
+        "forename": "George",
+        "trade": "Grocer"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Gill",
+        "house_number": "165"
+      },
+      "apply": {
+        "house_number": "165",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Gill",
+        "forename": "Robert. H",
+        "trade": "Commercial Agent"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Jacobs",
+        "house_number": "166"
+      },
+      "apply": {
+        "house_number": "166",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Jacobs",
+        "forename": "Joseph",
+        "trade": "Loan Office"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Willmett",
+        "house_number": "167"
+      },
+      "apply": {
+        "house_number": "167",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Willmett",
+        "forename": "J",
+        "trade": "Ship Builder"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Brizzel",
+        "house_number": "168"
+      },
+      "apply": {
+        "house_number": "168",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Brizzel",
+        "forename": "W. J",
+        "trade": "Surgeon"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Angel",
+        "house_number": "170"
+      },
+      "apply": {
+        "house_number": "170",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Angel",
+        "forename": "J",
+        "trade": "Shipbroker"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Richards",
+        "house_number": "172"
+      },
+      "apply": {
+        "house_number": "172",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Richards",
+        "forename": "J",
+        "trade": "Iron Founder"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Pratt",
+        "house_number": "173"
+      },
+      "apply": {
+        "house_number": "173",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Pratt",
+        "forename": "W. T. C",
+        "trade": "Surgeon"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Single",
+        "house_number": "174"
+      },
+      "apply": {
+        "house_number": "174",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Single",
+        "forename": "George",
+        "trade": "Shipbroker"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "West",
+        "house_number": "175"
+      },
+      "apply": {
+        "house_number": "175",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "West",
+        "forename": "J. B",
+        "trade": "Painter"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Baptist Temple (Welsh)",
+        "house_number": ""
+      },
+      "apply": {
+        "house_number": "",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Baptist Temple (Welsh)",
+        "forename": "",
+        "trade": "",
+        "entry_type": "Business"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Cooke",
+        "house_number": "178"
+      },
+      "apply": {
+        "house_number": "178",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Cooke",
+        "forename": "Robert",
+        "trade": "Surgeon"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Orders",
+        "house_number": "179"
+      },
+      "apply": {
+        "house_number": "179",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Orders",
+        "forename": "Frederick",
+        "trade": "Agent"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Limbery",
+        "house_number": "184"
+      },
+      "apply": {
+        "house_number": "184",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Limbery",
+        "forename": "T",
+        "trade": "Surgeon"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "",
+        "house_number": "185"
+      },
+      "apply": {
+        "house_number": "185",
+        "sub_unit": "",
+        "building_name": "Void",
+        "surname": "",
+        "forename": "",
+        "trade": ""
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "T Monmouthshire Wagon Co",
+        "house_number": "188"
+      },
+      "apply": {
+        "house_number": "188",
+        "sub_unit": "",
+        "building_name": "Monmouthshire Wagon Co",
+        "surname": "Cooke",
+        "forename": "T.E",
+        "trade": ""
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Duffner",
+        "house_number": "190"
+      },
+      "apply": {
+        "house_number": "190",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Duffner",
+        "forename": "H",
+        "trade": "Watchmaker"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Powell",
+        "house_number": "191"
+      },
+      "apply": {
+        "house_number": "191",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Powell",
+        "forename": "J",
+        "trade": "Assistant Overseer"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Thompson",
+        "house_number": "193"
+      },
+      "apply": {
+        "house_number": "193",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Thompson",
+        "forename": "J",
+        "trade": "Lemonade, etc Manufacturer"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Thomas",
+        "house_number": "194"
+      },
+      "apply": {
+        "house_number": "194",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Thomas",
+        "forename": "T",
+        "trade": "Grocer"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Jones",
+        "house_number": "195"
+      },
+      "apply": {
+        "house_number": "195",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Jones",
+        "forename": "L",
+        "trade": "Mariner"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Pell",
+        "house_number": "196"
+      },
+      "apply": {
+        "house_number": "196",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Pell",
+        "forename": "J",
+        "trade": "Confectioner"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Morgan",
+        "house_number": "197"
+      },
+      "apply": {
+        "house_number": "197",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Morgan",
+        "forename": "David",
+        "trade": "Grocer"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Parsons",
+        "house_number": "198"
+      },
+      "apply": {
+        "house_number": "198",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Parsons",
+        "forename": "J",
+        "trade": "Corn Dealer"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Daniels",
+        "house_number": "199"
+      },
+      "apply": {
+        "house_number": "199",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Daniels",
+        "forename": "L",
+        "trade": "Salt Merchant"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Woodruff",
+        "house_number": "1"
+      },
+      "apply": {
+        "house_number": "1",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Woodruff",
+        "forename": "R",
+        "trade": "China Dealer"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Morgan",
+        "house_number": "2"
+      },
+      "apply": {
+        "house_number": "2",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Morgan",
+        "forename": "David",
+        "trade": "Grocer"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Burge",
+        "house_number": "3"
+      },
+      "apply": {
+        "house_number": "3",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Burge",
+        "forename": "William",
+        "trade": "Pork Butcher"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Robinson Bros",
+        "house_number": "4"
+      },
+      "apply": {
+        "house_number": "4",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Robinson Bros",
+        "forename": "",
+        "trade": "Fruiterer",
+        "entry_type": "Business"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Gay",
+        "house_number": "5"
+      },
+      "apply": {
+        "house_number": "5",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Gay",
+        "forename": "Frank",
+        "trade": "Newsagent and Tobacconist"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Evans",
+        "house_number": "6"
+      },
+      "apply": {
+        "house_number": "6",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Evans",
+        "forename": "Charles",
+        "trade": "Baker"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Quarm",
+        "house_number": "8"
+      },
+      "apply": {
+        "house_number": "8",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Quarm",
+        "forename": "George",
+        "trade": "Ironmonger"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Evans",
+        "house_number": "7"
+      },
+      "apply": {
+        "house_number": "7",
+        "sub_unit": "",
+        "building_name": "Alma Inn",
+        "surname": "Evans",
+        "forename": "Charles",
+        "trade": ""
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Durrant Robert Upholsterer & Furniture Dealer",
+        "house_number": "10"
+      },
+      "apply": {
+        "house_number": "10",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Durrant",
+        "forename": "Robert",
+        "trade": "Mat Maker"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Jones",
+        "house_number": "9"
+      },
+      "apply": {
+        "house_number": "9",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Jones",
+        "forename": "J. Andrews",
+        "trade": "Draper"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Tanner",
+        "house_number": "11"
+      },
+      "apply": {
+        "house_number": "11",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Tanner",
+        "forename": "C.",
+        "trade": "Leather Seller"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Selwood",
+        "house_number": "12"
+      },
+      "apply": {
+        "house_number": "12",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Selwood",
+        "forename": "Philip",
+        "trade": "Hatter"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Poole",
+        "house_number": "13"
+      },
+      "apply": {
+        "house_number": "13",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Poole",
+        "forename": "J. R.",
+        "trade": "Fancy Repository"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Lewis",
+        "house_number": "14"
+      },
+      "apply": {
+        "house_number": "14",
+        "sub_unit": "",
+        "building_name": "Picton Arms",
+        "surname": "Lewis",
+        "forename": "George",
+        "trade": ""
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Vaux G. Cutler & Hairdr",
+        "house_number": "15"
+      },
+      "apply": {
+        "house_number": "15",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Vaux",
+        "forename": "G",
+        "trade": "Cutler & Hairdresser"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Bullock",
+        "house_number": "16"
+      },
+      "apply": {
+        "house_number": "16",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Bullock",
+        "forename": "W",
+        "trade": "Confectioner"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Hicks",
+        "house_number": "17"
+      },
+      "apply": {
+        "house_number": "17",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Hicks",
+        "forename": "Albert",
+        "trade": "Butcher"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Beer",
+        "house_number": "19"
+      },
+      "apply": {
+        "house_number": "19",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Beer",
+        "forename": "John",
+        "trade": "Shoemaker"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Reed",
+        "house_number": "20"
+      },
+      "apply": {
+        "house_number": "20",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Reed",
+        "forename": "George",
+        "trade": "Outfitter"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Tregaskes",
+        "house_number": "149"
+      },
+      "apply": {
+        "house_number": "149",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Tregaskes",
+        "forename": "N. J",
+        "trade": "Shipbroker"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Mann",
+        "house_number": "18"
+      },
+      "apply": {
+        "house_number": "18",
+        "sub_unit": "",
+        "building_name": "Ruperra Arms",
+        "surname": "Mann",
+        "forename": "Mrs. Cecilia",
+        "trade": ""
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Serjent",
+        "house_number": "150"
+      },
+      "apply": {
+        "house_number": "150",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Serjent",
+        "forename": "G. E",
+        "trade": "Brass Foundry"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Trew",
+        "house_number": "193"
+      },
+      "apply": {
+        "house_number": "193",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Trew",
+        "forename": "R.",
+        "trade": "Dyer"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Hill",
+        "house_number": "152"
+      },
+      "apply": {
+        "house_number": "152",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Hill",
+        "forename": "J.",
+        "trade": "Railway Police Superintendent"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "plce. supt",
+        "house_number": "194"
+      },
+      "apply": {
+        "house_number": "194",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Gabriel",
+        "forename": "Rogers",
+        "trade": "Clothes Dealer"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Garrett",
+        "house_number": "153"
+      },
+      "apply": {
+        "house_number": "153",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Garrett",
+        "forename": "A.",
+        "trade": "Bedding Manufacturer"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "A J. Jacobs & E",
+        "house_number": "99-101"
+      },
+      "apply": {
+        "house_number": "99-101",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "A J. Jacobs & E",
+        "forename": "",
+        "trade": "Pawnbrokers & Outfitters"
+      }
+    },
+    {
+      "reason": "Excluding OCR bleed/ghost record for Commercial road (1882)",
+      "action": "EXCLUDE",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "shipbk",
+        "house_number": ""
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "man",
+        "house_number": "195"
+      },
+      "apply": {
+        "house_number": "195",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Williams",
+        "forename": "James",
+        "trade": "Master Mariner"
+      }
+    },
+    {
+      "reason": "Excluding OCR bleed/ghost record for Commercial road (1882)",
+      "action": "EXCLUDE",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Jas",
+        "house_number": ""
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Dixon",
+        "house_number": "154"
+      },
+      "apply": {
+        "house_number": "154",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Dixon",
+        "forename": "E",
+        "trade": "Stationer"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Pell",
+        "house_number": "196"
+      },
+      "apply": {
+        "house_number": "196",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Pell",
+        "forename": "J",
+        "trade": "Confectioner"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Co-operative",
+        "house_number": "155"
+      },
+      "apply": {
+        "house_number": "155",
+        "sub_unit": "",
+        "building_name": "Co-operative branch",
+        "surname": "Higgins",
+        "forename": "T",
+        "trade": "Manager"
+      }
+    },
+    {
+      "reason": "Excluding OCR bleed/ghost record for Commercial road (1882)",
+      "action": "EXCLUDE",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "",
+        "house_number": ""
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Morgan",
+        "house_number": "197"
+      },
+      "apply": {
+        "house_number": "197",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Morgan",
+        "forename": "David",
+        "trade": "gGocer"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "May",
+        "house_number": "156"
+      },
+      "apply": {
+        "house_number": "156",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "May",
+        "forename": "T",
+        "trade": "Bootmaker"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Evans",
+        "house_number": "157"
+      },
+      "apply": {
+        "house_number": "157",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Evans",
+        "forename": "B.",
+        "trade": "Fancy Repository"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "",
+        "house_number": ""
+      },
+      "apply": {
+        "house_number": "197",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Rosser",
+        "forename": "Thomas",
+        "trade": "Wheelwright"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "reposy",
+        "house_number": ""
+      },
+      "apply": {
+        "house_number": "197",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Thompson",
+        "forename": "John",
+        "trade": "Smith"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Shelland",
+        "house_number": "158"
+      },
+      "apply": {
+        "house_number": "158",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Shelland",
+        "forename": "D",
+        "trade": "Fishmonger"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "fishmonger",
+        "house_number": "198"
+      },
+      "apply": {
+        "house_number": "198",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Hookey",
+        "forename": "James",
+        "trade": "Shopkeeper"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Jas",
+        "house_number": ""
+      },
+      "apply": {
+        "house_number": "198",
+        "sub_unit": "",
+        "building_name": "Anglo-American Photographic Co.",
+        "surname": "Brookes",
+        "forename": "A. G",
+        "trade": "Proprietor",
+        "entry_type": "Business"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Jones",
+        "house_number": "159"
+      },
+      "apply": {
+        "house_number": "159",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Jones",
+        "forename": "John",
+        "trade": "Grocer"
+      }
+    },
+    {
+      "reason": "Excluding OCR bleed/ghost record for Commercial road (1882)",
+      "action": "EXCLUDE",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "G. grocer",
+        "house_number": ""
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Nicholas",
+        "house_number": "160"
+      },
+      "apply": {
+        "house_number": "160",
+        "sub_unit": "",
+        "building_name": "Beaufort Arms",
+        "surname": "Nicholas",
+        "forename": "Llewellyn",
+        "trade": ""
+      }
+    },
+    {
+      "reason": "Excluding OCR bleed/ghost record for Commercial road (1882)",
+      "action": "EXCLUDE",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Tographic Co.--A. G",
+        "house_number": ""
+      }
+    },
+    {
+      "reason": "Excluding OCR bleed/ghost record for Commercial road (1882)",
+      "action": "EXCLUDE",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Brookes",
+        "house_number": ""
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Wilks",
+        "house_number": "161"
+      },
+      "apply": {
+        "house_number": "161",
+        "sub_unit": "",
+        "building_name": "Royal Exchange",
+        "surname": "Wilks",
+        "forename": "James",
+        "trade": ""
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Royal",
+        "house_number": "200"
+      },
+      "apply": {
+        "house_number": "200",
+        "sub_unit": "",
+        "building_name": "Salutation",
+        "surname": "Parsons",
+        "forename": "W.O",
+        "trade": ""
+      }
+    },
+    {
+      "reason": "Excluding OCR bleed/ghost record for Commercial road (1882)",
+      "action": "EXCLUDE",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "W",
+        "house_number": ""
+      }
+    },
+    {
+      "reason": "Excluding OCR bleed/ghost record for Commercial road (1882)",
+      "action": "EXCLUDE",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Commercial",
+        "house_number": ""
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Gale",
+        "house_number": "163"
+      },
+      "apply": {
+        "house_number": "163",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Gale",
+        "forename": "Joseph",
+        "trade": "Bookseller"
+      }
+    },
+    {
+      "reason": "Excluding OCR bleed/ghost record for Commercial road (1882)",
+      "action": "EXCLUDE",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "bookseller",
+        "house_number": ""
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Sharp",
+        "house_number": "164"
+      },
+      "apply": {
+        "house_number": "164",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Sharp",
+        "forename": "John",
+        "trade": "Refreshment Room"
+      }
+    },
+    {
+      "reason": "Excluding OCR bleed/ghost record for Commercial road (1882)",
+      "action": "EXCLUDE",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "refresh room",
+        "house_number": ""
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "165",
+        "house_number": ""
+      },
+      "apply": {
+        "house_number": "165",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Herbert",
+        "forename": "James",
+        "trade": "Brewer"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Newman",
+        "house_number": "1"
+      },
+      "apply": {
+        "house_number": "1",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Newman & Sons",
+        "forename": "E.",
+        "trade": "Music Warehouse and Furniture Makers",
+        "street": "Commercial street"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Langmead",
+        "house_number": "166"
+      },
+      "apply": {
+        "house_number": "166",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Langmead",
+        "forename": "John",
+        "trade": "Ship Carpenter"
+      }
+    },
+    {
+      "reason": "Excluding OCR bleed/ghost record for Commercial road (1882)",
+      "action": "EXCLUDE",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "car",
+        "house_number": ""
+      }
+    },
+    {
+      "reason": "Excluding OCR bleed/ghost record for Commercial road (1882)",
+      "action": "EXCLUDE",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "1. `",
+        "house_number": ""
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Thomas",
+        "house_number": "168"
+      },
+      "apply": {
+        "house_number": "168",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Thomas",
+        "forename": "Rev Evan",
+        "trade": ""
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Evan",
+        "house_number": "2"
+      },
+      "apply": {
+        "house_number": "2",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "James",
+        "forename": "Benjamin",
+        "trade": "Grocer",
+        "street": "Commercial street"
+      }
+    },
+    {
+      "reason": "Excluding OCR bleed/ghost record for Commercial road (1882)",
+      "action": "EXCLUDE",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Benjamin",
+        "house_number": ""
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Paine",
+        "house_number": "3"
+      },
+      "apply": {
+        "house_number": "3",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Paine",
+        "forename": "Charles",
+        "trade": "Chemist",
+        "street": "Commercial street"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1882)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1882",
+        "surname": "Williams",
+        "house_number": ""
+      },
+      "apply": {
+        "house_number": "",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Williams",
+        "forename": "Alfred",
+        "trade": "Auctioneer and Accountant"
+      }
+    },
+    {
+      "reason": "Manually added missing record for Commercial road (1878)",
+      "action": "ADD",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878"
+      },
+      "apply": {
+        "house_number": "4",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Wansbrough",
+        "forename": "T. P",
+        "trade": "Plumber",
+        "entry_type": "Person",
+        "street": "Commercial street"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Flook",
+        "house_number": "4"
+      },
+      "apply": {
+        "house_number": "4",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Flook",
+        "forename": "Henry",
+        "trade": "Fishmonger"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Durrant",
+        "house_number": "10"
+      },
+      "apply": {
+        "house_number": "10",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Durrant",
+        "forename": "Robert",
+        "trade": "Mattress Maker"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Coslett",
+        "house_number": "30"
+      },
+      "apply": {
+        "house_number": "30",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Coslett",
+        "forename": "John",
+        "trade": "Grocer"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Nihan",
+        "house_number": "31"
+      },
+      "apply": {
+        "house_number": "31",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Nihan",
+        "forename": "Michael",
+        "trade": "Tailor"
+      }
+    },
+    {
+      "reason": "Inline table edit for Commercial road (1878)",
+      "match": {
+        "street": "Commercial road",
+        "year": "1878",
+        "surname": "Roberts",
+        "house_number": "32"
+      },
+      "apply": {
+        "house_number": "32",
+        "sub_unit": "",
+        "building_name": "",
+        "surname": "Roberts",
+        "forename": "Walter",
+        "trade": "Grocer"
       }
     }
   ]

@@ -3,602 +3,379 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Newport Street Directories Archive</title>
+  <title>Newport Cartographic & Directory Archive</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="src/styles/main.css">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 </head>
-<body>
+<body class="app-body">
 
-  <header>
-    <div class="page-width">
-      <div class="header-inner">
-        <a href="#home" class="logo">
-          <span>🏛️</span> Newport Directory Archive
-        </a>
-        <nav>
-          <a href="#home">Home</a>
-          <a href="#directories">Directories</a>
-          <a href="#streets">All Streets</a>
-          <a href="map.html" class="nav-btn" style="background: rgba(200, 157, 84, 0.15); border-color: var(--accent); color: var(--accent);">🗺️ Map Explorer</a>
-          <a href="trades.html" class="nav-btn">Occupations Audit</a>
-        </nav>
-      </div>
-    </div>
-  </header>
-
-  <!-- HOME SEARCH VIEW -->
-  <section id="view-home" class="view active">
-    <div class="topo-bg hero-banner">
-      <div class="page-width">
-        <div class="hero">
-          <div class="pulse-badge">
-            <span class="pulse-dot"></span>
-            1876 – 1950 Cartographic Archive
-          </div>
-          <h1>Explore Newport's <span class="highlight">Street Directories</span></h1>
-          <p>Discover residents, historic properties, and trade directory records across 74 years of Newport, Wales archives.</p>
-          
-          <div class="search-box-wrapper">
-            <form id="search-form" class="search-box" autocomplete="off">
-              <input type="text" id="search-input" placeholder="Search street name, resident, or occupation (e.g. Victoria Place)..." required />
-              <button type="submit">Search</button>
-            </form>
-            <div id="autocomplete-results" class="autocomplete-results"></div>
-
-            <div class="quick-chips">
-              <span class="chip-label">Try searching:</span>
-              <button type="button" class="chip" onclick="quickSearch('High Street')">📍 High Street</button>
-              <button type="button" class="chip" onclick="quickSearch('Victoria Place')">📍 Victoria Place</button>
-              <button type="button" class="chip" onclick="quickSearch('Commercial Street')">📍 Commercial Street</button>
-              <button type="button" class="chip" onclick="quickSearch('Ironworker')">🛠️ Ironworker</button>
-              <button type="button" class="chip" onclick="quickSearch('Blacksmith')">🛠️ Blacksmith</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Stats Overview Cards -->
-    <div class="stats-overview page-width" id="home-stats">
-      <div class="stat-card">
-        <div class="stat-num" id="stat-records-count">8,375</div>
-        <div class="stat-label">Directory Records</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-num" id="stat-streets-count">150+</div>
-        <div class="stat-label">Historic Streets</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-num">600+</div>
-        <div class="stat-label">Unique Trades</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-num">1876–1950</div>
-        <div class="stat-label">Historical Era</div>
-      </div>
-    </div>
-
-    <!-- Featured Historic Streets Section -->
-    <div class="home-section page-width">
-      <div class="section-header">
-        <div>
-          <span class="label-tag">Featured Thoroughfares</span>
-          <h2 class="section-title">Historic Newport Streets</h2>
-        </div>
-        <a href="#streets" class="section-link">View All Streets &rarr;</a>
-      </div>
-
-      <div class="featured-grid">
-        <a href="#street=Victoria%20Place" class="featured-card">
-          <div>
-            <div class="featured-card-badge">Residential Terrace</div>
-            <h3>Victoria Place</h3>
-            <p>Historic residential terrace housing sea captains, merchants, and municipal officers.</p>
-          </div>
-          <span class="featured-link-text">Explore Street Directory &rarr;</span>
-        </a>
-        <a href="#street=High%20Street" class="featured-card">
-          <div>
-            <div class="featured-card-badge">Commercial Hub</div>
-            <h3>High Street</h3>
-            <p>Primary Victorian commercial hub featuring historic hotels, drapers, and banks.</p>
-          </div>
-          <span class="featured-link-text">Explore Street Directory &rarr;</span>
-        </a>
-        <a href="#street=Commercial%20Street" class="featured-card">
-          <div>
-            <div class="featured-card-badge">Trade & Retail Artery</div>
-            <h3>Commercial Street</h3>
-            <p>Bustling retail corridor connecting central Newport to the shipping docks.</p>
-          </div>
-          <span class="featured-link-text">Explore Street Directory &rarr;</span>
-        </a>
-        <a href="#street=Stow%20Hill" class="featured-card">
-          <div>
-            <div class="featured-card-badge">Civic & Historic</div>
-            <h3>Stow Hill</h3>
-            <p>Elevated historic avenue leading to St Woolos Cathedral with rich architectural heritage.</p>
-          </div>
-          <span class="featured-link-text">Explore Street Directory &rarr;</span>
-        </a>
-      </div>
-    </div>
-
-    <!-- Era & Trade Explorer Section -->
-    <div class="home-section page-width">
-      <div class="section-header">
-        <div>
-          <span class="label-tag">Historical Deep Dive</span>
-          <h2 class="section-title">Explore by Era & Trade</h2>
-        </div>
-        <a href="trades.html" class="section-link">Open Trade Audit Tool &rarr;</a>
-      </div>
-
-      <div class="eras-grid">
-        <div class="era-card" onclick="quickSearch('Ironworker')">
-          <div class="era-icon">🔨</div>
-          <div class="era-title">Industrial Trades</div>
-          <div class="era-desc">Ironworkers, Steelworkers, Blacksmiths, and Dockers who built Newport's industrial power.</div>
-          <div class="era-chip-btn">Filter Industrial Trades &rarr;</div>
-        </div>
-
-        <div class="era-card" onclick="quickSearch('Captain')">
-          <div class="era-icon">⚓</div>
-          <div class="era-title">Maritime & Docks</div>
-          <div class="era-desc">Ship Masters, Pilots, Mariners, and Coal Trimmers connected to Newport Docks.</div>
-          <div class="era-chip-btn">Filter Maritime Trades &rarr;</div>
-        </div>
-
-        <div class="era-card" onclick="quickSearch('Draper')">
-          <div class="era-icon">🎩</div>
-          <div class="era-title">Merchants & Retail</div>
-          <div class="era-desc">Drapers, Grocers, Tailors, and Shopkeepers across central arcades.</div>
-          <div class="era-chip-btn">Filter Merchants &rarr;</div>
-        </div>
-
-        <a href="trades.html" class="era-card highlight-card">
-          <div class="era-icon">📊</div>
-          <div class="era-title">Occupation Audit</div>
-          <div class="era-desc">Interactive frequency analysis and index of over 600 unique historic trades.</div>
-          <div class="era-chip-btn">Open Audit Page &rarr;</div>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- GENERAL SEARCH RESULTS VIEW -->
-  <section id="view-search" class="view">
-    <div class="topo-bg page-banner">
-      <div class="page-width">
-        <div class="breadcrumb"><a href="#home">Home</a> &rarr; <span>Search Results</span></div>
-        <span class="label-tag">Query Results</span>
-        <div class="property-heading-line">
-          <span class="street" id="search-query-display">"Query"</span>
-        </div>
-        <div class="property-intro-text" id="search-summary-text">Searching archive records...</div>
-      </div>
-    </div>
-    <div class="content-container page-width">
-      <div class="search-tabs" id="search-tabs">
-        <button class="tab-btn active" onclick="setSearchFilter('all', this)">All (<span id="count-all">0</span>)</button>
-        <button class="tab-btn" onclick="setSearchFilter('people', this)">People (<span id="count-people">0</span>)</button>
-        <button class="tab-btn" onclick="setSearchFilter('occupations', this)">Occupations (<span id="count-occupations">0</span>)</button>
-        <button class="tab-btn" onclick="setSearchFilter('streets', this)">Streets (<span id="count-streets">0</span>)</button>
-      </div>
-
-      <div id="search-results-list" class="results-list"></div>
-
-      <div class="pagination">
-        <button id="prev-page" class="page-btn" onclick="changeSearchPage(-1)">Previous</button>
-        <span id="page-indicator" style="color: var(--muted); font-size: 0.9rem;">Page 1</span>
-        <button id="next-page" class="page-btn" onclick="changeSearchPage(1)">Next</button>
-      </div>
-    </div>
-  </section>
-
-  <!-- DIRECTORIES LIBRARY VIEW -->
-  <section id="view-directories" class="view">
-    <div class="topo-bg page-banner">
-      <div class="page-width">
-        <div class="breadcrumb"><a href="#home">Home</a> &rarr; <span>Directories</span></div>
-        <span class="label-tag">Archives Library</span>
-        <div class="property-heading-line">
-          <span class="street">Street Directories</span>
-        </div>
-        <div class="property-intro-text">Chronological shelf of historical directory volumes. Highlighted books are fully processed and searchable.</div>
-      </div>
-    </div>
+  <div class="app-shell">
     
-    <div class="page-width">
-      <div class="library-grid" id="library-grid">
-        <!-- Directory books rendered here dynamically -->
-      </div>
-    </div>
-  </section>
-
-  <!-- ALL STREETS OVERVIEW -->
-  <section id="view-streets" class="view">
-    <div class="topo-bg page-banner">
-      <div class="page-width">
-        <div class="breadcrumb"><a href="#home">Home</a> &rarr; <span>Streets</span></div>
-        <span class="label-tag">Street Index</span>
-        <div class="property-heading-line" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
-          <span class="street">All Streets</span>
-          <div class="master-audit-toolbar" style="display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;">
-            <button class="btn-cancel" onclick="exportMasterStreetsCSV()" style="padding: 0.4rem 0.8rem; font-size: 0.8rem; border-color: var(--accent-muted); color: var(--accent);">📥 Export Master CSV</button>
-            <label class="btn-cancel" style="padding: 0.4rem 0.8rem; font-size: 0.8rem; cursor: pointer; border-color: var(--accent-muted); color: var(--accent);">
-              📤 Import Master CSV <input type="file" id="import-master-csv-file" accept=".csv" onchange="importMasterStreetsCSV(event)" style="display: none;" />
-            </label>
+    <!-- LEFT NAVIGATION SIDEBAR -->
+    <aside class="app-sidebar">
+      <div class="sidebar-header">
+        <a href="#home" class="sidebar-logo">
+          <i class="ph ph-buildings logo-icon"></i>
+          <div class="logo-text">
+            <span class="brand-title">Newport Archive</span>
+            <span class="brand-subtitle">Directory & Map Ledger</span>
           </div>
+        </a>
+      </div>
+
+      <!-- Quick Command Search Trigger Button -->
+      <button class="cmd-k-trigger-btn" onclick="openCmdKModal()">
+        <div class="cmd-k-left">
+          <i class="ph ph-magnifying-glass"></i>
+          <span>Search Archive...</span>
         </div>
-        <div class="property-intro-text" id="streets-summary-text">Alphabetical index of all recorded streets.</div>
+        <kbd class="cmd-k-kbd">⌘K</kbd>
+      </button>
+
+      <!-- Sidebar Navigation Menu -->
+      <nav class="sidebar-nav">
+        <div class="nav-section-label">ARCHIVE EXPLORER</div>
         
-        <!-- Audit Status Filter Tabs -->
-        <div class="search-tabs" style="margin-top: 1.5rem; margin-bottom: 0; flex-wrap: wrap;">
-          <button class="tab-btn active" id="tab-audit-all" onclick="setStreetAuditFilter('all')">All (<span id="count-audit-all">0</span>)</button>
-          <button class="tab-btn" id="tab-audit-name_verified" onclick="setStreetAuditFilter('name_verified')">🔒 Name Verified (<span id="count-audit-name_verified">0</span>)</button>
-          <button class="tab-btn" id="tab-audit-fully_enriched" onclick="setStreetAuditFilter('fully_enriched')">🌟 Fully Enriched (<span id="count-audit-fully_enriched">0</span>)</button>
-          <button class="tab-btn" id="tab-audit-unverified" onclick="setStreetAuditFilter('unverified')">⚠️ Unverified / Raw (<span id="count-audit-unverified">0</span>)</button>
+        <a href="#home" class="nav-item active" id="nav-home">
+          <i class="ph ph-house-line"></i>
+          <span>Overview</span>
+        </a>
+        <a href="#streets" class="nav-item" id="nav-streets">
+          <i class="ph ph-path"></i>
+          <span>Street Directory</span>
+          <span class="nav-badge">759</span>
+        </a>
+        <a href="#directories" class="nav-item" id="nav-directories">
+          <i class="ph ph-books"></i>
+          <span>Directory Books</span>
+        </a>
+        <a href="trades.html" class="nav-item">
+          <i class="ph ph-briefcase"></i>
+          <span>Occupations Audit</span>
+        </a>
+        <a href="map.html" class="nav-item">
+          <i class="ph ph-map-trifold"></i>
+          <span>Cartographic Map</span>
+        </a>
+
+        <div class="nav-section-label" style="margin-top: 1.5rem;">DATA AUDIT</div>
+        <a href="editor.html" class="nav-item">
+          <i class="ph ph-table"></i>
+          <span>Master Table Editor</span>
+        </a>
+      </nav>
+
+      <!-- Audit Status Mini Widget -->
+      <div class="sidebar-audit-widget">
+        <div class="audit-widget-title">
+          <i class="ph ph-seal-check" style="color: #16A34A;"></i>
+          <span>Database Status</span>
+        </div>
+        <div class="audit-widget-desc">759 Streets Verified • 128k+ Records</div>
+        <div class="audit-progress-bar">
+          <div class="audit-progress-fill" style="width: 100%;"></div>
         </div>
       </div>
-    </div>
+    </aside>
 
-    <!-- Sticky A-Z Letter Jump Bar -->
-    <div class="sticky-alpha-wrapper">
-      <div class="page-width">
-        <div class="alpha-jump-bar" id="alpha-jump-bar"></div>
-      </div>
-    </div>
+    <!-- MAIN WORKSPACE CANVAS -->
+    <main class="app-canvas">
+      
+      <!-- TOP BREADCRUMB & TOOLBAR HEADER -->
+      <header class="canvas-header">
+        <button class="mobile-nav-toggle-btn" onclick="toggleMobileSidebar()" aria-label="Toggle Navigation">
+          <i class="ph ph-list"></i>
+        </button>
+        <div class="breadcrumb-container" id="canvas-breadcrumb">
+          <a href="#home">Home</a> <i class="ph ph-caret-right"></i> <span id="breadcrumb-current">Overview</span>
+        </div>
+        <div class="canvas-header-actions">
+          <button class="header-btn" onclick="exportMasterStreetsCSV()"><i class="ph ph-download-simple"></i> Export CSV</button>
+          <a href="map.html" class="header-btn primary"><i class="ph ph-map-pin"></i> Open Map Explorer</a>
+        </div>
+      </header>
 
-    <div class="content-container page-width" id="streets-content"></div>
-  </section>
-
-  <!-- SINGLE STREET VIEW -->
-  <section id="view-street" class="view">
-    <div class="topo-bg page-banner" style="padding-bottom: 2.5rem;">
-      <div class="page-width">
-        <div class="breadcrumb"><a href="#home">Home</a> &rarr; <a href="#streets">Streets</a> &rarr; <span id="street-title">Street</span></div>
-        <span class="label-tag">Street Directory</span>
+      <div class="canvas-scroll-body">
         
-        <div class="street-hero-layout" style="display: flex; gap: 2rem; justify-content: space-between; align-items: flex-start; margin-top: 0.5rem; flex-wrap: wrap;">
-          <div class="street-hero-main" style="flex: 1 1 450px; min-width: 280px;">
-            <div class="property-heading-line" style="margin-bottom: 0.5rem;">
-              <span class="street" id="street-heading">Properties</span>
+        <!-- HOME / OVERVIEW VIEW -->
+        <section id="view-home" class="view active">
+          <div class="hero-studio-container">
+            <div class="hero-badge">
+              <i class="ph ph-sparkle"></i> Historical Cartographic Ledger • 1876 – 1950
             </div>
-            <div class="property-intro-text" id="street-intro" style="color: var(--muted); font-size: 1.05rem; line-height: 1.6;"></div>
+            <h1 class="hero-title">Newport Directory & Cartographic Archive</h1>
+            <p class="hero-subtitle">Explore physical street walkthroughs, property occupant tenure timelines, and historic trade directory records across Newport, Wales.</p>
             
-            <div style="display: flex; gap: 0.75rem; align-items: center; margin-top: 1.25rem; flex-wrap: wrap;">
-              <button class="master-registry-btn" id="btn-edit-master-registry" onclick="openMasterRegistryModal()" style="display: inline-flex; align-items: center; gap: 0.4rem; background: rgba(200, 157, 84, 0.12); color: var(--accent); border: 1px solid var(--accent-muted); padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; cursor: pointer; transition: all 0.2s ease;">🏛️ Registry Settings</button>
-              <button class="btn-add-record" onclick="openAddPropertyModal()" style="display: inline-flex; align-items: center; gap: 0.4rem; background: rgba(200, 157, 84, 0.15); color: var(--accent); border: 1px solid rgba(200, 157, 84, 0.4); padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; cursor: pointer; transition: all 0.2s ease;">➕ Add Property / Record</button>
-            </div>
-          </div>
+            <!-- Quick Search Bar -->
+            <div class="hero-search-wrapper">
+              <form id="search-form" class="hero-search-box" autocomplete="off">
+                <i class="ph ph-magnifying-glass search-icon"></i>
+                <input type="text" id="search-input" placeholder="Search street, resident, or trade (e.g. Commercial Road, Blacksmith)..." required />
+                <button type="submit" class="search-submit-btn">Search Ledger</button>
+              </form>
+              <div id="autocomplete-results" class="autocomplete-results"></div>
 
-          <div id="street-hero-media" class="street-hero-media" style="display: none; flex: 0 0 380px; width: 100%; max-width: 420px;">
-            <!-- Rendered dynamically in app.js -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="content-container page-width">
-      <div id="house-grid" class="street-grid"></div>
-    </div>
-  </section>
-
-  <!-- INDIVIDUAL HOUSE / BUILDING VIEW -->
-  <section id="view-house" class="view">
-    <div class="topo-bg page-banner">
-      <div class="page-width">
-        <div class="breadcrumb-nav-row">
-          <div class="breadcrumb">
-            <a href="#home">Home</a> &rarr; 
-            <a href="#" id="house-street-link">Street</a> &rarr; 
-            <span id="house-breadcrumb-num">House</span>
-          </div>
-
-          <div class="street-nav-controls">
-            <button class="btn-add-record" onclick="openAddRecordModal()">➕ Add Record</button>
-            <a id="prev-house-btn" class="house-nav-btn" href="#">&larr; Prev Property</a>
-            <a id="next-house-btn" class="house-nav-btn" href="#">Next Property &rarr;</a>
-          </div>
-        </div>
-
-        <span class="label-tag">Historical Property Profile</span>
-        <div class="property-heading-line">
-          <span class="num" id="house-number-display">1</span>
-          <span class="street" id="house-street-display">Victoria Place</span>
-        </div>
-        <div class="property-intro-text" id="property-intro"></div>
-
-        <!-- Property Quick Metrics Bar -->
-        <div class="property-stats-bar" id="property-stats-bar">
-          <div class="p-stat">
-            <span class="p-stat-val" id="p-stat-earliest">-</span>
-            <span class="p-stat-lbl">Earliest Record</span>
-          </div>
-          <div class="p-stat">
-            <span class="p-stat-val" id="p-stat-latest">-</span>
-            <span class="p-stat-lbl">Latest Record</span>
-          </div>
-          <div class="p-stat">
-            <span class="p-stat-val" id="p-stat-total">-</span>
-            <span class="p-stat-lbl">Total Occupants</span>
-          </div>
-          <div class="p-stat">
-            <span class="p-stat-val" id="p-stat-primary-trade">-</span>
-            <span class="p-stat-lbl">Primary Usage</span>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="content-container page-width">
-      <div class="grid-2col">
-        <!-- Left: Timeline & Controls -->
-        <div class="panel">
-          <div class="panel-header">
-            <div>
-              <h2 class="panel-title" style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.75rem;">
-                <span>Occupant Timeline</span>
-                <button class="btn-add-record" onclick="openAddRecordModal()">➕ Add Record</button>
-              </h2>
-              <div class="era-filter-row" id="era-filter-row">
-                <button class="era-filter-btn active" onclick="filterTimeline('all', this)">All Eras</button>
-                <button class="era-filter-btn" onclick="filterTimeline('Victorian', this)">Victorian</button>
-                <button class="era-filter-btn" onclick="filterTimeline('Edwardian', this)">Edwardian</button>
-                <button class="era-filter-btn" onclick="filterTimeline('Interwar', this)">Interwar / Post-War</button>
-                <span style="border-left: 1px solid var(--card-border); margin: 0 0.25rem;"></span>
-                <button class="era-filter-btn active" id="btn-mode-tenure" onclick="setTimelineViewMode('tenure', this)" title="Group contiguous directory years for the same occupant/business">⏳ Tenure Ranges</button>
-                <button class="era-filter-btn" id="btn-mode-yearly" onclick="setTimelineViewMode('yearly', this)" title="Show every individual directory year edition">📜 Yearly Editions</button>
+              <div class="quick-chips">
+                <span class="chip-label">Quick Jump:</span>
+                <button type="button" class="chip" onclick="quickSearch('Commercial Road')">📍 Commercial Road</button>
+                <button type="button" class="chip" onclick="quickSearch('High Street')">📍 High Street</button>
+                <button type="button" class="chip" onclick="quickSearch('Victoria Place')">📍 Victoria Place</button>
+                <button type="button" class="chip" onclick="quickSearch('Aberthaw Road')">📍 Aberthaw Road</button>
+                <button type="button" class="chip" onclick="quickSearch('Pilot')">⚓ Pilot</button>
               </div>
             </div>
-            <span class="label-tag" id="record-count">0 Records</span>
           </div>
-          <ul id="timeline-list" class="timeline"></ul>
-        </div>
 
-        <!-- Right: Image / Map & Citation Card -->
-        <div class="right-panel-wrapper">
-          <div class="property-image-container">
-            <div class="media-tabs">
-              <button id="media-btn-facade" class="media-tab-btn active" onclick="switchMediaMode('facade')">📷 Archival View</button>
-              <button id="media-btn-map" class="media-tab-btn" onclick="switchMediaMode('map')">🗺️ Location Map</button>
+          <!-- Quick Metrics Bar -->
+          <div class="home-metrics-bar">
+            <div class="metric-card">
+              <div class="metric-val" id="stat-records-count">128,827</div>
+              <div class="metric-lbl">Directory Records</div>
             </div>
-            <img id="property-image" src="" alt="Archival Property Facade" />
-            <iframe id="property-map" loading="lazy"></iframe>
-            <div class="image-caption">
-              <span id="image-caption-title">Location View</span>
-              <span id="image-caption-date">Newport, Wales</span>
+            <div class="metric-card">
+              <div class="metric-val" id="stat-streets-count">759</div>
+              <div class="metric-lbl">Historic Streets</div>
             </div>
-          </div>
-
-          <!-- Academic / Genealogist Citation Card -->
-          <div class="citation-card">
-            <div class="citation-title">📜 Genealogist & Academic Citation</div>
-            <div class="citation-text" id="citation-text">Newport Directory Archive — Property Record</div>
-            <button class="citation-copy-btn" id="citation-btn" onclick="copyCitation()">Copy Archival Citation</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Interactive Data Correction Modal -->
-  <div class="editor-modal-backdrop" id="editor-modal-backdrop">
-    <div class="editor-modal">
-      <div class="editor-modal-header">
-        <div class="editor-modal-title">✏️ Edit Property Record</div>
-        <button class="editor-modal-close" onclick="closeEditorModal()">&times;</button>
-      </div>
-      <div class="editor-modal-body">
-        <div class="form-group">
-          <label class="form-label">Street Name</label>
-          <input type="text" id="edit-street" class="form-input" readonly />
-        </div>
-        <div class="form-group">
-          <label class="form-label">Directory Year</label>
-          <input type="text" id="edit-year" class="form-input" />
-        </div>
-        <div class="form-group">
-          <label class="form-label">House Number / Range</label>
-          <input type="text" id="edit-house-number" class="form-input" placeholder="e.g. 14, 14A, or 12-13" />
-        </div>
-        <div class="form-group">
-          <label class="form-label">Sub-Unit / Suite / Floor</label>
-          <input type="text" id="edit-sub-unit" class="form-input" placeholder="e.g. Room 4, Flat 2" />
-        </div>
-        <div class="form-group full-width">
-          <div style="display: flex; justify-content: space-between; align-items: center;">
-            <label class="form-label" style="margin-bottom: 0;">Building / House Name</label>
-            <button type="button" id="btn-swap-building-trade" onclick="swapBuildingNameAndTrade()" style="background: rgba(200, 157, 84, 0.15); border: 1px solid var(--accent); color: var(--accent); font-size: 0.75rem; padding: 0.2rem 0.6rem; border-radius: 4px; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 0.3rem;">
-              ⇄ Swap (House Name & Trade)
-            </button>
-          </div>
-          <input type="text" id="edit-building-name" class="form-input" style="margin-top: 0.35rem;" placeholder="e.g. Westgate Chambers, Lamb Inn, Home Cottage" />
-        </div>
-        <div class="form-group full-width">
-          <label class="form-label">Source Classification</label>
-          <select id="edit-source-type" class="form-select">
-            <option value="Primary">Primary Source (Published Street Directory)</option>
-            <option value="Secondary">Secondary Source (Historical Research / Manual Record)</option>
-          </select>
-        </div>
-        <div class="form-group full-width">
-          <label class="form-label">Entry Type</label>
-          <select id="edit-entry-type" class="form-select" onchange="toggleEntryTypeFields()">
-            <option value="Person">Person (Resident)</option>
-            <option value="Business">Business / Commercial / Institution</option>
-            <option value="Cross-Reference">Directory Cross-Reference Pointer</option>
-          </select>
-        </div>
-        <div class="form-group" id="group-surname">
-          <label class="form-label" id="label-surname">Surname / Commercial Name</label>
-          <input type="text" id="edit-surname" class="form-input" placeholder="Occupant Surname or Full Business Title" />
-        </div>
-        <div class="form-group" id="group-forename">
-          <label class="form-label">Forename / Initials</label>
-          <input type="text" id="edit-forename" class="form-input" placeholder="Resident Given Name(s)" />
-        </div>
-        <div class="form-group full-width">
-          <label class="form-label">Trade / Occupation</label>
-          <input type="text" id="edit-trade" class="form-input" placeholder="e.g. Solicitor, Steward, Grocer" />
-        </div>
-        <div class="form-group full-width">
-          <label class="form-label">Correction Reason / Notes</label>
-          <input type="text" id="edit-reason" class="form-input" placeholder="e.g. Swapped house name and trade fields" />
-        </div>
-      </div>
-      <div class="editor-modal-footer">
-        <button class="btn-cancel" onclick="closeEditorModal()">Cancel</button>
-        <button class="btn-delete" id="btn-delete-record" onclick="deleteCurrentRecord()" style="background: rgba(220, 53, 69, 0.15); color: #ff6b6b; border: 1px solid rgba(220, 53, 69, 0.4); padding: 0.55rem 1rem; border-radius: 6px; font-weight: 600; cursor: pointer; transition: all 0.2s ease;">🗑️ Delete Record</button>
-        <button class="btn-save" onclick="saveRecordCorrection()">Save & Preview Correction</button>
-      </div>
-    </div>
-  </div>
-
-  <!-- Master Street Registry Modal -->
-  <div class="editor-modal-backdrop" id="master-registry-modal-overlay">
-    <div class="editor-modal" style="max-width: 680px;">
-      <div class="editor-modal-header">
-        <span class="editor-modal-title" id="registry-modal-title">🏛️ Master Street Registry Editor</span>
-        <button class="btn-cancel" onclick="closeMasterRegistryModal()" style="padding: 0.2rem 0.6rem;">✕</button>
-      </div>
-      <div class="editor-modal-body">
-        <div class="full-width" style="display: flex; gap: 1rem; align-items: center; background: rgba(200,157,84,0.08); padding: 0.85rem 1rem; border-radius: 6px; border: 1px solid var(--accent-muted);">
-          <div>
-            <div style="font-weight: 600; color: #ffffff;" id="reg-canonical-title">Street Name</div>
-            <div style="font-size: 0.8rem; color: var(--muted);" id="reg-slug-subtitle">slug: street-name</div>
-          </div>
-          <div style="margin-left: auto;">
-            <select id="reg-status-select" style="background: #120f0d; border: 1px solid var(--accent); color: #ffffff; padding: 0.4rem 0.75rem; border-radius: 4px; font-weight: 600;">
-              <option value="UNVERIFIED">⚠️ UNVERIFIED (Raw)</option>
-              <option value="NAME_VERIFIED">🔒 NAME VERIFIED (Protected Name)</option>
-              <option value="FULLY_ENRICHED">🌟 FULLY ENRICHED (Rich Profile Complete)</option>
-            </select>
-          </div>
-        </div>
-
-        <div class="form-group full-width">
-          <label class="form-label">Former / Historic Names (Comma separated)</label>
-          <input type="text" id="reg-former-names" class="form-input" placeholder="e.g. Inkerman Street (circa 1890), Back Lane" />
-        </div>
-
-        <div class="form-group full-width">
-          <label class="form-label">Modern / Renamed Name (If this old street name was renamed)</label>
-          <input type="text" id="reg-renamed-to" class="form-input" placeholder="e.g. Summer Hill Road" />
-        </div>
-
-        <div class="form-group full-width">
-          <label class="form-label">Sub-Terraces & Historic Rows (Comma separated)</label>
-          <input type="text" id="reg-sub-sections" class="form-input" placeholder="e.g. Dos Cottages, Victoria Place, Marine Terrace" />
-        </div>
-
-        <div class="form-group">
-          <label class="form-label">Numbering Scheme</label>
-          <select id="reg-numbering-type" class="form-select">
-            <option value="ODDS_EVENS">Odds & Evens (Sides of Street)</option>
-            <option value="SEQUENTIAL">Sequential (1, 2, 3, 4...)</option>
-            <option value="MIXED">Mixed / Historical Transition</option>
-          </select>
-        </div>
-
-        <div class="form-group">
-          <label class="form-label">Renumbering Year (If Changed)</label>
-          <input type="number" id="reg-numbering-year" class="form-input" placeholder="e.g. 1895" />
-        </div>
-
-        <div class="form-group">
-          <label class="form-label">District / Quarter</label>
-          <input type="text" id="reg-district" class="form-input" placeholder="e.g. Pillgwenlly, Maindee" />
-        </div>
-
-        <div class="form-group">
-          <label class="form-label">Civil Parish</label>
-          <input type="text" id="reg-parish" class="form-input" placeholder="e.g. St. Woolos, Christchurch" />
-        </div>
-
-        <div class="form-group">
-          <label class="form-label">Latitude (Pinpoint Coordinates)</label>
-          <input type="text" id="reg-latitude" class="form-input" placeholder="e.g. 51.5882" />
-        </div>
-
-        <div class="form-group">
-          <label class="form-label">Longitude (Pinpoint Coordinates)</label>
-          <input type="text" id="reg-longitude" class="form-input" placeholder="e.g. -2.9977" />
-        </div>
-
-        <div class="form-group full-width">
-          <label class="form-label">Camera Angle / Heading (Optional 0°–360° Override)</label>
-          <input type="text" id="reg-heading" class="form-input" placeholder="Leave empty for auto road direction (e.g. 180 for South)" />
-        </div>
-
-        <div class="form-group full-width" id="reg-streetview-preview-container" style="display: none; margin-top: 0.5rem;">
-          <label class="form-label">📷 Street View Preview</label>
-          <div style="border: 1px solid var(--accent-muted); border-radius: 8px; overflow: hidden; background: #000; text-align: center; position: relative;">
-            <img id="reg-streetview-img" src="" alt="Street View" style="width: 100%; max-height: 220px; object-fit: cover; display: block;" />
-            <div style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.75); padding: 4px 8px; border-radius: 4px; font-size: 0.75rem; color: var(--accent);">
-              <a id="reg-streetview-link" href="#" target="_blank" rel="noopener" style="color: #fff; text-decoration: underline;">Open Google Maps ↗</a>
+            <div class="metric-card">
+              <div class="metric-val">600+</div>
+              <div class="metric-lbl">Unique Occupations</div>
+            </div>
+            <div class="metric-card">
+              <div class="metric-val">1876–1950</div>
+              <div class="metric-lbl">Historical Era</div>
             </div>
           </div>
-        </div>
 
-        <div class="form-group full-width">
-          <label class="form-label">Archival Notes & Research Log</label>
-          <input type="text" id="reg-notes" class="form-input" placeholder="e.g. Verified street boundary against 1891 Ordnance Survey 1:500 map" />
-        </div>
-      </div>
-      <div class="editor-modal-footer">
-        <button class="btn-cancel" onclick="closeMasterRegistryModal()">Cancel</button>
-        <button class="btn-save" onclick="saveMasterRegistryEntry()">Save Street Settings</button>
-      </div>
-    </div>
-  </div>
+          <!-- Featured Streets Grid -->
+          <div class="canvas-section">
+            <div class="section-top">
+              <div>
+                <span class="section-tag">THOROUGHFARES</span>
+                <h2 class="section-title">Historic Newport Streets</h2>
+              </div>
+              <a href="#streets" class="section-link">View All 759 Streets <i class="ph ph-arrow-right"></i></a>
+            </div>
 
-  <!-- ORIGINAL DIRECTORY SCAN INSPECTOR MODAL -->
-  <div class="editor-modal-backdrop" id="scan-inspector-modal" style="z-index: 10050;">
-    <div class="editor-modal-content" style="max-width: 950px; width: 95%; max-height: 90vh; display: flex; flex-direction: column;">
-      <div class="editor-modal-header" style="display: flex; justify-content: space-between; align-items: center;">
+            <div class="featured-streets-grid">
+              <a href="#street=Commercial%20Road" class="featured-street-card">
+                <div class="card-badge">Commercial Artery</div>
+                <h3>Commercial Road</h3>
+                <p>Major southern shipping corridor with 507 properties from High Street to Pillgwenlly.</p>
+                <div class="card-footer">Explore Street Directory <i class="ph ph-arrow-right"></i></div>
+              </a>
+
+              <a href="#street=High%20Street" class="featured-street-card">
+                <div class="card-badge">Town Core</div>
+                <h3>High Street</h3>
+                <p>Primary Victorian retail center housing banks, drapers, hotels, and legal firms.</p>
+                <div class="card-footer">Explore Street Directory <i class="ph ph-arrow-right"></i></div>
+              </a>
+
+              <a href="#street=Victoria%20Place" class="featured-street-card">
+                <div class="card-badge">Residential Terrace</div>
+                <h3>Victoria Place</h3>
+                <p>Historic residential terrace housing sea captains, merchants, and municipal officers.</p>
+                <div class="card-footer">Explore Street Directory <i class="ph ph-arrow-right"></i></div>
+              </a>
+
+              <a href="#street=Stow%20Hill" class="featured-street-card">
+                <div class="card-badge">Civic & Cathedral</div>
+                <h3>Stow Hill</h3>
+                <p>Elevated historic avenue leading to St Woolos Cathedral with rich architectural heritage.</p>
+                <div class="card-footer">Explore Street Directory <i class="ph ph-arrow-right"></i></div>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- ALL STREETS INDEX VIEW -->
+        <section id="view-streets" class="view">
+          <div class="canvas-page-header">
+            <div class="page-header-title-row">
+              <div>
+                <span class="section-tag">STREET DIRECTORY INDEX</span>
+                <h1 class="page-header-title">All Newport Streets</h1>
+              </div>
+              <div style="display: flex; gap: 0.5rem;">
+                <button class="header-btn" onclick="exportMasterStreetsCSV()"><i class="ph ph-download-simple"></i> Export CSV</button>
+              </div>
+            </div>
+            <div class="page-header-sub" id="streets-summary-text">Alphabetical catalog of all recorded streets across historical directory editions.</div>
+
+            <!-- Audit Status Filter Tabs -->
+            <div class="search-tabs" style="margin-top: 1.25rem;">
+              <button class="tab-btn active" id="tab-audit-all" onclick="setStreetAuditFilter('all')">All Streets (<span id="count-audit-all">0</span>)</button>
+              <button class="tab-btn" id="tab-audit-name_verified" onclick="setStreetAuditFilter('name_verified')">🔒 Name Verified (<span id="count-audit-name_verified">0</span>)</button>
+              <button class="tab-btn" id="tab-audit-fully_enriched" onclick="setStreetAuditFilter('fully_enriched')">🌟 Fully Enriched (<span id="count-audit-fully_enriched">0</span>)</button>
+              <button class="tab-btn" id="tab-audit-unverified" onclick="setStreetAuditFilter('unverified')">⚠️ Unverified (<span id="count-audit-unverified">0</span>)</button>
+            </div>
+          </div>
+
+          <!-- Sticky A-Z Letter Jump Bar -->
+          <div class="sticky-alpha-wrapper">
+            <div class="alpha-jump-bar" id="alpha-jump-bar"></div>
+          </div>
+
+          <div class="content-container" id="streets-content"></div>
+        </section>
+
+        <!-- SINGLE STREET DIRECTORY VIEW -->
+        <section id="view-street" class="view">
+          <div class="canvas-page-header">
+            <div class="page-header-title-row">
+              <div>
+                <span class="section-tag">STREET DIRECTORY CANVAS</span>
+                <h1 class="page-header-title" id="street-heading">Street Name</h1>
+              </div>
+              
+              <!-- View Mode Switcher Tabs -->
+              <div class="view-mode-switcher">
+                <button class="switcher-btn active" id="btn-mode-ledger" onclick="switchStreetViewMode('ledger')">
+                  <i class="ph ph-table"></i> Physical Walk Ledger
+                </button>
+                <button class="switcher-btn" id="btn-mode-dual" onclick="switchStreetViewMode('dual')">
+                  <i class="ph ph-columns"></i> Street Side Walk (Outward / Return)
+                </button>
+                <button class="switcher-btn" id="btn-mode-matrix" onclick="switchStreetViewMode('matrix')">
+                  <i class="ph ph-chart-line-up"></i> Cross-Year Matrix
+                </button>
+              </div>
+            </div>
+
+            <div class="page-header-sub" id="street-intro"></div>
+            
+            <div id="street-hero-media" class="street-hero-media" style="display: none; margin-top: 1rem;"></div>
+          </div>
+
+          <!-- Main Street View Content Container -->
+          <div id="house-grid" style="margin-top: 1.5rem;"></div>
+        </section>
+
+        <!-- SEARCH RESULTS VIEW -->
+        <section id="view-search" class="view">
+          <div class="canvas-page-header">
+            <span class="section-tag">SEARCH RESULTS</span>
+            <h1 class="page-header-title">Results for "<span id="search-query-display"></span>"</h1>
+            <div class="page-header-sub" id="search-summary-text">Found matching entries across directory volumes.</div>
+
+            <!-- Search Filter Tabs -->
+            <div class="search-tabs" style="margin-top: 1.25rem;">
+              <button class="tab-btn active" onclick="setSearchFilter('all', this)">All Results (<span id="count-all">0</span>)</button>
+              <button class="tab-btn" onclick="setSearchFilter('people', this)">Residents (<span id="count-people">0</span>)</button>
+              <button class="tab-btn" onclick="setSearchFilter('occupations', this)">Trades & Businesses (<span id="count-occupations">0</span>)</button>
+              <button class="tab-btn" onclick="setSearchFilter('streets', this)">Streets (<span id="count-streets">0</span>)</button>
+            </div>
+          </div>
+
+          <div class="content-container" style="margin-top: 1.5rem;">
+            <div id="search-results-list" class="results-grid"></div>
+
+            <div class="pagination-bar" style="margin-top: 1.5rem; display: flex; align-items: center; justify-content: space-between;">
+              <button id="prev-page" class="header-btn" onclick="changeSearchPage(-1)" disabled><i class="ph ph-caret-left"></i> Previous</button>
+              <span id="page-indicator" style="font-size: 0.85rem; color: var(--text-secondary);">Page 1 of 1</span>
+              <button id="next-page" class="header-btn" onclick="changeSearchPage(1)" disabled>Next <i class="ph ph-caret-right"></i></button>
+            </div>
+          </div>
+        </section>
+
+        <!-- DIRECTORIES LIBRARY VIEW -->
+        <section id="view-directories" class="view">
+          <div class="canvas-page-header">
+            <span class="section-tag">HISTORICAL SHELF</span>
+            <h1 class="page-header-title">Directory Books Library</h1>
+            <div class="page-header-sub">Chronological shelf of historical directory volumes. Fully processed and searchable archives.</div>
+          </div>
+          <div class="library-grid" id="library-grid" style="margin-top: 1.5rem;"></div>
+        </section>
+
+      </div>
+    </main>
+
+    <!-- RIGHT SLIDE-OVER INSPECTOR DRAWER -->
+    <div class="inspector-overlay" id="inspector-overlay" onclick="closeInspectorDrawer()"></div>
+    <aside class="app-inspector-drawer" id="inspector-drawer">
+      <div class="inspector-header">
         <div>
-          <h3 style="margin: 0; font-family: var(--font-serif); color: var(--gold-primary); font-size: 1.25rem;">📷 Directory Page Scan Inspector</h3>
-          <span style="font-size: 0.85rem; color: var(--muted);" id="scan-modal-subtitle">Johns Directory</span>
+          <span class="inspector-tag">PROPERTY PROFILE</span>
+          <h2 class="inspector-title" id="drawer-house-num">Property</h2>
+          <div class="inspector-subtitle" id="drawer-street-name">Street</div>
         </div>
-        <button class="modal-close-btn" onclick="closeScanInspectorModal()" style="background: none; border: none; color: #fff; font-size: 1.5rem; cursor: pointer;">&times;</button>
+        <button class="drawer-close-btn" onclick="closeInspectorDrawer()"><i class="ph ph-x"></i></button>
+      </div>
+
+      <div class="inspector-body">
+        <!-- Property Overview Bar -->
+        <div class="drawer-stats-row">
+          <div class="d-stat">
+            <span class="d-stat-val" id="drawer-earliest">-</span>
+            <span class="d-stat-lbl">First Record</span>
+          </div>
+          <div class="d-stat">
+            <span class="d-stat-val" id="drawer-latest">-</span>
+            <span class="d-stat-lbl">Latest Record</span>
+          </div>
+          <div class="d-stat">
+            <span class="d-stat-val" id="drawer-total">-</span>
+            <span class="d-stat-lbl">Total Occupants</span>
+          </div>
+        </div>
+
+        <!-- Occupant History Timeline -->
+        <div class="drawer-section">
+          <h3 class="drawer-section-title"><i class="ph ph-clock-counter-clockwise"></i> Occupant Tenure Timeline</h3>
+          <div class="drawer-timeline-list" id="drawer-timeline-list"></div>
+        </div>
+      </div>
+    </aside>
+
+  </div>
+
+  <!-- Cmd+K Global Search Modal Overlay -->
+  <div class="cmd-k-modal-overlay" id="cmd-k-modal" onclick="closeCmdKModal(event)">
+    <div class="cmd-k-dialog" onclick="event.stopPropagation()">
+      <div class="cmd-k-input-row">
+        <i class="ph ph-magnifying-glass cmd-k-icon"></i>
+        <input type="text" id="cmd-k-input" placeholder="Search streets, residents, or occupations (e.g. High Street, Grocer)..." oninput="handleCmdKInput()" />
+        <kbd class="cmd-k-esc" onclick="closeCmdKModal()">ESC</kbd>
+      </div>
+      <div class="cmd-k-results" id="cmd-k-results">
+        <div class="cmd-k-empty">Type to search 759 streets and 128,000+ directory records...</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Person History Timeline Text Summary Modal -->
+  <div class="cmd-k-modal-overlay" id="person-timeline-modal" onclick="closePersonTimelineModal(event)">
+    <div class="cmd-k-dialog person-timeline-dialog" onclick="event.stopPropagation()" style="max-width: 680px;">
+      <div class="person-timeline-modal-header" style="padding: 1.25rem 1.5rem; border-bottom: 1px solid var(--border-color); display: flex; align-items: center; justify-content: space-between; background: var(--sidebar-bg); border-radius: 12px 12px 0 0;">
+        <div style="display: flex; align-items: center; gap: 0.75rem;">
+          <div style="background: var(--accent-light); color: var(--accent-hover); border: 1px solid var(--accent-border); width: 38px; height: 38px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 1.25rem;">
+            <i class="ph ph-user-focus"></i>
+          </div>
+          <div>
+            <h3 id="person-timeline-title" style="font-family: var(--heading-font); font-size: 1.4rem; font-weight: 700; color: var(--text-primary); line-height: 1.1;">Person Historical Timeline</h3>
+            <p id="person-timeline-subtitle" style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 0.15rem;">Fidelity Archive Timeline Report</p>
+          </div>
+        </div>
+        <div style="display: flex; align-items: center; gap: 0.5rem;">
+          <button onclick="copyPersonTimelineText()" class="header-btn" style="padding: 0.4rem 0.75rem; font-size: 0.82rem;" title="Copy plain text report to clipboard">
+            <i class="ph ph-copy"></i> Copy Text Report
+          </button>
+          <kbd class="cmd-k-esc" onclick="closePersonTimelineModal()" style="cursor: pointer;">ESC</kbd>
+        </div>
       </div>
       
-      <div class="scan-controls-bar" style="display: flex; gap: 0.75rem; align-items: center; background: rgba(0,0,0,0.4); padding: 0.5rem 1rem; border-bottom: 1px solid var(--card-border); flex-wrap: wrap;">
-        <button class="btn-cancel" style="padding: 0.3rem 0.6rem; font-size: 0.8rem;" onclick="changeScanPage(-1)">&larr; Prev Page</button>
-        <span style="font-size: 0.85rem; color: var(--gold-muted);" id="scan-page-counter">Page 1 of 10</span>
-        <button class="btn-cancel" style="padding: 0.3rem 0.6rem; font-size: 0.8rem;" onclick="changeScanPage(1)">Next Page &rarr;</button>
-        <span style="border-left: 1px solid var(--card-border); height: 16px; margin: 0 0.25rem;"></span>
-        <button class="btn-cancel" style="padding: 0.3rem 0.6rem; font-size: 0.8rem;" onclick="zoomScan(0.25)">🔍 Zoom In</button>
-        <button class="btn-cancel" style="padding: 0.3rem 0.6rem; font-size: 0.8rem;" onclick="zoomScan(-0.25)">🔍 Zoom Out</button>
-        <button class="btn-cancel" style="padding: 0.3rem 0.6rem; font-size: 0.8rem;" onclick="resetScanZoom()">↺ Reset</button>
-        <a id="scan-open-raw-btn" href="#" target="_blank" rel="noopener" class="btn-cancel" style="padding: 0.3rem 0.6rem; font-size: 0.8rem; margin-left: auto; border-color: var(--accent); color: var(--accent);">↗ Full Image</a>
+      <div class="person-timeline-body" style="padding: 1.5rem; max-height: 70vh; overflow-y: auto;">
+        <pre id="person-timeline-text-content" style="font-family: var(--mono-font); font-size: 0.85rem; line-height: 1.6; white-space: pre-wrap; background: #0F172A; color: #F1F5F9; padding: 1.25rem; border-radius: 8px; border: 1px solid #334155; overflow-x: auto; tab-size: 4;"></pre>
       </div>
-
-      <div style="flex: 1; overflow: auto; position: relative; background: #0a0807; display: flex; justify-content: center; align-items: flex-start; padding: 1rem; min-height: 450px;">
-        <div id="scan-image-wrapper" style="position: relative; transition: transform 0.2s ease; transform-origin: top center;">
-          <img id="scan-modal-img" src="" alt="Directory Scan Page" style="max-width: 100%; display: block; border-radius: 4px; box-shadow: 0 8px 32px rgba(0,0,0,0.8);" />
-          <div id="scan-highlight-box" style="position: absolute; left: 5%; width: 90%; height: 36px; top: 100px; border: 2px solid #e5c07b; background: rgba(229, 192, 123, 0.22); box-shadow: 0 0 15px rgba(229, 192, 123, 0.6); pointer-events: none; border-radius: 3px; display: none; transition: top 0.3s ease;"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="override-drawer" id="override-drawer">
-    <div class="override-drawer-info">
-      <span>✏️ Session Edits Active:</span>
-      <span class="override-count-badge" id="override-count-badge">0 Overrides</span>
-    </div>
-    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
-      <button class="btn-cancel" style="padding: 0.4rem 0.75rem; font-size: 0.8rem;" onclick="clearSessionOverrides()">Clear All</button>
-      <button class="btn-cancel" style="padding: 0.4rem 0.75rem; font-size: 0.8rem; border-color: var(--accent); color: var(--accent);" onclick="copySessionOverrides()">📋 Copy JSON</button>
-      <button class="btn-save" style="padding: 0.4rem 0.85rem; font-size: 0.8rem;" onclick="downloadSessionOverrides()">📥 Download user_overrides.json</button>
     </div>
   </div>
 
   <script src="src/js/app.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 </body>
 </html>

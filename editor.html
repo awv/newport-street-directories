@@ -1,0 +1,1132 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Record Table Editor — Newport Street Directory</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="src/styles/main.css">
+  
+  <style>
+    body {
+      padding: 0;
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: var(--body-font, system-ui, -apple-system, sans-serif);
+    }
+
+    .app-container {
+      max-width: 1600px;
+      margin: 0 auto;
+      padding: 1.5rem 1rem;
+    }
+
+    .top-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 1.25rem;
+      border-bottom: 1px solid var(--card-border);
+      margin-bottom: 1.5rem;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .brand-title h1 {
+      font-family: var(--heading-font);
+      font-size: 2.2rem;
+      color: var(--accent);
+      margin: 0;
+      font-weight: 400;
+      letter-spacing: -0.02em;
+    }
+
+    .brand-title .subtitle {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-top: 0.25rem;
+    }
+
+    .action-bar {
+      display: flex;
+      gap: 0.75rem;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 0.6rem 1.1rem;
+      border-radius: 4px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      cursor: pointer;
+      border: 1px solid var(--card-border);
+      background: var(--card-bg);
+      color: var(--text);
+      transition: all 0.15s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: #120e0b;
+      border-color: var(--accent);
+      font-weight: 600;
+    }
+
+    .btn-primary:hover {
+      background: #d8aa60;
+      border-color: #d8aa60;
+      color: #120e0b;
+    }
+
+    .btn-warning {
+      background: rgba(230, 162, 60, 0.15);
+      border-color: rgba(230, 162, 60, 0.4);
+      color: #e6a23c;
+    }
+
+    .btn-warning.active {
+      background: #e6a23c;
+      color: #120e0b;
+      font-weight: 600;
+    }
+
+    .badge-count {
+      background: rgba(200, 157, 84, 0.15);
+      color: var(--accent);
+      border: 1px solid rgba(200, 157, 84, 0.3);
+      padding: 0.2rem 0.55rem;
+      border-radius: 12px;
+      font-size: 0.78rem;
+      font-weight: 600;
+    }
+
+    /* Filter & Controls Panel */
+    .controls-panel {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 6px;
+      padding: 1rem 1.25rem;
+      margin-bottom: 1.25rem;
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1.5fr auto;
+      gap: 1rem;
+      align-items: center;
+    }
+
+    @media (max-width: 1200px) {
+      .controls-panel {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+
+    .form-group label {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+      font-weight: 600;
+    }
+
+    .form-control {
+      padding: 0.55rem 0.85rem;
+      background: var(--bg);
+      border: 1px solid var(--card-border);
+      color: var(--text);
+      border-radius: 4px;
+      font-size: 0.9rem;
+      outline: none;
+      width: 100%;
+    }
+
+    .form-control:focus {
+      border-color: var(--accent);
+    }
+
+    /* Data Table Styling */
+    .table-container {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 6px;
+      overflow-x: auto;
+      margin-bottom: 1.25rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .editor-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+      min-width: 1300px;
+    }
+
+    .editor-table th {
+      background: #171310;
+      color: var(--accent);
+      font-weight: 600;
+      padding: 0.75rem 0.6rem;
+      text-align: left;
+      border-bottom: 2px solid var(--card-border);
+      white-space: nowrap;
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .editor-table td {
+      padding: 0.45rem 0.5rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      vertical-align: middle;
+    }
+
+    .editor-table tr:hover td {
+      background: rgba(200, 157, 84, 0.04);
+    }
+
+    .editor-table tr.is-edited td {
+      background: rgba(200, 157, 84, 0.08);
+    }
+
+    .editor-table tr.has-anomaly td {
+      background: rgba(230, 162, 60, 0.05);
+    }
+
+    .editor-table tr.is-excluded td {
+      opacity: 0.45;
+      text-decoration: line-through;
+      background: rgba(245, 108, 108, 0.06);
+    }
+
+    /* Editable Input Cells */
+    .cell-input {
+      width: 100%;
+      padding: 0.35rem 0.5rem;
+      background: transparent;
+      border: 1px solid transparent;
+      color: var(--text);
+      border-radius: 3px;
+      font-size: 0.88rem;
+      font-family: inherit;
+      transition: all 0.15s ease;
+    }
+
+    .cell-input:hover {
+      border-color: rgba(200, 157, 84, 0.3);
+      background: rgba(0, 0, 0, 0.2);
+    }
+
+    .cell-input:focus {
+      background: var(--bg);
+      border-color: var(--accent);
+      outline: none;
+      box-shadow: 0 0 0 2px rgba(200, 157, 84, 0.2);
+    }
+
+    .cell-input.modified {
+      color: var(--accent);
+      font-weight: 600;
+      background: rgba(200, 157, 84, 0.12);
+      border-color: rgba(200, 157, 84, 0.4);
+    }
+
+    .type-select {
+      padding: 0.3rem 0.4rem;
+      background: var(--bg);
+      border: 1px solid var(--card-border);
+      color: var(--text);
+      border-radius: 3px;
+      font-size: 0.82rem;
+    }
+
+    /* Status Badges & Tooltips */
+    .anomaly-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      background: rgba(230, 162, 60, 0.15);
+      color: #e6a23c;
+      border: 1px solid rgba(230, 162, 60, 0.3);
+      padding: 0.15rem 0.45rem;
+      border-radius: 4px;
+      font-size: 0.72rem;
+      font-weight: 600;
+      white-space: nowrap;
+      cursor: help;
+    }
+
+    .edited-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      background: rgba(200, 157, 84, 0.15);
+      color: var(--accent);
+      border: 1px solid rgba(200, 157, 84, 0.3);
+      padding: 0.15rem 0.45rem;
+      border-radius: 4px;
+      font-size: 0.72rem;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    .clean-badge {
+      color: var(--muted);
+      font-size: 0.75rem;
+    }
+
+    /* Pagination Footer */
+    .pagination-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.85rem 1rem;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 6px;
+      font-size: 0.88rem;
+      color: var(--muted);
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .pagination-controls {
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
+    }
+
+    .page-num {
+      padding: 0.35rem 0.75rem;
+      border: 1px solid var(--card-border);
+      background: var(--bg);
+      color: var(--text);
+      border-radius: 4px;
+      font-weight: 600;
+    }
+
+    /* Scan Inspector Modal Overlay */
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.85);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.2s ease;
+    }
+
+    .modal-overlay.open {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .modal-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      width: 90%;
+      max-width: 1000px;
+      max-height: 90vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    }
+
+    .modal-header {
+      padding: 1rem 1.25rem;
+      border-bottom: 1px solid var(--card-border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #171310;
+    }
+
+    .modal-header h3 {
+      margin: 0;
+      color: var(--accent);
+      font-family: var(--heading-font);
+      font-size: 1.25rem;
+    }
+
+    .modal-body {
+      padding: 1.25rem;
+      overflow-y: auto;
+      flex: 1;
+      display: flex;
+      gap: 1.25rem;
+    }
+
+    .modal-body img {
+      max-width: 100%;
+      height: auto;
+      border: 1px solid var(--card-border);
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="app-container">
+  <!-- Top Navigation / Actions Header -->
+  <header class="top-header">
+    <div class="brand-title">
+      <h1>📊 Inline Record Table Editor</h1>
+      <div class="subtitle">Fast, low-risk manual record checking & inline corrections for Newport Directories</div>
+    </div>
+    
+    <div class="action-bar">
+      <span class="badge-count" id="session-edits-count">0 pending session edits</span>
+      <button class="btn" style="background: rgba(103,194,58,0.15); border-color: rgba(103,194,58,0.4); color: #67c23a;" onclick="addNewRecord()">
+        ➕ Add Missing Record
+      </button>
+      <button class="btn btn-warning" id="btn-toggle-anomalies" onclick="toggleAnomalyFilter()">
+        ⚠️ Review Anomalies Only
+      </button>
+      <button class="btn btn-primary" id="btn-export-overrides" onclick="exportUserOverrides()">
+        📥 Export user_overrides.json
+      </button>
+      <button class="btn" onclick="resetSessionEdits()" title="Clear all local session edits">
+        🔄 Clear Session Edits
+      </button>
+      <a href="index.html" class="btn">🏠 Home Page</a>
+      <a href="trades.html" class="btn">💼 Trades Audit</a>
+    </div>
+  </header>
+
+  <!-- Controls & Search Panel -->
+  <section class="controls-panel">
+    <div class="form-group">
+      <label for="street-select">Select Street</label>
+      <select id="street-select" class="form-control" onchange="onStreetChange()">
+        <option value="">-- Select a Street --</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="year-select">Filter Year</label>
+      <select id="year-select" class="form-control" onchange="renderTable()">
+        <option value="ALL">All Years</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="flag-select">Flag / Status Filter</label>
+      <select id="flag-select" class="form-control" onchange="renderTable()">
+        <option value="ALL">All Records</option>
+        <option value="UNVERIFIED">🔓 Unverified Records Only</option>
+        <option value="VERIFIED">🔒 Verified Records Only</option>
+        <option value="ANOMALY">⚠️ Needs Review / Anomalies</option>
+        <option value="UNNUMBERED">🏠 Missing House Number</option>
+        <option value="BUILDING">🏢 Has Building / Sub-Unit</option>
+        <option value="EDITED">✏️ Modified In Session</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="search-input">Live Text Search</label>
+      <input type="text" id="search-input" class="form-control" placeholder="Search surname, forename, trade, house #..." oninput="onSearchInput()">
+    </div>
+
+    <div class="form-group">
+      <label for="page-size-select">Per Page</label>
+      <select id="page-size-select" class="form-control" onchange="renderTable(true)">
+        <option value="50">50</option>
+        <option value="100" selected>100</option>
+        <option value="250">250</option>
+        <option value="500">500</option>
+      </select>
+    </div>
+  </section>
+
+  <!-- Main Table Grid -->
+  <div class="table-container">
+    <table class="editor-table">
+      <thead>
+        <tr>
+          <th style="width: 50px;">#</th>
+          <th style="width: 160px;">Status / Issues</th>
+          <th style="width: 65px;">Year</th>
+          <th style="width: 180px;">Street Name</th>
+          <th style="width: 85px;">House #</th>
+          <th style="width: 95px;">Sub-unit</th>
+          <th style="width: 140px;">Building Name</th>
+          <th style="width: 100px;">Entry Type</th>
+          <th style="width: 150px;">Surname / Business</th>
+          <th style="width: 140px;">Forename</th>
+          <th style="width: 180px;">Trade / Occupation</th>
+          <th style="width: 90px; text-align: center;">Actions</th>
+        </tr>
+      </thead>
+      <tbody id="table-body">
+        <tr>
+          <td colspan="12" style="text-align: center; padding: 3rem; color: var(--muted);">
+            Loading master street registry... Please select a street above to inspect records.
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Pagination Bar -->
+  <div class="pagination-bar">
+    <div id="pagination-info">Showing 0–0 of 0 records</div>
+    <div class="pagination-controls">
+      <button class="btn" id="btn-prev-page" onclick="changePage(-1)">← Previous</button>
+      <span class="page-num" id="page-num-display">Page 1 of 1</span>
+      <button class="btn" id="btn-next-page" onclick="changePage(1)">Next →</button>
+    </div>
+  </div>
+</div>
+
+<!-- Original Scan Inspector Modal -->
+<div class="modal-overlay" id="scan-modal">
+  <div class="modal-card">
+    <div class="modal-header">
+      <h3 id="scan-modal-title">Original Directory Scan</h3>
+      <button class="btn" onclick="closeScanModal()">✕ Close</button>
+    </div>
+    <div class="modal-body" id="scan-modal-body">
+      <div style="text-align: center; width: 100%; color: var(--muted); padding: 2rem;">
+        Scan image preview loading...
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // State Management
+  let masterStreetsList = [];
+  let currentStreetData = null;
+  let allRecords = [];
+  let filteredRecords = [];
+  let sessionEdits = {}; // key: recordId (year:street:orig_house:orig_surname) -> apply dict
+  let currentPage = 1;
+  let pageSize = 100;
+  let searchDebounceTimer = null;
+  let anomalyOnlyMode = false;
+  let scanIndex = null;
+
+  // Load Session Edits from localStorage
+  function loadSessionEdits() {
+    try {
+      const saved = localStorage.getItem("user_record_overrides");
+      if (saved) {
+        sessionEdits = JSON.parse(saved);
+      }
+    } catch(e) {
+      console.warn("Could not parse saved session edits", e);
+      sessionEdits = {};
+    }
+    updateSessionEditsCounter();
+  }
+
+  function saveSessionEdits() {
+    try {
+      localStorage.setItem("user_record_overrides", JSON.stringify(sessionEdits));
+    } catch(e) {
+      console.warn("Could not save session edits", e);
+    }
+    updateSessionEditsCounter();
+  }
+
+  function updateSessionEditsCounter() {
+    const count = Object.keys(sessionEdits).length;
+    const badge = document.getElementById("session-edits-count");
+    if (badge) {
+      badge.textContent = `${count} pending session edit${count === 1 ? '' : 's'}`;
+      badge.style.borderColor = count > 0 ? 'var(--accent)' : 'rgba(200, 157, 84, 0.3)';
+    }
+  }
+
+  function resetSessionEdits() {
+    if (confirm("Are you sure you want to clear all pending inline edits from your session?")) {
+      sessionEdits = {};
+      localStorage.removeItem("user_record_overrides");
+      updateSessionEditsCounter();
+      renderTable();
+    }
+  }
+
+  // Load Master Registry and Populate Street Dropdown
+  async function init() {
+    loadSessionEdits();
+    
+    // Fetch Scan Index
+    fetch("data/scans_index.json")
+      .then(res => res.ok ? res.json() : null)
+      .then(data => scanIndex = data)
+      .catch(e => console.log("Scan index not loaded", e));
+
+    try {
+      const res = await fetch("data/streets.json");
+      if (!res.ok) throw new Error("Failed to load streets index");
+      masterStreetsList = await res.json();
+
+      // Populate Street Selector
+      const streetSelect = document.getElementById("street-select");
+      streetSelect.innerHTML = '<option value="">-- Select a Street --</option>';
+      
+      // Sort streets alphabetically by displayName
+      masterStreetsList.sort((a, b) => a.displayName.localeCompare(b.displayName));
+      
+      masterStreetsList.forEach(st => {
+        const opt = document.createElement("option");
+        opt.value = st.slug;
+        opt.textContent = `${st.displayName} (${st.recordsCount} records, ${st.yearsSpan})`;
+        streetSelect.appendChild(opt);
+      });
+
+      // Default load first popular street (e.g. Commercial Road or Albany Street)
+      const defaultStreet = masterStreetsList.find(s => s.slug === "commercial-road") || masterStreetsList[0];
+      if (defaultStreet) {
+        streetSelect.value = defaultStreet.slug;
+        onStreetChange();
+      }
+
+    } catch (e) {
+      console.error(e);
+      document.getElementById("table-body").innerHTML = `
+        <tr><td colspan="12" style="text-align: center; color: #ff6b6b; padding: 2rem;">
+          Error loading street catalog: ${e.message}
+        </td></tr>`;
+    }
+  }
+
+  // Handle Street Selection Change
+  async function onStreetChange() {
+    const slug = document.getElementById("street-select").value;
+    if (!slug) return;
+
+    document.getElementById("table-body").innerHTML = `
+      <tr><td colspan="12" style="text-align: center; padding: 3rem; color: var(--muted);">
+        Loading records for selected street...
+      </td></tr>`;
+
+    try {
+      const res = await fetch(`data/streets/${slug}.json?t=${Date.now()}`);
+      if (!res.ok) throw new Error("Failed to fetch street JSON");
+      currentStreetData = await res.json();
+      allRecords = currentStreetData.records || [];
+
+      // Inject session-added records for this street if any exist
+      Object.keys(sessionEdits).forEach(recId => {
+        const item = sessionEdits[recId];
+        if (item && item.action === "ADD" && item.match?.street === currentStreetData.street) {
+          const addedRec = {
+            year: item.match.year,
+            street: item.match.street,
+            house_number: item.apply.house_number || "",
+            sub_unit: item.apply.sub_unit || "",
+            building_name: item.apply.building_name || "",
+            surname: item.apply.surname || "New Occupant",
+            forename: item.apply.forename || "",
+            trade: item.apply.trade || "",
+            entry_type: item.apply.entry_type || "Person",
+            is_newly_added: true
+          };
+          const exists = allRecords.some(r => r.year === addedRec.year && r.surname === addedRec.surname && r.house_number === addedRec.house_number);
+          if (!exists) {
+            allRecords.unshift(addedRec);
+          }
+        }
+      });
+
+      // Populate Year Selector
+      const yearsSet = new Set(allRecords.map(r => r.year).filter(Boolean));
+      const sortedYears = Array.from(yearsSet).sort((a, b) => parseInt(a) - parseInt(b));
+      const yearSelect = document.getElementById("year-select");
+      yearSelect.innerHTML = '<option value="ALL">All Years</option>';
+      sortedYears.forEach(y => {
+        const opt = document.createElement("option");
+        opt.value = y;
+        opt.textContent = y;
+        yearSelect.appendChild(opt);
+      });
+
+      renderTable(true);
+    } catch (e) {
+      console.error(e);
+      document.getElementById("table-body").innerHTML = `
+        <tr><td colspan="12" style="text-align: center; color: #ff6b6b; padding: 2rem;">
+          Error loading street records: ${e.message}
+        </td></tr>`;
+    }
+  }
+
+  // Add Missing Record Function
+  function addNewRecord() {
+    const slug = document.getElementById("street-select").value;
+    if (!slug || !currentStreetData) {
+      alert("Please select a street first.");
+      return;
+    }
+    const yearFilter = document.getElementById("year-select").value;
+    const year = (yearFilter && yearFilter !== "ALL") ? yearFilter : (allRecords[0]?.year || "1882");
+    const streetName = currentStreetData.street || masterStreetsList.find(s => s.slug === slug)?.displayName || "Commercial Road";
+
+    const newRec = {
+      year: year,
+      street: streetName,
+      house_number: "",
+      sub_unit: "",
+      building_name: "",
+      entry_type: "Person",
+      surname: "New Resident",
+      forename: "",
+      trade: "",
+      is_newly_added: true
+    };
+
+    allRecords.unshift(newRec);
+
+    const recId = getRecordId(newRec, 0);
+    sessionEdits[recId] = {
+      reason: `Manually added missing record for ${streetName} (${year})`,
+      action: "ADD",
+      match: {
+        street: streetName,
+        year: year
+      },
+      apply: {
+        house_number: "",
+        sub_unit: "",
+        building_name: "",
+        surname: "New Resident",
+        forename: "",
+        trade: "",
+        entry_type: "Person"
+      }
+    };
+
+    saveSessionEdits();
+    renderTable(true);
+  }
+
+  // Anomaly Detection Helper (Low-risk heuristics)
+  function detectAnomaly(rec) {
+    const issues = [];
+    const house = (rec.house_number || "").trim();
+    const surname = (rec.surname || "").trim();
+    const trade = (rec.trade || "").trim();
+    const forename = (rec.forename || "").trim();
+
+    // 1. Missing house number in structured street
+    if (!house && !rec.building_name) {
+      issues.push("Missing House Number & Building");
+    }
+
+    // 2. Fused numbers or range drift (e.g. 5-11 in surname or trade)
+    if (/\b\d+[\-\s]+\d+\b/.test(surname) || /\b\d+[\-\s]+\d+\b/.test(trade)) {
+      issues.push("Fused Number in Name/Trade");
+    }
+
+    // 3. Layout direction text in surname or trade
+    if (/\b(here is|right hand|left hand|road to|street list|continuation)\b/i.test(surname) ||
+        /\b(here is|right hand|left hand|road to|street list|continuation)\b/i.test(trade)) {
+      issues.push("Layout Direction Text Detected");
+    }
+
+    // 4. Forename in surname field (e.g. "John Smith" in surname)
+    if (!forename && surname.split(" ").length >= 3 && !/\b(ltd|co|company|works|club|inn|hotel|house|hall|and|&)\b/i.test(surname)) {
+      issues.push("Possible Unsplit Forename/Surname");
+    }
+
+    return issues;
+  }
+
+  // Generate Unique ID for record tracking
+  function getRecordId(rec, idx) {
+    return `${rec.year}|${rec.street}|${rec.house_number || ''}|${rec.surname || ''}|${idx}`;
+  }
+
+  // Render Table Grid
+  function renderTable(resetPage = false) {
+    if (resetPage) currentPage = 1;
+
+    pageSize = parseInt(document.getElementById("page-size-select").value) || 100;
+    const yearFilter = document.getElementById("year-select").value;
+    const flagFilter = document.getElementById("flag-select").value;
+    const searchQuery = document.getElementById("search-input").value.toLowerCase().trim();
+
+    // Filter Records
+    filteredRecords = allRecords.map((rec, origIdx) => ({ rec, origIdx })).filter(({ rec, origIdx }) => {
+      // Year Filter
+      if (yearFilter !== "ALL" && rec.year !== yearFilter) return false;
+
+      const recId = getRecordId(rec, origIdx);
+      const activeEdit = sessionEdits[recId];
+      const effHouse = activeEdit?.apply?.house_number ?? rec.house_number ?? "";
+      const effSurname = activeEdit?.apply?.surname ?? rec.surname ?? "";
+      const effForename = activeEdit?.apply?.forename ?? rec.forename ?? "";
+      const effTrade = activeEdit?.apply?.trade ?? rec.trade ?? "";
+      const effBuilding = activeEdit?.apply?.building_name ?? rec.building_name ?? "";
+      const effSubUnit = activeEdit?.apply?.sub_unit ?? rec.sub_unit ?? "";
+
+      const isVerified = activeEdit?.is_verified ?? rec.is_verified ?? false;
+      const anomalies = detectAnomaly({ house_number: effHouse, surname: effSurname, forename: effForename, trade: effTrade, building_name: effBuilding });
+
+      // Anomaly Toggle
+      if (anomalyOnlyMode && anomalies.length === 0) return false;
+
+      // Flag Dropdown Filter
+      if (flagFilter === "UNVERIFIED" && isVerified) return false;
+      if (flagFilter === "VERIFIED" && !isVerified) return false;
+      if (flagFilter === "ANOMALY" && anomalies.length === 0) return false;
+      if (flagFilter === "UNNUMBERED" && (effHouse || effBuilding)) return false;
+      if (flagFilter === "BUILDING" && !effBuilding && !effSubUnit) return false;
+      if (flagFilter === "EDITED" && !activeEdit) return false;
+
+      // Search Query
+      if (searchQuery) {
+        const text = `${effHouse} ${effSubUnit} ${effBuilding} ${effSurname} ${effForename} ${effTrade} ${rec.year}`.toLowerCase();
+        if (!text.includes(searchQuery)) return false;
+      }
+
+      return true;
+    });
+
+    // Pagination Calculations
+    const totalRecords = filteredRecords.length;
+    const totalPages = Math.ceil(totalRecords / pageSize) || 1;
+    if (currentPage > totalPages) currentPage = totalPages;
+
+    const startIdx = (currentPage - 1) * pageSize;
+    const endIdx = Math.min(startIdx + pageSize, totalRecords);
+    const pageItems = filteredRecords.slice(startIdx, endIdx);
+
+    // Update Pagination UI Info
+    document.getElementById("pagination-info").textContent = 
+      `Showing ${totalRecords === 0 ? 0 : startIdx + 1}–${endIdx} of ${totalRecords} records${anomalyOnlyMode ? ' (⚠️ Anomalies Only)' : ''}`;
+    document.getElementById("page-num-display").textContent = `Page ${currentPage} of ${totalPages}`;
+    document.getElementById("btn-prev-page").disabled = (currentPage <= 1);
+    document.getElementById("btn-next-page").disabled = (currentPage >= totalPages);
+
+    const tbody = document.getElementById("table-body");
+    if (pageItems.length === 0) {
+      tbody.innerHTML = `
+        <tr><td colspan="12" style="text-align: center; padding: 3rem; color: var(--muted);">
+          No records match the active filter criteria.
+        </td></tr>`;
+      return;
+    }
+
+    const fragment = document.createDocumentFragment();
+
+    pageItems.forEach(({ rec, origIdx }, displayIdx) => {
+      const recId = getRecordId(rec, origIdx);
+      const activeEdit = sessionEdits[recId];
+      const isExcluded = activeEdit?.action === "EXCLUDE";
+      const isEdited = !!activeEdit && !isExcluded;
+      const isVerified = activeEdit?.is_verified ?? rec.is_verified ?? false;
+
+      const effStreet = activeEdit?.apply?.street ?? rec.street ?? "";
+      const effHouse = activeEdit?.apply?.house_number ?? rec.house_number ?? "";
+      const effSubUnit = activeEdit?.apply?.sub_unit ?? rec.sub_unit ?? "";
+      const effBuilding = activeEdit?.apply?.building_name ?? rec.building_name ?? "";
+      const effType = activeEdit?.apply?.entry_type ?? rec.entry_type ?? "Person";
+      const effSurname = activeEdit?.apply?.surname ?? rec.surname ?? "";
+      const effForename = activeEdit?.apply?.forename ?? rec.forename ?? "";
+      const effTrade = activeEdit?.apply?.trade ?? rec.trade ?? "";
+
+      const origAnomalies = detectAnomaly(rec);
+      const effAnomalies = detectAnomaly({ house_number: effHouse, surname: effSurname, forename: effForename, trade: effTrade, building_name: effBuilding });
+      const hasRemainingAnomaly = effAnomalies.length > 0 && !isExcluded;
+
+      const tr = document.createElement("tr");
+      if (isExcluded) tr.classList.add("is-excluded");
+      else if (isEdited) tr.classList.add("is-edited");
+      if (hasRemainingAnomaly) tr.classList.add("has-anomaly");
+
+      const issueBadges = effAnomalies.map(iss => `<span class="anomaly-badge" title="Issue: ${escapeHtml(iss)}" style="margin-right: 0.2rem; margin-bottom: 0.2rem;">⚠️ ${escapeHtml(iss)}</span>`).join('');
+
+      let statusHtml = '';
+      if (isVerified) {
+        statusHtml += `<span class="edited-badge" style="background: rgba(103,194,58,0.25); border-color: rgba(103,194,58,0.6); color: #67c23a; margin-right: 0.3rem;" title="Record has been fully verified and checked off!">🔒 Verified</span>`;
+      }
+      if (isExcluded) {
+        statusHtml += `<span class="edited-badge" style="background: rgba(245,108,108,0.2); border-color: rgba(245,108,108,0.5); color: #f56c6c;">🗑️ Excluded</span>`;
+      } else if (isEdited) {
+        if (hasRemainingAnomaly) {
+          statusHtml += `<span class="edited-badge" style="background: rgba(230,162,60,0.2); border-color: rgba(230,162,60,0.5); color: #e6a23c; margin-right: 0.3rem;">✏️ Edited</span>${issueBadges}`;
+        } else {
+          statusHtml += `<span class="edited-badge" style="background: rgba(103,194,58,0.15); border-color: rgba(103,194,58,0.4); color: #67c23a;" title="All anomalies resolved by your edits!">✏️ Edited (Resolved)</span>`;
+        }
+      } else if (hasRemainingAnomaly) {
+        statusHtml += issueBadges;
+      } else if (!isVerified) {
+        statusHtml = `<span class="clean-badge">Clean</span>`;
+      }
+
+      tr.innerHTML = `
+        <td style="color: var(--muted); font-size: 0.78rem;">${startIdx + displayIdx + 1}</td>
+        <td style="white-space: nowrap;">${statusHtml}</td>
+        <td style="font-weight: 600;">${rec.year}</td>
+        <td style="min-width: 175px;">
+          <input type="text" class="cell-input ${activeEdit?.apply?.street !== undefined && activeEdit?.apply?.street !== rec.street ? 'modified' : ''}" 
+                 value="${escapeHtml(effStreet)}" style="font-size: 0.85rem; width: 100%;"
+                 onchange="updateCell('${recId}', 'street', this.value, ${origIdx})"
+                 title="${escapeHtml(effStreet)}">
+        </td>
+        <td>
+          <input type="text" class="cell-input ${activeEdit?.apply?.house_number !== undefined && activeEdit?.apply?.house_number !== rec.house_number ? 'modified' : ''}" 
+                 value="${escapeHtml(effHouse)}" 
+                 onchange="updateCell('${recId}', 'house_number', this.value, ${origIdx})">
+        </td>
+        <td>
+          <input type="text" class="cell-input ${activeEdit?.apply?.sub_unit !== undefined && activeEdit?.apply?.sub_unit !== rec.sub_unit ? 'modified' : ''}" 
+                 value="${escapeHtml(effSubUnit)}" 
+                 onchange="updateCell('${recId}', 'sub_unit', this.value, ${origIdx})">
+        </td>
+        <td>
+          <input type="text" class="cell-input ${activeEdit?.apply?.building_name !== undefined && activeEdit?.apply?.building_name !== rec.building_name ? 'modified' : ''}" 
+                 value="${escapeHtml(effBuilding)}" 
+                 onchange="updateCell('${recId}', 'building_name', this.value, ${origIdx})">
+        </td>
+        <td>
+          <select class="type-select" onchange="updateCell('${recId}', 'entry_type', this.value, ${origIdx})">
+            <option value="Person" ${effType === 'Person' ? 'selected' : ''}>Person</option>
+            <option value="Business" ${effType === 'Business' ? 'selected' : ''}>Business</option>
+            <option value="Cross-Reference" ${effType === 'Cross-Reference' ? 'selected' : ''}>Cross-Ref</option>
+          </select>
+        </td>
+        <td>
+          <input type="text" class="cell-input ${activeEdit?.apply?.surname !== undefined && activeEdit?.apply?.surname !== rec.surname ? 'modified' : ''}" 
+                 value="${escapeHtml(effSurname)}" style="font-weight: 600;"
+                 onchange="updateCell('${recId}', 'surname', this.value, ${origIdx})">
+        </td>
+        <td>
+          <input type="text" class="cell-input ${activeEdit?.apply?.forename !== undefined && activeEdit?.apply?.forename !== rec.forename ? 'modified' : ''}" 
+                 value="${escapeHtml(effForename)}" 
+                 onchange="updateCell('${recId}', 'forename', this.value, ${origIdx})">
+        </td>
+        <td>
+          <input type="text" class="cell-input ${activeEdit?.apply?.trade !== undefined && activeEdit?.apply?.trade !== rec.trade ? 'modified' : ''}" 
+                 value="${escapeHtml(effTrade)}" 
+                 onchange="updateCell('${recId}', 'trade', this.value, ${origIdx})">
+        </td>
+        <td style="text-align: center; white-space: nowrap;">
+          <button class="btn" style="padding: 0.25rem 0.4rem; font-size: 0.75rem; ${isVerified ? 'background: rgba(103,194,58,0.2); border-color: rgba(103,194,58,0.5); color: #67c23a;' : ''}" 
+                  onclick="toggleVerifyRecord('${recId}', ${origIdx})" 
+                  title="${isVerified ? 'Unmark as verified (return to queue)' : 'Mark record as fully verified'}">
+            ${isVerified ? '🔒 Verified' : '🔓 Verify'}
+          </button>
+          <button class="btn" style="padding: 0.25rem 0.4rem; font-size: 0.75rem;" 
+                  onclick="openScanModalForRecord('${rec.year}', '${escapeJs(rec.street)}', '${escapeJs(effHouse)}')"
+                  title="Preview original scan page">
+            🔍 Scan
+          </button>
+          ${isExcluded ? 
+            `<button class="btn" style="padding: 0.25rem 0.4rem; font-size: 0.75rem; color: #67c23a; border-color: rgba(103,194,58,0.4);" onclick="toggleExcludeRecord('${recId}', ${origIdx})" title="Restore record">↩️ Restore</button>` :
+            `<button class="btn" style="padding: 0.25rem 0.4rem; font-size: 0.75rem; color: #f56c6c; border-color: rgba(245,108,108,0.4);" onclick="toggleExcludeRecord('${recId}', ${origIdx})" title="Delete / Exclude ghost OCR record">🗑️ Delete</button>`
+          }
+        </td>
+      `;
+
+      fragment.appendChild(tr);
+    });
+
+    tbody.innerHTML = "";
+    tbody.appendChild(fragment);
+  }
+
+  // Handle Record Verification Toggle
+  function toggleVerifyRecord(recId, origIdx) {
+    const rec = allRecords[origIdx];
+    if (!rec) return;
+
+    if (!sessionEdits[recId]) {
+      sessionEdits[recId] = {
+        reason: `Verification status updated for ${rec.street} (${rec.year})`,
+        match: {
+          street: rec.street,
+          year: rec.year,
+          surname: rec.surname || "",
+          house_number: rec.house_number || ""
+        },
+        apply: {
+          house_number: rec.house_number || "",
+          sub_unit: rec.sub_unit || "",
+          building_name: rec.building_name || "",
+          surname: rec.surname || "",
+          forename: rec.forename || "",
+          trade: rec.trade || ""
+        },
+        is_verified: true
+      };
+    } else {
+      const currentVerified = sessionEdits[recId].is_verified ?? rec.is_verified ?? false;
+      sessionEdits[recId].is_verified = !currentVerified;
+    }
+
+    saveSessionEdits();
+    renderTable();
+  }
+
+  // Handle Record Exclusion / Deletion
+  function toggleExcludeRecord(recId, origIdx) {
+    const rec = allRecords[origIdx];
+    if (!rec) return;
+
+    if (sessionEdits[recId] && sessionEdits[recId].action === "EXCLUDE") {
+      delete sessionEdits[recId];
+    } else {
+      sessionEdits[recId] = {
+        reason: `Excluding OCR bleed/ghost record for ${rec.street} (${rec.year})`,
+        action: "EXCLUDE",
+        match: {
+          street: rec.street,
+          year: rec.year,
+          surname: rec.surname || "",
+          house_number: rec.house_number || ""
+        }
+      };
+    }
+    saveSessionEdits();
+    renderTable();
+  }
+  function updateCell(recId, field, val, origIdx) {
+    const rec = allRecords[origIdx];
+    if (!rec) return;
+
+    if (!sessionEdits[recId]) {
+      sessionEdits[recId] = {
+        reason: `Inline table edit for ${rec.street} (${rec.year})`,
+        match: {
+          street: rec.street,
+          year: rec.year,
+          surname: rec.surname || "",
+          house_number: rec.house_number || ""
+        },
+        apply: {
+          house_number: rec.house_number || "",
+          sub_unit: rec.sub_unit || "",
+          building_name: rec.building_name || "",
+          surname: rec.surname || "",
+          forename: rec.forename || "",
+          trade: rec.trade || ""
+        }
+      };
+    }
+
+    sessionEdits[recId].apply[field] = val.trim();
+    saveSessionEdits();
+    renderTable();
+  }
+
+  // Pagination Change
+  function changePage(delta) {
+    currentPage += delta;
+    renderTable();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  // Toggle Anomaly Filter
+  function toggleAnomalyFilter() {
+    anomalyOnlyMode = !anomalyOnlyMode;
+    const btn = document.getElementById("btn-toggle-anomalies");
+    btn.classList.toggle("active", anomalyOnlyMode);
+    renderTable(true);
+  }
+
+  // Search Debounce Input
+  function onSearchInput() {
+    clearTimeout(searchDebounceTimer);
+    searchDebounceTimer = setTimeout(() => {
+      renderTable(true);
+    }, 250);
+  }
+
+  // Export User Overrides JSON
+  function exportUserOverrides() {
+    const editsList = Object.values(sessionEdits);
+    if (editsList.length === 0) {
+      alert("No pending session edits to export.");
+      return;
+    }
+
+    const exportData = {
+      description: "User inline table corrections for Newport Street Directory Archive",
+      exported_at: new Date().toISOString(),
+      overrides: editsList
+    };
+
+    const jsonStr = JSON.stringify(exportData, null, 2);
+    const blob = new Blob([jsonStr], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "user_overrides.json";
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  }
+
+  // Scan Inspector Modal Logic
+  function openScanModalForRecord(year, street, house) {
+    const modal = document.getElementById("scan-modal");
+    const title = document.getElementById("scan-modal-title");
+    const body = document.getElementById("scan-modal-body");
+
+    title.textContent = `Original Scan Page: ${street} (${year})`;
+    body.innerHTML = `
+      <div style="text-align: center; width: 100%; padding: 2rem;">
+        <p style="color: var(--muted); margin-bottom: 1rem;">Searching scan index for ${street} in ${year}...</p>
+        <a href="index.html#street=${encodeURIComponent(street)}" target="_blank" class="btn btn-primary">
+          Open Street Profile View in Main Site ↗
+        </a>
+      </div>`;
+
+    modal.classList.add("open");
+  }
+
+  function closeScanModal() {
+    document.getElementById("scan-modal").classList.remove("open");
+  }
+
+  // Helpers
+  function escapeHtml(str) {
+    if (!str) return '';
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+
+  function escapeJs(str) {
+    if (!str) return '';
+    return String(str).replace(/'/g, "\\'").replace(/"/g, '\\"');
+  }
+
+  // Run on page load
+  window.addEventListener("DOMContentLoaded", init);
+</script>
+
+</body>
+</html>

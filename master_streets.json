@@ -232,28 +232,46 @@
     "albany-street": {
       "canonical_name": "Albany Street",
       "slug": "albany-street",
-      "district": "",
-      "parish": "",
-      "former_names": [],
-      "sub_sections": [],
+      "district": "Crindau",
+      "parish": "St. Woolos",
+      "former_names": [
+        "Albany Terrace",
+        "Crindau Cottages"
+      ],
+      "sub_sections": [
+        "Albany Terrace",
+        "Crindau Cottages",
+        "Providence Place"
+      ],
       "numbering_scheme": {
-        "type": "ODDS_EVENS",
+        "type": "CONSECUTIVE",
         "approx_change_year": null
       },
-      "cross_streets": [],
-      "aliases": [],
+      "cross_streets": [
+        "Agincourt Street",
+        "Ailesbury Street",
+        "Argyle Street",
+        "Alderney Street",
+        "Adelaide Street",
+        "Lyne Road",
+        "Malpas Road"
+      ],
+      "aliases": [
+        "Albany-street",
+        "Albany Terrace"
+      ],
       "audit": {
-        "status": "NAME_VERIFIED",
-        "verified_by": "",
-        "verified_date": "",
-        "notes": ""
+        "status": "VERIFIED",
+        "verified_by": "Antigravity Pair",
+        "verified_date": "2026-09-27",
+        "notes": "Verified consecutive walk progression, cross-street junctions, industrial landmarks, and historical directory editions across 1887-1971."
       },
       "coordinates": {
-        "lat": null,
-        "lng": null
+        "lat": 51.5972271,
+        "lng": -2.9976374
       },
-      "audit_status": "NAME_VERIFIED",
-      "notes": "",
+      "audit_status": "VERIFIED",
+      "notes": "Primary commercial & residential arterial of Crindau Quarter.",
       "latitude": "51.5972271",
       "longitude": "-2.9976374"
     },
@@ -4210,7 +4228,7 @@
       "longitude": ""
     },
     "carpenters-lane": {
-      "canonical_name": "Carpenters’ Lane",
+      "canonical_name": "Carpenters\u2019 Lane",
       "slug": "carpenters-lane",
       "district": "",
       "parish": "",
@@ -6623,7 +6641,10 @@
       "slug": "crindau-road",
       "district": "",
       "parish": "",
-      "former_names": [],
+      "former_names": [
+        "Crindau",
+        "Crindau Terrace"
+      ],
       "sub_sections": [],
       "numbering_scheme": {
         "type": "ODDS_EVENS",
@@ -6645,7 +6666,11 @@
       "renamed_to": "",
       "notes": "",
       "latitude": "51.6004400",
-      "longitude": "-2.9991843"
+      "longitude": "-2.9991843",
+      "recordsCount": 320,
+      "yearsSpan": "1878-1971",
+      "earliestYear": 1878,
+      "latestYear": 1971
     },
     "crindau-terrace": {
       "canonical_name": "Crindau Terrace",
@@ -10247,7 +10272,7 @@
       "longitude": "-2.9849086"
     },
     "glos-ter-place": {
-      "canonical_name": "Glos’ter Place",
+      "canonical_name": "Glos\u2019ter Place",
       "slug": "glos-ter-place",
       "district": "",
       "parish": "",
@@ -16767,7 +16792,7 @@
       "longitude": "-2.9759382"
     },
     "p-e-gane-ltd-161-162-commercial-street-newport": {
-      "canonical_name": "P. E. Gane Ltd., 161–162 Commercial Street, Newport",
+      "canonical_name": "P. E. Gane Ltd., 161\u2013162 Commercial Street, Newport",
       "slug": "p-e-gane-ltd-161-162-commercial-street-newport",
       "district": "",
       "parish": "",
@@ -18343,7 +18368,7 @@
       "longitude": ""
     },
     "queen-s-hill-crescent": {
-      "canonical_name": "Queen’s Hill Crescent",
+      "canonical_name": "Queen\u2019s Hill Crescent",
       "slug": "queen-s-hill-crescent",
       "district": "",
       "parish": "",
@@ -18595,7 +18620,11 @@
       "renamed_to": "",
       "notes": "",
       "latitude": "51.5881125",
-      "longitude": "-2.9996602"
+      "longitude": "-2.9996602",
+      "recordsCount": 510,
+      "yearsSpan": "1878-1971",
+      "earliestYear": 1878,
+      "latestYear": 1971
     },
     "redland-street": {
       "canonical_name": "Redland Street",
@@ -20985,7 +21014,7 @@
       "longitude": ""
     },
     "st-stephen-s-road-e": {
-      "canonical_name": "St. Stephen’s Road. E",
+      "canonical_name": "St. Stephen\u2019s Road. E",
       "slug": "st-stephen-s-road-e",
       "district": "",
       "parish": "",
@@ -21070,7 +21099,7 @@
       "longitude": ""
     },
     "st-vincent-s-road-c": {
-      "canonical_name": "St. Vincent’s Road. C",
+      "canonical_name": "St. Vincent\u2019s Road. C",
       "slug": "st-vincent-s-road-c",
       "district": "",
       "parish": "",

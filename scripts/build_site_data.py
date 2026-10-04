@@ -9,7 +9,7 @@ STREETS_DIR = os.path.join(OUTPUT_DIR, "streets")
 
 # Maximum year permitted for public distribution (100-year rolling rule requested by Newport Library).
 # Set to None to include all historical years.
-MAX_PUBLIC_YEAR = 1925
+MAX_PUBLIC_YEAR = int(os.environ["MAX_PUBLIC_YEAR"]) if "MAX_PUBLIC_YEAR" in os.environ else None
 
 # Load Master Streets Registry
 MASTER_STREETS_FILE = "master_streets.json"
@@ -139,18 +139,23 @@ def main():
             h_num = (row.get("house_number") or "").strip()
 
             if surname or forename or trade or bldg:
-                full_n = f"{forename} {surname}".strip() if forename else surname
+                if forename and surname:
+                    full_n = f"{forename} {surname}"
+                else:
+                    full_n = surname or forename or ""
+
                 target_key = h_num or bldg or full_n
 
-                # Group by (full_n, slug, target_key)
-                search_key = (full_n.lower(), slug, target_key.lower())
+                # Group by (full_n, slug, target_key, yr_str)
+                search_key = (full_n.lower(), slug, target_key.lower(), yr_str)
                 if search_key not in dedup_search:
                     dedup_search[search_key] = {
                         "n": full_n,
                         "s": st,
                         "g": slug,
                         "k": target_key,
-                        "t": trade
+                        "t": trade,
+                        "y": yr_str
                     }
 
     print(f"Writing per-street JSON files for {len(records_by_street)} streets into {STREETS_DIR}...")

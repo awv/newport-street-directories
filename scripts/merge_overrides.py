@@ -56,8 +56,13 @@ def merge_overrides(source_file):
     with open(EDGE_CASES_FILE, "r", encoding="utf-8") as f:
         master_data = json.load(f)
 
-    with open(source_file, "r", encoding="utf-8") as f:
-        new_overrides = json.load(f)
+    try:
+        with open(source_file, "r", encoding="utf-8") as f:
+            new_overrides = json.load(f)
+    except PermissionError:
+        print(f"\n⚠️ Notice: macOS restricted direct access to '{source_file}'.")
+        print(f"👉 Please move/copy 'user_overrides.json' into the project's 'overrides_inbox/' folder or project root.")
+        return False
 
     if isinstance(new_overrides, dict) and "overrides" in new_overrides:
         new_list = new_overrides["overrides"]

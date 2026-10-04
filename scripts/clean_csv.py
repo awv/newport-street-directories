@@ -572,6 +572,9 @@ def clean_street_name(name):
     if re.search(r'\bHigh\s+Street\s*[\.,]?\s*P\b', name, flags=re.I):
         return 'High Street, Pill'
 
+    # Standardize street suffixes to Title Case (e.g. "Chepstow road" -> "Chepstow Road")
+    name = re.sub(r'\b(road|street|avenue|place|terrace|lane|crescent|square|parade|gardens|court|drive)\b', lambda m: m.group(1).capitalize(), name)
+
     clean = name.replace('"', '').strip(' ,.-~—–_')
 
     # Specific street name merges and corrections
@@ -863,6 +866,9 @@ def apply_edge_cases(record):
     t = record["trade"]
 
     for rule in EDGE_CASES:
+        if str(rule.get("action")).lower() == "add":
+            continue
+
         match = rule.get("match", {})
         
         # Match street
@@ -885,7 +891,7 @@ def apply_edge_cases(record):
             continue
 
         # Check for record exclusion / deletion rule
-        if rule.get("action") == "exclude":
+        if str(rule.get("action")).lower() == "exclude":
             return None
 
         # Apply direct override
@@ -1100,6 +1106,24 @@ def clean_record(row):
         surname = trade
         trade = ""
 
+    # Realign shifted records where house number landed in surname
+    if not house_num and surname:
+        sur_strip = surname.strip()
+        if sur_strip.isdigit() or re.match(r'^\d+[a-zA-Z]?$', sur_strip):
+            house_num = sur_strip
+            full_name = forename.strip()
+            if full_name:
+                name_parts = full_name.split()
+                if len(name_parts) >= 2:
+                    surname = name_parts[0]
+                    forename = " ".join(name_parts[1:])
+                else:
+                    surname = full_name
+                    forename = ""
+            else:
+                surname = ""
+                forename = ""
+
     # Realign shifted 1971 records and strip school/layout parentheticals
     if year == "1971":
         # Realign 1971 records where the entire line was parsed into the surname column (no tabs)
@@ -1241,10 +1265,31 @@ def clean_record(row):
             trade = "tailor"
             bldg_name = ""
 
+    # Clean house-name bleeds in forename and surname fields (e.g. Stow Hill 1910 'Jas., Eaglescliffe Herbert')
+    if street.lower().strip() == "stow hill":
+        if forename and ", " in forename and not bldg_name:
+            f_parts = forename.split(", ", 1)
+            if len(f_parts) == 2 and f_parts[1][0].isupper():
+                b_cand = f_parts[1].strip()
+                if not any(kw in b_cand.lower() for kw in ["clerk", "labourer", "mason", "fitter", "grocer", "tailor", "baker", "agent", "driver", "smith"]):
+                    forename = f_parts[0].rstrip('.').strip()
+                    bldg_name = b_cand
+        if surname and ", " in surname and not bldg_name:
+            s_match = re.match(r'^([A-Z][a-zA-Z]+)\s+([A-Z][A-Za-z\s\.]+),\s+(.+)$', surname)
+            if s_match:
+                surname = s_match.group(1).strip()
+                forename = s_match.group(2).strip()
+                bldg_name = s_match.group(3).strip().title()
+        if surname and surname.endswith("—void"):
+            bldg_name = surname.replace("—void", "").strip()
+            surname = "Void"
+
     # Discard records that are purely layout artifacts
     combined_fields = f"{house_num} {bldg_name} {surname} {forename} {trade}".lower().strip()
-    if LAYOUT_ONLY_REGEX.search(combined_fields):
-        return None
+    sn_low_check = surname.lower().strip()
+    if not (sn_low_check.startswith("here is") or sn_low_check.startswith("here are")):
+        if LAYOUT_ONLY_REGEX.search(combined_fields):
+            return None
 
     # Discard records that are just "continued" street headers or location descriptions
     if "continued" in combined_fields or "—continued" in combined_fields or "-continued" in combined_fields:
@@ -1268,9 +1313,10 @@ def clean_record(row):
     # Discard rows that are just cross-street headers (e.g. surname="Vancouver drive" with no other fields)
     if surname and not forename and not house_num and not trade and not bldg_name:
         s_low = surname.lower()
-        suffixes = {'street', 'road', 'lane', 'place', 'terrace', 'crescent', 'square', 'avenue', 'drive', 'hill', 'parade', 'gardens', 'walk', 'close', 'view', 'grove', 'way', 'rise', 'arcade'}
-        if any(f" {suff}" in s_low or s_low.endswith(f" {suff}") for suff in suffixes):
-            return None
+        if not (s_low.startswith("here is") or s_low.startswith("here are")):
+            suffixes = {'street', 'road', 'lane', 'place', 'terrace', 'crescent', 'square', 'avenue', 'drive', 'hill', 'parade', 'gardens', 'walk', 'close', 'view', 'grove', 'way', 'rise', 'arcade'}
+            if any(f" {suff}" in s_low or s_low.endswith(f" {suff}") for suff in suffixes):
+                return None
 
     # Strip map references from all fields (e.g. "Map E 9.", "Map F 7, G 7.", "Map E 4")
     map_ref_pat = re.compile(r'\bMap\s+[A-Za-z0-9\s,\.&-]*\d+[A-Za-z0-9\s,\.&-]*\b\.?', re.I)
@@ -1333,7 +1379,9 @@ def clean_record(row):
 
     combined_name = f"{surname} {forename}".strip()
     is_chambers_street = any(term in street.lower() for term in ["chambers", "cottages", "villas", "arcade"])
-    if not is_chambers_street:
+    sn_low = surname.lower().strip()
+    is_junction_marker = sn_low.startswith("here is") or sn_low.startswith("here are") or "return" in sn_low
+    if not is_chambers_street and not is_junction_marker:
         if CROSS_STREET_REGEX.search(combined_name) or CROSS_STREET_REGEX.search(bldg_name) or CROSS_STREET_REGEX.search(surname):
             return None
 
@@ -1354,6 +1402,56 @@ def clean_record(row):
     forename = phone_pattern.sub('', forename).strip(' ,"-~.')
     bldg_name = phone_pattern.sub('', bldg_name).strip(' ,"-~.')
     trade = phone_pattern.sub('', trade).strip(' ,"-~.')
+
+    # Realign OCR column swaps where trade landed in forename and full name landed in surname (e.g. 1920 Agincourt St 'sur=Whitehead Chas, fore=labourer')
+    if forename and surname and " " in surname:
+        f_low = forename.lower().strip()
+        t_swaps = {'labourer', 'labr', 'glasswkr', 'glassworker', 'mason', 'fitter', 'shoemaker', 'hoistman', 'rigger', 'boatman', 'smith', 'carpenter', 'dock labourer', 'general shop'}
+        if f_low in t_swaps or is_trade_word(f_low):
+            real_trade = forename
+            if real_trade.lower() == 'glasswkr': real_trade = 'glassworker'
+            elif real_trade.lower() == 'labr': real_trade = 'labourer'
+            trade = f"{real_trade}, {trade}".strip(" ,") if trade else real_trade
+            
+            s_parts = surname.split(maxsplit=1)
+            if len(s_parts) == 2:
+                surname = title_case_name(s_parts[0])
+                forename = s_parts[1].strip()
+            else:
+                surname = title_case_name(s_parts[0])
+                forename = ""
+
+    # Clean sub-pins / resident initials & trades misparsed into building_name (e.g. 'H., Weighman', 'Hy., Hlpr', 'trim\'r', 'L')
+    if bldg_name:
+        b_low = bldg_name.lower().strip()
+        if b_low in {"trim'r", "trimmer"}:
+            trade = f"Trimmer, {trade}".strip(" ,") if trade else "Trimmer"
+            bldg_name = ""
+        elif not any(w in b_low for w in ['house', 'villa', 'villas', 'cottage', 'cottages', 'terrace', 'view', 'hall', 'place', 'court', 'lodge', 'gables', 'chambers', 'works', 'inn', 'hotel', 'arms', 'school']):
+            m_bpin = re.match(r'^([A-Z][a-z]?\.)\s*,?\s*(.*)$', bldg_name)
+            if m_bpin:
+                init_p = m_bpin.group(1).strip()
+                trade_p = m_bpin.group(2).strip()
+                if trade_p.lower() in {'hlpr', 'helper'}:
+                    trade_p = 'Helper'
+                elif trade_p.lower() == 'weighman':
+                    trade_p = 'Weighman'
+                
+                if trade_p:
+                    trade = f"{trade_p}, {trade}".strip(" ,") if trade else trade_p
+                forename = f"{forename} {init_p}".strip()
+                bldg_name = ""
+
+    # Repair split trade words trapped in forename/trade (e.g. fore='John H We', trade='ighman' -> fore='John H.', trade='Weighman')
+    if forename.endswith(" We") and trade == "ighman":
+        base_f = forename[:-3].strip()
+        if base_f.endswith(" H"):
+            base_f += "."
+        forename = base_f
+        trade = "Weighman"
+    elif forename.endswith(" He") and trade == "lper":
+        forename = forename[:-3].strip()
+        trade = "Helper"
 
     # Split reversed "Surname Forename" names if forename is empty and surname contains space
     if surname and not forename and " " in surname:
@@ -1558,13 +1656,19 @@ def clean_record(row):
         if match_b_num:
             ext_num = match_b_num.group(1).upper()
             rest_name = match_b_num.group(2).strip()
-            if not house_num:
-                house_num = ext_num
-            elif house_num != ext_num and not house_num.endswith(ext_num):
-                house_num = f"{house_num}-{ext_num}"
-            bldg_name = ""
-            if rest_name:
-                surname = f"{rest_name} {surname}".strip()
+            terrace_keywords = {'terrace', 'villas', 'cottages', 'house', 'view', 'buildings', 'chambers', 'lodge', 'court', 'place', 'home', 'cottage', 'villa', 'building', 'mansions'}
+            if any(kw in rest_name.lower().split() for kw in terrace_keywords):
+                if not house_num:
+                    house_num = ext_num
+                bldg_name = rest_name
+            else:
+                if not house_num:
+                    house_num = ext_num
+                elif house_num != ext_num and not house_num.endswith(ext_num):
+                    house_num = f"{house_num}-{ext_num}"
+                bldg_name = ""
+                if rest_name:
+                    surname = f"{rest_name} {surname}".strip()
 
     # 10. Extract house numbers merged into surname or forename (e.g. '35a &', '35A Smith W. H. & Son Ltd.')
     match_s_num = re.match(r"^(\d+[a-zA-Z]?(?:-\d+[a-zA-Z]?)?)\s*(?:&|\s)\s*(.*)$", surname)
@@ -1837,7 +1941,13 @@ def clean_record(row):
         "hairdresser", "hairdr'sr", "hairdsr", "butcher", "bchrs", "pork butcher", "porkbutcher",
         "watchmaker", "greengrocer", "grocer", "draper", "baker", "confectioner", "solicitor",
         "fruiterer", "fish bar", "bootmaker", "bootmakers", "tailor", "printer", "stationer",
-        "chemist", "dairyman", "builder", "plumber", "painter", "mason", "haulier"
+        "chemist", "dairyman", "builder", "plumber", "painter", "mason", "haulier",
+        "weighman", "helper", "hlpr", "trimmer", "trim'r", "fitter", "labourer", "labr", "moulder",
+        "smith", "clerk", "hoistman", "rigger", "boatman", "dock labourer", "joiner",
+        "wheelwright", "saddler", "caretaker", "inspector", "secretary", "manager", "agent",
+        "glasswkr", "glassworker", "bottlemkr", "bottlemaker", "l'ndress", "laundress",
+        "tailoress", "wareh'man", "warehsman", "warehouseman", "blower", "glassblower",
+        "cabtmkr", "cabinetmaker", "boilerm'r", "boilermaker"
     }
 
     if surname and surname.strip().lower() in TRADES_STANDALONE:
@@ -1846,9 +1956,53 @@ def clean_record(row):
         surname = ""
 
     if bldg_name and bldg_name.strip().lower() in TRADES_STANDALONE:
-        if not trade:
-            trade = title_case_name(bldg_name)
+        b_low = bldg_name.strip().lower()
+        t_val = title_case_name(bldg_name)
+        if b_low in {'hlpr', 'helper'}: t_val = 'Helper'
+        elif b_low in {"trim'r", 'trimmer'}: t_val = 'Trimmer'
+        elif b_low == 'labr': t_val = 'Labourer'
+        elif b_low == 'glasswkr': t_val = 'Glassworker'
+        elif b_low == 'bottlemkr': t_val = 'Bottlemaker'
+        elif b_low in {"l'ndress", 'laundress'}: t_val = 'Laundress'
+        elif b_low == 'tailoress': t_val = 'Tailoress'
+        elif b_low in {"wareh'man", 'warehsman'}: t_val = 'Warehouseman'
+        elif b_low == 'blower':
+            if trade.lower() == 'glass':
+                t_val = 'Glassblower'
+                trade = ''
+            else:
+                t_val = 'Glassblower'
+        elif b_low == 'cabtmkr': t_val = 'Cabinetmaker'
+        elif b_low == "boilerm'r": t_val = 'Boilermaker'
+
+        trade = f"{t_val}, {trade}".strip(" ,") if trade else t_val
         bldg_name = ""
+
+    # Fix split forename/trade OCR glitch (e.g. fore='Mrs Ca', trade='therine')
+    if forename.strip().lower() == 'mrs ca' and trade.strip().lower() == 'therine':
+        forename = 'Mrs. Catherine'
+        trade = ''
+
+    # Clean salutations trapped at end or middle of surname (e.g. White Mrs. Martha / O'Rouke Mrs)
+    if surname and ('mrs' in surname.lower() or 'miss' in surname.lower() or 'rev' in surname.lower()):
+        m_sal = re.search(r'\b(mrs|miss|rev|dr)\.?\b', surname, re.I)
+        if m_sal:
+            sal_title = m_sal.group(1).title() + '.'
+            clean_sur = re.sub(r'\b(mrs|miss|rev|dr)\.?\b', '', surname, flags=re.I).strip(' ,.')
+            parts = clean_sur.split(maxsplit=1)
+            if len(parts) == 2:
+                surname = parts[0]
+                forename = f"{sal_title} {parts[1]} {forename}".strip()
+            else:
+                surname = clean_sur
+                forename = f"{sal_title} {forename}".strip()
+            forename = re.sub(r'\.\s*\.', '.', forename)
+            forename = re.sub(r'\s+', ' ', forename)
+
+    # Name ordering reversal (e.g. surname='Sullivan Michael', forename='John')
+    if surname == 'Sullivan Michael' and forename == 'John':
+        surname = 'Sullivan'
+        forename = 'John Michael'
 
         # 21f. Normalize trade abbreviations
         if trade:
@@ -2250,15 +2404,162 @@ def clean_record(row):
     bldg_name = pat_gpo.sub('G.P.O.', bldg_name)
     trade = pat_gpo.sub('G.P.O.', trade)
 
-    # Expand common forename abbreviations (Thos, Wm, Benj, Geo, Chas, Rbt, Robt, Fredk)
+    # Salutation alignment (Mrs, Miss, Rev, Dr, etc. placed at front of forename)
+    if surname:
+        m_sal = re.match(r'^(mrs|miss|rev|dr|capt|col|sir|lady)\.?\s+(.*)$', surname, re.I)
+        if m_sal:
+            sal = m_sal.group(1).title() + '.'
+            surname = m_sal.group(2).strip()
+            if not forename.startswith(sal):
+                forename = f"{sal} {forename}".strip()
+
+    # Check if surname ends with salutation (e.g. "Davies Mrs", "Catherine Mrs")
+    if surname:
+        m_sal_end = re.match(r'^(.*?)\s+(mrs|miss|rev|dr|capt|col|sir|lady)\.?$', surname, re.I)
+        if m_sal_end:
+            sal = m_sal_end.group(2).title() + '.'
+            surname = m_sal_end.group(1).strip()
+            if not forename.startswith(sal):
+                forename = f"{sal} {forename}".strip()
+
+    # Check if forename ends with salutation (e.g. "Catherine Mrs")
     if forename:
-        forename = re.sub(r'\bThos?\.?\b', 'Thomas', forename)
-        forename = re.sub(r'\bWm\.?\b', 'William', forename)
-        forename = re.sub(r'\bBenj\.?\b', 'Benjamin', forename)
-        forename = re.sub(r'\bGeo\.?\b', 'George', forename)
-        forename = re.sub(r'\bChas\.?\b', 'Charles', forename)
-        forename = re.sub(r'\bRobt?\.?\b', 'Robert', forename)
-        forename = re.sub(r'\bFredk?\.?\b', 'Frederick', forename)
+        m_fn_sal_end = re.match(r'^(.*?)\s+(mrs|miss|rev|dr|capt|col|sir|lady)\.?$', forename, re.I)
+        if m_fn_sal_end:
+            sal = m_fn_sal_end.group(2).title() + '.'
+            clean_fn = m_fn_sal_end.group(1).strip()
+            forename = f"{sal} {clean_fn}".strip()
+
+    # Expand common forename abbreviations
+    if forename:
+        abbrevs = [
+            (r'\bJas\.?\b', 'James'),
+            (r'\bWm\.?\b', 'William'),
+            (r'\bThos\.?\b', 'Thomas'),
+            (r'\bJno\.?\b', 'John'),
+            (r'\bHy\.?\b', 'Henry'),
+            (r'\bChas\.?\b', 'Charles'),
+            (r'\bGeo\.?\b', 'George'),
+            (r'\bHbt\.?\b', 'Herbert'),
+            (r'\bSl\.?\b', 'Samuel'),
+            (r'\bSaml\.?\b', 'Samuel'),
+            (r'\bEdwd\.?\b', 'Edward'),
+            (r'\bEdw\.?\b', 'Edward'),
+            (r'\bBenj\.?\b', 'Benjamin'),
+            (r'\bDanl\.?\b', 'Daniel'),
+            (r'\bRichd\.?\b', 'Richard'),
+            (r'\bRich\.?\b', 'Richard'),
+            (r'\bFredk\.?\b', 'Frederick'),
+            (r'\bFdk\.?\b', 'Frederick'),
+            (r'\bFred\.?\b', 'Frederick'),
+            (r'\bRobt\.?\b', 'Robert'),
+            (r'\bRobte\.?\b', 'Robert'),
+            (r'\bRbt\.?\b', 'Robert'),
+            (r'\bJos\.?\b', 'Joseph'),
+            (r'\bDd\.?\b', 'David'),
+            (r'\bLl\.?\b', 'Llewellyn'),
+            (r'\bStephn\.?\b', 'Stephen'),
+            (r'\bStepn\.?\b', 'Stephen'),
+            (r'\bWalt\.?\b', 'Walter'),
+            (r'\bAlf\.?\b', 'Alfred'),
+            (r'\bAlfd\.?\b', 'Alfred'),
+            (r'\bHerb\.?\b', 'Herbert'),
+            (r'\bArch\.?\b', 'Archibald'),
+            (r'\bRegd\.?\b', 'Reginald'),
+            (r'\bReg\.?\b', 'Reginald'),
+            (r'\bEbenezr\.?\b', 'Ebenezer'),
+            (r'\bEben\.?\b', 'Ebenezer'),
+            (r'\bBertr\.?\b', 'Bertram'),
+            (r'\bClem\.?\b', 'Clement'),
+            (r'\bPerc\.?\b', 'Percival'),
+            (r'\bAug\.?\b', 'Augustus'),
+            (r'\bMont\.?\b', 'Montague'),
+            (r'\bNich\.?\b', 'Nicholas'),
+            (r'\bTho\.?\b', 'Thomas'),
+            (r'\bWillm\.?\b', 'William'),
+            (r'\bFras\.?\b', 'Francis'),
+            (r'\bReub\.?\b', 'Reuben'),
+            (r'\bOsw\.?\b', 'Oswald'),
+            (r'\bHor\.?\b', 'Horace'),
+        ]
+        for pat, repl in abbrevs:
+            forename = re.sub(pat, repl, forename)
+
+        toks = forename.split()
+        clean_toks = []
+        for t in toks:
+            if len(t) > 2 and t.endswith('.'):
+                clean_toks.append(t[:-1])
+            else:
+                clean_toks.append(t)
+        forename = " ".join(clean_toks)
+
+    if trade:
+        trade = re.sub(r'^\bJas\.?\s*', 'James, ', trade)
+
+    # Re-order generational suffixes (junr, senr, jnr, snr, jun, sen, jr, sr) to end of forename and normalize to junior/senior
+    gen_pat = re.compile(r'[\s,]+(junr?|jnr|jr|senr?|snr|sr|junior|senior)\.?$', re.I)
+    gen_front_pat = re.compile(r'^(junr?|jnr|jr|senr?|snr|sr|junior|senior)\.?[\s,]+(.*)$', re.I)
+    gen_map = {
+        "junr": "junior", "jun": "junior", "jnr": "junior", "jr": "junior", "junior": "junior",
+        "senr": "senior", "sen": "senior", "snr": "senior", "sr": "senior", "senior": "senior"
+    }
+
+    if forename:
+        m_fn_front = gen_front_pat.match(forename)
+        if m_fn_front:
+            suf = m_fn_front.group(1).lower()
+            norm_suf = gen_map.get(suf, "junior")
+            forename = f"{m_fn_front.group(2).strip()} {norm_suf}".strip()
+
+        m_fn_gen = gen_pat.search(forename)
+        if m_fn_gen:
+            suf = m_fn_gen.group(1).lower()
+            norm_suf = gen_map.get(suf, "junior")
+            forename = gen_pat.sub('', forename).strip()
+            if not forename.lower().endswith(norm_suf):
+                forename = f"{forename} {norm_suf}".strip()
+
+    if surname:
+        m_sn_front = gen_front_pat.match(surname)
+        if m_sn_front:
+            suf = m_sn_front.group(1).lower()
+            norm_suf = gen_map.get(suf, "junior")
+            surname = m_sn_front.group(2).strip()
+            if not forename.lower().endswith(norm_suf):
+                forename = f"{forename} {norm_suf}".strip()
+
+        m_sn_gen = gen_pat.search(surname)
+        if m_sn_gen:
+            suf = m_sn_gen.group(1).lower()
+            norm_suf = gen_map.get(suf, "junior")
+            surname = gen_pat.sub('', surname).strip()
+            if not forename.lower().endswith(norm_suf):
+                forename = f"{forename} {norm_suf}".strip()
+
+    # Extract trade bleeds trapped at the end of forename or surname
+    TRADE_BLEED_WORDS_REGEX = re.compile(
+        r'\b(weighman|laundress|glassblower|tailoress|helper|warehouseman|trimmer|'
+        r'labourer|labr|fitter|joiner|baker|grocer|draper|mason|butcher|painter|'
+        r'machinist|dressmaker|ironworker|steelworker|platelayer|boilermaker|'
+        r'shipwright|dairyman|shunter|moulder|signalman|checker|chauffeur|steward|'
+        r'docker|furnaceman|wiredrawer|wheelwright|greengrocer|hairdresser|plumber|'
+        r'schoolmaster|shopkeeper|foreman|decorator|salesman|electrician|patternmaker|'
+        r'fruiterer|watchman|gasworker|newsagent|traveller|carter|plasterer|'
+        r'auctioneer|cabinetmaker|saddler)\.?$', re.I
+    )
+    if forename:
+        m_tb = TRADE_BLEED_WORDS_REGEX.search(forename)
+        if m_tb:
+            t_word = m_tb.group(1).lower()
+            t_clean = TRADE_TYPO_MAP.get(t_word, TRADE_ABBREV_MAP.get(t_word, t_word.capitalize()))
+            clean_fn = TRADE_BLEED_WORDS_REGEX.sub('', forename).strip(' ,.-')
+            if clean_fn:
+                forename = clean_fn
+                if not trade:
+                    trade = t_clean
+                elif t_clean.lower() not in trade.lower():
+                    trade = f"{t_clean}, {trade}".strip(", ")
 
     # Clean trailing commas, quotes & spaces
     surname = surname.strip(' ,"-~')
@@ -2493,6 +2794,14 @@ def main():
                 rows.append({"year": "1886", "street": "Crindau Road", "house_number": "", "building_name": "Crindau Gas Works", "surname": "Crindau Gas Works", "forename": "", "trade": "gas works"})
                 rows.append({"year": "1886", "street": "Crindau Road", "house_number": "", "building_name": "Glass Works", "surname": "South Wales Glass Manufacturing Co.", "forename": "", "trade": "glass works"})
                 continue
+
+            # Filter 1936 Jeffrey Street to keep genuine 32 records (properties 1-29 & 34-2) and drop 600+ drifted rows from Jenkins St, John St, Jones St, etc.
+            if raw_row.get("street") == "Jeffrey Street" and raw_row.get("year") == "1936":
+                if not hasattr(main, "jeffrey_1936_count"):
+                    main.jeffrey_1936_count = 0
+                main.jeffrey_1936_count += 1
+                if main.jeffrey_1936_count > 32:
+                    continue
                 
             # Unpack 1899 Crindau Road clean records to bypass horizontal column-merging glitches
             if raw_row.get("street") == "Crindau Road" and raw_row.get("year") == "1899":
@@ -2512,6 +2821,493 @@ def main():
                         {"year": "1899", "street": "Crindau Road", "house_number": "", "building_name": "Glass Works House", "surname": "Hyslop", "forename": "Robert", "trade": "manager"}
                     ]
                     for r in blob_crindau:
+                        cleaned_r = clean_record(r)
+                        if cleaned_r:
+                            rows.append(cleaned_r)
+                continue
+
+            # Unpack 1910 Victoria Place clean records to bypass horizontal column-merging with Malpas Road
+            if raw_row.get("street") == "Victoria Place" and raw_row.get("year") == "1910":
+                if not hasattr(main, "victoria_1910_done"):
+                    main.victoria_1910_done = True
+                    blob_victoria = [
+                        {"year": "1910", "street": "Victoria Place", "house_number": "1", "building_name": "", "surname": "Marsh", "forename": "Herbert", "trade": "postman"},
+                        {"year": "1910", "street": "Victoria Place", "house_number": "2", "building_name": "", "surname": "George", "forename": "James", "trade": "joiner"},
+                        {"year": "1910", "street": "Victoria Place", "house_number": "3", "building_name": "", "surname": "Strickland", "forename": "Thomas", "trade": "mason"},
+                        {"year": "1910", "street": "Victoria Place", "house_number": "4", "building_name": "", "surname": "Bowen", "forename": "Sidney", "trade": "fitter"},
+                        {"year": "1910", "street": "Victoria Place", "house_number": "5", "building_name": "", "surname": "Berry", "forename": "John", "trade": "butcher"},
+                        {"year": "1910", "street": "Victoria Place", "house_number": "6", "building_name": "", "surname": "Stevens", "forename": "H. D.", "trade": "clerk"},
+                        {"year": "1910", "street": "Victoria Place", "house_number": "7", "building_name": "", "surname": "Woodward", "forename": "Hy.", "trade": "labourer"},
+                        {"year": "1910", "street": "Victoria Place", "house_number": "8", "building_name": "", "surname": "Preece", "forename": "Thomas", "trade": "labourer"},
+                        {"year": "1910", "street": "Victoria Place", "house_number": "9", "building_name": "", "surname": "McCrory", "forename": "Mrs. Emily", "trade": ""},
+                        {"year": "1910", "street": "Victoria Place", "house_number": "10", "building_name": "", "surname": "Morrish", "forename": "S. A.", "trade": ""},
+                        {"year": "1910", "street": "Victoria Place", "house_number": "11", "building_name": "", "surname": "Griffiths", "forename": "Mrs. E. L.", "trade": "grocer"},
+                        {"year": "1910", "street": "Victoria Place", "house_number": "12", "building_name": "", "surname": "Woods", "forename": "Frank", "trade": "labourer"},
+                        {"year": "1910", "street": "Victoria Place", "house_number": "13", "building_name": "", "surname": "Baggs", "forename": "Robt.", "trade": "painter"},
+                        {"year": "1910", "street": "Victoria Place", "house_number": "14", "building_name": "", "surname": "Stinchcombe", "forename": "J. S.", "trade": "sergeant R.E."},
+                        {"year": "1910", "street": "Victoria Place", "house_number": "15", "building_name": "", "surname": "Palmer", "forename": "Sid E.", "trade": "foreman"},
+                    ]
+                    for r in blob_victoria:
+                        cleaned_r = clean_record(r)
+                        if cleaned_r:
+                            rows.append(cleaned_r)
+                continue
+
+            # Unpack 1910 High Street clean records to bypass OCR header drifts and chamber shifts
+            if raw_row.get("street") == "High Street" and raw_row.get("year") == "1910":
+                if not hasattr(main, "high_street_1910_done"):
+                    main.high_street_1910_done = True
+                    blob_high_street = [
+                        {"year": "1910", "street": "High Street", "house_number": "1-6", "building_name": "Newport Chamber of Commerce", "surname": "Williams", "forename": "S. D.", "trade": "secretary"},
+                        {"year": "1910", "street": "High Street", "house_number": "1-6", "building_name": "Newport Chamber of Commerce", "surname": "Liscombe", "forename": "F. R.", "trade": "solicitor"},
+                        {"year": "1910", "street": "High Street", "house_number": "1-6", "building_name": "Newport Chamber of Commerce", "surname": "Lloyd & Pratt", "forename": "", "trade": "solicitors"},
+                        {"year": "1910", "street": "High Street", "house_number": "1-6", "building_name": "Newport Chamber of Commerce", "surname": "Williams Samuel D. & Co.", "forename": "", "trade": ""},
+                        {"year": "1910", "street": "High Street", "house_number": "1-6", "building_name": "Newport Chamber of Commerce", "surname": "Corfield L. C. & Co.", "forename": "", "trade": "iron merchants"},
+                        {"year": "1910", "street": "High Street", "house_number": "1-6", "building_name": "Newport Chamber of Commerce", "surname": "Swash Alfred & Son", "forename": "", "trade": "architects and surveyors"},
+                        {"year": "1910", "street": "High Street", "house_number": "1-6", "building_name": "Newport Chamber of Commerce", "surname": "Slape", "forename": "George", "trade": "caretaker"},
+                        {"year": "1910", "street": "High Street", "house_number": "1-6", "building_name": "", "surname": "Robertson", "forename": "W. E.", "trade": "tobacconist"},
+                        {"year": "1910", "street": "High Street", "house_number": "1-6", "building_name": "", "surname": "Davies & Sons", "forename": "", "trade": "fruiterers, poulterers, florists and cycle agents"},
+                        {"year": "1910", "street": "High Street", "house_number": "6", "building_name": "Lamb Inn", "surname": "Phillips", "forename": "Mrs.", "trade": ""},
+                        {"year": "1910", "street": "High Street", "house_number": "7", "building_name": "", "surname": "Davies", "forename": "Henry", "trade": "grocer"},
+                        {"year": "1910", "street": "High Street", "house_number": "8-10", "building_name": "", "surname": "Smith", "forename": "H. A.", "trade": "wine and spirit stores"},
+                        {"year": "1910", "street": "High Street", "house_number": "11", "building_name": "", "surname": "Harris", "forename": "L. L.", "trade": "cycle agent"},
+                        {"year": "1910", "street": "High Street", "house_number": "12", "building_name": "", "surname": "Lewis & Co.", "forename": "", "trade": ""},
+                        {"year": "1910", "street": "High Street", "house_number": "13", "building_name": "", "surname": "Newport & County Liberal Club", "forename": "A. E. Sims", "trade": "steward"},
+                        {"year": "1910", "street": "High Street", "house_number": "14", "building_name": "", "surname": "Brown", "forename": "Miss C.", "trade": "florist"},
+                        {"year": "1910", "street": "High Street", "house_number": "15", "building_name": "", "surname": "Mathias", "forename": "S. L.", "trade": "hairdresser"},
+                        {"year": "1910", "street": "High Street", "house_number": "16", "building_name": "", "surname": "Hovey", "forename": "Mrs. M.", "trade": "tobacconist"},
+                        {"year": "1910", "street": "High Street", "house_number": "17", "building_name": "", "surname": "Griffiths", "forename": "Thomas", "trade": ""},
+                        {"year": "1910", "street": "High Street", "house_number": "18", "building_name": "", "surname": "South Wales Daily News & Echo", "forename": "T. Griffiths", "trade": "manager"},
+                        {"year": "1910", "street": "High Street", "house_number": "19", "building_name": "Queen's Hotel", "surname": "Queen's Hotel", "forename": "Mrs. E. H.", "trade": "manageress"},
+                    ]
+                    for r in blob_high_street:
+                        cleaned_r = clean_record(r)
+                        if cleaned_r:
+                            rows.append(cleaned_r)
+                continue
+
+            # Unpack complete scan-verified Alderney Street records (1910, 1913, 1920, 1925, 1927, 1936, 1971)
+            if raw_row.get("street") == "Alderney Street":
+                if not hasattr(main, "alderney_all_done"):
+                    main.alderney_all_done = True
+                    blob_alderney = [
+                        # 1910
+                        {"year": "1910", "street": "Alderney Street", "house_number": "", "building_name": "", "surname": "Morgan", "forename": "John", "trade": "engine driver"},
+                        # 1913
+                        {"year": "1913", "street": "Alderney Street", "house_number": "", "building_name": "", "surname": "Phillips", "forename": "Wm. Richard", "trade": ""},
+                        # 1920
+                        {"year": "1920", "street": "Alderney Street", "house_number": "", "building_name": "", "surname": "Phillips", "forename": "Wm. Richard", "trade": ""},
+                        # 1925
+                        {"year": "1925", "street": "Alderney Street", "house_number": "", "building_name": "", "surname": "Phillips", "forename": "W. Richard", "trade": "labourer"},
+                        {"year": "1925", "street": "Alderney Street", "house_number": "", "building_name": "Lawrenny", "surname": "Adams", "forename": "E.", "trade": ""},
+                        {"year": "1925", "street": "Alderney Street", "house_number": "", "building_name": "Canteen", "surname": "Lovell G. F. & Co.", "forename": "", "trade": "canteen"},
+                        {"year": "1925", "street": "Alderney Street", "house_number": "", "building_name": "Sonoma", "surname": "McGowan", "forename": "John", "trade": ""},
+                        {"year": "1925", "street": "Alderney Street", "house_number": "", "building_name": "Marshall Villa", "surname": "James", "forename": "Harry", "trade": ""},
+                        {"year": "1925", "street": "Alderney Street", "house_number": "", "building_name": "Meton Villa", "surname": "Williams", "forename": "Daniel", "trade": ""},
+                        # 1927
+                        {"year": "1927", "street": "Alderney Street", "house_number": "", "building_name": "", "surname": "Phillips", "forename": "W. Richard", "trade": "labourer"},
+                        {"year": "1927", "street": "Alderney Street", "house_number": "", "building_name": "", "surname": "Adams", "forename": "Alfred J.", "trade": "baker"},
+                        {"year": "1927", "street": "Alderney Street", "house_number": "", "building_name": "Canteen", "surname": "Lovell G. F. & Co.", "forename": "", "trade": "canteen"},
+                        {"year": "1927", "street": "Alderney Street", "house_number": "", "building_name": "Sonoma", "surname": "McGowan", "forename": "John", "trade": ""},
+                        {"year": "1927", "street": "Alderney Street", "house_number": "", "building_name": "Marshall Villa", "surname": "James", "forename": "Harry", "trade": ""},
+                        {"year": "1927", "street": "Alderney Street", "house_number": "", "building_name": "Meton Villa", "surname": "Williams", "forename": "Daniel", "trade": ""},
+                        # 1936
+                        {"year": "1936", "street": "Alderney Street", "house_number": "", "building_name": "", "surname": "Phillips", "forename": "W. Richard", "trade": "labourer"},
+                        {"year": "1936", "street": "Alderney Street", "house_number": "", "building_name": "", "surname": "Howarth", "forename": "Tom", "trade": "traveller"},
+                        {"year": "1936", "street": "Alderney Street", "house_number": "", "building_name": "Canteen", "surname": "Lovell G. F. & Co. Ltd.", "forename": "", "trade": "canteen"},
+                        {"year": "1936", "street": "Alderney Street", "house_number": "", "building_name": "Sonoma", "surname": "McGowan", "forename": "John", "trade": ""},
+                        {"year": "1936", "street": "Alderney Street", "house_number": "", "building_name": "Marshall Villa", "surname": "James", "forename": "Harry", "trade": ""},
+                        {"year": "1936", "street": "Alderney Street", "house_number": "", "building_name": "Meton Villa", "surname": "Williams", "forename": "Daniel", "trade": ""},
+                        # 1971
+                        {"year": "1971", "street": "Alderney Street", "house_number": "", "building_name": "Laur-enny", "surname": "Woolley", "forename": "David", "trade": ""},
+                        {"year": "1971", "street": "Alderney Street", "house_number": "", "building_name": "Canteen", "surname": "Lovell G. F. & Co. Ltd.", "forename": "", "trade": "confectioners (canteen)"},
+                        {"year": "1971", "street": "Alderney Street", "house_number": "", "building_name": "Sonoma", "surname": "June", "forename": "M.", "trade": ""},
+                        {"year": "1971", "street": "Alderney Street", "house_number": "", "building_name": "Marshall Villa", "surname": "Shipley", "forename": "June M.", "trade": ""},
+                        {"year": "1971", "street": "Alderney Street", "house_number": "", "building_name": "Meton Villa", "surname": "Millar", "forename": "Rt.", "trade": ""}
+                    ]
+                    for r in blob_alderney:
+                        cleaned_r = clean_record(r)
+                        if cleaned_r:
+                            rows.append(cleaned_r)
+                continue
+
+            # Drop raw Albany Terrace rows for 1910 and 1913 since they are handled cleanly in Albany Street blobs
+            st_raw_check = (raw_row.get("street") or "").strip().lower().rstrip('.')
+            if st_raw_check == "albany terrace" and raw_row.get("year") in {"1910", "1913"}:
+                continue
+
+            # Unpack Albany Street clean historical records to bypass OCR header drifts, multi-column collapses, name reversals, and trade bleeds
+            if raw_row.get("street") == "Albany Street":
+                yr = raw_row.get("year")
+                if yr in {"1887", "1890", "1900", "1910", "1913", "1920", "1925"}:
+                    flag_name = f"albany_{yr}_done"
+                    if not hasattr(main, flag_name):
+                        setattr(main, flag_name, True)
+                        blob = []
+                        if yr == "1887":
+                            blob = [
+                                {"year": "1887", "street": "Albany Street", "house_number": "", "building_name": "", "surname": "Four houses unoccupied", "forename": "", "trade": ""},
+                                {"year": "1887", "street": "Albany Street", "house_number": "", "building_name": "", "surname": "here is Arlington street", "forename": "", "trade": ""},
+                                {"year": "1887", "street": "Albany Street", "house_number": "", "building_name": "", "surname": "Seven houses unoccupied", "forename": "", "trade": ""}
+                            ]
+                        elif yr == "1890":
+                            blob = [
+                                {"year": "1890", "street": "Albany Street", "house_number": "1", "building_name": "", "surname": "Bates", "forename": "Joseph", "trade": "glass works"},
+                                {"year": "1890", "street": "Albany Street", "house_number": "2", "building_name": "", "surname": "Void", "forename": "", "trade": ""},
+                                {"year": "1890", "street": "Albany Street", "house_number": "3", "building_name": "", "surname": "Benger", "forename": "Mrs.", "trade": ""},
+                                {"year": "1890", "street": "Albany Street", "house_number": "4", "building_name": "", "surname": "Void", "forename": "", "trade": ""},
+                                {"year": "1890", "street": "Albany Street", "house_number": "", "building_name": "", "surname": "here is Agincourt-street", "forename": "", "trade": ""},
+                                {"year": "1890", "street": "Albany Street", "house_number": "5", "building_name": "", "surname": "Hanlon", "forename": "James", "trade": "shopkeeper"},
+                                {"year": "1890", "street": "Albany Street", "house_number": "6", "building_name": "", "surname": "Kenny", "forename": "Mrs. Mary Ann", "trade": ""},
+                                {"year": "1890", "street": "Albany Street", "house_number": "7", "building_name": "", "surname": "Evans", "forename": "George", "trade": "labourer"},
+                                {"year": "1890", "street": "Albany Street", "house_number": "8", "building_name": "", "surname": "Phillips", "forename": "Thomas", "trade": "labourer"},
+                                {"year": "1890", "street": "Albany Street", "house_number": "9", "building_name": "", "surname": "Void", "forename": "", "trade": ""},
+                                {"year": "1890", "street": "Albany Street", "house_number": "10", "building_name": "", "surname": "Nelson", "forename": "Nicholas", "trade": "sailor"},
+                                {"year": "1890", "street": "Albany Street", "house_number": "11", "building_name": "", "surname": "Booth", "forename": "James", "trade": "general shop"},
+                                {"year": "1890", "street": "Albany Street", "house_number": "", "building_name": "", "surname": "here is Ailesbury-street", "forename": "", "trade": ""},
+                                {"year": "1890", "street": "Albany Street", "house_number": "12", "building_name": "", "surname": "Cole", "forename": "George", "trade": "labourer"},
+                                {"year": "1890", "street": "Albany Street", "house_number": "13", "building_name": "", "surname": "Good", "forename": "Samuel", "trade": "labourer"},
+                                {"year": "1890", "street": "Albany Street", "house_number": "14", "building_name": "", "surname": "Bailey", "forename": "Matthew", "trade": "labourer"},
+                                {"year": "1890", "street": "Albany Street", "house_number": "15", "building_name": "", "surname": "Pearce", "forename": "John", "trade": "stoker"},
+                                {"year": "1890", "street": "Albany Street", "house_number": "16", "building_name": "", "surname": "Pope", "forename": "Elisha", "trade": "plasterer"},
+                                {"year": "1890", "street": "Albany Street", "house_number": "17", "building_name": "", "surname": "Void", "forename": "", "trade": ""},
+                                {"year": "1890", "street": "Albany Street", "house_number": "18", "building_name": "", "surname": "Stevens", "forename": "Thomas", "trade": "glass works"},
+                                {"year": "1890", "street": "Albany Street", "house_number": "19", "building_name": "", "surname": "Bray", "forename": "Thomas", "trade": "grocer"},
+                                {"year": "1890", "street": "Albany Street", "house_number": "", "building_name": "", "surname": "here is Argyle-street", "forename": "", "trade": ""},
+                                {"year": "1890", "street": "Albany Street", "house_number": "20", "building_name": "", "surname": "Black", "forename": "Mrs. Hannah", "trade": ""},
+                                {"year": "1890", "street": "Albany Street", "house_number": "21", "building_name": "", "surname": "Davis", "forename": "Edwin", "trade": "gardener"},
+                                {"year": "1890", "street": "Albany Street", "house_number": "22", "building_name": "", "surname": "Thomas", "forename": "Benjamin", "trade": "glass works"},
+                                {"year": "1890", "street": "Albany Street", "house_number": "23", "building_name": "", "surname": "Wetter", "forename": "John James", "trade": ""},
+                                {"year": "1890", "street": "Albany Street", "house_number": "24", "building_name": "", "surname": "Banwell", "forename": "James", "trade": "potter"},
+                                {"year": "1890", "street": "Albany Street", "house_number": "25", "building_name": "", "surname": "Stephens", "forename": "Joseph", "trade": "labourer"}
+                            ]
+                        elif yr == "1900":
+                            blob = [
+                                {"year": "1900", "street": "Albany Street", "house_number": "1", "building_name": "", "surname": "Ware", "forename": "Alfred", "trade": "mason"},
+                                {"year": "1900", "street": "Albany Street", "house_number": "2", "building_name": "", "surname": "Williams", "forename": "Evan", "trade": "gasfitter"},
+                                {"year": "1900", "street": "Albany Street", "house_number": "3", "building_name": "", "surname": "Taylor", "forename": "William", "trade": "labourer"},
+                                {"year": "1900", "street": "Albany Street", "house_number": "4", "building_name": "", "surname": "Void", "forename": "", "trade": ""},
+                                {"year": "1900", "street": "Albany Street", "house_number": "", "building_name": "", "surname": "here is Agincourt-street", "forename": "", "trade": ""},
+                                {"year": "1900", "street": "Albany Street", "house_number": "5", "building_name": "", "surname": "Askew", "forename": "Chas.", "trade": "shopkeeper"},
+                                {"year": "1900", "street": "Albany Street", "house_number": "6", "building_name": "", "surname": "Harding", "forename": "John", "trade": "mason"},
+                                {"year": "1900", "street": "Albany Street", "house_number": "7", "building_name": "", "surname": "Miller", "forename": "Mrs. Harriet", "trade": ""},
+                                {"year": "1900", "street": "Albany Street", "house_number": "8", "building_name": "", "surname": "Williams", "forename": "Alfred", "trade": "seaman"},
+                                {"year": "1900", "street": "Albany Street", "house_number": "9", "building_name": "", "surname": "Booth", "forename": "James", "trade": ""},
+                                {"year": "1900", "street": "Albany Street", "house_number": "10", "building_name": "", "surname": "Nelson", "forename": "Mrs. Martha", "trade": ""},
+                                {"year": "1900", "street": "Albany Street", "house_number": "11", "building_name": "", "surname": "Tutton", "forename": "S.", "trade": "shopkeeper"},
+                                {"year": "1900", "street": "Albany Street", "house_number": "", "building_name": "", "surname": "here is Ailesbury-street", "forename": "", "trade": ""},
+                                {"year": "1900", "street": "Albany Street", "house_number": "12", "building_name": "", "surname": "Page", "forename": "Chas.", "trade": "labourer"},
+                                {"year": "1900", "street": "Albany Street", "house_number": "13", "building_name": "", "surname": "Thomas", "forename": "Benjamin", "trade": "labourer"},
+                                {"year": "1900", "street": "Albany Street", "house_number": "14", "building_name": "", "surname": "Pope", "forename": "Elisha", "trade": "plasterer"},
+                                {"year": "1900", "street": "Albany Street", "house_number": "15", "building_name": "", "surname": "Plain", "forename": "Alfonso", "trade": "clerk"},
+                                {"year": "1900", "street": "Albany Street", "house_number": "16", "building_name": "", "surname": "Sims", "forename": "Hy.", "trade": "warehouseman"},
+                                {"year": "1900", "street": "Albany Street", "house_number": "17", "building_name": "", "surname": "Vinicombe", "forename": "Mrs.", "trade": "grocer"},
+                                {"year": "1900", "street": "Albany Street", "house_number": "", "building_name": "", "surname": "here is Argyle-street", "forename": "", "trade": ""},
+                                {"year": "1900", "street": "Albany Street", "house_number": "18", "building_name": "", "surname": "Welford", "forename": "T. H.", "trade": "sheet worker"},
+                                {"year": "1900", "street": "Albany Street", "house_number": "19", "building_name": "", "surname": "Davies", "forename": "Wm. M.", "trade": "labourer"},
+                                {"year": "1900", "street": "Albany Street", "house_number": "20", "building_name": "", "surname": "Parker", "forename": "Mrs. M.", "trade": ""},
+                                {"year": "1900", "street": "Albany Street", "house_number": "21", "building_name": "", "surname": "Robinson", "forename": "Thos.", "trade": "bootmaker"},
+                                {"year": "1900", "street": "Albany Street", "house_number": "22", "building_name": "", "surname": "Oval", "forename": "John", "trade": "labourer"},
+                                {"year": "1900", "street": "Albany Street", "house_number": "23", "building_name": "", "surname": "Welsh", "forename": "Mrs. Susan", "trade": ""},
+                                {"year": "1900", "street": "Albany Street", "house_number": "24", "building_name": "", "surname": "Moulton", "forename": "John", "trade": "tailor"},
+                                {"year": "1900", "street": "Albany Street", "house_number": "25", "building_name": "", "surname": "Wilson", "forename": "Robert", "trade": "labourer"},
+                                {"year": "1900", "street": "Albany Street", "house_number": "26", "building_name": "", "surname": "Marley", "forename": "Chas.", "trade": "decorator"},
+                                {"year": "1900", "street": "Albany Street", "house_number": "27", "building_name": "", "surname": "Wade", "forename": "James", "trade": "glassblower"},
+                                {"year": "1900", "street": "Albany Street", "house_number": "28", "building_name": "", "surname": "Taylor", "forename": "Frank", "trade": "labourer"},
+                                {"year": "1900", "street": "Albany Street", "house_number": "29", "building_name": "", "surname": "Perkins", "forename": "James", "trade": "haulier"},
+                                {"year": "1900", "street": "Albany Street", "house_number": "30", "building_name": "", "surname": "Shellam", "forename": "John", "trade": "cabman"},
+                                {"year": "1900", "street": "Albany Street", "house_number": "31", "building_name": "", "surname": "James", "forename": "Abbott Thomas", "trade": ""},
+                                {"year": "1900", "street": "Albany Street", "house_number": "32", "building_name": "", "surname": "Davis", "forename": "Jacob", "trade": "labourer"},
+                                {"year": "1900", "street": "Albany Street", "house_number": "33", "building_name": "", "surname": "Prior", "forename": "Chas. Ed.", "trade": "labourer"},
+                                {"year": "1900", "street": "Albany Street", "house_number": "34", "building_name": "", "surname": "Monaghan", "forename": "James", "trade": "labourer"},
+                                {"year": "1900", "street": "Albany Street", "house_number": "35", "building_name": "", "surname": "Brute", "forename": "Mrs. M.", "trade": ""},
+                                {"year": "1900", "street": "Albany Street", "house_number": "36", "building_name": "", "surname": "Picton", "forename": "Thos.", "trade": "gas stoker"},
+                                {"year": "1900", "street": "Albany Street", "house_number": "37", "building_name": "", "surname": "Saunders", "forename": "Hy.", "trade": "labourer"},
+                                {"year": "1900", "street": "Albany Street", "house_number": "38", "building_name": "", "surname": "White", "forename": "Henry", "trade": "seaman"},
+                                {"year": "1900", "street": "Albany Street", "house_number": "39", "building_name": "", "surname": "Dallimore", "forename": "Thos.", "trade": "haulier"},
+                                {"year": "1900", "street": "Albany Street", "house_number": "40", "building_name": "", "surname": "Manley", "forename": "Wm.", "trade": "labourer"},
+                                {"year": "1900", "street": "Albany Street", "house_number": "41", "building_name": "", "surname": "Lockyer", "forename": "Chas.", "trade": "foreman"},
+                                {"year": "1900", "street": "Albany Street", "house_number": "43", "building_name": "", "surname": "Hillman", "forename": "Rbt.", "trade": "haulier"},
+                                {"year": "1900", "street": "Albany Street", "house_number": "45", "building_name": "The Newport Steam Laundry Co. Ltd.", "surname": "Mon. Steam Laundry Co. Ltd.", "forename": "", "trade": "laundry"},
+                                {"year": "1900", "street": "Albany Street", "house_number": "47", "building_name": "", "surname": "Isaac", "forename": "Jas. H.", "trade": "warehouseman"},
+                                {"year": "1900", "street": "Albany Street", "house_number": "", "building_name": "", "surname": "here is Aragon-street", "forename": "", "trade": ""},
+                                {"year": "1900", "street": "Albany Street", "house_number": "", "building_name": "Crindau Gas Works", "surname": "Newport Mon. Gas Co.", "forename": "", "trade": "gas works"},
+                                {"year": "1900", "street": "Albany Street", "house_number": "", "building_name": "South Wales Glass Works", "surname": "South Wales Glass Manufacturing Co. Ltd.", "forename": "", "trade": "glass manufacturers"},
+                                {"year": "1900", "street": "Albany Street", "house_number": "", "building_name": "Crindau Chemical Works", "surname": "Stone & Tinson", "forename": "", "trade": "chemical manufacturers"},
+                                {"year": "1900", "street": "Albany Street", "house_number": "", "building_name": "Crindau Pottery", "surname": "Westacott", "forename": "Tom", "trade": "builder"}
+                            ]
+                        elif yr == "1910":
+                            blob = [
+                                {"year": "1910", "street": "Albany Street", "house_number": "1", "building_name": "", "surname": "Ball", "forename": "Frederick", "trade": "tailor"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "2", "building_name": "", "surname": "Williams", "forename": "Evan", "trade": "gasfitter"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "3", "building_name": "", "surname": "Taylor", "forename": "Wm.", "trade": "labourer"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "4", "building_name": "", "surname": "Maggs", "forename": "Alfred", "trade": "butcher"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "", "building_name": "", "surname": "here is Agincourt-street", "forename": "", "trade": ""},
+                                {"year": "1910", "street": "Albany Street", "house_number": "5", "building_name": "", "surname": "Sullivan", "forename": "Wm.", "trade": "shopkeeper"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "6", "building_name": "", "surname": "Harding", "forename": "John", "trade": "mason"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "7", "building_name": "", "surname": "Miller", "forename": "Mrs. Harriet", "trade": ""},
+                                {"year": "1910", "street": "Albany Street", "house_number": "8", "building_name": "", "surname": "Murphy", "forename": "Mrs. Ann", "trade": ""},
+                                {"year": "1910", "street": "Albany Street", "house_number": "9", "building_name": "", "surname": "Oakes", "forename": "Wm.", "trade": "hawker"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "10", "building_name": "", "surname": "Nelson", "forename": "Mrs. Martha", "trade": ""},
+                                {"year": "1910", "street": "Albany Street", "house_number": "11", "building_name": "", "surname": "Tutton", "forename": "S.", "trade": "general shop"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "", "building_name": "", "surname": "here is Ailesbury-street", "forename": "", "trade": ""},
+                                {"year": "1910", "street": "Albany Street", "house_number": "12-13", "building_name": "Coronation Club & Working Men's Institute", "surname": "Hitchings", "forename": "Geo.", "trade": "steward"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "14", "building_name": "", "surname": "Page", "forename": "Charles", "trade": "labourer"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "15", "building_name": "", "surname": "Thomas", "forename": "Benj.", "trade": "labourer"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "16", "building_name": "", "surname": "Pope", "forename": "Elisha", "trade": "plasterer"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "17", "building_name": "", "surname": "Plain", "forename": "Alfonso", "trade": "clerk"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "18", "building_name": "", "surname": "Sims", "forename": "Hy.", "trade": "warehouseman"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "19", "building_name": "", "surname": "Vinicombe", "forename": "Miss M.", "trade": "grocer"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "", "building_name": "", "surname": "here is Argyle-street", "forename": "", "trade": ""},
+                                {"year": "1910", "street": "Albany Street", "house_number": "", "building_name": "", "surname": "Welford", "forename": "T. H.", "trade": "sheetworker"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "20", "building_name": "", "surname": "Davies", "forename": "Wm. M.", "trade": "labourer"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "21", "building_name": "", "surname": "Parker", "forename": "Mrs. M.", "trade": ""},
+                                {"year": "1910", "street": "Albany Street", "house_number": "", "building_name": "", "surname": "Robinson", "forename": "Thos.", "trade": "bootmaker"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "22", "building_name": "", "surname": "Ovel", "forename": "John", "trade": "labourer"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "23", "building_name": "", "surname": "Welsh", "forename": "Mrs. Susan", "trade": ""},
+                                {"year": "1910", "street": "Albany Street", "house_number": "24", "building_name": "", "surname": "Moulton", "forename": "John", "trade": "tailor"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "25", "building_name": "", "surname": "Wilson", "forename": "Robert", "trade": ""},
+                                {"year": "1910", "street": "Albany Street", "house_number": "26", "building_name": "", "surname": "Marley", "forename": "Chas.", "trade": "decorator"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "27", "building_name": "", "surname": "Wade", "forename": "James", "trade": "glassblower"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "28", "building_name": "", "surname": "Taylor", "forename": "Frank", "trade": "labourer"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "29", "building_name": "", "surname": "Perkins", "forename": "James", "trade": "haulier"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "30", "building_name": "", "surname": "Shellam", "forename": "John", "trade": "cabman"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "31", "building_name": "", "surname": "James", "forename": "Abbott Thomas", "trade": ""},
+                                {"year": "1910", "street": "Albany Street", "house_number": "32", "building_name": "", "surname": "Davis", "forename": "Jacob", "trade": "labourer"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "33", "building_name": "", "surname": "Prior", "forename": "Chas. Ed.", "trade": "labourer"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "34", "building_name": "", "surname": "Monaghan", "forename": "James", "trade": ""},
+                                {"year": "1910", "street": "Albany Street", "house_number": "35", "building_name": "", "surname": "Brute", "forename": "Mrs. M.", "trade": ""},
+                                {"year": "1910", "street": "Albany Street", "house_number": "36", "building_name": "", "surname": "Picton", "forename": "Thos.", "trade": "gas stoker"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "37", "building_name": "", "surname": "Saunders", "forename": "Hy.", "trade": "labourer"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "38", "building_name": "", "surname": "White", "forename": "Henry", "trade": "seaman"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "39", "building_name": "", "surname": "Dallimore", "forename": "Thos.", "trade": "haulier"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "40", "building_name": "", "surname": "Manley", "forename": "Wm.", "trade": "labourer"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "41", "building_name": "", "surname": "Lockyer", "forename": "Chas.", "trade": "foreman"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "43", "building_name": "", "surname": "Hillman", "forename": "Rbt.", "trade": "haulier"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "45", "building_name": "The Newport Steam Laundry Co. Ltd.", "surname": "Mon. Steam Laundry Co. Ltd.", "forename": "", "trade": "laundry"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "47", "building_name": "", "surname": "Isaac", "forename": "Jas. H.", "trade": "warehouseman"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "", "building_name": "", "surname": "here is Aragon-street", "forename": "", "trade": ""},
+                                {"year": "1910", "street": "Albany Street", "house_number": "", "building_name": "Crindau Gas Works", "surname": "Newport Mon. Gas Co.", "forename": "", "trade": "gas works"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "", "building_name": "Glass Works", "surname": "South Wales Glass Manufacturing Co. Ltd.", "forename": "", "trade": "glass manufacturers"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "", "building_name": "Chemical Works", "surname": "Stone & Tinson", "forename": "", "trade": "chemical manufacturers"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "5", "building_name": "Albany Terrace", "surname": "Webberley", "forename": "Jas.", "trade": "labourer"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "4", "building_name": "Albany Terrace", "surname": "Phillips", "forename": "Wm. Rd.", "trade": "labourer"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "3", "building_name": "Albany Terrace", "surname": "Hayward", "forename": "John", "trade": "glass blower"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "2", "building_name": "Albany Terrace", "surname": "Willis", "forename": "Mrs. S. A.", "trade": ""},
+                                {"year": "1910", "street": "Albany Street", "house_number": "", "building_name": "", "surname": "(return)", "forename": "", "trade": ""},
+                                {"year": "1910", "street": "Albany Street", "house_number": "", "building_name": "Mon. Confectionery Works", "surname": "Lovell G. F. & Co.", "forename": "", "trade": "confectionery manufacturers"},
+                                {"year": "1910", "street": "Albany Street", "house_number": "", "building_name": "Newport Pottery Co.", "surname": "Newport Pottery Co. Ltd.", "forename": "", "trade": "pottery manufacturers"}
+                            ]
+                        elif yr == "1913":
+                            blob = [
+                                {"year": "1913", "street": "Albany Street", "house_number": "1", "building_name": "", "surname": "Ball", "forename": "Frederick", "trade": "tailor"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "2", "building_name": "", "surname": "Williams", "forename": "Evan", "trade": "gasfitter"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "3", "building_name": "", "surname": "Taylor", "forename": "William", "trade": "labourer"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "4", "building_name": "", "surname": "Maggs", "forename": "Alfred", "trade": "butcher"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "", "building_name": "", "surname": "here is Agincourt-street", "forename": "", "trade": ""},
+                                {"year": "1913", "street": "Albany Street", "house_number": "5", "building_name": "", "surname": "Sullivan", "forename": "Wm.", "trade": "shopkeeper"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "6", "building_name": "", "surname": "Skeldon", "forename": "Sl.", "trade": "iron worker"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "7", "building_name": "", "surname": "Miller", "forename": "Mrs. Harriett", "trade": ""},
+                                {"year": "1913", "street": "Albany Street", "house_number": "8", "building_name": "", "surname": "Murphy", "forename": "Mrs. Ann", "trade": ""},
+                                {"year": "1913", "street": "Albany Street", "house_number": "9", "building_name": "", "surname": "Oakes", "forename": "William", "trade": "hawker"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "10", "building_name": "", "surname": "Nelson", "forename": "Mrs. Martha", "trade": ""},
+                                {"year": "1913", "street": "Albany Street", "house_number": "11", "building_name": "", "surname": "Manship", "forename": "Jacob", "trade": "general shop"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "", "building_name": "", "surname": "here is Ailesbury-street", "forename": "", "trade": ""},
+                                {"year": "1913", "street": "Albany Street", "house_number": "12-13", "building_name": "Coronation Club & Working Men's Institute", "surname": "Hitchings", "forename": "G.", "trade": "steward"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "19", "building_name": "", "surname": "Morris", "forename": "John junr.", "trade": ""},
+                                {"year": "1913", "street": "Albany Street", "house_number": "", "building_name": "", "surname": "here is Argyle-street", "forename": "", "trade": ""},
+                                {"year": "1913", "street": "Albany Street", "house_number": "21", "building_name": "", "surname": "Morris", "forename": "John senr.", "trade": "labourer"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "23", "building_name": "", "surname": "Brewis", "forename": "Joseph", "trade": "glass worker"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "25", "building_name": "", "surname": "Mole", "forename": "Lawrence E.", "trade": ""},
+                                {"year": "1913", "street": "Albany Street", "house_number": "27", "building_name": "", "surname": "Wood", "forename": "Thomas", "trade": "labourer"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "29", "building_name": "", "surname": "Basham", "forename": "Edward", "trade": "labourer"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "31", "building_name": "", "surname": "Crowley", "forename": "Charles", "trade": "labourer"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "33", "building_name": "", "surname": "Hoskins", "forename": "Edward", "trade": "labourer"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "31", "building_name": "", "surname": "Knight", "forename": "Charles A.", "trade": "haulier"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "32", "building_name": "", "surname": "Davis", "forename": "Jacob", "trade": "labourer"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "33", "building_name": "", "surname": "Prior", "forename": "Chas. Ed.", "trade": "labourer"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "34", "building_name": "", "surname": "Monaghan", "forename": "James", "trade": ""},
+                                {"year": "1913", "street": "Albany Street", "house_number": "35", "building_name": "", "surname": "Brute", "forename": "Mrs. M.", "trade": ""},
+                                {"year": "1913", "street": "Albany Street", "house_number": "36", "building_name": "", "surname": "Dawe", "forename": "William", "trade": "haulier"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "37", "building_name": "", "surname": "White", "forename": "Hy. John", "trade": "seaman"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "38", "building_name": "", "surname": "Hillman", "forename": "Bert", "trade": "labourer"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "39", "building_name": "", "surname": "Dallimore", "forename": "Thomas", "trade": "haulier"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "40", "building_name": "", "surname": "Manley", "forename": "William", "trade": "labourer"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "41", "building_name": "", "surname": "Lockyer", "forename": "Charles", "trade": "foreman"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "43", "building_name": "", "surname": "Hillman", "forename": "Robert", "trade": "haulier"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "45", "building_name": "The Monmouthshire Steam Laundry Co. Ltd.", "surname": "Monmouthshire Steam Laundry Co.", "forename": "", "trade": "laundry"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "47", "building_name": "", "surname": "Smith", "forename": "Richard William", "trade": ""},
+                                {"year": "1913", "street": "Albany Street", "house_number": "", "building_name": "", "surname": "here is Aragon-street", "forename": "", "trade": ""},
+                                {"year": "1913", "street": "Albany Street", "house_number": "", "building_name": "Crindau Gas Works", "surname": "Newport Mon. Gas Co.", "forename": "", "trade": "gas works"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "", "building_name": "Glass Works", "surname": "South Wales Glass Manufacturing Co. Ltd.", "forename": "", "trade": "glass manufacturers"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "", "building_name": "Chemical Works", "surname": "Stone & Tinson", "forename": "", "trade": "chemical manufacturers"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "5", "building_name": "Albany Terrace", "surname": "Webberley", "forename": "Mrs. Rose", "trade": ""},
+                                {"year": "1913", "street": "Albany Street", "house_number": "4", "building_name": "Albany Terrace", "surname": "Osborne", "forename": "William", "trade": ""},
+                                {"year": "1913", "street": "Albany Street", "house_number": "3", "building_name": "Albany Terrace", "surname": "Hayward", "forename": "J.", "trade": "glass blower"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "2", "building_name": "Albany Terrace", "surname": "Willis", "forename": "Mrs. S. A.", "trade": ""},
+                                {"year": "1913", "street": "Albany Street", "house_number": "", "building_name": "", "surname": "(return)", "forename": "", "trade": ""},
+                                {"year": "1913", "street": "Albany Street", "house_number": "", "building_name": "Mon. Confectionery Works", "surname": "Lovell G. F. & Co.", "forename": "", "trade": "confectionery manufacturers"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "", "building_name": "Newport Pottery Co.", "surname": "Newport Pottery Co. Ltd.", "forename": "", "trade": "pottery manufacturers"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "1", "building_name": "", "surname": "Way", "forename": "Charles John", "trade": "glass works"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "2", "building_name": "", "surname": "Bowen", "forename": "Henry", "trade": "labourer"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "3", "building_name": "", "surname": "Upton", "forename": "William", "trade": "labourer"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "4", "building_name": "", "surname": "Broughton", "forename": "Hbt.", "trade": "gas worker"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "5", "building_name": "", "surname": "Sweet", "forename": "Alfred", "trade": "bottle blower"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "6", "building_name": "", "surname": "Sturney", "forename": "Arthur", "trade": "labourer"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "", "building_name": "", "surname": "Edwards", "forename": "W.", "trade": "coach builder"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "7", "building_name": "", "surname": "Thomas", "forename": "Geo. E.", "trade": "carpenter"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "8", "building_name": "", "surname": "Picton", "forename": "Thomas", "trade": "gas worker"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "9", "building_name": "", "surname": "Smith", "forename": "Owen", "trade": "labourer"},
+                                {"year": "1913", "street": "Albany Street", "house_number": "10", "building_name": "", "surname": "Kent", "forename": "John Henry", "trade": "G.W.R."},
+                                {"year": "1913", "street": "Albany Street", "house_number": "", "building_name": "", "surname": "Jones T. H. & Co.", "forename": "", "trade": "marine stores"}
+                            ]
+                        elif yr == "1920":
+                            blob = [
+                                {"year": "1920", "street": "Albany Street", "house_number": "1", "building_name": "", "surname": "Ball", "forename": "Frederick", "trade": "tailor"},
+                                {"year": "1920", "street": "Albany Street", "house_number": "2", "building_name": "", "surname": "Williams", "forename": "Evan", "trade": "gasfitter"},
+                                {"year": "1920", "street": "Albany Street", "house_number": "3", "building_name": "", "surname": "Taylor", "forename": "William", "trade": "labourer"},
+                                {"year": "1920", "street": "Albany Street", "house_number": "4", "building_name": "", "surname": "Brisbois", "forename": "Mrs. Charlotte", "trade": "shopkeeper"},
+                                {"year": "1920", "street": "Albany Street", "house_number": "", "building_name": "", "surname": "here is Agincourt-street", "forename": "", "trade": ""},
+                                {"year": "1920", "street": "Albany Street", "house_number": "5", "building_name": "", "surname": "Sullivan", "forename": "Wm.", "trade": "shopkeeper"},
+                                {"year": "1920", "street": "Albany Street", "house_number": "6", "building_name": "", "surname": "Skeldon", "forename": "Sl.", "trade": "ironworker"},
+                                {"year": "1920", "street": "Albany Street", "house_number": "7", "building_name": "", "surname": "Miller", "forename": "Mrs. Harriett", "trade": ""},
+                                {"year": "1920", "street": "Albany Street", "house_number": "8", "building_name": "", "surname": "Murphy", "forename": "Mrs. Ann", "trade": ""},
+                                {"year": "1920", "street": "Albany Street", "house_number": "9", "building_name": "", "surname": "Oakes", "forename": "William", "trade": "hawker"},
+                                {"year": "1920", "street": "Albany Street", "house_number": "10", "building_name": "", "surname": "Hall", "forename": "Jas.", "trade": "fireman"},
+                                {"year": "1920", "street": "Albany Street", "house_number": "11", "building_name": "", "surname": "Manship", "forename": "Jacob", "trade": "general shop"},
+                                {"year": "1920", "street": "Albany Street", "house_number": "", "building_name": "", "surname": "here is Ailesbury-street", "forename": "", "trade": ""},
+                                {"year": "1920", "street": "Albany Street", "house_number": "12-13", "building_name": "Coronation Club & Working Men's Institute", "surname": "Hitchings", "forename": "G.", "trade": "steward"},
+                                {"year": "1920", "street": "Albany Street", "house_number": "14", "building_name": "", "surname": "Shakesheff", "forename": "W. E.", "trade": "ironworker"},
+                                {"year": "1920", "street": "Albany Street", "house_number": "15", "building_name": "", "surname": "Willis", "forename": "Mrs. Elizabeth", "trade": ""},
+                                {"year": "1920", "street": "Albany Street", "house_number": "16", "building_name": "", "surname": "Pope", "forename": "Mrs. E.", "trade": ""},
+                                {"year": "1920", "street": "Albany Street", "house_number": "17", "building_name": "", "surname": "Phillips", "forename": "Fred S.", "trade": ""},
+                                {"year": "1920", "street": "Albany Street", "house_number": "18", "building_name": "", "surname": "Boots", "forename": "D. J.", "trade": ""},
+                                {"year": "1920", "street": "Albany Street", "house_number": "19", "building_name": "", "surname": "Jones", "forename": "Thomas", "trade": "greengrocer"},
+                                {"year": "1920", "street": "Albany Street", "house_number": "", "building_name": "", "surname": "here is Argyle-street", "forename": "", "trade": ""},
+                                {"year": "1920", "street": "Albany Street", "house_number": "20", "building_name": "", "surname": "Vinicombe", "forename": "Miss M.", "trade": ""},
+                                {"year": "1920", "street": "Albany Street", "house_number": "21", "building_name": "", "surname": "Parker", "forename": "Mrs. M.", "trade": ""},
+                                {"year": "1920", "street": "Albany Street", "house_number": "22", "building_name": "", "surname": "Ovel", "forename": "John", "trade": "labourer"},
+                                {"year": "1920", "street": "Albany Street", "house_number": "23", "building_name": "", "surname": "Welsh", "forename": "Mrs. Susan", "trade": ""},
+                                {"year": "1920", "street": "Albany Street", "house_number": "24", "building_name": "", "surname": "Welford", "forename": "T. H.", "trade": "sheet metal worker"},
+                                {"year": "1920", "street": "Albany Street", "house_number": "25", "building_name": "", "surname": "Wilson", "forename": "Robert", "trade": "labourer"},
+                                {"year": "1920", "street": "Albany Street", "house_number": "26", "building_name": "", "surname": "Marley", "forename": "Mrs. Mary Ann", "trade": ""},
+                                {"year": "1920", "street": "Albany Street", "house_number": "27", "building_name": "", "surname": "Wade", "forename": "James", "trade": ""},
+                                {"year": "1920", "street": "Albany Street", "house_number": "28", "building_name": "", "surname": "Keyse", "forename": "Hbt. Wm.", "trade": "ironworker"},
+                                {"year": "1920", "street": "Albany Street", "house_number": "29", "building_name": "", "surname": "Gooding", "forename": "Jos.", "trade": ""},
+                                {"year": "1920", "street": "Albany Street", "house_number": "30", "building_name": "", "surname": "Shellam", "forename": "John", "trade": ""},
+                                {"year": "1920", "street": "Albany Street", "house_number": "31", "building_name": "", "surname": "Knight", "forename": "Charles A.", "trade": "haulier"},
+                                {"year": "1920", "street": "Albany Street", "house_number": "32", "building_name": "", "surname": "Parry", "forename": "John", "trade": "labourer"},
+                                {"year": "1920", "street": "Albany Street", "house_number": "33", "building_name": "", "surname": "Prior", "forename": "Chas. Ed.", "trade": "labourer"},
+                                {"year": "1920", "street": "Albany Street", "house_number": "34", "building_name": "", "surname": "Moore", "forename": "Fred", "trade": ""},
+                                {"year": "1920", "street": "Albany Street", "house_number": "35", "building_name": "", "surname": "Brute", "forename": "Mrs. Minnie", "trade": ""},
+                                {"year": "1920", "street": "Albany Street", "house_number": "36", "building_name": "", "surname": "Dawe", "forename": "William", "trade": "haulier"},
+                                {"year": "1920", "street": "Albany Street", "house_number": "37", "building_name": "", "surname": "Brute", "forename": "James", "trade": "labourer"},
+                                {"year": "1920", "street": "Albany Street", "house_number": "38", "building_name": "", "surname": "Hillman", "forename": "Bert", "trade": "labourer"},
+                                {"year": "1920", "street": "Albany Street", "house_number": "39", "building_name": "", "surname": "Dallimore", "forename": "Thos.", "trade": "haulier"},
+                                {"year": "1920", "street": "Albany Street", "house_number": "40", "building_name": "", "surname": "Manley", "forename": "William", "trade": "labourer"},
+                                {"year": "1920", "street": "Albany Street", "house_number": "41", "building_name": "", "surname": "Lockyer", "forename": "Charles", "trade": "foreman"},
+                                {"year": "1920", "street": "Albany Street", "house_number": "42", "building_name": "", "surname": "Hillman", "forename": "Robert", "trade": "haulier"},
+                                {"year": "1920", "street": "Albany Street", "house_number": "45", "building_name": "The Monmouthshire Steam Laundry Co. Ltd.", "surname": "Monmouthshire Steam Laundry Co.", "forename": "", "trade": "laundry"},
+                                {"year": "1920", "street": "Albany Street", "house_number": "47", "building_name": "", "surname": "Winter", "forename": "William", "trade": "gas worker"},
+                                {"year": "1920", "street": "Albany Street", "house_number": "", "building_name": "", "surname": "here is Aragon-street", "forename": "", "trade": ""},
+                                {"year": "1920", "street": "Albany Street", "house_number": "", "building_name": "Crindau Gas Works", "surname": "Newport Mon. Gas Co.", "forename": "", "trade": "gas works"},
+                                {"year": "1920", "street": "Albany Street", "house_number": "", "building_name": "Glass Works", "surname": "South Wales Glass Manufacturing Co. Ltd.", "forename": "", "trade": "glass manufacturers"},
+                                {"year": "1920", "street": "Albany Street", "house_number": "", "building_name": "Chemical Works", "surname": "Stone & Tinson", "forename": "", "trade": "chemical manufacturers"},
+                                {"year": "1920", "street": "Albany Street", "house_number": "", "building_name": "", "surname": "(return)", "forename": "", "trade": ""}
+                            ]
+                        elif yr == "1925":
+                            blob = [
+                                {"year": "1925", "street": "Albany Street", "house_number": "1", "building_name": "", "surname": "Parfitt", "forename": "Mrs. Gladys", "trade": ""},
+                                {"year": "1925", "street": "Albany Street", "house_number": "2", "building_name": "", "surname": "Williams", "forename": "Evan", "trade": "gasfitter"},
+                                {"year": "1925", "street": "Albany Street", "house_number": "3", "building_name": "", "surname": "Taylor", "forename": "William", "trade": "labourer"},
+                                {"year": "1925", "street": "Albany Street", "house_number": "4", "building_name": "", "surname": "Desmond", "forename": "Thomas", "trade": "labourer"},
+                                {"year": "1925", "street": "Albany Street", "house_number": "", "building_name": "", "surname": "here is Agincourt-street", "forename": "", "trade": ""},
+                                {"year": "1925", "street": "Albany Street", "house_number": "5", "building_name": "", "surname": "Neal", "forename": "John T.", "trade": "general shop"},
+                                {"year": "1925", "street": "Albany Street", "house_number": "6", "building_name": "", "surname": "Skeldon", "forename": "Sl.", "trade": "ironworker"},
+                                {"year": "1925", "street": "Albany Street", "house_number": "7", "building_name": "", "surname": "Morris", "forename": "Edward John", "trade": ""},
+                                {"year": "1925", "street": "Albany Street", "house_number": "8", "building_name": "", "surname": "Murphy", "forename": "Mrs. Ann", "trade": ""},
+                                {"year": "1925", "street": "Albany Street", "house_number": "9", "building_name": "", "surname": "Oakes", "forename": "William", "trade": "hawker"},
+                                {"year": "1925", "street": "Albany Street", "house_number": "10", "building_name": "", "surname": "Hall", "forename": "Jas.", "trade": "fireman"},
+                                {"year": "1925", "street": "Albany Street", "house_number": "11", "building_name": "", "surname": "Manship", "forename": "Jacob", "trade": "general shop"},
+                                {"year": "1925", "street": "Albany Street", "house_number": "", "building_name": "", "surname": "here is Ailesbury-street", "forename": "", "trade": ""},
+                                {"year": "1925", "street": "Albany Street", "house_number": "12-13", "building_name": "Coronation Club & Working Men's Institute", "surname": "Hitchings", "forename": "G.", "trade": "steward"},
+                                {"year": "1925", "street": "Albany Street", "house_number": "14", "building_name": "", "surname": "Shakesheff", "forename": "W. E.", "trade": "ironworker"},
+                                {"year": "1925", "street": "Albany Street", "house_number": "15", "building_name": "", "surname": "Williamson", "forename": "Mrs. S. A.", "trade": ""},
+                                {"year": "1925", "street": "Albany Street", "house_number": "16", "building_name": "", "surname": "Pope", "forename": "Mrs. Emily", "trade": ""},
+                                {"year": "1925", "street": "Albany Street", "house_number": "17", "building_name": "", "surname": "Phillips", "forename": "Frederick S.", "trade": "glass blower"},
+                                {"year": "1925", "street": "Albany Street", "house_number": "18", "building_name": "", "surname": "Thomas", "forename": "Thomas J.", "trade": ""},
+                                {"year": "1925", "street": "Albany Street", "house_number": "19", "building_name": "", "surname": "Perry", "forename": "Reginald J.", "trade": "shop"},
+                                {"year": "1925", "street": "Albany Street", "house_number": "", "building_name": "", "surname": "here is Argyle-street", "forename": "", "trade": ""},
+                                {"year": "1925", "street": "Albany Street", "house_number": "20", "building_name": "", "surname": "Welfoot", "forename": "T. H.", "trade": "general shop"},
+                                {"year": "1925", "street": "Albany Street", "house_number": "21", "building_name": "", "surname": "Parker", "forename": "Mrs. Matilda", "trade": ""},
+                                {"year": "1925", "street": "Albany Street", "house_number": "22", "building_name": "", "surname": "Oval", "forename": "John", "trade": "labourer"},
+                                {"year": "1925", "street": "Albany Street", "house_number": "23", "building_name": "", "surname": "Welsh", "forename": "H. C.", "trade": "crane driver"},
+                                {"year": "1925", "street": "Albany Street", "house_number": "24", "building_name": "", "surname": "Dare", "forename": "Alfred", "trade": "roundsman"},
+                                {"year": "1925", "street": "Albany Street", "house_number": "25", "building_name": "", "surname": "Wilson", "forename": "Robert", "trade": "labourer"},
+                                {"year": "1925", "street": "Albany Street", "house_number": "26", "building_name": "", "surname": "Marley", "forename": "Charles", "trade": "painter"},
+                                {"year": "1925", "street": "Albany Street", "house_number": "27", "building_name": "", "surname": "Wade", "forename": "James", "trade": "glassblower"},
+                                {"year": "1925", "street": "Albany Street", "house_number": "28", "building_name": "", "surname": "Keyes", "forename": "Hbt. William", "trade": "ironworker"},
+                                {"year": "1925", "street": "Albany Street", "house_number": "29", "building_name": "", "surname": "Jones", "forename": "Mrs. Elizabeth", "trade": ""},
+                                {"year": "1925", "street": "Albany Street", "house_number": "30", "building_name": "", "surname": "Shellam", "forename": "John", "trade": "labourer"},
+                                {"year": "1925", "street": "Albany Street", "house_number": "31", "building_name": "", "surname": "Knight", "forename": "Charles A.", "trade": "haulier"},
+                                {"year": "1925", "street": "Albany Street", "house_number": "32", "building_name": "", "surname": "Parry", "forename": "Mrs. Emily Flora", "trade": ""},
+                                {"year": "1925", "street": "Albany Street", "house_number": "33", "building_name": "", "surname": "Prior", "forename": "Charles Ed.", "trade": "labourer"},
+                                {"year": "1925", "street": "Albany Street", "house_number": "34", "building_name": "", "surname": "Cornelius", "forename": "Frederick", "trade": "carpenter"},
+                                {"year": "1925", "street": "Albany Street", "house_number": "35", "building_name": "", "surname": "Brute", "forename": "Mrs. Mary", "trade": ""},
+                                {"year": "1925", "street": "Albany Street", "house_number": "36", "building_name": "", "surname": "Dawe", "forename": "William H.", "trade": "haulier"},
+                                {"year": "1925", "street": "Albany Street", "house_number": "37", "building_name": "", "surname": "Brute", "forename": "Jas. S.", "trade": "ironworker"},
+                                {"year": "1925", "street": "Albany Street", "house_number": "38", "building_name": "", "surname": "Hillman", "forename": "Bert", "trade": "labourer"},
+                                {"year": "1925", "street": "Albany Street", "house_number": "39", "building_name": "", "surname": "Dallimore", "forename": "Mrs. Jane", "trade": ""},
+                                {"year": "1925", "street": "Albany Street", "house_number": "40", "building_name": "", "surname": "Manley", "forename": "William", "trade": "labourer"},
+                                {"year": "1925", "street": "Albany Street", "house_number": "41", "building_name": "", "surname": "Lockyer", "forename": "Charles", "trade": "foreman"},
+                                {"year": "1925", "street": "Albany Street", "house_number": "43", "building_name": "", "surname": "Hillman", "forename": "R. W.", "trade": "haulier"},
+                                {"year": "1925", "street": "Albany Street", "house_number": "45", "building_name": "The Monmouthshire Steam Laundry Co. Ltd.", "surname": "Monmouthshire Steam Laundry Co.", "forename": "", "trade": "laundry"},
+                                {"year": "1925", "street": "Albany Street", "house_number": "47", "building_name": "", "surname": "Winter", "forename": "William", "trade": "gas worker"},
+                                {"year": "1925", "street": "Albany Street", "house_number": "", "building_name": "", "surname": "here is Aragon-street", "forename": "", "trade": ""},
+                                {"year": "1925", "street": "Albany Street", "house_number": "", "building_name": "Crindau Gas Works", "surname": "Newport Mon. Gas Co.", "forename": "", "trade": "gas works"},
+                                {"year": "1925", "street": "Albany Street", "house_number": "", "building_name": "", "surname": "(return)", "forename": "", "trade": ""},
+                                {"year": "1925", "street": "Albany Street", "house_number": "", "building_name": "Crindau Chemical Works", "surname": "Newport Mon. Gas Co.", "forename": "", "trade": "chemical works"},
+                                {"year": "1925", "street": "Albany Street", "house_number": "5", "building_name": "Albany Terrace", "surname": "Hinksman", "forename": "Albert", "trade": "labourer"},
+                                {"year": "1925", "street": "Albany Street", "house_number": "4", "building_name": "Albany Terrace", "surname": "Baldwin", "forename": "H. E.", "trade": "striker"},
+                                {"year": "1925", "street": "Albany Street", "house_number": "3", "building_name": "Albany Terrace", "surname": "Hayward", "forename": "J.", "trade": "glass blower"},
+                                {"year": "1925", "street": "Albany Street", "house_number": "2", "building_name": "Albany Terrace", "surname": "Tutton", "forename": "Joseph", "trade": "haulier"},
+                                {"year": "1925", "street": "Albany Street", "house_number": "1", "building_name": "Albany Terrace", "surname": "Clements", "forename": "Mrs. Maggie", "trade": ""}
+                            ]
+                        for r in blob:
+                            cleaned_r = clean_record(r)
+                            if cleaned_r:
+                                rows.append(cleaned_r)
+                    continue
+
+            # Unpack Ailesbury Street 1900 clean records from IMG_8485.jpeg to bypass OCR header drop
+            if raw_row.get("street") == "Ailesbury Street" and raw_row.get("year") == "1900":
+                if not hasattr(main, "ailesbury_1900_done"):
+                    main.ailesbury_1900_done = True
+                    blob_ailesbury = [
+                        {"year": "1900", "street": "Ailesbury Street", "house_number": "1", "building_name": "", "surname": "Thomas", "forename": "John", "trade": "puddler"},
+                        {"year": "1900", "street": "Ailesbury Street", "house_number": "3", "building_name": "", "surname": "Willie", "forename": "Thos.", "trade": "gas works"},
+                        {"year": "1900", "street": "Ailesbury Street", "house_number": "5", "building_name": "", "surname": "Void", "forename": "", "trade": ""},
+                        {"year": "1900", "street": "Ailesbury Street", "house_number": "7", "building_name": "", "surname": "Murphy", "forename": "Mrs. Ann", "trade": ""},
+                        {"year": "1900", "street": "Ailesbury Street", "house_number": "9", "building_name": "", "surname": "Legresley", "forename": "Alfred Edward", "trade": ""},
+                        {"year": "1900", "street": "Ailesbury Street", "house_number": "11", "building_name": "", "surname": "Mansfield", "forename": "Daniel", "trade": "labourer"},
+                        {"year": "1900", "street": "Ailesbury Street", "house_number": "13", "building_name": "", "surname": "Void", "forename": "", "trade": ""},
+                        {"year": "1900", "street": "Ailesbury Street", "house_number": "15", "building_name": "", "surname": "Collins", "forename": "James", "trade": "labourer"},
+                        {"year": "1900", "street": "Ailesbury Street", "house_number": "17", "building_name": "", "surname": "Void", "forename": "", "trade": ""},
+                        {"year": "1900", "street": "Ailesbury Street", "house_number": "19", "building_name": "", "surname": "Hardy", "forename": "Geo. G.", "trade": "fireman"},
+                        {"year": "1900", "street": "Ailesbury Street", "house_number": "21", "building_name": "", "surname": "Void", "forename": "", "trade": ""},
+                        {"year": "1900", "street": "Ailesbury Street", "house_number": "23", "building_name": "", "surname": "Brewis", "forename": "Joseph", "trade": "glass works"},
+                        {"year": "1900", "street": "Ailesbury Street", "house_number": "25", "building_name": "", "surname": "Void", "forename": "", "trade": ""},
+                        {"year": "1900", "street": "Ailesbury Street", "house_number": "27", "building_name": "", "surname": "Norman", "forename": "Mrs. Margaret", "trade": ""},
+                        {"year": "1900", "street": "Ailesbury Street", "house_number": "29", "building_name": "", "surname": "Basham", "forename": "Edwd.", "trade": "labourer"},
+                        {"year": "1900", "street": "Ailesbury Street", "house_number": "31", "building_name": "", "surname": "Void", "forename": "", "trade": ""},
+                        {"year": "1900", "street": "Ailesbury Street", "house_number": "12", "building_name": "", "surname": "Smith", "forename": "Mrs. Emma", "trade": ""},
+                        {"year": "1900", "street": "Ailesbury Street", "house_number": "10", "building_name": "", "surname": "Morton", "forename": "Wm.", "trade": "musician"},
+                        {"year": "1900", "street": "Ailesbury Street", "house_number": "8", "building_name": "", "surname": "Amos", "forename": "Edward", "trade": "labourer"},
+                        {"year": "1900", "street": "Ailesbury Street", "house_number": "6", "building_name": "", "surname": "Langley", "forename": "Mrs. Emma", "trade": ""},
+                        {"year": "1900", "street": "Ailesbury Street", "house_number": "4", "building_name": "", "surname": "Void", "forename": "", "trade": ""},
+                        {"year": "1900", "street": "Ailesbury Street", "house_number": "2", "building_name": "", "surname": "Tutton", "forename": "Joseph", "trade": "haulier"}
+                    ]
+                    for r in blob_ailesbury:
                         cleaned_r = clean_record(r)
                         if cleaned_r:
                             rows.append(cleaned_r)
@@ -2631,6 +3427,125 @@ def main():
                             if any(kw in sur_low for kw in {"watkins", "garage", "methodist", "patrick", "presbytery", "foley", "bosco", "hall", "lavin"}):
                                 skipped_count += 1
                                 continue
+
+                    # Filter out 1900 Albert Avenue drift mislabeled under Albany Street
+                    if cleaned.get("year") == "1900" and st_lower == "albany street":
+                        sn_clean = cleaned.get("surname", "").strip()
+                        hn_clean = cleaned.get("house_number", "").strip()
+                        if hn_clean in {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "23"} and sn_clean in {"Jones", "Curtis", "Griffiths", "Wiggett", "Swift", "Stone", "Meredith", "Rees", "Pitt", "Sims", "Lockyear", "Williams", "Darke", "Weeks", "Reed", "Coote", "Edmonds", "Hewertson", "Deacon", "Badger", "Lewis"}:
+                            skipped_count += 1
+                            continue
+
+                    # Clean 1890 Albany Street reversed names and inline junction markers
+                    if cleaned.get("year") == "1890" and st_lower == "albany street":
+                        sn = cleaned.get("surname", "").strip()
+                        fn = cleaned.get("forename", "").strip()
+                        hn = cleaned.get("house_number", "").strip()
+                        tr = cleaned.get("trade", "").strip()
+
+                        if not hn and "Marshes" in fn:
+                            skipped_count += 1
+                            continue
+
+                        tr_clean = tr.lower()
+                        if "here is arlington" in tr_clean or "here is agincourt" in tr_clean:
+                            cleaned["trade"] = ""
+                        elif "here is ailesbury" in tr_clean:
+                            cleaned["trade"] = "general shop"
+                        elif "here is argyll" in tr_clean:
+                            cleaned["trade"] = "grocer"
+
+                        # Reverses 1890 forename/surname fields
+                        if sn in {"Jos", "Mrs", "Jas", "Mrs. Mary Ann", "Tom", "Nicholas", "George", "Samuel", "Matthew", "John", "Elisha", "Thos", "Mrs. Hannah", "Edwin", "Benj", "John Jas"}:
+                            cleaned["surname"] = fn
+                            cleaned["forename"] = sn
+
+                    # Clean 1920, 1927, 1936, 1971 Albany Street trade bleed, building names, and reversed names
+                    if st_lower == "albany street":
+                        sn = cleaned.get("surname", "").strip()
+                        fn = cleaned.get("forename", "").strip()
+                        bldg = cleaned.get("building_name", "").strip()
+                        tr = cleaned.get("trade", "").strip()
+                        yr = cleaned.get("year", "").strip()
+
+                        # 1920 name splitting & trade extraction
+                        if yr == "1920":
+                            # Extract trade from fn or sn
+                            extracted_tr = tr
+                            tr_words = ["tailor", "shopkeeper", "worker", "hawker", "fireman", "grocer", "labourer", "fitter", "haulier", "painter", "gasfitter", "greengrocer", "iron worker", "iron"]
+                            for tw in tr_words:
+                                if tw in fn.lower():
+                                    extracted_tr = tw
+                                    fn = re.sub(r"\b" + tw + r"\b", "", fn, flags=re.I).strip()
+                                if tw in sn.lower() and not extracted_tr:
+                                    extracted_tr = tw
+                                    sn = re.sub(r"\b" + tw + r"\b", "", sn, flags=re.I).strip()
+
+                            parts = sn.split()
+                            if len(parts) >= 2 and parts[0] not in {"Mon.", "Newport", "Coronation", "S.", "G.", "Working"}:
+                                cleaned["surname"] = parts[0]
+                                cleaned["forename"] = " ".join(parts[1:])
+                            else:
+                                cleaned["surname"] = sn
+                                cleaned["forename"] = fn
+
+                            if extracted_tr:
+                                cleaned["trade"] = extracted_tr
+
+                            if sn == "William" and fn == "Winter":
+                                cleaned["house_number"] = "47"
+                                cleaned["surname"] = "Winter"
+                                cleaned["forename"] = "William"
+                                cleaned["trade"] = "gas worker"
+                                cleaned["building_name"] = "Mon. Gas Co."
+
+                        # 1927 trade bleed and reversals
+                        if yr == "1927":
+                            if sn == "William" and fn == "Winter":
+                                cleaned["house_number"] = "47"
+                                cleaned["surname"] = "Winter"
+                                cleaned["forename"] = "William"
+                                cleaned["trade"] = "gas worker"
+                                cleaned["building_name"] = "Mon. Gas Co."
+                            elif sn == "Harris" and fn == "28":
+                                cleaned["house_number"] = "28"
+                                cleaned["surname"] = "Harris"
+                                cleaned["forename"] = ""
+                                cleaned["trade"] = "fitter"
+                                cleaned["building_name"] = "Crindau Chemical Works"
+                            elif sn == "93" or "PROVIDENCE PLACE" in fn:
+                                skipped_count += 1
+                                continue
+
+                        # 1936 building names and trade bleeds
+                        if yr == "1936":
+                            if bldg.lower() in {"glass blower", "tram conductor", "slater"}:
+                                cleaned["trade"] = bldg.lower()
+                                cleaned["building_name"] = ""
+                            if "general shop" in fn.lower():
+                                cleaned["forename"] = fn.replace("general shop", "").strip()
+                                cleaned["trade"] = "general shop"
+                            if sn == "G" and fn == "Hitching":
+                                cleaned["surname"] = "Hitching"
+                                cleaned["forename"] = "G."
+                                cleaned["trade"] = "steward"
+
+                        # 1971 name reversals & house numbers
+                        if yr == "1971":
+                            if "Noonan" in fn:
+                                cleaned["surname"] = "Noonan"
+                                cleaned["forename"] = "Magnus"
+                            elif "McCarty" in fn:
+                                cleaned["house_number"] = "2"
+                                cleaned["surname"] = "McCarty"
+                                cleaned["forename"] = "Wilfred"
+                            elif "Jones" in fn:
+                                cleaned["house_number"] = "3"
+                                cleaned["surname"] = "Jones"
+                                cleaned["forename"] = "Stanley G."
+                            elif "Duggan" in sn:
+                                cleaned["trade"] = "fried fish shop"
+                                cleaned["forename"] = "J. W."
                         
                     # Filter out 1893 & 1899 OCR advertisement/fragment junk and 1882 two-column drift for Bishopsgate Parade
                     if st_lower in {"bishopsgate parade", "bishopgate parade"}:
@@ -2691,6 +3606,39 @@ def main():
                         bldg_low = bldg_val.lower()
                         if bldg_low == st_lower or bldg_low == st_lower + "s":
                             cleaned["building_name"] = ""
+
+                    # Clean 1890 Commercial Road multi-column OCR bleed and remapping
+                    if (cleaned.get("year") == "1890" or cleaned.get("year") == "1990") and st_lower == "faulkner road":
+                        # If record is part of Commercial Road 1890 block mislabeled as Faulkner Road (numbers 1 through 35 / Woodruff, Meredith, Burge, Syner, Cleaves, Yendoll, Quarm, Jones, James, Bartlett, Selwood, Thomas, Vaux, Bullock, Gregory, Mann, Beer, Reed, Davies, Ross, Davis, Brimblecombe, Bailey, Hoskins, Morgan, Herbert, Burpitt, Scott, Ponsonby, Harries, Gosling, Powell, Manoy)
+                        sn_clean = cleaned.get("surname", "").strip()
+                        if any(k in sn_clean for k in ["Woodruff", "Meredith", "Burge", "Syner", "Cleaves", "Yendoll", "Quarm", "Jones", "James", "Bartlett", "Selwood", "Thomas", "Vaux", "Bullock", "Gregory", "Mann", "Beer", "Reed", "Davies", "Ross", "Davis", "Brimblecombe", "Bailey", "Hoskins", "Morgan", "Herbert", "Burpitt", "Scott", "Ponsonby", "Harries", "Gosling", "Powell", "Manoy"]):
+                            cleaned["street"] = "Commercial Road"
+
+
+                    # Keep Commercial Buildings separate from Commercial Road
+                    if st_lower == "commercial buildings" or st_lower == "commercial building":
+                        cleaned["street"] = "Commercial Buildings"
+
+                    if (cleaned.get("year") == "1890" or cleaned.get("year") == "1990") and st_lower == "commercial road":
+                        # Filter out Commercial Buildings entries (Jones Mrs Thomas, Jones Thomas, James Benjamin)
+                        sn = cleaned.get("surname", "")
+                        fn = cleaned.get("forename", "")
+                        tr = cleaned.get("trade", "")
+                        if (sn == "Jones" and fn in {"Mrs Thomas", "Thomas"}) or (sn == "James" and fn == "Benjamin") or (sn == "Thomas" and fn == "W E"):
+                            skipped_count += 1
+                            continue
+
+                    if (cleaned.get("year") == "1890" or cleaned.get("year") == "1990") and st_lower == "commercial road":
+                        # Remove side-column Rutland Place / St. Edward Street bleed
+                        sn = cleaned.get("surname", "")
+                        fn = cleaned.get("forename", "")
+                        tr = cleaned.get("trade", "")
+                        if sn in {"Chisman", "Purkis", "George", "Harris", "Bright", "Rowlands", "Richards", "Lane", "Derrick", "Williams", "Page", "Jones", "Parke", "Bowen", "Seymour", "Smoothey", "Challicomb", "Hawkins", "Smith", "Luxton", "Whitcombe", "Carroll", "Tritton", "Dier", "Morris", "Meese", "Heycock", "Hooper", "Weeks", "Berry", "Berridge", "Stevens", "Osborne", "Murphy", "Reaves", "Crimp"} or fn in {"Whitcombe", "Carroll", "Tritton", "Dier", "Morris", "Meese"} or tr in {"whitcombs", "carroll", "postman", "carpenter", "tailor"}:
+                            skipped_count += 1
+                            continue
+                        if sn.startswith("["):
+                            skipped_count += 1
+                            continue
 
                     rows.append(cleaned)
 
@@ -2796,13 +3744,56 @@ def main():
                     amended_count += 1
             print(f"Applied manual amendments to {amended_count} records.")
 
+    # Fix 1890 St. Mary's Road block mislabeled under Cattle Market in 1890_cleaned.csv (applied post-TSV amendments)
+    for row in rows:
+        if (row.get("year") == "1890" or row.get("year") == "1990"):
+            st_cur = row.get("street", "").strip().lower()
+            sn = row.get("surname", "").strip()
+            fn = row.get("forename", "").strip()
+            
+            # 1. Remap St. Mary's Road block mislabeled under Cattle Market / Commercial Road
+            full_name = f"{sn} {fn}".strip()
+            if st_cur in {"cattle market", "commercial road", "commercial road."}:
+                if any(k in full_name for k in ["James C", "Reed Wm", "Hodge Thos", "Evans Geo", "Palmer Edw", "Taylor Wm", "Grant Matthew", "Hayes Richd", "Chambers Thos", "Dowd Daniel", "Long John"]):
+                    row["street"] = "St. Mary's Road"
+
+            # 2. Remap Commercial Road numbers 1-35 mislabeled under Faulkner Road
+            if st_cur in {"faulkner road", "commercial road", "commercial road."}:
+                if sn == "1" and "Woodruff" in fn:
+                    row["surname"] = "Woodruff"
+                    row["forename"] = fn.replace("Woodruff", "").strip()
+                    row["house_number"] = "1"
+                    row["street"] = "Commercial road"
+                elif any(k in full_name for k in ["Woodruff", "Meredith", "Burge", "Syner", "Cleaves", "Yendoll", "Quarm", "Jones", "James", "Bartlett", "Selwood", "Thomas", "Vaux", "Bullock", "Gregory", "Mann", "Beer", "Reed", "Davies", "Ross", "Davis", "Brimblecombe", "Bailey", "Hoskins", "Morgan", "Herbert", "Burpitt", "Scott", "Ponsonby", "Harries", "Gosling", "Powell", "Manoy"]):
+                    row["street"] = "Commercial road"
+                    if sn.isdigit():
+                        row["house_number"] = sn
+                        parts = fn.split(" ", 1)
+                        row["surname"] = parts[0]
+                        row["forename"] = parts[1] if len(parts) > 1 else ""
+
+            # 3. Remap section headers misattributed to Commercial Road in 1890_cleaned.csv
+            if st_cur in {"commercial road", "third roadway", "cattle market", "baptist chapel"}:
+                if "Connor" in sn and "Ellen" in fn and row.get("house_number") == "1":
+                    row["street"] = "Tredegar Street"
+                elif "Poole" in sn and "Jacob" in fn and row.get("house_number") == "1":
+                    row["street"] = "Trinity Place"
+                elif "Trull" in sn and "Dorcas" in fn and row.get("house_number") == "1":
+                    row["street"] = "Tunnel Terrace"
+                elif "Price" in sn and "Charles" in fn and row.get("house_number") == "1":
+                    row["street"] = "Union Street"
+                elif "Roberts" in sn and "Prince" in fn and row.get("house_number") == "1":
+                    row["street"] = "St. Woolos Road"
+
     # Append newly added secondary/gap-year historical research records from edge_cases.json
     added_gap_count = 0
     for edge in EDGE_CASES:
         match = edge.get("match", {})
         apply = edge.get("apply", {})
-        # If edge case is a standalone newly added record (has street, year, apply fields but no match criteria except street/year)
-        if match.get("street") and match.get("year") and apply.get("surname") and not match.get("surname") and not match.get("surname_contains") and not match.get("house_number"):
+        # If edge case is a standalone newly added record (has action == "add", or matches street/year with apply surname)
+        is_add_action = str(edge.get("action")).lower() == "add"
+        is_standalone = match.get("street") and match.get("year") and apply.get("surname") and not match.get("surname") and not match.get("surname_contains") and not match.get("house_number")
+        if is_add_action or is_standalone:
             # Check if this exact record is already in rows
             exists = any(r.get("street") == match["street"] and r.get("year") == match["year"] and r.get("surname") == apply.get("surname") for r in rows)
             if not exists:
@@ -2823,7 +3814,7 @@ def main():
         print(f"Appended {added_gap_count} supplemental gap-year historical research records into dataset.")
 
     with open(OUTPUT_CSV, mode="w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore')
         writer.writeheader()
         writer.writerows(rows)
 

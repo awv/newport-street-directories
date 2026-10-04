@@ -2,6 +2,19 @@ let directoryData = [];
 let uniqueStreets = [];
 let selectedIndex = -1;
 
+function toggleMobileSidebar() {
+  const sidebar = document.querySelector('.app-sidebar');
+  let backdrop = document.querySelector('.sidebar-backdrop');
+  if (!backdrop) {
+    backdrop = document.createElement('div');
+    backdrop.className = 'sidebar-backdrop';
+    backdrop.onclick = toggleMobileSidebar;
+    document.body.appendChild(backdrop);
+  }
+  if (sidebar) sidebar.classList.toggle('mobile-open');
+  if (backdrop) backdrop.classList.toggle('mobile-open');
+}
+
     // Search Results State
     let currentSearchResults = { all: [], people: [], occupations: [], streets: [] };
     let currentSearchTab = 'all';
@@ -26,7 +39,7 @@ let selectedIndex = -1;
       "Dan": "Daniel", "Danl": "Daniel", "Dav": "David", "Deb": "Deborah",
       "Delbt": "Delbert", "Den": "Dennis", "Dom": "Dominique", "Don": "Donald",
       "Dor": "Dorothy", "Doug": "Douglas", "Dy": "Dorothy", "Eben": "Ebenezer",
-      "Ed": "Edward", "Edm": "Edmund", "Edw": "Edward", "Elis": "Elisabeth",
+      "Ed": "Edward", "Edm": "Edmund", "Edw": "Edward", "Edwd": "Edward", "Edw-d": "Edward", "Edw-d.": "Edward", "Edw.d": "Edward", "Elis": "Elisabeth",
       "Eliz": "Elizabeth", "Eliza": "Elizabeth", "Elizh": "Elizabeth", "Elizth": "Elizabeth",
       "Elnr": "Eleanor", "Em": "Emma", "Eml": "Emily", "Ern": "Ernest",
       "Esth": "Esther", "Etne": "Etienne", "Euc": "Euclide", "Eug": "Eugene",
@@ -81,7 +94,8 @@ let selectedIndex = -1;
     function expandForename(forename) {
       if (!forename) return '';
       return forename.split(' ').map(word => {
-        const cleanWord = word.replace(/\.$/, '').trim();
+        const cleanWord = word.replace(/\.$/, '').replace(/(\w+)-(\w+)/, '$1$2').trim();
+        if (FORENAME_MAP[word]) return FORENAME_MAP[word];
         if (FORENAME_MAP[cleanWord]) return FORENAME_MAP[cleanWord];
         return word;
       }).join(' ');
@@ -657,44 +671,7 @@ let selectedIndex = -1;
       }
     });
 
-    // --- Navigation Router ---
-    async function navigate() {
-      const hash = window.location.hash || '#home';
-      document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
-      if (autocompleteContainer) autocompleteContainer.classList.remove('active');
 
-      await loadMasterStreets();
-
-      if (hash.startsWith('#search=')) {
-        const query = decodeURIComponent(hash.substring(8));
-        await renderSearchView(query);
-        document.getElementById('view-search').classList.add('active');
-      } else if (hash.startsWith('#street=')) {
-        const rawStreet = decodeURIComponent(hash.substring(8));
-        await renderStreetView(rawStreet);
-        document.getElementById('view-street').classList.add('active');
-      } else if (hash.startsWith('#house=')) {
-        const parts = decodeURIComponent(hash.substring(7)).split('|');
-        const street = parts[0] || '';
-        const locKey = parts[1] || '';
-        await renderHouseView(street, locKey);
-        document.getElementById('view-house').classList.add('active');
-      } else if (hash === '#streets') {
-        renderStreetsView();
-        document.getElementById('view-streets').classList.add('active');
-      } else if (hash === '#directories') {
-        renderDirectoriesView();
-        document.getElementById('view-directories').classList.add('active');
-      } else if (hash.startsWith('#directories=')) {
-        const year = hash.replace('#directories=', '');
-        renderStreetsView(year);
-        document.getElementById('view-streets').classList.add('active');
-      } else {
-        document.getElementById('view-home').classList.add('active');
-      }
-
-      window.scrollTo(0, 0);
-    }
 
     // --- Search View Rendering ---
     async function renderSearchView(query) {
@@ -733,7 +710,9 @@ let selectedIndex = -1;
           const trade = r.t || '';
           const street = r.s || '';
           const locKey = r.k || '';
-          const locAddress = `${locKey} ${street}`;
+          const isNumericKey = /^\d+[a-zA-Z]?$/.test(locKey);
+          const houseNumPrefix = isNumericKey ? `No. ${locKey}` : (locKey && locKey !== fullName ? locKey : '');
+          const locAddress = houseNumPrefix ? `${houseNumPrefix}, ${street}` : street;
 
           if (matchedPeople.length < 200 && fullName.toLowerCase().includes(cleanQ)) {
             matchedPeople.push({
@@ -820,12 +799,17 @@ let selectedIndex = -1;
         const card = document.createElement('a');
         card.className = 'result-card';
         card.href = item.hash;
+        
+        const isPerson = item.type === 'person';
+        const safeTitleEsc = (item.title || '').replace(/'/g, "\\'");
+        
         card.innerHTML = `
           <div class="result-main">
             <div class="result-title">${item.title}</div>
             <div class="result-sub">${item.sub}</div>
           </div>
-          <div class="result-meta">
+          <div class="result-meta" style="display: flex; align-items: center; gap: 0.5rem;">
+            ${isPerson ? `<button onclick="openPersonTimelineModal('${safeTitleEsc}', event)" class="header-btn" style="padding: 0.25rem 0.6rem; font-size: 0.75rem; background: var(--accent-light); color: var(--accent-hover); border-color: var(--accent-border);" title="Generate clean text timeline report for this person"><i class="ph ph-file-text"></i> View Timeline Report</button>` : ''}
             <div class="result-address">${item.address || 'Explore Street'}</div>
           </div>
         `;
@@ -871,11 +855,22 @@ let selectedIndex = -1;
       // Update Audit Counters
       let masterDict = {};
       const storedOverrides = sessionOverrides.filter(o => o.action === 'UPDATE_MASTER_REGISTRY');
-      storedOverrides.forEach(o => {
-        masterDict[o.slug] = { audit: { status: o.audit_status } };
+      if (storedOverrides.length) {
+        storedOverrides.forEach(ov => {
+          if (ov.slug) masterDict[ov.slug] = ov.data;
+        });
+      }
+
+      const filteredList = masterStreetsList.filter(s => {
+        const mInfo = masterDict[s.slug] || s;
+        const status = mInfo.auditStatus || 'UNVERIFIED';
+
+        if (currentAuditFilter === 'name_verified') return status === 'NAME_VERIFIED';
+        if (currentAuditFilter === 'fully_enriched') return status === 'FULLY_ENRICHED';
+        if (currentAuditFilter === 'unverified') return status === 'UNVERIFIED';
+        return true;
       });
 
-      const totalCount = masterStreetsList.length;
       let nameVerifiedCount = 0;
       let fullyEnrichedCount = 0;
       let unverifiedCount = 0;
@@ -901,12 +896,17 @@ let selectedIndex = -1;
       if (cntUnver) cntUnver.innerText = unverifiedCount;
 
       let streetsToShow = masterStreetsList;
+      const titleElem = document.querySelector('#view-streets .page-header-title');
+      const summaryElem = document.getElementById('streets-summary-text');
+
       if (filterYear) {
         streetsToShow = masterStreetsList.filter(s => s.yearsSpan && s.yearsSpan.includes(filterYear));
-        document.getElementById('streets-summary-text').innerText = 
-          `Index of ${streetsToShow.length} streets recorded in the ${filterYear} directory collection.`;
-        document.querySelector('#view-streets .street').innerText = `${filterYear} Directory Streets`;
-        document.querySelector('#view-streets .breadcrumb').innerHTML = `<a href="#home">Home</a> &rarr; <a href="#directories">Directories</a> &rarr; <span>${filterYear}</span>`;
+        if (summaryElem) {
+          summaryElem.innerText = `Index of ${streetsToShow.length} streets recorded in the ${filterYear} directory collection.`;
+        }
+        if (titleElem) {
+          titleElem.innerText = `${filterYear} Directory Streets`;
+        }
       } else {
         if (currentAuditFilter === 'name_verified') {
           streetsToShow = masterStreetsList.filter(s => {
@@ -930,10 +930,12 @@ let selectedIndex = -1;
           });
         }
 
-        document.getElementById('streets-summary-text').innerText = 
-          `Showing ${streetsToShow.length} of ${masterStreetsList.length} total recorded streets in archive collections.`;
-        document.querySelector('#view-streets .street').innerText = `All Streets`;
-        document.querySelector('#view-streets .breadcrumb').innerHTML = `<a href="#home">Home</a> &rarr; <span>Streets</span>`;
+        if (summaryElem) {
+          summaryElem.innerText = `Showing ${streetsToShow.length} of ${masterStreetsList.length} total recorded streets in archive collections.`;
+        }
+        if (titleElem) {
+          titleElem.innerText = `All Newport Streets`;
+        }
       }
 
       if (!streetsToShow.length) {
@@ -1018,49 +1020,402 @@ let selectedIndex = -1;
 
     let currentStreet = '';
 
-    // --- Single Street View Rendering ---
+    // --- Helper to pick Phosphor line icon and entity badge ---
+    function getEntityIconInfo(trade, buildingName, surname) {
+      const combined = `${trade || ''} ${buildingName || ''} ${surname || ''}`.toLowerCase();
+      if (/\b(pub|inn|tavern|hotel|arms|vaults|brewery|beer|ale|wine|spirit)\b/.test(combined)) {
+        return { icon: 'ph-beer-stein', badge: 'Pub / Inn', badgeClass: 'badge-pub' };
+      }
+      if (/\b(church|chapel|vicarage|rectory|cathedral|st\.|saint|baptist|wesleyan|convent|mission)\b/.test(combined)) {
+        return { icon: 'ph-church', badge: 'Church / Religious', badgeClass: 'badge-church' };
+      }
+      if (/\b(school|college|academy|teacher|headmaster|board school)\b/.test(combined)) {
+        return { icon: 'ph-graduation-cap', badge: 'School / Academic', badgeClass: 'badge-church' };
+      }
+      if (/\b(hospital|dispensary|infirmary|doctor|surgeon|physician|chemist|druggist)\b/.test(combined)) {
+        return { icon: 'ph-first-aid-kit', badge: 'Medical', badgeClass: 'badge-shop' };
+      }
+      if (/\b(bank|solicitor|attorney|insurance|broker|agent|exchange|guildhall|lawyer)\b/.test(combined)) {
+        return { icon: 'ph-bank', badge: 'Commercial / Legal', badgeClass: 'badge-shop' };
+      }
+      if (/\b(house|villa|cottage|hall|lodge|terrace|court|place|mansion|mount)\b/.test(combined) || (buildingName && buildingName !== '-' && buildingName !== '~')) {
+        return { icon: 'ph-house-line', badge: 'Named Villa', badgeClass: 'badge-villa' };
+      }
+      if (trade && trade !== 'Residence / Private' && trade !== '-') {
+        return { icon: 'ph-storefront', badge: 'Trade / Business', badgeClass: 'badge-residence' };
+      }
+      return { icon: 'ph-house', badge: '', badgeClass: '' };
+    }
+
+    let currentSelectedLedgerYear = 'all';
+
+    function filterStreetLedger() {
+      const query = (document.getElementById('ledger-filter-input')?.value || '').toLowerCase().trim();
+      const rows = document.querySelectorAll('.street-ledger-row');
+      rows.forEach(row => {
+        const text = row.textContent.toLowerCase();
+        if (!query || text.includes(query)) {
+          row.style.display = '';
+        } else {
+          row.style.display = 'none';
+        }
+      });
+    }
+
+    // --- Cmd+K Global Search Modal Controls ---
+    function openCmdKModal() {
+      const modal = document.getElementById('cmd-k-modal');
+      if (modal) {
+        modal.classList.add('active');
+        const input = document.getElementById('cmd-k-input');
+        if (input) {
+          input.value = '';
+          input.focus();
+          handleCmdKInput();
+        }
+      }
+    }
+
+    function closeCmdKModal(event) {
+      if (event && event.target && event.target.id !== 'cmd-k-modal' && !event.target.classList.contains('cmd-k-esc')) {
+        return;
+      }
+      const modal = document.getElementById('cmd-k-modal');
+      if (modal) modal.classList.remove('active');
+    }
+
+    window.addEventListener('keydown', (e) => {
+      if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+        e.preventDefault();
+        openCmdKModal();
+      }
+      if (e.key === 'Escape') {
+        closeCmdKModal();
+        closeInspectorDrawer();
+      }
+    });
+
+    async function handleCmdKInput() {
+      const input = document.getElementById('cmd-k-input');
+      const resultsContainer = document.getElementById('cmd-k-results');
+      if (!input || !resultsContainer) return;
+
+      const query = input.value.trim().toLowerCase();
+      if (!query) {
+        resultsContainer.innerHTML = '<div class="cmd-k-empty">Type to search 759 streets and 128,000+ directory records...</div>';
+        return;
+      }
+
+      if (!masterStreetsList || masterStreetsList.length === 0) {
+        await loadMasterIndex();
+      }
+
+      // Match Streets
+      const matchingStreets = (masterStreetsList || [])
+        .filter(s => s && s.displayName && s.displayName.toLowerCase().includes(query))
+        .slice(0, 5);
+
+      // Match Residents & Trades from Search Index
+      const indexData = await loadSearchIndex();
+      const matchingPeople = [];
+      const matchingOccupations = [];
+
+      if (indexData && indexData.length) {
+        for (let i = 0; i < indexData.length; i++) {
+          const r = indexData[i];
+          const fullName = r.n || '';
+          const trade = r.t || '';
+          const street = r.s || '';
+
+          const locKey = r.k || '';
+          const isNum = /^\d+[a-zA-Z]?$/.test(locKey);
+          const addrLabel = isNum ? `No. ${locKey} ${street}` : (locKey && locKey !== fullName ? `${locKey}, ${street}` : street);
+
+          if (matchingPeople.length < 5 && fullName.toLowerCase().includes(query)) {
+            matchingPeople.push({
+              name: fullName,
+              street: street,
+              address: addrLabel,
+              trade: trade || 'Resident'
+            });
+          }
+
+          if (matchingOccupations.length < 5 && trade && trade.toLowerCase().includes(query)) {
+            matchingOccupations.push({
+              name: fullName,
+              street: street,
+              address: addrLabel,
+              trade: trade
+            });
+          }
+
+          if (matchingPeople.length >= 5 && matchingOccupations.length >= 5) break;
+        }
+      }
+
+      if (matchingStreets.length === 0 && matchingPeople.length === 0 && matchingOccupations.length === 0) {
+        resultsContainer.innerHTML = `<div class="cmd-k-empty">No matching records found for "${query}". Try searching a person's surname or street...</div>`;
+        return;
+      }
+
+      let html = '';
+
+      if (matchingStreets.length > 0) {
+        html += '<div style="font-size: 0.7rem; font-weight: 700; color: var(--text-muted); letter-spacing: 0.08em; padding: 0.4rem 0.5rem 0.2rem;">STREETS</div>';
+        html += matchingStreets.map(s => `
+          <a href="#street=${encodeURIComponent(s.displayName)}" class="cmd-k-result-item" onclick="closeCmdKModal()">
+            <div>
+              <div class="cmd-k-res-title"><i class="ph ph-path" style="color: var(--accent); margin-right: 6px;"></i> ${s.displayName}</div>
+              <div class="cmd-k-res-sub">${s.recordsCount || 0} directory entries • ${s.yearsSpan || ''}</div>
+            </div>
+            <i class="ph ph-caret-right" style="color: var(--text-muted);"></i>
+          </a>
+        `).join('');
+      }
+
+      if (matchingPeople.length > 0) {
+        html += '<div style="font-size: 0.7rem; font-weight: 700; color: var(--text-muted); letter-spacing: 0.08em; padding: 0.6rem 0.5rem 0.2rem;">RESIDENTS & PERSONS</div>';
+        html += matchingPeople.map(p => {
+          const safeName = (p.name || '').replace(/'/g, "\\'");
+          return `
+          <div class="cmd-k-result-item" style="cursor: pointer; display: flex; align-items: center; justify-content: space-between;" onclick="closeCmdKModal(); openPersonTimelineModal('${safeName}', event);">
+            <div>
+              <div class="cmd-k-res-title"><i class="ph ph-user-focus" style="color: var(--accent); margin-right: 6px;"></i> ${p.name}</div>
+              <div class="cmd-k-res-sub">${p.trade} • ${p.address || p.street}</div>
+            </div>
+            <button class="header-btn" style="padding: 0.2rem 0.5rem; font-size: 0.72rem; background: var(--accent-light); color: var(--accent-hover); border-color: var(--accent-border);">Timeline Report</button>
+          </div>
+        `;
+        }).join('');
+      }
+
+      if (matchingOccupations.length > 0) {
+        html += '<div style="font-size: 0.7rem; font-weight: 700; color: var(--text-muted); letter-spacing: 0.08em; padding: 0.6rem 0.5rem 0.2rem;">TRADES & ENTITIES</div>';
+        html += matchingOccupations.map(o => `
+          <a href="#search=${encodeURIComponent(query)}" class="cmd-k-result-item" onclick="closeCmdKModal()">
+            <div>
+              <div class="cmd-k-res-title"><i class="ph ph-briefcase" style="color: var(--accent); margin-right: 6px;"></i> ${o.trade} (${o.name})</div>
+              <div class="cmd-k-res-sub">${o.address || o.street}</div>
+            </div>
+            <i class="ph ph-caret-right" style="color: var(--text-muted);"></i>
+          </a>
+        `).join('');
+      }
+
+      resultsContainer.innerHTML = html;
+    }
+
+    // --- Right Slide-Over Inspector Drawer Controls ---
+    function openInspectorDrawer(targetKey) {
+      const overlay = document.getElementById('inspector-overlay');
+      const drawer = document.getElementById('inspector-drawer');
+      if (!overlay || !drawer || !window._currentStreetLocations) return;
+
+      const rawTarget = String(targetKey || '').trim();
+      const numStripped = rawTarget.replace(/^num-/, '');
+      const cleanTarget = cleanStr(rawTarget);
+
+      const loc = window._currentStreetLocations.find(l => 
+        l.targetKey === rawTarget || 
+        l.targetKey === numStripped || 
+        l.key === rawTarget || 
+        l.key === `num-${numStripped}` || 
+        l.key === cleanTarget ||
+        (l.targetKey && cleanStr(l.targetKey) === cleanTarget) ||
+        (l.key && cleanStr(l.key) === cleanTarget)
+      );
+      if (!loc) return;
+
+      document.getElementById('drawer-house-num').innerText = loc.displayTitle;
+      document.getElementById('drawer-street-name').innerText = currentStreet;
+
+      const yearsRecorded = Array.from(new Set(loc.records.map(r => r.year).filter(Boolean))).sort((a,b) => parseInt(a) - parseInt(b));
+      document.getElementById('drawer-earliest').innerText = yearsRecorded[0] || '-';
+      document.getElementById('drawer-latest').innerText = yearsRecorded[yearsRecorded.length - 1] || '-';
+      document.getElementById('drawer-total').innerText = loc.records.length;
+
+      // Sort timeline records descending (newest first)
+      const sortedRecords = [...loc.records].sort((a, b) => parseInt(b.year) - parseInt(a.year));
+
+      const listContainer = document.getElementById('drawer-timeline-list');
+      listContainer.innerHTML = sortedRecords.map(r => `
+        <div class="drawer-timeline-item">
+          <div class="timeline-year-badge"><i class="ph ph-calendar"></i> ${r.year} Directory</div>
+          <div class="timeline-resident-name">${r.cleanFullName || 'Residence'}</div>
+          ${r.trade && r.trade !== 'Residence / Private' ? `<div class="timeline-trade-title">${r.trade}</div>` : ''}
+        </div>
+      `).join('');
+
+      overlay.classList.add('active');
+      drawer.classList.add('active');
+    }
+
+    function closeInspectorDrawer() {
+      const overlay = document.getElementById('inspector-overlay');
+      const drawer = document.getElementById('inspector-drawer');
+      if (overlay) overlay.classList.remove('active');
+      if (drawer) drawer.classList.remove('active');
+    }
+
     async function renderStreetView(rawStreetName) {
       const displayName = rawStreetName.trim();
       currentStreet = displayName;
-      document.getElementById('street-title').innerText = displayName;
-      document.getElementById('street-heading').innerText = displayName;
+      const streetTitleElem = document.getElementById('street-title');
+      if (streetTitleElem) streetTitleElem.innerText = displayName;
+      const streetHeadingElem = document.getElementById('street-heading');
+      if (streetHeadingElem) streetHeadingElem.innerText = displayName;
 
       const streetData = await loadStreetData(rawStreetName);
-      const streetRecords = streetData.records || [];
+      const rawRecords = streetData.records || [];
 
-      // Calculate street development origin era
-      const streetYears = streetRecords.map(r => parseInt(r.year)).filter(y => !isNaN(y)).sort((a,b) => a - b);
+      // Clean & parse raw directory records
+      const cleanRecords = [];
+      const sideJunctions = [];
+
+      rawRecords.forEach((r, idx) => {
+        let hNum = (r.house_number || '').trim();
+        let bName = (r.building_name || '').trim();
+        let surname = (r.surname || '').replace(/^[-~\s]+/, '').trim();
+        let forename = (r.forename || '').trim();
+        let trade = (r.trade || '').trim();
+
+        const combinedText = `${hNum} ${bName} ${surname} ${forename} ${trade}`;
+
+        // Catch Side-Street / Junction markers (e.g. "here is Union street", "ADELAIDE STREET, C")
+        const junctionMatch = combinedText.match(/here is ([^,;]+)/i) || 
+                              hNum.match(/^([A-Z\s]{4,}\s+STREET|[A-Z\s]{4,}\s+ROAD)/i);
+        if (junctionMatch) {
+          const sideStreetName = junctionMatch[1].trim();
+          sideJunctions.push({ idx: idx, year: r.year, sideStreet: sideStreetName });
+        }
+
+        // Catch OCR headers or empty artifact rows (e.g. "Alb", "Agi", "return.")
+        if (surname.match(/^(return\.?|&|&c|etc|\{.*\}|;;;)$/i) || (hNum.match(/^[A-Z]{3}$/) && !surname && !forename)) {
+          return;
+        }
+
+        // Catch rows where surname spilled into house_number (e.g. house_number="Cox", surname="Arthur", forename="labourer")
+        if (hNum && !/\d/.test(hNum)) {
+          const isKnownBuilding = /villa|house|cottage|hall|lodge|terrace|court|place|mansion|mount|arms|inn|tavern|hotel|chapel|church|school|hospital|works|factory|buildings/i.test(hNum);
+          if (!isKnownBuilding) {
+            if (!bName) bName = '';
+            if (surname && forename) {
+              trade = forename;
+              forename = surname;
+              surname = hNum;
+              hNum = '';
+            } else if (surname && !forename) {
+              trade = surname;
+              surname = hNum;
+              hNum = '';
+            } else {
+              surname = hNum;
+              hNum = '';
+            }
+          } else {
+            bName = hNum;
+            hNum = '';
+          }
+        }
+
+        // Handle honorific titles (e.g. "Mrs", "Miss", "Mr") stored in trade column
+        let titlePrefix = '';
+        if (trade && /^(mrs\.?|miss\.?|mr\.?|dr\.?|rev\.?)$/i.test(trade.trim())) {
+          titlePrefix = trade.trim();
+        } else if (trade && /\((mrs\.?|miss\.?|mr\.?)\)/i.test(trade.trim())) {
+          const match = trade.trim().match(/\((mrs\.?|miss\.?|mr\.?)\)/i);
+          titlePrefix = match[1];
+        }
+
+        let fullDisplayName = surname;
+        if (forename && titlePrefix) {
+          fullDisplayName = `${titlePrefix} ${expandForename(forename)} ${surname}`;
+        } else if (forename) {
+          fullDisplayName = `${expandForename(forename)} ${surname}`;
+        } else if (titlePrefix) {
+          fullDisplayName = `${titlePrefix} ${surname}`;
+        }
+
+        // Clean trade
+        const cleanTradeTitle = cleanOccupation(trade);
+
+        cleanRecords.push({
+          ...r,
+          house_number: hNum,
+          building_name: bName,
+          surname: surname,
+          forename: forename,
+          trade: cleanTradeTitle,
+          rawTrade: trade,
+          cleanFullName: fullDisplayName
+        });
+      });
+
+      // Calculate street era & statistics
+      const streetYears = Array.from(new Set(cleanRecords.map(r => r.year).filter(Boolean))).sort((a,b) => parseInt(a) - parseInt(b));
       const firstYr = streetYears.length ? streetYears[0] : 1876;
       const lastYr = streetYears.length ? streetYears[streetYears.length - 1] : 1950;
       
       let eraText = '';
-      if (firstYr <= 1876) eraText = '📜 Victorian Core Street (Recorded since 1876)';
-      else if (firstYr <= 1897) eraText = `🏛️ Late Victorian Urban Expansion (First recorded in ${firstYr} directory)`;
-      else if (firstYr <= 1914) eraText = `🏡 Edwardian Housing Expansion (First recorded in ${firstYr} directory)`;
-      else if (firstYr <= 1939) eraText = `🌳 Interwar Garden Suburb / Municipal Estate (First recorded in ${firstYr} directory)`;
+      if (parseInt(firstYr) <= 1876) eraText = '📜 Victorian Core Street (Recorded since 1876)';
+      else if (parseInt(firstYr) <= 1897) eraText = `🏛️ Late Victorian Urban Expansion (First recorded in ${firstYr} directory)`;
+      else if (parseInt(firstYr) <= 1914) eraText = `🏡 Edwardian Housing Expansion (First recorded in ${firstYr} directory)`;
+      else if (parseInt(firstYr) <= 1939) eraText = `🌳 Interwar Garden Suburb / Municipal Estate (First recorded in ${firstYr} directory)`;
       else eraText = `🏗️ Post-War Development (First recorded in ${firstYr} directory)`;
 
-      // Render former names or modern renamed name badge if recorded in street summary
       const summary = streetData.summary || {};
       const formerNames = summary.formerNames || [];
       const renamedTo = summary.renamedTo || summary.modernName || '';
       const lat = summary.latitude || '';
       const lon = summary.longitude || '';
+      const isVerified = summary.isVerified || false;
       const streetSlug = cleanSlug(displayName);
       
       const heroMediaElem = document.getElementById('street-hero-media');
       if (heroMediaElem) {
         if (lat && lon) {
           heroMediaElem.innerHTML = `
-            <div style="border: 1px solid var(--accent-muted); border-radius: 10px; overflow: hidden; background: #120f0d; box-shadow: 0 8px 24px rgba(0,0,0,0.5);">
-              <div style="position: relative; overflow: hidden; height: 210px; background: #000;">
-                <img src="assets/images/streetview/${streetSlug}.jpg" alt="${displayName} Street View" style="width: 100%; height: 100%; object-fit: cover; display: block;" onerror="this.onerror=null; document.getElementById('street-hero-media').style.display='none';" />
-              </div>
-              <div style="padding: 0.6rem 0.9rem; background: rgba(18, 15, 13, 0.95); font-size: 0.82rem; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid var(--accent-muted);">
-                <span style="color: var(--accent); font-weight: 500; display: inline-flex; align-items: center; gap: 0.3rem;">📍 <strong>${lat}, ${lon}</strong></span>
-                <a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${lat},${lon}" target="_blank" rel="noopener" style="color: var(--accent); text-decoration: underline; font-weight: 600;">Explore Street View ↗</a>
+            <div style="border: 1px solid var(--card-border); border-radius: 10px; overflow: hidden; background: #FFFFFF; box-shadow: 0 4px 16px rgba(0,0,0,0.06);">
+              <div id="street-leaflet-map" style="height: 220px; width: 100%; background: #F4F1EA;"></div>
+              <div style="padding: 0.6rem 0.9rem; background: #FFFFFF; font-size: 0.82rem; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid var(--card-border);">
+                <span style="color: var(--accent); font-weight: 600; display: inline-flex; align-items: center; gap: 0.3rem;"><i class="ph ph-map-pin"></i> <strong>${lat}, ${lon}</strong></span>
+                <a href="https://www.openstreetmap.org/?mlat=${lat}&mlon=${lon}#map=17/${lat}/${lon}" target="_blank" rel="noopener" style="color: var(--accent); text-decoration: underline; font-weight: 600; display: inline-flex; align-items: center; gap: 0.25rem;">Explore Full Map <i class="ph ph-arrow-square-out"></i></a>
               </div>
             </div>`;
+          heroMediaElem.style.display = 'block';
+
+          setTimeout(() => {
+            if (window.L && document.getElementById('street-leaflet-map')) {
+              if (window._heroMapInstance) {
+                window._heroMapInstance.remove();
+              }
+              const map = L.map('street-leaflet-map', {
+                zoomControl: false,
+                dragging: false,
+                touchZoom: false,
+                doubleClickZoom: false,
+                scrollWheelZoom: false,
+                boxZoom: false,
+                keyboard: false,
+                attributionControl: false
+              }).setView([parseFloat(lat), parseFloat(lon)], 16);
+
+              L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png?key=cb1_2yvg_1_ff40e3899c6af5a0c5f71e43', {
+                maxZoom: 19,
+                subdomains: 'abcd'
+              }).addTo(map);
+
+              const goldIcon = L.divIcon({
+                className: 'custom-map-marker',
+                html: `<div style="background: #C59B27; width: 16px; height: 16px; border-radius: 50%; border: 3px solid #FFFFFF; box-shadow: 0 2px 8px rgba(0,0,0,0.3);"></div>`,
+                iconSize: [22, 22],
+                iconAnchor: [11, 11]
+              });
+
+              L.marker([parseFloat(lat), parseFloat(lon)], { icon: goldIcon }).addTo(map);
+              window._heroMapInstance = map;
+            }
+          }, 50);
           heroMediaElem.style.display = 'block';
         } else {
           heroMediaElem.style.display = 'none';
@@ -1070,207 +1425,524 @@ let selectedIndex = -1;
 
       let formerHTML = '';
       if (renamedTo) {
-        formerHTML += `<div style="margin-top: 0.75rem; display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
-            <span style="font-size: 0.85rem; color: var(--accent); background: rgba(200, 157, 84, 0.15); border: 1px solid var(--accent-muted); padding: 0.25rem 0.65rem; border-radius: 12px; font-weight: 500;">
+        formerHTML += `<div style="margin-top: 0.5rem; display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+            <span style="font-size: 0.85rem; color: var(--accent); background: rgba(197, 155, 39, 0.1); border: 1px solid var(--accent-muted); padding: 0.25rem 0.65rem; border-radius: 12px; font-weight: 500;">
               🔀 Renamed to: <a href="#street=${encodeURIComponent(renamedTo)}" style="color: var(--accent); text-decoration: underline; font-weight: 600;">${renamedTo}</a>
             </span>
            </div>`;
       }
-      if (formerNames.length > 0) {
-        const formerLinks = formerNames.map(fn => `<a href="#street=${encodeURIComponent(fn)}" style="color: var(--accent); text-decoration: underline; font-weight: 600;">${fn}</a>`).join(', ');
-        formerHTML += `<div style="margin-top: 0.75rem; display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
-            <span style="font-size: 0.85rem; color: var(--accent); background: rgba(200, 157, 84, 0.15); border: 1px solid var(--accent-muted); padding: 0.25rem 0.65rem; border-radius: 12px; font-weight: 500;">
-              📜 Formerly recorded as: <strong>${formerLinks}</strong>
-            </span>
-           </div>`;
-      }
 
-      const isPureCrossRefStreet = streetRecords.length > 0 && streetRecords.every(r => r.surname && r.surname.toLowerCase().startsWith('see '));
-      const crossRefRec = streetRecords.find(r => r.surname && r.surname.toLowerCase().startsWith('see '));
-      const introElem = document.getElementById('street-intro');
-      if (introElem) {
-        if (isPureCrossRefStreet && crossRefRec) {
-          const targetStreet = crossRefRec.surname.substring(4).trim();
-          introElem.innerHTML = `🏛️ Archival Directory Notice: In historical directories, <strong>${displayName}</strong> is an index cross-reference pointing readers to <strong>${targetStreet}</strong>. <a href="#street=${encodeURIComponent(targetStreet)}" style="color: #c89d54; text-decoration: underline; font-weight: 600; margin-left: 6px;">Check the ${targetStreet} Directory →</a>${formerHTML}`;
-          document.getElementById('house-grid').innerHTML = '';
-          return;
-        } else {
-          introElem.innerHTML = `<div>${eraText}. Recorded across ${streetRecords.length} directory entries from ${firstYr} to ${lastYr}.</div>${formerHTML}`;
-        }
-      }
+      document.getElementById('street-intro').innerHTML = `
+        <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.5;">
+          ${eraText} • <strong>${cleanRecords.length}</strong> directory entries recorded across <strong>${streetYears.length}</strong> directory volumes (${firstYr}–${lastYr}).
+          ${formerHTML}
+        </div>
+      `;
 
-      const locationsMap = new Map();
+      // Group records physical linear location / house number
+      const locationMap = new Map();
+      let seqIdx = 0;
 
-      streetRecords.forEach(r => {
-        let cleanSurname = (r.surname || '').replace(/^[-~\s]+/, '').trim();
-        let cleanForename = (r.forename || '').trim();
-        
-        let fullName = cleanForename ? `${cleanForename} ${cleanSurname}` : cleanSurname;
-        fullName = fullName.replace(/^[-~\s]+/, '').trim();
-
+      cleanRecords.forEach(r => {
         let key = '';
         let displayTitle = '';
-        let isExplicitLocation = false;
 
-        if (r.house_number && r.house_number !== '-' && r.house_number !== '~' && r.house_number !== '0') {
-          key = cleanStr(r.house_number);
-          displayTitle = r.house_number;
-          isExplicitLocation = true;
-        } else if (r.building_name && r.building_name !== '-' && r.building_name !== '~' && r.building_name !== '0') {
+        if (r.house_number) {
+          // Normalize numeric house numbers (e.g. "1", "No. 1", "1.") to standard number key
+          const numMatch = r.house_number.match(/^(\d+[a-zA-Z]?)/);
+          if (numMatch) {
+            key = `num-${numMatch[1].toLowerCase()}`;
+            displayTitle = `No. ${numMatch[1]}`;
+          } else {
+            key = cleanStr(r.house_number);
+            displayTitle = `No. ${r.house_number}`;
+          }
+        } else if (r.building_name) {
           key = cleanStr(r.building_name);
           displayTitle = r.building_name;
-          isExplicitLocation = true;
-        } else if (fullName) {
-          key = cleanStr(fullName);
-          displayTitle = fullName;
         }
 
-        if (!key) return;
+        if (!key) {
+          if (r.surname && (r.surname.toLowerCase().includes('here is') || r.surname.toLowerCase().includes('return'))) {
+            key = cleanStr(r.surname);
+            displayTitle = r.surname;
+          } else {
+            key = 'unnumbered';
+            displayTitle = 'Unnumbered Residence';
+          }
+        }
 
-        if (!locationsMap.has(key)) {
-          locationsMap.set(key, {
+        if (!locationMap.has(key)) {
+          locationMap.set(key, {
             key: key,
             displayTitle: displayTitle,
-            isExplicitLocation: isExplicitLocation,
-            targetKey: (r.house_number || r.building_name || fullName),
+            targetKey: r.house_number || r.building_name || (r.surname && (r.surname.toLowerCase().includes('here is') || r.surname.toLowerCase().includes('return')) ? r.surname : 'unnumbered'),
+            seqIdx: seqIdx++,
             records: []
           });
         }
-        locationsMap.get(key).records.push(r);
+        locationMap.get(key).records.push(r);
       });
 
-      const grid = document.getElementById('house-grid');
-      grid.innerHTML = '';
+      // Filter locationsList to only include valid house numbers, junctions, or real named buildings
+      const rawLocationsList = Array.from(locationMap.values());
+      const locationsList = rawLocationsList
+        .filter(loc => {
+          if (loc.key === 'unnumbered') return false;
+          if (loc.key.startsWith('num-')) return true;
+          if (loc.key.includes('hereis') || loc.key.includes('return') || (loc.displayTitle && (loc.displayTitle.toLowerCase().includes('here is') || loc.displayTitle.toLowerCase().includes('return')))) return true;
+          // For non-numeric keys, check if it's a genuine named building/court/church/garage
+          return /villa|house|cottage|hall|lodge|terrace|court|place|mansion|mount|arms|inn|tavern|hotel|chapel|church|school|hospital|works|factory|buildings|garage/i.test(loc.displayTitle);
+        })
+        .sort((a, b) => {
+          const getLocationRank = (loc) => {
+            const m = loc.displayTitle.match(/^No\.\s*(\d+)/i);
+            if (m) {
+              return parseInt(m[1]);
+            }
+            const t = loc.displayTitle.toLowerCase();
+            if (t.includes('crindau house') || t.includes('gas') || t.includes('glass') || t.includes('works') || t.includes('pottery')) return 500;
+            if (t.includes('here is') || t.includes('junction')) return 900;
+            return 1000 + loc.seqIdx;
+          };
+          return getLocationRank(a) - getLocationRank(b);
+        });
 
-      if (locationsMap.size === 0) {
-        grid.innerHTML = '<p style="color: var(--muted);">No matching property records found for this street.</p>';
+      window._currentStreetLocations = locationsList;
+      window._currentStreetJunctions = sideJunctions;
+      window._currentRawCleanRecords = cleanRecords;
+
+      const gridContainer = document.getElementById('house-grid');
+      if (!gridContainer) return;
+      gridContainer.innerHTML = '';
+
+      if (currentStreetViewMode === 'dual') {
+        renderDualSpatialView();
+        return;
+      }
+      if (currentStreetViewMode === 'matrix') {
+        renderMatrixView();
         return;
       }
 
-      // Partition locations into Numbered Properties, Named Villas & Buildings, and Unnumbered Listings
-      const numberedProperties = [];
-      const namedVillas = [];
-      const unnumberedListings = [];
+      // Default: Render Physical Walk Ledger Table
+      const ledgerCard = document.createElement('div');
+      ledgerCard.className = 'street-ledger-card';
 
-      Array.from(locationsMap.values()).forEach(loc => {
-        const hasHouseNum = loc.records.some(r => r.house_number && r.house_number !== '-' && r.house_number !== '~' && r.house_number !== '0');
-        const hasBldgName = loc.records.some(r => r.building_name && r.building_name !== '-' && r.building_name !== '~' && r.building_name !== '0');
+      // Ensure selected year is valid; default to latest directory year available for this street
+      if (!currentSelectedLedgerYear || currentSelectedLedgerYear === 'all' || !streetYears.map(String).includes(String(currentSelectedLedgerYear))) {
+        currentSelectedLedgerYear = streetYears[streetYears.length - 1] || '1882';
+      }
 
-        if (hasHouseNum) {
-          numberedProperties.push(loc);
-        } else if (hasBldgName) {
-          namedVillas.push(loc);
+      // Year Ghost Pill Buttons (snapshot view per directory edition)
+      const yearPillsHtml = streetYears.map(y => {
+        const isActive = String(currentSelectedLedgerYear) === String(y);
+        return `<button type="button" class="ledger-year-pill ${isActive ? 'active' : ''}" onclick="selectLedgerYear(${y}, this)">${y}</button>`;
+      }).join('');
+
+      ledgerCard.innerHTML = `
+        <div class="ledger-header-bar" style="display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 0.75rem 1rem; background: #FAF9F6; border-bottom: 1px solid var(--border-color); flex-wrap: wrap;">
+          <div style="display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap; flex: 1;">
+            <span style="font-weight: 700; font-size: 0.9rem; color: var(--accent); display: flex; align-items: center; gap: 0.4rem; white-space: nowrap;">
+              <i class="ph ph-list-numbers" style="font-size: 1.2rem;"></i> Snapshot Year:
+            </span>
+            <div class="ledger-year-pills-group" style="display: flex; align-items: center; gap: 0.35rem; flex-wrap: wrap;">
+              ${yearPillsHtml}
+            </div>
+          </div>
+          
+          <div style="position: relative; margin-left: auto;">
+            <i class="ph ph-magnifying-glass" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); color: var(--text-muted); font-size: 0.9rem;"></i>
+            <input type="text" id="ledger-filter-input" class="ledger-filter-input" placeholder="Filter occupant or trade..." oninput="filterStreetLedger()" style="padding-left: 1.9rem;" />
+          </div>
+        </div>
+
+        <table class="street-ledger-table">
+          <thead>
+            <tr>
+              <th style="width: 145px; white-space: nowrap;">No. / Property</th>
+              <th style="width: 240px;">Resident / Business Name</th>
+              <th style="width: 200px;">Trade / Notes</th>
+              <th>Directory Editions</th>
+              <th style="width: 130px; text-align: right;">Timeline Drawer</th>
+            </tr>
+          </thead>
+          <tbody id="street-ledger-body"></tbody>
+        </table>
+      `;
+
+      gridContainer.appendChild(ledgerCard);
+      renderLedgerBody(currentSelectedLedgerYear);
+    }
+
+    function selectLedgerYear(year, btnElem) {
+      currentSelectedLedgerYear = year;
+      document.querySelectorAll('.ledger-year-pill').forEach(b => b.classList.remove('active'));
+      if (btnElem) btnElem.classList.add('active');
+      renderLedgerBody(year);
+    }
+
+    // --- Street View Mode Switcher State ---
+    let currentStreetViewMode = 'ledger'; // 'ledger', 'dual', 'matrix'
+
+    function switchStreetViewMode(mode) {
+      currentStreetViewMode = mode;
+      document.querySelectorAll('.switcher-btn').forEach(b => b.classList.remove('active'));
+      const activeBtn = document.getElementById(`btn-mode-${mode}`);
+      if (activeBtn) activeBtn.classList.add('active');
+
+      const gridContainer = document.getElementById('house-grid');
+      if (!gridContainer || !window._currentStreetLocations) return;
+
+      if (mode === 'ledger') {
+        gridContainer.innerHTML = '';
+        renderStreetView(currentStreet);
+      } else if (mode === 'dual') {
+        renderDualSpatialView();
+      } else if (mode === 'matrix') {
+        renderMatrixView();
+      }
+    }
+
+        function renderDualSpatialView() {
+      const gridContainer = document.getElementById("house-grid");
+      if (!gridContainer || !window._currentStreetLocations) return;
+
+      const locations = window._currentStreetLocations;
+
+      // Smart partitioning: check if street has (return.) entry or explicit side tag
+      const outward = [];
+      const returnSide = [];
+
+      locations.forEach(loc => {
+        const first = loc.records[0];
+        const sideStr = (first.side || "").toLowerCase();
+        if (sideStr.includes("return")) {
+          returnSide.push(loc);
+        } else if (sideStr.includes("outward") || sideStr.includes("left")) {
+          outward.push(loc);
         } else {
-          unnumberedListings.push(loc);
+          // Fallback parsing for traditional odd/even streets
+          const m = loc.displayTitle.match(/^No\.\s*(\d+)/i);
+          const num = m ? parseInt(m[1]) : null;
+          if (num !== null) {
+            if (num <= 14) outward.push(loc);
+            else returnSide.push(loc);
+          } else {
+            outward.push(loc);
+          }
         }
       });
 
-      // Sort helpers
-      const parseNum = (str) => {
-        const m = str.match(/^(\d+)/);
-        return m ? parseInt(m[1]) : null;
-      };
-      const sortNumeric = (a, b) => {
-        const numA = parseNum(a.displayTitle);
-        const numB = parseNum(b.displayTitle);
-        if (numA !== null && numB !== null) return numA - numB;
-        if (numA !== null) return -1;
-        if (numB !== null) return 1;
-        return a.displayTitle.localeCompare(b.displayTitle);
-      };
-      const sortAlpha = (a, b) => a.displayTitle.localeCompare(b.displayTitle);
-
-      numberedProperties.sort(sortNumeric);
-      namedVillas.sort(sortAlpha);
-      unnumberedListings.sort(sortAlpha);
-
-      grid.style.display = 'flex';
-      grid.style.flexDirection = 'column';
-      grid.style.gap = '2.5rem';
-
-      function renderSection(title, locations) {
-        if (locations.length === 0) return;
-
-        const section = document.createElement('div');
-        section.innerHTML = `
-          <h3 style="font-family: var(--heading-font); font-size: 1.65rem; color: var(--accent); margin-bottom: 1rem; border-bottom: 1px solid var(--card-border); padding-bottom: 0.5rem; display: flex; align-items: center; gap: 0.75rem;">
-            <span>${title}</span>
-            <span style="font-size: 0.85rem; font-family: var(--sans-font); background: rgba(200, 157, 84, 0.12); color: var(--accent); padding: 0.2rem 0.6rem; border-radius: 12px; font-weight: 600;">${locations.length}</span>
-          </h3>
-          <div class="street-grid"></div>
+      const renderColumnList = (items) => items.map(loc => {
+        const first = loc.records[0];
+        const resName = first.cleanFullName || ((first.forename || "") + " " + (first.surname || "")).trim() || "Residence";
+        return `
+          <div class="street-ledger-row" style="padding: 0.75rem 1rem; border-bottom: 1px solid #F1F5F9; display: flex; justify-content: space-between; align-items: center; cursor: pointer;" onclick="openInspectorDrawer('${loc.targetKey}')">
+            <div>
+              <div class="ledger-num-cell" style="font-size: 1.1rem; font-weight: 700;">${loc.displayTitle}</div>
+              <div style="font-weight: 600; font-size: 0.9rem; color: #111827; margin-top: 0.15rem;">${resName}</div>
+              ${first.trade && first.trade !== "Residence / Private" ? `<div style="font-size: 0.78rem; color: #4A443F; margin-top: 2px;">${first.trade}</div>` : ""}
+            </div>
+            <span style="font-size: 0.85rem; font-weight: 600; color: #111827;">Residence</span>
+          </div>
         `;
-        const subGrid = section.querySelector('.street-grid');
+      }).join("");
 
-        locations.forEach(loc => {
-          const maxYear = Math.max(...loc.records.map(r => parseInt(r.year)).filter(y => !isNaN(y)));
-          const latestRecords = loc.records.filter(r => parseInt(r.year) === maxYear);
+      gridContainer.innerHTML = `
+        <div class="dual-spatial-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 1rem;">
+          <div class="spatial-column">
+            <div class="spatial-column-header" style="background: #FAF9F6; border: 1px solid var(--border-color); border-bottom: 2px solid var(--accent); padding: 0.75rem 1rem; font-weight: 700; color: var(--accent); border-radius: 8px 8px 0 0; display: flex; align-items: center; justify-content: space-between;">
+              <span><i class="ph ph-arrow-right"></i> Outward Walk (Left Hand Side: Nos. 1–14)</span>
+              <span class="year-pill-tag">${outward.length} Entries</span>
+            </div>
+            <div style="background: #FFFFFF; border: 1px solid var(--border-color); border-top: none; border-radius: 0 0 8px 8px;">
+              ${renderColumnList(outward) || '<div style="padding: 1.5rem; color: var(--text-muted);">No entries recorded.</div>'}
+            </div>
+          </div>
 
-          let residentName = '';
-          let tradeTitle = '';
+          <div class="spatial-column">
+            <div class="spatial-column-header" style="background: #FAF9F6; border: 1px solid var(--border-color); border-bottom: 2px solid var(--accent); padding: 0.75rem 1rem; font-weight: 700; color: var(--accent); border-radius: 8px 8px 0 0; display: flex; align-items: center; justify-content: space-between;">
+              <span><i class="ph ph-arrow-left"></i> Return Walk (Right Hand Side: Nos. 15–29)</span>
+              <span class="year-pill-tag">${returnSide.length} Entries</span>
+            </div>
+            <div style="background: #FFFFFF; border: 1px solid var(--border-color); border-top: none; border-radius: 0 0 8px 8px;">
+              ${renderColumnList(returnSide) || '<div style="padding: 1.5rem; color: var(--text-muted);">No entries recorded.</div>'}
+            </div>
+          </div>
+        </div>
+      `;
+    }
 
-          if (loc.isExplicitLocation) {
-            if (latestRecords.length === 1) {
-              const r = latestRecords[0];
-              const sName = (r.surname || '').replace(/^[-~\s]+/, '').trim();
-              const fName = (r.forename || '').trim();
-              const name = fName ? `${expandForename(fName)} ${sName}` : sName;
-              residentName = name;
-              tradeTitle = cleanOccupation(r.trade);
-            } else {
-              const first = latestRecords[0];
-              const sName = (first.surname || '').replace(/^[-~\s]+/, '').trim();
-              const fName = (first.forename || '').trim();
-              const firstName = fName ? `${expandForename(fName)} ${sName}` : sName;
-              residentName = `${firstName} + ${latestRecords.length - 1} other${latestRecords.length > 2 ? 's' : ''}`;
-              tradeTitle = cleanOccupation(first.trade);
+    function renderMatrixView() {
+      const gridContainer = document.getElementById('house-grid');
+      if (!gridContainer || !window._currentStreetLocations) return;
+
+      const locations = window._currentStreetLocations;
+
+      // Extract all directory years across records
+      const allYears = Array.from(new Set(locations.flatMap(loc => loc.records.map(r => r.year)))).sort((a,b) => parseInt(a) - parseInt(b));
+
+      gridContainer.innerHTML = `
+        <div class="matrix-container" style="background: #FFFFFF; border: 1px solid var(--border-color); border-radius: 10px; overflow-x: auto; width: 100%; box-shadow: 0 2px 10px rgba(0,0,0,0.02);">
+          <table class="street-ledger-table" style="width: 100%; table-layout: fixed;">
+            <thead>
+              <tr>
+                <th style="width: 140px; white-space: nowrap;">House #</th>
+                ${allYears.map(yr => `<th style="width: 220px;">${yr} Directory</th>`).join('')}
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              ${locations.map(loc => {
+                const isJunction = loc.displayTitle && loc.displayTitle.toLowerCase().includes('here is');
+                if (isJunction) {
+                  const jName = loc.displayTitle.replace(/here is\s*/i, '').trim();
+                  return `
+                    <tr class="ledger-junction-row">
+                      <td colspan="${allYears.length + 2}" style="padding: 0.35rem 0.5rem;">
+                        <a href="#street=${encodeURIComponent(jName)}" style="display: flex; align-items: center; justify-content: space-between; text-decoration: none; color: var(--accent); font-weight: 700; font-size: 0.9rem; padding: 0.3rem 0.5rem; background: rgba(197, 155, 39, 0.06); border-radius: 6px;">
+                          <span style="display: flex; align-items: center; gap: 0.5rem;"><i class="ph ph-git-fork" style="font-size: 1.1rem;"></i> Junction: <strong>here is ${jName}</strong></span>
+                          <span style="font-size: 0.8rem; font-weight: 600; display: inline-flex; align-items: center; gap: 0.2rem;">Explore ${jName} Directory <i class="ph ph-arrow-right"></i></span>
+                        </a>
+                      </td>
+                    </tr>
+                  `;
+                }
+                return `
+                <tr>
+                  <td style="font-weight: 700; color: var(--accent); cursor: pointer;" onclick="openInspectorDrawer('${loc.targetKey}')">${loc.displayTitle}</td>
+                  ${allYears.map(yr => {
+                    const yrRecs = loc.records.filter(r => String(r.year) === String(yr));
+                    if (yrRecs.length > 0) {
+                      const namesStr = yrRecs.map(r => r.cleanFullName || 'Occupied').join(' / ');
+                      return `<td style="font-size: 0.82rem; font-weight: 500; cursor: pointer;" onclick="openInspectorDrawer('${loc.targetKey}')">${namesStr}</td>`;
+                    }
+                    return `<td style="color: var(--text-muted); font-size: 0.8rem;">—</td>`;
+                  }).join('')}
+                  <td></td>
+                </tr>
+              `;
+              }).join('')}
+            </tbody>
+          </table>
+        </div>
+      `;
+    }
+
+    function renderLedgerBody(yearFilter) {
+      const tbody = document.getElementById('street-ledger-body');
+      if (!tbody || !window._currentStreetLocations) return;
+
+      tbody.innerHTML = '';
+
+      // If a specific year edition is selected (e.g. 1903), render 100% verbatim scan sequence for that volume
+      if (yearFilter && yearFilter !== 'all') {
+        const yearRecords = window._currentRawCleanRecords ? window._currentRawCleanRecords.filter(r => String(r.year) === String(yearFilter)) : [];
+        if (yearRecords.length > 0) {
+          yearRecords.forEach(r => {
+            const surnameLower = (r.surname || '').toLowerCase();
+            const displayTitleLower = (r.building_name || r.house_number || '').toLowerCase();
+
+            // Render printed volume header row (e.g. "From Depôt-st. to Station-st. [LEFT HAND SIDE]")
+            if (surnameLower.startsWith('from ') || surnameLower.includes('side]')) {
+              const trHeader = document.createElement('tr');
+              trHeader.className = 'ledger-junction-row';
+              trHeader.innerHTML = `
+                <td colspan="5">
+                  <div style="display: flex; align-items: center; justify-content: center; gap: 0.5rem; color: var(--text-secondary); font-weight: 600; font-size: 0.85rem; font-style: italic; padding: 0.35rem 0.5rem; background: rgba(0, 0, 0, 0.03); border-radius: 6px; border: 1px dashed var(--border-color);">
+                    <i class="ph ph-map-pin-line" style="font-size: 1rem; color: var(--accent);"></i> ${r.surname}
+                  </div>
+                </td>
+              `;
+              tbody.appendChild(trHeader);
+              return;
             }
-          } else {
-            const r = latestRecords[0];
-            residentName = cleanOccupation(r.trade);
-          }
 
-          let cleanTitle = loc.displayTitle.replace(/^[-~\s]+/, '').trim();
-          const bldg = loc.records.find(r => {
-            if (!r.building_name || r.building_name === '-' || r.building_name === '~' || r.building_name === '0') return false;
-            const b = r.building_name.trim();
-            if (r.surname && b.toLowerCase().includes(r.surname.toLowerCase())) return false;
-            return true;
+            // Render (return.) divider row
+            if (surnameLower.includes('return') || displayTitleLower.includes('return')) {
+              const trReturn = document.createElement('tr');
+              trReturn.className = 'ledger-junction-row';
+              trReturn.innerHTML = `
+                <td colspan="5">
+                  <div style="display: flex; align-items: center; justify-content: center; gap: 0.5rem; color: var(--accent); font-weight: 700; font-size: 0.88rem; padding: 0.35rem 0.5rem; background: rgba(197, 155, 39, 0.06); border-radius: 6px; letter-spacing: 0.05em; text-transform: uppercase;">
+                    <i class="ph ph-arrow-u-up-left" style="font-size: 1.1rem;"></i> (return side of street)
+                  </div>
+                </td>
+              `;
+              tbody.appendChild(trReturn);
+              return;
+            }
+
+            // Render side street junction row
+            if (surnameLower.includes('here is')) {
+              const junctionStreetName = r.surname.replace(/here is\s*/i, '').trim();
+              const trJunction = document.createElement('tr');
+              trJunction.className = 'ledger-junction-row';
+              trJunction.innerHTML = `
+                <td colspan="5">
+                  <a href="#street=${encodeURIComponent(junctionStreetName)}" style="display: flex; align-items: center; justify-content: space-between; text-decoration: none; color: var(--accent); font-weight: 700; font-size: 0.92rem; padding: 0.35rem 0.5rem; background: rgba(197, 155, 39, 0.06); border-radius: 6px;">
+                    <span style="display: flex; align-items: center; gap: 0.5rem;"><i class="ph ph-git-fork" style="font-size: 1.2rem;"></i> Junction: <strong>here is ${junctionStreetName}</strong></span>
+                    <span style="font-size: 0.82rem; font-weight: 600; display: inline-flex; align-items: center; gap: 0.2rem;">Explore ${junctionStreetName} Directory <i class="ph ph-arrow-right"></i></span>
+                  </a>
+                </td>
+              `;
+              tbody.appendChild(trJunction);
+              return;
+            }
+
+            let houseLabel = r.house_number ? `No. ${r.house_number}` : (r.building_name || '');
+            let residentName = r.cleanFullName || 'Residence / Vacant';
+            let targetKey = r.house_number || r.building_name || 'unnumbered';
+
+            const tr = document.createElement('tr');
+            tr.className = 'street-ledger-row';
+            tr.style.cursor = 'pointer';
+            tr.onclick = () => openInspectorDrawer(targetKey);
+            tr.innerHTML = `
+              <td>
+                <div class="ledger-num-cell">${houseLabel}</div>
+              </td>
+              <td>
+                <div class="ledger-resident-name-link" style="cursor: pointer;" onclick="event.stopPropagation(); openInspectorDrawer('${targetKey}')">
+                  <span>${residentName}</span>
+                </div>
+                ${r.building_name && r.house_number ? `<div style="font-size: 0.78rem; color: var(--accent); margin-top: 2px;">📍 ${r.building_name}</div>` : ''}
+              </td>
+              <td>
+                <div class="ledger-trade-text">${r.trade || 'Private Resident'}</div>
+              </td>
+              <td>
+                <div class="year-pills-wrapper">
+                  <span class="year-pill-tag" title="Recorded in ${r.year} Directory">${r.year}</span>
+                </div>
+              </td>
+              <td style="text-align: right;">
+                <button onclick="event.stopPropagation(); openInspectorDrawer('${targetKey}')" class="ledger-drawer-btn">
+                  <i class="ph ph-sidebar-simple"></i> View History
+                </button>
+              </td>
+            `;
+            tbody.appendChild(tr);
           });
-
-          let headerTitleHtml = '';
-          if (bldg && cleanTitle !== bldg.building_name) {
-            headerTitleHtml = `
-              <span class="card-num">${cleanTitle}</span>
-              <span class="card-sep">—</span>
-              <span class="card-hname">${bldg.building_name}</span>
-            `;
-          } else {
-            headerTitleHtml = `
-              <span class="card-num">${cleanTitle}</span>
-            `;
-          }
-
-          const card = document.createElement('a');
-          card.className = 'street-card';
-          card.href = `#house=${encodeURIComponent(displayName + '|' + loc.targetKey)}`;
-          card.innerHTML = `
-            <div class="card-top-section">
-              ${headerTitleHtml}
-            </div>
-            <div class="card-body-section">
-              <div class="card-resident-name">${residentName || 'Residence'}</div>
-              ${tradeTitle && tradeTitle !== 'Residence / Private' ? `<div class="card-trade-title">${tradeTitle}</div>` : ''}
-            </div>
-          `;
-          subGrid.appendChild(card);
-        });
-
-        grid.appendChild(section);
+          return;
+        }
       }
 
-      renderSection('Numbered Properties', numberedProperties);
-      renderSection('Named Villas & Buildings', namedVillas);
-      renderSection('Unnumbered Listings / Other', unnumberedListings);
+      const locations = window._currentStreetLocations;
+      const junctions = window._currentStreetJunctions || [];
+
+      locations.forEach((loc, idx) => {
+        // Filter records by selected year if specific year selected
+        let matchingRecords = loc.records;
+        if (yearFilter !== 'all') {
+          matchingRecords = loc.records.filter(r => String(r.year) === String(yearFilter));
+        }
+
+        if (!matchingRecords || matchingRecords.length === 0) return;
+
+        // Get target record in dataset for occupant info based on selected year filter
+        const targetYear = (yearFilter && yearFilter !== 'all') ? parseInt(yearFilter) : Math.min(...matchingRecords.map(r => parseInt(r.year)).filter(y => !isNaN(y)));
+        const targetRecs = matchingRecords.filter(r => parseInt(r.year) === targetYear);
+        const first = targetRecs[0] || matchingRecords[0];
+
+        // Render side street junction row or (return.) divider row if encountered in sequence
+        const isReturnRecord = (first && first.surname && first.surname.toLowerCase().includes('return')) ||
+                               (loc.displayTitle && loc.displayTitle.toLowerCase().includes('return'));
+        if (isReturnRecord) {
+          const trReturn = document.createElement('tr');
+          trReturn.className = 'ledger-junction-row';
+          trReturn.innerHTML = `
+            <td colspan="5">
+              <div style="display: flex; align-items: center; justify-content: center; gap: 0.5rem; color: var(--accent); font-weight: 700; font-size: 0.88rem; padding: 0.35rem 0.5rem; background: rgba(197, 155, 39, 0.06); border-radius: 6px; letter-spacing: 0.05em; text-transform: uppercase;">
+                <i class="ph ph-arrow-u-up-left" style="font-size: 1.1rem;"></i> (return side of street)
+              </div>
+            </td>
+          `;
+          tbody.appendChild(trReturn);
+          return;
+        }
+
+        const isJunctionRecord = (first && first.surname && first.surname.toLowerCase().includes('here is')) || 
+                                 (loc.displayTitle && loc.displayTitle.toLowerCase().includes('here is')) ||
+                                 (loc.location && loc.location.toLowerCase().includes('here is'));
+        if (isJunctionRecord) {
+          const junctionText = (first && first.surname && first.surname.toLowerCase().includes('here is')) 
+                               ? first.surname 
+                               : (loc.displayTitle || loc.location);
+          const junctionStreetName = junctionText.replace(/here is\s*/i, '').trim();
+          const trJunction = document.createElement('tr');
+          trJunction.className = 'ledger-junction-row';
+          trJunction.innerHTML = `
+            <td colspan="5">
+              <a href="#street=${encodeURIComponent(junctionStreetName)}" style="display: flex; align-items: center; justify-content: space-between; text-decoration: none; color: var(--accent); font-weight: 700; font-size: 0.92rem; padding: 0.35rem 0.5rem; background: rgba(197, 155, 39, 0.06); border-radius: 6px;">
+                <span style="display: flex; align-items: center; gap: 0.5rem;"><i class="ph ph-git-fork" style="font-size: 1.2rem;"></i> Junction: <strong>here is ${junctionStreetName}</strong></span>
+                <span style="font-size: 0.82rem; font-weight: 600; display: inline-flex; align-items: center; gap: 0.2rem;">Explore ${junctionStreetName} Directory <i class="ph ph-arrow-right"></i></span>
+              </a>
+            </td>
+          `;
+          tbody.appendChild(trJunction);
+          return;
+        }
+
+        let residentName = first ? (first.cleanFullName || 'Residence / Vacant') : 'Residence / Vacant';
+        if (targetRecs.length > 1) {
+          residentName = `${first.cleanFullName} + ${targetRecs.length - 1} other occupant${targetRecs.length > 2 ? 's' : ''}`;
+        }
+
+        // Clean unnumbered OCR artifacts (hide unnumbered rows unless they are a named Villa, Building, Court, or Arms)
+        const isUnnumbered = !loc.displayTitle || loc.displayTitle.toLowerCase().includes('unnumbered') || loc.displayTitle === 'No. ';
+        if (isUnnumbered) {
+          const hasValidBldg = first.building_name && first.building_name !== '-' && first.building_name !== '~';
+          const isNamedCourtOrBuilding = first.surname && (first.surname.includes("Court") || first.surname.includes("Buildings") || first.surname.includes("Arms") || first.surname.includes("Terrace"));
+          if (!hasValidBldg && !isNamedCourtOrBuilding) return;
+        }
+
+        const iconInfo = getEntityIconInfo(first.rawTrade || first.trade, first.building_name, residentName);
+        const badgeHtml = iconInfo.badge ? `<span class="entity-badge badge-residence">${iconInfo.badge || 'Residence'}</span>` : `<span style="color: #111827; font-size: 0.9rem; font-weight: 600;">Residence</span>`;
+
+        let houseNoHtml = loc.displayTitle;
+        if (first.building_name && loc.displayTitle !== first.building_name) {
+          houseNoHtml += `<span class="ledger-bldg-name">${first.building_name}</span>`;
+        }
+
+        const yearsRecorded = Array.from(new Set(loc.records.map(r => r.year).filter(Boolean))).sort((a,b) => parseInt(a) - parseInt(b));
+        
+        // Render Directory Year Pills (e.g. 1878, 1882, 1898)
+        const yearPillsHtml = yearsRecorded.map(yr => 
+          `<span class="year-pill-tag" title="Recorded in ${yr} Directory" onclick="event.stopPropagation(); selectLedgerYear(${yr})">${yr}</span>`
+        ).join('');
+
+        const tr = document.createElement('tr');
+        tr.className = 'street-ledger-row';
+        tr.style.cursor = 'pointer';
+        tr.onclick = () => openInspectorDrawer(loc.targetKey);
+        tr.innerHTML = `
+          <td>
+            <div class="ledger-num-cell">${houseNoHtml}</div>
+          </td>
+          <td>
+            <div class="ledger-resident-name-link" style="cursor: pointer;" onclick="event.stopPropagation(); openInspectorDrawer('${loc.targetKey}')">
+              <span>${residentName}</span>
+            </div>
+            ${first.building_name ? `<div style="font-size: 0.78rem; color: var(--accent); margin-top: 2px;">📍 ${first.building_name}</div>` : ''}
+          </td>
+          <td>
+            <div class="ledger-trade-text">${first.trade !== 'Residence / Private' ? first.trade : 'Private Resident'}</div>
+          </td>
+          <td>
+            <div class="year-pills-wrapper">
+              ${yearPillsHtml}
+            </div>
+          </td>
+          <td style="text-align: right;">
+            <button onclick="event.stopPropagation(); openInspectorDrawer('${loc.targetKey}')" class="ledger-drawer-btn">
+              <i class="ph ph-sidebar-simple"></i> View History
+            </button>
+          </td>
+        `;
+        tbody.appendChild(tr);
+      });
     }
 
     // --- House & Building Timeline View State & Enhancements ---
@@ -1375,6 +2047,17 @@ let selectedIndex = -1;
         nextBtn.href = '#';
       }
 
+      // Clean up any raw cross-reference prefix from locationKey (e.g. "NewportSee Stow Hill" -> "Stow Hill")
+      const rawCleanLabel = locationKey.replace(/^(newport\s*)?see\s*/i, '').trim();
+      const seeMatch = locationKey.match(/(?:newport\s*)?see\s+(.*)/i);
+      const targetStreetRef = seeMatch ? seeMatch[1].trim() : null;
+
+      const displayLocationLabel = numMatch ? extractedHouseNum : rawCleanLabel;
+      const isNumeric = /^\d+[a-zA-Z]?(?:-\d+[a-zA-Z]?)?$/.test(displayLocationLabel.trim());
+      const headerLabel = displayLocationLabel;
+      const breadcrumbLabel = isNumeric ? `No. ${displayLocationLabel}` : displayLocationLabel;
+      const cleanStreetDisplay = displayName.replace(/^(newport\s*)?see\s*/i, '').trim();
+
       // 2. Filter records for this exact house / location
       currentHouseRecords = streetRecords
         .filter(r => {
@@ -1386,22 +2069,13 @@ let selectedIndex = -1;
 
           if (rHouseNum && (rHouseNum === cleanLocKey || rHouseNum === cleanExtractedNum)) return true;
           if (rBldgName && (rBldgName === cleanLocKey || rBldgName === cleanExtractedNum)) return true;
-          if (!rHouseNum && !rBldgName && (fullName === cleanLocKey || expandedFullName === cleanLocKey || cleanLocKey.includes(fullName) || fullName.includes(cleanLocKey))) return true;
+          if (!rHouseNum && !rBldgName && !isNumeric) {
+            if (fullName === cleanLocKey || expandedFullName === cleanLocKey || cleanLocKey.includes(fullName) || fullName.includes(cleanLocKey)) return true;
+          }
 
           return false;
         })
         .sort((a, b) => parseInt(b.year) - parseInt(a.year));
-
-      // Clean up any raw cross-reference prefix from locationKey (e.g. "NewportSee Stow Hill" -> "Stow Hill")
-      const rawCleanLabel = locationKey.replace(/^(newport\s*)?see\s*/i, '').trim();
-      const seeMatch = locationKey.match(/(?:newport\s*)?see\s+(.*)/i);
-      const targetStreetRef = seeMatch ? seeMatch[1].trim() : null;
-
-      const displayLocationLabel = numMatch ? extractedHouseNum : rawCleanLabel;
-      const isNumeric = /^\d+[a-zA-Z]?(?:-\d+[a-zA-Z]?)?$/.test(displayLocationLabel.trim());
-      const headerLabel = displayLocationLabel;
-      const breadcrumbLabel = isNumeric ? `No. ${displayLocationLabel}` : displayLocationLabel;
-      const cleanStreetDisplay = displayName.replace(/^(newport\s*)?see\s*/i, '').trim();
 
       document.getElementById('house-breadcrumb-num').innerText = breadcrumbLabel;
       document.getElementById('house-number-display').innerText = headerLabel;
@@ -2635,17 +3309,92 @@ let selectedIndex = -1;
         
         if (propModal && propModal.classList.contains('active')) {
           e.preventDefault();
-          saveRecordCorrection();
+          if (typeof saveRecordCorrection === 'function') saveRecordCorrection();
         } else if (regModal && regModal.classList.contains('active')) {
           e.preventDefault();
-          saveMasterRegistryEntry();
+          if (typeof saveMasterRegistryEntry === 'function') saveMasterRegistryEntry();
         }
       }
     });
 
+    // --- Navigation Router ---
+    async function navigate() {
+      let hash = window.location.hash || '#home';
+      if ((!hash || hash === '#home') && window.location.search && window.location.search.includes('#street=')) {
+        hash = window.location.search.substring(window.location.search.indexOf('#street='));
+      }
+      document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+      document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+
+      const autocompleteContainer = document.getElementById('autocomplete-results');
+      if (autocompleteContainer) autocompleteContainer.style.display = 'none';
+
+      await loadMasterStreets();
+
+      const breadcrumbElem = document.getElementById('breadcrumb-current');
+
+      if (hash.startsWith('#search=')) {
+        const query = decodeURIComponent(hash.substring(8)).trim();
+        const matched = masterStreetsList.find(s => cleanStr(s.displayName) === cleanStr(query));
+        if (matched) {
+          window.location.hash = `#street=${encodeURIComponent(matched.displayName)}`;
+          return;
+        } else {
+          document.getElementById('view-home').classList.add('active');
+          openCmdKModal();
+          const input = document.getElementById('cmd-k-input');
+          if (input) {
+            input.value = query;
+            handleCmdKInput();
+          }
+        }
+      } else if (hash.startsWith('#street=')) {
+        const rawStreet = decodeURIComponent(hash.substring(8));
+        await renderStreetView(rawStreet);
+        document.getElementById('view-street').classList.add('active');
+        const navItem = document.getElementById('nav-streets');
+        if (navItem) navItem.classList.add('active');
+        if (breadcrumbElem) breadcrumbElem.innerText = rawStreet;
+      } else if (hash.startsWith('#house=')) {
+        const parts = decodeURIComponent(hash.substring(7)).split('|');
+        const street = parts[0] || '';
+        const locKey = parts[1] || '';
+        if (currentStreet !== street) {
+          await renderStreetView(street);
+        }
+        document.getElementById('view-street').classList.add('active');
+        openInspectorDrawer(locKey);
+        if (breadcrumbElem) breadcrumbElem.innerText = `${street} • ${locKey}`;
+      } else if (hash === '#streets') {
+        renderStreetsView();
+        document.getElementById('view-streets').classList.add('active');
+        const navItem = document.getElementById('nav-streets');
+        if (navItem) navItem.classList.add('active');
+        if (breadcrumbElem) breadcrumbElem.innerText = 'All Streets Index';
+      } else if (hash === '#directories') {
+        renderDirectoriesView();
+        document.getElementById('view-directories').classList.add('active');
+        const navItem = document.getElementById('nav-directories');
+        if (navItem) navItem.classList.add('active');
+        if (breadcrumbElem) breadcrumbElem.innerText = 'Directories Library';
+      } else {
+        document.getElementById('view-home').classList.add('active');
+        const navItem = document.getElementById('nav-home');
+        if (navItem) navItem.classList.add('active');
+        if (breadcrumbElem) breadcrumbElem.innerText = 'Overview';
+      }
+
+      // Close mobile navigation sidebar on link click
+      const mobileSidebar = document.querySelector('.app-sidebar');
+      const mobileBackdrop = document.querySelector('.sidebar-backdrop');
+      if (mobileSidebar) mobileSidebar.classList.remove('mobile-open');
+      if (mobileBackdrop) mobileBackdrop.classList.remove('mobile-open');
+
+      window.scrollTo(0, 0);
+    }
+
     window.addEventListener('hashchange', navigate);
     window.addEventListener('DOMContentLoaded', async () => {
-      if (!document.getElementById('street-nav')) return;
       checkEditorMode();
       await loadMasterStreets();
       loadSessionFromLocalStorage();
@@ -2762,18 +3511,16 @@ let selectedIndex = -1;
       }
     }
 
+    function closeScanInspectorModal() {
+      const modal = document.getElementById('scan-inspector-modal');
+      if (modal) modal.classList.remove('active');
+    }
+
     function resetScanZoom() {
       currentScanZoomLevel = 1.0;
       const wrapper = document.getElementById('scan-image-wrapper');
       if (wrapper) {
         wrapper.style.transform = `scale(1.0)`;
-      }
-    }
-
-    function closeScanInspectorModal() {
-      const modal = document.getElementById('scan-inspector-modal');
-      if (modal) {
-        modal.classList.remove('active');
       }
     }
 
@@ -2783,3 +3530,145 @@ let selectedIndex = -1;
     window.changeScanPage = changeScanPage;
     window.zoomScan = zoomScan;
     window.resetScanZoom = resetScanZoom;
+
+    // --- Person History Timeline Plain Text Generator ---
+    async function openPersonTimelineModal(personQuery, e) {
+      if (e && e.stopPropagation) {
+        e.stopPropagation();
+        e.preventDefault();
+      }
+
+      const modal = document.getElementById('person-timeline-modal');
+      const textContainer = document.getElementById('person-timeline-text-content');
+      const titleEl = document.getElementById('person-timeline-title');
+      const subEl = document.getElementById('person-timeline-subtitle');
+
+      if (!modal || !textContainer) return;
+
+      textContainer.innerText = `Loading historical archive entries for "${personQuery}"...`;
+      modal.classList.add('active');
+
+      const reportText = await generatePersonTimelineText(personQuery);
+      textContainer.innerText = reportText;
+      if (titleEl) titleEl.innerText = `Person Timeline: ${personQuery}`;
+      if (subEl) subEl.innerText = `Fidelity Archive Report • Verified Directory Records`;
+    }
+
+    async function generatePersonTimelineText(queryStr) {
+      const indexData = await loadSearchIndex();
+      if (!indexData || !indexData.length) {
+        return `Error: Search index data unavailable.`;
+      }
+
+      const cleanQ = queryStr.trim().toLowerCase().replace(/[^a-z0-9\s]/g, '');
+      const tokens = cleanQ.split(/\s+/).filter(t => t.length > 0);
+
+      // Find matching person entries across all directory volumes
+      const matches = [];
+      for (let i = 0; i < indexData.length; i++) {
+        const r = indexData[i];
+        const fullName = (r.n || '').trim();
+        const cleanName = fullName.toLowerCase().replace(/[^a-z0-9\s]/g, '');
+        
+        // Match if query substring or all clean tokens are present in full name
+        let isMatch = cleanName.includes(cleanQ);
+        if (!isMatch && tokens.length > 0) {
+          isMatch = tokens.every(tok => cleanName.includes(tok));
+        }
+
+        if (isMatch) {
+          matches.push({
+            year: parseInt(r.y, 10) || 0,
+            name: fullName,
+            street: r.s || '',
+            houseNum: r.k || '',
+            trade: cleanOccupation(r.t || '')
+          });
+        }
+      }
+
+      if (matches.length === 0) {
+        return `==================================================\nPERSON HISTORICAL TIMELINE: ${queryStr}\n==================================================\nNo verified directory records found matching "${queryStr}".`;
+      }
+
+      // Sort matches chronologically
+      matches.sort((a, b) => a.year - b.year);
+
+      // Extract unique primary occupations
+      const tradesSet = new Set();
+      matches.forEach(m => {
+        if (m.trade && m.trade !== 'Residence / Private' && m.trade !== 'Commercial Entity') {
+          tradesSet.add(m.trade);
+        }
+      });
+      const primaryTrades = Array.from(tradesSet).join(' / ') || 'Resident / Private Occupant';
+
+      // Address progression breakdown
+      const addrMap = new Map();
+      matches.forEach(m => {
+        const isNum = /^\d+[a-zA-Z]?$/.test(m.houseNum);
+        const housePrefix = isNum ? `No. ${m.houseNum}` : (m.houseNum && m.houseNum !== m.name ? m.houseNum : '');
+        const addrLabel = housePrefix ? `${housePrefix}, ${m.street}` : m.street;
+        if (!addrMap.has(addrLabel)) {
+          addrMap.set(addrLabel, []);
+        }
+        addrMap.get(addrLabel).push(m.year);
+      });
+
+      const addrLines = [];
+      addrMap.forEach((years, addr) => {
+        const minYr = Math.min(...years);
+        const maxYr = Math.max(...years);
+        const yrSpan = minYr === maxYr ? `${minYr}` : `${minYr} – ${maxYr}`;
+        addrLines.push(`  • ${addr} (${yrSpan})`);
+      });
+
+      // Construct clean plain text summary report
+      let txt = `==================================================\n`;
+      txt += `PERSON HISTORICAL TIMELINE: ${matches[0].name}\n`;
+      txt += `==================================================\n`;
+      txt += `Profession / Trade: ${primaryTrades}\n\n`;
+      txt += `Primary Practice / Residence Address(es):\n`;
+      txt += addrLines.join('\n') + `\n\n`;
+      txt += `──────\n`;
+      txt += `Directory Mentions (${matches.length} Total):\n\n`;
+
+      matches.forEach((m, idx) => {
+        const isNum = /^\d+[a-zA-Z]?$/.test(m.houseNum);
+        const housePrefix = isNum ? `No. ${m.houseNum}` : (m.houseNum && m.houseNum !== m.name ? m.houseNum : '');
+        const addr = housePrefix ? `${housePrefix}, ${m.street}` : m.street;
+        txt += `${idx + 1}. ${m.year} Directory:\n`;
+        txt += `   • Address: ${addr}\n`;
+        txt += `   • Listed Name: ${m.name}\n`;
+        if (m.trade) {
+          txt += `   • Listed Trade: ${m.trade}\n`;
+        }
+        txt += `\n`;
+      });
+
+      txt += `==================================================\n`;
+      txt += `Report generated from Newport Cartographic & Directory Archive.\n`;
+      return txt;
+    }
+
+    function closePersonTimelineModal(e) {
+      if (e && e.target && !e.target.classList.contains('cmd-k-modal-overlay') && !e.target.classList.contains('cmd-k-esc')) {
+        return;
+      }
+      const modal = document.getElementById('person-timeline-modal');
+      if (modal) modal.classList.remove('active');
+    }
+
+    function copyPersonTimelineText() {
+      const textContainer = document.getElementById('person-timeline-text-content');
+      if (!textContainer || !textContainer.innerText) return;
+      navigator.clipboard.writeText(textContainer.innerText).then(() => {
+        alert('Historical Person Timeline Report copied to clipboard!');
+      }).catch(err => {
+        console.error('Failed copying to clipboard', err);
+      });
+    }
+
+    window.openPersonTimelineModal = openPersonTimelineModal;
+    window.closePersonTimelineModal = closePersonTimelineModal;
+    window.copyPersonTimelineText = copyPersonTimelineText;
