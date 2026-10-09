@@ -1,185 +1,185 @@
 # 📋 Newport Street Directory Dataset Audit Report
 
-**Total Records Analyzed**: 218,270  
-**Total Streets**: 1,372  
+**Total Records Analyzed**: 219,482  
+**Total Streets**: 1,360  
 
 ## Summary of Audit Categories
 
-- **Year-over-Year Spikes / Drops**: 666 flagged streets/years
-- **Dual-Column Drift Numbers**: 2,514 records
-- **Trade Bleeds into Names**: 5,115 records
-- **Salutation Placement Issues**: 99 records
-- **Name Suffix Conversions (Junior/Senior)**: 159 records
-- **Forename Abbreviation Candidate Expansions**: 187 records
-- **Sub-Terrace Placement Anomalies**: 81 records
-- **Multi-Resident / High Density Properties**: 2,204 properties
+- **Year-over-Year Spikes / Drops**: 670 flagged streets/years
+- **Dual-Column Drift Numbers**: 557 records
+- **Trade Bleeds into Names**: 2,288 records
+- **Salutation Placement Issues**: 36 records
+- **Name Suffix Conversions (Junior/Senior)**: 51 records
+- **Forename Abbreviation Candidate Expansions**: 193 records
+- **Sub-Terrace Placement Anomalies**: 70 records
+- **Multi-Resident / High Density Properties**: 2,404 properties
 - **Cross-Street Marker Gap Years**: 10 streets/years
 
 ---
 
 ### 1. Year-over-Year Property Count Spikes & Drops
 
-Found 666 items. Showing first 25:
+Found 670 items. Showing first 25:
 
 | Street | Year | House # | Detail |
 | :--- | :--- | :--- | :--- |
 | Albert Street | 1878 |  | Spike: 62 records vs average 14.5 |
-| Albion Street | 1878 |  | Sudden drop/truncation: 10 records vs average 33.0 |
+| Albion Street | 1878 |  | Sudden drop/truncation: 10 records vs average 34.2 |
 | Alfred Street | 1882 |  | Spike: 81 records vs average 29.1 |
 | Alma Street | 1878 |  | Sudden drop/truncation: 4 records vs average 78.8 |
 | Alma Street | 1882 |  | Sudden drop/truncation: 22 records vs average 78.8 |
 | Allt-yr-yn | 1971 |  | Spike: 48 records vs average 11.8 |
-| Alexandra Docks | 1882 |  | Spike: 114 records vs average 44.5 |
-| Alexandra Docks | 1920 |  | Sudden drop/truncation: 12 records vs average 44.5 |
+| Alexandra Docks | 1882 |  | Spike: 111 records vs average 44.1 |
+| Alexandra Docks | 1920 |  | Sudden drop/truncation: 12 records vs average 44.1 |
 | Market Arcade | 1971 |  | Spike: 119 records vs average 29.7 |
-| Bailey Street | 1902 |  | Sudden drop/truncation: 16 records vs average 60.6 |
-| Bailey Street | 1971 |  | Sudden drop/truncation: 10 records vs average 60.6 |
+| Bailey Street | 1902 |  | Sudden drop/truncation: 16 records vs average 60.7 |
+| Bailey Street | 1971 |  | Sudden drop/truncation: 10 records vs average 60.7 |
 | Baldwin Street | 1927 |  | Sudden drop/truncation: 2 records vs average 62.7 |
-| Baneswell Road | 1910 |  | Spike: 75 records vs average 20.3 |
-| Bolton Terrace | 1893 |  | Sudden drop/truncation: 7 records vs average 44.8 |
-| Bolton Terrace | 1894 |  | Spike: 187 records vs average 44.8 |
-| Bolton Terrace | 1910 |  | Sudden drop/truncation: 6 records vs average 44.8 |
-| Bolton Terrace | 1925 |  | Sudden drop/truncation: 6 records vs average 44.8 |
+| Baneswell Road | 1910 |  | Spike: 75 records vs average 19.1 |
 | Tredegar Place | 1878 |  | Sudden drop/truncation: 18 records vs average 61.7 |
 | Tredegar Place | 1902 |  | Sudden drop/truncation: 1 records vs average 61.7 |
 | Tredegar Place | 1903 |  | Spike: 156 records vs average 61.7 |
-| Barrack Hill | 1878 |  | Sudden drop/truncation: 22 records vs average 67.6 |
-| Barrack Hill | 1902 |  | Sudden drop/truncation: 23 records vs average 67.6 |
+| Barrack Hill | 1878 |  | Sudden drop/truncation: 22 records vs average 70.5 |
+| Barrack Hill | 1902 |  | Sudden drop/truncation: 24 records vs average 70.5 |
 | Bishop Street | 1890 |  | Spike: 199 records vs average 62.1 |
 | Bishop Street | 1920 |  | Sudden drop/truncation: 1 records vs average 62.1 |
 | Bishopsgate Parade | 1898 |  | Spike: 88 records vs average 16.6 |
+| Bishopsgate Parade | 1899 |  | Spike: 56 records vs average 16.6 |
+| Blewitt Street | 1878 |  | Sudden drop/truncation: 17 records vs average 59.2 |
+| Blewitt Street | 1927 |  | Sudden drop/truncation: 10 records vs average 59.2 |
+| Blewitt Street | 1971 |  | Sudden drop/truncation: 19 records vs average 59.2 |
 
 ### 2. Dual-Column Drift House Numbers
 
-Found 2,514 items. Showing first 25:
+Found 557 items. Showing first 25:
 
 | Street | Year | House # | Detail |
 | :--- | :--- | :--- | :--- |
-| Canal Parade | 1878 | 72-75 | Hyphenated dual-column drift house number: #72-75 |
-| Caroline Street | 1878 | 16-17 | Hyphenated dual-column drift house number: #16-17 |
-| Commercial Road | 1878 | 99-101 | Hyphenated dual-column drift house number: #99-101 |
 | Commercial Street | 1878 | 3-15 | Hyphenated dual-column drift house number: #3-15 |
-| Commercial Street | 1878 | 12-13 | Hyphenated dual-column drift house number: #12-13 |
-| Nelson Street | 1878 | 34-35 | Hyphenated dual-column drift house number: #34-35 |
-| Commercial Street | 1882 | 149-50 | Hyphenated dual-column drift house number: #149-50 |
-| Market Street | 1882 | 9-10 | Hyphenated dual-column drift house number: #9-10 |
-| Commercial Street | 1887 | 2-30 | Hyphenated dual-column drift house number: #2-30 |
-| Commercial Street | 1887 | 6-35 | Hyphenated dual-column drift house number: #6-35 |
-| Commercial Street | 1887 | 7-36 | Hyphenated dual-column drift house number: #7-36 |
-| Wyndham Terrace | 1887 | 37-38 | Hyphenated dual-column drift house number: #37-38 |
-| St. Mary Street | 1887 | 53-15 | Hyphenated dual-column drift house number: #53-15 |
+| York Place | 1878 | 5-3 | Hyphenated dual-column drift house number: #5-3 |
+| Commercial Street | 1887 | 35-67 | Hyphenated dual-column drift house number: #35-67 |
+| St. Mary Street | 1887 | 39-3 | Hyphenated dual-column drift house number: #39-3 |
 | St. Mary Street | 1887 | 57-11 | Hyphenated dual-column drift house number: #57-11 |
-| St. Mary Street | 1887 | 58-21 | Hyphenated dual-column drift house number: #58-21 |
-| St. Mary Street | 1887 | 61-24 | Hyphenated dual-column drift house number: #61-24 |
-| Wolseley Street | 1887 | 12-10 | Hyphenated dual-column drift house number: #12-10 |
-| Wolseley Street | 1887 | 13-11 | Hyphenated dual-column drift house number: #13-11 |
-| Wolseley Street | 1887 | 14-12 | Hyphenated dual-column drift house number: #14-12 |
-| Wolseley Street | 1887 | 16-13 | Hyphenated dual-column drift house number: #16-13 |
-| Talgarth Place | 1890 | 6-12 | Hyphenated dual-column drift house number: #6-12 |
-| Talgarth Place | 1890 | 9-17 | Hyphenated dual-column drift house number: #9-17 |
-| Talgarth Place | 1890 | 16-28 | Hyphenated dual-column drift house number: #16-28 |
-| Talgarth Place | 1890 | 17-31 | Hyphenated dual-column drift house number: #17-31 |
-| Talgarth Place | 1890 | 18-33 | Hyphenated dual-column drift house number: #18-33 |
+| St. Mary Street | 1887 | 24-14 | Hyphenated dual-column drift house number: #24-14 |
+| Commercial Street | 1890 | 4-17-8 | Hyphenated dual-column drift house number: #4-17-8 |
+| Commercial Road | 1890 | Mackay J. C. A. M. I. C. E-1-10 | Hyphenated dual-column drift house number: #Mackay J. C. A. M. I. C. E-1-10 |
+| Commercial Road | 1890 | Ben bragie-2-11 | Hyphenated dual-column drift house number: #Ben bragie-2-11 |
+| Artillery Place | 1893 | 99-109 | Hyphenated dual-column drift house number: #99-109 |
+| Artillery Place | 1893 | 37-57 | Hyphenated dual-column drift house number: #37-57 |
+| Albert-Avenue | 1893 | 2-1 | Hyphenated dual-column drift house number: #2-1 |
+| Lawn Terrace | 1893 | 93-9 | Hyphenated dual-column drift house number: #93-9 |
+| Melton Terrace | 1893 | 86-93 | Hyphenated dual-column drift house number: #86-93 |
+| Richmond Terrace | 1893 | 111-127 | Hyphenated dual-column drift house number: #111-127 |
+| Sidbury Terrace | 1893 | Nos 30-37 | Hyphenated dual-column drift house number: #Nos 30-37 |
+| Union Street | 1893 | 110-117 | Hyphenated dual-column drift house number: #110-117 |
+| Usk Street | 1893 | 1-13 | Hyphenated dual-column drift house number: #1-13 |
+| St. Mary's Road | 1894 | 4-10 | Hyphenated dual-column drift house number: #4-10 |
+| Clytha Square | 1894 | 8-15 | Hyphenated dual-column drift house number: #8-15 |
+| St. Mary's Road | 1894 | 10-17 | Hyphenated dual-column drift house number: #10-17 |
+| Bachelor Road | 1894 | 87-93 | Hyphenated dual-column drift house number: #87-93 |
+| Graham Street | 1894 | 45-43 | Hyphenated dual-column drift house number: #45-43 |
+| Oaklands Road | 1894 | 42-8 | Hyphenated dual-column drift house number: #42-8 |
+| Oaklands Road | 1894 | 38-91 | Hyphenated dual-column drift house number: #38-91 |
 
 ### 3. Trade Bleeds into Resident Names
 
-Found 5,115 items. Showing first 25:
+Found 2,288 items. Showing first 25:
 
 | Street | Year | House # | Detail |
 | :--- | :--- | :--- | :--- |
-| Bishop Street | 1878 | 56 | Trade keyword 'barber' found in surname field: 'Barber' |
-| Bolt Street | 1878 | 2 | Trade keyword 'gardener' found in surname field: 'Gardener' |
-| Caerau Park | 1878 | 2 | Trade keyword 'nurse' found in surname field: 'Nurse' |
-| Commercial Road | 1878 | 74 | Trade keyword 'baker' found in surname field: 'Baker & Sons' |
 | Courtybella Street | 1878 | 117 & at 40a High st | Trade keyword 'baker' found in surname field: 'Baker And Manhire' |
-| Commercial Street | 1878 | 19 | Trade keyword 'mason' found in surname field: 'Mason & Son' |
-| Commercial Street | 1878 |  | Trade keyword 'smith' found in surname field: 'Smith L. & E' |
+| Commercial Street | 1878 |  | Trade keyword 'smith' found in surname field: 'L. Smith & E' |
 | Commercial Street | 1878 | 173 | Trade keyword 'baker' found in surname field: 'W. A. and Baker Co' |
-| Dolphin Street | 1878 | 70 | Trade keyword 'barber' found in surname field: 'Barber' |
 | High Street | 1878 | 26a | Trade keyword 'baker' found in surname field: 'Davies & Baker' |
-| High Street | 1878 | 40A | Trade keyword 'baker' found in surname field: 'Baker & Manhire' |
-| James Street | 1878 | 12 | Trade keyword 'carpenter' found in surname field: 'Carpenter' |
-| Commercial Street | 1878 | Faull | Trade keyword 'clerk' found in surname field: 'B. M, clerk' |
-| Commercial Street | 1878 | Jenkins | Trade keyword 'plasterer' found in surname field: 'plasterer' |
-| Commercial Street | 1878 | 19 | Trade keyword 'labourer' found in surname field: 'Jere, labourer' |
-| Commercial Street | 1878 | 20 | Trade keyword 'labourer' found in surname field: 'John, labourer' |
-| Commercial Street | 1878 | 21 | Trade keyword 'labourer' found in surname field: 'Timothy, labourer' |
-| Commercial Street | 1878 | 29 | Trade keyword 'grocer' found in surname field: 'Michael, grocer' |
-| Commercial Street | 1878 | 1 | Trade keyword 'labourer' found in surname field: 'James, labourer' |
-| Commercial Street | 1878 | 6 | Trade keyword 'labr' found in surname field: 'Henry, labr' |
-| Commercial Street | 1878 | 11 | Trade keyword 'blacksmith' found in surname field: 'Thomas, blacksmith' |
-| Commercial Street | 1878 | 1 | Trade keyword 'builder' found in surname field: 'Griffith, builder' |
-| Commercial Street | 1878 | 2 | Trade keyword 'builder' found in surname field: 'John, builder' |
-| Commercial Street | 1878 | 3 | Trade keyword 'seaman' found in surname field: 'Hugh, seaman' |
-| Commercial Street | 1878 | 4 | Trade keyword 'haulier' found in surname field: 'Henry, haulier' |
+| Commercial Street | 1878 | 15 | Trade keyword 'labr' found in surname field: 'Stephen J. labr' |
+| Commercial Street | 1878 | 17 | Trade keyword 'labourer' found in surname field: 'Saml, labourer' |
+| Commercial Street | 1878 | 21 | Trade keyword 'labourer' found in surname field: 'Geo. labourer' |
+| Commercial Street | 1878 | 24 | Trade keyword 'blacksmith' found in surname field: 'J. blacksmith' |
+| Commercial Street | 1878 | 29 | Trade keyword 'labourer' found in surname field: 'W. labourer' |
+| Commercial Street | 1878 | 3 | Trade keyword 'beer retailer' found in surname field: 'J. beer retailer' |
+| Commercial Street | 1878 | 15 | Trade keyword 'fitter' found in surname field: 'Robert J. fitter' |
+| Nelson Street | 1878 | 34-35 | Trade keyword 'labourer' found in surname field: 'Wreford Jno labourer' |
+| Commercial Street | 1878 | 14 | Trade keyword 'dealer' found in surname field: 'tea dealer' |
+| St. Edward Street | 1878 | 1 | Trade keyword 'dealer' found in surname field: 'coal dealer' |
+| Upper Alma Street | 1878 | 21 | Trade keyword 'agent' found in surname field: 'King M R. W. agent Co' |
+| Upper Alma Street | 1878 | 3 | Trade keyword 'agent' found in forename field: 'Agent' |
+| Watchhouse Parade | 1878 | 12 | Trade keyword 'builder' found in surname field: 'boat builder' |
+| Watchhouse Parade | 1878 | 18 | Trade keyword 'labourer' found in surname field: 'coal labourer' |
+| West Street | 1878 | 5 | Trade keyword 'fitter' found in surname field: 'signal fitter' |
+| West Street | 1878 | 19 | Trade keyword 'grocer' found in surname field: 'grocer, &c' |
+| Alfred Street | 1882 | 22 | Trade keyword 'seaman' found in surname field: 'seaman' |
+| Alfred Street | 1882 |  | Trade keyword 'carptr' found in forename field: 'ship carptr' |
+| Alfred Street | 1882 | 30 | Trade keyword 'shoemkr' found in surname field: 'shoemkr' |
+| Alice Street | 1882 |  | Trade keyword 'fitter' found in surname field: 'H. fitter' |
+| Baldwin Street | 1882 |  | Trade keyword 'hobbler' found in surname field: 'hobbler' |
 
 ### 4. Salutation Placement Anomalies (Mrs, Miss, Rev)
 
-Found 99 items. Showing first 25:
+Found 36 items. Showing first 25:
 
 | Street | Year | House # | Detail |
 | :--- | :--- | :--- | :--- |
-| Commercial Street | 1878 | 14 | Salutation found in surname field: 'Mr E' |
-| Commercial Street | 1878 | 26 | Salutation found in surname field: 'Mr C' |
-| Wyndham Terrace | 1878 | 12 | Salutation found in surname field: 'Mr' |
-| St. Mark's Crescent | 1887 | Barrow | Salutation found in surname field: 'Dr' |
 | Victoria Road | 1890 | Ensor | Salutation found in surname field: 'Mr. aural surgeon' |
-| Clytha Crescent | 1890 | Davies | Salutation found in surname field: 'Dr' |
 | Vine Place | 1890 | 2 | Salutation found in surname field: 'Sergt-Major' |
 | Kensington Terrace | 1890 |  | Salutation found in surname field: '—Col' |
 | Brodawel Gardens | 1890 |  | Salutation found in surname field: 'Barnes Dr. Clytha college' |
-| Providence Place | 1893 | 18 | Salutation found in surname field: 'Major' |
 | Dock Street | 1893 | 28 | Salutation found in surname field: 'Theo. eng. dr'vr' |
 | Kingsmill Terrace | 1893 | 9 | Salutation found in surname field: 'William. Morrison coal tr'mr' |
 | Price Street | 1893 | 53 | Salutation found in surname field: 'William. Williams coal tr'mr' |
-| Chepstow Road | 1894 | 18 | Salutation found in surname field: 'Major' |
-| Malpas Road | 1898 | 144 | Salutation found in surname field: 'Parsons R.J. Ticket Col'tr' |
-| Skinner Street | 1898 |  | Salutation found in surname field: 'Graham T. C. & C. Col-liery Agents' |
 | Stow Hill | 1898 | Lyne | Salutation found in surname field: 'Col' |
 | Coldra Street | 1899 |  | Salutation found in surname field: 'Col' |
-| Prospect Street | 1899 | 19 | Salutation found in surname field: 'Major' |
+| Rodney Parade | 1899 |  | Salutation found in surname field: 'Sergt-Major' |
 | High Street | 1900 | CORN EXCHANGE CHAMBERS | Salutation found in surname field: 'Col' |
-| Malpas Road | 1900 | 144 | Salutation found in surname field: 'J. Ticket Parsons R. Col'tr' |
-| Pugsley Street | 1900 | 19 | Salutation found in surname field: 'Major' |
 | Commercial Street | 1900 |  | Salutation found in surname field: 'Col' |
-| Malpas Road | 1900 | 144 | Salutation found in surname field: 'J. Ticket Parsons R. Col'tr' |
-| Pugsley Street | 1900 | 19 | Salutation found in surname field: 'Major' |
+| Barnard Town | 1902 |  | Salutation found in surname field: 'Major' |
+| Clytha Square | 1902 |  | Salutation found in surname field: 'Col' |
+| Bank Street | 1903 |  | Salutation found in surname field: 'Major' |
+| Bridge Street | 1903 | National Waifs Association | Salutation found in surname field: '(Dr. Barnardo's' |
+| Corporation Road | 1903 | Adams | Salutation found in surname field: 'Wm. H Hay & Corn Mr' |
+| Ombersley Road | 1903 | 21 | Salutation found in surname field: 'Major A., J.P., Nylic' |
+| Stow Park Circus | 1910 | 23 | Salutation found in surname field: 'Williams Kenilworth Col. W. H' |
+| Gold Tops | 1913 | 7-53 | Salutation found in surname field: 'Lister Canon T. Ll' |
+| St. Mark’s Cres | 1913 | 51 | Salutation found in surname field: 'Major William Charles' |
+| King's Parade | 1920 | 18 | Salutation found in surname field: 'Canon' |
+| Pugsley Street | 1920 | 19 | Salutation found in surname field: 'Major R' |
+| Bath Street | 1925 | Stewart | Salutation found in surname field: 'Major Kate' |
+| Gwent Street | 1925 | Smith | Salutation found in surname field: 'Col' |
 
 ### 5. Name Suffix Conversions (Junior, Senior, junr, senr)
 
-Found 159 items. Showing first 25:
+Found 51 items. Showing first 25:
 
 | Street | Year | House # | Detail |
 | :--- | :--- | :--- | :--- |
-| Capel Street | 1882 |  | Suffix 'jun' needs standard conversion/ordering in 'pilot jun' |
-| Clifton Road | 1882 | 6 | Suffix 'junr' needs standard conversion/ordering in 'David Thomas' |
+| Capel Street | 1882 |  | Suffix 'jun' needs standard conversion/ordering in ' jun' |
 | Grenville Street | 1882 |  | Suffix 'junr' needs standard conversion/ordering in 'coal and pitwood mcht junr' |
-| Thomas Street | 1882 | 20 | Suffix 'Senior' needs standard conversion/ordering in 'Robert Senior' |
 | Junction Road | 1882 |  | Suffix 'Jun' needs standard conversion/ordering in ' Jun' |
-| Mill Parade | 1882 |  | Suffix 'junr' needs standard conversion/ordering in 'Evans John ship-chandler and haulier' |
 | Winmill Street | 1882 |  | Suffix 'jun' needs standard conversion/ordering in 'firemn jun' |
-| Vine Place | 1890 | 4 | Suffix 'Senior' needs standard conversion/ordering in 'Edgar Senior' |
-| Stow Hill | 1890 | 2 | Suffix 'junr' needs standard conversion/ordering in 'Kerslake Wm' |
-| Lucas Street | 1890 |  | Suffix 'Senior' needs standard conversion/ordering in 'Mrs Senior' |
-| Wyndham Terrace | 1890 | 25 | Suffix 'senr' needs standard conversion/ordering in 'Thomas Welsh' |
-| Osborne Place | 1890 | 2 | Suffix 'junr' needs standard conversion/ordering in 'Lewis Williams' |
 | Bridge Street | 1893 | 22 | Suffix 'Junr' needs standard conversion/ordering in 'Joseph Junr Gasfitter Foslost' |
-| Kingsland Terrace | 1893 | 46 | Suffix 'Senior' needs standard conversion/ordering in 'George hay Senior' |
 | Dock Street | 1893 |  | Suffix 'junr' needs standard conversion/ordering in ' W Collins Wm. junr. & Co' |
-| Ivor Street | 1893 | 20 | Suffix 'Senior' needs standard conversion/ordering in 'Mrs Senior' |
-| Maindee Parade | 1893 | 31 | Suffix 'Senior' needs standard conversion/ordering in 'Mrs Caroline Senior' |
-| Usk Street | 1893 | 6 | Suffix 'junr' needs standard conversion/ordering in 'Lewis Williams' |
-| Bridge Street | 1894 | 22 | Suffix 'junr' needs standard conversion/ordering in 'Joseph Foslett' |
-| Chepstow Road | 1898 | 197 | Suffix 'Senior' needs standard conversion/ordering in 'Herbert George Senior' |
-| Coomassie Street | 1898 | 25 | Suffix 'senr' needs standard conversion/ordering in 'T Knapman' |
-| Garth Terrace | 1898 | 26 | Suffix 'Senior' needs standard conversion/ordering in 'Mrs Margaret Senior' |
 | Beaufort Terrace | 1898 | 6 | Suffix 'jun' needs standard conversion/ordering in 'builder jun' |
 | Woodland Road | 1898 | 46 | Suffix 'Junr' needs standard conversion/ordering in 'Junr Bertera-Geronthius' |
 | Carlisle Place | 1899 | 251 | Suffix 'senr' needs standard conversion/ordering in 'senr Shewring Joseph' |
+| Chepstow Road | 1899 | 144 | Suffix 'junr' needs standard conversion/ordering in 'Kelson Kelson Jos. junr.. baker' |
+| Commercial Road | 1899 | 85 | Suffix 'junr' needs standard conversion/ordering in 'Ge Chamber Of Newport Commerce, Incorporated' |
+| Halstead Street | 1899 | 51-4 | Suffix 'jun' needs standard conversion/ordering in 'Le Isitt Lemuel, jun. eng'nr' |
+| Halstead Street | 1899 | 57 | Suffix 'jun' needs standard conversion/ordering in '7 Banbury J. W. jun. builder' |
+| Halstead Street | 1899 | 10 | Suffix 'jun' needs standard conversion/ordering in '35 Miles Geo. jun. carpenter' |
+| Victoria Road | 1900 | 1 | Suffix 'senr' needs standard conversion/ordering in 'senr Pullen Thomas' |
+| Artillery Place | 1900 |  | Suffix 'Sr' needs standard conversion/ordering in 'Woolos Schools Sr' |
+| Caerleon Road | 1900 | Searle | Suffix 'jr' needs standard conversion/ordering in 'Duckpool Ho E.jr' |
+| Osborne Place | 1900 | 251 | Suffix 'Snr' needs standard conversion/ordering in 'Joseph (Snr) Shrewring' |
+| Chepstow Road | 1900 | Worrall | Suffix 'senr' needs standard conversion/ordering in 'senr James' |
+| Commercial Road | 1900 | 4 | Suffix 'senr' needs standard conversion/ordering in 'senr Hart William' |
+| Clevedon Terrace | 1900 | 46 | Suffix 'junr' needs standard conversion/ordering in 'junr Bartera-Geronthius' |
+| Mile End Terrace | 1902 | 201 | Suffix 'junr' needs standard conversion/ordering in 'junr Williams Lewis' |
+| Commercial Road | 1902 | 85 | Suffix 'junr' needs standard conversion/ordering in ' Gething R. junr.  & Co., shipbrokers, etc' |
+| Harrow Road | 1902 | Batty | Suffix 'senr' needs standard conversion/ordering in 'senr William' |
+| Clevedon Terrace | 1902 | 46 | Suffix 'junr' needs standard conversion/ordering in 'junr Bertera-Geronthius' |
 
 ### 6. Forename Abbreviation Translation Opportunities
 
-Found 187 items. Showing first 25:
+Found 193 items. Showing first 25:
 
 | Street | Year | House # | Detail |
 | :--- | :--- | :--- | :--- |
@@ -192,9 +192,12 @@ Found 187 items. Showing first 25:
 | Dolphin Street | 1878 | 3 | Abbreviated forename 'Sam' -> candidate expansion 'Samuel' |
 | George Street | 1878 | 42 | Abbreviated forename 'Ben' -> candidate expansion 'Benjamin' |
 | George Street | 1878 | 52 | Abbreviated forename 'Sam' -> candidate expansion 'Samuel' |
+| Commercial Street | 1878 | 16 | Abbreviated forename 'Ben' -> candidate expansion 'Benjamin' |
+| Upper Alma Street | 1878 |  | Abbreviated forename 'Ben' -> candidate expansion 'Benjamin' |
+| Upper Alma Street | 1878 |  | Abbreviated forename 'Sam' -> candidate expansion 'Samuel' |
 | Alexandra Docks | 1882 |  | Abbreviated forename 'Sam' -> candidate expansion 'Samuel' |
 | Bishop Street | 1882 | 11 | Abbreviated forename 'Ben' -> candidate expansion 'Benjamin' |
-| Castle Street | 1882 | 16 | Abbreviated forename 'Dan, Hobbler' -> candidate expansion 'Daniel' |
+| Castle Street | 1882 | 16 | Abbreviated forename 'Dan' -> candidate expansion 'Daniel' |
 | Commercial Street | 1882 | 62 | Abbreviated forename 'Dan P' -> candidate expansion 'Daniel' |
 | Commercial Street | 1882 | 10 | Abbreviated forename 'Thomas Ben Mariner's' -> candidate expansion 'Benjamin' |
 | George Street | 1882 | 42 | Abbreviated forename 'Ben Seaman' -> candidate expansion 'Benjamin' |
@@ -202,16 +205,13 @@ Found 187 items. Showing first 25:
 | Mountjoy Road | 1882 | 1 | Abbreviated forename 'JNo' -> candidate expansion 'John' |
 | Commercial Street | 1887 | boot and shoe makers | Abbreviated forename 'Dan P' -> candidate expansion 'Daniel' |
 | Commercial Street | 1887 | 3 | Abbreviated forename 'Dan P' -> candidate expansion 'Daniel' |
-| St. Mary Street | 1887 | 39-2 | Abbreviated forename 'Sam Odiffellows' -> candidate expansion 'Samuel' |
+| St. Mary Street | 1887 | 39 | Abbreviated forename 'Sam Odiffellows' -> candidate expansion 'Samuel' |
 | Wolseley Street | 1887 | 25 | Abbreviated forename 'Dan' -> candidate expansion 'Daniel' |
 | Commercial road | 1890 | 89 | Abbreviated forename 'Ben Al' -> candidate expansion 'Benjamin' |
-| Broseley Terrace | 1890 | Clarke | Abbreviated forename 'Dan-y-rhiw Cl' -> candidate expansion 'Daniel' |
-| Archibald Street | 1893 | 41 | Abbreviated forename 'EdwD' -> candidate expansion 'Edward' |
-| Clytha Square | 1893 | 20 | Abbreviated forename 'Sam Lyegrove ho' -> candidate expansion 'Samuel' |
 
 ### 7. Sub-Terrace Placement Anomalies (e.g. Albany Terrace)
 
-Found 81 items. Showing first 25:
+Found 70 items. Showing first 25:
 
 | Street | Year | House # | Detail |
 | :--- | :--- | :--- | :--- |
@@ -235,43 +235,43 @@ Found 81 items. Showing first 25:
 | East Market Street | 1893 |  | Terrace/Sub-section name in surname field: 'Albert-terrace' |
 | Ebenezer Terrace | 1893 | 3 | Terrace/Sub-section name in surname field: 'villas building' |
 | Herbert Street | 1893 |  | Terrace/Sub-section name in surname field: 'GOTHIC VILLAS' |
-| Maindee Parade | 1893 | 3 | Terrace/Sub-section name in surname field: 'SIDBURY TERRACE' |
+| Maindee Parade | 1893 | 3 | Terrace/Sub-section name in surname field: 'SIDBURY TERRACE—' |
 | Risca Road | 1893 |  | Terrace/Sub-section name in surname field: 'Two Villas building' |
-| Bolton Terrace | 1894 |  | Terrace/Sub-section name in surname field: 'Two villas void' |
-| Bolton Terrace | 1894 |  | Terrace/Sub-section name in surname field: 'Blewitt-terrace' |
-| Morden Road | 1894 | 27-76 | Terrace/Sub-section name in surname field: 'Highweek Terrace (Cliff Joseph, Richmond H) Little' |
+| Barrack Hill | 1894 |  | Terrace/Sub-section name in surname field: 'Two villas void' |
+| Wrington Terrace | 1894 | 3 | Terrace/Sub-section name in surname field: 'villas building' |
+| Blewitt Terrace | 1898 |  | Terrace/Sub-section name in surname field: 'Canal-terrace' |
 
 ### 8. Multi-Resident / High Density Property Anomalies
 
-Found 2,204 items. Showing first 25:
+Found 2,404 items. Showing first 25:
 
 | Street | Year | House # | Detail |
 | :--- | :--- | :--- | :--- |
-| Bolton Terrace | 1894 | 15 | High density property: #15 has 5 entries (5 surnames: L. and, Webb, Lovelock, Hewinson) |
-| Bolton Terrace | 1894 | 16 | High density property: #16 has 4 entries (4 surnames: Hurd, Brown, Thatcher, Sanders) |
-| Bolton Terrace | 1894 | 17 | High density property: #17 has 4 entries (4 surnames: Ware, Coulson, Banfield, Unbuilt) |
-| Bolton Terrace | 1894 | 18 | High density property: #18 has 5 entries (5 surnames: Underwood, Marston, Burnet, Parry) |
-| Bolton Terrace | 1894 | 19 | High density property: #19 has 4 entries (4 surnames: Price, Dight, Kift, Fortune) |
-| Bolton Terrace | 1894 | 5 | High density property: #5 has 7 entries (7 surnames: Higgins, Greenland, Woodliffe, Redmond) |
-| Bolton Terrace | 1894 | 6 | High density property: #6 has 7 entries (7 surnames: Pinnell, Marshall, Lester, Sadler) |
-| Bolton Terrace | 1894 | 7 | High density property: #7 has 6 entries (6 surnames: Berry, Gibb, Kirby, Phillips) |
-| Bolton Terrace | 1894 | 1 | High density property: #1 has 5 entries (5 surnames: St. Matthew's Mission rm, Morgan, Durbin, Lawrence) |
-| Bolton Terrace | 1894 | 2 | High density property: #2 has 6 entries (6 surnames: Lewis, Philpin, Edwards, Hart) |
-| Bolton Terrace | 1894 | 3 | High density property: #3 has 6 entries (6 surnames: Lewis, Munday, Hulin, Thomas) |
-| Bolton Terrace | 1894 | 4 | High density property: #4 has 6 entries (6 surnames: Lewis, Thomas, Trickey, Hancock) |
-| Bolton Terrace | 1894 | 8 | High density property: #8 has 5 entries (5 surnames: Adams, Davies, Fox, Morley) |
-| Bolton Terrace | 1894 | 9 | High density property: #9 has 5 entries (5 surnames: Swattridge, Edwards, Hall, Green) |
-| Bolton Terrace | 1894 | 10 | High density property: #10 has 5 entries (5 surnames: Foulkes, Stiles, Voyle, Richards) |
-| Bolton Terrace | 1894 | 11 | High density property: #11 has 5 entries (5 surnames: Tyler, Morgan, College, Murray) |
-| Bolton Terrace | 1894 | 12 | High density property: #12 has 5 entries (4 surnames: Richards, Williams, Pedley, Carnew) |
-| Bolton Terrace | 1894 | 13 | High density property: #13 has 4 entries (4 surnames: Peebles, Byard, Niblett, Gear) |
-| Bolton Terrace | 1894 | 14 | High density property: #14 has 4 entries (4 surnames: Horner, Whiting, Morgan, Martin) |
-| Tredegar Place | 1903 | 1 | High density property: #1 has 4 entries (4 surnames: A. hairdresser, Oates, Bridge, Barnsley) |
-| Tredegar Place | 1903 | 2 | High density property: #2 has 4 entries (4 surnames: Bannister, Bordessa, Hughes, Ashman) |
-| Tredegar Place | 1903 | 3 | High density property: #3 has 4 entries (4 surnames: Donaldson, Portnell, G. clerk, Tasker) |
-| Tredegar Place | 1903 | 4 | High density property: #4 has 4 entries (4 surnames: Hy. com. agent, Sweeney, Davies, Roberts) |
-| Tredegar Place | 1903 | 6 | High density property: #6 has 4 entries (4 surnames: Mahoney, Oxenbury, Firbank, Latch) |
-| Tredegar Place | 1903 | 7 | High density property: #7 has 7 entries (6 surnames: Morgan, Trayton, Miller, Francis) |
+| Tredegar Place | 1903 | 1 | High density property: #1 has 4 entries (4 surnames: A. hairdresser, Oates, Barnsley, Bridge) |
+| Tredegar Place | 1903 | 2 | High density property: #2 has 4 entries (4 surnames: Bannister, Ashman, Bordessa, Hughes) |
+| Tredegar Place | 1903 | 3 | High density property: #3 has 4 entries (4 surnames: Tasker, Portnell, G. clerk, Donaldson) |
+| Tredegar Place | 1903 | 4 | High density property: #4 has 4 entries (4 surnames: Sweeney, Hy. com. agent, Davies, Roberts) |
+| Tredegar Place | 1903 | 6 | High density property: #6 has 4 entries (4 surnames: Oxenbury, Latch, Firbank, Mahoney) |
+| Tredegar Place | 1903 | 7 | High density property: #7 has 7 entries (6 surnames: Francis, Herbert, Miller, Morgan) |
+| Tredegar Place | 1903 | 8 | High density property: #8 has 5 entries (5 surnames: McCarthy, Fitzgerald, Davies, Bond) |
+| Tredegar Place | 1903 | 31 | High density property: #31 has 7 entries (5 surnames: Bennett, Knowles, Saints, Morgan) |
+| Bishop Street | 1890 | 1 | High density property: #1 has 6 entries (6 surnames: Blewitt, Herbert, S. Matthew's, Hayes) |
+| Bishop Street | 1890 | 2 | High density property: #2 has 5 entries (5 surnames: Gardiner, Dunstan, Blewitt cot, Beale) |
+| Bishop Street | 1890 | 3 | High density property: #3 has 5 entries (4 surnames: Williams, Lloyd, Charles, Holliday) |
+| Bishop Street | 1890 | 4 | High density property: #4 has 5 entries (5 surnames: Sullivan, Milton, Rowles, Cadogan) |
+| Bishop Street | 1890 | 5 | High density property: #5 has 5 entries (5 surnames: Rowe, Davies, Stone, Roden) |
+| Bishop Street | 1890 | 6 | High density property: #6 has 5 entries (5 surnames: Lawless, Hood, Samuel, Eger) |
+| Bishop Street | 1890 | 7 | High density property: #7 has 5 entries (5 surnames: Gilbert, Barnes, Lane, Berry) |
+| Bishop Street | 1890 | 8 | High density property: #8 has 5 entries (4 surnames: Arthur, Fox, James, Woodburn) |
+| Bishop Street | 1890 | 9 | High density property: #9 has 5 entries (5 surnames: Hunt, Thomson, Watts, Morgan) |
+| Bishop Street | 1890 | 10 | High density property: #10 has 5 entries (5 surnames: Worthy, Gething, Griffiths, Morgan) |
+| Bishop Street | 1890 | 11 | High density property: #11 has 5 entries (5 surnames: Tyler, Rees, Roberts, Davies) |
+| Bishop Street | 1890 | 12 | High density property: #12 has 4 entries (4 surnames: Pedley, Edmunds, Dart, Parkes) |
+| Bishop Street | 1890 | 13 | High density property: #13 has 5 entries (5 surnames: Matthews, Dymott, James, Yeo) |
+| Bishop Street | 1890 | 14 | High density property: #14 has 5 entries (5 surnames: Grant, Davies, Mathias, Morgan) |
+| Bishop Street | 1890 | 15 | High density property: #15 has 5 entries (5 surnames: Dalley, Davies, Evans, Thomas) |
+| Bishop Street | 1890 | 18 | High density property: #18 has 4 entries (4 surnames: Jones, Birley, Murray, Haggarty) |
+| Bishop Street | 1890 | 28 | High density property: #28 has 4 entries (4 surnames: Gough, Board School, Kingdom, Lewis) |
 
 ### 9. Cross-Street Marker Missing Years
 
@@ -282,11 +282,11 @@ Found 10 items. Showing first 25:
 | Tredegar Place | 1913 |  | Cross-street markers present in 1903 & 1925, but missing in 1913 |
 | Bridge Street | 1900 |  | Cross-street markers present in 1899 & 1902, but missing in 1900 |
 | Chepstow Road | 1898 |  | Cross-street markers present in 1894 & 1899, but missing in 1898 |
-| Commercial Road | 1900 |  | Cross-street markers present in 1899 & 1902, but missing in 1900 |
 | Commercial Street | 1903 |  | Cross-street markers present in 1902 & 1910, but missing in 1903 |
 | Evans Street | 1920 |  | Cross-street markers present in 1913 & 1936, but missing in 1920 |
 | Eveswell Street | 1902 |  | Cross-street markers present in 1899 & 1913, but missing in 1902 |
 | Kingsland Terrace | 1898 |  | Cross-street markers present in 1894 & 1899, but missing in 1898 |
 | Mile End Terrace | 1898 |  | Cross-street markers present in 1894 & 1899, but missing in 1898 |
 | Provision Market | 1913 |  | Cross-street markers present in 1902 & 1920, but missing in 1913 |
+| Kenilworth Road | 1927 |  | Cross-street markers present in 1920 & 1971, but missing in 1927 |
 

@@ -4,12 +4,16 @@ import os
 import re
 from collections import defaultdict
 
+# Set working directory to project root
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.dirname(SCRIPT_DIR) if os.path.basename(SCRIPT_DIR) == "scripts" else SCRIPT_DIR
+os.chdir(PROJECT_ROOT)
+
 INPUT_CSV = "data.csv"
 OUTPUT_CSV = "data.csv"
 EDGE_CASES_FILE = "edge_cases.json"
 
 # Load Edge Cases Configuration
-EDGE_CASES_FILE = "edge_cases.json"
 EDGE_CASES = []
 if os.path.exists(EDGE_CASES_FILE):
     with open(EDGE_CASES_FILE, "r", encoding="utf-8") as ef:
@@ -437,6 +441,29 @@ def is_trade_word(text):
     if t_low in TRADE_TYPO_MAP or t_low in TRADE_EXACT_MAP or t_low in TRADE_ABBREV_MAP:
         return True
     return any(kw in t_low for kw in TRADE_KEYWORDS) or any(kw in t_low for kw in known_trade_parts)
+
+# Step 7: Trade and Occupational Surnames Sets for Realignment
+COMMON_TRADES_SET = {
+    'labourer', 'labr', 'butcher', 'clerk', 'mason', 'grocer', 'draper', 'seaman',
+    'fitter', 'machinist', 'stoker', 'plasterer', 'shoemaker', 'shoemkr', 'fruiterer',
+    'haulier', 'carpenter', 'carptr', 'painter', 'ironworker', 'sailor', 'postman',
+    'solicitor', 'architect', 'surveyor', 'secretary', 'caretaker', 'tobacconist',
+    'manager', 'manageress', 'builder', 'agent', 'dealer', 'nurse', 'smith',
+    'boilermaker', 'blacksmith', 'platelayer', 'signalman', 'hobbler', 'coal trimmer',
+    'stevedore', 'waterman', 'engine driver', 'gardener', 'timekeeper', 'baker',
+    'tailor', 'dressmaker', 'midwife', 'chiropodist', 'optician', 'chemist', 'druggist',
+    'jeweller', 'pawn broker', 'pawnbroker', 'greengrocer', 'florist', 'stationer',
+    'newsagent', 'confnr', 'confectioner', 'hairdresser', 'barber', 'publican',
+    'beer retailer', 'licensed victualler', 'innkeeper', 'carter', 'pattern mkr',
+    'craneman', 'plumber', 'mariner', 'fireman', 'miller', 'policeman', 'engineman',
+    'cab drivr', 'mouldder', 'moulder', 'rigger', 'pilot', 'contr', 'weighman'
+}
+
+OCCUPATIONAL_SURNAMES_SET = {
+    'carpenter', 'barber', 'gardener', 'smith', 'baker', 'mason', 'taylor',
+    'butcher', 'draper', 'nurse', 'miller', 'porter', 'slater', 'turner',
+    'fowler', 'shoemaker', 'major', 'senior', 'collier'
+}
 
 BUILDING_NAME_TRADE_REGEX = re.compile(
     r'^\s*The\s+(?:Laurels|Firs|Knoll|Bungalow|Ferns|Nook|Grove|Oaks|Limes|Retreat|Woodlands|Mount|Hollies|Dell|Grange|Dingle|Beeches|Croft|Gables|Haven|Egg Market|Lawn|Poplars|Elms|Cedars|Willows|Pines|Vicarage|Rectory)\b',
@@ -1124,6 +1151,168 @@ def clean_record(row):
                 surname = ""
                 forename = ""
 
+    # Step 3A: Realign records where the entire resident line was stuffed into house_number (e.g. 'Williams John, haulier' or '3 Welsh William, fitter')
+    if " " in house_num and any(c.isalpha() for c in house_num) and (surname.isdigit() or not surname):
+        m_hn_shift = re.match(r'^(\d+[A-Za-z]?\b)?\s*(.+)$', house_num)
+        if m_hn_shift:
+            extracted_hn = m_hn_shift.group(1) or (surname if surname.isdigit() else "")
+            rem_text = m_hn_shift.group(2).strip()
+            extracted_trade = ""
+            if "," in rem_text:
+                np_part, tr_part = rem_text.split(",", 1)
+                rem_text = np_part.strip()
+                extracted_trade = tr_part.strip(" .,")
+            elif any(rem_text.lower().endswith(" " + t) for t in ['haulier', 'seaman', 'fitter', 'builder', 'clerk', 'mason', 'engineer', 'platelayer', 'labourer', 'labr', 'tailor', 'grocer', 'draper']):
+                parts_rem = rem_text.split()
+                extracted_trade = parts_rem[-1]
+                rem_text = " ".join(parts_rem[:-1]).strip()
+            
+            tokens_name = rem_text.split()
+            if len(tokens_name) >= 2:
+                house_num = extracted_hn
+                surname = title_case_name(tokens_name[0])
+                forename = " ".join(tokens_name[1:])
+                if extracted_trade:
+                    trade = extracted_trade
+            elif len(tokens_name) == 1:
+                house_num = extracted_hn
+                surname = title_case_name(tokens_name[0])
+                forename = ""
+                if extracted_trade:
+                    trade = extracted_trade
+
+    # Step 3B: Realign bare occupation words stored in surname with empty forename
+    BARE_OCCUPATIONS = {
+        'ironworker', 'sailor', 'postman', 'stoker', 'stevedore', 'waterman',
+        'platelayer', 'dressmaker', 'newsagent', 'architect', 'surveyor',
+        'jeweller', 'carptr', 'shoemkr', 'druggist', 'pawnbroker'
+    }
+    if surname.lower().strip() in BARE_OCCUPATIONS and not forename:
+        if not trade:
+            trade = surname.lower().strip()
+        surname = ""
+
+    # Step 4B: Realign 1878 records where authentic surname was placed in house_number
+    if year == "1878" and house_num.isalpha() and len(house_num) > 2 and house_num not in ["RAI", "Temperance"]:
+        true_sur = title_case_name(house_num)
+        true_fore = forename
+        true_trade = trade
+        if "," in surname:
+            s_parts = [p.strip() for p in surname.split(",", 1)]
+            if s_parts[0]:
+                true_fore = f"{true_fore} {s_parts[0]}".strip()
+            if not true_trade:
+                true_trade = s_parts[1].strip(" .,")
+            else:
+                true_trade = f"{s_parts[1].strip(' .,')}, {true_trade}"
+        elif surname.strip():
+            if not true_trade:
+                true_trade = surname.strip()
+            else:
+                true_trade = f"{surname.strip()}, {true_trade}"
+        house_num = ""
+        surname = true_sur
+        forename = true_fore
+        trade = true_trade
+
+    # Step 4C: Realign end-of-line house numbers (e.g. 1887 Courtybella Street and Friars Fields)
+    elif forename.isdigit() and house_num.isalpha() and not any(c.isdigit() for c in house_num) and house_num.lower() not in ["to", "from", "here", "void", "house"]:
+        true_hn = forename
+        true_sur = title_case_name(house_num)
+        true_fore = ""
+        true_trade = trade
+        if "," in surname:
+            s_parts = [p.strip() for p in surname.split(",", 1)]
+            true_fore = s_parts[0]
+            extracted_tr = s_parts[1].strip(" .,")
+            if not true_trade:
+                true_trade = extracted_tr
+            else:
+                true_trade = f"{extracted_tr}, {true_trade}"
+        else:
+            true_fore = surname
+        house_num = true_hn
+        surname = true_sur
+        forename = true_fore
+        trade = true_trade
+
+    # Step 7A: Realign shifted records where house_number contains authentic surname, surname contains forename, and forename contains pure trade
+    # e.g., house_num="Tazewell", surname="George", forename="haulier", trade=""
+    elif house_num.isalpha() and len(house_num) > 2 and not trade and forename.lower().rstrip('.,;') in COMMON_TRADES_SET and forename.lower().rstrip('.,;') not in OCCUPATIONAL_SURNAMES_SET:
+        trade = forename
+        forename = surname
+        surname = title_case_name(house_num)
+        house_num = ""
+
+    # Step 4A: Realign inverted surname and forename columns
+    elif "," in surname and forename and not trade:
+        sur_parts = [p.strip() for p in surname.split(",", 1)]
+        fn_cand = sur_parts[0]
+        tr_cand = sur_parts[1].strip(" .,")
+        if re.match(r'^[A-Za-z\'-]+(?:\s+[A-Za-z\'-]+)?$', forename) and not forename.lower() in ["return", "do", "void", "see"]:
+            if not fn_cand.lower() in ["return", "do", "here is"]:
+                new_sur = title_case_name(forename)
+                new_fore = fn_cand
+                new_trade = tr_cand
+                HOUSE_KEYWORDS = ["cottage", "villa", "lodge", "farm", "mansion", "house", "court"]
+                if any(w in new_trade.lower().split() for w in HOUSE_KEYWORDS) and not bldg_name:
+                    bldg_name = new_trade
+                    trade = ""
+                else:
+                    trade = new_trade
+                surname = new_sur
+                forename = new_fore
+
+    # Step 4D: Realign full resident line stuffed into surname with house name separation
+    elif surname and not forename and not trade and not bldg_name:
+        m_full = re.match(r'^([A-Z][a-zA-Z\'-]+)\s+([A-Z][a-zA-Z\.\s]+),\s*(.+)$', surname)
+        if m_full:
+            cand_sur = m_full.group(1).strip()
+            cand_fore = m_full.group(2).strip()
+            cand_rest = m_full.group(3).strip(" .,")
+            if not cand_sur.lower() in ["from", "to", "here", "near", "opposite", "between"]:
+                HOUSE_KEYWORDS = ["cottage", "villa", "lodge", "farm", "mansion", "court"]
+                tokens_rest = [w.lower().strip(".,") for w in cand_rest.split()]
+                if any(w in tokens_rest for w in HOUSE_KEYWORDS):
+                    surname = title_case_name(cand_sur)
+                    forename = cand_fore
+                    bldg_name = cand_rest
+                else:
+                    surname = title_case_name(cand_sur)
+                    forename = cand_fore
+                    trade = cand_rest
+
+    # Step 5B: Realign full resident line stuffed into forename when surname and trade are empty
+    elif forename and not surname and not trade and not bldg_name:
+        m_full_fn = re.match(r'^([A-Z][a-zA-Z\'-]+)\s+([A-Z][a-zA-Z\.\s]+),\s*(.+)$', forename)
+        if m_full_fn:
+            cand_sur = m_full_fn.group(1).strip()
+            cand_fore = m_full_fn.group(2).strip()
+            cand_rest = m_full_fn.group(3).strip(" .,")
+            if not cand_sur.lower() in ["from", "to", "here", "near", "opposite", "between", "see", "mrs", "miss", "rev", "dr"]:
+                HOUSE_KEYWORDS = ["cottage", "villa", "lodge", "farm", "mansion", "court", "arms", "inn", "hotel"]
+                tokens_rest = [w.lower().strip(".,") for w in cand_rest.split()]
+                if any(w in tokens_rest for w in HOUSE_KEYWORDS):
+                    surname = title_case_name(cand_sur)
+                    forename = cand_fore
+                    bldg_name = cand_rest
+                else:
+                    surname = title_case_name(cand_sur)
+                    forename = cand_fore
+                    trade = cand_rest
+
+    # Operation 8B: Extract trapped forename from comma-delimited trade field when forename is empty
+    # e.g. surname="Pearce", forename="", trade="James, pilot" -> forename="James", trade="pilot"
+    if surname and not forename and trade and ',' in trade:
+        parts = [p.strip() for p in trade.split(',', 1)]
+        p0 = parts[0]
+        p1 = parts[1]
+        tokens = p0.split()
+        COMMON_FN_PREFIXES = {'james', 'john', 'wm', 'william', 'thomas', 'thos', 'george', 'geo', 'charles', 'chas', 'henry', 'hy', 'david', 'saml', 'samuel', 'edward', 'edwd', 'robert', 'robt', 'joseph', 'jos', 'mrs', 'miss'}
+        if 1 <= len(tokens) <= 3 and any(t.lower().rstrip('.,;') in COMMON_FN_PREFIXES for t in tokens):
+            forename = p0
+            trade = p1
+
     # Realign shifted 1971 records and strip school/layout parentheticals
     if year == "1971":
         # Realign 1971 records where the entire line was parsed into the surname column (no tabs)
@@ -1452,6 +1641,35 @@ def clean_record(row):
     elif forename.endswith(" He") and trade == "lper":
         forename = forename[:-3].strip()
         trade = "Helper"
+
+    # Step 7B: Realign compound '<name>, <trade>' or '<name> <trade>' in forename when trade is empty
+    # e.g. forename="Clement.,solicitor", trade="" -> forename="Clement", trade="solicitor"
+    if not trade and forename:
+        m_del = re.match(r'^([A-Za-z\.\s\-]+)[,\.;]+\s*([A-Za-z\s]+)$', forename)
+        if m_del:
+            p1, p2 = m_del.group(1).strip(), m_del.group(2).strip()
+            if p2.lower() in COMMON_TRADES_SET and p2.lower() not in OCCUPATIONAL_SURNAMES_SET:
+                forename = p1
+                trade = p2
+
+    # Step 7C: Pure trade in forename with resident name in surname and empty trade
+    # e.g. surname="Pritchard Chas", forename="hobbler", trade="" -> trade="hobbler", forename="", and split surname below
+    if not trade and forename and surname:
+        f_clean = forename.lower().rstrip('.,;')
+        if f_clean in COMMON_TRADES_SET and f_clean not in OCCUPATIONAL_SURNAMES_SET:
+            trade = forename
+            forename = ""
+
+    # Step 7D: Inverted column where pure trade is in surname and resident name is in forename
+    # e.g. surname="signalman", forename="Brifett George", trade="" -> surname="Brifett", forename="George", trade="signalman"
+    if not trade and surname and forename:
+        s_clean = surname.lower().rstrip('.,;')
+        if s_clean in COMMON_TRADES_SET and s_clean not in OCCUPATIONAL_SURNAMES_SET:
+            fn_tokens = forename.split()
+            if len(fn_tokens) >= 2 and not any(title in forename.lower() for title in ['mrs', 'miss', 'rev', 'dr']):
+                trade = surname
+                surname = title_case_name(fn_tokens[0])
+                forename = " ".join(fn_tokens[1:])
 
     # Split reversed "Surname Forename" names if forename is empty and surname contains space
     if surname and not forename and " " in surname:
@@ -2681,13 +2899,52 @@ def clean_record(row):
                 seen.append(p)
         return " ".join(seen)
 
-    if trade and ("," in trade or " " in trade):
-        trade_items = [t.strip() for t in trade.split(",") if t.strip()]
-        unique_trades = []
-        for ti in trade_items:
-            if not unique_trades or ti.lower() != unique_trades[-1].lower():
-                unique_trades.append(ti)
-        trade = ", ".join(unique_trades)
+    # 20b. Step 1: Clean Salutation inversions, Suffix placements, and Trapped trades in building_name
+    sur_low = surname.lower().strip()
+    fore_low = forename.lower().strip()
+    trade_low = trade.lower().strip()
+    bldg_low = bldg_name.lower().strip()
+
+    is_protected_senior = (sur_low == 'senior' or any(k in sur_low for k in ['school', 'infants', 'co']))
+    is_protected_major = (sur_low == 'major' and forename and not any(fore_low.startswith(x) for x in ['r.a', 'c.b', 'kate (s.a.)']))
+
+    # A. Pure suffix in trade column
+    PURE_SUFFIX_REGEX = re.compile(r'^(?:junr|senr|jnr|snr|jun|sen|junior|senior|junr\.,\s*junr)\.?$', re.I)
+    TRADE_SUFFIX_REGEX = re.compile(r'^(?:(junr|senr|jnr|snr|jun|sen)\.?\s*,?\s*(.+)|(.+?)\s*,?\s*(junr|senr|jnr|snr|jun|sen)\.?)$', re.I)
+    SALUTATION_INVERT_REGEX = re.compile(r'^(?:Mr|Mrs|Miss|Dr|Capt|Rev)\b\.?(?:\s+[A-Z]\.?)?$', re.I)
+
+    if not is_protected_senior and PURE_SUFFIX_REGEX.match(trade_low):
+        suf = 'Jnr' if 'j' in trade_low else 'Snr'
+        if not surname.endswith(f'({suf})'):
+            surname = f'{surname} ({suf})'
+        trade = ''
+    elif not is_protected_senior:
+        m_ts = TRADE_SUFFIX_REGEX.match(trade_low)
+        if m_ts:
+            raw_suf = m_ts.group(1) or m_ts.group(4)
+            raw_trade = m_ts.group(2) or m_ts.group(3)
+            if raw_suf and raw_trade:
+                suf = 'Jnr' if 'j' in raw_suf.lower() else 'Snr'
+                if not surname.endswith(f'({suf})'):
+                    surname = f'{surname} ({suf})'
+                trade = raw_trade.strip(' .,')
+
+    # B. Salutation inversion in surname column
+    if SALUTATION_INVERT_REGEX.match(surname.strip()) and forename and not is_protected_major:
+        surname, forename = forename, surname
+
+    # C. Obvious trades trapped in building_name when trade is empty
+    OBVIOUS_TRADES = {
+        'shipwright', 'hobbler', 'carpenter', 'dressmaker', 'shoemaker', 'seaman', 'plasterer',
+        'engine driver', 'shooting smith', 'blacksmith', 'platelayer', 'signalman', 'labourer',
+        'labr', 'fitter', 'machinist', 'stoker', 'haulier', 'painter', 'ironworker', 'postman',
+        'solicitor', 'architect', 'surveyor', 'caretaker', 'tobacconist', 'mason', 'grocer',
+        'draper', 'baker', 'tailor', 'chemist', 'stationer', 'newsagent', 'hairdresser', 'barber',
+        'weighman', 'helper', 'trimmer', "trim'r", 'crane', 'ironfounder', 'chimney sweep'
+    }
+    if not trade and bldg_low in OBVIOUS_TRADES:
+        trade = bldg_name
+        bldg_name = ''
 
     rec = {
         "year": year,
@@ -2778,6 +3035,7 @@ def unpack_row_if_concatenated(row):
 def main():
     rows = []
     skipped_count = 0
+    current_bolton_sub = "Bolton Terrace"
     
     with open(INPUT_CSV, mode="r", encoding="utf-8") as f:
         reader = csv.DictReader(f)
@@ -3640,6 +3898,214 @@ def main():
                             skipped_count += 1
                             continue
 
+                    # 1894 Bolton Terrace split: restore missed street headers
+                    if cleaned.get("year") == "1894" and st_lower == "bolton terrace":
+                        sn_b = cleaned.get("surname", "").strip()
+                        fn_b = cleaned.get("forename", "").strip()
+                        hn_b = cleaned.get("house_number", "").strip()
+                        
+                        if sn_b.lower() == "baneswell square" or (hn_b in ["5", "6", "7"] and sn_b in ["Christopherson", "Lester", "Saysill"]):
+                            current_bolton_sub = "Baneswell Square"
+                        elif sn_b.lower() in ["bank chambers", "barnard"] and fn_b.lower() in ["", "town"]:
+                            current_bolton_sub = "Barnard Town"
+                        elif any(k in sn_b.lower() for k in ["barrack-hill", "barrack hill", "barrack farm"]):
+                            current_bolton_sub = "Barrack Hill"
+                        elif "beynon" in sn_b.lower():
+                            current_bolton_sub = "Beynon's Court"
+                        elif "blewitt" in sn_b.lower():
+                            current_bolton_sub = "Blewitt Terrace"
+                        
+                        # Filter out pure street header rows
+                        if sn_b.lower() in ["baneswell square", "bank chambers"] or (sn_b.lower() == "barnard" and fn_b.lower() == "town") or sn_b.lower() == "blewitt-terrace" or "barrack-hill" in sn_b.lower() or "beynon's court" in sn_b.lower():
+                            skipped_count += 1
+                            continue
+
+                        cleaned["street"] = current_bolton_sub
+
+                    # Step 6A: Contextual normalization for multi-page advertisement headers
+                    if "steam laundry" in st_lower:
+                        hn_s = cleaned.get("house_number", "").strip()
+                        yr_s = cleaned.get("year", "").strip()
+                        if yr_s == "1910":
+                            cleaned["street"] = "Albany Street"
+                        elif yr_s == "1913":
+                            cleaned["street"] = "Albany Street"
+                        elif yr_s == "1920":
+                            if hn_s.isdigit() and int(hn_s) > 100:
+                                cleaned["street"] = "Chepstow Road"
+                            else:
+                                cleaned["street"] = "Kenilworth Road"
+                        elif yr_s == "1925":
+                            if hn_s.isdigit() and int(hn_s) > 200:
+                                cleaned["street"] = "Chepstow Road"
+                            elif hn_s.isdigit() and int(hn_s) >= 130:
+                                cleaned["street"] = "Malpas Road"
+                            else:
+                                cleaned["street"] = "Bath Street"
+                        else:
+                            cleaned["street"] = "Bath Street"
+
+                    elif "dye works" in st_lower:
+                        cleaned["street"] = "Church Road"
+
+                    elif "edwards ltd" in st_lower:
+                        cleaned["street"] = "Commercial Street"
+
+                    elif "p. e. gane" in st_lower:
+                        cleaned["street"] = "Commercial Street"
+
+                    elif "post office, m.o" in st_lower:
+                        cleaned["street"] = "Commercial Road"
+
+                    elif "davidson john" in st_lower:
+                        cleaned["street"] = "Charlotte Street"
+
+                    elif "cahalane jas" in st_lower:
+                        cleaned["street"] = "Cardiff Road"
+
+                    elif "hill fredk" in st_lower:
+                        cleaned["street"] = "Raglan Street"
+
+                    elif "phillips john, pilot" in st_lower:
+                        cleaned["street"] = "Commercial Road"
+
+                    # Step 6B: 1894 St. Mary's Road 3-column bleed realignments
+                    elif cleaned.get("year") == "1894" and st_lower == "st. mary's road":
+                        sn_sm = cleaned.get("surname", "")
+                        fn_sm = cleaned.get("forename", "")
+                        bldg_sm = cleaned.get("building_name", "")
+                        tr_sm = cleaned.get("trade", "")
+                        comb_sm = f"{sn_sm} {fn_sm} {bldg_sm} {tr_sm}".lower()
+                        
+                        if any(k in comb_sm for k in ["alma inn", "picton arms", "ruperra arms", "royal buffet", "tobacconist", "pork butcher", "quarm g"]):
+                            cleaned["street"] = "Commercial Road"
+                            if "alma inn" in comb_sm:
+                                cleaned["house_number"] = "7"
+                                cleaned["building_name"] = "Alma Inn"
+                                cleaned["surname"] = "Meredith"
+                                cleaned["forename"] = "T."
+                                cleaned["trade"] = ""
+                            elif "picton arms" in comb_sm:
+                                cleaned["house_number"] = "14"
+                                cleaned["building_name"] = "Picton Arms"
+                                cleaned["surname"] = "Moore"
+                                cleaned["forename"] = "Arthur"
+                                cleaned["trade"] = ""
+                        elif "hazlehurst" in comb_sm or "the knoll" in comb_sm or "cae derwen" in comb_sm or "ty-gwyn" in comb_sm or "broughton" in comb_sm:
+                            cleaned["street"] = "Westfield Road"
+                        elif "clytha square" in comb_sm or "monkleigh" in comb_sm or "alwington" in comb_sm or "lillesden" in comb_sm or "drumlanrig" in comb_sm:
+                            cleaned["street"] = "Clytha Square"
+
+                    # Step 8C: 1894 Queen's Hill Terrace 3-column bleed disentanglement
+                    elif cleaned.get("year") == "1894" and st_lower == "queen's hill terrace":
+                        sn_q = cleaned.get("surname", "").strip()
+                        fn_q = cleaned.get("forename", "").strip()
+                        hn_q = cleaned.get("house_number", "").strip()
+                        tr_q = cleaned.get("trade", "").strip()
+                        comb_q = f"{sn_q} {fn_q} {tr_q}".lower()
+
+                        if "rose street" in comb_q or sn_q in ["Orphan", "Pendleton", "Church"] or any(k in comb_q for k in ["hicks ed", "stockwell j. h", "webber jno", "ellis wm", "clarke george", "stephens wm", "parkin edwin", "parkin henry", "morris abm", "saddler thomas", "parsons rd", "lewarne joseph", "stallard thos", "delaney edwd", "rud", "lamplg'tr", "lampig'tr"]):
+                            if "rose street" in sn_q.lower() or "rose street" in fn_q.lower():
+                                skipped_count += 1
+                                continue
+                            cleaned["street"] = "Rose Street"
+                        elif "rodney parade" in comb_q or any(k in comb_q for k in ["athletic ground", "pontoon", "gridiron", "spittle's", "boiler works", "lime co.'s works", "clarence wharf", "saw mills", "western wharf"]):
+                            if "rodney parade" in sn_q.lower() or "rodney parade" in fn_q.lower():
+                                skipped_count += 1
+                                continue
+                            cleaned["street"] = "Rodney Parade"
+                        elif hn_q.isdigit() and int(hn_q) <= 40 and any(k in comb_q for k in ["parry", "roberts", "carney", "bright", "wyatt", "arr", "moore", "barrett", "cotterrall", "coombs", "heard", "scott", "mitchell", "fisher", "unsworth", "broad", "gillard", "trickey", "seer", "foster", "curtis", "isitt", "gillingham", "lacey", "hiscock", "merrick", "mogford", "dock-street", "tomlins", "giddy", "sutherland", "allen", "stokes", "hail", "paton", "phillips", "cavill", "bowen", "thewell", "jenkins", "chalicomb", "hawkins", "haggarty", "o'callaghan", "cox", "tir pentwys", "bethell", "gratte"]):
+                            cleaned["street"] = "Roberts Street"
+
+                    # Step 9A: 1971 Commercial Road Running Ad Header ('C O. ( N E')
+                    elif cleaned.get("year") == "1971" and "c o. ( n e" in st_lower:
+                        cleaned["street"] = "Commercial Road"
+                        hn_c = cleaned.get("house_number", "")
+                        if any(k in hn_c for k in ["PORT)", "quarry", "works", "lines)", "Sand", "Gravel", "coal"]):
+                            cleaned["house_number"] = ""
+
+                    # Step 9B: Resident names leaked into street field
+                    elif cleaned.get("year") == "1899" and "hillier john" in st_lower:
+                        cleaned["street"] = "Cardiff Road"
+                        cleaned["house_number"] = "8"
+                        cleaned["surname"] = "Hillier"
+                        cleaned["forename"] = "John"
+                        cleaned["trade"] = "labourer"
+                    elif cleaned.get("year") == "1927" and st_lower == "kleinstein":
+                        cleaned["street"] = "Bailey Street"
+                        cleaned["house_number"] = ""
+                        cleaned["surname"] = "Sims"
+                        cleaned["forename"] = "F. H."
+                        cleaned["trade"] = "fish bar"
+                    elif cleaned.get("year") == "1927" and st_lower == "lewis" and cleaned.get("house_number") == "CHOW":
+                        cleaned["street"] = "Baneswell Road"
+                        cleaned["house_number"] = ""
+                        cleaned["surname"] = "Chow"
+                        cleaned["forename"] = "Wong"
+                        cleaned["trade"] = "Chinese laundry"
+                    elif cleaned.get("year") == "1971" and "phillips robin h" in st_lower:
+                        cleaned["street"] = "Cartwright Green"
+                        cleaned["house_number"] = "29"
+                        cleaned["surname"] = "Springbett"
+                        cleaned["forename"] = "Ivy M"
+                        cleaned["trade"] = ""
+                    elif cleaned.get("year") == "1899" and st_lower == "phillips" and cleaned.get("surname") == "Bailey":
+                        cleaned["street"] = "St. Mary Street"
+                    elif cleaned.get("year") == "1971" and st_lower == "phillips" and "stockton" in cleaned.get("surname", "").lower():
+                        skipped_count += 1
+                        continue
+                    elif cleaned.get("year") == "1927" and st_lower == "phillip j":
+                        skipped_count += 1
+                        continue
+
+                    # Step 9C: Layout & Mission Section Notes
+                    elif "end of archiba" in st_lower:
+                        cleaned["street"] = "Archibald Street"
+                    elif "gordon street mission" in st_lower:
+                        cleaned["street"] = "Gordon Street"
+                    elif "street), caerleon-road" in st_lower or ("caerleon-road" in st_lower and st_lower.startswith("street")):
+                        cleaned["street"] = "Caerleon Road"
+                    elif "victoria-place to park-square" in st_lower:
+                        cleaned["street"] = "Victoria Place"
+
+                    # Step 9D: Sub-Terrace & Suburb Suffixes
+                    elif st_lower == "hillstone v":
+                        cleaned["street"] = "Chepstow Road"
+                        cleaned["house_number"] = "125"
+                        cleaned["building_name"] = "Hillstone Villa"
+                    elif st_lower == "kingsand terrace":
+                        cleaned["street"] = "Chepstow Road"
+                        cleaned["building_name"] = "Kingsand Terrace"
+                        cleaned["surname"] = "Brettell"
+                        cleaned["forename"] = "Misses A. & H."
+                        cleaned["trade"] = "dressmakers"
+                    elif st_lower == "woodland park, m":
+                        cleaned["street"] = "Woodland Park"
+                    elif st_lower == "woodland road, m":
+                        cleaned["street"] = "Woodland Road"
+                    elif st_lower == "pottery road, p":
+                        cleaned["street"] = "Pottery Road"
+                    elif st_lower in ["glo'ster place, b.t", "glos'ter place, b.t"]:
+                        cleaned["street"] = "Glo'ster Place"
+                    elif st_lower == "steam packet cham":
+                        cleaned["street"] = "Steam Packet Chambers"
+
+                    # Step 9E: Truncated Hill Records
+                    elif st_lower == "hill":
+                        yr_h = cleaned.get("year", "")
+                        hn_h = cleaned.get("house_number", "")
+                        if yr_h == "1925" and hn_h == "72":
+                            cleaned["street"] = "Bridge Street"
+                            cleaned["surname"] = ""
+                            cleaned["forename"] = ""
+                        elif yr_h == "1971":
+                            if hn_h == "65":
+                                cleaned["street"] = "Lawrence Hill Avenue"
+                            elif any(k in cleaned.get("forename", "").lower() for k in ["maccauley", "shakespeare"]):
+                                cleaned["street"] = "Macaulay Gardens"
+                            else:
+                                cleaned["street"] = "Queen's Hill"
+
                     rows.append(cleaned)
 
     # Global deduplication: remove exact identical duplicate rows
@@ -3656,6 +4122,50 @@ def main():
     rows = unique_rows
     if deduped_count > 0:
         print(f"Deduplicated {deduped_count} exact duplicate records.")
+
+    # Step 8A: Stitch 1882 consecutive split resident records
+    stitched_rows = []
+    skip_next = False
+    stitched_count = 0
+    for i in range(len(rows)):
+        if skip_next:
+            skip_next = False
+            continue
+        r1 = rows[i]
+        if i < len(rows) - 1:
+            r2 = rows[i+1]
+            if r1.get('year') == '1882' and r2.get('year') == '1882' and r1.get('street') == r2.get('street'):
+                hn1 = r1.get('house_number', '').strip()
+                hn2 = r2.get('house_number', '').strip()
+                sur1 = r1.get('surname', '').strip()
+                fore1 = r1.get('forename', '').strip()
+                tr1 = r1.get('trade', '').strip()
+                bldg1 = r1.get('building_name', '').strip()
+                
+                sur2 = r2.get('surname', '').strip()
+                fore2 = r2.get('forename', '').strip()
+                tr2 = r2.get('trade', '').strip()
+                bldg2 = r2.get('building_name', '').strip()
+                
+                if hn1 and not hn2 and not sur1 and fore1 and not tr1:
+                    merged = dict(r1)
+                    merged['surname'] = fore1
+                    merged['forename'] = sur2
+                    cand_tr = tr2 or fore2
+                    cand_bldg = bldg1 or bldg2
+                    if any(k in fore2.lower() for k in ['villa', 'vil', 'house', 'cot', 'lodge', 'place', 'terrace']):
+                        cand_bldg = fore2
+                        cand_tr = tr2
+                    merged['building_name'] = cand_bldg
+                    merged['trade'] = cand_tr
+                    stitched_rows.append(merged)
+                    skip_next = True
+                    stitched_count += 1
+                    continue
+        stitched_rows.append(r1)
+    rows = stitched_rows
+    if stitched_count > 0:
+        print(f"Stitched {stitched_count} consecutive split resident records in 1882.")
 
     # 1. Group street names by lowercase value to resolve casing variations automatically
     street_casings = defaultdict(list)

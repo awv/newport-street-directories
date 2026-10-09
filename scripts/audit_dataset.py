@@ -21,6 +21,11 @@ import os
 import re
 from collections import defaultdict
 
+# Set working directory to project root
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.dirname(SCRIPT_DIR) if os.path.basename(SCRIPT_DIR) == "scripts" else SCRIPT_DIR
+os.chdir(PROJECT_ROOT)
+
 DATA_CSV = "data.csv"
 MASTER_STREETS_FILE = "master_streets.json"
 REPORT_MD = "audit_report.md"
@@ -150,8 +155,21 @@ def audit_dataset():
 
         combined_name = f"{fore} {sur}".strip()
 
-        # Check dual-column drift numbers (e.g. 5-116, 55-18)
-        if re.search(r'\b\d+-\d{2,}\b', hn) and not re.match(r'^(1-2|1-3|2-4|3-5|4-6|5-7|6-8|7-9|8-10|9-11|10-12|1-4|1-5|1-6)$', hn):
+        # Check dual-column drift numbers (ignoring legitimate multi-plot contiguous ranges e.g. 12-13, 149-150)
+        m_hn = re.match(r'^(\d+)-(\d+)$', hn)
+        if m_hn:
+            n1 = int(m_hn.group(1))
+            n2 = int(m_hn.group(2))
+            diff = n2 - n1
+            s1, s2 = str(n1), str(n2)
+            is_valid_consecutive = (0 < diff <= 4)
+            is_valid_abbrev = (n2 < n1 and len(s1) > len(s2) and 0 < int(s1[:-len(s2)] + s2) - n1 <= 4)
+            if not is_valid_consecutive and not is_valid_abbrev:
+                results["dual_column_drifts"].append({
+                    "street": street, "year": year, "house_number": hn, "surname": sur, "forename": fore,
+                    "detail": f"Hyphenated dual-column drift house number: #{hn}"
+                })
+        elif re.search(r'\b\d+-\d{2,}\b', hn):
             results["dual_column_drifts"].append({
                 "street": street, "year": year, "house_number": hn, "surname": sur, "forename": fore,
                 "detail": f"Hyphenated dual-column drift house number: #{hn}"
@@ -160,8 +178,13 @@ def audit_dataset():
         # Check trades bleeding into surname or forename
         sur_low = sur.lower()
         fore_low = fore.lower()
+        OCCUPATIONAL_SURNAMES = {'carpenter', 'barber', 'gardener', 'smith', 'baker', 'mason', 'taylor', 'butcher', 'draper', 'nurse', 'miller', 'porter', 'slater', 'turner', 'fowler', 'shoemaker', 'major', 'senior', 'collier'}
+        COMPANY_PATTERN = re.compile(r'(&\s*(?:sons?|co|co\.|brothers|bros)|ltd|limited)\b', re.IGNORECASE)
         for tr in COMMON_TRADES:
             if re.search(r'\b' + re.escape(tr) + r'\b', sur_low):
+                # Don't flag authentic family surnames when accompanied by a forename or when part of a company/firm
+                if (tr in OCCUPATIONAL_SURNAMES and fore) or COMPANY_PATTERN.search(sur):
+                    continue
                 results["trade_bleeds"].append({
                     "street": street, "year": year, "house_number": hn, "surname": sur, "forename": fore, "trade": trade,
                     "detail": f"Trade keyword '{tr}' found in surname field: '{sur}'"
@@ -169,29 +192,38 @@ def audit_dataset():
                 break
             elif re.search(r'\b' + re.escape(tr) + r'\b', fore_low) and not any(title in fore_low for title in ['mrs', 'miss', 'rev']):
                 # Ignore if trade is actually part of name (e.g. Baker, Mason as surnames/forenames)
-                if tr not in ['baker', 'mason', 'smith', 'carpenter', 'cook', 'gardener', 'miller', 'taylor', 'porter', 'slater', 'turner', 'fowler', 'draper', 'shoemaker']:
+                if tr not in OCCUPATIONAL_SURNAMES:
                     results["trade_bleeds"].append({
                         "street": street, "year": year, "house_number": hn, "surname": sur, "forename": fore, "trade": trade,
                         "detail": f"Trade keyword '{tr}' found in forename field: '{fore}'"
                     })
                     break
 
-        # Check salutations placed incorrectly
+        # Check salutations placed incorrectly (ignoring valid surname Major and OCR fragments)
+        sur_low = sur.lower()
         if SALUTATIONS.search(sur):
-            results["salutation_issues"].append({
-                "street": street, "year": year, "house_number": hn, "surname": sur, "forename": fore,
-                "detail": f"Salutation found in surname field: '{sur}'"
-            })
-
-        # Check suffixes (junior, senior, junr, senr, jnr, snr)
-        if SUFFIX_PATTERNS.search(combined_name) or SUFFIX_PATTERNS.search(trade):
-            match = SUFFIX_PATTERNS.search(f"{combined_name} {trade}")
-            raw_suf = match.group(0) if match else ""
-            if raw_suf.lower() in ["junr", "senr", "jr.", "sr.", "jnr", "snr"] or SUFFIX_PATTERNS.search(sur):
-                results["suffix_issues"].append({
-                    "street": street, "year": year, "house_number": hn, "surname": sur, "forename": fore, "trade": trade,
-                    "detail": f"Suffix '{raw_suf}' needs standard conversion/ordering in '{fore} {sur}'"
+            is_valid_major = (sur_low == "major" and fore and not any(fore.lower().startswith(x) for x in ["r.a", "c.b", "kate (s.a.)"]))
+            is_ocr_fragment = any(k in sur_low for k in ["col-liery", "colliery", "col'tr", "col-hugh", "col-146", "department", "unionist", "ticket parsons"])
+            is_valid_entity = ("lady hill" in sur_low or "lady naird" in sur_low)
+            if not is_valid_major and not is_ocr_fragment and not is_valid_entity:
+                results["salutation_issues"].append({
+                    "street": street, "year": year, "house_number": hn, "surname": sur, "forename": fore,
+                    "detail": f"Salutation found in surname field: '{sur}'"
                 })
+
+        # Check suffixes (ignoring normalized (Jnr)/(Snr), valid surname Senior, and institutions)
+        is_normalized_suffix = sur.endswith("(Jnr)") or sur.endswith("(Snr)")
+        is_valid_senior = (sur_low == "senior")
+        is_school_or_shop = any(k in sur_low for k in ["school", "infants", "fayre", "champs", "primary"])
+        if not is_normalized_suffix and not is_valid_senior and not is_school_or_shop:
+            if SUFFIX_PATTERNS.search(combined_name) or SUFFIX_PATTERNS.search(trade):
+                match = SUFFIX_PATTERNS.search(f"{combined_name} {trade}")
+                raw_suf = match.group(0) if match else ""
+                if raw_suf.lower() in ["junr", "senr", "jr.", "sr.", "jnr", "snr"] or SUFFIX_PATTERNS.search(sur):
+                    results["suffix_issues"].append({
+                        "street": street, "year": year, "house_number": hn, "surname": sur, "forename": fore, "trade": trade,
+                        "detail": f"Suffix '{raw_suf}' needs standard conversion/ordering in '{fore} {sur}'"
+                    })
 
         # Check forename abbreviation translation opportunities
         for pattern, replacement in FORENAME_ABBREVS.items():

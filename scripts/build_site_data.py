@@ -3,6 +3,11 @@ import json
 import os
 import re
 
+# Set working directory to project root
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.dirname(SCRIPT_DIR) if os.path.basename(SCRIPT_DIR) == "scripts" else SCRIPT_DIR
+os.chdir(PROJECT_ROOT)
+
 DATA_CSV = "data.csv"
 OUTPUT_DIR = "data"
 STREETS_DIR = os.path.join(OUTPUT_DIR, "streets")
