@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Street Timeline & Volume Audit — Newport Street Directory</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/styles/main.css">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  
+  <style>
+    :root {
+      --primary-drop: #ef4444;
+      --primary-gap: #f59e0b;
+      --primary-growth: #10b981;
+      --primary-outlier: #3b82f6;
+    }
+
+    body {
+      padding: 0;
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: var(--body-font, system-ui, -apple-system, sans-serif);
+    }
+
+    .app-container {
+      max-width: 1750px;
+      margin: 0 auto;
+      padding: 1.5rem 1rem;
+    }
+
+    .top-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 1.25rem;
+      border-bottom: 1px solid var(--card-border);
+      margin-bottom: 1.5rem;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .brand-title h1 {
+      font-family: var(--heading-font, 'Instrument Serif', serif);
+      font-size: 2.2rem;
+      color: var(--accent);
+      margin: 0;
+      font-weight: 400;
+      letter-spacing: -0.02em;
+    }
+
+    .brand-title .subtitle {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-top: 0.25rem;
+    }
+
+    .action-bar {
+      display: flex;
+      gap: 0.75rem;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 0.55rem 1rem;
+      border-radius: 6px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      cursor: pointer;
+      border: 1px solid var(--card-border);
+      background: var(--card-bg);
+      color: var(--text);
+      transition: all 0.15s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: #fff !important;
+      border-color: var(--accent);
+    }
+
+    .btn-primary:hover {
+      opacity: 0.92;
+    }
+
+    /* KPI Cards */
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .kpi-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      padding: 1.1rem 1.25rem;
+      cursor: pointer;
+      transition: transform 0.15s, border-color 0.15s;
+    }
+
+    .kpi-card:hover {
+      border-color: var(--accent);
+      transform: translateY(-2px);
+    }
+
+    .kpi-card.active-filter {
+      border-color: var(--accent);
+      background: rgba(14, 165, 233, 0.04);
+      outline: 2px solid var(--accent);
+    }
+
+    .kpi-title {
+      font-size: 0.82rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.4rem;
+    }
+
+    .kpi-value {
+      font-size: 1.85rem;
+      font-weight: 700;
+      color: var(--text);
+      line-height: 1.1;
+    }
+
+    .kpi-subtitle {
+      font-size: 0.78rem;
+      color: var(--muted);
+      margin-top: 0.35rem;
+    }
+
+    /* Controls Panel */
+    .controls-panel {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      margin-bottom: 0.75rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.85rem;
+    }
+
+    .controls-row-top {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .search-box {
+      position: relative;
+      flex: 1;
+      min-width: 260px;
+      max-width: 450px;
+    }
+
+    .search-box input {
+      width: 100%;
+      padding: 0.55rem 0.85rem 0.55rem 2.2rem;
+      border-radius: 6px;
+      border: 1px solid var(--card-border);
+      background: var(--bg);
+      color: var(--text);
+      font-size: 0.9rem;
+    }
+
+    .search-box i {
+      position: absolute;
+      left: 0.75rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--muted);
+    }
+
+    .filter-pills {
+      display: flex;
+      gap: 0.4rem;
+      flex-wrap: wrap;
+    }
+
+    .pill-btn {
+      padding: 0.35rem 0.75rem;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      border: 1px solid var(--card-border);
+      background: var(--bg);
+      color: var(--text);
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      transition: all 0.15s;
+    }
+
+    .pill-btn:hover, .pill-btn.active {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+
+    /* Alphabet Jump Bar */
+    .alpha-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem;
+      align-items: center;
+      padding-top: 0.5rem;
+      border-top: 1px solid rgba(0,0,0,0.06);
+    }
+
+    .alpha-label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--muted);
+      margin-right: 0.4rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .alpha-btn {
+      min-width: 28px;
+      height: 28px;
+      padding: 0 0.35rem;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      border: 1px solid var(--card-border);
+      background: var(--bg);
+      color: var(--text);
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.12s;
+    }
+
+    .alpha-btn:hover, .alpha-btn.active {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+
+    /* Table Toolbar */
+    .table-toolbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      padding: 0.6rem 0.85rem;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-bottom: none;
+      border-radius: 8px 8px 0 0;
+      font-size: 0.85rem;
+    }
+
+    .page-size-selector {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      color: var(--muted);
+    }
+
+    .page-size-btn {
+      padding: 0.25rem 0.55rem;
+      border-radius: 4px;
+      font-size: 0.78rem;
+      border: 1px solid var(--card-border);
+      background: var(--bg);
+      color: var(--text);
+      cursor: pointer;
+    }
+
+    .page-size-btn.active {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+
+    /* Matrix Table Container */
+    .table-container {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 0;
+      overflow-x: auto;
+      max-height: 72vh;
+      position: relative;
+    }
+
+    .matrix-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.84rem;
+      white-space: nowrap;
+    }
+
+    .matrix-table th {
+      position: sticky;
+      top: 0;
+      background: #1e293b;
+      color: #f8fafc;
+      padding: 0.65rem 0.6rem;
+      text-align: center;
+      font-weight: 600;
+      border-bottom: 2px solid #334155;
+      border-right: 1px solid #334155;
+      z-index: 10;
+    }
+
+    .matrix-table th.th-fixed {
+      text-align: left;
+      position: sticky;
+      left: 0;
+      z-index: 20;
+      background: #0f172a;
+      min-width: 180px;
+    }
+
+    .matrix-table td {
+      padding: 0.45rem 0.5rem;
+      border-bottom: 1px solid var(--card-border);
+      border-right: 1px solid rgba(0,0,0,0.05);
+      text-align: center;
+    }
+
+    .matrix-table td.td-fixed {
+      position: sticky;
+      left: 0;
+      background: var(--card-bg);
+      z-index: 5;
+      text-align: left;
+      font-weight: 600;
+      border-right: 2px solid var(--card-border);
+    }
+
+    .matrix-table tr:hover td {
+      background-color: rgba(14, 165, 233, 0.05);
+    }
+    .matrix-table tr:hover td.td-fixed {
+      background-color: #f1f5f9;
+    }
+
+    /* Heatmap cell statuses */
+    .cell-zero {
+      color: #94a3b8;
+      font-size: 0.78rem;
+    }
+
+    .cell-gap {
+      background: #fffbeb !important;
+      color: #b45309;
+      font-weight: 700;
+      border: 1px dashed #f59e0b !important;
+      border-radius: 4px;
+      padding: 2px 4px;
+      display: inline-block;
+    }
+
+    .cell-drop {
+      background: #fef2f2 !important;
+      color: #b91c1c;
+      font-weight: 700;
+      border: 1px solid #ef4444 !important;
+      border-radius: 4px;
+      padding: 2px 4px;
+      display: inline-block;
+    }
+
+    .cell-val {
+      font-weight: 500;
+      color: #0f172a;
+    }
+
+    .cell-high {
+      background: rgba(16, 185, 129, 0.15);
+      font-weight: 600;
+    }
+
+    .cell-verified {
+      background: #ecfdf5 !important;
+      outline: 1.5px solid #10b981;
+      position: relative;
+    }
+
+    .verified-icon {
+      display: inline-block;
+      margin-left: 3px;
+      font-size: 0.72rem;
+      font-weight: 800;
+      color: #059669;
+    }
+
+    .badge-status {
+      font-size: 0.74rem;
+      padding: 0.15rem 0.45rem;
+      border-radius: 12px;
+      display: inline-block;
+      font-weight: 500;
+    }
+
+    .street-link {
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.88rem;
+    }
+    .street-link:hover {
+      text-decoration: underline;
+    }
+
+    .review-input {
+      width: 170px;
+      padding: 0.25rem 0.5rem;
+      font-size: 0.78rem;
+      border: 1px solid var(--card-border);
+      border-radius: 4px;
+      background: var(--bg);
+      color: var(--text);
+    }
+    .review-input:focus {
+      outline: 2px solid var(--accent);
+      background: #fff;
+    }
+
+    /* Pagination / Footer */
+    .table-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.75rem 1rem;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-top: none;
+      border-radius: 0 0 8px 8px;
+      font-size: 0.85rem;
+      color: var(--muted);
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .pagination-btns {
+      display: flex;
+      gap: 0.35rem;
+      align-items: center;
+    }
+
+    .page-btn {
+      padding: 0.3rem 0.65rem;
+      border: 1px solid var(--card-border);
+      background: var(--bg);
+      border-radius: 4px;
+      cursor: pointer;
+      color: var(--text);
+      font-size: 0.82rem;
+    }
+    .page-btn:hover:not(:disabled) {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+    .page-btn:disabled {
+      opacity: 0.45;
+      cursor: not-allowed;
+    }
+  </style>
+</head>
+<body class="app-body">
+
+  <div class="app-container">
+
+    <!-- TOP HEADER -->
+    <header class="top-header">
+      <div class="brand-title">
+        <h1>Street Timeline & Volume Audit</h1>
+        <div class="subtitle">Trajectory matrix across 19 historical directories (1876–1936) • Detect OCR skips, missed headers & building expansions</div>
+      </div>
+      <div class="action-bar">
+        <a href="index.html" class="btn"><i class="ph ph-house"></i> Home</a>
+        <a href="editor.html" class="btn"><i class="ph ph-table"></i> Record Editor</a>
+        <a href="trades.html" class="btn"><i class="ph ph-briefcase"></i> Occupations</a>
+        <button class="btn" onclick="exportNotesTSV()"><i class="ph ph-note-pencil"></i> Export My Notes</button>
+        <button class="btn btn-primary" onclick="downloadMasterTSV()"><i class="ph ph-download-simple"></i> Download Full TSV</button>
+      </div>
+    </header>
+
+    <!-- KPI CARDS -->
+    <div class="kpi-grid">
+      <div class="kpi-card" onclick="setFilter('all')">
+        <div class="kpi-title">Canonical Streets <i class="ph ph-buildings"></i></div>
+        <div class="kpi-value" id="kpi-total">1,360</div>
+        <div class="kpi-subtitle">Across 20 directory editions</div>
+      </div>
+
+      <div class="kpi-card" onclick="setFilter('drop')">
+        <div class="kpi-title">🔴 Severe Drops <i class="ph ph-trend-down" style="color: var(--primary-drop);"></i></div>
+        <div class="kpi-value" id="kpi-drops" style="color: var(--primary-drop);">256</div>
+        <div class="kpi-subtitle">Dropping >60% (suspicious OCR skips)</div>
+      </div>
+
+      <div class="kpi-card" onclick="setFilter('gap')">
+        <div class="kpi-title">🟡 Gap Years <i class="ph ph-warning" style="color: var(--primary-gap);"></i></div>
+        <div class="kpi-value" id="kpi-gaps" style="color: var(--primary-gap);">547</div>
+        <div class="kpi-subtitle">Vanished in between active editions</div>
+      </div>
+
+      <div class="kpi-card" onclick="setFilter('outlier')">
+        <div class="kpi-title">🔵 High Numbers <i class="ph ph-hash" style="color: var(--primary-outlier);"></i></div>
+        <div class="kpi-value" id="kpi-outliers" style="color: var(--primary-outlier);">64</div>
+        <div class="kpi-subtitle">Max house number ≥ 300</div>
+      </div>
+
+      <div class="kpi-card" onclick="setFilter('stable')">
+        <div class="kpi-title">🟢 Steady / Growth <i class="ph ph-check-circle" style="color: var(--primary-growth);"></i></div>
+        <div class="kpi-value" id="kpi-stable" style="color: var(--primary-growth);">493</div>
+        <div class="kpi-subtitle">Standard urban development</div>
+      </div>
+    </div>
+
+    <!-- CONTROLS & FILTERS -->
+    <div class="controls-panel">
+      <div class="controls-row-top">
+        <div class="search-box">
+          <i class="ph ph-magnifying-glass"></i>
+          <input type="text" id="searchInput" placeholder="Search street name (e.g. Aberthaw, Commercial, High)..." oninput="onSearchChange()">
+        </div>
+
+        <div class="filter-pills">
+          <button class="pill-btn active" id="pill-all" onclick="setFilter('all')">All Streets</button>
+          <button class="pill-btn" id="pill-drop" onclick="setFilter('drop')">🔴 Severe Drops</button>
+          <button class="pill-btn" id="pill-gap" onclick="setFilter('gap')">🟡 Gap Years</button>
+          <button class="pill-btn" id="pill-outlier" onclick="setFilter('outlier')">🔵 Numbers ≥ 300</button>
+          <button class="pill-btn" id="pill-disappeared" onclick="setFilter('disappeared')">⚪ Disappeared</button>
+          <button class="pill-btn" id="pill-newcomer" onclick="setFilter('newcomer')">🟣 1971 Newcomers</button>
+          <button class="pill-btn" id="pill-notes" onclick="setFilter('has_notes')">📝 With My Notes</button>
+          <button class="pill-btn" id="pill-verified" onclick="setFilter('verified')">✓ Audited & Verified</button>
+        </div>
+      </div>
+
+      <!-- ALPHABET QUICK JUMP BAR -->
+      <div class="alpha-bar" id="alphaBar">
+        <span class="alpha-label">Jump to:</span>
+        <button class="alpha-btn active" onclick="setLetter('')">ALL</button>
+        <!-- Letters injected via JS -->
+      </div>
+    </div>
+
+    <!-- TABLE TOOLBAR (TOP PAGINATION & PAGE SIZE) -->
+    <div class="table-toolbar">
+      <div class="page-size-selector">
+        <span>Rows per page:</span>
+        <button class="page-size-btn" onclick="setPageSize(50)" id="ps-50">50</button>
+        <button class="page-size-btn active" onclick="setPageSize(100)" id="ps-100">100</button>
+        <button class="page-size-btn" onclick="setPageSize(250)" id="ps-250">250</button>
+        <button class="page-size-btn" onclick="setPageSize('all')" id="ps-all">Show All (1,360)</button>
+      </div>
+
+      <div style="display: flex; align-items: center; gap: 1rem;">
+        <div style="font-size: 0.85rem; color: var(--muted);" id="visibleSummary">
+          Showing <strong id="visibleRange" style="color: var(--text);">0–0</strong> of <strong id="visibleCount" style="color: var(--text);">0</strong>
+        </div>
+        <div class="pagination-btns" id="topPaginationControls"></div>
+      </div>
+    </div>
+
+    <!-- MATRIX TABLE -->
+    <div class="table-container">
+      <table class="matrix-table" id="matrixTable">
+        <thead>
+          <tr id="tableHeaderRow">
+            <th class="th-fixed">Street Name</th>
+            <th>Status</th>
+            <th>Span</th>
+            <th>Total</th>
+            <th>House # Range</th>
+            <th>My Review Notes</th>
+            <!-- 20 Archive Years injected via JS -->
+          </tr>
+        </thead>
+        <tbody id="tableBody">
+          <tr><td colspan="26" style="text-align: center; padding: 2rem;">Loading timeline database...</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- TABLE FOOTER -->
+    <div class="table-footer">
+      <div>Tip: Click any street name to view its records in the main directory. Your review notes are saved automatically in your browser.</div>
+      <div class="pagination-btns" id="bottomPaginationControls"></div>
+    </div>
+
+  </div>
+
+  <script>
+    const YEARS = ["1876", "1878", "1882", "1887", "1890", "1893", "1894", "1898", "1899", "1900", "1902", "1903", "1905", "1910", "1913", "1920", "1925", "1927", "1936"];
+    const ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+
+    let allStreets = [];
+    let currentFilter = 'all';
+    let currentLetter = '';
+    let searchQuery = '';
+    let currentPage = 1;
+    let pageSize = 100; // default 100 rows per page
+    let savedNotes = {};
+    let verifiedSnapshots = {};
+
+    // Load saved notes from localStorage
+    try {
+      const stored = localStorage.getItem('timeline_review_notes');
+      if (stored) savedNotes = JSON.parse(stored);
+    } catch(e) {
+      console.warn("Could not load notes:", e);
+    }
+
+    function loadVerifiedSnapshots() {
+      try {
+        const stored = localStorage.getItem('verified_street_snapshots');
+        if (stored) verifiedSnapshots = JSON.parse(stored);
+        else verifiedSnapshots = {};
+      } catch(e) {
+        console.warn("Could not load verified snapshots:", e);
+        verifiedSnapshots = {};
+      }
+    }
+    loadVerifiedSnapshots();
+
+    async function loadData() {
+      try {
+        const res = await fetch('data/street_timeline.json');
+        const data = await res.json();
+        allStreets = data.streets || [];
+        
+        // Build header year columns
+        const headerRow = document.getElementById('tableHeaderRow');
+        YEARS.forEach(y => {
+          const th = document.createElement('th');
+          th.textContent = y;
+          headerRow.appendChild(th);
+        });
+
+        // Build alphabet jump bar
+        const alphaBar = document.getElementById('alphaBar');
+        ALPHABET.forEach(letter => {
+          const btn = document.createElement('button');
+          btn.className = 'alpha-btn';
+          btn.id = `alpha-${letter}`;
+          btn.textContent = letter;
+          btn.onclick = () => setLetter(letter);
+          alphaBar.appendChild(btn);
+        });
+
+        calculateKPIs();
+        renderTable();
+      } catch (err) {
+        console.error("Failed to load timeline json:", err);
+        document.getElementById('tableBody').innerHTML = `<tr><td colspan="26" style="text-align:center; padding: 2rem; color: #ef4444;">Failed to load data/street_timeline.json. Please ensure generate_timeline_matrix.py has run.</td></tr>`;
+      }
+    }
+
+    function calculateKPIs() {
+      let drops = 0, gaps = 0, outliers = 0, stable = 0;
+      allStreets.forEach(s => {
+        if (s.status.includes('Drop')) drops++;
+        else if (s.status.includes('Gap')) gaps++;
+        else if (s.status.includes('Number')) outliers++;
+        else if (s.status.includes('Stable')) stable++;
+      });
+      document.getElementById('kpi-total').textContent = allStreets.length.toLocaleString();
+      document.getElementById('kpi-drops').textContent = drops.toLocaleString();
+      document.getElementById('kpi-gaps').textContent = gaps.toLocaleString();
+      document.getElementById('kpi-outliers').textContent = outliers.toLocaleString();
+      document.getElementById('kpi-stable').textContent = stable.toLocaleString();
+    }
+
+    function setFilter(filterType) {
+      currentFilter = filterType;
+      currentPage = 1;
+      document.querySelectorAll('.pill-btn').forEach(btn => btn.classList.remove('active'));
+      const activeBtn = document.getElementById(`pill-${filterType}`);
+      if (activeBtn) activeBtn.classList.add('active');
+
+      document.querySelectorAll('.kpi-card').forEach(card => card.classList.remove('active-filter'));
+      if (filterType === 'drop') document.querySelector('.kpi-card:nth-child(2)').classList.add('active-filter');
+      if (filterType === 'gap') document.querySelector('.kpi-card:nth-child(3)').classList.add('active-filter');
+      if (filterType === 'outlier') document.querySelector('.kpi-card:nth-child(4)').classList.add('active-filter');
+      if (filterType === 'stable') document.querySelector('.kpi-card:nth-child(5)').classList.add('active-filter');
+
+      renderTable();
+    }
+
+    function setLetter(letter) {
+      currentLetter = letter;
+      currentPage = 1;
+      document.querySelectorAll('.alpha-btn').forEach(btn => btn.classList.remove('active'));
+      if (letter === '') {
+        document.querySelector('.alpha-btn:first-of-type').classList.add('active');
+      } else {
+        const btn = document.getElementById(`alpha-${letter}`);
+        if (btn) btn.classList.add('active');
+      }
+      renderTable();
+    }
+
+    function setPageSize(size) {
+      pageSize = size === 'all' ? 999999 : parseInt(size);
+      currentPage = 1;
+      document.querySelectorAll('.page-size-btn').forEach(b => b.classList.remove('active'));
+      const activeBtn = document.getElementById(`ps-${size}`);
+      if (activeBtn) activeBtn.classList.add('active');
+      renderTable();
+    }
+
+    function onSearchChange() {
+      searchQuery = document.getElementById('searchInput').value.trim().toLowerCase();
+      currentPage = 1;
+      renderTable();
+    }
+
+    function getFilteredStreets() {
+      return allStreets.filter(s => {
+        // Search query filter
+        if (searchQuery && !s.street.toLowerCase().includes(searchQuery)) {
+          return false;
+        }
+
+        // Letter filter
+        if (currentLetter && !s.street.toUpperCase().startsWith(currentLetter)) {
+          return false;
+        }
+
+        // Category pill filter
+        if (currentFilter === 'drop') return s.status.includes('Drop');
+        if (currentFilter === 'gap') return s.status.includes('Gap');
+        if (currentFilter === 'outlier') return s.status.includes('Number') || (s.max_house_number && s.max_house_number >= 300);
+        if (currentFilter === 'disappeared') return s.status.includes('Disappeared') || s.anomaly_details.includes('Disappeared');
+        if (currentFilter === 'newcomer') return s.status.includes('1971 Newcomer');
+        if (currentFilter === 'stable') return s.status.includes('Stable');
+        if (currentFilter === 'has_notes') return !!savedNotes[s.street];
+        if (currentFilter === 'verified') {
+          return YEARS.some(y => Boolean(verifiedSnapshots[`${s.street}:${y}`]));
+        }
+
+        return true;
+      });
+    }
+
+    function saveNote(streetName, val) {
+      if (val.trim()) {
+        savedNotes[streetName] = val.trim();
+      } else {
+        delete savedNotes[streetName];
+      }
+      try {
+        localStorage.setItem('timeline_review_notes', JSON.stringify(savedNotes));
+      } catch(e) {
+        console.warn("Storage failed:", e);
+      }
+    }
+
+    function renderTable() {
+      loadVerifiedSnapshots();
+      const filtered = getFilteredStreets();
+      const totalFiltered = filtered.length;
+      document.getElementById('visibleCount').textContent = totalFiltered.toLocaleString();
+
+      const totalPages = Math.ceil(totalFiltered / pageSize) || 1;
+      if (currentPage > totalPages) currentPage = totalPages;
+
+      const startIndex = (currentPage - 1) * pageSize;
+      const endIndex = Math.min(startIndex + pageSize, totalFiltered);
+      const paginated = filtered.slice(startIndex, endIndex);
+
+      if (totalFiltered === 0) {
+        document.getElementById('visibleRange').textContent = '0';
+      } else {
+        document.getElementById('visibleRange').textContent = `${(startIndex + 1).toLocaleString()}–${endIndex.toLocaleString()}`;
+      }
+
+      const tbody = document.getElementById('tableBody');
+      tbody.innerHTML = '';
+
+      if (paginated.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="26" style="text-align: center; padding: 2rem; color: var(--muted);">No streets matching the current filter.</td></tr>`;
+        renderPagination(totalPages);
+        return;
+      }
+
+      paginated.forEach(row => {
+        const tr = document.createElement('tr');
+
+        // 1. Street Name
+        const tdName = document.createElement('td');
+        tdName.className = 'td-fixed';
+        tdName.innerHTML = `<a href="index.html#street=${encodeURIComponent(row.street)}" target="_blank" class="street-link" title="Open ${row.street} in archive search">${row.street}</a>`;
+        tr.appendChild(tdName);
+
+        // 2. Status Badge
+        const tdStatus = document.createElement('td');
+        tdStatus.innerHTML = `<span class="badge-status" title="${row.anomaly_details}">${row.status}</span>`;
+        tr.appendChild(tdStatus);
+
+        // 3. Span
+        const tdSpan = document.createElement('td');
+        tdSpan.textContent = row.span;
+        tr.appendChild(tdSpan);
+
+        // 4. Total Records
+        const tdTotal = document.createElement('td');
+        tdTotal.innerHTML = `<strong>${row.total_records}</strong>`;
+        tr.appendChild(tdTotal);
+
+        // 5. House Range
+        const tdRange = document.createElement('td');
+        if (row.min_house_number && row.max_house_number) {
+          tdRange.textContent = `${row.min_house_number} – ${row.max_house_number}`;
+        } else {
+          tdRange.innerHTML = `<span style="color:#94a3b8;">Unnumbered</span>`;
+        }
+        tr.appendChild(tdRange);
+
+        // 6. Review Notes input
+        const tdNote = document.createElement('td');
+        const noteVal = savedNotes[row.street] || '';
+        tdNote.innerHTML = `<input type="text" class="review-input" placeholder="Type flag/note..." value="${escapeHtml(noteVal)}" onchange="saveNote('${escapeJs(row.street)}', this.value)">`;
+        tr.appendChild(tdNote);
+
+        // 7. 20 Year Cells
+        const counts = YEARS.map(y => row.years[y] || 0);
+        const activeYearsIndices = counts.map((c, i) => c > 0 ? i : -1).filter(i => i !== -1);
+        const firstActiveI = activeYearsIndices[0] ?? -1;
+        const lastActiveI = activeYearsIndices[activeYearsIndices.length - 1] ?? -1;
+
+        YEARS.forEach((y, i) => {
+          const tdY = document.createElement('td');
+          const count = counts[i];
+          const isVerified = Boolean(verifiedSnapshots[`${row.street}:${y}`]);
+
+          if (isVerified) {
+            tdY.classList.add('cell-verified');
+          }
+
+          if (count === 0) {
+            // Is it an intermediate gap year?
+            if (i > firstActiveI && i < lastActiveI) {
+              tdY.innerHTML = `<span class="cell-gap" title="Gap Year: Active before and after!">0</span>`;
+            } else {
+              tdY.innerHTML = `<span class="cell-zero">—</span>`;
+            }
+          } else {
+            // Check severe drop compared to previous volume
+            let isDrop = false;
+            let dropPct = 0;
+            if (i > 0) {
+              const prevCount = counts[i - 1];
+              if (prevCount >= 15 && count < prevCount * 0.4) {
+                isDrop = true;
+                dropPct = Math.round((prevCount - count) / prevCount * 100);
+              }
+            }
+
+            let cellContent = '';
+            if (isDrop) {
+              cellContent = `<span class="cell-drop" title="Severe drop: -${dropPct}% from previous volume">${count}</span>`;
+            } else if (count >= 50) {
+              tdY.className = 'cell-high' + (isVerified ? ' cell-verified' : '');
+              cellContent = `<span class="cell-val">${count}</span>`;
+            } else {
+              cellContent = `<span class="cell-val">${count}</span>`;
+            }
+
+            if (isVerified) {
+              cellContent += `<span class="verified-icon" title="Audited & Verified Snapshot">✓</span>`;
+            }
+
+            tdY.innerHTML = cellContent;
+            tdY.style.cursor = 'pointer';
+            tdY.title = `${row.street} (${y}): ${count} entries ${isVerified ? '• Audited & Verified ✓' : ''} — Click to inspect`;
+            tdY.onclick = () => window.open(`index.html#street=${encodeURIComponent(row.street)}&year=${y}`, '_blank');
+          }
+
+          tr.appendChild(tdY);
+        });
+
+        tbody.appendChild(tr);
+      });
+
+      renderPagination(totalPages);
+    }
+
+    function renderPagination(totalPages) {
+      const topContainer = document.getElementById('topPaginationControls');
+      const bottomContainer = document.getElementById('bottomPaginationControls');
+      topContainer.innerHTML = '';
+      bottomContainer.innerHTML = '';
+
+      if (totalPages <= 1) return;
+
+      [topContainer, bottomContainer].forEach(container => {
+        const prevBtn = document.createElement('button');
+        prevBtn.className = 'page-btn';
+        prevBtn.textContent = '← Prev';
+        prevBtn.disabled = currentPage === 1;
+        prevBtn.onclick = () => { currentPage--; renderTable(); };
+        container.appendChild(prevBtn);
+
+        const span = document.createElement('span');
+        span.style.padding = '0.3rem 0.5rem';
+        span.style.fontSize = '0.82rem';
+        span.textContent = `Page ${currentPage} of ${totalPages}`;
+        container.appendChild(span);
+
+        const nextBtn = document.createElement('button');
+        nextBtn.className = 'page-btn';
+        nextBtn.textContent = 'Next →';
+        nextBtn.disabled = currentPage === totalPages;
+        nextBtn.onclick = () => { currentPage++; renderTable(); };
+        container.appendChild(nextBtn);
+      });
+    }
+
+    function escapeHtml(str) {
+      return (str || '').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    }
+
+    function escapeJs(str) {
+      return (str || '').replace(/'/g, "\\'").replace(/"/g, '\\"');
+    }
+
+    function downloadMasterTSV() {
+      window.location.href = 'street_timeline_matrix.tsv';
+    }
+
+    function exportNotesTSV() {
+      const streetsWithNotes = Object.keys(savedNotes);
+      if (streetsWithNotes.length === 0) {
+        alert("You haven't entered any notes yet! Type notes in the 'My Review Notes' column first.");
+        return;
+      }
+
+      let tsv = "Street Name\tReview Note\tStatus\tTotal Records\tActive Years\tHouse Numbers\n";
+      streetsWithNotes.sort().forEach(st => {
+        const found = allStreets.find(s => s.street === st);
+        const status = found ? found.status : "";
+        const tot = found ? found.total_records : "";
+        const span = found ? found.span : "";
+        const hn = found ? `${found.min_house_number}–${found.max_house_number}` : "";
+        tsv += `${st}\t${savedNotes[st]}\t${status}\t${tot}\t${span}\t${hn}\n`;
+      });
+
+      const blob = new Blob([tsv], { type: 'text/tab-separated-values' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `street_review_notes_${new Date().toISOString().slice(0, 10)}.tsv`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    }
+
+    // Initialize
+    loadData();
+  </script>
+
+</body>
+</html>

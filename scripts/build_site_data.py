@@ -12,9 +12,10 @@ DATA_CSV = "data.csv"
 OUTPUT_DIR = "data"
 STREETS_DIR = os.path.join(OUTPUT_DIR, "streets")
 
-# Maximum year permitted for public distribution (100-year rolling rule requested by Newport Library).
-# Set to None to include all historical years.
-MAX_PUBLIC_YEAR = int(os.environ["MAX_PUBLIC_YEAR"]) if "MAX_PUBLIC_YEAR" in os.environ else None
+# Maximum year permitted for public distribution (e.g. 100-year rolling rule / unpublished volumes).
+# Set to None via environment variable MAX_PUBLIC_YEAR=None to include all historical years.
+# Default to 1936 to filter out 1971 until authorized for publication.
+MAX_PUBLIC_YEAR = int(os.environ["MAX_PUBLIC_YEAR"]) if "MAX_PUBLIC_YEAR" in os.environ and os.environ["MAX_PUBLIC_YEAR"].isdigit() else 1936
 
 # Load Master Streets Registry
 MASTER_STREETS_FILE = "master_streets.json"
@@ -191,6 +192,10 @@ def main():
             audit_status = "NAME_VERIFIED"
         is_verified = audit_status in ["NAME_VERIFIED", "FULLY_ENRICHED"]
 
+        m_coords = m_info.get("coordinates") or {}
+        lat_val = m_info.get("latitude") or m_coords.get("lat") or content["latitude"] or ""
+        lng_val = m_info.get("longitude") or m_coords.get("lng") or content["longitude"] or ""
+
         summary = {
             "displayName": stats["displayName"],
             "slug": slug,
@@ -200,8 +205,9 @@ def main():
             "earliestYear": first_yr,
             "latestYear": last_yr,
             "yearsSpan": f"{first_yr}–{last_yr}" if first_yr != last_yr else str(first_yr),
-            "latitude": m_info.get("latitude") or content["latitude"],
-            "longitude": m_info.get("longitude") or content["longitude"],
+            "years": [int(y) for y in years_sorted if y.isdigit()],
+            "latitude": str(lat_val) if lat_val else "",
+            "longitude": str(lng_val) if lng_val else "",
             "hasContent": bool(content["description"] or content["images"]),
             "formerNames": former_names,
             "renamedTo": renamed_to,
@@ -245,6 +251,13 @@ def main():
     print(f"Saving compact global search index ({len(search_list)} entries) to {search_file}...")
     with open(search_file, "w", encoding="utf-8") as scf:
         json.dump(search_list, scf, indent=None, separators=(',', ':'))
+
+    # Build Occupations trade index
+    try:
+        import build_trades_data
+        build_trades_data.build()
+    except Exception as e:
+        print(f"Warning: Could not build trades index: {e}")
 
     print("Site data build complete! Output saved in /data/.")
 

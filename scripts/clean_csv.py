@@ -45,6 +45,8 @@ ABBREVIATIONS = {
     r"\bRd\b\.?": "Road",
     r"\bSt\b\.?$": "Street",
     r"\bAve\b\.?": "Avenue",
+    r"\bAv\b\.?": "Avenue",
+    r"\bCl\b\.?": "Close",
     r"\bTer\b\.?": "Terrace",
     r"\bPl\b\.?": "Place",
     r"\bSq\b\.?": "Square",
@@ -570,11 +572,19 @@ def clean_street_name(name):
     if not name:
         return ""
         
+    # Expand "Up." or "Up " prefix to "Upper "
+    name = re.sub(r'^(?:Up|Upp)[\.\s]+', 'Upper ', name, flags=re.I).strip()
+
     # Strip trailing continued/contd indicators (e.g. -continued, —continued, contd)
     name = re.sub(r'[\s\-—–_]+(?:continued|contd|cont|cont\.|contd\.)\s*$', '', name, flags=re.I).strip()
         
     # Strip parenthesized ward/map codes like (B T), (B.T.), (BT), (P), (M), (T)
     name = re.sub(r'\s*\([\s\.]*[A-Za-z][\s\.]*(?:[A-Za-z][\s\.]*)?\)', '', name).strip()
+
+    # Strip unparenthesized ward/district codes like ", P.", ", B.T.", ", M.", ", C.", etc. (preserving High Street, Pill)
+    if not re.search(r'\bHigh\s+Street\b', name, flags=re.I):
+        name = re.sub(r'[\s,]+(?:P\.|B\.T\.|M\.|C\.|T\.|B\.|L\.|D\.|E\.|BT|[PMCTBLDE])\s*$', '', name, flags=re.I).strip()
+    name = re.sub(r"\bAl'ma\b", "Alma", name, flags=re.I)
         
     # If the street name is in all-caps, convert it to Capital Case
     if name.isupper():
@@ -672,7 +682,7 @@ def clean_street_name(name):
         'hale mrs': 'Orchard Street',
         'head of alexandra dock': 'Alexandra Docks',
         'holy cross cath. school': 'Victoria Road',
-        'holy trinity church': 'High Street',
+        'holy trinity church': 'Potter Street',
         'house of rerefuge': 'Stow Hill',
         'houses building': 'Caerleon Road',
         'hubert': 'Hubert Road',
@@ -691,7 +701,7 @@ def clean_street_name(name):
         'maypole dairy co': 'High Street',
         'merchants': 'Commercial Street',
         'metropolitan bank': 'Bridge Street',
-        'midland bank chambers': 'High Street',
+        'midland bank chambers': 'Bridge Street',
         'mission church': 'Corporation Road',
         'mission hall': 'Mendalgief Road',
         "navdies' mission": 'Dock Street',
@@ -839,9 +849,44 @@ def clean_street_name(name):
         'bryngwas road': 'Brynglas Road',
         'blewitt street, b': 'Blewitt Street',
         'bolt street, p': 'Bolt Street',
-        'altery road': 'Alteryn Road',
-        'alteryns road': 'Alteryn Road',
-        'alteyn road': 'Alteryn Road',
+        'acadia terrace': 'Morden Road',
+        'arcadia terrace': 'Morden Road',
+        'albany chambers': 'Commercial Street',
+        'albert hall chambers': 'Stow Hill',
+        'albion chambers': 'Commercial Street',
+        'alma street-continued': 'Alma Street',
+        'alteryh': 'Allt-yr-yn',
+        'alteryu': 'Allt-yr-yn',
+        'altryn': 'Allt-yr-yn',
+        'alteryn': 'Allt-yr-yn',
+        'altery road': 'Allt-yr-yn Road',
+        'alteryns road': 'Allt-yr-yn Road',
+        'alteyn road': 'Allt-yr-yn Road',
+        'alteryn road': 'Allt-yr-yn Road',
+        'alteryn view': 'Allt-yr-yn View',
+        'baneswell chambers': 'Bridge Street',
+        'baneswell square': 'Victoria Square',
+        'baneswell-square': 'Victoria Square',
+        'victoria (baneswell) square': 'Victoria Square',
+        'victoria. square': 'Victoria Square',
+        'central chambers': 'Stow Hill',
+        'corn exchange': 'High Street',
+        'court-y-bella terrace': 'Courtybella Terrace',
+        'crown chambers': 'Cambrian Road',
+        'emlyn chambers': 'High Street',
+        'newport street directory': 'Corporation Road',
+        'pottery terrace (old)': 'Pottery Terrace',
+        "queen's chambers": 'High Street',
+        'rhymney whf': 'Rhymney Wharf',
+        'severn view': 'Severn View',
+        'slipway cottages': 'Nash Road',
+        "st. george's buildings": 'Jeddo Street',
+        'st. woolos schools': 'Stow Hill',
+        'stow park post office': 'Stow Park Terrace',
+        'temperance cottages': 'Christchurch Road',
+        'the drill hall': 'Stow Hill',
+        'town hall': 'Commercial Street',
+        'union workhouse': 'Stow Hill',
         'bryngwyn': 'Bryngwyn Road',
         'bryngzas avenue': 'Brynglas Avenue',
         'belle vue court': 'Belle Vue Lane',
@@ -1550,6 +1595,83 @@ def clean_record(row):
         if "street directory" in sur_clean or "street directory" in bldg_clean:
             return None
 
+    # Filter out Directory Cross-Street Routing & Street Description Headers
+    hn_low = house_num.lower().strip()
+    bn_low = bldg_name.lower().strip()
+    sn_low = surname.lower().strip()
+    fn_low = forename.lower().strip()
+    tr_low = trade.lower().strip()
+    comb_low = f"{hn_low} {bn_low} {sn_low} {fn_low} {tr_low}".strip()
+
+    # Direct "From ... to ..." street description lines split across columns (e.g. Beaufort Terrace & Western Avenue 1971)
+    if (hn_low == "from" and bn_low == "to") or (hn_low == "to" and bn_low == "from"):
+        return None
+
+    # Directory map grid reference headers (e.g. Western Avenue 1971 "Map-10 D C")
+    if re.search(r'^\s*map[-\s]?\d+', hn_low) or (sn_low == 'c' and fn_low == 'd' and 'map' in hn_low):
+        return None
+
+    # Bracketed routing junk (e.g. Griffin St 1903 "From ] 26A High-street [", "From ] [", "From ] ]")
+    if hn_low == "from" and bn_low in {"]", "["}:
+        return None
+
+    # Footbridge / layout divider rows (e.g. Canal St 1910 "here Courty is footbridge to")
+    if hn_low == "here" and "footbridge" in comb_low:
+        return None
+
+    # Estate / routing headers (e.g. Sims Sq 1971 "Alway Estate. From 60 Elgar circle Left side", Simpson Close 1971 "Malpas. From Hargreaves drive Left side")
+    if ("from " in hn_low) and sn_low in {"left", "right"} and fn_low == "side":
+        return None
+
+    # Adjacent routing markers without resident (e.g. Dickens Dr 1971 "cent to Masefield vale")
+    if hn_low in {"cent to", "cent"} and "masefield" in comb_low:
+        return None
+
+    # Pillgwenlly general note
+    if "southern extremity of the town" in hn_low:
+        return None
+
+    # Non-resident routing / destination headers (e.g. Hereford Pl 1898 "To Church-road", Llanthewy Rd 1898 "From 'Hand Post' Stow-hill")
+    if not house_num and not forename and not trade and re.match(r'^(?:to|from)\s+[a-z\s\-]+(?:street|road|terrace|avenue|place|lane|crescent|hill|dock|square|wharf|bridge|railway|stow-hill)', sn_low):
+        return None
+
+    # Commercial ad banners
+    if re.search(r'^(?:for high-class tailoring|glass 1½d\. per foot)', hn_low):
+        return None
+    if hn_low.startswith('from 8, james-st') and surname == '_':
+        return None
+    if hn_low.startswith('entrance to castle precincts') and surname == '_':
+        return None
+
+    # Clean bogus building names
+    if bn_low in {"to", "from", "&", "and"}:
+        bldg_name = ""
+        bn_low = ""
+
+    # Fix real residents where routing note landed in house_number
+    if hn_low.startswith("from 87, lewis-street") or hn_low.startswith("to upper alma-street"):
+        house_num = ""
+    elif "handpost" in hn_low and surname == "Price":
+        house_num = ""
+        bldg_name = "Ty-llwyd"
+        forename = "T."
+        trade = "Farmer"
+    elif hn_low == "from" and surname == "Clarence-place" and forename == "93" and "Langford" in trade:
+        house_num = "93"
+        bldg_name = "Eastnor"
+        surname = "Langford"
+        forename = "W. K."
+        trade = ""
+    elif hn_low in {"and", "&"}:
+        house_num = ""
+
+    # Handle 1971 Albert Street Ambulance Station
+    if street.lower() == "albert street" and "ambulance station" in tr_low and "to south market" in sn_low:
+        bldg_name = "Ambulance Station"
+        surname = "Ambulance Station"
+        trade = "Ambulance Station"
+        house_num = ""
+
     # Discard cross-reference layout artifacts under Parkfield Place
     if street.lower().strip() == "parkfield place" and not house_num and not surname and not forename and not trade:
         b_low = bldg_name.lower().strip()
@@ -1591,6 +1713,19 @@ def clean_record(row):
     forename = phone_pattern.sub('', forename).strip(' ,"-~.')
     bldg_name = phone_pattern.sub('', bldg_name).strip(' ,"-~.')
     trade = phone_pattern.sub('', trade).strip(' ,"-~.')
+
+    # Strip routing suffixes from trade and forename (e.g. "RICS, From Camelot place to 48 73", "From 23 Frederick street to 15 Portland st")
+    routing_strip_pat = re.compile(r'[,;\s]*\bFrom\s+(?:\d+|[A-Z][a-z]+(?:\s+[A-Za-z]+)?\s+(?:place|road|street|drive|close|avenue|crescent|terrace|circle|lane|hill|way|parade)).*$', re.I)
+    if trade and routing_strip_pat.search(trade):
+        trade = routing_strip_pat.sub('', trade).strip(' ,"-~.')
+
+    if forename and routing_strip_pat.search(forename):
+        if " " in surname:
+            parts = surname.rsplit(maxsplit=1)
+            surname = parts[0].strip()
+            forename = parts[1].strip()
+        else:
+            forename = ""
 
     # Realign OCR column swaps where trade landed in forename and full name landed in surname (e.g. 1920 Agincourt St 'sur=Whitehead Chas, fore=labourer')
     if forename and surname and " " in surname:
@@ -2161,14 +2296,14 @@ def clean_record(row):
         "fruiterer", "fish bar", "bootmaker", "bootmakers", "tailor", "printer", "stationer",
         "chemist", "dairyman", "builder", "plumber", "painter", "mason", "haulier",
         "weighman", "helper", "hlpr", "trimmer", "trim'r", "fitter", "labourer", "labr", "moulder",
-        "smith", "clerk", "hoistman", "rigger", "boatman", "dock labourer", "joiner",
+        "hoistman", "rigger", "boatman", "dock labourer", "joiner",
         "wheelwright", "saddler", "caretaker", "inspector", "secretary", "manager", "agent",
         "glasswkr", "glassworker", "bottlemkr", "bottlemaker", "l'ndress", "laundress",
         "tailoress", "wareh'man", "warehsman", "warehouseman", "blower", "glassblower",
         "cabtmkr", "cabinetmaker", "boilerm'r", "boilermaker"
     }
 
-    if surname and surname.strip().lower() in TRADES_STANDALONE:
+    if not forename and surname and surname.strip().lower() in TRADES_STANDALONE:
         if not trade:
             trade = title_case_name(surname)
         surname = ""
@@ -2598,22 +2733,18 @@ def clean_record(row):
                     val = TRADE_ABBREV_MAP[val]
                     changed_words = True
 
-                case_insensitive_standards = {
-                    'engine driver', 'coal trimmer', 'motor driver', 'lorry driver',
-                    'crane driver', 'insurance agent', 'boot repairer', 'dock labourer',
-                    'civil servant', 'police sergeant', 'linotype operator',
-                    'inspector of works', 'travelling draper', 'wine and spirit merchant',
-                    'junior scale maker', 'ex-police inspector', 'insurance manager',
-                    'painter and decorator', 'chemical worker', 'commercial agent',
-                    'window cleaner'
-                }
-                if val in case_insensitive_standards:
-                    trade = val
-                elif not changed_words and val == trade.strip(' ,"-~.').lower():
-                    # Keep original casing if we didn't change the actual text content
-                    trade = trade.strip(' ,"-~.')
-                else:
-                    trade = val
+                # Standardize Title Case for clean trades (e.g. labourer -> Labourer)
+                if val:
+                    if val.upper() in ('G.W.R.', 'G.W.R', 'G.P.O.', 'G.P.O', 'GPO', 'P.C.', 'H.M.C.'):
+                        trade = val.upper()
+                    elif val.islower() and all(w.isalpha() for w in val.split()):
+                        words = val.split()
+                        clean_w = [w.capitalize() if (i == 0 or w not in ('and', 'of', '&', 'for', 'the', 'in', 'at')) else w for i, w in enumerate(words)]
+                        trade = ' '.join(clean_w)
+                    elif not changed_words and val == trade.strip(' ,"-~.').lower():
+                        trade = trade.strip(' ,"-~.')
+                    else:
+                        trade = val
 
     # Standardize G.p.o. / G.p.o / GPO / G.P.O -> G.P.O.
     pat_gpo = re.compile(r'\b(g\.?p\.?o\.?)\b\.?', re.I)
@@ -4057,6 +4188,9 @@ def main():
                     elif cleaned.get("year") == "1927" and st_lower == "phillip j":
                         skipped_count += 1
                         continue
+                    elif cleaned.get("year") == "1882" and st_lower == "victoria street" and "ley-street" in cleaned.get("surname", "").lower():
+                        skipped_count += 1
+                        continue
 
                     # Step 9C: Layout & Mission Section Notes
                     elif "end of archiba" in st_lower:
@@ -4320,8 +4454,936 @@ def main():
                 rows.append(new_row)
                 added_gap_count += 1
 
-    if added_gap_count > 0:
-        print(f"Appended {added_gap_count} supplemental gap-year historical research records into dataset.")
+    # --- STEP 10: Churches, Sub-Terraces & Phantom Pointers Cleanup ---
+    print("Applying Step 10: Churches, Sub-Terraces & Phantom Pointers cleanup...")
+    # 1. Church & Institution Realignments
+    church_fixed = 0
+    for r in rows:
+        yr = r.get("year", "")
+        st = r.get("street", "")
+        hn = r.get("house_number", "")
+        sn = r.get("surname", "")
+        fn = r.get("forename", "")
+
+        # Old Cardiff Road 1971 #17: St. Thomas's Church & St. Thomas' Church Hall
+        if yr == "1971" and st == "Old Cardiff Road" and hn == "17":
+            r["forename"] = ""
+            r["surname"] = "St. Thomas's Church"
+            r["building_name"] = "St. Thomas' Church Hall"
+            church_fixed += 1
+
+        # Alexandra Road 1971: St. Stephen's Church Hall
+        elif yr == "1971" and st == "Alexandra Road" and "Stephen" in sn and "Church" in sn:
+            r["building_name"] = "St. Stephen's Church Hall"
+            church_fixed += 1
+
+        # Gaer Road 1971: St. Martin's Church (#St purged)
+        elif yr == "1971" and st == "Gaer Road" and "Martin" in sn and "Church" in sn:
+            r["house_number"] = ""
+            r["surname"] = "St. Martin's Church"
+            church_fixed += 1
+
+        # Commercial Street 1894: St. Paul's Church
+        elif yr == "1894" and st == "Commercial Street" and sn == "St. Paul's Church":
+            r["forename"] = ""
+            church_fixed += 1
+
+        # Bridge Street 1899: St. Luke's Church
+        elif yr == "1899" and st == "Bridge Street" and sn == "St. Luke's Church":
+            r["forename"] = ""
+            church_fixed += 1
+
+        # Commercial Road 1900: St. Andrew's Church
+        elif yr == "1900" and st == "Commercial Road" and "ANDREW'S CHURCH" in sn:
+            r["house_number"] = ""
+            r["forename"] = ""
+            r["surname"] = "St. Andrew's Church"
+            church_fixed += 1
+
+        # Dock Street 1925: St. James Church
+        elif yr == "1925" and st == "Dock Street" and sn == "St. James Church":
+            r["forename"] = ""
+            church_fixed += 1
+
+    print(f"Step 10: Fixed {church_fixed} church/institution titles and building halls.")
+
+    # 2. Identify running page headers, commercial ad banners, and orphan sub-terrace headers
+    phantom_indices = set()
+    for idx, r in enumerate(rows):
+        hn = r.get("house_number", "")
+        sn = r.get("surname", "").strip()
+        fn = r.get("forename", "").strip()
+        full = f"{fn} {sn}".strip()
+        
+        # Check running headers like "240 NEWPORT", "405 EDWARDS LTD..."
+        if hn.isdigit() and int(hn) > 100:
+            if full in ["NEWPORT", "NEWPORT DIRECTORY", "DIRECTORY", "STREET DIRECTORY"] or "LIMITED" in full or "LTD" in full or "TELEPHONE" in full or "TEL." in full:
+                phantom_indices.add(idx)
+
+    # 3. Propagate mid-street sub-terrace names to subsequent resident houses & remove orphan headers
+    def _clean_terrace_title(name):
+        name = re.sub(r"[\—\-\:\.\,]+$", "", name).strip()
+        return name.title()
+
+    subterrace_propagated = 0
+    subterrace_headers_removed = 0
+    
+    i = 0
+    while i < len(rows):
+        r = rows[i]
+        st = r.get("street", "")
+        hn = r.get("house_number", "").strip()
+        sn = r.get("surname", "").strip()
+        fn = r.get("forename", "").strip()
+        bldg = r.get("building_name", "").strip()
+        trade = r.get("trade", "").strip()
+        yr = r.get("year", "")
+
+        # Check if row is an isolated all-caps header with no resident name, house #, or trade
+        if sn.isupper() and len(sn) > 3 and not fn and not hn and not trade and not bldg:
+            if any(w in sn for w in ["COTTAGES", "TERRACE", "PLACE", "ROAD", "STREET", "SQUARE", "VILLAS", "HOUSES", "BUILDINGS", "COURT", "ROW", "GARDENS", "AVENUE", "HILL"]):
+                terrace_title = _clean_terrace_title(sn)
+                j = i + 1
+                while j < len(rows) and j < i + 15:
+                    next_r = rows[j]
+                    if next_r.get("street") != st or next_r.get("year") != yr:
+                        break
+                    next_hn = next_r.get("house_number", "").strip()
+                    next_sn = next_r.get("surname", "").strip()
+                    # If next row is another header, stop lookahead
+                    if next_sn.isupper() and not next_r.get("forename") and not next_hn:
+                        break
+                    # If next row has a house number and no building name, it belongs to this terrace block!
+                    if next_hn and not next_r.get("building_name"):
+                        next_r["building_name"] = terrace_title
+                        subterrace_propagated += 1
+                    j += 1
+
+                # Header itself (or orphan pointer like OLD COTTAGES) is not a resident
+                phantom_indices.add(i)
+                subterrace_headers_removed += 1
+        i += 1
+
+    print(f"Step 10: Enriched {subterrace_propagated} residents with sub-terrace building names.")
+    print(f"Step 10: Purged {len(phantom_indices)} phantom headers, ad banners, and orphan pointers.")
+    rows = [r for idx, r in enumerate(rows) if idx not in phantom_indices]
+
+    # 4. Realign Aberthaw Road & Aberthaw Circle (1971) based on physical scans (pages 238-239)
+    # The OCR had misread 266 as 966, hallucinated descending 900s/800s across col 2, and dropped 35 houses in col 1.
+    aberthaw_circle_tail_1971 = [
+        {"year": "1971", "street": "Aberthaw Circle", "house_number": "82", "building_name": "", "surname": "Price", "forename": "Bernard M", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Circle", "house_number": "84", "building_name": "", "surname": "Astbury", "forename": "Philip J", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Circle", "house_number": "86", "building_name": "", "surname": "Evans", "forename": "Allan J", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Circle", "house_number": "88", "building_name": "", "surname": "Hughes", "forename": "Rd J", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Circle", "house_number": "90", "building_name": "", "surname": "Dowding", "forename": "Brian", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Circle", "house_number": "92", "building_name": "", "surname": "Griffiths", "forename": "David A", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Circle", "house_number": "94", "building_name": "", "surname": "Harries", "forename": "Gwilym G", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Circle", "house_number": "96", "building_name": "", "surname": "Stevens", "forename": "Rd G", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Circle", "house_number": "98", "building_name": "", "surname": "Heard", "forename": "Christphr D", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Circle", "house_number": "100", "building_name": "", "surname": "Brend", "forename": "Rt M", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Circle", "house_number": "102", "building_name": "", "surname": "Reardon", "forename": "Michl", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Circle", "house_number": "104", "building_name": "", "surname": "Bayliss", "forename": "Hayden M", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Circle", "house_number": "106", "building_name": "", "surname": "Lloyd", "forename": "Peter E", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Circle", "house_number": "108", "building_name": "", "surname": "Pritchard", "forename": "Alex D", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Circle", "house_number": "110", "building_name": "", "surname": "Sanders", "forename": "Geo", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Circle", "house_number": "112", "building_name": "", "surname": "Saunders", "forename": "Norman C", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Circle", "house_number": "114", "building_name": "", "surname": "Klein", "forename": "Karl", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Circle", "house_number": "116", "building_name": "", "surname": "Pugh", "forename": "Alan J", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Circle", "house_number": "118", "building_name": "", "surname": "Wood", "forename": "Wm", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Circle", "house_number": "120", "building_name": "", "surname": "Dowen", "forename": "Trevor", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Circle", "house_number": "122", "building_name": "", "surname": "Westacott", "forename": "Miss M, JP", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Circle", "house_number": "124", "building_name": "", "surname": "Davies", "forename": "Edwd", "trade": "", "source_type": "Primary"},
+    ]
+
+    aberthaw_road_1971 = [
+        # Page 238, Col 3 (Right side)
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "", "building_name": "", "surname": "TAYLOR'S REMOVALS LTD", "forename": "", "trade": "furniture removers & haulage contrctrs", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "", "building_name": "Ladyhill Service Centre", "surname": "", "forename": "", "trade": "petrol station", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "", "building_name": "Alway County Primary School", "surname": "", "forename": "", "trade": "junior mixed & infants", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "61", "building_name": "", "surname": "Roberts", "forename": "Geo. H", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "63", "building_name": "Tranmere", "surname": "Vowles", "forename": "Wilfred", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "65", "building_name": "", "surname": "Buckman", "forename": "M", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "67", "building_name": "", "surname": "Davies", "forename": "Chas. Arth", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "69", "building_name": "Mayfair", "surname": "Edwards", "forename": "Edwd", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "71", "building_name": "", "surname": "Moulton", "forename": "Arth. Aug", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "73", "building_name": "", "surname": "Mepham", "forename": "G. M", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "75", "building_name": "", "surname": "Foster", "forename": "E", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "79", "building_name": "", "surname": "Evans", "forename": "David G", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "81", "building_name": "", "surname": "Shute", "forename": "Chas. Bernard", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "83", "building_name": "", "surname": "Roberts", "forename": "Arth. J", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "85", "building_name": "", "surname": "Haynes", "forename": "Saml G", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "", "building_name": "Alway Welfare Centre", "surname": "", "forename": "", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "87", "building_name": "", "surname": "Stevens", "forename": "Wm. G", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "89", "building_name": "", "surname": "Duncan", "forename": "Wm C", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "91", "building_name": "", "surname": "Ennis", "forename": "Chas", "trade": "", "source_type": "Primary"},
+
+        # Page 239, Col 1 (Cross over, even numbers 266 down to 180)
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "98", "building_name": "", "surname": "Lewis", "forename": "Albt. J", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "266", "building_name": "", "surname": "Peters", "forename": "Jn", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "264", "building_name": "", "surname": "Edwards", "forename": "Wm. J", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "262", "building_name": "", "surname": "Belcher", "forename": "Mrs. J. E", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "260", "building_name": "", "surname": "Cogdell", "forename": "Wltr", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "258", "building_name": "", "surname": "Needs", "forename": "Rt", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "256", "building_name": "", "surname": "Edwards", "forename": "T. P", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "254", "building_name": "", "surname": "Freeman", "forename": "Nellie", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "252", "building_name": "", "surname": "Fitzpatrick", "forename": "Ronald M", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "250", "building_name": "", "surname": "Duggan", "forename": "Brian", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "248", "building_name": "", "surname": "Pritchard", "forename": "Kenneth", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "246", "building_name": "", "surname": "Satchell", "forename": "Mervyn V", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "244", "building_name": "", "surname": "Baldwin", "forename": "Albt. J", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "240", "building_name": "", "surname": "Hughes", "forename": "Geo. D", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "238", "building_name": "", "surname": "Hubbard", "forename": "Ronald H", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "236", "building_name": "", "surname": "Carless", "forename": "J", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "234", "building_name": "", "surname": "Parker", "forename": "F. W", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "232", "building_name": "", "surname": "Kirby", "forename": "Thos. J", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "230", "building_name": "", "surname": "Taylor", "forename": "Geo", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "228", "building_name": "", "surname": "Lloyd", "forename": "Kenneth", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "226", "building_name": "", "surname": "Jenkins", "forename": "Fredk. A", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "224", "building_name": "", "surname": "Gibson", "forename": "C. J", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "222", "building_name": "", "surname": "Grant", "forename": "Jn. F", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "220", "building_name": "", "surname": "Shorney", "forename": "Albt. S", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "218", "building_name": "", "surname": "Virgo", "forename": "Graham", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "216", "building_name": "", "surname": "Browning", "forename": "Alan J", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "214", "building_name": "", "surname": "O'Boyle", "forename": "Mrs. M", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "212", "building_name": "", "surname": "Hofstad", "forename": "Mary H", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "210", "building_name": "", "surname": "Davis", "forename": "Edwin J", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "208", "building_name": "", "surname": "Davis", "forename": "Mrs. B", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "206", "building_name": "", "surname": "Date", "forename": "F. M", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "204", "building_name": "", "surname": "Williams", "forename": "R. M", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "202", "building_name": "", "surname": "Bridgeman", "forename": "Wm. H", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "200", "building_name": "", "surname": "Male", "forename": "Geo. H", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "198", "building_name": "", "surname": "Gibb", "forename": "Jas. A", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "196", "building_name": "", "surname": "Hancox", "forename": "Terence", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "194", "building_name": "", "surname": "Kehmstedt", "forename": "Harry", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "192", "building_name": "", "surname": "Knott", "forename": "Mrs. A. I", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "190", "building_name": "", "surname": "Williams", "forename": "Alfd J", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "188", "building_name": "", "surname": "Rance", "forename": "Ivor E", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "186", "building_name": "", "surname": "Cox", "forename": "Albt. H", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "184", "building_name": "", "surname": "Bunce", "forename": "Albt", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "182", "building_name": "", "surname": "West", "forename": "N. C", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "180", "building_name": "", "surname": "Power", "forename": "Phyllis N", "trade": "", "source_type": "Primary"},
+
+        # Page 239, Col 2 (Even numbers 178 down to 30)
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "178", "building_name": "", "surname": "Taylor", "forename": "W. C", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "176", "building_name": "", "surname": "Wardley", "forename": "Cyril T", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "174", "building_name": "", "surname": "Harris", "forename": "L", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "172", "building_name": "", "surname": "Hallett", "forename": "Sidney", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "170", "building_name": "", "surname": "Pitt", "forename": "Saml B", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "168", "building_name": "", "surname": "Thomas", "forename": "Edgar", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "166", "building_name": "", "surname": "Hackwood", "forename": "Edwd. D", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "164", "building_name": "", "surname": "Kenny", "forename": "Alfd R", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "162", "building_name": "", "surname": "Calnon", "forename": "G", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "160", "building_name": "", "surname": "Thomas", "forename": "G. J", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "158", "building_name": "", "surname": "Strong", "forename": "H. E", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "156", "building_name": "", "surname": "Thompson", "forename": "J", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "154", "building_name": "", "surname": "Griffiths", "forename": "W. T", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "152", "building_name": "", "surname": "Cowell", "forename": "J. R", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "150", "building_name": "", "surname": "Flage", "forename": "Mrs. L. E", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "148", "building_name": "", "surname": "Wetter", "forename": "Wm. G", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "146", "building_name": "", "surname": "Merrett", "forename": "H. L", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "144", "building_name": "", "surname": "Thickens", "forename": "Florence A", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "142", "building_name": "", "surname": "Card", "forename": "H", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "138", "building_name": "", "surname": "Keyes", "forename": "Ernest G", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "136", "building_name": "", "surname": "Griffiths", "forename": "Ronald J", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "134", "building_name": "", "surname": "Jessop", "forename": "Ivan G", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "132", "building_name": "", "surname": "Chambers", "forename": "Herbt", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "130", "building_name": "", "surname": "Shaw", "forename": "Valentine", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "128", "building_name": "", "surname": "Fullard", "forename": "Desmond", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "126", "building_name": "", "surname": "Goode", "forename": "E. R", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "124", "building_name": "", "surname": "Screen", "forename": "Trevor", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "122", "building_name": "", "surname": "Jarvis", "forename": "Wltr", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "120", "building_name": "", "surname": "Windsor", "forename": "Chas", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "102", "building_name": "", "surname": "Mullis", "forename": "W. H", "trade": "hairdresser", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "100", "building_name": "", "surname": "Stevens", "forename": "Wyndham C", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "98", "building_name": "", "surname": "Kelly", "forename": "Mrs. F. L", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "96", "building_name": "", "surname": "Jenkins", "forename": "Norman P", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "94", "building_name": "", "surname": "Knorz", "forename": "Rd. M", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "92", "building_name": "", "surname": "McSheedy", "forename": "Augustine J", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "90", "building_name": "", "surname": "Ellis", "forename": "Saml", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "88", "building_name": "", "surname": "Turner", "forename": "Peter J", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "86", "building_name": "", "surname": "Harry", "forename": "Cyril", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "84", "building_name": "", "surname": "Bowsher", "forename": "Stanley J", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "82", "building_name": "", "surname": "Lewis", "forename": "Mrs. A. M", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "80", "building_name": "", "surname": "Lewis", "forename": "Wm. H", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "78", "building_name": "", "surname": "Reynolds", "forename": "Jn", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "76", "building_name": "", "surname": "Thompson", "forename": "David", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "72", "building_name": "", "surname": "Sadler", "forename": "Vernon", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "70", "building_name": "", "surname": "Hill", "forename": "Mrs. I", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "68", "building_name": "", "surname": "Davies", "forename": "Vernon T", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "66", "building_name": "", "surname": "Dudley", "forename": "Mrs. B. E", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "62", "building_name": "", "surname": "Bennett", "forename": "Jas", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "60", "building_name": "", "surname": "Foster", "forename": "Harry A", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "58", "building_name": "", "surname": "Jones", "forename": "Glyn", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "56", "building_name": "", "surname": "Kiely", "forename": "Jn. E., J.P", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "54", "building_name": "", "surname": "Bridgeman", "forename": "Hy T", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "52", "building_name": "", "surname": "Lewis", "forename": "Ebenzer", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "50", "building_name": "", "surname": "Edwards", "forename": "Derek", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "48", "building_name": "", "surname": "Hunt", "forename": "Fredk. J", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "46", "building_name": "", "surname": "Fox", "forename": "Raymond D", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "44", "building_name": "", "surname": "Lovesay", "forename": "Michl", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "42", "building_name": "", "surname": "Stowe", "forename": "Clifford", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "40", "building_name": "", "surname": "Jones", "forename": "Brenda", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "38", "building_name": "", "surname": "Challingsworth", "forename": "Bernard J", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "36", "building_name": "", "surname": "Jensen", "forename": "Olaf H", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "34", "building_name": "", "surname": "Ackland", "forename": "Keith", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "32", "building_name": "", "surname": "Wreford", "forename": "Douglas N", "trade": "", "source_type": "Primary"},
+        {"year": "1971", "street": "Aberthaw Road", "house_number": "30", "building_name": "", "surname": "Johnson", "forename": "Allan S", "trade": "", "source_type": "Primary"},
+    ]
+
+    # Purge old corrupted Aberthaw Road 1971 records
+    rows = [r for r in rows if not (r.get("year") == "1971" and r.get("street") == "Aberthaw Road")]
+    # Append authentic Aberthaw Circle tail and Aberthaw Road records
+    rows.extend(aberthaw_circle_tail_1971)
+    rows.extend(aberthaw_road_1971)
+    # Forename abbreviation expansions requested:
+    # Wltr -> Walter
+    # Rd. / Rd -> Richard (protecting against street names in forename like "Commercial Road")
+    wltr_count = 0
+    rd_count = 0
+    for r in rows:
+        fn = r.get("forename", "")
+        if fn:
+            if re.search(r"\bWltr\b\.?", fn):
+                r["forename"] = re.sub(r"\bWltr\b\.?", "Walter", fn)
+                wltr_count += 1
+            if re.search(r"\bRd\b\.?", fn) and not any(k in fn.lower() for k in ["road", "commercial", "school", "christchurch", "manley", "marshes", "chepstow"]):
+                r["forename"] = re.sub(r"\bRd\b\.?", "Richard", fn)
+                rd_count += 1
+    print(f"Expanded {wltr_count} 'Wltr' -> 'Walter' and {rd_count} 'Rd.'/'Rd' -> 'Richard'.")
+
+    # -------------------------------------------------------------
+    # Step 11: High-Impact Realignment, Street Merges & Prompt Decontamination
+    # -------------------------------------------------------------
+    print("Applying Step 11: Realignment, Street Merges & Prompt Decontamination...")
+    
+    # 1. Purge phantom junk header F.a (25 corrupted lines), Francis' (1 ad header), and Griffin (16 truncated duplicates)
+    rows = [r for r in rows if r.get("street") not in ["F.a", "Francis'", "Griffin"]]
+
+    # 2. Reassign C.b (1971) -> Caerleon Road
+    cb_count = 0
+    for r in rows:
+        if r.get("street") == "C.b":
+            r["street"] = "Caerleon Road"
+            cb_count += 1
+    print(f"Step 11: Reassigned {cb_count} records from 'C.b' -> 'Caerleon Road' (1971).")
+
+    # 3. Parse & Reassign Fice T. & M. O (1927) -> Commercial Road
+    fice_count = 0
+    for r in rows:
+        if "fice t." in (r.get("street") or "").lower():
+            combined = ' '.join([r.get('house_number',''), r.get('building_name',''), r.get('surname',''), r.get('forename',''), r.get('trade','')])
+            num_m = re.search(r'\"Number\"\s*:\s*\"?(\d+[a-zA-Z]?)', combined)
+            fn_m = re.search(r'\"Forenames\"\s*:\s*\"([^\"]*)\"', combined)
+            sur_m = re.search(r'\"Surname\"\s*:\s*\"([^\"]*)\"', combined)
+            job_m = re.search(r'\"Job\s*/\s*Trade\"\s*:\s*\"([^\"]*)\"', combined)
+            ent_m = re.search(r'\"Business\s*/\s*Entity\"\s*:\s*\"([^\"]*)\"', combined)
+            
+            h_num = num_m.group(1) if num_m else r.get('house_number','')
+            if not h_num.isdigit():
+                num_fall = re.search(r'\b(\d{2,3})\b', combined)
+                if num_fall: h_num = num_fall.group(1)
+            
+            sur = sur_m.group(1) if sur_m else ''
+            fore = fn_m.group(1) if fn_m else ''
+            job = job_m.group(1) if job_m else ''
+            ent = ent_m.group(1) if ent_m else ''
+            
+            if ent and not sur:
+                sur = ent
+            elif ent and sur:
+                if not job: job = ent
+                elif ent not in job: job = f"{ent}, {job}"
+                
+            r["street"] = "Commercial Road"
+            r["house_number"] = h_num
+            r["building_name"] = ""
+            r["surname"] = sur
+            r["forename"] = fore
+            r["trade"] = job
+            fice_count += 1
+    print(f"Step 11: Cleaned and reassigned {fice_count} records from 'Fice T. & M. O' -> 'Commercial Road' (1927).")
+
+    # Reassign Church (1910 -> Church Street, 1920 -> Church Road)
+    church_count = 0
+    for r in rows:
+        if r.get("street") == "Church":
+            if r.get("year") == "1910":
+                r["street"] = "Church Street"
+            else:
+                r["street"] = "Church Road"
+            church_count += 1
+    print(f"Step 11: Reassigned {church_count} records from 'Church' -> 'Church Street' / 'Church Road'.")
+
+    # Reassign Don's (1971) -> Church Road (purging 3 ad lines)
+    dons_count = 0
+    new_rows = []
+    for r in rows:
+        if r.get("street") == "Don's":
+            if any(k in f"{r.get('surname','')} {r.get('forename','')}".lower() for k in ["furniture", "dlrs", "lished", "55883"]):
+                continue
+            r["street"] = "Church Road"
+            dons_count += 1
+        new_rows.append(r)
+    rows = new_rows
+    print(f"Step 11: Reassigned {dons_count} records from 'Don\\'s' -> 'Church Road' (1971).")
+
+    # Reassign Citizens' Advice (1971) -> High Street (purging 4 office hours lines)
+    ca_count = 0
+    new_rows = []
+    for r in rows:
+        if "citizens" in (r.get("street") or "").lower():
+            if any(k in f"{r.get('house_number','')} {r.get('surname','')} {r.get('forename','')}".lower() for k in ["office", "hours", "till 12", "till 4", "65688"]):
+                continue
+            r["street"] = "High Street"
+            ca_count += 1
+        new_rows.append(r)
+    rows = new_rows
+    print(f"Step 11: Reassigned {ca_count} records from 'Citizens\\' Advice' -> 'High Street' (1971).")
+
+    # Reassign Coldram (1925) -> Coldra Road
+    coldram_count = 0
+    for r in rows:
+        if r.get("street") == "Coldram":
+            r["street"] = "Coldra Road"
+            coldram_count += 1
+    print(f"Step 11: Reassigned {coldram_count} records from 'Coldram' -> 'Coldra Road' (1925).")
+
+    # Reassign Commercial (1925 & 1971) -> Commercial Street
+    comm_count = 0
+    for r in rows:
+        if r.get("street") == "Commercial":
+            r["street"] = "Commercial Street"
+            comm_count += 1
+    print(f"Step 11: Reassigned {comm_count} records from 'Commercial' -> 'Commercial Street'.")
+
+    # Reassign 1936 Westfield Avenue houses (No. 1-31 and 32-2) mistakenly grouped into Western Avenue
+    westfield_count = 0
+    for r in rows:
+        if r.get("street") == "Western Avenue" and r.get("year") == "1936":
+            hn = r.get("house_number", "")
+            if hn.isdigit() and hn != "8":
+                r["street"] = "Westfield Avenue"
+                if hn == "19" and not r.get("surname"):
+                    r["surname"] = "Smith"
+                    r["forename"] = "Arthur"
+                    r["trade"] = "drayman"
+                elif hn == "32" and not r.get("surname"):
+                    r["surname"] = "Smith"
+                    r["forename"] = "Edgar"
+                    r["trade"] = "painter"
+                elif hn == "28" and r.get("surname") == "gasworker":
+                    r["trade"] = "gasworker"
+                westfield_count += 1
+    print(f"Step 11: Reassigned {westfield_count} records from 'Western Avenue' -> 'Westfield Avenue' (1936).")
+
+    # Reassign Barnardtown pseudo-street records to their true canonical streets
+    barnard_reassigned_count = 0
+    for r in rows:
+        if r.get("street") in ["Barnardtown", "Barnard Town"]:
+            y = r.get("year")
+            hn = r.get("house_number", "").strip()
+            bldg = r.get("building_name", "").strip()
+            sur = r.get("surname", "").strip()
+            trade = r.get("trade", "").strip()
+
+            if y == "1887":
+                r["street"] = "Baneswell Road"
+                r["building_name"] = "Bank Chambers"
+            elif y == "1893":
+                if "queen" in sur.lower() or "queen" in bldg.lower() or hn in ["9", "11", "12"]:
+                    r["street"] = "Queen's Buildings"
+                else:
+                    r["street"] = "Barnard Street"
+            elif y == "1894":
+                r["street"] = "Barrack Hill"
+            elif y == "1898":
+                if hn in ["1", "2", "3", "4", "5", "6", "7"]:
+                    r["street"] = "Barnard Street"
+                else:
+                    r["street"] = "Barrack Hill"
+            elif y == "1927":
+                if "church street" in trade.lower() or "dock-parade" in trade.lower() or "pill" in trade.lower() or "castle-street" in trade.lower() or bldg in ["Tredegar Arms", "Hope Inn"] or (hn.isdigit() and int(hn) >= 38):
+                    r["street"] = "Church Street"
+                elif hn in ["18", "19", "21", "22", "23", "24", "25"] and any(k in (trade.lower() + sur.lower()) for k in ["boiler scaler", "ship and pilot", "luggage car", "hope inn", "miller", "pugsley", "hurley", "duggan", "lind", "hooper", "wailes", "larcombe", "anderson", "harding", "wharf"]):
+                    r["street"] = "Church Street"
+                else:
+                    r["street"] = "Church Road"
+
+            barnard_reassigned_count += 1
+    print(f"Step 11: Reassigned {barnard_reassigned_count} records from 'Barnardtown' pseudo-street.")
+
+    # Reassign 1913 Dewstreet Street records to Dewstow Street & Dewsland Park Road
+    dewstreet_count = 0
+    clean_rows = []
+    for r in rows:
+        if r.get("street") == "Dewstreet Street":
+            comb = (r.get("house_number", "") + " " + r.get("building_name", "") + " " + r.get("surname", "") + " " + r.get("forename", "") + " " + r.get("trade", "")).lower()
+            if "dewsland park road" in comb or r.get("house_number") == "DEW":
+                continue  # skip header row
+            if any(k in comb for k in [
+                "dewsland", "glen rise", "avalon", "abboth", "caerhafren", "ogmore", "tregonissey", "sunny bank",
+                "elmgrove", "angorfa", "oakdene", "arwel", "bayonne", "font burn", "the glebe", "pentyla",
+                "fawckner", "latimer", "du verge", "osmond", "griffith", "ma es y", "vivian"
+            ]):
+                r["street"] = "Dewsland Park Road"
+            else:
+                r["street"] = "Dewstow Street"
+            dewstreet_count += 1
+        clean_rows.append(r)
+    rows = clean_rows
+    print(f"Step 11: Reassigned {dewstreet_count} records from 'Dewstreet Street' -> 'Dewstow Street' & 'Dewsland Park Road'.")
+
+    # Reassign 1913 Maple Crescent misfiled houses (1-9) to Marion Street
+    maple_count = 0
+    for r in rows:
+        if r.get("year") == "1913" and r.get("street") == "Maple Crescent":
+            r["street"] = "Marion Street"
+            maple_count += 1
+    if maple_count:
+        print(f"Step 11: Reassigned {maple_count} records from 'Maple Crescent' -> 'Marion Street' (1913).")
+
+    # Reassign 1971 Beattie George ad bleed to Caerau Road and Caerleon Road
+    beattie_caerau_cnt = 0
+    beattie_caerleon_cnt = 0
+    bg_caerau_done = False
+    for r in rows:
+        if r.get("year") == "1971" and r.get("street") == "Beattie George":
+            hn = r.get("house_number", "")
+            sur = r.get("surname", "")
+            fore = r.get("forename", "")
+            trade = r.get("trade", "")
+
+            # Rows prior to Caerleon Road header belong to Caerau Road
+            if not bg_caerau_done:
+                if "(clyro" in hn.lower() or "caerleon" in sur.lower():
+                    # Last villa on Caerau Road
+                    r["street"] = "Caerau Road"
+                    r["house_number"] = ""
+                    r["building_name"] = "Clyro Villa"
+                    r["surname"] = "Fishwick"
+                    r["forename"] = "Gwladys M."
+                    r["trade"] = ""
+                    bg_caerau_done = True
+                    beattie_caerau_cnt += 1
+                else:
+                    r["street"] = "Caerau Road"
+                    if hn == "75" and "coke" in sur.lower():
+                        r["surname"] = "Gardner"
+                        r["forename"] = "Judith"
+                        r["trade"] = ""
+                    elif hn == "76" and "haulage" in sur.lower():
+                        r["building_name"] = "Flat 2"
+                        r["surname"] = "Pullin"
+                        r["forename"] = "Miss R."
+                        r["trade"] = ""
+                    elif hn == "76" and "newport" in sur.lower():
+                        r["building_name"] = "Flat 3"
+                        r["surname"] = "Littlehaze"
+                        r["forename"] = "Frank"
+                        r["trade"] = ""
+                    elif hn == "35" and "wring" in sur.lower():
+                        r["building_name"] = "Glencairn"
+                        r["trade"] = ""
+                    beattie_caerau_cnt += 1
+            else:
+                # Subsequent rows belong to Caerleon Road
+                r["street"] = "Caerleon Road"
+                if hn == "rau)" and sur == "5":
+                    r["house_number"] = "5"
+                    r["surname"] = "Evans"
+                    r["forename"] = "Mary"
+                    r["trade"] = ""
+                beattie_caerleon_cnt += 1
+
+    if beattie_caerau_cnt or beattie_caerleon_cnt:
+        print(f"Step 11: Reassigned 'Beattie George' -> {beattie_caerau_cnt} to 'Caerau Road' and {beattie_caerleon_cnt} to 'Caerleon Road'.")
+
+    # Disentangle and reassign 1886 Webley Rd (resident Richard Webley on Baldwin Street & Baneswell Road continuation)
+    webley_cleaned = 0
+    new_rows = []
+    for r in rows:
+        if r.get("year") == "1886" and r.get("street") == "Webley Rd":
+            sur = r.get("surname", "")
+            fore = r.get("forename", "")
+            hn = r.get("house_number", "")
+            bld = r.get("building_name", "")
+            if any(k in f"{sur} {fore}".lower() for k in ["baneswell", "is that part", "stow-hill", "railway tunnel", "pump"]):
+                webley_cleaned += 1
+                continue
+            if "webley" in f"{sur} {fore}".lower():
+                r["street"] = "Baldwin Street"
+                r["surname"] = "Webley"
+                r["forename"] = "Richard M."
+                r["trade"] = "labourer"
+                r["house_number"] = ""
+                new_rows.append(r)
+                webley_cleaned += 1
+            else:
+                # Nos 20-28 and Queen's Hotel are Baneswell Road
+                r["street"] = "Baneswell Road"
+                new_rows.append(r)
+                webley_cleaned += 1
+        else:
+            new_rows.append(r)
+    rows = new_rows
+    if webley_cleaned:
+        print(f"Step 11: Reassigned/cleaned {webley_cleaned} records from 'Webley Rd' (1886) to 'Baldwin Street' & 'Baneswell Road'.")
+
+    # Reconstruct 1936 Western Avenue named villas from raw directory source
+    western_1936_clean = [
+        {"year": "1936", "street": "Western Avenue", "house_number": "", "building_name": "", "surname": "Watkins", "forename": "", "trade": "", "source_type": ""},
+        {"year": "1936", "street": "Western Avenue", "house_number": "", "building_name": "Westerleigh", "surname": "Worth", "forename": "H.", "trade": "", "source_type": ""},
+        {"year": "1936", "street": "Western Avenue", "house_number": "", "building_name": "", "surname": "Gunn", "forename": "K. S.", "trade": "Draper", "source_type": ""},
+        {"year": "1936", "street": "Western Avenue", "house_number": "", "building_name": "Cimla", "surname": "Jenkins", "forename": "John B.", "trade": "Bank Clerk", "source_type": ""},
+        {"year": "1936", "street": "Western Avenue", "house_number": "", "building_name": "Avening", "surname": "Bennett", "forename": "A. J.", "trade": "Carpenter", "source_type": ""},
+        {"year": "1936", "street": "Western Avenue", "house_number": "", "building_name": "Lynthorpe", "surname": "Truran", "forename": "H. C.", "trade": "Accountant", "source_type": ""},
+        {"year": "1936", "street": "Western Avenue", "house_number": "", "building_name": "Cartref", "surname": "Edwards", "forename": "Brynley", "trade": "Civil Servant", "source_type": ""},
+        {"year": "1936", "street": "Western Avenue", "house_number": "", "building_name": "Westfields", "surname": "Evans", "forename": "H. A. O.", "trade": "Civil Servant", "source_type": ""},
+        {"year": "1936", "street": "Western Avenue", "house_number": "", "building_name": "Newhaven", "surname": "Richard", "forename": "F. T.", "trade": "Civil Servant", "source_type": ""},
+        {"year": "1936", "street": "Western Avenue", "house_number": "", "building_name": "", "surname": "Good", "forename": "Percy", "trade": "", "source_type": ""},
+        {"year": "1936", "street": "Western Avenue", "house_number": "", "building_name": "", "surname": "Mynnett", "forename": "J.", "trade": "", "source_type": ""},
+        {"year": "1936", "street": "Western Avenue", "house_number": "", "building_name": "Marlow", "surname": "Lloyd", "forename": "Elfed I.", "trade": "Villa—void", "source_type": ""},
+        {"year": "1936", "street": "Western Avenue", "house_number": "", "building_name": "Lyacarbis", "surname": "Ley", "forename": "R. G.", "trade": "Printer", "source_type": ""},
+        {"year": "1936", "street": "Western Avenue", "house_number": "", "building_name": "Montreal", "surname": "Plumley", "forename": "E. A.", "trade": "", "source_type": ""},
+        {"year": "1936", "street": "Western Avenue", "house_number": "", "building_name": "Sherwood", "surname": "Howitt", "forename": "D.", "trade": "", "source_type": ""},
+        {"year": "1936", "street": "Western Avenue", "house_number": "", "building_name": "Ricasoli", "surname": "Snook", "forename": "L.", "trade": "", "source_type": ""},
+        {"year": "1936", "street": "Western Avenue", "house_number": "", "building_name": "Mullion", "surname": "Airey", "forename": "", "trade": "", "source_type": ""},
+        {"year": "1936", "street": "Western Avenue", "house_number": "", "building_name": "", "surname": "Mole", "forename": "Mrs.", "trade": "", "source_type": ""},
+        {"year": "1936", "street": "Western Avenue", "house_number": "", "building_name": "Hastybank", "surname": "Borlase", "forename": "Arthur", "trade": "", "source_type": ""},
+        {"year": "1936", "street": "Western Avenue", "house_number": "", "building_name": "Saxondale", "surname": "Sandy", "forename": "H.", "trade": "Clerk", "source_type": ""},
+        {"year": "1936", "street": "Western Avenue", "house_number": "", "building_name": "Brunel", "surname": "Nicholas", "forename": "W. B.", "trade": "Bus Driver", "source_type": ""},
+        {"year": "1936", "street": "Western Avenue", "house_number": "", "building_name": "Margam Glen", "surname": "Evans", "forename": "W.", "trade": "", "source_type": ""},
+        {"year": "1936", "street": "Western Avenue", "house_number": "", "building_name": "", "surname": "Simmonds", "forename": "C.", "trade": "Grocer", "source_type": ""},
+        {"year": "1936", "street": "Western Avenue", "house_number": "", "building_name": "Silverdale", "surname": "Langley", "forename": "Alfred", "trade": "Schoolmaster", "source_type": ""},
+        {"year": "1936", "street": "Western Avenue", "house_number": "", "building_name": "Hawkwood", "surname": "Walker", "forename": "Thomas T.", "trade": "Engineer", "source_type": ""},
+        {"year": "1936", "street": "Western Avenue", "house_number": "", "building_name": "Netherfield", "surname": "Greenwood", "forename": "F.", "trade": "Schoolmaster", "source_type": ""},
+        {"year": "1936", "street": "Western Avenue", "house_number": "", "building_name": "Dullatur", "surname": "Phillips", "forename": "Mrs. F. M.", "trade": "", "source_type": ""},
+        {"year": "1936", "street": "Western Avenue", "house_number": "", "building_name": "Kyrie", "surname": "Pyle", "forename": "Cyril R.", "trade": "Traveller", "source_type": ""},
+        {"year": "1936", "street": "Western Avenue", "house_number": "", "building_name": "Faraway", "surname": "Davis", "forename": "Harold", "trade": "", "source_type": ""},
+        {"year": "1936", "street": "Western Avenue", "house_number": "", "building_name": "The Firs", "surname": "Bennett", "forename": "Albert", "trade": "Builder", "source_type": ""},
+    ]
+    # Replace old fragmented 1936 Western Avenue rows with the clean reconstructed villas
+    rows = [r for r in rows if not (r.get("street") == "Western Avenue" and r.get("year") == "1936")]
+    rows.extend(western_1936_clean)
+    print(f"Step 11: Reconstructed {len(western_1936_clean)} high-fidelity villa records for Western Avenue (1936).")
+
+    # Clean Western Avenue 1971 villa parenthetical names & split fields
+    for r in rows:
+        if r.get("street") == "Western Avenue" and r.get("year") == "1971":
+            hn = r.get("house_number", "")
+            if hn == "24":
+                r["building_name"] = "Saxondale"
+                r["trade"] = ""
+            elif hn == "20":
+                r["building_name"] = "Brunel"
+            elif hn == "26":
+                r["building_name"] = "Kincorth"
+            elif hn == "40":
+                r["building_name"] = "Moyamba"
+                r["trade"] = ""
+            elif hn == "42":
+                r["building_name"] = "Precipe"
+            elif hn == "13":
+                r["building_name"] = ""
+                r["surname"] = "Chambers"
+                r["forename"] = "Norman J."
+
+    # 4. Clean Slipway Cottages:
+    # Slipway Cottages only ever has cottages 1-2. Houses 63-93 with {"Layout Notes": } were corrupted phantom bleed.
+    slipway_purged = 0
+    new_rows = []
+    for r in rows:
+        if r.get("street") == "Slipway Cottages" and r.get("year") == "1927":
+            hn = r.get("house_number", "")
+            sur = r.get("surname", "")
+            if any(k in f"{hn} {sur}".lower() for k in ["layout", "notes"]) or (hn.isdigit() and int(hn) > 10):
+                slipway_purged += 1
+                continue
+            # Clean cottage 1-2
+            if "1-2" in hn or "holland" in hn.lower():
+                r["house_number"] = "1-2"
+                r["building_name"] = ""
+                r["surname"] = "Holland"
+                r["forename"] = "James"
+                r["trade"] = "manager"
+        new_rows.append(r)
+    rows = new_rows
+    print(f"Step 11: Purged {slipway_purged} phantom/bleed rows from 'Slipway Cottages'.")
+
+    # 5. Clean remaining {"Layout Notes": } artifacts in fields across all rows
+    layout_clean_count = 0
+    for r in rows:
+        for field in ["house_number", "building_name", "surname", "forename", "trade"]:
+            val = r.get(field, "")
+            if val and any(k in val.lower() for k in ['{"layout', '{"number', 'notes":', 'layout / notes']):
+                cleaned_val = re.sub(r'\{"[^}]*\}', '', val)
+                cleaned_val = re.sub(r'\{"Layout[^"]*"\s*:\s*""\}?', '', cleaned_val, flags=re.IGNORECASE)
+                cleaned_val = re.sub(r'\{"Layout', '', cleaned_val, flags=re.IGNORECASE)
+                cleaned_val = re.sub(r'Notes":\s*\}?', '', cleaned_val, flags=re.IGNORECASE)
+                cleaned_val = cleaned_val.strip().strip('",;:')
+                r[field] = cleaned_val
+                layout_clean_count += 1
+    print(f"Step 11: Cleaned {layout_clean_count} prompt leakage fields.")
+
+    # 6. Street Normalization & Variation Merges
+    STREET_RENAME_MAP = {
+        # Gloster / Glo'ster
+        "Glo'ster Street": "Gloster Street",
+        "Glo’ster Street": "Gloster Street",
+        "Glos'Ter Street": "Gloster Street",
+        "Glos'Ter": "Gloster Street",
+        "Glo'ster Place": "Gloster Place",
+        "Glos’ter Place": "Gloster Place",
+        "Glo’ster Place": "Gloster Place",
+        "Glo'Ster Place, B.t": "Gloster Place",
+
+        # Hyphenated & exact punctuation duplicates
+        "Acacia-Avenue": "Acacia Avenue",
+        "Albert-Avenue": "Albert Avenue",
+        "Albert-Street": "Albert Street",
+        "Albert-Terrace": "Albert Terrace",
+        "Alice-Street": "Alice Street",
+        "Archibald-Street": "Archibald Street",
+        "Bachelor-Road": "Bachelor Road",
+        "Baldwin-Street": "Baldwin Street",
+        "Bryngwyn-Road": "Bryngwyn Road",
+        "Caerleon-Road": "Caerleon Road",
+        "Canal-Terrace": "Canal Terrace",
+        "Capel-Crescent": "Capel Crescent",
+        "Chepstow-Road": "Chepstow Road",
+        "Christchurch Rd": "Christchurch Road",
+        "Christchurch-Road": "Christchurch Road",
+        "Church-Road": "Church Road",
+        "Clarence-Place": "Clarence Place",
+        "Clyffard-Crescent": "Clyffard Crescent",
+        "Clyffard Ccrescent": "Clyffard Crescent",
+        "Cliffard Crescent": "Clyffard Crescent",
+        "Clytha Park & Road": "Clytha Park Road",
+        "Commercial Rd": "Commercial Road",
+        "Commercial road": "Commercial Road",
+        "Corporation-Road": "Corporation Road",
+        "Courtybella. Street": "Courtybella Street",
+        "Cowtybella Terrace": "Courtybella Terrace",
+        "Daniel-Street": "Daniel Street",
+        "Dolphin-Street": "Dolphin Street",
+        "Duckpool-Road": "Duckpool Road",
+        "East Usk-Road": "East Usk Road",
+        "Eton-Road": "Eton Road",
+        "Fair Oak Terrace": "Fairoak Terrace",
+        "Fields Crescent Rd": "Fields Crescent Road",
+        "Friar's Road": "Friars Road",
+        "Friars' Road": "Friars Road",
+        "Friars Fields": "Friars Fields",
+        "Friars' Fields": "Friars Fields",
+        "Gibb's Road": "Gibbs Road",
+        "Harrow-Road": "Harrow Road",
+        "Hewerton St": "Hewerton Street",
+        "High-Street": "High Street",
+        "Jackson-Place": "Jackson Place",
+        "Jeffrey-Street": "Jeffrey Street",
+        "King’s Hill": "King's Hill",
+        "Lime-Street": "Lime Street",
+        "Lyne-Road": "Lyne Road",
+        "Macarthy’s Court": "Macarthy's Court",
+        "Marshfield St": "Marshfield Street",
+        "Mendalgief-Road": "Mendalgief Road",
+        "Mill-Parade": "Mill Parade",
+        "Morden-Road": "Morden Road",
+        "Oakfield-Road": "Oakfield Road",
+        "Pill Mawr Road": "Pillmawr Road",
+        "Portskewett St": "Portskewett Street",
+        "Queen’s Hill Crescent": "Queen's Hill Crescent",
+        "Queen's Hill Terrace:": "Queen's Hill Terrace",
+        "Somerset-Road": "Somerset Road",
+        "St. John’s Road": "St. John's Road",
+        "St. Julian’s Road": "St. Julian's Road",
+        "St. Julian’s Park": "St. Julian's Park",
+        "St. Mary’s Road": "St. Mary's Road",
+        "St. Michael St": "St. Michael Street",
+        "Sutton-Road": "Sutton Road",
+        "Tredegar-Street": "Tredegar Street",
+        "Upton-Road": "Upton Road",
+        "Victoria. Square": "Victoria Square",
+        "Vivian-Road": "Vivian Road",
+        "Waterloo-Road": "Waterloo Road",
+        "Waters’ Lane": "Waters Lane",
+        "West-Street": "West Street",
+        "Windsor-Road": "Windsor Road",
+        "Woodland-park": "Woodland Park",
+        "Wrington Terrace:": "Wrington Terrace",
+
+        # Safe OCR Typos
+        "Tredregar Place": "Tredegar Place",
+        "Walis Street": "Wallis Street",
+        "Wallford Street": "Walford Street",
+        "Woleseley Street": "Wolseley Street",
+        "Tragare Street": "Tregare Street",
+        "Wyeverne Road": "Wyverne Road",
+        "Whitstone Road": "Whitestone Road",
+        "Allt-y-yn View": "Allt-yr-yn View",
+        "Bereford Road": "Beresford Road",
+        "Bleinheim Road": "Blenheim Road",
+        "Chepstown Road": "Chepstow Road",
+        "Clededon Road": "Clevedon Road",
+        "Highncroft Road": "Highcroft Road",
+        "Hoskin Street": "Hoskins Street",
+        "Kingswill Gardens": "Kingsmill Gardens",
+        "Landsdowne Place": "Lansdowne Place",
+        "Mountoy Place": "Mountjoy Place",
+        "Rupserra Street": "Ruperra Street",
+        "Rupperra Street": "Ruperra Street",
+        "Guardians’ Offices": "Queen's Hill",  # 1927 Stow/Queen's Hill properties misfiled under office header
+        "Newperra Street": "New Ruperra Street",
+        "G.w": "Dos Road",
+        "H.c": "Morris Street",
+        "Eveswell-park": "Eveswell Park",
+        "Cannon Street. B": "Cannon Street",
+        "St. Mark’s Cres": "St. Mark's Crescent",
+        "M.o. & T..b. & A. &": "Chepstow Road",
+
+        # Street Master Audit merges & corrections
+        "Roberts Street": "Robert Street",
+        "Mansell Street": "Mansel Street",
+        "Manchester St": "Manchester Street",
+        "Summerhill Av": "Summerhill Avenue",
+        "Sterndale Road": "Sterndale Bennett Road",
+        "Marshes": "Marshes Road",
+        "Brynderwyn Road": "Brynderwen Road",
+        "Shaffersbury Street": "Shaftesbury Street",
+        "St. Mary St": "St. Mary Street",
+        "St. Mary's Street": "St. Mary Street",
+        "Stow Park Park Circus": "Stow Park Circus",
+        "Protheroes Row": "Protheroe's Row",
+        "Corporation Rd": "Corporation Road",
+        "Marshes-wyndham Terrace": "Marshes Road",
+        "Hale Mrs, 1 Vine Place": "Vine Place",
+        "A. H. St": "St. Mary Street",
+
+        # Newly Audited Merges (October 12 Batch)
+        "Barrak Hill": "Barrack Hill",
+        "Cambrian cottages": "Cambria Cottages",
+        "Capet Street": "Capel Street",
+        "Carpenters' Arms": "Carpenter's Arms Lane",
+        "Cenfed Street": "Cenfedd Street",
+        "Chesterfield": "Chesterfield Street",
+        "Clifford Crescent": "Clyffard Crescent",
+        "Clevedon": "Clevedon Terrace",
+        "Circus": "Dock Street",
+        "Brynderyn Road": "Brynderwen Road",
+
+        # Header bleeds & non-streets reassigned to canonical parent streets
+        "and Fairoak Avenue": "Duckpool Road",
+        "at Eastern Dry Docks": "The Wharves",
+        "for Old Dock": "Dock Street",
+        "Shaftsbury Park": "Evans Street",
+        "Victoria Ivor Place": "Victoria Avenue",
+        "St. James Street": "Commercial Street",
+        "pool Road": "Fair Oak Terrace",
+        "Virgin Street": "Corporation Road",
+        "Vue Court": "Cardiff Road",
+        "Wesleyan Miss'N Chapel": "Price Street",
+        "Newport Savings' Bank": "Stow Hill",
+        "Gymnasium": "Stow Hill",
+        "County Police Court": "Queen's Hill",
+        "Marshes County Police Court": "Queen's Hill",
+        "Bryant A. T., The Grove": "Somerset Road",
+        "Davies Wm., Sea view": "Waterloo Road",
+        "Francis Wm., South view": "Waterloo Road",
+        "Parkes Wm., Fair view": "Waterloo Road",
+        "Parfitt Stanley S., Field view": "Somerton Road",
+        "Smith W. A., Fair view": "Caerau Road",
+        "Hill Henry, High view": "Penylan Road",
+        "Summers Rev. J. F., St": "Clytha Park Road",
+
+        # Newly Audited Merges (October 12 Batch 3)
+        "Jeffreys Street": "Jeffrey Street",
+        "Key's Buildings": "Keyse's Buildings",
+        "Llanfair Road": "Llanvair Road",
+        "Llanvellay Road": "Llanvapley Road",
+        "Lloyd Road": "Llwynderi Road",
+        "Mellon Square": "Mellon's Square",
+        "Millman Street": "Milman Street",
+        "Moreland Avenue": "Moorland Avenue",
+        "Morgan A": "Fields Road",
+        "Mrs Titus, Oak view": "Gibbs Road",
+
+        # Resolved OCR fragments, buildings and landmarks
+        "Court": "Charles Street",
+        "House": "Stow Hill",
+        "Kingsm": "Kingsmill Terrace",
+        "L.d.s.r.c": "Clytha Park Road",
+        "M.r.s": "Baneswell Road",
+        "Public Park": "Park Square",
+        "Rev DD. rd": "Coldra Road",
+        "Rivers de": "Riverside",
+        "Newport House": "Commercial Street",
+        "Metro. Bank Chambers": "Metropolitan Bank Chambers",
+        "Metro Bank Chambers": "Metropolitan Bank Chambers",
+
+        # October 12 Batch 4 Audit Mappings
+        "Allen Septimus, Mount view": "Llanthewy Road",
+        "Anssesy Road": "Annesley Road",
+        "Bolt Road": "Bolton Road",
+        "Bristol St": "Bristol Street",
+        "Broadwell Gardens": "Brodawell Gardens",
+        "Brodawel Gardens": "Brodawell Gardens",
+
+        # October 12 Batch 5 Audit Mappings
+        "Phillips Street": "Phillip Street",
+        "Princes Street": "Prince Street",
+        "Penney Crescent": "Penny Crescent",
+        "Penylan Road": "Pen-y-lan Road",
+
+        # October 12 Batch 6 Audit Mappings
+        "Wallace Street": "Wallis Street",
+        "Wellington Rd": "Wellington Road",
+        "White": "White Lion Court",
+        "William Street": "Williams Street",
+        "Woodland": "Woodland Road",
+        "Woodland Park": "Woodland Park Road",
+        "Worden Road": "Morden Road",
+
+        # Casing normalizations
+        "malpas Road": "Malpas Road",
+        "dock": "The Docks",
+        "quay villas": "Quay Villas",
+        "packet wharf": "Packet Wharf",
+
+        # 1971 OCR Typo Normalizations
+        "Cowtybella Terrace": "Courtybella Terrace",
+        "St. Brides Crescent": "St. Bride's Crescent",
+        "St. Bride's Road": "St. Brides Road",
+        "St. Annes Crescent": "St. Anne's Crescent",
+        "Pinecwood Close": "Pinewood Close",
+        "Coverrack Road": "Coverack Road",
+        "Bisbool Lane": "Bishpool Lane",
+        "Brynhfryd Avenue": "Brynhyfryd Avenue",
+        "Froherbier Road": "Frobisher Road",
+        "Wyeverne Road": "Wyverne Road",
+        "Merriott's Place": "Merriot's Place",
+        "Tyllwyyd Road": "Tyllwyd Road",
+        "Highncroft Road": "Highcroft Road",
+        "Glamwern Grove": "Glanwern Grove",
+        "Glamwern Close": "Glanwern Close",
+        "Glamnor Avenue": "Glanmor Avenue",
+        "Glamnor Park Avenue": "Glanmor Park Avenue",
+    }
+
+    try:
+        from execute_macro_healing import normalize_street_stage1
+    except ImportError:
+        normalize_street_stage1 = None
+
+    street_rename_count = 0
+    for r in rows:
+        st = r.get("street", "").strip()
+        new_st = STREET_RENAME_MAP.get(st, st)
+        if normalize_street_stage1 is not None:
+            new_st = normalize_street_stage1(new_st)
+        if new_st != st:
+            r["street"] = new_st
+            street_rename_count += 1
+    print(f"Step 11: Normalized and merged {street_rename_count} street records across {len(STREET_RENAME_MAP)} variant clusters.")
 
     with open(OUTPUT_CSV, mode="w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore')

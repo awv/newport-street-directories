@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="src/styles/main.css">
+  <link rel="stylesheet" href="src/styles/main.css?v=20261112_search_fix">
   <script src="https://unpkg.com/@phosphor-icons/web"></script>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 </head>
@@ -53,9 +53,17 @@
           <i class="ph ph-books"></i>
           <span>Directory Books</span>
         </a>
+        <a href="gazetteer.html" class="nav-item">
+          <i class="ph ph-scroll"></i>
+          <span>Early Gazetteers (1822–35)</span>
+        </a>
         <a href="trades.html" class="nav-item">
           <i class="ph ph-briefcase"></i>
           <span>Occupations Audit</span>
+        </a>
+        <a href="stats.html" class="nav-item">
+          <i class="ph ph-chart-polar"></i>
+          <span>Archive Statistics</span>
         </a>
         <a href="map.html" class="nav-item">
           <i class="ph ph-map-trifold"></i>
@@ -63,6 +71,14 @@
         </a>
 
         <div class="nav-section-label" style="margin-top: 1.5rem;">DATA AUDIT</div>
+        <a href="streets_audit.html" class="nav-item">
+          <i class="ph ph-check-square-offset"></i>
+          <span>Street Master Audit</span>
+        </a>
+        <a href="timeline.html" class="nav-item">
+          <i class="ph ph-chart-line-up"></i>
+          <span>Street Timeline Audit</span>
+        </a>
         <a href="editor.html" class="nav-item">
           <i class="ph ph-table"></i>
           <span>Master Table Editor</span>
@@ -94,6 +110,7 @@
           <a href="#home">Home</a> <i class="ph ph-caret-right"></i> <span id="breadcrumb-current">Overview</span>
         </div>
         <div class="canvas-header-actions">
+          <button class="header-btn" id="btn-toggle-editor-mode" onclick="toggleEditorMode()"><i class="ph ph-pencil-simple"></i> Editor Mode</button>
           <button class="header-btn" onclick="exportMasterStreetsCSV()"><i class="ph ph-download-simple"></i> Export CSV</button>
           <a href="map.html" class="header-btn primary"><i class="ph ph-map-pin"></i> Open Map Explorer</a>
         </div>
@@ -200,18 +217,100 @@
                 <span class="section-tag">STREET DIRECTORY INDEX</span>
                 <h1 class="page-header-title">All Newport Streets</h1>
               </div>
-              <div style="display: flex; gap: 0.5rem;">
+              <div style="display: flex; gap: 0.5rem; align-items: center;">
                 <button class="header-btn" onclick="exportMasterStreetsCSV()"><i class="ph ph-download-simple"></i> Export CSV</button>
               </div>
             </div>
+            
             <div class="page-header-sub" id="streets-summary-text">Alphabetical catalog of all recorded streets across historical directory editions.</div>
 
-            <!-- Audit Status Filter Tabs -->
-            <div class="search-tabs" style="margin-top: 1.25rem;">
-              <button class="tab-btn active" id="tab-audit-all" onclick="setStreetAuditFilter('all')">All Streets (<span id="count-audit-all">0</span>)</button>
-              <button class="tab-btn" id="tab-audit-name_verified" onclick="setStreetAuditFilter('name_verified')">🔒 Name Verified (<span id="count-audit-name_verified">0</span>)</button>
-              <button class="tab-btn" id="tab-audit-fully_enriched" onclick="setStreetAuditFilter('fully_enriched')">🌟 Fully Enriched (<span id="count-audit-fully_enriched">0</span>)</button>
-              <button class="tab-btn" id="tab-audit-unverified" onclick="setStreetAuditFilter('unverified')">⚠️ Unverified (<span id="count-audit-unverified">0</span>)</button>
+            <!-- Stats Ribbon -->
+            <div class="streets-stats-ribbon" id="streets-stats-ribbon">
+              <div class="streets-stat-badge">
+                <i class="ph ph-buildings"></i>
+                <span class="streets-stat-num" id="streets-stat-total">1,243</span>
+                <span class="streets-stat-label">Recorded Streets</span>
+              </div>
+              <div class="streets-stat-badge">
+                <i class="ph ph-house-line"></i>
+                <span class="streets-stat-num" id="streets-stat-houses">40,000+</span>
+                <span class="streets-stat-label">Properties</span>
+              </div>
+              <div class="streets-stat-badge">
+                <i class="ph ph-calendar"></i>
+                <span class="streets-stat-num">1878 – 1936</span>
+                <span class="streets-stat-label">Historical Coverage</span>
+              </div>
+              <div class="streets-stat-badge">
+                <i class="ph ph-users-three"></i>
+                <span class="streets-stat-num" id="streets-stat-records">218,000+</span>
+                <span class="streets-stat-label">Occupant Records</span>
+              </div>
+            </div>
+
+            <!-- Interactive Search & View Switcher Bar -->
+            <div class="streets-controls-row">
+              <div class="streets-search-wrapper">
+                <i class="ph ph-magnifying-glass search-icon"></i>
+                <input 
+                  type="text" 
+                  id="streets-search-input" 
+                  class="streets-search-input" 
+                  placeholder="Filter streets by name (e.g. Commercial, Caerleon, Baneswell)..." 
+                  oninput="handleStreetFilterInput(this.value)" 
+                  autocomplete="off"
+                />
+                <button id="streets-search-clear" class="streets-search-clear" onclick="clearStreetFilter()" title="Clear filter" style="display: none;">
+                  <i class="ph ph-x"></i>
+                </button>
+              </div>
+
+              <!-- View Mode Toggle (Grid vs Ledger Table) -->
+              <div class="view-mode-switcher">
+                <button class="switcher-btn active" id="btn-streets-grid" onclick="setStreetsDisplayMode('grid')">
+                  <i class="ph ph-squares-four"></i> Grid View
+                </button>
+                <button class="switcher-btn" id="btn-streets-table" onclick="setStreetsDisplayMode('table')">
+                  <i class="ph ph-list-dashes"></i> Table View
+                </button>
+              </div>
+            </div>
+
+            <!-- Historical Era & Category Filter Chips -->
+            <div class="streets-filter-chips-row">
+              <div class="filter-chips-group">
+                <button class="filter-chip active" id="chip-era-all" onclick="setStreetEraFilter('all')">
+                  All Streets (<span id="count-era-all">0</span>)
+                </button>
+                <button class="filter-chip" id="chip-era-victorian" onclick="setStreetEraFilter('victorian')">
+                  🏛️ Victorian (&lt;1900) (<span id="count-era-victorian">0</span>)
+                </button>
+                <button class="filter-chip" id="chip-era-edwardian" onclick="setStreetEraFilter('edwardian')">
+                  🎩 Edwardian (1900–14) (<span id="count-era-edwardian">0</span>)
+                </button>
+                <button class="filter-chip" id="chip-era-interwar" onclick="setStreetEraFilter('interwar')">
+                  🏭 Interwar (1915–39) (<span id="count-era-interwar">0</span>)
+                </button>
+                <button class="filter-chip" id="chip-era-postwar" onclick="setStreetEraFilter('postwar')" style="display: none;">
+                  🏘️ Post-War (1971) (<span id="count-era-postwar">0</span>)
+                </button>
+                <button class="filter-chip" id="chip-era-renamed" onclick="setStreetEraFilter('renamed')">
+                  🔄 Renamed / Former (<span id="count-era-renamed">0</span>)
+                </button>
+              </div>
+
+              <!-- Secondary editor audit filter toggle -->
+              <div class="audit-filter-dropdown-wrapper">
+                <button class="audit-dropdown-toggle" onclick="toggleAuditFilters(event)">
+                  <i class="ph ph-shield-check"></i> Quality Status <i class="ph ph-caret-down"></i>
+                </button>
+                <div class="audit-dropdown-menu" id="audit-dropdown-menu">
+                  <button class="audit-menu-item active" id="item-audit-all" onclick="setStreetAuditFilter('all')">All Records</button>
+                  <button class="audit-menu-item" id="item-audit-fully_enriched" onclick="setStreetAuditFilter('fully_enriched')">🌟 Fully Enriched (<span id="count-audit-fully_enriched">0</span>)</button>
+                  <button class="audit-menu-item" id="item-audit-name_verified" onclick="setStreetAuditFilter('name_verified')">🔒 Name Verified (<span id="count-audit-name_verified">0</span>)</button>
+                  <button class="audit-menu-item" id="item-audit-unverified" onclick="setStreetAuditFilter('unverified')">⚠️ Unverified (<span id="count-audit-unverified">0</span>)</button>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -219,6 +318,9 @@
           <div class="sticky-alpha-wrapper">
             <div class="alpha-jump-bar" id="alpha-jump-bar"></div>
           </div>
+
+          <!-- Active Filter Notice / Results Count -->
+          <div id="streets-filter-feedback" class="streets-filter-feedback" style="display: none;"></div>
 
           <div class="content-container" id="streets-content"></div>
         </section>
@@ -262,6 +364,15 @@
             <h1 class="page-header-title">Results for "<span id="search-query-display"></span>"</h1>
             <div class="page-header-sub" id="search-summary-text">Found matching entries across directory volumes.</div>
 
+            <!-- Search Refinement Input -->
+            <div style="margin-top: 1rem; max-width: 540px;">
+              <form class="hero-search-box" onsubmit="event.preventDefault(); const val = document.getElementById('search-view-input').value.trim(); if(val) window.location.hash = '#search=' + encodeURIComponent(val);">
+                <i class="ph ph-magnifying-glass search-icon"></i>
+                <input type="text" id="search-view-input" placeholder="Search person, trade, or street..." required />
+                <button type="submit" class="search-submit-btn">Search</button>
+              </form>
+            </div>
+
             <!-- Search Filter Tabs -->
             <div class="search-tabs" style="margin-top: 1.25rem;">
               <button class="tab-btn active" onclick="setSearchFilter('all', this)">All Results (<span id="count-all">0</span>)</button>
@@ -287,10 +398,22 @@
           <div class="canvas-page-header">
             <span class="section-tag">HISTORICAL SHELF</span>
             <h1 class="page-header-title">Directory Books Library</h1>
-            <div class="page-header-sub">Chronological shelf of historical directory volumes. Fully processed and searchable archives.</div>
+            <div class="page-header-sub">Chronological shelf of historical directory volumes. Click any processed volume to browse streets and records recorded in that edition.</div>
+            
+            <div class="directory-shelf-filters" style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1.25rem;">
+              <button class="filter-chip active" id="dir-filter-all" onclick="filterDirectoryShelf('all', this)" style="padding: 0.45rem 0.9rem; border-radius: 999px; font-size: 0.82rem; font-weight: 600; border: 1px solid var(--accent); background: var(--accent); color: #FFFFFF; cursor: pointer;">All Volumes (37)</button>
+              <button class="filter-chip" id="dir-filter-victorian" onclick="filterDirectoryShelf('victorian', this)" style="padding: 0.45rem 0.9rem; border-radius: 999px; font-size: 0.82rem; font-weight: 500; border: 1px solid var(--border-color); background: #FFFFFF; color: var(--text-secondary); cursor: pointer;">Victorian Era (1848–1901)</button>
+              <button class="filter-chip" id="dir-filter-edwardian" onclick="filterDirectoryShelf('edwardian', this)" style="padding: 0.45rem 0.9rem; border-radius: 999px; font-size: 0.82rem; font-weight: 500; border: 1px solid var(--border-color); background: #FFFFFF; color: var(--text-secondary); cursor: pointer;">Edwardian Era (1902–1914)</button>
+              <button class="filter-chip" id="dir-filter-interwar" onclick="filterDirectoryShelf('interwar', this)" style="padding: 0.45rem 0.9rem; border-radius: 999px; font-size: 0.82rem; font-weight: 500; border: 1px solid var(--border-color); background: #FFFFFF; color: var(--text-secondary); cursor: pointer;">Interwar &amp; Modern (1915–1974)</button>
+            </div>
           </div>
           <div class="library-grid" id="library-grid" style="margin-top: 1.5rem;"></div>
         </section>
+
+        <!-- SITE FOOTER -->
+        <footer style="margin-top: 4rem; padding: 2rem 1rem; border-top: 1px solid var(--border-color); text-align: center; color: var(--text-secondary); font-size: 0.88rem;">
+          <div>Created by <strong>Robert Gale</strong>, <em>Newport Cornucopia</em> — <a href="https://www.newportcornucopia.co.uk" target="_blank" rel="noopener" style="color: var(--accent); font-weight: 600; text-decoration: none;">www.newportcornucopia.co.uk</a></div>
+        </footer>
 
       </div>
     </main>
@@ -332,6 +455,112 @@
       </div>
     </aside>
 
+  <!-- Interactive Data Correction Modal -->
+  <div class="editor-modal-backdrop" id="editor-modal-backdrop">
+    <div class="editor-modal">
+      <div class="editor-modal-header">
+        <div class="editor-modal-title">✏️ Edit Property Record</div>
+        <button class="editor-modal-close" onclick="closeEditorModal()">&times;</button>
+      </div>
+      <div class="editor-modal-body">
+        <div class="form-group">
+          <label class="form-label">Street Name</label>
+          <input type="text" id="edit-street" class="form-input" readonly />
+        </div>
+        <div class="form-group">
+          <label class="form-label">Directory Year</label>
+          <input type="text" id="edit-year" class="form-input" />
+        </div>
+        <div class="form-group">
+          <label class="form-label">House Number / Range</label>
+          <input type="text" id="edit-house-number" class="form-input" placeholder="e.g. 14, 14A, 12-13" />
+        </div>
+        <div class="form-group">
+          <label class="form-label">Sub-Unit / Suite / Flat</label>
+          <input type="text" id="edit-sub-unit" class="form-input" placeholder="e.g. Flat 2, Room 4" />
+        </div>
+        <div class="form-group">
+          <label class="form-label">Building / Villa Name</label>
+          <div style="display: flex; gap: 0.35rem;">
+            <input type="text" id="edit-building-name" class="form-input" placeholder="e.g. Cartref, Westgate Chambers" />
+            <button type="button" class="header-btn" style="padding: 0.3rem 0.5rem; white-space: nowrap;" onclick="swapBuildingNameAndTrade()" title="Swap Building Name and Trade">⇄ Swap</button>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Record Source Type</label>
+          <select id="edit-source-type" class="form-select">
+            <option value="Primary">Primary (Directory Scan)</option>
+            <option value="Secondary">Secondary (Historical Research)</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Entry Classification</label>
+          <select id="edit-entry-type" class="form-select" onchange="toggleEntryTypeFields()">
+            <option value="Person">Individual Person (Forename + Surname)</option>
+            <option value="Business">Commercial Business / Enterprise</option>
+            <option value="Cross-Reference">Directory Cross-Reference (See ...)</option>
+          </select>
+        </div>
+        <div class="form-group" id="group-surname">
+          <label class="form-label" id="label-surname">Surname / Commercial Entity</label>
+          <input type="text" id="edit-surname" class="form-input" placeholder="e.g. Flynn, Smith, Barclay Bank" />
+        </div>
+        <div class="form-group" id="group-forename">
+          <label class="form-label">Forenames / Initials</label>
+          <input type="text" id="edit-forename" class="form-input" placeholder="e.g. Edward P, Cyril G" />
+        </div>
+        <div class="form-group full-width">
+          <label class="form-label">Trade / Occupation / Notes</label>
+          <input type="text" id="edit-trade" class="form-input" placeholder="e.g. Solicitor, Steward, Grocer, Vacant" />
+        </div>
+        <div class="form-group full-width">
+          <label class="form-label">Correction Reason / Research Log</label>
+          <input type="text" id="edit-reason" class="form-input" placeholder="e.g. Fixed OCR typo in forename" />
+        </div>
+      </div>
+      <div class="editor-modal-footer">
+        <button class="header-btn" onclick="closeEditorModal()">Cancel</button>
+        <button class="header-btn" id="btn-delete-record" onclick="deleteCurrentRecord()" style="background: rgba(220, 53, 69, 0.15); color: #ff6b6b; border-color: rgba(220, 53, 69, 0.4);">🗑️ Delete Record</button>
+        <button class="header-btn" style="background: var(--accent); color: #fff; font-weight: 600;" onclick="saveRecordCorrection()">Save & Preview Correction</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Master Street Registry Modal -->
+  <div class="editor-modal-backdrop" id="master-registry-modal-overlay">
+    <div class="editor-modal" style="max-width: 680px;">
+      <div class="editor-modal-header">
+        <span class="editor-modal-title" id="registry-modal-title">🏛️ Master Street Registry Editor</span>
+        <button class="editor-modal-close" onclick="closeMasterRegistryModal()">&times;</button>
+      </div>
+      <div class="editor-modal-body">
+        <div class="full-width" style="display: flex; gap: 1rem; align-items: center; background: rgba(200,157,84,0.08); padding: 0.85rem 1rem; border-radius: 6px; border: 1px solid var(--accent);">
+          <div>
+            <div style="font-weight: 600; color: var(--text-primary);" id="reg-canonical-title">Street Name</div>
+            <div style="font-size: 0.8rem; color: var(--text-secondary);" id="reg-slug-subtitle">slug: street-name</div>
+          </div>
+          <div style="margin-left: auto;">
+            <select id="reg-status-select" class="form-select">
+              <option value="UNVERIFIED">⚠️ UNVERIFIED (Raw)</option>
+              <option value="NAME_VERIFIED">🔒 NAME VERIFIED (Protected)</option>
+              <option value="FULLY_ENRICHED">🌟 FULLY ENRICHED (Rich Profile)</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group full-width">
+          <label class="form-label">Canonical Display Name</label>
+          <input type="text" id="reg-canonical-name" class="form-input" />
+        </div>
+        <div class="form-group full-width">
+          <label class="form-label">Archival Notes & Research Log</label>
+          <input type="text" id="reg-notes" class="form-input" placeholder="e.g. Verified street boundary against 1891 OS map" />
+        </div>
+      </div>
+      <div class="editor-modal-footer">
+        <button class="header-btn" onclick="closeMasterRegistryModal()">Cancel</button>
+        <button class="header-btn" style="background: var(--accent); color: #fff; font-weight: 600;" onclick="saveMasterRegistryEntry()">Save Street Settings</button>
+      </div>
+    </div>
   </div>
 
   <!-- Cmd+K Global Search Modal Overlay -->
@@ -375,7 +604,20 @@
     </div>
   </div>
 
-  <script src="src/js/app.js"></script>
+  <!-- Sticky Bottom Override Drawer -->
+  <div class="override-drawer" id="override-drawer">
+    <div class="override-drawer-info">
+      <span>✏️ Session Edits Active:</span>
+      <span class="override-count-badge" id="override-count-badge">0 Overrides</span>
+    </div>
+    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+      <button class="header-btn" style="padding: 0.4rem 0.75rem; font-size: 0.8rem;" onclick="clearSessionOverrides()">Clear All</button>
+      <button class="header-btn" style="padding: 0.4rem 0.75rem; font-size: 0.8rem; border-color: var(--accent); color: var(--accent);" onclick="copySessionOverrides()">📋 Copy JSON</button>
+      <button class="header-btn" style="padding: 0.4rem 0.85rem; font-size: 0.8rem; background: var(--accent); color: #fff; font-weight: 600;" onclick="downloadSessionOverrides()">📥 Download user_overrides.json</button>
+    </div>
+  </div>
+
+  <script src="src/js/app.js?v=20261112_search_fix"></script>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 </body>
 </html>

@@ -1,0 +1,1295 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Archive Statistics & Trade Analytics — Newport Street Directory Project</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/styles/main.css">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  
+  <style>
+    /* Dedicated Page Styling for Statistics & Diagnostics */
+    .stats-page-container {
+      padding: 2rem;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    .stats-hero-header {
+      margin-bottom: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 1.5rem;
+    }
+
+    .hero-title-group h1 {
+      font-family: var(--heading-font);
+      font-size: 2.8rem;
+      color: #0F172A;
+      font-weight: 400;
+      line-height: 1.1;
+      margin: 0;
+    }
+
+    .hero-title-group p {
+      color: var(--text-secondary);
+      font-size: 1.05rem;
+      margin-top: 0.5rem;
+    }
+
+    /* KPI METRICS GRID */
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.25rem;
+      margin-bottom: 2rem;
+    }
+
+    .kpi-card {
+      background: #FFFFFF;
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 1.25rem 1.5rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .kpi-card:hover {
+      transform: translateY(-2px);
+      border-color: var(--accent);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.06);
+    }
+
+    .kpi-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: var(--accent);
+    }
+
+    .kpi-card.anomaly-kpi::before {
+      background: #EF4444;
+    }
+
+    .kpi-card.success-kpi::before {
+      background: #10B981;
+    }
+
+    .kpi-card.info-kpi::before {
+      background: #3B82F6;
+    }
+
+    .kpi-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.5rem;
+    }
+
+    .kpi-label {
+      font-size: 0.78rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-secondary);
+    }
+
+    .kpi-icon {
+      font-size: 1.3rem;
+      color: var(--accent);
+    }
+
+    .kpi-value {
+      font-family: var(--heading-font);
+      font-size: 2.2rem;
+      font-weight: 500;
+      color: #0F172A;
+      line-height: 1;
+      margin-bottom: 0.35rem;
+    }
+
+    .kpi-subtext {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    /* TABBED NAVIGATION */
+    .tab-navigation {
+      display: flex;
+      gap: 0.5rem;
+      border-bottom: 1px solid var(--border-color);
+      margin-bottom: 2rem;
+      overflow-x: auto;
+      padding-bottom: 2px;
+    }
+
+    .tab-btn {
+      background: none;
+      border: none;
+      padding: 0.75rem 1.25rem;
+      font-family: var(--sans-font);
+      font-size: 0.92rem;
+      font-weight: 500;
+      color: var(--text-secondary);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      border-bottom: 2px solid transparent;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+
+    .tab-btn:hover {
+      color: #0F172A;
+    }
+
+    .tab-btn.active {
+      color: var(--accent-hover);
+      border-bottom-color: var(--accent);
+      font-weight: 600;
+    }
+
+    .tab-btn .tab-badge {
+      background: #F1F5F9;
+      color: var(--text-secondary);
+      font-size: 0.72rem;
+      padding: 2px 7px;
+      border-radius: 10px;
+    }
+
+    .tab-btn.active .tab-badge {
+      background: var(--accent-light);
+      color: var(--accent-hover);
+      border: 1px solid var(--accent-border);
+    }
+
+    /* TAB CONTENT PANELS */
+    .tab-pane {
+      display: none;
+    }
+
+    .tab-pane.active {
+      display: block;
+      animation: fadeIn 0.25s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(4px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* CARD CONTAINERS & GRIDS */
+    .section-card {
+      background: #FFFFFF;
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 1.75rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+    }
+
+    .card-title-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.25rem;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .card-title-bar h2 {
+      font-family: var(--heading-font);
+      font-size: 1.8rem;
+      color: #0F172A;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .card-subtitle {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-top: 0.25rem;
+    }
+
+    /* YEAR BAR VISUALIZATION */
+    .year-bars-container {
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+      margin-top: 1rem;
+    }
+
+    .year-bar-row {
+      display: grid;
+      grid-template-columns: 50px 1fr 140px;
+      align-items: center;
+      gap: 1rem;
+      font-size: 0.85rem;
+    }
+
+    .year-bar-label {
+      font-weight: 600;
+      color: #0F172A;
+    }
+
+    .year-bar-track {
+      background: #F1F5F9;
+      height: 18px;
+      border-radius: 4px;
+      overflow: hidden;
+      display: flex;
+    }
+
+    .bar-fill-trade {
+      background: var(--accent);
+      height: 100%;
+      transition: width 0.3s;
+    }
+
+    .bar-fill-drift {
+      background: #EF4444;
+      height: 100%;
+      transition: width 0.3s;
+    }
+
+    .bar-fill-names {
+      background: #3B82F6;
+      height: 100%;
+      transition: width 0.3s;
+    }
+
+    .year-bar-stats {
+      text-align: right;
+      color: var(--text-secondary);
+      font-size: 0.8rem;
+    }
+
+    /* TAG CLOUDS & CHIPS */
+    .tag-cloud {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+
+    .stat-chip {
+      background: #F8FAFC;
+      border: 1px solid var(--border-color);
+      padding: 0.45rem 0.8rem;
+      border-radius: 6px;
+      font-size: 0.82rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: all 0.15s;
+    }
+
+    .stat-chip:hover {
+      background: #FFFFFF;
+      border-color: var(--accent);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+
+    .stat-chip .chip-name {
+      font-weight: 600;
+      color: #0F172A;
+    }
+
+    .stat-chip .chip-count {
+      background: #E2E8F0;
+      color: #334155;
+      padding: 1px 6px;
+      border-radius: 10px;
+      font-size: 0.72rem;
+      font-weight: 600;
+    }
+
+    .stat-chip.chip-red .chip-count {
+      background: #FEE2E2;
+      color: #991B1B;
+    }
+
+    .stat-chip.chip-blue .chip-count {
+      background: #DBEAFE;
+      color: #1E40AF;
+    }
+
+    /* LIVE SAMPLES TABLE */
+    .table-controls {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1.25rem;
+      flex-wrap: wrap;
+    }
+
+    .search-input-box {
+      flex: 1;
+      min-width: 250px;
+      position: relative;
+    }
+
+    .search-input-box i {
+      position: absolute;
+      left: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-muted);
+      font-size: 1.1rem;
+    }
+
+    .search-input-box input {
+      width: 100%;
+      padding: 0.65rem 0.75rem 0.65rem 2.4rem;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      font-family: var(--sans-font);
+      font-size: 0.9rem;
+      background: #FFFFFF;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .search-input-box input:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(197, 155, 39, 0.12);
+    }
+
+    .filter-select {
+      padding: 0.65rem 1rem;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      font-family: var(--sans-font);
+      font-size: 0.9rem;
+      background: #FFFFFF;
+      color: #0F172A;
+      outline: none;
+    }
+
+    .custom-table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      font-size: 0.88rem;
+    }
+
+    .custom-table th {
+      background: #F8FAFC;
+      color: var(--text-secondary);
+      font-weight: 600;
+      text-align: left;
+      padding: 0.75rem 1rem;
+      border-top: 1px solid var(--border-color);
+      border-bottom: 1px solid var(--border-color);
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .custom-table td {
+      padding: 0.85rem 1rem;
+      border-bottom: 1px solid var(--border-color);
+      color: #0F172A;
+      vertical-align: middle;
+    }
+
+    .custom-table tbody tr:hover td {
+      background: #F8FAFC;
+    }
+
+    .badge-highlight {
+      display: inline-block;
+      padding: 2px 7px;
+      border-radius: 4px;
+      font-weight: 600;
+      font-size: 0.78rem;
+    }
+
+    .badge-red {
+      background: #FEE2E2;
+      color: #B91C1C;
+      border: 1px solid #FECACA;
+    }
+
+    .badge-blue {
+      background: #EFF6FF;
+      color: #1D4ED8;
+      border: 1px solid #BFDBFE;
+    }
+
+    .badge-gold {
+      background: var(--accent-light);
+      color: var(--accent-hover);
+      border: 1px solid var(--accent-border);
+    }
+
+    .street-link {
+      color: #0F172A;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .street-link:hover {
+      color: var(--accent-hover);
+      text-decoration: underline;
+    }
+
+    /* DECADE COMPARISON GRID */
+    .decade-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .decade-card {
+      background: #F8FAFC;
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 1.25rem;
+    }
+
+    .decade-card h3 {
+      font-family: var(--heading-font);
+      font-size: 1.4rem;
+      margin-bottom: 0.75rem;
+      color: #0F172A;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .decade-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .decade-list-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.85rem;
+      padding: 0.4rem 0;
+      border-bottom: 1px dashed var(--border-color);
+    }
+
+    .decade-list-item:last-child {
+      border-bottom: none;
+    }
+
+    /* TWO COLUMN SPLIT */
+    .two-col-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+    }
+
+    @media (max-width: 900px) {
+      .two-col-grid {
+        grid-template-columns: 1fr;
+      }
+      .year-bar-row {
+        grid-template-columns: 45px 1fr 80px;
+      }
+    }
+  </style>
+</head>
+<body class="app-body">
+
+  <div class="app-shell">
+    
+    <!-- LEFT NAVIGATION SIDEBAR -->
+    <aside class="app-sidebar">
+      <div class="sidebar-header">
+        <a href="index.html#home" class="sidebar-logo">
+          <i class="ph ph-buildings logo-icon"></i>
+          <div class="logo-text">
+            <span class="brand-title">Newport Archive</span>
+            <span class="brand-subtitle">Directory & Map Ledger</span>
+          </div>
+        </a>
+      </div>
+
+      <!-- Sidebar Navigation Menu -->
+      <nav class="sidebar-nav">
+        <div class="nav-section-label">ARCHIVE EXPLORER</div>
+        
+        <a href="index.html#home" class="nav-item">
+          <i class="ph ph-house-line"></i>
+          <span>Overview</span>
+        </a>
+        <a href="index.html#streets" class="nav-item">
+          <i class="ph ph-path"></i>
+          <span>Street Directory</span>
+          <span class="nav-badge">759</span>
+        </a>
+        <a href="index.html#directories" class="nav-item">
+          <i class="ph ph-books"></i>
+          <span>Directory Books</span>
+        </a>
+        <a href="gazetteer.html" class="nav-item">
+          <i class="ph ph-scroll"></i>
+          <span>Early Gazetteers (1822–35)</span>
+        </a>
+        <a href="trades.html" class="nav-item">
+          <i class="ph ph-briefcase"></i>
+          <span>Occupations Audit</span>
+        </a>
+        <a href="map.html" class="nav-item">
+          <i class="ph ph-map-trifold"></i>
+          <span>Cartographic Map</span>
+        </a>
+
+        <div class="nav-section-label" style="margin-top: 1.5rem;">DATA & STATS</div>
+        <a href="stats.html" class="nav-item active">
+          <i class="ph ph-chart-polar"></i>
+          <span>Archive Statistics</span>
+        </a>
+        <a href="streets_audit.html" class="nav-item">
+          <i class="ph ph-check-square-offset"></i>
+          <span>Street Master Audit</span>
+        </a>
+        <a href="timeline.html" class="nav-item">
+          <i class="ph ph-chart-line-up"></i>
+          <span>Street Timeline Audit</span>
+        </a>
+        <a href="editor.html" class="nav-item">
+          <i class="ph ph-table"></i>
+          <span>Master Table Editor</span>
+        </a>
+      </nav>
+
+      <!-- Database Status Mini Widget -->
+      <div class="sidebar-audit-widget" style="margin-top: auto;">
+        <div class="audit-widget-title">
+          <i class="ph ph-chart-line" style="color: #16A34A;"></i>
+          <span>Database Scope</span>
+        </div>
+        <div class="audit-widget-desc" id="sidebar-total-records">325,698 Records Analyzed</div>
+        <div class="audit-progress-bar">
+          <div class="audit-progress-fill" style="width: 100%;"></div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- MAIN SCROLLABLE CANVAS -->
+    <main class="app-canvas" style="overflow-y: auto;">
+      
+      <!-- TOP HEADER BAR -->
+      <header class="canvas-header">
+        <div class="breadcrumb-container">
+          <a href="index.html#home">Home</a> 
+          <i class="ph ph-caret-right"></i> 
+          <span>Archive Analytics</span> 
+          <i class="ph ph-caret-right"></i> 
+          <span style="color: #0F172A; font-weight: 600;">Statistics & Diagnostics</span>
+        </div>
+        <div class="canvas-header-actions">
+          <a href="trades.html" class="header-btn"><i class="ph ph-briefcase"></i> Occupations Audit</a>
+          <a href="index.html#streets" class="header-btn primary"><i class="ph ph-path"></i> Street Directory</a>
+        </div>
+      </header>
+
+      <div class="stats-page-container">
+        
+        <!-- PAGE HERO HEADER -->
+        <div class="stats-hero-header">
+          <div class="hero-title-group">
+            <h1>Newport Archive Statistics & Diagnostics</h1>
+            <p>Comprehensive historical overview, occupational shifts, and column-drift analysis across 25 directory volumes (1876–1936).</p>
+          </div>
+          <div style="font-size: 0.85rem; color: var(--text-muted); text-align: right;">
+            <div>Dataset: <strong style="color: #0F172A;" id="header-total-rows">325,698 Rows</strong></div>
+            <div>Unique Trades: <strong style="color: #0F172A;" id="header-unique-trades">37,709</strong></div>
+          </div>
+        </div>
+
+        <!-- 6 TOP KPI CARDS -->
+        <div class="kpi-grid">
+          <div class="kpi-card info-kpi">
+            <div class="kpi-header">
+              <span class="kpi-label">Master Directory</span>
+              <i class="ph ph-database kpi-icon"></i>
+            </div>
+            <div class="kpi-value" id="kpi-total-records">317,774</div>
+            <div class="kpi-subtext">Total digitized records across 26 years</div>
+          </div>
+
+          <div class="kpi-card success-kpi">
+            <div class="kpi-header">
+              <span class="kpi-label">Recorded Occupations</span>
+              <i class="ph ph-briefcase kpi-icon"></i>
+            </div>
+            <div class="kpi-value" id="kpi-trades-count">158,383</div>
+            <div class="kpi-subtext">49.8% occupational coverage</div>
+          </div>
+
+          <div class="kpi-card anomaly-kpi">
+            <div class="kpi-header">
+              <span class="kpi-label">Trades in Names</span>
+              <i class="ph ph-arrows-split kpi-icon" style="color: #EF4444;"></i>
+            </div>
+            <div class="kpi-value" id="kpi-trades-in-names" style="color: #DC2626;">9,222</div>
+            <div class="kpi-subtext">Occupational drift into forename/surname</div>
+          </div>
+
+          <div class="kpi-card anomaly-kpi">
+            <div class="kpi-header">
+              <span class="kpi-label">Names in Trades</span>
+              <i class="ph ph-swap kpi-icon" style="color: #F59E0B;"></i>
+            </div>
+            <div class="kpi-value" id="kpi-names-in-trades" style="color: #D97706;">8,009</div>
+            <div class="kpi-subtext">Initials/names misaligned into trade column</div>
+          </div>
+
+          <div class="kpi-card">
+            <div class="kpi-header">
+              <span class="kpi-label">Historical Streets</span>
+              <i class="ph ph-map-pin kpi-icon"></i>
+            </div>
+            <div class="kpi-value" id="kpi-streets-count">1,443</div>
+            <div class="kpi-subtext">Mapped thoroughfares and lanes</div>
+          </div>
+
+          <div class="kpi-card info-kpi">
+            <div class="kpi-header">
+              <span class="kpi-label">Female Householders</span>
+              <i class="ph ph-gender-female kpi-icon" style="color: #8B5CF6;"></i>
+            </div>
+            <div class="kpi-value" id="kpi-women-count">33,900+</div>
+            <div class="kpi-subtext">Independent women & widows recorded</div>
+          </div>
+        </div>
+
+        <!-- TAB NAVIGATION -->
+        <div class="tab-navigation">
+          <button class="tab-btn active" onclick="switchTab('drift-tab')">
+            <i class="ph ph-arrows-split"></i>
+            <span>Column Drift Diagnostics</span>
+            <span class="tab-badge">17.2k cases</span>
+          </button>
+          <button class="tab-btn" onclick="switchTab('occupations-tab')">
+            <i class="ph ph-chart-bar"></i>
+            <span>Top Occupations & Sectors</span>
+          </button>
+          <button class="tab-btn" onclick="switchTab('decades-tab')">
+            <i class="ph ph-chart-line-up"></i>
+            <span>Decade Evolution</span>
+          </button>
+          <button class="tab-btn" onclick="switchTab('vanished-tab')">
+            <i class="ph ph-hourglass-high"></i>
+            <span>Vanished vs Emerging Trades</span>
+          </button>
+          <button class="tab-btn" onclick="switchTab('streets-tab')">
+            <i class="ph ph-buildings"></i>
+            <span>Street Specialization</span>
+          </button>
+          <button class="tab-btn" onclick="switchTab('women-tab')">
+            <i class="ph ph-gender-female"></i>
+            <span>Women in the Archive</span>
+          </button>
+        </div>
+
+        <!-- ==================== TAB 1: COLUMN DRIFT DIAGNOSTICS ==================== -->
+        <section id="drift-tab" class="tab-pane active">
+          
+          <div class="section-card">
+            <div class="card-title-bar">
+              <div>
+                <h2><i class="ph ph-warning-circle" style="color: #EF4444;"></i> Anatomy of Parsing & Column Drift</h2>
+                <div class="card-subtitle">Detailed breakdown of why genuine trades ended up in names, and personal names ended up in trade columns.</div>
+              </div>
+            </div>
+
+            <div class="two-col-grid" style="margin-top: 1.5rem;">
+              
+              <!-- LEFT: Trades in Names -->
+              <div style="background: #FFF5F5; border: 1px solid #FED7D7; border-radius: 10px; padding: 1.5rem;">
+                <h3 style="font-family: var(--heading-font); font-size: 1.5rem; color: #9B2C2C; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
+                  <i class="ph ph-arrow-bend-down-right"></i> Trades Trapped in Names (<span id="header-trapped-trades">3,127</span> Records)
+                </h3>
+                <p style="font-size: 0.88rem; color: #742A2A; line-height: 1.5;">
+                  Occurred when OCR continuation or lack of column tab stops caused the trade (e.g. <em>"grocer"</em>, <em>"ironworker"</em>, <em>"fitter"</em>) to be glued to the resident's forename or surname.
+                </p>
+                <div style="margin-top: 1rem;">
+                  <strong style="font-size: 0.78rem; text-transform: uppercase; color: #9B2C2C; letter-spacing: 0.05em;">Top Trapped Trades in Names:</strong>
+                  <div class="tag-cloud" id="drift-trades-cloud">
+                    <!-- Populated dynamically -->
+                  </div>
+                </div>
+              </div>
+
+              <!-- RIGHT: Names in Trades -->
+              <div style="background: #EFF6FF; border: 1px solid #BFDBFE; border-radius: 10px; padding: 1.5rem;">
+                <h3 style="font-family: var(--heading-font); font-size: 1.5rem; color: #1E40AF; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
+                  <i class="ph ph-arrow-bend-up-right"></i> Names / Initials in Trades (<span id="header-trapped-names">11,431</span> Records)
+                </h3>
+                <p style="font-size: 0.88rem; color: #1E3A8A; line-height: 1.5;">
+                  The inverse misalignment: single initials (e.g. <em>"J"</em>, <em>"H"</em>, <em>"E"</em>, <em>"W"</em>) and first names (<em>"John"</em>, <em>"Mary"</em>, <em>"George"</em>) shifted 1 column to the right, landing in the Trade field.
+                </p>
+                <div style="margin-top: 1rem;">
+                  <strong style="font-size: 0.78rem; text-transform: uppercase; color: #1E40AF; letter-spacing: 0.05em;">Top Misaligned Names as Trades:</strong>
+                  <div class="tag-cloud" id="drift-names-cloud">
+                    <!-- Populated dynamically -->
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- YEARLY ANOMALY HOTSPOTS -->
+            <div style="margin-top: 2rem;">
+              <h3 style="font-family: var(--heading-font); font-size: 1.5rem; color: #0F172A; margin-bottom: 0.5rem;">
+                <i class="ph ph-calendar-blank"></i> Historical Volume Hotspots (Where Drift Is Concentrated)
+              </h3>
+              <p style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 1rem;">
+                Comparison of trade-in-name and name-in-trade anomalies by publication year. Notice the massive spike in the 1910–1924 volumes.
+              </p>
+
+              <div class="year-bars-container" id="yearly-drift-bars">
+                <!-- Populated dynamically -->
+              </div>
+            </div>
+
+          </div>
+
+          <!-- SEARCHABLE SAMPLES VIEWER -->
+          <div class="section-card">
+            <div class="card-title-bar">
+              <div>
+                <h2><i class="ph ph-magnifying-glass"></i> Live Anomaly Record Explorer</h2>
+                <div class="card-subtitle">Examine actual historical records exhibiting column drift. Click any street to open it in the archive.</div>
+              </div>
+            </div>
+
+            <div class="table-controls">
+              <div class="search-input-box">
+                <i class="ph ph-magnifying-glass"></i>
+                <input type="text" id="anomaly-search" placeholder="Filter by resident name, trapped trade, street..." oninput="filterAnomalyTable()">
+              </div>
+              <select class="filter-select" id="anomaly-category-filter" onchange="filterAnomalyTable()">
+                <option value="all">All Anomaly Types</option>
+                <option value="trades_in_names" id="opt-trades-in-names">Trades in Names Only (3,127)</option>
+                <option value="names_in_trades" id="opt-names-in-trades">Names/Initials in Trades Only (11,431)</option>
+              </select>
+            </div>
+
+            <div style="overflow-x: auto;">
+              <table class="custom-table" id="anomaly-table">
+                <thead>
+                  <tr>
+                    <th style="width: 70px;">Year</th>
+                    <th>Street & No.</th>
+                    <th>Full Name Recorded</th>
+                    <th>Detected Anomaly</th>
+                    <th>Current Trade Column</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody id="anomaly-table-body">
+                  <!-- Populated dynamically -->
+                </tbody>
+              </table>
+            </div>
+
+          </div>
+
+        </section>
+
+        <!-- ==================== TAB 2: TOP OCCUPATIONS ==================== -->
+        <section id="occupations-tab" class="tab-pane">
+          <div class="section-card">
+            <div class="card-title-bar">
+              <div>
+                <h2><i class="ph ph-ranking"></i> Top Occupations of Victorian & Edwardian Newport</h2>
+                <div class="card-subtitle">The most prevalent trades across the entire 1876–1936 corpus, reflecting Newport's industrial dock and railway heritage.</div>
+              </div>
+            </div>
+
+            <div style="overflow-x: auto; margin-top: 1rem;">
+              <table class="custom-table" id="top-trades-table">
+                <thead>
+                  <tr>
+                    <th style="width: 50px;">Rank</th>
+                    <th>Occupation</th>
+                    <th>Total Recorded</th>
+                    <th>Span of Years</th>
+                    <th style="width: 250px;">Relative Prevalence</th>
+                  </tr>
+                </thead>
+                <tbody id="top-trades-tbody">
+                  <!-- Populated dynamically -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <!-- ==================== TAB 3: DECADE EVOLUTION ==================== -->
+        <section id="decades-tab" class="tab-pane">
+          <div class="section-card">
+            <div class="card-title-bar">
+              <div>
+                <h2><i class="ph ph-chart-line-up"></i> Occupational Shifts Across Decades (1870s–1970s)</h2>
+                <div class="card-subtitle">Witness the rise and fall of industrial vocations: from heavy Victorian coal trimming and ironworking to mid-century motor transport and electricity.</div>
+              </div>
+            </div>
+
+            <div class="decade-grid" id="decade-comparison-grid">
+              <!-- Populated dynamically -->
+            </div>
+          </div>
+        </section>
+
+        <!-- ==================== TAB 4: VANISHED VS EMERGING ==================== -->
+        <section id="vanished-tab" class="tab-pane">
+          <div class="two-col-grid">
+            
+            <!-- Vanished Trades -->
+            <div class="section-card" style="border-top: 3px solid #64748B;">
+              <div class="card-title-bar">
+                <div>
+                  <h2><i class="ph ph-clock-counter-clockwise"></i> Vanished Vocations</h2>
+                  <div class="card-subtitle">Trades common before WWI that completely vanished from the street directories by mid-century.</div>
+                </div>
+              </div>
+              <div style="overflow-x: auto;">
+                <table class="custom-table">
+                  <thead>
+                    <tr>
+                      <th>Historical Trade</th>
+                      <th>Records</th>
+                      <th>Last Seen</th>
+                    </tr>
+                  </thead>
+                  <tbody id="vanished-tbody">
+                    <!-- Populated dynamically -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <!-- Emerging Trades -->
+            <div class="section-card" style="border-top: 3px solid #10B981;">
+              <div class="card-title-bar">
+                <div>
+                  <h2><i class="ph ph-sparkle"></i> 20th-Century Emerging Trades</h2>
+                  <div class="card-subtitle">Modern technologies and motor transport vocations that emerged post-1915.</div>
+                </div>
+              </div>
+              <div style="overflow-x: auto;">
+                <table class="custom-table">
+                  <thead>
+                    <tr>
+                      <th>Modern Trade</th>
+                      <th>Records</th>
+                      <th>First Emerged</th>
+                    </tr>
+                  </thead>
+                  <tbody id="emerging-tbody">
+                    <!-- Populated dynamically -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- ==================== TAB 5: STREET SPECIALIZATION ==================== -->
+        <section id="streets-tab" class="tab-pane">
+          <div class="section-card">
+            <div class="card-title-bar">
+              <div>
+                <h2><i class="ph ph-map-pin-line"></i> Spatial Topography: Newport's Economic Quarters</h2>
+                <div class="card-subtitle">Thoroughfares categorized by occupational density: commercial high streets, docklands, railway corridors, and civic districts.</div>
+              </div>
+            </div>
+
+            <div class="decade-grid" id="street-specialization-grid">
+              <!-- Populated dynamically -->
+            </div>
+          </div>
+        </section>
+
+        <!-- ==================== TAB 6: WOMEN IN DIRECTORIES ==================== -->
+        <section id="women-tab" class="tab-pane">
+          <div class="section-card">
+            <div class="card-title-bar">
+              <div>
+                <h2><i class="ph ph-gender-female" style="color: #8B5CF6;"></i> Women in the Historical Directories</h2>
+                <div class="card-subtitle">Analysis of female householders, widows, independent shopkeepers, and artisans in Victorian & Edwardian Newport.</div>
+              </div>
+            </div>
+
+            <div class="two-col-grid" style="margin-top: 1rem;">
+              
+              <!-- Female Trades -->
+              <div>
+                <h3 style="font-family: var(--heading-font); font-size: 1.4rem; color: #0F172A; margin-bottom: 0.75rem;">
+                  Leading Stated Occupations for Female Householders
+                </h3>
+                <table class="custom-table">
+                  <thead>
+                    <tr>
+                      <th>Occupation</th>
+                      <th>Total Recorded</th>
+                      <th>Historical Context</th>
+                    </tr>
+                  </thead>
+                  <tbody id="women-trades-tbody">
+                    <!-- Populated dynamically -->
+                  </tbody>
+                </table>
+              </div>
+
+              <!-- Context & Narrative -->
+              <div style="background: #FAF5FF; border: 1px solid #E9D5FF; border-radius: 10px; padding: 1.5rem;">
+                <h3 style="font-family: var(--heading-font); font-size: 1.4rem; color: #6B21A8; margin-bottom: 0.75rem;">
+                  Historical Directory Conventions
+                </h3>
+                <p style="font-size: 0.9rem; color: #581C87; line-height: 1.6; margin-bottom: 1rem;">
+                  In 19th-century British street directories, women were only recorded when they were the recognized legal head of household (typically as widows) or proprietors of independent retail shops and trades.
+                </p>
+                <p style="font-size: 0.9rem; color: #581C87; line-height: 1.6; margin-bottom: 1rem;">
+                  The most frequent female vocational entries include <strong>dressmakers</strong>, <strong>milliners</strong>, <strong>grocers</strong>, <strong>confectioners</strong>, <strong>teachers</strong>, and <strong>boarding-house keepers</strong>.
+                </p>
+                <div style="background: #FFFFFF; border: 1px solid #D8B4FE; border-radius: 8px; padding: 1rem; margin-top: 1.25rem;">
+                  <strong style="color: #6B21A8; font-size: 0.85rem;">Total Female Heads in Corpus:</strong>
+                  <div style="font-family: var(--heading-font); font-size: 2.2rem; color: #6B21A8; margin-top: 0.25rem;" id="women-total-val">33,985</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </main>
+
+  </div>
+
+  <!-- SCRIPT LOGIC -->
+  <script>
+    let STATS_DATA = null;
+    let ALL_ANOMALIES = [];
+
+    async function loadStatsData() {
+      try {
+        const res = await fetch('data/stats.json?v=' + Date.now());
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        STATS_DATA = await res.json();
+        renderAllStats();
+      } catch (err) {
+        console.error("Failed to fetch data/stats.json:", err);
+      }
+    }
+
+    function switchTab(tabId) {
+      document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+      document.querySelectorAll('.tab-pane').forEach(pane => pane.classList.remove('active'));
+
+      event.currentTarget.classList.add('active');
+      const targetPane = document.getElementById(tabId);
+      if (targetPane) targetPane.classList.add('active');
+    }
+
+    function renderAllStats() {
+      if (!STATS_DATA) return;
+
+      const totalRecs = STATS_DATA.meta.total_records || 325698;
+      const totalTrades = STATS_DATA.meta.unique_trade_strings || 37709;
+      const tinCount = STATS_DATA.trades_in_names ? STATS_DATA.trades_in_names.total_detected : 3127;
+      const nitCount = STATS_DATA.names_in_trades ? STATS_DATA.names_in_trades.total_detected : 11431;
+
+      // Header and sidebar dynamic elements
+      const sidebarScopeEl = document.getElementById('sidebar-total-records');
+      if (sidebarScopeEl) sidebarScopeEl.innerText = `${totalRecs.toLocaleString()} Records Analyzed`;
+      const headerRowsEl = document.getElementById('header-total-rows');
+      if (headerRowsEl) headerRowsEl.innerText = `${totalRecs.toLocaleString()} Rows`;
+      const headerTradesEl = document.getElementById('header-unique-trades');
+      if (headerTradesEl) headerTradesEl.innerText = totalTrades.toLocaleString();
+
+      const tinHdrEl = document.getElementById('header-trapped-trades');
+      if (tinHdrEl) tinHdrEl.innerText = tinCount.toLocaleString();
+      const nitHdrEl = document.getElementById('header-trapped-names');
+      if (nitHdrEl) nitHdrEl.innerText = nitCount.toLocaleString();
+
+      const optTin = document.getElementById('opt-trades-in-names');
+      if (optTin) optTin.innerText = `Trades in Names Only (${tinCount.toLocaleString()})`;
+      const optNit = document.getElementById('opt-names-in-trades');
+      if (optNit) optNit.innerText = `Names/Initials in Trades Only (${nitCount.toLocaleString()})`;
+
+      // 1. Render Top KPIs
+      document.getElementById('kpi-total-records').innerText = totalRecs.toLocaleString();
+      document.getElementById('kpi-trades-count').innerText = STATS_DATA.meta.total_with_trade.toLocaleString();
+      document.getElementById('kpi-streets-count').innerText = STATS_DATA.meta.total_streets.toLocaleString();
+      document.getElementById('kpi-trades-in-names').innerText = tinCount.toLocaleString();
+      document.getElementById('kpi-names-in-trades').innerText = nitCount.toLocaleString();
+      if (STATS_DATA.women_in_directories) {
+        document.getElementById('kpi-women-count').innerText = STATS_DATA.women_in_directories.total_female_heads.toLocaleString();
+        document.getElementById('women-total-val').innerText = STATS_DATA.women_in_directories.total_female_heads.toLocaleString();
+      }
+
+      // 2. Render Drift Tag Clouds
+      const tradesCloud = document.getElementById('drift-trades-cloud');
+      tradesCloud.innerHTML = STATS_DATA.trades_in_names.top_trapped_trades.slice(0, 24).map(t => `
+        <div class="stat-chip chip-red">
+          <span class="chip-name">${t.trade}</span>
+          <span class="chip-count">${t.count.toLocaleString()}</span>
+        </div>
+      `).join('');
+
+      const namesCloud = document.getElementById('drift-names-cloud');
+      namesCloud.innerHTML = STATS_DATA.names_in_trades.top_names.slice(0, 24).map(n => `
+        <div class="stat-chip chip-blue">
+          <span class="chip-name">${n.name}</span>
+          <span class="chip-count">${n.count.toLocaleString()}</span>
+        </div>
+      `).join('');
+
+      // 3. Render Yearly Drift Bar Visual
+      const barsContainer = document.getElementById('yearly-drift-bars');
+      const maxYearVal = Math.max(...STATS_DATA.yearly_overview.map(y => y.total));
+      barsContainer.innerHTML = STATS_DATA.yearly_overview.map(y => {
+        if (y.total === 0) return '';
+        const tradePct = (y.with_trade / y.total) * 100;
+        const driftPct = ((y.trades_in_names + y.names_in_trades) / y.total) * 100;
+        return `
+          <div class="year-bar-row">
+            <span class="year-bar-label">${y.year}</span>
+            <div class="year-bar-track">
+              <div class="bar-fill-trade" style="width: ${tradePct.toFixed(1)}%;" title="${y.with_trade.toLocaleString()} trades (${tradePct.toFixed(1)}%)"></div>
+              <div class="bar-fill-drift" style="width: ${Math.min(driftPct * 2, 40).toFixed(1)}%;" title="${(y.trades_in_names + y.names_in_trades).toLocaleString()} column-drift cases"></div>
+            </div>
+            <div class="year-bar-stats">
+              <strong style="color: #0F172A;">${y.with_trade.toLocaleString()}</strong> / ${y.total.toLocaleString()}
+              ${(y.trades_in_names + y.names_in_trades) > 50 ? `<span class="badge-highlight badge-red" style="margin-left: 4px;">${y.trades_in_names + y.names_in_trades} drifts</span>` : ''}
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      // 4. Combine Anomaly Samples for Live Search
+      ALL_ANOMALIES = [];
+      STATS_DATA.trades_in_names.samples.forEach(s => {
+        ALL_ANOMALIES.push({
+          type: 'trades_in_names',
+          year: s.year,
+          street: s.street,
+          house_number: s.house_number,
+          fullName: `${s.forename} ${s.surname}`.trim(),
+          highlight: s.found,
+          trade: s.trade || '<em>(Empty)</em>'
+        });
+      });
+      STATS_DATA.names_in_trades.samples.forEach(s => {
+        ALL_ANOMALIES.push({
+          type: 'names_in_trades',
+          year: s.year,
+          street: s.street,
+          house_number: s.house_number,
+          fullName: `${s.forename} ${s.surname}`.trim(),
+          highlight: s.trade,
+          trade: s.trade
+        });
+      });
+      renderAnomalyTable(ALL_ANOMALIES.slice(0, 40));
+
+      // 5. Render Top Trades Table
+      const maxTradeCount = STATS_DATA.top_trades[0].count;
+      document.getElementById('top-trades-tbody').innerHTML = STATS_DATA.top_trades.slice(0, 35).map((t, idx) => {
+        const barPct = (t.count / maxTradeCount) * 100;
+        return `
+          <tr>
+            <td style="color: var(--text-muted); font-weight: 600;">#${idx + 1}</td>
+            <td><strong style="color: #0F172A; font-size: 0.95rem;">${t.trade}</strong></td>
+            <td><strong style="color: var(--accent-hover);">${t.count.toLocaleString()}</strong></td>
+            <td><span class="badge-highlight badge-gold">${t.earliest}–${t.latest}</span></td>
+            <td>
+              <div style="background: #F1F5F9; height: 12px; border-radius: 4px; overflow: hidden; width: 100%;">
+                <div style="background: var(--accent); height: 100%; width: ${barPct.toFixed(1)}%;"></div>
+              </div>
+            </td>
+          </tr>
+        `;
+      }).join('');
+
+      // 6. Render Decade Grid
+      const decadeGrid = document.getElementById('decade-comparison-grid');
+      decadeGrid.innerHTML = STATS_DATA.decades.map(dec => {
+        // Collect top trades for this decade
+        const decadeTrades = STATS_DATA.tracked_trades.map(t => ({
+          trade: t,
+          count: STATS_DATA.decade_trends[t][dec] || 0
+        })).filter(x => x.count > 0).sort((a,b) => b.count - a.count);
+
+        return `
+          <div class="decade-card">
+            <h3><span>${dec}</span> <i class="ph ph-calendar" style="color: var(--accent);"></i></h3>
+            <ul class="decade-list">
+              ${decadeTrades.slice(0, 6).map(dt => `
+                <li class="decade-list-item">
+                  <span>${dt.trade}</span>
+                  <strong style="color: #0F172A;">${dt.count.toLocaleString()}</strong>
+                </li>
+              `).join('')}
+            </ul>
+          </div>
+        `;
+      }).join('');
+
+      // 7. Render Vanished & Emerging Tables
+      document.getElementById('vanished-tbody').innerHTML = STATS_DATA.vanished_trades.slice(0, 15).map(v => `
+        <tr>
+          <td><strong style="color: #0F172A;">${v.trade}</strong></td>
+          <td><span class="badge-highlight badge-gold">${v.count.toLocaleString()}</span></td>
+          <td><span style="color: #DC2626; font-weight: 600;">${v.latest}</span></td>
+        </tr>
+      `).join('');
+
+      document.getElementById('emerging-tbody').innerHTML = STATS_DATA.emerging_trades.slice(0, 15).map(e => `
+        <tr>
+          <td><strong style="color: #0F172A;">${e.trade}</strong></td>
+          <td><span class="badge-highlight badge-gold">${e.count.toLocaleString()}</span></td>
+          <td><span style="color: #16A34A; font-weight: 600;">${e.earliest}</span></td>
+        </tr>
+      `).join('');
+
+      // 8. Render Street Economic Quarters
+      const streetGrid = document.getElementById('street-specialization-grid');
+      const specs = STATS_DATA.street_specialization;
+      streetGrid.innerHTML = `
+        <div class="decade-card" style="border-top: 3px solid #F59E0B;">
+          <h3><span>Commercial & Retail Corridors</span> <i class="ph ph-storefront" style="color: #F59E0B;"></i></h3>
+          <ul class="decade-list">
+            ${specs.commercial.slice(0, 6).map(s => `
+              <li class="decade-list-item">
+                <a href="index.html#street=${encodeURIComponent(s.street)}" class="street-link">${s.street}</a>
+                <span class="badge-highlight badge-gold">${s.count} shops (${s.pct}%)</span>
+              </li>
+            `).join('')}
+          </ul>
+        </div>
+
+        <div class="decade-card" style="border-top: 3px solid #3B82F6;">
+          <h3><span>Maritime & Docklands</span> <i class="ph ph-anchor" style="color: #3B82F6;"></i></h3>
+          <ul class="decade-list">
+            ${specs.maritime.slice(0, 6).map(s => `
+              <li class="decade-list-item">
+                <a href="index.html#street=${encodeURIComponent(s.street)}" class="street-link">${s.street}</a>
+                <span class="badge-highlight badge-blue">${s.count} seamen/trimmers (${s.pct}%)</span>
+              </li>
+            `).join('')}
+          </ul>
+        </div>
+
+        <div class="decade-card" style="border-top: 3px solid #10B981;">
+          <h3><span>Railway Communities</span> <i class="ph ph-train" style="color: #10B981;"></i></h3>
+          <ul class="decade-list">
+            ${specs.railway.slice(0, 6).map(s => `
+              <li class="decade-list-item">
+                <a href="index.html#street=${encodeURIComponent(s.street)}" class="street-link">${s.street}</a>
+                <span class="badge-highlight badge-gold">${s.count} railwaymen (${s.pct}%)</span>
+              </li>
+            `).join('')}
+          </ul>
+        </div>
+
+        <div class="decade-card" style="border-top: 3px solid #8B5CF6;">
+          <h3><span>Professional & Civic Quarters</span> <i class="ph ph-bank" style="color: #8B5CF6;"></i></h3>
+          <ul class="decade-list">
+            ${specs.professional.slice(0, 6).map(s => `
+              <li class="decade-list-item">
+                <a href="index.html#street=${encodeURIComponent(s.street)}" class="street-link">${s.street}</a>
+                <span class="badge-highlight" style="background:#EDE9FE; color:#6D28D9;">${s.count} professionals</span>
+              </li>
+            `).join('')}
+          </ul>
+        </div>
+      `;
+
+      // 9. Render Women Trades
+      if (STATS_DATA.women_in_directories) {
+        document.getElementById('women-trades-tbody').innerHTML = STATS_DATA.women_in_directories.top_trades.slice(0, 10).map(wt => `
+          <tr>
+            <td><strong style="color: #0F172A;">${wt.trade}</strong></td>
+            <td><span class="badge-highlight badge-gold">${wt.count.toLocaleString()}</span></td>
+            <td style="color: var(--text-secondary); font-size: 0.84rem;">Independent business / trade head</td>
+          </tr>
+        `).join('');
+      }
+    }
+
+    function renderAnomalyTable(items) {
+      const tbody = document.getElementById('anomaly-table-body');
+      if (items.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="6" style="text-align: center; color: var(--text-muted); padding: 2rem;">No matching anomaly records found.</td></tr>`;
+        return;
+      }
+
+      tbody.innerHTML = items.map(r => {
+        const isTradeInName = r.type === 'trades_in_names';
+        const badgeClass = isTradeInName ? 'badge-red' : 'badge-blue';
+        const badgeLabel = isTradeInName ? `Trade in Name: "${r.highlight}"` : `Name in Trade: "${r.highlight}"`;
+
+        return `
+          <tr>
+            <td><span class="badge-highlight badge-gold">${r.year}</span></td>
+            <td>
+              <a href="index.html#street=${encodeURIComponent(r.street)}" class="street-link">${r.street}</a>
+              ${r.house_number ? `<span style="color: var(--text-muted);">#${r.house_number}</span>` : ''}
+            </td>
+            <td><strong style="color: #0F172A;">${r.fullName}</strong></td>
+            <td><span class="badge-highlight ${badgeClass}">${badgeLabel}</span></td>
+            <td><code>${r.trade}</code></td>
+            <td>
+              <a href="index.html#street=${encodeURIComponent(r.street)}" class="header-btn" style="padding: 3px 8px; font-size: 0.75rem;">View Street</a>
+            </td>
+          </tr>
+        `;
+      }).join('');
+    }
+
+    function filterAnomalyTable() {
+      const q = document.getElementById('anomaly-search').value.toLowerCase().trim();
+      const cat = document.getElementById('anomaly-category-filter').value;
+
+      let filtered = ALL_ANOMALIES;
+      if (cat !== 'all') {
+        filtered = filtered.filter(x => x.type === cat);
+      }
+      if (q) {
+        filtered = filtered.filter(x => 
+          x.fullName.toLowerCase().includes(q) ||
+          x.street.toLowerCase().includes(q) ||
+          x.highlight.toLowerCase().includes(q) ||
+          x.trade.toLowerCase().includes(q) ||
+          x.year.includes(q)
+        );
+      }
+      renderAnomalyTable(filtered.slice(0, 50));
+    }
+
+    // Initialize
+    loadStatsData();
+  </script>
+</body>
+</html>

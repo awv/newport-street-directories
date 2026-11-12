@@ -1,0 +1,3344 @@
+{
+  "meta": {
+    "total_records": 331328,
+    "total_with_trade": 224026,
+    "pct_with_trade": 67.6,
+    "total_streets": 1029,
+    "total_years": 27,
+    "years_span": "1876\u20131936",
+    "unique_trade_strings": 29952
+  },
+  "yearly_overview": [
+    {
+      "year": "1876",
+      "total": 1,
+      "with_trade": 1,
+      "pct": 100.0,
+      "trades_in_names": 0,
+      "names_in_trades": 0
+    },
+    {
+      "year": "1878",
+      "total": 4686,
+      "with_trade": 3679,
+      "pct": 78.5,
+      "trades_in_names": 5,
+      "names_in_trades": 5
+    },
+    {
+      "year": "1882",
+      "total": 5757,
+      "with_trade": 4367,
+      "pct": 75.9,
+      "trades_in_names": 2,
+      "names_in_trades": 17
+    },
+    {
+      "year": "1886",
+      "total": 7799,
+      "with_trade": 6013,
+      "pct": 77.1,
+      "trades_in_names": 4,
+      "names_in_trades": 12
+    },
+    {
+      "year": "1887",
+      "total": 6824,
+      "with_trade": 5192,
+      "pct": 76.1,
+      "trades_in_names": 18,
+      "names_in_trades": 23
+    },
+    {
+      "year": "1890",
+      "total": 9149,
+      "with_trade": 6786,
+      "pct": 74.2,
+      "trades_in_names": 30,
+      "names_in_trades": 23
+    },
+    {
+      "year": "1892",
+      "total": 9331,
+      "with_trade": 6944,
+      "pct": 74.4,
+      "trades_in_names": 14,
+      "names_in_trades": 10
+    },
+    {
+      "year": "1893",
+      "total": 9863,
+      "with_trade": 7420,
+      "pct": 75.2,
+      "trades_in_names": 6,
+      "names_in_trades": 17
+    },
+    {
+      "year": "1894",
+      "total": 10096,
+      "with_trade": 7564,
+      "pct": 74.9,
+      "trades_in_names": 8,
+      "names_in_trades": 23
+    },
+    {
+      "year": "1895",
+      "total": 10544,
+      "with_trade": 7747,
+      "pct": 73.5,
+      "trades_in_names": 43,
+      "names_in_trades": 17
+    },
+    {
+      "year": "1898",
+      "total": 12030,
+      "with_trade": 8461,
+      "pct": 70.3,
+      "trades_in_names": 11,
+      "names_in_trades": 27
+    },
+    {
+      "year": "1899",
+      "total": 11837,
+      "with_trade": 8185,
+      "pct": 69.1,
+      "trades_in_names": 10,
+      "names_in_trades": 12
+    },
+    {
+      "year": "1900",
+      "total": 12387,
+      "with_trade": 8734,
+      "pct": 70.5,
+      "trades_in_names": 20,
+      "names_in_trades": 35
+    },
+    {
+      "year": "1901",
+      "total": 12799,
+      "with_trade": 8977,
+      "pct": 70.1,
+      "trades_in_names": 3,
+      "names_in_trades": 15
+    },
+    {
+      "year": "1902",
+      "total": 12835,
+      "with_trade": 9163,
+      "pct": 71.4,
+      "trades_in_names": 19,
+      "names_in_trades": 26
+    },
+    {
+      "year": "1903",
+      "total": 13595,
+      "with_trade": 9785,
+      "pct": 72.0,
+      "trades_in_names": 20,
+      "names_in_trades": 46
+    },
+    {
+      "year": "1905",
+      "total": 1,
+      "with_trade": 0,
+      "pct": 0.0,
+      "trades_in_names": 0,
+      "names_in_trades": 0
+    },
+    {
+      "year": "1906",
+      "total": 15012,
+      "with_trade": 10425,
+      "pct": 69.4,
+      "trades_in_names": 16,
+      "names_in_trades": 108
+    },
+    {
+      "year": "1908",
+      "total": 15392,
+      "with_trade": 10541,
+      "pct": 68.5,
+      "trades_in_names": 16,
+      "names_in_trades": 120
+    },
+    {
+      "year": "1910",
+      "total": 16197,
+      "with_trade": 10219,
+      "pct": 63.1,
+      "trades_in_names": 37,
+      "names_in_trades": 45
+    },
+    {
+      "year": "1913",
+      "total": 16969,
+      "with_trade": 10617,
+      "pct": 62.6,
+      "trades_in_names": 38,
+      "names_in_trades": 47
+    },
+    {
+      "year": "1915",
+      "total": 17242,
+      "with_trade": 10974,
+      "pct": 63.6,
+      "trades_in_names": 14,
+      "names_in_trades": 61
+    },
+    {
+      "year": "1920",
+      "total": 17465,
+      "with_trade": 11078,
+      "pct": 63.4,
+      "trades_in_names": 35,
+      "names_in_trades": 42
+    },
+    {
+      "year": "1924",
+      "total": 18488,
+      "with_trade": 11461,
+      "pct": 62.0,
+      "trades_in_names": 17,
+      "names_in_trades": 35
+    },
+    {
+      "year": "1925",
+      "total": 19063,
+      "with_trade": 12047,
+      "pct": 63.2,
+      "trades_in_names": 42,
+      "names_in_trades": 55
+    },
+    {
+      "year": "1927",
+      "total": 21237,
+      "with_trade": 13997,
+      "pct": 65.9,
+      "trades_in_names": 25,
+      "names_in_trades": 81
+    },
+    {
+      "year": "1936",
+      "total": 24729,
+      "with_trade": 13649,
+      "pct": 55.2,
+      "trades_in_names": 12,
+      "names_in_trades": 16
+    }
+  ],
+  "trades_in_names": {
+    "total_detected": 465,
+    "in_forename_count": 173,
+    "in_surname_count": 292,
+    "top_trapped_trades": [
+      {
+        "trade": "Labourer",
+        "count": 174
+      },
+      {
+        "trade": "Factory",
+        "count": 29
+      },
+      {
+        "trade": "Ironworker",
+        "count": 23
+      },
+      {
+        "trade": "Hairdresser",
+        "count": 17
+      },
+      {
+        "trade": "Engineer",
+        "count": 13
+      },
+      {
+        "trade": "Plasterer",
+        "count": 13
+      },
+      {
+        "trade": "Clerk",
+        "count": 12
+      },
+      {
+        "trade": "Boilermaker",
+        "count": 11
+      },
+      {
+        "trade": "Inspector",
+        "count": 11
+      },
+      {
+        "trade": "Tobacconist",
+        "count": 11
+      },
+      {
+        "trade": "Brewer",
+        "count": 10
+      },
+      {
+        "trade": "Coal Trimmer",
+        "count": 9
+      },
+      {
+        "trade": "Blacksmith",
+        "count": 9
+      },
+      {
+        "trade": "Engine Driver",
+        "count": 8
+      },
+      {
+        "trade": "Greengrocer",
+        "count": 8
+      },
+      {
+        "trade": "Surveyor",
+        "count": 8
+      },
+      {
+        "trade": "Nurse",
+        "count": 7
+      },
+      {
+        "trade": "Shoemaker",
+        "count": 7
+      },
+      {
+        "trade": "Pilot",
+        "count": 7
+      },
+      {
+        "trade": "Builder",
+        "count": 7
+      },
+      {
+        "trade": "Shipwright",
+        "count": 5
+      },
+      {
+        "trade": "Architect",
+        "count": 5
+      },
+      {
+        "trade": "Mariner",
+        "count": 5
+      },
+      {
+        "trade": "Platelayer",
+        "count": 5
+      },
+      {
+        "trade": "Widow",
+        "count": 4
+      },
+      {
+        "trade": "Manager",
+        "count": 4
+      },
+      {
+        "trade": "Fruiterer",
+        "count": 3
+      },
+      {
+        "trade": "Typewriter",
+        "count": 3
+      },
+      {
+        "trade": "G.W.R",
+        "count": 3
+      },
+      {
+        "trade": "Confectioner",
+        "count": 2
+      }
+    ],
+    "by_year": {
+      "1878": 5,
+      "1882": 2,
+      "1886": 4,
+      "1887": 18,
+      "1890": 30,
+      "1892": 14,
+      "1893": 6,
+      "1894": 8,
+      "1895": 43,
+      "1898": 11,
+      "1899": 10,
+      "1900": 20,
+      "1901": 3,
+      "1902": 19,
+      "1903": 20,
+      "1906": 16,
+      "1908": 16,
+      "1910": 37,
+      "1913": 38,
+      "1915": 14,
+      "1920": 35,
+      "1924": 17,
+      "1925": 42,
+      "1927": 25,
+      "1936": 12
+    },
+    "samples": [
+      {
+        "year": "1936",
+        "street": "Coleridge Road",
+        "house_number": "268",
+        "surname": "Griffiths",
+        "forename": "Nurse P B Sc M. B B. A",
+        "trade": "",
+        "found": "Nurse",
+        "field": "forename"
+      },
+      {
+        "year": "1936",
+        "street": "Crescent Road",
+        "house_number": "8",
+        "surname": "Ditto",
+        "forename": "[Bootmaker]",
+        "trade": "",
+        "found": "Bootmaker",
+        "field": "forename"
+      },
+      {
+        "year": "1936",
+        "street": "Mellon Street",
+        "house_number": "",
+        "surname": "Clothing",
+        "forename": "Factory",
+        "trade": "",
+        "found": "Factory",
+        "field": "forename"
+      },
+      {
+        "year": "1936",
+        "street": "Milner Street",
+        "house_number": "34",
+        "surname": "Ditto",
+        "forename": "[Ironworker]",
+        "trade": "",
+        "found": "Ironworker",
+        "field": "forename"
+      },
+      {
+        "year": "1936",
+        "street": "Raglan Street",
+        "house_number": "22",
+        "surname": "Matthias",
+        "forename": "P. W. docker Ja",
+        "trade": "",
+        "found": "Docker",
+        "field": "forename"
+      },
+      {
+        "year": "1936",
+        "street": "Stow Hill",
+        "house_number": "38",
+        "surname": "Walters",
+        "forename": "Nurse K. M",
+        "trade": "",
+        "found": "Nurse",
+        "field": "forename"
+      },
+      {
+        "year": "1936",
+        "street": "Vivian Road",
+        "house_number": "19",
+        "surname": "Ditto",
+        "forename": "[Ironworker]",
+        "trade": "",
+        "found": "Ironworker",
+        "field": "forename"
+      },
+      {
+        "year": "1936",
+        "street": "Vivian Road",
+        "house_number": "27",
+        "surname": "Ditto",
+        "forename": "[Ironworker]",
+        "trade": "",
+        "found": "Ironworker",
+        "field": "forename"
+      },
+      {
+        "year": "1936",
+        "street": "Vivian Road",
+        "house_number": "29",
+        "surname": "Ditto",
+        "forename": "[Ironworker]",
+        "trade": "",
+        "found": "Ironworker",
+        "field": "forename"
+      },
+      {
+        "year": "1936",
+        "street": "Vivian Road",
+        "house_number": "31",
+        "surname": "Ditto",
+        "forename": "[Ironworker]",
+        "trade": "",
+        "found": "Ironworker",
+        "field": "forename"
+      },
+      {
+        "year": "1878",
+        "street": "Graham Street",
+        "house_number": "6",
+        "surname": "Nicholls",
+        "forename": "widow",
+        "trade": "",
+        "found": "Widow",
+        "field": "forename"
+      },
+      {
+        "year": "1878",
+        "street": "Lewis Street",
+        "house_number": "3",
+        "surname": "M. J.",
+        "forename": "Brewer",
+        "trade": "",
+        "found": "Brewer",
+        "field": "forename"
+      },
+      {
+        "year": "1878",
+        "street": "Lewis Street",
+        "house_number": "19",
+        "surname": "James",
+        "forename": "Brewer",
+        "trade": "Labourer",
+        "found": "Brewer",
+        "field": "forename"
+      },
+      {
+        "year": "1878",
+        "street": "Portland Street",
+        "house_number": "",
+        "surname": "",
+        "forename": "Matthews's Nail factory",
+        "trade": "",
+        "found": "Factory",
+        "field": "forename"
+      },
+      {
+        "year": "1882",
+        "street": "Maddox Close",
+        "house_number": "",
+        "surname": "",
+        "forename": "Dos Works Nail Factory J. J. Cordes and Co.",
+        "trade": "",
+        "found": "Factory",
+        "field": "forename"
+      },
+      {
+        "year": "1882",
+        "street": "Marshes Road",
+        "house_number": "",
+        "surname": "Gilliam",
+        "forename": "H. tailor",
+        "trade": "",
+        "found": "Tailor",
+        "field": "forename"
+      },
+      {
+        "year": "1886",
+        "street": "Commercial Wharf",
+        "house_number": "2",
+        "surname": "",
+        "forename": "Dock engineer's office",
+        "trade": "",
+        "found": "Engineer",
+        "field": "forename"
+      },
+      {
+        "year": "1887",
+        "street": "David Street",
+        "house_number": "20",
+        "surname": "Atherton",
+        "forename": "H.confectioner",
+        "trade": "",
+        "found": "Confectioner",
+        "field": "forename"
+      },
+      {
+        "year": "1887",
+        "street": "Town Dock",
+        "house_number": "",
+        "surname": "",
+        "forename": "Dock Supt. and Engineer's office",
+        "trade": "",
+        "found": "Engineer",
+        "field": "forename"
+      },
+      {
+        "year": "1887",
+        "street": "Jeddo Street",
+        "house_number": "30",
+        "surname": "Chandler",
+        "forename": "G.coal trimmer",
+        "trade": "",
+        "found": "Coal Trimmer",
+        "field": "forename"
+      },
+      {
+        "year": "1887",
+        "street": "John Street",
+        "house_number": "1",
+        "surname": "Critchley",
+        "forename": "G.factory hand",
+        "trade": "",
+        "found": "Factory",
+        "field": "forename"
+      },
+      {
+        "year": "1890",
+        "street": "Austin Friars",
+        "house_number": "",
+        "surname": "",
+        "forename": "Cemetery clerk's office",
+        "trade": "",
+        "found": "Clerk",
+        "field": "forename"
+      },
+      {
+        "year": "1890",
+        "street": "Bailey Street",
+        "house_number": "",
+        "surname": "",
+        "forename": "T.shoemaker",
+        "trade": "",
+        "found": "Shoemaker",
+        "field": "forename"
+      },
+      {
+        "year": "1890",
+        "street": "Commercial Street",
+        "house_number": "",
+        "surname": "",
+        "forename": "fruiterer etc.",
+        "trade": "",
+        "found": "Fruiterer",
+        "field": "forename"
+      },
+      {
+        "year": "1890",
+        "street": "Dock Street",
+        "house_number": "",
+        "surname": "R.",
+        "forename": "consulting engineer and marine sur",
+        "trade": "Armstrong",
+        "found": "Engineer",
+        "field": "forename"
+      },
+      {
+        "year": "1890",
+        "street": "Maddox Close",
+        "house_number": "",
+        "surname": "",
+        "forename": "Dos Works Nail Factory - J. J. Cordes & Co. Ltd.",
+        "trade": "",
+        "found": "Factory",
+        "field": "forename"
+      },
+      {
+        "year": "1890",
+        "street": "Marshes Road",
+        "house_number": "7",
+        "surname": "R. B.",
+        "forename": "Moulder's Arms-ter.",
+        "trade": "Millington, fishman",
+        "found": "Moulder",
+        "field": "forename"
+      },
+      {
+        "year": "1890",
+        "street": "Potter Street",
+        "house_number": "",
+        "surname": "",
+        "forename": "Matthews' nail factory",
+        "trade": "",
+        "found": "Factory",
+        "field": "forename"
+      },
+      {
+        "year": "1892",
+        "street": "Baneswell Road",
+        "house_number": "",
+        "surname": "",
+        "forename": "Brecon and Merthyr Rly. Co.'s Engineer's office",
+        "trade": "",
+        "found": "Engineer",
+        "field": "forename"
+      },
+      {
+        "year": "1892",
+        "street": "Caerau Road",
+        "house_number": "",
+        "surname": "Compton",
+        "forename": "C. E., architect",
+        "trade": "",
+        "found": "Architect",
+        "field": "forename"
+      },
+      {
+        "year": "1892",
+        "street": "Cardiff Road",
+        "house_number": "",
+        "surname": "King",
+        "forename": "C. H., inspector g.w.r.",
+        "trade": "",
+        "found": "Inspector",
+        "field": "forename"
+      },
+      {
+        "year": "1892",
+        "street": "Cardiff Road",
+        "house_number": "",
+        "surname": "Ridge",
+        "forename": "Rd., inspector g.w.r.",
+        "trade": "",
+        "found": "Inspector",
+        "field": "forename"
+      },
+      {
+        "year": "1892",
+        "street": "West End Buildings",
+        "house_number": "151",
+        "surname": "&c",
+        "forename": "J.confectioner",
+        "trade": "Collier",
+        "found": "Confectioner",
+        "field": "forename"
+      },
+      {
+        "year": "1892",
+        "street": "Crindau Road",
+        "house_number": "",
+        "surname": "J. D.",
+        "forename": "manager's house",
+        "trade": "Brown",
+        "found": "Manager",
+        "field": "forename"
+      },
+      {
+        "year": "1892",
+        "street": "Devon Place",
+        "house_number": "",
+        "surname": "",
+        "forename": "Engineer's Depot",
+        "trade": "G.W.R.",
+        "found": "Engineer",
+        "field": "forename"
+      },
+      {
+        "year": "1936",
+        "street": "Courtybella Terrace",
+        "house_number": "",
+        "surname": "Engineers & Boilermakers",
+        "forename": "",
+        "trade": "",
+        "found": "Boilermaker",
+        "field": "surname"
+      },
+      {
+        "year": "1936",
+        "street": "High Street",
+        "house_number": "",
+        "surname": "Tobacconists & Hairdressers",
+        "forename": "",
+        "trade": "",
+        "found": "Hairdresser",
+        "field": "surname"
+      },
+      {
+        "year": "1878",
+        "street": "David Street",
+        "house_number": "6",
+        "surname": "engine driver",
+        "forename": "Counsell",
+        "trade": "",
+        "found": "Engine Driver",
+        "field": "surname"
+      },
+      {
+        "year": "1886",
+        "street": "Cross Lane",
+        "house_number": "",
+        "surname": "shipwrights",
+        "forename": "Lane and Son",
+        "trade": "",
+        "found": "Shipwright",
+        "field": "surname"
+      },
+      {
+        "year": "1886",
+        "street": "Lewis Street",
+        "house_number": "",
+        "surname": "engine driver",
+        "forename": "Bonham",
+        "trade": "",
+        "found": "Engine Driver",
+        "field": "surname"
+      },
+      {
+        "year": "1886",
+        "street": "Tredegar wharf",
+        "house_number": "",
+        "surname": "Davison W.R.& Co. engineers boilermakers &c.",
+        "forename": "",
+        "trade": "",
+        "found": "Boilermaker",
+        "field": "surname"
+      },
+      {
+        "year": "1887",
+        "street": "Alexandra Road",
+        "house_number": "2",
+        "surname": "hairdresser",
+        "forename": "J. W. Green",
+        "trade": "",
+        "found": "Hairdresser",
+        "field": "surname"
+      },
+      {
+        "year": "1887",
+        "street": "Alexandra Road",
+        "house_number": "",
+        "surname": "greengrocer",
+        "forename": "Rose Duedale",
+        "trade": "",
+        "found": "Greengrocer",
+        "field": "surname"
+      },
+      {
+        "year": "1887",
+        "street": "Alexandra Road",
+        "house_number": "",
+        "surname": "labourer",
+        "forename": "Morris Nash",
+        "trade": "",
+        "found": "Labourer",
+        "field": "surname"
+      },
+      {
+        "year": "1887",
+        "street": "Alexandra Road",
+        "house_number": "",
+        "surname": "labourer",
+        "forename": "James Tyldesley",
+        "trade": "",
+        "found": "Labourer",
+        "field": "surname"
+      },
+      {
+        "year": "1887",
+        "street": "Alfred Street",
+        "house_number": "3",
+        "surname": "labourer",
+        "forename": "Henry Sims",
+        "trade": "",
+        "found": "Labourer",
+        "field": "surname"
+      },
+      {
+        "year": "1887",
+        "street": "Alfred Street",
+        "house_number": "4",
+        "surname": "labourer",
+        "forename": "George Hillier",
+        "trade": "",
+        "found": "Labourer",
+        "field": "surname"
+      },
+      {
+        "year": "1887",
+        "street": "Alfred Street",
+        "house_number": "12",
+        "surname": "labourer",
+        "forename": "Stephen Harris",
+        "trade": "",
+        "found": "Labourer",
+        "field": "surname"
+      },
+      {
+        "year": "1887",
+        "street": "Alice Street",
+        "house_number": "13",
+        "surname": "labourer",
+        "forename": "Thos. Lynch",
+        "trade": "",
+        "found": "Labourer",
+        "field": "surname"
+      },
+      {
+        "year": "1887",
+        "street": "Alice Street",
+        "house_number": "19",
+        "surname": "shipwright",
+        "forename": "Robt. Pearce",
+        "trade": "",
+        "found": "Shipwright",
+        "field": "surname"
+      }
+    ]
+  },
+  "names_in_trades": {
+    "total_detected": 918,
+    "initials_as_trade_count": 210,
+    "forenames_as_trade_count": 708,
+    "top_names": [
+      {
+        "name": "Williams",
+        "count": 63
+      },
+      {
+        "name": "Jones",
+        "count": 46
+      },
+      {
+        "name": "Davies",
+        "count": 42
+      },
+      {
+        "name": "Evans",
+        "count": 42
+      },
+      {
+        "name": "Henry",
+        "count": 39
+      },
+      {
+        "name": "John",
+        "count": 33
+      },
+      {
+        "name": "Thomas",
+        "count": 29
+      },
+      {
+        "name": "Lewis",
+        "count": 28
+      },
+      {
+        "name": "James",
+        "count": 23
+      },
+      {
+        "name": "George",
+        "count": 23
+      },
+      {
+        "name": "Geo.",
+        "count": 21
+      },
+      {
+        "name": "Elizabeth",
+        "count": 19
+      },
+      {
+        "name": "Llewellyn",
+        "count": 18
+      },
+      {
+        "name": "Mary",
+        "count": 17
+      },
+      {
+        "name": "William",
+        "count": 17
+      },
+      {
+        "name": "Joseph",
+        "count": 16
+      },
+      {
+        "name": "Samuel",
+        "count": 15
+      },
+      {
+        "name": "Jane",
+        "count": 13
+      },
+      {
+        "name": "COX",
+        "count": 12
+      },
+      {
+        "name": "Jas.",
+        "count": 11
+      },
+      {
+        "name": "Thos.",
+        "count": 11
+      },
+      {
+        "name": "H",
+        "count": 10
+      },
+      {
+        "name": "Sarah",
+        "count": 10
+      },
+      {
+        "name": "DVR",
+        "count": 10
+      },
+      {
+        "name": "Hy.",
+        "count": 9
+      },
+      {
+        "name": "ANN",
+        "count": 9
+      },
+      {
+        "name": "Arthur",
+        "count": 9
+      },
+      {
+        "name": "V",
+        "count": 9
+      },
+      {
+        "name": "Edward",
+        "count": 9
+      },
+      {
+        "name": "Wm.",
+        "count": 9
+      }
+    ],
+    "by_year": {
+      "1878": 5,
+      "1882": 17,
+      "1886": 12,
+      "1887": 23,
+      "1890": 23,
+      "1892": 10,
+      "1893": 17,
+      "1894": 23,
+      "1895": 17,
+      "1898": 27,
+      "1899": 12,
+      "1900": 35,
+      "1901": 15,
+      "1902": 26,
+      "1903": 46,
+      "1906": 108,
+      "1908": 120,
+      "1910": 45,
+      "1913": 47,
+      "1915": 61,
+      "1920": 42,
+      "1924": 35,
+      "1925": 55,
+      "1927": 81,
+      "1936": 16
+    },
+    "samples": [
+      {
+        "year": "1936",
+        "street": "Barrack Hill",
+        "house_number": "130",
+        "surname": "John Stockden Co",
+        "forename": "",
+        "trade": "ok"
+      },
+      {
+        "year": "1936",
+        "street": "Bolt Street",
+        "house_number": "24",
+        "surname": "Percy Whittaker Co",
+        "forename": "",
+        "trade": "ok"
+      },
+      {
+        "year": "1936",
+        "street": "Bridge Street",
+        "house_number": "69a",
+        "surname": "Pullars Of Perth",
+        "forename": "Dy",
+        "trade": "Ers"
+      },
+      {
+        "year": "1936",
+        "street": "Eton Road",
+        "house_number": "18",
+        "surname": "J. R St Dayman Co",
+        "forename": "",
+        "trade": "Rri"
+      },
+      {
+        "year": "1936",
+        "street": "Fields Park Road",
+        "house_number": "11",
+        "surname": "Samuel",
+        "forename": "W. Astley Cl",
+        "trade": "Yne"
+      },
+      {
+        "year": "1936",
+        "street": "Fotheringham Place",
+        "house_number": "11",
+        "surname": "Samuel",
+        "forename": "W. Astley Cl",
+        "trade": "Yne"
+      },
+      {
+        "year": "1936",
+        "street": "Llanthewy Road",
+        "house_number": "69",
+        "surname": "Davies",
+        "forename": "W. A Pe n y",
+        "trade": "Dre"
+      },
+      {
+        "year": "1936",
+        "street": "Oswald Road",
+        "house_number": "31",
+        "surname": "H. E Griffiths Co",
+        "forename": "",
+        "trade": "ok"
+      },
+      {
+        "year": "1936",
+        "street": "Palm Square",
+        "house_number": "5",
+        "surname": "Gardner",
+        "forename": "George T Ki a",
+        "trade": "Ora"
+      },
+      {
+        "year": "1936",
+        "street": "Queen's Hill Crescent",
+        "house_number": "17",
+        "surname": "Regan",
+        "forename": "Miss Margaret Ca irn",
+        "trade": "Top"
+      },
+      {
+        "year": "1936",
+        "street": "Victoria Avenue",
+        "house_number": "126",
+        "surname": "Edwin C Powell Co",
+        "forename": "",
+        "trade": "mp"
+      },
+      {
+        "year": "1936",
+        "street": "Woodland Park Road",
+        "house_number": "24",
+        "surname": "Prof Of Music",
+        "forename": "Er",
+        "trade": "Van"
+      },
+      {
+        "year": "1936",
+        "street": "York Road",
+        "house_number": "8",
+        "surname": "Slocombe",
+        "forename": "Edwin J",
+        "trade": "\u8868\u73fe"
+      },
+      {
+        "year": "1936",
+        "street": "Malpas Road",
+        "house_number": "",
+        "surname": "Locke",
+        "forename": "W. H Ki a",
+        "trade": "Ora"
+      },
+      {
+        "year": "1936",
+        "street": "Stow Hill",
+        "house_number": "150",
+        "surname": "Webb",
+        "forename": "A. E Br yn y",
+        "trade": "Mor"
+      },
+      {
+        "year": "1882",
+        "street": "Alfred Street",
+        "house_number": "12",
+        "surname": "Harris",
+        "forename": "Stephen",
+        "trade": "Lbr"
+      },
+      {
+        "year": "1882",
+        "street": "Alfred Street",
+        "house_number": "15",
+        "surname": "Hunter",
+        "forename": "Wm. C.",
+        "trade": "h"
+      },
+      {
+        "year": "1882",
+        "street": "Barrack Hill",
+        "house_number": "",
+        "surname": "Edwards",
+        "forename": "Jno. Randolph",
+        "trade": "Vil"
+      },
+      {
+        "year": "1882",
+        "street": "Courtybella Street",
+        "house_number": "14",
+        "surname": "Pritchard",
+        "forename": "Elizabeth",
+        "trade": "Wid"
+      },
+      {
+        "year": "1882",
+        "street": "Court-y-bella Terrace",
+        "house_number": "7",
+        "surname": "Enwright",
+        "forename": "Catherine",
+        "trade": "Wid"
+      },
+      {
+        "year": "1882",
+        "street": "Dean Street",
+        "house_number": "34",
+        "surname": "Nancekievill",
+        "forename": "Chs. Hy.",
+        "trade": "Sad"
+      },
+      {
+        "year": "1882",
+        "street": "High Street, Pill",
+        "house_number": "24",
+        "surname": "Mulcahy",
+        "forename": "Margaret",
+        "trade": "Wid"
+      },
+      {
+        "year": "1882",
+        "street": "King Street",
+        "house_number": "3",
+        "surname": "Thomas",
+        "forename": "Magdalen",
+        "trade": "Wdw"
+      },
+      {
+        "year": "1882",
+        "street": "Marshes Road",
+        "house_number": "49",
+        "surname": "Merchant",
+        "forename": "Edward",
+        "trade": "Lib"
+      },
+      {
+        "year": "1882",
+        "street": "North Street",
+        "house_number": "41",
+        "surname": "Donovan",
+        "forename": "Catherine",
+        "trade": "Wid"
+      },
+      {
+        "year": "1936",
+        "street": "Rugby Road",
+        "house_number": "8",
+        "surname": "Barrett",
+        "forename": "Charles",
+        "trade": "Edgar"
+      },
+      {
+        "year": "1878",
+        "street": "Clytha Park Road",
+        "house_number": "",
+        "surname": "Robt. P.",
+        "forename": "The Ferns",
+        "trade": "Jones"
+      },
+      {
+        "year": "1878",
+        "street": "Clytha Park Road",
+        "house_number": "",
+        "surname": "Ed. F.",
+        "forename": "Rosemont",
+        "trade": "Davies"
+      },
+      {
+        "year": "1878",
+        "street": "Gold Tops",
+        "house_number": "",
+        "surname": "Benjamin",
+        "forename": "Arlington villa",
+        "trade": "Evans"
+      },
+      {
+        "year": "1878",
+        "street": "Gold Tops",
+        "house_number": "",
+        "surname": "E. J. Cox",
+        "forename": "Belle Vue",
+        "trade": "Davies"
+      },
+      {
+        "year": "1878",
+        "street": "Windsor Crescent",
+        "house_number": "",
+        "surname": "Morgan",
+        "forename": "Mabel villa",
+        "trade": "Davies"
+      },
+      {
+        "year": "1882",
+        "street": "Commercial Road",
+        "house_number": "46",
+        "surname": "Wm.",
+        "forename": "Welcome Home",
+        "trade": "Llewellyn"
+      },
+      {
+        "year": "1882",
+        "street": "Commercial Road",
+        "house_number": "162",
+        "surname": "Horwood",
+        "forename": "G.",
+        "trade": "Joseph"
+      },
+      {
+        "year": "1882",
+        "street": "Commercial Wharf",
+        "house_number": "10",
+        "surname": "",
+        "forename": "",
+        "trade": "Thomas"
+      },
+      {
+        "year": "1882",
+        "street": "Dock-street",
+        "house_number": "103",
+        "surname": "Thos.",
+        "forename": "Hope and Anchor",
+        "trade": "Davies"
+      },
+      {
+        "year": "1882",
+        "street": "Gold Tops",
+        "house_number": "",
+        "surname": "Benjamin",
+        "forename": "[villa]",
+        "trade": "Evans"
+      },
+      {
+        "year": "1882",
+        "street": "Gold Tops",
+        "house_number": "",
+        "surname": "Alfred",
+        "forename": "St. Ia vils",
+        "trade": "Williams"
+      },
+      {
+        "year": "1886",
+        "street": "Caerau Road",
+        "house_number": "",
+        "surname": "D. Lloyd",
+        "forename": "Verwood v",
+        "trade": "Davies"
+      },
+      {
+        "year": "1886",
+        "street": "Clarence Place",
+        "house_number": "",
+        "surname": "Hy. Russell",
+        "forename": "J.P.",
+        "trade": "Evans"
+      },
+      {
+        "year": "1886",
+        "street": "Devon Road",
+        "house_number": "",
+        "surname": "Hry.",
+        "forename": "Sandford ho",
+        "trade": "Williams"
+      },
+      {
+        "year": "1886",
+        "street": "Dock Street",
+        "house_number": "",
+        "surname": "Sidney",
+        "forename": "Steam Packet Railway Hotel",
+        "trade": "Jones"
+      },
+      {
+        "year": "1886",
+        "street": "Kensington Place",
+        "house_number": "10",
+        "surname": "Evans",
+        "forename": "T.",
+        "trade": "Llewellyn"
+      },
+      {
+        "year": "1887",
+        "street": "Allt-yr-yn",
+        "house_number": "",
+        "surname": "Whittaker",
+        "forename": "",
+        "trade": "Thomas"
+      },
+      {
+        "year": "1887",
+        "street": "Caerau Park",
+        "house_number": "",
+        "surname": "Absolam",
+        "forename": "Cheltenham house",
+        "trade": "Davies"
+      },
+      {
+        "year": "1887",
+        "street": "Caerau Park",
+        "house_number": "",
+        "surname": "G. H.",
+        "forename": "Pencraig",
+        "trade": "Llewellyn"
+      },
+      {
+        "year": "1887",
+        "street": "Caerau Park",
+        "house_number": "",
+        "surname": "Wm.",
+        "forename": "Hampton villa",
+        "trade": "Jones"
+      },
+      {
+        "year": "1887",
+        "street": "Chepstow Road",
+        "house_number": "",
+        "surname": "Jno. T.",
+        "forename": "Melver-ton villa",
+        "trade": "Williams"
+      },
+      {
+        "year": "1887",
+        "street": "Chepstow Road",
+        "house_number": "",
+        "surname": "John",
+        "forename": "Claremont",
+        "trade": "Williams"
+      },
+      {
+        "year": "1887",
+        "street": "Clifton Place",
+        "house_number": "11",
+        "surname": "Pickford",
+        "forename": "William",
+        "trade": "Henry"
+      },
+      {
+        "year": "1887",
+        "street": "Cross Street",
+        "house_number": "",
+        "surname": "Sidney",
+        "forename": "Ivy cot.",
+        "trade": "Evans"
+      }
+    ]
+  },
+  "top_trades": [
+    {
+      "trade": "Labourer",
+      "count": 26657,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Ironworker",
+      "count": 7612,
+      "earliest": 1882,
+      "latest": 1936
+    },
+    {
+      "trade": "Carpenter",
+      "count": 5440,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "G.W.R.",
+      "count": 4146,
+      "earliest": 1886,
+      "latest": 1936
+    },
+    {
+      "trade": "Mason",
+      "count": 3455,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Fitter",
+      "count": 3420,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Coal Trimmer",
+      "count": 3218,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Haulier",
+      "count": 3187,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Clerk",
+      "count": 3152,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Engine Driver",
+      "count": 3103,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Void",
+      "count": 2866,
+      "earliest": 1878,
+      "latest": 1927
+    },
+    {
+      "trade": "Painter",
+      "count": 2757,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Grocer",
+      "count": 2643,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Seaman",
+      "count": 2075,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Butcher",
+      "count": 2002,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Tailor",
+      "count": 1941,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Smith",
+      "count": 1845,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Engineer",
+      "count": 1726,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Plasterer",
+      "count": 1665,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Guard",
+      "count": 1599,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Boilermaker",
+      "count": 1570,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Baker",
+      "count": 1505,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Moulder",
+      "count": 1469,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Gardener",
+      "count": 1393,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Shop",
+      "count": 1362,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Foreman",
+      "count": 1338,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Fireman",
+      "count": 1231,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Traveller",
+      "count": 1193,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Greengrocer",
+      "count": 1176,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Bootmaker",
+      "count": 1166,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Widow",
+      "count": 1087,
+      "earliest": 1878,
+      "latest": 1927
+    },
+    {
+      "trade": "Builder",
+      "count": 1084,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Bricklayer",
+      "count": 1060,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Hairdresser",
+      "count": 1014,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Platelayer",
+      "count": 1010,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Blacksmith",
+      "count": 963,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Manager",
+      "count": 902,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Signalman",
+      "count": 902,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Shopkeeper",
+      "count": 899,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Confectioner",
+      "count": 871,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Rigger",
+      "count": 845,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Shoemaker",
+      "count": 834,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Hobbler",
+      "count": 827,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Plumber",
+      "count": 819,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Shipwright",
+      "count": 806,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Insurance Agent",
+      "count": 777,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Police",
+      "count": 773,
+      "earliest": 1878,
+      "latest": 1927
+    },
+    {
+      "trade": "Draper",
+      "count": 727,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Mariner",
+      "count": 723,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Agent",
+      "count": 678,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Postman",
+      "count": 668,
+      "earliest": 1882,
+      "latest": 1936
+    },
+    {
+      "trade": "Sawyer",
+      "count": 660,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Pilot",
+      "count": 647,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Porter",
+      "count": 628,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Crane Driver",
+      "count": 568,
+      "earliest": 1886,
+      "latest": 1936
+    },
+    {
+      "trade": "Driver",
+      "count": 562,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Master Mariner",
+      "count": 529,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Printer",
+      "count": 520,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Sailor",
+      "count": 515,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
+      "trade": "Mechanic",
+      "count": 499,
+      "earliest": 1878,
+      "latest": 1936
+    }
+  ],
+  "decade_trends": {
+    "Labourer": {
+      "1870s": 289,
+      "1880s": 1669,
+      "1890s": 6811,
+      "1900s": 4877,
+      "1910s": 3742,
+      "1920s": 5213,
+      "1930s": 1395
+    },
+    "Ironworker": {
+      "1870s": 0,
+      "1880s": 15,
+      "1890s": 55,
+      "1900s": 318,
+      "1910s": 2055,
+      "1920s": 3181,
+      "1930s": 1026
+    },
+    "Steelworker": {
+      "1870s": 0,
+      "1880s": 0,
+      "1890s": 0,
+      "1900s": 1,
+      "1910s": 8,
+      "1920s": 47,
+      "1930s": 371
+    },
+    "Puddler": {
+      "1870s": 16,
+      "1880s": 40,
+      "1890s": 110,
+      "1900s": 54,
+      "1910s": 12,
+      "1920s": 4,
+      "1930s": 0
+    },
+    "Coal Trimmer": {
+      "1870s": 7,
+      "1880s": 179,
+      "1890s": 939,
+      "1900s": 607,
+      "1910s": 490,
+      "1920s": 665,
+      "1930s": 225
+    },
+    "Seaman": {
+      "1870s": 65,
+      "1880s": 182,
+      "1890s": 602,
+      "1900s": 404,
+      "1910s": 212,
+      "1920s": 285,
+      "1930s": 160
+    },
+    "Carpenter": {
+      "1870s": 109,
+      "1880s": 455,
+      "1890s": 1644,
+      "1900s": 1019,
+      "1910s": 662,
+      "1920s": 834,
+      "1930s": 216
+    },
+    "Mason": {
+      "1870s": 69,
+      "1880s": 321,
+      "1890s": 1230,
+      "1900s": 701,
+      "1910s": 400,
+      "1920s": 355,
+      "1930s": 67
+    },
+    "G.W.R": {
+      "1870s": 0,
+      "1880s": 0,
+      "1890s": 0,
+      "1900s": 0,
+      "1910s": 0,
+      "1920s": 0,
+      "1930s": 10
+    },
+    "Engine Driver": {
+      "1870s": 28,
+      "1880s": 152,
+      "1890s": 716,
+      "1900s": 610,
+      "1910s": 460,
+      "1920s": 676,
+      "1930s": 140
+    },
+    "Fitter": {
+      "1870s": 53,
+      "1880s": 209,
+      "1890s": 791,
+      "1900s": 543,
+      "1910s": 456,
+      "1920s": 830,
+      "1930s": 238
+    },
+    "Haulier": {
+      "1870s": 51,
+      "1880s": 246,
+      "1890s": 971,
+      "1900s": 625,
+      "1910s": 461,
+      "1920s": 437,
+      "1930s": 81
+    },
+    "Clerk": {
+      "1870s": 68,
+      "1880s": 183,
+      "1890s": 728,
+      "1900s": 478,
+      "1910s": 301,
+      "1920s": 752,
+      "1930s": 397
+    },
+    "Painter": {
+      "1870s": 30,
+      "1880s": 167,
+      "1890s": 731,
+      "1900s": 530,
+      "1910s": 366,
+      "1920s": 513,
+      "1930s": 162
+    },
+    "Grocer": {
+      "1870s": 89,
+      "1880s": 258,
+      "1890s": 705,
+      "1900s": 448,
+      "1910s": 319,
+      "1920s": 487,
+      "1930s": 111
+    },
+    "Tailor": {
+      "1870s": 45,
+      "1880s": 174,
+      "1890s": 576,
+      "1900s": 342,
+      "1910s": 246,
+      "1920s": 308,
+      "1930s": 68
+    },
+    "Butcher": {
+      "1870s": 32,
+      "1880s": 126,
+      "1890s": 398,
+      "1900s": 303,
+      "1910s": 332,
+      "1920s": 421,
+      "1930s": 156
+    },
+    "Baker": {
+      "1870s": 24,
+      "1880s": 134,
+      "1890s": 365,
+      "1900s": 218,
+      "1910s": 196,
+      "1920s": 305,
+      "1930s": 126
+    },
+    "Motor Driver": {
+      "1870s": 0,
+      "1880s": 0,
+      "1890s": 0,
+      "1900s": 0,
+      "1910s": 2,
+      "1920s": 34,
+      "1930s": 109
+    },
+    "Electrician": {
+      "1870s": 0,
+      "1880s": 1,
+      "1890s": 13,
+      "1900s": 31,
+      "1910s": 28,
+      "1920s": 83,
+      "1930s": 78
+    }
+  },
+  "decades": [
+    "1870s",
+    "1880s",
+    "1890s",
+    "1900s",
+    "1910s",
+    "1920s",
+    "1930s"
+  ],
+  "tracked_trades": [
+    "Labourer",
+    "Ironworker",
+    "Steelworker",
+    "Puddler",
+    "Coal Trimmer",
+    "Seaman",
+    "Carpenter",
+    "Mason",
+    "G.W.R",
+    "Engine Driver",
+    "Fitter",
+    "Haulier",
+    "Clerk",
+    "Painter",
+    "Grocer",
+    "Tailor",
+    "Butcher",
+    "Baker",
+    "Motor Driver",
+    "Electrician"
+  ],
+  "street_specialization": {
+    "commercial": [
+      {
+        "street": "Commercial Road",
+        "count": 846,
+        "total": 4067,
+        "pct": 20.8
+      },
+      {
+        "street": "Commercial Street",
+        "count": 492,
+        "total": 5456,
+        "pct": 9.0
+      },
+      {
+        "street": "Chepstow Road",
+        "count": 385,
+        "total": 3053,
+        "pct": 12.6
+      },
+      {
+        "street": "Corporation Road",
+        "count": 373,
+        "total": 2921,
+        "pct": 12.8
+      },
+      {
+        "street": "Church Road",
+        "count": 269,
+        "total": 1336,
+        "pct": 20.1
+      },
+      {
+        "street": "Caerleon Road",
+        "count": 245,
+        "total": 2735,
+        "pct": 9.0
+      },
+      {
+        "street": "Malpas Road",
+        "count": 214,
+        "total": 2037,
+        "pct": 10.5
+      },
+      {
+        "street": "High Street",
+        "count": 203,
+        "total": 2849,
+        "pct": 7.1
+      },
+      {
+        "street": "Market (provision)",
+        "count": 202,
+        "total": 470,
+        "pct": 43.0
+      },
+      {
+        "street": "Clarence Place",
+        "count": 175,
+        "total": 1025,
+        "pct": 17.1
+      },
+      {
+        "street": "Blewitt Street",
+        "count": 169,
+        "total": 1401,
+        "pct": 12.1
+      },
+      {
+        "street": "Bridge Street",
+        "count": 162,
+        "total": 1464,
+        "pct": 11.1
+      },
+      {
+        "street": "Duckpool Road",
+        "count": 153,
+        "total": 2347,
+        "pct": 6.5
+      },
+      {
+        "street": "Alexandra Road",
+        "count": 145,
+        "total": 1176,
+        "pct": 12.3
+      },
+      {
+        "street": "Shaftesbury Street",
+        "count": 137,
+        "total": 1701,
+        "pct": 8.1
+      }
+    ],
+    "industrial": [
+      {
+        "street": "Baldwin Street",
+        "count": 745,
+        "total": 1511,
+        "pct": 49.3
+      },
+      {
+        "street": "Dolphin Street",
+        "count": 624,
+        "total": 1914,
+        "pct": 32.6
+      },
+      {
+        "street": "Jeddo Street",
+        "count": 617,
+        "total": 1662,
+        "pct": 37.1
+      },
+      {
+        "street": "Hewertson Street",
+        "count": 510,
+        "total": 1013,
+        "pct": 50.3
+      },
+      {
+        "street": "Gordon Street",
+        "count": 508,
+        "total": 1119,
+        "pct": 45.4
+      },
+      {
+        "street": "Henry Street",
+        "count": 498,
+        "total": 1621,
+        "pct": 30.7
+      },
+      {
+        "street": "Lime Street",
+        "count": 457,
+        "total": 1530,
+        "pct": 29.9
+      },
+      {
+        "street": "Magor Street",
+        "count": 434,
+        "total": 712,
+        "pct": 61.0
+      },
+      {
+        "street": "Archibald Street",
+        "count": 421,
+        "total": 1269,
+        "pct": 33.2
+      },
+      {
+        "street": "Dewstow Street",
+        "count": 408,
+        "total": 494,
+        "pct": 82.6
+      },
+      {
+        "street": "George Street",
+        "count": 394,
+        "total": 1467,
+        "pct": 26.9
+      },
+      {
+        "street": "Jones Street",
+        "count": 379,
+        "total": 1270,
+        "pct": 29.8
+      },
+      {
+        "street": "Hoskins Street",
+        "count": 373,
+        "total": 1150,
+        "pct": 32.4
+      },
+      {
+        "street": "Agincourt Street",
+        "count": 362,
+        "total": 656,
+        "pct": 55.2
+      },
+      {
+        "street": "Marion Street",
+        "count": 357,
+        "total": 1403,
+        "pct": 25.4
+      }
+    ],
+    "railway": [
+      {
+        "street": "Capel Crescent",
+        "count": 288,
+        "total": 1216,
+        "pct": 23.7
+      },
+      {
+        "street": "Lewis Street",
+        "count": 231,
+        "total": 2063,
+        "pct": 11.2
+      },
+      {
+        "street": "Raglan Street",
+        "count": 199,
+        "total": 1871,
+        "pct": 10.6
+      },
+      {
+        "street": "Capel Street",
+        "count": 177,
+        "total": 1372,
+        "pct": 12.9
+      },
+      {
+        "street": "Price Street",
+        "count": 145,
+        "total": 1158,
+        "pct": 12.5
+      },
+      {
+        "street": "Williams Street",
+        "count": 143,
+        "total": 1590,
+        "pct": 9.0
+      },
+      {
+        "street": "Duckpool Road",
+        "count": 137,
+        "total": 2347,
+        "pct": 5.8
+      },
+      {
+        "street": "Durham Road",
+        "count": 109,
+        "total": 2725,
+        "pct": 4.0
+      },
+      {
+        "street": "Jeddo Street",
+        "count": 107,
+        "total": 1662,
+        "pct": 6.4
+      },
+      {
+        "street": "Alma Street",
+        "count": 103,
+        "total": 1910,
+        "pct": 5.4
+      },
+      {
+        "street": "Arthur Street",
+        "count": 99,
+        "total": 670,
+        "pct": 14.8
+      },
+      {
+        "street": "Lime Street",
+        "count": 69,
+        "total": 1530,
+        "pct": 4.5
+      },
+      {
+        "street": "Redland Street",
+        "count": 69,
+        "total": 1220,
+        "pct": 5.7
+      },
+      {
+        "street": "Bristol Street",
+        "count": 68,
+        "total": 1431,
+        "pct": 4.8
+      },
+      {
+        "street": "Devon Place",
+        "count": 65,
+        "total": 610,
+        "pct": 10.7
+      }
+    ],
+    "maritime": [
+      {
+        "street": "Jeddo Street",
+        "count": 371,
+        "total": 1662,
+        "pct": 22.3
+      },
+      {
+        "street": "Marion Street",
+        "count": 365,
+        "total": 1403,
+        "pct": 26.0
+      },
+      {
+        "street": "Lime Street",
+        "count": 306,
+        "total": 1530,
+        "pct": 20.0
+      },
+      {
+        "street": "Baldwin Street",
+        "count": 227,
+        "total": 1511,
+        "pct": 15.0
+      },
+      {
+        "street": "Dolphin Street",
+        "count": 224,
+        "total": 1914,
+        "pct": 11.7
+      },
+      {
+        "street": "George Street",
+        "count": 207,
+        "total": 1467,
+        "pct": 14.1
+      },
+      {
+        "street": "Clarence Street",
+        "count": 184,
+        "total": 777,
+        "pct": 23.7
+      },
+      {
+        "street": "Capel Street",
+        "count": 183,
+        "total": 1372,
+        "pct": 13.3
+      },
+      {
+        "street": "Price Street",
+        "count": 176,
+        "total": 1158,
+        "pct": 15.2
+      },
+      {
+        "street": "Castle Street",
+        "count": 153,
+        "total": 619,
+        "pct": 24.7
+      },
+      {
+        "street": "Raglan Street",
+        "count": 153,
+        "total": 1871,
+        "pct": 8.2
+      },
+      {
+        "street": "Robert Street",
+        "count": 143,
+        "total": 816,
+        "pct": 17.5
+      },
+      {
+        "street": "Wolseley Street",
+        "count": 143,
+        "total": 713,
+        "pct": 20.1
+      },
+      {
+        "street": "Williams Street",
+        "count": 141,
+        "total": 1590,
+        "pct": 8.9
+      },
+      {
+        "street": "David Street",
+        "count": 136,
+        "total": 600,
+        "pct": 22.7
+      }
+    ],
+    "professional": [
+      {
+        "street": "Commercial Street",
+        "count": 142,
+        "total": 5456,
+        "pct": 2.6
+      },
+      {
+        "street": "Stow Hill",
+        "count": 117,
+        "total": 1966,
+        "pct": 6.0
+      },
+      {
+        "street": "High Street",
+        "count": 91,
+        "total": 2849,
+        "pct": 3.2
+      },
+      {
+        "street": "Bridge Street",
+        "count": 77,
+        "total": 1464,
+        "pct": 5.3
+      },
+      {
+        "street": "Dock Street",
+        "count": 60,
+        "total": 4360,
+        "pct": 1.4
+      },
+      {
+        "street": "Victoria Place",
+        "count": 52,
+        "total": 241,
+        "pct": 21.6
+      },
+      {
+        "street": "Chepstow Road",
+        "count": 46,
+        "total": 3053,
+        "pct": 1.5
+      },
+      {
+        "street": "Morden Road",
+        "count": 45,
+        "total": 774,
+        "pct": 5.8
+      },
+      {
+        "street": "Commercial Road",
+        "count": 41,
+        "total": 4067,
+        "pct": 1.0
+      },
+      {
+        "street": "Kensington Place",
+        "count": 24,
+        "total": 224,
+        "pct": 10.7
+      },
+      {
+        "street": "Skinner Street",
+        "count": 18,
+        "total": 517,
+        "pct": 3.5
+      },
+      {
+        "street": "Clytha Square",
+        "count": 16,
+        "total": 265,
+        "pct": 6.0
+      },
+      {
+        "street": "Tredegar Place",
+        "count": 16,
+        "total": 106,
+        "pct": 15.1
+      },
+      {
+        "street": "Gold Tops",
+        "count": 15,
+        "total": 340,
+        "pct": 4.4
+      },
+      {
+        "street": "Cambrian Road",
+        "count": 14,
+        "total": 214,
+        "pct": 6.5
+      }
+    ]
+  },
+  "women_in_directories": {
+    "total_female_heads": 34350,
+    "by_year": {
+      "1876": 0,
+      "1878": 486,
+      "1882": 425,
+      "1886": 611,
+      "1887": 535,
+      "1890": 750,
+      "1892": 833,
+      "1893": 912,
+      "1894": 918,
+      "1895": 1014,
+      "1898": 1198,
+      "1899": 1165,
+      "1900": 1212,
+      "1901": 1248,
+      "1902": 1257,
+      "1903": 1311,
+      "1905": 0,
+      "1906": 1377,
+      "1908": 1393,
+      "1910": 1506,
+      "1913": 1610,
+      "1915": 1649,
+      "1920": 2122,
+      "1924": 2405,
+      "1925": 2518,
+      "1927": 2837,
+      "1936": 3058
+    },
+    "top_trades": [
+      {
+        "trade": "Shop",
+        "count": 412
+      },
+      {
+        "trade": "Dressmaker",
+        "count": 248
+      },
+      {
+        "trade": "Grocer",
+        "count": 228
+      },
+      {
+        "trade": "Shopkeeper",
+        "count": 150
+      },
+      {
+        "trade": "Confectioner",
+        "count": 99
+      },
+      {
+        "trade": "Tobacconist",
+        "count": 81
+      },
+      {
+        "trade": "Dressmkr",
+        "count": 81
+      },
+      {
+        "trade": "Greengrocer",
+        "count": 78
+      },
+      {
+        "trade": "Milliner",
+        "count": 68
+      },
+      {
+        "trade": "Laundress",
+        "count": 58
+      },
+      {
+        "trade": "School",
+        "count": 53
+      },
+      {
+        "trade": "Newsagent",
+        "count": 51
+      },
+      {
+        "trade": "Draper",
+        "count": 50
+      },
+      {
+        "trade": "Nurse",
+        "count": 50
+      },
+      {
+        "trade": "Butcher",
+        "count": 49
+      },
+      {
+        "trade": "Fruiterer",
+        "count": 44
+      },
+      {
+        "trade": "Caretaker",
+        "count": 36
+      },
+      {
+        "trade": "Costumier",
+        "count": 33
+      },
+      {
+        "trade": "Florist",
+        "count": 32
+      },
+      {
+        "trade": "Registry Office",
+        "count": 30
+      },
+      {
+        "trade": "Teacher",
+        "count": 28
+      },
+      {
+        "trade": "Hairdresser",
+        "count": 26
+      },
+      {
+        "trade": "General Shop",
+        "count": 21
+      },
+      {
+        "trade": "Lodgings",
+        "count": 21
+      },
+      {
+        "trade": "Tailoress",
+        "count": 20
+      }
+    ]
+  },
+  "vanished_trades": [
+    {
+      "trade": "Glass Works",
+      "count": 447,
+      "earliest": 1887,
+      "latest": 1915
+    },
+    {
+      "trade": "Factory Hand",
+      "count": 213,
+      "earliest": 1878,
+      "latest": 1913
+    },
+    {
+      "trade": "Cabman",
+      "count": 183,
+      "earliest": 1878,
+      "latest": 1920
+    },
+    {
+      "trade": "Cab Proprietor",
+      "count": 149,
+      "earliest": 1878,
+      "latest": 1920
+    },
+    {
+      "trade": "Tinman",
+      "count": 105,
+      "earliest": 1878,
+      "latest": 1915
+    },
+    {
+      "trade": "Coal Dealer",
+      "count": 93,
+      "earliest": 1878,
+      "latest": 1920
+    },
+    {
+      "trade": "Railway Porter",
+      "count": 73,
+      "earliest": 1878,
+      "latest": 1910
+    },
+    {
+      "trade": "Cab Driver",
+      "count": 71,
+      "earliest": 1878,
+      "latest": 1920
+    },
+    {
+      "trade": "Shop Void",
+      "count": 60,
+      "earliest": 1886,
+      "latest": 1915
+    },
+    {
+      "trade": "Factory Hd",
+      "count": 52,
+      "earliest": 1878,
+      "latest": 1913
+    },
+    {
+      "trade": "Chairmaker",
+      "count": 50,
+      "earliest": 1878,
+      "latest": 1901
+    },
+    {
+      "trade": "Grocer & Baker",
+      "count": 48,
+      "earliest": 1878,
+      "latest": 1915
+    },
+    {
+      "trade": "Enginemn",
+      "count": 48,
+      "earliest": 1886,
+      "latest": 1913
+    },
+    {
+      "trade": "Irondresser",
+      "count": 48,
+      "earliest": 1892,
+      "latest": 1920
+    },
+    {
+      "trade": "Pilot'S Man",
+      "count": 46,
+      "earliest": 1886,
+      "latest": 1915
+    },
+    {
+      "trade": "Carrier",
+      "count": 45,
+      "earliest": 1878,
+      "latest": 1910
+    },
+    {
+      "trade": "Police Sergt.",
+      "count": 45,
+      "earliest": 1886,
+      "latest": 1920
+    },
+    {
+      "trade": "Shipcarptr",
+      "count": 43,
+      "earliest": 1886,
+      "latest": 1920
+    },
+    {
+      "trade": "Shipcarpenter",
+      "count": 43,
+      "earliest": 1890,
+      "latest": 1902
+    },
+    {
+      "trade": "Gas Wks",
+      "count": 41,
+      "earliest": 1882,
+      "latest": 1920
+    },
+    {
+      "trade": "Coffee Tavern",
+      "count": 37,
+      "earliest": 1882,
+      "latest": 1915
+    },
+    {
+      "trade": "Railway Police",
+      "count": 35,
+      "earliest": 1878,
+      "latest": 1910
+    },
+    {
+      "trade": "Baller",
+      "count": 34,
+      "earliest": 1878,
+      "latest": 1913
+    },
+    {
+      "trade": "Brazier",
+      "count": 34,
+      "earliest": 1878,
+      "latest": 1920
+    },
+    {
+      "trade": "Brassfounder",
+      "count": 34,
+      "earliest": 1882,
+      "latest": 1910
+    }
+  ],
+  "emerging_trades": [
+    {
+      "trade": "Lorry Driver",
+      "count": 64,
+      "earliest": 1927,
+      "latest": 1936
+    },
+    {
+      "trade": "Motor Dvr",
+      "count": 43,
+      "earliest": 1915,
+      "latest": 1927
+    },
+    {
+      "trade": "Civil Servant",
+      "count": 42,
+      "earliest": 1925,
+      "latest": 1936
+    },
+    {
+      "trade": "I.W.",
+      "count": 40,
+      "earliest": 1915,
+      "latest": 1927
+    },
+    {
+      "trade": "Garage",
+      "count": 39,
+      "earliest": 1920,
+      "latest": 1927
+    }
+  ],
+  "anomalies": {
+    "counts": {
+      "ditto_variants": 0,
+      "pure_symbols": 1,
+      "single_initial_trade": 210,
+      "numbers_in_trade": 39,
+      "short_tokens": 0,
+      "spillover_suffix": 179
+    },
+    "samples": {
+      "initial_as_trade": [
+        {
+          "year": "1936",
+          "street": "Barrack Hill",
+          "house_number": "130",
+          "surname": "John Stockden Co",
+          "forename": "",
+          "trade": "ok"
+        },
+        {
+          "year": "1936",
+          "street": "Bolt Street",
+          "house_number": "24",
+          "surname": "Percy Whittaker Co",
+          "forename": "",
+          "trade": "ok"
+        },
+        {
+          "year": "1936",
+          "street": "Bridge Street",
+          "house_number": "69a",
+          "surname": "Pullars Of Perth",
+          "forename": "Dy",
+          "trade": "Ers"
+        },
+        {
+          "year": "1936",
+          "street": "Eton Road",
+          "house_number": "18",
+          "surname": "J. R St Dayman Co",
+          "forename": "",
+          "trade": "Rri"
+        },
+        {
+          "year": "1936",
+          "street": "Fields Park Road",
+          "house_number": "11",
+          "surname": "Samuel",
+          "forename": "W. Astley Cl",
+          "trade": "Yne"
+        },
+        {
+          "year": "1936",
+          "street": "Fotheringham Place",
+          "house_number": "11",
+          "surname": "Samuel",
+          "forename": "W. Astley Cl",
+          "trade": "Yne"
+        },
+        {
+          "year": "1936",
+          "street": "Llanthewy Road",
+          "house_number": "69",
+          "surname": "Davies",
+          "forename": "W. A Pe n y",
+          "trade": "Dre"
+        },
+        {
+          "year": "1936",
+          "street": "Oswald Road",
+          "house_number": "31",
+          "surname": "H. E Griffiths Co",
+          "forename": "",
+          "trade": "ok"
+        },
+        {
+          "year": "1936",
+          "street": "Palm Square",
+          "house_number": "5",
+          "surname": "Gardner",
+          "forename": "George T Ki a",
+          "trade": "Ora"
+        },
+        {
+          "year": "1936",
+          "street": "Queen's Hill Crescent",
+          "house_number": "17",
+          "surname": "Regan",
+          "forename": "Miss Margaret Ca irn",
+          "trade": "Top"
+        },
+        {
+          "year": "1936",
+          "street": "Victoria Avenue",
+          "house_number": "126",
+          "surname": "Edwin C Powell Co",
+          "forename": "",
+          "trade": "mp"
+        },
+        {
+          "year": "1936",
+          "street": "Woodland Park Road",
+          "house_number": "24",
+          "surname": "Prof Of Music",
+          "forename": "Er",
+          "trade": "Van"
+        },
+        {
+          "year": "1936",
+          "street": "York Road",
+          "house_number": "8",
+          "surname": "Slocombe",
+          "forename": "Edwin J",
+          "trade": "\u8868\u73fe"
+        },
+        {
+          "year": "1936",
+          "street": "Malpas Road",
+          "house_number": "",
+          "surname": "Locke",
+          "forename": "W. H Ki a",
+          "trade": "Ora"
+        },
+        {
+          "year": "1936",
+          "street": "Stow Hill",
+          "house_number": "150",
+          "surname": "Webb",
+          "forename": "A. E Br yn y",
+          "trade": "Mor"
+        },
+        {
+          "year": "1882",
+          "street": "Alfred Street",
+          "house_number": "12",
+          "surname": "Harris",
+          "forename": "Stephen",
+          "trade": "Lbr"
+        },
+        {
+          "year": "1882",
+          "street": "Alfred Street",
+          "house_number": "15",
+          "surname": "Hunter",
+          "forename": "Wm. C.",
+          "trade": "h"
+        },
+        {
+          "year": "1882",
+          "street": "Barrack Hill",
+          "house_number": "",
+          "surname": "Edwards",
+          "forename": "Jno. Randolph",
+          "trade": "Vil"
+        },
+        {
+          "year": "1882",
+          "street": "Courtybella Street",
+          "house_number": "14",
+          "surname": "Pritchard",
+          "forename": "Elizabeth",
+          "trade": "Wid"
+        },
+        {
+          "year": "1882",
+          "street": "Court-y-bella Terrace",
+          "house_number": "7",
+          "surname": "Enwright",
+          "forename": "Catherine",
+          "trade": "Wid"
+        },
+        {
+          "year": "1882",
+          "street": "Dean Street",
+          "house_number": "34",
+          "surname": "Nancekievill",
+          "forename": "Chs. Hy.",
+          "trade": "Sad"
+        },
+        {
+          "year": "1882",
+          "street": "High Street, Pill",
+          "house_number": "24",
+          "surname": "Mulcahy",
+          "forename": "Margaret",
+          "trade": "Wid"
+        },
+        {
+          "year": "1882",
+          "street": "King Street",
+          "house_number": "3",
+          "surname": "Thomas",
+          "forename": "Magdalen",
+          "trade": "Wdw"
+        },
+        {
+          "year": "1882",
+          "street": "Marshes Road",
+          "house_number": "49",
+          "surname": "Merchant",
+          "forename": "Edward",
+          "trade": "Lib"
+        },
+        {
+          "year": "1882",
+          "street": "North Street",
+          "house_number": "41",
+          "surname": "Donovan",
+          "forename": "Catherine",
+          "trade": "Wid"
+        }
+      ],
+      "numbers_in_trade": [
+        {
+          "year": "1878",
+          "street": "Blewitt Terrace",
+          "house_number": "",
+          "surname": "Moulton",
+          "forename": "H.",
+          "trade": "1"
+        },
+        {
+          "year": "1878",
+          "street": "Blewitt Terrace",
+          "house_number": "",
+          "surname": "Moon",
+          "forename": "Wm.",
+          "trade": "2"
+        },
+        {
+          "year": "1882",
+          "street": "Crindau Road",
+          "house_number": "",
+          "surname": "Wills",
+          "forename": "Charles",
+          "trade": "1"
+        },
+        {
+          "year": "1882",
+          "street": "Crindau Road",
+          "house_number": "",
+          "surname": "May",
+          "forename": "George",
+          "trade": "2"
+        },
+        {
+          "year": "1886",
+          "street": "Capel Crescent",
+          "house_number": "",
+          "surname": "James",
+          "forename": "Daniel",
+          "trade": "1"
+        },
+        {
+          "year": "1886",
+          "street": "Capel Crescent",
+          "house_number": "",
+          "surname": "Edwards",
+          "forename": "Wm.",
+          "trade": "2"
+        },
+        {
+          "year": "1886",
+          "street": "Charlotte Street",
+          "house_number": "",
+          "surname": "Rolloson",
+          "forename": "Andrew",
+          "trade": "2"
+        },
+        {
+          "year": "1886",
+          "street": "Charlotte Street",
+          "house_number": "",
+          "surname": "Roberts",
+          "forename": "Walter",
+          "trade": "19"
+        },
+        {
+          "year": "1886",
+          "street": "Charlotte Street",
+          "house_number": "",
+          "surname": "Fothergill",
+          "forename": "Mrs.",
+          "trade": "18"
+        },
+        {
+          "year": "1886",
+          "street": "Chepstow Road",
+          "house_number": "",
+          "surname": "Bush",
+          "forename": "Wm.",
+          "trade": "1"
+        },
+        {
+          "year": "1886",
+          "street": "Chepstow Road",
+          "house_number": "",
+          "surname": "Baddeley",
+          "forename": "Hy. E.",
+          "trade": "2"
+        },
+        {
+          "year": "1886",
+          "street": "Chepstow Road",
+          "house_number": "3",
+          "surname": "Jones",
+          "forename": "Mrs.",
+          "trade": "1"
+        },
+        {
+          "year": "1886",
+          "street": "Chepstow Road",
+          "house_number": "20",
+          "surname": "Evans",
+          "forename": "R. B.",
+          "trade": "19"
+        },
+        {
+          "year": "1886",
+          "street": "Chepstow Road",
+          "house_number": "21",
+          "surname": "Jones",
+          "forename": "Wm. Stanley",
+          "trade": "20"
+        },
+        {
+          "year": "1890",
+          "street": "Kingsland Terrace",
+          "house_number": "",
+          "surname": "Small",
+          "forename": "Saml.",
+          "trade": "1"
+        },
+        {
+          "year": "1892",
+          "street": "Caerau Road",
+          "house_number": "166",
+          "surname": "Williams",
+          "forename": "Mrs C.",
+          "trade": "2"
+        },
+        {
+          "year": "1892",
+          "street": "Caerau Road",
+          "house_number": "179",
+          "surname": "Lewis",
+          "forename": "John F.",
+          "trade": "1"
+        },
+        {
+          "year": "1893",
+          "street": "Chepstow Road",
+          "house_number": "50",
+          "surname": "Small",
+          "forename": "Saml.",
+          "trade": "1"
+        },
+        {
+          "year": "1893",
+          "street": "Chepstow Road",
+          "house_number": "51",
+          "surname": "Burford",
+          "forename": "Mrs Harriet",
+          "trade": "2"
+        },
+        {
+          "year": "1893",
+          "street": "Somerton Road",
+          "house_number": "",
+          "surname": "Vince",
+          "forename": "W. H.",
+          "trade": "11"
+        }
+      ],
+      "spillover_suffix": [
+        {
+          "year": "1886",
+          "street": "Town Dock",
+          "house_number": "",
+          "surname": "blockmakers & ship repairers",
+          "forename": "Harris & Coxon",
+          "trade": "Etc."
+        },
+        {
+          "year": "1890",
+          "street": "Bridge Street",
+          "house_number": "",
+          "surname": "provision merchants",
+          "forename": "Kenwyn G. J. & Co.",
+          "trade": "Etc."
+        },
+        {
+          "year": "1890",
+          "street": "Bridge Street",
+          "house_number": "23",
+          "surname": "surgeon",
+          "forename": "Loveridge Arthur W.",
+          "trade": "Etc."
+        },
+        {
+          "year": "1890",
+          "street": "Caerau Road",
+          "house_number": "",
+          "surname": "gas meter makers",
+          "forename": "Foxall & Co.",
+          "trade": "Etc."
+        },
+        {
+          "year": "1890",
+          "street": "Commercial Street",
+          "house_number": "162",
+          "surname": "cabinet makers",
+          "forename": "Trapnell and Gane",
+          "trade": "Etc"
+        },
+        {
+          "year": "1892",
+          "street": "Church Road",
+          "house_number": "39",
+          "surname": "fruiterer",
+          "forename": "A., Orchard",
+          "trade": "Etc"
+        },
+        {
+          "year": "1892",
+          "street": "Friars Street",
+          "house_number": "5",
+          "surname": "insurance brokers",
+          "forename": "Heybyrne & Brown",
+          "trade": "Etc."
+        },
+        {
+          "year": "1893",
+          "street": "Alma Street",
+          "house_number": "",
+          "surname": "Thatcher & Son",
+          "forename": "The Bristol Brewery",
+          "trade": "Ltd."
+        },
+        {
+          "year": "1893",
+          "street": "Commercial Road",
+          "house_number": "41-2",
+          "surname": "outfitters\\",
+          "forename": "Lamey Thos. and Son",
+          "trade": "Etc."
+        },
+        {
+          "year": "1893",
+          "street": "Town Dock",
+          "house_number": "",
+          "surname": "blockmakers & ship repairers",
+          "forename": "Harris & Coxon",
+          "trade": "Etc"
+        },
+        {
+          "year": "1893",
+          "street": "Jones Street",
+          "house_number": "20",
+          "surname": "baker",
+          "forename": "Hood W. O.",
+          "trade": "Etc"
+        },
+        {
+          "year": "1893",
+          "street": "Jones Street",
+          "house_number": "38",
+          "surname": "grocer",
+          "forename": "James Thos.",
+          "trade": "Etc"
+        },
+        {
+          "year": "1893",
+          "street": "Wharves (The)",
+          "house_number": "&c.",
+          "surname": "Parnall and Evans",
+          "forename": "Star Mills Co.",
+          "trade": "Ltd."
+        },
+        {
+          "year": "1893",
+          "street": "Wharves (The)",
+          "house_number": "",
+          "surname": "plumber",
+          "forename": "Barnes W. J.",
+          "trade": "Etc"
+        },
+        {
+          "year": "1893",
+          "street": "Wharves (The)",
+          "house_number": "",
+          "surname": "Uskside Lime",
+          "forename": "Rodney wf.",
+          "trade": "Co."
+        },
+        {
+          "year": "1894",
+          "street": "Albany Street",
+          "house_number": "",
+          "surname": "draper",
+          "forename": "Bray Thos.",
+          "trade": "Etc"
+        },
+        {
+          "year": "1894",
+          "street": "Albert Street",
+          "house_number": "64",
+          "surname": "plumber",
+          "forename": "Heffer Tom",
+          "trade": "Etc"
+        },
+        {
+          "year": "1894",
+          "street": "Albert Street",
+          "house_number": "77",
+          "surname": "grocer",
+          "forename": "Thorne G. F.",
+          "trade": "Etc"
+        },
+        {
+          "year": "1894",
+          "street": "Alma Street",
+          "house_number": "",
+          "surname": "Thatcher & Son",
+          "forename": "The Bristol Brewery",
+          "trade": "Ltd."
+        },
+        {
+          "year": "1894",
+          "street": "Queensland Terrace",
+          "house_number": "",
+          "surname": "",
+          "forename": "",
+          "trade": "Etc."
+        }
+      ],
+      "pure_symbols": [
+        {
+          "year": "1908",
+          "street": "Constance Street",
+          "house_number": "32",
+          "surname": "Bryant",
+          "forename": "",
+          "trade": "-"
+        }
+      ]
+    }
+  }
+}

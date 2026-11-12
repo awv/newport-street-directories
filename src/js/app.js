@@ -486,7 +486,7 @@ function toggleMobileSidebar() {
       if (streetCacheMap.has(slug)) return streetCacheMap.get(slug);
 
       try {
-        const response = await fetch(`data/streets/${slug}.json`);
+        const response = await fetch(`data/streets/${slug}.json?v=${Date.now()}`);
         if (!response.ok) return { records: [], summary: {} };
         const data = await response.json();
         streetCacheMap.set(slug, data);
@@ -517,19 +517,24 @@ function toggleMobileSidebar() {
       }
     }
 
+    let searchIndexPromise = null;
     async function loadSearchIndex() {
-      if (searchIndexData || isSearchLoading) return searchIndexData;
-      isSearchLoading = true;
-      try {
-        const response = await fetch('data/search_index.json');
-        searchIndexData = await response.json();
-        isSearchLoading = false;
-        return searchIndexData;
-      } catch (err) {
-        console.error("Failed loading search_index.json", err);
-        isSearchLoading = false;
-        return [];
-      }
+      if (searchIndexData) return searchIndexData;
+      if (searchIndexPromise) return searchIndexPromise;
+      searchIndexPromise = (async () => {
+        try {
+          const response = await fetch('data/search_index.json');
+          if (!response.ok) throw new Error('HTTP ' + response.status);
+          searchIndexData = await response.json();
+          return searchIndexData;
+        } catch (err) {
+          console.error("Failed loading search_index.json", err);
+          return [];
+        } finally {
+          searchIndexPromise = null;
+        }
+      })();
+      return searchIndexPromise;
     }
 
     // --- Categorised Search Autocomplete Logic ---
@@ -644,7 +649,7 @@ function toggleMobileSidebar() {
     }
 
     document.addEventListener('click', (e) => {
-      if (autocompleteContainer && !e.target.closest('.search-box-wrapper')) {
+      if (autocompleteContainer && !e.target.closest('.hero-search-wrapper') && !e.target.closest('.search-box-wrapper')) {
         autocompleteContainer.classList.remove('active');
       }
     });
@@ -679,6 +684,8 @@ function toggleMobileSidebar() {
 
       const searchInput = document.getElementById('search-input');
       if (searchInput) searchInput.value = query;
+      const searchViewInput = document.getElementById('search-view-input');
+      if (searchViewInput) searchViewInput.value = query;
 
       const cleanQ = query.trim().toLowerCase();
       if (!cleanQ) return;
@@ -828,23 +835,119 @@ function toggleMobileSidebar() {
     }
 
     let currentAuditFilter = 'all';
+    let currentEraFilter = 'all';
+    let currentStreetSearchQuery = '';
+    let currentLetterFilter = '';
+    let currentStreetsDisplayMode = 'grid';
+
+    function setLetterFilter(letter) {
+      if (currentLetterFilter === letter) {
+        currentLetterFilter = '';
+      } else {
+        currentLetterFilter = letter;
+      }
+      renderStreetsView(null, true);
+
+      const scrollBody = document.querySelector('.canvas-scroll-body');
+      const jumpBarWrapper = document.querySelector('.sticky-alpha-wrapper');
+      if (scrollBody && jumpBarWrapper) {
+        scrollBody.scrollTo({ top: jumpBarWrapper.offsetTop - 10, behavior: 'smooth' });
+      }
+    }
 
     function setStreetAuditFilter(filter) {
       currentAuditFilter = filter;
       ['all', 'name_verified', 'fully_enriched', 'unverified'].forEach(f => {
+        const item = document.getElementById(`item-audit-${f}`);
+        if (item) item.classList.toggle('active', f === filter);
         const btn = document.getElementById(`tab-audit-${f}`);
-        if (btn) {
-          if (f === filter) btn.classList.add('active');
-          else btn.classList.remove('active');
-        }
+        if (btn) btn.classList.toggle('active', f === filter);
       });
-      renderStreetsView();
+      const menu = document.getElementById('audit-dropdown-menu');
+      if (menu) menu.classList.remove('show');
+      renderStreetsView(null, true);
     }
 
-    // --- All Streets View Rendering ---
-    function renderStreetsView(filterYear = null) {
+    function toggleAuditFilters(e) {
+      if (e) e.stopPropagation();
+      const menu = document.getElementById('audit-dropdown-menu');
+      if (menu) menu.classList.toggle('show');
+    }
+
+    document.addEventListener('click', (e) => {
+      const menu = document.getElementById('audit-dropdown-menu');
+      if (menu && menu.classList.contains('show')) {
+        const wrapper = document.querySelector('.audit-filter-dropdown-wrapper');
+        if (wrapper && !wrapper.contains(e.target)) {
+          menu.classList.remove('show');
+        }
+      }
+    });
+
+    function setStreetEraFilter(era) {
+      currentEraFilter = era;
+      ['all', 'victorian', 'edwardian', 'interwar', 'postwar', 'renamed'].forEach(e => {
+        const chip = document.getElementById(`chip-era-${e}`);
+        if (chip) chip.classList.toggle('active', e === era);
+      });
+      renderStreetsView(null, true);
+    }
+
+    function handleStreetFilterInput(val) {
+      currentStreetSearchQuery = (val || '').trim();
+      if (currentStreetSearchQuery) {
+        currentLetterFilter = '';
+      }
+      const clearBtn = document.getElementById('streets-search-clear');
+      if (clearBtn) {
+        clearBtn.style.display = currentStreetSearchQuery ? 'inline-flex' : 'none';
+      }
+      renderStreetsView(null, true);
+    }
+
+    function clearStreetFilter() {
+      currentStreetSearchQuery = '';
+      currentLetterFilter = '';
+      const input = document.getElementById('streets-search-input');
+      if (input) input.value = '';
+      const clearBtn = document.getElementById('streets-search-clear');
+      if (clearBtn) clearBtn.style.display = 'none';
+      renderStreetsView(null, true);
+    }
+
+    function setStreetsDisplayMode(mode) {
+      currentStreetsDisplayMode = mode;
+      const btnGrid = document.getElementById('btn-streets-grid');
+      const btnTable = document.getElementById('btn-streets-table');
+      if (btnGrid) btnGrid.classList.toggle('active', mode === 'grid');
+      if (btnTable) btnTable.classList.toggle('active', mode === 'table');
+      renderStreetsView(null, true);
+    }
+
+    // --- All Streets View Rendering & Scroll Restoration ---
+    let lastRenderedStreetsYear = undefined;
+    let lastRenderedStreetsAuditFilter = undefined;
+    let lastRenderedStreetsEraFilter = undefined;
+    let lastRenderedStreetsQuery = undefined;
+    let lastRenderedStreetsLetterFilter = undefined;
+    let lastRenderedStreetsDisplayMode = undefined;
+    let isStreetsViewRendered = false;
+
+    function renderStreetsView(filterYear = null, force = false) {
       const container = document.getElementById('streets-content');
       if (!container) return;
+
+      // If already rendered with exact same filters and DOM is intact, skip rebuilding
+      if (!force && isStreetsViewRendered && container.children.length > 0 &&
+          lastRenderedStreetsYear === filterYear && 
+          lastRenderedStreetsAuditFilter === currentAuditFilter &&
+          lastRenderedStreetsEraFilter === currentEraFilter &&
+          lastRenderedStreetsLetterFilter === currentLetterFilter &&
+          lastRenderedStreetsQuery === currentStreetSearchQuery &&
+          lastRenderedStreetsDisplayMode === currentStreetsDisplayMode) {
+        return;
+      }
+
       container.innerHTML = '';
 
       if (!masterStreetsList.length) {
@@ -861,19 +964,16 @@ function toggleMobileSidebar() {
         });
       }
 
-      const filteredList = masterStreetsList.filter(s => {
-        const mInfo = masterDict[s.slug] || s;
-        const status = mInfo.auditStatus || 'UNVERIFIED';
-
-        if (currentAuditFilter === 'name_verified') return status === 'NAME_VERIFIED';
-        if (currentAuditFilter === 'fully_enriched') return status === 'FULLY_ENRICHED';
-        if (currentAuditFilter === 'unverified') return status === 'UNVERIFIED';
-        return true;
-      });
-
       let nameVerifiedCount = 0;
       let fullyEnrichedCount = 0;
       let unverifiedCount = 0;
+
+      let countEraAll = masterStreetsList.length;
+      let countEraVictorian = 0;
+      let countEraEdwardian = 0;
+      let countEraInterwar = 0;
+      let countEraPostwar = 0;
+      let countEraRenamed = 0;
 
       masterStreetsList.forEach(s => {
         const slug = cleanStr(s.displayName).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
@@ -884,16 +984,42 @@ function toggleMobileSidebar() {
         if (status === 'FULLY_ENRICHED') fullyEnrichedCount++;
         else if (status === 'NAME_VERIFIED') nameVerifiedCount++;
         else unverifiedCount++;
+
+        const yrs = s.years || [];
+        const hasVictorian = yrs.some(y => y < 1900) || (s.earliestYear && s.earliestYear < 1900);
+        const hasEdwardian = yrs.some(y => y >= 1900 && y <= 1914);
+        const hasInterwar = yrs.some(y => y >= 1915 && y <= 1939);
+        const hasPostwar = yrs.includes(1971) || (s.latestYear && s.latestYear >= 1971);
+        const isRenamed = (s.formerNames && s.formerNames.length > 0) || Boolean(s.renamedTo);
+
+        if (hasVictorian) countEraVictorian++;
+        if (hasEdwardian) countEraEdwardian++;
+        if (hasInterwar) countEraInterwar++;
+        if (hasPostwar) countEraPostwar++;
+        if (isRenamed) countEraRenamed++;
       });
 
       const cntAll = document.getElementById('count-audit-all');
       const cntNameVer = document.getElementById('count-audit-name_verified');
       const cntEnriched = document.getElementById('count-audit-fully_enriched');
       const cntUnver = document.getElementById('count-audit-unverified');
-      if (cntAll) cntAll.innerText = totalCount;
+      if (cntAll) cntAll.innerText = masterStreetsList.length;
       if (cntNameVer) cntNameVer.innerText = nameVerifiedCount;
       if (cntEnriched) cntEnriched.innerText = fullyEnrichedCount;
       if (cntUnver) cntUnver.innerText = unverifiedCount;
+
+      const elCntEraAll = document.getElementById('count-era-all');
+      const elCntEraVic = document.getElementById('count-era-victorian');
+      const elCntEraEdw = document.getElementById('count-era-edwardian');
+      const elCntEraInt = document.getElementById('count-era-interwar');
+      const elCntEraPost = document.getElementById('count-era-postwar');
+      const elCntEraRen = document.getElementById('count-era-renamed');
+      if (elCntEraAll) elCntEraAll.innerText = countEraAll.toLocaleString();
+      if (elCntEraVic) elCntEraVic.innerText = countEraVictorian.toLocaleString();
+      if (elCntEraEdw) elCntEraEdw.innerText = countEraEdwardian.toLocaleString();
+      if (elCntEraInt) elCntEraInt.innerText = countEraInterwar.toLocaleString();
+      if (elCntEraPost) elCntEraPost.innerText = countEraPostwar.toLocaleString();
+      if (elCntEraRen) elCntEraRen.innerText = countEraRenamed.toLocaleString();
 
       let streetsToShow = masterStreetsList;
       const titleElem = document.querySelector('#view-streets .page-header-title');
@@ -908,26 +1034,46 @@ function toggleMobileSidebar() {
           titleElem.innerText = `${filterYear} Directory Streets`;
         }
       } else {
+        // 1. Audit Filter
         if (currentAuditFilter === 'name_verified') {
-          streetsToShow = masterStreetsList.filter(s => {
+          streetsToShow = streetsToShow.filter(s => {
             const slug = cleanStr(s.displayName).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
             let status = masterDict[slug] ? masterDict[slug].audit.status : (s.auditStatus || 'UNVERIFIED');
             if (status === 'VERIFIED') status = 'NAME_VERIFIED';
             return status === 'NAME_VERIFIED';
           });
         } else if (currentAuditFilter === 'fully_enriched') {
-          streetsToShow = masterStreetsList.filter(s => {
+          streetsToShow = streetsToShow.filter(s => {
             const slug = cleanStr(s.displayName).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
             const status = masterDict[slug] ? masterDict[slug].audit.status : (s.auditStatus || 'UNVERIFIED');
             return status === 'FULLY_ENRICHED';
           });
         } else if (currentAuditFilter === 'unverified') {
-          streetsToShow = masterStreetsList.filter(s => {
+          streetsToShow = streetsToShow.filter(s => {
             const slug = cleanStr(s.displayName).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
             let status = masterDict[slug] ? masterDict[slug].audit.status : (s.auditStatus || 'UNVERIFIED');
             if (status === 'VERIFIED') status = 'NAME_VERIFIED';
             return status === 'UNVERIFIED';
           });
+        }
+
+        // 2. Historical Era Filter
+        if (currentEraFilter === 'victorian') {
+          streetsToShow = streetsToShow.filter(s => (s.years && s.years.some(y => y < 1900)) || (s.earliestYear && s.earliestYear < 1900));
+        } else if (currentEraFilter === 'edwardian') {
+          streetsToShow = streetsToShow.filter(s => s.years && s.years.some(y => y >= 1900 && y <= 1914));
+        } else if (currentEraFilter === 'interwar') {
+          streetsToShow = streetsToShow.filter(s => s.years && s.years.some(y => y >= 1915 && y <= 1939));
+        } else if (currentEraFilter === 'postwar') {
+          streetsToShow = streetsToShow.filter(s => (s.years && s.years.includes(1971)) || (s.latestYear && s.latestYear >= 1971));
+        } else if (currentEraFilter === 'renamed') {
+          streetsToShow = streetsToShow.filter(s => (s.formerNames && s.formerNames.length > 0) || Boolean(s.renamedTo));
+        }
+
+        // 3. Search query filter
+        if (currentStreetSearchQuery) {
+          const q = currentStreetSearchQuery.toLowerCase();
+          streetsToShow = streetsToShow.filter(s => s.displayName.toLowerCase().includes(q) || (s.formerNames && s.formerNames.some(fn => fn.toLowerCase().includes(q))));
         }
 
         if (summaryElem) {
@@ -938,84 +1084,193 @@ function toggleMobileSidebar() {
         }
       }
 
-      if (!streetsToShow.length) {
-        container.innerHTML = '<p style="color: var(--muted); padding: 3rem 0; text-align: center;">No streets match the selected audit filter.</p>';
-        return;
+      // Available letters across the filtered set before letter picking
+      const availableLetters = new Set(streetsToShow.map(s => s.displayName.charAt(0).toUpperCase()));
+
+      // 4. Letter Filter
+      if (currentLetterFilter) {
+        streetsToShow = streetsToShow.filter(s => s.displayName.charAt(0).toUpperCase() === currentLetterFilter);
       }
 
-      // Build A-Z Quick Jump Bar
-      const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
-      const activeLetters = new Set(streetsToShow.map(s => s.displayName.charAt(0).toUpperCase()));
+      // Update summary text if letter filter is active
+      if (currentLetterFilter && summaryElem) {
+        summaryElem.innerText = `Showing ${streetsToShow.length} streets starting with "${currentLetterFilter}".`;
+      }
 
+      // Active filter feedback bar
+      const feedbackElem = document.getElementById('streets-filter-feedback');
+      if (feedbackElem) {
+        if (currentLetterFilter) {
+          feedbackElem.style.display = 'flex';
+          feedbackElem.innerHTML = `
+            <span>Filtered by letter: <strong style="color: var(--accent); font-size: 0.95rem;">${currentLetterFilter}</strong> (${streetsToShow.length} ${streetsToShow.length === 1 ? 'street' : 'streets'} found)</span>
+            <button type="button" class="header-btn" onclick="setLetterFilter('')" style="padding: 0.25rem 0.65rem; font-size: 0.78rem; cursor: pointer;">
+              <i class="ph ph-x"></i> Show all letters
+            </button>
+          `;
+        } else {
+          feedbackElem.style.display = 'none';
+          feedbackElem.innerHTML = '';
+        }
+      }
+
+      // Build A-Z Quick Jump / Filter Bar
+      const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
       const jumpBar = document.getElementById('alpha-jump-bar');
       if (jumpBar) {
         jumpBar.innerHTML = '';
+
+        // "ALL" button
+        const allBtn = document.createElement('button');
+        allBtn.type = 'button';
+        allBtn.className = `alpha-jump-btn ${currentLetterFilter === '' ? 'active' : ''}`;
+        allBtn.style.padding = '0 0.75rem';
+        allBtn.innerText = 'ALL';
+        allBtn.title = 'Show all streets';
+        allBtn.onclick = (e) => {
+          e.preventDefault();
+          setLetterFilter('');
+        };
+        jumpBar.appendChild(allBtn);
+
+        // Letter buttons A-Z
         alphabet.forEach(letVal => {
           const btn = document.createElement('button');
-          const isActive = activeLetters.has(letVal);
-          btn.className = `alpha-jump-btn ${isActive ? 'active' : 'disabled'}`;
+          btn.type = 'button';
+          const hasStreets = availableLetters.has(letVal);
+          const isSelected = currentLetterFilter === letVal;
+
+          btn.className = `alpha-jump-btn ${isSelected ? 'active' : ''} ${!hasStreets ? 'disabled' : ''}`;
           btn.innerText = letVal;
-          if (isActive) {
+          btn.title = hasStreets ? `Filter streets starting with ${letVal}` : `No streets beginning with ${letVal}`;
+
+          if (hasStreets) {
             btn.onclick = (e) => {
               e.preventDefault();
-              const targetSection = document.getElementById(`letter-${letVal}`);
-              if (targetSection) {
-                targetSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
-              }
+              setLetterFilter(letVal);
             };
+          } else {
+            btn.disabled = true;
           }
           jumpBar.appendChild(btn);
         });
       }
 
-      let currentLetter = '';
-      let currentGrid = null;
+      if (!streetsToShow.length) {
+        container.innerHTML = '<p style="color: var(--muted); padding: 3rem 0; text-align: center;">No streets match the selected filter criteria.</p>';
+        return;
+      }
 
-      streetsToShow.forEach(data => {
-        const firstLetter = data.displayName.charAt(0).toUpperCase();
-        if (firstLetter !== currentLetter) {
-          currentLetter = firstLetter;
-
-          const section = document.createElement('div');
-          section.className = 'alpha-section';
-          section.id = `letter-${currentLetter}`;
-
-          const header = document.createElement('h2');
-          header.className = 'alpha-header';
-          header.innerText = currentLetter;
-
-          currentGrid = document.createElement('div');
-          currentGrid.className = 'street-grid';
-
-          section.appendChild(header);
-          section.appendChild(currentGrid);
-          container.appendChild(section);
-        }
-
-        const propText = data.houseCount > 0 ? `${data.houseCount} Properties` : `${data.recordsCount} Records`;
-        const slug = cleanStr(data.displayName).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-        let currentStatus = masterDict[slug] ? masterDict[slug].audit.status : (data.auditStatus || 'UNVERIFIED');
-        if (currentStatus === 'VERIFIED') currentStatus = 'NAME_VERIFIED';
-
-        let badgeHTML = '<span class="source-pill source-pill-primary" style="font-size: 0.65rem; opacity: 0.7;">⚠️ RAW</span>';
-        if (currentStatus === 'FULLY_ENRICHED') {
-          badgeHTML = '<span class="source-pill source-pill-user" style="font-size: 0.65rem; background: rgba(200, 157, 84, 0.2); color: var(--accent); border-color: var(--accent);">🌟 ENRICHED</span>';
-        } else if (currentStatus === 'NAME_VERIFIED') {
-          badgeHTML = '<span class="source-pill source-pill-user" style="font-size: 0.65rem;">🔒 NAME VERIFIED</span>';
-        }
-
-        const card = document.createElement('a');
-        card.className = 'street-index-card';
-        card.href = `#street=${encodeURIComponent(data.displayName)}`;
-        card.innerHTML = `
-          <div class="street-index-title">${data.displayName}</div>
-          <div class="street-index-footer">
-            <span class="street-index-meta">${propText} • ${data.yearsSpan}</span>
-            <span class="street-index-badge">${badgeHTML}</span>
-          </div>
+      if (currentStreetsDisplayMode === 'table') {
+        const tableWrap = document.createElement('div');
+        tableWrap.className = 'streets-table-wrapper';
+        tableWrap.style.cssText = 'overflow-x: auto; background: var(--card-bg, #fff); border-radius: 8px; border: 1px solid var(--border-color, #e5e7eb); margin-top: 1rem;';
+        tableWrap.innerHTML = `
+          <table class="data-table" style="width: 100%; border-collapse: collapse; text-align: left; font-size: 0.9rem;">
+            <thead>
+              <tr style="border-bottom: 2px solid var(--border-color, #e5e7eb); background: var(--bg-secondary, #f9fafb);">
+                <th style="padding: 0.75rem 1rem;">Street Name</th>
+                <th style="padding: 0.75rem 1rem;">Properties / Records</th>
+                <th style="padding: 0.75rem 1rem;">Historical Years</th>
+                <th style="padding: 0.75rem 1rem;">Audit Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${streetsToShow.map(data => {
+                const propText = data.houseCount > 0 ? `${data.houseCount} Properties` : `${data.recordsCount} Records`;
+                const slug = cleanStr(data.displayName).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+                let currentStatus = masterDict[slug] ? masterDict[slug].audit.status : (data.auditStatus || 'UNVERIFIED');
+                if (currentStatus === 'VERIFIED') currentStatus = 'NAME_VERIFIED';
+                let badgeHTML = '<span class="source-pill source-pill-primary" style="font-size: 0.65rem; opacity: 0.7;">⚠️ RAW</span>';
+                if (currentStatus === 'FULLY_ENRICHED') {
+                  badgeHTML = '<span class="source-pill source-pill-user" style="font-size: 0.65rem; background: rgba(200, 157, 84, 0.2); color: var(--accent); border-color: var(--accent);">🌟 ENRICHED</span>';
+                } else if (currentStatus === 'NAME_VERIFIED') {
+                  badgeHTML = '<span class="source-pill source-pill-user" style="font-size: 0.65rem;">🔒 NAME VERIFIED</span>';
+                }
+                return `
+                  <tr style="border-bottom: 1px solid var(--border-color, #eee);">
+                    <td style="padding: 0.65rem 1rem; font-weight: 600;">
+                      <a href="#street=${encodeURIComponent(data.displayName)}" style="color: var(--primary, #1d4ed8); text-decoration: none;">${data.displayName}</a>
+                    </td>
+                    <td style="padding: 0.65rem 1rem; color: var(--muted, #6b7280);">${propText}</td>
+                    <td style="padding: 0.65rem 1rem; color: var(--muted, #6b7280);">${data.yearsSpan || '—'}</td>
+                    <td style="padding: 0.65rem 1rem;">${badgeHTML}</td>
+                  </tr>
+                `;
+              }).join('')}
+            </tbody>
+          </table>
         `;
-        currentGrid.appendChild(card);
-      });
+        container.appendChild(tableWrap);
+      } else {
+        let currentLetter = '';
+        let currentGrid = null;
+
+        streetsToShow.forEach(data => {
+          const firstLetter = data.displayName.charAt(0).toUpperCase();
+          if (firstLetter !== currentLetter) {
+            currentLetter = firstLetter;
+
+            const section = document.createElement('div');
+            section.className = 'alpha-section';
+            section.id = `letter-${currentLetter}`;
+
+            const header = document.createElement('h2');
+            header.className = 'alpha-header';
+            header.innerText = currentLetter;
+
+            currentGrid = document.createElement('div');
+            currentGrid.className = 'street-grid';
+
+            section.appendChild(header);
+            section.appendChild(currentGrid);
+            container.appendChild(section);
+          }
+
+          const propText = data.houseCount > 0 ? `${data.houseCount} Properties` : `${data.recordsCount} Records`;
+          const slug = cleanStr(data.displayName).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+          let currentStatus = masterDict[slug] ? masterDict[slug].audit.status : (data.auditStatus || 'UNVERIFIED');
+          if (currentStatus === 'VERIFIED') currentStatus = 'NAME_VERIFIED';
+
+          let badgeHTML = '<span class="source-pill source-pill-primary" style="font-size: 0.65rem; opacity: 0.7;">⚠️ RAW</span>';
+          if (currentStatus === 'FULLY_ENRICHED') {
+            badgeHTML = '<span class="source-pill source-pill-user" style="font-size: 0.65rem; background: rgba(200, 157, 84, 0.2); color: var(--accent); border-color: var(--accent);">🌟 ENRICHED</span>';
+          } else if (currentStatus === 'NAME_VERIFIED') {
+            badgeHTML = '<span class="source-pill source-pill-user" style="font-size: 0.65rem;">🔒 NAME VERIFIED</span>';
+          }
+
+          const card = document.createElement('a');
+          card.className = 'street-index-card';
+          card.id = `street-card-${slug}`;
+          card.href = `#street=${encodeURIComponent(data.displayName)}`;
+          card.addEventListener('click', () => {
+            const scrollBody = document.querySelector('.canvas-scroll-body');
+            const currentY = scrollBody ? scrollBody.scrollTop : 0;
+            const currentHash = window.location.hash || '#streets';
+            try {
+              sessionStorage.setItem('streets_scroll_top_' + currentHash, currentY);
+              sessionStorage.setItem('streets_scroll_top', currentY);
+              sessionStorage.setItem('streets_last_slug', slug);
+            } catch (e) {}
+          });
+          card.innerHTML = `
+            <div class="street-index-title">${data.displayName}</div>
+            <div class="street-index-footer">
+              <span class="street-index-meta">${propText} • ${data.yearsSpan}</span>
+              <span class="street-index-badge">${badgeHTML}</span>
+            </div>
+          `;
+          currentGrid.appendChild(card);
+        });
+      }
+
+      isStreetsViewRendered = true;
+      lastRenderedStreetsYear = filterYear;
+      lastRenderedStreetsAuditFilter = currentAuditFilter;
+      lastRenderedStreetsEraFilter = currentEraFilter;
+      lastRenderedStreetsLetterFilter = currentLetterFilter;
+      lastRenderedStreetsQuery = currentStreetSearchQuery;
+      lastRenderedStreetsDisplayMode = currentStreetsDisplayMode;
     }
 
     let currentStreet = '';
@@ -1400,9 +1655,9 @@ function toggleMobileSidebar() {
                 attributionControl: false
               }).setView([parseFloat(lat), parseFloat(lon)], 16);
 
-              L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png?key=cb1_2yvg_1_ff40e3899c6af5a0c5f71e43', {
+              L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 maxZoom: 19,
-                subdomains: 'abcd'
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
               }).addTo(map);
 
               const goldIcon = L.divIcon({
@@ -2525,51 +2780,75 @@ function toggleMobileSidebar() {
       }
     }
 
-    function renderDirectoriesView() {
+    let currentDirectoryShelfEra = 'all';
+
+    function filterDirectoryShelf(era, btn) {
+      currentDirectoryShelfEra = era;
+      document.querySelectorAll('.directory-shelf-filters .filter-chip').forEach(b => {
+        b.style.background = '#FFFFFF';
+        b.style.color = 'var(--text-secondary)';
+        b.style.borderColor = 'var(--border-color)';
+        b.style.fontWeight = '500';
+      });
+      if (btn) {
+        btn.style.background = 'var(--accent)';
+        btn.style.color = '#FFFFFF';
+        btn.style.borderColor = 'var(--accent)';
+        btn.style.fontWeight = '600';
+      }
+      renderDirectoriesView(era);
+    }
+
+    function renderDirectoriesView(eraFilter = currentDirectoryShelfEra) {
       const container = document.getElementById('library-grid');
       if (!container) return;
 
-      // Define our directories list
-      // Processed directories have metadata (like record counts)
-      // Unprocessed directories are placeholders for the 1848-1974 range
+      // Master directory volumes list
       const directories = [
-        { year: 1848, name: "Hunt's Directory", processed: false },
-        { year: 1850, name: "Scammell's Directory", processed: false },
-        { year: 1865, name: "Morris' Directory", processed: false },
-        { year: 1878, name: "Johns' Directory", processed: true, records: 3267 },
-        { year: 1880, name: "Johns' Directory", processed: false },
-        { year: 1887, name: "Johns' Directory", processed: true, records: 7226 },
-        { year: 1890, name: "Johns' Directory", processed: true, records: 10222 },
-        { year: 1893, name: "Johns' Directory", processed: true, records: 10637 },
-        { year: 1894, name: "Johns' Directory", processed: true, records: 10549 },
-        { year: 1897, name: "Johns' Directory", processed: false },
-        { year: 1898, name: "Johns' Directory", processed: true, records: 12602 },
-        { year: 1899, name: "Johns' Directory", processed: true, records: 13023 },
-        { year: 1901, name: "Johns' Directory", processed: false },
-        { year: 1902, name: "Johns' Directory", processed: true, records: 14223 },
-        { year: 1903, name: "Johns' Directory", processed: true, records: 15809 },
-        { year: 1905, name: "Johns' Directory", processed: false },
-        { year: 1910, name: "Johns' Directory", processed: true, records: 12384 },
-        { year: 1914, name: "Johns' Directory", processed: false },
-        { year: 1920, name: "Johns' Directory", processed: false },
-        { year: 1927, name: "Johns' Directory", processed: true, records: 19069 },
-        { year: 1933, name: "Johns' Directory", processed: false },
-        { year: 1936, name: "Johns' Directory", processed: true, records: 40925 },
-        { year: 1938, name: "Johns' Directory", processed: false },
-        { year: 1946, name: "Johns' Directory", processed: false },
-        { year: 1950, name: "Johns' Directory", processed: false },
-        { year: 1961, name: "Johns' Directory", processed: false },
-        { year: 1971, name: "Johns' Directory", processed: true, records: 40925 },
-        { year: 1974, name: "Johns' Directory", processed: false }
-      ];
+        { year: 1848, name: "Hunt's Directory", processed: false, era: "victorian" },
+        { year: 1850, name: "Scammell's Directory", processed: false, era: "victorian" },
+        { year: 1865, name: "Morris' Directory", processed: false, era: "victorian" },
+        { year: 1878, name: "Johns' Directory", processed: true, records: 4647, era: "victorian" },
+        { year: 1880, name: "Johns' Directory", processed: false, era: "victorian" },
+        { year: 1882, name: "Johns' Directory", processed: true, records: 5704, era: "victorian" },
+        { year: 1886, name: "Johns' Directory", processed: true, records: 7623, era: "victorian" },
+        { year: 1887, name: "Johns' Directory", processed: true, records: 6754, era: "victorian" },
+        { year: 1890, name: "Johns' Directory", processed: true, records: 9030, era: "victorian" },
+        { year: 1892, name: "Johns' Directory", processed: true, records: 9256, era: "victorian" },
+        { year: 1893, name: "Johns' Directory", processed: true, records: 9780, era: "victorian" },
+        { year: 1894, name: "Johns' Directory", processed: true, records: 9908, era: "victorian" },
+        { year: 1895, name: "Johns' Directory", processed: true, records: 10373, era: "victorian" },
+        { year: 1897, name: "Johns' Directory", processed: false, era: "victorian" },
+        { year: 1898, name: "Johns' Directory", processed: true, records: 11867, era: "victorian" },
+        { year: 1899, name: "Johns' Directory", processed: true, records: 11694, era: "victorian" },
+        { year: 1900, name: "Johns' Directory", processed: true, records: 12123, era: "victorian" },
+        { year: 1901, name: "Johns' Directory", processed: true, records: 12653, era: "victorian" },
+        { year: 1902, name: "Johns' Directory", processed: true, records: 12596, era: "edwardian" },
+        { year: 1903, name: "Johns' Directory", processed: true, records: 13522, era: "edwardian" },
+        { year: 1905, name: "Johns' Directory", processed: false, era: "edwardian" },
+        { year: 1910, name: "Johns' Directory", processed: true, records: 14609, era: "edwardian" },
+        { year: 1913, name: "Johns' Directory", processed: true, records: 18532, era: "edwardian" },
+        { year: 1914, name: "Johns' Directory", processed: false, era: "edwardian" },
+        { year: 1915, name: "Johns' Directory", processed: true, records: 15584, era: "interwar" },
+        { year: 1920, name: "Johns' Directory", processed: true, records: 18607, era: "interwar" },
+        { year: 1924, name: "Johns' Directory", processed: true, records: 18613, era: "interwar" },
+        { year: 1925, name: "Johns' Directory", processed: true, records: 15285, era: "interwar" },
+        { year: 1927, name: "Johns' Directory", processed: true, records: 15852, era: "interwar" },
+        { year: 1933, name: "Johns' Directory", processed: false, era: "interwar" },
+        { year: 1936, name: "Johns' Directory", processed: true, records: 24737, era: "interwar" }
+      ].filter(d => d.year <= 1936);
 
       // Sort chronological
       directories.sort((a, b) => a.year - b.year);
 
+      const filteredDirs = eraFilter === 'all' 
+        ? directories 
+        : directories.filter(d => d.era === eraFilter);
+
       container.innerHTML = '';
       let colorIndex = 1;
 
-      directories.forEach(d => {
+      filteredDirs.forEach(d => {
         const div = document.createElement('div');
         div.className = 'book-container';
         
@@ -2578,7 +2857,7 @@ function toggleMobileSidebar() {
           colorIndex = (colorIndex % 5) + 1; // Cycle 1-5 colors
           
           div.innerHTML = `
-            <div class="book book-processed ${colorClass}" onclick="window.location.hash = '#directories=${d.year}'">
+            <div class="book book-processed ${colorClass}" onclick="window.location.hash = '#directories=${d.year}'" title="Browse ${d.year} Directory Streets">
               <div class="book-spine-accent"></div>
               <div class="book-cover">
                 <div class="book-title">${d.name}</div>
@@ -2591,7 +2870,7 @@ function toggleMobileSidebar() {
           `;
         } else {
           div.innerHTML = `
-            <div class="book book-unprocessed">
+            <div class="book book-unprocessed" title="${d.year} volume awaiting scanning/OCR">
               <div class="book-spine-accent"></div>
               <div class="book-cover">
                 <div class="book-title">${d.name}</div>
@@ -3167,7 +3446,7 @@ function toggleMobileSidebar() {
         const rawStreet = decodeURIComponent(window.location.hash.substring(8));
         renderStreetView(rawStreet);
       } else if (window.location.hash === '#streets') {
-        renderStreetsView();
+        renderStreetsView(null, true);
       }
     }
 
@@ -3289,7 +3568,7 @@ function toggleMobileSidebar() {
 
         saveSessionToLocalStorage();
         updateOverrideDrawer();
-        renderStreetsView();
+        renderStreetsView(null, true);
         alert(`📥 Successfully imported ${importCount} street records from CSV into your active session queue!`);
       };
       reader.readAsText(file);
@@ -3317,12 +3596,58 @@ function toggleMobileSidebar() {
       }
     });
 
-    // --- Navigation Router ---
+    // --- Breadcrumb Navigation Helper ---
+    function updateBreadcrumb(items) {
+      const container = document.getElementById('canvas-breadcrumb');
+      if (!container) return;
+      let html = '';
+      items.forEach((item, idx) => {
+        const isLast = idx === items.length - 1;
+        if (idx > 0) {
+          html += ' <i class="ph ph-caret-right"></i> ';
+        }
+        if (isLast || !item.href) {
+          html += `<span id="breadcrumb-current">${item.label}</span>`;
+        } else {
+          html += `<a href="${item.href}">${item.label}</a>`;
+        }
+      });
+      container.innerHTML = html;
+    }
+
+    // --- Navigation Router with Scroll Position Restoration ---
+    let previousHash = '';
+
+    function initScrollRestoration() {
+      const sb = document.querySelector('.canvas-scroll-body');
+      if (sb) {
+        sb.addEventListener('scroll', () => {
+          const h = window.location.hash || '#home';
+          if (h === '#streets' || h.startsWith('#directories')) {
+            try {
+              sessionStorage.setItem('streets_scroll_top_' + h, sb.scrollTop);
+              sessionStorage.setItem('streets_scroll_top', sb.scrollTop);
+            } catch (e) {}
+          }
+        }, { passive: true });
+      }
+    }
+
     async function navigate() {
       let hash = window.location.hash || '#home';
       if ((!hash || hash === '#home') && window.location.search && window.location.search.includes('#street=')) {
         hash = window.location.search.substring(window.location.search.indexOf('#street='));
       }
+
+      // Record scroll position before leaving current view
+      const scrollBody = document.querySelector('.canvas-scroll-body');
+      if (scrollBody && (previousHash === '#streets' || previousHash.startsWith('#directories'))) {
+        try {
+          sessionStorage.setItem('streets_scroll_top_' + previousHash, scrollBody.scrollTop);
+          sessionStorage.setItem('streets_scroll_top', scrollBody.scrollTop);
+        } catch (e) {}
+      }
+
       document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
       document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
 
@@ -3331,22 +3656,20 @@ function toggleMobileSidebar() {
 
       await loadMasterStreets();
 
-      const breadcrumbElem = document.getElementById('breadcrumb-current');
-
       if (hash.startsWith('#search=')) {
         const query = decodeURIComponent(hash.substring(8)).trim();
+        if (!query) {
+          window.location.hash = '#home';
+          return;
+        }
         const matched = masterStreetsList.find(s => cleanStr(s.displayName) === cleanStr(query));
         if (matched) {
           window.location.hash = `#street=${encodeURIComponent(matched.displayName)}`;
           return;
         } else {
-          document.getElementById('view-home').classList.add('active');
-          openCmdKModal();
-          const input = document.getElementById('cmd-k-input');
-          if (input) {
-            input.value = query;
-            handleCmdKInput();
-          }
+          await renderSearchView(query);
+          document.getElementById('view-search').classList.add('active');
+          updateBreadcrumb([{ label: 'Home', href: '#home' }, { label: `Search: "${query}"` }]);
         }
       } else if (hash.startsWith('#street=')) {
         const rawStreet = decodeURIComponent(hash.substring(8));
@@ -3354,7 +3677,11 @@ function toggleMobileSidebar() {
         document.getElementById('view-street').classList.add('active');
         const navItem = document.getElementById('nav-streets');
         if (navItem) navItem.classList.add('active');
-        if (breadcrumbElem) breadcrumbElem.innerText = rawStreet;
+        updateBreadcrumb([
+          { label: 'Home', href: '#home' },
+          { label: 'All Streets', href: '#streets' },
+          { label: rawStreet }
+        ]);
       } else if (hash.startsWith('#house=')) {
         const parts = decodeURIComponent(hash.substring(7)).split('|');
         const street = parts[0] || '';
@@ -3364,24 +3691,51 @@ function toggleMobileSidebar() {
         }
         document.getElementById('view-street').classList.add('active');
         openInspectorDrawer(locKey);
-        if (breadcrumbElem) breadcrumbElem.innerText = `${street} • ${locKey}`;
+        updateBreadcrumb([
+          { label: 'Home', href: '#home' },
+          { label: 'All Streets', href: '#streets' },
+          { label: street, href: `#street=${encodeURIComponent(street)}` },
+          { label: locKey }
+        ]);
       } else if (hash === '#streets') {
         renderStreetsView();
         document.getElementById('view-streets').classList.add('active');
         const navItem = document.getElementById('nav-streets');
         if (navItem) navItem.classList.add('active');
-        if (breadcrumbElem) breadcrumbElem.innerText = 'All Streets Index';
-      } else if (hash === '#directories') {
-        renderDirectoriesView();
-        document.getElementById('view-directories').classList.add('active');
-        const navItem = document.getElementById('nav-directories');
-        if (navItem) navItem.classList.add('active');
-        if (breadcrumbElem) breadcrumbElem.innerText = 'Directories Library';
+        updateBreadcrumb([
+          { label: 'Home', href: '#home' },
+          { label: 'All Streets Index' }
+        ]);
+      } else if (hash === '#directories' || hash.startsWith('#directories=')) {
+        if (hash.startsWith('#directories=')) {
+          const yr = hash.substring(13);
+          renderStreetsView(yr);
+          document.getElementById('view-streets').classList.add('active');
+          const navItem = document.getElementById('nav-streets');
+          if (navItem) navItem.classList.add('active');
+          updateBreadcrumb([
+            { label: 'Home', href: '#home' },
+            { label: 'Directories Library', href: '#directories' },
+            { label: `Streets (${yr} Directory)` }
+          ]);
+        } else {
+          renderDirectoriesView();
+          document.getElementById('view-directories').classList.add('active');
+          const navItem = document.getElementById('nav-directories');
+          if (navItem) navItem.classList.add('active');
+          updateBreadcrumb([
+            { label: 'Home', href: '#home' },
+            { label: 'Directories Library' }
+          ]);
+        }
       } else {
         document.getElementById('view-home').classList.add('active');
         const navItem = document.getElementById('nav-home');
         if (navItem) navItem.classList.add('active');
-        if (breadcrumbElem) breadcrumbElem.innerText = 'Overview';
+        updateBreadcrumb([
+          { label: 'Home', href: '#home' },
+          { label: 'Overview' }
+        ]);
       }
 
       // Close mobile navigation sidebar on link click
@@ -3390,15 +3744,57 @@ function toggleMobileSidebar() {
       if (mobileSidebar) mobileSidebar.classList.remove('mobile-open');
       if (mobileBackdrop) mobileBackdrop.classList.remove('mobile-open');
 
-      window.scrollTo(0, 0);
+      // Scroll position restoration for Streets / Directories Index
+      if (hash === '#streets' || hash.startsWith('#directories')) {
+        let savedY = null;
+        try {
+          const savedStr = sessionStorage.getItem('streets_scroll_top_' + hash) || sessionStorage.getItem('streets_scroll_top');
+          if (savedStr !== null) savedY = parseInt(savedStr, 10);
+        } catch (e) {}
+
+        const lastSlug = sessionStorage.getItem('streets_last_slug');
+
+        const restoreScroll = () => {
+          const sb = document.querySelector('.canvas-scroll-body');
+          if (!sb) return;
+          if (savedY !== null && savedY > 0) {
+            sb.scrollTop = savedY;
+          }
+          if (lastSlug) {
+            const card = document.getElementById(`street-card-${lastSlug}`);
+            if (card) {
+              const rect = card.getBoundingClientRect();
+              const sbRect = sb.getBoundingClientRect();
+              if (rect.top < sbRect.top || rect.bottom > sbRect.bottom) {
+                card.scrollIntoView({ block: 'center', behavior: 'auto' });
+              }
+            }
+          }
+        };
+
+        requestAnimationFrame(() => {
+          restoreScroll();
+          setTimeout(restoreScroll, 50);
+        });
+      } else {
+        // When opening street canvas or home, scroll canvas body to top
+        const sb = document.querySelector('.canvas-scroll-body');
+        if (sb) sb.scrollTop = 0;
+        window.scrollTo(0, 0);
+      }
+
+      previousHash = hash;
     }
 
     window.addEventListener('hashchange', navigate);
     window.addEventListener('DOMContentLoaded', async () => {
       checkEditorMode();
+      initScrollRestoration();
       await loadMasterStreets();
       loadSessionFromLocalStorage();
       await navigate();
+      // Pre-warm search index in background for instant search & autocomplete response
+      setTimeout(() => loadSearchIndex(), 500);
     });
 
     // --- Original Directory Scan Inspector Logic ---
@@ -3672,3 +4068,10 @@ function toggleMobileSidebar() {
     window.openPersonTimelineModal = openPersonTimelineModal;
     window.closePersonTimelineModal = closePersonTimelineModal;
     window.copyPersonTimelineText = copyPersonTimelineText;
+    window.setStreetEraFilter = setStreetEraFilter;
+    window.setStreetAuditFilter = setStreetAuditFilter;
+    window.handleStreetFilterInput = handleStreetFilterInput;
+    window.clearStreetFilter = clearStreetFilter;
+    window.setStreetsDisplayMode = setStreetsDisplayMode;
+    window.toggleAuditFilters = toggleAuditFilters;
+    window.setLetterFilter = setLetterFilter;
