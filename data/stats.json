@@ -1,12 +1,12 @@
 {
   "meta": {
     "total_records": 331328,
-    "total_with_trade": 223022,
+    "total_with_trade": 223024,
     "pct_with_trade": 67.3,
     "total_streets": 1029,
     "total_years": 27,
     "years_span": "1876\u20131936",
-    "unique_trade_strings": 27383
+    "unique_trade_strings": 27363
   },
   "yearly_overview": [
     {
@@ -44,7 +44,7 @@
     {
       "year": "1887",
       "total": 6824,
-      "with_trade": 5181,
+      "with_trade": 5182,
       "pct": 75.9,
       "trades_in_names": 18,
       "names_in_trades": 50
@@ -204,7 +204,7 @@
     {
       "year": "1925",
       "total": 19063,
-      "with_trade": 11969,
+      "with_trade": 11970,
       "pct": 62.8,
       "trades_in_names": 41,
       "names_in_trades": 56
@@ -1447,7 +1447,7 @@
     },
     {
       "trade": "Ironworker",
-      "count": 7631,
+      "count": 7632,
       "earliest": 1882,
       "latest": 1936
     },
@@ -1531,7 +1531,7 @@
     },
     {
       "trade": "Tailor",
-      "count": 1953,
+      "count": 1954,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1662,13 +1662,13 @@
       "latest": 1936
     },
     {
-      "trade": "Signalman",
-      "count": 903,
+      "trade": "Shopkeeper",
+      "count": 923,
       "earliest": 1878,
       "latest": 1936
     },
     {
-      "trade": "Shopkeeper",
+      "trade": "Signalman",
       "count": 903,
       "earliest": 1878,
       "latest": 1936
@@ -1817,7 +1817,7 @@
       "1900s": 318,
       "1910s": 2063,
       "1920s": 3182,
-      "1930s": 1026
+      "1930s": 1027
     },
     "Steelworker": {
       "1870s": 0,
@@ -1937,7 +1937,7 @@
       "1930s": 111
     },
     "Tailor": {
-      "1870s": 46,
+      "1870s": 47,
       "1880s": 176,
       "1890s": 577,
       "1900s": 342,
@@ -2102,7 +2102,7 @@
       {
         "street": "Shaftesbury Street",
         "count": 145,
-        "total": 1691,
+        "total": 1692,
         "pct": 8.6
       }
     ],
@@ -2521,7 +2521,7 @@
       },
       {
         "trade": "Shopkeeper",
-        "count": 150
+        "count": 157
       },
       {
         "trade": "Tobacconist",
@@ -2568,6 +2568,10 @@
         "count": 44
       },
       {
+        "trade": "General Shop",
+        "count": 42
+      },
+      {
         "trade": "Wardrobe Dealer",
         "count": 36
       },
@@ -2601,10 +2605,6 @@
       },
       {
         "trade": "Matron",
-        "count": 21
-      },
-      {
-        "trade": "General Shop",
         "count": 21
       }
     ]
@@ -2743,6 +2743,12 @@
       "latest": 1915
     },
     {
+      "trade": "Clothes Dealer",
+      "count": 36,
+      "earliest": 1878,
+      "latest": 1920
+    },
+    {
       "trade": "Railway Police",
       "count": 36,
       "earliest": 1878,
@@ -2753,12 +2759,6 @@
       "count": 34,
       "earliest": 1878,
       "latest": 1913
-    },
-    {
-      "trade": "Brazier",
-      "count": 34,
-      "earliest": 1878,
-      "latest": 1920
     }
   ],
   "emerging_trades": [
