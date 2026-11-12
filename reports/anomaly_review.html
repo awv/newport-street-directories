@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Newport Directory Anomaly Audit Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root {
+      --bg: #F9F8F6;
+      --card-bg: #FFFFFF;
+      --border: #E5E0D8;
+      --text: #2C2825;
+      --muted: #6B655F;
+      --primary: #8C2522;
+      --primary-hover: #731E1B;
+      --accent: #2B547E;
+      --success: #2E7D32;
+      --warning: #ED6C02;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      padding: 24px;
+    }
+    header {
+      max-width: 1400px;
+      margin: 0 auto 24px auto;
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 16px;
+    }
+    h1 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 6px;
+    }
+    .subtitle {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    .metrics-bar {
+      display: flex;
+      gap: 16px;
+      margin: 20px 0;
+      flex-wrap: wrap;
+    }
+    .metric-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px 18px;
+      min-width: 150px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    }
+    .metric-card .label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--muted);
+      font-weight: 600;
+    }
+    .metric-card .val {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: var(--primary);
+    }
+    .controls {
+      max-width: 1400px;
+      margin: 0 auto 20px auto;
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      background: var(--card-bg);
+      padding: 16px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+    }
+    .control-group {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .control-group label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--muted);
+      text-transform: uppercase;
+    }
+    input, select {
+      padding: 8px 12px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-size: 0.9rem;
+      background: #FFF;
+      color: var(--text);
+    }
+    input:focus, select:focus {
+      outline: none;
+      border-color: var(--primary);
+    }
+    .table-container {
+      max-width: 1400px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow-x: auto;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.85rem;
+    }
+    th, td {
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--border);
+      text-align: left;
+    }
+    th {
+      background: #F3EFEA;
+      color: var(--text);
+      font-weight: 600;
+      position: sticky;
+      top: 0;
+      z-index: 2;
+    }
+    tr:hover td {
+      background: #FAF7F2;
+    }
+    .tag {
+      display: inline-block;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.72rem;
+      font-weight: 600;
+    }
+    .tag-category { background: #E8EEF5; color: var(--accent); }
+    .tag-high { background: #E8F5E9; color: var(--success); }
+    .tag-med { background: #FFF3E0; color: var(--warning); }
+    .diff-box {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      font-size: 0.8rem;
+    }
+    .raw-view {
+      background: #FFF0F0;
+      padding: 6px 8px;
+      border-radius: 4px;
+      border: 1px solid #FFCDD2;
+      color: #900;
+    }
+    .healed-view {
+      background: #F0FFF4;
+      padding: 6px 8px;
+      border-radius: 4px;
+      border: 1px solid #C8E6C9;
+      color: #060;
+    }
+    .field-lbl {
+      font-size: 0.68rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-right: 4px;
+    }
+    .pagination-bar {
+      max-width: 1400px;
+      margin: 16px auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+    .btn {
+      padding: 6px 14px;
+      border: 1px solid var(--border);
+      background: #FFF;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.85rem;
+    }
+    .btn:hover {
+      background: #F0EAE1;
+    }
+    .btn:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Newport Street Directory Anomaly Audit</h1>
+    <div class="subtitle">
+      Automated layout diagnostic scanning 319k+ historical records (1835–1936).
+      Zero-screenshot review for column shifts, trapped buildings, trades in names, and split entities.
+    </div>
+
+    <div class="metrics-bar">
+      <div class="metric-card">
+        <div class="label">Total Detected</div>
+        <div class="val">0</div>
+      </div>
+      <div class="metric-card">
+        <div class="label">Shifted Trades</div>
+        <div class="val">0</div>
+      </div>
+      <div class="metric-card">
+        <div class="label">Business Entities</div>
+        <div class="val">0</div>
+      </div>
+      <div class="metric-card">
+        <div class="label">Trapped Buildings</div>
+        <div class="val">0</div>
+      </div>
+      <div class="metric-card">
+        <div class="label">1936 Split Names</div>
+        <div class="val">0</div>
+      </div>
+      <div class="metric-card">
+        <div class="label">Rotated Columns</div>
+        <div class="val">0</div>
+      </div>
+      <div class="metric-card">
+        <div class="label">High Confidence</div>
+        <div class="val">0</div>
+      </div>
+    </div>
+  </header>
+
+  <div class="controls">
+    <div class="control-group" style="flex: 2;">
+      <label>Search Text / Resident / Street</label>
+      <input type="text" id="searchInput" placeholder="Filter by street, name, or occupation...">
+    </div>
+    <div class="control-group" style="flex: 1;">
+      <label>Category Filter</label>
+      <select id="catSelect">
+        <option value="">All Categories (0)</option>
+        <option value="SHIFTED_NAME_IN_TRADE">Shifted Name in Trade (0)</option>
+        <option value="BUSINESS_ENTITY_IN_TRADE">Business Entity in Trade (0)</option>
+        <option value="BUILDING_IN_NAME">Building in Name (0)</option>
+        <option value="SPLIT_1936_NAMES">1936 Split Names (0)</option>
+        <option value="ROTATED_COLUMNS">Rotated Columns (0)</option>
+        <option value="TRADE_BLEED_IN_FORENAME">Trade Bleed in Forename (0)</option>
+        <option value="NAME_SPLIT_IN_TRADE">Name Split in Trade (0)</option>
+      </select>
+    </div>
+    <div class="control-group">
+      <label>Confidence</label>
+      <select id="confSelect">
+        <option value="">All Confidence</option>
+        <option value="HIGH">High (0)</option>
+        <option value="MEDIUM">Medium (0)</option>
+      </select>
+    </div>
+    <div class="control-group">
+      <label>Directory Year</label>
+      <input type="text" id="yearInput" placeholder="e.g. 1927" style="width: 100px;">
+    </div>
+  </div>
+
+  <div class="pagination-bar">
+    <div id="statusText">Showing 1–50 of 0 records</div>
+    <div>
+      <button class="btn" id="prevBtn" onclick="prevPage()">Previous</button>
+      <button class="btn" id="nextBtn" onclick="nextPage()">Next</button>
+    </div>
+  </div>
+
+  <div class="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th style="width: 60px;">Year</th>
+          <th style="width: 180px;">Street & House</th>
+          <th style="width: 160px;">Category</th>
+          <th>Raw Extracted Record vs Proposed Cleaned Record</th>
+          <th style="width: 240px;">Diagnostic Note</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody"></tbody>
+    </table>
+  </div>
+
+  <script>
+    const anomalies = [];
+    let filtered = [...anomalies];
+    let currentPage = 1;
+    const pageSize = 50;
+
+    const searchInput = document.getElementById('searchInput');
+    const catSelect = document.getElementById('catSelect');
+    const confSelect = document.getElementById('confSelect');
+    const yearInput = document.getElementById('yearInput');
+    const tableBody = document.getElementById('tableBody');
+    const statusText = document.getElementById('statusText');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+
+    function applyFilter() {
+      const q = searchInput.value.toLowerCase().trim();
+      const cat = catSelect.value;
+      const conf = confSelect.value;
+      const yr = yearInput.value.trim();
+
+      filtered = anomalies.filter(r => {
+        if (cat && r.category !== cat) return false;
+        if (conf && r.confidence !== conf) return false;
+        if (yr && r.year !== yr) return false;
+        if (q) {
+          const str = (r.street + ' ' + r.raw_surname + ' ' + r.raw_forename + ' ' + r.raw_trade + ' ' + r.explanation).toLowerCase();
+          if (!str.includes(q)) return false;
+        }
+        return true;
+      });
+
+      currentPage = 1;
+      render();
+    }
+
+    function render() {
+      const start = (currentPage - 1) * pageSize;
+      const end = Math.min(start + pageSize, filtered.length);
+      const slice = filtered.slice(start, end);
+
+      statusText.innerText = `Showing ${filtered.length ? start + 1 : 0}–${end} of ${filtered.length} matching anomalies (Total: ${anomalies.length})`;
+      prevBtn.disabled = currentPage === 1;
+      nextBtn.disabled = end >= filtered.length;
+
+      let html = '';
+      for (const r of slice) {
+        const confClass = r.confidence === 'HIGH' ? 'tag-high' : 'tag-med';
+        html += `<tr>
+          <td><strong>${r.year}</strong></td>
+          <td>
+            <strong>${r.street}</strong><br>
+            <span style="color: var(--muted);">${r.raw_house_number ? 'No. ' + r.raw_house_number : 'Unnumbered'}</span>
+          </td>
+          <td>
+            <span class="tag tag-category">${r.category}</span><br>
+            <span class="tag ${confClass}" style="margin-top: 4px;">${r.confidence} CONFIDENCE</span>
+          </td>
+          <td>
+            <div class="diff-box">
+              <div class="raw-view">
+                <div><span class="field-lbl">Building:</span> ${r.raw_building_name || '—'}</div>
+                <div><span class="field-lbl">Surname:</span> ${r.raw_surname || '<em style="color:#888;">(blank / vacant)</em>'}</div>
+                <div><span class="field-lbl">Forename:</span> ${r.raw_forename || '—'}</div>
+                <div><span class="field-lbl">Trade:</span> ${r.raw_trade || '—'}</div>
+              </div>
+              <div class="healed-view">
+                <div><span class="field-lbl">Building:</span> ${r.healed_building_name || '—'}</div>
+                <div><span class="field-lbl">Surname:</span> <strong>${r.healed_surname || '—'}</strong></div>
+                <div><span class="field-lbl">Forename:</span> ${r.healed_forename || '—'}</div>
+                <div><span class="field-lbl">Trade:</span> ${r.healed_trade || '—'}</div>
+              </div>
+            </div>
+          </td>
+          <td style="font-size: 0.8rem; color: #4A443F;">${r.explanation}</td>
+        </tr>`;
+      }
+
+      if (!slice.length) {
+        html = '<tr><td colspan="5" style="text-align: center; padding: 40px; color: var(--muted);">No matching anomalies found.</td></tr>';
+      }
+      tableBody.innerHTML = html;
+    }
+
+    function prevPage() {
+      if (currentPage > 1) { currentPage--; render(); }
+    }
+    function nextPage() {
+      if ((currentPage * pageSize) < filtered.length) { currentPage++; render(); }
+    }
+
+    searchInput.addEventListener('input', applyFilter);
+    catSelect.addEventListener('change', applyFilter);
+    confSelect.addEventListener('change', applyFilter);
+    yearInput.addEventListener('input', applyFilter);
+
+    render();
+  </script>
+</body>
+</html>
