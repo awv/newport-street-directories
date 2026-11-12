@@ -435,6 +435,16 @@ TRADE_ABBREV_MAP = {
     'marine engr': 'marine engineer',
     'marine engnr': 'marine engineer',
     'mar. engr': 'marine engineer',
+    'mstr marinr': 'master mariner',
+    'mstr. mariner': 'master mariner',
+    'mas. marinr': 'master mariner',
+    'mas. mariner': 'master mariner',
+    'mas. mar\'nr': 'master mariner',
+    'mastr marinr': 'master mariner',
+    'marinr': 'mariner',
+    'schoolmstr': 'schoolmaster',
+    'berthing mstr': 'berthing master',
+
 
 
 

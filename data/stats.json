@@ -6,7 +6,7 @@
     "total_streets": 1029,
     "total_years": 27,
     "years_span": "1876\u20131936",
-    "unique_trade_strings": 27661
+    "unique_trade_strings": 27623
   },
   "yearly_overview": [
     {
@@ -1729,7 +1729,7 @@
     },
     {
       "trade": "Mariner",
-      "count": 726,
+      "count": 732,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1783,7 +1783,7 @@
     },
     {
       "trade": "Master Mariner",
-      "count": 529,
+      "count": 563,
       "earliest": 1878,
       "latest": 1936
     },
