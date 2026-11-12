@@ -6,7 +6,7 @@
     "total_streets": 1029,
     "total_years": 27,
     "years_span": "1876\u20131936",
-    "unique_trade_strings": 28077
+    "unique_trade_strings": 27906
   },
   "yearly_overview": [
     {
@@ -47,7 +47,7 @@
       "with_trade": 5180,
       "pct": 75.9,
       "trades_in_names": 18,
-      "names_in_trades": 51
+      "names_in_trades": 50
     },
     {
       "year": "1890",
@@ -151,7 +151,7 @@
       "with_trade": 10384,
       "pct": 69.2,
       "trades_in_names": 16,
-      "names_in_trades": 113
+      "names_in_trades": 112
     },
     {
       "year": "1908",
@@ -183,7 +183,7 @@
       "with_trade": 10947,
       "pct": 63.5,
       "trades_in_names": 14,
-      "names_in_trades": 61
+      "names_in_trades": 60
     },
     {
       "year": "1920",
@@ -883,8 +883,8 @@
     ]
   },
   "names_in_trades": {
-    "total_detected": 990,
-    "initials_as_trade_count": 278,
+    "total_detected": 987,
+    "initials_as_trade_count": 275,
     "forenames_as_trade_count": 712,
     "top_names": [
       {
@@ -1012,7 +1012,7 @@
       "1878": 5,
       "1882": 17,
       "1886": 12,
-      "1887": 51,
+      "1887": 50,
       "1890": 24,
       "1892": 10,
       "1893": 18,
@@ -1024,11 +1024,11 @@
       "1901": 16,
       "1902": 26,
       "1903": 48,
-      "1906": 113,
+      "1906": 112,
       "1908": 122,
       "1910": 48,
       "1913": 55,
-      "1915": 61,
+      "1915": 60,
       "1920": 45,
       "1924": 42,
       "1925": 56,
@@ -1513,7 +1513,7 @@
     },
     {
       "trade": "Grocer",
-      "count": 2652,
+      "count": 2670,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1525,7 +1525,7 @@
     },
     {
       "trade": "Butcher",
-      "count": 2016,
+      "count": 2036,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1596,6 +1596,12 @@
       "latest": 1936
     },
     {
+      "trade": "Greengrocer",
+      "count": 1280,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
       "trade": "Fireman",
       "count": 1233,
       "earliest": 1878,
@@ -1604,12 +1610,6 @@
     {
       "trade": "Traveller",
       "count": 1196,
-      "earliest": 1878,
-      "latest": 1936
-    },
-    {
-      "trade": "Greengrocer",
-      "count": 1180,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1639,7 +1639,7 @@
     },
     {
       "trade": "Hairdresser",
-      "count": 1025,
+      "count": 1052,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1764,6 +1764,12 @@
       "latest": 1936
     },
     {
+      "trade": "Tobacconist",
+      "count": 601,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
       "trade": "Crane Driver",
       "count": 570,
       "earliest": 1886,
@@ -1790,12 +1796,6 @@
     {
       "trade": "Sailor",
       "count": 517,
-      "earliest": 1878,
-      "latest": 1936
-    },
-    {
-      "trade": "Mechanic",
-      "count": 499,
       "earliest": 1878,
       "latest": 1936
     }
@@ -1928,12 +1928,12 @@
       "1930s": 162
     },
     "Grocer": {
-      "1870s": 89,
+      "1870s": 90,
       "1880s": 259,
-      "1890s": 705,
+      "1890s": 706,
       "1900s": 451,
-      "1910s": 320,
-      "1920s": 491,
+      "1910s": 326,
+      "1920s": 501,
       "1930s": 111
     },
     "Tailor": {
@@ -1946,12 +1946,12 @@
       "1930s": 68
     },
     "Butcher": {
-      "1870s": 32,
+      "1870s": 33,
       "1880s": 126,
       "1890s": 401,
       "1900s": 303,
-      "1910s": 333,
-      "1920s": 430,
+      "1910s": 335,
+      "1920s": 444,
       "1930s": 156
     },
     "Baker": {
@@ -2017,27 +2017,27 @@
     "commercial": [
       {
         "street": "Commercial Road",
-        "count": 866,
+        "count": 905,
         "total": 4045,
-        "pct": 21.4
+        "pct": 22.4
       },
       {
         "street": "Commercial Street",
-        "count": 500,
+        "count": 512,
         "total": 5398,
-        "pct": 9.3
+        "pct": 9.5
       },
       {
         "street": "Chepstow Road",
-        "count": 389,
+        "count": 416,
         "total": 3018,
-        "pct": 12.9
+        "pct": 13.8
       },
       {
         "street": "Corporation Road",
-        "count": 373,
+        "count": 379,
         "total": 2920,
-        "pct": 12.8
+        "pct": 13.0
       },
       {
         "street": "Church Road",
@@ -2047,33 +2047,39 @@
       },
       {
         "street": "Caerleon Road",
-        "count": 248,
+        "count": 261,
         "total": 2720,
-        "pct": 9.1
+        "pct": 9.6
       },
       {
         "street": "Malpas Road",
-        "count": 214,
+        "count": 218,
         "total": 2037,
-        "pct": 10.5
+        "pct": 10.7
       },
       {
         "street": "High Street",
-        "count": 206,
+        "count": 217,
         "total": 2774,
-        "pct": 7.4
+        "pct": 7.8
       },
       {
         "street": "Market (provision)",
-        "count": 202,
+        "count": 204,
         "total": 470,
-        "pct": 43.0
+        "pct": 43.4
       },
       {
         "street": "Clarence Place",
-        "count": 175,
+        "count": 179,
         "total": 1020,
-        "pct": 17.2
+        "pct": 17.5
+      },
+      {
+        "street": "Bridge Street",
+        "count": 171,
+        "total": 1440,
+        "pct": 11.9
       },
       {
         "street": "Blewitt Street",
@@ -2082,28 +2088,22 @@
         "pct": 12.1
       },
       {
-        "street": "Bridge Street",
-        "count": 163,
-        "total": 1440,
-        "pct": 11.3
-      },
-      {
         "street": "Duckpool Road",
-        "count": 153,
+        "count": 154,
         "total": 2347,
-        "pct": 6.5
+        "pct": 6.6
       },
       {
         "street": "Alexandra Road",
-        "count": 145,
+        "count": 148,
         "total": 1167,
-        "pct": 12.4
+        "pct": 12.7
       },
       {
         "street": "Shaftesbury Street",
-        "count": 137,
+        "count": 144,
         "total": 1690,
-        "pct": 8.1
+        "pct": 8.5
       }
     ],
     "industrial": [
@@ -2433,9 +2433,9 @@
       },
       {
         "street": "Commercial Road",
-        "count": 41,
+        "count": 43,
         "total": 4045,
-        "pct": 1.0
+        "pct": 1.1
       },
       {
         "street": "Kensington Place",
@@ -2476,7 +2476,7 @@
     ]
   },
   "women_in_directories": {
-    "total_female_heads": 34452,
+    "total_female_heads": 34453,
     "by_year": {
       "1876": 0,
       "1878": 486,
@@ -2492,7 +2492,7 @@
       "1899": 1165,
       "1900": 1212,
       "1901": 1254,
-      "1902": 1258,
+      "1902": 1259,
       "1903": 1312,
       "1905": 0,
       "1906": 1380,
@@ -2513,31 +2513,27 @@
       },
       {
         "trade": "Dressmaker",
-        "count": 248
+        "count": 333
       },
       {
         "trade": "Grocer",
-        "count": 229
+        "count": 233
       },
       {
         "trade": "Shopkeeper",
         "count": 150
       },
       {
+        "trade": "Tobacconist",
+        "count": 117
+      },
+      {
         "trade": "Confectioner",
         "count": 99
       },
       {
-        "trade": "Tobacconist",
-        "count": 81
-      },
-      {
-        "trade": "Dressmkr",
-        "count": 81
-      },
-      {
         "trade": "Greengrocer",
-        "count": 78
+        "count": 99
       },
       {
         "trade": "Milliner",
@@ -2546,6 +2542,10 @@
       {
         "trade": "Laundress",
         "count": 58
+      },
+      {
+        "trade": "Butcher",
+        "count": 54
       },
       {
         "trade": "School",
@@ -2560,16 +2560,16 @@
         "count": 51
       },
       {
-        "trade": "Butcher",
-        "count": 51
-      },
-      {
         "trade": "Draper",
         "count": 50
       },
       {
         "trade": "Fruiterer",
         "count": 44
+      },
+      {
+        "trade": "Wardrobe Dealer",
+        "count": 36
       },
       {
         "trade": "Caretaker",
@@ -2593,7 +2593,7 @@
       },
       {
         "trade": "Hairdresser",
-        "count": 26
+        "count": 27
       },
       {
         "trade": "General Shop",
@@ -2604,8 +2604,8 @@
         "count": 21
       },
       {
-        "trade": "Tailoress",
-        "count": 20
+        "trade": "Restaurant",
+        "count": 21
       }
     ]
   },
@@ -2642,7 +2642,7 @@
     },
     {
       "trade": "Coal Dealer",
-      "count": 93,
+      "count": 99,
       "earliest": 1878,
       "latest": 1920
     },
@@ -2671,16 +2671,16 @@
       "latest": 1913
     },
     {
+      "trade": "Grocer & Baker",
+      "count": 51,
+      "earliest": 1878,
+      "latest": 1915
+    },
+    {
       "trade": "Chairmaker",
       "count": 50,
       "earliest": 1878,
       "latest": 1901
-    },
-    {
-      "trade": "Grocer & Baker",
-      "count": 48,
-      "earliest": 1878,
-      "latest": 1915
     },
     {
       "trade": "Enginemn",
@@ -2797,7 +2797,7 @@
     "counts": {
       "ditto_variants": 33,
       "pure_symbols": 1,
-      "single_initial_trade": 278,
+      "single_initial_trade": 275,
       "numbers_in_trade": 39,
       "short_tokens": 0,
       "spillover_suffix": 213
