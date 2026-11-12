@@ -6,7 +6,7 @@
     "total_streets": 1029,
     "total_years": 27,
     "years_span": "1876\u20131936",
-    "unique_trade_strings": 27906
+    "unique_trade_strings": 27746
   },
   "yearly_overview": [
     {
@@ -1567,7 +1567,7 @@
     },
     {
       "trade": "Baker",
-      "count": 1508,
+      "count": 1511,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1723,7 +1723,7 @@
     },
     {
       "trade": "Draper",
-      "count": 731,
+      "count": 742,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1765,7 +1765,7 @@
     },
     {
       "trade": "Tobacconist",
-      "count": 601,
+      "count": 602,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1958,8 +1958,8 @@
       "1870s": 24,
       "1880s": 135,
       "1890s": 366,
-      "1900s": 218,
-      "1910s": 196,
+      "1900s": 219,
+      "1910s": 198,
       "1920s": 306,
       "1930s": 126
     },
@@ -2017,25 +2017,25 @@
     "commercial": [
       {
         "street": "Commercial Road",
-        "count": 905,
+        "count": 910,
         "total": 4045,
-        "pct": 22.4
+        "pct": 22.5
       },
       {
         "street": "Commercial Street",
-        "count": 512,
+        "count": 514,
         "total": 5398,
         "pct": 9.5
       },
       {
         "street": "Chepstow Road",
-        "count": 416,
+        "count": 417,
         "total": 3018,
         "pct": 13.8
       },
       {
         "street": "Corporation Road",
-        "count": 379,
+        "count": 380,
         "total": 2920,
         "pct": 13.0
       },
@@ -2047,7 +2047,7 @@
       },
       {
         "street": "Caerleon Road",
-        "count": 261,
+        "count": 262,
         "total": 2720,
         "pct": 9.6
       },
@@ -2089,7 +2089,7 @@
       },
       {
         "street": "Duckpool Road",
-        "count": 154,
+        "count": 155,
         "total": 2347,
         "pct": 6.6
       },
@@ -2513,7 +2513,7 @@
       },
       {
         "trade": "Dressmaker",
-        "count": 333
+        "count": 339
       },
       {
         "trade": "Grocer",
@@ -2596,15 +2596,15 @@
         "count": 27
       },
       {
+        "trade": "Boarding House",
+        "count": 23
+      },
+      {
         "trade": "General Shop",
         "count": 21
       },
       {
         "trade": "Lodgings",
-        "count": 21
-      },
-      {
-        "trade": "Restaurant",
         "count": 21
       }
     ]
@@ -2617,6 +2617,12 @@
       "latest": 1915
     },
     {
+      "trade": "Cab Proprietor",
+      "count": 259,
+      "earliest": 1878,
+      "latest": 1920
+    },
+    {
       "trade": "Factory Hand",
       "count": 213,
       "earliest": 1878,
@@ -2625,12 +2631,6 @@
     {
       "trade": "Cabman",
       "count": 183,
-      "earliest": 1878,
-      "latest": 1920
-    },
-    {
-      "trade": "Cab Proprietor",
-      "count": 149,
       "earliest": 1878,
       "latest": 1920
     },
@@ -2665,16 +2665,16 @@
       "latest": 1915
     },
     {
+      "trade": "Grocer & Baker",
+      "count": 54,
+      "earliest": 1878,
+      "latest": 1915
+    },
+    {
       "trade": "Factory Hd",
       "count": 52,
       "earliest": 1878,
       "latest": 1913
-    },
-    {
-      "trade": "Grocer & Baker",
-      "count": 51,
-      "earliest": 1878,
-      "latest": 1915
     },
     {
       "trade": "Chairmaker",
@@ -2732,7 +2732,13 @@
     },
     {
       "trade": "Coffee Tavern",
-      "count": 37,
+      "count": 41,
+      "earliest": 1882,
+      "latest": 1915
+    },
+    {
+      "trade": "Brassfounder",
+      "count": 40,
       "earliest": 1882,
       "latest": 1915
     },
@@ -2741,12 +2747,6 @@
       "count": 36,
       "earliest": 1878,
       "latest": 1910
-    },
-    {
-      "trade": "Pawnbroker And Outfitter",
-      "count": 35,
-      "earliest": 1886,
-      "latest": 1902
     },
     {
       "trade": "Baller",
@@ -2791,6 +2791,12 @@
       "count": 40,
       "earliest": 1920,
       "latest": 1927
+    },
+    {
+      "trade": "Taxi Proprietor",
+      "count": 34,
+      "earliest": 1920,
+      "latest": 1936
     }
   ],
   "anomalies": {
