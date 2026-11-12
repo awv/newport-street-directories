@@ -6,7 +6,7 @@
     "total_streets": 1029,
     "total_years": 27,
     "years_span": "1876\u20131936",
-    "unique_trade_strings": 27746
+    "unique_trade_strings": 27661
   },
   "yearly_overview": [
     {
@@ -1543,7 +1543,7 @@
     },
     {
       "trade": "Engineer",
-      "count": 1733,
+      "count": 1753,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1765,7 +1765,7 @@
     },
     {
       "trade": "Tobacconist",
-      "count": 602,
+      "count": 604,
       "earliest": 1878,
       "latest": 1936
     },
@@ -2089,7 +2089,7 @@
       },
       {
         "street": "Duckpool Road",
-        "count": 155,
+        "count": 156,
         "total": 2347,
         "pct": 6.6
       },
