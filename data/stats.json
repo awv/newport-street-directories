@@ -1,12 +1,12 @@
 {
   "meta": {
     "total_records": 331328,
-    "total_with_trade": 223045,
+    "total_with_trade": 223048,
     "pct_with_trade": 67.3,
     "total_streets": 1029,
     "total_years": 27,
     "years_span": "1876\u20131936",
-    "unique_trade_strings": 27623
+    "unique_trade_strings": 27563
   },
   "yearly_overview": [
     {
@@ -156,7 +156,7 @@
     {
       "year": "1908",
       "total": 15392,
-      "with_trade": 10508,
+      "with_trade": 10509,
       "pct": 68.3,
       "trades_in_names": 16,
       "names_in_trades": 122
@@ -220,7 +220,7 @@
     {
       "year": "1936",
       "total": 24729,
-      "with_trade": 13648,
+      "with_trade": 13650,
       "pct": 55.2,
       "trades_in_names": 12,
       "names_in_trades": 16
@@ -1543,7 +1543,7 @@
     },
     {
       "trade": "Engineer",
-      "count": 1753,
+      "count": 1819,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1620,6 +1620,12 @@
       "latest": 1936
     },
     {
+      "trade": "Hairdresser",
+      "count": 1120,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
       "trade": "Widow",
       "count": 1090,
       "earliest": 1878,
@@ -1634,12 +1640,6 @@
     {
       "trade": "Bricklayer",
       "count": 1061,
-      "earliest": 1878,
-      "latest": 1936
-    },
-    {
-      "trade": "Hairdresser",
-      "count": 1052,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1675,7 +1675,7 @@
     },
     {
       "trade": "Confectioner",
-      "count": 875,
+      "count": 896,
       "earliest": 1878,
       "latest": 1936
     },
@@ -2029,9 +2029,9 @@
       },
       {
         "street": "Chepstow Road",
-        "count": 417,
+        "count": 419,
         "total": 3018,
-        "pct": 13.8
+        "pct": 13.9
       },
       {
         "street": "Corporation Road",
@@ -2040,16 +2040,16 @@
         "pct": 13.0
       },
       {
+        "street": "Caerleon Road",
+        "count": 269,
+        "total": 2720,
+        "pct": 9.9
+      },
+      {
         "street": "Church Road",
         "count": 269,
         "total": 1329,
         "pct": 20.2
-      },
-      {
-        "street": "Caerleon Road",
-        "count": 262,
-        "total": 2720,
-        "pct": 9.6
       },
       {
         "street": "Malpas Road",
@@ -2060,7 +2060,7 @@
       {
         "street": "High Street",
         "count": 217,
-        "total": 2774,
+        "total": 2775,
         "pct": 7.8
       },
       {
@@ -2226,7 +2226,7 @@
       {
         "street": "Price Street",
         "count": 145,
-        "total": 1158,
+        "total": 1159,
         "pct": 12.5
       },
       {
@@ -2342,7 +2342,7 @@
       {
         "street": "Price Street",
         "count": 176,
-        "total": 1158,
+        "total": 1159,
         "pct": 15.2
       },
       {
@@ -2398,7 +2398,7 @@
       {
         "street": "High Street",
         "count": 92,
-        "total": 2774,
+        "total": 2775,
         "pct": 3.3
       },
       {
@@ -2529,7 +2529,7 @@
       },
       {
         "trade": "Confectioner",
-        "count": 99
+        "count": 101
       },
       {
         "trade": "Greengrocer",
