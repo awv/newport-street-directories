@@ -1,12 +1,12 @@
 {
   "meta": {
-    "total_records": 331425,
-    "total_with_trade": 221234,
+    "total_records": 331333,
+    "total_with_trade": 221303,
     "pct_with_trade": 66.8,
     "total_streets": 986,
     "total_years": 27,
     "years_span": "1876\u20131936",
-    "unique_trade_strings": 24720
+    "unique_trade_strings": 24732
   },
   "yearly_overview": [
     {
@@ -219,9 +219,9 @@
     },
     {
       "year": "1936",
-      "total": 24816,
-      "with_trade": 13715,
-      "pct": 55.3,
+      "total": 24724,
+      "with_trade": 13784,
+      "pct": 55.8,
       "trades_in_names": 15,
       "names_in_trades": 18
     }
@@ -1519,7 +1519,7 @@
     },
     {
       "trade": "Seaman",
-      "count": 2086,
+      "count": 2091,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1579,7 +1579,7 @@
     },
     {
       "trade": "Foreman",
-      "count": 1415,
+      "count": 1416,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1591,7 +1591,7 @@
     },
     {
       "trade": "Shop",
-      "count": 1370,
+      "count": 1374,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1609,7 +1609,7 @@
     },
     {
       "trade": "Traveller",
-      "count": 1204,
+      "count": 1203,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1711,7 +1711,7 @@
     },
     {
       "trade": "Insurance Agent",
-      "count": 801,
+      "count": 800,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1853,7 +1853,7 @@
       "1900s": 404,
       "1910s": 212,
       "1920s": 287,
-      "1930s": 163
+      "1930s": 168
     },
     "Carpenter": {
       "1870s": 109,
@@ -1979,7 +1979,7 @@
       "1900s": 31,
       "1910s": 28,
       "1920s": 97,
-      "1930s": 78
+      "1930s": 79
     }
   },
   "decades": [
@@ -2024,7 +2024,7 @@
       {
         "street": "Commercial Street",
         "count": 521,
-        "total": 5377,
+        "total": 5379,
         "pct": 9.7
       },
       {
@@ -2060,7 +2060,7 @@
       {
         "street": "High Street",
         "count": 218,
-        "total": 2761,
+        "total": 2762,
         "pct": 7.9
       },
       {
@@ -2102,7 +2102,7 @@
       {
         "street": "Shaftesbury Street",
         "count": 145,
-        "total": 1710,
+        "total": 1715,
         "pct": 8.5
       }
     ],
@@ -2116,7 +2116,7 @@
       {
         "street": "Dolphin Street",
         "count": 625,
-        "total": 1915,
+        "total": 1916,
         "pct": 32.6
       },
       {
@@ -2182,7 +2182,7 @@
       {
         "street": "Hoskins Street",
         "count": 373,
-        "total": 1158,
+        "total": 1159,
         "pct": 32.2
       },
       {
@@ -2232,8 +2232,8 @@
       {
         "street": "Williams Street",
         "count": 143,
-        "total": 1597,
-        "pct": 9.0
+        "total": 1598,
+        "pct": 8.9
       },
       {
         "street": "Duckpool Road",
@@ -2244,7 +2244,7 @@
       {
         "street": "Durham Road",
         "count": 109,
-        "total": 2739,
+        "total": 2741,
         "pct": 4.0
       },
       {
@@ -2317,8 +2317,8 @@
       },
       {
         "street": "Dolphin Street",
-        "count": 224,
-        "total": 1915,
+        "count": 225,
+        "total": 1916,
         "pct": 11.7
       },
       {
@@ -2360,13 +2360,13 @@
       {
         "street": "Wolseley Street",
         "count": 146,
-        "total": 716,
-        "pct": 20.4
+        "total": 718,
+        "pct": 20.3
       },
       {
         "street": "Robert Street",
         "count": 144,
-        "total": 817,
+        "total": 818,
         "pct": 17.6
       },
       {
@@ -2378,27 +2378,27 @@
       {
         "street": "Williams Street",
         "count": 143,
-        "total": 1597,
-        "pct": 9.0
+        "total": 1598,
+        "pct": 8.9
       }
     ],
     "professional": [
       {
         "street": "Commercial Street",
         "count": 150,
-        "total": 5377,
+        "total": 5379,
         "pct": 2.8
       },
       {
         "street": "Stow Hill",
         "count": 118,
-        "total": 1896,
+        "total": 1899,
         "pct": 6.2
       },
       {
         "street": "High Street",
         "count": 97,
-        "total": 2761,
+        "total": 2762,
         "pct": 3.5
       },
       {
@@ -2410,7 +2410,7 @@
       {
         "street": "Dock Street",
         "count": 63,
-        "total": 4254,
+        "total": 4256,
         "pct": 1.5
       },
       {
@@ -2509,7 +2509,7 @@
     "top_trades": [
       {
         "trade": "Shop",
-        "count": 412
+        "count": 413
       },
       {
         "trade": "Dressmaker",
@@ -2573,7 +2573,7 @@
       },
       {
         "trade": "Caretaker",
-        "count": 37
+        "count": 38
       },
       {
         "trade": "Wardrobe Dealer",
@@ -2584,12 +2584,12 @@
         "count": 34
       },
       {
-        "trade": "Costumier",
+        "trade": "Florist",
         "count": 33
       },
       {
-        "trade": "Florist",
-        "count": 32
+        "trade": "Costumier",
+        "count": 33
       },
       {
         "trade": "Registry Office",
@@ -2605,7 +2605,7 @@
       },
       {
         "trade": "Matron",
-        "count": 21
+        "count": 22
       }
     ]
   },
