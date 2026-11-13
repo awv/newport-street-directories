@@ -3,7 +3,7 @@
     "total_records": 331260,
     "total_with_trade": 221614,
     "pct_with_trade": 66.9,
-    "total_streets": 959,
+    "total_streets": 901,
     "total_years": 27,
     "years_span": "1876\u20131936",
     "unique_trade_strings": 23930
@@ -14,6 +14,7 @@
       "total": 1,
       "with_trade": 1,
       "pct": 100.0,
+      "streets_count": 1,
       "trades_in_names": 0,
       "names_in_trades": 0
     },
@@ -22,6 +23,7 @@
       "total": 4686,
       "with_trade": 3644,
       "pct": 77.8,
+      "streets_count": 188,
       "trades_in_names": 1,
       "names_in_trades": 4
     },
@@ -30,6 +32,7 @@
       "total": 5757,
       "with_trade": 4409,
       "pct": 76.6,
+      "streets_count": 209,
       "trades_in_names": 1,
       "names_in_trades": 16
     },
@@ -38,6 +41,7 @@
       "total": 7799,
       "with_trade": 5966,
       "pct": 76.5,
+      "streets_count": 293,
       "trades_in_names": 3,
       "names_in_trades": 13
     },
@@ -46,6 +50,7 @@
       "total": 6824,
       "with_trade": 5145,
       "pct": 75.4,
+      "streets_count": 232,
       "trades_in_names": 4,
       "names_in_trades": 40
     },
@@ -54,6 +59,7 @@
       "total": 9149,
       "with_trade": 6757,
       "pct": 73.9,
+      "streets_count": 336,
       "trades_in_names": 5,
       "names_in_trades": 17
     },
@@ -62,6 +68,7 @@
       "total": 9331,
       "with_trade": 6881,
       "pct": 73.7,
+      "streets_count": 321,
       "trades_in_names": 10,
       "names_in_trades": 8
     },
@@ -70,6 +77,7 @@
       "total": 9864,
       "with_trade": 7312,
       "pct": 74.1,
+      "streets_count": 317,
       "trades_in_names": 3,
       "names_in_trades": 14
     },
@@ -78,6 +86,7 @@
       "total": 10096,
       "with_trade": 7501,
       "pct": 74.3,
+      "streets_count": 345,
       "trades_in_names": 6,
       "names_in_trades": 10
     },
@@ -86,6 +95,7 @@
       "total": 10544,
       "with_trade": 7616,
       "pct": 72.2,
+      "streets_count": 356,
       "trades_in_names": 9,
       "names_in_trades": 7
     },
@@ -94,6 +104,7 @@
       "total": 12030,
       "with_trade": 8408,
       "pct": 69.9,
+      "streets_count": 368,
       "trades_in_names": 7,
       "names_in_trades": 12
     },
@@ -102,6 +113,7 @@
       "total": 11837,
       "with_trade": 8175,
       "pct": 69.1,
+      "streets_count": 367,
       "trades_in_names": 6,
       "names_in_trades": 8
     },
@@ -110,6 +122,7 @@
       "total": 12387,
       "with_trade": 8531,
       "pct": 68.9,
+      "streets_count": 382,
       "trades_in_names": 20,
       "names_in_trades": 23
     },
@@ -118,6 +131,7 @@
       "total": 12800,
       "with_trade": 8823,
       "pct": 68.9,
+      "streets_count": 374,
       "trades_in_names": 1,
       "names_in_trades": 15
     },
@@ -126,6 +140,7 @@
       "total": 12836,
       "with_trade": 9080,
       "pct": 70.7,
+      "streets_count": 393,
       "trades_in_names": 12,
       "names_in_trades": 8
     },
@@ -134,6 +149,7 @@
       "total": 13595,
       "with_trade": 9653,
       "pct": 71.0,
+      "streets_count": 401,
       "trades_in_names": 9,
       "names_in_trades": 22
     },
@@ -142,6 +158,7 @@
       "total": 1,
       "with_trade": 0,
       "pct": 0.0,
+      "streets_count": 1,
       "trades_in_names": 0,
       "names_in_trades": 0
     },
@@ -150,6 +167,7 @@
       "total": 15012,
       "with_trade": 10256,
       "pct": 68.3,
+      "streets_count": 443,
       "trades_in_names": 15,
       "names_in_trades": 52
     },
@@ -158,6 +176,7 @@
       "total": 15392,
       "with_trade": 10386,
       "pct": 67.5,
+      "streets_count": 412,
       "trades_in_names": 11,
       "names_in_trades": 45
     },
@@ -166,6 +185,7 @@
       "total": 16197,
       "with_trade": 10191,
       "pct": 62.9,
+      "streets_count": 488,
       "trades_in_names": 5,
       "names_in_trades": 26
     },
@@ -174,6 +194,7 @@
       "total": 16969,
       "with_trade": 10550,
       "pct": 62.2,
+      "streets_count": 477,
       "trades_in_names": 3,
       "names_in_trades": 41
     },
@@ -182,6 +203,7 @@
       "total": 17243,
       "with_trade": 10783,
       "pct": 62.5,
+      "streets_count": 469,
       "trades_in_names": 8,
       "names_in_trades": 19
     },
@@ -190,6 +212,7 @@
       "total": 17467,
       "with_trade": 10746,
       "pct": 61.5,
+      "streets_count": 474,
       "trades_in_names": 14,
       "names_in_trades": 20
     },
@@ -198,6 +221,7 @@
       "total": 18488,
       "with_trade": 11328,
       "pct": 61.3,
+      "streets_count": 503,
       "trades_in_names": 12,
       "names_in_trades": 23
     },
@@ -206,6 +230,7 @@
       "total": 19065,
       "with_trade": 11716,
       "pct": 61.5,
+      "streets_count": 514,
       "trades_in_names": 10,
       "names_in_trades": 27
     },
@@ -214,6 +239,7 @@
       "total": 21239,
       "with_trade": 13749,
       "pct": 64.7,
+      "streets_count": 527,
       "trades_in_names": 9,
       "names_in_trades": 53
     },
@@ -222,10 +248,412 @@
       "total": 24651,
       "with_trade": 14007,
       "pct": 56.8,
+      "streets_count": 521,
       "trades_in_names": 9,
       "names_in_trades": 34
     }
   ],
+  "street_expansion": [
+    {
+      "decade": "1870s",
+      "new_streets_count": 185,
+      "samples": [
+        {
+          "street": "Commercial Street",
+          "first_year": 1878,
+          "records": 6804
+        },
+        {
+          "street": "Dock Street",
+          "first_year": 1878,
+          "records": 6147
+        },
+        {
+          "street": "Caerleon Road",
+          "first_year": 1878,
+          "records": 5989
+        },
+        {
+          "street": "Chepstow Road",
+          "first_year": 1878,
+          "records": 5846
+        },
+        {
+          "street": "Commercial Road",
+          "first_year": 1878,
+          "records": 4966
+        },
+        {
+          "street": "Stow Hill",
+          "first_year": 1878,
+          "records": 4192
+        },
+        {
+          "street": "High Street",
+          "first_year": 1878,
+          "records": 3676
+        },
+        {
+          "street": "Lewis Street",
+          "first_year": 1878,
+          "records": 2670
+        }
+      ]
+    },
+    {
+      "decade": "1880s",
+      "new_streets_count": 128,
+      "samples": [
+        {
+          "street": "Duckpool Road",
+          "first_year": 1886,
+          "records": 2964
+        },
+        {
+          "street": "Victoria Avenue",
+          "first_year": 1886,
+          "records": 2362
+        },
+        {
+          "street": "Christchurch Road",
+          "first_year": 1886,
+          "records": 2042
+        },
+        {
+          "street": "Risca Road",
+          "first_year": 1882,
+          "records": 1694
+        },
+        {
+          "street": "Bristol Street",
+          "first_year": 1886,
+          "records": 1659
+        },
+        {
+          "street": "Marion Street",
+          "first_year": 1886,
+          "records": 1600
+        },
+        {
+          "street": "Barrack Hill",
+          "first_year": 1882,
+          "records": 1600
+        },
+        {
+          "street": "Alexandra Road",
+          "first_year": 1887,
+          "records": 1538
+        }
+      ]
+    },
+    {
+      "decade": "1890s",
+      "new_streets_count": 208,
+      "samples": [
+        {
+          "street": "Corporation Road",
+          "first_year": 1895,
+          "records": 4286
+        },
+        {
+          "street": "Durham Road",
+          "first_year": 1890,
+          "records": 3484
+        },
+        {
+          "street": "Malpas Road",
+          "first_year": 1890,
+          "records": 2856
+        },
+        {
+          "street": "Shaftesbury Street",
+          "first_year": 1898,
+          "records": 2678
+        },
+        {
+          "street": "Redland Street",
+          "first_year": 1894,
+          "records": 1534
+        },
+        {
+          "street": "Morden Road",
+          "first_year": 1890,
+          "records": 1441
+        },
+        {
+          "street": "Hoskins Street",
+          "first_year": 1892,
+          "records": 1427
+        },
+        {
+          "street": "Somerton Road",
+          "first_year": 1892,
+          "records": 1367
+        }
+      ]
+    },
+    {
+      "decade": "1900s",
+      "new_streets_count": 114,
+      "samples": [
+        {
+          "street": "Magor Street",
+          "first_year": 1900,
+          "records": 963
+        },
+        {
+          "street": "Goodrich Crescent",
+          "first_year": 1903,
+          "records": 869
+        },
+        {
+          "street": "Stockton Road",
+          "first_year": 1906,
+          "records": 838
+        },
+        {
+          "street": "Witham Street",
+          "first_year": 1902,
+          "records": 767
+        },
+        {
+          "street": "Cromwell Road",
+          "first_year": 1902,
+          "records": 649
+        },
+        {
+          "street": "Dewstow Street",
+          "first_year": 1906,
+          "records": 556
+        },
+        {
+          "street": "Walsall Street",
+          "first_year": 1902,
+          "records": 536
+        },
+        {
+          "street": "Feering Street",
+          "first_year": 1903,
+          "records": 533
+        }
+      ]
+    },
+    {
+      "decade": "1910s",
+      "new_streets_count": 71,
+      "samples": [
+        {
+          "street": "Conway Road",
+          "first_year": 1910,
+          "records": 627
+        },
+        {
+          "street": "Lliswerry Road",
+          "first_year": 1913,
+          "records": 531
+        },
+        {
+          "street": "Market (provision)",
+          "first_year": 1913,
+          "records": 513
+        },
+        {
+          "street": "Balmoral Road",
+          "first_year": 1913,
+          "records": 460
+        },
+        {
+          "street": "Dewsland Park Road",
+          "first_year": 1910,
+          "records": 450
+        },
+        {
+          "street": "St. Vincent Road",
+          "first_year": 1910,
+          "records": 425
+        },
+        {
+          "street": "Aston Crescent",
+          "first_year": 1910,
+          "records": 409
+        },
+        {
+          "street": "St. Mark's Crescent",
+          "first_year": 1910,
+          "records": 318
+        }
+      ]
+    },
+    {
+      "decade": "1920s",
+      "new_streets_count": 81,
+      "samples": [
+        {
+          "street": "Sycamore Avenue",
+          "first_year": 1924,
+          "records": 389
+        },
+        {
+          "street": "River Banks",
+          "first_year": 1924,
+          "records": 330
+        },
+        {
+          "street": "St. Julian's Road",
+          "first_year": 1924,
+          "records": 324
+        },
+        {
+          "street": "Hawthorn Avenue",
+          "first_year": 1924,
+          "records": 231
+        },
+        {
+          "street": "Maple Avenue",
+          "first_year": 1924,
+          "records": 200
+        },
+        {
+          "street": "Allt-yr-yn Avenue",
+          "first_year": 1927,
+          "records": 170
+        },
+        {
+          "street": "Bassalleg Road",
+          "first_year": 1920,
+          "records": 167
+        },
+        {
+          "street": "Chestnut Avenue",
+          "first_year": 1924,
+          "records": 160
+        }
+      ]
+    },
+    {
+      "decade": "1930s",
+      "new_streets_count": 60,
+      "samples": [
+        {
+          "street": "Maesglas Crescent",
+          "first_year": 1936,
+          "records": 212
+        },
+        {
+          "street": "Nant Coch Hill",
+          "first_year": 1936,
+          "records": 157
+        },
+        {
+          "street": "Maesglas Avenue",
+          "first_year": 1936,
+          "records": 140
+        },
+        {
+          "street": "Maesglas Road",
+          "first_year": 1936,
+          "records": 139
+        },
+        {
+          "street": "Gaer Park Drive",
+          "first_year": 1936,
+          "records": 125
+        },
+        {
+          "street": "Tennyson Road",
+          "first_year": 1936,
+          "records": 106
+        },
+        {
+          "street": "Coleridge Road",
+          "first_year": 1936,
+          "records": 105
+        },
+        {
+          "street": "Gaer Park Avenue",
+          "first_year": 1936,
+          "records": 90
+        }
+      ]
+    }
+  ],
+  "macro_sectors": {
+    "sectors": [
+      "Docks & Maritime",
+      "Iron & Heavy Industry",
+      "Building & Timber",
+      "Transport & Rail",
+      "Retail & Hospitality",
+      "Clerical & Professional"
+    ],
+    "decades": [
+      "1870s",
+      "1880s",
+      "1890s",
+      "1900s",
+      "1910s",
+      "1920s",
+      "1930s"
+    ],
+    "by_decade": {
+      "1870s": {
+        "Docks & Maritime": 259,
+        "Iron & Heavy Industry": 191,
+        "Building & Timber": 368,
+        "Transport & Rail": 195,
+        "Retail & Hospitality": 379,
+        "Clerical & Professional": 246
+      },
+      "1880s": {
+        "Docks & Maritime": 1288,
+        "Iron & Heavy Industry": 954,
+        "Building & Timber": 1534,
+        "Transport & Rail": 1040,
+        "Retail & Hospitality": 1454,
+        "Clerical & Professional": 798
+      },
+      "1890s": {
+        "Docks & Maritime": 3836,
+        "Iron & Heavy Industry": 3409,
+        "Building & Timber": 5798,
+        "Transport & Rail": 4122,
+        "Retail & Hospitality": 4565,
+        "Clerical & Professional": 3087
+      },
+      "1900s": {
+        "Docks & Maritime": 3121,
+        "Iron & Heavy Industry": 4792,
+        "Building & Timber": 5680,
+        "Transport & Rail": 4953,
+        "Retail & Hospitality": 4623,
+        "Clerical & Professional": 2913
+      },
+      "1910s": {
+        "Docks & Maritime": 1402,
+        "Iron & Heavy Industry": 3811,
+        "Building & Timber": 2591,
+        "Transport & Rail": 3094,
+        "Retail & Hospitality": 2517,
+        "Clerical & Professional": 1551
+      },
+      "1920s": {
+        "Docks & Maritime": 1943,
+        "Iron & Heavy Industry": 6408,
+        "Building & Timber": 3295,
+        "Transport & Rail": 5129,
+        "Retail & Hospitality": 3555,
+        "Clerical & Professional": 2828
+      },
+      "1930s": {
+        "Docks & Maritime": 805,
+        "Iron & Heavy Industry": 2372,
+        "Building & Timber": 915,
+        "Transport & Rail": 2228,
+        "Retail & Hospitality": 924,
+        "Clerical & Professional": 1108
+      }
+    }
+  },
   "trades_in_names": {
     "total_detected": 193,
     "in_forename_count": 147,

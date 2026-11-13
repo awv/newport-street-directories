@@ -1,5 +1,6 @@
 import csv
 import json
+import os
 import re
 from collections import defaultdict, Counter
 
@@ -81,6 +82,18 @@ def analyze_dataset():
     # 4. Streets & Trades
     street_trades = defaultdict(Counter)
     street_records = Counter()
+    streets_by_year = defaultdict(set)
+    street_earliest_year = {}
+    sector_by_decade = defaultdict(Counter)
+
+    SECTOR_RULES = [
+        ("Docks & Maritime", ("seaman", "mariner", "sailor", "pilot", "shipwright", "rigger", "dock", "coal trimmer", "trimmer", "stevedore", "master mariner", "shipowner", "boatman", "harbour")),
+        ("Iron & Heavy Industry", ("ironworker", "steelworker", "puddler", "furnaceman", "boiler", "boilermaker", "blacksmith", "fitter", "moulder", "engineer", "machinist", "tinplate", "foundry", "riveter")),
+        ("Building & Timber", ("carpenter", "joiner", "mason", "bricklayer", "plasterer", "painter", "plumber", "builder", "slater", "glazier", "sawyer", "timber", "contractor")),
+        ("Transport & Rail", ("railway", "g.w.r", "engine driver", "fireman", "guard", "signalman", "porter", "platelayer", "carter", "haulier", "carrier", "driver", "tram", "motor")),
+        ("Retail & Hospitality", ("grocer", "butcher", "baker", "draper", "tailor", "bootmaker", "shoemaker", "greengrocer", "confectioner", "publican", "licensed victualler", "innkeeper", "beerhouse", "hotel", "chemist", "ironmonger", "outfitter", "fruiterer")),
+        ("Clerical & Professional", ("clerk", "solicitor", "accountant", "surveyor", "architect", "teacher", "schoolmaster", "schoolmistress", "doctor", "surgeon", "physician", "clergyman", "minister", "manager", "agent", "inspector", "broker")),
+    ]
     
     # 5. Women in directory
     women_records_by_year = Counter()
@@ -126,6 +139,9 @@ def analyze_dataset():
             if street:
                 streets_set.add(street)
                 street_records[street] += 1
+                streets_by_year[yr_str].add(street)
+                if street not in street_earliest_year or yr < street_earliest_year[street]:
+                    street_earliest_year[street] = yr
                 
             has_trade = bool(tr)
             if has_trade:
@@ -133,6 +149,12 @@ def analyze_dataset():
                 years_with_trade[yr_str] += 1
                 trade_counts[tr] += 1
                 trades_by_year[yr_str][tr] += 1
+                tr_low = tr.lower()
+                dec_lbl = f"{(yr // 10) * 10}s"
+                for sec_name, kws in SECTOR_RULES:
+                    if any(kw in tr_low for kw in kws):
+                        sector_by_decade[dec_lbl][sec_name] += 1
+                        break
                 
                 span = trade_year_spans[tr]
                 span["count"] += 1
@@ -333,12 +355,48 @@ def analyze_dataset():
     vanished_trades.sort(key=lambda x: x["count"], reverse=True)
     emerging_trades.sort(key=lambda x: x["count"], reverse=True)
 
+    canonical_street_count = len(streets_set)
+    streets_json_path = os.path.join(os.path.dirname(OUTPUT_JSON), "streets.json")
+    if os.path.exists(streets_json_path):
+        try:
+            with open(streets_json_path, "r", encoding="utf-8") as sf:
+                canonical_street_count = len(json.load(sf))
+        except Exception:
+            pass
+
+    expansion_by_decade = defaultdict(list)
+    for st_name, first_yr in street_earliest_year.items():
+        if street_records[st_name] >= 10:
+            dec_lbl = f"{(first_yr // 10) * 10}s"
+            expansion_by_decade[dec_lbl].append((street_records[st_name], first_yr, st_name))
+
+    street_expansion = []
+    for dec in decades:
+        items = sorted(expansion_by_decade.get(dec, []), reverse=True)
+        street_expansion.append({
+            "decade": dec,
+            "new_streets_count": len(items),
+            "samples": [{"street": s, "first_year": fy, "records": cnt} for cnt, fy, s in items[:8]],
+        })
+
+    sector_names = [s[0] for s in SECTOR_RULES]
+    macro_sectors = {
+        "sectors": sector_names,
+        "decades": decades,
+        "by_decade": {
+            dec: {
+                sec: sector_by_decade[dec][sec] for sec in sector_names
+            }
+            for dec in decades
+        },
+    }
+
     stats_output = {
         "meta": {
             "total_records": total_records,
             "total_with_trade": records_with_trade,
             "pct_with_trade": round(records_with_trade / total_records * 100, 1),
-            "total_streets": len(streets_set),
+            "total_streets": canonical_street_count,
             "total_years": len(sorted_years),
             "years_span": f"{sorted_years[0]}–{sorted_years[-1]}",
             "unique_trade_strings": len(trade_counts)
@@ -349,11 +407,14 @@ def analyze_dataset():
                 "total": years_counter[y],
                 "with_trade": years_with_trade[y],
                 "pct": round(years_with_trade[y] / years_counter[y] * 100, 1) if years_counter[y] else 0,
+                "streets_count": len(streets_by_year[y]),
                 "trades_in_names": trades_in_names_by_year[y],
                 "names_in_trades": names_in_trades_by_year[y]
             }
             for y in sorted_years
         ],
+        "street_expansion": street_expansion,
+        "macro_sectors": macro_sectors,
         "trades_in_names": {
             "total_detected": len(trades_in_forename) + len(trades_in_surname),
             "in_forename_count": len(trades_in_forename),
