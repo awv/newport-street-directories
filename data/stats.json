@@ -134,7 +134,7 @@
       "total": 13595,
       "with_trade": 9675,
       "pct": 71.2,
-      "trades_in_names": 19,
+      "trades_in_names": 18,
       "names_in_trades": 49
     },
     {
@@ -227,8 +227,8 @@
     }
   ],
   "trades_in_names": {
-    "total_detected": 448,
-    "in_forename_count": 154,
+    "total_detected": 447,
+    "in_forename_count": 153,
     "in_surname_count": 294,
     "top_trapped_trades": [
       {
@@ -301,7 +301,7 @@
       },
       {
         "trade": "Brewer",
-        "count": 7
+        "count": 6
       },
       {
         "trade": "Builder",
@@ -367,7 +367,7 @@
       "1900": 20,
       "1901": 2,
       "1902": 20,
-      "1903": 19,
+      "1903": 18,
       "1906": 17,
       "1908": 15,
       "1910": 36,
