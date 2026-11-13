@@ -184,7 +184,7 @@ function toggleMobileSidebar() {
         /^(tel\.?|telephone|newport\s+\d+|\d+\s*\(after|\d+[a-z]?,?\s*workers)/i.test(clean) ||
         /^(do\.?|ditto|[-—_\|\\\[\]\{\}\.\,\&\;\:\?\!]+|&c|etc|\(?return\)?\.?|;;;)$/i.test(clean) ||
         /^(ltd\.?|co\.?|& co\.?|co\.?\s+ltd\.?|ltd\.?,\s*ltd|ltd\.?,\s*co\.?|gas\s+co|way\s+co\.?'?s?\s*office|1st\s+floor|2nd\s+floor|3rd\s+floor)$/i.test(clean) ||
-        /^(&|\*|are|for|de|en|et|si|tai|vw|wks|rd|to\s+\d+\s+unbuilt|\(3\)|p\.o\.?|& m|& b|and at cardiff.*)$/i.test(clean) ||
+        /^(&|\*|are|for|de|en|et|si|vw|wks|rd|to\s+\d+\s+unbuilt|\(3\)|p\.o\.?|& m|& b|and at cardiff.*)$/i.test(clean) ||
         NON_TRADES_REGEX.test(clean)
       ) {
         return 'Residence / Private';
@@ -424,11 +424,18 @@ function toggleMobileSidebar() {
         .replace(/\bcarptr\b/gi, 'Carpenter')
         .replace(/\beng dvr\b/gi, 'Engine Driver');
 
-      // Preserve G.W.R. and G.P.O. casing if present
+      // Preserve G.W.R., G.P.O., H.M.C., and J.P. casing if present
       clean = clean.replace(/\b(g\.?p\.?o\.?)\b\.?/gi, 'G.P.O.');
+      clean = clean.replace(/\b(h\.?m\.?c\.?)\b\.?/gi, 'H.M.C.');
+      clean = clean.replace(/\b(j\.?p\.?)\b\.?/gi, 'J.P.');
       clean = clean.replace(/\w\S*/g, (txt) => {
-        if (txt.toUpperCase() === 'G.W.R.') return 'G.W.R.';
-        if (txt.toUpperCase() === 'G.P.O.') return 'G.P.O.';
+        const u = txt.toUpperCase();
+        if (u === 'G.W.R.' || u === 'G.W.R') return 'G.W.R.';
+        if (u === 'G.P.O.' || u === 'G.P.O') return 'G.P.O.';
+        if (u === 'H.M.C.' || u === 'H.M.C') return 'H.M.C.';
+        if (u === 'J.P.' || u === 'J.P') return 'J.P.';
+        if (u === 'R.A.' || u === 'R.A') return 'R.A.';
+        if (u === 'R.N.' || u === 'R.N') return 'R.N.';
         return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
       });
 
