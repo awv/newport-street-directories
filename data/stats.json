@@ -1,7 +1,7 @@
 {
   "meta": {
     "total_records": 331260,
-    "total_with_trade": 221646,
+    "total_with_trade": 221633,
     "pct_with_trade": 66.9,
     "total_streets": 901,
     "total_years": 27,
@@ -93,7 +93,7 @@
     {
       "year": "1895",
       "total": 10544,
-      "with_trade": 7617,
+      "with_trade": 7616,
       "pct": 72.2,
       "streets_count": 356,
       "trades_in_names": 8,
@@ -219,7 +219,7 @@
     {
       "year": "1924",
       "total": 18488,
-      "with_trade": 11332,
+      "with_trade": 11331,
       "pct": 61.3,
       "streets_count": 503,
       "trades_in_names": 11,
@@ -237,7 +237,7 @@
     {
       "year": "1927",
       "total": 21239,
-      "with_trade": 13747,
+      "with_trade": 13746,
       "pct": 64.7,
       "streets_count": 527,
       "trades_in_names": 9,
@@ -246,7 +246,7 @@
     {
       "year": "1936",
       "total": 24651,
-      "with_trade": 14027,
+      "with_trade": 14017,
       "pct": 56.9,
       "streets_count": 521,
       "trades_in_names": 3,
@@ -615,7 +615,7 @@
       "1890s": {
         "Docks & Maritime": 3837,
         "Iron & Heavy Industry": 3409,
-        "Building & Timber": 5798,
+        "Building & Timber": 5797,
         "Transport & Rail": 4123,
         "Retail & Hospitality": 4566,
         "Clerical & Professional": 3087
@@ -640,15 +640,15 @@
         "Docks & Maritime": 1943,
         "Iron & Heavy Industry": 6412,
         "Building & Timber": 3295,
-        "Transport & Rail": 5129,
-        "Retail & Hospitality": 3556,
+        "Transport & Rail": 5128,
+        "Retail & Hospitality": 3555,
         "Clerical & Professional": 2828
       },
       "1930s": {
         "Docks & Maritime": 805,
         "Iron & Heavy Industry": 2372,
-        "Building & Timber": 915,
-        "Transport & Rail": 2229,
+        "Building & Timber": 913,
+        "Transport & Rail": 2226,
         "Retail & Hospitality": 924,
         "Clerical & Professional": 1110
       }
@@ -1880,7 +1880,7 @@
     },
     {
       "trade": "Carpenter",
-      "count": 5529,
+      "count": 5526,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1946,7 +1946,7 @@
     },
     {
       "trade": "Butcher",
-      "count": 2109,
+      "count": 2108,
       "earliest": 1878,
       "latest": 1936
     },
@@ -2012,7 +2012,7 @@
     },
     {
       "trade": "Gardener",
-      "count": 1416,
+      "count": 1415,
       "earliest": 1878,
       "latest": 1936
     },
@@ -2186,7 +2186,7 @@
     },
     {
       "trade": "Porter",
-      "count": 632,
+      "count": 628,
       "earliest": 1878,
       "latest": 1936
     },
@@ -2285,11 +2285,11 @@
     "Carpenter": {
       "1870s": 110,
       "1880s": 462,
-      "1890s": 1672,
+      "1890s": 1671,
       "1900s": 1031,
       "1910s": 672,
       "1920s": 854,
-      "1930s": 217
+      "1930s": 215
     },
     "Mason": {
       "1870s": 69,
@@ -2378,7 +2378,7 @@
       "1890s": 412,
       "1900s": 320,
       "1910s": 349,
-      "1920s": 460,
+      "1920s": 459,
       "1930s": 156
     },
     "Baker": {
@@ -2972,7 +2972,7 @@
       },
       {
         "trade": "Butcher",
-        "count": 56
+        "count": 55
       },
       {
         "trade": "School",
