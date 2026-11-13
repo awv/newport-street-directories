@@ -3,10 +3,10 @@
     "total_records": 331425,
     "total_with_trade": 221234,
     "pct_with_trade": 66.8,
-    "total_streets": 1029,
+    "total_streets": 986,
     "total_years": 27,
     "years_span": "1876\u20131936",
-    "unique_trade_strings": 24735
+    "unique_trade_strings": 24734
   },
   "yearly_overview": [
     {
@@ -2041,9 +2041,9 @@
       },
       {
         "street": "Caerleon Road",
-        "count": 273,
-        "total": 2592,
-        "pct": 10.5
+        "count": 279,
+        "total": 2670,
+        "pct": 10.4
       },
       {
         "street": "Church Road",
@@ -2145,8 +2145,8 @@
       },
       {
         "street": "Lime Street",
-        "count": 457,
-        "total": 1540,
+        "count": 476,
+        "total": 1601,
         "pct": 29.7
       },
       {
@@ -2267,9 +2267,9 @@
       },
       {
         "street": "Lime Street",
-        "count": 69,
-        "total": 1540,
-        "pct": 4.5
+        "count": 71,
+        "total": 1601,
+        "pct": 4.4
       },
       {
         "street": "Redland Street",
@@ -2305,9 +2305,9 @@
       },
       {
         "street": "Lime Street",
-        "count": 307,
-        "total": 1540,
-        "pct": 19.9
+        "count": 325,
+        "total": 1601,
+        "pct": 20.3
       },
       {
         "street": "Baldwin Street",
@@ -2410,7 +2410,7 @@
       {
         "street": "Dock Street",
         "count": 63,
-        "total": 4206,
+        "total": 4254,
         "pct": 1.5
       },
       {
@@ -2456,6 +2456,12 @@
         "pct": 6.5
       },
       {
+        "street": "Park Square",
+        "count": 16,
+        "total": 110,
+        "pct": 14.5
+      },
+      {
         "street": "Tredegar Place",
         "count": 16,
         "total": 106,
@@ -2466,12 +2472,6 @@
         "count": 15,
         "total": 312,
         "pct": 4.8
-      },
-      {
-        "street": "Park Square",
-        "count": 15,
-        "total": 109,
-        "pct": 13.8
       }
     ]
   },
