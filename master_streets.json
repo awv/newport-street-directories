@@ -2727,7 +2727,7 @@
         "lng": null
       },
       "audit_status": "NAME_VERIFIED",
-      "notes": "Historical terrace located along the upper spine of Stow Hill opposite the Union Workhouse / Infirmary (St. Woolos). Renumbered from 54\u201364 in Victorian era, to 120\u2013146 in Edwardian/Interwar era, and 216\u2013226 by 1936.",
+      "notes": "Historical terrace located along the upper spine of Stow Hill opposite the Union Workhouse / Infirmary (St. Woolos). Renumbered from 54–64 in Victorian era, to 120–146 in Edwardian/Interwar era, and 216–226 by 1936.",
       "latitude": "",
       "longitude": ""
     },
@@ -4629,7 +4629,7 @@
       },
       "cross_streets": [],
       "aliases": [
-        "Corporation road\u2014continued",
+        "Corporation road—continued",
         "Pembroke Terrace",
         "Corpus Christi Street"
       ],
@@ -5755,7 +5755,7 @@
         "Duckpool Road M. - Vine Place",
         "Duckpool Terrace",
         "DUCKPOOL TERRACE",
-        "Duckpool Road\u2014continued",
+        "Duckpool Road—continued",
         "DUCKPOOL ROAD",
         "Duckpool-road"
       ],
@@ -14456,7 +14456,7 @@
       },
       "cross_streets": [],
       "aliases": [
-        "Skinner Street\u2014continued",
+        "Skinner Street—continued",
         "Highbury Chambers"
       ],
       "audit": {
@@ -14656,7 +14656,7 @@
       },
       "cross_streets": [],
       "aliases": [
-        "Somerton Road\u2014continued"
+        "Somerton Road—continued"
       ],
       "audit": {
         "status": "NAME_VERIFIED",
@@ -14855,7 +14855,7 @@
       },
       "cross_streets": [],
       "aliases": [
-        "SPRING STREET\u2014continued"
+        "SPRING STREET—continued"
       ],
       "audit": {
         "status": "NAME_VERIFIED",
@@ -16327,7 +16327,9 @@
         "approx_change_year": null
       },
       "cross_streets": [],
-      "aliases": [],
+      "aliases": [
+        "Troston Road"
+      ],
       "audit": {
         "status": "NAME_VERIFIED",
         "verified_by": "Rob Gale",
@@ -17798,7 +17800,7 @@
       },
       "cross_streets": [],
       "aliases": [
-        "West Side\u2014"
+        "West Side—"
       ],
       "audit": {
         "status": "NAME_VERIFIED",
@@ -28908,7 +28910,7 @@
       "longitude": ""
     },
     "rees-buildings": {
-      "canonical_name": "Rees\u2019 Buildings",
+      "canonical_name": "Rees’ Buildings",
       "slug": "rees-buildings",
       "district": "",
       "parish": "",
