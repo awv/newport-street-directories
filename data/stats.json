@@ -1,12 +1,12 @@
 {
   "meta": {
     "total_records": 331260,
-    "total_with_trade": 221668,
+    "total_with_trade": 221667,
     "pct_with_trade": 66.9,
     "total_streets": 985,
     "total_years": 27,
     "years_span": "1876\u20131936",
-    "unique_trade_strings": 23965
+    "unique_trade_strings": 23963
   },
   "yearly_overview": [
     {
@@ -92,7 +92,7 @@
     {
       "year": "1898",
       "total": 12030,
-      "with_trade": 8421,
+      "with_trade": 8420,
       "pct": 70.0,
       "trades_in_names": 10,
       "names_in_trades": 26
@@ -124,7 +124,7 @@
     {
       "year": "1902",
       "total": 12836,
-      "with_trade": 9087,
+      "with_trade": 9086,
       "pct": 70.8,
       "trades_in_names": 20,
       "names_in_trades": 28
@@ -188,7 +188,7 @@
     {
       "year": "1920",
       "total": 17467,
-      "with_trade": 10744,
+      "with_trade": 10745,
       "pct": 61.5,
       "trades_in_names": 32,
       "names_in_trades": 45
