@@ -1635,17 +1635,10 @@ function toggleMobileSidebar() {
         });
       });
 
-      // Calculate street era & statistics
+      // Calculate street statistics
       const streetYears = Array.from(new Set(cleanRecords.map(r => r.year).filter(Boolean))).sort((a,b) => parseInt(a) - parseInt(b));
       const firstYr = streetYears.length ? streetYears[0] : 1876;
       const lastYr = streetYears.length ? streetYears[streetYears.length - 1] : 1950;
-      
-      let eraText = '';
-      if (parseInt(firstYr) <= 1876) eraText = '📜 Victorian Core Street (Recorded since 1876)';
-      else if (parseInt(firstYr) <= 1897) eraText = `🏛️ Late Victorian Urban Expansion (First recorded in ${firstYr} directory)`;
-      else if (parseInt(firstYr) <= 1914) eraText = `🏡 Edwardian Housing Expansion (First recorded in ${firstYr} directory)`;
-      else if (parseInt(firstYr) <= 1939) eraText = `🌳 Interwar Garden Suburb / Municipal Estate (First recorded in ${firstYr} directory)`;
-      else eraText = `🏗️ Post-War Development (First recorded in ${firstYr} directory)`;
 
       const summary = streetData.summary || {};
       const formerNames = summary.formerNames || [];
@@ -1718,7 +1711,7 @@ function toggleMobileSidebar() {
 
       document.getElementById('street-intro').innerHTML = `
         <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.5;">
-          ${eraText} • <strong>${cleanRecords.length}</strong> directory entries recorded across <strong>${streetYears.length}</strong> directory volumes (${firstYr}–${lastYr}).
+          <strong>${cleanRecords.length}</strong> directory entries recorded across <strong>${streetYears.length}</strong> directory volumes (${firstYr}–${lastYr}).
           ${formerHTML}
         </div>
       `;
