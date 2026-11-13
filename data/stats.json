@@ -266,7 +266,7 @@
         {
           "street": "Dock Street",
           "first_year": 1878,
-          "records": 6147
+          "records": 6098
         },
         {
           "street": "Caerleon Road",
@@ -307,7 +307,7 @@
         {
           "street": "Duckpool Road",
           "first_year": 1886,
-          "records": 2964
+          "records": 2937
         },
         {
           "street": "Victoria Avenue",
@@ -330,11 +330,6 @@
           "records": 1659
         },
         {
-          "street": "Marion Street",
-          "first_year": 1886,
-          "records": 1600
-        },
-        {
           "street": "Barrack Hill",
           "first_year": 1882,
           "records": 1600
@@ -343,6 +338,11 @@
           "street": "Alexandra Road",
           "first_year": 1887,
           "records": 1538
+        },
+        {
+          "street": "Archibald Street",
+          "first_year": 1886,
+          "records": 1537
         }
       ]
     },
@@ -443,6 +443,11 @@
       "new_streets_count": 71,
       "samples": [
         {
+          "street": "Market (provision)",
+          "first_year": 1913,
+          "records": 628
+        },
+        {
           "street": "Conway Road",
           "first_year": 1910,
           "records": 627
@@ -451,11 +456,6 @@
           "street": "Lliswerry Road",
           "first_year": 1913,
           "records": 531
-        },
-        {
-          "street": "Market (provision)",
-          "first_year": 1913,
-          "records": 513
         },
         {
           "street": "Balmoral Road",
@@ -2479,6 +2479,12 @@
         "pct": 21.0
       },
       {
+        "street": "Market (provision)",
+        "count": 257,
+        "total": 585,
+        "pct": 43.9
+      },
+      {
         "street": "High Street",
         "count": 220,
         "total": 2766,
@@ -2489,12 +2495,6 @@
         "count": 220,
         "total": 2047,
         "pct": 10.7
-      },
-      {
-        "street": "Market (provision)",
-        "count": 208,
-        "total": 473,
-        "pct": 44.0
       },
       {
         "street": "Clarence Place",
@@ -2517,8 +2517,8 @@
       {
         "street": "Duckpool Road",
         "count": 162,
-        "total": 2337,
-        "pct": 6.9
+        "total": 2315,
+        "pct": 7.0
       },
       {
         "street": "Alexandra Road",
@@ -2542,9 +2542,9 @@
       },
       {
         "street": "Dolphin Street",
-        "count": 651,
-        "total": 1914,
-        "pct": 34.0
+        "count": 667,
+        "total": 1953,
+        "pct": 34.2
       },
       {
         "street": "Jeddo Street",
@@ -2603,14 +2603,14 @@
       {
         "street": "Marion Street",
         "count": 382,
-        "total": 1405,
-        "pct": 27.2
+        "total": 1293,
+        "pct": 29.5
       },
       {
         "street": "Raglan Street",
         "count": 382,
-        "total": 1943,
-        "pct": 19.7
+        "total": 1923,
+        "pct": 19.9
       },
       {
         "street": "Jones Street",
@@ -2641,8 +2641,8 @@
       {
         "street": "Raglan Street",
         "count": 207,
-        "total": 1943,
-        "pct": 10.7
+        "total": 1923,
+        "pct": 10.8
       },
       {
         "street": "Capel Street",
@@ -2664,8 +2664,8 @@
       },
       {
         "street": "Duckpool Road",
-        "count": 138,
-        "total": 2337,
+        "count": 137,
+        "total": 2315,
         "pct": 5.9
       },
       {
@@ -2721,8 +2721,8 @@
       {
         "street": "Marion Street",
         "count": 377,
-        "total": 1405,
-        "pct": 26.8
+        "total": 1293,
+        "pct": 29.2
       },
       {
         "street": "Jeddo Street",
@@ -2738,9 +2738,9 @@
       },
       {
         "street": "Dolphin Street",
-        "count": 234,
-        "total": 1914,
-        "pct": 12.2
+        "count": 237,
+        "total": 1953,
+        "pct": 12.1
       },
       {
         "street": "Baldwin Street",
@@ -2775,8 +2775,8 @@
       {
         "street": "Raglan Street",
         "count": 160,
-        "total": 1943,
-        "pct": 8.2
+        "total": 1923,
+        "pct": 8.3
       },
       {
         "street": "Castle Street",
@@ -2837,7 +2837,7 @@
       {
         "street": "Dock Street",
         "count": 68,
-        "total": 4287,
+        "total": 4248,
         "pct": 1.6
       },
       {
