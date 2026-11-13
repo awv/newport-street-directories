@@ -495,13 +495,26 @@ function toggleMobileSidebar() {
         masterStreetsList = await response.json();
         uniqueStreets = masterStreetsList.map(s => s.displayName);
 
-        // Update home stat counters
+        // Update home & sidebar stat counters dynamically
         const totalRecords = masterStreetsList.reduce((acc, s) => acc + s.recordsCount, 0);
+        const streetCountStr = masterStreetsList.length.toLocaleString();
         const recordsElem = document.getElementById('stat-records-count');
         if (recordsElem) recordsElem.innerText = totalRecords.toLocaleString();
-        
+
         const streetsElem = document.getElementById('stat-streets-count');
-        if (streetsElem) streetsElem.innerText = `${masterStreetsList.length}+`;
+        if (streetsElem) streetsElem.innerText = streetCountStr;
+
+        const navBadge = document.getElementById('nav-streets-badge');
+        if (navBadge) navBadge.innerText = streetCountStr;
+
+        const sidebarAudit = document.getElementById('sidebar-audit-desc');
+        if (sidebarAudit) sidebarAudit.innerText = `${streetCountStr} Streets • ${Math.floor(totalRecords / 1000)}k+ Records`;
+
+        const viewAllLink = document.getElementById('home-view-all-streets');
+        if (viewAllLink) viewAllLink.innerHTML = `View All ${streetCountStr} Streets <i class="ph ph-arrow-right"></i>`;
+
+        const cmdHint = document.getElementById('cmd-k-empty-hint');
+        if (cmdHint) cmdHint.innerText = `Type to search ${streetCountStr} streets and ${totalRecords.toLocaleString()} directory records...`;
 
         return masterStreetsList;
       } catch (err) {
@@ -1386,7 +1399,8 @@ function toggleMobileSidebar() {
 
       const query = input.value.trim().toLowerCase();
       if (!query) {
-        resultsContainer.innerHTML = '<div class="cmd-k-empty">Type to search 759 streets and 128,000+ directory records...</div>';
+        const sc = masterStreetsList.length ? masterStreetsList.length.toLocaleString() : '901';
+        resultsContainer.innerHTML = `<div class="cmd-k-empty">Type to search ${sc} streets and 331,000+ directory records...</div>`;
         return;
       }
 
@@ -3808,11 +3822,146 @@ function toggleMobileSidebar() {
       previousHash = hash;
     }
 
+    let homeStatsCache = null;
+
+    function escHtmlHome(str) {
+      return String(str || '').replace(/[&<>"']/g, c => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+      }[c]));
+    }
+
+    async function loadHomeInteractiveData() {
+      try {
+        if (!homeStatsCache) {
+          const resp = await fetch('data/stats.json');
+          if (resp.ok) homeStatsCache = await resp.json();
+        }
+        if (homeStatsCache) {
+          const meta = homeStatsCache.meta || {};
+          const tradesEl = document.getElementById('stat-trades-count');
+          if (tradesEl && meta.unique_trade_strings) {
+            tradesEl.innerText = meta.unique_trade_strings.toLocaleString();
+          }
+          const eraEl = document.getElementById('stat-era-span');
+          if (eraEl && meta.years_span) eraEl.innerText = meta.years_span;
+          const heroBadge = document.getElementById('hero-era-badge');
+          if (heroBadge && meta.years_span) {
+            heroBadge.innerHTML = `<i class="ph ph-sparkle"></i> Historical Cartographic Ledger • ${escHtmlHome(meta.years_span)}`;
+          }
+
+          renderHomeOccupations(homeStatsCache.top_trades || []);
+          selectFeaturedCategory('commercial');
+        }
+      } catch (err) {
+        console.warn('Could not load home stats.json', err);
+      }
+      shuffleHomeDiscovery();
+    }
+
+    function renderHomeOccupations(topTrades) {
+      const container = document.getElementById('home-top-trades-pills');
+      if (!container || !topTrades.length) return;
+      const filtered = topTrades
+        .filter(t => t.trade && t.trade.toLowerCase() !== 'void')
+        .slice(0, 12);
+      container.innerHTML = filtered.map(t => `
+        <button type="button" class="occupation-pill" onclick="quickSearch('${escHtmlHome(t.trade).replace(/'/g, "\\'")}')">
+          <span>${escHtmlHome(t.trade)}</span>
+          <span class="occupation-pill-count">${Number(t.count).toLocaleString()}</span>
+        </button>
+      `).join('');
+    }
+
+    function selectFeaturedCategory(cat) {
+      document.querySelectorAll('#home-featured-tabs .featured-tab-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.cat === cat);
+      });
+      const grid = document.getElementById('home-featured-grid');
+      if (!grid || !homeStatsCache || !homeStatsCache.street_specialization) return;
+
+      const list = (homeStatsCache.street_specialization[cat] || []).slice(0, 4);
+      const labels = {
+        commercial: 'Commercial Hub',
+        maritime: 'Docks & Maritime',
+        industrial: 'Industrial Corridor',
+        railway: 'Railway Quarter',
+        professional: 'Civic & Professional'
+      };
+      const streetMap = new Map((masterStreetsList || []).map(s => [s.displayName, s]));
+
+      grid.innerHTML = list.map(item => {
+        const meta = streetMap.get(item.street);
+        const span = meta && meta.yearsSpan ? meta.yearsSpan : '1878–1936';
+        const total = meta && meta.recordsCount ? meta.recordsCount.toLocaleString() : Number(item.total).toLocaleString();
+        return `
+          <a href="#street=${encodeURIComponent(item.street)}" class="featured-street-card">
+            <div>
+              <div class="card-badge">${escHtmlHome(labels[cat] || cat)} • ${item.pct}%</div>
+              <h3>${escHtmlHome(item.street)}</h3>
+              <p>${Number(item.count).toLocaleString()} ${escHtmlHome(cat)} records across ${total} entries (${escHtmlHome(span)}).</p>
+            </div>
+            <div class="card-footer">Explore Street Directory <i class="ph ph-arrow-right"></i></div>
+          </a>
+        `;
+      }).join('');
+    }
+
+    async function shuffleHomeDiscovery() {
+      const body = document.getElementById('home-discovery-body');
+      const btn = document.getElementById('btn-shuffle-discovery');
+      if (!body || !masterStreetsList || !masterStreetsList.length) return;
+      if (btn) btn.disabled = true;
+
+      try {
+        const pool = masterStreetsList.filter(s => s.recordsCount >= 15);
+        const candidates = pool.length ? pool : masterStreetsList;
+        const pickStreet = candidates[Math.floor(Math.random() * candidates.length)];
+        const streetData = await loadStreetData(pickStreet.displayName);
+        const recs = (streetData.records || []).filter(r =>
+          (r.surname || r.building_name) && (r.trade || r.house_number) && String(r.trade || '').toLowerCase() !== 'void'
+        );
+        const fallbackRecs = streetData.records || [];
+        const chosen = recs.length
+          ? recs[Math.floor(Math.random() * recs.length)]
+          : fallbackRecs[Math.floor(Math.random() * fallbackRecs.length)];
+
+        if (!chosen) {
+          body.innerHTML = '<div class="discovery-loading">No record found — tap Surprise Me again.</div>';
+          return;
+        }
+
+        const fullName = [chosen.forename, chosen.surname].filter(Boolean).join(' ').trim() || chosen.building_name || 'Recorded Occupant';
+        const addrParts = [];
+        if (chosen.house_number) addrParts.push(`No. ${chosen.house_number}`);
+        if (chosen.building_name && chosen.building_name !== fullName) addrParts.push(chosen.building_name);
+        addrParts.push(pickStreet.displayName);
+
+        body.innerHTML = `
+          <div>
+            <div class="discovery-meta-row">
+              <span class="discovery-year-pill">${escHtmlHome(chosen.year)}</span>
+              <span class="discovery-address">${escHtmlHome(addrParts.join(' • '))}</span>
+            </div>
+            <div class="discovery-resident">${escHtmlHome(fullName)}</div>
+            <div class="discovery-trade">${chosen.trade ? escHtmlHome(chosen.trade) : 'Private Residence'}</div>
+          </div>
+          <a href="#street=${encodeURIComponent(pickStreet.displayName)}" class="discovery-footer-link">
+            Open ${escHtmlHome(pickStreet.displayName)} Ledger <i class="ph ph-arrow-right"></i>
+          </a>
+        `;
+      } catch (err) {
+        console.warn('Discovery shuffle failed', err);
+      } finally {
+        if (btn) btn.disabled = false;
+      }
+    }
+
     window.addEventListener('hashchange', navigate);
     window.addEventListener('DOMContentLoaded', async () => {
       checkEditorMode();
       initScrollRestoration();
       await loadMasterStreets();
+      loadHomeInteractiveData();
       loadSessionFromLocalStorage();
       await navigate();
       // Pre-warm search index in background for instant search & autocomplete response

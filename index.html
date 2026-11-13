@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="src/styles/main.css?v=20261113_mobile_polish">
+  <link rel="stylesheet" href="src/styles/main.css?v=20261113_home_interactive">
   <script src="https://unpkg.com/@phosphor-icons/web"></script>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 </head>
@@ -47,7 +47,7 @@
         <a href="#streets" class="nav-item" id="nav-streets">
           <i class="ph ph-path"></i>
           <span>Street Directory</span>
-          <span class="nav-badge">759</span>
+          <span class="nav-badge" id="nav-streets-badge">901</span>
         </a>
         <a href="#directories" class="nav-item" id="nav-directories">
           <i class="ph ph-books"></i>
@@ -91,7 +91,7 @@
           <i class="ph ph-seal-check" style="color: #16A34A;"></i>
           <span>Database Status</span>
         </div>
-        <div class="audit-widget-desc">759 Streets Verified • 128k+ Records</div>
+        <div class="audit-widget-desc" id="sidebar-audit-desc">901 Streets • 331k+ Records</div>
         <div class="audit-progress-bar">
           <div class="audit-progress-fill" style="width: 100%;"></div>
         </div>
@@ -121,8 +121,8 @@
         <!-- HOME / OVERVIEW VIEW -->
         <section id="view-home" class="view active">
           <div class="hero-studio-container">
-            <div class="hero-badge">
-              <i class="ph ph-sparkle"></i> Historical Cartographic Ledger • 1876 – 1950
+            <div class="hero-badge" id="hero-era-badge">
+              <i class="ph ph-sparkle"></i> Historical Cartographic Ledger • 1876 – 1936
             </div>
             <h1 class="hero-title">Newport Directory & Cartographic Archive</h1>
             <p class="hero-subtitle">Explore physical street walkthroughs, property occupant tenure timelines, and historic trade directory records across Newport, Wales.</p>
@@ -147,41 +147,78 @@
             </div>
           </div>
 
-          <!-- Quick Metrics Bar -->
+          <!-- Quick Metrics Bar (Live & Clickable) -->
           <div class="home-metrics-bar">
-            <div class="metric-card">
-              <div class="metric-val" id="stat-records-count">128,827</div>
-              <div class="metric-lbl">Directory Records</div>
+            <a href="#streets" class="metric-card metric-card-link">
+              <div class="metric-val" id="stat-records-count">331,260</div>
+              <div class="metric-lbl">Directory Records <i class="ph ph-arrow-up-right"></i></div>
+            </a>
+            <a href="#streets" class="metric-card metric-card-link">
+              <div class="metric-val" id="stat-streets-count">901</div>
+              <div class="metric-lbl">Historic Streets <i class="ph ph-arrow-up-right"></i></div>
+            </a>
+            <a href="trades.html" class="metric-card metric-card-link">
+              <div class="metric-val" id="stat-trades-count">23,930</div>
+              <div class="metric-lbl">Trade Strings <i class="ph ph-arrow-up-right"></i></div>
+            </a>
+            <a href="#directories" class="metric-card metric-card-link">
+              <div class="metric-val" id="stat-era-span">1876–1936</div>
+              <div class="metric-lbl">27 Directory Volumes <i class="ph ph-arrow-up-right"></i></div>
+            </a>
+          </div>
+
+          <!-- Interactive Discovery & Top Occupations Row -->
+          <div class="home-discovery-grid">
+            <div class="discovery-card" id="home-discovery-card">
+              <div class="discovery-card-top">
+                <span class="section-tag"><i class="ph ph-compass"></i> ARCHIVE SPOTLIGHT</span>
+                <button type="button" class="discovery-shuffle-btn" id="btn-shuffle-discovery" onclick="shuffleHomeDiscovery()">
+                  <i class="ph ph-shuffle"></i> Surprise Me
+                </button>
+              </div>
+              <div id="home-discovery-body" class="discovery-body">
+                <div class="discovery-loading">Drawing a random entry from the archive…</div>
+              </div>
             </div>
-            <div class="metric-card">
-              <div class="metric-val" id="stat-streets-count">759</div>
-              <div class="metric-lbl">Historic Streets</div>
-            </div>
-            <div class="metric-card">
-              <div class="metric-val">600+</div>
-              <div class="metric-lbl">Unique Occupations</div>
-            </div>
-            <div class="metric-card">
-              <div class="metric-val">1876–1950</div>
-              <div class="metric-lbl">Historical Era</div>
+
+            <div class="occupations-card">
+              <div class="discovery-card-top">
+                <span class="section-tag"><i class="ph ph-briefcase"></i> BROWSE BY OCCUPATION</span>
+                <a href="trades.html" class="section-link">All Trades <i class="ph ph-arrow-right"></i></a>
+              </div>
+              <p class="occupations-sub">Tap a historic Newport trade to search matching residents &amp; streets:</p>
+              <div class="occupations-pills" id="home-top-trades-pills">
+                <button type="button" class="occupation-pill" onclick="quickSearch('Labourer')">Labourer</button>
+                <button type="button" class="occupation-pill" onclick="quickSearch('Ironworker')">Ironworker</button>
+                <button type="button" class="occupation-pill" onclick="quickSearch('Carpenter')">Carpenter</button>
+                <button type="button" class="occupation-pill" onclick="quickSearch('Mason')">Mason</button>
+              </div>
             </div>
           </div>
 
-          <!-- Featured Streets Grid -->
+          <!-- Featured Streets Grid with Category Tabs -->
           <div class="canvas-section">
             <div class="section-top">
               <div>
                 <span class="section-tag">THOROUGHFARES</span>
-                <h2 class="section-title">Historic Newport Streets</h2>
+                <h2 class="section-title">Explore Newport by District &amp; Character</h2>
               </div>
-              <a href="#streets" class="section-link">View All 759 Streets <i class="ph ph-arrow-right"></i></a>
+              <a href="#streets" class="section-link" id="home-view-all-streets">View All 901 Streets <i class="ph ph-arrow-right"></i></a>
             </div>
 
-            <div class="featured-streets-grid">
+            <div class="featured-tabs" id="home-featured-tabs" role="tablist" aria-label="Street categories">
+              <button type="button" class="featured-tab-btn active" data-cat="commercial" onclick="selectFeaturedCategory('commercial')">Commercial</button>
+              <button type="button" class="featured-tab-btn" data-cat="maritime" onclick="selectFeaturedCategory('maritime')">Docks &amp; Maritime</button>
+              <button type="button" class="featured-tab-btn" data-cat="industrial" onclick="selectFeaturedCategory('industrial')">Industrial</button>
+              <button type="button" class="featured-tab-btn" data-cat="railway" onclick="selectFeaturedCategory('railway')">Railway</button>
+              <button type="button" class="featured-tab-btn" data-cat="professional" onclick="selectFeaturedCategory('professional')">Civic &amp; Professional</button>
+            </div>
+
+            <div class="featured-streets-grid" id="home-featured-grid">
               <a href="#street=Commercial%20Road" class="featured-street-card">
                 <div class="card-badge">Commercial Artery</div>
                 <h3>Commercial Road</h3>
-                <p>Major southern shipping corridor with 507 properties from High Street to Pillgwenlly.</p>
+                <p>Major southern shipping corridor from High Street to Pillgwenlly.</p>
                 <div class="card-footer">Explore Street Directory <i class="ph ph-arrow-right"></i></div>
               </a>
 
@@ -200,7 +237,7 @@
               </a>
 
               <a href="#street=Stow%20Hill" class="featured-street-card">
-                <div class="card-badge">Civic & Cathedral</div>
+                <div class="card-badge">Civic &amp; Cathedral</div>
                 <h3>Stow Hill</h3>
                 <p>Elevated historic avenue leading to St Woolos Cathedral with rich architectural heritage.</p>
                 <div class="card-footer">Explore Street Directory <i class="ph ph-arrow-right"></i></div>
@@ -572,7 +609,7 @@
         <kbd class="cmd-k-esc" onclick="closeCmdKModal()">ESC</kbd>
       </div>
       <div class="cmd-k-results" id="cmd-k-results">
-        <div class="cmd-k-empty">Type to search 759 streets and 128,000+ directory records...</div>
+        <div class="cmd-k-empty" id="cmd-k-empty-hint">Type to search 901 streets and 331,000+ directory records...</div>
       </div>
     </div>
   </div>

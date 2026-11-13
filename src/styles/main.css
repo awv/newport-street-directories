@@ -2616,3 +2616,213 @@ body.editor-mode .override-drawer {
   gap: 1rem;
 }
 
+/* ==========================================================================
+   INTERACTIVE HOME DASHBOARD (METRICS, SPOTLIGHT, OCCUPATIONS, CATEGORY TABS)
+   ========================================================================== */
+.metric-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+.metric-card-link:hover {
+  border-color: var(--accent);
+  box-shadow: 0 6px 18px rgba(197, 155, 39, 0.12);
+  transform: translateY(-2px);
+}
+.metric-card-link .metric-lbl {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.35rem;
+}
+
+.home-discovery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin-bottom: 2.25rem;
+}
+
+.discovery-card,
+.occupations-card {
+  background: #FFFFFF;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 1.25rem;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
+}
+
+.discovery-card {
+  background: linear-gradient(180deg, #FFFFFF 0%, #FCFBF7 100%);
+  border-color: var(--border-warm);
+}
+
+.discovery-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.discovery-shuffle-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: var(--accent-light);
+  border: 1px solid var(--accent-border);
+  color: var(--accent-hover);
+  font-family: var(--sans-font);
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 0.32rem 0.7rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.discovery-shuffle-btn:hover {
+  background: var(--accent);
+  color: #FFFFFF;
+}
+
+.discovery-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.discovery-meta-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.discovery-year-pill {
+  background: var(--accent);
+  color: #FFFFFF;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+}
+
+.discovery-address {
+  font-size: 0.84rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.discovery-resident {
+  font-family: var(--heading-font);
+  font-size: 1.55rem;
+  line-height: 1.15;
+  color: var(--text-primary);
+}
+
+.discovery-trade {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+}
+
+.discovery-footer-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--accent-hover);
+  text-decoration: none;
+  margin-top: 0.25rem;
+}
+.discovery-footer-link:hover {
+  text-decoration: underline;
+}
+
+.occupations-sub {
+  font-size: 0.84rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+
+.occupations-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.occupation-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: #FAF9F5;
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  font-family: var(--sans-font);
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.35rem 0.7rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.18s ease;
+}
+.occupation-pill:hover {
+  border-color: var(--accent);
+  background: var(--accent-light);
+  color: var(--accent-hover);
+}
+.occupation-pill-count {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.featured-tabs {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.featured-tab-btn {
+  background: #FFFFFF;
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  font-family: var(--sans-font);
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 0.42rem 0.85rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.18s ease;
+}
+.featured-tab-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent-hover);
+}
+.featured-tab-btn.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+  .home-discovery-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.85rem;
+    margin-bottom: 1.5rem;
+  }
+  .discovery-card,
+  .occupations-card {
+    padding: 0.95rem;
+  }
+}
+
