@@ -1,12 +1,12 @@
 {
   "meta": {
     "total_records": 331425,
-    "total_with_trade": 220714,
-    "pct_with_trade": 66.6,
+    "total_with_trade": 219161,
+    "pct_with_trade": 66.1,
     "total_streets": 1029,
     "total_years": 27,
     "years_span": "1876\u20131936",
-    "unique_trade_strings": 25451
+    "unique_trade_strings": 24735
   },
   "yearly_overview": [
     {
@@ -20,120 +20,120 @@
     {
       "year": "1878",
       "total": 4686,
-      "with_trade": 3641,
-      "pct": 77.7,
+      "with_trade": 3632,
+      "pct": 77.5,
       "trades_in_names": 3,
       "names_in_trades": 5
     },
     {
       "year": "1882",
       "total": 5757,
-      "with_trade": 4351,
-      "pct": 75.6,
+      "with_trade": 4348,
+      "pct": 75.5,
       "trades_in_names": 2,
       "names_in_trades": 17
     },
     {
       "year": "1886",
       "total": 7799,
-      "with_trade": 5927,
-      "pct": 76.0,
+      "with_trade": 5912,
+      "pct": 75.8,
       "trades_in_names": 4,
       "names_in_trades": 12
     },
     {
       "year": "1887",
       "total": 6824,
-      "with_trade": 5114,
-      "pct": 74.9,
+      "with_trade": 5098,
+      "pct": 74.7,
       "trades_in_names": 18,
       "names_in_trades": 50
     },
     {
       "year": "1890",
       "total": 9149,
-      "with_trade": 6681,
-      "pct": 73.0,
+      "with_trade": 6644,
+      "pct": 72.6,
       "trades_in_names": 27,
       "names_in_trades": 24
     },
     {
       "year": "1892",
       "total": 9331,
-      "with_trade": 6858,
-      "pct": 73.5,
+      "with_trade": 6824,
+      "pct": 73.1,
       "trades_in_names": 13,
       "names_in_trades": 10
     },
     {
       "year": "1893",
       "total": 9864,
-      "with_trade": 7307,
-      "pct": 74.1,
+      "with_trade": 7269,
+      "pct": 73.7,
       "trades_in_names": 4,
       "names_in_trades": 18
     },
     {
       "year": "1894",
       "total": 10096,
-      "with_trade": 7464,
-      "pct": 73.9,
+      "with_trade": 7436,
+      "pct": 73.7,
       "trades_in_names": 8,
       "names_in_trades": 23
     },
     {
       "year": "1895",
       "total": 10544,
-      "with_trade": 7571,
-      "pct": 71.8,
+      "with_trade": 7493,
+      "pct": 71.1,
       "trades_in_names": 43,
       "names_in_trades": 18
     },
     {
       "year": "1898",
       "total": 12030,
-      "with_trade": 8349,
-      "pct": 69.4,
+      "with_trade": 8286,
+      "pct": 68.9,
       "trades_in_names": 10,
       "names_in_trades": 26
     },
     {
       "year": "1899",
       "total": 11837,
-      "with_trade": 8060,
-      "pct": 68.1,
+      "with_trade": 8000,
+      "pct": 67.6,
       "trades_in_names": 10,
       "names_in_trades": 14
     },
     {
       "year": "1900",
       "total": 12387,
-      "with_trade": 8548,
-      "pct": 69.0,
+      "with_trade": 8455,
+      "pct": 68.3,
       "trades_in_names": 20,
       "names_in_trades": 38
     },
     {
       "year": "1901",
       "total": 12800,
-      "with_trade": 8796,
-      "pct": 68.7,
+      "with_trade": 8739,
+      "pct": 68.3,
       "trades_in_names": 3,
       "names_in_trades": 18
     },
     {
       "year": "1902",
       "total": 12836,
-      "with_trade": 9029,
-      "pct": 70.3,
+      "with_trade": 8970,
+      "pct": 69.9,
       "trades_in_names": 20,
       "names_in_trades": 27
     },
     {
       "year": "1903",
       "total": 13595,
-      "with_trade": 9632,
-      "pct": 70.8,
+      "with_trade": 9530,
+      "pct": 70.1,
       "trades_in_names": 20,
       "names_in_trades": 49
     },
@@ -148,80 +148,80 @@
     {
       "year": "1906",
       "total": 15012,
-      "with_trade": 10279,
-      "pct": 68.5,
+      "with_trade": 10189,
+      "pct": 67.9,
       "trades_in_names": 17,
       "names_in_trades": 112
     },
     {
       "year": "1908",
       "total": 15392,
-      "with_trade": 10391,
-      "pct": 67.5,
+      "with_trade": 10298,
+      "pct": 66.9,
       "trades_in_names": 15,
       "names_in_trades": 123
     },
     {
       "year": "1910",
       "total": 16197,
-      "with_trade": 10053,
-      "pct": 62.1,
+      "with_trade": 10015,
+      "pct": 61.8,
       "trades_in_names": 36,
       "names_in_trades": 48
     },
     {
       "year": "1913",
       "total": 16969,
-      "with_trade": 10424,
-      "pct": 61.4,
+      "with_trade": 10338,
+      "pct": 60.9,
       "trades_in_names": 37,
       "names_in_trades": 54
     },
     {
       "year": "1915",
       "total": 17243,
-      "with_trade": 10805,
-      "pct": 62.7,
+      "with_trade": 10715,
+      "pct": 62.1,
       "trades_in_names": 15,
       "names_in_trades": 60
     },
     {
       "year": "1920",
       "total": 17467,
-      "with_trade": 10835,
-      "pct": 62.0,
+      "with_trade": 10711,
+      "pct": 61.3,
       "trades_in_names": 34,
       "names_in_trades": 45
     },
     {
       "year": "1924",
       "total": 18488,
-      "with_trade": 11335,
-      "pct": 61.3,
+      "with_trade": 11284,
+      "pct": 61.0,
       "trades_in_names": 16,
       "names_in_trades": 42
     },
     {
       "year": "1925",
       "total": 19065,
-      "with_trade": 11777,
-      "pct": 61.8,
+      "with_trade": 11620,
+      "pct": 60.9,
       "trades_in_names": 40,
       "names_in_trades": 56
     },
     {
       "year": "1927",
       "total": 21239,
-      "with_trade": 13739,
-      "pct": 64.7,
+      "with_trade": 13639,
+      "pct": 64.2,
       "trades_in_names": 25,
       "names_in_trades": 84
     },
     {
       "year": "1936",
       "total": 24816,
-      "with_trade": 13747,
-      "pct": 55.4,
+      "with_trade": 13715,
+      "pct": 55.3,
       "trades_in_names": 15,
       "names_in_trades": 18
     }
@@ -2018,50 +2018,50 @@
       {
         "street": "Commercial Road",
         "count": 920,
-        "total": 4036,
-        "pct": 22.8
+        "total": 4013,
+        "pct": 22.9
       },
       {
         "street": "Commercial Street",
         "count": 521,
-        "total": 5361,
-        "pct": 9.7
+        "total": 5294,
+        "pct": 9.8
       },
       {
         "street": "Chepstow Road",
         "count": 440,
-        "total": 2870,
-        "pct": 15.3
+        "total": 2758,
+        "pct": 16.0
       },
       {
         "street": "Corporation Road",
         "count": 392,
-        "total": 2780,
-        "pct": 14.1
+        "total": 2720,
+        "pct": 14.4
       },
       {
         "street": "Caerleon Road",
         "count": 273,
-        "total": 2648,
-        "pct": 10.3
+        "total": 2573,
+        "pct": 10.6
       },
       {
         "street": "Church Road",
         "count": 272,
-        "total": 1295,
-        "pct": 21.0
+        "total": 1290,
+        "pct": 21.1
       },
       {
         "street": "Malpas Road",
         "count": 220,
-        "total": 2029,
-        "pct": 10.8
+        "total": 2027,
+        "pct": 10.9
       },
       {
         "street": "High Street",
         "count": 218,
-        "total": 2781,
-        "pct": 7.8
+        "total": 2757,
+        "pct": 7.9
       },
       {
         "street": "Market (provision)",
@@ -2072,37 +2072,37 @@
       {
         "street": "Clarence Place",
         "count": 182,
-        "total": 1020,
-        "pct": 17.8
+        "total": 999,
+        "pct": 18.2
       },
       {
         "street": "Blewitt Street",
         "count": 171,
-        "total": 1395,
+        "total": 1394,
         "pct": 12.3
       },
       {
         "street": "Bridge Street",
         "count": 171,
-        "total": 1445,
-        "pct": 11.8
+        "total": 1438,
+        "pct": 11.9
       },
       {
         "street": "Duckpool Road",
         "count": 161,
-        "total": 2344,
+        "total": 2335,
         "pct": 6.9
       },
       {
         "street": "Alexandra Road",
         "count": 149,
-        "total": 1167,
-        "pct": 12.8
+        "total": 1158,
+        "pct": 12.9
       },
       {
         "street": "Shaftesbury Street",
         "count": 145,
-        "total": 1694,
+        "total": 1690,
         "pct": 8.6
       }
     ],
@@ -2122,8 +2122,8 @@
       {
         "street": "Jeddo Street",
         "count": 623,
-        "total": 1662,
-        "pct": 37.5
+        "total": 1654,
+        "pct": 37.7
       },
       {
         "street": "Hewertson Street",
@@ -2146,7 +2146,7 @@
       {
         "street": "Lime Street",
         "count": 457,
-        "total": 1527,
+        "total": 1526,
         "pct": 29.9
       },
       {
@@ -2158,7 +2158,7 @@
       {
         "street": "Archibald Street",
         "count": 421,
-        "total": 1250,
+        "total": 1249,
         "pct": 33.7
       },
       {
@@ -2176,8 +2176,8 @@
       {
         "street": "Jones Street",
         "count": 379,
-        "total": 1270,
-        "pct": 29.8
+        "total": 1265,
+        "pct": 30.0
       },
       {
         "street": "Hoskins Street",
@@ -2202,8 +2202,8 @@
       {
         "street": "Capel Crescent",
         "count": 290,
-        "total": 1207,
-        "pct": 24.0
+        "total": 1202,
+        "pct": 24.1
       },
       {
         "street": "Lewis Street",
@@ -2232,13 +2232,13 @@
       {
         "street": "Williams Street",
         "count": 143,
-        "total": 1584,
+        "total": 1583,
         "pct": 9.0
       },
       {
         "street": "Duckpool Road",
         "count": 138,
-        "total": 2344,
+        "total": 2335,
         "pct": 5.9
       },
       {
@@ -2250,13 +2250,13 @@
       {
         "street": "Jeddo Street",
         "count": 108,
-        "total": 1662,
+        "total": 1654,
         "pct": 6.5
       },
       {
         "street": "Alma Street",
         "count": 107,
-        "total": 1896,
+        "total": 1895,
         "pct": 5.6
       },
       {
@@ -2268,13 +2268,13 @@
       {
         "street": "Lime Street",
         "count": 69,
-        "total": 1527,
+        "total": 1526,
         "pct": 4.5
       },
       {
         "street": "Redland Street",
         "count": 69,
-        "total": 1215,
+        "total": 1213,
         "pct": 5.7
       },
       {
@@ -2294,19 +2294,19 @@
       {
         "street": "Jeddo Street",
         "count": 373,
-        "total": 1662,
-        "pct": 22.4
+        "total": 1654,
+        "pct": 22.6
       },
       {
         "street": "Marion Street",
         "count": 367,
-        "total": 1403,
+        "total": 1402,
         "pct": 26.2
       },
       {
         "street": "Lime Street",
         "count": 307,
-        "total": 1527,
+        "total": 1526,
         "pct": 20.1
       },
       {
@@ -2336,7 +2336,7 @@
       {
         "street": "Clarence Street",
         "count": 188,
-        "total": 778,
+        "total": 776,
         "pct": 24.2
       },
       {
@@ -2372,13 +2372,13 @@
       {
         "street": "David Street",
         "count": 143,
-        "total": 591,
-        "pct": 24.2
+        "total": 587,
+        "pct": 24.4
       },
       {
         "street": "Williams Street",
         "count": 143,
-        "total": 1584,
+        "total": 1583,
         "pct": 9.0
       }
     ],
@@ -2386,74 +2386,74 @@
       {
         "street": "Commercial Street",
         "count": 150,
-        "total": 5361,
+        "total": 5294,
         "pct": 2.8
       },
       {
         "street": "Stow Hill",
         "count": 118,
-        "total": 1891,
-        "pct": 6.2
+        "total": 1864,
+        "pct": 6.3
       },
       {
         "street": "High Street",
         "count": 97,
-        "total": 2781,
+        "total": 2757,
         "pct": 3.5
       },
       {
         "street": "Bridge Street",
         "count": 76,
-        "total": 1445,
+        "total": 1438,
         "pct": 5.3
       },
       {
         "street": "Dock Street",
         "count": 63,
-        "total": 4193,
+        "total": 4168,
         "pct": 1.5
       },
       {
         "street": "Victoria Place",
         "count": 52,
-        "total": 225,
-        "pct": 23.1
+        "total": 221,
+        "pct": 23.5
       },
       {
         "street": "Chepstow Road",
         "count": 50,
-        "total": 2870,
-        "pct": 1.7
+        "total": 2758,
+        "pct": 1.8
       },
       {
         "street": "Morden Road",
         "count": 47,
-        "total": 742,
-        "pct": 6.3
+        "total": 729,
+        "pct": 6.4
       },
       {
         "street": "Commercial Road",
         "count": 44,
-        "total": 4036,
+        "total": 4013,
         "pct": 1.1
       },
       {
         "street": "Kensington Place",
         "count": 24,
-        "total": 206,
+        "total": 205,
         "pct": 11.7
       },
       {
         "street": "Skinner Street",
         "count": 18,
-        "total": 492,
+        "total": 490,
         "pct": 3.7
       },
       {
         "street": "Clytha Square",
         "count": 17,
-        "total": 258,
-        "pct": 6.6
+        "total": 248,
+        "pct": 6.9
       },
       {
         "street": "Tredegar Place",
@@ -2464,14 +2464,14 @@
       {
         "street": "Gold Tops",
         "count": 15,
-        "total": 323,
-        "pct": 4.6
+        "total": 305,
+        "pct": 4.9
       },
       {
         "street": "Park Square",
         "count": 15,
-        "total": 115,
-        "pct": 13.0
+        "total": 109,
+        "pct": 13.8
       }
     ]
   },
@@ -2580,6 +2580,10 @@
         "count": 36
       },
       {
+        "trade": "Boarding House",
+        "count": 34
+      },
+      {
         "trade": "Costumier",
         "count": 33
       },
@@ -2597,10 +2601,6 @@
       },
       {
         "trade": "Hairdresser",
-        "count": 28
-      },
-      {
-        "trade": "Boarding House",
         "count": 28
       },
       {
