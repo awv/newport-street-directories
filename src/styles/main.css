@@ -987,7 +987,43 @@ html, body {
   background: #FFFFFF;
   border: 1px solid var(--border-color);
   border-radius: 8px;
-  overflow-x: auto;
+  overflow: auto;
+  max-inline-size: 100%;
+  max-block-size: min(760px, 78vh);
+}
+
+.matrix-container .street-ledger-table thead th {
+  position: sticky;
+  inset-block-start: 0;
+  z-index: 3;
+  background: #F4F1EA;
+  box-shadow: 0 2px 4px rgba(18, 15, 13, 0.05);
+}
+
+.matrix-container .street-ledger-table tr:not(.ledger-junction-row) td:first-child,
+.matrix-container .street-ledger-table thead th:first-child {
+  position: sticky;
+  inset-inline-start: 0;
+  border-right: 1px solid var(--border-color);
+  box-shadow: 2px 0 6px rgba(18, 15, 13, 0.06);
+}
+
+.matrix-container .street-ledger-table thead th:first-child {
+  z-index: 4;
+  background: #F4F1EA;
+}
+
+.matrix-container .street-ledger-table tr:not(.ledger-junction-row) td:first-child {
+  z-index: 2;
+  background: #FFFFFF;
+}
+
+.matrix-container .street-ledger-table tr:not(.ledger-junction-row):nth-child(even) td:first-child {
+  background: #FAF9F6;
+}
+
+.matrix-container .street-ledger-table tr:not(.ledger-junction-row):hover td:first-child {
+  background: #FFFDF2;
 }
 
 /* RIGHT SLIDE-OVER INSPECTOR DRAWER */
@@ -1912,27 +1948,13 @@ html, body {
   /* Table Mobile Touch Scroll Containers */
   .street-ledger-card,
   .matrix-container {
-    overflow-x: auto !important;
+    overflow: auto !important;
     -webkit-overflow-scrolling: touch;
     border-radius: 8px !important;
   }
 
   .street-ledger-table {
     min-width: 680px !important;
-  }
-
-  /* Sticky House # Column for Cross-Year Matrix on Mobile */
-  .matrix-container .street-ledger-table th:first-child,
-  .matrix-container .street-ledger-table td:first-child {
-    position: sticky !important;
-    left: 0 !important;
-    background: #FFFFFF !important;
-    z-index: 12 !important;
-    box-shadow: 2px 0 5px rgba(0,0,0,0.05) !important;
-  }
-
-  .matrix-container .street-ledger-table th:first-child {
-    background: #FAF9F6 !important;
   }
 
   /* Responsive Dual Spatial Columns */

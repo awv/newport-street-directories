@@ -1968,12 +1968,12 @@ function toggleMobileSidebar() {
       const allYears = Array.from(new Set(locations.flatMap(loc => loc.records.map(r => r.year)))).sort((a,b) => parseInt(a) - parseInt(b));
 
       gridContainer.innerHTML = `
-        <div class="matrix-container" style="background: #FFFFFF; border: 1px solid var(--border-color); border-radius: 10px; overflow-x: auto; width: 100%; box-shadow: 0 2px 10px rgba(0,0,0,0.02);">
+        <div class="matrix-container" tabindex="0" role="region" aria-label="Cross-Year Street Directory Matrix" style="background: #FFFFFF; border: 1px solid var(--border-color); border-radius: 10px; width: 100%; box-shadow: 0 2px 10px rgba(0,0,0,0.02);">
           <table class="street-ledger-table" style="width: 100%; table-layout: fixed;">
             <thead>
               <tr>
-                <th style="width: 140px; white-space: nowrap;">House #</th>
-                ${allYears.map(yr => `<th style="width: 220px;">${yr} Directory</th>`).join('')}
+                <th scope="col" style="width: 140px; white-space: nowrap;">House #</th>
+                ${allYears.map(yr => `<th scope="col" style="width: 220px;">${yr} Directory</th>`).join('')}
                 <th></th>
               </tr>
             </thead>
