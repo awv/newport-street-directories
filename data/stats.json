@@ -1,12 +1,12 @@
 {
   "meta": {
     "total_records": 331333,
-    "total_with_trade": 221614,
+    "total_with_trade": 221623,
     "pct_with_trade": 66.9,
     "total_streets": 985,
     "total_years": 27,
     "years_span": "1876\u20131936",
-    "unique_trade_strings": 24858
+    "unique_trade_strings": 24861
   },
   "yearly_overview": [
     {
@@ -28,15 +28,15 @@
     {
       "year": "1882",
       "total": 5757,
-      "with_trade": 4407,
+      "with_trade": 4409,
       "pct": 76.6,
-      "trades_in_names": 2,
+      "trades_in_names": 1,
       "names_in_trades": 17
     },
     {
       "year": "1886",
       "total": 7799,
-      "with_trade": 5960,
+      "with_trade": 5961,
       "pct": 76.4,
       "trades_in_names": 4,
       "names_in_trades": 13
@@ -52,7 +52,7 @@
     {
       "year": "1890",
       "total": 9149,
-      "with_trade": 6732,
+      "with_trade": 6733,
       "pct": 73.6,
       "trades_in_names": 27,
       "names_in_trades": 24
@@ -76,7 +76,7 @@
     {
       "year": "1894",
       "total": 10096,
-      "with_trade": 7509,
+      "with_trade": 7510,
       "pct": 74.4,
       "trades_in_names": 8,
       "names_in_trades": 23
@@ -188,7 +188,7 @@
     {
       "year": "1920",
       "total": 17467,
-      "with_trade": 10743,
+      "with_trade": 10744,
       "pct": 61.5,
       "trades_in_names": 32,
       "names_in_trades": 45
@@ -196,7 +196,7 @@
     {
       "year": "1924",
       "total": 18488,
-      "with_trade": 11340,
+      "with_trade": 11342,
       "pct": 61.3,
       "trades_in_names": 16,
       "names_in_trades": 42
@@ -204,7 +204,7 @@
     {
       "year": "1925",
       "total": 19065,
-      "with_trade": 11690,
+      "with_trade": 11691,
       "pct": 61.3,
       "trades_in_names": 40,
       "names_in_trades": 56
@@ -227,8 +227,8 @@
     }
   ],
   "trades_in_names": {
-    "total_detected": 449,
-    "in_forename_count": 155,
+    "total_detected": 448,
+    "in_forename_count": 154,
     "in_surname_count": 294,
     "top_trapped_trades": [
       {
@@ -237,7 +237,7 @@
       },
       {
         "trade": "Factory",
-        "count": 24
+        "count": 23
       },
       {
         "trade": "Ironworker",
@@ -354,7 +354,7 @@
     ],
     "by_year": {
       "1878": 2,
-      "1882": 2,
+      "1882": 1,
       "1886": 4,
       "1887": 18,
       "1890": 27,
@@ -516,16 +516,6 @@
         "house_number": "",
         "surname": "",
         "forename": "Matthews's Nail factory",
-        "trade": "",
-        "found": "Factory",
-        "field": "forename"
-      },
-      {
-        "year": "1882",
-        "street": "Maddox Close",
-        "house_number": "",
-        "surname": "",
-        "forename": "Nail Factory J. J. Cordes and Co.",
         "trade": "",
         "found": "Factory",
         "field": "forename"
@@ -728,6 +718,16 @@
         "forename": "architect",
         "trade": "",
         "found": "Architect",
+        "field": "forename"
+      },
+      {
+        "year": "1893",
+        "street": "Dock Street",
+        "house_number": "",
+        "surname": "",
+        "forename": "Engineer's Depot",
+        "trade": "G.W.R.",
+        "found": "Engineer",
         "field": "forename"
       },
       {
@@ -2410,7 +2410,7 @@
       {
         "street": "Dock Street",
         "count": 63,
-        "total": 4290,
+        "total": 4291,
         "pct": 1.5
       },
       {
