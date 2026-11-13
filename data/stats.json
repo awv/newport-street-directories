@@ -1,12 +1,12 @@
 {
   "meta": {
     "total_records": 331328,
-    "total_with_trade": 223046,
+    "total_with_trade": 223048,
     "pct_with_trade": 67.3,
     "total_streets": 1029,
     "total_years": 27,
     "years_span": "1876\u20131936",
-    "unique_trade_strings": 27253
+    "unique_trade_strings": 27179
   },
   "yearly_overview": [
     {
@@ -164,7 +164,7 @@
     {
       "year": "1910",
       "total": 16197,
-      "with_trade": 10137,
+      "with_trade": 10138,
       "pct": 62.6,
       "trades_in_names": 38,
       "names_in_trades": 48
@@ -180,7 +180,7 @@
     {
       "year": "1915",
       "total": 17242,
-      "with_trade": 10945,
+      "with_trade": 10946,
       "pct": 63.5,
       "trades_in_names": 14,
       "names_in_trades": 60
@@ -1578,6 +1578,12 @@
       "latest": 1936
     },
     {
+      "trade": "Foreman",
+      "count": 1413,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
       "trade": "Gardener",
       "count": 1398,
       "earliest": 1878,
@@ -1586,12 +1592,6 @@
     {
       "trade": "Shop",
       "count": 1368,
-      "earliest": 1878,
-      "latest": 1936
-    },
-    {
-      "trade": "Foreman",
-      "count": 1344,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1621,7 +1621,7 @@
     },
     {
       "trade": "Hairdresser",
-      "count": 1122,
+      "count": 1128,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1669,7 +1669,7 @@
     },
     {
       "trade": "Confectioner",
-      "count": 911,
+      "count": 941,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1698,20 +1698,20 @@
       "latest": 1936
     },
     {
+      "trade": "Shipwright",
+      "count": 832,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
       "trade": "Plumber",
       "count": 820,
       "earliest": 1878,
       "latest": 1936
     },
     {
-      "trade": "Shipwright",
-      "count": 808,
-      "earliest": 1878,
-      "latest": 1936
-    },
-    {
       "trade": "Insurance Agent",
-      "count": 777,
+      "count": 801,
       "earliest": 1878,
       "latest": 1936
     },
@@ -2029,15 +2029,15 @@
       },
       {
         "street": "Chepstow Road",
-        "count": 425,
+        "count": 435,
         "total": 3019,
-        "pct": 14.1
+        "pct": 14.4
       },
       {
         "street": "Corporation Road",
-        "count": 383,
+        "count": 392,
         "total": 2919,
-        "pct": 13.1
+        "pct": 13.4
       },
       {
         "street": "Caerleon Road",
@@ -2053,7 +2053,7 @@
       },
       {
         "street": "Malpas Road",
-        "count": 219,
+        "count": 220,
         "total": 2037,
         "pct": 10.8
       },
@@ -2089,13 +2089,13 @@
       },
       {
         "street": "Duckpool Road",
-        "count": 160,
+        "count": 161,
         "total": 2347,
-        "pct": 6.8
+        "pct": 6.9
       },
       {
         "street": "Alexandra Road",
-        "count": 148,
+        "count": 149,
         "total": 1169,
         "pct": 12.7
       },
@@ -2341,9 +2341,15 @@
       },
       {
         "street": "Price Street",
-        "count": 176,
+        "count": 180,
         "total": 1159,
-        "pct": 15.2
+        "pct": 15.5
+      },
+      {
+        "street": "Raglan Street",
+        "count": 154,
+        "total": 1871,
+        "pct": 8.2
       },
       {
         "street": "Castle Street",
@@ -2352,28 +2358,22 @@
         "pct": 24.8
       },
       {
-        "street": "Raglan Street",
-        "count": 153,
-        "total": 1871,
-        "pct": 8.2
-      },
-      {
         "street": "Robert Street",
         "count": 143,
         "total": 816,
         "pct": 17.5
       },
       {
+        "street": "Williams Street",
+        "count": 143,
+        "total": 1589,
+        "pct": 9.0
+      },
+      {
         "street": "Wolseley Street",
         "count": 143,
         "total": 712,
         "pct": 20.1
-      },
-      {
-        "street": "Williams Street",
-        "count": 141,
-        "total": 1589,
-        "pct": 8.9
       },
       {
         "street": "David Street",
@@ -2529,7 +2529,7 @@
       },
       {
         "trade": "Confectioner",
-        "count": 105
+        "count": 114
       },
       {
         "trade": "Greengrocer",
@@ -2592,12 +2592,12 @@
         "count": 30
       },
       {
-        "trade": "Teacher",
+        "trade": "Hairdresser",
         "count": 28
       },
       {
-        "trade": "Hairdresser",
-        "count": 27
+        "trade": "Teacher",
+        "count": 28
       },
       {
         "trade": "Boarding House",
