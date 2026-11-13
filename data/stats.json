@@ -1,7 +1,7 @@
 {
   "meta": {
     "total_records": 331260,
-    "total_with_trade": 221633,
+    "total_with_trade": 221609,
     "pct_with_trade": 66.9,
     "total_streets": 901,
     "total_years": 27,
@@ -21,56 +21,56 @@
     {
       "year": "1878",
       "total": 4686,
-      "with_trade": 3642,
+      "with_trade": 3641,
       "pct": 77.7,
       "streets_count": 188,
       "trades_in_names": 1,
-      "names_in_trades": 5
+      "names_in_trades": 4
     },
     {
       "year": "1882",
       "total": 5757,
-      "with_trade": 4408,
+      "with_trade": 4407,
       "pct": 76.6,
       "streets_count": 209,
       "trades_in_names": 0,
-      "names_in_trades": 16
+      "names_in_trades": 15
     },
     {
       "year": "1886",
       "total": 7799,
-      "with_trade": 5957,
+      "with_trade": 5956,
       "pct": 76.4,
       "streets_count": 293,
       "trades_in_names": 3,
-      "names_in_trades": 13
+      "names_in_trades": 12
     },
     {
       "year": "1887",
       "total": 6824,
-      "with_trade": 5149,
-      "pct": 75.5,
+      "with_trade": 5148,
+      "pct": 75.4,
       "streets_count": 232,
       "trades_in_names": 1,
-      "names_in_trades": 12
+      "names_in_trades": 11
     },
     {
       "year": "1890",
       "total": 9149,
-      "with_trade": 6758,
-      "pct": 73.9,
+      "with_trade": 6756,
+      "pct": 73.8,
       "streets_count": 336,
       "trades_in_names": 4,
-      "names_in_trades": 17
+      "names_in_trades": 15
     },
     {
       "year": "1892",
       "total": 9331,
-      "with_trade": 6880,
+      "with_trade": 6878,
       "pct": 73.7,
       "streets_count": 321,
       "trades_in_names": 10,
-      "names_in_trades": 8
+      "names_in_trades": 6
     },
     {
       "year": "1893",
@@ -84,29 +84,29 @@
     {
       "year": "1894",
       "total": 10096,
-      "with_trade": 7501,
+      "with_trade": 7500,
       "pct": 74.3,
       "streets_count": 345,
       "trades_in_names": 6,
-      "names_in_trades": 11
+      "names_in_trades": 10
     },
     {
       "year": "1895",
       "total": 10544,
-      "with_trade": 7616,
+      "with_trade": 7615,
       "pct": 72.2,
       "streets_count": 356,
       "trades_in_names": 8,
-      "names_in_trades": 7
+      "names_in_trades": 6
     },
     {
       "year": "1898",
       "total": 12030,
-      "with_trade": 8410,
+      "with_trade": 8409,
       "pct": 69.9,
       "streets_count": 368,
       "trades_in_names": 6,
-      "names_in_trades": 12
+      "names_in_trades": 11
     },
     {
       "year": "1899",
@@ -147,11 +147,11 @@
     {
       "year": "1903",
       "total": 13595,
-      "with_trade": 9652,
+      "with_trade": 9647,
       "pct": 71.0,
       "streets_count": 401,
       "trades_in_names": 9,
-      "names_in_trades": 23
+      "names_in_trades": 18
     },
     {
       "year": "1905",
@@ -165,20 +165,20 @@
     {
       "year": "1906",
       "total": 15012,
-      "with_trade": 10259,
+      "with_trade": 10256,
       "pct": 68.3,
       "streets_count": 443,
       "trades_in_names": 15,
-      "names_in_trades": 53
+      "names_in_trades": 50
     },
     {
       "year": "1908",
       "total": 15392,
-      "with_trade": 10386,
+      "with_trade": 10385,
       "pct": 67.5,
       "streets_count": 412,
       "trades_in_names": 10,
-      "names_in_trades": 45
+      "names_in_trades": 44
     },
     {
       "year": "1910",
@@ -192,11 +192,11 @@
     {
       "year": "1913",
       "total": 16969,
-      "with_trade": 10552,
+      "with_trade": 10551,
       "pct": 62.2,
       "streets_count": 477,
       "trades_in_names": 2,
-      "names_in_trades": 26
+      "names_in_trades": 25
     },
     {
       "year": "1915",
@@ -219,20 +219,20 @@
     {
       "year": "1924",
       "total": 18488,
-      "with_trade": 11331,
+      "with_trade": 11329,
       "pct": 61.3,
       "streets_count": 503,
       "trades_in_names": 11,
-      "names_in_trades": 23
+      "names_in_trades": 21
     },
     {
       "year": "1925",
       "total": 19065,
-      "with_trade": 11719,
+      "with_trade": 11718,
       "pct": 61.5,
       "streets_count": 514,
       "trades_in_names": 9,
-      "names_in_trades": 28
+      "names_in_trades": 27
     },
     {
       "year": "1927",
@@ -1310,41 +1310,41 @@
     ]
   },
   "names_in_trades": {
-    "total_detected": 514,
+    "total_detected": 490,
     "initials_as_trade_count": 226,
-    "forenames_as_trade_count": 288,
+    "forenames_as_trade_count": 264,
     "top_names": [
       {
         "name": "Williams",
-        "count": 55
+        "count": 46
       },
       {
         "name": "Jones",
-        "count": 40
-      },
-      {
-        "name": "Davies",
         "count": 36
       },
       {
+        "name": "Davies",
+        "count": 34
+      },
+      {
         "name": "Evans",
-        "count": 35
+        "count": 30
       },
       {
         "name": "Lewis",
-        "count": 25
+        "count": 23
       },
       {
         "name": "Thomas",
         "count": 18
       },
       {
-        "name": "Llewellyn",
-        "count": 17
-      },
-      {
         "name": "James",
         "count": 16
+      },
+      {
+        "name": "Llewellyn",
+        "count": 15
       },
       {
         "name": "H",
@@ -1436,29 +1436,29 @@
       }
     ],
     "by_year": {
-      "1878": 5,
-      "1882": 16,
-      "1886": 13,
-      "1887": 12,
-      "1890": 17,
-      "1892": 8,
+      "1878": 4,
+      "1882": 15,
+      "1886": 12,
+      "1887": 11,
+      "1890": 15,
+      "1892": 6,
       "1893": 14,
-      "1894": 11,
-      "1895": 7,
-      "1898": 12,
+      "1894": 10,
+      "1895": 6,
+      "1898": 11,
       "1899": 9,
       "1900": 23,
       "1901": 15,
       "1902": 7,
-      "1903": 23,
-      "1906": 53,
-      "1908": 45,
+      "1903": 18,
+      "1906": 50,
+      "1908": 44,
       "1910": 26,
-      "1913": 26,
+      "1913": 25,
       "1915": 19,
       "1920": 20,
-      "1924": 23,
-      "1925": 28,
+      "1924": 21,
+      "1925": 27,
       "1927": 48,
       "1936": 34
     },
@@ -1667,14 +1667,6 @@
         "year": "1878",
         "street": "Clytha Park Road",
         "house_number": "",
-        "surname": "The Ferns",
-        "forename": "Robert P.",
-        "trade": "Jones"
-      },
-      {
-        "year": "1878",
-        "street": "Clytha Park Road",
-        "house_number": "",
         "surname": "Rosemont",
         "forename": "Edward F.",
         "trade": "Davies"
@@ -1723,14 +1715,6 @@
         "year": "1882",
         "street": "Gold Tops",
         "house_number": "",
-        "surname": "[villa]",
-        "forename": "Benjamin",
-        "trade": "Evans"
-      },
-      {
-        "year": "1882",
-        "street": "Gold Tops",
-        "house_number": "",
         "surname": "St. Ia vils",
         "forename": "Alfred",
         "trade": "Williams"
@@ -1750,14 +1734,6 @@
         "surname": "Hy. Russell",
         "forename": "J.P.",
         "trade": "Evans"
-      },
-      {
-        "year": "1886",
-        "street": "Devon Road",
-        "house_number": "",
-        "surname": "Hry.",
-        "forename": "Sandford ho",
-        "trade": "Williams"
       },
       {
         "year": "1886",
@@ -1798,14 +1774,6 @@
         "surname": "John",
         "forename": "Claremont",
         "trade": "Williams"
-      },
-      {
-        "year": "1887",
-        "street": "Cross Street",
-        "house_number": "",
-        "surname": "Sidney",
-        "forename": "Ivy cot.",
-        "trade": "Evans"
       },
       {
         "year": "1887",
@@ -1861,6 +1829,38 @@
         "house_number": "16",
         "surname": "solicitors & Co.",
         "forename": "",
+        "trade": "Williams"
+      },
+      {
+        "year": "1890",
+        "street": "Dock Street",
+        "house_number": "56",
+        "surname": "C. & E.",
+        "forename": "opticians & chron'r makers",
+        "trade": "Williams"
+      },
+      {
+        "year": "1890",
+        "street": "Gold Tops",
+        "house_number": "",
+        "surname": "Laurels",
+        "forename": "John",
+        "trade": "Williams"
+      },
+      {
+        "year": "1890",
+        "street": "Gold Tops",
+        "house_number": "",
+        "surname": "Griffith",
+        "forename": "Troedyrhiw",
+        "trade": "Davies"
+      },
+      {
+        "year": "1890",
+        "street": "Market Street",
+        "house_number": "",
+        "surname": "John",
+        "forename": "Trout",
         "trade": "Williams"
       }
     ]
@@ -2469,13 +2469,13 @@
       {
         "street": "Caerleon Road",
         "count": 293,
-        "total": 2711,
+        "total": 2706,
         "pct": 10.8
       },
       {
         "street": "Church Road",
         "count": 273,
-        "total": 1301,
+        "total": 1297,
         "pct": 21.0
       },
       {
@@ -2713,7 +2713,7 @@
       {
         "street": "Devon Place",
         "count": 67,
-        "total": 602,
+        "total": 601,
         "pct": 11.1
       }
     ],
@@ -2897,7 +2897,7 @@
       {
         "street": "Caerau Road",
         "count": 15,
-        "total": 663,
+        "total": 662,
         "pct": 2.3
       }
     ]
