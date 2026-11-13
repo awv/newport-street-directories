@@ -22,7 +22,7 @@
       "total": 4686,
       "with_trade": 3641,
       "pct": 77.7,
-      "trades_in_names": 5,
+      "trades_in_names": 3,
       "names_in_trades": 5
     },
     {
@@ -54,7 +54,7 @@
       "total": 9149,
       "with_trade": 6681,
       "pct": 73.0,
-      "trades_in_names": 28,
+      "trades_in_names": 27,
       "names_in_trades": 24
     },
     {
@@ -150,7 +150,7 @@
       "total": 15012,
       "with_trade": 10279,
       "pct": 68.5,
-      "trades_in_names": 16,
+      "trades_in_names": 17,
       "names_in_trades": 112
     },
     {
@@ -158,7 +158,7 @@
       "total": 15392,
       "with_trade": 10391,
       "pct": 67.5,
-      "trades_in_names": 16,
+      "trades_in_names": 15,
       "names_in_trades": 123
     },
     {
@@ -166,7 +166,7 @@
       "total": 16197,
       "with_trade": 10053,
       "pct": 62.1,
-      "trades_in_names": 37,
+      "trades_in_names": 36,
       "names_in_trades": 48
     },
     {
@@ -227,8 +227,8 @@
     }
   ],
   "trades_in_names": {
-    "total_detected": 450,
-    "in_forename_count": 156,
+    "total_detected": 446,
+    "in_forename_count": 152,
     "in_surname_count": 294,
     "top_trapped_trades": [
       {
@@ -248,12 +248,16 @@
         "count": 18
       },
       {
-        "trade": "Engineer",
+        "trade": "Plasterer",
         "count": 13
       },
       {
-        "trade": "Plasterer",
-        "count": 13
+        "trade": "Engineer",
+        "count": 12
+      },
+      {
+        "trade": "Clerk",
+        "count": 12
       },
       {
         "trade": "Tobacconist",
@@ -264,16 +268,8 @@
         "count": 11
       },
       {
-        "trade": "Clerk",
-        "count": 11
-      },
-      {
         "trade": "Inspector",
         "count": 11
-      },
-      {
-        "trade": "Brewer",
-        "count": 10
       },
       {
         "trade": "Coal Trimmer",
@@ -292,6 +288,10 @@
         "count": 8
       },
       {
+        "trade": "Brewer",
+        "count": 8
+      },
+      {
         "trade": "Surveyor",
         "count": 8
       },
@@ -305,14 +305,10 @@
       },
       {
         "trade": "Builder",
-        "count": 7
+        "count": 6
       },
       {
         "trade": "Shipwright",
-        "count": 5
-      },
-      {
-        "trade": "Architect",
         "count": 5
       },
       {
@@ -329,6 +325,10 @@
       },
       {
         "trade": "Fruiterer",
+        "count": 3
+      },
+      {
+        "trade": "Architect",
         "count": 3
       },
       {
@@ -353,11 +353,11 @@
       }
     ],
     "by_year": {
-      "1878": 5,
+      "1878": 3,
       "1882": 2,
       "1886": 4,
       "1887": 18,
-      "1890": 28,
+      "1890": 27,
       "1892": 13,
       "1893": 4,
       "1894": 7,
@@ -368,9 +368,9 @@
       "1901": 3,
       "1902": 19,
       "1903": 20,
-      "1906": 16,
-      "1908": 16,
-      "1910": 37,
+      "1906": 17,
+      "1908": 15,
+      "1910": 36,
       "1913": 37,
       "1915": 14,
       "1920": 34,
@@ -492,26 +492,6 @@
       },
       {
         "year": "1878",
-        "street": "Lewis Street",
-        "house_number": "3",
-        "surname": "M. J.",
-        "forename": "Brewer",
-        "trade": "",
-        "found": "Brewer",
-        "field": "forename"
-      },
-      {
-        "year": "1878",
-        "street": "Lewis Street",
-        "house_number": "19",
-        "surname": "James",
-        "forename": "Brewer",
-        "trade": "Labourer",
-        "found": "Brewer",
-        "field": "forename"
-      },
-      {
-        "year": "1878",
         "street": "Portland Street",
         "house_number": "",
         "surname": "",
@@ -622,16 +602,6 @@
       },
       {
         "year": "1890",
-        "street": "Dock Street",
-        "house_number": "",
-        "surname": "R.",
-        "forename": "consulting engineer and marine sur",
-        "trade": "Armstrong",
-        "found": "Engineer",
-        "field": "forename"
-      },
-      {
-        "year": "1890",
         "street": "Potter Street",
         "house_number": "",
         "surname": "",
@@ -728,6 +698,36 @@
         "forename": "Surgeon-major H.",
         "trade": "",
         "found": "Surgeon",
+        "field": "forename"
+      },
+      {
+        "year": "1893",
+        "street": "Caerau Road",
+        "house_number": "",
+        "surname": "",
+        "forename": "architect",
+        "trade": "",
+        "found": "Architect",
+        "field": "forename"
+      },
+      {
+        "year": "1893",
+        "street": "Dock Street",
+        "house_number": "",
+        "surname": "",
+        "forename": "Engineer's Depot",
+        "trade": "G.W.R.",
+        "found": "Engineer",
+        "field": "forename"
+      },
+      {
+        "year": "1893",
+        "street": "Town Dock",
+        "house_number": "",
+        "surname": "",
+        "forename": "Dock Supt. and Engineer's offices",
+        "trade": "",
+        "found": "Engineer",
         "field": "forename"
       },
       {
@@ -865,7 +865,7 @@
         "street": "Alice Street",
         "house_number": "13",
         "surname": "labourer",
-        "forename": "Thos. Lynch",
+        "forename": "Thomas Lynch",
         "trade": "",
         "found": "Labourer",
         "field": "surname"
@@ -875,7 +875,7 @@
         "street": "Alice Street",
         "house_number": "19",
         "surname": "shipwright",
-        "forename": "Robt. Pearce",
+        "forename": "Robert Pearce",
         "trade": "",
         "found": "Shipwright",
         "field": "surname"
@@ -1177,7 +1177,7 @@
         "street": "Alfred Street",
         "house_number": "15",
         "surname": "Hunter",
-        "forename": "Wm. C.",
+        "forename": "William C.",
         "trade": "h"
       },
       {
@@ -1185,7 +1185,7 @@
         "street": "Barrack Hill",
         "house_number": "",
         "surname": "Edwards",
-        "forename": "Jno. Randolph",
+        "forename": "John Randolph",
         "trade": "Vil"
       },
       {
@@ -1209,7 +1209,7 @@
         "street": "Dean Street",
         "house_number": "34",
         "surname": "Nancekievill",
-        "forename": "Chs. Hy.",
+        "forename": "Chs. Henry",
         "trade": "Sad"
       },
       {
@@ -1248,16 +1248,16 @@
         "year": "1878",
         "street": "Clytha Park Road",
         "house_number": "",
-        "surname": "Robt. P.",
-        "forename": "The Ferns",
+        "surname": "The Ferns",
+        "forename": "Robert P.",
         "trade": "Jones"
       },
       {
         "year": "1878",
         "street": "Clytha Park Road",
         "house_number": "",
-        "surname": "Ed. F.",
-        "forename": "Rosemont",
+        "surname": "Rosemont",
+        "forename": "Edward F.",
         "trade": "Davies"
       },
       {
@@ -1288,8 +1288,8 @@
         "year": "1882",
         "street": "Commercial Road",
         "house_number": "46",
-        "surname": "Wm.",
-        "forename": "Welcome Home",
+        "surname": "Welcome Home",
+        "forename": "William",
         "trade": "Llewellyn"
       },
       {
@@ -1312,24 +1312,24 @@
         "year": "1882",
         "street": "Dock-street",
         "house_number": "103",
-        "surname": "Thos.",
-        "forename": "Hope and Anchor",
+        "surname": "Hope and Anchor",
+        "forename": "Thomas",
         "trade": "Davies"
       },
       {
         "year": "1882",
         "street": "Gold Tops",
         "house_number": "",
-        "surname": "Benjamin",
-        "forename": "[villa]",
+        "surname": "[villa]",
+        "forename": "Benjamin",
         "trade": "Evans"
       },
       {
         "year": "1882",
         "street": "Gold Tops",
         "house_number": "",
-        "surname": "Alfred",
-        "forename": "St. Ia vils",
+        "surname": "St. Ia vils",
+        "forename": "Alfred",
         "trade": "Williams"
       },
       {
@@ -1360,8 +1360,8 @@
         "year": "1886",
         "street": "Dock Street",
         "house_number": "",
-        "surname": "Sidney",
-        "forename": "Steam Packet",
+        "surname": "Steam Packet",
+        "forename": "Sidney",
         "trade": "Jones"
       },
       {
@@ -1392,24 +1392,24 @@
         "year": "1887",
         "street": "Caerau Park",
         "house_number": "",
-        "surname": "G. H.",
-        "forename": "Pencraig",
+        "surname": "Pencraig",
+        "forename": "G. H.",
         "trade": "Llewellyn"
       },
       {
         "year": "1887",
         "street": "Caerau Park",
         "house_number": "",
-        "surname": "Wm.",
-        "forename": "",
+        "surname": "",
+        "forename": "William",
         "trade": "Jones"
       },
       {
         "year": "1887",
         "street": "Chepstow Road",
         "house_number": "",
-        "surname": "Jno. T.",
-        "forename": "Melver-",
+        "surname": "Melver-",
+        "forename": "John T.",
         "trade": "Williams"
       },
       {
@@ -2951,7 +2951,7 @@
           "street": "Alfred Street",
           "house_number": "15",
           "surname": "Hunter",
-          "forename": "Wm. C.",
+          "forename": "William C.",
           "trade": "h"
         },
         {
@@ -2959,7 +2959,7 @@
           "street": "Barrack Hill",
           "house_number": "",
           "surname": "Edwards",
-          "forename": "Jno. Randolph",
+          "forename": "John Randolph",
           "trade": "Vil"
         },
         {
@@ -2983,7 +2983,7 @@
           "street": "Dean Street",
           "house_number": "34",
           "surname": "Nancekievill",
-          "forename": "Chs. Hy.",
+          "forename": "Chs. Henry",
           "trade": "Sad"
         },
         {
@@ -3025,7 +3025,7 @@
           "street": "Blewitt Terrace",
           "house_number": "",
           "surname": "Moon",
-          "forename": "Wm.",
+          "forename": "William",
           "trade": "2"
         },
         {
@@ -3057,7 +3057,7 @@
           "street": "Capel Crescent",
           "house_number": "",
           "surname": "Edwards",
-          "forename": "Wm.",
+          "forename": "William",
           "trade": "2"
         },
         {
@@ -3089,7 +3089,7 @@
           "street": "Chepstow Road",
           "house_number": "",
           "surname": "Bush",
-          "forename": "Wm.",
+          "forename": "William",
           "trade": "1"
         },
         {
@@ -3097,7 +3097,7 @@
           "street": "Chepstow Road",
           "house_number": "",
           "surname": "Baddeley",
-          "forename": "Hy. E.",
+          "forename": "Henry E.",
           "trade": "2"
         },
         {
@@ -3121,7 +3121,7 @@
           "street": "Chepstow Road",
           "house_number": "21",
           "surname": "Jones",
-          "forename": "Wm. Stanley",
+          "forename": "William Stanley",
           "trade": "20"
         },
         {
@@ -3129,7 +3129,7 @@
           "street": "Kingsland Terrace",
           "house_number": "",
           "surname": "Small",
-          "forename": "Saml.",
+          "forename": "Samuel",
           "trade": "1"
         },
         {
@@ -3153,7 +3153,7 @@
           "street": "Chepstow Road",
           "house_number": "50",
           "surname": "Small",
-          "forename": "Saml.",
+          "forename": "Samuel",
           "trade": "1"
         },
         {
@@ -3267,7 +3267,7 @@
           "street": "Jones Street",
           "house_number": "38",
           "surname": "grocer",
-          "forename": "James Thos.",
+          "forename": "James Thomas",
           "trade": "Etc"
         },
         {
@@ -3299,7 +3299,7 @@
           "street": "Albany Street",
           "house_number": "",
           "surname": "draper",
-          "forename": "Bray Thos.",
+          "forename": "Bray Thomas",
           "trade": "Etc"
         },
         {
@@ -3373,7 +3373,7 @@
           "street": "Crindau Road",
           "house_number": "6",
           "surname": "Clissold",
-          "forename": "Fk.",
+          "forename": "Frank",
           "trade": "Do"
         },
         {
@@ -3381,7 +3381,7 @@
           "street": "Glass Works Cottages",
           "house_number": "2",
           "surname": "Needham",
-          "forename": "Jno.",
+          "forename": "John",
           "trade": "Do"
         },
         {
@@ -3389,7 +3389,7 @@
           "street": "Glass Works Cottages",
           "house_number": "3",
           "surname": "Kilburn",
-          "forename": "Dl.",
+          "forename": "Daniel",
           "trade": "Do"
         },
         {
@@ -3461,7 +3461,7 @@
           "street": "Glass Works Cottages",
           "house_number": "12",
           "surname": "Broomhead",
-          "forename": "Geo.",
+          "forename": "George",
           "trade": "Do"
         },
         {
@@ -3493,7 +3493,7 @@
           "street": "Glass Works Cottages",
           "house_number": "16",
           "surname": "White",
-          "forename": "Jno. Thos.",
+          "forename": "John Thomas",
           "trade": "Do"
         }
       ],
