@@ -720,7 +720,7 @@
                 <div class="card-subtitle">Active thoroughfares and digitized entries across each directory volume, tracing Newport's Victorian dockland boom and suburban growth.</div>
               </div>
             </div>
-            <div class="bar-chart-container" id="yearly-expansion-bars" style="margin-top: 1.25rem;"></div>
+            <div class="year-bars-container" id="yearly-expansion-bars" style="margin-top: 1.25rem;"></div>
           </div>
 
           <div class="section-card">
@@ -1098,17 +1098,18 @@
       // 1b. Render Street & Urban Expansion Tab
       const expBarsEl = document.getElementById('yearly-expansion-bars');
       if (expBarsEl && STATS_DATA.yearly_overview) {
-        const maxRecsYr = Math.max(...STATS_DATA.yearly_overview.map(y => y.total));
-        expBarsEl.innerHTML = STATS_DATA.yearly_overview.map(y => {
+        const validYears = STATS_DATA.yearly_overview.filter(y => y.total >= 10);
+        const maxRecsYr = Math.max(...validYears.map(y => y.total));
+        expBarsEl.innerHTML = validYears.map(y => {
           const w = ((y.total / maxRecsYr) * 100).toFixed(1);
           const sc = y.streets_count ? `${y.streets_count.toLocaleString()} streets` : '';
           return `
-            <div class="bar-row">
-              <div class="bar-label">${y.year}</div>
-              <div class="bar-track">
-                <div class="bar-fill" style="width: ${w}%; background: linear-gradient(90deg, #D4A938, #A87E15);"></div>
+            <div class="year-bar-row" style="grid-template-columns: 50px 1fr 165px;">
+              <span class="year-bar-label">${y.year}</span>
+              <div class="year-bar-track">
+                <div class="bar-fill-trade" style="width: ${w}%; background: linear-gradient(90deg, #D4A938, #A87E15);"></div>
               </div>
-              <div class="bar-value" style="min-width: 170px;">${y.total.toLocaleString()} <span style="color: var(--text-muted); font-weight: 500; font-size: 0.78rem;">(${sc})</span></div>
+              <div class="year-bar-stats"><strong>${y.total.toLocaleString()}</strong> (${sc})</div>
             </div>
           `;
         }).join('');
@@ -1158,10 +1159,10 @@
             return `<div title="${sec}: ${(counts[sec] || 0).toLocaleString()} (${pct.toFixed(1)}%)" style="width:${pct.toFixed(2)}%; background:${colors[sec]}; height:100%;"></div>`;
           }).join('');
           return `
-            <div class="bar-row">
-              <div class="bar-label">${dec}</div>
-              <div class="bar-track" style="display:flex; height:22px; border-radius:6px; overflow:hidden;">${segments}</div>
-              <div class="bar-value" style="min-width:95px;">${sum.toLocaleString()}</div>
+            <div class="year-bar-row" style="grid-template-columns: 56px 1fr 90px; margin-bottom: 0.55rem;">
+              <span class="year-bar-label">${dec}</span>
+              <div class="year-bar-track" style="height:22px; border-radius:6px;">${segments}</div>
+              <div class="year-bar-stats"><strong>${sum.toLocaleString()}</strong></div>
             </div>
           `;
         }).join('');
