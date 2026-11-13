@@ -1,12 +1,12 @@
 {
   "meta": {
-    "total_records": 331333,
-    "total_with_trade": 221617,
+    "total_records": 331260,
+    "total_with_trade": 221668,
     "pct_with_trade": 66.9,
     "total_streets": 985,
     "total_years": 27,
     "years_span": "1876\u20131936",
-    "unique_trade_strings": 23949
+    "unique_trade_strings": 23965
   },
   "yearly_overview": [
     {
@@ -219,9 +219,9 @@
     },
     {
       "year": "1936",
-      "total": 24724,
-      "with_trade": 13951,
-      "pct": 56.4,
+      "total": 24651,
+      "with_trade": 14002,
+      "pct": 56.8,
       "trades_in_names": 15,
       "names_in_trades": 38
     }
@@ -1441,7 +1441,7 @@
   "top_trades": [
     {
       "trade": "Labourer",
-      "count": 26928,
+      "count": 26927,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1459,9 +1459,9 @@
     },
     {
       "trade": "Void",
-      "count": 5064,
+      "count": 5094,
       "earliest": 1878,
-      "latest": 1927
+      "latest": 1936
     },
     {
       "trade": "G.W.R.",
@@ -1573,7 +1573,7 @@
     },
     {
       "trade": "Baker",
-      "count": 1534,
+      "count": 1532,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1650,14 +1650,14 @@
       "latest": 1936
     },
     {
-      "trade": "Blacksmith",
-      "count": 974,
+      "trade": "Manager",
+      "count": 983,
       "earliest": 1878,
       "latest": 1936
     },
     {
-      "trade": "Manager",
-      "count": 971,
+      "trade": "Blacksmith",
+      "count": 974,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1735,7 +1735,7 @@
     },
     {
       "trade": "Agent",
-      "count": 706,
+      "count": 705,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1753,13 +1753,13 @@
     },
     {
       "trade": "Pilot",
-      "count": 664,
+      "count": 663,
       "earliest": 1878,
       "latest": 1936
     },
     {
       "trade": "Porter",
-      "count": 633,
+      "count": 632,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1808,7 +1808,7 @@
       "1900s": 4939,
       "1910s": 3794,
       "1920s": 5248,
-      "1930s": 1411
+      "1930s": 1410
     },
     "Ironworker": {
       "1870s": 0,
@@ -1961,7 +1961,7 @@
       "1900s": 223,
       "1910s": 201,
       "1920s": 313,
-      "1930s": 126
+      "1930s": 124
     },
     "Motor Driver": {
       "1870s": 0,
@@ -2036,13 +2036,13 @@
       {
         "street": "Corporation Road",
         "count": 392,
-        "total": 2746,
+        "total": 2747,
         "pct": 14.3
       },
       {
         "street": "Caerleon Road",
         "count": 284,
-        "total": 2673,
+        "total": 2675,
         "pct": 10.6
       },
       {
@@ -2054,13 +2054,13 @@
       {
         "street": "Malpas Road",
         "count": 220,
-        "total": 2043,
-        "pct": 10.8
+        "total": 2047,
+        "pct": 10.7
       },
       {
         "street": "High Street",
         "count": 219,
-        "total": 2767,
+        "total": 2766,
         "pct": 7.9
       },
       {
@@ -2084,7 +2084,7 @@
       {
         "street": "Bridge Street",
         "count": 171,
-        "total": 1465,
+        "total": 1466,
         "pct": 11.7
       },
       {
@@ -2391,26 +2391,26 @@
       },
       {
         "street": "Stow Hill",
-        "count": 119,
-        "total": 1904,
-        "pct": 6.2
+        "count": 115,
+        "total": 1915,
+        "pct": 6.0
       },
       {
         "street": "High Street",
         "count": 100,
-        "total": 2767,
+        "total": 2766,
         "pct": 3.6
       },
       {
         "street": "Bridge Street",
         "count": 76,
-        "total": 1465,
+        "total": 1466,
         "pct": 5.2
       },
       {
         "street": "Dock Street",
         "count": 67,
-        "total": 4291,
+        "total": 4295,
         "pct": 1.6
       },
       {
@@ -2565,7 +2565,7 @@
       },
       {
         "trade": "Fruiterer",
-        "count": 44
+        "count": 45
       },
       {
         "trade": "General Shop",
