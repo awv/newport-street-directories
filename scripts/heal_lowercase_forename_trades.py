@@ -51,17 +51,14 @@ def main():
     # Build known forenames for un-swapping "Artess Albert" -> "Albert Artess"
     known_forenames = set()
     for r in rows:
-        if int(r["year"]) <= 1936:
-            fn = r["forename"].strip()
-            if fn and fn[0].isupper() and " " not in fn and fn.isalpha() and len(fn) >= 3:
-                known_forenames.add(fn)
+        fn = r["forename"].strip()
+        if fn and fn[0].isupper() and " " not in fn and fn.isalpha() and len(fn) >= 3:
+            known_forenames.add(fn)
 
     stats = Counter()
     samples = []
 
     for r in rows:
-        if int(r["year"]) > 1936:
-            continue
         fn = r["forename"].strip()
         sur = r["surname"].strip()
         tr = r["trade"].strip()

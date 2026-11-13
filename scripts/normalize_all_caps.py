@@ -125,8 +125,6 @@ def main():
     samples = {c: [] for c in COLS}
 
     for r in rows:
-        if int(r["year"]) > 1936:
-            continue
         for c in COLS:
             val = r[c].strip()
             if is_all_caps_entry(val):

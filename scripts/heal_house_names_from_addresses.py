@@ -83,8 +83,6 @@ def main():
     personal_names = set()
 
     for r in rows:
-        if int(r["year"]) > 1936:
-            continue
         t = r["trade"].strip()
         if t:
             trade_counts[t.lower()] += 1
@@ -107,8 +105,6 @@ def main():
     samples = []
 
     for r in rows:
-        if int(r["year"]) > 1936:
-            continue
         if r["building_name"].strip():
             continue
         t = r["trade"].strip()

@@ -44,10 +44,6 @@ def title_facility(text: str) -> str:
 
 
 def heal_row(row: dict) -> tuple[bool, str]:
-    y = int(row["year"]) if row["year"].isdigit() else 9999
-    if y > 1936:
-        return False, ""
-
     fn = (row["forename"] or "").strip()
     sn = (row["surname"] or "").strip()
     tr = (row["trade"] or "").strip()

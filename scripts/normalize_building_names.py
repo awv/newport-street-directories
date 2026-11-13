@@ -82,8 +82,6 @@ def main():
 
     changes = Counter()
     for r in rows:
-        if int(r["year"]) > 1936:
-            continue
         old = r["building_name"].strip()
         if not old:
             continue

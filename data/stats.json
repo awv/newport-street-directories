@@ -1,12 +1,12 @@
 {
   "meta": {
     "total_records": 331333,
-    "total_with_trade": 221623,
+    "total_with_trade": 221617,
     "pct_with_trade": 66.9,
     "total_streets": 985,
     "total_years": 27,
     "years_span": "1876\u20131936",
-    "unique_trade_strings": 23954
+    "unique_trade_strings": 23949
   },
   "yearly_overview": [
     {
@@ -116,7 +116,7 @@
     {
       "year": "1901",
       "total": 12800,
-      "with_trade": 8823,
+      "with_trade": 8822,
       "pct": 68.9,
       "trades_in_names": 2,
       "names_in_trades": 19
@@ -164,7 +164,7 @@
     {
       "year": "1910",
       "total": 16197,
-      "with_trade": 10160,
+      "with_trade": 10159,
       "pct": 62.7,
       "trades_in_names": 36,
       "names_in_trades": 48
@@ -180,7 +180,7 @@
     {
       "year": "1915",
       "total": 17243,
-      "with_trade": 10824,
+      "with_trade": 10822,
       "pct": 62.8,
       "trades_in_names": 15,
       "names_in_trades": 61
@@ -220,7 +220,7 @@
     {
       "year": "1936",
       "total": 24724,
-      "with_trade": 13953,
+      "with_trade": 13951,
       "pct": 56.4,
       "trades_in_names": 15,
       "names_in_trades": 38
@@ -2072,7 +2072,7 @@
       {
         "street": "Clarence Place",
         "count": 190,
-        "total": 1012,
+        "total": 1011,
         "pct": 18.8
       },
       {
@@ -2116,7 +2116,7 @@
       {
         "street": "Dolphin Street",
         "count": 651,
-        "total": 1916,
+        "total": 1914,
         "pct": 34.0
       },
       {
@@ -2312,7 +2312,7 @@
       {
         "street": "Dolphin Street",
         "count": 234,
-        "total": 1916,
+        "total": 1914,
         "pct": 12.2
       },
       {
