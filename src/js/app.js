@@ -199,7 +199,7 @@ function toggleMobileSidebar() {
       }
 
       // Handle "do. [Trade]" or "ditto [Trade]" patterns
-      clean = clean.replace(/^(?:\d+\s+)?(?:do\.?|ditto)\s*[\.,]*\s*(?:\[(.*?)\]|(.*?))$/i, (m, g1, g2) => (g1 || g2 || '').trim());
+      clean = clean.replace(/^(?:\d+\s+)?(?:do\.|do\b|ditto\b)\s*[\.,]*\s*(?:\[(.*?)\]|(.*?))$/i, (m, g1, g2) => (g1 || g2 || '').trim());
       clean = clean.replace(/^[-—_\|,\s]+/, '').replace(/[-—_\|,\s]+$/, '').trim();
 
       // Strip house numbers and address prefixes (e.g. "20-24, Boot Repairer" -> "Boot Repairer", "52, Labourer" -> "Labourer", "Engrocer, 19 Foster F. J. Greengrocer")
@@ -225,7 +225,7 @@ function toggleMobileSidebar() {
 
       // Clean leading & trailing company suffixes
       clean = clean
-        .replace(/^(ltd\.?|co\.?|& co\.?|& co\.?,?\s*ltd\.?|and co\.?)\s*,?\s*/i, '')
+        .replace(/^(?:ltd\.|ltd\b|co\.|co\b|& co\.?|& co\.?,?\s*ltd\.?|and co\.)\s*,?\s*/i, '')
         .replace(/[\,;\s]+(ltd\.?|co\.?|& co\.?|co\.?\s+ltd\.?)$/i, '')
         .trim();
 
