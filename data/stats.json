@@ -1,12 +1,12 @@
 {
   "meta": {
     "total_records": 331328,
-    "total_with_trade": 223048,
+    "total_with_trade": 222895,
     "pct_with_trade": 67.3,
     "total_streets": 1029,
     "total_years": 27,
     "years_span": "1876\u20131936",
-    "unique_trade_strings": 27179
+    "unique_trade_strings": 27125
   },
   "yearly_overview": [
     {
@@ -84,7 +84,7 @@
     {
       "year": "1895",
       "total": 10544,
-      "with_trade": 7722,
+      "with_trade": 7721,
       "pct": 73.2,
       "trades_in_names": 43,
       "names_in_trades": 18
@@ -92,10 +92,10 @@
     {
       "year": "1898",
       "total": 12030,
-      "with_trade": 8428,
-      "pct": 70.1,
+      "with_trade": 8419,
+      "pct": 70.0,
       "trades_in_names": 10,
-      "names_in_trades": 27
+      "names_in_trades": 26
     },
     {
       "year": "1899",
@@ -108,8 +108,8 @@
     {
       "year": "1900",
       "total": 12387,
-      "with_trade": 8669,
-      "pct": 70.0,
+      "with_trade": 8654,
+      "pct": 69.9,
       "trades_in_names": 20,
       "names_in_trades": 38
     },
@@ -124,8 +124,8 @@
     {
       "year": "1902",
       "total": 12835,
-      "with_trade": 9141,
-      "pct": 71.2,
+      "with_trade": 9130,
+      "pct": 71.1,
       "trades_in_names": 19,
       "names_in_trades": 27
     },
@@ -148,47 +148,47 @@
     {
       "year": "1906",
       "total": 15012,
-      "with_trade": 10381,
-      "pct": 69.2,
+      "with_trade": 10357,
+      "pct": 69.0,
       "trades_in_names": 16,
       "names_in_trades": 112
     },
     {
       "year": "1908",
       "total": 15392,
-      "with_trade": 10508,
-      "pct": 68.3,
+      "with_trade": 10482,
+      "pct": 68.1,
       "trades_in_names": 16,
       "names_in_trades": 123
     },
     {
       "year": "1910",
       "total": 16197,
-      "with_trade": 10138,
-      "pct": 62.6,
+      "with_trade": 10127,
+      "pct": 62.5,
       "trades_in_names": 38,
       "names_in_trades": 48
     },
     {
       "year": "1913",
       "total": 16969,
-      "with_trade": 10529,
+      "with_trade": 10517,
       "pct": 62.0,
       "trades_in_names": 37,
-      "names_in_trades": 55
+      "names_in_trades": 54
     },
     {
       "year": "1915",
       "total": 17242,
-      "with_trade": 10946,
-      "pct": 63.5,
+      "with_trade": 10936,
+      "pct": 63.4,
       "trades_in_names": 14,
       "names_in_trades": 60
     },
     {
       "year": "1920",
       "total": 17465,
-      "with_trade": 11022,
+      "with_trade": 11018,
       "pct": 63.1,
       "trades_in_names": 35,
       "names_in_trades": 45
@@ -204,24 +204,24 @@
     {
       "year": "1925",
       "total": 19063,
-      "with_trade": 11972,
-      "pct": 62.8,
+      "with_trade": 11956,
+      "pct": 62.7,
       "trades_in_names": 41,
       "names_in_trades": 56
     },
     {
       "year": "1927",
       "total": 21237,
-      "with_trade": 13901,
-      "pct": 65.5,
+      "with_trade": 13888,
+      "pct": 65.4,
       "trades_in_names": 25,
       "names_in_trades": 85
     },
     {
       "year": "1936",
       "total": 24729,
-      "with_trade": 13663,
-      "pct": 55.3,
+      "with_trade": 13662,
+      "pct": 55.2,
       "trades_in_names": 12,
       "names_in_trades": 17
     }
@@ -883,9 +883,9 @@
     ]
   },
   "names_in_trades": {
-    "total_detected": 993,
+    "total_detected": 991,
     "initials_as_trade_count": 280,
-    "forenames_as_trade_count": 713,
+    "forenames_as_trade_count": 711,
     "top_names": [
       {
         "name": "Williams",
@@ -925,7 +925,7 @@
       },
       {
         "name": "Lewis",
-        "count": 29
+        "count": 27
       },
       {
         "name": "James",
@@ -1018,7 +1018,7 @@
       "1893": 18,
       "1894": 23,
       "1895": 18,
-      "1898": 27,
+      "1898": 26,
       "1899": 14,
       "1900": 38,
       "1901": 18,
@@ -1027,7 +1027,7 @@
       "1906": 112,
       "1908": 123,
       "1910": 48,
-      "1913": 55,
+      "1913": 54,
       "1915": 60,
       "1920": 45,
       "1924": 42,
@@ -1447,7 +1447,7 @@
     },
     {
       "trade": "Ironworker",
-      "count": 7632,
+      "count": 7633,
       "earliest": 1882,
       "latest": 1936
     },
@@ -1489,7 +1489,7 @@
     },
     {
       "trade": "Clerk",
-      "count": 3159,
+      "count": 3160,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1501,7 +1501,7 @@
     },
     {
       "trade": "Void",
-      "count": 2869,
+      "count": 2873,
       "earliest": 1878,
       "latest": 1927
     },
@@ -1536,13 +1536,13 @@
       "latest": 1936
     },
     {
-      "trade": "Smith",
-      "count": 1853,
+      "trade": "Engineer",
+      "count": 1854,
       "earliest": 1878,
       "latest": 1936
     },
     {
-      "trade": "Engineer",
+      "trade": "Smith",
       "count": 1853,
       "earliest": 1878,
       "latest": 1936
@@ -1663,7 +1663,7 @@
     },
     {
       "trade": "Manager",
-      "count": 952,
+      "count": 953,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1771,7 +1771,7 @@
     },
     {
       "trade": "Crane Driver",
-      "count": 570,
+      "count": 571,
       "earliest": 1886,
       "latest": 1936
     },
@@ -1817,7 +1817,7 @@
       "1900s": 318,
       "1910s": 2063,
       "1920s": 3182,
-      "1930s": 1027
+      "1930s": 1028
     },
     "Steelworker": {
       "1870s": 0,
@@ -1914,7 +1914,7 @@
       "1880s": 184,
       "1890s": 729,
       "1900s": 480,
-      "1910s": 302,
+      "1910s": 303,
       "1920s": 754,
       "1930s": 397
     },
@@ -2030,7 +2030,7 @@
       {
         "street": "Chepstow Road",
         "count": 435,
-        "total": 3019,
+        "total": 3018,
         "pct": 14.4
       },
       {
@@ -2422,7 +2422,7 @@
       {
         "street": "Chepstow Road",
         "count": 47,
-        "total": 3019,
+        "total": 3018,
         "pct": 1.6
       },
       {
@@ -2476,7 +2476,7 @@
     ]
   },
   "women_in_directories": {
-    "total_female_heads": 34473,
+    "total_female_heads": 34474,
     "by_year": {
       "1876": 0,
       "1878": 486,
@@ -2499,7 +2499,7 @@
       "1908": 1396,
       "1910": 1515,
       "1913": 1624,
-      "1915": 1650,
+      "1915": 1651,
       "1920": 2127,
       "1924": 2406,
       "1925": 2545,
@@ -2781,15 +2781,15 @@
       "latest": 1936
     },
     {
-      "trade": "I.W.",
-      "count": 40,
-      "earliest": 1915,
+      "trade": "Garage",
+      "count": 41,
+      "earliest": 1920,
       "latest": 1927
     },
     {
-      "trade": "Garage",
+      "trade": "I.W.",
       "count": 40,
-      "earliest": 1920,
+      "earliest": 1915,
       "latest": 1927
     },
     {

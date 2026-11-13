@@ -192,7 +192,7 @@ function toggleMobileSidebar() {
 
       // Filter house/villa/building names left in trade column (e.g., "The Woodlands", "Norwood", "Eversley", "Rosetta", "Brynholme", "Gasworks", "Woolmer")
       if (
-        /^(the\s+woodlands|norwood|eversley|rosetta|brynholme|gasworks|woolmer)$/i.test(clean) ||
+        /^(the\s+woodlands|norwood|eversley|rosetta|brynholme|gasworks|woolmer|oak\s*v(?:iew)?|mon\s*abri?a?|ivydene|lorna\s*doone|revelstoke|lydbrook|selsdon|tyrone|wellesley|chertsey|monteville|merridale|pendre|frome\s*vale|tranmere|elford|dun(?:k|s)k?well|ryecroft|oswald|st\.?\s*audries|watford|grove|dean|ff?ynonau)$/i.test(clean) ||
         /^(bryn|villas?|cottage|house|lodge|manor|hall|court|view|terrace|gardens)\b/i.test(clean)
       ) {
         return 'Residence / Private';
