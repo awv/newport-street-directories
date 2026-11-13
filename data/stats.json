@@ -1,7 +1,7 @@
 {
   "meta": {
     "total_records": 331328,
-    "total_with_trade": 220625,
+    "total_with_trade": 220658,
     "pct_with_trade": 66.6,
     "total_streets": 1029,
     "total_years": 27,
@@ -54,7 +54,7 @@
       "total": 9149,
       "with_trade": 6681,
       "pct": 73.0,
-      "trades_in_names": 29,
+      "trades_in_names": 28,
       "names_in_trades": 24
     },
     {
@@ -70,7 +70,7 @@
       "total": 9863,
       "with_trade": 7307,
       "pct": 74.1,
-      "trades_in_names": 5,
+      "trades_in_names": 4,
       "names_in_trades": 18
     },
     {
@@ -94,13 +94,13 @@
       "total": 12030,
       "with_trade": 8349,
       "pct": 69.4,
-      "trades_in_names": 10,
+      "trades_in_names": 9,
       "names_in_trades": 26
     },
     {
       "year": "1899",
       "total": 11837,
-      "with_trade": 8059,
+      "with_trade": 8060,
       "pct": 68.1,
       "trades_in_names": 10,
       "names_in_trades": 14
@@ -164,9 +164,9 @@
     {
       "year": "1910",
       "total": 16197,
-      "with_trade": 10052,
+      "with_trade": 10053,
       "pct": 62.1,
-      "trades_in_names": 38,
+      "trades_in_names": 37,
       "names_in_trades": 48
     },
     {
@@ -190,7 +190,7 @@
       "total": 17465,
       "with_trade": 10835,
       "pct": 62.0,
-      "trades_in_names": 35,
+      "trades_in_names": 34,
       "names_in_trades": 45
     },
     {
@@ -198,37 +198,37 @@
       "total": 18488,
       "with_trade": 11335,
       "pct": 61.3,
-      "trades_in_names": 16,
+      "trades_in_names": 15,
       "names_in_trades": 42
     },
     {
       "year": "1925",
       "total": 19063,
-      "with_trade": 11775,
+      "with_trade": 11777,
       "pct": 61.8,
-      "trades_in_names": 41,
+      "trades_in_names": 40,
       "names_in_trades": 56
     },
     {
       "year": "1927",
       "total": 21237,
-      "with_trade": 13737,
+      "with_trade": 13739,
       "pct": 64.7,
-      "trades_in_names": 25,
+      "trades_in_names": 24,
       "names_in_trades": 84
     },
     {
       "year": "1936",
       "total": 24729,
-      "with_trade": 13655,
-      "pct": 55.2,
+      "with_trade": 13682,
+      "pct": 55.3,
       "trades_in_names": 12,
       "names_in_trades": 17
     }
   ],
   "trades_in_names": {
-    "total_detected": 458,
-    "in_forename_count": 164,
+    "total_detected": 450,
+    "in_forename_count": 156,
     "in_surname_count": 294,
     "top_trapped_trades": [
       {
@@ -237,7 +237,7 @@
       },
       {
         "trade": "Factory",
-        "count": 28
+        "count": 25
       },
       {
         "trade": "Ironworker",
@@ -320,10 +320,6 @@
         "count": 5
       },
       {
-        "trade": "Pilot",
-        "count": 5
-      },
-      {
         "trade": "Platelayer",
         "count": 5
       },
@@ -333,10 +329,6 @@
       },
       {
         "trade": "Fruiterer",
-        "count": 3
-      },
-      {
-        "trade": "Typewriter",
         "count": 3
       },
       {
@@ -350,6 +342,14 @@
       {
         "trade": "Dealer",
         "count": 2
+      },
+      {
+        "trade": "Sailor",
+        "count": 2
+      },
+      {
+        "trade": "Railway Guard",
+        "count": 2
       }
     ],
     "by_year": {
@@ -357,12 +357,12 @@
       "1882": 2,
       "1886": 4,
       "1887": 18,
-      "1890": 29,
+      "1890": 28,
       "1892": 13,
-      "1893": 5,
+      "1893": 4,
       "1894": 7,
       "1895": 43,
-      "1898": 10,
+      "1898": 9,
       "1899": 10,
       "1900": 20,
       "1901": 3,
@@ -370,13 +370,13 @@
       "1903": 20,
       "1906": 16,
       "1908": 16,
-      "1910": 38,
+      "1910": 37,
       "1913": 37,
       "1915": 14,
-      "1920": 35,
-      "1924": 16,
-      "1925": 41,
-      "1927": 25,
+      "1920": 34,
+      "1924": 15,
+      "1925": 40,
+      "1927": 24,
       "1936": 12
     },
     "samples": [
@@ -632,16 +632,6 @@
       },
       {
         "year": "1890",
-        "street": "Maddox Close",
-        "house_number": "",
-        "surname": "",
-        "forename": "Nail Factory - J. J. Cordes & Co. Ltd.",
-        "trade": "",
-        "found": "Factory",
-        "field": "forename"
-      },
-      {
-        "year": "1890",
         "street": "Potter Street",
         "house_number": "",
         "surname": "",
@@ -728,6 +718,16 @@
         "forename": "Freedman & Co.'s furniture factory",
         "trade": "",
         "found": "Factory",
+        "field": "forename"
+      },
+      {
+        "year": "1892",
+        "street": "Serpentine Road",
+        "house_number": "",
+        "surname": "Waghorn",
+        "forename": "Surgeon-major H.",
+        "trade": "",
+        "found": "Surgeon",
         "field": "forename"
       },
       {
@@ -1537,7 +1537,7 @@
     },
     {
       "trade": "Engineer",
-      "count": 1870,
+      "count": 1872,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1705,7 +1705,7 @@
     },
     {
       "trade": "Plumber",
-      "count": 822,
+      "count": 823,
       "earliest": 1878,
       "latest": 1936
     },
@@ -2060,7 +2060,7 @@
       {
         "street": "High Street",
         "count": 218,
-        "total": 2768,
+        "total": 2771,
         "pct": 7.9
       },
       {
@@ -2090,13 +2090,13 @@
       {
         "street": "Duckpool Road",
         "count": 161,
-        "total": 2343,
+        "total": 2344,
         "pct": 6.9
       },
       {
         "street": "Alexandra Road",
         "count": 149,
-        "total": 1166,
+        "total": 1167,
         "pct": 12.8
       },
       {
@@ -2202,8 +2202,8 @@
       {
         "street": "Capel Crescent",
         "count": 290,
-        "total": 1205,
-        "pct": 24.1
+        "total": 1206,
+        "pct": 24.0
       },
       {
         "street": "Lewis Street",
@@ -2220,7 +2220,7 @@
       {
         "street": "Capel Street",
         "count": 180,
-        "total": 1372,
+        "total": 1373,
         "pct": 13.1
       },
       {
@@ -2238,13 +2238,13 @@
       {
         "street": "Duckpool Road",
         "count": 138,
-        "total": 2343,
+        "total": 2344,
         "pct": 5.9
       },
       {
         "street": "Durham Road",
         "count": 109,
-        "total": 2716,
+        "total": 2717,
         "pct": 4.0
       },
       {
@@ -2256,7 +2256,7 @@
       {
         "street": "Alma Street",
         "count": 106,
-        "total": 1895,
+        "total": 1896,
         "pct": 5.6
       },
       {
@@ -2336,7 +2336,7 @@
       {
         "street": "Capel Street",
         "count": 187,
-        "total": 1372,
+        "total": 1373,
         "pct": 13.6
       },
       {
@@ -2392,25 +2392,25 @@
       {
         "street": "Stow Hill",
         "count": 118,
-        "total": 1888,
+        "total": 1889,
         "pct": 6.2
       },
       {
         "street": "High Street",
-        "count": 95,
-        "total": 2768,
-        "pct": 3.4
+        "count": 96,
+        "total": 2771,
+        "pct": 3.5
       },
       {
         "street": "Bridge Street",
-        "count": 77,
+        "count": 76,
         "total": 1445,
         "pct": 5.3
       },
       {
         "street": "Dock Street",
         "count": 62,
-        "total": 4191,
+        "total": 4192,
         "pct": 1.5
       },
       {
@@ -2769,6 +2769,12 @@
       "latest": 1936
     },
     {
+      "trade": "Garage",
+      "count": 55,
+      "earliest": 1920,
+      "latest": 1936
+    },
+    {
       "trade": "Civil Servant",
       "count": 43,
       "earliest": 1925,
@@ -2778,12 +2784,6 @@
       "trade": "Motor Dvr",
       "count": 43,
       "earliest": 1915,
-      "latest": 1927
-    },
-    {
-      "trade": "Garage",
-      "count": 41,
-      "earliest": 1920,
       "latest": 1927
     },
     {
