@@ -1,12 +1,12 @@
 {
   "meta": {
     "total_records": 331260,
-    "total_with_trade": 221689,
+    "total_with_trade": 221646,
     "pct_with_trade": 66.9,
     "total_streets": 901,
     "total_years": 27,
     "years_span": "1876\u20131936",
-    "unique_trade_strings": 23715
+    "unique_trade_strings": 23640
   },
   "yearly_overview": [
     {
@@ -21,16 +21,16 @@
     {
       "year": "1878",
       "total": 4686,
-      "with_trade": 3644,
-      "pct": 77.8,
+      "with_trade": 3642,
+      "pct": 77.7,
       "streets_count": 188,
       "trades_in_names": 1,
-      "names_in_trades": 4
+      "names_in_trades": 5
     },
     {
       "year": "1882",
       "total": 5757,
-      "with_trade": 4410,
+      "with_trade": 4408,
       "pct": 76.6,
       "streets_count": 209,
       "trades_in_names": 0,
@@ -39,8 +39,8 @@
     {
       "year": "1886",
       "total": 7799,
-      "with_trade": 5967,
-      "pct": 76.5,
+      "with_trade": 5957,
+      "pct": 76.4,
       "streets_count": 293,
       "trades_in_names": 3,
       "names_in_trades": 13
@@ -52,12 +52,12 @@
       "pct": 75.5,
       "streets_count": 232,
       "trades_in_names": 1,
-      "names_in_trades": 40
+      "names_in_trades": 12
     },
     {
       "year": "1890",
       "total": 9149,
-      "with_trade": 6759,
+      "with_trade": 6758,
       "pct": 73.9,
       "streets_count": 336,
       "trades_in_names": 4,
@@ -66,8 +66,8 @@
     {
       "year": "1892",
       "total": 9331,
-      "with_trade": 6882,
-      "pct": 73.8,
+      "with_trade": 6880,
+      "pct": 73.7,
       "streets_count": 321,
       "trades_in_names": 10,
       "names_in_trades": 8
@@ -75,7 +75,7 @@
     {
       "year": "1893",
       "total": 9864,
-      "with_trade": 7313,
+      "with_trade": 7308,
       "pct": 74.1,
       "streets_count": 317,
       "trades_in_names": 3,
@@ -88,7 +88,7 @@
       "pct": 74.3,
       "streets_count": 345,
       "trades_in_names": 6,
-      "names_in_trades": 10
+      "names_in_trades": 11
     },
     {
       "year": "1895",
@@ -111,11 +111,11 @@
     {
       "year": "1899",
       "total": 11837,
-      "with_trade": 8177,
-      "pct": 69.1,
+      "with_trade": 8172,
+      "pct": 69.0,
       "streets_count": 367,
       "trades_in_names": 6,
-      "names_in_trades": 8
+      "names_in_trades": 9
     },
     {
       "year": "1900",
@@ -129,7 +129,7 @@
     {
       "year": "1901",
       "total": 12800,
-      "with_trade": 8824,
+      "with_trade": 8823,
       "pct": 68.9,
       "streets_count": 374,
       "trades_in_names": 1,
@@ -138,20 +138,20 @@
     {
       "year": "1902",
       "total": 12836,
-      "with_trade": 9083,
+      "with_trade": 9082,
       "pct": 70.8,
       "streets_count": 393,
       "trades_in_names": 12,
-      "names_in_trades": 8
+      "names_in_trades": 7
     },
     {
       "year": "1903",
       "total": 13595,
-      "with_trade": 9654,
+      "with_trade": 9652,
       "pct": 71.0,
       "streets_count": 401,
       "trades_in_names": 9,
-      "names_in_trades": 22
+      "names_in_trades": 23
     },
     {
       "year": "1905",
@@ -165,16 +165,16 @@
     {
       "year": "1906",
       "total": 15012,
-      "with_trade": 10260,
+      "with_trade": 10259,
       "pct": 68.3,
       "streets_count": 443,
       "trades_in_names": 15,
-      "names_in_trades": 52
+      "names_in_trades": 53
     },
     {
       "year": "1908",
       "total": 15392,
-      "with_trade": 10390,
+      "with_trade": 10386,
       "pct": 67.5,
       "streets_count": 412,
       "trades_in_names": 10,
@@ -183,7 +183,7 @@
     {
       "year": "1910",
       "total": 16197,
-      "with_trade": 10192,
+      "with_trade": 10190,
       "pct": 62.9,
       "streets_count": 488,
       "trades_in_names": 5,
@@ -196,12 +196,12 @@
       "pct": 62.2,
       "streets_count": 477,
       "trades_in_names": 2,
-      "names_in_trades": 41
+      "names_in_trades": 26
     },
     {
       "year": "1915",
       "total": 17243,
-      "with_trade": 10783,
+      "with_trade": 10782,
       "pct": 62.5,
       "streets_count": 469,
       "trades_in_names": 8,
@@ -232,21 +232,21 @@
       "pct": 61.5,
       "streets_count": 514,
       "trades_in_names": 9,
-      "names_in_trades": 27
+      "names_in_trades": 28
     },
     {
       "year": "1927",
       "total": 21239,
-      "with_trade": 13750,
+      "with_trade": 13747,
       "pct": 64.7,
       "streets_count": 527,
       "trades_in_names": 9,
-      "names_in_trades": 53
+      "names_in_trades": 48
     },
     {
       "year": "1936",
       "total": 24651,
-      "with_trade": 14028,
+      "with_trade": 14027,
       "pct": 56.9,
       "streets_count": 521,
       "trades_in_names": 3,
@@ -610,7 +610,7 @@
         "Building & Timber": 1534,
         "Transport & Rail": 1040,
         "Retail & Hospitality": 1456,
-        "Clerical & Professional": 798
+        "Clerical & Professional": 799
       },
       "1890s": {
         "Docks & Maritime": 3837,
@@ -626,19 +626,19 @@
         "Building & Timber": 5681,
         "Transport & Rail": 4956,
         "Retail & Hospitality": 4623,
-        "Clerical & Professional": 2913
+        "Clerical & Professional": 2914
       },
       "1910s": {
         "Docks & Maritime": 1402,
-        "Iron & Heavy Industry": 3811,
-        "Building & Timber": 2591,
+        "Iron & Heavy Industry": 3823,
+        "Building & Timber": 2592,
         "Transport & Rail": 3094,
         "Retail & Hospitality": 2517,
         "Clerical & Professional": 1551
       },
       "1920s": {
         "Docks & Maritime": 1943,
-        "Iron & Heavy Industry": 6408,
+        "Iron & Heavy Industry": 6412,
         "Building & Timber": 3295,
         "Transport & Rail": 5129,
         "Retail & Hospitality": 3556,
@@ -1310,17 +1310,13 @@
     ]
   },
   "names_in_trades": {
-    "total_detected": 557,
-    "initials_as_trade_count": 269,
+    "total_detected": 514,
+    "initials_as_trade_count": 226,
     "forenames_as_trade_count": 288,
     "top_names": [
       {
         "name": "Williams",
         "count": 55
-      },
-      {
-        "name": "DO",
-        "count": 53
       },
       {
         "name": "Jones",
@@ -1433,33 +1429,37 @@
       {
         "name": "OK",
         "count": 3
+      },
+      {
+        "name": "C",
+        "count": 3
       }
     ],
     "by_year": {
-      "1878": 4,
+      "1878": 5,
       "1882": 16,
       "1886": 13,
-      "1887": 40,
+      "1887": 12,
       "1890": 17,
       "1892": 8,
       "1893": 14,
-      "1894": 10,
+      "1894": 11,
       "1895": 7,
       "1898": 12,
-      "1899": 8,
+      "1899": 9,
       "1900": 23,
       "1901": 15,
-      "1902": 8,
-      "1903": 22,
-      "1906": 52,
+      "1902": 7,
+      "1903": 23,
+      "1906": 53,
       "1908": 45,
       "1910": 26,
-      "1913": 41,
+      "1913": 26,
       "1915": 19,
       "1920": 20,
       "1924": 23,
-      "1925": 27,
-      "1927": 53,
+      "1925": 28,
+      "1927": 48,
       "1936": 34
     },
     "samples": [
@@ -1868,13 +1868,13 @@
   "top_trades": [
     {
       "trade": "Labourer",
-      "count": 27094,
+      "count": 27095,
       "earliest": 1878,
       "latest": 1936
     },
     {
       "trade": "Ironworker",
-      "count": 7747,
+      "count": 7759,
       "earliest": 1882,
       "latest": 1936
     },
@@ -1886,7 +1886,7 @@
     },
     {
       "trade": "Void",
-      "count": 5095,
+      "count": 5096,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1976,7 +1976,7 @@
     },
     {
       "trade": "Plasterer",
-      "count": 1690,
+      "count": 1691,
       "earliest": 1878,
       "latest": 1936
     },
@@ -2042,7 +2042,7 @@
     },
     {
       "trade": "Bootmaker",
-      "count": 1195,
+      "count": 1197,
       "earliest": 1878,
       "latest": 1936
     },
@@ -2054,7 +2054,7 @@
     },
     {
       "trade": "Builder",
-      "count": 1132,
+      "count": 1133,
       "earliest": 1878,
       "latest": 1936
     },
@@ -2077,13 +2077,13 @@
       "latest": 1936
     },
     {
-      "trade": "Blacksmith",
-      "count": 983,
+      "trade": "Manager",
+      "count": 984,
       "earliest": 1878,
       "latest": 1936
     },
     {
-      "trade": "Manager",
+      "trade": "Blacksmith",
       "count": 983,
       "earliest": 1878,
       "latest": 1936
@@ -2242,7 +2242,7 @@
       "1880s": 15,
       "1890s": 55,
       "1900s": 321,
-      "1910s": 2105,
+      "1910s": 2117,
       "1920s": 3239,
       "1930s": 1034
     },
@@ -2450,26 +2450,26 @@
       },
       {
         "street": "Commercial Street",
-        "count": 525,
+        "count": 526,
         "total": 5377,
         "pct": 9.8
       },
       {
         "street": "Chepstow Road",
         "count": 467,
-        "total": 2925,
+        "total": 2915,
         "pct": 16.0
       },
       {
         "street": "Corporation Road",
         "count": 393,
-        "total": 2745,
+        "total": 2744,
         "pct": 14.3
       },
       {
         "street": "Caerleon Road",
         "count": 293,
-        "total": 2712,
+        "total": 2711,
         "pct": 10.8
       },
       {
@@ -2481,7 +2481,7 @@
       {
         "street": "High Street",
         "count": 220,
-        "total": 2767,
+        "total": 2766,
         "pct": 8.0
       },
       {
@@ -2629,7 +2629,7 @@
       {
         "street": "Capel Crescent",
         "count": 290,
-        "total": 1203,
+        "total": 1201,
         "pct": 24.1
       },
       {
@@ -2818,14 +2818,14 @@
       },
       {
         "street": "Stow Hill",
-        "count": 115,
-        "total": 1935,
-        "pct": 5.9
+        "count": 117,
+        "total": 1934,
+        "pct": 6.0
       },
       {
         "street": "High Street",
         "count": 100,
-        "total": 2767,
+        "total": 2766,
         "pct": 3.6
       },
       {
@@ -2849,7 +2849,7 @@
       {
         "street": "Chepstow Road",
         "count": 52,
-        "total": 2925,
+        "total": 2915,
         "pct": 1.8
       },
       {
@@ -2895,10 +2895,10 @@
         "pct": 15.0
       },
       {
-        "street": "Gold Tops",
+        "street": "Caerau Road",
         "count": 15,
-        "total": 312,
-        "pct": 4.8
+        "total": 663,
+        "pct": 2.3
       }
     ]
   },
@@ -3039,7 +3039,7 @@
   "vanished_trades": [
     {
       "trade": "Glass Works",
-      "count": 452,
+      "count": 464,
       "earliest": 1887,
       "latest": 1915
     },
@@ -3228,12 +3228,12 @@
   ],
   "anomalies": {
     "counts": {
-      "ditto_variants": 68,
-      "pure_symbols": 1,
-      "single_initial_trade": 269,
-      "numbers_in_trade": 40,
+      "ditto_variants": 1,
+      "pure_symbols": 0,
+      "single_initial_trade": 226,
+      "numbers_in_trade": 0,
       "short_tokens": 0,
-      "spillover_suffix": 111
+      "spillover_suffix": 112
     },
     "samples": {
       "initial_as_trade": [
@@ -3438,168 +3438,6 @@
           "trade": "Mp"
         }
       ],
-      "numbers_in_trade": [
-        {
-          "year": "1878",
-          "street": "Blewitt Terrace",
-          "house_number": "",
-          "surname": "Moulton",
-          "forename": "H.",
-          "trade": "1"
-        },
-        {
-          "year": "1878",
-          "street": "Blewitt Terrace",
-          "house_number": "",
-          "surname": "Moon",
-          "forename": "William",
-          "trade": "2"
-        },
-        {
-          "year": "1882",
-          "street": "Crindau Road",
-          "house_number": "",
-          "surname": "Wills",
-          "forename": "Charles",
-          "trade": "1"
-        },
-        {
-          "year": "1882",
-          "street": "Crindau Road",
-          "house_number": "",
-          "surname": "May",
-          "forename": "George",
-          "trade": "2"
-        },
-        {
-          "year": "1886",
-          "street": "Capel Crescent",
-          "house_number": "",
-          "surname": "James",
-          "forename": "Daniel",
-          "trade": "1"
-        },
-        {
-          "year": "1886",
-          "street": "Capel Crescent",
-          "house_number": "",
-          "surname": "Edwards",
-          "forename": "William",
-          "trade": "2"
-        },
-        {
-          "year": "1886",
-          "street": "Charlotte Street",
-          "house_number": "",
-          "surname": "Rolloson",
-          "forename": "Andrew",
-          "trade": "2"
-        },
-        {
-          "year": "1886",
-          "street": "Charlotte Street",
-          "house_number": "",
-          "surname": "Roberts",
-          "forename": "Walter",
-          "trade": "19"
-        },
-        {
-          "year": "1886",
-          "street": "Charlotte Street",
-          "house_number": "",
-          "surname": "Fothergill",
-          "forename": "Mrs.",
-          "trade": "18"
-        },
-        {
-          "year": "1886",
-          "street": "Chepstow Road",
-          "house_number": "",
-          "surname": "Bush",
-          "forename": "William",
-          "trade": "1"
-        },
-        {
-          "year": "1886",
-          "street": "Chepstow Road",
-          "house_number": "",
-          "surname": "Baddeley",
-          "forename": "Henry E.",
-          "trade": "2"
-        },
-        {
-          "year": "1886",
-          "street": "Chepstow Road",
-          "house_number": "3",
-          "surname": "Jones",
-          "forename": "Mrs.",
-          "trade": "1"
-        },
-        {
-          "year": "1886",
-          "street": "Chepstow Road",
-          "house_number": "20",
-          "surname": "Evans",
-          "forename": "R. B.",
-          "trade": "19"
-        },
-        {
-          "year": "1886",
-          "street": "Chepstow Road",
-          "house_number": "21",
-          "surname": "Jones",
-          "forename": "William Stanley",
-          "trade": "20"
-        },
-        {
-          "year": "1890",
-          "street": "Kingsland Terrace",
-          "house_number": "",
-          "surname": "Small",
-          "forename": "Samuel",
-          "trade": "1"
-        },
-        {
-          "year": "1892",
-          "street": "Caerau Road",
-          "house_number": "166",
-          "surname": "Williams",
-          "forename": "Mrs C.",
-          "trade": "2"
-        },
-        {
-          "year": "1892",
-          "street": "Caerau Road",
-          "house_number": "179",
-          "surname": "Lewis",
-          "forename": "John F.",
-          "trade": "1"
-        },
-        {
-          "year": "1893",
-          "street": "Chepstow Road",
-          "house_number": "50",
-          "surname": "Small",
-          "forename": "Samuel",
-          "trade": "1"
-        },
-        {
-          "year": "1893",
-          "street": "Chepstow Road",
-          "house_number": "51",
-          "surname": "Burford",
-          "forename": "Mrs Harriet",
-          "trade": "2"
-        },
-        {
-          "year": "1893",
-          "street": "Somerton Road",
-          "house_number": "",
-          "surname": "Vince",
-          "forename": "W. H.",
-          "trade": "11"
-        }
-      ],
       "spillover_suffix": [
         {
           "year": "1886",
@@ -3764,174 +3602,12 @@
       ],
       "ditto_variants": [
         {
-          "year": "1887",
-          "street": "Caerau Road",
+          "year": "1901",
+          "street": "Kensington Place",
           "house_number": "",
-          "surname": "Parsons C. E.",
-          "forename": "",
-          "trade": "Ditto"
-        },
-        {
-          "year": "1887",
-          "street": "Crindau Road",
-          "house_number": "2",
-          "surname": "Williams",
-          "forename": "Joseph",
+          "surname": "Bond",
+          "forename": "W T.",
           "trade": "Do"
-        },
-        {
-          "year": "1887",
-          "street": "Crindau Road",
-          "house_number": "3",
-          "surname": "Gane",
-          "forename": "Joshua",
-          "trade": "Do"
-        },
-        {
-          "year": "1887",
-          "street": "Crindau Road",
-          "house_number": "4",
-          "surname": "Sweet",
-          "forename": "Robert",
-          "trade": "Do"
-        },
-        {
-          "year": "1887",
-          "street": "Crindau Road",
-          "house_number": "5",
-          "surname": "Murphy",
-          "forename": "Michael",
-          "trade": "Do"
-        },
-        {
-          "year": "1887",
-          "street": "Crindau Road",
-          "house_number": "6",
-          "surname": "Clissold",
-          "forename": "Frank",
-          "trade": "Do"
-        },
-        {
-          "year": "1887",
-          "street": "Glass Works Cottages",
-          "house_number": "2",
-          "surname": "Needham",
-          "forename": "John",
-          "trade": "Do"
-        },
-        {
-          "year": "1887",
-          "street": "Glass Works Cottages",
-          "house_number": "3",
-          "surname": "Kilburn",
-          "forename": "Daniel",
-          "trade": "Do"
-        },
-        {
-          "year": "1887",
-          "street": "Glass Works Cottages",
-          "house_number": "4",
-          "surname": "Thompson",
-          "forename": "George",
-          "trade": "Do"
-        },
-        {
-          "year": "1887",
-          "street": "Glass Works Cottages",
-          "house_number": "5",
-          "surname": "Fouweather",
-          "forename": "John",
-          "trade": "Do"
-        },
-        {
-          "year": "1887",
-          "street": "Glass Works Cottages",
-          "house_number": "6",
-          "surname": "Chilton",
-          "forename": "Richard",
-          "trade": "Do"
-        },
-        {
-          "year": "1887",
-          "street": "Glass Works Cottages",
-          "house_number": "7",
-          "surname": "Fouweather",
-          "forename": "Edwin",
-          "trade": "Do"
-        },
-        {
-          "year": "1887",
-          "street": "Glass Works Cottages",
-          "house_number": "8",
-          "surname": "Merewood",
-          "forename": "Thomas",
-          "trade": "Do"
-        },
-        {
-          "year": "1887",
-          "street": "Glass Works Cottages",
-          "house_number": "9",
-          "surname": "Hadley",
-          "forename": "Daniel",
-          "trade": "Do"
-        },
-        {
-          "year": "1887",
-          "street": "Glass Works Cottages",
-          "house_number": "10",
-          "surname": "Bywater",
-          "forename": "Joseph",
-          "trade": "Do"
-        },
-        {
-          "year": "1887",
-          "street": "Glass Works Cottages",
-          "house_number": "11",
-          "surname": "Wray",
-          "forename": "Charles",
-          "trade": "Do"
-        },
-        {
-          "year": "1887",
-          "street": "Glass Works Cottages",
-          "house_number": "12",
-          "surname": "Broomhead",
-          "forename": "George",
-          "trade": "Do"
-        },
-        {
-          "year": "1887",
-          "street": "Glass Works Cottages",
-          "house_number": "13",
-          "surname": "Collins",
-          "forename": "Edward",
-          "trade": "Do"
-        },
-        {
-          "year": "1887",
-          "street": "Glass Works Cottages",
-          "house_number": "14",
-          "surname": "Bennett",
-          "forename": "John",
-          "trade": "Do"
-        },
-        {
-          "year": "1887",
-          "street": "Glass Works Cottages",
-          "house_number": "15",
-          "surname": "Senior",
-          "forename": "Matthew",
-          "trade": "Do"
-        }
-      ],
-      "pure_symbols": [
-        {
-          "year": "1908",
-          "street": "Constance Street",
-          "house_number": "32",
-          "surname": "Bryant",
-          "forename": "",
-          "trade": "-"
         }
       ]
     }
