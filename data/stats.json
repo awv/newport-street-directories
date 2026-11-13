@@ -1,12 +1,12 @@
 {
   "meta": {
     "total_records": 331260,
-    "total_with_trade": 221667,
+    "total_with_trade": 221664,
     "pct_with_trade": 66.9,
     "total_streets": 985,
     "total_years": 27,
     "years_span": "1876\u20131936",
-    "unique_trade_strings": 23963
+    "unique_trade_strings": 23961
   },
   "yearly_overview": [
     {
@@ -92,7 +92,7 @@
     {
       "year": "1898",
       "total": 12030,
-      "with_trade": 8420,
+      "with_trade": 8419,
       "pct": 70.0,
       "trades_in_names": 10,
       "names_in_trades": 26
@@ -132,7 +132,7 @@
     {
       "year": "1903",
       "total": 13595,
-      "with_trade": 9675,
+      "with_trade": 9674,
       "pct": 71.2,
       "trades_in_names": 18,
       "names_in_trades": 49
@@ -148,7 +148,7 @@
     {
       "year": "1906",
       "total": 15012,
-      "with_trade": 10310,
+      "with_trade": 10311,
       "pct": 68.7,
       "trades_in_names": 17,
       "names_in_trades": 112
@@ -204,7 +204,7 @@
     {
       "year": "1925",
       "total": 19065,
-      "with_trade": 11691,
+      "with_trade": 11690,
       "pct": 61.3,
       "trades_in_names": 40,
       "names_in_trades": 56
@@ -212,7 +212,7 @@
     {
       "year": "1927",
       "total": 21239,
-      "with_trade": 13772,
+      "with_trade": 13771,
       "pct": 64.8,
       "trades_in_names": 25,
       "names_in_trades": 91
@@ -1459,7 +1459,7 @@
     },
     {
       "trade": "Void",
-      "count": 5094,
+      "count": 5095,
       "earliest": 1878,
       "latest": 1936
     },
@@ -2392,7 +2392,7 @@
       {
         "street": "Stow Hill",
         "count": 115,
-        "total": 1915,
+        "total": 1916,
         "pct": 6.0
       },
       {
@@ -2446,7 +2446,7 @@
       {
         "street": "Skinner Street",
         "count": 18,
-        "total": 500,
+        "total": 501,
         "pct": 3.6
       },
       {
