@@ -6,7 +6,7 @@
     "total_streets": 1029,
     "total_years": 27,
     "years_span": "1876\u20131936",
-    "unique_trade_strings": 27125
+    "unique_trade_strings": 27091
   },
   "yearly_overview": [
     {
@@ -1477,7 +1477,7 @@
     },
     {
       "trade": "Coal Trimmer",
-      "count": 3225,
+      "count": 3335,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1566,14 +1566,14 @@
       "latest": 1936
     },
     {
-      "trade": "Baker",
-      "count": 1516,
+      "trade": "Moulder",
+      "count": 1549,
       "earliest": 1878,
       "latest": 1936
     },
     {
-      "trade": "Moulder",
-      "count": 1474,
+      "trade": "Baker",
+      "count": 1516,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1839,12 +1839,12 @@
     },
     "Coal Trimmer": {
       "1870s": 8,
-      "1880s": 180,
-      "1890s": 941,
-      "1900s": 607,
-      "1910s": 490,
-      "1920s": 667,
-      "1930s": 225
+      "1880s": 198,
+      "1890s": 955,
+      "1900s": 642,
+      "1910s": 500,
+      "1920s": 687,
+      "1930s": 227
     },
     "Seaman": {
       "1870s": 65,
@@ -2115,7 +2115,7 @@
       },
       {
         "street": "Dolphin Street",
-        "count": 624,
+        "count": 625,
         "total": 1911,
         "pct": 32.7
       },
@@ -2127,9 +2127,9 @@
       },
       {
         "street": "Hewertson Street",
-        "count": 510,
+        "count": 511,
         "total": 1013,
-        "pct": 50.3
+        "pct": 50.4
       },
       {
         "street": "Gordon Street",
@@ -2192,10 +2192,10 @@
         "pct": 55.2
       },
       {
-        "street": "Marion Street",
-        "count": 357,
-        "total": 1403,
-        "pct": 25.4
+        "street": "Raglan Street",
+        "count": 360,
+        "total": 1871,
+        "pct": 19.2
       }
     ],
     "railway": [
@@ -2293,27 +2293,27 @@
     "maritime": [
       {
         "street": "Jeddo Street",
-        "count": 371,
+        "count": 373,
         "total": 1662,
-        "pct": 22.3
+        "pct": 22.4
       },
       {
         "street": "Marion Street",
-        "count": 365,
+        "count": 367,
         "total": 1403,
-        "pct": 26.0
+        "pct": 26.2
       },
       {
         "street": "Lime Street",
-        "count": 306,
+        "count": 307,
         "total": 1530,
-        "pct": 20.0
+        "pct": 20.1
       },
       {
         "street": "Baldwin Street",
-        "count": 227,
+        "count": 232,
         "total": 1511,
-        "pct": 15.0
+        "pct": 15.4
       },
       {
         "street": "Dolphin Street",
@@ -2323,27 +2323,33 @@
       },
       {
         "street": "George Street",
-        "count": 207,
+        "count": 208,
         "total": 1466,
-        "pct": 14.1
-      },
-      {
-        "street": "Clarence Street",
-        "count": 185,
-        "total": 775,
-        "pct": 23.9
+        "pct": 14.2
       },
       {
         "street": "Capel Street",
-        "count": 183,
+        "count": 186,
         "total": 1371,
-        "pct": 13.3
+        "pct": 13.6
+      },
+      {
+        "street": "Clarence Street",
+        "count": 186,
+        "total": 775,
+        "pct": 24.0
       },
       {
         "street": "Price Street",
-        "count": 180,
+        "count": 181,
         "total": 1159,
-        "pct": 15.5
+        "pct": 15.6
+      },
+      {
+        "street": "Castle Street",
+        "count": 156,
+        "total": 616,
+        "pct": 25.3
       },
       {
         "street": "Raglan Street",
@@ -2352,34 +2358,28 @@
         "pct": 8.2
       },
       {
-        "street": "Castle Street",
-        "count": 153,
-        "total": 616,
-        "pct": 24.8
+        "street": "Wolseley Street",
+        "count": 146,
+        "total": 712,
+        "pct": 20.5
       },
       {
         "street": "Robert Street",
-        "count": 143,
+        "count": 144,
         "total": 816,
-        "pct": 17.5
+        "pct": 17.6
+      },
+      {
+        "street": "David Street",
+        "count": 143,
+        "total": 599,
+        "pct": 23.9
       },
       {
         "street": "Williams Street",
         "count": 143,
         "total": 1589,
         "pct": 9.0
-      },
-      {
-        "street": "Wolseley Street",
-        "count": 143,
-        "total": 712,
-        "pct": 20.1
-      },
-      {
-        "street": "David Street",
-        "count": 136,
-        "total": 599,
-        "pct": 22.7
       }
     ],
     "professional": [
