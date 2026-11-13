@@ -6658,7 +6658,8 @@
       },
       "cross_streets": [],
       "aliases": [
-        "Fee"
+        "Fee",
+        "Fawckner Road"
       ],
       "audit": {
         "status": "NAME_VERIFIED",
@@ -7152,7 +7153,9 @@
         "approx_change_year": null
       },
       "cross_streets": [],
-      "aliases": [],
+      "aliases": [
+        "Gear Street"
+      ],
       "audit": {
         "status": "NAME_VERIFIED",
         "verified_by": "Rob Gale",
@@ -11033,7 +11036,9 @@
         "approx_change_year": null
       },
       "cross_streets": [],
-      "aliases": [],
+      "aliases": [
+        "Melton Street"
+      ],
       "audit": {
         "status": "NAME_VERIFIED",
         "verified_by": "Rob Gale",
@@ -17510,33 +17515,6 @@
       "notes": "",
       "latitude": "51.5780039",
       "longitude": "-3.0049099"
-    },
-    "waters-lane": {
-      "canonical_name": "Waters Lane",
-      "slug": "waters-lane",
-      "district": "",
-      "parish": "",
-      "former_names": [],
-      "sub_sections": [],
-      "numbering_scheme": {
-        "type": "ODDS_EVENS",
-        "approx_change_year": null
-      },
-      "cross_streets": [],
-      "aliases": [],
-      "audit": {
-        "status": "NAME_VERIFIED",
-        "verified_by": "Rob Gale",
-        "notes": ""
-      },
-      "coordinates": {
-        "lat": null,
-        "lng": null
-      },
-      "audit_status": "NAME_VERIFIED",
-      "notes": "",
-      "latitude": "51.5869748",
-      "longitude": "-2.9975261"
     },
     "wednesbury-street": {
       "canonical_name": "Wednesbury Street",
