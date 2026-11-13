@@ -1966,12 +1966,120 @@ html, body {
   /* Full Screen Mobile Timeline Inspector Drawer */
   .inspector-drawer {
     width: 100% !important;
-    max-width: 100vw !important;
+    max-width: 100% !important;
     right: -100% !important;
   }
 
   .inspector-drawer.open {
     right: 0 !important;
+  }
+
+  .inspector-body {
+    padding: 1rem;
+  }
+
+  /* Tighten Mobile Canvas Edge Whitespace & Prevent Horizontal Overflow */
+  .canvas-scroll-body {
+    padding: 0.85rem 0.75rem 2rem;
+    overflow-x: clip;
+  }
+
+  .hero-studio-container {
+    padding: 1.15rem 0.9rem;
+    margin-bottom: 1.25rem;
+    border-radius: 10px;
+  }
+
+  .hero-title {
+    font-size: clamp(1.65rem, 1.2rem + 2.5vw, 2.25rem);
+  }
+
+  .hero-subtitle {
+    font-size: 0.94rem;
+    margin-bottom: 1.15rem;
+  }
+
+  .hero-search-wrapper {
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .hero-search-box {
+    padding: 0.25rem 0.25rem 0.25rem 0.65rem;
+    min-width: 0;
+  }
+
+  .hero-search-box input {
+    min-width: 0;
+    font-size: 0.9rem;
+  }
+
+  .search-submit-btn {
+    padding: 0.55rem 0.9rem;
+    flex-shrink: 0;
+  }
+
+  .home-metrics-bar {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.65rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .metric-card {
+    padding: 0.85rem;
+    min-width: 0;
+  }
+
+  .metric-val {
+    font-size: 1.55rem;
+  }
+
+  .featured-streets-grid {
+    grid-template-columns: repeat(auto-fill, minmax(min(260px, 100%), 1fr));
+    gap: 0.75rem;
+  }
+
+  .featured-street-card {
+    padding: 1rem;
+    min-width: 0;
+  }
+
+  .street-hero-banner {
+    height: 200px !important;
+  }
+
+  .street-ledger-toolbar {
+    padding: 0.65rem 0.75rem;
+    gap: 0.65rem;
+  }
+
+  .ledger-year-select,
+  .ledger-search-box,
+  .streets-search-wrapper {
+    min-width: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 1 1 100%;
+  }
+
+  .editor-modal-body {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .canvas-scroll-body {
+    padding: 0.65rem 0.5rem 1.75rem;
+  }
+
+  .hero-studio-container {
+    padding: 1rem 0.75rem;
+  }
+
+  .street-ledger-table th,
+  .street-ledger-table td {
+    padding: 0.65rem 0.75rem;
   }
 }
 
@@ -2012,7 +2120,7 @@ html, body {
     top: 0 !important;
     left: -280px !important;
     bottom: 0 !important;
-    height: 100vh !important;
+    height: 100dvh !important;
     z-index: 999 !important;
     transition: left 0.25s ease !important;
     box-shadow: 4px 0 16px rgba(0,0,0,0.15) !important;
@@ -2027,13 +2135,21 @@ html, body {
   }
 
   .app-canvas {
-    width: 100vw !important;
-    max-width: 100vw !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
   }
 
   .canvas-header {
     padding: 0.65rem 0.75rem !important;
     gap: 0.5rem !important;
+  }
+
+  .breadcrumb-container {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
   .canvas-header-actions {
