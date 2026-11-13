@@ -460,6 +460,33 @@
     .modal-close-btn:hover {
       color: #fff;
     }
+
+    @media (max-width: 768px) {
+      .canvas-header {
+        padding: 0 0.75rem !important;
+      }
+      .container {
+        padding: 1rem 0.75rem;
+      }
+      .page-header {
+        gap: 0.85rem;
+        margin-bottom: 1.25rem;
+        padding-bottom: 1rem;
+      }
+      h1 {
+        font-size: clamp(1.75rem, 1.3rem + 2vw, 2.3rem);
+      }
+      .modal-box {
+        padding: 1rem !important;
+        width: 96% !important;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        padding: 0.75rem 0.5rem;
+      }
+    }
   </style>
 </head>
 <body>

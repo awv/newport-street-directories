@@ -483,6 +483,45 @@
     .leaflet-container a.leaflet-popup-close-button:hover {
       color: var(--text-primary) !important;
     }
+
+    @media (max-width: 768px) {
+      body {
+        height: 100dvh;
+      }
+      .canvas-header {
+        padding: 0.6rem 0.75rem;
+      }
+      .canvas-header-actions {
+        display: none;
+      }
+      .main-container {
+        flex-direction: column;
+      }
+      #map {
+        width: 100%;
+        height: 46dvh;
+        min-height: 240px;
+        flex: none;
+      }
+      .sidebar {
+        width: 100%;
+        flex: 1;
+        min-height: 0;
+        border-left: none;
+        border-top: 1px solid var(--border-color);
+      }
+      .sidebar-header {
+        padding: 0.85rem 1rem;
+      }
+      .timeline-overlay {
+        left: 0.65rem !important;
+        right: 0.65rem !important;
+        top: 0.65rem !important;
+        bottom: auto !important;
+        width: auto !important;
+        max-width: none !important;
+      }
+    }
   </style>
 </head>
 <body>
