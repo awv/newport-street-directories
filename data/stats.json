@@ -6,7 +6,7 @@
     "total_streets": 901,
     "total_years": 27,
     "years_span": "1876\u20131936",
-    "unique_trade_strings": 23392
+    "unique_trade_strings": 23298
   },
   "yearly_overview": [
     {
@@ -598,51 +598,51 @@
     "by_decade": {
       "1870s": {
         "Docks & Maritime": 259,
-        "Iron & Heavy Industry": 191,
+        "Iron & Heavy Industry": 192,
         "Building & Timber": 368,
         "Transport & Rail": 195,
         "Retail & Hospitality": 380,
-        "Clerical & Professional": 248
+        "Clerical & Professional": 249
       },
       "1880s": {
-        "Docks & Maritime": 1290,
-        "Iron & Heavy Industry": 954,
-        "Building & Timber": 1538,
+        "Docks & Maritime": 1294,
+        "Iron & Heavy Industry": 955,
+        "Building & Timber": 1540,
         "Transport & Rail": 1048,
-        "Retail & Hospitality": 1463,
-        "Clerical & Professional": 802
+        "Retail & Hospitality": 1466,
+        "Clerical & Professional": 805
       },
       "1890s": {
-        "Docks & Maritime": 3838,
-        "Iron & Heavy Industry": 3409,
-        "Building & Timber": 5804,
-        "Transport & Rail": 4162,
-        "Retail & Hospitality": 4574,
-        "Clerical & Professional": 3091
+        "Docks & Maritime": 3875,
+        "Iron & Heavy Industry": 3424,
+        "Building & Timber": 5841,
+        "Transport & Rail": 4229,
+        "Retail & Hospitality": 4608,
+        "Clerical & Professional": 3121
       },
       "1900s": {
-        "Docks & Maritime": 3127,
-        "Iron & Heavy Industry": 4794,
-        "Building & Timber": 5687,
-        "Transport & Rail": 5007,
-        "Retail & Hospitality": 4641,
-        "Clerical & Professional": 2920
+        "Docks & Maritime": 3148,
+        "Iron & Heavy Industry": 4804,
+        "Building & Timber": 5691,
+        "Transport & Rail": 5017,
+        "Retail & Hospitality": 4658,
+        "Clerical & Professional": 2969
       },
       "1910s": {
-        "Docks & Maritime": 1404,
-        "Iron & Heavy Industry": 3823,
-        "Building & Timber": 2597,
-        "Transport & Rail": 3104,
-        "Retail & Hospitality": 2520,
-        "Clerical & Professional": 1561
+        "Docks & Maritime": 1410,
+        "Iron & Heavy Industry": 3832,
+        "Building & Timber": 2600,
+        "Transport & Rail": 3108,
+        "Retail & Hospitality": 2525,
+        "Clerical & Professional": 1582
       },
       "1920s": {
-        "Docks & Maritime": 1946,
-        "Iron & Heavy Industry": 6427,
-        "Building & Timber": 3312,
-        "Transport & Rail": 5150,
-        "Retail & Hospitality": 3556,
-        "Clerical & Professional": 2843
+        "Docks & Maritime": 1963,
+        "Iron & Heavy Industry": 6465,
+        "Building & Timber": 3319,
+        "Transport & Rail": 5158,
+        "Retail & Hospitality": 3560,
+        "Clerical & Professional": 2893
       },
       "1930s": {
         "Docks & Maritime": 805,
@@ -650,7 +650,7 @@
         "Building & Timber": 913,
         "Transport & Rail": 2228,
         "Retail & Hospitality": 924,
-        "Clerical & Professional": 1110
+        "Clerical & Professional": 1115
       }
     }
   },
@@ -1868,19 +1868,19 @@
   "top_trades": [
     {
       "trade": "Labourer",
-      "count": 27124,
+      "count": 27165,
       "earliest": 1878,
       "latest": 1936
     },
     {
       "trade": "Ironworker",
-      "count": 7762,
+      "count": 7783,
       "earliest": 1882,
       "latest": 1936
     },
     {
       "trade": "Carpenter",
-      "count": 5540,
+      "count": 5550,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1910,7 +1910,7 @@
     },
     {
       "trade": "Coal Trimmer",
-      "count": 3347,
+      "count": 3370,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1921,14 +1921,14 @@
       "latest": 1936
     },
     {
-      "trade": "Haulier",
-      "count": 3224,
+      "trade": "Engine Driver",
+      "count": 3255,
       "earliest": 1878,
       "latest": 1936
     },
     {
-      "trade": "Engine Driver",
-      "count": 3209,
+      "trade": "Haulier",
+      "count": 3224,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1946,7 +1946,7 @@
     },
     {
       "trade": "Butcher",
-      "count": 2109,
+      "count": 2115,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1964,7 +1964,7 @@
     },
     {
       "trade": "Engineer",
-      "count": 1886,
+      "count": 1929,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1976,7 +1976,7 @@
     },
     {
       "trade": "Plasterer",
-      "count": 1692,
+      "count": 1700,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1988,13 +1988,13 @@
     },
     {
       "trade": "Boilermaker",
-      "count": 1589,
+      "count": 1595,
       "earliest": 1878,
       "latest": 1936
     },
     {
       "trade": "Moulder",
-      "count": 1560,
+      "count": 1564,
       "earliest": 1878,
       "latest": 1936
     },
@@ -2006,13 +2006,13 @@
     },
     {
       "trade": "Foreman",
-      "count": 1441,
+      "count": 1452,
       "earliest": 1878,
       "latest": 1936
     },
     {
       "trade": "Gardener",
-      "count": 1432,
+      "count": 1444,
       "earliest": 1878,
       "latest": 1936
     },
@@ -2065,6 +2065,12 @@
       "latest": 1927
     },
     {
+      "trade": "Manager",
+      "count": 1069,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
       "trade": "Bricklayer",
       "count": 1069,
       "earliest": 1878,
@@ -2072,7 +2078,7 @@
     },
     {
       "trade": "Signalman",
-      "count": 1037,
+      "count": 1049,
       "earliest": 1878,
       "latest": 1936
     },
@@ -2083,26 +2089,26 @@
       "latest": 1936
     },
     {
+      "trade": "Confectioner",
+      "count": 1002,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
       "trade": "Blacksmith",
       "count": 991,
       "earliest": 1878,
       "latest": 1936
     },
     {
-      "trade": "Manager",
-      "count": 984,
-      "earliest": 1878,
-      "latest": 1936
-    },
-    {
       "trade": "Shopkeeper",
-      "count": 960,
+      "count": 969,
       "earliest": 1878,
       "latest": 1936
     },
     {
-      "trade": "Confectioner",
-      "count": 951,
+      "trade": "Shipwright",
+      "count": 865,
       "earliest": 1878,
       "latest": 1936
     },
@@ -2119,14 +2125,8 @@
       "latest": 1936
     },
     {
-      "trade": "Shipwright",
-      "count": 852,
-      "earliest": 1878,
-      "latest": 1936
-    },
-    {
       "trade": "Hobbler",
-      "count": 845,
+      "count": 849,
       "earliest": 1878,
       "latest": 1936
     },
@@ -2198,13 +2198,13 @@
     },
     {
       "trade": "Crane Driver",
-      "count": 578,
+      "count": 589,
       "earliest": 1886,
       "latest": 1936
     },
     {
       "trade": "Driver",
-      "count": 577,
+      "count": 583,
       "earliest": 1878,
       "latest": 1936
     },
@@ -2230,11 +2230,11 @@
   "decade_trends": {
     "Labourer": {
       "1870s": 294,
-      "1880s": 1704,
-      "1890s": 6938,
-      "1900s": 4951,
-      "1910s": 3846,
-      "1920s": 5293,
+      "1880s": 1706,
+      "1890s": 6948,
+      "1900s": 4958,
+      "1910s": 3854,
+      "1920s": 5304,
       "1930s": 1411
     },
     "Ironworker": {
@@ -2243,7 +2243,7 @@
       "1890s": 55,
       "1900s": 323,
       "1910s": 2118,
-      "1920s": 3239,
+      "1920s": 3260,
       "1930s": 1034
     },
     "Steelworker": {
@@ -2267,10 +2267,10 @@
     "Coal Trimmer": {
       "1870s": 8,
       "1880s": 199,
-      "1890s": 959,
-      "1900s": 645,
+      "1890s": 976,
+      "1900s": 650,
       "1910s": 502,
-      "1920s": 687,
+      "1920s": 688,
       "1930s": 229
     },
     "Seaman": {
@@ -2285,10 +2285,10 @@
     "Carpenter": {
       "1870s": 110,
       "1880s": 462,
-      "1890s": 1678,
+      "1890s": 1685,
       "1900s": 1031,
       "1910s": 675,
-      "1920s": 855,
+      "1920s": 858,
       "1930s": 215
     },
     "Mason": {
@@ -2312,7 +2312,7 @@
     "Engine Driver": {
       "1870s": 33,
       "1880s": 182,
-      "1890s": 727,
+      "1890s": 773,
       "1900s": 613,
       "1910s": 478,
       "1920s": 703,
@@ -2375,8 +2375,8 @@
     "Butcher": {
       "1870s": 37,
       "1880s": 135,
-      "1890s": 412,
-      "1900s": 320,
+      "1890s": 416,
+      "1900s": 322,
       "1910s": 350,
       "1920s": 459,
       "1930s": 156
@@ -2404,8 +2404,8 @@
       "1880s": 1,
       "1890s": 14,
       "1900s": 32,
-      "1910s": 29,
-      "1920s": 101,
+      "1910s": 36,
+      "1920s": 113,
       "1930s": 79
     }
   },
@@ -2444,39 +2444,39 @@
     "commercial": [
       {
         "street": "Commercial Road",
-        "count": 927,
+        "count": 932,
         "total": 4057,
-        "pct": 22.8
+        "pct": 23.0
       },
       {
         "street": "Commercial Street",
-        "count": 526,
+        "count": 530,
         "total": 5370,
-        "pct": 9.8
+        "pct": 9.9
       },
       {
         "street": "Chepstow Road",
-        "count": 467,
+        "count": 473,
         "total": 2908,
-        "pct": 16.1
+        "pct": 16.3
       },
       {
         "street": "Corporation Road",
-        "count": 393,
+        "count": 395,
         "total": 2743,
-        "pct": 14.3
+        "pct": 14.4
       },
       {
         "street": "Caerleon Road",
-        "count": 293,
+        "count": 297,
         "total": 2702,
-        "pct": 10.8
+        "pct": 11.0
       },
       {
         "street": "Church Road",
-        "count": 273,
+        "count": 279,
         "total": 1296,
-        "pct": 21.1
+        "pct": 21.5
       },
       {
         "street": "Market (provision)",
@@ -2498,9 +2498,9 @@
       },
       {
         "street": "Clarence Place",
-        "count": 191,
+        "count": 192,
         "total": 999,
-        "pct": 19.1
+        "pct": 19.2
       },
       {
         "street": "Blewitt Street",
@@ -2516,15 +2516,15 @@
       },
       {
         "street": "Duckpool Road",
-        "count": 162,
+        "count": 163,
         "total": 2315,
         "pct": 7.0
       },
       {
         "street": "Alexandra Road",
-        "count": 156,
+        "count": 160,
         "total": 1189,
-        "pct": 13.1
+        "pct": 13.5
       },
       {
         "street": "Shaftesbury Street",
@@ -2536,9 +2536,9 @@
     "industrial": [
       {
         "street": "Baldwin Street",
-        "count": 746,
+        "count": 749,
         "total": 1524,
-        "pct": 49.0
+        "pct": 49.1
       },
       {
         "street": "Dolphin Street",
@@ -2590,27 +2590,27 @@
       },
       {
         "street": "Dewstow Street",
-        "count": 408,
+        "count": 417,
         "total": 497,
-        "pct": 82.1
+        "pct": 83.9
       },
       {
         "street": "George Street",
-        "count": 394,
+        "count": 395,
         "total": 1473,
-        "pct": 26.7
+        "pct": 26.8
+      },
+      {
+        "street": "Raglan Street",
+        "count": 383,
+        "total": 1923,
+        "pct": 19.9
       },
       {
         "street": "Marion Street",
         "count": 382,
         "total": 1293,
         "pct": 29.5
-      },
-      {
-        "street": "Raglan Street",
-        "count": 382,
-        "total": 1923,
-        "pct": 19.9
       },
       {
         "street": "Jones Street",
@@ -2620,7 +2620,7 @@
       },
       {
         "street": "Hoskins Street",
-        "count": 377,
+        "count": 378,
         "total": 1158,
         "pct": 32.6
       }
@@ -2628,21 +2628,21 @@
     "railway": [
       {
         "street": "Capel Crescent",
-        "count": 290,
+        "count": 291,
         "total": 1201,
-        "pct": 24.1
+        "pct": 24.2
       },
       {
         "street": "Lewis Street",
-        "count": 234,
+        "count": 236,
         "total": 2078,
-        "pct": 11.3
+        "pct": 11.4
       },
       {
         "street": "Raglan Street",
-        "count": 209,
+        "count": 212,
         "total": 1923,
-        "pct": 10.9
+        "pct": 11.0
       },
       {
         "street": "Capel Street",
@@ -2651,16 +2651,16 @@
         "pct": 13.1
       },
       {
+        "street": "Price Street",
+        "count": 153,
+        "total": 1161,
+        "pct": 13.2
+      },
+      {
         "street": "Williams Street",
         "count": 152,
         "total": 1626,
         "pct": 9.3
-      },
-      {
-        "street": "Price Street",
-        "count": 146,
-        "total": 1161,
-        "pct": 12.6
       },
       {
         "street": "Duckpool Road",
@@ -2675,16 +2675,16 @@
         "pct": 4.3
       },
       {
-        "street": "Jeddo Street",
-        "count": 110,
-        "total": 1671,
-        "pct": 6.6
+        "street": "Alma Street",
+        "count": 116,
+        "total": 1899,
+        "pct": 6.1
       },
       {
-        "street": "Alma Street",
-        "count": 107,
-        "total": 1899,
-        "pct": 5.6
+        "street": "Jeddo Street",
+        "count": 115,
+        "total": 1671,
+        "pct": 6.9
       },
       {
         "street": "Arthur Street",
@@ -2700,9 +2700,9 @@
       },
       {
         "street": "Devon Place",
-        "count": 71,
+        "count": 72,
         "total": 601,
-        "pct": 11.8
+        "pct": 12.0
       },
       {
         "street": "Graham Street",
@@ -2720,25 +2720,25 @@
     "maritime": [
       {
         "street": "Marion Street",
-        "count": 377,
+        "count": 389,
         "total": 1293,
-        "pct": 29.2
+        "pct": 30.1
       },
       {
         "street": "Jeddo Street",
-        "count": 374,
+        "count": 377,
         "total": 1671,
-        "pct": 22.4
+        "pct": 22.6
       },
       {
         "street": "Lime Street",
-        "count": 331,
+        "count": 333,
         "total": 1643,
-        "pct": 20.1
+        "pct": 20.3
       },
       {
         "street": "Dolphin Street",
-        "count": 237,
+        "count": 238,
         "total": 1913,
         "pct": 12.4
       },
@@ -2750,15 +2750,15 @@
       },
       {
         "street": "George Street",
-        "count": 208,
+        "count": 209,
         "total": 1473,
-        "pct": 14.1
+        "pct": 14.2
       },
       {
         "street": "Clarence Street",
-        "count": 199,
+        "count": 201,
         "total": 782,
-        "pct": 25.4
+        "pct": 25.7
       },
       {
         "street": "Capel Street",
@@ -2768,9 +2768,9 @@
       },
       {
         "street": "Price Street",
-        "count": 181,
+        "count": 183,
         "total": 1161,
-        "pct": 15.6
+        "pct": 15.8
       },
       {
         "street": "Raglan Street",
@@ -2780,15 +2780,15 @@
       },
       {
         "street": "Castle Street",
-        "count": 157,
+        "count": 159,
         "total": 625,
-        "pct": 25.1
+        "pct": 25.4
       },
       {
         "street": "Williams Street",
-        "count": 156,
+        "count": 158,
         "total": 1626,
-        "pct": 9.6
+        "pct": 9.7
       },
       {
         "street": "Robert Street",
@@ -2798,29 +2798,29 @@
       },
       {
         "street": "Wolseley Street",
-        "count": 147,
+        "count": 149,
         "total": 726,
-        "pct": 20.2
+        "pct": 20.5
       },
       {
-        "street": "Bolt Street",
-        "count": 146,
-        "total": 881,
-        "pct": 16.6
+        "street": "David Street",
+        "count": 147,
+        "total": 595,
+        "pct": 24.7
       }
     ],
     "professional": [
       {
         "street": "Commercial Street",
-        "count": 172,
+        "count": 174,
         "total": 5370,
         "pct": 3.2
       },
       {
         "street": "Stow Hill",
-        "count": 117,
+        "count": 119,
         "total": 1929,
-        "pct": 6.1
+        "pct": 6.2
       },
       {
         "street": "High Street",
@@ -2830,15 +2830,21 @@
       },
       {
         "street": "Bridge Street",
-        "count": 76,
+        "count": 80,
         "total": 1461,
-        "pct": 5.2
+        "pct": 5.5
       },
       {
         "street": "Dock Street",
         "count": 68,
         "total": 4224,
         "pct": 1.6
+      },
+      {
+        "street": "Morden Road",
+        "count": 55,
+        "total": 744,
+        "pct": 7.4
       },
       {
         "street": "Victoria Place",
@@ -2853,12 +2859,6 @@
         "pct": 1.8
       },
       {
-        "street": "Morden Road",
-        "count": 47,
-        "total": 744,
-        "pct": 6.3
-      },
-      {
         "street": "Commercial Road",
         "count": 45,
         "total": 4057,
@@ -2869,6 +2869,12 @@
         "count": 26,
         "total": 217,
         "pct": 12.0
+      },
+      {
+        "street": "Gold Tops",
+        "count": 19,
+        "total": 310,
+        "pct": 6.1
       },
       {
         "street": "Skinner Street",
@@ -2883,22 +2889,16 @@
         "pct": 6.4
       },
       {
+        "street": "Caerleon Road",
+        "count": 16,
+        "total": 2702,
+        "pct": 0.6
+      },
+      {
         "street": "Park Square",
         "count": 16,
         "total": 110,
         "pct": 14.5
-      },
-      {
-        "street": "Tredegar Place",
-        "count": 16,
-        "total": 107,
-        "pct": 15.0
-      },
-      {
-        "street": "Caerau Road",
-        "count": 15,
-        "total": 659,
-        "pct": 2.3
       }
     ]
   },
@@ -2948,15 +2948,15 @@
       },
       {
         "trade": "Shopkeeper",
-        "count": 164
+        "count": 166
+      },
+      {
+        "trade": "Confectioner",
+        "count": 127
       },
       {
         "trade": "Tobacconist",
         "count": 121
-      },
-      {
-        "trade": "Confectioner",
-        "count": 114
       },
       {
         "trade": "Greengrocer",
@@ -3004,7 +3004,7 @@
       },
       {
         "trade": "Wardrobe Dealer",
-        "count": 36
+        "count": 38
       },
       {
         "trade": "Costumier",
@@ -3069,7 +3069,7 @@
     },
     {
       "trade": "Railway Porter",
-      "count": 74,
+      "count": 79,
       "earliest": 1878,
       "latest": 1910
     },
