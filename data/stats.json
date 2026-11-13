@@ -3,7 +3,7 @@
     "total_records": 331260,
     "total_with_trade": 221664,
     "pct_with_trade": 66.9,
-    "total_streets": 976,
+    "total_streets": 975,
     "total_years": 27,
     "years_span": "1876\u20131936",
     "unique_trade_strings": 23961
@@ -2126,6 +2126,12 @@
         "pct": 37.6
       },
       {
+        "street": "Henry Street",
+        "count": 529,
+        "total": 1702,
+        "pct": 31.1
+      },
+      {
         "street": "Hewertson Street",
         "count": 512,
         "total": 1027,
@@ -2136,12 +2142,6 @@
         "count": 508,
         "total": 1127,
         "pct": 45.1
-      },
-      {
-        "street": "Henry Street",
-        "count": 499,
-        "total": 1633,
-        "pct": 30.6
       },
       {
         "street": "Lime Street",
