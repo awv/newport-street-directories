@@ -1,0 +1,994 @@
+tier	year	current_street	target_street	matched_rows	current_street_total_in_year	target_street_total_in_year	row_span	sample_records
+Tier1_Casing_Mismatch	1906	Chepstow road	Chepstow Road	20	152	112	319257-319582	No.39 John B. Serjeant; No.47 John Farmer; No.51 Thomas Linton
+Tier1_Casing_Mismatch	1906	Caerleon road	Caerleon Road	19	141	219	318377-318492	No.67 Peter Lloyd; No.75 W. A. Linton; No.77 W. L. Trevorrow
+Tier1_Casing_Mismatch	1906	Shaftesbury street	Shaftesbury Street	16	112	54	328956-329032	No.145 Thomas Rudall; No.157 Daniel Lavender; No.163 George Woods
+Tier1_Casing_Mismatch	1906	Glebe street	Glebe Street	4	17	26	323320-323333	No.27 John Fitzgerald; No.28 Henry Dyer; No.37 Albert Kelson
+Tier1_Casing_Mismatch	1908	Chepstow road	Chepstow Road	4	131	173	304080-304183	No.155 E. G. Nicholls; No.1 Robert Dray; No. Miss J. Hall
+Tier1_Casing_Mismatch	1887	Potter's parade	Potter's Parade	2	14	1	47919-47922	No.3 Daniel Orders; No.6 Anthony Oldfield
+Tier1_Casing_Mismatch	1908	Hoskins street	Hoskins Street	1	4	73	309374-309374	No.76 Job Harvey
+Tier1_WholeStreet_OCR_Or_Missed	1925	Liliput Street	Lilleshall Street	13	25	0	236001-236024	No.2 Thomas Ralph; No.8 George Gibbons; No.10 Edward William Bourne
+Tier2_Boundary_Block	1924	Henbee Street	Henry Street	46	105	3	270458-270558	No.4 John Hemmings; No.5 Sid Shergold; No.6 Henry Heal
+Tier2_Boundary_Block	1925	Railway Street	Redland Street	36	110	19	239251-239327	No.49 Edwin Pobjoy; No.51 J. Henry Whelan; No.55 W. C. Wright
+Tier2_Boundary_Block	1899	Durham street	Durham Road	31	146	55	116019-116160	No.115 Mrs Mary A. Hall; No.123 William Blake; No.137 William Pound
+Tier2_Boundary_Block	1915	Ragland Street	Raglan Street	30	102	15	220488-220586	No.16 William Hobbs; No.17 William Harris; No.19 Mrs. Sarah J. Millhouse
+Tier2_Boundary_Block	1902	Manchester Street	Malpas Road	29	211	52	156239-156334	No.96 John Richards; No.92 George Jobbins; No.78 Mrs Sarah Stanley
+Tier2_Boundary_Block	1925	Blewett Street	Blewitt Street	28	102	2	226553-226628	No.56 Benjamin Black; No.57 Mrs. Mary Preston; No.64 Herbert Peacock
+Tier2_Boundary_Block	1920	Dewey Street	Dewstow Street	27	75	9	249919-249989	No.22 David Webb; No.6 William Stevens; No.19 Joseph Page
+Tier2_Boundary_Block	1901	Raglan Street	Redland Street	26	182	44	145009-145059	No.108 David Walters; No.100 Samuel Armitage; No.98 Richard Snell
+Tier2_Boundary_Block	1925	Hereford Street	Hewertson Street	26	129	24	234537-234603	No.24 Edward Gould; No.34 Charles Upton; No.35 Ernest Newman
+Tier2_Boundary_Block	1910	Havelock Street	Henry Street	25	107	4	182446-182534	No.16 Miss Mary J. Johnstone; No.17 Robert Hawkins; No.22 J. C. Robbins
+Tier2_Boundary_Block	1920	Lilleshall Street	Lewis Street	25	84	73	254189-254240	No.69 T. E. Westwood; No.73 Thomas Tidman; No.74 George Bayliss
+Tier2_Boundary_Block	1924	Stanley Road	Stockton Road	25	66	47	277237-277292	No.26 Edward E. Clevely; No.34 Fred C. Bartlett; No.42 Edwin Gregory
+Tier2_Boundary_Block	1913	Balmoral Road	Baldwin Street	23	85	15	191484-191591	No.34 William Picton; No.20 Henry Sheppard; No.12 Mrs. Mary Rice
+Tier2_Boundary_Block	1920	Jedburgh Street	Jeddo Street	23	78	25	253490-253562	No.30 Tom Dalley; No.22 James Routley; No.6 William England
+Tier2_Boundary_Block	1925	Malvern Road	Malpas Road	23	110	83	236917-237024	No.94 George J. Grant; No.88 Mrs. Laura Sims; No.82 Samuel Ware
+Tier2_Boundary_Block	1902	Manchester Street	Marion Street	22	211	23	156398-156446	No.55 William James Dick; No.61 Joseph Dyer; No.63 Stephen Gould
+Tier2_Boundary_Block	1900	Caerau Road	Caerleon Road	21	152	157	124348-124409	No.85 James M. Akers; No.87 Charles Lock; No.107 Fred Tarrant
+Tier2_Boundary_Block	1901	St. Edward Street	St. Mary Street	21	110	51	145515-145558	No.14 John Kirby; No.15 Charles Lixton; No.18 D. W. Pugh
+Tier2_Boundary_Block	1920	Marchet Street	Marion Street	21	61	15	255274-255325	No.31 Henry John Welsher; No.37 James McQuillan; No.39 Philip Bayliss
+Tier2_Boundary_Block	1892	Commercial Street	Commercial Road	20	325	99	61246-61345	No.17 Mrs Cecilia Mann; No.22 John Ross; No.28 James Herbert
+Tier2_Boundary_Block	1920	Thomas Street	Sutton Road	20	61	35	259501-259555	No.71 Tom Sansom; No.79 Alfred Howes; No.81 William Hancock
+Tier2_Boundary_Block	1924	James Street	Jeddo Street	20	102	27	271246-271319	No.51 Arthur Roseblade; No.55 Robert Sims; No.59 Robert Gwyer
+Tier2_Boundary_Block	1899	Church Street	Church Road	19	106	17	113799-113869	No.22 John Rees; No.25 A. P. Duncan; No.33 J. W. Davey
+Tier2_Boundary_Block	1924	Lyne Road	Magor Street	19	98	69	272707-272754	No.71 John Richards; No.94 Joseph Mitchell; No.88 Thomas Hancock
+Tier2_Boundary_Block	1925	Pottery Road	Power Street	19	62	28	238667-238709	No.63 Charles Newman; No.72 Henry Francis; No.66 John Allen
+Tier2_Boundary_Block	1906	Corporation Road	Price Street	18	483	22	327577-327621	No.25 W. E. Rixon; No.28 Alfred Hood; No.29 Albert R. Brian
+Tier2_Boundary_Block	1920	Livingstone Place	Llanthewy Road	18	84	47	254409-254453	No.68 David Kyles; No.72 Andrew Young; No.78 Alfred J. Watkins
+Tier2_Boundary_Block	1899	Lime Street	Livingstone Place	17	131	7	118415-118447	No.9 John Drinkwater; No.10 Edward Webb; No.16 William Kirkham
+Tier2_Boundary_Block	1903	St. John's Road	St. Edward Street	17	83	12	171711-171753	No.17 Albert Stocker; No.18 Herbert Peacock; No.19 William Henry Hando
+Tier2_Boundary_Block	1920	Alice Street	Alma Street	17	109	88	244254-244298	No.15 J. H. Cole; No.17 Albert H. Matthews; No.19 Jesse Hobbs
+Tier2_Boundary_Block	1920	Bishops Street	Bishton Street	17	59	16	245335-245393	No.33 George Marsh; No.45 Enos Henry Knowles; No.47 Richard Walters
+Tier2_Boundary_Block	1910	Graham-street	Graham Street	16	42	10	182146-182186	No.11 Charles Ebsworth; No.12 William Wilson; No.15 H. G. Rossiter
+Tier2_Boundary_Block	1892	Charles Street	Castle Street	15	93	4	60396-60438	No.5 Michael Ryan; No.7 Mary McCarthy; No.22 Patrick Mahoney
+Tier2_Boundary_Block	1899	Camelot Place	Caerleon Road	15	106	184	112814-112863	No.114 George Henry Bourton; No.100 Miss Little; No.94 H. B. Hilton
+Tier2_Boundary_Block	1910	Archibald-street	Archibald Street	15	97	30	175036-175098	No.42 James Alexander; No.43 George Willey; No.45 Thomas V. Rudge
+Tier2_Boundary_Block	1910	Exeter Road	Fair Oak Avenue	15	72	16	181224-181278	No.17 John Green; No.22 the Misses Clarke; No.24 S. Whitmore
+Tier2_Boundary_Block	1913	Bolt Street	Blewitt Street	15	113	19	192026-192075	No.20 Sidney Wilcox; No.24 Mrs. E. Booth; No.29 Edwin Powell
+Tier2_Boundary_Block	1915	Agincourt Street	Adeline Street	15	110	7	207333-207386	No.13 J. P. Collins; No.24 Benjamin Marsh; No.28 Henry Bradbury
+Tier2_Boundary_Block	1915	Manchester Street	Marion Street	15	97	28	218701-218748	No.37 James McQuillan; No.39 Philip Bayliss; No.47 William Murphy
+Tier2_Boundary_Block	1920	Ombersley Road	Orchard Street	15	175	6	256336-256372	No.19 Ernest A. Payne; No.31 Bert Chaplin; No.37 William George Grinnell
+Tier2_Boundary_Block	1920	Somerton Road	Somerset Road	15	159	4	258643-258680	No.9 John E. Harries; No.17 Henry King; No.19 Frederick Nutt
+Tier2_Boundary_Block	1895	St. Woollos Road	St. Woolos Road	14	35	44	97201-97229	No.3 Joseph Gumm; No.6 Miss Marment; No.7 Henry Capel
+Tier2_Boundary_Block	1900	Halstead Street	Granville Street	14	109	1	128793-128820	No.3 Patrick Hart; No.4 William Barnes; No.6 John Fitzgerald
+Tier2_Boundary_Block	1900	Liverpool Street	Livingstone Place	14	76	12	130251-130275	No.16 William Kirkham; No.18 George Jewell; No.22 Arthur Millington
+Tier2_Boundary_Block	1902	Oak Street	North Street	14	49	16	156980-157009	No.26 John T. Meaker; No.27 Arthur G. Bird; No.28 Mrs Mary Manship
+Tier2_Boundary_Block	1906	Burleigh Road	Caerau Road	14	62	22	318252-318298	No.29 Misses Owen; No.31 A. F. Moreton; No.35 Charles Boucher
+Tier2_Boundary_Block	1920	Fields Road	Feering Street	14	111	3	251594-251642	No.10 Thomas Ford; No.18 Arthur Henson; No.28 Mrs. Ethel Clarke
+Tier2_Boundary_Block	1925	Ruperra Street	St. Edward Street	14	98	31	240115-240138	No.32 Frederick Huggins; No.33 William J. Huggins; No.34 James George Atkins
+Tier2_Boundary_Block	1892	Livingstone Place	Llanarth Street	13	105	9	64528-64558	No.13 Thomas Howell; No.17 Edmund R. Dickson; No.18 Edmund R. Dickson
+Tier2_Boundary_Block	1893	Duke Street	Duckpool Road	13	99	51	72326-72385	No.51 James Powis; No.63 George Maddicks; No.66 John Bate
+Tier2_Boundary_Block	1903	Bedford-road	Corporation Road	13	45	183	164563-164602	No.15 Philip Howard; No.25 John Richards; No.41 Miss E. Price
+Tier2_Boundary_Block	1903	Milman Street	Morden Road	13	67	43	169723-169754	No.9 Edward Snelling; No.10 Charles H. Richards; No.13 John Morris
+Tier2_Boundary_Block	1906	Arundel Road	Bailey Street	13	38	13	317209-317240	No.14 C. H. A. Pickering; No.17 Frederick Clarke; No.18 J. D. Burcher
+Tier2_Boundary_Block	1910	Daniel Street	Cyril Street	13	73	5	179617-179661	No.11 Fred W. Birt; No.35 Benjamin Spruce; No.37 Ebenezer Sully
+Tier2_Boundary_Block	1913	Liverpool Street	Liscombe Street	13	57	3	200705-200747	No.22 Job Perry; No.24 William Wilkinson; No.28 George Hodson
+Tier2_Boundary_Block	1915	Brynhyfryd Road	Bryngwyn Road	13	60	21	209471-209513	No.42 F. T. Hammett; No.44 J. L. Wilkins; No.48 Henry Morle
+Tier2_Boundary_Block	1920	Burleigh Road	Caerau Road	13	51	31	246044-246089	No.32 Charles Chambers; No.34 E. E. Harris; No.35 T. W. Wring
+Tier2_Boundary_Block	1920	Pump Street	Prince Street	13	58	8	257001-257045	No.9 Francis J. Corfield; No.12 Walter Green; No.16 Mrs. Margaret Coburn
+Tier2_Boundary_Block	1924	Caroline Street	Castle Street	13	39	10	264477-264495	No.17 Daniel Hart; No.19 R. C. Kewell; No.21 George Dale
+Tier2_Boundary_Block	1924	Evans Street	Eveswell Street	13	36	1	268964-268997	No.2 George Ball; No.4 Albert Pullin; No.6 T. J. Read
+Tier2_Boundary_Block	1925	Canal Terrace	Canal Parade	13	43	17	227746-227769	No.35 Stephen Daly; No.36 David Bateman; No.37 Thomas Fitzgerald
+Tier2_Boundary_Block	1900	Mountjoy Place	North Street	12	32	37	131395-131416	No.37 James Banks; No.39 Mrs Sarah Wreford; No.40 Mrs Rhoda Knight
+Tier2_Boundary_Block	1901	Gold Tops	Gordon Street	12	61	26	141269-141301	No.27 John Ball; No.28 James Hunt; No.32 William Price
+Tier2_Boundary_Block	1901	Locke Street	Lucas Street	12	99	2	143211-143226	No.3 John Dyer; No.4 William Collman; No.5 William Dowdall
+Tier2_Boundary_Block	1906	River Side	Robert Street	12	89	6	328239-328278	No.7 Nils Lindstrom; No.9 Edward Jensen; No.14 Charles Parry
+Tier2_Boundary_Block	1910	Canning Street	Canal Parade	12	39	25	176927-176960	No.30 Michael Hard; No.31 John Hill; No.39 John Barry
+Tier2_Boundary_Block	1910	Norfolk street	North Street	12	60	7	185668-185717	No.7 W. H. Howells; No.8 Thomas Cromwell; No.12 George Miles
+Tier2_Boundary_Block	1910	Victoria Crescent	Victoria Avenue	12	82	76	189066-189102	No.86 James Alker; No.90 Edward Coward; No.93 James Rutter
+Tier2_Boundary_Block	1920	Dos Road	Duckpool Road	12	95	133	250567-250590	No.27 Thomas Pritchard; No.31 Edward Watkins; No.33 Ernest Powell
+Tier2_Boundary_Block	1920	Mendalgier Road	Mendalgief Road	12	45	0	255592-255633	No.4 James Casey; No.12 Arthur Watts; No.28 James Pearce
+Tier2_Boundary_Block	1924	Warwick Road	Walsall Street	12	73	14	278635-278670	No.32 Henry Tonks; No.36 Samuel Corbett; No.40 Benjamin Ball
+Tier2_Boundary_Block	1925	Blewett Street	Bolt Street	12	102	31	226531-226551	No.23 James Noonan; No.25 Mrs. Susan Ford; No.28 William Seaman
+Tier2_Boundary_Block	1925	Edward VII Avenue	Emlyn Street	12	97	12	232597-232638	No.15 Walter Howells; No.20 Arthur J. Neale; No.29 Dennis Crowley
+Tier2_Boundary_Block	1925	Northumberland Road	North Street	12	55	7	238093-238146	No.57 Mrs. Elizabeth Whelton; No.7 W. H. Howells; No.8 Thomas Cromwell
+Tier2_Boundary_Block	1898	Granville Street	Graham Street	11	93	4	104987-105022	No.5 Thomas Tudball; No.8 Alfred J. Oliver; No.11 Charles Ebsworth
+Tier2_Boundary_Block	1898	Queen's Place	Victoria Avenue	11	29	86	110041-110063	No.83 Robert Ernest Basden; No.84 E. T. Goldsworthy; No.87 Allan Mills
+Tier2_Boundary_Block	1900	Bailey Street	Baldwin Street	11	120	29	123479-123498	No.90 Francis Berry; No.82 Joseph Heaven; No.78 James Welsh
+Tier2_Boundary_Block	1901	St. Mary Street	St. Julian Street	11	51	1	145625-145653	No.3 Thomas Howells; No.6 Wyndham Waters; No.10 Thomas W. Bird
+Tier2_Boundary_Block	1902	Arthur Street	Archibald Street	11	58	51	148414-148443	No.42 James Alexander; No.47 Frederick Gray; No.48 William Taylor
+Tier2_Boundary_Block	1910	Gloucester Street	Glebe Street	11	51	6	181824-181857	No.7 William Hodge; No.8 Isaac Hodge; No.9 Thomas Mansfield
+Tier2_Boundary_Block	1913	London Street	Lyne Road	11	111	22	201139-201161	No.30 Morris Regan; No.31 Cornelius Collins; No.32 Stephen Cleverley
+Tier2_Boundary_Block	1915	Caine Street	Caerleon Road	11	53	439	210078-210118	No.72 Francis Palmer; No.58 Miss E. M. Waters; No.56 Stephen Short
+Tier2_Boundary_Block	1915	Walmer Road	Walsall Street	11	86	4	223591-223632	No.18 Arthur Marks; No.26 Joseph C. Wilkes; No.32 Henry Tonks
+Tier2_Boundary_Block	1920	New Ruperra Street	North Street	11	55	15	256047-256094	No.12 George Miles; No.20 Charles Boucher; No.28 Mrs. Mary Manship
+Tier2_Boundary_Block	1924	Sycamore Avenue	Temple Street	11	115	6	277858-277897	No.7 Edwin H. Honeywill; No.10 Samuel J. Salter; No.11 Harry Cambray
+Tier2_Boundary_Block	1925	George Street	Gaskell Street	11	109	1	233357-233379	No.5 Joseph Wheatley; No.7 Mrs. Caroline Dowen; No.13 Mrs. Sarah A. Kehmstedt
+Tier2_Boundary_Block	1925	Gordon Street	Goodrich Crescent	11	98	56	233856-233906	No.30 Tom Trevelyan; No.28 Mrs. Sarah Moran; No.18 Francis Edward Wookey
+Tier2_Boundary_Block	1925	Libeneth Road	Lennard Street	11	55	14	235705-235725	No.42 James Abbott; No.36 Edwin East; No.34 John D. Gibbett
+Tier2_Boundary_Block	1925	Vivian Road	Walford Street	11	122	1	242471-242511	No.4 Charles Bignold; No.6 F. J. Dunning; No.10 James Gurney
+Tier2_Boundary_Block	1892	St. Julian Street	St. Edward Street	10	82	12	66256-66294	No.13 Frederick Orders; No.15 Henry Jeremy; No.19 Edward Walker
+Tier2_Boundary_Block	1893	Somerton Road	Speedwell Street	10	104	1	76712-76726	No.1 Augustine Foley; No.5 Thomas Callaghan; No.7 Edward Dahill
+Tier2_Boundary_Block	1894	Rudry Street	St. Edward Street	10	68	0	86556-86581	No.31 John H. Reed; No.33 Henry Charles Moore; No.36 Alfred Hooper
+Tier2_Boundary_Block	1894	Stow Passage	Temple Street	10	31	3	87241-87265	No.6 Sam. Quinn; No.7 Henry Richards; No.8 William Rendle
+Tier2_Boundary_Block	1895	Gordon Street	Graham Street	10	111	9	93567-93596	No.11 Charles Ebsworth; No.14 Charles Russell; No.15 John Stockwell
+Tier2_Boundary_Block	1898	Union Street	Tunnel Terrace	10	49	12	109766-109789	No.14 Charles Chambers; No.16 Miss Ann Harris; No.17 Cornelius Simpkins
+Tier2_Boundary_Block	1899	Windsor Terrace	Wolseley Street	10	62	11	122344-122359	No.40 William Hood; No.38 Thomas Duncan; No.34 Israel Pope
+Tier2_Boundary_Block	1900	Railway Street	Raglan Street	10	70	78	132177-132213	No.77 Charles Tooze; No.78 William Kear; No.79 Mrs Selina Gorvin
+Tier2_Boundary_Block	1900	Salisbury Road	Shaftesbury Street	10	60	117	132971-133007	No.15 E. G. Clarke; No.27 George Tudball; No.29 Miss Elizabeth Parr
+Tier2_Boundary_Block	1901	East Street	East Usk Road	10	61	2	140452-140482	No.6 Tom Simmonds; No.17 Richard Marshall; No.21 Charles Stretch
+Tier2_Boundary_Block	1906	Kensington Grove	Kensington Place	10	46	13	324783-324808	No.6 The Misses Lloyd; No.7 Mrs. A. Sainsbury; No.8 A. R. Petty
+Tier2_Boundary_Block	1906	Llanwern Street	Llanthewy Road	10	75	56	325424-325444	No.49 C. E. Compton; No.47 Leslie Jacobs; No.41 E. Hartley
+Tier2_Boundary_Block	1906	Magor Street	Lyne Road	10	169	17	325744-325769	No.19 George H. Hillman; No.31 Cornelius Collins; No.33 Joseph Vaughan
+Tier2_Boundary_Block	1913	Cambridge Road	Canal Parade	10	38	31	193201-193224	No.39 John Barry; No.43 Patrick O'Connell; No.44 Thomas Turner
+Tier2_Boundary_Block	1913	Priory Street	Price Street	10	30	41	203143-203171	No.42 Gerhard Fehners; No.52 Albert G. Manley; No.55 William Ward
+Tier2_Boundary_Block	1915	Windsor Road	Wingate Street	10	43	1	224277-224300	No.3 Malcolm Campbell; No.5 John Collins; No.13 Alfred Sully
+Tier2_Boundary_Block	1920	Rose Street	Ross Street	10	116	1	257675-257710	No.10 Bert Wright; No.14 Bertram Levi; No.22 Ambrose Strong
+Tier2_Boundary_Block	1924	Eton Road	Emlyn Terrace	10	72	4	268850-268872	No.6 Mrs. Mary Connors; No.7 Robert J. Reid; No.8 Michael Murphy
+Tier2_Boundary_Block	1924	Junction Road	Jones Street	10	75	14	271404-271426	No.16 Josiah Ellaway; No.19 Thomas Sturmey; No.23 William Dyment
+Tier2_Boundary_Block	1925	Linton Street	Liscombe Street	10	32	38	236132-236146	No.33 Frederick Cooper; No.29 Leonard Davis; No.23 Mrs. Clara Holding
+Tier2_Boundary_Block	1925	Robart Street	Robert Street	10	36	18	239634-239667	No.20 William Unsworth; No.21 William Murray; No.23 John Henry Westacott
+Tier2_Boundary_Block	1887	Clarence Place	Clarence Street	9	75	13	44588-44605	No.18 Peter Hansen; No.26 David Sisk; No.28 George Scott
+Tier2_Boundary_Block	1890	Dolphin Street	Dos Road	9	141	46	53608-53646	No.10 John White; No.12 Abraham Foyle; No.13 John Donovan
+Tier2_Boundary_Block	1890	James Street	Jeddo Street	9	60	4	55069-55101	No.8 Henry Collins; No.12 James Ford; No.22 Lewis Llewellyn
+Tier2_Boundary_Block	1893	Somerton Road	South Market Street	9	104	3	76661-76699	No.4 George Glynn; No.7 James Wall; No.10 Andrew Jewell
+Tier2_Boundary_Block	1893	Stow Park Circus	Summerhill Road	9	49	8	77022-77046	No.9 Mrs Elizabeth Beynon; No.18 T. M. Cuff; No.31 Rev G. H. Cook
+Tier2_Boundary_Block	1899	Merchant Street	Mill Parade	9	51	1	118971-118989	No.21 G. W. Thompson; No.22 G. W. Thompson; No.24 Henry Taylor
+Tier2_Boundary_Block	1900	Locke Street	Llanthewy Road	9	114	9	130415-130456	No. T. H. Gunning; No. Charles E. Compton; No.33 Henry Vaughan
+Tier2_Boundary_Block	1901	Albany Street	Albion Street	9	106	37	135139-135181	No.59 Enos Biddiscombe; No.68 H. G. Keene; No.72 Benjamin Wiggett
+Tier2_Boundary_Block	1901	Leicester Road	Lennard Street	9	53	13	142594-142622	No.23 William Dimond; No.38 James Arthur Carter; No.36 Herbert Hackwood
+Tier2_Boundary_Block	1901	St. Michael's Street	St. Michael Street	9	42	0	145667-145701	No.4 R. C. Pring; No.5 Stephen Harnett; No.6 George Manship
+Tier2_Boundary_Block	1903	Canal Street	Capel Crescent	9	88	41	162759-162791	No.44 Alfred Bale; No.45 James Rees; No.47 William Harding
+Tier2_Boundary_Block	1908	Brynnyfryd Road	Bryngwyn Road	9	58	5	302852-302895	No.8 George T. Taylor; No.16 T. M. Prosser; No.28 Robert H. Hyslop
+Tier2_Boundary_Block	1910	Charlotte Street	Charles Street	9	39	18	177389-177414	No.10 A. G. Bird; No.11 F. W. Powles; No.23 William Rowberry
+Tier2_Boundary_Block	1910	Upton-road	Upton Road	9	29	6	188909-188937	No.13 Joseph G. Ellis; No.15 Robert Giddings; No.36 Mrs. Catherine Cooper
+Tier2_Boundary_Block	1913	Norman Street	North Street	9	45	18	202337-202371	No.20 Charles Boucher; No.22 William Nelson; No.28 Mrs. Mary Manship
+Tier2_Boundary_Block	1913	Oakley Street	Ombersley Road	9	131	8	202528-202562	No.26 John Bowen; No.34 Miss M. A. Phelps; No.36 T. N. Pickford
+Tier2_Boundary_Block	1915	Llanarth Street	Livingstone Place	9	52	18	217792-217815	No.22 Charles Miller; No.24 F. C. Carpenter; No.26 Henry Gatfield
+Tier2_Boundary_Block	1915	Portland Street	Phillip Street	9	17	2	220017-220033	No.3 John Clarke; No.4 William Vick; No.12 Frank Fennell
+Tier2_Boundary_Block	1920	Bassalleg Road	Barrack Hill	9	104	60	245097-245120	No.54 William Woods; No.48 Edward Bennett; No.44 Mrs. Elizabeth Whitfield
+Tier2_Boundary_Block	1920	Bedford Road	Bishop Street	9	87	1	245283-245306	No.2 John Johns; No.4 Henry Vaughan; No.11 William Stribling
+Tier2_Boundary_Block	1920	Pottery Terrace	Potter Street	9	63	3	256716-256743	No.12 William O'Neill; No.19 Dennis McCarthy; No.20 Michael Lynch
+Tier2_Boundary_Block	1925	Colne Street	Collier Street	9	63	2	229472-229497	No.11 John Needham; No.13 Henry Anthony; No.15 Gerald Augustus Neate
+Tier2_Boundary_Block	1925	Daniel Street	Cyril Street	9	43	37	231079-231096	No.36 Walter Harper; No.34 John H. Frederick; No.32 Arthur Dent
+Tier2_Boundary_Block	1925	Kenilworth Road	Kensington Place	9	68	11	235452-235483	No.8 A. R. Petty; No.15 Alfred F. Tysoe; No.20 Edward Garth
+Tier2_Boundary_Block	1927	Henson Street	Herbert Street	9	74	2	290503-290528	No.6 James Davidson; No.7 Thomas Carter; No.10 William Littlejohns
+Tier2_Boundary_Block	1893	Lewis Street	Leicester Road	8	149	2	74153-74170	No.4 Charles Deakin; No.5 John Johns; No.6 William Henry Lerwill
+Tier2_Boundary_Block	1893	Lucas Street	Lyne Road	8	77	1	74624-74650	No.1 James Taylor; No.3 George Bere; No.5 Benjamin Ellis
+Tier2_Boundary_Block	1894	Waterloo Road	Watchhouse Parade	8	68	8	87614-87642	No.8 Frederick Charrett; No.14 John Pring; No.16 Joseph Gibson
+Tier2_Boundary_Block	1895	Capel Street	Capel Crescent	8	110	21	90056-90089	No.23 John Bright; No.27 Joseph Coker; No.36 Henry A. Houlden
+Tier2_Boundary_Block	1899	Coldra Street	Coldra Road	8	58	0	114153-114198	No.2 Arthur Rich; No.16 Frank Needham; No.22 Henry John Lanfear
+Tier2_Boundary_Block	1899	Victoria Avenue	Usk Street	8	156	5	121796-121817	No.10 John Edmunds; No.11 William Hollister; No.12 George Beanland
+Tier2_Boundary_Block	1900	Richmond Terrace	Duckpool Road	8	26	115	127543-127562	No.117 William Lawrence; No.118 Thomas Martin; No.119 Lemuel Packer
+Tier2_Boundary_Block	1900	Halstead Street	Graham Street	8	109	28	128746-128764	No.29 John Kinnersley; No.34 Alfred Dart; No.36 Benjamin Wildy
+Tier2_Boundary_Block	1901	Glass Works Cottages	Godfrey Road	8	58	12	141154-141176	No.14 W. C. Graham; No.23 David Francis; No.26 Edwyn Cooke
+Tier2_Boundary_Block	1901	Tredegar Street	Temple Street	8	32	15	146583-146600	No.12 Harry Cambray; No.17 Alfred Waters; No.18 Mrs Amelia Mullins
+Tier2_Boundary_Block	1901	Westgate street	West Street	8	16	28	147191-147205	No.25 Edward Curran; No.27 Richard Mealing; No.30 Arthur Welsh
+Tier2_Boundary_Block	1902	Chesterfield Street	Christchurch Road	8	48	21	150719-150747	No.8 James Fraser; No.12 William Henry Ross; No.13 J. H. Turner
+Tier2_Boundary_Block	1903	Brynglas Road	Bristol Street	8	53	66	162135-162154	No.55 James Barnett; No.60 W. M. Banks; No.62 Alfred Moore
+Tier2_Boundary_Block	1903	Graham Street	Granville Street	8	81	1	167257-167286	No.2 Michael Hart; No.3 Patrick Hart; No.8 John Daley
+Tier2_Boundary_Block	1910	Friars Street	Gaskell Street	8	33	58	181617-181633	No.23 George Postle; No.25 Joseph T. Richards; No.26 Charles Clifford
+Tier2_Boundary_Block	1910	Gaskell Street	George Street	8	58	33	181655-181690	No.31 Mrs. Eliza Reynolds; No.34 James Raines; No.37 Arthur Wills
+Tier2_Boundary_Block	1910	Wyndham Street	York Place	8	32	42	190247-190273	No.37 Alfred Hancock; No.53 T. Berryman; No.55 C. S. Vines
+Tier2_Boundary_Block	1913	Devon Place	Dewstow Street	8	132	28	196343-196380	No.55 Samuel Timmins; No.61 Frederick J. Pursall; No.75 Thomas Reeves
+Tier2_Boundary_Block	1913	Wesley Street	West Street	8	33	8	206498-206531	No.11 William Hector; No.12 John Knight; No.13 Charles Tanner
+Tier2_Boundary_Block	1915	Prospect Street	Queen's Hill	8	42	35	220377-220388	No.28 William Victory; No.34 Francis Collins; No.40 J. D. Darke
+Tier2_Boundary_Block	1920	Capel Street	Canon Street	8	153	14	246831-246861	No.3 Thomas Broom; No.6 Daniel Sage; No.12 Edward Brady
+Tier2_Boundary_Block	1920	Dos Road	Downing Street	8	95	25	250521-250534	No.43 Benjamin Perry; No.41 William Charles; No.39-37 Samuel Fellows
+Tier2_Boundary_Block	1920	Stow Hill	St. Mary Street	8	162	50	258178-258198	No.43 Saul Goodwin; No.49 Albert H. D. Fishwick; No.50 John Albert Tucker
+Tier2_Boundary_Block	1924	Keynsham Avenue	Kensington Place	8	40	3	271559-271590	No.8 A. R. Petty; No.15 Alfred F. Tysoe; No.20 Edward Garth
+Tier2_Boundary_Block	1924	Lewis Street	Lennard Street	8	149	25	271785-271799	No.30 Jonathan Cross; No.28 John Lowe; No.22 Walter Henry Hill
+Tier2_Boundary_Block	1887	Caroline Street	Castle Street	7	74	15	44246-44258	No.22 Patrick Mahoney; No.25 Daniel Connell; No.26 Michael Regan
+Tier2_Boundary_Block	1890	Upper Lime Street	Upper Lewis Street	7	94	52	58016-58034	No.47 John Clapp; No.49 William Macey; No.50 George Palmer
+Tier2_Boundary_Block	1895	Wrington Terrace	Victoria Avenue	7	28	87	97979-98001	No.50 John Rees; No.59 George Hussey; No.60 Miss M. Harper
+Tier2_Boundary_Block	1899	Commercial Road	Maindee Parade	7	344	24	118749-118765	No.27 John Fifoot; No.32 Alfred Andrews; No.35 William Charles
+Tier2_Boundary_Block	1899	Tun Street	Tunnel Terrace	7	34	13	121707-121730	No.14 Charles Chambers; No.17 Cornelius Simpkins; No.21 Mrs Sarah Jordan
+Tier2_Boundary_Block	1900	Stow Park Crescent	Summerhill Avenue	7	53	8	133723-133734	No.37 Oliver Eadie; No.40 George F. Thorne; No.41 Lloyd Overstone
+Tier2_Boundary_Block	1902	Eveswell Street	Emlyn Street	7	89	29	153369-153388	No.31 Albert H. Pengelly; No.33 John Twohig; No.34 Mrs Mary Price
+Tier2_Boundary_Block	1902	Prospect Street	Queen's Hill	7	78	7	157609-157638	No.2 Henry Flook; No.38 Miss S. Butler; No.26 John James Arbery
+Tier2_Boundary_Block	1902	Victoria Place	Vivian Road	7	62	12	159645-159665	No.52 William Collard; No.48 James Walkley; No.40 James Kenrick
+Tier2_Boundary_Block	1906	Emlyn Terrace	Emlyn Street	7	44	23	322579-322601	No.31 Albert H. Pengelly; No.33 John Twohig; No.35 John Legge
+Tier2_Boundary_Block	1906	Whitstone Road	Williams Street	7	63	72	330850-330864	No.38 William Cole; No.39 James Moore; No.42A F. Foster
+Tier2_Boundary_Block	1908	Prospect Street	Prince Street	7	54	11	312576-312605	No.20 Fred Holder; No.28 Edward Coyle; No.32 John Price
+Tier2_Boundary_Block	1910	Capel-crescent	Capel Crescent	7	38	39	177059-177081	No.44 Alfred Bale; No.45 James Rees; No.47 William Harding
+Tier2_Boundary_Block	1910	Vivian-road	Vivian Road	7	111	11	189254-189286	No.41 John Worner; No.45 John Goddard; No.46 James Dyer
+Tier2_Boundary_Block	1913	Devon Place	Dewsland Park Road	7	132	23	196329-196342	No.25 J. H. Wagstaffe; No.21 Rev. Henry Abraham; No.19 W. B. Ellison
+Tier2_Boundary_Block	1913	Godfrey Road	Gold Tops	7	109	4	198512-198524	No.12 George Geen; No.13 Mrs. H. White; No.14 Miss E. Dutfield
+Tier2_Boundary_Block	1913	Tunnel Terrace	Upton Road	7	75	10	205774-205791	No.36 Mrs. Catherine Cooper; No.22 William Rendell; No.18 Frederick Cleverly
+Tier2_Boundary_Block	1920	Mansell Street	Mansel Street	7	23	0	255238-255252	No.8 Frederick Paginton; No.10 Nath. H. Cleverley; No.16 William Arthur Duffield
+Tier2_Boundary_Block	1920	Spring Street	South Market Street	7	37	24	258865-258888	No.27 Michael Burke; No.29 William Watkins; No.31 Mrs. Jane Criddle
+Tier2_Boundary_Block	1920	Stow Park Avenue	Stow Hill	7	136	162	259230-259264	No.93 Rev. A. A. Mathews; No.79 Mrs. Annie Hopton; No.77 Mrs. Mary Moore
+Tier2_Boundary_Block	1924	Baldwin Street	Bailey Street	7	124	13	262316-262344	No.16 Walter Knowles; No.23 Thomas Ridd; No.24 Leonard J. Oakey
+Tier2_Boundary_Block	1924	Courtybella Terrace	Coverack Road	7	86	1	267061-267078	No.4 Lemuel Isitt; No.20 Arthur Asquith; No.22 Albert England
+Tier2_Boundary_Block	1924	Kingston Road	Lambert Street	7	48	25	271647-271674	No.51 Mrs. E. K. Workman; No.61 Charles A. Page; No.67 Charles Stacey
+Tier2_Boundary_Block	1924	Locke Street	London Street	7	57	22	272582-272604	No.66 Henry James Moore; No.62 Mrs. Ellen Noble; No.52 D. J. Christopher
+Tier2_Boundary_Block	1924	Park Street	Park Square	7	40	0	274447-274482	No.4 T. Hewertson; No.8 Charles Waite; No.25 Thomas R. Giddy
+Tier2_Boundary_Block	1925	Dew Street	Dewstow Street	7	21	63	231377-231394	No.40 John Richards; No.34 Joseph Dorrington; No.32 Thomas Turner
+Tier2_Boundary_Block	1925	Duckpool Road	Dudley Street	7	165	14	232128-232138	No.52 George Plaister; No.48 Edward Harris; No.46 Alb. W. Slater
+Tier2_Boundary_Block	1925	Fair Oak Avenue	Exeter Street	7	73	2	232855-232876	No.1 Frank Perkins; No.3 James King; No.5 William Hopton
+Tier2_Boundary_Block	1925	Manley Road	Marion Street	7	78	161	237188-237215	No.53 Albert Vittle; No.57 William Watkins; No.63 William Thomas Attwell
+Tier2_Boundary_Block	1927	Grafton Road	Graham Street	7	63	29	289908-289927	No.27 William Addaway; No.28 Frederick Knight; No.34 Samuel Morrish
+Tier2_Boundary_Block	1882	Baldwin Street	Bailey Street	6	86	19	29504-29533	No.19 John Chave; No.26 Edward Gadd; No.27 Edward J. Rose
+Tier2_Boundary_Block	1886	Adeline Street	Albion Street	6	67	6	35096-35109	No.9 Thomas Ravalde; No.10 William Tallin; No.12 Samuel Freeman
+Tier2_Boundary_Block	1886	Alfred Street	Alma Street	6	47	15	35178-35194	No.20 Henry Rees; No.21 Ralph Arthur; No.23 George Taylor
+Tier2_Boundary_Block	1890	Granville Square	Graham Street	6	76	22	54499-54520	No.22 Mary Ann Linton; No.23 Charles Watkins; No.34 John Dimond
+Tier2_Boundary_Block	1890	St. Julian Street	St. Mary Street	6	48	30	57094-57100	No.28 James Tiley; No.29 Charles Prothero; No.31 Thomas Strode
+Tier2_Boundary_Block	1892	Kirby Street	Junction Road	6	22	7	64313-64320	No.6 George Hancock; No.7 Henry Jenkyns; No.8 William Holmes
+Tier2_Boundary_Block	1894	Page's Place	Chepstow Road	6	12	156	80382-80392	No.54 Thomas W. Page; No.56 E. A. Waetzig; No.58 Francis Bright
+Tier2_Boundary_Block	1894	Vine Place	Duckpool Road	6	7	107	82474-82480	No.17 Thomas Johns; No.19 John Bennett; No.20 John Hooper
+Tier2_Boundary_Block	1895	Fair Oak Avenue (Cambria Cottages)	Fair Oak Avenue	6	18	28	93049-93066	No.34 William Richards; No.40 William Groves; No.43 William Francis
+Tier2_Boundary_Block	1895	Mill Street	Mill Parade	6	73	1	95556-95579	No.21 G. W. Thompson; No.22 G. W. Thompson; No.26 Miss Bray
+Tier2_Boundary_Block	1895	Victoria Place	Victoria Crescent	6	48	4	98142-98164	No.6 William Barton; No.8 Nicholas Coxon; No.12 Frank Brunt
+Tier2_Boundary_Block	1895	Beaufort Terrace—	West Street	6	26	2	98237-98249	No.23 John Brewer; No.25 Edward Curran; No.26 George Shellard
+Tier2_Boundary_Block	1899	Park Street	Park Square	6	30	3	119565-119575	No.3 William J. Kerr; No.5 J. Richards; No.6 Mrs Ann Long
+Tier2_Boundary_Block	1899	Ruperra. Street	Ruperra Street	6	26	0	120489-120513	No.3 John Tomlins; No.11 Robert Baulch; No.12 John Paton
+Tier2_Boundary_Block	1900	Bond Street	Bolt Street	6	66	7	123858-123870	No.7 James Worthy; No.8 John Henry Harris; No.10 Joseph Brace
+Tier2_Boundary_Block	1900	Hewertson Street	Hereford Street	6	118	25	129113-129122	No.28 Thomas Bullock; No.29 William Morris; No.31 John Gear
+Tier2_Boundary_Block	1901	Barnard Street	Barrack Hill	6	55	53	135883-135897	No.10 Mrs Elizabeth Jeffs; No.22 George Moylan; No.24 Charles Allen
+Tier2_Boundary_Block	1901	West Park Road	Waterloo Road	6	40	17	147128-147147	No.25 William Richards; No.27 Jacob Waite; No.33 J. S. Stone
+Tier2_Boundary_Block	1902	Fothergill Street	Fair Oak Terrace	6	32	17	153595-153605	No.25 William Matthews; No.26 Isaac Swift; No.30 Mrs. Prosser
+Tier2_Boundary_Block	1902	Prospect Street	Pugsley Street	6	78	6	157580-157591	No.12 Edward Clark; No.16 William White; No.19 R. H. W. Major
+Tier2_Boundary_Block	1903	Eveswell Street	Fair Oak Avenue	6	81	32	166413-166440	No.42 Daniel Sage; No.51 Hugh Hylands; No.56 C. E. Moulton
+Tier2_Boundary_Block	1910	Archibald-street	Arthur Street	6	97	13	175104-175117	No.18 James Lewison; No.19 C. H. Ashworth; No.24 Michael O'Neill
+Tier2_Boundary_Block	1910	East Market Street	East Usk Road	6	72	2	180859-180887	No.2 William Parry; No.21 Charles Stretch; No.23 Henry C. Long
+Tier2_Boundary_Block	1913	Agincourt Street	Albany Street	6	85	29	190473-190482	No.33 Charles Edward Prior; No.34 James Monaghan; No.39 Thomas Dallimore
+Tier2_Boundary_Block	1913	Stow Park Gardens	Stow Park Avenue	6	30	11	205448-205472	No.13 C. H. Adams; No.14 Sydney Burgess; No.17 A. J. Fontaine
+Tier2_Boundary_Block	1915	Henry Street	Henson Street	6	130	1	216244-216254	No.20 John Charles Healey; No.22 William Spicer; No.24 Albert Rogers
+Tier2_Boundary_Block	1920	George Street	Gibbs Road	6	118	26	251977-251988	No. E. Bunce; No. Edwin Perkins; No. G. W. Bainbridge
+Tier2_Boundary_Block	1920	Halstead Street	Harrow Road	6	105	18	252553-252575	No.18 Edward Hankins; No.12 Thomas James Harrington; No.5 C. E. George
+Tier2_Boundary_Block	1920	Ombersley Road	Oswald Road	6	175	8	256387-256397	No.19 Mrs. Rosina Sully; No.23 William Richard Denley; No.25 Leslie Carnie
+Tier2_Boundary_Block	1920	St. Julian's Avenue	St. John's Road	6	80	8	258042-258064	No.34 C. Waters; No.38 William T. Sier; No.35 George Jewell
+Tier2_Boundary_Block	1920	Union Lane	Tunnel Terrace	6	43	17	259642-259666	No.22 Philip Coakley; No.28 Henry Waters; No.30 Alfred E. Powell
+Tier2_Boundary_Block	1924	Carisbrooke Road	Caroline Street	6	52	39	264432-264443	No.16 Henry Whitney; No.18 William Hobbs; No.20 Jeremiah Shea
+Tier2_Boundary_Block	1924	Magor Street	Maindee Parade	6	69	4	272786-272797	No.5 Fred Rowe; No.6 William Foreman; No.7 Charles Walters
+Tier2_Boundary_Block	1925	Llanvapley Road	Llanthewy Road	6	17	70	236314-236327	No.29 F. J. Alger; No.21 George Greenway; No.11 Miss A. Henry
+Tier2_Boundary_Block	1886	Lower Cross Street	Llanarth Street	5	69	6	39152-39172	No.15 William Carpenter; No.20 Miss Eliza Johns; No.23 William Burleigh
+Tier2_Boundary_Block	1887	Canon Street	Capel Crescent	5	71	27	44028-44046	No.27 Joseph Coker; No.31 Charles Batten; No.35 George Bond
+Tier2_Boundary_Block	1887	Toomb's Court	Temple Street	5	33	1	48870-48891	No.3 George Cousins; No.7 Henry Richards; No.17 Alfred Waters
+Tier2_Boundary_Block	1890	Constance Street	Commercial Wharf	5	18	10	52769-52776	No.24 William Millinship; No.26 George Goodwin; No.28 Charles Holtom
+Tier2_Boundary_Block	1893	Gordon Street	Gold Tops	5	80	9	73164-73178	No.9 W. R. Geen; No.14 Mrs John Wood; No.17 Thomas Mitchell
+Tier2_Boundary_Block	1893	Railway Street	Robert Street	5	48	31	76125-76139	No.35 Joseph Robbins; No.38 Samuel Gilmore; No.45 John P. Walters
+Tier2_Boundary_Block	1894	Kingsland Terrace	Chepstow Road	5	14	156	80370-80379	No.44 Alfred Frost; No.48 R. H. Gomm; No.49 P. G. Gale
+Tier2_Boundary_Block	1894	Courtybella. Terrace	Courtybella Terrace	5	12	57	81548-81556	No.7 Henry Taylor; No.10 Daniel Crowley; No.11 Mrs Mary Roycroft
+Tier2_Boundary_Block	1894	Commercial Street	Commercial Wharf	5	307	3	81599-81611	No.10 Mrs Sarah Walker; No.12 James Howlett; No.24 William Millinship
+Tier2_Boundary_Block	1894	Raglan Street	Railway Street	5	67	7	86274-86289	No.11 Mrs Jemima Price; No.13 Alexander Macdonald; No.15 Thomas Whiting
+Tier2_Boundary_Block	1894	Salisbury Street	St. Julian Street	5	20	10	86599-86607	No.11 Timothy Kallaher; No.12 John Dearden; No.15 Herbert Powell
+Tier2_Boundary_Block	1894	Victoria Road	Victoria Crescent	5	19	13	87570-87584	No.14 Richard Trace; No.17 Mrs Elizabeth Wilkins; No.20 Mrs Mary Nelmes
+Tier2_Boundary_Block	1895	Cross Street	Daniel Street	5	77	3	91826-91838	No.7 John Lyle; No.8 James Simpson; No.13 William White
+Tier2_Boundary_Block	1898	Godfrey Road	Gold Tops	5	56	7	104807-104820	No.7 Rev T. L. Lister; No.8 Mrs R. Bond; No.9 Mrs W. R. Geen
+Tier2_Boundary_Block	1898	New Street	North Street	5	75	10	107444-107452	No.10 A. W. Cleames; No.11 W. J. Mills; No.14 William Keyse
+Tier2_Boundary_Block	1898	Priory Street	Prince Street	5	26	21	107978-107993	No.25 William Field; No.26 John Price; No.31 Amos Bolter
+Tier2_Boundary_Block	1899	Albert Street	Albion Street	5	30	67	110914-110932	No.17 Joseph King; No.22 Walter Coes; No.25 J. O. Wiltshire
+Tier2_Boundary_Block	1899	Westfield Road	Clytha Square	5	29	19	114136-114149	No.18 Rev. D. Wilks; No.20 William Powell; No.21 Mrs H. J. Jackson
+Tier2_Boundary_Block	1899	King's Parade	Lambert Street	5	67	8	118089-118109	No.27 Henry Knight; No.29 Thomas Cooke; No.31 Charles Holder
+Tier2_Boundary_Block	1899	Windsor Terrace	Woodland Road	5	62	27	122366-122377	No.47 John Laking; No.51 S. E. English; No.52 William Henry Wright
+Tier2_Boundary_Block	1900	Crown Street	Cyril Street	5	37	42	126780-126785	No.14 William Clissold; No.10 Robert Church; No.8 Edwin J. White
+Tier2_Boundary_Block	1902	Mile End Terrace	Chepstow Road	5	53	210	150495-150510	No.161 George Weare; No.165 William Langmaid; No.171 Miss K. Good
+Tier2_Boundary_Block	1906	Broad Street	Brynglas Road	5	39	2	318131-318143	No.10 J. P. McLaren; No.18 William Stokes; No.22 William Nind
+Tier2_Boundary_Block	1908	Victoria Avenue	Victoria Crescent	5	146	6	315178-315194	No.10 Ephriam Elworthy; No.12 Frank Brunt; No.14 William Holmes
+Tier2_Boundary_Block	1910	Chepstow-road	Chepstow Road	5	74	214	177795-177810	No.42 E. Sayer; No.34 E. J. Richards; No.32 Henry Ivins
+Tier2_Boundary_Block	1913	Castle Street	Cardiff Road	5	68	28	193599-193623	No.15 John Bevan; No.16 J. K. Millward; No.27 W. J. & Sons Gibb
+Tier2_Boundary_Block	1913	Oakley Street	Orchard Street	5	131	11	202577-202586	No.23 Henry Shepherd; No.27 William Birt; No.29 Mrs. Sarah Hobbs
+Tier2_Boundary_Block	1915	Pant Road	Oxford Street	5	29	21	219858-219867	No.22 John J. Lyons; No.23 Frank Genge; No.24 William Tyler
+Tier2_Boundary_Block	1915	Roslyn Road	Rosslyn Road	5	40	0	221169-221204	No.5 Raymond Clarke; No.38 Thomas William Howard; No.30 John John
+Tier2_Boundary_Block	1915	Wrington Terrace	Victoria Avenue	5	22	110	223277-223293	No.50 James Metcalfe; No.51 David Cole; No.59 Miss M. Harper
+Tier2_Boundary_Block	1920	Fair Oak Avenue	Fair Oak Terrace	5	59	4	251463-251475	No.11 Henry C. Clarke; No.13 Ernest Coote; No.19 George Brothers
+Tier2_Boundary_Block	1920	Hoskins Street	James Street	5	101	8	253433-253444	No.10 John Price; No.11 William Mountain; No.12 George Sheppard
+Tier2_Boundary_Block	1920	Ombersley Road	Oak Street	5	175	1	256239-256255	No.3 Mrs. E. Waters; No.7 Percy Ellison; No.24 George Tucker
+Tier2_Boundary_Block	1920	River Street	Riverside	5	40	0	257488-257502	No.25 D. E. Metcalfe; No.26 George Corner; No.27 Henry Bigley
+Tier2_Boundary_Block	1920	West Street	West Park Road	5	51	1	260273-260294	No.6 F. W. Spencer; No.24 W. C. Baddeley; No.29 William D. Harries
+Tier2_Boundary_Block	1924	Clifton Road	Clyffard Crescent	5	37	15	265599-265608	No.23 A. E. Sheppard; No.27 Mrs. A. Duncanson; No.28 J. Bain
+Tier2_Boundary_Block	1924	Courtybella Terrace	Crescent Road	5	86	20	267108-267119	No.22 Mrs. Masters; No.32 William Hale; No.33 Edward N. Wade
+Tier2_Boundary_Block	1924	Llanarth Street	Llanwern Street	5	57	15	272389-272406	No.34 Tom Pitson; No.36 William Walker; No.52 David Brazell
+Tier2_Boundary_Block	1924	Wolseley Street	Woodland Road	5	71	26	279367-279387	No.25 Albert Pucknall; No.50 Miss Agnes Jeanes; No.51 Edward Poynton
+Tier2_Boundary_Block	1925	Alexandra Docks	Alexandra Road	5	91	95	225050-225069	No.40 William J. Bartlett; No.52 Sam. H. Dunn; No.62 H. J. Gregory
+Tier2_Boundary_Block	1925	Coldra Road	Clytha Square	5	95	8	229349-229371	No.14 J. B. Pitchford; No.17 F. C. Soloman; No.20 William Henry Green
+Tier2_Boundary_Block	1925	Nash Road	New Street	5	69	18	238033-238041	No.18 William Jacobsen; No.14 Stephen Manship; No.10 Mrs. Sarah Watkins
+Tier2_Boundary_Block	1925	Ruperra Street	St. John's Road	5	98	18	240165-240183	No.38 William T. Sier; No.35 George Jewell; No.33 John Holland
+Tier2_Boundary_Block	1925	Stow Park Avenue	Stow Hill	5	93	181	241534-241549	No.206 J. Maybury; No.210 Enoch Lawton; No.218 W. D. Harries
+Tier2_Boundary_Block	1927	Jackson Place	Hoskins Street	5	52	60	291052-291069	No.60 Frank Fortune; No.64 Alfred Lloyd; No.69 Frederick Goodwin
+Tier2_Boundary_Block	1882	Commercial Road	Commercial Street	4	229	168	31155-31170	No.152 A. W. Bland; No.164 J. & Son Ewins; No.168 William Watkins
+Tier2_Boundary_Block	1886	Upper Lewis Street	Upper Alma Street	4	125	33	41030-41049	No.83 James Prance; No.90 James Pugsley; No.99 Caleb Squires
+Tier2_Boundary_Block	1887	Hereford Place	High Street	4	37	82	46555-46567	No.8 F. Gritton; No.10A M. A. Rosser; No.15 C. E. Keene
+Tier2_Boundary_Block	1892	Union Lane	Union Street	4	29	9	67075-67083	No.6 Ann Todd; No.7 William Hobbs; No.10 William Gillard
+Tier2_Boundary_Block	1894	Caerau Park	Caerau Crescent	4	25	1	79525-79533	No.5 James Simmonds; No.8 G. H. Llewellyn; No.9 Edwn. Thatcher
+Tier2_Boundary_Block	1894	Mile End Terrace	Chepstow Road	4	16	156	80396-80407	No.65 James Harris; No.72 Henry Watkins; No.74 James Martin
+Tier2_Boundary_Block	1894	Edward Street	Edwin Street	4	18	1	82828-82839	No.4 Walter Denman; No.5 William Birt; No.6 Thomas Morris
+Tier2_Boundary_Block	1895	Albany Street	Albert Avenue	4	129	2	88156-88167	No.8 William J. Rees; No.13 James Dark; No.17 John Edmunds
+Tier2_Boundary_Block	1895	Gordon Street	Granville Square	4	111	12	93618-93627	No.12 William Howell; No.15 John Langdon; No.19 Mrs Mary Skuse
+Tier2_Boundary_Block	1895	Potter Street	Pottery Terrace	4	51	6	96262-96269	No.7 Tom Pring; No.8 Elijah Pope; No.13 Henry Rocke
+Tier2_Boundary_Block	1895	St Woolos Place	St. Woolos Place	4	15	0	97087-97095	No.1 John Fooks; No.2 Leonard Innes; No.5 Joseph Prosser
+Tier2_Boundary_Block	1895	Waterloo Road	West Street	4	58	2	98215-98223	No.7 Mrs Jane Glover; No.10 Edward Ingram; No.13 Charles Tanner
+Tier2_Boundary_Block	1898	Granville Street	Granville Square	4	93	5	104940-104947	No.5 Amelia Shaw; No.8 John Haggarty; No.9 William Young
+Tier2_Boundary_Block	1899	Powell's Place	Power Street	4	53	27	119750-119756	No.61 Charles Morris; No.63 Jacob Nargrove; No.71 John Powell
+Tier2_Boundary_Block	1900	Bryngwyn Road	Brynglas Road	4	48	5	124193-124197	No.12 Charles Bickley; No.16 John Piaggi; No.18 William Stokes
+Tier2_Boundary_Block	1900	Potter Street	Pottery Road	4	50	4	131718-131722	No.11 William Taylor; No.13 William Taylor; No.17 Malachi Crowley
+Tier2_Boundary_Block	1901	Clifton-place	Clifton Road	4	9	7	138166-138173	No.6 Samuel Kendall; No.7 Henry S. Calderwood; No.9 John Herbert
+Tier2_Boundary_Block	1901	Commercial Street	Dock Street	4	310	202	139839-139844	No.186 T. S. Gill; No.187 S. & Co. Little; No.189 E. E. Harris
+Tier2_Boundary_Block	1901	Glass Works Cottages	Glebe Street	4	58	35	141146-141151	No.36 George Widdows; No.37 Albert Kelson; No.39 James Dyer
+Tier2_Boundary_Block	1902	Batchelor Road	Bedford Road	4	34	6	148806-148820	No.17 William A. Fletcher; No.19 Tom Linton; No.39 Thomas Monkley
+Tier2_Boundary_Block	1902	Austin Place	Church Road	4	23	59	150824-150842	No.37 William Turnbull; No.41 David Narbett; No.43 George Hadden
+Tier2_Boundary_Block	1902	Mile End Terrace	Mellon Street	4	53	21	156562-156567	No.36 James Cantwell; No.37 John Landers; No.38 Robert Collins
+Tier2_Boundary_Block	1902	Orchard Street	Pant Road	4	71	2	157208-157218	No.7 Thomas Sayce; No.21 James Cavill; No.14 Thomas Beecham
+Tier2_Boundary_Block	1902	Victoria Chambers	Victoria Avenue	4	11	108	159723-159728	No.123 Robert J. Dodds; No.124 Ernest Turner; No.126 Henry John Reeves
+Tier2_Boundary_Block	1903	Frank Street	Gaskell Street	4	36	7	166658-166666	No.23 George Postle; No.22 John Wilkinson; No.20 Henry Groves
+Tier2_Boundary_Block	1906	Commercial Road	Commercial Wharf	4	246	1	320618-320630	No.8 Edward Bullen; No.10 Mrs. Sarah Walker; No.28 Charles Holton
+Tier2_Boundary_Block	1908	Bolt Street	Bond Street	4	54	20	302482-302487	No.22 Albert Blake; No.23 William Moss Rd.; No.25 Henry G. Bladon
+Tier2_Boundary_Block	1908	Victoria Road	Vivian Road	4	31	73	315231-315248	No.46 James Dyer; No.30 Edward T. Reed; No.16 Benjamin Warry
+Tier2_Boundary_Block	1910	Alice-street	Alice Street	4	12	50	174759-174764	No.18 Thomas Payne; No.14 John Bradley; No.12 Mrs. A. D. Attwood
+Tier2_Boundary_Block	1910	Friars Road	Frank Street	4	21	4	181555-181560	No.5 John Brunt; No.6 William Donaldson; No.7 Mrs. Ellen Pinnell
+Tier2_Boundary_Block	1910	Windsor-road	Windsor Terrace	4	43	12	190009-190013	No.13 Mrs. A. George; No.15 L. Jacobs; No.16 J. Pritchard
+Tier2_Boundary_Block	1913	Herbert Street	Hereford Street	4	67	14	199223-199240	No.22 William H. Warren; No.23 William Millichamp; No.26 Mrs. M. A. Sidney
+Tier2_Boundary_Block	1913	Hill Street	Hopefield	4	50	2	199596-199606	No.6 Frederick West; No.8 Tom Arthur Ford; No.11 Robert Trump
+Tier2_Boundary_Block	1913	Llanarth Street	Liverpool Street	4	34	57	200638-200645	No.16 Thomas Mitchell; No.14 David Harris; No.12 Kristian Charstensen
+Tier2_Boundary_Block	1913	Wingate Street	Witham Street	4	55	35	207057-207068	No.46 Joseph Sargent; No.42 Thomas Staines; No.26 Mrs. Sarah Athay
+Tier2_Boundary_Block	1915	Alma Street	Annesley Road	4	176	11	208128-208140	No.21 George Albert Hill; No.27 James Llewellyn; No.31 Frederick A. Lloyd
+Tier2_Boundary_Block	1915	Graham Street	Granville Street	4	134	6	215893-215905	No.7 Charles Harrison; No.13 William Gallop; No.14 Michael Power
+Tier2_Boundary_Block	1915	Jenkins Street	Jeffrey Street	4	53	15	217038-217047	No.28 Charles Henry Pitts; No.24 E. W. Baynham; No.22 Henry Brownett
+Tier2_Boundary_Block	1915	Lyndhurst Road	Lyne Road	4	55	38	218273-218279	No.45 Patrick O'Brien; No.47 Herbert Arnold; No.48 Robert Bell
+Tier2_Boundary_Block	1920	Fairfax Road	Fair Oak Avenue	4	62	59	251384-251398	No.28 Alexander Johanson; No.34 William Richards; No.35 Arthur Reginald Webb
+Tier2_Boundary_Block	1920	Burton Homes	Friars Road	4	34	4	251796-251811	No.42 Frederick Dunn; No.40 Thomas C. Calder; No.30 Patrick J. Ryan
+Tier2_Boundary_Block	1920	George Street	Glass Works Cottages	4	118	20	251924-251927	No.21 James Parkin; No.22 Frederick Power; No.23 John Sheppard
+Tier2_Boundary_Block	1920	Gloucester Street	Gloucester Place	4	18	1	252075-252083	No.2 John Edmunds; No.8 Ernest W. Coles; No.9 D. J. Banks
+Tier2_Boundary_Block	1920	Llanthewy Road	Livingstone Place	4	47	84	254494-254501	No.38 L. G. Taylor; No.40 William Owen; No.41 William J. Probert
+Tier2_Boundary_Block	1920	River Street	Robert Street	4	40	34	257547-257557	No.42 Robert Perriam; No.47 Thomas Hobbs; No.51 William Bissex
+Tier2_Boundary_Block	1924	Frederick Street	Friars Road	4	51	1	269538-269553	No.42 Frederick Dunn; No.40 Thomas C. Calder; No.30 Patrick J. Ryan
+Tier2_Boundary_Block	1925	Canon Street	Capel Crescent	4	81	45	227644-227662	No.9 Richard Wyatt; No.15 R. W. Givlin; No.17 Lewis Jewell
+Tier2_Boundary_Block	1925	Coventry Road	Courtybella Terrace	4	49	10	230806-230821	No.19 Alfred Pritchard; No.27 James Alpin; No.28 George Reade
+Tier2_Boundary_Block	1925	Cromwell Road	Cumberland Road	4	86	6	231026-231038	No.15 Arthur Wells; No.12 J. G. Clarke; No.8 W. P. Workman
+Tier2_Boundary_Block	1925	Easton Place	Duckpool Road	4	13	165	231994-232003	No.24 Harold Bennett; No.27 Thomas Pritchard; No.31 Edward Watkins
+Tier2_Boundary_Block	1925	Seamoor Terrace	Duckpool Road	4	12	165	232014-232018	No.43 Robert Hancock; No.44 Miss L. Hathway; No.45 Frederick Fursey
+Tier2_Boundary_Block	1925	Edward VII Avenue	Edward Vii. Avenue	4	97	0	232530-232548	No.52 A. G. Pell; No.42 Robert G. White; No.28 Mrs. S. A. Rowlands
+Tier2_Boundary_Block	1925	Henry Street	Herbert Street	4	121	14	234351-234362	No. Thomas Rosser; No.20 Philip Torrington; No.21 Henry Lovelock
+Tier2_Boundary_Block	1925	Manley Road	Maple Avenue	4	78	19	237145-237158	No.70 William Berry; No.74 Richard Bromley; No.86 William Nicholls
+Tier2_Boundary_Block	1925	Morgan Street	Morris Street	4	74	42	237872-237880	No.18 Harold Millinson; No.16 William Morris; No.10 A. E. Chambers
+Tier2_Boundary_Block	1925	Potter Street	Portland Street	4	68	27	238546-238555	No.33 John Mahoney; No.34 Henry Keen; No.36 Henry Thomas Kelly
+Tier2_Boundary_Block	1927	Somerton Lane	Somerton Road	4	69	38	297998-298007	No.29 Ernest Rees; No.25 Charles Snell; No.23 William Burgess
+Tier2_Boundary_Block	1886	Wolseley Street	York Place	3	23	37	41693-41696	No.11 Thomas Henry Hazell; No.12 John T. Turner; No.13 G. T. Rogers
+Tier2_Boundary_Block	1887	Baneswell	Baneswell Road	3	35	9	43258-43271	No.8 J. T. Parsons; No.15 Charles Perry; No.18 Henry Avery
+Tier2_Boundary_Block	1887	Mill-street	Marion Street	3	93	23	47280-47287	No.28 James Scrivens; No.34 Thomas Beer; No.35 John Travers
+Tier2_Boundary_Block	1887	Upper Williams Street	Victoria Crescent	3	38	18	49436-49441	No.24 William Farrow; No.27 Thomas Curtis; No.29 Peter Malone
+Tier2_Boundary_Block	1890	Caroline Street	Cardiff Road	3	70	30	51477-51483	No.28 William Johns; No. Mrs. Conroy; No.33 R. Bethell
+Tier2_Boundary_Block	1890	Stow Park	Temple Street	3	74	12	57595-57599	No.17 Alfred Waters; No.20 Richard Shea; No.21 Henry Bowen
+Tier2_Boundary_Block	1892	Cambria Place	Stow Hill	3	12	134	66723-66726	No.62 Frederick Searle; No.63 James Sanders; No.64 Alfred Wilding
+Tier2_Boundary_Block	1893	Dock Street	Devon Place	3	173	3	71715-71717	No.4 Mrs E. Rammell; No.5 George Leonard; No.6 George Haine
+Tier2_Boundary_Block	1894	Courtybella Terrace	Crescent Road	3	57	16	81685-81693	No.36 Samuel Studley; No.45 Mrs Mary Wilks; No.48 Robert Ricks
+Tier2_Boundary_Block	1894	Easton Place	Duckpool Road	3	9	107	82481-82489	No.24 John Marsh; No.27 Matt. Willett; No.32 Jesse Andrews
+Tier2_Boundary_Block	1894	Seamoor Terrace	Duckpool Road	3	13	107	82494-82499	No.37 Mrs C. Hands; No.39 George Florida; No.41 Francis Hathway
+Tier2_Boundary_Block	1894	Risca Road	Robert Street	3	20	40	86347-86351	No.45 John P. Walters; No.47 George Vickery; No.49 Michael Sullivan
+Tier2_Boundary_Block	1895	Carlisle Place	Caerleon Road	3	113	128	89879-89886	No.58 W. Waters; No.50 Joseph Nutt; No.44 William A. Lane
+Tier2_Boundary_Block	1895	Clytha Square	Westfield Road	3	44	3	91097-91099	No.10 Nugent Wells; No.11 Arthur Weight; No.12 George F. Hill
+Tier2_Boundary_Block	1895	Courtybella-street	Crescent Road	3	27	25	91699-91707	No.36 Samuel Studley; No.45 Mrs Mary Wilks; No.48 Robert Ricks
+Tier2_Boundary_Block	1895	Cyril Street	David Street	3	7	20	91815-91818	No.24 William Holwell; No.25 Leonard Dyer; No.27 George Durant
+Tier2_Boundary_Block	1895	Sidbury Terrace	Maindee Parade	3	16	14	95065-95076	No.32 Alfred Andrews; No.38 J. J. Harper; No.43 John Hallett
+Tier2_Boundary_Block	1895	St. Michael's Street	St. Julian Street	3	21	45	97152-97164	No.16 William Christopher; No.19 Joseph Bancroft; No.28 Henry Watts
+Tier2_Boundary_Block	1899	Brickyard Road	Bream Place	3	21	9	112219-112224	No.13 James Horton; No.16 John Hart; No.18 John Murray
+Tier2_Boundary_Block	1899	Commercial Road	Lyne Road	3	344	38	118710-118714	No.48 E. G. Holtham; No.50 George Meadows; No.52 Charles Hallett
+Tier2_Boundary_Block	1899	Marion Street	Manchester Street	3	90	0	118829-118831	No.56 William West; No.57 George Henry White; No.58 Howard Pendree
+Tier2_Boundary_Block	1899	Portland Street	Potter Street	3	33	25	119661-119666	No.23 Joseph Burnell; No.25 Thomas Andrews; No.28 Thomas O'Leary
+Tier2_Boundary_Block	1899	Portland Street	Pottery Terrace	3	33	14	119709-119712	No.20 Mrs Eliza Heaven; No.21 John Lynn; No.23 Henry Card
+Tier2_Boundary_Block	1900	Clifton Place	Clyffard Crescent	3	28	27	125808-125810	No.29 Mrs Walters; No.30 John Gall; No.31 T. W. Brooke
+Tier2_Boundary_Block	1900	Junction Road	Kensington Place	3	19	31	129836-129839	No. Philip G. Gale; No. T. Pugsley; No. W. J. Lloyd
+Tier2_Boundary_Block	1900	Liverpool Street	Llanarth Street	3	76	12	130308-130322	No.29 William Wreford; No.34 A. William Bowen; No.42 J. & Son Morrison
+Tier2_Boundary_Block	1900	Mountjoy Place	New Street	3	32	22	131390-131393	No.22 Thomas Hannen; No.23 William Binding; No.25 Mrs Fanny Plummer
+Tier2_Boundary_Block	1900	Stow Hill	Stow Park Avenue	3	217	16	133617-133622	No.16 Nicholas Grunnah; No.21 Walter Hunter; No.22 A. J. Stevens
+Tier2_Boundary_Block	1901	Barnard Street	Baneswell Road	3	55	6	135810-135816	No.13 Miss Walton; No.14 Alfred Hicks; No.18 Henry Perry
+Tier2_Boundary_Block	1901	Bishopgate Parade	Belvedere Terrace	3	17	20	136031-136036	No.22 William Paul; No.25 William A. Martin; No.27 Mark Chambers
+Tier2_Boundary_Block	1901	Fair Oak Terrace	Faulkner Road	3	41	5	140828-140833	No.6 Mrs S. Howes; No. Miss Howes; No.9 A. W. Gait
+Tier2_Boundary_Block	1901	Gear Street	Gaer Street	3	12	0	140981-140983	No.11 William Pritchard; No.13 Miss L. Pugh; No.10 W. N. Collings
+Tier2_Boundary_Block	1901	Mountjoy Street	Mountjoy Road	3	18	6	144005-144008	No.5 Frank King; No.6 Mrs Elizabeth Short; No.8 John Trew
+Tier2_Boundary_Block	1901	St. Stephen's Street	St. Woolos Road	3	18	25	145704-145714	No.26 Thomas Weetch; No.30 John Lyons; No.34 Algie Musty
+Tier2_Boundary_Block	1901	Trostrey Street	Tunnel Terrace	3	20	37	146674-146679	No.42 Miss Kate Wilkins; No.44 H. J. Powell; No.47 S. J. Padfield
+Tier2_Boundary_Block	1902	Bolton Street	Bream Place	3	7	13	149130-149132	No.15 Christopher Hurley; No.16 John Hart; No.17 William Reardon
+Tier2_Boundary_Block	1902	Jeddo Street	Jenkins Street	3	131	1	155107-155114	No.2 Arthur S. Pratt; No.6 Albert Pearse; No.10 Amos Close
+Tier2_Boundary_Block	1902	North Street	New Street	3	16	12	156940-156952	No.13 William Mapstone; No.23 William Binding; No.25 Mrs Fanny Plummer
+Tier2_Boundary_Block	1903	Alexandra Road	Alice Street	3	65	14	161014-161017	No.10 Thomas Watkins; No.8 John W. Hall; No.4 John B. Carroll
+Tier2_Boundary_Block	1903	Gaer-street	Gaer Street	3	12	0	166727-166730	No.13 Miss L. Pugh; No.10 W. N. Collings; No.6 George Shingler
+Tier2_Boundary_Block	1903	Harrow Road	Halstead Street	3	70	47	167337-167341	No.16 George Browning; No.14 John Morris; No.8 Thomas Perry
+Tier2_Boundary_Block	1903	Llewellyn Terrace	Llewellin Street	3	15	0	168865-168868	No.1 Arthur Pearce; No.5 Alfred Harris; No.7 William Pearce
+Tier2_Boundary_Block	1903	Malpas Road	Manchester Street	3	223	36	169366-169372	No.58 Howard Pendree; No.60 Charles Sperring; No.64 George Workman
+Tier2_Boundary_Block	1903	Ombersley Road	Orchard Street	3	81	82	170249-170259	No.34 Robert Taylor; No.32 Josiah Stickler; No.12 Thomas Yalland
+Tier2_Boundary_Block	1903	Somerton	Somerton Road	3	49	28	172319-172326	No. F. Pinkard; No. W. H. Hollingdale; No. Edward Bate
+Tier2_Boundary_Block	1903	Stow Park Avenue	Summerhill Avenue	3	56	27	172728-172731	No.37 Oliver Eadie; No.38 W. H. Gough; No.41 Lloyd Overstone
+Tier2_Boundary_Block	1906	Broad Street	Bryngwyn Road	3	39	13	318150-318156	No.28 Solomon Barnett; No.32 George L. Scott; No.38 L. L. Morris
+Tier2_Boundary_Block	1906	Caerleon road	Osborne Place	3	141	0	318473-318483	No.249 Charles Coles; No.259 T. Wescombet; No.265 Alb. Trickey
+Tier2_Boundary_Block	1906	Llewellin Terrace	Llewellin Street	3	9	0	325541-325544	No.1 Arthur Pearce; No.5 Alfred Harris; No.7 William Pearce
+Tier2_Boundary_Block	1906	Magor Street	Malpas Road	3	169	132	325862-325868	No.89 Mark W. Madge; No.93 Thomas Benians; No.101 John Harris
+Tier2_Boundary_Block	1906	St. Mary Street	St. John's Road	3	81	37	328598-328601	No.7 F. H. Dauncey; No.3 William F. Cole; No.1 G. F. W. Balleine
+Tier2_Boundary_Block	1906	St. Woolos Road	Scard Street	3	40	5	328865-328868	No.6 James Hovey; No.7 Edward Elworthy; No.9 Frederick Watkins
+Tier2_Boundary_Block	1906	Tun Street	Tunnel Terrace	3	35	12	329938-329946	No.34 Mrs. Ann Comley; No.35 William S. Hopton; No.42 Miss Kate Wilkins
+Tier2_Boundary_Block	1906	Usk Street	Upton Road	3	46	27	330005-330010	No.12 Thomas William Mitchell; No.10 Herbert Garland; No.2 Miss Jessie Vaughan
+Tier2_Boundary_Block	1908	Clytha Park Road	Oakfield Road	3	71	0	304752-304754	No.6 E. A. Hammond; No.8 E. B. Newman; No.10 Mrs. J. Lawrence
+Tier2_Boundary_Block	1910	Bryngwyn Road	Brynderwen Road	3	92	2	176206-176209	No.30 Ralph Studley; No.32 William Henry Jeffries; No.33 Charles Drummond
+Tier2_Boundary_Block	1910	Bryngwyn Road	Brynglas Road	3	92	12	176237-176240	No.28 Henry Bowen; No.32 Thomas Blunt; No.34 Thomas Watkins
+Tier2_Boundary_Block	1910	Harrow-road	Harrow Road	3	26	24	182405-182415	No.9 G. T. Wright; No.23 Mark Parsons; No.27 James William Watkins
+Tier2_Boundary_Block	1910	Waterloo-road	Waterloo Road	3	15	24	189464-189475	No.25 William Richards; No.35 John Gilmore; No.36 F. R. Howe
+Tier2_Boundary_Block	1913	Potter Street	Portland Street	3	73	0	202839-202864	No.18 George Lloyd; No.23 R. G. French; No.42 Albert D. Taylor
+Tier2_Boundary_Block	1915	Alexandra Docks	Albion Street	3	63	90	207610-207612	No.88 Robert H. Bastin; No.89 Thomas T. D'Garty; No.90 Frederick Coombs
+Tier2_Boundary_Block	1915	Constable's Lane	Commercial Wharf	3	13	1	212359-212361	No.11 James Howlett; No.12 William Powell; No.13 George Kelland
+Tier2_Boundary_Block	1915	Gloster Street	Gloucester Place	3	14	5	215538-215540	No.8 Ernest W. Coles; No.9 D. J. Banks; No.10 Robert Wright
+Tier2_Boundary_Block	1915	New Ruperra Street	North Street	3	15	54	219487-219491	No.4 Peter O'Neill; No.7 W. H. Howells; No.8 Thomas Cromwell
+Tier2_Boundary_Block	1915	St. Julian's Avenue	St. Edward Street	3	22	70	221483-221491	No.47 Martin J. Neale; No.52 Albert F. Stanbury; No.55 Frank Parsons
+Tier2_Boundary_Block	1915	Walford Street	Wallis Street	3	79	3	223544-223552	No.17 Mrs. M. McNamara; No.18 William Dempsey; No.4 Mathew Hart
+Tier2_Boundary_Block	1920	Brynglas Avenue	Brynderwen Road	3	25	20	245847-245853	No.28 James A. Stark; No.33 Charles Drummond; No.34 Robert Jordan
+Tier2_Boundary_Block	1920	Pump Street	Prospect Street	3	58	6	256993-256997	No.6 John James Sampson; No.7 Miss Charlotte Robinson; No.10 William J. Bennett
+Tier2_Boundary_Block	1920	Stow Park Avenue	Summerhill Avenue	3	136	29	259406-259410	No.25 Alfred Hando; No.19 Mrs. G. F. Thorne; No.17 William Watkins
+Tier2_Boundary_Block	1924	Kimberley Terrace	Malpas Road	3	27	164	272910-272913	No.13 Percy E. Sharp; No.14 Isaac Cocker; No.16 Mrs. Keziah Mogford
+Tier2_Boundary_Block	1924	Mendalgiff Road	Mendalgief Road	3	49	0	273516-273528	No.28 James Pearce; No.32 John Lloyd; No.52 Joseph Nowell
+Tier2_Boundary_Block	1924	Summer Hill Villas	Summerhill Avenue	3	17	30	277694-277698	No.25 Alfred Hando; No.19 G. F. Thorne; No.15 Mrs. E. A. Watkins
+Tier2_Boundary_Block	1924	Vivian Road	Wallis Street	3	157	11	278535-278539	No.12 John Henry Pring; No.8 John Kerslake; No.4 Mathew Hart
+Tier2_Boundary_Block	1925	Bristol Street	Bridge Street	3	149	54	226809-226814	No.32 Mrs. Briffett; No.33 C. H. Harrison; No.35 Charles F. Saysell
+Tier2_Boundary_Block	1925	Corporation Road	Coomassie Street	3	404	17	230236-230242	No.22 Henry William Porter; No.25 John Harris; No.28 Mrs. Mary Ellen Ponsford
+Tier2_Boundary_Block	1925	Graham Street	Gore Street	3	81	10	233790-233794	No.18 Mrs. E. Bull; No.12 W. Charles Lacey; No.10 Arthur Hill
+Tier2_Boundary_Block	1925	Graham Street	Griffin Street	3	81	5	234013-234018	No.6 George Clarke; No.9 Mrs. H. Rawden; No.10 J. F. Sanders
+Tier2_Boundary_Block	1925	King Street	Lambert Street	3	60	13	235562-235566	No.29 Thomas Cooke; No.35 William Spill; No.37 Harold Probert
+Tier2_Boundary_Block	1925	Poplar Road	Phillip Street	3	8	0	238587-238590	No.16 Daniel Axton; No.18 John Bowkett; No.19 Thomas Holland
+Tier2_Boundary_Block	1925	Station Road	Stockton Road	3	7	101	241234-241237	No.104 George Kettle; No.106 George Alfred Munday; No.110 Arthur Bulley
+Tier2_Boundary_Block	1927	Melton Terrace	Duckpool Road	3	29	120	287984-287998	No.94 George William Dawkins; No.98 Frank Huish; No.106 William Hylands
+Tier2_Boundary_Block	1927	Richmond Terrace	Duckpool Road	3	15	120	288017-288024	No.125 Lemuel Packer; No.126 William Lawrence; No.132 George Radford
+Tier2_Boundary_Block	1927	Ross Street	Rosslyn Road	3	108	8	296726-296739	No.30 John John; No.24 James Reilly; No.4 Ben Greenfield
+Tier3_Isolated	1910	Corporation-road	Corporation Road	14	122	163	179176-179274	No.179  Co-operative Society's; No.181 Alfred Adams; No.193 George Powell
+Tier3_Isolated	1925	Vicarage Hill	Victoria Avenue	13	75	73	242199-242332	No.22 Mrs. Miriam Hockey; No.70 Charles G. Heighton; No.71 Henry M. Fenemore
+Tier3_Isolated	1890	Granville Street	Henry Street	11	67	27	54642-54711	No.16 James Johnston; No.18 Edward Morris; No.21 Thomas Hallett
+Tier3_Isolated	1910	Caerleon-road	Caerleon Road	11	217	128	176534-176765	No.229 Charles Price; No.317 Alfred H. Hicks; No. G. T. Price
+Tier3_Isolated	1925	Marion Street	Market (provision)	11	161	6	237253-237348	No.17 C. F. Haime; No.36 John & Son Basham; No.40 Kate Downey
+Tier3_Isolated	1902	Potter Street	Power Street	10	67	21	157300-157350	No.41 George Skeldon; No.61 Charles Morris; No.63 Jacob Nargrove
+Tier3_Isolated	1906	Railway Street	Raglan Street	10	141	58	327856-327956	No.111 Frank William Phelps; No.59 Samuel Wyatt; No.62 Richard Rees
+Tier3_Isolated	1910	Somerset-road	Somerset Road	10	60	24	187918-187973	No.53 Walter Walters; No.57 Bj. H. Seccombe; No.61 Edward Love
+Tier3_Isolated	1913	Church-Road	Church Road	10	51	31	194301-194359	No.26 James Francis; No.27 John Menhinick; No.37 William Turnbull
+Tier3_Isolated	1927	Pugsley Street	Prince Street	10	151	1	295458-295509	No.5 James Blythe; No.12 Walter Green; No.22 Philip Breen
+Tier3_Isolated	1893	Christchurch Road	Church Road	9	104	30	70475-70525	No.36 W. H. Locke; No.43 George Hadden; No.46 Alfred Lawson
+Tier3_Isolated	1903	Chesterfield Street	Chepstow Road	9	92	223	163422-163499	No.88 W. H. Locke; No.74 F. J. Bucknall; No.56 Henry McFarlane
+Tier3_Isolated	1908	Redland Street	Richmond Road	9	157	7	312978-313023	No.23 Isaac Wyber; No.25 Rt. Burnicle; No.29 John Jordan
+Tier3_Isolated	1927	Buckingham Place	Caerau Road	9	69	46	282619-282672	No.25 Miss Henrietta Gardner; No.32 Charles Chambers; No.37 J. A. Gaccon
+Tier3_Isolated	1927	Dudley Street	Durham Road	9	99	151	288128-288177	No.47 E. George Taylor; No.53 Thomas Henry French; No.57 John Edward Bateman
+Tier3_Isolated	1887	Mill-street	Marshes Road	8	93	57	47332-47384	No.10 Martha Ann Holder; No.41 John Payne; No.45 Michael Mahoney
+Tier3_Isolated	1895	Millbrook Terrace	Morden Road	8	55	30	95626-95670	No.32 C. Ernest Page; No.33 John Baylis; No.36 George Mills
+Tier3_Isolated	1901	Clytha Square	Coldra Road	8	88	9	138321-138363	No.24 Frank Green; No.26 James Huntley; No.61 Miss M. Ellis
+Tier3_Isolated	1906	Corporation Road	Prince Street	8	483	2	327628-327668	No.10 J. W. Galsworthy; No.20 Fred Holder; No.28 Edward Coyle
+Tier3_Isolated	1915	Graham Street	Halstead Street	8	134	12	215935-215989	No.17 Charles Wilmott; No.25 John Monoghan; No.29 Frederick Johnson
+Tier3_Isolated	1886	George-street	George Street	7	38	31	38199-38236	No.20 George Jukes; No.21 Dennis Ferris; No.44 James Daley
+Tier3_Isolated	1895	St. Woolos Road	St. Mary Street	7	44	33	97105-97141	No.27 Herbert W. Rees; No.28 James Tiley; No.29 Charles Prothero
+Tier3_Isolated	1903	Skinner Street	Somerset Road	7	72	12	172236-172277	No.25 Arthur Whitton; No.31 Edgar Twist; No.33 George Walker
+Tier3_Isolated	1908	Caerau Road	Caerleon Road	7	164	249	303013-303384	No.75 W. A. Linton; No.77 W. L. Trevorrow; No.85 William Chalklin
+Tier3_Isolated	1910	Beechwood Road	Bedford Road	7	55	7	175564-175604	No.17 William A. Fletcher; No.41 Benjamin Vaughan; No.43 William Virgo
+Tier3_Isolated	1910	Vivian-road	Walford Street	7	111	1	189189-189235	No.1 Charles Holder; No.6 F. J. Dunning; No.12 George Illtyd
+Tier3_Isolated	1913	Adelaide Street	Adeline Street	7	85	6	190363-190416	No.13 J. P. Collins; No.54 James Burrows; No.67 George Bright
+Tier3_Isolated	1927	Church Street	Church Road	7	122	46	284841-284901	No.17 David Gregory; No.26 James Francis; No.30 Thomas Henry
+Tier3_Isolated	1887	Upper Marion Street	Upper Raglan Street	6	91	1	49292-49326	No.4 Thomas Waring; No.7 Richard Walker; No.10 Margaret Maddocks
+Tier3_Isolated	1890	Commercial Street	Commercial Road	6	304	109	52481-52529	No.134 J. Leonard; No.136 James C. Sanders; No.149 George Adams
+Tier3_Isolated	1900	Commercial Street	Dock Street	6	421	181	127175-127219	No.113 John & Co. Ltd. Vipond; No.114 O. & Co. Goss; No.115 D. Michael
+Tier3_Isolated	1908	Commercial Street	Commercial Road	6	359	131	305056-305107	No.199A Miss R. Llewellyn; No.117 William Graves; No.119 Joseph Taylor
+Tier3_Isolated	1910	Bridge-street	Bridge Street	6	44	52	176040-176089	No.38 E. W. Perren; No.39 C. H. Alley; No.44 Misses Sully
+Tier3_Isolated	1913	Barnard Street	Barrack Hill	6	79	41	191640-191680	No.114 James Taylor; No.48 Edward Bennett; No.44 Mrs. Elizabeth Whitfield
+Tier3_Isolated	1913	Godfrey Road	Goodrich Crescent	6	109	44	198533-198567	No.55 David Vaughan; No.73 Arthur Venning; No.103 Henry Wust
+Tier3_Isolated	1920	Ombersley Road	Oakfield Road	6	175	11	256200-256230	No.42 G. Kerslake; No.50 Thomas E. Alger; No.97 Alfred Newland
+Tier3_Isolated	1920	Woodland Road	York Place	6	102	26	261024-261054	No.55 C. S. Vines; No.58 James Rutherford; No.44 George Wood
+Tier3_Isolated	1886	Hopefield	Hill Street	5	52	6	38792-38818	No.8 Edward Wangler; No.15 Miss Isabel Hall; No.16 William Henry Wilson
+Tier3_Isolated	1895	Commercial Street	High Street	5	220	38	93903-93959	No.27A George Oliver; No.32 Alfred Taylor; No.34 S. M. Bowen
+Tier3_Isolated	1899	Commercial Road	High Street	5	344	55	117453-117515	No.27A George Oliver; No.34 S. M. Bowen; No.35 Thomas Cordey
+Tier3_Isolated	1902	Carey Road	Cardiff Road	5	51	18	150208-150242	No. Rev J. T. Wrenford; No.22 George Oliver; No.23 R. Parfitt
+Tier3_Isolated	1902	Granville Street	Halstead Street	5	58	41	154296-154345	No.35 William J. Ward; No.37 Thomas Stubbs; No.39 William Meadham
+Tier3_Isolated	1902	Salisbury Road	St. Michael Street	5	30	10	158496-158522	No.21 R. W. Syner; No.27 W. T. Stephens; No.32 William Curran
+Tier3_Isolated	1906	Railway Street	Redland Street	5	141	50	327880-327906	No.61 R. H. Gabb; No.108 David Walter; No.106 William Arnold
+Tier3_Isolated	1915	Preece Street	Preston Avenue	5	47	25	220181-220208	No.55 Miss M. A. Taylor; No.61 Edward Mills; No.42 Alfred Boyns
+Tier3_Isolated	1920	Rose Street	Rosslyn Road	5	116	2	257727-257760	No.5 Raymond Clarke; No.38 Thomas William Howard; No.30 John John
+Tier3_Isolated	1924	Caerau Road	Caerleon Road	5	128	418	263485-263511	No.79 Charles F. Haime; No.93 B. Turner; No.119 Mrs. E. O'Brien
+Tier3_Isolated	1882	Blewitt Street	Bolt Street	4	121	1	29841-29869	No.2 George Gardener; No.12 Henry Parkes; No.18 Henry Newcombe
+Tier3_Isolated	1890	Reform Buildings	Robert Street	4	52	13	56914-56948	No.14 Charles Parry; No.16 Robert Scott; No.27 Joseph Seer
+Tier3_Isolated	1893	Commercial Street	Dock Street	4	355	173	71886-71919	No.70 George Fothergill; No.72 Rachel Stanley; No.80 J. Herbert
+Tier3_Isolated	1893	Evans Street	Eveswell Street	4	35	10	72687-72707	No.11 John Henson; No.22 Adam Slade; No.24 John Watkins
+Tier3_Isolated	1906	May Street	Marlborough Road	4	52	11	326270-326304	No.29 Arthur N. Barrett; No.41 John Dayman; No.20 C. Ericksen
+Tier3_Isolated	1906	Pottery Terrace	Portland Street	4	81	19	327378-327405	No.17 George Lowe; No.22 Michael White; No.41 John Griffin
+Tier3_Isolated	1910	Durham Road	Dudley Street	4	239	2	180601-180631	No.5 Miss A. R. Bray; No.9 Ernest A. Gilbert; No.40 Thomas Davis
+Tier3_Isolated	1910	Locke Street	London Street	4	60	53	184345-184373	No.62 Alfred John Noble; No.52 Thomas Henry Knight; No.16 Edward Saunders
+Tier3_Isolated	1913	Caerau Road	Caerleon Road	4	135	407	192673-192714	No.39 Misses A. & M. French; No.41 W. E. Robertson; No.65 Mrs. D. Moss
+Tier3_Isolated	1915	King Street	Lambert Street	4	60	13	217310-217336	No.29 Thomas Cook; No.47 E. A. Manning; No.55 Henry Saunders
+Tier3_Isolated	1915	Lloyd Street	Llanwern Street	4	89	16	218067-218088	No.26 William Houghton; No.34 Tom Pitson; No.50 William Crawford
+Tier3_Isolated	1915	Lyndhurst Road	Magor Street	4	55	67	218291-218324	No.74 George Phipps; No.66 William Sunderland; No.48 Mrs. Martha Perry
+Tier3_Isolated	1915	Marshfield Street	Marlborough Road	4	78	20	218925-218961	No.67 David Lomas; No.56 Stephen McCall; No.28 Mrs. T. Linton
+Tier3_Isolated	1924	Victoria Avenue	Victoria Crescent	4	125	1	278286-278306	No.6 William Holmes; No.8 Mrs. Helen Coxon; No.9 Mrs. Edith Buxton
+Tier3_Isolated	1924	Vivian Road	Victoria Avenue	4	157	125	278395-278420	No.97 George Lane; No.111 John Harvey; No.123 Robert J. Dodds
+Tier3_Isolated	1925	Belle Vue Court	Cardiff Road	4	45	59	227954-227984	No.20 O. G. Bland; No.27 W. J. & Sons Gibb; No.39 Charles Eldridge
+Tier3_Isolated	1925	Emlyn Terrace	Eton Road	4	56	17	232685-232711	No.37 J. Henry Willis; No.41 Frederick James Dallen; No.47 A. W. Austin
+Tier3_Isolated	1925	Morgan Street	Morden Road	4	74	18	237808-237868	No.18 William D. Hyndman; No.20 J. J. Blatchly; No.64 Moses Jehoida
+Tier3_Isolated	1927	Barrack Road	Barrack Hill	4	50	59	281377-281397	No.126 Robert Clarke; No.100 Frederick Glover; No.84 Charles Clapp
+Tier3_Isolated	1927	Maple Avenue	Marion Street	4	81	65	293478-293502	No.58 John Short; No.52 Lawrence Talifero; No.40 John Harvey
+Tier3_Isolated	1927	Risca Road	Richmond Road	4	260	19	296123-296146	No.53 Herbert Colebourn; No.66 William Tanner; No.44 Henry Barber
+Tier3_Isolated	1927	Stow Park Terrace	Stow Hill	4	81	123	298488-298510	No.57 Dennis Ferris; No.45 Ernest Blackburn; No.41 J. Medcalf Fuller
+Tier3_Isolated	1927	Windsor Road	Williams Street	4	95	72	300297-300329	No.82 John Benson; No.88 William Newick; No.38 Miss Alice Cole
+Tier3_Isolated	1894	Fair Oak Avenue	Fair Oak Terrace	3	83	11	82955-82976	No.12 George Parker; No.19 C. G. Rocke; No.33 Thomas George
+Tier3_Isolated	1902	Camelot Place	Canal Parade	3	39	40	149923-149941	No.44 Thomas Turner; No. E. Richardson; No.77 Charles Horton
+Tier3_Isolated	1902	Collingwood Street	Coldra Road	3	43	20	151209-151228	No.67 R. J. Hodge; No.61 Miss M. Ellis; No.29 F. W. Moore
+Tier3_Isolated	1902	Dean Street	Devon Place	3	72	25	152368-152402	No.36 Arthur Gatehouse; No.51 John Richards; No.52 J. Wall
+Tier3_Isolated	1908	Gibbs Road	Glass Works Cottages	3	78	3	308156-308173	No.4 Thomas Pearson; No.17 William Taylor; No.21 James Parkin
+Tier3_Isolated	1913	Harrhy Street	Hamilton Street	3	46	7	198928-198951	No.19 John McLoughlin; No.42 Edwin Attewell; No.32 Frederick Baugh
+Tier3_Isolated	1915	Hampton Street	Harrow Road	3	30	20	215993-216013	No.12 Thomas James Harrington; No.9 G. T. Wright; No.27 James William Watkins
+Tier3_Isolated	1915	Redland Street	Richmond Road	3	159	24	220735-220766	No.51 Henry George Wiggell; No.20 G. J. Stoneman; No.16 William A. Hobbs
+Tier3_Isolated	1915	Stow Hill	Stow Park Avenue	3	232	18	222718-222733	No.17 A. J. Fontaine; No. Mrs. Homfray; No.27 M. D. Propert
+Tier3_Isolated	1924	Albert Avenue	Albion Street	3	88	37	261380-261424	No.34 John Byard; No.37 Harry Stevens; No.89 Thomas T. D'Garty
+Tier3_Isolated	1924	Carlisle Place	Caerleon Road	3	25	418	263643-263661	No.329 Frank Saffin; No.355 Matthew Willett; No.365 Robert A. Salcombe
+Tier3_Isolated	1882	Capel Crescent	Capel Street	2	74	19	30229-30231	No.22 John Manning; No.24 Thomas Herbert
+Tier3_Isolated	1886	Dean Street	David Street	2	31	15	37469-37473	No.17 William Bowler; No.21 George Lyes
+Tier3_Isolated	1886	Ducie Street	Dos Road	2	29	20	37971-37975	No.34 Edwin Cocklin; No.38 Frank G. Workman
+Tier3_Isolated	1886	East Street	East Market Street	2	35	2	38001-38002	No.7 George Needs; No.8 Saul Goodwin
+Tier3_Isolated	1886	Mill Street	Merchant Street	2	61	3	39513-39520	No.20 William Golding; No.25 Thomas Welsh
+Tier3_Isolated	1886	Upper Dock Street	Upper Raglan Street	2	20	25	41312-41313	No.38 David Bird; No.39 Henry Finn
+Tier3_Isolated	1886	Watchhouse Parade	West Street	2	74	7	41482-41494	No.13 Charles Tanner; No.6 George Lander
+Tier3_Isolated	1887	Gold Tops	Gloucester Street	2	82	3	46243-46250	No.5 Charles Dowsall; No.12 Thomas Golledge
+Tier3_Isolated	1887	Oak Street	Park Street	2	13	15	47807-47810	No.12 Miss M. Bolt; No.15 H. W. Townsend
+Tier3_Isolated	1890	Crescent Road	Crindau Road	2	86	6	52933-52934	No.5 Michael Murphy; No.4 Robert Sweet
+Tier3_Isolated	1890	Crescent Road	Glass Works Cottages	2	86	0	52949-52950	No.9 Daniel Hadley; No.10 Joseph Bywater
+Tier3_Isolated	1890	Union Lane	Jeddo Street	2	16	4	55102-55103	No.38 Henry Hillman; No.39 Andres Peterson
+Tier3_Isolated	1890	Lucas Street	Maindee Parade	2	42	2	55720-55724	No.4 James Berry; No.8 Amos Bridges
+Tier3_Isolated	1890	Queen's Hill	Queen Street	2	31	9	56772-56778	No.10 George Pollard; No.15 John Hillier
+Tier3_Isolated	1890	St. Woolos Road	St. Mary Street	2	66	30	57114-57118	No.47 Alfred Meyrick; No.51 Thomas Lloyd
+Tier3_Isolated	1892	Hereford Street	Herbert Street	2	63	19	63759-63767	No.21 James Moore; No.29 Richard Hayes
+Tier3_Isolated	1892	Arlington Terrace	Stow Hill	2	8	134	66683-66685	No.23 James Barter; No.25 Alfred Blake
+Tier3_Isolated	1893	Llanthewey Road	Llanthewy Road	2	18	0	70834-70836	No.2 C. W. Alderton; No.6 W. H. Ford
+Tier3_Isolated	1893	Commercial Road	Commercial Street	2	230	355	71113-71125	No.4 T. P. Wansbrough; No.12 John Lawrence
+Tier3_Isolated	1893	Isca Terrace	Ivor Street	2	6	1	73811-73812	No.2 James Nichol; No.3 Edward Cartmell
+Tier3_Isolated	1893	Lime Street	Libeneth Road	2	82	1	74304-74305	No.4 James Wills; No.5 James Rookley
+Tier3_Isolated	1893	London Street	Lliswerry	2	31	14	74501-74505	No. T. Thompson; No. John G. Dent
+Tier3_Isolated	1894	Batchelor Road	Bassaleg Road	2	11	5	79023-79025	No. D. Mitcalfe; No. H. Davis
+Tier3_Isolated	1894	Commercial Street	Coomassie Street	2	307	14	81563-81567	No.23 Henry Hill; No.27 John Mapstone
+Tier3_Isolated	1894	Courtybella Terrace	Glass Works Cottages	2	57	6	81722-81723	No.9 Daniel Hadley; No.10 Joseph Bywater
+Tier3_Isolated	1894	Dock Street	Dock Parade	2	317	9	82001-82004	No.12 T. P. Hammett; No.15 Alfred Attwell
+Tier3_Isolated	1895	Calne Place	Church Road	2	31	61	90799-90812	No.73 F. E. Farley; No.86 James Russell
+Tier3_Isolated	1895	Corporation Road	Coomassie Street	2	25	9	91587-91591	No.23 Henry Hill; No.27 John Mapstone
+Tier3_Isolated	1895	Courtybella-street	Courtybella Terrace	2	27	14	91658-91659	No.21 Thomas Dalley; No.22 Joseph Maggs
+Tier3_Isolated	1895	Fawckner Road	Faulkner Road	2	9	1	92989-92992	No.4 Thomas Stone; No. Miss Howes
+Tier3_Isolated	1895	Fair Oak Avenue (Clifton Terrace)	Fair Oak Avenue	2	7	28	93067-93068	No.52 Mrs Jane Loftus; No.53 Stephen Monks
+Tier3_Isolated	1895	New Street	North Street	2	65	26	95935-95944	No.32 Mrs Theresa Boucher; No.41 James Tilley
+Tier3_Isolated	1898	Cambria Place	Canal Parade	2	52	16	100731-100732	No.20 Mary Rodman; No.21 Daniel White
+Tier3_Isolated	1898	Cedar Road	Charles Street	2	15	27	101231-101238	No.17 T. G. Diamond; No.24 John Snell
+Tier3_Isolated	1898	Chepstow Road	Christchurch Road	2	334	13	101611-101615	No.3 Samuel Slater; No. Mrs C. A. Boulton
+Tier3_Isolated	1899	Canon Street	Canal Terrace	2	44	3	112965-112971	No.3 Ellen Barry; No.8 Walter Green
+Tier3_Isolated	1899	West End Buildings	Chepstow Road	2	12	221	113643-113650	No.110 W. E. Robertson; No.96 C. M. Harris
+Tier3_Isolated	1899	David Street	Devon Place	2	72	24	115241-115242	No.28 John Wilkins; No.29 Mrs Louisa Latch
+Tier3_Isolated	1899	Lennard Street	Leicester Road	2	42	10	118130-118133	No.14 Reginald C. Rabett; No.17 R. H. Laurie
+Tier3_Isolated	1899	Rudry Street	Ruperra Street	2	37	0	120461-120475	No.27 F. C. Soloman; No.39 William Difford
+Tier3_Isolated	1899	Victoria Avenue	Union Street	2	156	6	121750-121754	No.7 William Hobbs; No.11 Thomas Ryan
+Tier3_Isolated	1900	Belmont Street	Belvedere Terrace	2	7	0	123673-123675	No.25 William A. Martin; No.27 Mark Chambers
+Tier3_Isolated	1900	Osborne Place	Caerleon Road	2	33	157	124428-124441	No.261 William Amor; No.287 C. West
+Tier3_Isolated	1900	Carlisle Place	Caerleon Road	2	37	157	124514-124518	No.365 H. T. Nurse; No.373 Francis H. Taylor
+Tier3_Isolated	1900	Lawn Terrace	Chepstow Road	2	18	235	125344-125348	No.210 James Brooks; No.202 James Vaughan
+Tier3_Isolated	1900	Orchard Terrace	Duckpool Road	2	12	115	127567-127568	No.140 Thomas Holley; No.141 Rowland Turberville
+Tier3_Isolated	1900	Parkfield Place	Park Street	2	10	8	131652-131654	No.15 H. W. Townsend; No.17 Charles Gunn
+Tier3_Isolated	1900	Salisbury Road	St. Woolos Place	2	60	5	132915-132917	No.9 William Bradshaw; No.11 Charles Watkins
+Tier3_Isolated	1900	Stow Park Crescent	Stow Park Circus	2	53	24	133666-133667	No.8 F. W. Raikes; No.10 Thomas Dawson
+Tier3_Isolated	1901	Milman Street	Mill Street	2	57	1	143777-143793	No.2 Adam E. Frost; No.13 W. M. Blackburn
+Tier3_Isolated	1901	Portskewett Street	Park Street	2	40	8	144359-144361	No.15 H. W. Townsend; No.17 Charles Gunn
+Tier3_Isolated	1901	Raglan Street	Railway Street	2	182	21	144979-144980	No.27 Henry Dowdall; No.28 Charles E. George
+Tier3_Isolated	1901	Woodland Road	York Place	2	81	30	147624-147630	No.60 William F. Rees; No.48 Mrs. R. L. Watson
+Tier3_Isolated	1902	Stone George	Clarence Place	2	19	42	150957-150962	No.40 George Andrews; No.45 A. H. Spencer
+Tier3_Isolated	1902	Dock Street	Dolphin Street	2	210	44	152655-152656	No.67 James Jefferey; No.68 Frederick Hockey
+Tier3_Isolated	1902	Eveswell Street	Evans Street	2	89	1	153417-153420	No.3 William Vickery; No.9 Samuel Tutton
+Tier3_Isolated	1902	Highweek Terrace	Morden Road	2	9	63	156730-156732	No.28 H. V. Taylor; No.30 Edward John Blowen
+Tier3_Isolated	1902	Britannia Buildings	North Street	2	13	16	156974-156977	No.20 Charles Boucher; No.23 David Howlett
+Tier3_Isolated	1902	Orchard Street	Park Square	2	71	11	157248-157249	No.12 Mrs Schofield; No. E. W. Schofield
+Tier3_Isolated	1903	Bolton Road	Bolt Street	2	34	33	161830-161836	No.28 William Seaman; No.34 Jenkin David
+Tier3_Isolated	1903	Malpas Road	Maindee Parade	2	223	1	169150-169151	No.2 George Rossiter; No.3 Frederick Crayford
+Tier3_Isolated	1903	Prince Street	Price Street	2	50	67	170881-170882	No.76 William Rosser; No.77 Joseph Parry
+Tier3_Isolated	1903	Stafford Road	Spring Street	2	29	5	172452-172453	No.8 Robert Mack; No.6 William Halliday
+Tier3_Isolated	1903	Walmer Street	Watchhouse Parade	2	26	2	173398-173404	No.19 Richard Brunt; No.25 Charles Ebsworth
+Tier3_Isolated	1906	Clytha Square	Westfield Road	2	45	3	319997-320004	No.4 Leonard Acomb; No.11 Rev. C. L. Perry
+Tier3_Isolated	1906	Vine Place	Duckpool Road	2	9	133	322019-322020	No.17 Ralph Butcher; No.18 John Hooper
+Tier3_Isolated	1906	Ebenezer Terrace	Edwin Street	2	54	3	322530-322531	No.11 William Foote; No.12 Henry Spanswick
+Tier3_Isolated	1906	Evans Street	Eveswell Street	2	25	27	322673-322677	No.31 George Birch; No.35 William Edward Webb
+Tier3_Isolated	1906	Goodrich Crescent	Gordon Street	2	93	35	323587-323589	No.56 William Warner; No.58 Edward Naylor
+Tier3_Isolated	1906	Granville Street	Graham Street	2	78	26	323634-323637	No.27 William Addaway; No.30 James Bayliss
+Tier3_Isolated	1906	Kensington Place	Kingsmill Terrace	2	13	2	324822-324823	No.5 Charles Chambers; No.6 Thomas Harries
+Tier3_Isolated	1906	Lord Street	Lucas Street	2	12	34	325693-325694	No.5 William Dowdall; No.6 Henry Mills
+Tier3_Isolated	1906	Arlington Terrace	Stow Hill	2	8	134	329452-329454	No.48 Daniel Watts; No.52 James Barter
+Tier3_Isolated	1906	Dorset Place	Stow Hill	2	25	134	329471-329482	No.82 Thomas Harvey; No.114 Arthur Reid
+Tier3_Isolated	1906	Stow Park Terrace	Stow Hill	2	22	134	329538-329551	No.135 Robert Gosling; No.111 J. J. Partridge
+Tier3_Isolated	1906	Thompson Lane	Trinity Place	2	11	7	329852-329854	No.8 Daniel O'Brien; No.10 James Donoghue
+Tier3_Isolated	1906	Victoria Place	Victoria Crescent	2	33	17	330222-330226	No.22 Thomas Harris; No.26 G. A. Parker
+Tier3_Isolated	1908	Chepstow road	Somerton Place	2	131	0	304167-304168	No.5 Henry Thompson; No.4 Jesse Edmunds
+Tier3_Isolated	1908	Clytha Park Road	Westfield Road	2	71	0	304741-304748	No.4 Leonard Acomb; No.11 Rev. C. L. Perry
+Tier3_Isolated	1908	Clytha Square	Oakfield Road	2	48	0	304776-304783	No. Arthur S. B. Graham; No.9 Mrs. Bevan
+Tier3_Isolated	1908	Ebenezer Terrace	Emlyn Street	2	39	57	307386-307388	No.31 Albert H. Pengelly; No.33 John Twohig
+Tier3_Isolated	1908	Fair Oak Terrace	Exeter Street	2	61	1	307692-307696	No.11 Mrs. Emma Acteson; No.21 John Howells
+Tier3_Isolated	1908	Fields Park Road	Fields Road	2	63	15	307885-307888	No. Mrs. G. Hammond; No. C. M. Ayliffe
+Tier3_Isolated	1908	St. Woolos Road	St. Woolos Place	2	48	3	313840-313848	No.4 Henry Phelps; No.12 Benjamin D. Stone
+Tier3_Isolated	1908	Vivian Road	Walford Street	2	73	19	315312-315325	No.68 James Tyler; No.35 James R. Richardson
+Tier3_Isolated	1910	Archibald-street	Argyle Street	2	97	4	175076-175091	No.48 John Durham; No.18 Joseph Pybus
+Tier3_Isolated	1910	Castle Precincts	Cardiff Road	2	40	37	177287-177299	No.27 W. J. & Sons Gibb; No.39 Charles Eldridge
+Tier3_Isolated	1910	Charles Street	Charlotte Street	2	18	39	177430-177434	No.10 Mrs. Alice Bush; No.13 William Young
+Tier3_Isolated	1910	East Market Street	Ebenezer Terrace	2	72	10	180908-180918	No.22 William Henry Robins; No.32 John O. Trigg
+Tier3_Isolated	1910	Friars Road	Ford Street	2	21	5	181520-181523	No.6 E. J. Wheeler; No.9 H. J. Selwood
+Tier3_Isolated	1910	Gloucester Street	Godfrey Road	2	51	32	181877-181878	No.33 H. A. T. Skyrme; No.34 F. J. Heybyrne
+Tier3_Isolated	1910	Malpas Road	Maindee Parade	2	201	27	184597-184609	No.30 James Wells; No.42 Tom Wynn
+Tier3_Isolated	1910	Oakfield-road	Oakfield Road	2	8	40	185794-185801	No.43 Arthur S. B. Graham; No.9 Mrs. Bevan
+Tier3_Isolated	1910	Pottery-terrace	Pottery Terrace	2	22	3	186290-186291	No.4 Thomas Grey; No.5 William Harvey
+Tier3_Isolated	1910	Risca Road	Richmond Road	2	7	56	187012-187013	No.8 S. W. Hobbs; No.6 Isaac Britton
+Tier3_Isolated	1910	Riverside	Robert Street	2	37	30	187034-187035	No.31 William Bissex; No.32 Harry W. Legge
+Tier3_Isolated	1910	St. John's Road	St. Julian Street	2	58	19	187459-187464	No.21 F. W. Mortimer; No.26 William Locke
+Tier3_Isolated	1910	Stow Park Circus	Stow Park Avenue	2	30	34	188543-188545	No.34 Arthur R. Mollett; No.36 Alfred Gratte
+Tier3_Isolated	1913	Bolt Street	Bolton Road	2	113	9	192133-192142	No.9 J. W. Wheeler; No.18 Mrs. M. A. Rawlings
+Tier3_Isolated	1913	Caerau Park	Caerau Road	2	3	135	192585-192587	No.49 C. Wilfred Alderton; No.51 John W. Shotton
+Tier3_Isolated	1913	Crescent Road	Coverack Road	2	51	11	195946-195950	No.19 F. J. Foster; No.9 John Barrett
+Tier3_Isolated	1913	David Street	Daniel Street	2	34	17	196183-196184	No.19 Charles Greening; No.20 F. W. Moore
+Tier3_Isolated	1913	Diana Street	Dock Parade	2	23	5	196468-196471	No.4 Mrs. Louisa Thompson; No.7 Michael Duggan
+Tier3_Isolated	1913	Jeddo Street	Jenkins Street	2	141	12	199899-199904	No.24 George Clarke; No.16 Edward Thomas Powell
+Tier3_Isolated	1913	Kensington Place	Keene Street	2	45	10	200057-200058	No.4 Frederick Bloor; No.2 Richard Lockley
+Tier3_Isolated	1913	Oxford Street	Park Square	2	42	16	202733-202734	No.33 Thomas Cole; No.34 Mrs. S. Polden
+Tier3_Isolated	1913	Rochester Road	Riverside	2	28	39	203728-203729	No.39 Charles Sheppard; No.40 F. A. Dalton
+Tier3_Isolated	1913	Ross Street	Ronald Road	2	50	2	203822-203828	No.4 Percy Wayland; No.10 Mrs. A. M. Garry
+Tier3_Isolated	1913	Somerton Road	Somerset Road	2	113	24	204830-204886	No.55 B. H. Seccombe; No.6 Edward Cook
+Tier3_Isolated	1913	Somerton Lane	Somerton Road	2	39	113	204924-204926	No.19 W. H. Hollingdale; No.23 T. W. Francis
+Tier3_Isolated	1913	Summerhill Avenue	Sutton Road	2	56	82	205651-205664	No.32 Frederick Pearce; No.6 Ernest J. Clarke
+Tier3_Isolated	1915	Bishop Street	Bishton Street	2	47	63	208925-208927	No.6 Robert James Mason; No.2 W. J. Banwell
+Tier3_Isolated	1915	Clydach Street	Clytha Square	2	18	19	211701-211704	No.20 William Henry Green; No.23 Mrs. W. L. Kerr
+Tier3_Isolated	1915	East Usk Road	Ebenezer Terrace	2	68	8	214514-214521	No.13 J. H. Avery; No.19 George Morris
+Tier3_Isolated	1915	Gloster Street	Gloucester Street	2	14	0	215542-215543	No.2 Thomas Rowe; No.3 William Savager
+Tier3_Isolated	1915	Hereford Place	Herbert Street	2	8	25	216293-216296	No.25 William Truscott; No.28 Henry Brimblecombe
+Tier3_Isolated	1915	St. Edward Street	St. Julian's Avenue	2	70	22	221405-221410	No. George A. Durant; No. Rev. R. F. Cape
+Tier3_Isolated	1920	Queensland Terrace	Chepstow Road	2	13	319	247237-247240	No.65 John James Purnell; No.71 Mrs. E. A. McHale
+Tier3_Isolated	1920	Kingsland Terrace	Chepstow Road	2	9	319	247248-247251	No.87 A. T. Broadlick; No.93 Thomas Leonard
+Tier3_Isolated	1920	Rosedale Terrace	Chepstow Road	2	27	319	247370-247385	No. F. A. Trotman; No. Stanley S. Parfitt
+Tier3_Isolated	1920	St. Julian's Avenue	St. Julian Street	2	80	14	257992-257997	No.22 Thomas Carnell; No.27 Mrs. Ann Bromley
+Tier3_Isolated	1920	Stow Park Circle	Stow Park Circus	2	24	0	259330-259331	No.7 Fred Vaughan; No.9 Mrs. Orders
+Tier3_Isolated	1920	Beaufort Terrace	West Street	2	26	51	260182-260197	No.22 William Ingram; No.37 Herbert William Price
+Tier3_Isolated	1924	Adeline Street	Agincourt Street	2	90	32	261199-261203	No.30 Mrs. Elizabeth Paskin; No.22 George Molloy
+Tier3_Isolated	1924	Arcades. - Newport Arcade	Newport Arcade	2	11	0	262020-262028	No.1 J. H. Wagstaff; No.12 John H. Wagstaff
+Tier3_Isolated	1924	Archibald Street	Argyle Street	2	93	20	262119-262120	No.8 Robert Selway; No.6 Francis J. Clarke
+Tier3_Isolated	1925	Bailey Street	Baldwin Street	2	142	1	225856-225911	No.7 John Herbert; No.78 Henry George Marshall
+Tier3_Isolated	1925	Hoskins Street	Hopefield	2	96	1	234904-234913	No.2 Thomas Fisher; No.11 Robert Trump
+Tier3_Isolated	1925	Stow Park Avenue	Stow Park Circus	2	93	18	241601-241607	No.21 T. H. Howell; No.33 W. H. leGrand Chambers
+Tier3_Isolated	1925	Tredegar Street	Trinity Place	2	13	9	241981-241982	No.2 William Joseph Wilkins; No.3 Mrs. Catherine Morrison
+Tier3_Isolated	1925	Winchester Street	Windsor Road	2	33	10	243174-243175	No.23 Frederick Round; No.25 John Edward Pearson
+Tier3_Isolated	1927	Church Road	Christchurch Road	2	46	183	284748-284760	No.50 William Trevethan; No.22 William L. Booth
+Tier3_Isolated	1927	Exe Road	Exeter Road	2	9	2	288737-288742	No.3 Van Trump; No.8 Frederick White
+Tier3_Isolated	1927	Milner Street	Milman Street	2	63	30	294143-294155	No.41 James French; No.19 R. J. Stevens
+Tier3_Isolated	1927	Oak Street	Oakfield Road	2	74	19	294553-294570	No.26 James Prosser; No.60 Cecil Jacobs
+Tier3_Isolated	1927	Wesley Street	West Street	2	48	5	299993-299996	No.5 Robert Tindle; No.8 William Wildbore
+Tier3_Isolated	1882	Caerleon Road	Caerau Road	1	54	26	30023-30023	No. Charles Besley
+Tier3_Isolated	1882	Clytha Park Road	Clytha Square	1	50	4	30738-30738	No.12 Theophilus J. Beynon
+Tier3_Isolated	1882	Dock Parade	Church Street	1	35	39	31438-31438	No.2 George Taylor
+Tier3_Isolated	1882	Dock-street	Dock Street	1	90	50	31562-31562	No.80 J. R. Jacob
+Tier3_Isolated	1886	Market Arcade	Arcade (The)	1	14	2	35261-35261	No.3 H. W. Sully
+Tier3_Isolated	1886	Clarence Street	Club Row	1	68	6	36677-36677	No.10 James Moriarty
+Tier3_Isolated	1886	Lansdowne Place	Commercial Road	1	37	169	37029-37029	No.175 J. B. West
+Tier3_Isolated	1886	Gold Tops	Devon Place	1	67	32	38305-38305	No. G. Greenland
+Tier3_Isolated	1886	Grenville Square	Grenville Street	1	39	15	38393-38393	No.24 Thomas Harris
+Tier3_Isolated	1886	Kear Street	King's Parade	1	15	23	38981-38981	No.26 Denis Hayes
+Tier3_Isolated	1886	Marion Street	Market Street	1	48	8	39284-39284	No.17 James Carver
+Tier3_Isolated	1886	Mountjoy Road	Mountjoy Place	1	21	11	39580-39580	No.17 Alfred Wyon
+Tier3_Isolated	1886	Norfolk Street	New Street	1	5	22	39716-39716	No.24 Catherine Keefe
+Tier3_Isolated	1886	Protheroe's Row	Queen Street	1	2	15	40014-40014	No.15 John Hillier
+Tier3_Isolated	1886	Merriott's Place	Upper Lime Street	1	13	56	42598-42598	No.2 John Sullivan
+Tier3_Isolated	1887	Baneswell	Bridge Street	1	35	56	43282-43282	No. James Rowe
+Tier3_Isolated	1887	Courtybella Street	Courtybella Terrace	1	14	18	45284-45284	No.19 William Matthews
+Tier3_Isolated	1887	Lansdowne Place	Lewis Street	1	7	48	47011-47011	No.49 Richard Chick
+Tier3_Isolated	1887	North Street	Baneswell Road	1	56	9	47747-47747	No.8 J. T. Parsons
+Tier3_Isolated	1887	Oak Street	Oak Terrace	1	13	4	47800-47800	No.5 Jane Gale
+Tier3_Isolated	1887	Queen's Hill	Pentonville	1	12	3	47861-47861	No.13 J. R. Carr
+Tier3_Isolated	1890	Caroline Street	Capel Street	1	70	51	51460-51460	No.58 James Comerford
+Tier3_Isolated	1890	Kingsland Terrace	Chepstow Road	1	11	113	51728-51728	No. Samuel Small
+Tier3_Isolated	1890	The Avenue	Chepstow Road	1	8	113	51826-51826	No. Reginald C. Banks
+Tier3_Isolated	1890	Auckland Villas	Christchurch Road	1	13	46	51935-51935	No.10 Thomas Webster
+Tier3_Isolated	1890	Edwin Street	Ebenezer Terrace	1	20	30	54000-54000	No.12 Thomas Harris
+Tier3_Isolated	1890	George Street	South Market Street	1	68	67	54299-54299	No.1 Patrick Haley
+Tier3_Isolated	1890	James Street	Upper Lime Street	1	60	94	55029-55029	No.9 George Bright
+Tier3_Isolated	1890	Kingsmill Gardens	King's Parade	1	15	23	55256-55256	No.26 Denis Hayes
+Tier3_Isolated	1890	Wyndham Terrace	Marshes Road	1	39	80	55947-55947	No.119 Michael Lenahan
+Tier3_Isolated	1890	New Street	Nelson Street	1	34	64	56266-56266	No.68 Charles Meredith
+Tier3_Isolated	1890	Stow Park Terrace	Stow Hill	1	28	141	57486-57486	No.82 Henry John Davis
+Tier3_Isolated	1892	Cross Street	Crown Street	1	38	17	61927-61927	No.24 Mrs M. Rodway
+Tier3_Isolated	1892	Dock Street	Dock Parade	1	307	18	62110-62110	No.27 James Pound
+Tier3_Isolated	1892	Duck Street	Duckpool Road	1	28	115	62720-62720	No.129 Charles Eddolls
+Tier3_Isolated	1892	East Street	Durham Road	1	105	1	62771-62771	No.55 Thomas Trigg
+Tier3_Isolated	1892	Livingstone Place	Lliswerry	1	105	7	64593-64593	No. John G. Dent
+Tier3_Isolated	1892	Marshes Road	Wyndham Terrace	1	131	0	65048-65048	No.115 Mrs. Emily Hayward
+Tier3_Isolated	1892	Union Lane	Frederick Street	1	29	40	67084-67084	No.15 John Sullivan
+Tier3_Isolated	1892	Upper Alma Street	Griffin Street	1	77	8	67134-67134	No.10 George Clarke
+Tier3_Isolated	1892	Upper Lewis Street	Alexandra Docks	1	112	0	67357-67357	No.6 John Price
+Tier3_Isolated	1892	West Street	Beaufort Terrace	1	45	0	67796-67796	No.2 Magnus Tullock
+Tier3_Isolated	1893	Baldwin Street	Baneswell Road	1	76	11	69018-69018	No.25 J. Coulson
+Tier3_Isolated	1893	Baldwin Street	Bridge Street	1	76	62	69022-69022	No. James Rowe
+Tier3_Isolated	1893	Bath Street	Caroline Street	1	18	28	69107-69107	No.4 John Morris
+Tier3_Isolated	1893	Carlisle Place	Charles Street	1	8	0	70135-70135	No. Charles Reed
+Tier3_Isolated	1893	Chepstow Road	Lawn Terrace	1	261	0	70327-70327	No.100 Mrs Skinner
+Tier3_Isolated	1893	Chepstow Road	The Avenue	1	261	0	70333-70333	No.106 T. A. Ballard
+Tier3_Isolated	1893	Llanthewey Road	Bryngwyn Road	1	18	0	70844-70844	No.9 G. T. Taylor
+Tier3_Isolated	1893	Crindau Road	Merriott's Place	1	51	13	71533-71533	No.13 John Taylor
+Tier3_Isolated	1893	George Street	Friars Street	1	93	7	72946-72946	No.8 F. W. Houghton
+Tier3_Isolated	1893	Kensington Place	Chepstow Road	1	31	261	74067-74067	No. Richard Searle
+Tier3_Isolated	1893	King Street	King's Parade	1	21	29	74118-74118	No.26 Denis Hayes
+Tier3_Isolated	1893	Marshes Road	High Street	1	91	116	74915-74915	No.6 Alexander Ross
+Tier3_Isolated	1893	Queen Street	Cardiff Road	1	17	66	75943-75943	No. Mrs. Conroy
+Tier3_Isolated	1893	Stow Hill	Stow Park Terrace	1	174	0	76868-76868	No.70 Mrs A. M. Rogers
+Tier3_Isolated	1894	Albert Street	Albert Avenue	1	68	21	78189-78189	No.82 Mark Poole
+Tier3_Isolated	1894	Cemetery Lane	Caxton Place	1	5	1	80249-80249	No.4-5 W. J. Gibb
+Tier3_Isolated	1894	Queensland Terrace	Chepstow Road	1	12	156	80365-80365	No.38 John Gould
+Tier3_Isolated	1894	Clytha Park Road	Bryngwyn Road	1	48	5	81015-81015	No. G. T. Taylor
+Tier3_Isolated	1894	Courtybella Terrace	Merriott's Place	1	57	13	81726-81726	No.13 John Taylor
+Tier3_Isolated	1894	Road to the Docks	Dock Street	1	42	317	82164-82164	No.91  Derrett's
+Tier3_Isolated	1894	Fair Oak Avenue [CAMBRIA COTTAGES]	Fair Oak Avenue	1	6	83	82981-82981	No.34 William Richards
+Tier3_Isolated	1894	Fair Oak Avenue [CLIFTON TERRACE]	Fair Oak Avenue	1	6	83	83000-83000	No.53 Stephen Monks
+Tier3_Isolated	1894	Fair Oak Avenue [LAWSON TERRACE]	Fair Oak Avenue	1	9	83	83007-83007	No.62 James Benson
+Tier3_Isolated	1894	Friars Street	Alexandra Road	1	12	45	83137-83137	No.2 J. W. Green
+Tier3_Isolated	1894	Granville Street	West Street	1	41	39	83524-83524	No.13 Charles Tanner
+Tier3_Isolated	1894	Rudry Street	Ruperra Street	1	68	29	86511-86511	No.35 C. R. Orphan
+Tier3_Isolated	1894	Speedwell Street	South Market Street	1	36	47	86931-86931	No.39 James Farmer
+Tier3_Isolated	1894	Turner Street	Tunnel Terrace	1	7	49	87398-87398	No.42 Mrs E. S. Wilkins
+Tier3_Isolated	1894	Usk Street	Victoria Avenue	1	35	103	87448-87448	No.42 Mrs F. French
+Tier3_Isolated	1894	Williams Street	Dos Road	1	91	45	87873-87873	No.31 Henry Sharland
+Tier3_Isolated	1895	Albany Street	Eveswell Street	1	129	36	88153-88153	No.5 Richard Pitt
+Tier3_Isolated	1895	Church Terrace	Church Street	1	36	16	90844-90844	No.26 James Ashton
+Tier3_Isolated	1895	Fair Oak Avenue (Broseley Terrace)	Fair Oak Avenue	1	6	28	93033-93033	No.18 Francis H. Shepherd
+Tier3_Isolated	1895	Fair Oak Avenue (Lawson Terrace)	Fair Oak Avenue	1	9	28	93075-93075	No.62 James Benson
+Tier3_Isolated	1895	Glass Works Cottages	Merriott's Place	1	25	13	93335-93335	No.13 John Taylor
+Tier3_Isolated	1895	Gordon Street	West Street	1	111	2	93619-93619	No.13 Charles Tanner
+Tier3_Isolated	1895	Griffiths-street	Griffin Street	1	6	2	93663-93663	No.12 H. Lloyd
+Tier3_Isolated	1895	Kensington Road	Kensington Place	1	6	22	94360-94360	No. T., J.P. Pugsley
+Tier3_Isolated	1895	Lawrence Hill	Chepstow Road	1	3	265	94491-94491	No. J. W. Hunt
+Tier3_Isolated	1895	Victoria Place	Maindee Parade	1	48	14	95049-95049	No.16 Joseph Lavis
+Tier3_Isolated	1895	Dawlish Place	Maindee Parade	1	10	14	95057-95057	No.24 Frederick Dyer
+Tier3_Isolated	1895	Phillip Street	Portland Street	1	39	17	96165-96165	No.36 Jane Adams
+Tier3_Isolated	1895	Queen's Buildings	Queen Street	1	9	8	96488-96488	No.10 George Pollard
+Tier3_Isolated	1895	St. Woolos Road	Morden Road	1	44	30	97103-97103	No.25 Henry Poole
+Tier3_Isolated	1895	Somerton Road	Somerset Road	1	64	7	97317-97317	No.9 G. H. Bannister
+Tier3_Isolated	1895	Stow Park Terrace	Stow Hill	1	76	99	97615-97615	No.113 D. Ingleton
+Tier3_Isolated	1895	Stow Park Gardens	Stow Park Circus	1	24	26	97666-97666	No.33 S. D. Ingram
+Tier3_Isolated	1895	Wharf Road Terrace—	Wharf Road	1	16	3	98259-98259	No.6 John Boyce
+Tier3_Isolated	1898	Victoria Square	Baneswell Road	1	15	18	99662-99662	No.16 E. C. Hurd
+Tier3_Isolated	1898	Caroline Street	Castle Street	1	74	17	101160-101160	No.30 James Daley
+Tier3_Isolated	1898	Chepstow Road	Caerau Crescent	1	334	14	101392-101392	No.6 William Pratt
+Tier3_Isolated	1898	Auckland Terrace	Duckpool Road	1	2	128	103764-103764	No.100 Frederick Clarke
+Tier3_Isolated	1898	Orchard Terrace	Duckpool Road	1	7	128	103801-103801	No.134 Charles Giddings
+Tier3_Isolated	1898	London Street	Lucas Street	1	47	20	106524-106524	No.23 Arthur Barrett
+Tier3_Isolated	1898	Pottery Road	Pottery Terrace	1	29	22	107685-107685	No.23 Henry Card
+Tier3_Isolated	1898	Priory Street	Gordon Street	1	26	60	107985-107985	No.32 William Price
+Tier3_Isolated	1899	Bailey Street	Baldwin Street	1	96	51	111582-111582	No.47 Alfred Hadden
+Tier3_Isolated	1899	Caerleon Road	Osborne Place	1	184	11	112710-112710	No.265 Albert Trickey
+Tier3_Isolated	1899	Camelot Place	Canal Parade	1	106	34	112927-112927	No.78 A. Swenson
+Tier3_Isolated	1899	Somerton Place	Caerau Crescent	1	6	14	113552-113552	No.6 William Pratt
+Tier3_Isolated	1899	Somerton Place	Chepstow Road	1	6	221	113556-113556	No.2 John Ford
+Tier3_Isolated	1899	Lawn Terrace	Chepstow Road	1	9	221	113582-113582	No.218 F. T. Hammett
+Tier3_Isolated	1899	David Street	Dean Street	1	72	28	115269-115269	No.32 Mark Hemmings
+Tier3_Isolated	1899	Hoskins Street	Hopefield	1	88	3	117589-117589	No.5 Frederick West
+Tier3_Isolated	1899	London Street	Locke Street	1	46	26	118613-118613	No.34 George Grant
+Tier3_Isolated	1899	Commercial Road	Lucas Street	1	344	24	118666-118666	No.31 Robert Gomer
+Tier3_Isolated	1899	Pottery Terrace	Fair Oak Terrace	1	14	37	119698-119698	No.9 George Pope
+Tier3_Isolated	1899	Victoria Avenue	Frederick Street	1	156	21	121758-121758	No.15 John Sullivan
+Tier3_Isolated	1899	Wheeler Street	Carlisle Street	1	36	8	122191-122191	No.2 John Durham
+Tier3_Isolated	1900	Albion Street	Albany Street	1	92	56	122782-122782	No.90 Frederick Coombes
+Tier3_Isolated	1900	Alexandra Docks	Alexandra Road	1	83	12	122893-122893	No.36 Charles Brunt
+Tier3_Isolated	1900	Alfred Street	Alice Street	1	14	21	122987-122987	No.10 Thomas Watkins
+Tier3_Isolated	1900	Tredegar Place	Bridge Street	1	1	109	124061-124061	No.67 L. S. Abrahamson
+Tier3_Isolated	1900	Burleigh Road	Bryngwyn Road	1	6	48	124241-124241	No.11 W. J. Traylor
+Tier3_Isolated	1900	Auckland Villas	Christchurch Road	1	5	65	125470-125470	No.2 Charles E. Dodd
+Tier3_Isolated	1900	Havelock Street	Harrow Road	1	26	27	128933-128933	No.27 B. Fussell
+Tier3_Isolated	1900	Herbert Street	Hereford Street	1	19	25	129092-129092	No.26 George S. Sidney
+Tier3_Isolated	1900	Locke Street	Lucas Street	1	114	18	130554-130554	No.22 Edward George Jackson
+Tier3_Isolated	1900	Malpas Road	Maindee Parade	1	188	4	130636-130636	No.5 Henry White
+Tier3_Isolated	1900	Morden Road	Mill Street	1	104	17	131124-131124	No. W. M. Blackburn
+Tier3_Isolated	1900	Price Street	Preston Avenue	1	74	21	131921-131921	No.2 Philip F. Prujean
+Tier3_Isolated	1900	Stow Hill	Stow Park Circus	1	217	24	133636-133636	No.33 S. D. Ingram
+Tier3_Isolated	1901	Agincourt Street	Albany Street	1	52	106	135055-135055	No.42 Rbt. Hillman
+Tier3_Isolated	1901	Albany Street	Crown Street	1	106	24	135153-135153	No. J. C. Truscott
+Tier3_Isolated	1901	Boundary Road	Market Street	1	16	16	136315-136315	No.7 Henry Flook
+Tier3_Isolated	1901	Brynglas Crescent	Brynderwen Road	1	7	9	136556-136556	No.33 Charles McCarthy
+Tier3_Isolated	1901	Caerleon Road	Osborne Place	1	307	0	136835-136835	No.257 Arthur Henry Pedlar
+Tier3_Isolated	1901	Chepstow Road	Pen-y-lan Park	1	293	0	137681-137681	No. Alfred Newland
+Tier3_Isolated	1901	Ebenezer Terrace	Herbert Street	1	37	29	140497-140497	No.30 Henry Rees
+Tier3_Isolated	1901	Hereford Street	Herbert Street	1	41	29	141729-141729	No.30 Henry Rees
+Tier3_Isolated	1901	North Street	Redland Street	1	60	44	144115-144115	No.45 John White
+Tier3_Isolated	1901	Palmyra Place	Pant Road	1	13	13	144381-144381	No.10 Henry Vaughan
+Tier3_Isolated	1901	Queen's Hill	Queen Street	1	55	1	144834-144834	No.15 Benjamin Johnson
+Tier3_Isolated	1901	River Side	Robert Street	1	29	46	145245-145245	No.47 George Victory
+Tier3_Isolated	1901	St. Stephen's Street	St. Mary Street	1	18	51	145655-145655	No.59 William Paul
+Tier3_Isolated	1901	Soho Street	Shaftesbury Street	1	27	140	145936-145936	No.38 John Pugsley
+Tier3_Isolated	1901	Usk Street	Victoria Avenue	1	49	104	146811-146811	No.47 Nathan Myers
+Tier3_Isolated	1901	Victoria Crescent	Victoria Square	1	32	7	146934-146934	No.14 James Goulding
+Tier3_Isolated	1901	Wolseley Street	Redland Street	1	32	44	147554-147554	No.32 William Johnson
+Tier3_Isolated	1901	Woodland Road	Woodland Park Road	1	81	2	147575-147575	No. A. H. Tapson
+Tier3_Isolated	1902	Archibald Street	Arthur Street	1	51	58	148344-148344	No.35 Thomas Joseph King
+Tier3_Isolated	1902	Brynglas Crescent	Ivor Street	1	9	12	149385-149385	No.3 Edward Cartmell
+Tier3_Isolated	1902	Camelot Place	Canal Terrace	1	39	8	149946-149946	No.8 Walter Green
+Tier3_Isolated	1902	Clytha Crescent	Clytha Park Road	1	25	20	151077-151077	No.28 William Jeffreys
+Tier3_Isolated	1902	Clytha Crescent	St. Mary's Road	1	25	7	151083-151083	No.34 Miss Bleckert
+Tier3_Isolated	1902	Eveswell Street	Emlyn Terrace	1	89	20	153330-153330	No.24 John Flynn
+Tier3_Isolated	1902	Eveswell Street	Albert Terrace	1	89	23	153419-153419	No.7 John Hill
+Tier3_Isolated	1902	Gordon Street	Gore Street	1	70	13	154111-154111	No.8 William J. Searle
+Tier3_Isolated	1902	Junction Road	Jones Street	1	59	37	155228-155228	No.70 Mrs Ann Power
+Tier3_Isolated	1902	Lloyd Street	Market Street	1	18	16	155897-155897	No.7 Henry Flook
+Tier3_Isolated	1902	Manley Road	Marlborough Road	1	23	23	156550-156550	No.6 Reuben Wise
+Tier3_Isolated	1902	Belle Vue Terrace	Morden Road	1	10	63	156741-156741	No.39 F. C. Clements
+Tier3_Isolated	1902	Oakley Street	Oak Street	1	42	49	157077-157077	No.4 Charles Colegate
+Tier3_Isolated	1902	Potter Street	Pottery Terrace	1	67	15	157296-157296	No.20 Mrs Eliza Heaven
+Tier3_Isolated	1902	East Usk Wharves	Rodney Parade	1	25	32	158122-158122	No. Mrs Ann Welsh
+Tier3_Isolated	1902	St. Woolos Road	St. Woolos Place	1	45	7	158538-158538	No.9 William Bradshaw
+Tier3_Isolated	1903	Agincourt Street	Gibbs Road	1	47	36	160605-160605	No.5 William Morris
+Tier3_Isolated	1903	Canal Street	Canon Street	1	88	28	162751-162751	No.29 John Watts
+Tier3_Isolated	1903	Canal Street	Williams Street	1	88	88	162788-162788	No. Frank Foster
+Tier3_Isolated	1903	Caroline Street	Castle Street	1	50	7	163056-163056	No.37 William Johnson
+Tier3_Isolated	1903	Caroline Street	Cedar Road	1	50	12	163091-163091	No.4 John Beer
+Tier3_Isolated	1903	Chesterfield Street	Bryngwyn Road	1	92	32	163443-163443	No.50 H. Packer
+Tier3_Isolated	1903	Clifton Road	Clyffard Crescent	1	22	27	163820-163820	No.28 William Cooke
+Tier3_Isolated	1903	St. Mary's Road	Clytha Park Road	1	16	19	163877-163877	No.32 Mrs R. M. Morris
+Tier3_Isolated	1903	Commercial Street	Commercial Road	1	307	153	164156-164156	No.147 Walter Creed
+Tier3_Isolated	1903	Westgate Chambers	Commercial Street	1	29	307	164461-164461	No.174 F. J. Batchelor
+Tier3_Isolated	1903	Corelli Street	Coomassie Street	1	15	34	164608-164608	No.36 Andrew M. Cook
+Tier3_Isolated	1903	Conway Street	Constance Street	1	11	47	164650-164650	No.2 William White
+Tier3_Isolated	1903	Cambria Place	Fair Oak Avenue	1	7	32	166507-166507	No.34 William Richards
+Tier3_Isolated	1903	Henry Street	Pottery Road	1	105	18	167413-167413	No.11 William Taylor
+Tier3_Isolated	1903	Llanarth Street	Llanvair Road	1	47	4	168842-168842	No.12 John Foster
+Tier3_Isolated	1903	Milman Street	Mill Street	1	67	32	169691-169691	No.31 John Fulford
+Tier3_Isolated	1903	Preston Avenue	Power Street	1	33	70	170780-170780	No.8 Stephen Webb
+Tier3_Isolated	1903	River Street	Robert Street	1	19	42	171460-171460	No.46 William Inker
+Tier3_Isolated	1903	Robert Street	Edwin Street	1	42	20	171468-171468	No.3 Charles Howell
+Tier3_Isolated	1903	Rose Street	Ruperra Street	1	67	23	171663-171663	No.24 John Harris
+Tier3_Isolated	1903	South Market Street	Ombersley Road	1	37	81	172394-172394	No.4 William Dunn
+Tier3_Isolated	1903	Stow Park Avenue	Stow Park Crescent	1	56	8	172721-172721	No.15 F. S. Budd
+Tier3_Isolated	1903	Stow Crescent	Stow Park Crescent	1	1	8	172759-172759	No.2 Henry Jayne
+Tier3_Isolated	1906	Brynderwen Road	Bryngwyn Road	1	50	13	318200-318200	No.15 Henry Longstaff
+Tier3_Isolated	1906	Queensland Terrace	Chepstow Road	1	10	112	319276-319276	No.75 Mrs. M. A. Gould
+Tier3_Isolated	1906	Upton Place	Chepstow Road	1	11	112	319483-319483	No.176 Mrs. Laura Besley
+Tier3_Isolated	1906	Coventry Road	Crescent Road	1	26	36	321164-321164	No.48 Robert Ricks
+Tier3_Isolated	1906	Corporation Road	Dock Street	1	483	223	321801-321801	No.187 S. & Co. Little
+Tier3_Isolated	1906	Grafton Road	Gordon Street	1	27	35	323450-323450	No.42 James Wilkins
+Tier3_Isolated	1906	Hoskins Street	Duckpool Road	1	78	133	324434-324434	No.75 William Price
+Tier3_Isolated	1906	Magor Street	Maindee Parade	1	169	33	325840-325840	No.35 William Charles
+Tier3_Isolated	1906	Mill Parade	Mill Street	1	58	31	326421-326421	No.22 Walter Haste
+Tier3_Isolated	1906	Pottery Terrace	Potter Street	1	81	9	327337-327337	No.16 Daniel Hannen
+Tier3_Isolated	1906	River Side	Emlyn Street	1	89	23	328281-328281	No.49 John Johnson
+Tier3_Isolated	1906	Rudry Street	Pugsley Street	1	26	33	328401-328401	No.17 John Bennett
+Tier3_Isolated	1906	St. Stephen's Road	Albany Street	1	21	58	328758-328758	No.3 William Taylor
+Tier3_Isolated	1906	Somerton Road	South Market Street	1	122	10	329278-329278	No.12 Lewis Perryman
+Tier3_Isolated	1906	Spencer Road	Stafford Road	1	19	21	329351-329351	No.6 A. William Gray
+Tier3_Isolated	1906	Sutton Road	Hoskins Street	1	65	78	329778-329778	No.52 William Dunn
+Tier3_Isolated	1906	Victoria Place	Victoria Square	1	33	7	330234-330234	No.14 James Goulding
+Tier3_Isolated	1908	Albany Street	Albany Terrace	1	66	0	301072-301072	No.5 James Webberley
+Tier3_Isolated	1908	Bolton Road	East Usk Road	1	22	22	302505-302505	No.16 David Price
+Tier3_Isolated	1908	Carlisle Place	Caerleon Road	1	40	249	303188-303188	No.359 Dennis Liston
+Tier3_Isolated	1908	Chepstow road	Penylan Park	1	131	0	304126-304126	No. Francis Henry Shepherd
+Tier3_Isolated	1908	Chesterfield Street	Chepstow Road	1	22	173	304293-304293	No.42 E. Sayer
+Tier3_Isolated	1908	Clyffard Crescent	Kingsmill Gardens	1	38	0	304687-304687	No.35 W. J. T. Collins
+Tier3_Isolated	1908	Dawley Street	David Street	1	5	23	306148-306148	No.24 William Holwell
+Tier3_Isolated	1908	Hereford Street	Herbert Street	1	57	27	308921-308921	No.28 Henry Brimblecombe
+Tier3_Isolated	1908	Hoskins street	Duckpool Road	1	4	174	309373-309373	No.75 William Price
+Tier3_Isolated	1908	Kensington Place	Lambert Street	1	62	30	309782-309782	No.69 Tom Attewell
+Tier3_Isolated	1908	Llanthewy Road	Richmond Road	1	79	7	310425-310425	No.1 Benjamin Price
+Tier3_Isolated	1908	Mansel Street	Raglan Street	1	23	119	311143-311143	No.15 James Yates
+Tier3_Isolated	1908	Oak Terrace	Oak Street	1	12	17	311959-311959	No.4 Charles Colegate
+Tier3_Isolated	1908	Queen's Hill Terrace	Queen's Hill	1	22	28	312688-312688	No.10 Henry Flook
+Tier3_Isolated	1908	St. Mary Street	St. Michael Street	1	111	9	313718-313718	No.25 E. Fontaine
+Tier3_Isolated	1908	Somerset Road	Somerton Road	1	113	37	314222-314222	No. Mrs. E. Bate
+Tier3_Isolated	1908	Stow Park Circus	Stow Park Crescent	1	28	11	314766-314766	No.17 Walter Hunter
+Tier3_Isolated	1908	Summerhill Villas	Summerhill Avenue	1	60	25	314814-314814	No.46 Mrs. Watkins
+Tier3_Isolated	1908	Talbot Lane	Sutton Road	1	5	43	314916-314916	No.6 Ernest J. Clarke
+Tier3_Isolated	1908	Wolseley Street	Archibald Street	1	37	77	316077-316077	No.48 William Taylor
+Tier3_Isolated	1910	Albert Avenue	Albion Street	1	88	37	174451-174451	No.90 Frederick Coombs
+Tier3_Isolated	1910	Baldwin Street	St. Woolos Road	1	97	34	175241-175241	No.31 John Lyons
+Tier3_Isolated	1910	Batchelor-road	Batchelor Road	1	11	11	175534-175534	No.8 Frederick Spear
+Tier3_Isolated	1910	Tredegar Place	Bridge Street	1	9	52	176074-176074	No.74 Mrs. Aspinall
+Tier3_Isolated	1910	Cedar Road	Caxton Place	1	24	4	177353-177353	No.4 W. J. & Sons Gibb
+Tier3_Isolated	1910	Chepstow-road	Penylan Park	1	74	2	177578-177578	No.375 Francis Henry Shepherd
+Tier3_Isolated	1910	Chepstow-road	Lawrence Hill	1	74	4	177598-177598	No. C. P. Simmonds
+Tier3_Isolated	1910	Clyffard Crescent	Redland Street	1	33	106	178189-178189	No.11 John Bennett
+Tier3_Isolated	1910	Dock-street	Dock Street	1	140	143	180234-180234	No.186 T. S. Gill
+Tier3_Isolated	1910	Faulkner Road	Feering Street	1	37	34	181385-181385	No.10 Thomas Ford
+Tier3_Isolated	1910	Lime-street	Lime Street	1	3	88	183918-183918	No.4 Abram Manship
+Tier3_Isolated	1910	Locke Street	Bedford Road	1	60	7	184364-184364	No.26 Thomas Price
+Tier3_Isolated	1910	London Street	Lucas Street	1	53	1	184394-184394	No.2 George Gibbon
+Tier3_Isolated	1910	Lord Street	Rose Street	1	10	24	184433-184433	No.10 Thomas Richards
+Tier3_Isolated	1910	Market House	Crescent Road	1	4	38	185078-185078	No.12 William Tamplin
+Tier3_Isolated	1910	Mill Parade	Mill Street	1	87	5	185296-185296	No.31 John Fulford
+Tier3_Isolated	1910	Mill Parade	Waterloo Road	1	87	24	185327-185327	No.25 William Richards
+Tier3_Isolated	1910	Oak Street	Oak Terrace	1	23	7	185741-185741	No.8 Henry Wheeler
+Tier3_Isolated	1910	Portskewett Street	Duckpool Road	1	16	190	186149-186149	No.11 William Clarke
+Tier3_Isolated	1910	Trostrev Street	Trostrey Street	1	10	0	188833-188833	No.11 William A. Hobbs
+Tier3_Isolated	1910	Walsall Street	Walmer Road	1	68	19	189394-189394	No.10 Albert J. Croft
+Tier3_Isolated	1910	Wharf Road	Baldwin Street	1	89	97	189615-189615	No.41 William Taylor
+Tier3_Isolated	1910	Whitehead Street	Whitstone Road	1	31	11	189837-189837	No. Thomas Smedley
+Tier3_Isolated	1910	Withey Bed	Witham Street	1	15	58	190110-190110	No.10 Henry J. Llewellyn
+Tier3_Isolated	1910	Wyndham Street	Woodland Road	1	32	45	190271-190271	No.6 Mrs. M. Green
+Tier3_Isolated	1913	Agincourt Street	Ailesbury Street	1	85	18	190518-190518	No.20 William Biddiscombe
+Tier3_Isolated	1913	Albion Street	Albert Avenue	1	112	12	190686-190686	No.14 Joseph Henry Wicks
+Tier3_Isolated	1913	Chepstow Road	Chelston Place	1	337	6	193759-193759	No.7 William Preece
+Tier3_Isolated	1913	Penylan Park	Lawrence Hill	1	24	4	193909-193909	No. C. P. Simmonds
+Tier3_Isolated	1913	Church-Road	Wharf Road	1	51	90	194312-194312	No.35 William Bethell
+Tier3_Isolated	1913	Duke Street	Dumfries Place	1	10	0	197176-197176	No.3 Henry Webb
+Tier3_Isolated	1913	Locke Street	Llewellin Street	1	47	2	201016-201016	No.5 Mrs. Mary Poole
+Tier3_Isolated	1913	Locke Street	Llanwern Street	1	47	41	201021-201021	No.15 William Sheppard
+Tier3_Isolated	1913	Marshes Road	Marlborough Road	1	13	67	201778-201778	No.20 C. Ericksen
+Tier3_Isolated	1913	Oswald Road	Pant Road	1	46	7	202683-202683	No.10 James Cavill
+Tier3_Isolated	1913	Oswald Road	Park Square	1	46	16	202725-202725	No.25 Thomas R. Giddy
+Tier3_Isolated	1913	Portskewett Street	Pentonville	1	14	21	202815-202815	No.17 H. W. Morrish
+Tier3_Isolated	1913	Rodney Road	St. John's Road	1	27	41	203897-203897	No.20 William Morris
+Tier3_Isolated	1913	Shaftesbury Street	Skinner Street	1	191	1	204714-204714	No.3 Albert Lonnon
+Tier3_Isolated	1913	Thomas Street	Temple Street	1	12	26	205695-205695	No.26 Thomas H. Spurrier
+Tier3_Isolated	1913	Tyllwyd Road	Goodrich Crescent	1	10	44	205874-205874	No.3 John Donovan
+Tier3_Isolated	1913	Tyllwyd Road	Turner Street	1	10	2	205875-205875	No.4 T. B. Tucker
+Tier3_Isolated	1913	Victoria Crescent	Vine Place	1	32	3	206068-206068	No.5 Frederick Mitchell
+Tier3_Isolated	1913	Walmer Road	Bristol Street	1	31	85	206254-206254	No.7 George Miller
+Tier3_Isolated	1913	Waterloo Road	Walsall Street	1	52	41	206329-206329	No.15 Alfred Noakes
+Tier3_Isolated	1913	West Park Road	West Market Street	1	37	3	206453-206453	No.5 James Dawes
+Tier3_Isolated	1913	Whitby Place	Wheeler Street	1	9	32	206755-206755	No.34 William Saysill
+Tier3_Isolated	1913	Wingate Street	Dewstow Street	1	55	28	207060-207060	No.40 John Richards
+Tier3_Isolated	1913	Wolseley Street	Witham Street	1	49	35	207123-207123	No.10 Henry J. Llewellyn
+Tier3_Isolated	1913	Woodland Road	Wolseley Street	1	51	49	207177-207177	No.6 William H. Perkins
+Tier3_Isolated	1915	Bryngas Road	Brynglas Road	1	1	34	209418-209418	No.10 J. P. McLaren
+Tier3_Isolated	1915	Castle Street	Pugsley Street	1	32	23	210626-210626	No.13 James White
+Tier3_Isolated	1915	Calne Place	Church Road	1	33	67	211374-211374	No.80 Professor & Son Banks
+Tier3_Isolated	1915	Exeter Road	Exeter Street	1	17	19	214830-214830	No.2 Robert Keeble
+Tier3_Isolated	1915	Ford Street	Filey Road	1	16	1	215165-215165	No.5 Isaac Gething
+Tier3_Isolated	1915	Frank Street	Francis Street	1	21	4	215207-215207	No.6 Frank Bowen
+Tier3_Isolated	1915	Gaskell Street	Gaer Street	1	38	1	215298-215298	No.10 W. N. Collings
+Tier3_Isolated	1915	Jeddo Street	Fair Oak Avenue	1	104	72	216966-216966	No.34 William Richards
+Tier3_Isolated	1915	Orchard Street	Halstead Street	1	47	12	219771-219771	No.15 Thomas Taylor
+Tier3_Isolated	1915	Orchard Street	Coldra Road	1	47	62	219797-219797	No.36 Frank Marks
+Tier3_Isolated	1915	Prospect Street	Pugsley Street	1	42	23	220369-220369	No.30 Albert Thomas Wright
+Tier3_Isolated	1915	Ragland Street	South Market Street	1	102	54	220501-220501	No.29 William Watkins
+Tier3_Isolated	1915	St. Mark's Crescent	St. John's Road	1	47	30	221445-221445	No.3 William F. Cole
+Tier3_Isolated	1915	Stow Hill	Stow Park Circus	1	232	18	222782-222782	No.6 C. W. Marsh
+Tier3_Isolated	1915	Troddan Street	Trostrey Street	1	9	6	223054-223054	No.11 William A. Hobbs
+Tier3_Isolated	1920	Agincourt Street	Ailesbury Street	1	62	24	243749-243749	No.26 Mrs. Rosannah Webley
+Tier3_Isolated	1920	Cambria Place	Crown Street	1	37	24	244006-244006	No. Richard Martin
+Tier3_Isolated	1920	Cambria Place	Albert Avenue	1	37	16	244012-244012	No.79 Henry Poole
+Tier3_Isolated	1920	Cambria Place	Albion Street	1	37	72	244013-244013	No.80 W. J. Pritchard
+Tier3_Isolated	1920	Bedford Road	West Street	1	87	51	245296-245296	No.15 William Watkins
+Tier3_Isolated	1920	Capel Street	Capel Crescent	1	153	20	246785-246785	No.33 John Henry Hobbs
+Tier3_Isolated	1920	Chepstow Road	Godfrey Road	1	319	42	247293-247293	No.163  Stores
+Tier3_Isolated	1920	Chepstow Road	Farm Cottages	1	319	0	247391-247391	No.2 Edward Plummer
+Tier3_Isolated	1920	Chepstow Road	Somerton Place	1	319	0	247399-247399	No.6 Walter Binning
+Tier3_Isolated	1920	Chepstow Road	Eveswell Terrace	1	319	0	247469-247469	No.232 F. S. Portnell
+Tier3_Isolated	1920	Church Road	Commercial Road	1	64	258	247722-247722	No.1 W. E. Robertson
+Tier3_Isolated	1920	Church Street	Church Road	1	62	64	247807-247807	No.78 Albert Norvill
+Tier3_Isolated	1920	Hoskins Street	Ifton Street	1	101	20	253389-253389	No.10 Samuel Cotterill
+Tier3_Isolated	1920	Kingsmill Terrace	Kingston Road	1	16	5	253802-253802	No.12 William Hiley
+Tier3_Isolated	1920	Livingstone Place	Llanarth Street	1	84	25	254408-254408	No.42 W. J. & Sons Gibb
+Tier3_Isolated	1920	Llanvapley Road	Llanwern Street	1	17	41	254557-254557	No.15 William Sheppard
+Tier3_Isolated	1920	Llanvapley Road	Llewellin Street	1	17	6	254567-254567	No.12 Thomas Savigar
+Tier3_Isolated	1920	Lucas Street	Lyne Road	1	41	41	254838-254838	No.51 William Foote
+Tier3_Isolated	1920	Ombersley Road	Halstead Street	1	175	105	256334-256334	No.15 Thomas Taylor
+Tier3_Isolated	1920	Redland Street	Godfrey Road	1	102	42	257309-257309	No.1  Stores
+Tier3_Isolated	1920	Ruperra Street	St. Edward Street	1	42	62	257921-257921	No.8 Henry Green
+Tier3_Isolated	1920	Stow Hill	St. Mark's Crescent	1	162	36	258122-258122	No.6 Harry Russell
+Tier3_Isolated	1920	Shaftesbury Street	Sidney Street	1	179	6	258531-258531	No.6 E. L. Boulter
+Tier3_Isolated	1920	Walsall Street	Waterloo Road	1	58	49	260098-260098	No.35 John Gilmore
+Tier3_Isolated	1920	Witham Street	Winmill Street	1	75	1	260766-260766	No.5 Charles Benson
+Tier3_Isolated	1924	Albert Avenue	Crown Street	1	88	24	261407-261407	No. Richard Martin
+Tier3_Isolated	1924	Canon Street	Capel Street	1	101	65	264200-264200	No.58 Henry W. Couppey
+Tier3_Isolated	1924	Somerton Place	Chepstow Road	1	16	427	264850-264850	No. P. C. Hodgson
+Tier3_Isolated	1924	Penylan Terrace	Christchurch Road	1	5	160	265253-265253	No.5 S. J. Ellis
+Tier3_Isolated	1924	East Usk Road	Ebenezer Terrace	1	24	31	268658-268658	No.29 Thomas Hill
+Tier3_Isolated	1924	New Cottages	East Usk Road	1	22	24	268718-268718	No.29 Mrs. Mary Clements
+Tier3_Isolated	1924	Francis Street	Friars Road	1	22	1	269432-269432	No.11 Frederick Sims
+Tier3_Isolated	1924	Francis Street	Friars Street	1	22	6	269436-269436	No.18  Water Works yard
+Tier3_Isolated	1924	Provision Market	Griffin Street	1	11	1	270178-270178	No.4 H. G. Bere
+Tier3_Isolated	1924	Oaklands Road	Kensington Place	1	4	3	271587-271587	No. W. J. Lloyd
+Tier3_Isolated	1924	Market Street	Godfrey Road	1	12	39	273361-273361	No.10-11  Stores
+Tier3_Isolated	1924	Marshfield Street	May Street	1	17	8	273463-273463	No.3 Edward Kersley
+Tier3_Isolated	1924	Highweek Terrace	Morden Road	1	9	58	273799-273799	No.31 William Yeates
+Tier3_Isolated	1924	Belle Vue Terrace	Morden Road	1	13	58	273815-273815	No.47 W. A. Allen
+Tier3_Isolated	1924	Park Street	Rochester Road	1	40	24	274460-274460	No.18 Alfred Taylor
+Tier3_Isolated	1924	Rockfield Road	Rochester Road	1	4	24	275769-275769	No.6 Sidney Garvey
+Tier3_Isolated	1924	Walford Street	Rochester Road	1	21	24	278465-278465	No.14 William Pritchard
+Tier3_Isolated	1924	Wednesbury Street	West Park Road	1	24	20	278740-278740	No.17 Joseph J. Reider
+Tier3_Isolated	1925	Alice Street	Alfred Street	1	63	8	225174-225174	No.11 Mrs. Ada Fowler
+Tier3_Isolated	1925	Beaufort Road	Victoria Place	1	3	17	226243-226243	No.2 John Francis
+Tier3_Isolated	1925	Canning Street	Capel Street	1	4	65	227718-227718	No.58 Henry W. Couppey
+Tier3_Isolated	1925	Upton Place	Chepstow Road	1	5	406	228562-228562	No.196 Mark Swinnerton
+Tier3_Isolated	1925	Coventry Road	Crescent Road	1	49	28	230851-230851	No.39 Albert Crum
+Tier3_Isolated	1925	Henson Street	Henry Street	1	38	121	234399-234399	No.103 Robert Parker
+Tier3_Isolated	1925	London Street	Macarthy's Court	1	59	2	236606-236606	No.4 Edward Bishop
+Tier3_Isolated	1925	Potter Street	Pottery Terrace	1	68	30	238625-238625	No.19 William Maloney
+Tier3_Isolated	1925	Queen's Hill Terrace	Queen's Hill	1	23	33	239048-239048	No.38 E. C. Wring
+Tier3_Isolated	1925	Rose Street	Ross Street	1	43	37	239871-239871	No.25 Allan Warburton
+Tier3_Isolated	1925	Shaftesbury Street	Godfrey Road	1	175	41	240742-240742	No.128  Stores
+Tier3_Isolated	1925	Somerton Road	South Market Street	1	167	40	241070-241070	No.45 John Reeves
+Tier3_Isolated	1925	Walsall Street	Walmer Road	1	57	30	242584-242584	No.4 Mrs. Ellen Pask
+Tier3_Isolated	1925	Whitstone-road	Whitstone Road	1	42	1	243019-243019	No. C. C. Watkins
+Tier3_Isolated	1925	Wilison Street	Wilson Street	1	1	17	243146-243146	No.3 William Burke
+Tier3_Isolated	1927	Adeline Street	Ailesbury Street	1	101	36	279773-279773	No.6 James Corten
+Tier3_Isolated	1927	Alice Street	Chestnut Avenue	1	58	56	280268-280268	No.30 William John Turner
+Tier3_Isolated	1927	Barrack Lane	Bassaleg Road	1	75	0	281434-281434	No.38 Mrs. Mary A. Davis
+Tier3_Isolated	1927	Caerau Road	Brynhyfryd Road	1	46	6	282574-282574	No.17 Thomas White
+Tier3_Isolated	1927	Crown Street	Cumberland Road	1	26	35	286904-286904	No.3 J. Lionel Toole
+Tier3_Isolated	1927	Daniel Street	Dean Street	1	57	18	287097-287097	No.44 John Hoare
+Tier3_Isolated	1927	Leicester Road	Adeline Street	1	31	101	291801-291801	No.18 William Griffin
+Tier3_Isolated	1927	Marion Street	Mansel Street	1	65	13	293423-293423	No.9 George Cripps
+Tier3_Isolated	1927	New Ruperra Street	Nash Road	1	53	42	294369-294369	No.9 Reuben Stokes
+Tier3_Isolated	1927	Portland Street	Portskewett Street	1	69	14	295120-295120	No.39 Jesse Berry
+Tier3_Isolated	1927	Ross Street	Rothesay Road	1	108	20	296659-296659	No.16 Arthur Gillett
+Tier3_Isolated	1927	St. Edward Street	St. Julian Street	1	75	24	297015-297015	No.28 William Baiss
+Tier3_Isolated	1927	Claremont Terrace	Somerton Road	1	4	38	297978-297978	No.4 Stephen White
+Tier3_Isolated	1927	Cambria Place	Stow Hill	1	57	123	298383-298383	No.124 William Dunsby
+Tier3_Isolated	1927	Walbrook Road	Wallis Street	1	14	5	299599-299599	No.12 John Henry Pring
+Tier3_Isolated	1927	Windsor Road	Raglan Street	1	95	131	300293-300293	No.79 John Richards
+Tier3_Isolated	1936	Hawarden Road	Henry Street	1	87	38	11780-11780	No.81 William Hersey
+Tier3_Isolated	1936	Westville Road	Wharf Road	1	93	28	22632-22632	No.43 Percy Dennis
