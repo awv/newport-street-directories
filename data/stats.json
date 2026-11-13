@@ -6,7 +6,7 @@
     "total_streets": 986,
     "total_years": 27,
     "years_span": "1876\u20131936",
-    "unique_trade_strings": 24734
+    "unique_trade_strings": 24720
   },
   "yearly_overview": [
     {
@@ -1447,7 +1447,7 @@
     },
     {
       "trade": "Ironworker",
-      "count": 7651,
+      "count": 7683,
       "earliest": 1882,
       "latest": 1936
     },
@@ -1621,7 +1621,7 @@
     },
     {
       "trade": "Hairdresser",
-      "count": 1135,
+      "count": 1146,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1815,8 +1815,8 @@
       "1880s": 15,
       "1890s": 55,
       "1900s": 319,
-      "1910s": 2069,
-      "1920s": 3190,
+      "1910s": 2072,
+      "1920s": 3215,
       "1930s": 1029
     },
     "Steelworker": {
@@ -2151,9 +2151,9 @@
       },
       {
         "street": "Magor Street",
-        "count": 434,
+        "count": 435,
         "total": 724,
-        "pct": 59.9
+        "pct": 60.1
       },
       {
         "street": "Archibald Street",

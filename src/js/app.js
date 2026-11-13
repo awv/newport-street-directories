@@ -421,7 +421,7 @@ function toggleMobileSidebar() {
         .replace(/\bshipwrgt\b/gi, 'Shipwright')
         .replace(/\bwheelwr(?:igh|igt|rt|it|gts?|\'[a-z]+)\b/gi, 'Wheelwright')
         .replace(/\bbasket\s*mkr\.?/gi, 'Basket Maker')
-        .replace(/\bhairdr\.?/gi, 'Hairdresser')
+        .replace(/\bhairdr(?:\.(?!\w)|\b)/gi, 'Hairdresser')
         .replace(/\bins\.?\s*agnt\.?/gi, 'Insurance Agent')
         .replace(/\bdec[\x27\x22\x60]?t[\x27\x22\x60]?rs\b/gi, 'Decorators')
         .replace(/\bdectrs\b/gi, 'Decorators')
