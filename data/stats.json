@@ -6,7 +6,7 @@
     "total_streets": 1029,
     "total_years": 27,
     "years_span": "1876\u20131936",
-    "unique_trade_strings": 25565
+    "unique_trade_strings": 25563
   },
   "yearly_overview": [
     {
@@ -78,7 +78,7 @@
       "total": 10096,
       "with_trade": 7470,
       "pct": 74.0,
-      "trades_in_names": 7,
+      "trades_in_names": 8,
       "names_in_trades": 23
     },
     {
@@ -94,7 +94,7 @@
       "total": 12030,
       "with_trade": 8349,
       "pct": 69.4,
-      "trades_in_names": 9,
+      "trades_in_names": 10,
       "names_in_trades": 26
     },
     {
@@ -126,7 +126,7 @@
       "total": 12835,
       "with_trade": 9029,
       "pct": 70.3,
-      "trades_in_names": 19,
+      "trades_in_names": 20,
       "names_in_trades": 27
     },
     {
@@ -182,7 +182,7 @@
       "total": 17242,
       "with_trade": 10805,
       "pct": 62.7,
-      "trades_in_names": 14,
+      "trades_in_names": 15,
       "names_in_trades": 60
     },
     {
@@ -198,7 +198,7 @@
       "total": 18488,
       "with_trade": 11335,
       "pct": 61.3,
-      "trades_in_names": 15,
+      "trades_in_names": 16,
       "names_in_trades": 42
     },
     {
@@ -214,7 +214,7 @@
       "total": 21237,
       "with_trade": 13739,
       "pct": 64.7,
-      "trades_in_names": 24,
+      "trades_in_names": 25,
       "names_in_trades": 84
     },
     {
@@ -222,13 +222,13 @@
       "total": 24729,
       "with_trade": 13682,
       "pct": 55.3,
-      "trades_in_names": 12,
+      "trades_in_names": 14,
       "names_in_trades": 17
     }
   ],
   "trades_in_names": {
-    "total_detected": 446,
-    "in_forename_count": 152,
+    "total_detected": 454,
+    "in_forename_count": 160,
     "in_surname_count": 294,
     "top_trapped_trades": [
       {
@@ -248,12 +248,12 @@
         "count": 18
       },
       {
-        "trade": "Plasterer",
-        "count": 13
+        "trade": "Engineer",
+        "count": 14
       },
       {
-        "trade": "Engineer",
-        "count": 12
+        "trade": "Plasterer",
+        "count": 13
       },
       {
         "trade": "Clerk",
@@ -270,6 +270,10 @@
       {
         "trade": "Inspector",
         "count": 11
+      },
+      {
+        "trade": "Nurse",
+        "count": 10
       },
       {
         "trade": "Coal Trimmer",
@@ -294,10 +298,6 @@
       {
         "trade": "Surveyor",
         "count": 8
-      },
-      {
-        "trade": "Nurse",
-        "count": 7
       },
       {
         "trade": "Shoemaker",
@@ -332,6 +332,10 @@
         "count": 3
       },
       {
+        "trade": "Pilot",
+        "count": 3
+      },
+      {
         "trade": "G.W.R",
         "count": 3
       },
@@ -346,10 +350,6 @@
       {
         "trade": "Sailor",
         "count": 2
-      },
-      {
-        "trade": "Railway Guard",
-        "count": 2
       }
     ],
     "by_year": {
@@ -360,24 +360,24 @@
       "1890": 27,
       "1892": 13,
       "1893": 4,
-      "1894": 7,
+      "1894": 8,
       "1895": 43,
-      "1898": 9,
+      "1898": 10,
       "1899": 10,
       "1900": 20,
       "1901": 3,
-      "1902": 19,
+      "1902": 20,
       "1903": 20,
       "1906": 17,
       "1908": 15,
       "1910": 36,
       "1913": 37,
-      "1915": 14,
+      "1915": 15,
       "1920": 34,
-      "1924": 15,
+      "1924": 16,
       "1925": 40,
-      "1927": 24,
-      "1936": 12
+      "1927": 25,
+      "1936": 14
     },
     "samples": [
       {
@@ -442,6 +442,16 @@
       },
       {
         "year": "1936",
+        "street": "Union Street",
+        "house_number": "11",
+        "surname": "welding",
+        "forename": "engineer",
+        "trade": "engineer Freeguard Bros",
+        "found": "Engineer",
+        "field": "forename"
+      },
+      {
+        "year": "1936",
         "street": "Vivian Road",
         "house_number": "19",
         "surname": "Ditto",
@@ -478,6 +488,16 @@
         "forename": "[Ironworker]",
         "trade": "",
         "found": "Ironworker",
+        "field": "forename"
+      },
+      {
+        "year": "1936",
+        "street": "Walsall Street",
+        "house_number": "23",
+        "surname": "Hughes",
+        "forename": "Nurse",
+        "trade": "",
+        "found": "Nurse",
         "field": "forename"
       },
       {
@@ -708,26 +728,6 @@
         "forename": "architect",
         "trade": "",
         "found": "Architect",
-        "field": "forename"
-      },
-      {
-        "year": "1893",
-        "street": "Dock Street",
-        "house_number": "",
-        "surname": "",
-        "forename": "Engineer's Depot",
-        "trade": "G.W.R.",
-        "found": "Engineer",
-        "field": "forename"
-      },
-      {
-        "year": "1893",
-        "street": "Town Dock",
-        "house_number": "",
-        "surname": "",
-        "forename": "Dock Supt. and Engineer's offices",
-        "trade": "",
-        "found": "Engineer",
         "field": "forename"
       },
       {
@@ -1585,7 +1585,7 @@
     },
     {
       "trade": "Gardener",
-      "count": 1404,
+      "count": 1405,
       "earliest": 1878,
       "latest": 1936
     },
@@ -2476,7 +2476,7 @@
     ]
   },
   "women_in_directories": {
-    "total_female_heads": 34475,
+    "total_female_heads": 34477,
     "by_year": {
       "1876": 0,
       "1878": 486,
@@ -2491,7 +2491,7 @@
       "1898": 1201,
       "1899": 1165,
       "1900": 1212,
-      "1901": 1255,
+      "1901": 1256,
       "1902": 1260,
       "1903": 1314,
       "1905": 0,
@@ -2504,7 +2504,7 @@
       "1924": 2406,
       "1925": 2545,
       "1927": 2846,
-      "1936": 3058
+      "1936": 3059
     },
     "top_trades": [
       {
