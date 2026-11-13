@@ -1,0 +1,165 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,CORPUS CHRISTI STREET,,,,,,
+resident,CORPUS CHRISTI STREET,52,,Chas.,Fewings,painter,
+resident,CORPUS CHRISTI STREET,50,,Geo.,Smith,
+resident,CORPUS CHRISTI STREET,48,,F. C.,Andrews,Moorlands
+resident,CORPUS CHRISTI STREET,46,,J. H.,Clarke,Eddystone
+resident,CORPUS CHRISTI STREET,44,,D.,Howell,Graingair
+resident,CORPUS CHRISTI STREET,42,,Arthur G.,Jones,Melville
+resident,CORPUS CHRISTI STREET,40,,Mrs. E.,Rees,The Laurels
+resident,CORPUS CHRISTI STREET,38,,James,Boyd,"physician & surgeon, The Ferns",
+resident,CORPUS CHRISTI STREET,36,,Miss Edith,Parry,
+resident,CORPUS CHRISTI STREET,34,,Miss Muriel,James,
+resident,CORPUS CHRISTI STREET,32,,Mrs. Sarah,Evans,
+resident,CORPUS CHRISTI STREET,30,,George,Hall,tailor
+cross_street,CORPUS CHRISTI STREET,,,here is Grafton-road,,,
+resident,CORPUS CHRISTI STREET,24,,D.B. Magneto & Dynamo Repairing Co.,,,
+resident,CORPUS CHRISTI STREET,22,,John,Orton,grocer
+resident,CORPUS CHRISTI STREET,20,,W. T.,Davies,newsagent
+resident,CORPUS CHRISTI STREET,18,,Wm. J.,Baynham,shop
+resident,CORPUS CHRISTI STREET,16,,Mrs. S. L. & Son,Lawrence,
+resident,CORPUS CHRISTI STREET,,,Francis Geo.,Lawrence,
+resident,CORPUS CHRISTI STREET,14,,Mrs. F. E.,Cross,
+resident,CORPUS CHRISTI STREET,,,Mrs. Edith,Bevan,draper
+resident,CORPUS CHRISTI STREET,12,,Sweeting's,,confectioners
+resident,CORPUS CHRISTI STREET,10,,Mrs. Elizabeth,Tandy,greengrocer, etc.
+cross_street,CORPUS CHRISTI STREET,,,here is St. Vincent-road,,,
+resident,CORPUS CHRISTI STREET,,,Coliseum Picture Theatre,,,
+cross_street,CORPUS CHRISTI STREET,,,here is Clarence-place,,,
+street,COUNCIL CHAMBERS,,,,,,
+cross_street,COUNCIL CHAMBERS,,,Corn-street,,,
+street,COSELEY STREET,,,,,,E 5
+cross_street,COSELEY STREET,,,From Bilston-street to Tipton-street,,,
+street,COURTNEY STREET,,,,,,C 3
+cross_street,COURTNEY STREET,,,(off Turner-street),,,
+resident,COURTNEY STREET,,,James,Tetlow,
+resident,COURTNEY STREET,,,James,Tetlow,cornct
+resident,COURTNEY STREET,,,W.,Harvey,manager, Glendale house
+street,COURTYBELLA ST.,,,,,,E 5
+cross_street,COURTYBELLA ST.,,,From 111 Commercial-road to Albion-street,,,
+cross_street,COURTYBELLA ST,,,(RIGHT HAND SIDE),,,
+resident,COURTYBELLA ST.,1,,Albert,Humphries,G.W.R.
+resident,COURTYBELLA ST.,2,,Chas. W. F.,Bartlett,
+resident,COURTYBELLA ST.,3,,Thomas,Power,labourer
+resident,COURTYBELLA ST.,4,,A. E.,Diaper,motor garage
+resident,COURTYBELLA ST.,5,,Thomas,Edwards,labourer
+resident,COURTYBELLA ST.,6,,Alfred G.,Hyndman,oil and grease manufacturers
+resident,COURTYBELLA ST,,,J. O. & Co.,Dibble,
+resident,COURTYBELLA ST.,7,,W.,Arnold,fireman
+resident,COURTYBELLA ST,,,Edward,Donovan,G.W.R.
+resident,COURTYBELLA ST.,8,,Mrs. N. M.,Hone,
+resident,COURTYBELLA ST,,,Samuel,Hone,labourer
+resident,COURTYBELLA ST.,9,,Mrs. Rose Emma,James,
+resident,COURTYBELLA ST.,10,,Fred C.,Lambert,rivetter
+resident,COURTYBELLA ST.,11,,Samuel,Ford,labourer
+street,CORPORATION ROAD,,,,,,
+resident,CORPORATION ROAD,170,,J. H.,Tremayne,"confect and stationer",
+resident,CORPORATION ROAD,,,CORPORATION ROAD POST OFFICE, M.O., S.B., & A. & I.,,
+resident,CORPORATION ROAD,,,P.O. TEL. CALL OFFICE,,,
+cross_street,CORPORATION ROAD,,,here is Cyril-street,,,
+resident,CORPORATION ROAD,168,,Robert,Henson,ironwkr
+resident,CORPORATION ROAD,166,,Wallace,Hill,foreman
+resident,CORPORATION ROAD,164,,M.,Price,general shop
+resident,CORPORATION ROAD,162,,Void,,,
+resident,CORPORATION ROAD,,,CORPORATION ELECTRICITY STATION,,,
+resident,CORPORATION ROAD,,,Chas. J.,Clarke,tobacc
+resident,CORPORATION ROAD,140-142-146,,James F.,,whlsle merchants
+resident,CORPORATION ROAD,,,Fred,Baker,builder, etc.
+resident,CORPORATION ROAD,128,,Sidney H.,Bryant,"fish merchant",
+resident,CORPORATION ROAD,,,Mrs. Lizzie,Lord,
+resident,CORPORATION ROAD,126,,Mrs. Catherine,Davies,
+resident,CORPORATION ROAD,124,,Victor,Marshall,travlr
+resident,CORPORATION ROAD,122,,Anthony,Hiley,manager
+resident,CORPORATION ROAD,120,,Mrs. Charlotte,Evans,
+resident,CORPORATION ROAD,118,,Abraham,Carnell,tailor
+resident,CORPORATION ROAD,116,,A. C.,Carpenter,ironrwkr
+resident,CORPORATION ROAD,114,,Gilbert J.,Gould,
+resident,CORPORATION ROAD,,,Wm. W.,Matthews,tailor
+resident,CORPORATION ROAD,112,,Mrs. R.,Rose,
+resident,CORPORATION ROAD,110,,W.,Richards,foreman
+resident,CORPORATION ROAD,,,James H.,Beer,decorator
+resident,CORPORATION ROAD,108,,T. G.,Barton,Kinross
+resident,CORPORATION ROAD,106,,Fred. J.,Dark,builder
+resident,CORPORATION ROAD,104,,Philip H.,Gowan,H.M.C.
+resident,CORPORATION ROAD,102,,Wm.,Shellard,clerk
+resident,CORPORATION ROAD,100,,J. F.,Hillman,Anchorage
+resident,CORPORATION ROAD,98,,Lancelot,Snowdon,Glen Roy
+resident,CORPORATION ROAD,96,,Frank,Gillman,clerk
+resident,CORPORATION ROAD,94,,R.,Snowdon,Tividale
+resident,CORPORATION ROAD,92,,Jas.,Cullum,blacksmith
+resident,CORPORATION ROAD,90,,Mrs. A. C.,Thomas,
+resident,CORPORATION ROAD,88,,Fredk.,Williams,baker
+resident,CORPORATION ROAD,86,,William,Collman,
+resident,CORPORATION ROAD,84,,T. C.,Beddis,Claverham
+resident,CORPORATION ROAD,82,,James W.,Gray,dairy, etc.
+resident,CORPORATION ROAD,,,Athletic Ground Entrance,,,
+resident,CORPORATION ROAD,80,,Alb. E.,Pritchard,travlr
+resident,CORPORATION ROAD,78,,D. H.,Bennett,Holmeville
+resident,CORPORATION ROAD,76,,T. G.,Lewis,"M.B., phys. and surgeon, Rosedale",
+resident,CORPORATION ROAD,74,,Albert,Razey,Fair Lea
+resident,CORPORATION ROAD,72,,Henry G.,Tilney,schlmstr
+resident,CORPORATION ROAD,70,,Rubin,Bond,electrician
+resident,CORPORATION ROAD,68,,A. H.,Chappell,Cartref
+resident,CORPORATION ROAD,66,,Reginald,Diamond,
+resident,CORPORATION ROAD,,,William,Park,manufact'r
+resident,CORPORATION ROAD,64,,Simon,Hersman,Belmont
+resident,CORPORATION ROAD,62,,T.,Hurley,Birdlip h
+resident,CORPORATION ROAD,60,,Wm. J.,Leonard,crane dv
+resident,CORPORATION ROAD,60,,Mosaic & Terrazzo Co.,Ltd.,,
+resident,CORPORATION ROAD,58,,Harry H.,Brunt,engineer
+resident,CORPORATION ROAD,56,,Norman,Pugh,decorator
+resident,CORPORATION ROAD,54,,Arch. F.,Dawes,clk of wrk
+resident,CORPORATION ROAD,264,,T. S.,Carter,grocer
+resident,CORPORATION ROAD,264,,T. S.,Carter,fruiterers
+resident,CORPORATION ROAD,,,Stephen N.,James,driver
+resident,CORPORATION ROAD,262,,Hughes & Sons,,cycle agt
+resident,CORPORATION ROAD,,,T. I.,Popham,bakery
+resident,CORPORATION ROAD,260,,Ernest,Lewis,shopkeeper
+resident,CORPORATION ROAD,258,,H. B.,Webb,butcher
+resident,CORPORATION ROAD,256,,Void,,,
+resident,CORPORATION ROAD,254,,Mrs. Eliz.,Wall,shop
+resident,CORPORATION ROAD,252,,Theo. D.,Poole,confct
+resident,CORPORATION ROAD,250,,H.,Bartlett,greengrocer
+resident,CORPORATION ROAD,,,Horace,Leighton,iwkr
+resident,CORPORATION ROAD,248,,Jas. H.,Griffin,confectioner
+resident,CORPORATION ROAD,246,,Robt.,Richards,butcher
+resident,CORPORATION ROAD,244,,A.,Otton,bootmaker
+resident,CORPORATION ROAD,242,,J.,Lowe,prov. merchant
+resident,CORPORATION ROAD,240,,George,Cox,shop
+resident,CORPORATION ROAD,,,John,Screen,ironworker
+resident,CORPORATION ROAD,238,,Alfred,Beesley,tobacc
+resident,CORPORATION ROAD,236,,Fred G.,Duckham,butchr
+resident,CORPORATION ROAD,234,,L.,Jenkins,shop
+resident,CORPORATION ROAD,232,,Mrs. Clara,Shelley,"Brooke drug stores",
+resident,CORPORATION ROAD,230,,Void,,,
+resident,CORPORATION ROAD,226,,Benj.,Tuft,fish shop
+resident,CORPORATION ROAD,224-222-220,,Thomas W.,Thomas,ironmonger
+resident,CORPORATION ROAD,,,Alfred L.,Lowndes,
+resident,CORPORATION ROAD,218,,W. H.,Floyd,boot dealer
+resident,CORPORATION ROAD,216,,A. E. & Sons,Hughes,cycle & motor agents
+resident,CORPORATION ROAD,214,,James,Willis,fish shop
+resident,CORPORATION ROAD,212,,G.,Nixon,furnisher
+resident,CORPORATION ROAD,210,,Mrs. Mary,Hall,
+resident,CORPORATION ROAD,,,Miss Emma,Watkins,
+resident,CORPORATION ROAD,210A,,E. A.,Stroud,hairdresser
+resident,CORPORATION ROAD,208,,George,Hughes,"Purley house",
+resident,CORPORATION ROAD,206,,T. H.,Phillips,grocer
+resident,CORPORATION ROAD,,,Alfred,Waite,ironrwkr
+cross_street,CORPORATION ROAD,,,here is Coverack-road,,,
+resident,CORPORATION ROAD,204-2,,Geo. E.,Nixon,outfitter and boot dealer
+resident,CORPORATION ROAD,200,,Wm. B.,Adlington,shop
+resident,CORPORATION ROAD,198-196,,J. F.,Fulton,pawnbkr and outfitter
+resident,CORPORATION ROAD,194,,J. S.,Kerslake,"hay and corn merchant",
+resident,CORPORATION ROAD,192,,Mrs. Clara,Shelly,drugs
+resident,CORPORATION ROAD,192a,,Laurence,Bennett,clerk
+resident,CORPORATION ROAD,190,,Mrs. E.,Reid,gen shop
+resident,CORPORATION ROAD,188,,J. S. Ltd.,Johnson,grcrs
+cross_street,CORPORATION ROAD,,,here is Morris-street,,,
+resident,CORPORATION ROAD,186,,Joe B.,Fouweather,gngcr
+resident,CORPORATION ROAD,184,,Sayer & Sayer,,grocers
+resident,CORPORATION ROAD,182,,James,Wreford,fish shop
+resident,CORPORATION ROAD,180,,E. T.,Smith,eating house
+resident,CORPORATION ROAD,178,,Morris & Co.,,tobacnsts
+resident,CORPORATION ROAD,176,,Mrs. M. L.,Charles,shop
+resident,CORPORATION ROAD,174,,J. E.,Cook,draper
+resident,CORPORATION ROAD,172,,H. & Co.,Birt,bootmakers

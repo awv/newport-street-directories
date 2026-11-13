@@ -1,0 +1,159 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,OAKLANDS ROAD,,,,,,D 3; See Kensington-place
+street,OAKLEY STREET,,,,,,E 3; Left-hand side Corporation-rd. (RIGHT HAND SIDE.)
+resident,OAKLEY STREET,2,,Geo. E.,Lavender,,
+resident,OAKLEY STREET,4,,Francis,Hornby,ironwkr,
+resident,OAKLEY STREET,6,,Wm. R.,Meeson,fireman,
+resident,OAKLEY STREET,8,,Benj.,Phillips,engineer,
+resident,OAKLEY STREET,10,,John,Goodwin,ironwoker
+resident,OAKLEY STREET,12,,Wm.,Reynolds,ironworker
+resident,OAKLEY STREET,14,,Mrs. Martha,Wall,,
+resident,OAKLEY STREET,16,,Rowland,Jones,doubler
+resident,OAKLEY STREET,18,,Joseph,White,labourer
+resident,OAKLEY STREET,20,,Mrs. E.,Williams,,
+resident,OAKLEY STREET,22,,Mrs. Emma,Yeates,,
+resident,OAKLEY STREET,24,,Geo. J.,Loveridge,ironwkr
+resident,OAKLEY STREET,26,,Chas.,Richards,ironwkr
+resident,OAKLEY STREET,28,,Joseph,Carvell,do
+resident,OAKLEY STREET,30,,Joseph,Kempson,do
+resident,OAKLEY STREET,32,,Hy.,Edwards,ironworker
+resident,OAKLEY STREET,34,,Harry,Price,,
+resident,OAKLEY STREET,36,,Mrs. Ellen,Harris,,
+resident,OAKLEY STREET,38,,W. H.,Tudor,ironworker
+resident,OAKLEY STREET,40,,L.,Troath,do
+resident,OAKLEY STREET,42,,J. T.,Powell,do
+resident,OAKLEY STREET,44,,Joseph,Saxon,do
+resident,OAKLEY STREET,46,,Alf.,Walters,labourer
+resident,OAKLEY STREET,48,,Daniel,Williams,,
+resident,OAKLEY STREET,50,,William,Fletcher,ironwkr
+resident,OAKLEY STREET,52,,Mrs. Elizabeth E.,Jones,,
+resident,OAKLEY STREET,54,,Hy.,Middleton,do
+resident,OAKLEY STREET,56,,Mrs. Mary,Clarke,,
+resident,OAKLEY STREET,58,,J.,Richards,ironworker
+resident,OAKLEY STREET,60,,John,Dunn,,
+resident,OAKLEY STREET,62,,Edward,Foy,ironworker
+cross_street,OAKLEY STREET,,,(return),,,
+resident,OAKLEY STREET,,,Vacant sites,,,
+resident,OAKLEY STREET,33,,Wm.,Hawkins,ironworker
+resident,OAKLEY STREET,31,,Saml.,Lee,general dealer
+resident,OAKLEY STREET,29,,David,Hodson,labourer
+resident,OAKLEY STREET,27,,Henry,Cureton,,
+resident,OAKLEY STREET,25,,Aaron,Lockley,ironwkr
+resident,OAKLEY STREET,23,,Edwin,Saunders,do
+resident,OAKLEY STREET,21,,William,Postle,do
+resident,OAKLEY STREET,19,,Walter,Smart,labourer
+resident,OAKLEY STREET,17,,Jack,Rosser,,
+resident,OAKLEY STREET,15,,Wm.,Robinson,labourer
+resident,OAKLEY STREET,13,,William,Newall,,
+resident,OAKLEY STREET,11,,Mrs.,Jones,,
+cross_street,OAKLEY STREET,,,here is Slade-street,,,
+resident,OAKLEY STREET,9,,Henry,Hassell,ironwkr
+resident,OAKLEY STREET,7,,Jos.,Stokes,ironworker
+resident,OAKLEY STREET,5,,Mrs. Annie,Cousens,,
+resident,OAKLEY STREET,3,,Henry,Barley,,
+resident,OAKLEY STREET,1,,Thos.,Carter,ironworker
+street,OMBERSLEY ROAD,,,,,,C 6; Bassalleg-road to Upton-road (RIGHT HAND SIDE.)
+resident,OMBERSLEY ROAD,2,,Joseph,Jones,,
+resident,OMBERSLEY ROAD,4,,Miss F.,Dunn,,
+resident,OMBERSLEY ROAD,30,,T. S.,Wheat,,
+resident,OMBERSLEY ROAD,32,,Rev. John,Page,,
+resident,OMBERSLEY ROAD,34,Blaenpant,Benj.,Williams,,
+resident,OMBERSLEY ROAD,36,Fulford,Misses,Powell,,
+resident,OMBERSLEY ROAD,38,Olinda,G. H.,Ingham,,
+resident,OMBERSLEY ROAD,40,Strathclyde,Mrs. W.,Roberts,,
+cross_street,OMBERSLEY ROAD,,,here is Llwynderi-road,,,
+resident,OMBERSLEY ROAD,42,Glynarthen,G.,Kerslake,,
+resident,OMBERSLEY ROAD,44,Helmecroft,H. E.,Thatcher,,
+resident,OMBERSLEY ROAD,46,Sharulen,Mrs. M.,Cooper,,
+resident,OMBERSLEY ROAD,48,Arosfa,T. E.,Serjent,,
+resident,OMBERSLEY ROAD,50,The Dingle,Thos. E.,Alger,,
+resident,OMBERSLEY ROAD,52,Handel house,E. G. R.,Richards,,
+cross_street,OMBERSLEY ROAD,,,here is Tyllwyd-road,,,
+resident,OMBERSLEY ROAD,54,Dargle,W. G.,Parkes,,
+resident,OMBERSLEY ROAD,56,,Herbert Percy,Barnes,,
+resident,OMBERSLEY ROAD,58,L.,Mrs.,Finch,,
+resident,OMBERSLEY ROAD,60,,John G.,Cossham,,
+resident,OMBERSLEY ROAD,,S. JOHN BAPTIST MISSION HOUSE—(The Clewer Sisters); Sister Florence; John's Vicarage,Rev. J. F. S.,Summers,sister superior; Rev. J. F. S. Summers Vicar of S. John's,
+cross_street,OMBERSLEY ROAD,,,here is Risca-road (return),,,
+resident,OMBERSLEY ROAD,99,The Wyelands,Mrs. Elizabeth,Daniel,,
+resident,OMBERSLEY ROAD,97,,Alfred,Newland,,
+resident,OMBERSLEY ROAD,95,,W.,Morgan,,
+resident,OMBERSLEY ROAD,93,Garth-celyn,W. H.,Robinson,,
+resident,OMBERSLEY ROAD,91,Jesmond,Watkin,Davies,,
+resident,OMBERSLEY ROAD,89,,John,Bowen,,[house
+resident,OMBERSLEY ROAD,87,,J. Martin,Wood,Mrs. J. Martin
+resident,OMBERSLEY ROAD,85,,James Henry,Griffiths,,
+resident,OMBERSLEY ROAD,83,Lansdowne,J. H.,Jones,,
+resident,OMBERSLEY ROAD,81,Townsend,W. J.,Collins,,
+resident,OMBERSLEY ROAD,,Little Haven,,,
+resident,OMBERSLEY ROAD,79,,T.,Watson,,
+cross_street,OMBERSLEY ROAD,,,(new road),,,
+resident,OMBERSLEY ROAD,77,,L. C.,Corfield,,
+resident,OMBERSLEY ROAD,,,Vacant sites,,,
+resident,OMBERSLEY ROAD,49,,J.,Dawson,solicitor,
+resident,OMBERSLEY ROAD,47,Brocklebank,L. S.,Abrahamson,,
+cross_street,OMBERSLEY ROAD,,,here is Hilla-road,,,
+resident,OMBERSLEY ROAD,45,Pendennis,T. H.,Howell,,
+resident,OMBERSLEY ROAD,43,Inglenook,Arth. S. B.,Graham,,
+resident,OMBERSLEY ROAD,,,Vacant sites,,,
+resident,OMBERSLEY ROAD,25,Glynneath,Hy.,Vaughan,,
+resident,OMBERSLEY ROAD,,,Vacant sites,,,
+resident,OMBERSLEY ROAD,19,Derwen,Mrs. M.,Payne,,
+resident,OMBERSLEY ROAD,17,Morven,Mrs.,Budd,,
+resident,OMBERSLEY ROAD,15,Benner,Mrs. M.A.,B.Ch.,Benner,M.A., M.B., B.Ch.,John, B.L.
+resident,OMBERSLEY ROAD,13,,T. Gwyn,Maddock,,
+resident,OMBERSLEY ROAD,11,Brenholly,Ernest,White,,
+resident,OMBERSLEY ROAD,9,Brenhilda,John,Phillips,,
+resident,OMBERSLEY ROAD,1,,Charles H.,Samuel,,
+resident,OMBERSLEY ROAD,3,,Mrs. E.,Waters,,
+resident,OMBERSLEY ROAD,5,,Wm. J.,Wheeler,,G.W.R.
+resident,OMBERSLEY ROAD,7,,Percy,Ellison,,
+resident,OMBERSLEY ROAD,9,,Geo. F.,Smith,decorator,
+resident,OMBERSLEY ROAD,11,,Job,Roberts,labourer,
+resident,OMBERSLEY ROAD,13,,Benj.,Michael D.,tailor,
+resident,OMBERSLEY ROAD,15,,Mrs. Kate,Hutchings,,
+resident,OMBERSLEY ROAD,,St. Julian's Bakery—C. J. Price,,,
+cross_street,OMBERSLEY ROAD,,,here is Durham-road,,,
+cross_street,OMBERSLEY ROAD,,,here is Sutton-road,,,
+resident,OMBERSLEY ROAD,,,J.,Richards,Donnington,
+cross_street,OMBERSLEY ROAD,,,here is Stockton-road (return),,,
+resident,OMBERSLEY ROAD,,,Vacant sites,,,
+resident,OMBERSLEY ROAD,26,,Albert,Masters,guard,
+resident,OMBERSLEY ROAD,24,,George,Tucker,carpenter,
+cross_street,OMBERSLEY ROAD,,,here is Stockton-road,,,
+resident,OMBERSLEY ROAD,20,Wall,,Frederick Charles,,
+cross_street,OMBERSLEY ROAD,,,here is Sutton-road,,,
+resident,OMBERSLEY ROAD,18,,Wm.,Powell,engine driver,
+cross_street,OMBERSLEY ROAD,,,here is Durham-road,,,
+resident,OMBERSLEY ROAD,16,,Mrs. Annie M.,Dunning,,
+resident,OMBERSLEY ROAD,14,,Wm.,Bundy,tin worker,
+resident,OMBERSLEY ROAD,12,,Joseph,Passwater,seaman,
+resident,OMBERSLEY ROAD,10,,Arthur,Owen,tipper,
+resident,OMBERSLEY ROAD,8,,C.,Manley,coal tipper,
+resident,OMBERSLEY ROAD,6,,W. H.,Liddiatt,metal wkr,
+resident,OMBERSLEY ROAD,4,,Frederick,Davies,printer,
+resident,OMBERSLEY ROAD,2,,Mrs. Jane,Owen,,
+street,OAK TERRACE,,,,,,C 4; From 7 Thomas-street
+resident,OAK TERRACE,1,,Void,,,
+resident,OAK TERRACE,2,,J.,Hyndman,,G.W.R.
+resident,OAK TERRACE,3,,Thos.,Mack,tram driver,
+resident,OAK TERRACE,4,,Thos.,Davies,basket maker,
+resident,OAK TERRACE,5,,Alfred,Hubbard,,
+resident,OAK TERRACE,6,,Mrs. M.,Macdonald,,
+resident,OAK TERRACE,7,,James,Smith,haulier,
+resident,OAK TERRACE,8,,Henry,Wheeler,,
+resident,OAK TERRACE,9,,Mrs.,Mulcahy,,
+street,OAKFIELD ROAD,,,,,,C 5; (Clytha Park) (RIGHT HAND SIDE.)
+resident,OAKFIELD ROAD,2,Daisy Lawn,Mrs. W. J.,Bailey,,
+resident,OAKFIELD ROAD,4,,J. H.,Jones,,[clytha
+resident,OAKFIELD ROAD,6,Bryn,E. A.,Hammond,,
+resident,OAKFIELD ROAD,8,Ty-melyn,E. B.,Newman,,
+cross_street,OAKFIELD ROAD,,,here is Parkfield-place,,,
+resident,OAKFIELD ROAD,10,Tynemouth,Andrew,Simpson,,
+cross_street,OAKFIELD ROAD,,,here is Hilla-road,,,
+resident,OAKFIELD ROAD,,Glen view,John,Davies,,
+resident,OAKFIELD ROAD,20,The Mount,A. J.,Phillips,,
+resident,OAKFIELD ROAD,22,Greenland,T.,Davies,,
+resident,OAKFIELD ROAD,24,,Oswald,Thomas,,
+resident,OAKFIELD ROAD,26,Oakhurst,Mrs. M.,Gwatkin,,
+resident,OAKFIELD ROAD,28,Hazelmere,Fred. J.,Dawson,,

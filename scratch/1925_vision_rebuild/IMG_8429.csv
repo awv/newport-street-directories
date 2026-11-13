@@ -1,0 +1,173 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,LON,34,,Walter,Allman,smith,goods insp
+resident,LON,5,,Marco,Vitalis,seaman,
+resident,LON,35,,Jos. Jas.,Powell,postman,
+resident,LON,4,,Edward,Bishop,platelayer,
+resident,LON,14,,Wm.,Chapman,,goods insp
+resident,LON,12,,Edgar A.,Hicks,tailor,
+resident,LON,10,,Arthur,Dowle,clerk,
+resident,LON,8,,Mrs. Catherine,Pugsley,Ty Gwaliod,
+cross_street,LON,,,here is Exeter-street,,,
+resident,LON,,,Congregational Church,,,
+street,LORD STREET,C 3,,,,,"From Junction-road to School"
+cross_street,LORD STREET,,,(LEFT HAND SIDE.),,,
+resident,LORD STREET,1,,Fred. R.,Hughes,,
+resident,LORD STREET,2,,Thos. W.,Frost,labourer,
+resident,LORD STREET,3,,Hy. John,Pearce,labourer,
+resident,LORD STREET,4,,Geo. Hy.,Bowden,baker,
+resident,LORD STREET,5,,A.,Johns,rubber worker,
+cross_street,LORD STREET,,,(return),,,
+resident,LORD STREET,10,,W.,Price,platelayer,
+resident,LORD STREET,11,,Mrs. Mary A.,Brown,,
+resident,LORD STREET,12,,John,Neagle,labourer,
+resident,LORD STREET,13,,Thomas,Rowe,,
+resident,LORD STREET,14,,Mrs. Mary Ann,Murphy,,
+street,LUCAS STREET,C 4,,,,Queen'shill to Factory-road
+cross_street,LUCAS STREET,,,(LEFT HAND SIDE.),,,
+resident,LUCAS STREET,1,,Alexander E.,Winter,engr
+resident,LUCAS STREET,2,,George,Gibbons,,
+resident,LUCAS STREET,3,,T.,Buckley,fitters' helper
+resident,LUCAS STREET,4,,George,Taylor,postman
+resident,LUCAS STREET,5,,Wm.,Dowdall,watchman
+resident,LUCAS STREET,6,,Tom,Coward,inspector
+resident,LUCAS STREET,7,,Jas.,Stockwell,gas inspctr
+resident,LUCAS STREET,8,,Mrs. A. M.,Brimblecombe,,
+resident,LUCAS STREET,9,,Wm. Hy.,John,inspector
+resident,LUCAS STREET,10,,John,Bale,shunter
+resident,LUCAS STREET,11,,Ernest,Bowden,G.W.R.
+resident,LUCAS STREET,12,,Mrs. Emily H.,Jeenes,,
+resident,LUCAS STREET,13,,Miss Angella,Wall,,
+resident,LUCAS STREET,14,,James,Yhnell,ironworker
+resident,LUCAS STREET,15,,A. J.,Smith,bookbinder
+resident,LUCAS STREET,16,,Thomas,Woods,,
+resident,LUCAS STREET,17,,W. J. D.,Hamilton,,
+resident,LUCAS STREET,18,,Fred.,Gooding,ironworker
+resident,LUCAS STREET,19,,Mrs. Margaret,Jones,,
+cross_street,LUCAS STREET,,,(return),,,
+resident,LUCAS STREET,20,,Austin B.,Cox,,
+resident,LUCAS STREET,21,,Albert E.,Cattell,c.s.
+resident,LUCAS STREET,22,,O'Donovan,Dennis,,
+resident,LUCAS STREET,23,,John,Rees,canvasser
+resident,LUCAS STREET,24,,Henry,Gilpin,cellarman
+resident,LUCAS STREET,25,,Daniel,Driscoll,clerk P.O.
+resident,LUCAS STREET,26,,Mrs. Catherine,Fortune,,
+resident,LUCAS STREET,27,,Mrs. Elizabeth,Woodruff,,
+resident,LUCAS STREET,28,,Edwd.,Lyons,compositor
+resident,LUCAS STREET,29,,A. G.,Merefield,gardener
+resident,LUCAS STREET,30,,Mrs. E. A.,Davies,dressmkr
+cross_street,LUCAS STREET,,,here is Rose-street,,,
+resident,LUCAS STREET,30,,Percy,Chappell,grocer
+resident,LUCAS STREET,,Shop-void,,,,
+resident,LUCAS STREET,31,,John,Vowles,mason
+resident,LUCAS STREET,32,,Jos.,Titchener,insp.g.w.r.
+resident,LUCAS STREET,33,,Mrs. Rhoda,Taylor,Jane
+street,LYNE ROAD,B 4,,,,From 164 Shaftesbury-street to Albany-street
+cross_street,LYNE ROAD,,,(LEFT HAND SIDE.),,,
+resident,LYNE ROAD,,Rising Sun Hotel,R. T.,Mann,,
+resident,LYNE ROAD,1,,Thomas,Davies,boot shop
+resident,LYNE ROAD,1A,,William,Evans,,
+resident,LYNE ROAD,2,,Mrs. Sarah,Sims,,
+resident,LYNE ROAD,3,,Cuthbert,Davidson,fitter
+resident,LYNE ROAD,4,,Henry,Williams,collier
+resident,LYNE ROAD,5,,Mrs. Caroline,Fereday,,
+resident,LYNE ROAD,6,,Fredk.,Sims,labourer
+resident,LYNE ROAD,7,,William,Wood,labourer
+resident,LYNE ROAD,8,,Ed.,Shakesheff,brickbrnr
+resident,LYNE ROAD,9,,Albert,Gastrell,labourer
+resident,LYNE ROAD,10,,Frank,Gale,fish hawker
+resident,LYNE ROAD,11,,Mrs. Julia,Gay,,
+resident,LYNE ROAD,12,,Charles,James,salesman
+resident,LYNE ROAD,13,,Mrs. Harriet,Harris,,
+resident,LYNE ROAD,14,,Mrs. Eliza,Fortey,,
+resident,LYNE ROAD,15,,F. C.,Thomas,painter
+resident,LYNE ROAD,16,,Wm.,Sleeman,grocer
+cross_street,LYNE ROAD,,,here is Edwin-street,,,
+resident,LYNE ROAD,17,,R. Harry,Harper,grngrcr
+resident,LYNE ROAD,18,,F. W.,Smith,G.,W.R.
+resident,LYNE ROAD,19,,Geo. H.,Hillman,labourer
+cross_street,LYNE ROAD,,,(return),,,
+resident,LYNE ROAD,30,,Morris,Regan,porter
+resident,LYNE ROAD,31,,Mrs. Mary Ann,Collins,,
+resident,LYNE ROAD,32,,Alfd.,Cleverley,shoemkr
+resident,LYNE ROAD,33,,Jos.,Vaughan,labourer
+resident,LYNE ROAD,34,,Geo.,Cooke,F. G.W.R.
+resident,LYNE ROAD,35,,Frederick,Swift,butcher
+resident,LYNE ROAD,36,,Jas.,Naish,basketmaker
+resident,LYNE ROAD,37,All Saints' Mission House,George,Evans,caretaker,
+resident,LYNE ROAD,38,,John,Lewis,labourer
+resident,LYNE ROAD,39,,Geo. H.,Clarke,labourer
+resident,LYNE ROAD,40,,Wm. H.,Forbes,platelyr
+resident,LYNE ROAD,41,,Wm. H.,Doggett,steelwkr
+resident,LYNE ROAD,42,,Wm.,Barnes,engine driver
+resident,LYNE ROAD,43,,Chas.,Tucker,traveller
+resident,LYNE ROAD,44,,Geo.,Amos,moulder
+resident,LYNE ROAD,45,,Patrick,O'Brien,labourer
+resident,LYNE ROAD,46,,Ralph,Wilkins,slaughterman
+resident,LYNE ROAD,47,,Arnold,Herbert,labourer
+resident,LYNE ROAD,48,,Robert,Bell,gas stoker
+resident,LYNE ROAD,49,,S.,Basham,labourer
+resident,LYNE ROAD,50,,Charles,Howells,platelayr
+resident,LYNE ROAD,51,,Wm.,Foote,caretaker
+resident,LYNE ROAD,52,,Mrs. Jane,Hallett,,
+resident,LYNE ROAD,53,,W. A.,Brookes,engineer
+street,MADDOX CLOSE,C 4,,,,Factory-road
+street,MAGOR STREET,E 3,,,,Left-hand side Corporation-rd.
+cross_street,MAGOR STREET,,,(LEFT HAND SIDE.),,,
+resident,MAGOR STREET,11,,Thos.,Rogers,crane driver
+resident,MAGOR STREET,13,,Thos.,Ahearn,ironworker
+resident,MAGOR STREET,15,,Chas.,Richards,ironwrkr
+resident,MAGOR STREET,17,,Christopher,Uglish,dec'tr
+resident,MAGOR STREET,19,,Frederick,Flagg,labourer
+resident,MAGOR STREET,21,,B. C.,Stroud,steelworker
+resident,MAGOR STREET,23,,Eustice,Priestnall,ironwrkr
+resident,MAGOR STREET,25,,Arthur,Phillips,do
+resident,MAGOR STREET,27,,G. E.,Cotterell,,
+resident,MAGOR STREET,29,,Mark,Newman,ironwk.
+resident,MAGOR STREET,31,,A.,Richards,labourer
+resident,MAGOR STREET,33,,Mrs. Louisa M.,Richards,,
+resident,MAGOR STREET,35,,John,Smith,ironworker
+resident,MAGOR STREET,37,,Mrs. A.,Richards,,
+resident,MAGOR STREET,39,,Edw.,Whiting,labourer
+resident,MAGOR STREET,41,,Arthur,Dowen,ironworker
+resident,MAGOR STREET,43,,Alfred,Edwards,do
+resident,MAGOR STREET,45,,Wm.,Woolley,,
+resident,MAGOR STREET,47,,Thomas,Ames,doubler
+resident,MAGOR STREET,49,,Edward,Halford,ironwkr
+resident,MAGOR STREET,51,,Mrs. Mary,Brady,,
+resident,MAGOR STREET,53,,George,Jones,ironworker
+resident,MAGOR STREET,55,,Thomas,Arthur,do
+resident,MAGOR STREET,57,,Thomas J.,Davies,do
+resident,MAGOR STREET,59,,John,Whittington,do
+resident,MAGOR STREET,61,,Wm.,Hancox,do
+resident,MAGOR STREET,63,,Chas.,Cleaver,labourer
+resident,MAGOR STREET,65,,Herbt. Wm.,Kelly,ironwkr
+resident,MAGOR STREET,67,,Joseph,Richards,ironwrkr
+resident,MAGOR STREET,69,,Augustus,Watts,,
+resident,MAGOR STREET,71,,Albert,Lane,,
+resident,MAGOR STREET,,,John,Richards,ironworker
+resident,MAGOR STREET,,Vacant sites,,,,
+cross_street,MAGOR STREET,,,(return),,,
+resident,MAGOR STREET,96,,James,Cox,bricklayer
+resident,MAGOR STREET,94,,Joseph,Mitchell,,
+resident,MAGOR STREET,92,,Thos. senr.,Whild,ironwkr
+resident,MAGOR STREET,90,,R.,Maybury,ironworker
+resident,MAGOR STREET,88,,Thos.,Hancock,ironworker
+resident,MAGOR STREET,86,,Tom.,Davies,ironworker
+resident,MAGOR STREET,84,,Richard,Bills,ironworker
+resident,MAGOR STREET,82,,Wm. Hy.,Bagley,do
+resident,MAGOR STREET,80,,Harold,Caddick,,
+resident,MAGOR STREET,78,,George,Harvey,G.W.R.
+resident,MAGOR STREET,76,,James,Lane,,
+resident,MAGOR STREET,74,,Geo.,Phipps,ironworker
+resident,MAGOR STREET,72,,George,Mustoe,labourer
+resident,MAGOR STREET,70,,Ed.,Ashforth,ironwrkr
+resident,MAGOR STREET,68,,John Patrick,Peed,lab
+resident,MAGOR STREET,66,,Wm.,Sunderland,labourer
+resident,MAGOR STREET,64,,G. A.,Evans,ironworker
+resident,MAGOR STREET,62,,J. H.,Wilson,ironworker
+resident,MAGOR STREET,60,,Harry,Lewis,do
+resident,MAGOR STREET,58,,Mrs. M.,Aston,,
+resident,SHAFTESBURY ST. BRANCH READING ROOM,,,,,,
+street,MACARTHY'S COURT,D 4,,,,From 153 Commercial-street
+resident,MACARTHY'S COURT,6,,John,Landers,labourer
+resident,MACARTHY'S COURT,,,William,Stanley,,

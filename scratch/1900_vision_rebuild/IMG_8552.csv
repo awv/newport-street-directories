@@ -1,0 +1,149 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Mansel Street,,,,,,Off Somerton-road.
+resident,Mansel Street,13,,Edmund,Davies,,
+resident,Mansel Street,14,,John,Hughes,,Hill foot vil
+street,Marion Street, P.,,,,,,From 8 James-street.
+cross_street,Marion Street, P.,,,,,,[LEFT HAND SIDE.]
+resident,Marion Street, P.,1,,Jas.,Redman,greengrocer,
+resident,Marion Street, P.,3,,Simon,Bigmore,rigger,
+resident,Marion Street, P.,5,,William,Murphy,labourer,
+resident,Marion Street, P.,7,,Thomas,Cox,pilot,
+resident,Marion Street, P.,9,,Thomas,Suller,labourer,
+resident,Marion Street, P.,11,,Fred,Suller,boilermaker,
+resident,Marion Street, P.,13,,Thos.,Purnell,coal trim'r,
+resident,Marion Street, P.,15,,Benjamin,Harper,trim'r,
+resident,Marion Street, P.,17,,Evan,Williams,coal trimr,
+resident,Marion Street, P.,19,,Jas.,Bowdler,crane driver,
+resident,Marion Street, P.,21,,William,Llewellyn,,
+resident,Marion Street, P.,23,,Alfred,Collins,boatman,
+resident,Marion Street, P.,25,,Wm. H.,Pring,coal trimr,
+resident,Marion Street, P.,27,,Geo.,Hughes,engine drvr,
+resident,Marion Street, P.,29,,Albt. W.,Nicholls,carpentr,
+resident,Marion Street, P.,31,,Fredk.,Clymo,trimmer,
+resident,Marion Street, P.,33,,C.,Thomas,tugboat driver,
+resident,Marion Street, P.,35,,Saml.,Hughes,coal trim'r,
+resident,Marion Street, P.,37,,Jas.,McQuillan,coal trimr,
+resident,Marion Street, P.,39,,Edmund,Powell,boatman,
+resident,Marion Street, P.,41,,Saml.,Isaac,ship carpenter,
+cross_street,Marion Street, P.,,,,,,here is Pottery-terrace.
+resident,Marion Street, P.,,,,ALEXANDRA BD. SCHOOL,,
+resident,Marion Street, P.,43,,Moses,Jones,milkman,
+resident,Marion Street, P.,45,,William,Bartlett,smith,
+resident,Marion Street, P.,47,,John J.,Scannell,fitter,
+resident,Marion Street, P.,49,,John,Hughes,hobbler,
+resident,Marion Street, P.,51,,Thos.,Watkins,coal trimr,
+resident,Marion Street, P.,53,,Ernest,Williams,boilrmkr,
+resident,Marion Street, P.,55,,Wm. Jas.,Dick,trimmer,
+resident,Marion Street, P.,57,,W. R.,Hughes,labourer,
+resident,Marion Street, P.,59,,Elizabeth,Lanning,,
+resident,Marion Street, P.,61,,Joseph,Dyer,labourer,
+resident,Marion Street, P.,63,,Stephen,Gould,rigger,
+resident,Marion Street, P.,65,,Mrs Elizabeth,Williams,,
+cross_street,Marion Street, P.,,,,,,(return.)
+resident,Marion Street, P.,86,,Edwin,Watkins,carpn't'r,
+resident,Marion Street, P.,84,,Charles,Searle,labourer,
+resident,Marion Street, P.,82,,Walter,Varncombe,,
+resident,Marion Street, P.,80,,Saml.,Hughes,coal trim'r,
+resident,Marion Street, P.,78,,Mrs Mary,Walsh,,
+resident,Marion Street, P.,76,,Andrew,Hansen,labourer,
+resident,Marion Street, P.,74,,Robert,Wright,labourer,
+resident,Marion Street, P.,72,,Mrs Emma,Pritchard,,
+resident,Marion Street, P.,70,,Mrs Ellen,Collins,,
+resident,Marion Street, P.,68,,Henry,Higgins,labourer,
+resident,Marion Street, P.,66,,John,Perchard,hoistman,
+resident,Marion Street, P.,64,,Daniel,Murphy,labourer,
+resident,Marion Street, P.,62,,William,Jenkins,foreman,
+resident,Marion Street, P.,60,,Wm. H.,Sims,coal shipper,
+resident,Marion Street, P.,58,,John,Short,crane driver,
+resident,Marion Street, P.,56,,William,Barber,labourer,
+resident,Marion Street, P.,54,,James,Hunt,labourer,
+resident,Marion Street, P.,52,,William,Tyler,labourer,
+resident,Marion Street, P.,50,,William,Moore,labourer,
+resident,Marion Street, P.,48,,John,Dinham,boilermkr,
+resident,Marion Street, P.,46,,David,Vaughan,,
+resident,Marion Street, P.,44,,Philip,Baylis,labourer,
+resident,Marion Street, P.,42,,Thomas,Harvey,haulier,
+cross_street,Marion Street, P.,,,,,,here is Pottery-terrace.
+resident,Marion Street, P.,40,,Matthew,Harvey,haulier,
+resident,Marion Street, P.,38,,William,Lilley,platelay'r,
+resident,Marion Street, P.,36,,John,Davies,coal trim'r,
+resident,Marion Street, P.,34,,Dennis,Canlan,hobbler,
+resident,Marion Street, P.,32,,George,Rock,labourer,
+resident,Marion Street, P.,30,,Arthur,Burford,labourer,
+resident,Marion Street, P.,28,,Jas.,Scrivens,shipwright,
+resident,Marion Street, P.,26,,Joseph,Sims,labourer,
+resident,Marion Street, P.,24,,Thomas,Regan,labourer,
+resident,Marion Street, P.,22,,David,Spurrier,seaman,
+resident,Marion Street, P.,20,,William,Parnall,moulder,
+resident,Marion Street, P.,18,,Geo.,Prance,mas. mariner,
+resident,Marion Street, P.,16,,Wm.,Lewis,coal trimmer,
+resident,Marion Street, P.,14,,Chas. V.,Anstee,labourer,
+resident,Marion Street, P.,12,,John,Morgan,labourer,
+resident,Marion Street, P.,10,,John,Noyes,foundryman,
+resident,Marion Street, P.,8,,Harry,Croombe,labourer,
+resident,Marion Street, P.,6,,Henry,Morgan,labourer,
+resident,Marion Street, P.,4,,W. H.,Jones,milkman,
+resident,Marion Street, P.,2,,,,,Unbuilt
+street,Market House,,,,,,,
+resident,Market House,13,Trout Inn,John,Williams,,
+resident,Market House,14,,G. J.,Stoneman,watchmakr,
+resident,Market House,,,Jas. G.,Jones,hairdresser,
+street,Market Street,,,,,,,From 21 High-st. to Dock-st.
+resident,Market Street,1,St. John's Clothing depôt,,,
+resident,Market Street,,,Mrs Martha,Wellman,,
+resident,Market Street,2,,,Eleanor,Hawkins,dining rooms,
+resident,Market Street,3,,,J.,Smith,earthenware and china dealer,
+resident,Market Street,,,Mrs Susan,Carver,,
+resident,Market Street,4,,,Arnold & Co.,ironmongers,
+resident,Market Street,5,,,R.,Richards,refreshm't ho,
+cross_street,Market Street,,,,,,here is Fennell's Arcade.
+resident,Market Street,,,J.,Watkins,grocer,
+resident,Market Street,6,Black Swan,,Pullen Elizth.,,
+resident,Market Street,7,Carpenters' Arms-lane.,Henry,Flook,wholesale fishmonger & fruiterer,
+resident,Market Street,8 f,,,,,,
+resident,Market Street,9,Cross Keys Hotel and Restaurant,Mrs S. A.,Jones,,
+resident,Market Street,10-11,,,Flook's,stores,
+cross_street,Market Street,,,,,,(return.)
+resident,Market Street,12,,Wm.,Tamplin,bootmaker,
+street,Marlborough Road, M,,,,,,From Harrow-rd. to Eton-rd.
+cross_street,Marlborough Road, M,,,,,,[LEFT HAND SIDE.]
+resident,Marlborough Road, M,1,,J.,Tait,Blair drummond
+resident,Marlborough Road, M,3,,Ab.,Morris,Marlboro ho
+resident,Marlborough Road, M,5,,Fdk.,Littlejones,Dunellen
+resident,Marlborough Road, M,7,,Ivor J.,Batten,,
+resident,Marlborough Road, M,9,,John,Langford,,
+resident,Marlborough Road, M,,,,,,Vacant sites
+resident,Marlborough Road, M,,,John,Dayman,builder,
+resident,Marlborough Road, M,,,F.,Baglow,builder,
+resident,Marlborough Road, M,,,,,5 houses void
+resident,Marlborough Road, M,20,,C.,Ericksen,Prospect ho
+resident,Marlborough Road, M,18,,J.,Matthews,Heatherwood
+resident,Marlborough Road, M,16,,C.,Stride,Bryn-derria
+resident,Marlborough Road, M,14,,Mrs S.,Cheeseman,Glendale
+resident,Marlborough Road, M,12,,G. A.,Tovey,St. Raphael's
+resident,Marlborough Road, M,10,,Isaac,Powell,Corwen ho
+resident,Marlborough Road, M,8,,Mrs J. C.,Sanders,Westward Ho!
+resident,Marlborough Road, M,6,,Reuben,Wise,G.W.R.
+resident,Marlborough Road, M,4,,Wm.,Jones,Baynesville
+resident,Marlborough Road, M,2,,Robert,Grey,postman
+street,Marshes Road,,,,,,,Now Shaftesbury-street.
+street,May Street, M.,,,,,,From Wharf-rd.to Lennard-st
+resident,May Street, M.,1,,Thomas,Thomas,moulder
+resident,May Street, M.,2,,Frederick,Price,plasterer
+resident,May Street, M.,3,,Edwd. John,King,haulier
+resident,May Street, M.,4,,Mark,Gunstone,platelayer
+resident,May Street, M.,5,,James,Lurvey,labourer
+resident,May Street, M.,6,,Demetrius,Lazzareti,,
+resident,May Street, M.,7,,Manfred,James,plasterer
+street,Mellon Street,,,,,,,From 134 Dock-st. to George-st
+cross_street,Mellon Street,,,,,,[LEFT HAND SIDE.]
+resident,Mellon Street,1 to 8,,,,,Unbuilt
+resident,Mellon Street,9,,Charles,Lewis,milkman
+resident,Mellon Street,10,,James,Jackson,labourer
+resident,Mellon Street,11,,Fredk.,Thomas,boatman
+resident,Mellon Street,12,,Mrs Mary,Dunn,,
+resident,Mellon Street,,,Peter,Bonelly,seaman,
+resident,Mellon Street,13,,William,Dacey,labourer
+resident,Mellon Street,14,,Alfred,Young,labourer
+resident,Mellon Street,15,,C. H.,Burgess,boatman
+resident,Mellon Street,16,,Daniel,Dineen,labourer

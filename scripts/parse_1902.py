@@ -1,10 +1,13 @@
 import csv
 import re
 import os
+import sys
+
+# Add scripts directory to path for imports
+sys.path.append(os.getcwd())
+sys.path.append(os.path.join(os.getcwd(), 'scripts'))
 
 try:
-    import sys
-    sys.path.append(os.getcwd())
     from clean_csv import clean_street_name, TRADE_TYPO_MAP, TRADE_EXACT_MAP, TRADE_ABBREV_MAP
 except ImportError:
     clean_street_name = lambda x: x.strip()
@@ -18,6 +21,65 @@ def clean_trade(trade):
         return ""
     t_clean = trade.strip(' ,"-~.')
     t_low = t_clean.lower()
+
+    # Known abbreviations in 1902
+    trade_abbrev_local = {
+        'coachmn': 'coachman',
+        'weighmn': 'weighman',
+        'watchmn': 'watchman',
+        'eng. driver': 'engine driver',
+        'eng, driver': 'engine driver',
+        'eng. drvr.': 'engine driver',
+        'eng. drvr': 'engine driver',
+        'eng.drvrr.': 'engine driver',
+        'crane drvr': 'crane driver',
+        'goodszuard': 'goods guard',
+        'mas. mariner': 'master mariner',
+        'mas. mai.': 'master mariner',
+        'master mar': 'master mariner',
+        'mas. mar.': 'master mariner',
+        'mas. mar': 'master mariner',
+        'music t\'ch\'r': 'music teacher',
+        'music teachr': 'music teacher',
+        'dk. police': 'dock police',
+        'dock police': 'dock police',
+        'carptr. &c.': 'carpenter',
+        'carptr': 'carpenter',
+        'carpntr': 'carpenter',
+        'hairdrsr': 'hairdresser',
+        'hairdr\'ser': 'hairdresser',
+        'shipcarptr': 'shipwright',
+        'shipcarpr': 'shipwright',
+        'ship\'s pntr': "ship's painter",
+        'greengr\'r': 'greengrocer',
+        'greeng\'rs': 'greengrocer',
+        'greengroer': 'greengrocer',
+        'general dlr.': 'general dealer',
+        'railway insp': 'railway inspector',
+        'boots\'lr': 'boot seller',
+        'boot dlrs': 'boot dealers',
+        'potato merc.': 'potato merchant',
+        'potato merch': 'potato merchant',
+        'boarding ho.': 'boarding house',
+        'boarding ho': 'boarding house',
+        'p.c.': 'P.C.',
+        'p.o. clerk': 'P.O. Clerk',
+        'h.m.c': 'H.M.C.',
+        'glass wks': 'glass works',
+        'glass wrks': 'glass works',
+        'stonecut\'r': 'stonecutter',
+        'ironf\'d\'r': 'ironfounder',
+        'boilermkr': 'boilermaker',
+        'wagon repairr': 'wagon repairer',
+        'bottlemkr': 'bottlemaker',
+        'laundrs': 'launderers',
+        'ringger': 'rigger',
+        'malster': 'maltster',
+        'berth\'g mas': 'berthing master',
+        'berth\'g': 'berthing master'
+    }
+    if t_low in trade_abbrev_local:
+        return trade_abbrev_local[t_low]
 
     acronym_map = {
         'p.c.': 'P.C.',
@@ -46,7 +108,8 @@ def clean_trade(trade):
         'inspector of works', 'travelling draper', 'wine and spirit merchant',
         'junior scale maker', 'ex-police inspector', 'insurance manager',
         'painter and decorator', 'chemical worker', 'commercial agent',
-        'window cleaner'
+        'window cleaner', 'goods guard', 'master mariner', 'greengrocer',
+        'bottlemaker', 'launderers', 'dock police', 'dock pilot', 'berthing master'
     }
     if val in case_insensitive_standards:
         return val
@@ -66,7 +129,24 @@ def clean_name_abbr(name):
     name = re.sub(r'\bChas\.?\b', 'Charles', name)
     name = re.sub(r'\bRobt?\.?\b', 'Robert', name)
     name = re.sub(r'\bFredk?\.?\b', 'Frederick', name)
-    return name.strip(' ,"-~')
+    name = re.sub(r'\bHy\.?\b', 'Henry', name)
+    name = re.sub(r'\bEdw?\.?\b', 'Edward', name)
+    name = re.sub(r'\bEd\.?\b', 'Edward', name)
+    name = re.sub(r'\bJno\.?\b', 'John', name)
+    name = re.sub(r'\bAlfd?\.?\b', 'Alfred', name)
+    name = re.sub(r'\bAlbt\.?\b', 'Albert', name)
+    name = re.sub(r'\bRichd?\.?\b', 'Richard', name)
+    name = re.sub(r'\bDanl?\.?\b', 'Daniel', name)
+    name = re.sub(r'\bSaml?\.?\b', 'Samuel', name)
+    name = re.sub(r'\bJas\.?\b', 'James', name)
+    name = re.sub(r'\bAb\.?\b', 'Abraham', name)
+    name = re.sub(r'\bDd\.?\b', 'David', name)
+    name = re.sub(r'\bOct\.?\b', 'Octavius', name)
+    name = re.sub(r'\bFdk\.?\b', 'Frederick', name)
+    name = re.sub(r'\bNath\.?\b', 'Nathaniel', name)
+    name = re.sub(r'\bCor\b', 'Cornelius', name)
+    name = re.sub(r'\bSl\.?\b', 'Samuel', name)
+    return name.strip(' ,"-~.')
 
 CROSS_STREET_PAT = re.compile(
     r'\b(?:avenue|st|street|rd|road|lane|place|terrace|hill|way|drive|crescent|cres|cres\.|parade|pde|av|av\.)\b.*?\bto\b.*?\b(?:avenue|st|street|rd|road|lane|place|terrace|hill|way|drive|crescent|cres|cres\.|parade|pde|av|av\.|square)\b'
@@ -74,11 +154,10 @@ CROSS_STREET_PAT = re.compile(
     r'|^\s*[\(\[]?\s*return\.?\s*[\)\]]?\s*$'
     r'|\bsee\b'
     r'|\bsee\s+also\b'
-    r'|\b[a-zA-Z]+see\b'
     r'|^\s*now\s+[a-z0-9\s\.\-|\(\)]+'
     r'|^\s*(?:maindee|newport|pill)from\b'
-    r'|^\s*from\s+[A-Za-z\s]+'
-    r'|^\s*[A-Za-z\s]+street\s+from\b'
+    r'|^\s*from\s+[A-Za-z0-9\s]+'
+    r'|^\s*[A-Za-z0-9\s]+street\s+from\b'
     r'|^\s*[\(\[]?\s*(?:right|left)[\s\-]+hand\s*(?:side)?\s*[\)\]]?\s*$'
     r'|^\s*[\(\[]?\s*(?:right|left)[\s\-]+hand\s+side\b'
     r'|^\s*(?:from\s+)?[a-z0-9\s\.\-]+\s*[\(\[]?\s*(?:right|left)[\s\-]+hand\s*[\)\]]?\s*(?:opposite\s+[a-z0-9\s\.\-]+)?\s*$'
@@ -90,310 +169,532 @@ CROSS_STREET_PAT = re.compile(
     re.I
 )
 
-def is_valid_street_name(s):
-    s = s.strip()
+STREET_SUFFIXES = {
+    'STREET', 'ROAD', 'AVENUE', 'PLACE', 'TERRACE', 'LANE', 'CRESCENT', 
+    'PARADE', 'HILL', 'WALK', 'COURT', 'ROW', 'WHARF', 'DOCKS', 'DOCK', 
+    'VILLAS', 'GARDENS', 'DRIVE', 'GROVE', 'SQUARE', 'PASSAGE', 'WAY', 
+    'CIRCUS', 'PARK', 'VIEW', 'PATH', 'CLOSE', 'RISE', 'ST', 'RD', 'PL', 
+    'TER', 'CRES', 'PDE', 'SQ', 'AV', 'CHAMBERS', 'BUILDINGS', 'COTTAGES'
+}
+
+COMMON_SURNAMES_NOT_STREETS = {
+    'HILL', 'GREEN', 'LANE', 'PARK', 'WOOD', 'CROSS', 'STREET', 'HALL', 'DOCK', 'GARDENS', 'GROVE', 'ROAD'
+}
+
+IGNORED_DIRECTORY_HEADERS = {
+    'NEWPORT STREET DIRECTORY.', 'NEWPORT STREET DIRECTORY', 'NEWPORT DIRECTORY.', 'NEWPORT DIRECTORY',
+    'STREET DIRECTORY.', 'STREET DIRECTORY', 'NEWPORT STREET LIST.', 'NEWPORT STREET LIST',
+    'ALBANY STREET', 'COMMERCIAL STREET', 'HIGH STREET', 'CHEPSTOW ROAD'
+}
+
+NAME_ABBREVIATIONS = {
+    'WM', 'GEO', 'THOS', 'CHAS', 'ROBT', 'HY', 'EDWD', 'EDW', 'ED', 'JNO', 
+    'ALFD', 'ALBT', 'RICHD', 'DANL', 'SAML', 'JAS', 'AB', 'DD', 'OCT', 
+    'FDK', 'NATH', 'COR', 'SL', 'MRS', 'MISS', 'MR', 'REV', 'DR', 'CAPT', 'COL'
+}
+
+COMMON_TITLES = {'mrs', 'mrs.', 'miss', 'miss.', 'rev', 'rev.', 'dr', 'dr.', 'capt', 'col', 'hon', 'esq', 'mr', 'lord', 'sir'}
+
+KNOWN_TRADE_KEYWORDS = [
+    'grocer', 'labourer', 'ironworker', 'ironwrkr', 'ironwkr', 'carpenter', 'mason', 'fitter', 'haulier', 
+    'clerk', 'painter', 'seaman', 'smith', 'tailor', 'tailoress', 'butcher', 'pork butcher', 'trimmer', 'baker', 
+    'engineer', 'plasterer', 'guard', 'goods guard', 'moulder', 'gardener', 'gard\'nr', 'foreman', 'boilermaker', 
+    'boilermakr', 'fireman', 'builder', 'traveller', 'manager', 'hairdresser', 'hairdrsr', 'agent', 'blacksmith', 
+    'blksmith', 'greengrocer', 'greengroer', 'bootmaker', 'bootmkr', 'bootseller', 'bootsellr', 'signalman', 'shipwright', 'plumber', 'hobbler', 
+    'platelayer', 'porter', 'bricklayer', 'rigger', 'ringger', 'shopkeeper', 'shopk\'p\'r', 'mariner', 'shoemaker', 
+    'draper', 'steelworker', 'pilot', 'dock pilot', 'confectioner', 'postman', 'driver', 'sawyer', 
+    'policeman', 'printer', 'sailor', 'solicitor', 'mechanic', 'machinist', 'steward', 
+    'joiner', 'striker', 'miller', 'tobacconist', 'dealer', 'general dealer', 'fruiterer', 'caretaker', 
+    'inspector', 'decorator', 'warehouseman', 'saddler', 'shunter', 'boatman', 'waterman',
+    'hoistman', 'milkman', 'cooper', 'dairyman', 'watchmaker', 'electrician', 'accountant', 
+    'hawker', 'fish hawker', 'dressmaker', 'dressnkr', 'cabinetmaker', 'cabinetmkr', 'wheelwright', 'docker', 'roller', 
+    'furnaceman', 'chemist', 'motor driver', 'motorman', 'weighman', 'weighmn', 'gasfitter', 'gas fitter', 'puddler', 
+    'timekeeper', 'newsagent', 'checker', 'sailmaker', 'coachman', 'coachmn', 'stevedore', 
+    'storekeeper', 'storeman', 'packer', 'outfitter', 'pawnbroker', 'tinsmith', 'carman', 'cabman', 'cab propr\'tor', 'surgeon', 'ostler', 
+    'watchman', 'watchmn', 'shearer', 'patternmaker', 'patternmakr', 'architect', 'surveyor', 'dentist', 'shipper', 
+    'weigher', 'sheet wghr', 'groundsman', 'mason\'s labr', 'glass worker', 'glass blowr', 
+    'glass blower', 'glass wkr', 'glass works', 'glass sorter', 'glassblower', 'brick bnr', 'brick burner', 'brickburner',
+    'brick works', 'brickmkr', 'gas worker', 'gas stoker', 'bottle blowr', 'bottle works', 'bottle hand', 'bottle sorter',
+    'bottle maker', 'bottlemkr', 'tinplate worker', 'ironfounder', 'sculptor', 'hoopmaker',
+    'telegraph linesman', 'tel. linesman', 'lamplighter', 'coach builder', 'cr.driver', 'crane driver', 
+    'dock police', 'dockpolice', 'dockman', 'assistant dockmaster', 'dockmaster', 'ship chandler',
+    'brass finisher', 'brass fitter', 'rivetter', 'riveter', 'horseshoer', 'wood turner', 'optician',
+    'fishmonger', 'beer retailer', 'publican', 'innkeeper', 'waiter', 'sugar boiler',
+    'telegraphist', 'typewriter', 'nurse', 'midwife', 'cinematograph operator',
+    'taxi drivr', 'brewery hd', 'fish bar', 'marine stores',
+    'brklayer', 'laundress', 'launderers', 'laundrs', 'bookkeeper', 'driller', 'brushmaker', 'quarryman', 'potter', 'stoker',
+    'maltster', 'malster', 'hammerman', 'tile layer', 'potato merchant', 'berthing master', 'music teacher'
+]
+
+TRADE_REGEX_SPLIT = re.compile(
+    r'\b(' + '|'.join(re.escape(t) for t in sorted(KNOWN_TRADE_KEYWORDS, key=len, reverse=True)) + r')\b',
+    re.I
+)
+
+NAME_TOKENS = {
+    'john', 'mary', 'elizabeth', 'james', 'ann', 'anne', 'george', 'william', 
+    'thomas', 'david', 'henry', 'sarah', 'jane', 'charles', 'margaret', 'robert', 
+    'edward', 'arthur', 'richard', 'joseph', 'samuel', 'frederick', 'alfred', 
+    'ellen', 'alice', 'hannah', 'emma', 'martha', 'florence', 'annie', 'edith', 
+    'walter', 'albert', 'frank', 'herbert', 'ernest', 'harry', 'harold', 'percy', 
+    'sidney', 'sydney', 'edgar', 'clarence', 'emily', 'louisa', 'jno', 'hy', 'wm', 'thos', 'chas', 'edwd', 'geo',
+    'e.', 'a.', 'j.', 'h.', 'w.', 'c.', 'g.', 'm.', 'r.', 't.', 'f.', 's.', 'lydia', 'albt', 'eleanor',
+    'susan', 'jeannette', 'jeanette', 'selina', 'mercy', 'elisha', 'alfonso', 'enoch', 'capel', 'worthy',
+    'eli', 'clement', 'patrick', 'dennis', 'jeremiah', 'reuben', 'hannibal', 'danl', 'rd', 'walt', 'jos', 'sl',
+    'harriet', 'minnie', 'maud', 'margt', 'lorenzo', 'ephraim', 'abner', 'hans', 'maurice', 'eliza', 'stephen',
+    'humphrey', 'octavius', 'cornelius', 'dan', 'fred', 'tom', 'rob', 'archi', 'catherine', 'nichol', 'jesse',
+    'stephen', 'nugent', 'clara', 'helen', 'nathaniel', 'abram', 'abraham', 'augustus', 'leonard', 'morgan', 'elijah'
+}
+
+def is_forename_token(token):
+    if not token:
+        return False
+    t_clean = token.strip(' ,"-~.').lower()
+    t_raw = token.strip(' ,"-~')
+    if t_clean in COMMON_TITLES or t_clean.rstrip('.') in COMMON_TITLES:
+        return True
+    if t_clean in NAME_TOKENS or t_clean.rstrip('.') in NAME_TOKENS:
+        return True
+    if len(t_clean) == 1 and t_clean.isalpha():
+        return True
+    if re.match(r'^[a-zA-Z]\.$', t_raw) or re.match(r'^[a-zA-Z]\.\s*[a-zA-Z]\.?$', t_raw):
+        return True
+    if token.endswith(','):
+        return True
+    known_fn_abbrs = {'wm', 'geo', 'thos', 'chas', 'hy', 'edwd', 'rd', 'walt', 'jos', 'albt', 'alfd', 'jas', 'benj', 'fredk', 'sl', 'danl', 'hbt', 'rbt', 'saml', 'fdk', 'nath', 'edw', 'hum', 'oct', 'cor', 'archi', 'fred', 'dan', 'margt', 'ab'}
+    if t_clean in known_fn_abbrs or t_clean.rstrip('.') in known_fn_abbrs:
+        return True
+    return False
+
+def is_valid_street_header(s):
     if not s:
-        return False
-    s_clean = s
-    s_clean = re.sub(r'[\s\-—]+continued\b', '', s_clean, flags=re.I).strip()
-    s_clean = re.sub(r'\b(?:from|to|off)\s+.*', '', s_clean, flags=re.I).strip()
-    s_clean = re.sub(r'[\(\[].*?[\)\]]', '', s_clean, flags=re.I).strip()
-    s_clean = s_clean.rstrip('. -—,')
+        return None
+    s_clean = s.strip()
+    s_clean = re.sub(r'[\(\[]\s*return\s*[\)\]]', '', s_clean, flags=re.I).strip('., -—()[]')
     
-    if not s_clean:
-        return False
-        
-    # Ignore non-street block headers (chambers, villas, buildings)
-    words = s_clean.lower().split()
-    if words:
-        last_word = words[-1].strip('.,()-')
-        ignored_suffixes = {'buildings', 'chambers', 'court', 'wharf', 'villas', 'cottages'}
-        if last_word in ignored_suffixes or any(w in ignored_suffixes for w in words):
-            return False
-        
-    suffixes = {
-        'street', 'road', 'lane', 'place', 'terrace', 'crescent', 'square', 'avenue',
-        'hill', 'parade', 'gardens', 'drive', 'walk', 'close', 'view', 'grove', 'way',
-        'passage', 'row', 'rise', 'market', 'precincts', 'arcade', 'ch.'
-    }
-    words = s_clean.lower().split()
+    # Strip Ward markers
+    s_clean = re.sub(r'[\s,]+(?:P\.|B\.T\.|M\.|C\.|T\.|B\.|L\.|D\.|E\.|BT|Ch|[PMCTBLDE])\s*$', '', s_clean, flags=re.I).strip()
+    
+    if not s_clean or len(s_clean) <= 3:
+        return None
+
+    if s_clean.lower() in {'road', 'street', 'lane', 'avenue', 'place', 'terrace', 'hill', 'drive', 'crescent', 'parade', 'square', 'walk', 'gardens'}:
+        return None
+
+    s_low = s_clean.lower()
+    if s_low.startswith(('here is', 'here are', 'from ', 'to ', 'opposite ', 'see ', 'now ')):
+        return None
+
+    if any(sym in s_clean for sym in ['&', 'ltd', 'limited', 'livery', 'brewery', 'foundry', 'inn', 'hotel', 'arms', 'tavern', 'stores', 'works', 'merchants', 'dealers', 'builders', 'manufacturers', 'agents', 'solicitors', 'bros']):
+        return None
+
+    s_upper = s_clean.upper()
+    if s_upper in IGNORED_DIRECTORY_HEADERS:
+        return None
+    if any(h in s_upper for h in [
+        'SEE ALSO', 'RETURN', 'LEFT HAND SIDE', 'RIGHT HAND SIDE', 
+        'EAST SIDE', 'WEST SIDE', 'IS A DISTRICT', 'INCLUDING NORTH-STREET', 
+        'FOR RESIDENT', 'SEE 21, COMMERCIAL-STREET', "DOCK MASTER'S OFFICE", 
+        "CUSTOMS' WATCHHOUSE", 'ENGINE HOUSE', 'COUNTY COURT OFFICES',
+        'OFFICE', 'TELEPHONE', 'SUPER TUNE', 'ST. WOOLOS SCHOOLS', 'ASSEMBLY ROOMS',
+        'BEAUFORT CHAMBERS', "QUEEN'S CHAMBERS", 'CARLTON CHAMBERS',
+        'ARCADE CHAMBERS', 'THE NEWPORT ARCADE', 'NEWPORT ARCADE'
+    ]):
+        return None
+    if re.match(r'^[A-Z]\s*\d+$', s_upper) or re.match(r'^\d+', s_upper):
+        return None
+
+    words = s_upper.split()
     if not words:
-        return False
-    last_word = words[-1].strip('.,()-')
+        return None
+
+    if all(len(w.strip('.,')) <= 1 for w in words):
+        return None
+
+    first_w = words[0].strip('.,()-"')
+    if first_w in NAME_ABBREVIATIONS or re.match(r'^[A-Za-z]+\d+$', first_w) or ',' in words[0]:
+        return None
+
+    if len(words) == 1 and words[0] in COMMON_SURNAMES_NOT_STREETS:
+        return None
+
+    last_word = words[-1].strip('.,()-"')
+    if last_word in STREET_SUFFIXES:
+        if last_word in {'HILL', 'COTTAGES', 'VILLAS', 'BUILDINGS', 'CHAMBERS'} and len(words) == 1:
+            return None
+        if last_word in {'RD', 'RD.'} and len(words) == 2 and words[0] in {'POPHAM', 'RIDGE', 'BUSH', 'JONES', 'EVANS', 'THOMAS', 'DAVIES'}:
+            return None
+        if s_clean.upper().startswith("COMMERCIAL BUILDINGS"):
+            return "Commercial Street"
+        if s_clean.upper().startswith("DOCK ROAD CHAMBERS"):
+            return "Dock Street"
+        return clean_street_name(s_clean)
+
+    return None
+
+def is_duplicate_chunk(c1, c2):
+    if c1 == c2:
+        return True
+    if len(c1) > 1 and c1[1:] == c2:
+        return True
+    return False
+
+def split_1902_line(parts):
+    while parts and not parts[-1]:
+        parts.pop()
+    if not parts:
+        return []
+
+    while parts and not parts[0]:
+        parts.pop(0)
+    if not parts:
+        return []
+
+    chunks = []
+    current_chunk = []
     
-    is_st = last_word in suffixes or any(w in suffixes for w in words)
-    known_non_suffix = {
-        'baneswell', 'friars', 'stow', 'courtybella', 'barnard town', 'town hall',
-        'union', 'westgate', 'cambria', 'melbourne', 'ringland', 'cross-street', 'return'
+    for i, p in enumerate(parts):
+        if not p or p == '-':
+            if current_chunk:
+                chunks.append(current_chunk)
+                current_chunk = []
+            continue
+        
+        if current_chunk:
+            p_first = p.split()[0].strip('.,()')
+            if p_first.isdigit() and len(p_first) <= 3:
+                chunks.append(current_chunk)
+                current_chunk = [p]
+                continue
+            if is_valid_street_header(p):
+                chunks.append(current_chunk)
+                current_chunk = [p]
+                continue
+        
+        current_chunk.append(p)
+    
+    if current_chunk:
+        chunks.append(current_chunk)
+
+    if len(chunks) > 1:
+        deduped = [chunks[0]]
+        for ch in chunks[1:]:
+            if not is_duplicate_chunk(chunks[0], ch):
+                deduped.append(ch)
+        chunks = deduped
+
+    return chunks
+
+def parse_record_chunk(tokens, street):
+    tokens = [t.strip() for t in tokens if t.strip() and t.strip() != '-']
+    if not tokens:
+        return None
+        
+    comb = " ".join(tokens)
+    comb_low = comb.lower()
+    if CROSS_STREET_PAT.search(comb):
+        return None
+    if any(pat in comb_low for pat in ['(return', '[return', 'entrance', 'roadway', 'hand side', 'right-hand', 'left-hand', 'reynolds & co', 'complete house', 'furnishers', 'hall stands', 'blankets, flannels', 'umbrellas from']):
+        return None
+    if comb.startswith(('[', '(')):
+        return None
+        
+    h_num = ""
+    surname = ""
+    forename = ""
+    trade = ""
+    bldg = ""
+
+    # Check if tokens[0] is house number or starts with house number
+    m_num_embedded = re.match(r'^(\d+[A-Za-z]?)\s+(.*)$', tokens[0])
+    if re.match(r'^\d+[A-Za-z]?$', tokens[0]) or re.match(r'^\d+-\d+$', tokens[0]):
+        h_num = tokens[0]
+        rem = tokens[1:]
+    elif m_num_embedded:
+        h_num = m_num_embedded.group(1)
+        rem = [m_num_embedded.group(2)] + tokens[1:]
+    else:
+        h_num = ""
+        rem = tokens
+
+    if not rem:
+        return None
+
+    # Detect building names
+    bldg_keywords = {'house', 'villa', 'cottage', 'cot', 'cot.', 'hotel', 'inn', 'tavern', 'arms', 'chambers', 'lodge', 'hall'}
+    clean_rem = []
+    for token in rem:
+        t_low = token.lower()
+        if any(kw in t_low for kw in bldg_keywords) and len(token.split()) <= 4:
+            if not bldg and not any(tk in t_low for tk in ['public house', 'beerhouse', 'coffee house', 'eating house']):
+                bldg = token
+                continue
+        clean_rem.append(token)
+    rem = clean_rem
+
+    if not rem:
+        if bldg:
+            return {
+                "year": "1902",
+                "street": street,
+                "house_number": h_num,
+                "building_name": bldg,
+                "surname": "",
+                "forename": "",
+                "trade": ""
+            }
+        return None
+
+    if len(rem) == 1:
+        text = rem[0]
+        if ',' in text:
+            np, tp = text.split(',', 1)
+            trade = tp.strip()
+            name_parts = np.strip().split()
+            if len(name_parts) >= 2:
+                surname = name_parts[0]
+                forename = " ".join(name_parts[1:])
+            else:
+                surname = np.strip()
+        else:
+            m_tr = TRADE_REGEX_SPLIT.search(text)
+            if m_tr:
+                trade = text[m_tr.start():].strip(' ,.-')
+                name_part = text[:m_tr.start()].strip(' ,.-')
+                tokens_n = name_part.split()
+                if len(tokens_n) >= 2:
+                    surname = tokens_n[0]
+                    forename = " ".join(tokens_n[1:])
+                else:
+                    surname = name_part
+            else:
+                parts = text.strip().split()
+                if len(parts) >= 2:
+                    surname = parts[0]
+                    forename = " ".join(parts[1:])
+                else:
+                    surname = text.strip()
+    elif len(rem) == 2:
+        r0 = rem[0].strip(' ,')
+        r1 = rem[1].strip(' ,')
+        r0_parts = r0.split()
+        if len(r0_parts) >= 2:
+            surname = r0_parts[0]
+            forename = " ".join(r0_parts[1:])
+            trade = r1
+        elif is_forename_token(r0) and not is_forename_token(r1):
+            forename = r0
+            surname = r1
+        else:
+            surname = r0
+            if ',' in r1:
+                fn, tr = r1.split(',', 1)
+                forename = fn.strip()
+                trade = tr.strip()
+            elif TRADE_REGEX_SPLIT.search(r1):
+                trade = r1
+            else:
+                forename = r1
+    elif len(rem) >= 3:
+        c1 = rem[0]
+        c2 = rem[1]
+        c3 = rem[2]
+        c4 = rem[3] if len(rem) > 3 else ""
+
+        # Case A: Title in c2 (e.g. 'Sheryn' \t 'Mrs' \t 'Elizabeth' or 'Lewis' \t 'Mrs' \t 'Mary Ann')
+        if c2.lower().rstrip('.') in COMMON_TITLES:
+            surname = c1
+            if c3:
+                if TRADE_REGEX_SPLIT.search(c3) and not any(w in c3.lower() for w in NAME_TOKENS):
+                    forename = c2
+                    trade = " ".join(rem[2:])
+                else:
+                    fn_parts = [c2, c3]
+                    idx = 3
+                    while idx < len(rem) and is_forename_token(rem[idx]):
+                        fn_parts.append(rem[idx])
+                        idx += 1
+                    forename = " ".join(fn_parts)
+                    trade = " ".join(rem[idx:])
+            else:
+                forename = c2
+
+        # Case B: Title in c1 (e.g. 'Mrs.' \t 'Miller' \t 'Harriet')
+        elif c1.lower().rstrip('.') in COMMON_TITLES and not is_forename_token(c2):
+            surname = c2
+            forename = f"{c1} {c3}".strip() if c3 else c1
+            trade = " ".join(rem[3:])
+
+        # Case C: Middle initial / forename in c3 (e.g. 'Jones' \t 'William' \t 'Hy.' \t 'smith' or 'Evans' \t 'William' \t 'J.' \t 'pilot')
+        elif is_forename_token(c3) and c4:
+            surname = c1
+            forename = f"{c2} {c3}".strip()
+            trade = " ".join(rem[3:]).strip()
+
+        # Case D: Inverted forename in c1, surname in c2
+        elif is_forename_token(c1) and not is_forename_token(c2):
+            forename = c1
+            surname = c2
+            trade = " ".join(rem[2:]).strip()
+
+        # Case E: Standard
+        else:
+            surname = c1
+            forename = c2
+            trade = " ".join(rem[2:]).strip()
+
+    # Clean leading middle initial from trade (e.g. 'J. pilot' or 'H. malster' or 'G. dock police')
+    if trade:
+        m_lead = re.match(r'^([A-Za-z]\.)\s+(.*)$', trade)
+        if m_lead and TRADE_REGEX_SPLIT.search(m_lead.group(2)):
+            forename = f"{forename} {m_lead.group(1)}".strip()
+            trade = m_lead.group(2).strip()
+
+    # Clean embedded trade in forename (e.g. 'G. dock' -> forename 'G.', trade 'dock ...' or 'Hy.berth\'g')
+    if forename:
+        if ',' in forename:
+            fn_p, tr_p = forename.split(',', 1)
+            forename = fn_p.strip()
+            if not trade:
+                trade = tr_p.strip()
+            else:
+                trade = f"{tr_p.strip()}, {trade}".strip(' ,')
+        elif 'berth\'g' in forename.lower():
+            forename = re.sub(r'[\.\s]*berth\'g\b', '', forename, flags=re.I).strip()
+            if not trade:
+                trade = "berthing master"
+            elif 'mas' in trade.lower():
+                trade = "berthing master"
+        elif 'dock' in forename.lower() and not forename.lower().endswith('docks'):
+            m_dk = re.search(r'\bdock\b', forename, re.I)
+            if m_dk:
+                forename = forename[:m_dk.start()].strip(' ,.-')
+                if not trade:
+                    trade = "dock police"
+                elif 'police' in trade.lower():
+                    trade = "dock police"
+        else:
+            m_tr = TRADE_REGEX_SPLIT.search(forename)
+            if m_tr and forename.lower().strip('. ') not in NAME_TOKENS:
+                tr_found = m_tr.group(0)
+                forename = forename[:m_tr.start()].strip(' ,.-')
+                if not trade:
+                    trade = tr_found
+                else:
+                    trade = f"{tr_found}, {trade}".strip(' ,')
+
+    if ',' in surname and not trade:
+        sn, tr = surname.split(',', 1)
+        surname = sn.strip()
+        trade = tr.strip()
+
+    trade = clean_trade(trade)
+    forename = clean_name_abbr(forename)
+    surname = surname.strip(' ,"-~.')
+    forename = forename.strip(' ,"-~.')
+
+    # Strict junk filtering
+    sn_low = surname.lower().strip('()[].,-')
+    fn_low = forename.lower().strip('()[].,-')
+    full_name_low = f"{sn_low} {fn_low}".strip()
+
+    if not sn_low and not fn_low and not trade and not bldg:
+        return None
+    if (sn_low == 'newport' and fn_low == 'street directory') or (sn_low == 'maindee' and fn_low == 'street directory'):
+        return None
+    if sn_low in {'return', 'west side', 'east side', 'left hand side', 'right hand side', 'entrance', 'void', 'vacant sites', 'shop void'}:
+        return None
+    if fn_low in {'return', 'west side', 'east side', 'left hand side', 'right hand side', 'void'}:
+        return None
+    if 'entrance' in full_name_low or 'hand side' in full_name_low or 'roadway' in full_name_low:
+        return None
+    if (sn_low.endswith('-street') or sn_low.endswith('-road') or sn_low.endswith('-lane')) and not h_num and not trade:
+        return None
+    if surname.startswith(('[', '(')):
+        return None
+    if surname.upper() in IGNORED_DIRECTORY_HEADERS:
+        return None
+    if not h_num and not forename and not trade and len(surname) <= 4:
+        return None
+
+    return {
+        "year": "1902",
+        "street": street,
+        "house_number": h_num,
+        "building_name": bldg,
+        "surname": surname,
+        "forename": forename,
+        "trade": trade
     }
-    if s_clean.lower() in known_non_suffix:
-        is_st = True
-        
-    if not is_st:
-        return False
-        
-    if len(s_clean) <= 4:
-        return False
-        
-    if re.match(r'^[A-Z]\s*\d+$', s_clean):
-        return False
-        
-    ignored_keywords = [
-        r'\b(?:CO\.?\s+LTD|CO\b\s*LTD\b|LTD\b|LTD\.)',
-        r'\bLIMITED\b',
-        r'\bGARAGE\b',
-        r'\bFILLING\s+STATION\b',
-        r'\bSERVICE\s+STATION\b',
-        r'\bTRADING\s+ESTATE\b',
-        r'\bINDUSTRIAL\s+ESTATE\b',
-        r'\bPUBLIC\s+HOUSE\b',
-        r'\bMOTOR\s+CO\b',
-        r'\bINSTALLATIONS\b',
-        r'\bCOY\b',
-        r'\bDISMANTLERS\b',
-        r'\bNEWPORT\s+\d+\*?\b',
-        r'\bPORT\s+\d+',
-        r'\bT\s*N\s*\d+',
-        r'\bTEL\b',
-        r'\bPHONE\b',
-        r'\bTELEPHONE\b',
-        r'\bSUPER\s+TUNE\b',
-        r'\bDOVEY\s+MOTOR\b',
-        r'&'
-    ]
-    ignored_pat = re.compile('|'.join(ignored_keywords), re.I)
-    if ignored_pat.search(s_clean):
-        return False
-        
-    ignored_headers = {
-        "NEWPORT STREET DIRECTORY", "NEWPORT", "STREET DIRECTORY", 
-        "DIRECTORY", "ALEXANDRA SCHOOLS", "SPRING GARDENS SCHOOL",
-        "WESLEYAN METH CHURCH", "WESLEYAN METHODIST CHAPEL", "WESLEYAN METHODIST MISSION HALL",
-        "THE BARRACKS", "THE BARRACKS—", "UNITED METHODIST CHURCH", "PRESBYTERIAN CHURCH",
-        "TEMPERANCE COTTAGES", "NEW TERRITORIAL DRILL", "MARSHES HALL", "NORTH STREET MEETING",
-        "PENYLAN MISSION ROOM", "PILLGWENLLY WESLEYAN", "PUBLIC PARK", "FOR GOOD SHIRT AND COLLAR DRESSING",
-        "KINDLY SERVICE THE KEYNOTE OF THIS ESTABLISHMENT", "WOODLAND STREET DIRECTORY"
-    }
-    norm_clean = re.sub(r'[^A-Z0-9\s]', '', s_clean).strip()
-    if norm_clean in {re.sub(r'[^A-Z0-9\s]', '', h) for h in ignored_headers}:
-        return False
-        
-    if s_clean.startswith('(') or s_clean.startswith('[') or s_clean.startswith('*') or s_clean.endswith(')'):
-        return False
-    if s_clean.lower() in {'(return)', 'return', 'continued'}:
-        return False
-    if s_clean.startswith("OFF ") or s_clean.startswith("FROM ") or s_clean.startswith("TO "):
-        return False
-    if s_clean in {"LEFT HAND SIDE", "RIGHT HAND SIDE", "EAST SIDE", "WEST SIDE"}:
-        return False
-    return True
 
 def parse_tsv(input_path, output_path):
     records = []
-    current_street = ""
-    prev_surname = ""
-    prev_trade = ""
+    current_streets = ["", "", ""]
     
     with open(input_path, "r", encoding="utf-8") as f:
         for line_num, line in enumerate(f, start=1):
-            parts = [p.strip() for p in line.split('\t')]
-            raw_parts_for_extra = parts[5:]
-            while len(parts) < 6:
-                parts.append('')
-            parts = parts[:6]
-            
-            if not any(p for p in parts):
+            line_str = line.rstrip('\r\n')
+            if not line_str.strip():
                 continue
                 
-            col0 = parts[0]
-            
-            is_street = False
-            if col0 and is_valid_street_name(col0):
-                is_street = True
-                    
-            if is_street:
-                s_clean = col0.strip()
-                s_clean = re.sub(r'[\s\-—]+continued\b', '', s_clean, flags=re.I).strip()
-                s_clean = re.sub(r'\b(?:from|to|off)\s+.*', '', s_clean, flags=re.I).strip()
-                s_clean = re.sub(r'[\(\[].*?[\)\]]', '', s_clean, flags=re.I).strip()
-                current_street = clean_street_name(s_clean)
+            parts = [p.strip() for p in line_str.split('\t')]
+            if parts[0] == "Number" and len(parts) > 1 and parts[1] == "Forenames":
                 continue
-                
-            combined_row = " ".join([p for p in parts if p]).strip()
-            
-            if re.match(r'^[\s\*\-\_\=\#\+]+$', combined_row):
-                continue
-                
-            combined_row_stripped = combined_row.strip(' *-_~()[]')
-            if CROSS_STREET_PAT.search(combined_row) or CROSS_STREET_PAT.search(combined_row_stripped):
-                continue
-                
-            if not current_street:
-                continue
-                
-            if col0 == "Number" and parts[1] == "Forenames":
-                continue
-                
-            h_num = parts[0]
-            surname = parts[1]
-            forename = parts[2]
-            trade = parts[3]
-            bldg = parts[4]
-            notes = parts[5]
-            
-            if not parts[1] and not parts[2] and not parts[3] and not parts[4] and not parts[5]:
-                surname = parts[0]
-                h_num = ""
 
-            # Overrides for the torn page in Alfred Street
-            if current_street == "Alfred Street" and h_num in {"2", "3", "4"}:
-                if h_num == "2":
-                    surname, forename, trade, bldg = "Wilmott", "William", "labourer", ""
-                elif h_num == "3":
-                    surname, forename, trade, bldg = "Greenhaff", "Mrs Clara", "", ""
-                elif h_num == "4":
-                    surname, forename, trade, bldg = "Hawkins", "Milsom", "labourer", ""
+            # Switch to Albany Street at line 90/92
+            if line_num in [91, 92, 93] and ('Alb' in parts[0] or ('43' in parts[0] and any('Laundry' in p for p in parts))):
+                current_streets = ["Albany Street", "Albany Street", "Albany Street"]
 
-            # Resolve ditto
-            if surname and surname.strip(' ,.-').lower() in {'do', 'ditto'}:
-                surname = prev_surname
-            if trade and trade.strip(' ,.-').lower() in {'do', 'ditto'}:
-                trade = prev_trade
-            
-            for val in [trade, bldg]:
-                if val:
-                    val_low = val.strip().lower()
-                    if val_low.startswith("mrs") or val_low.startswith("miss") or val_low.startswith("mr") or val_low.startswith("dr") or val_low.startswith("rev"):
-                        if not forename:
-                            forename = val
-                            if val == trade:
-                                trade = ""
-                            else:
-                                bldg = ""
-                            break
-
-            if not h_num and not forename and not surname and not trade and not bldg and notes:
-                if CROSS_STREET_PAT.search(notes):
+            non_empty_parts = [p for p in parts if p and p != '-']
+            if len(non_empty_parts) == 1:
+                st_single = is_valid_street_header(non_empty_parts[0])
+                if st_single:
+                    current_streets = [st_single, st_single, st_single]
                     continue
-                if notes.isupper() and len(notes) > 4:
-                    bldg = notes
-                    notes = ""
-            
-            if not h_num and not forename and not surname:
-                comb_val = f"{trade} {bldg} {notes}".lower()
-                landmark_keywords = {
-                    'church', 'ch.', 'chapel', 'grounds', 'gas works', 'gasworks', 
-                    'see also', 'school', 'schools', 'hall', 'chambers', 'depot', 'works'
-                }
-                if any(kw in comb_val for kw in landmark_keywords):
-                    continue
-            
-            trade = clean_trade(trade)
-            forename = clean_name_abbr(forename)
-            
-            if forename or surname or trade or bldg:
-                records.append({
-                    "year": "1902",
-                    "street": current_street,
-                    "house_number": h_num,
-                    "building_name": bldg,
-                    "surname": surname,
-                    "forename": forename,
-                    "trade": trade
-                })
-                
-                if surname:
-                    prev_surname = surname
-                if trade:
-                    prev_trade = trade
-                
-                extra_str = " / ".join([p for p in raw_parts_for_extra if p]).strip()
-                if extra_str:
-                    extra_parts = [ep.strip() for ep in extra_str.split('/')]
-                    for ep in extra_parts:
-                        if not ep:
-                            continue
-                        ep_low = ep.lower()
-                        
-                        is_bldg = False
-                        bldg_keywords = {'house', 'villa', 'cottage', 'cot', 'hotel', 'chambers', 'hall', 'buildings', 'school', 'church', 'chapel'}
-                        if any(kw in ep_low for kw in bldg_keywords) and len(ep.split()) <= 3:
-                            if not records[-1]['building_name']:
-                                records[-1]['building_name'] = ep
-                            continue
-                            
-                        trade_keywords = {
-                            'labourer', 'labr', 'carpenter', 'carpntr', 'steward', 'salesman', 'clerk', 
-                            'mason', 'fitter', 'builder', 'haulier', 'fireman', 'guard', 'shoemaker',
-                            'draper', 'baker', 'rigger', 'tailor', 'painter', 'smith', 'engineer',
-                            'mechanic', 'machinist', 'bricklayer', 'conductor', 'plumber', 'driver',
-                            'steelworker', 'platelayer', 'coal', 'trimmer', 'pilot', 'porter',
-                            'agent', 'merchant', 'dentist', 'hairdresser', 'chiropodist', 'dressmaker'
-                        }
-                        if ep_low in trade_keywords or clean_trade(ep) != ep:
-                            if records:
-                                records[-1]['trade'] = clean_trade(ep)
-                            continue
-                            
-                        tokens = ep.split()
-                        if not tokens:
-                            continue
-                            
-                        s_name = tokens[0]
-                        f_name = ""
-                        t_name = ""
-                        
-                        if len(tokens) == 2:
-                            f_name = tokens[1]
-                        elif len(tokens) >= 3:
-                            last_low = tokens[-1].lower()
-                            if last_low in trade_keywords:
-                                if len(tokens) >= 4 and tokens[-2].lower() in {'ship', 'coal', 'crane', 'dock', 'goods', 'engine', 'motor', 'police', 'stone', 'shoe', 'wood'}:
-                                    t_name = " ".join(tokens[-2:])
-                                    f_name = " ".join(tokens[1:-2])
-                                else:
-                                    t_name = tokens[-1]
-                                    f_name = " ".join(tokens[1:-1])
-                            else:
-                                f_name = " ".join(tokens[1:])
-                                
-                        s_name = s_name.strip(' ,"-~.')
-                        f_name = f_name.strip(' ,"-~.')
-                        t_name = clean_trade(t_name)
-                        f_name = clean_name_abbr(f_name)
-                        
-                        if f_name and ',' in f_name:
-                            f_name_part, trade_part = f_name.split(',', 1)
-                            f_name = f_name_part.strip()
-                            if not t_name:
-                                t_name = clean_trade(trade_part)
-                                
-                        if s_name and ',' in s_name:
-                            s_name_part, trade_part = s_name.split(',', 1)
-                            s_name = s_name_part.strip()
-                            if not t_name:
-                                t_name = clean_trade(trade_part)
-                                
-                        if s_name or f_name or t_name:
-                            records.append({
-                                "year": "1902",
-                                "street": current_street,
-                                "house_number": h_num,
-                                "building_name": bldg,
-                                "surname": s_name,
-                                "forename": f_name,
-                                "trade": t_name
-                            })
-                            
-            if surname:
-                prev_surname = surname
-            if trade:
-                prev_trade = trade
-                
+
+            chunks = split_1902_line(parts)
+            if not chunks:
+                continue
+
+            if len(chunks) == 1:
+                c = chunks[0]
+                st = is_valid_street_header(c[0]) if len(c) > 0 else None
+                if st:
+                    current_streets = [st, st, st]
+                else:
+                    target_st = current_streets[0]
+                    if target_st:
+                        rec = parse_record_chunk(c, target_st)
+                        if rec:
+                            records.append(rec)
+            elif len(chunks) == 2:
+                for col_idx, c in enumerate(chunks):
+                    st = is_valid_street_header(c[0]) if len(c) > 0 else None
+                    if st:
+                        current_streets[col_idx] = st
+                    else:
+                        target_st = current_streets[col_idx] or current_streets[0]
+                        if target_st:
+                            rec = parse_record_chunk(c, target_st)
+                            if rec:
+                                records.append(rec)
+            else:
+                for col_idx, c in enumerate(chunks[:3]):
+                    st = is_valid_street_header(c[0]) if len(c) > 0 else None
+                    if st:
+                        current_streets[col_idx] = st
+                    else:
+                        target_st = current_streets[col_idx] or current_streets[0]
+                        if target_st:
+                            rec = parse_record_chunk(c, target_st)
+                            if rec:
+                                records.append(rec)
+
     with open(output_path, "w", encoding="utf-8", newline="") as f_out:
         writer = csv.DictWriter(f_out, fieldnames=["year", "street", "house_number", "building_name", "surname", "forename", "trade"])
         writer.writeheader()
         writer.writerows(records)
+
     print(f"Parsed {len(records)} records from {input_path} into {output_path}.")
 
 if __name__ == "__main__":

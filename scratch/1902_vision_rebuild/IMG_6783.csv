@@ -1,0 +1,142 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Mill Parade,continued,,,,,""
+resident,Mill Parade,,,,"Barry, Newport & Sharpness Dry Dock Co.","engineers and ship repairers","Britndir whf and at Eastern Dry Docks"
+resident,Mill Parade,,,,"Barry New Dry Docks Co., Ltd.",,""
+resident,Mill Parade,,,,"Lydney and Crump Meadow Collieries Co., Ltd.",,"S. O. Hands, agent"
+resident,Mill Parade,,,,"Newport Foundry Co.",,"H. Lawrence, manager"
+resident,Mill Parade,,,,"Newport Engineering & Ship Repairing Co., Ltd.",,""
+resident,Mill Parade,,,,"Tredegar Dry Dock & wharf",,""
+street,Mill Street,,,,,,From Shaftesbury-street to Gold Tops.
+resident,Mill Street,1,,J.,Sims,"","Eastern Valleys Thomas-street Subway."
+resident,Mill Street,2,Ottery vil,Adam E.,Frost,,""
+resident,Mill Street,3,Kingscoth,W.,Harrington,,""
+resident,Mill Street,4,Torres vil,Wm. J.,Baker,,""
+resident,Mill Street,5,Coombe,Miss H. A.,Jones,,""
+resident,Mill Street,6,Belnie ho,Richard,Jones,,""
+resident,Mill Street,7,Silverton h,F. J.,Newman,,""
+resident,Mill Street,8,Gwynfa,A.,Morris,,""
+cross_street,Mill Street,,,,,,(return.)
+resident,Mill Street,9,COUNTY COUNCIL OFFICES,"Edwin Grove, chairman; H. S. Gustard, clerk; Wm. Tanner, surveyor",,,
+resident,Mill Street,10,COUNTY POLICE STATION,,Insp. Lewis,"Station ho",
+cross_street,Mill Street,,,,,,here is Queen's-hill.
+resident,Mill Street,10,,,Robt.,Bowen,hairdresser,""
+resident,Mill Street,11,,,,"Farrow & Hart","painters, &c",
+resident,Mill Street,12,,,Henry,Gwyther,,""
+resident,Mill Street,13,,,,"Watson & Son",bootmakrs,""
+resident,Mill Street,14,,,Mrs J.,Tuplin,confectr,""
+resident,Mill Street,15,,,Mrs,Morgan,,""
+resident,Mill Street,16,,,James,James,puddler,""
+resident,Mill Street,17,The Lindens,W. M.,Blackburn,,""
+resident,Mill Street,18,,,Arthur,Evans,station mas,""
+resident,Mill Street,19,,,E.,Wilcoe,twine mercht.,"Note: also transcribed as Wilcox"
+resident,Mill Street,20,,,Daniel,Richards,smith,""
+resident,Mill Street,21,,,Mrs,Dunn,Alice,""
+resident,Mill Street,22,,,Walter,Haste,driver,""
+resident,Mill Street,23,New Inn,John,Cox,,""
+resident,Mill Street,,Congregational Church,,,,,""
+resident,Mill Street,24,Morrish's Tempnce Hotel,,,,,""
+resident,Mill Street,25,,,H. W.,Morrish,carrier,""
+resident,Mill Street,,Telephone Call Room,,,,,""
+resident,Mill Street,,National Telephone Co.,,,,444
+resident,Mill Street,26,,,John,Williams,blacksmth,""
+resident,Mill Street,27,George and Dragon,Jane,Davies,,""
+resident,Mill Street,,George and Dragon,Wm.,Baulch,wheelwright,""
+resident,Mill Street,,George and Dragon,O.,Baker,shoeing smith,""
+resident,Mill Street,28,Horse and Jockey,Mrs A.,Grattan,,""
+resident,Mill Street,29,,,Augustine,Grande,wholesale fish merchant,""
+resident,Mill Street,30,,,William,Morrish,shop,""
+resident,Mill Street,31,Old White Lion,John,Fulford,,""
+cross_street,Mill Street,,,,,,here is Factory-road.
+resident,Mill Street,32,Dos Nail Works-,"J. Cordes & Co. Ltd.",,,
+resident,Mill Street,33,,,"Newport Gas works",,
+resident,Mill Street,34,,,Hy.,Tompkins,gas inspt,""
+resident,Mill Street,35,,,"Newport Gas Co's office",,
+resident,Mill Street,,,,"Mill-street yard-(g.w.r.)",,
+street,Milman Street,,,,,,Crossing Alexandra-road.
+cross_street,Milman Street,,,,,,[RIGHT HAND SIDE.]
+resident,Milman Street,1,,,John,Caddick,barman,""
+resident,Milman Street,2,,,Albt.,Adams,boilermaker,""
+resident,Milman Street,3,,,Wm.,Gapper,tug master,""
+resident,Milman Street,4,,,Saml.,Wood,boilermaker,""
+resident,Milman Street,5,,,John,James,boilermaker,""
+resident,Milman Street,6,,,James,Griffiths,carpenter,""
+cross_street,Milman Street,,,,,,here is Alexandra-road.
+resident,Milman Street,7,,,Wm.,Wood,master mar.,""
+resident,Milman Street,8,,,Stephen,Michael,,""
+resident,Milman Street,9,,,Thomas,Pearce,engineer,""
+resident,Milman Street,10,,,James,Pearce,pilot,""
+resident,Milman Street,11,,,Charles,Hockey,baker,""
+resident,Milman Street,12,,,W. H.,Fisher,pilot,""
+resident,Milman Street,13,,,John,Davies,pilot,""
+resident,Milman Street,14,,,Henry,Hill,labourer,""
+cross_street,Milman Street,,,,,,here cross over.
+resident,Milman Street,18,,,Richard,Dunn,coal trimr,""
+resident,Milman Street,17,,,Thomas Geo.,Jones,pilot,""
+resident,Milman Street,15,,,Wm. R.,Parker,boilerunkr,""
+resident,Milman Street,16,,,Joseph,Griffin,foreman,""
+street,Morden Road, M.,,,,,,From 140 Caerleon-road to Christchurch-road.
+cross_street,Morden Road, M.,,,,,, [LEFT HAND SIDE.]
+resident,Morden Road, M.,,Morden ho,H. D.,McDaniel,,""
+resident,Morden Road, M.,1,,,Saml.,Thornley,traveller,""
+resident,Morden Road, M.,2,Galindo ho,John,Lawson,,""
+resident,Morden Road, M.,3,,,Mrs,Hawkins,,""
+resident,Morden Road, M.,4,,,H. W.,Messum,clerk,""
+resident,Morden Road, M.,5,,,John,Turner,builder,""
+resident,Morden Road, M.,6,Sandhurst,Miss,Dalton,,""
+resident,Morden Road, M.,7,,,John,Turner,stonecutter,""
+resident,Morden Road, M.,8,,,R. C.,Lamb,Bd. of Trade,""
+resident,Morden Road, M.,9,,,Edwd.,Snelling,wheelwgt,""
+resident,Morden Road, M.,10,,,Charles H.,Richards,,""
+resident,Morden Road, M.,11,,,E.,Huggins,C.,"Note: C. = clerk?"
+resident,Morden Road, M.,12,,,Gwllim,Thomas,,""
+resident,Morden Road, M.,13,Llandogo ho,John,Morris,,""
+resident,Morden Road, M.,14,,,Thomas,Nancekievill,,""
+resident,Morden Road, M.,,Waters,Alfred E.,clerk,""
+resident,Morden Road, M.,15,,,Jos. H.,Price,schoolmastr,""
+resident,Morden Road, M.,16,,,William,Yeates,,""
+resident,Morden Road, M.,17,,,L. M.,Rees,Livingstone h,""
+resident,Morden Road, M.,18,,,Wm.,Gregory,manager,""
+resident,Morden Road, M.,19,,,Chas.,Robertson,mas mar,""
+resident,Morden Road, M.,20,,,J. J.,Blatchly,gasfitter,""
+resident,Morden Road, M.,21,Hadley ho,Mrs,Thomas,,""
+resident,Morden Road, M.,22,,,Wm.,Taylor,engine driver,""
+resident,Morden Road, M.,23,,,Henry,Evatt,clerk,""
+resident,Morden Road, M.,24,,,Mrs G. A.,Dodd,,""
+resident,Morden Road, M.,25,Greencroft,Henry,Poole,,""
+resident,Morden Road, M.,26,,Rev Alf.,Beer,(Wesleyan),""
+cross_street,Morden Road, M.,,,,,,here is Ronald-road.
+street,HIGHWEEK TERRACE,,,,,,
+resident,HIGHWEEK TERRACE,27,Ingleside,A.,Little,W.G.P.O.,"Note: W.G.P.O. = Western GPO"
+resident,HIGHWEEK TERRACE,28,Mt. Pleasant,H. V.,Taylor,,""
+resident,HIGHWEEK TERRACE,29,,,Fredk. Wm.,Everson,clerk,""
+resident,HIGHWEEK TERRACE,30,,,Edward John,Blowen,,""
+resident,HIGHWEEK TERRACE,31,,,Ernest,Hooper,builder,""
+resident,HIGHWEEK TERRACE,32,,,C. Ernest,Page,surveyor,""
+resident,HIGHWEEK TERRACE,33,Malverton h,John,Baylis,,""
+resident,HIGHWEEK TERRACE,34,,A.,Bryant,house furnishr,""
+resident,HIGHWEEK TERRACE,35,Staverton,A. Kenrick,Cole,,""
+cross_street,Morden Road, M.,,,,,,here is Leicester-road.
+street,BELLE VUE TERRACE,,,,,,
+resident,BELLE VUE TERRACE,36,Clovelly,George,Mills,,""
+resident,BELLE VUE TERRACE,37,Cynon v,Chas. F.,Holmes,,""
+resident,BELLE VUE TERRACE,38,,,George,Tyler,piano tuner,""
+resident,BELLE VUE TERRACE,39,,,F. C.,Clements,mas. mar.,"Note: mas. mar. = master mariner"
+resident,BELLE VUE TERRACE,40,,,David,Edwards,traveller,""
+resident,BELLE VUE TERRACE,41,Vernon ho,Rev A. J.,Jenkins,(Pres.),""
+resident,BELLE VUE TERRACE,42,Crofton h,Aug.,Hobbs,,""
+resident,BELLE VUE TERRACE,43,Swanleigh h,Geo.,Williams,,""
+resident,BELLE VUE TERRACE,44,,,Joseph,Rees,,""
+resident,BELLE VUE TERRACE,45,Norwood h,W. H.,Hayman,,""
+cross_street,Morden Road, M.,,,,,, (return.)
+resident,Morden Road, M.,46,,,John,Pask,,""
+resident,Morden Road, M.,47,Void,,,,,
+resident,Morden Road, M.,48,,,Walter Richard,Smith,,""
+cross_street,Morden Road, M.,,,,,,here is Leicester-road.
+street,ACADIA TERRACE,,,,,,
+resident,ACADIA TERRACE,49,,,Alfred,Turner,engineer,""
+resident,ACADIA TERRACE,50,,,Absalom,Parselle,,""
+resident,ACADIA TERRACE,,Parselle,O. G.,piano tuner,""
+resident,ACADIA TERRACE,51,,,John,Horn,manager,""
+resident,ACADIA TERRACE,52,,,Mrs,Dyer,,""
+resident,ACADIA TERRACE,53,,,C. G.,Rocke,clerk,""
+resident,ACADIA TERRACE,54,,,J. R.,Stewart,,""

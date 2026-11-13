@@ -1,0 +1,145 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,Bedford-road,13,Risca ho,Mrs. J.,Wilson,,
+resident,Bedford-road,15,Auckland,Philip,Howard,,
+resident,Bedford-road,17,Edermine,Wm.,Edwards,,
+resident,Bedford-road,19,Hazlehurst,T. A.,Hawkes,,
+resident,Bedford-road,21,Troy h,J. J.,Sutherland,,
+cross_street,Bedford-road,,,,,,here is Bedford-road.
+resident,Bedford-road,23,Cedar h,Joseph,Ramsdale,,
+resident,Bedford-road,25,Marsden,John,Richards,,
+resident,Bedford-road,27,Mozart ho,Mrs A.,Nott,,
+resident,Bedford-road,29,Melita,Thomas,Davies,,
+resident,Bedford-road,31,Ashley,Mrs Ada,Gratton,,
+resident,Bedford-road,33,Doverhay v,F. W.,Jones,,
+resident,Bedford-road,35,Seaton v,Edwd.,Jenkins,,
+resident,Bedford-road,37,,,Void,,
+cross_street,Bedford-road,,,,,,here is Cedar-road.
+resident,Bedford-road,39,Fernielee,D. W.,Price,,
+resident,Bedford-road,41,Mafeking,Miss E.,Price,,
+resident,Bedford-road,43,,,Void,,
+resident,Bedford-road,45,Montrose,John F.,Cobb,,
+resident,Bedford-road,47,Bailey Rheddin,J. C.,Huxtable,,
+resident,Bedford-road,49,Brookdale,John,Williams,,
+resident,Bedford-road,51,St. Olives,James,Williams,,
+resident,Bedford-road,53,Glyn lyn,Wm.,Workman,,
+resident,Bedford-road,55,Rhosyn,Walter J.,Wood,,
+resident,Bedford-road,57,Briallau,Henry H.,Lewis,,
+cross_street,Bedford-road,,,,,,Vacant sites
+resident,Bedford-road,71,,,Samuel,Daymond,grocer,
+cross_street,Bedford-road,,,,,,here is Harrow-road.
+resident,Bedford-road,73,,,Mrs M. E.,Roach,,
+resident,Bedford-road,75,Maitland,Mrs A.,Bauch,,
+resident,Bedford-road,77,Myrtle grove,R.,Merryweather,,
+resident,Bedford-road,79,,,Miss Clara,Reece,,
+resident,Bedford-road,81,,,Edwin J.,Herbert,sculptor,
+resident,Bedford-road,83,Lawrenny,John,Gwynne,,
+resident,Bedford-road,85,Beechwood,Mrs L.,Steed,,
+resident,Bedford-road,87,Norlands,James,Woods,,
+resident,Bedford-road,91,Belle Vue,Mrs,Phillips,,
+resident,Bedford-road,93,Woodbine,Geo.,Hedley,,
+resident,Bedford-road,95,,,Void,,
+resident,Bedford-road,97,,,do,,
+resident,Bedford-road,99,Penshurst,Wm.,Howells,,
+cross_street,Bedford-road,,,,,,Vacant sites
+cross_street,Bedford-road,,,,,,here is Eton-road.
+resident,Bedford-road,,,PRESBYTERIAN F. M. CHAPEL,,,
+cross_street,Bedford-road,,,,,,Vacant sites
+resident,Bedford-road,161,Hotel Victoria,,,,
+cross_street,Bedford-road,,,,,,here is Llanwern-street.
+resident,Bedford-road,163,,,S. C.,Hockey,butcher,
+resident,Bedford-road,165,,,J. B.,Miller,fruiterer,
+resident,Bedford-road,167,,,Clem.,Guilietti,newsagt and confectioner
+resident,Bedford-road,169,,,Dd.,Cunningham,confectr
+resident,Bedford-road,171,,,Chas.,Parry,tobacconist
+resident,Bedford-road,173,,,M. & Co.,Irvine,ironmgs
+street,Corelli Street.,,,,,,From Tregare-street (East Usk-road.)
+resident,Corelli Street.,35,,,Chas. G.,Cousins,fitter,
+resident,Corelli Street.,36,,,Andrew M.,Cook,coal trmr
+resident,Corelli Street.,,,J. W. & Co,Kemp,copper smiths and plumbers
+resident,Corelli Street.,1,,,Charles,Moulton,shunter
+resident,Corelli Street.,3,,,John,Bennett,labourer
+resident,Corelli Street.,5,,,H. W.,Keighley,clerk
+resident,Corelli Street.,7,,,Wm.,Gatehouse,moulder
+resident,Corelli Street.,9,,,Frank,Jenner,seaman
+resident,Corelli Street.,11,,,Thomas,Tobin,labourer
+cross_street,Corelli Street.,,,,,,(return.)
+resident,Corelli Street.,12,,,John,Pugsley,labourer
+resident,Corelli Street.,10,,,James,Agist,fireman
+resident,Corelli Street.,8,,,John,Boyce,tailor
+resident,Corelli Street.,6,,,John H.,Ridler,labourer
+resident,Corelli Street.,4,,,Wm.,Wyatt,stable helper
+resident,Corelli Street.,2,,,Richd.,Griffiths,labourer
+street,Corn Street.,,,,,,Commercial-st. to Canal-parade.
+resident,Corn Street.,,COUNCIL CHAMBERS,,,Walter & Co.,Hunter,accounttants and estate agents
+resident,Corn Street.,,,,T.,Blandford,tailor
+resident,Corn Street.,3,,,John,Lawrence,grocer
+cross_street,Corn Street.,,,,,,here is Dock-street.
+resident,Corn Street.,,,Model Lodging House,,,,
+cross_street,Corn Street.,,,,,,(return.)
+resident,Corn Street.,13,,,W. H.,Davies,marinestore
+resident,Corn Street.,14,,,,,,
+resident,Corn Street.,15,,,Chas.,Newland,watchmkr
+resident,Corn Street.,16,Potter's Arms,J. R.,Wallace,,
+cross_street,Corn Street.,,,,,,here is Dock-street.
+resident,Corn Street.,17,,,W. & Co., Ltd.,Evans,provision importers
+resident,Corn Street.,18,,,Mdm.,Francois,hairdr'ser
+resident,Corn Street.,19,,, & Son,Christophers,,
+resident,Corn Street.,20,,,Albt.,Fennell,hairdresser
+street,Corporation Road.,,,,,,From Clarence-place to Lysaght's works.
+cross_street,Corporation Road.,,,,,,[LEFT HAND SIDE.]
+resident,Corporation Road.,1,Fascadale,George,Kyd,,
+resident,Corporation Road.,3,Clyde ho,Mrs E.,Brewer,,
+resident,Corporation Road.,5,Netherleigh,W. H.,Strawbridge,,
+resident,Corporation Road.,7,The Lymes,P.,Birkley,,
+resident,Corporation Road.,9,,,John,Rees,foreman
+resident,Corporation Road.,11,Thalaba ho,Mrs E.,Price,,
+resident,Corporation Road.,,Miss,Townsend,dressmkr,
+street,Conway Street.,,,,,,Off Chepstow-rd., nr. Eveswell.
+resident,Conway Street.,22,,,J. W.,Taylor,ins. supt.
+resident,Conway Street.,20,,,H.,Green,painter
+resident,Conway Street.,18,,,J. W.,Powell,G.W.R. goods
+resident,Conway Street.,16,,,Mrs John,Pritchard,,
+resident,Conway Street.,14,,,William,Hillman,mason
+resident,Conway Street.,12,,,Eli,Cornish,stonemason
+resident,Conway Street.,10,,,H.,Shephard,carpenter
+resident,Conway Street.,8,,,David,Williams,tailor
+resident,Conway Street.,6,,,L. J.,Bearne,greengrocer
+resident,Conway Street.,4,,,Void,,
+resident,Conway Street.,2,,,William,White,grocer
+street,Coomassie Street, P.,,,,,,From 34 Mill-parade to Alexandra-road.
+cross_street,Coomassie Street, P.,,,,,,[LEFT HAND SIDE.]
+resident,Coomassie Street, P.,1,,,Maurice,Creese,labourer
+resident,Coomassie Street, P.,2,,,Mrs Harriet,Litson,,
+resident,Coomassie Street, P.,3,,,Thos.,Allison,boilermaker
+resident,Coomassie Street, P.,4,,,W. H.,Williams,waterclerk
+resident,Coomassie Street, P.,5,,,George,Davies,labourer
+resident,Coomassie Street, P.,6,,,John,Donovan,trimmer
+resident,Coomassie Street, P.,7,,,Thomas,Gearon,trimmer
+resident,Coomassie Street, P.,8,,,George,Harris,haulier
+resident,Coomassie Street, P.,9,,,Thos.,Walkley,labourer
+resident,Coomassie Street, P.,10,,,Albert,Walkley,labourer
+resident,Coomassie Street, P.,,,Arthur R. & Son's yard,,,,
+resident,Coomassie Street, P.,11,,,John,Trevorrow,seaman
+resident,Coomassie Street, P.,12,,,George,Oliver,waterman
+resident,Coomassie Street, P.,13,,,James,Speary,rigger
+resident,Coomassie Street, P.,14,,,John,Jones,blacksmith
+resident,Coomassie Street, P.,15,,,Michael,Neill,trimmer
+cross_street,Coomassie Street, P.,,,,,,(return.)
+resident,Coomassie Street, P.,17,Belmont h,W. H.,Hook,,
+resident,Coomassie Street, P.,18,,,James,Ray,dock pilot
+resident,Coomassie Street, P.,19,,,Frederick,Wyer,boatman
+resident,Coomassie Street, P.,20,,,Jas.,Stanley,boilermaker
+resident,Coomassie Street, P.,21,,,G.berthing master,Stacey,,
+resident,Coomassie Street, P.,22,,,Hy.,Porter,Wm. fitter
+resident,Coomassie Street, P.,23,,,David,James,rigger
+resident,Coomassie Street, P.,24,,,William,Nelson,engineer
+resident,Coomassie Street, P.,25,,,T. senr.,Knapman,haulier
+resident,Coomassie Street, P.,,,Arthur R. & Son,engineers, &c., Newcastle engine works
+resident,Coomassie Street, P.,27,,,John,Mapstone,machinist
+resident,Coomassie Street, P.,28,,,George,Arnold,labourer
+resident,Coomassie Street, P.,29,,,William,Phillis,labourer
+resident,Coomassie Street, P.,30,,,Void,,
+resident,Coomassie Street, P.,31,,,James,Burton,rigger
+resident,Coomassie Street, P.,32,,,John O.,Francis,rigger
+resident,Coomassie Street, P.,33,,,William,Morgan,labourer
+resident,Coomassie Street, P.,34,,,Wm.,Thomas,dock policel

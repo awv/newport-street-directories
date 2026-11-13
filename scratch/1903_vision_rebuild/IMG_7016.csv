@@ -1,0 +1,138 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Wallace Street,,,,,,continued
+resident,Wallace Street,,,William,Howells,labourer,
+resident,Wallace Street,,,John,McCarthy,coal trimmer,
+resident,Wallace Street,,,Mrs,Clarke,,
+resident,Wallace Street,,,Joseph,Chireri,,
+resident,Wallace Street,,,Hy. John,Jones,dock lab'rer,
+resident,Wallace Street,,,William,Winter,seaman,
+resident,Wallace Street,,,Malcolm,Campbell,,
+resident,Wallace Street,,,,,void,House void
+resident,Wallace Street,,,Joseph,McCarthy,labourer,
+resident,Wallace Street,,,Michael,McCarthy,,
+street,Walmer Street,,,,,,Off Chepstow-rd., nr. Eveswell
+resident,Walmer Street,,,David,Ford,shunter,
+resident,Walmer Street,,,Mrs.,Owen,,
+street,Walsall Street,,,,,,Left hand side Corporation-rd [RIGHT HAND SIDE.]
+resident,Walsall Street,2,,W. H.,Dowler,poultry dlr
+resident,Walsall Street,4,,Fredk.,Johnson,sheetwkr
+resident,Walsall Street,6,,Richard,Eardley,fitter
+resident,Walsall Street,8,,Wm.,Turner,millwight
+resident,Walsall Street,10,,J. H.,Garland,carpenter
+resident,Walsall Street,12,,W. J.,Warne,mason
+resident,Walsall Street,14,,Herbt.,Morgan,traveller
+resident,Walsall Street,16,,Geo.,Pearson,ironmonger
+resident,Walsall Street,18,,Arthur,Wilkes,painter
+resident,Walsall Street,20,,James,Gabb,furnaceman
+resident,Walsall Street,22,,Tom,Baker,fitter
+resident,Walsall Street,24,,David,Thomas,moulder
+resident,Walsall Street,26,,Mrs. Ann,Davies,,
+resident,Walsall Street,28,,Edgar,Bacon,assistant
+resident,Walsall Street,30,,Harry,Hodgson,steelwkr
+cross_street,Walsall Street,,,,,,(return.)
+resident,Walsall Street,1 & 3,,,,building,
+resident,Walsall Street,5,,Henry,Tonks,,
+resident,Walsall Street,7,,E.,Spencer,engine driver
+resident,Walsall Street,9,,Dd.,Eynon,ironworker
+resident,Walsall Street,11,,George,Mustoe,mason
+resident,Walsall Street,13,,Thomas,Sims,annealer
+resident,Walsall Street,17,,Saml.,Dyke,ironworker
+resident,Walsall Street,19,,John,Swift,shearer
+resident,Walsall Street,21,,A. E.,Taylor,roller
+resident,Walsall Street,23,,,,,void,
+resident,Walsall Street,25,,G. S.,Cottrill,sheetworkr
+resident,Walsall Street,,,,,,Two houses building
+street,Warwick Street,,,,,,Off Chepstow-rd., nr. Eveswell.
+street,Watchhouse Par., P.,,,,,,From Mill-parade.
+resident,Watchhouse Par., P.,1 to 5,,,,,void,
+resident,Watchhouse Par., P.,6,Waterloo Hotel,J.,Williams,,
+resident,Walmer Street,10,,Thos.,Staunton,signwriter,
+resident,Walmer Street,11,,Miss E.,Evans,newsagent
+resident,Walmer Street,12,,,,,void,
+cross_street,Walmer Street,,,,,,here is Alexandra-road.
+resident,Walmer Street,13,,George,Gee,restaurant
+resident,Walmer Street,14 & 15,,,,Tuck & Co., Ltd., India rubber manufacturers
+resident,Walmer Street,16,,S.,Thorn,manager
+resident,Walmer Street,17,,,,,void,
+resident,Walmer Street,18,,,,Wolfe & Co., shipping and family grocers
+resident,Walmer Street,19,,Richard,Brunt,butcher
+resident,Walmer Street,20,,Joseph,Thomas,painter
+resident,Walmer Street,21,,Henry,Abraham,shop
+resident,Walmer Street,22,,A. F.,Lawrence,weigher
+resident,Walmer Street,23,,O.,Halvorsen,,
+cross_street,Walmer Street,,,,,,here is Wolseley-street.
+resident,Walmer Street,24,,Mrs Sarah,Thomas,,
+resident,Walmer Street,25,,Charles,Ebsworth,pilot
+resident,Walmer Street,26,,Wm.,Yendoll,trimmer
+resident,Walmer Street,27,,Henry,Thomas,boatman
+resident,Walmer Street,28,,Wm.,Williams,trimmer
+resident,Walmer Street,29,,,,Swift & Son, cab proprtrs
+resident,Walmer Street,30,,Thomas,Phillips,farmer
+resident,Walmer Street,31,,W. M.,Morgan,bagmer
+resident,Walmer Street,32 & 34,,,,Dawson T. & Co., ship-chandlers, etc.
+resident,Walmer Street,35,Alexandra Dock Hotel,,A. Thomas,proprietor
+cross_street,Walmer Street,,,,,,here is Mendalgief-road.
+resident,Walmer Street,,,,,Atlantic Engin'ring Works Co.,Entrance to Alexandra Dock
+street,Waterloo Road,,,,,,Cardiff-road to Friars-road.
+resident,Waterloo Road,1,Gaer cottage,Wm.,Dally,,
+resident,Waterloo Road,2,,,,,void,
+resident,Waterloo Road,3,,,,,void,
+resident,Waterloo Road,4,Hillside,Henry,Fry,,
+resident,Waterloo Road,5,Raymond h,Wm.,Bowen,,
+resident,Waterloo Road,6,Park view,Ernest,Williams,,
+cross_street,Waterloo Road,,,,,,here is Gaer-street.
+resident,Waterloo Road,7,Belmont h,John,Davies,pilot
+resident,Waterloo Road,8,Parkfield 2,Wm. J.,Pearce,,
+resident,Waterloo Road,9,Rylstone,John,Oates,,
+resident,Waterloo Road,10,Waterloo h,J.,Thompson,,
+resident,Waterloo Road,11,Clevedon view,T.J.,Price,,
+resident,Waterloo Road,12,Sea view,Wm.,Davies,,
+resident,Waterloo Road,13,Channel view,Jas.,Knight,,
+resident,Waterloo Road,14,Greyville,F. W.,Cutliffe,,
+resident,Waterloo Road,15,South view 1,Wm.,Francis,labourer
+resident,Waterloo Road,16,Essex house 2,H. S.,Chubb,brush maker
+resident,Waterloo Road,17,Harbour view 3,Fred.,Jones,,
+resident,Waterloo Road,18,Fair view,Wm.,Parkes,,
+resident,Waterloo Road,19,Pennorva,John,Lyle,,
+resident,Waterloo Road,20,,,,,void,
+resident,Waterloo Road,21,Cresselly,R. W.,Ray,pilot
+resident,Waterloo Road,22,,George,Davies,,
+resident,Waterloo Road,23,Danesbury h,W.,Griffiths,,
+resident,Waterloo Road,24,,R. J.,Fowler,,
+resident,Waterloo Road,25,Cranfield h,Wm.,Richards,,
+resident,Waterloo Road,26,,G.H.,Osborne,ironmonger
+resident,Waterloo Road,27,,Jacob,Waite,,
+resident,Waterloo Road,28,,Harry,Clarke,surveyor to Lloyd's Register
+resident,Waterloo Road,29,Fernpare,W.,Sutherland,,Rio Vista
+resident,Waterloo Road,30,,Andrew,Simpson,,
+resident,Waterloo Road,31,Fernbank,A.S.,Frech,C.E.
+resident,Waterloo Road,32,,W. N.,Stone,,
+resident,Waterloo Road,33,The Den,J. S.,Stone,J.P.
+cross_street,Waterloo Road,,,,,,here is Llandaff-street.
+resident,Waterloo Road,34,Tamworth,Henry,Ray,,
+resident,Waterloo Road,35,Deepholm,John,Gilmore,,
+resident,Waterloo Road,36,Bella vista,Fredk.,Howe,,
+resident,Waterloo Road,37,Penrhiw,W.J.P.,Morgan,,
+cross_street,Waterloo Road,,,,,,here is Stow Park-avenue.
+resident,Waterloo Road,,Friar's cottage,,,void,
+resident,Waterloo Road,,Springfield,Franklin,Beynon,,
+resident,Waterloo Road,,Springfield lo,Clem.,Parker,,
+street,BELLE VUE PARK,,,,,,,
+street,Waters's Lane,,,,,,From 32 Stow-hill.
+resident,Waters's Lane,1,,Captain F.,Chamberlain,,
+resident,Waters's Lane,2,St. Woolos Mission room,,,Church Army,
+resident,Waters's Lane,3,,Miss Annie,Foley,,
+resident,Waters's Lane,,,,,Sister,parochial nurse,Storer
+street,Wednesbury Street,,,,,,Left hand side Corporation-rd
+street,Wesley Chambers,,,,,,See 157 Commercial-street.
+street,Wesley Place,,,,,,From 42 Stow-hill.
+resident,Wesley Place,1,,Charles,Turner,bricklayer
+resident,Wesley Place,2,,Thomas,Chivers,ostler
+street,Westgate Chambers,,,,,,172 & 174 Commercial-street.
+street,West Market Street,,,,,,From Albert-st. to Dolphin-st.
+resident,West Market Street,1,,Charles,Coombe,labourer
+resident,West Market Street,2,,Nath.,Broad,brush maker
+resident,West Market Street,3,,Mrs Mary,Coombs,,
+resident,West Market Street,4,,Mrs Margaret,Gillin,shop
+resident,West Market Street,5,,James,Dawes,rly. checker
+resident,West Market Street,6,,Neil,Beaton,dockeyman

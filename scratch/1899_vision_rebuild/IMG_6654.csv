@@ -1,0 +1,70 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+entry,,15,,Thomas,White,carpenter,
+entry,,16,,T.,Sturley,stonemason,
+entry,,17,,Alexander,Parry,,
+entry,,18,,James,Lee,carpenter,
+entry,,19,,C. G.,Rocke,clerk,
+entry,,20,,Charles,Shopland,builder,
+entry,,21,,Danl.,Fielding,engineer,
+entry,,22,,Ebenezer,Stephens,clerk,
+entry,,23,,John,Stevenson,draper,
+entry,,24,,Edward,Baker,,
+entry,,25,,William,Matthews,,
+cross_street,,,,,,,(return.)
+entry,,26,,Isaac,Swift,cab proprietor,
+entry,,27,Swift's stables,,,,
+entry,,28,,,,,Void
+entry,,29,,Matthew,Brown,shipwrgt,
+entry,,30,,Mrs,Prosser,dressmaker,
+entry,,31,,Thos.,Morgan,bootmaker,
+entry,,32,,Mrs S.,Lee,grocer,
+cross_street,,,,,,,here is Duckpool-road.
+entry,,33,,Thomas,George,broker,
+entry,,34,,Charles,Shone,labourer,
+entry,,35,,,,,Void
+street,Faulkner Road,,,,,,Godfrey-road to Clytha-park.
+entry,Faulkner Road,1,Goldfield h,Mrs C. E.,Keene,,
+entry,Faulkner Road,2,Lydney house,Edgar H.,Fawckner,"M.S.A., architect",
+entry,Faulkner Road,3,Avondale,William,Naish,,
+entry,Faulkner Road,4,Edenhurst,Thos.,Stone,,
+entry,Faulkner Road,5,,T. Morrell,Thomas,M.B.,
+cross_street,Faulkner Road,,,,,,(return.)
+entry,Faulkner Road,6,Edgbaston h,Mrs S.,Howes,,
+entry,Faulkner Road,,Girls' school,Miss,Howes,,
+entry,Faulkner Road,7,Clarence ho,J. W.,Symons,,
+entry,Faulkner Road,8,Moorlinch h,S. D.,Williams,,
+entry,Faulkner Road,8,Moorlinch h,Alfred,Williams,,
+entry,Faulkner Road,8,Moorlinch h,Reg. F. Kewer,Williams,,
+entry,Faulkner Road,9,,A. W.,Gait,,
+street,Fields Crescent Rd.,,,,,,The Fields Estate.
+entry,Fields Crescent Rd.,,Fields lodge,H. D.,Yorath,,
+entry,Fields Crescent Rd.,,,,,,"Villa building"
+street,Fields Park Road,,,,,,The Fields Estate.
+entry,Fields Park Road,,,,,,Villa building
+entry,Fields Park Road,,,,,,do
+entry,Fields Park Road,,Borodaile,W. T.,Jenkins,,
+entry,Fields Park Road,,,Norton,Deane,,
+entry,Fields Park Road,,Glanmôr,Theo.,Vachell,,
+entry,Fields Park Road,,Rostrevor,W. B.,Seymour,,
+entry,Fields Park Road,,,,,,Vacant site
+entry,Fields Park Road,,Cedar Lawn,Henry,Morris,,
+entry,Fields Park Road,,The Limes,Wm. Hy.,Stone,,
+entry,Fields Park Road,,Penderyn,Albert A.,Newman,,
+entry,Fields Park Road,,,,,,Villa void
+entry,Fields Park Road,,St. Brinvels,George,Spittle,,
+entry,Fields Park Road,,The Fields,John,Pickford,,
+entry,Fields Park Road,,The Fields,F. P.,Robjent,,
+entry,Fields Park Road,,King's acre,W. G.,Blow,,
+street,Fields Road,,,,,,From Mill-st. to The Fields.
+entry,Fields Road,,Intermediate School,,,,"Girls' entrance to"
+entry,Fields Road,,,Wm.,Williams,dos works,
+entry,Fields Road,,,Arthur,Stacey,gardener,
+cross_street,Fields Road,,,,,,,here is Godfrey-road.
+entry,Fields Road,,Swiss cottage,James,Watts,,
+cross_street,Fields Road,,,,,,,here is Fields-park-road.
+entry,Fields Road,,Devonfield,Rev W. M.,Munro,,
+entry,Fields Road,,Redcliffe,J. P.,Lewis,,
+entry,Fields Road,,Trevella,Jacob,Jones,,
+entry,Fields Road,,Port view,A. S.,Morgan,,
+entry,Fields Road,,Morningside,W. H. P.,Scannon,,
+entry,Fields Road,,Tremena,W

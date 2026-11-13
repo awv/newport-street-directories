@@ -1,0 +1,129 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,SHAFTESBURY STREET,,,,,,continued
+resident,SHAFTESBURY STREET,2,,Edgar,Chambers,"incor. accountant and auditor",
+resident,SHAFTESBURY STREET,3,,Albert,Lonnon,Ltd.,tailors
+resident,SHAFTESBURY STREET,4,,Miss A. M.,Harding,florist,
+resident,SHAFTESBURY STREET,5,,E. F.,Barnes,furniture dealer,
+resident,SHAFTESBURY STREET,6,,J. H. & Co.,Rennie,auctioneers,
+resident,SHAFTESBURY STREET,7,,Thomas L.,Leadbeter,"coal merchant and colliery agent",
+resident,SHAFTESBURY STREET,,HIGHBURY CHAMBERS,,,,
+resident,SHAFTESBURY STREET,8,HIGHBURY CHAMBERS,,Gardner & Herbert,solicitors,Offices of Caerleon Urban District Council
+resident,SHAFTESBURY STREET,,HIGHBURY CHAMBERS,Jas.,Clements,"steel, iron and metal merchants",
+resident,SHAFTESBURY STREET,,HIGHBURY CHAMBERS,,Ingham, Barrie & Co.,"consulting and contracting engineers",
+resident,SHAFTESBURY STREET,,HIGHBURY CHAMBERS,W.,Ponsford,engr. & mer,
+resident,SHAFTESBURY STREET,9,,A. & Co.,Lindsay,fruit and potato merchants,
+resident,SHAFTESBURY STREET,10,,W. J.,Pinnell,butcher,
+resident,SHAFTESBURY STREET,,STOW CHAMBERS,,,,
+resident,SHAFTESBURY STREET,11,STOW CHAMBERS,W.,Evans,evart. contractr,
+resident,SHAFTESBURY STREET,,STOW CHAMBERS,John R.,Rowlands,house & estate agent and architect,
+resident,SHAFTESBURY STREET,,STOW CHAMBERS,,,South Wales Equitable Money Society,
+resident,SHAFTESBURY STREET,,STOW CHAMBERS,,Capper & Co.,wholesale provision merchants,
+resident,SHAFTESBURY STREET,12,,J. H.,Rennie,sale rooms,
+resident,SHAFTESBURY STREET,,,C. I. & Co.,Joyce,com. agts,
+resident,SHAFTESBURY STREET,13,,H. & Son, Ltd.,Pooley,weighing machine mftrs,
+resident,SHAFTESBURY STREET,,BOROUGH CHAMBERS,,,,
+resident,SHAFTESBURY STREET,,BOROUGH CHAMBERS,Alfred,Searle,solicitor,
+cross_street,SHAFTESBURY STREET,,,here is Dock-street,,,
+resident,SHAFTESBURY STREET,,SKINNER STREET CHAMBERS,,,,
+resident,SHAFTESBURY STREET,14,SKINNER STREET CHAMBERS,W. Clifford,Phillips,"solicitor & com. for oaths",
+resident,SHAFTESBURY STREET,,SKINNER STREET CHAMBERS,,,Monmouthshire United Service Club,Oliver A.
+resident,SHAFTESBURY STREET,15, 16, 17, 18,,,Smiths Newport Ltd.,"flour millers, corn merchants & condiment manufacturers",
+cross_street,SHAFTESBURY STREET,,,(return),,,
+resident,SHAFTESBURY STREET,,,,"Cambrian Tent and Tarpaulin Co., Ltd.",,
+resident,SHAFTESBURY STREET,19,,J. & Co.,Herbert,tallow chandlers,
+resident,SHAFTESBURY STREET,20,,H. L.,Bramwell,,Windsor Castle
+cross_street,SHAFTESBURY STREET,,,here is Dock-street,,,
+resident,SHAFTESBURY STREET,,Shops building,,,,
+resident,SHAFTESBURY STREET,21,Shops building,,,Central Cinema,
+cross_street,SHAFTESBURY STREET,,,here is Skinner-lane,,,
+resident,SHAFTESBURY STREET,22,,A.,Jackson,tailor,
+resident,SHAFTESBURY STREET,,,Albany Chambers,,,see Commercial-street
+resident,SHAFTESBURY STREET,94,,J.,Wade,picture frame maker,
+resident,SHAFTESBURY STREET,,,Cardiff Cold Storage Co. Ltd.,,,
+resident,SHAFTESBURY STREET,70-68,,,Crown Bakery-C. White & Son,,Shaftesbury-st.
+resident,SHAFTESBURY STREET,66,,,River Plate Fresh Meat Co., Ltd.,,
+resident,SHAFTESBURY STREET,64,,A. D.,Ainge,clothes dlr,
+resident,SHAFTESBURY STREET,62-60,,R. A.,Osborne,furniture dealer,
+resident,SHAFTESBURY STREET,58,,C.,Whiting,hardware dlr,
+resident,SHAFTESBURY STREET,56,,Frank,Knee,furniture dlr,
+resident,SHAFTESBURY STREET,54-52,,,Workmen's Reform Club,B. Thomas steward
+resident,SHAFTESBURY STREET,50,,Robert,Wynn,steam haulage contractor & gen car'r,
+resident,SHAFTESBURY STREET,46,,W. W. & Co., Ltd.,Ware,carriers. etc.,
+resident,SHAFTESBURY STREET,44,,J. junr.,Pugsley,shoeing smith,
+resident,SHAFTESBURY STREET,42,,,Swift Beef Co., Ltd.,,
+resident,SHAFTESBURY STREET,40,,John,Graddon,engineer,
+resident,SHAFTESBURY STREET,,,John,Jenkins,window blind manufacturer,
+resident,SHAFTESBURY STREET,,,G. B.,Rawden,plumber, etc.,
+resident,SHAFTESBURY STREET,38,,A. M.,Pearce,hairdresser,
+resident,SHAFTESBURY STREET,36,,,Newcombe Bros.,corn dlrs,S. Vincent manager
+resident,SHAFTESBURY STREET,34-2,,,Central Garage-Armstrong Murison & Sons,,
+resident,SHAFTESBURY STREET,30,,& Williams,Giles,coach builders,
+resident,SHAFTESBURY STREET,,,,Flook's Herring stores,,
+resident,SHAFTESBURY STREET,,,T. W.,Chapman,sculptor,
+resident,SHAFTESBURY STREET,12,,,NEWPORT CASTLE,,
+resident,SHAFTESBURY STREET,8,,Mrs. R.,Morris,newsagent,
+resident,SHAFTESBURY STREET,6,,,Shaftesbury Restaurant,H. Davies Ltd. proprietors
+street,SHIFNAL STREET,,,,,,E 3 Off Corporation-road
+street,SIDNEY STREET,,,,,,C 5 From 17 Tunnel-terrace
+resident,SIDNEY STREET,1,,Mrs. L.,Critchley,,
+resident,SIDNEY STREET,2,,Edwin,Richards,,
+resident,SIDNEY STREET,,,,Henry,Pope,,
+resident,SIDNEY STREET,3,,W.,Vincent,plasterer,
+resident,SIDNEY STREET,4,,William, senior,Hart,,
+resident,SIDNEY STREET,5,,Jas.,Sellick,factory hand,
+cross_street,SIDNEY STREET,,,(return),,,
+resident,SIDNEY STREET,6,,E. L.,Boulter,house agent,
+street,SKINNER STREET,,,,,,C 4 From 33 High-street [LEFT HAND SIDE.]
+resident,SKINNER STREET,,,,Gloucester Chambers,,(See 33 High-street)
+street,SLADE STREET,,,,,,C 3 Cromwell-road to Oakley-street [RIGHT HAND SIDE.]
+resident,SLADE STREET,1,,Edwin,Warren,ironwrkr,
+resident,SLADE STREET,3,,Samuel,Pitt,bricklayer,
+resident,SLADE STREET,5,,Thomas,Hawkins,ironwrkr,
+resident,SLADE STREET,7,,William,Webb,do,
+resident,SLADE STREET,9,,James,Ralph,do,
+cross_street,SLADE STREET,,,(return),,,
+resident,SLADE STREET,10,,Thomas,Wesson,do,
+resident,SLADE STREET,8,,Samuel,Haynes,do,
+resident,SLADE STREET,6,,Samuel,Vaughan,do,
+resident,SLADE STREET,4,,E. T.,Broom,labourer,
+resident,SLADE STREET,2,,Mrs. Elizabeth,Yeates,,
+street,SLIPWAY COTTAGES,,,,,,F 2 End of Corporation-road
+resident,SLIPWAY COTTAGES,1-2,,Wm.,Lloyd,boilermakr,
+resident,SLIPWAY COTTAGES,3,,Geo.,Jeffery,shipwright,
+resident,SLIPWAY COTTAGES,4,,William,Jackson,fitter,
+resident,SLIPWAY COTTAGES,5,,Mrs. Ann,Jones,,
+resident,SLIPWAY COTTAGES,6,,Geo.,Williams,labourer,
+resident,SLIPWAY COTTAGES,7,,Conrad B.,Gilbert,,
+resident,SLIPWAY COTTAGES,8,,Wm.,Peterson,dockman,
+resident,SLIPWAY COTTAGES,9,,Fredk.,Brown,watchman,
+resident,SLIPWAY COTTAGES,10,,Benj.,Dalton,ironworker,
+resident,SLIPWAY COTTAGES,11,,Thomas,Haimes,doubler,
+resident,SLIPWAY COTTAGES,12,,T. H.,Lawrence,watchmn,
+resident,SLIPWAY COTTAGES,,,,Mordey, Carney & Co., Ltd.,Dry docks,
+resident,SLIPWAY COTTAGES,,,,Cardiff Channel Docks and Pontoon Co., Ltd.,,
+street,SOHO STREET,,,,,,D 3 Dudley-street to Tipton-street
+street,SOMERSET ROAD,,,,,,C 3 Caerleon-rd to Christchurch-rd [RIGHT HAND SIDE.]
+resident,SOMERSET ROAD,1,,T. H.,Pulsford,,
+resident,SOMERSET ROAD,3,,William,Newman,,
+resident,SOMERSET ROAD,5,,Mrs.,Kershaw,,
+resident,SOMERSET ROAD,7,,Mrs. E. S.,Griffiths,,
+resident,SOMERSET ROAD,9,,John E.,Harries,traveller,
+resident,SOMERSET ROAD,11,,Mrs. M.,Griffiths,,Sun'yside
+resident,SOMERSET ROAD,13,,S. H.,Spencer,,Montpelier
+resident,SOMERSET ROAD,15,,Joseph A.,Prior,,
+resident,SOMERSET ROAD,17,,Henry,King,Penycefn
+resident,SOMERSET ROAD,19,,Frederick,Nutt,,
+resident,SOMERSET ROAD,21,,James,Jones,ironmonger
+resident,SOMERSET ROAD,23,,Mrs. B.,Cock,,
+resident,SOMERSET ROAD,25,,Arthur,Whitton,,
+resident,SOMERSET ROAD,27,,Matthew,Bell,Rylston
+resident,SOMERSET ROAD,29,,Henry,Marias,,
+resident,SOMERSET ROAD,31,,Wm.,Gibson,Lyncombe
+resident,SOMERSET ROAD,33,,E. W.,Jenkins,,
+resident,SOMERSET ROAD,35,,Mrs. E. L.,Kerr,Langland h
+resident,SOMERSET ROAD,37,,David,Narbett,,
+resident,SOMERSET ROAD,39,,W. E.,Robertson,,
+resident,SOMERSET ROAD,41,,Geo. N.,Jesseman,Oakdene
+resident,SOMERSET ROAD,43,,David,Edwards,Rhydri
+resident,SOMERSET ROAD,45,,H. J.,Charles,Hartpury
+resident,SOMERSET ROAD,47,,Geo. Alfred,Rea,,

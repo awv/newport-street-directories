@@ -1,0 +1,171 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,NEWPORT STREET DIRECTORY.,,,A. E.,Cornish,dentist,
+resident,NEWPORT STREET DIRECTORY.,2,,Francis H.,Morgan,,
+resident,NEWPORT STREET DIRECTORY.,3,,Frederick,Watts,,
+resident,NEWPORT STREET DIRECTORY.,4,,Mrs. Mary,Hovey,,
+resident,NEWPORT STREET DIRECTORY.,5,,Mrs. Jane,Johns,,
+resident,NEWPORT STREET DIRECTORY.,6,,Wm.,Holmes,postman,
+resident,NEWPORT STREET DIRECTORY.,,,E.,Bush,chimney sweep,
+resident,NEWPORT STREET DIRECTORY.,7,,H. R.,Trace,decorator,
+resident,NEWPORT STREET DIRECTORY.,,,,"Dursley house",,,
+cross_street,NEWPORT STREET DIRECTORY.,,,,,,"here is West-street"
+resident,NEWPORT STREET DIRECTORY.,8,,Mrs. Helen,Coxon,,
+resident,NEWPORT STREET DIRECTORY.,9,,Mrs. Edith,Buxton,,
+resident,NEWPORT STREET DIRECTORY.,10,,E.,Elsworthy,insurance agent,
+resident,NEWPORT STREET DIRECTORY.,11,,David,Lander,hairdrsr,
+resident,NEWPORT STREET DIRECTORY.,12,,Fredk. J.,Hill,eng drvr,
+resident,NEWPORT STREET DIRECTORY.,13,,Wm.,Landers,sawyer,
+resident,NEWPORT STREET DIRECTORY.,14,,John Hy.,Dyer,cab't mkr,
+resident,NEWPORT STREET DIRECTORY.,15,,James,Meredith,carpenter,
+resident,NEWPORT STREET DIRECTORY.,16,,Mrs. A. M.,Lewis,,
+resident,NEWPORT STREET DIRECTORY.,17,,Joseph,Gale,painter,
+resident,NEWPORT STREET DIRECTORY.,18,,Chas.,Sully,steelworker,
+resident,NEWPORT STREET DIRECTORY.,19,,Henry George,Evans,,
+resident,NEWPORT STREET DIRECTORY.,20,,William,Tutt,steelwrkr,
+resident,NEWPORT STREET DIRECTORY.,21,,Wm.,James,labourer,
+resident,NEWPORT STREET DIRECTORY.,,,H.,James,coal merchant,
+cross_street,NEWPORT STREET DIRECTORY.,,,,,,"(return)"
+resident,NEWPORT STREET DIRECTORY.,22,,Thomas,Harris,labourer,
+resident,NEWPORT STREET DIRECTORY.,23,,T. R.,Wall,sweep,
+resident,NEWPORT STREET DIRECTORY.,24,,Mrs. L. J.,Farrow,,
+resident,NEWPORT STREET DIRECTORY.,25,,Sidney,Holder,builder,
+resident,NEWPORT STREET DIRECTORY.,26,,Francis,Strong,labourer,
+resident,NEWPORT STREET DIRECTORY.,27,,William,Stanton,labourer,
+resident,NEWPORT STREET DIRECTORY.,28,,Mrs. A. M.,Baldwin,,
+resident,NEWPORT STREET DIRECTORY.,29,,John T.,Bowen,G.W.R.,
+resident,NEWPORT STREET DIRECTORY.,,,W. H.,Stephens,cycle agt,
+cross_street,NEWPORT STREET DIRECTORY.,,,,,,"here is West-street"
+resident,NEWPORT STREET DIRECTORY.,30,,C. H.,Hovey,,
+street,VICTORIA LANE.,,,,,,"D 3"
+notes,VICTORIA LANE.,,,,,,"(known as Church-path) From Victoria-avenue to Church"
+resident,VICTORIA LANE.,1,,William,Edwards,,
+resident,VICTORIA LANE.,2,,Wm.,Blackwell,eng dvr,
+resident,VICTORIA LANE.,3,,William,Thomas,steward,
+resident,VICTORIA LANE.,4,,Albert,Senior,,
+resident,VICTORIA LANE.,,,W. H. S.,Dodds,motor eng,
+street,VICTORIA PLACE.,,,,,,"D 5"
+notes,VICTORIA PLACE.,,,,,,"From 88 Stow-hill to Hill-st."
+cross_street,VICTORIA PLACE.,,,,,,"(RIGHT HAND SIDE.)"
+resident,VICTORIA PLACE.,1,,Talisien,Morgan,,
+resident,VICTORIA PLACE.,2,,John,Francis,,Solva house
+resident,VICTORIA PLACE.,3,,Miss M. G.,Roe,,
+resident,VICTORIA PLACE.,4,,George,Scarfe,,
+resident,VICTORIA PLACE.,5,,Alfred,Salter,tailor,
+resident,VICTORIA PLACE.,6,,Mrs. George,Smith,,
+resident,VICTORIA PLACE.,13,,Mrs. M. E.,Lewis,,Hill ho
+resident,VICTORIA PLACE.,14,,Wm.,Gardner,architect,
+cross_street,VICTORIA PLACE.,,,,,,"(return)"
+resident,VICTORIA PLACE.,7,,Mrs. A. S.,Brewer,,
+resident,VICTORIA PLACE.,8,,Percy C.,Lea,greengrocer,
+resident,VICTORIA PLACE.,9,,Miss G. H.,Roberts,,Hillstowe house
+resident,VICTORIA PLACE.,10,,Mrs. Ellen,Cheetham,,
+resident,VICTORIA PLACE.,11,,William,Roberts,travlr,
+resident,VICTORIA PLACE.,12,,Thomas P.,Garland,,
+resident,VICTORIA PLACE.,,,W. G.,McCheyne,seaman,
+street,VICTORIA SQUARE.,,,,,,"D 5"
+notes,VICTORIA SQUARE.,,,,,,"From North-street"
+resident,VICTORIA SQUARE.,5,,Mrs. Louisa,Connors,,
+resident,VICTORIA SQUARE.,6,,Mrs. Ellen,Knight,,
+resident,VICTORIA SQUARE.,7,,R. A.,Foster,tram condctr,
+resident,VICTORIA SQUARE.,8,,Henry S.,Knight,labourer,
+resident,VICTORIA SQUARE.,9,,Joseph,Mento,labourer,
+resident,VICTORIA SQUARE.,10,,Fredk.,Harris,railwayman,
+resident,VICTORIA SQUARE.,11,,Mrs. Mary Ann,Long,,
+resident,VICTORIA SQUARE.,12,,Carl,Kroger,chaffeur,
+resident,VICTORIA SQUARE.,13,,Jarvis,Woodruff,labourer,
+resident,VICTORIA SQUARE.,14,,Jas.,Goulding,lamplighter,
+street,VICTORIA ROAD.,,,,,,"D 5"
+notes,VICTORIA ROAD.,,,,,,"Victoria-place to Park-square"
+resident,VICTORIA ROAD.,,,,,"CONGREGATIONAL CHURCH",,
+street,VINE PLACE.,,,,,,"D 3"
+notes,VINE PLACE.,,,,,,"From 32 Duckpool-road"
+resident,VINE PLACE.,1,,Wm. Hy.,Jones,painter,
+resident,VINE PLACE.,2,,A.,Thomas,p.o. linesman,
+resident,VINE PLACE.,3,,David C.,Shepherd,labr,
+resident,VINE PLACE.,4,,William,Wood,labourer,
+resident,VINE PLACE.,5,,Mrs. R.,Mitchell,,
+street,VIVIAN ROAD.,,,,,,"D 3"
+notes,VIVIAN ROAD.,,,,,,"From Corporation-road"
+cross_street,VIVIAN ROAD.,,,,,,"(LEFT HAND SIDE.)"
+resident,VIVIAN ROAD.,1,,Mrs. Mary Ann,Lazaretti,,
+resident,VIVIAN ROAD.,3,,Howard,Wells,ironwrkr,
+resident,VIVIAN ROAD.,5,,Mrs. Elizabeth,Maiden,,
+resident,VIVIAN ROAD.,7,,Geo.,Rogers,watchman,
+resident,VIVIAN ROAD.,9,,Wm.,Brady,labourer,
+resident,VIVIAN ROAD.,11,,Thomas,Percy,labourer,
+resident,VIVIAN ROAD.,13,,George,Allen,ironworker,
+resident,VIVIAN ROAD.,15,,John W.,Humphries,do,
+resident,VIVIAN ROAD.,17,,Thos.,Lavelle,do,
+resident,VIVIAN ROAD.,19,,Saml.,Clarke,do,
+resident,VIVIAN ROAD.,21,,James,Goodwin,do,
+resident,VIVIAN ROAD.,23,,Maurice,Ford,labourer,
+resident,VIVIAN ROAD.,25,,Jere.,Reardon,ironworker,
+resident,VIVIAN ROAD.,27,,N.,Hemmens,do,
+resident,VIVIAN ROAD.,29,,Wm. John,James,do,
+resident,VIVIAN ROAD.,31,,Thos.,Whittaker,do,
+resident,VIVIAN ROAD.,33,,Mrs. Jane,Peters,,
+resident,VIVIAN ROAD.,35,,Richard,Barton,ironwkr,
+resident,VIVIAN ROAD.,37,,John F.,Lockyear,labr,
+resident,VIVIAN ROAD.,39,,Mrs. Patience,Griffiths,,
+resident,VIVIAN ROAD.,41,,H. G.,Redmond,tram dvr,
+resident,VIVIAN ROAD.,43,,A. J.,Anslow,ironworker,
+resident,VIVIAN ROAD.,45,,John,Goddard,carpenter,
+resident,VIVIAN ROAD.,47,,W. A.,Freeman,labourer,
+resident,VIVIAN ROAD.,49,,William G.,Rogers,labr,
+resident,VIVIAN ROAD.,51,,Alfred C. E.,Wheaton,chemical worker,
+resident,NEWPORT STREET DIRECTORY.,90,,William,Counsell,,
+resident,NEWPORT STREET DIRECTORY.,91,,Henry,Johns,bricklayer,
+cross_street,NEWPORT STREET DIRECTORY.,,,,,,"here is Woodland-road"
+resident,NEWPORT STREET DIRECTORY.,92,,W. H.,Davies,,
+resident,NEWPORT STREET DIRECTORY.,93,,Thos. B.,Bevan,hairdrsr,
+resident,NEWPORT STREET DIRECTORY.,94,,Mrs. Clara,Knowlton,,
+resident,NEWPORT STREET DIRECTORY.,95,,George William,Bray,,
+resident,NEWPORT STREET DIRECTORY.,96,,Jas. G.,Alker,watchmaker,
+resident,NEWPORT STREET DIRECTORY.,97,,Mrs. K. M.,Bradford,,
+resident,NEWPORT STREET DIRECTORY.,98,,Alan,Mills,florist,
+resident,NEWPORT STREET DIRECTORY.,99,,George,Lloyd,,
+resident,NEWPORT STREET DIRECTORY.,100,,Edwin,Coward,gardener,
+resident,NEWPORT STREET DIRECTORY.,101,,Henry,Cooper,engineer,
+resident,NEWPORT STREET DIRECTORY.,102,,Herbert,Price,,
+resident,NEWPORT STREET DIRECTORY.,103,,Thos. J.,Griffiths,baker,
+cross_street,NEWPORT STREET DIRECTORY.,,,,,,"here is Victoria-lane"
+resident,NEWPORT STREET DIRECTORY.,104,,G. H.,Bannister,schoolmsr,
+resident,NEWPORT STREET DIRECTORY.,105,,Daniel,Lewis,coal mercht,
+resident,NEWPORT STREET DIRECTORY.,,,Bros.,Jakeway,moulding manufacturers,
+resident,NEWPORT STREET DIRECTORY.,96,,Edwin,Hawkins,,Fernside
+resident,NEWPORT STREET DIRECTORY.,97,,George,Lane,,Holt villa
+resident,NEWPORT STREET DIRECTORY.,98,,Sidney J.,Charles,,Swiss v
+resident,NEWPORT STREET DIRECTORY.,99,,George,Parkinson,,
+resident,NEWPORT STREET DIRECTORY.,100,,C. G.,Williams,registrar of births and deaths,
+resident,NEWPORT STREET DIRECTORY.,101,,Miss M. J.,Williams,,
+resident,NEWPORT STREET DIRECTORY.,,,W.,Holbrook,,Victoria nursery
+resident,NEWPORT STREET DIRECTORY.,102,,M. & R. M.,Sturley Misses,,
+resident,NEWPORT STREET DIRECTORY.,103,,Walter,Hiles,watchman,
+resident,NEWPORT STREET DIRECTORY.,104,,Jas.,Shattock,ironwkr,
+resident,NEWPORT STREET DIRECTORY.,106,,Mrs. Mary,Taylor,,Cowling cottage
+resident,NEWPORT STREET DIRECTORY.,107,,Harry,Popham,baker,
+resident,NEWPORT STREET DIRECTORY.,108,,Jas. Rbt.,Williams,roller,
+resident,NEWPORT STREET DIRECTORY.,109,,W. K.,Fry,,Silverton v
+resident,NEWPORT STREET DIRECTORY.,110,,W.,Chesterman,butcher,
+resident,NEWPORT STREET DIRECTORY.,111,,John,Harvey,baker,
+resident,NEWPORT STREET DIRECTORY.,112,,William,Walliker,,
+resident,NEWPORT STREET DIRECTORY.,113,,Mrs. Sarah,Penfold,,
+resident,NEWPORT STREET DIRECTORY.,114,,Arthur Robert,Ferris,,
+resident,NEWPORT STREET DIRECTORY.,,,,"MAINDEE CHURCH INST.",,,
+resident,NEWPORT STREET DIRECTORY.,120,,A. H.,Fry,insurance agt,
+resident,NEWPORT STREET DIRECTORY.,121,,Thos,Thomas,traveller,
+resident,NEWPORT STREET DIRECTORY.,122,,Harold,Stephenson,ironworker,
+resident,NEWPORT STREET DIRECTORY.,123,,Robt. J.,Dodds,clerk,
+resident,NEWPORT STREET DIRECTORY.,124,,Geo. William,Goss,,
+resident,NEWPORT STREET DIRECTORY.,,,Josiah,Stickler,,
+resident,NEWPORT STREET DIRECTORY.,125,,Joseph,Sanders,assistant,
+resident,NEWPORT STREET DIRECTORY.,126,,Hy. Jonn,Reeves,printer,
+resident,NEWPORT STREET DIRECTORY.,127,,Mrs. Beatrice,White,,
+resident,NEWPORT STREET DIRECTORY.,128,,Alfred Aug.,Evans,,
+resident,NEWPORT STREET DIRECTORY.,,,Bros.,Knowlton,taxi prtrts,
+street,VICTORIA CHAMBERS.,,,,,,"D 5"
+notes,VICTORIA CHAMBERS.,,,,,,"See 20 Bridge-street"
+street,VICTORIA CRESCENT.,,,,,,"D 5"
+notes,VICTORIA CRESCENT.,,,,,,"26 Bailey-st. to Blewitt-st."
+cross_street,VICTORIA CRESCENT.,,,,,,"(LEFT HAND SIDE.)"
+resident,VICTORIA CRESCENT.,1,,Miss Elizabeth,Weston,,

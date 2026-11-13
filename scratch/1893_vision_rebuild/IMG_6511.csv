@@ -1,0 +1,132 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,Somerset Road,58,,,Donald,Thos.,puddler,
+resident,Somerset Road,,,,,,St. Woolos Boys' School
+resident,Somerset Road,59,,,Vaughan,Dd.,eng. driver
+resident,Somerset Road,60,,,Collard,Mrs E.,laundress
+resident,Somerset Road,61,,,Marley,Chas.,signalman
+resident,Somerset Road,62,,,Manship,Henry,fitter
+resident,Somerset Road,63,,,Morgan,John,lamplighter
+resident,Somerset Road,64,,,Smith,Mrs Emma,
+resident,Somerset Road,65,Talbot Inn,,Everson,Tom,
+resident,Somerset Road,19,,,Glynn,Geo.,gasfitter
+resident,Somerset Road,20,,,Pegler,John,gardener
+resident,Somerset Road,21,,,Compton,Geo.,carpenter
+resident,Somerset Road,22,,,Turner,Chas.,foreman
+resident,Somerset Road,23,,,Bartlett,J.,boilermaker
+cross_street,Somerset Road,,,,,,here is St. Woolos-place.
+resident,Somerset Road,24,,,Greenman,Mrs Emily,
+resident,Somerset Road,25,,,Dinan,Wm. J.,clerk
+resident,Somerset Road,26,,,Vanderplank,W.,coachm'n
+resident,Somerset Road,27,,,Davies,Mrs Mary,
+cross_street,Somerset Road,,,,,,(return.)
+resident,Somerset Road,28,,,May,Lewis Jas.,ins. agent
+resident,Somerset Road,29,,,Innis,Leonard,plate layer
+resident,Somerset Road,30,,,Partridge,Fredk.,mason
+resident,Somerset Road,31,,,Collard,W.,joiner
+resident,Somerset Road,32,,,Neale,Martin J.,carpenter
+resident,Somerset Road,33,,,Morgan,W. E.,telegrap'st
+resident,Somerset Road,,James' bakehouse,,,,
+cross_street,Somerset Road,,,,,,here is Jones-st.
+resident,Somerset Road,34,,,Prosser,Wm.,coal merch't
+street,St. Michael's St., P.,,,,,,,See High-st.
+street,St. Woolos Place, B.,,,,,,,From 25 St. Woolos-rd.
+resident,St. Woolos Place, B.,1,,,Fooks,John,pipe maker
+resident,St. Woolos Place, B.,2,,,Williams,Mrs Elizabeth,
+resident,St. Woolos Place, B.,3,,,Davies,Jno.,coalman
+resident,St. Woolos Place, B.,4,,,Jones,Wm. T.,mason
+resident,St. Woolos Place, B.,5,,,Prosser,Jos.,coachman
+resident,St. Woolos Place, B.,6,,,Jones,David,signalman
+resident,St. Woolos Place, B.,7,,,Davies,Mrs Maria,
+resident,St. Woolos Place, B.,8,,,Evans,Edmund,haulier
+cross_street,St. Woolos Place, B.,,,,,,(return.)
+resident,St. Woolos Place, B.,9,,,Bradshaw,Wm.,moulder
+resident,St. Woolos Place, B.,10,,,Jenkins,Jno. Hy.,mason
+resident,St. Woolos Place, B.,11,,,Rendell,Wm. C.,railway
+resident,St. Woolos Place, B.,12,,,Meredith,Edwin,gard'nr
+resident,St. Woolos Place, B.,13,,,Brown,John,carpenter
+resident,St. Woolos Place, B.,14,,,Heath,Charles,agent
+resident,St. Woolos Place, B.,15,,,Griffiths,Philip,boilerm'kr
+street,St. Woolos Road, B.,,,,,,,34 St. Mary-st. to Clifton-rd.
+resident,St. Woolos Road, B.,1,Prince of Wales,,Jennings,Jos. E.,
+resident,St. Woolos Road, B.,2,,,Morgan,Philip,smith
+resident,St. Woolos Road, B.,3,,,Gumm,Jos.,gardener
+resident,St. Woolos Road, B.,4,,,Perry,Wm.,haulier
+resident,St. Woolos Road, B.,5,,,Jones,Spencer,inspector
+resident,St. Woolos Road, B.,6,,,Marment,Miss,dressmakr
+resident,St. Woolos Road, B.,7,,,Capel,Hy.,upholsterer
+resident,St. Woolos Road, B.,8,,,Watts,Fredk.,shopkeeper
+resident,St. Woolos Road, B.,8A,,,Hodges,W.,gardener
+cross_street,St. Woolos Road, B.,,,,,,,here is Graham-st.
+resident,St. Woolos Road, B.,9,Wellington Inn,,Porter,F.,
+resident,St. Woolos Road, B.,10,,,Whitson,Wm.,carpenter
+resident,St. Woolos Road, B.,11,,,Smythe,Mrs. Elizabeth,
+resident,St. Woolos Road, B.,12,,,Richards,W.,sailmaker
+resident,St. Woolos Road, B.,13,,,Collard,C.,bootmaker
+resident,St. Woolos Road, B.,14,,,Tooze,John,policeman
+resident,St. Woolos Road, B.,15,,,Halse,Henry,grocer
+cross_street,St. Woolos Road, B.,,,,,,,here is St. Julian-st.
+resident,St. Woolos Road, B.,16,,,Oakey,Mrs S.,
+resident,St. Woolos Road, B.,17,,,Peters,Albt. H.,carpenter
+resident,St. Woolos Road, B.,18,,,Packer,Arth.,policeman
+street,Scard Street, B.,,,,,,,From North-st. to Bailey-st.
+resident,Scard Street, B.,1,,,Vale,Mrs M. A.,
+resident,Scard Street, B.,2,,,Dowdeswell,D.,game dlr
+resident,Scard Street, B.,3,,,Cooksley,John,clerk
+resident,Scard Street, B.,4,,,Wynes,J.,theatrical mngr
+resident,Scard Street, B.,5,,,Gabb,Thos.,eng. driver
+resident,Scard Street, B.,6,,,Swallow,J.,guard, B.&M.R.
+resident,Scard Street, B.,7,,,Chave,W. H.,rlwy. inspt'r
+resident,Scard Street, B.,8,,,Cooke,Rd.,ticket collector
+resident,Scard Street, B.,9,,,Watkins,Fredk.,haulier
+street,Screw Packet Road,,,,,,,,From 2 High-street.
+resident,Screw Packet Road,,,,,Healing S. & Sons (Tewkesbury),flour mills,
+resident,Screw Packet Road,,,,Davies Bros.,,Bangor wharf,
+resident,Screw Packet Road,,,,,Nicholas & Co.,Baltic wharf,
+street,Serpentine Road,,,,,,,,(See Gold Tops.)
+street,Seamoor Terrace,,,,,,,,Nos. 33-43 Duckpool-road.
+street,Severn Terrace,,,,,,,,Op. St. Woolos Church.
+resident,Severn Terrace,,,,,,S. John Baptist Mission house—The Sisters
+street,Sidbury Terrace,,,,,,,,Nos 30-37 Maindee-parade.
+street,Sidney Street, B.,,,,,,,See John-street.
+street,Skinner Street,,,,,,,,From 33 High-st.
+resident,Skinner Street,,,,,,Gloucester Bank Chambers
+resident,Skinner Street,2,,,Freeguard,Jas.,refreshment rooms
+resident,Skinner Street,3,,,,,Void
+resident,Skinner Street,4,,,Dawson,Geo.,hairdresser
+resident,Skinner Street,5,,,Newport (Mon.) Furnishing Co. Ltd.,,
+resident,Skinner Street,6,,,,,Shop—void
+resident,Skinner Street,,Highbury Chambers,,,,
+resident,Skinner Street,7,,,Cooke & Hearsey,,land agents and surveyors,
+resident,Skinner Street,,Highbury Chambers,,,Gardner & Herbert,,solicitors,
+resident,Skinner Street,,Highbury Chambers,,,,Offices of the Caerleon Local Board
+resident,Skinner Street,,Highbury Chambers,,,Newland and Hunt,,auctioneers, surveyors, etc.,
+resident,Skinner Street,8,,,Steel,T. Dyne,C.E.
+resident,Skinner Street,9,,,,,Building
+resident,Skinner Street,10,,,,,Do
+resident,Skinner Street,10A,,,,,Do
+cross_street,Skinner Street,,,,,,here is Dock street.
+resident,Skinner Street,,Skinner Street Chambers,,,,
+resident,Skinner Street,11,,,Francis, Stanton, & Parnall,,solicitors,
+resident,Skinner Street,,Skinner Street Chambers,,,Lawrence,Edwd.,solicitor,
+resident,Skinner Street,,Skinner Street Chambers,,,Parnall,Martyn,,naval architect,
+resident,Skinner Street,12,,,Brown, Gopsill and Sons,,sack contractors,
+resident,Skinner Street,13,,,Smith & Co.,corn mercts
+cross_street,Skinner Street,,,,,,(return.)
+resident,Skinner Street,15,,,Herbert,J.,tallow chandler
+resident,Skinner Street,16,Windsor Castle,,Jones,W.E.,
+resident,Skinner Street,17,,,Kenvyn,G. J. & Co.,provision merchants
+cross_street,Skinner Street,,,,,,here is Dock-st.
+resident,Skinner Street,,Westgate Foundry & Ironworks,,W. A. Baker & Co,,
+resident,Skinner Street,,,Brown,A. H.,bootmaker
+street,Somerset Road,,,,,,,,Nr. milestone, Caerleon-road.
+resident,Somerset Road,1,,,Hazell,Alfred,builder
+resident,Somerset Road,2,,,Jones,John,merchant
+resident,Somerset Road,,,,,Five houses building
+resident,Somerset Road,,Clifton house,,Fry,Robert,
+resident,Somerset Road,,Clevedon ho,,Bruton,Geo. W.,
+resident,Somerset Road,,,,Thomas,T.,contractor
+cross_street,Somerset Road,,,,,,(return.)
+resident,Somerset Road,,Llanfoist House,,Whitfield,Noel G.,
+resident,Somerset Road,,,,,House—void
+resident,Somerset Road,,Staunton h,,Halford,Frank T.,
+resident,Somerset Road,,,,,Vacant sites

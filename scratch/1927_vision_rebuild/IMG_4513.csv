@@ -1,0 +1,163 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,HARRY STREET,C 5,,,,,Cambrian-road to Station-street
+cross_street,HARRY STREET,,,CROWN CHAMBERS--,,,,
+cross_street,HARRY STREET,,,1st Floor,,,,
+resident,HARRY STREET,,,,Inland Revenue Offices,,,H.M. Inspector of Taxes (No. 1 and 3 Districts)
+cross_street,HARRY STREET,,,2nd Floor,,,,
+resident,HARRY STREET,,,,,Page (Ernest) & Lawrence,architects, surveyors & valuers
+cross_street,HARRY STREET,,,CAMBRIAN HOUSE--,,,,
+resident,HARRY STREET,,,,,Joyce E. & Co. Ltd.,wholesale newsagents,
+resident,HARRY STREET,15,,John,Hillman,mason,
+resident,HARRY STREET,17,,Tom,Jones,patternmaker,
+resident,HARRY STREET,19,,G. A.,Roderick,clerk,
+resident,HARRY STREET,21,,Mrs. Emma,Winn,,
+resident,HARRY STREET,23,,Mark,Parsons,Deanhouse
+resident,HARRY STREET,25,,James Rees,Watford,
+resident,HARRY STREET,27,,Mrs. M.,Watkins,Frome
+resident,HARRY STREET,29,,P.,Prendergast,police
+resident,HARRY STREET,31,,T.,Hampton,Grove house
+cross_street,HARRY STREET,,,here is Bedford-road,,,,
+resident,HARRY STREET,33,,Wm.,Payne,grocer, etc.
+resident,HARRY STREET,35,,Mrs. Edith M.,Preece,,
+cross_street,HARRY STREET,,,here is Wyverne-road,,,,
+resident,HARRY STREET,37,,Miss M. A.,Matthews,,Dunkswell
+resident,HARRY STREET,39,,John,Newman,engineer,
+resident,HARRY STREET,37,,Mrs. E.,Thomas,,Ryecroft
+resident,HARRY STREET,39,,William Thos.,Johnson,,Ffynonau
+resident,HARRY STREET,41,,W.,Gilpin,G.W.R.,
+resident,HARRY STREET,43,,H. J.,Butler,motor engnr
+resident,HARRY STREET,,,Harrow Road Garage,,,,
+street,HARROW ROAD,D 3,,,,,From 70 Chepstow-road to Corporation-road
+cross_street,HARROW ROAD,,,(LEFT HAND SIDE.),,,,
+resident,HARROW ROAD,54,,Mrs. M.,James,Oak v
+resident,HARROW ROAD,52,,J. H.,Farrow,Mon Abria
+resident,HARROW ROAD,50,,R. T.,Wynn,contractor
+resident,HARROW ROAD,48,,Arthur,Brennan,,
+resident,HARROW ROAD,46,,Harold,Bryant,schmaster
+resident,HARROW ROAD,44,,Miss Mabel,Phillips,,
+resident,HARROW ROAD,42,,Edwin,Meaker,builder, etc
+resident,HARROW ROAD,40,,Herbert,Daymond,,
+resident,HARROW ROAD,38,,George,Nicholls,clerk
+resident,HARROW ROAD,36,,Mrs. Mary,Pearce,,
+resident,HARROW ROAD,34,,Reuben,Wise,G.W.R.,
+resident,HARROW ROAD,32,,Mrs. H.,Sevenoaks,Ivydene
+resident,HARROW ROAD,30,,J.,Shewring,sign writer,Lorna Doone
+cross_street,HARROW ROAD,,,here is Bedford-road,,,,
+resident,HARROW ROAD,28,,John,Logan,draughtsman,
+resident,HARROW ROAD,26,,Chas. Edgar,Hurley,,
+resident,HARROW ROAD,24,,Mrs. P.,Coles,Harrow ho
+resident,HARROW ROAD,22,,Mrs. Kate Abigail,Owen,,
+resident,HARROW ROAD,20,,Mrs. Mary,Collett,,
+resident,HARROW ROAD,18,,Mrs. Emma,Hankins,Lydbrook
+resident,HARROW ROAD,16,,Geo. A.,Cox,Revelstoke
+resident,HARROW ROAD,14,,Geo.,Burford,traveller,
+resident,HARROW ROAD,12,,Thomas Jas.,Harrington,,
+cross_street,HARROW ROAD,,,here is Rugby-road,,,,
+resident,HARROW ROAD,10,,Henry,Thomas,,
+resident,HARROW ROAD,8,,Wm. C.,Page,insur brkr,
+resident,HARROW ROAD,6,,Thomas,Robinson,,
+resident,HARROW ROAD,4,,Algernon,Griffiths,confct
+resident,HARROW ROAD,2,,Edwin,Williams,printer
+resident,HARROW ROAD,,Francis Gideon,Francis Gideon,engineer,
+resident,HARROW ROAD,2A,,Commercial Printing Co.,,,,
+cross_street,HARROW ROAD,,,(return),,,,
+resident,HARROW ROAD,3,,James M.,Hewett,Walton house
+resident,HARROW ROAD,,Charles W. N.,Anderson,dental surgeon,
+resident,HARROW ROAD,5,,C. E.,George,Wellesley
+resident,HARROW ROAD,7,,Mrs. M. A.,Jones,Tyrone
+resident,HARROW ROAD,9,,G. T.,Wright,Selsdon
+resident,HARROW ROAD,11,,W.,Treharne,,
+resident,HARROW ROAD,,(Ernest C.) & Son,Jordan,building contr & engnrs
+resident,HARROW ROAD,13,,R.,Warboys,St. Audries
+cross_street,HARRY STREET,,,(return),,,,
+resident,HARRY STREET,41,,Chas.,Watts,insur agent
+resident,HARRY STREET,,Wm.,Redman,ironwkr
+resident,HARRY STREET,34,,Thos. H.,Davies,ironwkr
+resident,HARRY STREET,32,,John T.,Royster,roller
+resident,HARRY STREET,30,,Fredk. E.,Wills,G.W.R.
+resident,HARRY STREET,28,,Wm.,Ireland,mechanic
+resident,HARRY STREET,26,,Ellis,Hobbs,,
+resident,HARRY STREET,24,,Sydney G.,Smith,dghtmn
+resident,HARRY STREET,22,,John,Thomas,builder
+resident,HARRY STREET,20,,Melvin,Jones,tram driver
+resident,HARRY STREET,18,,Trevor Chas.,Evans,agent
+cross_street,HARRY STREET,,,here is Wyverne-road,,,,
+resident,HARRY STREET,16,,Albert E.,Hazell,G.W.R.
+resident,HARRY STREET,14,,John,Davies,,
+resident,HARRY STREET,12,,Rudolph,Myer,carpenter
+resident,HARRY STREET,10,,Mrs. Emily,Stephens,,
+cross_street,HARRY STREET,,,New houses,,,,
+resident,HARRY STREET,8,,Alfred H.,Panting,foremn
+resident,HARRY STREET,6,,Charles,Wood,fitter
+resident,HARRY STREET,4,,Joseph,Jones,assistant
+resident,HARRY STREET,2,,Clifford A.,Moxham,,
+street,HATHAWAY STREET,E 3,,,,,Off Dewstow-street
+street,HAVELOCK STREET,D 4,,,,,57 Stow-hill to North-street
+cross_street,HAVELOCK STREET,,,(LEFT HAND SIDE),,,,
+resident,HAVELOCK STREET,1,,Augustus,Leyshon,,
+resident,HAVELOCK STREET,2,,Charles,Patterson,fitter
+resident,HAVELOCK STREET,3,,Mrs. Mary Anne,Viner,,
+resident,HAVELOCK STREET,4,,Mrs.,Whelan,shopkeeper
+cross_street,HAVELOCK STREET,,,(return),,,,
+resident,HAVELOCK STREET,,,,,PRESBYTERIAN CHAPEL,
+resident,HAVELOCK STREET,,,,John,McGinn,F.R.C.S., surgery
+street,HAWARDEN ROAD,,,,,Off Chepstow-road (Cross-Hands)
+cross_street,HAWARDEN ROAD,,,From No. 408,,,,
+resident,HAWARDEN ROAD,1,,W.,Parkes,joiner
+resident,HAWARDEN ROAD,3,,Mrs. Kate,Hughes,,
+resident,HAWARDEN ROAD,5,,Mrs. Ada L.,Thomas,,
+resident,HAWARDEN ROAD,7,,Fredk.,Parkes,boilermkr
+resident,HAWARDEN ROAD,9,,Void,,,
+resident,HAWARDEN ROAD,11,,Thos. H.,Finch,p.o.
+resident,HAWARDEN ROAD,13,,Joseph H.,Wells,manager
+resident,HAWARDEN ROAD,15,,Joseph V.,Lamb,,
+resident,HAWARDEN ROAD,17,,Raymond,Ashwin,electn
+resident,HAWARDEN ROAD,19,,Thos.,Weatherill,machnst
+resident,HAWARDEN ROAD,21,,Mrs. Dorothy,Stewart,,
+resident,HAWARDEN ROAD,23,,Thomas Price,manager
+resident,HAWARDEN ROAD,25,,J.,Cann,crane driver,Dusage
+resident,HAWARDEN ROAD,,John Chas.,Dunage,,
+resident,HAWARDEN ROAD,27,,Thos. C.,James,postman
+cross_street,HAWARDEN ROAD,,,here is Balmoral-rd.,,,,
+resident,HAWARDEN ROAD,29,,Arthur J.,Hipkin,nurse
+resident,HAWARDEN ROAD,31,,Fredk.,Riley,salesman
+resident,HAWARDEN ROAD,33,,Wilfred,Evans,clerk
+resident,HAWARDEN ROAD,35,,John F.,Morgan,labourer
+resident,HAWARDEN ROAD,37,,Francis R.,Davey,printer
+resident,HAWARDEN ROAD,39,,W.,Thomas,baker
+street,HAWTHORN AVENUE,E 2,,,,,Somerton Gardens Estate Off Chepstow-road.
+cross_street,HAWTHORN AVENUE,,,(RIGHT HAND SIDE.),,,,
+resident,HAWTHORN AVENUE,2,,Albert E.,Moss,Williton
+resident,HAWTHORN AVENUE,4,,Geo. T.,Parfitt,Sunnyside
+resident,HAWTHORN AVENUE,6,,W. A.,Greenland,Burghclere
+resident,HAWTHORN AVENUE,8,,Dd. S.,James,Belvedere
+resident,HAWTHORN AVENUE,,Jas.,McIlvaney,watchmkr
+resident,HAWTHORN AVENUE,10,,Fredk. J.,Heath,ironwkr
+cross_street,HAWTHORN AVENUE,,,here is Linden-road,,,,
+resident,HAWTHORN AVENUE,12,,Mrs. Margaret,Day,,
+resident,HAWTHORN AVENUE,14,,Alb. T.,Shatford,waterwk
+resident,HAWTHORN AVENUE,16,,Chas. H.,Owen,ironwkr
+resident,HAWTHORN AVENUE,18,,Mrs. Mabel,Leveson,,
+resident,HAWTHORN AVENUE,,Joseph,Snowden,,
+resident,HAWTHORN AVENUE,20,,Arthur T.,Parsons,slsman
+resident,HAWTHORN AVENUE,22,,Charles Alfred,Evans,,
+resident,HAWTHORN AVENUE,24,,Albert V.,Eynon,,
+resident,HAWTHORN AVENUE,26,,William J.,Newman,,
+cross_street,HAWTHORN AVENUE,,,here is Hawthorn-sq.,,,,
+resident,HAWTHORN AVENUE,28,,Wm. A. J.,Arthur,mech
+resident,HAWTHORN AVENUE,30,,Wilfred,Evans,fireman
+resident,HAWTHORN AVENUE,32,,David,Murdock,stoker
+resident,HAWTHORN AVENUE,34,,Albert,Couch,fuel wrkr
+cross_street,HAWTHORN AVENUE,,,here is Sycamore-avenue,,,,
+resident,HAWTHORN AVENUE,36,,Ernest Harry,Maidment,bricklayer
+resident,HAWTHORN AVENUE,,Chas.,Sweetman,watchmn
+resident,HAWTHORN AVENUE,38,,James,Forrest,G.W.R.
+resident,HAWTHORN AVENUE,40,,Harry,Whimple,mason
+resident,HAWTHORN AVENUE,42,,M.,Howe,telegraphist
+resident,HAWTHORN AVENUE,44,,J. H.,Coldwell,boilermkr
+resident,HAWTHORN AVENUE,,Wm. E.,Harley,ironwkr
+resident,HAWTHORN AVENUE,46,,Joseph,Malborn,crane dr
+resident,HAWTHORN AVENUE,48,,V. T.,Howell,blacksmith
+resident,HAWTHORN AVENUE,50,,Wm. Dd.,Rogers,iworker
+resident,HAWTHORN AVENUE,52,,Roderick,McLeod,travlr
+resident,HAWTHORN AVENUE,54,,H. F. J.,Gibbons,clerk

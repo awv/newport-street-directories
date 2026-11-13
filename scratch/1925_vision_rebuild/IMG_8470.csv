@@ -1,0 +1,153 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,,5,,Gearon Michael,do,,
+cross_street,,,[return],,,
+resident,,6,,Francis Alfred,,,dk labr
+resident,,7,,Greer Wm.,,,boilermaker
+resident,,8,,O'Brien Daniel,,,labourer
+resident,,9,,Westacott John,,,bricklyer
+resident,,10,,Maher Charles Edward,,,trimmer
+resident,,11,,Cooper John,,,fitter
+street,TROSTON ROAD,G 2 2,,,,,"From Nash-road"
+resident,TROSTON ROAD,1,,Rickman George,,,
+resident,TROSTON ROAD,2,,Cooper Joseph,,,ironwnkr
+resident,TROSTON ROAD,3,,Walton Samuel,,,
+resident,TROSTON ROAD,4,,Griffin Richard,,,
+resident,TROSTON ROAD,5,,Roberts Lot,,,
+resident,TROSTON ROAD,6,,Hayes Harry L.,,,
+resident,TROSTON ROAD,,Swinbourne,Richard D.,,,,
+resident,TROSTON ROAD,7,,Stocker Alfred R.,,,
+resident,TROSTON ROAD,8,,Jenkins Albert E.,,,
+resident,TROSTON ROAD,9,,Williams James,,,
+resident,TROSTON ROAD,10,,Roberts John David,,,
+resident,TROSTON ROAD,,Great Troston,Attewell Mrs. Louisa J.,,,
+resident,TROSTON ROAD,,Troston,Hazell Wm. S.,,,Little
+resident,TROSTON ROAD,,Bungalow,Batten Ernest,,,
+resident,TROSTON ROAD,,Cold Harbour,Hale J. H.,,,
+street,TROSTREY STREET,C 3 40,,,,,"From Turner-st. to Bath-st."
+resident,TROSTREY STREET,1,,,Jeffries James,shop,
+resident,TROSTREY STREET,,,Collier's Machine Bakery,,,
+resident,TROSTREY STREET,5,,Burton Mrs. Sarah,,,
+resident,TROSTREY STREET,6,,O'Keefe John C.,grocer,,
+resident,TROSTREY STREET,7,,Humphreys Arthur James,haulier,,
+resident,TROSTREY STREET,8,,Griffiths Wm.,,,G.W.R.
+resident,TROSTREY STREET,9,,Haines Charles,,,baker
+resident,TROSTREY STREET,10,,Manning J.,,,horsekeeper
+resident,TROSTREY STREET,11,,Parsloe Wm.,,,insur agent
+resident,TROSTREY STREET,12,,May John,,,blacksmith
+resident,TROSTREY STREET,13,,Phillips Mrs. M. J.,,,
+resident,TROSTREY STREET,14,,Corbidge Percy Harold,,,
+resident,TROSTREY STREET,15,,Cooling F. W.,,,checker
+resident,TROSTREY STREET,16,,Williams Percy,,,serg. detc
+street,TUNNEL TERRACE,C 5,,,,,"West side of Railway Tunnel"
+resident,TUNNEL TERRACE,2,,Ryder Mrs.,,,
+resident,TUNNEL TERRACE,3,,Thorne Mrs. Sarah,,,
+resident,TUNNEL TERRACE,4,,Brown Fredk.,plasterer,,
+resident,TUNNEL TERRACE,,Brown J. H.,watchmaker,,,
+resident,TUNNEL TERRACE,5,,Weight Geo. S. A.,,,junr.
+resident,TUNNEL TERRACE,6,,Edwards E. E.,,,ironworker
+resident,TUNNEL TERRACE,7,,Haines J. S.,,,railway clerk
+resident,TUNNEL TERRACE,8,,Coquerel Eugen,,,
+resident,TUNNEL TERRACE,9,,Gibbs Joseph,,,
+cross_street,TUNNEL TERRACE,,,here is Ford-street,,,
+resident,TUNNEL TERRACE,10,,Haines David,gardener,,
+resident,TUNNEL TERRACE,11,,Jones George,,,
+resident,TUNNEL TERRACE,12,,Davies Wm. J.,gardener,,
+resident,,13,,Little Edward,chaffeur,,
+resident,,14,,Davies Edgar,lino oper,,
+resident,,15,,Bailey M.,window cl'nr,,
+resident,,16,,Harris Miss Lily,,,
+resident,,17,,Murray John,signalman,,
+cross_street,,,[here is Sidney-street],,,
+resident,,18,,Slade E. R.,painter,,
+resident,,19,,Arthur Edmund,,,
+resident,,20,,Jordan John Hugh,clerk,,
+resident,,21,,Stowell Arthur James,,,
+resident,,23,,Voyle Miss M. C.,,,P.O.
+resident,,24,,Jones Mrs. Maria,,,
+resident,,25,,Jackson John William,,,
+resident,,26,,Jolliffe Mrs. Annie,,,
+resident,,27,,Williams Walter,gardener,,
+resident,,28,,Jones Miss Mary,,,
+resident,,,Jones William,rly clerk,,
+resident,,29,,Waters Henry,fuel worker,,
+resident,,30,,Gale John,guard,,
+resident,,31,,Powell Alfred E. gardener,,,
+resident,,32,,Pockett H. E.,G.W.R.,,
+resident,,34,,White Charles Henry,,,
+resident,,35,,Sharland Percy J.,barrmn,,
+resident,,36,,Davies George,,,
+resident,,37,,Hathway R. T.,gardener,,
+resident,,38,,Adey H. J.,G.W.R.,,
+resident,,39,,Dowling Charles,greengrcr,,
+resident,,40,,Dobson Joseph,gardener,,
+resident,,41,,Halse Aug. Samuel,,,
+resident,,43,,Ahern Maurice,,,
+resident,,45,,Doran Mrs. Ellen,,,
+cross_street,,,[KINGSMIIL GARDENS],,,
+resident,,46,,Probyn Thomas,,,
+cross_street,,,[return],,,
+resident,,47,,Hazelhurst,Lloyd Robert Henry,,,
+resident,,,de Lloyd Ernest,ins. sec.,,
+resident,,,Ince Mrs.,Avalon,,
+cross_street,,,[here is Kingsmill-terrace],,,
+cross_street,,,[here is Windsor-terrace],,,
+street,TURNER STREET,C 3 10,,,,,"From 61 Caerleon-road"
+cross_street,TURNER STREET,,,[LEFT HAND SIDE],,,
+resident,TURNER STREET,1,,Rees G. F.,,,G.W.R. smith
+resident,TURNER STREET,2,,Lale Albert H.,boots,,
+resident,TURNER STREET,,Glass (Andrew) & Son,engineers & mach merchs,,,
+resident,TURNER STREET,,Horrocks & Sons,mineral water stores,,,
+resident,TURNER STREET,,King & Co.,builders' yard,,,
+resident,TURNER STREET,,Sansom I. E.,baker,,
+cross_street,TURNER STREET,,,[return],,,
+resident,TURNER STREET,,Venn & McPherson,haulage contractors,,,
+resident,TURNER STREET,,East Usk garage,,,
+resident,TURNER STREET,,Walters & Lane,carriage builders,,,
+resident,TURNER STREET,,Rees F.,coal merchant,,,
+resident,TURNER STREET,,Davies W. E.,timber yard,,,
+resident,,,Stobbs T.,timber mercht,,"Junction saw mills"
+resident,,,Hodge (Ralph) & Co., Ltd.,,,Ukskide saw mills
+cross_street,,,[here is Trostrey-street],,,
+resident,,3,,Donovan John,gas wrkr,,
+resident,,4,,Tucker T. B.,clerk,,
+resident,,5,,Howlett William John,,,
+resident,,,Morgan F. N. & Co.,motor engineers,,,
+street,TYLLWYD ROAD,C 6,,,,,"Off Oakfield-road"
+cross_street,TYLLWYD ROAD,,,[RIGHT HAND SIDE],,,
+resident,TYLLWYD ROAD,2,,Herbert H. J.,,,Cefn-Tilla
+resident,TYLLWYD ROAD,4,,Emery Walter,,,Rosebank
+resident,TYLLWYD ROAD,6,,Badman C. H.,,,The Haven
+resident,TYLLWYD ROAD,8,,Hazell J. Ll.,,,Arleston
+resident,TYLLWYD ROAD,10,,Jesseman V. J. N.,,,Arfryn
+resident,TYLLWYD ROAD,12,,Greenland Alfred J.,Craig-las,,
+resident,TYLLWYD ROAD,14,,Ellis Wm. E.,,,
+cross_street,TYLLWYD ROAD,,,[return],,,
+cross_street,TYLLWYD ROAD,,,[here is Southville-road],,,
+resident,TYLLWYD ROAD,5,,Jones Arthur V.,,,
+resident,TYLLWYD ROAD,3,,Matthews W. E.,,,Llan-gattock
+resident,TYLLWYD ROAD,1,,Williams E.E.,,,The Laurels
+street,UNION LANE,D 4,,,,,"Dock-street to Union-street"
+street,UNION STREET,D 4,,,,,"From 32 Llanarth-street"
+resident,UNION STREET,1,,Murray Thomas,labourer,,
+resident,UNION STREET,2,,Daley Mrs. John,,,
+resident,UNION STREET,3,,Thomas James,labourer,,
+resident,UNION STREET,4,,Stanton William,labourer,,
+resident,UNION STREET,5,,Seignot Herbert,haulier,,
+resident,UNION STREET,6,,Kalahar Wm. labourer,,,
+resident,UNION STREET,7,,Allen James,labourer,,
+resident,UNION STREET,8,,Davies Evan John,labr,,
+resident,UNION STREET,9,,Davies George,,,
+resident,UNION STREET,10,,Williams John,labourer,,
+resident,UNION STREET,11,,Jones Fred,labourer,,
+resident,UNION STREET,,Avery & Sons,motor engrs,,,
+resident,UNION STREET,,Norton W. G. & Co.,motor engineers,,,
+cross_street,UNION STREET,,,[return],,,
+resident,UNION STREET,14,,Le Clare John,labourer,,
+resident,UNION STREET,15,,Welsh Thomas,labourer,,
+resident,UNION STREET,,Dunscombe Mrs. E.,caretaker,,,
+street,UPTON PLACE,C 6,,,,,"No. 182 to 196 Chepstow-road"
+street,UPTON ROAD,C 6,,,,,"From 87 Risca-road to West Park-road"
+cross_street,UPTON ROAD,,,[LEFT HAND SIDE],,,
+resident,UPTON ROAD,1,,Wilson W. H.,,,Overdale
+resident,UPTON ROAD,3,,Warner J.,F.L.A.,librar'n,,
+resident,UPTON ROAD,5,,Davies Rees,clerk,,

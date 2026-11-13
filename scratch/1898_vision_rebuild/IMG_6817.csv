@@ -1,0 +1,157 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Agincourt Street,,,,,,continued
+resident,Agincourt Street,38,,Henry,Thomas,labourer,
+resident,Agincourt Street,36,,Alfd.,Williams,labourer,
+resident,Agincourt Street,34,,,,,Void
+resident,Agincourt Street,32,,Geo.,Rodburn,labourer,
+resident,Agincourt Street,30,,,,,Void
+resident,Agincourt Street,28,,David,Williams,puddler,
+resident,Agincourt Street,26,,,,,Void
+resident,Agincourt Street,24,,,,,do
+resident,Agincourt Street,22,,,,,do
+resident,Agincourt Street,20,,Mrs. Susan,Williams,,
+resident,Agincourt Street,18,,,,,Void
+resident,Agincourt Street,16,,,,,do
+resident,Agincourt Street,14,,Wm. Chas.,Kyte,sawyer,
+resident,Agincourt Street,12,,Daniel,Grace,labourer,
+resident,Agincourt Street,10,,David,Watson,glass works,
+resident,Agincourt Street,8,,James,Cruise,labourer,
+resident,Agincourt Street,6,,John,Ware,labourer,
+resident,Agincourt Street,4,,Mrs Ann,Murphy,,
+resident,Agincourt Street,2,,,,,Void
+street,Ailesbury Street, C.,,,,,,From 11 Albany-street.
+resident,Ailesbury Street, C.,1,,James,Davies,labourer,
+resident,Ailesbury Street, C.,3,,,,,Void
+resident,Ailesbury Street, C.,5,,Geo.,Frost,bottle blower,
+resident,Ailesbury Street, C.,7,,Walter,Martin,labourer,
+resident,Ailesbury Street, C.,9,,Mrs Rachel,Legresley,,
+resident,Ailesbury Street, C.,11,,Michael,Hinchy,seaman,
+resident,Ailesbury Street, C.,13,,John,Brewis,glass blowr,
+resident,Ailesbury Street, C.,15,,James,Collins,labourer,
+resident,Ailesbury Street, C.,17,,,,,Void
+resident,Ailesbury Street, C.,19,,,,,do
+resident,Ailesbury Street, C.,21,,Charles,Rosier,platelayer,
+resident,Ailesbury Street, C.,23,,Joseph,Brewis,glass works,
+resident,Ailesbury Street, C.,25,,Robert,Williams,fitter,
+resident,Ailesbury Street, C.,27,,Mrs. Annie,Alpin,,
+resident,Ailesbury Street, C.,29,,Edward,Basham,labourer,
+resident,Ailesbury Street, C.,31,,James,Pugsley,labourer,
+resident,Ailesbury Street, C.,33,,William,Oakes,hawker,
+cross_street,Ailesbury Street, C.,,,,,,(return.)
+resident,Ailesbury Street, C.,14,,,,,Void
+resident,Ailesbury Street, C.,12,,Mrs Emma,Smith,,
+resident,Ailesbury Street, C.,10,,,,,Void
+resident,Ailesbury Street, C.,8,,Edward,Amos,labourer,
+resident,Ailesbury Street, C.,6,,Mrs Emma,Langley,,
+resident,Ailesbury Street, C.,4,,John,Connors,labourer,
+resident,Ailesbury Street, C.,2,,Joseph,Tutton,haulier,
+street,Albany Chambers,,,,,,See 1 Commercial-street.
+street,Albany Street, C.,,,,,,Malpas-road to Glass works.
+resident,Albany Street, C.,,Westacott T. builder,,,,
+resident,Albany Street, C.,1,,Alfred,Ware,mason,
+resident,Albany Street, C.,2,,Evan,Williams,gasfitter,
+resident,Albany Street, C.,3,,William,Taylor,labourer,
+resident,Albany Street, C.,4,,Mrs Caroline,Williams,,
+cross_street,Albany Street, C.,,,,,,here is Arlington-street.
+resident,Albany Street, C.,5,,Chas.,Askew,shopkeeper,
+resident,Albany Street, C.,6,,John,Harding,mason,
+resident,Albany Street, C.,7,,William,Henker,butcher,
+resident,Albany Street, C.,8,,Mrs Harriet,Miller,,
+resident,Albany Street, C.,9,,Mrs Martha,England,,
+resident,Albany Street, C.,10,,Mrs Martha,Nelson,,
+resident,Albany Street, C.,11,,Jas.,Booth,general shop,
+cross_street,Albany Street, C.,,,,,,here is Ailesbury-street.
+resident,Albany Street, C.,12,,,,,Void
+resident,Albany Street, C.,13,,Wm. J.,Thomas,police,
+resident,Albany Street, C.,14,,Arthur,Sturmey,labourer,
+resident,Albany Street, C.,15,,Alfred,Williams,joiner,
+resident,Albany Street, C.,16,,Elisha,Pope,plasterer,
+resident,Albany Street, C.,17,,Chas.,Dowding,bottlemkr,
+resident,Albany Street, C.,18,,Henry,Hiscocks,stoker,
+resident,Albany Street, C.,19,,Thomas,Bray,grocer,
+cross_street,Albany Street, C.,,,,,,here is Argyll-street.
+resident,Albany Street, C.,20,,W.,Hunton,bottle maker,
+resident,Albany Street, C.,,Crosswaite Alfd. shoemkr,,,,,
+resident,Albany Street, C.,21,,Mrs Ada,Phelkins,,
+resident,Albany Street, C.,22,,,,,Void
+resident,Albany Street, C.,23,,Chas.,Workman,labourer,
+resident,Albany Street, C.,24,,Benj.,Thomas,glass works,
+resident,Albany Street, C.,25,,,,,Void
+resident,Albany Street, C.,26,,George,Leach,bottle hand,
+resident,Albany Street, C.,27,,Jas.,Wade,glass blower,
+resident,Albany Street, C.,28,,Edmd.,Jennings,lathrendr,
+resident,Albany Street, C.,29,,,,,Void
+resident,Albany Street, C.,30,,,,,do
+resident,Albany Street, C.,31,,Hy.,Sims,warehouseman,
+resident,Albany Street, C.,32,,J. H.,Moulton,tailor,
+resident,Albany Street, C.,33,,,,,Void
+resident,Albany Street, C.,34,,Evan,Thomas,guard,
+resident,Albany Street, C.,35,,,,,Void
+resident,Albany Street, C.,36,,W.,Hutchinson,glass wks,
+resident,Albany Street, C.,37,,William,Davies,potter,
+resident,Albany Street, C.,38,,James,Waddington,,
+resident,Albany Street, C.,39,,,,,Void
+resident,Albany Street, C.,40,,,,,do
+resident,Albany Street, C.,41,,,,,do
+resident,Albany Street, C.,42,,Richard,Baker,gardener,
+resident,Albany Street, C.,43,Mon. Steam Laundry Co., Ld.,Mrs Lancum,m'gress,,
+resident,Albany Street, C.,,Hillman's firewood yard,,,,,
+resident,Albany Street, C.,45,,Robert,Hillman,,
+cross_street,Albany Street, C.,,,,,,here is Aragon-street.
+resident,Albany Street, C.,,Gas Co.'s Crindau works,,,,,
+resident,Albany Street, C.,,S. Wales Glass Co.'s works,,,,,
+cross_street,Albany Street, C.,,,,,, (return.)
+resident,Albany Street, C.,,Albany St. Brick works,,A. S.,Morgan,proprietor,
+resident,Albany Street, C.,46,,Hy.,Chard,brick burner,
+resident,Albany Street, C.,47,,Sidney,Palmer,labourer,
+resident,Albany Street, C.,48,,Alfred,Spiller,carpenter,
+resident,Albany Street, C.,49,,Fredk.,Chard,brickmaker,
+cross_street,Albany Street, C.,,,,,,here is Alderney-street.
+resident,Albany Street, C.,,Lovell & Co.'s "Mon." confectionery works,,,,,,
+resident,Albany Street, C.,,Newport Pottery Company,,,,,
+resident,Albany Street, C.,,Collier Bros. lime manuft'rs,,,,,
+street,Albert Avenue, M.,,,,,,From 127 Chepstow-road to Summer-hill.
+resident,Albert Avenue, M.,1,Royal Albert,,Mrs R.,Jones,,
+resident,Albert Avenue, M.,2,,Arthur,Hill,wareho'man,
+resident,Albert Avenue, M.,3,,James,Griffiths,storeman,
+resident,Albert Avenue, M.,4,,Benj.,Wiggett,bricklayer,
+resident,Albert Avenue, M.,5,,Joseph,Weeks,plasterer,
+resident,Albert Avenue, M.,6,,George,Stone,labourer,
+resident,Albert Avenue, M.,7,,Mrs Sarah A.,Meredith,,
+resident,Albert Avenue, M.,8,,William J.,Rees,mason,
+resident,Albert Avenue, M.,9,,Henry,Reed,plasterer,
+resident,Albert Avenue, M.,10,,Fredk.,Golledge,painter,
+resident,Albert Avenue, M.,11,,Thos.,Swift,cab proprietor,
+resident,Albert Avenue, M.,12,,John,Redmore,labourer,
+resident,Albert Avenue, M.,13,,James,Dark,mason,
+resident,Albert Avenue, M.,14,,John,Watkins,labourer,
+resident,Albert Avenue, M.,15,,Henry,Cleverley,mason,
+resident,Albert Avenue, M.,16,,Arthur,Coote,plumber,
+resident,Albert Avenue, M.,17,,John,Edmunds,puddler,
+resident,Albert Avenue, M.,18,,R.,Hewertson,hoopmaker,
+resident,Albert Avenue, M.,19,,Ed. C.,Badger,electrician,
+cross_street,Albert Avenue, M.,,,,,,here is Maindee-parade.
+resident,Albert Avenue, M.,20,,Mrs H. G.,Deacon,bootsellr,
+resident,Albert Avenue, M.,22,,Mrs Jane,Cherrington,,
+resident,Albert Avenue, M.,23,,C.,Vaughan,painter,
+street,Belgave Place,,,,,,
+resident,Belgave Place,24,,Edmund,Snook,mason,
+resident,Belgave Place,25,,Richard,Groves,painter,
+resident,Belgave Place,26,,Frederick,Harris,,
+resident,Belgave Place,27,,Thomas,Morgan,foreman,
+street,Providence Place,,,,,,
+resident,Providence Place,28,,James,Stacey,carpenter,
+resident,Providence Place,29,,Alfred,Day,tailor,
+resident,Providence Place,30,,Henry,Hale,carpenter,
+resident,Providence Place,31,,Wm.,Baker,carpenter,
+resident,Providence Place,32,Crown Assembly Rooms,,,,,,
+resident,Albert Avenue, M.,,Crown Assembly Rooms,John,Hodges,gardener,
+resident,Albert Avenue, M.,33,Crown cottage,John,Dix,Crown cottage,
+street,Cambria cottages (15),,,,,,
+cross_street,Cambria cottages (15),,,,,,here is Fair Oak-avenue.
+resident,Cambria cottages (15),34,,James,Webber,mason,
+resident,Cambria cottages (15),35,,Capel,Davies,carpenter,
+resident,Cambria cottages (15),36,,Nehemiah,Meredith,,
+resident,Cambria cottages (15),37,Willow cot,W. H.,Parsons,,
+cross_street,Cambria cottages (15),,,,,,(return.)
+resident,Albert Avenue, M.,50,Fair view,Thomas,Gillard,,

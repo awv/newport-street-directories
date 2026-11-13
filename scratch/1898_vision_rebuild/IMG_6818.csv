@@ -1,0 +1,145 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,Albany Street,51,,J.,Richards,,"Llwyncelyn"
+resident,Albany Street,52,,Edwin,Dixon,,"Penrhiw"
+resident,Albany Street,55,,J.,Price Cor.,,"Yuba villa"
+resident,Albany Street,56,,Sidney,Croydon,assist't
+resident,Albany Street,57,,Edwd.,Coughlin,lampli'tr
+resident,Albany Street,58,,Henry,Thomas,baker
+resident,Albany Street,59,,Thomas,Wiggett,joiner
+resident,Albany Street,60,,I. A.,Ingram,cabinetmkr
+resident,Albany Street,,,SUMMERHILL BAP. CHAPEL,,,
+resident,Albany Street,62,,C.,Pearce,,"Summerhill ho"
+resident,Albany Street,63,,Edwin,Bennett,foreman
+resident,Albany Street,64,,George,Brothers,painter
+resident,Albany Street,66,,William,Evans,painter
+resident,Albany Street,66,,Henry,Stokes,foreman
+resident,Albany Street,67,,Richard,Bastin,factory
+resident,Albany Street,68,,Mrs J.,Gard,grocer & baker
+resident,Albany Street,69,,W. H.,Gough,lamplighter
+resident,Albany Street,70,,Chas.,Marston,gardener
+resident,Albany Street,71,,Mrs Margaret,Morgan,
+resident,Albany Street,72,,Jas.,Baker,greengrocer,&c
+resident,Albany Street,,Crown hotel,Hy.,Gatehouse
+cross_street,Albany Street,,,,,,here is Crown-street
+resident,Albany Street,73,,A.,Morgan,greengrocer
+resident,Albany Street,74,,Walter,Oliver,labourer
+resident,Albany Street,75,,Wm.,Chambers,clerk
+resident,Albany Street,76,,J.,Trevaskis,bootmaker
+resident,Albany Street,77,,G. F.,Thorne,grocer, etc.
+resident,Albany Street,78,,,,,Void
+resident,Albany Street,79,,Henry,Poole,
+resident,Albany Street,80,,J.,Pritchard,,"Denton c"
+resident,Albany Street,81,,H.,Newbury,,"Maindee cot"
+resident,Albany Street,82,,Mark,Pool,,"Somerset cot"
+resident,Albany Street,83,,Mrs Janet,Sexstone,
+resident,Albany Street,84,,Tom,Short,,"Cefn cottage"
+resident,Albany Street,85,,W. J.,Thomas,,"Bevis cot"
+resident,Albany Street,86,,Fk.,Brown,,"Josyan cot"
+resident,Albany Street,87,,James,Cox,
+resident,Albany Street,88,,Robt. H.,Bastin,labourer
+resident,Albany Street,89,,John,Miles,butcher
+resident,Albany Street,90,,Fred.,Coombes,painter
+resident,Albany Street,91,,Alfred,Snook,mason
+resident,Albany Street,92,,Thomas,Tandy,
+resident,Albany Street,93,,Wm.,Dingle,scavenger
+resident,Albany Street,94,,Jas.,Morris,police officer
+resident,Albany Street,95,,William,Tanner,police
+resident,Albany Street,96,,John,Tanner,painter
+resident,Albany Street,97,,J.& Son,Powell,workshops
+resident,Albany Street,98,,George,Williams,sawyer
+resident,Albany Street,99,,Charles,Adams,haulier
+resident,Albany Street,100,,Jas.,Ford,cattle drover
+street,Albert Street, P.,,,,,,"From 35 Commercial-road."
+resident,Albert Street, P.,1,,,,,Void
+resident,Albert Street, P.,2,,M.,Manoy,pawnbroker
+resident,Albert Street, P.,3,,John,Sully,cranedriver
+resident,Albert Street, P.,4,,Mrs Caroline,Hathway,
+resident,Albert Street, P.,5,,Mrs Caroline,Clements,
+resident,Albert Street, P.,6,,John,Lovell,cabinetmaker
+resident,Albert Street, P.,7,,Wm.,Bond,blacksmith
+street,Albert Terrace, B.,,,,,,"East side of Tunnel."
+resident,Albert Terrace, B.,1,,Chas. J.,Milman,stonemsn
+resident,Albert Terrace, B.,2,,Ernest,Harvey,haulier
+resident,Albert Terrace, B.,3,Engineers' Arms,F.,Witts
+cross_street,Albert Terrace, B.,,,,,,here is East-street.
+resident,Albert Terrace, B.,4,South Wales Railway Inn,Thos.,James
+resident,Albert Terrace, B.,5,,Mrs Ann,Clayton,
+resident,Albert Terrace, B.,6,,G. H.,Weight,gasfitter
+resident,Albert Terrace, B.,7,,John,Hill,haulier
+resident,Albert Terrace, B.,8,,John,Gilbert,fitter
+resident,Albert Terrace, B.,9,,John,Minnett,mason
+resident,Albert Terrace, B.,10,,Thos.,Legge,engine driver
+resident,Albert Terrace, B.,11,,Mrs Elizabeth,Tillin,
+resident,Albert Terrace, B.,12,,Mrs Susan,Frape,
+resident,Albert Terrace, B.,13,,Wm.,Wheatland,gardener
+resident,Albert Terrace, B.,14,,William,Bowden,mason
+resident,Albert Terrace, B.,15,,Cuthbert,Davidson,fitter
+resident,Albert Terrace, B.,16,,James,Edmunds,fitter
+resident,Albert Terrace, B.,17,,Fredk.,Amos,litho printer
+resident,Albert Terrace, B.,18,,James,Beer,brewery hand
+resident,Albert Terrace, B.,19,,John,Goddard,carpenter
+resident,Albert Terrace, B.,20,,Alfred,Joseph,factory
+resident,Albert Terrace, B.,21,,Walton,Evans,puddler
+resident,Albert Terrace, B.,22,,Arthur,Witts,boatman
+resident,Albert Terrace, B.,23,,Herbert,Johnson,mason
+street,Albion Chambers,,,,,,See 21 Commercial-street.
+street,Albion Street, P.,,,,,,"From 139 Commercial-road."
+resident,Albion Street, P.,1,,Wm.,Watkins,labourer
+resident,Albion Street, P.,2,,Wm. P.,Moss,dealer
+resident,Albion Street, P.,3,,N.,Smerkinch,shipcarptr
+resident,Albion Street, P.,4,,Geo. Jas.,Stewart,carp'ter
+resident,Albion Street, P.,5,,Edward,Wood,haulier
+resident,Albion Street, P.,6,,Mrs Catherine,Granville,
+resident,Albion Street, P.,7,,Wm.,Bradford,haulier
+resident,Albion Street, P.,8,,Frederick,Cordey,police
+resident,Albion Street, P.,9,,James,Butler,labourer
+resident,Albion Street, P.,10,,William,Tallin,
+resident,Albion Street, P.,11,,Thomas,Raynes,guard
+resident,Albion Street, P.,12,,Daniel,O'Connell,trimmr
+resident,Albion Street, P.,13,,Mrs Martha,Wood,
+resident,Albion Street, P.,14,,John,Roberts,coal shippr
+resident,Albion Street, P.,15,,Mrs Mary,Davies,shop
+resident,Albion Street, P.,16,,John,James,boilermaker
+resident,Albion Street, P.,17,,Joseph,King,guard
+resident,Albion Street, P.,18,,William,Cox,fitter
+resident,Albion Street, P.,19,,Robert,Jenkins,foreman
+resident,Albion Street, P.,20,,Geo.,Tyas,engine driver
+resident,Albion Street, P.,21,,James,Kelly,watchman
+resident,Albion Street, P.,22,,Walter,Coes,trimmer
+resident,Albion Street, P.,23,,Herbert C.,Powell,guard
+resident,Albion Street, P.,24,,Thomas,Olsen,seaman
+resident,Albion Street, P.,25,,J. O.,Wiltshire,shoemaker
+resident,Albion Street, P.,26,,Ed.,Bordman,warehoman
+resident,Albion Street, P.,27,,Cor.,Burke,coal trimmer
+resident,Albion Street, P.,28,,Patk.,O'Callaghan,lab'rer
+resident,Albion Street, P.,29,,Thos.,Flynn,engine drivr
+resident,Albion Street, P.,30,,Philip,Richards,rigger
+resident,Albion Street, P.,,,Richard,Ross,pilotsman
+resident,Albion Street, P.,31,,David,Morgan,labourer
+resident,Albion Street, P.,,,Wm.,Jones,shipcarpenter
+resident,Albion Street, P.,32,,James,Hayes,assistant
+resident,Albion Street, P.,33,,Wm.,Houghton,firewood merchant
+street,Alderney Street, C.,,,,,,"From 49 Albany-street."
+resident,Alderney Street, C.,,,,John,Morgan,engine driver
+street,Alexandra Docks,,,,,,From end of Watchhouse-par.
+cross_street,Alexandra Docks,,,,,,[North-end.]
+resident,Alexandra Docks,,,,,,G.W.R. enquiry office
+resident,Alexandra Docks,,,,,,L. & N.W. Co.'s office
+resident,Alexandra Docks,,,,,,Wharfingers' office
+resident,Alexandra Docks,,,,W. H.,Shute,dock contractor
+resident,Alexandra Docks,,,,,,Timber berths
+cross_street,Alexandra Docks,,,,,,[West-side.]
+resident,Alexandra Docks,,,,W. H.,Wise,"timber measurer's office"
+resident,Alexandra Docks,,,,,,Dock engine house
+resident,Alexandra Docks,,,,,,Timber float
+resident,Alexandra Docks,,,& Co.'s, Ltd.,Nicholas,"steam sawing & moulding mills—"
+resident,Alexandra Docks,,,,John,Adams,foreman
+resident,Alexandra Docks,,,,Clifford,Wills,engine driver
+resident,Alexandra Docks,,,Corporation Hospital—Albt. E. Walker,
+resident,Alexandra Docks,,,& Haywood,Burt,"sleeper merchants, creosote works, etc."
+resident,Alexandra Docks,,,,,,Post office Telephone office
+resident,Alexandra Docks,,,,,,National TelephoneCo's office
+resident,Alexandra Docks,,,,,,Coal hoists (9)
+resident,Alexandra Docks,,,,James,Littlejohns,"National Wagon works"
+resident,Alexandra Docks,,,& Co., Ltd.,Mordey, Carney,"engineers, etc., Durham engine works"
+resident,Alexandra Docks,,,,,,South Dock—Four coal hoists and necessary sidings

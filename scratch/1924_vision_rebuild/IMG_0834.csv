@@ -1,0 +1,123 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,RISCA ROAD,32,Villette,Arthur,Morris,,
+resident,RISCA ROAD,30,,Mrs. E.,Thomas,,
+resident,RISCA ROAD,28,Rockdene,Mrs. A.,Currey,,
+resident,RISCA ROAD,26,Monksdene,C. J.,Southcliffe,,
+resident,RISCA ROAD,,St. John's Vicarage,Rev. J. F.,Summers,S. Western (The) Dry Docks-,
+cross_street,RISCA ROAD,,,here is Oakfield-road,,,
+resident,RISCA ROAD,,S. John Baptist Church,,,,
+cross_street,RISCA ROAD,,,here is Bryngwyn-road,,,
+resident,RISCA ROAD,,S. John Baptist High School,,,,
+cross_street,RISCA ROAD,,,here is Manley-road,,,
+resident,RISCA ROAD,24,,A.,Jenkins,general shop,
+resident,RISCA ROAD,22,,Tom G.,Stokes,,
+resident,RISCA ROAD,20,,Thomas,Dixon,,
+resident,RISCA ROAD,18,,P.,Rowlands,clerk,
+resident,RISCA ROAD,16,,E.,Bown,greengrocer,
+resident,RISCA ROAD,14,,C. J.,Judd,butcher,
+cross_street,RISCA ROAD,,,here is Bolton-road,,,
+resident,RISCA ROAD,12,Risca cot,Wm.,Morgan,,
+resident,RISCA ROAD,10,,W. T.,Ley,journalist,
+resident,RISCA ROAD,8,Fastnet h,Charles H.,Cox,,
+resident,RISCA ROAD,6,,Miss Josephine,Fisher,,
+resident,RISCA ROAD,4,,Mrs. Ellen,Jones,,
+resident,RISCA ROAD,2,,G.,Brown,jr.,sculptor,
+street,RIVER BANKS,,,,,,From Newport Bridge to Mouth of River. WEST SIDE
+resident,RIVER BANKS,,Bangor Wharf,Newport Builders' Supply, Ltd.,,
+resident,RIVER BANKS,,Baltic Wharf,Nicholas & Co. Ltd.,timber and slate merchants,
+cross_street,RIVER BANKS,,,here is the Town Pill,,,
+resident,RIVER BANKS,,Cinderhill wharf,Star Mills -Smiths Newport, Ltd.,,
+resident,RIVER BANKS,,Liverpool, Bristol and Moderator Wharves,South Wales and Liverpool Steamship Co. Ltd.,,Robt. Gilchrist & Co. managers
+resident,RIVER BANKS,,Llanarth wharf office,John,Lewis,caretaker,
+resident,RIVER BANKS,,Llanarth wharf office,C. & Co.,Lewis,iron merchants,
+resident,RIVER BANKS,,Ebbw Vale Steel, Iron, and Coal Co.'s Ebbw Vale wharf,,,,
+resident,RIVER BANKS,,Powell's Town wharf,Budd & Co.,colliery proprietors,
+resident,RIVER BANKS,,Powell's Town wharf,Wm.,Haggerty,wagon repr,
+resident,RIVER BANKS,,Pontypool whrf,E. Vale Co,,
+resident,RIVER BANKS,,Mariner's wharf,do,,,
+resident,RIVER BANKS,,Ebbw Vale Steel, Iron, and Coal Co., Ltd.,,,sleeper plant works
+resident,RIVER BANKS,,Gloucester whf,J. & Co.'s wharf,Vipond,G.W.R. Co.
+resident,RIVER BANKS,,Clements James and Co.,,,iron merchants
+resident,RIVER BANKS,,Contractors' Supply Service Penner wharf,,,,
+resident,RIVER BANKS,,Fruit Distributing Co., Ltd.,,,
+resident,RIVER BANKS,,Victoria wharf,The Ebbw Vale Steel, Iron and Coal Co., Ltd.,iron ore, pit-wood, etc.
+cross_street,RIVER BANKS,,,here is Jack's Pill,,,
+resident,RIVER BANKS,,Western (The) Dry Docks,Mountstuart Dry Docks & Shearman's Ltd.,engineers, iron shipbuilders and ship repairers,
+resident,RIVER BANKS,,Llanarth whf,A. J. T. Goss and Co.,oil & grease merchts
+resident,RIVER BANKS,,Llanarth whf,David J.,Brennan,
+resident,RIVER BANKS,,Llanarth whf,G.W.R.,Hoist & traffic office,
+resident,RIVER BANKS,,Blaina wharf,John,Cashmore,ship breaker, etc.
+resident,RIVER BANKS,,Blaina wharf,W.,Williams,dk gateman
+resident,RIVER BANKS,,Blaina wharf,John,Evans,wagon inspctr
+resident,RIVER BANKS,,Tillery wharf,Maybury's Adamant Plaster and Keene's Cement Co.,,
+resident,RIVER BANKS,,Tillery wharf,Kohler Tile Co.,,
+resident,RIVER BANKS,,Tillery wharf,J. & Sons,Trott,marine store dealers
+resident,RIVER BANKS,,Tillery wharf,Walter J.,Hughes,,
+resident,RIVER BANKS,,Clapp's wharf,Dd. & Co.,Stephens,smiths
+resident,RIVER BANKS,,Clapp's wharf,Albert F.,Maund,dk labr
+resident,RIVER BANKS,,Clapp's wharf,Walter,Nelmes,dk labr
+resident,RIVER BANKS,,Clapp's wharf,Frank,Wood,dk labr
+cross_street,RIVER BANKS,,,Russell's wharf-,,,
+resident,RIVER BANKS,,Risca wharf,Walker,,iron & metal merc
+resident,RIVER BANKS,,Risca wharf,Newport Enamelled Slate Co.,,
+resident,RIVER BANKS,,Carnegthein wharf,W. A. Baker & Co., Ltd.,ironfounders, &c. (Westgate foundry)
+resident,RIVER BANKS,,Commercial wharf,Commercial Hotel-E. J. Walker,,
+resident,RIVER BANKS,,Commercial wharf,Mrs. Elizabeth,Phillips,,
+resident,RIVER BANKS,,Commercial wharf,Bert,Holton,carpenter
+resident,RIVER BANKS,,Commercial wharf,Mrs. S. J.,Jones,,
+resident,RIVER BANKS,,Commercial wharf,Dennis,Johnson,hoistman
+resident,RIVER BANKS,,Commercial wharf,Thos.,Wixey,wagon exm
+resident,RIVER BANKS,,Commercial wharf,J.,Howlett,berthing mstr
+resident,RIVER BANKS,,Commercial wharf,Geo. H.,Davies,labourer
+resident,RIVER BANKS,,Commercial wharf,W.,Powell,wagon rep
+resident,RIVER BANKS,,Commercial wharf,G.,Kelland,platelayer
+resident,RIVER BANKS,,Commercial wharf,Ernest,Phillips,gen shop
+resident,RIVER BANKS,,Commercial wharf,Deri yard,Aberbeeg wharf,
+resident,RIVER BANKS,,Cambrian wharf,T. Spittle Limited,engineers and iron and brass founders,
+resident,RIVER BANKS,,Rhymney wharf,J.,Cashmore,iron & metal merchant, and ship breaker
+resident,RIVER BANKS,,Rhymney wharf,John,Price,carpenter
+resident,RIVER BANKS,,Penner wharf,Hall, Lewis & Co.,wagon rep
+resident,RIVER BANKS,,,Phillips & Sons' Ld.,malthouse,
+resident,RIVER BANKS,,,Preece G. J.,maltster,
+resident,RIVER BANKS,,,Gerry W.,engineer,
+resident,RIVER BANKS,,,Roberts B.,Dock house,
+resident,RIVER BANKS,,Telephone Call Room,,,,
+resident,RIVER BANKS,,City of Cork Steam Packet Co., Ltd.,,,,
+resident,RIVER BANKS,,Coast Lines Ltd.,warehouse,,
+cross_street,RIVER BANKS,,,TOWN DOCK ENTRANCE,,,
+resident,RIVER BANKS,,Customs' watch house,,,,
+resident,RIVER BANKS,,Powell Duffryn wharf,,,,
+resident,RIVER BANKS,,Penmaen wharf,,,,
+resident,RIVER BANKS,,Pillgwenlly wharf,Partridge, Jones & John Paton, Ltd.,,
+resident,RIVER BANKS,,Pillgwenlly wharf,Maybury's Adamant Plaster and Keenes Cement Co.,,
+resident,RIVER BANKS,,Pillgwenlly wharf,Mrs.,Anderson,,
+resident,RIVER BANKS,,Pillgwenlly wharf,William,Wailes,,
+resident,RIVER BANKS,,Pillgwenlly wharf,Henry,Larcombe,,
+resident,RIVER BANKS,,Pillgwenlly wharf,G. F.,Harding,iron and steel merchant
+resident,RIVER BANKS,,Pillgwenlly wharf,Tredegar Dry Dock & Wharf Co., Ltd.,,
+resident,RIVER BANKS,,Pillgwenlly Coal Co.,,,,
+cross_street,RIVER BANKS,,,Latch's wharf-,,,
+resident,RIVER BANKS,,Mountstuart Dry Docks and Shearman's Ltd.,,,engineers, ship repairers, etc.
+cross_street,RIVER BANKS,,,Rock wharf-,,,
+resident,RIVER BANKS,,Newport Foundry Co.,,,,
+resident,RIVER BANKS,,Parry Joseph & Sons,,coal merchants
+resident,RIVER BANKS,,Dibble J. O. & Co.,oil and grease stores,,
+resident,RIVER BANKS,,Wm. E.,Dean,,
+resident,RIVER BANKS,,Waterloo wharf,Parry G. W.,,
+resident,RIVER BANKS,,Waterloo wharf,Parry Chas. & Sons,coal merchants,
+resident,RIVER BANKS,,James,Lynch,coal merchant,
+resident,RIVER BANKS,,J.,Beddis,coal merchant,
+resident,RIVER BANKS,,Wm.,Thomas,coal merchant,
+resident,RIVER BANKS,,James,Parry,coal merchant,
+resident,RIVER BANKS,,Allen Bros.,wheelwrights,,
+cross_street,RIVER BANKS,,,TRANSPORTER BRIDGE,,,
+resident,RIVER BANKS,,Channel Dry Docks & Pontoon Co., Ltd.,,,,
+resident,RIVER BANKS,,Peter & Co., Ltd.,Wright,ship's painters
+resident,RIVER BANKS,,T. W. & Co.,Vittle,welders
+resident,RIVER BANKS,,Rhoswen wharf,Arrow Fuel Co., Ltd.-D. R. Evans,manager,
+resident,RIVER BANKS,,Rhos. Llantwit wharf,,,,
+resident,RIVER BANKS,,Machen wharf,,,,
+cross_street,RIVER BANKS,,,Cork wharf-,,,
+resident,RIVER BANKS,,Braithwaite & Co.,engineers, Ltd.-J. N. Hinton,manager,
+resident,RIVER BANKS,,James,Gittins,,
+resident,RIVER BANKS,,Mersey Insulation Co., Ltd.,ship repairers, etc.,,

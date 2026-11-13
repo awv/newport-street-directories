@@ -1,0 +1,173 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,MALPAS ROAD,3,,Augustus,Legge,tipper,
+resident,MALPAS ROAD,4,,Mrs. Margaret,Pearce,,
+resident,MALPAS ROAD,,,Bertram A.,Kinchington,gardener,
+resident,MALPAS ROAD,5,,Gilbert Rd.,French,G.W.R.,
+resident,MALPAS ROAD,,,Arthur Milne,Boyd,dentst
+resident,MALPAS ROAD,6,,Tom H.,Legge,eng. driver
+resident,MALPAS ROAD,7,,Hy.,Woodward,labourer,
+resident,MALPAS ROAD,8,,Henry E.,Lee,plumber,
+resident,MALPAS ROAD,9,,Mrs. Emily,McCrory,,
+resident,MALPAS ROAD,10,,William,Hobbs,plasterer,
+resident,MALPAS ROAD,11,,James C.,Thompson,,
+resident,MALPAS ROAD,12,,Alf.,Galliford,crane dvr,
+resident,MALPAS ROAD,13,,Percy E.,Sharp,traveller,
+resident,MALPAS ROAD,14,,Isaac,Cocker,fuel worker,
+resident,MALPAS ROAD,15,,John,Williams,butcher,
+resident,MALPAS ROAD,16,,Mrs. Keziah,Mogford,,
+resident,MALPAS ROAD,17,,Joseph,Morley,polisher,
+resident,MALPAS ROAD,18,,Benj.,Baker,shipwright,
+resident,MALPAS ROAD,19,,W.,Bell,gas worker,
+resident,MALPAS ROAD,20,,Lewis S.,Thomas,carprntr
+resident,MALPAS ROAD,21,,Daniel,Jarvis,ironworker,
+resident,MALPAS ROAD,22,,Mrs. Jeanette,Gregory,,
+resident,MALPAS ROAD,23,,Walter,Newell,G.W.R.,
+resident,MALPAS ROAD,24,,Bertram,Hardy,printer,
+resident,MALPAS ROAD,25,,Charles,Page,,
+resident,MALPAS ROAD,26,,George,Moulder,plasterer,
+resident,MALPAS ROAD,27,,James,Brown,plumber,
+cross_street,MALPAS ROAD,,,,,,Malpas Road Recreation Ground
+cross_street,MALPAS ROAD,,,,,,(return)
+resident,MALPAS ROAD,,St. Brannocks,Richard A.,Jewell,,
+resident,MALPAS ROAD,,Villa void,,,,
+resident,MALPAS ROAD,,Norlands,Mrs. Mary,Jones,,
+resident,MALPAS ROAD,,Loch-nagar,Albert J.,Brewer,,
+resident,MALPAS ROAD,,Kelston,John,Gabb,,
+resident,MALPAS ROAD,,Gwynfa,Rev. Wm.,Meek,,
+resident,MALPAS ROAD,,,Herbert,Allen,chauffeur,
+resident,MALPAS ROAD,,,James,Hill,gardener,
+resident,MALPAS ROAD,,,W. F.,Donaghy,M.B. B.Ch. physician & surg
+resident,MALPAS ROAD,,The Laurels,A. E.,Morgan,,
+resident,MALPAS ROAD,,The Ferns,Clement E.,Lucas,tug master
+resident,MALPAS ROAD,,One Ash,Mrs. D.,Well,,
+resident,MALPAS ROAD,,Carlton h,A.,Tunnadine,,
+resident,MALPAS ROAD,,,The Malpas Brick & Tile Co., Ltd.,,
+resident,MALPAS ROAD,,Devonia,Edwin,Davis,garage
+resident,MALPAS ROAD,,,W. S.,Moore,monumental sculptor
+resident,MALPAS ROAD,158,,Fredk.,Chapman,assistnt
+resident,MALPAS ROAD,156,,O. E.,Powell,blacksmith
+resident,MALPAS ROAD,154,,W. T.,Bradford,steelwkr
+resident,MALPAS ROAD,152,,Misses S. & E.M.,Griffiths,,
+resident,MALPAS ROAD,150,,Edwin,Jones,accountant,Osbourne
+resident,MALPAS ROAD,148,,A. H.,Peacock,mason,
+resident,MALPAS ROAD,146,,Mrs. Alice,Garbutt,,
+cross_street,MALPAS ROAD,,,,,,here is Pant-road
+resident,MALPAS ROAD,144,,M.,Payne,gen. shop,
+resident,MALPAS ROAD,142,,George,Exton,miner,
+resident,MALPAS ROAD,140,,Mrs. Catherine,Mason,,
+resident,MALPAS ROAD,138,,Tom,Higgs,insur agent
+resident,MALPAS ROAD,136,,Herbert,Smith,san insprtr
+resident,MALPAS ROAD,134,,Alfred,Vernon,manager
+resident,MALPAS ROAD,132,,Levi,Prosser,platelayer
+resident,MALPAS ROAD,130,,Alfred T.,Holtham,butcr
+resident,MALPAS ROAD,128,,Harry,Barrett,gas stoker
+resident,MALPAS ROAD,126,,John,Donovan,decor'tr
+resident,MALPAS ROAD,124,,Herbert,Marsh,postman
+resident,MALPAS ROAD,122,,James J.,George,joiner
+resident,MALPAS ROAD,120,,Godfrey,Edwards,,
+resident,MALPAS ROAD,118,,Thos.,Jones,bridge ptr
+resident,MALPAS ROAD,116,,Mrs. Charlotte,Dowdall,,
+resident,MALPAS ROAD,114,,George,Stevens,smith,
+resident,MALPAS ROAD,112-10,,G. A.,Woodward,,Lyceum Tavern
+resident,MALPAS ROAD,108,,Samuel C.,Evans,grocer,
+resident,MALPAS ROAD,106,,Francis,Smith,com agt
+resident,MALPAS ROAD,104,,Robert,Baggs,painter,
+resident,MALPAS ROAD,102,,Clifford,Read,baker,
+resident,MALPAS ROAD,100,,Reginald,Francis,,
+resident,MALPAS ROAD,98,,Geo. William,Smith,fitter,
+resident,MALPAS ROAD,96,,Thomas,Nixon,clerk,
+resident,MALPAS ROAD,94,,Geo. J.,Grant,carpenter,
+resident,MALPAS ROAD,92,,Chas.,Pearton,car dvr,
+resident,MALPAS ROAD,90,,Fred,Scott,moulder,
+resident,MALPAS ROAD,88,,Mrs. Laura,Sims,,
+resident,MALPAS ROAD,86,,Albert,Dyke,chaffeur
+resident,MALPAS ROAD,84,,F.,Deacon,salesman,
+resident,MALPAS ROAD,82,,Samuel,Ware,labourer,
+resident,MALPAS ROAD,80,,Henry,Griffiths,clerk,
+resident,MALPAS ROAD,78,,William,Davies,,
+resident,MALPAS ROAD,76,,William H.,Brown,,
+resident,MALPAS ROAD,74,,Wm. R. J.,Pope,plasterer
+resident,MALPAS ROAD,72,,Saml.,Jenkins,carpenter
+resident,MALPAS ROAD,70,,Wm. R.,Green,G.W.R.,
+resident,MALPAS ROAD,68,,Horace,Attwell,carpenter
+resident,MALPAS ROAD,66,,Hbt. H.,Clayton,gas fitter
+resident,MALPAS ROAD,64,,James,Peart,G.W.R.,
+resident,MALPAS ROAD,62,,Albert C.,Mills,caretaker
+resident,MALPAS ROAD,60,,Reginald,Sims,baker,
+resident,MALPAS ROAD,58,,Mrs. Eliza J.,Adams,,
+cross_street,MALPAS ROAD,,,,,,here is Brynglas-road
+cross_street,MALPAS ROAD,,,,,,here is Prospect-street
+resident,MALPAS ROAD,56,,Mrs. Alice Maud,Worthy,,
+resident,MALPAS ROAD,54,,T. J.,Mathlin,furnaceman
+resident,MALPAS ROAD,52,,Ivor,Prosser,clerk,
+resident,MALPAS ROAD,50,,James,Cox,plasterer,
+resident,MALPAS ROAD,48,,E. C.,Truscott,hairdresser
+resident,MALPAS ROAD,46,,Arthur E.,Clayton,plmbr
+resident,MALPAS ROAD,44,,Edgar,Hopkins,plumber,
+resident,MALPAS ROAD,42,,Alfred,Nicholas,G.W.R.,
+resident,MALPAS ROAD,40,,Godfrey,Davies,foreman
+resident,MALPAS ROAD,38,,H.,Neville,clerk G.W.R.
+resident,MALPAS ROAD,36,,Robt. E.,Hayman,mechic
+resident,MALPAS ROAD,,,Fredk.,Morgan,steelwkr
+resident,MALPAS ROAD,34,,Mrs. Emma,Meredith,gcr
+cross_street,MALPAS ROAD,,,,,,here is Redland-street
+resident,MALPAS ROAD,32,,H. W.,Palmer,grocer,
+resident,MALPAS ROAD,30,,H.,Brewer,butcher,
+resident,MALPAS ROAD,,,James,Ryan,weighman
+resident,MALPAS ROAD,28,,Wm.,Crane,furniture dlr
+resident,MALPAS ROAD,26,,Edwin O.,Jones,dairy,
+resident,MALPAS ROAD,24,,F.,Ryland,shoemaker,
+resident,MALPAS ROAD,22,,A. J.,Brewer,corn mcht
+resident,MALPAS ROAD,,,Frank,Jones,ironworker
+resident,MALPAS ROAD,20,,G. W.,Cock,boot dealer
+resident,MALPAS ROAD,,,Kirby Bros. & Davis,tailors
+resident,MALPAS ROAD,,,Miss G.,Cock,draper
+resident,MALPAS ROAD,18,,John E.,Oliver,G.W.R.
+resident,MALPAS ROAD,16,,Thos. dk.,Hellen,labourer
+resident,MALPAS ROAD,14,,Herbt.,Stacey,hairdresser and tobacconist
+resident,MALPAS ROAD,,,Chas. H.,Iles,greengrocer
+resident,MALPAS ROAD,12,,Miss H. E.,Dare,confectioner
+resident,MALPAS ROAD,10,,Joseph,Byram,warehsmn
+resident,MALPAS ROAD,8,,William,Mackie,,
+resident,MALPAS ROAD,6,,Atwell's fish bar,,
+resident,MALPAS ROAD,4,,Fred,Atwell,newsagent
+resident,MALPAS ROAD,2e,,E. F.,Jones,shoemaker
+resident,MALPAS ROAD,2d,,F. J.,Lea,cash chemist
+resident,MALPAS ROAD,2c,,H. G.,Bere,grocer,
+resident,MALPAS ROAD,2b,,Alf.,Palfrey,butcher,
+resident,MALPAS ROAD,2a,,J. N.,Uzzell,greengrocer
+resident,MALPAS ROAD,,,CRINDAU GOSPEL HALL,,
+cross_street,MALPAS ROAD,,,,,,here is Albany-street
+resident,MALPAS ROAD,2,,W.,Banfield,boot maker
+street,MALVERN ROAD,MALVERN ROAD,,,,,,E 3 Off Corporation-road
+street,MANCHESTER STREET,MANCHESTER STREET,,,,,,C 3 Prince-street to London-street
+cross_street,MANCHESTER STREET,,,,,,(LEFT HAND SIDE.)
+resident,MANCHESTER STREET,1,,Stephen J.,Peebles,,
+resident,MANCHESTER STREET,2,,Albert,Edmunds,,
+resident,MANCHESTER STREET,3,,Ed. G.,Ferris,G.W.R.,
+resident,MANCHESTER STREET,4,,Jas. Wm.,Kenny,gasfitter
+cross_street,MANCHESTER STREET,,,,,,here is Camelot-place
+resident,MANCHESTER STREET,5,,Mrs. Agnes,Cooper,,
+resident,MANCHESTER STREET,,,Geo. S.,Morgan,labourer
+resident,MANCHESTER STREET,6,,Mrs. Mary,Johnson,,
+resident,MANCHESTER STREET,7,,Miss Minnie,Walton,,
+resident,MANCHESTER STREET,,,Ivor,Alexander,tram dvr
+resident,MANCHESTER STREET,8,,Mrs. Emma,Cooper,,
+resident,MANCHESTER STREET,9,,Charles,Tooze,mason,
+resident,MANCHESTER STREET,10,,Fredk.,Sayce,builder
+resident,MANCHESTER STREET,11,,Wm. J.,Clarke,labourer
+resident,MANCHESTER STREET,12,,Morgan,Waters,,
+resident,MANCHESTER STREET,13,,John,Morgan,labourer
+resident,MANCHESTER STREET,14,,John Wm.,Dacey,,
+resident,MANCHESTER STREET,15,,Wm. Jas.,Morris,ironwkr
+resident,MANCHESTER STREET,16,,James L.,Horne,labourer
+resident,MANCHESTER STREET,17,,John,Person,painter,
+resident,MANCHESTER STREET,18,,Alf.,Snowdon,plasterer
+cross_street,MANCHESTER STREET,,,,,,here is Hereford-street
+resident,MANCHESTER STREET,19,,W.,Edwards,gen shop
+resident,MANCHESTER STREET,20,,Mrs. Anna,Reynolds,,
+resident,MANCHESTER STREET,21,,Geo.,Williams,electrician
+resident,MANCHESTER STREET,22,,Mrs. Florence L.,Pears,,
+resident,MANCHESTER STREET,23,,Wm.,Rackham,salesman
+resident,MANCHESTER STREET,24,,George,Plaister,,
+resident,MANCHESTER STREET,25,,William,Kitt,,

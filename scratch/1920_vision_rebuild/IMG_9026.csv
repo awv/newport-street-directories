@@ -1,0 +1,175 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,LUCAS STREET,,,,,,continued
+resident,LUCAS STREET,25,,Ira H.,Fortune,plumber and gas fitter,
+resident,LUCAS STREET,26,,Thomas,Thomas,assistant
+resident,LUCAS STREET,27,,Edwd.,Lyons,compositor
+resident,LUCAS STREET,28,,Patrick,Reardon,
+resident,LUCAS STREET,29,,Mrs. E. A.,Davies,dressmkr
+cross_street,LUCAS STREET,,,,,,here is Rose-street
+resident,LUCAS STREET,30,,A.,Chappell,shop
+resident,LUCAS STREET,31,,John,Vowles,mason
+resident,LUCAS STREET,32,,Jos.,Titchener,insp. G.W.R.
+resident,LUCAS STREET,33,,Robert,Taylor,engineer
+resident,LUCAS STREET,34,,Walter,Allman,smith
+resident,LUCAS STREET,35,,Jos. Jas.,Powell,postman
+resident,LUCAS STREET,49,,Mrs. E.,Basham,
+resident,LUCAS STREET,50,,Charles,Howells,platelayr
+resident,LUCAS STREET,51,,Wm.,Foote,caretaker
+resident,LUCAS STREET,52,,Mrs. Jane,Hallett,
+resident,LUCAS STREET,53,,W. A.,Brooks,engineer
+resident,LUCAS STREET,,,SHAFTESBURY ST. BRANCH READING ROOM,,,
+street,MACARTHY'S COURT,,,,,,"From 153 Commercial-street, D 4"
+resident,MACARTHY'S COURT,6,,John,Landers,labourer
+resident,MACARTHY'S COURT,5,,J.,Collins,wagon exam
+resident,MACARTHY'S COURT,4,,Edward,Bishop,platelayer
+street,MADDOX CLOSE,,,,,,"Factory-road, C 4"
+street,LYNE ROAD,,,,,,From 164 Shaftesbury-street to Albany-street B 4
+cross_street,LYNE ROAD,,,,,,(LEFT HAND SIDE.)
+resident,LYNE ROAD,,Rising Sun Hotel,R. T.,Mann,,
+resident,LYNE ROAD,1,,Mrs. Jane,Needs,
+resident,LYNE ROAD,1A,,W.,Evans,
+resident,LYNE ROAD,2,,Fredk.,Sims,assistant
+resident,LYNE ROAD,3,,Cuthbert,Davidson,fitter
+resident,LYNE ROAD,4,,Henry,Williams,collier
+resident,LYNE ROAD,5,,Mrs. Caroline,Fereday,
+resident,LYNE ROAD,6,,Fredk.,Sims,labourer
+resident,LYNE ROAD,7,,William,Wood,labourer
+resident,LYNE ROAD,8,,Edward,Shakesheft,
+resident,LYNE ROAD,9,,Albert,Gaskell,
+resident,LYNE ROAD,10,,Mrs. W. T.,Pearce,
+resident,LYNE ROAD,11,,Mrs. Julia,Gay,
+resident,LYNE ROAD,12,,Charles,James,salesman
+resident,LYNE ROAD,13,,Mrs. Harriet,Harris,
+resident,LYNE ROAD,14,,Geo. Hy.,Fortey,stoker
+resident,LYNE ROAD,15,,F. C.,Thomas,painter
+resident,LYNE ROAD,16,,Wm.,Sleeman,grocer
+cross_street,LYNE ROAD,,,,,,here is Edwin-street
+resident,LYNE ROAD,17,,S.,Durrant,shop
+resident,LYNE ROAD,18,,F. G.,Smith,G.W.R.
+resident,LYNE ROAD,19,,Geo. H.,Hillman,labourer
+cross_street,LYNE ROAD,,,,,,(return)
+resident,LYNE ROAD,30,,Morris,Regan,porter
+resident,LYNE ROAD,31,,Cor.,Collins,gas worker
+resident,LYNE ROAD,32,,Steph.,Cleverley,shoemakr
+resident,LYNE ROAD,33,,Jos.,Vaughan,labourer
+resident,LYNE ROAD,34,,Geo. F.,Cooke,G.W.R.
+resident,LYNE ROAD,35,,Wm. Jas.,Webb,collier
+resident,LYNE ROAD,36,,Jas.,Naish,basketmaker
+resident,LYNE ROAD,37,All Saints' Mission House,,,,
+resident,LYNE ROAD,,All Saints' Mission House,George,Evans,caretaker
+resident,LYNE ROAD,38,,John,Lewis,labourer
+resident,LYNE ROAD,39,,Geo. H.,Clarke,labourer
+resident,LYNE ROAD,40,,Chas.,Workman,do.
+resident,LYNE ROAD,41,,Dd.,Workman,G.W.R.
+resident,LYNE ROAD,42,,Wm.,Barnes,engine driver
+resident,LYNE ROAD,43,,Chas.,Tucker,traveller
+resident,LYNE ROAD,44,,Geo.,Amos,moulder
+resident,LYNE ROAD,45,,Patrick,O'Brien,labourer
+resident,LYNE ROAD,46,,Ralph,Wilkins,slaughterman
+resident,LYNE ROAD,47,,Arnold,Herbert,labourer
+resident,LYNE ROAD,48,,Robert,Bell,gas stoker
+street,MAGOR STREET,,,,,,"Left-hand side Corporation-rd. E 3"
+cross_street,MAGOR STREET,,,,,,(LEFT HAND SIDE.)
+resident,MAGOR STREET,11,,Thos.,Rogers,crane driver
+resident,MAGOR STREET,13,,Patrick,Ahearn,
+resident,MAGOR STREET,15,,Chas.,Richards,ironwrkr
+resident,MAGOR STREET,17,,Martin,Rowan,
+resident,MAGOR STREET,19,,William,Harris,ironworker
+resident,MAGOR STREET,21,,Edward,Hallford,do
+resident,MAGOR STREET,23,,Eustice,Priestnall,do
+resident,MAGOR STREET,25,,Arthur,Phillips,
+resident,MAGOR STREET,27,,G. E.,Cotterell,
+resident,MAGOR STREET,29,,Mark,Newman,do
+resident,MAGOR STREET,31,,A.,Richards,labourer
+resident,MAGOR STREET,33,,John,Smith,ironworker
+resident,MAGOR STREET,35,,Mrs. A.,Richards,
+resident,MAGOR STREET,37,,Edw.,Whiting,labourer
+resident,MAGOR STREET,39,,Arthur,Dowen,ironworker
+resident,MAGOR STREET,41,,Alfred,Edwards,do
+resident,MAGOR STREET,43,,Wm.,Woolley,do
+resident,MAGOR STREET,45,,Mrs. Sarah,Ames,
+resident,MAGOR STREET,47,,Fred,Rowlands,ironworkr
+resident,MAGOR STREET,49,,John,Beardmore,
+resident,MAGOR STREET,51,,George,Jones,ironworker
+resident,MAGOR STREET,53,,Thomas,Arthur,do
+resident,MAGOR STREET,55,,Walter J.,Coles,do
+resident,MAGOR STREET,57,,John,Whittington,do
+resident,MAGOR STREET,59,,Wm.,Hancox,
+resident,MAGOR STREET,61,,Chas.,Cleaver,labourer
+resident,MAGOR STREET,63,,William,Price,ironworker
+resident,MAGOR STREET,65,,Mrs. Kate,Pavey,
+resident,MAGOR STREET,67,,Aug.,Watts,
+resident,MAGOR STREET,69,,Albert,Lane,
+resident,MAGOR STREET,71,,John,Richards,ironworker
+resident,MAGOR STREET,,,Vacant sites,,,
+cross_street,MAGOR STREET,,,,,,(return)
+resident,MAGOR STREET,96,,James,Cox,bricklayer
+resident,MAGOR STREET,94,,Joseph,Mitchell,
+resident,MAGOR STREET,92,,Thos. senr.,Wild,ironwrkr
+resident,MAGOR STREET,90,,R.,Mayberry,ironworker
+resident,MAGOR STREET,88,,Thos.,Hancock,iron worker
+resident,MAGOR STREET,86,,Tom.,Davies,ironworker
+resident,MAGOR STREET,84,,Richard,Bills,ironworker
+resident,MAGOR STREET,82,,Wm. Hy.,Bagley,do
+resident,MAGOR STREET,80,,Harold,Caddick,
+resident,MAGOR STREET,78,,Mrs. A.,Rawling,
+resident,MAGOR STREET,76,,James,Lane,
+resident,MAGOR STREET,74,,Geo.,Phipps,ironworker
+resident,MAGOR STREET,72,,George,Mustoe,labourer
+resident,MAGOR STREET,70,,Edward,Ashford,ironwrkr
+resident,MAGOR STREET,68,,Mrs. J.,Peed,
+resident,MAGOR STREET,66,,Wm.,Sunderland,labourer
+resident,MAGOR STREET,64,,G. A.,Evans,ironworker
+resident,MAGOR STREET,62,,J. H.,Wilson,ironworker
+resident,MAGOR STREET,60,,Harry,Lewis,
+resident,MAGOR STREET,58,,George,Aston,do
+resident,MAGOR STREET,56,,Charles,Clifton,do
+resident,MAGOR STREET,54,,E. A.,Hales,ironworker
+resident,MAGOR STREET,52,,Mrs. E.,Aston,
+resident,MAGOR STREET,50,,Ed.,Priest,ironworker
+resident,MAGOR STREET,48,,Mrs. Martha,Perry,
+resident,MAGOR STREET,46,,Mrs. Elizabeth,Lowe,
+resident,MAGOR STREET,44,,Percy,Mellin,ironworker
+resident,MAGOR STREET,42,,Joseph,Cockin,do
+resident,MAGOR STREET,40,,Charles,Clarke,eng driver
+resident,MAGOR STREET,38,,Mrs. Martha,Aston,
+resident,MAGOR STREET,36,,John,Hughes,ironworker
+resident,MAGOR STREET,34,,Mrs. E.,Saviger,
+resident,MAGOR STREET,32,,Joseph,Pearson,ironworker
+resident,MAGOR STREET,30,,J. G.,Edwards,labourer
+resident,MAGOR STREET,28,,John,Fitzpatrick,do
+resident,MAGOR STREET,26,,Fredk.,Wilson,do
+resident,MAGOR STREET,24,,Joseph,Dyke,
+resident,MAGOR STREET,22,,Gustavus,Swanson,
+resident,MAGOR STREET,20,,Chas.,Powles,ironworker
+resident,MAGOR STREET,18,,Mrs. Esther,Fallon,
+resident,MAGOR STREET,16,,Joseph,Smith,labourer
+resident,MAGOR STREET,14,,Isaiah,Rathbone,ironwrkr
+resident,MAGOR STREET,12,,John,White,ironworker
+resident,MAGOR STREET,10,,Wm. Henry,Rouse,do
+resident,MAGOR STREET,8,,Thomas,Larvin,do
+resident,MAGOR STREET,6,,Wm.,Harper,
+resident,MAGOR STREET,4,,Mrs. Sidney,Boswell,
+resident,MAGOR STREET,2,,Mrs. E.,Bloor,shop
+street,MAINDEE PARADE,,,,,,"From 130 Duckpool-road to Albert-avenue, D 3"
+cross_street,MAINDEE PARADE,,,,,,(RIGHT HAND SIDE.)
+resident,MAINDEE PARADE,1,,Wm. Robert,Pitman,
+resident,MAINDEE PARADE,2,,Geo,Pearce,millwright
+resident,MAINDEE PARADE,3,,Thomas,Payne,shearer
+resident,MAINDEE PARADE,4,,Mrs. Hannah,Tulledge,
+resident,MAINDEE PARADE,5,,Fred,Rowe,platelayer
+resident,MAINDEE PARADE,6,,William,Foreman,
+resident,MAINDEE PARADE,7,,Charles,Walters,crane dvr
+resident,MAINDEE PARADE,8,,Robt. W.,Coombs,eng. dvr.
+resident,MAINDEE PARADE,9,,H.,Stockwell,signal fitter
+resident,MAINDEE PARADE,10,,Wm.,Clarke,smith
+resident,MAINDEE PARADE,11,,Oliver,Powell,postman
+resident,MAINDEE PARADE,12,,A. F.,Taylor,baker
+resident,MAINDEE PARADE,13,,John,Lewis,ironworker
+resident,MAINDEE PARADE,14,,Mrs. Lucy,Ford,
+cross_street,MAINDEE PARADE,,,,,,VICTORIA PLACE
+resident,MAINDEE PARADE,15,,Reginald,Bridges,
+resident,MAINDEE PARADE,16,,William,Cambray,
+resident,MAINDEE PARADE,17,,Leonard,Charles,
+resident,MAINDEE PARADE,18,,F.,Shorney,police
+cross_street,MAINDEE PARADE,,,,,,(return)

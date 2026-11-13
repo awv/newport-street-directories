@@ -1,0 +1,186 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,MANLEY ROAD,,,,,,
+resident,MANLEY ROAD,3,Fern Bank,W.,Bird,bailiff,
+resident,MANLEY ROAD,4,Glendale,E. J.,Williams,carprtr
+resident,MANLEY ROAD,5,,Albert W.,Clemes,
+resident,MANLEY ROAD,6,,Mrs. Lily,Roberts,
+resident,MANLEY ROAD,7,,Thomas,Hall,George
+resident,MANLEY ROAD,8,,Wm. J.,Franklin,shunter
+resident,MANLEY ROAD,9,,James F.,Hall,
+resident,MANLEY ROAD,10,,Samuel,Williams,gardener
+resident,MANLEY ROAD,11,,Henry,Ainge,
+resident,MANLEY ROAD,12,,Albert,Crowther,Edward
+resident,MANLEY ROAD,13,,Chas. Henry,Nock,clerk
+resident,MANLEY ROAD,14,Hillfoot,John,Hughes,
+street,MANSEL STREET,,,,,,
+cross_street,MANSEL STREET,,,,,,Off Somerton-road
+cross_street,MANSEL STREET,,,,,,(LEFT HAND SIDE.)
+resident,MANSEL STREET,4,,Mrs. Matilda,Thomas,
+resident,MANSEL STREET,6,,John A.,Davies,blacksmth
+resident,MANSEL STREET,8,,Frederick,Paginton,
+resident,MANSEL STREET,10,,Nath. H.,Cleverley,labr
+resident,MANSEL STREET,12,,Ivor,Harris,ironworker
+resident,MANSEL STREET,14,,Wm. H.,Jones,carpenter
+resident,MANSEL STREET,16,,William,Duffield,Arthur
+resident,MANSEL STREET,18,,George,Sefton,ironwrkr
+resident,MANSEL STREET,20,,Mrs. Amelia,Morgan,
+resident,MANSEL STREET,22,,Mrs. Maud H.,Southam,
+resident,MANSEL STREET,24,,Frank,Gosling,G.W.R.
+cross_street,MANSEL STREET,,,,,,(return)
+resident,MANSEL STREET,23,,Henry,Reeves,haulier
+resident,MANSEL STREET,21,,Albert,Jaynes,labourer
+resident,MANSEL STREET,19,,Henry T.,Capel,labourer
+resident,MANSEL STREET,17,,S. J.,Pitman,tailor
+resident,MANSEL STREET,15,,Job,Jones,ironworker
+resident,MANSEL STREET,13,,Joseph,Maggs,carpenter
+resident,MANSEL STREET,11,,Mrs. Mary J.,Turner,
+resident,MANSEL STREET,9,,George,Cripps,G.W.R.
+resident,MANSEL STREET,7,,Thomas,Evans,labourer
+resident,MANSEL STREET,5,,J.,Bransfield,dredger hd
+resident,MANSEL STREET,3,,William F.,Gooch,labr
+resident,MANSEL STREET,1,,J.,Sheridan,ironworker
+street,MAPLE AVENUE,,,,,,
+cross_street,MAPLE AVENUE,,,,,,From Libeneth-road
+resident,MAPLE AVENUE,2,,Robert,Harris,fireman
+resident,MAPLE AVENUE,4,,Benjamin,Davies,striker
+resident,MAPLE AVENUE,6,,W.,Capel,moulder
+resident,MAPLE AVENUE,8,,Frederick,Elliot,labourer
+resident,MAPLE AVENUE,10,,A. E.,Pocock,wire wkr
+resident,MAPLE AVENUE,12,,F. C.,Schultz,fireman
+resident,MAPLE AVENUE,14,,Wm. H.,Ratty,bar dwr
+resident,MAPLE AVENUE,16,,F. W.,Robinson,ironwkr
+resident,MAPLE AVENUE,18,,F. C.,Gunstone,rubber wk
+resident,MAPLE AVENUE,20,,Alfred,Nelson,labourer
+resident,MAPLE AVENUE,22,,Ernest H.,Maidment,
+resident,MAPLE AVENUE,24,,Arthur H.,Clarke,ironwkr
+resident,MAPLE AVENUE,26,,Wm. Augustus,Read,
+resident,MAPLE AVENUE,28,,E. C.,Taylor,platelayer
+resident,MAPLE AVENUE,30,,Edward,Arnold,ironwrkr
+resident,MAPLE AVENUE,32,,Wm. G.,Lowe,boilermkr
+resident,MAPLE AVENUE,34,,Thomas,Quarterly,labr
+resident,MAPLE AVENUE,36,,Matthew,Harvey,lab
+resident,MAPLE AVENUE,38,,Alfred,Jones,labourer
+resident,MANLEY ROAD,40,,Edward,Pearce,ironwkr
+resident,MANLEY ROAD,42,,Wm. W.,Robinson,carprtr
+resident,MANLEY ROAD,44,,Wm.,Carless,machinist
+resident,MANLEY ROAD,46,,Thos. F.,Hodge,pattn mkr
+resident,MANLEY ROAD,48,,Horace E.,Clarke,mech
+resident,MANLEY ROAD,50,,William H.,Berry,labr
+resident,MANLEY ROAD,52,,Clifford G.,Wilks,packer
+resident,MANLEY ROAD,54,,J. C.,Champion,roller
+resident,MANLEY ROAD,56,,W. A. J.,Wickens,police
+resident,MANLEY ROAD,58,,D. P.,Harvey,motor dvr
+resident,MANLEY ROAD,60,,Thos. S.,Hancock,G.W.R.
+resident,MANLEY ROAD,62,,Daniel Lloyd,Jones,
+resident,MANLEY ROAD,64,,A. S.,Wood,sheetweigher
+resident,MANLEY ROAD,66,,Thomas J.,Davies,
+resident,MANLEY ROAD,68,,B.,Lynch,tugboatman
+resident,MANLEY ROAD,70,,William,Berry,trimmer
+resident,MANLEY ROAD,72,,Geo. H.,Williams,dk wkr
+resident,MANLEY ROAD,74,,Richard,Bromley,police
+resident,MANLEY ROAD,76,,Peter,Frazer,rigger
+resident,MANLEY ROAD,78,,Harry T.,Dunn,labourer
+resident,MANLEY ROAD,80,,Arch.,Iggulden,guard
+resident,MANLEY ROAD,82,,J.,Williams,assur colltr
+resident,MANLEY ROAD,84,,Tom A.,Parsons,G.W.R.
+resident,MANLEY ROAD,86,,William,Nicholls,labourer
+resident,MANLEY ROAD,88,,W. R.,Williams,dock wkr
+resident,MANLEY ROAD,90,,Alfred,Kempton,steelwkr
+resident,MANLEY ROAD,92,,Fred J.,Povey,police
+resident,MANLEY ROAD,94,,Wm.,Saunders,creosoter
+resident,MANLEY ROAD,96,,Henry,Elsworthy,fireman
+resident,MANLEY ROAD,98,,S. R.,White,wire drawer
+resident,MANLEY ROAD,100,,Mrs. Elsie,Turney,
+street,MARION STREET,,,,,,
+cross_street,MARION STREET,,,,,,From James-street
+cross_street,MARION STREET,,,,,,(LEFT HAND SIDE.)
+resident,MARION STREET,1,,Sydney Albert,Cook,shop
+resident,MARION STREET,3,,Fk.,Osmond,fitters' helpr
+resident,MARION STREET,5,,Mrs. Jane,Manning,
+resident,MARION STREET,7,,Jas. labourer,Sullivan,
+resident,MARION STREET,9,,Jas. trimmer,Mansfield,
+resident,MARION STREET,11,,Thomas,Ward,trimmer
+resident,MARION STREET,13,,Walter,Jones,labourer
+resident,MARION STREET,15,,Arthur D.,Jones,hoistman
+resident,MARION STREET,17,,Fredk. boatman,Casburn,
+resident,MARION STREET,19,,Augustus,Ryan,clerk
+resident,MARION STREET,21,,Wm. gen. dealer,Stevens,
+resident,MARION STREET,23,,Sidney,Emery,labourer
+resident,MARION STREET,25,,Walter,Casey,trimmer
+resident,MARION STREET,27,,Tom W. H. haulier,Pollard,
+resident,MARION STREET,29,,E.,Welsher,crane driver
+resident,MARION STREET,31,,Hy.,Welsher,John
+resident,MARION STREET,33,,Cyril R. labourer,Kirkham,
+resident,MARION STREET,35,,S. senr.,Hughes,trimmer
+resident,MARION STREET,37,,Jas. coal trim'r,McQuillan,
+resident,MARION STREET,39,,Philip,Bayliss,labourer
+resident,MARION STREET,41,,Charles,Kite,shop
+cross_street,MARION STREET,,,,,,here is Pottery-terrace
+resident,MARION STREET,,ALEXANDRA SCHOOL,,,,
+resident,MARION STREET,43,,Thomas,Horton,shop
+resident,MARION STREET,45,,Mrs. Ann,Bartlett,
+resident,MARION STREET,47,,Wm. labourer,Murphy,
+resident,MARION STREET,49,,James,Summers,G.W.R.
+resident,MARION STREET,51,,Wm. trimmer,Hughes,
+resident,MANLEY ROAD,53,,Albert,Vittle,boilermaker
+resident,MANLEY ROAD,55,,Nath. hoistman,Davies,
+resident,MANLEY ROAD,57,,Wm.,Watkins,boatman
+resident,MANLEY ROAD,59,,Mrs. Emily,James,
+resident,MANLEY ROAD,61,,Peter J.,Corrigan,dk lab
+resident,MANLEY ROAD,63,,Wm. Thomas,Attwell,
+resident,MANLEY ROAD,65,,Peter,Breen,donkeyman
+resident,MANLEY ROAD,,Vacant site,,,,
+cross_street,MANLEY ROAD,,,,,,here is Oswald-road
+cross_street,MANLEY ROAD,,,,,,(return)
+resident,MANLEY ROAD,,Vacant site,,,,
+resident,MANLEY ROAD,86,,Wm. H. hoistman,Pring,
+resident,MANLEY ROAD,84,,Chas. labourer,Searle,
+resident,MANLEY ROAD,,Phillips T.,painter,,
+resident,MANLEY ROAD,82,,A.,Lamerton,groundsman
+resident,MANLEY ROAD,80,,Mrs. S.,Hughes,
+resident,MANLEY ROAD,78,,James,Barry,bootmaker
+resident,MANLEY ROAD,76,,Mrs. Mary,Walsh,
+resident,MANLEY ROAD,74,,Edward,Smith,labourer
+resident,MANLEY ROAD,72,,Joseph C. fitter,Woodcock,
+resident,MANLEY ROAD,70,,Jas. crane driver,Bowdler,
+resident,MANLEY ROAD,68,,Chas. crane dvr,Channing,
+resident,MANLEY ROAD,66,,Jack,Zundina,seaman
+resident,MANLEY ROAD,64,,Jacob,Channing,trimmer
+resident,MANLEY ROAD,62,,Fred,Moss,carpenter
+resident,MANLEY ROAD,60,,Charles,MacDonald,
+resident,MANLEY ROAD,58,,John,Short,crane driver
+resident,MANLEY ROAD,56,,Francis,Watkins,steelwkr
+resident,MANLEY ROAD,54,,Mrs. Johannah,Dick,
+resident,MANLEY ROAD,52,,Lawrence,Talifero,
+resident,MANLEY ROAD,50,,William,Moore,labourer
+resident,MANLEY ROAD,48,,Geo. wagon lifter,Wyatt,
+resident,MANLEY ROAD,46,,Dd.,Vaughan,fireman
+resident,MANLEY ROAD,44,,Mrs. Mary,Hughes,
+resident,MANLEY ROAD,42,,Harry,Lelly,dairyman
+cross_street,MARION STREET,,,,,,here is Pottery-terrace
+resident,MARION STREET,40,,John,Harvey,labourer
+resident,MARION STREET,38,,James,Edmunds,fitter
+resident,MARION STREET,36,,John,Williams,labourer
+resident,MARION STREET,34,,Jos.,Jenkins,blr scaler
+resident,MARION STREET,32,,Evan,Thomas,collier
+resident,MARION STREET,30,,Samuel,Hale,trimmer
+resident,MARION STREET,28,,James,Kirby,rigger
+resident,MARION STREET,26,,George,Maggs,labourer
+resident,MARION STREET,24,,Chas. trimmer,Lloyd,
+resident,MARION STREET,22,,George,Picton,driller
+resident,MARION STREET,20,,Frank,Glover,
+resident,MARION STREET,18,,Sidney,Morgan,trimmer
+resident,MARION STREET,16,,Chas. W.,Street,labourer
+resident,MARION STREET,14,,Wm.,Bigerstaff,trimmer
+resident,MARION STREET,12,,John,Morgan,trimmer
+resident,MARION STREET,10,,D. window cleaner,Beckett,
+resident,MARION STREET,8,,Mrs.,Morgan,
+resident,MARION STREET,6,,Mrs. Elizabeth,Baker,
+resident,MARION STREET,4,,John R.,Lalies,firewood dlr
+street,MARKET (PROVISION),,,,,,
+resident,MARKET (PROVISION),,,D. Barrow,manager,,
+resident,MARKET (PROVISION),1,,W. J.,Gibb,fruiterer
+resident,MARKET (PROVISION),2,,J.,Keepin,fish dealer
+resident,MARKET (PROVISION),3-4,,P. C.,Limbrick,do
+resident,MARKET (PROVISION),5-6,,W. & Sons,White,do
+resident,MARKET (PROVISION),7-8,,A.,Horton,do

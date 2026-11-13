@@ -1,0 +1,141 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,SHAFTESBURY PARK,,,Chas.,Sims,,park lodge
+cross_street,SHAFTESBURY PARK,,,,,,(cross and return)
+cross_street,SHAFTESBURY PARK,,,,,,here is Pugsley-street
+resident,SHAFTESBURY PARK,19,,Harry,Tandy,harvey,
+resident,SHAFTESBURY PARK,20,,William,Bevan,John,
+resident,SHAFTESBURY PARK,18,,William,Boddy,labourer,
+resident,SHAFTESBURY PARK,16,,John,Jones,ironworker,
+resident,SHAFTESBURY PARK,14,,Thomas,Dowling,labourer,
+cross_street,SHAFTESBURY PARK,,,,,,here is Wheeler-street
+resident,SHAFTESBURY PARK,12A,,Edward,Tutton,labourer,
+cross_street,SHAFTESBURY PARK,,,,,,here is Hoskins-street
+resident,SHAFTESBURY PARK,12,,Chas. H.,Jenkinson,,
+cross_street,SHAFTESBURY PARK,,,,,,here is Henry-street
+resident,SHAFTESBURY PARK,10,,Harry,Venn,shop,
+resident,SHAFTESBURY PARK,8,,E.,Holley,shopkeeper,
+cross_street,SHAFTESBURY PARK,,,,,,here is Hewertson-street
+resident,SHAFTESBURY PARK,6,,R. A.,Williams,gen dlr,
+resident,SHAFTESBURY PARK,4,,,,,Newport Co-operative Dairy
+street,EVESWELL PARK,D 2,,,,,From St. Johns Road
+cross_street,EVESWELL PARK,,,,,,(RIGHT HAND SIDE.)
+resident,EVESWELL PARK,1,Staunton,T. R. P.,Herbert,,
+resident,EVESWELL PARK,2,surgeon,A. C.,Johnson,,Gwenlyn
+resident,EVESWELL PARK,3,Dolecoed,A.,Smallwood,,
+resident,EVESWELL PARK,4,Bryn-tirion,W. H.,Hinxman,,
+resident,EVESWELL PARK,,Elstow,George,Hussey,,
+resident,EVESWELL PARK,,Staddon,Thos.,Shields,,
+resident,EVESWELL PARK,,Hubert,James,Basham,,Rosendale
+resident,EVESWELL PARK,,solicitor,Francis,Akenhead,,Mount Eveswell
+resident,EVESWELL PARK,,,,,,Vacant sites
+resident,EVESWELL PARK,,Mt. Pleasant,Douglas,Perry,,
+resident,EVESWELL PARK,,,,,,Vacant sites
+resident,EVESWELL PARK,,Rydal Mount,-.,Witt,,
+cross_street,EVESWELL PARK,,,,,,(return)
+resident,EVESWELL PARK,,Woodbury,Ella,Searle,Miss,
+resident,EVESWELL PARK,,traveller,Charles,Monkley,,Hillside
+resident,EVESWELL PARK,,Cartref,Richard,Rees,,
+resident,EVESWELL PARK,,Croft,Wm. Charles,Cayzer,,Ambury
+resident,EVESWELL PARK,,The Cliff,G. T.,Meggitt,,
+resident,EVESWELL PARK,,Rosehill,K.,Thomas,Mrs.,
+resident,EVESWELL PARK,4,,Frederick C.,Powles,,
+resident,EVESWELL PARK,,,,,,Vacant sites
+resident,EVESWELL PARK,,,Sophie,Howells,Mrs.,(See St. John's and Batchelor roads)
+street,EVESWELL STREET,D 3,,,,,From 232 Chepstow-road to Archibald-street
+cross_street,EVESWELL STREET,,,,,,(LEFT HAND SIDE,)
+resident,EVESWELL STREET,1,,Robert,Pullen,cold roller,
+resident,EVESWELL STREET,2,,George,Ball,ins. agent,
+resident,EVESWELL STREET,3,,Hubert O.,Kirby,,
+resident,EML,35,Hirwen house,Mrs. Eliza,Hicks,,
+resident,EML,37,,J. Henry,Willis,ironwkr,Windsor house
+resident,EML,39,Brooklands,T.,Williams,clerk,
+resident,EML,41,,Frederick James,Dallen,,
+resident,EML,43,,Mrs. Ellen J.,Barry,,
+resident,EML,45,,William,Morgan,,Dixon Edmund B.
+resident,EML,47,Cambridge,A. W.,Austin,,Ellesmere
+cross_street,EML,,,,,,(return)
+resident,EML,46,Florence,Mrs.,Taylor,,Pen-y-bryn
+resident,EML,,Beta,George,McKee,decorator,Boswell E. A.
+resident,EML,44,,George,Ball,Penrhiw,
+resident,EML,42,,Mrs. M. A.,Newman,,Athenic
+resident,EML,40,H.,Clifford,Llewellyn,,Ravenscar
+resident,EML,38,,Mrs. E. A.,Vivian,,St. Arvans
+resident,EML,36,,Geo. S.,Jones,blacksmith,
+resident,EML,34,,Edwin,Pugsley,ship's off,Westbourne
+resident,EML,32,Macnade ho,Wm.,Rees,,
+cross_street,EML,,,,,,here is Methuen-road
+resident,EML,30,,William,Thomas,Ivy Glen,
+resident,EML,28,,Wm. Jos.,Wigmore,Dalmeny,
+resident,EML,26,,J.,Williams,Stanley,
+resident,EML,24,,Wm.,Williams,ironmonger,
+resident,EML,22,,R. W.,Sheppard,engineer,
+resident,EML,20,,J. R.,Dayman,St. Corri,
+resident,EML,18,,J. G. W. R.,Howells,Holborn,
+resident,EML,16,,Theo.,Wray,Rolbyn,
+resident,EML,14,,Robt.,Merryweather,Tre-gothan,
+resident,EML,12,,W. T.,Johnson,Jesmond Dene,
+resident,EML,10,,B. W. J.,Williams,,Heatherdene
+resident,EML,8,,John,Keepin,Hazeldene,
+cross_street,EML,,,,,,here is Rugby-road
+resident,EML,6,,J. P.,Williams,Langstone,
+resident,EML,4,,Rev. T. W.,Davies,,Holmeswood
+street,EVANS STREET,C 4,,,,,From 162 Shaftesbury-street
+cross_street,EVANS STREET,,,,,,(LEFT HAND SIDE.)
+resident,EVANS STREET,1,,Chas.,Forester,School ho,
+cross_street,EVANS STREET,,,,,,(here is Hewertson-street)
+resident,EVANS STREET,3,,Elijah,Holley,,
+resident,EVANS STREET,5,,Wm.,Griffiths,coal yard,
+cross_street,EVANS STREET,,,,,,here is Henry-street
+resident,EVANS STREET,7,,Robert,Logan,labourer,
+resident,EVANS STREET,9,,Mrs. E.,Thomas,shop,
+cross_street,EVANS STREET,,,,,,here is Hoskins-street
+resident,EVANS STREET,,,MARSHES HALL (FORWARD MOVEMENT),,,,
+resident,EML,10,,John,Simons,labourer,
+resident,EML,11,,Barnabas,Brown,,
+resident,EML,12,,Mrs. Teresa,Horton,,
+resident,EML,13,,John,Long,,
+resident,EML,14,,Thomas,Daley,,
+resident,EML,15,,Hy. eng. dvr.,Wm.,Jones,
+resident,EML,16,,Mrs. Ellen,Chapman,,
+resident,EML,17,,Thomas,Hoskins,labourer,
+resident,EML,18,,Mrs. Catherine,Minahane,,
+resident,EML,19,,Joseph W.,Rushmore,,
+resident,EML,20,,Patrick,Reardon,dk lab,
+resident,EML,21,,Mrs. Bridgett,McDonald,,
+resident,EML,22,,Richard,Lee,labourer,
+resident,EML,23,,William,Fitzgerald,,
+resident,EML,24,,Daniel,Grace,labourer,
+resident,EML,25,,John,Flynn,labourer,
+resident,EML,26,,Michael,Welsh,,
+resident,EML,27-28-29-30,,Edward,Bailey,lodging house,
+resident,EML,31-32,,Wm.,Lloyd,lodg house,
+street,ESSEX STREET,D 3,,,,,Wharf-road to Halstead-street
+cross_street,ESSEX STREET,,,,,,(LEFT HAND SIDE.)
+resident,ESSEX STREET,1,,Wm.,Smart,decorator,
+resident,ESSEX STREET,3,,Charles,Jones,G.W.R.,
+cross_street,ESSEX STREET,,,,,,here is Lennard-street
+resident,ESSEX STREET,5,,Mrs. Emily,Williams,,
+cross_street,ESSEX STREET,,,,,,(return)
+resident,ESSEX STREET,4,,George,Simpson,grocer,
+resident,ESSEX STREET,2,,Moses,Harris,trav draper,
+street,ETON ROAD,D 3,,,,,Corporation-road to Marlborough-road
+cross_street,ETON ROAD,,,,,,(LEFT HAND SIDE.)
+resident,ETON ROAD,1,Eton house,Mrs. Mary A.,O'Leary,,
+resident,ETON ROAD,3,Henner ho,E.,Groves,
+resident,ETON ROAD,5,Crediton house,Thomas,Harper,seaman,
+resident,ETON ROAD,7,St. Aubin house,Mrs. Elizabeth E.,Braund,,
+resident,ETON ROAD,9,wire drwr,Sarah,Day,Miss,Jewkes Frank
+cross_street,ETON ROAD,,,,,,here is Rugby-road
+resident,ETON ROAD,11,Coldra ho,W. J.,Purnell,,
+resident,ETON ROAD,13,Wear-dale,W. H.,Hopkins,,
+resident,ETON ROAD,15,clerk,Edward,Reade,,
+resident,ETON ROAD,17,assistant,James,Barnes,,
+resident,ETON ROAD,19,Montreuil,A. Jas.,Hurn,,
+resident,ETON ROAD,21,,Duncan,Smith,,
+resident,ETON ROAD,23,Heathfield,Mrs. M.,Stokes,,
+resident,ETON ROAD,25,Ashgrove,Mrs. M. A.,Davies,,
+cross_street,ETON ROAD,,,,,,here is Bedford-road
+resident,ETON ROAD,27,Compton house,William,Bryant,Henry
+resident,ETON ROAD,29,Glan-y-Christchurch,W.,Bailey,fitter
+resident,ETON ROAD,31,,James,Harrison,compositr,
+resident,ETON ROAD,33,Beachcroft,Mrs. Sarah Jane,Roden,,

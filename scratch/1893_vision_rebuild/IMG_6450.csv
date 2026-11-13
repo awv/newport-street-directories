@@ -1,0 +1,123 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Barnard Town,,,,,,is a district lying between the Caerleon-road and Maindee
+street,Barnard Street, B.T.,,,,,,From Whitby-place
+resident,Barnard Street, B.T.,1,,Mark,Andrews,greengrocer,
+resident,Barnard Street, B.T.,2,,Mrs Emily,Jones,,
+resident,Barnard Street, B.T.,3,,John,Price,blacksmith,
+resident,Barnard Street, B.T.,4,,Francis,Ashill,labourer,
+resident,Barnard Street, B.T.,5,,Edward,Ward,labourer,
+resident,Barnard Street, B.T.,6,,Thos.,Mole,factory hand,
+resident,Barnard Street, B.T.,7,,Hy.,Warren,labourer,
+resident,Barnard Street, B.T.,8,,Geo.,Mortimer,sawyer,
+resident,Barnard Street, B.T.,9,,Sidney,Payne,gardener,
+resident,Barnard Street, B.T.,10,,James,Cavill,nailmaker,
+resident,Barnard Street, B.T.,11,,Alfd.,Williams,joiner,
+resident,Barnard Street, B.T.,12,,Thos.,Golledge,painter,
+resident,Barnard Street, B.T.,13,,C. Hy.,Davey,chairmaker,
+resident,Barnard Street, B.T.,14,,Wm.,Stevens,blacksmith,
+resident,Barnard Street, B.T.,15,,Jno.,Hopkins,gas stoker,
+resident,Barnard Street, B.T.,16,,James,Foot,haulier,
+resident,Barnard Street, B.T.,17,,Geo.,Church,miller,
+resident,Barnard Street, B.T.,18,,Wm.,Barnes,engine driver,
+resident,Barnard Street, B.T.,19,,Geo.,Hine,haulier,
+street,Barrack Hill,,,,,,Marshes-road to Barracks
+cross_street,Barrack Hill,,,,,,[Left-hand side.]
+resident,Barrack Hill,,,Greenfield house,Walter,Bowen,foreman,
+resident,Barrack Hill,,,,Jno.,Trump,attendance officer,
+cross_street,Barrack Hill,,,,,,here is Belvedere-terrace, and Power street.
+resident,Barrack Hill,,,Hopefield house,Robt.,Lewis,Jewell,
+resident,Barrack Hill,,,Bradford house,Wm.,Jewell,
+resident,Barrack Hill,,,Alltwein villa,John,Finlay,
+resident,Barrack Hill,,,Lyndhurst,John,Whitefield,
+resident,Barrack Hill,1,Glen-view,Thos.,Elliott,
+resident,Barrack Hill,2,Glen-view,John,Toms,
+cross_street,Barrack Hill,,,,,,[Right-hand side.]
+resident,Barrack Hill,1,,Wm.,Lawrence,painter,
+resident,Barrack Hill,2,,Mrs Sarah,Edwards,,
+resident,Barrack Hill,3,,Chas.,Thomas,glassblower,
+resident,Barrack Hill,4,,Chas.,Lewis,labourer,
+resident,Barrack Hill,5,,Mrs M. J.,Higgins,,
+resident,Barrack Hill,6,,Jane,Pinnell,widow,
+resident,Barrack Hill,7,,Thos.,Phillips,fireman
+resident,Barrack Hill,8,,Mrs Rachel,Davies,,
+resident,Barrack Hill,9,,W. J.,Williams,baker,
+resident,Barrack Hill,10,,John,Stiles,haulier,
+resident,Barrack Hill,11,,Alfred,Walker,traveller,
+resident,Barrack Hill,12,,Lydia,Richards,widow,
+resident,Barrack Hill,,,Claremont villa,Jos.,Turpin,
+resident,Barrack Hill,,,Randolph villa,Wm. H.,Coster,
+cross_street,Baldwin-street,,,,,,here is North-street.
+resident,Baldwin-street,9,QUEEN'S BUILDINGS,,,,Western Mail office—J. Hopkins, agent
+resident,Baldwin-street,10,,E.,Wellsteed,butcher,
+resident,Baldwin-street,11,,D.,Stentiford,publisher,S. Wales Argus office—C. D. Stentiford, publisher
+resident,Baldwin-street,12,,H. P.,Lewis,baker and confectioner,
+resident,Baldwin-street,13,,R. H.,Johns,stationer, printer and newsagent; Directory office, and at 5 Llanarth street,
+resident,Baldwin-street,14,,Thos.,Jones,ironmonger and general dealer,
+cross_street,Baldwin-street,,,,,,here is Bailey-street.
+resident,Baldwin-street,,,Wm.,Richards,butcher,
+resident,Baldwin-street,15,,W. H.,Perry,hairdresser and umbrella maker,
+resident,Baldwin-street,16,,Chas.,Phillips,grocer, etc,
+resident,Baldwin-street,17,,Jno.,Jones,fruiterer, etc,
+resident,Baldwin-street,18,,Henry,Avery,tailor,
+resident,Baldwin-street,19,,John,Davies,grocer,
+cross_street,Baldwin-street,,,,,,here is West-street.
+cross_street,Baldwin-street,,,,,,(return.)
+resident,Baldwin-street,20,,Mrs,Walton,shopkeeper,
+resident,Baldwin-street,,,John,Huzzey,,
+resident,Baldwin-street,21-2,BOLTON TERRACE,Alfred,Hicks,haulier, & coal merchant,
+resident,Baldwin-street,23,BOLTON TERRACE,,L. and W. E. Yeast Co—Dl. Prosser, manager,
+resident,Baldwin-street,24,BOLTON TERRACE,E. C.,Hurd,newsagent,
+resident,Baldwin-street,25,BOLTON TERRACE,J.,Coulson,watchmaker,
+resident,Baldwin-street,26,BOLTON TERRACE,F.,Burnet,fishmonger,
+resident,Baldwin-street,27,BOLTON TERRACE,H.,Dight,bookbinder, etc,
+resident,Baldwin-street,28,BOLTON TERRACE,Bros.,Watson,boot rep'rs,
+resident,Baldwin-street,,Queen's Hotel,Jas.,Rowe,,See also Tredegar-place.
+street,Baneswell Square,,,,,,From North-street.
+resident,Baneswell Square,5,,Hans,Christopherson,ship carpenter,
+resident,Baneswell Square,6,,Hy.,Lester,labourer,
+resident,Baneswell Square,7,,Geo.,Saysill,guard,
+resident,Baneswell Square,8,,Mary,Middleton,,
+resident,Baneswell Square,9,,Edwin,Fogarty,carpenter,
+resident,Baneswell Square,10,,Harriet,Chivers,widow,
+resident,Baneswell Square,11,,Mrs Emma,Morgan,,
+resident,Baneswell Square,12,,George,James,smith,
+resident,Baneswell Square,13,,Geo.,Redmond,labourer,
+resident,Baneswell Square,14,,J.,Goulding,lamplighter,
+street,Bank Chambers,,,,,,See Tredegar-place.
+resident,Baldwin-street,31,,Sarah Ann,Axelson,,
+resident,Baldwin-street,32,,Ed.,Smith,coal trimmer,
+resident,Baldwin-street,33,,Joseph,Smith,labourer,
+resident,Baldwin-street,34,,John,Jones,porter,
+resident,Baldwin-street,35,,Antonia,Corten,shipcarpt,
+resident,Baldwin-street,36,,Thomas,Bryant,,
+resident,Baldwin-street,37,,John,Pitman,labourer,
+resident,Baldwin-street,38,,Wm,Picton,labourer,
+resident,Baldwin-street,39,,Geo.,Alfred,haulier,
+resident,Baldwin-street,40,,Edwd.,Lewis,labourer,
+resident,Baldwin-street,41,,Geo.,Picton,mason,
+resident,Baldwin-street,42,,John,Edwards,mason,
+resident,Baldwin-street,43,,Robert,Brown,labourer,
+resident,Baldwin-street,44,,Geo.,Groves,blacksmith,
+resident,Baldwin-street,45,,Jas.,Mansfield,labourer,
+resident,Baldwin-street,46,,Edwin,Pitman,labourer,
+resident,Baldwin-street,47,,Oliver,Huish,labourer,
+resident,Baldwin-street,48,,Mrs Elizabeth,Pembridge,
+resident,Baldwin-street,49,,Ann,Tasker,widow,
+resident,Baldwin-street,50,,Percival,Tasker,hawker,
+resident,Baldwin-street,51,,Jas.,Sullivan,rigger,
+resident,Baldwin-street,52,,Wm.,Beckett,pilot's man,
+resident,Baldwin-street,53,,Chas.,Channing,hobbler,
+resident,Baldwin-street,54,,R. M.,Webley,labourer,See also Upper Baldwin-st.
+street,Baneswell,,,,,,is that part of the town extending from the foot of Stow-hill (Baneswell-road), to the railway tunnel, and derives its name from the well (pump) at the end of Queen's Buidings.
+street,Baneswell Road,,,,,,From 1 Stow-hill.
+resident,Baneswell Road,1,,T.,Davies,florist, etc. and at Farmwood nursery,Newiand and Hunt, auctioneers, surveyors, etc
+resident,Baneswell Road,2,,Fred.,Carter,butcher,
+resident,Baneswell Road,3-4,,& Sons,Davies,fruiterers, poulterers and florists,
+resident,Baneswell Road,5,Lamb Inn,Mrs M.,Phillips,,Smith's porter stores
+resident,Baneswell Road,6,,T. junr.,Gregory,butcher,
+resident,Baneswell Road,7,,Mrs M.,Harris,confectioner and baker,
+resident,Baneswell Road,8,,Robt.,Wattie,florist,
+resident,Baneswell Road,,Monmouthshire Club—,George,Andrews,steward,
+resident,Baneswell Road,13,,T. A.,Barfoot,tobacconist,
+resident,Baneswell Road,,,,,,Shop void
+resident,Baneswell Road,,,,,,S. Wales Daily News & Echo offices—E. Williams, agt.

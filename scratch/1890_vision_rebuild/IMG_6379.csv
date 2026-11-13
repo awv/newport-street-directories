@@ -1,0 +1,123 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Tredegar Place,,,,,,From Bank corner High-st.
+resident,Tredegar Place,,Bank house,Henry,Fry,,
+resident,Tredegar Place,,Bank chambers,Lloyd & Pratt,,solicitors,
+resident,Tredegar Place,,Bank chambers,Ed.,Lawrence,solicitor,
+resident,Tredegar Place,,Bank chambers,T. Baker,Jones,solicitor,
+resident,Tredegar Place,,Bank chambers,Steel & Co.,Dyne,engineers,
+resident,Tredegar Place,,Bank chambers,T. Dyne,Steel,M.I.C.E. civil and mining engineer,
+resident,Tredegar Place,,,Risca & Pontymister Gas Co.,,Works at P'mister,
+resident,Tredegar Place,,,W. H.,Parsons,tanner,
+resident,Tredegar Place,,,Yorath & Son,,Cambrian brewery,
+resident,Tredegar Place,1,,S. Wales Daily News office,Ed. Williams agent,,
+resident,Tredegar Place,,,J. K.,Stone,accountant and house agent,
+resident,Tredegar Place,,,W. C.,Phillips,solicitor,
+resident,Tredegar Place,,,Athletic Club office,,,
+resident,Tredegar Place,2,,,H. M.,Matthews,draper,
+resident,Tredegar Place,,Tredegar chambers,Gardner and Herbert,,solicitors,
+resident,Tredegar Place,,Tredegar chambers,John,Wood,accountant,
+resident,Tredegar Place,3,,Western Mail office,J. Hopkins agent,,
+resident,Tredegar Place,4,,,Wm.,Pell,confectioner,
+resident,Tredegar Place,5,,,G. H.,Thomas,fruiterer,
+resident,Tredegar Place,5A,,,T. A.,Barfoot,tobacconist,
+resident,Tredegar Place,6,,,C.,Francis,greengrocer,
+resident,Tredegar Place,7,,,watchm'kr & jew'lr,Ince,,
+resident,Tredegar Place,,,Bailhache Sykes & Glasier,,solicitors,
+resident,Tredegar Place,,,John,Young,auctioneer and accountant,
+resident,Tredegar Place,,,Starr-Bowkett office,,,
+resident,Tredegar Place,,,Newport (Mon.) Discount Co. Limited,,,
+resident,Tredegar Place,8,,,W. T.,Pinchin,upholsterer and house furnisher,
+resident,Tredegar Place,9,,,,,,
+resident,Tredegar Place,10,,,Wheeler and Wilson's sewing machine depot,M. Beavan agt,
+resident,Tredegar Place,,,Beavan & Barnaby,,photographic artists,
+resident,Tredegar Place,11,,,John,Davies,dealer in musical instruments &c,
+resident,Tredegar Place,12,,,Alf. R.,Bear,auctioneer and house agent,
+resident,Tredegar Place,,,Tramway Co.'s office,,,
+resident,Tredegar Place,,,Newport (Mon) Property Investment Co. Ltd.,,,
+resident,Tredegar Place,,,G. H.,Llewellyn,solicitor and official receiver in Bankruptcy,
+resident,Tredegar Place,,,Llewellyn & Moore,,solicitors,
+resident,Tredegar Place,,,G. W.,Tomlinson,solicitor,
+street,Tredegar Street P.,,,,,,From 26 Commercial-road to Cattle Market.
+resident,Tredegar Street P.,,,,Tomlins John,saddler,
+resident,Tredegar Street P.,,,,Thos.,Moore,traveller,
+resident,Tredegar Street P.,1,,,Mrs. Ellen,O'Connor,,
+resident,Tredegar Street P.,2,,,Mrs. Ann,Merchant,,
+resident,Tredegar Street P.,3,,,John H.,Cox,pilot,
+resident,Tredegar Street P.,,,White Hart,John,Partridge,,
+street,Cattle Market,,,,,,
+resident,Cattle Market,,,Newcombe Bros.,,hay and corn merchants,
+street,Tregare Street,,,,,,East Usk-road.
+resident,Tregare Street,,,Charles,Shellard,foreman S. W. Brattice Cloth & Co.'s works,
+street,Trinity Place P.,,,,,,Portland-st. to Trinity Church
+resident,Trinity Place P.,1,,,Jacob,Poole,,
+resident,Trinity Place P.,2,,,Jas.,Donoghue,hobbler,
+resident,Trinity Place P.,3,,,Jos.,Hawke,f.ship carptr
+resident,Trinity Place P.,4,,,Daniel,O'Brien,labourer
+resident,Trinity Place P.,5,,,Jas.,Wheelan,assistant
+resident,Trinity Place P.,6,,,Mrs. Margaret,Mahoney,,
+resident,Trinity Place P.,7,,,Thos.,Plummer,wheelwrt
+resident,Trinity Place P.,8,,,Wm.,Hughes,carpenter
+resident,Trinity Place P.,9,,,Geo.,Clarke,haulier
+resident,Trinity Place P.,10,,,John,Martin,rigger
+resident,Trinity Place P.,11,,,James,Pring,seaman
+street,Trostrey Street,,,,,,From Junction-pl. to Bath-st.
+resident,Trostrey Street,,,,John,Morgan,foreman Collier's machine bakery,
+resident,Trostrey Street,,,,Foxall & Co.'s gas meter wks,Foxall John,
+resident,Trostrey Street,,,,Henry,Foxall,,
+street,Tunnel Terrace B.,,,,,,West-side of Railway-tunnel.
+resident,Tunnel Terrace B.,,,Bridgend villa,Jno.,Richards,stonemason,
+resident,Tunnel Terrace B.,1,,,Dorcas,Trull,grocer,
+resident,Tunnel Terrace B.,2,,,Jno.,Stacey,market gar
+resident,Tunnel Terrace B.,3,,,Thos.,Lewis,fitter
+resident,Tunnel Terrace B.,4,,,R.,Towusend,cabinet mk
+resident,Tunnel Terrace B.,5,,,Mrs. H.,Richards,,
+resident,Tunnel Terrace B.,6,,,Ed.,Elliott,optician
+resident,Tunnel Terrace B.,7,,,James,Bell,mechanic
+resident,Tunnel Terrace B.,8,,,Mrs. Ann,Powell,,
+resident,Tunnel Terrace B.,9,,,Mrs. E. S.,Eveleigh,,
+cross_street,Tunnel Terrace B.,,,,,,here is Frederick-street.
+resident,Tunnel Terrace B.,10,,,Wm. J.,Trace,painter
+resident,Tunnel Terrace B.,11,,,W.,Victory,warehousemn
+resident,Tunnel Terrace B.,12,,,Wm.,Thomas,sawyer
+resident,Tunnel Terrace B.,13,,,Hy.,Mingins,fireman
+resident,Tunnel Terrace B.,14,,,L.,Lockyear,photographr
+resident,Tunnel Terrace B.,15,,,John,Pearce,guard
+resident,Tunnel Terrace B.,16,,,Miss Ann,Harris,,
+resident,Tunnel Terrace B.,17,,,Cor.,Simpkins,signal insp
+cross_street,Tunnel Terrace B.,,,,,,here is John-street.
+resident,Tunnel Terrace B.,18,,,B.,Slade,inspt. per. way
+resident,Tunnel Terrace B.,19,,,Hy.,Baldwin,storekeepr
+resident,Tunnel Terrace B.,20,,,Mrs. A.,Mills,,
+resident,Tunnel Terrace B.,21,,,Edwin H. E.,Davies,,
+resident,Tunnel Terrace B.,22,,,Edgar L.,Boulter,,
+resident,Tunnel Terrace B.,23,,,Mrs. Evan,Jones,,
+resident,Tunnel Terrace B.,24,,,Frank A.,White,clerk
+resident,Tunnel Terrace B.,25,,,John,Fox,engine driver
+resident,Tunnel Terrace B.,26,,,Hubert,Appleton,man'gr
+resident,Tunnel Terrace B.,27,,,Jno.,Wilson,tlesworth ho
+resident,Tunnel Terrace B.,28,,Void,,,,
+resident,Tunnel Terrace B.,29,,,E.,Williams,rlway insptr
+resident,Tunnel Terrace B.,30,,,David,Thomas,,
+resident,Tunnel Terrace B.,31,,,Edward,Pulman,,
+resident,Tunnel Terrace B.,,,Mrs.,Pulman,dressmaker
+resident,Tunnel Terrace B.,32,,,J. W.,Hewertson,mechnc
+resident,Tunnel Terrace B.,33,,,Wm.,Stewart,clerk
+resident,Tunnel Terrace B.,34,,,Mrs. Ann,Comley,,
+resident,Tunnel Terrace B.,35,,,Edmund,Davies,draper
+resident,Tunnel Terrace B.,36,,,Jos. B.,Porteous,,
+resident,Tunnel Terrace B.,37,,Void,,,,
+resident,Tunnel Terrace B.,38,,,Wm.,Watkins,gardener
+resident,Tunnel Terrace B.,39,,,,,,
+resident,Tunnel Terrace B.,40,,,Jos.,Williams,accountant
+resident,Tunnel Terrace B.,41,,,Herbert & Wm.,Leng,,
+resident,Tunnel Terrace B.,42,,End house,Mrs. E. S.,Wilkins,,
+cross_street,Tunnel Terrace B.,,,,,,here is Caerau.
+street,Union Lane,,,,,,Dock-street to Union-street.
+resident,Union Lane,,,,Tom,Jones,tinman etc.
+resident,Union Lane,,,,Hooper & Son,,carpenters,
+street,Union Street,,,,,,From 31 Llanarth-street to Dock street.
+resident,Union Street,1,,,Charles,Price,carpenter
+resident,Union Street,2,,,James,Evans,butcher
+resident,Union Street,3,,,Charles,Element,porter
+resident,Union Street,4,,,James,Davies,porter
+resident,Union Street,5,,,Mary,Bevan,,

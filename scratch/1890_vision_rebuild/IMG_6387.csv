@@ -1,0 +1,132 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Woodland Road, M.,,,,,,"From Victoria-avenue to Crescent-road."
+resident,Woodland Road, M.,,Wrington vil,Samuel,,,"Harse Samuel, Wrington vil"
+resident,Woodland Road, M.,,Brighton vil,Thos.,Kessick,,
+resident,Woodland Road, M.,,Harley h,W. F.,Jones,cashier,
+resident,Woodland Road, M.,Newton ho,Isaac,Wyber,,
+resident,Woodland Road, M.,,Fernside vil,Mrs. M.,Jordan,,
+resident,Woodland Road, M.,,Glynmawre,Mrs. B.,Griffiths,,
+resident,Woodland Road, M.,,,,John,Dean,signalman,
+resident,Woodland Road, M.,,,,John,Spooner,builder,
+resident,Woodland Road, M.,,,,Wm.,Smith,g.w.r.,
+resident,Woodland Road, M.,,Woodl'd Nursery,,T. Davis,,
+resident,Woodland Road, M.,,Woodland house,Rev. W. M.,Willett,,"(Nash)"
+resident,Woodland Road, M.,,Woodland cot,Tom Ll.,Latch,,
+resident,Woodland Road, M.,,1 Woodland vil,E. J.,Bolton,,
+resident,Woodland Road, M.,,2 ditto,Mrs. E.,Brown,,
+resident,Woodland Road, M.,,The Woodlands,J.,Berlyn,,
+cross_street,Woodland Road, M.,,,,,,"here is Woodland-park."
+cross_street,Woodland Road, M.,,,,,,(return.)
+street,WOODLAND TERRACE,,,,,,
+resident,WOODLAND TERRACE,11,,,Wm.,Adams,hay dealer,
+resident,WOODLAND TERRACE,10,,,Herbt.,Jones,mar. eng'r,
+resident,WOODLAND TERRACE,9,,,Robt. E.,Basden,,
+resident,WOODLAND TERRACE,8,,,Geo.,Ashman,engineer,
+resident,WOODLAND TERRACE,7,,,,,,Void
+resident,WOODLAND TERRACE,6,,,,,,Do.
+resident,WOODLAND TERRACE,5,,,Wm. P.,Needham,,
+resident,WOODLAND TERRACE,4,,,,,,Void
+resident,WOODLAND TERRACE,3,,,,,,Void
+resident,WOODLAND TERRACE,2,,,Thos.,Davies,engineer,
+resident,WOODLAND TERRACE,1,,Bertera,Geronthius,,
+resident,Woodland Road, M.,,Woodbine villa,E.,Jobbins,,
+resident,Woodland Road, M.,,Frank villa,W. L.,Morris,,
+resident,Woodland Road, M.,,Ivy cot,,,,Void
+resident,Woodland Road, M.,,Glen villa,Alexr.,Phillips,,
+resident,Woodland Road, M.,,Customsoffi,Chas. H.,Homan,,
+resident,Woodland Road, M.,,Villa,,,,Void
+resident,Woodland Road, M.,,Ditto,,,,
+resident,Woodland Road, M.,,Rose-ville ho,Mrs. F.,Finch,,
+street,Woodland Park, M.,,,,,,"From Woodland-road."
+resident,Woodland Park, M.,,Overston lodge,Wm.,Jones,,
+resident,Woodland Park, M.,,Rougemont,A. H.,Tapson,,
+resident,Woodland Park, M.,,Villa,,,,Void
+resident,Woodland Park, M.,,Pensbury,Mis. G.,Fothergill,,
+street,Wrington Terrace, M,,,,,,See Victoria-avenue.
+street,Wyndham Street,,,,,,entrance to Marshes.
+resident,Wyndham Street,,,,Thos.,Harrington,labourer,
+resident,Wyndham Street,,,,John,Spiers,fish dealer,
+resident,Wyndham Street,,,,Geo.,Lewis,Mark,
+resident,Wyndham Street,,,,,,hter Houses
+resident,Wyndham Street,,,,,,Public Slau;
+resident,Wyndham Street,,,,James,Hooper,manager,
+resident,Wyndham Street,,,,Enoch,Griffiths,steam bakry,
+street,Wyndham Terrace,,,,,,Nos. 93 to 125 Marshes-road.
+street,York Place,,,,,,From 54 Stow-hill.
+resident,York Place,,Kensington v,G. F.,Colborne,,
+resident,York Place,1,,,,,,Void
+resident,York Place,2,,,John R.,Hall,,
+resident,York Place,3,,,Henry,Morris,traveller,
+resident,York Place,4,,,Dl. H. M.,Connor,s'Custms,
+resident,York Place,5,,,F. W.,Cotman,prof. music,
+resident,York Place,6,,,,,,Void
+resident,York Place,7,,,T.,Cooper,Smith,
+resident,York Place,8,,,,,,Void
+resident,York Place,9,,,Mrs. Charles,Lewis,,
+resident,York Place,10,,,David Edward,Davies,,
+resident,York Place,11,,,Thomas Henry,Hazell,,
+resident,York Place,12,,,John T.,Turner,,
+resident,York Place,,,,Miss,Turner,,
+resident,York Place,13,,,,,,Void
+street,BRODAWEL GARDENS,,,,,,
+resident,BRODAWEL GARDENS,1,,Elmdene,C. B.,Bumstead,prof. msic,
+resident,BRODAWEL GARDENS,2,,St. Goth-[ard's,E. B.,Sherrin,,
+resident,BRODAWEL GARDENS,3,,Vesey house,,,,Void
+resident,BRODAWEL GARDENS,4,,Shor-well,Rev. H.,Abraham,,
+resident,BRODAWEL GARDENS,5,,Mon. Abri,W. D.,Newton,,
+resident,BRODAWEL GARDENS,6,,,A. E.,Atkins,chemist,
+resident,BRODAWEL GARDENS,7,,,W. A.,Smith,draper,
+resident,BRODAWEL GARDENS,8,,,,,,Void
+resident,BRODAWEL GARDENS,9,,,Thomas,Porteous,,
+resident,BRODAWEL GARDENS,10,,,J. E.,Trail,Bd. T. sur'yr,
+resident,BRODAWEL GARDENS,11,,TheGlyn,Saml,Holliday,,
+resident,BRODAWEL GARDENS,12,,Fern Lea,Alfred,Swash,architect and surveyor,
+resident,BRODAWEL GARDENS,13,,Glen view,T.,Berryman,,
+resident,BRODAWEL GARDENS,,,Brodawel,Clytha college,Barnes,Dr.,
+cross_street,BRODAWEL GARDENS,,,,,,(return.)
+resident,BRODAWEL GARDENS,,,Glanmire,R. H.,Loane,,
+resident,BRODAWEL GARDENS,,,Tenby ho,Wm. F.,Rees,,
+resident,BRODAWEL GARDENS,,,Melton ho,Mrs. M.,Green,,
+resident,BRODAWEL GARDENS,,,,William,Thomas,,
+resident,BRODAWEL GARDENS,,,,Philip,Selwood,,
+resident,BRODAWEL GARDENS,,,,Rev. C.,Ayliffe,"(Baptist)",
+resident,York Place,21,,York villa,,,,Void
+resident,York Place,22,,Roscherry,R. L.,Watson,,
+resident,York Place,23,,,,,,Void
+resident,York Place,24,,,Mrs. Ann,Latch,,
+resident,York Place,25,,,Frank Wil-liams,Beckingham,,
+resident,York Place,26,,,S. W.,Palmer,,
+resident,York Place,27,,,Mrs. George,Evans,,
+resident,York Place,28,,,Misses,Stone,,
+resident,York Place,29,,,T. W.,Griffiths,collector,
+resident,York Place,30,,,Mrs. A. E.,Richards,schl,
+resident,York Place,31,,,Mrs. H.,Matthews,,
+resident,York Place,32,,,Edwin John,Summers,,
+resident,York Place,33,,,Mrs. J. N.,Gregory,,
+resident,York Place,,,,Rev. E. Jones,Lloyd,"M.A.",
+resident,York Place,34,,,Miss,Giddy,,
+resident,York Place,35,,,P. P.,Williams,,
+resident,York Place,36,,,W. C.,Thomas,cashier,
+resident,York Place,37,,,H. R.,Hellyer,,
+resident,York Place,38,,,J.,Richardson,mas. mar,
+resident,York Place,39,,,,,,
+resident,York Place,40,,,Mrs. M. C.,Coombs,,
+resident,York Place,,,,Miss,Coombes,ladies' sch,
+resident,York Place,41,,,I. A.,Storer,master mar,
+resident,York Place,42,,,Edwd.,Jones,Whitsun,
+resident,York Place,43,,Ida house,Ed.,Thomas,,
+resident,York Place,44,,Clyde ho,Mrs. H.,Collier,,
+resident,York Place,45,,sculptor,Harry,Davis,,
+street,York Road,,,,,,From Caerleon-road to Durham-road.
+resident,York Road,1,,,,,,
+resident,York Road,2,,,Eli,Ware,,
+resident,York Road,3,,,Arthur,Gething,carp'tr,
+resident,York Road,4,,,W. H.,Penman,engineer,
+resident,York Road,5,,,,,,Void
+resident,York Road,6,,,,,,Void
+resident,York Road,7,,,Arthur,Horlor,policemn,
+cross_street,York Road,,,,,,(return.)
+resident,York Road,8,,,Richd.,Yelland,er.gineer,
+resident,York Road,9,,,Wm.,Rees,baker,
+resident,York Road,10,,,Chas. G.,Smith,clerk,
+resident,York Road,11,,,,,,Void

@@ -1,0 +1,144 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Durham Road,,,,,,continued.
+resident,Durham Road,117,,Mrs Ann,Smith,,
+resident,Durham Road,118,,William,Payne,baker,
+resident,Durham Road,119,,W.,Roberts,ins. agent,
+resident,Durham Road,120,,Wm.,Roberts,carpenter,
+resident,Durham Road,121,,Hy.,Evans,carpenter,
+street,East Market Street,,,,,,East side Cattle-market.
+resident,East Market Street,1,,Jas.,Weager,storekeeper,
+resident,East Market Street,,,Mercantile Marine office,,,
+cross_street,East Market Street,,,,,,Seamen's entrance
+resident,East Market Street,2,,Oliver,Trigg,,Silurian cot
+resident,East Market Street,3,,Mrs Elizabeth,Goldsworthy,,Verbena cottage
+cross_street,East Market Street,,,,,,here is John-street.
+resident,East Market Street,4,,,,,Dock Road Brewery,Phillips and Sons
+resident,East Market Street,5,,,,,Dock Road Brewery,Phillips and Sons
+resident,East Market Street,6,,Jno.,Clissett,cabinetmaker,
+resident,East Market Street,7,,Wm.,Simmonds,tinsmith,
+resident,East Market Street,8,,Dd.,James,rigger,
+cross_street,East Market Street,,,,,,here is South Market-street.
+resident,East Market Street,,,,O.,Trigg,cabinet works,
+street,East Street, B.,,,,,,From Baneswell-road to Albert-terrace.
+resident,East Street, B.,1,,Mrs Esther,Deacon,,
+resident,East Street, B.,2,,John,Banfield,builder,
+resident,East Street, B.,3,,C. H.,Nancekievill,saddler,
+resident,East Street, B.,4,,James,Beer,labourer,
+resident,East Street, B.,5,,Jos.,Hooper,carpenter,
+resident,East Street, B.,6,,William,Lemon,,
+resident,East Street, B.,7,,John,Kyte,sawyer,
+resident,East Street, B.,8,,Alec,Coles,labourer,
+resident,East Street, B.,9,,Jno.,Bennett,joiner,
+resident,East Street, B.,10,,George,Rawlings,clerk,
+resident,East Street, B.,11,,Richd.,Bown,carpenter,
+resident,East Street, B.,12,,Ann,Mooney,widow,
+resident,East Street, B.,13,,Jos. P.,Bown,smith,
+resident,East Street, B.,14,,Jos.,Adams,shoemaker,
+resident,East Street, B.,15,,Mrs John,Butler,,
+resident,East Street, B.,16,,Walter,Wills,eng. dr'vr,
+resident,East Street, B.,17,,Jonah,New,labourer,
+resident,East Street, B.,18,,Wm.,Meyrick,G.W.R.,
+cross_street,East Street, B.,,,,,,(return.)
+resident,East Street, B.,19,,Mrs C.,Pritchard,shopkpr,
+resident,East Street, B.,20,,Hy.,Selwood,coachman,
+resident,East Street, B.,21,,Thos.,Fowler,carpenter,
+resident,East Street, B.,22,,Hy.,Finch,confectioner,
+resident,East Street, B.,23,,Arthur,Miles,fishmonger,
+resident,East Street, B.,24,,,,,Stores,
+resident,East Street, B.,25,,Robert,Bell,fitter,
+resident,East Street, B.,26,,Alfd. C.,Smith,painter,
+resident,East Street, B.,27,,Geo.,Elliott,grocer and plasterer,
+street,East Usk Road.,,,,,,From 1 Hereford-place.
+resident,East Usk Road.,,,,Mrs Ann,Morgan,,
+resident,East Usk Road.,,,,Ede's cabinet works,,,
+resident,East Usk Road.,1,,,,,Void
+resident,East Usk Road.,2,,Mrs Sarah,John,,
+resident,East Usk Road.,3,,Ernest,Jones,groom,
+resident,East Usk Road.,4,,Wm.,Thorne,dealer,
+cross_street,East Usk Road.,,,,,,here is Railway Arch.
+resident,East Usk Road.,5,,F. A.,Avery,grocer, etc,
+resident,East Usk Road.,6,,Mrs E. A.,Sheppard,,
+resident,East Usk Road.,7,,James,Thomas,plasterer,
+resident,East Usk Road.,8,,Jno. J.,Fitzgerald,haulier,
+resident,East Usk Road.,9,,Hy.,Brittle,collector,
+resident,East Usk Road.,10,,Rd.,Criddle,shoemaker,
+resident,East Usk Road.,11,,Fred.,Bowkett,rlwy porter,
+resident,East Usk Road.,12,,,,,Fennell's ice stores,
+resident,East Usk Road.,13,,Chas.,Thomas,sawyer,
+resident,East Usk Road.,14,,Charles,James,,
+resident,East Usk Road.,15,,John,James,boatman,
+resident,East Usk Road.,16,,Geo.,Purnell,wheelwright,
+resident,East Usk Road.,17,,Mrs F.,Critchley,,
+resident,East Usk Road.,18,,Saml.,Purnell,timber mer,
+cross_street,East Usk Road.,,,,,,RIVER-SIDE (EAST USK-RD. continuation.)
+resident,East Usk Road.,,,,Baptist Mission Room,,,
+resident,East Usk Road.,1,,John,Morgan,fitter,
+resident,East Usk Road.,2,,A.,Greenhall,traveller,
+resident,East Usk Road.,3,,Thomas,Norman,mason,
+resident,East Usk Road.,4,,George,Leyson,mason,
+cross_street,East Usk Road.,,,,,,here is Rudry-street.
+resident,East Usk Road.,5,,Samuel,Bunch,clerk,
+resident,East Usk Road.,6,,Geo.,Martin,brickmaker,
+resident,East Usk Road.,,,,,,Four houses building
+resident,East Usk Road.,11,,John,French,haulier,
+resident,East Usk Road.,12,,Wm.,Sidney,labourer,
+resident,East Usk Road.,13,,Paul,Pengelly,brickmkr,
+resident,East Usk Road.,,,,Edwd.,Merchant,dealer,
+cross_street,East Usk Road.,,,,,,(return.)
+resident,East Usk Road.,,,,Russell's marine store,,,
+resident,East Usk Road.,20,,W. H.,French,shipwright,
+resident,East Usk Road.,21,,Wm.,Meaker,stableman,
+resident,East Usk Road.,22,,Geo.,Batty,plumber,
+resident,East Usk Road.,23,,Henry C.,Long,driver,
+resident,East Usk Road.,24,,Ed.,Farrant,painter,
+resident,East Usk Road.,25,,John,Boyce,tailor,
+resident,East Usk Road.,26,,Frank,Lodge,signalman,
+resident,East Usk Road.,27,,Jos.,Thomas,shipwright,
+resident,East Usk Road.,28,,,,,
+resident,East Usk Road.,29,,Wm.,Clements,labourer,
+resident,East Usk Road.,30,,William,Howe,painter,
+resident,East Usk Road.,31,,Thos.,Baldwin,coachman,
+resident,East Usk Road.,32,,Henry,Parsons,cabman,
+resident,East Usk Road.,33,,Wm.,Criddle,greengrocer,
+resident,East Usk Road.,34,,Evan,Jones,shopkeeper,
+street,Ebenezer Terrace.,,,,,,From 145 Dock-street to 1 Commercial-road.
+resident,Ebenezer Terrace.,1,,Arthur,Allen,,
+resident,Ebenezer Terrace.,2,,Thos.,Grimaldi,labourer,
+resident,Ebenezer Terrace.,3,,Sidney,Shergold,ostler,
+resident,Ebenezer Terrace.,4,,Edwd.,Lennon,mason,
+resident,Ebenezer Terrace.,4a,,Mrs Mary Ann,Hall,,Cosgrove Martin, lab'rer
+resident,Ebenezer Terrace.,5a,,Cor.,Kelahar,lodging ho,
+resident,Ebenezer Terrace.,6,,James,Driscoll,,
+resident,Ebenezer Terrace.,7,,Jos.,Chapman,labourer,Brian Michael, labourer
+resident,Ebenezer Terrace.,8,,Richd.,Cotter,labourer,
+resident,Ebenezer Terrace.,9,,Miss Ellen,Pritchard,,
+resident,Ebenezer Terrace.,10,,Mary,Cotter,widow,Regan Michael, labourer
+resident,Ebenezer Terrace.,11,,Wm.,Thomas,labourer,
+resident,Ebenezer Terrace.,12,,Thomas,Harris,hawker,
+resident,Ebenezer Terrace.,13,,Stephen,Crean,mason,
+resident,Ebenezer Terrace.,14,,Pat.,Connel,labourer,
+resident,Ebenezer Terrace.,15,,Dd.,Bateman,labourer,
+resident,Ebenezer Terrace.,16,,John,Dacey,,
+resident,Ebenezer Terrace.,17,,Thomas,Lee,labourer,
+resident,Ebenezer Terrace.,18,,Chas.,Donovan,labourer,
+resident,Ebenezer Terrace.,19,,Wm.,Holland,coal trim'r,
+resident,Ebenezer Terrace.,20,,Robt.,Trump,coal trim'r,
+resident,Ebenezer Terrace.,21,,James,Fisher,fireman,
+resident,Ebenezer Terrace.,22,,Thomas,Holland,labourer,
+resident,Ebenezer Terrace.,23,,Mrs. Keziah,Gingell,,
+resident,Ebenezer Terrace.,24,,Chas.,Hawkins,turner,
+resident,Ebenezer Terrace.,25,,Peter,Mulligan,cooper,
+resident,Ebenezer Terrace.,26,,Thomas,Knight,haulier,
+resident,Ebenezer Terrace.,27,,William,Beer,,
+resident,Ebenezer Terrace.,28,,Wm.,Cousins,signwriter,
+resident,Ebenezer Terrace.,29,,,,,Stores
+resident,Ebenezer Terrace.,,,,Old Albert Hall,,,
+resident,Ebenezer Terrace.,30,,Hy.,Walters,locksmith,
+resident,Ebenezer Terrace.,31,,G.,Brown,umbrellamaker,
+resident,Ebenezer Terrace.,32,,Lewis,Powell,foreman,Wm. IV mews
+resident,Ebenezer Terrace.,,,,,Stemp,coach builder,proprietor
+resident,Ebenezer Terrace.,33,,Chas. D.,Phillips,agricultural implement depot,The Welsh Calvanistic M. (Ebenezer) Chapel (1829)
+resident,Ebenezer Terrace.,,,,Thos.,Jones,grocer's asst.,Humphreys Miss Harriet
+street,Edward Street.,,,,,,See St. Edward-street.
+street,Edwin Street.,,,,,,From 74 Marshes-road.
+resident,Edwin Street.,1,,Henry,Collins,striker,

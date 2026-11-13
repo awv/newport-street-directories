@@ -1,0 +1,129 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,ST. MARK'S CRES.,,,,,,"C 5, Off Fields-road, (LEFT HAND SIDE.)"
+resident,ST. MARK'S CRES.,1,Hillsborough,Leo J.,Ciceri,,
+resident,ST. MARK'S CRES.,3,The Haven,John,Justhan,,
+resident,ST. MARK'S CRES.,5,Avallon,Rev. D.,Joseph,,
+resident,ST. MARK'S CRES.,7,,Percival,Poole,,
+resident,ST. MARK'S CRES.,9,,Mrs. B. M.,Wadley,,
+resident,ST. MARK'S CRES.,11,Savernake,J. J.,Barefoot,,
+resident,ST. MARK'S CRES.,13,Nant Grawr,T. H.,Herbert,,
+resident,ST. MARK'S CRES.,15,Tavistock,Misses F. & C.,Lewis,,
+resident,ST. MARK'S CRES.,17,Llwyn vale,Wm.,Davies,,
+resident,ST. MARK'S CRES.,19,Clevehurst,Arthur C. M.,Phillips,,
+resident,ST. MARK'S CRES.,21,Pen-y-parc,John E.,Lewis,,
+resident,ST. MARK'S CRES.,23,Lydbrook,Edgar,Nancekievill,,
+resident,ST. MARK'S CRES.,25,Alveston,Hy.,Cullimore,,
+resident,ST. MARK'S CRES.,27,Northfields,R.,Gladstone,,
+resident,ST. MARK'S CRES.,29,,Mrs. Jane,Mills,,
+resident,ST. MARK'S CRES.,31,Mayfield,Ernest J.,Batty,,
+resident,ST. MARK'S CRES.,33,Henry Robt.,Humphreys,,
+resident,ST. MARK'S CRES.,35,,George D.,Lennox,,
+resident,ST. MARK'S CRES.,37,,John David,Edwards,,
+resident,ST. MARK'S CRES.,39,Corbiere,Mrs. G.,Davies,,
+street,ST. MARY'S ROAD.,,,,,,"C 5, See Clytha-park"
+resident,ST.,,Glenside,Mrs. Annie M.,Jones,,
+resident,ST.,,Danygraig,J. S.,Johnson,,
+resident,ST.,,Pambuu,Reg. F.,Richards,,
+resident,ST.,,Bartestree,Cyril N.,Snell,,
+resident,ST.,,Braeside,Reg. G.,Jones,,
+resident,ST.,,Hopecrest,Mrs. Elizabeth,Comerford,,
+resident,ST.,,,,Landreth Conrad,,
+resident,ST.,,Saltown,Alex. O.,Findlay,,
+resident,ST.,,Kenrhos,S.,Davey,mariner,
+cross_street,ST.,,,,,"3 houses void"
+resident,ST.,,Porthpean,Wm.,Grose,schoolmaster,
+resident,ST.,,Whitefriars,Geo. A.,Brain,prov. mcht,
+cross_street,ST.,,,,,"1 house void"
+cross_street,ST.,,,,,here is St. Annes-cresc.
+resident,ST.,,Retreat,Alfred Thos.,Richmond,,
+resident,ST.,,Lyndhurst,William,Webber,,
+resident,ST.,11,,H. A.,Cluer,manager,
+resident,ST.,9,,Charles,Bezant,traveller,
+resident,ST.,7,,W. F.,Blake,"G.W.R., Villiersse"
+resident,ST.,5,Cartref,Harold,Shipton,manager,
+resident,ST.,3,,Walter,Shuff,G.W.R.,
+resident,ST.,1,Imaun,H.,Price,plasterer,
+cross_street,ST.,,,,,here is Brecon-road
+cross_street,ST.,,,,,here is Telephone kiosk
+cross_street,ST.,,,,,here is Norfolk-road
+cross_street,ST.,,,,,here is Christchurch-rd.
+cross_street,ST.,,,,,(return)
+resident,ST.,,Gwedore,H. E.,Middleton,"P.O., civil"
+resident,ST.,,,J. A.,Stewart,P.O.,
+resident,ST.,,Desldene,Thos. H.,Dowling,civil engineer
+resident,ST.,,Dovedale,Samuel,Kilby,joiner,
+resident,ST.,,Anfield,Mrs. Lilian,Jones,Cartref
+resident,ST.,,Lulworth,Thos. E.,Evans,secretary
+resident,ST.,,Landsowne,Miss K.,Taplin,,
+resident,ST.,,Sunnybank,Geo.,Zeale,engineer
+resident,ST.,,Pendeen,Clifford,Croker,carpenter
+resident,ST.,,Fowey,Arthur F.,Parsons,travlr,
+resident,ST.,,Hengistbury,John,Jones,clerk
+resident,ST.,,Henllys,Ivor S.,Simpson,painter
+resident,ST.,,Bryn,Ivor H.,Edwards,travlr
+resident,ST.,,The Glen,Wm.,Leahy,"pilot, Ty-"
+resident,ST.,,Mount Pleasant,Hartley,Brooks,mariner
+resident,ST.,,Cader Idris,Arthur S.,Phillips,travlr
+resident,ST.,,Glentworth,Thos. G.,Davies,clerk
+resident,ST.,,Elstow,Sidney H.,Weston,cashier
+resident,ST.,,Penybont,Wm.,Woodgates,salesman
+resident,ST.,,Petitor,Wm. John,Bull,P.O.
+resident,ST.,,Warton-Crag,Harry W.,Dixon,pawnbroker
+resident,ST.,,Kilwa,Walter H. S.,Dodds,motor engineer
+resident,ST.,,Homestead,Wm. P.,Davies,civil serv
+resident,ST.,,Maidstone,Harold,Nicholson,printer
+resident,ST.,,Pen-Awel,D.,Johnstone,gym instrctr
+resident,ST.,,leigh,D. W.,Iles,printer
+resident,ST.,,Montrave,Joseph H.,Holbrook,milkman
+resident,ST.,,Darlington,Andrew,Ferguson,travlr
+resident,ST.,,Tarlair,Norman,Watt,optician
+cross_street,ST.,,,,,here is St. George's cres.
+cross_street,ST.,,,,,"1 house void"
+resident,ST.,39,,George Henry,Thomas,,
+resident,ST.,37,,James,Horsefield,,
+resident,ST.,35,Eskdale,Geo.,Nichol,,
+cross_street,ST.,33,,,,Void,
+resident,ST.,31,,Ernest W.,Ellis,,
+resident,ST.,29,Homeleigh,J. J.,Smith,,
+resident,ST.,27,,Mrs. Eliza. J.,Sawtell,,
+resident,ST.,,Ross,Colin,John,,
+resident,ST.,25,,Capt. V. F.,Martin,,
+resident,ST.,23,Normanhurst,Mrs. M. A. W.,Wheeler,,
+cross_street,ST.,,,,,here is Hubert-road
+resident,ST.,21,Morva,Charles K.,Wilkinson,,
+resident,ST.,19,Montano,Mrs. E.,Vivian,,
+resident,ST.,17,Hillcroft,George Cecil,Gamson,,
+resident,ST.,15,Tremelyn,T. C.,Walker,,
+resident,ST.,13,Llwyn Eryr,M. P.,Gibb,,
+resident,ST.,11,Guyon,Dd.,Jenkins,,
+resident,ST.,9,Mont Orgueil,George,Scott,,
+resident,ST.,7,Highworth,R. S.,Cox,,
+resident,ST.,5,Broxwood,Alex. M.,Jarvis,,
+resident,ST.,3,Ellesmere,O. W.,Davies,,
+resident,ST.,1,,A.,Rawlings,,
+street,ST. JULIAN'S ROAD.,,,,,,"C 3, From 10 St. Julian's-avenue, (RIGHT HAND SIDE)"
+resident,ST. JULIAN'S ROAD.,2,,Fredk.,Kelsall,stereotyper,
+resident,ST. JULIAN'S ROAD.,4,Melrose,Patrick,Mahoney,engnr
+resident,ST. JULIAN'S ROAD.,6,East view,Percy,Houlden,clerk
+resident,ST. JULIAN'S ROAD.,8,H.M.C.,William,Rudge,,
+resident,ST. JULIAN'S ROAD.,10,Thistleboon,James,Howells,,
+resident,ST. JULIAN'S ROAD.,12,Gwynfa,G. E. N.,Griffiths,H.M.C.
+resident,ST. JULIAN'S ROAD.,14,Ramelies,R. C.,Yates,,
+resident,ST. JULIAN'S ROAD.,16,Sedgemoor,H.,Brand,,
+resident,ST. JULIAN'S ROAD.,18,Lamorna,Arthur E.,Dobinson,,
+resident,ST. JULIAN'S ROAD.,20,,Richard L.,Humphries,,
+resident,ST. JULIAN'S ROAD.,22,Surrey-place,James,Parish,clerk
+cross_street,ST. JULIAN'S ROAD.,,,,,here is Surrey-place
+resident,ST. JULIAN'S ROAD.,24,Connemara,Mrs. Mary E.,Williams,,
+resident,ST. JULIAN'S ROAD.,26,Lanark,Parnall,Gale,,
+resident,ST. JULIAN'S ROAD.,28,Boscawen,Wybert L.,Dymond,,
+resident,ST. JULIAN'S ROAD.,30,Redlands,J.,Brydges Coade,,
+resident,ST. JULIAN'S ROAD.,32,Overdale,Stanley R.,Meaker,,
+cross_street,ST. JULIAN'S ROAD.,,,,,5 houses void
+resident,ST. JULIAN'S ROAD.,,,Venton,Nice,mangr,
+resident,ST. JULIAN'S ROAD.,,,Cornwall-road,Alfred S.,Williams,,
+cross_street,ST. JULIAN'S ROAD.,,,,,here is Cornwall-road
+resident,ST. JULIAN'S ROAD.,,Llys-Dilys,John S.,Davies,schlmasstr,
+resident,ST. JULIAN'S ROAD.,,Montrose,Geo. A.,Thomas,smith,
+resident,ST. JULIAN'S ROAD.,,Highfield,Ralph E.,Gwatkin,,
+resident,ST. JULIAN'S ROAD.,,Hollyhurst,Richard,Jewell,,

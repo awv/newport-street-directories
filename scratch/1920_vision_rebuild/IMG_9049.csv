@@ -1,0 +1,168 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+cross_street,"ST.",,,,"(return)",,
+resident,"ST.",13,,A.,Horton,,Trymelyn
+resident,"ST.",11,,Dd.,Jenkins,,Llwyn Eryr
+resident,"ST.",9,,Walter Sidney,Marler,,Guyon
+resident,"ST.",7,,Ronald S.,Cox,,Truro
+resident,"ST.",5,,Herbt. H.,Akers,,Highworth
+resident,"ST.",3,,Alfred Ivor,Greenland,,Broxwood
+resident,"ST.",1,,Arthur,Rawlings,,Ellesmere
+street,ST. MARY'S ROAD.,,,,,,"C 5, See Clytha-park"
+street,ST. MARK'S CRES.,,,,,,"C 5, Off Fields-road"
+cross_street,ST. MARK'S CRES.,,,,"(LEFT HAND SIDE.)",,
+resident,ST. MARK'S CRES.,1,,Percy,Dowdall,,
+resident,ST. MARK'S CRES.,3,,Hy.,Price,engineer,"The Haven"
+resident,ST. MARK'S CRES.,5,,Rev. D. D.,Joseph,,Avallon
+resident,ST. MARK'S CRES.,7,,Percival,Poole,,
+resident,ST. MARK'S CRES.,9,,Alfred G.,Wadley,,
+resident,ST. MARK'S CRES.,11,,J. J.,Barefoot,,Savernake
+resident,ST. MARK'S CRES.,13,,T. H.,Herbert,,Nant Gwavr
+resident,ST. MARK'S CRES.,,,George,Beeston,,Tavistock
+resident,ST. MARK'S CRES.,15,,Misses F. & C.,Lewis,,
+resident,ST. MARK'S CRES.,17,,Wm.,Davis,,Llwyn vale
+resident,ST. MARK'S CRES.,19,,Henry,Cordy,,Clevehurst
+resident,ST. MARK'S CRES.,21,,John E.,Lewis,,Pen-y-parc
+resident,ST. MARK'S CRES.,23,,Albert,Gunn,,Lydbrook
+resident,ST. MARK'S CRES.,25,,Hy.,Cullmore,,Alveston
+resident,ST. MARK'S CRES.,27,,R.,Gladstone,,Northfields
+resident,ST. MARK'S CRES.,29,,Mrs. Jane,Mills,,
+resident,ST. MARK'S CRES.,31,,Ernest J.,Batty,,Mayfield
+resident,ST. MARK'S CRES.,33,,Henry Robert,Humphries,,
+resident,ST. MARK'S CRES.,35,,J. A.,Hatfield,chemist,
+resident,ST. MARK'S CRES.,37,,Mrs. Sarah,Edwards,,
+resident,ST. MARK'S CRES.,39,,Charles,Davies,,Corbiere
+resident,ST. MARK'S CRES.,41,,George Campbell,Oliver,,Ivydene
+resident,ST. MARK'S CRES.,43,,Mrs. Richard,Richards,,
+resident,ST. MARK'S CRES.,45,,George,Hill,,Westbury
+resident,ST. MARK'S CRES.,47,,Lewis,Webb,,
+resident,ST. MARK'S CRES.,49,,Stephen,Iggulden,,
+resident,ST. MARK'S CRES.,51,,William Charles,Major,,
+resident,ST. MARK'S CRES.,53,,C. W.,Broughton,,Coniston
+cross_street,ST. MARK'S CRES.,,,,"here is Alteryn-road",,
+cross_street,ST. MARK'S CRES.,,,,"(return)",,
+resident,ST. MARK'S CRES.,22,,Doris W.,O'Leary,,Twyn Carn
+resident,ST. MARK'S CRES.,20,,Harry,Weston,,
+resident,ST. MARK'S CRES.,18,,James,Murray,,
+resident,ST. MARK'S CRES.,16,,George Edwin,Dibdin,,Brockweir
+resident,ST. MARK'S CRES.,14,,Jos. H.,Ramsdale,Ads-wood,
+resident,ST. MARK'S CRES.,12,,Edward,Hicks,,
+resident,ST. MARK'S CRES.,10,,Thomas John,Hill,builder,
+resident,ST. MARK'S CRES.,8,,L. A.,Coe,,Silverton
+resident,ST.,6,,Harry,Russell,,Urishay
+resident,ST.,4,,A. J.,Davies,,The Homest'd
+resident,ST.,2,,F. J.,Webb,,
+street,ST. MARY STREET.,,,,,,"D 5, From North-street to Blewitt-street"
+cross_street,ST. MARY STREET.,,,,"(LEFT HAND SIDE.)",,
+resident,ST. MARY STREET.,1,,H.,Gibbons,,
+resident,ST. MARY STREET.,1a,,Ernest,Roberts,,
+resident,ST. MARY STREET.,2,,William,Newland,,
+resident,ST. MARY STREET.,2a,,Ernest,Roberts,labourer,
+resident,ST. MARY STREET.,3,,Mrs. Florence,Levine,,
+resident,ST. MARY STREET.,3a,,Jack,Roberts,,
+resident,ST. MARY STREET.,4,,James,Gaze,G.W.R.,
+resident,ST. MARY STREET.,4a,,John,Wildy,labourer,
+resident,ST. MARY STREET.,5,,George,Bennett,seaman
+resident,ST. MARY STREET.,5a,,Mrs. Clara,Swinbourne,,
+resident,ST. MARY STREET.,6,,Frank E.,Webb,painter,
+resident,ST. MARY STREET.,6a,,Fredk. George,Williams,,
+resident,ST. MARY STREET.,7,,Fred,Jones,labourer,
+resident,ST. MARY STREET.,7a,,Martha,Lane,,
+resident,ST. MARY STREET.,8,,Joseph,Harding,,
+resident,ST. MARY STREET.,8a,,George,Fountain,,
+resident,ST. MARY STREET.,9,,John,Rees,,
+resident,ST. MARY STREET.,9a,,Mrs. M.,Brown,,
+resident,ST. MARY STREET.,10,,Mrs. F.,Wilkinson,,
+resident,ST. MARY STREET.,10a,,Mrs. Rose,Wall,,
+resident,ST. MARY STREET.,11,,Wm. J.,Hopkins,painter,
+resident,ST. MARY STREET.,12,,William,Gay,foreman,
+resident,ST. MARY STREET.,13,,Mrs. Elizabeth,Fisher,,
+resident,ST. MARY STREET.,14,,Thos. John,Rees,ironwkr
+resident,ST. MARY STREET.,15,,Charles,Davies,weighman
+resident,ST. MARY STREET.,16,,Hugh,Jones,attendant,
+resident,ST. MARY STREET.,17,,Ernest,Wade,carpenter,
+resident,ST. MARY STREET.,18,,Wm.,Hopkins,decorator,
+resident,ST. MARY STREET.,19,,Mrs. B.,Knight,grocer,
+resident,ST. MARY STREET.,20,,William A.,Pearson,fitter,
+resident,ST. MARY STREET.,21,,Jos. William,Clifford,,
+resident,ST. MARY STREET.,22,,J. William,Jones,,
+resident,ST. MARY STREET.,23,,William,Atkinson,,
+resident,ST. MARY STREET.,24,,George,Storey,carpenter,
+resident,ST. MARY STREET.,25,,George,Lane,fireman,
+resident,ST. MARY STREET.,26,,W.,Williams,furnaceman,
+resident,ST. MARY STREET.,27,,Herbert W.,Rees,carpenter,
+resident,ST. MARY STREET.,28,,Wm. L.,Woolacott,elect'n
+resident,ST. MARY STREET.,29,,Lewis,Jenkins,labourer,
+resident,ST. MARY STREET.,30,,Wm. Hy.,Squires,carpentr
+resident,ST. MARY STREET.,31,,John,Lewis,gasworker,
+resident,ST. MARY STREET.,32,,H. C.,Dumayne,wagon lifter,
+resident,ST. MARY STREET.,33,,John,Crimp,,
+resident,ST. MARY STREET.,34,,John,Crimp,milkman, etc.
+cross_street,ST. MARY STREET.,,,,"here is St. Woolos-road",,
+cross_street,ST. MARY STREET.,,,,"also St. Edward-street",,
+cross_street,ST. MARY STREET.,,,,"(return)",,
+resident,ST. MARY STREET.,,,ST. MARY STREET BAPTIST CHAPEL,,,
+resident,ST. MARY STREET.,35,,Carl,Packer,musician,
+resident,ST. MARY STREET.,36,,Edwin,Berridge,police,
+resident,ST. MARY STREET.,37,,Thomas,Hughes,,
+resident,ST. MARY STREET.,38,,Wm.,Gotobed,labourer,
+resident,ST. MARY STREET.,39,Oddfellows' and Foresters' Arms,W. J.,Phillips,,
+resident,ST.,40,,Walter,Edwards,plasterer,
+resident,ST.,41,,George H.,James,builder,
+resident,ST.,42,,Thomas,Edwards,labourer,
+resident,ST.,43,,Saul,Goodwin,labourer,
+resident,ST.,44,,Jack,Routley,G.W.R.,
+resident,ST.,45,,Fred,Newman,ship's carptr
+resident,ST.,46,,Richard,Cliss,,
+resident,ST.,47,,John,Edwards,labourer,
+resident,ST.,48,,John,Evans,baker,
+resident,ST.,49,,Albert H. D.,Fishwick,,
+resident,ST.,50,,John Albert,Tucker,,
+resident,ST.,51,,Jonathan,Davies,junr.,
+resident,ST.,52,,Herbt.,Rossiter,brickburnr
+resident,ST.,53,,John,Harris,labourer,
+resident,ST.,54,,George,Abbott,labourer,
+cross_street,ST.,,,,"here is West-street",,
+resident,ST.,55,,P.,Lewis,,
+resident,ST.,56,,Mrs. Mary,Chalker,,
+resident,ST.,57,,Mrs.,Wilson,,
+resident,ST.,58,,Ed. E.,Lockyer,labourer,
+cross_street,ST.,,,,"ST. WOOLOS SUNDAY SCH.",,
+resident,ST.,,,ST. WOOLOS INSTITUTE,,,
+resident,ST.,59,,Albert Victor,Smith,,
+resident,ST.,60,,Wm. Jas.,Morris,assistant,
+resident,ST.,61,,Mrs. S.,Marley,,
+resident,ST.,62,,Mrs. Annie,Manship,,
+resident,ST.,63,,Robert,Cole,smith,
+resident,ST.,64,,A.,Minchin,machinist,
+resident,ST.,65,Talbot Inn,L.,Snowden,,
+street,ST. MICHAEL ST.,,,,,,"E 4, Church-street to Castle-street"
+cross_street,ST. MICHAEL ST.,,,,"(LEFT HAND SIDE.)",,
+resident,ST. MICHAEL ST.,1,,T. J.,Phillips,trimmer,
+resident,ST. MICHAEL ST.,3,,John,Collins,labourer,
+resident,ST. MICHAEL ST.,5,,Richard,Fursey,shipsmith
+resident,ST. MICHAEL ST.,7,,Pat.,Sullivan,trimmer,
+resident,ST. MICHAEL ST.,9,,Thomas,Regan,labourer,
+resident,ST. MICHAEL ST.,11,,Walter,Powell,,
+resident,ST. MICHAEL ST.,,,Geo.,Forte,boiler scaler,
+resident,ST. MICHAEL ST.,13,,Joseph,Williams,labourer,
+resident,ST. MICHAEL ST.,15,,George,Manship,shop,
+resident,ST. MICHAEL ST.,17,,Jere.,McCarthy,rigger,
+cross_street,ST. MICHAEL ST.,,,,"here is Clarence-street",,
+resident,ST. MICHAEL ST.,,,ST. MICHAEL'S CATHOLIC CHURCH AND SCHOOLS,,,
+resident,ST. MICHAEL ST.,21,,James,Robson,,
+resident,ST. MICHAEL ST.,23,,John,Burke,coal trimmer,
+resident,ST. MICHAEL ST.,25,Orange Tree,E.,Fountain,,
+cross_street,ST. MICHAEL ST.,,,,"here is Castle-street",,
+cross_street,ST. MICHAEL ST.,,,,"(return)",,
+resident,ST. MICHAEL ST.,44,,George,Hardwick,,
+resident,ST. MICHAEL ST.,42,,John,Sheenan,,
+resident,ST. MICHAEL ST.,,,John,Barnett,,
+resident,ST. MICHAEL ST.,,,Albert,Fisher,,
+resident,ST. MICHAEL ST.,,,Dan,McCarthy,,
+resident,ST. MICHAEL ST.,40,,Denis,Miles,labourer,
+resident,ST. MICHAEL ST.,,,Patrick,Doran,,
+resident,ST. MICHAEL ST.,,,Albert,Price,,
+resident,ST. MICHAEL ST.,38,,John,Danaher,labourer,
+resident,ST. MICHAEL ST.,36,,William,McGwyer,,
+resident,ST. MICHAEL ST.,34,,W. T.,Stephens,haulier,
+resident,ST. MICHAEL ST.,32,,Robt.,Fennell,shipper,

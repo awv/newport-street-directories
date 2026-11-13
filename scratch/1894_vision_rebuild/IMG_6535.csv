@@ -1,0 +1,140 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Bridge Street,,,,,,continued
+resident,Bridge Street,71,,J. M.,Davies,butcher,
+resident,Bridge Street,72,,H.,Aspinall,chemist,
+resident,Bridge Street,73,,Bailhache, Sykes, and Glasier,solicitors,
+resident,Bridge Street,73,,J.,Crotty,labourer,
+resident,Bridge Street,74,,Wm.,Barnsley,dealer,
+resident,Bridge Street,74,,Mrs.,Aspinall,milliner,
+resident,Bridge Street,75,,Alfd.,Hawkins,wheelwright,
+resident,Bridge Street,75,,C.,Ince,jeweller, etc.,
+resident,Bridge Street,76,,G.,Childes,hawker,
+resident,Bridge Street,76,,,Void,,
+resident,Bridge Street,77,,,Void,,
+resident,Bridge Street,78,TREDEGAR CHAMBERS,,,Void,,
+resident,Bridge Street,79,TREDEGAR CHAMBERS,,,Void,,
+resident,Bridge Street,80,TREDEGAR CHAMBERS,,,Void,,
+resident,Bridge Street,81,TREDEGAR CHAMBERS,John,Young,auctioneer and accountant,
+resident,Bridge Street,,TREDEGAR CHAMBERS,,Starr-Bowkett office,,
+resident,Bridge Street,,TREDEGAR CHAMBERS,,Newport (Mon.) Discount Co. Limited,,
+resident,Bridge Street,82,TREDEGAR CHAMBERS,J.,Williams,gilder and artists' repository,
+cross_street,Bridge Street,,,,,,here is Cambrian-road
+resident,Bridge Street,,,Yorath & Son,Cambrian brewery,
+resident,Bridge Street,83,BANK CHAMBERS,E. G.,Watkins,printer,
+resident,Bridge Street,,BANK CHAMBERS,W. Cliff.,Phillips,solicitor,
+resident,Bridge Street,,BANK CHAMBERS,,N'pt Athletic Club office,,
+resident,Bridge Street,84,BANK CHAMBERS,T.,Davis Ed.,messenger,
+resident,Bridge Street,85,BANK CHAMBERS,Wm.,Graham,Hitchcox, & Co. land agents, auctioneers, etc.,
+resident,Bridge Street,,BANK CHAMBERS,C. H.,Waters,accountant,
+street,Britannia Buildings,,,,,,Nos 12 to 15 North-street
+street,Broad Street, P.,,,,,,Frederick-st to Portland-st.
+resident,Broad Street, P.,,,Wm.,Pope,plasterer't yard,
+resident,Broad Street, P.,1,,John,Bridge,labourer,
+resident,Broad Street, P.,2,,John,Tucker,moulder,
+resident,Broad Street, P.,3,,Arthur G.,Pullen,labourer,
+resident,Broad Street, P.,4,,Mrs Ann,Davies,,
+resident,Broad Street, P.,5,,,Void,,
+resident,Broad Street, P.,6,,John,Smith,labourer,
+resident,Broad Street, P.,7,,Chas.,Hughes,fitter,
+resident,Broad Street, P.,8,,James,Mackie,steward,
+street,Broseley Terrace, M.,,,,,,See Fair Oak-avenue
+street,Bryn-derwyn Road, M.,,,,,,From Victoria-avenue to Christchurch-road
+resident,Bryn-derwyn Road, M.,1,,Rev J.,Cooke,,Pengelly
+resident,Bryn-derwyn Road, M.,2,,Miss M.,Davies,,Penderyn
+resident,Bryn-derwyn Road, M.,3,,Mrs. G. C.,Wilcox,,Pen-twyn
+resident,Bryn-derwyn Road, M.,4,,Frank,Lewis,,Pen-y-bryn
+resident,Bryn-derwyn Road, M.,5,,Rev Wm.,Jones,,Pen-y-dre
+resident,Bryn-derwyn Road, M.,6,,Richard,Lloyd,,Pen-y-lan
+resident,Bryn-derwyn Road, M.,7,,Jabez Hy.,Firbank,,Pen-y-graig
+resident,Bryn-derwyn Road, M.,8,,Dd.,Howell,,Derwen ho
+resident,Bryn-derwyn Road, M.,9,,Sidney,Meaker,painter,
+cross_street,Bryn-derwyn Road, M.,,,,,,return
+resident,Bryn-derwyn Road, M.,30,,Mrs Francis,Clark,,
+resident,Bryn-derwyn Road, M.,31,,John E.,Mitchell,P., H. M.'s Customs
+resident,Bryn-derwyn Road, M.,32,,W.,Winter,clerk,
+resident,Bryn-derwyn Road, M.,33,,W. J.,Chaddock,Customs officer,
+resident,Bryn-derwyn Road, M.,34,,Rich. H.,Farr,G.W.R. clk
+resident,Bryn-derwyn Road, M.,35,,William,Cruse,tailor,
+resident,Bryn-derwyn Road, M.,36,,Mrs,Jones,Sea-view cot
+street,Bryngwyn Road,,,,,,See Clytha-park
+street,Burleigh Road,,,,,,Bryngwyn-rd. to Llanthewy-rd
+street,Caerau Crescent,,,,,,Caerau-park from Stow-hill
+resident,Caerau Crescent,1,,Chas.,Cullum,The Lawn
+street,Bristol Street, B.T.,,,,,,Camelot-place to Duckpool-rd.
+resident,Bristol Street, B.T.,1,,R.,Hillman,firewood dlr,
+resident,Bristol Street, B.T.,2,,J. H.,Howard,painter,
+resident,Bristol Street, B.T.,3,,T.,Brooks,painter,
+resident,Bristol Street, B.T.,4,,Hy.,Hayward,inspector,
+resident,Bristol Street, B.T.,5,,F.,Dunning,storekeeper,
+resident,Bristol Street, B.T.,6,,Jas.,Oxenbury,crane dr'vr,
+resident,Bristol Street, B.T.,7,,Geo. J.,Maddicks,fitter,
+resident,Bristol Street, B.T.,8,,H.,Narbett,saddler,
+resident,Bristol Street, B.T.,9,,Edwd.,James,plasterer,
+resident,Bristol Street, B.T.,10,,Young,Swanton,plasterer,
+resident,Bristol Street, B.T.,11,,Dd.,Jenkins,cabman,
+resident,Bristol Street, B.T.,12,,Jas.,Morgan,butcher, etc.,
+cross_street,Bristol Street, B.T.,,,,,,here is Hereford-street
+resident,Bristol Street, B.T.,13,,Jas.,Price,gardener,
+resident,Bristol Street, B.T.,14,,John,Brown,shoemaker,
+resident,Bristol Street, B.T.,15,,Lemeul,Packer,labourer,
+resident,Bristol Street, B.T.,16,,J.,Evans,mariner,
+resident,Bristol Street, B.T.,17,,Harry,White,painter,
+resident,Bristol Street, B.T.,18,,Wm.,Lewis,hurdlemaker,
+resident,Bristol Street, B.T.,19,,Alfd.,Harrington,foreman,
+resident,Bristol Street, B.T.,20,,Mrs. Annie,Morgan,,
+resident,Bristol Street, B.T.,21,,W.,Kibby,carpenter,
+resident,Bristol Street, B.T.,22,,Jos. junr.,Foslett,gasfitter,
+resident,Bristol Street, B.T.,23,,Robt.,Hine,labourer,
+resident,Bristol Street, B.T.,24,,Jas.,Baiss,moulder,
+resident,Bristol Street, B.T.,25,,Alfd. E.,Pearce,eng. dr'vr,
+resident,Bristol Street, B.T.,26,,J.,Butler,gasfitter,
+resident,Bristol Street, B.T.,27,,G.,Coombs,dock foreman,
+resident,Bristol Street, B.T.,28,,Robt.,Millington,haulier,
+resident,Bristol Street, B.T.,29,,Geo.,Maxfield,haulier,
+resident,Bristol Street, B.T.,30,,Charles,Price,mason,
+resident,Bristol Street, B.T.,31,,Jas.,Knowles,carpenter,
+resident,Bristol Street, B.T.,32,,Mrs Margaret,Daniels,,
+resident,Bristol Street, B.T.,33,,F. J.,Cooper,master mar,
+resident,Bristol Street, B.T.,34,,Wm.,Tyler,ironworker,
+resident,Bristol Street, B.T.,35,,T.,Stephens,saddler,
+resident,Bristol Street, B.T.,36,,Frank,Rickards,platelayer,
+resident,Bristol Street, B.T.,37,,Joseph,Turner,labourer,
+resident,Bristol Street, B.T.,38,,T. H.,Kelymack,cab'ntmkr,
+resident,Bristol Street, B.T.,39,,Jno. Alfd.,Jones,carpenter,
+resident,Bristol Street, B.T.,40,,J.,Jones,carpenter,
+cross_street,Bristol Street, B.T.,,,,,,return
+resident,Bristol Street, B.T.,42,,T.,Knapman,gen. haulier,
+cross_street,Bristol Street, B.T.,,,,,,here is London-street
+resident,Bristol Street, B.T.,,,Donald,McDougall,signlm,
+resident,Bristol Street, B.T.,,,A.,McDougall,shopkeeper,
+resident,Bristol Street, B.T.,43,,Jonathan,Hodges,forem'n,
+resident,Bristol Street, B.T.,44,,Geo.,Bevan,steward,
+resident,Bristol Street, B.T.,45,,Saml.,Marley,cabinet mkr,
+resident,Bristol Street, B.T.,46,,John,Kirby,labourer,
+resident,Bristol Street, B.T.,47,,Wm.,Owen,plasterer,
+resident,Bristol Street, B.T.,48,,Elijah,Williams,carpenter,
+resident,Bristol Street, B.T.,49,,George,Hill,mason,
+resident,Bristol Street, B.T.,50,,L.,Downes,slasterer,
+resident,Bristol Street, B.T.,51,,Alfd. J.,Noble,policeman,
+resident,Bristol Street, B.T.,52,,H.,Matthews,labourer,
+resident,Bristol Street, B.T.,53,,Robt. J.,Jobling,,
+resident,Bristol Street, B.T.,54,,G.,Richards,haulier,
+resident,Bristol Street, B.T.,55,,James,Barnett,tailor,
+resident,Bristol Street, B.T.,56,,H.,Moore,labourer,
+resident,Bristol Street, B.T.,57,,J.,Atkins,factory,
+resident,Bristol Street, B.T.,58,,F.,Houghton,W. cutler,
+resident,Bristol Street, B.T.,59,,F.,Morris,machine ruler,
+resident,Bristol Street, B.T.,60,,Wm. M.,Banks,baker,
+resident,Bristol Street, B.T.,61,,H.,Edwards,shopkeeper,
+cross_street,Bristol Street, B.T.,,,,,,here is Hereford-street
+resident,Bristol Street, B.T.,62,,Wm.,Sweeney,sailor,
+resident,Bristol Street, B.T.,63,,Thomas,Davey,mason,
+resident,Bristol Street, B.T.,64,,Edwd.,Morgan,labourer,
+resident,Bristol Street, B.T.,65,,John,Newberry,factory,
+resident,Bristol Street, B.T.,66,,David,Elliott,mason,
+resident,Bristol Street, B.T.,67,,G. E.,Wonfor,shoemaker,
+resident,Bristol Street, B.T.,68,,Fred.,Copeman,naturalist,
+resident,Bristol Street, B.T.,69,,Albt.,Redman,labourer,
+resident,Bristol Street, B.T.,70,,Gilbert Margaret,,,
+resident,Bristol Street, B.T.,71,,Wm.,Foster,turner,
+resident,Bristol Street, B.T.,72,,Robt.,Swinburne,sailor,

@@ -1,0 +1,157 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,FIELDS PARK ROAD,,,E. M.,Brewer,Capt.,Colhugh
+cross_street,FIELDS PARK ROAD,,,,,,"here is Fields-park-avenue"
+resident,FIELDS PARK ROAD,,Laleham Lodge,Mrs.,Brooks,,
+resident,FIELDS PARK ROAD,,Greycot,S. W.,Little,E. S.,
+resident,FIELDS PARK ROAD,,Greenfield,Graham,Bell,H.,
+resident,FIELDS PARK ROAD,,The Retreat,Fred,Smart,,
+cross_street,FIELDS PARK ROAD,,,,,,"(return)"
+resident,FIELDS PARK ROAD,,Fields View,F. J.,Shaw,,
+resident,FIELDS PARK ROAD,,Woodford,Frank,Bollon,,
+resident,FIELDS PARK ROAD,,Branscombe,W. G.,Cutmore,,
+resident,FIELDS PARK ROAD,,Hilltop,T. G.,Soulsby,Llewellyn,
+resident,FIELDS PARK ROAD,,King's Acre,T. H.,Mordey,J.P.,
+resident,FIELDS PARK ROAD,,St. Briavels,Henry G.,Evans,,
+resident,FIELDS PARK ROAD,,Pardoeham,B.,Thomas Pardoe,J.P.,
+resident,FIELDS PARK ROAD,,The Limes,John,Matthews,,
+cross_street,FIELDS PARK ROAD,,,,,,"here is Fields-park-crescent"
+cross_street,FIELDS PARK ROAD,,,,,,"Vacant sites"
+resident,FIELDS PARK ROAD,19,Rosenlaui,Percy,Phillips,O.B.E.,
+resident,FIELDS PARK ROAD,17,,Wm. Bowen,Rees,T.,
+resident,FIELDS PARK ROAD,15,Deepdene,A. M.,Cullimore,,
+resident,FIELDS PARK ROAD,13,Brondyteg,Arch. C.,Brown,,
+resident,FIELDS PARK ROAD,11,Ellesmere,Mrs. A. M.,Hunter,,
+resident,FIELDS PARK ROAD,9,Fields Glen,A.,Johns,Liddington,
+resident,FIELDS PARK ROAD,7,Knoll,Mrs. E.,Fennell,Brent-,
+resident,FIELDS PARK ROAD,5,Borrodaile,Thos. J.,Jones,,
+resident,FIELDS PARK ROAD,3,The Heath,Alf.,Winson,,
+resident,FIELDS PARK ROAD,1,Devonfield,Mrs. Martha,Liscombe,,
+street,FIELDS ROAD,,,,,,C 6
+cross_street,FIELDS ROAD,,,,,,"From Mill-street to the Fields"
+cross_street,FIELDS ROAD,,,,,,"(LEFT HAND SIDE.)"
+cross_street,FIELDS ROAD,,,,,,"here is Godfrey-road"
+resident,FIELDS ROAD,,Enville house,Miss I.,Patterson,,Drayton High School
+resident,FIELDS ROAD,,Mary's Lodge,St.,Watson Lady,,
+cross_street,FIELDS ROAD,,,,,,"(RIGHT HAND SIDE.)"
+resident,FIELDS ROAD,,,"COUNTY COUNCIL OFFICES",,,
+cross_street,FIELDS ROAD,,,,,,"Girls' entrance to Intermediate School"
+resident,FIELDS ROAD,1,Solar Lodge,John Hy.,Wagstaff,,
+resident,FIELDS ROAD,2,Bettina,William,Frew,,
+resident,FIELDS ROAD,3,St. Maur,Charles,Challis,,
+resident,FIELDS ROAD,4,,,,,St. Monton-void
+resident,FIELDS ROAD,5,Pen-y-bryn,Rev. A. T.,Jones,,
+resident,FIELDS ROAD,6,Highbank,A. D.,Simmonds,,
+resident,FIELDS ROAD,7,Glen Lyn,G. Llewellyn,Lloyd,,
+cross_street,FIELDS ROAD,,,,,,"here is St. Mark's-crescent"
+resident,FIELDS ROAD,8,Ty Clyd,Rev. T. H.,Williams,,
+resident,FIELDS ROAD,9,Kingsdown,W.,Hayman,,
+resident,FIELDS ROAD,10,Kirkdale house,J.,Carter,,
+resident,FIELDS ROAD,11,Coningsby,Lionel,Harris,,
+resident,FIELDS ROAD,12,,H. W.,Duckham,,
+resident,FIELDS ROAD,13,,W. H.,Barker,,
+resident,FIELDS ROAD,14,St. Iven,Ernest G.,Ireland,,
+resident,FIELDS ROAD,15,,H. H.,Tolson,,
+resident,FIELDS ROAD,16,Brentor,Frank,Rees,,
+resident,FIELDS ROAD,17,Tresco,John,Thomas,,
+resident,FIELDS ROAD,18,,William,Lewis,,
+resident,FIELDS ROAD,19,,Henry,Watkins,,
+resident,FIELDS ROAD,20,Blairgowrie,T.,Frost,,
+resident,FIELDS ROAD,21,Brecknock,K.,Davies,,
+resident,FIELDS ROAD,22,,Mrs. Sarah J.,Walters,,
+resident,FIELDS ROAD,23,Staplegrove,Mrs. E. H.,Lloyd,,
+resident,FIELDS ROAD,24,Newlands,John,Rosser,,
+resident,FIELDS ROAD,25,Tynewydd,Joseph,Peirce,,
+resident,FIELDS ROAD,26,Warley,David,Rees,,
+resident,FIELDS ROAD,27,Claremont,John,Williams,,
+resident,FIELDS ROAD,28,Gatacre,J. H.,Murrow,,
+cross_street,FIELDS ROAD,,,,,,"here is Alteryn-road."
+resident,FIELDS ROAD,29,Winsford,R. S.,Colquhoun,,
+resident,FIELDS ROAD,30,,A. A.,Davies,Cecil,
+cross_street,FIELDS ROAD,,,,,,"here is Fields Park-road"
+resident,FIELDS ROAD,31,Redcliffe,Hugh,Caldwell,C.E.M.E.,
+resident,FIELDS ROAD,32,Trevella,Thos.,James,,
+resident,FIELDS ROAD,33,Kingarth,David,Ross,,
+resident,FIELDS ROAD,34,Sims,Rev. F. H.,Clapp,,Morning side
+resident,FIELDS ROAD,35,Tremena,Blackall W. H.,,
+resident,FIELDS ROAD,36,Pembroke h,H. C.,Parfitt,,
+resident,FIELDS ROAD,37,James,Cunningham,,
+resident,FIELDS ROAD,38,Colyton,Rev. T. L.,Lister,,
+resident,FIELDS ROAD,39,,William,Lewis,J.P.,
+resident,FIELDS ROAD,40,Clovelly,Herbert,Harte,,
+resident,FIELDS ROAD,41,Park-hurst,O.,Howell,,
+resident,FIELDS ROAD,42,builder,C. H.,Reed,,Cheddleton
+resident,FIELDS ROAD,43,Greylands,Fred C.,Jones,,
+resident,FIELDS ROAD,44,Briarglen,Arthur,Parker,,
+resident,FIELDS ROAD,45,M.I.C.E.,John F.,Jupp,,Mossbank
+resident,FIELDS ROAD,46,Elmhurst,Mrs. E.,Pritchard,,
+resident,FIELDS ROAD,47,Charleville,C. M.,Ayliffe,,
+resident,FIELDS ROAD,48,Kendal,Ralph,Burge,,
+resident,FIELDS ROAD,49,Athelney,Walter W.,Ware,,
+resident,FIELDS ROAD,50,,Ernest,Joyce,,
+resident,FIELDS ROAD,51,Henlade,Arthur,Evans,,
+resident,FIELDS ROAD,52,Glyn-Aeron,Miss A. M.,Evans,,
+resident,FIELDS ROAD,53,Chisworth,J. H.,Anning,,
+street,FILEY ROAD,,,,,,B 3
+cross_street,FILEY ROAD,,,,,,"From 17 Stockton-road"
+cross_street,FILEY ROAD,,,,,,"(LEFT HAND SIDE.)"
+resident,FILEY ROAD,1,,Henry,Huggins,assistant,
+resident,FILEY ROAD,3,,Mrs. Harriett,Marsh,,
+resident,FILEY ROAD,5,,Isaac,Gething,,
+resident,FILEY ROAD,7,,Thomas,Hurford,,
+resident,FILEY ROAD,9,,H. J.,Victory,gas inspector,
+resident,FILEY ROAD,11,,Ralph,Edwards,musician,
+cross_street,FILEY ROAD,,,,,,"(return)"
+cross_street,FILEY ROAD,,,,,,"Two houses void"
+street,FORD STREET,,,,,,C 5
+cross_street,FORD STREET,,,,,,"From 9 Tunnel-terrace"
+cross_street,FORD STREET,,,,,,"(RIGHT HAND SIDE.)"
+resident,FORD STREET,1,,Arthur,Hart,mason,
+resident,FORD STREET,2,,Henry,Smith,blacksmith,
+resident,FORD STREET,3,,John,Bennett,bricklayer,
+resident,FORD STREET,4,,W. A.,Stephens,ship repairer,
+resident,FORD STREET,5,,Walter,Dyer,grocer's assistant,
+cross_street,FORD STREET,,,,,,"(return)"
+resident,FORD STREET,6,,Daniel,Tovey,steelworker,
+resident,FORD STREET,7,,J. A.,Shepphard,striker,
+resident,FORD STREET,8,,Alfred,Smith,G.W.R.,
+resident,FORD STREET,9,,Albert E.,Wills,signal fixr,
+street,FOTHERGILL STREET,,,,,,D 4
+cross_street,FOTHERGILL STREET,,,,,,"From 54 Emlyn-street"
+cross_street,FOTHERGILL STREET,,,,,,"(RIGHT HAND SIDE.)"
+resident,FOTHERGILL STREET,,,"Jewitt J. D. & Son",,scalemakers,
+resident,FOTHERGILL STREET,1,,Mrs. Elizabeth,Stephens,,
+resident,FOTHERGILL STREET,2,,G.,Meredith,motorman,
+resident,FOTHERGILL STREET,3,,Thomas,Weaver,,
+resident,FOTHERGILL STREET,,,"Forward Movement Central Hall back entrance",,,
+resident,FOTHERGILL STREET,25,,John,Mansfield,,
+street,FOTHERINGHAM PLACE,,,,,,
+cross_street,FOTHERINGHAM PLACE,,,,,,"From Fothergill-street"
+cross_street,FOTHERINGHAM PLACE,,,,,,"(LEFT HAND SIDE.)"
+resident,FOTHERINGHAM PLACE,1,,F.,Harding,dock police,
+resident,FOTHERINGHAM PLACE,1A,,Fred,West,labourer,
+resident,FOTHERINGHAM PLACE,3,,George,Fisher,carpenter,
+resident,FOTHERINGHAM PLACE,5,,Herbert,Keating,trimmer,
+resident,FOTHERINGHAM PLACE,7,,Wm.,Truman,engineer,
+resident,FOTHERINGHAM PLACE,9,,Edward,Kinsella,foreman,
+resident,FOTHERINGHAM PLACE,11,,Harry,Sidney,wagon insp,
+resident,FOTHERINGHAM PLACE,13,,Joseph,Dobbs,dk police,
+resident,FOTHERINGHAM PLACE,,,"Wauters Henry C., bakery",,,
+cross_street,FOTHERINGHAM PLACE,,,,,,"(return)"
+resident,FOTHERINGHAM PLACE,12,,Jas.,Dennison,steelwkr,
+resident,FOTHERINGHAM PLACE,10,,J. H.,Keating,trimmer,
+resident,FOTHERINGHAM PLACE,8,,Cornelius,Lee,,
+resident,FOTHERINGHAM PLACE,6,,Nicholas,Jones,ironwkr,
+resident,FOTHERINGHAM PLACE,4,,Thomas,Jones,caretaker,
+resident,FOTHERINGHAM PLACE,2,,John,Walley,,
+street,FRANCIS STREET,,,,,,E 5
+cross_street,FRANCIS STREET,,,,,,"From 19 Alma-st. to Lewis-st."
+cross_street,FRANCIS STREET,,,,,,"(LEFT HAND SIDE.)"
+resident,FRANCIS STREET,1,,Reginald,Hicks,haulier,
+resident,FRANCIS STREET,2,,Francis George,Burston,,
+resident,FRANCIS STREET,3,,John,Trevorrow,eng dvr,
+resident,FRANCIS STREET,4,,Thomas,Crandon,striker,
+resident,FRANCIS STREET,5,,Geo. F.,Evans,decorator,
+resident,FRANCIS STREET,,,"Jewish Synagogue",,,
+cross_street,FRANCIS STREET,,,,,,"(return)"
+resident,FRANCIS STREET,6,,Francis,Bowen,fitter,
+resident,FRANCIS STREET,7,,Mrs. Jane,Davies,,

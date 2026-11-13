@@ -1,0 +1,178 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,PRICE STREET,54,,,,,"crane driver"
+resident,PRICE STREET,54,,Wm.,Higgins,crane driver,
+resident,PRICE STREET,55,,W. J.,Pritchard,dairyman,
+resident,PRICE STREET,56,,Mrs. F.,Youngston,,
+resident,PRICE STREET,57,,James,Summerfield,carter
+resident,PRICE STREET,58,,Wm.,Cashman,moulder
+resident,PRICE STREET,59,,James,Smith,shop
+resident,PRICE STREET,60,,James,Gough,shipwright
+resident,PRICE STREET,61,,Mrs. Elizabeth,Thomas,,
+resident,PRICE STREET,62,,Mrs. E. A.,Marsh,,
+resident,PRICE STREET,63,,Herbert,Morgan,baker
+resident,PRICE STREET,64,,Albert,Counsell,eng dvr
+resident,PRICE STREET,65,,Chas.,Durant,fireman
+resident,PRICE STREET,66,,Wm.,Hicks,holder-up
+resident,PRICE STREET,67,,Charles R.,Woore,,
+resident,PRICE STREET,68,,F.,Cottle,machinist
+resident,PRICE STREET,69,,Thomas H.,Smith,,
+resident,PRICE STREET,70,,Mrs. Rose,St. Clare,,
+resident,PRICE STREET,71,,T. H.,Williams,guard
+resident,PRICE STREET,72,,Chas.,Chapman,trimmer
+resident,PRICE STREET,73,,Wm.,Binding,eng driver
+resident,PRICE STREET,74,,Wm. Chas.,O'Brien,fitter
+resident,PRICE STREET,75,,Bernard E.,Fehners,,
+resident,PRICE STREET,76,,Mrs. Mary,Rosser,,
+resident,PRICE STREET,77,,Mrs. Hannah,Parry,,
+cross_street,PRINCE STREET,,,,,,C 3
+street,PRINCE STREET,,,,,,"Church-rd. to Hereford-st."
+cross_street,PRINCE STREET,,,,,,(LEFT HAND SIDE.)
+resident,PRINCE STREET,1,,Mrs. A.,Price,shop,
+resident,PRINCE STREET,2,,E. R.,Hockey,,
+resident,PRINCE STREET,3,,A. W.,Spittle,fitter,
+resident,PRINCE STREET,4,,Geo.,Sully,wood cutter
+resident,PRINCE STREET,5,,Jas.,Blythe,haulier
+resident,PRINCE STREET,6,,David,Lewis,collier
+resident,PRINCE STREET,7,,Mrs. Isabella,Phillips,,
+resident,PRINCE STREET,8,,Harold,Stephens,wireman
+resident,PRINCE STREET,9,,Francis J.,Corfield,labr
+cross_street,PRINCE STREET,,,,,,here is Manchester-street
+resident,PRINCE STREET,10,,L.,Hodkinson,cycle fitter
+resident,PRINCE STREET,11,,Arthur Jas.,Ley,carp'tr
+resident,PRINCE STREET,12,,Walter,Green,slate mason
+resident,PRINCE STREET,13,,William C.,East,collier
+resident,PRINCE STREET,14,,Fredk.,Cobb,labourer
+resident,PRINCE STREET,15,,R.,Williams,ironworker
+resident,PRINCE STREET,16,,Mrs. Margaret,Coburn,,
+resident,PRINCE STREET,17,,George,James,G.W.R.
+resident,PRINCE STREET,18,,Walter,Jenkins,bricklayer
+resident,PRINCE STREET,19,,Thos. J.,Evans,labourer
+resident,PRINCE STREET,20,,Fred,Holder,mason
+resident,PRINCE STREET,21,,William,Hunter,boatman
+resident,PRINCE STREET,22,,Philip,Breen,motorman
+resident,PRINCE STREET,22a,,Mrs. Cecilia,Evans,,
+resident,PRINCE STREET,22b,,George,Higgs,upholsterer
+resident,PRINCE STREET,23,,Ed.,Jenkins,foreman
+cross_street,PRINCE STREET,,,,,,(return)
+resident,PRINCE STREET,24,,Samuel,Watkins,labourer
+resident,PRINCE STREET,25,,Alf.,Stinchcombe,rivetter
+resident,PRINCE STREET,26,,Thomas,Drury,G.W.R.
+resident,PRINCE STREET,27,,Fredk.,Marsh,crane dvr
+resident,PRINCE STREET,28,,A. E.,Coyle,painter
+resident,PRINCE STREET,29,,John,Berry,foreman
+resident,PRINCE STREET,30,,Arch. J.,Tovey,crane dvr
+resident,PRICE STREET,18,,Mrs. Miriam,Dix,,
+resident,PRICE STREET,16,,Miss Constance M.,Cole,,
+resident,PRICE STREET,,Cole N. M.,,,
+resident,PRICE STREET,14,,G. D.,Tomlinson,,
+resident,PRICE STREET,12,,G. W.,McArthur,ins agent
+resident,PRICE STREET,10,,Mrs. Hannah B.,Rowlands,,
+resident,PRICE STREET,8,,Mrs. Rachel,Richards,,
+resident,PRICE STREET,6,,Misses,Poole & Thompson,,
+resident,PRICE STREET,4,,Harry John,Coker,,
+resident,PRICE STREET,2,,Ronald,Witts,,
+cross_street,PRICE STREET,,,,,,E 54
+street,PRICE STREET,,,,,,From 35 Courtybella-terrace
+cross_street,PRICE STREET,,,,,,(LEFT HAND SIDE.)
+resident,PRICE STREET,1,,Reginald,Travers,clerk
+resident,PRICE STREET,2,,James,Watson,fitter
+resident,PRICE STREET,3,,B. C.,Thomas,rigger
+resident,PRICE STREET,4,,Jas.,Hall,hoistman
+resident,PRICE STREET,5,,William Charles,Thomas,,
+resident,PRICE STREET,6,,Chas.,Parry,coal mercht
+cross_street,PRICE STREET,,,,,,here is Pottery-terrace
+resident,PRICE STREET,,WESLEYAN MISS'N CHUR.,Miss'n CHUR.,,,
+resident,PRICE STREET,7,,Patrick,Crowley,trimmer
+resident,PRICE STREET,8,,Edward Chas.,Elliott,,
+resident,PRICE STREET,9,,John G.,Martin,,
+resident,PRICE STREET,10,,Rd.,Foulkes,craneman
+resident,PRICE STREET,11,,Mrs. Alice,Elliot,,
+resident,PRICE STREET,12,,W.,Williams,eng driver
+resident,PRICE STREET,13,,John,McGee,labourer
+resident,PRICE STREET,14,,David B.,Smith,blrmaker
+resident,PRICE STREET,15,,Wm.,Parry,boilermaker
+resident,PRICE STREET,16,,M. K.,Duncan,boilermaker
+resident,PRICE STREET,17,,Wm.,Morgan,shipwright
+resident,PRICE STREET,18,,Henry,Thomas,engine driver
+resident,PRICE STREET,19,,James,Parry,boilermkr
+resident,PRICE STREET,20,,Benj.,Thomas,coal trim'r
+resident,PRICE STREET,21,,Mrs. Sarah,Scott,,
+resident,PRICE STREET,22,,Sidney G.,Hood,trimmer
+resident,PRICE STREET,23,,Frank,Berry,labourer
+resident,PRICE STREET,24,,James,Parry,,
+resident,PRICE STREET,25,,Geo. A.,Casey,store dlr
+resident,PRICE STREET,26,,Bertie,Carney,boilermkr
+resident,PRICE STREET,27,,George,Dummer,,
+resident,PRICE STREET,28,,Wm. Jas.,Earles,pilotman
+resident,PRICE STREET,29,,Mrs. Sarah J.,Brian,,
+resident,PRICE STREET,30,,E. B.,Parry,plater
+resident,PRICE STREET,31,,David,Bale,trimmer
+resident,PRICE STREET,32,,Wm. T.,Yemm,carpenter
+resident,PRICE STREET,33,,Geo.,Jackson,dock police
+resident,PRICE STREET,34,,G.,Card,tugboat engnr
+resident,PRICE STREET,35,,Cornelius,Coughlan,,
+resident,PRICE STREET,36,,Charles,Rudman,ganger
+resident,PRICE STREET,37,,Tom P.,Isberg,dock lab
+resident,PRICE STREET,38,,Daniel,Thomas,trimmer
+resident,PRICE STREET,39,,Robert,Bale,trimmer
+resident,PRICE STREET,40,,Geo.,Manley,berthing mas
+resident,PRICE STREET,41,,Robert,Mears,smith
+resident,PRICE STREET,42,,Gerard,Fehners,,
+cross_street,PRICE STREET,,,,,,(return)
+resident,PRICE STREET,51,,George,Tasker,rigger
+resident,PRICE STREET,52,,Albert G.,Manley,boatman
+resident,PRICE STREET,53,,Joseph,Attwell,coal trmr
+resident,PRE...,25,,H. I. J.,Moses,"[of Mines] H.M. Insp",
+resident,PRE...,27,,H. M.,Hughes,Insp
+resident,PRE...,29,,William,Stanford,,
+resident,PRE...,31,,Arthur J.,Lucas,journalist
+resident,PRE...,33,,Y. W.,Beattie,civil srvnt
+resident,PRE...,35,,H. C.,Mayo,signalman
+resident,PRE...,37,St. Pierre,J. W.,Plaisted,,
+resident,PRE...,39,Cleddau,Mrs. M. S.,Jenkins,Ty-
+resident,PRE...,41,,Capt. H. M.,Thomas,,
+resident,PRE...,43,,John M.,Jenkins,,
+resident,PRE...,45,Danesmere,J. C.,Fothergill,timber mer
+resident,PRE...,47,,Mrs. Jane,Harrison,,
+resident,PRE...,49,,Miss S. A.,Morgan,,
+resident,PRE...,51,,C. H. L.,Richards,,
+resident,PRE...,53,La Nichee,Wm. J.,Davies,,
+resident,PRE...,55,,Miss M. A.,Taylor,,
+resident,PRE...,57,,Miss Blanche,Jackson,,
+resident,PRE...,59,,Miss E. M.,Saunders,,
+resident,PRE...,61,A.T.S.,Edward,Mills,Breithorn
+resident,PRE...,63,Sunbury,Rev. Robert Mon.,Evans,,
+resident,PRE...,65,Lausanne,Harry John,Griffiths,,
+resident,PRE...,67,,Mrs. Alice Maud,Gregory,,
+resident,PRE...,69,,Mrs. Mary E.,Messum,G. I.
+resident,PRE...,71,,Owen,Williams,,
+resident,PRE...,73,,Charles E.,Lawience,,
+resident,PRE...,75,,Mrs. A. J.,Stevens,,[side
+resident,PRE...,77,Ingle-(return),Mrs. Grace,Jordan,,
+resident,PRE...,70,,Benjamin A.,James,,
+resident,PRE...,68,Englemere,Mrs. Emma G.,Williams,,
+resident,PRE...,66,,Edelin de la,Praudiere,,
+resident,PRE...,64,Denver,Alfred,Whittaker,,
+resident,PRE...,62,,Sydney,Burgess,,
+resident,PRE...,60,St. Brunnock,Fred A.,Jones,fitter
+resident,PRE...,58,Westonia,Herbert,Evans,,
+resident,PRE...,56,,Reginald B.,Moore,Sheb-bear
+resident,PRE...,54,,Ethelbert A.,Wernet,,
+resident,PRE...,52,,Rev. E.,Rowland,,
+resident,PRE...,50,Fir view,A. D.,Givons,,
+resident,PRE...,48,,Geo. Fredk.,Baggs,,
+resident,PRE...,46,,Herbert,Ravalde,,
+resident,PRE...,44,,James W.,MacManus,,
+resident,PRE...,42,Ferryholm,Alfred,Boyns,,
+resident,PRE...,40,,Mrs. Alice,Puddy,,
+resident,PRE...,38,,Miss M.,Yeomans,,
+resident,PRE...,36,,Harry F.,Langmaid,P.O.
+resident,PRE...,34,,Joseph,Baynham,,
+resident,PRE...,32,,George,Haines,,
+resident,PRE...,,Haines E. G.,M.,electcn
+resident,PRE...,30,,Chas. Hy.,Brown,,
+resident,PRE...,28,,William,Wynter-Smith,,
+resident,PRE...,26,,Percy Frederick,Gales,,
+resident,PRE...,24,,W. Charles,Inight,,
+resident,PRE...,22,,Mrs. Elizabeth,Yates,,
+resident,PRE...,20,,Evan,Davies,,

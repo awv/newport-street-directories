@@ -1,0 +1,150 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,Clytha Square,,Clytha house,Wm.,Kerslake,,
+resident,Clytha Square,,,Mrs. J.,Jones,,The Grove
+resident,Clytha Square,,,,,,Vacant sites
+resident,Clytha Square,,,Rev. J. F.,Summers,,St. John's vicarage
+cross_street,Clytha Square,,,,,,here is Risca-road.
+cross_street,Clytha Square,,,,,,(return.)
+resident,Clytha Square,,,F.,Greenslade,,Pendennis
+resident,Clytha Square,,,,,,Inglenook-void
+resident,Clytha Square,12,,A. H.,McMahon,,Glynneath
+resident,Clytha Square,,,Rev. J.,Bailey,,Brenholly
+resident,Clytha Square,,,Misses,Bailey,ladies' school,
+resident,Clytha Square,,,Mrs.,Bevan,,Brenhilda
+street,Clytha Square,,,,,,
+cross_street,Clytha Square,,,,,,From 18 Cardiff road.
+cross_street,Clytha Square,,,,,,[RIGHT HAND SIDE.]
+resident,Clytha Square,,,Wm.,Thompson,,The Avenue
+cross_street,Clytha Square,,,,,,[LEFT HAND SIDE.]
+resident,Clytha Square,1,,Frederick S. W.,May,,
+resident,Clytha Square,2,,Ivor M.,Johns,,
+resident,Clytha Square,3,,John Charles,McCarthy,,
+resident,Clytha Square,4,,W. O.,Price,,
+resident,Clytha Square,5,,Mrs. Thomas,Phillips,,
+resident,Clytha Square,,,John,Phillips,,
+resident,Clytha Square,6,,J. P.,Handford,,Monkleigh house
+resident,Clytha Square,7,,J.,Handford,,Alwington h
+resident,Clytha Square,8,,,,,,Lillesdon house-void
+resident,Clytha Square,9,,James,Thompson,,
+resident,Clytha Square,10,,George,Edgar,engineer,
+resident,Clytha Square,11,,,,,,
+resident,Clytha Square,12,,G. R.,Thompson,analyst,Richmond house
+resident,Clytha Square,13,,E. G.,Clarke,,Rossendale
+resident,Clytha Square,14,,,,,,Void
+resident,Clytha Square,15,,Mrs.,Hoskins,,Mayfield ho
+cross_street,Clytha Square,,,,,,here is Vicarage-lane.
+resident,Clytha Square,16,,Mrs.,Kerr,,Drumlannrig ho
+resident,Clytha Square,17,,Robt.,Hodge,,Eltham ho
+resident,Clytha Square,18,,Walt. L.,Wilks,,Penmon h
+resident,Clytha Square,19,,Rev. H.,Adams,,Wesley h
+resident,Clytha Square,20,,Wm., R.N.R.,Powell,,Lye-grove h
+resident,Clytha Square,21,,,,,,Void
+resident,Clytha Square,22,,Wm.,Griffiths,,Wenvoe h
+resident,Clytha Square,23,,Walt., L.,Kerr,,Penmon h
+resident,Clytha Square,24,,Isaac,Davies,,St. Helen's
+resident,Clytha Square,25,,R. L.,Davies,,Wrington ho
+resident,Clytha Square,26,,,,,,Troy house-void
+resident,Clytha Square,27,,,,,,Void
+resident,Clytha Square,28,,,,,,do
+resident,Clytha Square,29,,R.,Monnet,French Vice-consulate,
+resident,Clytha Square,30,,Mrs.,Phillips,Wolfe,
+resident,Clytha Square,31,,William Henry,Shute,,
+resident,Clytha Square,32,,J.,Lane,surgeon,Odd-fellows' Association
+resident,Coldra Road,25,,George Henry,Robins,,
+resident,Coldra Road,23,,W.,Davies,ganger,Arncliffe
+resident,Coldra Road,21,,William P.,Price,,Ailsa
+resident,Coldra Road,19,,Mrs. E.,Price,,Nigel
+resident,Coldra Road,17,,Benj.,Owen,patternmaker,
+resident,Coldra Road,15,,W. A.,Watkins,,Glenholme
+resident,Coldra Road,13,,James,Jones,,Ivy cottage
+resident,Coldra Road,11,,Isaac,Pollett,coal trimmer,
+resident,Coldra Road,9,,Thomas,Lewis,manager,
+resident,Coldra Road,7,,Thos.,Watts,engine drivr,
+resident,Coldra Road,5,,T.,Smith,G.W.R. inspector,
+resident,Coldra Road,3,,Edward,Moore,mason,
+resident,Coldra Road,1,,William,Davies,,
+street,Coldra Road,,,,,,
+cross_street,Coldra Road,,,,,,From 10 Gaer-street, Waterloo-road, to Llandaff-street.
+resident,Coldra Road,2,,Oliver,Carver,eng. driver
+resident,Coldra Road,4,,Rev Dd. Rd.,Morgan,,
+resident,Coldra Road,6,,A. E.,Farmer,rivetter,
+resident,Coldra Road,8,,David,Jenkins,pilotmsan,
+resident,Coldra Road,10,,James B.,McKenzie,,
+resident,Coldra Road,12,,William Bradford,Ellison,,
+resident,Coldra Road,14,,W. Bedford,Spurrier,,
+resident,Coldra Road,16,,Frank,Needham,,
+resident,Coldra Road,18,,J.,Ford,linotype operator,
+resident,Coldra Road,20,,,,,,Void
+resident,Coldra Road,22,,Hy. John,Lanfear,clerk,
+resident,Coldra Road,24,,Frank,Green,clerk,
+resident,Coldra Road,26,,James,Huntley,clerk,
+resident,Coldra Road,28,,John,Gibbs,G.W.R.,
+resident,Coldra Road,30,,Joseph,Hollis,G.W.R.,
+resident,Coldra Road,32,,Percy Reid,Fry,,
+resident,Coldra Road,34,,C.,Styles,relieving officer,
+resident,Coldra Road,36,,T. A.,Parkes,fitter,
+resident,Coldra Road,38,,Alex.,Stewart,,
+resident,Coldra Road,40,,John R.,Givons,steward,
+resident,Coldra Road,42,,James,Tait,engineer,
+resident,Coldra Road,44,,E. I.,Williams,coal trimr.,
+resident,Coldra Road,46,,Thomas,Cook,G.W.R.,
+resident,Coldra Road,48,,John,Francis,manager,
+resident,Coldra Road,50,,F. A.,Graves,mariner,
+resident,Coldra Road,52,,Thos.,Hughes,engineer,
+resident,Coldra Road,54,,Lorenzo,Brown,mariner,
+resident,Coldra Road,56,,,,,,Void
+cross_street,Coldra Road,,,,,,(return.)
+resident,Coldra Road,67,,R. J.,Hodge,Pottinger,
+resident,Coldra Road,65,,H.,Heaton,electrician,
+resident,Coldra Road,63,,William,Noakes,,
+resident,Coldra Road,61,,Miss M.,Ellis,,Tynemouth
+resident,Coldra Road,59,,John,Davies,,Lynmouth
+resident,Coldra Road,57,,F. W.,Graves,,The Garn
+resident,Coldra Road,55,,H. W.,Thomas,,Hollyhurst
+resident,Coldra Road,53,,John,Simpson,tipper,
+resident,Coldra Road,51,,Thos.,Corner,boilermaker
+resident,Coldra Road,49,,Wm. R.,Winter,,Clandown
+resident,Coldra Road,47,,Wm. C.,Lane,,Windsor h
+resident,Coldra Road,45,,Albert,Gething,dairymn
+resident,Coldra Road,43,,D.,Davies,fitter,Heathfield
+resident,Coldra Road,41,,Mrs.,Abbott,,Allerton ho
+resident,Coldra Road,39,,Wm.,Baker,,Mayfield
+resident,Coldra Road,37,,Wm.,Roberts,,Myrtle grve
+resident,Coldra Road,35,,Chas. E.,Smith,carpenter
+resident,Coldra Road,33,,Wm. Hy.,Nicholas,ins agt
+resident,Coldra Road,31,,F. W.,Moore,,Elm grove
+resident,Coldra Road,29,,Henry Arthur,Houlden,,
+resident,Coldra Road,27,,Mrs Ellen,Wade,,Ash cot
+street,Collingwood Street,,,,,,
+cross_street,Collingwood Street,,,,,,Left-hand side Somerton-road.
+street,Commercial Road, P.,,,,,,
+cross_street,Commercial Road, P.,,,,,continuation of Commercial-st
+resident,Commercial Road, P.,1,,,Williams J.A.T.,tobacnist,
+resident,Commercial Road, P.,1A,,,Llewellyn Miss S,dresskr,
+resident,Commercial Road, P.,2,,,,,,Void
+resident,Commercial Road, P.,3,,,,,,do
+resident,Commercial Road, P.,4,,,Keast J.,Blaenavon dining rooms,
+resident,Commercial Road, P.,5,,,Burge W.,pork butcher,
+resident,Commercial Road, P.,6-7,Alma Inn,,Butler W.,,
+cross_street,Commercial Road, P.,,,,,,here is George-street.
+resident,Commercial Road, P.,8,,,Cash Provision Stores,,
+resident,Commercial Road, P.,9,,,English&ColonialMeat Co,,
+resident,Commercial Road, P.,10,,,Leech & Co.,,clothiers and outfitters
+resident,Commercial Road, P.,11,,,James Wm.,greengrocer and fishmonger,
+resident,Commercial Road, P.,12,,,Palmer Saml.,decorator,
+resident,Commercial Road, P.,14,Picton Arms,,Williams Thos.,,
+resident,Commercial Road, P.,15,,,,,,Void
+resident,Commercial Road, P.,16,,,Bullock W.,confectioner,
+resident,Commercial Road, P.,17,,,,,,Void
+cross_street,Commercial Road, P.,,,,,,here is Ruperra-street.
+resident,Commercial Road, P.,18,Ruperra Arms Hotel,,Mann Mrs Cecilia,,
+resident,Commercial Road, P.,19,,,Beer John,shoemaker,
+resident,Commercial Road, P.,20,,,,,,Void
+resident,Commercial Road, P.,21,,,,,,do
+resident,Commercial Road, P.,22,,,Morgan J.,tailor, etc.,
+resident,Commercial Road, P.,23,,,Mayne Mrs E.,seamen's outfitter,
+resident,Commercial Road, P.,24,,,Brimblecombe H. & Co.,basket makers & toy dlrs,
+resident,Commercial Road, P.,25,,,,,,Void
+resident,Commercial Road, P.,26A,,,Morgan A.,funeral furnshr,
+resident,Commercial Road, P.,26,,,Deacon F. F.,tobacco & cigar merchant,
+cross_street,Commercial Road, P.,,,,,,here is Tredegar-street.

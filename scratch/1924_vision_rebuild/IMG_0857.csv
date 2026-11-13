@@ -1,0 +1,175 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,WAL,,,,,,
+resident,WAL,27,,Frederick G.,Mills,,,
+resident,WAL,30,,Void,,,,
+resident,WAL,,,,Vacant sites,,,
+cross_street,WAL,,,(return),,,
+resident,WAL,,,,Vacant sites,,,
+resident,WAL,28,,John Audley,Evans,,,
+resident,WAL,26,,Mrs. M. H.,Johns,,,
+resident,WAL,24,,William,Skipsey,,,
+resident,WAL,22,,Mrs. C. E.,Williams,,,
+resident,WAL,20,,F.,Cornish,,H.M.C.
+resident,WAL,18,,Henry,Williams,,,
+resident,WAL,16,,Richard James,Tobias,,,
+resident,WAL,14,,David John,Thomas,,,
+resident,WAL,12,,Thomas,Simm,,,
+resident,WAL,10,,Jesse,Oakley,,checker
+resident,WAL,8,,Andrew,Bell,,checker
+resident,WAL,6,,J. H. F.,Dickinson,,,
+resident,WAL,4,,Edward,Tizard,,,
+resident,WAL,2,,Alfred E.,Isaacs,,,
+street,WATCHHOUSE PAR.,,,,,,F 5
+cross_street,WATCHHOUSE PAR.,,,From Mill-parade,,,
+cross_street,WATCHHOUSE PAR.,,,(RIGHT HAND SIDE),,,
+resident,WATCHHOUSE PAR.,1,,George,Williams,,seaman
+resident,WATCHHOUSE PAR.,2,,J. C. H.,Beddis,,coal merc
+resident,WATCHHOUSE PAR.,3,,Geo.,Phillis,,fuel worker
+resident,WATCHHOUSE PAR.,4,,Robert Henry,Davey,,,
+resident,WATCHHOUSE PAR.,5,,William,Ross,,,
+resident,WATCHHOUSE PAR.,,Waterloo Hotel,F. T.,Ellis,,,
+cross_street,WATCHHOUSE PAR.,,,here is Alexandra-road,,,
+resident,WATCHHOUSE PAR.,13,,J.,Hauser,,clothier, etc.
+resident,WATCHHOUSE PAR.,15-16,,& Co., Ltd.,Tuck,,India rubber merchants
+resident,WATCHHOUSE PAR.,,Thorn C.,,manager,,
+resident,WATCHHOUSE PAR.,17,,& Co.,Ward,,butchers
+resident,WATCHHOUSE PAR.,18,,& Co.,Wolfe,,family grocers
+resident,WATCHHOUSE PAR.,19,,Richard,Brunt,,butcher
+resident,WATCHHOUSE PAR.,20-21,,Void,,,,
+resident,WATCHHOUSE PAR.,22,,Wm.,Foley,,platelayer
+resident,WATCHHOUSE PAR.,23,,& Isherwood,Campbell,,elec & mechanical engrs
+resident,WATCHHOUSE PAR.,,Milburn, Slater & Griffiths,,,ship store merchants
+cross_street,WATCHHOUSE PAR.,,,here is Wolseley-street,,,
+resident,WATCHHOUSE PAR.,24,,E. J.,Thomas,,eng driver
+resident,WATCHHOUSE PAR.,25,,Chas.,Ebsworth,,pilot
+resident,WATCHHOUSE PAR.,26,,Simon,Jordan,,labourer
+resident,WATCHHOUSE PAR.,27,,Uriah V.,Swift,,labourer
+resident,WATCHHOUSE PAR.,28,,Robert,Crawford,,rigger
+resident,WATCHHOUSE PAR.,29,,Mrs. Clara,Taylor,,,
+resident,WATCHHOUSE PAR.,30,,Mrs. Mary,Perkins,,,
+resident,WATCHHOUSE PAR.,,Phillis Wm.,,,fuel worker,
+resident,WATCHHOUSE PAR.,31,,W. & Son,Morgan,,mat and bag merchants
+resident,WATCHHOUSE PAR.,32-34,,(Ship Stores) Ltd.,Dawson'T.,,ship chandlers
+resident,WATCHHOUSE PAR.,35,,George,Hutchings,,,
+resident,WATCHHOUSE PAR.,,Alexandra Dock Hotel,,,,
+cross_street,WATCHHOUSE PAR.,,,Entrance to Alexandra Dock,,,
+street,WATERLOO ROAD.,,,,,,D 5
+cross_street,WATERLOO ROAD.,,,Cardiff-road to Stow Park av,,,
+resident,WATERLOO ROAD.,1,Gaer cot,John,Appleby,,,
+resident,WAL,30,,Geo. W.,Edwards,,ironwkr
+resident,WAL,32,,Henry,Tonks,,do
+resident,WAL,34,,Ernest S.,Neachell,,do
+resident,WAL,36,,Samuel,Corbett,,,
+resident,WAL,38,,Matthew,Graham,,printer
+resident,WAL,40,,Benjamin,Ball,,ironworker
+resident,WAL,42,,Charles,Bishop,,do
+resident,WAL,44,,Ivor J.,Samson,,,
+resident,WAL,46,,Wm.,Blake E.,,ironworker
+resident,WAL,48,,Saml. R.,Cox,,asst. managr
+resident,WAL,50,,Charles,Painter,,,
+resident,WAL,52,,William,Painter,,ironwkr
+resident,WAL,54,,Chas.,Shutt John,,ironwkr
+resident,WAL,56,,Mrs. Elizabeth,Chevers,,,
+resident,WAL,58,,Mrs. S. J.,Baugh,,,
+cross_street,WAL,,,(return),,,
+resident,WAL,,,,Vacant sites,,,
+resident,WAL,51,,Thos.,Stevens,,ironworker
+resident,WAL,49,,David,Gough,,do
+resident,WAL,47,,F. R.,Davey,,printer
+resident,WAL,45,,Thomas,Jones,,,
+resident,WAL,43,,Samuel,Davies,,ironworkr
+resident,WAL,41,,John H.,Ogden,,fitter
+resident,WAL,39,,John,Griffiths,,ironworker
+resident,WAL,37,,E.,Davis,,labourer
+resident,WAL,35,,Arthur J.,Counsell,,ironwk
+resident,WAL,33,,John,Booth,,fitter
+resident,WAL,31,,Thos.,Davis,,furnaceman
+resident,WAL,29,,James,Bell,,commission agent
+resident,WAL,27,,Edward,Hale,,ironwkr
+resident,WAL,25,,Mrs. Eliza,Sparkes,,,
+resident,WAL,23,,B.,Sheargold,,ironworker
+resident,WAL,21,,Mrs. Eunice,Edmunds,,,
+resident,WAL,19,,Henry,Counsell,,labourer
+resident,WAL,17,,Mrs. Emma,Noakes,,,
+resident,WAL,15,,Alfred,Noakes,,ironworker
+resident,WAL,13,,Stephen,Wall,,do
+resident,WAL,11,,Benjamin,Tonks,,do
+resident,WAL,9,,Mrs. Ellen,Costello,,,
+resident,WAL,7,,Wm.,Taylor,,wiredrawer
+resident,WAL,5,,E. C.,Williams,,goods guard
+resident,WAL,3,,Arthur,Lodder,,doubler
+resident,WAL,1,,Mrs. Jane,Prangley,,,
+street,WARWICK ROAD.,,,,,,E 2
+cross_street,WARWICK ROAD.,,,From 416 Chepstow-road,,,
+cross_street,WARWICK ROAD.,,,(LEFT HAND SIDE.),,,
+resident,WARWICK ROAD.,1,,Gilbert Thos.,Goulding,,,
+resident,WARWICK ROAD.,3,,Miss Eva F.,Warren,,,
+resident,WARWICK ROAD.,5,,Mrs. E. E.,Greenland,,,
+resident,WARWICK ROAD.,7,,Albert,Richards,,ironwkr
+resident,WARWICK ROAD.,9,,Samuel,Pursehouse,,,
+resident,WARWICK ROAD.,11,,Lyndon R.,Dymond,,,
+resident,WARWICK ROAD.,13,,William,Watts,,,
+resident,WARWICK ROAD.,15,,W. A.,Morris,,traveller
+resident,WARWICK ROAD.,17,,James,Hindmarsh,,football manager
+resident,WARWICK ROAD.,19,,Walter,Davis,,,
+resident,WARWICK ROAD.,21,,W. H.,Williams,,,
+resident,WARWICK ROAD.,23,,Herbert George,Senior,,,
+resident,WARWICK ROAD.,25,,C. F.,Hyett,,,
+street,WED,,,,,,
+resident,WED,2,Patterdale,John,Davies,,,
+resident,WED,3,,Arthur W.,Spicer,,,
+resident,WED,4,Hillside,Matthew,Dent,,,
+resident,WED,5,,Mrs. Sarah Ann,Williams,,,
+resident,WED,6,Bodnant,E. W.,Green,,,
+cross_street,WED,,,here is Gaer-street,,,
+resident,WED,7,Belmont,C. B.,Jones,,,
+resident,WED,8,Parkfield,Wm. J.,Pearce,,,
+resident,WED,9,Rylstone,J. W.,Jude,,,
+resident,WED,10,Waterloo ho,J. P.,Lewis,,,
+resident,WED,11,,Miss Thersa,Jerrams,,,
+resident,WED,12,Seaview,D. J.,Turberville,,,
+resident,WED,13,Channel view,W. W.,Lewis,,,
+resident,WED,14,Greyville,S. C.,Hockey,,,
+resident,WED,15,South vw,Mrs. E.,Francis,,,
+resident,WED,16,,V. N.,Joliffe,,,
+resident,WED,17,Harbour view,Fred.,Jones,,,
+resident,WED,18,Fairview,Percy W.,Parkes,,,
+resident,WED,19,Penmorva,John,Lyle,,,
+resident,WED,20,Parkside,Dd. Robt.,Evans,,,
+resident,WED,21,Cresselly,Wm.,Ray,,pilot
+resident,WED,22,Fields view,Rev. Sidney,Brown,,,
+resident,WED,23,Danesbury house,Mrs. Sarah,Radley,,,
+resident,WED,24,,Thomas,Ross,,,
+resident,WED,25,Cranfield h,Wm.,Richards,,,
+resident,WED,26,,James,Dobbie,,,
+resident,WED,27,Clovelly,G. H.,Jones,,,
+resident,WED,28,Barveshills,M.,Campbell,,,
+resident,WED,29,Penparc,J. P.,Treloar,,,
+resident,WED,30,,John Lewis,Thomas,,,
+resident,WED,31,,Rev. Thos., B.A.,Wright,,,
+resident,WED,32,,John,Blower,,coal merch
+resident,WED,33,,Charles,Warne,,,
+cross_street,WED,,,here is Llandaff-street,,,
+resident,WED,34,Tamworth,Mrs. F. M.,Jenkins,,,
+resident,WED,35,Deepholm,John,Gilmore,,,
+resident,WED,36,,J.,Kyrle-Fletcher,,,
+resident,WED,,Haywardsfield,,,,
+resident,WED,37,Penrhiw,Miss E. I.,Morgan,,,
+cross_street,WED,,,here is Stow Park-avenue,,,
+resident,WED,,,BELLE VUE PARK,,,
+street,WATERS LANE.,,,,,,D 5
+cross_street,WATERS LANE.,,,From 32 Stow-hill,,,
+resident,WATERS LANE,1,,Albert,Thomas,,,
+resident,WATERS LANE,2,,St. Woolos Mission Room,,,
+resident,WATERS LANE,3,,Thos. G.,Burn,,traveller
+street,WEDNESBURY ST.,,,,,,E 3
+cross_street,WEDNESBURY ST.,,,Left hand side Corporation-rd.,,,
+cross_street,WEDNESBURY ST.,,,(LEFT HAND SIDE.),,,
+resident,WEDNESBURY ST.,1,,Austin,Redman,,ironwkr
+resident,WEDNESBURY ST.,3,,William,Lovell,,ironworker
+resident,WEDNESBURY ST.,5,,James,Thornbury,,driver
+resident,WEDNESBURY ST.,7,,John P.,Polson,,traveller
+resident,WEDNESBURY ST,,,,Vacant sites,,,
+cross_street,WEDNESBURY ST,,,(return),,,
+resident,WEDNESBURY ST,,,,Vacant sites,,,
+resident,WEDNESBURY ST,12,,Thomas,Hill,,ironworker

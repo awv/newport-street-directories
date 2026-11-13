@@ -1,0 +1,142 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,,42,,W. J. & Sons,Gibb,poulterers, etc.
+resident,,68,,David,Kyles,dredging master,Mount view
+resident,,70,,Miss,Cullum,Rosslyn
+resident,,72,,Andrew,Young,Glen Rosa
+resident,,74,,Mrs.,Richards,Lavinia,Northernhay
+resident,,76,,G. H.,Latham,
+resident,,78,,Alf. J.,Watkins,,Rothesay
+resident,,80,,E. S. O.,Morris,Rosemont
+resident,,82,,Charles,Styles,relieving officer,Inglewood
+resident,,84,,Samuel J.,Buckingham,
+resident,,86,,Mrs. G.,Porter,Miriam,St. Wilfred
+resident,,88,,J. J.,Pobjoy,Sylhet
+cross_street,,,,,,,(return)
+resident,,81,,Rev. T.,Williams,Emlyn
+resident,,79,,Albert J.,Morris,Hillcrest
+resident,,77,,H. S.,Kelly,Brynnhyfryd
+resident,,75,,A. J.,James,mar engineer
+resident,,73,,S. G.,Walters,Pen-y-bryn
+resident,,71,,A. E.,Roberts,Ballantrae
+resident,,69,,Miss E.,Price,Pen-y-dre
+resident,,67,,Fredk. P.,Williams,The Garth
+resident,,65,,Miss Clara,Pearse,Corrisvale
+resident,,63,,Syd.,Collins,Stoneleigh
+resident,,61,,Mrs. H.,Evans,Trevano
+resident,,59,,J. C.,Boyns,insp wgts and measures,Eaton villa
+resident,,57,,H. P.,Snewin,Glenholme
+resident,,55,,Fredk.,Hiscott,St. Pierre
+resident,,53,,Harry S.,Williams,boot manufacturer,St. Giles
+resident,,51,,Edwin J.,Winter,traveller
+resident,,49,,C. E.,Compton,M.S.A.,St. Hilary
+resident,,47,,Leslie,Jacobs,Brightholme
+resident,,45,,Miss Clara,Reece,Dewstow
+resident,,43,,George,Masters,Harlyn
+resident,,41,,Mis. A. E.,Hartley,Castledene
+cross_street,,,,,,,here is Spencer-road
+resident,,37,,W. E.,Edwards,L.R.A.M.,Scethrog
+resident,,33,,Jcb.,Gaist,trav,Craigston
+resident,,31,,Mrs. E. E.,Foote,Arvon
+resident,,29,,F. J.,Alger,Rydal
+resident,,27,,George,Bull,
+resident,,25,,Hy.,Hammer,Trelawney
+resident,,23,,Mrs.Ida,Coward,Hazeldene
+resident,,21,,George,Greenway,Hollymount
+resident,,19,,Louis,De Coninck,Tregenna
+resident,,17,,Mrs. C. P.,Evans,Llanberis
+resident,,15,,J. R.,Taylor,Kemble ho
+resident,,13,,F. L.,Smith,Sydington ho
+resident,,11,,MissA.,Henry,Llanthewy h
+resident,,9,,C. A.,Willis,sec,Norton ho
+resident,,7,,Mrs. E. J.,Jordan,Walton house
+street,LLANDAFF STREET,D 6,,,,,Waterloo-road to Coldva-road
+resident,LLANDAFF STREET,1,,Mrs. T.,Corner,
+resident,LLANDAFF STREET,2,,W.,Abraham,Ravenswood
+street,LLANTHEWY ROAD,C 5,,,,,From Clytha Park-road to Risca-road
+cross_street,LLANTHEWY ROAD,,,,,,(RIGHT HAND SIDE.)
+resident,LLANTHEWY ROAD,2,,J.,Maybury,The Bungalow
+resident,LLANTHEWY ROAD,4,,G.,Ramsay,accnt,Oamaru
+resident,LLANTHEWY ROAD,6,,Mrs. Lilian A.,Gould,Thornbury
+resident,LLANTHEWY ROAD,8,,Edwin John,Vranch,Dindigul villa
+resident,LLANTHEWY ROAD,10,,Stephen,Osmar,Troed-y-rhiw
+resident,LLANTHEWY ROAD,12,,W.,Duckham,meat salesman,Dean house
+resident,LLANTHEWY ROAD,14,,J. W.,Kilmister,Lyndale
+resident,LLANTHEWY ROAD,16,,Louis,Burman,draper,Belvedere
+resident,LLANTHEWY ROAD,18,,Hodgson,Hayes,accountant,Ambleside
+resident,LLANTHEWY ROAD,20,,J. H.,McKinnon,draper,Inglefield
+resident,LLANTHEWY ROAD,22,,Miss Jessie,Parfitt,Wyecliffe
+resident,LLANTHEWY ROAD,24,,Mrs. M.,Forsyth,Dunkerry
+resident,LLANTHEWY ROAD,26,,M. E.,Jacobs,Lifford
+resident,LLANTHEWY ROAD,28,,Joseph,Sadler,Croixteth
+resident,LLANTHEWY ROAD,30,,C. V.,Southey,traveller,Hillside
+resident,LLANTHEWY ROAD,32,,Bezzant,Anthony,Homevale
+resident,LLANTHEWY ROAD,34,,W. E.,Baker,traveller
+resident,LLANTHEWY ROAD,36,,W. J.,Traylor,Wyvenhoe
+cross_street,LLANTHEWY ROAD,,,,,,,here is Spencer-road
+building,LLANTHEWY ROAD,,,LLANTHEWY ROAD BAPTIST CHURCH,,
+resident,LLANTHEWY ROAD,38,,George,Holemans,
+resident,LLANTHEWY ROAD,40,,—,Hillier,Knocknarea
+resident,LLANTHEWY ROAD,42,,W. J.,Grant,Director of Agriculture
+resident,LLANTHEWY ROAD,44,,E. E.,Morgan,wholesale grocer,Bryn-y-Mor
+resident,LLANTHEWY ROAD,46,,J. B.,Williams,Bryndeilo
+resident,LLANTHEWY ROAD,48,,Sidney,Storer,Bryn-Tivy
+resident,LLANTHEWY ROAD,50,,W.,Bibby,jewelr,Lyncomb
+resident,LLANTHEWY ROAD,52,,Miss,Vivian,Holmesford
+resident,LLANTHEWY ROAD,54,,I. J.,Anthony,Tegfryn
+resident,LLANTHEWY ROAD,56,,Miss L. A.,Ford,Sunnyside
+resident,LLANTHEWY ROAD,58,,J. W.,Foley,Lealholme
+resident,LLANTHEWY ROAD,60,,F.,Hood,Troyville
+resident,LLANTHEWY ROAD,62,,G. C.,Roderick,Kingswood
+resident,LLANTHEWY ROAD,64,,Mrs. B. M.,Frost,Clovelly
+resident,LLANTHEWY ROAD,66,,Mrs.,Freeguard,Silverthorne
+resident,LLANTHEWY ROAD,,,J. F.,Freeguard,baker
+resident,,36,,Arthur J.,Munn,ironworkr
+resident,,37,,John,Howell,blacksmith
+resident,,38,,L. G.,Taylor,fitters' helper
+cross_street,,,,,,,(return)
+resident,,39,,Mrs. N.,Lake,
+resident,,40,,William,Owen,labourer
+resident,,41,,Wm. J.,Probert,blacksmth
+resident,,42,,Francis E.,Lodge,G.W.R.
+resident,,43,,Mrs. Norah,Holling,
+resident,,44,,V.,Piercey,carpenter
+cross_street,,,,,,,here is Speke-street
+resident,,45,,John,Sands,feather dresser
+resident,,46,,Chas R.,Willis,ironworker
+street,LLANARTH STREET,D 4,,,,,From 41 Commercial-street
+cross_street,LLANARTH STREET,,,,,,(LEFT HAND SIDE.)
+resident,LLANARTH STREET,3,,H.,Perry,Robin Hood
+resident,LLANARTH STREET,4,,Jas. L.,Lewis,hairdresser
+resident,LLANARTH STREET,5-6,,Industrial Society Drapery & Boot Departments,Co-operative,
+cross_street,LLANARTH STREET,,,,,,,here is Dock-street
+resident,LLANARTH STREET,,,M. E. & Sons,Dickson,outfitters
+resident,LLANARTH STREET,10,,William,Tothill,supt. Fire station
+building,LLANARTH STREET,,,FIRE STATION COTTAGES,,
+resident,LLANARTH STREET,,,H.,Brown,
+resident,LLANARTH STREET,,,W.,Tothill,
+resident,LLANARTH STREET,,,P.,Norris,
+resident,LLANARTH STREET,,,G. H.,Scott,
+resident,LLANARTH STREET,,,W. A.,Tobitt,
+resident,LLANARTH STREET,,,P.,Rhodes,
+resident,LLANARTH STREET,,,W.,Evans,
+building,LLANARTH STREET,,,Howell's iron warehouse,,
+cross_street,LLANARTH STREET,,,,,,,here is Union-street
+building,LLANARTH STREET,,,Corporation Electricity Generating Station,,
+resident,LLANARTH STREET,22,,Miles J.,Gatfield,wagon builder
+cross_street,LLANARTH STREET,,,,,,(return)
+building,LLANARTH STREET,23,Globe Lodging House,,Wm. Lloyd,
+resident,LLANARTH STREET,24,,Chas.,Maclean,shop
+resident,LLANARTH STREET,25-31,,Thos. H. Ltd.,Howell,steel, iron and oil merhts
+cross_street,LLANARTH STREET,,,,,,,here is Union-court
+building,LLANARTH STREET,32,,Llanarth Estate Office,,E. L. Lyne
+resident,LLANARTH STREET,33,,William Henry,Butcher,
+resident,LLANARTH STREET,34,,Mrs. Emma,May,
+resident,LLANARTH STREET,35,,Edward,Lenahan,
+resident,LLANARTH STREET,36,,George,May,saddler
+resident,LLANARTH STREET,37,,Edward,Lenahan,
+resident,LLANARTH STREET,38,,Michael,McEvoy,
+cross_street,LLANARTH STREET,,,,,,,here is Dock-street
+resident,LLANARTH STREET,,,W. & Sons, out-fitters and pawnbrokers,Phillips,
+resident,LLANARTH STREET,39,,Mrs.,Vacara,lodging house
+resident,LLANARTH STREET,40,,G. T. C.,Rowberry,
+resident,LLANARTH STREET,41,,Thomas,O'Neil,

@@ -1,0 +1,159 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,MARSHES ROAD,,,,,,Now Shaftesbury-street
+resident,MARSHES ROAD,26,,Horace,Gilmore,,Parkhurst
+resident,MARSHES ROAD,24,,Tom,Jones,,Clarence ho
+resident,MARSHES ROAD,22,,Thomas,Acland,,Beccles
+resident,MARSHES ROAD,20,,C.,Ericksen,,Prospect ho
+resident,MARSHES ROAD,18,,Mrs. Laura K.,Williams,,Heatherwood
+resident,MARSHES ROAD,16,,Mrs. A.,Nichol,,Brynderrin
+resident,MARSHES ROAD,14,,W. H.,Pugh,,Glendale
+resident,MARSHES ROAD,12,,William Leslie,Thain,,St Raphaels
+resident,MARSHES ROAD,10,,Mrs. M. A.,Vale,,Corwen house
+resident,MARSHES ROAD,8,,R.,Worboise,,Westward ho
+resident,MARSHES ROAD,6,,Reuben,Wise,,Glencoe
+resident,MARSHES ROAD,4,,Harry,Channing,,Baynesville
+resident,MARSHES ROAD,2,,Edwd.,Baker,,Parkham
+street,MARSHFIELD STREET,,,,,,Off Corporation-road; [LEFT HAND SIDE.]
+resident,MARSHFIELD STREET,1,,William,Fletcher,,,
+resident,MARSHFIELD STREET,3,,Jon.,Hatton,ironworker,
+resident,MARSHFIELD STREET,5,,Richard,Manley,do,
+resident,MARSHFIELD STREET,7,,James,Duggan,labourer,
+resident,MARSHFIELD STREET,9,,Charles,Hooper,,,
+resident,MARSHFIELD STREET,11,,Thomas,Beech,ironwkr,
+resident,MARSHFIELD STREET,13,,Joseph,Rowley,,
+resident,MARSHFIELD STREET,15,,George Robt.,Washbrook,ironworker,
+resident,MARSHFIELD STREET,17,,Wm.,Trickett,ironworker,
+resident,MARSHFIELD STREET,19,,Job,Salter,,
+cross_street,MARSHFIELD STREET,,,,,,Vacant sites
+cross_street,MARSHFIELD STREET,,,,,,(return)
+cross_street,MARSHFIELD STREET,,,,,,Vacant sites
+resident,MARSHFIELD STREET,8,,Isaiah,Johnson,ironwkr,
+resident,MARSHFIELD STREET,6,,Richard,Manley,do,
+resident,MARSHFIELD STREET,4,,William,Ward,do,
+resident,MARSHFIELD STREET,2,,George,Jewitt,do,
+street,MAY STREET,D 3 28,,,,,From Wharf-rd. to Leonard-st. [LEFT HAND SIDE.]
+resident,MAY STREET,1,,Wm.,Roberts,platelayer,
+resident,MAY STREET,3,,Edwd.,Kersley,ironwkr,
+resident,MAY STREET,5,,Chas. H.,Small,mason,
+resident,MAY STREET,7,,Francis Geo.,Golightly,,
+resident,MAY STREET,9,,Ernest,Colley,carpenter,
+resident,MAY STREET,11,,Samuel,Isitt,blacksmith,
+resident,MAY STREET,13,,Benjamin,Davies,fitter's helper,
+cross_street,MAY STREET,,,,,,(return)
+resident,MAY STREET,4,,Jas. H.,Eaton,ironworker,
+resident,MAY STREET,2,,Arthur,Lawlor,,
+street,MELLON STREET,D 3 14,,,,,From 134 Dock-st. to George-st. (LEFT HAND SIDE.)
+resident,MELLON STREET,1,,John,Flynn,,
+resident,MELLON STREET,3,,Charles,Lewis,milkman,
+resident,MELLON STREET,5,,Henry,Wallops,,
+resident,MELLON STREET,7,,George,Anderson,labr,
+resident,MELLON STREET,9,,William,Evans,labourer,
+resident,MELLON STREET,11,,Hy. Benj.,Davies,labourer,
+resident,MELLON STREET,13,,James,Crean,,
+resident,MELLON STREET,15,,Mellon John,,,
+resident,MELLON STREET,17,,Brian,O'Brien,Marshall,
+resident,MELLON STREET,19,,John,Watts,labourer,
+resident,MELLON STREET,21,,Jere.,Haggerty,do,
+cross_street,MELLON STREET,,,,,,(return)
+resident,MELLON STREET,40,,Wm.,Teed,Samuel,
+resident,MELLON STREET,38,,Thos.,Pollard,trimmer,
+cross_street,MELLON STREET,,,,,,here is Robbins-lane
+resident,MELLON STREET,,,,Kovach & Co.,,smiths,
+resident,MELLON STREET,36,,& Sons,Phillips,stables,
+resident,MELLON STREET,34,,Hy. C.,Westbury,foreman,
+resident,MELLON STREET,32,,Robert,Hall,George,
+resident,MELLON STREET,30,,Cor.,Sullivan,labourer,
+resident,MELLON STREET,28,,Henry,Blanks,do,
+resident,MELLON STREET,26,,Alfred,Young,do,
+resident,MELLON STREET,24,,John,Dervin,do,
+resident,MELLON STREET,22,,Mrs. Julia,Daley,,
+resident,MELLON STREET,20,,Henry,White,,Irishman's Arms
+resident,MELLON STREET,18,,George,Thackwell,mason,
+resident,MELLON STREET,16,,Lewis,Perryman,,
+resident,MELLON STREET,14,,Fredk.,Knight,slate wkr,
+resident,MELLON STREET,12,,Mrs. Elizabeth,Trump,,
+resident,MELLON STREET,10,,Mrs. Mary E.,Collins,,
+resident,MELLON STREET,8,,Albert,Stevens,guard,
+resident,MELLON STREET,6,,Aaron,Pugh,labourer,
+resident,MELLON STREET,4,,,,Void,
+resident,MELLON STREET,2,,Arthur,Hicks,labourer,
+street,MERCHANT STREET,D 4,,,,,Opposite back of Town-hall
+resident,MERCHANT STREET,,,,,,Horton's lodging-house
+resident,MERCHANT STREET,24,,John,Payne,engineering lock and general smith,
+resident,MERCHANT STREET,,Banfield H. E.,,carpenter,
+resident,MERCHANT STREET,25,,Mrs. Mary Ann,Edmunds,,
+resident,MERCHANT STREET,26,,Mrs.,Jones,,
+resident,MERCHANT STREET,27,,Patrick,Purcell,,
+resident,MERCHANT STREET,28,,Frank,Silcox,,
+resident,MERCHANT STREET,29,,Mrs.,Watkins,,
+street,MENDALGIFF ROAD,E 5 11,,,,,From Watchhouse-parade to Cardiff-road; [RIGHT HAND SIDE.]
+cross_street,MENDALGIFF ROAD,,,,,,here is David-street
+cross_street,MENDALGIFF ROAD,,,,,,here is Wingate-street
+resident,MENDALGIFF ROAD,2,,Patk.,Walsh,labourer,
+resident,MENDALGIFF ROAD,4,,James,Casey,trimmer,
+resident,MENDALGIFF ROAD,6,,Patrick,Flynn,trimmer,
+resident,MENDALGIFF ROAD,8,,Hy.,Abraham,boatman,
+resident,MENDALGIFF ROAD,10,,William,Trimble,,,
+resident,MENDALGIFF ROAD,12,,Arthur,Watts,goods grd,
+resident,MENDALGIFF ROAD,14,,Edward,Davey,moulder,
+resident,MENDALGIFF ROAD,16,,Albert,Phelps,labourer,
+resident,MENDALGIFF ROAD,18,,George,Brown,labourer,
+resident,MENDALGIFF ROAD,20,,L.,Powell,Rees,
+cross_street,MENDALGIFF ROAD,,,,,,here is Milman-street
+resident,MENDALGIFF ROAD,22,,William,Casey,trimmer,
+resident,MENDALGIFF ROAD,24,,Thos. D.,Purnall,trimmer,
+resident,MENDALGIFF ROAD,26,,Saml.,Higton,eng. driver,
+resident,MENDALGIFF ROAD,28,,James,Pearce,plumber,
+resident,MENDALGIFF ROAD,30,,Thomas,Chicken,,
+resident,MENDALGIFF ROAD,32,,John,Lloyd,dk. gateman,
+resident,MENDALGIFF ROAD,34,,Thos.,Maggs,boilermaker,
+resident,MENDALGIFF ROAD,36,,Joseph Charles,Pulley,,
+cross_street,MENDALGIFF ROAD,,,,,,here is Alice-street
+resident,MENDALGIFF ROAD,38,,John,Martin,rigger,
+resident,MENDALGIFF ROAD,40,,Jos.,Bright,labourer,
+resident,MENDALGIFF ROAD,42,,John,Hughes,shunter,
+resident,MENDALGIFF ROAD,44,,Wm.,Waring,signalman,
+resident,MENDALGIFF ROAD,46,,Gilbert,Gough,guard,
+resident,MENDALGIFF ROAD,48,,Alfred,Cann,shipwright,
+resident,MENDALGIFF ROAD,50,,Wm.,Thomas,eng. driver,
+resident,MENDALGIFF ROAD,52,,Joseph,Nowell,inspector,
+resident,MENDALGIFF ROAD,54,,George,Williams,guard,
+resident,MENDALGIFF ROAD,58,,Thos. John,Avery,carptr,
+cross_street,MENDALGIFF ROAD,,,,,,here is Adeline-street
+cross_street,MENDALGIFF ROAD,,,,,,Vacant sites
+cross_street,MENDALGIFF ROAD,,,,,,PILL RECREATION GROUND
+building,MENDALGIFF ROAD,,,NEW TERRITORIAL DRILL HALL,,,4th Welsh Brigade R.F.A.
+cross_street,MENDALGIFF ROAD,,,,,,Vacant sites
+resident,MENDALGIFF ROAD,100,,Jos.,Attwell,t immer,
+resident,MENDALGIFF ROAD,102,,Thomas,Dance,trimmer,
+resident,MENDALGIFF ROAD,104,,Hy.,Thomas,boatman,
+cross_street,MENDALGIFF ROAD,,,,,,Vacant sites
+cross_street,MENDALGIFF ROAD,,,,,,(return)
+cross_street,MENDALGIFF ROAD,,,,,,Corporation Allotments
+cross_street,MENDALGIFF ROAD,,,,,,PILL ATHLETIC GROUND
+street,MERRIOTT'S PLACE,D 3,,,,,From Schools, Chepstow-road
+resident,MERRIOTT'S PLACE,1,,Mrs. Martha,Thompson,,
+resident,MERRIOTT'S PLACE,2,,Wm. Hy.,Stamp,chem wkr,
+resident,MERRIOTT'S PLACE,3,,,,Void,
+resident,MERRIOTT'S PLACE,4,,James,Edwards,,
+resident,MERRIOTT'S PLACE,5,,,,Clarke,,
+resident,MERRIOTT'S PLACE,6,,Robert Jas.,Spratt,ironwrkr,
+resident,MERRIOTT'S PLACE,7,,Hbt.,Williams,storekpr,
+resident,MERRIOTT'S PLACE,8,,Chas.,Perry,wgn repairer,
+resident,MERRIOTT'S PLACE,9,,George Henry,Cann,,
+resident,MERRIOTT'S PLACE,10,,Mrs.,Kettle,,
+resident,MERRIOTT'S PLACE,11,,Daniel,Maynard,labourer,
+resident,MERRIOTT'S PLACE,12,,C. E.,Lewis,helvemaker,
+resident,MERRIOTT'S PLACE,13,,Frank,Creed,labourer,
+street,METHUEN ROAD,E 3,,,,,Off Eton-road
+resident,METHUEN ROAD,1,,Henry Edward,Williams,,
+resident,METHUEN ROAD,3,,William Alfred,Whittaker,,
+resident,METHUEN ROAD,5,,Ewart G.,Bown,,
+resident,METHUEN ROAD,7,,Wm. C. H.,Beaumont,,
+resident,METHUEN ROAD,9,,William,Biggs,,
+resident,METHUEN ROAD,11,,Stan. G.,Walters,ins. supt.,
+resident,METHUEN ROAD,13,,Dd. Henry,Bennett,,
+cross_street,METHUEN ROAD,,,,,,here is Oriel-road
+resident,METHUEN ROAD,15,,Ernest Henry,Brown,,
+resident,METHUEN ROAD,17,,James Chisholm,Hedley,,
+resident,METHUEN ROAD,19,,Misses,Greenland,,

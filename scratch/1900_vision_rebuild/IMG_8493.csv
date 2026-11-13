@@ -1,0 +1,151 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,Ban,11-2,,John,Davies,grocer,
+cross_street,Ban,,,,,,here is West-street.
+cross_street,Ban,,,,,,(return.)
+resident,Ban,13,,Miss,Walton,shopkeeper,
+resident,Ban,14,,Alfred,Hicks,"haulier and coal merchant",
+resident,Ban,,,Herbt. L.,Lewis,shoemkr,
+cross_street,Ban,,,BOLTON TERRACE---,,,
+resident,Ban,15,,E.,L. and W. Yeast Co.,,Geo. Hardick manager
+resident,Ban,16,,Mrs E. C.,Hurd,newsagt,
+resident,Ban,17,,J.,Coulson,watchmaker,
+resident,Ban,18,,Hy.,Perry,umbrella makr,
+resident,Ban,19,,H.,Dight,bookbinder, etc.,
+resident,Ban,20,,& Son,Watson,bootmakrs,
+street,Baneswell Square.,,,,,,
+notes,Baneswell Square.,,,,,,From North-street.
+resident,Baneswell Square.,5,,Benjamin,Palmer,,
+resident,Baneswell Square.,6,,William,Collins,labourer,
+resident,Baneswell Square.,7,,George,Saysill,guard,
+resident,Baneswell Square.,8,,James,Smith,,
+resident,Baneswell Square.,9,,Edwin,Fogarty,carpenter,
+resident,Baneswell Square.,10,,William,Lloyd,Edward,
+resident,Baneswell Square.,11,,Mrs Emma,Morgan,,
+resident,Baneswell Square.,12,,George,James,smith,
+resident,Baneswell Square.,13,,Mrs Jane,Wright,,
+resident,Baneswell Square.,14,,Jas.,Goulding,lamplighter,
+street,Bank Chambers.,,,,,,
+notes,Bank Chambers.,,,,,,See 85 Bridge-street.
+street,Bank Street.,,,,,,
+notes,Bank Street.,,,,,,From 323 Caerleon-road to Durham-road.
+cross_street,Bank Street.,,,,,, [LEFT HAND SIDE.]
+resident,Bank Street.,1,,George,Riding,carpenter,
+resident,Bank Street.,3,,Arthur,Crossland,ins. agt,
+resident,Bank Street.,5,,James,Duggan,labourer,
+resident,Bank Street.,7,,John,Carpenter,mason,
+resident,Bank Street.,9,,Joseph,Tutton,labourer,
+resident,Bank Street.,11,,Robt.,Bannister,labourer,
+resident,Bank Street.,13,,John,Cridland,,
+resident,Bank Street.,15,,Alfred,Carter,labourer,
+resident,Bank Street.,17,,Wm.,Randall,tram driver,
+resident,Bank Street.,10,,Frederick,Godley,,
+resident,Bank Street.,8,,Wm. H.,Lawrence,smith,
+resident,Bank Street.,6,,David,Widdows,signalmn,
+resident,Bank Street.,4,,Wm.,Hughes,signalman,
+resident,Bank Street.,2,,William,Jones,potter,
+street,Barnard Town,,,,,,
+notes,Barnard Town,,,,,,is a district lying between Caerleon-road and Maindee, and embraces the numerous streets each side of Church-rd
+street,Barnard Street, B.T.,,,,,,
+notes,Barnard Street, B.T.,,,,,,From Whitby-place.
+resident,Barnard Street, B.T.,1,,Mark,Andrews,greengrocr,
+resident,Barnard Street, B.T.,2,,Mrs Emily,Jones,,
+resident,Barnard Street, B.T.,3,,John,Price,blacksmith,
+resident,Barnard Street, B.T.,4,,Sidney,Moss,smith,
+resident,Barnard Street, B.T.,5,,George,Hine,haulier,
+resident,Barnard Street, B.T.,6,,Albert Ed.,Price,labourer,
+resident,Barnard Street, B.T.,7,,George,Clissett,chairmkr,
+resident,Barnard Street, B.T.,8,,F. E.,Giddy,plumber,
+resident,Barnard Street, B.T.,9,,Edwin,Dovey,gardener,
+resident,Barnard Street, B.T.,10,,William,Oliver,haulier,
+resident,Barnard Street, B.T.,11,,Dennis,Cousins,smith,
+resident,Barnard Street, B.T.,12,,Walter,Oliver,labourer,
+resident,Barnard Street, B.T.,13,,G. W.,Lawless,coachpaintr,
+resident,Barnard Street, B.T.,14,,Wm.,Stevens,blacksmith,
+resident,Barnard Street, B.T.,15,,Edmund,Reed,G.W.R.,
+resident,Barnard Street, B.T.,16,,James,Foot,haulier,
+resident,Barnard Street, B.T.,17,,John,Ryan,painter,
+resident,Barnard Street, B.T.,18,,Edward,Davies,labourer,
+resident,Barnard Street, B.T.,19,,George,Hopkins,haulier,
+street,Barrack Hill.,,,,,,
+notes,Barrack Hill.,,,,,,Shaftesbury-street to Barracks
+cross_street,Barrack Hill.,,,,,,[LEFT HAND SIDE.]
+resident,Barrack Hill.,1,,Walter,Bowen,foreman,
+resident,Barrack Hill.,3,,Mrs A.,Hayward,,Greenfield house
+cross_street,Barrack Hill.,,,,,,here is Belvedere-terrace.
+cross_street,Barrack Hill.,,,,,,here is Power-street.
+resident,Barrack Hill.,5,,Robert,Lewis,,Sunnybank house
+resident,Barrack Hill.,7,,R.,Jewell,builder,
+resident,Barrack Hill.,9,,Thos.,Symons,,Alltwen vil
+resident,Barrack Hill.,11,,No,Whitefield,Lyndhurst cottage,
+resident,Barrack Hill.,13,,Cor.,O'Shea,1 Glen view,
+resident,Barrack Hill.,15,,A. W.,Farmer,2 Glen view,
+resident,Barrack Hill.,17,,Frank J.,Collier,builder,
+resident,Barrack Hill.,19,,W. C.,Collier,,The Waldens
+cross_street,Barrack Hill.,,,,,,here is Lambert-street.
+resident,Barrack Hill.,21,,John,Kirby,,Highfield
+resident,Barrack Hill.,23,,Henry,Cullimore,,
+resident,Barrack Hill.,25,,Mrs Sarah,Fry,,Pinswell
+resident,Barrack Hill.,27,,A. H.,Peters,,Beechwood
+resident,Barrack Hill.,29,,Herbt.,Davies,,Piercefield
+resident,Barrack Hill.,31,,J. W.,Powell,,Belmont
+resident,Barrack Hill.,33,,Arthur,Barrett,,
+resident,Barrack Hill.,35,,Mrs Elizabeth,Ryan,,
+resident,Barrack Hill.,37,,Edwin T.,Barnett,,
+resident,Barrack Hill.,39,,Edwin Wm.,Kiroy,tailor,
+resident,Barrack Hill.,41,,George F.,Robinson,,
+resident,Barrack Hill.,43,,Hy.,Garraway,,Alston
+resident,Barrack Hill.,45,,Albt.,Stockman,,Enfield
+resident,Barrack Hill.,47,,Wm.,Skeats,,Montpelier
+resident,Barrack Hill.,49,,Mrs M. J.,Higgins,,
+resident,Barrack Hill.,51,,R. H.,Fillmore,a.s.c.,
+cross_street,Barrack Hill.,,,,,,[RIGHT HAND SIDE.]
+resident,Barrack Hill.,2,,John,Lawrence,plumber,
+resident,Barrack Hill.,4,,Mrs Sarah,Edwards,,
+resident,Barrack Hill.,6,,Charles,Collins,painter,
+resident,Barrack Hill.,8,,Charles,Lewis,labourer,
+resident,Barrack Hill.,10,,Mrs Elizabeth,Jeffs,,
+resident,Barrack Hill.,12,,Jane,Pinnell,widow,
+resident,Barrack Hill.,14,,Thomas,Phillips,fireman,
+resident,Barrack Hill.,16,,Chas.,Thomas,gas blowr,
+resident,Barrack Hill.,18,,Wm. L.,Westecott,baker,
+resident,Barrack Hill.,20,,John,Stiles,haulier,
+resident,Barrack Hill.,22,,George,Moylan,labourer,
+resident,Barrack Hill.,24,,Charles,Allen,gardener,
+resident,Barrack Hill.,26,,J.,Needham,,Claremont villa
+resident,Barrack Hill.,28,,Edwin,Carter,,Randolph villa
+resident,Barrack Hill.,30,,S. W.,Davies,,Malvern vil
+resident,Barrack Hill.,32,,,,,Arundel villa---void
+resident,Barrack Hill.,34,,W.,Davies,,Woodside vil
+resident,Barrack Hill.,36,,Harry,Cook,,Rose cottage
+resident,Barrack Hill.,,,,T.,Attewell,,Penylan farm
+resident,Barrack Hill.,,,,Charles,Pratt,,
+resident,Barrack Hill.,,,,Morris,Reynolds,grocer,
+resident,Barrack Hill.,,,,Wm. J.,White,a.s.c.,Cairo
+resident,Barrack Hill.,,,,Jas.,Harrison,,Glenthorne
+resident,Barrack Hill.,,,,F. W.,Giles,Sgt-Major R.A.,
+resident,Barrack Hill.,,,,Geo.,Collins,foundryman,
+resident,Barrack Hill.,,,,John,Morris,Qr-M-Sgrt,
+resident,Barrack Hill.,,,,John,Smith,Corpl., R.A.,
+resident,Barrack Hill.,100,,George,Silcox,mason,
+resident,Barrack Hill.,102,,John,Bubear,,
+resident,Barrack Hill.,104,,Fredk.,Glover,labourer,
+resident,Barrack Hill.,110,,Charles,Bright,,Anstey cottage
+resident,Barrack Hill.,112,,Esau,Bartlett,R.A.,
+resident,Barrack Hill.,114,,James,Taylor,signalman
+resident,Barrack Hill.,116,,Llewellyn,Walters,,
+resident,Barrack Hill.,118,,James,Cook,bootmake,
+resident,Barrack Hill.,120,,James,Cook,,
+resident,Barrack Hill.,122,,Henry John,Fox,seama
+resident,Barrack Hill.,124,,Martin,Ryan,shoemak
+resident,Barrack Hill.,126,,William H.,Price,,
+resident,Barrack Hill.,128,,Fred H.,Rowe,a.s.c.,
+resident,Barrack Hill.,130,,James,Brant,linesman,
+resident,Barrack Hill.,132,,William,Harrhy,,
+resident,Barrack Hill.,,,,Mrs Emma,Holloway,,
+resident,Barrack Hill.,,,,Michael,Hardy,R.A.,
+resident,Barrack Hill.,,,,Thomas,Willis,grocer,
+resident,Barrack Hill.,,,,Charles,Willis,labourer,
+resident,Barrack Hill.,,,,Charles,Gratton,labourer,
+resident,Barrack Hill.,,,,John,Dix,,
+cross_street,Barrack Hill.,,,,,,THE BARRACKS---See Local Information
+resident,Barrack Hill.,,,,John,Price,"bailiff, Barrack farm",

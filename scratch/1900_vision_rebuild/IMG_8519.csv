@@ -1,0 +1,150 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Corporation Rd.,,,,,,"continued"
+resident,Corporation Rd.,,,Josiah,Tamplin,,Rothesay
+resident,Corporation Rd.,,,Joseph,Brown,,Westwick
+resident,Corporation Rd.,,,Rees,Jones,,Gartref
+resident,Corporation Rd.,,,T. J.,Harry,,Belmont
+resident,Corporation Rd.,,,Charles,Parry,,Birdlip house
+resident,Corporation Rd.,,,Alexander,Parry,,do
+resident,Corporation Rd.,,,E. C.,Jordan,,Vellore house
+resident,Corporation Rd.,,,Chris.,Corbett,,The Highlands
+resident,Corporation Rd.,,,R. L.,Davies,,Rhianva
+resident,Corporation Rd.,,,Mrs John,Jones,,Lyndwood
+resident,Corporation Rd.,,,D. W.,Richards,,St. Malo
+resident,Corporation Rd.,,,Mrs J. H.,Hillier,,The Cedars Moorlands
+resident,Corporation Rd.,,,Alfred,Frost,,Eddystone
+resident,Corporation Rd.,,,Craignair,,,"void"
+resident,Corporation Rd.,,,Melville,,,"void"
+resident,Corporation Rd.,,,Wm.,Richards,,The Laurels
+resident,Corporation Rd.,,,R. M.,Plummer,,The Ferns
+resident,Corporation Rd.,,,,,,,"Vacant sites"
+resident,Corporation Rd.,,,F. T.,Huggett,butcher,
+resident,Corporation Rd.,,,,,,,"Shop void"
+resident,Corporation Rd.,,,E.,Crawford,cutler,
+resident,Corporation Rd.,,,,,,,"Shop void"
+resident,Corporation Rd.,,,,,,,"Dawson's Library"
+resident,Corporation Rd.,,,E.,Anderson,hairdresser,
+resident,Corporation Rd.,,,& Co.,Seigel,confectioners,
+cross_street,Corporation Rd.,,,,,,"here is Clarence-place"
+street,Coseley Street,,,,,,From Bilston-st. to Tipton-st.
+street,Courtybella. St., P.,,,,,,From 111 Commercial-road to Albion-street.
+resident,Courtybella. St., P.,1,,,Edgar O.,Weeks,,
+resident,Courtybella. St., P.,2,,,John,Carless,labourer,
+resident,Courtybella. St., P.,3,,,Aaron,Gould,fitter's helpr,
+resident,Courtybella. St., P.,4,,,T. P.,Hammett,,
+resident,Courtybella. St., P.,5,,,Wm. Hy.,Bray,eng. drivr,
+resident,Courtybella. St., P.,6,,,Thos.,Mitchell,eng. driver,
+resident,Courtybella. St., P.,,,F.,Richards,,builder's shop
+resident,Courtybella. St., P.,7,,,Timothy,Coughlin,tailor,
+resident,Courtybella. St., P.,8,,,Wm.,Watkins,labourer,
+resident,Courtybella. St., P.,9,,,Mich.,Mulcahy,labourer,
+resident,Courtybella. St., P.,10,,,John,O'Brien,seaman,
+resident,Courtybella. St., P.,11,,,Thomas,Collier,,
+resident,Courtybella. St., P.,12,,,,,,"Void"
+resident,Courtybella. St., P.,13,,,,,,"do"
+resident,Courtybella. St., P.,13A,,,,,,"do"
+cross_street,Courtybella. St., P.,,,,,,"here is New-street"
+resident,Courtybella. St., P.,14,,,John,Wilson,mariner,
+resident,Courtybella. St., P.,15,,,F. W.,Smith,eng. driver,
+resident,Courtybella. St., P.,16,,,Mrs Margaret,Hughes,,
+resident,Courtybella. St., P.,17,,,William F.,Cox,smith,
+resident,Courtybella. St., P.,18,,,John,Parry,engine driver,
+resident,Courtybella. St., P.,19,,,Richard,White,labourer,
+resident,Courtybella. St., P.,20,,,Hy.,Grenville,trimmer,
+resident,Courtybella. St., P.,21,,,William,Morgan,trimmer,
+resident,Courtybella. St., P.,22,,,William,Evans,sailor,
+resident,Courtybella. St., P.,23,,,George,Strode,labourer,
+cross_street,Courtybella. St., P.,,,,,,"here is Temple-street"
+resident,Courtybella. St., P.,24,,,W.,Wilcox,hairdresser,
+resident,Courtybella. St., P.,25,,,Wm.,Sanders,trimmer,
+resident,Courtybella. St., P.,26,,,Hy.,Humphrey,labourer,
+resident,Courtybella. St., P.,27,,,Alfred,Panting,smith,
+resident,Courtybella. St., P.,28,,,E. T.,Cawley,haulier,
+street,Courtybella Ter., P.,,,,,,From 1 Alexandra-road.
+resident,Courtybella Ter., P.,,,,Francis,Cheffers,mason,
+resident,Courtybella Ter., P.,,,,Hy. C.,Worthy,boilermkr,
+resident,Courtybella Ter., P.,10,,,Edward,Dwyer,labourer,
+resident,Courtybella Ter., P.,11,,,James,Sullivan,labourer,
+resident,Courtybella Ter., P.,12,,,Jeremiah,Shea,trimmer,
+resident,Courtybella Ter., P.,,,,Ed.,Swift,donkeyman,
+resident,Courtybella Ter., P.,,,,Thomas,Morgan,trimmer,
+resident,Courtybella Ter., P.,,,,John,Murphy,labourer,
+resident,Courtybella Ter., P.,,,,Frank,Smith,coal merch,
+resident,Courtybella Ter., P.,,,Bros.,Smith,builders, etc.,
+resident,Courtybella Ter., P.,13,,,Charles,Davies,rigger,
+resident,Courtybella Ter., P.,14,,,Edward,Brown,labourer,
+resident,Courtybella Ter., P.,15,,,Thomas,Pitman,trimmer,
+resident,Courtybella Ter., P.,16,,,Geo. J.,Thackwell,Cumberland House
+resident,Courtybella Ter., P.,17,,,Constantine,Joenn,,
+resident,Courtybella Ter., P.,18,,,Robert,Webb,rigger,
+resident,Courtybella Ter., P.,19,,,John,Evans,grocer,
+cross_street,Courtybella Ter., P.,,,,,,"here is Baldwin-street"
+resident,Courtybella Ter., P.,20,,,E. T.,Webb,grocer,
+resident,Courtybella Ter., P.,21,,,Francis,Evans,stevedore,
+resident,Courtybella Ter., P.,22,,,,,,"Re-building"
+resident,Courtybella Ter., P.,23,,,,,,"do"
+cross_street,Courtybella Ter., P.,,,,,,"here is Jeddo-street"
+resident,Courtybella Ter., P.,,,Royal Oak,Tom J.,Yendoll,,
+cross_street,Courtybella Ter., P.,,,,,,"here is Lime-street"
+resident,Courtybella Ter., P.,24,,,W. C.,Johns,grocer,
+resident,Courtybella Ter., P.,25,,,Charles,Powell,trimmer,
+resident,Courtybella Ter., P.,26,,,Mrs Margaret,Senior,,
+resident,Courtybella Ter., P.,27,,,Samuel James,Reed,,
+cross_street,Courtybella Ter., P.,,,,,,"here is Price-street"
+resident,Courtybella Ter., P.,,,Gloucester Railway Wagon Co.'s repairing shop,,,,
+cross_street,Courtybella Ter., P.,,,,,,"here is Robert-street"
+resident,Courtybella Ter., P.,28,,,John,Barrett,manager Courtybella Railway Wagon works,Williams & Co.
+resident,Courtybella Ter., P.,29,,,John,Williams,eng. drvr,
+resident,Courtybella Ter., P.,30,,,George,Card,tug driver,
+resident,Courtybella Ter., P.,31,,,William,Whitticomb,,
+cross_street,Courtybella Ter., P.,,,,,,"here is Arthur-street"
+street,Coverack Road,,,,,,Corporation-road to Riverside
+resident,Coverack Road,2,,,,,
+resident,Coverack Road,4,,,Henry,Green,mas. mar.,
+resident,Coverack Road,6,,,William,Aldous,mariner,
+resident,Coverack Road,8,,,Mrs Ethel,Saunders,,
+resident,Coverack Road,10,,,J.,Harries,boilermaker,
+resident,Coverack Road,12,,,Mrs Frances,Rice,,
+resident,Coverack Road,14,,,William,Hunt,engineer,
+resident,Coverack Road,16,,,Arthur,Matthews,,
+resident,Coverack Road,18,,,Harry,Morgan,telegra'st,
+street,Crescent Road, M.,,,,,,Victoria-avenue to Woodland-road.
+resident,Crescent Road, M.,1,,,Mrs Ann,Baker,,
+resident,Crescent Road, M.,2,,,George,Jones,clerk,
+resident,Crescent Road, M.,3,,,Edward J.,Arnold,clerk,
+resident,Crescent Road, M.,4,,,Frank,Bristow,carpenter,Pembroke Terrace
+resident,Crescent Road, M.,5,,,Thos.,Bevan,hairdresser,Pembroke Terrace
+resident,Crescent Road, M.,6,,,George,Notley,saddler,Pembroke Terrace
+resident,Crescent Road, M.,7,,,William James,Doell,,Pembroke Terrace
+resident,Crescent Road, M.,8,,,Mrs H.,Thomas,,
+resident,Crescent Road, M.,9,,,Edgar,Jenkins,painter,
+resident,Crescent Road, M.,10,,,Andrew,Mann,fitter,
+resident,Crescent Road, M.,11,,,Evan B.,Rees,manager,
+resident,Crescent Road, M.,12,,,Wm.,Tamplin,shoemaker,
+resident,Crescent Road, M.,13,,,Frank,Williams,clerk,
+resident,Crescent Road, M.,14,,,Mrs Elizabeth,Lane,,
+resident,Crescent Road, M.,15,,,F. B.,Francis,signalman,
+resident,Crescent Road, M.,16,,,John,Medlicott,,
+resident,Crescent Road, M.,17,,,Joseph,Harris,,Garth Terrace Rose villa
+resident,Crescent Road, M.,18,,,Benjamin,May,signalman,Garth Terrace
+resident,Crescent Road, M.,19,,,H.,Price,,Garth Terrace Auckland villa
+resident,Crescent Road, M.,20,,,Thomas,Treasure,,Garth Terrace
+resident,Crescent Road, M.,21,,,J. D.,Burns,building insp,Garth Terrace
+resident,Crescent Road, M.,,,,E. G.,Clarke,,Olive mount
+cross_street,Crescent Road, M.,,,,,,"[return]"
+resident,Crescent Road, M.,30,,,Frederick,Downham,,
+resident,Crescent Road, M.,31,,,George,Cook,,
+resident,Crescent Road, M.,32,,,William,Morgan,mason,
+resident,Crescent Road, M.,33,,,William,Bethel,painter,
+resident,Crescent Road, M.,34,,,William,Samuel,stamper,
+resident,Crescent Road, M.,35,,,Henry,Paget,signal fitter,
+resident,Crescent Road, M.,36,,,Samuel,Studley,labourer,
+resident,Crescent Road, M.,37,,,Thos.,Edwards,mill hand,
+resident,Crescent Road, M.,38,,,Harry,Dowden,,
+resident,Crescent Road, M.,39,,,Wm.,Pensome,labourer,
+resident,Crescent Road, M.,40,,,,,,"Void"
+resident,Crescent Road, M.,41,,,H.,Anstee,,The Uplands
+resident,Crescent Road, M.,45,,,Mrs Mary,Wilks,,
+resident,Crescent Road, M.,46,,,James R.,Toogood,painter,
+resident,Crescent Road, M.,47,,,Thomas,French,painter,
+resident,Crescent Road, M.,48,,,Robert,Ricks,gas works,

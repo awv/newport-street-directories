@@ -1,0 +1,148 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,NEWPORT STREET LIST.,,,,,,"Cae - Cam"
+resident,NEWPORT STREET LIST.,315,,Charles,Mapp,tailor,
+resident,NEWPORT STREET LIST.,317,,John,Sweet,traveller,Luton ho
+resident,319,,,,,,Void
+resident,NEWPORT STREET LIST.,321,,Geo. J.,Clarke,telegraphist,
+resident,NEWPORT STREET LIST.,323,,,,,,Void
+cross_street,NEWPORT STREET LIST.,,,,,"here is Bank-street.",
+street,CARLISLE PLACE,,,,,,
+resident,CARLISLE PLACE,325,,Jno. A.,George,account't,
+resident,CARLISLE PLACE,327,,Henry,Bedwell,steward,
+resident,CARLISLE PLACE,329,,Wm.,Simpson,ins. agent,
+resident,CARLISLE PLACE,331,,Jas.,Scogging,plasterer,
+resident,CARLISLE PLACE,333,,Charles,Cox,sculptor,
+resident,CARLISLE PLACE,335,,Thos.,Richards,eng. drvr,
+resident,CARLISLE PLACE,337,,J.,Neagle,insurance agent,
+resident,CARLISLE PLACE,339,,Thos.,Williams,vanman,
+resident,CARLISLE PLACE,341,,Thomas,Grant,,
+resident,CARLISLE PLACE,343,,Hannah,Kettle,,Rose cot
+resident,CARLISLE PLACE,345,,Jacob,Phillips,,
+resident,CARLISLE PLACE,347,,Jas.,Mullard,railwayman,
+resident,CARLISLE PLACE,349,,Walter,Cooper,signalmn,
+resident,CARLISLE PLACE,351,,Albert E.,Booth,shoemakr,
+resident,CARLISLE PLACE,353,,Wm. H.,Bearne,postman,
+resident,CARLISLE PLACE,355,,George,Dyer,bricklayer,
+resident,CARLISLE PLACE,357,,Mark,Dyer,engineman,
+resident,CARLISLE PLACE,359,,Abraham,Smith,fitter,
+resident,CARLISLE PLACE,361,,Fredk.,Williams,labourer,
+resident,CARLISLE PLACE,363,,Henry,Prowse,mason,
+resident,CARLISLE PLACE,365,,John,Butler,labourer,
+resident,CARLISLE PLACE,367,,James,Preece,mason,
+resident,CARLISLE PLACE,369,,Thos.,Wescombe,carp'ter,
+resident,CARLISLE PLACE,371,,Isaac,Hobbs,rlway hand,
+resident,CARLISLE PLACE,373,,Francis,Taylor,conftr.,
+cross_street,CARLISLE PLACE,,,,,"BRICKYARD ROAD-",
+resident,CARLISLE PLACE,,,James,James,labourer,
+resident,CARLISLE PLACE,,,Jas.,Cronk,brick burner,
+resident,CARLISLE PLACE,,,John,Jones,bailiff,
+resident,CARLISLE PLACE,,,Mary Ann,Tyler,Mrs,
+resident,CARLISLE PLACE,,,Susan,Jones,Mrs,
+resident,CARLISLE PLACE,,,Benjamin,Fry,labourer,
+resident,CARLISLE PLACE,,,Thos.,Tucker,bridge pai'tr,
+resident,CARLISLE PLACE,,,J.,Gasser,brickmaker,
+resident,CARLISLE PLACE,,,,,"St. Julian's Brick works",
+resident,CARLISLE PLACE,,,,,"Do pottery-A. Davies",
+resident,CARLISLE PLACE,,,Geo.,Lee,,Lower St Julian's
+resident,CARLISLE PLACE,,,Harry,Jannes,lodgekeeper,
+cross_street,CARLISLE PLACE,,,,,"(return.)",
+resident,CARLISLE PLACE,,,H. S.,Price,,Julian's lodge
+resident,CARLISLE PLACE,,,Mrs,Cory,,St. Julian's
+cross_street,CARLISLE PLACE,,,,,"here is Somerset-road.",
+resident,CARLISLE PLACE,,,,,,3 villas building
+resident,CARLISLE PLACE,,,Sidney,Burgess,,Risely
+resident,CARLISLE PLACE,,,T. S.,Walker,,Brentknoll
+cross_street,CARLISLE PLACE,,,,,"here is Morden-road.",
+resident,CARLISLE PLACE,140,,Aaron,Tovey,,Hollies
+resident,CARLISLE PLACE,138,,Chas.,Taplin,,Roath vil
+resident,CARLISLE PLACE,136,,G. F. W.,Balleine,Penrhyn,
+resident,CARLISLE PLACE,134,,Alfred,Oates,,Springfield
+resident,CARLISLE PLACE,132,,T.,Harries,,Ashfield
+resident,CARLISLE PLACE,130,,Mrs C.,Williams,2 Annesley villas,
+resident,CARLISLE PLACE,128,,James,White,1 do,
+cross_street,CARLISLE PLACE,,,,,"here is Annesley-road.",
+resident,CARLISLE PLACE,126,,John,Hockey,Eusemere,
+resident,CARLISLE PLACE,124,,Mrs,Warwick,Bryn-view,
+resident,CARLISLE PLACE,122,,W. L.,Trevorrow,Merton v,
+resident,CARLISLE PLACE,120,,O.,Cappelle,Morton villa,
+cross_street,CARLISLE PLACE,,,,,"here is Duckpool-road.",
+resident,CARLISLE PLACE,,,,,,Vacant sites
+resident,CARLISLE PLACE,,,,,,Villa void
+resident,CARLISLE PLACE,,,,,,Do do
+resident,CARLISLE PLACE,114,,Samuel,French,,
+resident,CARLISLE PLACE,,,Bernard,Needham,chm'st,
+resident,CARLISLE PLACE,112,,Alexander,Ross,,
+resident,CARLISLE PLACE,104,,F. W.,Hall,,Spring vale
+resident,CARLISLE PLACE,102,,Thomas J.,Davies,,
+resident,CARLISLE PLACE,100,,Miss,Little,,Waverdale ho
+resident,CARLISLE PLACE,98,,Wm.,Budd,,Glen dale
+resident,CARLISLE PLACE,96,,Walter,Walters,,Roseglen
+cross_street,CARLISLE PLACE,,,,,"here is Dean-street.",
+resident,CARLISLE PLACE,94,,H. B.,Hilton,,Belmont ho
+resident,CARLISLE PLACE,92,,John F.,Lewis,,Oscar ho
+resident,CARLISLE PLACE,90,,Mrs,Roach,,Ashbrook
+resident,CARLISLE PLACE,88,,Wm. Hy.,Winter,,Leeds ho
+resident,CARLISLE PLACE,86,,,,Hunslet house-void,
+resident,CARLISLE PLACE,84,,Mrs J.,Davies,,Elsdon ho
+resident,CARLISLE PLACE,82,,Jno.,Powell,,Somerset ho
+resident,CARLISLE PLACE,80,,Sam.,Vowles,,Wrekin cot
+resident,CARLISLE PLACE,78,,W.,Truscott,,Frankfort vale
+resident,CARLISLE PLACE,76,,Robt.,Parry,,Anton villa
+resident,CARLISLE PLACE,74,,Miss,Griffiths,,Dessie, Ramma house
+resident,CARLISLE PLACE,72,,Mrs,Evans,,Llangseview h
+resident,CARLISLE PLACE,70,,Edward,Davies,,Hope cot
+resident,CARLISLE PLACE,68,,Mrs M.,Matthews,,Cheddar vale
+resident,CARLISLE PLACE,,,Arthur J.,Spear,clerk,
+resident,CARLISLE PLACE,66,,Ed.,Marsh,,Rosebud vil
+resident,CARLISLE PLACE,64,,Mrs R.,Trew,dyer,
+cross_street,CARLISLE PLACE,,,,,"here is Bishop-street.",
+resident,CARLISLE PLACE,62,,Thomas,Payne,broker,
+resident,CARLISLE PLACE,60,,Jno.,Whelpton,,Coventryho
+resident,CARLISLE PLACE,58,,W.,Waters,,Wye house
+resident,CARLISLE PLACE,56,,B.,Witchell,,Ashley ho
+resident,CARLISLE PLACE,54,,Wm.,Rees,,Melbourne ho
+resident,CARLISLE PLACE,52,,Geo.,Ventom,,Marson ho
+resident,CARLISLE PLACE,50,,Jos.,Nutt,,Tilbury ho
+resident,CARLISLE PLACE,48,,,,Duffrynho,
+resident,CARLISLE PLACE,46,,Owen,Davies,,Clifton ho
+resident,CARLISLE PLACE,44,,Wm. A.,Lane,,Leon ho
+resident,CARLISLE PLACE,42,,Sl.,Chapman,,Trelawny ho
+resident,NEWPORT STREET LIST.,40,,S.,Richmond,Highbury ho,
+resident,NEWPORT STREET LIST.,38,,W. D.,Hyndman,Wain ho,
+resident,NEWPORT STREET LIST.,36,,Jas. P.,Collins,Bryn ho,
+resident,NEWPORT STREET LIST.,34,,Wm.,Saunders,Cleadon h,
+resident,NEWPORT STREET LIST.,32,,Eleazr.,Davis,Auckland h,
+resident,NEWPORT STREET LIST.,30,,Mrs E.,Brinsmead,Brookland house,
+resident,NEWPORT STREET LIST.,28,,Mrs,Jones,Riverton ho,
+resident,NEWPORT STREET LIST.,26,,W. Justin,Hutchins,Llanishen house,
+resident,NEWPORT STREET LIST.,24,,James,Brown,Belle vista,
+resident,NEWPORT STREET LIST.,22,,M.,Johns,Llanblethian h,
+resident,NEWPORT STREET LIST.,20,,Mrs,Fargher,Henllys ho,
+cross_street,NEWPORT STREET LIST.,,,,,"here is Junction-road.",
+resident,NEWPORT STREET LIST.,18,,Thos.,Cole,greengrocer, etc,
+resident,NEWPORT STREET LIST.,16,,Wm.,Robertson,tobacconist,Ellis, to-
+cross_street,NEWPORT STREET LIST.,,,,,"here is Church-road.",
+resident,NEWPORT STREET LIST.,14,,,,,Newport Cycle Repairing Company
+resident,NEWPORT STREET LIST.,,,,E. and Son,Lewis,helve makers, etc,
+resident,NEWPORT STREET LIST.,12,,Edwin,East,signalman,
+resident,NEWPORT STREET LIST.,10,,J.,Byard,fancy repos'ty,Mrs
+resident,NEWPORT STREET LIST.,8,,F. W.,Haesler,picture frame maker, gilder, etc,
+resident,NEWPORT STREET LIST.,6,,Mrs E.,Putnam,confect'nr,
+resident,NEWPORT STREET LIST.,4,,Mrs Marian,Grant,,
+resident,NEWPORT STREET LIST.,2,,Wm.,Bush,1 Eastgate villas,
+street,Calne Place.,,,,,,Nos 59-71 Church-road.
+street,Cambria Cottages, M.,,,,,,From 33 Albert-avenue.
+street,Cambria Place.,,,,,,See Nos 55 to 64 Stow-hill.
+street,Cambrian Road.,,,,,,from 82 Bridge-st. to Station.
+resident,Cambrian Road.,,,,,"Yorath & Son, Cambrian brewery",,
+street,Camelot Place, B.T.,,,,,,Whitby-pl. to Manchester-st.
+resident,Camelot Place, B.T.,1,,Geo.,Nicholas,factory,
+resident,Camelot Place, B.T.,2,,John,Eynon,carpenter,
+resident,Camelot Place, B.T.,3,,John,Crotty,factory hand,
+resident,Camelot Place, B.T.,4,,Eugene,Crotty,factory,
+resident,Camelot Place, B.T.,5,,George,Edwards,tailor,
+resident,Camelot Place, B.T.,6,,Hy. T.,Bowen,factory,
+resident,Camelot Place, B.T.,7,,T.,Phillips,bicycle smith,
+resident,Camelot Place, B.T.,8,,George,Cridland,sailor,
+resident,Camelot Place, B.T.,9,,Hy.,Leaker,labourer,
+resident,Camelot Place, B.T.,10,,Edwin,Chave,genl. shop,

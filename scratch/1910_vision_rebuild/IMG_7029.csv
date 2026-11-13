@@ -1,0 +1,134 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Albion Street,E 5,,,,,"From 189 Commercial-road."
+resident,Albion Street,1,,,Thomas,Hood,dock labr,
+resident,Albion Street,2,,,William,Lampre,,
+resident,Albion Street,3,,,Richd.,Ross,pilot's assist,
+resident,Albion Street,4,,,Hy.,Green,crane driver,
+resident,Albion Street,5,,,Henry,Strode,labourer,
+resident,Albion Street,6,,,Mrs. Catherine,Granville,,
+resident,Albion Street,7,,,Richard,Pope,mason,
+resident,Albion Street,8,,,Fredk.,Cordy,police,
+resident,Albion Street,9,,,James,Butler,labourer,
+resident,Albion Street,10,,,James,Young,labourer,
+resident,Albion Street,11,,,George,Reade,inspector,
+resident,Albion Street,12,,,Danl.,O'Connel,trimmer,
+resident,Albion Street,13,,,Wm.,Carrol,labourer,
+resident,Albion Street,14,,,William,Berry,boatman,
+resident,Albion Street,15,,,Walter J.,Coes,coal trmr,
+resident,Albion Street,16,,,John,Lewis Albt.,g.w.r.,
+resident,Albion Street,17,,,Cornelius,Burke,trimmer,
+resident,Albion Street,18,,,Mrs.,Oakley,,
+resident,Albion Street,19,,,Henry,Harris,painter,
+resident,Albion Street,20,,,Wm.,James,dock labourer,
+resident,Albion Street,21,,,Dl. Thos.,Powell,dk labr,
+resident,Albion Street,22,,,Samuel,James,fitter,
+resident,Albion Street,23,,,Chas.,Iles,labourer,
+resident,Albion Street,24,,,Robt.,Kane,boilermaker,
+resident,Albion Street,25,,,J. C.,Wiltshire,bootmkr,
+resident,Albion Street,26,,,Arthur,Pearce,,
+resident,Albion Street,,,,,Tom,Crandon,labourer,
+resident,Albion Street,27,,,Ivor,Gunter,dock labr,
+resident,Albion Street,28,,,James,Neill,coal trimmer,
+resident,Albion Street,29,,,John Henry,Jones,,
+resident,Albion Street,30,,,John,Law,seaman,
+resident,Albion Street,,,,,Walter,Landrey,labourer,
+resident,Albion Street,31,,,Owen,Coughlin,labourer,
+resident,Albion Street,,,,,Chas.,Pritchard,labourer,
+resident,Albion Street,32,,,A. C.,Blake,blacksmith,
+resident,Albion Street,33,,,Bros.,Houghton,undrtkrs and carriage proprietors,
+resident,Albion Street,,,,,Bros.,Houghton,firewood yd.,
+street,Alderney Street,B 4,,,,,"From 49 Albany-street."
+resident,Alderney Street,,,,John,Morgan,engine driver,
+street,Alexandra Docks,F 5,,,,,"From end of Watchhouse-par. [North-end.]"
+resident,Alexandra Docks,,,,,,Wharfingers,Traffic, and Shipping office-W. Strang, wharfinger
+resident,Alexandra Docks,,,,,,,G.W.R. enquiry office
+resident,Alexandra Docks,,,,,,,Customs
+resident,Alexandra Docks,,,,,,,L. & N. W. Co.'s office
+resident,Alexandra Docks,,,,E. E.,Cox,outdoor assistant,
+resident,Alexandra Docks,,,,,,A. (N.) D.&R. police & pay o. Discharging berths
+cross_street,Alexandra Docks,,,,,,[West-side.]
+resident,Alexandra Docks,,,,,Wise H.,timber measurer's office,Timber berths
+resident,Alexandra Docks,,,,,,,Dock engine office
+resident,Alexandra Docks,,,,,,,Hydraulic power station
+resident,Alexandra Docks,,,,,,,Timber float
+resident,Alexandra Docks,,,,,& Co.'s,Nicholas,steam sawing & mouldin.g mills,Ltd.
+resident,Alexandra Docks,,,,Clifford,Wills,engine drvr,
+resident,Alexandra Docks,,,,H.,Williams,foreman,
+resident,Alexandra Docks,,,,Boulton & Haywood,Burt,creosote works &c. & at Port Talbot,Ltd. sleeper mchts.
+resident,Alexandra Docks,,,,,,British Wagon Co., Ltd.,
+resident,Alexandra Docks,,,,,,A. D. & R. Ambulance station,
+resident,Alexandra Docks,,,,,,Post Office Telephone office,
+resident,Alexandra Docks,,,,,,National Telephone Co.'s office,
+resident,Alexandra Docks,,,,Frank C. & Co.,Strick,Ltd. Alex. Dk. carpenters' dept.,
+resident,Alexandra Docks,,,,Carney & Co.,Mordey,Ltd. Durham engine works,
+resident,Alexandra Docks,,,,,,South Dock-Six coal hoists and necessary sidings,
+resident,Alexandra Docks,,,,(Easton) & Company,Gibb,contractors,
+cross_street,Alexandra Docks,,,,,,(return) [East-side.]
+resident,Alexandra Docks,,,,,,,Engine houses & workshops
+resident,Alexandra Docks,,,,,,,Alexandra Dry Dock
+cross_street,Alexandra Docks,,,,,,DOCK COTTAGES-
+resident,Alexandra Docks,13,,,Thomas,England,fitter,
+resident,Alexandra Docks,12,,,F. E.,Thomas,motor fittr,
+resident,Alexandra Docks,11,,,John,Bradbury,eng. drvr,
+resident,Alexandra Docks,10,,,Fredk.,Morgan,dockman,
+resident,Alexandra Docks,9,,,John,Watts,"",
+resident,Alexandra Docks,8,,,E.,Jones,"",
+resident,Alexandra Docks,7,,,Wm. Hy.,Rowland,"",
+resident,Alexandra Docks,6,,,James,Smith,"",
+resident,Alexandra Docks,5,,,Chas.,Hansford,fitter,
+resident,Alexandra Docks,4,,,John,Aldridge,dockman,
+resident,Alexandra Docks,3,,,John,Lloyd,"",
+resident,Alexandra Docks,2,,,William,Soffe,"",
+resident,Alexandra Docks,1,,,Jacob,Ingram,"",
+resident,Alexandra Docks,,,,,,,Customs watchhouse
+cross_street,Alexandra Docks,,,,,,here are the North Locks.
+resident,Alexandra Docks,,,,,,,Telephone huts (2)
+resident,Alexandra Docks,,,,,,,Dock master's office
+resident,Alexandra Docks,,,,,Parfitt William,dock master,Dock house
+resident,Alexandra Docks,,,,J.,Pattison,dock engineer,
+resident,Alexandra Docks,,,,,,Alexandra (Newport & South Wales) Docks & Railway Company-J. Macaulay, general manager
+resident,Alexandra Docks,,,,,Geo. & Co.,Scott,stevedores Cork wharf
+street,Alexandra Road,E 5,,,,,"From end of Commercial-road."
+cross_street,Alexandra Road,,,,,,[RIGHT HAND SIDE.]
+resident,Alexandra Road,2,,,W. F.,Leonard,grocer,
+resident,Alexandra Road,4,,,R. W.,Maddocks,outfitter,
+resident,Alexandra Road,6,,,Wm.,Hughes,hairdrsr,
+resident,Alexandra Road,8,,,D. J.,Evans,butcher,
+resident,Alexandra Road,,,,Thos.,Casey,dk. labourer,
+resident,Alexandra Road,10,,,Dd.,Pugh,greengrocer,
+resident,Alexandra Road,12,,,Mrs. A.,Marks,tobacconist,
+resident,Alexandra Road,14,,,W.,Baldock,pork butcher,
+resident,Alexandra Road,16,,,Harris & Hood,ship chndls,
+resident,Alexandra Road,18,,,Edwin,Oakley,gen. shop,
+resident,Alexandra Road,20,,,Duffryn Stm. Coal Co. Ld.-R. T. Martin, agt Parry D. caretaker,Powell,
+resident,Alexandra Road,22,,,Mrs. L.,Berry,restaurant,
+resident,Alexandra Road,24,,,,Void,,
+resident,Alexandra Road,26,,,,,(Newport) Dks and Railway Co.-Engineer's office,Alexandra
+cross_street,Alexandra Road,,,,,,here is James-street:
+resident,Alexandra Road,28,,,,,& Colonial Meat Company,English
+resident,Alexandra Road,30,,,F.,James,confectioner,
+resident,Alexandra Road,32,,,M.,James,china dealer,
+resident,Alexandra Road,34,,,W. D.,Harris,greengrocer,
+resident,Alexandra Road,,,,,St. Stephen's Schools,,
+resident,Alexandra Road,36,,,James,Fleming,,
+resident,Alexandra Road,38,,,D. J.,Evans,butcher,
+resident,Alexandra Road,40,,,Wm. J.,Bartlett,grocer,
+cross_street,Alexandra Road,,,,,,here is Adeline-street.
+resident,Alexandra Road,,,,,St. Stephen's Church,,
+cross_street,Alexandra Road,,,,,,here is Pottery-terrace.
+resident,Alexandra Road,42,,,E.,Roberts,baker, etc.,
+resident,Alexandra Road,44,,,L. P.,Hansen,photographr,
+resident,Alexandra Road,46,,,W. H.,Bowen,greengrocer,
+resident,Alexandra Road,48,,,Son,Gillman &,boot strs,
+resident,Alexandra Road,,,,,Baptist Chapel,,
+cross_street,Alexandra Road,,,,,,here is Milman-street.
+resident,Alexandra Road,50,,,,Pillgwenlly Constitutional Club,,
+resident,Alexandra Road,52,,,Sam. H.,Dunn,coal foremn,
+resident,Alexandra Road,54,,,W. J.,Peters,,
+resident,Alexandra Road,56,,,,Holzapfels Composition Co., Ltd.,,
+resident,Alexandra Road,,,,,Maurice,Lenahan,,
+resident,Alexandra Road,58,,,Walter,Abraham,boatmn,
+resident,Alexandra Road,60,,,A.,Collins,Springfield,
+resident,Alexandra Road,62,,,Herbt J.,Gregory,pattern maker,
+resident,Alexandra Road,64,,,Ll.,Lloyd,engine driver,
+resident,Alexandra Road,66,,,Ernest,Lynch,boilermkr,

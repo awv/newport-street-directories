@@ -1,0 +1,169 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,FIE,5,Pen-ybryn,Rev. A. T.,Jones,,
+resident,FIE,6,Highbank,D. A.,Simmonds,,
+resident,FIE,7,Glen Lyn,Mrs. H. G.,Lloyd,,
+cross_street,FIE,,,,,,here is St. Mark's-crescent
+resident,FIE,8,Ty Clyd,Rev. T. H.,Williams,,
+resident,FIE,9,Kingsdown,Wm.,Hayman,,
+resident,FIE,10,Kirkdale house,J.,Carter,,
+resident,FIE,11,Bank,Lionel,Harris,,
+resident,FIE,12,Laurel [Bank],Cecil J.,Tanchan,,
+resident,FIE,13,,W. H.,Barker,,
+resident,FIE,14,St. Iven,J. Stiven,,
+resident,FIE,15,Leighton,A.,Stevens,,
+resident,FIE,16,Brentor,W.,Moore,builder,
+resident,FIE,17,Tresco,John,Thomas,,
+resident,FIE,,,Vacant sites,,,
+resident,FIE,17A,,Mrs. Sarah J.,Walters,,
+resident,FIE,,,Staplegrove-void,,,
+resident,FIE,18,Newlands,John,Rosser,,
+resident,FIE,19,Tynewydd,John,Hazell,,
+resident,FIE,20,,David,Rees,,
+resident,FIE,21,Claremont,John,Williams,,
+resident,FIE,21A,Gatacre,J. H.,Murrow,,
+resident,FIE,22,Winsford,R. S.,Colquhoun,,
+resident,FIE,23,Cefn Coch,W.,Phillips,,
+cross_street,FIE,,,,,,here is Godfrey-road
+cross_street,FIE,,,,,,here is Fields Park-road
+resident,FIE,24,Redcliffe,G. F.,Lovell,,
+resident,FIE,25,Trevella,Thos.,James,,
+resident,FIE,26,Raymond,Percival,Gibbs,,
+resident,FIE,,,Kingarth,,,
+resident,FIE,27,Morning side,W. H. P.,Scanlon,,
+resident,FIE,28,Tremena,W. H.,Blackall,,
+resident,FIE,29,Pembroke h,H. C.,Parfitt,,
+resident,FIE,30,Llewellyn,G.,Lloyd,,
+resident,FIE,31,Colyton,E. H.,Fawckner,F.R.I.B.A.,
+resident,FIE,32,,William,Lewis,J.P.,
+resident,FIE,33,Clovelly,Mrs. S.,Kendrick,,
+resident,FIE,34,Park-hurst,Rev. L.,Davies,,
+resident,FIE,35,Cheddleton,C. H.,Reed,,
+resident,FIE,36,Greylands,Fred C.,Jones,,
+resident,FIE,37,Briarglen,Mrs. G.,Hammond,,
+resident,FIE,38,Mossbank,John F.,Jupp,M.I.C.E.,
+resident,FIE,39,Elmhurst,Charles,Brown,,
+resident,FIE,,,Arthur B.,Richards,,
+resident,FIE,40,Charleville,C. M.,Ayliffe,,
+resident,FIE,41,Kendal,Ralph,Burge,,
+resident,FIE,42,Athelney,Walter W.,Ware,,
+resident,FIE,43,,Ernest,Joyce,,
+resident,FIE,44,Henlade,Mrs. M.,Sansom,,
+resident,FIE,45,Glyn-Aeron,Peter,Evans,,
+resident,FIE,46,Chisworth,E. T.,Thornley,,
+street,FILEY ROAD,,,,,,B 3
+cross_street,FILEY ROAD,,,,,,From 17 Stockton-road
+cross_street,FILEY ROAD,,,,,,(LEFT HAND SIDE.)
+resident,FILEY ROAD,1,,,Huggins Henry,assistant,
+resident,FORD STREET,3,,Mrs. Harriett,Marsh,,
+resident,FORD STREET,5,,Isaac,Gething,,
+resident,FORD STREET,7,,Wm.,Lane,engineer,
+resident,FORD STREET,9,,Henry J.,Victory,gas in.
+resident,FORD STREET,11,,Albert S.,Rudd,postman
+cross_street,FORD STREET,,,,,,(return)
+resident,FORD STREET,,,Vacant sites,,,
+street,FORD STREET,,,,,,C 5
+cross_street,FORD STREET,,,,,,From 9 Tunnel-terrace
+cross_street,FORD STREET,,,,,,(RIGHT HAND SIDE.)
+resident,FORD STREET,1,,Arthur,Hart,mason,
+resident,FORD STREET,2,,Henry,Smith,blacksmith,
+resident,FORD STREET,3,,Henry John,Hart,G.W.R.
+resident,FORD STREET,4,,Wm. A.,Stephens,tipper,
+resident,FORD STREET,5,,Frederick Jos.,Bishop,,
+cross_street,FORD STREET,,,,,,(return)
+resident,FORD STREET,6,,E. J.,Wheeler,cab proprtr,
+resident,FORD STREET,7,,Job A.,Sheppard,striker,
+resident,FORD STREET,8,,George,Jones,,
+resident,FORD STREET,9,,H. J.,Selwood,coachman,
+resident,FORD STREET,,,Wm.,Baldwin,ironworker,
+street,FOTHERGILL STREET,,,,,,D 4
+cross_street,FOTHERGILL STREET,,,,,,From 54 Emlyn-street
+cross_street,FOTHERGILL STREET,,,,,,(RIGHT HAND SIDE.)
+resident,FOTHERGILL STREET,,,J. D. & Son,Jewitt,scalemakers,
+resident,FOTHERGILL STREET,1,,Eli,Butt,carter,
+resident,FOTHERGILL STREET,2,,Thomas,Perkins,tipper,
+resident,FOTHERGILL STREET,3,,Fredk. G.,Williams,painter,
+resident,FOTHERGILL STREET,,,Forward Movement Central Hall back entrance,,,
+resident,FOTHERGILL STREET,25,,Henry,Tanner,,
+street,FOTHERINGHAM PLACE,,,,,,
+cross_street,FOTHERINGHAM PLACE,,,,,,From Fothergill-street
+cross_street,FOTHERINGHAM PLACE,,,,,,(LEFT HAND SIDE.)
+resident,FOTHERINGHAM PLACE,1,,James,McLaren,gardener,
+resident,FOTHERINGHAM PLACE,1A,,Wm. John,Quance,carprtr,
+resident,FOTHERINGHAM PLACE,3,,Geo.,Fisher,carpenter,
+resident,FOTHERINGHAM PLACE,5,,Herbert,Keating,trimmer,
+resident,FOTHERINGHAM PLACE,7,,Wm.,Truman,engineer,
+resident,FOTHERINGHAM PLACE,9,,Fredk.,West,labourer,
+resident,FOTHERINGHAM PLACE,11,,Harry,Sidney,,
+resident,FOTHERINGHAM PLACE,13,,Mrs. Elizabeth,Casey,,
+resident,FOTHERINGHAM PLACE,,,Milward Hy.,Wade,,
+cross_street,FOTHERINGHAM PLACE,,,,,,(return)
+resident,FOTHERINGHAM PLACE,12,,Mrs. Elizabeth,Sheppard,,
+resident,FOTHERINGHAM PLACE,10,,Geo.,Taylor,engine driver,
+resident,FOTHERINGHAM PLACE,8,,Robert Hy.,Davey,,
+resident,FOTHERINGHAM PLACE,6,,Thos. Wm.,Green,engine driver; M. en-
+resident,FOTHERINGHAM PLACE,4,,Geo. Hy.,Williams,G.W.R.
+resident,FOTHERINGHAM PLACE,2,,John,Walley,,
+street,FRANCIS STREET,,,,,,E 5 22
+cross_street,FRANCIS STREET,,,,,,From 19 Alma-st. to Lewis-st.
+cross_street,FRANCIS STREET,,,,,,(LEFT HAND SIDE.)
+resident,FRANCIS STREET,1,,John B.,Morgan,,
+resident,FRANCIS STREET,2,,Francis George,Burston,,
+resident,FRANCIS STREET,3,,Nicholas,Collins,weighman,
+resident,FRANCIS STREET,4,,Thomas,Crandon,striker,
+resident,FRANK STREET,5,,Geo. F.,Evans,decorator,
+resident,FRANK STREET,,,JEWISH SYNAGOGUE,,,
+cross_street,FRANK STREET,,,,,,(return)
+resident,FRANK STREET,6,,Frank,Bowen,fitter,
+resident,FRANK STREET,7,,Mrs. Jane,Davies,,
+resident,FRANK STREET,8,,Geo. H.,Knight,coal mer.
+resident,FRANK STREET,9,,Miss T.,Jones,,
+resident,FRANK STREET,,,Wm.,Whelton,,
+street,FRANK STREET,,,,,,C 4
+cross_street,FRANK STREET,,,,,,From Bond-st., East Usk-rd.
+cross_street,FRANK STREET,,,,,,(LEFT HAND SIDE.)
+resident,FRANK STREET,1,,James,Blackler,groom,
+resident,FRANK STREET,2,,Arthur,Lee,haulier,
+resident,FRANK STREET,3,,Tim,Coughlin,lamplighter,
+resident,FRANK STREET,4,,Charles,Thomas,trimmer,
+resident,FRANK STREET,5,,John,Brunt,butcher,
+cross_street,FRANK STREET,,,,,,(return)
+resident,FRANK STREET,6,,William,Donaldson,,
+resident,FRANK STREET,7,,Job,Evans,rivetter,
+resident,FRANK STREET,8,,Fk.,Sheppard,sheet wghi,
+resident,FRANK STREET,9,,Reginald,Dent,dk. labr,
+resident,FRANK STREET,10,,Isaac,Bailey,police,
+resident,FRANK STREET,11,,Thos.,Pinnell,brewer's labr,
+resident,FRANK STREET,12,,Gilbert I.,Jones,plumber,
+resident,FRANK STREET,13,,Robert,Jones,blacksmith,
+resident,FRANK STREET,14,,Andrew,Fereday,,
+street,FREDERICK STREET,,,,,,E 4
+cross_street,FREDERICK STREET,,,,,,From 80 Commercial-road
+resident,FREDERICK STREET,1-2,,Mrs. Mary,McNamara,,
+resident,FREDERICK STREET,3,,Austin,Thomas,labourer,
+resident,FREDERICK STREET,4,,,Void,,
+resident,FREDERICK STREET,5,,Mrs. E.,Hayden,,
+resident,FREDERICK STREET,6,,John,Regan,seaman,
+resident,FREDERICK STREET,7,,James,Woods,,
+resident,FREDERICK STREET,8,,John,McCarthy,labourer,
+resident,FREDERICK STREET,9,,Mrs. Emma,Williams,,
+resident,FREDERICK STREET,,,S.,Phillips,bricklayer,
+resident,FREDERICK STREET,10,,David,Cashman,striker,
+resident,FREDERICK STREET,11,,Robert,Breeds,labourer,
+resident,FREDERICK STREET,12,,Wm.,Hopkins,haulier,
+resident,FREDERICK STREET,13,,Geo.,Pritchard,labourer,
+resident,FREDERICK STREET,14,,Mrs. Hannah,Stowells,,
+resident,FREDERICK STREET,,,John,McCarthy,labourer,
+resident,FREDERICK STREET,15,,John,Sullivan,coal trim'r,
+resident,FREDERICK STREET,16,,Aug.,Thompson,labourer,
+resident,FREDERICK STREET,17,,Mrs. Mary Ann,Thomas,,
+resident,FREDERICK STREET,18,,Timothy,Sullivan,trimmr,
+resident,FREDERICK STREET,19,,Walter,Guy,,
+resident,FREDERICK STREET,20,,Alfred,Jones,guard,
+resident,FREDERICK STREET,21,,Geo.,Clements,seaman,
+resident,FREDERICK STREET,22,,Ivor,Gibbon,guard,
+cross_street,FREDERICK STREET,,,,,,here is Broad-street
+resident,FREDERICK STREET,23,,Dennis,Canlon,labourer,
+resident,FREDERICK STREET,24,,William,Smith,labourer,
+resident,FREDERICK STREET,25,,John,Driscoll,labourer,
+resident,FREDERICK STREET,26,,Mrs. Charlotte,Russell,,
+resident,FREDERICK STREET,27,,Mrs. Martha,Bailey,,

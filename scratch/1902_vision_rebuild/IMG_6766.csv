@@ -1,0 +1,162 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,,3,Walton ho,Wm.,Bibby,,
+resident,,5,Wellesley,Mrs.,Hood,,
+resident,,7,Tyrone,E.,Faull,,
+resident,,9,Selsdon,Wm. J.,Ridley,,
+resident,,11,Pendre,Frederick J.,Lewis,,
+resident,,Davies' yd,builder's yd,D. J.,Davies,,
+resident,,13,St. Audries,D. J.,Davies,,
+resident,,15,,Walter,Phillips,outfitter,
+resident,,17,,,Rees,John,
+resident,,19,,,Smith,James,
+resident,,21,,,Gwynne,Charles,
+resident,,23,Dean ho,Mark,Parsons,,
+resident,,25,,Mrs. Susannah,Huggett,,
+resident,,27,Frome vale,B.,Fussell,,
+resident,,29,Kilburn ho,T.,Baldwin,,
+resident,,31,Grove ho,F.,Littiejones,,
+cross_street,,,here is Bedford-road,,,,
+resident,,33,,,Unbuilt,,
+resident,,35,,,Herbert,Poole,,
+resident,,37,Ryecroft,Abraham,Jacobs,,
+resident,,39,Ffynonau,Thos.,Mitchell,,
+resident,,41,Cranleigh,James,Jenkins,,
+resident,,43,Seaton house,G.,Thomas,,
+street,Havelock Street.,,,,,,58 Stow-hill to North-street.
+resident,Havelock Street.,1,,,Daniels,James,signalman
+resident,Havelock Street.,2,,,Williams,Mrs. Margaret,
+resident,Havelock Street.,3,,,Mead,Thos.,G.W.R.
+resident,Havelock Street.,4,,,Wheelan,James,shopkeeper
+resident,Havelock Street.,,PRESBYTERIAN CHURCH,,,,
+street,Henry Street.,,,,,,From Wyndham-st., Marshes.
+cross_street,Henry Street.,,,[LEFT HAND SIDE.],,,
+resident,Henry Street.,1,,,Morgan,Charles,painter
+resident,Henry Street.,2,,,Marney,Dennis,,
+resident,Henry Street.,3,,,Taylor,George Henry,
+resident,Henry Street.,4,,,Hemmings,John,salesmn
+resident,Henry Street.,5,,,Quick,Mrs. Mary,
+resident,Henry Street.,6,,,Jones,William,labourer
+resident,Henry Street.,,dressmkr,Miss Beat.,Jones,,
+resident,Henry Street.,7,,,Attewell,John,haulier
+resident,Henry Street.,8,,,Williams,Thomas,haulier
+resident,Henry Street.,9,,,Parsons,Henry,labourer
+resident,Henry Street.,10,,,Luke,James,fellmonger
+resident,Henry Street.,11,,,Morgan,Mrs. Emma,
+resident,Henry Street.,12,,,Hopkins,John,fireman
+resident,Henry Street.,13,,,Ballinger,Hy.,waterman
+resident,Henry Street.,14,,,Jones,George,carpenter
+resident,Henry Street.,15,,,Thomas,Fredk.,fireman
+resident,Henry Street.,16,,,Johnston,Jas.,ironworker
+resident,Henry Street.,17,,,Hawkins,Seth,butcher
+resident,Henry Street.,18,,,Norman,Edward,labourer
+resident,Henry Street.,19,,,Morgan,Mrs. Emma,
+resident,Henry Street.,20,,,Hemmings,Walter,pqrter
+resident,,21,,,Hallett,Thomas,porter
+resident,,22,,,Roberts,James,bootmakr
+resident,,23,,,Bees,Miss Louisa,
+resident,,24,,,Bryan,John,labourer
+resident,,25,,,Gait,Charles,baker
+resident,,26,,,James,William,hawker
+resident,,27,,,Baldwin,Wm.,moulder
+resident,,28,,,Edmunds,Isaac,labourer
+resident,,29,,,Bush,Francis,moulder
+resident,,30,,,Howells,Fredk.,haulier
+resident,,31,,,Chapman,Richard,sweep
+resident,,32,,,Bateman,Edward Vivian,
+resident,,33,,,Grist,Tom,labourer
+resident,,34,,,Stevens,George,smith
+resident,,35,,Dos works,Nath.,Harris,,
+resident,,36,,,Coleman,Wm.,gasfitter
+cross_street,,,here is Evans-street.,,,,
+resident,,37,,,Cresswell,George,porter
+resident,,38,,,Wilkins,John,mason
+resident,,39,,,Kelly,Joseph,labourer
+resident,,40,,,Stack,Michael,labourer
+resident,,41,,,Daniels,Francis,labourer
+resident,,42,,,Pitman,Wm.,labourer
+resident,,43,,,James,David,bricklayer
+resident,,44,,,Lockyer,Edwd.,coachman
+resident,,45,,,Williams,John,stonemsn
+resident,,46,,,Cox,Mrs. Mary,
+resident,,47,,,Stephens,Alfred,
+resident,,48,,,Ridge,Charles,labourer
+resident,,49,,,Holder,John E.,labourer
+resident,,50,,,Selathel,John,
+resident,,51,,,Perkins,J.,grease maker
+resident,,52,,brewery hand,Thos.,Lloyd,,
+resident,,53,,,Johnson,William,tailor
+resident,,54,,,Messerly,John,cook
+resident,,55,,,Kidd,Thomas,bricklayer
+resident,,56,,,Brewis,W.,glass blower
+resident,,57,,,Palmer,Benjamin,
+cross_street,,, (return.),,,,
+resident,,59,,,Grace,Daniel,labourer
+resident,,60,,,Jones,Mrs. Emma,
+resident,,61,,,Churches,Mrs. Selina,
+resident,,62,,,Waits,Edwin,labourer
+resident,,63,,,Hook,Henry,blacksmith
+resident,,64,,gas works,Jos.,Diacora,,
+resident,,65,,,Lovelock,A. J.,wheelwght
+resident,,66,,,Brettle,Margaret,
+resident,,67,,,Sydney,George,stoker
+resident,,68,,,Wallace,Joseph,bricklayer
+resident,,69,,,Bartlett,Walter,smith
+resident,,70,,,Richards,Wm.,labourer
+resident,,71,,,Bennett,Wm.,labourer
+resident,,72,,,King,Joseph,carter
+resident,,73,,,Payne,John,smith
+resident,,74,,,Groome,Hy.,electrician
+resident,,75,,,Church,George,labourer
+resident,,76,,,Void,,
+resident,,77,,,Crick,George,labourer
+resident,,78,,,Norvill,Albert J.,labourer
+cross_street,,,here is Evans-street.,,,,
+resident,,79,,,Whitfield,John,mason
+resident,,80,,Dd. glass wks,J.,Larcombe,,
+resident,,81,,,Hersey,William,seaman
+resident,,82,,,Evans,William,labourer
+resident,,83,,,Chappell,Mrs,
+resident,,84,,,Coombs,Henry,carpenter
+resident,,85,,,Samuel,Hy.,bootmaker
+resident,,86,,,Williams,Edward,labr'er
+resident,,87,,gas works,Rickard,Jones,,
+resident,,88,,,Thomas,David,painter
+resident,,89,,,Price,C. S.,baker
+resident,,90,,,Wetter,Alfred,shop
+resident,,91,,,Niblett,Edwin,tailor
+resident,,92,,,Bowen,John,mason
+resident,,93,,,Pugh,Aaron,labourer
+resident,,94,,,Rachell,T. M.,guard
+resident,,95,,,Smith,James,bottle mkr
+resident,,96,,,Martin,Walt. Wm.,plast'r
+resident,,97,,,Couch,Joseph,labourer
+resident,,98,,,Longville,Samuel,
+resident,,99,,,Coombs,Robt.,labourer
+resident,,100,,,Lane,Walter J.,tinman
+resident,,101,,,Gilbert,E. L.,labourer
+resident,,102,,,Ireland,Thomas,steward
+resident,,103,,,Parker,Robert,linesman
+resident,,104,,,Jones,John,ironworker
+resident,,105,,,Gough,W. J.,bricklayer
+resident,,106,,,Smith,John,grocer
+street,Herbert Street.,,,,,,Cardiff-road to Alma-street.
+cross_street,Herbert Street.,,,[LEFT HAND SIDE.],,,
+resident,Herbert Street.,1,,,William,Hunt,eng. drivr
+resident,Herbert Street.,2,,,Mrs. Lilly,Hockey,
+resident,Herbert Street.,3,,,Mrs. Harriet,Smart,
+resident,Herbert Street.,4,,,R.,Morris,cabinetmkr
+resident,Herbert Street.,5,,,R. H.,Humphreys,hairdsr
+resident,Herbert Street.,6,,,T.,Marsh,shipwright
+resident,Herbert Street.,7,,,William,Phillips,guard
+resident,Herbert Street.,8,,,Mrs. Maria A.,Stevens,
+resident,Herbert Street.,9,,,William,Stevens,smith
+resident,Herbert Street.,10,,,William,Chave,
+resident,Herbert Street.,11,,,Albert E. E.,Reed,
+resident,Herbert Street.,12,,,M. B.,Chivers,goods grd
+resident,Herbert Street.,13,,,Guy N.,Thorne,
+resident,Herbert Street.,14,,,James,Avery,
+cross_street,Herbert Street.,,,here is Mountjoy-road.,,,,
+resident,Herbert Street.,15,Scrope cottage,Thomas,Rosser,coach builder
+cross_street,Herbert Street.,,, (return.),,,,
+resident,Herbert Street.,16,Oddfellows' Hall,,,,
+resident,Herbert Street.,17,,,Jas.,Witheridge,mas mar

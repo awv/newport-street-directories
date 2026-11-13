@@ -1,0 +1,169 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,KEAR STREET,,,,,,D 4. From 3 Emlyn-street
+resident,KEAR STREET,8,,Alfred,Royster,ironwkr,
+resident,KEAR STREET,6,,Douglas,Holmes,manager,
+resident,KEAR STREET,4,,A. W.,Morris,,
+resident,KEAR STREET,2,,Chas.,Taylor,Skidmore,
+street,KEENE STREET,,,,,,C 3. Off Cromwell-road
+cross_street,KEENE STREET,,,,,,(RIGHT HAND SIDE.)
+resident,KEENE STREET,1,,Mrs. Sarah,Eaves,,
+resident,KEENE STREET,3,,William,Eaves,ironwkr,
+resident,KEENE STREET,5,,Hy.,Birch,warehouseman
+resident,KEENE STREET,7,,Edgar,Tuck,fireman
+resident,KEENE STREET,9,,Robert,Loveridge,,
+resident,KEENE STREET,11,,Ed. J.,Williams,roller
+resident,KEENE STREET,13,,Frank,Priestnall,ironwkr
+resident,KEENE STREET,15,,Albert Henry,Jacobs,,
+resident,KEENE STREET,17,,George,Beames,ironworkr
+resident,KEENE STREET,,,,,,Vacant sites
+cross_street,KEENE STREET,,,,,,(return)
+resident,KEENE STREET,10,,John,Edwards,boilermkr
+resident,KEENE STREET,8,,Job,Davies,ironworker
+resident,KEENE STREET,6,,Alfred,Davies,do
+resident,KEENE STREET,4,,Fred.,Bloor,do
+resident,KEENE STREET,2,,Rd.,Lockley,do
+street,KELVEDON STREET,,,,,,D 3. Off Corporation-road
+cross_street,KELVEDON STREET,,,,,,(RIGHT HAND SIDE.)
+resident,KELVEDON STREET,2,,Martin,Hansen,seaman
+resident,KELVEDON STREET,4,,James,Stone,crane driver
+resident,KELVEDON STREET,6,,George,Henley,,
+resident,KELVEDON STREET,8,,Fredk. G.,Gilham,blrmkr
+resident,KELVEDON STREET,10,,Wm. Benj.,Adlington,dlr
+resident,KELVEDON STREET,,,,,,Vacant sites
+cross_street,KELVEDON STREET,,,,,,(return)
+resident,KELVEDON STREET,,,,,,Vacant sites
+resident,KELVEDON STREET,7,,Thos.,Sheppard,ironworkr
+resident,KELVEDON STREET,9,,Wm.,Guilfoyle,ironwkr
+resident,KELVEDON STREET,,,,J. H.,Williams,builder and contractor,
+street,KENILWORTH ROAD,,,,,,D 2. Chepstow-road, Cross Hands
+cross_street,KENILWORTH ROAD,,,,,,(LEFT HAND SIDE.)
+resident,KENILWORTH ROAD,1,,Fredk. John,Pugh,,
+resident,KENILWORTH ROAD,3,,John,Dunn,,
+resident,KENILWORTH ROAD,5,,Albert,Howells,,
+resident,KENILWORTH ROAD,7,,Frederick,Dent,,
+resident,KENILWORTH ROAD,9,,A. G.,Storer,ins. supt.
+resident,KENILWORTH ROAD,11,,Thomas,Nicholls,ironwkr
+resident,KENILWORTH ROAD,13,,William,Nicholls,rivetter
+resident,KENILWORTH ROAD,15,,Hy. Owen,Yoxall,ironwkr
+resident,KENILWORTH ROAD,17,,John,Turner,,
+resident,KENILWORTH ROAD,19,,Henry,Williams,prof. golf'r
+resident,KENILWORTH ROAD,,,,,,Void
+resident,KENILWORTH ROAD,,,,,,Houses building
+cross_street,KENILWORTH ROAD,,,,,,(return)
+resident,KENILWORTH ROAD,,,,,,6 houses void
+resident,KENILWORTH ROAD,20,,Thos.,Steventon,ironworkr
+resident,KENILWORTH ROAD,18,,Arthur Edwin,Pugh,,
+resident,KENILWORTH ROAD,16,,John P.,Hayes,ironwkr
+resident,KENILWORTH ROAD,14,,Thomas,Anderson,elec-trical engineer
+resident,KENILWORTH ROAD,12,,Wilfred J. M.,Moore,,
+resident,KENILWORTH ROAD,10,,Walter E.,Thomas,managr
+street,KENSINGTON GROVE,,,,,,D 3. Near Kensington-place
+cross_street,KENSINGTON GROVE,,,,,,(LEFT HAND SIDE.)
+resident,KENSINGTON GROVE,1,,Charles M.,Rowley,,
+resident,KENSINGTON GROVE,3,,Richard G.,Lewis,,
+resident,KENSINGTON GROVE,5,,William,Holder,,
+resident,KENSINGTON GROVE,7,,Archibald,Blair,,
+resident,KENSINGTON GROVE,9,,Mrs. Sarah,Hatfield,,
+cross_street,KENSINGTON GROVE,,,,,,(return)
+resident,KENSINGTON GROVE,12,,Geo Henry,Spillane,,
+resident,KENSINGTON GROVE,10,,Herbert W.,Clarke,,
+resident,KENSINGTON GROVE,8,,Harry,Hodges,decorator
+resident,KENSINGTON GROVE,6,,James M.,Hall,,
+resident,KENSINGTON GROVE,4,,W.,Graves,police inspector
+resident,KENSINGTON GROVE,2,Grove house,S.,Ogle,,
+street,KENSINGTON PLACE,,,,,,D 3. From 175 Chepstow-road
+cross_street,KENSINGTON PLACE,,,,,,(LEFT HAND SIDE.)
+resident,KENSINGTON PLACE,1-2,,F. S.,Dauncey,solicitor
+resident,KENSINGTON PLACE,3,,Herbert,Flanders,,
+resident,KENSINGTON PLACE,4,,Belgian Refugee's Home,,,
+resident,KENSINGTON PLACE,5,,John,Pitt,,
+resident,KENSINGTON PLACE,6,,The Misses,Lloyd,,
+resident,KENSINGTON PLACE,7,,Miss F. I.,Geach,,
+resident,KENSINGTON PLACE,8,,A. R.,Petty,Bd. of Trade
+resident,KENSINGTON PLACE,9,,Mrs. Annie,Stacey,,
+resident,KENSINGTON PLACE,10,,David W.,Oates,,
+resident,KENSINGTON PLACE,11,,Samuel,Little,,
+resident,KENSINGTON PLACE,12,,Charles Claridge,Brewer,,
+resident,KENSINGTON PLACE,13,,Ivor M.,Jones,,
+resident,KENSINGTON PLACE,14,,Mrs.,Perry,,
+resident,KENSINGTON PLACE,15,,Alfred F.,Tysoe,,
+resident,KENSINGTON PLACE,16,,Mrs. B.,Lawrence,,
+resident,KENSINGTON PLACE,17,,Albert Edward,Whitcutt,,
+resident,KENSINGTON PLACE,18,,Rev. George,Brain,,
+resident,KENSINGTON PLACE,19,,John S.,Watchman,,
+resident,KENSINGTON PLACE,20,,Edward,Garth,,
+resident,KENSINGTON PLACE,21,,Miss,Richards,ladies' sch
+resident,KENSINGTON PLACE,22,,Norton,Nash,,
+resident,KENSINGTON PLACE,23,,John Thomas,Riley,,
+resident,KENSINGTON PLACE,24,,Charles E.,Gower,,
+resident,KENSINGTON PLACE,25,,Ronald C.,Huggett,,
+resident,KENSINGTON PLACE,26,,F. W. B.,Southern,,
+resident,KENSINGTON PLACE,27,,F. H.,Dauncey,solicitor
+cross_street,KENSINGTON PLACE,,,,,,here is Victoria-lane
+resident,KENSINGTON PLACE,28,Kensington house,F.,Wheeler,,
+resident,KENSINGTON PLACE,29,Harlyn,W. T.,Bond,,
+resident,KENSINGTON PLACE,30,,Ernest,Lawrence,,
+resident,KENSINGTON PLACE,31,,R. H.,Burpitt,M.D.
+resident,KENSINGTON PLACE,32,Rockleigh,John,Price,,
+resident,KENSINGTON PLACE,33,High view,Calvin,Frost,,
+resident,KENSINGTON PLACE,34,Gaerwood,Alfred,Searle,,
+cross_street,KENSINGTON PLACE,,,,,,(return)
+resident,KENSINGTON PLACE,35,Loxhore,Fredk. Willis,Peart,,
+street,KATHERINE STREET,,,,,,B 4. Off Brynglas-road
+resident,JON,36,,Thomas,Jones,,
+resident,JON,37,,W.,Vokins,grocer,
+resident,JON,38,,S. W.,Daymond,grocer,&c.
+cross_street,JON,,,,,,(return)
+resident,JON,39,,Thomas A.,Robinson,,
+resident,JON,40,,Matthew,Brown,labourer
+resident,JON,41,,James,Waters,labourer
+resident,JON,42,,F. W.,Constant,engine dvr
+resident,JON,43,,Fredk.,Taylor,labourer
+resident,JON,44,,Wm.,Childs,gardener
+resident,JON,45,,Arthur,James,shopkeeper
+resident,JON,46,,William,Thomas,collier
+resident,JON,47,,Thomas,Johns,labourer
+resident,JON,48,,—,Moore,,
+resident,JON,49,,Wm.,Westacott,labourer
+resident,JON,50,,Ernest,Meredith,painter
+resident,JON,51,,Geo. S.,Parry,baker
+resident,JON,52,,John,Capel,labourer
+resident,JON,53,,Thos.,Howells,dk. employe
+resident,JON,54,,Richard John,Rees,,
+resident,JON,55,,Thomas Ray,Williams,,
+resident,JON,56,,George,Holt,,
+resident,JON,57,,William,Brickley,shoemaker
+resident,JON,58,,William,Taylor,fireman
+resident,JON,59,,William,Parsons,G.W.R.
+resident,JON,60,,Mich.,Murray,labourer
+resident,JON,61,,Augustine,Banks,,
+resident,JON,62,,Wm.,Pennington,boilermr
+resident,JON,63,,J.,Brace,labourer
+resident,JON,64,,John,Davies,labourer
+resident,JON,65,,John,Hughes,fitter
+resident,JON,66,,George,Venn,fireman
+resident,JON,67,,Wm.,Newman,labourer
+resident,JON,68,,Mrs. Hannah,Mahoney,,
+resident,JON,69,,Francis M.,Workman,,
+resident,JON,70,,Hy.,Callaway,bootmaker
+resident,JON,71,,Tom C.,Hislop,tailor
+resident,JON,72,,J.,Giffen,window cleaner
+resident,JON,73,,Thos. J.,Williams,porter
+resident,JON,74,,Frank,James,painter
+resident,JON,75,,John,Dunk,assistant
+street,JUNCTION ROAD,,,,,,C 3. Caerleon-rd. to Duckpool-rd.
+cross_street,JUNCTION ROAD,,,,,,(LEFT HAND SIDE.)
+resident,JUNCTION ROAD,1,,Thomas,Butlin,showman
+resident,JUNCTION ROAD,2,,Mrs. Margaret,Hurst,,
+resident,JUNCTION ROAD,3,,Wm.,Holmes,platelayer
+resident,JUNCTION ROAD,4,,Fredk.,Howell,labourer
+resident,JUNCTION ROAD,5,,,,,,
+resident,JUNCTION ROAD,6,,Hy.,Hurley,gas stoker
+resident,JUNCTION ROAD,7,,Ed. jun.,Holmes,bricklyr
+resident,JUNCTION ROAD,8,,Wm.,Brooks,ironworker
+cross_street,JUNCTION ROAD,,,,,,here is Bishop-street
+cross_street,JUNCTION ROAD,,,,,,here is Dean-street
+resident,JUNCTION ROAD,9,,John,Walsh,labourer
+resident,JUNCTION ROAD,10,,Sidney,Musty,G.W.R.
+resident,JUNCTION ROAD,11,,Henry,Samuel,bootmaker
+resident,JUNCTION ROAD,12,,Charles,James,labourer

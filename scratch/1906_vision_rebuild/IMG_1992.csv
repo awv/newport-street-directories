@@ -1,0 +1,158 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Hereford Place, C 4,,,,,"Nos. 1 to 23 Caerleon-road."
+resident,Hereford Place, C 4,42,,Frank,Perkins,boot dealr.
+resident,Hereford Place, C 4,43,,Thos. Hy.,Knight,driver
+street,Hereford Street, C 3,,,,,From 61 Chepstow-road to Church-road. [LEFT HAND SIDE.]
+resident,Hereford Street, C 3,,Bible Christian Chapel,,,,
+cross_street,Hereford Street, C 3,,,,,"here is Exeter-street."
+resident,Hereford Street, C 3,45,,Wm.,Evans,engine drvr.
+resident,Hereford Street, C 3,46,,Geo.,Hazell,tram endctr
+resident,Hereford Street, C 3,47,,G. C.,Franklyn,tuner
+resident,Hereford Street, C 3,48,,,Void,,
+resident,Hereford Street, C 3,49,,Robt.,Glendenning,clerk
+resident,Hereford Street, C 3,50,,J.,Bothomley,accountnt
+resident,Hereford Street, C 3,,Salvation Army Barracks,,,,
+resident,Hereford Street, C 3,1,,John,Cliss,fireman
+resident,Hereford Street, C 3,2,,Ernest,Sully,haulier
+resident,Hereford Street, C 3,3,,Mrs. Emma,Morgan,
+resident,Hereford Street, C 3,4,,Mrs. Elizabeth,Davies,
+resident,Hereford Street, C 3,5,,F. J.,Withers,carpenter
+resident,Hereford Street, C 3,6,,W. F.,Blanchard,ins. supt
+resident,Hereford Street, C 3,7,,James,Pritchard,travellr
+resident,Hereford Street, C 3,8,,Mrs. Rhoda,Rees,
+resident,Hereford Street, C 3,9,,Montague,Gregory,butchr
+resident,Hereford Street, C 3,10,,Edward,Hodge,dealer
+resident,Hereford Street, C 3,11,,George,Dowdall,seaman
+resident,Hereford Street, C 3,12,,Henry J.,Morris,carpntr.
+resident,Hereford Street, C 3,13,,Fredk.,Jenkins,painter
+resident,Hereford Street, C 3,14,,Thomas,Henry,grocer
+cross_street,Hereford Street, C 3,,,,,"here is Manchester-street."
+resident,Hereford Street, C 3,15,,Mrs.,Bridges,
+resident,Hereford Street, C 3,16,,Wm. N.,Fraley,platelayer
+resident,Hereford Street, C 3,17,,Wm.,Knapman,driver
+resident,Hereford Street, C 3,18,,Richd.,Brown,blacksmith
+resident,Hereford Street, C 3,19,,James,Gale,ship carpenter
+resident,Hereford Street, C 3,20,,Joseph,Wilmott,labourer
+cross_street,Hereford Street, C 3,,,,,"here is Bristol-street."
+resident,Hereford Street, C 3,21,,Henry,Warren,haulier
+resident,Hereford Street, C 3,22,,Wm. H.,Warren,baker
+resident,Hereford Street, C 3,23,,Wm.,Millichamp,traveller
+resident,Hereford Street, C 3,24,,Frank,Roberts,labourer
+resident,Hereford Street, C 3,25,,T.,Ball,brattice cloth mkr
+cross_street,Hereford Street, C 3,,,,,(return.)
+resident,Hereford Street, C 3,,St. Matthew's Church,,,,
+resident,Hereford Street, C 3,26,,Mrs. M. A.,Sidney,
+resident,Hereford Street, C 3,27,,Wm.,Faulks,labourer
+resident,Hereford Street, C 3,28,,Thos.,Bullock,rubber wks
+resident,Hereford Street, C 3,29,,Fredk.,Stephens,haulier
+resident,Hereford Street, C 3,30,,Wm. J.,Meredith,mason
+cross_street,Hereford Street, C 3,,,,,"here is Bristol-street."
+resident,Hereford Street, C 3,31,,John,Herbert,carpenter
+resident,Hereford Street, C 3,32,,Wm. Hy.,Parfitt,guard
+resident,Hereford Street, C 3,33,,Albert,Westbury,labr.
+resident,Hereford Street, C 3,34,,James,Morgan,butcher
+resident,Hereford Street, C 3,35,,William,Wilks,labourer
+resident,Hereford Street, C 3,36,,Albert E.,Chambers,labr.
+cross_street,Hereford Street, C 3,,,,,"here is Manchester and Liverpool-streets."
+resident,Hereford Street, C 3,37,Hereford Arms Hotel,H. J.,Boulton,
+resident,Hereford Street, C 3,38,,Thomas,Howell,printer
+resident,Hereford Street, C 3,39,,Thomas,Price,ins. agent
+resident,Hereford Street, C 3,40,,Chas.,Hardwick,painter
+resident,Hereford Street, C 3,41,,Ed. Hy.,Perkins,butcher
+street,Hewertson St., C 4,,,,,From Wyndham-st. to Marshes [LEFT HAND SIDE.]
+resident,Hewertson St., C 4,1,,Henry,Holbrest,millwrgt
+resident,Hewertson St., C 4,2,,Thomas,Haley,gas works
+resident,Hewertson St., C 4,3,,Edward,Moran,labourer
+resident,Hewertson St., C 4,4,,Samuel,Miles,scavenger
+resident,Hewertson St., C 4,5,,Geo.,Knight,lamplighter
+resident,Hewertson St., C 4,6,,Fredk.,Howells,labourer
+resident,Hewertson St., C 4,7,,Onesimus,Baker,smith
+resident,Hewertson St., C 4,8,,Thos.,Richards,haulier
+resident,Hewertson St., C 4,9,,William,Wytch,labourer
+resident,Hewertson St., C 4,10,,Cuthbert,Davidson,fitter
+resident,Hewertson St., C 4,11,,Edmund,Jennings,
+resident,Hewertson St., C 4,12,,Henry,Williams,labourer
+resident,Hewertson St., C 4,13,,Mrs. E.,Wytch,
+resident,Hewertson St., C 4,14,,Rich.,Finnighan,mason
+resident,Hewertson St., C 4,15,,Oliver,Palmer,labourer
+resident,Hewertson St., C 4,16,,Mrs. Honora,Hurley,
+resident,Hewertson St., C 4,17,,William,Francis,labourer
+resident,Hewertson St., C 4,18,,Edwd.,Lowe,labourer
+resident,Hewertson St., C 4,19,,Jno. Hy.,Wood,labourer
+resident,Hewertson St., C 4,20,,Emanuel,Hobbs,
+resident,Hewertson St., C 4,21,,Wm.,Hopkins,labourer
+resident,Hewertson St., C 4,22,,Jos.,Johns,labourer
+resident,Hewertson St., C 4,23,,John,Brettell,mason
+resident,Hewertson St., C 4,24,,Edward,Gould,labourer
+resident,Hewertson St., C 4,25,,James,Pleace,
+resident,Hewertson St., C 4,26,,John,Burnell,clerk
+resident,Hewertson St., C 4,27,,Mrs. Ellen,Verrinder,
+resident,Hewertson St., C 4,28,,Alfred,Walkley,haulier
+resident,Hewertson St., C 4,29,,Edwd.,Bryan,labourer
+resident,Hewertson St., C 4,30,,Walter,Oliver,labourer
+resident,Hewertson St., C 4,31,,Wm. H.,Norvill,labourer
+resident,Hewertson St., C 4,32,,Henry,Hutton,labourer
+resident,Hewertson St., C 4,33,,Jonathan,Thomas,seaman
+resident,Hewertson St., C 4,34,,Nugent,Hazell,labourer
+resident,Hewertson St., C 4,35,,Edwin,Reed,George
+resident,Hewertson St., C 4,36,,Fred. Wm.,Hughes,labr.
+cross_street,Hewertson St., C 4,,,,,"here is Evans-street."
+resident,Hewertson St., C 4,,SHAFTESBURY STREET SCHOOLS,,,,
+cross_street,Hewertson St., C 4,,,,,(return.)
+resident,Hewertson St., C 4,48,,James,Hoskins,labourer
+resident,Hewertson St., C 4,49,,Arthur,Hicks,
+resident,Hewertson St., C 4,50,,Wm.,Evans,gas works
+resident,Hewertson St., C 4,51,,Daniel,Lawrence,gas wks
+resident,Hewertson St., C 4,52,,Levi,Price,labourer
+resident,Hewertson St., C 4,53,,John,Smith,carpenter
+resident,Hewertson St., C 4,54,,Arthur,Davies,painter
+resident,Hewertson St., C 4,55,,Wm.,Fry,labourer
+resident,Hewertson St., C 4,56,,Geo.,Thomas,carpenter
+resident,Hewertson St., C 4,57,,Mrs. M. J.,Burrup,
+resident,Hewertson St., C 4,58,,Henry,Bolt,
+resident,Hewertson St., C 4,59,,Frederick,Haines,labr
+resident,Hewertson St., C 4,60,,Edwin,Gough,labourer
+resident,Hewertson St., C 4,61,,John,Fry,ironworker
+resident,Hewertson St., C 4,62,,Wm.,McNamara,labourer
+resident,Hewertson St., C 4,63,,Joseph,Morley,polisher
+resident,Hewertson St., C 4,64,,Edwin,Toms,
+resident,Hewertson St., C 4,65,,Albert,Hicks,bricklayer
+resident,Hewertson St., C 4,66,,John,Cromwell,labourer
+resident,Hewertson St., C 4,67,,Chas.,Morgan,labourer
+resident,Hewertson St., C 4,,,William,Wood,
+resident,Hewertson St., C 4,68,,Mrs. Matilda,Rowen,
+resident,Hewertson St., C 4,69,,Jeremiah,Driscoll,
+cross_street,Hewertson St., C 4,,,,,"here is Evans-street."
+resident,Hewertson St., C 4,70,,Elijah,Holly,coal dealer
+resident,Hewertson St., C 4,71,,Arthur,Minchin,coal dlr
+resident,Hewertson St., C 4,72,,Joseph,Clark,haulier
+resident,Hewertson St., C 4,73,,William,Roberts,cooper
+resident,Hewertson St., C 4,74,,John,Upton,plasterer
+resident,Hewertson St., C 4,75,,Alfred,Preece,labourer
+resident,Hewertson St., C 4,76,,Wm.,Elliott,labourer
+resident,Hewertson St., C 4,77,,Wm.,Merchant,haulier
+resident,Hewertson St., C 4,78,,Mrs. Sarah,Roberts,shop
+resident,Hewertson St., C 4,79,,George,Hawkes,
+resident,Hewertson St., C 4,80,,Mrs. Eliza,Wookey,
+resident,Hewertson St., C 4,81,,Richd.,Richards,haulier
+resident,Hewertson St., C 4,82,,Amos,Burnell,smith
+resident,Hewertson St., C 4,83,,William,Thompson,fitter
+resident,Hewertson St., C 4,84,,Wm. Hy.,Morris,roadmn
+resident,Hewertson St., C 4,85,,Jesse,Moore,mason
+resident,Hewertson St., C 4,86,,Alexander,Anderson,
+resident,Hewertson St., C 4,87,,David,Morgan,
+resident,Hewertson St., C 4,88,,John,Button,labourer
+resident,Hewertson St., C 4,89,,W. L.,Westacott,
+resident,Hewertson St., C 4,90,,John,Starr,labourer
+resident,Hewertson St., C 4,91,,George,Fox,foundryman
+resident,Hewertson St., C 4,92,,Geo.,Salter,mason
+resident,Hewertson St., C 4,93,,John,Bowden,mason
+resident,Hewertson St., C 4,94,,Albert,Owen,labourer
+resident,Hewertson St., C 4,95,,Mrs. Selina,Betts,
+resident,Hewertson St., C 4,96,,Alfred,Kelly,mason
+resident,Hewertson St., C 4,97,,William,Kelly,mason
+resident,Hewertson St., C 4,98,,Thomas,Bridge,labourer
+resident,Hewertson St., C 4,99,,Joseph,Wren,tile layer
+resident,Hewertson St., C 4,100,,Walt.,Bennett,cellarman
+resident,Hewertson St., C 4,101,,Joseph,Lewis,G.W.R.
+resident,Hewertson St., C 4,102,,Edwd.,Hoskins,labourer

@@ -1,0 +1,25 @@
+year	raw_lines	parsed_records	records_per_raw_line	multi_num_lines	three_col_lines	detected_layout
+1878	5431	4100	0.75	20	14	1-Col / Pre-Split
+1882	6045	6375	1.05	332	171	1-Col / Pre-Split
+1886	8072	7571	0.94	417	249	1-Col / Pre-Split
+1887	7142	6722	0.94	447	143	1-Col / Pre-Split
+1890	9619	8785	0.91	514	325	1-Col / Pre-Split
+1892	10986	9798	0.89	194	90	1-Col / Pre-Split
+1893	10984	8168	0.74	401	268	1-Col / Pre-Split
+1894	17221	9800	0.57	688	197	1-Col / Pre-Split
+1895	12902	11660	0.9	168	88	1-Col / Pre-Split
+1898	13186	9310	0.71	414	57	1-Col / Pre-Split
+1899	12553	9032	0.72	869	561	1-Col / Pre-Split
+1900	20883	12401	0.59	859	285	1-Col / Pre-Split
+1901	14104	11947	0.85	317	110	1-Col / Pre-Split
+1902	14241	12499	0.88	598	135	1-Col / Pre-Split
+1903	14907	13350	0.9	793	537	1-Col / Pre-Split
+1910	18421	12677	0.69	909	106	1-Col / Pre-Split
+1913	19826	18452	0.93	676	109	1-Col / Pre-Split
+1915	19044	16571	0.87	1068	257	1-Col / Pre-Split
+1920	20224	18502	0.91	511	113	1-Col / Pre-Split
+1924	20396	18818	0.92	976	575	1-Col / Pre-Split
+1925	20781	15285	0.74	1148	506	1-Col / Pre-Split
+1927	20366	15852	0.78	1246	388	1-Col / Pre-Split
+1936	26047	24737	0.95	2	26047	3-Col Horizontal Flattened
+1971	40511	36347	0.9	1281	679	1-Col / Pre-Split

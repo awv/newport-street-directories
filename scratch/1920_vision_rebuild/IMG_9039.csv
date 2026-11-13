@@ -1,0 +1,173 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,POTTERY TERRACE,6,,,,,"Lawrence John, labourer"
+resident,POTTERY TERRACE,4,,,Trow Mrs.,F. E.,
+resident,POTTERY TERRACE,2,,,Lewis Owen,,crane driver
+cross_street,POTTERY TERRACE,,,,,,Alexandra-road to Price-st.
+cross_street,POTTERY TERRACE,,,,,,(LEFT HAND SIDE.)
+resident,POTTERY TERRACE,1,,,Ansticc T.,,sail maker
+resident,POTTERY TERRACE,,,,Rees & Jones,,plumbers
+cross_street,POTTERY TERRACE,,,,,,here is Adeline-street
+resident,POTTERY TERRACE,,,,ALEXANDRA SCHOOLS,,
+cross_street,POTTERY TERRACE,,,,,,here is Marion-street
+resident,POTTERY TERRACE,4,,,Grey Mrs.,Sarah,
+resident,POTTERY TERRACE,5,,,Harvey Wm.,,bootmaker
+resident,POTTERY TERRACE,6,,,Johnstone James,,,
+resident,POTTERY TERRACE,7,,,Pitcher H. A.,,"ship's cook"
+resident,POTTERY TERRACE,8,,,Morgan George,,labourer
+resident,POTTERY TERRACE,9,,,Cook Ernest,,fish shop
+cross_street,POTTERY TERRACE,,,,,,here is Baldwin-street
+resident,POTTERY TERRACE,14,,,Cook Lewis,,labourer
+cross_street,POTTERY TERRACE,,,,,,here is Jeddo-street
+resident,POTTERY TERRACE,15,,,Richards Mrs.,Jane,
+resident,POTTERY TERRACE,15A,,,Yemm Wm. T.,,labourer
+cross_street,POTTERY TERRACE,,,,,,here is Lime-street
+resident,POTTERY TERRACE,16,,,Matthews C. P.,,confect'ner
+resident,POTTERY TERRACE,17,,,Matthews H. S.,,bakehse
+resident,POTTERY TERRACE,,,,Pillgwenlly Wesleyan Institute,,,
+cross_street,POTTERY TERRACE,,,,,,(return)
+resident,POTTERY TERRACE,,,,Groves W. H.,,bootmaker
+resident,POTTERY TERRACE,18,,,Richards Edwrd.,,"builder's workshop"
+cross_street,POTTERY TERRACE,,,,,,here is Lime-street
+resident,POTTERY TERRACE,19,,,Maloney William,,,
+resident,POTTERY TERRACE,20,,,Williams Edward,,,
+cross_street,POTTERY TERRACE,,,,,,here is Jeddo-street
+resident,POTTERY TERRACE,21,,,Edwards E.,,driver
+cross_street,POTTERY TERRACE,,,,,,here is Baldwin-street
+resident,POTTERY TERRACE,22,,,Hockey's bakehouse,,,
+resident,POTTERY TERRACE,23,,,Burton Mrs.,A.,
+cross_street,POTTERY TERRACE,,,,,,here is Marion-street
+resident,POTTERY TERRACE,,,,DOCKERS' HALL,,,
+resident,POTTERY TERRACE,5,,,Pollard John,,trimmer
+resident,POTTERY TERRACE,6,,,Rafferty Mrs.,Margaret,
+resident,POTTERY TERRACE,7,,,Merton Adam R.,,,
+resident,POTTERY TERRACE,8,,,Silber Emanuel,,,
+resident,POTTERY TERRACE,9,,,Madden James,,labourer
+resident,POTTERY TERRACE,10,,,Cook T. H.,,boatman
+resident,POTTERY TERRACE,11,,,Ray Henry,,"R. N.R."
+resident,POTTERY TERRACE,12,,,O'Neill William,,labourer
+resident,POTTERY TERRACE,13,,,Morgan Benjamin,,,
+resident,POTTERY TERRACE,14,,,Smith Thomas,,seaman
+resident,POTTERY TERRACE,15,,,Taylor David H.,,labourer
+resident,POTTERY TERRACE,16,,,Inker George,,labourer
+resident,POTTERY TERRACE,17,,,Keefe Cornelius,,haulier
+resident,POTTERY TERRACE,17A,,,Williams Wm.,,ironworker
+resident,POTTERY TERRACE,18A,,,Holland Wm.,,labourer
+resident,POTTERY TERRACE,19A,,,Weston George,,labourer
+resident,POTTERY TERRACE,20A,,,Jones Hy. Jas.,,milkman
+cross_street,POTTERY TERRACE,,,,,,(return)
+resident,POTTERY TERRACE,18,,,Abraham F.,,boatman
+resident,POTTERY TERRACE,19,,,McCarthy Dennis,,trimmer
+resident,POTTERY TERRACE,20,,,Lynch Michael,,labourer
+resident,POTTERY TERRACE,21,,,Burke Charles,,,
+resident,POTTERY TERRACE,22,,,Walsh James,,labourer
+resident,POTTERY TERRACE,23,,,Plummer Mrs.,E. & Sons,"Excelsior wagon and car. works"
+resident,POTTERY TERRACE,,,,HOLY TRINITY CHURCH,,,
+resident,POTTERY TERRACE,24,,,Simmons Arch. J.,,Trinity h
+resident,POTTERY TERRACE,25,,,McCarthy Wm.,,labourer
+resident,POTTERY TERRACE,26,,,Miller Robert,,seaman
+resident,POTTERY TERRACE,27,,,McCarthy John,,labourer
+resident,POTTERY TERRACE,28,,,Curtis Fred,,labourer
+resident,POTTERY TERRACE,29,,,McCarthy Dan,,trimmer
+resident,POTTERY TERRACE,30,,,McCarthy Mrs.,J.,
+resident,POTTERY TERRACE,31,,,Little Henry,,,
+resident,POTTERY TERRACE,32,,,Blake John,,engine driver
+resident,POTTERY TERRACE,33,,,Wallace William,,helper
+resident,POTTERY TERRACE,34,,,Attwood Wm.,,labourer
+resident,POTTERY TERRACE,35,,,Thomas Mrs.,Margaret,
+cross_street,POTTERY TERRACE,,,,,,here is Clarence-street
+resident,POTTERY TERRACE,36,,,Pill Picture Palace,,,
+resident,POTTERY TERRACE,37,,,Jacobs A. J. & Son,,"pawn-brokers"
+street,POTTERY ROAD,C 5,,,,,From 5 Mill-parade
+cross_street,POTTERY ROAD,,,,,,(LEFT HAND SIDE.)
+resident,POTTERY ROAD,1,,,Traynor John James,,fitter
+resident,POTTERY ROAD,3,,,Gould Aaron,,fitter's helpr
+resident,POTTERY ROAD,5,,,Marsh Robert,,fitter
+resident,POTTERY ROAD,7,,,Lightfoot I.,,fitter's helper
+resident,POTTERY ROAD,9,,,French Thos.,,trimmer
+resident,POTTERY ROAD,11,,,Lynch Morgan,,trimmer
+resident,POTTERY ROAD,13,,,Lovett Geo.,,labourer
+resident,POTTERY ROAD,15,,,Ball John,,engine driver
+resident,POTTERY ROAD,17,,,Crowley Malachi,,fitter
+resident,POTTERY ROAD,19,,,Buckley Daniel,,drghtsmn
+resident,POTTERY ROAD,21,,,Jones John,,coal trimmer
+cross_street,POTTERY ROAD,,,,,,(return)
+resident,POTTERY ROAD,14,,,Taylor Harry,,,
+resident,POTTERY ROAD,12,,,Anderson Arthur,,storekpr
+resident,POTTERY ROAD,10,,,Bavester Samuel,,hobbler
+resident,POTTERY ROAD,8,,,Thomas Albert,,trimmer
+street,POWELL'S COURT,C 4,,,,,From Thomas-street
+resident,POWELL'S COURT,1,,,Gloyns William,,,
+resident,POWELL'S COURT,2,,,Baker George,,labourer
+resident,POWELL'S COURT,3,,,Vowles George,,labourer
+street,POWELL'S PLACE,D 4,,,,,From 69 Dock-street
+resident,POWELL'S PLACE,2,,,Martyn, Martyn & Co.,,Ltd.
+resident,POWELL'S PLACE,3,,,Isacke Jesse Harold,,Central Machinery Stores and Foundry
+resident,POWELL'S PLACE,,,,Lloyd & Yorath's stables,,,
+resident,POWELL'S PLACE,,,,CENTRAL SCHOOLS,,,
+resident,POWELL'S PLACE,1,,,Clarke Edward,,,
+street,POWER STREET,B 4,,,,,From Barrack-hill
+cross_street,POWER STREET,,,,,,(LEFT HAND SIDE.)
+resident,POWER STREET,1,,,Rabbitt T. E.,,shop
+resident,POWER STREET,3,,,Rabbitt John Wm.,,mason
+resident,POWER STREET,5,,,Smith Walter Ed.,,clerk
+resident,POWER STREET,7,,,Ward Charles,,,
+resident,POWER STREET,9,,,Tadman Thomas,,,
+resident,POWER STREET,11,,,Harvey Wm.,,bootmaker
+resident,POWER STREET,13,,,Hollister G. W.,,wheelwrgt
+resident,POWER STREET,15,,,Carlyle Fredk.,,inspector
+resident,POWER STREET,17,,,Bywater Frederick,,,
+resident,POWER STREET,19,,,Gay Wm. John,,labourer
+resident,POWER STREET,21,,,Thomas Mrs.,Emma,
+cross_street,POWER STREET,,,,,,here is Hopefield
+resident,POWER STREET,27,,,Holder Hy.,,attendant
+resident,POWER STREET,29,,,Coldrick Henry,,,
+resident,POWER STREET,31,,,Gibbon Wyndham,,lab'r
+resident,POWER STREET,33,,,Connors John,,labourer
+resident,POWER STREET,35,,,Llewellyn Wm. P.,,labr
+resident,POWER STREET,37,,,Bickerton William,,,
+resident,POWER STREET,39,,,Morgan Thos.,,dk police
+resident,POWER STREET,41,,,Colledge Josiah,,labourer
+resident,POWER STREET,43,,,Kenny John,,printer
+resident,POWER STREET,45,,,Greenhaf John,,labourer
+resident,POWER STREET,47,,,Humphrey Geo.,,Thos.
+resident,POWER STREET,49,,,Morris Chas.,,nail maker
+resident,POWER STREET,51,,,Price James G.,,caretaker
+resident,POWER STREET,53,,,Drayton John M.,,,
+resident,POWER STREET,55,,,Vokes Henry,,,
+resident,POWER STREET,57,,,Moylan Geo.,,engine driver
+resident,POWER STREET,59,,,Robinson Geo.,,Hy. gaswkr
+resident,POWER STREET,61,,,Jones Geo.,,labourer
+resident,POWER STREET,63,,,Newman Chas.,,haulier
+resident,POWER STREET,65,,,Jones Geo.,,Hy. driver
+resident,POWER STREET,67,,,Moylan G. H.,,crane driver
+resident,POWER STREET,69,,,Nancekeivil Mrs.,Margt.
+resident,POWER STREET,71,,,Pratt Geo.,,labourer
+resident,POWER STREET,73,,,Smith Mrs.,Maud
+resident,POWER STREET,75,,,Preece George,,,
+cross_street,POWER STREET,,,,,,(return upper-side)
+resident,POWER STREET,72,,,Francis Henry,,labourer
+resident,POWER STREET,70,,,Owen Albt. L.,,shoemaker
+resident,POWER STREET,68,,,Maloney Matthew,,,
+resident,POWER STREET,66,,,Allen John,,labourer
+resident,POWER STREET,64,,,Reardon Patrick,,labourer
+resident,POWER STREET,62,,,Curtis John,,labourer
+resident,POWER STREET,60,,,Thomas Alfred,,labourer
+resident,POWER STREET,58,,,Watts Alex.,,labourer
+resident,POWER STREET,56,,,Vick William,,,
+resident,POWER STREET,54,,,Golding Edmund,,,
+resident,POWER STREET,52,,,Vella Frank,,stoker
+resident,POWER STREET,50,,,Thain Mrs.,Agnes
+resident,POWER STREET,48,,,Cork Frank,,bricksetter
+resident,POWER STREET,46,,,Simmonds Charles Wm.,,,
+resident,POWER STREET,44,,,Brooks Wm. Jos.,,labourer
+resident,POWER STREET,42,,,Spencer Thos.,,police
+resident,POWER STREET,40,,,Mills James,,labourer
+resident,POWER STREET,38,,,Hendy George,,labourer
+resident,POWER STREET,36,,,Parry Eleazer,,labourer
+resident,POWER STREET,34,,,Green Richd.,,labourer
+resident,POWER STREET,32,,,Cull Ernest,,tram driver
+resident,POWER STREET,30,,,Silcox Geo.,,Arthur
+resident,POWER STREET,28,,,Thomas Dd.,,Wm.
+resident,POWER STREET,26,,,Coleman Pat,,gasworker
+resident,POWER STREET,24,,,Smith William,,,
+resident,POWER STREET,22,,,Ryan Michael,,labourer

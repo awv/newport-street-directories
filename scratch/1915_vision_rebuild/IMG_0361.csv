@@ -1,0 +1,164 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,SCARD STREET,,,,,,"D 5, From North-st. to Bailey-st."
+cross_street,SCARD STREET,,,,,,(LEFT HAND SIDE.)
+resident,SCARD STREET,1,,,Stewart,Mrs. R.,
+resident,SCARD STREET,2,,,Price,H. G.,shopkeeper
+resident,SCARD STREET,,,"Phillips W. & Co.",,builders
+resident,SCARD STREET,3,,,Michaels,Mark,
+resident,SCARD STREET,4,,,Swallow,J.,guard,B.&M.R.
+resident,SCARD STREET,5,,,North,George T.,
+cross_street,SCARD STREET,,,,,,(return)
+resident,SCARD STREET,6,,,Bader,Clifford,
+resident,SCARD STREET,7,,,Elworthy,Edward,carptr
+resident,SCARD STREET,8,,,Cook,Rd.,railwayman,Cook Rd.
+resident,SCARD STREET,9,,,Watkins,Mrs. Jane,
+street,SCREW PACKET RD.,,,,,,"C 4, From High-street"
+resident,SCREW PACKET RD.,,,Newport Builders' Supply Limited,,,
+resident,SCREW PACKET RD.,,,Nicholas & Co.,,Baltic wharf
+resident,SCREW PACKET RD.,,,Phillips & Sons,,flour stores
+resident,SCREW PACKET RD.,,,Hill,E.,shoeing smith
+resident,SCREW PACKET RD.,,,Pitt,Tom,shoeing smith,R.S.S.
+street,SERPENTINE ROAD.,,,,,,"C 5, Godfrey-road to Gold-tops"
+resident,SERPENTINE ROAD.,1,Tregleath,Jones,B. H.,
+resident,SERPENTINE ROAD.,2,Vaindre,Roberts,R. S.,
+resident,SERPENTINE ROAD.,3,Bindon,Bates,F. R.,
+resident,SERPENTINE ROAD.,4,Elmwood,Griffiths,Henry,
+resident,SERPENTINE ROAD.,5,Sharnbrook,Billingham,A.,
+resident,SERPENTINE ROAD.,6,Langorse,Jackson,Mrs.,
+resident,SERPENTINE ROAD.,7,Thornton,Jay,Mrs. Eliza,
+resident,SERPENTINE ROAD.,8,Wentbridge,Phillips,Herbert Isaac,
+resident,SERPENTINE ROAD.,9,Silverhowe,Baker,Ern. G.,
+resident,SERPENTINE ROAD.,10,Colwinstone,Pappe,J.,
+street,SEVERN TERRACE.,,,,,,"D 5, Opposite St. Woolos Church"
+resident,SEVERN TERRACE.,1,,,Price,John,
+resident,SEVERN TERRACE.,2,,,Davies,John O.,
+resident,SEVERN TERRACE.,,Desmarons,Charles A.,,,
+resident,SEVERN TERRACE.,3,,,Strong,H. J.,
+resident,SEVERN TERRACE.,4,,,Roberts,Arthur J. H.,
+resident,SEVERN TERRACE.,5,Belgian Refugees' Home,,,
+resident,SEVERN TERRACE.,6,,,Saysill,Charles,
+street,SEVERN VIEW.,,,,,,"D 5, (Formerly the Rookery) From 105 Stow-hill"
+resident,SEVERN VIEW.,1,,,Taylor,William,striker
+resident,SEVERN VIEW.,2,,,Godsall,Thos.,labourer
+resident,SEVERN VIEW.,3,,,Morgan,Mrs. Mary,
+resident,SEVERN VIEW.,4,,,Icardi,Antonio,
+resident,SEVERN VIEW.,5,,,Kelly,Mortimer Hy.,
+resident,SEVERN VIEW.,6,,,Brace,John,labourer
+resident,SEVERN VIEW.,7,,,Green,Charles,
+resident,SEVERN VIEW.,8,,,Kelly,Michael,labourer
+resident,SEVERN VIEW.,9,,,Fisher,Henry,
+resident,SEVERN VIEW.,10,,,Hogan,John,seaman
+street,ST. WOOLOS ROAD.,,,,,,"D 5, 34 St. Mary-st. to Clifton-rd."
+cross_street,ST. WOOLOS ROAD,,,,,,(RIGHT HAND SIDE.)
+resident,ST. WOOLOS ROAD.,1,Prince of Wales,Miller,Francis Ernest,
+resident,ST. WOOLOS ROAD.,2,,,Morgan,Philip,smith
+resident,ST. WOOLOS ROAD.,3,,,Gumm,Mrs. Mary A.,
+resident,ST. WOOLOS ROAD.,4,,,Nicholas,Jos. Hy.,labr
+resident,ST. WOOLOS ROAD.,5,,,Jones,Charles,driver
+resident,ST. WOOLOS ROAD.,6,,,Gardner,Chas. E.,ironwkr
+resident,ST. WOOLOS ROAD.,7,,,Davies,Dd. Chas.,ins. agt.
+resident,ST. WOOLOS ROAD.,8,,,Rogers,Sidney,fish bar
+resident,ST. WOOLOS ROAD.,8A,,,James,Wm. A.,bootmaker
+cross_street,ST. WOOLOS ROAD,,,,,,here is Graham-street
+resident,ST. WOOLOS ROAD.,9,,,Rowlands,Fred. C.,
+resident,ST. WOOLOS ROAD.,,Wellington Inn,,,,
+resident,ST. WOOLOS ROAD.,10,,,Gale,Mrs. Mary Jane,
+resident,ST. WOOLOS ROAD.,11,,,Dally,Thomas William,
+resident,ST. WOOLOS ROAD.,12,,,Cooper,Samuel,carpenter
+resident,ST. WOOLOS ROAD.,13,,,Jenkins,Henry West,
+resident,ST. WOOLOS ROAD.,14,,,Tooze,John,
+resident,ST. WOOLOS ROAD.,15,,,Bamford,F. E.,grocer
+cross_street,ST. WOOLOS ROAD,,,,,,here is St. Julian-street
+resident,ST. WOOLOS ROAD.,16,,,Stacey,G.,berthing master
+resident,ST. WOOLOS ROAD.,17,,,Hall,Alexander,
+resident,ST. WOOLOS ROAD.,18,,,Packer,Arthur,
+resident,ST. WOOLOS ROAD.,19,,,Lewis,Mrs. G.,
+resident,ST. WOOLOS ROAD.,20,,,Pegler,John,gardener
+resident,ST. WOOLOS ROAD.,21,,,Mountain,James William,
+resident,ST. WOOLOS ROAD.,22,,,Moulton,Charles,shunter
+resident,ST. WOOLOS ROAD.,23,,,Bartlett,J.,boilermaker
+cross_street,ST. WOOLOS ROAD,,,,,,here is St. Woolos-place
+resident,ST. WOOLOS ROAD.,24,,,Partridge,Hy.,butcher
+resident,ST. WOOLOS ROAD.,25,,,Weston,Henry,verger
+resident,ST. WOOLOS ROAD.,26,,,Weetch,Thomas,baker
+resident,ST. WOOLOS ROAD.,27,,,Powell,Philip R.,painter
+cross_street,ST. WOOLOS ROAD,,,,,,(return)
+resident,ST. WOOLOS ROAD.,28,,,Underwood,Mrs. H.,
+resident,ST. WOOLOS ROAD.,29,,,Lyons,Jos. F.,metal wkr
+resident,ST. WOOLOS ROAD.,30,,,Morgan,W. C.,carpenter
+resident,ST. WOOLOS ROAD.,31,,,Lyons,John,painter
+resident,ST. WOOLOS ROAD.,32,,,Cane,Wm. Robt.,inspector
+resident,ST. WOOLOS ROAD.,33,,,James,Thomas,baker
+resident,ST. WOOLOS ROAD.,,James' bakehouse,,,,
+cross_street,ST. WOOLOS ROAD,,,,,,here is Jones-street
+resident,ST. WOOLOS ROAD.,34,,,Dolling,Hbt. R.,coal mer.
+street,SALISBURY ROAD.,,,,,,"C 6, Bryngwyn-rd. to Llanthewy-rd."
+resident,ST. VINCENT'S ROAD.,6,,,Jones,David,signalman,
+resident,ST. VINCENT'S ROAD.,7,,,James,Philip,w. baker
+resident,ST. VINCENT'S ROAD.,8,,,Baker,Wm. J.,h. haulier
+cross_street,ST. VINCENT'S ROAD,,,,,,(return)
+resident,ST. VINCENT'S ROAD.,9,,,Bridgens,Henry,
+resident,ST. VINCENT'S ROAD.,10,,,Myland,Alfd.,engine dvr
+resident,ST. VINCENT'S ROAD.,11,,,Watkins,Chas.,machinist
+resident,ST. VINCENT'S ROAD.,12,,,Stone,Benjamin D.,labr
+resident,ST. VINCENT'S ROAD.,13,,,Treby,Alf.,upholsterer
+resident,ST. VINCENT'S ROAD.,14,,,Picton,William Henry,
+resident,ST. VINCENT'S ROAD.,15,,,Edmunds,W. H.,painter
+cross_street,ST. VINCENT'S ROAD,,,,,,(return)
+resident,ST. VINCENT'S ROAD.,,Beddis,J. M.,,,mortar mfctr,contractor & coal mercht
+resident,ST. VINCENT'S ROAD.,17,,,Beddis,J. M.,
+resident,ST. VINCENT'S ROAD.,18,,,Griffiths,Walter,ship carpt
+resident,ST. VINCENT'S ROAD.,19,,,Hollis,Joseph,engineman
+resident,ST. VINCENT'S ROAD.,20,,,Davies,Wm. Evan,fireman
+resident,ST. VINCENT'S ROAD.,21,,,Marsh,Frank,shipwright
+resident,ST. VINCENT'S ROAD.,22,,,Guillemard,Jules E.,
+resident,ST. VINCENT'S ROAD.,23,,,Pritchard,J.,range works
+street,ST. VINCENT'S ROAD.,,,,,,"C 3, Corporation-rd. to Rodney-rd."
+cross_street,ST. VINCENT'S ROAD,,,,,,(LEFT HAND SIDE.)
+resident,ST. VINCENT'S ROAD.,1,,,Mattock,John,
+resident,ST. VINCENT'S ROAD.,3,,,Winn,Mrs. Emma,
+resident,ST. VINCENT'S ROAD.,5,,,Poloway,Lewis,tailor
+resident,ST. VINCENT'S ROAD.,7,,,Fletcher,Frank,
+resident,ST. VINCENT'S ROAD.,9,,,Snell,Austin,
+resident,ST. VINCENT'S ROAD.,11,,,Baker,O.,smith
+resident,ST. VINCENT'S ROAD.,13,,,Millier,Henry,traveller
+resident,ST. VINCENT'S ROAD.,15,,,Hemmen,Mrs. Alice,
+resident,ST. VINCENT'S ROAD.,17,,,Jones,William John,
+resident,ST. VINCENT'S ROAD.,19,,,Snadow,Rev. A.,
+resident,ST. VINCENT'S ROAD.,21,,,Cohen,Philip,
+resident,ST. VINCENT'S ROAD.,23,,,Morris,Mrs. Mary,
+resident,ST. VINCENT'S ROAD.,25,,,Simon,Mark,
+resident,ST. VINCENT'S ROAD.,27,,,Wood,Mrs. W. J.,
+resident,ST. VINCENT'S ROAD.,29,,,Rowles,William Theo.,
+resident,ST. VINCENT'S ROAD.,31,,,Williams,John,
+resident,ST. VINCENT'S ROAD.,33,,,Mann,Mrs. Charlotte,
+resident,ST. VINCENT'S ROAD.,35,,,Boore,Mrs. Eliza C.,
+resident,ST. VINCENT'S ROAD.,37,,,Foslett,Joseph,gas fitter
+resident,ST. VINCENT'S ROAD.,39,,,Harris,Harold,
+resident,ST. VINCENT'S ROAD.,41,,,Marshall,John,
+cross_street,ST. VINCENT'S ROAD,,,,,,(return)
+resident,ST. VINCENT'S ROAD.,,Technical Institute,,,,
+resident,ST. VINCENT'S ROAD.,36,,,Page,Mrs. Elizabeth,
+resident,ST. VINCENT'S ROAD.,34,,,Smith,Mrs. Annie,
+resident,ST. VINCENT'S ROAD.,32,,,Turner,Walter,
+resident,ST. VINCENT'S ROAD.,30,,,Webb,Miss Rose,
+resident,ST. VINCENT'S ROAD.,28,,,Taylor,William Edwin,
+resident,ST. VINCENT'S ROAD.,26,,,Noad,Walter I.,
+resident,ST. VINCENT'S ROAD.,24,,,Vowles,Miss Louisa J.,
+resident,ST. VINCENT'S ROAD.,22,,,Hall,Arthur Berkley,clerk
+resident,ST. VINCENT'S ROAD.,20,,,Swales,Wilfred,
+resident,ST. VINCENT'S ROAD.,18,,,Lloyd,Eben. W.,ironmongr
+resident,ST. VINCENT'S ROAD.,16,,,Broadhouse,Thomas Jas.,
+resident,ST. VINCENT'S ROAD.,14,,,Jones,David E.,
+resident,ST. VINCENT'S ROAD.,12,,,Joseph,Sidney,
+resident,ST. VINCENT'S ROAD.,10,,,Galsworthy,Albert,
+resident,ST. VINCENT'S ROAD.,8,,,Phillips,Mrs. Rachael,
+resident,ST. VINCENT'S ROAD.,6,,,Eynon,Wm.,clerk of wks
+resident,ST. VINCENT'S ROAD.,4,,,Griffiths,David,clerk
+street,ST. WOOLOS PLACE.,,,,,,"D 5, From 23 St. Woolos-road"
+cross_street,ST. WOOLOS PLACE,,,,,,(RIGHT HAND SIDE.)
+resident,ST. WOOLOS PLACE.,1,,,Davies,John,platelayer
+resident,ST. WOOLOS PLACE.,2,,,Innes,Leonard,platelayer
+resident,ST. WOOLOS PLACE.,3,,,Skinner,Frank W.,
+resident,ST. WOOLOS PLACE.,4,,,Phelps,Henry,
+resident,ST. WOOLOS PLACE.,5,,,Williams,G. E.,coachman

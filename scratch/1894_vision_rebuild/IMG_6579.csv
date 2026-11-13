@@ -1,0 +1,151 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Lucas Street,,,,,,
+cross_street,Lucas Street,,,,,,(return.)
+entry,Lucas Street,19,,Frank,Simmonds,carp'tr,,
+entry,Lucas Street,20,,G. H.,Griffiths,coal merchant grocer etc,,
+entry,Lucas Street,21,,John,Jones,oliver,,
+entry,Lucas Street,22,,John,Gabb,fitter,,
+entry,Lucas Street,23,,Arthur,Barrett,porter,,
+entry,Lucas Street,24,,Ed.,Clark,tobacco maker,,
+entry,Lucas Street,25,,Wm.,Taylor,policeman,,
+entry,Lucas Street,26,,Herbert,Poole,clerk,,
+entry,Lucas Street,27,,Hy.,Cullimore,painter,,
+entry,Lucas Street,28,,Edwd.,Batten,engineman,,
+cross_street,Lucas Street,,,,,,here is Rose-street.
+entry,Lucas Street,29,,Percival,Dowdall,Heber cot,,
+entry,Lucas Street,30,,Jos.,Meredith,cab proptr,,
+entry,Lucas Street,31,,David,Lewis,bricklayer,,
+entry,Lucas Street,32,,W.,Williams,clerk,,
+entry,Lucas Street,33,,Wm.,Veale,compositor,,
+entry,Lucas Street,34,,Roland,Worboys,lab'rer,,
+entry,Lucas Street,35,,Henry,Warren,haulier,,
+street,Lyne Road,,,,,,From Marshes-rd. to Crindau
+entry,Lyne Road,,,,,,White C. machine bakery
+entry,Lyne Road,1,,James,Taylor,moulder,,
+entry,Lyne Road,2,,S.,Whomack,glass works,,
+entry,Lyne Road,3,,George,Bere,glass works,,
+entry,Lyne Road,4,,George,Hall,mason,,
+entry,Lyne Road,5,,Benj.,Ellis,shoemaker,,
+entry,Lyne Road,6,,Rich. Jas.,Reed,carpenter,,
+entry,Lyne Road,7,,John,James,repairer,,
+entry,Lyne Road,8,,Joseph,Hiles,miller,,
+entry,Lyne Road,9,,Mrs Elizabeth,Dix,,,
+entry,Lyne Road,10,,Wm. T.,Pearce,g.w.r.,,
+entry,Lyne Road,11,,John,Jenner,draper,,
+entry,Lyne Road,12,,John,Coles,foundry,,
+entry,Lyne Road,13,,Reuben,Wise,shunter,,
+entry,Lyne Road,14,,Thos.,Harris,plumber,,
+entry,Lyne Road,15,,Jas. J.,Waters,assistant,,
+entry,Lyne Road,16,,Charles,Lewis,grocer,,
+cross_street,Lyne Road,,,,,,here is Edwin-street.
+entry,Lyne Road,17,,Chas.,Jenkins,carpenter,,
+entry,Lyne Road,18,,Edwd.,Charles,carpenter,,
+entry,Lyne Road,19,,Wm.,Jones,ins. agent,,
+cross_street,Lyne Road,,,,,,(return.)
+entry,Lyne Road,31,,John,Moore,builder,,
+entry,Lyne Road,32,,John M.,Drayton,mason,,
+entry,Lyne Road,33,,Edwd.,Davies,labourer,,
+entry,Lyne Road,34,,John,Button,labourer,,
+entry,Lyne Road,35,,Chas.,Byard,plasterer,,
+entry,Lyne Road,36,,Frank,Knee,gen. dealer,,
+entry,Lyne Road,37,,St. Mark's Mission house,,,
+entry,Lyne Road,,,Hy.,Mansfield,caretaker,,
+entry,Lyne Road,38,,Thos.,Stevens,fireman,,
+entry,Lyne Road,39,,Thos.,Willis,labourer,,
+entry,Lucas Street,40,,Joseph,Stephens,stoker,,
+entry,Lucas Street,41,,Oswin E.,Powell,smith,,
+entry,Lucas Street,42,,Thomas,Harris,haulier,,
+entry,Lucas Street,43,,William,Evry,groom,,
+entry,Lucas Street,44,,John,Bell,machinist,,
+entry,Lucas Street,45,,Thos.,Embrey,plasterer,,
+entry,Lucas Street,46,,Wm.,Mortimer,foreman,,
+entry,Lucas Street,47,,Jos.,Whittaker,carpenter,,
+entry,Lucas Street,48,,Harry,Lane,miller,,
+entry,Lucas Street,49,,Thomas,Hale,turner,,
+entry,Lucas Street,50,,George,Meadows,ganger,,
+entry,Lucas Street,51,,Albert,Cosh,labourer,,
+entry,Lucas Street,52,,Charles,Hallett,mason,,
+entry,Lucas Street,53,,Charles Francis,Tuff,gasfitter,,
+entry,Lucas Street,,,Marshes Road Board Schools,,,
+street,Macarthy's Court,,,,,,From 153 Commercial-st.
+entry,Macarthy's Court,1,,John A.,Palmer,sailor,,
+entry,Macarthy's Court,2,,John,Cartwright,ostler,,
+entry,Macarthy's Court,3,,Louisa,Morris,widow,,
+entry,Macarthy's Court,4,,Wm. H.,Jones,mason,,
+entry,Macarthy's Court,5,,John,Coughlan,labourer,,
+entry,Macarthy's Court,6,,Lawrence,McCarthy,l'brer,,
+street,Maddox Close,,,,,,From Mill-street.
+entry,Maddox Close,,,,,,Newport Gas Works
+entry,Maddox Close,,,,J. Cordes and Co, Ltd.,,,Dos Works Nail Factory
+entry,Maddox Close,2,,Mrs E.,Evans,,Dos cottages
+entry,Maddox Close,4,,William,Lewis,,do
+entry,Maddox Close,5,,,,Void,,do
+entry,Maddox Close,6,,William,Bowen,,do
+entry,Maddox Close,7,,Henry,Woodliffe,,do
+entry,Maddox Close,8,,Mrs J.,Woodliffe,,do
+entry,Maddox Close,9,,Job,Welsh,crpnter,do
+entry,Maddox Close,10,,Thomas,Blunt,,do
+entry,Maddox Close,11,,Mrs David,Davies,,do
+entry,Maddox Close,,,Geo.,Young,timekeeper,,
+street,Maindee Parade,,,,,,Duckpool-rd to Albert-avenue
+entry,Maindee Parade,1,,Edwin,Hawkins,painter,,
+entry,Maindee Parade,2,,Geo.,Rossiter,dos works,,
+entry,Maindee Parade,3,,Fredk.,Crayford,tailor,,
+entry,Maindee Parade,4,,Jas.,Berry,schl. bd. officer,,
+entry,Maindee Parade,5,,A. J.,Allen,crane driver,,
+entry,Maindee Parade,6,,C.,Workman,seaman,,
+entry,Maindee Parade,7,,Wm.,Pitman,labourer,,
+entry,Maindee Parade,8,,George,Bridges,labourer,,
+entry,Maindee Parade,9,,Alf.,Nethercott,mason,,
+entry,Maindee Parade,10,,Isaac,Edmunds,clerk,,
+entry,Maindee Parade,11,,Hy.,Sturley,carpenter,,
+entry,Maindee Parade,12,,Joseph,Turner,,tunnel yd
+entry,Maindee Parade,13,,Wm.,Ryder,platelayer,,
+entry,Maindee Parade,14,,Jas.,Campbell,huckster,,
+cross_street,Maindee Parade,,,,,,VICTORIA PLACE
+entry,Maindee Parade,15,,Uriah,Morgan,butcher,,
+entry,Maindee Parade,16,,Jos.,Lavis,engine driver,,
+entry,Maindee Parade,17,,Jas.,Warren,engine driver,,
+entry,Maindee Parade,18,,Francis,Jones,labourer,,
+cross_street,Maindee Parade,,,,,,(return.)
+entry,Maindee Parade,19,,Thos.,Bevan,labourer,,
+entry,Maindee Parade,20,,Wm. Hy.,Broom,haulier,,
+cross_street,Maindee Parade,,,,,,DAWLISH PLACE
+entry,Maindee Parade,21,,Chas.,Rowlands,smith,,
+entry,Maindee Parade,22,,Jno. A.,Williams,teacher of music and organist,,
+entry,Maindee Parade,23,,Miss Elizabeth,Tuff,,,
+entry,Maindee Parade,24,,Fredk.,Dyer,engineer,,
+entry,Maindee Parade,25,,Fredk. J.,Richards,clerk,,
+entry,Maindee Parade,26,,Swinfeild,Higgs,,,
+entry,Maindee Parade,27,,Geo.,Boxall,mar. engineer,,
+entry,Maindee Parade,28,,E. M.,Thomas,ins. supt,,
+entry,Maindee Parade,29,,G.,Stedman,Maindee nrsy,,
+cross_street,Maindee Parade,,,,,,SIDBURY TERRACE
+entry,Maindee Parade,30,,Fred.,Smith,plasterer,,
+entry,Maindee Parade,31,,Fred,Matthews,,,
+entry,Maindee Parade,32,,Alfd.,Andrews,haulier,,
+entry,Maindee Parade,33,,Jos.,Sims,carpenter,,
+entry,Maindee Parade,34,,Henry,Cox,,Vanstone cot
+entry,Maindee Parade,35,,Geo. John,Biggs,mason,,
+entry,Maindee Parade,36,,Ahiram,Greenway,bricklayer,,
+entry,Maindee Parade,37,,Henry,Dunston,George,,
+entry,Maindee Parade,38,,J. J.,Harper,dairyman,,
+entry,Maindee Parade,39,,W.,Williams,,Belmont cot
+entry,Maindee Parade,40,,W. H.,Bow,travlr.,Alma cot
+entry,Maindee Parade,41,,J. Oscar,Rickard,,house
+entry,Maindee Parade,42,,R.,Wynn,carrier,Roy vil
+entry,Maindee Parade,43,,Jno.,Hallett,Norton cot,,
+entry,Maindee Parade,44,,Miss M.,Williams,,Marlow cottage
+entry,Maindee Parade,45,,Geo.,Hodder,labourer,,
+street,Malpas Glebe Cottages,,,,,,From Somerton-road.
+street,Malpas Road,,,,,,From Marshes-road.
+cross_street,Malpas Road,,,,,,[Left-hand side]
+entry,Malpas Road,1,,Chas. H.,Reed,builder,,
+entry,Malpas Road,3,,Mrs E. S.,Eveleigh,,,
+entry,Malpas Road,5,,John,Parker,sculptor,,
+entry,Malpas Road,7,,Lewis,Snelgrove,,,
+entry,Malpas Road,9,,Jas.,Taylor,dos works,,
+entry,Malpas Road,11,,Joseph,Stokes,blacksmith,,
+entry,Malpas Road,13,,Joseph,Pool,labourer,,
+entry,Malpas Road,15,,Sydney,Jobbins,mason,,
+entry,Malpas Road,17,,Jas. D.,O'Leary,agent,,

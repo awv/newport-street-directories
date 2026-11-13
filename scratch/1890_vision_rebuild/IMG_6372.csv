@@ -1,0 +1,144 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Reform Buildings,,,,,,contin'd
+resident,Reform Buildings,7,,Jno.,Evans,boilermaker,
+resident,Reform Buildings,8,,Jas.,Gatehouse,labourer,
+resident,Reform Buildings,9,,Geo. A.,Webster,Forester's Arms,
+resident,Reform Buildings,10,,Wm.,Mackay,labourer,
+resident,Reform Buildings,11,,John,Ryan,hobbler,
+resident,Reform Buildings,12,,John,Legge,labourer,
+resident,Reform Buildings,13,,H.,McNally,baker,
+resident,Reform Buildings,,,Emlyn Engineering works,,C. D. Phillips proprietor
+cross_street,Reform Buildings,,,,,,Jones' Court
+cross_street,Reform Buildings,,,,,,Toombs' Court
+resident,Reform Buildings,14,,Chas.,Parry,coal dealer,
+resident,Reform Buildings,15,,Hy.,Wiggins,labourer,
+resident,Reform Buildings,16,,Robert,Scott,fitter,
+resident,Reform Buildings,17,,Johnson,Selby,engineer,
+resident,Reform Buildings,18,,John,Tucker,labourer,
+resident,Reform Buildings,19,,W. H.,Williams,lab'rer,
+resident,Reform Buildings,20,,Wm.,Baker,carpenter,
+resident,Reform Buildings,21,,Thos.,Davies,boatman,
+resident,Reform Buildings,22,,Jno.,Broad,shipcarpenter,
+resident,Reform Buildings,23,,Chas.,Oakley,guard,
+resident,Reform Buildings,24,,Hy.,Seer,weighman,
+resident,Reform Buildings,25,,Jno. J.,Scannell,fitter,
+resident,Reform Buildings,26,,Michael,Bryant,,
+cross_street,Reform Buildings,,,,,,(return.)
+resident,Reform Buildings,27,,Joseph,Seer,hoistman,
+resident,Reform Buildings,28,,Thos. F.,Foster,smith,
+resident,Reform Buildings,,,David,Parry,steward,
+resident,Reform Buildings,29,,John,Hand,coalman,
+resident,Reform Buildings,30,,Mrs. Amelia,Lawrence,,
+resident,Reform Buildings,31,,Edward,Arr,mariner,
+resident,Reform Buildings,32,,J.,Kirby,master mariner,
+resident,Reform Buildings,33,,Jno.,Morgan,blacksmith,
+resident,Reform Buildings,34,,Mrs. Catherine,Allen,,
+resident,Reform Buildings,35,,Jos.,Robbins,labourer,
+resident,Reform Buildings,36,,Morgan,James,fitter,
+resident,Reform Buildings,37,,W.,Pritchard,signalman,
+resident,Reform Buildings,38,,Samuel,Gilmore,pilot,
+resident,Reform Buildings,39,,Aug.,Keyse,engineman,
+resident,Reform Buildings,40,,W. O.,Ford,signalman,
+resident,Reform Buildings,41,,John,Jones,rigger,
+resident,Reform Buildings,42,,Thos.,Hurd,brickmaker,
+resident,Reform Buildings,43,,Edwd.,Dudley,labourer,
+resident,Reform Buildings,44,,Dl.,Thomas,moulder,
+resident,Reform Buildings,45,,Jno. P.,Walters,fitter,
+resident,Reform Buildings,46,,Wm.,Williams,labourer,
+resident,Reform Buildings,47,,Geo.,Vickery,shipwright,
+resident,Reform Buildings,48,,John,Barrett,clerk,
+resident,Reform Buildings,49,,John,Lawrence,foreman,
+resident,Reform Buildings,,,H.,Lawrence,iron and brass founder coal coke brick and pipe merchant,
+street,Richmond Terrace,,,,,,See Duckpool-road.
+street,Risca Road,,,,,,From "Handpost," Stow-hill
+resident,Risca Road,,,John,Jenkins,sailmaker,
+resident,Risca Road,,,Fredk.,Knapp,mason,
+resident,Risca Road,,,Francis,Evans,gardener,
+resident,Risca Road,,,Henry J.,Collard,baker,
+resident,Risca Road,,Capstone cot,,,"void",
+resident,Risca Road,,Risca cottage,Wm.,Morgan,,
+cross_street,Risca Road,,,,,,here is Bolton-road.
+resident,Risca Road,,Shop building,,,,
+resident,Risca Road,,House ditto,,,,
+cross_street,Risca Road,,,,,,here is Manley-road.
+resident,Risca Road,,Rutha cottage,G.,Dowling,,
+resident,Risca Road,,Three houses building,,,,
+resident,Risca Road,,Villa,,,"void",
+resident,Risca Road,,Ditto,,,,
+resident,Risca Road,,Ditto,,,,
+resident,Risca Road,,Yetholm,Mary,Tait,Mrs.,
+resident,Risca Road,,The Cemetery,,,,
+resident,Risca Road,,Ty-Llwyd,T.,Price,farmer,
+resident,Risca Road,,Nant coch,Thos.,Colborne,,
+resident,Risca Road,,Glasllwch house,A.,White,J.,
+resident,Risca Road,,Glasllwch farm,Hy.,Jones,,
+street,Robert Street, P.,,,,,,From Courtybella-terrace.
+resident,Robert Street, P.,1,,Edwd.,Roberts,baker &c,
+resident,Robert Street, P.,2,,Hy.,Cole,Wm.,shipwrit
+resident,Robert Street, P.,3,,Robt. Hy.,Barnard,fitter,
+resident,Robert Street, P.,4,,Wm.,Lannen,hobbler,
+resident,Robert Street, P.,5,,Wm.,Sully,fisherman,
+resident,Robert Street, P.,6,,John,Sanders,labourer,
+resident,Robert Street, P.,7,,Sl. W.,Bavester,haulier,
+resident,Robert Street, P.,8,,Mrs. Sarah A.,Moore,,
+resident,Robert Street, P.,9,,Geo.,Grant,labourer,
+resident,Robert Street, P.,10,,W.,Barrett,coal trimmer,
+resident,Robert Street, P.,11,,Jno.,Cotterrall,labourer,
+resident,Robert Street, P.,12,,Hy.,Herbert,stevedore,
+resident,Robert Street, P.,13,,Wm.,Parry,boiler maker,
+street,Gridiron wharf,,,,,,
+resident,Gridiron wharf,,,G.,Cheeseman,gridiron kpr,
+resident,Gridiron wharf,,,Wm.,Ball,gridiron keeper,
+resident,Gridiron wharf,,,Spittle's boiler works,,
+resident,Gridiron wharf,,,John,Davies,haulier,
+resident,Gridiron wharf,,,Matthew,Johns,Rodney wharf ground lime works
+resident,Gridiron wharf,,,Ponsford Bros.,timber yard and steam saw mills,
+resident,Gridiron wharf,,,George,Radford,labourer,
+resident,Gridiron wharf,,,Wm.,Johns,labourer,
+resident,Gridiron wharf,,,Mrs. Louisa,Hughes,,
+resident,Gridiron wharf,,,Fk.,Westlake,berthing mstr,
+resident,Gridiron wharf,,,Mrs. Ann,Welsh,Usk side vil
+resident,Gridiron wharf,,,manager,Happerfield,Great Western wharf—D.
+resident,Gridiron wharf,,,Usk Chemical Works (The)—Morris & Griffin prop'trs,,
+resident,Gridiron wharf,,,Jno.,Hodge,Chemical works,
+street,Ronald Road, M.,,,,,,Duckpool-rd. to Morden-rd.
+resident,Ronald Road, M.,1,,Jonas,Pope,,
+resident,Ronald Road, M.,2,,Frank,Leary,,
+resident,Ronald Road, M.,3,,F. J.,Baker,outfitter,
+resident,Ronald Road, M.,4,,Wm.,Rees,moulder,
+cross_street,Ronald Road, M.,,,,,, (return.)
+resident,Ronald Road, M.,5,,Alfred,Knight,carpenter,
+resident,Ronald Road, M.,6,,E.,Burroughe,Cotham brow
+resident,Ronald Road, M.,7,,Saml.,Jenkins,clerk,
+resident,Ronald Road, M.,8,,Wm.,Davies,assistant,
+street,Rookery (The),,,,,,From 72 Stow-hill. Containing 17 cottages
+street,Rose Street,,,,,,From Lock-st. to Lucas-st.
+resident,Rose Street,1,,Ed.,Hicks,machine agent,
+resident,Rose Street,,,Mrs.,Hicks,grocer &c.,
+resident,Rose Street,2,,Robt.,Wallace,carpenter,
+resident,Rose Street,3,,Alex.,Coates,mariner,
+resident,Rose Street,4,,Clarence J.,Page,carver,
+resident,Rose Street,5,,Jno. eng.,Webber,dr'vr
+resident,Rose Street,6,,Harry,Williams,policem
+resident,Rose Street,7,,Albt. C. eng.,Poole,dr'vr
+resident,Rose Street,8,,Mrs. Jane,White,,
+resident,Rose Street,9,,Abra.,Morris,nail cutter,
+resident,Rose Street,10,,Herbt. J.,Strong,grocer,
+resident,Rose Street,11,,Edwin,Parkin,plumber,
+resident,Rose Street,12,,Henry,Parkin,steward,
+resident,Rose Street,13,,Wm. engine,Davies,dv'r
+resident,Rose Street,14,,Thos.,Stapleton,smith,
+resident,Rose Street,15,,Mrs. Elizabeth,Smith,,
+cross_street,Rose Street,,,,,,(return.)
+resident,Rose Street,16,,George,Wheeler,,
+street,Rodney Parade,,,,,,East side of Usk from Bridge
+resident,Rodney Parade,,,Davies Bros.,London wharf builders' merchants,
+resident,Rodney Parade,,,Mrs. T.,John,Bridge house
+resident,Rodney Parade,,Drill Hall 1st Worcester-shire Artillery Volunteers,,,,
+resident,Rodney Parade,,,Sergt-Major,Leary,,
+cross_street,Rodney Parade,,,,,,Road to Athletic Ground
+resident,Rodney Parade,,Williams' aerated water wks,,,,
+resident,Rodney Parade,,Rodney ho,H. E.,Dunning,,
+resident,Rodney Parade,,Rodney ho,H. L.,Williams,,
+resident,Rodney Parade,,,R.,Tipton,umbrella maker,
+resident,Rodney Parade,,,Hy.,Jones,wagon inspector,

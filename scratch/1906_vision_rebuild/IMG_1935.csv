@@ -1,0 +1,147 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,Arc,,,"R.","Richards",restaurant,14
+resident,Arc,,,"B. A.","Pickering",second-hand bookseller,12
+resident,Arc,,,,"Davies J.",music stores,
+resident,Arc,,,"W.","Glover",hairdresser,
+resident,Arc,,,"Mrs.","Harman",tobacconist,
+resident,Arc,,,,,"Shop void",
+resident,Arc,,,,,"do.",
+resident,Arc,,,,,"do.",
+street,THE NEWPORT,,,,,,45 High-st. to Cambrian-rd.
+resident,THE NEWPORT,,,,Gibbon & Co.,"clothiers, etc.",
+resident,THE NEWPORT,,,,Williams J. (Newport), Ltd.,"opticians & photog'phic dllrs",
+resident,THE NEWPORT,,,"Mrs. A.","Evans",fancy depot,
+resident,THE NEWPORT,,,"H. S.","Williams",bootmaker,
+resident,THE NEWPORT,,,,Kimpton F. J. & Co.,"hosiers, &c.",
+resident,THE NEWPORT,,,"Stanley","Jones",book, station-ery and music warehouse,
+cross_street,THE NEWPORT,,,,,,(return)
+resident,THE NEWPORT,,,"S.","Jones",musical instruments,
+resident,THE NEWPORT,,,"George","Stedman",florist and nurseryman,
+resident,THE NEWPORT,,,"W. H.","Florida",jeweller,
+resident,THE NEWPORT,,,"J. H.","Thomas",milliner,
+resident,THE NEWPORT,,,"H.","Wauters",confectioner,
+resident,THE NEWPORT,,,"John H.","Wagstaff",hairdresser,
+resident,CARLTON CHAMBERS,,,,,,[See under High-street]
+street,Archibald Street,D 51,,,,,"From Wharf-rd. to Eveswell-st [RIGHT HAND SIDE]"
+resident,Archibald Street,1,,"George","Brown",labourer,
+resident,Archibald Street,2,,"Nicholas","Richards",labrr
+resident,Archibald Street,3,,"Arthur","Williams",labourer
+resident,Archibald Street,4,,"Wm. A.","Stephens",seaman
+resident,Archibald Street,5,,"Mrs. Emily","Dowden",,
+resident,Archibald Street,6,,"Owen C.","Smith",pot'ry hand
+resident,Archibald Street,7,,"Wm.","Clayton",platelayer
+resident,Archibald Street,8,,"William","Witts",fitter
+resident,Archibald Street,9,,"Geo.","Summers",iron wkr.
+resident,Archibald Street,10,,"Mrs. Margaret","Johnson",,
+resident,Archibald Street,11,,"Mrs. S.","Johnson",laundress
+resident,Archibald Street,12,,"Wm. A.","Merrett",guard
+resident,Archibald Street,13,,"John","Martin",labourer
+resident,Archibald Street,14,,"Alfred","Nethercott",mason
+resident,Archibald Street,15,,"Aaron","Sweeting",labourer
+resident,Archibald Street,16,,"Wm. H.","Clarke",haulier
+resident,Archibald Street,17,,"Hy.","Dando",labourer
+resident,Archibald Street,18,,"Wm.","Crew",labourer
+resident,Archibald Street,19,,"Saml.","Parker",platelayer
+resident,Archibald Street,20,,"Wm.","Shipton",labourer
+resident,Archibald Street,21,,"Joseph","Jones",iron wkr.
+resident,Archibald Street,22,,"John","Broom",haulier
+resident,Archibald Street,23,,"W. J.","Hocking",shopkeeper
+resident,Archibald Street,24,,"Wm.","Williams",labourer,
+resident,Archibald Street,25,,"John","Needs",labourer,
+resident,Archibald Street,26,,"Wm.","Blakemore",labourer,
+resident,Archibald Street,27,,"George","Weston",labourer,
+resident,Archibald Street,28,,"John","Taylor",carpenter,
+resident,Archibald Street,29,,"Benj.","Hodges",sheet wghr,
+resident,Archibald Street,30,,"Thos.","Blackmore",labourer,
+resident,Archibald Street,31,,"James","Brooks",labourer,
+resident,Archibald Street,32,,"Percy Hy.","Pennell",haulr.,
+resident,Archibald Street,33,,"John F.","Purnell",shopkpr.,
+resident,Archibald Street,34,,"Wm. Hy.","Thomas",labourer,
+resident,Archibald Street,35,,"Arthur","Day",rlway hand,
+resident,Archibald Street,36,,"Gilbert","Whitcomb",sheet weigher,
+resident,Archibald Street,37,,"Wm.","Brooks",foreman,
+resident,Archibald Street,38,,"Evan","Morgan",labourer,
+resident,Archibald Street,39,,"Fred","Blackmore",smith,
+resident,Archibald Street,40,,"Alf.","Powell",crane driver,
+resident,Archibald Street,41,,"Gustave","William",ship carpenter,
+resident,Archibald Street,42,,"James","Alexander",jun.,
+resident,Archibald Street,43,,"George","Willey",mason,
+resident,Archibald Street,44,,"Fred C.","Davies",shearer,
+resident,Archibald Street,45,,"Thos. V.","Rudge",labourer,
+resident,Archibald Street,46,,"Wm. Jno.","Bryant",foreman,
+resident,Archibald Street,47,,"Frederick","Gray",plasterer,
+resident,Archibald Street,48,Mabel cot.,"Wm.","Taylor",,
+resident,Archibald Street,49,,"Edward","Jenkins",shopkpr,
+resident,Archibald Street,50,,"Albert C.","Dowden",bricklayer,
+resident,Archibald Street,51,,"Albert","Moore",signalman,
+resident,Archibald Street,52,,"George","Jones",factory,
+resident,Archibald Street,53,,"T. J.","Davies",miller,
+resident,Archibald Street,54,,"John A.","Palmer",cab proprietor,
+resident,Archibald Street,,,"Edward","Rowe",milkman,
+cross_street,Archibald Street,,,,,,(return)
+cross_street,Archibald Street,,,,,,here is Eveswell-street.
+resident,Archibald Street,,,,,"Wesleyan MISSION HALL",,
+cross_street,Archibald Street,,,,,,here is Oxford-street.
+resident,Archibald Street,55,,"Chas. H.","Small",bricklayer,
+resident,Archibald Street,56,,"Joshua","Pope",,
+resident,Archibald Street,57,,"Chas.","Howell",mason,
+resident,Archibald Street,58,,"Alfred","Bowen",puddler,
+resident,Archibald Street,59,,"Alfred","Payne",labourer,
+resident,Archibald Street,60,,"Mrs. Annie","Fortey",,
+resident,Archibald Street,61,,"Edwin","Richards",baker,
+resident,Archibald Street,62,,"Thomas","Jones",labourer,
+resident,Archibald Street,63,,"Edwin","Ford",fitter,
+resident,Archibald Street,64,,"Mrs. M. A.","Bowen",,
+resident,Archibald Street,65,,"George","Jeffries",labourer,
+resident,Archibald Street,66,,"James","Gunter",shoemaker,
+resident,Archibald Street,67,,"Mrs. E.","Ponting",,
+resident,Archibald Street,68,,"George","Hodder",labourer,
+resident,Archibald Street,69,,"Thos.","Gibbs",ironworker,
+resident,Archibald Street,70,,"Hy. A.","Beaton",labourer,
+street,Argyle Street,B 4,,,,,"From 19 Albany-street [LEFT HAND SIDE]"
+resident,Argyle Street,1,,"Geo.","Hitchins",labourer,
+resident,Argyle Street,3,,"Joseph","Pybus",glassworkr,
+resident,Argyle Street,5,,"Hugh","Griffiths",stoker,
+resident,Argyle Street,7,,"Arthur","Chidgey",fireman,
+resident,Argyle Street,9,,"Chas.","Dowding",labourer,
+resident,Argyle Street,11,,"Arthur","Franklin",lab'rer,
+resident,Argyle Street,13,,"Edward","Sprudd",labourer,
+resident,Argyle Street,15,,"William","Davies",sawyer,
+resident,Argyle Street,17,,"John M.","Drayton",mason,
+resident,Argyle Street,19,,"John H.","Dicks",labourer,
+resident,Argyle Street,21,,"John","Williams",glass wkr.,
+resident,Argyle Street,23,,"Mich.","McCarthy",labourer,
+cross_street,Argyle Street,,,,,,(return)
+resident,Argyle Street,50,,"Albt. E.","Neill",glassworker,
+resident,Argyle Street,48,,"John","Durham",plasterer,
+resident,Argyle Street,46,,"Wm.","Morgan",labourer,
+resident,Argyle Street,44,,"Robt.","Thompson",labourer,
+resident,Argyle Street,42,,"Robert","Lancum",laundry manager,
+resident,Argyle Street,40,,"Miss H. M.","Phillips",,
+resident,Argyle Street,38,,"A. G.","Williams",driver,
+resident,Argyle Street,36,,"Geo.","Twomer",platelayer,
+resident,Argyle Street,34,,"Henry E.","Williams",labr.,
+resident,Argyle Street,32,,"John","Moss",drayman,
+resident,Argyle Street,30,,"Osmond","Desmond",labr.,
+resident,Argyle Street,28,,"Albt.","Hinksman",brewer,
+resident,Argyle Street,26,,"Tom","Andrews",porter,
+resident,Argyle Street,24,,"William","Fox",labourer,
+resident,Argyle Street,22,,"Thos.","Watson",glass blowr,
+resident,Argyle Street,20,,"Thos.","Smith",glass works,
+resident,Argyle Street,18,,"Richd.","Hennesy",stoker,
+resident,Argyle Street,16,,"Jno. T.","Dudley",gasfitter,
+resident,Argyle Street,14,,"James","Rees",labourer,
+resident,Argyle Street,12,,"Alfred","Gaisford",puddler,
+resident,Argyle Street,10,,"Tom","Phillips",bottler,
+resident,Argyle Street,8,,"Mrs.","Strickland",,
+resident,Argyle Street,6,,"Geo. Hy.","Rumsey",labourer,
+resident,Argyle Street,4,,"John","Fouweather",glsblwr,
+resident,Argyle Street,2,,"Mrs. Martha","Chappell",,
+street,Arlington Chambers,,,,,,See 4 Commercial-street.
+street,Arthur Street,E 5,,,,,"From Courtybella-terrace to Mendalgief-road. [LEFT HAND SIDE]"
+resident,Arthur Street,1,,"Rd.","Radnage",goods guard,
+resident,Arthur Street,2,,"Jno. Geo.","Berry",dck pilot,
+resident,Arthur Street,3,,"Chas.","Gillard",plumber,
+resident,Arthur Street,4,,"Thomas","Grace",foreman,
+resident,Arthur Street,5,,"T. P.","Hammett",mas. mar.,
+resident,Arthur Street,6,,"George","Westacott",mason,

@@ -1,0 +1,129 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,Wharf Street,42,,Albt. J.,Stockwell,carpntr,
+resident,Wharf Street,40,,John,Harvey,carpenter,
+resident,Wharf Street,38,,Edgar J.,Bowen,seaman,
+resident,Wharf Street,36,,Charles,Bishop,labourer,
+resident,Wharf Street,34,,John,Beavan,bricklayer,
+resident,Wharf Street,32,,Peter,Matson,shipcarptr,
+resident,Wharf Street,30,,Thomas,Williams,painter,
+resident,Wharf Street,28,,Mrs Selina,Tarrant,shop,
+cross_street,Wharf Street,,,,,,here is Glebe-street.
+resident,Wharf Street,20,,John,Pothecary,salesman,
+resident,Wharf Street,18,,John,Bristow,marblewkr,
+resident,Wharf Street,,,,,John Doran,,salesman
+resident,Wharf Street,16,,Saml,Starr,greengrocer,
+resident,Wharf Street,14,,D. J.,Connell,assistant,
+resident,Wharf Street,12,,John,Border,joiner,
+resident,Wharf Street,10,,Charles,Orders,painter,
+resident,Wharf Street,8,,Mrs Catherine,Drayton,,
+resident,Wharf Street,6,,John,Harrison,tram drvr,
+resident,Wharf Street,4,,Edward,Underwood,lab'r,
+street,Wharves (The), &c.,,,,,,,From the Bridge. WEST SIDE
+resident,Wharves (The), &c.,,,,,,Newport Builders' Supply Ltd.,Bangor wharf
+resident,Wharves (The), &c.,,,,,,Nicholas & Co Ltd. timber & slate merchts,Baltic wharf
+cross_street,Wharves (The), &c.,,,,,,here is the Town Pill.
+resident,Wharves (The), &c.,,,,,,Newport Milling Co. Ltd.,Cinderhill wharf
+resident,Wharves (The), &c.,,,,,,Star Mills,
+resident,Wharves (The), &c.,,,,,,R. Burton & Son, Ltd. carriers & w'fingers,Moderator wharf
+resident,Wharves (The), &c.,,,,,,R. Burton & Son, Ltd. carriers & w'fingers,Beaufort wharf
+resident,Wharves (The), &c.,,,,,,Bristol Packet Co,
+resident,Wharves (The), &c.,,,,,,Nantyglo & Blaina wharf
+resident,Wharves (The), &c.,,,,,,Patent Nut & Bolt Co's whf,
+resident,Wharves (The), &c.,,,,,,S. Wales & Liverpool whf—Liverpool St. Ship Co. Ltd.,
+resident,Wharves (The), &c.,,,,,,Robert Gilchrist & Co,
+resident,Wharves (The), &c.,,,,,,C. & Co. iron merchts,Lewis,
+resident,Wharves (The), &c.,,,Isaac,Cox,stone merchant,
+resident,Wharves (The), &c.,,,,,,Sunlight Soap dépôt,
+resident,Wharves (The), &c.,,,,,,Ebbw Vale Steel, Iron, and Coal Co.'s wharf—F. C. Thomas, coal agent
+resident,Wharves (The), &c.,,,,,,Powell's Town wharf—H. Powell, colliery proprietor
+resident,Wharves (The), &c.,,,James,George,foreman,
+resident,Wharves (The), &c.,,,,,,Pontypool whf—E. Vale Co.,
+resident,Wharves (The), &c.,,,,,,Mariner's wharf—do,
+resident,Wharves (The), &c.,,,,,,Ebbw Vale Coal Co.'s wharf,
+resident,Wharves (The), &c.,,,Fredk.,Larcombe,foreman,
+resident,Wharves (The), &c.,,,,,,Vipond J. & Co.'s wharf,
+resident,Wharves (The), &c.,,,,,,Gloucester whf—G.W.R. Co.,
+resident,Wharves (The), &c.,,,,,,Tucker Bros, manure stores,
+resident,Wharves (The), &c.,,,Jas.,Clements,iron merch'nt,
+resident,Wharves (The), &c.,,,,,,Maybury & Co. builders' mers,
+resident,Wharves (The), &c.,,,,,,Victoria wf—Ebbw Vale Co.—iron ore, pitwood, etc.,
+cross_street,Wharves (The), &c.,,,,,,here is Jack's Pill.
+resident,Wharves (The), &c.,,,,,,Newport (The) Dry Docks—Mordey, Carney & Co. Ltd. engineers, iron ship builders and ship repairers
+resident,Wharves (The), &c.,,,Alfred,Allen,caretaker,
+resident,Wharves (The), &c.,,,A. J. T.,Goss,oil and grease merchant,Llanarth whf
+resident,Wharves (The), &c.,,,,,,Harris & Coxon, ship repair'rs,
+resident,Wharves (The), &c.,,,,,,Blaina wharf—Dock Co.,
+resident,Wharves (The), &c.,,,C. H.,Edwards,d'k gate for'mn,
+resident,Wharves (The), &c.,,,John,Evans,wagon inspectr,
+resident,Wharves (The), &c.,,,,,,Tillery wharf,
+resident,Wharves (The), &c.,,,Charles,Sundy,coal shipper,
+resident,Wharves (The), &c.,,,Mrs Louisa,Hughes,,
+resident,Wharves (The), &c.,,,,,,Clapp's wharf,
+resident,Wharves (The), &c.,,,James,Farmer,platelayer,
+resident,Wharves (The), &c.,,,David & Co.,Stevens,smiths,
+resident,Wharves (The), &c.,,,,,,Russell's wharf—Lancaster, Speir & Co. colliery proptrs
+resident,Wharves (The), &c.,,,Edward,Clayfield,,
+resident,Wharves (The), &c.,,,Denis,Sullivan,moulder,
+resident,Wharves (The), &c.,,,,,,Risca wharf—Watts, Watts and Co.,
+resident,Wharves (The), &c.,,,,,,Commercial wharf—,
+resident,Wharves (The), &c.,,,,,,Deri wharf—T. Spittle, Limited, engineers, iron and brass founders,
+resident,Wharves (The), &c.,,,,,,Aberbeeg wharf—T. Spittle, Limited, engineers, iron and brass founders,
+resident,Wharves (The), &c.,,,,,,Cambrian wharf—T. Spittle, Limited, engineers, iron and brass founders,
+resident,Wharves (The), &c.,,,,,,Cambrian foundry,
+resident,Wharves (The), &c.,,,,,,Cambrian & Rhymney wharf,
+resident,Wharves (The), &c.,,,John,Edwards,gas fitter,
+resident,Wharves (The), &c.,,,,,,Devonshire wharf,
+resident,Wharves (The), &c.,,,James,Poole,coal and pitwood merchant,Penner wharf
+resident,Wharves (The), &c.,,,Henry,William,seaman,Rew William
+resident,Wharves (The), &c.,,,,,,Williams Mark,
+resident,Wharves (The), &c.,,,,,,Phillips & Sons' malthouse,
+resident,Wharves (The), &c.,,,C. R.,Wilkinson,maltster,
+resident,Wharves (The), &c.,,,,,,DOCK ENTRANCE,
+resident,Wharves (The), &c.,,,,,,Customs' Watch house,F. C.
+resident,Wharves (The), &c.,,,,,,Phillips' wharf,
+resident,Wharves (The), &c.,,,,,,Powell Duffryn wharf,
+resident,Wharves (The), &c.,,,,,,Penmaen wharf,
+resident,Wharves (The), &c.,,,,,,Campbell's Landing stage,
+resident,Wharves (The), &c.,,,,,,Pillgwenlly whf—Partridge, Jones, & Co., Ltd.,
+resident,Wharves (The), &c.,,,George,Morse,foreman,
+resident,Wharves (The), &c.,,,Alfred R.,Pearce,foreman,
+resident,Wharves (The), &c.,,,John,Kingdom,foreman,
+resident,Wharves (The), &c.,,,G. F.,Harding,iron & steel mer,
+resident,Wharves (The), &c.,,,,,,Pillgwenlly Coal Co.,
+resident,Wharves (The), &c.,,,,,,Tredegar Dry Dock & Wharf Co., Ltd.,
+resident,Wharves (The), &c.,,,George,Courtney,foreman,
+resident,Wharves (The), &c.,,,,,,Latch's wharf,
+resident,Wharves (The), &c.,,,,,,Newport Engineering & Ship Repairing Co., Ltd.,
+resident,Wharves (The), &c.,,,,,,Newport Foundry Co.,
+resident,Wharves (The), &c.,,,,,,Rock whf—Lydney & Crump Meadow Colliery Co.—S. O. Hands, agent
+resident,Wharves (The), &c.,,,,,,Waterloo wharf—T. G. Cartwright, colliery proprietor
+resident,Wharves (The), &c.,,,Thomas,Payne,foreman,
+resident,Wharves (The), &c.,,,,,,Brithdir wharf—Union Dry Dock Co. engineers, &c., and at Union Dry Docks
+resident,Wharves (The), &c.,,,,,,Rhoswen wharf—Cardiff and Newport Patent Fuel Co., Ltd.—Wm. Jones, manager
+resident,Wharves (The), &c.,,,,,,Rhos Llantwit wharf,
+resident,Wharves (The), &c.,,,,,,Machen wharf,
+resident,Wharves (The), &c.,,,,,,Lynch Morgan,
+resident,Wharves (The), &c.,,,,,,Cork Steam Ship wharf—James Maddock, agent
+resident,Wharves (The), &c.,,,Wm. Hy.,Taylor,manager,
+resident,Wharves (The), &c.,,,,,,Alexandra Dock jetties,
+resident,Wharves (The), &c.,,,,,,ALEXANDRA DOCK,
+resident,Wharves (The), &c.,,,,,,The Watchhouse,
+resident,Wharves (The), &c.,,,Chas.,Handford,Harbour ho-,
+cross_street,Wharves (The), &c.,,,,,,South Dock entrance.
+resident,Wharves (The), &c.,,,,,,Harbour Commissioners' ballast jetties,
+resident,Wharves (The), &c.,,,,,,The Powder house,
+resident,Wharves (The), &c.,,,J.,Bradbury,,
+resident,Wharves (The), &c.,,,Michael,Carey,Pilots' pill,
+cross_street,Wharves (The), &c.,,,,,,EAST SIDE— See also Rodney-parade.
+resident,Wharves (The), &c.,,,,,,London wharf—Davies Bros.,
+resident,Wharves (The), &c.,,,,,,Commissioners' Land'g stage,
+resident,Wharves (The), &c.,,,,,,The Gridiron,
+resident,Wharves (The), &c.,,,,,,Rodney wf—UsksideLimeCo.,
+resident,Wharves (The), &c.,,,,,,Clarence wharf—Clarence Wharf Saw Mills Co. Ltd.,
+resident,Wharves (The), &c.,,,,,,Western wf—Happerfield and Willans, proprietors,G.
+resident,Wharves (The), &c.,,,,,,Usk (The) Chemical works—Morris & Griffin, Ltd.—W. M. Fuller, man'g director
+cross_street,Wharves (The), &c.,,,,,,here is Lliswerry Pill.
+resident,Wharves (The), &c.,,,John,Lysaght's,Ltd. works,
+resident,Wharves (The), &c.,,,,,,The Union Dry Docks,
+street,Wheeler Street,,,,,,,From 15 Pugsley-street. [LEFT HAND SIDE.]
+resident,Wheeler Street,1,,G.,Limbrick,mill band mkr,

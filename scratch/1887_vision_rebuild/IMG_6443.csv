@@ -1,0 +1,85 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Wolseley street,,,,,,continued
+resident,Wolseley street,5,,W.,Johnstone,engine dvr,
+resident,Wolseley street,6,,Charles,Davies,rigger,
+resident,Wolseley street,7,,Rob.,Elsdon,coal trimr,
+resident,Wolseley street,8,,Saml.,Smith,craneman,
+cross_street,Wolseley street,,,,,,[Right hand side.]
+resident,Wolseley street,1,,Thos.,Russell,smith,
+resident,Wolseley street,2,,Peter,Peterson,seaman,
+resident,Wolseley street,3,,Alfd.,Higgins,engineman,
+resident,Wolseley street,4,,Wm.,Carthy,shoemaker,
+resident,Wolseley street,5,,C.,Hansford,crane driver,
+resident,Wolseley street,6,,J.,Stevens,marine stores,
+resident,Wolseley street,7,,Wm.,Tucker,labourer,
+resident,Wolseley street,8,,David,Evans,coal ship'r,
+resident,Wolseley street,9,,George,Dawkins,sailor,
+resident,Wolseley street,10,,Alfd.,Knapp,contractor,
+resident,Wolseley street,11,,Jno. H.,Manship,hobbler,
+resident,Wolseley street,12,,Wm.,Evans,labourer,
+resident,Wolseley street,13,,Sidney,Stokes,haulier,
+resident,Wolseley street,14,,Wm.,Edwards,coal trim,
+resident,Wolseley street,15,,John,Sully,mariner,
+resident,Wolseley street,16,,Wm. J.,Attwood,labourer,
+street,Wyndham Street,,,,,,entrance to Marshes.
+resident,Wyndham Street,,,James,Lane,labourer,
+resident,Wyndham Street,,,John,Spiers,fish dealer,
+resident,Wyndham Street,,,Henry,Smith,labourer,
+cross_street,Wyndham Street,,,,,,(return.)
+resident,Wyndham Street,,Public Slaughter Houses,,,,,
+resident,Wyndham Street,,,James,Hooper,manager,
+resident,Wyndham Street,,,Enoch,Griffiths,bakery,
+street,Wyndham Terrace,,,,,,Nos. 93 to 125 Marshes-road
+street,York Place,,,,,,From 54 Stow-hill.
+resident,York Place,,Kensington v,G. F.,Colborne,,"Colborne G.F., Kensington v"
+resident,York Place,1,,By.,Lewis,station mastr,
+resident,York Place,2,,J. R.,Hall,,
+resident,York Place,3,,Mrs. Edmund,Matthews,,
+resident,York Place,4,,,,,Void
+resident,York Place,5,,Miss,Hillier,,
+resident,York Place,6,,John,Bucknall,,
+resident,York Place,7,,T. Smith,Cooper,,
+resident,York Place,8,,Mrs Hannah,Wade,,
+resident,York Place,9,,Mrs Charles,Lewis,,
+resident,York Place,10,,David Edward,Davies,,
+resident,York Place,11,,Thomas Henry,Hazell,,
+resident,York Place,12,,John T.,Turner,,
+resident,York Place,,Turner Miss,,,,,
+resident,York Place,13,,G. T.,Rogers,prof. music,
+resident,York Place,14,Building,,,,
+resident,York Place,15,,,,,do
+resident,York Place,16,,,,,do
+resident,York Place,17,,,,,do
+cross_street,York Place,,,,,,Site for three villas
+cross_street,York Place,,BRODAWEL ESTATE,,,,
+cross_street,York Place,,Five villas building!,,,,
+resident,York Place,,Clytha col-lege Brodawel,A.,Sieverdin,,
+resident,York Place,,Villa building,William,Thomas,,
+resident,York Place,,Villa building,Rev C.,Ayliffe,,
+resident,York Place,21,York vil,Thos. H.,Howell,,
+resident,York Place,22,Carlton vil,R. L.,Watson,,
+resident,York Place,23,,Fred. John,Barnes,,
+resident,York Place,24,,Mrs Ann,Latch,,
+resident,York Place,25,,Dan,Chambers,,
+resident,York Place,26,,W. W.,Loder,,
+resident,York Place,27,,Frank,Raikes,,
+resident,York Place,28,,Misses,Stone,,
+resident,York Place,29,,Thos. Wm.,Griffiths,,
+resident,York Place,30,,Charles H.,Slade,,
+resident,York Place,31,,Mrs H.,Matthews,,
+resident,York Place,32,,Edwin John,Summers,,
+resident,York Place,33,,Walter,West,,
+resident,York Place,34,,Miss,Giddy,,
+resident,York Place,35,,P. P.,Williams,,
+resident,York Place,36,,Charles,Waters,,
+resident,York Place,37,,Mrs J. N.,Gregory,,
+resident,York Place,,,Rev E. Jones,Lloyd,,
+resident,York Place,38,,John,Richardson,,
+resident,York Place,39,,Miss,Whitaker,,
+resident,York Place,40,,Mrs M. C.,Coombs,,
+resident,York Place,,,Miss,Coombs,ladies' schl,
+resident,York Place,41,,,,,Void
+resident,York Place,42,,Robert,Hunter,,
+resident,York Place,43,Ida house,Ed.,Thomas,,
+resident,York Place,44,,,,,Void
+resident,York Place,45,,,,,Void

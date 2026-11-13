@@ -1,0 +1,145 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Stow Park,,,,,,From top of Stow-hill.
+cross_street,Stow Park,,,,,,First Roadway—
+cross_street,Stow Park,,,,,,STOW PARK GARDENS—
+resident,Stow Park,1,Building,,,,,
+resident,Stow Park,2,,,,,,Void
+resident,Stow Park,3,,John,Wilson,,,
+resident,Stow Park,4,,,,,,Unfinished
+resident,Stow Park,5,,,,,,Ditto
+resident,Stow Park,6,,,,,,Ditto
+resident,Stow Park,7,,E. D. J.,Tapson,,,
+resident,Stow Park,8,,Henry,Hellyer,,,
+resident,Stow Park,9,,A. J.,Stevens,J.P.,
+resident,Stow Park,10,,G. R.,Martyn,,,
+cross_street,Stow Park,,,,,,[Right-hand side.]
+resident,Stow Park,,Woolmer,Thos.,Limbrey,,,
+resident,Stow Park,,Holme lea,Alfred R.,Bear,,,
+resident,Stow Park,,Brendon view,Edwin,Grove,,,
+resident,Stow Park,,Chesterholme,C. T.,Wallis,,,
+resident,Stow Park,,Stow park house,Mrs. W. R.,Wallis,,,
+resident,Stow Park,,Hazlewood ho,A. E.,Garwood,,,
+resident,Stow Park,,Bryn-glas villa,A.,Henshaw,,,
+resident,Stow Park,,Melrose,R. J. C.,Simpkins,,,
+resident,Stow Park,,,Alfred O.,Watkins,,,
+resident,Stow Park,,Ellesmere ho,Miss,Harrhy,,,
+resident,Stow Park,,Cambridge ho,H. S.,Lyne,,,
+cross_street,Stow Park,,,,,,Second Roadway—
+resident,Stow Park,,Bronhavren,A. H.,Herring,,,
+resident,Stow Park,,Fair-light,Chas. R.,Lyne,,,
+resident,Stow Park,,Bron-gain house,Hy.,Jayne,,,
+resident,Stow Park,,Winchester h,H.,LeBrasseur,,,
+resident,Stow Park,,summer house,,,,Void
+resident,Stow Park,,Briar-hill,Robt. jun.,Gething,,,
+resident,Stow Park,,Brae side,J.,Eeles,,,
+resident,Stow Park,,Villetta,Wm.,Rees,,,
+cross_street,Stow Park,,,,,,(return.)
+resident,Stow Park,,Minevia,E H.,Davies,,,
+resident,Stow Park,,Woodside vil,Mrs. C.,Morris,,,
+resident,Stow Park,,Villa building,,,,,
+resident,Stow Park,,Fern-cliffe,S. G.,Homfray,,,
+resident,Stow Park,,Draycot vil,A. P.,Williams,,,
+resident,Stow Park,,Severn villa,Wm.,Vaughan,,,
+resident,Stow Park,,Holmes-view,Mrs. W.,Evans,,,
+cross_street,Stow Park,,,,,,Third Roadway—
+resident,Stow Park,,St. Olaves,Walter,Allen,,,
+resident,Stow Park,,St. Helens,C. W. E.,Marsh,,,
+resident,Stow Park,,The Grange,Thos.,Cordey,,,
+cross_street,Stow Park,,,,,,Roadway—
+resident,Stow Park,,Ben bragie,J. C.,Mackay,A.M.I.C.E.,
+resident,Stow Park,,Rothesay,Mark,Mordey,,,
+resident,Stow Park,,Skelmorlie,T. Ed.,Watkins,,,
+resident,Stow Park,,The Hawthorns,Rev. Canon,Hawkins,,,
+resident,Stow Park,,Lynwood,A. H.,Oliver,,,
+resident,Stow Park,,Rosetta,Fred.,Vaughan,,,
+resident,Stow Park,,Brynholme,Arthur J. T.,Goss,,,
+resident,Stow Park,,Villa building,,,,,
+resident,Stow Park,,Craig hafren,J. C.,Llewellin,,,
+resident,Stow Park,,Pen-y-van,John L.,Lloyd,,,
+resident,Stow Park,,Ivington,S. D.,Ingram,,,
+resident,Stow Park,,Grouville,A. P.,Filleul,,,
+cross_street,Stow Park,,,,,,(return.)
+resident,Stow Park,11,,Mrs. Ann,Payne,,,
+resident,Stow Park,12,,Harry,Cambray,painter,
+resident,Stow Park,13,,James,Herbert,smith,
+resident,Stow Park,14,,Thos.,Pearce,goods guard,
+resident,Stow Park,15,,E.,Ferris,railway police,
+resident,Stow Park,16,,Wm.,Forest,moulder,
+resident,Stow Park,17,,Alfred,Waters,,,
+resident,Stow Park,18,,Richard,Shea,labourer,
+resident,Stow Park,19,,Wm.,Morgan,carpenter,
+resident,Stow Park,20,,Richard,Shea,labourer,
+resident,Stow Park,21,,Henry,Bowen,labourer,
+resident,Stow Park,22,,Wm.,Cox,fitter,
+cross_street,Stow Park,,,,,,Branch READING ROOM
+resident,Stow Park,25,,Harry J.,Triller,coal tr mr,
+resident,Stow Park,26,,Mary Ann,Tucker,,,
+resident,Stow Park,27,,John,Honeywill,tailor,
+resident,Stow Park,,Elliot Home for Seamen,,,,Wm. Dunn, supt.
+resident,Stow Park,,,Rev. W. W.,Garry,chaplaincy,
+resident,Stow Park,,Sailors' Church & Institute,,,,,
+street,Talgarth Place,,,,,,Nos. 90 to 94 Church-road.
+street,Thomas Street,,,,,,From 64 High-street.
+resident,Thomas Street,2,Three Tuns,C.,Edwards,,,
+resident,Thomas Street,3,,,Bowen Robt.,hairdresser,
+cross_street,Thomas Street,,,,,,Postoffice (back entrance)
+cross_street,Thomas Street,,,,,,Sub-way to Mill-street.
+resident,Thomas Street,6,,,Symons T.,hairdresser,
+cross_street,Thomas Street,,,,,,here is Oak terrace.
+resident,Thomas Street,7,,,Naish S.,basket maker,
+cross_street,Thomas Street,,,,,,here is Powell's-court.
+resident,Thomas Street,8,,,Daniels A. W.,signalman,
+resident,Thomas Street,9,,,Landcastle J,shopkeeper,
+resident,Thomas Street,10,Railway Inn,Geo.,Grattan,,,
+resident,Thomas Street,11,Gloucester Eating House,Mrs. Ann,Love,,,
+street,Toomb's Court,,,,,,From Reform-buildings.
+street,Tredegar Chambers,,,,,,See Tredegar-place.
+resident,Stow Park,,Netherlands,John,Linton,,,
+resident,Stow Park,,Rothbury ho,Thos.,Dawson,,,
+resident,Stow Park,,The Redlands,F. W.,Raikes,,,
+resident,Stow Park,,Rock dale,H.,Watts,,,
+resident,Stow Park,,Bron-gare,John,Liscombe,,,
+street,Summer Hill, M.,,,,,,From Windsor-terrace to Victoria-avenue.
+resident,Summer Hill, M.,,Brynderwen,B.,Pratt,,,
+resident,Summer Hill, M.,,Glen-vue,George,Harries,,,
+cross_street,Summer Hill, M.,,,,,,SUMMER HILL VILLAS —
+resident,Summer Hill, M.,1,,Edwin,Cherry,,,
+resident,Summer Hill, M.,2,,Thomas H.,Cundy,,,
+resident,Summer Hill, M.,3,,,,,,Void
+resident,Summer Hill, M.,4,,Edwin,Hill,,,
+resident,Summer Hill, M.,,Gogerddan vil,J. R.,Richards,,,
+resident,Summer Hill, M.,,Peringa villa,Jas.,Morgan,,,
+resident,Summer Hill, M.,,Arran villa,Mrs. M.,Davies,,,
+resident,Summer Hill, M.,,Rutland villa,F. W.,Gritton,,,
+cross_street,Summer Hill, M.,,,,,,SUMMER HILL TERRACE—
+resident,Summer Hill, M.,1,,Wm. H.,Gough,,,
+resident,Summer Hill, M.,2,,Donald,McDonald,,,
+resident,Summer Hill, M.,3,,John Rice,Williams,,,
+resident,Summer Hill, M.,4,,Albt. E.,Barnes,traveller,
+resident,Summer Hill, M.,5,,W. H.,Hayman,traveller,
+resident,Summer Hill, M.,6,,Robt.,Evans,traveller,
+resident,Summer Hill, M.,7,,W. J.,Frederick,,,
+resident,Summer Hill, M.,8,,Rev. G. H.,Cook,(Baptist),
+cross_street,Summer Hill, M.,,,,,,ISCA TERRACE—
+resident,Summer Hill, M.,,Gurnos,Rev. E.,Jones,,,
+cross_street,Summer Hill, M.,,,,,,here is Albert-avenue.
+resident,Summer Hill, M.,,Cardigan vil,W. S.,Watson,,,
+resident,Summer Hill, M.,,Aberystwith v,Chas.,Taplin,,,
+resident,Summer Hill, M.,,Ilfracombe house,T. M.,Cuff,,,
+resident,Summer Hill, M.,,p. o.,A. H.,Bisco,clerk,
+resident,Summer Hill, M.,,agent,Wm. J.,Craddock,,,
+resident,Summer Hill, M.,,carpenter,Thomas,Wm,,,
+street,Temple Street, P.,,,,,,From 132 Commercial-road.
+resident,Temple Street, P.,1,,,Gillman Frank,fitter,
+resident,Temple Street, P.,2,,,Gorman Morris,labourer,
+resident,Temple Street, P.,3,,,Cousins Geo.,mechanic,
+resident,Temple Street, P.,4,,,Thomas John,labourer,
+resident,Temple Street, P.,,Trinity Boys' School,,,,,
+resident,Temple Street, P.,5,,,Nicol Wm.,rivet maker,
+resident,Temple Street, P.,6,,,Dawkins E. A.,grocer,
+resident,Temple Street, P.,7,,,Richards Hy.,labourer,
+resident,Temple Street, P.,8,,,Warlow James,smith,
+resident,Temple Street, P.,9,,,Hughes Wm.,hobbler,
+cross_street,Temple Street, P.,,,,,,Branch Police Station
+resident,Temple Street, P.,10,,,Crowley M.,coal trimmer,
+resident,Temple Street, P.,,,,Moulton & Brownscombe,builders & contractors,

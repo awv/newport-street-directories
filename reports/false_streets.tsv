@@ -1,0 +1,246 @@
+street	audit_status	category	years_count	years	total_records	suggested_target	confidence	reason
+West-side of Old Dock	NOT_IN_MASTER	AD_OR_LAYOUT_ARTIFACT	3	1892,1895,1898	118	Preceding Street: Kingsmill Terrace	HIGH	Contains digits, commercial company tokens, or layout routing words
+East-side Old Dock	NOT_IN_MASTER	AD_OR_LAYOUT_ARTIFACT	4	1887,1892,1895,1901	95	Preceding Street: Commercial Street	HIGH	Contains digits, commercial company tokens, or layout routing words
+East-side of Old Dock	NOT_IN_MASTER	AD_OR_LAYOUT_ARTIFACT	1	1892	22	Preceding Street: Devon Place	HIGH	Contains digits, commercial company tokens, or layout routing words
+West side Old Dock	NOT_IN_MASTER	AD_OR_LAYOUT_ARTIFACT	1	1901	4	Preceding Street: Powell's Place	HIGH	Contains digits, commercial company tokens, or layout routing words
+Newport Arcade	UNVERIFIED	BUILDING_OR_INSTITUTION_HEADER	13	1895,1898,1899,1900,1901,1910,1913,1915...	353	Parent Street: New Street (move 'Newport Arcade' to building_name)	HIGH	Matches non-street building/institution keyword; appears in 13 yr(s)
+Commercial Wharf	UNVERIFIED	BUILDING_OR_INSTITUTION_HEADER	5	1886,1894,1902,1903,1920	212	Parent Street: East-side Old Dock (move 'Commercial Wharf' to building_name)	HIGH	Matches non-street building/institution keyword; appears in 5 yr(s)
+Maindee Hall Flats	UNVERIFIED	BUILDING_OR_INSTITUTION_HEADER	1	1927	118	Parent Street: Chepstow Road (move 'Maindee Hall Flats' to building_name)	HIGH	Matches non-street building/institution keyword; appears in 1 yr(s)
+Market Arcade	UNVERIFIED	BUILDING_OR_INSTITUTION_HEADER	7	1878,1913,1915,1920,1924,1927,1936	108	Parent Street: Arcades (move 'Market Arcade' to building_name)	HIGH	Matches non-street building/institution keyword; appears in 7 yr(s)
+Canal Bank	UNVERIFIED	BUILDING_OR_INSTITUTION_HEADER	6	1902,1903,1913,1915,1920,1936	79	Parent Street: Allt-yr-yn Road (move 'Canal Bank' to building_name)	HIGH	Matches non-street building/institution keyword; appears in 6 yr(s)
+G.W. Wharf	UNVERIFIED	BUILDING_OR_INSTITUTION_HEADER	2	1902,1903	76	Parent Street: Wharf Road (move 'G.W. Wharf' to building_name)	HIGH	Matches non-street building/institution keyword; appears in 2 yr(s)
+Devonshire Wharf	NOT_IN_MASTER	BUILDING_OR_INSTITUTION_HEADER	5	1886,1894,1895,1901,1902	71	Parent Street: Deri Wharf (move 'Devonshire Wharf' to building_name)	MEDIUM	Matches non-street building/institution keyword; appears in 5 yr(s)
+Moderator Wharf	NOT_IN_MASTER	BUILDING_OR_INSTITUTION_HEADER	3	1894,1895,1903	70	Parent Street: Cinderhill Wharf (move 'Moderator Wharf' to building_name)	HIGH	Matches non-street building/institution keyword; appears in 3 yr(s)
+Deri Wharf	NOT_IN_MASTER	BUILDING_OR_INSTITUTION_HEADER	3	1886,1887,1890	53	Parent Street: Williams Street (move 'Deri Wharf' to building_name)	HIGH	Matches non-street building/institution keyword; appears in 3 yr(s)
+Commerce's Wharf	NOT_IN_MASTER	BUILDING_OR_INSTITUTION_HEADER	1	1895	47	Parent Street: East-side Old Dock (move 'Commerce's Wharf' to building_name)	MEDIUM	Matches non-street building/institution keyword; appears in 1 yr(s)
+Arcade	UNVERIFIED	BUILDING_OR_INSTITUTION_HEADER	4	1878,1882,1887,1893	44	Parent Street: High Street (move 'Arcade' to building_name)	HIGH	Matches non-street building/institution keyword; appears in 4 yr(s)
+Keyse's Buildings	NOT_IN_MASTER	BUILDING_OR_INSTITUTION_HEADER	2	1882,1886	41	Parent Street: Williams Street (move 'Keyse's Buildings' to building_name)	HIGH	Matches non-street building/institution keyword; appears in 2 yr(s)
+OldBlaina Wharf	NOT_IN_MASTER	BUILDING_OR_INSTITUTION_HEADER	1	1887	40	Parent Street: Beaufort Wharf (move 'OldBlaina Wharf' to building_name)	MEDIUM	Matches non-street building/institution keyword; appears in 1 yr(s)
+Gridiron Wharf	NOT_IN_MASTER	BUILDING_OR_INSTITUTION_HEADER	2	1886,1892	35	Parent Street: Robert Street (move 'Gridiron Wharf' to building_name)	HIGH	Matches non-street building/institution keyword; appears in 2 yr(s)
+Moderatr Wharf	NOT_IN_MASTER	BUILDING_OR_INSTITUTION_HEADER	1	1890	30	Parent Street: Beaufort Terrace (move 'Moderatr Wharf' to building_name)	MEDIUM	Matches non-street building/institution keyword; appears in 1 yr(s)
+Blaina Wharf	NOT_IN_MASTER	BUILDING_OR_INSTITUTION_HEADER	1	1902	24	Parent Street: Dewstow Street (move 'Blaina Wharf' to building_name)	HIGH	Matches non-street building/institution keyword; appears in 1 yr(s)
+Church Path	NOT_IN_MASTER	BUILDING_OR_INSTITUTION_HEADER	3	1892,1894,1895	21	Parent Street: Albion Street (move 'Church Path' to building_name)	HIGH	Matches non-street building/institution keyword; appears in 3 yr(s)
+Cinderhill Wharf	NOT_IN_MASTER	BUILDING_OR_INSTITUTION_HEADER	4	1894,1895,1902,1903	21	Parent Street: Wheeler Street (move 'Cinderhill Wharf' to building_name)	HIGH	Matches non-street building/institution keyword; appears in 4 yr(s)
+The Newport Arcade	UNVERIFIED	BUILDING_OR_INSTITUTION_HEADER	1	1903	16	Parent Street: High Street (move 'The Newport Arcade' to building_name)	HIGH	Matches non-street building/institution keyword; appears in 1 yr(s)
+Cambrian Wharf	NOT_IN_MASTER	BUILDING_OR_INSTITUTION_HEADER	3	1890,1895,1902	14	Parent Street: Wheeler Street (move 'Cambrian Wharf' to building_name)	HIGH	Matches non-street building/institution keyword; appears in 3 yr(s)
+Tillery Wharf	NOT_IN_MASTER	BUILDING_OR_INSTITUTION_HEADER	3	1894,1895,1901	14	Parent Street: Newport  Dry Docks (move 'Tillery Wharf' to building_name)	MEDIUM	Matches non-street building/institution keyword; appears in 3 yr(s)
+Latch's Wharf	NOT_IN_MASTER	BUILDING_OR_INSTITUTION_HEADER	3	1894,1895,1901	14	Parent Street: Wrenford Court (move 'Latch's Wharf' to building_name)	HIGH	Matches non-street building/institution keyword; appears in 3 yr(s)
+Rock Wharf	NOT_IN_MASTER	BUILDING_OR_INSTITUTION_HEADER	2	1894,1895	13	Parent Street: Corporation Road (move 'Rock Wharf' to building_name)	HIGH	Matches non-street building/institution keyword; appears in 2 yr(s)
+Mariner's Wharf	NOT_IN_MASTER	BUILDING_OR_INSTITUTION_HEADER	1	1895	12	Parent Street: Moderator Wharf (move 'Mariner's Wharf' to building_name)	MEDIUM	Matches non-street building/institution keyword; appears in 1 yr(s)
+Clarence Wharf	UNVERIFIED	BUILDING_OR_INSTITUTION_HEADER	2	1901,1902	12	Parent Street: High Street (move 'Clarence Wharf' to building_name)	HIGH	Matches non-street building/institution keyword; appears in 2 yr(s)
+Orchard Buildings	UNVERIFIED	BUILDING_OR_INSTITUTION_HEADER	1	1886	11	Parent Street: Orchard Terrace (move 'Orchard Buildings' to building_name)	MEDIUM	Matches non-street building/institution keyword; appears in 1 yr(s)
+Cork Steam Ship Wharf	NOT_IN_MASTER	BUILDING_OR_INSTITUTION_HEADER	4	1886,1894,1902,1903	9	Parent Street: Blewitt Terrace (move 'Cork Steam Ship Wharf' to building_name)	HIGH	Matches non-street building/institution keyword; appears in 4 yr(s)
+Pennaen Wharf	NOT_IN_MASTER	BUILDING_OR_INSTITUTION_HEADER	2	1901,1902	9	Parent Street: Devonshire Wharf (move 'Pennaen Wharf' to building_name)	HIGH	Matches non-street building/institution keyword; appears in 2 yr(s)
+Ebbot Vale Coal Co.'s Wharf	NOT_IN_MASTER	BUILDING_OR_INSTITUTION_HEADER	1	1902	8	Parent Street: Pennaen Wharf (move 'Ebbot Vale Coal Co.'s Wharf' to building_name)	MEDIUM	Matches non-street building/institution keyword; appears in 1 yr(s)
+Davies Bros. London Wharf	NOT_IN_MASTER	BUILDING_OR_INSTITUTION_HEADER	1	1903	8	Parent Street: Arthur Street (move 'Davies Bros. London Wharf' to building_name)	MEDIUM	Matches non-street building/institution keyword; appears in 1 yr(s)
+Clapp's Wharf	NOT_IN_MASTER	BUILDING_OR_INSTITUTION_HEADER	1	1901	7	Parent Street: Tillery Wharf (move 'Clapp's Wharf' to building_name)	MEDIUM	Matches non-street building/institution keyword; appears in 1 yr(s)
+Rees' Buildings	NOT_IN_MASTER	BUILDING_OR_INSTITUTION_HEADER	1	1886	6	Parent Street: Railway Street (move 'Rees' Buildings' to building_name)	HIGH	Matches non-street building/institution keyword; appears in 1 yr(s)
+Aberbeeg Wharf	NOT_IN_MASTER	BUILDING_OR_INSTITUTION_HEADER	3	1890,1894,1901	6	Parent Street: Deri Wharf (move 'Aberbeeg Wharf' to building_name)	MEDIUM	Matches non-street building/institution keyword; appears in 3 yr(s)
+Rhos Llantwrt Wharf	NOT_IN_MASTER	BUILDING_OR_INSTITUTION_HEADER	2	1894,1895	6	Parent Street: Rock Wharf (move 'Rhos Llantwrt Wharf' to building_name)	HIGH	Matches non-street building/institution keyword; appears in 2 yr(s)
+Machen Wharf	NOT_IN_MASTER	BUILDING_OR_INSTITUTION_HEADER	3	1901,1902,1903	5	Parent Street: at Eastern Dry Docks (move 'Machen Wharf' to building_name)	HIGH	Matches non-street building/institution keyword; appears in 3 yr(s)
+Key's Buildings	NOT_IN_MASTER	BUILDING_OR_INSTITUTION_HEADER	1	1902	4	Parent Street: St. John's Road (move 'Key's Buildings' to building_name)	HIGH	Matches non-street building/institution keyword; appears in 1 yr(s)
+Park Hall And Lesser Park Hall	NOT_IN_MASTER	BUILDING_OR_INSTITUTION_HEADER	1	1920	4	Parent Street: Exchange Road (move 'Park Hall And Lesser Park Hall' to building_name)	HIGH	Matches non-street building/institution keyword; appears in 1 yr(s)
+G. W. Wharf	NOT_IN_MASTER	BUILDING_OR_INSTITUTION_HEADER	1	1890	3	Parent Street: Wharf Road Terrace (move 'G. W. Wharf' to building_name)	MEDIUM	Matches non-street building/institution keyword; appears in 1 yr(s)
+Bangor Wharf	NOT_IN_MASTER	BUILDING_OR_INSTITUTION_HEADER	1	1895	3	Parent Street: Screw Packet Road (move 'Bangor Wharf' to building_name)	MEDIUM	Matches non-street building/institution keyword; appears in 1 yr(s)
+Uskside Lime Co.'s Wharf	NOT_IN_MASTER	BUILDING_OR_INSTITUTION_HEADER	1	1903	3	Parent Street: Robert Street (move 'Uskside Lime Co.'s Wharf' to building_name)	MEDIUM	Matches non-street building/institution keyword; appears in 1 yr(s)
+Tredegar Wharf	NOT_IN_MASTER	BUILDING_OR_INSTITUTION_HEADER	1	1894	2	Parent Street: Devonshire Wharf (move 'Tredegar Wharf' to building_name)	MEDIUM	Matches non-street building/institution keyword; appears in 1 yr(s)
+Beaufort Wharf	UNVERIFIED	BUILDING_OR_INSTITUTION_HEADER	1	1887	1	Parent Street: Williams Street (move 'Beaufort Wharf' to building_name)	MEDIUM	Matches non-street building/institution keyword; appears in 1 yr(s)
+Rhymney Wharf	NOT_IN_MASTER	BUILDING_OR_INSTITUTION_HEADER	1	1901	1	Parent Street: Aberbeeg Wharf (move 'Rhymney Wharf' to building_name)	MEDIUM	Matches non-street building/institution keyword; appears in 1 yr(s)
+Coldra Street	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1899	282	Commercial Road	HIGH	13/282 residents match 'Commercial Road' at same house numbers in other years
+Gaer Park Drive	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	2	1936,1971	257	Caerau Road	HIGH	8/257 residents match 'Caerau Road' at same house numbers in other years
+New Road	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1925	214	Stow Hill	HIGH	17/214 residents match 'Stow Hill' at same house numbers in other years
+Heather Road	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	3	1927,1936,1971	160	Capel Street	HIGH	6/160 residents match 'Capel Street' at same house numbers in other years
+Nant Coch Hill	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1936	157	Bassaleg Road	HIGH	9/157 residents match 'Bassaleg Road' at same house numbers in other years
+Graig Park Circle	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	2	1936,1971	139	Caerleon Road	HIGH	8/139 residents match 'Caerleon Road' at same house numbers in other years
+St. Mary's Street	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	3	1900,1901,1902	124	Commercial Road	HIGH	32/124 residents match 'Commercial Road' at same house numbers in other years
+Frome Walk	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	123	Gaer Park Avenue	HIGH	13/123 residents match 'Gaer Park Avenue' at same house numbers in other years
+Gaer Park Avenue	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	2	1936,1971	118	Frome Walk	HIGH	14/118 residents match 'Frome Walk' at same house numbers in other years
+Graig Park Avenue	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	2	1936,1971	117	Capel Crescent	HIGH	7/117 residents match 'Capel Crescent' at same house numbers in other years
+Gaer Park Road	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	2	1936,1971	108	Alma Street	HIGH	6/108 residents match 'Alma Street' at same house numbers in other years
+Queen's Close	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	2	1936,1971	106	Malpas Road	HIGH	6/106 residents match 'Malpas Road' at same house numbers in other years
+St. Julian's Park	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	2	1924,1927	100	Caerleon Road	HIGH	45/100 residents match 'Caerleon Road' at same house numbers in other years
+Elgar Avenue	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	100	South Market Street	HIGH	5/100 residents match 'South Market Street' at same house numbers in other years
+Pen-y-lan Park	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	3	1900,1902,1903	98	Chepstow Road	MEDIUM	4/98 residents match 'Chepstow Road' at same house numbers in other years
+Hampden Road	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	2	1936,1971	97	Emlyn Street	MEDIUM	4/97 residents match 'Emlyn Street' at same house numbers in other years
+Hillview Crescent	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	97	Wolseley Street	MEDIUM	3/97 residents match 'Wolseley Street' at same house numbers in other years
+Gainsborough Drive	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	94	Jeddo Street	MEDIUM	4/94 residents match 'Jeddo Street' at same house numbers in other years
+Greenmeadow Road	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	3	1927,1936,1971	84	Llanthewy Road	HIGH	5/84 residents match 'Llanthewy Road' at same house numbers in other years
+Parry Drive	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	83	Malpas Road	HIGH	6/83 residents match 'Malpas Road' at same house numbers in other years
+Highcross Drive	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	82	George Street	HIGH	8/82 residents match 'George Street' at same house numbers in other years
+Graig Park Lane	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	2	1936,1971	79	Risca Road	HIGH	6/79 residents match 'Risca Road' at same house numbers in other years
+Plymouth Crescent	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1890	75	Oakley Street	HIGH	6/75 residents match 'Oakley Street' at same house numbers in other years
+Greenmeadow Avenue	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	2	1936,1971	71	Gordon Street	MEDIUM	3/71 residents match 'Gordon Street' at same house numbers in other years
+Nash Grove	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	70	Marion Street	HIGH	5/70 residents match 'Marion Street' at same house numbers in other years
+Virgin Street	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	2	1902,1903	68	Corporation Road	HIGH	20/68 residents match 'Corporation Road' at same house numbers in other years
+Penny Crescent	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	67	Lime Street	MEDIUM	3/67 residents match 'Lime Street' at same house numbers in other years
+Skinner's Row	NOT_IN_MASTER	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	2	1924,1936	64	Llwynderi Road	HIGH	6/64 residents match 'Llwynderi Road' at same house numbers in other years
+Graig Park Hill	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	2	1936,1971	64	Eton Road	HIGH	5/64 residents match 'Eton Road' at same house numbers in other years
+Gaer Road	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	64	Coomassie Street	MEDIUM	4/64 residents match 'Coomassie Street' at same house numbers in other years
+Allen Close	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	62	Daniel Street	MEDIUM	3/62 residents match 'Daniel Street' at same house numbers in other years
+Williams Road	NOT_IN_MASTER	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1901	58	Dock Street	MEDIUM	4/58 residents match 'Dock Street' at same house numbers in other years
+Graig Wood Close	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	58	Williams Street	HIGH	5/58 residents match 'Williams Street' at same house numbers in other years
+Howard Close	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	57	Commercial Street	MEDIUM	3/57 residents match 'Commercial Street' at same house numbers in other years
+Gaer Park Lane	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	55	Caerleon Road	HIGH	5/55 residents match 'Caerleon Road' at same house numbers in other years
+Penkin Hill	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	55	East Usk Road	MEDIUM	4/55 residents match 'East Usk Road' at same house numbers in other years
+Hertford Place	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	2	1936,1971	50	Mountjoy Street	MEDIUM	4/50 residents match 'Mountjoy Street' at same house numbers in other years
+Norfolk Road	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	2	1936,1971	50	Chepstow Road	HIGH	6/50 residents match 'Chepstow Road' at same house numbers in other years
+Humber Road	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	49	Exeter Street	MEDIUM	4/49 residents match 'Exeter Street' at same house numbers in other years
+Bishpool Lane	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	48	George Street	HIGH	5/48 residents match 'George Street' at same house numbers in other years
+Graig Park Parade	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	2	1936,1971	47	Lucas Street	HIGH	8/47 residents match 'Lucas Street' at same house numbers in other years
+Eastmoor Road	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	46	East Usk Road	HIGH	20/46 residents match 'East Usk Road' at same house numbers in other years
+Holst Close	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	46	Railway Street	HIGH	5/46 residents match 'Railway Street' at same house numbers in other years
+Newton Way	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	46	Commercial Street	MEDIUM	4/46 residents match 'Commercial Street' at same house numbers in other years
+Hollybush Avenue	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	44	Capel Street	HIGH	7/44 residents match 'Capel Street' at same house numbers in other years
+Maindee Model Mews	NOT_IN_MASTER	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	2	1890,1894	43	East Street	MEDIUM	3/43 residents match 'East Street' at same house numbers in other years
+Gaer Park Hill	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	2	1936,1971	42	Commercial Street	MEDIUM	3/42 residents match 'Commercial Street' at same house numbers in other years
+Henry Wood Close	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	42	Commercial Street	MEDIUM	3/42 residents match 'Commercial Street' at same house numbers in other years
+Hampshire Crescent	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	39	Raglan Street	MEDIUM	4/39 residents match 'Raglan Street' at same house numbers in other years
+Enville Road	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	36	Hill Street	MEDIUM	4/36 residents match 'Hill Street' at same house numbers in other years
+Goossens Close	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	36	George Street	MEDIUM	4/36 residents match 'George Street' at same house numbers in other years
+Hargreaves Drive	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	36	Harrow Road	HIGH	13/36 residents match 'Harrow Road' at same house numbers in other years
+Firbank Avenue	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	35	Commercial Street	MEDIUM	3/35 residents match 'Commercial Street' at same house numbers in other years
+Hood Road	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	35	Power Street	MEDIUM	4/35 residents match 'Power Street' at same house numbers in other years
+Slipway	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	2	1913,1915	34	Somerset Road	HIGH	21/34 residents match 'Somerset Road' at same house numbers in other years
+Elaine Crescent	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	34	St. Mary Street	MEDIUM	4/34 residents match 'St. Mary Street' at same house numbers in other years
+Fisher Close	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	34	Stow Hill	MEDIUM	4/34 residents match 'Stow Hill' at same house numbers in other years
+Hawthorn Square	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	3	1927,1936,1971	32	Williams Street	MEDIUM	3/32 residents match 'Williams Street' at same house numbers in other years
+Edward German Crescent	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	32	Graham Street	MEDIUM	3/32 residents match 'Graham Street' at same house numbers in other years
+Elan Close	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	32	Commercial Street	MEDIUM	3/32 residents match 'Commercial Street' at same house numbers in other years
+Robertson Way	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	31	Albany Street	MEDIUM	3/31 residents match 'Albany Street' at same house numbers in other years
+Carlisle Road	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	30	George Street	HIGH	5/30 residents match 'George Street' at same house numbers in other years
+Gilbert Close	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	30	Raglan Street	MEDIUM	3/30 residents match 'Raglan Street' at same house numbers in other years
+Yeo Close	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	29	Capel Street	MEDIUM	4/29 residents match 'Capel Street' at same house numbers in other years
+Lower Lambert Street	NOT_IN_MASTER	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1895	27	Commercial Street	MEDIUM	4/27 residents match 'Commercial Street' at same house numbers in other years
+Rich Streets.)	NOT_IN_MASTER	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1910	25	Goodrich Crescent	MEDIUM	4/25 residents match 'Goodrich Crescent' at same house numbers in other years
+Gaer Park Crescent	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1936	25	George Street	MEDIUM	4/25 residents match 'George Street' at same house numbers in other years
+Firbank Crescent	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	25	Caroline Street	MEDIUM	3/25 residents match 'Caroline Street' at same house numbers in other years
+Hampshire Avenue	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	25	Devon Place	MEDIUM	3/25 residents match 'Devon Place' at same house numbers in other years
+Hawkins Crescent	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	25	Agincourt Street	MEDIUM	4/25 residents match 'Agincourt Street' at same house numbers in other years
+Newport Street	NOT_IN_MASTER	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	2	1924,1925	24	Commercial Street	HIGH	7/24 residents match 'Commercial Street' at same house numbers in other years
+Hawthorn Fosse	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	2	1927,1936	24	Hawkins Crescent	MEDIUM	3/24 residents match 'Hawkins Crescent' at same house numbers in other years
+Humber Close	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	24	Caroline Street	MEDIUM	3/24 residents match 'Caroline Street' at same house numbers in other years
+Stow Park	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	2	1886,1913	23	Temple Street	MEDIUM	3/23 residents match 'Temple Street' at same house numbers in other years
+Slipway Cottages	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	3	1902,1903,1927	23	Moulders' Arms Terrace	HIGH	10/23 residents match 'Moulders' Arms Terrace' at same house numbers in other years
+Highcroft Road	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	2	1936,1971	22	Livingstone Place	MEDIUM	3/22 residents match 'Livingstone Place' at same house numbers in other years
+Frobisher Road	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	22	Annesley Road	MEDIUM	3/22 residents match 'Annesley Road' at same house numbers in other years
+Homfray Avenue	NOT_IN_MASTER	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	2	1894,1895	21	West Street	MEDIUM	3/21 residents match 'West Street' at same house numbers in other years
+Bronte Grove	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	20	Pugsley Street	MEDIUM	3/20 residents match 'Pugsley Street' at same house numbers in other years
+ORCHARD Terrace— Durham Road	NOT_IN_MASTER	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	2	1902,1903	19	Orchard Terrace	HIGH	8/19 residents match 'Orchard Terrace' at same house numbers in other years
+Howard Street	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1925	19	Windsor Road	HIGH	7/19 residents match 'Windsor Road' at same house numbers in other years
+King Road	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	2	1913,1915	18	Lambert Street	HIGH	7/18 residents match 'Lambert Street' at same house numbers in other years
+Calne	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1920	18	Church Road	MEDIUM	4/18 residents match 'Church Road' at same house numbers in other years
+Harvey Close	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	18	East Usk Road	MEDIUM	3/18 residents match 'East Usk Road' at same house numbers in other years
+Arcades	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	2	1925,1936	17	Market Arcade	MEDIUM	4/17 residents match 'Market Arcade' at same house numbers in other years
+Harding Avenue	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	17	Caerau Crescent	MEDIUM	3/17 residents match 'Caerau Crescent' at same house numbers in other years
+Somerton Gardens Estate	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	2	1925,1927	16	Poplar Road	HIGH	10/16 residents match 'Poplar Road' at same house numbers in other years
+Haldane Place	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	16	Dolphin Street	MEDIUM	3/16 residents match 'Dolphin Street' at same house numbers in other years
+Forest Close	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	15	Caerleon Road	MEDIUM	4/15 residents match 'Caerleon Road' at same house numbers in other years
+Alexandra Dock Cottages	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1886	14	Alfred Street	MEDIUM	4/14 residents match 'Alfred Street' at same house numbers in other years
+Upper Dock Street	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1886	12	George Street	MEDIUM	3/12 residents match 'George Street' at same house numbers in other years
+Carpenters' A. Lane	NOT_IN_MASTER	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	2	1901,1903	12	Castle Precincts	HIGH	5/12 residents match 'Castle Precincts' at same house numbers in other years
+Carpenters' Arms Lane	NOT_IN_MASTER	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	2	1915,1924	12	Castle Precincts	MEDIUM	3/12 residents match 'Castle Precincts' at same house numbers in other years
+Cleveland Road	NOT_IN_MASTER	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1920	12	Clarence Street	MEDIUM	4/12 residents match 'Clarence Street' at same house numbers in other years
+Shannon Road	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	12	Chepstow Road	MEDIUM	3/12 residents match 'Chepstow Road' at same house numbers in other years
+Carpenter's A. Lane	NOT_IN_MASTER	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1894	11	Hoskins Street	MEDIUM	3/11 residents match 'Hoskins Street' at same house numbers in other years
+Orchard  Street	NOT_IN_MASTER	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	2	1894,1895	10	Griffin Street	MEDIUM	3/10 residents match 'Griffin Street' at same house numbers in other years
+Llanthanthi	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1920	10	Livingstone Place	MEDIUM	4/10 residents match 'Livingstone Place' at same house numbers in other years
+Crindau Cottages	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1886	9	Aragon Street	HIGH	5/9 residents match 'Aragon Street' at same house numbers in other years
+Hillminster Terrace	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1890	8	St. Woolos Road	MEDIUM	3/8 residents match 'St. Woolos Road' at same house numbers in other years
+Caerleon Park	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1903	8	Caerau Road	MEDIUM	4/8 residents match 'Caerau Road' at same house numbers in other years
+Clythrough Road	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1913	6	Clytha Square	MEDIUM	4/6 residents match 'Clytha Square' at same house numbers in other years
+Elysta Street	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	6	Enville Close	HIGH	5/6 residents match 'Enville Close' at same house numbers in other years
+Enville Close	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	6	Elysta Street	HIGH	5/6 residents match 'Elysta Street' at same house numbers in other years
+Gainey's Court	NOT_IN_MASTER	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1894	4	George Street	MEDIUM	3/4 residents match 'George Street' at same house numbers in other years
+Bolt Road	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1913	3	Bolton Street	MEDIUM	2/3 residents match 'Bolton Street' at same house numbers in other years
+Powell's Street	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1927	3	Powell's Court	MEDIUM	3/3 residents match 'Powell's Court' at same house numbers in other years
+Pemrose Cottages	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1886	2	Club Row	MEDIUM	1/2 residents match 'Club Row' at same house numbers in other years
+Eastern Dry Dock	NOT_IN_MASTER	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1894	2	New Street	MEDIUM	2/2 residents match 'New Street' at same house numbers in other years
+Quantock Drive	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1971	2	Locke Street	MEDIUM	1/2 residents match 'Locke Street' at same house numbers in other years
+St. Stephen's Street	UNVERIFIED	MISATTRIBUTED_BLOCK_OR_SUBTERRACE	1	1900	1	Durham Road	MEDIUM	1/1 residents match 'Durham Road' at same house numbers in other years
+Upper Williams Street	UNVERIFIED	OCR_STREET_TYPO	3	1886,1890,1892	82	Upper Raglan Street	HIGH	String similarity 0.75 + 37 resident matches with 'Upper Raglan Street'
+Graig Park Road	UNVERIFIED	OCR_STREET_TYPO	2	1936,1971	81	Graig Park Villas	HIGH	String similarity 0.75 + 7 resident matches with 'Graig Park Villas'
+St. Julian's Street	NOT_IN_MASTER	OCR_STREET_TYPO	3	1893,1894,1895	64	St. Julian Street	HIGH	String similarity 0.94 + 48 resident matches with 'St. Julian Street'
+Upper Durham Road	NOT_IN_MASTER	OCR_STREET_TYPO	1	1895	56	Durham Road	HIGH	String similarity 0.79 + 3 resident matches with 'Durham Road'
+Brodawel Gardens	UNVERIFIED	OCR_STREET_TYPO	2	1892,1895	48	Brodawell Gardens	HIGH	String similarity 0.97 + 3 resident matches with 'Brodawell Gardens'
+Blake Street	UNVERIFIED	OCR_STREET_TYPO	2	1901,1913	47	Bank Street	MEDIUM	Close spelling match to verified street 'Bank Street'
+Woodland Terrace	UNVERIFIED	OCR_STREET_TYPO	2	1890,1892	46	Woodland Road	HIGH	String similarity 0.76 + 4 resident matches with 'Woodland Road'
+Carisbrook Road	NOT_IN_MASTER	OCR_STREET_TYPO	1	1910	38	Carisbrooke Road	MEDIUM	Close spelling match to verified street 'Carisbrooke Road'
+F. Oak Terrace	NOT_IN_MASTER	OCR_STREET_TYPO	2	1886,1890	32	Fairoak Terrace	HIGH	String similarity 0.83 + 11 resident matches with 'Fairoak Terrace'
+Burnfort Road	UNVERIFIED	OCR_STREET_TYPO	2	1936,1971	26	Beaufort Road	MEDIUM	Close spelling match to verified street 'Beaufort Road'
+Queen's Croft	UNVERIFIED	OCR_STREET_TYPO	1	1936	24	Queen's Close	HIGH	String similarity 0.77 + 4 resident matches with 'Queen's Close'
+Globe Street	UNVERIFIED	OCR_STREET_TYPO	1	1899	22	Glebe Street	MEDIUM	Close spelling match to verified street 'Glebe Street'
+Chapel Street	UNVERIFIED	OCR_STREET_TYPO	1	1925	21	Capel Street	MEDIUM	Close spelling match to verified street 'Capel Street'
+Hogarth Close	UNVERIFIED	OCR_STREET_TYPO	1	1971	21	Heath Close	MEDIUM	Close spelling match to verified street 'Heath Close'
+Hardy Close	UNVERIFIED	OCR_STREET_TYPO	1	1971	16	Ward Close	MEDIUM	Close spelling match to verified street 'Ward Close'
+Wesley Park Road	UNVERIFIED	OCR_STREET_TYPO	1	1971	16	West Park Road	MEDIUM	Close spelling match to verified street 'West Park Road'
+Northumberland Road	UNVERIFIED	OCR_STREET_TYPO	2	1936,1971	15	Cumberland Road	MEDIUM	Close spelling match to verified street 'Cumberland Road'
+St. Brides Road	NOT_IN_MASTER	OCR_STREET_TYPO	1	1971	15	St. Bride's Road	MEDIUM	Close spelling match to verified street 'St. Bride's Road'
+Woodland Park	UNVERIFIED	OCR_STREET_TYPO	3	1902,1903,1910	13	Woodland Park Road	MEDIUM	Close spelling match to verified street 'Woodland Park Road'
+Stow Park Passage	UNVERIFIED	OCR_STREET_TYPO	1	1924	13	Stow Passage	HIGH	String similarity 0.83 + 6 resident matches with 'Stow Passage'
+Kensington Street	NOT_IN_MASTER	OCR_STREET_TYPO	1	1894	12	King Street	HIGH	String similarity 0.79 + 4 resident matches with 'King Street'
+Dennis Street	UNVERIFIED	OCR_STREET_TYPO	1	1882	8	Dean Street	MEDIUM	Close spelling match to verified street 'Dean Street'
+Cheston Place	NOT_IN_MASTER	OCR_STREET_TYPO	1	1901	8	Chelston Place	HIGH	String similarity 0.96 + 2 resident matches with 'Chelston Place'
+Burton Road	UNVERIFIED	OCR_STREET_TYPO	1	1971	7	Byron Road	MEDIUM	Close spelling match to verified street 'Byron Road'
+Herbert Road	UNVERIFIED	OCR_STREET_TYPO	1	1971	7	Hubert Road	MEDIUM	Close spelling match to verified street 'Hubert Road'
+Upper Merchant Street	UNVERIFIED	OCR_STREET_TYPO	2	1886,1887	6	Merchant Street	MEDIUM	Close spelling match to verified street 'Merchant Street'
+Kensington Road	NOT_IN_MASTER	OCR_STREET_TYPO	1	1895	6	Kingston Road	MEDIUM	Close spelling match to verified street 'Kingston Road'
+Brunel Road	UNVERIFIED	OCR_STREET_TYPO	1	1910	6	Arundel Road	MEDIUM	Close spelling match to verified street 'Arundel Road'
+Dewsland Road	NOT_IN_MASTER	OCR_STREET_TYPO	1	1902	4	Dewsland Park Road	MEDIUM	Close spelling match to verified street 'Dewsland Park Road'
+Penrose Street	NOT_IN_MASTER	OCR_STREET_TYPO	3	1913,1915,1920	4	Prospect Street	MEDIUM	Close spelling match to verified street 'Prospect Street'
+William Street	UNVERIFIED	OCR_STREET_TYPO	1	1920	4	Williams Street	MEDIUM	Close spelling match to verified street 'Williams Street'
+Kensington Terrace	UNVERIFIED	OCR_STREET_TYPO	1	1890	3	Wrington Terrace	MEDIUM	Close spelling match to verified street 'Wrington Terrace'
+Conway Street	UNVERIFIED	OCR_STREET_TYPO	2	1902,1903	2	Corn Street	MEDIUM	Close spelling match to verified street 'Corn Street'
+Caine Street	NOT_IN_MASTER	OCR_STREET_TYPO	2	1913,1924	2	Caroline Street	MEDIUM	Close spelling match to verified street 'Caroline Street'
+Tipton Street	NOT_IN_MASTER	OCR_STREET_TYPO	2	1913,1920	2	Linton Street	MEDIUM	Close spelling match to verified street 'Linton Street'
+Grove Street	UNVERIFIED	OCR_STREET_TYPO	1	1899	1	Gore Street	MEDIUM	Close spelling match to verified street 'Gore Street'
+Campbell's Street	NOT_IN_MASTER	OCR_STREET_TYPO	1	1902	1	Capel Street	MEDIUM	Close spelling match to verified street 'Capel Street'
+Coverack Yard	UNVERIFIED	OCR_STREET_TYPO	1	1925	1	Coverack Road	MEDIUM	Close spelling match to verified street 'Coverack Road'
+Dock Cottages	UNVERIFIED	SUB_TERRACE_OR_VILLAS_ON_PARENT_ROAD	3	1901,1902,1903	94	Parent Street: Alexandra dry dock (set building_name='Dock Cottages')	HIGH	Appears 13 times as a building_name on Alexandra dry dock in other years
+Channel View	NOT_IN_MASTER	SUB_TERRACE_OR_VILLAS_ON_PARENT_ROAD	1	1890	58	Parent Street: Waterloo Road (set building_name='Channel View')	HIGH	Appears 2 times as a building_name on Waterloo Road in other years
+River View	UNVERIFIED	SUB_TERRACE_OR_VILLAS_ON_PARENT_ROAD	1	1910	55	Parent Street: Somerton Lane (set building_name='River View')	HIGH	Appears 1 times as a building_name on Somerton Lane in other years
+Torquay Villas	NOT_IN_MASTER	SUB_TERRACE_OR_VILLAS_ON_PARENT_ROAD	1	1901	54	Parent Street: Fairfax Road (set building_name='Torquay Villas')	HIGH	Appears 1 times as a building_name on Fairfax Road in other years
+Vue Court	UNVERIFIED	SUB_TERRACE_OR_VILLAS_ON_PARENT_ROAD	2	1901,1903	52	Parent Street: Capel Street (set building_name='Vue Court')	HIGH	Appears 1 times as a building_name on Capel Street in other years
+Auckland	NOT_IN_MASTER	SUB_TERRACE_OR_VILLAS_ON_PARENT_ROAD	2	1913,1924	43	Parent Street: Caerleon Road (set building_name='Auckland')	HIGH	Appears 2 times as a building_name on Caerleon Road in other years
+Rose Hill	NOT_IN_MASTER	SUB_TERRACE_OR_VILLAS_ON_PARENT_ROAD	1	1886	42	Parent Street: Corelli Street (set building_name='Rose Hill')	HIGH	Appears 1 times as a building_name on Corelli Street in other years
+The Friars	NOT_IN_MASTER	SUB_TERRACE_OR_VILLAS_ON_PARENT_ROAD	3	1887,1890,1892	29	Parent Street: Friars Road (set building_name='The Friars')	HIGH	Appears 3 times as a building_name on Friars Road in other years
+New Cottages	UNVERIFIED	SUB_TERRACE_OR_VILLAS_ON_PARENT_ROAD	2	1902,1903	29	Parent Street: East Usk Road (set building_name='New Cottages')	HIGH	Appears 12 times as a building_name on East Usk Road in other years
+Farm Cottages	UNVERIFIED	SUB_TERRACE_OR_VILLAS_ON_PARENT_ROAD	2	1902,1903	27	Parent Street: Mile End Terrace (set building_name='Farm Cottages')	HIGH	Appears 8 times as a building_name on Mile End Terrace in other years
+Pillgwenlly	UNVERIFIED	SUB_TERRACE_OR_VILLAS_ON_PARENT_ROAD	2	1913,1920	22	Parent Street: Phillip Street (set building_name='Pillgwenlly')	HIGH	Appears 1 times as a building_name on Phillip Street in other years
+Lamb Cottages	UNVERIFIED	SUB_TERRACE_OR_VILLAS_ON_PARENT_ROAD	1	1886	21	Parent Street: Cambria Place (set building_name='Lamb Cottages')	HIGH	Appears 1 times as a building_name on Cambria Place in other years
+Elm Grove	UNVERIFIED	SUB_TERRACE_OR_VILLAS_ON_PARENT_ROAD	1	1971	18	Parent Street: Coldra Road (set building_name='Elm Grove')	HIGH	Appears 1 times as a building_name on Coldra Road in other years
+Police Court	UNVERIFIED	SUB_TERRACE_OR_VILLAS_ON_PARENT_ROAD	3	1892,1895,1903	16	Parent Street: Dock Street (set building_name='Police Court')	HIGH	Appears 2 times as a building_name on Dock Street in other years
+County Police Court	UNVERIFIED	SUB_TERRACE_OR_VILLAS_ON_PARENT_ROAD	2	1901,1903	15	Parent Street: Queen's Hill (set building_name='County Police Court')	HIGH	Appears 7 times as a building_name on Queen's Hill in other years
+Mount View	UNVERIFIED	SUB_TERRACE_OR_VILLAS_ON_PARENT_ROAD	1	1910	14	Parent Street: Gibbs Road (set building_name='Mount View')	HIGH	Appears 3 times as a building_name on Gibbs Road in other years
+Claremont Terrace	UNVERIFIED	SUB_TERRACE_OR_VILLAS_ON_PARENT_ROAD	1	1913	13	Parent Street: Somerton Road (set building_name='Claremont Terrace')	HIGH	Appears 1 times as a building_name on Somerton Road in other years
+Penylan	NOT_IN_MASTER	SUB_TERRACE_OR_VILLAS_ON_PARENT_ROAD	1	1913	12	Parent Street: Risca Road (set building_name='Penylan')	HIGH	Appears 1 times as a building_name on Risca Road in other years
+Dock house	UNVERIFIED	SUB_TERRACE_OR_VILLAS_ON_PARENT_ROAD	1	1882	11	Parent Street: Alexandra Dock Cottages (set building_name='Dock house')	HIGH	Appears 2 times as a building_name on Alexandra Dock Cottages in other years
+Market House	UNVERIFIED	SUB_TERRACE_OR_VILLAS_ON_PARENT_ROAD	2	1913,1920	6	Parent Street: Market Street (set building_name='Market House')	HIGH	Appears 4 times as a building_name on Market Street in other years
+Albert	NOT_IN_MASTER	SUB_TERRACE_OR_VILLAS_ON_PARENT_ROAD	1	1913	6	Parent Street: Woodland Road (set building_name='Albert')	HIGH	Appears 2 times as a building_name on Woodland Road in other years
+Crindau	UNVERIFIED	SUB_TERRACE_OR_VILLAS_ON_PARENT_ROAD	2	1878,1886	5	Parent Street: Crescent Road (set building_name='Crindau')	HIGH	Appears 1 times as a building_name on Crescent Road in other years
+Ivor Place	NOT_IN_MASTER	SUB_TERRACE_OR_VILLAS_ON_PARENT_ROAD	1	1892	5	Parent Street: Usk Street (set building_name='Ivor Place')	HIGH	Appears 1 times as a building_name on Usk Street in other years
+Rock Dale	UNVERIFIED	SUB_TERRACE_OR_VILLAS_ON_PARENT_ROAD	1	1910	5	Parent Street: Stow Hill (set building_name='Rock Dale')	HIGH	Appears 1 times as a building_name on Stow Hill in other years
+Phoenix Foundry	NOT_IN_MASTER	SUB_TERRACE_OR_VILLAS_ON_PARENT_ROAD	1	1910	4	Parent Street: James Street (set building_name='Phoenix Foundry')	HIGH	Appears 1 times as a building_name on James Street in other years
+High view	UNVERIFIED	SUB_TERRACE_OR_VILLAS_ON_PARENT_ROAD	1	1902	3	Parent Street: Church Road (set building_name='High view')	HIGH	Appears 2 times as a building_name on Church Road in other years
+Weston view	UNVERIFIED	SUB_TERRACE_OR_VILLAS_ON_PARENT_ROAD	1	1902	3	Parent Street: St. John's Road (set building_name='Weston view')	HIGH	Appears 2 times as a building_name on St. John's Road in other years
+Duckpool	UNVERIFIED	SUB_TERRACE_OR_VILLAS_ON_PARENT_ROAD	1	1913	3	Parent Street: Caerleon Road (set building_name='Duckpool')	HIGH	Appears 2 times as a building_name on Caerleon Road in other years
+Fulford's Cottages	UNVERIFIED	SUB_TERRACE_OR_VILLAS_ON_PARENT_ROAD	2	1902,1903	2	Parent Street: Usk Street (set building_name='Fulford's Cottages')	HIGH	Appears 14 times as a building_name on Usk Street in other years
+Westfield	UNVERIFIED	SUB_TERRACE_OR_VILLAS_ON_PARENT_ROAD	2	1913,1927	2	Parent Street: Westfield Road (set building_name='Westfield')	HIGH	Appears 7 times as a building_name on Westfield Road in other years
+Clevedon	UNVERIFIED	SUB_TERRACE_OR_VILLAS_ON_PARENT_ROAD	1	1920	1	Parent Street: Somerset Road (set building_name='Clevedon')	HIGH	Appears 3 times as a building_name on Somerset Road in other years
+Two semi-detached Villas	NOT_IN_MASTER	UNVERIFIED_MICRO_TERRACE_OR_COURT	1	1887	15	Followed 'Chepstow Road' in text	LOW	Only 15 records across 1 yr(s) (1887)
+Two Villas	NOT_IN_MASTER	UNVERIFIED_MICRO_TERRACE_OR_COURT	1	1890	13	Followed 'Ombersley Road' in text	LOW	Only 13 records across 1 yr(s) (1890)
+Regent Place	UNVERIFIED	UNVERIFIED_MICRO_TERRACE_OR_COURT	1	1890	12	Followed 'Pembroke Terrace' in text	LOW	Only 12 records across 1 yr(s) (1890)
+School Terrace	NOT_IN_MASTER	UNVERIFIED_MICRO_TERRACE_OR_COURT	1	1890	10	Followed 'St. Woolos Place' in text	LOW	Only 10 records across 1 yr(s) (1890)
+Junction Place	UNVERIFIED	UNVERIFIED_MICRO_TERRACE_OR_COURT	3	1886,1887,1890	9	Followed 'Jones Street' in text	LOW	Only 9 records across 3 yr(s) (1886,1887,1890)
+Summer Hill Terrace	UNVERIFIED	UNVERIFIED_MICRO_TERRACE_OR_COURT	1	1886	8	Followed 'Summer Hill Villas' in text	LOW	Only 8 records across 1 yr(s) (1886)
+Three Villas	NOT_IN_MASTER	UNVERIFIED_MICRO_TERRACE_OR_COURT	1	1903	8	Followed 'Queen's Hill' in text	LOW	Only 8 records across 1 yr(s) (1903)
+Primrose Cottages	UNVERIFIED	UNVERIFIED_MICRO_TERRACE_OR_COURT	1	1886	6	Followed 'Lawson Terrace' in text	LOW	Only 6 records across 1 yr(s) (1886)
+Arthur Street, P. Auckland Villas	NOT_IN_MASTER	UNVERIFIED_MICRO_TERRACE_OR_COURT	1	1903	6	Followed 'Arthur Street' in text	LOW	Only 6 records across 1 yr(s) (1903)
+Marshes County Police Court	UNVERIFIED	UNVERIFIED_MICRO_TERRACE_OR_COURT	1	1902	5	Followed 'Pump Street' in text	LOW	Only 5 records across 1 yr(s) (1902)
+Pyne's Court	UNVERIFIED	UNVERIFIED_MICRO_TERRACE_OR_COURT	2	1886,1887	4	Followed 'Protheroe's Row' in text	LOW	Only 4 records across 2 yr(s) (1886,1887)
+Prospect Place	UNVERIFIED	UNVERIFIED_MICRO_TERRACE_OR_COURT	1	1878	3	Followed 'Powell's Place' in text	LOW	Only 3 records across 1 yr(s) (1878)
+Jones' Court	NOT_IN_MASTER	UNVERIFIED_MICRO_TERRACE_OR_COURT	2	1887,1890	3	Followed 'Railway Street' in text	LOW	Only 3 records across 2 yr(s) (1887,1890)
+quay Villas	NOT_IN_MASTER	UNVERIFIED_MICRO_TERRACE_OR_COURT	2	1901,1903	3	Followed 'Fairoak Avenue' in text	LOW	Only 3 records across 2 yr(s) (1901,1903)
+Lansdowne Cottages	UNVERIFIED	UNVERIFIED_MICRO_TERRACE_OR_COURT	1	1886	2	Followed 'Kirby Street' in text	LOW	Only 2 records across 1 yr(s) (1886)
+\t\t\tJones' Court	NOT_IN_MASTER	UNVERIFIED_MICRO_TERRACE_OR_COURT	1	1894	1	Followed 'Railway Street' in text	LOW	Only 1 records across 1 yr(s) (1894)
+\t\t\tToombs' Court	NOT_IN_MASTER	UNVERIFIED_MICRO_TERRACE_OR_COURT	1	1894	1	Followed '\t\t\tJones' Court' in text	LOW	Only 1 records across 1 yr(s) (1894)
+Llewellyn Terrace	UNVERIFIED	UNVERIFIED_MICRO_TERRACE_OR_COURT	1	1903	1	Followed 'Llanwern Street' in text	LOW	Only 1 records across 1 yr(s) (1903)

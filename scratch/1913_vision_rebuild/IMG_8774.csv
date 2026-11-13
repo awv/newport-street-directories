@@ -1,0 +1,181 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,LENNARD STREET,,,,,,From Corporation-road [LEFT HAND SIDE.]
+resident,LENNARD STREET,1,,Mrs. John,Pope,,
+resident,LENNARD STREET,3,,F. E.,Lee,timekeeper,
+resident,LENNARD STREET,5,,J. H.,Garland,carpenter,
+resident,LENNARD STREET,7,,Sydney,Rogers,ironwrkr
+resident,LENNARD STREET,9,,Edwin,Edwards,,
+resident,LENNARD STREET,11,,Mrs. Elizabeth,Onslow,,
+resident,LENNARD STREET,13,,A. C.,Kendrick,stocktkr
+resident,LENNARD STREET,15,,Chas.,Foster,ironworker
+cross_street,LENNARD STREET,,,,,,here is Essex-street
+resident,LENNARD STREET,17,,Frank,Dyer,painter
+resident,LENNARD STREET,19,,Geo.,Hayes,platelayer
+resident,LENNARD STREET,21,,John,Clissett,,
+resident,LENNARD STREET,23,,Frank,Baker,ironworker
+resident,LENNARD STREET,25,,Thomas,Lewis,tailor
+resident,LENNARD STREET,27,,Chas.,Ruddock,,
+resident,LENNARD STREET,29,,James Ashford,Smith,,
+cross_street,LENNARD STREET,,,,,,here is May-street (return)
+resident,LENNARD STREET,48,,Frank,Peters,painter
+resident,LENNARD STREET,46,,John,Bevan,mason
+resident,LENNARD STREET,44,,Edw.,Clements,dock labr
+resident,LENNARD STREET,42,,James,Abbott,fireman
+resident,LENNARD STREET,40,,Harry,Lewis,ironworker
+resident,LENNARD STREET,38,,Fred.,Niblett,packer
+resident,LENNARD STREET,36,,Edwin,East,signalman
+resident,LENNARD STREET,34,,John B.,Gibbett,ironworker
+resident,LENNARD STREET,32,,Mrs. Jane,Burgwin,,
+resident,LENNARD STREET,30,,Jonathan,Cross,ironwrkr
+resident,LENNARD STREET,28,,John,Lowe,furnaceman
+resident,LENNARD STREET,26,,Ernest F.,Burt,traveller
+resident,LENNARD STREET,24,,Wyndham,Dowsell,irrnwkr
+resident,LENNARD STREET,22,,Walter Hy.,Hill,,
+resident,LENNARD STREET,20,,Sidney,Morgan,,
+cross_street,LENNARD STREET,,,,,,here is Essex-street
+resident,LENNARD STREET,18,,Edwd.,Gibbons,ironshear'r
+resident,LENNARD STREET,16,,Samuel,Stephens,,
+resident,LENNARD STREET,14,,Alfred,Rowley,,
+resident,LENNARD STREET,12,,John H.,Atkins,carpenter
+resident,LENNARD STREET,10,,Ernest Wm.,Blake,,
+resident,LENNARD STREET,8,,Charles,Barrett,,
+resident,LENNARD STREET,6,,Hy.,Phillips,geo.shipwright
+resident,LENNARD STREET,4,,Mrs. Margaret,Shutt,,
+resident,LENNARD STREET,2,,Chas.,Burgwin,ironworker
+street,LEWIS STREET,,,,,,From 169 Commercial-road [LEFT HAND SIDE.]
+resident,LEWIS STREET,1,,Frank,Turner,baker
+resident,LEWIS STREET,2,,Chas.,Hughes,H.M.C.
+resident,LEWIS STREET,3,,Geo. F.,Lavender,labourer
+resident,LEWIS STREET,4,,Mrs. Mary Jane,Locke,,
+resident,LEWIS STREET,5,,J. H.,Parkes,jun. smith
+resident,LEWIS STREET,6,,Jos. H.,Jones,fitter
+resident,LEWIS STREET,7,,Walter,Harbour,labourer
+resident,LEWIS STREET,8,,Harry,Day,labourer
+resident,LEWIS STREET,9,,J. E.,Farr,engine driver
+resident,LEWIS STREET,10,,Geo. F.,Barnes,shipwright
+resident,LEWIS STREET,11,,T. W.,Jones,seaman
+resident,LEWIS STREET,12,,Alfred,Bernier,shop
+resident,LEWIS STREET,13,,Michael James,Hart,,
+resident,LEWIS STREET,14,,John,Fenton,guard
+resident,LEWIS STREET,15,,Joseph,Cook,stableman
+resident,LEWIS STREET,16,,Richard H.,Halford,,
+resident,LEWIS STREET,17,,T.,Andrews,pilot's man
+resident,LEWIS STREET,18,,Amos,Davies,eng. driver
+resident,LEWIS STREET,19,,Edwin,Dyer,seaman
+resident,LEWIS STREET,20,,George,Cox,Alexander
+resident,LEWIS STREET,21,,Mrs. Rachel Ann,Reade,,
+resident,LEWIS STREET,22,,Philip Thomas,Trigg,,
+resident,LEWIS STREET,23,,F. W.,Sweet,carpenter
+resident,LEWIS STREET,24,,,,Void,
+resident,LEWIS STREET,25,,Ll.,Clemett,carpenter
+resident,LEWIS STREET,26,,Edwin,Thorne,,
+resident,LEWIS STREET,27,,Isaac,Harding,signalman
+resident,LEWIS STREET,28,,Wm.,Davies,timekeeper
+resident,LEWIS STREET,29,,Mrs. Mary A.,Yendall,,
+resident,LEWIS STREET,30,,William,Pope,mason
+cross_street,LEWIS STREET,,,,,,here is Charlotte-street
+resident,LEWIS STREET,31,,H. R.,Main,grocer
+resident,LEWIS STREET,32,,John,Solomans,,
+resident,LEWIS STREET,33,,,,Void,
+resident,LEWIS STREET,34,,Thomas,Curtis,labourer
+resident,LEWIS STREET,35,,Edwd.,Jenkins,fuel worker
+resident,LEWIS STREET,36,,M.,Turnbull,boilermaker
+resident,LEWIS STREET,37,,Ed.,Cann,ship carpenter
+resident,LEWIS STREET,38,,Edwd. F.,Griffiths,eng.drvr
+resident,LEWIS STREET,39,,Francis,Smith,labourer
+resident,LEWIS STREET,40,,,,Void,
+resident,LEWIS STREET,41,,,,Void,
+resident,LEWIS STREET,42,,,,Void,
+resident,LEWIS STREET,43,,,,Void,
+resident,LEWIS STREET,44,,Anstis,Luxton,painter
+resident,LEWIS STREET,45,,Jno.,Allison,boilermaker
+resident,LEWIS STREET,46,,T.,Smith,engine driver
+resident,LEWIS STREET,47,,Wm.,Thomas,boilermaker
+resident,LEWIS STREET,48,,Charles,Trow,tailor
+resident,LEWIS STREET,49,,George,Ventmore,clerk
+resident,LEWIS STREET,50,,Thos. H.,Evans,pilot's man
+resident,LEWIS STREET,51,,John,Jones,tailor
+resident,LEWIS STREET,52,,Thos.,Wood,fireman
+resident,LEWIS STREET,53,,John Wm.,Newport,,
+resident,LEWIS STREET,54,,Thomas,Edwards,,
+resident,LEWIS STREET,55,,Mrs. Elizabeth,Lewis,,
+resident,LEWIS STREET,56,,Andrew,Wood,moulder
+resident,LEWIS STREET,57,,Jno. Frederick,Mahy,,
+resident,LEWIS STREET,58,,Mrs. Mary,Thomas,,
+resident,LEWIS STREET,59,,Henry,Cashman,moulder
+resident,LEWIS STREET,60,,William,Berry,seaman
+resident,LEWIS STREET,61,,Jos.,Hill,engine driver
+resident,LEWIS STREET,62,,Fred.,Bloxham,eng. driver
+resident,LEWIS STREET,63,,Wm. R.,Rose,coppersmith
+resident,LEWIS STREET,64,,Henry,James,,
+resident,LEWIS STREET,65,,Mrs. Sarah,Rees,,
+resident,LEWIS STREET,66,,Jno. Hy.,Price,ship's plmbr
+cross_street,LEWIS STREET,,,,,,here is Capel-crescent (return)
+resident,LEWIS STREET,67,,James P.,Lewis,,
+resident,LEWIS STREET,68,,Ed.,Roberts,eng. driver
+resident,LEWIS STREET,69,,T. E.,Westwood,,
+resident,LEWIS STREET,70,,Frederick John,Jenkins,,
+resident,LEWIS STREET,71,,Edmund,Thomas,tailor
+resident,LEWIS STREET,72,,Austin,Jones,,
+resident,LEWIS STREET,,,Thomas,Taylor,guard
+resident,LEWIS STREET,73,,Thos.,Tidman,foundrymn
+resident,LEWIS STREET,74,,Geo.,Bayliss,engine driver
+resident,LEWIS STREET,75,,Walter J.,Baker,fireman
+resident,LEWIS STREET,76,,John,Pring,trimmer
+resident,LEWIS STREET,77,,Albt.,Hathway,machinist
+resident,LEWIS STREET,78,,Mrs. Mary Ann,Clapp,,
+resident,LEWIS STREET,79,,Mrs. Esther,Cook,,
+resident,LEWIS STREET,80,,Benj.,Davies,engineer
+resident,LEWIS STREET,81,,J. Henry,Turner,fitter
+resident,LEWIS STREET,82,,John,Roberts,B.T.
+resident,LEWIS STREET,83,,T. J.,Robinson,guard
+resident,LEWIS STREET,84,,James,Neill,sailmaker
+resident,LEWIS STREET,85,,Robert,Durrant,guard
+resident,LEWIS STREET,86,,Mrs. Annie,Harris,,
+resident,LEWIS STREET,87,,Thomas James,Marshall,,
+cross_street,LEWIS STREET,,,,,,here is Kirby-street
+resident,LEWIS STREET,88,,Ann,Goodridge,shopkpr
+resident,LEWIS STREET,89,,John, jun.,Graddon,fitter
+resident,LEWIS STREET,90,,John Charles,Davies,,
+resident,LEWIS STREET,91,,John,Thomas,eng. driver
+resident,LEWIS STREET,92,,Edward,Stanton,builder
+resident,LEWIS STREET,93,,Edwin,Ashton,signalman
+resident,LEWIS STREET,94,,Hy.,Cusk,cabinetmaker
+resident,LEWIS STREET,95,,Fredk.,Curthoys,William
+resident,LEWIS STREET,96,,John,Redman,crane drvr
+resident,LEWIS STREET,97,,John,Groves,mason
+resident,LEWIS STREET,98,,Mrs. Lucy,Geary,,
+resident,LEWIS STREET,99,,Albert,Cleverly,miller
+resident,LEWIS STREET,,,Walter,Chamberlain,,
+resident,LEWIS STREET,100,,John,Lovering,guard
+resident,LEWIS STREET,101,,Micah,Thomas,wghman
+resident,LEWIS STREET,102,,John,Logie,beer retailer
+cross_street,LEWIS STREET,,,,,,here is Charlotte-street
+resident,LEWIS STREET,103,,John,Gulliver,trimmer
+resident,LEWIS STREET,104,,Mrs. Sarah,Evans,,
+resident,LEWIS STREET,105,,Benjamin George,James,,
+resident,LEWIS STREET,106,,D. H.,Ford,timekeeper
+resident,LEWIS STREET,107,,Mrs. Catherine,Williams,,
+resident,LEWIS STREET,108,,Mrs. Elizabeth,Chapman,,
+resident,LEWIS STREET,109,,Wm. Hy.,Coes,carpenter
+resident,LEWIS STREET,110,,William,Gollop,,
+resident,LEWIS STREET,,,Miss,Goyen,,
+resident,LEWIS STREET,111,,Jas,Flanders,carpenter
+resident,LEWIS STREET,112,,Chas.,Goman,helper
+resident,LEWIS STREET,113,,Thomas,Floud,,
+resident,LEWIS STREET,114,,Robert,Johns,G.W.R.
+resident,LEWIS STREET,115,,W.R.H.,Dennis,eng.driver
+resident,LEWIS STREET,116,,Thos.,Young,foundryman
+resident,LEWIS STREET,117,,Frank,Wiltshire,fitter
+resident,LEWIS STREET,118,,J. E.,Dare,dairyman
+cross_street,LEWIS STREET,,,,,,here is Francis-street
+resident,LEWIS STREET,119,,Jas. Edwd.,Jones,blrmkr
+resident,LEWIS STREET,120,,Arch.,Johnson,engineer
+resident,LEWIS STREET,121,,Richard,Chick,carpenter
+resident,LEWIS STREET,122,,Evan,Owens,caretaker
+resident,LEWIS STREET,123,,Rd.,Hodge,labourer
+resident,LEWIS STREET,124,,Henry,Pottow,labourer
+resident,LEWIS STREET,125,,H.,Brooks,ship carpenter
+resident,LEWIS STREET,126,,Thos.,James,labourer
+resident,LEWIS STREET,127,,Wm.,Renouf,wagon lftr
+resident,LEWIS STREET,,,William Charles,Renouf,patternmaker

@@ -1,0 +1,167 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,DEWEY STREET,,,,,,
+cross_street,DEWEY STREET,,,,,,"here is Caldicot-street"
+resident,DEWEY STREET,28,,,Walters A.,,ironworker,
+resident,DEWEY STREET,26,,,Griffiths Thos. H.,,ironwkr,
+resident,DEWEY STREET,24,,,Millard G.,,do,
+resident,DEWEY STREET,22,,,Webb David,,do,
+resident,DEWEY STREET,20,,,Jones Edwin,,machinist,
+resident,DEWEY STREET,18,,,Walker Jabez,,ironwkr,
+resident,DEWEY STREET,16,,,Thompson Matthew,,ironworker,
+resident,DEWEY STREET,14,,,Thomas Elijah,,do,
+resident,DEWEY STREET,12,,,Williams Wm.,,do,
+resident,DEWEY STREET,10,,,Dowden A. J.,,builder,
+resident,DEWEY STREET,8,,,Allen James,,ironworker,
+resident,DEWEY STREET,6,,,Stevens William,,do,
+resident,DEWEY STREET,4,,,Richards Thomas,,,
+resident,DEWEY STREET,2,,,Southall Chris.,,ironworker,
+resident,DEWEY STREET,19,,,Page Joseph,,ironworker,
+resident,DEWEY STREET,21,,,Lewis Thos. Hy.,,do,
+resident,DEWEY STREET,23,,,Hazelwood Thos.,,do,
+resident,DEWEY STREET,25,,,Oxley John,,do,
+resident,DEWEY STREET,27,,,Batson Mrs. Harriet,,,
+resident,DEWEY STREET,29,,,Dumayne Thos.,,ironworker,
+resident,DEWEY STREET,31,,,Blakemore John,,do,
+resident,DEWEY STREET,33,,,Eaves David,,do,
+resident,DEWEY STREET,35,,,Davies Mrs. Harriett,,,
+resident,DEWEY STREET,37,,,Osmond Mrs. Sarah,,,
+resident,DEWEY STREET,39,,,Screen Jabez,,ironworker,
+resident,DEWEY STREET,41,,,Beech Arthur,,ironworker,
+resident,DEWEY STREET,,,,,,Vacant sites
+resident,DEWEY STREET,43,,,Goodyer Edward,,ironwkr,
+resident,DEWEY STREET,45,,,Bradley Fred,,do,
+resident,DEWEY STREET,47,,,Cox Charles,,do,
+resident,DEWEY STREET,49,,,Hibberd Herbert,,vanman,
+resident,DEWEY STREET,51,,,Worton Joseph,,ironwkr,
+resident,DEWEY STREET,53,,,Lewis Mrs. Annie,,,
+resident,DEWEY STREET,55,,,Timmins Saml.,,do,
+resident,DEWEY STREET,57,,,Stanley Albert,,do,
+resident,DEWEY STREET,59,,,Nicholl Wm. J.,,,
+resident,DEWEY STREET,61,,,Pursall Fredk. J.,,ironwkr,
+resident,DEWEY STREET,63,,,Sims Edward D.,,do,
+resident,DEWEY STREET,65,,,Lees Arthur,,do,
+resident,DEWEY STREET,67,,,Head Henry,,do,
+resident,DEWEY STREET,69,,,Millington Richd.,,do,
+resident,DEWEY STREET,71,,,Goodyer Mark,,labourer,
+resident,DEWEY STREET,73,,,Jackson Wm.,,do,
+resident,DEWEY STREET,75,,,Reeves Thomas,,do,
+resident,DEWEY STREET,77,,,Proctor Edwin,,do,
+resident,DEWEY STREET,79,,,Seymour Henry,,do,
+resident,DEWEY STREET,81,,,Lowe Thos.,,do,
+resident,DEWEY STREET,83,,,Edge William,,do,
+resident,DEWEY STREET,85,,,Smith Frank,,barworker,
+resident,DEWEY STREET,87,,,Doughty Albert,,ironwkr,
+cross_street,DEWEY STREET,,,,,,"(return)"
+resident,DEWEY STREET,80,,,Priestnall L. F.,,ironwkr,
+resident,DEWEY STREET,78,,,Partridge Wm.,,do,
+resident,DEWEY STREET,76,,,Mound Daniel,,do,
+resident,DEWEY STREET,74,,,Davies Enoch,,do,
+resident,DEWEY STREET,72,,,Hubble Dennis,,do,
+resident,DEWEY STREET,70,,,Dickenson J. V.,,crane dr,
+resident,DEWEY STREET,68,,,Roberts Robt.,,ironworker,
+resident,DEWEY STREET,66,,,Wilks Hector,,engineer,
+resident,DEWEY STREET,64,,,Bunce William,,ironwkr,
+resident,DEWEY STREET,62,,,Adams Arthur,,do,
+resident,DEWEY STREET,60,,,Bradford Ed.,,do,
+resident,DEWEY STREET,58,,,Poole James,,do,
+resident,DEWEY STREET,56,,,Williams Albert,,do,
+resident,DEWEY STREET,54,,,Caddick Thos.,,ironwkr,
+resident,DEWEY STREET,52,,,Byrnes John,,labourer,
+resident,DEWEY STREET,50,,,Baggott Wm.,,stocktaker,
+resident,DEWEY STREET,48,,,Bennett Saml.,,ironworker,
+resident,DEWEY STREET,46,,,Screen Wm.,,do,
+resident,DEWEY STREET,44,,,,,,
+resident,DEWEY STREET,42,,,Williams Henry,,ironwkr,
+resident,DEWEY STREET,40,,,Richards John,,do,
+resident,DEWEY STREET,38,,,Morgan Fred.,,do,
+resident,DEWEY STREET,36,,,Stevens Mrs. Harriet,,,
+resident,DEWEY STREET,34,,,Dorrington Jos.,,do,
+resident,DEWEY STREET,32,,,Turner Thos.,,do,
+resident,DEWEY STREET,30,,,Harley John George,,shop,
+street,DIANA STREET,,,,,,D 1
+cross_street,DIANA STREET,,,,,,"Top of Gibbs-road"
+resident,DIANA STREET,1,,,Evans Arthur,,,
+resident,DIANA STREET,2,,,Price Henry,,quarryman,
+resident,DIANA STREET,3,,,Pullin Wm.,,labourer,
+resident,DIANA STREET,4,,,Jones Saml.,,shunter G.W.R.,
+resident,DIANA STREET,5,,,Harris William,,,
+resident,DIANA STREET,6,,,Francis J. H.,,ironworker,
+resident,DIANA STREET,7,,,Horn James,,painter,
+resident,DIANA STREET,8,,,Thomas Albert,,labourer,
+resident,DIANA STREET,9,,,Harris John,,tipper,
+street,DOCK PARADE,,,,,,F 4
+cross_street,DOCK PARADE,,,,,,"Church-street to Docks"
+resident,DOCK PARADE,,,Pill Wagon works,,,,
+resident,DOCK PARADE,,,Gould's Foundries Ltd.,,,,
+resident,DOCK PARADE,1,,,Brown Charles,,,
+resident,DOCK PARADE,2,,,Davies Richard,,boatman,
+resident,DOCK PARADE,3,,,Fernquest C.,,labourer,
+resident,DOCK PARADE,4,,,Thompson Mrs. Louisa,,,
+resident,DOCK PARADE,5,,,Williams Evan,,boatman,
+resident,DOCK PARADE,6,,,Quest Mrs. Elizabeth,,shop,
+resident,DOCK PARADE,7,,,Duggan Michael,,foreman,
+resident,DOCK PARADE,8,,,Sutcliffe T.,,labourer,
+resident,DOCK PARADE,9,,,Netherway Edwin T.,,,
+resident,DOCK PARADE,10,,,Duggan Hannah,,,
+resident,DOCK PARADE,11,,,Thomas Fredk. J.,,tug capt,
+resident,DOCK PARADE,12,,,Hall Ernest J.,,fireman,
+resident,DOCK PARADE,13,,,Jenkins Mrs. Sarah Ann,,,
+resident,DOCK PARADE,14,Dock Hotel,,Devereux H.,,,
+street,DOCK ROAD,,,,,,E 4
+cross_street,DOCK ROAD,,,,,,"East side of Town Dock"
+street,DOCK ROAD CHAMBERS,,,,,,
+cross_street,DOCK ROAD CHAMBERS,,,,,,"(see 103 Dock-street)"
+street,DOCK (THE TOWN),,,,,,E 4
+cross_street,DOCK (THE TOWN),,,,,,East side from Dock-street
+resident,DOCK (THE TOWN),,,Mordey, Carney & Co. Ltd.,,,shipbuilders, etc., Western Dry Docks
+resident,DOCK (THE TOWN),,,Harris & Coxon,,,block makers and ship repairers,
+resident,DOCK (THE TOWN),,,Goss A. J. T. & Co.,,oil merchts and grease manufacturers,
+resident,DOCK (THE TOWN),,,Blaina Wharf,,,,
+resident,DOCK (THE TOWN),1,,,Evans J.,,wagon inspector,Blaina Wharf
+resident,DOCK (THE TOWN),2,,,Williams W.,,dock gateman,Blaina Wharf
+resident,DOCK (THE TOWN),,,Brennen David Jos.,,,,Blaina Wharf
+resident,DOCK (THE TOWN),,,Maybury's Adamant Plaster & Keene's Cement & Kohler Tile works—Proprietor, Maybury & Co.,,,,
+resident,DOCK (THE TOWN),,,Maddock T. G.,,stmshp agent,
+resident,DOCK (THE TOWN),,,Hoist and traffic office Alexandra Docks and Railway,,,,
+resident,DOCK (THE TOWN),,,Tillery Wharf—,,,,
+resident,DOCK (THE TOWN),,,,Maund Albert F.,,,Tillery Wharf
+resident,DOCK (THE TOWN),,,,Hughes Walter,,,Tillery Wharf
+resident,DOCK (THE TOWN),,,,Fulcher Harry,,gateman,Tillery Wharf
+resident,DOCK (THE TOWN),,,,J. Trott & Sons,,marine store dealers,Tillery Wharf
+resident,DOCK (THE TOWN),1,,,Stephens D. & Co.,,shipsmiths,
+resident,DOCK (THE TOWN),,,Russell's wharf,,,,
+resident,DOCK (THE TOWN),,,Walker Bros.,,iron merchants,Russell's wharf
+resident,DOCK (THE TOWN),,,Risca wharf,,,,
+cross_street,DOCK (THE TOWN),,,,,,here is Commercial-wharf
+resident,DOCK (THE TOWN),,,Newport Enamel Slate Co., Ltd,,,,Commercial-wharf
+resident,DOCK (THE TOWN),,,Baker W. A. & Co. Ld. (1910) Westgate foundry,,,,Commercial-wharf
+resident,DOCK (THE TOWN),,,Cambrian Iron and Brass Foundry—T. Spittle Ltd.,,,,Commercial-wharf
+resident,DOCK (THE TOWN),,,Dock Co. Loco shed,,,,
+resident,DOCK (THE TOWN),,,Rhymney wharf—,,,,
+resident,DOCK (THE TOWN),F 4,,,Cashmore J.,,iron, steel and metal merchant,Rhymney wharf
+resident,DOCK (THE TOWN),,,Price J.,,,,Rhymney wharf
+resident,DOCK (THE TOWN),,,North Central Wagon Co. Ld.,,,,Rhymney wharf
+resident,DOCK (THE TOWN),,,Penner wharf—,,,,
+resident,DOCK (THE TOWN),,,Phillips & Sons, Ltd.,,malt ho,Penner wharf
+resident,DOCK (THE TOWN),,,Blencowe J.,,malster,Penner wharf
+resident,DOCK (THE TOWN),,,Wood Charles,,,,Penner wharf
+resident,DOCK (THE TOWN),,,Roberts B.,,Dock house,Penner wharf
+resident,DOCK (THE TOWN),,,Telephone Call Room,,,,
+cross_street,DOCK (THE TOWN),,,,,,here is Town Dock-entrance
+resident,DOCK (THE TOWN),,,Customs Watchhouse,,,,
+cross_street,DOCK (THE TOWN),,,,,,here is Dock-parade
+resident,DOCK (THE TOWN),,,Devereux H.,,Dock Hotel,
+resident,DOCK (THE TOWN),,,Morris Henry,,oil merchant,
+resident,DOCK (THE TOWN),,,Co-operative Wholesale Soc.,,,The West side is used for discharging cargoes, loading iron, etc.
+cross_street,DOCK (THE TOWN),,,,,,See also Alexandra Dock
+street,DOCK STREET,,,,,,C 4
+cross_street,DOCK STREET,,,,,,"From High-street to Docks"
+cross_street,DOCK STREET,,,,,,"(LEFT HAND SIDE.)"
+resident,DOCK STREET,1,,,Wilcox E. J.,,rope & twine works,
+resident,DOCK STREET,2,,,Fussell H. J. G.,,saddler,
+resident,DOCK STREET,3,,,Carter W. J. junr.,,hairdrsr,
+resident,DOCK STREET,4,,,Phillips Mrs. A.,,tobacconist,
+resident,DOCK STREET,5,,,Williams W. B.,,bootmker,
+resident,DOCK STREET,6,,,Evans & Lewis,,chemists,
+resident,DOCK STREET,7,,,Vaughan D. A. & Co.,,potato merchants,
+resident,DOCK STREET,8,,,Thorne C. & G. S.,,corn st're,

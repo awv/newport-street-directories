@@ -1,0 +1,158 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,CHRISTCHURCH ROAD,,,"Thos. J.","Cunningham","carp'tr",
+resident,CHRISTCHURCH ROAD,,,Alfred,"Berrett","labourer",
+resident,CHRISTCHURCH ROAD,,,Thomas,"Rowlands","farmer",
+resident,CHRISTCHURCH ROAD,,,"Arthur, G.W.R.","Bedwell",,
+resident,CHRISTCHURCH ROAD,,,John,"Saunders","plasterer",
+resident,CHRISTCHURCH ROAD,,,George,"Jones","labourer",
+resident,CHRISTCHURCH ROAD,,,Edwin,"Bartlett","carpenter",
+resident,CHRISTCHURCH ROAD,,,,Jenkins,"gardener",
+resident,CHRISTCHURCH ROAD,,,Richard,"Miles","groom",
+resident,CHRISTCHURCH ROAD,,,James,"Jones","carpenter",
+resident,CHRISTCHURCH ROAD,,,"F. H.","Richards","tinman",
+resident,CHRISTCHURCH ROAD,,,John,"Ford","gardener",
+resident,CHRISTCHURCH ROAD,,,Luke,"Parker","gardener",
+resident,CHRISTCHURCH ROAD,,,Joseph,"Morgan","seaman",
+cross_street,CHRISTCHURCH ROAD,,,,,,here is Woodland-park.
+cross_street,CHRISTCHURCH ROAD,,,,,,here is Beechwood-road.
+resident,CHRISTCHURCH ROAD,,,BEECHWOOD PUBLIC PARK,,,,
+resident,CHRISTCHURCH ROAD,,,Joseph,"Brown",,
+resident,CHRISTCHURCH ROAD,,,Fredk.,"Stephens",,"Myrtle villa"
+resident,CHRISTCHURCH ROAD,,,"J., Southernwood v","Kerslake",,
+resident,CHRISTCHURCH ROAD,,,Miss,"Williams",,"Viburnum vil"
+resident,CHRISTCHURCH ROAD,,,Charles F.,"Haime","florist",
+cross_street,CHRISTCHURCH ROAD,,,,,,here is Gibbs-road.
+resident,CHRISTCHURCH ROAD,,,"W. C.","Hunter",,"Hill top"
+resident,CHRISTCHURCH ROAD,,,"Wm., Overhill house","Roberts",,
+resident,CHRISTCHURCH ROAD,,,Henry,"Hill",,"High view"
+resident,CHRISTCHURCH ROAD,,,Charles,"Jenkins","roller",
+resident,CHRISTCHURCH ROAD,,,John,"Evans","ironworker",
+resident,CHRISTCHURCH ROAD,,,William,"Stephens","gardener",
+resident,CHRISTCHURCH ROAD,,,"G. H., Jesseman vil","Rickards",,
+resident,CHRISTCHURCH ROAD,,,"H. B.","Rickards",,
+resident,CHRISTCHURCH ROAD,,,,,,2 houses vacant
+resident,CHRISTCHURCH ROAD,,,Robert,"Parker","clerk",
+resident,CHRISTCHURCH ROAD,,,Sydney,"Jobbins","mason",
+resident,CHRISTCHURCH ROAD,,,Thomas,"Drew","engineer",
+resident,CHRISTCHURCH ROAD,,,Joseph,"Tanner","labourer",
+resident,CHRISTCHURCH ROAD,,,James,"Davies","carpenter",
+resident,CHRISTCHURCH ROAD,,,Thomas Henry,"Miles","clerk",
+resident,CHRISTCHURCH ROAD,,,CHRISTCHURCH CEMETERY,,,,
+resident,CHRISTCHURCH ROAD,,,A.,"Arnold","superintendent",
+street,CHURCH ROAD, B.T.,,,,,,From 16 Caerleon-road to Duckpool-road.
+resident,CHURCH ROAD, B.T.,,,John,"Clements","engine driver",
+resident,CHURCH ROAD, B.T.,,,"E. G.","Clements","greengrocer",
+cross_street,CHURCH ROAD, B.T.,,,,,,here is Gloucester-place.
+resident,CHURCH ROAD, B.T.,,,Robert,"Wright","hairdresser",
+resident,CHURCH ROAD, B.T.,1,,"A. J.","Hadfield","bootmaker",
+resident,CHURCH ROAD, B.T.,2,,,,,Void
+resident,CHURCH ROAD, B.T.,3,,,,,do
+resident,CHURCH ROAD, B.T.,4,,"E.","Jones","watchmaker",
+resident,CHURCH ROAD, B.T.,5,,Miss,"Jones","confectioner",
+resident,CHURCH ROAD, B.T.,6,,,,,Void
+resident,CHURCH ROAD, B.T.,7,,,Thomas,"Payne","dealer",
+resident,CHURCH ROAD, B.T.,8,,"G. H.","Johns","tailor",
+resident,CHURCH ROAD, B.T.,9,,"W.","Watkins","newsagent, draper, etc.",
+cross_street,CHURCH ROAD, B.T.,,,,,,here is Alfred-street.
+resident,CHURCH ROAD, B.T.,10,,,,,Void
+resident,CHURCH ROAD, B.T.,11,,,Jacob,"Solway",,
+resident,CHURCH ROAD, B.T.,12,,,Thomas Henry,"Jones",,
+resident,CHURCH ROAD, B.T.,13,,,,,Void
+resident,CHURCH ROAD, B.T.,,,BARNARDT. BOARD SCHOOLS,,,,
+resident,CHURCH ROAD, B.T.,15,,,CO-OPERATIVE BR'CH STORES,,,,
+resident,CHURCH ROAD, B.T.,16,,"W.","Counsell","grocer",
+resident,CHURCH ROAD, B.T.,17,,Mrs. J.,"Watts","wardrobe dlr",
+resident,CHURCH ROAD, B.T.,,,S. Matthew's Mission Room,,,,
+cross_street,CHURCH ROAD, B.T.,,,,,,here is Bishop-street.
+resident,CHURCH ROAD, B.T.,18,Herbert Arms,Harry,"Bevan",,
+resident,CHURCH ROAD, B.T.,19,,,Joseph,"Davies","bootmakr",
+resident,CHURCH ROAD, B.T.,20,,,J.,"Jeans","fruiterer",
+resident,CHURCH ROAD, B.T.,21,,Mrs. J. G.,"Williams","conf'ner",
+resident,CHURCH ROAD, B.T.,22,,,John,"Rees","chemist",
+resident,CHURCH ROAD, B.T.,23,,& Co.,"Gower","grocers",
+resident,CHURCH ROAD, B.T.,24,,LTD.,"EASTMAN'S","butchers",
+resident,CHURCH ROAD, B.T.,25,,"A. P.","Duncan","draper",
+resident,CHURCH ROAD, B.T.,26,,"J.","Francis","stationer, etc., Mon. Dye works",
+resident,CHURCH ROAD, B.T.,27,,"W. G.","Busby","photographr",
+resident,CHURCH ROAD, B.T.,28,,,,,Void
+resident,CHURCH ROAD, B.T.,29,,"J.","Hazell","greengrocer",
+resident,CHURCH ROAD, B.T.,30,,,,,Cordey's stores
+cross_street,CHURCH ROAD, B.T.,,,,,,here is Dean-street.
+resident,CHURCH ROAD, B.T.,31,,"J.","Davis","family butcher",
+resident,CHURCH ROAD, B.T.,32,,"F. H.","Long","bootmaker",
+resident,CHURCH ROAD, B.T.,33,,"J. W.","Davey","hairdresser and tobacconist",
+resident,CHURCH ROAD, B.T.,,,George,"Prowle",,
+resident,CHURCH ROAD, B.T.,34,,"A. E.","Jones","confectioner",
+resident,CHURCH ROAD, B.T.,35,,,Herbert,"Davies","stationer, Post office",
+resident,CHURCH ROAD, B.T.,36,,"W. H.","Locke","pork butcher",
+resident,CHURCH ROAD, B.T.,36a,,"W. H.","Locke","butcher",
+cross_street,CHURCH ROAD, B.T.,,,,,,(return.)
+cross_street,CHURCH ROAD, B.T.,,,,,,AUSTIN PLACE
+resident,CHURCH ROAD, B.T.,37,,"Wm.","Turnbull","ironmongr",
+resident,CHURCH ROAD, B.T.,38,,,Augustus,"Allen",,
+resident,CHURCH ROAD, B.T.,39,,,,,Void
+resident,CHURCH ROAD, B.T.,40,,,Alfred,"Wilks","fitter",
+resident,CHURCH ROAD, B.T.,41,,,David,"Narbett","saddler",
+resident,CHURCH ROAD, B.T.,42,,,George Henry,"Stroud",,
+resident,CHURCH ROAD, B.T.,43,,,George,"Hadden","clerk",
+resident,CHURCH ROAD, B.T.,44,,,Philip,"Jenkins","carpenter",
+resident,CHURCH ROAD, B.T.,45,,Mrs Annie,"Shore",,
+resident,CHURCH ROAD, B.T.,46,,"J.","Witham","pork butcher",
+resident,CHURCH ROAD, B.T.,47,,"Hy.","Coates","decorator, etc",
+resident,CHURCH ROAD, B.T.,48,,"E.","Jones","grocer",
+resident,CHURCH ROAD, B.T.,49,,"S. R.","Saunders","tailor, etc.",
+resident,CHURCH ROAD, B.T.,50,,Mrs E.,"Groves",,
+resident,CHURCH ROAD, B.T.,,,J. F., M.D.,"Mullin",,
+resident,CHURCH ROAD, B.T.,51,,,William,"Lewis","labourer",
+resident,CHURCH ROAD, B.T.,52,,Mrs Annie M.,"Parker",,
+resident,CHURCH ROAD, B.T.,53,,,Alfred,"Fry",,
+resident,CHURCH ROAD, B.T.,54,,"Hy. E.","Banfield","carpenter",
+resident,CHURCH ROAD, B.T.,55,,"Jos.","Warwick","gas stoker",
+resident,CHURCH ROAD, B.T.,56,,"Geo.,","Woolf","seaman",
+resident,CHURCH ROAD, B.T.,57,,"A.","Howells","bootmaker",
+resident,CHURCH ROAD, B.T.,,,ST. MATTHEW'S CHURCH,,,,
+cross_street,CHURCH ROAD, B.T.,,,,,,CALNE PLACE
+resident,CHURCH ROAD, B.T.,59,,"M. A.","Lanfear","grocer",
+resident,CHURCH ROAD, B.T.,60,,,Charles,"Evans","inspector",
+resident,CHURCH ROAD, B.T.,61,,,Joseph G.,"Smith",,
+resident,CHURCH ROAD, B.T.,62,,"George Hy.","Hall","painter",
+resident,CHURCH ROAD, B.T.,63,,,John,"Jenkins","smith",
+resident,CHURCH ROAD, B.T.,64,,,John,"Pendleton",,"Rose cot"
+resident,CHURCH ROAD, B.T.,65,,"J.,","Porter",,"Oak cottage"
+resident,CHURCH ROAD, B.T.,66,,,Richard,"Heard",,
+resident,CHURCH ROAD, B.T.,67,,,Donald,"Dougall",,"Ash cot"
+resident,CHURCH ROAD, B.T.,68,,"David E.,","Jones",,"Fern cot"
+resident,CHURCH ROAD, B.T.,69,,,Neil,"Coyle",,"Moss cottage"
+resident,CHURCH ROAD, B.T.,70,,"B. H.,","Seccombe",,"Ivy cot"
+resident,CHURCH ROAD, B.T.,71,,,Wm.,"Snelgrove","wheelwgt",
+resident,CHURCH ROAD, B.T.,72,,"W.H.","Riddington","shopkpr",
+resident,CHURCH ROAD, B.T.,73,,"J.","Lock","grocer and baker",
+resident,CHURCH ROAD, B.T.,74,,"Hy.","Thomas","confectioner",
+resident,CHURCH ROAD, B.T.,75,,,Miles,"Gatfield",,
+resident,CHURCH ROAD, B.T.,76,,,Thomas,"Hallett","mason",
+resident,CHURCH ROAD, B.T.,77,,,Thomas,"Mole","factory",
+resident,CHURCH ROAD, B.T.,78,,,John,"Bellew","engine drivr",
+resident,CHURCH ROAD, B.T.,79,,,John,"Bray",,
+resident,CHURCH ROAD, B.T.,80,Temple of Health,& Son,"Banks","Professor",
+cross_street,CHURCH ROAD, B.T.,,,,,,here is Prince-street.
+resident,CHURCH ROAD, B.T.,,,Wesleyan Mission room,,,,
+resident,CHURCH ROAD, B.T.,82,,"O. I.","Vanstone","butcher",
+resident,CHURCH ROAD, B.T.,83,,,Edward,"Price",,
+resident,CHURCH ROAD, B.T.,84,,,Sydney,"Bailey","saddler",
+resident,CHURCH ROAD, B.T.,85,,"B. D.","Brooke","sculptor",
+resident,CHURCH ROAD, B.T.,86,,,Jas.","Russell","general dealr",
+resident,CHURCH ROAD, B.T.,87,,,S.","Ranzatto","grocer",
+resident,CHURCH ROAD, B.T.,88,,,Thomas,"Harrhy",,
+resident,CHURCH ROAD, B.T.,89,,,Henry,"Allen",,
+street,CHURCH STREET, P.,,,,,,From 110 Commercial-road to Dock-parade.
+resident,CHURCH STREET, P.,3,,,,,Void
+resident,CHURCH STREET, P.,4,Tredegar Arms,R. P.,"Culley",,
+resident,CHURCH STREET, P.,5,,,Albert,"Hall","hoistman",
+resident,CHURCH STREET, P.,6,,,Geo.","Taylor","general shop",
+resident,CHURCH STREET, P.,7,,,Julius,"Anderson","mas. mas",
+resident,CHURCH STREET, P.,8,,,John,"Lewis","dockman",
+resident,CHURCH STREET, P.,9,,,James,"Shea","trimmer",
+resident,CHURCH STREET, P.,10,,"Hy.","Nelmes","coal trimmer",
+resident,CHURCH STREET, P.,11,,,Morris,"Creese","haulier",
+resident,CHURCH STREET, P.,12,,,Wm.","McGuire","steward",
+resident,CHURCH STREET, P.,13,,,George,"Royal",,

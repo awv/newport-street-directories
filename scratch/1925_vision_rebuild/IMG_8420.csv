@@ -1,0 +1,179 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,JENKINS STREET,,,,,,
+cross_street,JENKINS STREET,,,,,,"Jenkins Street—continued"
+resident,JENKINS STREET,5,,John T.,Bunn,ironworker,
+resident,JENKINS STREET,7,,,Bartlett's stores,,
+resident,JENKINS STREET,9,,Mrs. Elizabeth,Andrews,,
+resident,JENKINS STREET,11,,George,Jones,,
+resident,JENKINS STREET,13,,Mrs. E.,Oakley,,
+resident,JENKINS STREET,15,,Sidney,Merrick,,
+resident,JENKINS STREET,17,,Isaiah,Spruce,ironworker,
+resident,JENKINS STREET,19,,Wm. Hy.,Horton,ironwrkr,
+resident,JENKINS STREET,21,,Henry,Potts,ironworker,
+resident,JENKINS STREET,23,,Edwin J.,Worner,labr,
+resident,JENKINS STREET,25,,,Tulley Geo.,,Orb works
+resident,JENKINS STREET,27,,John S.,Stone,ironworker,
+resident,JENKINS STREET,29,,William,Roden,iron wkr,
+resident,JENKINS STREET,31,,Samuel,Schofield,labr,
+resident,JENKINS STREET,33,,John,Armatage,ironwkr,
+resident,JENKINS STREET,35,,Geo.,Ratcliffe,ironworker,
+resident,JENKINS STREET,37,,Hugh,McAlister,labourer,
+resident,JENKINS STREET,39,,Henry,Lewis,ironworker,
+cross_street,JENKINS STREET,,,,,,(return)
+resident,JENKINS STREET,30,,John,Griffiths,ironworker,
+resident,JENKINS STREET,28,,Wm.,Sweeting,ironworker,
+resident,JENKINS STREET,26,,Isaiah,Richards,ironwkr,
+resident,JENKINS STREET,24,,Geo.,Clarke,ironworker,
+resident,JENKINS STREET,22,,Arthur,Hipkiss,,
+resident,JENKINS STREET,20,,Thos.,Waters,ironworker,
+resident,JENKINS STREET,18,,Mrs. M.,Cream,,
+resident,JENKINS STREET,16,,Thomas,Fullwood,,
+resident,JENKINS STREET,14,,Edgar,Lewis,,
+resident,JENKINS STREET,12,,Walter,Webb,ironworker,
+resident,JENKINS STREET,10,,Hy.,Griffiths,ironworker,
+resident,JENKINS STREET,8,,Arthur,Austin,ironworker,
+resident,JENKINS STREET,6,,John,Jarvis,labourer,
+resident,JENKINS STREET,4,,Stephen,Curley,ironwrkr,
+resident,JENKINS STREET,2,,George,Hill,,
+resident,JENKINS STREET,,,Vacant sites,,,
+resident,JENKINS STREET,,Orb Working Men's Club,D. J.,Boots,steward,E 4
+street,JOHN STREET,,,,,,
+cross_street,JOHN STREET,,,,,,From 103 Dock-street
+resident,JOHN STREET,1,,Frank,Sullivan,brewer,
+resident,JOHN STREET,,,William,Chapman,,
+cross_street,JOHN STREET,,,,,,entrance to W\inmill-street
+street,JONES STREET,,,,,,D 5
+cross_street,JONES STREET,,,,,,From top of North-street to St. Woolos-road.
+cross_street,JONES STREET,,,,,,(RIGHT HAND SIDE.)
+resident,JONES STREET,1,,Thos. E.,Evans,greengrcr,
+resident,JONES STREET,2,,Thos.,Williams,moulder,
+resident,JONES STREET,3,,Arthur,Linton,labourer,
+resident,JONES STREET,4,,Mrs. Mary J.,Scard,,
+resident,JONES STREET,5,,F. H.,Brown,labourer,
+resident,JONES STREET,6,,John,Parsons,plasterer,
+resident,JONES STREET,7,,Albert,Vaughan,labourer,
+resident,JONES STREET,8,,Christopher,Chapple,Thos.,69 Workman
+resident,JONES STREET,9,,John,Corcoran,labourer,
+resident,JONES STREET,10,,Ed.,Parsons,shoemaker,
+resident,JONES STREET,11,,Mrs. Annie,Williams,,
+resident,JONES STREET,12,,Wm. Arch.,Stallard,eng. dr,
+resident,JONES STREET,13,,Chas. H.,James,fireman,
+resident,JONES STREET,14,,William,Phillips,platelyr,
+resident,JONES STREET,15,,W. H.,Dunning,fuel wkr,
+resident,JONES STREET,16,,Josiah,Ellaway,,
+resident,JONES STREET,17,,Wilfred Victor,Jones,,
+resident,JONES STREET,18,,Fred J.,Thomas,signalman,
+resident,JONES STREET,19,,Thomas,Sturmey,,
+resident,JONES STREET,20,,Sidney,Absalom,driver,
+resident,JONES STREET,21,,Wm. J.,Buiith,G.W.R.,
+resident,JONES STREET,22,,James,Miller,fireman,
+resident,JONES STREET,23,,William,Dyment,labourer,
+resident,JONES STREET,24,,Albert,Pearn,,
+resident,JONES STREET,25,,Mrs. Elizabeth,Short,,
+resident,JONES STREET,26,,Jas.,Boucher,Chas. labr
+resident,JONES STREET,27,,Alfred,Smart,,
+resident,JONES STREET,28,,Chas. A.,Smith,,
+resident,JONES STREET,29,,Mrs. Clara,Ryan,,
+resident,JONES STREET,30,,Hy.,Waite,timekeeper,
+resident,JONES STREET,31,,Wm.,Woodridge,George
+resident,JONES STREET,32,,John T.,Waters,platelayer,
+resident,JONES STREET,33,,A.,Byfield,warehouseman,
+resident,JONES STREET,34,,Alfred S.,Knight,,
+resident,JONES STREET,35,,Mrs. Elizabeth,Halse,,
+resident,JONES STREET,36,,Geo.,Hunt,foreman G.W.R.,
+resident,JONES STREET,37,,W.,Vokins,grocer,
+cross_street,JONES STREET,,,,,,(return)
+resident,JONES STREET,38,,S. W.,Daymond,grocer,&c.,
+resident,JONES STREET,39,,Thomas E.,Robinson,,
+resident,JONES STREET,40,,F. W.,Constant,eng. dvr,
+resident,JONES STREET,,,S. W.,Daymond,fuintr dlr,
+resident,JONES STREET,41,,Mrs. Clara,Waters,Jane
+resident,JONES STREET,42,,Mrs. Beatrice M.,Haskins,,
+resident,JONES STREET,43,,Fredk.,Taylor,labourer,
+resident,JONES STREET,44,,E.,Bywater,sheetweigher,
+resident,JONES STREET,45,,Harold,James,shopkpr,
+resident,JONES STREET,46,,Geo.,Byfield,steelworker,
+resident,JONES STREET,47,,Wm. J.,Westcott,ironwkr,
+resident,JONES STREET,48,,W. E.,Strevens,,
+resident,JONES STREET,49,,Wm.,Westcott,labourer,
+resident,JONES STREET,50,,Mrs. Mary E.,Meredith,,
+resident,JONES STREET,51,,Geo. S.,Parry,baker,
+resident,JONES STREET,52,,John,Capel,labourer,
+resident,JONES STREET,53,,Thos. dk.,Howells,employe
+resident,JONES STREET,54,,Alfred W.,Simmonds,,
+resident,JONES STREET,55,,Thomas,Williams,Ray
+resident,JONES STREET,56,,Mrs. Eleanor,Holt,,
+resident,JONES STREET,57,,W.,Brickley,fitter's helper,
+resident,JONES STREET,58,,William,Taylor,labourer,
+resident,JONES STREET,59,,T. W.,Parsons,,
+resident,JONES STREET,60,,Nicholas,Murray,labr,
+resident,JONES STREET,61,,Miss Gladys,Blanks,,
+resident,JONES STREET,62,,Bert,Oakenden,musician,
+resident,JONES STREET,63,,Thos. J.,Brace,labourer,
+resident,JONES STREET,64,,Patrick,Mahoney,labr,
+resident,JONES STREET,65,,John,Hughes,fitter,
+resident,JONES STREET,66,,J. G.,Venn,fireman,
+resident,JONES STREET,67,,Mrs. Florence,Buchanan,,
+resident,JONES STREET,68,,James,Sarstield,agent,
+resident,JONES STREET,69,,Francis M.,Workman,,
+resident,JONES STREET,70,,Hy.,Callaway,bootmaker,
+resident,JONES STREET,71,,Mrs. M.,Hislop,,
+resident,JONES STREET,72,,J.,Giffen,window cleaner,
+resident,JONES STREET,73,,T.,Whiting,platelayer,
+resident,JONES STREET,74,,Frank,James,painter,
+resident,JONES STREET,75,,Harry,Seedhouse,iwkr,
+street,JUNCTION ROAD,,,,,,C 3
+cross_street,JUNCTION ROAD,,,,,,Caerleon-rd. to Duckpool-rd.
+cross_street,JUNCTION ROAD,,,,,,(LEFT HAND SIDE.)
+resident,JUNCTION ROAD,1,,Wm. J.,Sheppard,mtr dvr,
+resident,JUNCTION ROAD,2,,George,Thomas,Henry
+resident,JUNCTION ROAD,3,,Wm.,Holmes,plasterer,
+resident,JUNCTION ROAD,4,,Fredk.,Howells,labourer,
+resident,JUNCTION ROAD,5,,Wm.,Blackmore,labourer,
+resident,JUNCTION ROAD,6,,Mrs. Eliza,Buck,,
+resident,JUNCTION ROAD,7,,Ed. John,Holmes,bricklyr,
+resident,JUNCTION ROAD,8,,Frank,Halford,,
+cross_street,JUNCTION ROAD,,,,,,here is Bishop-street
+resident,JUNCTION ROAD,9,,John,Walsh,shop,
+cross_street,JUNCTION ROAD,,,,,,here is Dean-street
+resident,JUNCTION ROAD,10,,Stanley,Holbrook,dairy,
+resident,JUNCTION ROAD,11,,Hy.,Samuels,bootmaker,
+resident,JUNCTION ROAD,12,,W. H.,Slade,labourer,
+street,KATHERINE STREET,,,,,,B 4
+cross_street,KATHERINE STREET,,,,,,Off Brynglas-road
+street,KEAR STREET,,,,,,D 4
+cross_street,KEAR STREET,,,,,,From 3 Emlyn-street
+street,KEENE STREET,,,,,,E 3
+cross_street,KEENE STREET,,,,,,Off Cromwell-road
+cross_street,KEENE STREET,,,,,,(RIGHT HAND SIDE.)
+resident,KEENE STREET,1,,Mrs. Alice,Lane,gen. shop,
+resident,KEENE STREET,3,,William,Eaves,ironwkr,
+resident,KEENE STREET,5,,Mrs. Sarah E.,Birch,,
+resident,KEENE STREET,7,,Walter B.,Roberts,rigger,
+resident,KEENE STREET,9,,Robert,Loveridge,,
+resident,KEENE STREET,11,,Ed. J.,Williams,roller,
+resident,KEENE STREET,13,,A. H.,Edwards,foreman platelayer,
+resident,KEENE STREET,15,,Edward,Close,labourer,
+resident,KEENE STREET,17,,George,Beames,sawyer,
+resident,KEENE STREET,,,Vacant sites,,,
+cross_street,KEENE STREET,,,,,,(return)
+resident,KEENE STREET,10,,John,Edwards,boilermkr,
+resident,KEENE STREET,8,,Job,Davies,ironworker,
+resident,KEENE STREET,6,,Alfred,Davies,do,
+resident,KEENE STREET,4,,Fred.,Bloor,do,
+resident,KEENE STREET,2,,Rd.,Lockley,do,
+street,KELVEDON STREET,,,,,,D 3
+cross_street,KELVEDON STREET,,,,,,Off Corporation-road
+cross_street,KELVEDON STREET,,,,,,(RIGHT HAND SIDE.)
+resident,KELVEDON STREET,2,,Percival,Sharpe,,
+resident,KELVEDON STREET,4,,John H.,Aldridge,rlyman,
+resident,KELVEDON STREET,6,,George,Henley,,
+resident,KELVEDON STREET,8,,D.,Keenlyside,tug master,
+resident,KELVEDON STREET,10,,Chris. P.,Sheehy,blrmkr,
+resident,KELVEDON STREET,10,,Wm.,Bryan,seaman,
+resident,KELVEDON STREET,,,Vacant sites,,,
+cross_street,KELVEDON STREET,,,,,,(return)
+resident,KELVEDON STREET,,,Vacant sites,,,
+resident,KELVEDON STREET,9,,Wm.,Guilfoyle,ironwkr,
+resident,KELVEDON STREET,7,,Herb.,Whittingham,irnwr,
+resident,KELVEDON STREET,,,J. H.,Williams,public works contractor,

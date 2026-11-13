@@ -1,0 +1,159 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Pottery Terrace,,,,,,
+resident,Pottery Terrace,6,,John,Tobin,watchman,
+resident,Pottery Terrace,7,,Tom,Pring,fireman,
+resident,Pottery Terrace,8,,A.,Howells,shoemaker,
+resident,Pottery Terrace,9,,Jas.,Watkins,butcher,
+cross_street,Pottery Terrace,,,,,,here is Baldwin-street
+resident,Pottery Terrace,10,,Henry,Beard,labourer,
+resident,Pottery Terrace,11,,Jas.,Murphy,coal trimmr,
+resident,Pottery Terrace,12,,Jacob,Pope,labourer,
+resident,Pottery Terrace,13,,Henry,Rock,guard,
+resident,Pottery Terrace,14,,Ed.,Thomas,,
+cross_street,Pottery Terrace,,,,,,here is Jeddo-street.
+resident,Pottery Terrace,15,,Albt.,Richards,milkman,
+cross_street,Pottery Terrace,,,,,,here is Lime-street.
+resident,Pottery Terrace,16,,John,Boon,striker,
+resident,Pottery Terrace,17,,W.,Matthews,bakehouse,
+cross_street,Pottery Terrace,,,,,,(return)
+resident,Pottery Terrace,18,,D.,Sims,coal yard,
+cross_street,Pottery Terrace,,,,,,here is Lime-street.
+resident,Pottery Terrace,19,,Arthur,Jones,labourer,
+resident,Pottery Terrace,20,,Edward,Williams,,
+cross_street,Pottery Terrace,,,,,,here is Jeddo-street.
+resident,Pottery Terrace,21,,Mrs.,Lyes,,
+cross_street,Pottery Terrace,,,,,,here is Baldwin-street.
+resident,Pottery Terrace,22,,,Hokey's bakehouse,,
+resident,Pottery Terrace,23,,Dd.,Jones,engine driver,
+resident,Pottery Terrace,,,Dockers' Hall,,,
+cross_street,Pottery Terrace,,,,,,here is Marion-street.
+resident,Pottery Terrace,21,,John,Bridgman,cooper,
+cross_street,Pottery Terrace,,,,,,here is Hopefield.
+resident,Pottery Terrace,27,,George,Moylan,eng. dvr,
+resident,Pottery Terrace,29,,George,Robinson,hawker,
+resident,Pottery Terrace,31,,Mrs. Caroline,Hall,,
+resident,Pottery Terrace,33,,John,Connors,labourer,
+resident,Pottery Terrace,35,,Mrs. Sarah,Osmond,,
+resident,Pottery Terrace,37,,Rd. Jas.,Mogford,butcher,
+resident,Pottery Terrace,39,,Humphrey,Sullivan,labr,
+resident,Pottery Terrace,41,,Josiah,Colledge,labourer,
+resident,Pottery Terrace,43,,Bernard,Bistrom,eng.dvr,
+resident,Pottery Terrace,45,,John,Greenhaf,labourer,
+resident,Pottery Terrace,47,,Joseph,Bevister,stoker,
+resident,Pottery Terrace,49,,Chas.,Morris,nailmaker,
+resident,Pottery Terrace,51,,Sidney B.,Willey,storekpr,
+resident,Pottery Terrace,53,,Chris.,Tamplin,foreman,
+resident,Pottery Terrace,55,,Wm.,Powell,haulier,
+resident,Pottery Terrace,57,,John Ed.,Hughes,mouldr,
+resident,Pottery Terrace,59,,Ben. M.,Wright,labourer,
+resident,Pottery Terrace,61,,T.,Lacey,,
+resident,Pottery Terrace,63,,Chas.,Thomas,labourer,
+resident,Pottery Terrace,65,,Albert,Calverley,R.F.A.,
+resident,Pottery Terrace,67,,George,Silcox,mason,
+resident,Pottery Terrace,69,,Mrs. Margaret,Nancekievill,,
+resident,Pottery Terrace,71,,George,Pratt,labourer,
+resident,Pottery Terrace,73,,W. P.,Llewellyn,labourer,
+resident,Pottery Terrace,75,,Mark,Saunders,R.A.,
+cross_street,Pottery Terrace,,,,,,(return upper side)
+resident,Pottery Terrace,72,,George,James,labourer,
+resident,Pottery Terrace,70,,Albert,Tucker,do.,
+resident,Pottery Terrace,68,,Mark,Traynor,do.,
+resident,Pottery Terrace,66,,,Void,,
+resident,Pottery Terrace,64,,George,Bevan,labourer,
+resident,Pottery Terrace,62,,Thomas,Shell,,
+resident,Pottery Terrace,60,,Samuel,Bevister,,
+resident,Pottery Terrace,58,,Hy.,Blakemore,labourer,
+resident,Pottery Terrace,56,,Henry,Smith,setter,
+resident,Pottery Terrace,54,,Mrs. M. A.,Watts,,
+resident,Pottery Terrace,52,,Frank,Vella,stoker,
+resident,Pottery Terrace,50,,,Void,,
+resident,Pottery Terrace,48,,Frank,Cork,bricksetter,
+resident,Pottery Terrace,46,,Wyndham,Gibbon,labr,
+resident,Pottery Terrace,44,,Charles,Windsor,labr,
+resident,Pottery Terrace,42,,,Void,,
+resident,Pottery Terrace,40,,James,Mills,labourer,
+resident,Pottery Terrace,38,,George,Henry,labourer,
+resident,Pottery Terrace,36,,Wm.,Reid,haulier,
+resident,Pottery Terrace,34,,Dl.,Davies,pattern makr,
+resident,Pottery Terrace,32,,Sidney,Ingram,salesman,
+resident,Pottery Terrace,30,,M.,McFarlane,ironworker,
+resident,Pottery Terrace,28,,Mrs.,Coleman,,
+resident,Pottery Terrace,26,,Michael,Ryan,labourer,
+resident,Pottery Terrace,24,,Patrick,Reardon,labr,
+resident,Pottery Terrace,22,,Thomas,Young,haulier,
+resident,Pottery Terrace,20,,Wm.,Wilcox,platelayer,
+resident,Pottery Terrace,18,,John,Burgess,eng. driver,
+resident,Pottery Terrace,16,,John,Routley,guard,
+resident,Pottery Terrace,14,,John,Davies,signal fitter,
+resident,Pottery Terrace,12,,F. W.,Caddy,gardener,
+resident,Pottery Terrace,10,,Fred. J.,Harmer,postman,
+resident,Pottery Terrace,8,,Stephen,Webb,labourer,
+resident,Pottery Terrace,6,,Wm.,Davey,guard G.W.R.,
+resident,Pottery Terrace,4,,,Void,,
+resident,Pottery Terrace,2,,Frank,Pope,platelayer,
+street,Powell's Court,,,,,,From Thomas-street.
+resident,Powell's Court,1,,Henry,Workmen,,
+resident,Powell's Court,2,,George,Baker,labourer,
+resident,Powell's Court,3,,George,Vowles,labourer,
+street,Powell's Place,,,,,,From 69 Dock-street.
+resident,Powell's Place,2,,Thos. Hy.,Jefferson,haulier,
+resident,Powell's Place,3,,Oliver,Reynolds,,
+resident,Powell's Place,,,Lloyd & Yorath's stables,,,
+resident,Powell's Place,,,Central Schools,,,
+resident,Powell's Place,1,,James,Landcastle,haulier,
+street,Power Street,,,,,,From Barrack-hill.
+cross_street,Power Street,,,,,,[LEFT HAND SIDE.]
+resident,Power Street,1,,Mrs. Mary Ann,Rabbitt,,
+resident,Power Street,3,,W. T.,Rodaway,labourer,
+resident,Power Street,5,,Wm.,Rumbold,glass blwr,
+resident,Power Street,7,,John,Jones,labourer,
+resident,Power Street,9,,Edwin,Carter,assistant,
+resident,Power Street,11,,T.,Messenger,nail cutter,
+resident,Power Street,13,,John,Woodfield,Wm.,
+resident,Power Street,15,,Frederick,Carlyle,insp.,
+resident,Power Street,17,,William J. F.,Taylor,,
+resident,Power Street,19,,Francis,Smith,bottle blwr,
+street,Preston Avenue,,,,,,From Tramway Terminus, Risca-road.
+cross_street,Preston Avenue,,,,,,[LEFT HAND SIDE.]
+resident,Preston Avenue,1,,George B.,Bull,Marstow
+resident,Preston Avenue,3,,Joseph J.,Reider,Wynberg
+resident,Preston Avenue,5,,John B.,Williams,,
+resident,Preston Avenue,7,,Henry,Ashton,Ernest
+resident,Preston Avenue,9,,Miss E. A.,Mills,Erwood
+resident,Preston Avenue,11,,Sidney,Storer,Melrose
+resident,Preston Avenue,13,,Chas. L.,Chambers,,
+resident,Preston Avenue,15,,Samuel,Smith,,
+resident,Preston Avenue,17,,David,Jenkins,,
+resident,Preston Avenue,19,,William,Gaskell,,
+resident,Preston Avenue,21,,Tom,Bevan,relieving off.
+resident,Preston Avenue,23,,F.,Brown,The Woodlands
+resident,Preston Avenue,25,,Douglas,Joyce,,
+resident,Preston Avenue,27,,Saml.,Thornley,traveller
+resident,Preston Avenue,29,,William,Stanford,,
+resident,Preston Avenue,31,,Arth. J.,Lucas,journalist
+resident,Preston Avenue,33,,Mrs. Mary,Davis,,
+resident,Preston Avenue,35,,H. C.,Mayo,signalman
+resident,Preston Avenue,37,,Mrs. J. W.,Plaisted,St. Pierre
+resident,Preston Avenue,39,,James B.,Lloyd,,
+resident,Preston Avenue,41,,Edwin H.,Hogg,,
+resident,Preston Avenue,43,,Mrs.,Mattick,,
+resident,Preston Avenue,,,John,Jenkins,,
+resident,Preston Avenue,45,,E. W.,Jenkins,Danesmere
+resident,Preston Avenue,47,,Mrs. J.,Harrison,,
+resident,Preston Avenue,49,,James,Brown,Parry
+resident,Preston Avenue,51,,Wm. H.,Muxworthy,,
+resident,Preston Avenue,53,,Miss S.,Morgan,,
+resident,Preston Avenue,55,,Miss M. A.,Tayler,,
+resident,Preston Avenue,57,,James W.,McKay,,
+resident,Preston Avenue,59,,Christopher,Leonard,,
+resident,Preston Avenue,61,,Edwd.,Miles,Breithorn
+resident,Preston Avenue,63,,C. F.,Ward,Sunbury
+resident,Preston Avenue,65,,E. E.,Williams,Lausanne
+cross_street,Preston Avenue,,,,,,(return)
+resident,Preston Avenue,52,,Gilbert,Kenvyn,,
+resident,Preston Avenue,50,,Robt.,Entwistle,Fir view
+resident,Preston Avenue,48,,P. J.,Ryan,,
+resident,Preston Avenue,46,,Robert,Basden,,
+resident,Preston Avenue,44,,Joseph,Sadler,traveller
+resident,Preston Avenue,42,,Alfred,Boyns,Ferryholm
+resident,Preston Avenue,40,,Thos.,Jones,Hackfall

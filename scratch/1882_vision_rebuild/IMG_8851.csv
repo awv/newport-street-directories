@@ -1,0 +1,139 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Caxton Place,,,,,,continued
+resident,Caxton Place,2,,Alfred,Maggs,,
+resident,Caxton Place,3,,C.,Simpkins,signal insp,
+resident,Caxton Place,4,,Geo. N.,Dowdall,mechin,
+resident,Caxton Place,5,,W. J.,Gibb,bootmaker,
+resident,Caxton Place,,,Thomas,Kessick,,Magistrates Clerk's office
+street,Charles Street,,,,,,From 149 Commercial-street to Stow-hill.
+resident,Charles Street,1,,T.,Miles,cabinet maker,
+resident,Charles Street,2,,Thomas,Williams,sweep,
+resident,Charles Street,4,,Jas.,Donovan,wardrobe,
+resident,Charles Street,5,,J.,Williams,scavenger,
+resident,Charles Street,6,,John,Owen,,
+cross_street,Charles Street,,,,,,Court A.
+resident,Charles Street,7,,Lewis,Borchert,sweep,
+resident,Charles Street,8,,Jos.,Foslett,gas fitter,
+resident,Charles Street,9,,J.,Sloman,glazier,
+cross_street,Charles Street,,,,,,Court B.
+resident,Charles Street,,,,,,English Baptist Chapel
+resident,Charles Street,10,,Edmund,Evans,haulier,
+resident,Charles Street,11,,W.,Broomsgrove,labor,
+resident,Charles Street,12,,Charles,Davies,sweep,
+resident,Charles Street,13,,,,Apartments,
+cross_street,Charles Street,,,,,,Court D.
+resident,Charles Street,14,,Richd.,Barnes,plumber,
+resident,Charles Street,15,,Edwin,Waters,haulier,
+cross_street,Charles Street,,,,,,Court E.
+resident,Charles Street,16,,Edward,Williams,shop,
+resident,Charles Street,,,Chas.,Borchert,sweep,
+resident,Charles Street,17,,David,Williams,labor,
+resident,Charles Street,18,,W. F.,Wallington,tailor,
+cross_street,Charles Street,,,,,,(return.)
+resident,Charles Street,19,Red Lion Inn,John,Lewis,,
+resident,Charles Street,20,,Jos.,Hooper,carpenter,
+resident,Charles Street,21,,George,James,butcher,
+resident,Charles Street,22,,W.,Coles,greengrocer,
+resident,Charles Street,23,,Fred.,Williams,shop kr,
+resident,Charles Street,24,,George,Smith,saddler,
+resident,Charles Street,,,J.,Goddard,,organ build
+resident,Charles Street,26,,E.,Wanklin,muffin shop,
+resident,Charles Street,27,,Ann,Harris,widow,
+resident,Charles Street,28,,Emanuel,Hopkins,sadlr,
+resident,Charles Street,29,,Leonard,Smith,mar stor,
+resident,Charles Street,30,,B. W.,Winter,sculptor,
+street,Charlotte Street,,,,,,From 23 Alma-street to 19 Capel-street.
+resident,Charlotte Street,1,,J.,Robert,ship agt,
+resident,Charlotte Street,2,,Mary,Dallimore,shop,
+resident,Charlotte Street,3,,Tom,Lewis,painter,
+resident,Charlotte Street,4,,John,Marsh,engine drvr,
+resident,Charlotte Street,,,Evan,Jones,oil seller,
+resident,Charlotte Street,5,,Wm.,Campbell,moulder,
+resident,Charlotte Street,6,,G.,Gorton,warehousemn,
+cross_street,Charlotte Street,,,,,,Here is Capel-st. (return.)
+resident,Charlotte Street,,,Isaac,Morgan,grocer,
+resident,Charlotte Street,7,,,,Void,
+resident,Charlotte Street,8,,George,Tyler,mason,
+resident,Charlotte Street,9,,Frank,Jones,shipwright,
+resident,Charlotte Street,10,,Samuel,Leach,milkman,
+resident,Charlotte Street,11,,Alfd.,Bewsey,cab propr,
+resident,Charlotte Street,11A,,Robt.,Williams,ftter,
+resident,Charlotte Street,12,,John,Foxall,,
+resident,Charlotte Street,,,,,,Patent Dry Gas Meter works—Foxall Llewellyn Jones and Co.
+resident,Charlotte Street,13,,Edmund,Jones,Wm.,
+resident,Charlotte Street,14,,Mary Ann,Pardy,widow,
+resident,Charlotte Street,15,,John,Sullivan,guard,
+resident,Charlotte Street,16,,Samuel,Davies,surveyor,
+resident,Charlotte Street,,,Thomas,Davies,ditto,
+street,Chepstow Road,,,,,,From Clarence-place to Maindee.
+resident,Chepstow Road,1,,W.,Sheaf,veterinary surgeon,Windsor house
+resident,Chepstow Road,2,Victoria v.,J.,Simmonds,,
+resident,Chepstow Road,3,Cambridge vil,D.,Lewis,,
+resident,Chepstow Road,4,,Charles,Chapman,,Osborne villa
+resident,Chepstow Road,5,Beaufort v.,W. H.,Lewis,,
+resident,Chepstow Road,6,Clytha v.,John,Richards,,
+resident,Chepstow Road,7,Carrisbrook villa,John,Pickford,,
+resident,Chepstow Road,8,Eling villa,John,Lewis,,
+resident,Chepstow Road,9,Atherstone villa,Charles,Williams,,
+resident,Chepstow Road,10,,W. Albert,Kinsey-Morgan,villa,
+resident,Chepstow Road,11,Hilstom villa,Wm.,Ball,,
+resident,Chepstow Road,12,Upton villa,R.T.,Martin,,
+resident,Chepstow Road,13,Glenbrook villa,Henry,Willmott,,
+resident,Chepstow Road,14,Clifton villa,,,,Void
+resident,Chepstow Road,15,Grantham villa,J. G.,Kenwyn,,
+resident,Chepstow Road,16,York villa,Henry,Fry,,
+resident,Chepstow Road,17,Clarence villa,Mrs. T. F.,Lewis,,
+resident,Chepstow Road,18,Taff vil,Mrs. Hry.,Elliott,,
+resident,Chepstow Road,19,Usk villa,Miss E.,James,,
+resident,Chepstow Road,20,Belvoir house,Richd. B.,Evans,,
+resident,Chepstow Road,21,Nolton villa,Rev. T. D.,Griffiths,,
+resident,Chepstow Road,22,Heber vil,L.,Hermessen,,
+resident,Chepstow Road,23,Netherton v.,T.,Spittle,,
+resident,Chepstow Road,24,Sefton villa,Thos.,Ellery,,
+resident,Chepstow Road,25,Winslow house,,,,Void
+cross_street,Chepstow Road,,,,,,(return.)
+resident,Chepstow Road,,,D. A.,Vaughan,,Oak Villas—Void
+resident,Chepstow Road,,,,,,Linton villa
+resident,Chepstow Road,,,Alfred,Blake,,Arundel villa
+resident,Chepstow Road,,,Mrs.,Skinner,,Curzon villa
+resident,Chepstow Road,,,Wm.,Joseph,,Portfield house
+resident,Chepstow Road,,,George,David,ditto,
+cross_street,Chepstow Road,,,,,,See also Maindee list.
+street,Church Road,,,,,,From Hereford-place to Duckpool-road.
+resident,Church Road,1,,Mrs.,Grant,,
+resident,Church Road,2,,Danl.,Davies,ptn. mak.,
+resident,Church Road,3,,J. T.,Enstone,billiard mkr,
+resident,Church Road,4,,F. P.,Jordan,,
+resident,Church Road,5,,John,Davies,,
+resident,Church Road,5A,,Ezra,Lewis,helve mkr,
+resident,Church Road,6,,Thos. jr.,Osborn,painter,
+resident,Church Road,7,,J. H.,Rees,slate enamlr,
+resident,Church Road,8,,Uriah,Dole,,
+resident,Church Road,9,,Alex.,Mackie,Sergt-major,
+resident,Church Road,10,,,,Void—,
+resident,Church Road,11,,Benjamin,Griffiths,,
+resident,Church Road,12,,James,King,cellerman,
+resident,Church Road,13,,Ed.,Richards,grocer &c.,
+cross_street,Church Road,,,,,,Here is Princes-street.
+resident,Church Road,14,,Hy.,Comley,grocer &c.,
+resident,Church Road,15,,Frank,Bristow,carpr.,
+resident,Church Road,16,,Charles,Fennell,mason,
+resident,Church Road,17,,Cor.,O'Leary,blacksmith,
+resident,Church Road,18,,John,Buckley,smith,
+resident,Church Road,19,,William,Spittle,,
+resident,Church Road,20,,Richard,Webber,builder,
+resident,Church Road,,,,,,Maindee Brick and Drainpipe works. Davies Bros.
+cross_street,Church Road,,,,,,(return.)
+resident,Church Road,,,Henry T.,James,butcher,
+resident,Church Road,,,Thomas,Henry,grocer,
+resident,Church Road,,,J. F.,Michael,Cahir house
+resident,Church Road,Herbert Arms,Jas.,Brookes,,
+cross_street,Church Road,,,,,,Here is Bishop-street.
+resident,Church Road,,,,,,St. John The Baptist's Mission Chapel
+resident,Church Road,,,,,,Barnard Town Board Schools. Lydia Griffiths teacher
+resident,Church Road,,,W. H.,Stevens,,
+cross_street,Church Road,,,,,,Here is Alfred-street
+resident,Church Road,,,Wm.,Watkins,news agent,
+resident,Church Road,,,David,Thomas,,
+resident,Church Road,,Musgrave-pl,John,Marfell,,
+cross_street,Church Road,,,,,,*Nos. 6 to 20 are in Maindee District.

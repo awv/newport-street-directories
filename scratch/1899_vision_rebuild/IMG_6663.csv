@@ -1,0 +1,135 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,High Street,,,,,,continued
+resident,High Street,59,,,,,[and hatter] Void
+resident,High Street,60,,,T.,Lewis,tailor,hosier
+resident,High Street,61,General Post Office,,,,,
+resident,High Street,62,,,,,,See Local Information
+resident,High Street,63,,,W. P.,Williams,fancy rep.
+resident,High Street,61,G. Western Coffee tavern,C.,Lee,proprietor,
+cross_street,High Street,,,,,here is Thomas-street.
+resident,High Street,,Corn Exchange Chambers,& Sons,Rees, Treharne,civil engineers etc.,
+resident,High Street,,Tredegar Corn Exchange,Col.,Justice,agent,
+resident,High Street,65,Tredegar Estate offices-,,,solicitors,Davis & Lloyd
+resident,High Street,67,,,E.,Hooper,newsagent and tobacconist,
+resident,High Street,,S. Mon. Conservative office,L. Foster,Stedman,agt,
+resident,High Street,,,,,watchmaker,Lerwill W. H.
+resident,High Street,68,,,,Singer Manufacturing Co.,
+resident,High Street,,,,,mngr,Chas. Balmont
+resident,High Street,68A,,,Wm.,Burt,hairdresser &c,
+resident,High Street,69,,,,Dutfield & Frost,agricultural implement agents
+cross_street,High Street,,,,,here is Shaftesbury-street.
+resident,High Street,71,,,,Griffiths & Sons,tailors clothiers etc.
+resident,High Street,72,Shaftesbury Temperance Hotel,Harry,Davies,,
+resident,High Street,73,Shaftesbury Restaurant,,,,,
+resident,High Street,74,,,W.,Lawrence,hosier etc.,
+resident,High Street,75,,,,Freedman & Co.,complete house furnis'rs
+resident,High Street,76,,,,Freedman & Co.,complete house furnis'rs
+resident,High Street,77,,,,Blaendare Co. Ltd.,Wm. Morris agent
+resident,High Street,,,,,Davies & Sons,tailors
+resident,High Street,,Newport Castle,,,,,
+street,Highbury Chambers,,,,,,
+notes,Highbury Chambers,,,,,,See Skinner-street.
+street,Hill Street,,,,,,From 136 Commercial-street to Victoria-place.
+resident,Hill Street,,U. Methodist Free Church,,,,,
+cross_street,Hill Street,,,,,here is Ivor-street.
+resident,Hill Street,,Mount Zion Chapel Welsh,,,,,
+resident,Hill Street,3,,,Jas.,Shewring,signwriter,
+resident,Hill Street,4,,,T.,Newman,mas. mar.,
+resident,Hill Street,5,,,Thomas,Ballhatchet,,
+resident,Hill Street,6,,,Mrs,Hill,,
+resident,Hill Street,7,,,Rev Wm.,Salmon,Congregational,
+resident,Hill Street,8,,,Ed.,Wangler,traveller,
+resident,Hill Street,9,,,Harry A.,Hiscox,smith,
+resident,Hill Street,10,,,John,Irvine,jun.,
+resident,Hill Street,11,,,Jas.,Wenger,storekeeper,
+resident,Hill Street,,Victoria Road Congregational Church,,,,,
+cross_street,Hill Street,,,,,[return]
+resident,Hill Street,13,,,J. M.,Barnes,missionary,
+resident,Hill Street,14,,,Mrs Mary,Hazell,,
+resident,Hill Street,15,,,,Evans,,
+resident,Hill Street,16,,,Mrs Annie,Logan,,
+resident,Hill Street,17,,,Mrs Edward,Wade,,
+resident,Hill Street,18,,,James,Evans,,
+resident,Hill Street,19,,,Tom,Derrett,engineer,
+resident,Hill Street,20,,,H. C.,Pitman,lay reader,
+resident,Hill Street,21,,,John C.,Jones,clerk,
+resident,Hill Street,22,,,A. W.,Torrington,shipwrgt,
+resident,Hill Street,23,,,A. H.,Rees,,
+resident,Hill Street,,,,Mrs,Rees,school,Mt. Pleasant-void
+resident,Hill Street,25,,,George,White,,
+resident,Hill Street,26,,,Wm.,Gatchell,eng. driver,
+resident,Hill Street,27,,,George F.,Davies,clerk,Gowen Wm. Hill side cot
+resident,Hill Street,,,,George,Colthurst,stores,
+resident,Hill Street,28,,,Mrs Hannah,Newcombe,,
+resident,Hill Street,29,,,Mrs Mary,Prosser,,
+resident,Hill Street,30,,,Mrs,Sheppard,,
+resident,Hill Street,31,,,William,Hughes,clerk,
+resident,Hill Street,32,,,Mich. T.,Driscoll,conf'ner,
+resident,Hill Street,33,,,Wm.,Brown,umbrellamkr,
+resident,Hill Street,34,Newport Liberal Association,W. H.,Brown,agt,
+resident,Hill Street,35,Newport Liberal Association,W. H.,Brown,agt,
+street,Hilla Road,,,,,,From Bryngwyn-road to Oakfield-road.
+street,Hood Street, L.,,,,,,From Somerton-road to Camperdown-street.
+street,Homfray Street, P.,,,,,,From Courtybella-terrace to Mendalgief-road.
+resident,Homfray Street, P.,1,,,Chas.,Killick,eng. driver,
+resident,Homfray Street, P.,2,,,Wm.,Price,engine driver,
+resident,Homfray Street, P.,3,,,W. C.,Johns,grocer,
+resident,Homfray Street, P.,,,,Johns Bros.,Belle vue bakery,
+street,Hopefield,,,,,,From 26 Dos-road to Power-street Barrack-hill.
+resident,Hopefield,1,,,Joseph,Witham,shop,
+resident,Hopefield,1A,,,Edwin,Thomas,labourer,
+resident,Hopefield,2,,,Charles,Cooke,,
+resident,Hoskins Street,3,,,Beswick,Partridge,lab'r,
+resident,Hoskins Street,4,,,Albert,Thomas,cooper,
+resident,Hoskins Street,5,,,Frederick,West,sawyer,
+resident,Hoskins Street,6,,,J.,Brangham,ironworker,
+resident,Hoskins Street,7,,,Wm.,Wilcox,police sergt.,
+resident,Hoskins Street,8,,,Richard,Harper,police,
+resident,Hoskins Street,9,,,William,Roderick,seaman,
+resident,Hoskins Street,10,,,Robt.,Trump,signalman,
+resident,Hoskins Street,11,,,Wm.,Voyle,blacksmith,
+resident,Hoskins Street,12,,,Wm.,Wilcox,platelayer,
+resident,Hoskins Street,13,,,Stephen,Price,labourer,
+resident,Hoskins Street,,Bible Christian Mis'n (1893),,,,,
+street,Hoskins Street,,,,,,From 8 Pugsley-st. Marshes.
+resident,Hoskins Street,1,,,James,Williams,fireman,
+resident,Hoskins Street,2,,,John,O'Neill,fitter,
+resident,Hoskins Street,3,,,Albert,Bowen,cellarman,
+resident,Hoskins Street,4,,,Wm.,Woolen,labourer,
+resident,Hoskins Street,5,,,Mrs Elizabeth,Bailey,,
+resident,Hoskins Street,6,,,George,Wood,labourer,
+resident,Hoskins Street,7,,,Albert,Comley,carpenter,
+resident,Hoskins Street,8,,,Edwin,Bullock,,
+resident,Hoskins Street,9,,,Joseph,Perkins,factory,
+resident,Hoskins Street,10,,,Jas.,Smith,bottle maker,
+resident,Hoskins Street,11,,,Edward,Jones,factory,
+resident,Hoskins Street,12,,,James,Flynn,,
+resident,Hoskins Street,13,,,Mrs Jane,Derby,,
+resident,Hoskins Street,14,,,Saml. J.,Agland,labourer,
+resident,Hoskins Street,15,,,Job,Harvey,carman,
+resident,Hoskins Street,16,,,Mrs Sarah,Bevan,,
+resident,Hoskins Street,17,,,John,Gouner,carpenter,
+resident,Hoskins Street,18,,,Henry,Gilpin,cellarman,
+resident,Hoskins Street,19,,,John,Knight,fireman,
+resident,Hoskins Street,20,,,George,Max,G.W.R.,
+resident,Hoskins Street,21,,,James,Skuse,mason,
+resident,Hoskins Street,22,,,Charles,James,labourer,
+resident,Hoskins Street,23,,,David,Fox,mason,
+resident,Hoskins Street,24,,,Mrs Margaret,Richards,,
+resident,Hoskins Street,25,,,John A.,Sheldon,striker,
+resident,Hoskins Street,26,,,John,Cork,labourer,
+resident,Hoskins Street,27,,,John,Hopkins,carpenter,
+resident,Hoskins Street,28,,,John Thomas,Crump,,
+resident,Hoskins Street,29,,,John,Jenkins,sailmaker,
+resident,Hoskins Street,30,,,Abraham,Bennett,,
+cross_street,Hoskins Street,,,,,here is Evans-street.
+resident,Hoskins Street,,,,C.,Fouweather,glass works,
+resident,Hoskins Street,,,,Dd. C.,Morris,wagon rep'r,
+resident,Hoskins Street,,,,John,Hayward,stoker,
+resident,Hoskins Street,,,,William,Bryan,sawyer,
+resident,Hoskins Street,,,,Jas.,Williams,bricklayer,
+resident,Hoskins Street,,,,William,Rosier,bricklayer,
+resident,Hoskins Street,,,,Thos.,Griffiths,labourer,
+resident,Hoskins Street,,,,Thos.,Chamberlain,lab'r,
+resident,Hoskins Street,,,,William,Thomas,labourer,
+resident,Hoskins Street,,,,Clifford,Wilkins,mason,

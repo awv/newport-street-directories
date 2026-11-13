@@ -1,0 +1,143 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,LLANDAF STREET, , , , , ,D 6 Waterloo-road to Coldra-road
+resident,LLANDAF STREET,1, ,Mrs. Susannah,Corner, ,
+resident,LLANDAF STREET,2,Ravenswood,Valentine J.,Macnamara, ,
+street,LLANTHEWY ROAD, , , , , ,C 5 From Clytha Park-road to Risca-road
+cross_street,LLANTHEWY ROAD, , , , , ,(RIGHT HAND SIDE.)
+resident,LLANTHEWY ROAD,2,The Bungalow,Miss Rose,Freedman, ,
+resident,LLANTHEWY ROAD,4,Oamaru,G.,Ramsay,accnt,
+resident,LLANTHEWY ROAD,6,Thornbury,R. J.,Fowler, ,
+resident,LLANTHEWY ROAD,8,Dindigul villa,Edwin John,Vranch, ,
+resident,LLANTHEWY ROAD,10,Troed-y-rhiw,Stephen,Osmar, ,
+resident,LLANTHEWY ROAD,12,Dean house,-,Rosser, ,
+resident,LLANTHEWY ROAD,14,Lyndale,Geo.,Stow, ,
+resident,LLANTHEWY ROAD,16,Belvedere,Louis,Burman,draper,
+resident,LLANTHEWY ROAD,18,Ambleside,Alf. J.,Phillips, ,
+resident,LLANTHEWY ROAD,20,Inglefield,Geo. E. S.,Heybyrne, ,
+resident,LLANTHEWY ROAD,22,Wyecliffe,Joseph,Sadler, ,
+resident,LLANTHEWY ROAD,24,Dunkerry,Mrs. M.,Forsyth, ,
+resident,LLANTHEWY ROAD,26,Lifford,M. E.,Jacobs, ,
+resident,LLANTHEWY ROAD,28,Hillsboro',R. A.,Haggett, ,
+resident,LLANTHEWY ROAD,30,Hillside,C. V.,Southey,traveller,
+resident,LLANTHEWY ROAD,32,Homevale,A. R.,Bezant, ,
+resident,LLANTHEWY ROAD,34, ,Thos. J.,McCarthy, ,
+resident,LLANTHEWY ROAD,36,Wyvenhoe,W. J.,Traylor, ,
+cross_street,LLANTHEWY ROAD, , , , , ,here is Spencer-road
+building,LLANTHEWY ROAD, ,LLANTHEWY ROAD BAPTIST CHURCH, , , ,
+resident,LLANTHEWY ROAD,38, ,R. L.,Roberts, ,
+resident,LLANTHEWY ROAD,40,St. Issell's,Ivor W.,Lawrence, ,
+resident,LLANTHEWY ROAD,42, ,W. J.,Grant, ,
+resident,LLANTHEWY ROAD,44,Bryn-y-Mor,Mrs. Annie,Phillips, ,
+resident,LLANTHEWY ROAD,46,Bryndeilo,Mrs. M. L.,Williams, ,
+resident,LLANTHEWY ROAD,48,Bryn-Tivy,John,Groves, ,
+resident,LLANTHEWY ROAD,50,Lyncomb,W. jewrlr,Bibby, ,
+resident,LLANTHEWY ROAD,52,Holmesford,Miss,Vivian, ,
+resident,LLANTHEWY ROAD,54,Tegfryn,W. F.,Phillips, ,
+resident,LLANTHEWY ROAD,56,Sunnyside,Miss L. A.,Ford, ,
+resident,LLANTHEWY ROAD, , ,Arthur E.,Roberts,dectr,
+resident,LLANTHEWY ROAD,58,Lealholme,J. W.,Folley, ,
+resident,LLANTHEWY ROAD,60,Troyville,Ralph,Holloway, ,
+resident,LLANTHEWY ROAD,62,Kingswood,G. C.,Roderick, ,
+resident,LLANTHEWY ROAD,64,Cloveily,Mrs. B. M.,Frost, ,
+resident,LLANTHEWY ROAD,66,Silverthorne,J. F.,Freeguard, ,
+resident,LLANTHEWY ROAD,68,Mount View,David T.,Kyles, ,
+resident,LLANTHEWY ROAD,70,Rosslyn,H. S.,Jenkins, ,
+resident,LLANTHEWY ROAD,72,Glen Rosa,Andrew,Young, ,
+resident,LLANTHEWY ROAD,74,Northernhay,Austin,Pratt, ,
+resident,LLANTHEWY ROAD,76,Edward,Stevens, ,
+resident,LLANTHEWY ROAD,78,Rothesay,Alf. J.,Watkins,relieving officer
+resident,LLANTHEWY ROAD,80,Duncan,McFarlane, ,
+resident,LLANTHEWY ROAD,82,Inglewood,Charles,Styles, ,
+resident,LLANTHEWY ROAD,84,St. Wilfred,Samuel J.,Buckingham,dairyman
+resident,LLANTHEWY ROAD,86,Miriam,Mrs. G.,Porter, ,
+resident,LLANTHEWY ROAD,88,Sylhet,J. J.,Pobjoy, ,
+cross_street,LLANTHEWY ROAD, , , , , ,(return)
+resident,LLANTHEWY ROAD,81,Emlyn,Rev. T.,Williams, ,
+resident,LLANTHEWY ROAD,79,Hillcrest,Albert J.,Morris,engineer
+resident,LLANTHEWY ROAD,77,Brynhyfryd,H. S.,Kelly, ,
+resident,LLANTHEWY ROAD,75,mar engineer,J. A.,James, ,
+resident,LLANTHEWY ROAD,73,Pen-y-bryn,S. G.,Walters, ,
+resident,LLANTHEWY ROAD,71,Ballan-trae,Mrs. M.,Roberts, ,
+resident,LLANTHEWY ROAD,69,Pen-y-dre,Miss E.,Price, ,
+resident,LLANTHEWY ROAD,67,The Garth,Fredk. P.,Williams, ,
+resident,LLANTHEWY ROAD,65,Corrisvale,Miss Clara,Pearse, ,
+resident,LLANTHEWY ROAD,63,Stoneleigh,S. H.,Collins, ,
+resident,LLANTHEWY ROAD,61,Trevano,Mrs. C.,Evans, ,
+resident,LLANTHEWY ROAD,59,Eaton villa,Mrs. Emma D.,Boyns, ,
+resident,LLANTHEWY ROAD,57,Glenholme,H. P.,Snewin, ,
+resident,LLANTHEWY ROAD,55,St. Pierre,Fredk. S.,Hiscott, ,
+resident,LLANTHEWY ROAD,53,boot manufacturer,Harry S.,Williams,St. Giles
+resident,LLANTHEWY ROAD,49,Hilary,C. E. M.S.A.,Compton, ,
+resident,LLANTHEWY ROAD,51,traveller,Edwin J.,Winter, ,
+resident,LLANTHEWY ROAD,47,Brightholme,Leslie,Jacobs, ,
+resident,LLANTHEWY ROAD,45,Dewstow,Miss Clara,Reece, ,
+resident,LLANTHEWY ROAD,43,Harlyn,George,Masters, ,
+resident,LLANTHEWY ROAD,41,Castledene,Mrs. A. E.,Hartley, ,
+cross_street,LLANTHEWY ROAD, , , , , ,here is Spencer-road
+resident,LLANTHEWY ROAD,37,Scethrog,W. E. L.R.A.M.,Edwards, ,
+resident,LLANTHEWY ROAD,33,Craigston,Mrs. E.,Simmonds, ,
+resident,LLANTHEWY ROAD,31,Arvon,F. Herbert,Fry, ,
+resident,LLANTHEWY ROAD,29,Rydal,F. J.,Alger, ,
+resident,LLANTHEWY ROAD,27,George,Bull, ,
+resident,LLANTHEWY ROAD,25,Trelawney-void, , , ,
+resident,LLANTHEWY ROAD,23,Hazeldene,Mrs.Ida,Coward, ,
+resident,LLANTHEWY ROAD,21,Hollymount,George,Greenway, ,
+resident,LLANTHEWY ROAD,19,Tregenna,J.,Jeffs, ,
+resident,LLANTHEWY ROAD,17,Llanberis,Mrs. C. P.,Evans, ,
+resident,LLANTHEWY ROAD,15,Kemble ho,J. R.,Taylor, ,
+resident,LLANTHEWY ROAD,13,Sydington ho,F. L.,Smith, ,
+resident,LLANTHEWY ROAD,11,Llanthewy h,MissA.,Henry, ,
+resident,LLANTHEWY ROAD,9,Norton ho,C. A.,sec,Willis, ,
+resident,LLANTHEWY ROAD,7,Walton house,Mrs. E. J.,Jordan, ,
+resident,LLANTHEWY ROAD,5,Durlstone,John F.,architect,Groves, ,
+resident,LLANTHEWY ROAD,3,Tadeta,Mrs. J.,Jacobs, ,
+resident,LLANTHEWY ROAD,1,Caroline,Mrs.,James, ,
+street,LLANVAIR ROAD, , , , , ,C 4 From East Usk-road
+cross_street,LLANVAIR ROAD, , , , , ,(RIGHT HAND SIDE.)
+resident,LLANVAIR ROAD,2, ,H.,Shackleford,gardener
+resident,LLANVAIR ROAD,4, ,W. J.,Morgan,haulier
+resident,LLANVAIR ROAD,6, ,Walter,Hill,rubberwkr
+resident,LLANVAIR ROAD,8, ,Charles Hy.,Coombs, ,
+resident,LLANVAIR ROAD,10, ,T. A.,Saddler,clerk
+resident,LLANVAIR ROAD,12, ,Arthur,Robinson,labourer
+resident,LLANVAIR ROAD,14, ,J. F.,Shepherd,G.W.R.
+resident,LLANVAIR ROAD,16, ,Jos. Owen,Lewis,painter
+resident,LLANVAIR ROAD,18, ,W.,Williams,boot repairer
+resident,LLANVAIR ROAD,20-24, ,F. C.,Parfitt,builder,stores
+resident,LLANVAIR ROAD,26, ,John Hy.,Davies,G.W.R.
+resident,LLANVAIR ROAD,28, ,Robert,Shakesheff,G.W.R.
+resident,LLANVAIR ROAD,30, ,Wm. ironwkr,Chambers, ,
+resident,LLANVAIR ROAD,32, ,Wm. E. ironwkr,Walkley, ,
+resident,LLANVAIR ROAD,34, ,Edgar,Thomas,labourer
+resident,LLANVAIR ROAD,36, ,Charles William,Bird,motorman
+resident,LLANVAIR ROAD, , ,F. C.,Parfitt,builder's yd and workshops
+resident,LLANVAIR ROAD,38, ,Michael,Dacey,ironwkr
+resident,LLANVAIR ROAD,40, ,G. M. transport wkr,Jones, ,
+resident,LLANVAIR ROAD,42, ,Robert,Abbott,G.W.R.
+resident,LLANVAIR ROAD,44, ,Ernest Victor D.,Carter,dock labourer
+resident,LLANVAIR ROAD,46, ,G. H.,Merrick,eng driver
+resident,LLANVAIR ROAD,48, ,James Henry,Evans, ,
+cross_street,LLANVAIR ROAD, , , , , ,(return)
+resident,LLANVAIR ROAD,7, ,W.,Davidson,police
+resident,LLANVAIR ROAD,5, ,Geo. labourer,Houghton, ,
+resident,LLANVAIR ROAD,3, ,Wm. labourer,Holwell, ,
+resident,LLANVAIR ROAD,1, ,Walter,Oliver,labourer
+resident,LLANVAIR ROAD, , , ,S. Wales Brattice Cloth and India Rubber works, ,
+street,LLANVAPLEY ROAD, , , , , ,C 3 From Constance-st., Caerleon-road
+street,LLANWERN STREET, , , , , ,D 3 From Corporation-road to Railway
+cross_street,LLANWERN STREET, , , , , ,(RIGHT HAND SIDE.)
+resident,LLANWERN STREET, , ,F.,Holman,wood turner, etc.
+resident,LLANWERN STREET,2, ,F. G.,Shortland,shearer
+resident,LLANWERN STREET,4, ,Lloyd W.,Williams,lino op
+resident,LLANWERN STREET,6, ,Mrs. Annie,Trew, ,
+resident,LLANWERN STREET,8, ,Edward,Dunlewie, ,
+resident,LLANWERN STREET,10, ,Alfd. insurance agent,Williams, ,
+resident,LLANWERN STREET,12, ,Geo. Jos. insurance agent,Darke, ,
+resident,LLANWERN STREET,14, ,Thomas,Harvey,driver
+resident,LLANWERN STREET,16, ,Walter T.,Garraway,fitter
+resident,LLANWERN STREET,18, ,J. E. ironworker,Garvey, ,
+resident,LLANWERN STREET,20, ,John Henry,Corbett, ,
+resident,LLANWERN STREET,22, ,Henry,O'Shea, ,
+resident,LLANWERN STREET,24, ,Joseph,Inker,eng driver
+resident,LLANWERN STREET,26, ,William,Houghton,paintr
+resident,LLANWERN STREET,28, ,Nathan,Cohen, ,

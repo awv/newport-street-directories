@@ -1,0 +1,143 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Corelli Street continued,,,,,,
+resident,Corelli Street continued,12,,George,Rawlings,,
+resident,Corelli Street continued,10,,James,Agst,fireman,
+resident,Corelli Street continued,8,,John,Boyce,tailor,
+resident,Corelli Street continued,6,,John H.,Ridler,labourer,
+resident,Corelli Street continued,4,,William,Williams,driver,
+resident,Corelli Street continued,2,,John,Coslett,stableman,
+resident,Corelli Street continued,,,Francis Bros.,,office,
+street,Corn Street,D 4,,,,,
+cross_street,Corn Street,D 4,,,,,"14 Commercial-st. to Canal-par"
+resident,Corn Street,D 4,,COUNCIL CHAMBERS,,,,
+resident,Corn Street,D 4,,Hunter Walter & Co.,,,Incorporated accountants and estate agents,
+resident,Corn Street,D 4,,,T.,Blandford,tailor,
+cross_street,Corn Street,D 4,,,,,here is Dock-street.
+resident,Corn Street,D 4,8,Monmouthshire Workmen's Hotel,,,,
+cross_street,Corn Street,D 4,,,,,[return]
+resident,Corn Street,D 4,13,,,W. H.,Davies,marine store,
+resident,Corn Street,D 4,14-5,The Cottage Hotel,,,,
+resident,Corn Street,D 4,16,Potters' Arms,J. R.,Wallace,,
+cross_street,Corn Street,D 4,,,,,"here is Dock-street."
+resident,Corn Street,D 4,17,,,W. & Co.,,Evans,provision importers,Ltd.
+resident,Corn Street,D 4,18,,,Mdm.,Francois,hairdressr,
+resident,Corn Street,D 4,19,,,P. W.,Raffan,printers,Ltd.
+resident,Corn Street,D 4,20,,,Albt.,Fennell,hairdresser,
+street,Corporation Rd.,C 4,,,,,
+cross_street,Corporation Rd.,C 4,,,,,"Clarence-pl. to Lysaght's Wks"
+cross_street,Corporation Rd.,C 4,,,,,[LEFT HAND SIDE.]
+resident,Corporation Rd.,C 4,,,Frank,Knee,house furnisher,
+resident,Corporation Rd.,C 4,,,E.,Nancekeville,ho,Penmaen ho
+resident,Corporation Rd.,C 4,1,Fascadale,George,Kyd,,
+resident,Corporation Rd.,C 4,3,Clyde ho,Jas.,Comerford,,
+resident,Corporation Rd.,C 4,5,Netherleigh,W. H.,Strawbridge,,
+resident,Corporation Rd.,C 4,7,The Lymes,John G.,Cossham,,
+resident,Corporation Rd.,C 4,9,,,John,Rees,foreman,
+resident,Corporation Rd.,C 4,11,,,Mrs.,Carver,costumier,
+resident,Corporation Rd.,C 4,13,Risca ho.,John F.,Cobb,,
+resident,Corporation Rd.,C 4,15,,,Philip,Howard,mch.engr.,
+resident,Corporation Rd.,C 4,17,Edermine,Rich.,Ireland,,
+resident,Corporation Rd.,C 4,19,,,,,void,Hazlehurst-void
+resident,Corporation Rd.,C 4,21,Troy ho,J.,Sutherland,,
+cross_street,Corporation Rd.,C 4,,,,,"here is Bedford-road."
+resident,Corporation Rd.,C 4,23,Cedar house,J. W.,Watts,,
+resident,Corporation Rd.,C 4,25,Marsden,John,Richards,,
+resident,Corporation Rd.,C 4,27,Mozart h,Mrs. A.,Nott,,
+resident,Corporation Rd.,C 4,29,St. Elmo,Edward,Cryer,,
+resident,Corporation Rd.,C 4,31,Ashley,Thomas,Tandy,,
+resident,Corporation Rd.,C 4,33,Doverhay v,James,Dyer,,
+resident,Corporation Rd.,C 4,35,Seaton v,H. F.,Beardmore,,
+resident,Corporation Rd.,C 4,37,,,,,void,The Elms-void
+cross_street,Corporation Rd.,C 4,,,,,"here is Cedar-road."
+resident,Corporation Rd.,C 4,39,Fernielee,David,Thompson,H.,
+resident,Corporation Rd.,C 4,41,Mafeking,Miss E.,Price,,
+resident,Corporation Rd.,C 4,43,Trevethin,Jas.,Finch,Wm. Jas.
+resident,Corporation Rd.,C 4,45,,,Montrose-,,void,Montrose-void
+resident,Corporation Rd.,C 4,47,Rheddin,J. C.,Huxtable,Bailey,
+resident,Corporation Rd.,C 4,49,Brookdale,Wm.,Herbert,,
+resident,Corporation Rd.,C 4,51,St. Olives,Mrs. J.,Williams,,Richards C.
+resident,Corporation Rd.,C 4,53,Glyn lyn,Wm.,Workman,,
+resident,Corporation Rd.,C 4,55,Rhosyn,Walter J.,Wood,,
+resident,Corporation Rd.,C 4,57,Briallau,Edward J.,Judd,,
+resident,Corporation Rd.,C 4,59,,W. J.,Beeston,asst. overseer,
+resident,Corporation Rd.,C 4,61,Bryndovey,F.,Huxtable,,
+resident,Corporation Rd.,C 4,63,,Albert,Shearn,Henry,
+resident,Corporation Rd.,C 4,65,Collipriest,Arthur William,Barratt,,
+resident,Corporation Rd.,C 4,67,,,Daymond & Son,grocers,
+cross_street,Corporation Rd.,C 4,,,,,"here is Harrow-road."
+resident,Corporation Rd.,C 4,73,,,Mrs. L.,Hood,,
+resident,Corporation Rd.,C 4,75,,,George,Bull,,
+resident,Corporation Rd.,C 4,77,Myrtle grove,R.,Merryweather,,
+resident,Corporation Rd.,C 4,79,Amberley house,Miss Clara,Reece,,
+resident,Corporation Rd.,C 4,81,,,A. E.,Dark,decorator,
+resident,Corporation Rd.,C 4,83,Cervin h renny,Mrs. S. J.,Gwynne,Law-
+resident,Corporation Rd.,C 4,85,Beechwood,Mrs. L.,Steed,,
+resident,Corporation Rd.,C 4,87,Norlands,James,Woods,,
+resident,Corporation Rd.,C 4,89,,,,,void,Ferndale-void
+resident,Corporation Rd.,C 4,91,Belle Vue,Wm.,Bourne,,
+resident,Corporation Rd.,C 4,93,Woodbine,Geo.,Hedley,,
+resident,Corporation Rd.,C 4,95,Denver,Walter,Bowen,,
+resident,Corporation Rd.,C 4,97,Brentburn,Walt.,Charles,,
+resident,Corporation Rd.,C 4,99,Penshurst,Wm.,Howells,,
+resident,Corporation Rd.,C 4,,,Vacant sites,,,,
+resident,Corporation Rd.,C 4,123,,,E. J.,Herbert,sculptor,
+cross_street,Corporation Rd.,C 4,,,,,"here is Eton-road."
+resident,Corporation Rd.,C 4,,PRESBYTERIAN F. M. CHAPEL,,,,
+resident,Corporation Rd.,C 4,,,Vacant sites,,,,
+cross_street,Corporation Rd.,C 4,,,,,"here is Malvern-road."
+resident,Corporation Rd.,C 4,161,Hotel Victoria,,,,
+cross_street,Corporation Rd.,C 4,,,,,"here is Llanwern-street."
+resident,Corporation Rd.,C 4,163,,,S. C.,Hockey,butcher,
+resident,Corporation Rd.,C 4,165,,,J. B.,Miller,fruiterer and grocer,
+resident,Corporation Rd.,C 4,167,,,W. J.,Edwards,genl. shop,
+resident,Corporation Rd.,C 4,169,,,Rd.,Woodruff,china dlr.,
+resident,Corporation Rd.,C 4,171,,,Charles J.,Parry,tobacconist & fancy gds,
+resident,Corporation Rd.,C 4,,,R. S. J.,Parry,printer,
+resident,Corporation Rd.,C 4,173,,,Dd.,Bevan,fish shop,
+resident,Corporation Rd.,C 4,175,,,F.,Bowen,hairdresser,
+resident,Corporation Rd.,C 4,177,,,J.,Edwards,butcher,
+cross_street,Corporation Rd.,C 4,,,,,"here is Bishton-street."
+resident,Corporation Rd.,C 4,179,Branch Stores,,Co-operative Society's,,
+resident,Corporation Rd.,C 4,181,,,Wm.,Adams,hay & corn mnr,
+resident,Corporation Rd.,C 4,183,,,,,void,
+resident,Corporation Rd.,C 4,185,,,Arthur Ed.,Poole,cnfctnr,
+resident,Corporation Rd.,C 4,187,,,Mrs. M.,Thomas,temperance bar,
+resident,Corporation Rd.,C 4,189,,,John,Parry,butcher,
+resident,Corporation Rd.,C 4,191,,,J.,Jones,hairdresser,
+resident,Corporation Rd.,C 4,193,,,George,Powell,cnfctnr.,
+cross_street,Corporation Rd.,C 4,,,,,"here is Wharf-road."
+resident,Corporation Rd.,C 4,,CHURCH OF ST. MARY THE VIRGIN,,,,
+resident,Corporation Rd.,C 4,199,,,John W. & Co.,Jones,drapers,
+resident,Corporation Rd.,C 4,201,,,,,void,
+resident,Corporation Rd.,C 4,203,,,Tom,Giles,picture frame maker,
+resident,Corporation Rd.,C 4,205,,,Wm.,Thayer,bootmaker,
+resident,Corporation Rd.,C 4,207,,,Wm. H.,Sansom,baker,
+resident,Corporation Rd.,C 4,209,,,,,void,
+cross_street,Corporation Rd.,C 4,,,,,"here is Lennard-street."
+resident,Corporation Rd.,C 4,211,Glenrosa,Wm.,Matthews,John,
+resident,Corporation Rd.,C 4,213,Glenravon,Thos.,Williams,,
+resident,Corporation Rd.,C 4,215,Blanchard,T. J.,Broadhouse,,
+resident,Corporation Rd.,C 4,217,,,J.,Pryce-Jones,Cervin h
+resident,Corporation Rd.,C 4,219,Rockleigh,Thos.,Davies,,
+resident,Corporation Rd.,C 4,221,Heywood,John,Banwell,,
+resident,Corporation Rd.,C 4,223,,,,,void,
+resident,Corporation Rd.,C 4,,,Vacant ground,,,,
+cross_street,Corporation Rd.,C 4,,,,,"here is Halstead-street."
+resident,Corporation Rd.,C 4,237,,,Bros.,Stephens,ale and porter dealers,
+resident,Corporation Rd.,C 4,239,,,Hall & Gwynn,drapers,
+resident,Corporation Rd.,C 4,241,,,S.,Gatehouse,greengcr,
+resident,Corporation Rd.,C 4,243,,,C. Chas.,James,grocer,
+resident,Corporation Rd.,C 4,245,,,Mrs. L.,Beasley,draper,
+resident,Corporation Rd.,C 4,247,,,J.,Legge,pawnbroker,
+resident,Corporation Rd.,C 4,,,Site for new hotel,,,,
+cross_street,Corporation Rd.,C 4,,,,,"here is Vivian-road."
+resident,Corporation Rd.,C 4,,,Building sites,,,,
+resident,Corporation Rd.,C 4,269,,,W. J.,Evans,bootmaker,
+resident,Corporation Rd.,C 4,271,,,,,void,
+resident,Corporation Rd.,C 4,,,Jas.,Hitchens Rd.,irnmwrkr,
+resident,Corporation Rd.,C 4,,,Thomas,Morgan,foremn,
+cross_street,Corporation Rd.,C 4,,,,,"here the railway crosses."
+resident,Corporation Rd.,C 4,273,,,Tom,Banwell,furniture remover,
+resident,Corporation Rd.,C 4,275,Grove house,John,Copp,,
+cross_street,Corporation Rd.,C 4,,,,,"here is Dudley-street."
+resident,Corporation Rd.,C 4,277,,,Geo.,Widdows,geul. dlr.,

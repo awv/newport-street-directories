@@ -1,0 +1,140 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Manley Road,,,,,,Risca-road (2nd turning.)
+resident,Manley Road,,Hollybush cot,Miss,Harry,,
+resident,Manley Road,,Ivy cottage,Geo.,Rogers,,
+cross_street,Manley Road,,,,,,Fern bank-void
+resident,Manley Road,,Glendale,Evan,Jones,,
+resident,Manley Road,,Alma villa,P. J.,Dennis,,
+resident,Manley Road,,Woodholme,Edward,Dean,,
+cross_street,Manley Road,,,,,,Vacant sites
+cross_street,Manley Road,,,,,,Clyde bank-void
+resident,Manley Road,,Hill-foot vil,Jno.,Leadbeter,,
+street,Marion Street, P.,,,,,,From James-street.
+resident,Marion Street, P.,1,Seamen's home,J.,Smith,,
+resident,Marion Street, P.,2,,Axelsen,Arnesen,water c
+resident,Marion Street, P.,3,,Nicolo,Gherbich,agent
+resident,Marion Street, P.,4,,Thomas,Cox,pilot
+resident,Marion Street, P.,5,,Jas.,Dyer,limeburner
+resident,Marion Street, P.,6,,Jno.,Adams,boiler maker
+resident,Marion Street, P.,7,,Thos.,Purnell,coal trim'r
+resident,Marion Street, P.,8,,Jabez,Jones,foreman
+resident,Marion Street, P.,9,,Mrs. Mary Ann,Essery,,
+resident,Marion Street, P.,10,,G.,Brown,marine engin'r
+resident,Marion Street, P.,11,,Alex.,Duff,boiler maker
+resident,Marion Street, P.,12,,Wm.,Davies,boatman
+resident,Marion Street, P.,13,,Wm.,Hamm,moulder
+resident,Marion Street, P.,14,,Geo.,Hughes,engine drivr
+resident,Marion Street, P.,15,,Dl.,Murphy,coal trim'r
+resident,Marion Street, P.,16,,George,Jessop,rigger
+resident,Marion Street, P.,17,,C.,Thomas,tug boat dr'vr
+resident,Marion Street, P.,18,,Saml.,Hughes,coal tri'mr
+resident,Marion Street, P.,19,,Wm.,Hurley,coal trim'r
+resident,Marion Street, P.,20,,Edmd.,Powell,boatman
+resident,Marion Street, P.,21,,Saml.,Isaac,ship carp'tr
+cross_street,Marion Street, P.,,,,,,Pottery-terrace. (return.)
+resident,Marion Street, P.,22,,Matthew,Harvey,lab'rer
+resident,Marion Street, P.,23,,Wm.,Lilly,platelayer
+resident,Marion Street, P.,24,,John,Davies,coal trim'r
+resident,Marion Street, P.,25,,Mrs. Elizabeth,Mitchell,,
+resident,Marion Street, P.,26,,Hy.,Lewis,lab'rer
+resident,Marion Street, P.,27,,Geo. D.,Groves,shipwrigt
+resident,Marion Street, P.,28,,Jas.,Scrivens,shipwright
+resident,Marion Street, P.,29,,John,Western,baker
+resident,Marion Street, P.,30,,Mrs. Ruth,Bissex,,
+resident,Marion Street, P.,31,,D.,Vaughan,enginedriver
+resident,Marion Street, P.,32,,Wm.,Parnall,moulder
+resident,Marion Street, P.,33,,Charles,Searle,labourer
+resident,Marion Street, P.,34,,Thomas,Beer,labourer
+resident,Marion Street, P.,35,,John,Travers,labourer
+resident,Marion Street, P.,36,,Job,Davies,coal trimmer
+resident,Marion Street, P.,37,,Jas.,Brankley,seaman
+resident,Marion Street, P.,38,,Jas.,Stanley,boiler maker
+resident,Marion Street, P.,39,,Henry,Morgan,labourer
+resident,Marion Street, P.,40,,Alfd.,Morgan,labourer
+street,Market Street,,,,,,High-street to Dock-street.
+cross_street,Market Street,2,,,,,Void
+resident,Market Street,3,,,W. J.,Pinnell,butcher,
+resident,Market Street,4,,,J.,Smith,earth' ware dlr
+resident,Market Street,5,,,C. E.,Thorne,grocer,
+resident,Market Street,7,,,Price & Co.,hairdressers,
+cross_street,Market Street,,,,,,here is the Arcade.
+resident,Market Street,8,,,R.,Richards,grocer,
+resident,Market Street,9,,,Elizbth.,Pullen,Black swan,
+cross_street,Market Street,,,,,,Carpenter's Arms-lane.
+resident,Market Street,10,,,Henry,Flook,wholesale fishmonger & fruiterer
+resident,Market Street,11,,,W. J.,Williams,Cross Keys
+resident,Market Street,12,,,Wm.,Jones,general dealer
+cross_street,Market Street,,,,,,here is Dock-st. (return.)
+resident,Market Street,,,Market House,Hy.,Samuel,bootmaker,
+resident,Market Street,,,Trout Inn,John,Williams,,
+resident,Market Street,,,James,Carver,hairdresser,
+street,Marshes Road,,,,,,From 69 High-street to Malpas road.
+cross_street,Marshes Road,,,,,,NEW ENTRANCE-
+cross_street,Marshes Road,,,,Castle chambers,,,void
+resident,Marshes Road,,,,,,Daniell & Jones,iron merchants &c. Castle wharf
+resident,Marshes Road,,,,Castle Brewery,,,Searle & Herring, Ltd. proprietors
+resident,Marshes Road,,,,Castle Hotel,Jos.,Rees,,
+cross_street,Marshes Road,,,,,,entrance to Castle precincts.
+resident,Marshes Road,,,,Castle precincts,T. G.,Marr,E. Valleys Inn
+resident,Marshes Road,,,,,,Geo. W. trades Supply stores,building dealers, Mill stores
+resident,Marshes Road,,,,,,Newcombe Bros.,hay & corn
+cross_street,Marshes Road,,,,,,here is Mill-street.
+resident,Marshes Road,,,,,,Flook's herring stores,
+resident,Marshes Road,,,,,,Batten & Co.,wheelwrights
+resident,Marshes Road,,,,,,W. T. Sier,monumental and architectural stoneworker
+resident,Marshes Road,,,,Usk Shore Flour Mills,H. J.,Parnall,proprietor
+resident,Marshes Road,1,,Station Inn,W. J.,Wixcey,,
+resident,Marshes Road,2,,,Wm.,Marsh,labourer,
+cross_street,Marshes Road,,,,,,here are Brown's-bldgs.
+resident,Marshes Road,,,,,,B.,Farmer,saddler,
+resident,Marshes Road,,,,,,Mary Ann,Phillips,,
+resident,Marshes Road,,,,,,Wm.,Glething,roller,
+resident,Marshes Road,,,,,,Edward,Major,mason,
+resident,Marshes Road,3,,,G.,Stevens,Hy.clerk,v.o.
+resident,Marshes Road,4,,,Wm.,Rappel,mason,
+resident,Marshes Road,5,,,Wm.,Gatehouse,,
+resident,Marshes Road,6,,Moulders Arms,Edward,Evans,,
+resident,Marshes Road,,Moulders Arms,Edward,Thomas,,
+resident,Marshes Road,7,,Moulder's Arms-ter.,R. B.,Millington,fishman
+resident,Marshes Road,8,,,Thos.,Hodder,moulder,
+resident,Marshes Road,9,,,Mrs. Ellen,Bannister,,
+resident,Marshes Road,10,,,Martha Ann,Holder,,
+resident,Marshes Road,11,,,Frank,Rawle,,
+resident,Marshes Road,12,,,Edwd.,Bartlett,sailor,
+resident,Marshes Road,13,,,Thos.,Gay,shoemaker,
+cross_street,Marshes Road,14,,,,,Void
+resident,Marshes Road,15,,,Richd.,Chilton,labourer,
+resident,Marshes Road,16,,,Hy.,Hobbs,coachman,
+resident,Marshes Road,17,,Winning Horse,J.,Cavill,,
+cross_street,Marshes Road,18,,,,,Void
+cross_street,Marshes Road,19,,,,,Void
+resident,Marshes Road,20,,,Joseph,Thomas,mason,
+resident,Marshes Road,21,,,Elizabeth,Dowling,,
+resident,Marshes Road,22,,,Mrs. B.,Bowen,laundress,
+resident,Marshes Road,23,,,Geo.,Prior,medical staff,
+resident,Marshes Road,24,,,Geo.,Williams,c. w. k.,
+resident,Marshes Road,25,,,Mrs. Jane,Smith,,
+resident,Marshes Road,26,,,Miss Sarah,Morgan,,
+resident,Marshes Road,27,,,Mrs. Sarah,Bevan,,
+resident,Marshes Road,28,,,Chas.,Prescott,dos works,
+resident,Marshes Road,29,,,Wm.,Parry,potter,
+resident,Marshes Road,30,,,Mary,Bowen,,
+resident,Marshes Road,31,,,Mary Ann,Martin,widow,
+resident,Marshes Road,32,,,Emma,Derham,widow,
+resident,Marshes Road,33,,,John,Harding,mason,
+resident,Marshes Road,34,,,Jno.,Williams,labourer,
+resident,Marshes Road,35,,,Arthur,Evans,platelayer,
+resident,Marshes Road,36,,,James,Thomas,shop,
+resident,Marshes Road,37-38,,Rising Sun,R. T.,Mann,,
+resident,Marshes Road,39,,,Geo.,Greenhaf,shop,
+resident,Marshes Road,40,,,Chas.,Mathin,labourer,
+resident,Marshes Road,41,,,Jno.,Payne,blacksmith,
+resident,Marshes Road,42,,,Edwin,Clayton,platelayr,
+resident,Marshes Road,43,,,Chas.,Rossiter,engineer,
+resident,Marshes Road,44,,,Jas.,Griffiths,labourer,
+resident,Marshes Road,45,,,Michl.,Mahoney,lab'rer,
+resident,Marshes Road,46,,,Jos.,Power,labourer,
+resident,Marshes Road,47,,,Denis,McCarthy,lab'rer,
+resident,Marshes Road,48,,,Chas.,Newton,smith,
+resident,Marshes Road,49,,,Alfd.,Preece,labourer,
+resident,Marshes Road,50,,,Wm.,Price,haulier,

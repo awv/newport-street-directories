@@ -1,0 +1,166 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,FIELDS ROAD,,,,,,C 6
+cross_street,FIELDS ROAD,,,,,,From Mill-street to the Fields
+cross_street,FIELDS ROAD,,,,,,[LEFT HAND SIDE.]
+resident,FIELDS ROAD,,,Enville house,Miss I.,Patterson,,
+resident,FIELDS ROAD,,,St. Mary's Lodge,Thos. E.,Watson,J.P.,Drayton High School
+cross_street,FIELDS ROAD,,,,,,(RIGHT HAND SIDE.)
+resident,FIELDS ROAD,,,COUNTY COUNCIL OFFICES Girls' entrance to Intermediate School,,,,
+resident,FIELDS ROAD,1,,Solar Lodge,John Hy.,Wagstaff,,
+resident,FIELDS ROAD,2,,Ty-Cefn,Alfd. W.,Thomas,,
+resident,FIELDS ROAD,3,,St. Maur,Charles,Joyce,,
+resident,FIELDS ROAD,4,,St.Monton,Tom,Stephens,,
+resident,FIELDS ROAD,5,,Pen-ybryn,Rev. A. T.,Jones,,
+resident,FIELDS ROAD,6,,Highbank,D.A.,Simmonds,,
+resident,FIELDS ROAD,7,,Glen Lyn,H. G.,Lloyd,,
+cross_street,FIELDS ROAD,,,,,,here is St. Mark's-crescent
+resident,FIELDS ROAD,8,,Ty Clyd,Rev. T. H.,Williams,,
+resident,FIELDS ROAD,9,,Kingsdown,Wm.,Hayman,,
+resident,FIELDS ROAD,10,,Kirkdale house,J.,Carter,,
+resident,FIELDS ROAD,11,,,Lionel,Harris,,
+resident,FIELDS ROAD,12,,Laurel Bank,Cecil J.,Tanchan,,
+resident,FIELDS ROAD,13,,Kaboh,,Dyson,,
+resident,FIELDS ROAD,14,,St. Iven,J. Stiven,Barrie,,
+resident,FIELDS ROAD,15,,Arthur Leighton,Arthur,Stevens,,
+resident,FIELDS ROAD,16,,Brentor,W.,Moore,builder,
+resident,FIELDS ROAD,17,,Tresco,John,Thomas,,
+resident,FIELDS ROAD,,,,,,Vacant sites
+resident,FIELDS ROAD,17A,,Staplegrove,Mrs. Sarah J.,Walters,,
+resident,FIELDS ROAD,,,E. Hope,Schiele,,
+resident,FIELDS ROAD,18,,Newlands,John,Rosser,,
+resident,FIELDS ROAD,19,,Tynewydd,John,Hazell,,
+resident,FIELDS ROAD,20,,Warley,Mrs. F.,Shrubsole,,
+resident,FIELDS ROAD,21,,Claremont,John,Williams,,
+resident,FIELDS ROAD,21A,,Gatacare,J. H.,Murrow,,
+resident,FIELDS ROAD,22,,Winsford,R. S.,Colquhoun,,
+resident,FIELDS ROAD,23,,Cefn Coch,W.,Phillips,,
+cross_street,FIELDS ROAD,,,,,,here is Godfrey-road
+cross_street,FIELDS ROAD,,,,,,here is Fields Park-road
+resident,FIELDS ROAD,24,,Redcliffe,G. F.,Lovell,,
+resident,FIELDS ROAD,25,,Treveila,Thos.,James,,
+resident,FIELDS ROAD,26,,Kingarth,Percival Raymond,Gibbs,,
+resident,FIELDS ROAD,27,,Morningside,W. H. P.,Scanlon,,
+resident,FIELDS ROAD,28,,Tremena,W. H.,Blackall,,
+resident,FIELDS ROAD,29,,Pembroke house,Mrs. Rowland,Alger,,
+resident,FIELDS ROAD,30,,,G. Llewellyn,Lloyd,,
+resident,FIELDS ROAD,31,,Colyton,E. H.,Fawckner,F.R.I.B.A.,
+resident,FIELDS ROAD,32,,,Mrs. M.,Owen,,
+resident,FIELDS ROAD,33,,Clovelly,Mrs. S.,Kendrick,,
+resident,FIELDS ROAD,34,,Parkhurst,Fredk. G.,Dawson,,
+resident,FIELDS ROAD,35,,Cheddleton,C. H.,Reed,,
+resident,FIELDS ROAD,36,,,Fred. C.,Jones,Greylands,
+resident,FIELDS ROAD,37,,,Mrs. G.,Hammond,Briarglen,
+resident,FIELDS ROAD,38,,,John F.,Jupp,Mossbank,
+resident,FIELDS ROAD,39,,,Charles,Joyce,Elmhurst,
+resident,FIELDS ROAD,40,,,C. M.,Ayliffe,Charleville,
+resident,FIELDS ROAD,41,,,Ralph,Burge,Kendal,
+resident,FIELDS ROAD,42,,,Walter W.,Ware,Athelney,
+resident,FIELDS ROAD,43,,,Ernest,Joyce,,
+resident,FIELDS ROAD,44,,,Mrs. M.,Sansom,Henlade,
+resident,FIELDS ROAD,45,,,Peter,Evans,Glyn-Aeron,
+resident,FIELDS ROAD,46,,,E. T.,Thornley,Chisworth,
+street,FILEY ROAD,,,,,,
+cross_street,FILEY ROAD,,,,,,From 17 Stockton-road
+cross_street,FILEY ROAD,,,,,,[LEFT HAND SIDE.]
+resident,FILEY ROAD,1,,,Henry,Huggins,assistant,
+resident,FILEY ROAD,3,,,Tom,Marsh,,
+resident,FILEY ROAD,5,,,Isaac,Gething,,
+resident,FILEY ROAD,7,,,W. Gordon,Roberts,grocer,
+resident,FILEY ROAD,9,,,Henry J.,Victory,gas insp,
+resident,FILEY ROAD,11,,,Albt. S.,Rudd,postman,
+cross_street,FILEY ROAD,,,,,,(return)
+resident,FILEY ROAD,,,,,,Vacant sites
+street,FORD STREET,,,,,,C 5
+cross_street,FORD STREET,,,,,,From 9 Tunnel-terrace
+cross_street,FORD STREET,,,,,,[LEFT HAND SIDE.]
+resident,FORD STREET,1,,,Arthur,Hart,mason,
+resident,FORD STREET,2,,,Henry,Smith,blacksmith,
+resident,FORD STREET,3,,,Henry John,Hart,G.W.R.,
+resident,FORD STREET,4,,,Wm. A.,Stephens,tipper,
+resident,FORD STREET,5,,,Fredk. Jos.,Bishop,,
+cross_street,FORD STREET,,,,,,(return)
+resident,FORD STREET,6,,,E. J.,Wheeler,cab proprtr,
+resident,FORD STREET,7,,,Wm.,Baldwin,ironworker,
+resident,FORD STREET,8,,,Henry,Hopcroft,,
+resident,FORD STREET,9,,,H. J.,Selwood,coachman,
+street,FOTHERGILL STREET,,,,,,D 4
+cross_street,FOTHERGILL STREET,,,,,,From 54 Emlyn-street
+cross_street,FOTHERGILL STREET,,,,,,[RIGHT HAND SIDE.]
+resident,FOTHERGILL STREET,,,Jewitt J. D. & Son,scale mkrs,,,,
+resident,FOTHERGILL STREET,1,,,Eli,Butt,carter,
+resident,FOTHERGILL STREET,2,,,John,Murray,labourer,
+resident,FOTHERGILL STREET,3,,,Frank,Manship,,
+resident,FOTHERGILL STREET,,,,Forward Movement Central Hall back entrance,,,,
+resident,FOTHERGILL STREET,25,,,Henry,Tanner,,
+street,FOTHERINGHAM PLACE,,,,,,
+cross_street,FOTHERINGHAM PLACE,,,,,,From Fothergill-street
+cross_street,FOTHERINGHAM PLACE,,,,,,[LEFT HAND SIDE.]
+resident,FOTHERINGHAM PLACE,1,,,James,McLaren,gardener,
+resident,FOTHERINGHAM PLACE,1A,,,Wm. John,Quance,carprtr,
+resident,FOTHERINGHAM PLACE,3,,,Geo.,Fisher,carpenter,
+resident,FOTHERINGHAM PLACE,5,,,Herbert,Keating,trimmer,
+resident,FOTHERINGHAM PLACE,7,,,Wm.,Truman,engineman,
+resident,FOTHERINGHAM PLACE,9,,,Fredk.,West,labourer,
+resident,FOTHERINGHAM PLACE,11,,,Harry,Sidney,,
+resident,FOTHERINGHAM PLACE,13,,,Mrs. Elizabeth,Casey,,
+resident,FOTHERINGHAM PLACE,,,,Milward Hy.,Wade,,
+cross_street,FOTHERINGHAM PLACE,,,,,,(return)
+resident,FIELDS ROAD,12,,,Mrs. Elizabeth,Sheppard,,
+resident,FIELDS ROAD,10,,,Geo.,Taylor,eng. driver,
+resident,FIELDS ROAD,8,,,Wm. J.,Hunt,eng. driver,
+resident,FIELDS ROAD,6,,,Thos. Wm.,Green,M. engine driver,
+resident,FIELDS ROAD,4,,,Wm. Hy.,Sheppard,eng.dr,
+resident,FIELDS ROAD,2,,,George,Ellis,timekeeper,
+street,FRANCIS STREET,,,,,,E 5
+cross_street,FRANCIS STREET,,,,,,From 19 Alma-st. to Lewis-st.
+cross_street,FRANCIS STREET,,,,,,[LEFT HAND SIDE.]
+resident,FRANCIS STREET,1,,,John B.,Morgan,,
+resident,FRANCIS STREET,2,,,Francis,Burston,George,
+resident,FRANCIS STREET,3,,,Nicholas,Collins,weighmn,
+resident,FRANCIS STREET,4,,,Thos.,Crandon,striker,
+resident,FRANCIS STREET,5,,,Fredk.,Evans,decorator,
+resident,FRANCIS STREET,,,,Jewish Synagogue,,,,
+cross_street,FRANCIS STREET,,,,,,(return)
+resident,FRANCIS STREET,6,,,Frank,Bowen,fitter,
+resident,FRANCIS STREET,7,,,Mrs. Jane,Davies,,
+resident,FRANCIS STREET,8,,,Geo. H.,Knight,coal mer.,
+resident,FRANCIS STREET,9,,,Miss T.,Jones,,
+resident,FRANCIS STREET,,,,Wm.,Whelton,,
+street,FRANK STREET,,,,,,C 4
+cross_street,FRANK STREET,,,,,,From Bond-st., East Usk-rd.
+cross_street,FRANK STREET,,,,,,[LEFT HAND SIDE.]
+resident,FRANK STREET,1,,,James,Blackler,groom,
+resident,FRANK STREET,2,,,Arthur,Lee,haulier,
+resident,FRANK STREET,3,,,Tim,Coughlin,lamplighter,
+resident,FRANK STREET,4,,,Mrs. Elizabeth,Rammell,,
+resident,FRANK STREET,5,,,John,Brunt,butcher,
+cross_street,FRANK STREET,,,,,,(return)
+resident,FRANK STREET,6,,,William,Donaldson,,
+resident,FRANK STREET,7,,,Mrs. Ellen,Pinnell,,
+resident,FRANK STREET,8,,,Frank,Sheppard,sht wghr,
+resident,FRANK STREET,9,,,Thomas,Sallis,G.W.R.,
+resident,FRANK STREET,10,,,Isaac,Bailey,police,
+resident,FRANK STREET,11,,,Robt.,Barnes,G.W.R.guard,
+resident,FRANK STREET,12,,,Gilbert I.,Jones,plumber,
+resident,FRANK STREET,13,,,Robert,Jones,blacksmith,
+resident,FRANK STREET,14,,,Percy,Lewis,foundryman,
+street,FREDERICK STREET,,,,,,E 4
+cross_street,FREDERICK STREET,,,,,,From 80 Commercial-road
+resident,FREDERICK STREET,1-2,,,,Void,,
+resident,FREDERICK STREET,3,,,Austin,Thomas,labourer,
+resident,FREDERICK STREET,4,,,Mrs. Alice,Price,,
+resident,FREDERICK STREET,5,,,John,Hayden,labourer,
+resident,FREDERICK STREET,6,,,John,Regan,seaman,
+resident,FREDERICK STREET,7,,,James,Woods,,
+resident,FREDERICK STREET,8,,,,Void,,
+resident,FREDERICK STREET,9,,,Mrs. Emma,Williams,,
+resident,FREDERICK STREET,,,,S.,Phillips,bricklayer,
+resident,FREDERICK STREET,10,,,David,Cashman,striker,
+resident,FREDERICK STREET,11,,,Robert,Breeds,labourer,
+resident,FREDERICK STREET,12,,,Wm.,Hopkins,haulier,
+resident,FREDERICK STREET,13,,,Geo.,Pritchard,labourer,
+resident,FREDERICK STREET,14,,,Mrs. Hannah,Stowells,,
+resident,FREDERICK STREET,,,,John,McCarthy,labourer,
+resident,FREDERICK STREET,15,,,John,Sullivan,coal trimr,
+resident,FREDERICK STREET,16,,,Aug.,Thompson,labourer,
+resident,FREDERICK STREET,17,,,Mrs. Mary Ann,Thomas,,

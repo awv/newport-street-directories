@@ -1,0 +1,146 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Bedford Road,,,,,,continued
+resident,Bedford Road,4,Glengariff,Rev. F. Lloyd,Nathan,,
+resident,Bedford Road,6,,Robert,Hurley,,Rockwood
+resident,Bedford Road,,The Laurels,Ed. S.,Hadley,,
+resident,Bedford Road,23,Wavertree,Wm.,Harris,,
+cross_street,Bedford Road,,,,,,here is Gibbs-road
+resident,Bedford Road,25,,James,Lee,carpenter,
+resident,Bedford Road,,BEECHWOOD PARK,,,,,
+resident,Bedford Road,27,,Ed. S.,Hadley,,The Laurels
+resident,Bedford Road,29,,L.,Cossick,,Pembroke ho
+resident,Bedford Road,,Vacant sites,,,,
+cross_street,Bedford Road,,,,,,here is Harrow-road.
+resident,Bedford Road,31,,Wm.,Lawrence,,Selwood
+resident,Bedford Road,33,,T. J.,Jones,,Glanwern
+resident,Bedford Road,35,,H. M.,Williams,,Hatherleigh
+resident,Bedford Road,37,,Math.,Brown,,Northfield
+resident,Bedford Road,39,Bronial house,Thos.,Monkley,,
+resident,Bedford Road,41,,Benj.,Vaughan,,Victoria
+resident,Bedford Road,43,,William,Virgo,,
+resident,Bedford Road,45,,Anthony,Pugsley,,
+resident,Bedford Road,47,,Walter Chas.,Eagle,,
+resident,Bedford Road,49,,Walter,Thomas,,
+resident,Bedford Road,51,,David,Jones,,
+resident,Bedford Road,53,,Daniel,Bowen,tailor,
+resident,Bedford Road,55,,John,Jones,fitter,
+resident,Bedford Road,57,,Byrou,Bown,carpenter,
+resident,Bedford Road,59,,John,Pugsley,blacksmith,
+cross_street,Bedford Road,,,,,,(return)
+resident,Bedford Road,46,,Edward Chas.,White,,
+resident,Bedford Road,44,,Henry,Langmaid,,
+resident,Bedford Road,42,,James,Horsfield,,
+resident,Bedford Road,40,,Jno. G.,Gould,,Highbury
+resident,Bedford Road,38,,Henry,Rees,,Llandyfan
+resident,Bedford Road,36,Ellesmere,Mrs. E.J.,Lawrence,,
+resident,Bedford Road,34,,Sydney,Goodman,,Hellow
+resident,Bedford Road,32,,W. H.,Budding,,Clifford h
+resident,Bedford Road,30,,George,Weare,,Avon
+resident,Bedford Road,28,,W.,Pither,,Marsden
+resident,Bedford Road,26,,Thos.,Price,,Cinderford
+resident,Bedford Road,24,,Francis,Harris,,Sydenham
+resident,Bedford Road,22,,M. C.,Dayman,,Kimberley
+resident,Bedford Road,20,,F. G.,Moreton,,Durban
+resident,Bedford Road,18,,W. J.,Langmaid,,Appleby
+resident,Bedford Road,16,,H.L.,Hopkins,,Standerton
+cross_street,Bedford Road,,,,,,here is Harrow-road.
+resident,Bedford Road,14,,G. W.,Moores,,Bedford ho
+resident,Bedford Road,12,,P. L.,Pugsley,,
+resident,Bedford Road,10,,Miss,Wattee,,
+resident,Bedford Road,8,,Wm. H.,Sully,,Hemingford
+resident,Bedford Road,6,,Wm.,Edwards,,Newton
+resident,Bedford Road,4,,Jas. J.,Morgan,,Seaton ho
+resident,Bedford Road,2,,Mrs. Ann,Jones,,Clovelly
+street,Beechwood Road,E 2,,,,,Chepstow-road to Christchurch-road.
+cross_street,Beechwood Road,,,,,,[RIGHT HAND SIDE.]
+resident,Beechwood Road,2,,Job,Hughes,,Kerry Croy
+street,Belle Vue Lane,E 5,,,,,Cardiff-road to Friars-road.
+street,Belvedere Terrace,B4,,,,,Barrack-hill to Hopcfield.
+cross_street,Belvedere Terrace,,,,,,[LEFT HAND SIDE.]
+resident,Belvedere Terrace,2,,Charles,Whiting,mason,
+resident,Belvedere Terrace,3,,Mrs. M. A.,Woodliffe,,
+resident,Belvedere Terrace,4,,Thos.,Fowler,hammerman,
+resident,Belvedere Terrace,5,,Joseph,Woodliffe,fitter,
+resident,Belvedere Terrace,6,,William Edwin,Wall,,
+resident,Belvedere Terrace,7,,Chas.,Collins,bridge pntr,
+resident,Belvedere Terrace,8,,Patk.,Reardon,eng. drivr,
+resident,Belvedere Terrace,9,,Mrs. Margaret,Rowlands,,
+resident,Belvedere Terrace,10,,Mrs. Mary A.,Voyle,,
+resident,Belvedere Terrace,11,,Miss C.,Shea,,
+resident,Belvedere Terrace,12,,Jos. H.,Baughan,timekpr,
+resident,Belvedere Terrace,13,,Mrs. Caroline J.,Peebles,,
+resident,Belvedere Terrace,14,,Miss,Whiting,,
+resident,Belvedere Terrace,15,,Henry,Snook,mason,
+resident,Belvedere Terrace,16,,John,Fortune,joiner,
+cross_street,Belvedere Terrace,,,,,,(return)
+resident,Belvedere Terrace,17,,Robert,Gomer,mason,
+resident,Belvedere Terrace,18,,Levi,Dare,gardener,
+resident,Belvedere Terrace,19,,Thomas,Farr,G.W.R.,
+resident,Belvedere Terrace,20,,Hy.,Ashman,timekeeper,
+resident,Belvedere Terrace,21,,Mrs. Mary,Stevens,,
+resident,Belvedere Terrace,22,,William,Smart,mason,
+resident,Belvedere Terrace,23,,A. G.,Colborne,police sgt,
+resident,Belvedere Terrace,24,,Albert,Slade,G.W.R.,
+resident,Belvedere Terrace,25,,William A.,Martin,clerk,
+resident,Belvedere Terrace,26,,John,Vawer,labourer,
+resident,Belvedere Terrace,27,,Mark,Chambers,smith,
+resident,Belvedere Terrace,28,,James,Jones,carpenter,
+resident,Belvedere Terrace,29,,Geo.,Woodfield,mechanic,
+resident,Belvedere Terrace,30,,Wm.,Morgan,collector,
+resident,Belvedere Terrace,31,,Void,,,
+street,Beresford Road,C 4,,,,,Grafton-rd. to Athletic Ground
+resident,Beresford Road,1,,Arthur,Rich,4th v.B.S.W.B.,
+resident,Beresford Road,2,,W. H.,Davey,,Maida vale
+resident,Beresford Road,3,,W.J.,Wall,,Allerton house
+resident,Beresford Road,4,,Mrs. Ann,Shepherd,,
+resident,Beresford Road,5,,Evan,Lloyd,,
+resident,Beresford Road,6,,Wm.,Evans,,Doldowlod
+street,Bilston Street,E 3,,,,,Off Corporation-road.
+resident,Bilston Street,2,,Austin,Redman,ironworkr,
+resident,Bishop Street,4,,Fdk. J.,Doherty,ironworker,
+resident,Bishop Street,6,,Robert,Richardson Rd.,Wm.,
+resident,Bishop Street,8,,Mrs. G.,Thomas,,
+street,Bishop Street,C 3,,,,,Church-road to Caerleon-road
+cross_street,Bishop Street,,,,,,[LEFT HAND SIDE.]
+resident,Bishop Street,1,ST. MATTHEW'S MISSION ROOM,,,,
+resident,Bishop Street,2,,John,Johns,roadman,
+resident,Bishop Street,3,,Edward,Clague,labourer,
+resident,Bishop Street,4,,Thos.,Cartmell,cellarman,
+resident,Bishop Street,5,,Chas. Hy.,Samuels,G.W.R.,
+resident,Bishop Street,6,,Wm. H.,Bebell,roadman,
+resident,Bishop Street,7,,Thomas,Berry,mason,
+resident,Bishop Street,8,,Charles,Hurst,hawker,
+cross_street,Bishop Street,,,,,,here is Junction-road.
+resident,Bishop Street,9,,Mrs. Wm.,Harris,shop,
+resident,Bishop Street,10,,Geo. Alex.,Wiltshire,dk.,
+resident,Bishop Street,11,,Hy.,Shimell,carpenter,
+resident,Bishop Street,12,,Wm. Jas.,Owen,butcher,
+resident,Bishop Street,13,,Wm.,Waters,brakesman,
+resident,Bishop Street,14,,Thos.,Smith,ship's stew'd,
+resident,Bishop Street,15,,Hy.,Samuels,bootmaker,
+cross_street,Bishop Street,,,,,,(return)
+resident,Bishop Street,18,,Andrew,Jewell,,
+resident,Bishop Street,19,,Mrs. Thomas,Kift,,
+resident,Bishop Street,20,,Geo. H.,Bush,billdistrbtr,
+resident,Bishop Street,21,,Henry,Whitcombe,,
+resident,Bishop Street,22,,William,Gillard,,
+resident,Bishop Street,23,,Edwin,Richards,stoker,
+resident,Bishop Street,24,,James,Hourihane,,
+resident,Bishop Street,25,,William,Harris,labourer,
+resident,Bishop Street,26,,Frank,Gale,shop,
+cross_street,Bishop Street,,,,,,here is Junction-road.
+resident,Bishop Street,27,,Mrs. Mary,Harris,,
+resident,Bishop Street,28,,Wm.,Howells,labourer,
+resident,Bishop Street,29,,Harold,Sims,labourer,
+resident,Bishop Street,30,,Thomas,Williams,dock labourer,
+resident,Bishop Street,31,,Wm. Hy.,Gabb,labourer,
+resident,Bishop Street,32,,Wm. Hy.,Bond,warehsn,
+resident,Bishop Street,33,,Hy.,Baldwin,ironfounder,
+resident,Bishop Street,,Gooding's bakehouse,W. J.,Gooding,,
+street,Bishopsgate Par.,D 4,,,,,From 200 Commercial-road.
+resident,Bishopsgate Par.,1,,John,James,labourer,
+resident,Bishopsgate Par.,2,,Frank,Hunt,mason,
+resident,Bishopsgate Par.,3,,Albert,Merrifield,haulier,
+resident,Bishopsgate Par.,4,,Chas.,Powell,labourer,
+resident,Bishopsgate Par.,5,,John,Lewis,guard,
+resident,Bishopsgate Par.,6,,Joseph,Hurn,salesman,

@@ -1,0 +1,120 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,Shaftesbury Street,8,,,,,Clarence Wharf Saw Mills Co. Ltd. office
+resident,Shaftesbury Street,6,Shaftesbury Restaurant,,,,
+street,Sidney Street, B.,,,,,,"From 17 Tunnel-terrace."
+resident,Sidney Street, B.,1,,George,Critchley,,
+resident,Sidney Street, B.,2,,Henry,Pope,porter,
+resident,Sidney Street, B.,3,,Edmund,Hart,guard,
+resident,Sidney Street, B.,4,,William, senr.,Hart,,
+resident,Sidney Street, B.,5,,Jas.,Sellick,factory hand,
+resident,Sidney Street, B.,6,,Mary Ann,Leach,Mrs,
+street,Skinner Street,,,,,,"From 33 High-street."
+resident,Skinner Street,,GLO'STER BANK CHAMBERS,,,,,See 33 High-street.
+resident,Skinner Street,2,,J. & Son,Crosfield,,depôt
+resident,Skinner Street,3,,Albert,Lonnon,tailor and breeches maker,
+resident,Skinner Street,4,,Geo.,Dawson,hairdresser,
+resident,Skinner Street,5,Broomhalls Tea Co.'s stores,,,,
+resident,Skinner Street,6,,,,,Newport Rubber Co.
+resident,Skinner Street,7,,H. Edgar,Smith,merch't,
+resident,Skinner Street,,HIGHBURY CHAMBERS,,,,,
+resident,Skinner Street,8,,& Herbert,Gardner,soli'trs,
+resident,Skinner Street,,,Caerleon Urban District Council,Offices of,,,
+resident,Skinner Street,,,R.,Weights,accountant,
+resident,Skinner Street,,,J. W. & Co.,Harvey,auctioneers & marine brokrs,
+resident,Skinner Street,,,J. H.,Hearsey,estate agt,
+resident,Skinner Street,9,,Dyne & Son,Steel,bridge and roof engineers,
+resident,Skinner Street,,,,Worthington Pumping Engine Co.,branch office,
+resident,Skinner Street,10,,& Stephens,Narbett,saddlers & harness makers,
+resident,Skinner Street,,STOW CHAMBERS,,,,,
+resident,Skinner Street,11,,(Conyers) & Son,Kirby,civil engineers architects surveyors etc,,
+resident,Skinner Street,,,T. C. & C.,Graham,colliery agents,
+resident,Skinner Street,12,,W. E. & Co., Ltd.,Vaughan,steam dyers,
+resident,Skinner Street,13,,H. & Son, Ltd.,Pooley,weighing machine mftrs,
+resident,Skinner Street,,BOROUGH CHAMBERS,,,,,
+resident,Skinner Street,,,Alfred,Searle,solicitor,
+cross_street,Skinner Street,,,,,,"here is Dock-street."
+resident,Skinner Street,,SKINNER STREET CHAMBERS,,,,,
+resident,Skinner Street,14,,R. & Co.,Parnall,millers and corn merchants,
+resident,Skinner Street,,,Francis, Stanton, and Parnall,Morgan,solicitors,
+resident,Skinner Street,"15, 16, 17",,& Co., Ltd.,Smith,corn merchants and condiment manufact'rs,
+resident,Skinner Street,18,,,,,Void
+resident,Skinner Street,19,,J.,Herbert,tallow chandler,
+resident,Skinner Street,20,Windsor Castle,W. E.,Jones,,
+cross_street,Skinner Street,,,,,,"here is Dock-street."
+resident,Skinner Street,21,Westgate Foundry and Ironworks,W. A. and Co., Ltd.,Baker,,
+cross_street,Skinner Street,,,,,,"here is Skinner-lane."
+resident,Skinner Street,22,,,,,Void
+street,Slipway Cottages,,,,,,"From Nash-road."
+resident,Slipway Cottages,1-2,,Henry,Wedlake,mangr,
+resident,Slipway Cottages,3,,William,Fife,foreman,
+resident,Slipway Cottages,7,,Morgan,Jones,dockman,
+resident,Slipway Cottages,10,,George,Hughes,eng. drvr,
+resident,Slipway Cottages,12,,Martha,Edwards,Mrs,
+street,Slade Street,,,,,,"Left-hand side Corporation-rd"
+resident,Slade Street,,,,,,House building
+resident,Slade Street,,,,,,do
+resident,Slade Street,,,,,,do
+resident,Slade Street,,,,,,do
+resident,Slade Street,,,Richard,Guest,mill hand,
+resident,Slade Street,,,Robert,Loveridge,,
+street,Soho Street,,,,,,"Dudley-street to Tipton-street."
+street,Somerset Road,,,,,,"Caerleon-rd. to Christchurch-rd"
+resident,Somerset Road,1,,John George,Smith,Rev,
+resident,Somerset Road,2,,Harry,Price,engineer,
+resident,Somerset Road,3,,William,Kershaw,,
+resident,Somerset Road,4,Vaindre ho,R. S.,Roberts,,
+resident,Somerset Road,5,Bovington,Wm.,Packham,,
+resident,Somerset Road,6,Sunnyside,Wm.,Blow,,
+resident,Somerset Road,7,Montpelier,Wm.,Ruddock,,
+resident,Somerset Road,8,,Thomas Alfred,Grove,,
+resident,Somerset Road,9,,G. H.,Bannister,teacher,
+resident,Somerset Road,10,,Edward T.,Thornley,,
+resident,Somerset Road,11,,James,Jones,ironmonger,
+resident,Somerset Road,12,,Thomas,Lewis,Rev,
+resident,Somerset Road,13,,George N.,Jesseman,,
+resident,Somerset Road,14,Rylston,F.,Bunce,Mrs,
+resident,Somerset Road,15,,John,Grant,,
+resident,Somerset Road,16,Lyncombe,Edgar,Twist,,
+resident,Somerset Road,17,,George,Walker,,
+resident,Somerset Road,18,Langland house,,,,
+resident,Somerset Road,19,Ingledene,J. H.,Firbank,,
+resident,Somerset Road,,Brisbane ho,G.,Hollingworth,,
+resident,Somerset Road,,Victoria house,Edward,Love,,
+cross_street,Somerset Road,,,,,,"here is Ronald-road."
+resident,Somerset Road,,Staunton ho,F. T.,Halford,,
+resident,Somerset Road,,Clevedon h,Misses,Needham,,
+resident,Somerset Road,,River view,David,Williams,,
+resident,Somerset Road,,,,,,House building
+resident,Somerset Road,,,,,,do
+cross_street,Somerset Road,,,,,,"here is Leicester and Christchurch-roads."
+cross_street,Somerset Road,,,,,,"(return.)"
+resident,Somerset Road,,Llanfoist,Wm.,Lewis,engin'r,
+resident,Somerset Road,,Hilsfield,W. E.,Ballantyne,,
+resident,Somerset Road,,Hillthorpe,James,Hodges,,
+resident,Somerset Road,,Los Angeles,Hubert,James,,
+resident,Somerset Road,,Talworth ho,R.,Flint,Mrs,
+resident,Somerset Road,,,A. C.,Flint,music teacher,
+resident,Somerset Road,,Fair view,Wm. C.,Freeman,,
+resident,Somerset Road,,The Grove,David,James,,
+resident,Somerset Road,,,J. W.,Brunker,,
+resident,Somerset Road,,,Geo.,Martin,cabinet maker,
+resident,Somerset Road,,Pendennis,Robt.,Burnicle,,
+resident,Somerset Road,,Wellington,Benjn.,Turner,,
+resident,Somerset Road,,Armprior,W. M.,Spickett,,
+resident,Somerset Road,,Glencorse,Isaac,Wyber,,
+resident,Somerset Road,,Sefton house,Edward,Cook,,
+resident,Somerset Road,,Hollis ho,Alfd. Jas.,Herbert,,
+resident,Somerset Road,,Vernon house,John,Tatchell,,
+street,Somerton Road,,,,,,"From ""Cross Hands,"" Chepstow-road to Nash-road."
+resident,Somerton Road,,Somerset cot,Hy.,Shorney,,
+resident,Somerton Road,,Field view,Wm. M.,Swanson,,
+resident,Somerton Road,,Melbourne ho,S. R.,Whiting,,
+cross_street,Somerton Road,,,,,,"here is Mansel-street."
+resident,Somerton Road,,,Walter,Carter,builder,
+resident,Somerton Road,,Villa void,,,,
+resident,Somerton Road,,,,,,do
+resident,Somerton Road,,,Rees,Howells,,
+cross_street,Somerton Road,,,,,,"here is Llewellin-street."
+resident,Somerton Road,,Somerton house,F.,Pinkard,,
+resident,Somerton Road,,Java villa,George,Watkins,,
+resident,Somerton Road,,Somerton vil,Walt. H.,Barker,,

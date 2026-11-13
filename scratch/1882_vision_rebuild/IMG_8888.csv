@@ -1,0 +1,123 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,Watkin street,,,Jos.,Williams,foreman,Springfield ldge
+resident,Watkin street,,,Hy.,Phillips,J.P.,Friar's cot
+street,Waters' Lane,,,,,,From 10a Stow-hill.
+resident,Waters' Lane,,,William,Hale,police sergt,
+resident,Waters' Lane,,,St. Woolos Mission room,,
+resident,Waters' Lane,,,Richard,Weights,,
+street,Waters' Buildings,,,,,,From 44, Stow-hill to North-st
+street,Wedlock's Court,,,,,,From 9, Mill-parade
+street,West Street,,,,,,From 10 Baneswell-road.
+resident,West Street,1,,John,Davies,grocer,
+resident,West Street,2,,Thomas,Thomas,,
+resident,West Street,3,,Richd.,Barry,ostler,
+resident,West Street,4,,Elizabeth,Shea,widow,
+resident,West Street,5,,Void,,,
+resident,West Street,6,,Harriet,Hopkins,widow,
+resident,West Street,7,,Mary Ann,Prosser,,
+resident,West Street,8,,Geo.,Gilbert,shoemaker,
+resident,West Street,9,,Charles,Brown,,
+resident,West Street,10,,Mary,Manship,widow,
+resident,West Street,11,,W. H.,French,shipwrit,
+resident,West Street,12,,Thos.,Powell,sailor,
+resident,West Street,13,,Charles,Tanner,tailor,
+resident,West Street,14,,Mrs. Eliza,Groves,,
+resident,West Street,15,,Jas.,Gardner,plasterer,
+resident,West Street,16,,Thos. A.,Discinia,,
+resident,West Street,17,,John,Banfield,carpenter,
+resident,West Street,18,,James,Lewis,butcher,
+resident,West Street,19,,C. & Sons,Farrow,plmr &c.,
+cross_street,West Street,,,,,,"Here is Victoria-crescent."
+resident,West Street,1,BEAUFORT TERRACE,Isaac,Sims,shoemaker,
+resident,West Street,2,BEAUFORT TERRACE,Thos. Hy.,Sims,do.,
+resident,West Street,3,BEAUFORT TERRACE,Void,,,
+resident,West Street,4,BEAUFORT TERRACE,George,Jones,traveller,
+resident,West Street,5,BEAUFORT TERRACE,Richd.,Earl,tailor,
+resident,West Street,6,BEAUFORT TERRACE,George,Lander,shopkr,
+cross_street,West Street,,,,,,(return.)
+resident,West Street,20,,Joseph,Thomas,builder,
+resident,West Street,21,,Mrs. Mary,Jones,,
+resident,West Street,22,,Alexdr.,Perry,haulier,
+resident,West Street,23,,Charles,Jones,shopkeepr,
+resident,West Street,24,,Reuben,Wise,porter,
+resident,West Street,25,,Edwd.,Chapman,shoemkr,
+resident,West Street,26,,Joseph,Hurn,labourer,
+resident,West Street,27,,R.,Mealing,mechanic,
+resident,West Street,28,,T.,Turner,engine driver,
+resident,West Street,29,,Wm.,Fargher,mariner,
+resident,West Street,30,,Charles,Roach,carpenter,
+resident,West Street,31,,Edward,Baker,foreman,
+resident,West Street,32,,Jno.,Richards,shopkeepr,
+resident,West Street,33,,Joseph,Sulley,labourer,
+resident,West Street,34,,Thos.,Chivers,cabman,
+resident,West Street,35,,W.,Hale,labourer,
+resident,West Street,36,,Thos.,King,haulier,
+resident,West Street,37,,Jos.,Cook,labourer,
+resident,West Street,38,,W.,Pugh,porter,
+resident,West Street,39,Angel hotel,John,Dredge,,
+street,West Market Street,,,,,,From Albert-st. to Dolphin-st.
+resident,West Market Street,1,,John,Paine,train setter,
+resident,West Market Street,2,,Jos.,Baylis,haulier,
+resident,West Market Street,3,,George,Stone,labourer,
+resident,West Market Street,4,,Charles,Sundy,shipper,
+resident,West Market Street,,,Commercial Brewery,,,
+street,Wharves (The),,,,,,From the Bridge.
+resident,Wharves (The),,,Screw Steam Packet Co.,Beaufort wharf,,
+resident,Wharves (The),,,Davies Bros.,Bangor wharf,builders' merchants &c.,
+resident,Wharves (The),,,Nicholas and Co.,Baltic wharf,timber merchants,
+cross_street,Wharves (The),,,,,,Town Pill.
+resident,Wharves (The),,,Batchelor and Co.,Cinderhill wharf,timber merchants,
+resident,Wharves (The),,,,,Old Moderator wharf,
+resident,Wharves (The),,,Burton & Sons,Beaufort wf,
+resident,Wharves (The),,,Burton & Sons,Bristol Packet wf,general carriers
+resident,Wharves (The),,,Burton & Sons,Nantygle wf,
+resident,Wharves (The),,,,,Old Blaina wharf,vacant
+resident,Wharves (The),,,,,Blaenavon wharf,do.
+resident,Wharves (The),,,C. Lewis & Co.,Clydach whrf,
+resident,Wharves (The),,,C. Lewis and Co.,Liverpool wharf,iron and tinplate merchants; shipping agts.
+resident,Wharves (The),,,Jno.,Williams,stone mer,
+resident,Wharves (The),,,C. Lewis and Co.,Cross-street wf,
+resident,Wharves (The),,,Ebbw Vale Steel Iron and Coal Co's wharf - R. J. Nicholas iron agent.,,,
+resident,Wharves (The),,,T. B.,Bell,coal agent,
+resident,Wharves (The),,,W. Powell,Powell's Town wharf,colliery proprietor
+resident,Wharves (The),,,E. Vale Co.,Pontypool whf,
+resident,Wharves (The),,,Pickford Ford & Co.,Mariners' wharf,timber mer
+resident,Wharves (The),,,Ebbw Vale Co's coal wharf,,,
+resident,Wharves (The),,,Vipond and Co's. wharf,,,
+resident,Wharves (The),,,G. W. R. Co. - G. Trew agent,Gloucester wharf,,
+resident,Wharves (The),,,Tucker Bros.,,corn mer,
+resident,Wharves (The),,,T.,Parry,manure stores,
+resident,Wharves (The),,,Ebbw Vale Co. - F. Orders agent,Victoria wharf,,
+cross_street,Wharves (The),,,,,,Jack's Pill.
+resident,Wharves (The),,,Messrs. Mordey Carney & Co. Lim.,Newport Dry Dock,,,
+resident,Wharves (The),,,S. Goss,Llanarth wharf,oil and grease merchant,
+resident,Wharves (The),,,,,Upper Canada wharf,
+resident,Wharves (The),,,Nantygle and Blaina wharf,,,
+resident,Wharves (The),,,Clapp & Co.,Tillery wharf,,,
+resident,Wharves (The),,,S. Wales Colliery Co. - Wm. Edgar Williams agent,Russell's wharf,,,
+resident,Wharves (The),,,London & S. Wales Coal Co. - James H. Winn agent,Risca wharf,,,
+resident,Wharves (The),,,Partridge & Jones - G. Hoskins agt,Carngethin whf,,,
+resident,Wharves (The),,,T. Spittle Ltd,Deri wharf,,,
+resident,Wharves (The),,,T. Spittle,Aberbeeg whf,,,
+resident,Wharves (The),,,T. Spittle,Cambrian wt.,,,
+resident,Wharves (The),,,Cambrian Iron foundry,,,
+resident,Wharves (The),,,Rhymn'y Iron Co. - Burton & Sons agts,Rhymney wf,,,
+resident,Wharves (The),,,J. G. Watts,Penner wharf,coal and pitwood mercht
+cross_street,Wharves (The),,,,,,Dock Entrance.
+resident,Wharves (The),,,,Customs Watch house,,
+resident,Wharves (The),,,James Thompson,Phillips's wharf,coal exporter
+resident,Wharves (The),,,Powell Duffryn Steam Coal Co. - R. T. Martin agent,,,
+resident,Wharves (The),,,,,Penmaen wharf,
+resident,Wharves (The),,,Bevan & Pryce,Protheroe's wharf,colliery proprietors
+resident,Wharves (The),,,,Midland Wagon Co.,,
+cross_street,Wharves (The),,,,,,The Pill.
+resident,Wharves (The),,,Tredegar Iron and Coal Co. - George Sparke agent,Tredegar Iron wharf,,,
+resident,Wharves (The),,,Nathan David,wharf ho,
+resident,Wharves (The),,,Latch & Co. Joseph colliery proprietors,,,
+resident,Wharves (The),,,Brooks & Marsh,shipwts,
+resident,Wharves (The),,,Rock Coal Co. - Fredk. Phillips agent,Rock wharf,,,
+resident,Wharves (The),,,Witheridge and Barnes,plumbers and braziers,
+resident,Wharves (The),,,W. G. Cartwright,Waterloo wharf,colliery pro
+resident,Wharves (The),,,Jas. Maddock,Brithdir wf,,
+resident,Wharves (The),,,,,Rhoswen wharf,
+resident,Wharves (The),,,Rhos Llantwit Coal Co. - T. Simpson agent,,,

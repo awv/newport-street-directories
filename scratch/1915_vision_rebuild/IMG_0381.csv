@@ -1,0 +1,47 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,,15,Nosworthy,J. K.,Millward,,
+resident,,17,Hillcrest,Geo. E.,Millington,,
+resident,,19,,Henry,Seal,,
+resident,,21,Ivy Dene,Mrs. E. M.,Milner,,
+resident,,23,,William Hewer,Giles,,
+resident,,25,Beech house,Fred,Reed,,
+resident,,,Rougemont,,,,void
+resident,,,The Firs,Fredk.,Thomas,,
+resident,,,Pensbury,Rev. T. B.,Howells,,
+resident,,,Gelly-gron,A. B. Llewellyn,Jones,,
+cross_street,,,,,,,(return)
+resident,,,,,,,Vacant sites
+resident,,34,,John,Owen,,M.A.
+resident,,32,Berlyn,H.,Handy,,
+resident,,30,,John M.,Broadfoot,,
+resident,,28,,Edwin Dent,Ilsley,,
+resident,,26,,Samuel,Bastick,,
+resident,,24,,Frank,Bastick,,
+resident,,22,,,,,Void
+resident,,20,,J. R.,Jacob,,J.P.
+resident,,18,,W. Clay,Taylor,,
+resident,,16,,Geo. Alexander,Miller,,
+resident,,14,,James Albert,Turner,,
+resident,,12,,T. W.,Roberts,,
+resident,,10,Dulce Dom'm,F. L.,Waite,,
+resident,,8,,E.,Harris,,
+resident,,6,,Austin,Redmond,,
+resident,,4,,Robert Howard,Churley,,
+resident,,2,Glenbank,C. F.,Thompson,,
+street,WOODVILLE ROAD,,,,,,C 6
+cross_street,WOODVILLE ROAD,,,,,,Off Risca-road.
+resident,WOODVILLE ROAD,,,,,,,13 houses void
+resident,WOODVILLE ROAD,4,Clemonest,Cliff. C.,Jones,,
+resident,WOODVILLE ROAD,,,,,,,2 houses void
+street,WYNDHAM STREET,,,,,,C 4
+cross_street,WYNDHAM STREET,,,,,,From 96 Shaftesbury-street
+resident,WYNDHAM STREET,1,,Herbert John,Williams,,
+resident,WYNDHAM STREET,2,,James,Wellington,,
+resident,WYNDHAM STREET,3,,Joseph,Goneli,,
+resident,WYNDHAM STREET,,,Newport (Mon.) District Hide, Skin, Fat & Wool Co., Ltd.,,,
+resident,WYNDHAM STREET,,Public Slaughter houses,James,Hooper,manager,
+street,WYVERNE ROAD,,,,,,E 2
+cross_street,WYVERNE ROAD,,,,,,Between Warwick and Kenilworth-roads (Chepstow-road)
+street,YORK PLACE,,,,,,D 5
+cross_street,YORK PLACE,,,,,,120 Stow-hill to Clyffard-cres.
+cross_

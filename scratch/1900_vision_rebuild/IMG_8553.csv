@@ -1,0 +1,126 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Mellon Street,,,,,,continued
+resident,Mellon Street,17,,Jas.,Downey,hammerman,
+resident,Mellon Street,18,,Frederick,Jones,hobbler,
+cross_street,Mellon Street,,,,,,(return.)
+resident,Mellon Street,24,,James,Portal,labourer,
+resident,Mellon Street,25,,Jere.,Haggerty,labourer,
+resident,Mellon Street,26,,Joseph,Mullins,labourer,
+resident,Mellon Street,27,,Wm.,Bennett,labourer,
+resident,Mellon Street,28,,John,Connor,labourer,
+resident,Mellon Street,29,,Henry,Blanks,labourer,
+resident,Mellon Street,30,,John,Dacey,gas works,
+resident,Mellon Street,32,,James,Daley,labourer,
+resident,Mellon Street,33,Irishman's Arms,Wm.,Edwards,,
+resident,Mellon Street,34,,Robert,Sweeney,labourer,
+resident,Mellon Street,35,,Thos.,Stowell,labourer,
+resident,Mellon Street,36,,James,Cantwell,labourer,
+resident,Mellon Street,37,,John,Landers,labourer,
+resident,Mellon Street,38,,Robert,Collins,shipwright,
+resident,Mellon Street,39,,John,Lannen,coal trim'r,
+resident,Mellon Street,40,,Thomas,Spritt,,
+resident,Mellon Street,,,Co-operative stables,,,
+resident,Mellon Street,41,,Geo. J.,Grant,carpenter,
+resident,Mellon Street,42,,James,Casey,moulder,
+street,Mellon Square,,,,,,Mellon-street to George-street.
+street,Melton Terrace,,,,,,86 to 93 Duckpool-road.
+street,Merchant Street,,,,,,Opposite back of Town-hall.
+resident,Merchant Street,17,,Void,,,
+resident,Merchant Street,18,,Alfred,Downing,labourer,
+resident,Merchant Street,19,,John,Ryan,labourer,
+resident,Merchant Street,20,,Sarah,Golding,,
+resident,Merchant Street,21,,Mrs Bridget,Daley,,
+resident,Merchant Street,22,,Mrs Margaret,Raines,,
+resident,Merchant Street,23,,Geo.,Frampton,labourer,
+resident,Merchant Street,24,,Void,,,
+resident,Merchant Street,,,H. E.,Banfield,carpenter,
+resident,Merchant Street,25,,Thomas,Edmunds,,
+resident,Merchant Street,26,,Edwin,Jones,haulier,
+resident,Merchant Street,27,,James,Thatcher,haulier,
+resident,Merchant Street,28,,John,Welsh,labourer,
+resident,Merchant Street,29,,Moses,Price,labourer,
+street,Mendalgief Road,,,,,,Cardiff-rd. to Alexandra dock
+resident,Mendalgief Road,,,Corporation Allotments,,,
+resident,Mendalgief Road,,,Pillgwenlly Athletic Ground,,,
+street,Merriott's Place, M.,,,,,,From Schools, Chepstow-road.
+resident,Merriott's Place, M.,1,,Jesse,Gray,labourer,
+resident,Merriott's Place, M.,2,,Hy.,Dowsell,bricklayer,
+resident,Merriott's Place, M.,3,,Void,,,
+resident,Merriott's Place, M.,4,,W. H.,Stevens,labourer,
+resident,Merriott's Place, M.,5,,Edwd.,Burrows,labourer,
+resident,Merriott's Place, M.,6,,Void,,,
+resident,Merriott's Place, M.,7,,Jane,Daw,,
+resident,Merriott's Place, M.,8,,George,Small,mason,
+resident,Merriott's Place, M.,9,,R. H.,Plaisted,storekeeper,
+resident,Merriott's Place, M.,10,,Mrs,Kettle,,
+resident,Merriott's Place, M.,11,,Daniel,Maynard,labourer,
+resident,Merriott's Place, M.,12,,C. E.,Lewis,helvemaker,
+resident,Merriott's Place, M.,13,,John,Taylor,labourer,
+street,Mile End Terrace, M.,,,,,,From 131 Chepstow-road.
+street,Mill Parade,,,,,,From end of Commercial-road to Watchhouse-parade.
+resident,Mill Parade,1,Ship Hotel,C.,Griffiths,,
+resident,Mill Parade,2,coffee tavern,Nils,Nelson,,
+resident,Mill Parade,3,,Wm.,Dummer,labourer,
+resident,Mill Parade,4,boarding house,Theo.,Setterlund,,
+resident,Mill Parade,5,,Tredegar Iron & Coal Co. [Ltd.,,"William Pobjoy, clerk"
+cross_street,Mill Parade,,,,,,here is Pottery-road.
+resident,Mill Parade,6,,John,Sully,greengrocer,
+resident,Mill Parade,7,,Morgan,Richards,,
+resident,Mill Parade,,,Coubro & Scrutton,ship chandlers,
+resident,Mill Parade,,,Tredegar Dry Dock and Wharf Co.,engineers and ship repairers,
+resident,Mill Parade,,,T. & Sons,Marsh,boat blds,
+resident,Mill Parade,17,,Mrs Louisa,Anstise,,
+resident,Mill Parade,18,,Mrs Jane,Lawrence,,
+resident,Mill Parade,19,,William,Hazell,,
+resident,Mill Parade,20,,Thomas,Gunter,painter,
+cross_street,Mill Parade,,,,,,here is Garden-lane.
+resident,Mill Parade,21,,G. W.,Thompson,,
+resident,Mill Parade,22,,G. W.,Thompson,and Hawkes; Wear eng. wks
+resident,Mill Parade,,,C. H.,Bailey,engineer, &c.,Tyne engine works
+resident,Mill Parade,,,Isca Foundry Co.,railway plant & general engineers,
+resident,Mill Parade,23,,John Ed.,Hopkins,fitter,
+resident,Mill Parade,24,,Henry,Taylor,mason,
+resident,Mill Parade,25,,Isaac,Hale,boilermaker,
+resident,Mill Parade,26,,Miss,Bray,dressmaker,
+resident,Mill Parade,27,,John,Blake,rigger,
+resident,Mill Parade,28,,Joseph,Maggs,labourer,
+resident,Mill Parade,29,,William,Sully,fisherman,
+resident,Mill Parade,30,,James,Sully,,
+resident,Mill Parade,31,,John,Sully,crane driver,
+resident,Mill Parade,32,,T. G.,Cartwright,colliery office,
+resident,Mill Parade,33,,J. D.,Waters,shop,
+cross_street,Mill Parade,,,,,,here is Coomassie-street.
+resident,Mill Parade,34,,Wm.,Keefe,boarding ho,
+resident,Mill Parade,35,,Mrs Grace,Phillips,,
+resident,Mill Parade,36,,Mrs Sarah,Salter,,
+resident,Mill Parade,37,,J. B. and Sons,Serjeant,ship chandlers, etc.,
+resident,Mill Parade,38,,Wm.,Howes,dredger mas,
+resident,Mill Parade,39,,J.,Parry,stationer, etc.,
+resident,Mill Parade,40,,Thomas,O'Brien,dealer,
+resident,Mill Parade,41,,William,Perkins,haulier,
+resident,Mill Parade,42,,George,Evans,West of England Tavern
+cross_street,Mill Parade,,,,,,(return.)
+resident,Mill Parade,,,Union Dry Dock Co.,engineers and ship repairers,"Britnhir wharf & at Eastern Dry Docks"
+resident,Mill Parade,,,Lydney and Crump Meadow Collieries Co., Ltd.,S. O. Hands, agent.
+resident,Mill Parade,,,Newport Foundry Co.-H. Lawrence,manager,
+resident,Mill Parade,,,Newport Engineering & Ship Repairing Co., Ltd.,Tredegar Dry Dock & wharf
+street,Mill Street,,,,,,From Shaftesbury-street to Gold Tops.
+resident,Mill Street,1,,J. W.,Sims,Eastern Valleys Thomas-street Subway.
+resident,Mill Street,2,Ottery vil,Adam E.,Frost,,
+resident,Mill Street,3,Kingstoth,W.,Harrington,,
+resident,Mill Street,4,Torres v,Mrs A.,Penman,,
+resident,Mill Street,5,Coombe,Miss H. A.,Jones,,
+resident,Mill Street,6,Belnie ho,T.,Westacott,,
+resident,Mill Street,7,void,Silverton villa,,,
+resident,Mill Street,8,Gwynfa,A.,Morris,,
+cross_street,Mill Street,,,,,,(return.)
+resident,Mill Street,9,COUNTY COUNCIL OFFICES,,,"Edwin Grove, chairman; H. S. Gustard, clerk; Wm. Tanner, surveyor"
+resident,Mill Street,,,COUNTY POLICE STATION,,Insp. Capper, Station ho
+cross_street,Mill Street,,,,,,here is Queen's-hill.
+resident,Mill Street,,,Shop void,,,
+resident,Mill Street,,,do,,,,
+resident,Mill Street,10,,Henry,Gwyther,,
+resident,Mill Street,,,Watson & Son,bootmakers,
+resident,Mill Street,,,Mrs J.,Tuplin,confectioner,
+resident,Mill Street,11,,Mrs Sarah,Morgan,,
+resident,Mill Street,12,,James,James,,

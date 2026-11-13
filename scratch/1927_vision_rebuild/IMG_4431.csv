@@ -1,0 +1,149 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,BALMORAL ROAD,,,,,,continued
+resident,Balmoral Road,,,North,Jos.,irnwkr,Innisfallen
+resident,Balmoral Road,,,,Shop building,,
+resident,Balmoral Road,40,,Wm. J.,Webber,ironwkr,
+resident,Balmoral Road,42,,Horace C.,Butcher,clerk,
+resident,Balmoral Road,67,,Peter,Rourke,fitter,
+resident,Balmoral Road,44,,Thos.,Lawless,milkman,
+resident,Balmoral Road,65,,H.,Martin,,
+resident,Balmoral Road,,,Albert S.,Davies,grocer,
+resident,Balmoral Road,63,,William,Pullin,eng dvr,
+resident,Balmoral Road,50,,F. Wm.,Cook,fitter,
+resident,Balmoral Road,61,,Thos.,Roberts,G.W.R.,
+resident,Balmoral Road,52,,F. Thos.,Travers,,Shirley
+resident,Balmoral Road,59,,Thomas,Addis,builder,
+resident,Balmoral Road,54,,Alfred H.,Vale,cashier,
+resident,Balmoral Road,,,Lonsdale,,
+resident,Balmoral Road,57,,Samuel C.,Smith,contctr,
+resident,Balmoral Road,56,,L. G.,Nowell,electrician,
+resident,Balmoral Road,55,,W. A.,Prothero,upholstr,
+resident,Balmoral Road,58,,Tom,Robbins,eng dvr,
+resident,Balmoral Road,53,,Arthur,Gregory,G.W.R.,
+resident,Balmoral Road,,,Carsdale,,
+resident,Balmoral Road,51,,Wm. A.,Cornwall,baker,Fernlea
+cross_street,Balmoral Road,,,,,here is Warwick-road,
+resident,Balmoral Road,49,,Henry,Heal,chief officer,The Grange
+resident,Balmoral Road,,,,Houses building,,
+cross_street,Balmoral Road,,,,,here is Harwarden-road,
+resident,Balmoral Road,47,,Thos. W.,Browning,Erica
+resident,Balmoral Road,45,,M.,Bowden,pilot's asst,
+resident,Balmoral Road,,,Edmund P.,Hughes,clerk,Dillwyn
+resident,Balmoral Road,43,,,,Void
+resident,Balmoral Road,,,Emrys A.,Lewis,clerk,Cartref
+resident,Balmoral Road,41,,Henry,Hamblin,eng dvr,
+resident,Balmoral Road,,,Reginald G.,Hawkes,clerk,Lormorma
+resident,Balmoral Road,39,,J. P.,Hulson,printer,
+resident,Balmoral Road,37,,T. D.,Trawford,roller,
+resident,Balmoral Road,,,Samuel A.,Sheppard,fitter,Penrhys
+resident,Balmoral Road,35,,W.,Mason,Instow
+resident,Balmoral Road,,,Geo.,Snelling,clerk,Paragon house
+resident,Balmoral Road,33,,Eric W.,Pugsley,clerk,
+resident,Balmoral Road,31,,Hugh G.,Styles,G.W.R.,
+resident,Balmoral Road,,,Reg.,Thomas,foreman,St.Eloi
+resident,Balmoral Road,29,,Edwd.,Walker,ironwrkr,
+resident,Balmoral Road,,,J.,Pullin,,Brondeg
+resident,Balmoral Road,27,,William,Morris,checker,
+resident,Balmoral Road,,,Wm. I.,Davies,clerk,Pencisely house
+resident,Balmoral Road,25,,Mrs. Grace,Easterbrook,,
+resident,Balmoral Road,23,,Christopher H.,Greer,,
+resident,Balmoral Road,,,Alexander,Dowers,clerk,Craigielands
+resident,Balmoral Road,21,,Geo.,Price,carpenter,
+resident,Balmoral Road,19,,,,Void
+resident,Balmoral Road,,,Rudolph F.,Weiser,draughtsman,Rosefield
+resident,Balmoral Road,17,,Fredk.,Eardley,ironwkr,
+resident,Balmoral Road,15,,George,Hazell,cardriver,
+resident,Balmoral Road,,,,Clyde Holm—void,,
+resident,Balmoral Road,,,,Caldervale—void,,
+resident,Balmoral Road,13,,Charles,Farr,clerk,
+resident,Balmoral Road,,,,3 houses building,,
+resident,Balmoral Road,11,,Wm. H.,Hodges,mechanic,
+cross_street,Balmoral Road,,,,,return,
+resident,Balmoral Road,9,,John,Briton,engineer,
+resident,Balmoral Road,109,,Geo. T.,Turner,electrcn
+resident,Balmoral Road,7,,Henry J.,Adams,manager
+resident,Balmoral Road,107,,Isaac,Woodfield,labr
+resident,Balmoral Road,5,,Wm. Henry,Griffiths,pltr
+resident,Balmoral Road,105,,Wm. H.,Bowsher,asst
+resident,Balmoral Road,3,,Edward,Carr,police
+resident,Balmoral Road,103,,Hy.,Webber,loco firemn
+resident,Balmoral Road,1,,S. G.,Green,electrician
+resident,Balmoral Road,101,,Edward,Mackay,G.W.R.
+resident,Balmoral Road,99,,Fredk.,Kitson,G.W.R.
+resident,Balmoral Road,,,Mrs. Lilian M.,Phillips,Hatherleigh
+resident,Balmoral Road,,,Ernest L.,Bransfield,steelworker,Chelmsford
+resident,Balmoral Road,,,Alf.,Williams,window cl'nr,Malvern
+resident,Balmoral Road,,,Hedley,Pellow,Twist-Niet
+resident,Balmoral Road,,,Percy J.,Palmer,steelwo'ker,The Anchorage
+resident,Balmoral Road,,,Wm.,Maher,trm,The Haven
+resident,Balmoral Road,,,Percy,Lane,sign writer,Bertholly
+resident,Balmoral Road,,,Percy,Sockett,clerk,Elsbury
+resident,Balmoral Road,,,Geo.,Parsons,steelworker,Edenhurst
+resident,Balmoral Road,,,John H.,Richards,ftr,Beverley
+resident,Balmoral Road,,,Richard C.,Fieldhouse,welder,Rosemead
+resident,Balmoral Road,,,Thos.,Andress,ironwrkr,Idra
+resident,Balmoral Road,,,Matthew J.,Barrett,ironwkr
+resident,Balmoral Road,,,Mrs. Phyllis,Thomas,Edgecote
+street,BANESWELL,,,,,,C 5
+resident,Baneswell,,,,,,,is that part of the town extending from the foot of Stow hill (Bridge Street) to the railway tunnel and derives its name from the Well at the end of Queen's Buildings but which has been closed the spot being marked by an iron ring let into the pavement.
+street,BANESWELL CHAMBERS,,,,,,
+resident,Baneswell Chambers,,,,,,,see 13 Bridge-street
+street,BANK CHAMBERS,,,,,,
+resident,Bank Chambers,,,,,,,See 85 Bridge-street.
+street,BANESWELL ROAD,,,,,,C 5
+resident,Baneswell Road,,,,,,,From 18 Bridge-street.
+cross_street,Baneswell Road,,,,,(LEFT HAND SIDE.),,
+cross_street,Baneswell Road,,,,,QUEEN'S BUILDINGS—,,
+resident,Baneswell Road,1,,Stephen,Iggulden,furn dlr,
+resident,Baneswell Road,2,,Thos.,Wellsteed,purveyor
+resident,Baneswell Road,,,Thomas,Bird,William
+resident,Baneswell Road,3,,Charles & Sons,Phillips,grocers etc.,
+resident,Baneswell Road,4,,H. P.,Lewis,baker grocer and confectioner,
+resident,Baneswell Road,5,,Wong,Chow,Chinese lndy
+resident,Baneswell Road,6-6A,,,Canterbury lamb stores,H. Woodley & Co.
+resident,Baneswell Road,,,Benjamin,Black,tailor
+cross_street,Baneswell Road,,,,,here is Bailey-street.,
+resident,Baneswell Road,7,,Wm.,Carter,hairdresser
+resident,Baneswell Road,8,,Isaac,Kleinstein,shop
+resident,Baneswell Road,9,,F. H.,Sims,fish bar
+resident,Baneswell Road,10,,Richard,AHurley,labr
+resident,Baneswell Road,10,,F.,Turner,pork butcher
+resident,Baneswell Road,11,,George,Brown,labourer
+resident,Baneswell Road,12,,,,Void
+cross_street,Baneswell Road,,,,,here is West-street.,
+cross_street,Baneswell Road,,,,,return,
+resident,Baneswell Road,13,,David,May,shopkeeper
+resident,Baneswell Road,14,,F. & Sons,Taylor,garage
+resident,Baneswell Road,14a,,Wm. J.,Phillips,pork btch
+resident,Baneswell Road,14b,,H. W. & Co.,Lewis,bootmakers,
+cross_street,Baneswell Road,,,,,BOLTON TERRACE—,,
+resident,Baneswell Road,15,,Geo. & Son,Hardick,yeast merchants,
+resident,Baneswell Road,16,,Mrs. E. A.,Ponting,statnr
+resident,Baneswell Road,17,,W. R.,Coulson,watchmkr
+resident,Baneswell Road,18,,Allen,Silver,seedsman
+resident,Baneswell Road,19,,& Sons,Dight,printers and bookbinders,
+resident,Baneswell Road,20,,W. Clifford,Phillips,solictr
+resident,Baneswell Road,,,Queen's Hotel Vaults,,
+street,BANESWELL SQUARE,,,,,,C 5
+resident,Baneswell Square,,,,,,,See Victoria-square.
+street,BANK STREET,,,,,,B 2
+resident,Bank Street,,,,,,,From 323 Caerleon-road to Durham-road.
+cross_street,Bank Street,,,,,(LEFT HAND SIDE.),,
+resident,Bank Street,1,,Charlie,Riding,G.W.R.
+resident,Bank Street,3,,Charles,Bishop,horsebrkr
+resident,Bank Street,5,,Jas H.,Chambers,puddler
+resident,Bank Street,7,,John,Carpenter,mason
+resident,Bank Street,9,,Mrs. Sarah Jane,Avery,,
+resident,Bank Street,11,,Chas. J.,Mayne,labourer
+resident,Bank Street,,,William R.,Pugsley,,
+resident,Bank Street,13,,William,Bradley,carpenter
+resident,Bank Street,15,,C. Chas.,Bradley,labourer
+resident,Bank Street,17,,T. H.,Shore,coal merchant
+cross_street,Bank Street,,,,,return,
+resident,Bank Street,10,,James J.,Mackey,labr
+resident,Bank Street,8,,John,Orchard,guard
+resident,Bank Street,6,,William,Corfield,sweep
+resident,Bank Street,4,,David,Shepperd,labourer
+resident,Bank Street,2,,Thomas,Prowse,mason
+street,BARNARD TOWN,,,,,,C 3
+resident,Barnard Town,,,,,,,is a district lying between Caerleon-road and Maindee and embraces the numerous streets each side of Church-road.

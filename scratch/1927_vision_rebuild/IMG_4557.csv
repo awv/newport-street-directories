@@ -1,0 +1,91 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,RIV,,,,,,
+resident,RIV,,,Geo. H.,Davies,labourer,Powell's Town whrf.-Budd & Co. colliery proprietors
+resident,RIV,,,Mrs. A.,Powell,,Haggerty Wm. wagon repr
+resident,RIV,,,G.,Kelland,platelayer,Pontypool whrf.-E. Vale Co
+resident,RIV,,,Ernest,Phillips,,Deri yard Aberbeeg wharf
+resident,RIV,,,,Cambrian wharf-T. Spittle Limited,engineers and iron and brass founders,Mariner's wharf-Ebbw Vale Steel Iron and Coal Co. Ltd. sleeper plant works
+resident,RIV,,,,Rhymney wharf-,,Vipond J. & Co.'s wharf
+resident,RIV,,,J.,Cashmore,iron & metal merchant and ship breaker,Rigley Wm. & Sons Ltd. railway wagon repairers
+resident,RIV,,,John,Price,carpenter,Gloucester whf-G.W.R. Co.
+resident,RIV,,,,Penner wharf-,,Clements James and Co. iron merchants
+resident,RIV,,,Lewis & Co.,Hall,wagon repairers,Contractors' Supply Service
+resident,RIV,,,,Phillips & Sons' Ld.,malthouse,Fruit Distributing Co. Ltd.
+resident,RIV,,,G. J.,Preece,maltster,The Contractors' Supply serv.
+resident,RIV,,,George,Burnett,engineer,Victoria wharf-The Ebbw Vale Steel Iron and Coal Co. Ltd.-iron ore pitwood etc.
+resident,RIV,,,,Telephone Call Room,,
+cross_street,RIV,,,,,here is Jack's Pill,
+cross_street,RIV,,,,,TOWN DOCK ENTRANCE,Western (The) Dry Docks-Mountstuart Dry Docks & Shearman's Ltd. engineers iron shipbuilders and ship repairers
+resident,RIV,,,,Customs' watch house,,
+resident,RIV,,,,British Petroleum Co.,,Llanarth whf-A. J. T. Goss and Co. oil & grease merchts
+resident,RIV,,,,Anglo American Oil Co.,,Hoist & traffic office G.W.R.
+resident,RIV,,,,Powell Duffryn wharf,,Blaina wharf-
+resident,RIV,,,,Penmaen wharf,,Cashmore John ship breaker etc.
+resident,RIV,,,,Pillgwenlly wharf-Partridge Jones & John Paton Ltd.,,Williams W. dk gateman
+resident,RIV,,,,Maybury's Adamant Plaster and Keenes Cement Co.,,Evans John wagon inspctr
+resident,RIV,,,Mrs.,Anderson,,Tillery wharf-
+resident,RIV,,,William,Wailes,,Maybury's Adamant Plaster and Keene's Cement Co. and Kohler Tile Co.
+resident,RIV,,,Henry,Larcombe,,
+resident,RIV,,,G. F.,Harding,iron and steel merchant,Hughes Walter J.
+resident,RIV,,,,Tredegar Dry Dock & Wharf Co. Ltd.,,Clapp's wharf-
+resident,RIV,,,,Pillgwenlly Coal Co.,,Stephens Dd. & Co. smiths
+resident,RIV,,,,Latch's wharf-,,Maund Albert F. dk labr
+resident,RIV,,,,Mountstuart Dry Docks and Shearman's Ltd.,engineers ship repairers etc.,Nelmes Walter dk labr
+resident,RIV,,,,Rock wharf-,,Wood Frank dk labr
+resident,RIV,,,,Newport Foundry Co.,,Russell's wharf-
+resident,RIV,,,E. H.,Thatcher,,Risca wharf-
+resident,RIV,,,Joseph & Sons,Parry,coal merchants,Walker iron & metal mrchnts
+resident,RIV,,,J. O. & Co.,Dibble,oil and grease stores,Wilkins T. foundryman
+resident,RIV,,,,Waterloo wharf-Parry G. W.,,Newport Enamelled Slate Co.
+resident,RIV,,,Chas. & Sons,Parry,coal merchants,Carngethin wharf-W. A. Baker & Co. Ltd. ironfounders &c. (Westgate foundry)
+resident,RIV,,,James,Parry,coal merchant,
+resident,RIV,,,,French & Kyte,wheelwrights,Commercial wharf-
+cross_street,RIV,,,,,TRANSPORTER BRIDGE,Commercial Hotel-E. J. Walker
+resident,RIV,,,,Channel Dry Docks & Pontoon Co. Ltd.,,Mrs. Elizabeth,Phillips
+resident,RIV,,,Peter & Co. Ltd.,Wright,ship's painters,Bert,Holton,carpenter
+resident,RIV,,,,Finlay Conveyor Co. Ltd.,,Mrs. S. J.,Jones
+resident,RIV,,,,Rhoswen wharf-Arrow Fuel Co. Ltd.-D. R. Evans manager,,Dennis,Johnson,hoistman
+resident,RIV,,,,,,Thos.,Wixey,wagon exm
+resident,RIV,,,,,,J.,Howlett,berthing mstr
+resident,RIV,,,,Cork wharf-Braithwaite & Co. Engineers Ltd.-J. N. Hinton manager,,
+resident,RIV,,,James,Gittins,,
+resident,RIV,,,,Mersey Insulation Co. Ltd.,ship repairers etc.,
+cross_street,RIV,,,,,G.W.R. ALEXANDRA DOCKS-,
+resident,RIV,,,,The Watch house,,
+resident,RIV,,,,South Dock entrance,,
+resident,RIV,,,,Hydraulic Power Station,,
+resident,RIV,,,,Sea Lock,,
+cross_street,RIV,,,,,EAST SIDE OF RIVER-See also Rodney-parade,
+resident,RIV,,,,London wharf-Davies Bros. (Newport) Ltd.,builders' merchants
+resident,RIV,,,,Commissioners' Landing stage,,
+resident,RIV,,,,Gridiron The,,
+resident,RIV,,,,Allied Building Corporation,,
+resident,RIV,,,,Clarence wharf-Sessions & Sons Ltd. builders merchants etc.,
+resident,RIV,,,,Western Navigation Company (Newport) Ltd.,iron merch
+resident,RIV,,,W. S.,Morgan,blacksmith,
+resident,RIV,,,,Mexico Oil and Grease Co.,importers
+resident,RIV,,,John,Fairclough,bone merch,
+resident,RIV,,,Peter S.,Fleming,gen. manuf.
+resident,RIV,,,,Coverack yard-vacant,,
+resident,RIV,,,,Imperial works-Guest Keen & Nettlefolds Ltd.,,
+resident,RIV,,,,Great Western wharf-Happerfield & Willans Ltd.,,
+resident,RIV,,,,Usk (The) Chemical works-Basic Slag & Phosphate Co. Ltd.,,
+cross_street,RIV,,,,,here is Liswerry Pill,
+resident,RIV,,,John Ld.,Lysaght,Orb works,
+cross_street,RIV,,,,,here is Stephenson-road,
+cross_street,RIV,,,,,TRANSPORTER BRIDGE,
+resident,RIV,,,,Mountstuart Dry Docks & Shearman's Ltd.,Eastern Dry Dock
+resident,RIV,,,,Channel Dry Docks & Pontoon Co. Ltd.,Dry Dock
+street,RIVERSIDE,,,,,,From East Usk-road
+resident,RIVERSIDE,,,,East Usk Baptist Church,,
+resident,RIVERSIDE,,,,Rev. Augustus,Purnell,,
+resident,RIVERSIDE,1,,,Mrs. Mary,Shaw,,
+resident,RIVERSIDE,2,,,Mrs. Harriett,Gretton,,
+resident,RIVERSIDE,3,,,Arthur,Poole,mason,
+resident,RIVERSIDE,4,,,E. T.,Roberts,ironworker,
+cross_street,RIVERSIDE,,,,,here is Rudry-street,
+resident,RIVERSIDE,5,,,William,Johns,painter,
+resident,RIVERSIDE,6,,,Sidney,Jenkins,eng driver,
+resident,RIVERSIDE,7,,,Elijah,Williams,carpenter,
+resident,RIVERSIDE,8,,,Hy.,Millard,nailmaker,
+resident,RIVERSIDE,9,,,Albert,Collins,tailor,

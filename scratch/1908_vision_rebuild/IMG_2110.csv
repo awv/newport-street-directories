@@ -1,0 +1,147 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Godfrey Road,,,,,,
+resident,Godfrey Road,9,,,"Ivydale",,"void"
+resident,Godfrey Road,10,,,Mrs. A.,Cook,,Schubert h
+resident,Godfrey Road,11,,Wm.,Baker,,Sunnydale
+cross_street,Godfrey Road,,,"here is Faulkner-road",,,
+resident,Godfrey Road,12,,O. W.,Morgan,physician and surgeon,"Ventnor h"
+resident,Godfrey Road,13,,Mrs. P.,Jacobs,,Brooklea
+resident,Godfrey Road,14,,,"Lyndale",,"void"
+resident,Godfrey Road,15,,Mrs. G.,Healey,,Dagenham
+resident,Godfrey Road,16,,T. Baker,Jones,,Ashleigh
+resident,Godfrey Road,17,,Mrs. R. A.,Forsyth,,Glendorgal
+resident,Godfrey Road,18,,Mrs. Ann,Davies,,Courtway
+resident,Godfrey Road,19,,,"Brynhyfryd",,"void"
+resident,Godfrey Road,20,,Thos.,Maddocks,,Glendo'r
+resident,Godfrey Road,21,,Michael,Ash,,Laurels
+resident,Godfrey Road,22,,,"Void",,,
+resident,Godfrey Road,23,,Isaac,Llewellyn,,1 St. Mark's view
+resident,Godfrey Road,24,2 St. Mark's view,,"void",,,
+resident,Godfrey Road,25,,Henry,Evans,challinder,Bryn-tirion
+resident,Godfrey Road,26,,E.,Cooke,,The Uplands
+resident,Godfrey Road,27,,Godfrey,Partridge,,Hafod
+resident,Godfrey Road,28,,W. C.,Campbell,,Corwen v
+resident,Godfrey Road,29,,E. H.,Willey,,The Lee
+resident,Godfrey Road,30,,Mrs. R.,Caldicot,,1 St. Iavil
+resident,Godfrey Road,31,,Miss,Prestidge,,2 do.
+resident,Godfrey Road,32,,Mrs. H. W.,Evans,,Enville h
+cross_street,Godfrey Road,,,"(return)",,,
+resident,Godfrey Road,33,,H. A. T.,Skyrme,,The Chase
+resident,Godfrey Road,34,,F. J.,Heybyrne,,Fern Glen
+resident,Godfrey Road,35,,,"Hillsdean",,"void"
+resident,Godfrey Road,36,,W. Lyndon,Moore,,Elmscott
+street,Gold Tops,C 5,,,,,From Mill-street.
+cross_street,Gold Tops,,,"[LEFT HAND SIDE.]",,,
+resident,Gold Tops,1,,Albert,Smith,,Belle Vue
+resident,Gold Tops,2,,H. C.,Bishop,,Heber villa
+resident,Gold Tops,3,,E.,Perman,,Garfield
+resident,Gold Tops,4,,Thomas,J.P.,,Goldsworthy,Camborne villa
+resident,Gold Tops,5,,,"Void",,,
+resident,Gold Tops,6,,,"Void",,,
+cross_street,Gold Tops,,,"here is Serpentine-road",,,
+resident,Gold Tops,,,,"ST. MARK'S CHURCH",,,
+resident,Gold Tops,7,,Rev. T. L., M.A.,Lister,,St. Mark's Vicarage
+resident,Gold Tops,8,,Mrs. R.,Bond,,Scudamore v
+resident,Gold Tops,9,,Mrs. W. R.,Geen,,Clarem't
+resident,Gold Tops,10,,W. H.,Williams,,The Bryn
+resident,Gold Tops,11,,E.,Coulman,,Ivor house
+resident,Gold Tops,12,,George,Geen,,Lismore
+resident,Gold Tops,13,,Mrs. H.,White,,Derwent
+resident,Gold Tops,14,,Miss E.,Dutfield,,Rymer
+resident,Gold Tops,15,,John, J.P.,Moses,,Clyde v
+resident,Gold Tops,16,,Misses,Stewart and Law,,Ladies' coll., Bryn tegid
+resident,Gold Tops,17,,A. C.,Mitchell,,Chester h
+resident,Gold Tops,18,,C. B.,Gratte,phys. & surg.,St. Aubyn's
+resident,Gold Tops,19,,W. J.,Greer,surgeon,
+resident,Gold Tops,20,,John,Pritchard,,Melrose villa
+resident,Gold Tops,21,,A.,Mawson,,Greencourt v
+resident,Gold Tops,22,,C.,Phillips,,Rhoswen villa
+resident,Gold Tops,23,,E. G.,Taylor,,Brynawrv
+resident,Gold Tops,24,,A. H.,Herring,,Rosehill
+resident,Gold Tops,,,,"Tredegar Estate Offices--",,,G. P. Mitchell Innes, agt; J. F. Groves, architect to Tredegar Estate
+street,Goodrich Crescent,B4,,,,,FORMERLY ROSS AND GOODRICH STREETS. From 43 Malpas-road.
+cross_street,Goodrich Crescent,,,"[LEFT HAND SIDE.]",,,
+resident,Goodrich Crescent,,,Jewell & Sons,,builders,
+resident,Goodrich Crescent,1,,Thos.,Potter,bricklayer,
+resident,Goodrich Crescent,3,,John,Donovan,eng. drvr,
+resident,Goodrich Crescent,5,,Chas. A.,Edwards,traveller,
+resident,Goodrich Crescent,7,,Edwin J.,Slocombe,porter,
+resident,Goodrich Crescent,9,,James,Hill,gardener,
+resident,Goodrich Crescent,11,,Jas. Hy.,Gray,insur. supt,
+resident,Goodrich Crescent,13,,John,King,labourer,
+resident,Goodrich Crescent,15,,Wm.,Griffiths,cooper,
+resident,Goodrich Crescent,17,,Wm. Alfred,Yates,G.W.R.,
+resident,Goodrich Crescent,19,,Jno. Hy.,Francis,agent,
+resident,Goodrich Crescent,21,,Geo.,Brown,gardener,
+resident,Goodrich Crescent,23,,Philip F.,Williams,,
+resident,Goodrich Crescent,25,,Jos.,Clutterbuck,postman,
+resident,Goodrich Crescent,27,,George,Skinner,,
+resident,Goodrich Crescent,29,,Albert T.,Bailey,P.O.,
+resident,Goodrich Crescent,31,,Chas.,Brown,signalman,
+resident,Goodrich Crescent,33,,Thomas,Smith,mechanic,
+resident,Goodrich Crescent,35,,James,Powell,police,
+resident,Goodrich Crescent,37,,Wm. T.,Hamber,linesman,
+resident,Goodrich Crescent,39,,Hy.,Dockings,upholsterer,
+resident,Goodrich Crescent,41,,Thos. Robt.,Allen,clerk,
+resident,Goodrich Crescent,43,,Godfrey,Phillips,painter,
+resident,Goodrich Crescent,45,,Edwin,Richards,guard,
+resident,Goodrich Crescent,47,,John Hy.,Cooper,G.W.R.,
+resident,Goodrich Crescent,49,,Arth.,McCarthy,fdryman,
+resident,Goodrich Crescent,51,,Mrs. Mary,Protheroe,,
+resident,Goodrich Crescent,53,,J. H.,Brown,fitters' helper,
+resident,Goodrich Crescent,55,,David,Vaughan,fitter,
+resident,Goodrich Crescent,57,,J.,Moeller,berthing mastr,
+resident,Goodrich Crescent,59,,John,Jobbins,boatman,
+resident,Goodrich Crescent,61,,Thos.,Traynor,,
+resident,Goodrich Crescent,63,,David,Downs,crane fitter,
+resident,Goodrich Crescent,65,,Wm.,Brooks,linesman,
+resident,Goodrich Crescent,67,,Henry,Brownett,G.W.R.,
+resident,Goodrich Crescent,69,,S. R.,Watkins,butcher,
+resident,Goodrich Crescent,71,,Reuben A.,Stichbury,,
+resident,Goodrich Crescent,73,,Arth.,Venning,carpenter,
+resident,Goodrich Crescent,75,,Charles,Hodges,clerk,
+resident,Goodrich Crescent,77,,James C.,Ford,fitter,
+resident,Goodrich Crescent,79,,Tom,Cole,carpenter,
+resident,Goodrich Crescent,81,,Thos.,Giddings,H. P.O.,
+resident,Goodrich Crescent,83,,A. E.,Vaughan,fitter,
+resident,Goodrich Crescent,85,,G. F.,Smith,goods guard,
+resident,Goodrich Crescent,87,,Walter W.,Walker,clerk,
+resident,Goodrich Crescent,89,,Thos.,Jenkins,dock police,
+resident,Goodrich Crescent,91,,H. J.,Workman,gas wkr,
+resident,Goodrich Crescent,93,,Geo.,Vincent,G.W.R.,
+resident,Goodrich Crescent,95,,F. E. B.,Charles,gas wkr,
+resident,Goodrich Crescent,97,,Arnold J.,Cooper,guard,
+resident,Goodrich Crescent,99,,Wm.,Swindley,labourer,
+resident,Goodrich Crescent,101,,Edmd.,Caldicot,police,
+resident,Goodrich Crescent,103,,Henry,Wust,ins. agent,
+resident,Goodrich Crescent,105,,Mrs. H.,Miles,,
+resident,Goodrich Crescent,107,,Rd. H.,Cotteriell,police,
+resident,Goodrich Crescent,109,,Thos.,Morris,haulier,
+resident,Goodrich Crescent,111,,A. G.,Evans,,
+resident,Goodrich Crescent,113,,Albert,Skeldon,saddler,
+resident,Goodrich Crescent,115,,J.Rupert,Fortune,plmbr,
+resident,Goodrich Crescent,117,,John,Brewer,miller,
+resident,Goodrich Crescent,119,,Frank,Fortune,plumber,
+resident,Goodrich Crescent,121,,James A.,Thomas,ins. agt,
+resident,Goodrich Crescent,123,,L.,Prosser,ballast guard,
+resident,Goodrich Crescent,125,,Chas.,Bradbeer,labourer,
+resident,Goodrich Crescent,127,,John,Knight,glass wks,
+resident,Goodrich Crescent,129,,George,Lane,G.W.R.,
+resident,Goodrich Crescent,131,,John,Evans,labourer,
+resident,Goodrich Crescent,133,,Arthur,Evans,platelayr,
+cross_street,Goodrich Crescent,,,"(return)",,,
+resident,Goodrich Crescent,36,,Geo. Hy.,Dunk,,
+resident,Goodrich Crescent,34,,Henry,Davies,,
+resident,Goodrich Crescent,32,,Norman,Davies,reporter,
+resident,Goodrich Crescent,30,,Edwin,Davies,porter,
+resident,Goodrich Crescent,28,,W.,Kovachich,blacksmith,
+resident,Goodrich Crescent,26,,Jno. H.,Hayman,cellarmn,
+resident,Goodrich Crescent,24,,Edward,Norman,currier,
+resident,Goodrich Crescent,22,,Chas.,Palmer,confectionr,
+resident,Goodrich Crescent,20,,Martin,Edwards,carpntr,
+resident,Goodrich Crescent,18,,Thos.,Creamer,G.W.R.,
+resident,Goodrich Crescent,16,,,"Void",,,
+resident,Goodrich Crescent,14,,Wm. H.,Bown,blacksmth,
+resident,Goodrich Crescent,12,,Chas. E.,Gearon,eng. fitter,
+resident,Goodrich Crescent,10,,Fred,Mayne,,
+resident,Goodrich Crescent,8,,Morgan,Owens,tailor,

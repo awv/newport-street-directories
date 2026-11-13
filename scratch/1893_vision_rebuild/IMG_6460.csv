@@ -1,0 +1,94 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+entry,,32,,John,Jeffrie,,
+entry,,33,,Alfred,Bland,,
+entry,,34,,Wm.,Keene,fruiterer,
+entry,,35,,B. W.,Winter,sculptor,
+entry,,,,,,entrance to Infants School and Cookery centre
+entry,,,,Chas.,Reed,Woodbine cot,
+entry,,36,,H.,Elliott,hairdresser and tobacconist,
+entry,,37,,& Co.,Starkey,jewellers,
+street,Charlotte Street, P.,,,,,,"From 23 Alma-st, to Capel-st."
+entry,Charlotte Street, P.,1,,,Geo. N.,Dowdall,caterer,
+entry,Charlotte Street, P.,2,,,Mary Ann,Dallimore,,
+entry,Charlotte Street, P.,3,,,Thos.,Edwards,guard,
+entry,Charlotte Street, P.,4,,,C.,Jenkins,platelayer,
+entry,Charlotte Street, P.,,,,H.,Mounce,bakehouse,
+cross_street,Charlotte Street, P.,,,,,,here is Lewis-st.
+entry,Charlotte Street, P.,,,,Evan,Jones,oil seller,
+cross_street,Charlotte Street, P.,,,,,,here is Raglan-st.
+entry,Charlotte Street, P.,,,,T.,Staunton,coachbuilder,
+entry,Charlotte Street, P.,,,,D.,Thomas,pattern shop,
+entry,Charlotte Street, P.,5,,,Thos.,Gillett,haulier,
+cross_street,Charlotte Street, P.,,,,,,here is Williams-st.
+entry,Charlotte Street, P.,6,,,Hy.,Davies,guard,
+entry,Charlotte Street, P.,,,,A. J.,Hunt,,office
+cross_street,Charlotte Street, P.,,,,,,here is Capel-st. (return.)
+entry,Charlotte Street, P.,7,,,Wm. J.,Nutt,labourer,
+entry,Charlotte Street, P.,8,,,Alfred,David,smith,
+entry,Charlotte Street, P.,9,,,Chas.,Oakley,guard,
+entry,Charlotte Street, P.,10,,,J. H.,Blake,cab propr'tr,
+entry,Charlotte Street, P.,,,,,,"oil & earthenware dealer"
+cross_street,Charlotte Street, P.,,,,,,here is Upper Williams-street.
+entry,Charlotte Street, P.,,,Tredegar Wf. Infants schl,,,
+entry,Charlotte Street, P.,11A,,,John,Sparks,bricklayer,
+entry,Charlotte Street, P.,11,,,John,Daniel,shopkeeper,
+cross_street,Charlotte Street, P.,,,,,,here is Up. Raglan-street.
+entry,Charlotte Street, P.,12,,,Albert,Hill,engine driver,
+entry,Charlotte Street, P.,13,,,John,Jones,Llewellyn,
+entry,Charlotte Street, P.,,,,British Gas Meter Co. Ltd,,
+entry,Charlotte Street, P.,,,,J.& Co.,Clements,ironmerch's,
+entry,Charlotte Street, P.,14,,,Wm.,Lewis,plasterer,
+entry,Charlotte Street, P.,15,,,Jacob,Williams,smith,
+entry,Charlotte Street, P.,16,,,Ivor,Hazell,carpenter,
+entry,Charlotte Street, P.,17,,,Herbert,Hazell,,
+street,Cemetery Lane,,,,,,North-st. to Clifton-rd.
+street,Central Chambers,,,,,,See 3 Stow-hill.
+street,Chepstow Road,,,,,,From Clarence-place.
+entry,Chepstow Road,,,,W.,Bush,1 Eastgate villas,
+entry,Chepstow Road,1,,E.,Perry,2 Eastgate villas,
+entry,Chepstow Road,2,,Mrs E.,Greenland,Lyncombe villa,
+entry,Chepstow Road,3,,J. T.,Williams,Melverton v,
+entry,Chepstow Road,,,,B. C.,Amaral,Portuguese Vice-consul,
+entry,Chepstow Road,4,,W.,Sheaf,veterinary surgeon Windsor villa,
+entry,Chepstow Road,5,,J.,Williams,Victoria villa,
+entry,Chepstow Road,6,,the Misses,Willmett,Cambridge villa,
+entry,Chepstow Road,7,,C. J.,Chapman,Osborne v,
+entry,Chepstow Road,8,,Alfred,Davies,Beaufort v,
+entry,Chepstow Road,9,,Mrs J.,Hartland,Clytha vil,
+entry,Chepstow Road,10,,T.,Francis,Carisbrooke vil,
+entry,Chepstow Road,11,,John,Lewis,Eling villa,
+entry,Chepstow Road,12,,Jno.,Collier,Atherstone v,
+entry,Chepstow Road,13,,W. Kinsey,Morgan,Albert villa,
+entry,Chepstow Road,14,,Dd.,Walters,Hilston vil,
+entry,Chepstow Road,15,,Dl.,Lewis,Upton villa,
+entry,Chepstow Road,16,,Henry,Willmett,Glenbrook villa,
+entry,Chepstow Road,17,,,Clifton villa,,void
+entry,Chepstow Road,18,,,Grantham villa,,void
+entry,Chepstow Road,19,,Thos. G.,Perrett,York vil,
+entry,Chepstow Road,20,,J. B.,Serjeant,Clarence vil,
+entry,Chepstow Road,21,,,Rochefort villa,,void
+entry,Chepstow Road,22,,F. P.,Robjent,Usk villa,
+entry,Chepstow Road,23,,M.,Jones,Roberts coroner Belvoir house,
+entry,Chepstow Road,24,,James,Davis,Nolton vil,
+entry,Chepstow Road,25,,G. F.,Thorne,Heber vil,
+entry,Chepstow Road,26,,Mrs John,Spittle,Netherton villa,
+entry,Chepstow Road,27,,David,Price,Sefton villa,
+entry,Chepstow Road,28,,C.,Lancefield,Winslow ho,
+cross_street,Chepstow Road,,,,,,here the railway crosses.
+entry,Chepstow Road,,,,& Son's yard,Job Francis,,
+entry,Chepstow Road,29,,Alfred,Crocker,ostler,
+entry,Chepstow Road,30,,,The Beeches,,void
+cross_street,Chepstow Road,,,,,,here is Hereford-street.
+entry,Chepstow Road,,,,,,QUEENSLAND TERRACE—
+entry,Chepstow Road,32,,B. D.,Tovey Bros.,undertakers etc. Maindee news,
+entry,Chepstow Road,,,,James,Tovey,,
+entry,Chepstow Road,32,,Thos. St.,Jones,Wilfreds,
+entry,Chepstow Road,33,,—,Warles,Devon ho,
+entry,Chepstow Road,34,,J.,McKaig,Westward Ho!,
+entry,Chepstow Road,35,,Henry,Matthews,,
+entry,Chepstow Road,36,,Thos.,Lloyd,Craven house,
+entry,Chepstow Road,37,,Geo.,Wright,foreman,
+entry,Chepstow Road,38,,John,Gould,,
+entry,Chepstow Road,39,,Jere.,Williams,St. Ives,
+entry,Chepstow Road,,,,,,Vacant sites
+cross_street,Chepstow Road,,,,,,here is London-street.

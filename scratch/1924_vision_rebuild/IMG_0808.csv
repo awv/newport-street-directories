@@ -1,0 +1,180 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,LIBENETH ROAD,,,,,,Continued
+resident,LIBENETH ROAD,43,,Fred G.,Williams,labr,
+resident,LIBENETH ROAD,,,Newport Rivet Co. Ltd.,,,
+resident,LIBENETH ROAD,,,Lliswerry (Aberthaw) Lime and Stone Co.,,,
+resident,LIBENETH ROAD,,,Western Rubber and Brattice Cloth Co., Ltd.,,,
+street,LADY HILL,,,,,,
+resident,LADY HILL,,,Golfhouse,A. W.,Way,farmer,
+resident,LADY HILL,,,Bungalow,Albert S.,Waite,,
+resident,LADY HILL,,,Chesterfield,Jos. H.,Naylor,,
+resident,LADY HILL,,,The Retreat,Rd.,Hickman,,
+street,LILLESHALL STREET,,,E 3,,,
+cross_street,LILLESHALL STREET,,,,,,Off Corporation-road near Railway bridge
+cross_street,LILLESHALL STREET,,,,,,(RIGHT HAND SIDE.)
+resident,LILLESHALL STREET,2,,,Thomas,Ralph,ironworker,
+resident,LILLESHALL STREET,4,,,E.,Fieldhouse,ironworker,
+resident,LILLESHALL STREET,6,,,John W.,Carwardine,do,
+resident,LILLESHALL STREET,8,,,George,Gibbons,do,
+resident,LILLESHALL STREET,10,,,Edwd. Wm.,Bourne,do,
+resident,LILLESHALL STREET,12,,,W. T.,Honywood,wireman,
+resident,LILLESHALL STREET,14,,,Mrs. Sarah E.,Whittle,,
+resident,LILLESHALL STREET,16,,,Mrs Sarah,Grimaldi,,
+resident,LILLESHALL STREET,18,,,G. H.,Baggott,ironworker,
+resident,LILLESHALL STREET,20,,,C. H.,Jones,ironworker,
+resident,LILLESHALL STREET,22,,,Alfred,Lampitt,plasterer,
+resident,LILLESHALL STREET,24,,,Alfd.,Pope,dock labourer,
+cross_street,LILLESHALL STREET,,,,,,(return)
+resident,LILLESHALL STREET,25,,,Robert,Bennett,labourer,
+resident,LILLESHALL STREET,23,,,C. Wm.,Harris,ironwrkr,
+resident,LILLESHALL STREET,21,,,W.,Thompson,ironworker,
+resident,LILLESHALL STREET,19,,,Wm. E.,Shaw,ironworker,
+resident,LILLESHALL STREET,17,,,Thos.,Foster,ironworker,
+resident,LILLESHALL STREET,15,,,James,Payne,ironworker,
+resident,LILLESHALL STREET,13,,,Fred,Pugh,painter,
+resident,LILLESHALL STREET,11,,,Mrs. Annie,Farmer,,
+resident,LILLESHALL STREET,9,,,Mrs. Kate L.,Bolt,,
+resident,LILLESHALL STREET,7,,,Mrs. Charlotte,Boswell,,
+resident,LILLESHALL STREET,5,,,James,Clare,ironworker,
+resident,LILLESHALL STREET,3,,,Frederick,Ayres,labourer,
+resident,LILLESHALL STREET,1,,,Arthur J.,Filer,bundler,
+street,LIME CRESCENT,,,E 2,,,(FORMERLY ABERTHAW ROAD)
+resident,LIME CRESCENT,10,,,A. W.,Woodridge,,
+resident,LIME CRESCENT,12,,,Geo. F.,Tresize,fireman,
+resident,LIME CRESCENT,14,,,Stanley Wm.,Taylor,,
+resident,LIME CRESCENT,16,,,Thomas,Smith,sheet wghr,
+street,LIME STREET,,,E 5,,,
+cross_street,LIME STREET,,,,,,From 31 Countybella-terrace
+cross_street,LIME STREET,,,,,,(LEFT HAND SIDE.)
+resident,LIME STREET,1,,,Rd.,Stock,butcher,
+resident,LIME STREET,3,,,Percival,Parry,,
+resident,LIME STREET,5,,,Albert,Otton,dk police,
+resident,LIME STREET,7,,,David,Scannell,labourer,
+resident,LIME STREET,9,,,Ivor C.,Found,,
+resident,LIME STREET,11,,,Mrs. Ellen,Lane,,
+resident,LIME STREET,13,,,W.,Gibbs,engine driver,
+resident,LIME STREET,15,,,John,Bell,ship's painter,
+resident,LIME STREET,17,,,John Edwin,Morgan,labr,
+resident,LIME STREET,19,,,Fred,Climo,trimmer,
+resident,LIME STREET,21,,,Thos.,Brown,boilermaker,
+resident,LIME STREET,23,,,Andrew,Gray,rivet maker,
+resident,LIME STREET,25,,,Frank,Pollard,trimmer,
+resident,LIME STREET,27,,,Mrs. Emma,Beckett,,
+resident,LIME STREET,29,,,Mrs. M. A,Rackham,,
+resident,LIME STREET,31,,,H.,Swanborough,crane dr,
+resident,LIME STREET,33,,,Mrs. Mary E.,Edwards,,
+cross_street,LIME STREET,,,,,,here is Pottery-terrace
+resident,LIME STREET,35,,,Julius,Hansen,newsagent,
+resident,LIME STREET,37,,,David,Coleman,labourer,
+resident,LIME STREET,39,,,Austin J.,Thorn,G.W.R.,
+resident,LIME STREET,41,,,Benj.,Hall,labourer,
+resident,LIME STREET,43,,,Richard,Swales,labourer,
+resident,LIME STREET,45,,,David,Morgan,labourer,
+resident,LIME STREET,47,,,Russell G.,Pollock,labr,
+resident,LIME STREET,49,,,Wm.,Harvey,tipper,
+resident,LIME STREET,51,,,Alfred L.,Hall,coal shpr,
+resident,LIME STREET,53,,,Henry,Collings,,
+resident,LIME STREET,55,,,Elijah Frederick,Hooper,,
+resident,LIME STREET,,,Herbt.,Sheppard,platelyr,
+resident,LIME STREET,57,,,John,Hooper,labourer,
+resident,LIME STREET,59,,,Mrs. Ann,Price,shop,
+resident,LIME STREET,61,,,Mrs. Alice,Marks,,
+resident,LIME STREET,63,,,Fred,Hayman,labourer,
+resident,LIME STREET,65,,,Chas.,Smith,labourer,
+resident,LIME STREET,67,,,Robt.,Hall,labourer,
+resident,LIME STREET,69,,,Mrs. Ada,Flynn,,
+resident,LIME STREET,71,,,Matthew,Travers,labourer,
+resident,LIME STREET,73,,,John Ed.,Blackborough,,
+resident,LIME STREET,75,,,Owen,Price,rigger,
+resident,LIME STREET,77,,,Thomas,Scrivens,striker,
+resident,LIME STREET,79,,,Mrs. Mary Ann,Cadogan,,
+resident,LIME STREET,81,,,Edward,Brown,labourer,
+resident,LIME STREET,83,,,Mrs. Elizabeth,Allison,,
+resident,LIME STREET,85,,,B. R.,Buxton,trimmer,
+resident,LIME STREET,87,,,Miss Alice,Price,,
+resident,LIME STREET,89,,,William,Bale,trimmer,
+cross_street,LIME STREET,,,,,,DRILL HALL
+resident,LIME STREET,,,G. B. S.,Davies,battery sgt,
+resident,LIME STREET,,,H.,Bealey,reg. sgt.-major,
+cross_street,LIME STREET,,,,,,(return)
+resident,LIME STREET,92,,,Mrs. Mary,Harvey,,
+resident,LIME STREET,90,,,Michael,Leahy,,
+resident,LIME STREET,88,,,Jos. C.,Rondell,hoistman,
+resident,LIME STREET,86,,,Jas.,Biddicombe,labourer,
+resident,LIME STREET,84,,,James,Jones,labourer,
+resident,LIME STREET,82,,,Henry,Westacott,baker,
+resident,LIME STREET,80,,,Mrs. Hannah,Dyer,,
+resident,LIME STREET,78,,,Walter,Harris,labourer,
+resident,LIME STREET,76,,,J. H.,Jones,trimmer,
+resident,LIME STREET,74,,,Mrs. M. A.,Lewis,shop,
+resident,LIME STREET,72,,,Jere.,Harrington,trimmer,
+resident,LIME STREET,70,,,George,Travers,trimmer,
+resident,LIME STREET,68,,,John,Bickle,platelayer,
+resident,LIME STREET,66,,,E. P.,Stephens,labourer,
+resident,LIME STREET,64,,,Mrs. E.,Shepherd,nurse,
+resident,LIME STREET,62,,,W. J.,Francis,insp G.W.R.,
+resident,LIME STREET,60,,,John,Higgins,cranedriver,
+resident,LIME STREET,58,,,Wyndham,Hill,labourer,
+resident,LIME STREET,56,,,John,Harnett,trimmer,
+resident,LIME STREET,54,,,William,Mansfield,,
+resident,LIME STREET,52,,,Wm.,Oldfield,moulder,
+resident,LIME STREET,50,,,Daniel,Daley,assistant,
+resident,LIME STREET,48,,,Thomas,Rich,labourer,
+resident,LIME STREET,46,,,E. G.,Stanton,docker,
+resident,LIME STREET,44,,,Thos.,Bevan,labourer,
+resident,LIME STREET,42,,,John Herbert,Rees,fitter,
+resident,LIME STREET,40,,,W.,Pantall,labourer,
+resident,LIME STREET,38,,,Thos.,Norman,labourer,
+resident,LIME STREET,36,,,Wm. John,Harper,labr,
+resident,LIME STREET,34,,,Wm.,Glynn,labourer,
+resident,LIME STREET,32,,,John H.,Bale,labourer,
+resident,LIME STREET,30,,,Wm.,Monk,labourer,
+resident,LIME STREET,28,,,C. P.,Matthews,grocer,
+cross_street,LIME STREET,,,,,,here is Pottery-terrace
+resident,LIME STREET,26,,,William,Durbin,G.W.R.,
+resident,LIME STREET,24,,,Albert,Pullin,crane driver,
+resident,LIME STREET,22,,,Peter,Sanders,blacksmith,
+resident,LIME STREET,20,,,Mrs. Eliza,Bull,,
+resident,LIME STREET,18,,,Fredk.,Nicholas,boatman,
+resident,LIME STREET,16,,,Fredk.,Stacey,labourer,
+resident,LIME STREET,14,,,Wm.,Nicholas,labourer,
+resident,LIME STREET,12,,,Thomas,Powell,coal trmr,
+resident,LIME STREET,10,,,Robert,Pring,trimmer,
+resident,LIME STREET,8,,,Frederick,Stock,butcher,
+resident,LIME STREET,6,,,James,Eveleigh,G.W.R.,
+resident,LIME STREET,4,,,Abraham,Manship,stvdr,
+resident,LIME STREET,2,,,Wm. J.,Kenny,fitter,
+street,LINDEN ROAD,,,E 2,,,
+cross_street,LINDEN ROAD,,,,,,Somerton Garden Estate off Somerton-road
+cross_street,LINDEN ROAD,,,,,,(LEFT HAND SIDE.)
+resident,LINDEN ROAD,1,,,C. S.,Taylor,clerk,Penrhyn
+resident,LINDEN ROAD,3,,,Walter,Drake,Ferndale
+resident,LINDEN ROAD,5,,,James C.,Stewart,Brelade
+resident,LINDEN ROAD,7,,,Geo.,Stedman,Plemont
+resident,LINDEN ROAD,9,,,L. I.,Bagnall,Monon Gahelu
+resident,LINDEN ROAD,11,,,Geo. Hy.,Pugh,Llangorse
+resident,LINDEN ROAD,13,,,Wm. W.,Davis,Aysegarth
+resident,LINDEN ROAD,15,,,F. G.,Lander,Shaldon
+resident,LINDEN ROAD,17,,,Herb. W.,King,Colwyn
+resident,LINDEN ROAD,19,,,William,Williams,,
+resident,LINDEN ROAD,21,,,J. C.,Freeguard,Shenstone
+cross_street,LINDEN ROAD,,,,,,(return)
+resident,LINDEN ROAD,20,,,F. W.,Davies,eng driver
+resident,LINDEN ROAD,18,,,George,Jones,labourer,
+resident,LINDEN ROAD,16,,,Edwin,Graves,hairdrsr
+resident,LINDEN ROAD,14,,,James W.,Davies,guard
+resident,LINDEN ROAD,12,,,Thos. Hy.,Finch,linesman
+resident,LINDEN ROAD,10,,,Fredk. J.,Povey,police
+resident,LINDEN ROAD,8,,,J. H.,Edwards,political agt
+resident,LINDEN ROAD,6,,,I.,Vincent,Conservative agent for Monmouth
+resident,LINDEN ROAD,4,,,Arthur J.,Hart,engine dvr
+resident,LINDEN ROAD,2,,,Arthur,Cain,Celtic villa
+street,LINTON STREET,,,E 4,,,
+cross_street,LINTON STREET,,,,,,King's Parade to Castle-street
+resident,LINTON STREET,1,,,John,Coleman,newsvndor
+resident,LINTON STREET,3,,,Dennis,Hayes,hobbler
+resident,LINTON STREET,5,,,Ernest,Hayes,rigger
+resident,LINTON STREET,7,,,John,Vickery,labourer
+resident,LINTON STREET,9,,,William,O'Shea,,
+resident,LINTON STREET,11,,,Thomas,O'Neill,trimmer
+resident,LINTON STREET,13,,,James,Pring,trimmer

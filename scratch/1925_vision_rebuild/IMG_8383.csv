@@ -1,0 +1,149 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,CORNWALL ROAD,,,,,,continued
+resident,CORNWALL ROAD,,Olveston,Hy.,Downs,baker,
+resident,CORNWALL ROAD,,Honington,Fredk.,Cogbill,G.W.R.,
+resident,CORNWALL ROAD,,Longueil,Thomas D.,Howells,traveller,
+resident,CORNWALL ROAD,,Hillsboro,Charles H.,Styles,traveller,
+resident,CORNWALL ROAD,,,,Void,,
+resident,CORNWALL ROAD,,,,Void,,
+resident,CORNWALL ROAD,,Desmond Dene,Harold,Stephenson,ironwkr,
+resident,CORNWALL ROAD,,,Wm. Edward,Walliker,,
+resident,CORNWALL ROAD,,Nancegollan,Wm. F.,Warboys,,
+resident,CORNWALL ROAD,,Donivalman,George A.,Bulluck,clerk,
+street,CORPORATION ROAD,,,,,,Clarence-pl. to Lysaght's Wks. C 4 (LEFT HAND SIDE.)
+resident,CORPORATION ROAD,,Penmaen ho,Mrs. A. T.,Trace,,
+resident,CORPORATION ROAD,,,Ltd.,Trace,glass merchants,
+resident,CORPORATION ROAD,1,,Mrs.,Groome,Trephina,
+resident,CORPORATION ROAD,3,,William,Welton,labourer,
+resident,CORPORATION ROAD,5,Clyde house,W. H.,Strawbridge,Netherleigh,
+resident,CORPORATION ROAD,7,,George,Jordan,Henry,
+resident,CORPORATION ROAD,9,,Edward,Morgan,Ireleth,
+resident,CORPORATION ROAD,11,,Harry,Uzzell,greengrocer,
+resident,CORPORATION ROAD,13,,John F.,Cobb,Montrose,
+resident,CORPORATION ROAD,15,,Philip,Howard,mch eng,
+resident,CORPORATION ROAD,17,Edermine,Mrs. Gwendoline,Brewer,,
+resident,CORPORATION ROAD,19,,R.,Davies,p.o.,Hazelhurst
+resident,CORPORATION ROAD,21,Troy house,Mrs. Miriam,Powell,,
+cross_street,CORPORATION ROAD,,,,,,here is Bedford-road
+resident,CORPORATION ROAD,23,,J. W.,Watts,yeast mcht,
+resident,CORPORATION ROAD,,Cedar house,,,,
+resident,CORPORATION ROAD,25,,Mrs. F. L.,Evans,Marsden
+resident,CORPORATION ROAD,27,,Morris,Selby,G.W.R.,
+resident,CORPORATION ROAD,,Mozart house,,,,
+resident,CORPORATION ROAD,29,,St. Elmo—void,,,
+resident,CORPORATION ROAD,31,Eynon,Herbert,Wreford,Port
+resident,CORPORATION ROAD,33,Doverhay villa,Wm. N.,Ellaway,,
+resident,CORPORATION ROAD,35,,A.,Lovelock,builder,
+resident,CORPORATION ROAD,37,The Elms,Mrs. Mary Jane,Llewellyn,,
+cross_street,CORPORATION ROAD,,,,,,here is Cedar-road
+resident,CORPORATION ROAD,39,,A. F.,Kimpton,accountant,
+resident,CORPORATION ROAD,,,Mrs. S. A.,Porter,,
+resident,CORPORATION ROAD,41,Mafeking,Abraham,Harris,tailor,
+resident,CORPORATION ROAD,43,Trevethin,Harold,Smith,,
+resident,CORPORATION ROAD,45,Greyville,W.,Edwards,joiner,
+resident,CORPORATION ROAD,47,Rheddin,J. C.,Huxtable,Bailey,
+resident,CORPORATION ROAD,49,Brookdale,Victor,Boswell,traveller,
+resident,CORPORATION ROAD,51,St. Olives,Evan,Edwards,
+resident,CORPORATION ROAD,53,Glyn-lyn,Wm.,Workman,
+resident,CORPORATION ROAD,55,Rhosyn,Aubrey,Stoneman,Robert,
+resident,CORPORATION ROAD,57,,Mrs. Fanny,Trow,Briallu
+resident,CORPORATION ROAD,59,,John,North,captain,
+resident,CORPORATION ROAD,61,,A. E.,Jones,Bryndovey
+resident,CORPORATION ROAD,63,,A. H.,Shearn,accountant,
+resident,CORPORATION ROAD,65,,Arthur William,Barratt,journalist, Collipriest
+resident,CORPORATION ROAD,67,,,Daymond & Son,grocers,
+resident,CORPORATION ROAD,,,Albert L.,Lanning,,
+cross_street,CORPORATION ROAD,,,,,,here is Harrow-road
+resident,CORPORATION ROAD,71,,,Harvey's,greengr & conf,
+resident,CORPORATION ROAD,73,,,McGrath,Evan M.,
+resident,CORPORATION ROAD,75,Myrtle Grove,Mrs. P.,Shenkel,Maitland
+resident,CORPORATION ROAD,77,,,Rowlands,Mrs. E. M.,
+resident,CORPORATION ROAD,79,,Mrs. N. L.,Collins,school,
+resident,CORPORATION ROAD,81,void,,,,
+resident,CORPORATION ROAD,83,,Mrs. S. J.,Gwynne,Lawrenny
+resident,CORPORATION ROAD,85,Beechwood,Wm. J.,Matthias,,
+resident,CORPORATION ROAD,87,,Mrs. E.,Woods,Norlands
+resident,CORPORATION ROAD,89,,W. T.,Davies,Ferndale
+resident,CORPORATION ROAD,91,,C. E.,Griffiths,Belle Vue
+resident,CORPORATION ROAD,93,,John,Logie,Woodbine
+resident,CORPORATION ROAD,95,Denver,James W.,Laycock,inspct,
+resident,CORPORATION ROAD,97,,H. G.,Newman,Brentburn
+resident,CORPORATION ROAD,,,Mrs. Alma S.,Acland,,
+resident,CORPORATION ROAD,99,,Edwin,Williams,draper,
+resident,CORPORATION ROAD,,,,Vacant sites,,
+resident,CORPORATION ROAD,123,,E. J.,Herbert,sculptor,
+cross_street,CORPORATION ROAD,,,,,,here is Eton-road
+resident,CORPORATION ROAD,,,,PRESBYTERIAN F.M. CHURCH,,
+resident,CORPORATION ROAD,125,,James,Bray,G.W.R.,
+resident,CORPORATION ROAD,127,Rotherwille,Clement Chas.,Buckland,,
+resident,CORPORATION ROAD,129,,Hy. C.,Lodge,Le Chalet
+resident,CORPORATION ROAD,131,,J. Walter,Ellis,ironwnkr
+resident,CORPORATION ROAD,,,W. & Sons,Dark,decrts
+resident,CORPORATION ROAD,,,,Vacant sites,,
+cross_street,CORPORATION ROAD,,,,,,here is Malvern-road
+resident,CORPORATION ROAD,,Dover house,T. Frank,Nicholson,M.D., physician and surgeon,
+resident,CORPORATION ROAD,,,,Houses building,,
+resident,CORPORATION ROAD,,,,Vacant sites,,
+resident,CORPORATION ROAD,161,Hotel Victoria,John J.,Hart,,
+cross_street,CORPORATION ROAD,,,,,,here is Llanwern-street
+resident,CORPORATION ROAD,163,,F.,Belsten,gen dealer,
+resident,CORPORATION ROAD,165,,J. B.,Miller,fruiterer and grocer,
+resident,CORPORATION ROAD,167,,Mrs. E.,Edwards,shop,
+resident,CORPORATION ROAD,169,,M.,Roberts,tobacconist,
+resident,CORPORATION ROAD,171,,Lee,Mang,Chinese laund,
+resident,CORPORATION ROAD,173,,F.,Elson,second-hd dlr,
+resident,CORPORATION ROAD,175,,E. M.,Goulstone,tobacc,
+resident,CORPORATION ROAD,177,,R.,Edwards,butcher,
+cross_street,CORPORATION ROAD,,,,,,here is Bishton-street
+resident,CORPORATION ROAD,179,,,Co-operative Society's Branch stores,,
+resident,CORPORATION ROAD,,,Alfred Geo.,Ollin,labr
+resident,CORPORATION ROAD,181,,Fred,Bowen,hay and corn merchant
+resident,CORPORATION ROAD,,,,Bowen's haircutting sln,,
+resident,CORPORATION ROAD,183,,Mrs. Hester,Spiers,shop
+resident,CORPORATION ROAD,185,,Fredk. W.,Padfield,,
+resident,CORPORATION ROAD,187,,W.,Shutt,tob and conf
+resident,CORPORATION ROAD,189,,J.,Marshall,butcher,
+resident,CORPORATION ROAD,191a,,W.,Austin,watchmaker
+resident,CORPORATION ROAD,191,,Mrs. J.,Bickley,draper
+resident,CORPORATION ROAD,,,Godfrey L.,Squires,clerk
+resident,CORPORATION ROAD,193,,Geo.,Powell,confectioner
+cross_street,CORPORATION ROAD,,,,,,here is Wharf-road
+resident,CORPORATION ROAD,,,,CHURCH OF ST. MARY THE VIRGIN,,
+resident,CORPORATION ROAD,199,,Thomas,Jones,dairyman
+resident,CORPORATION ROAD,,,George,Penn,hairdresser
+resident,CORPORATION ROAD,201,,,Lewis L. & Son,haberdh
+resident,CORPORATION ROAD,203,,William,Weeks,upholstr
+resident,CORPORATION ROAD,205,,J.,Cawley,milliner, dr'pr
+resident,CORPORATION ROAD,,,G.,Groom,electrician
+resident,CORPORATION ROAD,207-209,,Excelsior Club and Institute—J. Stroud,std,,
+cross_street,CORPORATION ROAD,,,,,,here is Leonard-street
+resident,CORPORATION ROAD,211,,J. C.,Wheeler,Glenrosa
+resident,CORPORATION ROAD,213,,Mrs. L.,Beasley,Glenravon
+resident,CORPORATION ROAD,215,,Giles,Knight,ironworker
+resident,CORPORATION ROAD,217,,Will,Edwards,ironworker
+resident,CORPORATION ROAD,219,,P. J.,Parsons,motor insp
+resident,CORPORATION ROAD,221,,John,Banwell,furniture remover
+resident,CORPORATION ROAD,223,,Mrs. Clara A.,Beardmore,,
+resident,CORPORATION ROAD,,,,Vacant ground,,
+cross_street,CORPORATION ROAD,,,,,,here is Halstead-street
+resident,CORPORATION ROAD,237,,Mrs. E.,Russell,ale and porter dealer
+resident,CORPORATION ROAD,239-241,,Ernest Edwd,Ashton,draper and milliner
+resident,CORPORATION ROAD,,,Miss Emma,Gwynn,,
+resident,CORPORATION ROAD,243,,Geo. B.,Green,shop,
+resident,CORPORATION ROAD,245,,N.,Wolkand,tinware mfr
+resident,CORPORATION ROAD,247,,Mrs. J.,Legge,pawnbrkr
+resident,CORPORATION ROAD,,,,Building sites,,
+cross_street,CORPORATION ROAD,,,,,,here is Vivian-road
+resident,CORPORATION ROAD,261,,,Alsop & Sons,motor gar.
+resident,CORPORATION ROAD,,,Alex,Thom,motor agent
+resident,CORPORATION ROAD,263,,Fredk. C.,Wilmott,i'wkr
+resident,CORPORATION ROAD,265,,Samuel,Dawe,,
+resident,CORPORATION ROAD,267,,Edward Hy.,Hiscox,,
+resident,CORPORATION ROAD,269,,J. W.,Walters,ironwkr
+resident,CORPORATION ROAD,271,,P.,McGeever,ironworker
+cross_street,CORPORATION ROAD,,,,,,here the railway crosses
+resident,CORPORATION ROAD,273,,Tom,Banwell,furniture remover
+resident,CORPORATION ROAD,275,,H.,Webb,Grove house
+cross_street,CORPORATION ROAD,,,,,,here is Dudley-street
+resident,CORPORATION ROAD,277,,Henry,Annenburg,,
+resident,CORPORATION ROAD,279,,Geo.,Vaux,postman

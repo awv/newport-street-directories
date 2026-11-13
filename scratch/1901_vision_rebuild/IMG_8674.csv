@@ -1,0 +1,148 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,St. Stephen's Street,59,,William,Paul,labourer,
+resident,St. Stephen's Street,60,,Charles,Davies,sweep,
+resident,St. Stephen's Street,62,,Charles,Marley,signalmn,
+resident,St. Stephen's Street,63,,Robert,Cole,,
+resident,St. Stephen's Street,54,,A. S.,Dunn,carpenter,
+resident,St. Stephen's Street,65,Talbot Inn,E.,Griffiths,,
+street,St. Michael's Street,P.,,,,,Church-street to Castle-street.
+cross_street,St. Michael's Street,,,,,,[LEFT HAND SIDE.]
+resident,St. Michael's Street,,,Frank,Manship,labourer,
+resident,St. Michael's Street,,,Edward,Dahill,coal trimmer,
+resident,St. Michael's Street,1,,Richard,Fursey,shipsmith,
+resident,St. Michael's Street,2,,Thos.,Rowlands,coal trimmr,
+resident,St. Michael's Street,3,,Fredk.,Baker,coal trimmr,
+resident,St. Michael's Street,3,,Mrs Ann,Neal,,
+resident,St. Michael's Street,4,Rising Sun,R. C.,Pring,,
+resident,St. Michael's Street,5,,Stephen,Harnett,,
+resident,St. Michael's Street,6,,George,Manship,shop,
+resident,St. Michael's Street,7,,Patrick,Hart,coal trimmr,
+cross_street,St. Michael's Street,,,,,,here is Clarence-street.
+resident,St. Michael's Street,,,,,,ST. MICHAEL'S CATHOLIC CHURCH AND SCHOOLS
+resident,St. Michael's Street,19,,Mrs C.,Donoghue,,
+resident,St. Michael's Street,,,Patrick,Lancey,seaman,
+resident,St. Michael's Street,20,,John,Burke,coal trimmr,
+resident,St. Michael's Street,21,Orange Tree,R. W.,Syner,,
+cross_street,St. Michael's Street,,,,,,here is Castle-street.
+cross_street,St. Michael's Street,,,,,,(return.)
+resident,St. Michael's Street,22,,John H.,Pring,tugboat capt,
+resident,St. Michael's Street,23,,John,Sullivan,labourer,
+resident,St. Michael's Street,,,John,Donovan,labourer,
+resident,St. Michael's Street,,,Benjamin,Evans,labourer,
+resident,St. Michael's Street,,,John,Mahoney,labourer,
+resident,St. Michael's Street,24,,John,Ganner,labourer,
+resident,St. Michael's Street,,,Tom,Condon,seaman,
+resident,St. Michael's Street,,,Mrs Ann,Morgan,,
+resident,St. Michael's Street,25,,John,Hemmens,coal trimmr,
+resident,St. Michael's Street,26,,Mrs Catherine,Lawton,,
+resident,St. Michael's Street,27,,W. T.,Stephens,haulier,
+resident,St. Michael's Street,28,,Daniel,Lynch,labourer,
+resident,St. Michael's Street,29,,James,Thomas,boilermkr,
+resident,St. Michael's Street,30,,Jere,McCarthy,labourer,
+resident,St. Michael's Street,31,,Edward,Hughes,hobbler,
+resident,St. Michael's Street,32,,William,Curran,lab.urer,
+resident,St. Michael's Street,33,,,,Re-building,
+resident,St. Michael's Street,34,,,,do,
+resident,St. Michael's Street,35,,F. A.,Nicholls,baker,
+resident,St. Michael's Street,36,,G. W.,South,haulier,
+resident,St. Michael's Street,37,,James,Fry,labourer,
+resident,St. Michael's Street,38,,Edwin,Manship,,
+resident,St. Michael's Street,39,,Mrs Mary Ann,Riddle,,
+resident,St. Michael's Street,40,,Thos.,Courtney,trimmer,
+resident,St. Michael's Street,41,,Patk.,Sullivan,trimmer,
+resident,St. Michael's Street,42,,Frank,Osmond,labourer,
+resident,St. Michael's Street,43,,John W.,Phillips,trimmer,
+street,St. Stephen's Street,25,,,,Alexandra-road to Mill-par.
+resident,St. Stephen's Street,25,,Danl.,Murphy,furnacemn
+resident,St. Stephen's Street,26,,Thomas,Weetch,baker
+resident,St. Stephen's Street,27,,J. H.,Mills,painter
+resident,St. Stephen's Street,27,,John,Herbert,bookseller
+cross_street,St. Stephen's Street,,,,,,(return.)
+resident,St. Stephen's Street,28,,John,Gayton,carpenter
+resident,St. Stephen's Street,29,,James,Jones,foreman
+resident,St. Stephen's Street,30,,John,Lyons,painter
+resident,St. Stephen's Street,31,,W.,Collard,joiner
+resident,St. Stephen's Street,32,,Charles E.,Evans,baker
+resident,St. Stephen's Street,33,,Thomas,James,baker
+resident,St. Stephen's Street,,,Mrs Maria,James' bakehouse
+cross_street,St. Stephen's Street,,,,,,here is Jones-street.
+resident,St. Stephen's Street,34,,Algie,Musty,coal mercht
+street,St. Woolos Place,B.,,,,,From 23 St. Woolos-road.
+cross_street,St. Woolos Place,B.,,,,,, [RIGHT HAND SIDE.]
+resident,St. Woolos Place,B.,1,,John,Fooks,moulder
+resident,St. Woolos Place,B.,2,,Leonard,Innes,platelayer
+resident,St. Woolos Place,B.,3,,John,Davies,coalman
+resident,St. Woolos Place,B.,4,,Henry,Phelps,fireman
+resident,St. Woolos Place,B.,5,,Joseph,Prosser,coachman
+resident,St. Woolos Place,B.,6,,David,Jones,signalman
+resident,St. Woolos Place,B.,7,,Mrs Maria,Davies,
+resident,St. Woolos Place,B.,8,,Edmund,Evans,haulier
+cross_street,St. Woolos Place,B.,,,,,,(return.)
+resident,St. Woolos Place,B.,9,,Wm.,Bradshaw,moulder
+resident,St. Woolos Place,B.,10,,John Hy.,Jenkins,mason
+resident,St. Woolos Place,B.,11,,Chas.,Watkins,machinist
+resident,St. Woolos Place,B.,12,,Charles,Brown,gardener
+resident,St. Woolos Place,B.,13,,John,Brown,carpenter
+resident,St. Woolos Place,B.,14,,Wm.,Jenkins,Port Sanitary inspector
+resident,St. Woolos Place,B.,15,,W. H.,Edmunds,painter
+street,St. Woolos Road,B.,,,,,34 St. Mary-st. to Clifton-rd.
+cross_street,St. Woolos Road,B.,,,,,, [RIGHT HAND SIDE.]
+resident,St. Woolos Road,B.,1,Prince of Wales,Jos. E.,Jennings,
+resident,St. Woolos Road,B.,2,,Philip,Morgan,smith
+resident,St. Woolos Road,B.,3,,Joseph,Gumm,gardener
+resident,St. Woolos Road,B.,4,,Jos. Hy.,Nicholas,labourer
+resident,St. Woolos Road,B.,5,,William,Davies,mason
+resident,St. Woolos Road,B.,6,,Miss,Marment,dressmakr
+resident,St. Woolos Road,B.,7,,Thomas,Davies,plasterer
+resident,St. Woolos Road,B.,8,,Fredk.,Watts,plumber, &c
+resident,St. Woolos Road,B.,8a,,Wm. A.,James,bootmakr
+cross_street,St. Woolos Road,B.,,,,,,here is Graham-street.
+resident,St. Woolos Road,B.,9,Wellington Inn,A.,Porter,,
+resident,St. Woolos Road,B.,10,,George,Evans,labourer
+resident,St. Woolos Road,B.,11,,Mrs Elizabeth,Smythe,,
+resident,St. Woolos Road,B.,12,,W.,Richards,sailmaker
+resident,St. Woolos Road,B.,13,,Chas. Robt.,Willis,waiter
+resident,St. Woolos Road,B.,14,,John,Tooze,police sergt.
+resident,St. Woolos Road,B.,15,,George,Plaister,grocer
+cross_street,St. Woolos Road,B.,,,,,,here is St. Julian-street.
+resident,St. Woolos Road,B.,16,,Mrs S.,Oakey,,
+resident,St. Woolos Road,B.,17,,Mrs M. A.,Nursey,,
+resident,St. Woolos Road,B.,18,,Arth.,Packer,police sergt
+resident,St. Woolos Road,B.,19,,George,Lewis,gardener
+resident,St. Woolos Road,B.,20,,John,Pegler,gardener
+resident,St. Woolos Road,B.,21,,Geo.,Compton,carpenter
+resident,St. Woolos Road,B.,22,,H.,Cocker,signalman
+resident,St. Woolos Road,B.,23,,J.,Bartlett,boilermaker
+cross_street,St. Woolos Road,B.,,,,,,here is St. Woolos-place.
+resident,St. Woolos Road,B.,24,,Henry,Partridge,butcher
+street,Salisbury Road,,,,,,,Bryngwyn-rd. to Llanthewy-rd.
+street,Scard Street,B.,,,,,From North-st. to Bailey st.
+resident,Scard Street,B.,1,,Mrs M. A.,Vale,,
+resident,Scard Street,B.,2,,Mrs Annie,Watkins,shopkr
+resident,Scard Street,B.,,,& Son,Hooper,carpenters
+resident,Scard Street,B.,3,,John,Cooksley,clerk
+resident,Scard Street,B.,4,,John,Swallow,guard B&M.R
+resident,Scard Street,B.,5,,Thomas,Gabb,engine drvr
+cross_street,Scard Street,B.,,,,,,(return.)
+resident,Scard Street,B.,6,,James,Hovey,ruler
+resident,Scard Street,B.,7,,P.,Torrington,carpenter
+resident,Scard Street,B.,8,,ticket collector,Cook Rd.,
+resident,Scard Street,B.,9,,Frederick,Watkins,haulier
+street,Screw Packet Road,,,,,,,From High-street.
+resident,Screw Packet Road,,,,Newport Builders' Supply Co. Ltd.,,Baltic wharf
+resident,Screw Packet Road,,,,Nicholas & Co.,,Baltic wharf
+resident,Screw Packet Road,,,,Phillips & Son's,,flour stores
+street,Serpentine Road,,,,,,,Godfrey-road to Gold Tops.
+resident,Serpentine Road,,,Tregleath,B. H.,Jones,,
+resident,Serpentine Road,,,Elmscott,W. L.,Moore,,
+resident,Serpentine Road,,,Fairfield,A. J.,Liscombe,,
+resident,Serpentine Road,,,Sharnbrook,A.,Billingham,,
+resident,Serpentine Road,,,do,L. B.,Moore,,
+resident,Serpentine Road,,,Elmwood,Isaac,Crocker,
+resident,Serpentine Road,,,Cleveland,Henry,Griffiths,,
+resident,Serpentine Road,,,Llangorse,John,Jackson,,
+resident,Serpentine Road,,,Thornton,Theobaldo,Checchi,,
+resident,Serpentine Road,,,,Mrs,Price,,
+resident,Serpentine Road,,,Silverhowe,S. O.,Hands,,
+resident,Serpentine Road,,,Colwinstone,W.,Griffiths,J.P.
+resident,Serpentine Road,,do,W. L.,Griffiths,architect

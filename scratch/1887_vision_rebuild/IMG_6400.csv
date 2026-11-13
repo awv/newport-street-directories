@@ -1,0 +1,139 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,Charles Street,,,,Staunton T.,carpenter &c.,
+resident,Charles Street,5,,,King George,guard,
+cross_street,Charles Street,,,,,,here is Williams-street.
+resident,Charles Street,6,,,Thomas D.,pattern mkr.,
+cross_street,Charles Street,,,,,,here is Capel st. (return.)
+resident,Charles Street,6A,,,Dalton J.,greengrocer,
+resident,Charles Street,7,,,Steele Stephen,mariner,
+resident,Charles Street,8,,,Jeffery Jas.,boat builder,
+resident,Charles Street,9,,,Baiss Dl.,iron dresser,
+resident,Charles Street,10,,,Blake Jno. H.,gen. dlr.,
+cross_street,Charles Street,,,,,,here is Upper Williams-st.
+resident,Charles Street,,,,Tredegar Wf. Infnts' Schl,,
+resident,Charles Street,11,,,Void,,
+resident,Charles Street,12,,,Foxall John,,
+cross_street,Charles Street,,,,,,here is Upper Raglan-st.
+resident,Charles Street,,,,Patent Dry Gas Meter works—Messrs. Foxall Llewellin, Jones & Co.,,
+resident,Charles Street,13,,,Clarke George,sawyer,
+resident,Charles Street,14,,,Williams J.,blacksmith,
+resident,Charles Street,15,,,Charles Wm.,moulder,
+resident,Charles Street,16,,,Davies Samuel,surveyor,
+resident,Charles Street,,,,Davies Thomas,,,ditto
+street,Chepstow Road,,,,,,,From Clarence-place.
+resident,Chepstow Road,,,Eastgate villas,Wm. I.,Bush,,
+resident,Chepstow Road,,,2 ditto,H. E.,Baddeley,,
+resident,Chepstow Road,,,Lyncombe villa,Mrs. E.,Greenland,,
+resident,Chepstow Road,,,Melver-ton villa,Jno. T.,Williams,,
+resident,Chepstow Road,1,,,W.,Sheaf,veterinary surgeon,Windsor house
+resident,Chepstow Road,2,,,Mrs. J.,Graham,Victoria villa,
+resident,Chepstow Road,3,,,The Misses,Willmett,,Cambridge villa
+resident,Chepstow Road,4,,,Charles J.,Chapman,,Osborne villa
+resident,Chepstow Road,5,,,C. F. H.,Chambers,,Beaufort villa
+resident,Chepstow Road,6,,,John,Richards,,Clytha v
+resident,Chepstow Road,7,,,Edward,Lloyd,,Carisbrooke villa
+resident,Chepstow Road,8,,,John,Lewis,,Elling villa
+resident,Chepstow Road,9,,,Jas.,Kerslake,,Atherstone villa
+resident,Chepstow Road,10,,,W. Albert,Kinsey-Morgan,villa,
+resident,Chepstow Road,11,,,Hy.,Jones,Hilston villa,
+resident,Chepstow Road,12,,,Dl.,Lewis,Upton villa,
+resident,Chepstow Road,13,,,Henry,Willmett,,Glenbrook villa
+resident,Chepstow Road,14,,,Wm.,Needham,,Clifton v
+resident,Chepstow Road,15,,,A. J.,Woodcock,,Grantham villa
+resident,Chepstow Road,16,,,J. B.,Serjeant,York villa,
+resident,Chepstow Road,17,,,Clarence villa—Void,,
+resident,Chepstow Road,18,,,Rochefort villa—Void,,
+resident,Chepstow Road,19,,,F. P.,Robjent,Usk villa,
+resident,Chepstow Road,20,,,R. B.,Evans,Belvoir ho,
+resident,Chepstow Road,21,,,Wm.,Jones,Stanley, Nolton villa,
+resident,Chepstow Road,22,,,G. F.,Thorne,Heber villa,
+resident,Chepstow Road,23,,,Mrs. T.,Spittle,Netherton villa,
+resident,Chepstow Road,24,,,David,Price,Sefton villa,
+resident,Chepstow Road,25,,,C.,Lancefield,Winslow h,
+cross_street,Chepstow Road,,,,,,(return.)
+resident,Chepstow Road,,,,1, Oak vil,Stephen,Morgan,
+resident,Chepstow Road,,,,2, ditto,Andrew,Rollason,
+resident,Chepstow Road,,,,Slade John,builder,,
+resident,Chepstow Road,,,,Austin Villa,James,Palmer,Clarinda villa
+resident,Chepstow Road,,,,Two villas building,,,
+resident,Chepstow Road,,,,Cosham vil,Peter,Rochard,New villa
+resident,Chepstow Road,,,,Llan Pantêg,Mrs. S.,Williams,,
+resident,Chepstow Road,,,,Llan Wallis,T.,Fudge,,
+resident,Chepstow Road,,,,Two semi-detached villas Two ditto,,,
+resident,Chepstow Road,,,,Belmont,H.,Ivins,,
+resident,Chepstow Road,,,,Claremont,John,Williams,,
+resident,Chepstow Road,,,,Lindenhurst,J. R.,Packer,,
+resident,Chepstow Road,,,,Thomas John T.,surgeon,Arundel villa
+resident,Chepstow Road,,,,Wm.,Joseph,Curzon villa,
+resident,Chepstow Road,,,,John,Pickford,Portfield ho.,
+resident,Chepstow Road,,,,W.,Gill,Hobart house,
+resident,Chepstow Road,,,,Mrs. T. F.,Lewis,Belgrade ho,
+resident,Chepstow Road,,,,C. H. W.,Grasdorff,Meadow park house,
+resident,Chepstow Road,,,,Walter,Roberts,Idris house,
+resident,Chepstow Road,,,,Chas.,Ashwin,Ambrose vil.,
+resident,Chepstow Road,,,,Thos.,Morgan,Field villa,
+cross_street,Chepstow Road,,,,,,See also Maindee List.
+street,Church Road, B.T.,,,,,,,From Hereford-place to Duckpool-road.
+resident,Church Road, B.T.,1,,,Mrs. Ann,George,Tal-garth house,
+resident,Church Road, B.T.,2,,,D.,Davies,pattern maker,
+resident,Church Road, B.T.,3,,,Jos.,Francis,labourer,
+resident,Church Road, B.T.,4,,,Mrs. B.,Woodcock,,
+resident,Church Road, B.T.,5,,,John,Davies,signalman,
+resident,Church Road, B.T.,5,,,Ezra,Lewis,helve mkr.,
+resident,Church Road, B.T.,6*,,,Thos. jun.,Osborn,painter,"[*Nos. 6 to Duckpool-road are in Maindee district.]"
+resident,Church Road, B.T.,7,,,Thos.,Nancekievill,clerk,
+resident,Church Road, B.T.,,,,T.,Symons,,
+resident,Church Road, B.T.,8,,,Uriah,Dole,,
+resident,Church Road, B.T.,9,,,Alex.,Mackie,Sergt-maj,
+resident,Church Road, B.T.,10,,,Jas.,Jones,assistant,
+resident,Church Road, B.T.,11,,,Wm.,Trenchard,fitter,
+resident,Church Road, B.T.,12,,,James,King,cellerman,
+resident,Church Road, B.T.,13,,,Ed.,Richards,grocer, &c.,
+resident,Church Road, B.T.,,,,Wesleyan Mission Hall,,
+cross_street,Church Road, B.T.,,,,,,here is Princes-street.
+resident,Church Road, B.T.,14,,,S.,Baker,grocer,baker,&c,
+resident,Church Road, B.T.,15,,,John,Bray,groom,
+resident,Church Road, B.T.,16,,,Ezra,Lewis,helve maker,
+resident,Church Road, B.T.,17,,,S. W.,Taylor,insurance agent,
+resident,Church Road, B.T.,18,,,Mrs. Mary Ann,Thomas,,
+resident,Church Road, B.T.,19,,,Gatfield,,,
+resident,Church Road, B.T.,20,,,Richd.,Webber,builder,
+street,CALNE PLACE,,,,,,,
+resident,CALNE PLACE,21,,,Herbert,Davies,plasterer,
+resident,CALNE PLACE,22,,,John,Gleed,Rose cot.,
+resident,CALNE PLACE,23,,,B. H.,Seccombe,Ivy cot.,
+resident,CALNE PLACE,24,,,Saml.,Trevascus,Moss co.,
+resident,CALNE PLACE,25,,,J. T.,Morris,Fern cot.,
+resident,CALNE PLACE,26,,,J.,Williams,gilder,Ash co.,
+resident,CALNE PLACE,27,,,Joseph,Nutt,Elm cot.,
+resident,CALNE PLACE,28,,,Ed.,Dunstan,Geo.Oak co.,
+resident,CALNE PLACE,29,,,John,Cox,Rose cottage,
+resident,CALNE PLACE,30,,,Jno.,Phillips,timbermer,
+resident,CALNE PLACE,31,,,Miss M.,Roberts,,
+resident,CALNE PLACE,32,,,Henry,Evans,,
+resident,CALNE PLACE,33,,,Jno.,Lang,insurance agnt,
+resident,CALNE PLACE,34,,,W. A.,Lanfear,grocer and baker,
+cross_street,CALNE PLACE,,,,,,here is Hereford-street.
+resident,CALNE PLACE,,,,St. Matthew's Church,,
+street,AUSTIN PLACE,,,,,,,
+resident,AUSTIN PLACE,21,,,W.,Hews,bootmaker,
+resident,AUSTIN PLACE,20,,,Wm.,Richards,builder,
+resident,AUSTIN PLACE,19,,,Geo.,Brown,carpenter,
+resident,AUSTIN PLACE,18,,,G. T.,Pelley,accountant,
+resident,AUSTIN PLACE,17,,,Thos.,Grove,cutter,
+resident,AUSTIN PLACE,16,,,Jno. F.,Powell,traveller,
+resident,AUSTIN PLACE,15,,,Mrs. Sarah,Wilks,,
+resident,AUSTIN PLACE,14,,,Jno. G.,Leng,watchmakr,
+resident,AUSTIN PLACE,13,,,Ernest E.,Hayter,,
+resident,AUSTIN PLACE,12,,,Geo.,Thomas,clerk,
+resident,AUSTIN PLACE,11,,,,,,
+resident,AUSTIN PLACE,10,,,Mrs. Maria,Llewellyn,,
+resident,AUSTIN PLACE,9,,,Geo. J.,Mills,master mar,
+resident,AUSTIN PLACE,8,,,Thos.,Hill,tailor,
+resident,AUSTIN PLACE,7,,,A. W.,Little,P.O. clerk,
+resident,AUSTIN PLACE,6,,,Mrs. E. M.,Lewis,,
+resident,AUSTIN PLACE,5,,,Geo.,Bond,telegraphist,
+resident,AUSTIN PLACE,4,,,Alfd.,Wilks,engineer,
+resident,AUSTIN PLACE,3,,,S.,Gronow,coal mer.,
+resident,AUSTIN PLACE,2,,,Mrs. Ann J.,Turner,,
+resident,AUSTIN PLACE,1,,,S.,Swanton,grocer &c.,

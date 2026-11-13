@@ -1,0 +1,161 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,BRY,130,,James Alfred,George,,
+resident,BRY,132,,Henry,Wust,,
+resident,BRY,134,,Walter,Morris,,
+cross_street,BRY,,,entrance to Crindau-road,,,,
+resident,BRY,,,E. W.,Kirby,,tailor Penmorva
+resident,BRY,,,A. J.,Kirby,,tailor Wyvenhoe
+resident,BRY,,,Major Kate,Stewart,,(S.A.) Simla
+resident,BRY,,,Ty-gwyn-void,,,
+cross_street,BRY,,,(return),,,,
+resident,BRY,,,6 houses building,,,
+resident,BRY,,,4 vacant sites,,,
+resident,BRY,57,,Ed.,Mason,traveller,
+resident,BRY,,,Edward,Norman,currier,
+resident,BRY,,,Rev. S. G.,Morgan,curate,"All Saints' Vicarage"
+building,BRY,,,ALL SAINTS' CHURCH,,,,
+resident,BRY,1,,J. N.,Uzzell,,Morthoe
+street,BRYNGWYN ROAD,C 5,,,,,"From 13 Clytha Park-road."
+cross_street,BRYNGWYN ROAD,,,(RIGHT HAND SIDE.),,,,
+resident,BRYNGWYN ROAD,2,,Mrs.,Dowdall,,The Leys
+resident,BRYNGWYN ROAD,4,,H. J.,Pillinger,,Downfield
+resident,BRYNGWYN ROAD,6,,Miss S.,Quarm,,Arbaland
+resident,BRYNGWYN ROAD,,,Mrs. A. E.,Hill,cer. nurse,
+resident,BRYNGWYN ROAD,,,T. W.,Bayspoole,bank mgr,
+resident,BRYNGWYN ROAD,8,,J. H.,Williams,,Brookfield
+resident,BRYNGWYN ROAD,10,,N. de B.,Ozanne,,Bryn-gwyn house
+resident,BRYNGWYN ROAD,12,,Mrs. A. F.,Cross,,Gwynfryn
+resident,BRYNGWYN ROAD,14,,James,Dobbie,Caersws,
+resident,BRYNGWYN ROAD,16,,Herb. J.,Strong,,Wembly
+resident,BRYNGWYN ROAD,18,,Mrs. E. E.,Shepherd,,Glenorleigh
+resident,BRYNGWYN ROAD,,,Valentine,Shepherd,,
+resident,BRYNGWYN ROAD,20,,Mrs. Kate M.,Hyslop,,Cairney Croft
+resident,BRYNGWYN ROAD,22,,R. Chas.,Taylor,,Tintage
+resident,BRYNGWYN ROAD,24,,Alfred W.,Lewis,,Kyam
+resident,BRYNGWYN ROAD,26,,P. N.,Meares,,Ridgbourn
+resident,BRYNGWYN ROAD,28,,David John,Griffiths,,
+resident,BRYNGWYN ROAD,30,,J. H.,Jones,,Brooklands
+resident,BRYNGWYN ROAD,32,,Rev. Chas. J.,Barry,,Brookside
+resident,BRYNGWYN ROAD,34,,Mrs. H. S.,Wilkinson,,Lindenhurst
+resident,BRYNGWYN ROAD,36,,P. C. P.,Ingram,M.B. B.S. LOND.,
+resident,BRYNGWYN ROAD,38,,A.,McFarlane,,Glen-Luss
+cross_street,BRYNGWYN ROAD,,,here is Hulla-road,,,,
+resident,BRYNGWYN ROAD,40,,James F.,Fulton,,
+resident,BRYNGWYN ROAD,42,,F. T.,Hammett,,Cliff Parc
+resident,BRYNGWYN ROAD,44,,J. I.,Wilkins,,Bryn-y-mynydd
+resident,BRYNGWYN ROAD,46,,Mrs. K.,Andrews,,Redwick
+resident,BRYNGWYN ROAD,48,,Henry,Morle,,
+resident,BRYNGWYN ROAD,50,,John F.,Lewis,,
+resident,BRYNGWYN ROAD,52,,Benjamin,Francis,J.P.,
+resident,BRYNGWYN ROAD,54,,Charles,Ince,,
+resident,BRYNGWYN ROAD,56,,Wm. T.,Bond,,Harlyn
+resident,BRYNGWYN ROAD,58,,W. T.,Watkins,,Hollybush
+resident,BRYNGWYN ROAD,60,,David R.,Jones,,
+resident,BRYNGWYN ROAD,62,,W. E.,Evans,,Lismoyle
+resident,BRYNGWYN ROAD,64,,J. M.,Holt,,
+resident,BRYNGWYN ROAD,66,,Eric,Boughton,,
+resident,BRYNGWYN ROAD,68,,Wm. L.,Coles,,The Dell
+resident,BRYNGWYN ROAD,70,,Rev. Wm.,Totell,,Clovelly
+resident,BRYNGWYN ROAD,72,,William Philip,Newman,,Duckham
+resident,BRYNGWYN ROAD,,,South Lands,,,
+resident,BRYNGWYN ROAD,74,,John,Beer,Mount view,
+building,BRYNGWYN ROAD,,,CLYTHA COUNCIL SCHOOLS,,,,
+cross_street,BRYNGWYN ROAD,,,(return),,,,
+resident,BRYNGWYN ROAD,,,Vacant sites,,,
+resident,BRYNGWYN ROAD,59,,Mrs. Amanda M.,Griffiths,,
+resident,BRYNGWYN ROAD,57,,George L.,Herbert,,
+resident,BRYNGWYN ROAD,55,,Thos.,Stobbs,,Morpeth
+resident,BRYNGWYN ROAD,53,,C. E.,Tebbs,,Hatherleigh
+resident,BRYNGWYN ROAD,51,,William S.,James,,
+resident,BRYNGWYN ROAD,49,,Thomas Hunter,Railton,,St. Ives
+resident,BRYNGWYN ROAD,47,,F.,Hoskin,jeweller,
+resident,BRYNGWYN ROAD,45,,Harry,Holt,Rydal Mount,
+resident,BRYNGWYN ROAD,,,Joseph,Gee,,
+resident,BRYNGWYN ROAD,43,,Ludwig,Kjelsen,ship chlr,
+resident,BRYNGWYN ROAD,41,,E.,Pool,,Mon. Caprice
+resident,BRYNGWYN ROAD,39,,Miss Frances,Blackborow,,
+resident,BRYNGWYN ROAD,37,,Rd. J.,Langmaid,,The Durdans
+resident,BRYNGWYN ROAD,35,,Mrs. M.,Hedley,,
+resident,BRYNGWYN ROAD,33,,H.,Greenland,St. Deiniol's,
+resident,BRYNGWYN ROAD,31,,Stanley,Jones,Vallombrosa,
+resident,BRYNGWYN ROAD,29,,W. S.,Morse,Chevington,
+resident,BRYNGWYN ROAD,27,,Mrs. Jeannette,Hughes,,Haverscroft
+cross_street,BRYNGWYN ROAD,,,here is Burleigh-road.,,,,
+resident,BRYNGWYN ROAD,25,,Samuel,Jacobs,Fairfield,
+resident,BRYNGWYN ROAD,23,,Hy.,Lewis,St. Albans,
+resident,BRYNGWYN ROAD,21,,T. S.,Perkins,Osbaston,
+resident,BRYNGWYN ROAD,19,,Miss Margaret Jane,Jones,,
+resident,BRYNGWYN ROAD,,,Miss S. A.,Jones,,
+resident,BRYNGWYN ROAD,17,,Michael,Ash,Humoreske,
+resident,BRYNGWYN ROAD,15,,Chas.,Grant B.,Ashbrook,
+resident,BRYNGWYN ROAD,13,,Hbt.,Phillips,Abbotsford,
+resident,BRYNGWYN ROAD,11,,John,Harris,Etoile,
+resident,BRYNGWYN ROAD,9,,W.,Llewellyn,Nant Herbert,
+resident,BRYNGWYN ROAD,5,,Rev. E. Walrond,Skinner,,Trevaine
+resident,BRYNGWYN ROAD,3,,T. P.,Haggett,Cargate,
+resident,BRYNGWYN ROAD,1,,J. H.,Gameson,Coningsby,
+street,BRYNHYFRYD AVENUE,D5,,,,,"From Brynhyfryd-road"
+cross_street,BRYNHYFRYD AVENUE,,,(RIGHT HAND SIDE.),,,,
+resident,BRYNHYFRYD AVENUE,2,,W. H.,Victory,,
+resident,BRYNHYFRYD AVENUE,4,,Chas. H.,Lyle,Clubworthy,
+resident,BRYNHYFRYD AVENUE,6,,Joseph,Rowe,Ruskin,
+resident,BRYNHYFRYD AVENUE,8,,W. R.,Williams,,
+resident,BRYNHYFRYD AVENUE,10,,Arthur H.,Langford,,
+resident,BRYNHYFRYD AVENUE,12,,David R.,Lewis,,
+resident,BRYNHYFRYD AVENUE,14,,P. W.,Green,Willesdon,
+resident,BRYNHYFRYD AVENUE,16,,Mrs. F. E.,Davies,,
+resident,BRYNHYFRYD AVENUE,18,,Wm. D. G.,Wilson,accnt,
+cross_street,BRYNHYFRYD AVENUE,,,Here is Stow Hill.,,,,
+cross_street,BRYNHYFRYD AVENUE,,,(return),,,,
+resident,BRY,37,,W. F.,Leonard,,Aylwin
+resident,BRY,35,,Albert,Tuttiett,,
+resident,BRY,33,,Charles,Chapman,,
+resident,BRY,31,,Silas,Williams,,Gwynno
+resident,BRY,29,,H.,Weaver,,Oakdene
+resident,BRY,27,,E. F.,Duckham,,Montrose
+resident,BRY,25,,J. W.,Lawrence,,Treffgarne
+resident,BRY,23,,Alfred,Pugh,,Overdale
+resident,BRY,21,,G.,Gillanders,,Rosemarkie
+resident,BRY,19,,R.,Thompson,,Kedleston
+resident,BRY,17,,R. K.,Wellsteed,,Riverstone
+resident,BRY,15,,Miss Louisa M.,Harris,,
+resident,BRY,13,,Mrs. M. W.,Parkes,,Danesbury
+resident,BRY,11,,Alfred Pearce,Bailey,,Ravenswood
+resident,BRY,9,,Fredk.,Fisher,,Newton
+resident,BRY,7,,T.,Hughes,,Glan-arran
+resident,BRY,5,,A. B.,Moon,teacher,
+resident,BRY,3,,Joseph,Dunn,,Ilfra
+resident,BRY,1,,Victor Henry C.,Phillips,,Westward ho
+street,BRYNHYFRYD ROAD,D 5,,,,,"Stow-hill to Clyffard-crescent"
+cross_street,BRYNHYFRYD ROAD,,,(LEFT HAND SIDE),,,,
+resident,BRYNHYFRYD ROAD,1,,Humphrey,Davies,,
+resident,BRYNHYFRYD ROAD,3,,Miss E.,Herbert,,Eaglescliffe
+resident,BRYNHYFRYD ROAD,5,,Ilttyd,Howell,,Ben Nevis
+resident,BRYNHYFRYD ROAD,7,,J. R.,Jones,,Ty-Bryn
+resident,BRYNHYFRYD ROAD,9,,W.,Lawrence,,Beachley
+resident,BRYNHYFRYD ROAD,11,,Mrs. Annie C.,Blow,,Claremont
+resident,BRYNHYFRYD ROAD,13,,J. B. A.,Common,,Wcycliffe
+resident,BRYNHYFRYD ROAD,15,,John R.,Pickford,,Clifton Mount
+resident,BRYNHYFRYD ROAD,17,,Thomas,White,,
+resident,BRYNHYFRYD ROAD,19,,R. S.,Johns,,St. Donats
+resident,BRYNHYFRYD ROAD,21,,J. W.,Morgan,,
+resident,BRYNHYFRYD ROAD,23,,J.,Williams,,Llwyn Celyn
+resident,BRYNHYFRYD ROAD,25,,Alex. B.,Beedie,,
+resident,BRYNHYFRYD ROAD,27,,John L.,Leech,,Mostyn
+resident,BRYNHYFRYD ROAD,29,,William Ewart,Dixon,,
+cross_street,BRYNHYFRYD ROAD,,,(return),,,,
+resident,BRYNHYFRYD ROAD,,,Mrs. Selina,Matthias,,
+resident,BRYNHYFRYD ROAD,,,Capt. J. J.,Williams,,
+resident,BRYNHYFRYD ROAD,,,Ernest W.,Avery,,The Glen
+resident,BRYNHYFRYD ROAD,,,Vacant sites,,,
+resident,BRYNHYFRYD ROAD,20,,Wm. G.,Watts,,
+resident,BRYNHYFRYD ROAD,18,,H. C.,Saunders,,Arendal
+resident,BRYNHYFRYD ROAD,16,,Owen W.,Davies,,Cartref
+resident,BRYNHYFRYD ROAD,14,,E. W.,Evans,,Ceinfan
+resident,BRYNHYFRYD ROAD,12,,Frank,Brown,,Haverstock
+resident,BRYNHYFRYD ROAD,10,,Miss E. I.,Haskins,A.M.C.,
+cross_street,BRYNHYFRYD ROAD,,,here is Brynhyfryd avenue.,,,,
+resident,BRYNHYFRYD ROAD,8,,Mrs. M. A.,Alger,,Westbury
+resident,BRYNHYFRYD ROAD,6,,J. P.,Gwatkin,,Henleaze
+resident,BRYNHYFRYD ROAD,6a,,Henry Arthur,Jeffreys,,
+building,BRYNHYFRYD ROAD,,,STOW PARK PRESBYTERIAN CHURCH,,,,

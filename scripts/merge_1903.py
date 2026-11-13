@@ -25,7 +25,9 @@ with open(cleaned_csv, "r", encoding="utf-8") as f_new:
     reader = csv.reader(f_new)
     new_header = next(reader) # Skip header
     for row in reader:
-        new_records.append(row)
+        if len(row) < len(header):
+            row.extend([""] * (len(header) - len(row)))
+        new_records.append(row[:len(header)])
 
 # 3. Write everything back to data.csv
 with open(data_csv, "w", encoding="utf-8", newline="") as f_out:

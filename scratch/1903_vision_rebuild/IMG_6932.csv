@@ -1,0 +1,155 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Canal Street,Canal Street,,,,,,continued
+resident,Canal Street,5,,Samuel,Pillinger,gardener,
+resident,Canal Street,6,,Wm.,Harding,carpenter,
+resident,Canal Street,7,,Albert,Pillinger,gardner
+resident,Canal Street,8,,Wm.,Wheeler,tinsmith &c.
+resident,Canal Street,9,,Thomas,Barber,mason
+resident,Canal Street,29,,John,Watts,shopkeeper
+resident,Canal Street,30,,John,Hughes,sailor
+resident,Canal Street,31,,J.,Thompson,labourer
+resident,Canal Street,32,,G.,Palmer,stableman
+resident,Canal Street,33,,,,,Void
+resident,Canal Street,34,,,,,Void
+resident,Canal Street,35,,Wm.,Manders,labourer
+resident,Canal Street,43,,Charles,Williams,pilot
+resident,Canal Street,44,,Alfred,Bale,coal trimmer
+resident,Canal Street,45,,James,Rees,fitter
+resident,Canal Street,46,,Chas. J.,Perry,carpenter
+resident,Canal Street,47,,Wm.,Harding,cab proptr
+resident,Canal Street,48,,A. F.,Bateman,bootmakr
+resident,Canal Street,49,,James,Hart,inspector
+resident,Canal Street,50,,James,George,guard
+resident,Canal Street,51,,Charles,Trow,tailor
+resident,Canal Street,52,,Mrs. J. E.,Lee,,
+resident,Canal Street,53,,John,Machin,engine drvr
+resident,Canal Street,54,,George,Hodgson,mariner
+resident,Canal Street,55,,James,Kelly,labourer
+resident,Canal Street,56,,Charles,Wood,engineer
+resident,Canal Street,57,,Mrs. Elizabeth,Davies,,
+resident,Canal Street,58,,Hy.,Dockings,upholsterer
+resident,Canal Street,59,,John H.,Hill,goods guard
+resident,Canal Street,60,Primrose c,H.,Cheeseman,,
+resident,Canal Street,61,,John,Montgomery,pilot
+resident,Canal Street,62,,Geo.,Williams,carpenter
+cross_street,Canal Street,,,,,,path to Cardiff-road.
+cross_street,Canal Street,,,,,,(return.)
+resident,Canal Street,70,,David,Prince,boilerkpr
+resident,Canal Street,71,,C. H.,Lloyd,fitter
+resident,Canal Street,72,,William,Stokes,George
+resident,Canal Street,73,,Chas.,Gibbons,hoistman
+resident,Canal Street,74,,Robert,Thomas,moulder
+resident,Canal Street,75,,Ogley,Davies,fitter
+resident,Canal Street,76,,Mrs Emma,James,,
+resident,Canal Street,,The Hollies,Wm.,James,,1
+resident,Canal Street,77,,Rich.,Marsh,eng. driver
+resident,Canal Street,,,J. W. & Son,Chick,joinery works
+resident,Canal Street,,Fern cot,Frank,Foster,,
+resident,Canal Street,,,,Turner & Co.,uphol'trs &c
+resident,Canal Street,,,H.,Languaid,contractor
+resident,Canal Street,78,,Geo.,Prance,general shop
+street,Canal Terrace,Canal Terrace,,,,,,From Dock-street to Bolt-street
+resident,Canal Terrace,1,,,Mordey Jones & Co.,ship-brokers etc.
+resident,Canal Terrace,,,W. F.,Cole,consulting engineer and marine surveyor,
+resident,Canal Terrace,,,Wm. J.,Evans,caretaker,
+resident,Canal Terrace,2,Nelson Inn,Eliza,Walsh,,
+resident,Canal Terrace,3,,Ellen,Barry,greengrocer
+resident,Canal Terrace,4,,Jas. Hy.,Barber,foreman
+resident,Canal Terrace,5,,George H.,Dunn,,
+resident,Canal Terrace,6,,,,,Void
+resident,Canal Terrace,7,,,,,Void
+resident,Canal Terrace,8,,Walter,Green,labourer
+resident,Canal Terrace,9,Fountain Inn,C.,Burnard,,
+street,Canning Street,Canning Street,,,,,,Off Corporation-road.
+street,Capel Crescent,Capel Crescent,P.,,,,,,Adjoining Capel-street.
+resident,Capel Crescent,1,,Hy.,Anthony,,
+resident,Capel Crescent,2,,Mrs Ann,Lewis,,
+resident,Capel Crescent,3,,William,Cox,,
+resident,Capel Crescent,4,,John,Jones,G.W.R.
+resident,Capel Crescent,5,,Geo.,Parfitt,railway guard
+resident,Capel Crescent,6,,William,Waters,,
+resident,Capel Crescent,7,,Dl.,Thomas,moulder
+resident,Capel Crescent,8,,James,Waters,guard
+resident,Capel Crescent,9,,Mrs Bertha,Fletcher,,
+resident,Capel Crescent,10,,Wm.,Roberts,labourer
+resident,Capel Crescent,11,,Saml.,Caston,timekeeper
+resident,Capel Crescent,12,,George,Hanham,clerk
+resident,Capel Crescent,13,,Albert,Snelling,guard
+resident,Capel Crescent,14,,,,,Void
+resident,Capel Crescent,15,,Thos.,Jones,Dd. eng drvr
+resident,Capel Crescent,16,,John,Johns,grocer
+resident,Capel Crescent,17,,Lewis,Jewell,coachbuildr
+resident,Capel Crescent,18,,Chas.,Ellis,George guard
+resident,Capel Crescent,19,,A.,Harman,patternmaker
+resident,Capel Crescent,20,,Maurice,Nolan,inspector
+resident,Capel Crescent,21,,George,Davies,inspector
+cross_street,Capel Crescent,,,,,,here is footbridge to Courtybella-terrace.
+resident,Capel Crescent,23,,John,Bright,shipwright
+resident,Capel Crescent,24,,Chas.,Atherton,guard
+resident,Capel Crescent,25,,A. L.,Parsons,dairyman
+resident,Capel Crescent,26,,John,Moore,G.W.R.
+resident,Capel Crescent,27,,Geo.,Zeale,fitter
+resident,Capel Crescent,28,,John,Twomey,secretary
+resident,Capel Crescent,29,,John,Rowe,engine driver
+resident,Capel Crescent,30,,Thos.,Maggs,boilermaker
+resident,Capel Crescent,31,,Charles,Batten,guard
+resident,Capel Crescent,32,,Wm. J.,Wetter,G.W.R.
+resident,Capel Crescent,33,,Geo. S.,Jones,blacksmith
+resident,Capel Crescent,34,,T. L.,Jones,guard
+resident,Capel Crescent,35,,Robert,Scott,fitter
+resident,Capel Crescent,36,,Mrs,Raynes,,
+resident,Capel Crescent,37,,John H.,Hobbs,crane dvr
+resident,Capel Crescent,38,,Wm.,Mathias,pilotsman
+resident,Capel Crescent,39,,Hy.,Thompson,engineer
+resident,Capel Crescent,40,,Henry,Copp,shipwright
+resident,Capel Crescent,41,,Geo.,Parkes,shipwright
+resident,Capel Crescent,42,,Jas.,Kirby,mas. mariner
+street,Capel Street,Capel Street,P.,,,,,,From 144 Commercial-road.
+cross_street,Capel Street,,,,,,[LEFT HAND SIDE.]
+resident,Capel Street,1,,Thos.,Ward,coal trimmer
+resident,Capel Street,2,,Geo.,Evans,mariner
+resident,Capel Street,3,,,,,
+resident,Capel Street,4,,A. G.,Hathway,coal mer.
+resident,Capel Street,5,,Geo.,Tasker,dock pilot
+resident,Capel Street,6,,Tom,Pask,signalman
+resident,Capel Street,7,,Richd.,Thomas,carpenter
+resident,Capel Street,8,,Jas.,Morgan,engine driver
+resident,Capel Street,9,,Charles R.,Lewis,smith
+resident,Capel Street,10,,Joseph,Brooke,G,W.R.
+resident,Capel Street,11,,William,Abbott,engineer
+resident,Capel Street,12,,Hy.,Taylor,Geo.
+resident,Capel Street,13,,G.,Weston,engine driver
+resident,Capel Street,14,,Mrs. Rachel,Grove,,
+resident,Capel Street,15,,J. P.,Collins,,
+street,Canon Street,Canon Street,B.T.,,,,,,From Junction-road.
+resident,Canon Street,1,,,,,Void
+resident,Canon Street,2,,,,,Void
+resident,Canon Street,3,,Mrs,McDougall,,
+resident,Canon Street,4,,,,,Void
+resident,Canon Street,5,,,,,Void
+resident,Canon Street,6,,,,,Void
+resident,Canon Street,7,,Thomas,Allen,labourer
+cross_street,Canon Street,,,,,,here is Junction-road.
+resident,Canon Street,8,,C.,Peebles,shopkeeper
+resident,Canon Street,9,,George,Buck,hawker
+resident,Canon Street,10,,,Chorley,,
+resident,Canon Street,11,,Chas.,Winfield,labourer
+resident,Canon Street,12,,Francis,Wootton,,
+resident,Canon Street,13,,George,Davies,slateworkr
+resident,Canon Street,14,,George,Waite,hawker
+resident,Canon Street,15,,J.,Williams,haycutter
+resident,Canon Street,16,,Geo.,Collins,carpenter
+resident,Canon Street,17,,Richard,Stoddart,hawker
+resident,Canon Street,16,,Mrs. Susannah,Jones,,
+cross_street,Canon Street,,,,,,(return.)
+resident,Canon Street,,Clytha brewy,J.,Gorman,,
+resident,Canon Street,20,,Mrs. Bessie,Barber,,
+resident,Canon Street,21,,Robert,Butler,,
+resident,Canon Street,22,,Mrs. Sarah,Morgan,,
+resident,Canon Street,23,,Mrs. Ann,Fitzgerald,,
+resident,Canon Street,24,,Edward,Hiscocks,haulier
+resident,Canon Street,25,,John,Welsh,labourer
+resident,Canon Street,26,,George,Hill,labourer
+resident,Canon Street,27,,J. T.,James,labourer
+resident,Canon Street,28,,John,Baldwin,labourer
+cross_street,Canon Street,,,,,,here is Junction-road.

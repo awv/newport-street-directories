@@ -1,0 +1,138 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,CHU,54,,Charles,Hardwick,,
+resident,CHU,55,,W.,Luffman,,"Oak cottage"
+resident,CHU,56,,Samuel J.,Radford,tailor,
+resident,CHU,57,,George,Hillman,bricklyr,
+resident,CHU,,,Geo.,Lowe,driller,
+resident,CHU,58,,Albert,Creese,salesman,
+resident,CHU,59,,H. G.,Anning,police,
+resident,CHU,70,,Herbert A.,Stevens,,
+resident,CHU,71,,John T.,Lewis,carpenter,
+resident,CHU,72,,Henry,Williams,shop,
+resident,CHU,73,,A. E.,Atherton,grocer,
+resident,CHU,,,Mrs.,Rogers,,
+resident,CHU,74,,Charles,Berry,confectioner,
+resident,CHU,75,,G. L.,Smith,decorator,
+resident,CHU,76,,Thos.,Hallett,bricklayer,
+resident,CHU,77,,T.,Mole,watchman,
+resident,CHU,78,,Albert,Norvill,haulier,
+resident,CHU,79,,Henry B.,Jeffries,,
+resident,CHU,80,,,Banks,Professor & Son,Temple of Health
+cross_street,CHU,,,,,,"here is Prince-street"
+resident,CHU,81,,,"Naval Brigade Drill Hall",,
+resident,CHU,82,,David,Embling,confectnr,
+resident,CHU,83,,Ezra,Cook,grocer,
+resident,CHU,84,,Fred G.,Phillips,,
+resident,CHU,85,,Mrs. E.,Coles,,
+resident,CHU,86,,Albt. Geo.,Lewis,tailor,
+resident,CHU,87,,Chas. L.,Culverwell,draper,
+resident,CHU,88,,F. W.,De la Mare,mangr,
+resident,CHU,89,,Miss Lucy,Allen,,
+street,CHURCH STREET,,,,,,E 4 From 110 Commercial-road to Dock-parade
+resident,CHURCH STREET,1,,,Scott J. H.,oilskin manufacturers,
+resident,CHURCH STREET,2,,S.,Ansticc,ballast master,
+resident,CHURCH STREET,3,,J. H.,Scott,,
+resident,CHURCH STREET,4,Tredegar Arms,Mrs. Edith,Plummer,,
+resident,CHURCH STREET,7,,James P.,McCarthy,,
+resident,CHURCH STREET,8,,John,Lewis,dockman,
+resident,CHURCH STREET,9,,Albert,Bray,victor,boilermaker
+resident,CHURCH STREET,,,R. T.,Lamprey,blrmaker,
+resident,CHURCH STREET,10,,Hy.,Nelmes,coal shipper,
+resident,CHURCH STREET,11,,James W.,Robson,rigger,
+resident,CHURCH STREET,12,,John,O'Connell,trimmer,
+resident,CHURCH STREET,13,,J.,Lynch,coal merchant,
+resident,CHURCH STREET,,,,Boilermakers' Institute,,
+resident,CHURCH STREET,,,,Newport Brass Foundry & Coppersmiths' Co. Ltd,,
+resident,CHURCH STREET,14,,M.,McCarthy,wareh'sem'n
+resident,CHURCH STREET,15,,Mrs. James,Desmond,,
+resident,CHURCH STREET,16,,Walter,Ventom,labourer,
+resident,CHURCH STREET,17,,Dan,McCarthy,trimmer,
+resident,CHURCH STREET,18,,Mrs. Sarah,Capel,,
+resident,CHURCH STREET,19,,James,Duggan,labourer,
+cross_street,CHURCH STREET,,,,,,"here is St. Michael-street"
+resident,CHURCH STREET,21,Ship and Pilot,Amelia,Banfill,,
+resident,CHURCH STREET,22,,Saml. / F. W.,Hooper,,
+resident,CHURCH STREET,23,,Eliza,Manship,shop,
+resident,CHURCH STREET,24,Hope Inn,C.,Ashton,,
+resident,CHURCH STREET,25,,George,Pring,blrmaker,
+resident,CHURCH STREET,26,,Jas. Arthur,Dobson,,
+resident,CHURCH STREET,,,,Uskside National Works,,
+resident,CHURCH STREET,,,Uskside Engineering Co., Ltd.,,
+cross_street,CHURCH STREET,,,,,,"here is Castle-street"
+cross_street,CHURCH STREET,,,,,,"(return)"
+resident,CHURCH STREET,,,,Campbell P. & A. Ltd.,,Tredegar Pier
+resident,CHURCH STREET,,,,Harding G. F.,iron & metal merchant,"Protheroe's wharf"
+resident,CHURCH STREET,,,,Maybury's Adamant Plaster and Keen's Cement Co. Pill [Wharf
+resident,CHURCH STREET,,,,Anderson Mrs.,,
+resident,CHURCH STREET,,,,Kingdom Mrs. Maria,,
+resident,CHURCH STREET,,,,Larcombe Henry,,
+street,CLARENCE PLACE,,,,,,C 4 From Bridge to Chepstow-rd. (RIGHT HAND SIDE.)
+resident,CLARENCE PLACE,,,,Davies Bros. (Newport), Ltd.,builders' merchants,London wharf
+cross_street,CLARENCE PLACE,,,,,,"here is Artillery-place"
+resident,CLARENCE PLACE,2,,T. H.,Hutchinson,pianoforte warehouse,
+resident,CLARENCE PLACE,4,,E. A.,Anderson,hairdresser,
+resident,CLARENCE PLACE,6,,A. A.,Rickards,cycle depot,
+cross_street,CLARENCE PLACE,,,,,,"here is Rodney-road"
+resident,CLARENCE PLACE,,,,Newport Technical Institute,,"G. R. Bennett, B.Sc...Principal"
+resident,CLARENCE PLACE,,,"Secondary Education Offices",,"Secretary, George W. Moores, F.C.I.S."
+resident,CLARENCE PLACE,10,,& Sons, Ltd.,Sessions,builders' merchants,
+resident,CLARENCE PLACE,12,,M.,Osmond,corset and belt maker,
+resident,CLARENCE PLACE,14,,A.,Kanarek,draper,
+resident,CLARENCE PLACE,,,B.,Weston,,
+resident,CLARENCE PLACE,16,,,"Longstaff's Bazaar",,
+resident,CLARENCE PLACE,18,,Frank,Turner,motor agent,
+resident,CLARENCE PLACE,20,,Fry & Co.,Poynton,Clarence Fine Art Repository
+resident,CLARENCE PLACE,22,,,"Liverpool Victoria Legal Friendly Society",,"Alex. Hayward, supt."
+resident,CLARENCE PLACE,,,Mrs. S. C.,Pugh,,
+resident,CLARENCE PLACE,,,Miss A.,Harding,florist,
+resident,CLARENCE PLACE,24,,Douglas,Perry,bootmaker,
+resident,CLARENCE PLACE,26,,W. J.,Hollingdale,grocer,Clarence stores; Tel 2373
+resident,CLARENCE PLACE,28,,J. J.,Sutherland,draper,
+resident,CLARENCE PLACE,30-32,,R.,Rees,draper, milliner, and costumier; Tel. 3563
+resident,CLARENCE PLACE,34,,,"Lewis Furniture Mart",,"Thomas Mrs.; Merwood Mrs.; Parkes Frederick; Elsegood Percy"
+resident,CLARENCE PLACE,36,,,Lloyds Bank Ltd.,Capital and Counties Branch; Power A.
+resident,CLARENCE PLACE,38,,W. W.,Driscoll,jeweller,
+resident,CLARENCE PLACE,38a,,W. G.,Pugh,,
+resident,CLARENCE PLACE,38b,,S.,Francis,dairyman,
+resident,CLARENCE PLACE,40,,J. H.,Adams,glass and china dealer [stationer
+resident,CLARENCE PLACE,42,,E. B.,Daking,bookseller & [CLARENCE PLACE POST OFFICE, M.O., S.B. & A. & I. OFFICE—Telegraph & Telephone
+resident,CLARENCE PLACE,44,,R. A.,Haggett,butcher,
+resident,CLARENCE PLACE,46,,T. J.,Badgett,chemist,
+resident,CLARENCE PLACE,48,,,"Brown and Williams",hosiers, outfitters, etc.
+resident,CLARENCE PLACE,50,,Wm.,Morgan,greengrocer,
+resident,CLARENCE PLACE,52,,J.,Lovell,house furnisher,
+resident,CLARENCE PLACE,54,,J.,Hyde,tobacconist,
+resident,CLARENCE PLACE,,,Mrs. E. F.,Paxton,,
+resident,CLARENCE PLACE,56,,Hbt. T.,Ewings,draper,
+resident,CLARENCE PLACE,,,,Coliseum Picture Theatre,,
+cross_street,CLARENCE PLACE,,,,,,"(return)"
+cross_street,CLARENCE PLACE,,,,,,"here is East Usk-road"
+resident,CLARENCE PLACE,83,,H. T.,Nurse,ironmonger,
+resident,CLARENCE PLACE,81,,,Newport Vulcanizing Co.,,
+resident,CLARENCE PLACE,79,,A. E.,Booth,bootmaker,
+resident,CLARENCE PLACE,77,,A. J.,Evans,cycle agent,
+resident,CLARENCE PLACE,75,,G.,Cox,greengrocer,
+resident,CLARENCE PLACE,73,,A.,Edwards,butcher,
+resident,CLARENCE PLACE,71,,,"Clarence Billiard Hall",,"Clarke G., watchmaker"
+resident,CLARENCE PLACE,67-69,,,"Palladium Picture H'se",,
+resident,CLARENCE PLACE,65,,J. E.,Hughes,Ivy Bush
+resident,CLARENCE PLACE,63,,J.,John,shoeing & general smith
+resident,CLARENCE PLACE,61,,Mrs. M. E.,Cardell,oyster bar and confectioner
+resident,CLARENCE PLACE,59,,A. J.,Blackburn,plumber,
+resident,CLARENCE PLACE,57,,W. L.,Drake,hosier,
+resident,CLARENCE PLACE,53-55,,& Son,Gwatkin,coach builders, motor engineers and agents
+resident,CLARENCE PLACE,,,,"The Car Mart",,
+resident,CLARENCE PLACE,51,,F. N. & Co., Ltd.,Morgan,"Re-positoiy"
+resident,CLARENCE PLACE,49,,Mrs. A.,Cunningham,tobacconist
+resident,CLARENCE PLACE,,,P. F.,Cunningham,,
+resident,CLARENCE PLACE,47,,Miss F. E.,Ridge,confect'r,
+resident,CLARENCE PLACE,45,,C.,Jefferys,hairdresser,
+resident,CLARENCE PLACE,43,,J.,Price,American bar,
+resident,CLARENCE PLACE,41,,R. J.,Williams,coach and motor works
+resident,CLARENCE PLACE,39,,K. E.,Bassett,greengrocer,
+resident,CLARENCE PLACE,,,,Davies Bros. (Newport) Ltd.,timber merchants
+resident,CLARENCE PLACE,33,,Geo.,Andrews,bootmaker,
+resident,CLARENCE PLACE,23,,Mrs.,Vacara,fish shop,
+resident,CLARENCE PLACE,,,,Davies Bros.,timber yard,
+resident,CLARENCE PLACE,17,,W.,Harris,Isca Hotel
+resident,CLARENCE PLACE,15,,S. H.,Spencer,cycle agent and athletic goods

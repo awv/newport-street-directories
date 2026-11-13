@@ -1,0 +1,127 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Spencer Road,C 5,,,,,"Caerau-rd. to Llanthewy-rd."
+cross_street,Spencer Road,,,,,,[RIGHT HAND SIDE]
+resident,Spencer Road,4,The Pandy,Mrs.,Lewis,,
+resident,Spencer Road,3,Belmont,Mrs. Mary,Beiley,,
+resident,Spencer Road,2,Stainmore,H. O.,Curry,,
+resident,Spencer Road,1,,Richard,Williams,,
+cross_street,Spencer Road,,,,,,here is Llanthewy-road.
+resident,Spencer Road,35,,W. E.,Wall,guard G.W.R.,
+resident,Spencer Road,37,,Wm.,Skinner,motorman,
+resident,Spencer Road,39,,Alfred Chas.,Brunt,,
+resident,Spencer Road,41,,Samuel John,Gunn,,
+resident,Spencer Road,43,,Chas. Henry,Davis,,
+resident,Spencer Road,45,,Geo.,Edwards,carpenter,
+cross_street,Spencer Road,,,,,,(return.)
+cross_street,Spencer Road,,,,,,here is Stockton-road.
+resident,Spencer Road,,,,,,Vacant sites
+resident,Spencer Road,16,,T. T.,Webber,builder &c,
+resident,Spencer Road,14,,Mrs. T.,Slater,,
+resident,Spencer Road,12,,C. W.,Tritton,,
+resident,Spencer Road,10,,Arthur,Day,plumber,
+resident,Spencer Road,8,,Mrs. H.,Boon,,
+resident,Spencer Road,6,,A. Wm.,Gray,clerk,
+resident,Spencer Road,4,,Edward,Dean,builder,
+resident,Spencer Road,2,,Arthur,Parkyn,joiner,
+street,Spring Gardens,E 5,,,,,"Courtybella, Cardiff-road."
+resident,Spring Gardens,1,,Tom,Ray,carriage smith,
+resident,Spring Gardens,2,,Jas.,Pickford,eng. driver,
+resident,Spring Gardens,3,,Mrs.,Llewellyn,,
+resident,Spring Gardens,4,,Mrs. Mary Ann,Geary,,
+resident,Spring Gardens,5,,William,Dance,labourer,
+resident,Spring Gardens,6,,,,Void,
+resident,Spring Gardens,7,,Chas.,Strickland,labourer,
+resident,Spring Gardens,,,,,,SPRING GARDENS SCHOOLS
+street,Spring Street,B 4,,,,,"From Redland-street."
+cross_street,Spring Street,,,,,,[LEFT HAND SIDE]
+resident,Spring Street,1,,Fred.,Symes,hairdresser,
+resident,Spring Street,3,Fairfield,W.,Jones,clerk,
+resident,Spring Street,5,,Wm. G.,Trapnell,painter,
+resident,Spring Street,7,,George E.,Hood,clerk,
+resident,Spring Street,9,,W.,Banfield,boot repairer,
+cross_street,Spring Street,,,,,,(return.)
+resident,Spring Street,10,,William,Miles,labourer,
+resident,Spring Street,8,,Robert,Mack,G.W.R.,
+resident,Spring Street,6,,Wm.,Halliday,foreman,
+resident,Spring Street,4,,Wm. Rd.,Wilson,stamper,
+resident,Spring Street,2,,Abraham,Bridgeman,,
+street,Stafford Road,C 3,,,,,"From 257 Caerleon-road to Railway."
+resident,Stafford Road,1,,Wm.,Crane,timbernan,
+resident,Stafford Road,3,,George,Porter,labourer,
+resident,Stafford Road,5,,William,Powell,G.W.R.,
+resident,Stafford Road,7,,William,Dent,clerk,
+resident,Stafford Road,9,,Llewellyn,Rogers,clerk,
+resident,Stafford Road,11,,William,Durham,haulier,
+resident,Stafford Road,13,,Mrs. Eliza,Whittington,,
+cross_street,Stafford Road,,,,,,here is Durham-road.
+resident,Stafford Road,15,,John,Smith,,
+resident,Stafford Road,17,,David,Lefcovitch,tailor,
+resident,Stafford Road,19,,Ed.,Griffiths,kiln setter,
+resident,Stafford Road,21,,Mrs. E.,Malmoff,,
+resident,Stafford Road,23,,James,Evans,collier,
+resident,Stafford Road,25,,Jesse,Thomas,fitter,
+resident,Stafford Road,27,,F. W.,Marshall,postman,
+resident,Stafford Road,29,,David,Fisher,joiner,
+resident,Stafford Road,31,,William,Smith,G.W.R.,
+resident,Stafford Road,33,,Frank,Evans,postman,
+resident,,,,,Crotosky J.,butcher,"Top of Column 2 (loose entry from previous page?)"
+resident,,,,,White's Assurance Trading Co.,tea dealers,"Top of Column 2"
+resident,,,,,Turner's Cycle Depôt,,"Top of Column 2"
+resident,,,,,Pullin C. & Co.,fruiterers,"Top of Column 2"
+street,Steam Packet Chambers,C 4,,,,,"Top end of Dock-street."
+street,Stockton Road,C 3,,,,,"Off Stafford-road."
+resident,Stockton Road,,,,,,Houses building
+street,Stow Chambers,,,,,,See 11 Skinner-street.
+street,Stanley Road,C 5,,,,,"Gold Tops to Devon-place."
+resident,Stanley Road,,Lansdowne,A. W.,Morgan,,
+resident,Stanley Road,,,,,,Mon. Education Committee Offices—F. Hiscott finance clerk
+resident,Stanley Road,,Walsham villa,Miss,Miles,,
+resident,Stanley Road,,Rothesay villa,Mrs. M. A.,Griffiths,,
+resident,Stanley Road,,Farnborough,G.,Greenland,,
+street,Station Street,C 5,,,,,"From 67 Bridge-street."
+cross_street,Station Street,,,,,,[LEFT HAND SIDE]
+resident,Station Street,1,,Michael,Twohig,labourer,
+resident,Station Street,2,,Mrs. C.,Thomas,,
+resident,Station Street,3,,Henry W.,Thomas,,
+resident,Station Street,3,,Mrs. K. M.,Freshfield,,
+resident,Station Street,4,,Thos.,Wynn,genl. carrier,
+cross_street,Station Street,,,,,,here is Railway-street.
+resident,Station Street,,,,,,PRIMITIVE METH. CHAPEL
+resident,Station Street,5,,Miss,Trudgeon,"school for girls, Lamorna house",
+resident,Station Street,6,,Henry,Lloyd,collier,
+resident,Station Street,7,,Miss E.,Phillips,milliner,
+resident,Station Street,8,,Thomas,Dalley,polisher,
+resident,Station Street,9,,James,Beer,fireman,
+resident,Station Street,10,,James,Williams,haulier,
+cross_street,Station Street,,,,,,(return.)
+resident,Station Street,12,,E. W.,Eger,G.W.R.,
+resident,Station Street,13,,E. J.,Workman,gardener,
+resident,Station Street,14,,Alfred,Lawson,fitter,
+resident,Station Street,15,,Mrs. S.,Sutherland,,
+resident,Station Street,16,,Thomas,Dyer,bootmaker,
+resident,Station Street,17,,Isaac,Harris,labourer,
+resident,Station Street,,,"Phillips & Sons, Ltd.",,"brewers and wine merchants",
+street,Stow Hill,D 5,,,,,"From High-st. & Commercial-street to the ""Hand Post."""
+cross_street,Stow Hill,,,,,,[RIGHT HAND SIDE]
+resident,Stow Hill,2,,London City & Midland Bank,,
+resident,Stow Hill,4,CENTRAL CHAMBERS,Fredk.,Robjent,"P. stock and share broker",
+resident,Stow Hill,4,CENTRAL CHAMBERS,"C. E. & Jolliffe, auction'rs, account'ts, &c.",Parsons,,
+resident,Stow Hill,4,CENTRAL CHAMBERS,Chas.,Miles,surveyor &c.,
+resident,Stow Hill,4,CENTRAL CHAMBERS,,,,Stuart's Granolithic Paving Co. Ltd.
+resident,Stow Hill,4,CENTRAL CHAMBERS,A. G. S.,Batchelor,solicitor,
+resident,Stow Hill,6,,,Public Benefit Boot Co.,J. Green manager
+resident,Stow Hill,8,,F. S. W.,May,tailor &c.,
+resident,Stow Hill,10,,H. A.,Smith,"wine, spirit, ale and porter merchant",
+resident,Stow Hill,12,,,,Conservative & Unionist offices—J. T. Hughes agt
+resident,Stow Hill,14,,Charles,Pullin,fruiterer,
+resident,Stow Hill,14,,& Wood,Harry,confectnrs,
+resident,Stow Hill,16,,T. A.,Grove,tailor,16 TREDEGAR HALL
+resident,Stow Hill,18,,T. A.,Grove,tailor,18
+resident,Stow Hill,20,,,,The Mon. & Newport Constitutional Club—G. W. Harding secretary
+resident,Stow Hill,22,,Percy,Laybourne,solicitor and Under Sheriff,
+resident,Stow Hill,22,,H. Acheson,Moore,barrister-at-law,
+resident,Stow Hill,24,,T. S.,Edwards,solicitor,
+resident,Stow Hill,24,,J. D.,Adey,solicitor,
+resident,Stow Hill,26,,J. C. & Allen,Llewellyn,solicitors,
+resident,Stow Hill,26,,J. C., M. A.,Llewellyn,solicitor,
+resident,Stow Hill,28,Comerc'l hotel,Hy.,Webb,,

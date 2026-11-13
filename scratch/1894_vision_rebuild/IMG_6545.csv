@@ -1,0 +1,142 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+cross_street,Church Road,,,,,,here is Castle-street
+resident,Church Road,,,,Fontaine & Richards & Hopkins,iron works,A. J. Dock foundry
+resident,Church Road,,,,Maysey & Parodie,tobaconists,
+resident,Church Road,,,,Carter,butcher,James
+resident,Church Road,,,,Light,saddler,Wm.
+resident,Church Road,,,,Stone's,works,J. S.
+resident,Church Road,,,,Andrews,bootmaker,Geo.
+resident,Church Road,,,,Vacara,fish shop,T.
+resident,Church Road,23,,,Rickard,Isca Inn,W. H.
+resident,Church Road,24,,,Stone,agricultural implements manures &c,J. S.
+resident,Church Road,85,,,Richards,postman,Geo.
+resident,Church Road,86,,,Russell,general dealer,Jas.
+resident,Church Road,87,,,Ranzatto,grocer,J.
+resident,Church Road,88,,,Dover,,Mrs
+resident,Church Road,89,,,Allen,,Henry
+resident,Church Road,,,,Lewis,helve makers etc,Ezra and Son
+resident,Church Road,,,,Cycle Repairing Co.,,,
+cross_street,Church Road,,,,,,TALGARTH PLACE
+resident,Church Road,90,,,East,signalman,Edwin
+resident,Church Road,91,,,Woodcock,clerk,Frank
+resident,Church Road,92,,,Davies,,Charles
+resident,Church Road,93,,,Davies,patternmaker,D.
+resident,Church Road,94,,,Woodcock,,Mrs B.
+street,Church Terrace,,,,,,,From 74 Marshes-road
+street,Clarence Place,,,,,,,From Bridge Chepstow-rd.
+resident,Clarence Place,,,,Davies Bros.,builders' merchants London wharf,
+cross_street,Clarence Place,,,,,,here is Artillery-place
+resident,Clarence Place,,,,Hutchinson,pianoforte warehouse Bridge ho,T. and W.
+resident,Clarence Place,,,,Edes,broker & general dealer,J. T.
+cross_street,Clarence Place,,,,,,entrance to Athletic ground
+resident,Clarence Place,1,,,Dick,Clarence nursery,Andrew
+resident,Clarence Place,2,,,Gwyther,Mon. House Coal Co.,Alfred
+resident,Clarence Place,3,,,Newport Ropery,,
+resident,Clarence Place,4,,,Dixon,,James
+resident,Clarence Place,5,,,Small,baker,Henry
+resident,Clarence Place,6,,,Llewellyn,rope m'ftr,C.
+resident,Clarence Place,,,,Ensor,ophthalmic & aural surgeon,H. C.
+resident,Clarence Place,7,,,Sayer,vet. surgeon,E.
+resident,Clarence Place,8,,,Barnes,,Donald
+resident,Clarence Place,9,,,Bartlett,photog'phr,Chas.
+resident,Clarence Place,10,,,Wilson,,James
+resident,Clarence Place,10A,,,Ford,,Mrs Beta
+resident,Clarence Place,11,,,Simmonds,,Joseph
+resident,Clarence Place,12,,,Bowen,,Sidney M.
+resident,Clarence Place,13,,,Ponsford,timber mer,Wm.
+resident,Clarence Place,13A,,,Carnell,,Richard
+resident,Clarence Place,14,,,Gill,postmaster,W.
+resident,Clarence Place,15,,,Price,J.P.,James W.
+cross_street,Clarence Place,,,,,,(return.)
+cross_street,Clarence Place,,,,,,here is East Usk-road
+resident,Clarence Place,,,,Chave,fruiterer,Edwin
+resident,Clarence Place,,,,Hunt,bootmaker,John
+resident,Clarence Place,,,,Perry,livery stables,E.
+resident,Clarence Place,,,,Critchley,tobacconist,Mrs
+resident,Clarence Place,,,,Avery,confectioner,Ernest
+resident,Clarence Place,16,,,Powis & Son,coach bldrs,J.
+resident,Clarence Place,17,,,Case,fish shop,Samuel
+resident,Clarence Place,,,,Burge,pork butcher,W.
+resident,Clarence Place,18,,,Linton,builder,W. A.
+resident,Clarence Place,18A,,,Hollingdale,grocer,W. J.
+resident,Clarence Place,19,,,Gwatkin and Son,coach builders & wheelwrights,
+resident,Clarence Place,20,,,Williams & Son,monumental masons etc,J.
+resident,Clarence Place,,,,Nicholls,confect'ner,E. G.
+resident,Clarence Place,,,,Jones and Son,builders,
+street,Church Street P.,,,,,,,From 110 Commercial-road to Dock-parade
+resident,Church Street P.,1,,,Channing,butcher,Henry
+resident,Church Street P.,2,,,Domaine,gen. shop,Hy.
+resident,Church Street P.,3,,,Spillers & Bakers Ltd.,,
+resident,Church Street P.,4,,,Kelly,Tredejar Arms,Mrs
+resident,Church Street P.,5,,,Brown,hairdresser,T. H.
+resident,Church Street P.,6,,,Taylor,gen. shop,George
+resident,Church Street P.,7,,,Laurie,,Arthur
+resident,Church Street P.,8,,,Clarke,,Mrs J.
+resident,Church Street P.,9,,,Geary,,Mary Ann
+resident,Church Street P.,,,,Nelson,,John sailor
+resident,Church Street P.,10,,,Davies,coal trimmer,John
+resident,Church Street P.,11,,,M'Carthy,labourer,Danl.
+resident,Church Street P.,12,,,Courtney,lab'rer,Patrick
+resident,Church Street P.,13,,,Power,Royal George,Wm.
+resident,Church Street P.,,,,Trinity Church Schools,,Girls and Infants
+resident,Church Street P.,14,,,Davis,Carpenters' Arms,Jane
+resident,Church Street P.,15,,,Game,,Mrs
+resident,Church Street P.,16,,,Lawrence,rigger,John
+resident,Church Street P.,17,,,Manship,labourer,Wm.
+resident,Church Street P.,18,,,Donovan,sawyer,Jno.
+resident,Church Street P.,19,,,Grimaldi,smith,David
+resident,Church Street P.,20,,,Gabica,engineer,Victor
+cross_street,Church Street P.,,,,,,here is High-street
+resident,Church Street P.,21,,,Dyer,Ship & Pilot,Chas.
+resident,Church Street P.,22,,,Stacey,rigger,Oliver Wm.
+resident,Church Street P.,23,,,Llewellyn,,Mrs
+resident,Church Street P.,24,,,Ware,seaman,David
+resident,Church Street P.,25,,,Barry,master of tug,Wm.
+resident,Church Street P.,26,,,Ashton,Hope Inn,James
+resident,Church Street P.,27,,,Fotheringham,sailor,Chas.
+resident,Church Street P.,28,,,Strode,shopkeeper,Selina
+cross_street,Church Street P.,,,,,,here is Speedwell-street
+resident,Church Street P.,29,,,Rugman,,Mrs M.
+resident,Church Street P.,,,,Uskside Engineering and Rivet Co. Limited,,,
+street,Clarence Street P.,,,,,,,From 22 Potter-street to St. Michael's-street
+resident,Clarence Street P.,1,,,Huntley,labourer,W. J.
+resident,Clarence Street P.,2,,,Dyer,labourer,Henry
+resident,Clarence Street P.,3,,,Francis,labourer,Hezek
+resident,Clarence Street P.,4,,,McCarthy,hobbler,Jere
+resident,Clarence Street P.,5,,,Redman,labourer,James
+resident,Clarence Street P.,6,,,Dann,hobbler,Richard
+resident,Clarence Street P.,7,,,Lee,moulder,William
+resident,Clarence Street P.,8,,,Harbour,labourer,Walter
+resident,Clarence Street P.,9,,,Furr,Exeter Inn,Mary
+resident,Clarence Street P.,10,,,Renalds,sailor,William
+resident,Clarence Street P.,1,,,Regan,coal trimmer,T.
+resident,Clarence Street P.,12,,,M'Carthy,labourer,Jere
+resident,Clarence Street P.,13,,,Doherty,shipwright,Felix
+resident,Clarence Street P.,14,,,Burke,hobbler,John
+resident,Clarence Street P.,15,,,Cowhig,labourer,James
+resident,Clarence Street P.,16,,,McCarthy,,Florence
+resident,Clarence Street P.,17,,,Reed,fireman,Joseph
+resident,Clarence Street P.,18,,,Crimmins,,Jere
+resident,Clarence Street P.,19,,,Desmond,labourer,Cor.
+resident,Clarence Street P.,,,,St. Michael's Catholic Ch.,,,
+cross_street,Clarence Street P.,,,,,,St. Michael's-st.
+cross_street,Clarence Street P.,,,,,, (return.)
+resident,Clarence Street P.,21,,,Collins,sailor,Thomas
+resident,Clarence Street P.,22,,,Tillotson,mariner,Isaac
+resident,Clarence Street P.,23,,,Barnes,tinman,Wm. J.
+resident,Clarence Street P.,24,,,Kelly,coal shipper,Thos.
+resident,Clarence Street P.,25,,,Whitfield,shoemaker,J.
+resident,Clarence Street P.,26,,,Sisk,labourer,David
+resident,Clarence Street P.,27,,,Mogford,labourer,W. H.
+resident,Clarence Street P.,28,,,Long,seaman,James
+resident,Clarence Street P.,29,,,Mellon,stevedore,James
+resident,Clarence Street P.,30,,,Hopkins,haulier,Wm. G.
+resident,Clarence Street P.,31,,,White,labourer,Patrick
+resident,Clarence Street P.,32,,,Hern,labourer,John
+resident,Clarence Street P.,33,,,Hall,labourer,Albert
+resident,Clarence Street P.,34,,,Sheedy,labourer,James
+resident,Clarence Street P.,35,,,Moore,seaman,Henry
+resident,Clarence Street P.,36,,,Montgomery,hoistm'n,W.
+resident,Clarence Street P.,37,,,Malloy,baller,John
+resident,Clarence Street P.,38,,,Cooper,fitter,William
+resident,Clarence Street P.,39,,,Griffiths,widow,Mary

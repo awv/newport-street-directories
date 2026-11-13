@@ -1,0 +1,153 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,East Street,,,,,,
+cross_street,East Street,,,,,,"continued"
+resident,East Street,23,,Arthur,Miles,hawker,
+resident,East Street,24,,,,,Stores
+resident,East Street,25,,Thos.,Hawkins,coachbldr,
+resident,East Street,26,,James,Cross,H.M.C.,
+resident,East Street,27,,G.,Elliott,grocer and plasterer,
+street,East Usk Road, C 4,,,,,,
+cross_street,East Usk Road, C 4,,,,,,From 20 Clarence-place.
+cross_street,East Usk Road, C 4,,,,,,[RIGHT HAND SIDE.]
+resident,East Usk Road, C 4,1,,Hy. John,Baldwin,labr.,
+resident,East Usk Road, C 4,2,,George,Sutton,,
+resident,East Usk Road, C 4,3,,Thos.,Corcoran,bricklayr,
+resident,East Usk Road, C 4,4,,,,,Void
+resident,East Usk Road, C 4,,,Gwilym,Thomas,egg impr,
+resident,East Usk Road, C 4,,,H. & Co.,Richards,Usk Engineering & Motor Wks,
+resident,East Usk Road, C 4,5,,Thos.,James,general shop,
+resident,East Usk Road, C 4,6,,Tom,Simmonds,smith,
+resident,East Usk Road, C 4,7,,James,Thomas,plasterer,
+resident,East Usk Road, C 4,8,,George,Gapper,sawyer,
+resident,East Usk Road, C 4,9,,Wm.,Anthony,labourer,
+resident,East Usk Road, C 4,10,,Edward,Merchant,dealer,
+resident,East Usk Road, C 4,11,,Mrs. Eliza,Jones,,
+resident,East Usk Road, C 4,12,,,,,Fennell's cold stores
+resident,East Usk Road, C 4,13,,George,Lewis,hawker,
+resident,East Usk Road, C 4,14,,Charles,Mogford,striker,
+resident,East Usk Road, C 4,15,,John,James,boatman,
+resident,East Usk Road, C 4,,,,The Williams Press,printers,
+resident,East Usk Road, C 4,16,,David,Price,driller,
+resident,East Usk Road, C 4,17,,Rd.,Marshall,cabinetmakr,
+resident,East Usk Road, C 4,18,,Robert,Scadden,seaman,
+cross_street,East Usk Road, C 4,,,,,,NEW COTTAGES-
+resident,East Usk Road, C 4,1,,Hy.,Thomas,labourer,
+resident,East Usk Road, C 4,2,,Mrs.,Moxley,,
+resident,East Usk Road, C 4,3,,Richd.,Mansell,labourer,
+cross_street,East Usk Road, C 4,,,,,,(return.)
+resident,East Usk Road, C 4,20,,Chas.,Rees,jettyman,
+resident,East Usk Road, C 4,21,,Chas.,Stretch,donkeyman,
+resident,East Usk Road, C 4,22,,George,Leyson,mason,
+resident,East Usk Road, C 4,23,,Henry C.,Long,driver,
+resident,East Usk Road, C 4,24,,Robert,Hillman,haulier,
+resident,East Usk Road, C 4,25,,Mrs.,Mogford,nurse,
+resident,East Usk Road, C 4,26,,Chas.,Woodbury,tinsmith,
+resident,East Usk Road, C 4,27,,Wynd.,Rowe,rivetter,
+resident,East Usk Road, C 4,28,,John,Glover,labourer,
+resident,East Usk Road, C 4,29,,Mrs. M. A.,Clements,,
+resident,East Usk Road, C 4,30,,Fred. J.,Jewell,hairdressr,
+resident,East Usk Road, C 4,31,,,,,Void
+resident,East Usk Road, C 4,32,,John,Gatehouse,coal dlr,
+resident,East Usk Road, C 4,33,,Albt.,Colwell,greengrocer,
+resident,East Usk Road, C 4,34,,W. A.,Allen,bridge erector,
+resident,East Usk Road, C 4,,,Mrs. M. A.,Allen,boot dlr,
+street,Ebenezer Terrace, D 4,,,,,,
+cross_street,Ebenezer Terrace, D 4,,,,,,From 145 Dock-street to 1 Commercial-road.
+cross_street,Ebenezer Terrace, D 4,,,,,,[LEFT HAND SIDE]
+resident,Ebenezer Terrace, D 4,1,,,,,Void
+resident,Ebenezer Terrace, D 4,2,,R.,Coslett,labourer,
+resident,Ebenezer Terrace, D 4,3,,John,Kiely,labourer,
+resident,Ebenezer Terrace, D 4,4,,Hy.,Mills,ostler,
+resident,Ebenezer Terrace, D 4,4a-5,,,,,Cotter Rd. lodging ho
+resident,Ebenezer Terrace, D 4,5a,,,,,Void
+resident,Ebenezer Terrace, D 4,5,,Peter,Bonelly,seaman,
+resident,Ebenezer Terrace, D 4,6,,Patrick,Kelly,labourer,
+resident,Ebenezer Terrace, D 4,7,,Geo.,Ashman,eng. drvr,
+resident,Ebenezer Terrace, D 4,8,,Mrs. Ann,Jenkins,,
+resident,Ebenezer Terrace, D 4,9,,James,Hall,platelayer,
+resident,Ebenezer Terrace, D 4,10,,E. J.,Evans,eng. driver,
+resident,Ebenezer Terrace, D 4,11,,Albert,Collins,labourer,
+resident,Ebenezer Terrace, D 4,12,,Wm.,Trueman,eng. drvr.,
+resident,Ebenezer Terrace, D 4,13,,J. H.,Avery,coachsmith,
+resident,Ebenezer Terrace, D 4,14,,,,,Void
+resident,Ebenezer Terrace, D 4,15,,Harold E.,Sheward,,
+resident,Ebenezer Terrace, D 4,16,,,,,Void
+resident,Ebenezer Terrace, D 4,17,,Philip,Torrington,carpntr,
+resident,Ebenezer Terrace, D 4,18,,John,Pritchard,G.W.R.,
+resident,Ebenezer Terrace, D 4,19,,John,Johns,,
+resident,Ebenezer Terrace, D 4,20,,Harry,Mead,,
+resident,Ebenezer Terrace, D 4,21,,Mrs. Annie,Harris,,
+resident,Ebenezer Terrace, D 4,22,,Wm. Hy.,Robins,cnfctnr,
+resident,Ebenezer Terrace, D 4,23,,Henry,White,blacksmith,
+resident,Ebenezer Terrace, D 4,24,,Benjamin,Stream,,
+resident,Ebenezer Terrace, D 4,25,,Wm. Thos.,Probert,painter,
+resident,Ebenezer Terrace, D 4,26,,Hy.,Thomas,stevedore,
+resident,Ebenezer Terrace, D 4,27,,Augustus E.,Sherram,,
+resident,Ebenezer Terrace, D 4,28,,Wm.,Hughes,boatman,
+resident,Ebenezer Terrace, D 4,29,,,,,Re-building
+resident,Ebenezer Terrace, D 4,30,,Dennis,Heirene,,
+resident,Ebenezer Terrace, D 4,31,,Mrs.,Brown,umbrella mkr,
+resident,Ebenezer Terrace, D 4,32,,John O.,Trigg,William IV. mews,
+resident,Ebenezer Terrace, D 4,33,,B. L.,Perry,corn merchant,
+resident,Ebenezer Terrace, D 4,,,WELSH CALVINISTIC METHODIST (EBENEZER) CHAPEL (1829),,,,
+resident,Ebenezer Terrace, D 4,,,George,Greenslade,labourer,
+resident,Ebenezer Terrace, D 4,,,John,Anthony,,
+street,Edward Street, D 5,,,,,,
+cross_street,Edward Street, D 5,,,,,,See St. Edward-street.
+street,Edwin Street, B 4,,,,,,
+cross_street,Edwin Street, B 4,,,,,,From 206 Shaftesbury-street.
+cross_street,Edwin Street, B 4,,,,,,[LEFT HAND SIDE.]
+resident,Edwin Street, B 4,1,,Thos.,Willis,gas worker,
+resident,Edwin Street, B 4,2,,,,,
+resident,Edwin Street, B 4,3,,Chas.,Howell,platelayer,
+resident,Edwin Street, B 4,4,,John,Hillman,mason,
+resident,Ebenezer Terrace, D 4,5,,Thomas,Evans,haulier,
+resident,Ebenezer Terrace, D 4,6,,James,Peard,tinsmith,
+resident,Ebenezer Terrace, D 4,7,,Jas.,Naish,basket maker,
+resident,Ebenezer Terrace, D 4,8,,Harry,Hook,blacksmith,
+resident,Ebenezer Terrace, D 4,9,,Thos. J.,Hurn,forgemngr,
+resident,Ebenezer Terrace, D 4,10,,Mrs. Sarah,Murphy,,
+resident,Ebenezer Terrace, D 4,11,,William,Foote,baker,
+resident,Ebenezer Terrace, D 4,12,,Henry,Spanswick,G.W.R.,
+resident,Ebenezer Terrace, D 4,13,,Rufus,Churches,police,
+resident,Ebenezer Terrace, D 4,14,,Benjamin,Howe,G.W.R.,
+cross_street,Ebenezer Terrace, D 4,,,,,,(return)
+resident,Ebenezer Terrace, D 4,15,,Robert,Williams,fitter,
+resident,Ebenezer Terrace, D 4,16,,J. G.,Bainham,wareho'man,
+resident,Ebenezer Terrace, D 4,17,,John,Thomas,ironworker,
+resident,Ebenezer Terrace, D 4,18,,Chas.,Hayward,glass blwr,
+resident,Ebenezer Terrace, D 4,19,,John,Hogan,,
+resident,Ebenezer Terrace, D 4,20,,S.,Bannister,deal carrier,
+street,Eldon Chambers,,,,,,,
+cross_street,Eldon Chambers,,,,,,See 163 Commercial-street.
+street,Emlyn Chambers,,,,,,,
+cross_street,Emlyn Chambers,,,,,,See 38 High-street.
+street,Emlyn Street, D 4,,,,,,
+cross_street,Emlyn Street, D 4,,,,,,From 67 Commercial-street to Canal-parade.
+cross_street,Emlyn Street, D 4,,,,,,[LEFT HAND SIDE.]
+resident,Emlyn Street, D 4,2,,,,,Void
+resident,Emlyn Street, D 4,3,,J.,McCarthy,Emlyn Arms,
+cross_street,Emlyn Street, D 4,,,,,,here is Kear-street.
+resident,Emlyn Street, D 4,,,W. J.,Phillips,carpenter and builder,
+resident,Emlyn Street, D 4,,,Salvation Army Barracks,,,
+resident,Emlyn Street, D 4,4,,F.,Littlejones,grocer,
+resident,Emlyn Street, D 4,5,,J.,Thompson,wheelwright and general smith,
+resident,Emlyn Street, D 4,6,,Evan,Jones,grocer,
+resident,Emlyn Street, D 4,7,,Sidney,Hill,shop,
+resident,Emlyn Street, D 4,8,,William,Townsend,,
+resident,Emlyn Street, D 4,9,,,,,Void
+resident,Emlyn Street, D 4,10,,Chas.,Schute,steward,
+resident,Emlyn Street, D 4,11,,Jeremiah,Driscoll,,
+resident,Emlyn Street, D 4,12,,J. T.,Tetlow,coal merchant,
+cross_street,Emlyn Street, D 4,,,,,,here is Dock-street.
+resident,Emlyn Street, D 4,13,,& Son,Allen,grocers,
+resident,Emlyn Street, D 4,14,,George,Smith,foreman,
+resident,Emlyn Street, D 4,15,,John,Manley,labourer,
+resident,Emlyn Street, D 4,16,,John,Blake,labourer,
+resident,Emlyn Street, D 4,17,,John Aug.,Lilygreen,,
+resident,Emlyn Street, D 4,18,,James,Franklin,hobbler,
+resident,Emlyn Street, D 4,19,,Simon,Goulding,labourer,
+resident,Emlyn Street, D 4,20,,Jere.,Sullivan,labourer,
+resident,Emlyn Street, D 4,21,,Dennis,Driscoll,,
+resident,Emlyn Street, D 4,22,,,,,Emlyn Works-Chas. D. Phillips proprietor
+resident,Emlyn Street, D 4,23,,,,,

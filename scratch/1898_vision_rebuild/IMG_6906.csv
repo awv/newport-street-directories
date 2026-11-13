@@ -1,0 +1,153 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Victoria Place,,,,,,From 88 Stow-hill to Hill-st.
+resident,Victoria Place,1,,B. W.,Gowring,surgeon,
+resident,Victoria Place,2,,Misses,Moon,,Solva house
+resident,Victoria Place,3,,,,Void,
+resident,Victoria Place,4,,Mrs T.,Hallen,,Alden ho
+resident,Victoria Place,5,,Miss,Garrett,,
+resident,Victoria Place,6,,,,Void,
+resident,Victoria Place,13,,,,Void,
+resident,Victoria Place,14,,Wm.,Gardner,architect,
+cross_street,Victoria Place,,,,,(return.),
+resident,Victoria Place,7,,R. E. W.,Brewer,surgeon,
+resident,Victoria Place,8,,Henry,Dew,,
+resident,Victoria Place,9,,A.,Bezant,,Hillstowe ho
+resident,Victoria Place,10,,,,Acland house,
+resident,Victoria Place,11,,Mrs R. I.,Scott,,
+resident,Victoria Place,12,,J. Trevor,Cross,solicitor,
+street,Victoria Road,,,,,,Victoria-place to Park-square
+resident,Victoria Road,,,,,,Congregational Church,
+street,Vivian Road,,,,,,From Corporation-road.
+resident,Vivian Road,1,,Wm.,Rogers,labourer,
+resident,Vivian Road,3,,Walter,Jeffries,mechanic,
+resident,Vivian Road,5,,Mrs Mary,Derrick,,
+resident,Vivian Road,7,,George,Rogers,labourer,
+resident,Vivian Road,9,,Benj.,Warry,butcher,
+resident,Vivian Road,11,,Wm.,Badham,labourer,
+resident,Vivian Road,13,,Mrs Elizabeth,Andrews,,
+resident,Vivian Road,15,,Bertrand,Evans,engineer,
+resident,Vivian Road,17,,John,Martin,,
+resident,Vivian Road,19,,Alfd. Geo.,Jones,painter,
+resident,Vivian Road,21,,Alfred,Cale,bricklayer,
+resident,Vivian Road,23,,Joseph,Lawson,labourer,
+resident,Vivian Road,25,,John,Border,joiner,
+resident,Vivian Road,27,,James,Carver,frame mkr,
+resident,Vivian Road,29,,Mrs,Jones,shop,
+resident,Vivian Road,31,,Wm.,Meadham,carpenter,
+resident,Vivian Road,33,,Mrs Ann,White,,
+resident,Vivian Road,35,,,,Void,
+resident,Vivian Road,37,,W.,Webb,labourer,
+resident,Vivian Road,39,,Abraham,Blake,Charles
+resident,Vivian Road,41,,,,Void,
+resident,Vivian Road,43,,Edwin W.,Miles,,
+resident,Vivian Road,45,,James,Vout,labourer,
+resident,Vivian Road,47,,,,Void,
+resident,Vivian Road,49,,,,,do
+resident,Vivian Road,51,,Wm. Hy.,Brown,labourer,
+resident,Vivian Road,53,,,,Void,
+resident,Vivian Road,55,,,,,do
+resident,Vivian Road,57,,,,,do
+street,Vicarage Lane,,,,,,Vicarage to Clytha-square.
+street,Victoria Crescent, B.,,,,,,26 Bailey-st. to Blewitt-st.
+resident,Victoria Crescent, B.,1,,G.,Jones,billiard marker,
+resident,Victoria Crescent, B.,2,,Arthur T.,Alford,clerk,
+resident,Victoria Crescent, B.,3,,John David,Mortimer,,
+resident,Victoria Crescent, B.,4,,Alexander C.,Littlejohns,,
+resident,Victoria Crescent, B.,5,,Richard P.,Nott,,
+resident,Victoria Crescent, B.,6,,William,Barton,coal mer,
+resident,Victoria Crescent, B.,7,,R.,Hewinson,,Dursley ho
+cross_street,Victoria Crescent, B.,,,,,,here is West-street.
+resident,Victoria Crescent, B.,8,,Nicholas,Coxon,shipwrt,
+resident,Victoria Crescent, B.,9,,R.,Buxton,railway porter,
+resident,Victoria Crescent, B.,10,,Eph.,Elworthy,ins. agent,
+resident,Victoria Crescent, B.,11,,James,Rowsell,carman,
+resident,Victoria Crescent, B.,12,,Frank,Brunt,labourer,
+resident,Victoria Crescent, B.,13,,Mrs E.,Richardson,,
+resident,Victoria Crescent, B.,14,,Richard,Trace,mechanic,Trace H. R., painter, etc.
+resident,Victoria Crescent, B.,15,,Jas.,Meredith,carpenter,
+resident,Victoria Crescent, B.,16,,Wm.,Belgion,letter car.,
+resident,Victoria Crescent, B.,17,,Mrs Elizabeth,Wilkins,,
+resident,Victoria Crescent, B.,18,,Mrs L.,Ravenscroft,,
+resident,Victoria Crescent, B.,19,,James,Jones,carpenter,
+resident,Victoria Crescent, B.,20,,Mrs Mary,Nelmes,,
+resident,Victoria Crescent, B.,21,,Mrs Ann,Lewis,,
+cross_street,Victoria Crescent, B.,,,,,(return.),
+resident,Victoria Crescent, B.,22,,Mrs Ann,Barrow,,
+resident,Victoria Crescent, B.,23,,James,Delacey,shoemakr,
+resident,Victoria Crescent, B.,24,,William,Farrow,plumber,
+resident,Victoria Crescent, B.,25,,Edwin J.,Brooks,,
+resident,Victoria Crescent, B.,26,,Wm. R.,Leigh,painter,
+resident,Victoria Crescent, B.,27,,Thomas,Curtis,tailor,
+resident,Victoria Crescent, B.,28,,John,Fletcher,seaman,
+resident,Victoria Crescent, B.,29,,John,Cronin,labourer,
+resident,Victoria Crescent, B.,30,,Henry,Partridge,butcher,
+street,Victoria Lane, M.,,,,,,From Victoria-av. to Church.
+resident,Victoria Lane, M.,,,Row J. P.,cooper, etc.,,
+resident,Victoria Lane, M.,1,,Edwin,Smith,painter,
+resident,Victoria Lane, M.,2,,Jas. Hy.,Tuck,platelayer,
+resident,Victoria Lane, M.,3,,Arthur,Daw,assistant,
+resident,Victoria Lane, M.,4,,Jos.,Griffin,,Gothic cot
+resident,Vic,113,,Wm.,Jones,labourer,
+resident,Vic,114,,Jos.,Warwick,labourer,
+resident,Vic,120,,Alfred,Newill,,
+resident,Vic,121,,Mrs Miriam,Sier,,
+resident,Vic,122,,John B.,Gay,mason,
+resident,Vic,123,,,,,,
+resident,Vic,124,,Ernest,Turner,printer,
+resident,Vic,125,,John,Phillips,,
+resident,Vic,126,,Hy. John,Reeves,printer,
+resident,Vic,127,,Wm. eng.,Taylor,driver,
+resident,Vic,128,,W. J.,Edden,labourer,
+resident,Vic,61,,Stephen,Jones,,Fairlight
+resident,Vic,62,,John,Evans,,Chyandour
+resident,Vic,63,,R. G. B.,Stokes,accountant,
+resident,Vic,64,,Mrs Marina,Davey,,
+resident,Vic,65,,F. W.,Fry,traveller,
+resident,Vic,66,,Wm.,Waite,clerk,
+resident,Vic,67,,T. Arthur,Eaves,,
+cross_street,Vic,,,,,,here is Brynderwen-rd.
+resident,Vic,68,,H. E.,Dunning,,Brynderwen
+cross_street,Vic,,,,,(return.),
+resident,Vic,72,,Albt. W.,Robertson,,Sunnyside
+resident,Vic,74,,T. J.,Felton,,Churchill vil
+resident,Vic,75,,W. H.,Manhire,,Mendip vil
+cross_street,Vic,,,,,,here is Crescent-road.
+resident,Vic,76,,John,Worner,greengrocer,
+resident,Vic,77,,J. F.,Powell,,Severn view
+resident,Vic,78,,Robert,Parker,,
+resident,Vic,78A,,Frederick,Harris,,
+resident,Vic,79,,Mrs J. P.,Williams,,
+resident,Vic,80,,,,Bleak house,
+cross_street,Vic,,,,,,here is Woodland-road.
+street,Queen's Place,,,,,,
+resident,Queen's Place,81,,John,Francis,,
+resident,Queen's Place,82,,Mrs,Crum,,
+resident,Queen's Place,83,,Robert Ernest,Basden,,
+resident,Queen's Place,84,,E. T.,Goldsworthy,pilot,
+resident,Queen's Place,85,,James,Alker,watchmaker,
+resident,Queen's Place,86,,J. E. P.,Mitchell,,Alma c
+resident,Queen's Place,87,,Allan,Mills,greengrocer,
+resident,Queen's Place,88,,William,Powell,gardener,
+resident,Queen's Place,89,,Edwd.,Simpson,plasterer,
+resident,Queen's Place,90,,Jas.,Butcher,carpenter,
+resident,Queen's Place,91,,Mrs Margaret,Hickey,,
+resident,Queen's Place,92,,Jas.,Rutter,,Victoria vil
+cross_street,Queen's Place,,,,,,here is Victoria-lane.
+resident,Queen's Place,93,,Mrs,Richards,,Victoria cot
+resident,Queen's Place,95,,G.,Parkinson,,Fernside v
+resident,Queen's Place,96,,Mrs M.,Berrill,,Holte villa
+resident,Queen's Place,97,,Calvin,Frost,,Swiss villa
+resident,Queen's Place,98,,J.,Parkinson,,Marienberg
+resident,Queen's Place,99,,O. B.,Williams,,Farleigh h
+resident,Queen's Place,100,,Miss S. A.,Williams,,Holly house
+resident,Queen's Place,,,,Holbrook's nursery,,
+resident,Queen's Place,102,,Wm.,Sturley,,lathrender
+resident,Queen's Place,103,,Mrs E.,Jones,,
+resident,Queen's Place,104,,E. J.,Williams,,Lydgate c
+resident,Queen's Place,106,,Jas.,Taylor,,Cowling cot
+resident,Queen's Place,107,,Geo.,Jory,cab proprietor,
+resident,Queen's Place,108,,H. B.,Sanders,,Clyde vil
+resident,Queen's Place,109,,Wm. J.,Wright,,Silverton villa
+resident,Queen's Place,110,,,,,,
+resident,Queen's Place,111,,Wm.,Jones,carpenter,
+resident,Queen's Place,112,,Wm.,Jenkins,fireman,

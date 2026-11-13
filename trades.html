@@ -3,144 +3,215 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Occupations Audit — Newport Street Directory</title>
+  <title>Occupations & Trades Audit — Newport Street Directory</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="src/styles/main.css">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
   
   <style>
-    body { 
-      padding: 0;
+    :root {
+      --verified-green: #34d399;
+      --verified-bg: rgba(52, 211, 153, 0.15);
+      --verified-border: rgba(52, 211, 153, 0.4);
+      --warning-red: #f87171;
+      --warning-bg: rgba(248, 113, 113, 0.15);
+      --warning-border: rgba(248, 113, 113, 0.35);
+      --twin-amber: #fbbf24;
+      --twin-bg: rgba(251, 191, 36, 0.15);
+      --twin-border: rgba(251, 191, 36, 0.35);
+      --blue-accent: #60a5fa;
+      --blue-bg: rgba(96, 165, 250, 0.15);
+      --blue-border: rgba(96, 165, 250, 0.35);
     }
 
-    .container { max-width: 1200px; margin: 0 auto; padding: 2.5rem 1.5rem; }
+    html, body { 
+      height: auto !important;
+      min-height: 100vh !important;
+      overflow-x: auto !important;
+      overflow-y: auto !important;
+      position: relative !important;
+      padding: 0;
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: var(--body-font, system-ui, -apple-system, sans-serif);
+      margin: 0;
+    }
+
+    .container { 
+      max-width: 1400px; 
+      margin: 0 auto; 
+      padding: 2.5rem 1.5rem; 
+    }
 
     .page-header {
-      margin-bottom: 2.5rem;
+      margin-bottom: 2rem;
       border-bottom: 1px solid var(--card-border);
       padding-bottom: 1.5rem;
       display: flex;
       justify-content: space-between;
       align-items: flex-end;
+      flex-wrap: wrap;
+      gap: 1.5rem;
     }
 
     h1 {
-      font-family: var(--heading-font);
-      font-size: 3rem;
+      font-family: var(--heading-font, 'Instrument Serif', Georgia, serif);
+      font-size: 2.8rem;
       color: var(--accent);
       font-weight: 400;
       line-height: 1.1;
+      margin: 0;
     }
 
-    .subtitle { color: var(--muted); font-size: 1rem; margin-top: 0.25rem; }
+    .subtitle { 
+      color: var(--muted); 
+      font-size: 0.98rem; 
+      margin-top: 0.4rem; 
+    }
 
-    .controls {
-      display: flex;
+    /* STATS STRIP */
+    .stats-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
       gap: 1rem;
       margin-bottom: 2rem;
     }
 
-    .search-input {
-      flex: 1;
-      padding: 0.85rem 1.25rem;
+    .stat-card {
       background: var(--card-bg);
       border: 1px solid var(--card-border);
-      color: var(--text);
-      border-radius: 4px;
-      font-size: 1rem;
-      outline: none;
-    }
-
-    .search-input:focus { border-color: var(--accent); }
-
-    .stats-badge {
-      background: var(--card-bg);
-      border: 1px solid var(--card-border);
-      padding: 0.85rem 1.5rem;
-      border-radius: 4px;
-      font-size: 0.9rem;
-      color: var(--accent);
-      white-space: nowrap;
-    }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      background: var(--card-bg);
-      border: 1px solid var(--card-border);
-      border-radius: 6px;
-      overflow: hidden;
-    }
-
-    th, td {
+      border-radius: 8px;
       padding: 1rem 1.25rem;
-      text-align: left;
-      border-bottom: 1px solid var(--card-border);
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+      transition: border-color 0.2s ease;
     }
 
-    th {
-      background: #171310;
-      color: var(--accent);
-      font-weight: 600;
-      font-size: 0.85rem;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-    }
-
-    tr:last-child td { border-bottom: none; }
-    tr:hover td { background: rgba(200, 157, 84, 0.05); }
-
-    .count-col { width: 120px; font-weight: 600; color: var(--accent); }
-    .example-col { color: var(--muted); font-size: 0.9rem; }
-
-    .btn {
-      padding: 0.75rem 1.25rem;
-      border-radius: 4px;
-      font-size: 0.9rem;
-      font-weight: 500;
-      cursor: pointer;
-      border: 1px solid var(--card-border);
-      background: var(--card-bg);
-      color: var(--text);
-      transition: all 0.2s ease;
-    }
-
-    .btn:hover {
+    .stat-card:hover {
       border-color: var(--accent);
+    }
+
+    .stat-label {
+      font-size: 0.78rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-weight: 500;
+    }
+
+    .stat-val {
+      font-size: 1.6rem;
+      font-weight: 700;
       color: var(--accent);
+      font-family: var(--heading-font, serif);
     }
 
-    .btn-secondary {
-      background: rgba(200, 157, 84, 0.1);
-      border-color: rgba(200, 157, 84, 0.3);
+    .stat-desc {
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+
+    /* CONTROLS BAR */
+    .controls-wrapper {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      padding: 1.25rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .search-row {
+      display: flex;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .search-input {
+      flex: 2;
+      min-width: 260px;
+      padding: 0.75rem 1rem;
+      background: rgba(0,0,0,0.3);
+      border: 1px solid var(--card-border);
+      color: var(--text);
+      border-radius: 6px;
+      font-size: 0.95rem;
+      outline: none;
+      transition: border-color 0.2s ease;
+    }
+
+    .search-input:focus { 
+      border-color: var(--accent); 
+    }
+
+    .select-control {
+      flex: 1;
+      min-width: 170px;
+      padding: 0.75rem 0.85rem;
+      background: rgba(0,0,0,0.3);
+      border: 1px solid var(--card-border);
+      color: var(--text);
+      border-radius: 6px;
+      font-size: 0.9rem;
+      outline: none;
+      cursor: pointer;
+    }
+
+    .select-control:focus {
+      border-color: var(--accent);
+    }
+
+    /* BATCH ACTION BAR */
+    .batch-bar {
+      display: none;
+      align-items: center;
+      gap: 0.75rem;
+      background: rgba(200, 157, 84, 0.12);
+      border: 1px solid var(--accent);
+      padding: 0.75rem 1rem;
+      border-radius: 6px;
+      flex-wrap: wrap;
+    }
+
+    .batch-bar.active {
+      display: flex;
+    }
+
+    .batch-count-badge {
+      font-weight: 600;
       color: var(--accent);
+      font-size: 0.9rem;
     }
 
-    .btn-secondary:hover {
-      background: rgba(200, 157, 84, 0.2);
-    }
-
+    /* TABS */
     .tabs-bar {
       display: flex;
       gap: 0.5rem;
       margin-bottom: 1.25rem;
       border-bottom: 1px solid var(--card-border);
       padding-bottom: 0.5rem;
+      overflow-x: auto;
     }
 
     .tab-btn {
       background: transparent;
       border: none;
       color: var(--muted);
-      font-family: var(--sans-font);
+      font-family: inherit;
       font-size: 0.9rem;
       font-weight: 500;
-      padding: 0.5rem 1rem;
+      padding: 0.55rem 1rem;
       cursor: pointer;
-      border-radius: 4px;
+      border-radius: 6px;
       display: flex;
       align-items: center;
-      gap: 0.4rem;
+      gap: 0.45rem;
+      white-space: nowrap;
       transition: all 0.2s ease;
     }
 
@@ -152,6 +223,7 @@
     .tab-btn.active {
       color: var(--accent);
       background: rgba(200, 157, 84, 0.15);
+      font-weight: 600;
     }
 
     .tab-badge {
@@ -165,75 +237,444 @@
       background: var(--accent);
       color: #120f0d;
     }
+
+    /* TABLE */
+    .table-container {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+    }
+
+    th, td {
+      padding: 0.85rem 1rem;
+      border-bottom: 1px solid var(--card-border);
+      font-size: 0.9rem;
+    }
+
+    th {
+      background: #171310;
+      color: var(--accent);
+      font-weight: 600;
+      font-size: 0.82rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: rgba(200, 157, 84, 0.04); }
+    tr.selected td { background: rgba(200, 157, 84, 0.08); }
+
+    .count-cell { 
+      font-weight: 700; 
+      color: var(--accent); 
+      white-space: nowrap;
+    }
+
+    .family-badge {
+      font-size: 0.72rem;
+      padding: 0.15rem 0.45rem;
+      border-radius: 4px;
+      background: rgba(255, 255, 255, 0.08);
+      color: var(--muted);
+      display: inline-block;
+      white-space: nowrap;
+    }
+
+    .status-badge {
+      font-size: 0.72rem;
+      padding: 0.15rem 0.45rem;
+      border-radius: 4px;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      font-weight: 500;
+      white-space: nowrap;
+    }
+
+    .badge-verified { background: var(--verified-bg); color: var(--verified-green); border: 1px solid var(--verified-border); }
+    .badge-overridden { background: rgba(200, 157, 84, 0.2); color: var(--accent); border: 1px solid rgba(200, 157, 84, 0.4); }
+    .badge-issue { background: var(--warning-bg); color: var(--warning-red); border: 1px solid var(--warning-border); }
+    .badge-twin { background: var(--twin-bg); color: var(--twin-amber); border: 1px solid var(--twin-border); }
+
+    .years-pill {
+      font-size: 0.7rem;
+      color: var(--muted);
+      background: rgba(0,0,0,0.3);
+      padding: 0.1rem 0.35rem;
+      border-radius: 3px;
+      margin-left: 0.35rem;
+    }
+
+    /* BUTTONS */
+    .btn {
+      padding: 0.55rem 1rem;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 500;
+      cursor: pointer;
+      border: 1px solid var(--card-border);
+      background: var(--card-bg);
+      color: var(--text);
+      transition: all 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: #120f0d;
+      border-color: var(--accent);
+      font-weight: 600;
+    }
+
+    .btn-primary:hover {
+      background: #dfb264;
+      color: #120f0d;
+    }
+
+    .btn-secondary {
+      background: rgba(200, 157, 84, 0.1);
+      border-color: rgba(200, 157, 84, 0.3);
+      color: var(--accent);
+    }
+
+    .btn-secondary:hover {
+      background: rgba(200, 157, 84, 0.2);
+    }
+
+    .btn-small {
+      padding: 0.3rem 0.55rem;
+      font-size: 0.78rem;
+    }
+
+    .btn-danger {
+      background: var(--warning-bg);
+      border-color: var(--warning-border);
+      color: var(--warning-red);
+    }
+
+    .btn-danger:hover {
+      background: rgba(248, 113, 113, 0.3);
+    }
+
+    /* PAGINATION */
+    .pagination-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.25rem 0;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .page-controls {
+      display: flex;
+      gap: 0.4rem;
+      align-items: center;
+    }
+
+    .page-input {
+      width: 55px;
+      padding: 0.35rem;
+      text-align: center;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      color: var(--text);
+      border-radius: 4px;
+      font-size: 0.85rem;
+    }
+
+    /* MODALS */
+    .modal-backdrop {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.85);
+      z-index: 10000;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+    }
+
+    .modal-backdrop.active {
+      display: flex;
+    }
+
+    .modal-box {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 10px;
+      padding: 1.75rem;
+      width: 650px;
+      max-width: 95vw;
+      max-height: 88vh;
+      overflow-y: auto;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.8);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 0.85rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .modal-title {
+      margin: 0;
+      font-family: var(--heading-font, serif);
+      color: var(--accent);
+      font-size: 1.6rem;
+      font-weight: 400;
+    }
+
+    .modal-close-btn {
+      background: none;
+      border: none;
+      color: var(--muted);
+      font-size: 1.6rem;
+      cursor: pointer;
+      line-height: 1;
+    }
+
+    .modal-close-btn:hover {
+      color: #fff;
+    }
   </style>
-  <script src="src/js/app.js"></script>
 </head>
 <body>
 
-  <header>
-    <div class="page-width">
-      <div class="header-inner">
-        <a href="index.html#home" class="logo">
-          <span>🏛️</span> Newport Directory Archive
-        </a>
-        <nav>
-          <a href="index.html#home">Home</a>
-          <a href="index.html#directories">Directories</a>
-          <a href="index.html#streets">All Streets</a>
-          <a href="map.html" class="nav-btn" style="background: rgba(200, 157, 84, 0.15); border-color: var(--accent); color: var(--accent);">🗺️ Map Explorer</a>
-          <a href="trades.html" class="nav-btn active" style="background: var(--accent); color: var(--bg);">Occupations Audit</a>
-          <a href="editor.html" class="nav-btn">📊 Table Editor</a>
-        </nav>
-      </div>
+  <!-- TOP CANVAS HEADER -->
+  <header class="canvas-header" style="background: var(--card-bg, #1e1b18); border-bottom: 1px solid var(--card-border, rgba(200, 157, 84, 0.2)); height: 60px; padding: 0 1.5rem; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 1000; box-shadow: 0 2px 10px rgba(0,0,0,0.2);">
+    <div class="breadcrumb-container" style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;">
+      <a href="index.html#home" style="display: inline-flex; align-items: center; gap: 0.4rem; color: var(--accent, #c89d54); text-decoration: none; font-weight: 600; letter-spacing: 0.2px;">
+        <i class="ph ph-buildings" style="font-size: 1.15rem;"></i> Newport Archive
+      </a>
+      <i class="ph ph-caret-right" style="color: var(--text-muted); font-size: 0.75rem;"></i>
+      <span style="color: var(--text); font-weight: 600;">Occupations &amp; Trades Audit</span>
+    </div>
+    <div class="canvas-header-actions" style="display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap;">
+      <a href="index.html#home" class="header-btn" style="text-decoration: none;"><i class="ph ph-house-line"></i> Home</a>
+      <a href="index.html#directories" class="header-btn" style="text-decoration: none;"><i class="ph ph-books"></i> Directories</a>
+      <a href="index.html#streets" class="header-btn" style="text-decoration: none;"><i class="ph ph-path"></i> All Streets</a>
+      <a href="stats.html" class="header-btn" style="text-decoration: none;"><i class="ph ph-chart-polar"></i> Statistics</a>
+      <a href="timeline.html" class="header-btn" style="text-decoration: none;"><i class="ph ph-clock-counter-clockwise"></i> Timeline</a>
+      <a href="streets_audit.html" class="header-btn" style="text-decoration: none;"><i class="ph ph-check-square-offset"></i> Streets Audit</a>
+      <a href="map.html" class="header-btn primary" style="text-decoration: none;"><i class="ph ph-map-trifold"></i> Map Explorer</a>
     </div>
   </header>
 
-  
-  <!-- DIRECTORY PAGE SCAN INSPECTOR MODAL -->
-  <div class="editor-modal-backdrop" id="scan-inspector-modal" style="z-index: 10100;">
-    <div class="editor-modal-content" style="max-width: 950px; width: 95%; max-height: 90vh; display: flex; flex-direction: column;">
-      <div class="editor-modal-header" style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--card-border); padding-bottom: 0.75rem;">
-        <div>
-          <h3 style="margin: 0; font-family: var(--font-serif); color: var(--gold-primary); font-size: 1.25rem;">📷 Directory Page Scan Inspector</h3>
-          <span style="font-size: 0.85rem; color: var(--muted);" id="scan-modal-subtitle">Johns Directory</span>
-        </div>
-        <button class="modal-close-btn" onclick="closeScanInspectorModal()" style="background: none; border: none; color: #fff; font-size: 1.5rem; cursor: pointer;">&times;</button>
+  <div class="container">
+    
+    <!-- PAGE TITLE & TOP ACTIONS -->
+    <div class="page-header">
+      <div>
+        <h1>Occupations & Trades Audit</h1>
+        <div class="subtitle">Reviewing, normalizing, and merging unique trades across 268,045 historical directory entries (1878–1971)</div>
       </div>
-      
-      <div class="scan-controls-bar" style="display: flex; gap: 0.75rem; align-items: center; background: rgba(0,0,0,0.4); padding: 0.5rem 1rem; border-bottom: 1px solid var(--card-border); flex-wrap: wrap;">
-        <button class="btn-cancel" style="padding: 0.3rem 0.6rem; font-size: 0.8rem;" onclick="changeScanPage(-1)">&larr; Prev Page</button>
-        <span style="font-size: 0.85rem; color: var(--gold-muted);" id="scan-page-counter">Page 1 of 10</span>
-        <button class="btn-cancel" style="padding: 0.3rem 0.6rem; font-size: 0.8rem;" onclick="changeScanPage(1)">Next Page &rarr;</button>
-        <span style="border-left: 1px solid var(--card-border); height: 16px; margin: 0 0.25rem;"></span>
-        <button class="btn-cancel" style="padding: 0.3rem 0.6rem; font-size: 0.8rem;" onclick="zoomScan(0.25)">🔍 Zoom In</button>
-        <button class="btn-cancel" style="padding: 0.3rem 0.6rem; font-size: 0.8rem;" onclick="zoomScan(-0.25)">🔍 Zoom Out</button>
-        <button class="btn-cancel" style="padding: 0.3rem 0.6rem; font-size: 0.8rem;" onclick="resetScanZoom()">↺ Reset</button>
-        <a id="scan-open-raw-btn" href="#" target="_blank" rel="noopener" class="btn-cancel" style="padding: 0.3rem 0.6rem; font-size: 0.8rem; margin-left: auto; border-color: var(--accent); color: var(--accent);">↗ Full Image</a>
-      </div>
-
-      <div style="flex: 1; overflow: auto; position: relative; background: #0a0807; display: flex; justify-content: center; align-items: flex-start; padding: 1rem; min-height: 450px;">
-        <div id="scan-image-wrapper" style="position: relative; transition: transform 0.2s ease; transform-origin: top center;">
-          <img id="scan-modal-img" src="" alt="Directory Scan Page" style="max-width: 100%; display: block; border-radius: 4px; box-shadow: 0 8px 32px rgba(0,0,0,0.8);" />
-          <div id="scan-highlight-box" style="position: absolute; left: 5%; width: 90%; height: 36px; top: 100px; border: 2px solid #e5c07b; background: rgba(229, 192, 123, 0.22); box-shadow: 0 0 15px rgba(229, 192, 123, 0.6); pointer-events: none; border-radius: 3px; display: none; transition: top 0.3s ease;"></div>
-        </div>
+      <div style="display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap;">
+        <button id="view-overrides-btn" class="btn btn-secondary" onclick="showOverridesModal()">
+          ⚙️ Rules &amp; Verified (<span id="active-rules-count">0</span> rules, <span id="header-verified-count">0</span> verified)
+        </button>
+        <button class="btn btn-secondary" onclick="reloadTradesData()">
+          🔄 Re-read Data
+        </button>
       </div>
     </div>
+
+    <!-- STATS STRIP -->
+    <div class="stats-strip">
+      <div class="stat-card">
+        <span class="stat-label">Unique Raw Trades</span>
+        <span class="stat-val" id="stat-unique-count">—</span>
+        <span class="stat-desc">Distinct strings recorded</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-label">Records with Trade</span>
+        <span class="stat-val" id="stat-records-trade">—</span>
+        <span class="stat-desc">Out of 268,045 total records</span>
+      </div>
+      <div class="stat-card" style="border-left: 3px solid var(--warning-red); cursor: pointer;" onclick="switchTab('issues')">
+        <span class="stat-label">Suspected Issues</span>
+        <span class="stat-val" id="stat-issues-count" style="color: var(--warning-red);">—</span>
+        <span class="stat-desc">Punctuation, digits, spills</span>
+      </div>
+      <div class="stat-card" style="border-left: 3px solid var(--twin-amber); cursor: pointer;" onclick="switchTab('twins')">
+        <span class="stat-label">Casing Twins</span>
+        <span class="stat-val" id="stat-casing-count" style="color: var(--twin-amber);">—</span>
+        <span class="stat-desc">e.g. labourer vs Labourer</span>
+      </div>
+      <div class="stat-card" style="border-left: 3px solid var(--verified-green); cursor: pointer;" onclick="switchTab('verified')">
+        <span class="stat-label">Verified Trades</span>
+        <span class="stat-val" id="stat-verified-count" style="color: var(--verified-green);">0</span>
+        <span class="stat-desc">Audited and approved</span>
+      </div>
+    </div>
+
+    <!-- TABS BAR -->
+    <div class="tabs-bar">
+      <button class="tab-btn active" data-tab="all" onclick="switchTab('all')">
+        All Occupations <span class="tab-badge" id="tab-count-all">0</span>
+      </button>
+      <button class="tab-btn" data-tab="issues" onclick="switchTab('issues')">
+        ⚠️ Needs Review <span class="tab-badge" id="tab-count-issues" style="background: var(--warning-bg); color: var(--warning-red);">0</span>
+      </button>
+      <button class="tab-btn" data-tab="twins" onclick="switchTab('twins')">
+        🔤 Capitalization & Typo Pairs <span class="tab-badge" id="tab-count-twins" style="background: var(--twin-bg); color: var(--twin-amber);">0</span>
+      </button>
+      <button class="tab-btn" data-tab="verified" onclick="switchTab('verified')">
+        ✓ Verified <span class="tab-badge" id="tab-count-verified" style="background: var(--verified-bg); color: var(--verified-green);">0</span>
+      </button>
+      <button class="tab-btn" data-tab="overridden" onclick="switchTab('overridden')">
+        ✏️ Custom Rules & Mappings <span class="tab-badge" id="tab-count-overridden">0</span>
+      </button>
+    </div>
+
+    <!-- CONTROLS & FILTERS -->
+    <div class="controls-wrapper">
+      <div class="search-row">
+        <input type="text" id="trade-search" class="search-input" placeholder="Search occupation, sample resident, or street (e.g. Labourer, Driver, Smith)..." />
+        
+        <select id="family-filter" class="select-control" onchange="onFilterChange()">
+          <option value="">All Sectors / Families</option>
+          <option value="Labourers & Manual">Labourers & Manual</option>
+          <option value="Building & Construction">Building & Construction</option>
+          <option value="Metal & Iron Workers">Metal & Iron Workers</option>
+          <option value="Shopkeepers & Retail">Shopkeepers & Retail</option>
+          <option value="Clerical & Commercial">Clerical & Commercial</option>
+          <option value="Maritime & Docks">Maritime & Docks</option>
+          <option value="Railway">Railway</option>
+          <option value="Transport & Drivers">Transport & Drivers</option>
+          <option value="Crafts & Artisans">Crafts & Artisans</option>
+          <option value="Professional & Civic">Professional & Civic</option>
+          <option value="Service & Domestic">Service & Domestic</option>
+          <option value="Suspected Non-Trade / Spill">Suspected Non-Trade / Spill</option>
+          <option value="Other Occupations">Other Occupations</option>
+        </select>
+
+        <select id="freq-filter" class="select-control" onchange="onFilterChange()">
+          <option value="">All Frequencies</option>
+          <option value="high">High Volume (100+ entries)</option>
+          <option value="med">Moderate (10–99 entries)</option>
+          <option value="low">Low (2–9 entries)</option>
+          <option value="singleton">Singletons (1 entry only)</option>
+        </select>
+
+        <select id="issue-cat-filter" class="select-control" onchange="onFilterChange()">
+          <option value="">All Issue Types</option>
+          <option value="Contains Digits">🔢 Contains Digits</option>
+          <option value="Short Tokens (<=3)">🔤 Short Tokens (&le;3)</option>
+          <option value="Symbol Noise">🏷️ Symbol Noise</option>
+          <option value="Name / Company Leaks">👤 Name / Company Leaks</option>
+          <option value="Ditto Variants">📜 Ditto Variants</option>
+          <option value="Street Waypoints">🚶 Street Waypoints</option>
+          <option value="Pure Symbols & Lines">🧹 Pure Symbols & Lines</option>
+          <option value="Floating Suffixes">📎 Floating Suffixes</option>
+          <option value="Other Issues">❓ Other Issues</option>
+        </select>
+
+        <select id="sort-control" class="select-control" onchange="onFilterChange()">
+          <option value="freq-desc">Frequency (High to Low)</option>
+          <option value="freq-asc">Frequency (Low to High)</option>
+          <option value="alpha-asc">Alphabetical (A–Z)</option>
+          <option value="alpha-desc">Alphabetical (Z–A)</option>
+        </select>
+
+        <select id="per-page-control" class="select-control" style="max-width: 130px;" onchange="onPerPageChange()">
+          <option value="50">50 / page</option>
+          <option value="100" selected>100 / page</option>
+          <option value="250">250 / page</option>
+          <option value="500">500 / page</option>
+        </select>
+      </div>
+
+      <!-- BATCH ACTION BAR -->
+      <div id="batch-action-bar" class="batch-bar">
+        <span class="batch-count-badge" id="batch-count-text">0 selected</span>
+        <button class="btn btn-primary btn-small" onclick="batchMergePrompt()">🔗 Merge Selected Into...</button>
+        <button class="btn btn-secondary btn-small" onclick="batchTitleCase()">🔤 Title Case Selected</button>
+        <button class="btn btn-secondary btn-small" onclick="batchMarkNonTrade()">🚫 Mark Non-Trade / Private</button>
+        <button class="btn btn-secondary btn-small" onclick="batchMarkVerified(true)">✓ Mark Verified</button>
+        <button class="btn btn-secondary btn-small" style="margin-left: auto;" onclick="clearSelection()">Clear Selection</button>
+      </div>
+    </div>
+
+    <!-- MAIN DATA TABLE -->
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th style="width: 40px; text-align: center;">
+              <input type="checkbox" id="select-all-checkbox" onchange="toggleSelectAll(this.checked)" title="Select all on this page" />
+            </th>
+            <th style="min-width: 280px;">Occupation / Raw Trade</th>
+            <th style="width: 170px;">Sector / Family</th>
+            <th style="width: 120px;" class="count-col">Frequency</th>
+            <th style="min-width: 220px;">Sample Resident & Street</th>
+            <th style="width: 250px; text-align: right;">Action</th>
+          </tr>
+        </thead>
+        <tbody id="trade-table-body">
+          <tr><td colspan="6" style="text-align: center; color: var(--muted); padding: 3rem;">Loading trade index...</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- PAGINATION BAR -->
+    <div class="pagination-bar">
+      <div id="pagination-info" style="color: var(--muted); font-size: 0.88rem;">Showing 0–0 of 0</div>
+      <div class="page-controls">
+        <button class="btn btn-small" id="btn-page-first" onclick="goToPage(1)">&laquo; First</button>
+        <button class="btn btn-small" id="btn-page-prev" onclick="goToPage(currentPage - 1)">&larr; Prev</button>
+        <span style="font-size: 0.85rem; color: var(--muted); margin: 0 0.5rem;">
+          Page <input type="number" id="page-num-input" class="page-input" min="1" value="1" onchange="goToPage(parseInt(this.value))"> of <span id="page-max-num">1</span>
+        </span>
+        <button class="btn btn-small" id="btn-page-next" onclick="goToPage(currentPage + 1)">Next &rarr;</button>
+        <button class="btn btn-small" id="btn-page-last" onclick="goToPage(maxPages)">Last &raquo;</button>
+      </div>
+    </div>
+
+    <!-- SITE FOOTER -->
+    <footer style="margin-top: 4rem; padding: 2rem 1rem; border-top: 1px solid var(--card-border); text-align: center; color: var(--muted); font-size: 0.88rem;">
+      <div>Created by <strong style="color: var(--text);">Robert Gale</strong>, <em>Newport Cornucopia</em> — <a href="https://www.newportcornucopia.co.uk" target="_blank" rel="noopener" style="color: var(--accent); font-weight: 600; text-decoration: none;">www.newportcornucopia.co.uk</a></div>
+    </footer>
+
   </div>
 
   <!-- RECORD INSPECTOR / EDITOR MODAL -->
-  <div class="editor-modal-backdrop" id="trades-record-modal" style="z-index: 10050;">
-    <div class="editor-modal-content" style="max-width: 650px; width: 95%;">
-      <div class="editor-modal-header" style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--card-border); padding-bottom: 1rem; margin-bottom: 1rem;">
+  <div class="modal-backdrop" id="trades-record-modal">
+    <div class="modal-box">
+      <div class="modal-header">
         <div>
-          <h3 style="margin: 0; font-family: var(--heading-font); color: var(--accent); font-size: 1.5rem;">📋 Record Inspector</h3>
-          <span style="font-size: 0.85rem; color: var(--muted);" id="rec-modal-subtitle">Directory Entry Detail</span>
+          <h3 class="modal-title">📋 Resident Record Inspector</h3>
+          <span style="font-size: 0.85rem; color: var(--muted);">Original Historical Directory Entry Detail</span>
         </div>
-        <button onclick="closeTradesRecordModal()" style="background: none; border: none; color: #fff; font-size: 1.5rem; cursor: pointer;">&times;</button>
+        <button class="modal-close-btn" onclick="closeTradesRecordModal()">&times;</button>
       </div>
       
       <div style="display: flex; flex-direction: column; gap: 1rem;">
-        <div style="background: rgba(0,0,0,0.3); padding: 1rem; border-radius: 8px; border: 1px solid var(--card-border);">
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; font-size: 0.9rem;">
+        <div style="background: rgba(0,0,0,0.3); padding: 1.25rem; border-radius: 8px; border: 1px solid var(--card-border);">
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.85rem; font-size: 0.92rem;">
             <div><span style="color: var(--muted);">Year:</span> <strong id="rec-year" style="color: var(--accent);">-</strong></div>
             <div><span style="color: var(--muted);">Street:</span> <strong id="rec-street">-</strong></div>
             <div><span style="color: var(--muted);">House No:</span> <strong id="rec-housenum">-</strong></div>
@@ -241,85 +682,643 @@
             <div><span style="color: var(--muted);">Forename:</span> <strong id="rec-forename">-</strong></div>
             <div><span style="color: var(--muted);">Surname:</span> <strong id="rec-surname">-</strong></div>
           </div>
-          <div style="margin-top: 0.75rem; border-top: 1px dashed var(--card-border); padding-top: 0.75rem; font-size: 0.95rem;">
-            <span style="color: var(--muted);">Raw Occupation / Trade:</span><br/>
-            <strong id="rec-trade" style="color: #fff; font-size: 1.05rem;">-</strong>
+          <div style="margin-top: 1rem; border-top: 1px dashed var(--card-border); padding-top: 0.85rem; font-size: 0.95rem;">
+            <span style="color: var(--muted);">Raw Occupation / Trade Column:</span><br/>
+            <strong id="rec-trade" style="color: #fff; font-size: 1.1rem; display: block; margin-top: 0.25rem;">-</strong>
           </div>
         </div>
 
-        <div style="display: flex; justify-content: space-between; align-items: center; background: rgba(200, 157, 84, 0.1); border: 1px solid var(--accent-muted); padding: 0.75rem 1rem; border-radius: 8px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; background: rgba(200, 157, 84, 0.1); border: 1px solid rgba(200, 157, 84, 0.3); padding: 0.85rem 1rem; border-radius: 8px;">
           <div>
-            <span style="font-size: 0.85rem; color: var(--accent); font-weight: 500;">📷 Directory Scan Page</span>
-            <div style="font-size: 0.75rem; color: var(--muted);">View original printed scan page for this record</div>
+            <span style="font-size: 0.88rem; color: var(--accent); font-weight: 500;">📷 Original Printed Directory Scan</span>
+            <div style="font-size: 0.78rem; color: var(--muted);">Inspect printed Johns Directory page for verification</div>
           </div>
-          <button id="rec-scan-btn" class="btn" style="padding: 0.4rem 0.85rem; font-size: 0.8rem;">📷 View Original Scan</button>
+          <button id="rec-scan-btn" class="btn btn-primary" style="padding: 0.4rem 0.85rem; font-size: 0.82rem;">📷 View Scan Page</button>
         </div>
       </div>
 
       <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1.5rem; border-top: 1px solid var(--card-border); padding-top: 1rem; flex-wrap: wrap; gap: 0.5rem;">
-        <button id="rec-edit-single-btn" class="btn btn-secondary" style="padding: 0.45rem 0.85rem; font-size: 0.85rem; border-color: var(--accent); color: var(--accent);">✏️ Edit This Entry Only</button>
+        <button id="rec-edit-single-btn" class="btn btn-secondary" style="font-size: 0.85rem;">✏️ Edit This Single Entry</button>
         <div style="display: flex; gap: 0.75rem;">
           <button class="btn btn-secondary" onclick="closeTradesRecordModal()">Close</button>
-          <a id="rec-timeline-btn" href="#" target="_blank" class="btn" style="padding: 0.45rem 1rem; font-size: 0.85rem; text-decoration: none;">Explore Property Timeline ↗</a>
+          <a id="rec-timeline-btn" href="#" target="_blank" class="btn" style="font-size: 0.85rem; text-decoration: none;">Timeline ↗</a>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="container">
-    <div class="page-header">
-      <div>
-        <h1>Occupation Audit</h1>
-        <div class="subtitle">Reviewing unique trades across Newport Directory records</div>
+  <!-- DIRECTORY PAGE SCAN INSPECTOR MODAL -->
+  <div class="modal-backdrop" id="scan-inspector-modal" style="z-index: 10100;">
+    <div class="modal-box" style="max-width: 1050px; width: 95%; height: 90vh; padding: 1.25rem;">
+      <div class="modal-header" style="margin-bottom: 0.5rem;">
+        <div>
+          <h3 class="modal-title" style="font-size: 1.35rem;">📷 Directory Page Scan Inspector</h3>
+          <span style="font-size: 0.82rem; color: var(--muted);" id="scan-modal-subtitle">Johns Directory</span>
+        </div>
+        <button class="modal-close-btn" onclick="closeScanInspectorModal()">&times;</button>
       </div>
-      <div style="display: flex; gap: 1rem; align-items: center;">
-        <button id="view-overrides-btn" class="btn btn-secondary" onclick="showOverridesModal()">Rules (0)</button>
-        <div class="stats-badge" id="total-count">0 Unique Trades Found</div>
+      
+      <div style="display: flex; gap: 0.5rem; align-items: center; background: rgba(0,0,0,0.5); padding: 0.5rem 0.85rem; border-radius: 6px; margin-bottom: 0.75rem; flex-wrap: wrap;">
+        <button class="btn btn-small" onclick="changeScanPage(-1)">&larr; Prev Page</button>
+        <span style="font-size: 0.85rem; color: var(--accent); font-weight: 500;" id="scan-page-counter">Page 1 of 1</span>
+        <button class="btn btn-small" onclick="changeScanPage(1)">Next Page &rarr;</button>
+        <span style="border-left: 1px solid var(--card-border); height: 16px; margin: 0 0.25rem;"></span>
+        <button class="btn btn-small" onclick="zoomScan(0.25)">🔍 Zoom In</button>
+        <button class="btn btn-small" onclick="zoomScan(-0.25)">🔍 Zoom Out</button>
+        <button class="btn btn-small" onclick="resetScanZoom()">↺ Reset</button>
+        <a id="scan-open-raw-btn" href="#" target="_blank" rel="noopener" class="btn btn-small btn-secondary" style="margin-left: auto;">↗ Full Image</a>
+      </div>
+
+      <div style="flex: 1; overflow: auto; background: #0a0807; display: flex; justify-content: center; align-items: flex-start; padding: 1rem; border-radius: 6px;">
+        <div id="scan-image-wrapper" style="position: relative; transition: transform 0.2s ease; transform-origin: top center;">
+          <img id="scan-modal-img" src="" alt="Directory Scan Page" style="max-width: 100%; display: block; border-radius: 4px; box-shadow: 0 8px 32px rgba(0,0,0,0.8);" />
+        </div>
       </div>
     </div>
-
-    <div class="tabs-bar">
-      <button class="tab-btn active" data-tab="all" onclick="switchTab('all')">
-        All Occupations <span class="tab-badge" id="tab-count-all">0</span>
-      </button>
-      <button class="tab-btn" data-tab="issues" onclick="switchTab('issues')">
-        ⚠️ Needs Review <span class="tab-badge" id="tab-count-issues" style="background: rgba(245, 101, 101, 0.3); color: #f56565;">0</span>
-      </button>
-      <button class="tab-btn" data-tab="verified" onclick="switchTab('verified')">
-        ✓ Verified <span class="tab-badge" id="tab-count-verified">0</span>
-      </button>
-      <button class="tab-btn" data-tab="overridden" onclick="switchTab('overridden')">
-        ✏️ Custom Rules <span class="tab-badge" id="tab-count-overridden">0</span>
-      </button>
-    </div>
-
-    <div class="controls">
-      <input type="text" id="trade-search" class="search-input" placeholder="Filter occupations (e.g. Labourer, Driver, Mason)..." />
-    </div>
-
-    <table>
-      <thead>
-        <tr>
-          <th>Occupation / Trade</th>
-          <th class="count-col">Frequency</th>
-          <th class="example-col">Sample Entry</th>
-          <th style="width: 220px; text-align: right;">Action</th>
-        </tr>
-      </thead>
-      <tbody id="trade-table-body">
-        <tr><td colspan="4" style="color: var(--muted);">Loading trade records...</td></tr>
-      </tbody>
-    </table>
   </div>
 
-  <script>
-    let tradeMap = new Map();
-    var NON_TRADES_REGEX = /^(mrs\.?|miss\.?|mr\.?|thos\.?|jas\.?|wm\.?|saml\.?|john|geo\.?|chas\.?|hy\.?|richd\.?|harry|ernest|fredk\.?|arthur|edwd\.?|walt\.?|david|danl\.?|benj\.?|stepn\.?|iss e|ltd\.?|limited|co\.?|& co\.?|co\.? ltd\.?|ld\.?|henry|joseph|albert|reginald|harold|alfred|frank|edward|herbert|edwin|fred|norman|ivor|stanley|leslie|sidney|horace|edgar|lewis|percy|wilfred|bernard|eric|clifford|trevor|return\.?|junr?\.?|&|&c|etc|\{.*\}|;;;)$/i;
+  <!-- ACTIVE RULES & OVERRIDES MODAL -->
+  <div class="modal-backdrop" id="overrides-modal">
+    <div class="modal-box" style="width: 800px; max-width: 95%;">
+      <div class="modal-header">
+        <div>
+          <h3 class="modal-title">⚙️ Audit Rules &amp; Verified Occupations</h3>
+          <span style="font-size: 0.85rem; color: var(--muted);">Manage custom mappings and permanently approved occupations</span>
+        </div>
+        <button class="modal-close-btn" onclick="closeOverridesModal()">&times;</button>
+      </div>
 
-    // Overrides & Verified Management via localStorage
+      <!-- Sub tabs for Modal -->
+      <div style="display: flex; gap: 0.5rem; border-bottom: 1px solid var(--card-border); padding-bottom: 0.75rem; margin-bottom: 1rem;">
+        <button id="modal-tab-rules-btn" class="btn btn-small btn-primary" onclick="switchModalTab('rules')">🔀 Rewrite Rules (<span id="modal-rules-count-badge">0</span>)</button>
+        <button id="modal-tab-verified-btn" class="btn btn-small btn-secondary" onclick="switchModalTab('verified')">✓ Verified Occupations (<span id="modal-verified-count-badge">0</span>)</button>
+      </div>
+
+      <!-- Rules View -->
+      <div id="modal-rules-view">
+        <div style="display: flex; gap: 0.6rem; margin-bottom: 1rem; flex-wrap: wrap;">
+          <button class="btn btn-primary" onclick="exportAllAuditJSON()">💾 Export All (Rules + Verified JSON)</button>
+          <button class="btn btn-secondary" onclick="exportOverridesJSON()">💾 Export Rules Only</button>
+          <button class="btn btn-secondary" onclick="copyPythonDict()">📋 Copy Python Dict</button>
+          <button class="btn btn-danger" style="margin-left: auto;" onclick="clearAllOverrides()">Clear All Rules</button>
+        </div>
+        <div id="overrides-list-container" style="max-height: 50vh; overflow-y: auto; border: 1px solid var(--card-border); border-radius: 6px;">
+          <!-- Injected dynamically -->
+        </div>
+      </div>
+
+      <!-- Verified View -->
+      <div id="modal-verified-view" style="display: none;">
+        <div style="display: flex; gap: 0.6rem; margin-bottom: 1rem; flex-wrap: wrap; align-items: center;">
+          <input type="text" id="modal-verified-search" class="search-input" style="flex: 1; min-width: 220px; padding: 0.5rem 0.85rem; font-size: 0.88rem;" placeholder="Filter verified occupations..." oninput="renderVerifiedModalList()" />
+          <button class="btn btn-primary" onclick="exportVerifiedJSON()">💾 Export Verified JSON</button>
+          <button class="btn btn-danger" onclick="clearAllVerified()">Clear All Verifications</button>
+        </div>
+        <div id="verified-list-container" style="max-height: 50vh; overflow-y: auto; border: 1px solid var(--card-border); border-radius: 6px;">
+          <!-- Injected dynamically -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCRIPT -->
+  <script>
+    // State
+    let rawTradesData = [];
     let tradeOverrides = JSON.parse(localStorage.getItem('trade_overrides') || '{}');
     let verifiedTrades = new Set(JSON.parse(localStorage.getItem('trade_verified') || '[]'));
-    let currentFilterTab = 'all'; // 'all', 'issues', 'verified', 'overridden'
+    let verifiedLowerSet = new Set();
+    let selectedTrades = new Set();
+
+    function rebuildVerifiedLowerSet() {
+      verifiedLowerSet.clear();
+      for (const t of verifiedTrades) {
+        if (t && typeof t === 'string') {
+          verifiedLowerSet.add(t.toLowerCase().trim());
+        }
+      }
+    }
+    rebuildVerifiedLowerSet();
+    
+    let currentTab = 'all';
+    let searchQuery = '';
+    let currentFamily = '';
+    let currentFreq = '';
+    let currentSort = 'freq-desc';
+    
+    let currentPage = 1;
+    let pageSize = 100;
+    let filteredTrades = [];
+    let maxPages = 1;
+
+    // Scan modal state
+    let scansIndex = null;
+    let currentScanYear = null;
+    let currentScanPageIdx = 0;
+    let currentScanZoomLevel = 1.0;
+
+    // Load data on startup
+    async function init() {
+      await loadTradesData();
+      setupEventListeners();
+    }
+
+    async function loadTradesData() {
+      const tbody = document.getElementById('trade-table-body');
+      tbody.innerHTML = '<tr><td colspan="6" style="text-align: center; color: var(--muted); padding: 3rem;">Loading pre-aggregated trade index (data/trades.json)...</td></tr>';
+      
+      try {
+        const response = await fetch('data/trades.json');
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status} ${response.statusText}`);
+        }
+        const data = await response.json();
+        rawTradesData = data.trades || [];
+
+        // Ingest pre-verified trades from trades.json
+        rawTradesData.forEach(item => {
+          if (item.v === 1 && item.t) {
+            verifiedTrades.add(item.t);
+          }
+        });
+
+        // Also fetch data/verified_trades.json if available
+        try {
+          const vResp = await fetch('data/verified_trades.json');
+          if (vResp.ok) {
+            const vData = await vResp.json();
+            if (Array.isArray(vData)) {
+              vData.forEach(t => { if (t && typeof t === 'string') verifiedTrades.add(t); });
+            }
+          }
+        } catch (_) {}
+
+        rebuildVerifiedLowerSet();
+        saveVerified();
+
+        // Update stats
+        document.getElementById('stat-unique-count').innerText = (data.unique_count || rawTradesData.length).toLocaleString();
+        document.getElementById('stat-records-trade').innerText = (data.total_with_trade || 0).toLocaleString();
+        document.getElementById('stat-issues-count').innerText = (data.issue_count || 0).toLocaleString();
+        document.getElementById('stat-casing-count').innerText = (data.casing_twin_count || 0).toLocaleString();
+        updateVerifiedCount();
+        updateRulesBadge();
+
+        applyFilters();
+      } catch (err) {
+        console.error("Failed loading data/trades.json:", err);
+        tbody.innerHTML = `
+          <tr>
+            <td colspan="6" style="text-align: center; color: var(--warning-red); padding: 3rem;">
+              Failed to load trade index (<code>${err.message}</code>).<br/><br/>
+              Please ensure <code>data/trades.json</code> exists by running:<br/>
+              <code style="background: rgba(0,0,0,0.4); padding: 0.3rem 0.6rem; border-radius: 4px; display: inline-block; margin-top: 0.5rem;">python3 scripts/build_trades_data.py</code>
+            </td>
+          </tr>
+        `;
+      }
+    }
+
+    function reloadTradesData() {
+      loadTradesData();
+    }
+
+    function setupEventListeners() {
+      const searchInput = document.getElementById('trade-search');
+      let searchTimeout;
+      searchInput.addEventListener('input', (e) => {
+        clearTimeout(searchTimeout);
+        searchTimeout = setTimeout(() => {
+          searchQuery = e.target.value.trim().toLowerCase();
+          currentPage = 1;
+          applyFilters();
+        }, 150);
+      });
+    }
+
+    function switchTab(tab) {
+      currentTab = tab;
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.tab === tab);
+      });
+      currentPage = 1;
+      applyFilters();
+    }
+
+    let currentIssueCat = '';
+
+    function onFilterChange() {
+      currentFamily = document.getElementById('family-filter').value;
+      currentFreq = document.getElementById('freq-filter').value;
+      currentSort = document.getElementById('sort-control').value;
+      currentIssueCat = document.getElementById('issue-cat-filter') ? document.getElementById('issue-cat-filter').value : '';
+      currentPage = 1;
+      applyFilters();
+    }
+
+    function onPerPageChange() {
+      pageSize = parseInt(document.getElementById('per-page-control').value) || 100;
+      currentPage = 1;
+      renderTable();
+    }
+
+    function applyFilters() {
+      let issuesCount = 0;
+      let twinsCount = 0;
+      let verifiedCount = 0;
+      let overriddenCount = 0;
+
+      // Filter raw trades
+      filteredTrades = rawTradesData.filter(item => {
+        const rawTrade = item.t;
+        const lowerTrade = rawTrade.toLowerCase();
+        const effectiveTrade = tradeOverrides[lowerTrade] || rawTrade;
+        const isOverridden = Boolean(tradeOverrides[lowerTrade]);
+        const isVerified = verifiedLowerSet.has(lowerTrade) || (isOverridden && verifiedLowerSet.has(effectiveTrade.toLowerCase()));
+        const hasIssue = Boolean(item.iss);
+        const hasTwin = Boolean(item.ctw);
+
+        // Update counts
+        if (hasIssue) issuesCount++;
+        if (hasTwin) twinsCount++;
+        if (isVerified) verifiedCount++;
+        if (isOverridden) overriddenCount++;
+
+        // Tab match
+        if (currentTab === 'issues' && !hasIssue) return false;
+        if (currentTab === 'twins' && !hasTwin) return false;
+        if (currentTab === 'verified' && !isVerified) return false;
+        if (currentTab === 'overridden' && !isOverridden) return false;
+
+        // Issue sub-category match
+        if (currentIssueCat && item.ic !== currentIssueCat) return false;
+
+        // Sector / family match
+        if (currentFamily && item.f !== currentFamily) return false;
+
+        // Frequency match
+        if (currentFreq === 'high' && item.c < 100) return false;
+        if (currentFreq === 'med' && (item.c < 10 || item.c >= 100)) return false;
+        if (currentFreq === 'low' && (item.c < 2 || item.c >= 10)) return false;
+        if (currentFreq === 'singleton' && item.c !== 1) return false;
+
+        // Search match
+        if (searchQuery) {
+          const sampleName = `${item.r[4]} ${item.r[5]}`.toLowerCase();
+          const sampleStreet = (item.r[1] || '').toLowerCase();
+          if (
+            !lowerTrade.includes(searchQuery) &&
+            !effectiveTrade.toLowerCase().includes(searchQuery) &&
+            !sampleName.includes(searchQuery) &&
+            !sampleStreet.includes(searchQuery)
+          ) {
+            return false;
+          }
+        }
+
+        return true;
+      });
+
+      // Update tab badges
+      document.getElementById('tab-count-all').innerText = rawTradesData.length.toLocaleString();
+      document.getElementById('tab-count-issues').innerText = issuesCount.toLocaleString();
+      document.getElementById('tab-count-twins').innerText = twinsCount.toLocaleString();
+      document.getElementById('tab-count-verified').innerText = verifiedCount.toLocaleString();
+      document.getElementById('tab-count-overridden').innerText = overriddenCount.toLocaleString();
+
+      // Sort
+      filteredTrades.sort((a, b) => {
+        if (currentSort === 'freq-desc') return b.c - a.c;
+        if (currentSort === 'freq-asc') return a.c - b.c;
+        if (currentSort === 'alpha-asc') return a.t.localeCompare(b.t);
+        if (currentSort === 'alpha-desc') return b.t.localeCompare(a.t);
+        return 0;
+      });
+
+      renderTable();
+    }
+
+    function renderTable() {
+      const tbody = document.getElementById('trade-table-body');
+      const total = filteredTrades.length;
+      maxPages = Math.ceil(total / pageSize) || 1;
+      if (currentPage > maxPages) currentPage = maxPages;
+      if (currentPage < 1) currentPage = 1;
+
+      // Update pagination info
+      const startIdx = (currentPage - 1) * pageSize;
+      const endIdx = Math.min(startIdx + pageSize, total);
+      document.getElementById('pagination-info').innerText = total === 0 ? 'Showing 0–0 of 0' : `Showing ${(startIdx + 1).toLocaleString()}–${endIdx.toLocaleString()} of ${total.toLocaleString()} occupations`;
+      document.getElementById('page-num-input').value = currentPage;
+      document.getElementById('page-max-num').innerText = maxPages.toLocaleString();
+
+      document.getElementById('btn-page-first').disabled = currentPage === 1;
+      document.getElementById('btn-page-prev').disabled = currentPage === 1;
+      document.getElementById('btn-page-next').disabled = currentPage === maxPages;
+      document.getElementById('btn-page-last').disabled = currentPage === maxPages;
+
+      if (total === 0) {
+        tbody.innerHTML = '<tr><td colspan="6" style="text-align: center; color: var(--muted); padding: 3rem;">No occupations match your filters.</td></tr>';
+        updateBatchActionBar();
+        return;
+      }
+
+      const pageItems = filteredTrades.slice(startIdx, endIdx);
+      const fragment = document.createDocumentFragment();
+
+      pageItems.forEach(item => {
+        const rawTrade = item.t;
+        const lowerTrade = rawTrade.toLowerCase();
+        const override = tradeOverrides[lowerTrade];
+        const isOverridden = Boolean(override);
+        const isVerified = verifiedLowerSet.has(lowerTrade) || (isOverridden && verifiedLowerSet.has(override.toLowerCase()));
+        const hasIssue = Boolean(item.iss);
+        const hasTwin = Boolean(item.ctw);
+        const isChecked = selectedTrades.has(rawTrade);
+
+        const tr = document.createElement('tr');
+        if (isChecked) tr.classList.add('selected');
+
+        // Checkbox
+        const tdCheck = document.createElement('td');
+        tdCheck.style.textAlign = 'center';
+        const chk = document.createElement('input');
+        chk.type = 'checkbox';
+        chk.checked = isChecked;
+        chk.onchange = (e) => {
+          toggleRowSelect(rawTrade, e.target.checked);
+          tr.classList.toggle('selected', e.target.checked);
+        };
+        tdCheck.appendChild(chk);
+
+        // Trade Name & Status Badges
+        const tdTrade = document.createElement('td');
+        let yearsSummary = '';
+        if (item.y && item.y.length > 0) {
+          if (item.y.length === 1) yearsSummary = item.y[0];
+          else yearsSummary = `${item.y[0]}–${item.y[item.y.length - 1]}`;
+        }
+
+        let badgesHtml = '';
+        if (isOverridden) {
+          badgesHtml += `<span class="status-badge badge-overridden">✏️ &rarr; ${escapeHtml(override)}</span> `;
+        }
+        if (isVerified) {
+          badgesHtml += `<span class="status-badge badge-verified">✓ Verified</span> `;
+        }
+        if (hasIssue && !isVerified) {
+          badgesHtml += `<span class="status-badge badge-issue" title="Punctuation, address, or formatting issue">⚠️ Needs Review</span> `;
+        }
+        if (hasTwin && !isOverridden) {
+          badgesHtml += `<span class="status-badge badge-twin" title="Casing duplicates exist (e.g. lowercase vs capitalized)">🔤 Twin</span> `;
+        }
+
+        tdTrade.innerHTML = `
+          <div style="display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap;">
+            <strong style="font-size: 0.98rem; color: ${isOverridden ? 'var(--accent)' : 'var(--text)'};">${escapeHtml(rawTrade)}</strong>
+            ${yearsSummary ? `<span class="years-pill">${yearsSummary}</span>` : ''}
+            ${badgesHtml}
+          </div>
+        `;
+
+        // Sector / Family
+        const tdFamily = document.createElement('td');
+        tdFamily.innerHTML = `<span class="family-badge">${escapeHtml(item.f || 'Other')}</span>`;
+
+        // Frequency
+        const tdFreq = document.createElement('td');
+        tdFreq.className = 'count-cell';
+        tdFreq.innerText = item.c.toLocaleString();
+
+        // Sample resident
+        const tdSample = document.createElement('td');
+        const resName = `${item.r[4]} ${item.r[5]}`.trim() || 'Resident Record';
+        const streetName = item.r[1] || '';
+        const yr = item.r[0] || '';
+        const a = document.createElement('a');
+        a.href = '#';
+        a.style.cssText = 'color: var(--accent); text-decoration: underline; cursor: pointer;';
+        a.textContent = resName;
+        a.onclick = (e) => {
+          e.preventDefault();
+          openTradesRecordModal(item);
+        };
+        tdSample.appendChild(a);
+        if (streetName) {
+          const stDiv = document.createElement('div');
+          stDiv.style.cssText = 'font-size: 0.78rem; color: var(--muted); margin-top: 0.15rem;';
+          stDiv.textContent = `${streetName} (${yr})`;
+          tdSample.appendChild(stDiv);
+        }
+
+        // Actions
+        const tdAction = document.createElement('td');
+        tdAction.style.textAlign = 'right';
+        tdAction.innerHTML = `
+          <div style="display: flex; gap: 0.35rem; justify-content: flex-end; flex-wrap: wrap;">
+            <button class="btn btn-small btn-secondary" onclick="editTradeRule('${escapeJsStr(rawTrade)}')">Merge / Rule</button>
+            ${rawTrade !== item.tc ? `<button class="btn btn-small" onclick="quickTitleCase('${escapeJsStr(rawTrade)}', '${escapeJsStr(item.tc)}')">🔤 Title Case</button>` : ''}
+            <button class="btn btn-small ${isVerified ? 'btn-secondary' : ''}" onclick="toggleVerified('${escapeJsStr(rawTrade)}')">${isVerified ? 'Unmark' : '✓ Verify'}</button>
+          </div>
+        `;
+
+        tr.appendChild(tdCheck);
+        tr.appendChild(tdTrade);
+        tr.appendChild(tdFamily);
+        tr.appendChild(tdFreq);
+        tr.appendChild(tdSample);
+        tr.appendChild(tdAction);
+
+        fragment.appendChild(tr);
+      });
+
+      tbody.innerHTML = '';
+      tbody.appendChild(fragment);
+
+      // Update select-all checkbox state
+      const selectAll = document.getElementById('select-all-checkbox');
+      const allOnPageChecked = pageItems.length > 0 && pageItems.every(i => selectedTrades.has(i.t));
+      selectAll.checked = allOnPageChecked;
+
+      updateBatchActionBar();
+    }
+
+    function goToPage(page) {
+      if (page < 1) page = 1;
+      if (page > maxPages) page = maxPages;
+      currentPage = page;
+      renderTable();
+    }
+
+    // Selection
+    function toggleRowSelect(trade, isChecked) {
+      if (isChecked) {
+        selectedTrades.add(trade);
+      } else {
+        selectedTrades.delete(trade);
+      }
+      updateBatchActionBar();
+    }
+
+    function toggleSelectAll(isChecked) {
+      const startIdx = (currentPage - 1) * pageSize;
+      const endIdx = Math.min(startIdx + pageSize, filteredTrades.length);
+      const pageItems = filteredTrades.slice(startIdx, endIdx);
+
+      pageItems.forEach(item => {
+        if (isChecked) {
+          selectedTrades.add(item.t);
+        } else {
+          selectedTrades.delete(item.t);
+        }
+      });
+      renderTable();
+    }
+
+    function clearSelection() {
+      selectedTrades.clear();
+      renderTable();
+    }
+
+    function updateBatchActionBar() {
+      const bar = document.getElementById('batch-action-bar');
+      const countText = document.getElementById('batch-count-text');
+      if (selectedTrades.size > 0) {
+        bar.classList.add('active');
+        countText.innerText = `${selectedTrades.size} trade${selectedTrades.size === 1 ? '' : 's'} selected`;
+      } else {
+        bar.classList.remove('active');
+      }
+    }
+
+    // Rules & Override functions
+    function editTradeRule(tradeName) {
+      const lower = tradeName.toLowerCase();
+      const currentVal = tradeOverrides[lower] || toTitleCaseStr(tradeName);
+      const target = prompt(`Enter canonical target trade for "${tradeName}":`, currentVal);
+      if (target === null) return;
+      const cleanTarget = target.trim();
+      if (!cleanTarget) return;
+
+      tradeOverrides[lower] = cleanTarget;
+      verifiedTrades.add(cleanTarget);
+      rebuildVerifiedLowerSet();
+      saveOverrides();
+      saveVerified();
+      updateRulesBadge();
+      updateVerifiedCount();
+      applyFilters();
+    }
+
+    function quickTitleCase(tradeName, targetTitleCase) {
+      const lower = tradeName.toLowerCase();
+      tradeOverrides[lower] = targetTitleCase;
+      verifiedTrades.add(targetTitleCase);
+      rebuildVerifiedLowerSet();
+      saveOverrides();
+      saveVerified();
+      updateRulesBadge();
+      updateVerifiedCount();
+      applyFilters();
+    }
+
+    function toggleVerified(tradeName) {
+      const lower = tradeName.toLowerCase().trim();
+      const effective = tradeOverrides[lower] || tradeName;
+      const effectiveLower = effective.toLowerCase().trim();
+      
+      if (verifiedLowerSet.has(lower) || verifiedLowerSet.has(effectiveLower)) {
+        for (const v of Array.from(verifiedTrades)) {
+          const vl = v.toLowerCase().trim();
+          if (vl === lower || vl === effectiveLower) {
+            verifiedTrades.delete(v);
+          }
+        }
+      } else {
+        verifiedTrades.add(effective);
+      }
+      rebuildVerifiedLowerSet();
+      saveVerified();
+      updateVerifiedCount();
+      applyFilters();
+    }
+
+    // Batch actions
+    function batchMergePrompt() {
+      if (selectedTrades.size === 0) return;
+      
+      const candidates = Array.from(selectedTrades);
+      const suggested = toTitleCaseStr(candidates[0]);
+      
+      const target = prompt(`Merge ${candidates.length} selected trades into canonical occupation:`, suggested);
+      if (target === null) return;
+      const cleanTarget = target.trim();
+      if (!cleanTarget) return;
+
+      candidates.forEach(t => {
+        tradeOverrides[t.toLowerCase()] = cleanTarget;
+      });
+      verifiedTrades.add(cleanTarget);
+      
+      rebuildVerifiedLowerSet();
+      saveOverrides();
+      saveVerified();
+      selectedTrades.clear();
+      updateRulesBadge();
+      updateVerifiedCount();
+      applyFilters();
+    }
+
+    function batchTitleCase() {
+      if (selectedTrades.size === 0) return;
+      if (!confirm(`Apply standard Title Case capitalization to ${selectedTrades.size} selected trades?`)) return;
+
+      selectedTrades.forEach(t => {
+        const tc = toTitleCaseStr(t);
+        tradeOverrides[t.toLowerCase()] = tc;
+      });
+      saveOverrides();
+      selectedTrades.clear();
+      updateRulesBadge();
+      applyFilters();
+    }
+
+    function batchMarkNonTrade() {
+      if (selectedTrades.size === 0) return;
+      if (!confirm(`Mark ${selectedTrades.size} selected trades as Non-Trade (Residence / Private)?`)) return;
+
+      selectedTrades.forEach(t => {
+        tradeOverrides[t.toLowerCase()] = 'Residence / Private';
+      });
+      saveOverrides();
+      selectedTrades.clear();
+      updateRulesBadge();
+      applyFilters();
+    }
+
+    function batchMarkVerified(val) {
+      if (selectedTrades.size === 0) return;
+      selectedTrades.forEach(t => {
+        const lower = t.toLowerCase().trim();
+        const effective = tradeOverrides[lower] || t;
+        const effectiveLower = effective.toLowerCase().trim();
+        if (val) {
+          verifiedTrades.add(effective);
+        } else {
+          for (const v of Array.from(verifiedTrades)) {
+            const vl = v.toLowerCase().trim();
+            if (vl === lower || vl === effectiveLower) {
+              verifiedTrades.delete(v);
+            }
+          }
+        }
+      });
+      rebuildVerifiedLowerSet();
+      saveVerified();
+      selectedTrades.clear();
+      updateVerifiedCount();
+      applyFilters();
+    }
 
     function saveOverrides() {
       localStorage.setItem('trade_overrides', JSON.stringify(tradeOverrides));
@@ -329,723 +1328,369 @@
       localStorage.setItem('trade_verified', JSON.stringify(Array.from(verifiedTrades)));
     }
 
-    function toggleVerified(canonicalName) {
-      if (verifiedTrades.has(canonicalName)) {
-        verifiedTrades.delete(canonicalName);
+    function updateRulesBadge() {
+      const count = Object.keys(tradeOverrides).filter(k => !k.startsWith('single:')).length;
+      const b1 = document.getElementById('active-rules-count');
+      if (b1) b1.innerText = count;
+      const b2 = document.getElementById('modal-rules-count-badge');
+      if (b2) b2.innerText = count;
+    }
+
+    function updateVerifiedCount() {
+      const countStr = verifiedTrades.size.toLocaleString();
+      const sBadge = document.getElementById('stat-verified-count');
+      if (sBadge) sBadge.innerText = countStr;
+      const hBadge = document.getElementById('header-verified-count');
+      if (hBadge) hBadge.innerText = countStr;
+      const mBadge = document.getElementById('modal-verified-count-badge');
+      if (mBadge) mBadge.innerText = countStr;
+    }
+
+    // Modal Tabs & View Logic
+    let currentModalTab = 'rules';
+
+    function switchModalTab(tab) {
+      currentModalTab = tab;
+      const rulesBtn = document.getElementById('modal-tab-rules-btn');
+      const verifiedBtn = document.getElementById('modal-tab-verified-btn');
+      const rulesView = document.getElementById('modal-rules-view');
+      const verifiedView = document.getElementById('modal-verified-view');
+
+      if (tab === 'rules') {
+        if (rulesBtn) rulesBtn.className = 'btn btn-small btn-primary';
+        if (verifiedBtn) verifiedBtn.className = 'btn btn-small btn-secondary';
+        if (rulesView) rulesView.style.display = 'block';
+        if (verifiedView) verifiedView.style.display = 'none';
+        renderRulesModalList();
       } else {
-        verifiedTrades.add(canonicalName);
+        if (rulesBtn) rulesBtn.className = 'btn btn-small btn-secondary';
+        if (verifiedBtn) verifiedBtn.className = 'btn btn-small btn-primary';
+        if (rulesView) rulesView.style.display = 'none';
+        if (verifiedView) verifiedView.style.display = 'block';
+        renderVerifiedModalList();
       }
-      saveVerified();
-      renderTable(document.getElementById('trade-search').value);
-      updateTabCounts();
-    }
-
-    function isLikelyIssue(trade, data) {
-      // 1. Non-trade / Address / Waypoint leftovers
-      if (/^(here is|here are|from\s+\d+|from\s+newport|\(?the roundabout\)?)/i.test(trade)) return true;
-      if (/^(tel|telephone|newport\s+\d+|\d+\s*\(after)/i.test(trade)) return true;
-      if (/^\(flat\s+\d+/i.test(trade)) return true;
-      
-      // 2. Short or strange punctuation/abbreviations leftover
-      if (/[;\/:_\{\}\[\]\\\|]/.test(trade)) return true;
-      if (/\b(dvr|drvr|ptr|clk|trm|labr|wkr|agt|mer|co|ltd|mcht|eng)\b/i.test(trade)) return true;
-      if (trade.length <= 3 && trade !== 'G.W.R.' && trade !== 'G.P.O.') return true;
-      // 3. Contains digits or unusual mixed casing
-      if (/\d/.test(trade)) return true;
-      // 4. Raw variants contain obvious uncleaned shortcuts
-      if (data.rawSamples.some(r => /[\;\:\\\/_\{\}]/.test(r) || /\b(do\.?|ditto)\b/i.test(r))) return true;
-      return false;
-    }
-
-    function cleanOccupation(trade) {
-      if (!trade) return 'Residence / Private';
-      let clean = trade.trim();
-
-      // Check user overrides first
-      if (tradeOverrides[clean.toLowerCase()]) {
-        return tradeOverrides[clean.toLowerCase()];
-      }
-
-      // Catch JSON block spills (e.g. Butcher"", ""Business / Entity"":""..."", Outfitter And Pawnbroker...)
-      if (/\{|""|Business \/ Entity|Layout \/ Notes|Forenames|Surname/i.test(clean)) {
-        if (/butcher/i.test(clean)) return 'Butcher';
-        if (/outfitter/i.test(clean)) return 'Outfitter';
-        if (/pawnbroker/i.test(clean)) return 'Pawnbroker';
-        return 'Residence / Private';
-      }
-
-      // Catch Bengali or non-ASCII OCR artifacts (e.g. "ভিন")
-      if (/[\u0980-\u09FF\u0600-\u06FF\u0400-\u04FF\u4E00-\u9FFF]/.test(clean)) {
-        return 'Residence / Private';
-      }
-
-      // Catch year-only spills in parentheses or raw (e.g. "(1910)", "1910", ". S")
-      if (/^\(?\d{4}\)?$/i.test(clean) || /^\.\s*[a-z]$/i.test(clean)) {
-        return 'Residence / Private';
-      }
-
-      // Catch professional qualifications / engineering suffixes
-      if (/^m\.?i\.?c\.?e\.?/i.test(clean) || /^r\.?c\.?s\.?/i.test(clean)) {
-        if (/civ\.?\s*eng/i.test(clean) || /eng/i.test(clean)) return 'Civil Engineer';
-        if (/surg|dentist/i.test(clean)) return 'Dental Surgeon';
-        return 'Civil Engineer';
-      }
-
-      // Catch long multi-line advertisement spills (e.g. "India Rubber, Gutta Percha...", "Guest, Keen & Nettlefolds...", "Colliery Proprietors...", "Al Exporters...")
-      if (/gutta percha|hose packings|steamship and colliery furnishers|imperial mills|colliery proprietors|agents for the united national/i.test(clean)) {
-        if (/rubber|gutta percha/i.test(clean)) return 'India Rubber & Gutta Percha Manufacturers';
-        if (/mills|nettlefolds/i.test(clean)) return 'Iron & Steel Manufacturers';
-        if (/colliery|coal/i.test(clean)) return 'Colliery Proprietors & Coal Exporters';
-        return 'Commercial Business';
-      }
-
-      // 1. Catch Waypoints, Address Spills, Flat numbers, Phone numbers, & Non-trade OCR spills
-      if (
-        /^(here is|here are|from\s+\d+|from\s+[a-z]+|\(?the roundabout\)?|\(?flat\s+\d+.*?\)?)/i.test(clean) ||
-        /^(tel\.?|telephone|newport\s+\d+|\d+\s*\(after|\d+[a-z]?,?\s*workers)/i.test(clean) ||
-        /^(do\.?|ditto|[-—_\|\\\[\]\{\}\.\,\&\;\:\?\!]+|&c|etc|\(?return\)?\.?|;;;)$/i.test(clean) ||
-        /^(ltd\.?|co\.?|& co\.?|co\.?\s+ltd\.?|ltd\.?,\s*ltd|ltd\.?,\s*co\.?|gas\s+co|way\s+co\.?'?s?\s*office|1st\s+floor|2nd\s+floor|3rd\s+floor)$/i.test(clean) ||
-        /^(&|\*|are|for|de|en|et|si|tai|vw|wks|rd|to\s+\d+\s+unbuilt|\(3\)|p\.o\.?|& m|& b|and at cardiff.*)$/i.test(clean) ||
-        NON_TRADES_REGEX.test(clean)
-      ) {
-        return 'Residence / Private';
-      }
-
-      // Filter house/villa/building names left in trade column (e.g., "The Woodlands", "Norwood", "Eversley", "Rosetta", "Brynholme", "Gasworks", "Woolmer")
-      if (
-        /^(the\s+woodlands|norwood|eversley|rosetta|brynholme|gasworks|woolmer)$/i.test(clean) ||
-        /^(bryn|villas?|cottage|house|lodge|manor|hall|court|view|terrace|gardens)\b/i.test(clean)
-      ) {
-        return 'Residence / Private';
-      }
-
-      // Handle "do. [Trade]" or "ditto [Trade]" patterns
-      clean = clean.replace(/^(?:\d+\s+)?(?:do\.?|ditto)\s*[\.,]*\s*(?:\[(.*?)\]|(.*?))$/i, (m, g1, g2) => (g1 || g2 || '').trim());
-      clean = clean.replace(/^[-—_\|,\s]+/, '').replace(/[-—_\|,\s]+$/, '').trim();
-
-      // Strip house numbers and address prefixes (e.g. "20-24, Boot Repairer" -> "Boot Repairer", "52, Labourer" -> "Labourer", "Engrocer, 19 Foster F. J. Greengrocer")
-      clean = clean
-        .replace(/^\(from\s+\d+[^)]*\)\s*/i, '')
-        .replace(/^\[?(\d+[-\d]*[a-z]?),?\s*/i, '')
-        .replace(/^\d+[a-z]?,\s*/i, '')
-        .replace(/\s+\d+[a-z]?$/i, '')
-        .replace(/^\[/g, '')
-        .replace(/\]$/g, '')
-        .replace(/^[a-z]+,\s*\d+\s+[a-z\s\.,']+/i, '')
-        .trim();
-
-      // Strip person name spills and company spills preceding trades (e.g. "Hitchcox & Co. Land Agents..." -> "Land Agents...", "Jones & Co. Steam Ship Owners..." -> "Steamship Owners...", "Nantyglo & Blaina... Brickworks" -> "Brickworks & Pottery")
-      clean = clean
-        .replace(/^[a-z\s\.,'\-]+\b(mrs|mr|miss)\b.*?,?\s*/i, '')
-        .replace(/^[a-z\s\.,'\-]+\b(and|&)\s+co\.?'?s?\s+(offices|works|stores|yard)\s*,?\s*/i, '')
-        .replace(/^[a-z0-9\s\.,'&\-]+\b(co\.?|ltd\.?|& co\.?)\s*,?\s*(land agents|surveyors|auctioneers|shipping agents|steam\s*ship|coal exporters|brickworks|milliners|iron|draper)/i, '$2')
-        .replace(/^[a-z\s\.,'\-]+,?\s*(mar\.?\s*eng'?n?r|eng'?r|eng'?n?r)/i, '$1');
-
-      // De-duplicate concatenated OCR phrases (e.g. "Milliners, Ltd., Milliners" -> "Milliners", "Baby Linen... Outfitters, Ltd., Baby Linen..." -> "Baby Linen & Childrens Outfitters", "Brewers, Ltd." -> "Brewers")
-      clean = clean.replace(/^([^,\-]+?)\s*[\,;\—\-].*?\b\1\b/i, '$1').trim();
-
-      // Clean leading & trailing company suffixes
-      clean = clean
-        .replace(/^(ltd\.?|co\.?|& co\.?|& co\.?,?\s*ltd\.?|and co\.?)\s*,?\s*/i, '')
-        .replace(/[\,;\s]+(ltd\.?|co\.?|& co\.?|co\.?\s+ltd\.?)$/i, '')
-        .trim();
-
-      if (!clean || clean === '-' || clean === '—' || /^(ltd\.?|co\.?|& co\.?|&|and)$/i.test(clean) || NON_TRADES_REGEX.test(clean)) {
-        return 'Residence / Private';
-      }
-
-      // Clean trailing ", &c" / ", etc" / "(return)" / Phone number suffixes / Ditto fragments
-      clean = clean
-        .replace(/[\,;\s]+(?:&c|etc)\.?$/i, '')
-        .replace(/\s*\(\s*return\s*\)\.?$/i, '')
-        .replace(/\s*\(\s*tel\.?\s*\d+.*?\)$/i, '')
-        .replace(/\s+ditto$/i, '')
-        .trim();
-
-      // Clean municipal address spills & institution fragment lines
-      if (
-        /^(county borough of|council offices|home for the aged|home for aged|aged \(men\)|aged \(females\))/i.test(clean) ||
-        /^(independent order of|adult education|british steel corporation|engineering & foundry)/i.test(clean)
-      ) {
-        if (/county borough of/i.test(clean)) return 'Municipal / Council Office';
-        if (/home for/i.test(clean) || /aged \(/i.test(clean)) return 'Care Home / Residential Home';
-        if (/independent order/i.test(clean)) return 'Friendly Society / Lodge';
-        if (/adult education/i.test(clean)) return 'Educational Institution';
-        if (/british steel/i.test(clean)) return 'Steel Works / Office';
-        if (/engineering & foundry/i.test(clean)) return 'Engineering & Foundry';
-      }
-
-      // Handle School institutional titles
-      if (/school|junior high|senior high|grammar school|convent school/i.test(clean)) {
-        return 'School / Educational Institution';
-      }
-
-      // Specific multi-line commercial consolidations & compound expansions
-      if (/^dkr$/i.test(clean)) return 'Docker';
-      if (/^eng\.?\s*du'?vr$/i.test(clean)) return 'Engine Driver';
-      if (/^m'?sion\s*agt$/i.test(clean)) return 'Commission Agent';
-      if (/^m\.?b\.?\s*do$/i.test(clean)) return 'Physician & Surgeon';
-      if (/^house\s*agt$/i.test(clean)) return 'House Agent';
-      if (/^wol\s*mcht$/i.test(clean)) return 'Wool Merchant';
-      if (/^min\.?\s*eng$/i.test(clean)) return 'Mining Engineer';
-      if (/^engr\s*&\s*mer$/i.test(clean)) return 'Engineer & Merchant';
-      if (/^eng\.?,\s*surg\.?\s*dentist$/i.test(clean)) return 'Dental Surgeon';
-      if (/^l\.?d\.?s\.?,?\s*r\.?c\.?s\.?/i.test(clean)) return 'Dental Surgeon';
-      if (/^wgn$/i.test(clean)) return 'Wagon Repairer';
-      if (/^dgr$/i.test(clean)) return 'Dredger';
-      if (/bootmaker/i.test(clean)) return 'Bootmaker';
-      if (/bakers?.*confection/i.test(clean)) return 'Baker & Confectioner';
-      if (/dispensing chemist/i.test(clean)) return 'Chemist';
-      if (/potato mer/i.test(clean)) return 'Potato Merchant';
-      if (/provision mer/i.test(clean)) return 'Provision Merchant';
-      if (/builders?.*merchant/i.test(clean)) return 'Builders Merchant';
-      if (/china.*glass/i.test(clean)) return 'China & Glass Merchant';
-      if (/consulting eng/i.test(clean)) return 'Consulting Engineer';
-      if (/newsagent.*stationer/i.test(clean)) return 'Newsagent & Stationer';
-      if (/surveyor.*estate agent/i.test(clean)) return 'Estate Agent & Surveyor';
-      if (/scrap.*metal/i.test(clean)) return 'Scrap Metal Merchant';
-      if (/john ambulance/i.test(clean)) return 'St. John Ambulance Hall';
-
-      clean = clean
-        .replace(/\bg[\.\s]*w[\.\s]*r[\.\s]*/gi, 'G.W.R. ')
-        .replace(/G\.W\.R\.\s*[\.,]+/gi, 'G.W.R. ')
-        .replace(/\s+/g, ' ')
-        .trim()
-        .replace(/G\.W\.R\.\s*$/gi, 'G.W.R.')
-        .replace(/\bgov\.?\s+offcl\b/gi, 'Government Official')
-        .replace(/\bdk\s+police\b/gi, 'Dock Police')
-        .replace(/\bldg\s+ho\b/gi, 'Lodging House')
-        .replace(/\bdrapers\s+collctr\b/gi, 'Drapers Collector')
-        .replace(/\bgas\s+inspct\b/gi, 'Gas Inspector')
-        .replace(/\bblrmr\b/gi, 'Boilermaker')
-        .replace(/\bcustom\s+offr\b/gi, 'Custom Officer')
-        .replace(/\bglass\s+(wrkr|wk)\b/gi, 'Glass Worker')
-        .replace(/\bice\s+cream\s+vendr\b/gi, 'Ice Cream Vendor')
-        .replace(/\bcoal\s+tipr\b/gi, 'Coal Tipper')
-        .replace(/\bdentst\b/gi, 'Dentist')
-        .replace(/\bbus\s+drvi\b/gi, 'Bus Driver')
-        .replace(/\bwagon\s+rp\b/gi, 'Wagon Repairer')
-        .replace(/\b(electcn|electrn|elect|elct)\b/gi, 'Electrician')
-        .replace(/\bflour\s+packr\b/gi, 'Flour Packer')
-        .replace(/\broad\s+swp\b/gi, 'Road Sweeper')
-        .replace(/\b(ironwor|ironwrkr|ironworkr|iworker|irn\s+worker)\b/gi, 'Ironworker')
-        .replace(/\bbuilding\s+contr\s*&\s*engnrs\b/gi, 'Building Contractors and Engineers')
-        .replace(/\bsales\s+drvr\b/gi, 'Sales Driver')
-        .replace(/\btbeworker\b/gi, 'Tubeworker')
-        .replace(/\bshoe\s+repr\b/gi, 'Shoe Repairer')
-        .replace(/\bsteehvorkr\b/gi, 'Steelworker')
-        .replace(/\bcrane\s+dr\b/gi, 'Crane Driver')
-        .replace(/\belec\s+engineer\b/gi, 'Electrical Engineer')
-        .replace(/\bstl\s+worker\b/gi, 'Steel Worker')
-        .replace(/\bmotor\s+(drvr|dr)\b/gi, 'Motor Driver')
-        .replace(/\bins\.?\s*agt\.?\b/gi, 'Insurance Agent')
-        .replace(/\binsur\.?\s*agent\b/gi, 'Insurance Agent')
-        .replace(/\bins\s+mercht?\b/gi, 'Insurance Merchant')
-        .replace(/\bcoal\s+mercht?\b/gi, 'Coal Merchant')
-        .replace(/\bcoal\s+mer\b/gi, 'Coal Merchant')
-        .replace(/\bpostmn\b/gi, 'Postman')
-        .replace(/\bcivil\s+serv(t|nt)\b/gi, 'Civil Servant')
-        .replace(/\bdk\s+worker\b/gi, 'Dock Worker')
-        .replace(/\btrmr\b/gi, 'Trimmer')
-        .replace(/\bbricklayr\b/gi, 'Bricklayer')
-        .replace(/\bsupt\.?\b/gi, 'Superintendent')
-        .replace(/\bupholstr\b/gi, 'Upholsterer')
-        .replace(/\bloco\s+driver\b/gi, 'Locomotive Driver')
-        .replace(/\bclrk\b/gi, 'Clerk')
-        .replace(/\b(steelworkr|steehvorkr|stlwrkr)\b/gi, 'Steelworker')
-        .replace(/\bship\s+brkr\b/gi, 'Ship Broker')
-        .replace(/\bfitters\s+hlpr\b/gi, 'Fitters Helper')
-        .replace(/\bmarbl\s+polshr\b/gi, 'Marble Polisher')
-        .replace(/\bcab\s+proprtr\b/gi, 'Cab Proprietor')
-        .replace(/\bmonu\.?\s+mason\b/gi, 'Monumental Mason')
-        .replace(/\brailwymn\b/gi, 'Railwayman')
-        .replace(/\brly\s+foreman\b/gi, 'Railway Foreman')
-        .replace(/\brly\s+inspt\b/gi, 'Railway Inspector')
-        .replace(/\btram\s+inspt\b/gi, 'Tram Inspector')
-        .replace(/\binspt\b/gi, 'Inspector')
-        .replace(/\bironw6rker\b/gi, 'Ironworker')
-        .replace(/\bgeneral\s+grocr\b/gi, 'General Grocer')
-        .replace(/\blaborr\b/gi, 'Labourer')
-        .replace(/\bpier\s+mastr\b/gi, 'Pier Master')
-        .replace(/\bhouse\s+fur\b/gi, 'House Furnisher')
-        .replace(/\bhatter\s*,\s*,\s*etc\b/gi, 'Hatter, etc.')
-        .replace(/\bboot\s+manuftrs\b/gi, 'Boot Manufacturers')
-        .replace(/\bphotogrpr\b/gi, 'Photographer')
-        .replace(/\bmotormn\b/gi, 'Motorman')
-        .replace(/\btug\s+drvr\b/gi, 'Tug Driver')
-        .replace(/\belec\.?\s+eng\b/gi, 'Electrical Engineer')
-        .replace(/\bcoachmn\b/gi, 'Coachman')
-        .replace(/\brway\s+ganger\b/gi, 'Railway Ganger')
-        .replace(/\beng\.?\s+drvr\.?\s+g\.?w\.?r\.?\b/gi, 'Engine Driver G.W.R.')
-        .replace(/\bwoodtrnr\b/gi, 'Woodturner')
-        .replace(/\btel\.?\s+clerk\b/gi, 'Telephone Clerk')
-        .replace(/\bcellrmn\b/gi, 'Cellarman')
-        .replace(/\bstrkr\b/gi, 'Striker')
-        .replace(/\b(l;ab|labour[\x27\x22\x60]?r|lab[\x27\x22\x60]?r|lab[\x27\x22\x60]?rer)\b/gi, 'Labourer')
-        .replace(/\btail;ors\b/gi, 'Tailors')
-        .replace(/\bbrewerr\b/gi, 'Brewer')
-        .replace(/\bprovision\s+merchanty\b/gi, 'Provision Merchant')
-        .replace(/\bglass\s+blr\b/gi, 'Glassblower')
-        .replace(/\btransp[\x27\x22\x60]?t\s+w[\x27\x22\x60]?r\b/gi, 'Transport Worker')
-        .replace(/\bcr\.?\s*driver\b/gi, 'Crane Driver')
-        .replace(/\btr[\x27\x22\x60]?mmer\b/gi, 'Trimmer')
-        .replace(/\bhse\s+craft\s+mistress\b/gi, 'House Craft Mistress')
-        .replace(/\bcanteen\s+stwd\b/gi, 'Canteen Steward')
-        .replace(/\biron\s*&\s*metal\s+mcht\s+and\s+marine\s+stores\b/gi, 'Iron & Metal Merchant and Marine Stores')
-        .replace(/\biworker\s*&\s*shop\b/gi, 'Ironworker and Shop')
-        .replace(/\bnews\s*&\s*hairdr\b/gi, 'News and Hairdresser')
-        .replace(/\bturf\s+acnt\b/gi, 'Turf Accountant')
-        .replace(/\bahopkeeper\b/gi, 'Shopkeeper')
-        .replace(/\btime\s+kp\b/gi, 'Timekeeper')
-        .replace(/\bpump\s+attd?t\b/gi, 'Pump Attendant')
-        .replace(/\bcoal\s+tmr\b/gi, 'Coal Trimmer')
-        .replace(/\bblksth\b/gi, 'Blacksmith')
-        .replace(/\bschool\s+teach\b/gi, 'School Teacher')
-        .replace(/\bshop\s+ft[\x27\x22\x60]?rs\b/gi, 'Shop Fitters')
-        .replace(/\binsurnc\s+agt\b/gi, 'Insurance Agent')
-        .replace(/\bhead\s+waitr\b/gi, 'Head Waiter')
-        .replace(/\brailwaymn\b/gi, 'Railwayman')
-        .replace(/\bbootmkrs\b/gi, 'Bootmakers')
-        .replace(/\bgreengrcrs\b/gi, 'Greengrocers')
-        .replace(/\bpolice\s+sgt\b/gi, 'Police Sergeant')
-        .replace(/\btobacnst\b/gi, 'Tobacconist')
-        .replace(/\bbuilders\s+yd\b/gi, 'Builders Yard')
-        .replace(/\bsecty\b/gi, 'Secretary')
-        .replace(/\bgenl\s+dealer\b/gi, 'General Dealer')
-        .replace(/\bcellarmn\b/gi, 'Cellarman')
-        .replace(/\btravellr\b/gi, 'Traveller')
-        .replace(/\bcycle\s+repr\b/gi, 'Cycle Repairer')
-        .replace(/\benginemn\b/gi, 'Engineman')
-        .replace(/\bpipe\s+fittr\b/gi, 'Pipe Fitter')
-        .replace(/\bstocktkr\b/gi, 'Stocktaker')
-        .replace(/\bwheelwgt\b/gi, 'Wheelwright')
-        .replace(/\bwardrobe\s+dlr\b/gi, 'Wardrobe Dealer')
-        .replace(/\bdecor[\x27\x22\x60]?tr\b/gi, 'Decorator')
-        .replace(/\bboilermk\b/gi, 'Boilermaker')
-        .replace(/\bpltlyr\b/gi, 'Platelayer')
-        .replace(/\bglass\s+wks\b/gi, 'Glass Works')
-        .replace(/\bins\.?\s+superintendent\b/gi, 'Insurance Superintendent')
-        .replace(/\bgenl\.?\s+shop\b/gi, 'General Shop')
-        .replace(/\bironwkr\b/gi, 'Ironworker')
-        .replace(/\bstlwkr\b/gi, 'Steelworker')
-        .replace(/wkr\b/gi, 'worker');
-
-      // 2. Standard trade abbreviations
-      clean = clean
-        .replace(/\blabr\b/gi, 'Labourer')
-        .replace(/\bdvr\b/gi, 'Driver')
-        .replace(/\bdrvr\b/gi, 'Driver')
-        .replace(/\bdrivr\b/gi, 'Driver')
-        .replace(/\beng\.?\s+driver\b/gi, 'Engine Driver')
-        .replace(/\beng\.?\s+dvr\b/gi, 'Engine Driver')
-        .replace(/\bptr\b/gi, 'Painter')
-        .replace(/\bclk\b/gi, 'Clerk')
-        .replace(/\btrm\b/gi, 'Trimmer')
-        .replace(/\bbricklyr\b/gi, 'Bricklayer')
-        .replace(/\bcarptr\b/gi, 'Carpenter')
-        .replace(/\beng dvr\b/gi, 'Engine Driver');
-
-      // 3. Preserve G.W.R. and G.P.O. casing if present
-      clean = clean.replace(/\b(g\.?p\.?o\.?)\b\.?/gi, 'G.P.O.');
-      clean = clean.replace(/\w\S*/g, (txt) => {
-        if (txt.toUpperCase() === 'G.W.R.') return 'G.W.R.';
-        if (txt.toUpperCase() === 'G.P.O.') return 'G.P.O.';
-        return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
-      });
-
-      return clean;
-    }
-
-    let csvLinesRaw = [];
-
-    function parseCSVLine(line) {
-      const result = [];
-      let start = 0;
-      let inQuotes = false;
-      for (let i = 0; i < line.length; i++) {
-        if (line[i] === '"') {
-          inQuotes = !inQuotes;
-        } else if (line[i] === ',' && !inQuotes) {
-          let field = line.substring(start, i).trim();
-          if (field.startsWith('"') && field.endsWith('"')) field = field.slice(1, -1);
-          result.push(field);
-          start = i + 1;
-        }
-      }
-      let lastField = line.substring(start).trim();
-      if (lastField.startsWith('"') && lastField.endsWith('"')) lastField = lastField.slice(1, -1);
-      result.push(lastField);
-      return result;
-    }
-
-    async function loadTrades() {
-      const tbody = document.getElementById('trade-table-body');
-      try {
-        const response = await fetch('data.csv');
-        if (!response.ok) {
-          throw new Error(`HTTP ${response.status} ${response.statusText}`);
-        }
-        const text = await response.text();
-        csvLinesRaw = text.trim().split('\n');
-        parseAndGroupTrades();
-      } catch (err) {
-        console.error("Failed to load CSV", err);
-        if (tbody) {
-          tbody.innerHTML = `<tr><td colspan="4" style="color: #ff6b6b;">Failed to load data.csv (${err.message}). If opening as a local file (file://), please view via Live Server or a local HTTP web server.</td></tr>`;
-        }
-      }
-    }
-
-    function parseAndGroupTrades() {
-      tradeMap.clear();
-
-      for (let i = 1; i < csvLinesRaw.length; i++) {
-        const line = csvLinesRaw[i].trim();
-        if (!line) continue;
-
-        const cols = parseCSVLine(line);
-        if (cols.length < 2) continue;
-
-        let surname = cols[4] || '';
-        let forename = cols[5] || '';
-        let rawTrade = cols[6] || '';
-
-        // Handle Thompson name/trade split fix
-        if (forename && !rawTrade) {
-          const match = forename.match(/^([A-Z]\.?(?:\s+[A-Z]\.?)?)\s+([a-z].*)$/);
-          if (match) {
-            forename = match[1];
-            rawTrade = match[2];
-          }
-        }
-
-        let year = cols[0] || '';
-        let street = cols[1] || '';
-        let houseNum = cols[2] || '';
-        let bldgName = cols[3] || '';
-
-        // Check individual record override first
-        const recordKey = `single:${year}:${street}:${houseNum}:${forename}:${surname}:${rawTrade}`;
-        const effectiveTrade = tradeOverrides[recordKey] || rawTrade;
-        const tradeKey = cleanOccupation(effectiveTrade);
-        const sampleName = `${forename} ${surname}`.trim();
-        const sampleRecord = { year, street, house_number: houseNum, building_name: bldgName, surname, forename, trade: rawTrade };
-
-        if (tradeMap.has(tradeKey)) {
-          const item = tradeMap.get(tradeKey);
-          item.count++;
-          if (rawTrade && !item.rawSamples.includes(rawTrade)) {
-            item.rawSamples.push(rawTrade);
-          }
-          if (!item.sampleRecord) {
-            item.sampleRecord = sampleRecord;
-          }
-        } else {
-          tradeMap.set(tradeKey, { 
-            count: 1, 
-            sample: sampleName,
-            sampleRecord: sampleRecord,
-            rawSamples: rawTrade ? [rawTrade] : []
-          });
-        }
-      }
-
-      updateTabCounts();
-      renderTable(document.getElementById('trade-search').value);
-      renderOverridesBadge();
-    }
-
-    function updateTabCounts() {
-      let issuesCount = 0;
-      let verifiedCount = 0;
-      let overriddenCount = 0;
-
-      tradeMap.forEach((data, trade) => {
-        const isCustom = data.rawSamples.some(r => tradeOverrides[r.toLowerCase()]);
-        const isVerified = verifiedTrades.has(trade);
-        const hasIssue = isLikelyIssue(trade, data);
-
-        if (isCustom) overriddenCount++;
-        if (isVerified) verifiedCount++;
-        if (hasIssue && !isVerified && !isCustom) issuesCount++;
-      });
-
-      document.getElementById('tab-count-all').innerText = tradeMap.size;
-      document.getElementById('tab-count-issues').innerText = issuesCount;
-      document.getElementById('tab-count-verified').innerText = verifiedCount;
-      document.getElementById('tab-count-overridden').innerText = overriddenCount;
-    }
-
-    function switchTab(tabName) {
-      currentFilterTab = tabName;
-      document.querySelectorAll('.tab-btn').forEach(btn => {
-        btn.classList.toggle('active', btn.dataset.tab === tabName);
-      });
-      renderTable(document.getElementById('trade-search').value);
-    }
-
-    function renderOverridesBadge() {
-      const globalRulesCount = Object.keys(tradeOverrides).filter(k => !k.startsWith('single:')).length;
-      const btn = document.getElementById('view-overrides-btn');
-      if (btn) {
-        btn.innerText = `Rules (${globalRulesCount})`;
-      }
-    }
-
-    function editTradeRule(canonicalName, rawSamples) {
-      const newName = prompt(`Enter corrected canonical trade name for "${canonicalName}":`, canonicalName);
-      if (newName === null) return;
-
-      const trimmed = newName.trim();
-      if (!trimmed) return;
-
-      // Add override mapping for all raw variants under this canonical name
-      if (rawSamples && rawSamples.length > 0) {
-        rawSamples.forEach(raw => {
-          tradeOverrides[raw.toLowerCase()] = trimmed;
-        });
-      } else {
-        tradeOverrides[canonicalName.toLowerCase()] = trimmed;
-      }
-
-      // Automatically mark as verified when rule is added
-      verifiedTrades.add(trimmed);
-      saveVerified();
-      saveOverrides();
-      parseAndGroupTrades();
-    }
-
-    function renderTable(filterQuery = '') {
-      const tbody = document.getElementById('trade-table-body');
-      tbody.innerHTML = '';
-
-      const cleanQuery = filterQuery.toLowerCase().trim();
-      
-      const sortedTrades = Array.from(tradeMap.entries())
-        .filter(([trade, data]) => {
-          if (cleanQuery && !trade.toLowerCase().includes(cleanQuery)) return false;
-          
-          const isCustom = data.rawSamples.some(r => tradeOverrides[r.toLowerCase()]);
-          const isVerified = verifiedTrades.has(trade);
-          const hasIssue = isLikelyIssue(trade, data);
-
-          if (currentFilterTab === 'issues') {
-            return hasIssue && !isVerified && !isCustom;
-          }
-          if (currentFilterTab === 'verified') {
-            return isVerified;
-          }
-          if (currentFilterTab === 'overridden') {
-            return isCustom;
-          }
-          return true;
-        })
-        .sort((a, b) => b[1].count - a[1].count);
-
-      document.getElementById('total-count').innerText = `${sortedTrades.length} Occupations Displayed`;
-
-      if (sortedTrades.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="4" style="color: var(--muted);">No occupations match this filter.</td></tr>';
-        return;
-      }
-
-      const fragment = document.createDocumentFragment();
-      sortedTrades.forEach(([trade, data]) => {
-        const tr = document.createElement('tr');
-        const isCustom = data.rawSamples.some(r => tradeOverrides[r.toLowerCase()]);
-        const isVerified = verifiedTrades.has(trade);
-        const hasIssue = isLikelyIssue(trade, data);
-
-        const tdName = document.createElement('td');
-        tdName.innerHTML = `
-          <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
-            <span class="trade-title" style="font-weight: 500;"></span>
-            ${isVerified ? '<span style="font-size: 0.75rem; background: rgba(72, 187, 120, 0.2); color: #48bb78; padding: 0.1rem 0.4rem; border-radius: 3px; font-weight: 500;">✓ Verified</span>' : ''}
-            ${isCustom ? '<span style="font-size: 0.75rem; background: rgba(200, 157, 84, 0.2); color: var(--accent); padding: 0.1rem 0.4rem; border-radius: 3px;">Overridden</span>' : ''}
-            ${hasIssue && !isVerified && !isCustom ? '<span style="font-size: 0.75rem; background: rgba(245, 101, 101, 0.2); color: #f56565; padding: 0.1rem 0.4rem; border-radius: 3px;">Needs Review</span>' : ''}
-          </div>
-          <div style="font-size: 0.75rem; color: var(--muted); margin-top: 0.15rem;">Variants: ${data.rawSamples.slice(0, 5).join(', ') || 'None'}</div>
-        `;
-        tdName.querySelector('.trade-title').textContent = trade;
-
-        const tdCount = document.createElement('td');
-        tdCount.className = 'count-col';
-        tdCount.textContent = data.count;
-
-        const tdSample = document.createElement('td');
-        tdSample.className = 'example-col';
-        if (data.sampleRecord) {
-          const a = document.createElement('a');
-          a.href = '#';
-          a.style.cssText = 'color: var(--accent); text-decoration: underline; cursor: pointer; font-weight: 500;';
-          a.textContent = data.sample || 'View Record';
-          a.onclick = (e) => {
-            e.preventDefault();
-            openTradesRecordModal(data.sampleRecord);
-          };
-          tdSample.appendChild(a);
-        } else {
-          tdSample.textContent = data.sample || '-';
-        }
-
-        const tdActions = document.createElement('td');
-        tdActions.style.textAlign = 'right';
-
-        const actionDiv = document.createElement('div');
-        actionDiv.style.cssText = 'display: flex; gap: 0.5rem; justify-content: flex-end;';
-
-        const btnVerify = document.createElement('button');
-        btnVerify.className = `btn ${isVerified ? 'btn-secondary' : ''}`;
-        btnVerify.style.cssText = 'padding: 0.4rem 0.75rem; font-size: 0.8rem;';
-        btnVerify.textContent = isVerified ? 'Unmark' : '✓ Mark Complete';
-        btnVerify.onclick = () => toggleVerified(trade);
-
-        const btnEdit = document.createElement('button');
-        btnEdit.className = 'btn btn-secondary';
-        btnEdit.style.cssText = 'padding: 0.4rem 0.75rem; font-size: 0.8rem;';
-        btnEdit.textContent = 'Edit Rule';
-        btnEdit.onclick = () => editTradeRule(trade, data.rawSamples);
-
-        actionDiv.appendChild(btnVerify);
-        actionDiv.appendChild(btnEdit);
-        tdActions.appendChild(actionDiv);
-
-        tr.appendChild(tdName);
-        tr.appendChild(tdCount);
-        tr.appendChild(tdSample);
-        tr.appendChild(tdActions);
-
-        fragment.appendChild(tr);
-      });
-      tbody.appendChild(fragment);
     }
 
     function showOverridesModal() {
-      let modal = document.getElementById('overrides-modal');
-      if (!modal) {
-        modal = document.createElement('div');
-        modal.id = 'overrides-modal';
-        modal.style.cssText = `
-          position: fixed; top: 0; left: 0; right: 0; bottom: 0;
-          background: rgba(0,0,0,0.8); z-index: 1000; display: flex; align-items: center; justify-content: center;
-        `;
-        document.body.appendChild(modal);
-      }
+      updateRulesBadge();
+      updateVerifiedCount();
+      switchModalTab(currentModalTab);
+      document.getElementById('overrides-modal').classList.add('active');
+    }
 
-      const overrideEntries = Object.entries(tradeOverrides).filter(([k]) => !k.startsWith('single:'));
-      let contentHtml = `
-        <div style="background: var(--card-bg); border: 1px solid var(--card-border); padding: 2rem; border-radius: 8px; width: 600px; max-width: 90vw; max-height: 80vh; overflow-y: auto;">
-          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; border-bottom: 1px solid var(--card-border); padding-bottom: 1rem;">
-            <h2 style="font-family: var(--heading-font); color: var(--accent); font-size: 2rem; font-weight: 400;">Active Trade Overrides</h2>
-            <button class="btn btn-secondary" onclick="document.getElementById('overrides-modal').style.display='none'">Close</button>
-          </div>
-          <div style="margin-bottom: 1.5rem;">
-            <button class="btn btn-secondary" style="margin-right: 0.5rem;" onclick="exportOverridesJSON()">Export Rules JSON</button>
-            <button class="btn btn-secondary" onclick="clearAllOverrides()">Clear All Overrides</button>
-          </div>
-      `;
+    function closeOverridesModal() {
+      document.getElementById('overrides-modal').classList.remove('active');
+    }
 
-      if (overrideEntries.length === 0) {
-        contentHtml += '<p style="color: var(--muted);">No custom rules or overrides defined yet. Click "Edit Rule" on any occupation row to customize it.</p>';
+    function renderRulesModalList() {
+      const container = document.getElementById('overrides-list-container');
+      const entries = Object.entries(tradeOverrides).filter(([k]) => !k.startsWith('single:'));
+
+      if (entries.length === 0) {
+        container.innerHTML = '<div style="padding: 2.5rem; text-align: center; color: var(--muted);">No custom rewrite rules defined yet. Use "Merge / Rule" or select trades to create mappings.</div>';
       } else {
-        contentHtml += '<table style="width: 100%; border-collapse: collapse;"><thead><tr><th>Raw Input</th><th>Mapped Canonical Trade</th><th>Action</th></tr></thead><tbody>';
-        overrideEntries.forEach(([raw, clean]) => {
-          contentHtml += `
+        let html = '<table style="width: 100%; border-collapse: collapse;"><thead><tr><th>Raw Variant</th><th>Target Canonical Trade</th><th style="width: 80px; text-align: right;">Action</th></tr></thead><tbody>';
+        entries.forEach(([raw, target]) => {
+          html += `
             <tr>
-              <td><code>${raw}</code></td>
-              <td style="color: var(--accent);">${clean}</td>
-              <td><button class="btn btn-secondary" style="padding: 0.2rem 0.5rem; font-size: 0.75rem;" onclick="removeOverride('${raw.replace(/'/g, "\\'")}')">Remove</button></td>
+              <td><code>${escapeHtml(raw)}</code></td>
+              <td><strong style="color: var(--accent);">${escapeHtml(target)}</strong></td>
+              <td style="text-align: right;">
+                <button class="btn btn-small btn-danger" onclick="removeSingleOverride('${escapeJsStr(raw)}')">Remove</button>
+              </td>
             </tr>
           `;
         });
-        contentHtml += 'tbody></table>';
+        html += '</tbody></table>';
+        container.innerHTML = html;
       }
-
-      contentHtml += '</div>';
-      modal.innerHTML = contentHtml;
-      modal.style.display = 'flex';
     }
 
-    function removeOverride(rawKey) {
-      delete tradeOverrides[rawKey];
+    function renderVerifiedModalList() {
+      const container = document.getElementById('verified-list-container');
+      const filterInput = document.getElementById('modal-verified-search');
+      const q = (filterInput ? filterInput.value : '').toLowerCase().trim();
+
+      const freqMap = new Map();
+      rawTradesData.forEach(item => {
+        freqMap.set(item.t.toLowerCase(), item.c);
+      });
+
+      const list = Array.from(verifiedTrades).sort((a,b) => a.localeCompare(b));
+      const filtered = q ? list.filter(t => t.toLowerCase().includes(q)) : list;
+
+      if (filtered.length === 0) {
+        container.innerHTML = `<div style="padding: 2.5rem; text-align: center; color: var(--muted);">${list.length === 0 ? 'No verified occupations yet. Click "✓ Verify" on any trade row or select multiple to approve.' : 'No verified occupations matching "' + escapeHtml(q) + '".'}</div>`;
+        return;
+      }
+
+      let html = '<table style="width: 100%; border-collapse: collapse;"><thead><tr><th>Canonical Occupation</th><th style="width: 130px; text-align: right;">Directory Records</th><th style="width: 90px; text-align: right;">Action</th></tr></thead><tbody>';
+      filtered.forEach(trade => {
+        const count = freqMap.get(trade.toLowerCase()) || 0;
+        html += `
+          <tr>
+            <td><strong style="color: var(--verified-green);">${escapeHtml(trade)}</strong></td>
+            <td style="text-align: right; color: var(--muted); font-size: 0.88rem;">${count ? count.toLocaleString() : '—'}</td>
+            <td style="text-align: right;">
+              <button class="btn btn-small btn-danger" onclick="removeSingleVerified('${escapeJsStr(trade)}')">Unmark</button>
+            </td>
+          </tr>
+        `;
+      });
+      html += '</tbody></table>';
+      container.innerHTML = html;
+    }
+
+    function removeSingleVerified(tradeName) {
+      const lower = tradeName.toLowerCase().trim();
+      for (const v of Array.from(verifiedTrades)) {
+        if (v.toLowerCase().trim() === lower) {
+          verifiedTrades.delete(v);
+        }
+      }
+      rebuildVerifiedLowerSet();
+      saveVerified();
+      updateVerifiedCount();
+      renderVerifiedModalList();
+      applyFilters();
+    }
+
+    function clearAllVerified() {
+      if (confirm(`Are you sure you want to clear all ${verifiedTrades.size} verified occupations?`)) {
+        verifiedTrades.clear();
+        rebuildVerifiedLowerSet();
+        saveVerified();
+        updateVerifiedCount();
+        renderVerifiedModalList();
+        applyFilters();
+      }
+    }
+
+    function removeSingleOverride(rawKey) {
+      delete tradeOverrides[rawKey.toLowerCase()];
       saveOverrides();
-      parseAndGroupTrades();
-      showOverridesModal();
+      updateRulesBadge();
+      renderRulesModalList();
+      applyFilters();
     }
 
     function clearAllOverrides() {
-      if (confirm("Are you sure you want to clear all custom trade rules, single-record edits, and verified status?")) {
+      if (confirm("Are you sure you want to clear all custom rules and overrides?")) {
         tradeOverrides = {};
-        verifiedTrades.clear();
         saveOverrides();
-        saveVerified();
-        parseAndGroupTrades();
-        showOverridesModal();
+        updateRulesBadge();
+        renderRulesModalList();
+        applyFilters();
       }
+    }
+
+    function exportAllAuditJSON() {
+      const payload = {
+        overrides: tradeOverrides,
+        verified: Array.from(verifiedTrades).sort((a,b) => a.localeCompare(b))
+      };
+      const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(payload, null, 2));
+      const dl = document.createElement('a');
+      dl.setAttribute("href", dataStr);
+      dl.setAttribute("download", "trade_audit.json");
+      document.body.appendChild(dl);
+      dl.click();
+      dl.remove();
     }
 
     function exportOverridesJSON() {
       const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(tradeOverrides, null, 2));
-      const downloadAnchor = document.createElement('a');
-      downloadAnchor.setAttribute("href", dataStr);
-      downloadAnchor.setAttribute("download", "trade_overrides.json");
-      document.body.appendChild(downloadAnchor);
-      downloadAnchor.click();
-      downloadAnchor.remove();
+      const dl = document.createElement('a');
+      dl.setAttribute("href", dataStr);
+      dl.setAttribute("download", "trade_overrides.json");
+      document.body.appendChild(dl);
+      dl.click();
+      dl.remove();
     }
 
-    document.getElementById('trade-search').addEventListener('input', (e) => {
-      renderTable(e.target.value);
-    });
+    function exportVerifiedJSON() {
+      const list = Array.from(verifiedTrades).sort((a,b) => a.localeCompare(b));
+      const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(list, null, 2));
+      const dl = document.createElement('a');
+      dl.setAttribute("href", dataStr);
+      dl.setAttribute("download", "verified_trades.json");
+      document.body.appendChild(dl);
+      dl.click();
+      dl.remove();
+    }
 
-    
-    function openTradesRecordModal(rec) {
-      if (!rec) return;
-      document.getElementById('rec-year').innerText = rec.year || '-';
-      document.getElementById('rec-street').innerText = rec.street || '-';
-      document.getElementById('rec-housenum').innerText = rec.house_number || '-';
-      document.getElementById('rec-bldgname').innerText = rec.building_name || '-';
-      document.getElementById('rec-forename').innerText = rec.forename || '-';
-      document.getElementById('rec-surname').innerText = rec.surname || '-';
-      document.getElementById('rec-trade').innerText = rec.trade || '-';
+    function copyPythonDict() {
+      const entries = Object.entries(tradeOverrides).filter(([k]) => !k.startsWith('single:'));
+      let py = "TRADE_AUDIT_MAP = {\n";
+      entries.forEach(([k, v]) => {
+        py += `    ${JSON.stringify(k)}: ${JSON.stringify(v)},\n`;
+      });
+      py += "}\n";
+      
+      navigator.clipboard.writeText(py).then(() => {
+        alert("Copied Python mapping dictionary to clipboard! You can paste this directly into scripts/clean_csv.py.");
+      }).catch(err => {
+        prompt("Copy Python dictionary:", py);
+      });
+    }
+
+    // Record Inspector Modal
+    let activeInspectorItem = null;
+
+    function openTradesRecordModal(item) {
+      activeInspectorItem = item;
+      const rec = item.r;
+      const rawTrade = item.t;
+
+      document.getElementById('rec-year').innerText = rec[0] || '-';
+      document.getElementById('rec-street').innerText = rec[1] || '-';
+      document.getElementById('rec-housenum').innerText = rec[2] || '-';
+      document.getElementById('rec-bldgname').innerText = rec[3] || '-';
+      document.getElementById('rec-forename').innerText = rec[4] || '-';
+      document.getElementById('rec-surname').innerText = rec[5] || '-';
+      document.getElementById('rec-trade').innerText = rawTrade || '-';
 
       const scanBtn = document.getElementById('rec-scan-btn');
-      if (scanBtn) {
-        scanBtn.onclick = (e) => openScanInspectorModal(e, rec.year, rec.street, rec.house_number);
-      }
+      scanBtn.onclick = (e) => openScanInspectorModal(e, rec[0], rec[1], rec[2]);
 
       const editSingleBtn = document.getElementById('rec-edit-single-btn');
-      if (editSingleBtn) {
-        editSingleBtn.onclick = () => {
-          const newTrade = prompt(`Correct occupation for ${rec.forename} ${rec.surname} (${rec.year}, ${rec.street}):`, rec.trade || '');
-          if (newTrade !== null && newTrade.trim() !== '') {
-            const trimmed = newTrade.trim();
-            // Store exact record-level override key
-            const recordKey = `single:${rec.year}:${rec.street}:${rec.house_number}:${rec.forename}:${rec.surname}:${rec.trade}`;
-            tradeOverrides[recordKey] = trimmed;
-            saveOverrides();
-            parseAndGroupTrades();
-            closeTradesRecordModal();
-          }
-        };
-      }
+      editSingleBtn.onclick = () => {
+        const promptVal = prompt(`Correct occupation for resident ${rec[4]} ${rec[5]} (${rec[0]}, ${rec[1]}):`, rawTrade);
+        if (promptVal !== null && promptVal.trim() !== '') {
+          const singleKey = `single:${rec[0]}:${rec[1]}:${rec[2]}:${rec[4]}:${rec[5]}:${rawTrade}`;
+          tradeOverrides[singleKey] = promptVal.trim();
+          saveOverrides();
+          updateRulesBadge();
+          closeTradesRecordModal();
+          applyFilters();
+        }
+      };
 
       const timelineBtn = document.getElementById('rec-timeline-btn');
-      if (timelineBtn) {
-        const locKey = rec.house_number || rec.building_name || (rec.forename + ' ' + rec.surname);
-        timelineBtn.href = `index.html#house=${encodeURIComponent((rec.street || '') + '|' + locKey)}`;
-      }
+      const locKey = rec[2] || rec[3] || (`${rec[4]} ${rec[5]}`).trim();
+      timelineBtn.href = `index.html#house=${encodeURIComponent((rec[1] || '') + '|' + locKey)}`;
 
-      const modal = document.getElementById('trades-record-modal');
-      if (modal) modal.classList.add('active');
+      document.getElementById('trades-record-modal').classList.add('active');
     }
 
     function closeTradesRecordModal() {
-      const modal = document.getElementById('trades-record-modal');
-      if (modal) modal.classList.remove('active');
+      document.getElementById('trades-record-modal').classList.remove('active');
     }
 
-    if (document.readyState === 'loading') { window.addEventListener('DOMContentLoaded', loadTrades); } else { loadTrades(); }
+    // Scan Inspector Modal
+    async function loadScansIndex() {
+      if (scansIndex) return scansIndex;
+      try {
+        const resp = await fetch('data/scans_index.json');
+        scansIndex = await resp.json();
+        return scansIndex;
+      } catch (err) {
+        console.error("Failed loading data/scans_index.json:", err);
+        return {};
+      }
+    }
+
+    async function openScanInspectorModal(e, year, streetName = '', houseNum = '') {
+      if (e && e.preventDefault) e.preventDefault();
+      const modal = document.getElementById('scan-inspector-modal');
+      const subtitle = document.getElementById('scan-modal-subtitle');
+
+      const idxData = await loadScansIndex();
+      const yrStr = String(year);
+      const yrData = idxData[yrStr] || {};
+      const fileList = yrData.files || (Array.isArray(yrData) ? yrData : []);
+
+      if (!fileList.length) {
+        alert(`No original page scans indexed for directory edition ${year}.`);
+        return;
+      }
+
+      currentScanYear = yrStr;
+      let targetIdx = 0;
+      if (streetName && yrData.streets) {
+        const cleanSt = streetName.toLowerCase().replace(/[^a-z0-9]/g, '');
+        if (yrData.streets[cleanSt] !== undefined) {
+          targetIdx = yrData.streets[cleanSt];
+        } else {
+          const matchKey = Object.keys(yrData.streets).find(k => k.includes(cleanSt) || cleanSt.includes(k));
+          if (matchKey) targetIdx = yrData.streets[matchKey];
+        }
+      }
+
+      currentScanPageIdx = targetIdx;
+      currentScanZoomLevel = 1.0;
+      resetScanZoom();
+
+      subtitle.innerText = `${year} Johns Directory • ${streetName || 'Archive Volume'}`;
+      updateScanModalDisplay(fileList);
+      modal.classList.add('active');
+    }
+
+    function updateScanModalDisplay(fileList) {
+      if (!fileList || !fileList.length) return;
+      if (currentScanPageIdx < 0) currentScanPageIdx = 0;
+      if (currentScanPageIdx >= fileList.length) currentScanPageIdx = fileList.length - 1;
+
+      const img = document.getElementById('scan-modal-img');
+      const counter = document.getElementById('scan-page-counter');
+      const rawBtn = document.getElementById('scan-open-raw-btn');
+
+      const path = fileList[currentScanPageIdx];
+      img.src = path;
+      rawBtn.href = path;
+      counter.innerText = `Page ${currentScanPageIdx + 1} of ${fileList.length}`;
+    }
+
+    async function changeScanPage(delta) {
+      const idxData = await loadScansIndex();
+      const yrData = idxData[currentScanYear] || {};
+      const fileList = yrData.files || [];
+      if (!fileList.length) return;
+
+      currentScanPageIdx += delta;
+      updateScanModalDisplay(fileList);
+    }
+
+    function zoomScan(delta) {
+      currentScanZoomLevel = Math.max(0.5, Math.min(3.5, currentScanZoomLevel + delta));
+      const wrapper = document.getElementById('scan-image-wrapper');
+      if (wrapper) wrapper.style.transform = `scale(${currentScanZoomLevel})`;
+    }
+
+    function resetScanZoom() {
+      currentScanZoomLevel = 1.0;
+      const wrapper = document.getElementById('scan-image-wrapper');
+      if (wrapper) wrapper.style.transform = 'scale(1)';
+    }
+
+    function closeScanInspectorModal() {
+      document.getElementById('scan-inspector-modal').classList.remove('active');
+    }
+
+    // Utilities
+    function toTitleCaseStr(text) {
+      if (!text) return '';
+      if (/^(G\.?W\.?R\.?|G\.?P\.?O\.?|P\.?C\.?|H\.?M\.?C\.?)$/i.test(text)) return text.toUpperCase();
+      return text.toLowerCase().replace(/(^|\s|-|\/)([a-z])/g, m => m.toUpperCase());
+    }
+
+    function escapeHtml(text) {
+      if (!text) return '';
+      return String(text)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
+    function escapeJsStr(text) {
+      if (!text) return '';
+      return String(text).replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+    }
+
+    // Startup
+    window.addEventListener('DOMContentLoaded', init);
   </script>
 
 </body>

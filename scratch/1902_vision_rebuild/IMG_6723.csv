@@ -1,0 +1,132 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Bolton Street,,,,,,"From Hopefield, Barrack-hill"
+resident,Bolton Street,3,,,John F.,James,carpenter,
+resident,Bolton Street,4,,,Arthur J.,Garland,labourer,
+resident,Bolton Street,14,,,Walter,James,labourer,
+resident,Bolton Street,15,,,Christopher,Hurley,lab.,
+resident,Bolton Street,16,,,John,Hart,labourer,
+resident,Bolton Street,17,,,Wm.,Reardon,labourer,
+resident,Bolton Street,18,,,J.,Trump,weighman,
+street,Bond Street,,,,,,"From East Usk-road to river."
+cross_street,Bond Street,,,,,,[LEFT HAND SIDE.]
+resident,Bond Street,1,,,John,Roberts,,B.T.
+resident,Bond Street,2,,,John,O'Connor,labourer,
+resident,Bond Street,3,,,Mrs,White,,
+resident,Bond Street,4,,,Mrs Lucy,Ashton,,
+resident,Bond Street,5,,,Wm.,Selfe,mechanic,
+resident,Bond Street,5,,,John,Lovell,cabinetmkr,
+resident,Bond Street,7,,,L.L.,Scott,carpenter,
+resident,Bond Street,8,,,Sydney,Smith,smith,
+resident,Bond Street,9,,,John,Wheeler,crane dvr,
+resident,Bond Street,10,,,Ed. F.,Jones,bootmaker,
+resident,Bond Street,11,,,Tim.,Coughlin,lamplgtbr,
+resident,Bond Street,12,,,George,Barnett,ostler,
+resident,Bond Street,13,,,Arthur,Price,fireman,
+resident,Bond Street,14,,,John,Reid,engineer,
+resident,Bond Street,15,,,William,Evans,labourer,
+resident,Bond Street,16,,,Aaron,Lovell,labourer,
+resident,Bond Street,17,,,J.,Rowan,plasterer,
+resident,Bond Street,18,,,Henry,Lock,coachman,
+resident,Bond Street,19,,,Charles,Cording,sawyer,
+resident,Bond Street,20,,,John,Scott,carpenter,
+resident,Bond Street,21,,,Edward,Jones,seaman,
+resident,Bond Street,22,,,,,Void,
+cross_street,Bond Street,,,,,,(return.)
+resident,Bond Street,23,,,Rd. Wm.,Moss,carpenter,
+resident,Bond Street,24,,,Geo.,Metcalfe,contractor,
+resident,Bond Street,25,,,Hy. G.,Bladon,eng. drivr,
+resident,Bond Street,26,,,William,Evans,labourer,
+resident,Bond Street,27,,,Robert,Parr,potter,
+cross_street,Bond Street,,,,,,here is Frank-street.
+resident,Bond Street,28,,,Fredk. A.,Avery,wheelwgt,
+street,Borough Chambers.,,,,,,See 12 Skinner-street.
+street,Bream Place.,,,,,,From 157 Dock-street.
+resident,Bream Place.,1,,,Daniel,Reardon,labourer,
+resident,Bream Place.,2,,,Frederick,Wallington,,
+resident,Bream Place.,3,,,James,Morgan,labourer,
+resident,Bream Place.,4,,,Wm.,Sullivan,labourer,
+resident,Bream Place.,5,,,David,Godwin,labourer,
+resident,Bream Place.,6,,,Thos.,Barrett,labourer,
+resident,Bream Place.,7,,,George,White,mason,
+resident,Bream Place.,8,,,Chas.,Davies,stonemason,
+resident,Bream Place.,9,,,Henry,Trump,labourer,
+resident,Bream Place.,10,,,Henry,Davies,tram divr,
+resident,Bream Place.,11,,,Alfred W.,Davies,haulier,
+resident,Bream Place.,12,,,William,Coughlin,painter,
+resident,Bream Place.,13,,,James,Horton,labourer,
+street,Brickyard Road.,,,,,,From 373 Caerleon-road.
+cross_street,Brickyard Road.,,,,,, [RIGHT HAND SIDE.]
+resident,Brickyard Road.,,,,James,James,labourer,
+resident,Brickyard Road.,,,,James,Cronk,labourer,
+resident,Brickyard Road.,,,,John,Jones,driver,
+resident,Brickyard Road.,,,,George,Tyler,labourer,
+resident,Brickyard Road.,,,,Mrs Susan,Jones,,
+resident,Brickyard Road.,,,,William,Barrett,labourer,
+resident,Brickyard Road.,,,,Benjamin,Fry,labourer,
+resident,Brickyard Road.,,,,William,Holman,labourer,
+resident,Brickyard Road.,,,St. Julian's Brick works,,,"A. Davies, Pottery"
+street,Bridge Street.,,,,,,Stow-hill to Railway bridge.
+resident,Bridge Street.,,,London City & Midland Bank,,,,
+resident,Bridge Street.,,,MIDLAND BANK CHAMBERS.,,,,
+resident,Bridge Street.,,,Newport Chamber of Commerce, Incorporated,,,,
+resident,Bridge Street.,,,,Samuel D. Williams & Co.,merchants and engineers,
+resident,Bridge Street.,,,Newport Trade Bureau for Advertising Newport,,,S. D. Williams, secretary
+resident,Bridge Street.,,,,Lloyd & Pratt,solicitors,
+resident,Bridge Street.,,,National Waits' Association (Dr. Barnardo's Homes),,,District Offices
+resident,Bridge Street.,,,,Swash & Bain,architects and surveyors,
+resident,Bridge Street.,,,,William,Donovan,caretaker,
+resident,Bridge Street.,,,,W. E.,Robertson,tobacconist,
+resident,Bridge Street.,4 & 5,,,Davies & Sons,fruiiterers, poulterers and florists,
+resident,Bridge Street.,6,,Lamb Inn,Mrs M.,Phillips,,
+resident,Bridge Street.,7,,,C.,Silverman,confectioner,
+resident,Bridge Street.,8-10,,,,,,H. A. Smith's Stores
+resident,Bridge Street.,11,,,L.L.,Harris,baker & conftr,
+resident,Bridge Street.,12,,,Henry,Halse,grocer,
+resident,Bridge Street.,13,,MONMOUTHSHIRE CLUB,,,W. E. Harris, steward
+resident,Bridge Street.,14,,,Miss C.,Brown,florist,
+resident,Bridge Street.,15,,,D.,Conniff,hairdresser,
+resident,Bridge Street.,16,,,M.,Hovey,tobacconist, &c,
+resident,Bridge Street.,17,,,E. A.,Charles,reporter,
+resident,Bridge Street.,18,,S Wales Daily News & Echo offices,,,E. Williams, agt
+resident,Bridge Street.,19,,Queen's Hotel,Mrs J.,Rowe,,
+resident,Bridge Street.,20,,VICTORIA CHAMBERS,,,,
+resident,Bridge Street.,20,,,Brewer & Co.,auc- tioneers, house agents, &c,
+resident,Bridge Street.,20,,,Wood John & Son,accoun- tants and auditors,
+resident,Bridge Street.,20,,,Ward, Colborne, & Coul- man,solicitors,Principality Per. Invest. Building Society's office
+resident,Bridge Street.,20,,Power (the Messrs) Estate office,,,,
+resident,Bridge Street.,21,,,C. A.,Miles,estate agent,
+resident,Bridge Street.,21,,,DeRees,Billposting Co.,
+resident,Bridge Street.,21,,,Npt. Lic. Victu'lers & Beer- house Keepers' Associatn,,,Mrs Licensed Trade
+resident,Bridge Street.,21,,,Mon. Licensed Trade Central Protection Soc'y,,,W. H. Griffiths, sec.
+resident,Bridge Street.,22,,,W. Kinsey,Morgan,solictr,
+resident,Bridge Street.,23,,,A. Gear,Evans,dentist,
+cross_street,Bridge Street,,,,,,here is Caxton-place.
+resident,Bridge Street.,24,,Technical Institute,,,G. W. Moores, registrar
+resident,Bridge Street.,25,,,Alf. J.,Wheeler,bootmakr,
+resident,Bridge Street.,26,,,John G.,Porter,,
+resident,Bridge Street.,26,,,Mrs,Porter,milliner,
+resident,Bridge Street.,27,,,John W. W.,Lewis,,
+resident,Bridge Street.,28,,,Thomas,Mahoney,,
+resident,Bridge Street.,29,,,Mrs,Stock,Registry office,
+resident,Bridge Street.,30,,,Mrs E. S.,Smythe,,
+resident,Bridge Street.,31,,,Wm. A.,White,,Stock J. H. tailor
+resident,Bridge Street.,32,,,Geo.,Briffet,inspt. G.W.R.,
+resident,Bridge Street.,33,,,C.,Miles,building suryeyr,
+resident,Bridge Street.,34,,,Alfred A.,Grant,,
+resident,Bridge Street.,34,,,Mrs,Grant,costumier,
+resident,Bridge Street.,35,,,Frederick,Morgan,,
+resident,Bridge Street.,36,,,T. S.,Thomas,,
+resident,Bridge Street.,37,,,Clarke & Crofts,dress and mantle makers,
+resident,Bridge Street.,38,,,E. W.,Perren,professor of music and music seller,
+resident,Bridge Street.,39,,,E.,Adams,tailor,
+resident,Bridge Street.,40,,,Miss,Brown,costumier,
+resident,Bridge Street.,41,,,,,,Stores
+resident,Bridge Street.,42,,Victoria Brewery,,,,
+cross_street,Bridge Street,,,,,,(return.)
+resident,Bridge Street.,43,,,F.,Hoskin,jeweller,
+resident,Bridge Street.,44,,,H. W.,Sully,watchmaker,
+resident,Bridge Street.,45,,,Joseph,Hooper,carpenter,
+resident,Bridge Street.,46,,,Mrs Edward,Williams,,
+resident,Bridge Street.,47,,Servants' Home,,,Miss Studley, matron (1 to 4); Williams Miss, school
+resident,Bridge Street.,48,,,Trace & Sons,decorators,
+resident,Bridge Street.,49,,,Fred,Chave,gasfitter,

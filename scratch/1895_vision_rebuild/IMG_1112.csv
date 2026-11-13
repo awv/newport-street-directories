@@ -1,0 +1,124 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Commercial Road,,,,,,continued
+cross_street,Commercial Road,,,,,,here is New-street.
+resident,Commercial Road,125,,,Thomas,Evans,grocer,
+resident,Commercial Road,126,,,E.,Hill,greengrocer,
+resident,Commercial Road,127,,,Miss,Francomb,,
+resident,Commercial Road,128,,,A.,Richards,hairdresser,
+resident,Commercial Road,129,,,G.,Fucito,confectioner,
+resident,Commercial Road,130,,,J. & Sons,Hockey,butchrs,
+resident,Commercial Road,131,,,Mrs,,Goldstein,fancy dlr,
+resident,Commercial Road,132,,,R.,Goldstein,clothier &c,
+resident,Commercial Road,133,,,G. H.,Osborne,ironmong'r,King's Arms
+cross_street,Commercial Road,,,,,,here is Temple-street.
+resident,Commercial Road,134,,,T.,Osborne,King's Arms,
+resident,Commercial Road,135,,,J. Olive,Leonard,Branch,
+resident,Commercial Road,136,,,John F.,Sanders,grocer,
+resident,Commercial Road,137,,,C.,Sanders,,
+resident,Commercial Road,138,,,& Co.'s,Gower,meat mkt,
+resident,Commercial Road,139,,,& Co.,Gower,grocers and provision market,
+resident,Commercial Road,140,,,W. G.,Lewis,tobacconist,
+cross_street,Commercial Road,,,,,,here is Albion-street and railway crossing.
+resident,Commercial Road,141,,Alexandra Tea Co.,,,
+resident,Commercial Road,142,,,Ltd.,Eastman's,butchers,
+resident,Commercial Road,143,,,& Co.,Phillips J.,drapers milliners men's mercers etc,
+resident,Commercial Road,144,,,& Co.,Phillips J.,drapers milliners men's mercers etc,
+cross_street,Commercial Road,,,,,,here is Capel-street.
+resident,Commercial Road,145,,,Charles,Collier,grocer baker & confectioner,
+resident,Commercial Road,146,,,Charles,Collier,grocer baker & confectioner,
+resident,Commercial Road,147,,,Walter,Creed,wholesale and family butcher,
+resident,Commercial Road,148,,,W. & at Maindee,Garland,boot & shoemakr,
+resident,Commercial Road,149,,,& Co.,Perkin,tailors and hosiers,
+resident,Commercial Road,150,,,,,,Void
+resident,Commercial Road,151,,,British & Colonial Meat Co,,,
+resident,Commercial Road,152,,,Wm.,Pearce,watchmaker and jeweller,
+cross_street,Commercial Road,,,,,,here is Williams-street.
+resident,Commercial Road,153,,,& Son,Chave,fruiterers fishmongers &c,
+resident,Commercial Road,154,,,F.,Maybery,shoemaker,
+resident,Commercial Road,155,,,Co-operative Branch str -J. Hutchings,m'uger,,
+resident,Commercial Road,156,,,,,,Shop--void
+resident,Commercial Road,156A,,,Wm. E.,Baker,butcher,
+resident,Commercial Road,157,,,B.,Evans,fancy repository and newsagent,
+resident,Commercial Road,158,,,T. H.,Hopkins,machinist,
+resident,Commercial Road,159,,,Charles,Howells,grocer London stores,
+resident,Commercial Road,160,,,Charles,Pearce,Engineers' Arms,
+cross_street,Commercial Road,,,,,,here is Raglan-street.
+resident,Commercial Road,161,,,C. F.,Parkinson,Exchange,Royal
+resident,Commercial Road,162,,,,,,Void
+resident,Commercial Road,163,,,English & Colon'l Meat Co,,,
+resident,Commercial Road,164,,,R. & Co.,Harris,drapers and milliners,
+resident,Commercial Road,165,,,T. A.,Russell,greengrocer,
+resident,Commercial Road,166,,,,,,Void
+resident,Commercial Road,167,,,Ed.,Creese,fruiterer etc,
+resident,Commercial Road,168,,,Thos.,Hopkins,china dlr. and tobacconist,
+resident,Commercial Road,169,,,Joshua,Price,butcher,
+cross_street,Commercial Road,,,,,,here is Lewis-street.
+cross_street,Commercial Road,,,,,,LANSDOWNE PLACE---
+resident,Commercial Road,170,,,,,,
+resident,Commercial Road,171,,,,,,Void
+resident,Commercial Road,172,,,,,,Void
+resident,Commercial Road,173,,,Pratt & Paton,physicians and surgeons,,
+resident,Commercial Road,,,English Bapt. Church,,,
+resident,Commercial Road,,,Geo.,Priddle,painter,
+resident,Commercial Road,,,Bible Christian Chapel,,,
+resident,Commercial Road,174,,,R. V.,Sutton,physician and surgeon,
+cross_street,Commercial Road,,,,,,here is Alma-street.
+resident,Commercial Road,175,,,Miss Ellen,Short,,
+resident,Commercial Road,,,Baptist Temple (Welsh),,,
+resident,Commercial Road,,,Mrs Mary,Williams,,
+resident,Commercial Road,,,Richd.,Pritchard,lab'rer,
+resident,Commercial Road,,,H.,Gibbon,railway guard,
+resident,Commercial Road,176,,,Tom W.,Hughes,moul ler,
+resident,Commercial Road,177,,,F.,Phillips,lan gley ho,
+resident,Commercial Road,178,,,Gwynne,Jones,engineer,
+resident,Commercial Road,179,,,J.,Hurley,surgeon,
+cross_street,Commercial Road,,,,,,here is Mountjoy-street.
+resident,Commercial Road,180,,,J.,Stanton,dentist,
+resident,Commercial Road,181,,,J.,Avery,coach builder,
+resident,Commercial Road,182,,,Rev Joshua,Davies,,
+resident,Commercial Road,183,,,H. R.,Hudson,physician and surgeon,
+resident,Commercial Road,184,,,G.,Gratte,physician and surgeon,Brooke
+resident,Commercial Road,185,,,T.,Limbery,surgeon,
+resident,Commercial Road,186,,,National Telephone Co. Limited,,,
+resident,Commercial Road,187,,,Nels.,Neilson,coffee tav,
+resident,Commercial Road,188,,,Tovey Bros.,undertakers,
+resident,Commercial Road,,,Isaac,Harris,labourer,
+resident,Commercial Road,,,F. E.,Burpitt,general house furnisher,
+resident,Commercial Road,189,,,G. E.,Collard,draper,
+resident,Commercial Road,190,,,and Fitzgerald,Moore,tailors,
+resident,Commercial Road,191,,,,,,Void
+resident,Commercial Road,192,,,Mrs E.,Robins,clothes dealer,
+resident,Commercial Road,193,,,,,,Void
+resident,Commercial Road,194,,,D.,Williams,draper,
+resident,Commercial Road,195,,,W.,Pell,manufacturing confectioner,
+resident,Commercial Road,196,,,Miss,Harris,,
+cross_street,Commercial Road,,,,,,here is Mountjoy-road.
+resident,Commercial Road,197,,,David,Morgan,grocer,
+resident,Commercial Road,198,,,A.,Frost,furniture stores,
+resident,Commercial Road,199,,,M.,Bragg,knitting factory and fancy repository,
+resident,Commercial Road,199A,,,Solid Leather Boot Co. -Fred Maggs manager,,
+resident,Commercial Road,200,,,Joseph,Ruddock,Salutation Inn,W.
+street,Commercial Street,,,,,,From High-street to Commercial-road.
+resident,Commercial Street,,,ALBANY CHAMBERS---,,,
+resident,Commercial Street,,,Thos.,Parry,auctioneer and Supt. Registrar,
+resident,Commercial Street,,,Tom W.,Wring,Registrar of marriages,
+resident,Commercial Street,,,T.,Jones,solicitor,Baker
+resident,Commercial Street,,,T. M.,Phillips,barrister,
+resident,Commercial Street,,,Dou C.,Marconel,Spanish consul,
+resident,Commercial Street,,,E. H.,Davies,solicitor,
+resident,Commercial Street,1,,,Newman and Sons,music warehouse,
+resident,Commercial Street,2,,Indian Rampore Tea Co. -Alf. Turner manager,,,
+resident,Commercial Street,3,,,D. Roger,Evans,solicitor,
+resident,Commercial Street,,,T.,Evans,manager Brit. Mutual Life Assurance Co.,Llewellyn-dist.
+resident,Commercial Street,,,Locke (Milton) & Phillips,advertising insurance and emigration agents,,
+resident,Commercial Street,,,Charles,Paine,chemist,
+resident,Commercial Street,4,,,Lipton's Market,,
+resident,Commercial Street,,,ARLINGTON CHAMBERS---,,,
+resident,Commercial Street,,,T. P.,Wansbrough,house decorator and plumber,
+resident,Commercial Street,,,& Moxon,Gibbs,solicitors,
+resident,Commercial Street,,,L. L.,Morris,clerk to Williams' schools Caerleon,
+resident,Commercial Street,,,F. R.,Bates,architect and surveyor,
+resident,Commercial Street,5,,,J. and Son,Phillips,corn and seed merchants,
+resident,Commercial Street,6,,,A,Wernett,watchmaker jeweller etc,
+resident,Commercial Street,7,,,W. A. & Co.,Baker,ironmongers iron merchants etc,
+resident,Commercial Street,8,,,W. A. & Co.,Baker,ironmongers iron merchants etc,

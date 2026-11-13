@@ -1,0 +1,141 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,WOO,2,,Thos. Gilbert,Kenvyn,,
+resident,WOO,1,,S. A.,Bennett,,
+resident,WOO,2A,,T. Powell,Gabb,,Netcrby
+resident,WOO,1A,,Thomas,Lewis,,
+cross_street,WOO,,,,,,(return)
+resident,WOO,,,A.,John,clerk,Glen view
+resident,WOO,,,N.,Miller,,The Rockery
+resident,WOO,,,Ernest,Brown,,Cambrune
+resident,WOO,,,Mrs. A. M. S.,Stephens,,Lauderdale
+resident,WOO,,,W. M.,Orders,,Holmecroft
+resident,WOO,,,A. W.,Woodburn,,Savona
+resident,WOO,,,Percy C.,Limbrick,,Leahurst
+resident,WOO,,,W.,James,,Brynderwen
+resident,WOO,,,Mervin,Pearce,,Belmont
+resident,WOO,,,John H.,Monks,,Premervera
+street,WYNDHAM STREET,,,,,,C 4
+cross_street,WYNDHAM STREET,,,,,,"From 96 Shaftesbury-street"
+resident,WYNDHAM STREET,1,,James,Bailey,,
+cross_street,WYNDHAM STREET,,,,,,"here is Hewertson-street"
+resident,WYNDHAM STREET,2,,Charles,Bach,butcher,
+resident,WYNDHAM STREET,3,,Giovanni,Gonella,,
+resident,WYNDHAM STREET,,,,Newport (Mon.) District Hide Skin, Fat and Wool Co., Ltd.,,
+resident,WYNDHAM STREET,,,,Public Slaughter houses,,,
+resident,WYNDHAM STREET,,,,George,Redmore,,,
+street,WYVERNE ROAD,,,,,,E 2
+cross_street,WYVERNE ROAD,,,,,,"Between Blenheim-road and Hawarden-road. (Chepstow-road)"
+resident,WYVERNE ROAD,1,,Percival,Williams,clerk,
+resident,WYVERNE ROAD,3,,Ian Alex.,Spence,manager,
+resident,WYVERNE ROAD,5,,James H.,Parkes,joiner,
+resident,WYVERNE ROAD,7,,John W.,Jukes,,
+resident,WYVERNE ROAD,9,,William H.,Baker,,
+resident,WYVERNE ROAD,11,,Isaac,Davis,ironworker,
+resident,WYVERNE ROAD,13,,Granville W.,Thomas,clk,
+resident,WYVERNE ROAD,15,,Ivor C.,Haines,clerk,
+resident,WYVERNE ROAD,17,,Frank,Walliker,civil serv,
+cross_street,WYVERNE ROAD,,,,,,(return)
+resident,WYVERNE ROAD,18,,M.,Lewis Gilford,mariner,
+resident,WYVERNE ROAD,16,,Wm. F.,Wolfe,engineer,
+resident,WYVERNE ROAD,14,,Joseph V.,Dickenson,dvr,
+resident,WYVERNE ROAD,12,,Frank C.,Fancy,mechanic,
+resident,WYVERNE ROAD,10,,Sydney H.,Hill,traveller,
+resident,WYVERNE ROAD,8,,George J.,Clarke,signalmn,
+resident,WYVERNE ROAD,6,,Richard J.,Tobias,ironwk,
+resident,WYVERNE ROAD,4,,George F.,Jones,clerk,
+resident,WYVERNE ROAD,2,,Harry T.,Osman,shop ast,
+street,YORK PLACE,,,,,,D 5
+cross_street,YORK PLACE,,,,,,"120 Stow-hill to Clyffard-cres."
+cross_street,YORK PLACE,,,,,,"(LEFT HAND SIDE)"
+resident,YORK PLACE,1,,Mrs. Margaret,Charles,,
+resident,YORK PLACE,3,,Benj.,Harries,traveller,
+resident,YORK PLACE,5,,Wm. Geo.,Holtham,,
+resident,YORK PLACE,7,,Fredk. W.,Watts,,
+resident,YORK PLACE,9,,Mrs. Margaret,Shepherd,,
+resident,YORK PLACE,11,,Miss M.,Butcher,,
+resident,YORK PLACE,13,,Albert E.,Rogers,,
+resident,YORK PLACE,,,Miss Mary E.,Davies,,
+resident,YORK PLACE,15,,T. G. E.,Spink,,
+resident,YORK PLACE,,,Mrs. Winifred,Blake,,
+resident,YORK PLACE,17,,Stephen E.,Bale,,
+resident,YORK PLACE,19,,Herbert,Taylor,,Wern ho
+resident,YORK PLACE,21,,David F. A.,Michael,,Ty Brialla
+resident,YORK PLACE,23,,H. D.,Hazell,,
+resident,YORK PLACE,25,,Miss L. J.,Rees,,
+resident,YORK PLACE,27,,John,Evans,,
+resident,YORK PLACE,29,,Luis A.,Uriarte,Consul for Uruguay,
+resident,YORK PLACE,31,,Mrs. Annie,Davies,,
+resident,YORK PLACE,33,,Mrs. Hilda,Richards,,
+resident,YORK PLACE,35,,Arthur,Taylor,,
+resident,YORK PLACE,,,William F.,Webber,,
+resident,YORK PLACE,37,,Mrs. Fanny,Mortimer,,
+resident,YORK PLACE,39,,Percy,Howard,decorator,
+resident,YORK PLACE,,,G.,Thomas,,
+resident,YORK PLACE,,,Evan,Haines,,
+resident,YORK PLACE,41,,Harold,Smith,,
+resident,YORK PLACE,43,,F. J.,Hawthorne,,
+resident,YORK PLACE,45,,Wm. E.,Williams,G.W.R.,
+resident,YORK PLACE,47,,T. C.,Morgan,draper,
+resident,YORK PLACE,49,,Rev. Emrys,Davies,,[Lea Glyn
+resident,YORK PLACE,51,,Geo. Herbt.,Hockey,Fern
+resident,YORK PLACE,53,,F. R.,Fowler,Glen view
+resident,YORK PLACE,55,,C. S.,Vines,physician and surgeon,Broadawel
+resident,YORK PLACE,,,Dr. Charlotte,Vines,,
+cross_street,YORK PLACE,,,,,,(return)
+resident,YORK PLACE,,,,Head Quarters Boys' Brigade 1st Co.,,,
+resident,YORK PLACE,72,,Mrs. Lavinia,Snook,,
+resident,YORK PLACE,70,,Thomas J.,Flanagan,,
+resident,YORK PLACE,66,,Joseph,Everett,,
+resident,YORK PLACE,64,,Frank,Pickett,clerk,
+resident,YORK PLACE,62,,Saml. W.,Dyke,,
+resident,YORK PLACE,60,,T. L.,Davies,G.W.R.,
+resident,YORK PLACE,58,,Mrs. Susan M.,Fisher,,
+resident,YORK PLACE,,,W. J.,Rutherford,,Melton house
+resident,YORK PLACE,56,,Rev. Handel,Llewellyn,Gwyn Llwyn
+resident,YORK PLACE,54,,John,Dix,Rockwood
+resident,YORK PLACE,52,,Chas. W.,Liles,Helena
+resident,YORK PLACE,50,,Mrs. Elizabeth,Keating,York villa
+resident,YORK PLACE,48,,Mrs. S. A.,George,,
+resident,YORK PLACE,46,,T. H.,Jones,bookbinder
+resident,YORK PLACE,44,,George,Wood,clerk
+resident,YORK PLACE,42,,William,Lewis,,
+resident,YORK PLACE,40,,W. H.,Liles,clerk
+resident,YORK PLACE,38,,Wilmot,West,,
+resident,YORK PLACE,36,,Arthur James,Brown,,
+resident,YORK PLACE,34,,E. L.,Rowe,carpenter etc.
+resident,YORK PLACE,32,,John F.,Lambton,,
+resident,YORK PLACE,30,,Mrs. Mary,Jones,,
+resident,YORK PLACE,28,,L. J.,Summers,,
+resident,YORK PLACE,26,,Thomas L.,Wilson,,
+resident,YORK PLACE,24,,Miss E. S.,Phillips,,
+resident,YORK PLACE,22,,P.,Williams,,
+resident,YORK PLACE,20,,Edwin C.,Summers,,
+resident,YORK PLACE,18,,Mrs. Olive,Burkhardt,,
+resident,YORK PLACE,16,,William,Gunn,Monaco
+resident,YORK PLACE,14,,Charles Edward,Holmes,,
+resident,YORK PLACE,12,,Miss Elizabeth J.,Coombs,,
+resident,YORK PLACE,10,,Peter,Huelin,carpenter
+resident,YORK PLACE,8,,Miss Florence,Francis,,
+resident,YORK PLACE,,,James H.,Marfell,,
+resident,YORK PLACE,6,,R. C.,Brookes,Mount Ida
+resident,YORK PLACE,4,,Misses,Collier,Clyde house
+resident,YORK PLACE,2,,E. B.,Williams,,
+resident,YORK PLACE,,,J. H.,Mogford,,
+street,YORK ROAD,,,,,,C 3
+cross_street,YORK ROAD,,,,,,"From 179 Caerleon-road to Durham-road"
+cross_street,YORK ROAD,,,,,,"(LEFT HAND SIDE.)"
+resident,YORK ROAD,1,,Edward,Horton,sheet whr
+resident,YORK ROAD,3,,Mrs. S.,Sturley,,
+resident,YORK ROAD,,,Violet A.,Simpson,,
+resident,YORK ROAD,5,,Thomas H.,Martin,fitter
+resident,YORK ROAD,7,,Henry,Childs,packer
+cross_street,YORK ROAD,,,,,,(return)
+resident,YORK ROAD,,,T.,Dicks,carpenter's shop
+resident,YORK ROAD,14,,Leon,Jones,ironworker
+resident,YORK ROAD,12,,Isaac,Hancock,,
+resident,YORK ROAD,10,,Albert,Rendall,painter
+resident,YORK ROAD,8,,Edwin J.,Slocombe,,
+resident,YORK ROAD,6,,Mrs. Charlotte,Betts,,
+resident,YORK ROAD,4,,W. J.,Davies,J.P.
+resident,YORK ROAD,2,,Thomas H.,Bartlett,,
+resident,YORK ROAD,,,Reuben,Evans,bootmaker

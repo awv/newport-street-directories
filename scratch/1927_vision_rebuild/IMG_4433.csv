@@ -1,0 +1,151 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,Barrack Lane,4,Brandon,Johns F.,Liddington,,
+resident,Barrack Lane,,,The Hawthorns,,void,
+resident,Barrack Lane,,,Runnymeade,Miss Lilian,Willmett,,
+resident,Barrack Lane,6,Rock Lea,Phillips Henry,,clerk,
+resident,Barrack Lane,8,Ridgebourne,D. H.,Jones,,
+resident,Barrack Lane,10,Florence M.,Johnson Mrs.,,
+resident,Barrack Lane,12,Monway,Davies Luther,,
+resident,Barrack Lane,14,Westwood,Hathaway H.,,
+resident,Barrack Lane,16,St. Hilda,Sims Mrs. M.,,
+resident,Barrack Lane,,,Rosebery dene,Robt.,Williams,ins. super.,
+resident,Barrack Lane,,,Farnborough,Mrs. Wesley,Williams,,
+cross_street,Barrack Lane,,,,,,"here is Allt-yr-yn-road"
+cross_street,Barrack Lane,,,,,,"ALLT-YR-YN HOSPITAL-"
+resident,Barrack Lane,,,,,,House void,
+resident,Barrack Lane,,,,,Adams Miss Jane,matron,
+resident,Barrack Lane,,,The Lodge,John,Morgan,,
+resident,Barrack Lane,,,,,,Vacant site,
+resident,Barrack Lane,18,,Lumbard John H.,,,
+resident,Barrack Lane,20,St. Albans,O'Sullivan J.,st. officer,
+resident,Barrack Lane,22,Oakridge,Newcombe J. M.,,
+resident,Barrack Lane,24,Cartref,May Fred S. W.,,
+resident,Barrack Lane,26,Penlee,Jones Miss E. L.,,
+resident,Barrack Lane,28,,Bussfield,,void,
+resident,Barrack Lane,30,Hefryd,Wansbrough E. J.,,
+resident,Barrack Lane,32,Penrhiw,Hopkins J. S.,,
+resident,Barrack Lane,34,Homewood,Bird A. G.,,
+resident,Barrack Lane,36,Sunnyside,Rev. F. T.,Smith,Bloice,
+cross_street,Barrack Lane,,,,,,"here is West Park-road."
+resident,Barrack Lane,38,West Park house,Davis Mrs. Mary A.,,,
+cross_street,Barrack Lane,,,,,,"Usk view-void"
+resident,Barrack Lane,40,,Pearsall G. C.,,Gatchel,
+resident,Barrack Lane,42,,Coles Ernest W.,,shop fttr,
+resident,Barrack Lane,46,,Maddox Cecil H.,,,
+cross_street,Barrack Lane,,,,,,"THE CEMETERY"
+resident,Barrack Lane,,,Cemetery Lodge,Maud,Thornley Mrs.,Standish,
+resident,Barrack Lane,35,Arnold S. Stelvio,Sir John,Davies,,Cecil
+cross_street,Barrack Lane,,,,,,"(return)"
+resident,Barrack Lane,,,Hornby L. H.,,D.L.,solctr
+resident,Barrack Lane,33,Quarleston,,Latch Miss,,
+resident,Barrack Lane,31,Quantock,Thomas Mrs. A.,,Bronwyd
+resident,Barrack Lane,,,Crawshay,Major Joseph E.,Partridge,,
+resident,Barrack Lane,29,Haslemere,Ed.,Foreman,,
+resident,Barrack Lane,27,Tymawr,Mrs. A. E.,Richards,,
+resident,Barrack Lane,,,Rathbone,Mrs. E. M.,,,
+resident,Barrack Lane,25,Haldon,Howard T.,Whittaker,,
+resident,Barrack Lane,23,,Mrs. Florence,Poole,,
+resident,Barrack Lane,21,,Frederick P.,Horden,,
+resident,Barrack Lane,19,Chingford,D. W.,Roberts,,
+resident,Barrack Lane,17,Hillcrest,Charles,Collier,,
+resident,Barrack Lane,15,Lustleigh,T. Arthur,Eaves,,
+resident,Barrack Lane,13,The Rylands,J.,Wolfson,,
+resident,Barrack Lane,11,,David,Morgan,,
+resident,Barrack Lane,9,Eskholme,Robert,Tait,,
+resident,Barrack Lane,7,St. Heliers,Geo. E.,Banks,,
+resident,Barrack Lane,5,Verulam,A. G.,Lonnon,,
+resident,Barrack Lane,,,Lonnon Raymond,,,L.D.S.
+resident,Barrack Lane,3,Royston,Fredk. W.,Porter,,
+resident,Barrack Lane,1,Berlyn,Herbert,Handy,,
+resident,Barrack Lane,,,Pelham,Charles C.,Halse,schoolteacher,
+resident,Barrack Lane,,,Penallt,John E.,Evans,sch. teacher,
+resident,Barrack Lane,,,Frondeg,William,Evans,sch. teacher,
+resident,Barrack Lane,,,,William,Coles,school teacher,
+resident,Barrack Lane,,,Oldbury,Robert C.,Young,master mariner,
+resident,Barrack Lane,,,Hibernia,Leslie,Drummond,tailor,
+resident,Barrack Lane,,,,Isaac,Jacobs,Stenerith,
+resident,Barrack Lane,,,,,,1 house void,
+street,BARRACK ROAD. B 5,,,,,,,From Barrack-hill to Barrack-lane
+cross_street,BARRACK ROAD. B 5,,,,,,,See Nos. 162 to 100 Barrack-hill.
+street,BARTHROPP STREET. F 2,,,,,,,(Off Ifton-street)
+cross_street,BARTHROPP STREET. F 2,,,,,,,(LEFT HAND SIDE.)
+resident,BARTHROPP STREET. F 2,2,,,Wm.,Page,ironworker,
+resident,BARTHROPP STREET. F 2,4,,,Edward,Davies,ironwrkr,
+resident,BARTHROPP STREET. F 2,6,,,H.,Marshall,steward,
+resident,BARTHROPP STREET. F 2,8,,,Thos.,Smith,ironworker,
+resident,BARTHROPP STREET. F 2,10,,,John,Page,ironworker,
+resident,BARTHROPP STREET. F 2,12,,,James,Lloyd,ironworker,
+resident,BARTHROPP STREET. F 2,14,,,John,Fallon,do.,
+resident,BARTHROPP STREET. F 2,16,,,Charles,Henry,do.,
+resident,BARTHROPP STREET. F 2,18,,,Mrs. Mary,McEvay,,
+resident,BARTHROPP STREET. F 2,20,,,Thos.,Pritchard,labourer,
+resident,BARTHROPP STREET. F 2,22,,,C.,Smith,ironworker,
+cross_street,BARTHROPP STREET. F 2,,,,,,,(return)
+resident,BARTHROPP STREET. F 2,,,,,,Vacant sites
+resident,BARTHROPP STREET. F 2,1,,,A. E.,Adams,labourer,
+street,BASSALEG LANE.,,,,,,,see under Glasllwch-lane
+street,BASSALLEG ROAD. D 6,,,,,,,From "Handpost," stow-hill
+cross_street,BASSALLEG ROAD. D 6,,,,,,,(RIGHT HAND SIDE.)
+resident,BASSALLEG ROAD. D 6,2,,,Ernest,Brooks,,
+resident,BASSALLEG ROAD. D 6,,,Handpost Hotel,,,,
+cross_street,BASSALLEG ROAD. D 6,,,,,,,"here is Ombersley-road"
+resident,BASSALLEG ROAD. D 6,7,,,Anthony,Pugsley,clerk,
+resident,BASSALLEG ROAD. D 6,9,,,F. Arthur,Baker,,
+resident,BASSALLEG ROAD. D 6,11,,,Fred J.,Baglow,,
+resident,BASSALLEG ROAD. D 6,13,,,Mrs. Eliza,Adams,,
+resident,BASSALLEG ROAD. D 6,,,Thomas,Jos. H.,traveller,
+resident,BASSALLEG ROAD. D 6,15,,,William,Lee,printer,
+resident,BASSALLEG ROAD. D 6,17,,,John T.,Woolley,ironwrkr,
+resident,BASSALLEG ROAD. D 6,19,,,Chas. I.,Wheeler,civil serv,
+resident,BASSALLEG ROAD. D 6,21,,,Mrs. May,Horlor,,
+resident,BASSALLEG ROAD. D 6,23,,,Henry J.,Grindle,teacher,
+resident,BASSALLEG ROAD. D 6,25,,,Reginald,Tyack,clerk,
+resident,BASSALLEG ROAD. D 6,27,,,Philip R.,Balderstone,eng,
+resident,BASSALLEG ROAD. D 6,,,James,Lewis,,
+cross_street,BASSALLEG ROAD. D 6,,,,,,,(return)
+resident,BASSALLEG ROAD. D 6,20,,,A. J.,Bunce,excise officer,
+resident,BASSALLEG ROAD. D 6,18,,,Arthur R.,Gibbons,P.O.,
+resident,BASSALLEG ROAD. D 6,16,,,Edgar T.,Jenkins,painter,
+resident,BASSALLEG ROAD. D 6,14,,,Albert,Hale,mechanic,
+resident,BASSALLEG ROAD. D 6,12,,,E. M.,Evans,Mrs.,Westfield
+resident,BASSALLEG ROAD. D 6,10,,,John B.,Evans,teacher,
+resident,BASSALLEG ROAD. D 6,8,,,Albert,Fox,bricklayer,
+resident,BASSALLEG ROAD. D 6,6,,,Lewis R.,Jones,salesman,
+resident,BASSALLEG ROAD. D 6,4,,,Ivor H.,Thomas,organiser,
+resident,BASSALLEG ROAD. D 6,2,,,Evan Rowland,Mills,,
+street,BATH STREET. C 3,,,,,,,Caerleon-road to Trostrey-st.
+cross_street,BATH STREET. C 3,,,,,,,(LEFT HAND SIDE.)
+resident,BATH STREET. C 3,1,,,Sidney R.,Morse,gardener,
+resident,BATH STREET. C 3,2,,,Mrs. Eliza A.,Lewis,,
+resident,BATH STREET. C 3,3,,,Mrs. Kate,Norville,,
+resident,BATH STREET. C 3,4,,,Fred C.,Hookway,agent,
+resident,BATH STREET. C 3,5,,,Wm.,Elliott,bricklayer,
+resident,BATH STREET. C 3,6,,,Newport Stm.Laundry Co.,,Geo. Greenland & Sons proprietors
+cross_street,BATH STREET. C 3,,,,,,,(return)
+resident,BATH STREET. C 3,7,,,John M.,Thomas,eng dvr,
+resident,BATH STREET. C 3,8,,,Dd. Charles,Bowen,police,
+resident,BATH STREET. C 3,9,,,Mrs. Agnes,Williams,,
+resident,BATH STREET. C 3,10,,,Hbt. John,Haley,eng'eer,
+resident,BATH STREET. C 3,11,,,William,Edwards,ironwrkr,
+resident,BATH STREET. C 3,12,,,Edwin,Prothero,upholstr,
+resident,BATH STREET. C 3,13,,,J. N.,Benger,furnaceman,
+cross_street,BATH STREET. C 3,,,,,,,"here is Usk-street."
+resident,BATH STREET. C 3,14,,,W. J.,Foster,ironworker,
+resident,BATH STREET. C 3,15,,,Wm.,Luxton,eng. driver,
+resident,BATH STREET. C 3,16,,,Edwd.,Clague,labourer,
+resident,BATH STREET. C 3,17,,,Charles,Banwell,polisher,
+resident,BATH STREET. C 3,18,,,John,White,mason,
+street,BEAUFORT TERRACE. C 5,,,,,,,See West-street.
+street,BEDFORD ROAD. C 4,,,,,,,Corporation road to Eton-road
+cross_street,BEDFORD ROAD. C 4,,,,,,,(LEFT HAND SIDE.)
+resident,BEDFORD ROAD. C 4,1,,,T.,Barnfield,contractor,
+resident,BEDFORD ROAD. C 4,3,,,C. S.,Pritchards,Erminie
+resident,BEDFORD ROAD. C 4,5,,,Mrs. Alice Mary,Austwick,,
+resident,BEDFORD ROAD. C 4,7,,,Wm. H.,Mason,Glen Teifi
+resident,BEDFORD ROAD. C 4,9,,,Geo. C.,Pelling,crane dvr,
+cross_street,BEDFORD ROAD. C 4,,,,,,,"here is Cedar-road."
+street,BATCHELOR ROAD. D 6,,,,,,,From 211 Chepstow-road.
+cross_street,BATCHELOR ROAD. D 6,,,,,,,(LEFT HAND SIDE.)
+resident,BATCHELOR ROAD. D 6,1,,,Miss Annie,Webb,,
+resident,BATCHELOR ROAD. D 6,3,,,Bernard,Hulley,printer,
+resident,BATCHELOR ROAD. D 6,5,,,Albert B.,Downes,P.O.,

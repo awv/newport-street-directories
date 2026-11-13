@@ -1,0 +1,173 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,POTTER STREET,,,,,,
+resident,POTTER STREET,15,,Herbert,John,,
+resident,POTTER STREET,16,,Joseph,Stanners,labourer,
+resident,POTTER STREET,17,,Geo.,Lowe,boilermaker,
+resident,POTTER STREET,18,,Geo.,Lloyd,boilermaker,
+resident,POTTER STREET,19,,Mrs.,Danahar,shopkeeper,
+resident,POTTER STREET,20,,John,Cashman,moulder,
+resident,POTTER STREET,21,,Elijah,Jones,labourer,
+resident,POTTER STREET,22,,Michael,White,labourer,
+resident,POTTER STREET,23,,R. G.,French,labourer,
+resident,POTTER STREET,24,,Chas.,Bohne,fireman,
+resident,POTTER STREET,25,,George,Stevens,labourer,
+resident,POTTER STREET,26,,Mrs. Minnie,Baulch,,
+resident,POTTER STREET,27,,Joseph,Ring,labourer,
+resident,POTTER STREET,28,,Walter,Powell,,
+resident,POTTER STREET,,,,Jordan's Ltd.,,Pillgwenlly Foundry
+cross_street,POTTER STREET,,,,,,here is Potter's Parade
+cross_street,POTTER STREET,,,,,,"(return)"
+resident,POTTER STREET,,,,James & Co.,Mahoney,marine stores,
+cross_street,POTTER STREET,,,,,,here is Castle-street
+cross_street,POTTER STREET,,,,,,here is Trinity-place
+resident,POTTER STREET,31,,Anthony,Lee,labourer,
+resident,POTTER STREET,32,,Jno.,Mahoney,boatman,
+resident,POTTER STREET,33,,Thomas,Oldfield,labourer,
+resident,POTTER STREET,34,,Geo.,Woodcock,rivetter,
+resident,POTTER STREET,35,,William,Andrews,platelyr,
+resident,POTTER STREET,,,"Edwd., platelyr",Andrews,,
+resident,POTTER STREET,36,,Jno.,Molloy,labourer,
+resident,POTTER STREET,37,,William,Wilson,labourer,
+resident,POTTER STREET,38,,Edward,Carrol,,
+resident,POTTER STREET,39,,Frank Hy.,Johnson,motorman,
+resident,POTTER STREET,40,,Walter,Heard,James,
+resident,POTTER STREET,41,,John,Griffin,boilermaker,
+resident,POTTER STREET,42,,Albt. D.,Taylor,weighman,
+resident,POTTER STREET,43,,Thos. Alfred,Evans,seamn,
+resident,POTTER STREET,44,,John,Powell,engine drvr,
+resident,POTTER STREET,,,,,,MISSION HALL
+street,POTTER'S PARADE,,,,,,E 4
+cross_street,POTTER'S PARADE,,,,,,West side Town Dock
+resident,POTTER'S PARADE,1,George Hotel,Mrs. Jessie M.,Hobbs,,
+resident,POTTER'S PARADE,2,,John,Symons,labourer,
+resident,POTTER'S PARADE,3,,,,Void,,
+resident,POTTER'S PARADE,,,,,,Jordan's Ltd. ironfounders
+street,POTTER STREET,,,,,,E 4
+cross_street,POTTER STREET,,,,,,From 95 Commercial-road
+cross_street,POTTER STREET,,,,,,"(LEFT HAND SIDE.)"
+resident,POTTER STREET,2,Victoria bakery,J.,Evans,,
+resident,POTTER STREET,3,,Charles,Swenson,,
+resident,POTTER STREET,4,,Mrs. Emma,Evans,,
+resident,POTTER STREET,5,,John,Pollard,trimmer,
+resident,POTTER STREET,6,,Mrs. Margaret,Rafferty,,
+resident,POTTER STREET,7,,George,Phillips,trimmer,
+resident,POTTER STREET,8,,Emanuel,Silber,,
+resident,POTTER STREET,9,,James,Madden,labourer,
+resident,POTTER STREET,10,,John,Miller,coppersmith,
+resident,POTTER STREET,11,,Samuel,Oakley,labourer,
+resident,POTTER STREET,12,,William,O'Neill,labourer,
+resident,POTTER STREET,13,,,,Void,,
+resident,POTTER STREET,14,,Mrs. M.,Agnilus,,
+resident,POTTER STREET,15,,James,Walsh,seaman,
+resident,POTTER STREET,16,,George,Inker,labourer,
+resident,POTTER STREET,17,,Cornelius,Keefe,haulier,
+resident,POTTER STREET,17A,,Henry,Card,tugboat man,
+resident,POTTER STREET,18A,,William,Lee,labourer,
+resident,POTTER STREET,19A,,Robert,Hawyes,,
+resident,POTTER STREET,20A,,Hy. Jas.,Jones,milkman,
+cross_street,POTTER STREET,,,,,,"(return)"
+resident,POTTER STREET,18,,John,Hansen,shop,
+resident,POTTER STREET,19,,Dennis,McCarthy,trimmer,
+resident,POTTER STREET,20,,Michael,Lynch,labourer,
+resident,POTTER STREET,21,,Charles,Burke,,
+resident,POTTER STREET,22,,James,Walsh,labourer,
+resident,POTTER STREET,23,Excelsior wagon and carriage wks,T.,Plummer,,
+resident,POTTER STREET,,,HOLY TRINITY CHURCH,,,
+resident,POTTER STREET,24,,Mrs. Elizabeth,Simmons,,Trinity house
+resident,POTTER STREET,25,,Wm.,McCarthy,labourer,
+resident,POTTER STREET,26,,Robert,Miller,trimmer,
+resident,POTTER STREET,27,,John,McCarthy,labourer,
+resident,POTTER STREET,28,,,,Void,,
+resident,POTTER STREET,29,,Patk.,Connor,labourer,
+resident,POTTER STREET,30,,Jere.,McCarthy,trimmer,
+resident,POTTER STREET,31,,Mrs. Mary Ann,Mahoney,,
+resident,POTTER STREET,32,,John,Blake,engine driver,
+resident,POTTER STREET,33,,Ramsay,Deans,labourer,
+resident,POTTER STREET,34,,Wm.,Attwood,labourer,
+resident,POTTER STREET,35,,Mrs. Margaret,Thomas,,
+cross_street,POTTER STREET,,,,,,here is Clarence-street
+resident,POTTER STREET,36,NEWPORT ELECTRIC PALACE,,,brokers,
+resident,POTTER STREET,37,,A. J. & Son,Jacobs,pawn-brokers,
+street,POTTERY ROAD,,,,,,C 5
+cross_street,POTTERY ROAD,,,,,,From 5 Mill-parade
+cross_street,POTTERY ROAD,,,,,,"(LEFT HAND SIDE.)"
+resident,POTTERY ROAD,1,,John J.,Partington,,
+resident,POTTERY ROAD,3,,W. eng.,Johnston,driver,
+resident,POTTERY ROAD,5,,Robert,Marsh,fitter,
+resident,POTTERY ROAD,7,,I. fitter's helper,Lightfoot,,
+resident,POTTERY ROAD,9,,Thos.,French,trimmer,
+resident,POTTERY ROAD,11,,Wm.,Taylor,fitter,
+resident,POTTERY ROAD,13,,Geo.,Lovett,labourer,
+resident,POTTERY ROAD,15,,John,Ball,engine driver,
+resident,POTTERY ROAD,17,,Malachi,Crowley,fitter,
+resident,POTTERY ROAD,19,,Daniel,Buckley,drghtsman,
+resident,POTTERY ROAD,21,,John,Jones,coal trimmer,
+cross_street,POTTERY ROAD,,,,,,"(return)"
+resident,POTTERY ROAD,14,,Wm. John,Traynor,fitter,
+resident,POTTERY ROAD,12,,Arth,Anderson,storekpr,
+resident,POTTERY ROAD,10,,Saml.,Bavester,hobbler,
+resident,POTTERY ROAD,8,,Albert,Thomas,trimmer,
+resident,POTTERY ROAD,6,,John,Lawrence,labourer,
+resident,POTTERY ROAD,4,,Chas. F.,Davey,shipwght,
+resident,POTTERY ROAD,2,,Owen,Lewis,crane driver,
+street,POTTERY TERRACE,,,,,,E 5
+cross_street,POTTERY TERRACE,,,,,,Alexandra-road to Price-st.
+cross_street,POTTERY TERRACE,,,,,,"(LEFT HAND SIDE.)"
+resident,POTTERY TERRACE,1,,W.,Parsons,sail.loft,
+resident,POTTERY TERRACE,,,"J. W., tinsmith",Gray,,
+cross_street,POTTERY TERRACE,,,,,,here is Adeline-street
+resident,POTTERY TERRACE,,,,,,ALEXANDRA SCHOOLS
+cross_street,POTTERY TERRACE,,,,,,here is Marion-street
+resident,POTTERY TERRACE,4,,Thos.,Grey,patternmaker,
+resident,POTTERY TERRACE,5,,Wm.,Harvey,bootmaker,
+resident,POTTERY TERRACE,6,,Wm.,Carter,dock labourer,
+resident,POTTERY TERRACE,7,,David,Evans,fish shop,
+resident,POTTERY TERRACE,8,,A.,Howells,shoemaker,
+resident,POTTERY TERRACE,9,,H.,Whitton,butcher,
+cross_street,POTTERY TERRACE,,,,,,here is Baldwin-street
+resident,POTTERY TERRACE,11,,Cramp,,,
+resident,POTTERY TERRACE,12,,Alfred,Pope,,
+resident,POTTERY TERRACE,13,,James,Sedgemoor,,
+resident,POTTERY TERRACE,14,,Ed. James,Thomas,,
+cross_street,POTTERY TERRACE,,,,,,here is Jeddo-street
+resident,POTTERY TERRACE,15,,Alfred,Richards,milkman,
+cross_street,POTTERY TERRACE,,,,,,here is Lime-street
+resident,POTTERY TERRACE,16,,C. P.,Matthews,confectnr,
+resident,POTTERY TERRACE,17,,W.,Matthews,bakehouse,
+resident,POTTERY TERRACE,,,,,,Pillgwenlly Wesleyan Institute
+cross_street,POTTERY TERRACE,,,,,,"(return)"
+resident,POTTERY TERRACE,18,,D.,Sims,coal yard,
+cross_street,POTTERY TERRACE,,,,,,here is Lime-street
+resident,POTTERY TERRACE,19,,Arthur,Jones,blacksmith,
+resident,POTTERY TERRACE,20,,Edward,Williams,,
+cross_street,POTTERY TERRACE,,,,,,here is Jeddo-street
+resident,POTTERY TERRACE,21,,Thos. E.,Picton,,
+cross_street,POTTERY TERRACE,,,,,,here is Baldwin-street
+resident,POTTERY TERRACE,22,,Hockey's bakehouse,,
+resident,POTTERY TERRACE,23,,Mich. G.,Burton,,
+cross_street,POTTERY TERRACE,,,,,,here is Marion-street
+resident,POTTERY TERRACE,,,,,,DOCKERS' HALL
+street,POWELL'S COURT,,,,,,C 4
+cross_street,POWELL'S COURT,,,,,,From Thomas-street
+resident,POWELL'S COURT,1,,Thos. J.,Gardner,sweep,
+resident,POWELL'S COURT,2,,George,Baker,labourer,
+resident,POWELL'S COURT,3,,George,Vowles,labourer,
+street,POWELL'S PLACE,,,,,,D 4
+cross_street,POWELL'S PLACE,,,,,,From 69 Dock-street
+resident,POWELL'S PLACE,2,,,,Void,,
+resident,POWELL'S PLACE,3,,Jesse Harold,Isacke,,Central Machinery Stores and Foundry
+resident,POWELL'S PLACE,,,,,,Lloyd & Yorath's stables
+resident,POWELL'S PLACE,,,,,,Central Schools
+resident,POWELL'S PLACE,1,,James,Landcastle,haulier,
+street,POWER STREET,,,,,,B 4
+cross_street,POWER STREET,,,,,,From Barrack-hill
+cross_street,POWER STREET,,,,,,"(LEFT HAND SIDE.)"
+resident,POWER STREET,1,,T. E.,Rabbitt,shop,
+resident,POWER STREET,3,,John Wm.,Rabbitt,mason,
+resident,POWER STREET,5,,Mrs. Emily,Snelgrove,,
+resident,POWER STREET,7,,Hy. Jas.,Lee,foreman,
+resident,POWER STREET,9,,David,Jones,,
+resident,POWER STREET,11,,Wm.,Harvey,bootmaker,
+resident,POWER STREET,13,,John Wm.,Woodfield,,
+resident,POWER STREET,15,,Fredk.,Carlyle,inspector,
+resident,POWER STREET,17,,Fredk.,Bywater,,

@@ -1,0 +1,138 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Thomas Street,,,,,,From 64 High-street.
+resident,Thomas Street,2,Three Tuns,Chas.,Pearce,,,
+resident,Thomas Street,3,,James,Balmer,shoemakr,
+cross_street,Thomas Street,,,,,,Post office (back entrance)
+cross_street,Thomas Street,,,,,,Subway to Mill-street.
+resident,Thomas Street,6,,David,Lewis,grocer,
+cross_street,Thomas Street,,,,,,here is Oak-terrace.
+resident,Thomas Street,7,,S.,Naish,basketmaker,
+cross_street,Thomas Street,,,,,,here is Powell's-court.
+resident,Thomas Street,8,,Edwin,Richards,ostler,
+resident,Thomas Street,9,,Robt.,Bowen,hairdresser,
+resident,Thomas Street,,,M. J.,Gooding,baker,
+resident,Thomas Street,10,Railway Inn,John,McHale,,,
+resident,Thomas Street,11,Gloucester Eating House,Herbt.,Brinkworth,,,
+street,Thompson Lane,,,,,,From 31 Emlyn-street.
+resident,Thompson Lane,1,,Mathew,Dacey,labourer,
+resident,Thompson Lane,2,,Mrs Mary J.,Johns,,,
+resident,Thompson Lane,3,,Wm.,Sanders,carpenter,
+resident,Thompson Lane,4,,William,Lee,labourer,
+resident,Thompson Lane,5,,Richard,Neagle,moulder,
+resident,Thompson Lane,6,,Timothy,Donovan,lab'rer,
+street,Tipton Street, L.,,,,,,Coseley-street to Soho-street.
+street,Tredegar Place,,,,,,Nos. 67-82 Bridge-street.
+street,Tredegar Street, P.,,,,,,From 26 Commercial-road to Cattle Market.
+resident,Tredegar Street, P.,1,,J.,Nicholls,,,
+resident,Tredegar Street, P.,2,,George,Ashman,engineer,
+resident,Tredegar Street, P.,3,,Hy.,Westlake,com. agent,
+resident,Tredegar Street, P.,4,,Samuel,Evans,,,
+resident,Tredegar Street, P.,5,,Wm. B.,Howard,decorator,
+resident,Tredegar Street, P,,,,Henry,Latch,agent,
+resident,Tredegar Street, P,,,White Hart re-building,,,,
+cross_street,Tredegar Street, P,,,,,,CATTLE MARKET
+resident,Tredegar Street, P,,,,Newcombe Bros.,hay & corn merchants,
+street,Tregare Street,,,,,,East Usk-road.
+resident,Tregare Street,1,,Thomas,Chick,carpenter,
+resident,Tregare Street,2,,Mrs Hannah,Ponsford,,,
+resident,Tregare Street,3,,Charles,Shellard,foreman,
+resident,Tregare Street,4,,,S.W Brattice Cloth & India Rubber Co.'s works,,
+resident,Tregare Street,5,,Aug.,Jenkins,clerk,
+resident,Tregare Street,6,,A.S.&Co.'s stoney'd,Morgan,,,
+street,Triley Street, M.,,,,,,From Philip-st. to Gordon-st.
+cross_street,Triley Street, M.,,,,,,[LEFT HAND SIDE]
+resident,Triley Street, M.,1,,Jos.,Sergeant,labourer,
+resident,Triley Street, M.,2,,Charles,Bailey,labourer,
+resident,Triley Street, M.,3,,William,Tuvey,foreman,
+resident,Triley Street, M.,4,,Thos.,Pritchard,labourer,
+resident,Triley Street, M.,5,,Alb.,Stevens,platelayer,
+resident,Triley Street, M.,6,,Thos.,Pritchard,labourer,
+cross_street,Triley Street, M.,,,,,,here is Gordon-street.
+resident,Triley Street, M.,7,,Jas. L.,Phillips,sawyer,
+cross_street,Triley Street, M.,,,,,,(return.)
+resident,Triley Street, M.,8,,John,Moore,labourer,
+resident,Triley Street, M.,9,,Charles,Bulpitt,G.W.R.,
+resident,Triley Street, M.,10,,William,Macey,labourer,
+street,Trinity Place, P.,,,,,,Portland-st. to Trinity Church
+resident,Trinity Place, P.,1,,John,Grimaldi,boilermkr,
+resident,Trinity Place, P.,1A,,Richard,French,labourer,
+resident,Trinity Place, P.,2,,John,Davies,guard,
+resident,Trinity Place, P.,3,,Felix,Doherty,shipwright,
+resident,Trinity Place, P.,4,,Chris.,Wilkins,eng. driver,
+resident,Trinity Place, P.,5,,Thomas,Foley,labourer,
+resident,Trinity Place, P.,6,,Jas.,Mahoney,marine strs,
+resident,Trinity Place, P.,7,,Wm.,Simmonds,eng. drvr,
+resident,Trinity Place, P.,8,,Daniel,O'Brien,labourer,
+resident,Trinity Place, P,,,,Wm.,Collins,attdee officer,
+resident,Trinity Place, P.,9,,Mrs Ellen,Hawkes,,,
+resident,Trinity Place, P.,10,,James,Donoghue,hobbler,
+resident,Trinity Place, P.,11,,Isaac,Dermody,labourer,
+street,Troston Road, L.,,,,,,From Somerton-road.
+street,Trostrey Street,,,,,,From Turner-st. to Both-st.
+resident,Trostrey Street,1,,J.,Morgan,jun.,Junction c
+resident,Trostrey Street,2,,Collier's Machine Bakery,,,
+resident,Trostrey Street,7,,J.,McCullough,cabinetmkr
+resident,Trostrey Street,8,,Charles,Lloyd,guard,
+resident,Trostrey Street,,,Geo.,Hunt,min. water mfr
+resident,Trostrey Street,9,,Jas. Alf.,Andrews,smith,
+resident,Trostrey Street,10,,John,Harding,wheelwrgt,
+resident,Trostrey Street,11,,Evan,Morgan,fitter,
+resident,Trostrey Street,12,,William,Llewellin,fitter,
+resident,Trostrey Street,13,,Wm. Hy.,Webb,plumber,
+street,Tunnel Terrace, B.,,,,,,West side of Railway-tunnel.
+resident,Tunnel Terrace, B.,1,Bridgend villa,John,Richards,
+resident,Tunnel Terrace, B.,1,,J. P.,Harrison,,,
+resident,Tunnel Terrace, B.,2,,William,Evans,gardener,
+resident,Tunnel Terrace, B.,3,,Thomas,Lewis,engineer,
+resident,Tunnel Terrace, B.,4,,R.,Townsend,cabinet mkr,
+resident,Tunnel Terrace, B.,5,,W. H.,Branscombe,haulier,
+resident,Tunnel Terrace, B.,6,,Fredk.,Brown,plasterer,
+resident,Tunnel Terrace, B.,7,,Robert,Bell,fitter,
+resident,Tunnel Terrace, B.,8,,Mrs Ann,Powell,,,
+resident,Tunnel Terrace, B.,9,,Joseph,Gibbs,eng. driver,
+cross_street,Tunnel Terrace, B.,,,,,,here is Ford-street.
+resident,Tunnel Terrace, B.,10,,Edmund,Smith,timekeepr,
+resident,Tunnel Terrace, B.,11,,W.,Victory,warehousemn,
+resident,Tunnel Terrace, B.,12,,William,Thomas,sawyer,
+resident,Tunnel Terrace, B.,13,,Hy.,Wheeler,crane driver,
+resident,Tunnel Terrace, B.,14,,Charles,Chambers,clerk,
+resident,Tunnel Terrace, B.,15,,Noah,Page,guard,
+resident,Tunnel Terrace, B.,16,,Miss Ann,Harris,,,
+resident,Tunnel Terrace, B.,17,,Cor.,Simpkins,signal inspt,
+cross_street,Tunnel Terrace, B.,,,,,,here is Sidney-street.
+resident,Tunnel Terrace, B.,18,,Mrs B.,Slade,,,
+resident,Tunnel Terrace, B.,19,,William,Ryder,inspector,
+resident,Tunnel Terrace, B.,20,,Wm.,Powell,grocer's asst,
+resident,Tunnel Terrace, B.,21,,Mrs Sarah,Jordan,,,
+resident,Tunnel Terrace, B.,22,,E. L.,Boulter,coachbuildr,
+resident,Tunnel Terrace, B.,23,,Mrs Maria,Jones,,,
+resident,Tunnel Terrace, B.,24,,T. J.,Cross,tobacco mftr,
+resident,Tunnel Terrace, B.,25,,Mrs E.,Haines,,,
+resident,Tunnel Terrace, B.,26,,Hy.,Bickham,eng. driver,
+resident,Tunnel Terrace, B.,27,,Thos.,Jones,wagon inspt,
+resident,Tunnel Terrace, B.,28,,William,Sansom,baker,
+resident,Tunnel Terrace, B.,29,,E.,Williams,railway inspt,
+resident,Tunnel Terrace, B.,30,,Joseph,Hiles,miller,
+resident,Tunnel Terrace, B.,31,,James,Tiley,assistant,
+resident,Tunnel Terrace, B.,32,,J.W.,Hewertson,mechanic,
+resident,Tunnel Terrace, B.,33,,William,Stewart,clerk,
+resident,Tunnel Terrace, B.,34,,Mrs Ann,Comley,,,
+resident,Tunnel Terrace, B.,35,,Mrs Maria,Phillips,,,
+resident,Tunnel Terrace, B.,36,,Edward,Elliott,optician,
+resident,Tunnel Terrace, B.,37,,Henry George,Evans,,,
+resident,Tunnel Terrace, B.,38,,Thomas B.,Thorne,,,
+resident,Tunnel Terrace, B.,39,,Joseph,Dobson,gardener,
+resident,Tunnel Terrace, B.,40,,John,Hill,porter,
+resident,Tunnel Terrace, B.,41,,A. T.,Alford,clerk,
+resident,Tunnel Terrace, B.,42,,Miss Kate,Wilkins,,,
+resident,Tunnel Terrace, B.,43,Void,,,,,,
+resident,Tunnel Terrace, B.,44,,H. J.,Powell,clerk,
+resident,Tunnel Terrace, B.,45,,Robert,Hamilton,,,
+resident,Tunnel Terrace, B.,46,,Harry,Jones,grocer,
+resident,Tunnel Terrace, B.,47,,S. J.,Padfield,,,
+street,Turner Street,,,,,,From Caerleon-road.
+resident,Turner Street,1,,Henry,Marsh,postman,
+resident,Turner Street,2,,Wm.,Turner,monumental and Bath stone works,
+resident,Turner Street,,,Victoria Fuel Works,,,,
+street,Union Lane,,,,,,Dock-street to Union-street.
+resident,Union Lane,,,Tom,Jones,tinsmith,

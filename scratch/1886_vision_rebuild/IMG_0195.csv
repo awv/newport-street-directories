@@ -1,0 +1,135 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,Clytha Square,10,,Charles,Paine,,
+resident,Clytha Square,9,,Wm.,Brooks,police sergt,
+resident,Clytha Square,8,,,[Void],,
+resident,Clytha Square,7,,George,Reynolds,,
+resident,Clytha Square,6,,J,Stemp,,district agent to Royal Liver F. Society
+resident,Clytha Square,,,Arthur,Levason,dentist,
+street,Clytha Square,,,,,,From Cardiff-road.
+resident,Clytha Square,,The Hoo,Charles A.,Moses,,
+resident,Clytha Square,1,,Mrs Thomas,Jones,,
+resident,Clytha Square,2,,Thomas,Jones,,
+resident,Clytha Square,3,,Mrs,Garrett,,
+resident,Clytha Square,4,,Mrs Elizabeth,Kerr,,
+resident,Clytha Square,5,,Thomas,Ballard,,
+resident,Clytha Square,6,Monkleigh house,Mrs J. Felix,Thomas,,
+resident,Clytha Square,,,J. F.,Thomas,,ditto
+resident,Clytha Square,7,Alwington h,J.,Handford,,
+resident,Clytha Square,,,J. P.,Handford,,
+resident,Clytha Square,,,T. L.,Handford,,
+resident,Clytha Square,8,,John Phelps,Lewis,,
+resident,Clytha Square,9,,Frederick,Orders,,
+resident,Clytha Square,10,,,[Void],,
+resident,Clytha Square,11,,Rev Idrisyn,Jones,,
+resident,Clytha Square,12,Richmond house,Theophilus J.,Beynon,,
+resident,Clytha Square,13,,Frederick A.,Goss,,
+resident,Clytha Square,14,,Alfred,Taylor,,
+resident,Clytha Square,15,Mayfield ho.,H.,Hellyer,,
+cross_street,Clytha Square,,,,,,here is the Church-path
+resident,Clytha Square,16,Drumlanrig ho.,W.,Kerr,,
+resident,Clytha Square,17,Eltham ho,R,Williamson,,
+resident,Clytha Square,18,Seaton lodge,T.,Dawson,,
+resident,Clytha Square,19,Wesley house,Rev John P.,Elton,,
+resident,Clytha Square,20,Glyn Ebbw ho,Hy.,Woolf,,
+resident,Clytha Square,21,Brentwood,M. T.,Brian,,
+resident,Clytha Square,22,Wenvoe ho.,J. R.,Jacob,,
+resident,Clytha Square,23,Penmon ho.,E. P.,Jones,,
+resident,Clytha Square,24,Clytha colge,A.,Sieverdina,,
+resident,Clytha Square,25,Wrington no.,T.,Harse,,
+resident,Clytha Square,26,Troy house,Graham W.,White,,
+resident,Clytha Square,27,,George,Hopkins,,
+resident,Clytha Square,29,,Fred,Vaughan,,
+resident,Clytha Square,30,,William,Ball,,
+resident,Clytha Square,31,,William,Evans,,
+resident,Clytha Square,,,Edgar,Thatcher,,
+resident,Clytha Square,,Oddfellows' surgery,Richd M.,Moynan,M.D.,
+resident,Clytha Square,,The Grove,John,Jones,,
+street,Clytha Terrace,,,,,,an-street, Caerleon-road.
+street,Commercial Road.,,,,,,From 93, Commercial-street to Church-street.
+resident,Commercial Road.,1,,R.,Woodruff,china dealer,
+resident,Commercial Road.,2,,H. W.,Gosling,outfitter,
+resident,Commercial Road.,3,,T.,Meredith,coffee tavern,
+resident,Commercial Road.,,,H.,Moores,photographer,
+resident,Commercial Road.,4,,Wm.,Burge,pork butcher,
+resident,Commercial Road.,5,,Frank,Gay,newsagent and tobacconist.,
+resident,Commercial Road.,6,,H. & R.,Cleaves,refreshment house,
+resident,Commercial Road.,7,Alma Inn,Jno.,Yendall,,
+cross_street,Commercial Road.,,,,,,here is George-street.
+resident,Commercial Road.,8,,Geo.,Quarm,ironmonger,
+resident,Commercial Road.,9,,J.,Jones,Andrews, drapr
+resident,Commercial Road.,10,,Robert,Durrant,upholsterer & furniture dealr
+resident,Commercial Road.,11,,J.,Williams,leather sellr
+resident,Commercial Road.,13,,Phil,Selwood,hatter &c.,
+resident,Commercial Road.,13,,William,Davies,refreshment house,
+resident,Commercial Road.,14,Picton Arms,S. A.,Lewis,,
+resident,Commercial Road.,15,,Mrs G.,Vaux,cutler, &c.,
+resident,Commercial Road.,16,,W.,Bullock,confectioner
+resident,Commercial Road.,17,,Thos.,Gregory,butcher,
+cross_street,Commercial Road.,,,,,,here is Ruperra-street.
+resident,Commercial Road.,18,Ruperra Arms,Mrs Cecilia,Mann,,
+resident,Commercial Road.,19,,John,Beer,shoemaker,
+resident,Commercial Road.,20,,George,Reed,outfitter,
+resident,Commercial Road.,21,,Mrs M,Davies,newsagnt and tobacconist
+resident,Commercial Road.,22,,Jos.,Williams,fishmnger
+resident,Commercial Road.,23,,John,Davies,butcher,
+resident,Commercial Road.,24,,H.,Brimblecombe,basket maker, &c.,
+resident,Commercial Road.,25,,Jas.,Bailey,greengrocer,
+resident,Commercial Road.,26A,,W.,Rowberry,herbalist,
+resident,Commercial Road.,26,,W.,Williams,grocer, &c.,
+cross_street,Commercial Road.,,,,,,here is Tredegar-street.
+resident,Commercial Road.,27,,F. E.,Burpitt,decorator,
+resident,Commercial Road.,28,Castle Inn,Samuel,Dean,,
+resident,Commercial Road.,29,,S. A.,Freeman,confectio'r
+resident,Commercial Road.,31,,E. W.,Comley,sculptor,
+resident,Commercial Road.,32,,Benjamin,Harries,grcer,
+resident,Commercial Road.,33,,G. L.,Thomas,draper,
+resident,Commercial Road.,34,,Wm.,Yeates,grocer,
+resident,Commercial Road.,35,,M.,Manoy,pawnbroker,
+cross_street,Commercial Road.,,,,,,here is Albert-street.
+resident,Commercial Road.,35,,Wm.,Jenkins,trunkmakr
+resident,Commercial Road.,36,,J.,Wookey,greengrocer
+resident,Commercial Road.,37,,J. & P.,Crosta,brusmkrs
+resident,Commercial Road.,38,,John,Derrett,butcher,
+resident,Commercial Road.,39,,Joseph,Fucito,cutler &c.
+resident,Commercial Road.,40-1,Taylor H. bakr & frutr|here is Frederick-street.
+resident,Commercial Road.,42-3,,Thos.,Lamey,outfitter,
+resident,Commercial Road.,44,,Alf.,Newman,stationer,
+resident,Commercial Road.,45,,Jesse,Davies,china dealer
+resident,Commercial Road.,46,Welcome Home,Wm.,Llewellyn,min. water mnf.
+cross_street,Commercial Road.,,,,,,here is Dolphin-street.
+resident,Commercial Road.,47,Commercial Inn,J.,Wilson,,
+resident,Commercial Road.,,,Mrs Elizabeth,Thomas,,
+resident,Commercial Road.,48,,Francis,Chappell,butchr
+resident,Commercial Road.,49,,James,Hockey,grocer,
+resident,Commercial Road.,50,,Chris.,Cooke,hairdresser,
+resident,Commercial Road.,51,Coffee Tavern,Fredk.,Fisher,manager
+resident,Commercial Road.,52-4,,H.,Griffiths,and Sons, general outfitters
+resident,Commercial Road.,55,,& Son,Gratte,chemists,
+cross_street,Commercial Road.,,,,,,here is Bolt-street.
+resident,Commercial Road.,56,Windsor Castle,Mrs Susanna,Hutchins,,
+resident,Commercial Road.,57,,Mrs H.,Lewis,Welsh flannel depôt
+resident,Commercial Road.,,,Hy.,Davis,guard,
+resident,Commercial Road.,59,,Jas.,Griffiths,shipwright,
+resident,Commercial Road.,60,,Hy.,Morris,dining rooms,
+resident,Commercial Road.,61,,Hy.,Samuel,shoemaker,
+resident,Commercial Road.,62,,Jas.,Adams,tobacconist,
+resident,Commercial Road.,63,,W.,Piesold,watchmaker,
+resident,Commercial Road.,64,,Mrs W.,Liles,H. music and fancy goods warehouse
+resident,Commercial Road.,65,,Wm.,Matthews,grocer,
+resident,Commercial Road.,66,Falcon Inn,Frank,Folk,,
+resident,Commercial Road.,67,,Hezekh,Jacobs,pawnbroker and outfitter
+resident,Commercial Road.,68,,John,Ross,dining rooms,
+resident,Commercial Road.,,,S. A.,James,photogrphr
+resident,Commercial Road.,59,,Dl.,Guy,pork butcher,
+resident,Commercial Road.,70,Free Public Library Branch reading room,Ann,Harry,curator
+resident,Commercial Road.,,,F. W.,Knapman,haulier,
+resident,Commercial Road.,71,,& Pollard,Phillips,grocers,
+resident,Commercial Road.,72,,Edgar G.,Nicholls,bakr and confectioner
+resident,Commercial Road.,73,Powell Duffryn Steam Coal Co's offices,R. T.,Martin,agent
+resident,Commercial Road.,74,,J. W.,Jukes,tobacconist and stationer
+resident,Commercial Road.,75,,James,Sanders,plumber painter, &c.
+resident,Commercial Road.,76,,F.,Chappell,butcher,
+resident,Commercial Road.,77,,W.,Goldstein,pawnbrokr and outfitter
+resident,Commercial Road.,78,,E. J.,Poole,butcher,
+resident,Commercial Road.,79,,Chas.,White,confectner,
+cross_street,Commercial Road.,,,,,,here is Frederick-street.

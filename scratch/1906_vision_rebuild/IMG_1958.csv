@@ -1,0 +1,140 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Clifton Place,Continued,,,,,""
+resident,Clifton Place,13,,,,,Void
+resident,Clifton Place,14,,,Miss Julia,Pickford,,
+resident,Clifton Place,15,,,Arthur Ed.,Willey,,
+resident,Clifton Place,16,,,,,
+resident,Clifton Place,17,,,Mrs. Jane,James,,
+resident,Clifton Place,,,,J. C.,James,,
+resident,Clifton Place,,,,W. H.,James,,
+resident,Clifton Place,18,,,Miss E.,Lewis,,
+street,Clifton Road, D 5,,,,,From 108 Stow-hill.
+resident,Clifton Road,,,The Old Cemetery,,,,
+resident,Clifton Road,,,St. Woolos Mission room,,,,
+resident,Clifton Road,,,Clifton road Nursery,,,,
+cross_street,Clifton Road,,,,,,"here is Clifton-place."
+resident,Clifton Road,5,,,C.,Jenkins,carpenter,
+resident,Clifton Road,6,,,Mrs O.,Gardner,,
+resident,Clifton Road,7,,,Charles,Lyle,,
+resident,Clifton Road,8,,,William,Moss,,
+resident,Clifton Road,9,,,John,Herbert,,
+resident,Clifton Road,10,,,Gwynn H.,Morgan,,
+resident,Clifton Road,11,,,John,Jenkins,builder,
+resident,Clifton Road,12,,,Herbert's coal yard,,,
+resident,Clifton Road,13,Pant-yr-eos cottage,Arthur,Reid,,
+street,Clyffard Crescent, D 5,,,,,From Blewitt-street.
+cross_street,Clyffard Crescent,,,,,,"[LEFT HAND SIDE.]"
+resident,Clyffard Crescent,1,Blewitt cot,Walter,Hazell,,
+resident,Clyffard Crescent,2,,Fdk.,Collier,fitter,2 do.
+resident,Clyffard Crescent,1,,,Alfred G.,Watts,,
+resident,Clyffard Crescent,2,,,Mrs. E. R.,Waterman,,
+resident,Clyffard Crescent,3,,,John,Doran,tailor,
+resident,Clyffard Crescent,4,,,John,Cadogan,tailor,
+resident,Clyffard Crescent,5,,,Mrs. C.,Prosser,,
+resident,Clyffard Crescent,6,,,John T.,Jones,assistant,
+resident,Clyffard Crescent,7,,,E. F.,Rawlings,printer,
+resident,Clyffard Crescent,8,,,Mrs. Hugh,Woodburn,,
+resident,Clyffard Crescent,9,,,Frank,Dyer,electrician,
+resident,Clyffard Crescent,10,,,Mrs. Fanny,Volonterio,,
+resident,Clyffard Crescent,11,,,Alfred,Turner,manager,
+resident,Clyffard Crescent,12,,,Charles,Pullen,tailor,
+resident,Clyffard Crescent,13,,,Mrs. Adelaide,Yeo,,
+resident,Clyffard Crescent,14,,,John,Williams,builder,
+resident,Clyffard Crescent,15,,,Geo.,Leonard,dairyman,
+resident,Clyffard Crescent,16,Stanley v,James J.,Cole,,
+resident,Clyffard Crescent,17,Endsleigh,Mrs. S.,Palmer,,
+resident,Clyffard Crescent,18,,Cameron,Jeffs,provision merchant,The Birches
+resident,Clyffard Crescent,19,Clyde vil,Saml.,Clement,,
+resident,Clyffard Crescent,20,Meda v,Jas.,Dutton,Wm.,
+cross_street,Clyffard Crescent,,,,,,"entrance to York-place."
+resident,Clyffard Crescent,21,,,John,Williams,colliery agt,
+resident,Clyffa Terrace,22,Silverthorne villa,Mrs,Tamplin,,
+resident,Clyffa Terrace,23,Southfield,Ed.,Sheppard,,
+resident,Clyffa Terrace,24,Lockfân villa,Rev. D. H.,Williams,,
+cross_street,Clyffa Terrace,,,,,,"here is Brynhyfryd-road."
+resident,Clyffa Terrace,26,Sydenham v,L. G.,Laurie,,
+resident,Clyffa Terrace,27,Albany villa,Robt.,Duncansan,St. Leonards,
+resident,Clyffa Terrace,28,Bleak house,Wm.,Cooke,,
+resident,Clyffa Terrace,29,Wentwood view,Mrs.,Walters,,
+resident,Clyffa Terrace,30,Mt Pleasant,,Maddocks,,
+resident,Clyffa Terrace,31,Bryncaerau,G. W.,Hollingworth,,
+resident,Clyffa Terrace,32,Caerau vil,W. H.,Bowles,,
+cross_street,Clyffa Terrace,,,,,,"(return)"
+street,KINGSMILL GARDENS,,,,,,,
+resident,KINGSMILL GARDENS,,Westbourne,A. T. W.,James,,
+cross_street,KINGSMILL GARDENS,,,,,,"here is Tunnel-terrace."
+resident,KINGSMILL GARDENS,33,Willton vil,A. H.,Davies,,
+resident,KINGSMILL GARDENS,34,,H. F.,Nicholls,professor of music,Dennington
+cross_street,KINGSMILL GARDENS,,,,,,"here is Kingsmill-terrace."
+cross_street,KINGSMILL GARDENS,,,,,,"here is Winsor-terrace."
+resident,KINGSMILL GARDENS,35,Fernbank,W. J. T.,Collins,,
+street,Clytha Crescent, D 5,,,,,Facing Clytha-square.
+resident,Clytha Crescent,1,,,Herbert T.,Gray,managr G.W.R.
+resident,Clytha Crescent,2,,,William,Millington,,
+resident,Clytha Crescent,3,,,Percy,Lea,foreman,
+resident,Clytha Crescent,4,,,Mrs. Mary A.,Dunn,,
+resident,Clytha Crescent,5,,,John Henry,Cox,pilot,
+resident,Clytha Crescent,6,,,Edward,Davies,plasterer,
+resident,Clytha Crescent,7,,,T.,Kinloch,draper,
+cross_street,Clytha Crescent,,,,,,"here is Mountjoy-place."
+resident,Clytha Crescent,8,,,,,Void
+resident,Clytha Crescent,9,,,Frank,Smith,builder,
+resident,Clytha Crescent,10,,,J. G.,Williams,,
+resident,Clytha Crescent,11,,,Albert E.,Tamplin,marine engr.
+resident,Clytha Crescent,12,,,Hy. A.,Warman,,
+resident,Clytha Crescent,13,,,Albert E.,Farmer,rivettr,
+resident,Clytha Crescent,14,,,Samuel,Griffiths,,
+resident,Clytha Crescent,15,Belle Isle,Robert,Cleave,clerk,
+resident,Clytha Crescent,,Belle Isle,Edward,Frost,,
+street,Clytha Park and Road, C 5,,,,,From Bridge-street. [LEFT HAND SIDE].
+resident,Clytha Park and Road,,,Bridgend v,Wm.,Jenkins,,
+resident,Clytha Park and Road,1,,P.,Mathias,grocer, etc.,
+resident,Clytha Park and Road,,,G. & Son's steam joinery works,Martin,,
+resident,Clytha Park and Road,2,,,George Henry,Martin,,
+resident,Clytha Park and Road,3,Oakley house,P.,Mathias,,
+resident,Clytha Park and Road,4,,,,,Void
+resident,Clytha Park and Road,5,,,Wm.,Partington,,
+resident,Clytha Park and Road,6,,,,,Void
+resident,Clytha Park and Road,7,,,Mrs. Sarah,Gardner,,
+cross_street,Clytha Park and Road,,,,,,"here is Caerau-road."
+resident,Clytha Park and Road,9,Greenhill v,J. C.,Jeffree,,
+resident,Clytha Park and Road,10,,T. L.,Leadbeter,,
+resident,Clytha Park and Road,11,Brynrivor,R. J. M. B.,Coulter,,
+resident,Clytha Park and Road,12,Nevis,J.,Hazell,,
+resident,Clytha Park and Road,13,Windermere,Wm.,Evans,,
+cross_street,Clytha Park and Road,,,,,,"here is Llanthewy-road."
+resident,Clytha Park and Road,14,Glyn-clytha,John Wm.,Gunn,,
+cross_street,Clytha Park and Road,,,,,,"here is Oakfield-road."
+resident,Clytha Park and Road,15,Norlands,W.,Dalziel,Gascoigne,
+cross_street,Clytha Park and Road,,,,,,"here is Westfield-road."
+resident,Clytha Park and Road,16,Holmeswood,J. K.,Stone,,
+cross_street,Clytha Park and Road,,,,,,"(return)."
+resident,Clytha Park and Road,17,,,,,Void
+resident,Clytha Park and Road,17A,,,Albert,Deacon,clerk,
+resident,Clytha Park and Road,18,EAUX-void,Les,,,
+street,ST. MARY'S ROAD,,,,,,,
+resident,ST. MARY'S ROAD,19,Aragon ho,T.,Canning,J.P.,
+resident,ST. MARY'S ROAD,20,Parkdale,O. E. B.,Marsh,J.P., physician & surgeon
+resident,ST. MARY'S ROAD,,Portugal ho,Alid.,Frost,,
+resident,ST. MARY'S ROAD,21,St. Mary's Lodge,Thomas E.,Watson,J.P.,
+cross_street,ST. MARY'S ROAD,,,,,,"(return)."
+resident,Clytha Park and Road,22,The Retreat,Rev. Wm. Chas.,Minifie,D.D.,
+resident,Clytha Park and Road,23,Fernside,Fredk.,Fisher,,
+resident,Clytha Park and Road,24,Ivybank,Miss E.,Ellis,,
+resident,Clytha Park and Road,25,Cardigan house,A. G.,Thomas,M.D., J.P.,
+cross_street,Clytha Park and Road,,,,,,"here is Faulkner-road."
+resident,Clytha Park and Road,26,Avishays,W. A.,Baker,,
+resident,Clytha Park and Road,27,Glynderwen,Thomas T.,Morrell,M.D.,
+resident,Clytha Park and Road,28,Ferndale,Wm.,Jeffreys,,
+resident,Clytha Park and Road,29,Rosedale,William,Craig,,
+resident,Clytha Park and Road,30,,,Charles,Hughes,,
+resident,Clytha Park and Road,31,,,W.,Brooks,police supt.
+resident,Clytha Park and Road,32,Lang-ton house,Mrs. R. M.,Morris,,
+resident,Clytha Park and Road,33,Lang-ton house,Mrs. R. M.,Morris,,
+resident,Clytha Park and Road,34,Coedker-new house,Mrs. E.,Smyth,,
+resident,Clytha Park and Road,,,E. H.,Teale,,
+street,WESTFIELD ROAD,,,,,,,
+resident,WESTFIELD ROAD,1,,,W. L.,Goldsworthy,Dalry
+resident,WESTFIELD ROAD,2,,,H. K.,Jordan,The Knoll
+cross_street,WESTFIELD ROAD,,,,,,"here is Parkfield-place."
+resident,WESTFIELD ROAD,3,Caederwen,R. T.,Martin,,

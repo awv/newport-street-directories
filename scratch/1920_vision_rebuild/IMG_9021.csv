@@ -1,0 +1,176 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+entry,NEWPORT STREET DIRECTORY,120,,Fredk. S.,Kirby,butcher,
+entry,NEWPORT STREET DIRECTORY,121,,E.,Williams,,
+entry,NEWPORT STREET DIRECTORY,122,,Mrs. Phoebe,Francis,,
+entry,NEWPORT STREET DIRECTORY,123,,Johensson,Elof,,
+entry,NEWPORT STREET DIRECTORY,124,,Henry,Pottow,labourer,
+entry,NEWPORT STREET DIRECTORY,125,,H.,Brooks,ship carpenter,
+entry,NEWPORT STREET DIRECTORY,126,,Charles,Bartlett,,
+entry,NEWPORT STREET DIRECTORY,127,,Wm.,Renouf,wagon lifter,
+entry,NEWPORT STREET DIRECTORY,,,William Charles,Renouf,patternmaker,
+street,LINDEN ROAD,E 2,,,,,"Somerton Garden Estate"
+cross_street,LINDEN ROAD,,,,,,(LEFT HAND SIDE.)
+entry,LINDEN ROAD,1,,C. S.,Taylor,clerk,Penrhyn
+entry,LINDEN ROAD,3,,Walter,Drake,Ferndale
+entry,LINDEN ROAD,5,,Geo. T.,Cottrill,Brelade
+entry,LINDEN ROAD,7,,A. E.,Taylor,Plemont
+entry,LINDEN ROAD,9,,I.,Bagnall,Monon Gahelu
+entry,LINDEN ROAD,11,,Geo. Hy.,Pugh,Llangorse
+entry,LINDEN ROAD,13,,George,Adams,Aysgarth
+entry,LINDEN ROAD,15,,F. G.,Lander,Shaldon
+entry,LINDEN ROAD,17,,Albert,Millard,Colwyn
+entry,LINDEN ROAD,19,,William,Williams,,
+cross_street,LINDEN ROAD,,,,,,(return)
+entry,LINDEN ROAD,,,,,,Vacant sites
+entry,LINDEN ROAD,,,Arthur F.,Cain,Celtic villa,
+street,LIME STREET,E 5,,,,,"From 31 Courtybella-terrace"
+cross_street,LIME STREET,,,,,,(LEFT HAND SIDE.)
+entry,LIME STREET,1,,,Stock Rd.,butcher,
+entry,LIME STREET,3,,Hubert,Parry,plater
+entry,LIME STREET,5,,Wm.,Williams,labourer
+entry,LIME STREET,7,,David,Scannell,labourer
+entry,LIME STREET,9,,Richard C.,Found,smith
+entry,LIME STREET,11,,Mrs. Ellen,Lane,,
+entry,LIME STREET,13,,W.,Gibbs,engine driver
+entry,LIME STREET,15,,John,Bell,ship's painter
+entry,LIME STREET,17,,John Edwin,Morgan,labr
+entry,LIME STREET,19,,Fred.,Climo,trimmer
+entry,LIME STREET,21,,Thos.,Brown,boilermaker
+entry,LIME STREET,23,,Andrew,Grey,rivet maker
+entry,LIME STREET,25,,Frank,Pollard,trimmer
+entry,LIME STREET,27,,Mrs. Emma,Beckett,,
+entry,LIME STREET,29,,Mrs. M. A,Rackham,,
+entry,LIME STREET,31,,H.,Swanborough,crane dr
+entry,LIME STREET,33,,Alfred L.,Hall,shipper
+cross_street,LIME STREET,,,,,,here is Pottery-terrace
+entry,LIME STREET,35,,Julius,Hansen,shop
+entry,LIME STREET,37,,Mrs. S.,Colman,,
+entry,LIME STREET,39,,Thomas,Morgan,,
+entry,LIME STREET,41,,Beni.,Hall,labourer
+entry,LIME STREET,43,,Richard,Swales,labourer
+entry,LIME STREET,45,,David,Morgan,labourer
+entry,LIME STREET,47,,Russell G.,Pollock,labr
+entry,LIME STREET,49,,Wm.,Harvey,tipper
+entry,LIME STREET,51,,A.,Edwards,insp G.W.R.
+entry,LIME STREET,53,,Mrs. Eliza,Morgan,,
+entry,LIME STREET,55,,Elijah,Hooper,Frederick Shepperd Herbt. platelayer
+entry,LIME STREET,57,,John,Hooper,labourer
+entry,LIME STREET,59,,Mrs. Ann,Price,shop
+entry,LIME STREET,61,,William,Marks,tipper
+entry,LIME STREET,63,,Jas.,Pippin,labourer
+entry,LIME STREET,65,,Chas.,Smith,labourer
+entry,LIME STREET,67,,Robt.,Hall,labourer
+entry,LIME STREET,69,,Mrs. Ada,Flynn,,
+entry,LIME STREET,71,,Matthew,Travers,labourer
+entry,LIME STREET,73,,John Ed.,Blackborough,,
+entry,LIME STREET,75,,Owen,Price,rigger
+entry,LIME STREET,77,,Thomas,Scriveps,striker
+entry,LIME STREET,79,,John,Cadogan,rigger
+street,LIBENETH ROAD,E 2,,,,,"From Somerton-road to Limekilns"
+entry,LIBENETH ROAD,,,,,,Vacant ground
+cross_street,LIBENETH ROAD,,,,,,here is Aberthaw-road
+entry,LIBENETH ROAD,1,,Herbert,Gibson,checker
+entry,LIBENETH ROAD,2,,W. E.,Short,quarryman
+entry,LIBENETH ROAD,3,,Wm.,Stocker,stonemason
+entry,LIBENETH ROAD,4,,James,Wills,fitter
+entry,LIBENETH ROAD,5,,John,Ford,ironworker
+entry,LIBENETH ROAD,6,,George,Boucher,,
+entry,LIBENETH ROAD,,,,,,Vacant sites
+entry,LIBENETH ROAD,7,,H.,Drew Thos.,engineer
+entry,LIBENETH ROAD,8,,H. B.,Hopkins,signalman
+entry,LIBENETH ROAD,9,,William,Howe,painter
+entry,LIBENETH ROAD,10,,E. W.,Lloyd,signalman
+entry,LIBENETH ROAD,11,,Lewis,Rumble,labourer
+entry,LIBENETH ROAD,,,,Newport Rivet Co. Ltd.,,,
+street,LILLESHALL STREET,E 3,,,,,"Off Corporation-road, near Railway bridge"
+cross_street,LILLESHALL STREET,,,,,,(RIGHT HAND SIDE.)
+entry,LILLESHALL STREET,2,,Thomas,Ralph,ironworker
+entry,LILLESHALL STREET,4,,E.,Fieldhouse,ironworker
+entry,LILLESHALL STREET,6,,John Wm.,Carwardine,do
+entry,LILLESHALL STREET,8,,George,Gibbons,do
+entry,LILLESHALL STREET,10,,Edwd. Wm.,Bourne,do
+entry,LILLESHALL STREET,12,,Wm. Thomas,Honeywood,wireman
+entry,LILLESHALL STREET,14,,Wm. H.,Whittle,ironwrkr
+entry,LILLESHALL STREET,16,,Mrs Sarah,Grimaldi,,
+entry,LILLESHALL STREET,18,,G. H.,Baggott,ironworker
+entry,LILLESHALL STREET,20,,Henry,Jones,ironworker
+entry,LILLESHALL STREET,22,,Alfred,Lampitt,plasterer
+entry,LILLESHALL STREET,24,,Alfd.,Pope,dock labourer
+entry,LILLESHALL STREET,,,,,,Vacant sites
+cross_street,LILLESHALL STREET,,,,,,(return)
+entry,LILLESHALL STREET,,,,,,Vacant sites
+entry,LILLESHALL STREET,25,,Alfred,Stone,wireman
+entry,LILLESHALL STREET,23,,C. Wm.,Harris,ironwrkr
+entry,LILLESHALL STREET,21,,W.,Thompson,ironworker
+entry,LILLESHALL STREET,19,,Wm. E.,Shaw,ironworker
+entry,LILLESHALL STREET,17,,Thos.,Foster,ironworker
+entry,LILLESHALL STREET,15,,E.,Bambrook,ironwrkr
+entry,LILLESHALL STREET,13,,Fred,Pugh,painter
+entry,LILLESHALL STREET,11,,Henry,Farmer,ironwkr
+entry,LILLESHALL STREET,9,,Mrs. Kate L.,Bolt,,
+entry,LILLESHALL STREET,7,,Mrs. C.,Boswell,,
+entry,LILLESHALL STREET,5,,James,Claire,ironworker
+entry,LILLESHALL STREET,3,,Frederick,Ayres,labourer
+entry,LILLESHALL STREET,1,,Mrs. Bessie,Filer,,
+entry,NEWPORT STREET DIRECTORY,65,,Edmund,Rees,masseur,
+entry,NEWPORT STREET DIRECTORY,66,,F.,Freeguard,timekeeper,
+cross_street,NEWPORT STREET DIRECTORY,,,,,,here is Capel-crescent
+cross_street,NEWPORT STREET DIRECTORY,,,,,,(return)
+entry,NEWPORT STREET DIRECTORY,67,,James P.,Lewis,,
+entry,NEWPORT STREET DIRECTORY,68,,Mrs. Alice,Thatcher,,
+entry,NEWPORT STREET DIRECTORY,69,,T. E.,Westwood,,
+entry,NEWPORT STREET DIRECTORY,70,,Benjamin,James,tipper
+entry,NEWPORT STREET DIRECTORY,71,,Edmund,Thomas,tailor
+entry,NEWPORT STREET DIRECTORY,72,,Austin,Jones,,
+entry,NEWPORT STREET DIRECTORY,,,Thomas,Taylor,guard
+entry,NEWPORT STREET DIRECTORY,73,,Thos.,Tidman,foundryman
+entry,NEWPORT STREET DIRECTORY,74,,Geo.,Bayliss,engine driver
+entry,NEWPORT STREET DIRECTORY,75,,John,Hammett,carpenter
+entry,NEWPORT STREET DIRECTORY,76,,John,Pring,trimmer
+entry,NEWPORT STREET DIRECTORY,77,,Mrs. Annie,Hathway,,
+entry,NEWPORT STREET DIRECTORY,78,,George,Radford,labourer
+entry,NEWPORT STREET DIRECTORY,79,,Harold,Mitchell,eng drvr
+entry,NEWPORT STREET DIRECTORY,80,,Benjamin,Davies,engineer
+entry,NEWPORT STREET DIRECTORY,81,,Wm. J.,Pearson,blrmaker
+entry,NEWPORT STREET DIRECTORY,82,,John,Hughes,assistant
+entry,NEWPORT STREET DIRECTORY,83,,A.,Organ,grocer's assist
+entry,NEWPORT STREET DIRECTORY,84,,James,Neill,sailmaker
+entry,NEWPORT STREET DIRECTORY,85,,Robert,Durrant,guard
+entry,NEWPORT STREET DIRECTORY,86,,Mrs. Annie,Harris,,
+entry,NEWPORT STREET DIRECTORY,87,,Thomas James,Marshall,,
+cross_street,NEWPORT STREET DIRECTORY,,,,,,here is Kirby-street
+entry,NEWPORT STREET DIRECTORY,88,,W. G.,Punchard,shopkepr
+entry,NEWPORT STREET DIRECTORY,89,,John,Graddon,engineer
+entry,NEWPORT STREET DIRECTORY,90,,John Charles,Davies,,
+entry,NEWPORT STREET DIRECTORY,91,,Frederick,Coles,carpenter
+entry,NEWPORT STREET DIRECTORY,92,,Edward,Stanton,builder
+entry,NEWPORT STREET DIRECTORY,93,,Edwin,Aston,signalman
+entry,NEWPORT STREET DIRECTORY,94,,Hy.,Cusk,cabinetmaker
+entry,NEWPORT STREET DIRECTORY,95,,Arthur,Howells,G.W.R.
+entry,NEWPORT STREET DIRECTORY,96,,John,Redman,crane drivr
+entry,NEWPORT STREET DIRECTORY,97,,John,Groves,mason
+entry,NEWPORT STREET DIRECTORY,98,,Mrs. Lucy,Geary,,
+entry,NEWPORT STREET DIRECTORY,99,,Mrs.,White,Chamberlain Walter
+entry,NEWPORT STREET DIRECTORY,100,,Mrs. E.,Lovering,,
+entry,NEWPORT STREET DIRECTORY,101,,W. E.,Dunn,labourer
+entry,NEWPORT STREET DIRECTORY,102,,M.,Shyne,beer retailer
+cross_street,NEWPORT STREET DIRECTORY,,,,,,here is Charlotte-street
+entry,NEWPORT STREET DIRECTORY,103,,John,Gulliver,trimmer
+entry,NEWPORT STREET DIRECTORY,104,,A. G.,Fontaine,fitter
+entry,NEWPORT STREET DIRECTORY,105,,Mrs. Ann,Jones,,
+entry,NEWPORT STREET DIRECTORY,106,,D. H.,Ford,timekeeper
+entry,NEWPORT STREET DIRECTORY,107,,Fred,Sweet,carpenter
+entry,NEWPORT STREET DIRECTORY,108,,Mrs. Elizabeth,Chapman,,
+entry,NEWPORT STREET DIRECTORY,109,,Wm. Hy.,Coes,carpenter
+entry,NEWPORT STREET DIRECTORY,110,,William,Gollop,,
+entry,NEWPORT STREET DIRECTORY,,,Miss,Goyen,,
+entry,NEWPORT STREET DIRECTORY,111,,Jas.,Flanders,carpenter
+entry,NEWPORT STREET DIRECTORY,112,,Edward,Clark,G.W.R.
+entry,NEWPORT STREET DIRECTORY,113,,Thomas,Floud,,
+entry,NEWPORT STREET DIRECTORY,114,,Robert,Johns,G.W.R.
+entry,NEWPORT STREET DIRECTORY,115,,Charles,Haynes,,
+entry,NEWPORT STREET DIRECTORY,116,,Thos.,Young,foundrymn
+entry,NEWPORT STREET DIRECTORY,117,,Micah,Thomas,,
+entry,NEWPORT STREET DIRECTORY,118,,J. E.,Dare,dairyman
+cross_street,NEWPORT STREET DIRECTORY,,,,,,here is Francis-street
+entry,NEWPORT STREET DIRECTORY,119,,J. E.,Farr,engine driver

@@ -20,11 +20,19 @@ install_and_import("google-genai", "google.genai")
 install_and_import("pillow", "PIL")
 
 from google import genai
-from PIL import Image
+from PIL import Image, ImageOps
 
 def main():
     import re
     api_key = os.environ.get("GEMINI_API_KEY")
+    if not api_key:
+        env_file = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), ".env")
+        if os.path.exists(env_file):
+            with open(env_file, "r", encoding="utf-8") as ef:
+                for line in ef:
+                    if line.strip().startswith("GEMINI_API_KEY="):
+                        api_key = line.strip().split("GEMINI_API_KEY=", 1)[1].strip()
+                        break
     if not api_key:
         api_key = getpass.getpass("Please enter your Gemini API Key: ")
         
@@ -37,16 +45,32 @@ def main():
 
     client = genai.Client(api_key=api_key)
 
-    image_dir = "/Users/robgale/Documents/Newport Street Directory Project/original_scans/Johns Directory 1920"
+    year = sys.argv[1] if len(sys.argv) > 1 else "1915"
+    possible_dirs = [
+        f"/Users/robgale/Documents/Newport Street Directory Project/original_scans/Johns Directory {year}",
+        f"/Users/robgale/Documents/Newport Street Directory Project/original_scans/John's Directory {year}",
+        f"original_scans/Johns Directory {year}",
+        f"original_scans/John's Directory {year}"
+    ]
+    image_dir = None
+    for p in possible_dirs:
+        if os.path.exists(p):
+            image_dir = p
+            break
+    if not image_dir:
+        image_dir = possible_dirs[0]
+
     image_paths = sorted(glob.glob(os.path.join(image_dir, "*.jpeg")) + glob.glob(os.path.join(image_dir, "*.jpg")) + glob.glob(os.path.join(image_dir, "*.png")))
 
     if not image_paths:
         print(f"No JPEG/PNG images found in {image_dir}")
         sys.exit(1)
 
-    print(f"Found {len(image_paths)} images to process.")
-    output_tsv = "raw_tsvs/1920.tsv"
-    processed_log = "log_files/processed_images_1920.txt"
+    print(f"Directory {year}: Found {len(image_paths)} images to process in {image_dir}.")
+    os.makedirs("raw_tsvs", exist_ok=True)
+    os.makedirs("log_files", exist_ok=True)
+    output_tsv = f"raw_tsvs/{year}.tsv"
+    processed_log = f"log_files/processed_images_{year}.txt"
 
     # Header for the TSV
     header = "Number\tForenames\tSurname\tJob / Trade\tBusiness / Entity\tLayout / Notes\n"
@@ -66,12 +90,24 @@ def main():
 You are an expert OCR transcription assistant. Your task is to transcribe the attached image of a historical Newport Street Directory page.
 
 CRITICAL HOUSE NUMBER RULE:
-- WARNING: These house numbers are often printed in a very narrow column right up against the vertical dividing lines.
+- WARNING: These house numbers are often printed in a very narrow column right up against the vertical dividing lines or deep into the gutter.
 - You MUST capture these numbers and put them in the 'Number' column. Do NOT skip them, and do NOT merge them into the surname. They are critical!
 
+CRITICAL TIGHT BINDING, CURVED TEXT & ANGLE RULE:
+- The physical book has tight binding causing the page to curve sharply into the inner margin/gutter, and some pages are held or photographed at a slight angle.
+- Text, house numbers, or initials near the curved inner edge may appear compressed, warped, or angled into the shadow of the binding.
+- Follow the angled baseline of each text line naturally across the columns. Take extra care to look deep into the curve and transcribe every house number, surname, and forename completely. Do NOT truncate or skip text where the page bends or angles into the gutter.
+
+CRITICAL PAPER GLARE & REFLECTION RULE:
+- The paper in this volume is semi-glossy/shiny, so some pages exhibit bright specular glare reflections or light washouts.
+- You MUST examine faint ink shapes, character strokes, and surrounding context visible through or around the glare reflections to transcribe the text accurately and completely. Do NOT skip or omit lines because of glare.
+
+CRITICAL STREET PREFIX RULE ("UP." -> "UPPER"):
+- Whenever a street heading contains "Up." or "Up " (e.g. "UP. LEWIS STREET", "UP. DOCK STREET", "UP. GEORGE STREET"), you MUST ALWAYS expand "Up." to "UPPER " (e.g. "UPPER LEWIS STREET", "UPPER DOCK STREET", "UPPER GEORGE STREET"). Never leave it as "Up.".
+
 CRITICAL LAYOUT RULE:
-The page is printed in THREE side-by-side vertical columns (Column 1 on the left, Column 2 in the middle, Column 3 on the right).
-You MUST transcribe Column 1 first (top-to-bottom), then Column 2 (top-to-bottom), and finally Column 3 (top-to-bottom) so they form a single continuous list of rows.
+The directory page is printed in side-by-side vertical columns (typically TWO columns in this era, or three depending on the volume).
+You MUST transcribe each column top-to-bottom from left to right (transcribe Column 1 first completely top-to-bottom, then Column 2 top-to-bottom) so they form a single continuous list of rows.
 Do NOT merge side-by-side column entries into the same row. Each resident/listing must be on its own separate row.
 Do NOT append any extra columns, labels, or indicators like "Left Column", "Right Column", or "Column 1" to the rows.
 
@@ -99,10 +135,14 @@ Special Instructions for Flats & Sub-units:
 
 General Rules:
 1. Output ONLY the raw TSV lines inside a markdown code block starting with ```tsv. No introductory or concluding text.
-2. When a new street name header is listed, put it in ALL CAPS on its own line without any tab characters (e.g. "ACACIA AVENUE").
-3. For individual resident lines, map them to the TSV columns. Separate the names into Forenames and Surnames.
-4. Align business names, trades, and numbers correctly.
-5. Transcribe the entire page faithfully. Do not skip any lines.
+2. CRITICAL TAB DELIMITER RULE: Ensure EVERY single data row uses strict TAB characters ('\t') to separate the 6 columns: Number<tab>Forenames<tab>Surname<tab>Job / Trade<tab>Business / Entity<tab>Layout / Notes. Do NOT merge fields using spaces.
+3. When a new street name header is listed, put it in ALL CAPS on its own line without any tab characters (e.g. "ACACIA AVENUE").
+4. Street Name Prefixes: Expand abbreviations in street names such as "Up." to "UPPER " (e.g. "UP. LEWIS STREET" -> "UPPER LEWIS STREET", "UP. DOCK STREET" -> "UPPER DOCK STREET").
+5. Area Markers: Ignore and omit random area markers like "P.", "B.T.", "(P.)", or "(B.T.)" attached to street headings (e.g., "WOLSELEY STREET, P." -> "WOLSELEY STREET").
+6. Separate Districts (e.g. Maindee): If a section begins with a district header like "MAINDEE" or "MAINDEE STREET LIST", do NOT treat "MAINDEE" as a street name. Simply transcribe each individual street within that section under its own ALL CAPS header (e.g. "ALBERT AVENUE", "CHEPSTOW ROAD").
+7. For individual resident lines, map them to the TSV columns. Separate the names into Forenames and Surnames.
+8. Align business names, trades, and numbers correctly.
+9. Transcribe the entire page faithfully. Do not skip any lines.
 """
 
     for i, img_path in enumerate(image_paths, start=1):
@@ -115,9 +155,11 @@ General Rules:
         
         try:
             img = Image.open(img_path)
+            # Correct orientation from EXIF before resizing
+            img = ImageOps.exif_transpose(img)
             
             # Resize image if it's too large to save bandwidth and prevent TPM rate limits
-            max_size = 1600
+            max_size = 2000
             if max(img.size) > max_size:
                 img.thumbnail((max_size, max_size), Image.Resampling.LANCZOS)
                 print(f"  Resized image to {img.size[0]}x{img.size[1]} for token efficiency")

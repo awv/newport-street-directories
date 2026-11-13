@@ -1,0 +1,158 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,St. Julian Street,,,,,,continued
+resident,St. Julian Street,2,,Mrs. Elizabeth,Williams,,
+resident,St. Julian Street,3,,Mrs. Margaret,Brettell,,
+resident,St. Julian Street,4,,John,Fooks,moulder,
+resident,St. Julian Street,5,,Jos.,Prosser,coachman
+resident,St. Julian Street,6,,David,Jones,signalman
+resident,St. Julian Street,7,,Mrs. Maria,Davies,,
+resident,St. Julian Street,8,,Edmund,Evans,porter
+resident,St. Julian Street,,,Mrs. M. A.,Miles,,
+resident,St. Julian Street,,,Wm.,Taylor,engine drv'r
+resident,St. Julian Street,,,H. J.,Meaker,painter
+resident,St. Julian Street,9,,Thos.,Harvey,gardener
+resident,St. Julian Street,10,,John,Brown,carpenter
+resident,St. Julian Street,11,,Leonard,Innes,packer
+resident,St. Julian Street,12,,John,Davies,labourer
+street,St. Woolos Road, B.,,,,,,From 34 St. Mary-street to Clifton-road.
+resident,St. Woolos Road, B.,1,Prince Wales,,,Roberts C.,
+resident,St. Woolos Road, B.,2,,Philip,Morgan,smith
+resident,St. Woolos Road, B.,3,,Jos.,Shellard,messenger
+resident,St. Woolos Road, B.,4,,Jno. Hy.,Jenkins,mason
+resident,St. Woolos Road, B.,5,,Frank,Harries,,
+resident,St. Woolos Road, B.,6,,Miss,Marmont,dressmkr
+resident,St. Woolos Road, B.,7,,Hy.,Capel,upholsterer
+resident,St. Woolos Road, B.,8,,Mrs. M. A.,Hill,shopkpr
+resident,St. Woolos Road, B.,8A,,W.,Hodges,gardener
+cross_street,St. Woolos Road, B.,,,,here is Graham-street.,
+resident,St. Woolos Road, B.,9,Wellington Inn,,F.,Porter,
+resident,St. Woolos Road, B.,10,,Wm.,Whitson,carpenter
+resident,St. Woolos Road, B.,11,,Mrs. Elizabeth,Smythe,,
+resident,St. Woolos Road, B.,12,,W.,Richards,sailmaker
+resident,St. Woolos Road, B.,13,,C.,Collard,bootmaker
+resident,St. Woolos Road, B.,14,,John,Tooze,policeman
+resident,St. Woolos Road, B.,15,,Dd.,Evans,police sergt.
+cross_street,St. Woolos Road, B.,,,,here is St. Julian-street.,
+resident,St. Woolos Road, B.,16,,Spencer,Jones,inspector
+resident,St. Woolos Road, B.,17,,Albt. H.,Peters,carpenter
+resident,St. Woolos Road, B.,18,,Arth.,Packer,policeman
+resident,St. Woolos Road, B.,19,,George,Glen,gasfitter
+resident,St. Woolos Road, B.,20,,John,Pegler,gardener
+resident,St. Woolos Road, B.,21,,Isaac,Sims,bootmaker
+resident,St. Woolos Road, B.,22,,Wm.,Hislop,tailor
+resident,St. Woolos Road, B.,23,,J.,Bartlett,boiler maker
+cross_street,St. Woolos Road, B.,,,,here is St. Woolos-place.,
+resident,St. Woolos Road, B.,24,,Ed. T.,Davis,messenger
+resident,St. Woolos Road, B.,25,,Wm. J.,Dinan,clerk
+resident,St. Woolos Road, B.,26,,W.,Vanderplank,coachm
+resident,St. Woolos Road, B.,27,,Mrs. Mary,Davies,,
+cross_street,St. Woolos Road, B.,,,,(return.),
+resident,St. Woolos Road, B.,28,Hillminster Terrace,,P.,Hopkins,engine driver,
+resident,St. Woolos Road, B.,29,Hillminster Terrace,,C. F.,Gosling,signalman,
+resident,St. Woolos Road, B.,30,Hillminster Terrace,,Fredk.,Partridge,mason,
+resident,St. Woolos Road, B.,31,Hillminster Terrace,,W.,Collard,joiner,
+resident,St. Woolos Road, B.,32,Hillminster Terrace,,Geo. H.,James,police,
+resident,St. Julian Street,22,,Mrs. Harriet,Palmer,,
+resident,St. Julian Street,23,,C.,Pritchard,factoryhand
+resident,St. Julian Street,24,,Isaac,Harris,labourer
+resident,St. Julian Street,25,,Henry,Poole,painter
+resident,St. Julian Street,26,,W.,Williams,furnaceman
+resident,St. Julian Street,27,,Herbert W.,Rees,carp'tr
+resident,St. Julian Street,28,,James,Tiley,butcher
+resident,St. Julian Street,29,,Chas.,Prothero,carpenter
+resident,St. Julian Street,30,,W. H.,Banner,signalman
+resident,St. Julian Street,31,,Thomas,Strode,currier
+resident,St. Julian Street,32,,Wm.,Virgo,carpenter
+resident,St. Julian Street,33,,J. A.,Quick,painter
+resident,St. Julian Street,34,,Geo.,Tucker,greengrocer
+cross_street,St. Julian Street,,,,here is St. Woolos-rd. also St. Edward-street.,
+cross_street,St. Woolos Road, B.,,,,(return.),
+resident,St. Woolos Road, B.,,Baptist Chapel,,,,
+resident,St. Woolos Road, B.,35,,J.,Goddard,organ builder
+resident,St. Woolos Road, B.,36,,Joseph,Sully,foreman
+resident,St. Woolos Road, B.,37,,Frank,Dredge,gas fitter
+resident,St. Woolos Road, B.,38,,J.,Shellard,bookbinder
+resident,St. Woolos Road, B.,39,Oddfellows' and Forester's Arms,,Jno.,Fulford,,
+resident,St. Woolos Road, B.,40,,John,Dallen,L. & N. W.
+resident,St. Woolos Road, B.,41,,John,James,carpenter
+resident,St. Woolos Road, B.,42,,Alfred,Cox,smith
+resident,St. Woolos Road, B.,43,,Thos.,Edwards,lab'rer
+resident,St. Woolos Road, B.,44,Unbuilt,,,,
+resident,St. Woolos Road, B.,45,,John,Jones,gardener
+resident,St. Woolos Road, B.,46,,Jas.,Lawrence,fitter
+resident,St. Woolos Road, B.,47,,Alf.,Meyrick,telegraphist
+resident,St. Woolos Road, B.,48,,Thos.,Jones,shoemaker
+resident,St. Woolos Road, B.,49,,E.,Dell,cabman
+resident,St. Woolos Road, B.,50,,Hugh,Groves,smith
+resident,St. Woolos Road, B.,51,,Thos.,Lloyd,bootmaker
+resident,St. Woolos Road, B.,52,,Wm.,Snell,signalman
+resident,St. Woolos Road, B.,53,,James,Tilling,labourer
+resident,St. Woolos Road, B.,54,,W. A.,Bentley,waterwks
+cross_street,St. Woolos Road, B.,,,,here is West-street.,
+resident,St. Woolos Road, B.,55,,Thos.,Donald,puddler
+resident,St. Woolos Road, B.,56,,Seth,Richards,bootmakr
+resident,St. Woolos Road, B.,57,,Jas.,Everett,shoeblack
+resident,St. Woolos Road, B.,58,,R.,Marshall,cabinet mkr
+resident,St. Woolos Road, B.,,St. Woolos Boys' School,,,,
+resident,St. Woolos Road, B.,59,,Mrs. Emily,Vaughan,laundress
+resident,St. Woolos Road, B.,60,,Mrs. E.,Collard,laundress
+resident,St. Woolos Road, B.,61,,C.,Marley,signalman
+resident,St. Woolos Road, B.,62,,Henry,Manship,fitter
+resident,St. Woolos Road, B.,63,,Thos.,Morgan,,
+resident,St. Woolos Road, B.,64,,Hy.,Deacon,bootmaker
+resident,St. Woolos Road, B.,65,Talbot Inn,,Mrs. Elizabeth,Brough,,
+street,St. Woolos Place, B.,,,,,,From 25 St. Woolos-road.
+resident,St. Woolos Place, B.,1,,Adam,Nichol,gardener
+resident,St. Julian Street,10,,Joseph,Smith,gardener
+resident,St. Julian Street,11,,Tim.,Kallaher,sawyer
+resident,St. Julian Street,12,,John,Dearden,mason
+resident,St. Julian Street,13,,John,Monk,labourer
+resident,St. Julian Street,14,,Ebenezer,Evans,lab'rer
+resident,St. Julian Street,15,,John,Hill,haulier
+resident,St. Julian Street,16,,Wm.,Christopher,mason
+resident,St. Julian Street,17,,Daniel,Organ,polisher
+cross_street,St. Julian Street,,,,(return.),
+resident,St. Julian Street,18,,Elizabeth,Evans,widow
+resident,St. Julian Street,19,,Jos.,Bancroft,baker
+resident,St. Julian Street,20,,Edwd.,Charles,carpenter
+resident,St. Julian Street,21,,Charles,Fry,labourer
+resident,St. Julian Street,22,,Mrs. Emily,Greenman,,
+resident,St. Julian Street,23,,John,Hill,porter
+resident,St. Julian Street,24,,Thos.,Joseph,labourer
+resident,St. Julian Street,25,,Wm.,Hopkins,painter
+resident,St. Julian Street,26,,Wm.,Carnell,labourer
+resident,St. Julian Street,27,,Chas.,Rose,shop
+resident,St. Julian Street,28,,Void,,,
+resident,St. Julian Street,29,,Alfd.,Durbin,gardener
+resident,St. Julian Street,30,,Wm. H.,Thomas,sailor
+street,St. Mary Street, B.,,,,,,From North-st. to Blewitt-st.
+resident,St. Mary Street, B.,1,,C.,James,coal merchant
+resident,St. Mary Street, B.,2,,Wm.,Reed,bailiff
+resident,St. Mary Street, B.,2A,,Thos.,Hodge,labourer
+resident,St. Mary Street, B.,3,,Geo.,Evans,labourer
+resident,St. Mary Street, B.,3A,,George,Small,gardener
+resident,St. Mary Street, B.,4,,Edwd.,Palmer,labourer
+resident,St. Mary Street, B.,4A,,Henry,Baker,tailor
+resident,St. Mary Street, B.,5,,Wm.,Taylor,brightsmith
+resident,St. Mary Street, B.,5A,,Wm.,Bartlett,mason
+resident,St. Mary Street, B.,6,,Matthew,Grant,,
+resident,St. Mary Street, B.,6A,,John,Sheldon,moulder
+resident,St. Mary Street, B.,7,,Richd.,Hayes,labourer
+resident,St. Mary Street, B.,7A,,Alfred,Regan,spinner
+resident,St. Mary Street, B.,8,,Thos.,Chambers,fireman
+resident,St. Mary Street, B.,8A,,Joseph,Wait,labourer
+resident,St. Mary Street, B.,9,,Daniel,Dowd,tailor
+resident,St. Mary Street, B.,9A,,Ann,Wood,widow
+resident,St. Mary Street, B.,10,,John,Long,tailor
+resident,St. Mary Street, B.,10A,,Mrs. Emily,Wallington,,
+resident,St. Mary Street, B.,11,,Mary,Evans,widow
+resident,St. Mary Street, B.,12,,Wm.,Gay,foreman
+resident,St. Mary Street, B.,13,,James,Saffin,porter
+resident,St. Mary Street, B.,14,,Thos.,Thomas,labourer
+resident,St. Mary Street, B.,15,,Wm.,Hart,fitter
+resident,St. Mary Street, B.,16,,Bernard,Strode,painter
+resident,St. Mary Street, B.,17,,Ed.,Clampen,lamplighter
+resident,St. Mary Street, B.,18,,Wm.,Perry,haulier
+resident,St. Mary Street, B.,19,,W.,West,grocer & baker
+resident,St. Mary Street, B.,20,,Hy.,Waters,clerk
+resident,St. Mary Street, B.,21,,J. E.,Jennings,shoefinishr

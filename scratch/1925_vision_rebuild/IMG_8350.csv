@@ -1,0 +1,143 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,BAL,,Lormorma,Reginald G.,Hawkes,clerk,
+resident,BAL,,Penrhys,Samuel A.,Sheppard,fitter,
+resident,BAL,,Paragon house,Geo.,Snelling,clerk,
+resident,BAL,,St. Elvi,Reg.,Thomas,foreman,
+resident,BAL,,Brondeg,Arth. P.,Wall,clerk,
+resident,BAL,,Pencisely house,Wm. I.,Davies,clerk,
+resident,BAL,,Craigielands,Alexander,Dowers,clerk,
+resident,BAL,,Rosefield,Rudolph F.,Weiser,draughtsman,
+resident,BAL,,Clyde Holm,John C.,Loudfoot,welder,
+resident,BAL,,Caldervale,Robt. W.,Boag,clerk,
+resident,BAL,,,,Vacant site,,
+cross_street,BAL,,,,,,(return)
+resident,BAL,,Bright-holm,,,Houses building,
+resident,BAL,,,Samuel C.,Smith,haul. contct,
+resident,BAL,,,Thomas F.,Addis,builder,
+resident,BAL,55,,W. A.,Prothero,upholstr,
+resident,BAL,53,,Arthur,Gregory,G.W.R.,
+resident,BAL,51,,Wm. A.,Cornwal,baker,
+resident,BAL,49,,Henry,Heal,chief officer,
+resident,BAL,47,,Walter T.,Stroud,G.W.R.,
+resident,BAL,45,,M.,Bowden,pilot's asst,
+resident,BAL,43,,Mrs. Julia,Davies,,
+resident,BAL,41,,Henry,Emlyn,engine dvr,
+resident,BAL,39,,J. P.,Hulson,printer,
+resident,BAL,37,,T. J.,Trawford,roller,
+resident,BAL,35,,Francis S.,Lane,fitter,
+resident,BAL,33,,Fredk.,Clough,draughtsm,
+resident,BAL,31,,Hugh G.,Styles,G.W.R.,
+resident,BAL,29,,Edwd.,Walker,ironwkr,
+resident,BAL,27,,William,Morris,checker,
+resident,BAL,25,,Mrs. Grace,Easterbrook,,
+resident,BAL,23,,Christopher H.,Greer,,
+resident,BAL,21,,Geo.,Price,carpenter,
+resident,BAL,19,,Mrs.,Hobkirk,,
+resident,BAL,17,,Frederick,Eardley,,
+resident,BAL,15,,George,Hazell,cardriver,
+resident,BAL,13,,Charles,Farr,clerk,
+resident,BAL,11,,Wm. H.,Hodges,mechanic,
+resident,BAL,9,,John,Briton,engineer,
+resident,BAL,7,,Henry J.,Adams,,
+resident,BAL,5,,Wm. Henry,Griffiths,pltlr,
+resident,BAL,3,,Edward,Carr,police,
+resident,BAL,1,,Albert,White,traveller,
+street,BANESWELL,C 5,,,,,"is that part of the town extending from the foot of Stow Hill (Bridge Street) to the railway tunnel and derives its name from the Well at the end of Queen's Buildings, but which has been closed, the spot being marked by an iron ring let into the pavement."
+street,BANESWELL CHAMBERS,,,,,,see 13 Bridge-street
+street,BANK CHAMBERS,,,,,,See 85 Bridge-street.
+street,BANESWELL ROAD,C 5,,,,,From 18 Bridge-street.
+cross_street,BANESWELL ROAD,,,,,,(LEFT HAND SIDE)
+resident,BANESWELL ROAD,,,QUEEN'S BUILDINGS,,,
+resident,BANESWELL ROAD,,,Stephen,Iggulden,furn dlr,
+resident,BANESWELL ROAD,2,,Thos.,Wellsteed,purveyor,
+resident,BANESWELL ROAD,,,Thomas William,Bird,
+resident,BANESWELL ROAD,3,,,Phillips Charles & Sons,grocers, etc.,
+resident,BANESWELL ROAD,4,,,Lewis H. P.,baker, grocer and confectioner,
+resident,BANESWELL ROAD,5,,,Chinese Laundry,,
+resident,BANESWELL ROAD,6-6a,,,Canterbury lamb stores,,
+resident,BANESWELL ROAD,,,H. Woodley & Co.,,,
+resident,BANESWELL ROAD,,,Benjamin,Black,tailor,
+cross_street,BANESWELL ROAD,,,,,,here is Bailey-street.
+resident,BANESWELL ROAD,7,,,Carter Wm.,hairdresser,
+resident,BANESWELL ROAD,8,,,Kleinstein Isaac,shop,
+resident,BANESWELL ROAD,9,,,Sims F. H.,fish bar,
+resident,BANESWELL ROAD,10,,,Hurley Richard,,
+resident,BANESWELL ROAD,,,G.,Parry,pork butcher,
+resident,BANESWELL ROAD,11,,,Brown George,labourer,
+resident,BANESWELL ROAD,12,,,Davies Ormonde,grocer,
+cross_street,BANESWELL ROAD,,,,,,here is West-street.
+cross_street,BANESWELL ROAD,,,,,,(return)
+resident,BANESWELL ROAD,13,,David,May,shopkeeper,
+resident,BANESWELL ROAD,14,,,Taylor F. & Sons,garage,
+resident,BANESWELL ROAD,14a,,,Davies W. Luther,motor cycle agents, etc.,
+resident,BANESWELL ROAD,,,Wm. J.,Phillips,pork btch,
+resident,BANESWELL ROAD,14b,,,Lewis H. W. & Co.,bootmakers,
+resident,BANESWELL ROAD,,,BOLTON TERRACE,,,
+resident,BANESWELL ROAD,15,,,Hardick Geo.,yeast mcht,
+resident,BANESWELL ROAD,16,,,Ponting Mrs. A. E.,statnr,
+resident,BANESWELL ROAD,17,,,Coulson W. R.,watchmkr,
+resident,BANESWELL ROAD,18,,,Silver Allen,seedsman,
+resident,BANESWELL ROAD,19,,,Dight & Sons,printers and bookbinders,
+resident,BANESWELL ROAD,20,,,Phillips W. Clifford,solictr,
+resident,BANESWELL ROAD,,,Queen's Hotel Vaults,,,
+street,BANESWELL SQUARE,D 5,,,,,See Victoria-square.
+street,BANK STREET,B 2,,,,,From 323 Caerleon-road to Durham-road.
+cross_street,BANK STREET,,,,,,(LEFT HAND SIDE)
+resident,BANK STREET,1,,,Riding Charlie,,
+resident,BANK STREET,3,,,Bishop Charles,horsebrkr,
+resident,BANK STREET,5,,,Chambers Jas H.,puddler,
+resident,BANK STREET,7,,,Carpenter John,mason,
+resident,BANK STREET,9,,,Avery Mrs. Sarah Jane,,
+resident,BANK STREET,11,,,Mayne Chas. J.,labourer,
+resident,BANK STREET,,,William R.,Pugsley,,
+resident,BANK STREET,13,,,Bradley William,carpenter,
+resident,BANK STREET,15,,,Bradley C. Chas.,labourer,
+resident,BANK STREET,17,,,Shore T. H.,coal merchant,
+cross_street,BANK STREET,,,,,,(return)
+resident,BANK STREET,10,,,Mackey James J.,labr,
+resident,BANK STREET,8,,,Orchard John,guard,
+resident,BANK STREET,6,,,Corfield William,,
+resident,BANK STREET,4,,,Shepperd David,,
+resident,BANK STREET,,,Ellen,Perkins,,
+resident,BANK STREET,2,,,Prowse Thomas,mason,
+street,BARNARD TOWN,C 3,,,,,"is a district lying between Caerleon-road and Maindee and embraces the numerous streets each side of Church-road."
+street,BARNARD STREET,C 3,,,,,From Whithy-place.
+cross_street,BARNARD STREET,,,,,,(RIGHT HAND SIDE)
+resident,BARNARD STREET,1,,,Webb Frederick,G.W.R.,
+resident,BARNARD STREET,2,,,Vincent G. H.,conductor,
+resident,BARNARD STREET,3,,,Price John,blacksmith,
+resident,BARNARD STREET,4,,,Bennett Herbert,,
+resident,BARNARD STREET,5,,,Hine George,haulier,
+resident,BARNARD STREET,6,,,Price Albert E,labourer,
+resident,BARNARD STREET,7,,,Davies Percy Geo.,G.W.R.,
+resident,BARNARD STREET,8,,,Giddy F. E.,plumber,
+cross_street,BARNARD STREET,,,,,,(return)
+resident,BARNARD STREET,9,,,Dovey Edwin,gardener,
+resident,BARNARD STREET,10,,,Hewinson Robt.,,
+resident,BARNARD STREET,11,,,Thomas Mrs.,,
+resident,BARNARD STREET,12,,,Dix Wm. Geo.,,
+resident,BARNARD STREET,13,,,Clarke Bertie,,
+resident,BARNARD STREET,14,,,Noakes Joseph W.,,
+resident,BARNARD STREET,15,,,Jones James,G.W.R.,
+resident,BARNARD STREET,16,,,Moore Henry,,
+resident,BARNARD STREET,17,,,Faulkes William,stoker,
+resident,BARNARD STREET,18,,,Goodwin Edward,,
+resident,BARNARD STREET,19,,,Smith George Henry,,
+street,BARRACK HILL,B 4,,,,,Shaftesbury-st. to Barracks.
+cross_street,BARRACK HILL,,,,,,(LEFT HAND SIDE.)
+resident,BARRACK HILL,1a,,Miss Florence,Beacham,,
+resident,BARRACK HILL,1,,Mrs. Mary,O'Brien,,
+resident,BARRACK HILL,3,,Mrs. A.,Hayward,,Greenfield house
+cross_street,BARRACK HILL,,,,,,here is Belvedere-terrace.
+cross_street,BARRACK HILL,,,,,,here is Power-street.
+resident,BARRACK HILL,5,,William Henry,Whiting,,
+resident,BARRACK HILL,7,,Chas.,Jewell,singalman,Sunnybank Bradford ho
+resident,BARRACK HILL,,,Miss S.,Jewell,,
+resident,BARRACK HILL,9,,T.,Symons,,Alltwen villa
+resident,BARRACK HILL,11,,J.,Whitefield,,1 Lyndhurst
+resident,BARRACK HILL,13,,W.,Llewellyn,,1 Glen view
+resident,BARRACK HILL,15,,Robt.,Jewell,,2 Glen view
+resident,BARRACK HILL,,,Jewell & Sons,builders,
+resident,BARRACK HILL,17,,Mrs. S. C.,Collier,,
+resident,BARRACK HILL,19,,William C.,Collier,,The Waldens
+cross_street,BARRACK HILL,,,,,,here is Lambert-street

@@ -1,0 +1,137 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,,,32,,Jas.,Knowles,carpenter,
+resident,,,33,,Miss Elizabeth,Pugh,,
+resident,,,34,,Elijah,Williams,carpntr,
+resident,,,35,,Geo.,Batty,plumber,
+resident,,,36,,Jas.,Williams,carpenter,
+resident,,,37,,Charles,Hill,mason,
+resident,,,38,,John,Greenslade,smith,
+resident,,,39,,Fredk.,Harris,diesetter,
+resident,,,40,,Alfd. Jas.,Bird,carpenter,
+resident,,,41,,Edwd.,Harding,carpnt'r,
+resident,,,42,,Wm.,Birt,harbour police,
+resident,,,43,,Edwd.,Richardson,harbour police,
+resident,,,44,,Arthur,Moore,labourer,
+resident,,,45,,F.,Morris,machine ruler,
+resident,,,46,,Chas.,Griffiths,postman,
+street,Britannia Buildings,,,,,,"Nos. 11 to 15 North-street."
+street,Broad Street, P.,,,,,,"From 22 Frederick-street to Portland-street."
+resident,Broad Street, P.,,plasterer's yard,Wm.,Pope,,
+resident,Broad Street, P.,1,,John,Bridge,labourer,
+resident,Broad Street, P.,2,,John,Tucker,moulder,
+resident,Broad Street, P.,3,,Arthur G.,Pullen,labourer,
+resident,Broad Street, P.,4,,Mrs. Ann,Davies,,
+resident,Broad Street, P.,5,,Wm.,Jacobson,boilerm'kr,
+resident,Broad Street, P.,6,,Frank,Vella,seaman,
+resident,Broad Street, P.,7,,Geo.,Lowe,boilersmith,
+street,Broseley Terrace, M.,,,,,,"See Fair Oak-avenue."
+street,Brynderyn Road, M.,,,,,,"From Victoria-avenue to Christchurch-road."
+resident,Brynderyn Road, M.,,Sea-view cot,John,Jones,,
+resident,Brynderyn Road, M.,,Six cottages building,,,,
+resident,Brynderyn Road, M.,,Pen-gelly,Rev. H.,Wostenholm,,
+resident,Brynderyn Road, M.,,Pen-y-cae,,,,void
+resident,Brynderyn Road, M.,,Pen-twyn,Edwin,Dixon,,
+resident,Brynderyn Road, M.,,Pen-rhiw,,,,void
+resident,Brynderyn Road, M.,,Pen-y-bryn,,,,void
+resident,Brynderyn Road, M.,,Pen-y-dre,,,,void
+resident,Brynderyn Road, M.,,Pen-y-lan,Frank,Lewis,,
+resident,Brynderyn Road, M.,,Pen-y-graig,R.,Houghton,,
+resident,Brynderyn Road, M.,,Derwen house,,,,void
+resident,Brynderyn Road, M.,,,Sidney,Meaker,painter,
+street,Bryngwyn Road,,,,,,"Clytha-park."
+street,Caerau Park,,,,,,"Stow-hill (right-hand) facing Stow-park."
+resident,Caerau Park,,Cheltenham house,Rev. A.,Wilkins,Grammar school,
+resident,Caerau Park,,Longfield,Absalom,Davies,,
+resident,Caerau Park,,Penrallt,T. D.,Roberts,C.E.,
+resident,Caerau Park,,Hughenden,J.,Hutchins,,
+cross_street,Caerau Park,,,,,,entrance to Caerau-road.
+resident,Caerau Park,,Carisbrooke vil,H.,Phillips,,
+resident,Caerau Park,,Filton house,Richard,Wade,,
+resident,Caerau Park,,Frondêg,T. P.,Wansbrough,J.P.,
+resident,Caerau Park,,Newport Collegiate School,G. Burgess,Hughes,Principal,"M.A."
+resident,Caerau Park,,Pen-caerau,Togarmah,Rees,,
+resident,Caerau Park,,The Willows,Wm.,Carter,,
+cross_street,Caerau Park,,,,,,here is Caerau-crescent.
+resident,Caerau Park,,Lindenhurst,J. R.,Packer,,
+resident,Caerau Park,,Bryngwyn,Benj.,Powell,,
+cross_street,Caerau Park,,,,,,CAERAU CRESCENT—
+resident,Caerau Park,,The Lawn,Charles,Cullum,,
+resident,Caerau Park,,,Conyers,Kirby,,
+resident,Caerau Park,,Highfield,E.,Webber,,
+resident,Caerau Park,,Alton villa,Henry,Tothill,,
+resident,Caerau Park,,Elibank,James,Simmonds,,
+resident,Caerau Park,,Greytree ho,C. H.,Lonsdale,,
+resident,Caerau Park,,Rosstrevor,W. B.,Seymour,,
+resident,Caerau Park,,Pencraig,G. H.,Llewellyn,,
+cross_street,Caerau Park,,,,,,(return.)
+resident,Caerau Park,,Norfolk ho,Edwin,Thatcher,,
+resident,Caerau Park,,Two villas,,,,void
+resident,Caerau Park,,The Laurels,J. F. and P. F.,Freedman,,
+resident,Caerau Park,,Mount view,Benj.,Lawrence,,
+resident,Caerau Park,,Dolgelly,Jas. F.,Birtill,,
+cross_street,Caerau Park,,,,,,CAERAU ROAD—right-hand.
+resident,Caerau Park,,Tredegar vil,Jas.,Swalwell,,
+resident,Caerau Park,,Hurstleigh,W. B.,Barnett,,
+resident,Caerau Park,,Ebor villa,Jens A.,Muller,,
+resident,Caerau Park,,,C. M.,Bailhache,,L.L.B.
+resident,Caerau Park,,"Caerau",the Misses,Clapp,,
+resident,Caerau Park,,Linda vista,W. G.,White,,
+resident,Caerau Park,,Carlton house,Hy.,Taylor,,
+resident,Caerau Park,,Hampton villa,Lewis Ll.,Morris,,
+resident,Caerau Park,,Orwell villa,Jas. H.,Winn,,
+resident,Caerau Park,,Devon villa,Wm.,Pratt,,
+resident,Caerau Park,,Clevedon villa,J.,Holehouse,,
+resident,Caerau Park,,Locksbrook ho,A.,Townsend,,
+resident,Caerau Park,,Clyro vil,Misses,Williams,,
+resident,Caerau Park,,Hudson vil,Mrs. E. M.,Evans,,
+resident,Caerau Park,,Caerau villa,C. H.,Bailey,,
+resident,Caerau Park,,Bryn-caerau,Mrs. J.,Phillips,,
+resident,Caerau Park,,Mount Pleasant villa,H. A.,Goodman,,
+resident,Caerau Park,,Ivy villa,E. W.,Evans,,
+cross_street,Caerau Park,,,,,,(here cross over.)
+resident,Caerau Park,1,Eleanor villa,G.,Jones,,
+resident,Caerau Park,2,Eleanor villa,J.,Pettengill,,
+resident,Caerau Park,,Glencairn,Chas.,Boucher,,
+resident,Caerau Park,,Hillsbro',Moses,Wheeler,,
+resident,Caerau Park,,Mont-caerau,A.,Sutherland,,
+cross_street,Caerau Park,,,,,,(here cross over.)
+resident,Caerau Park,,Cromer house,Mrs.,Compton,Preparatory school,
+resident,Caerau Park,,,C. E.,Compton,architect,
+resident,Caerau Park,,Kingsley villa,Wm.,Price,,
+resident,Caerau Park,,Clyffard house,D.,Phillips,,
+resident,Caerau Park,,the Hollies,Hy.,Mullock,,
+resident,Caerau Park,,Caer gwyn,R. W.,Jones,J.P.,
+resident,Caerau Park,,Pen-carrig,H. G.,Lloyd,,
+resident,Caerau Park,,Tredegar ho,T. H.,Howell,,
+resident,Caerau Park,,Tredorwyn,Miss M. J.,Batchelor,,
+resident,Caerau Park,,Tredorwyn,Geo.,Batchelor,,
+resident,Caerau Park,,Hill crest,J. F.,Rainforth,,
+cross_street,Caerau Park,,,,,,here is Caerau-crescent.
+resident,Caerau Park,,Northfield,F. W.,Gibbons,,
+resident,Caerau Park,,Camelot villa,Jno.,Young,,
+resident,Caerau Park,,Kemeys villa,Thos.,Latch,,
+resident,Caerau Park,,Leinster villa,J. E.,Davies,,
+resident,Caerau Park,,Helston vil,Mrs. M.,Maclean,,
+cross_street,Caerau Park,,,,,,see also Clyffard-crescent Kingsmill-gardens &c.
+street,Caerau Road,,,,,,From Clytha-park-road to Stow-hill.
+resident,Caerau Road,1,,Geo. Henry,Martin,,
+resident,Caerau Road,2,,Augustus,Hobbs,,
+resident,Caerau Road,3,,Samuel,Sheppard,,
+resident,Caerau Road,4,,Miss Ellen,Long,,
+resident,Caerau Road,5,,Mrs. D.,Prosser,,
+resident,Caerau Road,6,,Isaac,Bevan,,
+resident,Caerau Road,7,,Mrs. Thos.,Jeffreys,,
+resident,Caerau Road,8,,Charles,Gwynn,miller,
+resident,Caerau Road,9,,A. J.,Taylor,,
+resident,Caerau Road,10,,William,Parsons,,
+resident,Caerau Road,11,,P.,Rowlands,master mar,
+resident,Caerau Road,12,,Mrs. John,Lewis,,
+resident,Caerau Road,13,,Mrs. Mary A.,Roberts,,
+resident,Caerau Road,14,,John,Glass,,
+resident,Caerau Road,15,,Mrs. Mary,Goddard,,
+resident,Caerau Road,16,,Mrs. George,Morris,,
+resident,Caerau Road,16,,Mrs.,Morris,dressmaker,
+resident,Caerau Road,17,,,,,void
+resident,Caerau Road,18,,Jas.,Williams,,
+resident,Caerau Road,19,,Jno.,Walters,rate collectr,
+resident,Caerau Road,20,,John,Smallwood,clerk,

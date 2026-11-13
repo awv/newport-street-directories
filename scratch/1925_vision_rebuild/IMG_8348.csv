@@ -1,0 +1,143 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,ARTILLERY PLACE,,,,,,C 4 ; From Clarence-place
+cross_street,ARTILLERY PLACE,,,,,,(RIGHT HAND SIDE)
+resident,ARTILLERY PLACE,,,Davies Bros. (Newport),Ltd.,builders' merchants,London Wharf
+resident,ARTILLERY PLACE,,,,,Harbour Commissioners' landing stage,
+cross_street,ARTILLERY PLACE,,,,,,(LEFT HAND SIDE)
+resident,ARTILLERY PLACE,,,,Campbell P. & A. Ltd.,,R. S. Roberts agent
+resident,ARTILLERY PLACE,,Rodney house,,Roberts & Johns,wagon owners,
+resident,ARTILLERY PLACE,,Rodney house,W. R.,Hewitt,,
+resident,ARTILLERY PLACE,,,Mrs. Mary,Baker,,
+resident,ARTILLERY PLACE,,Bridge house,Thos.,Rudall,clerk,
+street,ARUNDEL ROAD,,,,,,D 2 ; Right hand side Chepstow-road near Eveswell.
+cross_street,ARUNDEL ROAD,,,,,,(LEFT HAND SIDE)
+resident,ARUNDEL ROAD,1,,John,Hodges,gardener,
+resident,ARUNDEL ROAD,1,,H.,Hodges,painter,
+resident,ARUNDEL ROAD,3,,J. C. S.,Jones,,
+resident,ARUNDEL ROAD,5,,J. Wm.,Doel,,
+resident,ARUNDEL ROAD,7,,Fredk.,Evans,gym. instctr,
+resident,ARUNDEL ROAD,9,,Sidney,Gliddon,baker,
+resident,ARUNDEL ROAD,11,,Charles,Taylor,carpenter,
+resident,ARUNDEL ROAD,13,,Bert Stafford,Giles,baker,
+resident,ARUNDEL ROAD,15,,Mrs. L.,Redmore,,
+resident,ARUNDEL ROAD,17,,Thos.,Richards,ironworkr,
+resident,ARUNDEL ROAD,19,,Chas. John,Pitt,,
+resident,ARUNDEL ROAD,21,,John R.,Sullivan,,
+resident,ARUNDEL ROAD,23,,J. H.,Jones,ship repairer,
+resident,ARUNDEL ROAD,25,,F.,Croxon,furnaceman,
+resident,ARUNDEL ROAD,27,,W. J.,Matthews,sheetwkr,
+resident,ARUNDEL ROAD,,,Vacant sites,,,
+cross_street,ARUNDEL ROAD,,,,,,(return)
+resident,ARUNDEL ROAD,12,,Arnold,Riding,ins. agent,
+resident,ARUNDEL ROAD,10,,Edgar George,Hackett,,
+resident,ARUNDEL ROAD,8,,Mrs. Dorothea,Garland,,
+resident,ARUNDEL ROAD,6,,Israel,Williams,ironworkr,
+resident,ARUNDEL ROAD,4,,John J.,Venn,master mariner,
+resident,ARUNDEL ROAD,2,,James R.,Stewart,engineer,
+street,ASHLEY ROAD,,,,,,E 2 ; SOMERTON GARDENS ESTATE ; Off Chepstow Road
+cross_street,ASHLEY ROAD,,,,,,(LEFT HAND SIDE)
+resident,ASHLEY ROAD,1,,Hubert C.,Bryant,printer,
+resident,ASHLEY ROAD,3,,A. G.,Millard,storekeeper,
+resident,ASHLEY ROAD,5,,Wm. Hy.,Norley,printer,
+resident,ASHLEY ROAD,7,,C. E.,Christopherson,fitter,
+resident,ASHLEY ROAD,9,,Geo.,Watkins,hay cutter,
+resident,ASHLEY ROAD,11,,Joseph,Couch,fuel wkr,
+resident,ASHLEY ROAD,13,,James W.,Perry,travlr,
+resident,ASHLEY ROAD,15,,D.,Johnson,furnaceman,
+cross_street,ASHLEY ROAD,,,,,,(return)
+resident,ASHLEY ROAD,16,,Edwin,Aldersea,ironwrkr,
+resident,ASHLEY ROAD,14,,James,Preece,platelayer,
+resident,ASHLEY ROAD,12,,James H.,Ford,labourer,
+resident,ASHLEY ROAD,10,,Robert,Brooks,annealer,
+resident,ASHLEY ROAD,8,,P. J.,Blackler,wareh'semn,
+resident,ASHLEY ROAD,6,,H.,Townsend,motorman,
+resident,ASHLEY ROAD,4,,Frank,Bowen,motorman,
+resident,ASHLEY ROAD,2,,H.,Daymond,railwayman,
+street,ASTON CRESCENT,,,,,,B 4 ; Off Brynglas-road.
+cross_street,ASTON CRESCENT,,,,,,(LEFT HAND SIDE)
+resident,ASTON CRESCENT,1,,Mrs. Mary E.,Sullivan,,
+resident,ASTON CRESCENT,3,,L. G.,Telling,decorator,
+resident,ASTON CRESCENT,5,,Wm. H.,Dickman,ins agt,
+resident,ASTON CRESCENT,7,,A. E.,Thomas,cooper,
+resident,ASTON CRESCENT,9,,W. J.,Waters,shunter,
+resident,ASTON CRESCENT,11,,Mrs. Sarah,Smythe,,
+resident,ASTON CRESCENT,13,,Jas. Jos.,Eynon,shop,
+cross_street,ASTON CRESCENT,,,,,,here is Ross-street.
+resident,ASTON CRESCENT,15,,William B.,Smith,,
+resident,ASTON CRESCENT,17,Beverley,,Reade,baker,
+resident,ASTON CRESCENT,19,,J. S.,Watts,decorator,
+resident,ASTON CRESCENT,21,,James John,James,plasterer,
+resident,ASTON CRESCENT,23,,Thomas,Holmes,roller,
+resident,ASTON CRESCENT,25,,W. G.,Swindley,forgeman,
+resident,ASTON CRESCENT,27,,T. W.,Williams,eng dvr,
+resident,ASTON CRESCENT,29,,P. Fdk.,Williams,postman,
+resident,ASTON CRESCENT,31,St. Malo,E.,Carey,trav.,
+resident,ASTON CRESCENT,33,,Evan,Williams,p.o.,
+resident,ASTON CRESCENT,35,,Chas.,Jenkins,engine dvr,
+resident,ASTON CRESCENT,37,,Mrs. C.,Hole,,
+resident,ASTON CRESCENT,39,,W. J.,Workman,ins. agent,
+resident,ASTON CRESCENT,41,,James,Jones,boilermkr,
+resident,ASTON CRESCENT,43,,Thomas,Russell,,
+resident,ASTON CRESCENT,45,,R. H.,Cottrell,detective,
+resident,ASTON CRESCENT,47,,William,Smart,G.W.R.,
+resident,ASTON CRESCENT,49,,J. Jas.,Williams,fitter,
+resident,ASTON CRESCENT,51,,D.,Parker,engineer,
+resident,ASTON CRESCENT,53,,Norman,Davies,reporter,
+resident,ASTON CRESCENT,55,,Oswald,Jones,,
+resident,ASTON CRESCENT,57,,E. F.,Shepherd,eng dvr,
+resident,ASTON CRESCENT,59,,George H.,Gay,clerk,
+resident,ASTON CRESCENT,61,,W.,Boyles,labourer,
+resident,ASTON CRESCENT,63,,W.,May Chas.,moulder,
+resident,ASTON CRESCENT,65,,E. J.,Phillips,chaffeur,
+resident,ASTON CRESCENT,67,,Mrs. C. H.,Pritchard,,
+cross_street,ASTON CRESCENT,,,,,,(return)
+resident,ASTON CRESCENT,76,,H. G.,Smith,hairdresser,
+resident,ASTON CRESCENT,74,,Wardman,William,,
+resident,ASTON CRESCENT,72,,Thomas,Watts,driller,
+resident,ASTON CRESCENT,70,,Allan Alex. J.,engman,
+resident,ASTON CRESCENT,68,,Alfred,Cleverly,John
+resident,ASTON CRESCENT,66,,John Llewellyn,Scott,,
+resident,ASTON CRESCENT,64,,Moore Frederick,,G.W.R.
+resident,ASTON CRESCENT,62,,J. Alex.,Marsh,,
+resident,ASTON CRESCENT,60,,A. E.,Pain,G.W.R.
+resident,ASTON CRESCENT,58,,R. H.,Kitcher,upholsterer,
+resident,ASTON CRESCENT,56,,Robert,Milliken,,
+resident,ASTON CRESCENT,54,,John,Venables,,
+resident,ASTON CRESCENT,52,Hillcrest,Idwal,Williams,,
+resident,ASTON CRESCENT,50,,John,Gomer,carpenter,
+resident,ASTON CRESCENT,48,,William,Jewell,carpenter,
+resident,ASTON CRESCENT,46,Emily,Mrs.,Meadows,,
+resident,ASTON CRESCENT,44,,Lewis,Foote,G.W.R.
+resident,ASTON CRESCENT,42,,Frank,Symons,joiner,
+resident,ASTON CRESCENT,40,,P.,Peterson,fireman,
+resident,ASTON CRESCENT,38,,H. Chas.,Fuge,bricklayer,
+resident,ASTON CRESCENT,36,,Charles E.,Steer,printer,
+resident,ASTON CRESCENT,34,,Mrs. Annie N.,Rideout,,
+resident,ASTON CRESCENT,32,,Henry,Parfitt,,
+resident,ASTON CRESCENT,30,,T. L.,Strange,chemist,
+resident,ASTON CRESCENT,28,,Geo. Frederick,Hawkins,,
+resident,ASTON CRESCENT,26,Aston,John,Thomas,,
+resident,ASTON CRESCENT,24,Glasllyn,R. H.,Parkin,,
+resident,ASTON CRESCENT,22,Bryn,Edgar Chas.,Avery,,
+resident,ASTON CRESCENT,20,,Albert,Knight,motor dvr,
+resident,ASTON CRESCENT,18,,Wm. J.,Owen,butcher,
+resident,ASTON CRESCENT,16,,Thomas,Baggs,clerk,
+resident,ASTON CRESCENT,14,,Mrs. Amy,Morgan,,
+resident,ASTON CRESCENT,12,,Harry D.,White,,
+resident,ASTON CRESCENT,10,,C. F.,Headworth,chaff'r
+resident,ASTON CRESCENT,8,,Francis H.,Colbourne,,
+resident,ASTON CRESCENT,6,,Rich. H.,Collins,gasfitter,
+resident,ASTON CRESCENT,4,Aston v,J. J. R.,Griffiths,,
+resident,ASTON CRESCENT,2,Sunnybank,Richard,Cecil,,
+street,AUCKLAND TERRACE,,,,,,C 3 ; Nos. 104-114 Duckpool-road
+street,AUCKLAND VILLAS,,,,,,C 3 ; Nos. 1-13 Christchurch-road.
+street,AUSTIN FRIARS,,,,,,D 4 ; From 23 Commercial-street.
+resident,AUSTIN FRIARS,,,,Health Department,,,Dr. J. Howard Jones
+resident,AUSTIN FRIARS,,,,Justices' Clerk's Office,,,T. Summers Clerk
+cross_street,AUSTIN FRIARS,,,,,,(return)
+resident,AUSTIN FRIARS,,,,London & Manchester Industrial Assurance Company,,,
+resident,AUSTIN FRIARS,,,,W. E. & Co. Ltd.,Vaughan,dyers,
+resident,AUSTIN FRIARS,,,,Brinley A.,Richards,tailor and hosier,
+resident,AUSTIN FRIARS,,,,Mullock & Sons, Ltd.,printers,
+resident,AUSTIN FRIARS,,Metropolitan Bank Chambers,,,see Commercial-st.
+street,AUSTIN FRIARS CHAMBERS,,,,,,See 26 Dock-street.

@@ -1,0 +1,149 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,ETON ROAD,27,Compton house,William Henry,Bryant,,
+resident,ETON ROAD,29,Glan-y-Christchurch,W.,Bailey,fitter,
+resident,ETON ROAD,31,,James,Harrison,compositor,
+resident,ETON ROAD,33,Beachcroft,Ivor E.,Biddescombe,auctioneer,
+resident,ETON ROAD,35,Hirwen house,Mrs. Eliza,Hicks,,
+resident,ETON ROAD,37,Windsor house,J. Henry,Willis,ironwkr.,
+resident,ETON ROAD,39,,T.,Williams,clerk,
+resident,ETON ROAD,41,Brooklands,Frederick James,Dallen,,
+resident,ETON ROAD,43,,Mrs. Ellen J.,Barry,,
+resident,ETON ROAD,,Ellesmere,Edmund B.,Dickson,,
+resident,ETON ROAD,45,,William Henry,Morgan,,
+resident,ETON ROAD,47,Cambridge,A. W.,Austin,,
+cross_street,ETON ROAD,,,,,,(return)
+resident,ETON ROAD,,Pen-y-bryn,Mrs. Florence,Taylor,,
+resident,ETON ROAD,,,Mrs. Rosa,Johns,,
+resident,ETON ROAD,46,,E. A.,Boswell,decorator,
+resident,ETON ROAD,44,Beta,George,McKeer,,
+resident,ETON ROAD,42,Penrhiw,George,Ball,,
+resident,ETON ROAD,40,Athenic,Mrs. M. A.,Newman,,
+resident,ETON ROAD,38,Ravenscar,Clifford H.,Llewellyn,,
+resident,ETON ROAD,36,Arvans,Wm. T.,Plaister,wrhsemn,
+resident,ETON ROAD,34,,Geo. S.,Jones,blacksmith,
+resident,ETON ROAD,32,Westbourne,Edwin,Pugsley,ship's off,
+resident,ETON ROAD,30,Macnade,Wm.,Rees,,
+cross_street,ETON ROAD,,,,,,here is Methuen-road
+resident,ETON ROAD,28,Ivy Glen,William,Thomas,,
+resident,ETON ROAD,26,Dalmeny,Wm. Jos.,Wigmore,,
+resident,ETON ROAD,24,Montpelier,J. Stanley,Williams,,
+resident,ETON ROAD,22,,Wm.,Williams,ironmonger,
+resident,ETON ROAD,20,,R. W.,Sheppard,engineer,
+resident,ETON ROAD,18,Corri,J. R.,Dayman,St.,
+resident,ETON ROAD,16,Holborn,J. G. W. R.,Howells,,
+resident,ETON ROAD,14,Rolbyn,Theo.,Wray,,
+resident,ETON ROAD,12,,Robt.,Merryweather,carp and joiner Tregothan
+resident,ETON ROAD,10,Jesmond Dene,Edward D.,McKeer,,
+resident,ETON ROAD,8,Heatherdene,B. W. J.,Williams,,
+resident,ETON ROAD,6,,John,Keepin,Hazeldene
+cross_street,ETON ROAD,,,,,,here is Rugby-road
+resident,ETON ROAD,4,Langstone,Ernest,Peel,,
+resident,ETON ROAD,2,Holmeswood,Rev. T.,Davies-Wilton,,
+cross_street,EVESWELL PARK,,,,,,(here is Hewertson-street)
+resident,EVESWELL PARK,3,,Christopher J.,Collins,G.W.R.,
+resident,EVESWELL PARK,5,,Wm.,Griffiths,coal yard
+cross_street,EVESWELL PARK,,,,,,here is Henry-street
+resident,EVESWELL PARK,7,,Robert,Logan,labourer
+resident,EVESWELL PARK,9,,Samuel,Tutton,shop
+cross_street,EVESWELL PARK,,,,,,here is Hoskins-street
+resident,EVESWELL PARK,,SHAFTSBURY PARK,MARSHES HALL (FORWARD Movement),,,
+resident,EVESWELL PARK,,,Chas.,Sims,park lodge Shaftesbury
+cross_street,EVESWELL PARK,,,,,,(cross and return)
+cross_street,EVESWELL PARK,,,,,,here is Pugsley-street
+resident,EVESWELL PARK,19,,Harry,Tandy,Harvey
+resident,EVESWELL PARK,20,,William John,Bevan,,
+resident,EVESWELL PARK,18,,William,Boddy,labourer
+resident,EVESWELL PARK,16,,John,Jones,ironworker
+resident,EVESWELL PARK,14,,Thomas,Dowling,labourer
+cross_street,EVESWELL PARK,,,,,,here is Wheeler-street
+resident,EVESWELL PARK,12,,Edward,Tutton,labourer
+cross_street,EVESWELL PARK,,,,,,here is Hoskins-street
+resident,EVESWELL PARK,12,,Chas. H.,Jenkinson,,
+cross_street,EVESWELL PARK,,,,,,here is Henry-street
+resident,EVESWELL PARK,10,,Harry,Venn,shop
+resident,EVESWELL PARK,8,,E.,Holley,shopkeeper
+resident,EVESWELL PARK,,,E.,Holley junr.,,
+cross_street,EVESWELL PARK,,,,,,here is Hewertson-street
+resident,EVESWELL PARK,6,,R. A.,Williams,gen dlr
+resident,EVESWELL PARK,4,,,,,,Void
+street,EVESWELL PARK,D 2,,,,,From St. Johns Road
+cross_street,EVESWELL PARK,,,,,,(RIGHT HAND SIDE.)
+resident,EVESWELL PARK,1,,T. R. P.,Herbert,Staunton
+resident,EVESWELL PARK,2,Gwenlyn,A. C.,Johnson,surgeon,
+resident,EVESWELL PARK,3,Dolecoed,A.,Smallwood,,
+resident,EVESWELL PARK,4,Bryn-tirion,W. H.,Hinxman,,
+resident,EVESWELL PARK,,Elstow,George,Hussey,,
+resident,EVESWELL PARK,,void,,,Staddon,
+resident,EVESWELL PARK,,Rosendale,James Hubert,Basham,,
+resident,EVESWELL PARK,,Mount Eveswell,Francis,Akenhead,solicitor
+resident,EVESWELL PARK,,,Vacant sites,,,
+resident,EVESWELL PARK,,Mt. Pleasant,Hy. E.,Lovering,,
+resident,EVESWELL PARK,,,Vacant sites,,,
+resident,EVESWELL PARK,,Rydal Mount,Hy. B.,Witt,,
+cross_street,EVESWELL PARK,,,,,,(return)
+resident,EVESWELL PARK,,Woodbury,Miss Ella,Searle,,
+resident,EVESWELL PARK,,Hillside,Charles,Monkley,traveller,
+resident,EVESWELL PARK,,Cartref,Richard,Rees,,
+resident,EVESWELL PARK,,Croft,Wm. Charles,Cayzer,,
+resident,EVESWELL PARK,,Ambury,,,
+resident,EVESWELL PARK,,The Cliff,Mrs. Edith,Meggitt,,
+resident,EVESWELL PARK,,Rosehill,Mrs. K.,Thomas,,
+resident,EVESWELL PARK,,Bungalow,Mrs. Rosina,Powles,The
+resident,EVESWELL PARK,1,,Eric,Burman,Cecilden
+resident,EVESWELL PARK,,Seaforth,F. C.,Phillips,,
+resident,EVESWELL PARK,,void,,,House,
+resident,EVESWELL PARK,,Sunny Mount,Harold,Baker,,
+resident,EVESWELL PARK,,Lawrenny,Miss L. H.,Howells,,
+cross_street,EVESWELL PARK,,,,,,(See St. John's and Batchelor roads)
+street,EVESWELL STREET,D 3,,,,,From 232 Chepstow-road to Archibald-street
+cross_street,EVESWELL STREET,,,,,,(LEFT HAND SIDE.)
+resident,EVESWELL STREET,1,,Geo. F.,Gimlett,hawker
+resident,EVESWELL STREET,,,Chas.,Simmonds,pickler
+resident,EVESWELL STREET,2,,George,Ball,ins. agent
+resident,EVESWELL STREET,3,,Hubert O.,Kirby,fitter
+resident,EVESWELL STREET,4,,Albert,Pullin,crane driver
+resident,EVESWELL STREET,,,Mrs. Ann E.,Verren,,
+resident,EVESWELL STREET,5,,Stephen C.,Butcher,,
+resident,EVESWELL STREET,6,,T. J.,Read,berthing master
+resident,EVESWELL STREET,7,,Francis G.,Maunders,police
+resident,EVESWELL STREET,8,,Stephen G.,James,stoker
+resident,EVESWELL STREET,9,,J. Alfred,Crick,pilotsman
+resident,EVESWELL STREET,10,,Ephraim,Browning,baker
+resident,EVESWELL STREET,11,,Fredk. A.,Marsh,joiner
+resident,EVESWELL STREET,12,,Edward,McDonald,,
+resident,EVESWELL STREET,,,Alf. H.,Smith,G.W.R.
+resident,EVESWELL STREET,13,,Mrs. Jemima,Jones,,
+resident,EVESWELL STREET,14,,Thos. H.,Bigmore,G.W.R.
+resident,EVESWELL STREET,,,William W.,Davidson,,
+resident,EVESWELL STREET,15,,John,Garland,driver
+resident,EVESWELL STREET,16,,Ernest A.,Thomas,cab mk
+resident,EVESWELL STREET,17,,Jas. Hammond,Alexander,,
+cross_street,EVESWELL STREET,,,,,,(return)
+resident,EVESWELL STREET,18,,Melbourne,Price,labr
+resident,EVESWELL STREET,19,,Sydney,Hill,bricklayer
+resident,EVESWELL STREET,20,,William,Hill,bricklayer
+resident,EVESWELL STREET,21,,George,Frampton,labr
+resident,EVESWELL STREET,22,,W.,Perryman,dockman
+resident,EVESWELL STREET,23,,Hy. Stanley,Alexander,,
+resident,EVESWELL STREET,24,,A. W.,Trigg,car. examnr
+resident,EVESWELL STREET,25,,Richard,Mason,boilermkr
+resident,EVESWELL STREET,26,,Morris E.,Deardon,fitter
+resident,EVESWELL STREET,,,Harry,Lane,builder
+resident,EVESWELL STREET,27,,Chas. S.,Quaintance,shop
+resident,EVESWELL STREET,28,,Thos.,Wilkins,waterman
+resident,EVESWELL STREET,29,,James,Stephens,,
+resident,EVESWELL STREET,30,,John,Gayton,carpenter
+resident,EVESWELL STREET,31,,Charles,Williams,Millner
+resident,EVESWELL STREET,32,,Henry,Fisher,steel erctr
+resident,EVESWELL STREET,33,,T. F.,Thomas,traveller
+resident,EVESWELL STREET,34,,Mrs. Charlotte,Price,,
+resident,EVESWELL STREET,35,,Richard,Brend,labourer
+street,EVESWELL TERRACE,D 3,,,,,No. 242-232 Chepstow-road
+street,EXCHANGE ROAD,C 4,,,,,See 70 High-street
+street,EXETER ROAD,D 3,,,,,From Exeter-street
+cross_street,EXETER ROAD,,,,,,(LEFT HAND SIDE.)
+resident,EXETER ROAD,1,,Fredk. T.,Card,moulder
+resident,EXETER ROAD,,,Charles,Whiting,fitter
+street,EVANS STREET,C 4,,,,,From 162 Shaftesbury-street
+cross_street,EVANS STREET,,,,,,(LEFT HAND SIDE.)
+resident,EVANS STREET,1,School ho,Chas.,Forester,,

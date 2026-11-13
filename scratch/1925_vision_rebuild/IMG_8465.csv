@@ -1,0 +1,135 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,STOW HILL,,,,,,From High-st. & Commercial-st. to the "Hand Post"
+cross_street,STOW HILL,,,,,,(RIGHT HAND SIDE.)
+resident,STOW HILL,2,CENTRAL CHAMBERS,,Midland Bank Ltd.,,"A. C. Mitchell, manager"
+resident,STOW HILL,4,CENTRAL CHAMBERS,,Alban & Lamb,,incorporated accountants
+resident,STOW HILL,,CENTRAL CHAMBERS,Chas.,Miles,,surveyor &c.
+resident,STOW HILL,,CENTRAL CHAMBERS,A. G. S.,Batchelor,,solicitor
+resident,STOW HILL,,CENTRAL CHAMBERS,,Welsh Insurance Corporation Limited,,"D. E. Greenfield, manager"
+resident,STOW HILL,,CENTRAL CHAMBERS,,London & Scottish Assurance Corporation Ltd.,,"D. E. Greenfield, mangr"
+resident,STOW HILL,,CENTRAL CHAMBERS,,Jones Percy & Co.,,engnrs
+resident,STOW HILL,,CENTRAL CHAMBERS,L. W.,Jenkins,,M.I.MAR.E.
+resident,STOW HILL,,CENTRAL CHAMBERS,,Scott & Block & Webbs,,auct., archts., etc.
+resident,STOW HILL,,CENTRAL CHAMBERS,,South Wales Engineering and Works Supply Co.,,
+resident,STOW HILL,,CENTRAL CHAMBERS,,The British Corporation Registry,,
+resident,STOW HILL,6,,,Gas Co.'s showrooms,,
+resident,STOW HILL,8,,,Heath George,,gents' and boys' complete outfitter and hosier
+resident,STOW HILL,10,,,Smith H. A. (Newport) Ltd.,,wine spirit, ale, and porter merchants
+resident,STOW HILL,12,,,Conservative & Unionist Association offices,,"C. T. Clissitt, agent"
+resident,STOW HILL,,,Tredegar Constitutional Club,,"G. A. Lester, sec."
+resident,STOW HILL,,,Miss F. D.,Pullin,,fruit'er
+resident,STOW HILL,14,,,Harry & Wood,,confectioners
+resident,STOW HILL,16,TREDEGAR HALL PICTURE HOUSE,,,,
+resident,STOW HILL,18,,,T. A.,Grove,,tailor
+resident,STOW HILL,20,,,Newport Constitutional Club,,"W. J. Davies, sec."
+resident,STOW HILL,22,CAERLEON CHAMBERS,,,,
+resident,STOW HILL,,CAERLEON CHAMBERS,,Parry Thomas & Son,,auctioneers
+resident,STOW HILL,,CAERLEON CHAMBERS,A. C.,Parry,,Supt. Registrar
+resident,STOW HILL,,CAERLEON CHAMBERS,Tom W.,Wring,,Registrar of Marriages
+resident,STOW HILL,,CAERLEON CHAMBERS,A. H.,Dolman,,solicitor
+resident,STOW HILL,24,,,Edwards T. S. & Son,,solicitors
+resident,STOW HILL,,,A. Gordon,Edwards,,solicitr
+resident,STOW HILL,26,,,Llewellin J. C. & Son,,solctrs
+resident,STOW HILL,,,,Davis & Sons,,auctioneers etc., and at Usk
+resident,STOW HILL,28,,,Lloyd & Pratt,,solicitors
+resident,STOW HILL,30,,,Fred S. W.,May,,tailor
+resident,STOW HILL,,,Stanley,Swales,,auct'nr
+resident,STOW HILL,,,,L. A. Wallen & Jenkins,,solicitors
+resident,STOW HILL,32,,,T. Gill,Williams,surgeon dentist,"L.D.S. (Eng.)"
+cross_street,STOW HILL,,,,,,here is Waters-lane
+resident,STOW HILL,34,,,Tom,Jones,,furniture dlr
+resident,STOW HILL,36,,,C. A.,Stone,,surgical instrument maker
+resident,STOW HILL,38,Srow HILL BAPTIST CHURCH,,Wesley P.S.A. Institute,,
+resident,STOW HILL,40,,,,,void
+cross_street,STOW HILL,,,,,,WESLEY CHURCH
+cross_street,STOW HILL,,,,,,CORPORATION BATHS AND GYMNASIUM
+cross_street,STOW HILL,,ARLINGTON TERRACE,,,,
+resident,STOW HILL,44,ARLINGTON TERRACE,,Girls' Friendly Society,,"Miss E. Smith, supt."
+resident,STOW HILL,46,ARLINGTON TERRACE,Miss L. L.,Anstice,,
+resident,STOW HILL,48,ARLINGTON TERRACE,Cole,Ralph,,
+resident,STOW HILL,,,Alfred,Alliston,,
+resident,STOW HILL,,,Gilbert,Stevens,,
+resident,STOW HILL,50,,,Charles H.,Pickering,,
+resident,STOW HILL,,,,William,Farley,,
+resident,STOW HILL,52,,,Vincent E.,Butler,,dentist
+resident,STOW HILL,54,,,Wm.,Clarke,,electrician
+resident,STOW HILL,56,,,,,void
+resident,STOW HILL,58,,,Mrs. C. F.,Ward,,
+resident,STOW HILL,,,,Miss M.,Bunning,,
+resident,STOW HILL,,,,Miss P.,Tyson,,
+resident,STOW HILL,,,,J. R. C.,Stephens,,
+cross_street,STOW HILL,,,,,,here is Havelock-street
+cross_street,STOW HILL,,DORSET PLACE,,,,
+resident,STOW HILL,60,DORSET PLACE,W. J.,Bassett,,physician and surgeon
+resident,STOW HILL,62,DORSET PLACE,Mrs.,Beer,,Eastbourne
+resident,STOW HILL,64,DORSET PLACE,Mrs. H.,Thomas,,
+resident,STOW HILL,,DORSET PLACE,Harvey,Nicholl,phys. and surg.,"M.A., M.B., D.P.H."
+resident,STOW HILL,66,DORSET PLACE,W. J.,Mills,,decorator
+resident,STOW HILL,68,DORSET PLACE,Albert J.,Parker,,
+resident,STOW HILL,70,DORSET PLACE,H. J.,Roberts,,
+resident,STOW HILL,72,DORSET PLACE,Mrs. J. H.,Jones,,Dorset Commercial Hotel
+resident,STOW HILL,,,St. Woolos Schools,,,,
+resident,STOW HILL,78,,,Mrs. Hannah,Turier,,
+resident,STOW HILL,80,,,Harry L.,Belcher,,
+resident,STOW HILL,82,,,G. L.,Roberts,,general shop
+cross_street,STOW HILL,,,,,,here is Stow-passage
+resident,STOW HILL,84,,,NEWPORT LABOUR HALL LTD.,,"W. B. Lewcock, sec"
+resident,STOW HILL,,,,Newport Labour Party,,"W. B. Lewcock, agent."
+resident,STOW HILL,86,,,Miss Alicia,Emmett,,
+resident,STOW HILL,88,School Clinic,H. R.,Burpitt,,M.D., D.P.H.
+resident,STOW HILL,90,,,Herbt.,Lenton,,Homeside
+resident,STOW HILL,,,,George Thos.,Barrett,,
+resident,STOW HILL,92,,,Albert J.,Padgett,,postmn
+resident,STOW HILL,,High view,,,Skoll Ernest,,fitter
+resident,STOW HILL,,,Queen Victoria Memorial Almshouses,,,,
+resident,STOW HILL,108,Board of Guardians' Children's Home,,,,
+cross_street,STOW HILL,,,,,,here is Clifton-road
+resident,STOW HILL,,,St. Woolos CHURCH,,,,
+resident,STOW HILL,110,,,,,void
+resident,STOW HILL,112,,,,,void
+resident,STOW HILL,114,,,Arthur,Reid,,plumber
+cross_street,STOW HILL,,,,,,here is Clifton-road
+resident,STOW HILL,116,,,Bateman & Co.,,confectioners, etc.,stat'nrs
+resident,STOW HILL,116A,,,Bateman & Co. (Newport) Ltd.,,bootmakers
+resident,STOW HILL,118,,,J.,Herbert,,Stowgate v
+cross_street,STOW HILL,,,,,,here is York-place
+cross_street,STOW HILL,,CAMBRIA PLACE,,,,to No. 140
+resident,STOW HILL,120,CAMBRIA PLACE,J. J.,Partridge,,builder
+resident,STOW HILL,122,CAMBRIA PLACE,Mrs. Jane,Morgan,,
+resident,STOW HILL,124,CAMBRIA PLACE,William,Dunsby,,clerk
+resident,STOW HILL,126,CAMBRIA PLACE,John,Redmond,,
+resident,STOW HILL,128,CAMBRIA PLACE,T. E. W.,Taylor,,photo
+resident,STOW HILL,130,CAMBRIA PLACE,J. J.,Trump,,decorator
+resident,STOW HILL,132,CAMBRIA PLACE,Mrs. P.,Gibbs,,
+resident,STOW HILL,134-140,CAMBRIA PLACE,Pavilion service depot,STOW HILL PAVILION,,automobile engineers
+resident,STOW HILL,144,,,Chas.,Gibb,,Ashreigney
+resident,STOW HILL,146,,,R. H.,Davies,,Overton Mere
+resident,STOW HILL,148,,,J. W.,Griffin,,Delaware
+resident,STOW HILL,150,,,A. E.,Webb,,Bryn-y-mor
+cross_street,STOW HILL,,,,,,here is Brynhyfryd-avenue
+resident,STOW HILL,152,,,Jack,Lewis,,
+resident,STOW HILL,154,,,Ivor T.,Coakham,,clerk Cranleigh
+resident,STOW HILL,156,,,William,Worthington,,
+resident,STOW HILL,160,,,Amos,Barroll,,taxi proptr
+resident,STOW HILL,162,,,Lloyd,Overstone,,
+resident,STOW HILL,164,,,Miss Jane,Oates,,
+resident,STOW HILL,166,,,Mrs. David,Williams,,
+resident,STOW HILL,168,,,Mrs. Sarah,Belmont,,
+resident,STOW HILL,,,,H. M.,Senior,,dent. surg.
+resident,STOW HILL,,,British Oak Insur. Co.,,,,
+resident,STOW HILL,170,,,T. J.,Badgett,,Lyndale
+resident,STOW HILL,172,,,Arthur Charles,Jenkins,,
+resident,STOW HILL,174,,,Mrs. A. E.,Harries,,
+cross_street,STOW HILL,,,,,,here is Brynhyfryd-road
+resident,STOW HILL,188,,,R. W.,Arthur,,Glenmore
+resident,STOW HILL,190,,,Mrs.,Little,,Beechcroft
+resident,STOW HILL,192,,,Mrs. J. H.,Carney,,Glen Roy
+resident,STOW HILL,194,,,Miss F.,Gratte,,Cheltenham house
+resident,STOW HILL,196,,,Chas. J.,Judd,,Longfield
+resident,STOW HILL,198,,,Dr. Henry W.,Catto,,Pencrest
+resident,STOW HILL,,,Miss A.,Abraham,,Arlington House School
+cross_street,STOW HILL,,,,,,here is Caerau-road
+resident,STOW HILL,,,Mrs. H.,Phillips,,Carisbrooke house
+resident,STOW HILL,200,,,Jas.,Barter,,Filton house
+resident,STOW HILL,202,,,Dr.,Candy,radiologist, Frondeg;"M.B., D.M.R.E."
+resident,STOW HILL,204,,,Horace,Pitt,Oakfield Boys' School;"(INT. B.A. Lond.)"

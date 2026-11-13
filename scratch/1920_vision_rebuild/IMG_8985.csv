@@ -1,0 +1,158 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,COR,52,,W. H.,Sansom,,St. Malo
+resident,COR,50,,Geo.,Smith,,St. Petroc
+resident,COR,48,,Fredk. Charles,Andrews,,Moorlands
+resident,COR,46,,J. H.,Clarke,,Eddystone
+resident,COR,44,,D.,Howell,graingair,
+resident,COR,42,,J. D.,Parfitt,contractor,
+resident,COR,40,,Mrs. E.,Rees,,The Laurels
+resident,COR,38,,A. E.,Tonks,M.R.C.S. physician and surgeon,The Ferns
+resident,COR,36,,Robert,Parry,G.W.R.,
+resident,COR,34,,Joseph,Hyde,,
+resident,COR,32,,Edmund,Evans,,
+resident,COR,30,,J.,Woodhouse,labourer,
+cross_street,COR,,,,,,here is Grafton-road
+resident,COR,22,,Mrs. C.,Evans,grocer,
+resident,COR,20,,Wm.,Knight,newsagent,
+resident,COR,18,,Mrs. A.,Johns,wardrobe dealer,
+resident,COR,16,,F.,Lawrence,decorator,
+resident,COR,14,,J. M.,Rose,picture framer and photographer,
+resident,COR,12,,Mrs. C.,Sweeting,confectr,
+resident,COR,10,,Mrs. Elizabeth,Tandy,greengrocer etc.,
+cross_street,COR,,,,,,here is St. Vincent's-road
+resident,COR,,,Coliseum Picture Theatre,,,
+cross_street,COR,,,,,,here is Clarence-place
+street,COUNCIL CHAMBERS,,,,,,Corn-street
+street,COSELEY STREET,,,,,,E 5; From Bilston-street to Tipton-street
+street,COURTYBELLA ST.,,,,,,E 5; From 111 Commercial-road to Albion-street
+resident,COURTYBELLA ST.,1,,,Humphries Albert,,
+resident,COURTYBELLA ST.,2,,William,Trigg,carpenter,
+resident,COURTYBELLA ST.,3,,Thomas,Power,labourer,
+resident,COURTYBELLA ST.,3A,,A. E.,Diaper,motor garage,
+resident,COURTYBELLA ST.,5,,Thomas,Edwards,labourer,
+resident,COURTYBELLA ST.,6,,Alfred G.,Hydman,fitter,
+resident,COURTYBELLA ST.,,,J. O. & Co.,Dibble,oil and grease manufacturers,
+resident,COURTYBELLA ST.,7,,W.,Arnold,boarding house,
+resident,COURTYBELLA ST.,8,,Mrs. Ellen,Ryan,,
+resident,COURTYBELLA ST.,9,,Francis,James,labourer,
+resident,COURTYBELLA ST.,10,,Mrs. Sarah,Holtom,,
+resident,COURTYBELLA ST.,11,,Samuel,Ford,labourer,
+resident,COURTYBELLA ST.,12,,William,Lloyd,labourer,
+resident,COURTYBELLA ST.,13,,William,Casey,labourer,
+resident,COURTYBELLA ST.,14,,Mrs.,Gordon,,
+cross_street,COURTYBELLA ST.,,,,,,here is New-street
+resident,COURTYBELLA ST.,14A,,Thomas,Osmond,labourer,
+resident,COURTYBELLA ST.,15,,James,Cantwell,fireman,
+resident,COURTYBELLA ST.,16,,Samson,Williams,labourer,
+resident,COURTYBELLA ST.,17,,James,Sedgemore,,
+resident,COURTYBELLA ST.,18,,William,Edgely,labourer,
+resident,COURTYBELLA ST.,19,,Chas.,Close,dockman,
+resident,COURTYBELLA ST.,20,,Michael,Hennessy,labourer,
+resident,COURTYBELLA ST.,21,,Mrs. Elizabeth A.,O'Shea,,
+resident,COURTYBELLA ST.,22,,George,Twott,,
+resident,COURTYBELLA ST.,23,,Dennis,Daniel,,
+cross_street,COURTYBELLA ST.,,,,,,here is Temple-street
+resident,COURTYBELLA ST.,24A,,W.,Billington,E. boot rpr,
+resident,COURTYBELLA ST.,24,,Wm.,Harvey,canvasser,
+resident,COURTYBELLA ST.,25,,George,Long,labourer,
+resident,COURTYBELLA ST.,26,,Wm.,Johns,engine driver,
+resident,COURTYBELLA ST.,27,,John,Mahoney,labourer,
+resident,COURTYBELLA ST.,28,,Charles,Shermer,,
+resident,COURTYBELLA ST.,,,Courtybella S'm Laundry,,,
+street,COURTYBELLA,,,,,,From Cardiff-road
+resident,COURTYBELLA,,,,Davies Thomas,Greenfield,
+resident,COURTYBELLA,,,,Chicken Robt. Wm.,Belsay,
+street,COURTYBELLA TER.,,,,,,E 5; From 1 Alexandra-road
+resident,COURTYBELLA TER.,1A,,Chas.,Moore,boilermaker,
+resident,COURTYBELLA TER.,1,,Ll.,Morgan,helper,
+resident,COURTYBELLA TER.,2,,Chas. Rd.,Smith,labourer,
+resident,COURTYBELLA TER.,3,,John Jas.,Davies,fitter,
+resident,COURTYBELLA TER.,4,,H.,Berry,dock pilot,
+resident,COURTYBELLA TER.,5,,Edward,Swift,labourer,
+resident,COURTYBELLA TER.,6,,P. E.,Martin,journalist,
+resident,COURTYBELLA TER.,7,,James,Sullivan,rigger,
+resident,COURTYBELLA TER.,8,,T.,Humphreys,plate layer,
+resident,COURTYBELLA TER.,9,,Ll. J.,Watts,berthing mstr,
+resident,COURTYBELLA TER.,10,,Wm. H.,Wright,trimmer,
+resident,COURTYBELLA TER.,11,,John,Hughes,trimmer,
+resident,COURTYBELLA TER.,12,,Mrs. M. E.,Smerkenich,,
+resident,COURTYBELLA TER.,13,,W. H.,Stribley,engineer,
+resident,COURTYBELLA TER.,14,,Mrs. Sarah,Phelps,,
+resident,COURTYBELLA TER.,15,,Wm. George,Thompson,,
+resident,COURTYBELLA TER.,16-17,,J.,Jones,Rees colliery agent,
+resident,COURTYBELLA TER.,18,,John,Jones,G.W.R.,
+resident,COURTYBELLA TER.,19,,Alfred,Pritchard,labourer,
+resident,COURTYBELLA TER.,20,,Morris F.,Ogilve,,
+resident,COURTYBELLA TER.,21,,Michael,Morrisey,Cumberland Inn,
+resident,COURTYBELLA TER.,22,,Mrs.,Townsend,,
+resident,COURTYBELLA TER.,23,,Mrs. Sarah Ann,Williams,,
+resident,COURTYBELLA TER.,24,,Mrs. John,Evans,grocer,
+cross_street,COURTYBELLA TER.,,,,,,here is Baldwin-street
+resident,COURTYBELLA TER.,25,,John,Snashall,shop,
+resident,COURTYBELLA TER.,26,,Francis,Evans,stevedore,
+resident,COURTYBELLA TER.,27,,James,Alpin,pilotsman,
+resident,COURTYBELLA TER.,28,,George,Reade,inspector,
+resident,COURTYBELLA TER.,29,,Fred,Parsch,,
+resident,COURTYBELLA TER.,,,John,Franklin,fish shop,
+cross_street,COURTYBELLA TER.,,,,,,here is Jeddo-street
+resident,COURTYBELLA TER.,31,,Dd. J.,Rees,Royal Oak,
+cross_street,COURTYBELLA TER.,,,,,,here is Lime-street
+resident,COURTYBELLA TER.,32,,W. C.,Johns,grocer,
+resident,COURTYBELLA TER.,33,,George,Card,engineer,
+resident,COURTYBELLA TER.,34,,John,Bready,fitter,
+resident,COURTYBELLA TER.,35,,S. J.,Reed,trimmer,
+cross_street,COURTYBELLA TER.,,,,,,here is Price-street
+resident,COURTYBELLA TER.,,,Pill Bank Engineering works,,,
+resident,CRE,,,A. R. & Son,Adams,engineers & boilermakers Pill Bank works,
+resident,CRE,36,,Chas.,Rogers,boilermaker,
+resident,CRE,36A,,Wm. Hy.,Niblett,eng. dvr.,
+resident,CRE,36B,,Lorne,Johns,baker,
+resident,CRE,37,,John K.,Price,labourer,
+resident,CRE,38,,Ernest,Smith,helper,
+resident,CRE,39,,Wm.,Withycombe,tipper,
+cross_street,CRE,,,,,,here is Arthur-street
+resident,CRE,40,,Thos.,Llewellyn,labourer,
+resident,CRE,41,,T.,Hodges,warehouseman,
+resident,CRE,42,,Alfred,Fairman,seaman,
+resident,CRE,43-44,,A. E.,Johns,bakery,
+street,COVERACK ROAD,,,,,,D 3; Corporation-road to Riverside
+cross_street,COVERACK ROAD,,,,,,(RIGHT HAND SIDE.)
+resident,COVERACK ROAD,2,,John,Richards,shearer,
+resident,COVERACK ROAD,4,,Lemuel,Isitt,ironworker,
+resident,COVERACK ROAD,6,,Alfred D.,Wreford,,
+resident,COVERACK ROAD,8,,Rd.,Harris,manftrs' agnt,
+resident,COVERACK ROAD,10,,Henry,Atkins,ironworker,
+resident,COVERACK ROAD,12,,Mrs. Frances,Rice,,
+resident,COVERACK ROAD,14,,Edwin J.,Rice,ironwrkr,
+resident,COVERACK ROAD,16,,George,Watkins,ironwrkr,
+resident,COVERACK ROAD,18,,Fredk R. D.,Fry,ironwkr,
+resident,COVERACK ROAD,20,,Arthur,Asquith,ironwkr,
+resident,COVERACK ROAD,22,,Albert,England,baker,
+resident,COVERACK ROAD,24,,William,Sadler,,
+resident,COVERACK ROAD,,,Vacant sites,,,
+resident,COVERACK ROAD,,,Riverside Coal Yard (Kemp & Co.),,,
+cross_street,COVERACK ROAD,,,,,,(return)
+resident,COVERACK ROAD,,,Guest Keen & Nettlefolds Ltd.,Imperial Mills,
+resident,COVERACK ROAD,,,Vacant sites,,,
+cross_street,COVERACK ROAD,,,,,,here is Feering-street
+resident,COVERACK ROAD,19,,F. J.,Foster,greengrocer,
+resident,COVERACK ROAD,,,Vacant sites,,,
+resident,COVERACK ROAD,13,,Reuben,Dennison,ironwrkr,
+resident,COVERACK ROAD,11,,Wm.,Moxley,shunter,
+resident,COVERACK ROAD,9,,John,Barrett,clerk,
+cross_street,COVERACK ROAD,,,,,,here is Witham-street
+resident,COVERACK ROAD,7,,W. H.,Hook,general dealer,
+resident,COVERACK ROAD,5,,Edgar,Turner,ironworker,
+resident,COVERACK ROAD,3,,A.,Raybould,ironworker,
+resident,COVERACK ROAD,1,,Arthur,Ravaide,manager,
+street,CRAWFORD STREET.,,,,,,D 2; (Off Caerleon-road)
+street,CRESCENT ROAD.,,,,,,D 2; Victoria-av. to Woodland-rd.
+cross_street,CRESCENT ROAD.,,,,,,(LEFT HAND SIDE.)
+resident,CRESCENT ROAD.,1,,Rowland H.,Oates,clerk,
+resident,CRESCENT ROAD.,2,,Mrs. S.,Norvall,,
+resident,CRESCENT ROAD.,3,,L. T.,Morgan,inspector,
+cross_street,CRESCENT ROAD.,,,,,,PEMBROKE TERRACE—
+resident,CRESCENT ROAD.,4,,Wm.,Powell,despatcher,
+resident,CRESCENT ROAD.,5,,Dd. E.,Fisher,carpenter,
+resident,CRESCENT ROAD.,6,,Albert,James,George,
+resident,CRESCENT ROAD.,7,,Thomas,Pickin,ironworkr,

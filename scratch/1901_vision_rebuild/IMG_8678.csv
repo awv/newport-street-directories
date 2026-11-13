@@ -1,0 +1,152 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,Somerset Road,,,,,,continued
+resident,Somerset Road,,Hollis ho,Alfd. Jas.,Herbert,,
+resident,Somerset Road,,Vernon house,John,Tatchell,,
+street,Somerton Road,,,,,"From ""Cross Hands,"" Chepstow-road, to Nash-road. [LEFT HAND SIDE.]"
+resident,Somerton Road,,,Hy.,Shorney,,"Somerton cot"
+resident,Somerton Road,,,E. P.,Gunter,,"Field view"
+resident,Somerton Road,,,S. R.,Whiting,,"Melbourne ho"
+cross_street,Somerton Road,,,,,,"here is Mansel-street."
+resident,Somerton Road,,Villa building,,,,
+resident,Somerton Road,,Devoran,E. M.,Rickard,,
+resident,Somerton Road,,Ackergill,Alex.,Frazer,,
+resident,Somerton Road,,Clare villa,,,,void
+resident,Somerton Road,,Somerton house,Charles,Downing,Monte ville,
+cross_street,Somerton Road,,,,,,"here is Llewellyn-street."
+resident,Somerton Road,,Somerton house,F.,Pinkard,,
+resident,Somerton Road,,Java villa,W. H.,Hollingdale,,
+resident,Somerton Road,,,Thos. Hy.,Drew,,"Somerton v"
+resident,Somerton Road,,,John Wm.,Parkin,"bailiff, Somerton farm",
+cross_street,Somerton Road,,,,,,"here is Libeneth-road."
+resident,Somerton Road,,,,Frederick,Giles,labourer,
+resident,Somerton Road,,,Chas. J.,Burchell,,"Somerton v"
+resident,Somerton Road,,,,Thomas,Horton,haulier,
+resident,Somerton Road,,Greystone house,Edwd.,Bate,,
+resident,Somerton Road,,,,Mrs Sarah,Long,,
+resident,Somerton Road,,,,,,SOMERTON LANE-
+resident,Somerton Road,,,,Jeremiah,Davies,,Orb works
+resident,Somerton Road,,,,Sam,Spencer,,Orb works
+resident,Somerton Road,,,,Frank,Spencer,,Orb works
+resident,Somerton Road,,,,William,Thomas,police,
+resident,Somerton Road,,,,,,Withey cottage-void
+resident,Somerton Road,,,,John,Owen,labourer,
+cross_street,Somerton Road,,,,,,"here is Cromwell-road."
+resident,Somerton Road,,,,Mrs Ann,Lewis,Common,
+resident,Somerton Road,,Somerton cottage,William,Tirrell,"wareho'man",
+resident,Somerton Road,,,,Mrs,Brain,,
+resident,Somerton Road,,,,,,Somerton house-void
+resident,Somerton Road,,,,John,Harry,labourer,
+resident,Somerton Road,,,,John,Edwards,coalman,
+resident,Somerton Road,,Black Horse,Clara,Anstee,,
+resident,Somerton Road,,,,Jas. Ed.,Pearce,"mas. mariner",
+cross_street,Somerton Road,,,,,,"here is Boundary-road."
+resident,Somerton Road,,,,Edward,Harris,shopkeeper,
+resident,Somerton Road,,,,Thomas,Burns,ironworker,
+resident,Somerton Road,,,,Ernest,Bowen,labourer,
+resident,Somerton Road,,BAPTIST CHAPEL,,,,
+cross_street,Somerton Road,,,,,,"here is Downing-street."
+resident,Somerton Road,,,,E.,Parsons,hawker,
+resident,Somerton Road,,,,B.,Beard,ironworker,
+resident,Somerton Road,,,,Henry Chas.,Pitman,labourer,
+resident,Somerton Road,,,,G.,Coldrick,labourer,
+resident,Somerton Road,,King of Prussia,J. H.,White,,
+resident,South Market Street,,,,John T.,Smith,,
+resident,South Market Street,,,,Robert,Keeble,platelayer,
+resident,South Market Street,,,,Mrs,Horton,"baker, etc.",
+resident,South Market Street,,,,Benjamin,Johnson,,
+resident,South Market Street,,,,James,McCarthy,,
+resident,South Market Street,,,,Eb.,Phillips,lime burner,
+resident,South Market Street,,,,John,Robinson,,
+resident,South Market Street,,,,Henry,Turner,furnaceman,
+resident,South Market Street,,,,David,Paul,shoemaker,
+resident,South Market Street,,,,Thomas,Richards,,
+resident,South Market Street,,,,George,Gregory,,
+resident,South Market Street,,,,Mrs Flora,Watts,,
+resident,South Market Street,,Newerne,Luke,Evans,,
+resident,South Market Street,,,,Thomas,Cartridge,labourer,
+resident,South Market Street,,,,Abraham Chas.,Blake,smith,
+resident,South Market Street,,,,Mrs,Berry,Post office,
+resident,South Market Street,,ST. ANDREW'S CHURCH,,,,
+resident,South Market Street,,Old Chapel,,,,
+street,South Market Street,,,,,,Dock-street to W. Market-street
+resident,South Market Street,1,,,Mrs C. M.,Davies,greengrocer,
+resident,South Market Street,2,,,Lawrence,Armstrong,,
+resident,South Market Street,3,,,Joseph,Barber,maltster,
+resident,South Market Street,4,,,Mrs Mary,Glynn,,
+resident,South Market Street,5,,,Fred W.,Lampre,labourer,
+resident,South Market Street,6,,,David,Mogford,moulder,
+cross_street,South Market Street,,,,,,"here is Winmill-street."
+resident,South Market Street,7,,,Albert,Kenny,tally clerk,
+resident,South Market Street,8,,,A. E.,Farmer,boilermaker,
+resident,South Market Street,9,,,John,Hurley,labourer,
+resident,South Market Street,10,,,,,void
+resident,South Market Street,11,,,Jos.,Hawkins,eng. driver,
+resident,South Market Street,12,,,Lewis,Perryman,checker,
+resident,South Market Street,15,,,Henry,Tanner,labourer,
+resident,South Market Street,16,,,John,Reeves,,
+resident,South Market Street,17,,,Edgar,Thomas,shipcarptr,
+resident,South Market Street,18,,,Frederick,Lewis,,
+resident,South Market Street,19,,,Mrs H.,Holland,shopkpr,
+resident,South Market Street,20,,,Thos.,Williams,labourer,
+resident,South Market Street,21,,,Michael,Ryan,mason,
+resident,South Market Street,22,,,Mrs Annie,Harris,,
+resident,South Market Street,23,,,H. G.,Westbury,stablemn,
+resident,South Market Street,24,,,John,Edwards,sawyer,
+resident,South Market Street,25,,,David,Nicholls,,
+resident,South Market Street,26,,,Henry,Welsh,smith,
+resident,South Market Street,27,,,Mrs Margaret,Coxon,,
+resident,South Market Street,28,,,John,Clark,labourer,
+resident,South Market Street,29,,,Mrs Elizabeth,Chappell,,
+resident,South Market Street,30,,,John,Mellon,trimmer,
+cross_street,South Market Street,,,,,,"here is East Market-street."
+resident,South Market Street,31,,,Mrs Sophia,Gill,shop,
+resident,South Market Street,,,Wm. S.,Teed,seaman,
+resident,South Market Street,32,,,James,Jones,boilermakr,
+resident,South Market Street,,,William,Dunk,engineer,
+resident,South Market Street,33,,,William,Critchley,"G.W.R.",
+resident,South Market Street,34,,,Mrs Margaret,Wilson,,
+resident,South Market Street,35,,,Mrs Johanna,Cecil,,
+resident,South Market Street,36,,,William,Tyler,labourer,
+resident,South Market Street,37,,,Richard,Drew,labourer,
+resident,South Market Street,38,,,William,Perry,rigger,
+resident,South Market Street,39,,,,,Void,
+resident,South Market Street,40,,,,,do,
+resident,South Market Street,41,,,William,Harris,striker,
+resident,South Market Street,42,,,William,Hughes,packer,
+resident,South Market Street,43,,,Aug.,Tanner,crane driver,
+resident,South Market Street,44,,,T.,Cochrane,W. labourer,
+resident,South Market Street,45,,,Herbert,Williams,haulier,
+resident,South Market Street,46,,,Albert,Williams,labourer,
+resident,South Market Street,47,,,William,James,labourer,
+resident,South Market Street,48,,,Wm. H.,Morgan,labourer,
+resident,South Market Street,49,,,John,Vick,wagon repairer,
+resident,South Market Street,50,,,William,Davies,sawyer,
+resident,South Market Street,51,,,Mrs Sarah,Jones,,
+resident,South Market Street,52,,,Richard,Richards,"factory",
+street,Speke Street,,,,,,Opposite Maindee Schools.
+resident,Speke Street,1,,,,,Void
+resident,Speke Street,2,,,,Watkins',,"Stores & packing warehouses"
+resident,Speke Street,3,,,Thomas,Gardner,rigger,
+cross_street,Speke Street,,,,,,"here is Livingstone-place."
+resident,Speke Street,4,,,James,Rowe,plasterer,
+resident,Speke Street,5,,,Mich.,O'Brien,warehoman,
+resident,Speke Street,6,,,John,Whittle,"guard,G.W.R",
+resident,Speke Street,7,,,,,Void
+street,Spencer Road,,,,,,Caerau-rd. to Llanthewy-rd.
+street,Spring Gardens,,,,,,Courtybella, Cardiff-road.
+resident,Spring Gardens,1,,,Tom,Ray,carriage smith,
+resident,Spring Gardens,2,,,Jas.,Pickford,eng. driver,
+resident,Spring Gardens,3,,,Joseph,Llewellyn,labourer,
+resident,Spring Gardens,4,,,Mrs,Geary,,
+resident,Spring Gardens,5,,,A.,Hobbs,engine driver,
+resident,Spring Gardens,6,,,William,Dance,labourer,
+resident,Spring Gardens,7,,,Chas.,Strickland,labourer,
+resident,Spring Gardens,,Board Schools,,,,
+street,Spring Street, C.,,,,,,"From Redland-street. [LEFT HAND SIDE.]"
+resident,Spring Street, C.,,,,F. J.,Weaver,carpenter,
+resident,Spring Street, C.,,Fairfield,F. W.,Jones,clerk,
+resident,Spring Street, C.,,,,William,Watkins,painter,
+resident,Spring Street, C.,,,,William,Reeves,carpenter,
+resident,Spring Street, C.,,,,John,Gillard,plumber,
+cross_street,Spring Street, C.,,,,,,(return.)
+resident,Spring Street, C.,,,,William,Giles,labourer,

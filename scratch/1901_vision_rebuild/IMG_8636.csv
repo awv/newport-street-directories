@@ -1,0 +1,142 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,Friars Road,,,,Faulkner E. H.,,"Colyton"
+resident,Friars Road,,,,Phillips Worgan,,"Cefncoch"
+resident,Friars Road,,,,Taylor Alexander,,"Clovelly"
+resident,Friars Road,,,,Graham T. C.,,"Parkhurst"
+resident,Friars Road,,,,Cox W. G.,,"Cheddleton"
+resident,Friars Road,,,,Philbrick Mrs R. F.,,"Greylands"
+resident,Friars Road,,,,Hammond Mrs George,,"Briarglen"
+resident,Friars Road,,,,Willis C. A.,,"Mossbank"
+resident,Friars Road,,,,Joyce Charles,,"Elmhurst"
+street,Ford Street, B.,,,,,,"From 9 Tunnel-terrace."
+resident,Ford Street, B.,1,,,Bright Chas.,signal fitter,
+resident,Ford Street, B.,2,,,Smith Henry,blacksmith,
+resident,Ford Street, B.,3,,,Spanswick Hy.,labourer,
+resident,Ford Street, B.,4,,,Lewarne W. F.,machinist,
+resident,Ford Street, B.,5,,,Clapp Edwd. John,haulier,
+resident,Ford Street, B.,6,,,Wheeler E. J.,cab propri'tr,
+resident,Ford Street, B.,7,,,Tuck John,cabman,
+resident,Ford Street, B.,8,,,Stephens W.,railway porter,
+resident,Ford Street, B.,9,,,Moyle John,storekeeper,
+street,Fothergill Street,,,,,,From 54 Emlyn-street.
+cross_street,Fothergill Street,,,,,,[RIGHT HAND SIDE.]
+resident,Fothergill Street,,,"Davies T. H., smith's shop",,,
+resident,Fothergill Street,1,,,Harrington Daniel,mason,
+resident,Fothergill Street,2,,,Downey James,striker,
+resident,Fothergill Street,3,,,Collins John,labourer,
+resident,Fothergill Street,,,"Linton John, builder's yd",,,
+resident,Fothergill Street,14,,,Stanton William,labourer,
+resident,Fothergill Street,15,,,Lewis John,labourer,
+resident,Fothergill Street,16-17,,,Downey Mrs,,
+resident,Fothergill Street,18,,,Harris Ann,,
+resident,Fothergill Street,19-20,,,Kahalar John,lab'rer,
+resident,Fothergill Street,21,,,Fitzgerald Mich.,labourer,
+resident,Fothergill Street,22,,,Kahaler William,,
+resident,Fothergill Street,23-24,,,Hurley Bartho.,trim'r,
+resident,Fothergill Street,25,,,Scott Joseph,hawker,
+street,Francis Street,,,,,,From 10 Alma-st. to Lewis-st.
+cross_street,Francis Street,,,,,,[LEFT HAND SIDE.]
+resident,Francis Street,1,,,Waite F.,coal merchant,
+resident,Francis Street,2,,,Floud Thos.,wagon builder,
+resident,Francis Street,3,,,Collins Nicholas,weighmn,
+resident,Francis Street,4,,,Dacey James,,
+resident,Francis Street,5,,,Levy Rev Jacob,,
+resident,Francis Street,,Jewish Synagogue,,,,
+resident,Francis Street,6,,,Bowen Frank,fitter,
+resident,Francis Street,7,,,Davies Mrs Jane,,
+resident,Francis Street,8,,,Jukes John W.,assistant,
+resident,Francis Street,9,,,Francis Mrs Leah,,
+street,Frank Street,,,,,,From Bond-st., East Usk-rd.
+cross_street,Frank Street,,,,,,[LEFT HAND SIDE.]
+resident,Frank Street,1,,,Blackley James,groom,
+resident,Frank Street,2,,,Lee Arthur,haulier,
+resident,Frank Street,3,,,Pitman Walter,carpenter,
+resident,Frank Street,4,,,Swift Walter,painter,
+resident,Frank Street,5,,,Brunt John,butcher,
+cross_street,Frank Street,,,,,,(return.)
+resident,Frank Street,6,,,Morrish G.,baker,
+resident,Frank Street,7,,,Dando David T.,painter,
+resident,Frank Street,8,,,Lewis Albert,plumber,
+resident,Frank Street,9,,,McNeil John,stoker,
+resident,Frank Street,10,,,Bailey Isaac,police,
+resident,Frank Street,11,,,Coke George,haulier,
+resident,Frank Street,12,,,Angall George,polisher,
+resident,Frank Street,13,,,Janes Mrs Eliza,,
+resident,Frank Street,14,,,Ackerman Jos.,G.W.R.,
+street,Frederick Street, P.,,,,,,"From 80 Commercial-road."
+resident,Frederick Street, P.,1-2,,,Sherram George,bootmaker,
+resident,Frederick Street, P.,3,,,Roach William,labourer,
+resident,Frederick Street, P.,4,,,Manship Stephen,trim'r,
+resident,Frederick Street, P.,5,,,Alpin James,boatman,
+resident,Frederick Street, P.,6,,,Danaher John,labourer,
+resident,Frederick Street, P.,7,,,Coxon George,carpenter,
+resident,Frederick Street, P.,8,,,Jackson John Henry,,
+resident,Frederick Street, P.,9,,,Williams Mrs Emma,,
+resident,Frederick Street, P.,10,,,Cashman David,striker,
+resident,Frederick Street, P.,11,,,Madden James,labourer,
+resident,Frederick Street, P.,12,,,Hopkins Wm.,haulier,
+resident,Frederick Street, P.,13,,,Pritchard Hy.,carpenter,
+resident,Frederick Street, P.,14,,,Thompson Aug.,labourer,
+resident,Frederick Street, P.,15,,,Sullivan John,coal trim'r,
+resident,Frederick Street, P.,16,,,Pope William,mason,
+resident,Frederick Street, P.,17,,,Thomas Mrs Mary Ann,,
+resident,Frederick Street, P.,18,,,Price James,labourer,
+resident,Frederick Street, P.,19,,,Desmond Cor.,labourer,
+resident,Frederick Street, P.,20,,,Jones Alfred,guard,
+resident,Frederick Street, P.,21,,,Criddle R.,engine driver,
+resident,Frederick Street, P.,22,,,Gibbon Ivor,guard,
+cross_street,Frederick Street, P.,,,,,,here is Broad-street.
+resident,Frederick Street, P.,23,,,Thomas Mrs M. A.,,
+resident,Frederick Street, P.,24,,,Woodworth E.,seaman,
+resident,Frederick Street, P.,25,,,Gillingham Charles,,
+resident,Frederick Street, P.,26,,,Turner James H.,fitter,
+resident,Frederick Street, P.,27,,,Bailey Mrs Martha,,
+resident,Frederick Street, P.,,,Fura Joseph,rigger,
+resident,Frederick Street, P.,28,,,Williams Joseph,labourer,
+resident,Frederick Street, P.,29,,,Russell Thos.,blacksmith,
+resident,Frederick Street, P.,30,,,Manship S. E.,coal trim'r,
+resident,Frederick Street, P.,31,,,Cooper William,engineer,
+resident,Frederick Street, P.,,,Jordan's foundry,,
+street,Friars Road,,,,,,123 Stow-hill to Belle Vue-park
+resident,Friars Road,3,,,Baker Geo.,,"Henbury villa"
+resident,Friars Road,4,,,Wilks Miss Emily,,
+resident,Friars Road,5,,,Clist William,gardener,
+resident,Friars Road,6,,,Tibble Mrs Martha,,
+resident,Friars Road,,,,Watts Mrs E. H.,,"The Friars"
+resident,Friars Road,7,,,Downer Alfred,gardener,
+resident,Friars Road,8,,,Holmes Charles,coachman,
+street,Friars Street,,,,,,From 34 Commercial-street.
+resident,Friars Street,7,,,Eannes Frank,engraver,
+resident,Friars Street,4,,,Durston Bros,bootmakrs,
+resident,Friars Street,6,,,Advertisers' Billposting Co.—J. W. Jones,mangr,
+resident,Friars Street,8,,,Fox C. J.,architect,
+resident,Friars Street,,,"Heybyrne & Thomas, insurance agents, etc.",,,
+resident,Friars Street,12,,,"Heybyrne & Brown, insurance brokers, etc.",,,
+resident,Friars Street,,,"Mon. and S. Wales P. B. Building Society",,,
+cross_street,Friars Street,,,,,,here is Dock-street.
+resident,Friars Street,,,Baker W. A. & Co.'s stores,,,
+resident,Friars Street,16,,,Water Works Insp. office,,
+resident,Friars Street,18,,,Water Works yards,,
+resident,Friars Street,20,,,Groves Hugh,inspector,
+resident,Friars Street,22,,,Huntley Simeon,,
+resident,Friars Street,24,,,Sanitary yard,,
+resident,Friars Street,26,,,Weights & Measures,and Gas Meter office,,
+street,Fulford's Cottages,,,,,,Nos. 25-7 Victoria-avenue.
+street,Gear Street,,,,,,From foot of Waterloo-road.
+cross_street,Gear Street,,,,,,[LEFT HAND SIDE.]
+resident,Gear Street,1,,,Williams Alfd.,signalman,
+resident,Gear Street,3,,,Eynon Mrs James,,
+resident,Gear Street,5,,,Williams Henry,rigger,
+resident,Gear Street,7,,,Evans John,labourer,
+resident,Gear Street,9,,,Gibbs John,signal dept.,
+resident,Gear Street,11,,,Pritchard Wm.,shunter,
+resident,Gear Street,13,,,Pugh Miss L.,grocer,
+resident,Gear Street,10,,,Collings W. N.,clerk,
+resident,Gear Street,8,,,Williams David,moulder,
+resident,Gear Street,6,,,Shingler George,stoker,
+resident,Gear Street,4,,,Pugh Jno.,Pill wagon wks,
+resident,Gear Street,2,,,Cross James,H.M.C.,
+street,Gaskell Street,,,,,,Off Corporation-road.
+cross_street,Gaskell Street,,,,,,[LEFT HAND SIDE.]
+resident,Gaskell Street,1,,,Harley John,stoker,
+resident,Gaskell Street,3,,,Payne Thomas,,

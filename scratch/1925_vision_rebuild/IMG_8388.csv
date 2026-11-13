@@ -1,0 +1,179 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,DAN STREET,,,,,,
+resident,DAN STREET,38,,Wm.,Bragg,carpenter,
+resident,DAN STREET,36,,Walter,Harper,wire drawer
+resident,DAN STREET,34,,John H.,Frederick,engine driver
+resident,DAN STREET,32,,Arthur,Dent,butcher
+resident,DAN STREET,30,,Henry,Irvine,gasfitter
+resident,DAN STREET,28,,Frederick,White,,
+resident,DAN STREET,26,,Wm. J.,Gurney,grocer
+resident,DAN STREET,24,,Tom,Gunstome,ironworker
+resident,DAN STREET,22,,E. H.,Williams,ironwnkr
+resident,DAN STREET,20,,Stanley V.,Wood,fitter
+resident,DAN STREET,18,,Gerald S.,Fitzgerald,,
+resident,DAN STREET,16,,G. T.,Nutt,moulder
+resident,DAN STREET,14,,Walter,Grey,labourer
+resident,DAN STREET,12,,Jos.,Haynes,rubber worker
+resident,DAN STREET,10,,George,Collins,civil serv
+resident,DAN STREET,8,,Thomas,Jones,painter
+resident,DAN STREET,6,,Trevor,Thomas,machinist
+resident,DAN STREET,4,,Albert John,Coles,fitter
+resident,DAN STREET,2,,Ernest,Lowe,ironworker
+street,DANIEL STREET,,"E 5",,,,
+cross_street,DANIEL STREET,,,,,,87 Alma-street to Cardiff-road
+cross_street,DANIEL STREET,,,,,,(LEFT HAND SIDE.)
+resident,DANIEL STREET,1,,T. R.,Jameson,decorator,
+resident,DANIEL STREET,1,,Mrs. Emily Jane,Jameson,,
+resident,DANIEL STREET,1,,W. & Sons,Moore,bldrs,
+resident,DANIEL STREET,2,,W.,Dando,assistant
+resident,DANIEL STREET,3,,James C.,Sheppard,,
+resident,DANIEL STREET,3,,J. & Sons,Mathias,bldrs
+resident,DANIEL STREET,4,,Albert,Jones,G.W.R.
+resident,DANIEL STREET,5,,E.,Attewell,brass moulder
+resident,DANIEL STREET,6,,Edward James,Price,,
+resident,DANIEL STREET,7,,George Hy.,Norvill,,
+resident,DANIEL STREET,8,,Albert W.,Horwood,,
+resident,DANIEL STREET,9,,Mrs. Mary,Whitehill,,
+resident,DANIEL STREET,10,,Wm.,Whitehill,fitter
+resident,DANIEL STREET,11,,Franics J.,Ingram,,
+resident,DANIEL STREET,12,,Henry Geo.,Taylor,carptr
+cross_street,DANIEL STREET,,,,,,(return)
+resident,DANIEL STREET,13,Daisy cottage,Miss F.,Hooper-White,,
+resident,DANIEL STREET,14,Myrtle ctg,J. E.,Thomas,,
+resident,DANIEL STREET,15,,Charles,Jones,manager
+resident,DANIEL STREET,16,,H. F.,Nancarrow,police
+resident,DANIEL STREET,17,Thorn cot,P.,Stratford,,
+resident,DANIEL STREET,18,,Mrs. Lily,Jones,,
+resident,DANIEL STREET,19,,Charles,Greening,,
+resident,DANIEL STREET,20,Broadway h,F. W.,Moore,,
+resident,DANIEL STREET,21,,Thomas S.,Skuse,,
+street,DAVID STREET,,"F 5",,,,
+cross_street,DAVID STREET,,,,,,7 Wolseley-st. to Mendalgief-rd.
+cross_street,DAVID STREET,,,,,,(LEFT HAND SIDE.)
+resident,DAVID STREET,1,,Edwin,Bale,labourer
+resident,DAVID STREET,2,,Albert,Powell,,
+resident,DAVID STREET,3,,James,Vodden,labourer
+resident,DAVID STREET,4,,Mrs. Clara,Stewart,,
+resident,DAVID STREET,5,,Ed.,Powell,coal trimmr
+resident,DAVID STREET,6,,Francis,Kendall,labourer
+resident,DAVID STREET,7,,Mrs. Louisa,Matson,,
+resident,DAVID STREET,8,,Wm.,Thomas,dock labr
+resident,DAVID STREET,9,,Henry,Foster,labourer
+resident,DAVID STREET,10,,Alfred,Bale,labourer
+resident,DAVID STREET,11,,Wm. J.,Stretch,smith
+cross_street,DAVID STREET,,,,,,(return)
+resident,DAVID STREET,12,,Jas.,Morris,Thos. trimmer
+resident,DAVID STREET,13,,Thomas,Foster,labourer
+resident,DAVID STREET,14,,Mrs. Elizabeth,Kerrell,,
+resident,DAVID STREET,15,,John,Lewis,loco. foreman
+resident,DAVID STREET,16,,A. E.,Moore,bricklayer
+resident,DAVID STREET,16,Allen Robert,,,,
+resident,DAVID STREET,17,,Mrs. Mary H.,Clayden,,
+resident,DAVID STREET,18,,John Joseph,Davey,,
+resident,DAVID STREET,19,,Edw.,Carruthers,seaman
+resident,DAVID STREET,20,,Mrs. Lily,Selle,,
+resident,DAVID STREET,21,,Wm.,Pittard,labourer
+resident,DAVID STREET,22,,Robert,Shepherd,labourer
+resident,DAVID STREET,23,,Henry,Richardson,,
+resident,DAVID STREET,23A,,Samuel,Ball,crane driver
+resident,DAVID STREET,24,,Miss E.,Holwell,,
+resident,DAVID STREET,25,,John,Waters,labourer
+resident,DAVID STREET,26,,Albert J.,Gardner,labr
+resident,DAVID STREET,27,,P. George,Durant,grocer
+street,DAWLEY STREET,,"E 3",,,,
+cross_street,DAWLEY STREET,,,,,,Off Corporation-road
+street,DEAN STREET,,"C 3",,,,
+cross_street,DEAN STREET,,,,,,From 29 Church-road to Caerleon-road
+cross_street,DEAN STREET,,,,,,(LEFT HAND SIDE.)
+resident,DEAN STREET,1,,Isaiah P.,Shingler,painter
+resident,DEAN STREET,2,,Oliver,Parry,stoker
+resident,DEAN STREET,3,,Mrs. Elizabeth,Edmunds,,
+resident,DEAN STREET,4,,Edgar,Burman,bottler
+resident,DEAN STREET,5,,Mrs. Charlotte,Boddy,,
+resident,DEAN STREET,6,,Mrs. Annie,Wilkinson,,
+resident,DEAN STREET,7,,J.,Williams,fuel worker
+resident,DEAN STREET,8,,Edwin,Clifford,shop
+cross_street,DEAN STREET,,,,,,here is Junction-road
+resident,DEAN STREET,9,,Frank,Needs,,
+resident,DEAN STREET,10,,George,Thomas,labourer
+resident,DEAN STREET,11,,A. V.,Powell,quarryman
+resident,DEAN STREET,12,,Mrs. Emily,Hill,,
+resident,DEAN STREET,13,,Henry,Webley,porter
+resident,DEAN STREET,14,,Arthur,Betts,haulier
+resident,DEAN STREET,15,,Jas. J.,May,seaman
+resident,DEAN STREET,16,,Chas.,Pring,crane dvr
+resident,DEAN STREET,17,,Mrs. Teresa,Woodward,,
+resident,DEAN STREET,18,,Chas.,Parry,dock wkr
+resident,DEAN STREET,19,,Jas.,Gorman,Clytha brew.
+resident,DEAN STREET,20,,Charles R.,Matson,mason
+resident,DEAN STREET,21,,Mrs, Margaret,Parfitt,,
+cross_street,DEAN STREET,,,,,,here is Caerleon-road
+resident,DEAN STREET,22,,Harry,Williams,upholstr
+resident,DEAN STREET,23,,Thos. J.,Bebell,ganger
+resident,DEAN STREET,24,,Mrs. Laura,Munsch,,
+resident,DEAN STREET,25,,Mrs. Margaret,Griffiths,,
+resident,DEAN STREET,26,,Alfd. Geo.,Jones,decorator
+resident,DEAN STREET,27,,Robert,Raisen,driver
+resident,DEAN STREET,28,,Mrs. Rosina,Cousins,,
+resident,DEAN STREET,29,,Thos. G.,Cole,G.W.R.
+resident,DEAN STREET,30,,James,Trout,labourer
+resident,DEAN STREET,31,,A. E.,Keevil,coach bldr
+resident,DEAN STREET,32,,Thomas C.,Jones,,
+resident,DEAN STREET,33,,Albert,Moss,labourer
+resident,DEAN STREET,34,,Thos.,Wonnacott,seaman
+resident,DEAN STREET,35,,F.,Dunning,storekeeper
+resident,DEAN STREET,36,,Henry,Bowles,mason
+resident,DEAN STREET,37,,Alfred J.,Tidball,labr
+resident,DEAN STREET,38,,Wm. S.,James,weighman
+resident,DEAN STREET,39,,Tom.,Hodge,labourer
+cross_street,DEAN STREET,,,,,,here is Junction-road
+resident,DEAN STREET,40,,Horace L.,Cadwallader,boot and cycle shop
+resident,DEAN STREET,41,,John,Jones,labourer
+resident,DEAN STREET,42,,A.,Amesbury,ironworker
+resident,DEAN STREET,43,,Alfred George,Macklin,traveller
+resident,DEAN STREET,44,,John,Hoare,labourer
+resident,DEAN STREET,45,,Mrs. Alice,Wareham,,
+resident,DEAN STREET,46,,Charles,Greedy,mason
+resident,DEAN STREET,47,,Francis,Foote,drover
+resident,DEAN STREET,48,,J.,Young,motor driver
+street,DEPOT STREET,,"C 5",,,,
+cross_street,DEPOT STREET,,,,,,From 51 Bridge-street
+cross_street,DEPOT STREET,,,,,,(LEFT HAND SIDE)
+resident,DEPOT STREET,1,,W.,Rossitter,sawyer
+resident,DEPOT STREET,2,,Oscar R.,Trace,painter
+resident,DEPOT STREET,3,,Robert,Tout,foreman
+resident,DEPOT STREET,4,,John Hy.,Smith,seaman
+cross_street,DEPOT STREET,,,,,,(return)
+resident,DEPOT STREET,5,,Mrs. Ellen,Twohig,,
+street,DEVON PLACE,,"C 5",,,,
+cross_street,DEVON PLACE,,,,,,From Mill-st. to Godfrey-rd.
+cross_street,DEVON PLACE,,,,,,(LEFT HAND SIDE.)
+resident,DEVON PLACE,1,,John,Roberts,G.W.R.
+resident,DEVON PLACE,,Cleaver Edward,,,,warehsm
+resident,DEVON PLACE,2,,H. G.,Rigby,insur agent
+resident,DEVON PLACE,3,,Fredk. Wm.,Foster,carptr
+resident,DEVON PLACE,4,,Albert,Clayton,gardener
+resident,DEVON PLACE,5,,Mrs. Phoebe,Lippiatt,,
+resident,DEVON PLACE,6,,George,Hockey,clerk
+resident,DEVON PLACE,,Mayo Mrs. M.,,,,ladies outft
+resident,DEVON PLACE,7,,Hubert,Brimfield,,
+resident,DEVON PLACE,8,,Mrs. Harriett,Morgan,,
+resident,DEVON PLACE,9,,E. T.,Bryant,driver
+resident,DEVON PLACE,10,,Mrs.,Watkins,,
+resident,DEVON PLACE,11,,Mrs. Lucy Joan,Jenkins,,
+resident,DEVON PLACE,12,,John,Stanley,,
+resident,DEVON PLACE,13,,Miss M. J.,Pickering,,
+resident,DEVON PLACE,14,,H. J.,Ballinger,electr'cn
+resident,DEVON PLACE,15,,William John,Blackler,,
+resident,DEVON PLACE,16,,G. T.,Jenkins,signalman
+resident,DEVON PLACE,17,,Thos.,Evans,electrican
+resident,DEVON PLACE,18,,Ernest C.,Hews,bootmkr
+resident,DEVON PLACE,19,,Francis,Watkins,florist
+resident,DEVON PLACE,20,,L. & Son,Watkins,florists
+resident,DEVON PLACE,,G.W.R. Loco & Engineers' offices,,,,,,
+resident,DEVON PLACE,27,,Mrs. Augusta,Hayter,,
+resident,DEVON PLACE,28,,Mrs. R. E.,Jenkins,,
+resident,DEVON PLACE,29,,Sam,Woodroffe,G.W.R.
+resident,DEVON PLACE,30,,Arthur E.,Davies,G.W.R.
+resident,DEVON PLACE,31,,John,Kibblewhite,guard
+resident,DEVON PLACE,32,,William,Lewis,eng. driver

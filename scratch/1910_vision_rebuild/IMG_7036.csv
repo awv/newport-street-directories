@@ -1,0 +1,157 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Bar,,,,,,
+resident,Bar,28,,Thos. Wm.,Butler,fitter,
+resident,Bar,27,,George,Marshall,porter,
+resident,Bar,29,,J.,Waters,bath attndnt,
+resident,Bar,31,Piercefield,J. W.,Jones,,
+resident,Bar,33,Belmont,F.,Dibdon,clerk,
+resident,Bar,35,,Mrs. M.,Gallivan,,
+resident,Bar,37,,Edwin,Collins,butcher,
+resident,Bar,39,,George,Mann,waterman,
+resident,Bar,41,,Edwin Wm.,Kirby,tailor,
+resident,Bar,43,,John Thos.,Jones,grocer,
+resident,Bar,45,,Albt. Geo.,Duffin,G.W.R.,
+resident,Bar,47,,Alfd. James,Loade,G.W.R.,
+resident,Bar,49,,Walter,Dear,carpenter,
+resident,Bar,51,,Mrs. M. J.,Higgins,,
+resident,Bar,52,,Thos.,Wayland,carpenter,
+cross_street,Bar,,,,,,The Barracks. — See Local information
+resident,Bar,,Barrack farm,Chas.,Williams,cowman,
+cross_street,Bar,,,,,,(return)
+resident,Bar,146,,George,Jones,haulier,
+resident,Bar,144,,John Wm.,Lewis,R.F.A.,
+resident,Bar,142,,Void,,Void,
+resident,Bar,140,,Chas.,Bright,labourer,
+resident,Bar,138,,John,Smith,grocer,
+resident,Bar,136,,Wm.,Edwards,photogpr,
+resident,Bar,134,,Reuben,Lockley,,
+resident,Bar,132,,G.,Williams,glass blwr,
+resident,Bar,130,,Void,,Void,
+resident,Bar,128,,James,Brant,linesman,
+resident,Bar,126,,O. G.,Pearce,labourer,
+resident,Bar,124,,Void,,Void,
+resident,Bar,122,,Henry,Blute,R.G.A.,
+resident,Bar,120,,H. J.,Fox,ship's steward,
+resident,Bar,118,,James,Taylor,labourer,
+resident,Bar,116,,Arthur,Jobling,seamen,
+resident,Bar,114,,Mrs. E.,Connell,,
+resident,Bar,112,,Void,,Void,
+resident,Bar,110,,Arthur,Rawlinson,,
+resident,Bar,102,,George,Jones,labourer,
+cross_street,Bar,,,,,,Vacant sites
+resident,Bar,100,,Robert,Clarke,labourer,
+resident,Bar,,Robt.,Baker,ironworker,
+resident,Bar,,,Alfred,Small,mason,
+resident,Bar,,,Thos.,Wood,labourer,
+resident,Bar,,,Geo.,Collins,foundryman,
+resident,Bar,,,Mrs. E.,Sawyer,,
+resident,Bar,,,Edwin J.,Joseph,clerk,
+resident,Bar,,,Albert,Fox,mason,
+resident,Bar,,,Hy.,Crowhurst,staff-sgt,
+resident,Bar,,Eschowe,Chas.,Pratt,,
+resident,Bar,,Penylan farm,T.,Attewell,,
+resident,Bar,58,,,Melton,George,
+resident,Bar,56,,,Boorman,A. H.,
+resident,Bar,54,,,Charles,W. sanitary insp.,
+resident,Bar,52,,C. E.,Steer,compositor,
+resident,Bar,50,,John,Weeks,nailmaker,
+resident,Bar,48,,Edward,Bennett,police,
+resident,Bar,46,,Thomas,Allen,,
+resident,Bar,44,,Mrs. Elizabeth,Whitfield,,Caldicot James; police
+resident,Bar,42,,Wm.,Taylor,police sergt.,
+resident,Bar,40,,T. W.,Chapman,,
+resident,Bar,38,,Joseph,Bishop,foreman,
+resident,Bar,36,,James,Cox,Winberg
+resident,Bar,34,,A. W.,Farmer,Woodside
+resident,Bar,32,Arundel villa,Void,,,Void
+resident,Bar,30,Malvern villa,Dd.,Higgs,,
+resident,Bar,28,,Thomas,Bray,,
+resident,Bar,26,,Void,,Void,
+resident,Bar,24,,Mrs. L. M.,Allen,,
+resident,Bar,22,,Harry,Hobbs,butcher
+resident,Bar,20,,John,Stiles,haulier
+resident,Bar,18,,Mrs. A.,Baggs,,
+resident,Bar,16,,Joseph,Burrows,postman
+resident,Bar,14,,Hy.,Howells,upholsterer
+resident,Bar,12,,Wm.John,Gay,labourer
+resident,Bar,10,,Mrs. Elizabeth,Jeffs,,
+resident,Bar,8,,Chas.,Stacey,gardener
+resident,Bar,6,,Rupert,Smith,plasterer
+resident,Bar,4,,W. J.,Powell,,
+resident,Bar,2,,Alf.,Thompson,P.O. INSP.
+street,Barthropp Street, E,,,,,,Off Ifor-street.
+cross_street,Barthropp Street, E,,,,,,[LEFT HAND SIDE.]
+resident,Barthropp Street, E,2,,Void,,Void,
+resident,Barthropp Street, E,4,,do.,,,
+resident,Barthropp Street, E,6,,Edwd.,Aldersea,iron wkr
+resident,Barthropp Street, E,8,,John,Goodread,ironwrkr
+resident,Barthropp Street, E,10,,Job,Jones,do
+resident,Barthropp Street, E,12,,Void,,Void,
+resident,Barthropp Street, E,14,,Hy.,Loveridge,labourer
+resident,Barthropp Street, E,16,,Mark,Pope,plasterer
+resident,Barthropp Street, E,18,,Richard,Phipps,,
+resident,Barthropp Street, E,20,,Thos.,Pritchard,labourer
+resident,Barthropp Street, E,22,,Chas.,Smith,ironworker
+cross_street,Barthropp Street, E,,,,,,(return)
+cross_street,Barthropp Street, E,,,,,,Vacant sites
+resident,Barthropp Street, E,1,,Geo.,Fullard,ironworker
+street,Bassalleg Road, D 6,,,,,,From "Handpost" Stow-hill.
+cross_street,Bassalleg Road, D 6,,,,,,[RIGHT HAND SIDE.]
+resident,Bassalleg Road, D 6,2,Montpelier,Mrs. M.,Sadler,Handpost
+resident,Bassalleg Road, D 6,4,,Mrs. Elizabeth,Phillips,,
+cross_street,Bassalleg Road, D 6,,,,,,here is Ombersley-road.
+resident,Bassalleg Road, D 6,6,Deansgate,Void,,Void,
+resident,Bassalleg Road, D 6,8,Ridgebourne,Mrs. Elizabeth,Ball,,
+resident,Bassalleg Road, D 6,10,,Vernon N.,Johnson,,
+resident,Bassalleg Road, D 6,12,Monway,Chas. R.,Yates,,
+resident,Bassalleg Road, D 6,14,Wentwood,Thos.,Pullin,,
+resident,Bassalleg Road, D 6,16,,F. R.,Sims,,
+resident,Bassalleg Road, D 6,18,,Percy C.,Dix,,
+resident,Bassalleg Road, D 6,20,St. Albans,J.,O'Sullivan,,
+resident,Bassalleg Road, D 6,22,Ribbesford,,Newcombe,,
+resident,Bassalleg Road, D 6,24,Cartref,F. S. W.,May,,
+resident,Bassalleg Road, D 6,26,Penlee,David,Jones,,
+resident,Bassalleg Road, D 6,28,Kenton,Mrs. S. J.,Richardson,,
+resident,Bassalleg Road, D 6,30,Hefred,Mrs. A.,Price,,
+resident,Bassalleg Road, D 6,32,Penrhiw,Alfred S.,Hayes,,
+resident,Bassalleg Road, D 6,34,Homewood,R. D.,Mitcalfe,,
+resident,Bassalleg Road, D 6,36,Sunnyside,H. B.,Dix,,
+cross_street,Bassalleg Road, D 6,,,,,,here is West Park-road.
+resident,Bassalleg Road, D 6,38,West Park ho,H.,Davis,,
+resident,Bassalleg Road, D 6,40,Usk view,Hy. W.,Davis,,
+resident,Bassalleg Road, D 6,42,Wanstead,A. C.,Harvey,,
+resident,Bassalleg Road, D 6,44,Gatchel,G. G.,Pearse,,
+resident,Bassalleg Road, D 6,46,The Cemetery,Godfrey Chas.,Pearse,,
+cross_street,Bassalleg Road, D 6,,,,,,THE CEMETERY
+cross_street,Bassalleg Road, D 6,,,,,,(return)
+resident,Bassalleg Road, D 6,33,Stelvio,Mrs. C. H.,Bailey,,
+resident,Bassalleg Road, D 6,31,Quarleston,L. H.,Hornby,,
+resident,Bassalleg Road, D 6,29,Quantock,Miss,Latch,,
+resident,Bassalleg Road, D 6,27,Bronwydd,A. C.,Parry,,
+resident,Bassalleg Road, D 6,25,Hazlemere,Ed.,Foreman,,
+resident,Bassalleg Road, D 6,23,Tynmawr,Fredk.,Howard,,
+resident,Bassalleg Road, D 6,21,Haldon,R.,Elliott,,
+resident,Bassalleg Road, D 6,19,Lismore,Rbt.,Langlands,,
+resident,Bassalleg Road, D 6,17,Ernest,Geo.,Sully,,
+resident,Bassalleg Road, D 6,15,Chingford,D. W.,Roberts,,
+resident,Bassalleg Road, D 6,13,Hill crest,Chas.,Collier,,
+resident,Bassalleg Road, D 6,11,Lustleigh,T.Arthur,Eaves,,
+resident,Bassalleg Road, D 6,9,The Rylands,T.H.,Railton,,
+cross_street,Bassalleg Road, D 6,,,,,,Vacant sites
+resident,Bassalleg Road, D 6,7,St. Heliers,Geo. E.,Banks,,
+resident,Bassalleg Road, D 6,5,Verulam,A. F.,Lonnon,,
+resident,Bassalleg Road, D 6,3,Royston,Hy. C.,Clark,,
+resident,Bassalleg Road, D 6,1,Culross,Wm. S.,Ford,,
+street,Batchelor Road, D 4,,,,,,From 193 Caerleon-road.
+cross_street,Batchelor Road, D 4,,,,,,[LEFT HAND SIDE.]
+resident,Batchelor Road, D 4,1,,,William,Brewer,
+resident,Batchelor Road, D 4,3,,,Maurice A.,Lydeard,
+resident,Batchelor Road, D 4,5,,,Charles,Chapman,clerk
+resident,Batchelor Road, D 4,7,,,Anthony,Pugsley,
+resident,Batchelor Road, D 4,9,,,C. F.,Pugsley,clerk
+resident,Batchelor Road, D 4,11,,,H. E.,Case,
+resident,Batchelor Road, D 4,13,,,Evan,Evans,insp.Alex.dk
+resident,Batchelor Road, D 4,15,,Vacant site,,,
+resident,Batchelor Road, D 4,17,,,J. T.,Woolley,
+resident,Batchelor Road, D 4,19,Mount view,W. E.,Woolley,,
+resident,Batchelor Road, D 4,21,,,H. E.,Morris,clerk

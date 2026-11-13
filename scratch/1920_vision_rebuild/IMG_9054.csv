@@ -1,0 +1,173 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,SPRING GARDENS.,,,,,"E 5","Countyfella, Cardiff-road"
+cross_street,SPRING GARDENS.,,,,,,SPRING GARDENS SCHOOL
+street,SPRING STREET.,,,,,"B 4","From Redland-street"
+cross_street,SPRING STREET.,,,,,,(LEFT HAND SIDE)
+resident,SPRING STREET.,1,,Mrs. E.,Berry,,
+resident,SPRING STREET.,3,,Luther,Fidoe,traveller,
+resident,SPRING STREET.,5,,William Hy.,White,,
+resident,SPRING STREET.,7,,Alfred,Bennett,,
+resident,SPRING STREET.,9,,Arthur Hy.,Latham,chef,
+cross_street,SPRING STREET.,,,,,,(return)
+resident,SPRING STREET.,10,,Edward,Watkins,seaman,
+resident,SPRING STREET.,8,,Robert,Mack,G.W.R.,
+resident,SPRING STREET.,6,,Wm.,Halliday,foreman,
+resident,SPRING STREET.,4,,Jesse,Roberts,,
+resident,SPRING STREET.,2,,Edgar,Norvill,painter,
+street,STAFFORD ROAD.,,,,,"C 3","From 257 Caerleon-road to Railway"
+cross_street,STAFFORD ROAD.,,,,,,(LEFT HAND SIDE.)
+resident,STAFFORD ROAD.,1,,Arthur,Cain,clerk,
+resident,STAFFORD ROAD.,3,,Mrs. R.,Arnold,,
+resident,STAFFORD ROAD.,5,,Mrs. William,Powell,,
+resident,STAFFORD ROAD.,7,,Thos.,Fairfax,furnaceman,
+resident,STAFFORD ROAD.,9,,J. R.,Yalland,warehouseman,
+resident,STAFFORD ROAD.,11,,Wm. H.,White,insurance agent,
+resident,STAFFORD ROAD.,13,,J. Leo,Stretch,seaman,
+cross_street,STAFFORD ROAD.,,,,,,here is Durham-road
+resident,STAFFORD ROAD.,15,,Arthur M.,Smith,,
+resident,STAFFORD ROAD.,17,,H.,Oliver,motor mechanic,
+resident,STAFFORD ROAD.,19,,C. L.,Beard,shipwright,
+resident,STAFFORD ROAD.,21,,Ernest Frank,Kimmins,,
+resident,STAFFORD ROAD.,23,,Thos.,Griffiths,weighman,
+resident,STAFFORD ROAD.,25,,Jesse,Thomas,fitter,
+resident,STAFFORD ROAD.,27,,Mrs. A. E.,Bready,,
+resident,STAFFORD ROAD.,29,,William Alfred,Gulley,,
+resident,STAFFORD ROAD.,31,,Edgar John,Morgan,fitter,
+resident,STAFFORD ROAD.,33,,Frank,Evans,postman,
+resident,STAFFORD ROAD.,35,,James,Wearing,,
+resident,STAFFORD ROAD.,37,,Geo. A.,Morgan,mechanic,
+resident,STAFFORD ROAD.,39,,A. F.,Butcher,carpenter,
+resident,STAFFORD ROAD.,41,,Samuel John,Gunn,joiner,
+resident,STAFFORD ROAD.,43,,Arthur J.,Phipps,clerk,
+resident,STAFFORD ROAD.,45,,Albert,Cain,postman,
+resident,STAFFORD ROAD.,47,,James W.,Dance,G.W.R.,
+resident,STAFFORD ROAD.,49,,Wm. H.,Moore,blacksmith,
+resident,STAFFORD ROAD.,51,,Samuel,Slade,fitter,
+resident,STAFFORD ROAD.,53,,Alfred,Macey,G.W.R.,
+resident,STAFFORD ROAD.,55,,Humphrey,Lewis,manager,
+resident,STAFFORD ROAD.,57,,Henry,Jacobs,,
+resident,STAFFORD ROAD.,59,,E. J.,Belton,engineer,
+resident,STAFFORD ROAD.,,,J. W.,Gray,general dealer,
+cross_street,STAFFORD ROAD.,,,,,,(return)
+resident,STAFFORD ROAD.,20,,Edward,Mowbray,clerk,
+resident,STAFFORD ROAD.,18,,William,Mason,,
+cross_street,STAFFORD ROAD.,,,,,,here is Stockton-road
+resident,STAFFORD ROAD.,16,,Thomas,Inker,oilman,
+street,Somerton Road—continued.,,,,,,
+resident,Somerton Road—continued.,,,,Coldrick Mrs. Mary A.,,
+resident,Somerton Road—continued.,,,,Appleby Frank,,
+resident,Somerton Road—continued.,,,,Johnson William,,
+resident,Somerton Road—continued.,,,,Paul David,shoemaker,
+resident,Somerton Road—continued.,,,,Coldrick Wm. E.,junior,
+resident,Somerton Road—continued.,,,,Clifford Robert,,
+resident,Somerton Road—continued.,,,,Walters Sidney,ironworker,
+cross_street,Somerton Road—continued.,,,,,,CLAREMONT TERRACE—
+resident,Somerton Road—continued.,1,,,Middlcmiss William,,
+resident,Somerton Road—continued.,2,,,Thomas Thomas,,
+resident,Somerton Road—continued.,3,,,Hughes Elijah A.,insurance agent,
+resident,Somerton Road—continued.,4,,,Marriott Joseph,ironwrkr,
+resident,Somerton Road—continued.,,St. Elmo,Wm.,Kitson,,
+resident,Somerton Road—continued.,,,Steven,White,,
+resident,Somerton Road—continued.,,,,Brooks Fred.,sanitary insp'r,
+resident,Somerton Road—continued.,,,,Richards S.,ironworker,
+resident,Somerton Road—continued.,,,,Thomas H. E.,G.W.R.,
+resident,Somerton Road—continued.,,,,Higgins Elijah,ironworker,
+resident,Somerton Road—continued.,,,,Richards Richard,do,
+resident,Somerton Road—continued.,,,,Scott Charles,do,
+resident,Somerton Road—continued.,,,,Davies Owen,do,
+resident,Somerton Road—continued.,,,,Williams Frank,Post office,
+resident,Somerton Road—continued.,,,,Collett E.,carpenter,
+resident,Somerton Road—continued.,,,,Bird David,G.W.R.,
+resident,Somerton Road—continued.,,,,Johnson William,ironworker,
+resident,Somerton Road—continued.,,,,Matthews Wm.,,
+resident,Somerton Road—continued.,,,,Skeldon Walter,,
+resident,Somerton Road—continued.,,,,Smith John T.,ironworker,
+resident,Somerton Road—continued.,,,,Hubble Chas.,ironworker,
+resident,Somerton Road—continued.,,,,England Walter,,
+cross_street,Somerton Road—continued.,,,,,,ST. ANDREW'S CHURCH
+cross_street,Somerton Road—continued.,,,,,,Old Chapel
+street,SPRING STREET—continued.,,,,,,
+resident,SPRING STREET—continued.,27,,Michael,Burke,seaman,
+resident,SPRING STREET—continued.,28,,Cornelius,Denny,labourer,
+resident,SPRING STREET—continued.,29,,Wm.,Watkins,labourer,
+resident,SPRING STREET—continued.,30,,W.,Ottery,labourer,
+cross_street,SPRING STREET—continued.,,,,,,here is East Market-street
+resident,SPRING STREET—continued.,31,,Mrs. Jane,Criddle,,
+resident,SPRING STREET—continued.,32,,Wm.,Maddocks,eng dvr,
+resident,SPRING STREET—continued.,,,,Lewis Mrs. Ann,,
+resident,SPRING STREET—continued.,33,,Miss Margaret,Hurley,,
+resident,SPRING STREET—continued.,34,,Mrs. Annie,Barber,,
+resident,SPRING STREET—continued.,35,,Mrs. Johanna,Cecil,,
+resident,SPRING STREET—continued.,36,,Joseph,Bayliss,driller,
+resident,SPRING STREET—continued.,37,,Mrs. F.,Young,,
+resident,SPRING STREET—continued.,38,,Ernest,Smith,brewery hd,
+resident,SPRING STREET—continued.,39,,John,Davies,labourer,
+resident,SPRING STREET—continued.,40,,Wm.,Turberville,machinist,
+resident,SPRING STREET—continued.,41,,Thomas,Hughes,,
+resident,SPRING STREET—continued.,42,,William,Hughes,packer,
+resident,SPRING STREET—continued.,43,,Fred,Lewis,labourer,
+resident,SPRING STREET—continued.,44,,John,Sparks,bricklayer,
+resident,SPRING STREET—continued.,45,,John,Reeves,bricklayer,
+resident,SPRING STREET—continued.,46,,Wm.Geo.,Cecil,storekeeper,
+resident,SPRING STREET—continued.,47,,Geo.,Coxon,shipwright,
+resident,SPRING STREET—continued.,48,,Mrs. E.,Senior,,
+resident,SPRING STREET—continued.,49,,George,Tolcher,labourer,
+resident,SPRING STREET—continued.,50,,William,James,do,
+resident,SPRING STREET—continued.,51,,Patrick,Hurley,trimmer,
+resident,SPRING STREET—continued.,52,,W. H.,Jenkins,dairyman,
+street,SOUTHVILLE ROAD.,,,,,"C 6","From Westwille-road"
+resident,SOUTHVILLE ROAD.,18,,Mrs. C.,Lewis,,
+resident,SOUTHVILLE ROAD.,16,,Thos. J.,Davies,,Rothesay
+resident,SOUTHVILLE ROAD.,14,,Alex. B.,Beedie,,Ardlaw
+resident,SOUTHVILLE ROAD.,12,,Miss Frances,Owen,,
+resident,SOUTHVILLE ROAD.,10,,E. J.,Dando,,Penygarn
+resident,SOUTHVILLE ROAD.,8,,Wm.,Leng,,The Briars
+resident,SOUTHVILLE ROAD.,6,,Wm. T.,Williams,,Elidyr
+resident,SOUTHVILLE ROAD.,4,,A.,Phillips,,The Homestead
+resident,SOUTHVILLE ROAD.,2,,Miss M. E.,Jane,,
+cross_street,SOUTHVILLE ROAD.,,,,,,(return)
+resident,SOUTHVILLE ROAD.,1,,Mrs. E.,Williams,,The Knoll
+resident,SOUTHVILLE ROAD.,3,,L. A.,Williams,,
+resident,SOUTHVILLE ROAD.,5,,Ernest,Jones,,Budleigh
+street,SPEKE STREET.,,,,,"D 3","Opposite Maindee Schools"
+resident,SPEKE STREET.,1,,Bros.,Bastick,ironmongers,
+resident,SPEKE STREET.,2,,,,Stores,
+resident,SPEKE STREET.,3,,Mrs. M. J.,Reed,,
+cross_street,SPEKE STREET.,,,,,,here is Livingstone-place
+resident,SPEKE STREET.,4,,Chas.,Childs,plasterer,
+resident,SPEKE STREET.,5,,Wm. A.,Jackson,mason,
+resident,SPEKE STREET.,6,,William,Macey,G.W.R.,
+resident,SPEKE STREET.,7,,George David,Lloyd,,
+street,SPENCER ROAD.,,,,,"C 5","Caerau-rd. to Llanthewy-rd."
+cross_street,SPENCER ROAD.,,,,,,(RIGHT HAND SIDE.)
+resident,SPENCER ROAD.,4,,Mrs. O.,Lewis,,The Pandy
+resident,SPENCER ROAD.,3,,Geo. L.,Scott,,Belmont
+resident,SPENCER ROAD.,2,,Samuel,Dean,,Stainmore
+resident,SPENCER ROAD.,1,,,,Void,
+street,SOUTH MARKET ST.,,,,,"E 4","Dock-st. to West Market-st."
+resident,SOUTH MARKET ST.,1,,R.,Turberville,shop,
+resident,SOUTH MARKET ST.,2,,Mrs. Jane,Armstrong,,
+resident,SOUTH MARKET ST.,3,,Joseph,Barber,maltster,
+resident,SOUTH MARKET ST.,4,,Richard,Harvey,,
+resident,SOUTH MARKET ST.,5,,Fred. W.,Lampre,labr,
+resident,SOUTH MARKET ST.,6,,Mrs. Eleanor,Broad,,
+cross_street,SOUTH MARKET ST.,,,,,,here is Winmill-street
+resident,SOUTH MARKET ST.,7,,Andrew C.,Young,labourer,
+resident,SOUTH MARKET ST.,8,,Miss Johannah,Power,,
+resident,SOUTH MARKET ST.,9,,W. G.,Llewellyn,crane dvr,
+resident,SOUTH MARKET ST.,10,,—,Anderson,,
+resident,SOUTH MARKET ST.,11,,Robert,Trickey,moulder,
+resident,SOUTH MARKET ST.,12,,Wilson,Manns,dk. labr,
+cross_street,SOUTH MARKET ST.,,,,,,(return)
+resident,SOUTH MARKET ST.,15,,Wm. Jas.,Bond,labourer,
+resident,SOUTH MARKET ST.,16,,Fredk.,Bateman,eng dvr,
+resident,SOUTH MARKET ST.,17,,Cornelius,Dowd,labourer,
+resident,SOUTH MARKET ST.,18,,James,Powell,helper,
+resident,SOUTH MARKET ST.,19,,Geo.,Farmer,labourer,
+resident,SOUTH MARKET ST.,20,,Daniel,Hollaran,trimmer,
+resident,SOUTH MARKET ST.,21,,Edwin C.,Wood,labourer,
+resident,SOUTH MARKET ST.,22,,Lawrence,Leadley,labr,
+resident,SOUTH MARKET ST.,23,,James,White,rivetter,
+resident,SOUTH MARKET ST.,24,,Wm.,Hancock,labourer,
+resident,SOUTH MARKET ST.,25,,Thomas,James,labourer,
+resident,SOUTH MARKET ST.,26,,Jos.,Taylor,hairdresser,

@@ -1,0 +1,149 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+cross_street,Bas,,,,,,(return.)
+resident,Bas,33,Stelvio,C. H.,Bailey,,J. P.
+resident,Bas,31,Quarleston,L. P.,Hornby,,
+resident,Bas,29,Bronwydd,Miss,Latch,,
+resident,Bas,27,Tymawr,Ithel,Thomas,,
+resident,Bas,25,Haslemere,Ed.,Foreman,,
+resident,Bas,23,Haldon,Fredk.,Howard,,
+resident,Bas,21,Lismore,James,Splatt,,
+resident,Bas,19,Wooloston,Fred,Williams,,
+resident,Bas,17,Trenant,Syd. W. N.,Heard,,
+resident,Bas,15,Hill crest,Charles,Collier,,
+resident,Bas,13,Lustleigh,Arthur,Eavest,,
+resident,Bas,11,The Rylands,Thos.,Stoue,,
+resident,Bas,9,St. Heliers,Geo. E.,Banks,,
+resident,Bas,7,Verulam,A. G.,Lonnon,,
+resident,Bas,5,Royston,Heary C.,Clark,,
+resident,Bas,3,Culross,Wm. S.,Ford,,
+resident,Bas,1,,,,,
+street,Batchelor Road, D 3,,,,,,From 193 Chepstow-road.
+cross_street,Batchelor Road, D 3,,,,,[LEFT HAND SIDE.]
+resident,Batchelor Road, D 3,1,,Theo. A.,Eastwood,,
+resident,Batchelor Road, D 3,3,,Arthur,Rees,,
+resident,Batchelor Road, D 3,5,,Charles,Chapman,clerk,
+resident,Batchelor Road, D 3,7,,J. M.,Hargest,,
+resident,Batchelor Road, D 3,9,,C.,Pugsley,clerk,
+resident,Batchelor Road, D 3,11,,,,,Void
+resident,Batchelor Road, D 3,13,,Evan,Evans,insp. Alex. dk.,
+cross_street,Batchelor Road, D 3,,,,,(return.)
+resident,Batchelor Road, D 3,8,,Frederick,Spear,clerk,
+resident,Batchelor Road, D 3,6,,Robert,Jones Lewis,clerk,
+resident,Batchelor Road, D 3,4,,Mrs. A. M.,Griffiths,,
+resident,Batchelor Road, D 3,2,,Evan,Mills,,
+street,Bath Street, C 3,,,,,,Caerleon-road to Trostrey-st.
+cross_street,Bath Street, C 3,,,,,[LEFT HAND SIDE.]
+resident,Bath Street, C 3,1,,Joseph,Troakes,printer,
+resident,Bath Street, C 3,2,,John,Lewis,labourer,
+resident,Bath Street, C 3,3,,Wm.,Williams,bricklayer,
+resident,Bath Street, C 3,4,,Mrs. John,Crotty,,
+resident,Bath Street, C 3,5,,Wm.,Edwards,engineer,
+resident,Bath Street, C 3,6,,,,,Newport St. Laundry Co.
+cross_street,Bath Street, C 3,,,,,(return.)
+resident,Bath Street, C 3,7,,Saml.,Wren,mason,
+resident,Bath Street, C 3,8,,Wm.,Parry,ins. agent,
+resident,Bath Street, C 3,9,,,,,Void
+resident,Bath Street, C 3,10,,John,Murphy,moulder,
+resident,Bath Street, C 3,11,,Chas.,Ward,Wm painter,
+resident,Bath Street, C 3,12,,Wm. F.,Watt,stevedore,
+resident,Bath Street, C 3,13,,John,Byard,plasterer,
+cross_street,Bath Street, C 3,,,,,,here is Usk-street.
+resident,Bath Street, C 3,14,,John J.,Purcell,labourer,
+resident,Bath Street, C 3,15,,John,Munns,boilermaker,
+resident,Bath Street, C 3,16,,Edwd.,Brown,lathrender,
+resident,Bath Street, C 3,17,,Arthur,Wilkins,plasterer,
+resident,Bath Street, C 3,18,,John,Neagle,plasterer,
+street,Beaufort Chambers,,,,,,,See Arcade.
+street,Beaufort Terrace,,,,,,,See West-street.
+street,Bedford Road, C 4,,,,,,Corporation-rd. to Eton-rd.
+cross_street,Bedford Road, C 4,,,,,[LEFT HAND SIDE.]
+resident,Bedford Road, C 4,1,,Thos.,Barnfield,contractor,
+resident,Bedford Road, C 4,3,,Ermine,Thomas George,,
+resident,Bedford Road, C 4,5,,Edward,Austwick,,
+resident,Bedford Road, C 4,7,,David, Glen Teif,Morgan,,
+resident,Bedford Road, C 4,9,,D., Caringnli,Francis,,
+cross_street,Bedford Road, C 4,,,,,,here is Cedar-road.
+resident,Bedford Road, C 4,11,,Chas T.,Rosser,traveller,
+resident,Bedford Road, C 4,13,,Thomas,Powell,,
+resident,Bedford Road, C 4,15,,Oxford ho.,White Harry,,
+resident,Bedford Road, C 4,17,,Wm. A.,Fletcher,traveller,
+resident,Bedford Road, C 4,19,,Tom,Linton,engineer,
+resident,Bedford Road, C 4,21,,William,Howe,clerk,
+resident,Bedford Road, C 4,,,Archibald,Bartlett,,
+resident,Bedford Road, C 4,23,,William,Harris,,
+resident,Bedford Road, C 4,25,,James,Lee,carpenter,
+resident,Bedford Road, C 4,27,,Edward S.,Hadley,,
+resident,Bedford Road, C 4,29,,Pembroke house,void,,,
+resident,Bedford Road, C 4,,,,,,Vacant sites
+cross_street,Bedford Road, C 4,,,,,,here is Harrow-road.
+resident,Bedford Road, C 4,31,,Wm., Selwood,Lawrence,,
+resident,Bedford Road, C 4,33,,T. J., Glanwern,Jones,,
+resident,Bedford Road, C 4,35,,H. M., Hatherleigh,Williams,,
+resident,Bedford Road, C 4,37,,Matthew, Northfield house,Brown,,
+resident,Bedford Road, C 4,39,,Thos., Bronialho,Monkley,,
+resident,Bedford Road, C 4,41,,Benj., Victoria,Vaughan,,
+resident,Bedford Road, C 4,43,,William,Virgo,,
+resident,Bedford Road, C 4,45,,Miss M. K.,Swanson,,
+resident,Bedford Road, C 4,47,,Wm. Ernest,Marsh,,
+resident,Bedford Road, C 4,49,,Walter,Thomas,,
+resident,Bedford Road, C 4,51,,David,Jones,,
+resident,Bedford Road, C 4,53,,Daniel,Bowen,tailor,
+resident,Bedford Road, C 4,55,,John,Jones,fitter,
+resident,Bedford Road, C 4,57,,Byron,Bown,carpenter,
+resident,Bedford Road, C 4,59,,John,Pugsley,blacksmith,
+cross_street,Bedford Road, C 4,,,,,(return.)
+resident,Bedford Road, C 4,46,,Richard,Harburn,,
+resident,Bedford Road, C 4,44,,Norman,Moses,,
+resident,Bedford Road, C 4,42,,James,Horsefield,,
+resident,Bedford Road, C 4,40,,Jno. G., Highbury,Gould,,
+resident,Bedford Road, C 4,38,,Henry, Llandyfan,Rees,,
+resident,Bedford Road, C 4,36,,Hy. H., Ellesmere,Evans,,
+resident,Bedford Road, C 4,34,,Jas., Hellow,Littlefield,,
+resident,Bedford Road, C 4,32,,W. H., Clifford house,Budding,,
+resident,Bedford Road, C 4,30,,George, Avon,Weare,,
+resident,Bedford Road, C 4,28,,Reg.,carpenter,Richards,,
+resident,Bedford Road, C 4,26,,Thos., Cinderford,Price,,
+resident,Bedford Road, C 4,24,,Robt., Sydenham,Macnab,,
+resident,Bedford Road, C 4,22,,W. M., Kimberley,John,,
+resident,Bedford Road, C 4,20,,F. G., Durban,Moreton,,
+resident,Bedford Road, C 4,18,,W. J., Appleby,Langmaid,,
+resident,Bedford Road, C 4,16,,Hy. H., Standerton,Lewis,,
+cross_street,Bedford Road, C 4,,,,,,here is Harrow-road.
+resident,Bedford Road, C 4,14,,G. W., Bedford ho,Moores,,
+resident,Bedford Road, C 4,12,,William Henry,Swanson,,
+resident,Bedford Road, C 4,10,,A. W. G.,Wadley,,
+resident,Bedford Road, C 4,8,,Wm.H.,Hemingford,Sully,,
+resident,Bedford Road, C 4,6,,Wm., Newton,Edwards,,
+resident,Bedford Road, C 4,4,,Jas. J., Seaton ho,Morgan,,
+resident,Bedford Road, C 4,2,,Mrs. Ann, Clovelly,Jones,,
+street,Beechwood Road, E 2,,,,,,Chepstow-road to Christchurch-road.
+cross_street,Beechwood Road, E 2,,,,,[LEFT HAND SIDE.]
+resident,Beechwood Road, E 2,2,,Mrs. H.J.,Tressillian,Gratte,,
+resident,Beechwood Road, E 2,4,,Chas. B., Glengariff,Fowler,,
+resident,Beechwood Road, E 2,6,,Robert, Rockwood,Hurley,,
+cross_street,Beechwood Road, E 2,,,,,,here is Gibbs-road.
+resident,Beechwood Road, E 2,,,,,,BEECHWOOD PARK
+street,Belle Vue Lane, E 5,,,,,,Cardiff-road to Friars-road.
+street,Belvedere Terrace, B 4,,,,,,Barrack-hill to Hopefield.
+cross_street,Belvedere Terrace, B 4,,,,,[LEFT HAND SIDE.]
+resident,Belvedere Terrace, B 4,2,,Charles,Whiting,mason,
+resident,Belvedere Terrace, B 4,3,,Mrs. M. A.,Woodliffe,,
+resident,Belvedere Terrace, B 4,4,,Thos,hammerman,Fowler,,
+resident,Belvedere Terrace, B 4,5,,Joseph,fitter,Woodliffe,,
+resident,Belvedere Terrace, B 4,6,,William Edwin,Wall,,
+resident,Belvedere Terrace, B 4,7,,Chas. b'dge paint'r,Collins,,
+resident,Belvedere Terrace, B 4,8,,Ptk.engine dr'vr,Reardon,,
+resident,Belvedere Terrace, B 4,9,,Mrs. Margaret,Rowlands,,
+resident,Belvedere Terrace, B 4,10,,Mrs. Mary A.,Voyle,,
+resident,Belvedere Terrace, B 4,11,,Josiah, labourer,Colledge,,
+resident,Belvedere Terrace, B 4,12,,Josh.H.timekpr,Baughan,,
+resident,Belvedere Terrace, B 4,13,,Mrs. Caroline J.,Peebles,,
+resident,Belvedere Terrace, B 4,14,,Miss,Whiting,,
+resident,Belvedere Terrace, B 4,15,,Henry, mason,Snook,,
+resident,Belvedere Terrace, B 4,16,,Geo.Jas.mon m'son,Brown,,
+cross_street,Belvedere Terrace, B 4,,,,,(return.)
+resident,Belvedere Terrace, B 4,17,,Robert, mason,Gomer,,
+resident,Belvedere Terrace, B 4,18,,Levi, gardener,Dare,,
+resident,Belvedere Terrace, B 4,19,,Alfred,Flora,,
+resident,Belvedere Terrace, B 4,20,,John, joiner,Fortune,,
+resident,Belvedere Terrace, B 4,21,,Mrs. Mary,Stevens,,

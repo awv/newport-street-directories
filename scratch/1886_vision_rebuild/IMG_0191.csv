@@ -1,0 +1,148 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Car,,,,,,
+resident,Car,8,,Jno.,Williams,mariner,
+resident,Car,9,,Isaac,English,carpenter
+resident,Car,10,,Hy.,Cooper,painter,
+resident,Car,11,,,,,Void
+resident,Car,12,,C.,Priest,shoeing smith,
+resident,Car,13,,Samuel,Jones,labourer,
+resident,Car,14,,Geo.,Coombes,rlway hd.,
+resident,Car,15,,Thos.,Jenkins,labourer,
+resident,Car,,,W. jun.,Griffiths,cooper,
+cross_street,Car,,,,,,(return.)
+resident,Car,16-7,Britannia Foundry Co.,,,,engineers & ironfounders
+resident,Car,18,,Richd.,Green,stevedore,
+resident,Car,19,,Chas.,Bickley,haulier,
+resident,Car,20,,Geo.,Roberts,sawyer,
+resident,Car,21,,Williams,Evans,mariner,
+resident,Car,22,,Samp.,Beecroft,carman,
+resident,Car,23,,John,Davies,seaman,
+resident,Car,24,,Hy.,Dunbar,bootmaker,
+resident,Car,25,,Wm.,James,seaman,
+resident,Car,26,,Chas. S.,Tucker,,
+resident,Car,27,,Jno.,Prichard,coal mert
+resident,Car,27,,Jas.,Griffiths,sail maker,
+street,Carpenter's Arms Lane,,,,,,from 8 High-street.
+street,Castle Precincts,,,,,,New Entrance, Marshes-rd.
+resident,Castle Precincts,,Castle Inn,Thomas,Roberts,,
+street,Castle Street, P.,,,,,,From Potter-street to Church street.
+resident,Castle Street, P.,1,,,,Mahoney J.marinestores
+resident,Castle Street, P.,2,,James,Robson,mariner,
+resident,Castle Street, P.,3,,Danl.,Mahoney,labourer,
+resident,Castle Street, P.,4,,James,Tobin,seaman,
+resident,Castle Street, P.,5,,Wm.,Langmaid,grocer,
+resident,Castle Street, P.,6,,Wm.,Hatch,seaman,
+resident,Castle Street, P.,7,,Mrs Margt.,Mahoney,,
+resident,Castle Street, P.,8,,Isaac,Tillotson,seaman,
+resident,Castle Street, P.,9,Flag and Castle,Thos.,George,,
+resident,Castle Street, P.,10,,Jas.,Forrest,coal trimmer,
+resident,Castle Street, P.,11,,James,Venn,,
+resident,Castle Street, P.,12,,Mich.,Ryan,labourer,
+resident,Castle Street, P.,13,,Mich.,Kennedy,labourer,
+resident,Castle Street, P.,14,,Charles,Smith,seaman,
+resident,Castle Street, P.,15,,Owen,Cochlan,labourer,
+resident,Castle Street, P.,16,,Dan.,McCarthy,hobbler,
+resident,Castle Street, P.,17,,James,Pring,hobbler,
+resident,Castle Street, P.,18,,James,Taylor,labourer,
+resident,Castle Street, P.,19,,M.,McCarthy,labourer,
+resident,Castle Street, P.,20,,J.,Burke,coal trimmer,
+resident,Castle Street, P.,21,,Wm.,Buckley,hobbler,
+resident,Castle Street, P.,22,,Patk.,Mahoney,hobbler,
+resident,Castle Street, P.,23,,F.,Baker,coal trimmer,
+resident,Castle Street, P.,24,,John,Jones,coalshipper,
+resident,Castle Street, P.,25,,Daniel,Connell,hobbler,
+resident,Castle Street, P.,26,,Mich.,Regan,labourer,
+resident,Castle Street, P.,27,,Denis,Driscoil,labourer,
+resident,Castle Street, P.,28,,Ellen,O'Brian,widow,
+resident,Castle Street, P.,29,,Thos.,Pring,coaltrimmer,
+resident,Castle Street, P.,30,South Dolphin Inn,Geo.,South,,
+resident,Castle Street, P.,31,,Rhoda,Hynes,widow,
+resident,Castle Street, P.,32,,Mary A.,Carey,widow,
+resident,Castle Street, P.,33,,John,Webb,grocer,
+resident,Castle Street, P.,34,,Alfred J.,Fontaine,,
+cross_street,Castle Street, P.,,,,,,(return)
+resident,Castle Street, P.,,,Usk side Engineering Co.,,,
+cross_street,Castle Street, P.,,,,,,here is High-street.
+resident,Castle Street, P.,35,,M. E.,Watkins,grocer,
+resident,Castle Street, P.,36,,Ellen,Morrison,widow,
+resident,Castle Street, P.,37,,J.,Burke,coal trimmer,
+resident,Castle Street, P.,38,,Jas.,Sullivan,hobbler,
+resident,Castle Street, P.,39,,Mrs,Mountain,seamen's boarding house,
+resident,Castle Street, P.,40,,Eph.,Franklin,moulder,
+resident,Castle Street, P.,41,,Patrick,Murphy,laborer
+resident,Castle Street, P.,42,,D.,Mahoney,hobbler,
+resident,Castle Street, P.,43,,John,White,seaman,
+resident,Castle Street, P.,44,,John,Ryan,hobbler,
+resident,Castle Street, P.,45,,Michael,Connors,,
+resident,Castle Street, P.,46,,John,Haley,coaltrimmer,
+resident,Castle Street, P.,47,,Peter,Parkes,shop,
+street,Caxton Place,,,,,,From 34. Bridge-street
+resident,Caxton Place,1,,,,,Victoria Ærated Water works—Bosnier & Co.
+resident,Caxton Place,,,Mission hall,,,
+resident,Caxton Place,2,,Mrs,Bridgewater,,
+resident,Caxton Place,3,,William,Price,clerk,
+resident,Caxton Place,4,,Ann,Harris,dressmaker,
+resident,Caxton Place,5,,W. J.,Gibb,poulterer and bootmaker,
+street,Charles Street,,,,,,From 149 Commercial-street to Stow-hill
+resident,Charles Street,,Talbot Hotel,,,
+resident,Charles Street,,Gaiety Theatre,C. P.,Emery,lessee,
+resident,Charles Street,1,,T.,Miles,cabinet maker,
+resident,Charles Street,2,,Thos.,Williams,sweep,
+resident,Charles Street,3,,Thomas,Evan,farrier,
+resident,Charles Street,3,,Edwards & Co's stores,,,
+resident,Charles Street,4,,Jas.,Donovan,wardrobes,
+resident,Charles Street,5,,J.,Williams,scavenger,
+resident,Charles Street,6,,Eml.,Hopkins,saddler,
+street,Court A.,,,,,,
+resident,Court A.,7,,Lewis,Borchert,sweep,
+resident,Court A.,8,,Jos.,Foslett,gasfitter, &c
+resident,Court A.,9,,J.,Fitzgerald,shoemaker,
+street,Court B.,,,,,,
+resident,Court B.,,,,,,English Baptist Chapel
+resident,Court B.,10,,Edmund,Evans,haulier,
+resident,Court B.,11,,W.,Broomsgrove,laborer,
+resident,Court B.,12,,George,Davies,sweep,
+resident,Court B.,13,,,,,Apartments
+street,Court D.,,,,,,
+resident,Court D.,14,,Mrs L.,Chappell,,
+resident,Court D.,15,,Edwin,Waters,haulier,
+street,Court E.,,,,,,
+resident,Court E.,15A,,Mrs,Mahoney,widow,
+resident,Court E.,16,,C.,Gatehouse,shopkeepr
+resident,Court E.,17,,David,Williams,laborer,
+resident,Court E.,17A,,W. F.,Wallington,tailor,
+resident,Court E.,18,,A.,Leuy,clothes dealer,
+cross_street,Court E.,,,,,,(return)
+resident,Charles Street,19,Red Lion Inn,J.,Dakin,,
+resident,Charles Street,20,,Thos.,Williams,tailor,
+resident,Charles Street,21,,George,James,butcher,
+resident,Charles Street,,,Ab.,Williams,bootmaker,
+resident,Charles Street,22,,W.,Coles,greengrocer,
+resident,Charles Street,23,,F'k.,Williams,shopkeepr,
+resident,Charles Street,24,,Mrs George,Smith,,
+street,The Arch,,,,,,
+resident,The Arch,25,,Samuel,James,haulier,
+resident,The Arch,25A,,J.,Kelly,Francis,
+resident,The Arch,26,,Richard,Wood,groom,
+resident,The Arch,27,,Ann,Harris,widow,
+resident,The Arch,28,,Richd.,Barnes,plumber,
+resident,The Arch,29,,Mrs.,Pacello,clothes dlr
+resident,The Arch,30,,B. W.,Winter,sculptor,
+street,Charlotte Street, P.,,,,,,From 23, Alma-street to Capel-street.
+resident,Charlotte Street, P.,1,,Chas.,Lock,builder,
+resident,Charlotte Street, P.,2,,Mary Ann,Dallimore,,
+resident,Charlotte Street, P.,3,,Wm.,Bladon,gardener,
+resident,Charlotte Street, P.,4,,George,Davies,agent,
+resident,Charlotte Street, P.,,,H.,Mounce,bakehouse,
+cross_street,Charlotte Street, P.,,,,,,here is Lewis-street.
+resident,Charlotte Street, P.,,,Smith & Co.,,hauliers,
+resident,Charlotte Street, P.,,,Evan,Jones,oil seller,
+cross_street,Charlotte Street, P.,,,,,,here is Raglan-street.
+resident,Charlotte Street, P.,,,T.,Stanton,carpentr &c.
+resident,Charlotte Street, P.,5,,George,King,guard,
+cross_street,Charlotte Street, P.,,,,,,here is Williams-street.
+resident,Charlotte Street, P.,6,,D.,Thomas,pattern mkr,
+cross_street,Charlotte Street, P.,,,,,,here is Capel-st. (return)
+resident,Charlotte Street, P.,6A,,Rees,Prothero,grocer,
+resident,Charlotte Street, P.,7,,Stephen,Steele,mariner,
+resident,Charlotte Street, P.,8,,Jas.,Jeffery,boat builder,

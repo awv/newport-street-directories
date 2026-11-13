@@ -1,0 +1,129 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Charlotte St.,,,,,,"continued"
+resident,Charlotte St.,,,D. & Co.,Thomas,pattern makers,
+resident,Charlotte St.,5,,Geo.,Marley,labourer,
+cross_street,Charlotte St.,,,,,"here is Williams-street."
+resident,Charlotte St.,6,,Mrs. Ellen,Viner,,
+cross_street,Charlotte St.,,,,,"here is Capel-street."
+cross_street,Charlotte St.,,,,,"(return)"
+resident,Charlotte St.,7,,Richard,Roberts,mouldr,
+resident,Charlotte St.,8,,Geo. R.,Fisher,carpenter,
+resident,Charlotte St.,9,,Amos,Davies,engine dvr,
+resident,Charlotte St.,,,,Turner's Bedding Mfty,,
+resident,Charlotte St.,10,,Mrs. Alice,Bush,,
+cross_street,Charlotte St.,,,,,"here is Williams-street."
+resident,Charlotte St.,,,,TREDEGAR WHF. INFANT SCHOOL,,
+resident,Charlotte St.,11,,Walton B.,Roberts,,
+cross_street,Charlotte St.,,,,,"here is Raglan-street."
+resident,Charlotte St.,12,,John,Bevan,seaman,
+resident,Charlotte St.,13,,William,Young,labourer,
+resident,Charlotte St.,,,,Alma St. Baptist Sunday School,,
+resident,Charlotte St.,14,,Thos. J.,Garland,carprntr,
+resident,Charlotte St.,15,,Fredk.,Main,boilermaker,
+resident,Charlotte St.,16,,Thomas,Curtis,labourer,
+resident,Charlotte St.,17,,William,Hale,shipwright,
+street,Chelston Place, B 4,,,,,"43 Redland-st. to Brynglas-rd"
+resident,Chelston Place,2,,Arthur G.,Allen,baker,
+resident,Chelston Place,3,,Mrs. Alice,Emerson,,
+resident,Chelston Place,4,,Benj.,Lambert,plumber,
+resident,Chelston Place,5,,Mrs. A.,Baggs,,
+resident,Chelston Place,6,,,"Void",,
+resident,Chelston Place,7,,Wm.,Preece,police sergt.,
+resident,Chelston Place,8,,Herbt. D.,Greening,clerk,
+street,Chepstow Road, C 4,,,,,"From Clarence-place."
+cross_street,Chepstow Road,,,,,,"[LEFT HAND SIDE.]"
+resident,Chepstow Road,1,,,& Jones,undertakers,
+resident,Chepstow Road,1,,Charles,Jones,,
+resident,Chepstow Road,3,Lyncombe v,Mrs. C.,Stemp,,
+resident,Chepstow Road,5,Melverton,John,Copp,,
+resident,Chepstow Road,7,Windsor villa,W.,Sheaf,veterinary surgeon,
+resident,Chepstow Road,9,Victoria v,Herbt.,Morgan,,
+resident,Chepstow Road,11,Cambridge v,H. E.,Case,,
+resident,Chepstow Road,13,Osborne v,C. J.,Chapman,,
+resident,Chepstow Road,15,Beaufort v,R.J.,Langmaid,,
+resident,Chepstow Road,17,Clytha v,George,Smith,,
+resident,Chepstow Road,19,Carisbrooke v,J.T.,Gosling,,
+resident,Chepstow Road,21,,R.,Sweet,sculptor,
+resident,Chepstow Road,23,Atherstone villa,A. D. H.,Jones,,
+resident,Chepstow Road,25,Albert villa,T. A.,Hince,,
+resident,Chepstow Road,27,Hillstone villa,Sydney,Corney,Norton,
+resident,Chepstow Road,29,Upton v,John,Davidson,,
+resident,Chepstow Road,31,Glenbrook v,H.,Wilmett,,
+resident,Chepstow Road,33,St. David,M.,Prothero,,
+resident,Chepstow Road,35,Grantham villa,,New Thought Spiritual Church,,
+resident,Chepstow Road,37,York villa,A. E.,Serjeant,,
+resident,Chepstow Road,39,Clarence villa,John B.,Serjeant,,
+resident,Chepstow Road,41,Rochsfort villa,Miss Ellen,Williams,,
+resident,Chepstow Road,43,Usk villa,Thos.,Davies,,
+resident,Chepstow Road,45,Belvoir ho,Frank,Lewis,,
+resident,Chepstow Road,47,Nolton v,John,Farmer,,
+resident,Chepstow Road,49,,Heber,void,villa,
+resident,Chepstow Road,51,Netherton villa,,Linton Thos.,,
+resident,Chepstow Road,53,Sefton villa,David,Price,,
+resident,Chepstow Road,55,Winslow h,C.,Lancefield,,
+cross_street,Chepstow Road,,,,,,"here the railway crosses."
+resident,Chepstow Road,,,"W. A. builders' & contractors' yard",Linton,,
+resident,Chepstow Road,59,Children's Homes,,Board of Guardians,,Matron Miss Jenkins
+cross_street,Chepstow Road,,,,,,"here is Hereford-street."
+resident,Chepstow Road,,,QUEENSLAND TERRACE.,,,
+resident,Chepstow Road,61,,Bros.,Tovey,undertakers,
+resident,Chepstow Road,,,William,Batty,senior,
+resident,Chepstow Road,63,,Mrs. A. costumier,Greenway,,
+resident,Chepstow Road,65,,F. E.,Baldwin,,
+resident,Chepstow Road,67,Westward Ho,E.,Snook,,
+resident,Chepstow Road,69,,,Norman's Domestic Engineering Company.,Robert Pill manager
+resident,Chepstow Road,71,,Mrs. J.,Challenger,,
+resident,Chepstow Road,73,,George,Wright,traveller,
+resident,Chepstow Road,75,,Mrs. M. A.,Gould,,
+resident,Chepstow Road,77,St. Ives,Jere.,Williams,,
+resident,Chepstow Road,,,MAINDEE MUNICIPAL BLDGS,,,
+resident,Chepstow Road,79,,,"Branch Fire Station",,
+resident,Chepstow Road,81,,,"Branch Police Station",,John Williams inspectr
+resident,Chepstow Road,83,,,"Branch Free Library",,Albert Pierce caretaker
+cross_street,Chepstow Road,,,,,,"here is London-street."
+resident,Chepstow Road,,,KINGSLAND TERRACE.,,,
+resident,Chepstow Road,87,,,"Void",,
+resident,Chepstow Road,89,,Geo.,Giddings,painter &c.,
+resident,Chepstow Road,91,,Fredk.,Duckham,,
+resident,Chepstow Road,93,,H. E.,Paul,tailor,
+resident,Chepstow Road,95,,Misses A. & H.,Brettell,dressmakers,
+resident,Chepstow Road,97,,Ernest,Thomas,motormn
+resident,Chepstow Road,99,,Hayward,Thomas,,
+resident,Chepstow Road,99A,,& Lee,Wright,printers
+resident,Chepstow Road,,,MAINDEE SCHOOLS,,,entrance to Merriott's-place.
+resident,Chepstow Road,103,Fair Oak villa,Mrs. Elizabeth,Small,,
+resident,Chepstow Road,105,2 Fair Oak villa,Jesse,Burford,,
+cross_street,Chepstow Road,,,,,,"here is Fair Oak-terrace."
+resident,Chepstow Road,107,Maindee Hotel,C. A.,Lock,,
+resident,Chepstow Road,109,Maindee Hotel,C. A.,Lock,,
+resident,Chepstow Road,111,,L. W.,Snowden,fish shop
+resident,Chepstow Road,111,,Id.,Rose Bros.,bazaar
+resident,Chepstow Road,113,Crosswaite A. B.,grocer,,
+resident,Chepstow Road,117,,A. M.,Stevens,confectnr
+resident,Chepstow Road,119,,A.,Thomas,bootmaker
+resident,Chepstow Road,121,Royal Oak,Alf. J.,Pitman,,
+resident,Chepstow Road,123,,H.,Stevens,cycle agent
+resident,Chepstow Road,125,,D.,Williams,dairyman
+resident,Chepstow Road,127,M. A.,Trestrail,confectioner,
+resident,Chepstow Road,,,& Co.,Delahaye,house and estate agents
+resident,Chepstow Road,,,N.T.,Delahaye,fancy dlr
+cross_street,Chepstow Road,,,,,,"here is Duckpool-road and Albert-avenue."
+resident,Chepstow Road,,,FAIR OAK BUILDINGS-,,,
+resident,Chepstow Road,3,,,"Void",,
+resident,Chepstow Road,2,,M. G.,Goodman,pawnbroker etc.
+resident,Chepstow Road,,,,"Shop void",,
+resident,Chepstow Road,,,Mrs. R.,Caplan,confectnr
+resident,Chepstow Road,,,MILE END TERRACE-,,,
+resident,Chepstow Road,131,,,MAINDEE POST OFFICE,,M.O. & T. S.B. & A. & I. OFFICE-John Farmer postmaster
+resident,Chepstow Road,,,Mrs. B.,Cox,,
+resident,Chepstow Road,133,,C. W.,Harris,butcher
+resident,Chepstow Road,135,Maindee Clothing Stores,T. J.,Harrhy,,
+resident,Chepstow Road,137,,J.,Snook,,
+resident,Chepstow Road,139,,& Co.,Powell,ironmongers and cutlers
+resident,Chepstow Road,141,,Arthur,Honey,saddler
+resident,Chepstow Road,143,,G. H.,Morgan,hairdresser
+resident,Chepstow Road,,,C. G.,Vaughan,,
+resident,Chepstow Road,145,,S.,Flannigan,confectioner
+resident,Chepstow Road,147,Shepherd's Pride,Jas.,George,,
+resident,Chepstow Road,149,,R. H.,Walter,pork btchr
+resident,Chepstow Road,151,,& Son,Chave,fruiterers

@@ -1,0 +1,151 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,CHEPSTOW ROAD,,,J. B.,Yendall,,Trosnant
+resident,CHEPSTOW ROAD,,,Joseph,Evans,,Trevethin
+cross_street,CHEPSTOW ROAD,,,,,,here is Arundel-road
+resident,CHEPSTOW ROAD,,,Robert,McNab,,The Grove
+resident,CHEPSTOW ROAD,,,Charles,Hamnett,,The Oaks
+resident,CHEPSTOW ROAD,,The Elms,,,,
+resident,CHEPSTOW ROAD,,,James,Palmer,,The Limes
+resident,CHEPSTOW ROAD,,,W. G.,Pugh,,The Pines
+resident,CHEPSTOW ROAD,,,Jesse,Busby,,The Yews
+resident,CHEPSTOW ROAD,,,Jos.,Townend,,The Beeches
+cross_street,CHEPSTOW ROAD,,,,,,here is Rothesay-road
+resident,CHEPSTOW ROAD,,Vacant sites,,,,
+resident,CHEPSTOW ROAD,,,A. C.,Reece,grocer,
+resident,CHEPSTOW ROAD,,Vacant sites,,,,
+cross_street,CHEPSTOW ROAD,,,,,,here is Rochester-road
+resident,CHEPSTOW ROAD,,,Mrs. M.,Chivers,shop,
+resident,CHEPSTOW ROAD,,,I. M.,Gee,ironmonger,
+resident,CHEPSTOW ROAD,,,,Price & Co.,drapers,
+resident,CHEPSTOW ROAD,,,Melvin,Scott,grocer,
+resident,CHEPSTOW ROAD,,Shop void,,,,
+resident,CHEPSTOW ROAD,,,C. L.,Lewis,greengrocer,
+resident,CHEPSTOW ROAD,,,Albert,Ruston,,St. Malo
+resident,CHEPSTOW ROAD,,,Albert,Bailey,,St. Ives
+cross_street,CHEPSTOW ROAD,,,,,,here is Rosslyn-road
+resident,CHEPSTOW ROAD,,Vacant sites,,,,
+street,EVESWELL TERRACE,,,,,,,
+resident,EVESWELL TERRACE,,Newport Hand Laundry,,,,
+resident,EVESWELL TERRACE,242,,Robert,Sperring,,
+resident,EVESWELL TERRACE,240,,,,,,
+resident,EVESWELL TERRACE,238,,,Mrs. E.,Martin,,
+resident,EVESWELL TERRACE,236,,,Mrs. M. E.,Westcott,,
+resident,EVESWELL TERRACE,234,,Dieudonne-void,,,,
+resident,EVESWELL TERRACE,232,,,F. W.,Portnell,,Wyastone
+cross_street,EVESWELL TERRACE,,,,,,here is Eveswell-street
+street,LAWN TERRACE,,,,,,,
+resident,LAWN TERRACE,230,,,Chas.,Hoggett,,Grove h
+resident,LAWN TERRACE,228,,,Dyson,Parfitt,,Melrose
+resident,LAWN TERRACE,226,,,G. F.,Leadbeter,builder,
+resident,LAWN TERRACE,224,,,W.,Phillips,,Piermont house
+resident,LAWN TERRACE,222,,,Thomas,Jones,,Adoph
+resident,LAWN TERRACE,220,,,G. E.,Gregory,,Westoe h
+resident,LAWN TERRACE,218,,Holins house-void,,,,
+resident,LAWN TERRACE,216,,,J. A.,Hatfield,,
+resident,LAWN TERRACE,214,,,F. G.,Hoskins,,Leighton
+resident,LAWN TERRACE,212,,,J. B.,Jenkins,,Cambridge villa
+resident,LAWN TERRACE,210,,,Mrs. M. J.,Brooks,,Oxford villa
+cross_street,LAWN TERRACE,,,,,,here is Oxford-street
+resident,CHEPSTOW ROAD,208,,,Mrs. S. A.,Norvil,,
+resident,CHEPSTOW ROAD,206,,,David,Jones,,Moorlane h
+resident,CHEPSTOW ROAD,204,,,L.,Kjelson,,Goldthorne h
+resident,CHEPSTOW ROAD,202,,,Francis,Morgan,,Alstone house
+resident,CHEPSTOW ROAD,200,,,D. J.,Owen,,Eltham ho
+resident,CHEPSTOW ROAD,198,,,Chas. A.,Prust,,Dunedin h
+cross_street,CHEPSTOW ROAD,,,,,,UPTON PLACE
+resident,CHEPSTOW ROAD,196,,,T. H.,Stephens,bootmakr,
+resident,CHEPSTOW ROAD,,,C. A.,Prust,confectionr,
+resident,CHEPSTOW ROAD,194,,,F. G.,Duckham,butcher,
+resident,CHEPSTOW ROAD,192,,,Henry,Weston,tailor,
+resident,CHEPSTOW ROAD,190,,,E. L.,Hawkes,tobacconst,
+resident,CHEPSTOW ROAD,188,,,F. E.,Farley,grocer,
+resident,CHEPSTOW ROAD,186,,,F. J.,Summers,boot dlr,
+resident,CHEPSTOW ROAD,184,,,James Wm.,Woodgates,,
+resident,CHEPSTOW ROAD,182,,,,,,house furnisher
+resident,CHEPSTOW ROAD,180,,,C.,Howarth,greengrocer,
+resident,CHEPSTOW ROAD,178,,,S.,Fry,bootmaker,
+resident,CHEPSTOW ROAD,176,,,Mrs. Laura,Besley,King William III.,
+cross_street,CHEPSTOW ROAD,,,,,,here is Wharf-road
+resident,CHEPSTOW ROAD,174,,,James,Baker,,Fairoak h
+resident,CHEPSTOW ROAD,174b,,,,Phillips Wolfe & Sons,pawnbrokers jewellers and outfitters,
+resident,CHEPSTOW ROAD,174a,,,,Bevan R. china dlr. &c.,
+cross_street,CHEPSTOW ROAD,,,,,,here is Fairoak-lane
+resident,CHEPSTOW ROAD,,,,Harry,Burt,blacksmith,
+resident,CHEPSTOW ROAD,,,,Arthur,Morgan,painter,
+resident,CHEPSTOW ROAD,,Elsie cottage-void,,,,
+resident,CHEPSTOW ROAD,172,,,Chas. H.,Evetts,decorator,
+resident,CHEPSTOW ROAD,170,,,J.,Vowles,,Fair Oak Inn
+resident,CHEPSTOW ROAD,168,,,,,,
+resident,CHEPSTOW ROAD,166,,,F. S.,Portnell,draper,
+resident,CHEPSTOW ROAD,164,,,,Thomas & Sons,grocers,
+resident,CHEPSTOW ROAD,,,,Alfred,Orpet,manager,
+cross_street,CHEPSTOW ROAD,,,,,,here are Jones' Cottages
+resident,CHEPSTOW ROAD,3,,,Mrs. Martha,Day,,
+resident,CHEPSTOW ROAD,2,,,Daniel,Long,,
+resident,CHEPSTOW ROAD,4,,,Mrs. M.,Galt,,
+resident,CHEPSTOW ROAD,1,,,Vespin,Pearcey,carpentr,
+resident,CHEPSTOW ROAD,162,,,,Dunstan Bigwood & Co.,coal merchants,
+resident,CHEPSTOW ROAD,160,,,,Driscoll & Son,jewellers,
+resident,CHEPSTOW ROAD,158,,,R.,Bevan,newsagent,
+resident,CHEPSTOW ROAD,156,,,,English & Colonial Meat Company,,
+resident,CHEPSTOW ROAD,154,,,R.,Bevan,hairdresser,
+resident,CHEPSTOW ROAD,152,,,,,,and bookseller
+resident,CHEPSTOW ROAD,150,,,T. H.,Jefferson,fruiterer,
+resident,CHEPSTOW ROAD,148,,,C. P.,Simmonds,grocer &c,
+resident,CHEPSTOW ROAD,146,,,,Hall H. Carpenter's Arms,,
+resident,CHEPSTOW ROAD,144,,,Wm. pork,Hughes,butcher,
+resident,CHEPSTOW ROAD,142,,,Frank,Haggett,butcher,
+resident,CHEPSTOW ROAD,140,,,J.,Jenkins,poulterer &c.,
+resident,CHEPSTOW ROAD,138,,,J. & Son,Phillips,corn stores,
+resident,CHEPSTOW ROAD,,,,Mrs. W.,Frost,,
+resident,CHEPSTOW ROAD,136,,,,Evans & Lewis,chemists,
+resident,CHEPSTOW ROAD,134,,,,Pegram's Ltd.,,
+resident,CHEPSTOW ROAD,132,,,A. J.,Woodcock,,Globe Inn
+cross_street,CHEPSTOW ROAD,,,,,,here is Probert-place
+resident,CHEPSTOW ROAD,130,,,,Watkins W. toy dealer &c.,,
+resident,CHEPSTOW ROAD,128,,,,,,
+resident,CHEPSTOW ROAD,126,,,,Nelson Jas. & Sons Ltd.,,
+resident,CHEPSTOW ROAD,124,,,C. H.,Owen,draper &c.,
+resident,CHEPSTOW ROAD,122,,,,Maypole Dairy Co. Ltd.,,
+resident,CHEPSTOW ROAD,122a,,,W. G.,Bushby,photographr,
+resident,CHEPSTOW ROAD,120,,,W. C.,Cayzer,hosier &c,
+resident,CHEPSTOW ROAD,118,,,R.,Smith,boot dealer,
+resident,CHEPSTOW ROAD,116,,,,Home & Colonial Stores,,
+resident,CHEPSTOW ROAD,114,,,W.,Watkins,ironmonger,
+cross_street,CHEPSTOW ROAD,,,,,,WEST END BUILDINGS
+resident,CHEPSTOW ROAD,112,,,T.,Edwards,grocer and corn merchant,
+resident,CHEPSTOW ROAD,,,,Roach & Limbrick The Misses,costumiers,
+resident,CHEPSTOW ROAD,110,,,W. E.,Robertson,tobacnst,
+resident,CHEPSTOW ROAD,108,,,R.,Kemp,hosier & outfittr,
+resident,CHEPSTOW ROAD,106,,,F. J.,Escott,furniture wareho. & van proprtr,
+resident,CHEPSTOW ROAD,104,,,G. H.,Holbrook,florist,
+resident,CHEPSTOW ROAD,102,,,,Cobbledick & Isaac,milliners,
+resident,CHEPSTOW ROAD,100,,,,Eastmans Ltd. purveyrs,,
+resident,CHEPSTOW ROAD,98,,,H. junr.,Atherton,confectioner,
+resident,CHEPSTOW ROAD,96,,,C. M.,Harris,gilder,
+resident,CHEPSTOW ROAD,94,,,J. R.,Horner,upholsterer,
+resident,CHEPSTOW ROAD,92,,,,Pugh G. & Sons,decortrs,
+resident,CHEPSTOW ROAD,90,,,A. G.,Williams,chemist,
+resident,CHEPSTOW ROAD,,,,Rev. T.,Williams,,
+resident,CHEPSTOW ROAD,88,,,W. H.,Locke,butcher,
+cross_street,CHEPSTOW ROAD,,,,,,here is Livingstone-place
+resident,CHEPSTOW ROAD,86,,,Mrs.,Lewis,tobacconist,
+resident,CHEPSTOW ROAD,84,,,H.,Empsall,hardware dlr,
+resident,CHEPSTOW ROAD,82,,,Mrs. L.,Brodie,fancy goods dealer,
+resident,CHEPSTOW ROAD,,,,Ralph,Brodie,,
+resident,CHEPSTOW ROAD,80,,,H. J.,Davey,confectioner,
+resident,CHEPSTOW ROAD,78,,,Mrs. A.,Parman,tobacnst,
+resident,CHEPSTOW ROAD,76,,Evening Post Depôt,,,,
+resident,CHEPSTOW ROAD,74,,,F. J.,Bucknall,bootmakr,
+resident,CHEPSTOW ROAD,72,,,F. J.,Bucknall,bootmakr,
+resident,CHEPSTOW ROAD,,,,A. D.,Goldsmith,watchmkr,
+resident,CHEPSTOW ROAD,70,,,Miss M.,Miller,tobacconist and newsagent,
+resident,CHEPSTOW ROAD,,,,A. H.,Sharrem,grocer,
+cross_street,CHEPSTOW ROAD,,,,,,here is Harrow-road
+resident,CHEPSTOW ROAD,68,,,Mrs. E.,Thomas,,Austin v
+resident,CHEPSTOW ROAD,,,,Madam A.,Thomas,pianist,
+resident,CHEPSTOW ROAD,66,,,J. N.,Davies,,Ormonde house
+resident,CHEPSTOW ROAD,,,,John Davies & Co.,,,
+resident,CHEPSTOW ROAD,64,,,Wm.,Irwin,physician and surgeon Chepstow villa,
+resident,CHEPSTOW ROAD,62,,,Frank,Blake,,Kenilworth
+resident,CHEPSTOW ROAD,60,,,Reyrnold,Richards,,Home side

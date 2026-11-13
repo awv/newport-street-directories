@@ -1,0 +1,147 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,SOUTHVILLE ROAD,,,,,,continued
+resident,SOUTHVILLE ROAD,16,Rothesay,Thos. J.,Davies,,
+resident,SOUTHVILLE ROAD,14,Ardlaw,C. W.,Thomas,,
+resident,SOUTHVILLE ROAD,12,,Miss F.,Owen,costumier,
+resident,SOUTHVILLE ROAD,10,Penygarn,E. J.,Dando,,
+resident,SOUTHVILLE ROAD,8,The Briars,F. L.,Newland,,
+resident,SOUTHVILLE ROAD,6,Elidyr,Clifford A.,Pell,,
+resident,SOUTHVILLE ROAD,4,,Sidney,Float,,
+resident,SOUTHVILLE ROAD,2,,Noel H.,Davies,,
+cross_street,SOUTHVILLE ROAD,,,,,,(return)
+resident,SOUTHVILLE ROAD,1,The Knoll,Mrs E.,Williams,,
+resident,SOUTHVILLE ROAD,3,,Fred T.,Groves,,
+resident,SOUTHVILLE ROAD,5,Budleigh,T. A.,Haines,,
+resident,SOUTHVILLE ROAD,,The Cottage,John C.,Dibble,,
+street,SPEKE STREET,,,,,,D 3 Opposite Maindee Schools
+resident,SPEKE STREET,1,,Bros.,Bastick,ironmongers,
+resident,SPEKE STREET,2,,,,Bastick Bros. stores,
+resident,SPEKE STREET,3,,Mrs. M. J.,Read,,
+cross_street,SPEKE STREET,,,,,,here is Livingstone-place
+resident,SPEKE STREET,,coal yard,S.,Powell,,
+resident,SPEKE STREET,4,,Chas.,Child,plasterer,
+resident,SPEKE STREET,5,,Wm. A.,Jackson,mason,
+resident,SPEKE STREET,6,,Arthur E.,Macey,,
+resident,SPEKE STREET,,carpenter,A.,George,,
+cross_street,SPEKE STREET,,,,,,(return)
+resident,SPEKE STREET,7,,George David,Lloyd,,
+street,SPENCER ROAD,,,,,,C 5 Caerau-rd. to Llanthewy-rd. (RIGHT HAND SIDE.)
+resident,SPENCER ROAD,4,The Pandy,Ivor,Lewis,,
+resident,SPENCER ROAD,3,Belmont,G. H.,Bulcraig,,
+resident,SPENCER ROAD,2,Stainmore,Mrs. M.,Dean,,
+resident,SPENCER ROAD,1,Westcott,A.,Greenland,,
+street,SPRING GARDENS,,,,,,E 5 Courtybella, Cardiff-road
+resident,SPRING GARDENS,,,,Spring Gardens School,,
+street,SPYTTY LANE,,,,,,E 2 From Nash-rd. to Corporation-rd. (see also Greenmeadow-rd.)
+resident,SPYTTY LANE,,Greenmeadow farm,Robert,Baker,,
+resident,SPYTTY LANE,,,,furnaceman,Thomas Morgan
+resident,SPYTTY LANE,,wks super,James J.,Waddell,,
+resident,SPYTTY LANE,,tube worker,William,Able,,
+resident,SPYTTY LANE,,elec engineer,Walter,Burns,,
+resident,SPYTTY LANE,,ironworker,Arthur,Whant,,
+resident,SPYTTY LANE,,ironworker,Harry,Whild,,
+resident,SPYTTY LANE,,ironworker,Wm. Henry,Rogers,,
+cross_street,SPYTTY LANE,,,,,,(return)
+resident,SPYTTY LANE,,greengrocer,John,Bryant,,
+resident,SPYTTY LANE,Spitty farm,Edward,Hogg,,
+street,SPRING STREET,,,,,,B 4 From Redland-street (LEFT HAND SIDE.)
+resident,SPRING STREET,1,,P.,Vangasse,stoker,
+resident,SPRING STREET,3,,Walter,Dumayne,ironwkr,
+resident,SPRING STREET,5,,Sidney,Hanshaw,labr,
+resident,SPRING STREET,7,,Alfred,Bennett,,
+resident,SPRING STREET,9,,Arthur Hy.,Latham,chef,
+cross_street,SPRING STREET,,,,,,(return)
+resident,SPRING STREET,10,,Edward,Watkins,seaman,
+resident,SPRING STREET,8,,Abraham,Sweeney,labr,
+resident,SPRING STREET,6,,Wm. S.,Williams,carprntr,
+resident,SPRING STREET,4,,Richd.,Godwin,boilermkr,
+resident,SPRING STREET,2,,David,Payne,Charles,
+street,STAFFORD ROAD,,,,,,C 3 From 251 Caerleon-road to Railway (LEFT HAND SIDE.)
+resident,STAFFORD ROAD,,,,,,St. Julians Motor-cycle & engineering works
+resident,STAFFORD ROAD,1,,Mrs. M. J.,Cain,,
+resident,STAFFORD ROAD,3,,Mrs. R.,Arnold,,
+resident,STAFFORD ROAD,5,,Mrs. Mary,Powell,,
+resident,STAFFORD ROAD,7,,Thos.,Fairfax,furnaceman,
+resident,STAFFORD ROAD,9,,J. R.,Yalland,warehouseman,
+resident,STAFFORD ROAD,11,,Arthur,Lewis,Charles,
+resident,STAFFORD ROAD,13,,J. Leo,Stretch,seaman,
+cross_street,STAFFORD ROAD,,,,,,here is Durham-road
+resident,STAFFORD ROAD,15,,Mrs. M.,Jones,,
+resident,STAFFORD ROAD,,,,,,Stafford Garage motor accessories and repairs
+resident,STAFFORD ROAD,17,,H.,Godfrey,eng driver,
+resident,STAFFORD ROAD,19,5 19,Wm.,Shipp,salesman,
+resident,STAFFORD ROAD,21,,John H.,McHugh,sampler,
+resident,STAFFORD ROAD,23,,Wm.,Cole,Morton,
+resident,STAFFORD ROAD,25,,Mrs. M. A.,Wookey,,
+resident,STAFFORD ROAD,27,,Jas. P.,Burnett,plumber,
+resident,STAFFORD ROAD,29,,William,Gulley,Alfred,
+resident,STAFFORD ROAD,31,,Edgar,Inker,hardware dlr,
+resident,STAFFORD ROAD,,Henry,Stevens,,,
+resident,STAFFORD ROAD,33,E 5 33,Albert S.,Bowen,G.W.R.,
+resident,STAFFORD ROAD,35,,James,Wearing,,
+resident,STAFFORD ROAD,37,,Geo. A.,Morgan,mechanic,
+resident,STAFFORD ROAD,39,,A. F.,Butcher,carpenter,
+resident,STAFFORD ROAD,41,,Samuel John,Gunn,joiner,
+resident,STAFFORD ROAD,43,,Arthur J.,Phipps,clerk,
+resident,STAFFORD ROAD,45,,Albert,Cain,postman,
+resident,STAFFORD ROAD,47,,James W.,Dance,G.W.R.,
+resident,STAFFORD ROAD,49,,Ernest,Agg,domestic fitter,
+resident,STAFFORD ROAD,51,,Francis,Downs,,
+resident,STAFFORD ROAD,53,,Alfred,Macey,G.W.R.,
+resident,STAFFORD ROAD,55,,Humphrey,Lewis,manager,
+resident,STAFFORD ROAD,57,,Robert,Cumming,greaser,
+resident,STAFFORD ROAD,59,,E. A.,Collier,dlk police,
+resident,STAFFORD ROAD,,,,,,Cowling & Scott gen eng and smiths Tel. 1393
+resident,STAFFORD ROAD,,,,,,Alpha Electric and Oxy-Acetylene Welding Co. Ltd.
+cross_street,STAFFORD ROAD,,,,,,(return)
+resident,STAFFORD ROAD,20,,Reg. T.,Anstice,builder,
+resident,STAFFORD ROAD,18,B 4 18,William,Mason,G.W.R.,
+cross_street,STAFFORD ROAD,,,,,,here is Stockton-road
+resident,STAFFORD ROAD,16,,Mrs. Clara,Inker,,
+cross_street,STAFFORD ROAD,,,,,,here is Sutton-road
+cross_street,STAFFORD ROAD,,,,,,here is Durham-road
+resident,STAFFORD ROAD,14,,Percy,Slater,G.W.R.,
+resident,STAFFORD ROAD,12,,Ernest H.,Tritton,agent,
+resident,STAFFORD ROAD,10,,Arthur H.,Day,plumber,
+resident,STAFFORD ROAD,8,,Chas.,Pritchard,gardener,
+resident,STAFFORD ROAD,6,,A. Wm.,Gray,clerk,
+resident,STAFFORD ROAD,4,,James,Davies,,
+resident,STAFFORD ROAD,2,,William H.,Warner,,
+street,STANLEY ROAD,,,,,,C 5 Gold Tops to Devon-place (LEFT HAND SIDE)
+resident,STANLEY ROAD,1,,M.C.C. Orthopaedic,clinic,,
+resident,STANLEY ROAD,3,,M.C.C. School,Clinic,,
+resident,STANLEY ROAD,5,,E.,Perman,Walsham,
+resident,STANLEY ROAD,7,,,,Advertisers Billposting Co. registered offices,
+cross_street,STANLEY ROAD,,,,,,(return)
+resident,STANLEY ROAD,2,,George B.,Bull,,
+resident,STANLEY ROAD,,borough,Fredk.,Waters,Farn-
+street,STAR BUILDINGS,,,,,,See 144 Commercial-street
+street,STATION STREET,,,,,,C 5 From 67 Bridge-street (LEFT HAND SIDE.)
+resident,STATION STREET,1,,James,Bevan,coal mercht,
+resident,STATION STREET,2,,Alfred,Mason,engineer,
+resident,STATION STREET,3,,Wm.,Ireland,G.W.R.,
+resident,STATION STREET,4,,Mrs. Mary Jane,Webb,,
+resident,STATION STREET,,,,,,Webb & Son decorators etc
+cross_street,STATION STREET,,,,,,here is Railway-street
+resident,STATION STREET,,PRIM. METH. CHURCH,,,,
+resident,STATION STREET,5,Lamorna house,Mrs. F. L.,Evans,school for girls,
+resident,STATION STREET,6,,T. M.,Smith,cabinetmkr,
+resident,STATION STREET,,Charles,Alford,G.W.R.,
+cross_street,STATION STREET,,,,,,(return)
+resident,STATION STREET,14,,Joseph J.,Evans,driver,
+resident,STATION STREET,,Mrs. Ethel,Young,,,
+resident,STATION STREET,15,,E. J.,Workman,shop,
+resident,STATION STREET,16,,Stores,,,
+resident,STATION STREET,17,,Stores,,,
+resident,STATION STREET,,,,,,Phillips & Sons Ltd. brewers and wine merchants
+resident,STATION STREET,20,,G. H.,Parselle,boot repr,
+resident,STATION STREET,21-23,,J. Leslie,Miller,furrier,
+street,STEAM PACKET CHAMBERS,,,,,,C 3 See 202 Dock-street
+street,STOCKTON ROAD,,,,,,C 3 Off Stafford-road (RIGHT HAND SIDE.)
+resident,STOCKTON ROAD,2,,William,Glover,electr'cn,
+resident,STOCKTON ROAD,4,,John,Rendall,car driver,
+resident,STOCKTON ROAD,6,,Wm. Jno.,Clutton,,
+resident,STOCKTON ROAD,8,,Hy. Geo.,Resden,motormn,
+resident,STOCKTON ROAD,10,,Wm. H. A.,Webb,G.W.R.,
+resident,STOCKTON ROAD,12,,Mrs. Annie,Lewis,,
+resident,STOCKTON ROAD,14,,Thos.,Dyer,ironfounder,

@@ -1,0 +1,128 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Baneswell-square,,,,,,
+cross_street,Baneswell-square,,,,,,[Right-hand side.]
+resident,Baneswell-square,1,,,Lawrence,W.,shoemaker,
+resident,Baneswell-square,2,,,Allen,Miss Martha,,
+resident,Baneswell-square,3,,,Read,Ann,widow,
+resident,Baneswell-square,4,,,Lewis,Chas.,labourer,
+resident,Baneswell-square,5,,,Newman,Chris. C.,miller,
+resident,Baneswell-square,6,,,Pinnell,Jane,widow,
+resident,Baneswell-square,7,,,Phillips,Thos.,fireman,
+resident,Baneswell-square,8,,,Davies,Rachel,widow,
+resident,Baneswell-square,9,,,Popham,Hy.,baker,
+resident,Baneswell-square,10,,,Stiles,John,haulier,
+resident,Baneswell-square,11,,,Hurn,Thos.,shingler,
+resident,Baneswell-square,12,,,Richards,Lydia,widow,
+resident,Baneswell-square,,Malvern villa,,Andrews,J.,,,Claremont villa
+resident,Baneswell-square,,Arundel villa,,Sanders,Thos.,Randolph vil,void
+resident,Baneswell-square,,Woodside villa,,Jeffs,Hy.,,,void
+resident,Baneswell-square,,Rose cottage,,Jeffs,Mrs. N.,,
+resident,Baneswell-square,,Penylan farm,,Attewell,T.,,
+resident,Baneswell-square,,Barrack cot,,Bowden,W. J.,,Wm. Macey do.
+resident,Baneswell-square,,,,Johns,Wm.,stoker,do.
+resident,Baneswell-square,,,,Coles,Charles,,
+resident,Baneswell-square,,,,Ryan,Martin,shoemaker,
+resident,Baneswell-square,,,,Sheehan,Mary,,
+resident,Baneswell-square,,,,Mulholland,Charlotte,,
+resident,Baneswell-square,,,,Clarke,Mrs. Elizabeth,,
+resident,Baneswell-square,,,,Snellgrove,L.,timekeeper,
+resident,Baneswell-square,,,,Buss,John,labourer,
+resident,Baneswell-square,,,,Speary,Herbert,grocery,
+resident,Baneswell-square,,,,Cook,James,brickmaker,
+resident,Baneswell-square,,,,Cook,Jas.,storeman,
+resident,Baneswell-square,,,,Walters,Llwyn.,labourer,
+resident,Baneswell-square,,,,Power,Thos.,factory hand,
+resident,Baneswell-square,,,,House let in apartments,,,
+resident,Baneswell-square,,,,Jones,Benjamin,mason,
+resident,Baneswell-square,,,,House in apartments,,,
+resident,Baneswell-square,,,,Willis,Thomas,grocer,
+resident,Baneswell-square,,,,Watkins,James,carter,
+resident,Baneswell-square,,,,Dix,John,,
+resident,Baneswell-square,,,,Rowlands,John,sailor,
+street,Barracks,,,,,,See Local Information
+resident,Barracks,,,,Williams,Richard,bailiff,Barrack farm
+resident,Barracks,,,,Hyatt,Daniel,cowman,
+street,Barrack Lane, P.,,,,,,From 1 Mill-parade.
+resident,Barrack Lane, P.,,,,Rogers & Co.,,Npt. Pottery,
+resident,Baneswell-square,5,,,Phillips,Mrs. C.,Lamb,
+resident,Baneswell-square,6,,,Gregory,T. jun.,butcher,Smith's porter stores
+resident,Baneswell-square,7,,,Harris,Mrs. M.,confectn'r and baker,
+cross_street,Baneswell-square,,,,,,here is Baneswell-square.
+resident,Baneswell-square,8,,,Parsons,J. T.,fruiterer,
+cross_street,Baneswell-square,,,,,,here is North-street.
+resident,Baneswell-square,9,Queen's Buildings,,South W. Telegram office,H. Praill manager,Mon. Merlin office
+resident,Baneswell-square,10,,,Wellsteed,E.,butcher,Brecon & Merthyr Rly. Co.'s Engineer's office
+resident,Baneswell-square,11,,,Raymond's,J.,temp'rance hotel and coffee palace,
+resident,Baneswell-square,12,,,Lewis,H. P.,baker and confectioner,
+resident,Baneswell-square,13,,,Johns,R. H.,stationer,printer and newsagent Newport Directory office,
+resident,Baneswell-square,14,,,Jones,Thos.,ironmonger and general dealer,
+cross_street,Baneswell-square,,,,,,here is Bailey-street.
+resident,Baneswell-square,,,,Tamplin,Job,boot mart,Baneswell
+resident,Baneswell-square,15,,,Perry,Charles,,
+resident,Baneswell-square,16,,,Phillips,Chas.,grocer, &c
+resident,Baneswell-square,17,,,Cousins,K.,fruiterer,
+resident,Baneswell-square,18,,,Avery,Henry,tailor,
+resident,Baneswell-square,19,,,Davies,John,grocer,
+cross_street,Baneswell-square,,,,,,here is West-st. (return.)
+resident,Baneswell-square,20,,,Walton,Mrs.,shopkeeper,Huzzey John
+resident,Baneswell-square,21,,,Burnett,E. F.,fishmonger,
+resident,Baneswell-square,22,,,Hicks,Alfred,haulier,
+resident,Baneswell-square,23,Bolton Terrace,,L. & W. E. Yeast Co.,,Lewis Chas. hairdresser
+resident,Baneswell-square,24,Bolton Terrace,10,Hurd,E. C.,newsagent,
+resident,Baneswell-square,25,Bolton Terrace,11,Coulson,J.,watchmaker,
+resident,Baneswell-square,26,Bolton Terrace,12,Grey,C. W.,pork butcher,
+resident,Baneswell-square,27,Bolton Terrace,13,Gadsden,J.,toy dlr. etc.,
+resident,Baneswell-square,28,Bolton Terrace,14,Watson Bros.,bootrep'rs,
+resident,Baneswell-square,,,Queen's Hotel,Jas.,Rowe,,
+street,Tredegar-place,,,,,,See also Tredegar-place.
+resident,Baneswell-square,7,,,Lewarne,Wm.,signalman,Whitfield Jno. Lyndhurst
+resident,Baneswell-square,8,,,Middleton,F.,storekeeper,Taylor F. W. 1 Glen-view
+resident,Baneswell-square,9,,,Fogarty,E.,carpenter,Hodgkinson Miss Alice 2 do
+resident,Baneswell-square,10,,,McCarthy,Mich.,lab'rer,
+resident,Baneswell-square,11,,,Morgan,Mrs. Emma,,
+resident,Baneswell-square,12,,,James,George,smith,
+resident,Baneswell-square,13,,,Simms,Isaac,shoemaker,
+resident,Baneswell-square,14,,,Goulding,J.,lamplighter,
+resident,Baneswell-square,15,,,Jones,Wm.,plumber,
+resident,Baneswell-square,16,,,Knight,Geo.,lamplighter,
+resident,Baneswell-square,17,,,Chivers,Harriet,widow,
+resident,Baneswell-square,18,,,Jones,John,smith,
+resident,Baneswell-square,19,,,Colwell,Albert,rigger,
+resident,Baneswell-square,20,,,Jones,Margaret,widow,
+street,Bank Chambers,,,,,,See Tredegar-place.
+street,Barnard Town,,,,,,is a district lying between the Caerleon-road and Maindee.
+street,Barnard Street, B.T.,,,,,,From Princes-street.
+resident,Barnard Street, B.T.,1,,,Andrews,Mark,greengr,
+resident,Barnard Street, B.T.,2,,,Jones,Mrs. Emily,,
+resident,Barnard Street, B.T.,3,,,Hine,George,haulier,
+resident,Barnard Street, B.T.,4,,,Ashill,F.,labourer,
+resident,Barnard Street, B.T.,5,,,Ward,Edward,labourer,
+resident,Barnard Street, B.T.,6,,,Mole,Thos.,factory hand,
+resident,Barnard Street, B.T.,7,,,Warren,T.,brewer,
+resident,Barnard Street, B.T.,8,,,Probert,Thos.,platelayer,
+resident,Barnard Street, B.T.,8A,,,Payne,Sidney,gardener,
+resident,Barnard Street, B.T.,8B,,,Andrews,Ard.,haulier,
+resident,Barnard Street, B.T.,8C,,,Chivers,E.,porter,
+resident,Barnard Street, B.T.,9,,,Price,Wm.,plumber,
+resident,Barnard Street, B.T.,10,,,Davey,C. Hy.,chairmaker,
+resident,Barnard Street, B.T.,11,,,Stevens,Wm.,blacksmith,
+resident,Barnard Street, B.T.,12,,,Clarke,Wm.,haulier,
+resident,Barnard Street, B.T.,13,,,Munn,Chas.,shoemaker,
+resident,Barnard Street, B.T.,14,,,Church,Geo.,miller,
+resident,Barnard Street, B.T.,15,,,Allen,Wm.,engineman,
+resident,Barnard Street, B.T.,16,,,Collins,Wm. J.,painter,
+street,Barrack Hill,,,,,,Marshes-road to Barracks.
+cross_street,Barrack Hill,,,,,,[Left-hand side.]
+resident,Barrack Hill,,,Oak-tree cot,James,Cox,plasterer,House-void
+resident,Barrack Hill,,,,Shields,Wm.,,,
+cross_street,Barrack Hill,,,,,,here is Belvedere-terrace and Power-street.
+resident,Barrack Hill,,,Hopefield ho,Tunnadine,Hy.,,
+resident,Barrack Hill,,,Bradford house,Jewell,Wm.,,
+resident,Barrack Hill,,,Alltwen villa,Samuel,Read,,
+street,Baneswell Square,,,,,,From 7 Baneswell-road.
+resident,Baneswell Square,1,,,Harris,Mrs. M.,,
+resident,Baneswell Square,2,,,Humphreys,Geo.,lab'rer,
+resident,Baneswell Square,3,,,Gough,Walter,mason,
+resident,Baneswell Square,4,,,Fogarty,Wm.,carpenter,
+resident,Baneswell Square,5,,,Jones,Cecelia,,
+resident,Baneswell Square,6,,,Lester,Hy.,labourer,

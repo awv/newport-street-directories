@@ -1,0 +1,21 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,,69,,William,Morgan,smith,
+resident,,70,,Alfred,Row,linesman,
+resident,,71,,Wm. H.,Florida,labourer,
+resident,,72,,Fred,Wilkins,labourer,
+resident,,73,,James,Baker,guard,
+resident,,74,,Walter J.,Wall,labourer,
+resident,,75,,John Hy.,Davey,bricklyr,
+resident,,76,,S.,Smith,warehouseman,
+street,BROAD STREET,,,,,E 4. Frederick-st. to Portland-st.
+cross_street,BROAD STREET,,,,,(LEFT HAND SIDE)
+resident,BROAD STREET,,,Keefe Bros.,,stores,
+resident,BROAD STREET,1,,Miss Rosina,Bridge,,
+resident,BROAD STREET,2,,Francis,Bordessa,stwd,
+resident,BROAD STREET,3,,Albert,Suller,,
+resident,BROAD STREET,4,,John,Mahoney,dock labr,
+resident,BROAD STREET,,,,White & Jewell Ltd.,wheelwrights,
+resident,BROAD STREET,5,,John C.,Fitzgerald,,
+resident,BROAD STREET,5a,,John,Higgins,,
+cross_street,BROAD STREET,,,,,(return)
+resident,BROAD STREET,6,,John, junr.,Bridge,labour

@@ -1,0 +1,163 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,RUG STREET,,,,,,
+resident,RUG STREET,15,,Evan,Watkins,dressmaker,St. Clear's
+resident,RUG STREET,17,,Miss A.,Ross,,
+resident,RUG STREET,19,,Mrs E.,Taylor,,
+resident,RUG STREET,21,,Timothy,Davies,builder,
+resident,RUG STREET,23,,A.,Morgan,,Cardigan h
+resident,RUG STREET,,,Vacant sites,,,
+resident,RUG STREET,,,Villas building,,,
+resident,RUG STREET,,,Vacant sites,,,
+resident,RUG STREET,,,George,Jeremiah,,Newra
+resident,RUG STREET,,,William,Davies,,Coniston
+resident,RUG STREET,,,2 villas building,,,
+street,RUPERRA STREET,,,,,,
+cross_street,RUPERRA STREET,,,,,,Commercial-rd. to Dock-st.
+cross_street,RUPERRA STREET,,,,,,[LEFT HAND SIDE.]
+resident,RUPERRA STREET,2,,J.,Morgan,tailor,
+resident,RUPERRA STREET,3,,John,Tomlins,saddler,
+resident,RUPERRA STREET,4,,Bros.,Duckham,cattledlrs,
+resident,RUPERRA STREET,,,Samuel,Raines,fireman,
+resident,RUPERRA STREET,5,,Lawrence,White,labourer,
+resident,RUPERRA STREET,6,,Mrs Thirza A.,Allen,,
+resident,RUPERRA STREET,7,,Jas.,Barnett,compositor,
+resident,RUPERRA STREET,8,,Mrs Lucy,Davey,,
+resident,RUPERRA STREET,9,,William,Turner,butcher,
+resident,RUPERRA STREET,10,,Mrs Annie,Hale,,
+resident,RUPERRA STREET,11,,Robert,Baulch,fitter,
+resident,RUPERRA STREET,12,,John,Paton,police sergt.,
+resident,RUPERRA STREET,13,,Mrs Ann,Davies,,
+resident,RUPERRA STREET,14,,John,Jones,foreman, GWR
+resident,RUPERRA STREET,15,,William,Bowen,mason,
+resident,RUPERRA STREET,16,,Geo.,Leyson,bricklayer,
+resident,RUPERRA STREET,17,,Mrs Sarah,John,,
+cross_street,RUPERRA STREET,,,,,,here is New Ruperra-street.
+resident,RUPERRA STREET,18,,Mrs Elizabeth,Harrison,,
+resident,RUPERRA STREET,19,,William,Ash,shop,
+resident,RUPERRA STREET,20,,Albert,Newberry,,
+resident,RUPERRA STREET,21,,J. H.,Price,plumber,
+resident,RUPERRA STREET,22,,Void,,,
+resident,RUPERRA STREET,23,,Thomas,Stock,labourer,
+resident,RUPERRA STREET,24,,John,Harris,shipping agt,
+resident,RUPERRA STREET,25,,Mrs Rosanna,Morgan,,
+resident,RUPERRA STREET,26,,Mrs Harriet,Bailey,,
+resident,RUPERRA STREET,27,,F. C.,Solomon,clerk,
+resident,RUPERRA STREET,28,,Alfred A.,Smith,,
+resident,RUPERRA STREET,29,,Seamen's Institute,,,
+resident,RUPERRA STREET,30,,Edmund,Miles,,
+resident,RUPERRA STREET,31,,D.,Bowen,,secretary to Nat. A. Seamen's Union
+cross_street,RUPERRA STREET,,,,,,(return.)
+resident,RUPERRA STREET,20-22,,Geo. & Co.,Williams,colliery agents,
+resident,RUPERRA STREET,24,,Alf. J.,Smith,coal agent,
+resident,RUPERRA STREET,25,,J. R. & T. A., Ltd.,Webb,bonded stores,
+resident,RUPERRA STREET,32,,& Co.,Moses,shipbrokers,
+resident,RUPERRA STREET,,Wm.,Panting,truck inspt,
+cross_street,RUPERRA STREET,,,,,,here is East Market-street.
+cross_street,RUPERRA STREET,,,,,,CATTLE MARKET
+resident,RUPERRA STREET,33,,John,Owens,mas. mar.,
+resident,RUPERRA STREET,34,,Tom,Witridge,irondressr,
+resident,RUPERRA STREET,35,,Wm. G.,Waters,eng. dvr.,
+resident,RUPERRA STREET,36,,Edward,Davies,plasterer,
+resident,RUPERRA STREET,37,,F.,Freeguard,hairdresser,
+resident,RUPERRA STREET,38,,Edwin,Reading,labourer,
+resident,RUPERRA STREET,39,,Wm.,Difford,labourer,
+street,RUTLAND PLACE,,,,,,
+cross_street,RUTLAND PLACE,,,,,,From 76 Alma-street.
+resident,RUTLAND PLACE,1,,Wm.,Harding,,Alma ho
+resident,RUTLAND PLACE,2,,Rev J. H.,Blackwell,,
+resident,RUTLAND PLACE,3,,Hy. T.,Goldsworthy,pilot,
+resident,RUTLAND PLACE,4,,Wm.,King,clerk, G.W.R.
+resident,RUTLAND PLACE,5,,Thos.,Lane,shipwright,
+resident,RUTLAND PLACE,,,W. & Son,Jones,bldrs yard,
+resident,RUTLAND PLACE,6,,Edwin,Jones,,
+resident,RUTLAND PLACE,7,,James,Dixon,foreman,
+resident,RUTLAND PLACE,8,,Oliver,Nicholas,boilermkr,
+resident,RUTLAND PLACE,9,,A. J.,Williams,patternmkr,
+resident,RUTLAND PLACE,10,,Mrs Susan,Page,,
+resident,RUTLAND PLACE,11,,Arwed,Flood,R. storekpr,
+street,ST. EDWARD STREET,,,,,,
+cross_street,ST. EDWARD STREET,,,,,,From end of St Mary-street.
+cross_street,ST. EDWARD STREET,,,,,,[LEFT HAND SIDE.]
+resident,ST. EDWARD STREET,1,,James,Prosser,milkman,
+resident,ST. EDWARD STREET,2,,Alfd. Jas.,Bubb,labourer,
+resident,ST. EDWARD STREET,3,,W. F.,Davies,baker,
+resident,ST. EDWARD STREET,4,,Dd.,Williams,traffic exmr,
+resident,ST. EDWARD STREET,5,,John Hy.,Stockwell,P.O.,
+resident,ST. EDWARD STREET,6,,John,Gale,groom,
+resident,ST. EDWARD STREET,7,,Ernest,Gardiner,eng drvr,
+resident,ST. EDWARD STREET,8,,John,Fry,hall keeper,
+resident,ST. EDWARD STREET,9,,Frederick,Payne,,
+resident,ST. EDWARD STREET,10,,Mrs Matilda,Lovell,,
+resident,ST. EDWARD STREET,11,,C. W.,Tritton,postman,
+resident,ST. EDWARD STREET,12,,Wm.,McCullough,carputr,
+resident,ST. EDWARD STREET,13,,Wm. H.,Flage,coalman,
+resident,ST. EDWARD STREET,14,,Chris.,Thomas,police sergt,
+resident,ST. EDWARD STREET,15,,W. E.,Thomas,fireman,
+resident,ST. EDWARD STREET,16,,Mrs M.,Lewis,grocer,
+resident,ST. EDWARD STREET,17,,Albert,Stocker,cabman,
+resident,ST. EDWARD STREET,18,,Herbert,Peacock,police,
+resident,ST. EDWARD STREET,19,,Wm. Hy.,Hando,carpenter,
+resident,ST. EDWARD STREET,20,,David,Williams,porter,
+resident,ST. EDWARD STREET,21,,John,Knight,cycle fitter,
+resident,ST. EDWARD STREET,22,,John,Goddard,carpenter,
+resident,ST. EDWARD STREET,23,,Harry,Moore,gardener,
+resident,ST. EDWARD STREET,24,,Wm.,Lewis,signalman,
+resident,ST. EDWARD STREET,25,,Henry,Kinnersley,police,
+resident,ST. EDWARD STREET,26,,C.,Williams,signal fitter,
+resident,ST. EDWARD STREET,27,,W. J.,Morris,roofer,
+resident,ST. EDWARD STREET,28,,William,Foster,painter,
+resident,ST. EDWARD STREET,29,,Wm.,Morgan,carpenter,
+resident,ST. EDWARD STREET,30,,Geo.,Mortimer,machinist,
+resident,ST. EDWARD STREET,31,,John H.,Reed,moulder,
+resident,ST. EDWARD STREET,32,,Geo.,Jones,crane driver,
+resident,ST. EDWARD STREET,33,,Hy. Chas.,Moore,carpenter,
+cross_street,ST. EDWARD STREET,,,,,,(return.)
+resident,ST. EDWARD STREET,34,,L. M.,Davies,blacksmith,
+resident,ST. EDWARD STREET,35,,Thos.,Browning,blacksmth,
+resident,ST. EDWARD STREET,36,,David,Stevens,guard,
+resident,ST. EDWARD STREET,37,,Hugh,Ross,engine driver,
+resident,ST. EDWARD STREET,38,,Mrs Sarah Ann,Weeks,,
+resident,ST. EDWARD STREET,39,,Fredk.,Pearce,foreman,
+resident,ST. EDWARD STREET,40,,Rd.,Wellington,seaman,
+resident,ST. EDWARD STREET,41,,Mrs Sarah Jane,Pearce,,
+resident,ST. EDWARD STREET,42,,Mrs Fanny,Curnuck,,
+resident,ST. EDWARD STREET,43,,Mrs Lavinia,Richards,,
+resident,ST. EDWARD STREET,44,,R.,Whitcombe,traveller,
+resident,ST. EDWARD STREET,45,,Henry,Gardner,James,
+resident,ST. EDWARD STREET,46,,Wm.,Phillips,carpenter,
+resident,ST. EDWARD STREET,47,,Martin J.,Neale,carpenter,
+resident,ST. EDWARD STREET,48,,John,Bennett,carpenter,
+resident,ST. EDWARD STREET,49,,Jos.,Smith,ticket collectr,
+resident,ST. EDWARD STREET,50,,Mrs Jane,Dier,,
+resident,ST. EDWARD STREET,51,,J. E.,Walker,insur. agent,
+resident,ST. EDWARD STREET,52,,Albt. F.,Stanbury,cabmn,
+resident,ST. EDWARD STREET,53,,Angus,Reid,hoistman,
+resident,ST. EDWARD STREET,54,,W.,Berridge,insur. agent,
+resident,ST. EDWARD STREET,55,,Frank,Parsons,porter,
+resident,ST. EDWARD STREET,56,,John,Dier,painter,
+resident,ST. EDWARD STREET,57,,Mrs John,Morgan,,
+resident,ST. EDWARD STREET,58,,Arthur,Bedwell,G.W.R.,
+resident,ST. EDWARD STREET,59,,William,Reeves,haulier,
+resident,ST. EDWARD STREET,60,,Fredk. H.,Saysell,linesmn,
+resident,ST. EDWARD STREET,61,,Mrs Louisa,Jones,,
+resident,ST. EDWARD STREET,62,,Mrs Ann,Jones,shopkpr,
+resident,ST. EDWARD STREET,63,,Mrs Sarah A.,Box,shopkpr,
+street,ST. JOHN'S ROAD, M.,,,,,,
+cross_street,ST. JOHN'S ROAD, M.,,,,,,Eveswell-park.
+cross_street,ST. JOHN'S ROAD, M.,,,,,,RIGHT HAND SIDE.
+resident,ST. JOHN'S ROAD, M.,2,,A. H.,Duffield,,St. John's ho
+resident,ST. JOHN'S ROAD, M.,4,,Theo.,Frederick,,
+resident,ST. JOHN'S ROAD, M.,6,,Frank,Dickson,Mariquita
+resident,ST. JOHN'S ROAD, M.,8,,Ralph,Brodie,,
+resident,ST. JOHN'S ROAD, M.,10,,Walter,Ware,Lynwood
+resident,ST. JOHN'S ROAD, M.,12,,Richard W.,Gwatkin,,
+resident,ST. JOHN'S ROAD, M.,14,,S. G.,Tanner,Sydenham
+resident,ST. JOHN'S ROAD, M.,16,,John N.,Davies,Redcliffe
+resident,ST. JOHN'S ROAD, M.,18,,Miss,Cullum,Springfield h
+resident,ST. JOHN'S ROAD, M.,20,,Wm.,Morris,Beaufort ho
+resident,ST. JOHN'S ROAD, M.,22,,Harry,Davies,Sandfield
+resident,ST. JOHN'S ROAD, M.,24,,John,Thomas,Grenville v
+resident,ST. JOHN'S ROAD, M.,26,,Trevor,Phillips,,
+resident,ST. JOHN'S ROAD, M.,28,,J.,Kenward,Old Vicarage
+resident,ST. JOHN'S ROAD, M.,30,,N.,Brown,Weston view
+resident,ST. JOHN'S ROAD, M.,32,,Alex.,Phillips,Waverley h

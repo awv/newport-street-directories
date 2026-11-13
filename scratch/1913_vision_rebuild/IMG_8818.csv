@@ -1,0 +1,166 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,VICTORIA CRESCENT,4,,William,Wood,labourer,continued
+resident,VICTORIA CRESCENT,5,,Fredk.,Mitchell,bricklyr,
+resident,VICTORIA CRESCENT,22,,Thomas,Harris,labourer,
+resident,VICTORIA CRESCENT,23,,T. R.,Wall,sweep,
+resident,VICTORIA CRESCENT,24,,William,Farrow,plumber,
+resident,VICTORIA CRESCENT,25,,John Hy.,Bebb,clerk,
+resident,VICTORIA CRESCENT,26,,Wm.,Duffett,haulier,
+resident,VICTORIA CRESCENT,27,,Albert,Elliott,painter,
+resident,VICTORIA CRESCENT,28,,John,Gosden,hoistman,
+resident,VICTORIA CRESCENT,29,,Mrs. Mary J.,Miller,,
+cross_street,VICTORIA CRESCENT,,,,,,here is West-street
+resident,VICTORIA CRESCENT,30,,Miss S. A.,Curtis,,
+street,VICTORIA LANE,,,,,,,
+cross_street,VICTORIA LANE,,,,,,(Known as Church-path) From Victoria-avenue to Church.
+resident,VICTORIA LANE,1,,Henry,Edwards,,
+resident,VICTORIA LANE,2,,Joseph,Matthews,,
+resident,VICTORIA LANE,3,,William,Thomas,,
+resident,VICTORIA LANE,4,,Albert,Senior,,
+street,VICTORIA PLACE,D 5 29,,,,,,From 88 Stow-hill to Hill-st.
+cross_street,VICTORIA PLACE,,,,,,(RIGHT HAND SIDE.)
+resident,VICTORIA PLACE,1,,,Void,,
+resident,VICTORIA PLACE,2,,Miss M. K.,Moon,,Solva ho
+resident,VICTORIA PLACE,,,Thos.,Cooke,Eborall,
+resident,VICTORIA PLACE,3,,Miss M. G.,Roe,,
+resident,VICTORIA PLACE,4,,,Void,,
+resident,VICTORIA PLACE,5,,Miss H.,Knowles,nurse,
+resident,VICTORIA PLACE,6,,,Void,,
+resident,VICTORIA PLACE,13,,Cyril W.,Hithcox,,
+resident,VICTORIA PLACE,14,,Wm.,Gardner,architect,
+cross_street,VICTORIA PLACE,,,,,,(return)
+resident,VICTORIA PLACE,7,,R. E. W.,Brewer,surgeon,
+resident,VICTORIA PLACE,8,,,Void,,
+resident,VICTORIA PLACE,9,,,,,Hillstowe house—void
+resident,VICTORIA PLACE,10,,Mrs. B. M.,Johnson,,
+resident,VICTORIA PLACE,11,,Mrs. E. T.,Roberts,,
+resident,VICTORIA PLACE,12,,Mrs. Annie,Morgan,,
+street,VICTORIA ROAD,D 5 52,,,,,,Victoria-place to Park-square
+resident,VICTORIA ROAD,,,,,,CONGREGATIONAL CHURCH
+street,VICTORIA SQUARE,D 5 46,,,,,,From North-street
+resident,VICTORIA SQUARE,5,,Mrs. Louisa,Connors,,
+resident,VICTORIA SQUARE,6,,John,Tucker,porter,
+resident,VICTORIA SQUARE,7,,George,Saysill,guard,
+resident,VICTORIA SQUARE,8,,Henry S.,Knight,labourer
+resident,VICTORIA SQUARE,9,,John,Allen,labourer,
+resident,VICTORIA SQUARE,10,,Henry,Bowshier,platelyr
+resident,VICTORIA SQUARE,11,,Mrs. Margaret,Long,,
+resident,VICTORIA SQUARE,12,,Cornelius,Denny,postman
+resident,VICTORIA SQUARE,13,,Jarvis,Woodruff,,
+resident,VICTORIA SQUARE,14,,Jas.,Goulding,lamplighter
+street,VINE PLACE,D 3 20,,,,,,From 32 Duckpool-road
+resident,VINE PLACE,1,,Wm.,Jones,labourer,
+resident,VINE PLACE,2,,William,Thomas,mason,
+resident,VINE PLACE,3,,Frederick,Twine,labr,
+street,VIVIAN ROAD,D 3,,,,,,From Corporation-road
+cross_street,VIVIAN ROAD,,,,,,(LEFT HAND SIDE.)
+resident,VIVIAN ROAD,1,,Mrs. S. A.,Maddox,,
+resident,VIVIAN ROAD,3,,George,Hennah,ironwrkr
+resident,VIVIAN ROAD,5,,Francis,Maiden,ironwrk
+resident,VIVIAN ROAD,7,,Geo.,Rogers,watchman
+resident,VIVIAN ROAD,9,,Chas.,Bradley,labourer
+resident,VIVIAN ROAD,11,,Thomas,Percy,labourer
+resident,VIVIAN ROAD,13,,,Void,,
+resident,VIVIAN ROAD,15,,Jos.,Simmonds,ironwrk
+resident,VIVIAN ROAD,17,,Thos.,Lavell,do
+resident,VIVIAN ROAD,19,,Saml.,Clarke,do
+resident,VIVIAN ROAD,21,,Chas.,Goodwin,do
+resident,VIVIAN ROAD,23,,Morris,Ford,labourer
+resident,VIVIAN ROAD,25,,Jere.,Reardon,ironworker
+resident,VIVIAN ROAD,27,,Frank,Tully,do
+resident,VIVIAN ROAD,29,,Charles Henry,Ashford,
+resident,VIVIAN ROAD,31,,James William,Walters,
+resident,VIVIAN ROAD,33,,Alfred,Peters,ironworker
+resident,VIVIAN ROAD,35,,R.,Barton,ironworker
+resident,VIVIAN ROAD,37,,Henry G.,Redman,factory
+resident,VIVIAN ROAD,39,,Mrs. Patience,Griffiths,,
+resident,VIVIAN ROAD,41,,John,Worner,fireman
+resident,VIVIAN ROAD,43,,H. Wm.,Kelly,furnaceman
+resident,VIVIAN ROAD,45,,John,Goddard,carpenter
+resident,VIVIAN ROAD,47,,Ern. E.,Hughes,decorator
+resident,VIVIAN ROAD,49,,George,Verrinder,labr
+resident,VIVIAN ROAD,51,,Alfred C. E.,Wheaton,chemical worker
+resident,VIVIAN ROAD,53,,Richard,Lord,carpenter
+resident,VIVIAN ROAD,55,,Henry,Jacobs,,
+resident,VIVIAN ROAD,57,,Mrs. Ada,Tovey,,
+cross_street,VIVIAN ROAD,,,,,,(return)
+resident,VIVIAN ROAD,58,,William,Curtis,labourer
+resident,VIVIAN ROAD,56,,Richard,Miller,barman
+resident,VIVIAN ROAD,54,,L.,Davy,general shop
+resident,VIVIAN ROAD,52,,Alfd. Thos.,Spencer,canvsr
+resident,VIVIAN ROAD,50,,Henry,Brown,ironwrkr
+resident,VIVIAN ROAD,48,,Walker Hy.,Haskins,loco. fireman
+resident,VIVIAN ROAD,46,,James,Dyer,labourer
+resident,VIVIAN ROAD,44,,James,Mander,labourer
+resident,VIVIAN ROAD,42,,Rich G.,Webber,carprntr
+resident,VIVIAN ROAD,40,,Albert,Miller,bricklayer
+resident,VIVIAN ROAD,38,,Jas.,Witchard,labourer
+resident,VIVIAN ROAD,36,,T.,Summerhill,ironwkr
+resident,VIVIAN ROAD,34,,James Henry,Bird,,
+resident,VIVIAN ROAD,32,,Arthur,Williams,foreman
+resident,VIVIAN ROAD,30,,Edwd. T.,Reed,moulder
+resident,VIVIAN ROAD,28,,Mrs. J.,Channing,,
+resident,VIVIAN ROAD,26,,Fredk. W.,Verren,,
+resident,VIVIAN ROAD,24,,Miss Sarah,Harris,,
+resident,VIVIAN ROAD,22,,John,Thomas,ironwkr
+resident,VIVIAN ROAD,20,,George,Butt,roadman
+resident,VIVIAN ROAD,18,,John,Thomas,sawyer
+resident,VIVIAN ROAD,16,,Benj.,Warry,butcher
+resident,VIVIAN ROAD,14,,Arthur,Tonks,ironworker
+resident,VIVIAN ROAD,12,,Robt.,Woodman,labourer
+resident,WALFORD STREET,10,,Wm. Ern.,Nicholson,ironworker,
+resident,WALFORD STREET,8,,John Hy.,Lowe,storeman
+resident,WALFORD STREET,6,,Hubt. Ed.,Brown,ironwkr
+resident,WALFORD STREET,4,,Alfred,Lewis,ironworker
+resident,WALFORD STREET,2,,Henry Wm.,Perrins,,
+resident,WALFORD STREET,,,,Alsop & Hayes,carriage works
+street,WALFORD STREET,B 4,,,,,,From Goodrich-crescent, Malpas-road
+cross_street,WALFORD STREET,,,,,,[RIGHT HAND SIDE]
+resident,WALFORD STREET,2,,E.,Parkin,sanitary enginr
+resident,WALFORD STREET,4,,Herbt. R.,Lewis,J. foreman
+resident,WALFORD STREET,6,,F. J.,Dunning,ironworker
+resident,WALFORD STREET,8,,George,Milford,comp.
+resident,WALFORD STREET,10,,Ern.,Panting,goods grd
+resident,WALFORD STREET,12,,Illtyd,George,labourer
+resident,WALFORD STREET,14,,John J.,Vincent,engineer
+resident,WALFORD STREET,16,,Fred,Rikard,fireman
+resident,WALFORD STREET,18,,Samuel,Hole,plasterer
+resident,WALFORD STREET,20,,Arthur,J.,Doel,haulier
+resident,WALFORD STREET,22,,Sidney,Baker,painter
+resident,WALFORD STREET,24,,Henry,Bullock,,
+resident,WALFORD STREET,26,,Wm. Jno.,Waters,shunter G.W.R.
+resident,WALFORD STREET,28,,Frederick,Day,,
+resident,WALFORD STREET,30,,Fred,Boothman,stoker
+resident,WALFORD STREET,32,,Thos.,Evans,haulier
+resident,WALFORD STREET,34,,Wm. H.,Astbury,gas wkr
+resident,WALFORD STREET,36,,William,Bowden,,
+resident,WALFORD STREET,38,,Mrs. Mary,Beacham,,
+resident,WALFORD STREET,40,,John,Thomas,bootmaker
+resident,WALFORD STREET,42,,Wm.,Westacott,Lever
+resident,WALFORD STREET,44,,James,Robbins,,
+resident,WALFORD STREET,46,,Thomas,Beacham,ironwr
+resident,WALFORD STREET,48,,Mrs. E.,Price,,
+resident,WALFORD STREET,50,,Augustus,Morgan,,
+resident,WALFORD STREET,52,,David J.,Davies,painter
+resident,WALFORD STREET,54,,Percy,Jones,clerk
+resident,WALFORD STREET,56,,David Chas.,Davies,agent
+resident,WALFORD STREET,58,,George,Skinner,G.W.R.
+resident,WALFORD STREET,60,,Jos. F.,Phillips,musician
+resident,WALFORD STREET,62,,Joseph,Coldrey,,
+resident,WALFORD STREET,64,,Er.S.,Hood,traffic foremn
+resident,WALFORD STREET,66,,Charles,George,fireman
+resident,WALFORD STREET,68,,Jas.,Tyler,building insptr
+resident,WALFORD STREET,70,,Wm.,Watkins,haulier
+resident,WALFORD STREET,72,,Wm. Hy.,Ford,furnacemn
+resident,WALFORD STREET,74,,T. J.,Harper,fitter's helper
+cross_street,WALFORD STREET,,,,,,(return)
+resident,WALFORD STREET,53,,James,Kew,police
+resident,WALFORD STREET,51,,John,Sheedy,,
+resident,WALFORD STREET,49,,Charles,Milman,mason
+resident,WALFORD STREET,47,,Henry John,Washbourne,,
+resident,WALFORD STREET,45,,Alfd. Jas.,Lavis,G.W.R. goods guard
+resident,WALFORD STREET,43,,Philip,Olds,stoker
+resident,WALFORD STREET,41,,Frederick,Martin,,
+resident,WALFORD STREET,39,,Tom,Groves,chaffeur
+resident,WALFORD STREET,37,,Mrs. Sophia,Warne,,
+resident,WALFORD STREET,35,,Jas. R.,Richardson,tailor

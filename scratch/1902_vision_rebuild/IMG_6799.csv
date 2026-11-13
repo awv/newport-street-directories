@@ -1,0 +1,144 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+cross_street,Salisbury Road,,,,,,here is Clarence-street.
+building,Salisbury Road,,,ST. MICHAEL'S CATHOLIC CHURCH AND SCHOOLS,,,
+resident,Salisbury Road,19,,John,McCarthy,trimmr,
+resident,Salisbury Road,20,,John,Burke,coal trimmr,
+resident,Salisbury Road,21,,R. W.,Syner,Orange Tree,
+cross_street,Salisbury Road,,,,,,here is Castle-street.
+cross_street,Salisbury Road,,,,,,(return.)
+resident,Salisbury Road,22,,John,Steward,labourer,
+resident,Salisbury Road,23,,Tom,Condon,seaman,
+resident,Salisbury Road,,,John,Donovan,labourer,
+resident,Salisbury Road,,,Robert,Crowe,labourer,
+resident,Salisbury Road,,,James,Condon,seaman,
+resident,Salisbury Road,24,,John,Ganner,labourer,
+resident,Salisbury Road,,,Patrick,Reardon,lab'rer,
+resident,Salisbury Road,,,Mrs Ann,Morgan,,
+resident,Salisbury Road,25,,John,Hemmens,coal trimmr,
+resident,Salisbury Road,26,,Mrs Catherine,Lawton,,
+resident,Salisbury Road,27,,W. T.,Stephens,haulier,
+resident,Salisbury Road,28,,John H.,Pring,tug capt.,
+resident,Salisbury Road,29,,James,Thomas,boilermkr,
+resident,Salisbury Road,30,,Jere,McCarthy,labourer,
+resident,Salisbury Road,31,,Edward,Hughes,hobbler,
+resident,Salisbury Road,32,,William,Curran,labourer,
+resident,Salisbury Road,33,,John,Vickery,labourer,
+resident,Salisbury Road,34,,James,McAttee,pilot,
+resident,Salisbury Road,35,,C. A.,Nicholls,baker,
+resident,Salisbury Road,36,,G. W.,South,haulier,
+resident,Salisbury Road,37,,James,Fry,labourer,
+resident,Salisbury Road,38,,Edwin,Manship,labourer,
+resident,Salisbury Road,39,,Mrs Mary Ann,Riddle,,
+resident,Salisbury Road,40,,Mrs Mary,Courtney,,
+resident,Salisbury Road,41,,Patk.,Sullivan,trimmer,
+resident,Salisbury Road,42,,Frank,Osmond,labourer,
+resident,Salisbury Road,43,,John W.,Phillips,trimmer,
+street,St. Stephen's Road,,,,,,Alexandru-rd. to Carlisle-st.
+cross_street,St. Stephen's Road,,,,,,[RIGHT HAND SIDE.]
+resident,St. Stephen's Road,1,,E.,Trowbridge,cab prop'tr,
+resident,St. Stephen's Road,2,,Francis,Ashill,platelayer,
+resident,St. Stephen's Road,3,,,,,Void
+resident,St. Stephen's Road,4,,Geo.,Elliott,water clerk,
+resident,St. Stephen's Road,5,,Thomas,Cox,dock pilot,
+resident,St. Stephen's Road,6,,John,Adams,boilermaker,
+street,St. Woolos Place, B.,,,,,,From 23 St. Woolos-road.
+cross_street,St. Woolos Place, B.,,,,,,[RIGHT HAND SIDE.]
+resident,St. Woolos Place, B.,1,,John,Fooks,moulder,
+resident,St. Woolos Place, B.,2,,Leonard,Innes,platelayer,
+resident,St. Woolos Place, B.,3,,John,Davies,platelayer,
+resident,St. Woolos Place, B.,4,,Henry,Phelps,fireman,
+resident,St. Woolos Place, B.,5,,Joseph,Prosser,coachman,
+resident,St. Woolos Place, B.,6,,David,Jones,signalman,
+resident,St. Woolos Place, B.,7,,Mrs Maria,Davies,,
+resident,St. Woolos Road, B.,8,,Edmund,Evans,haulier,
+cross_street,St. Woolos Road, B.,,,,,,(return.)
+resident,St. Woolos Road, B.,9,,Wm.,Bradshaw,moulder,
+resident,St. Woolos Road, B.,10,,John Hy.,Jenkins,machinist,
+resident,St. Woolos Road, B.,11,,Chas.,Watkins,machinist,
+resident,St. Woolos Road, B.,12,,Jno. J.,Morrison,upholst'r,
+resident,St. Woolos Road, B.,13,,John,Brown,carpenter,
+resident,St. Woolos Road, B.,14,,Wm.,Jenkins,Port Sanitary inspecocr,
+resident,St. Woolos Road, B.,15,,W. H.,Edmunds,painter,
+street,St. Woolos Road, B.,,,,,,34 St. Mary-st. to Clifton-rd.
+cross_street,St. Woolos Road, B.,,,,,,[RIGHT HAND SIDE.]
+resident,St. Woolos Road, B.,1,Prince of Wales,C.,Fowler,,
+resident,St. Woolos Road, B.,2,,Philip,Morgan,smith,
+resident,St. Woolos Road, B.,3,,Joseph,Gumm,gardener,
+resident,St. Woolos Road, B.,4,,Jos. Hy.,Nicholas,labourer,
+resident,St. Woolos Road, B.,5,,William,Davies,mason,
+resident,St. Woolos Road, B.,6,,Miss,Marment,dressmkr,
+resident,St. Woolos Road, B.,7,,Thomas,Davies,plasterer,
+resident,St. Woolos Road, B.,8,,Fredk.,Watts,plumber, &c,
+resident,St. Woolos Road, B.,8a,,Wm. A.,James,bootmaker,
+cross_street,St. Woolos Road, B.,,,,,,,here is Graham-street.
+resident,St. Woolos Road, B.,9,Wellington Inn,A.,Porter,,
+resident,St. Woolos Road, B.,10,,George,Evans,labourer,
+resident,St. Woolos Road, B.,11,,Mrs Elizabeth,Smythe,,
+resident,St. Woolos Road, B.,12,,W.,Richards,sailmaker,
+resident,St. Woolos Road, B.,13,,Chas. Robt.,Wilis,waiter,
+resident,St. Woolos Road, B.,14,,John,Tooze,police sergt.,
+resident,St. Woolos Road, B.,15,,George,Plaister,grocer,
+cross_street,St. Woolos Road, B.,,,,,,,here is St. Julian-street.
+resident,St. Woolos Road, B.,16,,Mrs Sarah,Oakey,,
+resident,St. Woolos Road, B.,17,,Mrs M. A.,Nursey,,
+resident,St. Woolos Road, B.,18,,Arth.,Packer,police sergt,
+resident,St. Woolos Road, B.,19,,George,Lewis,gardener,
+resident,St. Woolos Road, B.,20,,John,Pegler,gardener,
+resident,St. Woolos Road, B.,21,,Geo.,Compton,carpenter,
+resident,St. Woolos Road, B.,22,,H.,Cocker,signalman,
+resident,St. Woolos Road, B.,23,,J.,Bartlett,boilermaker,
+cross_street,St. Woolos Road, B.,,,,,,,here is St. Woolos-place.
+resident,St. Woolos Road, B.,24,,Henry,Partridge,,
+resident,St. Woolos Road, B.,25,,Danl.,Murphy,furnacemn,
+resident,St. Woolos Road, B.,26,,Thomas,Weetch,baker,
+resident,St. Woolos Road, B.,,,J. H.,Mills,painter,
+resident,St. Woolos Road, B.,27,,John,Herbert,bookseller,
+cross_street,St. Woolos Road, B.,,,,,,(return.)
+resident,St. Woolos Road, B.,28,,Robert,Wiggins,inspector,
+resident,St. Woolos Road, B.,29,,James,Jones,foreman,
+resident,St. Woolos Road, B.,30,,John,Lyons,painter,
+resident,St. Woolos Road, B.,31,,W.,Collard,joiner,
+resident,St. Woolos Road, B.,32,,Charles E.,Evans,baker,
+resident,St. Woolos Road, B.,33,,Thomas,James,baker,
+resident,St. Woolos Road, B.,,bakehouse,James',,,
+cross_street,St. Woolos Road, B.,,,,,,,here is Jones-street.
+resident,St. Woolos Road, B.,34,,Algie,Musty,coal mercht,
+street,Salisbury Road.,,,,,,Bryngwyn-rd. to Llanthewy-rd
+street,Scard Street, B.,,,,,,From North-st. to Bailey-st.
+resident,Scard Street, B.,1,,Mrs M. A.,Vale,,
+resident,Scard Street, B.,2,,Mrs Annie,Watkins,shopkr,
+resident,Scard Street, B.,,,& Son,Hooper,carpenters,
+resident,Scard Street, B.,3,,John,Cooksley,clerk,
+resident,Scard Street, B.,4,,John,Swallow,guard B&M.R,
+resident,Scard Street, B.,5,,Thomas,Gabb,engine drvr,
+cross_street,Scard Street, B.,,,,,,(return.)
+resident,Scard Street, B.,6,,James,Hovey,ruler,
+resident,Scard Street, B.,7,,P.,Torrington,carpenter,
+resident,Scard Street, B.,8,,Rd.,Cook,ticket collector,
+resident,Scard Street, B.,9,,Frederick,Watkins,haulier,
+street,Screw Packet Road.,,,,,,From High-street.
+resident,Screw Packet Road.,,,,Newport Builders' Supply, Ltd.,,
+resident,Screw Packet Road.,,,,Nicholas & Co.,,Baltic wharf
+resident,Screw Packet Road.,,,,Phillips & Son's flour stores,,
+resident,Screw Packet Road.,,,John,Dennis,shoeing smith,
+street,Serpentine Road.,,,,,,Godfrey-road to Gold Tops.
+resident,Serpentine Road.,,Elmscott,W. L.,Moore,,
+resident,Serpentine Road.,1,Tregleath,B. H.,Jones,,
+resident,Serpentine Road.,2,Fairfield,A. J.,Liscombe,,
+resident,Serpentine Road.,3,Sharnbrook,A.,Billingham,,
+resident,Serpentine Road.,,do,L. B.,Moore,,
+resident,Serpentine Road.,4,Elmwood,Isaac,Crocker,,
+resident,Serpentine Road.,5,Clevelands,Hy.,Griffiths,,
+resident,Serpentine Road.,6,Llangorse,John,Jackson,,
+resident,Serpentine Road.,7,Thornton,T.,Checchi,,
+resident,Serpentine Road.,8,Wentbridge,Mrs A.,Price,,
+resident,Serpentine Road.,9,Silver howe,S. O.,Hands,J.P.,
+resident,Serpentine Road.,10,,W.,Griffiths,,
+resident,Serpentine Road.,,,,W. L.,Griffiths,architect,
+street,Severn Terrace.,,,,,,Opposite St. Woolos Church
+resident,Severn Terrace.,,,St. John Baptist Mission ho—,,,
+resident,Severn Terrace.,,,,The Clewer Sisters,,
+street,Shaftesbury Park.,,,,,,[Late Marshes.] From Wyndham-st., Shaftesbury-street.
+street,Shaftesbury Street.,,,,,,From 69 High-st. to Malpas-rd
+cross_street,Shaftesbury Street.,,,,,,[LEFT HAND SIDE.]
+resident,Shaftesbury Street.,1,Castle Hotel,B.,Ibbotson,,entrance to Castle-precincts.

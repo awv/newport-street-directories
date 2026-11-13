@@ -1,0 +1,147 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,NEWPORT STREET LIST.,,,,,,"Lyn - Mar"
+resident,Lyn,46,,Wm.,Mortimer,foreman,
+resident,Lyn,47,,Chas. H.,Reed,joiner,
+resident,Lyn,48,,Wm. T.,Pearce,packer,
+resident,Lyn,49,,Thos.,Hale,turner,
+resident,Lyn,50,,Geo.,Meadows,striker,
+resident,Lyn,51,,Francis,Charles,gasfitter,
+resident,Lyn,52,,Chas.,Hallett,mason,
+resident,Lyn,53,,Hy.,Bowden,b'lding inspt,
+resident,Lyn,,,Marshes Rd. Board Schools,,,
+street,Macarthy's Court,,,,,,From 153 Commercial-st.
+resident,Macarthy's Court,1,,Ellen,Crowley,widow,
+resident,Macarthy's Court,2,,Jno.,Cartwright,ostler,
+resident,Macarthy's Court,3,,Louisa,Morris,widow,
+resident,Macarthy's Court,4,,Mrs Mary,Gaisford,,
+resident,Macarthy's Court,5,,Frank,East,shoemaker,
+resident,Macarthy's Court,6,,Lawrence,McCarthy,lab'r,
+street,Maddox Close,,,,,,From Mill-st.
+resident,Maddox Close,,,,,,Newport Gas Works
+resident,Maddox Close,,,,,,Dos Works Nail Factory - J. J. Cordes & Co. Ltd.
+resident,Maddox Close,2,,Thos.,Evans,,Dos cottages
+resident,Maddox Close,4,,William,Lewis,,do
+resident,Maddox Close,5,,George,Dowdell,,do
+resident,Maddox Close,6,,William,Bowen,,do
+resident,Maddox Close,7,,Henry,Woodliffe,,do
+resident,Maddox Close,8,,Mrs J.,Woodliffe,,do
+resident,Maddox Close,9,,Job,Welsh,crpnter do,
+resident,Maddox Close,10,,Thos.,Blunt,,do
+resident,Maddox Close,11,,David,Davies,,do
+resident,Maddox Close,,,Geo.,Young,timekeeper,
+street,Maindee Parade,,,,,,Duckpool-rd. to Albert-avenue
+resident,Maindee Parade,1,,Edwin,Hawkins,painter,
+resident,Maindee Parade,2,,Geo.,Rossiter,dos works,
+resident,Maindee Parade,3,,Fredk.,Crayford,tailor,
+resident,Maindee Parade,4,,Jas.,Berry,schl. bd. officer,
+resident,Maindee Parade,5,,A. J.,Allen,crane driver,
+resident,Maindee Parade,6,,C.,Workman,seaman,
+resident,Maindee Parade,7,,Wm.,Pitman,labourer,
+resident,Maindee Parade,8,,Amos,Bridges,labourer,
+resident,Maindee Parade,9,,Wm.,Leigh,painter,
+resident,Maindee Parade,10,,Isaac,Edmunds,clerk,
+resident,Maindee Parade,11,,Hy.,Sturley,carpenter,
+resident,Maindee Parade,12,,Mrs M. A.,Chaplin,,
+resident,Maindee Parade,13,,Wm.,Ryder,platelayer,
+resident,Maindee Parade,14,,Wm.,Lewis,haulier,
+cross_street,Maindee Parade,,,VICTORIA PLACE,,,
+resident,Maindee Parade,15,,Uriah,Morgan,butcher,
+resident,Maindee Parade,16,,Thos.,Williams,labourer,
+resident,Maindee Parade,17,,Wm.,King,commis. agent,
+resident,Maindee Parade,,,Jno.,Lavis,engine driver,
+resident,Maindee Parade,18,,Ed.,Burrows,coal mer.,
+cross_street,Maindee Parade,,,(return.),,,
+resident,Maindee Parade,19,,Thos.,Bevan,labourer,
+resident,Maindee Parade,20,,Wm. Hy.,Broom,haulier,
+cross_street,Maindee Parade,,,DAWLISH PLACE,,,
+resident,Maindee Parade,21,,Chas.,Rowlands,smith,
+resident,Maindee Parade,22,,Jno. A.,Williams,teacher of music and organist,
+resident,Maindee Parade,23,,Geo.,Prowl,coach builder,
+resident,Maindee Parade,24,,Fredk.,Dyer,engineer,
+resident,Maindee Parade,25,,Fredk. J.,Richards,clerk,
+resident,Maindee Parade,26,,Higgs Swinfeild,,
+resident,Maindee Parade,27,,Geo.,Boxall,mar. engineer,
+resident,Maindee Parade,28,,E. M.,Thomas,ins. supt.,
+resident,Maindee Parade,22,,G.,Stedman,Maindee nrsy,
+cross_street,Maindee Parade,,,SIDBURY TERRACE,,,
+resident,Maindee Parade,30,,Fredk.,Smith,greengrocer,
+resident,Maindee Parade,31,,Mrs Caroline,Senior,,
+resident,Maindee Parade,32,,Fredk.,Bennett,stoker,
+resident,Maindee Parade,33,,Charles,Allen,labourer,
+resident,Maindee Parade,34,,Henry,Cox,,Vanstone cot
+resident,Maindee Parade,35,,Geo. T.,Collins,shipwright,
+resident,Maindee Parade,36,,Ahiram,Greenway,bricklayer,
+resident,Maindee Parade,37,,Cornel.,Blunt,plasterer,
+resident,Maindee Parade,38,,J. J.,Harper,dairyman,
+resident,Maindee Parade,39,,W.,Williams,,Belmont cot
+resident,Maindee Parade,40,,W. H.,Box,travlr.,Alma cot
+resident,Maindee Parade,41,,Dnl.,Phillips,,Oscar house
+resident,Maindee Parade,42,,R.,Wynn,carrier,Roy vil
+resident,Maindee Parade,43,,Jno.,Hallett,,Norton cot
+resident,Maindee Parade,44,,Miss M.,Williams,,Marlow cottage
+resident,Maindee Parade,45,,Geo.,Huder,labourer,
+street,Malpas Glebe Cottages,,,,,,From Somerton-road.
+street,Malpas Road,,,,,,From Marshes-road.
+resident,Malpas Road,,,Watkin,Williams,signalman,
+cross_street,Malpas Road,,,entrance to Crindau.,,,
+resident,Malpas Road,,,G. T.,Poole,lime & mortar wks,
+resident,Malpas Road,,,,,,Malpas Road Brick works
+resident,Malpas Road,,,H.,Tumnadine,,Carlton house
+resident,Malpas Road,,,S. H.,Tumnadine,,
+street,Manchester St., B.T.,,,,,,Prince-st. to Hereford-st.
+resident,Manchester St., B.T.,1,,W. H.,Hemmens,seaman,
+resident,Manchester St., B.T.,2,,Wm.,Harris,warehousemn,
+resident,Manchester St., B.T.,3,,Thos.,James,mason,
+resident,Manchester St., B.T.,4,,Jos.,Williams,annealer,
+cross_street,Manchester St., B.T.,,,here is Camelot-place,,,
+resident,Manchester St., B.T.,5,,Chas. H.,Bowyer,fitter,
+resident,Manchester St., B.T.,6,,Hy.,Pullin,railway guard,
+resident,Manchester St., B.T.,7,,Wm.,Hitchings,tailor,
+resident,Manchester St., B.T.,8,,Samuel,Leach,,
+resident,Manchester St., B.T.,9,,Herbt.,Newberry,factory,
+resident,Manchester St., B.T.,10,,Edwin,Harris,painter,
+resident,Manchester St., B.T.,11,,Wm.,Tucker,seaman,
+resident,Manchester St., B.T.,12,,A. W.,Blakemore,carp'tr,
+resident,Manchester St., B.T.,13,,H. J.,Redmore,baker,
+resident,Manchester St., B.T.,14,,Thos. G.,Reeve,bookbinder,
+resident,Manchester St., B.T.,15,,Geo. J.,Walters,baker,
+resident,Manchester St., B.T.,16,,David,Narbett,saddler,
+resident,Manchester St., B.T.,17,,Chas.,Thomas,labourer,
+resident,Manchester St., B.T.,18,,Alfd.,Snowden,plasterer,
+resident,Manchester St., B.T.,19,,C. F.,Hudson,grocer,
+cross_street,Manchester St., B.T.,,,(return.),,,
+resident,Manchester St., B.T.,22,,Wm.,Paxton,engineer,
+resident,Manchester St., B.T.,23,,Jos.,Goddard,mast. mar.,
+resident,Manchester St., B.T.,,,Thos.,Gray,hatter,
+resident,Manchester St., B.T.,24,,James,Rowland,fitter,
+resident,Manchester St., B.T.,25,,Jno. H.,Morgan,tinsmith,
+resident,Manchester St., B.T.,26,,Mrs Mary,Rowles,,
+resident,Manchester St., B.T.,27,,Howard,Pendree,tailor,
+resident,Manchester St., B.T.,28,,Wm.,Probert,wheelwright,
+resident,Manchester St., B.T.,29,,Henry,Ayres,tailor,
+resident,Manchester St., B.T.,30,,Alf.,Hughes,iron dresser,
+resident,Manchester St., B.T.,31,,J. M.,Green,piano tuner,
+street,Manley Road,,,,,,Risca-road (2nd turning.)
+resident,Manley Road,1,,G. J.,Coakham,,Holybush cottage
+resident,Manley Road,2,,Geo.,Rogers,,Ivy cottage
+resident,Manley Road,3,,Rd.,Davies,,Fern bank
+resident,Manley Road,4,,Evan,Jones,,Glendale
+resident,Manley Road,5,,P. J.,Dennis,,Alma villa
+resident,Manley Road,6,,Wyndham,Witts,,Woodholme
+resident,Manley Road,7,,C. Hy.,Waters,accountant,
+resident,Manley Road,8,,A. B.,Hodgkinson,assist,
+resident,Manley Road,9,,Jas.,Kilminster,agent,
+resident,Manley Road,10,,Thos. H.,Diggory,,
+resident,Manley Road,11,,Rev. F. J.,Ryan,,
+resident,Manley Road,12,,Jno.,Garland,gardener,
+resident,Manley Road,13,,Clyde bank-void,,,
+resident,Manley Road,14,,Hill foot villa-void,,,
+street,Marion Street, P.,,,,,,James-st. to Pottery-terrace.
+resident,Marion Street, P.,1,,J.,Smith,,Seamen's home
+resident,Marion Street, P.,2,,Axel.,Arnesen,water clerk,
+resident,Marion Street, P.,3,,Nicolo,Gherbich,agent,
+resident,Marion Street, P.,4,,Thomas,Cox,pilot,
+resident,Marion Street, P.,5,,Jas.,Dyer,limeburner,
+resident,Marion Street, P.,6,,Jno.,Adams,boilermaker,
+resident,Marion Street, P.,7,,Thos.,Purnell,coal trim'r,
+resident,Marion Street, P.,8,,Jabez,Jones,foreman,

@@ -1,0 +1,171 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,CHRISTCHURCH ROAD,,,,,,continued
+resident,CHRISTCHURCH ROAD,40,,E.,Chamberlain,G.W.R.,
+resident,CHRISTCHURCH ROAD,42,,,,,[view Oliver —]
+resident,CHRISTCHURCH ROAD,44,,P.,Bell Harcourt,Broad-view
+resident,CHRISTCHURCH ROAD,,,Ernest E.,Jenkins,builder,Hygeia
+resident,CHRISTCHURCH ROAD,48,,Thos.,Beer,p.o.
+resident,CHRISTCHURCH ROAD,50,,Wm.,Trevethin,G.W.R.
+resident,CHRISTCHURCH ROAD,52,,,,Void,
+resident,CHRISTCHURCH ROAD,54,,Alex. H.,Dunn,accountnt
+resident,CHRISTCHURCH ROAD,56,,Mrs. W. E.,Sturley,,
+resident,CHRISTCHURCH ROAD,58,,Mrs. Alice,Kirby,,
+resident,CHRISTCHURCH ROAD,60,,Geo. R.,Newberry,eng dvr
+resident,CHRISTCHURCH ROAD,62,,John,Jones,haulier
+resident,CHRISTCHURCH ROAD,64,,Wm. machinist,Newberry,,
+resident,CHRISTCHURCH ROAD,66,,Richd.,Hobbs,gardener
+resident,CHRISTCHURCH ROAD,68,,Sidney,Meaker,painter
+resident,CHRISTCHURCH ROAD,70,,Walter,Codling,police
+resident,CHRISTCHURCH ROAD,72,,Percy,Millard,police
+street,TEMPERANCE COTTAGES,,,,,,
+resident,TEMPERANCE COTTAGES,74,,W. John,Eynon,carpenter,
+resident,TEMPERANCE COTTAGES,76,,John,James,boilermaker,
+resident,TEMPERANCE COTTAGES,78,,Wm.,Walton,plasterer,
+resident,TEMPERANCE COTTAGES,80,,James,Davies,bricklayer,
+resident,TEMPERANCE COTTAGES,82,,W. A.,Evans,picture fmr,
+resident,TEMPERANCE COTTAGES,84,,Jas. C.,Dowler,baker,
+resident,TEMPERANCE COTTAGES,86,,Frank,Bastin,printer,
+cross_street,TEMPERANCE COTTAGES,,,,,here is Victoria-avenue,
+resident,TEMPERANCE COTTAGES,88,,C. A.,Boulton,Sparkenhoe
+street,NEW BUILDINGS,,,,,,
+resident,NEW BUILDINGS,90,,T. J.,Cunningham,grocer and confectioner,
+resident,NEW BUILDINGS,92,,W. A.,Kelson,sheetweigher,
+resident,NEW BUILDINGS,94,,J.,Sparry,,
+resident,NEW BUILDINGS,96,,Mrs. Elizabeth,Tufft,,
+resident,NEW BUILDINGS,98,,Mrs. Ann Jane,Saunders,,
+resident,NEW BUILDINGS,100,,John V.,Sweeney,agent
+resident,NEW BUILDINGS,102,,Robert,Burns,mason
+resident,NEW BUILDINGS,104,,James,Morgan,,
+resident,NEW BUILDINGS,106,,Percy,Williams,,
+resident,NEW BUILDINGS,108,,Albt.,Pollock,window clnr
+resident,NEW BUILDINGS,110,,Arthur,Collman,carpntr
+resident,NEW BUILDINGS,112,,Rupert,Haines,ironwrkr
+resident,NEW BUILDINGS,114,,James,Morris,ironworker
+resident,NEW BUILDINGS,116,,Joseph Philip,Pater,,
+resident,CHRISTCHURCH ROAD,,,,,,Vacant sites
+cross_street,CHRISTCHURCH ROAD,,,,,here is Woodland Park-road,
+building,CHRISTCHURCH ROAD,,,BEECHWOOD PUBLIC PARK,,,
+cross_street,CHRISTCHURCH ROAD,,,,,here is Beechwood-road,
+resident,CHRISTCHURCH ROAD,,,W. J.,Page,agent,Myrtle villa
+resident,CHRISTCHURCH ROAD,,,George,Jones,,Southerwood villa
+resident,CHRISTCHURCH ROAD,,,Mrs. M. A.,Gratte,,Viburnam villa
+resident,CHRISTCHURCH ROAD,,,P. S.,Hiles,,Homerton
+cross_street,CHRISTCHURCH ROAD,,,,,here is Gibbs-road,
+resident,CHRISTCHURCH ROAD,,,C.,Arnold,,Hill top
+resident,CHRISTCHURCH ROAD,,,Mrs. F.,Whitrow,,Overhill
+resident,CHRISTCHURCH ROAD,,,W.,Turnbull,,High view
+resident,CHRISTCHURCH ROAD,,,Oswald,Thomas,,Wood view
+building,CHRISTCHURCH ROAD,,,Penylan Mission Room,,,
+street,PENYLAN TERRACE,,,,,,
+resident,PENYLAN TERRACE,1,,Jas. Bertram,Morgan,marine engineer
+resident,CHRISTCHURCH ROAD,2,,E. J.,Fennell,G.W.R.
+resident,CHRISTCHURCH ROAD,3,,B. H.,Bailey,,
+resident,CHRISTCHURCH ROAD,4,,Samuel,Lambert,watchman
+resident,CHRISTCHURCH ROAD,5,,S. J.,Ellis,shop
+building,CHRISTCHURCH ROAD,,,CHRISTCHURCH ROAD POST OFFICE,,,M.O., S.B., & A. & I.
+cross_street,CHRISTCHURCH ROAD,,,,,here is Whitstone-road,
+resident,CHRISTCHURCH ROAD,,,G.,Berry,p.o. clk,Mount view
+resident,CHRISTCHURCH ROAD,,,Wm. J.,Davies,Jessiman villa
+resident,CHRISTCHURCH ROAD,,,Charles,Grice,Malvern villa
+resident,CHRISTCHURCH ROAD,,,George,Evans,Ashley house
+resident,CHRISTCHURCH ROAD,,,F.,Clarke,carptr,Vandyke
+resident,CHRISTCHURCH ROAD,,,F. E. S.,Clarke,The Bryn
+resident,CHRISTCHURCH ROAD,,,Sidney,Jobbins,mason,Jesmond dene
+resident,CHRISTCHURCH ROAD,,,Joseph Ed.,Birch,Oakhurst
+resident,CHRISTCHURCH ROAD,,,D.,Williams,dairyman,Cherry Orchard
+building,CHRISTCHURCH ROAD,,,CHRISTCHURCH CEMETERY,,,
+cross_street,CHRISTCHURCH ROAD,,,,,(return),
+resident,CHRISTCHURCH ROAD,,,Fredk.,Buck,Beechwood ctge
+resident,CHRISTCHURCH ROAD,,,Mrs. Sarah,Meade,Hope Rise
+resident,CHRISTCHURCH ROAD,,,G. S.,Phillips,acct and auctnr,Eaglemere
+resident,CHRISTCHURCH ROAD,,,John,Pocock,cabinetmaker,Bellemont
+resident,CHRISTCHURCH ROAD,,,G. E.,Millington,The Meads
+resident,CHRISTCHURCH ROAD,,,Ernest R.,Charles,Highfield
+resident,CHRISTCHURCH ROAD,,,Bernard George,Hiscock,Thorncliff
+resident,CHRISTCHURCH ROAD,,,C. Gordon,Jolliffe,accountant,Silverdale
+street,CHURCH PATH,,,,,,D 3
+notes,CHURCH PATH,,,,,,now Victoria-lane
+street,CHURCH ROAD,,,,,,C 3
+notes,CHURCH ROAD,,,,,,From 16 Caerleon-road to Duckpool-road
+cross_street,CHURCH ROAD,,,,,(LEFT HAND SIDE.),
+resident,CHURCH ROAD,1,,W. E.,Robertson,tobacconist
+resident,CHURCH ROAD,3,,John,Clements,engine driver
+resident,CHURCH ROAD,5,,G. E.,Clements,greengrocer
+cross_street,CHURCH ROAD,,,,,here is Gloucester-place,
+resident,CHURCH ROAD,7,,Robert,Wright,hairdresser
+resident,CHURCH ROAD,1,,,,,Void
+resident,CHURCH ROAD,2,,W. H.,Davies,bootmaker
+resident,CHURCH ROAD,3,,R. & Co.,More,drapers, etc.
+resident,CHURCH ROAD,4,,,,,Void
+resident,CHURCH ROAD,5,,,,,Void
+resident,CHURCH ROAD,6,,W. J.,Roberts,dealer
+resident,CHURCH ROAD,7-8,,T.,Payne,antique dealer
+resident,CHURCH ROAD,9,,F.,Stevens,oil and colour stores
+cross_street,CHURCH ROAD,,,,,here is Alfred-street,
+resident,CHURCH ROAD,10,,John E.,Hawkins,fish bar
+resident,CHURCH ROAD,11,,William,Gilpin,Charles
+resident,CHURCH ROAD,12,,John,Gowers,watchman
+resident,CHURCH ROAD,13,,Mrs. A. E.,Clissett,,
+resident,CHURCH ROAD,,,Clissett & Son,chair makrs
+building,CHURCH ROAD,,,BARNARD TOWN SCHOOL,,,
+resident,CHURCH ROAD,15,,Co-operative Branch St'res,,
+resident,CHURCH ROAD,16,,W.,Counsell,grocer
+resident,CHURCH ROAD,17,,David,Gregory,greengcr
+building,CHURCH ROAD,,,St. Matthew's Mission Room and Institute,,,
+cross_street,CHURCH ROAD,,,,,here is Bishop-street,
+resident,CHURCH ROAD,18,,Hy.,Bevan,Herbert Arms
+resident,CHURCH ROAD,19,,Geo.,Gallagher,storekeeper
+resident,CHURCH ROAD,20,,Walter,Phelps,general dlr
+resident,CHURCH ROAD,21,,Matthews K.,Matthews,confectioner
+resident,CHURCH ROAD,22,,P.,Woolf,taxi proprietor
+resident,CHURCH ROAD,23,,Wm.,Dawes,asst. checker
+resident,CHURCH ROAD,,,Mrs. Miriam,Clementi,,
+resident,CHURCH ROAD,24,,Eastman's Ltd.,butchers,Pitcher F. manager
+resident,CHURCH ROAD,25,,Mrs. A. P.,Duncan,draper
+resident,CHURCH ROAD,26,,Jas.,Francis,dyeing and cleaning works
+resident,CHURCH ROAD,27,,John,Menhinick,chemist
+resident,CHURCH ROAD,28,,Ernest,Jones,,
+resident,CHURCH ROAD,29,,George,Gregory,rigger
+resident,CHURCH ROAD,30,,Thomas,Henry,grocer
+cross_street,CHURCH ROAD,,,,,here is Dean-street,
+resident,CHURCH ROAD,31,,J.,Davis,family butcher
+resident,CHURCH ROAD,32,,James,Tiley,greengcr
+resident,CHURCH ROAD,33,,John W.,Coomb,gen dealer
+resident,CHURCH ROAD,34,,Ernest,Griffiths,dairymn
+resident,CHURCH ROAD,35,,Wm.,Bethell,stationer
+building,CHURCH ROAD,,,BARNARD TOWN POST OFFICE,,,M.O., S.B., A. & I.
+resident,CHURCH ROAD,36,,Jas.,Howells,baker
+resident,CHURCH ROAD,36A,,A. J.,Lloyd,collier
+cross_street,CHURCH ROAD,,,,,(here is Duckpool-road),
+cross_street,CHURCH ROAD,,,,,(return),
+resident,CHURCH ROAD,37,,A. M.,Odell,ironmonger
+resident,CHURCH ROAD,38,,Allen Aug.,Jas.,crane dvr.
+resident,CHURCH ROAD,39,,A. E.,Jones,florist
+resident,CHURCH ROAD,40,,Mrs. Ethel,Harris,,
+resident,CHURCH ROAD,41,,Charles,Furnham,,
+resident,CHURCH ROAD,42,,F. W.,Morris,ruler
+resident,CHURCH ROAD,43,,Miss G.,Hadden,,
+resident,CHURCH ROAD,44,,Alfred,Ulett,fitter
+resident,CHURCH ROAD,45,,Mrs. Mary,Wood,,
+resident,CHURCH ROAD,46,,Mrs. L. S.,Turner,,
+resident,CHURCH ROAD,47,,John,Bellew,engine driver
+resident,CHURCH ROAD,48,,James,Matthews,,
+resident,CHURCH ROAD,49,,Herbert,Rosser,upholstr'r
+resident,CHURCH ROAD,50,,A.,Aulsebrook,grocer
+resident,CHURCH ROAD,51,,Mrs. Harriett,Coxwell,,
+resident,CHURCH ROAD,52,,Charles,Morgan,bricklayer
+resident,CHURCH ROAD,53,,Alfred,Fry,labourer
+resident,CHURCH ROAD,54,,H. E.,Banfield,carpenter
+resident,CHURCH ROAD,55,,Wyndham,Rowe,blrmkr
+resident,CHURCH ROAD,56,,Mrs. B.,Manley,,
+resident,CHURCH ROAD,,,Mrs. L.,Fowler,,
+resident,CHURCH ROAD,,,E.,Woolfe,garage
+resident,CHURCH ROAD,57,,W.,Hews,bootmaker
+building,CHURCH ROAD,,,St. Matthew's Church,,,
+cross_street,CHURCH ROAD,,,,,(here is Hereford-street),
+street,CALNE PLACE,,,,,,
+resident,CALNE PLACE,59,,Mrs. Gertrude,Lewis,,
+resident,CALNE PLACE,60,,Charles,Evans,inspector
+resident,CALNE PLACE,61,,Mrs. M.,Jewell,,
+resident,CALNE PLACE,62,,Frederick,Miller,haulier
+resident,CALNE PLACE,63,,Wm. S.,Smith,waterman

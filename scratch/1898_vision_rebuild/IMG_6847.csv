@@ -1,0 +1,145 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Commercial Street,,,,,,"continued"
+resident,Commercial Street,172,,,Wildings Ltd.,"tailors, clothiers, hatters and hosiers",
+resident,Commercial Street,172A,,,Wildings Ltd.,"tailors, clothiers, hatters and hosiers",
+resident,Commercial Street,173,,,Wildings Ltd.,"tailors, clothiers, hatters and hosiers",
+resident,Commercial Street,,Westgate Chambers,Charles,Lyne,,Llanarth Estate offices
+resident,Commercial Street,,Westgate Chambers,,Lyne & Co.,solicitors,
+resident,Commercial Street,,Westgate Chambers,E. L.,Lyne,mining eng'nr,
+resident,Commercial Street,174,,F. J.,Batchelor,mantle warehouse,
+resident,Commercial Street,175,,,Boyle & Co.,boot merct's,
+resident,Commercial Street,,,,Clements and Dix,"steel, iron, and metal merch'ts",
+resident,Commercial Street,,,Alfred,Morgan,Westgate livery stables,
+resident,Commercial Street,,Westgate Buildings,,Evans and Deakin,fancy drapery and millinery,
+resident,Commercial Street,,Westgate Buildings,Treharne,Howell,chemist,
+resident,Commercial Street,,Westgate Hotel,Samuel,Dean,lessee,
+resident,Commercial Street,,,,Chinese Tea Co.,,
+resident,Commercial Street,,,A. W.,Payne,tobacconist,
+resident,Commercial Street,,,,Rainforth and Son,watchmakers and jewellers,
+street,Commercial Wharf,,,,,,"East-side Old Dock"
+resident,Commercial Wharf,1,Commercial Hotel,Robt.,Murison,,
+resident,Commercial Wharf,2,,,John,Davies,fitter,
+resident,Commercial Wharf,3 to 7,,,,,"pulled down"
+resident,Commercial Wharf,8,,,George,Weston,labourer,
+resident,Commercial Wharf,9,,,J.,Sullivan,foundryman,
+resident,Commercial Wharf,10,Mariner's Arms,Mrs Sarah,Walker,,
+resident,Commercial Wharf,11,,,Walter,Williams,dockman,
+resident,Commercial Wharf,12,,,James,Howlett,dockman,
+resident,Commercial Wharf,13,,,Alex.,Anderson,gateman,
+resident,Commercial Wharf,14 to 26,,,,,"pulled down"
+resident,Commercial Wharf,27,,,John,Jones,coal shipper,
+resident,Commercial Wharf,28,,,Charles,Holton,haulier,
+resident,Commercial Wharf,29,,,Geo.,Reed,dock labourer,
+resident,Commercial Wharf,30,,,Thos.,Pritchard,labourer,
+resident,Commercial Wharf,31,,,Thos.,Edwards,labourer,
+resident,Commercial Wharf,32,,,Thomas,Lewis,painter,
+resident,Commercial Wharf,33,,,Wm.,Plaisted,labourer,
+cross_street,Commercial Wharf,,,,,,"See also the Dock"
+street,Constable's Lane,,,,,,"From 109 Commercial-road"
+resident,Constable's Lane,1,,,Daniel,Crowley,labourer,
+resident,Constable's Lane,2,,,Joseph,Pitman,,
+resident,Constable's Lane,3,,,Arthur,Rees,hammerman,
+resident,Constable's Lane,4,,,Robert,Bale,rigger,
+resident,Constable's Lane,5,,,John,Davies,coal trimmer,
+resident,Constable's Lane,6,,,Chas.,Lloyd,coal trimmer,
+resident,Constable's Lane,7,,,John,Curtis,,
+resident,Constable's Lane,8,,,Isaac,Dart,,
+resident,Constable's Lane,9,,,Elizabeth,Inker,,
+street,Constance Street,,,,,,"From 139 Caerleon-road"
+resident,Constance Street,,,,Daniel,Guy,pork butcher,
+resident,Constance Street,,,,Mrs E.,Lloyd,confectioner,
+resident,Constance Street,,,,T.,Marsh,bootmaker,
+resident,Constance Street,1,,,,,"Void"
+resident,Constance Street,3,,,,,"do"
+resident,Constance Street,5,,,Abbot Thomas,James,,
+resident,Constance Street,7,,,David,Hughes,carpenter,
+resident,Constance Street,9,,,R.,Gale,carpenter,
+cross_street,Constance Street,,,,,,"here is Usk-street"
+resident,Constance Street,11,,,R. H.,Parkin,carpenter,
+resident,Constance Street,13,,,Alexander,Webb,shopmn,
+resident,Constance Street,15,,,Harry,Jones,plumber,
+resident,Constance Street,17,,,John,Marsh,fuel works,
+resident,Constance Street,19,,,Charles,Comley,painter,
+resident,Constance Street,21,,,,,,
+resident,Constance Street,23,,,W. J.,Oliver,painter,
+resident,Constance Street,25,,,Stephen,Hobbs,helve mkr,
+resident,Constance Street,27,,,John,Tucker,steward,
+resident,Constance Street,29,,,Thos. G.,Jones,comp.,
+resident,Constance Street,31,,,Alfred,Hadden,,
+resident,Constance Street,33,,,William,Gough,traveller,
+resident,Constance Street,35,,,John Hy.,Hobbs,guard,
+resident,Constance Street,37,,,,,"Building"
+resident,Constance Street,39,,,,,"do"
+resident,Constance Street,41,,,,,"do"
+cross_street,Constance Street,,,,,,"(return.)"
+resident,Constance Street,56,,,,,"Void"
+resident,Constance Street,54,,,David,Narbett,saddler,
+resident,Constance Street,52,,,W. B.,Manley,clerk,
+resident,Constance Street,50,,,Robert John,Dodds,,
+resident,Constance Street,48,,,,,"Void"
+resident,Constance Street,46,,,David,Evans,draper,
+resident,Constance Street,44,,,Thomas,Llewellin,,
+resident,Constance Street,42,,,,,"Void"
+resident,Constance Street,40,,,Gordon H.,Wilkinson,,
+resident,Constance Street,38,,,,,"Void"
+resident,Constance Street,36,,,,,"do"
+resident,Constance Street,34,,,,,"do"
+cross_street,Constance Street,,,,,,"here is Rockfield-street"
+resident,Constance Street,32,,,Gustave,Mahnke,,
+resident,Constance Street,30,,,Wm.,Nancekiville,G.W.R,
+resident,Constance Street,28,,,,,,
+resident,Constance Street,26,,,Sid. J.,Watkins,ins. agut,
+resident,Constance Street,24,,,James,Ireland,mas. mar.,
+resident,Constance Street,22,,,Walter,Lowe,waiter,
+resident,Constance Street,20,,,Fredk.,Arthur,plumber,
+resident,Constance Street,18,,,Henry,May,outfitter,
+resident,Constance Street,16,,,John,Pritchard,clerk,
+resident,Constable's Lane,14,,,Arthur,Gatehouse,joiner,
+resident,Constable's Lane,12,,,Eli,Cornish,stonemason,
+resident,Constable's Lane,10,,,Benj.,Johns,assistant,
+resident,Constable's Lane,8,,,John,Adams,oil merchant,
+resident,Constable's Lane,6,,,Lewis James,Bearne,,
+resident,Constable's Lane,,Presbyterian Mission room,,,,
+street,Coomassie Street,,,,,,"From 30 Mill-parade to Alexandra-road"
+resident,Coomassie Street,1,,,John Hy.,Manship,lab'rer,
+resident,Coomassie Street,2,,,Mrs Harriet,Litson,,
+resident,Coomassie Street,3,,,Thos.,Allison,boilermaker,
+resident,Coomassie Street,4,,,James,Ford,runner,
+resident,Coomassie Street,5,,,Edward,Gould,labourer,
+resident,Coomassie Street,6,,,John,Donovan,trimmer,
+resident,Coomassie Street,7,,,Thomas,Casey,trimmer,
+resident,Coomassie Street,8,,,George,Harris,haulier,
+resident,Coomassie Street,9,,,Mrs Sarah,Thomas,,
+resident,Coomassie Street,10,,,Thos.,Walkey,greengrocer,
+resident,Coomassie Street,,,,Arthur R. & Son,,,,Son's yard
+resident,Coomassie Street,11,,,John,Evans,haulier,
+resident,Coomassie Street,12,,,George,Oliver,waterman,
+resident,Coomassie Street,13,,,James,Speary,rigger,
+resident,Coomassie Street,14,,,Joseph,Griffin,foreman,
+resident,Coomassie Street,15,,,Mrs Lavinia,Jones,,
+cross_street,Coomassie Street,,,,,,"(return.)"
+resident,Coomassie Street,16,,,James,Littlejohns,,
+resident,Coomassie Street,17,,,Stephen,Anstice,,
+resident,Coomassie Street,18,,,J. S.,Golightly,fitter,
+resident,Coomassie Street,20,,,Jas.,Stanley,boilermaker,
+resident,Coomassie Street,21,,,Jesse,Doel,fitter,
+resident,Coomassie Street,22,,,Mrs Susan A.,Hood,,
+resident,Coomassie Street,23,,,Henry,Hill,puddler,
+resident,Coomassie Street,24,,,James,Venn,rigger,
+resident,Coomassie Street,25,,,T. senr.,Knapman,haulier,
+resident,Coomassie Street,,,,Arthur R. & Son,"engineers, &c.",Newcastle engine works
+resident,Coomassie Street,27,,,John,Mapstone,machinist,
+resident,Coomassie Street,28,,,J. H.,Williams,dredgermn,
+resident,Coomassie Street,29,,,Wm.,Phillis,labourer,
+resident,Coomassie Street,30,,,George,Berry,seaman,
+resident,Coomassie Street,31,,,Albert H.,Snelling,eng dvr,
+resident,Coomassie Street,32,,,John O.,Francis,rigger,
+resident,Coomassie Street,33,,,James,Doyle,rigger,
+resident,Coomassie Street,34,,,David,James,rigger,
+resident,Coomassie Street,35,,,James,Wellington,seaman,
+resident,Coomassie Street,36,,,Mrs,Grimaldi,,
+street,Corelli Street,,,,,,"From Tregare-st. (E. Usk-rd.)"
+resident,Corelli Street,1 to 11,,,,,"Void"
+cross_street,Corelli Street,,,,,,"(return.)"
+resident,Corelli Street,12,,,Wm.,Phillips,haulier,
+resident,Corelli Street,10,,,Thos.,Brown,scavenger,

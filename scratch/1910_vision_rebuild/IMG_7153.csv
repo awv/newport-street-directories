@@ -1,0 +1,161 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,Whi,,,C.,Watkins,,"Glendale"
+resident,Whi,,,Godfrey,Phillips,,
+resident,Whi,,,W. Dk. lab,Warner,,"Llandough"
+resident,Whi,,,William,Evans,,
+resident,Whi,,,W. R.,Croome,,Chepstow
+resident,Whi,,,Thomas,Sheppard,,"Wenvoe"
+resident,Whi,,,Wm.,Packington,,"Pursefield cot"
+resident,Whi,,,T. H.,Sims,,"Claremont cot"
+resident,Whi,,,T.,Weaver,butchr,"Holme Lea"
+cross_street,Whi,,,,,,(return)
+resident,Whi,,,S. E.,Rees,shop,
+cross_street,Whi,,,,,,"here is Diana-street."
+resident,Whi,,,Peter,Sivertsou,seaman,
+resident,Whi,,,Robert,Snook,labourer,
+resident,Whi,,,Joseph,Smith,fitter,
+resident,Whi,,,Wm.,Vincent,insur. agent,
+resident,Whi,,,Fk. W.,White,,"Tintern cot"
+resident,Whi,,,Charles,Jenkins,roller,
+resident,Whi,,,Wm. Jas.,Wilkins,labourer,
+resident,Whi,,,Mrs. R.,Mills,,
+resident,Whi,,,William,Woodsford,checker,
+resident,Whi,,,Walter,Hooper,,"Yorkley cot"
+resident,Whi,,,John,Manners,signalman,
+building,Whi,,,,PENYLAN MISSION ROOM,,
+resident,Whi,,,C. F.,Dimmack,,"Fern cottage"
+resident,Whi,,,Thos.,Smedley,,"Rose cottage"
+resident,Whi,,,W. E.,Noad,gardenr,"Hatherl'h"
+resident,Whi,,,A.,Grandin,,"1 Channel view"
+resident,Whi,,,G.,Rowe,gdnr,"2 do."
+resident,Whi,,,C.,Cox,stonemasn,"Pleasant vw"
+resident,Whi,,,H.,Collett,butcher,"The Firs"
+resident,Whi,,,T.,Ball,eng. driver,"do."
+resident,Whi,,,Jos.,Wood,coachmn,"Fa'r view"
+resident,Whi,,,Richard,Eardley,,"Claremont"
+street,Williams Street,E 5,,,,,"From 153 Commercial-road to Capel-crescent."
+cross_street,Williams Street,,,,,,"[LEFT HAND SIDE.]"
+resident,Williams Street,1,,,John,Stokes,printer,
+resident,Williams Street,2,,,William,Cooper,fitter,
+resident,Williams Street,3,,,Walter,Hill,fuel worker,
+resident,Williams Street,4,,,George,Glover,fitter,
+resident,Williams Street,5,,,Henry,Murrow,sailmaker,
+resident,Williams Street,6,,,Albt. Hy.,Chappell,travlr,
+resident,Williams Street,7,,,W.,Thorne,engine driver,
+resident,Williams Street,8,,,Simmonds,Bert.,,
+resident,Williams Street,9,,,W. H.,Gardiner,eng. drvr,
+resident,Williams Street,10,,,John,Payne,coal shipper,
+resident,Williams Street,11,,,James,Moore,mason,
+resident,Williams Street,12,,,Crawley,Patrick,,
+resident,Williams Street,13,,,Walter,Griffiths,labourer,
+resident,Williams Street,14,,,William,Cox,fitter,
+resident,Williams Street,15,,,Thomas,Berry,stoker,
+resident,Williams Street,16,,,William,Ford,,
+resident,Williams Street,17,,,Mrs. E. S.,Williams,,
+resident,Williams Street,18,,,Wm.,Harvey,labourer,
+resident,Williams Street,19,,,,,,Void
+resident,Williams Street,20,,,Thomas,Scrivens,striker,
+resident,Williams Street,21,,,Mrs. Mary,Evans,,
+resident,Williams Street,22,,,W. E.,Lavender,,
+resident,Williams Street,23,,,John,May,ship carpenter,
+resident,Williams Street,24,,,,,,Void
+resident,Williams Street,25,,,Jno.,Morrison,brewers' lab,
+resident,Williams Street,26,,,Alfred,David,smith,
+resident,Williams Street,27,,,W. R. & Sons,Giddings,decorators,
+resident,Williams Street,,,,W. R.,Giddings,,
+resident,Williams Street,28,,,Robt.,Manly,brass foundr,
+resident,Williams Street,,,,Henry,Manly,,
+resident,Williams Street,29,,,John,Holmes,guard,
+resident,Williams Street,30,,,J. H.,Flynn,stevedore,
+cross_street,Williams Street,,,,,,"here is Charlotte-street."
+resident,Williams Street,31,,,Thomas,Hannen,,
+resident,Williams Street,32,,,James,Baker,platelyer,
+resident,Williams Street,33,,,Wm.,Hayman,eng. drvr,
+resident,Williams Street,34,,,John,Harris,baker,
+resident,Williams Street,35,,,Chas.,Knight,coal dealer,
+resident,Williams Street,36,,,Thos. N.,Gillett,haulier,
+resident,Williams Street,37,,,Thos.,Vincent,smith,
+resident,Williams Street,38,,,Wm.,Cole,patternmaker,
+resident,Williams Street,39,,,James,Moore,builder and contractor,
+resident,Williams Street,40,,,Wynd.,Wood,labourer,
+resident,Williams Street,41,,,E.,Pugsley,ship's officer,
+resident,Williams Street,42,,,Albt.,Bird,storekeeper,
+resident,Williams Street,42A,,,J. H.,Hill,Fern cottage,
+cross_street,Williams Street,,,,,,"(return)"
+resident,Williams Street,43,,,James,Kirby,bootmaker,
+resident,Williams Street,44,,,Wm.,Johnson,labourer,
+resident,Williams Street,45,,,Saml.,Castle,ship caprntr,
+resident,Williams Street,46,,,Walt. G.,Robinson,haulier,
+resident,Williams Street,47,,,T. Fdk.,Edwards,fireman,
+resident,Williams Street,48,,,John,Fontaine,labourer,
+resident,Williams Street,49,,,William,Evans,John,
+resident,Williams Street,50,,,John,Dean,mason,
+resident,Williams Street,51,,,Edwd.,Gibbons,moulder,
+resident,Williams Street,52,,,Thomas,Davey,James,
+resident,Williams Street,53,,,Mrs. Ellen,Viner,,
+building,Williams Street,,TREDEGAR WHARF SCHOOLS,,,,
+resident,Williams Street,54,,,Miss M. A.,May,,
+cross_street,Williams Street,,,,,,"here is Charlotte-street."
+resident,Williams Street,55,,,Alfred,Hall,shipper,
+resident,Williams Street,56,,,Mrs. Sarah,Clarke,,
+resident,Williams Street,57,,,Miss M.,Langmaid,,
+resident,Williams Street,58,,,Thomas J.,Falser,,
+resident,Williams Street,59,,, & Son,Manly,brass fndrs,
+resident,Williams Street,60,,,John,Thomas,,
+resident,Williams Street,61,,,George,Kelly,mason,
+resident,Williams Street,62,,,Mrs. Kate,Jones,,
+resident,Williams Street,63,,,Chas.,Thomas,trimmer,
+resident,Williams Street,64,,,J.,Vincent,driver,
+resident,Williams Street,65,,,Saml. J.,Salter,labourer,
+resident,Williams Street,66,,,Chas.,Cornick,steward,
+resident,Williams Street,67,,,Jas. Jno.,Waite,eng. drvr,
+resident,Williams Street,68,,,Mrs. Sarah,Panting,,
+resident,Williams Street,69,,,Augustus,Graddon,John,
+resident,Williams Street,70,,,Alfd.,Manley,boilermaker,
+resident,Williams Street,71,,,Chas.,Griffiths,hoistman,
+resident,Williams Street,72,,,Hy.,Williams,eng. driver,
+resident,Williams Street,73,,,Geo.,Probert,labourer,
+resident,Williams Street,74,,,Jas.,Taylor,engine driver,
+resident,Williams Street,75,,,George,Hill,,
+resident,Williams Street,76,,,Elijah,Jones,,
+resident,Williams Street,77,,,,,,Void
+resident,Williams Street,78,,,Wm.,Jacobsen,,
+resident,Williams Street,79,,,William,Davies,,
+resident,Williams Street,80,,,Mrs. William,Grant,,
+resident,Williams Street,81,,,Morris,Edwards,boatmn,
+resident,Williams Street,82,,,William,Cox,,
+resident,Williams Street,83,,,Benjamin,Davies,laborer,
+resident,Williams Street,84,,,,,,Void
+resident,Williams Street,85,,,Mrs.,Nelson,boardg. ho,
+resident,Williams Street,86,,,,,,Warehouse
+resident,Williams Street,87,,,J.,Stokes,printing works,
+resident,Williams Street,88,,,John,Ross,,
+street,Wilson Street,E 4,,,,,"King's-parade to Castle-street"
+cross_street,Wilson Street,,,,,,"[LEFT HAND SIDE.]"
+resident,Wilson Street,1,,,W.,Challingsworth,mouldr,
+resident,Wilson Street,3,,,William,Burke,labourer,
+resident,Wilson Street,5,,,James,Mulcahy,labourer,
+resident,Wilson Street,7,,,John,Ganner,,
+resident,Wilson Street,9,,,John,Holmes,,
+resident,Wilson Street,11,,,Ben.,Pitcher,eng. driver,
+resident,Wilson Street,13,,,Frederick,Baker,trimmer,
+resident,Wilson Street,15,,,William,Mulcahy,,
+resident,Wilson Street,17,,,Charles,Cogan,carpenter,
+cross_street,Wilson Street,,,,,,"(return)"
+resident,Wilson Street,18,,,John,Persson,seaman,
+resident,Wilson Street,16,,,Thomas,O'Keefe,rigger,
+resident,Wilson Street,14,,,John,Stowell,labourer,
+resident,Wilson Street,12,,,Danl.,McCarthy,labourer,
+resident,Wilson Street,10,,,Rd.,Taylor,,
+resident,Wilson Street,8,,,Wm.,Morgan,labourer,
+resident,Wilson Street,6,,,John,Sedgwick,,
+resident,Wilson Street,4,,,,,,Void
+resident,Wilson Street,2,,,John,Haden,labourer,
+street,Windsor Road,E 2,,,,,"Right-hand side Chepstow-rd"
+cross_street,Windsor Road,,,,,,"[LEFT HAND SIDE.]"
+resident,Windsor Road,1,,,H. A.,Perrins,,
+resident,Windsor Road,3,,,Wm.,Hall,salesman,
+resident,Windsor Road,5,,,James K.,Stewart,,
+resident,Windsor Road,7,,,Taliesin,Evans,,
+resident,Windsor Road,9,,,Thomas,Harding,John,
+resident,Windsor Road,11,,,Henry,Rees,,

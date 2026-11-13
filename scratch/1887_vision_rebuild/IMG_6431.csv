@@ -1,0 +1,140 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Reform Buildings,,,,,,From 1, Lower Cross-street.
+resident,Reform Buildings,1,,,James,Dacey,labourer,
+resident,Reform Buildings,2,,,Laurence,O'Hare,labor
+resident,Reform Buildings,3,,,Patrick,Ronoon,laborer
+resident,Reform Buildings,4,,,Denis,Barry,labourer
+resident,Reform Buildings,5,,,Morty,Sughrue,dealer
+resident,Reform Buildings,6,,,Patrick,Barry,labourer
+resident,Reform Buildings,7,,,Thos.,Fitzgerald,labourer
+resident,Reform Buildings,8,,,Jas.,Gatehouse,labourer
+resident,Reform Buildings,9,Forester's Arms,Robt.,Hayden,,
+resident,Reform Buildings,10,,,John,Daley,craneman
+resident,Reform Buildings,11,,,Charles,Rose,fireman
+resident,Reform Buildings,12,,,John,Bryan,labourer
+resident,Reform Buildings,13,,,,,Gay,labourer
+resident,Reform Buildings,,,Emlyn Engineering works,C. D. Phillips,,proprietor
+cross_street,Reform Buildings,,,,,,Jones' Court
+cross_street,Reform Buildings,,,,,,Toomb's Court
+street,Risca Road,,,,,,From "Handpost" Stow-hill
+resident,Risca Road,,,,John,Jenkins,sailmaker,
+resident,Risca Road,,,,Mrs Ann,Pask,,
+resident,Risca Road,,,,Francis,Evans,gardener,
+resident,Risca Road,,Capstone cottage,S.,Lewis,,
+resident,Risca Road,,Risca cottage,Edwd.,Lyons,,
+cross_street,Risca Road,,,,,,here is Bolton-road.
+cross_street,Risca Road,,,,,,here is Manley-road, [called "Quarry Field."]
+resident,Risca Road,,,,Henry,Collard,baker,
+resident,Risca Road,,Rutha cottage,G.,Dowling,,
+resident,Risca Road,,Ty-Llwyd,T.,Price,farmer
+resident,Risca Road,,Nant-coch fm,C. D.,Phillips,,
+resident,Risca Road,,Nant-coch,Thos.,Colborne,,
+resident,Risca Road,,Gllasslwch house,J. A.,White,,
+resident,Risca Road,,Glasllwch farm,Hy.,Jones,,
+street,Robert Street, P.,,,,,,From Courtybella-terrace. [Left-hand side.]
+resident,Robert Street, P.,1,,,Benj.,Morgan,grocer,
+resident,Robert Street, P.,2,,,Sidney,Ellaway,furnaceman,
+resident,Robert Street, P.,3,,,Jas. H.,Barber,foreman
+resident,Robert Street, P.,4,,,E.,Roberts,baker
+resident,Robert Street, P.,5,,,T. U.,Vincent,platelayer
+resident,Robert Street, P.,6,,,John,Sanders,labourer
+resident,Robert Street, P.,7,,,Saml.,Bavester,haulier
+resident,Robert Street, P.,8,,,Thomas,Moore,sailor
+resident,Robert Street, P.,9,,,Geo.,Grant,labourer
+resident,Robert Street, P.,10,,,Wm.,Barrett,coal trimr
+resident,Robert Street, P.,11,,,Sidney,Buckler,hobbler
+resident,Robert Street, P.,12,,,Morgan,James,pat mkr
+resident,Robert Street, P.,13,,,Wm.,Parry,boiler make
+resident,Robert Street, P.,14,,,Chas.,Parry,coal dealer
+resident,Robert Street, P.,15,,,Wm.,Forester,carpenter
+resident,Robert Street, P.,16,,,Robert,Scott,fitter
+resident,Robert Street, P.,17,,,Rowland,Turberville,,
+resident,Robert Street, P.,18,,,Fanny,widw,Richardson,
+resident,Robert Street, P.,19,,,Nicholas,Grunnah,mar
+resident,Robert Street, P.,20,,,Elijah,Barton,smith
+resident,Robert Street, P.,21,,,Thos.,George,mariner
+resident,Robert Street, P.,22,,,Enoch,Barwell,smith
+resident,Robert Street, P.,23,,,Aug.,Davies,haulier
+resident,Robert Street, P.,24,,,Hy.,Seer,weighman
+resident,Robert Street, P.,25,,,Jos.,Murphy,labourer
+resident,Robert Street, P.,26,,,Cor.,Hurley,cattle dealr
+cross_street,Robert Street, P.,,,,,,(return)
+resident,Robert Street, P.,27,,,Joseph,Seer,hoistman
+resident,Robert Street, P.,28,,,John F.,Foster,tinsmith
+resident,Robert Street, P.,29,,,John,Boyles,carpenter
+resident,Robert Street, P.,30,,,Amelia,Lawrence,,
+resident,Robert Street, P.,31,,,Edward,Arr,mariner
+resident,Robert Street, P.,32,,,Jas.,Kirby,master mar
+resident,Robert Street, P.,33,,,John,Morgan,blacksmith
+resident,Robert Street, P.,34,,,John,Elison,mariner
+resident,Robert Street, P.,35,,,John,Ford,labourer
+resident,Robert Street, P.,36,,,Thos. Fk.,Foster,smith
+resident,Robert Street, P.,37,,,John,Morgan,polisher
+resident,Robert Street, P.,38,,,Wm. T.,Card,baker
+resident,Robert Street, P.,39,,,Jos.,Parry,fisherman
+resident,Robert Street, P.,40,,,William O.,Ford,signalman
+resident,Robert Street, P.,41,,,Aug.,Keyse,engineman
+resident,Robert Street, P.,42,,,Thos.,Hurd,brickmaker
+resident,Robert Street, P.,43,,,Alf.,Richards,labourer
+resident,Robert Street, P.,44,,,Dl.,Thomas,moulder
+resident,Robert Street, P.,45,,,W. H.,Williams,labourer
+resident,Robert Street, P.,46,,,Wm.,Williams,labourer
+resident,Robert Street, P.,47,,,Geo.,Vickery,shipwright
+resident,Robert Street, P.,48,,,George,Lixton,labourer
+resident,Robert Street, P.,49,,,Bros.,Rees,office
+resident,Robert Street, P.,,,Providence foun'ry,Bros.,Rees,iron and brass founders,
+resident,Robert Street, P.,,,,,Lawrence,coke, brick, and pipe merchant,H. coal
+street,Rodney Parade,,,,,,East side of Usk from Bridge
+resident,Rodney Parade,,,London wharf,Bros.,Davies,builders' merchants
+resident,Rodney Parade,,,Bridge house,Mrs T.,John,,
+resident,Rodney Parade,,,,Job and Co.,Thomas,marble & monumental works,slate
+cross_street,Rodney Parade,,,,,,Rodney wharf
+resident,Rodney Parade,,,,Sidney,Scandrett,butcher
+resident,Rodney Parade,,,Newport Cricket Ground,,,
+resident,Rodney Parade,,,,,' Williams,ærated water wks
+resident,Rodney Parade,,Rodney ho,H. E.,Dunning,,
+resident,Rodney Parade,,Rodney house,H. L.,Williams,,
+resident,Rodney Parade,,,,R.,Tipton,umbrella maker
+resident,Rodney Parade,,,,John,Norman,seaman
+cross_street,Rodney Parade,,,,,,Gridiron wharf
+resident,Rodney Parade,,,,G.,Cheeseman,gridiron kpr
+resident,Rodney Parade,,,,Wm.,Ball,gridiron keeper
+resident,Rodney Parade,,,Spittle's boiler works,,,
+resident,Rodney Parade,,,,John,Davies,haulier
+resident,Rodney Parade,,,Rodney wharf ground,Matthew,Johns,lime works
+resident,Rodney Parade,,,,J. C.,Fothergill,timber yard and steam saw mills
+resident,Rodney Parade,,,,George,Radford,labourer
+resident,Rodney Parade,,,,Charles,Cording,sawyer
+resident,Rodney Parade,,,,D.,Welsh,berthing master
+resident,Rodney Parade,,,Great Western wharf,D. Happerfield,,manager
+resident,Rodney Parade,,,Usk Chemical Works (The),Morris and Griffin,,
+street,Rookery (The),,,,,,From 72, Stow-hill.
+street,Ruperra Street,,,,,,From 17, Commercial-road to Dock-street.
+resident,Ruperra Street,1,,,,,Void,
+resident,Ruperra Street,2,,,Fergus,Ingram,coffee h
+resident,Ruperra Street,3,,,Geo.,Bucknall,bootmaker
+resident,Ruperra Street,4,,,Fredk.,Williams,mason
+resident,Ruperra Street,5,,,Wm. J.,Hacker,foreman
+resident,Ruperra Street,6,,,Jno.,Bremner,draper, &c
+resident,Ruperra Street,7,,,Tom,Hardie,engineer
+resident,Ruperra Street,8,,,Fk.,Downham,account't
+resident,Ruperra Street,9,,,Alfred,Hazel,builder
+resident,Ruperra Street,10,,,W.,Jones,tinman
+resident,Ruperra Street,11,,,Wm.,Rowberry,botanist
+resident,Ruperra Street,12,,,Mrs Ann,Williams,,
+resident,Ruperra Street,13,,,Joseph,Davies,,
+resident,Ruperra Street,14,,,Miss,Davies,dressmaker
+resident,Ruperra Street,,,,H. & Co.,Edwards,shipbrokers
+resident,Ruperra Street,15,,,John,Monks,stone mer
+resident,Ruperra Street,16,,,Mrs Sarah,Parry,,
+resident,Ruperra Street,17,,,Mrs Anne,Seymour,,
+cross_street,Ruperra Street,,,,,,here is New Ruperra-street.
+resident,Ruperra Street,18,,,Mrs Ann,Smoothey,,
+resident,Ruperra Street,19,,,G. B.,Challicomb,potato merchant
+resident,Ruperra Street,20,,,G.,Hawkins,chairmaker
+resident,Ruperra Street,21,,,George,Smith,,
+resident,Ruperra Street,22,,,John,Johns,agent to Pyle Works Co. Ltd.
+resident,Ruperra Street,23,,,A.,Stonehouse,shipbroker
+resident,Ruperra Street,24,,,Jno.,Corner,Oliver
+resident,Ruperra Street,25,,,John,Rice,blacksmith
+resident,Ruperra Street,26,,,J. & Co.,Berrill,shipbrokrs

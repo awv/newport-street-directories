@@ -1,0 +1,166 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Alice Street,,,,,,continued
+resident,Alice Street,27,,William,Bowler,boilermkr,
+resident,Alice Street,,,"Harold, boilermkr",Broome,,
+resident,Alice Street,29,,Enoch,Davies,moulder,
+resident,Alice Street,31,,William,Rudd,boilermkr,
+cross_street,Alice Street,,,,,,here is Wolseley-street
+resident,Alice Street,33,,Thos. B.,Adams,blmaker,
+resident,Alice Street,35,,Vernon,Moses,clerk,
+resident,Alice Street,37,,Henry,Hulbert,hoistman,
+resident,Alice Street,39,,Charles Hy.,Poole,tipper,
+resident,Alice Street,41,,John J.,Scannell,dk pilot,
+resident,Alice Street,43,,Harry,Griffin,trimmer,
+resident,Alice Street,45,,Mrs. L.,Lamprey,gen strs,
+resident,Alice Street,47,,A. W.,Simmons,weighman,
+resident,Alice Street,49,,Albert E.,Evans,trimmer,
+resident,Alice Street,51,,Gwilym,Lewis,trimmer,
+resident,Alice Street,53,,Ernest E. R.,Williams,,
+resident,Alice Street,55,,Francis,Jones,trimmer,
+cross_street,Alice Street,,,,,,here is Mendalgief-road
+cross_street,Alice Street,,,,,,(return)
+cross_street,Alice Street,,,,,,here is Oswald-road
+resident,Alice Street,56,,George,Davies,boilermkr,
+resident,Alice Street,54,,Benj. J.,Williams,trimmer,
+resident,Alice Street,52,,Mrs. Margaret,Grace,,
+resident,Alice Street,50,,D. G.,Garrett,shipwright,
+resident,Alice Street,48,,Richd.,Brooks,shipwright,
+resident,Alice Street,46,,Wm. H.,Stribley,Caestre,
+resident,Alice Street,44,,Edward,Roberts,foreman,
+resident,Alice Street,42,,Alfred,Seer,,
+resident,Alice Street,40,,David,Thomas,dock labr,
+resident,Alice Street,38,,Geo.,Williams,signalman,
+resident,Alice Street,36,,Thos. H.,Pritchard,wghm,
+resident,Alice Street,34,,Frank G.,Bradley,engnr,
+resident,Alice Street,32,,Wm.,Griffin,foreman,
+resident,Alice Street,30,,Wm. John,Turner,engnr,
+resident,Alice Street,28,,Walter J.,Roberts,baker,
+resident,Alice Street,26,,Edwin F.,Davies,patt mkr,
+resident,Alice Street,24,,James,Gorvin,house repr,
+resident,Alice Street,22,,A. S.,Duncan,painter,
+resident,Alice Street,20,,Mrs. Annie,Cox,,
+resident,Alice Street,18,,Mrs. Mary Ann,Payne,,
+resident,Alice Street,16,,Edward S.,Thomas,fitter,
+resident,Alice Street,14,,John,Bradley,signal fitter,
+resident,Alice Street,12,,Mrs. Amelia,Attwood,,
+resident,Alice Street,10,,Mrs. Sarah A.,Dinham,,
+resident,Alice Street,8,,Miss Agnes G.,Broad,,
+resident,Alice Street,6,,Mrs. Alice,Down,Miriam,
+resident,Alice Street,4,,Mrs. Martha,Hood,,
+resident,Alice Street,2,,Charles,Powell,labourer,
+resident,Alice Street,,,A. J. & Sons,Jacobs,clothiers,Pill Market
+street,ALLT-YR-YN AVENUE,,,,,,B 6 & C 5
+cross_street,ALLT-YR-YN AVENUE,,,,,,From Risca-rd to Allt-yr-yn-rd
+cross_street,ALLT-YR-YN AVENUE,,,,,,(LEFT HAND SIDE)
+resident,ALLT-YR-YN AVENUE,,,Stonycroft,"Frank S., architect and surveyor",Swash,,
+resident,ALLT-YR-YN AVENUE,,,Little Chase,Mrs.,Napier,,
+resident,ALLT-YR-YN AVENUE,,,Eden Derry,D. J.,Vaughan,,
+resident,ALLT-YR-YN AVENUE,,,Hilaire,A. I.,Morgan,,
+resident,ALLT-YR-YN AVENUE,,,Brynawelon,Rev. C. L.,Perry,,
+resident,ALLT-YR-YN AVENUE,,,Hillside,Evans,Hatton-,Mansel,
+resident,ALLT-YR-YN AVENUE,,,Windyridge,Douglas,Joyce,,
+resident,ALLT-YR-YN AVENUE,,,Swiss view,J. Leslie,Millar,,
+resident,ALLT-YR-YN AVENUE,,,Chalet,J.,Smith,,
+cross_street,ALLT-YR-YN AVENUE,,,,,,Footpath to Canal
+cross_street,ALLT-YR-YN AVENUE,,,,,,Allt-yr-yn "double-view"
+resident,ALLT-YR-YN AVENUE,,,,,,Open space
+resident,ALLT-YR-YN AVENUE,,,Kingsmore,Walter,Meacock,,
+resident,ALLT-YR-YN AVENUE,,,Rozel,Harry F.,Sanders,,
+resident,ALLT-YR-YN AVENUE,,,Broadview,Albert J.,Esdaile,3 houses building
+resident,ALLT-YR-YN AVENUE,,,Brevik,Mrs. Vivian,Jones,,
+resident,ALLT-YR-YN AVENUE,,,Wyresdale,H.,Van-der-Veen,3 houses building
+resident,ALLT-YR-YN AVENUE,,,Myrtle Bank,C.,Hick,,
+resident,ALLT-YR-YN AVENUE,,,Chellowdene,Percy,Keene,,
+resident,ALLT-YR-YN AVENUE,,,Beaumont,Clifford,Swash,,
+resident,ALLT-YR-YN AVENUE,,,,,,2 houses void
+resident,ALLT-YR-YN AVENUE,,,Formosa,G. Humphrey,Tovey,,
+resident,ALLT-YR-YN AVENUE,,,Ty-Ivor,Talisien,Evans,,
+resident,ALLT-YR-YN AVENUE,,,Brecknock,G. Kenvyn,Davies,,
+resident,ALLT-YR-YN AVENUE,,,Brecknock,Norman,Fairclough,,
+resident,ALLT-YR-YN AVENUE,,,Highfield,Thomas Harry,Thomas,,
+resident,ALLT-YR-YN AVENUE,,,House building,,,
+resident,ALLT-YR-YN AVENUE,,,,,,Vacant sites
+resident,ALLT-YR-YN AVENUE,,,High Croft,Mrs. Catherine A.,Gabb,,
+resident,ALLT-YR-YN AVENUE,,,Northfields,Wilfrid M.,Baker,,
+resident,ALLT-YR-YN AVENUE,,,Briardene,Geo. W.,Williams,,
+resident,ALLT-YR-YN AVENUE,,,Le-Quatre Saisons,Mrs. Alice M.,Price,,
+resident,ALLT-YR-YN AVENUE,,,Queenswood,Geo. H.,Bamberger,,
+resident,ALLT-YR-YN AVENUE,,,Haughton,Wm. H.,Lloyd,,
+resident,ALLT-YR-YN AVENUE,,,Ravenswood,Alfred P.,Bailey,,
+resident,ALLT-YR-YN AVENUE,,,Kabinga,Fred J.,Greggans,,
+resident,ALLT-YR-YN AVENUE,,,Wallacedene,Wm. K.,Langford,,
+resident,ALLT-YR-YN AVENUE,,,Willifield,Douglas H.,Hodson,,
+resident,ALLT-YR-YN AVENUE,,,Traherne,Norman,Smith,,
+resident,ALLT-YR-YN AVENUE,,,Penylan Rise,,,
+resident,ALLT-YR-YN AVENUE,,,Twynglas,Thomas C.,Davies,,
+resident,ALLT-YR-YN AVENUE,,,Stanheim,Stanley G.,Walters,,
+resident,ALLT-YR-YN AVENUE,,,Torridge,Edwin,Parkin,,
+resident,ALLT-YR-YN AVENUE,,,Pendennis,Stanley,Freeguard,,
+resident,ALLT-YR-YN AVENUE,,,Chaseley,Walford,Pinnell,,
+cross_street,ALLT-YR-YN AVENUE,,,,,,here is Allt-yr-yn-close
+resident,ALLT-YR-YN AVENUE,,,Valletta,Julius A.,Glover,,
+resident,ALLT-YR-YN AVENUE,,,Honduras,Alex. F.,Winter,,
+cross_street,ALLT-YR-YN AVENUE,,,,,,here is Allt-yr-yn-road
+cross_street,ALLT-YR-YN AVENUE,,,,,,(return)
+resident,ALLT-YR-YN AVENUE,,,,,,Two houses building
+resident,ALLT-YR-YN AVENUE,,,Troedy-Bryn,Fredk. Hugh,Daniels,,
+resident,ALLT-YR-YN AVENUE,,,Forest ho,Nurton,Matthews,,
+resident,ALLT-YR-YN AVENUE,,,Elmley,George,Moore,,
+resident,ALLT-YR-YN AVENUE,,,Lausanne,Francis T.,Phillips,,
+resident,ALLT-YR-YN AVENUE,,,Dartrey,Samuel,Thornley,,
+resident,ALLT-YR-YN AVENUE,,,Llanreath,W. E.,Davies,,
+resident,ALLT-YR-YN AVENUE,,,Burwood,Herbert F.,Lankesheer,,
+resident,ALLT-YR-YN AVENUE,,,Ridgecot,Chas. B.,Langmaid,,
+resident,ALLT-YR-YN AVENUE,,,Bankside,Ronald G.,Williams,,
+resident,ALLT-YR-YN AVENUE,,,,,,Norcliffe-void
+resident,ALLT-YR-YN AVENUE,,,Bonheur,Robert,Watkins,,
+resident,ALLT-YR-YN AVENUE,,,Ridgeway,King H. N.,Little,,
+resident,ALLT-YR-YN AVENUE,,,,,,Vacant site
+resident,ALLT-YR-YN AVENUE,,,Harvard,R. D.,,
+resident,ALLT-YR-YN AVENUE,,,Linton,C. H.,,
+resident,ALLT-YR-YN AVENUE,,,,,,Vacant sites
+resident,ALLT-YR-YN AVENUE,,,The Graig,Harper Richard,Perry,,
+resident,ALLT-YR-YN AVENUE,,,,,,Vacant sites
+resident,ALLT-YR-YN AVENUE,,,Inversnaid,Mrs. Margaret,MacFarlane,,
+resident,ALLT-YR-YN AVENUE,,,Void,,,
+resident,ALLT-YR-YN AVENUE,2,,void,,,
+resident,ALLT-YR-YN AVENUE,,,,,,Vacant sites
+cross_street,ALLT-YR-YN AVENUE,,,,,,Allt-yr-yn "double-view"
+resident,ALLT-YR-YN AVENUE,,,,,,Open space
+cross_street,ALLT-YR-YN AVENUE,,,,,,Footpath to Fields-park-rd
+resident,ALLT-YR-YN AVENUE,,,,,,3 houses building
+resident,ALLT-YR-YN AVENUE,,,Sunny Brae,John,Coker,,
+resident,ALLT-YR-YN AVENUE,,,,,,3 houses building
+resident,ALLT-YR-YN AVENUE,,,,,,Vacant sites
+resident,ALLT-YR-YN AVENUE,,,Thorne Ridge,Herbert G.,Bere,,
+street,ALLT-YR-YN CLOSE,,,,,,C 5
+cross_street,ALLT-YR-YN CLOSE,,,,,,From Allt-yr-yn-avenue
+cross_street,ALLT-YR-YN CLOSE,,,,,,(RIGHT HAND SIDE)
+resident,ALLT-YR-YN CLOSE,1,,Horace E.,Cartref,Stanton,,
+resident,ALLT-YR-YN CLOSE,2,,Fred J.,Hando,,
+resident,ALLT-YR-YN CLOSE,3,,John Hugh,Jordan,,
+resident,ALLT-YR-YN CLOSE,4,,Wm. A.,Wynberg,Whittaker,,
+resident,ALLT-YR-YN CLOSE,5,,Miss Gladys E.,Tyson,,
+resident,ALLT-YR-YN CLOSE,,,Miss Margery W.,Bunning,,
+resident,ALLT-YR-YN CLOSE,,,,,,Vacant sites
+street,ALLT-YR-YN ROAD,,,,,,C 5 & B 5
+cross_street,ALLT-YR-YN ROAD,,,,,,From Fields-road
+cross_street,ALLT-YR-YN ROAD,,,,,,(LEFT HAND SIDE)
+resident,ALLT-YR-YN ROAD,1,,James M.,Bleak ho,Akers,,
+resident,ALLT-YR-YN ROAD,3,,Henry,engineer,Richards,,Bryn Syfi
+resident,ALLT-YR-YN ROAD,5,,George A.,Glyn-Garth,Parfitt,,
+resident,ALLT-YR-YN ROAD,7,,Henry Edg.,secy,Clubb,,
+resident,ALLT-YR-YN ROAD,9,,Thos. B.,Trewen,Price,,
+resident,ALLT-YR-YN ROAD,11,,John C.,Hovedene,Evans,,
+resident,ALLT-YR-YN ROAD,13,,S. L.,Treleigh,Gronow,,
+resident,ALLT-YR-YN ROAD,15,,John R. C.,Stephens,,
+resident,ALLT-YR-YN ROAD,17,,Mrs. Jane,Inveresk,Lauder,,
+resident,ALLT-YR-YN ROAD,21,,Ralph C.,Leckwith,Coslett,,
+resident,ALLT-YR-YN ROAD,23,,Stanley,Swales,,
+resident,ALLT-YR-YN ROAD,25,,Arth. H.,Rathgar,Davies,,
+resident,ALLT-YR-YN ROAD,27,,Arthur John,Hodgkiss,,
+resident,ALLT-YR-YN ROAD,29,,Roger,Perrymead,Oates,,
+resident,ALLT-YR-YN ROAD,31,,Void,,,
+resident,ALLT-YR-YN ROAD,,,T.,school teacher,Edwards,,Latheron
+resident,ALLT-YR-YN ROAD,,,Wm. H.,Overdale,Williams,,
+resident,ALLT-YR-YN ROAD,,,William E.,news rep.,Gerrish,,Stokesay

@@ -1,0 +1,148 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Prince Street,,,,,,
+resident,Prince Street,33,,Charles,John,builder,
+cross_street,Prince Street,,,,,,here is the Marshes.
+resident,Prince Street,,,Chas.,Hewinson,labourer,
+resident,Prince Street,,,Thomas,Davies,haulier,
+resident,Prince Street,,,Mrs Dorothy,Hampton,,
+resident,Prince Street,,,Edward,Coyle,painter,
+resident,Prince Street,,,John,Johns,blacksmith,
+resident,Prince Street,,,Sidney,Hill,bricklayer,
+resident,Prince Street,24,,Edwd.,Snelling,coach builder shoeing smith etc.,
+resident,Prince Street,25,,William,Field,mechanic,
+resident,Prince Street,26,,John,Price,cab proprietor,
+resident,Prince Street,27,,F. H.,Chappell,tram drvr,
+resident,Prince Street,28,,John,Berry,,
+resident,Prince Street,29,,Mrs Mary,Hayman,shop,
+resident,Prince Street,30,,Charles,Long,carpenter,
+resident,Prince Street,31,,G. W.,Phillips,watchman,
+resident,Prince Street,32,,John,Lovell,cabinet mkr,
+resident,Prince Street,33,,John,Hopkins,gas stoker,
+resident,Prince Street,34,,George,Lewis,,
+resident,Prince Street,35,,Thomas,Morgan,postman,
+resident,Prince Street,36,,Mrs Sarah,Lewis,,
+resident,Prince Street,37,,Sidney,Watkins,platelayr,
+resident,Prince Street,38,,Mrs Annie E.,Rowe,,
+resident,Prince Street,39,,John,Friend,labourer,
+resident,Prince Street,40,,John,Dudley,gas works,
+street,Probert Place, M.,,,,,,130 Chepstow-road to Glebe-st.
+street,Prospect Street,,,,,,Malpas-road to Redland-street
+cross_street,Prospect Street,,,,,,[LEFT HAND SIDE.]
+resident,Prospect Street,1,,G. J.,Jones,clerk,
+resident,Prospect Street,2,,S. J.,Giles,fitter,
+resident,Prospect Street,3,,S. J.,Baynham,painter,
+resident,Prospect Street,4,,Mrs Martha,Knight,,
+resident,Prospect Street,5,,Edward,Harris,,
+resident,Prospect Street,6,,Alfred,Joseph,ironworkr,
+resident,Prospect Street,7,,George,Rendle,G.W.R.,
+cross_street,Prospect Street,,,,,,(return.)
+resident,Prospect Street,8,,Charles,Eastment,G.W.R.,
+resident,Prospect Street,9,,James,Williams,bricklayr,
+resident,Prospect Street,10,,James,Evans,gardener,
+resident,Prospect Street,11,,William,Lyons,postman,
+resident,Prospect Street,12,,F. E.,Thomas,striker,
+street,Protheroe's Row, P.,,,,,,From Castle-st. to King's-par.
+resident,Protheroe's Row, P.,1,,Wm.,Giblin,boilermaker,
+resident,Protheroe's Row, P.,2,,Robert,Pring,,
+resident,Protheroe's Row, P.,3,,John,Molloy,labourer,
+resident,Protheroe's Row, P.,4,,William,Ware,,
+resident,Protheroe's Row, P.,5,,Jos.,Williams,foundryman,
+resident,Protheroe's Row, P.,6,,John,Mellon,labourer,
+resident,Protheroe's Row, P.,7,,Geo.,Dermody,labourer,
+resident,Protheroe's Row, P.,8,,Mrs Mary A.,Mahoney,,
+resident,Protheroe's Row, P.,9,,Mrs Mary,Mulcahy,,
+resident,Protheroe's Row, P.,10,,Patk.,Courtney,labourer,
+street,Protheroe Street,,,,,,Castle-street to King's-parade.
+street,Providence Place, B.,,,,,,From 11 North-street.
+resident,Providence Place, B.,1,,Mrs,O'Connell,widow,
+resident,Providence Place, B.,2,,Mrs Sarah,Miles,widow,
+resident,Providence Place, B.,3,,George,Bucknall,hawker,
+resident,Providence Place, B.,4,,Daniel,Paul,,
+resident,Providence Place, B.,5,,Mrs Annie,McDougall,,
+resident,Providence Place, B.,6,,Mrs Blanche,Christopher,,
+resident,Providence Place, B.,7,,J.,Edwards,coppersmith,
+resident,Providence Place, B.,8,,John,Mahoney,labourer,
+resident,Providence Place, B.,9,,William,King,labourer,
+resident,Providence Place, B.,10,,George,Molloy,factory,
+street,Pugsley Street,,,,,,From Wyndham-st., Marshes.
+resident,Pugsley Street,,,Club Boat House,,,
+resident,Pugsley Street,1,,Isaac,Sims,shoemaker,
+resident,Pugsley Street,2,,Charles,Roach,carpenter,
+resident,Pugsley Street,3,,Thos.,Harris,eng. driver,
+resident,Pugsley Street,4,,Thomas,Lloyd,sailor,
+resident,Pugsley Street,5,,Henry,Rogers,fitter,
+resident,Pugsley Street,6,,Charles,Pearson,comp.,
+resident,Pugsley Street,7,,Charles,Brice,assistant,
+resident,Pugsley Street,8,,Wm. Hy.,White,signalmn,
+cross_street,Pugsley Street,,,,,,here is Hoskins-street.
+resident,Pugsley Street,9,,Geo.,Bowditch,moulder,
+resident,Pugsley Street,10,,Tom,Wixcey,guard,
+resident,Pugsley Street,11,,Rd. J.,Mogford,pork butcr,
+resident,Pugsley Street,12,,Amos,Price,engineman,
+resident,Pugsley Street,13,,Hy.,Parsons,drayman,
+resident,Pugsley Street,14,,Owen,Jones,shopman,
+resident,Pugsley Street,15,,Mrs Fanny,Thomas,,
+resident,Pugsley Street,16,,Wm.,Waite,fish dealer,
+cross_street,Pugsley Street,,,,,,here is Wheeler-street.
+resident,Pugsley Street,17,,Chas.,Yeates,greengrocer,
+resident,Pugsley Street,18,,James,Lloyd,carpenter,
+resident,Pugsley Street,19,,R. H. W.,Major,sailmaker,
+resident,Pugsley Street,20,,Levi,Holley,coal mercht,
+resident,Pugsley Street,21,,Mrs Elizabeth,Prakel,,
+resident,Pugsley Street,22,,Joseph,O'Neil,labourer,
+resident,Pugsley Street,23,,Isaac,Gething,postman,
+resident,Pugsley Street,24,,Samuel,Newick,plasterer,
+resident,Pugsley Street,25,,Dd.,Embling,sugar boiler,
+resident,Pugsley Street,26,,George,Norvill,haulier,
+resident,Pugsley Street,27,,George,Edwards,plumber,
+resident,Pugsley Street,28,,James,Malpas,signalman,
+resident,Pugsley Street,29,,Thos.,Williams,eng. drvr,
+resident,Pugsley Street,30,,Wm.,James,bootmaker,
+resident,Pugsley Street,31,,John,Williams,labourer,
+resident,Pugsley Street,32,,Thomas,Charles,smith,
+street,Queen Street,,,,,,From 30 Cardiff-road.
+resident,Queen Street,1,,F. M.,Davies,seaman,
+resident,Queen Street,2,,Charles,Peterson,seaman,
+resident,Queen Street,3,,Mrs Louisa,Davies,,
+resident,Queen Street,4,,,,,,Void
+resident,Queen Street,5a,,,,,,do
+resident,Queen Street,5,,,,,,do
+resident,Queen Street,6,,,,,,do
+resident,Queen Street,7,,,,,,do
+cross_street,Queen Street,,,,,,here is Beynon's-court.
+resident,Queen Street,8,,Charles,Newman,ostler,
+resident,Queen Street,9,,William,Shell,labourer,
+resident,Queen Street,10,,George,Pollard,haulier,
+resident,Queen Street,11,,F.,Fennell,King's vale v
+resident,Queen Street,12,,James,Tyler,fitter,
+resident,Queen Street,13,,Wm.,Kennard,boilermakr,
+resident,Queen Street,14,,E. J.,Thomas,labourer,
+resident,Queen Street,15,,Benj.,Johnson,wagon liftr,
+resident,Queen Street,16,,George,Pollard,haulier,
+street,Queen's Buildings,,,,,,Nos. 1-6 Baneswell-road.
+street,Queen's Chambers,,,,,,See No. 41 High-street.
+street,Queen's Hill,,,,,,10 Mill-street to Dos-road.
+cross_street,Queen's Hill,,,,,,[LEFT HAND SIDE.]
+resident,Queen's Hill,,,County Police Court,,,
+resident,Queen's Hill,,,Guardians' Offices,,,
+resident,Queen's Hill,,,Henry,Dight,Veronica
+resident,Queen's Hill,,,H. J.,Halford,Grasmere
+resident,Queen's Hill,,,John,Roberts,Henllan
+resident,Queen's Hill,,,Intermediate Schools,,,
+resident,Queen's Hill,,,Catholic Schools (build'g),,,
+cross_street,Queen's Hill,,,,,,[RIGHT HAND SIDE.]
+resident,Queen's Hill,,,Henry,Flook,Glantawe
+resident,Queen's Hill,,,Arthur,Hammer,grocer &c.
+resident,Queen's Hill,,,Edwin,Parson,Tekoa
+resident,Queen's Hill,,,W. J.,Williams,builder etc.
+resident,Queen's Hill,,,John,Ford,,
+resident,Queen's Hill,1,,C.L.,Barfoot,Queen's hill h
+cross_street,Queen's Hill,,,,,,here is Locke-street.
+resident,Queen's Hill,,,St. Mark's Sunday School,,,
+street,Queen's Hill Terrace,,,,,,Queen's Hill
+resident,Queen's Hill Terrace,2,,Mrs,Jones,Selwood
+resident,Queen's Hill Terrace,3,,Edward,Roderick,,
+resident,Queen's Hill Terrace,4,,Evan,Evans,Pembury
+resident,Queen's Hill Terrace,5,,Miss C. J.,Mackie,,
+resident,Queen's Hill Terrace,6,,Mrs Elizabeth,Wathan,,
+resident,Queen's Hill Terrace,7,,F.,Burrough,Greenfield

@@ -1,0 +1,147 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,New Ruperra Street,,,,,,"From 17 Ruperra-street."
+resident,New Ruperra Street,1,,Daniel,Sullivan,labourer,
+resident,New Ruperra Street,,,Daniel,Ferrisey,tailor,
+resident,New Ruperra Street,,,Michael,Landers,,
+resident,New Ruperra Street,,,Nicholas,Summers,lab'rer,
+resident,New Ruperra Street,2,,Mrs,Barkley,,
+resident,New Ruperra Street,,,William,Mahoney,labourer,
+resident,New Ruperra Street,,,William,Shaw,foundrymn,
+resident,New Ruperra Street,,,Leonard,Price,labourer,
+resident,New Ruperra Street,3,,Thomas,Samuel,machinist,
+resident,New Ruperra Street,4,,Charles,Schute,mariner,
+resident,New Ruperra Street,5,,Thomas,Hawkins,smith,
+resident,New Ruperra Street,7,,James,Hookey,hawker,
+resident,New Ruperra Street,8,,C. E.,Hawkins,cabinetmkr,
+resident,New Ruperra Street,9,,John,Smart,labourer,
+street,Newport Arcade,,,,,,See Arcades.
+street,New Street, P.,,,,,,"From 125 Commercial-road."
+resident,New Street, P.,1,,,,,"Re-building"
+resident,New Street, P.,2,,,,,"do"
+resident,New Street, P.,3,,William,Perry,rigger,
+resident,New Street, P.,4,,Thomas,Keefe,labourer,
+resident,New Street, P.,5,,Francis,Hunt,labourer,
+resident,New Street, P.,6,,Mrs Emma,Powell,,
+resident,New Street, P.,7,,,,,Void
+resident,New Street, P.,8,,John,Jones,guard,
+resident,New Street, P.,9,,,,,Void
+resident,New Street, P.,9A,,Michael,Kearns,labourer,
+cross_street,New Street, P.,,,,,,"(return.)"
+resident,New Street, P.,10,,,,,"Re-building"
+resident,New Street, P.,11,,,,,"do"
+resident,New Street, P.,12,,Thomas,Roberts,labourer,
+resident,New Street, P.,13,,Wm.,Mapstone,mechanic,
+resident,New Street, P.,14,,John,West,G.W.R.,
+resident,New Street, P.,15,,Evan,Williams,hobbler,
+resident,New Street, P.,16,,Oliver,Watts,guard,
+resident,New Street, P.,17,,Alfred,Lewis,eng. driver,
+resident,New Street, P.,18,,John,Mahoney,haulier,
+resident,New Street, P.,19,,John,Thomas,hobbler,
+resident,New Street, P.,20,,Dennis,Driscoll,trimmer,
+resident,New Street, P.,21,,Patrick,Maher,trimmer,
+resident,New Street, P.,22,,Thos.,Hannen,boilermakr,
+resident,New Street, P.,23,,William,Binding,labourer,
+resident,New Street, P.,24,,Maur.,Burke,coal trimmer,
+resident,New Street, P.,25,Foresters' Arms,Mrs Fanny,Plummer,,
+street,North Street, B.,,,,,,"Baneswell-road to Jones-street"
+resident,North Street, B.,,,Mrs Mary,Jones,,
+resident,North Street, B.,,,Mrs Ann,Jones,,
+cross_street,North Street, B.,,,,,,"here is Baneswell-square."
+cross_street,North Street, B.,,,,,,CARLISLE PLACE.—
+resident,North Street, B.,1,,Mrs Thomas,Evans,,
+resident,North Street, B.,2,,Henry,Baldwin,steward,
+resident,North Street, B.,3,,William,Taylor,,
+resident,North Street, B.,4,,George Henry,Winnacott,,
+resident,North Street, B.,5,,George,Tucker,,
+cross_street,North Street, B.,,,,,,"here is Waters-lane."
+resident,North Street, B.,6,,Benj.,Tait,letter carrier,
+resident,North Street, B.,7,,W. H.,Howells,signalman,
+resident,North Street, B.,8,,Thomas,Cousins,baker,
+resident,North Street, B.,10,,A. W.,Cleaves,carpenter,
+resident,North Street, B.,11,,W. J.,Mills,"painter, etc.",
+cross_street,North Street, B.,,,,,,"here is Providence-place."
+cross_street,North Street, B.,,,,,,BRITANNIA BUILDINGS—
+resident,North Street, B.,12,,Henry,White,painter,
+resident,North Street, B.,13,,Hubert,Rideout,,
+resident,North Street, B.,14,,William,Keyse,sawyer,
+resident,North Street, B.,15,Britannia Inn,A. G.,Gordon,,
+cross_street,North Street, B.,,,,,,"here is Wesley-place."
+resident,North Street, B.,,,Corporation Baths,,,,
+resident,North Street, B.,16,,Robert,Scott,fitter,
+resident,North Street, B.,17,,Jane,Pullenger,widow,
+resident,North Street, B.,18,,Arth.,Thomas,machinist,
+cross_street,North Street, B.,,,,,,"here is Havelock-street."
+resident,North Street, B.,20,,Chas.,Boucher,tramway,
+resident,North Street, B.,21,,Mrs Alice,Bush,,
+cross_street,North Street, B.,,,,,,"(return.)"
+cross_street,North Street, B.,,,,,,"here is St. Mary-street."
+resident,North Street, B.,22,,S.,Daymond,grocer,
+resident,North Street, B.,23,,,,,Void
+resident,North Street, B.,24,,Albert,Stocker,cabman,
+resident,North Street, B.,25,,Mrs,Starke,caretaker,
+resident,North Street, B.,26,,John T.,Meaker,painter,
+resident,North Street, B.,27,,Arthur G.,Bird,decorator,
+resident,North Street, B.,28,,Mrs Mary,Manship,,
+resident,North Street, B.,29,,Mrs Annie C.,Allen,,
+resident,North Street, B.,30,,Mrs Margaret,Vaughan,,
+resident,North Street, B.,31,,Amos,Barroll,cabman,
+resident,North Street, B.,32,,Mrs Theresa,Boucher,,
+resident,North Street, B.,33,,Edwd.,Elsworthy,carp'ter,
+resident,North Street, B.,34,,Mrs Caroline,Moore,,
+resident,North Street, B.,35,,Alfred,Gaisford,factory,
+resident,North Street, B.,36,,Mrs H.,Edwards,,
+resident,North Street, B.,37,,James,Banks,tailor,
+resident,North Street, B.,38,,James,Williams,moulder,
+resident,North Street, B.,39,,Mrs Sarah,Wreford,,
+resident,North Street, B.,40,,Mrs Rhoda,Knight,,
+resident,North Street, B.,41,,Mrs Martha,Graves,,
+cross_street,North Street, B.,,,,,,"here is Scard-street."
+resident,North Street, B.,42,,Fred J.,Marsh,shopkeepr,
+resident,North Street, B.,43,,B.,Cole,saddler,
+resident,North Street, B.,44,,Thos.,Cromwell,seaman,
+resident,North Street, B.,45,,Mich.,O'Connor,labourer,
+resident,North Street, B.,46,,John,Morrissey,factory,
+resident,North Street, B.,47,,James,Prosser,labourer,
+resident,North Street, B.,48,,Mrs Mary,Ferris,,
+resident,North Street, B.,49,,John,Nolan,labourer,
+resident,North Street, B.,50,,George,Morris,moulder,
+resident,North Street, B.,51,,S.,Scard,corn warehouse,
+resident,North Street, B.,52,,Henry,Pearce,labourer,
+resident,North Street, B.,53,,Mrs Sarah A.,Lanfear,,
+resident,North Street, B.,54,,John,Hood,forgeman,
+resident,North Street, B.,55,,Henry,Lester,caretaker,
+resident,North Street, B.,56,,Mrs Mary,Lewis,,
+resident,North Street, B.,57,,Simeon,Scard,Gate cot
+resident,North Street, B.,,,Wm.,Collard,Carlisle cot
+street,Oak Street,,,,,,From 307 Caerleon-road to Durham-road.
+resident,Oak Street,1,,Albert,Winslade,shop,
+resident,Oak Street,3,,Ar.,Edwards,brick setter,
+resident,Oak Street,5,,,,,,
+resident,Oak Street,7,,V. W.,Woodcock,agent,
+resident,Oak Street,9,,Mrs Annie,Griffiths,,
+resident,Oak Street,11,,Thomas,Fryer,seaman,
+resident,Oak Street,13,,John R.,Edworthy,lab'rer,
+resident,Oak Street,15,,T. P.,Hutchings,shipwrgt,
+cross_street,Oak Street,,,,,,(return.)
+resident,Oak Street,16,,Charles,Jones,plasterer,
+resident,Oak Street,14,,Wm.,Williams,labourer,
+resident,Oak Street,12,,Jos.,Passwater,seaman,
+resident,Oak Street,10,,W. J.,Burnell,ins. agent,
+resident,Oak Street,8,,Alf. Geo.,Beavan,traveller,
+resident,Oak Street,6,,Wm. Hy.,Bearne,postman,
+resident,Oak Street,4,,Charles,Colegate,,
+resident,Oak Street,2,,Allan,Jones,carpenter,
+street,Oak Terrace,,,,,,From 7 Thomas-street.
+resident,Oak Terrace,1,,Thomas,Wixcey,,
+resident,Oak Terrace,2,,Mrs Emma,Clarke,,
+resident,Oak Terrace,3,,Edward,Evans,cellarman,
+resident,Oak Terrace,4,,A.,Horlock,signalman,
+resident,Oak Terrace,5,,Alfred,Abbott,labourer,
+resident,Oak Terrace,6,,Mrs Catherine,Buckle,,
+resident,Oak Terrace,7,,William,Gleyns,labourer,
+resident,Oak Terrace,8,,Henry,Wheeler,,
+resident,Oak Terrace,9,,Mrs Ann,West,,
+street,Oakfield Road,,,,,,See Clytha-park.
+street,Oaklands Road, M.,,,,,,See Kensington-place.
+street,Oakley Street,,,,,,Left-hand side Corporation-rd
+resident,Oakley Street,,,,,,Four houses building

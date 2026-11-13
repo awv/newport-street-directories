@@ -1,0 +1,124 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,Shaftesbury street,104,,Miss A.,Wilson,shop,
+resident,Shaftesbury street,102,,M. J.,Radford,grocer,
+resident,Shaftesbury street,100,,J.,Stroud,fish bar,
+resident,Shaftesbury street,98,,M.,Ash,pawnbroker,
+cross_street,Shaftesbury street,,,here is Wyndham-street,,,
+resident,Shaftesbury street,96,,Wm. H.,White,grocer,
+resident,Shaftesbury street,94,,Frank,Wade,picture frame maker [Ltd.,Cardiff Cold Storage Co.
+resident,Shaftesbury street,70,Crown Bakery,,Shaftesbury - st. - C. White,,
+resident,Shaftesbury street,68,,E. C.,White,grocer,
+resident,Shaftesbury street,66,,,,,Void
+resident,Shaftesbury street,64,,,Preedy & Saunders,fish bar,
+resident,Shaftesbury street,62,,,Osborne R. A.,furniture dealer,
+resident,Shaftesbury street,60,,,,,
+resident,Shaftesbury street,58,,C.,Whiting,hardware dlr.,
+resident,Shaftesbury street,56,,Frank,Knee,furniture dlr,
+resident,Shaftesbury street,54,Workmen's Reform Club,,,,
+resident,Shaftesbury street,52,,B.,Thomas,steward,
+resident,Shaftesbury street,50,,Rbt.,Wynn,steam haulage contractor & gen. carrier,
+resident,Shaftesbury street,46,,,Ware W. W. & Co., Ltd.,curriers, etc.
+resident,Shaftesbury street,44,,J. jun.,Pugsley,shoeing smith,
+resident,Shaftesbury street,42,,J.,Hammond,shop,
+resident,Shaftesbury street,,Newport Garage Ltd.,Jones's,,,
+resident,Shaftesbury street,40,,John,Graddon,engineer,
+resident,Shaftesbury street,,,John,Jenkins,window blind manufacturer,
+resident,Shaftesbury street,38,,A. M.,Pearce,hairdresser,
+resident,Shaftesbury street,36,,,Newcombe Bros.,crn dlrs,
+resident,Shaftesbury street,34,,S.,Vincent,manager,
+resident,Shaftesbury street,32,,F.,Hardy,cycle dealer,
+resident,Shaftesbury street,30,,,Giles & Williams,coach builders,
+resident,Shaftesbury street,,,Flock's,,herring stores,
+resident,Shaftesbury street,12,NEWPORT CASTLE,,,,
+resident,Shaftesbury street,8,,Mrs. R.,Morris,newsagt,
+resident,Shaftesbury street,6,,H.,Davies,proprietor,Shaftesbury Restaurant
+street,Shifnal Street,,,,,,E 3 Off Corporation-road.
+street,Sidney Street,,,,,,C 5 From 17 Tunnel-terrace.
+resident,Sidney Street,1,,Mrs. L.,Critchley,,
+resident,Sidney Street,2,,Henry,Pope,porter,
+resident,Sidney Street,3,,W.,Vincent,painter,
+resident,Sidney Street,4,,William,Hart,senior,
+resident,Sidney Street,5,,Jas.,Sellick,factory hand,
+cross_street,Sidney Street,,,[return],,,
+resident,Sidney Street,6,,E.L.,Boulter,coach builder,
+street,Skinner Street,,,,,,C 4 From 33 High-street.
+cross_street,Skinner Street,,,[LEFT HAND SIDE.],,,
+building,Skinner Street,,GLOUCESTER CHAMBERS,,,(See 33 High-street.)
+resident,Skinner Street,2,,,,,Bear, Brewer, and Bowman, auction'rs, valuers, &c.
+resident,Skinner Street,3,,Albt.,Lonnon,Ltd. tailors,
+resident,Skinner Street,4,,Miss A. M.,Harding,florist,
+resident,Skinner Street,5,,Shaw & Oliver,Manchester warehousemen,
+resident,Skinner Street,,,Joshua,Preston,wholesale clothier,
+resident,Skinner Street,6,,J.H. & Co.,Rennie,auctnrs,
+resident,Skinner Street,7,,Thomas,Leadbetter,L. & Co, coal merchants & colliery agents
+building,Skinner Street,,HIGHBURY CHAMBERS,,,,
+resident,Skinner Street,8,,Gardner & Herbert,,solitrs Offices of Caerleon Urban District Council
+resident,Skinner Street,,,Jas.,Clements,steel, iron and metal merchants,
+resident,Skinner Street,,,J. S.,Barrie,engineer,
+resident,Skinner Street,,,W. J.,Jenkins,engineer,
+resident,Skinner Street,9,,Jones & Godwin,,bakery engineers
+resident,Skinner Street,10,,W. J.,Pinnell,butcher,
+building,Skinner Street,,STOW CHAMBERS,,,,
+resident,Skinner Street,11,,Son & Co.,Kirby,civil engineers, architects, surveyors, ect.
+resident,Skinner Street,,,Capper & Co.,,wholesale provision merchants
+resident,Skinner Street,12,,C.H. & Co.,Burgess,auctioneers, etc., sale rooms and offices
+resident,Skinner Street,31,,H. & Son, Ltd.,Pooley,weighing machine mftrs
+building,Skinner Street,,BOROUGH CHAMBERS,,,,
+resident,Skinner Street,,,Alfred,Searle,solicitor,
+cross_street,Skinner Street,,,here is Dock-street.,,,
+building,Skinner Street,,SKINNER STREET CHAMBERS,,,,
+resident,Skinner Street,14,,Francis, Stanton,Morgan,& Parnall, solicitors
+resident,Skinner Street,,,Lime Stone Co., Ltd.,Ifton
+resident,Skinner Street,,,E. Clyde,Lewis,corn mer.
+resident,Skinner Street,15,,,Smiths Newport Ltd.,,,
+resident,Skinner Street,16,,,Smiths Newport Ltd.,flour millers, corn merchants and condiment manufacturers,
+resident,Skinner Street,17,,,Smiths Newport Ltd.,,,
+resident,Skinner Street,18,,,Smiths Newport Ltd.,,,
+cross_street,Skinner Street,,,[return],,,
+resident,Skinner Street,19,,J. & Co.,Herbert,tallow chandlers,
+resident,Skinner Street,20,,H. L.,Bramwell,[Castle Windsor
+resident,Skinner Street,21,,,Westgate Foundry and Ironworks,
+cross_street,Skinner Street,,,here is Skinner-lane.,,,
+resident,Skinner Street,22,,,Greenhouse & Co.,tailors, etc.
+building,Skinner Street,,ALBANY CHAMBERS,,,see Commercial-street.
+street,Slade Street,,,,,,C 3 Cromwell-road to Oakley-st.
+cross_street,Slade Street,,,[RIGHT HAND SIDE.],,,
+resident,Slade Street,1,,Edwin,Warren,ironworkr
+resident,Slade Street,3,,Samuel,Pitt,bricklayer
+resident,Slade Street,5,,Harry,Smith,ironworker
+resident,Slade Street,7,,Wm.,Webb,do.
+resident,Slade Street,9,,James,Ralph,do.
+cross_street,Slade Street,,,[return],,,
+resident,Slade Street,10,,Thos.,Wesson,do.
+resident,Slade Street,8,,Charles,Rooks,,
+resident,Slade Street,6,,Daniel,Mound,do.
+resident,Slade Street,4,,E. T.,Broom,labourer
+resident,Slade Street,2,,Henry,Dix,ironworker
+street,Slipway Cottages,,,,,,F 2 End of Corporation-road.
+street,Soho Street,,,,,,D 3 Dudley-street to Tipton-street
+street,Somerset Road,,,,,,C 3 Caerleon-rd to Christchurch-rd
+cross_street,Somerset Road,,,[LEFT HAND SIDE.],,,
+resident,Somerset Road,1,,T. H.,Pulsford,,
+resident,Somerset Road,3,,Harry,Price,engineer
+resident,Somerset Road,5,,Mrs.,Kershaw,,
+resident,Somerset Road,7,,H. H.,Francis,,
+resident,Somerset Road,9,,John E.,Harries,traveller
+resident,Somerset Road,11,,Mrs. M.,Griffiths,Sun'yside
+resident,Somerset Road,13,,S. H.,Spencer,Montpelier
+resident,Somerset Road,15,,Joseph A.,Prior,,
+resident,Somerset Road,17,,Henry,King,Penycefn
+resident,Somerset Road,19,,Frederick,Nutt,,
+resident,Somerset Road,21,,James,Jones,ironmonger
+resident,Somerset Road,23,,Mrs. B.,Cock,,
+resident,Somerset Road,25,,Arthur,Whitton,,
+resident,Somerset Road,27,,Oram,Bailey,Rylston
+resident,Somerset Road,29,,Henry,Marais,,
+resident,Somerset Road,31,,Arth. R.,Twist,Lyncombe
+resident,Somerset Road,33,,George,Walker,,
+resident,Somerset Road,35,,Mrs. E. L.,Kerr,Langland h
+resident,Somerset Road,37,,,,,Void
+resident,Somerset Road,39,,W. E.,Robertson,,
+resident,Somerset Road,41,,R. C.,Lamb,Oakdene
+resident,Somerset Road,43,,David,Edwards,Rhydri
+resident,Somerset Road,45,,H. J.,Charles,Hartpury
+resident,Somerset Road,47,,C. F.,Foster,,

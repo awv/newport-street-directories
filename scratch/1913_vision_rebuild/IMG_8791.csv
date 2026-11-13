@@ -1,0 +1,169 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,NORMAN STREET,,,,,,
+resident,NORMAN STREET,15,,Mrs. Florence,Chamberlain,,
+building,NORMAN STREET,,,Britannia Inn,,,
+cross_street,NORMAN STREET,,,,,,here is Wesley-place
+building,NORMAN STREET,,,CORPORATION BATHS,,,
+resident,NORMAN STREET,16,,Mrs. Lucy,Charles,,
+resident,NORMAN STREET,17,,A.,Bickley,cabinet maker,
+resident,NORMAN STREET,18,,Thomas,Carless,john
+cross_street,NORMAN STREET,,,,,,here is Havelock-street
+resident,NORMAN STREET,20,,Charles,Boucher,,
+resident,NORMAN STREET,21,,John P.,Wilson,traveller,
+cross_street,NORMAN STREET,,,,,,(return)
+cross_street,NORMAN STREET,,,,,,here is St. Mary-street
+resident,NORMAN STREET,22,,William,Nelson,grocer,
+resident,NORMAN STREET,23,,Aldwyn,Neile,eng. driver,
+resident,NORMAN STREET,24,,Void,,,
+resident,NORMAN STREET,25,,William,Morgan,butcher,
+resident,NORMAN STREET,26,,Arthur,Minchin,labourer,
+resident,NORMAN STREET,27,,Chas F.,Baker,crane dvr,
+resident,NORMAN STREET,28,,Mrs. Mary,Manship,,
+resident,NORMAN STREET,29,,Mrs. Annie C.,Allen,,
+resident,NORMAN STREET,30,,Geo.,Adams,attendant,
+resident,NORMAN STREET,31,,W. H.,Distin,gardener,
+resident,NORMAN STREET,32,,Mrs. Theresa,Boucher,,
+resident,NORMAN STREET,33,,William,Morgan,labourer,
+resident,NORMAN STREET,34,,Christopher,McCairn,,
+resident,NORMAN STREET,35,,Void,,,
+resident,NORMAN STREET,36,,John,Tugby,labourer,
+resident,NORMAN STREET,37,,James,Banks,tailor,
+resident,NORMAN STREET,38,,Mrs. Rhoda,Knight,,
+resident,NORMAN STREET,39,,Jno.,Hannan,,
+resident,NORMAN STREET,40,,Hy.,Banks,cellarman,
+resident,NORMAN STREET,41,,Void,,,
+cross_street,NORMAN STREET,,,,,,here is Scard-street
+resident,NORMAN STREET,42,,M. E.,Morgan,shopkeeper,
+resident,NORMAN STREET,43,,Mrs. Mary,Cole,,
+resident,NORMAN STREET,44,,Wm.,Brickley,ca etaker,
+resident,NORMAN STREET,45,,Albert,Evans,signal fitter,
+resident,NORMAN STREET,46,,John,Morrisey,,
+resident,NORMAN STREET,47,,Charles,Denny,,
+resident,NORMAN STREET,48,,Christian,Matson,seaman,
+resident,NORMAN STREET,49,,Wm.,Fidon,brewery hand,
+resident,NORMAN STREET,50,,Harry,Pearce,labourer,
+resident,NORMAN STREET,51,,A.,Scard,corn warehouse,
+resident,NORMAN STREET,52,,Void,,,
+resident,NORMAN STREET,53,,John,Jones,tailor,
+resident,NORMAN STREET,54,,C. H.,Reeves,labourer,
+resident,NORMAN STREET,55,,Arthur,Miles,hawker,
+resident,NORMAN STREET,56,,Miss Elizabeth,Lewis,,
+resident,NORMAN STREET,57,,Void,,,
+resident,NORMAN STREET,,Carlisle cot.,Harry,Baldwin,,
+resident,NORMAN STREET,,do.,Wm.,Collard,,
+resident,NORMAN STREET,,,,Whittaker Alf., Ltd.,printers,
+street,OAK STREET,B 2,,,,,From 307 Caerleon-road to Durham-road
+cross_street,OAK STREET,,,,,,[LEFT HAND SIDE.]
+resident,OAK STREET,,,H. R.,Griffiths,boot repair'r,
+resident,OAK STREET,1,,H.,Barnes,dispenser,
+resident,OAK STREET,3,,Mrs. E.,Waters,,
+resident,OAK STREET,5,,Hy.,Daw,joiner,
+resident,OAK STREET,7,,William E.,Minor,,
+resident,OAK STREET,9,,Geo. F.,Smith,decorator,
+resident,OAK STREET,11,,Thomas,Spruce,ironwkr,
+resident,OAK STREET,13,,Chas. Edward,Taylor,,
+resident,OAK STREET,,Fulford,Mrs. E.,Taylor,cert.midwife
+resident,OAK STREET,15,,Thos. P.,Hutchings,shipwright,
+building,OAK STREET,,,St. Julian's Steam Bakery,,,
+resident,OAK STREET,,,C. J.,Price,,
+cross_street,OAK STREET,,,,,,here is Durham-road
+cross_street,OAK STREET,,,,,,here is Sutton-road
+resident,OAK STREET,,,William O.,Roberts,Donnington
+cross_street,OAK STREET,,,,,,here is Stockton-road
+cross_street,OAK STREET,,,,,,(return)
+resident,OAK STREET,,,Vacant sites,,,
+resident,OAK STREET,26,,William,Dunning,shipwgt,
+resident,OAK STREET,24,,George,Tucker,carpenter,
+cross_street,OAK STREET,,,,,,here is Stockton-road
+resident,OAK STREET,20,,Fredk. Chas.,Wall,,
+cross_street,OAK STREET,,,,,,here is Sutton-road
+resident,OAK STREET,18,,William,Powell,eng. dvr.
+cross_street,OAK STREET,,,,,,here is Durham-road
+resident,OAK STREET,16,,Jos. Edward,Birch,,
+resident,OAK STREET,10,,William,Roberts,balckn sheet weigher
+resident,OAK STREET,14,,Wm.,Williams,labourer,
+resident,OAK STREET,12,,Joseph,Passwater,seaman,
+resident,OAK STREET,10,,Wm.,Roberts,blacksmith,
+resident,OAK STREET,8,,Mrs. James,Owen,,
+resident,OAK STREET,6,,Alfred J.,Watkins,carptr,
+resident,OAK STREET,4,,Charles,Colegate,waiter,
+resident,OAK STREET,2,,Chas. H.,Samuel,greengrcr,
+street,OAK TERRACE,C 4,,,,,From 7 Thomas-street
+resident,OAK TERRACE,1,,Mrs.,Rodway,,
+resident,OAK TERRACE,2,,Void,,,
+resident,OAK TERRACE,3,,Walter,Knight,G.W.R.
+resident,OAK TERRACE,4,,Mrs. Ann,West,,
+resident,OAK TERRACE,5,,Alfred,Hubbard,,
+resident,OAK TERRACE,6,,Samuel,Case,,
+resident,OAK TERRACE,7,,George,Brooks,labourer,
+resident,OAK TERRACE,8,,Henry,Wheeler,,
+resident,OAK TERRACE,9,,Alfred E.,Chivers,,
+street,OAKFIELD ROAD,C 5,,,,, (Clytha Park)
+cross_street,OAKFIELD ROAD,,,,,,(RIGHT HAND SIDE.)
+resident,OAKFIELD ROAD,2,Daisy lawn,W. J.,Bailey,,
+resident,OAKFIELD ROAD,4,Glenview,W. J.,Fox,,
+resident,OAKFIELD ROAD,6,Bryn-clytha,E. A.,Hammond,,
+resident,OAKFIELD ROAD,8,Ty-melyn,E. B.,Newman,,
+cross_street,OAKFIELD ROAD,,,,,,here is Parkfield-place
+resident,OAKFIELD ROAD,10,Tynemouth,Andrew,Simpson,,
+cross_street,OAKFIELD ROAD,,,,,,here is Hilla-road
+resident,OAKFIELD ROAD,,,John,Davies,,
+resident,OAKFIELD ROAD,20,The Mount,A. J.,Phillips,,
+resident,OAKFIELD ROAD,22,,Williams R. P.,solictr,Ford
+resident,OAKFIELD ROAD,24,,Thomas,Oswald,,
+resident,OAKFIELD ROAD,26,Oakhurst-void,,,,
+resident,OAKFIELD ROAD,28,,Fred. J.,Dawson,,
+resident,OAKFIELD ROAD,30,,T. H.,Railton,,
+resident,OAKFIELD ROAD,30,,Mrs. S.,Smith,,
+resident,OAKFIELD ROAD,34,,Benj.,Williams,Blaenpant
+resident,OAKFIELD ROAD,36,,H.,Sanders,,
+resident,OAKFIELD ROAD,38,,J. O. K.,Gething,Olinda
+resident,OAKFIELD ROAD,40,,Mrs. W.,Roberts,Strathclyde
+cross_street,OAKFIELD ROAD,,,,,,here is Llwydewri-road
+resident,OAKFIELD ROAD,42,,G.,Kerslake,Glynarthen
+resident,OAKFIELD ROAD,44,,Francis,Hole,Helmecroft
+resident,OAKFIELD ROAD,46,,Edwd.,Cooper,Sharuben
+resident,OAKFIELD ROAD,48,,T. E.,Serjent,Arosfa
+resident,OAKFIELD ROAD,50,,Thos. E.,Alger,The Dingle
+resident,OAKFIELD ROAD,52,,Rev. C. A.,Strange,Ty-nant
+cross_street,OAKFIELD ROAD,,,,,,here is Tyllwyd-road
+resident,OAKFIELD ROAD,54,,W. G.,Parkes,Dargle
+resident,OAKFIELD ROAD,,,Vacant sites,,,
+resident,OAKFIELD ROAD,60,ST. JOHN BAPTIST MISSION HOUSE-(The Clewer Sisters),Sister Elise Jane,sister superior,
+resident,OAKFIELD ROAD,62,St. John's Vicarage,Rev. J. F.,Summers,,
+cross_street,OAKFIELD ROAD,,,,,,here is Risca-road
+cross_street,OAKFIELD ROAD,,,,,,(return) [lands
+resident,OAKFIELD ROAD,99,The Wye-,E. G.,Daniel,,
+resident,OAKFIELD ROAD,97,Ivanhoe,Alfred,Newland,,
+resident,OAKFIELD ROAD,95,The Nutshel,W.,Morgan,,
+resident,OAKFIELD ROAD,93,Garthcelyn,Percy,Phillips,,
+resident,OAKFIELD ROAD,91,Jesmond [house,Watkin,Davies,,
+resident,OAKFIELD ROAD,89,,A. G.,Arnold,,
+resident,OAKFIELD ROAD,87,,Mrs. J.,Wood,Martin
+resident,OAKFIELD ROAD,85,,James,Griffiths,Henry
+resident,OAKFIELD ROAD,83,,W. J.,Jones,Lansdowne
+resident,OAKFIELD ROAD,81,Little Haven,W. J.,Collins,Townsend
+resident,OAKFIELD ROAD,79,,Miss Olive,Hewertson,,
+cross_street,OAKFIELD ROAD,,,,,,(new road)
+resident,OAKFIELD ROAD,77,,L. C.,Corfield,,
+resident,OAKFIELD ROAD,,,Vacant sites,,,
+resident,OAKFIELD ROAD,49,,G. H.,Tovey,undertaker,
+resident,OAKFIELD ROAD,47,Brocklebank,Thomas,Morgan,,
+cross_street,OAKFIELD ROAD,,,,,,here is Hilla-road
+resident,OAKFIELD ROAD,45,Pendennis,T. H.,Howell,,
+resident,OAKFIELD ROAD,43,Inglenook,Arth. S. B.,Graham,,
+resident,OAKFIELD ROAD,,,Mrs. A.,Philps,,
+resident,OAKFIELD ROAD,,,Vacant sites,,,
+resident,OAKFIELD ROAD,25,Glynneath,Hy.,Vaughan,,
+resident,OAKFIELD ROAD,,,Vacant sites,,,
+resident,OAKFIELD ROAD,19,Derwen,A. W.,Payne,,
+resident,OAKFIELD ROAD,17,Morven,Alex.,Oliver,,
+resident,OAKFIELD ROAD,15,Standean,H.,Caplan,,
+resident,OAKFIELD ROAD,13,Osmaston,Maurice,Allen,,
+resident,OAKFIELD ROAD,11,Brenholly,Ernest,White,,
+resident,OAKFIELD ROAD,9,Brenhilda,Mrs.,Bevan,,
+street,OAKLANDS ROAD,D 3,,,,,See Kensington-place
+street,OAKLEY STREET,E 3,,,,,Left-hand side Corporation-rd.
+cross_street,OAKLEY STREET,,,,,,[RIGHT HAND SIDE.]
+resident,OAKLEY STREET,2,,Mary Jane,Smith,,
+resident,OAKLEY STREET,4,,Francis,Hornby,ironwkr

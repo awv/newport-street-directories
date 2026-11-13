@@ -1,0 +1,160 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,WEDNESBURY ST.,,,,,,E 3
+cross_street,WEDNESBURY ST.,,,,,,Left hand side Corporation-rd. (LEFT HAND SIDE.)
+resident,WEDNESBURY ST.,1,,Austin,Redman,ironwkr,
+resident,WEDNESBURY ST.,3,,William,Lovell,do,
+resident,WEDNESBURY ST.,5,,James,Thornbury,dvr.,
+resident,WEDNESBURY ST.,7,,Albert,Lane,,
+cross_street,WEDNESBURY ST.,,,,,,(return)
+resident,WEDNESBURY ST.,,,,,,Vacant sites
+resident,WEDNESBURY ST.,12,,Thomas,Hill,ironworker,
+resident,WEDNESBURY ST.,10,,Thos.,Vincent,do,
+resident,WEDNESBURY ST.,8,,George,Rogers,,
+resident,WEDNESBURY ST.,6,,,,,Void
+resident,WEDNESBURY ST.,4,,Isaac,Morgan,Fdk. i.w.,
+resident,WEDNESBURY ST.,2,,George,Green,haulier,
+street,WELLINGTON ST.,,,,,,E 3
+cross_street,WELLINGTON ST.,,,,,,Off Corporation-road
+resident,WELLINGTON ST.,,,,,,Void
+resident,WELLINGTON ST.,,,,,,Void
+street,WESLEY CHAMBERS.,,,,,,
+cross_street,WESLEY CHAMBERS.,,,,,,See 157 Commercial-street
+street,WESLEY PLACE.,,,,,,D 5
+cross_street,WESLEY PLACE.,,,,,,From 42 Stow-hill
+resident,WESLEY PLACE.,1,,Chas.,Turner,bricklayer,
+resident,WESLEY PLACE.,2,,George,Parsons,guard,
+street,WESTGATE CHAMBERS.,,,,,,
+cross_street,WESTGATE CHAMBERS.,,,,,,172 & 174 Commercial-street
+street,WEST MARKET ST.,,,,,,E 4
+cross_street,WEST MARKET ST.,,,,,,From Albert-st. to Dolphin-st.
+resident,WEST MARKET ST.,1,,Geo.,Farr,labourer,
+resident,WEST MARKET ST.,2,,John,Brace Rd.,labourer,
+resident,WEST MARKET ST.,3,,Saml. R.,Coombs,storekpr,
+resident,WEST MARKET ST.,4,,Mrs.,King,,
+resident,WEST MARKET ST.,5,,Jas.,Dawes,railway check'r,
+resident,WEST MARKET ST.,6,,George,Robbins,hawker,
+resident,WEST MARKET ST.,,,,Prosser,George,builder,
+street,WEST PARK.,,,,,,C 6
+cross_street,WEST PARK.,,,,,,Right of Bassalleg-road See Ombersley, Upton, and West Park-roads
+street,WEST PARK ROAD.,,,,,,C 6
+cross_street,WEST PARK ROAD.,,,,,,From 36 Bassalleg-road (RIGHT HAND SIDE.)
+resident,WEST PARK ROAD.,2,,Mrs. Jeanette,Thomas,,
+resident,WEST PARK ROAD.,4,,Thomas,Chicken,,
+resident,WEST PARK ROAD.,6,,F. W.,Spencer,Twyford
+resident,WEST PARK ROAD.,8,,Henry W.,Beaven,,
+resident,WEST PARK ROAD.,10,,Wm. R.,Winter,printer
+resident,WEST PARK ROAD.,12,,Hy. W.,Jones,Clodagh ho
+resident,WEST PARK ROAD.,14,,Thos.,Davies,Pemberton
+resident,WEST PARK ROAD.,16,,G. E. S.,Heybryne,Highclere
+resident,WEST PARK ROAD.,18,,,,,Void
+resident,WEST PARK ROAD.,20,,A. F. & O.,Morris,,
+resident,WEST PARK ROAD.,22,,B. W.,Weaver,,
+resident,WEST PARK ROAD.,24,,W. C.,Baddeley,,
+resident,WEST PARK ROAD.,26,,Thomas O.,Griffiths,,
+resident,WATERLOO ROAD.,35,Alexandra Dock Hotel,,A. Thomas,proprietor,Entrance to Alexandra Dock
+street,WATERLOO ROAD.,,,,,,D 5
+cross_street,WATERLOO ROAD.,,,,,,Cardiff-road to Stow Park av.
+resident,WATERLOO ROAD.,1,,John,Appleby,Gaer cot
+resident,WATERLOO ROAD.,2,,John,Davies,Patterdale
+resident,WATERLOO ROAD.,3,,H. J.,Lanfear,Osland ho
+resident,WATERLOO ROAD.,4,,Hugh Jas.,Brown,Hillside
+resident,WATERLOO ROAD.,5,,Wm.,Bowen,Raymond ho
+resident,WATERLOO ROAD.,6,,C. J.,Southcliffe,Boodnant
+cross_street,WATERLOO ROAD.,,,,,,here is Gaer-street
+resident,WATERLOO ROAD.,7,,Mrs. M.,Davies,Belmont
+resident,WATERLOO ROAD.,8,,Wm. J.,Pearce,Parkfield
+resident,WATERLOO ROAD.,9,,Wm.,Turberville,Rylstone
+resident,WATERLOO ROAD.,10,,Mrs. J.,Thompson,Waterloo house
+resident,WATERLOO ROAD.,11,,,,,Void
+resident,WATERLOO ROAD.,12,,,,,Void
+resident,WATERLOO ROAD.,13,,Mrs. A.,Knight,Channel view
+resident,WATERLOO ROAD.,14,,F. W.,Cutcliffe,Greyville
+resident,WATERLOO ROAD.,15,,Wm.,Francis,South view
+resident,WATERLOO ROAD.,16,,John,Stewart Vaughan,Essex house
+resident,WATERLOO ROAD.,17,,Fred.,Jones,Harbour view
+resident,WATERLOO ROAD.,18,,Wm.,Parkes,Fair view
+resident,WATERLOO ROAD.,19,,John,Lyle,Penmorva
+resident,WATERLOO ROAD.,20,,Dd. Robt.,Evans,Parkside
+resident,WATERLOO ROAD.,21,,Wm.,Ray,pilot,Cresselly
+resident,WATERLOO ROAD.,22,,Robt.,Radley,Fields view
+resident,WATERLOO ROAD.,23,,Wm.,Griffiths,Danesbury house
+resident,WATERLOO ROAD.,24,,Robert James,Fowler,,
+resident,WATERLOO ROAD.,25,,Wm.,Richards,Cranfield h
+resident,WATERLOO ROAD.,26,,James,Dobbie,,
+resident,WATERLOO ROAD.,27,,G. H.,Jones,Clovelly
+resident,WATERLOO ROAD.,28,,Rev. Nath.,Rees,Rio Vista
+resident,WATERLOO ROAD.,29,,John L.,Paynter,Penparc
+resident,WATERLOO ROAD.,30,,Ivor Morris,Edmunds,,
+resident,WATERLOO ROAD.,31,,Rev. Thos. B.A.,Wright,Fernbank
+resident,WATERLOO ROAD.,32,,A. R.,Griffiths,,
+resident,WATERLOO ROAD.,33,,Curtis F.,Smythe,,
+cross_street,WATERLOO ROAD.,,,,,,here is Llandaff-street
+resident,WATERLOO ROAD.,34,,Mrs. F. M.,Jenkins,Tamworth
+resident,WATERLOO ROAD.,35,,John,Gilmore,Deepholm
+resident,WATERLOO ROAD.,36,,Edgar George,Nicholls,Haywardsfield
+resident,WATERLOO ROAD.,37,,Miss E. I.,Morgan,Penrhiw
+cross_street,WATERLOO ROAD.,,,,,,here is Stow Park-avenue
+street,BELLE VUE PARK,,,,,,
+street,WATERS LANE.,,,,,,D 5
+cross_street,WATERS LANE.,,,,,,From 32 Stow-hill
+resident,WATERS LANE.,1,,Albert,Thomas,,
+resident,WATERS LANE.,2,,St. Woolos Mission Room,,,
+resident,WATERS LANE.,3,,Sister Scourfield,,,parochial nurse
+resident,WAR.,5,,Isaac,Gilmore,,
+resident,WAR.,7,,Watson,Hemmings,Carter
+resident,WAR.,9,,Samuel,Pursehouse,,
+resident,WAR.,11,,Hy.,Cooke,engineer
+resident,WAR.,13,,Mrs. A. J.,Price,,
+resident,WAR.,15,,Miss Elizabeth,Wilde,,
+resident,WAR.,17,,William John,Capper,,
+resident,WAR.,19,,Ernest,Aston,ironworker
+resident,WAR.,21,,Miss Ada Mary,Jones,,
+resident,WAR.,23,,Herbert George,Senior,,
+resident,WAR.,25,,Norman D.,Brant,,
+resident,WAR.,27,,Frederick G.,Mills,,
+cross_street,WAR.,,,,,,Vacant sites (return)
+cross_street,WAR.,,,,,,Vacant sites
+resident,WAR.,28,,Isaac Alfred,Jones,,
+resident,WAR.,26,,Mrs. M. H.,Johns,,
+resident,WAR.,24,,Edward Jas.,Saunders,,
+resident,WAR.,22,,Thos.,Lamb,marine eng'r
+resident,WAR.,20,,Miss Ellen,Knight,,
+resident,WAR.,18,,Benjamin,Bristow,,
+resident,WAR.,16,,Harold,Webster,,
+resident,WAR.,14,,William H.,Richards,,
+resident,WAR.,12,,Miss Florence E.,Fry,,
+resident,WAR.,10,,A. C.,Kendrick,,
+resident,WAR.,8,,Percy,Hulley,cashier
+resident,WAR.,6,,Frank,Greathead,,
+resident,WAR.,4,,Thomas W.,Stevenson,,
+resident,WAR.,2,,Alfred E.,Isaacs,,
+street,WATCHHOUSE PAR.,,,,,,F 5
+cross_street,WATCHHOUSE PAR.,,,,,,From Mill-parade
+resident,WATCHHOUSE PAR.,1,,Abraham,Foyle,fitter
+resident,WATCHHOUSE PAR.,2,,Wm.,Phillis,fuel worker
+resident,WATCHHOUSE PAR.,3,,Geo.,Phillis,fuel worker
+resident,WATCHHOUSE PAR.,4,,Wm.,Yendall,coal trim'r
+resident,WATCHHOUSE PAR.,5,,John,Mitchell,labourer
+resident,WATCHHOUSE PAR.,,Waterloo Hotel,T.,Ellis,restaurant
+cross_street,WATCHHOUSE PAR.,,,,,,here is Alexandra-road
+resident,WATCHHOUSE PAR.,13,,T.,Minnett,restaurant
+resident,WATCHHOUSE PAR.,14-15,,Tuck & Co., Ltd.,,India rubber merchants
+resident,WATCHHOUSE PAR.,16,,S.,Thorn,manager
+resident,WATCHHOUSE PAR.,17,,& Co.,Ward,butchers
+resident,WATCHHOUSE PAR.,18,,& Co.,Wolfe,family grocers
+resident,WATCHHOUSE PAR.,19,,Richard,Brunt,butcher
+resident,WATCHHOUSE PAR.,20-21,,,,,Void
+resident,WATCHHOUSE PAR.,22,,Alfred,Powell,trimmer
+resident,WATCHHOUSE PAR.,23,,Agius,Ostolozagu,,
+cross_street,WATCHHOUSE PAR.,,,,,,here is Wolseley-street
+resident,WATCHHOUSE PAR.,24,,Samuel,Dodge,,
+resident,WATCHHOUSE PAR.,25,,Chas.,Ebsworth,pilot
+resident,WATCHHOUSE PAR.,26,,Simon,Jordan,labourer
+resident,WATCHHOUSE PAR.,27,,Uriah V.,Swift,,
+resident,WATCHHOUSE PAR.,28,,Robert,Crawford,,
+resident,WATCHHOUSE PAR.,29,,Hy.,Morgan,rigger
+resident,WATCHHOUSE PAR.,30,,& Son,Swift,cab proptrs
+resident,WATCHHOUSE PAR.,,Uriah, senr.,Swift,,
+resident,WATCHHOUSE PAR.,31,,W. & Son,Morgan,mat and bag merchants
+resident,WATCHHOUSE PAR.,32-34,,T. & Co., Ltd.,Dawson,ship chandlers
+resident,WATCHHOUSE PAR.,,,C.,Robins,warehouseman

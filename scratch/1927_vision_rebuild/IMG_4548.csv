@@ -1,0 +1,145 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,PENTONVILLE,,,,,,continued
+resident,PENTONVILLE,10a,,,W. M.,Evans,hairdresser,
+resident,PENTONVILLE,11,,,Wm.,James,greengrocer,
+resident,PENTONVILLE,12,,,Geo. P.,Thomas,,
+resident,PENTONVILLE,,,,Mrs. Sarah,Lewis,,
+resident,PENTONVILLE,13,,,T. W. J.,Tamplin,bootmaker,
+resident,PENTONVILLE,14,,,Foster & Baker,Foster & Baker,newsagts and tobacconists,
+resident,PENTONVILLE,15,,,Mrs. Catherine,Thomas,,
+resident,PENTONVILLE,16,,,Tom,Smith,,
+resident,PENTONVILLE,17,,,Mrs. H. W.,Morrish,,The Lindens
+resident,PENTONVILLE,18,,,C. H.,Thomas,,Eccleston
+street,PENYLAN PARK,D 2,,,,,Left-hand side Chepstow-road near Cross Hands
+street,PENYLAN ROAD,,,,,,Off Beechwood-road (LEFT HAND SIDE)
+resident,PENYLAN ROAD,1,,,Mrs. Agnes,Nash,,
+resident,PENYLAN ROAD,3,,,Alfred,Parlo,tailor,
+resident,PENYLAN ROAD,5,,,Void,,,
+resident,PENYLAN ROAD,7,,,Void,,,
+resident,PENYLAN ROAD,9,,,W.,Codlin,police sergeant,Millmore
+resident,PENYLAN ROAD,11,,,W.,Goldsworthy,,Cranleigh
+resident,PENYLAN ROAD,,,,Frederick,Brown,manager,Double View
+resident,PENYLAN ROAD,,,,Arthur C.,Hobbs,,Dorrington
+resident,PENYLAN ROAD,,,,A.,Hawes,P.O.,The Beeches
+resident,PENYLAN ROAD,,,,Arthur,Panting,,Vaynor
+resident,PENYLAN ROAD,,4 houses void,,,,
+resident,PENYLAN ROAD,,,,Jas. W.,Gray,plumber,Melita
+resident,PENYLAN ROAD,,,,Wm. J.,Dix,lino operator,Wyoming
+resident,PENYLAN ROAD,,,,Charles,Coles,,Westholme
+resident,PENYLAN ROAD,,2 houses building,,,,
+cross_street,PENYLAN ROAD,,,,,,"here is Gibbs-road"
+cross_street,PENYLAN ROAD,,,,,,"(return)"
+cross_street,PENYLAN ROAD,,,,,,"here is Beechwood-crescent"
+resident,PENYLAN ROAD,,Vacant sites,,,,
+resident,PENYLAN ROAD,,,,J. Surtees,Watchman,,Westoe
+resident,PENYLAN ROAD,,,,Robt. L.,Watchman,,Glencairn
+resident,PENYLAN ROAD,,,,Thos.,Westwood,elec,Riga
+resident,PENYLAN ROAD,,,,Harold,Kenney,clk,Linacre
+resident,PENYLAN ROAD,,,,W. A. B.,Whitehead,,Highbury
+resident,PENYLAN ROAD,,,,Mrs. Cibyl,Brooks,,Instow
+street,PHILLIP STREET,D 3,,,,,From Wharf-road (RIGHT HAND SIDE)
+resident,PHILLIP STREET,1,,,Mrs. E. M.,Stevens,,
+resident,PHILLIP STREET,2,,,George,Mincher,ironwkr,
+resident,PHILLIP STREET,3,,,John,Clarke,labourer,
+resident,PHILLIP STREET,4,,,William,Vick,labourer,
+resident,PHILLIP STREET,5,,,W. J.,Cooper,shearer,
+resident,PHILLIP STREET,6,,,John,Haswell,labourer,
+resident,PHILLIP STREET,7,,,Arthur,Haswell,moulder,
+resident,PHILLIP STREET,8,,,Victor,Roberts,,
+resident,PHILLIP STREET,8,,,Victor E.,Lane,,
+resident,PHILLIP STREET,9,,,Thos.,Hood,moulder,
+resident,PHILLIP STREET,10,,,A. A.,Allsopp,railwayman,
+resident,PHILLIP STREET,11,,,F. H.,Harwood,porter,
+resident,PHILLIP STREET,12,,,Frank,Fennell,,
+resident,PHILLIP STREET,13,,,Sidney,Perrett,guard,
+resident,PHILLIP STREET,14,,,Peter,Drave,labourer,
+resident,PHILLIP STREET,15,,,Mrs. Sophia,Haswell,,
+resident,PHILLIP STREET,16,,,Dl.,Axton,furnaceman,
+resident,PHILLIP STREET,17,,,Fred,Peters,labourer,
+resident,PHILLIP STREET,18,,,John,Bowkett,salesman,
+resident,PHILLIP STREET,19,,,Thomas,Holland,mason,
+street,PILLGWENLLY,D 2,,,,,more commonly called ""Pill,"" is the name given to the southern extremity of the town, and includes nearly the whole of Commercial-road, with the streets abutting on either side.
+street,POPLAR ROAD,E 2,,,,,SOMERTON GARDENS ESTATE From Acacia-avenue (LEFT HAND SIDE)
+resident,POPLAR ROAD,1,,,G. W.,Haslett,Minerva,
+resident,POPLAR ROAD,3,,,Thomas,Ridd,mason,
+resident,POPLAR ROAD,5,,,Jack,Pearce,railwayman,
+resident,POPLAR ROAD,7,,,Ed.,Studley,railwayman,
+cross_street,POPLAR ROAD,,,,,,"(return)"
+resident,POPLAR ROAD,8,,,Anthony,Morgan,blsmith,
+resident,POPLAR ROAD,6,,,Edward,Hunt,motorman,
+resident,POPLAR ROAD,4,,,Frederick,Waggett,,
+resident,POPLAR ROAD,2,,,Oswald P.,Matty,,
+street,POOL LANE,C 3,,,,,Off Orchard-st.
+resident,POOL LANE,,,,,Smith's furniture stores,,
+street,PORTLAND STREET,E 4,,,,,From 89 Commercial-road (LEFT HAND SIDE)
+resident,PORTLAND STREET,1-3,,,J. S.,Kerslake,Newport Mills,
+resident,PORTLAND STREET,,,,,,UNITED METHODIST CH.,
+resident,PORTLAND STREET,4,,,Geo. Daniel,Wallace,labr,
+resident,PORTLAND STREET,5,,,James,Pring,engineer,
+resident,PORTLAND STREET,6,,,Henry,Huish,labourer,
+resident,PORTLAND STREET,7,,,Mrs. Clara,Gladwell,,
+resident,PORTLAND STREET,7a,,,Mrs. Annie,Fletcher,dressmaker,
+resident,PORTLAND STREET,8,,,Victor,Roberts,,
+resident,PORTLAND STREET,9,,,Fredk.,Agland,labourer,
+resident,PORTLAND STREET,9,,,Thos.,Francis,moulder,
+resident,PORTLAND STREET,10,,,Mrs. Ellen,Carey,,
+resident,PORTLAND STREET,11,,,James,Lewis,,
+resident,PORTLAND STREET,12,,,Miss Henrietta,Hignell,,
+resident,PORTLAND STREET,13,,,Wm.,Berrow,blacksmith,
+resident,PORTLAND STREET,13a,,,William,Berrow,gen shop,
+resident,PORTLAND STREET,14,,,Richard,Foster,,Church House
+cross_street,PORTLAND STREET,,,,,,"here is Broad-street"
+resident,PORTLAND STREET,,,,White & Jewell Ltd.,White & Jewell Ltd.,carriage builders,
+resident,PORTLAND STREET,15,,,Mrs. Ellen,Went,,
+resident,PORTLAND STREET,16,,,John,Neal,labourer,
+resident,PORTLAND STREET,17,,,Mrs. E. E.,Lowe,,
+resident,PORTLAND STREET,18,,,Geo.,Lloyd,boilermaker,
+resident,PORTLAND STREET,19,,,John,White,rigger,
+resident,PORTLAND STREET,,,,Mrs. Annie,White,shop,
+resident,PORTLAND STREET,20,,,John,Cashman,moulder,
+resident,PORTLAND STREET,21,,,John,Stuart,labourer,
+resident,PORTLAND STREET,22,,,Thomas,Foley,guard,
+resident,PORTLAND STREET,23,,,R. G.,French,painter,
+resident,PORTLAND STREET,24,,,Mrs. M.,O'Rourke,,
+resident,PORTLAND STREET,25,,,Thos.,Gibson,crane driver,
+resident,PORTLAND STREET,26,,,Mrs. Florence,Gill,,
+resident,PORTLAND STREET,27,,,John,Lee,moulder,
+resident,PORTLAND STREET,,Jordan's Ltd.,Pillgwenlly Foundry,,Jordan's Ltd.,,Tel. 2000
+cross_street,PORTLAND STREET,,,,,,"here is Potter's Parade"
+cross_street,PORTLAND STREET,,,,,,"(return)"
+resident,PORTLAND STREET,,Mahoney James & Co.,,,Mahoney James & Co.,marine stores,
+cross_street,PORTLAND STREET,,,,,,"here is Castle-street"
+cross_street,PORTLAND STREET,,,,,,"here is Trinity-place"
+resident,PORTLAND STREET,31,,,Keefe Bros.,Keefe Bros.,haulage contractors & charabanc ptrs,
+resident,PORTLAND STREET,,,,W. C.,Houghton,undertkr,
+resident,PORTLAND STREET,32,,,Charles A.,Hughes,labr,
+resident,PORTLAND STREET,33,,,John,Mahoney,rigger,
+resident,PORTLAND STREET,34,,,Henry,Keen,eng. driver,
+resident,PORTLAND STREET,35,,,Mrs. Charlotte,Jeanes,,
+resident,PORTLAND STREET,,,,Dennis,Mahoney,trimmer,
+resident,PORTLAND STREET,36,,,Hy. Thos.,Kelly,labourer,
+resident,PORTLAND STREET,37,,,Sidney,Quinton,G.W.R.,
+resident,PORTLAND STREET,38,,,Mrs. Mary,Walsh,,
+resident,PORTLAND STREET,39,,,Frank H.,Johnson,boatman,
+resident,PORTLAND STREET,40,,,Walter,Heard,James,
+resident,PORTLAND STREET,41,,,Mrs. Mary A.,Griffin,,
+resident,PORTLAND STREET,42,,,Stephen T. G.,Cleverly,,
+resident,PORTLAND STREET,43,,,Frank,Warren,labourer,
+resident,PORTLAND STREET,44,,,Mrs. Hannah,Powell,,
+resident,PORTLAND STREET,,,,,,PILLGWENLLY CHURCHMAN'S BIBLE CLASS,
+street,PORTSKEWETT ST.,E 3,,,,,Corporation-road (from Gaskell-street) (RIGHT HAND SIDE)
+resident,PORTSKEWETT ST.,1,,,Frank,Wheeler,milkman,
+resident,PORTSKEWETT ST.,3,,,Albert,Bishop,,
+resident,PORTSKEWETT ST.,5,,,Mrs. Mary,Potts,,
+resident,PORTSKEWETT ST.,7,,,Geo.,Mills,ironworker,
+resident,PORTSKEWETT ST.,9,,,M. jumr.,Windsor,ironwkr,
+resident,PORTSKEWETT ST.,11,,,John,Callaghan,,
+resident,PORTSKEWETT ST.,13,,,Harry,Gibson,William,
+resident,PORTSKEWETT ST.,15,,,Jos.,Tennant,ironworker,
+resident,PORTSKEWETT ST.,17,,,David,Howse,ironworker,
+resident,PORTSKEWETT ST.,19,,,Mrs. E.,Noonan,,
+resident,PORTSKEWETT ST.,21,,,Joseph,Pratten,labourer,
+resident,PORTSKEWETT ST.,23,,,John,Jones,ironworker,
+resident,PORTSKEWETT ST.,25,,,Edward,Lowe,ironwkr,
+cross_street,PORTSKEWETT ST,,,,,,"here is Gaskell-street"
+resident,PORTSKEWETT ST.,27,,,Alfred,Hodder,,

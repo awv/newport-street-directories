@@ -1,0 +1,141 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Broad Street, P.,,,,,,"From 22 Frederick-street to Portland-street."
+resident,Broad Street, P.,,,Pope Wm.,,plasterer's yard,
+resident,Broad Street, P.,1,,Bridge John,,labourer,
+resident,Broad Street, P.,2,,Tucker John,,moulder,
+resident,Broad Street, P.,3,,Pullen Arthur G.,,labourer,
+resident,Broad Street, P.,4,,Davies Mrs.,Ann,,
+resident,Broad Street, P.,5,,Price Mrs.,Ann,,
+resident,Broad Street, P.,6,,Jacobson Wm.,,boilermaker,
+resident,Broad Street, P.,7,,Vella Frank,,seaman,
+resident,Broad Street, P.,8,,Mackie James,,steward,
+resident,Broad Street, P.,28,,Mullington Robt.,,hawker,
+resident,Broad Street, P.,29,,Maxfield George,,haulier,
+resident,Broad Street, P.,30,,Price Charles,,mason,
+resident,Broad Street, P.,31,,Knowles Jas.,,carpenter,
+resident,Broad Street, P.,32,,Daniel Mrs.,Margaret,,
+resident,Broad Street, P.,33,,Cooper Fredk. J.,,master mariner,
+resident,Broad Street, P.,34,,Tyler Wm.,,ironworker,
+resident,Broad Street, P.,35,,Hansen C.,,steward,
+resident,Broad Street, P.,36,,Richards Frank,,platelayer,
+resident,Broad Street, P.,37,,Bull Henry,,fitter,
+resident,Broad Street, P.,38,,Kelynack T. H.,,cab't mkr,
+resident,Broad Street, P.,39,,Jones Jno.,Alfd.,carpenter,
+resident,Broad Street, P.,40,,Marshall John,,draper,
+cross_street,Broad Street, P.,,,,,,(return.)
+cross_street,Broad Street, P.,,,,,,"here is London-street."
+resident,Broad Street, P.,42,,Void,,,
+resident,Broad Street, P.,43,,Hodges Jonathan,,for'mn,
+resident,Broad Street, P.,44,,Bevan Geo.,,steward,
+resident,Broad Street, P.,45,,Brittan S.,,patternmaker,
+resident,Broad Street, P.,46,,Giddings Robt.,,gardener,
+resident,Broad Street, P.,47,,Owen Wm.,,plasterer,
+resident,Broad Street, P.,48,,Williams Elijah,,carpenter,
+resident,Broad Street, P.,49,,Hopkins John,,gas works,
+resident,Broad Street, P.,50,,Slocombe Geo.,,labourer,
+resident,Broad Street, P.,51,,Noble Alfred J.,,policeman,
+resident,Broad Street, P.,52,,Greenslade John,,smith,
+resident,Broad Street, P.,53,,Barnett James,,tailor,
+resident,Broad Street, P.,54,,Bird Alfd. Jas.,,carpenter,
+resident,Broad Street, P.,55,,Blackwell Hy.,,carpenter,
+resident,Broad Street, P.,56,,Turner Jos.,,signal fitter,
+resident,Broad Street, P.,57,,Richardson Edwrd.,,police,
+resident,Broad Street, P.,58,,Houghton F. W.,,cutler,
+resident,Broad Street, P.,59,,Morris F.,,machine ruler,
+resident,Broad Street, P.,60,,Dowsell Chas.,,labourer,
+resident,Broad Street, P.,61,,Bromham T. F.,,gen. stores,
+cross_street,Broad Street, P.,,,,,,"here is Hereford-street."
+resident,Broad Street, P.,62,,Burrows T.,,coal merchant,
+resident,Broad Street, P.,63,,Davey Thomas,,mason,
+resident,Broad Street, P.,64,,Morgan Edwd.,,labourer,
+resident,Broad Street, P.,65,,Newberry John,,factory,
+resident,Broad Street, P.,66,,Miller Edwin,,upholsterer,
+resident,Broad Street, P.,67,,Dunning Frank,,storek'pr,
+resident,Broad Street, P.,68,,Moore Hy.,,labourer,
+resident,Broad Street, P.,69,,Redman Albt.,,labourer,
+resident,Broad Street, P.,70,,Gilbert Margaret,,,
+resident,Broad Street, P.,71,,Foster Wm.,,turner,
+resident,Broad Street, P.,72,,Allen Isaac,,miller,
+resident,Broad Street, P.,73,,Stevens Albert,,labourer,
+resident,Broad Street, P.,74,,Bearne Lewis,,haulier,
+resident,Broad Street, P.,75,,Hawkins Albt.,,wheel tp'r,
+resident,Broad Street, P.,76,,Rees Edward,,sailor,
+street,Britannia Buildings,,,,,,Nos. 12 to 15 North-street.
+street,Broseley Terrace, M.,,,,,,See Fair Oak-avenue.
+street,Bryn-derwyn Road, M,,,,,,From Victoria-avenue to Christchurch-road.
+resident,Bryn-derwyn Road, M,1,,Wostenholm Rev.,H.,,Pen-y-bryn
+resident,Bryn-derwyn Road, M,2,,Davies Miss,M.,,Penderyn
+resident,Bryn-derwyn Road, M,3,,Dixon Edwin,,,Pen-twyn
+resident,Bryn-derwyn Road, M,4,,Bowman Harry,,,Pen-y-bryn
+resident,Bryn-derwyn Road, M,5,,Jones Rev.,Wm.,,Pen-y-dre
+resident,Bryn-derwyn Road, M,6,,Lewis Frank,,,Pen-y-lan
+resident,Bryn-derwyn Road, M,7,,Slay Chas. J.,,,Pen-y-graig
+resident,Bryn-derwyn Road, M,8,,Howell Dd.,,,Derwen ho
+resident,Bryn-derwyn Road, M,9,,Meaker Sidney,,painter,
+cross_street,Bryn-derwyn Road, M,,,,,,(return.)
+resident,Bryn-derwyn Road, M,30,,Organ Daniel,,polisher,
+resident,Bryn-derwyn Road, M,31,,Dew Wm.,,assistant,
+resident,Bryn-derwyn Road, M,32,,Winter W.,,clerk,
+resident,Bryn-derwyn Road, M,33,,Stewart Ed.,,Customs officer,
+resident,Bryn-derwyn Road, M,34,,Cruse Wm.,,tailor,
+resident,Bryn-derwyn Road, M,35,,Jones Dd.,,joiner,
+resident,Bryn-derwyn Road, M,36,,Jones John,,,Sea-view cot
+street,Bryngwyn Road,,,,,,See Clytha-park.
+street,Caerau Park,,,,,,Stow-hill (right-hand) facing Stow-park.
+resident,Caerau Park,,,,Wilkins Rev.,A.,,"Grammar school, Cheltenham house"
+resident,Caerau Park,,,,Davies Absalom,,,Longfield
+resident,Caerau Park,,,,Roberts T. D.,,C.E.,Penrallt
+resident,Caerau Park,,,,Hutchins J.,,,Hughendon
+cross_street,Caerau Park,,,,,,entrance to Caerau-road.
+resident,Caerau Park,,,,Phillips H.,,,Carisbrooke villa
+resident,Caerau Park,,,,Wade Richard,,,Filton house
+resident,Caerau Park,,,,Higgins The Misses,,,Frondêg
+resident,Caerau Park,,,,G. Burgess Hughes,,M.A.,Newport Collegiate School
+resident,Caerau Park,,,,Rees Togarmah,,,Pen-caerau
+resident,Caerau Park,,,,Carter Wm.,,The Willows,
+cross_street,Caerau Park,,,,,,here is Caerau-crescent.
+resident,Caerau Park,,,,Packer J. R.,,,Lindenhurst
+resident,Caerau Park,,,,Powell Benj.,,,Bryngwyn
+street,Caerau Crescent,,,,,,Stow-hill to Caerau-road.
+resident,Caerau Crescent,1,,Cullum Chas.,,The Lawn,
+resident,Caerau Crescent,2,,Kirby Conyers,,,
+resident,Caerau Crescent,3,,Webber E.,,,Highfield
+resident,Caerau Crescent,4,,Tothill Hy.,,,Alton villa
+resident,Caerau Crescent,5,,Simmonds James,,,Elibank
+resident,Caerau Crescent,6,,Lonsdale C. H.,,Greytree house,
+resident,Caerau Crescent,7,,Seymour W. B.,,,Rosstrevor
+resident,Caerau Crescent,8,,Llewellyn G. H.,,,Peneraig
+cross_street,Caerau Crescent,,,,,,(return.)
+resident,Caerau Crescent,9,,Thatcher Edwn.,,,Norfolk h
+resident,Caerau Crescent,10,,Muir Wm.,,,Englefield
+resident,Caerau Crescent,11,,Phillips Edwin,,,Glaslyn
+resident,Caerau Crescent,12,,Freedman J. F. & P. F.,,The Laurels,
+resident,Caerau Crescent,13,,Lawrence Benj.,,,Mt view
+resident,Caerau Crescent,14,,Rainforth John,,,Tonge
+street,Caerau Road,,,,,,From Clytha Park-road to Stow-hill.
+resident,Caerau Road,1,,Williams Dd.,,tailor,
+resident,Caerau Road,2,,Price Herbert,,clerk,
+resident,Caerau Road,3,,Sheppard Samuel,,,
+resident,Caerau Road,4,,Long Miss,Eliza,,
+resident,Caerau Road,5,,Prosser Mrs.,D.,,
+resident,Caerau Road,6,,Thomas C. H.,,ironmonger,
+resident,Caerau Road,7,,Jeffreys Mrs.,Thos.,,
+resident,Caerau Road,8,,Gwynn Charles,,miller,
+resident,Caerau Road,9,,Taylor A. J.,,,
+resident,Caerau Road,10,,Parsons William,,,
+resident,Caerau Road,11,,Rowlands P.,,master mar,
+resident,Caerau Road,12,,Malpas Mrs.,Sarah,,
+resident,Caerau Road,13,,James Benjamin,,,
+resident,Caerau Road,14,,Glass John,,,
+resident,Caerau Road,15,,Goddard Mrs.,Mary,,
+resident,Caerau Road,16,,Morris George,,,
+resident,Caerau Road,,,,Morris Mrs.,,dressmaker,
+resident,Caerau Road,17,,Watkins Jas.,,Griffiths,Jones Miss, registry office
+resident,Caerau Road,18,,Fontaine Mrs.,John,,
+resident,Caerau Road,19,,Everson Tom,,,
+resident,Caerau Road,20,,Thomas Mrs.,Catherine,,
+resident,Caerau Road,21,,Evans Hy.,,,Iserlohn ho
+resident,Caerau Road,22,,Freeguard J.,,baker &c,
+resident,Caerau Road,23,,Coles Jas. J.,,accountant,
+resident,Caerau Road,24,,Tuplin T. F.,,master mar,
+resident,Caerau Road,25,,Fisher Mrs.,Ellen,,

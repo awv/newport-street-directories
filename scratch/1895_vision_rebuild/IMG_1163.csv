@@ -1,0 +1,143 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Stow Pk. Circus,7,,,,,"continued"
+resident,Stow Pk. Circus,6,,Mich.,Sullivan,tailor,
+resident,Stow Pk. Circus,7,,J. C.,Llewellyn,,Craig-hafren
+resident,Stow Pk. Circus,7,,Mrs Minnie,Mayne,,
+resident,Stow Pk. Circus,8,,R. P.,Williams,Croome,
+resident,Stow Pk. Circus,8,,Wm. J.,Hodges,,
+resident,Stow Pk. Circus,9,,W. S.,Jones,,Ynys-môn
+resident,Stow Pk. Circus,10,,A. P.,Filleul,,Grouville
+resident,Stow Pk. Circus,14,,T. H.,Howell,,Cader Idris
+resident,Stow Pk. Circus,,,Walter Henry,Williams,,Wynnstay
+resident,Stow Pk. Circus,15,,Mrs.,Gratte,,Kenilworth
+resident,Stow Pk. Circus,16,,J. G.,Wilson,,
+resident,Stow Pk. Circus,17,,Thomas, J.P.,Cordey,,The Grange
+cross_street,Stow Pk. Circus,,,INNER CIRCLE,,,,
+resident,Stow Pk. Circus,18,,C. W. E.,St. Helens,Marsh,,
+resident,Stow Pk. Circus,19,,W. M.,Fuller,,Lawnside
+resident,Stow Pk. Circus,24,,J.,Liscombe,,Bron-y-gaer
+resident,Stow Pk. Circus,25,,Mrs H.,Watts,,Rock dale
+resident,Stow Pk. Circus,26,,F. W.,Raikes,,The Redlands
+resident,Stow Pk. Circus,27,,Thos.,Dawson,,Rothbury
+resident,Stow Pk. Circus,28,,T., J.P.,Beynon,,St. Gwylliw
+resident,Stow Pk. Circus,29,,G. P.,Reynolds,,Rothesay
+street,Stow Park Crescent,,,,,,Stow-park.
+resident,Stow Park Crescent,,,Rev J.,George,,Bronhavren
+resident,Stow Park Crescent,1,,,Fairlight,,
+resident,Stow Park Crescent,2,,Hy.,Jayne,,Bron-gain
+resident,Stow Park Crescent,3,,Hy.,LeBrasseur,,Winchester house
+resident,Stow Park Crescent,4,,W. F.,Dawson,,Clarendon
+resident,Stow Park Crescent,5,,Robt.,Gething,,Briar-hill
+resident,Stow Park Crescent,6,,J. Proctor,Eeles,,Braeside
+resident,Stow Park Crescent,7,,H. J. Manley,Power,,Viletta
+resident,Stow Park Crescent,8,,G. R. J. P.,Martyn,,Skelmorlie
+resident,Stow Park Crescent,9,,T. Edgar,Watkins,,St. Olaves
+cross_street,Stow Park Crescent,,,(return.),,,,
+resident,Stow Park Crescent,10,,C. H.,Oliver,,Menevia
+resident,Stow Park Crescent,11,,Mrs E. P.,Jones,,Woodside
+resident,Stow Park Crescent,12,,Dunmarklyn,,,,
+resident,Stow Park Crescent,15,,Mrs S. G.,Homfray,,Ferncliffe
+resident,Stow Park Crescent,,,J. Hampton,Hearsey,,do
+resident,Stow Park Crescent,16,,A. P.,Williams,,Drayton vil
+resident,Stow Park Crescent,17,,Wm.,Vaughan,,Severn vil
+resident,Stow Park Crescent,18,,Mrs.,Evans,,Holmes view
+street,Stow Passage,,,,,,From 44 Stow-hill.
+resident,Stow Passage,1,,Wm.,Clarke,striker,
+resident,Stow Passage,2,,John,Edwards,labourer,
+resident,Stow Passage,3,,Hy., J.,Sheppard,coalman,
+resident,Stow Passage,4,,Thomas,Wall,labourer,
+resident,Stow Passage,5,,John,Smith,gardener,
+street,Summer Hill Rd., M.,,,,,,Foot of Christchurch-road to Victoria-avenue.
+resident,Summer Hill Rd., M.,1,,R.,Hopkins,draper,
+resident,Summer Hill Rd., M.,2,,John,Hopkins,reporter,
+resident,Summer Hill Rd., M.,3,,Mrs Emma,Taylor,,
+resident,Summer Hill Rd., M.,4,,Robert John,Gladstone,,
+resident,Summer Hill Rd., M.,5,,R.,Gladstone,manager,
+resident,Summer Hill Rd., M.,6,,W. J.,Green,com. agent
+resident,Summer Hill Rd., M.,7,,J. H.,Houghton,draper,
+resident,Summer Hill Rd., M.,8,,James D.,Evans,fitter,
+resident,Summer Hill Rd., M.,9,,Mrs Elizabeth,Beynon,,
+resident,Summer Hill Rd., M.,10,,Chas.,Evans,timber mer
+resident,Summer Hill Rd., M.,11,,A. G.,Clarke,Hill side
+resident,Summer Hill Rd., M.,13,,J. H.,Cole,gardener,
+resident,Summer Hill Rd., M.,16,,Wm. J.,Craddock,,Ravenswood
+resident,Summer Hill Rd., M.,17,,A. H.,Bisco,clerk, p.o.
+resident,Summer Hill Rd., M.,18,,Mrs E.,Cuff,Ilfracombe ho
+resident,Summer Hill Rd., M.,19,,William,Phillips,,
+resident,Summer Hill Rd., M.,20,,Thos.,Toft,Cardigan villa
+cross_street,Summer Hill Rd., M.,,,here is Albert-avenue,,,,
+resident,Summer Hill Rd., M.,30,,Albert,Howells,painter,
+cross_street,Summer Hill Rd., M,,,(return.),,,,
+resident,Summer Hill Rd., M.,31,,Rev G. H.,Cook,(Baptist)
+resident,Summer Hill Rd., M.,32,,Mrs M. A.,Lee,,
+resident,Summer Hill Rd., M.,33,,,Void,,
+resident,Summer Hill Rd., M.,34,,H. M.,Penemore,acct'nt
+resident,Summer Hill Rd., M.,35,,Mrs Rosa M.,Banks,,
+resident,Summer Hill Rd., M.,36,,J. R.,Williams,com. tr'vl
+resident,Summer Hill Rd., M.,37,,Donald,McDonald,ac'nt
+resident,Summer Hill Rd., M.,38,,Wm. H.,Gough,G.P.O.
+resident,Summer Hill Rd., M.,40,,Rutland villa,,,,
+resident,Summer Hill Rd., M.,41,,Lloyd,Overstone,Arran v
+resident,Summer Hill Rd., M.,42,,Isaac,Llewellyn,Peringa v
+resident,Summer Hill Rd., M.,43,,J. R.,Richards,Gogerdan villa
+cross_street,Summer Hill Rd., M.,,,SUMMER HILL VILLAS-,,,,
+resident,Summer Hill Rd., M.,44,,Edwin,Hill,Holmesview
+resident,Summer Hill Rd., M.,45,,R.,Twist,Clwyd villa
+resident,Summer Hill Rd., M.,46,,,Void,,
+resident,Summer Hill Rd., M.,47,,Edwin,Cherry,,
+resident,Summer Hill Rd., M.,48,,George,Harries,Glen-vue
+resident,Summer Hill Rd., M.,49,,J. H.,Mullins,Brynderwen
+street,Sutton Road,,,,,,West of Durham-road.
+street,Temple Street, P.,,,,,,From 132 Commercial-road.
+resident,Temple Street, P.,1,,James,White,fitter,
+resident,Temple Street, P.,2,,Maurice,Gorman,labourer,
+resident,Temple Street, P.,3,,Geo.,Cousins,mechanic
+resident,Temple Street, P.,4,,Mrs Mary,Honeywill,,
+resident,Temple Street, P.,,,Trinity Boys' School,,,,
+resident,Temple Street, P.,5,,Mrs Ellen,Crowley,,
+resident,Temple Street, P.,6,,Sam.,Quinn,crane drive
+resident,Temple Street, P.,7,,Hy.,Richards,labourer
+resident,Temple Street, P.,8,,Wm.,Rendle,crane drive
+resident,Temple Street, P.,9,,Wm.,Hughes,hobbler
+resident,Temple Street, P.,,,Fire Station,,,,
+resident,Temple Street, P.,,,Branch Police Station,,,,
+resident,Temple Street, P.,,,P.C. Chas.,Bristowe,,
+resident,Temple Street, P.,10,,Jno.,Brownscombe,b'lder and contractor
+cross_street,Temple Street, P.,,,(return.),,,,
+resident,Temple Street, P.,11,,Geo.,Burrows,boilermaker
+resident,Temple Street, P.,12,,Harry,Cambray,painter
+resident,Temple Street, P.,13,,Herbert,James,smith
+resident,Temple Street, P.,14,,Thos.,Pearce,goods guard
+resident,Temple Street, P.,15,,E.,Ferris,railway police
+resident,Temple Street, P.,16,,Wm.,Forrest,moulder
+resident,Temple Street, P.,17,,Alfred,Waters,ferryman
+resident,Temple Street, P.,18,,Wm.,Day,rigger
+resident,Temple Street, P.,19,,Wm.,Morgan,carpenter
+resident,Temple Street, P.,20,,Richard,Shea,labourer
+resident,Temple Street, P.,21,,Henry,Bowen,cellarman
+resident,Temple Street, P.,22,,H. J.,Triller,coal trimmer
+cross_street,Temple Street, P.,,,BRANCH READING ROOM,,,,
+resident,Temple Street, P.,,,Thos.,Lynch,caretaker
+resident,Temple Street, P.,25,,Mrs.,Pain,widow
+resident,Temple Street, P.,26,,Thos. H.,Spurrier,mariner
+resident,Temple Street, P.,27,,Mrs M. A.,Tucker,,
+resident,Temple Street, P.,28,,Arthur J.,Blizzard,eng.dvr
+resident,Temple Street, P.,29,,Wm.,Webb,engine driver
+resident,Temple Street, P.,,,Elliot Home for Seamen,,,,
+resident,Temple Street, P.,,,Mrs Wm. F.,Beer,supt
+resident,Temple Street, P.,,,Rev W. W.,Garry,chaplaincy
+resident,Temple Street, P.,,,Sailor's Church & Institute,,,,
+street,Thomas Street,,,,,,From 64 High-street.
+resident,Thomas Street,2,,Chas.,Coles,Three Tuns
+resident,Thomas Street,3,,,,,,
+cross_street,Thomas Street,,,Post office(back entrance),,,,
+cross_street,Thomas Street,,,Subway to Mill-street.,,,,
+resident,Thomas Street,6,,Clarence J.,Page,carver
+cross_street,Thomas Street,,,here is Oak-terrace.,,,,
+resident,Thomas Street,7,,S.,Naish,basketmaker
+cross_street,Thomas Street,,,here is Powell's-court.,,,,
+resident,Thomas Street,8,,Alfred,Hands,labourer
+resident,Thomas Street,9,,Robt.,Bowen,hairdresser
+resident,Thomas Street,10,,Geo.,Gratton,Railway Inn
+resident,Thomas Street,11,,Herb.,Brinkworth,Gloucester Eating House
+street,Toomb's Court,,,,,,From Reform-buildings.

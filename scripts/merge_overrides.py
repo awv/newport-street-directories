@@ -93,6 +93,8 @@ def merge_overrides(source_file):
                         break
             if slug_key:
                 st = master_streets_data["streets"][slug_key]
+                if "canonical_name" in new_item and new_item["canonical_name"]:
+                    st["canonical_name"] = new_item["canonical_name"]
                 if "audit_status" in new_item:
                     st["audit_status"] = new_item["audit_status"]
                     if "audit" not in st or not isinstance(st["audit"], dict):
@@ -105,7 +107,36 @@ def merge_overrides(source_file):
                 if "district" in new_item: st["district"] = new_item["district"]
                 if "parish" in new_item: st["parish"] = new_item["parish"]
                 if "coordinates" in new_item: st["coordinates"] = new_item["coordinates"]
-                if "notes" in new_item: st["notes"] = new_item["notes"]
+                if "notes" in new_item:
+                    st["notes"] = new_item["notes"]
+                    if "audit" not in st or not isinstance(st["audit"], dict):
+                        st["audit"] = {}
+                    st["audit"]["notes"] = new_item["notes"]
+                registry_updated_count += 1
+            else:
+                # Add new street to master registry
+                slug_key = raw_slug
+                if "streets" not in master_streets_data:
+                    master_streets_data["streets"] = {}
+                master_streets_data["streets"][slug_key] = {
+                    "canonical_name": new_item.get("canonical_name", slug_key.replace("-", " ").title()),
+                    "slug": slug_key,
+                    "district": new_item.get("district", ""),
+                    "parish": new_item.get("parish", ""),
+                    "former_names": new_item.get("former_names", []),
+                    "sub_sections": new_item.get("sub_sections", []),
+                    "numbering_scheme": new_item.get("numbering_scheme", {"type": "ODDS_EVENS"}),
+                    "cross_streets": [],
+                    "aliases": [],
+                    "audit": {
+                        "status": new_item.get("audit_status", "UNVERIFIED"),
+                        "verified_by": "Rob Gale",
+                        "notes": new_item.get("notes", "")
+                    },
+                    "coordinates": new_item.get("coordinates", {"lat": None, "lng": None}),
+                    "audit_status": new_item.get("audit_status", "UNVERIFIED"),
+                    "notes": new_item.get("notes", "")
+                }
                 registry_updated_count += 1
             continue
 

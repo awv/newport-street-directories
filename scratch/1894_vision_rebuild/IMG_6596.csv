@@ -1,0 +1,150 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Somerset Road, M.,,,,,,"Nr. milestone, Caerleon-road."
+resident,Somerset Road, M.,1,,Alfred,Hazell,builder,
+resident,Somerset Road, M.,2,,John,Jones,merchant,
+resident,Somerset Road, M.,3,,Edward,Millward,,
+resident,Somerset Road, M.,4,,John,Mayo,engineer,
+resident,Somerset Road, M.,5,,William,Packham,clerk,
+resident,Somerset Road, M.,6,Chester villa,Wm.,Blow,,
+resident,Somerset Road, M.,7,,Jos. Wm.,Ruddock,Montpellier,
+resident,Somerset Road, M.,8,,Wm.,Rees,clerk,
+resident,Somerset Road, M.,9,,G. H.,Bannister,schoolmstr,
+resident,Somerset Road, M.,10,,,Building,,
+resident,Somerset Road, M.,11,,Jas.,Jones,assistant,
+resident,Somerset Road, M.,12,,Walter,Lewis,,
+resident,Somerset Road, M.,13,,Void,,,
+resident,Somerset Road, M.,14,,Void,,,
+resident,Somerset Road, M.,,Staunton ho,Fk. T.,Halford,,Vacant sites
+resident,Somerset Road, M.,,Clevedon ho,J.,Bailey Jesse,,
+resident,Somerset Road, M.,,,,Thomas,T. contractor,
+cross_street,Somerset Road, M.,,,,,,(return.)
+resident,Somerset Road, M.,,Llanfoist House,Noel G.,Whitfield,,,void
+resident,Somerset Road, M.,,Hillthorpe,J.,O'Callaghan,,
+street,Somerton Road,,,,,,From "Cross Hands" Chepstow-rd. to Nash-road.
+resident,Somerton Road,,,Somerton ho,F.,Pinkard,,
+resident,Somerton Road,,,Java villa,A.,Hince,,
+resident,Somerton Road,,,Somerton villa,N.,Brown,,
+resident,Somerton Road,,,Somerton farm,Wm.,Graves,,
+cross_street,Somerton Road,,,,,,here is Libeneth-road.
+resident,Somerton Road,,,railway cottages,W. H.,Viner,,
+resident,Somerton Road,,,,Void,,,
+resident,Somerton Road,,v 13a,,Chas. J.,Burchell,Somerton,
+resident,Somerton Road,,,,Thos.,Horton,haulier,
+resident,Somerton Road,,,Greystone house,Ed.,Bate,,
+cross_street,Somerton Road,,,,,,SOMERTON LANE—
+resident,Somerton Road,,,,Robt.,Matthews,,
+resident,Somerton Road,,,Withy cot,W.,Thomas,police,
+resident,Somerton Road,,,,Henry,Anthony,shunter,
+resident,Somerton Road,,,,John,Owen,labourer,
+resident,Somerton Road,,,,O.,Pierce,labourer,
+resident,Somerton Road,,,,George,Roberts,labourer,
+cross_street,Somerton Road,,,,,,Rd. to Malpas Glebe cottages.
+resident,Somerton Road,,,Common,Mrs Ann,Lewis,,
+resident,Somerton Road,,,Somerton cottage,Mrs,Brain,,
+resident,Somerton Road,,,Somerton house,James,Morgan,farmer,
+resident,Somerton Road,,,,Isaac,Webb,quarryman,
+resident,Somerton Road,,,,Jas.,Burcher,warehousemnn,
+resident,Somerton Road,,,,Charles,Harris,labourer,
+resident,Somerton Road,,,,Alfd.,Harris,labourer,
+resident,Somerton Road,,,Black Horse,Joseph,Anstee,,
+resident,South Market Street,,,,,Edward,Harris,shopkeeper,
+resident,South Market Street,,,,,Chas.,Cook,cabinetmaker,
+resident,South Market Street,,,,,Mary,Price,,
+resident,South Market Street,,,Baptist Chapel,,,
+resident,South Market Street,,,,,G.,Coldrick,labourer,
+resident,South Market Street,,,,,Alfred,Stocker,,
+resident,South Market Street,,,King of Prussia,J. H.,White,,
+resident,South Market Street,,,,,Alfred,Horton,baker &c,
+resident,South Market Street,,,,Void,Shop,,
+resident,South Market Street,,,,,Mrs Ann,Hillman,lime mer,
+resident,South Market Street,,,,,W.,Tyrell,labourer,
+resident,South Market Street,,,,,Mrs Ruth,Gregory,,
+resident,South Market Street,,,,Post office,Mrs,Berry,,
+resident,South Market Street,,,St. Andrew's Church,,,
+resident,South Market Street,,,Old Chapel,,,
+street,Stanley Road.,,,,,,See Gold Tops.
+street,South Market Street.,92,,,,Dock-st. to W. Market-st.
+resident,South Market Street.,1,,,,Patrick,Haley,shop
+resident,South Market Street.,2,,,,John,Harding,guard
+resident,South Market Street.,3,,,,C. H.,Haywood,pilotsman
+resident,South Market Street.,4,,,,Geo.,Glynn,goods guard
+resident,South Market Street.,5,,,,David,Davies,fitter
+resident,South Market Street.,6,,,,Dd.,Mogford,moulder
+cross_street,South Market Street.,,,,,,here is Winmill-street.
+resident,South Market Street.,7,,,,James,Wall,greengrocer
+resident,South Market Street.,8,,,,Wm.,Thomas,smith
+resident,South Market Street.,9,,,,Harry,Davies,
+resident,South Market Street.,10,,,,Andrew,Jewell,sailmaker
+resident,South Market Street.,11,,,,Jos. eng.,Hawkins,driver
+resident,South Market Street.,12,,,,L.,Armstrong,mariner
+cross_street,South Market Street.,,,,,,(return.)
+resident,South Market Street.,13b,,,,Mrs Elizabeth,Hughes,
+resident,South Market Street.,13a,,,,Aug.,Tanner,hobbler
+resident,South Market Street.,13,,,,Chas.,Grey,wagonman
+resident,South Market Street.,14,,,,P. engine,Roberts,driver
+resident,South Market Street.,15,,Void,,,
+resident,South Market Street.,16,,,,Mrs Elizabeth,Carey,
+resident,South Market Street.,17,,,,Mrs H.,Holland,shopkpr
+resident,South Market Street.,18,,,,Jno. shipcarpenter,Coxon,
+resident,South Market Street.,19,,,,N. engine,Harris,driver
+resident,South Market Street.,20,,,,Timothy,Harris,fitter
+resident,South Market Street.,21,,,,John,Hurley,labourer
+resident,South Market Street.,22,,,,John,Edwards,sawyer
+resident,South Market Street.,23,,,,Wm.,Phelps,factory
+resident,South Market Street.,24,,,,Henry,Welsh,smith
+resident,South Market Street.,25,,,,Mrs Margaret,Coxon,
+resident,South Market Street.,26,,,,John,Clark,labourer
+resident,South Market Street.,27,,,,Mrs Elizabeth,Chappell,
+resident,South Market Street.,28,,Void,,,
+cross_street,South Market Street.,,,,,,here is East-Market street.
+resident,South Market Street.,29,,,,Sophia,Gill,shop
+resident,South Market Street.,,,,,Thos. G.,Jones,haulier
+resident,Speedwell Street, P.,30,,,,Four tenements,,
+resident,Speedwell Street, P.,31,,,,Ralph,Bostock,seaman
+resident,Speedwell Street, P.,32,,,,Geo. Hy.,Reed,hobbler
+resident,Speedwell Street, P.,33,,,,Michl.,Alpin,hobbler
+resident,Speedwell Street, P.,34,,,,Geo.,Fisher,labourer
+resident,Speedwell Street, P.,35,,,,David,George,labourer
+resident,Speedwell Street, P.,36,,,,John,Hockridge,seaman
+resident,Speedwell Street, P.,37,,,,T. engine,Rogers,driver
+resident,Speedwell Street, P.,38,,,,Geo.,Turner,seaman
+resident,Speedwell Street, P.,39,,,,James,Farmer,hobbler
+resident,Speedwell Street, P.,40,,,,Mrs Johanna,Cecil,
+resident,Speedwell Street, P.,41,,,,Wm.,Hughes,packer
+resident,Speedwell Street, P.,42,,,,Daniel,Morgan,labourer
+resident,Speedwell Street, P.,43,,,,Herbert,Williams,haulier
+resident,Speedwell Street, P.,44,,,,Mark,Williams,labourer
+resident,Speedwell Street, P.,45,,,,Wm.,James,labourer
+resident,Speedwell Street, P.,46,,,,Wm. Hy.,Morgan,lab'rer
+resident,Speedwell Street, P.,47,,,,John,Vick,wagon repairer
+resident,Speedwell Street, P.,48,,,,Thos.,Williams,labourer
+resident,Speedwell Street, P.,49,,,,Mrs Sarah,Jones,
+resident,Speedwell Street, P.,50,,,,Philip,Lewis,brewer
+street,Speedwell Street, P.,,,,,,From Church-st. to Castle-st.
+resident,Speedwell Street, P.,1,,,,Augustine,Foley,lab'rer
+resident,Speedwell Street, P.,2,,,,Thos.,Collins,labourer
+resident,Speedwell Street, P.,3,,,,Thomas,Carney,sailor
+resident,Speedwell Street, P.,4,,,,Honorah,Davies,widow
+resident,Speedwell Street, P.,5,,,,Thos.,Callaghan,shoemkr
+resident,Speedwell Street, P.,6,,,,C.,Emmens,coal trim'r
+resident,Speedwell Street, P.,7,,,,Ed.,Dahill,coal trimmer
+resident,Speedwell Street, P.,8,,,,Joseph,Mulcahy,labour'r
+resident,Speedwell Street, P.,10,,,,Wm.,Pembridge,labourer
+resident,Speedwell Street, P.,11,,,,John,Hall,weighman
+resident,Speedwell Street, P.,12,,,,Jas.,Pembridge,labourer
+resident,Speedwell Street, P.,13,,,,Mrs Catherine,Leonard,
+resident,Speedwell Street, P.,14,,,,Peter,Hansen,labourer
+resident,Speedwell Street, P.,15,,,,Wm.,Casey,coal trimmer
+resident,Speedwell Street, P.,16,,,,Richard,Lorton,hobbler
+street,Speke Street, M.,,,,,,Opposite Maindee Schools.
+resident,Speke Street, M.,1,,,,A.,Kennard,confectioner
+resident,Speke Street, M.,2,,,,A. slate,Miller,merchant manufacturer &c.
+resident,Speke Street, M.,3,,,Police Station,,,
+resident,Speke Street, M.,,,,David,Evans,police sergt
+cross_street,Speke Street, M.,,,,,,here is Livingstone-place.
+resident,Speke Street, M.,4,,,,Henry,Yeates,sawyer
+resident,Speke Street, M.,5,,,,Thomas,Pugh,carpenter
+resident,Speke Street, M.,6,,,,John,Pugsley,smith
+resident,Speke Street, M.,7,,,,R.,Bassett,agent
+street,Spencer Road.,,,,,,From Caerau-road to Llanthewy-road.
+resident,Spencer Road.,,,,Jas.,Spencer,,

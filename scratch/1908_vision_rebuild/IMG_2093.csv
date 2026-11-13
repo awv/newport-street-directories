@@ -1,0 +1,129 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Dewstow Street,,,,,,Off Corporation-road. [LEFT HAND SIDE.]
+resident,Dewstow Street,1,,,Void,,
+resident,Dewstow Street,3,,,W. H.,Walters,ironwrkr,
+resident,Dewstow Street,5,,,Mrs. Mary,Cockbill,do.,
+resident,Dewstow Street,7,,,Albt.,Whitecutt,ironworkr,
+resident,Dewstow Street,9,,,John,Trussell,do.,
+resident,Dewstow Street,11,,,John,Morgan,do.,
+resident,Dewstow Street,13,,,Mrs. Jane,Vincent,,
+resident,Dewstow Street,15,,,Saml.,Hingley,ironworker,
+resident,Dewstow Street,17,,,Stephen,Wall,do.,
+resident,Dewstow Street,19,,,John,Griffiths,do.,
+resident,Dewstow Street,,,,,,Vacant sites
+resident,Dewstow Street,,,,,,2 houses void
+resident,Dewstow Street,,,,,,Houses building
+cross_street,Dewstow Street,,,,,,"(return)"
+resident,Dewstow Street,80,,,Stanley,Jarvis,ironworker,
+resident,Dewstow Street,78,,,Michael,Morris,do.,
+resident,Dewstow Street,76,,,Daniel,Mound,do.,
+resident,Dewstow Street,74,,,Joseph,Cooper,do.,
+resident,Dewstow Street,72,,,Jas.,Enthorne,do.,
+resident,Dewstow Street,70,,,Enoch,Davies,do.,
+resident,Dewstow Street,68,,,Fred.,Morgan,do.,
+resident,Dewstow Street,66,,,Rol.,Hayward,do.,
+resident,Dewstow Street,64,,,William,Bunce,do.,
+resident,Dewstow Street,62,,,Chas.,Knight,do.,
+resident,Dewstow Street,60,,,Ed.,Bradford,do.,
+resident,Dewstow Street,58,,,Anthony,White,do.,
+resident,Dewstow Street,56,,,Edw.,Walker,do.,
+resident,Dewstow Street,54,,,Wm. H.,Lewis,carpenter,
+resident,Dewstow Street,52,,,Hy.,Wilkinson,ironworkr,
+resident,Dewstow Street,50,,,A. W.,Baggott,stocktaker,
+resident,Dewstow Street,48,,,Thos.,Sprue,ironworker,
+resident,Dewstow Street,46,,,Wm.,Screen,do.,
+resident,Dewstow Street,44,,,Albert,Lane,labourer,
+resident,Dewstow Street,42,,,Geo. Hy.,Leonard,pavior,
+resident,Dewstow Street,40,,,John,Richards,ironworkr,
+resident,Dewstow Street,38,,,Thos.,Taylor,ironworker,
+resident,Dewstow Street,36,,,Mrs.,Smith,,
+resident,Dewstow Street,34,,,G. H.,Arthur,ironworker,
+resident,Dewstow Street,32,,,John,Russell,do.,
+resident,Dewstow Street,30,,,G.,Matthews,shop,
+resident,Dewstow Street,,,,,,Vacant sites
+street,Diana Street,,,,,,D 1. Top of Gibbs-road.
+resident,Diana Street,1,,,E.,Watkins,,
+resident,Diana Street,2,,,E.,Turner,clerk,
+resident,Diana Street,3,,,Herbert,Todman,smith,
+resident,Diana Street,4,,,Mrs.,Preece,,
+resident,Diana Street,5,,,E.,Steddar,driver,
+resident,Diana Street,6,,,Walter,Hooper,checker,
+resident,Diana Street,7,,,Thos.,Nethercott,labourer,
+resident,Diana Street,8,,,Jos.,Lewis,fitter,Pursefield
+resident,Diana Street,9,,,Frank,Evans,clerk,
+street,Dock Parade,,,,,,F 4. Church-street to Docks.
+resident,Dock Parade,,,,,,Pill Wagon works—J. Pugh proprietor
+resident,Dock Parade,,Welsh House Fuel Co.'s wks,,,,
+resident,Dock Parade,1,,,Hy.,Rondel,crane driver,
+resident,Dock Parade,2,,,Richard,Davies,boatman,
+resident,Dock Parade,3,,,James,Pound,dealer,
+resident,Dock Parade,4,,,Mrs. Louisa,Thompson,,
+resident,Dock Parade,5,,,Evan,Williams,boatman,
+resident,Dock Parade,6,,,Mrs. Theresa,Quest,shop,
+resident,Dock Parade,7,,,Hy.,Richardson,foreman,
+resident,Dock Parade,8,,,Michael,Duggan,moulder,
+resident,Dock Parade,9,,,Thos.,Sutcliffe,,
+resident,Dock Parade,10,,,Chas.,Powell,coaltrimmer,
+resident,Dock Parade,11,,,Fk. J.,Thomas,tug capt.,
+resident,Dock Parade,12,,,James,Murphy,labourer,
+resident,Dock Parade,13,,,Mrs. Sarah Ann,Jenkins,,
+resident,Dock Parade,14,Dock Hotel,Samuel,Evans,,
+street,Dock Road,,,,,,E 4. East side of Town Dock.
+street,Dock Road Chambers,,,,,,(See 103 Dock-street).
+street,Dock (The Town),,,,,,E 4. East side from Dock-street.
+resident,Dock (The Town),,,,,,Coal shipping staithes (5)
+resident,Dock (The Town),,Dry Dock,,,Mordey Carney & Co. Ltd.,shipbuilders etc.,
+resident,Dock (The Town),,,,,,Harris & Coxon block makers ship repairers
+resident,Dock (The Town),,,,,Goss A. J. T.,oil merchant and grease manufacturer,
+resident,Dock (The Town),,,,,Köhler Roofing Tile Co.,,
+resident,Dock (The Town),,Dock Supt. & Engineer's office,,,,
+resident,Dock (The Town),,Blaina Wharf—Dock Co.,,,,
+resident,Dock (The Town),,,,,Farmer James,labourer,
+resident,Dock (The Town),,,,,Stephens D. & Co.,ship smiths
+resident,Dock (The Town),,Russell's wharf,,,Lancaster Speir & Co. Ltd.,colliery proprtrs.,
+resident,Dock (The Town),,,,,Cardiff & South Wales Wagon Company Ltd.,,
+cross_street,Dock (The Town),,,,,,"here is Commercial-wharf."
+resident,Dock (The Town),,,,,Newport Enamelled Slate Co.,,
+resident,Dock (The Town),,Cambrian Iron and Brass Foundry—T. Spittle Ltd.,,,,
+resident,Dock (The Town),,Rhymney wharf,,,Phillips & Sons Ltd.,malt ho
+resident,Dock (The Town),,,,,Wilkinson Chas. R.,maltster,
+resident,Dock (The Town),,Dock house,B.,Roberts,,
+resident,Dock (The Town),,National Telephone call room,,,,
+cross_street,Dock (The Town),,,,,,"here is Dock-entrance."
+resident,Dock Street,,Customs Watchhouse,,,,
+resident,Dock Street,,Scandinavian Church—Elim,,,,
+cross_street,Dock Street,,,,,,"here is Dock-parade."
+resident,Dock Street,,Dock Hotel,Samuel,Evans,,
+resident,Dock Street,,,,,Morris Henry,oil merchant,
+resident,Dock Street,,,,,Newport Trading Co.,,
+resident,Dock Street,,,,,,The West-side is used for discharging cargoes loading iron etc.
+resident,Dock Street,,,,,,See also Alexandra Dock.
+street,Dock Street,,,,,,C 4. From High-street to Docks. [LEFT HAND SIDE.]
+resident,Dock Street,1,,,E.,Wilcox,Rope and twine works,
+resident,Dock Street,2,,,Crown Saddlery Co.,,,
+resident,Dock Street,3,,,Wm.,Carter,hairdresser,
+resident,Dock Street,4,,,Mrs. A.,Phillips,tobacconist,
+resident,Dock Street,5,,,W. H. B.,Williams,bootmaker,
+resident,Dock Street,6,,,J. & Sons,Young,chemists,
+resident,Dock Street,7,,,D. A. & Co.,Vaughan,potato merchants,
+resident,Dock Street,8,,,G. F.,Thorne,corn stores,
+resident,Dock Street,9,,,G. F.,Thorne,grocer,
+resident,Dock Street,10,,,Nicholas & Co Ltd.,timber slate and cement merchants,
+resident,Dock Street,11,,,John R. & Co.,Jacob,corn merchants,
+resident,Dock Street,12,,,McMahon & Co.,potato merchants,
+resident,Dock Street,13,,,George L.,Scott,weighing machine dealer,
+resident,Dock Street,14,,,A.,Frost,corn and chaff merchant,
+resident,Dock Street,15,,,Void,,
+resident,Dock Street,16,,,Void,,
+cross_street,Dock Street,,,,,,"here is Skinner-street."
+resident,Dock Street,17,,,Beaven & Sons Ltd.,,
+resident,Dock Street,18,,,Beaven & Sons Ltd.,stores and showrooms,
+resident,Dock Street,19,Windsor Castle,Mrs. Cath.,Jones,,
+resident,Dock Street,20,,,A.,Chambers,grocer etc.,
+resident,Dock Street,21,Newport Temp'nce Hotel,,,,
+cross_street,Dock Street,,,,,,"here is Corn-street."
+resident,Dock Street,22,Potter's Arms,J. R.,Wallace,,
+resident,Dock Street,23,,,S.,Wainwright,umbrella maker,
+resident,Dock Street,24,,,F. D.,Biddle,printer &c. Corporation yard
+cross_street,Dock Street,,,,,,"here is Merchant-street."
+resident,Dock Street,26,AUSTIN FRIARS CHAMBERS,T. B. & S. & Co.,Batchelor,timber and slate merchants,

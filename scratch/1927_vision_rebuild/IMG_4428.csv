@@ -1,0 +1,170 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,ARC,5,,Pritchard Gore & Co.,,Ltd.,milliners
+resident,ARC,6,,Stanley,Jones,stationer
+cross_street,ARC,,,,,,(return)
+resident,ARC,7,,Stanley,Jones,music warehouse and bookseller
+resident,ARC,8-9-10,,Pritchard Gore & Co.,,Ltd.,baby linen and children's outfitters
+resident,ARC,11,,Ltd.,Wauters,confectrs
+resident,ARC,12,,Jno. H.,Wagstaff,hairdrsr
+building,ARC,,CARLTON CHAMBERS,,,,(See under High-street)
+street,ARCHIBALD STREET,D 3,,,,,"From Wharf-road to Eveswell street."
+cross_street,ARCHIBALD STREET,,,,,,(RIGHT HAND SIDE.)
+resident,ARCHIBALD STREET,1,,Wm. J.,Cooke,G.W.R.
+resident,ARCHIBALD STREET,2,,William,Tamplin,G.W.R.
+resident,ARCHIBALD STREET,3,,Arthur,White,labourer
+resident,ARCHIBALD STREET,4,,Chas. H.,Rose,haulier
+resident,ARCHIBALD STREET,5,,Harry,Dowden,bricklyr
+resident,ARCHIBALD STREET,6,,Jas.,Simpson,labourer
+resident,ARCHIBALD STREET,7,,William A.,Ellis,furnacem
+resident,ARCHIBALD STREET,8,,Jas.,Homfray,ironworker
+resident,ARCHIBALD STREET,9,,Tom Edward,Eveleigh
+resident,ARCHIBALD STREET,10,,Fredk.,Harrington,guard
+resident,ARCHIBALD STREET,11,,David,Jones,dockman
+resident,ARCHIBALD STREET,12,,Walter,Croker,watchmkr
+resident,ARCHIBALD STREET,13,,Geo. J.,Summers,ironrwkr
+resident,ARCHIBALD STREET,14,,F. John,Dowden,plasterer
+resident,ARCHIBALD STREET,15,,Jeffrey,Watts,ironworker
+resident,ARCHIBALD STREET,16,,Mrs. Athlea J.,Clark
+resident,ARCHIBALD STREET,17,,Hy. L.,Summers,wind clnr
+resident,ARCHIBALD STREET,18,,Ernest G.,Barnes,moulder
+resident,ARCHIBALD STREET,19,,John C.,Canberg,fireman
+resident,ARCHIBALD STREET,20,,Rd. P.,Fitzgerald,painter
+resident,ARCHIBALD STREET,21,,David,Dando,labourer
+resident,ARCHIBALD STREET,22,,John H.,Broome,haulier
+resident,ARCHIBALD STREET,23,,Edwin,Richards,baker
+resident,ARCHIBALD STREET,24,,Mrs. Jane,Williams
+resident,ARCHIBALD STREET,25,,Alfd.,Bradbury,plasterer
+resident,ARCHIBALD STREET,26,,Geo.,Pugsley,haulier
+resident,ARCHIBALD STREET,27,,Thomas,Pullin,labourer
+resident,ARCHIBALD STREET,28,,David,Morgan,painter
+resident,ARCHIBALD STREET,29,,Benj.,Hodges,ironworker
+resident,ARCHIBALD STREET,30,,Thos. V.,Rudge,grave dgr
+resident,ARCHIBALD STREET,31,,John,Mogford,striker
+resident,ARCHIBALD STREET,32,,Percy H.,Pennell,haulier
+resident,ARCHIBALD STREET,33,,W.,Sleeman,shopkeeper
+resident,ARCHIBALD STREET,34,,Ernest H.,Thomas,labr
+resident,ARCHIBALD STREET,35,,Arthur,Day,railway hand
+resident,ARCHIBALD STREET,36,,Fred,Foster,ironworker
+resident,ARCHIBALD STREET,37,,Wm. H.,Willey,mason boiler coverer
+resident,ARCHIBALD STREET,38,,Evan,Morgan,ironworker
+resident,ARCHIBALD STREET,39,,Clem.,Giulietti,ironworker
+resident,ARCHIBALD STREET,40,,S.,Hodder,window cleaner
+resident,ARCHIBALD STREET,41,,John,Bower,G.W.R.
+resident,ARCHIBALD STREET,42,,James, junr.,Alexander
+resident,ARCHIBALD STREET,43,,George E.,Willey,mason
+resident,ARCHIBALD STREET,44,,Fred C.,Davies,shearer
+resident,ARCHIBALD STREET,45,,Henry,Jackson,ironrwkr
+resident,ARCHIBALD STREET,46,,Charles,Taylor
+resident,ARCHIBALD STREET,47,,Mrs. Elizabeth,Gray
+resident,ARCHIBALD STREET,48,,Wm.,Mabel cot.,Taylor
+resident,ARCHIBALD STREET,49,,Edward,Jenkins
+resident,ARCHIBALD STREET,50,,Albt.C.,Dowden,bricklayer
+resident,ARCHIBALD STREET,51,,Fred S.,Poole,carpenter
+resident,ARCHIBALD STREET,52,,Alban L.,Hill,bricklayer
+resident,ARCHIBALD STREET,53,,Arthur,Davies,glazier
+resident,ARCHIBALD STREET,54,,Geo. H.,Blythe
+resident,ARCHIBALD STREET,54a,,Wm. Ed.,Rowe,Orb wks
+cross_street,ARCHIBALD STREET,,,,,,here is Conway-road.
+cross_street,ARCHIBALD STREET,,,,,,here is Eveswell-street.
+building,ARCHIBALD STREET,,WESLEYAN METHODIST MISSION HALL,,,,
+cross_street,ARCHIBALD STREET,,,,,,here is Oxford-street.
+resident,ARCHIBALD STREET,55,,Mrs. Fanny,Porter
+resident,ARCHIBALD STREET,56,,William,Henson,G.W.R.
+resident,ARCHIBALD STREET,57,,Arthur,Daniels,labourer
+resident,ARCHIBALD STREET,58,,Mrs. Keturah,Bowen
+resident,ARCHIBALD STREET,59,,Mrs. Mary Jane,Jones
+resident,ARCHIBALD STREET,60,,Wm.,Shipton,labourer
+resident,ARCHIBALD STREET,61,,Chas.,Webber,labourer
+resident,ARCHIBALD STREET,62,,Mrs. Elizabeth,Saunders
+resident,ARCHIBALD STREET,63,,Thos.,Blackwell,labourer
+resident,ARCHIBALD STREET,64,,William J.,Gunter,G.W.R.
+resident,ARCHIBALD STREET,65,,Mrs. Eliza,Walters
+resident,ARCHIBALD STREET,66,,James,Gunter,shoemaker
+resident,ARCHIBALD STREET,67,,George James,Gillard
+resident,ARCHIBALD STREET,68,,Mrs. Sarah A. N.,Williams
+resident,ARCHIBALD STREET,69,,Thomas,Gibbs,ironworker
+resident,ARCHIBALD STREET,70,,A. E.,Linton
+resident,ARCHIBALD STREET,70a,,W. H.,Perry,hairdresser
+street,ARGYLE STREET,B 4,,,,From 19 Albany-street.
+cross_street,ARGYLE STREET,,,,,,(LEFT HAND SIDE.)
+resident,ARGYLE STREET,1,,John Hy.,Dix,labourer
+resident,ARGYLE STREET,3,,Henry Albert,Jones,labr
+resident,ARGYLE STREET,5,,George,Pye,miller
+resident,ARGYLE STREET,7,,H. G.,Rumsey,labourer
+resident,ARGYLE STREET,9,,John,Williams,bricklayer
+resident,ARGYLE STREET,11,,Robert J.,Durant,labr
+resident,ARGYLE STREET,13,,Thomas,Barry,labourer
+resident,ARGYLE STREET,15,,Samuel Henry,Beighton
+resident,ARGYLE STREET,17,,Albert Hy.,Trigg,gaswkr
+resident,ARGYLE STREET,19,,A. Jno.,Lillygreen,carptr
+resident,ARGYLE STREET,21,,John,Verrinder,fuel wkr
+resident,ARGYLE STREET,23,,James,Orphan,mason
+resident,ARGYLE STREET,,,Pan-Produce Ltd.,,,garage
+cross_street,ARGYLE STREET,,,,,,(return)
+resident,ARGYLE STREET,50,,Geo.,Metcalfe,labourer
+resident,ARGYLE STREET,48,,John,Durham,plasterer
+resident,ARGYLE STREET,46,,Jno.,Dunn,baker
+resident,ARGYLE STREET,44,,Mrs. Martha,Brooks
+resident,ARGYLE STREET,42,,Daniel,Richards,mechanic
+resident,ARGYLE STREET,40,,Miss Hannah M.,Phillips
+resident,ARGYLE STREET,38,,Arthur G.,Williams,drvr
+resident,ARGYLE STREET,36,,James,Williams,bricklyr
+resident,ARGYLE STREET,34,,Thos. H.,Caple,fireman
+resident,ARGYLE STREET,32,,G.,Bennett,brewery hand
+resident,ARGYLE STREET,30,,John,Mitchell,collier
+resident,ARGYLE STREET,28,,Wm.,Harris,steelworker
+resident,ARGYLE STREET,26,,Wm. G.,Beasey,seaman
+resident,ARGYLE STREET,24,,Andrew C.,Best
+resident,ARGYLE STREET,22,,Leonard C.,Trump,labr
+resident,ARGYLE STREET,20,,Dd.,Mathers,bottle workr
+resident,ARGYLE STREET,18,,Jos.,Pybus,watchman
+resident,ARGYLE STREET,16,,Wm.,Cortin,stoker
+resident,ARGYLE STREET,14,,Fred,Moore,stoker
+resident,ARGYLE STREET,12,,Geo. F.,Evans,steelwrkr
+resident,ARGYLE STREET,10,,Hy.,Workman,G.W.R.
+resident,ARGYLE STREET,8,,Robert,Selway,smith
+resident,ARGYLE STREET,6,,Francis J.,Clarke,lab'r
+resident,ARGYLE STREET,4,,Charles,Ridler,labourer
+resident,ARGYLE STREET,2,,Henry,Jones,watchman
+street,ARLINGTON CHAMBERS,,,,,,,See 4 Commercial-street.
+street,ARTHUR STREET,E 5,,,,From Courtybella-terrace to Mendalgief-road.
+cross_street,ARTHUR STREET,,,,,,(LEFT HAND SIDE.)
+resident,ARTHUR STREET,1,,Thos.,Williams,labourer
+resident,ARTHUR STREET,2,,R.,Radnage,goods guard
+resident,ARTHUR STREET,3,,Edgar J.,Lamprey,G.W.R.
+resident,ARTHUR STREET,4,,Mrs. Hellen,Grace
+resident,ARTHUR STREET,5,,T. P.,Hammett,mas. mar.
+resident,ARTHUR STREET,6,,John,Coughlan,engine driver
+resident,ARTHUR STREET,7,,Geo.,Abraham,labourer
+resident,ARTHUR STREET,8,,John C.,Emery,seaman
+resident,ARTHUR STREET,9,,Henry,Shellard,fitter
+resident,ARTHUR STREET,10,,Thos.,Thomas,moulder
+resident,ARTHUR STREET,11,,Chas. F.,Campbell,G.W.R.
+resident,ARTHUR STREET,12,,Alf. J.,Gatland,fireman
+resident,ARTHUR STREET,13,,F. J.,Waters,railwayman
+resident,ARTHUR STREET,14,,Wm.,Waring,signalman
+resident,ARTHUR STREET,15,,George J.,Maddicks
+resident,ARTHUR STREET,16,,Henry H.,Rich,G.W.R.
+resident,ARTHUR STREET,17,,Albert,Hadley,steelwkr
+resident,ARTHUR STREET,18,,William,Clark,foundrymn
+resident,ARTHUR STREET,19,,C. H.,Ashworth,fitter
+resident,ARTHUR STREET,20,,Chas. Fred.,Rees,engineer
+resident,ARTHUR STREET,21,,R. B.,Allison,boilermaker
+resident,ARTHUR STREET,22,,J. N.,Glynn,dk worker
+resident,ARTHUR STREET,23,,Wm. H.,Mockridge,engine driver
+resident,ARTHUR STREET,24,,Thomas,Lewis,boilermakr
+resident,ARTHUR STREET,25,,O. Robt.,Wright,welder
+cross_street,ARTHUR STREET,,,,,,(return)
+building,ARTHUR STREET,,Spring Gardens School,,,,
+resident,ARTHUR STREET,26,,Albert P.,Preece,signalmn
+resident,ARTHUR STREET,27,,Thos.,Mandry,eng driver
+resident,ARTHUR STREET,28,,Arthur John,Seer,trimmr
+resident,ARTHUR STREET,29,,Wm. J.,Seer,dk worker
+resident,ARTHUR STREET,30,,Mrs. Agnes F.,Daniel
+resident,ARTHUR STREET,31,,Frank,Phillips,coal merc
+resident,ARTHUR STREET,32,,George,Wyatt,guard
+resident,ARTHUR STREET,33,,Thos.,Maggs,boilermaker
+resident,ARTHUR STREET,,,"John H.,",Pring,trimmer
+resident,ARTHUR STREET,34,,Joe,Shellard,turner
+resident,ARTHUR STREET,35,,Wilfred,Hooper,labr
+resident,ARTHUR STREET,,,"Wm. E.,",Wilson,carpenter

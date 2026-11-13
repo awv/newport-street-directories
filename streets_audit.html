@@ -1,0 +1,1503 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Street Master Registry Audit — Newport Directory Archive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/styles/main.css">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  
+  <style>
+    :root {
+      --verified-green: #15803d;
+      --verified-bg: #f0fdf4;
+      --verified-border: #bbf7d0;
+      --unverified-amber: #b45309;
+      --unverified-bg: #fffbeb;
+      --unverified-border: #fef3c7;
+      --flagged-red: #b91c1c;
+      --flagged-bg: #fef2f2;
+      --flagged-border: #fecaca;
+      --note-blue: #1d4ed8;
+      --note-bg: #eff6ff;
+      --note-border: #bfdbfe;
+    }
+
+    html, body {
+      height: 100%;
+      overflow-y: auto !important;
+      background-color: var(--app-bg);
+      color: var(--text-primary);
+      font-family: var(--sans-font);
+    }
+
+    .audit-container {
+      max-width: 1480px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 4rem;
+    }
+
+    /* Top Navigation Header */
+    .audit-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 2rem;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 1.5rem;
+    }
+
+    .audit-title h1 {
+      font-family: var(--heading-font);
+      font-size: 2.6rem;
+      font-weight: 400;
+      color: var(--accent);
+      line-height: 1.1;
+      margin-bottom: 0.35rem;
+    }
+
+    .audit-subtitle {
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+    }
+
+    .audit-header-actions {
+      display: flex;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.6rem 1rem;
+      border-radius: 6px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      cursor: pointer;
+      border: 1px solid var(--border-color);
+      background: var(--card-bg);
+      color: var(--text-primary);
+      text-decoration: none;
+      transition: all 0.15s ease;
+    }
+
+    .btn:hover {
+      background: var(--sidebar-bg);
+      border-color: var(--text-muted);
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+
+    .btn-primary:hover {
+      background: var(--accent-hover);
+      border-color: var(--accent-hover);
+    }
+
+    .btn-success {
+      background: var(--verified-green);
+      border-color: var(--verified-green);
+      color: #fff;
+    }
+
+    .btn-success:hover {
+      background: #166534;
+      border-color: #166534;
+    }
+
+    /* Stats Overview Card Bar */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .stat-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 1.25rem 1.5rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .stat-card-title {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-secondary);
+      margin-bottom: 0.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .stat-card-val {
+      font-family: var(--heading-font);
+      font-size: 2.2rem;
+      line-height: 1;
+      font-weight: 500;
+      color: var(--text-primary);
+    }
+
+    .stat-card-sub {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      margin-top: 0.4rem;
+    }
+
+    /* Progress bar */
+    .progress-bar-container {
+      background: #e2e8f0;
+      border-radius: 999px;
+      height: 8px;
+      overflow: hidden;
+      margin-top: 0.75rem;
+    }
+
+    .progress-bar-fill {
+      background: var(--verified-green);
+      height: 100%;
+      border-radius: 999px;
+      transition: width 0.3s ease;
+    }
+
+    /* Search & Filter Toolbar */
+    .toolbar-container {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 1.25rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .toolbar-row {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .search-input-wrapper {
+      flex: 1;
+      min-width: 280px;
+      position: relative;
+    }
+
+    .search-input-wrapper i {
+      position: absolute;
+      left: 1rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-muted);
+      font-size: 1.1rem;
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 0.65rem 1rem 0.65rem 2.5rem;
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      font-size: 0.95rem;
+      outline: none;
+      background: var(--app-bg);
+      color: var(--text-primary);
+    }
+
+    .search-input:focus {
+      border-color: var(--accent);
+      background: #fff;
+    }
+
+    /* Filter pills */
+    .filter-pills {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .filter-pill {
+      padding: 0.4rem 0.85rem;
+      border-radius: 999px;
+      font-size: 0.82rem;
+      border: 1px solid var(--border-color);
+      background: var(--card-bg);
+      color: var(--text-secondary);
+      cursor: pointer;
+      user-select: none;
+      transition: all 0.15s ease;
+    }
+
+    .filter-pill:hover {
+      background: var(--sidebar-bg);
+      color: var(--text-primary);
+    }
+
+    .filter-pill.active {
+      background: var(--accent-light);
+      border-color: var(--accent-border);
+      color: var(--accent-hover);
+      font-weight: 600;
+    }
+
+    /* Alphabet bar */
+    .alpha-bar {
+      display: flex;
+      gap: 0.25rem;
+      flex-wrap: wrap;
+      align-items: center;
+      padding-top: 0.5rem;
+      border-top: 1px dashed var(--border-color);
+    }
+
+    .alpha-btn {
+      width: 28px;
+      height: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 4px;
+      border: 1px solid transparent;
+      background: transparent;
+      color: var(--text-secondary);
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .alpha-btn:hover {
+      background: var(--sidebar-bg);
+      color: var(--text-primary);
+      border-color: var(--border-color);
+    }
+
+    .alpha-btn.active {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    /* List & Cards */
+    .streets-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .street-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 1.1rem 1.4rem;
+      display: grid;
+      grid-template-columns: minmax(320px, 1.8fr) minmax(280px, 2fr) minmax(220px, 1fr);
+      gap: 1.5rem;
+      align-items: center;
+      transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .street-card:hover {
+      border-color: #cbd5e1;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    }
+
+    .street-card.verified {
+      border-left: 4px solid var(--verified-green);
+      background: linear-gradient(90deg, #f0fdf4 0%, #ffffff 15%);
+    }
+
+    .street-card.flagged {
+      border-left: 4px solid var(--flagged-red);
+      background: linear-gradient(90deg, #fef2f2 0%, #ffffff 15%);
+    }
+
+    .street-card.has-notes {
+      border-left-color: var(--note-blue);
+    }
+
+    .street-card.active-focus {
+      outline: 2px solid var(--accent);
+    }
+
+    /* Card Details Column */
+    .col-info {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+
+    .street-name-row {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .street-display-name {
+      font-family: var(--heading-font);
+      font-size: 1.6rem;
+      font-weight: 400;
+      color: var(--text-primary);
+      line-height: 1.2;
+    }
+
+    .street-slug {
+      font-family: var(--mono-font);
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      background: #f1f5f9;
+      padding: 0.15rem 0.4rem;
+      border-radius: 4px;
+    }
+
+    .badges-row {
+      display: flex;
+      gap: 0.4rem;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-top: 0.15rem;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      font-size: 0.72rem;
+      font-weight: 600;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+
+    .badge-verified {
+      background: var(--verified-bg);
+      color: var(--verified-green);
+      border: 1px solid var(--verified-border);
+    }
+
+    .badge-unverified {
+      background: var(--unverified-bg);
+      color: var(--unverified-amber);
+      border: 1px solid var(--unverified-border);
+    }
+
+    .badge-flagged {
+      background: var(--flagged-bg);
+      color: var(--flagged-red);
+      border: 1px solid var(--flagged-border);
+    }
+
+    .badge-meta {
+      background: #f8fafc;
+      color: var(--text-secondary);
+      border: 1px solid #e2e8f0;
+    }
+
+    .badge-former {
+      background: #fdf2f8;
+      color: #be185d;
+      border: 1px solid #fbcfe8;
+    }
+
+    /* Notes Column */
+    .col-notes {
+      display: flex;
+      flex-direction: column;
+      gap: 0.3rem;
+    }
+
+    .notes-label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--text-secondary);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .notes-input {
+      width: 100%;
+      min-height: 54px;
+      padding: 0.5rem 0.75rem;
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-family: var(--sans-font);
+      background: var(--app-bg);
+      color: var(--text-primary);
+      resize: vertical;
+      transition: border-color 0.15s ease;
+    }
+
+    .notes-input:focus {
+      border-color: var(--accent);
+      background: #fff;
+      outline: none;
+    }
+
+    .saved-pill {
+      font-size: 0.72rem;
+      color: var(--verified-green);
+      font-weight: 500;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .saved-pill.show {
+      opacity: 1;
+    }
+
+    /* Actions Column */
+    .col-actions {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      align-items: flex-end;
+    }
+
+    .action-btn-row {
+      display: flex;
+      gap: 0.4rem;
+      width: 100%;
+      justify-content: flex-end;
+    }
+
+    .btn-approve {
+      padding: 0.55rem 1.1rem;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      transition: all 0.15s ease;
+      border: 1px solid var(--border-color);
+      background: #ffffff;
+      color: var(--text-secondary);
+    }
+
+    .btn-approve:hover {
+      border-color: var(--verified-green);
+      color: var(--verified-green);
+      background: var(--verified-bg);
+    }
+
+    .btn-approve.is-verified {
+      background: var(--verified-green);
+      color: #ffffff;
+      border-color: var(--verified-green);
+    }
+
+    .btn-approve.is-verified:hover {
+      background: #166534;
+      border-color: #166534;
+    }
+
+    .btn-flag {
+      padding: 0.55rem 0.95rem;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      transition: all 0.15s ease;
+      border: 1px solid var(--border-color);
+      background: #ffffff;
+      color: var(--text-secondary);
+    }
+
+    .btn-flag:hover {
+      border-color: var(--flagged-red);
+      color: var(--flagged-red);
+      background: var(--flagged-bg);
+    }
+
+    .btn-flag.is-flagged {
+      background: var(--flagged-red);
+      color: #ffffff;
+      border-color: var(--flagged-red);
+    }
+
+    .btn-flag.is-flagged:hover {
+      background: #991b1b;
+      border-color: #991b1b;
+    }
+
+    .btn-small {
+      padding: 0.4rem 0.65rem;
+      font-size: 0.78rem;
+    }
+
+    /* Pagination / Load more */
+    .pagination-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 2rem;
+      padding: 1rem 0;
+      border-top: 1px solid var(--border-color);
+    }
+
+    /* Modal */
+    .modal-backdrop {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(15, 23, 42, 0.6);
+      backdrop-filter: blur(4px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.2s ease;
+    }
+
+    .modal-backdrop.active {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .modal-card {
+      background: #ffffff;
+      border-radius: 10px;
+      width: 95%;
+      max-width: 620px;
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .modal-header {
+      padding: 1.25rem 1.5rem;
+      border-bottom: 1px solid var(--border-color);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .modal-title {
+      font-family: var(--heading-font);
+      font-size: 1.7rem;
+      color: var(--text-primary);
+    }
+
+    .modal-body {
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.1rem;
+      max-height: 70vh;
+      overflow-y: auto;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+
+    .form-label {
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--text-secondary);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .form-input {
+      padding: 0.6rem 0.85rem;
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      font-size: 0.95rem;
+      outline: none;
+    }
+
+    .form-input:focus {
+      border-color: var(--accent);
+    }
+
+    .modal-footer {
+      padding: 1rem 1.5rem;
+      border-top: 1px solid var(--border-color);
+      display: flex;
+      justify-content: flex-end;
+      gap: 0.75rem;
+      background: var(--app-bg);
+    }
+
+    /* Empty state */
+    .empty-state {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: #fff;
+      border-radius: 8px;
+      border: 1px dashed var(--border-color);
+      color: var(--text-secondary);
+    }
+
+    .empty-state i {
+      font-size: 3rem;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+    }
+
+    @media (max-width: 960px) {
+      .street-card {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+      }
+      .col-actions {
+        align-items: flex-start;
+      }
+      .action-btn-row {
+        justify-content: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="audit-container">
+
+    <!-- TOP HEADER -->
+    <header class="audit-header">
+      <div class="audit-title">
+        <h1>Master Street Registry & Audit</h1>
+        <div class="audit-subtitle">
+          Auditing directory streets against physical reference books (<em>Current Streets</em> &amp; <em>Lost Streets of Newport</em>).
+        </div>
+      </div>
+      <div class="audit-header-actions">
+        <a href="index.html#streets" class="btn">
+          <i class="ph ph-arrow-left"></i> Back to Archive
+        </a>
+        <button class="btn" style="background: #fef2f2; border-color: #fecaca; color: #b91c1c; font-weight: 600;" onclick="exportReviewNotesTSV()">
+          <i class="ph ph-file-tsv"></i> Export Review Notes (TSV)
+        </button>
+        <button class="btn" onclick="exportUserOverridesJSON()">
+          <i class="ph ph-download-simple"></i> Download user_overrides.json
+        </button>
+        <button class="btn btn-primary" onclick="exportMasterStreetsJSON()">
+          <i class="ph ph-floppy-disk"></i> Download master_streets.json
+        </button>
+      </div>
+    </header>
+
+    <!-- STATS OVERVIEW CARDS -->
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-card-title">
+          <span>Total Streets</span>
+          <i class="ph ph-buildings"></i>
+        </div>
+        <div class="stat-card-val" id="stat-total">1,399</div>
+        <div class="stat-card-sub">Active in historical directory catalog</div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-card-title">
+          <span>Approved / Verified</span>
+          <i class="ph ph-check-circle" style="color: var(--verified-green);"></i>
+        </div>
+        <div class="stat-card-val" id="stat-verified" style="color: var(--verified-green);">381</div>
+        <div class="progress-bar-container">
+          <div class="progress-bar-fill" id="stat-progress-bar" style="width: 27%;"></div>
+        </div>
+        <div class="stat-card-sub" id="stat-pct">27.2% verified</div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-card-title">
+          <span>Unverified Remaining</span>
+          <i class="ph ph-clock" style="color: var(--unverified-amber);"></i>
+        </div>
+        <div class="stat-card-val" id="stat-unverified" style="color: var(--unverified-amber);">1,018</div>
+        <div class="stat-card-sub">Awaiting cross-check with book</div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-card-title">
+          <span>With Notes</span>
+          <i class="ph ph-note-pencil" style="color: var(--note-blue);"></i>
+        </div>
+        <div class="stat-card-val" id="stat-notes" style="color: var(--note-blue);">0</div>
+        <div class="stat-card-sub">Annotated with book citations / distinctions</div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-card-title">
+          <span>Needs Review / Flagged</span>
+          <i class="ph ph-flag" style="color: var(--flagged-red);"></i>
+        </div>
+        <div class="stat-card-val" id="stat-flagged" style="color: var(--flagged-red);">0</div>
+        <div class="stat-card-sub">Marked incorrect or broken for AI review</div>
+      </div>
+    </div>
+
+    <!-- TOOLBAR -->
+    <div class="toolbar-container">
+      <div class="toolbar-row">
+        <div class="search-input-wrapper">
+          <i class="ph ph-magnifying-glass"></i>
+          <input type="text" id="audit-search" class="search-input" placeholder="Search streets by name, former name, or notes (Press '/' to focus)..." oninput="handleSearchInput()" />
+        </div>
+
+        <div style="display: flex; gap: 0.5rem; align-items: center;">
+          <label style="font-size: 0.85rem; color: var(--text-secondary); font-weight: 500;">Sort:</label>
+          <select id="sort-select" class="form-input" style="padding: 0.5rem 0.85rem; font-size: 0.88rem;" onchange="handleFilterChange()">
+            <option value="name_asc">Name (A–Z)</option>
+            <option value="name_desc">Name (Z–A)</option>
+            <option value="records_desc">Most Records</option>
+            <option value="records_asc">Fewest Records (Anomalies First)</option>
+            <option value="years_asc">Earliest Historical Year</option>
+            <option value="years_desc">Latest Year (1971 First)</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="toolbar-row">
+        <div class="filter-pills" id="filter-pills">
+          <div class="filter-pill" data-filter="unverified" onclick="setFilter('unverified')">⏳ Unverified (<span id="pill-cnt-unverified">-</span>)</div>
+          <div class="filter-pill" data-filter="flagged" onclick="setFilter('flagged')" style="color: var(--flagged-red); font-weight: 600;">🚩 Needs Review (<span id="pill-cnt-flagged">-</span>)</div>
+          <div class="filter-pill" data-filter="all" onclick="setFilter('all')">All Streets (1,399)</div>
+          <div class="filter-pill" data-filter="verified" onclick="setFilter('verified')">✅ Verified (<span id="pill-cnt-verified">-</span>)</div>
+          <div class="filter-pill" data-filter="has_notes" onclick="setFilter('has_notes')">📝 Has Notes (<span id="pill-cnt-notes">-</span>)</div>
+          <div class="filter-pill" data-filter="anomalies" onclick="setFilter('anomalies')">⚠️ Low Count (&le;5 recs)</div>
+          <div class="filter-pill" data-filter="1971_only" onclick="setFilter('1971_only')">🕰️ 1971 Only (Modern)</div>
+          <div class="filter-pill" data-filter="chambers" onclick="setFilter('chambers')">🏛️ Chambers / Arcades</div>
+        </div>
+      </div>
+
+      <div class="alpha-bar" id="alpha-bar">
+        <button class="alpha-btn active" data-letter="" onclick="setLetter('')">ALL</button>
+        <!-- Letters injected by JS -->
+      </div>
+    </div>
+
+    <!-- STREETS LIST -->
+    <div class="streets-list" id="streets-list">
+      <!-- Injected by JS -->
+    </div>
+
+    <!-- PAGINATION / SHOW MORE -->
+    <div class="pagination-bar" id="pagination-bar">
+      <div style="color: var(--text-secondary); font-size: 0.9rem;" id="page-summary">
+        Showing 1–50 of 1,399 streets
+      </div>
+      <div style="display: flex; gap: 0.5rem;">
+        <button class="btn" id="btn-prev-page" onclick="prevPage()"><i class="ph ph-caret-left"></i> Previous</button>
+        <button class="btn" id="btn-next-page" onclick="nextPage()">Next <i class="ph ph-caret-right"></i></button>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- EDIT STREET MODAL -->
+  <div class="modal-backdrop" id="edit-modal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="modal-title">✏️ Edit Street Details</div>
+        <button class="btn btn-small" onclick="closeEditModal()"><i class="ph ph-x"></i></button>
+      </div>
+      <div class="modal-body">
+        <input type="hidden" id="modal-slug" />
+        
+        <div class="form-group">
+          <label class="form-label">Canonical Display Name</label>
+          <input type="text" id="modal-canonical-name" class="form-input" />
+          <span style="font-size: 0.78rem; color: var(--text-muted);">Standard title-cased name for the master directory (e.g. Campbell Street).</span>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Former Street Names (Historical)</label>
+          <input type="text" id="modal-former-names" class="form-input" placeholder="e.g. Cross Street; Old Green" />
+          <span style="font-size: 0.78rem; color: var(--text-muted);">Semicolon or comma separated former names.</span>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">District / Parish</label>
+          <input type="text" id="modal-district" class="form-input" placeholder="e.g. Maindee, Pillgwenlly, St Woolos, Malpas" />
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Merge / Alias Into (If Typo or Variant)</label>
+          <input type="text" id="modal-merge-target" class="form-input" placeholder="e.g. Campbell Street" />
+          <span style="font-size: 0.78rem; color: var(--text-muted);">If this row is an OCR typo or variant that should merge into another canonical street.</span>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Verification Status</label>
+          <select id="modal-audit-status" class="form-input">
+            <option value="NAME_VERIFIED">✅ Verified (Confirmed genuine street)</option>
+            <option value="NEEDS_REVIEW">🚩 Needs Review / Incorrect (Flag for AI correction)</option>
+            <option value="UNVERIFIED">⏳ Unverified</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Historical Notes & Book References</label>
+          <textarea id="modal-notes" class="notes-input" style="min-height: 80px;" placeholder="Citations from Current Streets or Lost Streets book..."></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn" onclick="closeEditModal()">Cancel</button>
+        <button class="btn btn-primary" onclick="saveEditModal()">Save Street Details</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // --- State ---
+    let allStreets = [];
+    let masterRegistry = {};
+    let sessionOverrides = {}; // slug -> { audit_status, notes, canonical_name, former_names, district, merge_into }
+    
+    let currentFilter = 'unverified';
+    let currentLetter = '';
+    let searchQuery = '';
+    let currentSort = 'name_asc';
+    let currentPage = 1;
+    const pageSize = 50;
+
+    const LOCAL_STORAGE_KEY = 'newport_streets_master_audit_v1';
+
+    // --- Init ---
+    window.addEventListener('DOMContentLoaded', async () => {
+      loadSessionFromLocalStorage();
+      buildAlphaBar();
+      await loadData();
+      render();
+
+      // Keyboard shortcuts
+      window.addEventListener('keydown', (e) => {
+        if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+        
+        if (e.key === '/') {
+          e.preventDefault();
+          document.getElementById('audit-search').focus();
+        }
+      });
+    });
+
+    function loadSessionFromLocalStorage() {
+      try {
+        const saved = localStorage.getItem(LOCAL_STORAGE_KEY);
+        if (saved) {
+          sessionOverrides = JSON.parse(saved);
+        }
+      } catch (err) {
+        console.warn("Could not load local session overrides", err);
+      }
+    }
+
+    function saveSessionToLocalStorage() {
+      try {
+        localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(sessionOverrides));
+      } catch (err) {
+        console.warn("Could not save session to localStorage", err);
+      }
+    }
+
+    async function loadData() {
+      try {
+        const ts = Date.now();
+        const [streetsResp, masterResp] = await Promise.all([
+          fetch(`data/streets.json?v=${ts}`),
+          fetch(`master_streets.json?v=${ts}`)
+        ]);
+
+        if (streetsResp.ok) {
+          allStreets = await streetsResp.json();
+        }
+        if (masterResp.ok) {
+          const mData = await masterResp.json();
+          masterRegistry = mData.streets || {};
+        }
+
+        // Merge initial statuses and notes
+        allStreets.forEach(s => {
+          const m = masterRegistry[s.slug] || {};
+          const status = m.audit_status || (m.audit && m.audit.status) || s.auditStatus || 'UNVERIFIED';
+          s.auditStatus = status;
+          s.initialVerified = (status === 'VERIFIED' || status === 'NAME_VERIFIED' || status === 'FULLY_ENRICHED');
+          s.initialFlagged = (status === 'NEEDS_REVIEW' || status === 'FLAGGED');
+          s.initialNotes = m.notes || (m.audit && m.audit.notes) || '';
+          s.formerNames = m.former_names || s.formerNames || [];
+          s.district = m.district || '';
+        });
+
+        // Clean up any sessionOverrides whose slug no longer exists
+        const validSlugs = new Set(allStreets.map(s => s.slug));
+        Object.keys(sessionOverrides).forEach(slug => {
+          if (!validSlugs.has(slug) && !masterRegistry[slug]) {
+            delete sessionOverrides[slug];
+          }
+        });
+        saveSessionToLocalStorage();
+      } catch (err) {
+        console.error("Failed to load audit data", err);
+      }
+    }
+
+    function getStreetState(slug) {
+      const base = allStreets.find(s => s.slug === slug) || {};
+      const ov = sessionOverrides[slug] || {};
+      
+      let auditStatus = 'UNVERIFIED';
+      if (ov.audit_status !== undefined) {
+        auditStatus = ov.audit_status;
+      } else if (base.initialVerified) {
+        auditStatus = 'NAME_VERIFIED';
+      } else if (base.initialFlagged) {
+        auditStatus = 'NEEDS_REVIEW';
+      } else if (base.auditStatus) {
+        auditStatus = base.auditStatus;
+      }
+
+      const isVerified = (auditStatus === 'NAME_VERIFIED' || auditStatus === 'VERIFIED' || auditStatus === 'FULLY_ENRICHED');
+      const isFlagged = (auditStatus === 'NEEDS_REVIEW' || auditStatus === 'FLAGGED');
+
+      const notes = (ov.notes !== undefined) ? ov.notes : (base.initialNotes || '');
+      const canonicalName = ov.canonical_name || base.displayName || slug;
+      const formerNames = ov.former_names || base.formerNames || [];
+      const district = ov.district || base.district || '';
+      const mergeInto = ov.merge_into || '';
+
+      return {
+        ...base,
+        auditStatus,
+        isVerified,
+        isFlagged,
+        notes,
+        canonicalName,
+        formerNames,
+        district,
+        mergeInto
+      };
+    }
+
+    // --- Filtering & Sorting ---
+    function getFilteredStreets() {
+      let list = allStreets.map(s => getStreetState(s.slug));
+
+      // Filter
+      if (currentFilter === 'unverified') {
+        list = list.filter(s => !s.isVerified && !s.isFlagged);
+      } else if (currentFilter === 'flagged') {
+        list = list.filter(s => s.isFlagged);
+      } else if (currentFilter === 'verified') {
+        list = list.filter(s => s.isVerified);
+      } else if (currentFilter === 'has_notes') {
+        list = list.filter(s => s.notes && s.notes.trim().length > 0);
+      } else if (currentFilter === 'anomalies') {
+        list = list.filter(s => (s.recordsCount || 0) <= 5);
+      } else if (currentFilter === '1971_only') {
+        list = list.filter(s => s.earliestYear === 1971 && s.latestYear === 1971);
+      } else if (currentFilter === 'chambers') {
+        list = list.filter(s => {
+          const n = s.canonicalName.toLowerCase();
+          return n.includes('chamber') || n.includes('arcade') || n.includes('dock') || n.includes('wharf') || n.includes('court') || n.includes('hall');
+        });
+      }
+
+      // Letter
+      if (currentLetter) {
+        list = list.filter(s => s.canonicalName.toUpperCase().startsWith(currentLetter));
+      }
+
+      // Search Query
+      if (searchQuery) {
+        const q = searchQuery.toLowerCase();
+        list = list.filter(s => 
+          s.canonicalName.toLowerCase().includes(q) ||
+          s.slug.toLowerCase().includes(q) ||
+          (s.notes && s.notes.toLowerCase().includes(q)) ||
+          (s.formerNames && s.formerNames.some(fn => fn.toLowerCase().includes(q))) ||
+          (s.yearsSpan && s.yearsSpan.includes(q))
+        );
+      }
+
+      // Sorting
+      list.sort((a, b) => {
+        if (currentSort === 'name_asc') return a.canonicalName.localeCompare(b.canonicalName);
+        if (currentSort === 'name_desc') return b.canonicalName.localeCompare(a.canonicalName);
+        if (currentSort === 'records_desc') return (b.recordsCount || 0) - (a.recordsCount || 0);
+        if (currentSort === 'records_asc') return (a.recordsCount || 0) - (b.recordsCount || 0);
+        if (currentSort === 'years_asc') return (a.earliestYear || 0) - (b.earliestYear || 0);
+        if (currentSort === 'years_desc') return (b.latestYear || 0) - (a.latestYear || 0);
+        return 0;
+      });
+
+      return list;
+    }
+
+    // --- Render ---
+    function render() {
+      updateStats();
+
+      const filtered = getFilteredStreets();
+      const totalCount = filtered.length;
+      const totalPages = Math.ceil(totalCount / pageSize) || 1;
+      if (currentPage > totalPages) currentPage = totalPages;
+      if (currentPage < 1) currentPage = 1;
+
+      const startIdx = (currentPage - 1) * pageSize;
+      const endIdx = Math.min(startIdx + pageSize, totalCount);
+      const pageItems = filtered.slice(startIdx, endIdx);
+
+      const container = document.getElementById('streets-list');
+      if (!pageItems.length) {
+        container.innerHTML = `
+          <div class="empty-state">
+            <i class="ph ph-magnifying-glass"></i>
+            <h3>No streets found matching filter</h3>
+            <p>Try clearing your search query or selecting a different filter above.</p>
+          </div>
+        `;
+      } else {
+        container.innerHTML = pageItems.map(s => renderStreetCard(s)).join('');
+      }
+
+      // Update pagination bar
+      const summaryElem = document.getElementById('page-summary');
+      if (summaryElem) {
+        summaryElem.innerText = totalCount === 0 
+          ? '0 streets' 
+          : `Showing ${startIdx + 1}–${endIdx} of ${totalCount.toLocaleString()} streets`;
+      }
+
+      const prevBtn = document.getElementById('btn-prev-page');
+      const nextBtn = document.getElementById('btn-next-page');
+      if (prevBtn) prevBtn.disabled = (currentPage <= 1);
+      if (nextBtn) nextBtn.disabled = (currentPage >= totalPages);
+
+      // Update filter pills active state
+      document.querySelectorAll('.filter-pill').forEach(p => {
+        p.classList.toggle('active', p.getAttribute('data-filter') === currentFilter);
+      });
+
+      // Update alpha bar active state
+      document.querySelectorAll('.alpha-btn').forEach(b => {
+        b.classList.toggle('active', b.getAttribute('data-letter') === currentLetter);
+      });
+    }
+
+    function renderStreetCard(s) {
+      const isVer = s.isVerified;
+      const isFlagged = s.isFlagged;
+      const hasNotes = Boolean(s.notes && s.notes.trim().length);
+      const cardClasses = `street-card ${isVer ? 'verified' : ''} ${isFlagged ? 'flagged' : ''} ${hasNotes ? 'has-notes' : ''}`;
+
+      let statusBadge = '';
+      if (isVer) {
+        statusBadge = `<span class="badge badge-verified"><i class="ph ph-check-circle"></i> Verified</span>`;
+      } else if (isFlagged) {
+        statusBadge = `<span class="badge badge-flagged"><i class="ph ph-flag-fill"></i> Needs Review</span>`;
+      } else {
+        statusBadge = `<span class="badge badge-unverified"><i class="ph ph-clock"></i> Unverified</span>`;
+      }
+
+      const yearsBadge = `<span class="badge badge-meta"><i class="ph ph-calendar"></i> ${s.yearsSpan || s.earliestYear}</span>`;
+      const recordsBadge = `<span class="badge badge-meta"><i class="ph ph-users"></i> ${s.recordsCount ? s.recordsCount.toLocaleString() : 0} recs</span>`;
+      const housesBadge = s.houseCount ? `<span class="badge badge-meta"><i class="ph ph-house-line"></i> ${s.houseCount} houses</span>` : '';
+
+      const formerBadge = (s.formerNames && s.formerNames.length) 
+        ? `<span class="badge badge-former" title="Former Street Name"><i class="ph ph-clock-counter-clockwise"></i> Fmr: ${s.formerNames.join(', ')}</span>`
+        : '';
+
+      const mergeBadge = s.mergeInto
+        ? `<span class="badge badge-former" style="background: #eff6ff; color: #1d4ed8; border-color: #bfdbfe;"><i class="ph ph-arrows-merge"></i> Merges into: ${s.mergeInto}</span>`
+        : '';
+
+      const districtBadge = s.district
+        ? `<span class="badge badge-meta" style="background: #fdf4ff; color: #a21caf;"><i class="ph ph-map-pin"></i> ${s.district}</span>`
+        : '';
+
+      return `
+        <div class="${cardClasses}" id="card-${s.slug}">
+          <!-- COL 1: INFO -->
+          <div class="col-info">
+            <div class="street-name-row">
+              <span class="street-display-name">${escapeHTML(s.canonicalName)}</span>
+              <span class="street-slug">${escapeHTML(s.slug)}</span>
+            </div>
+            <div class="badges-row">
+              ${statusBadge}
+              ${yearsBadge}
+              ${recordsBadge}
+              ${housesBadge}
+              ${formerBadge}
+              ${mergeBadge}
+              ${districtBadge}
+            </div>
+          </div>
+
+          <!-- COL 2: NOTES -->
+          <div class="col-notes">
+            <div class="notes-label">
+              <span>Historical Book Notes / Distinctions</span>
+              <span class="saved-pill" id="saved-${s.slug}">Saved ✓</span>
+            </div>
+            <textarea 
+              class="notes-input" 
+              placeholder="Add citations from Current Streets or Lost Streets book (e.g. Page 42; distinct from Road; OCR error; merge into...)..."
+              oninput="handleNoteChange('${s.slug}', this.value)"
+            >${escapeHTML(s.notes || '')}</textarea>
+          </div>
+
+          <!-- COL 3: ACTIONS -->
+          <div class="col-actions">
+            <div class="action-btn-row">
+              <button 
+                class="btn-approve ${isVer ? 'is-verified' : ''}" 
+                onclick="toggleApprove('${s.slug}')"
+                title="${isVer ? 'Click to mark unverified' : 'Confirm and verify this genuine street'}"
+              >
+                <i class="ph ${isVer ? 'ph-check-bold' : 'ph-check'}"></i>
+                <span>${isVer ? 'Approved' : 'Approve'}</span>
+              </button>
+              <button 
+                class="btn-flag ${isFlagged ? 'is-flagged' : ''}" 
+                onclick="toggleFlag('${s.slug}')"
+                title="${isFlagged ? 'Remove review flag' : 'Mark as incorrect or broken for AI review'}"
+              >
+                <i class="ph ${isFlagged ? 'ph-flag-fill' : 'ph-flag'}"></i>
+                <span>${isFlagged ? 'Flagged' : 'Needs Fix'}</span>
+              </button>
+            </div>
+            <div class="action-btn-row">
+              <button class="btn btn-small" onclick="openEditModal('${s.slug}')">
+                <i class="ph ph-pencil-simple"></i> Edit
+              </button>
+              <a href="index.html#street=${encodeURIComponent(s.canonicalName)}" target="_blank" class="btn btn-small" title="Inspect records on live archive">
+                <i class="ph ph-arrow-square-out"></i> View
+              </a>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    // --- State Mutations ---
+    function toggleApprove(slug) {
+      const cur = getStreetState(slug);
+      const nextVer = !cur.isVerified;
+
+      if (!sessionOverrides[slug]) sessionOverrides[slug] = {};
+      sessionOverrides[slug].audit_status = nextVer ? 'NAME_VERIFIED' : 'UNVERIFIED';
+      saveSessionToLocalStorage();
+      render();
+    }
+
+    function toggleFlag(slug) {
+      const cur = getStreetState(slug);
+      const nextFlag = !cur.isFlagged;
+
+      if (!sessionOverrides[slug]) sessionOverrides[slug] = {};
+      sessionOverrides[slug].audit_status = nextFlag ? 'NEEDS_REVIEW' : 'UNVERIFIED';
+      saveSessionToLocalStorage();
+      render();
+
+      if (nextFlag) {
+        // Auto-focus notes input on this card so user can immediately write what's wrong
+        setTimeout(() => {
+          const card = document.getElementById(`card-${slug}`);
+          if (card) {
+            const textarea = card.querySelector('textarea');
+            if (textarea) textarea.focus();
+          }
+        }, 50);
+      }
+    }
+
+    function handleNoteChange(slug, val) {
+      if (!sessionOverrides[slug]) sessionOverrides[slug] = {};
+      sessionOverrides[slug].notes = val;
+      saveSessionToLocalStorage();
+      updateStats();
+
+      // Flash "Saved ✓"
+      const pill = document.getElementById(`saved-${slug}`);
+      if (pill) {
+        pill.classList.add('show');
+        clearTimeout(pill._timer);
+        pill._timer = setTimeout(() => pill.classList.remove('show'), 1500);
+      }
+    }
+
+    // --- Edit Modal ---
+    function openEditModal(slug) {
+      const s = getStreetState(slug);
+      document.getElementById('modal-slug').value = slug;
+      document.getElementById('modal-canonical-name').value = s.canonicalName;
+      document.getElementById('modal-former-names').value = (s.formerNames || []).join('; ');
+      document.getElementById('modal-district').value = s.district || '';
+      document.getElementById('modal-merge-target').value = s.mergeInto || '';
+      document.getElementById('modal-audit-status').value = s.auditStatus || (s.isVerified ? 'NAME_VERIFIED' : (s.isFlagged ? 'NEEDS_REVIEW' : 'UNVERIFIED'));
+      document.getElementById('modal-notes').value = s.notes || '';
+
+      document.getElementById('edit-modal').classList.add('active');
+    }
+
+    function closeEditModal() {
+      document.getElementById('edit-modal').classList.remove('active');
+    }
+
+    function saveEditModal() {
+      const slug = document.getElementById('modal-slug').value;
+      const cName = document.getElementById('modal-canonical-name').value.trim();
+      const formerRaw = document.getElementById('modal-former-names').value.trim();
+      const district = document.getElementById('modal-district').value.trim();
+      const mergeTarget = document.getElementById('modal-merge-target').value.trim();
+      const auditStatus = document.getElementById('modal-audit-status').value;
+      const notes = document.getElementById('modal-notes').value.trim();
+
+      const formerNames = formerRaw ? formerRaw.split(/[;,]/).map(x => x.trim()).filter(Boolean) : [];
+
+      if (!sessionOverrides[slug]) sessionOverrides[slug] = {};
+      sessionOverrides[slug].canonical_name = cName;
+      sessionOverrides[slug].former_names = formerNames;
+      sessionOverrides[slug].district = district;
+      sessionOverrides[slug].merge_into = mergeTarget;
+      sessionOverrides[slug].audit_status = auditStatus;
+      sessionOverrides[slug].notes = notes;
+
+      saveSessionToLocalStorage();
+      closeEditModal();
+      render();
+    }
+
+    // --- Toolbar Handlers ---
+    function handleSearchInput() {
+      searchQuery = document.getElementById('audit-search').value.trim();
+      currentPage = 1;
+      render();
+    }
+
+    function handleFilterChange() {
+      currentSort = document.getElementById('sort-select').value;
+      currentPage = 1;
+      render();
+    }
+
+    function setFilter(filter) {
+      currentFilter = filter;
+      currentPage = 1;
+      render();
+    }
+
+    function setLetter(ltr) {
+      currentLetter = ltr;
+      currentPage = 1;
+      render();
+    }
+
+    function prevPage() {
+      if (currentPage > 1) {
+        currentPage--;
+        render();
+        window.scrollTo({ top: 380, behavior: 'smooth' });
+      }
+    }
+
+    function nextPage() {
+      currentPage++;
+      render();
+      window.scrollTo({ top: 380, behavior: 'smooth' });
+    }
+
+    function buildAlphaBar() {
+      const bar = document.getElementById('alpha-bar');
+      const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+      letters.forEach(l => {
+        const btn = document.createElement('button');
+        btn.className = 'alpha-btn';
+        btn.setAttribute('data-letter', l);
+        btn.innerText = l;
+        btn.onclick = () => setLetter(l);
+        bar.appendChild(btn);
+      });
+    }
+
+    function updateStats() {
+      let verifiedCount = 0;
+      let flaggedCount = 0;
+      let notesCount = 0;
+      const total = allStreets.length || 1399;
+
+      allStreets.forEach(s => {
+        const state = getStreetState(s.slug);
+        if (state.isVerified) verifiedCount++;
+        if (state.isFlagged) flaggedCount++;
+        if (state.notes && state.notes.trim().length) notesCount++;
+      });
+
+      const unverifiedCount = Math.max(0, total - verifiedCount - flaggedCount);
+      const pct = ((verifiedCount / total) * 100).toFixed(1);
+
+      const elTotal = document.getElementById('stat-total');
+      const elVer = document.getElementById('stat-verified');
+      const elUnver = document.getElementById('stat-unverified');
+      const elFlag = document.getElementById('stat-flagged');
+      const elNotes = document.getElementById('stat-notes');
+      const elBar = document.getElementById('stat-progress-bar');
+      const elPct = document.getElementById('stat-pct');
+
+      if (elTotal) elTotal.innerText = total.toLocaleString();
+      if (elVer) elVer.innerText = verifiedCount.toLocaleString();
+      if (elUnver) elUnver.innerText = unverifiedCount.toLocaleString();
+      if (elFlag) elFlag.innerText = flaggedCount.toLocaleString();
+      if (elNotes) elNotes.innerText = notesCount.toLocaleString();
+      if (elBar) elBar.style.width = `${pct}%`;
+      if (elPct) elPct.innerText = `${pct}% verified`;
+
+      const pillUnver = document.getElementById('pill-cnt-unverified');
+      const pillVer = document.getElementById('pill-cnt-verified');
+      const pillFlag = document.getElementById('pill-cnt-flagged');
+      const pillNotes = document.getElementById('pill-cnt-notes');
+      if (pillUnver) pillUnver.innerText = unverifiedCount.toLocaleString();
+      if (pillVer) pillVer.innerText = verifiedCount.toLocaleString();
+      if (pillFlag) pillFlag.innerText = flaggedCount.toLocaleString();
+      if (pillNotes) pillNotes.innerText = notesCount.toLocaleString();
+    }
+
+    // --- Export & Ingest ---
+    function exportReviewNotesTSV() {
+      const items = [];
+      allStreets.forEach(s => {
+        const state = getStreetState(s.slug);
+        if (state.isFlagged || (state.notes && state.notes.trim().length > 0)) {
+          items.push(state);
+        }
+      });
+
+      if (!items.length) {
+        alert("No flagged streets or notes found to export yet. Click 'Needs Fix' or add notes on any street first!");
+        return;
+      }
+
+      const headers = ["Canonical Name", "Current Slug", "Audit Status", "Review Notes / Distinctions", "Records Count", "Years Span"];
+      const rows = items.map(s => [
+        s.canonicalName || '',
+        s.slug || '',
+        s.auditStatus || (s.isFlagged ? 'NEEDS_REVIEW' : 'UNVERIFIED'),
+        (s.notes || '').replace(/[\r\n\t]+/g, ' '),
+        s.recordsCount || 0,
+        s.yearsSpan || ''
+      ]);
+
+      const tsvContent = [headers.join('\t'), ...rows.map(r => r.join('\t'))].join('\n');
+      const blob = new Blob([tsvContent], { type: 'text/tab-separated-values;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      const today = new Date().toISOString().split('T')[0];
+      a.download = `street_review_notes_${today}.tsv`;
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+
+    // --- Export & Ingest ---
+    function exportUserOverridesJSON() {
+      const overridesList = [];
+
+      Object.entries(sessionOverrides).forEach(([slug, ov]) => {
+        const base = allStreets.find(s => s.slug === slug) || {};
+        overridesList.push({
+          action: "UPDATE_MASTER_REGISTRY",
+          slug: slug,
+          canonical_name: ov.canonical_name || base.displayName || slug,
+          audit_status: ov.audit_status || (ov.isVerified ? "NAME_VERIFIED" : "UNVERIFIED"),
+          notes: ov.notes || "",
+          former_names: ov.former_names || base.formerNames || [],
+          district: ov.district || base.district || "",
+          merge_into: ov.merge_into || ""
+        });
+      });
+
+      const blob = new Blob([JSON.stringify({ overrides: overridesList }, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'user_overrides.json';
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+
+    function exportMasterStreetsJSON() {
+      const updatedMaster = JSON.parse(JSON.stringify(masterRegistry));
+
+      allStreets.forEach(s => {
+        const state = getStreetState(s.slug);
+        const existing = updatedMaster[s.slug] || {};
+
+        updatedMaster[s.slug] = {
+          canonical_name: state.canonicalName || existing.canonical_name || s.displayName,
+          slug: s.slug,
+          district: state.district || existing.district || '',
+          parish: existing.parish || '',
+          former_names: state.formerNames || existing.former_names || [],
+          sub_sections: existing.sub_sections || [],
+          numbering_scheme: existing.numbering_scheme || { type: 'ODDS_EVENS' },
+          cross_streets: existing.cross_streets || [],
+          aliases: existing.aliases || [],
+          audit: {
+            status: state.isVerified ? 'NAME_VERIFIED' : 'UNVERIFIED',
+            verified_by: 'Rob Gale',
+            notes: state.notes || ''
+          },
+          coordinates: existing.coordinates || { lat: s.latitude || null, lng: s.longitude || null },
+          audit_status: state.isVerified ? 'NAME_VERIFIED' : 'UNVERIFIED',
+          notes: state.notes || '',
+          latitude: s.latitude || existing.latitude || '',
+          longitude: s.longitude || existing.longitude || ''
+        };
+      });
+
+      const fullOutput = {
+        description: "Newport Street Directory Master Registry",
+        streets: updatedMaster
+      };
+
+      const blob = new Blob([JSON.stringify(fullOutput, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'master_streets.json';
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+
+    function escapeHTML(str) {
+      if (!str) return '';
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Faulkner Road, C 5,,,,,"Godfrey-road to Clytha-park"
+cross_street,Faulkner Road,,,,,,[LEFT HAND SIDE.]
+resident,Faulkner Road,1,Goldfield h,Mrs. M.,Keene,,
+resident,Faulkner Road,2,Lydney ho,Mrs. E.,Jacobs,,
+resident,Faulkner Road,3,,Avondale-void,,,
+resident,Faulkner Road,4,Edenhurst,J. O.,Palmer,,
+resident,Faulkner Road,5,,Arthur,Davies,,
+cross_street,Faulkner Road,,,,,,(return)
+resident,Faulkner Road,6,Edgbaston h,Mrs. S.,Howes,,
+resident,Faulkner Road,,girls' school,Miss,Howes,,
+resident,Faulkner Road,7,,John W.,Hall,B.A.,
+resident,Faulkner Road,8,Moorlinch h,S. D.,Williams,,
+resident,Faulkner Road,,,Alfred S.,Williams,,
+resident,Faulkner Road,9,,Mrs. A. W.,Gait,,
+resident,Faulkner Road,52,,Mrs. M. E.,Vaz,,
+resident,Faulkner Road,50,,Ralph,Collier,labourer,
+resident,Faulkner Road,48,,Wm.,Walters,labourer,
+resident,Faulkner Road,46,,Mrs. Alice,Smith,,
+resident,Faulkner Road,44,,John Hy.,Howard,painter,
+resident,Faulkner Road,42,,William,Stidder,,
+resident,Faulkner Road,40,,James,Nelson,fireman,
+resident,Faulkner Road,38,,Chas.,Parfitt,labourer,
+resident,Faulkner Road,36,,John,Mould,ironworker,
+resident,Faulkner Road,34,,Sidney,Blythe,seaman,
+resident,Faulkner Road,32,,Henry,Sirrell,motorman,
+resident,Faulkner Road,30,,Joseph,Roberts,,
+resident,Faulkner Road,28,,Emanuel G.,Clarke,ironwkr,
+resident,Faulkner Road,26,,Enoch,Witton,ironwkr,
+resident,Faulkner Road,24,,Samuel A.,Jones,labr,
+resident,Faulkner Road,22,,John,Williams,painter,
+resident,Faulkner Road,20,,Hy.,Jeffreys,ironworker,
+resident,Faulkner Road,18,,Isaac,Whittingham,labr,
+resident,Faulkner Road,16,,Jas.,Humphries,ironwkr,
+resident,Faulkner Road,14,,Jas.,Jones,dock labourer,
+resident,Faulkner Road,12,,John,Farley,labourer,
+resident,Faulkner Road,10,,Thomas,Ford,labourer,
+resident,Faulkner Road,8,,Wm.,O'Connell,labourer,
+resident,Faulkner Road,6,,Arthur,Giles,shedman,
+resident,Faulkner Road,4,,Reub.,Dennison,ironwkr,
+resident,Faulkner Road,2,,Mrs. Susan,Baker,,
+street,Feering Street, D 3,,,,,"Off Coverack-road."
+cross_street,Feering Street,,,,,,[LEFT HAND SIDE.]
+resident,Feering Street,1,,Alex.,McDougall,fireman,
+resident,Feering Street,3,,Henry,Steward,,
+resident,Feering Street,5,,Mrs. Mary,Cadman,,
+resident,Feering Street,7,,John,Gould,traveller,
+resident,Feering Street,9,,Void,,,
+resident,Feering Street,11,,Alexander,Veal,labr,
+resident,Feering Street,13,,Geo.,Waite,hawker,
+resident,Feering Street,15,,Alfred,Dowding,,
+resident,Feering Street,17,,Thos.,Evans,labourer,
+resident,Feering Street,19,,Wm.,Williams,,
+resident,Feering Street,21,,Fredk.,Henson,labourer,
+resident,Feering Street,23,,James,Williams,shearer,
+resident,Feering Street,25,,Albert,Ball,,
+resident,Feering Street,27,,John,Windsor,,
+resident,Feering Street,29,,William,Johnsey,,
+resident,Feering Street,31,,Francis,Morris,labourer,
+resident,Feering Street,33,,Geo.,Davies,labourer,
+resident,Feering Street,35,,Thos.,Desmond,labourer,
+resident,Feering Street,37,,Henry,Turner,ironwkr,
+resident,Feering Street,39,,Wm.,Davis,labourer,
+resident,Feering Street,41,,William,Wood,labourer,
+resident,Feering Street,43,,Mrs. Elizabeth,Pritchard,,
+resident,Feering Street,45,,Isaac,Lee,labourer,
+resident,Feering Street,47,,Jere,Mahoney,seaman,
+resident,Feering Street,49,,Geo.,Watkins,ironworker,
+resident,Feering Street,51,,Geo.,Wilkinson,labourer,
+resident,Feering Street,53,,Richard,Mapp,labourer,
+resident,Feering Street,55,,Wm.,Baker,ironworker,
+resident,Feering Street,57,,Alfred,Goode,labourer,
+resident,Feering Street,59,,Robt.,Connors,ironwkr,
+cross_street,Feering Street,,,,,,Vacant sites
+cross_street,Feering Street,,,,,,(return)
+cross_street,Feering Street,,,,,,Vacant sites
+resident,Feering Street,60,,Wm.,Hoskins,labourer,
+resident,Feering Street,58,,Thos.,Blewitt,haulier,
+resident,Feering Street,56,,Geo.,Bates,ironworker,
+resident,Feering Street,54,,Jesse,Godwin,labourer,
+street,Fields Park Avenue, C 6,,,,,"Fields-park."
+resident,Fields Park Avenue,,,,,,3 houses void
+resident,Fields Park Avenue,,,,,,Houses building
+cross_street,Fields Park Avenue,,,,,,Vacant sites
+resident,Fields Park Avenue,,,,,,Houses building
+resident,Fields Park Avenue,,,,,,2 houses void
+street,Fields Park Cres., C 8,,,,,"From Fields-road."
+resident,Fields Park Cres.,,,Ingleside-void,,,
+resident,Fields Park Cres.,,Elmswood,Daniel,Guy,,
+street,Fields Park Road, C 6,,,,,"From Fields-road."
+cross_street,Fields Park Road,,,,,,[RIGHT HAND SIDE.]
+resident,Fields Park Road,,Merlin,J. H.,Williams,,
+resident,Fields Park Road,,Silesia,Mrs. C.,Williams,,
+resident,Fields Park Road,,Penycoed,B. C.,Jones,,
+resident,Fields Park Road,,Glynwood,Oscar,Sutcliffe,,
+resident,Fields Park Road,,Deanfield,Mrs. M.,Evans,,
+resident,Fields Park Road,,Kenmore,Lewis,Jones,,
+resident,Fields Park Road,,Rhianfa,Thomas,John,,
+resident,Fields Park Road,,The Dingle,T. H.,Hutchinson,,
+resident,Fields Park Road,,Selworthy,T. H.,Reynolds,,
+cross_street,Fields Park Road,,,,,,Vacant sites
+resident,Fields Park Road,,,,,,2 houses void
+resident,Fields Park Road,,Glannant,Alfred P.,Williams,,
+resident,Fields Park Road,,The Kloof,Walter H.,Ford,,
+resident,Fields Park Road,,Glanmor,Mrs. C.,Slade,,
+resident,Fields Park Road,,Rostrevor,W. B.,Seymour,,
+resident,Fields Park Road,,Hollybank,W. M.,Blackburn,,
+resident,Fields Park Road,,Cedar Lawn,Henry,Morris,,
+cross_street,Fields Park Road,,,,,,here is Fields-park Avenue.
+resident,Fields Park Road,,Cefn Newydd,C. R.,Lyne,,
+resident,Fields Park Road,,Penderyn,Albert A.,Newman,,
+resident,Fields Park Road,,Fields house,F. P.,Robjent,,
+cross_street,Fields Park Road,,,,,,Vacant sites
+resident,Fields Park Road,,The Fields,A. M.,James,,
+resident,Fields Park Road,,Colhugh,Capt. R. E. M.,Brewer,,
+cross_street,Fields Park Road,,,,,,here is Fields-park Avenue.
+cross_street,Fields Park Road,,,,,,(return)
+resident,Fields Park Road,,King's Acre,Hugh,Watts,,
+resident,Fields Park Road,,St. Briavels,George,Spittle,,
+cross_street,Fields Park Road,,,,,,Vacant sites
+resident,Fields Park Road,,The Limes,Alexandra,Taylor,,
+cross_street,Fields Park Road,,,,,,here is Fields-park Crescent.
+cross_street,Fields Park Road,,,,,,Vacant sites
+resident,Fields Park Road,,Oakfield,A. C. C.,Davies,,
+resident,Fields Park Road,,Coed Rath,B. L.,Railton,,
+resident,Fields Park Road,,Deepdene,A. M.,Cullimore,,
+resident,Fields Park Road,,Brondeg,Benj.,Price,,
+resident,Fields Park Road,,Ellesmere,Geo.,Shrubsole,,
+resident,Fields Park Road,,Brent Knoll,Reginald,Pitt,,
+resident,Fields Park Road,,Bellwood,Mrs. E.,Fennell,,
+resident,Fields Park Road,,Borrodaile,G. Ll.,Lloyd,,
+resident,Fields Park Road,,The Heath,Alfred,Winson,,
+resident,Fields Park Road,,Devonfield,W.,Brace,M.P.,
+street,Fields Road, C 5,,,,,"From Mill-street to the Fields"
+cross_street,Fields Road,,,,,,[LEFT HAND SIDE.]
+resident,Fields Road,,Enville h,Mrs. H. W.,Evans,,
+resident,Fields Road,,St. Mary's Lodge,Thos. E.,Watson,J.P.,
+cross_street,Fields Road,,,,,,[RIGHT HAND SIDE.]
+resident,Fields Road,,,COUNTY COUNCIL OFFICES,,,
+resident,Fields Road,,,Girls' entrance to Intermediate School,,,
+resident,Fields Road,1,Solar ldg,J. H.,Wagstaff,,
+resident,Fields Road,2,Ty-Cefn,Alfd. W.,Thomas,,
+resident,Fields Road,3,St. Maur,Mrs. Alice,Penman,,
+resident,Fields Road,4,St.Monton,Tom,Stephens,,
+resident,Fields Road,5,Penybryn,Rev. A. T.,Jones,,
+resident,Fields Road,6,Highbank,A. D.,Simmonds,,
+resident,Fields Road,7,Glen Lyn,H. G.,Lloyd,,
+cross_street,Fields Road,,,,,,here is St. Mark's-crescent.
+resident,Fields Road,8,Ty Clyd,Rev. T. H.,Williams,,
+resident,Fields Road,9,Kingsdown,Wm.,Hayman,,

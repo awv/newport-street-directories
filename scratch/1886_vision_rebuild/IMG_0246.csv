@@ -1,0 +1,47 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,,,Knight,Lewis,,joiner,
+resident,,,Phillips,John,,H.M's Custom,
+resident,,,Williams,Lewis,junr.,,
+resident,,,Williams,William,,,
+resident,,,Prowl,G.,,coach wheeler,
+street,Whitby Place, B.T.,,,,,,"From Princes-street."
+resident,Whitby Place, B.T.,,,Driscoll,John,armourer,
+resident,Whitby Place, B.T.,,,Wheeler,Frank,policeman,
+street,Windsor Terrace,,,,,,From Summerhill to Duckpool-road.
+resident,Windsor Terrace,,Hillside,Hitchcox,Wm.,,,
+resident,Windsor Terrace,1,,Evans,Chas.,timber mer,
+resident,Windsor Terrace,2,,Beynon,Mrs. Elias,,
+resident,Windsor Terrace,3,,Evans,James D.,fitter,
+resident,Windsor Terrace,4,,Walker,George,agent,
+resident,Windsor Terrace,5,,Green,J. W.,,,
+resident,Windsor Terrace,6,,Gay,John,stonemason,
+resident,Windsor Terrace,7,,Groves,John Francis,,
+resident,Windsor Terrace,8-9,,,,Void,
+resident,Windsor Terrace,10,,Fry,Henry,,,
+street,Woodland Park,,,,,,From Woodland-road.
+resident,Woodland Park,,Overston lodge,Jones,Wm.,,,
+resident,Woodland Park,,Villa,,,void,
+resident,Woodland Park,,Rougemont,Tapson,A. H.,,,
+street,Woodland Road,,,,,,From Victoria-avenue to Crescent-road.
+resident,Woodland Road,,Wrington vil,Harse,Samuel,,,
+resident,Woodland Road,,Brighton villa,Davies,A. E.,,,
+resident,Woodland Road,,Harley ho,Cusack,Thomas,,,
+resident,Woodland Road,,Newton ho,Wyber,Isaac,,,
+resident,Woodland Road,,Fernside v,Jordan,Mrs. M.,,,
+resident,Woodland Road,,Glynmawr c,Griffiths,Mrs. B.,,,
+resident,Woodland Road,,,Dean,John,signalman,
+resident,Woodland Road,,,Powell,John,fitter,
+resident,Woodland Road,,,Phillips,W. W.,,,
+resident,Woodland Road,,Woodl'd Nursery,T.,Davies,,
+resident,Woodland Road,,Woodland house,Willett,Rev. W. M. (Nash),,,
+resident,Woodland Road,,Woodland cot,Latch,Tom Ll.,,,
+resident,Woodland Road,,,Fuller,Thos. C.,manager,
+resident,Woodland Road,,,Jakeway,Walter,,,
+resident,Woodland Road,,The Woodlands,Berlyn,J.,,,
+cross_street,Woodland Road,,,,,,here is Woodland-park.
+cross_street,Woodland Road,,,,,,(return.)
+resident,Woodland Road,,Woodbine villa,Jobbins,E.,,,
+resident,Woodland Road,,Frank villa,Taplin,Chas.,,,
+resident,Woodland Road,,Ivy cottage,Moores,Herbert,,,
+resident,Woodland Road,,Glen villa,Matthews,Hy.,,,
+street,Wrington Terrace,,,,,,See Victoria-avenue.

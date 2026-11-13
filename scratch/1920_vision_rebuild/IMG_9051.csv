@@ -1,0 +1,173 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,SER,2,,R. S.,Roberts,,Vaindre
+resident,SER,3,,F. R.,Bates,,Bindon
+resident,SER,4,,Henry,Griffiths,,Elmwood
+resident,SER,5,,A.,Billingham,,Sharnbrook
+resident,SER,6,,Mrs. J.,Jackson,,Langorse
+resident,SER,7,,Harry,Leeson,,Highgate
+resident,SER,8,,,,,Void
+resident,SER,9,,Albert,Flook,,Silverhowe
+resident,SER,10,,J.,Pappe,,Colwinstone
+street,SEVERN TERRACE.,,,,,D 5,Opposite St. Woolos Church
+resident,SEVERN TERRACE.,1,,John Owen,Davies,,
+resident,SEVERN TERRACE.,2,,Charles A.,Desmarons,,
+resident,SEVERN TERRACE.,3,,Frederick,Banks,,
+resident,SEVERN TERRACE.,4,,H. J.,Strong,,
+resident,SEVERN TERRACE.,5,,Henry,Williams,,
+resident,SEVERN TERRACE.,6,,J.,Stone,,
+resident,SEVERN TERRACE.,,Charles,Saysill,,,
+street,SEVERN VIEW.,,,,,D 5,"(Formerly the Rookery) From 105 Stow-hill"
+resident,SEVERN VIEW.,1,,Mis. Amy,Ashwell,,
+resident,SEVERN VIEW.,2,,Thos.,Godsall,labourer,
+resident,SEVERN VIEW.,3,,Mrs. Mary,Morgan,,
+resident,SEVERN VIEW.,4,,Antonio,Icardi,,
+resident,SEVERN VIEW.,5,,Elias,Harrington,seaman,
+resident,SEVERN VIEW.,6,,John,Brice,labourer,
+resident,SEVERN VIEW.,7,,Charles,Green,,
+resident,SEVERN VIEW.,8,,Michael,Kelly,labourer,
+resident,SEVERN VIEW.,9,,George,Gapper,labourer,
+resident,SEVERN VIEW.,10,,John,Hogan,seaman,
+street,SHAFTESBURY ST.,,,,,C 4,From 69 High-st. to Malpas-rd
+cross_street,SHAFTESBURY ST.,,,,,, (LEFT HAND SIDE.)
+resident,SHAFTESBURY ST.,1,Castle Hotel,F.,Kelly,,
+cross_street,SHAFTESBURY ST.,,,,,,Entrance to Castle precincts
+resident,SHAFTESBURY ST.,,Castle garage,A.,Burleigh,,
+resident,SHAFTESBURY ST.,9,Eastern Valleys Inn,Geo.,Hill,,
+resident,SHAFTESBURY ST.,11,,Mrs. A.,Cleary,dealer,
+resident,SHAFTESBURY ST.,13,,G.,Rosenberg,tailor,
+resident,SHAFTESBURY ST.,15,,Mrs. F.,Chamberlain,tobac
+resident,SHAFTESBURY ST.,17,,A.,Pearce,hairdresser,
+resident,SHAFTESBURY ST.,19,,E.,Thomas,saddler,
+resident,SHAFTESBURY ST.,21,,& Sons, Ltd.,Gopsill, Brown,sack contractors,
+cross_street,SHAFTESBURY ST.,,,,,,here is Mill-street
+resident,SHAFTESBURY ST.,23,,W.,Law,store,
+resident,SHAFTESBURY ST.,25,,Thomas,Neale,haulier,
+resident,SHAFTESBURY ST.,27,,William,Evans,haulier,
+resident,SHAFTESBURY ST.,29,,Chas.,Widdecombe,G.W.R.,
+resident,SHAFTESBURY ST.,30,Station Inn,Frank,Lane,,
+cross_street,SHAFTESBURY ST.,,,,,,BROWN'S BUILDINGS—
+resident,SHAFTESBURY ST.,1,,Mrs.,Collings,,
+resident,SHAFTESBURY ST.,2,,Thomas,Chambers,,
+resident,SHAFTESBURY ST.,3,,,,,Void
+resident,SHAFTESBURY ST.,4,,,,,Void
+resident,SHAFTESBURY ST.,5,,Thomas,Price,,
+resident,SHAFTESBURY ST.,6,,William,Lambert,,
+resident,SHAFTESBURY ST.,7,,William,Wheeler,,
+resident,SHAFTESBURY ST.,8,,Timothy,Canning,,
+resident,SHAFTESBURY ST.,9,,Paul,Kiff,,
+resident,SHAFTESBURY ST.,10,,John,Macbeth,,
+resident,SHAFTESBURY ST.,11,,William,Kyte,labourer,
+resident,SHAFTESBURY ST.,12,,,,,Void
+resident,SHAFTESBURY ST.,53,,R. R.,Morgan,,
+resident,SHAFTESBURY ST.,55,,W. A.,Knight,,
+resident,SHAFTESBURY ST.,57,,Glen,Johnson,,
+resident,SHAFTESBURY ST.,59,,Thomas,Hill,,
+resident,SHAFTESBURY ST.,61,,Thos. E.,Lloyd,labotrrer,
+resident,SHAFTESBURY ST.,63,,Wm. Alfred,Lane,smith,D 5
+resident,SHAFTESBURY ST.,65,,Alfred,Legresley,,
+resident,SHAFTESBURY ST.,67,Moulders' Arms,W. H.,Broadribb,,
+resident,SHAFTESBURY ST.,69,,Mrs. Hannah,Simmonds,,
+resident,SHAFTESBURY ST.,77 to 83,,,,,void
+resident,SHAFTESBURY ST.,85,,Mrs. Amelia,Martin,,
+resident,SHAFTESBURY ST.,87,,Mrs. A. W.,Hopkins,,
+resident,SHAFTESBURY ST.,89,,C. J.,Rawlings,G.W.R.,
+resident,SHAFTESBURY ST.,91,Winning Horse,George Abel,Woodward,,
+resident,SHAFTESBURY ST.,93,,Arthur,Powell,labourer,
+resident,SHAFTESBURY ST.,95,,A. E.,Waters,storekeeper,
+resident,SHAFTESBURY ST.,97,,Albert Ed.,Bryant,,
+resident,SHAFTESBURY ST.,99,,Elijah,Boulton,labourer,
+resident,SHAFTESBURY ST.,101,,Mrs. Mary,Simmonds,,
+resident,SHAFTESBURY ST.,103,,George,Prior,labourer,
+resident,SHAFTESBURY ST.,105,,H.,Lee,hairdresser,
+resident,SHAFTESBURY ST.,107,,Charles,Dwyer,fireman,
+resident,SHAFTESBURY ST.,109,,T. H.,Colman,china shop
+resident,SHAFTESBURY ST.,111,,F.,Snell,sweep,
+resident,SHAFTESBURY ST.,113,,Mrs. E.,Palmer,,
+resident,SHAFTESBURY ST.,115,,Thos.,King,ironworker,
+resident,SHAFTESBURY ST.,117,,William,Wakeley,,
+resident,SHAFTESBURY ST.,119,,Jos.,Sweeting,labourer,
+resident,SHAFTESBURY ST.,121,,Robert,Bowen,eng driver,
+resident,SHAFTESBURY ST.,123-25,,Alfred,Thomas,,
+resident,SHAFTESBURY ST.,127,,Mrs. Mary,Thomas,,
+resident,SHAFTESBURY ST.,129,,Wm.,Browning,labourer,
+resident,SHAFTESBURY ST.,131,,Finch,McCarthy,labourer,
+resident,SHAFTESBURY ST.,133,,Frank,Collins,butcher,
+resident,SHAFTESBURY ST.,135,,John,Peart,fish bar,
+resident,SHAFTESBURY ST.,137,,John,Donoghue,,
+resident,SHAFTESBURY ST.,139,,Mrs. B.,Hennessy,,
+resident,SHAFTESBURY ST.,141,,Francis,Clarke,,
+resident,SHAFTESBURY ST.,143,,George,Wright,,
+resident,SHAFTESBURY ST.,145,,Charles,Bowen,labourer,
+resident,SHAFTESBURY ST.,147,,Mich. J.,Barry,labourer,
+resident,SHAFTESBURY ST.,149,,Henry,Harris,,
+resident,SHAFTESBURY ST.,151,,Edward Thos.,Rudall,,
+resident,SHAFTESBURY ST.,153,,,,,Void
+resident,SHAFTESBURY ST.,155,,Arturo,Ricci,,
+resident,SHAFTESBURY ST.,157,,D.,Lavender,smiths stkr,
+resident,SHAFTESBURY ST.,159,,Henry,Lee,,
+resident,SHAFTESBURY ST.,161,,Mrs.,Cooke,,
+resident,SHAFTESBURY ST.,163,,Mrs. E.,Woods,,
+resident,SHAFTESBURY ST.,165,,Mrs. Lily,Shakesheff,,
+resident,SHAFTESBURY ST.,167,,Mathew,McCarthy,,
+resident,SHAFTESBURY ST.,169,,Gustave,Carlson,,
+resident,SHAFTESBURY ST.,171,,Benj.,Shakesheff,labourer,
+resident,SHAFTESBURY ST.,173,,E. C.,Gregory,,
+resident,SHAFTESBURY ST.,175,,Albert,Barton,labourer,
+resident,SHAFTESBURY ST.,177,,Chas.,George,,
+resident,SHAFTESBURY ST.,179,,Dd.,Radcliffe,trimmer,
+resident,SHAFTESBURY ST.,181,,Wm.,Owen,butcher,
+resident,SHAFTESBURY ST.,183,,W.,Cornish,,
+resident,SHAFTESBURY ST.,185,,C. Thomas,Lee,motor dr,
+resident,SHAFTESBURY ST.,187,,George Edward,Burgess,,
+resident,SHAFTESBURY ST.,189,,Thomas,Vaughan,,
+resident,SHAFTESBURY ST.,191,,Mrs. Louisa,Richardson,,
+resident,SHAFTESBURY ST.,193,,G.,Bryant,motor fitter,
+cross_street,SHAFTESBURY ST.,,,,,,here is Railway-bridge
+resident,SHAFTESBURY ST.,,Tunnel Yard, G.W.R. Co.,,,,
+cross_street,SHAFTESBURY ST.,,,,,, (return)
+cross_street,SHAFTESBURY ST.,,,,,,here is Edwin-street
+resident,SHAFTESBURY ST.,206,,Morgan Rees,surgeon,
+resident,SHAFTESBURY ST.,,Wood Henry, caretaker,,,,
+resident,SHAFTESBURY ST.,204,,Wm.,Donovan,gas wks,
+resident,SHAFTESBURY ST.,202,,John,Jones,labourer,
+resident,SHAFTESBURY ST.,200,,J. B.,Fouweather,,
+resident,SHAFTESBURY ST.,198,,Mrs. S. M.,Jones,,
+resident,SHAFTESBURY ST.,196,,Sidney,Ingram,,
+resident,SHAFTESBURY ST.,,Henry,Stobbs,,,
+cross_street,SHAFTESBURY ST.,,,,,,MISSION CHURCH
+resident,SHAFTESBURY ST.,192,,Alfred,Moore,bricklayer,
+resident,SHAFTESBURY ST.,190,,John,Bolger,gas works,
+resident,SHAFTESBURY ST.,188,,Gerald,Toomer,labourer,
+resident,SHAFTESBURY ST.,186,,C. E.,Pugsley,labourer,
+resident,SHAFTESBURY ST.,184,,James A.,Cooper,,
+resident,SHAFTESBURY ST.,182,,Mrs. Elizabeth,Stockwell,,
+resident,SHAFTESBURY ST.,180,,John,Buss,,
+resident,SHAFTESBURY ST.,178,,Robert,Carson,,
+resident,SHAFTESBURY ST.,176,,George,Widdows,,
+resident,SHAFTESBURY ST.,174,,Wm.,Phillips,labourer,
+resident,SHAFTESBURY ST.,172,,Mrs. C.,Price,shopkeeper,
+resident,SHAFTESBURY ST.,164,Rising Sun Hotel,A.,Sweeney,manager,
+cross_street,SHAFTESBURY ST.,,,,,,here is Lyne-road
+resident,SHAFTESBURY ST.,,SHAFTESBURY ST. SCHOOLS,,,,
+cross_street,SHAFTESBURY ST.,,,,,,here is Evans-street
+resident,SHAFTESBURY ST.,162,,Industrial Society,Co-operative,Branch Stores No. 4,
+resident,SHAFTESBURY ST.,160,,C. P.,Simmonds,grocer,
+resident,SHAFTESBURY ST.,158,,L.,Griffiths,fishmonger,
+resident,SHAFTESBURY ST.,154,,David,Williams,draper,
+resident,SHAFTESBURY ST.,152,,Robert,Smith,boot dealer,
+resident,SHAFTESBURY ST.,150,,A. C.,Wanklyn,hairdressr,
+resident,SHAFTESBURY ST.,148,,J.,Thomas,butcher,
+resident,SHAFTESBURY ST.,146,,& Michael,Fletcher,boot makers,
+resident,SHAFTESBURY ST.,144,,M.,Palmer,greengrocer,
+resident,SHAFTESBURY ST.,142,Newport Corn Co.,,,,Jenkins Mrs. K.
+resident,SHAFTESBURY ST.,140,,Meat Co.,English&Colon'l,
+resident,SHAFTESBURY ST.,138,,Grocery Stores,Watkins',
+resident,SHAFTESBURY ST.,136,,Ltd.,Pegrams,grocers,
+resident,SHAFTESBURY ST.,134,,M.,Cavill,tobacconist,
+resident,SHAFTESBURY ST.,132,,D.,Tonge,haircut'g saloon,
+cross_street,SHAFTESBURY ST.,,,,,,WESLEYAN METH. CHAPEL
+resident,SHAFTESBURY ST.,128,,A.,Barnes,boot repairer,
+resident,SHAFTESBURY ST.,126,,Barnett,King,tobac'nist and newsagent
+resident,SHAFTESBURY ST.,124,,Harry,Prosser,drover,
+resident,SHAFTESBURY ST.,122,,Mrs. Gertrude,Prosser,,
+resident,SHAFTESBURY ST.,120,,Samuel,Ford,labourer,

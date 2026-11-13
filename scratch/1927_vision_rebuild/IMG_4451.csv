@@ -1,0 +1,141 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+cross_street,Cedar Road,,,,,,here is Raglan-street
+resident,Cedar Road,,,Wall,C. H.,garage,
+resident,Cedar Road,12,,J.,Butcher,
+resident,Cedar Road,13,,Geo.,Main,G.W.R.,
+resident,Cedar Road,,,ALMA ST. BAPTIST SUNDAY SCHOOL,,,
+resident,Cedar Road,14,,Thos. Rd.,Hammett,joiner,
+resident,Cedar Road,15,,Charles,Fisher,miner,
+resident,Cedar Road,16,,Frederick,Main,boilermk
+resident,Cedar Road,17,,Mrs. Sarah,Panting,
+resident,Cedar Road,18,St. Olives,Thos.,Briggs,engineer,
+resident,Cedar Road,16,Rosedale,Mrs. Mary J.,Davies,,
+resident,Cedar Road,14,Harmons,Mrs.,Stephens,St.,
+cross_street,Cedar Road,,,,,,here is Bedford-road
+resident,Cedar Road,12,,Mrs. Emma,Seymour,,
+resident,Cedar Road,10,Leverington,Samuel S.,Wynn,,
+resident,Cedar Road,8,Lynton,E. J.,Price,,
+resident,Cedar Road,6,,Ernest W.,Williams,,
+resident,Cedar Road,4,Riversdale,William,Gray,,
+resident,Cedar Road,2,,Harold,Powell,,
+street,CEMETERY LANE,,,,,,D 5
+resident,CEMETERY LANE,,,,,,North-street to Clifton-road
+street,CENFEDD STREET,,,,,,C 3
+resident,CENFEDD STREET,,,,,,Off Constance-street
+resident,CENFEDD STREET,1,,F. C.,Beighton,knife c'tr
+resident,CENFEDD STREET,3,,Wm.,Rose,G.W.R.
+resident,CENFEDD STREET,5,,Thos. E.,Tanner,painter
+resident,CENFEDD STREET,7,,Geo.,Marley,traffic trman
+resident,CENFEDD STREET,9,,Wm. Hy.,Inker,window cleaner,
+resident,CENFEDD STREET,11,,Robt. O.,Evans,G.W.R.
+street,CHARNWOOD ROAD,,,,,,B 3
+resident,CHARNWOOD ROAD,,,,,,Off Stockton-road
+cross_street,CHARNWOOD ROAD,,,,,,(RIGHT HAND SIDE.)
+resident,CHARNWOOD ROAD,2,Cartref,Hy. G.,Gilbert,salesman,
+resident,CHARNWOOD ROAD,4,,Sidney,Griffiths,,
+resident,CHARNWOOD ROAD,6,,Harold,Haines,G.W.R.
+resident,CHARNWOOD ROAD,8,Common-y-Coed,Arthur E.,Pelling,agent
+cross_street,CHARNWOOD ROAD,,,,,,(return)
+resident,CHARNWOOD ROAD,7,,Ernest L.,Roberts,joiner
+resident,CHARNWOOD ROAD,5,,Fred G.,Hopton,G.W.R.
+resident,CHARNWOOD ROAD,3,,Thos.,Howard,G.W.R.
+resident,CHARNWOOD ROAD,1,,Walter G.,Palmer,car dvr
+street,CHAUCER ROAD,,,,,,
+resident,CHAUCER ROAD,,,,,,Maindee Park Housing site
+street,CHELSTON PLACE,,,,,,B 4
+resident,CHELSTON PLACE,,,,,,From 23 Redland-street to Brynglas-road.
+cross_street,CHELSTON PLACE,,,,,,(LEFT HAND SIDE)
+resident,CHELSTON PLACE,2,,Chas.,Hunter,sol., notary, and asst. overseer for Malpas
+resident,CHELSTON PLACE,3,,C.,Edmunds,eng driver
+resident,CHELSTON PLACE,4,,Thomas H.,Maggs,,
+resident,CHELSTON PLACE,5,,Mis. Rebecca H.,Telling,,
+resident,CHELSTON PLACE,6,,Wm. T.,Luke,salesman
+resident,CHELSTON PLACE,7,,W. C.,Halliday,foreman
+resident,CHELSTON PLACE,8,,Mrs. Elenor,Olsens,,
+cross_street,CHELSTON PLACE,,,,,,(return)
+resident,CHELSTON PLACE,,Crindau house,J.,Jones Griffith,J.P.,
+resident,CHELSTON PLACE,,Crindau ho—void,,,,
+street,CHEPSTOW ROAD,,,,,,C 4
+resident,CHEPSTOW ROAD,,,,,,From Clarence-place
+cross_street,CHEPSTOW ROAD,,,,,,(LEFT HAND SIDE.)
+resident,CHEPSTOW ROAD,1,Burleigh & Jones,Albert E.,Hicks,Ltd. (late Burleigh & Jones) undertakers,Eastgate villa
+resident,CHEPSTOW ROAD,3,Lyncombe,W. A.,Harbour,draper,
+resident,CHEPSTOW ROAD,5,Melverton,W. L.,Thain,elec enger
+resident,CHEPSTOW ROAD,7,Windsor v,W. T.,Sheaf,,
+resident,CHEPSTOW ROAD,9,,James W.,Channon,labr
+resident,CHEPSTOW ROAD,,Ivyror,electrician,,
+resident,CHEPSTOW ROAD,11,,Ebenezer T.,Ivins,G.W.R.
+resident,CHEPSTOW ROAD,13,Osborne villa,Mrs. C. E.,Chapman,,
+resident,CHARLOTTE STREET,23,,Alex.,Health Food Store,C. Rogers
+resident,CHARLOTTE STREET,,,E.,Robins,sweep
+resident,CHARLOTTE STREET,,,Miss A.,Rowberry,herb'ist
+resident,CHARLOTTE STREET,24,,Walter,Brind,butcher
+resident,CHARLOTTE STREET,25,,W. J.,Scannell,bootmkr
+resident,CHARLOTTE STREET,26,,E.,Cowley,ladies' outfittr
+resident,CHARLOTTE STREET,27,,Newport Institute for the Blind,,,
+resident,CHARLOTTE STREET,27a,,L.,Claude,Weeks & Co., electrical engineers
+resident,CHARLOTTE STREET,,Edwards Wm., builder,,,
+resident,CHARLOTTE STREET,28,,Mrs. Amy,Maddocks,,
+resident,CHARLOTTE STREET,29,,THE CENTRAL SPIRITUALIST CHURCH,,,
+resident,CHARLOTTE STREET,30,,Mrs. E.,Smith,,
+resident,CHARLOTTE STREET,31,,L.,Mendleson,tailor
+resident,CHARLOTTE STREET,32,,Bown & Co.,Ulett,elec and sanitary engineers
+resident,CHARLOTTE STREET,33,,Ettie,Reed,milliner
+resident,CHARLOTTE STREET,34,,C. M.,Griffiths,milliner
+resident,CHARLOTTE STREET,35,,Israel,Cohen,confect.
+cross_street,CHARLOTTE STREET,,,,,,Entrance to Municipal Secondary School and Cookery Centre
+resident,CHARLOTTE STREET,,,W. T.,Probert,caretaker
+resident,CHARLOTTE STREET,39-40,,Reynolds & Co., Ltd.,house furnishers & draprs
+street,CHARLOTTE STREET,,,,,,E 5
+resident,CHARLOTTE STREET,,,,,,From 45 Alma-st. to Capel-st.
+cross_street,CHARLOTTE STREET,,,,,,(LEFT HAND SIDE.)
+resident,CHARLOTTE STREET,1,,Geo. N.,Dowdall,caterer
+resident,CHARLOTTE STREET,2,,Mrs. E.,Griffiths,,
+resident,CHARLOTTE STREET,3,,Edwin,Watkins,blrmkr
+resident,CHARLOTTE STREET,4,,Robert,Willis,blacksmith
+cross_street,CHARLOTTE STREET,,,,,,here is Lewis-street
+resident,CHARLOTTE STREET,,,W. & Son,Pope,builders
+resident,CHARLOTTE STREET,,,H. & Co.,Cusk,cabinet makers and upholsterers
+resident,CHARLOTTE STREET,,,Albert E.,Hicks,Ltd., undertakers
+cross_street,CHARLOTTE STREET,,,,,,here is Raglan-street
+resident,CHARLOTTE STREET,,,Wiltshire & Son,bakers,,
+resident,CHARLOTTE STREET,,,Alf. J.,James,shoemaker
+resident,CHARLOTTE STREET,,,D. & Co.,Thomas,pattern makers
+resident,CHARLOTTE STREET,5,,John,Sullivan,seaman
+cross_street,CHARLOTTE STREET,,,,,,here is Williams-street
+resident,CHARLOTTE STREET,6,,N.,Wight,fitter's helper
+cross_street,CHARLOTTE STREET,,,,,,here is Capel-street
+cross_street,CHARLOTTE STREET,,,,,,(return)
+resident,CHARLOTTE STREET,7,,Thos.,Davies,fitter
+resident,CHARLOTTE STREET,8,,Jas. G.,Britton,boatman
+resident,CHARLOTTE STREET,,John F.,Cobb,traveller
+resident,CHARLOTTE STREET,9,,Thos.,Jones,boilermaker
+resident,CHARLOTTE STREET,9a,,P. W. & Co.,Turner,bedding manufacturers
+resident,CHARLOTTE STREET,10,,Frederick,Turner,,
+cross_street,CHARLOTTE STREET,,,,,,here is Williams-street
+resident,CHARLOTTE STREET,,,TREDEGAR WHARF INFANT SCHOOL,,,
+resident,CHARLOTTE STREET,11,,Jas. F.,Baines,labourer
+street,CHARLES STREET,,,,,,D 4
+resident,CHARLES STREET,,,,,,From 149 Commercial-street to Stow-hill
+cross_street,CHARLES STREET,,,,,,(LEFT HAND SIDE)
+resident,CHARLES STREET,,,THE EMPIRE—Moss Empires Ltd., proprietors,,
+cross_street,CHARLES STREET,,,,,,here is Talbot-lane
+resident,CHARLES STREET,6,,A.,Fennell,hairdresser
+resident,CHARLES STREET,7,,W. C.,Parkes,'Douglas' motor cycle depot
+resident,CHARLES STREET,8,,Mrs. Emily,Pacello,,
+resident,CHARLES STREET,9,,Collman's Cafe,,,
+resident,CHARLES STREET,10,,A. G.,Bird,house decorator
+resident,CHARLES STREET,,,Seager H., shop,,,
+resident,CHARLES STREET,11,,Southern Equitable Advance Co., Ltd.—E. R. Axton, manager,,
+resident,CHARLES STREET,,,ENGLISH BAPTIST CHURCH,,,
+resident,CHARLES STREET,,,Newport Education Offices—Eaves T. Arth. secretary; Moores G. W., assistant secretary,,
+resident,CHARLES STREET,,,Juvenile Employment Department,,,
+resident,CHARLES STREET,,,Caleb,Squire,caretaker
+resident,CHARLES STREET,,,W. & Son,Collard,office and showrooms
+resident,CHARLES STREET,17,,W. E.,Collard Chas.,blder
+resident,CHARLES STREET,18,,Mark,Dyer,stoker
+resident,CHARLES STREET,19,,Grande & Sons,fruiterers
+resident,CHARLES STREET,20,,Miss,Llewellyn,costumier
+resident,CHARLES STREET,21,,Bible and Tract Depot,,,
+cross_street,CHARLES STREET,,,,,,(return)
+resident,CHARLES STREET,22,,Mrs. Elsie M.,Taylor,confit

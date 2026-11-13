@@ -1,0 +1,163 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,WESLEY STREET,9,,,Mrs. Jane,Glover,,
+resident,WESLEY STREET,10,,,Edmd.,Stevens,platelayer,
+resident,WESLEY STREET,11,,,William,Hector,haulier,
+resident,WESLEY STREET,12,,,John,Knight,labourer,
+resident,WESLEY STREET,13,,,Charles,Tanner,tailor,
+resident,WESLEY STREET,14,,,James,Grant,wireman,
+resident,WESLEY STREET,15,,,Wm.,Watkins,plasterer,
+resident,WESLEY STREET,16,,,Fredk.,Davies,assistant,
+resident,WESLEY STREET,17,,,Mrs. Ann,Goddard,,
+resident,WESLEY STREET,,,,William,Shellard,haulier,
+resident,WESLEY STREET,18,,,Arthur,Welsh,checker,
+resident,WESLEY STREET,19,,,Bros.,Farrow,plumbers &c,
+resident,WESLEY STREET,,,,,,,"Baneswell POST OFFICE—T.S.O., M.O., S.B., A. & I."
+cross_street,WESLEY STREET,,,,,,here is Victoria-crescent
+street,BEAUFORT TERRACE,,,,,,,
+resident,BEAUFORT TERRACE,1,,,P.,Huelin,music teacher,
+resident,BEAUFORT TERRACE,2,,,Robert,Doughty,,
+resident,BEAUFORT TERRACE,3,,,Thomas,Curtis,haulier,
+resident,BEAUFORT TERRACE,4,,,Walt.,Hemmings,porter,
+resident,BEAUFORT TERRACE,5,,,George,Green,,
+resident,BEAUFORT TERRACE,6,,,Jas.,Landers,grocer, etc.,
+cross_street,WESLEY STREET,,,,,,(return)
+resident,WESLEY STREET,20,,,Thomas,Hayter,steward,
+resident,WESLEY STREET,21,,,Thomas,Capel,,
+resident,WESLEY STREET,22,,,Wm.,Ingram,crane driver,
+resident,WESLEY STREET,23,,,John,Brewer,shopkeeper,
+resident,WESLEY STREET,24,,,Mrs.,Jones,tailoress,
+resident,WESLEY STREET,25,,,Edward,Curran,builder,
+resident,WESLEY STREET,26,,,Wm.,Rees,G.W.R.,
+resident,WESLEY STREET,27,,,George,Dredge,,
+resident,WESLEY STREET,28,,,George,Dredge,,
+resident,WESLEY STREET,29,,,James,James,,
+resident,WESLEY STREET,30,,,Jas.,Sullivan,ironworker,
+resident,WESLEY STREET,31,,,,Bromsgrove Thomas,,
+resident,WESLEY STREET,32,,,Frank,Hopkins,ironworkr,
+resident,WESLEY STREET,33,,,Thomas,Mogford,painter,
+resident,WESLEY STREET,34,,,Chas.,Urban,labourer,
+resident,WESLEY STREET,35,,,Tobias,Hale,labourer,
+resident,WESLEY STREET,36,,,William,Huzzey,,
+resident,WESLEY STREET,37,,,,,Void,
+resident,WESLEY STREET,38,,,Henry,Withers,saddler,
+resident,WESLEY STREET,39,Angel Hotel,Edward,Thomas,,
+street,WESTFIELD ROAD,,,,,,(Clytha Park) C 5
+resident,WESTFIELD ROAD,1,,,T. W.,Pearson,,Netherwood
+resident,WESTFIELD ROAD,2,,,J. A.,Muller,The Knoll,
+cross_street,WESTFIELD ROAD,,,,,,here is Parkfield-place
+resident,WESTFIELD ROAD,3,,,R. T.,Martin,,Cae-derwen
+resident,WESTFIELD ROAD,4,,,Leonard,Acomb,,Ty-gwyn
+resident,WESTFIELD ROAD,5,,,W.,Hitchcox,,Broughton
+cross_street,WESTFIELD ROAD,,,,,,(return)
+cross_street,WESTFIELD ROAD,,,,,,here is Hilla-road
+resident,WESTFIELD ROAD,6,,,G. H.,Ingham,,Oakfield
+resident,WESTFIELD ROAD,7,,,E. F.,Davies,,Rosemont
+resident,WESTFIELD ROAD,8,,,E. H.,Davies,,Westfield
+resident,WESTFIELD ROAD,9,,,R. C.,Slade,,Llanarthney
+resident,WESTFIELD ROAD,10,,,E. C.,Smith,,Parkfield
+resident,WESTFIELD ROAD,11,,,Rev. C. L.,Perry,,The Laurels
+resident,WESTFIELD ROAD,12,,,W. S. N.,Heard,,The Ferns
+street,WESTVILLE ROAD,,,,,,(near Preston-avenue)
+resident,WESTVILLE ROAD,,,,Fred A.,Jones,,St. Brannocks
+resident,WESTVILLE ROAD,,,,,,3 houses void
+street,WHARF ROAD,,,,,,From 174 Chepstow-road to Corporation-road (LEFT HAND SIDE) D 3
+resident,WHARF ROAD,1,,,Horton,,
+resident,WHARF ROAD,3,,,Charles,Rose,stoker,
+resident,WHARF ROAD,5,,,John,Shepherd,labourer,
+resident,WHARF ROAD,7,,,Mrs. Elizabeth,Pritchard,,
+resident,WHARF ROAD,9,,,,Salvation Army Quarters,
+resident,WHARF ROAD,,,,Miss M.,Collins,,
+resident,WHARF ROAD,,,,Miss L.,Weatherald,,
+resident,WHARF ROAD,11,,,Chas.,Cutter,G.W.R.,
+resident,WHARF ROAD,13,,,Ernest,Rogers,ironworker,
+resident,WHARF ROAD,15,,,Albert E.,Simpson,,
+resident,WHARF ROAD,17,,,George,Mutter,mason,
+resident,WHARF ROAD,19,,,Mrs. Sarah A.,Butler,,
+resident,WHARF ROAD,21,,,Hugh,Williams,tailor,
+resident,WHARF ROAD,23-23a,,,J. H. & Son, Ltd.,Williams,wholesale grocers and bakers,
+resident,WHARF ROAD,25,,,Hy. A.,Derrick,labourer,
+resident,WHARF ROAD,27,,,Thos.,Radford,labourer,
+resident,WHARF ROAD,,,,,,G. W. Wharf depot for coal bricks stones etc.
+cross_street,WHARF ROAD,,,,,,here is Phillips-street
+cross_street,WHARF ROAD,,,,,,here is Gordon-street
+resident,WHARF ROAD,31,,,Uriah,Morgan,butcher,
+cross_street,WHARF ROAD,,,,,,here is May-street
+resident,WHARF ROAD,33,,,Wm.,Blower,labourer,
+resident,WHARF ROAD,35,,,Wm.,Bethell,painter,
+resident,WHARF ROAD,37,,,Cuth.,Lowther,cellarman,
+resident,WHARF ROAD,39,,,Frank,Baker,ironworker,
+resident,WHARF ROAD,41,,,Arthur William,Beighton,postman,
+resident,WHARF ROAD,43,,,W. H.,Smith,printr's cuttr,
+resident,WHARF ROAD,45,,,Ahiram,Riddle,labourer,
+cross_street,WHARF ROAD,,,,,,here is Essex-street
+resident,WHARF ROAD,47,,,Henry,Brunt,grocer,
+resident,WHARF ROAD,49,,,J. L.,Phillips,sheet wghr,
+resident,WHARF ROAD,51,,,C. A.,Grice,engine driver,
+resident,WHARF ROAD,53,,,Price,Melbourne,,
+resident,WHARF ROAD,55,,,Lambert,Ashton,guard,
+resident,WHARF ROAD,57,,,W. R.,Brend,coel mercht,
+cross_street,WHARF ROAD,,,,,,here is Corporation-road
+cross_street,WHARF ROAD,,,,,,(return)
+resident,WHARF ROAD,112,,,John,Daley,crane driver,
+resident,WHARF ROAD,110,,,Mrs. A.,Chapman,,
+resident,WHARF ROAD,108,,,Thos. Hy.,Lloyd,crane driver,
+resident,WHARF ROAD,106,,,John Thos.,Siviter,irnwkr,
+resident,WHARF ROAD,104,,,John,Cowell,motorman,
+resident,WHARF ROAD,102,,,John William,Gill,,
+resident,WHARF ROAD,100,,,E. Jas.,Riddle,ironworkr,
+resident,WHARF ROAD,98,,,Wm. Geo.,Bowen,do,
+resident,WHARF ROAD,96,,,Mrs. F.,Waite,,
+resident,WHARF ROAD,94,,,Jno.,Griffiths,ironworker,
+resident,WHARF ROAD,92,,,Fred.,Coleman,storekeeper,
+resident,WHARF ROAD,90,,,Wyndham H.,Gatehouse,,
+resident,WHARF ROAD,88,,,Geo.,Williams,carpenter,
+resident,WHARF ROAD,86,,,A. G.,Hopkins,wire drawer,
+resident,WHARF ROAD,84,,,Reg.,Webster,ironworker,
+resident,WHARF ROAD,82,,,Thomas,Lowe,do,
+resident,WHARF ROAD,80,,,John,Lowe,,
+resident,WHARF ROAD,78,,,Edwin,Brind,labourer,
+resident,WHARF ROAD,76,,,Chas.,Collard,insur. agent,
+resident,WHARF ROAD,74,,,Thomas,Dickson,police,
+resident,WHARF ROAD,72,,,Mrs. Wm.,Hurford,,
+resident,WHARF ROAD,70,,,Geo. Edwin,Brooks,ostler G.W.R.,
+resident,WHARF ROAD,68,,,Mrs. Sarah W.,Bayliss,,
+resident,WHARF ROAD,66,,,Wm. Jas.,Evett,labourer,
+resident,WHARF ROAD,64,,,Fredk.,Harris,mechanic,
+resident,WHARF ROAD,62,,,Mrs. E.,Sheppard,,
+resident,WHARF ROAD,60,,,Arthur Vincent,Homfray,ironworker,
+resident,WHARF ROAD,58,,,Henry,Groom,ironworker,
+resident,WHARF ROAD,56,,,Geo.,Pewtner,labourer,
+resident,WHARF ROAD,54,,,W. H.,Richards,labourer,
+resident,WHARF ROAD,52,,,Mrs. M.,Morgan,,
+resident,WHARF ROAD,50,,,E. C.,Hill,mason,
+resident,WHARF ROAD,48,,,Albt. J.,Stockwell,carpentr,
+resident,WHARF ROAD,46,,,Jas.,Dunleavie,boilermakr,
+resident,WHARF ROAD,44,,,Jas.,Edwards,furnaceman,
+resident,WHARF ROAD,42,,,Arth. J.,Whitford,seaman,
+resident,WHARF ROAD,40,,,Thomas,Perkins,seaman,
+resident,WHARF ROAD,38,,,Frank,Morgan,win. cleaner,
+resident,WHARF ROAD,36,,,John,Callaghan,labourer,
+resident,WHARF ROAD,34,,,Adam S.,Tripp,,
+cross_street,WHARF ROAD,,,,,,here is Jeffrey-street
+resident,WHARF ROAD,,,,,,The Rag & Metal Co. marine stores
+resident,WHARF ROAD,28,,,Edward,Burrows,labourer,
+resident,WHARF ROAD,26,,,Samuel,Punt,haulier,
+resident,WHARF ROAD,24,,,Edward,Needs,plasterer,
+resident,WHARF ROAD,22,,,Mrs. Mercy,Eklof,,
+resident,WHARF ROAD,,,,Wm.,Littlejohns,cabt. mkr,
+cross_street,WHARF ROAD,,,,,,here is Glebe-street
+resident,WHARF ROAD,,,,,,MAINDEE AND EAST WARD LIBERAL CLUB
+resident,WHARF ROAD,20a,,,John,Stokes,fish shop,
+resident,WHARF ROAD,20,,,Edwin,Lewis,grocer,
+resident,WHARF ROAD,18,,,George,Hill,mason,
+resident,WHARF ROAD,16,,,Geo.,Vincent,excavator,
+resident,WHARF ROAD,14,,,Chas.,Orders,painter,
+resident,WHARF ROAD,12,,,Joseph,Inker,stoker,
+resident,WHARF ROAD,10,,,Mrs. Mary,Johnson,,
+resident,WHARF ROAD,8,,,Edwd.,Underwood,labr,
+resident,WHARF ROAD,6,,,Daniel,Evans,labourer,
+resident,WHARF ROAD,4,,,Wm.,Williams,bootmakrs,
+resident,WHARF ROAD,2,,,W.,Beighton,furniture dlr,
+resident,WHARF ROAD,,,,,,Leadbeter & Co. builder and contractors
+street,WHARVES (THE) &c.,,,,,,From the Bridge. WEST SIDE
+resident,WHARVES (THE) &c.,,,,,Bangor Wharf - Newport Builders' Supply Ltd.,,

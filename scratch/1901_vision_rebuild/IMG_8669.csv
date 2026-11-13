@@ -1,0 +1,165 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Raglan Street,,,,,,continued
+resident,Raglan Street,21,,Baldwin,Thomas,,
+resident,Raglan Street,22,,John,Jones,clerk,
+resident,Raglan Street,23,,Miss Maria,Lewis,,
+resident,Raglan Street,24,,Arthur,Brooks,gardener
+resident,Raglan Street,25,,James E.,Webb,painter
+resident,Raglan Street,26,,Mrs Catherine,Williams,,
+resident,Raglan Street,27,,Henry,Dowdall,,
+resident,Raglan Street,28,,Charles E.,George,porter
+resident,Raglan Street,29,,E. S.,Johnstone,butcher
+resident,Raglan Street,81,,Charles,Thomas,labourer
+resident,Raglan Street,83,,W. H.,Pyke,insur. agent
+resident,Raglan Street,85,,Wm.,Smale,laundryman
+resident,Raglan Street,86,,A. H.,Young,crane driver
+resident,Raglan Street,87,,Thomas,Pratten,fitter
+resident,Raglan Street,87,,Henry,Sandew,labourer
+cross_street,Raglan Street,,,,,,(return.)
+resident,Raglan Street,88,,Samuel,Jones,smith
+resident,Raglan Street,89,,James,Jones,labourer
+resident,Raglan Street,90,,Wm.,Wreford,shipwright
+resident,Raglan Street,91,,Cor.,Gummer,eng. driver
+resident,Raglan Street,92,,Fredk. Wm.,Pero,eng.drvr
+resident,Raglan Street,93,,John,Appleby,shopman
+resident,Raglan Street,94,,John,Coxon,shipwright
+resident,Raglan Street,95,,Henry,Smith,eng. driver
+resident,Raglan Street,96,,Wm.,Jewell,shipwright
+resident,Raglan Street,97,,Geo. W.,Budden,engineer
+resident,Raglan Street,98,,Thos.,Willmott,mas. mar
+resident,Raglan Street,99,,Henry,Evans,fitter
+resident,Raglan Street,100,,Arthur,Vening,carpntr
+resident,Raglan Street,101,,Edward,Evans,foreman
+resident,Raglan Street,102,,Chas.,Williams,eng. dvr
+resident,Raglan Street,103,,Thos.,Williams,eng. dvr
+resident,Raglan Street,104,,Mrs Mary,Gibbons,,
+resident,Raglan Street,105,,Wm. H.,Wilmott,joiner
+resident,Raglan Street,106,,Robert,Thomas,seaman
+resident,Raglan Street,107,,Rd.,Withycombe,lab'rer
+resident,Raglan Street,108,,Herman,England,haulier
+resident,Raglan Street,108,,Dd.,Walters,plasterer
+resident,Raglan Street,106,,Abr.,Bridgman,storek'pr
+resident,Raglan Street,104,,Geo.,Mitchell,labourer
+resident,Raglan Street,102,,Charles,Brown,G.W.R.
+resident,Raglan Street,100,,Saml.,Armitage,glass wks
+resident,Raglan Street,98,,Richd.,Snell,glass works
+resident,Raglan Street,96,,Lewis,Thomas,carpenter
+resident,Raglan Street,94,,Hubert,Delaney,confe'nr
+resident,Raglan Street,92,,George,Max,railwayman
+resident,Raglan Street,90,,Thos.,Wright,goods guard
+resident,Raglan Street,88,,Charles,English,tailor
+resident,Raglan Street,86,,Walter,Mitchell,haulier
+resident,Raglan Street,84,,Wm.,Maddern,moulder
+resident,Raglan Street,82,,Charles,Flynn,tailor
+resident,Raglan Street,80,,Fk.,Woodfield,painter
+resident,Raglan Street,78,,J. H.,Brown,postman
+resident,Raglan Street,76,,Wm. Geo.,Drew,confect'r
+resident,Raglan Street,74,,Alfred,Pope,stoker
+resident,Raglan Street,72,,Charles,Brown,coalman
+resident,Raglan Street,70,,Daniel,Brooks,glass wks
+resident,Raglan Street,68,,George,Jayne,polisher
+resident,Raglan Street,66,,William,Hillier,postman
+resident,Raglan Street,64,,George,Turner,painter
+resident,Raglan Street,62,,Edwd.,Lewtas,canvasser
+resident,Raglan Street,60,,John,Oakey,gardener
+resident,Raglan Street,58,,T. A.,Perrott,draper
+resident,Raglan Street,56,,C. T.,Salman,eng. driver
+resident,Raglan Street,54,,George,Leach,glass blowr
+resident,Raglan Street,52,,James,Powell,police
+resident,Raglan Street,50,,H. G.,Yendall,labourer
+resident,Raglan Street,48,,John Hy.,Pope,builder
+resident,Raglan Street,46,,George,-sorter,Pritchard,,
+resident,Raglan Street,44,,G. J.,Rowlands,clerk
+resident,Raglan Street,42,,William,Lewis,labourer
+resident,Raglan Street,40,,George,Bond,mas. mar.
+resident,Raglan Street,38,,Charles,Price,dealer
+resident,Raglan Street,36,,Wm.,Champion,groom
+resident,Raglan Street,34,,Joseph,Davies,mason
+resident,Raglan Street,32,,William,Johnson,cooper
+resident,Raglan Street,30,,Walter,Lewis,labourer
+resident,Raglan Street,28,,Tom,Needham,glass blwr
+resident,Raglan Street,26,,Mrs Mary Ann,Manley,,
+resident,Raglan Street,24,,Thomas,Parr,labourer
+resident,Raglan Street,22,,S.,Wainwright,bottlemkr
+resident,Raglan Street,20,,Chas.,Perry,glass works
+resident,Raglan Street,18,,Chas.,Burden,glass works
+resident,Raglan Street,16,,Wm.,Millinship,moulder
+resident,Raglan Street,14,,George,Barrett,fitter
+resident,Raglan Street,12,,Charles,Powles,labourer
+resident,Raglan Street,10,,W. J.,Boyce,tea agent
+resident,Raglan Street,8,,Wm. H.,Colley,carpenter
+resident,Raglan Street,109,,Mrs Mary,Young,,
+resident,Raglan Street,110,,Mrs Elizabeth,Thomas,,
+resident,Raglan Street,111,,Fk. Wm.,Phelps,haulier
+resident,Raglan Street,112,,Wm.,Jones,eng. driver
+resident,Raglan Street,113,,Evan,Howells,,
+resident,Raglan Street,114,,Thomas,Jeffreys,joiner
+street,Railway Street,,,,,,From Depôt-st. to Station-st.
+cross_street,Railway Street,,,,,,[LEFT HAND SIDE.]
+resident,Railway Street,1,,Edwd.,Thomas,plasterer
+resident,Railway Street,2,,J. W.,Watts,yeast mercht
+resident,Railway Street,3,,Mrs M. J.,Edwards,,
+resident,Railway Street,4,,Hy. Thos.,Ford,upholst'r
+resident,Railway Street,5,,Mrs Ellen,Sheppard,,
+resident,Railway Street,6,,Mrs Eliza,Pope,,
+resident,Railway Street,7,,Charles,Childs,plasterer
+resident,Railway Street,8,,Alban,Williams,,
+resident,Railway Street,,,Mrs,Williams,seamstress
+resident,Railway Street,9,,Chas. Alf.,Evans,maltster
+resident,Railway Street,10,,Mrs E.,Parsons,dressmakr
+resident,Railway Street,11,,P.,Marshall,,
+resident,Railway Street,12,,John,Gabb,fitter
+resident,Railway Street,13,,Mrs Annie,Gabb,,
+resident,Railway Street,14,,Alex.,Macdonald,draper
+cross_street,Railway Street,,,,,,(return.)
+resident,Railway Street,15,,Thomas,Whiting,ostler
+resident,Railway Street,16,,Samuel,Perry,plasterer
+resident,Railway Street,17,,Fredk.,Stacey,labourer
+resident,Railway Street,18,,Alfd.,Bernier,carpenter
+resident,Railway Street,19,,John,Harvey,baker
+resident,Railway Street,20,,Miss,Barrett,,
+street,Redland Street,,,,,,From 34 Malpas-road.
+cross_street,Redland Street,,,,,,[LEFT HAND SIDE.]
+resident,Redland Street,1,,Bros.,Linton,fitters, etc.
+resident,Redland Street,3,,John H.,Pullen,gardener
+resident,Redland Street,5,,Henry,Day,hawker
+resident,Redland Street,7,,George,Watkins,founder
+resident,Redland Street,9,,Thomas,Dibbs,,
+resident,Redland Street,11,,Wm. Hy.,Morris,factory
+resident,Redland Street,13,,Charles,Lee,plasterer
+resident,Redland Street,15,,Wm.,Miller,glass blower
+resident,Redland Street,17,,John,Dinham,blacksmith
+resident,Redland Street,19,,Daniel,Hall,labourer
+resident,Redland Street,21,,William,Coombs,police
+resident,Redland Street,23,,Wm.,Phillips,platelayer
+resident,Redland Street,25,,Mrs M. A.,Bowen,,
+resident,Redland Street,27,,John,Rowe,labourer
+cross_street,Redland Street,,,,,,here is Prospect-street.
+resident,Redland Street,29,,L.,Halse,grocer
+resident,Redland Street,31,,George,Moulder,plasterer
+resident,Redland Street,33,,Mrs Kate,Kenny,,
+resident,Redland Street,35,,P.,Peterson,fireman
+resident,Redland Street,37,,Void,,,
+resident,Redland Street,39,,Joseph,Embery,labourer
+resident,Redland Street,41,,Fredk.,Obourn,coachman
+resident,Redland Street,43,,Thos.,Embery,labourer
+cross_street,Redland Street,,,,,,here is Chelston-place.
+resident,Redland Street,45,,John,White,labourer
+resident,Redland Street,47,,Thos.,Thomas,labourer
+resident,Redland Street,49,,Alfred,Nicholas,labourer
+resident,Redland Street,51,,Henry,Price,grocer
+resident,Redland Street,53,,James,Mountford,H.M.C.
+resident,Redland Street,55,,Arthur,O'Leary,labourer
+resident,Redland Street,57,,Albt.,Franklin,assistant
+resident,Redland Street,59,,J. S.,Brown,saddler
+resident,Redland Street,61,,R. H.,Gabb,baker
+resident,Redland Street,63,,Edwd. J.,Jarvis,carpenter
+cross_street,Redland Street,,,,,,here is Spring-street.
+resident,Redland Street,65,,Mrs Agnes,Thane,,
+resident,Redland Street,67,,James,Perkins,coalman
+resident,Redland Street,69,,Philip,Bailey,labourer
+resident,Redland Street,71,,John,Coles,labourer
+resident,Redland Street,73,,George,James,locksmith
+resident,Redland Street,75,,Henry,Smith,baker
+resident,Redland Street,77,,Thomas,Lee,smith
+resident,Redland Street,79,,Arthur,Shuker,glass wks

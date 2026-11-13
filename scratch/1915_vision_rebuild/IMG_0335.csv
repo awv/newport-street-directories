@@ -1,0 +1,172 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,LLOYD STREET,2,,,Ebenezer,Phillips,labourer,Orchard dairy
+resident,LLOYD STREET,,,,,Brown Wm.,,
+resident,LLOYD STREET,,,,James,Blackmore,smith,
+resident,LLOYD STREET,,,,Albert,Norris,quarryman,
+resident,LLOYD STREET,,,,Thos. W.,Heath,ironworker,
+resident,LLOYD STREET,,,,Henry,Price,quarryman,
+resident,LLOYD STREET,2,,,Joseph,Wallace,quarryman,
+resident,LLOYD STREET,,,,Robert,Bennett,quarryman,
+resident,LLOYD STREET,,,,Mrs. Ruth,Gough,,
+resident,LLOYD STREET,,,,Edward,Hodges,platelayer,
+resident,LLOYD STREET,Springfield,,,Frank,Thomas,,
+resident,LLOYD STREET,,,,William J.,Dowden,G.W.R.
+resident,LLOYD STREET,,,,William,Fife,shipwright,
+resident,LLOYD STREET,,,,Edwin,Poole,quarryman,
+resident,LLOYD STREET,,,,Thos.,Gough,limeworker
+resident,LLOYD STREET,,,,William,Harris,quarryman
+resident,LLOYD STREET,,Crown Inn,,,Dumayne H.,,
+resident,LLOYD STREET,,,,Fred,Bowen,ironworker
+resident,LLOYD STREET,,,,Edward,Gardner,eng. driver
+resident,LLOYD STREET,,,,Job,Phillips,labourer
+resident,LLOYD STREET,,,,Ernest,Homfray,,
+resident,LLOYD STREET,,,,Thos.,Pearce,quarryman
+resident,LLOYD STREET,,,,John,Harris,quarryman
+cross_street,LLOYD STREET,,,,,,here is Lliswerry-crossing
+resident,LLOYD STREET,,Lliswerry Hotel,,,,,
+resident,LLOYD STREET,,Jessa-mine house,,Mrs. Susan,Thomas,,
+resident,LLOYD STREET,,Lliswerry cot.,,William,Halling,
+resident,LLOYD STREET,,Rockfield,,John Hy.,Watkins,
+resident,LLOYD STREET,,Lliswerry house,,Mrs. W.,Evans,farmer
+resident,LLOYD STREET,,Bro Deg,,E. S.,Edwards,
+resident,LLOYD STREET,2,Elms farm,,Henry M.,Lewis,
+resident,LLOYD STREET,,Belle Vue farm,,F.,Dent,
+resident,LLOYD STREET,,Olway farm,,Mrs. Helen,Dent,
+resident,LLOYD STREET,,Lliswerry farm,,T.,Thompson,
+resident,LLOYD STREET,,Golf house,,,Williams —,
+cross_street,LLOYD STREET,,,,,,See also Libeneth-road. Aberthaw-rd. and Somerton-rd.
+street,LLWYNDERI ROAD,,,,,,,C 6
+cross_street,LLWYNDERI ROAD,,,,,,From Oakfield-road (LEFT HAND SIDE.)
+resident,LLWYNDERI ROAD,1,,,,,,Void
+resident,LLWYNDERI ROAD,3,,,Robert,Hudson,,
+resident,LLWYNDERI ROAD,5,,,C. M.,Pritchard,,
+resident,LLWYNDERI ROAD,7,,,William James,Bath,,
+resident,LLWYNDERI ROAD,,,,,,,Vacant sites
+cross_street,LLWYNDERI ROAD,,,,,,(return)
+resident,LLWYNDERI ROAD,,,,Frank A.,Carter,,
+resident,LLWYNDERI ROAD,,,,Walter,Russell,,
+resident,LLWYNDERI ROAD,,Fairoak,,,Deacon Frank F.,,
+resident,LLWYNDERI ROAD,,,,,,,Vacant sites
+street,LOCKE STREET,,,,,,,C 5
+cross_street,LOCKE STREET,,,,,,Queen's-hill to Factory-road (LEFT HAND SIDE.)
+resident,LOCKE STREET,1,,,Samuel,Evans,machinist,
+resident,LOCKE STREET,2,,,Albert,Jones,,
+resident,LOCKE STREET,3,,,Cuthbert,Thomas,postmn
+resident,LOCKE STREET,4,,,Thomas,Wren,mason
+resident,LOCKE STREET,5,,,,Harding —,s.a.
+resident,LOCKE STREET,6,,,Mrs. Lucy,White,,
+resident,LOCKE STREET,7,,,Thos.,Donovan,foreman
+street,LLOYD'S BANK CHAMBERS,,,,,,,
+cross_street,LLOYD'S BANK CHAMBERS,,,,,,See Commercial-street
+street,LLOYD STREET,,,,,,,E 2
+cross_street,LLOYD STREET,,,,,,From Somerton-road (RIGHT HAND SIDE.)
+resident,LLOYD STREET,1,,,Geo. Hy.,Legge,pawnbkr
+resident,LLOYD STREET,3,,,Frank,Taylor,ironwrkr
+resident,LLOYD STREET,5,,,Raymond,Hooper,J.G.W.R
+resident,LLOYD STREET,7,,,Henry,Madge,labourer
+resident,LLOYD STREET,9,,,George,Little,ironworker
+resident,LLOYD STREET,11,,,Herbert,Jones,ironworker
+resident,LLOYD STREET,13,,,Henry Charles,Pitman,,
+cross_street,LLOYD STREET,,,,,,here is Ifton-street
+resident,LLOYD STREET,15A,,,Mrs. H.,Rogers,shop
+resident,LLOYD STREET,15,,,Thomas,Smith,ironwrkr
+resident,LLOYD STREET,17,,,George,Pullen,boot rep
+resident,LLOYD STREET,19,,,Mrs. Mary,Hall,,
+resident,LLOYD STREET,21,,,James,Hearne,platelayer
+resident,LLOYD STREET,23,,,Kenneth,Kennedy,seaman
+resident,LLOYD STREET,25,,,James,Davies,,
+resident,LLOYD STREET,27,,,Thos.,Edwards,marker
+resident,LLOYD STREET,29,,,U.,Littlehales,ironworker
+resident,LLOYD STREET,31,,,Samuel,Rogers,ironwork'r
+resident,LLOYD STREET,33,,,Alfred,Jackson,do
+resident,LLOYD STREET,35,,,Samuel,Wall,roofer
+resident,LLOYD STREET,37,,,Albert,Pearce,fireman
+resident,LLOYD STREET,,,,,,Whitbread & Co. Ltd.,strs
+street,LLISWERRY ROAD,,,,,,,F 2
+cross_street,LLISWERRY ROAD,,,,,,From Somerton-road
+resident,LLISWERRY ROAD,,,,J. & Co.,Davies,Aberthaw Lias Lime & Portland Cement manufacturers,
+resident,LLISWERRY ROAD,,Brookfield,,E. C. J.,Badger,,
+resident,LLISWERRY ROAD,,,,W. A.,Nash,ironworker, Kil-larney
+resident,LLISWERRY ROAD,,,,,Clarke Charles Geo.,turner,Fields view
+resident,LLISWERRY ROAD,,Eschol villa,,Samuel Frank,Stephens,
+cross_street,LLISWERRY ROAD,,,,,,here cross over
+resident,LLISWERRY ROAD,,Bilston,,Alexander,Hogg,,
+resident,LLISWERRY ROAD,,Rosslyn,,Simeon,Salt,,
+resident,LLISWERRY ROAD,,Highfield,,John,Richards,,
+resident,LLISWERRY ROAD,,Tettenhall,,Edward,Page,,
+resident,LLISWERRY ROAD,,Compton,,Henry,Nokes,,
+resident,LLISWERRY ROAD,,Wren's Nest,,Thomas,Green,,
+resident,LLISWERRY ROAD,,Freystrop,,David,Roberts,,
+resident,LLISWERRY ROAD,,milkman,,William,John,,
+resident,LLISWERRY ROAD,,The Ferns,,Thos. C.,Burch,,
+resident,LLISWERRY ROAD,,milkman,,Alfred,Johns,,
+resident,LLISWERRY ROAD,,,,C. Jas.,Wilkins,ironworker
+resident,LLISWERRY ROAD,,,,Mrs.,Hockey,,
+resident,LLISWERRY ROAD,,,,Thomas,Phillips,,
+resident,LLISWERRY ROAD,,,,Schofield William,,haulier
+resident,LLISWERRY ROAD,,,,Arthur S.,Pratt,ironworker
+resident,LLISWERRY ROAD,,,,Mrs. M.,Miller,,
+resident,LLISWERRY ROAD,,,,Robert,Dent,milkman
+resident,LLISWERRY ROAD,1,Vine place,,Miss Ann,Jones,,
+resident,LLISWERRY ROAD,,,,Henry,Price,quarryman
+resident,LLOYD STREET,14,,,Thomas,Harvey,driver
+resident,LLOYD STREET,16,,,T. Hy.,Poole,ironmoulder
+resident,LLOYD STREET,18,,,E. J.,Garvey,ironworker
+resident,LLOYD STREET,20,,,Mrs. Dorcas L.,Strickland,,
+resident,LLOYD STREET,22,,,Walter,Walker,slater
+resident,LLOYD STREET,24,,,,,,Void
+resident,LLOYD STREET,26,,,William,Houghton,paintr
+resident,LLOYD STREET,28,,,Wm.,Shutt,ironworker
+resident,LLOYD STREET,30,,,Albert,Thomas,,
+resident,LLOYD STREET,32,,,Wm. J.,Griffiths,sheetwrgr
+resident,LLOYD STREET,34,,,Tom,Pitson,rivetter
+resident,LLOYD STREET,36,,,Wm.,Walker,ironworker
+resident,LLOYD STREET,38,,,Benj.,Prosser,asst. supt
+resident,LLOYD STREET,40,,,Oliver A.,Brown,,
+resident,LLOYD STREET,42,,,Hy.,Shea,wagon painter
+resident,LLOYD STREET,44,,,Mrs Mary A. E.,Pope,,
+resident,LLOYD STREET,46,,,Henry George,Miller,,
+resident,LLOYD STREET,48,,,Albert,Kenny,labourer
+resident,LLOYD STREET,50,,,Wm.,Crawford,engineer
+resident,LLOYD STREET,52,,,Richard,Davies,,
+resident,LLOYD STREET,54,,,Thomas,Davies,,
+resident,LLOYD STREET,56,,,Charles,Ulett,painter
+resident,LLOYD STREET,58,,,John A.,Gething,ironwnkr
+resident,LLOYD STREET,60,,,Thomas,Davies,salesman
+resident,LLOYD STREET,62,,,Ernest Graham,Code,,
+resident,LLOYD STREET,64,,,James,Cooper,ironwkr
+resident,LLOYD STREET,66,,,John,Edwards,,
+resident,LLOYD STREET,68,,,Sidney,Martin,ironworker
+resident,LLOYD STREET,70,,,Arth.,Wright,insp. G.W.R.
+cross_street,LLOYD STREET,,,,,,(return)
+resident,LLOYD STREET,,,,,,,Vacant sites
+resident,LLOYD STREET,9,,,Herbert,Coles,,
+resident,LLOYD STREET,5,,,Harry,Hollingdrake,clerk
+cross_street,LLOYD STREET,,,,,,here is Rugby-road
+resident,LLOYD STREET,3,,,Wm.,Whitter,asst. supt.
+resident,LLOYD STREET,1,,,Ernest,Lamb,shearer
+street,LLEWELLIN STREET,,,,,,,E 2
+cross_street,LLEWELLIN STREET,,,,,,From 26 Somerton-road (LEFT HAND SIDE.)
+resident,LLEWELLIN STREET,1,,,John,Glover,,
+resident,LLEWELLIN STREET,3,,,John,Williams,platelayer
+resident,LLEWELLIN STREET,5,,,Mrs. Mary,Poole,,
+resident,LLEWELLIN STREET,7,,,Silas,Lockley,ironworker
+resident,LLEWELLIN STREET,9,,,Thos.,Williams,G.W.R.
+resident,LLEWELLIN STREET,11,,,Robert,Ellis,mason
+resident,LLEWELLIN STREET,13,,,Geo. Hy.,Vince,ironwrkr
+resident,LLEWELLIN STREET,15,,,Wm.,Sheppard,labourer
+resident,LLEWELLIN STREET,17,,,Wm. Hy.,Distin,gardener
+resident,LLEWELLIN STREET,19,,,Eli,Dean,engine driver
+resident,LLEWELLIN STREET,21,,,Ernest Wm.,Duke,i.w.
+cross_street,LLEWELLIN STREET,,,,,,(return)
+resident,LLEWELLIN STREET,24,,,Mrs. Alice,Hall,,
+resident,LLEWELLIN STREET,22,,,Wm. Geo.,Harris,platelyr
+resident,LLEWELLIN STREET,20,,,Geo.,Bond,haulier
+resident,LLEWELLIN STREET,18,,,Miss Sarah,Adams,,
+resident,LLEWELLIN STREET,16,,,Chas.,Pithers,seaman
+resident,LLEWELLIN STREET,14,,,Benjamin,Stanley,haulier
+resident,LLEWELLIN STREET,12,,,Thomas,Savigar,rivet mkr
+resident,LLEWELLIN STREET,10,,,Henry Chas.,Preece,carptr
+resident,LLEWELLIN STREET,8,,,Mrs. R.,Ellis,,
+resident,LLEWELLIN STREET,6,,,Chas.,Baldwin,musician
+resident,LLEWELLIN STREET,4,,,John,Hunt,plasterer

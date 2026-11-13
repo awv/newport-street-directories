@@ -1,0 +1,172 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,NEWPORT STREET DIRECTORY,,"",,,,
+street,TRINITY PLACE (continued),,"",,,,
+resident,TRINITY PLACE (continued),6,"",John,Hannan,boilermkr,
+resident,TRINITY PLACE (continued),7,"",John,Greer,boilermaker,
+resident,TRINITY PLACE (continued),8,"",Daniel,O'Brien,labourer,
+resident,TRINITY PLACE (continued),9,"",John,Westacott,bricklyer,
+resident,TRINITY PLACE (continued),10,"",Charles Edward,Maher,trimmer,
+resident,TRINITY PLACE (continued),11,"",Mrs. J.,Cooper,,
+street,TROSTON ROAD,,"",,,,From Nash-road
+resident,TROSTON ROAD,,,"",Jones Edgar C.,,
+resident,TROSTON ROAD,,,"",Cooper Joseph,ironworker,
+resident,TROSTON ROAD,,,"",Rickman George,,
+resident,TROSTON ROAD,,,"",Griffin Richard,,
+resident,TROSTON ROAD,,,"",Jenkins Albert,,
+resident,TROSTON ROAD,,,"",Hayes Harry Albert,,
+resident,TROSTON ROAD,,,"",Roberts Lot,senior,
+resident,TROSTON ROAD,,,"",Haines Henry,,
+resident,TROSTON ROAD,,,"",Roberts John David,,
+resident,TROSTON ROAD,,,"",Stocker Alfred,,
+resident,TROSTON ROAD,,,"",Ginnell Joseph H.,,
+resident,TROSTON ROAD,,,"",Hickman R.,,Little Troston
+resident,TROSTON ROAD,,,"",Attewell W.,,Great Troston
+street,TROSTREY STREET,,"",,,,C 3
+cross_street,TROSTREY STREET,,,,"",,"From Turner-st. to Bath-st."
+resident,TROSTREY STREET,1,"",J.,Jeffries,,
+resident,TROSTREY STREET,,Collier's Machine Bakery,"",,,,
+resident,TROSTREY STREET,5,"",Mrs. Allen,Jones,,
+resident,TROSTREY STREET,6,"",John C.,O'Keefe,grocer,
+resident,TROSTREY STREET,7,"",Arthur James,Humphries,haulier,
+resident,TROSTREY STREET,8,"",Wm.,Griffiths,G.W.R.,
+resident,TROSTREY STREET,9,"",Mrs.,Haynes,,
+resident,TROSTREY STREET,10,"",J.,Manning,horsekeeper,
+resident,TROSTREY STREET,11,"",Wm. A.,Hobbs,plasterer,
+resident,TROSTREY STREET,12,"",John,May,blacksmith,
+resident,TROSTREY STREET,13,"",A. J.,Phillips,traveller,
+resident,TROSTREY STREET,14,"",Percy Harold,Corbidge,,
+resident,TROSTREY STREET,15,"",F. W.,Cooling,checker,
+resident,TROSTREY STREET,16,"",Chas.,Newman,detective,
+street,TUNNEL TERRACE,,"",,,,C 5
+cross_street,TUNNEL TERRACE,,,,"",,"West side of Railway Tunnel"
+resident,TUNNEL TERRACE,2,"",Wm.,Ryder,inspctr G.W.R.,
+resident,TUNNEL TERRACE,3,"",Mrs. Sarah,Thorne,,
+resident,TUNNEL TERRACE,4,"",Fredk.,Brown,plasterer,
+resident,TUNNEL TERRACE,5,"",Geo. S. A., junr.,Weight,,
+resident,TUNNEL TERRACE,6,"",E. E.,Edwards,ironworker,
+resident,TUNNEL TERRACE,7,"",J. S.,Haines,railway clerk,
+resident,TUNNEL TERRACE,8,"",Eugen,Coquerel,,
+resident,TUNNEL TERRACE,9,"",Joseph,Gibbs,,
+cross_street,TUNNEL TERRACE,,,,"",,"here is Ford-street"
+resident,TUNNEL TERRACE,10,"",David,Haines,gardener,
+resident,TUNNEL TERRACE,11,"",Wm.,Stevens,smith,
+resident,TUNNEL TERRACE,12,"",Fred,Taylor,chaffeur,
+resident,TUNNEL TERRACE,13,"",Edward,Little,chaffeur,
+resident,TUNNEL TERRACE,14,"",Edgar,Davies,compositor,
+resident,TUNNEL TERRACE,15,"",W.,Moore,William,
+resident,TUNNEL TERRACE,16,"",Miss L.,Harris,,
+resident,TUNNEL TERRACE,17,"",John,Murray,signalman,
+cross_street,TUNNEL TERRACE,,,,"",,"here is Sidney-street"
+resident,TUNNEL TERRACE,18,"",Thomas,Slade,painter,
+resident,UNION LANE,19,"",James,Widcombe,police,
+resident,UNION LANE,20,"",George,Birch,,
+resident,UNION LANE,21,"",Arthur James,Sawtell,,
+resident,UNION LANE,22,"",Philip,Coakley,p.o.,
+resident,UNION LANE,,"",Miss M. C.,Voyle,,
+resident,UNION LANE,23,"",Mrs. Maria,Jones,,
+resident,UNION LANE,25,"",Mrs. A.,Jolliffe,,
+resident,UNION LANE,24 & 26,"",John William,Jackson,,
+resident,UNION LANE,,,"",Walter,Williams,gardener,
+resident,UNION LANE,,,"",Geo. H.,Rogers,comp,
+resident,UNION LANE,27,"",Thomas,Jones,,
+resident,UNION LANE,28,"",Henry,Waters,,
+resident,UNION LANE,29,"",John,Gale,guard,
+resident,UNION LANE,30,"",Alfred E.,Powell,gardener,
+resident,UNION LANE,31,"",H. E.,Pockett,G.W.R.,
+resident,UNION LANE,32,"",Charles Henry,White,,
+resident,UNION LANE,33,"",Percival,Sharland,barman,
+resident,UNION LANE,34,"",George,Davies,,
+resident,UNION LANE,35,"",Ernest,Hood,fitter,
+resident,UNION LANE,36,"",Hathway-,Maxfield H. C.,lithogrphr,
+resident,UNION LANE,37,"",James,Adey,,
+resident,UNION LANE,38,"",Charles,Dowling,greengcr,
+resident,UNION LANE,,,"",Valentine,Charles,,
+resident,UNION LANE,39,"",Joseph,Dobson,gardener,
+resident,UNION LANE,40,"",Aug. Samuel,Haise,,
+resident,UNION LANE,41,"",Maurice,Ahearn,,
+resident,UNION LANE,42,"",Mrs. E.,Doran,,
+cross_street,UNION LANE,,,,"",,"KINGSMILL GARDENS—"
+resident,UNION LANE,43,"",Thomas,Probyn,,
+resident,UNION LANE,44,"",Rockleigh,Jones Richard,,
+cross_street,UNION LANE,,,,"",,"(return)"
+resident,UNION LANE,45,"",Henry,Lloyd Robert,,Hazelhurst
+resident,UNION LANE,46,"",James,Savage,Pen-y-bryn,
+resident,UNION LANE,47,"",J. C.,Evans Harry,Avalon house,
+street,TURNER STREET,,"",,,,C 3
+cross_street,TURNER STREET,,,,"",,"From 61 Caerleon-road"
+resident,TURNER STREET,1,"",George,Hockey,,
+resident,TURNER STREET,2,"",Hy.,Lale Albt.,boots,
+resident,TURNER STREET,,Horrocks & Sons,,"",stores,
+cross_street,TURNER STREET,,,,"",,"(return)"
+resident,TURNER STREET,3,"",John,Donovan,gas wkr,
+resident,TURNER STREET,4,"",T. B.,Tucker,clerk,
+resident,TURNER STREET,5,"",F. J.,Channon,collector,
+street,TYLLWYD ROAD,,"",,,,C 6
+cross_street,TYLLWYD ROAD,,,,"",,"Off Oakfield-road"
+cross_street,TYLLWYD ROAD,,,,"",,"(RIGHT HAND SIDE.)"
+resident,TYLLWYD ROAD,2,"",H. J.,Herbert,Cefn-Tilla,
+resident,TYLLWYD ROAD,4,"",Walter,Emery,Rosebank,
+resident,TYLLWYD ROAD,6,"",Jas.,Rev. Seldon,The Haven,
+resident,TYLLWYD ROAD,8,"",Guy,Jones,Treverton,
+resident,TYLLWYD ROAD,10,"",F.,Jesseman,Arfryn,
+resident,TYLLWYD ROAD,12,"",Frank,Smith,Craiglas,
+cross_street,TYLLWYD ROAD,,,,"",,"(return)"
+cross_street,TYLLWYD ROAD,,,,"",,"here is Southville-road"
+resident,TYLLWYD ROAD,3,"",W. E.,Matthews,Llangattock,
+resident,UNION LANE,1,"",E. E.,Williams,,The Laurels
+street,UNION LANE,,"",,,,D 4
+cross_street,UNION LANE,,,,"",,"Doch-street to Union-street"
+resident,UNION LANE,,,"",Geo.,Boots,marine stores,
+street,UNION STREET,,"",,,,D 4
+cross_street,UNION STREET,,,,"",,"From 32 Llanarth-street"
+resident,UNION STREET,1,"",Thomas,Murray,labourer,
+resident,UNION STREET,2,"",Mrs. John,Daley,,
+resident,UNION STREET,3,"",James,Thomas,labourer,
+resident,UNION STREET,4,"",William,Stanton,labourer,
+resident,UNION STREET,5,"",Herbert,Signot,haulier,
+resident,UNION STREET,6,"",Wm.,Kalahar,labourer,
+resident,UNION STREET,7,"",James,Allen,labourer,
+resident,UNION STREET,8,"",Evan John,Davies,labr,
+resident,UNION STREET,9,"",George,Davies,,
+resident,UNION STREET,10,"",John,Williams,labourer,
+resident,UNION STREET,11,"",Fred,Jones,labourer,
+resident,UNION STREET,,Star works,Avery & Sons,"",builders, carriage works
+cross_street,UNION STREET,,,,"",,"(return)"
+resident,UNION STREET,14,"",John,Le Clare,labourer,
+resident,UNION STREET,15,"",Thomas,Welsh,labourer,
+resident,UNION STREET,,,"",Thos.,Dunscombe,caretkr,
+street,UPTON PLACE,,"",,,,C 6
+cross_street,UPTON PLACE,,,,"",,"No. 182 to 196 Chepstow-road"
+street,UPTON ROAD,,"",,,,West
+cross_street,UPTON ROAD,,,,"",,"From 87 Risca-road to Park-road"
+cross_street,UPTON ROAD,,,,"",,"(LEFT HAND SIDE.)"
+resident,UPTON ROAD,1,"",W. H.,Wilson,Overdale,
+resident,UPTON ROAD,3,"",Thos. Wm.,Bird,manager,
+resident,UPTON ROAD,5,"",Rees,Davies,clerk,
+resident,UPTON ROAD,7,"",—,Knowles,,
+resident,UPTON ROAD,9,"",B. A.,Davies,,
+resident,UPTON ROAD,11,"",Philip,Willis,,
+cross_street,UPTON ROAD,,,,"",,"here is Ombersley-road"
+resident,UPTON ROAD,13,"",Charles,Yates,,
+resident,UPTON ROAD,15,"",Robt.,Giddings,gardener,
+resident,UPTON ROAD,17,"",William,Whyley,,
+cross_street,UPTON ROAD,,,,"",,"here is West Park-road"
+resident,UPTON ROAD,56,"",J. W.,Jenkins,,
+resident,UPTON ROAD,54,"",Wm.,Smale,foreman,
+cross_street,UPTON ROAD,,,,"",,"(return)"
+resident,UPTON ROAD,52,"",James,Wiggins,,
+resident,UPTON ROAD,50a,"",Jos.,Wiggins,,
+resident,UPTON ROAD,50b,"",Claude E.,Deer,,
+resident,UPTON ROAD,48,"",Mrs. Emma,Jenkins,,
+resident,UPTON ROAD,46,"",Albert,Artees,,
+resident,UPTON ROAD,44,"",—,Christopher,,
+resident,UPTON ROAD,42,"",Thos. Albert,Champion,,
+resident,UPTON ROAD,40,"",A. H.,Arnold,,
+resident,UPTON ROAD,38,"",J. E.,Williams,tailor,
+resident,UPTON ROAD,36,"",Mrs. Catherine,Cooper,,
+resident,UPTON ROAD,34,"",George S.,Gibbons,,
+resident,UPTON ROAD,32,"",Albert E.,Watkins,comp.,
+resident,UNION ROAD,30,"",Walter J.,Sambrook,clerk,
+resident,UPTON ROAD,28,"",Arthur,Taylor,,
+resident,UPTON ROAD,26,"",Godfrey,Phillips,painter,
+resident,UPTON ROAD,24,"",J. Le C.,Kicke,fitter,

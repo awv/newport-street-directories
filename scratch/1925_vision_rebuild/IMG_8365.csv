@@ -1,0 +1,144 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,CARPENTERS' ARMS LANE, , , , , ,From 8 High-street
+street,CASTLE PRECINCTS, , , , , ,C 4 | From 1 Shaftesbury-street
+entry,CASTLE PRECINCTS,1, ,G. L.,Vincent,fireman,
+entry,CASTLE PRECINCTS,2, ,Mrs. M. A.,Hillman, ,
+entry,CASTLE PRECINCTS,3, ,Alfd.,Williams,wireman,
+entry,CASTLE PRECINCTS,4, ,Wm. Chas.,Thomas,labr,
+entry,CASTLE PRECINCTS,5, ,Thomas,Roberts, ,
+street,CASTLE STREET, , , , , ,E 4 | From Potter-st. to Church-st.
+cross_street,CASTLE STREET, , , , , ,(LEFT HAND SIDE.)
+entry,CASTLE STREET,1A, ,Dl. Thos.,Powell,gateman,
+entry,CASTLE STREET,1B, ,Evan,Lewis,labourer,
+entry,CASTLE STREET,1, ,William J.,Cousins,labr,
+entry,CASTLE STREET,3, ,Wm.,Cotterill,fireman,
+entry,CASTLE STREET,5, ,Geo.,Pritchard,labourer,
+entry,CASTLE STREET,7, ,Wm.,Buckley,labourer,
+entry,CASTLE STREET,9, ,Mrs. Edith,Dermody, ,
+entry,CASTLE STREET,11, ,W.,Manship,labourer,
+entry,CASTLE STREET,13, ,Thos.,Blackley,fireman,
+entry,CASTLE STREET,15, ,Mrs. Ann,Murphy, ,
+entry,CASTLE STREET,17, ,Daniel,Hart,labourer,
+entry,CASTLE STREET,19, ,R. C.,Kewell,crane driver,
+entry,CASTLE STREET,21, ,George,Dale,goods guard,
+entry,CASTLE STREET,23, ,Fred.,Harwood,weigher,
+cross_street,CASTLE STREET, , , , , ,here is Linton-street
+entry,CASTLE STREET,25, ,Miss Mary Anne,Ryan, ,
+entry,CASTLE STREET,27, ,Stanley,Johnson,labourer,
+cross_street,CASTLE STREET, , , , , ,here is Wallis-street
+entry,CASTLE STREET,29, ,Michl. J.,McCarthy,trimmr,
+entry,CASTLE STREET,31, ,Robert,Pring,hobbler,
+cross_street,CASTLE STREET, , , , , ,here is Wilson-street
+entry,CASTLE STREET,33, ,James,Mellon,labourer,
+entry,CASTLE STREET, ,Uskside Engineering Wks, , , ,
+cross_street,CASTLE STREET, , , , , ,here is St. Michael-street
+entry,CASTLE STREET,22, ,John,Hansen,grocer,
+entry,CASTLE STREET,20, ,Hy.,Russell, ,
+entry,CASTLE STREET,18, ,James,Duggan,labourer,
+entry,CASTLE STREET,16, ,Thomas,Scanlon,labourer,
+entry,CASTLE STREET,14, ,Geo. J.,Stewart,carpenter,
+entry,CASTLE STREET,12, ,Wm.,Thorne,labourer,
+entry,CASTLE STREET,10, ,Nicholas,Kearns,labourer,
+entry,CASTLE STREET,8, ,Patrick,Murphy,moulder,
+entry,CASTLE STREET,6, ,William,Tait,dk labourer,
+entry,CASTLE STREET,4, ,C.,Regan,insur agent,
+entry,CASTLE STREET,2, ,William,Lane, ,
+street,CAXTON PLACE, , , , , ,C 5 | From 23 Bridge-street
+cross_street,CAXTON PLACE, , , , , ,(LEFT HAND SIDE.)
+entry,CAXTON PLACE, ,Lloyd's Stores, , , ,
+entry,CAXTON PLACE,1, ,Stanley G.,Walters,auct'r,
+entry,CAXTON PLACE,2, ,Mrs. Ethel,Henry, ,
+entry,CAXTON PLACE,3, ,William,Price,tailor,
+cross_street,CAXTON PLACE, , , , , ,(return)
+entry,CAXTON PLACE,4, ,George,Thomas,fish bar,
+entry,CAXTON PLACE,5, ,F. E.,Hicks, ,(Hicks Alfred and Sons)
+street,CEDAR ROAD, , , , , ,C 4 | From 36 Chepstow-road to Corporation-road
+cross_street,CEDAR ROAD, , , , , ,(LEFT HAND SIDE.)
+entry,CEDAR ROAD,1, ,Miss M.,Young,teacher,
+entry,CEDAR ROAD,3, ,Mrs. A.,John,mona ho,
+entry,CEDAR ROAD,5, ,Tom,Parselle,Ellesmere,
+entry,CEDAR ROAD,7, ,R. P.,Kilmister,manager Amberley,
+entry,CEDAR ROAD,9, ,E. A.,Hadden,inspector,
+cross_street,CEDAR ROAD, , , , , ,here is Bedford-road
+entry,CEDAR ROAD,11, ,W.,Sherred,Knockley,
+entry,CEDAR ROAD,13, ,H. E.,Baker,Ingleside,
+entry,CEDAR ROAD,15, ,W. A.,Hutson,piano t'nr,
+entry,CEDAR ROAD,17, ,Mrs. S.,Crossman,Earlswd ho,
+entry,CEDAR ROAD,19, ,Wm.,Prince,Wakefield,
+entry,CEDAR ROAD,21, ,D.,Linton,Chelwood ho,
+entry,CEDAR ROAD,23, ,Chas. Herbert,Pitman, ,
+cross_street,CEDAR ROAD, , , , , ,here is Corporation-road
+cross_street,CEDAR ROAD, , , , , ,(return)
+entry,CEDAR ROAD,20, ,E.,Jones,The Laurels,
+entry,CEDAR ROAD,18, ,W. C.,Richards,carpenter St. Olives,
+entry,CEDAR ROAD,16, ,Mrs. Mary J.,Davies,Rosedale,
+entry,CEDAR ROAD,14, ,Fredk.,Williams,Phelps St. Harmons,
+entry,CEDAR ROAD,12, ,Mrs. Emma,Seymour, ,
+cross_street,CEDAR ROAD, , , , , ,here is Bedford-road
+entry,CEDAR ROAD,10, ,Mrs. M.,Clarke,Leverington,
+entry,CEDAR ROAD,8, ,H. J.,Price,Lynton,
+entry,CEDAR ROAD,6, ,E. W.,Williams,Lynmouth,
+entry,CEDAR ROAD,4, ,William,Gray,Riversdale,
+entry,CEDAR ROAD,2, ,Harold,Powell, ,
+street,CEMETERY LANE, , , , , ,D 5 | North-street to Clifton-road
+street,CENFEDD STREET, , , , , ,C 3 | Off Constance-street
+entry,CENFEDD STREET,1, ,F. C.,Beighton,knife c'tr,
+entry,CENFEDD STREET,3, ,Wm.,Rose,G.W.R.,
+entry,CENFEDD STREET,5, ,Thos. E.,Tanner,painter,
+entry,CENFEDD STREET,7, ,Geo.,Marley,traffic trman,
+entry,CENFEDD STREET,9, ,Stanley,Elliott,sailor,
+entry,CENFEDD STREET,11, ,Robt. O.,Evans,G.W.R.,
+street,CHARLES STREET, , , , , ,D 4 | From 149 Commercial-street to Stow-hill
+cross_street,CHARLES STREET, , , , , ,(LEFT HAND SIDE)
+entry,CHARLES STREET, ,THE EMPIRE—Moss Empires Ltd., , ,proprietors,
+cross_street,CHARLES STREET, , , , , ,here is Talbot-lane
+entry,CHARLES STREET,6, ,A.,Fennell,hairdresser,
+entry,CHARLES STREET,7, ,W. C.,Parkes,'Douglas' motor cycle depot,
+entry,CHARLES STREET,8, ,Mrs. Emily,Pacello, ,
+entry,CHARLES STREET,9, , ,Ida's Cafe, ,
+entry,CHARLES STREET,10, ,A. G.,Bird,house decorator,
+entry,CHARLES STREET, , ,Frank Alfred,Bird, ,
+entry,CHARLES STREET,11,Southern Equitable Advance Co., Ltd.,E. R. Axton,manager, , ,
+entry,CHARLES STREET, ,English Baptist Church, , , ,
+entry,CHARLES STREET, ,NEWPORT EDUCATION OFFICES—,Eaves T. Arth.,secretary; Moores G. W., assistant secretary, ,
+entry,CHARLES STREET, ,Juvenile Employment Department, , , ,
+entry,CHARLES STREET, , ,Caleb,Squire,caretaker,
+entry,CHARLES STREET, , ,W. & Son,Collard,office and showrooms,
+entry,CHARLES STREET,17, ,W.,Collard,builder,
+entry,CHARLES STREET,18, ,Mark,Dyer,stoker,
+entry,CHARLES STREET,19, , & Sons,Grande,fruitcrers,
+entry,CHARLES STREET,20, ,Miss,Llewellyn,costumier,
+entry,CHARLES STREET,21, , ,Bible and Tract Depot, ,
+cross_street,CHARLES STREET, , , , , ,(return)
+entry,CHARLES STREET,22, ,J.,Roberts,confectioner,
+entry,CHARLES STREET,23, , ,Health Food Stores, ,
+entry,CHARLES STREET, , ,E.,Robins,sweep,
+entry,CHARLES STREET,24, ,Miss A.,Rowberry,herb'ist,
+entry,CHARLES STREET,25, ,Walter,Brind,butcher,
+entry,CHARLES STREET,26, ,W. J.,Scannell,bootmkr,
+entry,CHARLES STREET,27, ,E.,Cowley,ladies' outfittr,
+entry,CHARLES STREET, , ,Arthur,Webb, ,
+entry,CHARLES STREET, ,Newport Institute for the Blind,Wm.,Edwards,builder,
+entry,CHARLES STREET,28, ,Mrs. Amy,Maddocks, ,
+entry,CHARLES STREET,29,THE CENTRAL SPIRITUALIST CHURCH, , , ,
+entry,CHARLES STREET,30, ,Mrs. E.,Smith, ,
+entry,CHARLES STREET,31, ,L.,Mendleson,tailor,
+entry,CHARLES STREET,32, ,Michael,Harris,tailor,
+entry,CHARLES STREET,33, ,Ettie,Reed,milliner,
+entry,CHARLES STREET,34, , & Griffiths,Cowley, ,
+entry,CHARLES STREET, , ,C.,Griffiths, ,
+entry,CHARLES STREET,35, ,Israel,Cohen,confect.,
+cross_street,CHARLES STREET, , , , , ,Entrance to Municipal Secondary School and Cookery Centre
+entry,CHARLES STREET, , ,W. T.,Probert,caretaker,
+entry,CHARLES STREET,39-40, , & Co., Ltd.,Reynolds,house furnishers & draps,
+street,CHARLOTTE STREET, , , , , ,E 5 | From 45 Alma-st. to Capel-st.
+cross_street,CHARLOTTE STREET, , , , , ,(LEFT HAND SIDE.)
+entry,CHARLOTTE STREET,1, ,Geo. N.,Dowdall,caterer,
+entry,CHARLOTTE STREET,2, ,Mrs. E.,Griffiths, ,
+entry,CHARLOTTE STREET,3, ,Edwin,Watkins,blrmkr,
+entry,CHARLOTTE STREET,4, ,Robert,Willis,blacksmith,
+cross_street,CHARLOTTE STREET, , , , , ,here is Lewis-street
+entry,CHARLOTTE STREET, , ,W. & Son,Pope,builders,
+entry,CHARLOTTE STREET, , ,H. & Co.,Cusk,cabinet makers and upholsterers,
+entry,CHARLOTTE STREET, , ,Albert E.,Hicks,Ltd.,undertakers,
+cross_street,CHARLOTTE STREET, , , , , ,here is Raglan-street

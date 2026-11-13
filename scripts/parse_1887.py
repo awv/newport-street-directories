@@ -93,89 +93,87 @@ CROSS_STREET_PAT = re.compile(
     re.I
 )
 
+STREET_SUFFIXES = {
+    'street', 'st', 'road', 'rd', 'avenue', 'ave', 'av', 'place', 'pl',
+    'terrace', 'ter', 'lane', 'crescent', 'cres', 'square', 'sq',
+    'parade', 'pde', 'hill', 'walk', 'court', 'row', 'wharf', 'quay',
+    'dock', 'docks', 'villas', 'gardens', 'mews', 'rise', 'drive',
+    'passage', 'market', 'arcade', 'bank', 'grove', 'path', 'close',
+    'view', 'way', 'circus', 'circle'
+}
+
+KNOWN_STREETS = {
+    'baneswell', 'courtybella', 'friars', 'the friars', 'stow', 'stow hill',
+    'barnard town', 'town hall', 'union', 'westgate', 'cambria', 'melbourne',
+    'ringland', 'cross-street', 'cross street', 'cross lane', 'maindee',
+    'the marshes', 'marshes', 'belle vue', 'gold tops', 'pentonville'
+}
+
+IGNORED_HEADER_REGEX = re.compile(
+    r'\b(?:newport\s+street\s+list|newport\s+street\s+directory|newport\s+directory|street\s+directory)\b'
+    r'|^\s*newport\s*[\.\-—]*$'
+    r'|^\s*directory\s*[\.\-—]*$',
+    re.I
+)
+
+NAME_ABBR_PAT = re.compile(
+    r'\b(?:mr|mrs|miss|rev|dr|capt|col|hon|snr|jun|esq|wm|thos|geo|chas|edwd|robt|hy|jas|jno|danl|alfd|fredk)\b',
+    re.I
+)
+
+VALID_WARD_AFTER_COMMA = re.compile(
+    r'^\s*(?:P\.|B\.T\.|M\.|C\.|T\.|B\.|L\.|D\.|E\.|BT|P|M|C|T|B|L|D|E|Pill|Maindee|Crindau|Marshes|Liswerry|Borough|Town|Tunnel|continued|contd|cont|cont[\'’]d|contind)\.?\s*$',
+    re.I
+)
+
 def is_valid_street_name(s):
-    s = s.strip()
     if not s:
         return False
-    # Clean common suffixes and trailing punctuation from street name candidates
-    s_clean = s
-    s_clean = re.sub(r'[\s\-—]+continued\b', '', s_clean, flags=re.I).strip()
+    s = s.strip()
+    if IGNORED_HEADER_REGEX.search(s):
+        return False
+    if re.match(r'^\d+', s):
+        return False
+    if CROSS_STREET_PAT.search(s):
+        return False
+    if s.lower().startswith(('and ', 'or ', 'of ', 'at ', 'in ', 'near ', 'behind ', 'opposite ', 'with ', 'see ')):
+        return False
+        
+    if ',' in s:
+        parts = s.split(',', 1)
+        before_comma = parts[0].strip()
+        after_comma = parts[1].strip()
+        if not VALID_WARD_AFTER_COMMA.match(after_comma):
+            return False
+        s_candidate = before_comma
+    else:
+        s_candidate = s
+        
+    s_clean = re.sub(r'[\s\-—–_]+(?:continued|contd|cont|cont\.|cont[\'’]d|contind)\b', '', s_candidate, flags=re.I).strip()
     s_clean = re.sub(r'\b(?:from|to|off)\s+.*', '', s_clean, flags=re.I).strip()
     s_clean = re.sub(r'[\(\[].*?[\)\]]', '', s_clean, flags=re.I).strip()
-    s_clean = s_clean.rstrip('. -—,')
+    s_clean = s_clean.rstrip('. -—,–_')
     
-    # Ignore non-street block headers (chambers, villas, buildings)
-    words = s_clean.lower().split()
-    if words:
-        last_word = words[-1].strip('.,()-')
-        ignored_suffixes = {'buildings', 'chambers', 'court', 'wharf', 'villas', 'cottages'}
-        if last_word in ignored_suffixes or any(w in ignored_suffixes for w in words):
-            return False
+    if not re.search(r'\bHigh\s+Street\b', s_clean, re.I):
+        s_clean = re.sub(r'[\s,]+(?:P\.|B\.T\.|M\.|C\.|T\.|B\.|L\.|D\.|E\.|BT|[PMCTBLDE])\s*$', '', s_clean, flags=re.I).strip()
+    s_clean = s_clean.rstrip('. -—,–_')
     
-    if not s_clean:
-        return False
-    if not s_clean.isupper():
+    if NAME_ABBR_PAT.search(s_clean):
         return False
         
-    # Ignore short stray page headers (like ARC, ALB, STO)
-    if len(s_clean) <= 4:
+    words = [w.strip('.,()-\"\'–_') for w in s_clean.lower().split() if w.strip('.,()-\"\'–_')]
+    if not words:
         return False
         
-    # Ignore grid reference patterns (e.g. "D 5", "E 12")
-    if re.match(r'^[A-Z]\s*\d+$', s_clean):
+    if len(words) < 2 and s_clean.lower() not in KNOWN_STREETS:
         return False
         
-    # Ignore common business name patterns and telephone numbers to prevent inline ads from being parsed as streets
-    ignored_keywords = [
-        r'\b(?:CO\.?\s+LTD|CO\b\s*LTD\b|LTD\b|LTD\.)',
-        r'\bLIMITED\b',
-        r'\bGARAGE\b',
-        r'\bFILLING\s+STATION\b',
-        r'\bSERVICE\s+STATION\b',
-        r'\bTRADING\s+ESTATE\b',
-        r'\bINDUSTRIAL\s+ESTATE\b',
-        r'\bPUBLIC\s+HOUSE\b',
-        r'\bMOTOR\s+CO\b',
-        r'\bINSTALLATIONS\b',
-        r'\bCOY\b',
-        r'\bDISMANTLERS\b',
-        r'\bNEWPORT\s+\d+\*?\b',
-        r'\bPORT\s+\d+',
-        r'\bT\s*N\s*\d+',
-        r'\bTEL\b',
-        r'\bPHONE\b',
-        r'\bTELEPHONE\b',
-        r'\bSUPER\s+TUNE\b',
-        r'\bDOVEY\s+MOTOR\b',
-        r'&'
-    ]
-    ignored_pat = re.compile('|'.join(ignored_keywords), re.I)
-    if ignored_pat.search(s_clean):
+    if re.search(r'\b(?:ltd|limited|co|coy|chants|merchants|works|inn|hotel|tavern|brewery)\b', s_clean, re.I):
         return False
         
-    # Ignore generic page directory titles and institution/church headers
-    ignored_headers = {
-        "NEWPORT STREET DIRECTORY", "NEWPORT", "STREET DIRECTORY", 
-        "DIRECTORY", "ALEXANDRA SCHOOLS", "SPRING GARDENS SCHOOL",
-        "WESLEYAN METH CHURCH", "WESLEYAN METHODIST CHAPEL", "WESLEYAN METHODIST MISSION HALL",
-        "THE BARRACKS", "THE BARRACKS—", "UNITED METHODIST CHURCH", "PRESBYTERIAN CHURCH",
-        "TEMPERANCE COTTAGES", "NEW TERRITORIAL DRILL", "MARSHES HALL", "NORTH STREET MEETING",
-        "PENYLAN MISSION ROOM", "PILLGWENLLY WESLEYAN", "PUBLIC PARK", "FOR GOOD SHIRT AND COLLAR DRESSING",
-        "KINDLY SERVICE THE KEYNOTE OF THIS ESTABLISHMENT", "WOODLAND STREET DIRECTORY"
-    }
-    norm_clean = re.sub(r'[^A-Z0-9\s]', '', s_clean).strip()
-    if norm_clean in {re.sub(r'[^A-Z0-9\s]', '', h) for h in ignored_headers}:
-        return False
-        
-    if s_clean.startswith('(') or s_clean.startswith('[') or s_clean.startswith('*') or s_clean.endswith(')'):
-        return False
-    if s_clean.lower() in {'(return)', 'return', 'continued'}:
-        return False
-    if s_clean.startswith("OFF ") or s_clean.startswith("FROM ") or s_clean.startswith("TO "):
-        return False
-    if s_clean in {"LEFT HAND SIDE", "RIGHT HAND SIDE", "EAST SIDE", "WEST SIDE"}:
-        return False
-    return True
+    last_word = words[-1]
+    is_st = last_word in STREET_SUFFIXES or s_clean.lower() in KNOWN_STREETS
+    return is_st
 
 def parse_tsv(input_path, output_path):
     records = []
@@ -193,20 +191,31 @@ def parse_tsv(input_path, output_path):
             if not any(p for p in parts):
                 continue
                 
-            col0 = parts[0]
-            
-            # Identify street header
+            # Skip running headers
+            if any(IGNORED_HEADER_REGEX.search(p) for p in parts):
+                continue
+
+            first_candidate = next((p for p in parts[:3] if p), '')
             is_street = False
-            if col0 and is_valid_street_name(col0):
+            matched_street_name = ""
+            if first_candidate and is_valid_street_name(first_candidate):
                 is_street = True
+                matched_street_name = first_candidate
                     
             if is_street:
-                s_clean = col0.strip()
-                s_clean = re.sub(r'[\s\-—]+continued\b', '', s_clean, flags=re.I).strip()
+                s_clean = matched_street_name.strip()
+                s_clean = re.sub(r'[\s\-—–_]+(?:continued|contd|cont|cont\.|cont[\'’]d|contind)\b', '', s_clean, flags=re.I).strip()
                 s_clean = re.sub(r'\b(?:from|to|off)\s+.*', '', s_clean, flags=re.I).strip()
                 s_clean = re.sub(r'[\(\[].*?[\)\]]', '', s_clean, flags=re.I).strip()
+                if not re.search(r'\bHigh\s+Street\b', s_clean, re.I):
+                    s_clean = re.sub(r'[\s,]+(?:P\.|B\.T\.|M\.|C\.|T\.|B\.|L\.|D\.|E\.|BT|[PMCTBLDE])\s*$', '', s_clean, flags=re.I).strip()
                 current_street = clean_street_name(s_clean)
-                continue
+                if not any(parts[1:]):
+                    continue
+                else:
+                    if parts[0] == matched_street_name:
+                        parts[0] = ''
+
                 
             # Combine all non-empty columns with a space to check cross-street descriptions
             combined_row = " ".join([p for p in parts if p]).strip()
@@ -225,7 +234,7 @@ def parse_tsv(input_path, output_path):
                 continue
                 
             # Skip CSV/TSV headers
-            if col0 == "Number" and parts[1] == "Forenames":
+            if parts[0] == "Number" and parts[1] == "Forenames":
                 continue
                 
             h_num = parts[0]

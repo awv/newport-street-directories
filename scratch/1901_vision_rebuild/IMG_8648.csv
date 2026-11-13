@@ -1,0 +1,159 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Jenkins Street,,,Mrs Ann,Halse,shop assist.,
+resident,Jenkins Street,34,,,Mrs Elizabeth,Daymond,,
+resident,Jenkins Street,35,,,Samuel,Daymond,grocer,
+resident,Jenkins Street,36,,,,,(return.)
+cross_street,Jenkins Street,,,,,,,
+resident,Jenkins Street,37,,,S. W.,Daymond,grocer, &c
+resident,Jenkins Street,38,,,Mrs Sarah,Cook,,
+resident,Jenkins Street,39,,,Henry,Hart,tailor
+resident,Jenkins Street,40,,,Henry,Morgan,mason
+resident,Jenkins Street,41,,,Mrs Matilda,Jenkins,,
+resident,Jenkins Street,42,,,Edwin,James,painter
+resident,Jenkins Street,43,,,Fdk.,Saunderson,cabman
+resident,Jenkins Street,44,,,George,Lixton,labourer
+resident,Jenkins Street,45,,,,,,Void
+resident,Jenkins Street,46,,,,,,do
+resident,Jenkins Street,47,,,Jos.,Fowler,,Clifton Tavern
+resident,Jenkins Street,48,,,Aaron,Webb,porter
+resident,Jenkins Street,49,,,Michael,Sextone,,
+resident,Jenkins Street,50,,,Jas.,Orphan,stonemason
+resident,Jenkins Street,51,,,John,Capel,labourer
+resident,Jenkins Street,52,,,W. J.,Westcott,engineman
+resident,Jenkins Street,53,,,William,Diment,labourer
+resident,Jenkins Street,54,,,Charles,Hopkins,currier
+resident,Jenkins Street,55,,,George,Holt,gardener
+resident,Jenkins Street,56,,,Wm.,Brickley,shoemaker
+resident,Jenkins Street,57,,,David,Lewis,hawker
+resident,Jenkins Street,58,,,Walter,Liversedge,,
+resident,Jenkins Street,59,,,George,Watkins,painter
+resident,Jenkins Street,60,,,George J.,Venn,fireman
+resident,Jenkins Street,61,,,James,Tilley,labourer
+resident,Jenkins Street,62,,,George,Pugsley,,
+resident,Jenkins Street,63,,,John,Davies,,
+resident,Jenkins Street,64,,,Patrick,White,labourer
+resident,Jenkins Street,65,,,William,Cooper,,
+resident,Jenkins Street,66,,,Wm.,Newman,labourer
+resident,Jenkins Street,67,,,Wm.,Mahoney,boilermakr
+resident,Jenkins Street,68,,,Henry,Bailey,labourer
+resident,Jenkins Street,69,,,Mrs Ann,Power,,
+resident,Jenkins Street,70,,,George,Watkins,labourer
+resident,Jenkins Street,71,,,J.,Giffen,landscape gard'r
+resident,Jenkins Street,72,,,Thomas,Honeywill,tailor
+resident,Jenkins Street,73,,,Francis,Evans,haulier
+resident,Jenkins Street,74,,,Joseph,Fowler,smith
+street,Junction Road, B.T.,,,,,,,Caerleon-rd. to Duckpool-rd.
+resident,Junction Road, B.T.,1,,,Wm.,Whittall,cab prop'tr,
+resident,Junction Road, B.T.,2,,,William,Davies,puddler,
+resident,Junction Road, B.T.,3,,,William,Baker,ostler,
+resident,Junction Road, B.T.,4,,,James,Heaton,striker,
+resident,Junction Road, B.T.,5,,,Mrs,Bowden,,
+resident,Junction Road, B.T.,6,,,George,Hancock,labourer,
+resident,Junction Road, B.T.,7,,,John,Bowkett,cab driver,
+resident,Junction Road, B.T.,8,,,Wm.,Holmes,plasterer,
+cross_street,Junction Road, B.T.,,,,,,,here is Bishop-street.
+resident,Junction Road, B.T.,9,,,James,Gale,shopkeeper,
+resident,Jenkins Street,,,,,,House void,
+resident,Jenkins Street,,,,Thomas,Powell,haulier,
+resident,Jenkins Street,,,,Benj.,Amphlett,brick burner,
+resident,Jenkins Street,,,,Charles,Small,bricklayer,
+resident,Jenkins Street,,,,Thomas,Williams,painter,
+resident,Jenkins Street,,,,Charles,Moss,labourer,
+resident,Jenkins Street,,,,Timothy,Mahoney,,
+resident,Jenkins Street,,,,David,Inker,pottery hand,
+resident,Jenkins Street,,,,George,Vowles,gas works,
+resident,Jenkins Street,,,,Thomas,Fear,platelayer,
+resident,Jenkins Street,,,,James,Harrison,platelayer,
+resident,Jenkins Street,,,,Henry,Whitcomb,,
+resident,Jenkins Street,,,,,,,Vacant site
+street,John Street,,,,,,,From 103 Dock-street.
+resident,John Street,,,,Oliver H.,Trigg,,Heber house
+cross_street,John Street,,,,,,,entrance to Winmill-street.
+street,Jones Street, B.,,,,,,,From top of North-street to St. Woolos-road.
+cross_street,Jones Street, B.,,,,,,,[RIGHT HAND SIDE.]
+resident,Jones Street, B.,1,New Inn,F. J.,Matthews,,
+resident,Jones Street, B.,2,,,Frank,Dyer,painter,
+resident,Jones Street, B.,3,,,Thos. W.,Taylor,striker,
+resident,Jones Street, B.,4,,,Thomas,Scard,machinist,
+resident,Jones Street, B.,5,,,R.,Pritchard,labourer,
+resident,Jones Street, B.,6,,,John,Parsons,plasterer,
+resident,Jones Street, B.,7,,,John,Carter,labourer,
+resident,Jones Street, B.,8,,,Milsom,Hawkins,storemn,
+resident,Jones Street, B.,9,,,Edwin,Bullock,,
+resident,Jones Street, B.,10,,,Benjamin,Palmer,,
+resident,Jones Street, B.,11,,,L.,Williams,,
+resident,Jones Street, B.,12,,,Owen,Smith,labourer,
+resident,Jones Street, B.,13,,,James,Waters,labourer,
+resident,Jones Street, B.,14,,,John,Hughes,fitter,
+resident,Jones Street, B.,15,,,John,Johns,furnaceman,
+resident,Jones Street, B.,16,,,M.,McCarthy,,
+resident,Jones Street, B.,17,,,Frederick,Dunk,fireman,
+resident,Jones Street, B.,18,,,George S.,Parry,baker,
+resident,Jones Street, B.,19,,,Edwin,Hawkes,gardener,
+resident,Jones Street, B.,20,,,Wm.,Knight,shopkeeper,
+resident,Jones Street, B.,21,,,Wm.,Abbott,signalman,
+resident,Jones Street, B.,22,,,George Edward,Fowler,,
+resident,Jones Street, B.,23,,,Jas.,Barnett,compositor,
+resident,Jones Street, B.,24,,,Moses,Molloy,labourer,
+resident,Jones Street, B.,25,,,Mrs Lucy,Davey,,
+resident,Jones Street, B.,26,,,Alfred,Green,die setter,
+resident,Jones Street, B.,27,,,Oliver,Sulvey,labourer,
+resident,Jones Street, B.,28,,,W.,Moore,brazier,
+resident,Jones Street, B.,29,,,A.,Byfield,warehouseman,
+resident,Jones Street, B.,30,,,Miss E.,Weston,,
+resident,Jones Street, B.,31,,,Harry,Lane,,
+resident,Jones Street, B.,32,,,Andrew,O'Brien,,
+resident,Jones Street, B.,33,,,Thos.,Shellard,labourer,
+resident,Jenkins Street,2,,,Arthur S.,Pratt,bricklayr,
+resident,Jenkins Street,3,,,Thomas,Perry,labourer,
+resident,Jenkins Street,4,,,William,Lewis,labourer,
+resident,Jenkins Street,5,,,Tom,Ball,brattice maker,
+resident,Jenkins Street,6,,,Albert,Pearse,fireman,
+resident,Jenkins Street,,,,,,,Vacant sites
+resident,Jenkins Street,9,,,Joseph,Spence,ironwkr,
+resident,Jenkins Street,10,,,Amos,Close,labourer,
+resident,Jenkins Street,11,,,,,,Void
+resident,Jenkins Street,12,,,George,Moore,labourer,
+resident,Jenkins Street,,,,,,,Vacant sites
+cross_street,Jenkins Street,,,,,,,(return.)
+resident,Jenkins Street,13,,,John,Goodreid,,Orb wrks
+resident,Jenkins Street,14,,,Isaiah,Spruce,,
+resident,Jenkins Street,15,,,Albert,Protheroe,,
+resident,Jenkins Street,16,,,,,,Void
+resident,Jenkins Street,17,,,Alfred,Jackson,ironworkr,
+resident,Jenkins Street,18,,,Major,Kinder,ironworker,
+resident,Jenkins Street,19,,,Thos.,Bennett,labourer,
+resident,Jenkins Street,20,,,Alfred,Wilks,labourer,
+resident,Jenkins Street,21,,,,,,Void
+resident,Jenkins Street,22,,,Robert,Ward,,Orb works
+resident,Jenkins Street,23,,,,Williams,quarryman,
+resident,Jenkins Street,24,,,Edwd.,Piggott,,Orb wrks
+resident,Jenkins Street,25,,,John,Bagnall,ironworker,
+resident,Jenkins Street,26,,,,,,Void
+resident,Jenkins Street,27,,,John,White,forgeman,
+resident,Jenkins Street,28,,,James,Lloyd,ironworker,
+resident,Jenkins Street,29,,,,,,Void
+resident,Jenkins Street,30,,,James,Williams,shearer,
+resident,Jenkins Street,31,,,Austin,Redman,,
+resident,Jenkins Street,32,,,Thomas,Ford,labourer,
+street,Jeffrey Street,,,,,,,Wharf-rd. to Llanwern-street.
+cross_street,Jeffrey Street,,,,,,, [LEFT HAND SIDE.]
+resident,Jeffrey Street,,,,Wm.,Godsall,enamel works,
+resident,Jeffrey Street,,,,William,O'Brien,fitter,
+resident,Jeffrey Street,,,,Joseph,Thomas,mason,
+resident,Jeffrey Street,,,,Martin,Ingram,furnaceman,
+resident,Jeffrey Street,,,,Fred.,Lippiatt,ironworker,
+resident,Jeffrey Street,,,,Eleazer,Parry,haulier,
+resident,Jeffrey Street,,,,John,Mitchell,platelayer,
+cross_street,Jeffrey Street,,,,,,,hert is Rishton-street.
+resident,Jeffrey Street,,,,,,,House void
+resident,Jeffrey Street,,,,Mrs Sarah,Evans,,
+resident,Jeffrey Street,,,,,,,House void
+resident,Jeffrey Street,,,,Mark,Gunstone,packer,
+resident,Jeffrey Street,,,,Henry,Prowse,mason,
+cross_street,Jeffrey Street,,,,,,,(return.)
+resident,Jeffrey Street,,,,Albert,Browning,carpenter,
+resident,Jeffrey Street,,,,James,Rogers,agent,
+resident,Jeffrey Street,,,,Charles Henry,Pitts,G.W.R.,
+resident,Jeffrey Street,,,,Thomas,Whelton,eng. driver,
+resident,Jeffrey Street,,,,Frederick Edwy,Grant,,

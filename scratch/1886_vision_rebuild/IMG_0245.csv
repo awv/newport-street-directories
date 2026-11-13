@@ -1,0 +1,149 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Seamoor Terrace,,,,,,See Duckpool-road.
+street,Speke Street,,,,,,Opposite Board Schools.
+resident,Speke Street,,,Simon,Olma,traveller,
+resident,Speke Street,,,Wm.,Giddings,painter,
+resident,Speke Street,,,Richd.,Yellard,engineer,
+resident,Speke Street,,,John,Pugsley,smith,
+street,Spring Street, B.T.,,,,,,From Arthur-street.
+resident,Spring Street, B.T.,1,,Mrs. Catherine,Pewtner,,
+resident,Spring Street, B.T.,2,,Walter,Ellis,baker,
+resident,Spring Street, B.T.,3,,John,Hodge,,
+resident,Spring Street, B.T.,4,,Chas.,Pewtner,labourer,
+resident,Spring Street, B.T.,5,,Jas.,Pritchard,labourer,
+resident,Spring Street, B.T.,6,,Alf.,Warner,hobbler,
+resident,Spring Street, B.T.,7,,Jas.,Sinclair,carpenter,
+resident,Spring Street, B.T.,8,,Jno.,Chambers,labourer,
+cross_street,Spring Street, B.T.,,,,,,here cross over.
+resident,Spring Street, B.T.,9,,John,Bell,machine hand,
+resident,Spring Street, B.T.,10,,Wm.,Field,foreman,
+resident,Spring Street, B.T.,11,,Geo.,Nethercott,foreman,
+resident,Spring Street, B.T.,12,,James,Jones,mason,
+street,Summer Hill,,,,,,From Victoria-terrace to Victoria-avenue.
+resident,Summer Hill,,,B.,Pratt,,Brynderwen
+resident,Summer Hill,,,George,Harries,,Glen-vue
+street,Summer Hill Villas,,,,,,
+resident,Summer Hill Villas,1,,Edwin,Cherry,,
+resident,Summer Hill Villas,2,,Thomas H.,Cundy,,
+resident,Summer Hill Villas,3,,R.,Sayer,C.E.,
+resident,Summer Hill Villas,4,,Edwin,Hill,,
+resident,Summer Hill Villas,,,J. R.,Richards,,Gogerddan v
+resident,Summer Hill Villas,,,James,Morgan,,Peringa vil
+resident,Summer Hill Villas,,,Mrs. M.,Davies,,Arran villa
+resident,Summer Hill Villas,,,G. F.,Gritton,,Rutland villa
+street,Summer Hill Terrace,,,,,,
+resident,Summer Hill Terrace,1,,Wm. H.,Gough,,
+resident,Summer Hill Terrace,2,,J. R.,Williams,,
+resident,Summer Hill Terrace,3,,Mrs.,Edmunds,,
+resident,Summer Hill Terrace,4,,Rev. G. H.,Cook,,
+resident,Summer Hill Terrace,5,,Miss,Harper,,
+resident,Summer Hill Terrace,6,,Mrs. Sarah,Grant,,
+resident,Summer Hill Terrace,7,,W. T.,Sier,monu'tl mason,
+resident,Summer Hill Terrace,8,,Charles,Joyce,,
+street,Isca Terrace,,,,,,
+resident,Isca Terrace,,,E. J.,Jones,travlr,Isca cot
+cross_street,Isca Terrace,,,,,,here is Albert-avenue.
+resident,Isca Terrace,,,Geo. H.,Rogers,,Cardigan vl
+resident,Isca Terrace,,,L. G.,De Ferry,,Aberystwith v
+resident,Isca Terrace,,,Rev. R. M.,Rees,,Ilfracombe house
+resident,Victoria Avenue,,,Joseph,Lewis,accountant,Brynderwen cottage
+resident,Victoria Avenue,,,Wm. J.,Craddock,agent,Brynderwen cottage
+resident,Victoria Avenue,,,W.,Sainsbury,,Brynderwen cottage
+street,Upton Place,,,,,,See Chepstow-road.
+street,Vaughan Terrace,,,,,,See Fair Oak-avenue.
+street,Victoria Avenue,,,,,,From the George Hotel to Old Christchurch-road.
+resident,Victoria Avenue,,,Martha,Hockey,widow,
+resident,Victoria Avenue,,,Frederick,Brown,fitter,
+resident,Victoria Avenue,,,Saml.,Evans,carpenter,
+resident,Victoria Avenue,,,Edward,Osmond,mason,
+resident,Victoria Avenue,,,Robert,Hockey,labourer,
+resident,Victoria Avenue,,,O.,Williams,Sandford cot,
+resident,Victoria Avenue,4,,Edwd.,Llewellyn,,Moss cot
+resident,Victoria Avenue,,,B. smith,Florida,Fern cot,
+resident,Victoria Avenue,,,Thomas,Heiffer,Ivor cot,
+resident,Victoria Avenue,,,W.,Mundon,labourer,
+resident,Victoria Avenue,,,Edwin,Jenkins,labourer,
+resident,Victoria Avenue,,,Thos.,Shepherd,ditto,
+resident,Victoria Avenue,,Victoria Chapel,Wesleyan,,,
+resident,Victoria Avenue,,,,,House void
+resident,Victoria Avenue,,,J. F.,Bowman,,
+resident,Victoria Avenue,,,J.,Bristow,shoemaker,
+cross_street,Victoria Avenue,,,,,,here is Crown-street.
+resident,Victoria Avenue,,,Zach.,Downes,plasterer,
+cross_street,Victoria Avenue,,,,,,here are Fulford's Cottages.
+resident,Victoria Avenue,,,,,House void
+resident,Victoria Avenue,,,James,Hodges,mason,
+resident,Victoria Avenue,,,John,Sharland,blacksmith,
+resident,Victoria Avenue,,,Joshua,Gawler,gardener,
+resident,Victoria Avenue,,,Edmund,Whitmarsh,carp,
+resident,Victoria Avenue,,,Jacob,Edwards,coachman,
+resident,Victoria Avenue,,,Mrs.,Davies,,Kingsley ho
+resident,Victoria Avenue,,,Rev. W. E.,Parry,B.A.,
+resident,Victoria Avenue,,,,,Vacant site
+resident,Victoria Avenue,,,Thomas,Jenkins,packer,
+resident,Victoria Avenue,,,John,Harwood,puddler,
+resident,Victoria Avenue,,,James,Williams,mason,
+resident,Victoria Avenue,,,Joseph,Jones,blacksmith,
+resident,Victoria Avenue,,,H.,French,gardn'r,Hilda cot
+resident,Victoria Avenue,,,Wm. I.,White,,Lilly cot
+resident,Victoria Avenue,,,Geo.,Antill,,Gertrude cot
+resident,Victoria Avenue,,,Wm.,Cox,labourer,
+resident,Victoria Avenue,,,Thos.,James,tailor,Isca cot
+resident,Victoria Avenue,,,,,Somerset house void
+cross_street,Victoria Avenue,,,,,,here is Summer hill.
+street,Wrington Terrace,,,,,,
+resident,Wrington Terrace,1,,Charles,Vignoles,,
+resident,Wrington Terrace,2,,Daniel,Phillips,,
+resident,Victoria Avenue,3,,A.,Welsh,,Fitzwilliam
+resident,Victoria Avenue,,,Thos.,Brooks,,Severn view
+resident,Victoria Avenue,,,,,House void
+resident,Victoria Avenue,,,Jas.,Chard,,Belle-vue ho
+resident,Victoria Avenue,,,Mrs. J.,Abbot,,Fair Oak ho
+resident,Victoria Avenue,,,Lawrence,Harward,,Ten villas building
+cross_street,Victoria Avenue,,,,,,here is Brynderyn-road.
+resident,Victoria Avenue,,,Mrs. E.,Brown,,Brynderyn v
+cross_street,Victoria Avenue,,,,,,(return.)
+resident,Victoria Avenue,,,J. M.,Akers,,Sunnyside
+resident,Victoria Avenue,,,T. J.,Felton,,Churchill villa
+resident,Victoria Avenue,,,W. H.,Manhire,,Mendip vil
+cross_street,Victoria Avenue,,,,,,here is Crescent-road.
+resident,Victoria Avenue,,,J. P.,Williams,relieving offi,
+resident,Victoria Avenue,,,John,Francis,,Bleak house
+cross_street,Victoria Avenue,,,,,,here is Woodland-road.
+street,Queen's Place,,,,,,
+resident,Queen's Place,5,,H. F.,Grant,,
+resident,Queen's Place,4,,Henry C.,Parlitt,,
+resident,Queen's Place,3,,D.,Hickey,linspec. G.W.R.,
+resident,Queen's Place,2,,Mrs. R. M.,Banks,,
+resident,Queen's Place,1,,James,Alker,watchmakr,
+resident,Queen's Place,,,Chas.,Gould,gas fitter,
+resident,Queen's Place,,,Allen,Mills,fitter,Ty-Carreg
+street,Ivor Place,,,,,,
+resident,Ivor Place,1,,Wm.,Powell,gardener,
+resident,Ivor Place,2,,Edwd.,Simpson,plasterer,
+resident,Ivor Place,3,,Philip,Jenkins,labourer,
+resident,Ivor Place,4,,James,Webber,mason,
+resident,Ivor Place,,,Jas.,Rutter,,Victoria villa
+cross_street,Ivor Place,,,,,,here is Church-path.
+resident,Ivor Place,,,Mrs.,Richards,,Victoria cot
+resident,Ivor Place,,,,,Two houses building
+resident,Ivor Place,,,G.,Parkinson,plumber,
+resident,Ivor Place,,,J.,Parkinson,,Marienberg v
+resident,Ivor Place,,,P. J.,Marrett,,Farleigh ho
+resident,Ivor Place,,,Miss,Williams,,Holly house
+resident,Ivor Place,,,George,Sturley,sawyer,
+resident,Ivor Place,,,Daniel,King,signal fitter,
+resident,Ivor Place,,,Wm.,Biggs,,Lydgate cot
+resident,Ivor Place,,,Edwin,Fidler,bootmaker,
+resident,Ivor Place,,,George,Jory,cab proprietor,Providence cottage
+resident,Ivor Place,,,Philip F.,Prujean,,
+resident,Ivor Place,,,Giles Richd.,manager,,
+resident,Ivor Place,,,Richd.,Phipps,blacksmith,
+resident,Ivor Place,,,George,Coote,carpenter,
+resident,Ivor Place,,,William,Jenkins,fireman,
+resident,Ivor Place,,,William,Davies,labourer,
+resident,Ivor Place,,,John,Cook,,
+resident,Ivor Place,,,Wm.,Pyle,com. agent,
+resident,Ivor Place,,,Edward,Brown,lahrender,
+resident,Ivor Place,,,Sydney,Meaker,builder,
+resident,Ivor Place,,,Joseph,Ford,clerk,

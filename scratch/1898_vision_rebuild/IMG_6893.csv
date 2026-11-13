@@ -1,0 +1,157 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Richmond Terrace,,,,,,Nos. 141 to 127 Duckpool-rd.
+street,Risca Road,,,,,,From "Handpost," Stow-hill.
+resident,Risca Road,,,Henry J.,Collard,baker,
+resident,Risca Road,,Llangasty,J. H.,Jones,,
+resident,Risca Road,,Askern,A. W.,Dawson,,
+resident,Risca Road,,St. Elmo,Alfred,Wadley,printer,
+resident,Risca Road,,,John,Morris,,
+resident,Risca Road,,,Mrs Rosa,Barry,,
+resident,Risca Road,,,Mrs M. C.,Whitley,,
+resident,Risca Road,19,,Alfd.,Whittaker,,Manston
+resident,Risca Road,21,,Wm.,Garland,,Brookwood
+resident,Risca Road,23,,,,,,Cardynham—void
+resident,Risca Road,25,,Hy. Jas.,Wall,,Kewstoke
+resident,Risca Road,27,,,,,,Belgravia—void
+resident,Risca Road,29,,John,Rees,,Haulwen
+resident,Risca Road,31,,Hy. P.,Davies,,Penfro
+resident,Risca Road,33,,Percy,Phillips,,Llysfaen
+resident,Risca Road,35,,W.,Williams,,Llanegryn
+resident,Risca Road,37,,Mrs F.,Stevens,,Alicia
+resident,Risca Road,39,,T. M.,Prosser,,Clytha view
+resident,Risca Road,41,,George,Davies,,Rosecliffe
+resident,Risca Road,43,,,,,,Avondale—void
+resident,Risca Road,45,,H. C.,Creighton,,Ravensworth
+resident,Risca Road,47,,,,,,
+resident,Risca Road,49,,D. joinr,Griffiths,,Fairview
+resident,Risca Road,51,,Mrs,Wilcocks,,Watertree h
+resident,Risca Road,53,,T. A.,Fisher,,Hallfield ho
+resident,Risca Road,55,,H. E.,Baddeley,,Lorna ho
+resident,Risca Road,57,,,,,,Void
+resident,Risca Road,59,,E. O.,Baddeley,,Colwell h
+resident,Risca Road,61,,Wm.,Hughes,,Aberglais
+resident,Risca Road,63,,Edward,Vaughan,,
+resident,Risca Road,65,,Wm.,Watkins,,Clifton ho
+resident,Risca Road,67,,Benj.,Richards,,Tyddewi
+resident,Risca Road,69,,,,,,Glasfryn—void
+resident,Risca Road,71,,Dd.,Morgan,,Cryngoed h
+resident,Risca Road,73,,Mrs S.,Thomas,,Lyntrevor
+resident,Risca Road,75,,Mrs H.,Griffiths,,Brynteg
+resident,Risca Road,77,,David,Partridge,,Yetholm
+resident,Risca Road,79,,,,,,Arfryn—void
+resident,Risca Road,81,,Mrs,Jones,,Bryn llawen
+resident,Risca Road,83,,Miss O. I.,Hall,,
+resident,Risca Road,85,,Mrs Mary,Davies,,
+resident,Risca Road,87,,E. J.,Griffiths,,Dutson ho
+cross_street,Risca Road,,,,,,"here is Upton-road."
+resident,Risca Road,89,,Alfred E.,Jenkins,,
+resident,Risca Road,91,,Thomas,Jones,,
+resident,Risca Road,93,,John,Williams,joiner,
+resident,Risca Road,95,,Charles,Jenkins,,Lenham
+resident,Risca Road,97,,Decimus,Fitt,C.E.,
+resident,Risca Road,99,,William,Chick,,
+cross_street,Risca Road,,,,,,"THE CEMETERY"
+cross_street,Risca Road,,,,,,"(return.)"
+resident,Risca Road,,,Hy.,Jones,,Glasllwch farm House void
+resident,Risca Road,,,J. A.,White,,do
+resident,Risca Road,,,,,,"do"
+resident,Risca Road,,,,,,"do"
+resident,Risca Road,,,Fredk.,Phillips,,Nant coch
+resident,Risca Road,,,T.,Price,farmer,Ty-llwyd
+cross_street,Risca Road,,,,,,"here is Fields-park-road."
+cross_street,Risca Road,,,,,,"here is Preston-avenue."
+resident,Risca Road,,,,,,6 houses building
+resident,Risca Road,,,,,,Vacant sites
+cross_street,Risca Road,,,,,,"here is Griffiths-street."
+resident,Risca Road,,,,,,House void
+resident,Risca Road,,,,,,"do"
+resident,Risca Road,,,Charles,Read,builder,
+resident,Risca Road,,,Edgar,Foslett,builder,
+resident,Risca Road,,,,,,House void
+resident,Risca Road,,,,,,"do"
+resident,Risca Road,,,Wm.,Wilson,,Oxford ho
+resident,Risca Road,,,,,,House void
+resident,Risca Road,,,,,,Vacant sites
+cross_street,Risca Road,,,,,,"here is Manley-road."
+resident,Risca Road,24,,Mrs M. A.,Hobbs,fruiterer,
+resident,Risca Road,22,,F. C.,Wall,engineer,
+resident,Risca Road,20,,John R.,Pobjoy,,
+resident,Risca Road,18,,James,Williams,,
+resident,Risca Road,16,,G.,Bown,carpenter,
+resident,Risca Road,14,,C.,Williams,,Supply stores
+cross_street,Risca Road,,,,,,"here is Bolton-road."
+resident,Risca Road,12,,Wm.,Morgan,,Risca cot
+resident,Risca Road,10,,J. H.,Griffiths,,Capstone c
+resident,Risca Road,8,,Chas. H.,Cox,,Fastnet ho
+resident,Risca Road,6,,Mrs Ellen,Fisher,,
+resident,Risca Road,4,,Geo. Edwd.,Glynn,clerk,Brynagron
+resident,Risca Road,2,,D.,Morgan,sculptor, etc.
+cross_street,Risca Road,,,,,,"here is Llanthewey-road."
+resident,Risca Road,,,John,Wadley,labourer,
+resident,Risca Road,,,William,Ball,labourer,
+resident,Risca Road,,,Paul,Pengelly,brickmaker,
+resident,Risca Road,,,W.,White,fishmonger,
+street,River Side,,,,,,From East Usk-road.
+resident,River Side,,EAST USK BAPTIST CHAPEL,,,,
+resident,River Side,,,Rev Augustus,Purnell,,
+resident,River Side,1,,Alfred,Phillips,,
+resident,River Side,2,,Henry,Bell,,
+resident,River Side,3,,Ernest,Jones,stonecutter,
+resident,River Side,4,,Ernest,Jones,factory,
+cross_street,River Side,,,,,,"here is Rudry-street."
+resident,River Side,5,,William,Johns,painter,
+resident,River Side,6,,Geo.,Martin,brickburner,
+resident,River Side,7,,Elijah,Williams,carpentr,
+resident,River Side,8,,Henry,Millard,nailmaker,
+resident,River Side,9,,Daniel,Jones,labourer,
+resident,River Side,10,,Wm. Hy.,Hurn,signalman,
+resident,River Side,11,,Burris,Stokes,fitter,
+resident,River Side,12,,James,Shattock,clerk,
+resident,River Side,13,,Charles,Wells,sawyer,
+resident,River Side,14,,Edwin Geo.,King,mouldr,
+resident,River Side,15,,John,French,haulier,
+street,Robert Street, P.,,,,,,From 27 Courtybella-terrace.
+resident,Robert Street, P.,1,,Thomas,Hurd,shop,
+resident,Robert Street, P.,,,Rosser's bakery,,,
+resident,Robert Street, P.,2,,George,Roberts,labourer,
+resident,Robert Street, P.,3,,Benjamin,Thomas,,
+resident,Robert Street, P.,4,,W. David,Arr,,
+resident,Robert Street, P.,5,,Geo.,Bright,coal trimmer,
+resident,Robert Street, P.,6,,Jas.,Wyatt,coal orimmer,
+resident,Robert Street, P.,7,,James,Evans,striker,
+resident,Robert Street, P.,8,,Isaac,Bevan,boilermaker,
+resident,Robert Street, P.,9,,John,Samuels,labourer,
+resident,Robert Street, P.,10,,W.,Barrett,coal trimmer,
+resident,Robert Street, P.,11,,Mrs Mary,Hewlett,,
+resident,Robert Street, P.,12,,Robert, jun.,Scott,fitter,
+resident,Robert Street, P.,13,,Wm.,Parry,boilermaker,
+resident,Robert Street, P.,14,,Chas.,Parry,coal dealer,
+resident,Robert Street, P.,15,,Wm. Hy.,Hurd,labourer,
+resident,Robert Street, P.,16,,Robert,Scott,fitter,
+resident,Robert Street, P.,17,,Chas.,Horton,trimmer,
+resident,Robert Street, P.,18,,Mrs M. A.,Fisher,,
+resident,Robert Street, P.,19,,W. H.,Williams,labourer,
+resident,Robert Street, P.,20,,Wm.,Unsworth,labourer,
+resident,Robert Street, P.,21,,Wm.,Murphy,trimmer,
+resident,Robert Street, P.,22,,Fred,Bright,trimmer,
+resident,Robert Street, P.,23,,Thos.,Berry,Geo. hoistmn,
+resident,Robert Street, P.,24,,Samuel,Trickey,labourer,
+resident,Robert Street, P.,25,,James,Dunn,labourer,
+resident,Robert Street, P.,26,,Michael,Brien,,
+cross_street,Robert Street, P.,,,,,,"(return.)"
+resident,Robert Street, P.,27,,Henry,Seer,weigher,
+resident,Robert Street, P.,28,,Francis,Jones,labourer,
+resident,Robert Street, P.,29,,Geo. R.,Cankett,trimmer,
+resident,Robert Street, P.,30,,Chas.,Stephens,foreman,
+resident,Robert Street, P.,31,,Mrs Sarah J.,Arr,,
+resident,Robert Street, P.,32,,Harry Wm.,Legge,fireman,
+resident,Robert Street, P.,33,,Jhas. ship,Page,carpenter,
+resident,Robert Street, P.,34,,John,Brodrick,boilermkr,
+resident,Robert Street, P.,35,,Joseph,Robbins,labourer,
+resident,Robert Street, P.,36,,Daniel,Thomas,moulder,
+resident,Robert Street, P.,37,,W.,Pritchard,signalman,
+resident,Robert Street, P.,38,,William,Woods,,
+resident,Robert Street, P.,39,,William,Bissex,trimmer,
+resident,Robert Street, P.,40,,Wm.,Sanders,coal trim'r,
+resident,Robert Street, P.,41,,John,Jones,rigger,
+resident,Robert Street, P.,42,,Ed. ship,Jensen,carpent'r,

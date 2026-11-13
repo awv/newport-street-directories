@@ -1,0 +1,143 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,East Market St.,,,,,,E 4 East side Cattle Market.
+resident,East Market St.,1,,Thomas,Knight,,
+resident,East Market St.,,,,Mercantile Marine office,,
+resident,East Market St.,2,,Wm.,Hughes,boatman,
+resident,East Market St.,3,,Mrs. J.,Johnson,boarding h,
+cross_street,East Market St.,,,,here is John-street.,,
+resident,East Market St.,,,,Phillips & Sons, Ltd.,Dock Road Brewery,
+cross_street,East Market St.,,,,here is South Market-street.,,
+resident,East Market St.,,,,Robert,Hall,mechanic,
+resident,East Market St.,,,,J. H.,Scott,oilskin factory,
+resident,East Market St.,,,,Smith Bros.,builders,
+resident,East Market St.,2,,Wm.,Parry,potter,
+resident,East Market St.,3,,Henry,Waters,,
+resident,East Market St.,4,,William,Gill,,
+resident,East Market St.,,,,Richards H. & Co.,,Usk Engin'ring & Motor Wks
+resident,East Market St.,5,,Thos.,James,general shop
+resident,East Market St.,6,,Albert,Maisey,labourer
+resident,East Market St.,7,,James,Thomas,plasterer
+resident,East Market St.,8,,George,Gapper,sawyer
+resident,East Market St.,9,,Arthur,Wall,labourer
+resident,East Market St.,10,,John E.,Gatehouse,,
+resident,East Market St.,11,,Walter,Oliver,labourer
+resident,East Market St.,12,,Fennell's cold stores,,
+resident,East Market St.,13,,John,Tudor,,
+resident,East Market St.,14,,Chas.,Mogford,striker
+resident,East Market St.,15,,John,James,boatman
+resident,East Market St.,,,The Williams Press, Ltd.,,printers
+resident,East Market St.,16,,Dd.,Price,driller
+resident,East Market St.,17,,Rd.,Marshall,cabinetmkr
+resident,East Market St.,18,,Fredk.,Wright,machinist
+cross_street,East Market St.,,,,NEW COTTAGES-,,
+resident,East Market St.,1,,Thomas,Embrey,,
+resident,East Market St.,2,,Wm.,Cork,labourer
+resident,East Market St.,3,,Wm.,Johnstone,ins. agnt
+cross_street,East Market St.,,,,(return),,
+resident,East Market St.,20,,Jhas.,Rees,jettyman
+resident,East Market St.,21,,Chas.,Stretch,donkeyman
+resident,East Market St.,22,,Wm.,Richards,labourer
+resident,East Market St.,23,,Henry C.,Long,driver
+resident,East Market St.,24,,Robert,Hillman,haulier
+resident,East Market St.,25,,Mrs.,Mogford,nurse
+resident,East Market St.,26,,Chas.,Woodbury,tinsmith
+resident,East Market St.,27,,John,Cliss,fireman
+resident,East Market St.,28,,Jas. Wm.,Jeffries,,
+resident,East Market St.,29,,Mrs. M. A.,Clements,,
+resident,East Market St.,30,,Charles,Willis,labourer
+resident,East Market St.,31,,Albt. Ed.,Thomas,plt. lyr
+resident,East Market St.,32,,Chas.,Mulholland,salesm
+resident,East Market St.,33,,Isaac,Bullock,shopkeeper
+resident,East Market St.,34,,John,Hill,shopkeeper
+resident,East Market St.,11,,Hezekiah,Francis,crpntr
+resident,East Market St.,12,,Wm.,Trueman,eng. drvr
+resident,East Market St.,13,,A. H.,Avery,coachsmith
+resident,East Market St.,14,,Thos. G.W.R.,Pritchard,,
+resident,East Market St.,15,,F. A.,Avery,coachbuilder
+resident,East Market St.,16,,Caleb,Morris,blacksmith
+resident,East Market St.,17,,Phillip,Torrington,crpntr
+resident,East Market St.,18,,John,Jones,assistant
+resident,East Market St.,,,,F. W.,Powles,Central Steam Joinery works,
+resident,East Market St.,19,,John,Johns,,
+resident,East Market St.,20,,Harry,Mead,,
+resident,East Market St.,21,,Regd.,Hicks,haulier
+resident,East Market St.,22,,Wm. Hy.,Robins,confctnr
+resident,East Market St.,23,,Thomas,Powell,,
+resident,East Market St.,24,,Mrs. Ann,Jenkins,,
+resident,East Market St.,25,,Wm. Thos.,Probert,painter
+resident,East Market St.,26,,Hy.,Thomas,stevedore
+resident,East Market St.,27,,Geo.,Ellis,timekeeper
+resident,East Market St.,28,,John,Williams,,
+resident,East Market St.,29,,W. J.,Trace,painter &c.
+resident,East Market St.,30,,Re-building,,,
+resident,East Market St.,31,,do.,,,
+resident,East Market St.,32,,John O.,Trigg,William IV. mews
+resident,East Market St.,33,,B.L.,Perry,corn merchnt
+resident,East Market St.,,,,WELSH CALVINISTIC METHODIST (EBENEZER) CHAPEL (1829),,,
+resident,East Market St.,,,,Geo.,Greenslade,labourer
+resident,East Market St.,,,,John,Anthony,,
+street,Edward Street,,,,,D 5 See St. Edward-street.
+street,Edwin Street,,,,,B 4 From 206 Shaftesbury-street. [LEFT HAND SIDE.]
+resident,Edwin Street,1,,Thos.,Willis,gas worker
+resident,Edwin Street,2,,E. G.,Holtham,painter
+resident,Edwin Street,3,,Chas.,Howells,platelayer
+resident,Edwin Street,4,,John,Hillman,mason
+resident,Edwin Street,5,,Geo.,Hillman,mason
+resident,Edwin Street,6,,John,Reardon,labourer
+resident,Edwin Street,7,,Wm.,Durbin,postman
+resident,Edwin Street,8,,Harry,Hook,blacksmith
+resident,Edwin Street,9,,Thos. J.,Hurn,forge mngr
+resident,Edwin Street,10,,Mrs. Sarah,Murphy,,
+resident,Edwin Street,11,,Wm.,Foote,baker
+resident,Edwin Street,12,,Henry,Spanswick,G.W.R.
+resident,Edwin Street,13,,John,Thomas,ironworker
+resident,Edwin Street,14,,Benjamin,Howe,G.W.R.
+cross_street,Edwin Street,,,,(return),,
+resident,Edwin Street,15,,Nicholas A.,Richardson,,
+resident,Edwin Street,16,,J. G.,Bainham,warehsmn
+resident,Edwin Street,17,,Frank,Chapman,,
+street,East Street,,,,,C 5 From Baneswell-road to Albert-terrace. [LEFT HAND SIDE.]
+resident,East Street,1,,Wm.H.,Cromwell,gas fittr
+resident,East Street,2,,Mrs. M. J.,Hansen,,
+resident,East Street,3,,C.H.,Nancekivelle,saddlr
+resident,East Street,4,,John,Wilson,warehsman
+resident,East Street,5,,J.D.&Son,Jewitt,weighing machine repairers
+resident,East Street,,,,George C.,Jewitt,,
+resident,East Street,6,,Henry John,Francis,,
+resident,East Street,7,,Frederick,Larcombe,,
+resident,East Street,8,,Mrs. Eleanor,Hubbard,,
+resident,East Street,9,,Alick,Cole,,
+resident,East Street,10,,Edward,Powell,G.W.R.
+resident,East Street,11,,Wm. A.,James,bootmakr
+resident,East Street,12,,Wm. Hy.,Phillips,striker
+resident,East Street,13,,Joseph P.,Bown,carpenter
+resident,East Street,14,,Geo.,Williams,haulier
+resident,East Street,15,,Hy. Jas.,Edmunds,fitter
+resident,East Street,16,,Robert,Bell,fitter
+resident,East Street,17,,Jonah,New,labourer
+resident,East Street,18,,William, senr.,Meyrick,,
+cross_street,East Street,,,,(return),,
+resident,East Street,,,,A. G.,Arnold & Co.'s stores,,
+resident,East Street,19,,Hy.,Morgan,eng. driver
+resident,East Street,20,,Wm.,Woodridge,G.W.R.
+resident,East Street,21,,Frederick,Hill,G.W.R.
+resident,East Street,22,,Chas.,Sturgess,fireman
+resident,East Street,23,,Mrs. Louisa,Watkins,,
+resident,East Street,24,,Void,,,
+resident,East Street,25,,Robt. H.,Rose,confectnr
+resident,East Street,26,,Wm. C.,Sussex,haulier
+resident,East Street,27,,G.,Elliott,grocer & plstrer
+street,Ebenezer Terrace,,,,,D 4 From 145 Dock-street to Commercial-road. [LEFT HAND SIDE.]
+resident,Ebenezer Terrace,1,,Chas.,Matson,labourer
+resident,Ebenezer Terrace,2,,John,Kiely,labourer
+resident,Ebenezer Terrace,4,,Cotter Rd.,lodging house
+resident,Ebenezer Terrace,5A,,Geo.,Wainfur,lodging ho
+resident,Ebenezer Terrace,5B,,Peter,Bonelly,seaman
+resident,Ebenezer Terrace,6,,Patrick,Kelly,labourer
+resident,Ebenezer Terrace,7,,Saul,Goodwin,labourer
+resident,Ebenezer Terrace,8,,Wm. A.,Kenny,timekpr
+resident,Ebenezer Terrace,9,,Thos.,Morgan,haulier
+resident,Ebenezer Terrace,10,,Geo. H.,Hall,ship painter
+street,East Usk Road,,,,,C 4 From 20 Clarence-place. [RIGHT HAND SIDE.]
+resident,East Usk Road,1,,Ralph & Co.,Hodge,builders' merchants
+resident,East Usk Road,,,,Jas.,Sexton,haulier

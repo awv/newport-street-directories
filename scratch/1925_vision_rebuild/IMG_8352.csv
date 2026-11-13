@@ -1,0 +1,178 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,BASSETT STREET,9,Eskholme,Robert,Tait,,
+resident,BASSETT STREET,7,St. Heliers,Geo. E.,Banks,,
+resident,BASSETT STREET,5,Verulam,A. G.,Lonnon,,
+resident,BASSETT STREET,3,Royston,Mrs. E.,Payne,,
+resident,BASSETT STREET,1,Berlyn,Herbert,Handy,,
+resident,BEAUFORT ROAD,6,,Albert,Watts,jas.,
+resident,BEAUFORT ROAD,4,Seaton ho,Jas.,Morgan,J.,
+resident,BEAUFORT ROAD,2,Clovelly,John,Francis,,
+street,BATCHELOR ROAD,,,,,,D 4
+cross_street,BATCHELOR ROAD,,,,,,"From 211 Chepstow-road."
+cross_street,BATCHELOR ROAD,,,,,,(LEFT HAND SIDE.)
+resident,BATCHELOR ROAD,1,,Mrs. Agnes,Rideout,J.,
+resident,BATCHELOR ROAD,3,,John,Lewis,R.,
+resident,BATCHELOR ROAD,,,Bernard,Hulley,,printer
+resident,BATCHELOR ROAD,5,,Albert,Downes,B.,p.o.
+resident,BATCHELOR ROAD,7,,Anthony,Pugsley,,clerk
+resident,BATCHELOR ROAD,9,,F. Arthur,Baker,,
+resident,BATCHELOR ROAD,11,,Fred,Baglow,J.,
+resident,BATCHELOR ROAD,13,,R.,Jewell,J.,coach bldr
+resident,BATCHELOR ROAD,15,,William,Lee,,printer
+resident,BATCHELOR ROAD,17,,J. E.,Woolley,,
+resident,BATCHELOR ROAD,19,Mount view,C. I.,Wheeler,,
+resident,BATCHELOR ROAD,21,,Mrs. May,Horlor,,
+resident,BATCHELOR ROAD,23,,Henry,Grindle,James,
+resident,BATCHELOR ROAD,25,,Reginald,Tyack,,clerk
+resident,BATCHELOR ROAD,27,,Philip,Balderstone,R.,
+resident,BATCHELOR ROAD,,,James,Lewis,,
+cross_street,BATCHELOR ROAD,,,,,,(return)
+resident,BATCHELOR ROAD,20,,A.,Bunce,J.,excise officer
+resident,BATCHELOR ROAD,18,,Arthur,Gibbons,R.,p.o.
+resident,BATCHELOR ROAD,16,,Edgar,Jenkins,T.,painter
+resident,BATCHELOR ROAD,14,,William,Grose,Jos.,
+resident,BATCHELOR ROAD,12,,Mrs. E. M.,Evans,,Westfield
+resident,BATCHELOR ROAD,10,,chemical,Pitt John,wkr
+resident,BATCHELOR ROAD,8,,Albert,Fox,,bricklayer
+resident,BATCHELOR ROAD,6,,Lewis,Jones,R.,salesman
+resident,BATCHELOR ROAD,4,,Ivor,Thomas,H.,organiser
+resident,BATCHELOR ROAD,2,,Evan,Mills,Rowland,
+street,BATH STREET,,,,,,C 3
+cross_street,BATH STREET,,,,,,"Caerleon-road to Trostwey-st."
+cross_street,BATH STREET,,,,,,(LEFT HAND SIDE.)
+resident,BATH STREET,1,,Sidney,Morse,R.,
+resident,BATH STREET,2,,Mrs. Eliza,Lewis,A.,
+resident,BATH STREET,3,,Mrs.,Norville,K.,
+resident,BATH STREET,4,,R. W. motor-,Brockington,[man
+resident,BATH STREET,5,,Wm.,Elliott,,bricklayer
+resident,BATH STREET,6,,Newport Stn.Laundry Co.,,,
+resident,BATH STREET,,,Greenland & Sons,Geo.,,proprietors
+cross_street,BATH STREET,,,,,,(return)
+resident,BATH STREET,7,,Samuel,Wren,,mason
+resident,BATH STREET,8,,Charles,Bowen Dd.,,police
+resident,BATH STREET,9,,W. T.,Williams,,postman
+resident,BATH STREET,10,,Hbt. John,Haley,,eng'eer
+resident,BATH STREET,11,,William,Edwards,,grocer
+resident,BATH STREET,12,,Edwin,Prothero,,upholstr
+resident,BATH STREET,13,,J. N.,Benger,,furnaceman
+cross_street,BATH STREET,,,,,,here is Ush-street.
+resident,BATH STREET,14,,W. J.,Foster,,ironworker
+resident,BATH STREET,15,,Wm.,Luxton,,eng. driver
+resident,BATH STREET,16,,Edwd.,Clague,,labourer
+resident,BATH STREET,17,,Charles,Banwell,,polisher
+resident,BATH STREET,18,,John,White,,mason
+street,BEAUFORT TERRACE,,,,,,C 5
+cross_street,BEAUFORT TERRACE,,,,,,"See West-street."
+street,BEDFORD ROAD,,,,,,C 4
+cross_street,BEDFORD ROAD,,,,,,"Corporation-road to Eton-road."
+cross_street,BEDFORD ROAD,,,,,,(LEFT HAND SIDE.)
+resident,BEDFORD ROAD,1,,T.,Barnfield,,contractor
+resident,BEDFORD ROAD,3,Erminie,C. S.,Pritchards,,
+resident,BEDFORD ROAD,5,Alice Mary,Mrs.,Austwick,,
+resident,BEDFORD ROAD,7,Glen Teifi,Wm. H.,Mason,,
+resident,BEDFORD ROAD,9,,Geo. C.,Pelling,crane dvr
+cross_street,BEDFORD ROAD,,,,,,here is Cedar-road.
+resident,BEDFORD ROAD,11,Belmont,William,Harris,,
+resident,BEDFORD ROAD,13,Penywai,James,Shurmer,,
+resident,BEDFORD ROAD,,wheelw'ght,Wm.,Huntley,Darch M. J.
+resident,BEDFORD ROAD,15,Oxford ho,Harry,White,,
+resident,BEDFORD ROAD,,bricklayer,Samuel,Wren,J.
+resident,BEDFORD ROAD,17,,Wm. A.,Fletcher,traveller
+resident,BEDFORD ROAD,19,,Thomas,Davies,B.,miner
+resident,BEDFORD ROAD,21,,Mrs. M.,Groves,,Ewenny
+resident,BEDFORD ROAD,23,,Sidney,Hill,J.,joiner
+resident,BEDFORD ROAD,25,Melbourne,Geo.,Cousins,,
+resident,BEDFORD ROAD,27,The Laurels,Walter,Evans,,
+resident,BEDFORD ROAD,29,,L.,Cossick,,tailor
+cross_street,BEDFORD ROAD,,,,,,here is Harrow-road.
+resident,BEDFORD ROAD,31,Selwood,H. G.,Bere,,
+resident,BEDFORD ROAD,33,Montague,C.,Dayman,,
+resident,BEDFORD ROAD,35,Hatherleigh,Mrs. S.,Hood,,
+resident,BEDFORD ROAD,37,Northfield,Math.,Brown,,
+resident,BEDFORD ROAD,39,Bronia,Mrs. E.,Munkley,,
+resident,BEDFORD ROAD,41,Victoria,Benj.,Vaughan,,
+resident,BEDFORD ROAD,43,,Wm. Hy.,Walter,A.
+resident,BEDFORD ROAD,45,,Mrs. Sarah,Jenkins,,
+resident,BEDFORD ROAD,47,,Walter,Thomas,W.,joiner
+resident,BEDFORD ROAD,49,,Lewis,Gardner,,miner
+resident,BEDFORD ROAD,51,,Mrs. Emma,Jones,,
+resident,BEDFORD ROAD,53,,Thos.,Jones,J.
+resident,BEDFORD ROAD,55,Myrtle hse,A. J.,Walliker,,
+resident,BEDFORD ROAD,57,Scranton house,B.,Evans,,
+resident,BEDFORD ROAD,59,,Philip,Taylor,Horace
+cross_street,BEDFORD ROAD,,,,,,(return)
+resident,BEDFORD ROAD,46,,Evan,Evans,,inspector
+resident,BEDFORD ROAD,44,,V. R.,Pearce,,clerk
+resident,BEDFORD ROAD,42,,William,Bowden,,pilot
+resident,BEDFORD ROAD,40,,Alex. E.,Beech,,labourer
+resident,BEDFORD ROAD,38,,B. A.,Townsend,,inspector
+resident,BEDFORD ROAD,36,,Percy,Jones,scale maker
+resident,BEDFORD ROAD,34,,Harry,Coggan,,
+resident,BEDFORD ROAD,32,Cliffordo ho,W.H.,Budding,,
+resident,BEDFORD ROAD,30,,Mrs.,Williams,,
+resident,BEDFORD ROAD,28,,Edgar,White,,baker
+resident,BEDFORD ROAD,26,Cinderford,E. G.,Toghill,,
+resident,BEDFORD ROAD,24,Syden-ham,Mrs. L. R.,Gibbs,,
+resident,BEDFORD ROAD,22,,Arthur,Ware,E.,steelwkr
+resident,BEDFORD ROAD,20,Durban,F. W.,Mason,,
+resident,BEDFORD ROAD,18,Appleby,Mrs. M.,Jones,,
+resident,BEDFORD ROAD,16,,A. J.,Blackburn,plumber
+cross_street,BEDFORD ROAD,,,,,,here is Harrow-road.
+resident,BEDFORD ROAD,14,Bedford ho,P. L.,Pugsley,,
+resident,BEDFORD ROAD,12,,Llew.,Thomas,ship's officer
+resident,BEDFORD ROAD,10,,Hugh,Robb,,labourer
+resident,BEDFORD ROAD,8,Hemingford,Wm. E.,Rees,,
+street,BEECHWOOD ROAD,,,,,,E 2
+cross_street,BEECHWOOD ROAD,,,,,,"Chepstow-road to Christ-church-road."
+cross_street,BEECHWOOD ROAD,,,,,,(RIGHT HAND SIDE.)
+resident,BEECHWOOD ROAD,2,Melville,Hy.,Williams,,
+resident,BEECHWOOD ROAD,4,Glengariff,R. C.,Rowe,,
+resident,BEECHWOOD ROAD,6,Rookwood,A. J.,Mapleston,,
+cross_street,BEECHWOOD ROAD,,,,,,here is Gibbs-road.
+resident,BEECHWOOD ROAD,,Vacant sites,,,,
+resident,BEECHWOOD ROAD,,Park view,Henry F.,Muir,,
+resident,BEECHWOOD ROAD,,Parkside,Darch M. J.,,,
+resident,BEECHWOOD ROAD,,Preswylfa,T. W. G.,Evans,,
+resident,BEECHWOOD ROAD,,Beech Grove,Louis E.,Summerfield,,
+cross_street,BEECHWOOD ROAD,,,,,,(return)
+cross_street,BEECHWOOD ROAD,,,,,,BEECHWOOD PARK
+street,BELLE VUE LANE,,,,,,E 5
+cross_street,BELLE VUE LANE,,,,,,"Cardiff-road to Friars-road."
+street,BELVEDERE TERRACE,,,,,,B 4
+cross_street,BELVEDERE TERRACE,,,,,,"Barrack-hill to Hopefield."
+cross_street,BELVEDERE TERRACE,,,,,,(LEFT HAND SIDE.)
+resident,BELVEDERE TERRACE,2,Oak tree ct,W. J.,Parsons,,
+resident,BELVEDERE TERRACE,3,,E. R.,Phillips,gasfitter
+resident,BELVEDERE TERRACE,4,void,,,,
+resident,BELVEDERE TERRACE,5,,A. B.,Johnson,,turner
+resident,BELVEDERE TERRACE,6,,William,Wall,E.,painter
+resident,BELVEDERE TERRACE,7,,C.,Collins,,painter
+resident,BELVEDERE TERRACE,8,,John,James,F. carpenter
+resident,BELVEDERE TERRACE,9,,Mrs. Margaret,Rowlands,,
+resident,BELVEDERE TERRACE,10,,Mrs. Mary Jane,Morgan,,
+resident,BELVEDERE TERRACE,11,,Edward,Shea,,
+resident,BELVEDERE TERRACE,12,,Wm.,Davies,G.W.R.
+resident,BELVEDERE TERRACE,13,,Mrs. C. J.,Peebles,,L.
+resident,BELVEDERE TERRACE,14,,G. H.,Dunk,,fitter
+resident,BELVEDERE TERRACE,15,,Joseph,Leonard,,mason
+resident,BELVEDERE TERRACE,16,,Charles,Routley,G.W.R.
+cross_street,BELVEDERE TERRACE,,,,,,(return)
+resident,BELVEDERE TERRACE,17,,Arthur,Gabb,E.,fitter
+resident,BELVEDERE TERRACE,18,,Charles,Cook,,painter
+resident,BELVEDERE TERRACE,19,,Levi,Dare,,gardener
+resident,BELVEDERE TERRACE,20,,Harry,Horton,,agent
+resident,BELVEDERE TERRACE,21,,Miss Alice,Stevens,,
+resident,BELVEDERE TERRACE,22,,Wm. J.,Perigo,packer
+resident,BELVEDERE TERRACE,23,,Victor,Nott,B. coppersm'h
+resident,BELVEDERE TERRACE,24,,W. H.,Whiting,,
+resident,BELVEDERE TERRACE,25,,Mrs. Annie,Martin,E.
+resident,BELVEDERE TERRACE,26,Edward Foster,White,,,,
+resident,BELVEDERE TERRACE,27,,John,Grist,,
+resident,BELVEDERE TERRACE,28,,Mrs. Eliza,Jones,,
+resident,BELVEDERE TERRACE,29,,David,Vaughan,,engineer
+resident,BELVEDERE TERRACE,30,,Charles,Gearon,,fitter
+resident,BELVEDERE TERRACE,31,,H. F.,Woods,supervisor
+street,BERESFORD ROAD,,,,,,C 4
+cross_street,BERESFORD ROAD,,,,,,"Grafton-road to Athletic Ground"
+resident,BERESFORD ROAD,1,,Mrs. Margaret,Thomas,,
+resident,BERESFORD ROAD,2,Maida vale,Mrs. M.,Davy,,

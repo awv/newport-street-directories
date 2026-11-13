@@ -1,0 +1,155 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,St. John's Road,13,,,Wm. H.,Flage,coalman,
+resident,St. John's Road,14,,,Chris.,Thomas,police sergt,
+resident,St. John's Road,15,,,Mrs Margaret,Lewis,,
+resident,St. John's Road,16,,,C. W.,Tritton,general shp,
+resident,St. John's Road,17,,,Albert,Stocker,cabman,
+resident,St. John's Road,18,,,Herbert,Peacock,police,
+resident,St. John's Road,19,,,Wm. Hy.,Hando,carpenter,
+resident,St. John's Road,20,,,David,Williams,porter,
+resident,St. John's Road,21,,,John,Knight,cycle fitter,
+resident,St. John's Road,22,,,John,Goddard,carpenter,
+resident,St. John's Road,23,,,Harry,Moore,gardener,
+resident,St. John's Road,24,,,Wm.,Lewis,signalman,
+resident,St. John's Road,25,,,Henry,Kinnersley,police,
+resident,St. John's Road,26,,,C.,Williams,signal fitter,
+resident,St. John's Road,27,,,,,Void,
+resident,St. John's Road,28,,,William,Foster,painter,
+resident,St. John's Road,29,,,Wm.,Morgan,carpenter,
+resident,St. John's Road,30,,,Geo.,Mortimer,machinist,
+resident,St. John's Road,31,,,John H.,Reed,moulder,
+resident,St. John's Road,32,,,Wm.,Thomas,eng. driver,
+resident,St. John's Road,33,,,Hy. Chas.,Moore,carpenter,
+cross_street,St. John's Road,,,,,,(return.)
+resident,St. John's Road,34,,,J. R.,Phelps,sergt.-major,
+resident,St. John's Road,35,,,Thomas,Browning,blacksmith,
+resident,St. John's Road,36,,,David,Stevens,guard,
+resident,St. John's Road,37,,,Hugh,Ross,engine driver,
+resident,St. John's Road,38,,,Mrs Sarah Ann,Weeks,,
+resident,St. John's Road,39,,,Fredk.,Pearce,foreman,
+resident,St. John's Road,40,,,Rd.,Wellington,seaman,
+resident,St. John's Road,41,,,Mrs Sarah Jane,Pearce,,
+resident,St. John's Road,42,,,Mrs Fanny,Curnuck,,
+resident,St. John's Road,43,,,William,Morris,roofer,
+resident,St. John's Road,44,,,R.,Whitcombe,traveller,
+resident,St. John's Road,45,,,Henry,Gardner,James,
+resident,St. John's Road,46,,,Wm.,Phillips,carpenter,
+resident,St. John's Road,47,,,Martin J.,Neale,carpenter,
+resident,St. John's Road,48,,,John,Bennett,carpenter,
+resident,St. John's Road,49,,,Joseph,Smith,ticket collector,
+resident,St. John's Road,60,,,Mrs Jane,Dier,,
+resident,St. John's Road,51,,,Lewis,Bennett,coachmn,
+resident,St. John's Road,52,,,Albt. F.,Stanbury,cabmn,
+resident,St. John's Road,53,,,Angus,Reid,hoistman,
+resident,St. John's Road,54,,,W.,Berridge,insur. agent,
+resident,St. John's Road,55,,,Frank,Parsons,porter,
+resident,St. John's Road,56,,,John,Dier,painter,
+resident,St. John's Road,57,,,Mrs John,Morgan,,
+resident,St. John's Road,58,,,Arthur,Bedwell,G.W.R.,
+resident,St. John's Road,59,,,William,Reeves,haulier,
+resident,St. John's Road,60,,,Mrs Mary,Harrhy,,
+resident,St. John's Road,61,,,Mrs Louisa,Jones,,
+resident,St. John's Road,62,,,Mrs Ann,Jones,shopkeeper,
+resident,St. John's Road,63,,,Mrs Sarah A.,Box,shopkeeper,
+street,St. John's Road, M.,,,,,,"Ereswell-park."
+cross_street,St. John's Road, M.,,,,,,[RIGHT-HAND SIDE.]
+resident,St. John's Road, M.,2,,,A. H.,Duffield,St. John's h
+resident,St. John's Road, M.,4,,,Theo.,Frederick,,
+resident,St. John's Road, M.,6,,,Frank,Dickson,Mariquita
+resident,St. John's Road, M.,8,,,Ralph,Brodie,,
+resident,St. John's Road, M.,10,,,Walter,Ware,Lynwood
+resident,St. John's Road, M.,12,,,Richard W.,Gwatkin,,
+resident,St. John's Road, M.,14,,,S. G.,Tanner,Sydenham
+resident,St. John's Road, M.,16,,,John N.,Davies,Redcliffe h
+resident,St. John's Road, M.,18,,,T. J.,Harrhy,Springfield h
+resident,St. John's Road, M.,20,,,Wm.,Morris,Beaufort ho
+resident,St. John's Road, M.,22,,,Harry,Davies,Sandfield
+resident,St. John's Road, M.,24,,,John,Thomas,Grenville v
+resident,St. John's Road, M.,26,,,James,Allen,,
+resident,St. John's Road, M.,28,,,Capt. W.,Haynes,Old Vicarage
+resident,St. John's Road, M.,30,,,N.,Brown,Weston view
+resident,St. John's Road, M.,32,,,Chas.,Waters,Waverley h
+resident,St. John's Road, M.,34,,,John,Rees,Elsinore
+resident,St. John's Road, M.,36,,,J.,Greenland,Trelawney
+resident,St. John's Road, M.,38,,,W. T.,Sier,Courtfield
+resident,St. John's Road, M.,40,,,T.,Blandford,Spring bank
+resident,St. John's Road, M.,42,,,Frank,Alger,Ingleside
+resident,St. John's Road, M.,44,,,E. J. M.,Wansbrough,,
+resident,St. John's Road, M.,46,,,Chas. O.,Lloyd,Llaneast
+resident,St. John's Road, M.,,,,Thos.,Spittle,Cambrian h
+cross_street,St. John's Road, M.,,,,,,(return.)
+resident,St. John's Road, M.,,,St. John's Vicarage,Rev D. E.,Llewellyn-Jones,,
+resident,St. John's Road, M.,,,,,Vacant sites,
+cross_street,St. John's Road, M.,,,,,,here is Batchelor-road.
+resident,St. John's Road, M.,,,,,Vacant sites,
+resident,St. John's Road, M.,,,,,Four houses void,
+resident,St. John's Road, M.,7,,,F. H.,Dauncey,,
+resident,St. John's Road, M.,5,,,Geo. L.,Brown,surveyor to Lloyds Register,
+resident,St. John's Road, M.,3,,,Wm. F.,Cole,Parkdale
+resident,St. John's Road, M.,1,,,G. F. W.,Balleine,Penryn
+street,St. Julian Street, B.,,,,,,"From 15 St. Woolos-road."
+cross_street,St. Julian Street, B.,,,,,,[RIGHT HAND SIDE.]
+resident,St. Julian Street, B.,1,,,Alfred,Bird,painter,
+resident,St. Julian Street, B.,2,,,Miss,Dearden,,
+resident,St. Julian Street, B.,3,,,Thomas,Howells,puddler,
+resident,St. Julian Street, B.,4,,,Mrs Georgina,Rose,,
+resident,St. Julian Street, B.,5,,,Jonathan,Davies,ganger,
+resident,St. Julian Street, B.,6,,,Wyndham,Waters,lab'r,
+resident,St. Julian Street, B.,7,,,Henry,Gregory,labourer,
+resident,St. Julian Street, B.,8,,,J.,Wilkinson,boilermaker,
+resident,St. Julian Street, B.,9,,,William,Beer,gardener,
+resident,St. Julian Street, B.,10,,,Thos. W.,Bird,signalman,
+resident,St. Julian Street, B.,11,,,Tim,Kallaher,sawyer,
+resident,St. Julian Street, B.,12,,,John,Dearden,mason,
+resident,St. Julian Street, B.,13,,,John,Morrish,labourer,
+resident,St. Julian Street, B.,14,,,Chas.,Bromley,plasterer,
+resident,St. Julian Street, B.,15,,,Mrs Milly,Powell,,
+resident,St. Julian Street, B.,16,,,Wm.,Christopher,mason,
+resident,St. Julian Street, B.,17,,,Mrs,Powell,,
+cross_street,St. Julian Street, B.,,,,,,(return.)
+resident,St. Julian Street, B.,18,,,Mrs Elizabeth,Evans,,
+resident,St. Julian Street, B.,19,,,Joseph,Bancroft,baker,
+resident,St. Julian Street, B.,20,,,Wm.,Bickerton,labourer,
+resident,St. Julian Street, B.,21,,,F. W.,Mortimer,sawyer,
+resident,St. Julian Street, B.,22,,,Samuel,Bale,gardener,
+resident,St. Julian Street, B.,23,,,Adam,Spencer,guard,
+resident,St. Julian Street, B.,24,,,Mrs Ann,Williams,,
+resident,St. Julian Street, B.,25,,,William,Carnell,labourer,
+resident,St. Julian Street, B.,26,,,John,Priddle,gardener,
+resident,St. Julian Street, B.,27,,,,,Void,
+resident,St. Julian Street, B.,28,,,Henry,Watts,seamen,
+resident,St. Julian Street, B.,29,,,Chas.,Linton,labourer,
+resident,St. Julian Street, B.,30,,,Joseph,Benny,labourer,
+street,St. Julian's Avenue,,,,,,From Caerleon-road.
+resident,St. Julian's Avenue,,,The Lodge,Alfred,Hazell,"builder, The Lodge"
+resident,St. Julian's Avenue,,,,Rev R. F. (Wesleyan),Cape,,
+resident,St. Julian's Avenue,,,,,House void,
+resident,St. Julian's Avenue,,,,Edward,Keene,Sedgemoor
+resident,St. Julian's Avenue,,,,,House void,
+street,St. Mary Street, B.,,,,,,"From North-st. to Blewitt-st."
+cross_street,St. Mary Street, B.,,,,,,[LEFT-HAND SIDE.]
+resident,St. Mary Street, B.,1,,,Charles,Davies,sweep,
+resident,St. Mary Street, B.,1A,,,Mrs Mary,Waynberg,,
+resident,St. Mary Street, B.,2,,,Henry,Bigley,labourer,
+resident,St. Mary Street, B.,2A,,,John,Richards,,
+resident,St. Mary Street, B.,3,,,Mrs,Collins,,
+resident,St. Mary Street, B.,3A,,,George,Small,gardener,
+resident,St. Mary Street, B.,4,,,Rowland,Davies,haulier,
+resident,St. Mary Street, B.,4A,,,Martin,Jones,,
+resident,St. Mary Street, B.,5,,,William G.,Taylor,,
+resident,St. Mary Street, B.,5A,,,Lewis,Borchert,sweep,
+resident,St. Mary Street, B.,6,,,Fred.,Bond,labourer,
+resident,St. Mary Street, B.,6A,,,Mrs Elizabeth A.,Parsons,,
+resident,St. Mary Street, B.,7,,,Thos.,Theophilus,shoemkr,
+resident,St. Mary Street, B.,7A,,,Mrs,Regan,,
+resident,St. Mary Street, B.,8,,,Michael,Kelly,labourer,
+resident,St. Mary Street, B.,8A,,,Mrs,Haynes,,
+resident,St. Mary Street, B.,9,,,Lewis,Jenkins,striker,
+resident,St. Mary Street, B.,9A,,,Mrs,Sullivan,,
+resident,St. Mary Street, B.,10,,,Francis,Webb,,
+resident,St. Mary Street, B.,10A,,,Alfred,Dominy,,
+resident,St. Mary Street, B.,11,,,William,Hopkins,painter,
+resident,St. Mary Street, B.,12,,,William,Gay,foreman,
+resident,St. Mary Street, B.,13,,,Mrs Elizabeth,Fisher,,
+resident,St. Mary Street, B.,14,,,John,Kirby,labourer,
+resident,St. Mary Street, B.,12,,,John,Dearden,mason,

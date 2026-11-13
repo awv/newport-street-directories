@@ -1,0 +1,154 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Lim,72,,,Berry,william,pilotsman,
+resident,Lim,70,,,Gregory,John,attendant,
+resident,Lim,68,,,Francis,A.,donkeyman,
+resident,Lim,66,,,Plaster,Francis,trimmer,
+resident,Lim,64,,,Spink,W. G.,engineer,
+resident,Lim,62,,,Yeo,John Philip,lab'rer,
+resident,Lim,60,,,Edwards,Arthur,foreman,
+resident,Lim,58,,,Mansfield,James,,
+resident,Lim,56,,,Swanborough,Henry,,
+resident,Lim,54,,,Marshall,George,labourer,
+resident,Lim,52,,,Card,Henry,mason,
+resident,Lim,50,,,Hagerbawm,Theo.,,
+resident,Lim,48,,,Pring,Edward,coal trmr,
+resident,Lim,46,,,Donoghue,Jere,labourer,
+resident,Lim,44,,,Bevan,Thomas,labourer,
+resident,Lim,42,,,Rees,Daniel,engine drvr,
+resident,Lim,40,,,Pantall,William Edward,,
+resident,Lim,38,,,Ralph,Edwd. J.,labourer,
+resident,Lim,36,,,Jones,John,fitter,
+resident,Lim,34,,,Vickery,George,haulier,
+resident,Lim,32,,,Jones,Mrs Dorothy,,
+resident,Lim,30,,,Hughes,Thos,boatman,
+resident,Lim,28,,,Matthews,C. P.,grocer,
+cross_street,Lim,,,,,,here is Pottery-terrace
+resident,Lim,26,,,Richards,J.,,
+resident,Lim,24,,,,,,Void
+resident,Lim,22,,,Waggett,Mrs E.,,
+resident,Lim,20,,,Bull,George,ostler,
+resident,Lim,18,,,Nicholas,Fredk.,boatman,
+resident,Lim,16,,,Sanders,Mrs Mary,,
+resident,Lim,14,,,Powell,Thos.,coal trimr,
+resident,Lim,12,,,Harnett,Tim.,coal trimr,
+resident,Lim,10,,,Fennessey,John,trimmer,
+resident,Lim,8,,,Flynn,Edwd.,boilermakr,
+resident,Lim,6,,,Roach,Charles,helper,
+resident,Lim,4,,,Manship,Abram.,stevedr,
+resident,Lim,2,,,Roberts,Thos.,labourer,
+street,Linton Street,,,,,,Castle-street to King's-parade
+resident,Linton Street,1,,,Ryan,Mrs,,shopkeeper
+resident,Linton Street,2,,,Lynch,James,coal dealer,
+resident,Linton Street,3,,,Doran,Patrick,,
+resident,Linton Street,4,,,Mullins,John,hobbler,
+resident,Linton Street,5,,,Brunnock,James,,
+resident,Linton Street,6,,,Evans,William,,
+resident,Linton Street,7,,,Smith,Charles,trimmer,
+resident,Linton Street,8,,,Meade,Thomas,seaman,
+resident,Linton Street,9,,,Hayes,Dennis,hobbler,
+resident,Linton Street,10,,,Murphy,John,labourer,
+resident,Linton Street,11,,,Grace,Thomas,labourer,
+street,Liverpool Street, M.,,,,,,Hereford-st. to London-st.
+cross_street,Liverpool Street, M.,,,,,,[LEFT HAND SIDE.]
+resident,Liverpool Street, M.,1,,,Weaven,H.,clerk G.W.R.,
+resident,Liverpool Street, M.,3,,,Davies,Mrs B.,,
+resident,Liverpool Street, M.,5,,,Brodrick,John,boilermkr,
+resident,Liverpool Street, M.,7,,,Horner,John R.,upholstr,
+resident,Liverpool Street, M.,9,,,Everson,Edmund,cellrmn,
+cross_street,Liverpool Street, M.,,,,,,(return.)
+resident,Liverpool Street, M.,16,,,Mitchell,Thos.,tailor,
+resident,Liverpool Street, M.,14,,,Silvey,Charles,,
+resident,Liverpool Street, M.,12,,,Monk,John Wm.,teacher,
+resident,Liverpool Street, M.,10,,,Slade,Samuel,smith,
+resident,Liverpool Street, M.,8,,,White,Wm.,haulier,
+resident,Liverpool Street, M.,6,,,Milford,George,printer,
+resident,Liverpool Street, M.,4,,,Gosling,John Thos.,foremn,
+resident,Liverpool Street, M.,2,,,Insull,William,bricklayer,
+street,Livingstone Place, M,,,,,,From 86 Chepstow-road.
+cross_street,Livingstone Place, M,,,,,,[RIGHT HAND SIDE.]
+resident,Livingstone Place, M,1,,,Twiggs,F.,upholsterer, &c.
+resident,Livingstone Place, M,2,,,James,Arthur,butcher,
+resident,Livingstone Place, M,3,,,Good,W.,watchmaker,
+resident,Livingstone Place, M,4,,,Ashton,V. J. & Son,cycle manufacturers,
+resident,Livingstone Place, M,5,,,Milner,Geo.,carpenter,
+resident,Livingstone Place, M,6,,,Baynham,Wm. J.,carpntr,
+resident,Livingstone Place, M,7,,,Lee,James,bricklayer,
+resident,Livingstone Place, M,8,,,Stamp,Mrs M. J.,,
+resident,Livingstone Place, M,9,,,Gherbich,Mrs Flora,,
+resident,Livingstone Place, M,10,,,Webb,Edward,platelayer,
+resident,Livingstone Place, M,11,,,England,H.,warehousemn,
+resident,Livingstone Place, M,12,,,Dowle,Mrs Amelia,,
+resident,Livingstone Place, M,13,,,Newbury,Geo.,ironworker,
+resident,Livingstone Place, M,14,,,Carpenter,Mrs Sarah J.,
+resident,Livingstone Place, M,15,,,Gillingham,Frank,smith,
+resident,Livingstone Place, M,16,,,Kirkham,William,agent,
+resident,Livingstone Place, M,17,,,Witheridge,J.,blacksmith,
+resident,Livingstone Place, M,18,,,Jewell,Geo.,coach builder,
+resident,Livingstone Place, M,19,,,Obel,John,labourer,
+resident,Livingstone Place, M,20,,,Rogers,Robert,manager,
+resident,Livingstone Place, M,21,,,Evans,John,tram inspt.,
+resident,Livingstone Place, M,22,,,Millington,Arthur,clerk,
+resident,Livingstone Place, M,23,,,Welsher,Henry,platelayr,
+resident,Livingstone Place, M,24,,,Leigh,Mrs Ann,,
+resident,Livingstone Place, M,25,,,Thayer,Thomas,boots,
+resident,Livingstone Place, M,26,,,Gatfield,Harry,painter,
+resident,Livingstone Place, M,27,,,Saviger,Edwin G.,miller,
+resident,Livingstone Place, M,28,,,Marsh,John,labourer,
+resident,Livingstone Place, M,29,,,Pomeroy,David,signalmn,
+resident,Livingstone Place, M,30,,,Tilling,Edward,shop,
+resident,Livingstone Place, M,31,,,Woodridge,Wm.,platelayr,
+resident,Livingstone Place, M,32,,,Passmore,Geo.,tram inspt,
+resident,Livingstone Place, M,33,,,Lake,William,bootmaker,
+cross_street,Livingstone Place, M,,,,,,here is Speke-street.
+resident,Livingstone Place, M,34,,,Morgan,Uriah,butcher,
+resident,Livingstone Place, M,35,,,Gonsalves,Arcenio,stewrd,
+resident,Livingstone Place, M,36,,,Edmunds,Wm. H.,confctr,
+resident,Livingstone Place, M,37,,,Lyne,Robert,labourer,
+resident,Livingstone Place, M,38,,,Powell,Ernest,,
+cross_street,Livingstone Place, M,,,,,,(return.)
+resident,Livingstone Place, M,39,,,Jones,Richard,G.,
+resident,Livingstone Place, M,40,,,Owen,William,labourer,
+resident,Livingstone Place, M,41,,,Florida,Wm.,labourer,
+resident,Livingstone Place, M,42,,,Lodge,F. E.,G.W.R.,
+resident,Livingstone Place, M,43,,,Jordan,W.,ironworker,
+resident,Livingstone Place, M,44,,,Watts,Jeffrey,labourer,
+cross_street,Livingstone Place, M,,,,,,here is Speke-street.
+resident,Livingstone Place, M,45,,,Yeates,Henry,sawyer,
+resident,Livingstone Place, M,46,,,Faulks,Wm. P.,gluemaker,
+street,Llanarth Street,,,,,,From 41 Commercial-street.
+cross_street,Llanarth Street,,,,,,[LEFT HAND SIDE.]
+resident,Llanarth Street,3,,,Perry,H.,,Robin Hood
+resident,Llanarth Street,4,,,Lewis,James L.,hairdresr,
+resident,Llanarth Street,5,,,Johns,R. H.,Ltd.,lithographers & general printers stationers etc.,"Removed to new premises, 46 Commercial street and Dock street"
+resident,Llanarth Street,6,,,,,,Void
+resident,Llanarth Street,,,Co-operative Drapery strs,,,,
+cross_street,Llanarth Street,,,,,,here is Dock-street.
+resident,Llanarth Street,7,,,Wreford,Mrs Eliza,,
+resident,Llanarth Street,8,,,Clissitte, & Son,chairmkrs
+resident,Llanarth Street,8,,,Jones,H.,,Empire Arms
+resident,Llanarth Street,9,,,,,,Void
+resident,Llanarth Street,10,,,May,George,factory hand,
+resident,Llanarth Street,11,,,Carpenter,Mrs Louisa,,
+resident,Llanarth Street,12,,,McEvoy,Michael,,
+resident,Llanarth Street,13,,,Dickson,Mrs E. R.,out-
+resident,Llanarth Street,14,,,fitter and pawnbroker,,
+resident,Llanarth Street,,,Howell's iron warehouse,,,,
+resident,Llanarth Street,20,,,Nelson,E.,,
+resident,Llanarth Street,21,,,,,,Void
+cross_street,Llanarth Street,,,,,,here is Union-court.
+resident,Llanarth Street,22,,,Trump,R.,labourer,
+cross_street,Llanarth Street,,,,,,(return.)
+resident,Llanarth Street,23,,Globe Lodging House,,Walter Morgans,,
+resident,Llanarth Street,24,,,Lovell,C.,furniture broker,
+resident,Llanarth Street,25,,,Howell's warehouse,,,
+resident,Llanarth Street,26,,,,,,Void
+resident,Llanarth Street,27,,,Howell's warehouse,,,
+resident,Llanarth Street,28,,,May,Thos.,factory hand,
+resident,Llanarth Street,29,,,Wreford,Wm.,ship painter,
+resident,Llanarth Street,30,,,Howell,Thomas,H. Ltd.,iron and oil merchants
+resident,Llanarth Street,31,,,Howell,Thomas,H. Ltd.,iron and oil merchants
+cross_street,Llanarth Street,,,,,,here is Union-street.
+resident,Llanarth Street,32,,,Biggs,Edgar P.,,Royal Arms
+resident,Llanarth Street,33,,,Williams,T.,chimnep swp,
+resident,Llanarth Street,34,,,Price,John,dealer,
+resident,Llanarth Street,35,,,Jones,Thomas,grocer, &c

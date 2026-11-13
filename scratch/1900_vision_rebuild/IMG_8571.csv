@@ -1,0 +1,140 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,S. Market Street,3,,Abraham,Caplan,traveller,continued
+resident,S. Market Street,6,,David,Mogford,moulder,
+cross_street,S. Market Street,,,,,,here is Livingstone-place.
+resident,S. Market Street,4,,James,Rowe,plasterer,
+cross_street,S. Market Street,,,,,,here is Winmill-street.
+resident,S. Market Street,5,,William,Faulkes,labourer,
+resident,S. Market Street,7,,James,Wall,greengrocer,
+resident,S. Market Street,6,,Jeffrey,Watts,labourer,
+resident,S. Market Street,8,,A. E.,Farmer,boilermaker,
+resident,S. Market Street,7,,Stephen,Short,donkeyman,
+resident,S. Market Street,9,,John,Hurley,labourer,
+resident,S. Market Street,10,,John,Coles,cycle maker,
+resident,S. Market Street,11,,Jos.,Hawkins,eng. driver,
+resident,S. Market Street,12,,Lewis,Perryman,checker,
+resident,S. Market Street,15,,Henry,Tanner,labourer,
+resident,S. Market Street,16,,John,Reeves,,
+resident,S. Market Street,17,,Edgar,Thomas,shipcarptr,
+resident,S. Market Street,18,,Wm.,Burke,coal trimmer,
+resident,S. Market Street,19,,Mrs H.,Holland,shopkpr,
+resident,S. Market Street,20,,Thos.,Williams,labourer,
+resident,S. Market Street,21,,John,Hurley,labourer,
+resident,S. Market Street,22,,Timothy,Harris,fitter,
+resident,S. Market Street,23,,,,Void,,
+resident,S. Market Street,24,,John,Edwards,sawyer,
+resident,S. Market Street,25,,David,Nicholls,,
+resident,S. Market Street,26,,Henry,Welsh,smith,
+resident,S. Market Street,27,,Mrs Margaret,Coxon,,
+resident,S. Market Street,28,,John,Clark,labourer,
+resident,S. Market Street,29,,Mrs Elizabeth,Chappell,,
+resident,S. Market Street,30,,Thomas,Scrivens,striker,
+cross_street,S. Market Street,,,,,,here is East Market-street.
+resident,S. Market Street,31,,Mrs Sophia,Gill,shop,
+resident,S. Market Street,,,Wm. S.,Teed,seaman,
+resident,S. Market Street,32,,,,Void,,
+resident,S. Market Street,,,William,Dunk,engineer,
+resident,S. Market Street,33,,William,Critchley,,G.W.R.
+resident,S. Market Street,34,,Mrs Margaret,Wilson,,
+resident,S. Market Street,35,,Mrs Johanna,Cecil,,
+resident,S. Market Street,36,,Mrs M. A.,Downey,,
+resident,S. Market Street,37,,Daniel,Morgan,labourer,
+resident,S. Market Street,38,,James,Addis,mason,
+resident,S. Market Street,39,,,,Void,,
+resident,S. Market Street,40,,,,do,,
+resident,S. Market Street,41,,William,Harris,striker,
+resident,S. Market Street,42,,William,Hughes,packer,
+resident,S. Market Street,43,,Aug.,Tanner,crane driver,
+resident,S. Market Street,44,,T. W.,Cochrane,labourer,
+resident,S. Market Street,45,,Herbert,Williams,haulier,
+resident,S. Market Street,46,,Albert,Williams,labourer,
+resident,S. Market Street,47,,William,James,labourer,
+resident,S. Market Street,48,,Wm. H.,Morgan,labourer,
+resident,S. Market Street,49,,John,Vick,wagon repairer,
+resident,S. Market Street,50,,William,Davies,sawyer,
+resident,S. Market Street,51,,Mrs Sarah,Jones,,
+resident,S. Market Street,52,,Richard,Richards,factory,
+street,Spencer Road,,,,,,,Caerau-rd. to Llanthewy-rd.
+street,Spring Gardens,,,,,,,Courtybella, Cardiff-road.
+resident,Spring Gardens,1,,Miss Louisa,Williams,,
+resident,Spring Gardens,2,,Jas.,Pickford,eng. driver,
+resident,Spring Gardens,3,,Joseph,Llewellyn,labourer,
+resident,Spring Gardens,4,,Mrs,Geary,,
+resident,Spring Gardens,5,,A.,Hobbs,engine driver,
+resident,Spring Gardens,6,,Alan,Johnson,labourer,
+resident,Spring Gardens,7,,Chas.,Strickland,labourer,
+resident,Spring Gardens,,,Board Schools,,,
+street,Spring Street, C.,,,,,,,From Redland-street.
+cross_street,Spring Street, C.,,,,,,LEFT HAND SIDE.
+resident,Spring Street, C.,,,,,3 houses void,
+resident,Spring Street, C.,,,Robert,Greenwood,fitter,
+resident,Spring Street, C.,,,F. H.,Price,hairdresser,
+cross_street,Spring Street, C.,,,,,,(return.)
+resident,Spring Street, C.,,,William,Giles,labourer,
+resident,Spring Street, C.,,,Robert,Mack,,G.W.R.
+resident,Spring Street, C.,,,William,Halliday,foreman,
+resident,Spring Street, C.,,,Wm. Rd.,Wilson,stamper,
+resident,Spring Street, C.,,,Ernest,Chevers,,G.W.R.
+street,Stafford Road,,,,,,,From 257 Caerleon-road to Railway.
+resident,Stafford Road,1,,William,Davies,haulier,
+resident,Stafford Road,3,,Thos.,Porter,labourer,
+resident,Stafford Road,5,,Hy.,Longstaff,decorator,
+resident,Stafford Road,7,,William,Dent,clerk,
+resident,Stafford Road,9,,Mrs Selina,Watkins,,
+resident,Stafford Road,11,,Wm.,Durham,haulier,
+resident,Stafford Road,13,,Rd.,Whittington,machnst,
+cross_street,Stafford Road,,,,,,here is Durham-road.
+resident,Stafford Road,15,,Daniel J.,Walsh,engineer,
+resident,Stafford Road,17,,R. H.,Procter,insur. supt,
+resident,Stafford Road,19,,Edwd.,Griffiths,kiln settr,
+resident,Stafford Road,21,,Mrs E.,Maimloff,,
+resident,Stafford Road,23,,Hy. Thos.,Wright,police,
+resident,Stafford Road,25,,Jesse,Thomas,fitter,
+resident,Stafford Road,27,,Mrs Ellen,Milner,,
+resident,Stafford Road,29,,T.,Carpenter,billiard mrkr,
+resident,Stafford Road,30,,R. L.,Bill,labourer,
+cross_street,Stafford Road,,,,,,(return)
+resident,Stafford Road,14,,Mrs Ann,Slater,,
+street,Speke Street,,,,,,,Opposite Maindee Schools.
+resident,Speke Street,1,,Mrs E.,Davies,confectioner,
+resident,Speke Street,2,,,,Watkins' Stores & packing warehouses,,
+resident,S. Market Street,12,,Wm. Hy.,Stamp,labourer,
+resident,S. Market Street,10,,John,Green,bricklayer,
+resident,S. Market Street,8,,Henry T.,Boon,agent,
+resident,S. Market Street,6,,Henry,Tuck,platelayer,
+resident,S. Market Street,4,,Edward,Dean,builder,
+resident,S. Market Street,2,,William,Collins,moulder,
+street,Stanley Road,,,,,,,Gold Tops to Devon-place.
+resident,Stanley Road,,,F. T.,Boshier,,Lansdowne vil
+resident,Stanley Road,,,Lieutenant J.,Rawley,R.A.,
+resident,Stanley Road,,,Miss,Miles,,Walsham villa
+resident,Stanley Road,,,Richard,Jones,,Rothesay vil
+resident,Stanley Road,,,G.,Greenland,,Farnborough
+street,Station Street,,,,,,,From 67 Bridge-street.
+resident,Station Street,1,,Michael,Twohig,,
+resident,Station Street,2,,Mrs C. T.,Thomas,,
+resident,Station Street,3,,Mrs K. M.,Freshfield,,
+resident,Station Street,4,,Mrs E.,Wynn,,
+resident,Station Street,,,Tom.,Wynn,genl. carrier,
+cross_street,Station Street,,,,,,here is Railway-street.
+resident,Station Street,,,,PRIMITIVE METH. CHAPEL,,
+resident,Station Street,5,,Miss,Trudgeon,,school for girls Lamorna house
+resident,Station Street,6,,George,Parsons,guard,
+resident,Station Street,7,,J. H.,Wagstaff,hairdresser,
+resident,Station Street,8,,Thomas,Dalley,polisher,
+resident,Station Street,9,,James,Beer,fireman,
+resident,Station Street,10,,James,Williams,haulier,
+resident,Station Street,,,G.W.R. Goods station,,,
+resident,Station Street,12,,William,Landers,labourer,
+resident,Station Street,13,,Mrs Elizabeth,Evans,,
+resident,Station Street,14,,John,Cope,lithographer,
+resident,Station Street,15,,Elizabeth,Lewis,,
+resident,Station Street,16,,William,Harris,,
+resident,Station Street,17,,Mrs E. L.,Deakins,,
+resident,Station Street,18,,Thomas,Dyer,bootmaker,
+resident,Station Street,,,,Phillips & Sons,brewers and wine merchants,
+street,Stockton Road,,,,,,,Off Stafford-road.
+street,Stow Chambers,,,,,,,See 11 Skinner-street.
+street,Stow Hill,,,,,,,From High-st. & Commercial-street to the "Hand Post."
+resident,Stow Hill,2,,London City & Midland Bank,,,
+resident,Stow Hill,4,CENTRAL CHAMBERS,Fredk. P.,Robjent,"stock and share broker",

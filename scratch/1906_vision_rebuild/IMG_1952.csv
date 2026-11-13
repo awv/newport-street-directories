@@ -1,0 +1,129 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Caxton Place, C 5,,,,,"From 23 Bridge-street."
+cross_street,Caxton Place, C 5,,,,,"[LEFT HAND SIDE]"
+resident,Caxton Place, C 5,1,,William,Price,tailor,
+resident,Caxton Place, C 5,2,,William,Smith,porter,
+resident,Caxton Place, C 5,3,,William,Price,tailor,
+cross_street,Caxton Place, C 5,,,,,"(return.)"
+resident,Caxton Place, C 5,4,,W. J. & Sons,Gibb,"poulterers, etc.",
+resident,Caxton Place, C 5,5,,Arthur,Curnuck,,
+street,Cedar Road, C 4,,,,,"From 36 Chepstow-road to Corporation-road."
+cross_street,Cedar Road, C 4,,,,,"[LEFT HAND SIDE.]"
+resident,Cedar Road, C 4,1,The Nutshell,W.,Morgan,,
+resident,Cedar Road, C 4,3,Mona ho,Edward,Jones,,
+resident,Cedar Road, C 4,5,,J. W. W.,Lewis,,
+resident,Cedar Road, C 4,7,,Evan S.,Edwards,,
+resident,Cedar Road, C 4,9,,George,Beeston,overseer,Herbert T. H.
+cross_street,Cedar Road, C 4,,,,,"here is Bedford-road."
+resident,Cedar Road, C 4,11,St. Ives,,,,void
+resident,Cedar Road, C 4,13,St. Ives,Arth. J.,Barrett,,
+resident,Cedar Road, C 4,15,,Meredith,Thomas,,
+resident,Cedar Road, C 4,17,Earlswood,John,Hayman,,
+resident,Cedar Road, C 4,19,Wakefield house,Miss M.,Williams,,
+resident,Cedar Road, C 4,21,Chelwood ho,Dd.,Linton,,
+resident,Cedar Road, C 4,23,,William John,Phillips,,
+cross_street,Cedar Road, C 4,,,,,"here is Corporation-road."
+cross_street,Cedar Road, C 4,,,,,"(return.)"
+resident,Cedar Road, C 4,20,,Charles Edward,George,,
+resident,Cedar Road, C 4,18,,A. J.,Wibberley,,
+resident,Cedar Road, C 4,16,,Mrs. Louisa,Cox,,
+resident,Cedar Road, C 4,14,,F. P.,Williams,,
+resident,Cedar Road, C 4,12,,Mrs. Susanah,Hugget,,
+resident,Cedar Road, C 4,10,,Jos. Leverington,Flook,,
+resident,Cedar Road, C 4,8,,Horatio,Le Vesconte,,
+resident,Cedar Road, C 4,6,,Misses B. & A.,Jones,,
+resident,Cedar Road, C 4,4,Riversdale,John,Beer,,
+resident,Cedar Road, C 4,2,,Miss Mary,Heffer,,
+street,Cemetery Lane,,,,,"North-street to Clifton-road."
+street,Cenfedd Street, C 3,,,,,"Off Caerleon-road."
+street,Charles Street, D 4,,,,,"From 149 Commercial-street to Stow-hill."
+resident,Charles Street, D 4,,THE EMPIRE,Moss Empires, Ltd.,proprietors,
+cross_street,Charles Street, D 4,,,,,"here is Talbot-Lane."
+resident,Charles Street, D 4,,,Foslett & Co.,gasfitters,
+resident,Charles Street, D 4,6,,T.,Miles,cabinet maker,
+resident,Charles Street, D 4,7,,Mrs. A.,Slade,embroiderer,
+resident,Charles Street, D 4,8,,R.,Pacello,wardrobedealer,
+resident,Charles Street, D 4,9,,Alexander,Hobbs,ostler,
+resident,Charles Street, D 4,10,,A. G.,Bird,house decorator,
+resident,Charles Street, D 4,11,,F. W.,Powles,builder,
+resident,Charles Street, D 4,,ENGLISH BAPTIST CHAPEL,,,,
+resident,Charles Street, D 4,,NEWPORT EDUCATION OFFICES,,,Hutchins J. sec. Ele-mentary Department; Moores G. W. secretary Secondary Department
+resident,Charles Street, D 4,,P.T. CENTRE,Caleb,Squire,caretaker,
+resident,Charles Street, D 4,17,,G. E. & Co.,Rogers,plumbers,
+resident,Charles Street, D 4,18,,Alex.,McMutrie,,
+resident,Charles Street, D 4,19,,P.,Walters,watchmaker,
+resident,Charles Street, D 4,20,,J.,Neil,plasterer,
+resident,Charles Street, D 4,21,Bible and Tract Depot,,,,
+cross_street,Charles Street, D 4,,,,,"(return.)"
+resident,Charles Street, D 4,22,,Alex.,Blunt,grocers,
+resident,Charles Street, D 4,23,,Wm.,Rowberry,herbalist,
+resident,Charles Street, D 4,24,,John,Coxon,fruiterer,
+resident,Charles Street, D 4,25,,John,Platt,bootmaker,
+resident,Charles Street, D 4,26,,Fdk.,Watts,"plumber, &c.",
+resident,Charles Street, D 4,27,,Jos.,Shewring,signwriter,Frew Wm. tailor
+resident,Charles Street, D 4,28,,Jos.,Maddocks,eng. drvr.,
+resident,Charles Street, D 4,29,Unitarian Meeting Room,,,,
+resident,Charles Street, D 4,30,,Robert,Culwerweil,,
+resident,Charles Street, D 4,31,,,,,void
+resident,Charles Street, D 4,32,,Mrs. L.,Hogg,,
+resident,Charles Street, D 4,33,,Albert,Fennell,hairdresr,
+resident,Charles Street, D 4,34,,Morris,Levi,tailor,
+resident,Charles Street, D 4,,Cranford Café,Israel,Cohen,confectionr,
+resident,Charles Street, D 4,35,entrance to Infants' School and Cookery Centre,Miss M.,Lowater,,
+resident,Charles Street, D 4,39-40,,Reynolds & Co.,,
+street,Charlotte Street, E 5,,,,,"From 23 Alma-st. to Capel-st."
+cross_street,Charlotte Street, E 5,,,,,"[LEFT HAND SIDE]"
+resident,Charlotte Street, E 5,1,,Geo. N.,Dowdall,caterer,
+resident,Charlotte Street, E 5,2,,Elijah,Cox,pilot,
+resident,Charlotte Street, E 5,3,,George,Davies,tug agent,
+resident,Charlotte Street, E 5,4,,James,Jenkins,labourer,
+cross_street,Charlotte Street, E 5,,,,,"here is Lewis-street."
+resident,Charlotte Street, E 5,,,Burleigh & Jones,,"undertakers, etc.",
+cross_street,Charlotte Street, E 5,,,,,"here is Raglan-street."
+resident,Charlotte Street, E 5,,,A.,James,shoemaker,
+resident,Charlotte Street, E 5,,,D. & Co.,Thomas,pattern-makers,
+resident,Charlotte Street, E 5,5,,Geo.,Marley,labourer,
+cross_street,Charlotte Street, E 5,,,,,"here is Williams-street."
+resident,Charlotte Street, E 5,6,,Mrs. Ellen,Viner,,
+cross_street,Charlotte Street, E 5,,,,,"here is Capel-street."
+cross_street,Charlotte Street, E 5,,,,,"(return)."
+resident,Charlotte Street, E 5,7,,Richard,Roberts,mouldr,
+resident,Charlotte Street, E 5,8,,Geo. R.,Fisher,captain,
+resident,Charlotte Street, E 5,9,,Amos,Davies,engine dvr,
+resident,Charlotte Street, E 5,,Turner's Bedding Mfty.,,,,
+resident,Charlotte Street, E 5,10,,James Abbott,T.,
+resident,Charlotte Street, E 5,,TREDEGAR WHF. INFANTS' SCHOOL,,,,
+cross_street,Charlotte Street, E 5,,,,,"here is Williams-street."
+resident,Charlotte Street, E 5,11b,,Sidney,Couppy,dealer,Cook E. bootmaker
+resident,Charlotte Street, E 5,11c,,Henry R.,Main,ins. agt.,
+cross_street,Charlotte Street, E 5,,,,,"here is Raglan-street."
+resident,Charlotte Street, E 5,12,,John,Bevan,seaman,
+resident,Charlotte Street, E 5,13,,William,Young,labourer,
+resident,Charlotte Street, E 5,,Alma St. Baptist Sunday School,,,,
+resident,Charlotte Street, E 5,14,,Thos. J.,Garland,carpntr,
+resident,Charlotte Street, E 5,15,,Fredk.,Main,boilermaker,
+resident,Charlotte Street, E 5,16,,Thomas,Curtis,labourer,
+resident,Charlotte Street, E 5,17,,Mrs. Elizabeth,Phillips,,
+street,Chelston Place, B 4,,,,,"43 Redland-st to Brynglas-rd."
+resident,Chelston Place, B 4,2,,Robt. Wm.,Brockington,motorman,
+resident,Chelston Place, B 4,3,,Mrs. Alice,Emerson,,
+resident,Chelston Place, B 4,4,,Benj.,Lambert,plumber,
+resident,Chelston Place, B 4,5,,Mrs. A.,Baggs,,
+resident,Chelston Place, B 4,6,,Herbt. D.,Greening,clerk,
+resident,Chelston Place, B 4,7,,Wm.,Preece,police sergt.,
+resident,Chelston Place, B 4,8,,Theo.,Jones,mar store dlr,
+street,Chepstow Road, C 4,,,,,"From Clarence-place."
+cross_street,Chepstow Road, C 4,,,,,"[LEFT HAND SIDE.]"
+resident,Chepstow Road, C 4,1,,Burleigh & Jones,,"undertakers, Eastgate v",
+resident,Chepstow Road, C 4,3,,P. W.,Sansome,dentist,
+resident,Chepstow Road, C 4,5,Melverton,Chas.,White,,
+resident,Chepstow Road, C 4,7,Windsor villa,W.,Sheaf,veterinary surgeon,
+resident,Chepstow Road, C 4,9,Victoria v,Wm.,Froggatt,,
+resident,Chepstow Road, C 4,11,Cambridge v,H. E.,Case,,
+resident,Chepstow Road, C 4,13,Osborne v,C. J.,Chapman,,
+resident,Chepstow Road, C 4,15,Beaufort v,Jabez,Jones,,
+resident,Chepstow Road, C 4,17,Clytha v,George,Smith,,
+resident,Chepstow Road, C 4,19,Carisbrooke v,R.,Scrivens,,
+resident,Chepstow Road, C 4,21,,R.,Sweet,sculptor,
+resident,Chepstow Road, C 4,23,Atherstone villa,A. D. H.,Jones,,
+resident,Chepstow Road, C 4,25,Albert villa,T. A.,Hince,,

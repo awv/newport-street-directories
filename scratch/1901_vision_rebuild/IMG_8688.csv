@@ -1,0 +1,131 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,Wharves,,"Brithdir wharf",,,,Union Dry Dock Co. engineers &c. and at Union Dry Docks
+resident,Wharves,,"Rhoswen wharf",,,,Cardiff and Newport Patent Fuel Co. Ltd.—Wm. Jones manager
+resident,Wharves,,"Rhos Llantwit wharf",,,,,Lynch Morgan
+resident,Wharves,,"Machen wharf",,,,,
+resident,Wharves,,"Cork Steam Ship wharf",,,,James Maddock agent
+resident,Wharves,,,"Wm. Hy.",Taylor,manager,Alexandra Dock jetties
+resident,Wharves,,"ALEXANDRA DOCK",,,,The Watchhouse
+resident,Wharves,,,Chas.,Handford,,Harbour ho South Dock entrance
+resident,Wharves,,,"Harbour Commissioners' ballast jetties",,,The Powder house
+resident,Wharves,,,J.,Bradbury,,
+resident,Wharves,,,Michael,Carey,"Pilots' pill",EAST SIDE—See also Rodney-parade
+resident,Wharves,,"London wharf",,,,Davies Bros.
+resident,Wharves,,"Commissioners' Land'g stage",,,,The Gridiron
+resident,Wharves,,"Rodney wf",,,,Uskside Lime Co
+resident,Wharves,,"Clarence wharf",,,,Clarence Wharf Saw Mills Co. Ltd.
+resident,Wharves,,"G. Western wf",,,,Happerfeild and Willans proprietors
+resident,Wharves,,"Usk (The) Chemical works",,,,Morris & Griffin Ltd.—W. M. Fuller man'g director
+cross_street,Wharves,,,,,,here is Lliswerry Pill
+resident,Wharves,,,"Lysaght's John Ltd. works",,,The Union Dry Docks
+resident,Wharves,,,John,Evans,wagon inspectr,Wharves—continued
+resident,Wharves,,"Tillery wharf",,,,,
+resident,Wharves,,,Charles,Sundy,coal shipper,
+resident,Wharves,,,Mrs Louisa,Hughes,,
+resident,Wharves,,"Clapp's wharf",,,,,
+resident,Wharves,,,James,Farmer,platelayer,
+resident,Wharves,,,"Stevens David & Co.",smiths,
+resident,Wharves,,"Russell's wharf",,,,Lancaster Speir & Co. colliery proprietors
+resident,Wharves,,,Edward,Clayfield,,
+resident,Wharves,,,Denis,Sullivan,moulder,
+resident,Wharves,,,Charles,Dumayne,,
+resident,Wharves,,"Risca wharf",,,,Watts Watts and Co.
+resident,Wharves,,"Commercial wharf",,,,T. Spittle Limited engineers and iron and brass founders
+resident,Wharves,,"Deri wharf",,,,,
+resident,Wharves,,"Aberbeeg wharf",,,,,
+resident,Wharves,,"Cambrian wharf",,,,,
+resident,Wharves,,"Cambrian foundry",,,,,
+resident,Wharves,,"Rhymney wharf",,,,,
+resident,Wharves,,,John,Edwards,gasfitter,
+resident,Wharves,,"Devonshire wharf",,,,,
+resident,Wharves,,"Penner wharf",,,,James Poole coal and pitwood merchant
+resident,Wharves,,,Henry,Rew William,seaman,
+resident,Wharves,,,Mark,Williams,,
+resident,Wharves,,"Phillips & Sons' malthouse",,,,,
+resident,Wharves,,,C. B.,Wilkinson,maltster,
+cross_street,Wharves,,,,,,DOCK ENTRANCE
+resident,Wharves,,"Customs' Watch house",,,,,
+resident,Wharves,,"Phillips' wharf",,,,,
+resident,Wharves,,"Powell Duffryn wharf",,,,,
+resident,Wharves,,"Penmaen wharf",,,,,
+resident,Wharves,,"Campbell's Landing stage",,,,,
+resident,Wharves,,"Pillgwenlly whf",,,,Partridge Jones & Co. Ltd.
+resident,Wharves,,,Mrs E.,Morse,,
+resident,Wharves,,,Alfred R.,Pearce,foreman,
+resident,Wharves,,,John,Kingdom,foreman,
+resident,Wharves,,,G. F.,Harding,iron & steel mer,
+resident,Wharves,,"Pillgwenlly Coal Co.",,,,,
+resident,Wharves,,"Tredegar Dry Dock & Wharf Co. Ltd.",,,,,
+resident,Wharves,,"Latch's wharf",,,,,Newport Engineering & Ship Repairing Co. Ltd.
+resident,Wharves,,"Newport Foundry Co.",,,,,
+resident,Wharves,,"Rock whf",,,,Lydney & Crump Meadow Colliery Co.—S. O. Hands agent
+resident,Wharves,,"Waterloo wharf",,,,T. G. Cartwright colliery proprietor
+resident,Wharves,,,Thomas,Payne,foreman,
+street,Wheeler Street,,,,,,,
+cross_street,Wheeler Street,,,,,,From 15 Pugsley-street [LEFT HAND SIDE.]
+resident,Wheeler Street,1,,G.,Limbrick,mill band mkr,
+resident,Wheeler Street,2,,James,Watts,labourer,
+resident,Wheeler Street,3,,Edward,Sykes,machinist,
+resident,Wheeler Street,4,,Richd.,Radcliffe,carman,
+resident,Wheeler Street,5,,Sidney,Williams,upholstr,
+resident,Wheeler Street,6,,H. D.,Gould,salesman,
+resident,Wheeler Street,7,,Wm. J.,Houghton,painter,
+resident,Wheeler Street,8,,James,Trembeth,labourer,
+resident,Wheeler Street,9,,Henry,Kelly,crane drivr,
+resident,Wheeler Street,10,,John,Griffiths,factory,
+resident,Wheeler Street,11,,Mrs,Cowling,,
+resident,Wheeler Street,12,,William,Howells,waiter,
+resident,Wheeler Street,13,,Charles,Evans,haulier,
+resident,Wheeler Street,14,,Edward,Rees,factory,
+resident,Wheeler Street,15,,John,Harris,p.o. linesmn,
+resident,Wheeler Street,16,,Harry,Finch,sugar boiler,
+resident,Wheeler Street,17,,Samuel,Woodruff,G.W.R.,
+resident,Wheeler Street,18,,Henry,Bartlett,cab proprtr,
+cross_street,Wheeler Street,,,,,,here is Evans-street
+resident,Wheeler Street,,,Amos,Brettell,butcher,
+resident,Wheeler Street,,,Thomas,Hale,turner,
+resident,Wheeler Street,,,James,Murphy,boilermkr,
+resident,Wheeler Street,,,H. K.,Balwin,moulder,
+resident,Wheeler Street,,,,,"House void",
+resident,Wheeler Street,,,Stephen,Monks,mason,
+resident,Wheeler Street,,,George,Beacham,carpentr,
+resident,Wheeler Street,,,William,McKenzie,seaman,
+resident,Wheeler Street,,,Mrs Ann,Thomas,,
+resident,Wheeler Street,,,James,Abbott,fitter,
+cross_street,Wheeler Street,,,,,,(return.)
+resident,Wheeler Street,19,,Hy.,Williams,shopkeeper,
+resident,Wheeler Street,20,,Arthur,Poole,ins. agent,
+resident,Wheeler Street,21,,John Hy.,Goverd,lab'rer,
+resident,Wheeler Street,22,,John,Richards,,
+resident,Wheeler Street,23,,Miss E.,Phillips,dressmkr,
+resident,Wheeler Street,24,,David,Lewis,bricklayer,
+resident,Wheeler Street,25,,George,College,G.W.R.,
+resident,Wheeler Street,26,,William,Saysill,carpenter,
+street,Whitby Place B.T.,,,,,,,
+cross_street,Whitby Place B.T.,,,,,,From Prince-street.
+resident,Whitby Place B.T.,1,,F.,Wheeler,police sergt.,
+resident,Whitby Place B.T.,2,,Thos.,Probert,platelayer,
+resident,Whitby Place B.T.,3,,Hy. John,Reakes,labourer,
+resident,Whitby Place B.T.,4,,John,Chappell,haulier,
+street,Williams Street P.,,,,,,,
+cross_street,Williams Street P.,,,,,,From 153 Commercial-road to Capel-crescent. [LEFT HAND SIDE.]
+resident,Williams Street P.,1,,John,Stokes,printer,
+resident,Williams Street P.,2,,Gilbert,Gough,rly. guard,
+resident,Williams Street P.,3,,George,Brooks,dairyman,
+resident,Williams Street P.,4,,Fred J.,Fisher,cellarman,
+resident,Williams Street P.,5,,Henry,Murrow,sailmakr,
+resident,Williams Street P.,6,,Richard,Bunt,boilermkr,
+resident,Williams Street P.,7,,Samuel,West,eng. driver,
+resident,Williams Street P.,8,,Chas. Ll.,Mounce,baker,
+resident,Williams Street P.,9,,Wm.Hy.,Gardiner,eng.dvr,
+resident,Williams Street P.,10,,John,Pain,coal shipper,
+resident,Williams Street P.,11,,Hy.,Worrall,engine drivr,
+resident,Williams Street P.,12,,Fredk.,Trickey,moulder,
+resident,Williams Street P.,13,,F. J.,Stoneman,pilotsman,
+resident,Williams Street P.,14,,John,Dix,merchant,
+resident,Williams Street P.,15,,Albert,Wilton,storeman,
+resident,Williams Street P.,16,,Thos.,Ravlade,ironworker,
+resident,Williams Street P.,17,,W. H.,Williams,carpenter,
+resident,Williams Street P.,18,,Alfred,David,smith,
+resident,Williams Street P.,19,,Mrs Ann,Waters,,
+resident,Williams Street P.,20,,Rd. A.,Tyler,labourer,

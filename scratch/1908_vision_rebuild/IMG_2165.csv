@@ -1,0 +1,156 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Victoria Road, D 5,,,,,"Victoria-place to Park-square"
+cross_street,Victoria Road, D 5,,,,,Congregational Church
+resident,Victoria Road, D 5,57,,Tovey,Mrs. Ada,
+cross_street,Victoria Road, D 5,,,,,[return]
+resident,Victoria Road, D 5,58,,Evans,Daniel,
+resident,Victoria Road, D 5,56,,Richards,Thos. Wm.,
+resident,Victoria Road, D 5,54,,White,B.,general shop,
+resident,Victoria Road, D 5,52,,Ford,Alfred Geo.,labourer
+resident,Victoria Road, D 5,50,,Redman,Hy. Geo.,labourer
+resident,Victoria Road, D 5,48,,Walkley,James,labourer
+resident,Victoria Road, D 5,46,,Dyer,James,labourer
+resident,Victoria Road, D 5,44,,Creed,Frank,labourer
+resident,Victoria Road, D 5,42,,Webber,Richd. G.,carprtr
+resident,Victoria Road, D 5,40,,Reardon, J., junr.,ironrwkr
+resident,Victoria Road, D 5,38,,Dodd,Edwd.,ironworker
+resident,Victoria Road, D 5,36,,Lewis,Fredk.,bootmaker
+resident,Victoria Road, D 5,34,,Bird,James,Henry
+resident,Victoria Road, D 5,32,,Halford,Emmanuel,drvr
+resident,Victoria Road, D 5,30,,Reed,Edwd. T.,moulder
+resident,Victoria Road, D 5,28,,James,Wm.,ironworker
+resident,Victoria Road, D 5,26,,Reardon,J. senr.,gas wks
+resident,Victoria Road, D 5,24,,Brunt,Samuel,clerk
+resident,Victoria Road, D 5,22,,Dowsell,Hy. C.,bricklayer
+resident,Victoria Road, D 5,20,,Davies,Henry,ironworkr
+resident,Victoria Road, D 5,18,,Thomas,John,sawyer
+resident,Victoria Road, D 5,16,,Warry,Benjamin,butcher
+resident,Victoria Road, D 5,14,,Windsor,Mark,ironworkr
+resident,Victoria Road, D 5,12,,Woodman,Robt.,labourer
+resident,Victoria Road, D 5,10,,Webb,William,labourer
+resident,Victoria Road, D 5,8,,Parker,Henry,
+resident,Victoria Road, D 5,6,,Croston,Thomas,
+resident,Victoria Road, D 5,4,,Overton,Wm.,ironworker
+resident,Victoria Road, D 5,2,,Lewis,Alfred,ironworker
+resident,Victoria Road, D 5,,,Alsop & Hayes,,carriage wrks
+street,Victoria Square, D 5,,,,,"From North-street."
+resident,Victoria Square, D 5,5,,Morgan,Mrs. Priscilla,
+resident,Victoria Square, D 5,6,,Morgan,Wm.,labourer
+resident,Victoria Square, D 5,7,,Saysill,George,guard
+resident,Victoria Square, D 5,8,,Knight,Henry S.,labourer
+resident,Victoria Square, D 5,9,,Fogarty,Edwin,carpenter
+resident,Victoria Square, D 5,10,,,,,Void
+resident,Victoria Square, D 5,11,,Long,Mrs. Margaret,
+resident,Victoria Square, D 5,12,,James,George,smith
+resident,Victoria Square, D 5,13,,Woodruff,Jarvis,
+resident,Victoria Square, D 5,14,,Goulding,Jas.,lamplighter
+street,Vine Place, D 3,,,,,"From 32 Duckpool-road."
+resident,Vine Place, D 3,1,,Collings,Henry,labourer
+resident,Vine Place, D 3,2,,Pugsley,John,labourer
+resident,Vine Place, D 3,3,,Price,George,labourer
+resident,Vine Place, D 3,4,,Mould,Francis,labourer
+resident,Vine Place, D 3,5,,Mitchell,Fredk.,bricklayer
+street,Vivian Road, D 3,,,,,"From Corporation-road."
+cross_street,Vivian Road, D 3,,,,,[LEFT HAND SIDE.]
+resident,Vivian Road, D 3,1,,Hayman,Wm.,
+resident,Vivian Road, D 3,3,,Edmunds,G. H.,shearer
+resident,Vivian Road, D 3,5,,Maiden,Francis,ironwkr
+resident,Vivian Road, D 3,7,,Rogers,Geo.,watchman
+resident,Vivian Road, D 3,9,,Bradey,Chas.,ironworker
+resident,Vivian Road, D 3,11,,Percy,Thomas,labourer
+resident,Vivian Road, D 3,13,,Simmonds,Jos.,ironworkr
+resident,Vivian Road, D 3,15,,Ingles,Jos.,ironworker
+resident,Vivian Road, D 3,17,,Lavell,Thos.,ironworker
+resident,Vivian Road, D 3,19,,Wootten,Geo.,furnacemn
+resident,Vivian Road, D 3,21,,McMillan,Chas.,ironworkr
+resident,Vivian Road, D 3,23,,Edwards,Jas.,ironworker
+resident,Vivian Road, D 3,25,,Edwards,John,ironworkr
+resident,Vivian Road, D 3,27,,Tully,Frank,ironworker
+resident,Vivian Road, D 3,29,,Dawes,Mrs. Amelia,
+resident,Vivian Road, D 3,31,,Summerhill,Thos.,ironwkr
+resident,Vivian Road, D 3,33,,Westwood,Geo.,labourer
+resident,Vivian Road, D 3,35,,Barton,R.,ironworker
+resident,Vivian Road, D 3,37,,Ridley,John,storekeeper
+resident,Vivian Road, D 3,39,,Griffiths,Mrs. Patience,
+resident,Vivian Road, D 3,41,,Worner,John,fireman
+resident,Vivian Road, D 3,43,,Hourihane,Thos.,ironwkr
+resident,Vivian Road, D 3,45,,Goddard,John,carpenter
+resident,Vivian Road, D 3,47,,Gripton,John J.,ironrwkr
+resident,Vivian Road, D 3,49,,Jones,George,chem. wkr
+resident,Vivian Road, D 3,51,,Davies,Wm. J.,ironworkr
+resident,Vivian Road, D 3,53,,Moore,Fredk. M.,labourer
+resident,Vivian Road, D 3,55,,,,,Void
+resident,Vivian Road, D 3,40,,Crouch,Wm.,
+resident,Vivian Road, D 3,42,,Ley,William,butcher
+resident,Vivian Road, D 3,44,,Watkins,S. R.,butcher
+resident,Vivian Road, D 3,46,,Day,W. H.,lithographer
+resident,Vivian Road, D 3,48,,Crowther,James,printer
+resident,Vivian Road, D 3,50,,Gabb,A. E.,baker
+resident,Vivian Road, D 3,52,,Davies,David J.,painter
+resident,Vivian Road, D 3,54,,Marlow,Wm.,plasterer
+resident,Vivian Road, D 3,56,,Davies,David Chas.,agent
+resident,Vivian Road, D 3,58,,Brown,Henry J.,postman
+resident,Vivian Road, D 3,60,,Phillips,Jos. F.,musician
+resident,Vivian Road, D 3,62,,Freeman,Wm.,labourer
+resident,Vivian Road, D 3,64,,Hood,Er. S.,traffic foremn
+resident,Vivian Road, D 3,66,,Elkins,George,gas stoker
+resident,Vivian Road, D 3,68,,Tyler,James,bldng. insp.
+resident,Vivian Road, D 3,70,,Watson,T.,
+resident,Vivian Road, D 3,72,,Whipp,Albert,musician
+resident,Vivian Road, D 3,74,,Morrish,H. E.,baker
+cross_street,Vivian Road, D 3,,,,,(return)
+resident,Vivian Road, D 3,53,,Lavender,Wm. Ed.,smith
+resident,Vivian Road, D 3,51,,Weaver,Francis,James
+resident,Vivian Road, D 3,49,,Cook,Frederick,police
+resident,Vivian Road, D 3,47,,Brogden,Frank,musician
+resident,Vivian Road, D 3,45,,Grubb,John W.,traveller
+resident,Vivian Road, D 3,43,,Olds,Philip,stoker
+resident,Vivian Road, D 3,41,,,,,Void
+resident,Vivian Road, D 3,39,,Williams,Wm. J.,clerk
+resident,Vivian Road, D 3,37,,Moss,Fredk. R.,plasterer
+resident,Vivian Road, D 3,35,,Richardson,Jas. R.,tailor
+resident,Vivian Road, D 3,32,,Bevan,Chas.,G.W.R.
+resident,Vivian Road, D 3,31,,Gunter,Saml.,boilermakr
+resident,Vivian Road, D 3,29,,Telling,Robt. E.,joiner
+resident,Vivian Road, D 3,27,,Beniaus,Wm. C.,grngrgr.
+resident,Vivian Road, D 3,25,,Collins,James M.,gas wks
+resident,Vivian Road, D 3,23,,Entwistle,Thomas,G.
+resident,Vivian Road, D 3,21,,Morgan,Augustus,
+resident,Vivian Road, D 3,19,,Greening,Alfred,G.W.R.
+resident,Vivian Road, D 3,17,,Millard,Wm.,mason
+resident,Vivian Road, D 3,15,,Evans,E. J.,warehesman
+resident,Vivian Road, D 3,13,,Chivers,Henry,fireman
+resident,Vivian Road, D 3,11,,Harper,Thos.,fitter's hlpr
+resident,Vivian Road, D 3,9,,Reed,John Hy.,moulder
+resident,Vivian Road, D 3,7,,Davies,Chas.,porter
+resident,Vivian Road, D 3,5,,Salter,Fred.,railway clerk
+resident,Vivian Road, D 3,3,,Thomas,Wm. J.,bricklyr.
+resident,Vivian Road, D 3,1,,Holder,Charles,painter
+street,Walford Street, B 4,,,,,"From Goodrich-crescent (Malpas road)."
+cross_street,Walford Street, B 4,,,,,[RIGHT HAND SIDE.]
+resident,Walford Street, B 4,2,,Parkin,E.,sanitary enginr
+resident,Walford Street, B 4,4,,Lewis,Herbert R.J.,formn
+resident,Walford Street, B 4,6,,Dunning,F. J.,ironwkr
+resident,Walford Street, B 4,8,,Roberts,Wm.,W. traveller
+resident,Walford Street, B 4,10,,Powis,Geo.,coachbuilder
+resident,Walford Street, B 4,12,,George,Illtyd,labourer
+resident,Walford Street, B 4,14,,Williams,Percy,dairyman
+resident,Walford Street, B 4,16,,Leach,John,
+resident,Walford Street, B 4,18,,Thompson,Wm.,clerk wks
+resident,Walford Street, B 4,20,,Doel,Arthur J.,haulier
+resident,Walford Street, B 4,22,,Powell,Wm. Rees,postman
+resident,Walford Street, B 4,24,,Bullock,Henry,
+resident,Walford Street, B 4,26,,Bowen,Sidney,fitter
+resident,Walford Street, B 4,28,,Barnes,Wm.,engine driver
+resident,Walford Street, B 4,30,,Keal,John,boilermaker
+resident,Walford Street, B 4,32,,Bennett,Hy.,photographr
+resident,Walford Street, B 4,34,,Astbury,Wm. H.,gas wkr
+resident,Walford Street, B 4,36,,Iles,Edward,G.W.R.
+resident,Walford Street, B 4,38,,Prunner,Geo.,eng. driver
+street,Wallis Street, E 4,,,,,"From West side Town Dock to Castle-street."
+cross_street,Wallis Street, E 4,,,,,[LEFT HAND SIDE.]
+resident,Wallis Street, E 4,1,,Cummings,Jas.,labourer
+resident,Wallis Street, E 4,3,,Weare,William,labourer
+resident,Wallis Street, E 4,5,,Miles,Wm.,labourer
+resident,Wallis Street, E 4,7,,Keyse,Jas. R.,
+resident,Wallis Street, E 4,9,,Howells,Wm.,labourer

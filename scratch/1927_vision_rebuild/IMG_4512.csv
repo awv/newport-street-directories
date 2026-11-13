@@ -1,0 +1,168 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,GRE,2,,,,,houses void
+cross_street,GRE,,,,,,(return)
+resident,GRE,1,,,,,house void
+resident,GRE,,Alandale,Frank T.,Richards,,
+resident,GRE,,Glenroy,Harry,Brown,,
+street,GRIFFIN STREET,,,,,,C 4
+cross_street,GRIFFIN STREET,,,,,From 26a High-street,(LEFT HAND SIDE.)
+resident,GRIFFIN STREET,1,South Wales Luncheon Bar,Geo.,Shore,,,PROVISION MARKET
+resident,GRIFFIN STREET,,,Little & Co.,tailors,,
+cross_street,GRIFFIN STREET,,,,,,here is Dock-street
+cross_street,GRIFFIN STREET,,,,,,(return)
+resident,GRIFFIN STREET,3,,,J.,Sheppard,fruiterer,
+resident,GRIFFIN STREET,4,,,H. G.,Bere,grocer,
+resident,GRIFFIN STREET,5,,,John,Collingbourne,meat salesman,
+resident,GRIFFIN STREET,6,,,George,Clarke,salt stores,
+resident,GRIFFIN STREET,,,,Ellen,Dixon,,
+resident,GRIFFIN STREET,7,Griffin Hotel,Chas.,Coles,,
+resident,GRIFFIN STREET,8,,,Cecil & Co., Ltd.,drapers,
+resident,GRIFFIN STREET,9,The Angel Restaurant,Mrs. H.,Rawden,,
+resident,GRIFFIN STREET,10,The Egg Market,J. & Son,Sanders,,,grocers
+resident,GRIFFIN STREET,12,,C. B.,Langmaid,house agent and insur broker,
+resident,GRIFFIN STREET,,,,Cecil & Co., Ltd.,drapers,
+street,GRIFFITHS STREET,,,,,,C 6
+cross_street,GRIFFITHS STREET,,,,,,Penllyn Estate, Risca-road
+street,HALSTEAD STREET,,,,,,D 3
+cross_street,HALSTEAD STREET,,,,,,Corporation-road to Phillip-st. (LEFT HAND SIDE.)
+resident,HALSTEAD STREET,1 to 5,,,,,,unbuilt
+resident,HALSTEAD STREET,7,,,James,Price,dock labourer,
+resident,HALSTEAD STREET,9,,,George,Topham,labr
+resident,HALSTEAD STREET,11,,,John,Screen,ironworker
+resident,HALSTEAD STREET,13,,,William Henry,May,plbr
+resident,HALSTEAD STREET,15,,,Thomas,Taylor,ironworker
+resident,HALSTEAD STREET,17,,,Chas.,Wilmott,labourer
+resident,HALSTEAD STREET,19,,,John,Davies,ironworker
+resident,HALSTEAD STREET,21,,,T. J.,Powell,G.W.R.
+resident,HALSTEAD STREET,23,,,William,Pope,foreman
+resident,HALSTEAD STREET,25,,,Edgar J.,Benson,joiner
+resident,HALSTEAD STREET,27,,,William,Lewis,,
+resident,HALSTEAD STREET,29,,,Fredk.,Johnson,ironwkr
+cross_street,HALSTEAD STREET,,,,,,here is Essex-street
+resident,HALSTEAD STREET,31,,,Arthur,Selby,shop
+resident,HALSTEAD STREET,33,,,John H.,Hourahine,,
+resident,HALSTEAD STREET,35,,,Thos. A.,Jordan,labr
+resident,HALSTEAD STREET,37,,,Wm. J.,Goddard,ironwkr
+resident,HALSTEAD STREET,39,,,George,Overton,labourer
+resident,HALSTEAD STREET,41,,,Cecil,Fisher,accountant
+resident,HALSTEAD STREET,43,,,Geo. Hy.,Rogers,ironwrk
+resident,HALSTEAD STREET,45,,,Harry,Hayward,,
+resident,HALSTEAD STREET,47,,,Mrs. Lucy,Elkington,,
+resident,HALSTEAD STREET,,,Wm. J.,Wilkins,postman
+resident,HALSTEAD STREET,49,,,James,Hiscock,doubler
+resident,HALSTEAD STREET,51,,,W.,Gough,ironworker
+resident,HALSTEAD STREET,53,,,Ed. L.,Viner,fireman
+resident,HALSTEAD STREET,55,,,Charles,Coldrick,porter
+resident,HALSTEAD STREET,57,,,Henry,Bell,labourer
+cross_street,HALSTEAD STREET,,,,,,here is Gordon-street
+resident,HALSTEAD STREET,59,,,Edward,Butler,labourer
+resident,HALSTEAD STREET,61,,,Arthur,Hawkins,,
+resident,HALSTEAD STREET,63,,,Thos.,Hurst,fireman
+cross_street,HALSTEAD STREET,,,,,,(return)
+resident,HALSTEAD STREET,76,,,Mrs. Katherine,Bailey,,
+resident,HALSTEAD STREET,74,,,Hy. Geo.,Brooks,canvasser
+resident,HALSTEAD STREET,72,,,Geo. E.,Davey,haulier
+resident,HALSTEAD STREET,70,,,James,Henthorne,labr
+resident,HALSTEAD STREET,68,,,,,,Void
+resident,HALSTEAD STREET,66,,,P.,Maddicks,marine engnr
+cross_street,HALSTEAD STREET,,,,,,here is Gordon-street
+resident,HALSTEAD STREET,64,,,Mrs. Sarah Jane,Phillips,,
+resident,HALSTEAD STREET,62,,,Mrs. Martha,Landers,,
+resident,HALSTEAD STREET,,,H. B.,Blackwell,bootmkr
+resident,HALSTEAD STREET,60,,,Fred J.,Fowler,crane driver
+resident,HALSTEAD STREET,58,,,,,,Void
+resident,HALSTEAD STREET,56,,,Wm.,Davies,G.W.R.
+resident,HALSTEAD STREET,54,,,Alfred,Andrews,labourer
+resident,HALSTEAD STREET,52,,,Mrs. Anne,Jones,,
+resident,HALSTEAD STREET,50,,,Leslie Chas.,Webb,painter
+resident,HALSTEAD STREET,48,,,G.,Easterbrook,fireman
+resident,HALSTEAD STREET,46,,,John,Bunt,carpenter
+resident,HALSTEAD STREET,44,,,S. E.,Williams,fireman
+resident,HALSTEAD STREET,42,,,William,Price,baker
+resident,HALSTEAD STREET,40,,,Alfred,Warren,,
+resident,HALSTEAD STREET,38,,,George,Riley,ironworker
+resident,HALSTEAD STREET,36,,,Mrs. Sarah,Rowles,,
+resident,HALSTEAD STREET,34,,,Harry,Bettley,ironwkr
+resident,HALSTEAD STREET,32,,,Wm.,Tully,ironworker
+resident,HALSTEAD STREET,30,,,Evan,Jenkins,ironwkr
+resident,HALSTEAD STREET,28,,,Edward,Stevens,shearer
+resident,HALSTEAD STREET,26,,,Charles,Bulpitt,fitter
+resident,HALSTEAD STREET,24,,,S.,Anslow,fitter's mate
+resident,HALSTEAD STREET,22,,,Geo.,Bettley,ironworker
+resident,HALSTEAD STREET,20,,,Mrs. Fanny,Evans,,
+resident,HALSTEAD STREET,18,,,Edwin,Hurford,foreman
+resident,HALSTEAD STREET,,,Geo.,Guttridge,labourer
+resident,HALSTEAD STREET,16,,,Mrs. Sarah J.,Jones,,
+resident,HALSTEAD STREET,14,,,William,Barton,ironwkr
+resident,HALSTEAD STREET,12,,,Edward,Hunt,ironwrk
+resident,HALSTEAD STREET,10,,,G. H.,Machin,ironwkr
+resident,HALSTEAD STREET,8,,,Jas.,Carver,insur. agent
+resident,HALSTEAD STREET,6,,,Llewellyn,Wakeham,,
+resident,HALSTEAD STREET,4,,,Wm.,Waite,ironworker
+resident,HALSTEAD STREET,2,,,Chas.,Fentiman,carpenter
+street,HAMILTON STREET,,,,,,E 2
+cross_street,HAMILTON STREET,,,,,,Off Corporation-road (LEFT HAND SIDE.)
+resident,HAMILTON STREET,1,,,Albert,Crump,sheetwghr
+resident,HAMILTON STREET,3,,,Mrs. J. M.,Clay,,
+resident,HAMILTON STREET,5,,,Robert,Bannister,ironwkr
+resident,HAMILTON STREET,7,,,Henry,Jones,Samuel
+resident,HAMILTON STREET,9,,,Wm.,McLoughlin,ironwrk
+resident,HAMILTON STREET,11,,,John Hy.,Newell,ironwkr
+resident,HAMILTON STREET,13,,,Thomas,Carless,ironwkr
+resident,HAMILTON STREET,15,,,Thomas,Jenkins,ironwkr
+resident,HAMILTON STREET,17,,,R. E.,Thomas,steelwrkr
+resident,HAMILTON STREET,19,,,John,McLoughlin,ironwrk
+resident,HAMILTON STREET,21,,,George,Bater,bricklayer
+resident,HAMILTON STREET,23,,,A.,Fitzgerald,dock lab
+resident,HAMILTON STREET,25,,,Joseph H.,Bird,ironwkr
+resident,HAMILTON STREET,27,,,E.,McLoughlin,ironwkr
+resident,HAMILTON STREET,29,,,John,Jenkins,ironworker
+resident,HAMILTON STREET,31,,,William,Mason,ironwrkr
+resident,HAMILTON STREET,33,,,Albert,Phipps,furrier
+resident,HAMILTON STREET,35,,,Thos.,Horton,ironworker
+resident,HAMILTON STREET,37,,,W.,McLoughlin,ironwrk
+resident,HAMILTON STREET,39,,,Joseph,Corfield,ironwkr
+resident,HAMILTON STREET,41,,,Joseph,Sockett,,
+resident,HAMILTON STREET,43,,,Arthur,Morgan,ironwkr
+resident,HAMILTON STREET,45,,,Meshack,Barton,do
+resident,HAMILTON STREET,47,,,John Thos.,Hill,do
+resident,HAMILTON STREET,,,,,,Vacant sites
+cross_street,HAMILTON STREET,,,,,,(return)
+resident,HAMILTON STREET,,,,,,Vacant sites
+resident,HAMILTON STREET,48,,,Frank,Tyrrell,ironworker
+resident,HAMILTON STREET,46,,,Mrs. Jane,Sockett,,
+resident,HAMILTON STREET,44,,,Sylvanus,Sockett,ironwkr
+resident,HAMILTON STREET,42,,,Edwin,Attewell,do
+resident,HAMILTON STREET,40,,,Michael,Mannion,do
+resident,HAMILTON STREET,38,,,Samuel,Wall,do
+resident,HAMILTON STREET,36,,,Rueben J.,Horton,labr
+resident,HAMILTON STREET,34,,,John E.,Smith,ironworker
+resident,HAMILTON STREET,32,,,Fredk.,Baugh,ironworker
+resident,HAMILTON STREET,30,,,Bert,Bourne,do
+resident,HAMILTON STREET,28,,,George,Bourne,do
+resident,HAMILTON STREET,26,,,Wm. James,Gough,do
+resident,HAMILTON STREET,24,,,Mrs. Euphemia,Church,,
+resident,HAMILTON STREET,22,,,Roy A.,Johnson,mechanic
+resident,HAMILTON STREET,20,,,Wm. James,Lowe,ironwkr
+resident,HAMILTON STREET,18,,,John,Hales,do
+resident,HAMILTON STREET,16,,,George,Young,seaman
+resident,HAMILTON STREET,14,,,Isaac,Blakemore,ironwkr
+resident,HAMILTON STREET,12,,,Reuben,Sweet,G.W.R.
+resident,HAMILTON STREET,10,,,Mrs. Caroline,Baker,,
+resident,HAMILTON STREET,8,,,Arthur C.,Phillips,ironwkr
+resident,HAMILTON STREET,6,,,Mrs. Helen,Adams,,
+resident,HAMILTON STREET,4,,,Jesse T.,Everson,,
+resident,HAMILTON STREET,2,,,John T.,White,ironwkr
+street,HAMPTON STREET,,,,,,D 3
+cross_street,HAMPTON STREET,,,,,,Dudley-street to Walsall-street
+street,HANDSWORTH STREET,,,,,,E 3
+cross_street,HANDSWORTH STREET,,,,,,Bilston-street to Soho-street
+resident,HANDSWORTH STREET,,Greenland's laundry,,,,
+resident,HANDSWORTH STREET,1,,,David,Jones,laundryman
+resident,HANDSWORTH STREET,2,,,Jos. George,Moore,engine-driver
+resident,HANDSWORTH STREET,3,,,Geo. T.,Wheeler,ironwkr
+resident,HANDSWORTH STREET,4,,,Joseph,Brown,ironwkr
+resident,HANDSWORTH STREET,5,,,Thomas,Crowther,ironwkr
+resident,HANDSWORTH STREET,6,,,George,Cook,labourer
+street,HARDWICK STREET,,,,,,B 3
+cross_street,HARDWICK STREET,,,,,,Off Caerleon-road

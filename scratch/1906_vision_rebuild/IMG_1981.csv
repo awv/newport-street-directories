@@ -1,0 +1,131 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Emlyn Terrace,,,,,,
+resident,Emlyn Terrace,56,,,Dock-st. to Llanarth-st.,,
+resident,Emlyn Terrace,3,,Swen,Johnson,labourer,
+resident,Emlyn Terrace,4,,William,Berry,labourer,
+resident,Emlyn Terrace,5,Cherry Tree,Thos.,Beecham,,
+resident,Emlyn Terrace,6,,Alb. G.,Coombs,dealer,
+resident,Emlyn Terrace,7,,Frederick,Davies,,
+resident,Emlyn Terrace,8,,Timothy,Horton,,
+resident,Emlyn Terrace,9,,Keziah,Gingell,,
+resident,Emlyn Terrace,10,,Michael,Moriarty,,
+resident,Emlyn Terrace,11,,John,Fitzgerald,labourer,
+resident,Emlyn Terrace,12,,,Dunn Robt. lodging hou,
+resident,Emlyn Terrace,24,,Mrs. Mary,Hobbs,,
+resident,Emlyn Terrace,25,,Mrs. M. A.,Jackson,,
+resident,Emlyn Terrace,26-7,Three Salmons,George,Hobbs,,
+resident,Emlyn Terrace,28,,Dennis,Crowley,labourer,
+cross_street,Emlyn Terrace,,,,,[return.]
+resident,Emlyn Terrace,,,,Holy Cross Cath. Schools,,
+cross_street,Emlyn Terrace,,,,,here is Thompson-lane.
+resident,Emlyn Terrace,31,,Albert H.,Pengelly,labr,
+resident,Emlyn Terrace,32,,John,Twohig,labourer,
+resident,Emlyn Terrace,33,,John,Twohig,labourer,
+resident,Emlyn Terrace,34,,Mrs. Mary,Price,,
+resident,Emlyn Terrace,35,,John,Legge,labourer,
+resident,Emlyn Terrace,36,,Thomas,Richards,haulier,
+resident,Emlyn Terrace,37,,James,Greenham,,
+resident,Emlyn Terrace,38,,John,Keating,coal trimr,
+resident,Emlyn Terrace,39,,Mary Ann,Morgan,,
+resident,Emlyn Terrace,40,,Mrs. Ann,Ryan,,
+resident,Emlyn Terrace,41,,William,Dacey,labourer,
+resident,Emlyn Terrace,42,Rodney Arms,Dd.,Evans,,
+resident,Emlyn Terrace,43,,Mrs. R.,Jones,genl. shop,
+cross_street,Emlyn Terrace,,,,,here is Dock-street.
+resident,Emlyn Terrace,44,,Mrs. Eliza,Flook,,
+resident,Emlyn Terrace,45 & 46,,,Barker William,bird dealer,
+resident,Emlyn Terrace,47 & 48,,,Hewertson & Co. tobacco manufactory,
+resident,Emlyn Terrace,49,,John,Johnson,seaman,
+resident,Emlyn Terrace,50,,Thos.,Hillier,blacksmith,
+resident,Emlyn Terrace,51,,Edward,Loveday,dealer,
+resident,Emlyn Terrace,52,,R. H. O.,Jones,bootmkr,
+resident,Emlyn Terrace,,,& Co. carriers—J. Mattock, agent,Sutton,,
+resident,Emlyn Terrace,54,,,Void,,
+cross_street,Emlyn Terrace,,,,,here is Fothergill-street.
+resident,Emlyn Terrace,55,,Thos. H.,Davis,blacksmith and cycle maker,
+resident,Emlyn Terrace,56,,A.,Hicks,wardrobe dealer,
+resident,Emlyn Terrace,57,,A.,Craig,Forming Tankard,
+resident,Emlyn Terrace,58,Britannia Restaurant,,Scandrett,S.,
+resident,Emlyn Terrace,59,,Mrs. Mary,Collins,,
+resident,Emlyn Terrace,60,,,Void,,
+street,Essex Street,,,,,,
+resident,Essex Street,,,,,,Wharf-rd. to Halstead-street.
+cross_street,Essex Street,,,,,LEFT HAND SIDE.
+resident,Essex Street,1,,H.,Hillier,plumber & gasfitr,
+resident,Essex Street,3,,William,Beardmore,clerk,
+resident,Essex Street,5,,Thomas,Williams,painter,
+cross_street,Essex Street,,,,,[return.]
+resident,Essex Street,4,,Wm.,Shutt,general shop,
+resident,Essex Street,2,,Fred. O.,Ricketts,boilrmkr,
+street,Elton Road,,,,,,
+resident,Elton Road,,,,,,Corporation-road to Marlborough-road.
+cross_street,Elton Road,,,,,LEFT HAND SIDE.
+resident,Elton Road,1,,Herbert,Morgan,,
+resident,Elton Road,3,Hennor ho,G. E.,Groves,,
+resident,Elton Road,5,Crediton ho,H. G.,Senior,,
+resident,Elton Road,7,St. Aubin ho,Thos.,Heath,,
+resident,Elton Road,9,,William,Truman,Henry,
+cross_street,Elton Road,,,,,here is Rugby-road.
+resident,Elton Road,,Coldra ho,James T.,Smith,,
+resident,Elton Road,,,Wm. J.,Purnell,,
+resident,Elton Road,,,William,Hopkins,Henry,
+resident,Elton Road,15,,Alfred,Richards,George,
+resident,Elton Road,,,William,Barber,,
+resident,Elton Road,,,Charles,Ford,master mar,
+resident,Elton Road,21,,John,Matthews,,
+resident,Elton Road,23,Heathfield house,Wm.,Stokes,,
+resident,Elton Road,25,Ashgrove,William,Davies,,
+cross_street,Elton Road,,,,,here is Bedford-road.
+resident,Elton Road,27,Compton house,A.,Whittaker,,
+resident,Elton Road,29,Glan-y-don,Frank,Withers,,
+resident,Elton Road,31,Christchurch,E. C.,Wring,,
+resident,Elton Road,33,Beachcroft,Miss K.,Wring,,
+resident,Elton Road,35,Esther Hirwain house,Mrs.,Williams,,
+resident,Elton Road,37,Windsor house,Mrs. J. W.,Bottomley,,
+resident,Elton Road,39,,C. H.,Portnell,Grosvenor,
+resident,Elton Road,41,,Wm. H.,James,Brooklands,
+resident,Elton Road,43,,Albert E.,Linton,carprntr,
+resident,Elton Road,45,,Herbt,Clapson,Ellesmere,
+resident,Elton Road,47,,Alfred,Davis,Cambridge,
+cross_street,Elton Road,,,,,(return.)
+resident,Elton Road,48,Pen-y-bryn,A.,Edwards,,
+resident,Elton Road,46,Beta,George,McKeer,,
+resident,Elton Road,44,Penrhyw,George,Ball,,
+resident,Elton Road,42,Athenic,Luke,Newman,,
+resident,Elton Road,40,Ravenscar,Herbert,Poole,,
+resident,Elton Road,38,St. Arvan's,Edwd.,Vivian,,
+resident,Elton Road,36,Stewart,P.,Fleming,,
+resident,Elton Road,34,Westbourne,Mrs. E.,Bown,,
+resident,Elton Road,32,Macknade ho,Wm.,Rees,,
+cross_street,Elton Road,,,,,here is Methwen-road.
+resident,Elton Road,30,Ivy Glen,Miss J.,Evans,,
+resident,Elton Road,28,Dalmey,Fredk.,Parkes,,
+resident,Elton Road,26,ins. supt.,Alfred,Harris,,
+resident,Elton Road,24,,James,Gibbon,,
+resident,Elton Road,22,,Hugh,Bannerman,,
+resident,Elton Road,20,,James,Westwood,,
+resident,Elton Road,,,Chas.,Parry,3 houses building / Heatherdiene
+resident,Elton Road,,,John,Osmond,Hazeldene
+cross_street,Elton Road,,,,,here is Rugby-road.
+resident,Elton Road,,,Edgar,Williams,James Llangstone
+resident,Elton Road,2,Ashford Holmeswood,James,Smith,,
+street,Evans Street,,,,,,
+resident,Evans Street,,,,,,From 163 Shaftesbury-street.
+cross_street,Evans Street,,,,,LEFT HAND SIDE
+resident,Evans Street,1,,Chas.,Forester,school ho,
+resident,Evans Street,3,,William,Vickery,haulier,
+resident,Evans Street,5,,William,Griffiths,smith,
+resident,Evans Street,7,,John,Hill,mason,
+resident,Evans Street,9,,Samuel,Tutton,genl shop,
+cross_street,Evans Street,,,,,here is Hoskins-street.
+resident,Evans Street,,Evans St. Mission Room,,,,
+cross_street,Evans Street,,,,,SHAFTESBURY PARK
+cross_street,Evans Street,,,,,(cross and return.)
+cross_street,Evans Street,,,,,here is Pugsley-street.
+resident,Evans Street,20,,Mrs. A. M.,Bevan,,
+resident,Evans Street,18,,Isaac,Woodfield,,
+resident,Evans Street,16,,John,Jones,puddler,
+resident,Evans Street,14,,John,Critchley,tug boat,
+resident,Evans Street,12,,Mrs. Mary,Ferris,,
+cross_street,Evans Street,,,,,here is Wheeler-street.
+cross_street,Evans Street,,,,,here is Hoskins-street.

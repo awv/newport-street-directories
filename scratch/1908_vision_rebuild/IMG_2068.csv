@@ -1,0 +1,130 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,CAE,,,,,,
+resident,CAE,80,Wrekin cot,Wm.,Evans,ironworker,
+resident,CAE,78,,Chas.,Griffiths,postman,
+resident,CAE,76,,Geo.,Edwards,plumber,
+resident,CAE,74,Ramma ho,Walter,Noad,ironworkr,
+resident,CAE,72,,Mrs. Margaret,Fitzgerald,,
+resident,CAE,70,Ferncliffe,Sydney T.,Snell,ironworkr,
+resident,CAE,68,Cheddar vale,Mrs. A.,Lanfear,,
+resident,CAE,66,,John,Hookway,G.W.R.,
+resident,CAE,,Rosebud villa,Wm. T.,Thomas,builder,
+cross_street,CAE,,,,,,here is Bishop-street
+resident,CAE,62,,John,Farrow,Briton h,
+resident,CAE,60,,H.,Morgan,corn mercht,
+resident,CAE,58,,William,Waters,,
+resident,CAE,,Howell Nurse,,,,,
+resident,CAE,56,Ashley h,Stephen,Short,,
+resident,CAE,54,Melbourne house,Roland,Mayell,,
+resident,CAE,52,Marston ho,Jos.,Nutt,,
+resident,CAE,50,Tilbury h,E. guard,White,,
+resident,CAE,48,Duffryn ho,W. J.,Martyn,,
+resident,CAE,46,Clifton ho,Wm.,Belgion,,
+resident,CAE,44,Leon house,Wm. A.,Lane,,
+resident,CAE,42,,Sidney,Meaker,builder,
+resident,CAE,40,Highbury,J. ins. agt,Mann,,
+resident,CAE,38,Wain ho,Wm.,Bradford,,
+resident,CAE,36,,Mrs. Elizabeth,Turner,,
+resident,CAE,34,,Misses E. & E. M.,Edmunds,costumiers,Cleadon ho
+resident,CAE,32,,Jas.,Nancukievie,travellr,
+resident,CAE,30,,T.,Davies,Brookland,
+resident,CAE,28,Riverton h,J.,Wetheridge,,
+resident,CAE,26,,Edward,Davies,,
+resident,CAE,24,,Mrs. M.,Williams,,
+resident,CAE,22,Llanblethian ho,M.,Johnsm,,
+resident,CAE,20,,William,Lomax,,
+cross_street,CAE,,,,,,here is Junction-road
+resident,CAE,18,,A. J.,Evans,cycle agent,
+resident,CAE,16,,W. E.,Robertson,tobacnst,
+cross_street,CAE,,,,,,here is Church-road
+resident,CAE,14,,E. & Son,Lewis,helvenkrrs,
+resident,CAE,,Planet Cycle works,,,,,
+resident,CAE,12,,Edwin,East,signalman,
+resident,CAE,10,,C. W.,Evans,tailor,
+resident,CAE,8,,Edward,Jones,jeweller and bird dealer,
+resident,CAE,6,,Modern Printery,Jones W.,,
+resident,CAE,4,Talgarth,W. E.,Ponsford,,
+resident,CAE,2,,A. G.,Dells,tailor,
+resident,CAE,5,,Wm.,Stokes,ironworker,
+resident,CAE,7,,James,Berry,ironworker,
+resident,CAE,9,,T. E.,Tanner,labourer,
+resident,CAE,11,,Elijah,Barton,ironworkr,
+resident,CAE,13,,Chas.,Richards,ironworkr,
+resident,CAE,15,,John,Powell,ironworker,
+resident,CAE,17,,John,Hepworth,wiredrwr,
+resident,CAE,19,,Jas.,Phillips,ironworker,
+resident,CAE,21,,Wm. Rd.,Pitt,mason,
+resident,CAE,23,,Mrs. H.,Batson,,
+resident,CAE,25,,Geo.,Jewitt,ironworker,
+resident,CAE,27,,Aubrey,James,ironwrkr,
+resident,CAE,29,,Wm.,Taylor,ironworker,
+street,CAMBRIA COTTAGES,,,,,,From 22 Albert-avenue
+street,CAMBRIA PLACE,,,,,,Stow-hill opposite Union
+street,CAMBRIAN ROAD,C 5,,,,,85 Bridge-street to Station
+resident,CAMBRIAN ROAD,,,,Lloyd & Yorath Ltd,Cambrian brewery,
+resident,CAMBRIAN ROAD,,,,W. H. & Sons Ltd,Smith,wholesale newsagents
+cross_street,CAMBRIAN ROAD,,CROWN CHAMBERS,,,,
+resident,CAMBRIAN ROAD,,,,,,Inland Revenue offices,
+resident,CAMBRIAN ROAD,,,,,,Surveyor of Taxes,
+resident,CAMBRIAN ROAD,,,,,,Supervisor and Officers,
+resident,CAMBRIAN ROAD,,,,Joyce & Co. Ltd.,Ernest,stationers etc.,
+resident,CAMBRIAN ROAD,,,,Miss S. E.,Phillips,milliner,
+cross_street,CAMBRIAN ROAD,,,,,,here is Harry-street
+resident,CAMBRIAN ROAD,,,,,,G. W. R. Goods Station,
+cross_street,CAMBRIAN ROAD,,,,,,[return]
+resident,CAMBRIAN ROAD,,Tredegar Arms Hotel,,,,,
+resident,CAMBRIAN ROAD,,,,& Co.,Greenland,The Corridor Arcade
+resident,CAMBRIAN ROAD,,,,,,Corridor Toilet Saloon-H. E. Ross [bazaar
+resident,CAMBRIAN ROAD,,,,Marks & Spencers Ltd.,,,
+resident,CAMBRIAN ROAD,,Greyhound Hotel,,,R. T. Douherty
+resident,CAMBRIAN ROAD,,,,W.,Watkins,"Provider" Supply Stores
+resident,CAMBRIAN ROAD,,,,& S. W. Wine and Spirit Co.'s Vaults,Newport,
+cross_street,CAMBRIAN ROAD,,NEWPORT ARCADE,,,,(see 43 High-street)
+cross_street,CAMBRIAN ROAD,,CARLTON CHAMBERS,,,,
+resident,CAMBRIAN ROAD,,,,Taylor & Gait,drapers,
+resident,CAMBRIAN ROAD,,,,Baker & Manhire,drapers,
+resident,CAMBRIAN ROAD,,,,Cordey's Ltd.,Mon. & South Wales Supply Stores
+resident,CAMBRIAN ROAD,,,,,,Bevan's Sewing Machine and Mailcart Depot
+cross_street,CAMBRIAN ROAD,,CAMBRIAN CHAMBERS,,,,
+resident,CAMBRIAN ROAD,,,,W. Clifford,Phillips,solicitor com. for oaths
+resident,CAMBRIAN ROAD,,,,,,Athletic Club offices (top floor)
+resident,CAMBRIAN ROAD,,,,,,Western Finance Association Ltd.
+resident,CAMBRIAN ROAD,,,,,,Rogerstone (The) Property Investment Co. Ltd.
+resident,CAMBRIAN ROAD,,,,& Co.,Harvey,auctioneers
+resident,CAMBRIAN ROAD,,,,Digby,Powell,solicitor com. for oaths deputy coroner
+street,CAMBRIDGE ROAD,D 3,,,,,Off Rugby-road
+resident,CAMBRIDGE ROAD,1,,Wm.,Legge,forem'n mason,
+resident,CAMBRIDGE ROAD,3,,Mrs. J.,Llewellyn,,
+resident,CAMBRIDGE ROAD,,,,,2 houses building,
+cross_street,CAMBRIDGE ROAD,,,,,,[return]
+resident,CAMBRIDGE ROAD,,,,,2 houses building,
+resident,CAMBRIDGE ROAD,2,,,,,void
+street,CAMELOT PLACE,C 3,,,,,Whitby-pl. to Manchester-st.
+cross_street,CAMELOT PLACE,,,,,,[RIGHT HAND SIDE]
+resident,CAMELOT PLACE,1,,Frederick,Fursey,fitter,
+resident,CAMELOT PLACE,2,,W. G.,Harding,wind'w clnr,
+resident,CAMELOT PLACE,3,,W. C.,Dowsell,labourer,
+resident,CAMELOT PLACE,4,,Eugene,Crotty,lamplygtr,
+resident,CAMELOT PLACE,5,,,,,void
+resident,CAMELOT PLACE,6,,Chas.,Deakin,carman,
+resident,CAMELOT PLACE,7,,Herbert,Richards,,
+resident,CAMELOT PLACE,8,,Thos.,Morgan,G.W.R.,
+resident,CAMELOT PLACE,9,,George,Field,,
+resident,CAMELOT PLACE,10,,Ernest,Jones,stonemason,
+street,CAMPERDOWN STREET,E 2,,,,,Left-hand side Somerton-rd.
+street,CANAL PARADE,D 4,,,,,End of George-st. to Skinner-st.
+resident,CANAL PARADE,1-2,Victoria Inn,John,Courtney,,
+resident,CANAL PARADE,3,,Benjamin,Morgan,,
+resident,CANAL PARADE,4,,Henry,Day,labourer,
+resident,CANAL PARADE,5,,Geo.,Farmer,haulier,
+resident,CANAL PARADE,6,,Martin,Matterson,sailor,
+resident,CANAL PARADE,7,,John,Perkins,haulier,
+resident,CANAL PARADE,8,,Ernest,Porter,platelayer,
+resident,CANAL PARADE,9,,James,Murray,labourer,
+resident,CANAL PARADE,10,,,,,Void
+resident,CANAL PARADE,11,,Cornelius,Dowd,labourer,
+resident,CANAL PARADE,12,,Wm.,Binding,labourer,
+street,CALDICOT STREET,E 3,,,,,Left-hand side Corporation-rd
+cross_street,CALDICOT STREET,,,,,,[RIGHT HAND SIDE]
+resident,CALDICOT STREET,1,,David,Hunt,ironworker,
+resident,CALDICOT STREET,3,,Chas.,Brown,ironworker,

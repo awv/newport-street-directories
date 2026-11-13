@@ -1,0 +1,163 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,EBE STREET,23,,,Powell,Thomas,,
+resident,EBE STREET,24,,,Workman,Edward,haulier,
+resident,EBE STREET,25,,,Probert,William Thomas,painter,
+resident,EBE STREET,26,,,Thomas,Hy.,stevedore,
+resident,EBE STREET,27,,,Chave,Fred.,steward,
+resident,EBE STREET,28,,,Williams,John,,
+resident,EBE STREET,29,,,Horton,Abraham,,
+resident,EBE STREET,30-31,,,,,,Re-building
+resident,EBE STREET,32,,,Trigg,John O.,,William IV. mews
+resident,EBE STREET,33,,,Void,,,
+resident,EBE STREET,,,Welsh Calvinistic Methodist (Ebenezer) Chapel (1829),,,,
+resident,EBE STREET,,,,Pritchard,Wm. J.,haulier,
+resident,EBE STREET,,,,Greenslade,George,,
+street,EDWARD STREET,,,,,,,D 5
+notes,EDWARD STREET,,,,,,,See St. Edward-street
+street,EDWARD VII. AVENUE,,,,,,,
+notes,EDWARD VII. AVENUE,,,,,,,Off Fields Park-road
+resident,EDWARD VII. AVENUE,,,,,,,Two houses void
+resident,EDWARD VII. AVENUE,,Bryn Llwyd,John,David D.,,
+resident,EDWARD VII. AVENUE,,Brynaeron,Lewis,Nicholas,,
+resident,EDWARD VII. AVENUE,,,,,,,Vacant sites
+cross_street,EDWARD VII. AVENUE,,,,,,,(return)
+resident,EDWARD VII. AVENUE,,,,,,,Vacant sites
+resident,EDWARD VII. AVENUE,,,,,,,Houses building
+resident,EDWARD VII. AVENUE,,,,,,,Two houses void
+cross_street,EDWARD VII. AVENUE,,,,,,,here is Preston-avenue
+resident,EDWARD VII. AVENUE,,Tamar cot,Stow,Alfred J. F.,,
+resident,EDWARD VII. AVENUE,,Graig-y-don,Jones,Arthur Edmd.,,
+street,EDWIN STREET,,,,,,,B 4
+notes,EDWIN STREET,,,,,,,From 206 Shaftesbury-street
+cross_street,EDWIN STREET,,,,,,,[LEFT HAND SIDE.]
+resident,EDWIN STREET,1,,,Willis,Thos.,gas worker,
+resident,EDWIN STREET,2,,,Holtham,E. G.,painter,
+resident,EDWIN STREET,3,,,Howells,Chas.,platelayer,
+resident,EDWIN STREET,4,,,Willis,Thomas,junr,
+resident,EDWIN STREET,5,,,Hillman,Geo.,mason,
+resident,EDWIN STREET,6,,,Reardon,John,labourer,
+resident,EDWIN STREET,7,,,Durbin,William,postman,
+resident,EDWIN STREET,8,,,Hook,Harry,blacksmith,
+resident,EDWIN STREET,9,,,Hurn,Thos J.,forge mangr,
+resident,EDWIN STREET,10,,,Fowveather,Joe,glass worker,Booth, J.
+resident,EDWIN STREET,11,,,Foote,William,baker,
+resident,EDWIN STREET,12,,,Murphy,Miss Mary,,
+resident,EDWIN STREET,13,,,Howe,Benjamin,,
+resident,EDWIN STREET,14,,,Taylor,Thomas,,
+cross_street,EDWIN STREET,,,,,,,(return)
+resident,EDWIN STREET,15,,,Greenhaf,James,platelyr,
+resident,EDWIN STREET,16,,,Bainham,J. G.,warehsmn,
+resident,EDWIN STREET,17,,,Chapman,Frank,,
+resident,EDWIN STREET,18,,,Bennet,John,bricklayer,
+resident,EDWIN STREET,19,,,Bishop,Thomas.,labourer,
+resident,EDWIN STREET,20,,,Ackerman,Joseph,dk lab,
+street,ELDON CHAMBERS,,,,,,,
+notes,ELDON CHAMBERS,,,,,,,See 163 Commercial-street
+street,EMLYN CHAMBERS,,,,,,,
+notes,EMLYN CHAMBERS,,,,,,,See 38 High-street
+street,EMLYN STREET,,,,,,,D 4
+notes,EMLYN STREET,,,,,,,From 67 Commercial-street to Canal-parade
+cross_street,EMLYN STREET,,,,,,,[LEFT HAND SIDE.]
+resident,EMLYN STREET,3,,,Gray,William,,
+cross_street,EMLYN STREET,,,,,,,here is Keav-street
+resident,EMLYN STREET,,,,Ayliffe's Motor Garage,,,
+resident,EMLYN STREET,,,,Salvation Army Barracks,,,
+resident,EMLYN STREET,4,,,Cambridge,Chas.,grinder,
+resident,EMLYN STREET,5,,,Thompson & Son,,wheelwrights & general smiths,
+resident,EMLYN STREET,6,,,Hicks,A.,wardrobe dealer,
+resident,EMLYN STREET,7,,,Wallington,Fredk.,general shop,
+resident,EMLYN STREET,8,,,Loveday,Mrs.,wardrobe dlr,
+resident,EMLYN STREET,9,,,Redcliff,Mrs. Bessie,shop,
+resident,EMLYN STREET,10,,,Schute,Charles,lodgings,
+resident,EMLYN STREET,11,,,Forrest,William,,
+resident,EMLYN STREET,12,,,Void,,,
+cross_street,EMLYN STREET,,,,,,,here is Dock-street
+resident,EMLYN STREET,13-4,,,Betts,Albt. Hy.,grngrer,
+resident,EMLYN STREET,15,,,Howells,Walter,labourer,
+resident,EMLYN STREET,16,,,Williams,Ezekiel,,
+resident,EMLYN STREET,17,,,Lenahan,Edward,,
+resident,EMLYN STREET,18,,,Franklin,James,hobbler,
+resident,EMLYN STREET,19,,,Goulding,Simon,labourer,
+resident,EMLYN STREET,20,,,Neale,Arthur J.,labourer,
+resident,EMLYN STREET,21,,,Smith,George,foreman,
+resident,EMLYN STREET,22-3,,,Emlyn Works-Chas. D. Phillips,,
+resident,EMLYN STREET,24-5,,,Sullivan,Jere.,lodging ho,
+resident,EMLYN STREET,26-7,,Three Salmons,Jackson,Mrs. M.A.,,,
+resident,EMLYN STREET,28,,,Donovan,J.,ship's painter,
+resident,EMLYN STREET,29,,,Crowley,Dennis,labourer,
+cross_street,EMLYN STREET,,,,,,,(return)
+resident,EMLYN STREET,,,,Holy Cross Cath.School,,,
+cross_street,EMLYN STREET,,,,,,,here is Thompson-lane
+resident,EMLYN STREET,31,,,Pengelly,Albert H.,labr,
+resident,EMLYN STREET,32,,,Kelahar,John,labourer,
+resident,EMLYN STREET,33,,,Twohig,John,labourer,
+resident,EMLYN STREET,34,,,Gretton,Fredk.,signalman,
+resident,EMLYN STREET,35,,,Symonds,Harry,labourer,
+resident,EMLYN STREET,36,,,Croston,Thomas,,
+resident,EMLYN STREET,37,,,Driscoll,Dennis,,
+resident,EMLYN STREET,38,,,Keating,John,,
+resident,EMLYN STREET,39,,,Morgan,Mary Ann,,
+resident,EMLYN STREET,40,,,Fricker,Thomas,ostler,
+resident,EMLYN STREET,41,,,Keighley,Thomas,labourer,
+resident,EMLYN STREET,42,,Rodney Arms,Moses,Edwin,,,
+resident,EMLYN STREET,43,,,Balmer,Mrs.,general shop,
+cross_street,EMLYN STREET,,,,,,,here is Dock-street
+resident,EMLYN STREET,44,,,Whiting,Mrs. M.,greengrer,
+resident,EMLYN STREET,45,,,Void,,,
+resident,EMLYN STREET,46,,,Spence,William,,
+resident,EMLYN STREET,47-8,,,Hewertson & Co.,tobacco manufactory,
+resident,EMLYN STREET,49,,,Evans,John,labourer,
+resident,EMLYN STREET,50,,,Driscoll,James,labourer,
+resident,EMLYN STREET,51,,,Rymer,George,checker,
+resident,EMLYN STREET,52,,,Johnson,R.,bootmaker,
+resident,EMLYN STREET,53,,,Void,,,
+resident,EMLYN STREET,54,,,Oakey,Mrs. Clara,fish shop,
+cross_street,EMLYN STREET,,,,,,,here is Fothergill-street
+resident,EMLYN STREET,55,,,Jewett,J. D., & Son,scale mk,
+resident,EMLYN STREET,56-7,,,Wainfur,George,lodging house,
+resident,EMLYN STREET,58,,,Tellin,E.,bootmaker,
+resident,EMLYN STREET,59,,,Williams,Mrs. Margaret,wardrobe dealer,
+resident,EMLYN STREET,60,,,Void,,,
+street,EMLYN TERRACE,,,,,,,D 4
+notes,EMLYN TERRACE,,,,,,,Dock-street to Llanarth-st.
+resident,EMLYN TERRACE,3,,,Miller,William Morton,,
+resident,EMLYN TERRACE,4,,,Coombes,Albert George,,
+resident,EMLYN TERRACE,5,,Cherry Tree,Power,Miss J.,,,
+resident,EMLYN TERRACE,6,,,Void,,,
+resident,EMLYN TERRACE,7,,,Seaman,Frederick,John,
+resident,EMLYN TERRACE,8,,,Davies,Alfred,boilermkr,
+resident,EMLYN TERRACE,9,,,Legge,John,labourer,
+resident,EMLYN TERRACE,10,,,Moriarty,Norah,,
+resident,EMLYN TERRACE,11,,,Brown,Barnett,,
+resident,EMLYN TERRACE,12,,,Mahoney,Morris,,
+resident,EMLYN TERRACE,13,,,Williams,John,labourer,
+resident,EMLYN TERRACE,14,,,Void,,,
+resident,EMLYN TERRACE,15,,,Crowley,Lawrence,labr,
+resident,EMLYN TERRACE,16,,,Chapman,Ellen,,
+resident,EMLYN TERRACE,17,,,Hoskins,Thomas,labourer,
+resident,EMLYN TERRACE,18,,,Minahane,Catherine,,
+resident,EMLYN TERRACE,19,,,Rushmore,Jos. W.,,
+resident,EMLYN TERRACE,20,,,Crowley,Mrs. Sarah,,
+resident,EMLYN TERRACE,21,,,Landers,Michael,labourer,
+resident,EMLYN TERRACE,22,,,Hackett,Shadrach,,
+resident,EMLYN TERRACE,23,,,Fitzgerald,Mrs. Norah,,
+resident,EMLYN TERRACE,24,,,Void,,,
+resident,EMLYN TERRACE,25,,,Lynch,Jas.,labourer,
+resident,EMLYN TERRACE,26,,,Lodging house,,,
+resident,EMLYN TERRACE,27, 28, 29,,,Bailey,E. W.,lodging house,
+resident,EMLYN TERRACE,30,,,Fitzmorris,Mrs. Mary,,
+resident,EMLYN TERRACE,31-32,,,Lloyd,Wm.,lodging house,
+street,ESSEX STREET,,,,,,,D 3
+notes,ESSEX STREET,,,,,,,Wharf-road to Halstead-street
+cross_street,ESSEX STREET,,,,,,,[LEFT HAND SIDE.]
+resident,ESSEX STREET,1,,,Littlejohns,John,fish shop,
+resident,ESSEX STREET,3,,,Jones,Charles,G.W.R.,
+resident,ESSEX STREET,5,,,Williams,Mrs. Emily,,
+cross_street,ESSEX STREET,,,,,,,(return)
+resident,ESSEX STREET,4,,,Davies,David,grocer,
+resident,ESSEX STREET,2,,,Workman,Fredk. Wm.,,G.W.R.
+street,ETON ROAD,,,,,,,D 3
+notes,ETON ROAD,,,,,,,Corporation-road to Marlborough-road
+cross_street,ETON ROAD,,,,,,,[LEFT HAND SIDE.]
+resident,ETON ROAD,1,,Eton house,O'Leary,Mrs. Mary A.,,,
+resident,ETON ROAD,3,,Henner ho,Groves,G. E.,,,

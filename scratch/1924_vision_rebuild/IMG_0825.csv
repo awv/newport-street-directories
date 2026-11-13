@@ -1,0 +1,152 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+cross_street,PARK STREET,,,,,,(LEFT HAND SIDE)
+resident,PARK STREET,1,,Mrs. L.,Moon,,
+resident,PARK STREET,2,Peterston villa,Rev. D. S.,Davies,,
+resident,PARK STREET,3,Lothian v,G. B.,Walker,,
+resident,PARK STREET,4,Park villa,T.,Hewertson,,
+resident,PARK STREET,5,Sydenham,W. H.,Webb,,
+resident,PARK STREET,6,Alma villa,Alfred,Phillips,,
+resident,PARK STREET,7,Malvern villa,C. H.,Jones,,
+resident,PARK STREET,8,Richmond v,Charles,Waite,,
+resident,PARK STREET,9,Rosslyn,Mrs. A.,Shepherd,,
+resident,PARK STREET,10,Thorntree,Mrs. F.,Rowe,,
+resident,PARK STREET,11,Egerton, The Mount,Herbt.,Williams,surgeon,
+resident,PARK STREET,12,Prospect v,A. H.,Smith,,
+resident,PARK STREET,13,,Robert C. L.,Thomas,,
+cross_street,PARK STREET,,,,,,(return)
+resident,PARK STREET,15,,,Webb,carpenter,John
+resident,PARK STREET,16,,Mrs. E.,Williams,,
+resident,PARK STREET,17,,Mrs. Mary,Evans,,
+resident,PARK STREET,18,,Alfred,Taylor,cycle mfr
+resident,PARK STREET,19,,J. Thomas,Davies,,
+resident,PARK STREET,20,,Wm.,Hughes,carpenter
+resident,PARK STREET,21,,William Henry,Padget,,
+resident,PARK STREET,22,,Arthur,Pearse,,
+resident,PARK STREET,23,,Robert R.,Alward,,
+resident,PARK STREET,24,,Percy,Bagshaw,,
+resident,PARK STREET,25,,Thomas R.,Giddy,,
+resident,PARK STREET,26,,W. D.,Owen,,
+resident,PARK STREET,27,,Miss Elizabeth,Townsend,,
+resident,PARK STREET,28,,A. E.,Hadden,,
+resident,PARK STREET,29,,Miss G.,Williams,,
+resident,PARK STREET,30,,Evan,Edwards,,
+cross_street,PARK STREET,,,,,,here is Ivor-street
+resident,PARK STREET,31,,Miss Florence,Dean,,
+resident,PARK STREET,32,,James,Barry,boilermaker
+resident,PARK STREET,33,,Thomas,Cole,painter
+resident,PARK STREET,34,,Mrs. S.,Polden,,
+resident,PARK STREET,35,,Geo. F.,Smith,G.W.R.
+resident,PARK STREET,36,,Mrs. Clara L.,Lewis,,
+resident,PARK STREET,37,,Frederick Wm.,Horsey,,
+resident,PARK STREET,38,,John,Davies,musician
+resident,PARK STREET,39,,James,Vicara,,
+resident,PARK STREET,40,,Hermann,Storbeck,,
+street,PARK STREET,,,,,,D 5
+resident,PARK STREET,,,,,,Now Park-square, Nos. 14-30
+street,PARKFIELD PLACE,,,,,,C 5
+resident,PARKFIELD PLACE,,Coniston,T. H.,Gunning,,Clytha-park
+resident,PARKFIELD PLACE,,Lynmouth,John,Hazell,,
+street,PEMBROKE CHAMBERS.,,,,,,
+resident,PEMBROKE CHAMBERS.,,,,,,See 30 High-street
+street,PENLLYN AVENUE.,,,,,,C 6
+resident,PENLLYN AVENUE,,,,,,Risca-road
+cross_street,PENLLYN AVENUE,,,,,,(LEFT HAND SIDE.)
+resident,PENLLYN AVENUE,,,L.,Harris,boot dealer
+resident,PENLLYN AVENUE,2,,,Jesse H. Isacke,,
+resident,PENLLYN AVENUE,4,,,Henry J. Brown,carpenter
+resident,PENLLYN AVENUE,6,,,Hy. John Hart,G.W.R.
+resident,PENLLYN AVENUE,8,,,Thomas Stapleton,,
+resident,PENLLYN AVENUE,10,,,Isaiah Sage,gardener
+resident,PENLLYN AVENUE,12,,,Frank E. Greenoff,clerk
+resident,PENLLYN AVENUE,14,,,Robert S. Yates,,
+resident,PENLLYN AVENUE,16,,,Marshall A. E.,linesman
+resident,PENLLYN AVENUE,18,,,Jos. Baynham,railwayman
+resident,PENLLYN AVENUE,20,,,William Soper,G.W.R.
+resident,PENLLYN AVENUE,22,,,James Watson,electrician
+resident,PENLLYN AVENUE,24,,,Walter M. Porter,,
+resident,PENLLYN AVENUE,26,,,John R. Taylor,gardener
+resident,PENLLYN AVENUE,28,,,Wm. H. Sage,gardener
+resident,PENLLYN AVENUE,30,,,William Holt,engineer
+resident,PENLLYN AVENUE,32,,,Wm. R. Churches,police
+resident,PENLLYN AVENUE,34,,,Wm. P. Herring,carman
+resident,PENLLYN AVENUE,36,,,Ben H. Price,,
+resident,PENLLYN AVENUE,,,West Park Steam Laundry Company, Ltd.,,,
+cross_street,PENLLYN AVENUE,,,,,,(return)
+resident,PENLLYN AVENUE,37,,,E. J. Rose,lino operator
+resident,PENLLYN AVENUE,35,,,Wyndham E. Sansom,,
+resident,PENLLYN AVENUE,33,,,Frank Grandin,G.W.R.
+resident,PENLLYN AVENUE,31,,,John R. Gamble,wgts. ins
+resident,PENLLYN AVENUE,29,,,Mrs. M. Humphries,,
+resident,PENLLYN AVENUE,27,,,Jas. Williams,moulder
+resident,PENLLYN AVENUE,25,,,Mrs. Maria Marshall,,
+resident,PENLLYN AVENUE,23,,,Ernest F. Brown,,
+resident,PENLLYN AVENUE,21,,,Jos. Barber,mason
+resident,PENLLYN AVENUE,19,,,Christopher Williams,,
+resident,PENLLYN AVENUE,17,,,Stanley Thos. Brown,,
+resident,PENLLYN AVENUE,15,,,J. Lloyd Jones,manager
+resident,PENLLYN AVENUE,13,,,Mrs. Angelina Smith,,
+resident,PENLLYN AVENUE,11,,,William Childs,gardener
+resident,PENLLYN AVENUE,9,,,Herbert R. Rhys,,
+resident,PENLLYN AVENUE,7,,,William Morgan,,
+resident,PENLLYN AVENUE,5,,,George Skeldon,,
+resident,PENLLYN AVENUE,3,,,William J. Sambrook,,
+resident,PENLLYN AVENUE,1A,,,F. J. Jenkins,watchmkr
+resident,PENLLYN AVENUE,1,Penllyn stors,Mrs. A. Jones,,
+resident,PENLLYN AVENUE,,,H. & Sons Davis,sculptors
+street,PENROSE STREET.,,,,,,C 3
+resident,PENROSE STREET,,,,,,Off Caerleon-road
+street,PENTONVILLE.,,,,,,C 4
+resident,PENTONVILLE,,,,,,From Mill-street
+cross_street,PENTONVILLE,,,,,,(LEFT HAND SIDE.)
+resident,PENTONVILLE,2,Ottery v,A. G. Roy,,
+resident,PENTONVILLE,3,Kingscott,W. M. Madge,,
+resident,PENTONVILLE,4,Torres v,Mrs. E. M. Burge,,
+resident,PENTONVILLE,5,Coombe,Mrs. E. Jones,,
+resident,PENTONVILLE,6,Belnie,E. A. Charles,,
+resident,PENTONVILLE,7,Silverton,Mrs. L. Seidler,,
+resident,PENTONVILLE,8,Gwynfa,,,
+cross_street,PENTONVILLE,,,,,,here is Gold-tops
+resident,PENTONVILLE,,,Tredegar Estate office—J. I. Storrar,agent (town estate)
+resident,PENTONVILLE,,,L. Foster Stedman,agent (agricultural estate)
+resident,PENTONVILLE,,,J. F. Groves,architect
+resident,PENTONVILLE,,,P. W. Mitchell,accountant
+resident,PENTONVILLE,9,COUNTY HALL—Thomas Hughes,clerk,,
+resident,PENTONVILLE,,,S. A. Bennett, A.M.I.C.E., County surveyor,,
+resident,PENTONVILLE,,,County Health Department—Dr. Rocyn Jones, medical officer,,
+resident,PENTONVILLE,,,County Accountant—P. H. Stafford,,
+resident,PENTONVILLE,,,Local Taxation Department—T. S. Butterworth,,
+resident,PENTONVILLE,,,County Land Agent—A. Every-Clayton,,
+resident,PENTONVILLE,,,Inspector under Shops Act—F. E. B. Haynes,,
+resident,PENTONVILLE,,,Chas. Dauncey, secretary to County Education Committee and Caerleon Training College,,
+resident,PENTONVILLE,,,T. G. James, director of Education,,
+resident,PENTONVILLE,,,John Bain, F.R.I.B.A., architect to County Education Committee,,
+resident,PENTONVILLE,,,F. Hiscott, Education Finance Clerk,,
+resident,PENTONVILLE,,,Mining Dept.--D. Brynmor Morgan, B.SC., director,,
+resident,PENTONVILLE,,,COUNTY POLICE STATION—Insp Albert Powell, Station house,,
+cross_street,PENTONVILLE,,,,,,here is Queen's-hill
+resident,PENTONVILLE,10,,,T. J. Kenure,milliner
+resident,PENTONVILLE,10A,,,P. Smith,hairdresser
+resident,PENTONVILLE,11,,,Wm. James,greengrocer
+resident,PENTONVILLE,12,,,Geo. P. Thomas,,
+resident,PENTONVILLE,13,,,T. W. J. Tamplin,bootmaker
+resident,PENTONVILLE,14,,,Foster & Baker,newsagts and tobacconists
+resident,PENTONVILLE,15,,,Mrs. Catherina Thomas,,
+resident,PENTONVILLE,16,,,Tom Smith,,
+resident,PENTONVILLE,17,The Lindens,Mrs. H. W. Morrish,,
+resident,PENTONVILLE,18,Eccleston,C. H. Thomas,,
+street,PENYLAN PARK.,,,,,,D 2
+resident,PENYLAN PARK,,,,,,Left-hand side Chepstow-road near Cross Hands
+cross_street,PENYLAN PARK,,,,,,(return)
+street,PHILLIP STREET.,,,,,,D 3
+resident,PHILLIP STREET,,,,,,From Wharf-road
+resident,PHILLIP STREET,1,,,Mrs. E. M. Stevens,,
+resident,PHILLIP STREET,2,,,John Green,labourer
+resident,PHILLIP STREET,3,,,John Clarke,labourer
+resident,PHILLIP STREET,4,,,William Vick,labourer
+resident,PHILLIP STREET,5,,,W. J. Cooper,shearer
+resident,PHILLIP STREET,6,,,John Haswell,labourer
+resident,PHILLIP STREET,7,,,Arthur Haswell,moulder
+resident,PHILLIP STREET,8,,,Victor E. Lane,,
+resident,PHILLIP STREET,9,,,Thos. Hood,moulder
+resident,PHILLIP STREET,10,,,A. A. Allsopp,railwayma
+resident,PHILLIP STREET,11,,,F. H. Harwood,porter

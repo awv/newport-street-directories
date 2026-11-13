@@ -1,0 +1,163 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,PROBERT PLACE,,,,,,126 Chepstow-road to Glebe-st.
+street,PROSPECT STREET,,,,,,B 4 Malpas-road to Redland-street
+cross_street,PROSPECT STREET,,,,,,(LEFT HAND SIDE.)
+resident,PROSPECT STREET,1,,,Whittaker & Son,,carptrs
+resident,PROSPECT STREET,1,,,Whittaker Jos.,,builder
+resident,PROSPECT STREET,2,,,Smith Hy. Geo.,,hairdressr
+resident,PROSPECT STREET,3,,,Price Mrs. Ann,,
+resident,PROSPECT STREET,4,,,Coles Rd. George,,p.o.
+resident,PROSPECT STREET,5,,,Bennett Fred.,,bandsman
+resident,PROSPECT STREET,6,,,Sampson John Jas.,,stoker
+resident,PROSPECT STREET,7,,,Robinson Miss Charlotte,,
+cross_street,PROSPECT STREET,,,,,,(return)
+resident,PROSPECT STREET,8,,,Browning Geo.,,carpenter
+resident,PROSPECT STREET,9,,,Brown Frank,,glass wkr
+resident,PROSPECT STREET,10,,,Bennett Wm. J.,,bricklayr
+resident,PROSPECT STREET,11,,,Ford Charles,,fireman
+resident,PROSPECT STREET,12,,,Blackwell Hy. Herbert,,wood turner
+resident,PROSPECT STREET,23,,,Jones James,,labourer
+resident,PROSPECT STREET,24,,,Woodruff Samuel,,
+resident,PROSPECT STREET,25,,,Ford Henry Jas.,,G.W.R.
+resident,PROSPECT STREET,26,,,Norville George,,haulier
+resident,PROSPECT STREET,27,,,Wilkins John R.,,bricklyr
+resident,PROSPECT STREET,28,,,Malpas James,,signalman
+resident,PROSPECT STREET,29,,,Watts Jas.,,labourer
+resident,PROSPECT STREET,30,,,Wright Albt. Thos.,,G.W.R.
+resident,PROSPECT STREET,,,Perry Jos.,,O. dock labourer
+resident,PROSPECT STREET,31,,,Williams John,,labourer
+resident,PROSPECT STREET,32,,,Charles Thomas,,smith
+resident,PROSPECT STREET,33,,,Charles John,,builder
+cross_street,PROSPECT STREET,,,,,,here is Shaftesbury-park
+resident,PROSPECT STREET,22,Monteville,,Hill Hopkin,,
+resident,PROSPECT STREET,24,,,Iggulden Stephen,,
+resident,PROSPECT STREET,26,,,Jones George,,
+resident,PROSPECT STREET,28,Creswell,,Victory Wm.,,
+resident,PROSPECT STREET,30,,,Day James Hy.,,
+resident,PROSPECT STREET,32,Avondale,,Davies Richard,,
+resident,PROSPECT STREET,34,Birkdale,,Collins Francis,,
+resident,PROSPECT STREET,36,,,Void,,
+resident,PROSPECT STREET,38,Melville ho,,Wring E. C.,,
+resident,PROSPECT STREET,40,Lyncomb,,Darke J. D.,,
+resident,PROSPECT STREET,42,Leaholme,,Neville Mrs. A.,,
+resident,PROSPECT STREET,44,Dartington,,Morley Hy.,,
+resident,PROSPECT STREET,46,St. Helens,,Huggett Mrs. S.,,
+cross_street,PROSPECT STREET,,,,,,here is Lucas-street
+resident,PROSPECT STREET,48,,,Buckley Mrs. Elizabeth,,
+resident,PROSPECT STREET,50,,,Morkham Miss,,
+resident,PROSPECT STREET,52,,,Bull George B.,,
+resident,PROSPECT STREET,54,,,Jacobs Bertram,,
+street,PROVIDENDE PLACE,,,,,,D 5 From 11 North-street
+resident,PROVIDENDE PLACE,1,,,Vaughan Ivor,,labourer
+resident,PROVIDENDE PLACE,2,,,Regan —,,
+resident,PROVIDENDE PLACE,3,,,Sheedy Augustine Jos.,,
+resident,PROVIDENDE PLACE,4,,,Paul Daniel,,labourer
+resident,PROVIDENDE PLACE,5,,,Summers Wm. N.,,labr
+resident,PROVIDENDE PLACE,6,,,Christopher Mrs. E. M.,,
+resident,PROVIDENDE PLACE,7,,,White Harry,,painter
+resident,PROVIDENDE PLACE,8,,,Smith James,,labourer
+resident,PROVIDENDE PLACE,9,,,Horton Timothy,,labourer
+resident,PROVIDENDE PLACE,10,,,Firth Wm.,,motor driver
+street,PUGSLEY STREET,,,,,,C 4 From Wyndham-st., Marshes
+resident,PUGSLEY STREET,,Newport Rowing Club Boat-house,,,,
+resident,PUGSLEY STREET,1,,,Bees A. E.,,bootmaker
+resident,PUGSLEY STREET,2,,,Roach Charles,,carpenter
+resident,PUGSLEY STREET,3,,,Pretty Geo.,,Alfred
+resident,PUGSLEY STREET,4,,,Martin James,,gardener
+resident,PUGSLEY STREET,5,,,Fowler Alfred,,painter
+resident,PUGSLEY STREET,6,,,Palmer Oliver,,yard man
+resident,PUGSLEY STREET,7,,,Walters Wm.,,irondressr
+resident,PUGSLEY STREET,8,,,Robinson George,,seaman
+cross_street,PUGSLEY STREET,,,,,,here is Hoskins-street
+resident,PUGSLEY STREET,9,,,Burston Frank,,
+resident,PUGSLEY STREET,10,,,Harris John,,
+resident,PUGSLEY STREET,11,,,Perry Thomas,,foreman
+resident,PUGSLEY STREET,12,,,Lippiatt Charles,,guard
+resident,PUGSLEY STREET,13,,,White James,,
+resident,PUGSLEY STREET,14,,,Baker Charles,,G.W.R.
+resident,PUGSLEY STREET,15,,,Limbrick Geo.,,belt maker
+resident,PUGSLEY STREET,16,,,White Wm.,,fish dealer
+cross_street,PUGSLEY STREET,,,,,,here is Wheeler-street
+resident,PUGSLEY STREET,17,,,Bennett John,,blacksmith
+resident,PUGSLEY STREET,18,,,Dinham Henry,,labourer
+resident,PUGSLEY STREET,19,,,Major R. H. W.,,sailmaker
+resident,PUGSLEY STREET,20,,,Read Chas.,,Ed. labourer
+resident,PUGSLEY STREET,21,,,Callaway Thomas,,H.M.C.
+resident,PUGSLEY STREET,22,,,Phillips David J.,,haulier
+street,PUMP STREET,,,,,,D 5 From North-street
+cross_street,PUMP STREET,,,,,,(LEFT HAND SIDE.)
+resident,PUMP STREET,,,,Phillips Charles,,stores
+resident,PUMP STREET,,,,Baldwin Henry,,
+street,QUEEN'S BUILDINGS,,,,,,Nos. 1-6 Baneswell-road
+street,QUEEN'S CHAMBERS,,,,,,See No. 41 High-street
+street,QUEEN'S HILL,,,,,,C 5 10 Mill-street to Dos-road
+cross_street,QUEEN'S HILL,,,,,,(LEFT HAND SIDE.)
+resident,QUEEN'S HILL,,,County Police Court,,,
+resident,QUEEN'S HILL,,,Guardians' Offices,,,OUT-DOOR DISPENSARY
+resident,QUEEN'S HILL,5,Veronica,,Dight Henry,,
+resident,QUEEN'S HILL,7,Grasmere,,Halford H. J.,,
+resident,QUEEN'S HILL,9,Pendr,,Enstone Ralph T.,,
+resident,QUEEN'S HILL,,,INTERMEDIATE SCHOOLS,,,
+resident,QUEEN'S HILL,,,ROMAN CATHOLIC SCHOOLS,,,
+resident,QUEEN'S HILL,11,,,Taylor E. W.,,
+resident,QUEEN'S HILL,13,Ascot,,Boshier Mrs. F. T.,,
+resident,QUEEN'S HILL,15,Highbury,,Linton John,,
+resident,QUEEN'S HILL,17,,,Harris John Henry,,
+resident,QUEEN'S HILL,19,,,Armstrong Herbert,,
+resident,QUEEN'S HILL,21,Endellion,,Throssel H. J.,,
+resident,QUEEN'S HILL,,,GIRLS' EVENING HOME,,,
+cross_street,QUEEN'S HILL,,,,,,(RIGHT HAND SIDE.)
+resident,QUEEN'S HILL,2,Glantawe,,Lewis David,,
+resident,QUEEN'S HILL,,shop,,Hadden Mrs. E. A.,,
+resident,QUEEN'S HILL,4,Tekoa,,Parsons Edwin,,
+resident,QUEEN'S HILL,,,Holder & Dewberry,,bldrs
+resident,QUEEN'S HILL,6,Queen's hill cottage,,Dewberry Regd.,,
+resident,QUEEN'S HILL,8,Queen's hill house,,Barfoot Mrs. C. L.,,
+cross_street,QUEEN'S HILL,,,,,,here is Locke-street
+resident,QUEEN'S HILL,,,St. Mark's Sunday School,,,
+cross_street,QUEEN'S HILL,,,,,,QUEEN'S HILL TERRACE—
+resident,QUEEN'S HILL,10,Selwood,,Flook Henry,,
+resident,QUEEN'S HILL,12,Larkstone,,Thomas Wm.,,
+resident,QUEEN'S HILL,14,Penbury,,Evans Evan,,
+resident,QUEEN'S HILL,16,Pimperne,,Gwyther George E.,,
+resident,QUEEN'S HILL,18,,,Butler Zephaniah,,
+resident,QUEEN'S HILL,20,Greenfield,,Harris Francis,,
+cross_street,QUEEN'S HILL,,,,,,FACTORY COTTAGES
+resident,QUEEN'S HILL,25,,,Lewis Mrs. Clara,,
+resident,QUEEN'S HILL,26,,,Arbery John James,,
+resident,QUEEN'S HILL,27,,,Hayward Wm. Hy.,,roller
+resident,QUEEN'S HILL,28,,,Lippiatt Joseph,,factory
+resident,QUEEN'S HILL,29,,,Woodliffe Mrs. Jane,,
+resident,QUEEN'S HILL,30,,,Bowen Henry Thomas,,
+resident,QUEEN'S HILL,31,,,Smith Sydney,,factory
+resident,QUEEN'S HILL,32,,,Davies Joseph,,
+street,QUEEN STREET,,,,,,D 5 From 35 Cardiff-road
+resident,QUEEN STREET,1,,,Taylor Wm. Robt.,,eng. fitt'r
+resident,QUEEN STREET,3,,,Hockey Charles W.,,
+resident,QUEEN STREET,5,,,Cryer Edward,,
+cross_street,QUEEN STREET,,,,,,(return)
+resident,QUEEN STREET,12,King's vale,,Heard E. L. M.,,
+resident,QUEEN STREET,10,,,Jones John,,fitter
+resident,QUEEN STREET,8,,,Broad Chas. Hy.,,blrmkr
+resident,QUEEN STREET,6,,,Williams Thos. G.,,groom
+resident,QUEEN STREET,4,,,Nash Richard K.,,clerk
+resident,QUEEN STREET,2,,,Keefe Bros.,,hauliers
+resident,QUEEN STREET,,,Keefe Thomas,,
+street,RAGLAN STREET,,,,,,E 5 From 160 Commercial-road
+cross_street,RAGLAN STREET,,,,,,(LEFT HAND SIDE.)
+resident,RAGLAN STREET,1,,,Void,,
+resident,RAGLAN STREET,1,,,Lewis W.,,platelayer
+resident,RAGLAN STREET,2,,,Collins Mrs. N.,,dealer
+resident,QUEEN STREET,3,,,Worthy Mrs. Jane,,
+resident,RAGLAN STREET,4,,,Jones J. & Sons,,sign-writers, painters, etc.
+resident,RAGLAN STREET,,,,Jones Harry,,
+resident,RAGLAN STREET,5,,,Oldfield Thomas,,
+resident,RAGLAN STREET,6,,,Barnett John,,labourer
+resident,RAGLAN STREET,7,,,Burgess Wm.,,carpenter
+resident,RAGLAN STREET,8,,,Holland James,,labourer
+resident,RAGLAN STREET,9,,,Lanfear Mrs. Lucy,,
+resident,RAGLAN STREET,10,,,Broad Charles,,
+resident,RAGLAN STREET,11,,,James William,,labourer
+resident,RAGLAN STREET,12,,,Harbour W. C.,,labourer
+resident,RAGLAN STREET,13,,,Rees Frank,,water clerk
+resident,RAGLAN STREET,14,,,Green Arthur,,dock police

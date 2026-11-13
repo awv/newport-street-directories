@@ -1,0 +1,155 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,NELSON STREET,,,,,,
+resident,NELSON STREET,73,,Wm.,Marsden,butcher,
+resident,NELSON STREET,74,,Jno.,James,factory hand,
+resident,NELSON STREET,75,,Emma,Morgan,,
+street,New Street,,,,,,(from 125 Commercial road)
+resident,New Street,13,,Wm.,Richards,gen. shop,
+resident,New Street,14,,Mrs.,Long,shop,[Arms Foresters]
+resident,New Street,25,,Henry,Drayton,,
+street,New Ruperra Street,,,,,,(from 15 Ruperra street)
+resident,New Ruperra Street,,,Perfect,Matthews,,
+street,North Street,,,,,,(from Baneswell road to St. Mary street)
+cross_street,North Street,,,,,,CARLISLE PLACE.
+resident,North Street,1,,J.,Williams,carver & gldr,
+resident,North Street,2,,S.,Taylor,insurance agnt,
+resident,North Street,3,,M.,Wynberg,tram condtr,
+resident,North Street,4,,John,Phillips,clerk,
+resident,North Street,5,,A.,Williams,shop managr,
+cross_street,North Street,,,,,,here is Water's lane.
+resident,North Street,6,,Geo.,Briffett,signalman,
+resident,North Street,,,Mrs.,Briffett,dressmaker,
+resident,North Street,7,,Mrs,Goddard,,
+resident,North Street,8,,Thos.,Williams,shopman,
+resident,North Street,,,George,Jones,carpenter,
+cross_street,North Street,,,,,,here is Providence place.
+cross_street,North Street,,,,,,here is Havelock street.
+resident,North Street,,,Edwin,Day,butcher,
+cross_street,North Street,,,,,,(return)
+resident,North Street,,,T.,Meaker,,Talbot Inn
+resident,North Street,16,,W. G.,Wall,grocer,
+resident,North Street,17,,Joseph,Fowler,mechanic,
+resident,North Street,18,,H.,Deacon,shoemaker,
+resident,North Street,19,,Charles,Jones,cooper,
+resident,North Street,20,,John,Meaker,painter,
+resident,North Street,21,,Mrs,Baker,,
+resident,North Street,22,,Mrs Catherine,James,,
+resident,North Street,23,,Mrs M.,Barry,shopkeeper,
+resident,North Street,24,,Mrs Margaret,Vaughan,,
+resident,North Street,25,,Mrs Celia,Edwards,,
+resident,North Street,26,,Mrs Amelia,Morgan,,
+resident,North Street,27,,John,Casey,labourer,
+resident,North Street,28,,Jno.,Walton,shipwright,
+resident,North Street,29,,J.,Berrill,labourer,
+resident,North Street,30,,George,Gilbert,shoemaker,
+resident,North Street,31,,James,Banks,tailor,
+resident,North Street,32,,Francis,Miller,compositor,
+resident,North Street,33,,M.,Maloney,watchman,
+resident,North Street,34,,James,Prosser,labourer,
+resident,North Street,35,,Jno.,Wreford,carpenter,
+cross_street,North Street,,,,,,here is Union street.
+resident,North Street,36,,John,Bright,shopkeeper,
+resident,North Street,37,,George,Pearce,polisher,
+resident,North Street,38,,Edward,Bevan,groom,
+resident,North Street,39,,Mrs Margaret,Smith,,
+resident,North Street,40,,Mrs,Collard,,
+resident,North Street,41,,William,Donovan,tailor,
+resident,North Street,42,,Mary Jane,Francis,,
+resident,North Street,43,,John,Dowd,tailor,
+resident,North Street,44,,Jas,Morgan,factory hand,
+resident,North Street,45,,S.,Scard,corn warehouse,
+resident,North Street,46,,Edward,Anderson,tailor,
+resident,North Street,47,,Mrs,Dando,,
+resident,North Street,48,,Mrs Jane,Evans,,
+resident,North Street,49,,S.,Fussell,railway porter,
+resident,North Street,50,,Mrs,Morris,,
+resident,North Street,51,,S.,Scard,corn merchant,
+resident,North Street,,,H. P.,Bolt,offices,
+resident,North Street,,,,Tramway Co's,offices,
+street,Oak Terrace,,,,,,(from 7 Thomas street)
+resident,Oak Terrace,1,,Benj.,Stevens,foreman,
+resident,Oak Terrace,2,,Joseph,Hill,factory hand,
+resident,Oak Terrace,3,,F.,Morgan,cabdriver,
+resident,Oak Terrace,4,,A.,Horlock,signalman,
+resident,Oak Terrace,5,,George,Love,mason,
+resident,Oak Terrace,6,,G.,Tucker,engine driver,
+resident,Oak Terrace,7,,John,West,painter [man,
+resident,Oak Terrace,8,,John,Wheeler,machine,
+resident,Oak Terrace,9,,F.,Underdown,bandsman,
+street,Old Friars,,,,,,(From Corn street to Canal parade)
+resident,Old Friars,,,T. B. & S. & Co.,Batchelor,timber merchants,
+resident,Old Friars,,,G. B.,Oakley,,Ship & Castle
+resident,Old Friars,,,Henry,Hinton,haulier,
+street,Old Green,,,,,,(from 2 High st to Market st)
+resident,Old Green,1,,Saml.,Fry,,Kings Head tap
+resident,Old Green,2,,J.,De Rees,,Steam Packet
+resident,Old Green,3,,John,Mogford,labourer,
+resident,Old Green,4,,W. & Son,Jones,gen shop,
+cross_street,Old Green,,,,,,(return)
+resident,Old Green,,,,Sier & Shelley,monumental masons [wrights,
+resident,Old Green,,,,Batten & Pegler,wheel-,
+street,Oliver Square,,,,,,(from 16 Merchant street)
+street,Palmyra Place,,,,,,(from 103 Commercial street to Park place)
+resident,Palmyra Place,1,,Richard H.,Richards,,
+resident,Palmyra Place,2,,Theophilus J.,Beynon,,
+resident,Palmyra Place,3,,O. H.,Jennings,surgeon,Danybryn house
+resident,Palmyra Place,4,,R.,Alger,,Laughton house
+resident,Palmyra Place,5,,John,Linton,,
+cross_street,Palmyra Place,,,,,,(return)
+resident,Palmyra Place,,,F.,Primavesi,,King's hill
+resident,Palmyra Place,,,Thomas,Phillips,,
+street,Park Place,,,,,,(from Palmyra place)
+resident,Park Place,1,,J. F.,Faewkner,architect,
+resident,Park Place,2,,John R.,Jacob,,
+resident,Park Place,3,,John,Bullman,draper,
+resident,Park Place,4,,J. G.,Watts,,Park villa
+resident,Park Place,5,,Rev W.,Davies,,
+resident,Park Place,6,,Wm.,Budd,,Alma villa
+resident,Park Place,7,,J.,Rogers,,Malvern villa
+resident,Park Place,8,,C. D.,Phillips,,Richmond v
+resident,Park Place,9,,G. W.,Jones,,Roslyn house
+resident,Park Place,10,,C.,Lewis,,Thorntree house
+resident,Park Place,11,,R. F.,Woollett,M.D.,
+resident,Park Place,12,,Mrs,Webb,,Prospect villa
+resident,Park Place,13,,J.,Stephens,,Balmoral vil
+street,Park Street,,,,,,(Park place)
+resident,Park Street,1,,Captain David,Price,,
+resident,Park Street,2,,Mrs Sophia,Price,,
+resident,Park Street,3,,Charles,Lloyd,draper,
+resident,Park Street,4,,Peter,Horsey,,
+resident,Park Street,5,,H.,Tothill,analytcl chmst,
+resident,Park Street,6,,John,Neal,draper,
+resident,Park Street,7,,Miss Sarah,Bond,,
+resident,Park Street,8,,Mrs J. Felix,Thomas,,
+resident,Park Street,,,D. D.,Thomas,clerk,
+resident,Park Street,9,,William,Schofield,,
+resident,Park Street,10,,William,Jones,,
+resident,Park Street,11,,H.,Griffiths,coml trav,
+resident,Park Street,12,,Mrs Elizabeth,Chappell,,
+resident,Park Street,13,,Miss A.,Loyn,dressmaker,
+resident,Park Street,14,,Chas,Bruton,tea dealer,
+resident,Park Street,15,,Mrs William,Williams,,
+resident,Park Street,16,,Alfred,Williams,builder,
+resident,Park Street,17,,Wm,Williams,builder,
+street,Pentonville,,,,,,(from Mill st to Gold Tops)
+resident,Pentonville,1,,William,Powell,,
+resident,Pentonville,2,,George,Vickery,locksmth,
+resident,Pentonville,3,,Mrs,Leyson,,
+resident,Pentonville,4,,Mrs,Nicholas,widow,
+resident,Pentonville,5,,William,Morgan,packer,
+resident,Pentonville,6,,Mrs S.,Haskell,sempstress,
+resident,Pentonville,7,,J.,Griffiths,labourer,
+cross_street,Pentonville,,,,,,(return)
+resident,Pentonville,9,,J.,Buckingham,coachman,
+cross_street,Pentonville,,,,,,QUEEN'S HILL--
+resident,Pentonville,,,Charles,Blake,,
+resident,Pentonville,,,James,Gumm,farmer,
+resident,Pentonville,,,Ann,Jones,,
+resident,Pentonville,,,Thomas,Vaughan,florist,
+resident,Pentonville,11,,Mrs,Turner,widow,
+resident,Pentonville,12,,Joseph,Roberts,plasterer,
+resident,Pentonville,13,,J. R.,Carr,bill poster,
+resident,Pentonville,14,,John,Watkins,carpenter,
+resident,Pentonville,15,,Mrs Frances,Sambrook,,
+resident,Pentonville,16,,J.,Johnstone,shop,
+resident,Pentonville,17,,Henry,Sampson,,New Inn

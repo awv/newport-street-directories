@@ -1,0 +1,151 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Lyn,,,,,,
+resident,Lyn,38,,Thomas,Stevens,fireman,
+resident,Lyn,39,,John,Bevister,labourer,
+resident,Lyn,40,,Joseph,Stephens,stoker,
+resident,Lyn,41,,Oswin E.,Powell,smith,
+resident,Lyn,42,,H.,Jacobs,,
+resident,Lyn,43,,Edwd.,Davies,weighman,
+resident,Lyn,44,,John,Bell,machinist,
+resident,Lyn,45,,John,Lovelock,wheelwgt,
+resident,Lyn,46,,Albert,Cosh,,
+resident,Lyn,47,,Rd.,Richards,labourer,
+resident,Lyn,48,,E. G.,Holtham,painter,
+resident,Lyn,49,,Tom,England,gardener,
+resident,Lyn,50,,George,Meadows,ganger,
+resident,Lyn,51,,Abraham,Bennett,,
+resident,Lyn,52,,Charles,Hallett,mason,
+resident,Lyn,53,,Francis,Charles,gasfitter,
+resident,Lyn,,,MARSHES RD. BOARD SCHOOLS,,,
+street,Macarthy's Court.,,,,,,From 153 Commercial-street.
+resident,Macarthy's Court.,1,,John,Bryan,,
+resident,Macarthy's Court.,2,,W.,Jones,,Herbert, mason
+resident,Macarthy's Court.,3,,,,Void,
+resident,Macarthy's Court.,4,,Seth,Richards,shoemaker,
+resident,Macarthy's Court.,5,,John,Coughlan,labourer,
+resident,Macarthy's Court.,6,,Lawrence,McCarthy,lab'r,
+street,Maddox Close.,,,,,,See 25-32 Queen's-hill.
+street,Magor Street.,,,,,,[LEFT HAND SIDE.] Left-hand side Corporation-rd.
+resident,Magor Street.,,,,,,Vacant sites
+resident,Magor Street.,,,,Ernest,Gill,stocktaker,
+resident,Magor Street.,,,,Albert,Slater,furnaceman,
+resident,Magor Street.,,,,Joseph,Rowley,,Orb works
+resident,Magor Street.,,,,Joseph,Turner,do,
+resident,Magor Street.,,,,John,Bould,do,
+resident,Magor Street.,,,,Robert,Loveridge,do,
+cross_street,Magor Street,,,,,,(return.)
+resident,Magor Street.,,,,,,Vacant sites
+resident,Magor Street.,,,,Richard,Griffiths,furnacemn,
+resident,Magor Street.,,,,,,Bowden-, Orb works
+resident,Magor Street.,,,,Thos.,Boswell,engine driver,
+resident,Magor Street.,,,,Albert,Lane,,Orb works
+street,Maindee Parade, M.,,,,,,[RIGHT HAND SIDE.] From 130 Duckpool-road to Albert-avenue.
+resident,Maindee Parade, M.,1,,Andrew,Paul,roller,
+resident,Maindee Parade, M.,2,,George,Rossiter,,Dos wks
+resident,Maindee Parade, M.,3,,Fredk.,Crayford,tailor,
+resident,Maindee Parade, M.,4,,James,Berry,,School Board officer
+street,Malpas Road,,,,,,
+resident,Malpas Road,5,,Henry,White,labourer,
+resident,Malpas Road,6,,C.,Workman,seaman,
+resident,Malpas Road,7,,Wm.,Thomas,labourer,
+resident,Malpas Road,8,,Wm.,Probert,gardener,
+resident,Malpas Road,9,,Fred. W.,Howells,plast'r,
+resident,Malpas Road,10,,William,Clarke,smith,
+resident,Malpas Road,11,,Joseph,Turner,labourer,
+resident,Malpas Road,12,,Thomas,Tanner,painter,
+resident,Malpas Road,13,,,,Void,
+resident,Malpas Road,14,,Hy. T.,Ludlow,,G.W.R.
+cross_street,Malpas Road,,,,,,VICTORIA PLACE-
+resident,Malpas Road,15,,Uriah,Morgan,butcher,
+resident,Malpas Road,16,,Jos.,Lavis,engine driver,
+resident,Malpas Road,17,,Mrs.,Pyner,widow,
+resident,Malpas Road,18,,Arth.,Hill,warehouseman,
+cross_street,Malpas Road,,,,,,(return.)
+resident,Malpas Road,19,,Geo.,Brown,,linesmn tele.
+resident,Malpas Road,20,,Wm. Hy.,Broom,haulier,
+cross_street,Malpas Road,,,,,,DAWLISH PLACE-
+resident,Malpas Road,21,,Thos.,Lewis,coal shipper,
+resident,Malpas Road,22,,John A.,Williams,,teacher of music and organist
+resident,Malpas Road,23,,Charles,Voyce,labourer,
+resident,Malpas Road,24,,Frederick,Dyer,engineer,
+resident,Malpas Road,25,,David,Evans,clerk,
+resident,Malpas Road,26,,Higgs,Swinfield,,
+resident,Malpas Road,27,,John,Fifoot,carpenter,
+resident,Malpas Road,28,,A. F. P.,Hassall,accountant,
+resident,Malpas Road,29,,G.,Stedman,,Maindee nursery
+cross_street,Malpas Road,,,,,,SIDBURY TERRACE-
+resident,Malpas Road,30,,,,Void,
+resident,Malpas Road,31,,Fredk.,Matthews,haulier,
+resident,Malpas Road,32,,Alfred,Andrews,haulier,
+resident,Malpas Road,33,,Richard,Groves,painter,
+resident,Malpas Road,34,,Henry,Cox,,Vanstone cot
+resident,Malpas Road,35,,Wm.,Charles,wheelwright,
+resident,Malpas Road,36,,A.,Greenway,bricklayer,
+resident,Malpas Road,37,,Henry,Dunstan,George,
+resident,Malpas Road,38,,J. J.,Harper,dairyman,
+resident,Malpas Road,39,,Edgar W.,Williams,,Belmont cottage
+resident,Malpas Road,,,Hackett,,Thos. G.,comp.,
+resident,Malpas Road,40,,Alma-house,Void,,
+resident,Malpas Road,41,,Thos.,Hill,,Alcombe ho
+resident,Malpas Road,42,,R.,Wynn,cont'r,Roy vil
+resident,Malpas Road,43,,John,Hallett,,Norton cot
+resident,Malpas Road,44,,Miss,Williams,,Marlow cot
+resident,Malpas Road,45,,Frank,Richards,platelayr,
+resident,Malpas Road,7,,Wm.,Hayward,ironworkr,
+resident,Malpas Road,9,,James,Taylor,,Dos works
+resident,Malpas Road,11,,Henry,Vickery,John,
+resident,Malpas Road,13,,Charles,Colley,carpenter,
+resident,Malpas Road,15,,Charles,Ford,labourer,
+resident,Malpas Road,17,,William,Hallett,George,
+resident,Malpas Road,19,,John,Lee,bath attendant,
+resident,Malpas Road,21,,Mrs,Hooper,Emma,
+resident,Malpas Road,23,,William,Jones,painter,
+resident,Malpas Road,25,,R. J.,Reed,,
+resident,Malpas Road,27,,John,Campbell,confec'nr,
+resident,Malpas Road,29,,John,Jones,carpenter,
+resident,Malpas Road,31,,John,Lee,mason,
+resident,Malpas Road,33,,Mrs,Hopkins,Harriet,
+resident,Malpas Road,35,,John H.,Brown,,gas works
+resident,Malpas Road,37,,Edward,Hicks,agent,
+resident,Malpas Road,39,,F. R.,Price,,
+resident,Malpas Road,41,,Thomas,Morgan,,
+resident,Malpas Road,43,,& Whitrow,Boulter,coachbuilder,
+cross_street,Malpas Road,,,,,,here is Ross-street.
+resident,Malpas Road,45,,Frank,Drewett,police,
+resident,Malpas Road,47,,,,Unbuilt,
+resident,Malpas Road,49,,,,do,
+resident,Malpas Road,51,,Thomas,Powell,builder,
+resident,Malpas Road,53,,Richard,Lewis,greengcr,
+resident,Malpas Road,,,MALPAS ROAD HALL,,,Forward Movement
+resident,Malpas Road,55,,Mrs H.,Bower,shop,
+resident,Malpas Road,57,,Alex.,Jones,glass works,
+resident,Malpas Road,59,,Walter,Walker,clerk,
+resident,Malpas Road,61,,Wm.,Jeremiah,Watts,
+resident,Malpas Road,63,,Geo.,Cromwell,Sid. Geo. tailor
+resident,Malpas Road,65,,Herbt. E.,Jones,tinsmith,
+resident,Malpas Road,67,,G. W.,Armsbead,salesman,
+resident,Malpas Road,69,,Thos.,Weight,insur. agent
+resident,Malpas Road,71,,Henry,Cox,carpenter,
+resident,Malpas Road,73,,Edward,Lowe,labourer,
+resident,Malpas Road,75,,Joseph,Bishop,foreman,
+resident,Malpas Road,77,,Louis,Hormann,William,
+resident,Malpas Road,79,,Woodliffe,Henry,,
+resident,Malpas Road,81,,John,Miller,mason,
+resident,Malpas Road,83,,Charles,Williams,fitter,
+resident,Malpas Road,85,,Edgar,Hopkins,plumber,
+resident,Malpas Road,87,,Thomas,Ridd,postman,
+resident,Malpas Road,89,,Mark W.,Madge,agent,
+resident,Malpas Road,91,,John,Sweet,engneman,
+resident,Malpas Road,93,,Beniamss,Thomas,,
+resident,Malpas Road,95,,F.,Williams,electrician,
+resident,Malpas Road,97,,Mrs,Foster,Hannah,
+resident,Malpas Road,99,,,,Void,
+resident,Malpas Road,101,,Miss,Stonehouse,,
+resident,Malpas Road,103,,Philip,Price,,
+resident,Malpas Road,105,,J.,Stinchcombe,bootmkr,
+cross_street,Malpas Road,,,,,,here is Goodrich-street.
+resident,Malpas Road,107,,John,Moulton,tailor,
+street,Malpas Road.,,,,,,[LEFT HAND SIDE.] From Shaftesbury-street.
+resident,Malpas Road.,1,,H.,Reed,builder,
+resident,Malpas Road.,3,,Mrs E. S.,Eveleigh,,
+resident,Malpas Road.,5,,John H.,Wilkins,eng. dvr,

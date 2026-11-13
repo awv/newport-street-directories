@@ -1,0 +1,165 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,LLANVAPLEY ROAD,33,Craigston,Mrs. E.,Simmonds,,
+resident,LLANVAPLEY ROAD,31,Arvon,F. Herbert,Fry,,
+resident,LLANVAPLEY ROAD,29,Rydal,F. J.,Alger,,
+resident,LLANVAPLEY ROAD,27,,Mrs. Clara,Brownscombe,,
+resident,LLANVAPLEY ROAD,25,Trelawney,Harry S.,Kelly,,
+resident,LLANVAPLEY ROAD,23,Hazeldene,Mrs. Ida,Coward,,
+resident,LLANVAPLEY ROAD,21,Hollymount,George,Greenway,,
+resident,LLANVAPLEY ROAD,19,Tregenna,J.,Jeffs,,
+resident,LLANVAPLEY ROAD,17,Llanberis,Chas. J.,Evans,,
+resident,LLANVAPLEY ROAD,15,Kemble house,J. R.,Taylor,,
+resident,LLANVAPLEY ROAD,13,Sydington house,Arthur,Jacobs,,
+resident,LLANVAPLEY ROAD,11,Llanthewy house,Miss A.,Henry,,
+resident,LLANVAPLEY ROAD,9,Norton ho,C. A.,Willis,sec.,
+resident,LLANVAPLEY ROAD,7,Walton house,Mrs. E. J.,Jordan,,
+resident,LLANVAPLEY ROAD,5,Durlstone,John F.,Groves,architect,
+resident,LLANVAPLEY ROAD,3,Tadeta,Mrs. J.,Jacobs,,
+resident,LLANVAPLEY ROAD,1,,William,Samuels,,
+street,LLANVAIR ROAD,,,,,,C 4
+cross_street,LLANVAIR ROAD,,,,,,From East Usk-road
+cross_street,LLANVAIR ROAD,,,,,,(RIGHT HAND SIDE.)
+resident,LLANVAIR ROAD,2,,,Shackleford,gardener,H.
+resident,LLANVAIR ROAD,4,,W. J.,Morgan,haulier,
+resident,LLANVAIR ROAD,6,,Walter,Hill,rubberwkr,
+resident,LLANVAIR ROAD,8,,Charles,Coombs,Hy.
+resident,LLANVAIR ROAD,10,,T. A.,Saddler,clerk,
+resident,LLANVAIR ROAD,12,,Joseph,Romero,fireman,
+resident,LLANVAIR ROAD,14,,J. F.,Shepherd,G.W.R.,
+resident,LLANVAIR ROAD,16,,Jos. Owen,Lewis,painter,
+resident,LLANVAIR ROAD,18,,W.,Williams,boot repairer,
+resident,LLANVAIR ROAD,20-24,,F. C.,Parfitt,builder,,stores
+resident,LLANVAIR ROAD,,,John,Brown,,
+resident,LLANVAIR ROAD,26,,John,Davies,Hy., G.W.R.
+resident,LLANVAIR ROAD,28,,Robert,Shakesheff,G.W.R.
+resident,LLANVAIR ROAD,30,,Wm.,Chambers,ironwrkr,
+resident,LLANVAIR ROAD,32,,Wm. E.,Walkley,ironwrkr,
+resident,LLANVAIR ROAD,,,F. C.,Parfitt,builder's yd and workshops,
+resident,LLANVAIR ROAD,34,,Edgar,Thomas,labourer,
+resident,LLANVAIR ROAD,36,,Charles,Bird,motorman,William,
+resident,LLANVAIR ROAD,38,,Michael,Dacey,ironwkr,
+resident,LLANVAIR ROAD,40,,G. M.,Jones,transport wkr,
+resident,LLANVAIR ROAD,42,,Robert,Abbott,G.W.R.,
+resident,LLANVAIR ROAD,44,,Ernest Victor,Carter,dock labourer,D.
+resident,LLANVAIR ROAD,46,,G. H.,Merrick,eng driver,
+resident,LLANVAIR ROAD,48,,James Henry,Evans,,
+cross_street,LLANVAIR ROAD,,,,,,(return)
+resident,LLANVAIR ROAD,7,,W. W.,Davidson,police,
+resident,LLANVAIR ROAD,5,,Geo.,Houghton,labourer,
+resident,LLANVAIR ROAD,3,,Wm.,Holwell,labourer,
+resident,LLANVAIR ROAD,1,,Walter,Oliver,labourer,
+resident,LLANVAIR ROAD,,,S. Wales Brattice Cloth and India Rubber works,,,,
+street,LLANVAPLEY ROAD,,,,,,C 3
+cross_street,LLANVAPLEY ROAD,,,,,,From Constance-st., Caerleon-road
+street,LLANWERN STREET,,,,,,D 3
+cross_street,LLANWERN STREET,,,,,,From Corporation-road to Railway
+cross_street,LLANWERN STREET,,,,,,(RIGHT HAND SIDE.)
+resident,LLWERN STREET,11,,William,Littlejohn,cabinet mkr,
+resident,LLANWERN STREET,2,,F. G.,Shortland,shearer,
+resident,LLANWERN STREET,4,,Lloyd W.,Williams,lino operator,
+resident,LLANWERN STREET,6,,Mrs. Annie,Trew,,
+resident,LLANWERN STREET,8,,Edward,Dunlevie,,
+resident,LLANWERN STREET,10,,Alfd.,Williams,insurance agent,
+resident,LLANWERN STREET,12,,William,Ward,labourer,
+resident,LLANWERN STREET,14,,Thomas,Harvey,driver,
+resident,LLANWERN STREET,16,,Walter T.,Garraway,fitter,
+resident,LLANWERN STREET,18,,J. E.,Garvey,ironworker,
+resident,LLANWERN STREET,20,,John Henry,Corbett,,
+resident,LLANWERN STREET,22,,Henry,O'Shea,,
+resident,LLANWERN STREET,24,,Joseph,Inker,eng driver,
+resident,LLWERN STREET,26,,William,Houghton,painter,
+resident,LLANWERN STREET,28,,Nathan,Cohen,,
+resident,LLANWERN STREET,30,,George Albert,Thomas,,
+resident,LLANWERN STREET,32,,Edmund J.,Morgan,,
+resident,LLANWERN STREET,34,,Tom,Pitson,rivetter,
+resident,LLANWERN STREET,36,,Wm.,Walker,ironworker,
+resident,LLANWERN STREET,38,,John,Duff,mkt gardener,
+resident,LLANWERN STREET,40,,Mrs. Louisa,Burton,,
+resident,LLANWERN STREET,42,,Fredk.,Cook,chaffeur,
+resident,LLANWERN STREET,44,,Mrs. Mary,Pope,,
+resident,LLANWERN STREET,46,,Mrs. M. A.,Miller,,
+resident,LLANWERN STREET,48,,T. J.,Hawkins,blacksmith,
+resident,LLANWERN STREET,50,,George,Turnham,,
+resident,LLANWERN STREET,,,Richard Jas.,Henderson,,
+resident,LLANWERN STREET,52,,David,Brazell,ironworker,
+resident,LLANWERN STREET,54,,Ben R.,Isitt,accountant,
+resident,LLANWERN STREET,56,,Mrs. Agnes,Thomas,,
+resident,LLANWERN STREET,58,,John A.,Gettings,ironwkr,
+resident,LLANWERN STREET,60,,Alfred,Lane,ship steward,
+resident,LLANWERN STREET,62,,Arthur J.,Whitford,engnr,
+resident,LLANWERN STREET,64,,Lewis,James,shopwalker,
+resident,LLANWERN STREET,66,,Mrs. Annie,Edwards,,
+resident,LLANWERN STREET,68,,Sidney,Martin,ironworker,
+resident,LLANWERN STREET,70,,Arth. insp. G.W.R.,Wright,,
+cross_street,LLANWERN STREET,,,,,,(return)
+cross_street,LLANWERN STREET,,,,,,here is Methuen-road
+resident,LLANWERN STREET,,,Vacant sites,,,,
+resident,LLANWERN STREET,13,,Walter J.,Hallett,plumber,
+resident,LLANWERN STREET,11,,Fredk. J.,Drewett,G.W.R.,
+resident,LLANWERN STREET,9,,Mrs. Selina,Davies,,
+resident,LLANWERN STREET,7,,Henry,Shea,painter,
+resident,LLANWERN STREET,5,,Mrs. M.,Hollingdale,,
+cross_street,LLANWERN STREET,,,,,,here is Rugby-road
+resident,LLANWERN STREET,3,,A.,Williams,Sidney
+resident,LLANWERN STREET,3A,,R.,Pullin,electrician,
+resident,LLANWERN STREET,1,,Arthur,Bartlett,confectr,
+resident,LLANWERN STREET,,Victoria garage,,Knowlton Bros.,,
+street,LLEWELLIN STREET,,,,,,E 2
+cross_street,LLEWELLIN STREET,,,,,,From 26 Somerton-road
+cross_street,LLEWELLIN STREET,,,,,,(LEFT HAND SIDE.)
+resident,LLEWELLIN STREET,1,,John,Glover,ironworker,
+resident,LLEWELLIN STREET,3,,John,Williams,platelayer,
+resident,LLEWELLIN STREET,5,,Mrs. Mary,Poole,,
+resident,LLEWELLIN STREET,7,,Charles,Lloyd,ironworker,
+resident,LLEWELLIN STREET,9,,Thos. G.W.R.,Williams,,
+resident,LLEWELLIN STREET,11,,Mrs. Elizabeth A.,Ellis,,
+resident,LLEWELLIN STREET,13,,Harry S.,Brittle,roller,
+resident,LLEWELLIN STREET,15,,Wm. labourer,Sheppard,,
+resident,LLEWELLIN STREET,17,,Wm. Hy. gardener,Distin,,
+resident,LLEWELLIN STREET,19,,Eli,Dean,engine driver,
+resident,LLEWELLIN STREET,21,,Silas,Lockley,ironworker,
+cross_street,LLEWELLIN STREET,,,,,,(return)
+resident,LLEWELLIN STREET,24,,Wm.,Hall,cabinet mkr,
+resident,LLEWELLIN STREET,22,,Mrs. E.,Harris,,
+resident,LLEWELLIN STREET,20,,Francis J.,Bond,trimmer,
+resident,LLEWELLIN STREET,18,,Lewis,Thompson,fncemn,
+resident,LLEWELLIN STREET,16,,Ernest,Harris,platelayer,
+resident,LLEWELLIN STREET,14,,Frank,Donald,,
+resident,LLEWELLIN STREET,12,,Thomas,Savigar,rivet mkr,
+resident,LLWWELLIN STREET,10,,Joseph,Bennett,ironwkr,
+resident,LLEWELLIN STREET,8,,Mrs.,Ellis,,
+resident,LLEWELLIN STREET,6,,Chas. musician,Baldwin,,
+resident,LLEWELLIN STREET,4,,Alfred,Hunt,plasterer,
+resident,LLEWELLIN STREET,2,,Mrs. Hannah,Phillips,,
+street,LLOYD'S BANK CHAMBERS,,,,,,
+cross_street,LLOYD'S BANK CHAMBERS,,,,,,See Commercial-street
+street,LLOYD STREET,,,,,,F 2
+cross_street,LLOYD STREET,,,,,,From Somerton-road
+cross_street,LLOYD STREET,,,,,,(RIGHT HAND SIDE.)
+resident,LLOYD STREET,1,,Mrs. Mary Ann,Johnson,,
+resident,LLOYD STREET,3,,Frank,Taylor,ironwkr,
+resident,LLOYD STREET,5,,Raymond J. G.W.R.,Hooper,,
+resident,LLOYD STREET,7,,R. H.,Madge,labourer,
+resident,LLOYD STREET,9,,George,Little,ironworker,
+resident,LLOYD STREET,11,,Herbert,Jones,ironworker,
+resident,LLOYD STREET,13,,Henry Charles,Pitman,,
+cross_street,LLOYD STREET,,,,,,here is Ifton-street
+resident,LLOYD STREET,15A,,A. A.,Fisher,shop,
+resident,LLOYD STREET,15,,Mrs. Ann Elizabeth,Nihan,,
+resident,LLOYD STREET,17,,Mrs. M. J.,Pilsbury,,
+resident,LLOYD STREET,19,,Mrs. Mary,Hall,,
+resident,LLOYD STREET,21,,James,Hearn,platelayer,
+resident,LLOYD STREET,23,,Kenneth,Kennedy,seaman,
+resident,LLOYD STREET,25,,James,Davies,,
+resident,LLOYD STREET,27,,Thos. marker,Edwards,,
+resident,LLOYD STREET,29,,Mrs. Emma,Littlehales,,
+resident,LLOYD STREET,31,,Samuel,Rogers,ironwork'r,
+resident,LLOYD STREET,33,,Alfred,Jackson,do
+resident,LLOYD STREET,35,,Mark,Pope,do
+resident,LLOYD STREET,37,,Albert,Pearce,fireman,
+resident,LLOYD STREET,,,bottled beer stores,Whitbread & Co., Ltd.,,
+street,LLISWERRY ROAD,,,,,,F 2
+cross_street,LLISWERRY ROAD,,,,,,From Somerton-road
+cross_street,LLISWERRY ROAD,,,,,,(LEFT HAND SIDE)
+resident,LLISWERRY ROAD,,Brookfields,Ed. C. J.,Badger,,
+resident,LLISWERRY ROAD,,Killarney,Alfred,Clarke,,

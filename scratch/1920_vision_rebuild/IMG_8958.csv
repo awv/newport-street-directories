@@ -1,0 +1,171 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,BRISTOL STREET,,,,,,
+cross_street,BRISTOL STREET,,,,,,"Bristol Street—continued"
+resident,BRISTOL STREET,33,,,Jas. Henry,Walton,G.W.R.,
+resident,BRISTOL STREET,34,,,Mrs. G. H.,Riley,,
+resident,BRISTOL STREET,35,,,W. J.,Ford,draper's asst,
+resident,BRISTOL STREET,36,,,Wm.,Lavers,leather dresr,
+resident,BRISTOL STREET,37,,,Austin,Skuse,,
+resident,BRISTOL STREET,38,,,George,Watkins,G.W.R.,
+resident,BRISTOL STREET,39,,,James,Jenkins,painter,
+resident,BRISTOL STREET,40,,,Arthur T.,Rogers,plumber,
+cross_street,BRISTOL STREET,,,,,,"(return)"
+resident,BRISTOL STREET,42,,,Charles,Haslett,dredger-man,
+cross_street,BRISTOL STREET,,,,,,"here is London-street."
+resident,BRISTOL STREET,43A,,,Mrs. Mary,Porter,shop,
+resident,BRISTOL STREET,43,,,Jonathan,Hodges,foreman,
+resident,BRISTOL STREET,44,,,G.,Porter,engine driver,
+resident,BRISTOL STREET,45,,,Thos. John,Dingle,,
+resident,BRISTOL STREET,46,,,Geo. Hy.,Holley,labourer,
+resident,BRISTOL STREET,47,,,William,Owen,plasterer,
+resident,BRISTOL STREET,48,,,V. A.,Ballinger,G.W.R.,
+resident,BRISTOL STREET,49,,,Albert,Webb,engine dvr,
+resident,BRISTOL STREET,50,,,W. T.,Thomas,miner,
+resident,BRISTOL STREET,51,,,Stephen Henry,King,labr,
+resident,BRISTOL STREET,52,,,Mrs. Marie,Clark,,
+resident,BRISTOL STREET,53,,,Ed. G.,King,iron moulder,
+resident,BRISTOL STREET,54,,,Charles,Lewis,butcher,
+resident,BRISTOL STREET,55,,,James,Barnett,tailor,
+resident,BRISTOL STREET,56,,,John,Hunt,,
+resident,BRISTOL STREET,57,,,Thos. W.,Comley,labourer,
+resident,BRISTOL STREET,58,,,G.,Wilks,cab driver,
+resident,BRISTOL STREET,59,,,John,Corcoran,vanman,
+resident,BRISTOL STREET,60,,,Felix,Fencott,coachman,
+resident,BRISTOL STREET,61,,,W. C.,Givons,driver,
+cross_street,BRISTOL STREET,,,,,,"here is Hereford-street."
+resident,BRISTOL STREET,62,,,Victor,Gabica,dealer,
+resident,BRISTOL STREET,63,,,Mark,Gunstone,packer,
+resident,BRISTOL STREET,64,,,Edgar,Newberry,labourer,
+resident,BRISTOL STREET,65,,,John,Newberry,factory,
+resident,BRISTOL STREET,66,,,David,Elliott,mason,
+resident,BRISTOL STREET,67,,,William,Jones,labourer,
+resident,BRISTOL STREET,68,,,Philip,Porter,caretaker,
+resident,BRISTOL STREET,69,,,William,Morgan,smith,
+resident,BRISTOL STREET,70,,,Alf. Hy.,Rowe,linesman,
+resident,BRISTOL STREET,71,,,Wm. H.,Florida,labourer,
+resident,BRISTOL STREET,72,,,George,Fitzgerald,guard,
+resident,BRISTOL STREET,73,,,Mrs. M. C.,Baker,,
+resident,BRISTOL STREET,74,,,Walter J.,Warr,labourer,
+resident,BRISTOL STREET,75,,,John Hy.,Davey,bricklyr,
+resident,BRISTOL STREET,76,,,S.,Smith,warehouseman,
+street,BROAD STREET,E 4,,,,,
+cross_street,BROAD STREET,,,,,,"Frederick-st. to Portland-st."
+cross_street,BROAD STREET,,,,,,"(RIGHT HAND SIDE.)"
+resident,BROAD STREET,1,,,John,Bridge,labourer,
+resident,BROAD STREET,2,,,Francis A.,Bordessa,stwd,
+resident,BROAD STREET,3,,,Albert,Suller,,
+resident,BROAD STREET,4,,,John,Mahoney,dock labr,
+resident,BROAD STREET,,,"White & Jewell",,,wheel'hts,
+resident,BROAD STREET,5,,,Alf. J.,Romans,labourer,
+cross_street,BROAD STREET,,,,,,"(return)"
+resident,BROAD STREET,6,,,John, junr.,Bridge,labour'r,
+resident,BROAD STREET,7,,,James,Casey,,
+resident,BROAD STREET,8,,,Mrs. G.,Thomas,,
+street,BROADWELL GARDENS,D 5,,,,,See York-place.
+street,BRONWYSG ROAD,D 2,,,,,Off Woodland Park-rd.
+street,BROSELEY TERRACE,C 3,,,,,See Fairoak-avenue.
+street,BRUNEL STREET,F 5,,,,,
+cross_street,BRUNEL STREET,,,,,,"From Alexandra-road to Mill-parade."
+cross_street,BRUNEL STREET,,,,,,"(LEFT HAND SIDE.)"
+resident,BRUNEL STREET,32,,,John A.,Whatley,,
+resident,BRUNEL STREET,30,,,Mich.,Dahill,trimmer,
+resident,BRUNEL STREET,28,,,Mrs. Lucy,Leveson,,
+resident,BRUNEL STREET,26,,,Geo. Hy.,Burnett,engnr,
+resident,BRUNEL STREET,24,,,George Hall,Davies,labr.,
+resident,BRUNEL STREET,22,,,Fredk.,Thomas,machinist,
+resident,BRUNEL STREET,22A,,,George,Olliver,waterman,
+resident,BRUNEL STREET,20,,,William Henry,Taylor,,
+resident,BRUNEL STREET,18,,,Mordecai,Fisher,carpenter,
+resident,BRUNEL STREET,16,,,Oliver Lot,Watts,guard,
+resident,BRUNEL STREET,14,,,Fred.,Ball,engine driver,
+resident,BRUNEL STREET,13,,,Wm.,Edwards,pilotsman,
+resident,BRUNEL STREET,12,,,Jas.,Hood,chas. trimmer,
+resident,BRUNEL STREET,10,,,Robert,Crowley,manager,
+resident,BRUNEL STREET,8,,,Miss Annie,Williams,,
+resident,BRUNEL STREET,6,,,Edwd.,Irvine,trimmer,
+resident,BRUNEL STREET,4,,,Fredk.,Bright,trimmer,
+resident,BRUNEL STREET,2,,,Mrs. J. H.,Smith,,
+cross_street,BRUNEL STREET,,,,,,"(return)"
+resident,BRUNEL STREET,1,,,Jas.,Wyatt,coal trimmer,
+street,BRYNDERWEN ROAD,C 3,,,,,
+cross_street,BRYNDERWEN ROAD,,,,,,"From Victoria-avenue to Christchurch-road."
+cross_street,BRYNDERWEN ROAD,,,,,,"(LEFT HAND SIDE.)"
+resident,BRYNDERWEN ROAD,1,,,Mrs. M. E.,Houghton,,Gislingham
+resident,BRYNDERWEN ROAD,2,,,Francis W.,Johns,,
+resident,BRYNDERWEN ROAD,3,,,Charles,Johns,Pentwyn,
+resident,BRYNDERWEN ROAD,4,,,H. F.,Beardmore,,St. Faith's
+resident,BRYNDERWEN ROAD,5,,,E. S.,Davies,Braemont,
+resident,BRYNDERWEN ROAD,6,,,Alfd. H.,Wareham,,Pen-y-lan
+resident,BRYNDERWEN ROAD,7,,,—,Pyke,,Pen-y-graig
+resident,BRYNDERWEN ROAD,8,,,Miss E. Y.,Davies,Derwen,
+resident,BRYNDERWEN ROAD,9,,,E.,Jones,,Brynderwen Nursery
+cross_street,BRYNDERWEN ROAD,,,,,,"(return)"
+resident,BRYNDERWEN ROAD,16,,,Sidney B.,Hodgetts,,
+resident,BRYNDERWEN ROAD,17,,,Frank Edward,Atherton,,
+resident,BRYNDERWEN ROAD,18,,,Wm.,Nicholas,,
+resident,BRYNDERWEN ROAD,19,,,Hy.,Friend,police inspctr,
+resident,BRYNDERWEN ROAD,20,,,Ernest Henry,Dean,,
+resident,BRYNDERWEN ROAD,21,,,John Geo.,Reakes,grocer,
+resident,BRYNDERWEN ROAD,22,,,Edmund,Jones,gardener,
+resident,BRYNDERWEN ROAD,23,,,Alf. Ernest,Day,postman,
+resident,BRYNDERWEN ROAD,24,,,Thomas Henry,Giddings,,
+resident,BRYNDERWEN ROAD,25,,,Charles,Collard,joiner,
+resident,BRYNDERWEN ROAD,26,,,James G.,Bennett,,
+resident,BRYNGLAS AVENUE,27,,,Walter Charles,Cox,,
+resident,BRYNGLAS AVENUE,28,,,Jas. A.,Stark,postman,
+resident,BRYNGLAS AVENUE,29,,,Elias,Jones,,
+resident,BRYNGLAS AVENUE,30,,,Ralph,Studley,stoker,
+resident,BRYNGLAS AVENUE,31,,,Albert N.,Morgan,mason,
+resident,BRYNGLAS AVENUE,32,,,R. J.,Hackett,clerk,
+resident,BRYNGLAS AVENUE,33,,,Charles,Drummond,dyer,
+resident,BRYNGLAS AVENUE,34,,,Robt.,Jordan,cabinetmkr,
+resident,BRYNGLAS AVENUE,35,,,Mrs. F.,Wyatt,,
+resident,BRYNGLAS AVENUE,36,,,H. H.,Howell,,Sea view
+street,BRYNGLAS AVENUE,B 4,,,,,
+cross_street,BRYNGLAS AVENUE,,,,,,"From 114 Redland-street."
+cross_street,BRYNGLAS AVENUE,,,,,,"(RIGHT HAND SIDE.)"
+resident,BRYNGLAS AVENUE,2,,,Steven,Craze,,
+resident,BRYNGLAS AVENUE,4,,,Frederick,Kiff,police,
+resident,BRYNGLAS AVENUE,6,,,Alf. J.,Critchley,captain,
+resident,BRYNGLAS AVENUE,8,,,Dd,Edwards,G.W.R.,guard,
+resident,BRYNGLAS AVENUE,10,,,Mrs. M.,Wilkinson,,
+resident,BRYNGLAS AVENUE,12,,,W. T.,Ryder,clerk,
+resident,BRYNGLAS AVENUE,14,,,Alex.,Cole,painter,
+resident,BRYNGLAS AVENUE,16,,,F. James,Mayne,clerk,
+resident,BRYNGLAS AVENUE,18,,,Reg. Griff.,Jones,Shipping Federation official,
+resident,BRYNGLAS AVENUE,20,,,W. H.,Kimpton,hosier,
+resident,BRYNGLAS AVENUE,22,,,John,Franklin,,
+cross_street,BRYNGLAS AVENUE,,,,,,"(LEFT HAND SIDE.)"
+resident,BRYNGLAS AVENUE,9,,,R. E.,Copp,teacher,
+resident,BRYNGLAS AVENUE,7,,,H.,Whittaker,builder,
+resident,BRYNGLAS AVENUE,5,,,R. C.,Parsons,storekeeper,
+resident,BRYNGLAS AVENUE,,,,,,Vacant sites
+street,BRYNGLAS CRESCENT,B 4,,,,,
+cross_street,BRYNGLAS CRESCENT,,,,,,"Redland-street to Crindau-rd."
+cross_street,BRYNGLAS CRESCENT,,,,,,"(LEFT HAND SIDE.)"
+resident,BRYNGLAS CRESCENT,1,,,F. C.,Sanders,checker,
+resident,BRYNGLAS CRESCENT,3,,,Joseph W.,Young,tailor,
+resident,BRYNGLAS CRESCENT,5,,,Wm.,Goodwin,carpenter,
+resident,BRYNGLAS CRESCENT,7,,,Chas.,Perry,bottlemaker,
+resident,BRYNGLAS CRESCENT,9,,,Alf. Hy.,Young,foreman,
+resident,BRYNGLAS CRESCENT,11,,,Walter S.,Wilson,customs,
+resident,BRYNGLAS CRESCENT,13,,,Charles,Moore,grocer,
+resident,BRYNGLAS CRESCENT,15,,,Robert,Dawes,bottle blr,
+resident,BRYNGLAS CRESCENT,17,,,Walter,Miller,gen. shop,
+resident,BRYNGLAS CRESCENT,,,,,,Vacant sites
+cross_street,BRYNGLAS CRESCENT,,,,,,"(return)"
+resident,BRYNGLAS CRESCENT,12,,,Thomas,Bibby,seaman,
+resident,BRYNGLAS CRESCENT,10,,,Thomas,Tucker,painter,
+resident,BRYNGLAS CRESCENT,8,,,John,Hicks,tailor,
+resident,BRYNGLAS CRESCENT,6,,,Harold,Moss,G.W.R.,
+resident,BRYNGLAS CRESCENT,4,,,Edwd,Blackwell,journalist,
+resident,BRYNGLAS CRESCENT,2,,,,Void,
+street,BRYNGLAS ROAD,B 4,,,,,
+cross_street,BRYNGLAS ROAD,,,,,,"From Malpas-road."
+cross_street,BRYNGLAS ROAD,,,,,,"(RIGHT HAND SIDE.)"
+resident,BRYNGLAS ROAD,2,,,Caleb,Jenkins,,
+resident,BRYNGLAS ROAD,4,,,Wm. Geo.,Howells,ins. spt,
+resident,BRYNGLAS ROAD,6,,,Mrs. Elizabeth,Johnson,,Gwatkin Albert M.
+resident,BRYNGLAS ROAD,8,,,Mrs. M.,Jones,,
+cross_street,BRYNGLAS ROAD,,,,,,"here is Prospect-street."
+resident,BRYNGLAS ROAD,10,,,J. P.,Mclaren,M.B., C.M.,

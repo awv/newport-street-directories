@@ -1,0 +1,755 @@
+year	assigned_street	true_street	slice_start_idx	slice_end_idx	total_street_rows	span_rows	confirmed_resident_matches	house_number_span	sample_matches
+1924	St. Julian's Park	Caerleon Road	18	68	69	51	36	442..338	#442 Evans; #328 Price; #432 Howells; #428 Horton
+1902	Lennard Street	Lewis Street	63	109	109	47	33	44..92	#44 Penhale; #46 Smith; #48 Harding; #49 Mugford
+1971	Aberthaw Road	Acacia Avenue	83	126	127	44	31	138..32	#138 Keyes; #134 Jessop; #132 Chambers; #130 Shaw
+1924	Alfred Street	Alice Street	16	59	69	44	27	5..22	#5 H. John; #11 Spurrier; #17 Powell; #19 Dudderidge
+1900	Wrington Terrace	Queen's Place	12	43	65	32	24	81..98	#81 Francis; #82 Venn; #83 Basden; #85 Alker
+1898	James Street	Jeddo Street	27	57	74	31	22	96..36	#96 Myers; #94 Gough; #92 Douglas; #86 Powell
+1925	Sidbury Terrace	Malpas Road	18	44	44	27	21	73..121	#73 Swift; #75 Meredith; #79 Pratley; #81 Wilcox
+1903	Wrington Terrace	Victoria Avenue	32	53	53	22	20	79..100	#79 Thomas; #81 Hill; #82 Francis; #83 Venn
+1915	Conway Road	Corporation Road	71	99	104	29	19	211..131	#211 Wheeler; #81 Harris; #213 Beasley; #83 Gwynne
+1971	Acacia Avenue	Aberthaw Road	15	36	60	22	19	138..80	#138 Keyes; #134 Jessop; #132 Chambers; #130 Shaw
+1900	Queen's Hill	Raglan Street	9	29	47	21	17	76..96	#76 Ley; #77 Tooze; #78 Kear; #79 Gorvin
+1903	Market	Marion Street	76	100	109	25	16	97..129-130	#97 Coles; #98 Webb; #99 Locke; #100-101 Sayer
+1893	Brickyard Road	Carlisle Place	4	26	38	23	16	181..203	#181 Cope; #183 Davies; #184 Powell; #186 Truscott
+1902	Virgin Street	Corporation Road	2	22	25	21	14	246..184	#246 Jones; #240 Bowl; #236 Skuse; #208 Morris
+1900	Lawn Terrace	Upton Place	30	49	50	20	13	160..122	#160 Bevan; #154 Alker; #148 Simmonds; #146 Gray
+1910	Eveswell Park Road	Eveswell Street	4	22	45	19	13	4..22	#4 Verren; #5 Mrs; #7 Maunders; #8 Bradford
+1887	Junction Road	King's Parade	13	29	29	17	13	15..31	#15 Inns; #16 Dowling; #17 Macnamara; #18 Carroll
+1913	Fields Park Avenue	Feering Street	15	28	56	14	13	37..60	#37 Portsmouth Jas. gardener; #39 Morris Frank; #41 Taylor Rd. plasterer; #43 Williams Alfred
+1901	Lucas Street	Lyne Road	36	48	84	13	13	1..13	#1 BRANCH; #2 Deakin; #3 Vaughan; #4 Kemp
+1971	Acacia Avenue	Aberthaw Road	40	59	60	20	12	72..32	#72 Sadler; #66 Dudley; #60 Foster; #56 Kiely
+1920	Usk Street	Victoria Avenue	80	97	97	18	12	80..97	#80 Counsell; #82 Davies; #83 Venn; #85 Bray
+1903	South Market Street	Spencer Road	20	35	68	16	12	22..36	#22 Harris Mrs Annie; #23 Westbury H.G.stableman; #24 Edwards John, sawyer; #25 Nicholls David, striker
+1903	Spencer Road	South Market Street	6	21	21	16	12	22..36	#22 Harris Mrs Annie; #23 Westbury H.G.stableman; #24 Edwards John, sawyer; #25 Nicholls David, striker
+1887	East Street	Ebenezer Terrace	39	52	53	14	12	15..28	#15 Bryan; #16 Dacey; #17 Howard; #18 Donovan
+1898	James Street	Jeddo Street	61	74	74	14	12	28..2	#28 Wiltshire; #24 Norman; #22 Brister; #20 Bryant
+1902	Duke Street	Durham Road	1	16	17	16	11	195..112	#195 Howell; #197 Layton; #201 Riding; #202 Hughes
+1915	Slipway	Somerset Road	17	32	33	16	11	19..49	#19 Nutt; #23 Cock; #25 Whitton; #27 Bell
+1886	St. Mary Street	South Market Street	44	56	56	13	11	35..47	#35 Freeguard; #36 Baynham; #37 Rogers; #38 Haymer
+1898	Bryngwyn Road	Caerau Crescent	11	23	23	13	11	1..14	#1 Cullum; #2 Rainforth; #3 Webber; #4 Gibbons
+1924	Ombersley Road	Orchard Street	27	52	55	26	10	25..43	#25 Watt; #27 Birt; #29 Hobbs; #31 Chaplin
+1915	Tunnel Terrace	Upton Road	33	53	73	21	10	24..2	#24 Kicke; #22 Rendell; #20 Mitchell; #18 Cleverly
+1924	Hoskins Street	Ifton Street	68	87	157	20	10	1..21	#1 Satchell; #3 Bate; #5 Mound; #7 Tyrrell
+1913	Albert Terrace	Alexandra Road	33	48	50	16	10	35..5	#35 Dinan; #31 Rosser; #29 Isaac; #27 Fulton
+1910	Wilson Street	Windsor Terrace	14	29	31	16	10	3..17	#3 Frost; #6 Lovett; #7 Betterton; #8 Gower
+1898	Quiet Womans Row	Raglan Street	12	26	28	15	10	1..15	#1 Broad; #3 Worthy; #6 Keene; #7 Burgess
+1920	St. Julian Street	St. Mary Street	51	65	124	15	10	10..24	#10 Wall Mrs. Rose; #11 Hopkins Wm. J.; #12 Gay William; #14 Rees Thos. John
+1924	St. Mary Street	St. Julian Street	1	15	24	15	10	10A..24	#10A Wall Mrs. Rose; #11 Hopkins Wm. J.; #12 Gay William; #14 Rees Thos. John
+1920	Alexandra Docks	Alexandra Road	84	96	96	13	10	37..13	#37 Robertson; #35 Casey; #33 Griffin; #31 Rosser
+1900	Corporation Road	Shaftesbury Street	62	74	87	13	10	190..158	#190 Gay; #188 Robinson; #186 Fereday; #184 Cooper
+1924	Henson Street	Herbert Street	21	33	33	13	10	1..13	#1 Walters; #4 McLoughlin; #5 Trump; #6 Davidson
+1913	Seamoor Terrace	Duckpool Road	15	26	47	12	10	68..79	#68 Bate; #69 Evans; #70 Newbury; #72 Osmond
+1900	Moulders' Arms Terrace	Shaftesbury Street	3	14	66	12	10	124..100	#124 Horner; #118 Corbett; #116 Cavill; #114 Bush
+1899	Stow Hill	South Market Street	14	27	193	14	9	78..114	#78 Collett; #82 Harvey; #84 Brewer; #86 Brewer
+1878	Clytha Terrace	Commercial Road	31	43	45	13	9	145..158	#145 Collier; #148 Garland; #150 Sergent; #151 Hodges
+1924	Graham Street	Granville Street	58	70	70	13	9	1..13	#1 Goulding; #2 Millhouse; #5 Evans; #6 Vick
+1900	Lawn Terrace	Lewis Street	7	19	50	13	9	58..70	#58 Oldfield; #59 Fallows; #60 Betts; #63 Rose
+1903	Prospect Street	Queen's Hill	13	25	25	13	9	20..46	#20 Haskell; #28 Tyson; #30 Wring; #32 Darke
+1924	Bailey Street	Baldwin Street	1	12	12	12	9	28..2	#28 Corten; #26 Carter; #24 Baldwin; #22 Russell
+1913	Clytha Crescent	St. Mary's Road	45	56	60	12	9	21..31	#21 Frost; #22 Retreat; #23 Fisher; #24 Ellis
+1913	Feering Street	Fields Park Avenue	21	32	41	12	9	37..59	#37 Portsmouth Jas. gardener; #39 Morris Frank; #41 Taylor Rd. plasterer; #43 Williams Alfred
+1971	Japonica Close	Jeddo Street	20	30	43	11	9	77..97	#77 Hawkins; #79 Lane; #83 Barton; #85 Stevenson
+1893	Baldwin Street	Union Street	36	44	69	9	9	29..37	#29 Yendoll; #30 Boon; #31 Blake; #32 Regan
+1894	Union Street	Baldwin Street	2	10	52	9	9	30..37	#30 Boon; #29 Yendoll; #31 Blake; #32 Regan
+1920	Severn Terrace	Shaftesbury Street	7	15	15	9	9	192..176	#192 Moore; #190 Bolger; #188 Toomer; #186 Pugsley
+1903	Corporation Road	Virgin Street	112	120	142	9	9	200..184	#200 Roden; #198 Davey; #196 Humphrey; #194 Webb
+1893	Rutland Place	St. Edward Street	48	63	85	16	8	36..51	#36 Hooper; #39 Berry; #41 Purkis; #42 Bright
+1900	Evans Street	Eveswell Street	3	17	45	15	8	3..17	#3 Dowden; #5 Pitt; #7 Hockey; #8 Bradford
+1900	St. Mary Street	St. Julian Street	8	21	26	14	8	44..59	#44 Perry; #45 Ford; #48 Adams; #51 Kerslake
+1924	Bath Street	Chesterfield Street	38	51	51	14	8	76..104	#76 Hodson; #80 Flook; #82 Johnson; #88 Meredith
+1925	Chesterfield Street	Bath Street	2	15	15	14	8	76..104	#76 Hodson; #80 Flook; #82 Johnson; #88 Meredith
+1900	Commercial Street	Hill Street	105	117	151	13	8	13..25	#13 Barnes; #14 Hazell; #15 Russell; #17 Leng
+1925	Caerleon Road	Osborne Place	203	215	237	13	8	255..279	#255 Bolt; #261 Richards; #263 Charles; #265 Horton
+1894	Lansdowne Place	Commercial Road	3	15	36	13	8	188..197	#188 Burpitt; #189 Collard; #191 Brewer; #192 Robins
+1894	Carlisle Place	Brickyard Road	22	34	88	13	8	181..192	#181 Cope; #183 Davies; #184 Powell; #186 Truscott
+1902	Commercial Street	Alma Street	123	134	248	12	8	105..116	#105 Trigg; #107 Evans; #108 Evans; #110 Adams
+1898	Park Street	Phillip Street	7	18	37	12	8	7..18	#7 Westlake; #8 Olsen; #10 Willmott; #13 Shepstone
+1936	Queen's Hill	Queen's Hill Crescent	70	81	88	12	8	57..79	#57 Patterson; #59 Scott; #61 Hews; #63 Lively
+1920	Exeter Street	Fairoak Terrace	52	62	62	11	8	22..32	#22 Pearce; #23 Sweeting; #25 Matthews; #26 Stevens
+1920	Corelli Street	Corporation Road	6	16	22	11	8	211..237	#211 Wheeler; #213 Beasley; #215 Knight; #217 Edwards
+1927	Queen's Hill Crescent	Queen's Hill	19	29	41	11	8	57..79	#57 Patterson; #59 Scott; #61 Hews; #63 Lively
+1900	Granville Street	Halstead Street	46	55	121	10	8	33..51	#33 Moody; #35 Griffiths; #41 Lyons; #43 Mitchell
+1902	Queen's Hill	Prospect Street	9	18	26	10	8	28..46	#28 Tyson; #30 Wring; #32 Darke; #34 Neville
+1902	Lennard Street	Lewis Street	40	49	109	10	8	22..31	#22 Howells; #24 Hale; #26 Puncher; #27 Harding
+1920	St. Julian Street	St. Michael Street	76	84	124	9	8	1..17	#1 Phillips T. J.; #3 Collins John; #5 Fursey Richard; #9 Regan Thomas
+1924	Pentonville	Phillip Street	17	25	25	9	8	3..11	#3 Clarke; #4 Vick; #5 Cooper; #6 Haswell
+1924	St. Michael Street	St. Julian Street	1	9	9	9	8	1..17	#1 Phillips T. J.; #3 Collins John; #5 Fursey Richard; #9 Regan Thomas
+1894	Carlisle Place	Brickyard Road	38	45	88	8	8	196..203	#196 Waters; #197 Witchell; #198 Rees; #199 Orledge
+1903	Commercial Wharf	Constance Street	48	66	136	19	7	33..45	#33 Haddena.traffic; #35 Elliott; #37 Vonkleist; #39 Barefoot
+1920	Llanarth Street	Llanthewy Road	45	60	74	16	7	78..67	#78 Watkins; #82 Styles; #84 Buckingham; #88 Pobjoy
+1902	Victoria Avenue	Wrington Terrace	27	40	64	14	7	85..98	#85 Goldsworthy; #87 Mitchell; #90 Simpson; #91 Hicks
+1936	Malpas Road	Kimberley Terrace	85	98	406	14	7	5..19	#5 French; #6 Legge; #10 Hobbs; #13 Sharp
+1893	Moulders' Arms Terrace	Marshes Road	11	23	25	13	7	40..49	#40 Mathlin; #41 Payne; #43 Rudall; #44 Griffiths
+1924	Severn View	Shaftesbury Street	11	23	23	13	7	1..30	#1 Kelly; #13 Rosenberg; #17 Pearce; #21 Brown
+1903	Brynhyfryd Road	Caerleon Road	2	14	14	13	7	97..109	#97 Constance; #99 Witchell; #183 Meredith; #103 Whitehead
+1924	Arcadia Terrace	Morden Road	9	21	21	13	7	57..69	#57 Boulter; #60 Fussell; #61 Rodgers; #63 Courtenay
+1924	Henry Street	Hawarden Road	53	63	80	11	7	52..63	#52 Burke; #55 Tayne; #56 Friberg; #57 Barry
+1936	Oakley Street	Oak Street	55	65	67	11	7	26..6	#26 Masters; #24 Fulham; #18 Talbot; #14 Walpole
+1903	George Street	Gaskell Street	94	103	112	10	7	29..47	#29 Finch; #33 Fuller; #35 Mallow; #37 Magness
+1924	Hereford Street	Hawarden Road	14	23	78	10	7	93..102	#93 Dominy; #94 McCarthy; #96 Knight; #98 Wetter
+1902	Gaskell Street	George Street	22	31	66	10	7	29..47	#29 Finch; #33 Fuller; #35 Mallow; #37 Magness
+1893	Baldwin Street	Union Street	50	58	69	9	7	43..63	#43 Clark; #44 Ward; #58 Berry; #60 Spurrier
+1899	Chepstow Road	Providence Place	5	13	315	9	7	28..34	#28 Stacey; #29 Day; #30 Watts; #31 William
+1901	Gold Tops	Gordon Street	38	46	46	9	7	48..56	#48 Johnson; #50 Lewison; #51 Pirouet; #52 Stamp
+1971	Jeddo Street	Japonica Close	36	44	104	9	7	77..93	#77 Hawkins; #79 Lane; #83 Barton; #85 Stevenson
+1893	Winmill Street	Woodland Road	10	18	30	9	7	1..12	#1 Wrington; #2 Kessick; #7 Wyber; #8 Jordan
+1887	St. Mary Street	Speedwell Street	108	116	159	9	7	5..14	#5 Callaghan; #6 Emmens; #7 Dahill; #8 Mulcahy
+1913	Aberthaw Road	Adeline Street	8	16	16	9	7	50..75	#50 Chicken; #52 Gapper; #54 Burrows; #56 Hall
+1900	Llewellyn Street	Llanwern Street	1	9	17	9	7	1..17	#1 Pearce; #3 Cherrington; #7 Pearce; #9 Collingbourne
+1924	Graham Street	Granville Square	50	57	70	8	7	15..22	#15 Langdon; #16 Carlson; #17 Crocombe; #18 Miller
+1894	Carlisle Place	Brickyard Road	49	56	88	8	7	207..214	#207 Collins; #208 Saunders; #209 Davis; #210 Brinsmead
+1899	Orchard Street	Oxford Street	24	31	31	8	7	23..30	#23 Arthur; #24 Trew; #25 Redman; #27 Nethercott
+1893	Brickyard Road	Carlisle Place	30	37	38	8	7	207..214	#207 Collins; #208 Saunders; #209 Davis; #210 Brinsmead
+1920	Constable Drive	Conway Road	2	9	15	8	7	136..150	#136 Perry; #138 Preston; #140 Bowen; #142 Young
+1925	Radnor Road	Redland Street	83	90	107	8	7	50..36	#50 Reardon; #48 Yendall; #46 Thorne; #44 Rowlands
+1925	Chepstow Road	Kimberley Terrace	33	39	65	7	7	19..26	#19 Bell; #21 Jarvis; #22 Gregory; #23 Newell
+1894	Union Street	Baldwin Street	16	22	52	7	7	43..63	#43 Clark; #44 Ward; #58 Berry; #60 Spurrier
+1910	Dock Road	Dewstow Street	3	9	9	7	7	66..54	#66 Haywood R.; #64 Bunce William; #62 Knight Charles.; #60 Bradford Ed.
+1910	Dewstow Street	Dock Road	48	54	66	7	7	66..54	#66 Haywood R.; #64 Bunce William; #62 Knight Charles.; #60 Bradford Ed.
+1915	Griffin Street	Halstead Street	13	26	27	14	6	58..42	#58 Hawkins; #54 Waller; #52 Jones; #50 Smith
+1924	Upton Place	Chepstow Road	67	79	86	13	6	40..16	#40 Gunn; #34 Richards; #28 Buckner; #22 Hall
+1900	Liverpool Street	Livingstone Place	13	24	53	12	6	5..16	#5 Milner; #8 Stamp; #10 Webb; #12 Dowle
+1903	Bishton Street	Blewitt Street	39	50	90	12	6	21..26	#21 Lewis; #22 Hewinson; #23 Williams; #24 Lander
+1882	Jeddo Street	Raglan Street	54	64	87	11	6	34..44	#34 Meyrick; #36 Scantlebury; #37 Waite; #39 Johns
+1898	Nelson Street	Hewertson Street	26	36	58	11	6	51..61	#51 Blatchford; #52 Price; #55 Jennings; #57 Rowan
+1913	Dean Street	Dawley Street	9	19	32	11	6	25..35	#25 Griffiths; #28 Cousins; #29 Cole; #31 Tucker
+1895	Carlisle Place	Caerleon Road	71	81	113	11	6	84..66	#84 Davies; #82 Powell; #80 Vowles; #74 Griffiths
+1900	Queen's Hill	Raglan Street	37	47	47	11	6	104..114	#104 Gibbons; #106 Vescount; #107 Hewitt; #109 Young
+1903	Bishton Street	Blewitt Street	63	73	90	11	6	33..38	#33 Smith; #34 Biss; #35 Mrs; #36 Cook
+1924	Commercial Street	Dock Street	260	269	269	10	6	90..97	#90 James & Emanuel; #91 Priest; #93 Partridge; #95 Twist R. & Son
+1924	Llanarth Street	Llanthewy Road	36	45	46	10	6	27..9	#27 Bull George; #23 Mrs.Ida; #19 Jeffs; #17 Mrs. C.P.
+1925	Stow Hill	Alexandra Road	14	23	29	10	6	69..53	#69 Lawrence (Newport) Ltd; #67 Knowles; #65 Elliott; #63 Clarke
+1900	Adeline Street	Agincourt Street	12	21	47	10	6	31..31	#31 Wren; #33 Michael; #35 Gay; #39 Wheeler
+1913	Granville Street	Halstead Street	45	54	55	10	6	22..4	#22 Bettley; #16 Jones; #14 Haynes; #12 Hunt
+1927	Duckpool Road	Orchard Terrace	124	133	134	10	6	144..152	#144 Curtis; #146 Harris; #147 Lewis; #148 Cottrell
+1924	Lucas Street	Magor Street	27	36	46	10	6	94..68	#94 Mitchell; #92 Whild; #74 Phipps; #72 Mustoe
+1893	Usk Street	Victoria Avenue	47	56	56	10	6	19..29	#19 Kennard; #20 Brunt C. & Co; #22 Biggs; #25 Barrett
+1898	Lawn Terrace	Upton Place	20	29	44	10	6	190..174	#190 Lomas; #188 Farley; #186 Summers; #180 Howarth
+1900	St. Mary's Street	Commercial Road	76	85	85	10	6	21..30	#21 Syner; #22 Sutcliffe; #24 Ganner; #26 Lawton
+1925	Henson Street	Herbert Street	9	18	42	10	6	24..29	#24 Machray; #12 Tonkinson Wm; #25 Truscott; #27 Dunn
+1924	St. Julian's Park	Caerleon Road	4	13	69	10	6	464..452	#464 Ayliffe; #460 Rowe; #458 Dark; #456 Hanbury
+1900	Alma Street	Hill Street	83	91	91	9	6	3..11	#3 Shewring; #5 Ballhatchet; #6 Hill; #8 Wangler
+1878	Clytha Terrace	Commercial Road	18	26	45	9	6	130..139	#130 Tims; #133 Osborne; #134 Leonard; #135 Sanders
+1924	Price Street	Prince Street	88	96	104	9	6	20..26	#20 Holder; #22 Breen; #22B Higgs; #23 Jenkins
+1927	Collingwood Street	Fairoak Terrace	6	14	19	9	6	11..12	#11 Anstee; #23 Granville; #22 Heard; #20 Goodreid
+1925	Alexandra Docks	Commercial Road	61	68	71	8	6	58..72	#58 Parfitt; #60 Abraham; #62 Gregory; #66 Gapper
+1903	Blewitt Street	Bolt Street	72	79	83	8	6	28..36	#28 Seaman; #29 Butcher; #30 Irvine; #34 Jenkin
+1903	Caerau Road	Caerleon Road	83	90	90	8	6	223..231	#223 Curtis; #133 Fussell; #225 Hillier; #135 Swanton
+1913	Dean Street	Dawley Street	23	30	32	8	6	39..46	#39 Tidball; #40 Sheedy; #42 Pitts; #43 Macklin
+1886	Skinner Street	South Market Street	24	31	32	8	6	20..27	#20 Harris; #21 Hurley; #24 Scrivens; #25 Coxon
+1899	Duckpool Road	Seamoor Terrace	4	11	22	8	6	36..42	#36 Waite; #37 Hands; #38 Brunt; #39 Florida
+1899	Preston Avenue	Price Street	22	29	35	8	6	1..20	#1 Travers; #2 Broad; #3 Thomas; #4 Hall
+1915	Conway Road	Corporation Road	50	57	104	8	6	63..73	#63 Shearn; #189 Marshall; #65 Barrett; #191 Bickley
+1899	Caerleon Road	Osborne Place	69	75	88	7	6	283..295	#283 Davis; #287 West; #289 Pickett; #291 Abbott
+1924	Clifton Place	Clifton Road	27	33	34	7	6	5..11	#5 Jenkins; #6 Davies; #7 Beese; #8 Herbert
+1903	Dorset Place	Duckpool Terrace	2	8	8	7	6	84..90	#84 Cowling; #85 White; #86 Beckett; #88 Lippiatt
+1902	Duckpool Terrace	Dorset Place	5	11	13	7	6	84..90	#84 Cowling; #85 White; #86 Beckett; #88 Lippiatt
+1900	Liverpool Street	Livingstone Place	30	36	53	7	6	22..28	#22 Millington; #23 Welsher; #24 Leigh; #25 Thayer
+1900	Liverpool Street	Livingstone Place	40	46	53	7	6	32..38	#32 Passmore; #33 Lake; #34 Scriven; #35 Gonsalves Arcenio
+1913	Shaftesbury Street	Somerset Road	54	60	276	7	6	35..45	#35 Kerr; #35 Langland; #37 Narbett; #39 Robertson
+1927	Watchhouse Parade	Waterloo Road	16	21	22	6	6	31..36	#31 Thos; #32 Blower; #33 Warne; #34 Jenkins
+1894	Winmill Street	Woodland Road	23	28	28	6	6	58..64	#58 Morris; #60 Blatchley; #61 Phillips; #62 Humphrey
+1971	Mendalgief Road	Meon Close	45	50	102	6	6	5..15	#5 Laws; #7 Gibbons; #9 Buchanan; #11 Moulton
+1900	Queen's Hill Terrace	Queen's Hill	36	41	42	6	6	26..31	#26 Arbery; #27 Bowen; #28 Woodliffe; #29 Woodliffe
+1902	Coseley Street	Courtybella Street	24	29	29	6	6	23..28	#23 Donoghue; #24 Wilcox; #25 Sanders; #26 Humphrey
+1971	Meon Close	Mendalgief Road	3	8	28	6	6	5..15	#5 Laws; #7 Gibbons; #9 Buchanan; #11 Moulton
+1893	Archibald Street	Arlington Street	72	83	99	12	5	14..27	#14 Sysum; #17 Michael; #20 Cork; #23 Bates
+1924	Station Street	Stockton Road	10	20	41	11	5	64..80	#64 Jefferies; #72 Jones; #74 Dew; #78 Milton
+1925	Caerleon Road	Osborne Place	220	229	237	10	5	289..307	#289 Arthur; #293 Edwards; #299 Minett; #303 Algar
+1898	Jones Street	Junction Road	3	12	36	10	5	3..12	#3 Arnold; #4 Heaton; #6 Hancock; #9 Gale
+1886	Devon Place	Dock Parade	31	40	41	10	5	33..42	#33 Cheeseman; #36 Simmonds; #38 Duggan; #39 Arbour
+1910	Williams Street	Wilson Street	55	64	72	10	5	1..18	#1 Challingsworth; #5 Mulcahy; #11 Pitcher; #15 Mulcahy
+1902	Granville Street	Halstead Street	36	45	66	10	5	46..28	#46 Bunt; #40 Channon; #38 Coombs; #32 Dare
+1898	Stow Park Terrace	Stow Hill	1	10	180	10	5	143..131	#143 Keene; #139 Parsons; #137 Pearse; #133 Chivers
+1898	Stow Park Terrace	Stow Hill	20	29	180	10	5	105..91	#105 Bruce; #103 Partridge; #101 Morrin; #95 Brooks
+1924	Glebe Street	Godfrey Road	34	43	64	10	5	5..10	#5 Childs; #7 Maggs; #8 Gooding; #9 Purvis
+1903	Osborne Place	Caerleon Road	60	69	72	10	5	299..317	#299 Moses; #301 Jones; #307 Roberts; #313 Jenkins
+1924	Conway Road	Constance Street	9	18	89	10	5	49..46	#49 Coakham; #54a Daniels; #54 Llewellyn; #52 Vittle
+1927	Clytha Square	Coldra Road	21	29	35	9	5	24..40	#24 Rowe John; #26 Huntley; #30 Williams John; #36 Marks Frank
+1915	James Street	Jeddo Street	26	34	48	9	5	57..65	#57 Clarke; #59 Gwyer; #61 Davies; #63 Smith
+1886	St. Julian Street	St. Mary Street	33	41	54	9	5	45..53	#45 Nihan; #47 Merrick; #50 Marston; #52 Ross
+1925	Exeter Street	Fairfax Road	11	19	19	9	5	62..70	#62 French; #65 Franklyn; #66 Tarry; #67 Stanaway
+1925	Godfrey Road	Goodrich Crescent	54	62	63	9	5	18..4	#18 Wookey; #16 Haley; #12 Rackley; #6 Power
+1915	Shaftesbury Street	Somerset Road	224	232	236	9	5	53..61	#53 Walters; #55 Mizon; #57 Secombe; #59 Dunster
+1920	Walmer Road	Walsall Street	36	44	47	9	5	35..19	#35 Counsell; #33 Booth; #29 Bell; #25 Sparkes
+1925	Radnor Road	Raglan Street	48	56	107	9	5	53..61	#53 Essery; #55 Mattson; #58 Dunk; #60 Hackett
+1903	Baldwin Street	Bailey Street	21	28	74	8	5	65..81	#65 Nash; #67 Olsen; #69 Yeates; #73 Tolcher
+1898	Caerau Road	Caerleon Road	13	20	20	8	5	161..175	#161 Edwards; #163 Ventom; #165 Weston; #169 Bailey
+1920	Church Street	Church Road	1	8	81	8	5	70..77	#70 Stevens; #71 Lewis; #74 Berry; #76 Hallett
+1882	Corn Street	Commercial Street	2	9	27	8	5	18..24	#18 LeCouteur; #20 Stevens; #21 Whittaker; #22 Lynes
+1903	Orchard Terrace	ORCHARD Terrace— Durham Road	1	8	10	8	5	143..148	#143 Watts; #145 Lloyd; #146 Birt; #147 Holley
+1924	Christchurch Road	Chesterfield Street	23	30	61	8	5	58..72	#58 Kirby Mrs. Alice; #62 Jones John; #68 Meaker Sidney; #70 Codling Walter
+1902	Victoria Avenue	Wrington Terrace	6	13	64	8	5	60..67	#60 Harper; #61 Holbrook; #62 Evans; #64 Davey
+1902	Caerau Crescent	Caerleon Road	24	31	31	8	5	217..231	#217 Farquhar; #223 Curtis; #225 Hillier; #229 Woodgate
+1936	Rudry Street	Rose Street	11	18	35	8	5	16..23	#16 Francis; #18 Hoskins; #21 Stallard; #22 Waters
+1900	Emlyn Terrace	Emlyn Street	2	9	58	8	5	32..38	#32 Hart; #33 Twohig; #35 Anthony; #36 Richards
+1900	St. Mary's Street	Commercial Road	10	17	85	8	5	21..28	#21 Syner; #22 Sutcliffe; #24 Ganner; #26 Lawton
+1913	Chesterfield Street	Christchurch Road	12	19	28	8	5	58..72	#58 Kirby Mrs. Alice; #62 Jones John; #68 Meaker Sidney; #70 Codling Walter
+1920	Westville Road	Wharf Road	44	51	68	8	5	72..58	#72 Hurford; #64 Trigg; #62 Sheppard; #60 Wookey
+1878	Commercial Street	Corn Street	565	571	572	7	5	18..24	#18 LeCouteur; #20 Stevens; #21 Whittaker; #22 Lynes
+1901	Caerau Road	Bryngwyn Road	2	8	69	7	5	18..30	#18 Evan; #20 Hartley; #24 Kirby; #26 Ball
+1903	High Street	Skinner Street	128	134	148	7	5	3..7	#3 Lonnon; #4 Dawson; #6 Rennie; #6 Hillman
+1892	Union Street	Upper Alma Street	16	22	43	7	5	14..20	#14 Davey; #16 Clements; #17 Graves; #18 Monkleigh
+1890	Upper Alma Street	Union Street	16	22	79	7	5	14..20	#14 Davey; #16 Clements; #17 Graves; #18 Monkleigh
+1898	Downing Street	Seamoor Terrace	31	37	39	7	5	37..42	#37 Hands; #38 Brunt; #39 Florida; #41 Hathaway
+1915	King Road	Lambert Street	1	7	7	7	5	46..34	#46 Golledge; #40 Manning; #38 Bowman; #36 Walters
+1920	Westville Road	Wharf Road	61	67	68	7	5	38..24	#38 Hobbs; #34 Tripp; #28 Burrows; #26 Nicholas
+1902	Barrack Hill	Bank Street	10	15	39	6	5	134..144	#134 Holloway; #140 Newbery; #138 Robinson; #142 Sullivan
+1899	Bishopsgate Parade	Blewitt Street	17	22	22	6	5	45..50	#45 Oakley; #47 Hoskins; #48 Clark; #49 Hodge
+1900	Commercial Road	Stow Hill	416	421	451	6	5	26..31	#26 Herbert; #27 Henshaw; #28 Rainforth; #29 Handford
+1887	East Street	Ebenezer Terrace	30	35	53	6	5	6..11	#6 Keefe; #7 Chapman; #8 Cotter; #10 Cotter
+1971	East Usk Road	Eastmoor Road	34	39	110	6	5	5..17	#5 Force; #7 Tranter; #11 Morse; #15 Keen
+1903	Granville Street	Halstead Street	32	37	45	6	5	41..59	#41 Bynon; #43 Harrison; #47 Hurford; #49 Scaresbrook
+1915	Marion Street	Market	121	126	140	6	5	118..125	#118 Green; #120-1 Cooperstein; #122-3 Taylor W. J; #124 Jones S
+1893	Victoria Crescent	Victoria Place	42	47	47	6	5	13..14	#13 Skinner; #13 Skinner; #13 Skinner; #14 Gardner
+1903	Stow Park Terrace	Stow Hill	21	26	53	6	5	99..89	#99 Prosser; #97 Smith; #95 Pemberton; #91 Padget
+1920	Friars Street	Gaskell Street	26	31	31	6	5	16..2	#16 Lambert; #14 Trubshaw; #12 Alcock; #4 Dyer
+1924	Wharf Road	Westville Road	63	68	101	6	5	68..58	#68 Bolt; #66 Parry; #64 Trigg; #60 Wookey
+1903	Market	Marion Street	104	109	109	6	5	134-35..142	#134-35 Pell; #138-39 Bowden; #140 Baker; #141 Baker
+1903	Bank Street	Barrack Hill	30	35	35	6	5	134..144	#134 Holloway; #140 Newbery; #138 Robinson; #142 Sullivan
+1902	Liverpool Street	Livingstone Place	14	19	19	6	5	41..46	#41 Florida; #43 Jordan; #44 Watts; #45 Yeates
+1902	Gaskell Street	George Street	10	15	66	6	5	67..72	#67 O'Brien; #69 Neill; #70 Kelly; #71 Franklin
+1971	Harrow Road	Hargreaves Drive	18	23	49	6	5	14..6	#14 Hardy; #10 Knowlton's; #10 Knowlton; #8 Absolun
+1899	Shaftesbury Street	Moulders' Arms Terrace	88	93	108	6	5	126..116	#126 Ewins; #124 Horner; #120 Dingle; #118 Corbett
+1902	ORCHARD Terrace— Durham Road	Orchard Terrace	1	6	6	6	5	143..148	#143 Watts; #145 Lloyd; #146 Birt; #147 Holley
+1924	Walsall Street	Warwick Road	49	54	55	6	5	17..27	#17 Hindmarsh; #19 Davis; #23 Senior; #25 Hyett
+1924	Tyllwyd Road	Union Street	12	17	22	6	5	1..6	#1 Murray; #2 Daley; #4 Stanton; #5 Seignot
+1936	Park Crescent	Marlborough Road	28	33	33	6	5	44..34	#44 Nicholas; #40 Nixon; #38 Ryan; #36 Abbott
+1971	Eastmoor Road	East Usk Road	30	35	46	6	5	5..17	#5 Force; #7 Tranter; #11 Morse; #15 Keen
+1971	Hargreaves Drive	Harrow Road	28	33	36	6	5	14..6	#14 Hardy; #10 Knowlton's; #10 Knowlton; #8 Absolun
+1898	Chepstow Road	Providence Place	17	21	175	5	5	58..63	#58 Thomas; #59 Wiggett; #60 Ingram; #62 Pearce
+1925	Church Road	Corporation Road	238	242	276	5	5	281..289	#281 Jones; #283 Dunn; #285 Jones; #287 Haywood
+1936	High Street	Park Crescent	84	88	234	5	5	27..28	#27 Cecil & Co Ltd; #27A Style & Mantle Co; #28 Hall Edward & Sons; #28 The Stores
+1902	Powell's Place	Power Street	6	10	11	5	5	58..50	#58 Llewellin; #56 Connors; #54 Watkins; #52 Boddy
+1925	West Market Street	West Street	8	12	14	5	5	13..17	#13 Cage; #14 Grant; #15 Watkins; #16 Davies
+1903	Easton Place	Richmond Terrace	13	17	17	5	5	126..130	#126 Gale; #127 Granger; #128 Coward; #129 Sturley
+1902	Richmond Terrace	Easton Place	6	10	26	5	5	126..130	#126 Gale; #127 Granger; #128 Coward; #129 Sturley
+1903	Market	Marion Street	50	54	109	5	5	64-65..69	#64-65 Eastmans; #66 Woodley; #67 Taylor; #68 Sheppard
+1927	Hawarden Road	Hereford Street	80	84	86	5	5	26..30	#26 Rose; #27 Arthur; #28 Mrs; #29 Stevens
+1936	Park Crescent	High Street	10	14	33	5	5	27..28	#27 Cecil & Co Ltd; #27A Style & Mantle Co; #28 Hall Edward & Sons; #28 The Stores
+1886	Marshes Road	Wyndham Terrace	95	104	132	10	4	93..100	#93 Fox; #94 Pope; #97 Crotty; #100 Batten
+1902	Bank Street	Barrack Hill	18	27	51	10	4	51..18	#51 Hopkins; #6 Durston; #12 Mrs; #18 Hurn
+1903	Blewitt Street	Bolt Street	36	44	83	9	4	14..17	#14 Archer; #15 Daley; #16 Pullin; #17 Beecham
+1915	Caerleon Road	Carlisle Place	136	144	485	9	4	339..349	#339 Williams; #343 Kettle; #345 Butler; #349 Lawrence
+1887	Williams Street	Victoria Crescent	12	20	126	9	4	3..18	#3 Symonds; #5 Winmill; #6 Barton; #18 Spittle
+1899	Duckpool Road	Duckpool Terrace	14	22	22	9	4	82..85	#82 Amor; #84 Hayman; #85 Cleverley; #85 James
+1924	St. John's Road	St. Julian Street	3	11	64	9	4	14..18	#14 Corbett; #15 Benny; #17 Forster; #18 Evans
+1927	Windsor Road	Wilson Street	9	17	43	9	4	24..10	#24 Lowther; #20 Boore; #14 Stroud; #10 Shipton
+1927	Cornwall Road	Corelli Street	4	12	15	9	4	17..3	#17 Cogbill; #13 Styles; #5 Walliker; #3 Warboys
+1901	Belvedere Terrace	Bedford Road	23	30	55	8	4	27..39	#27 Nichol; #31 Summerfield; #37 Brown; #39 Monkley
+1898	Caerleon Road	Carlisle Place	103	110	136	8	4	82..68	#82 Powell; #80 Vowles; #74 Griffiths; #68 Matthews
+1924	Queen Street	Raglan Street	10	17	17	8	4	82..28	#82 Harris; #83 Coulson; #84 Cook; #28 Bretherton
+1900	Stow Hill	Stow Park Circus	34	41	124	8	4	19..31	#19 Filleul; #21 Howell; #25 Payne; #31 Cordey
+1899	Skinner Street	Moulders' Arms Terrace	19	26	28	8	4	12..19	#12 Vaughan W. E. & Co., Ltd., steam dyers; #13 Pooley H. & Son, Ltd., weighing machine mftrs; #14 Parnall R. & Co. millers and corn merchants; #19 Herbert
+1900	South Market Street	Somerset Road	32	39	41	8	4	31..49	#31 Gill; #33 Critchley; #43 Tanner; #49 Vick
+1886	Deri Wharf	Williams Street	1	8	11	8	4	43..47	#43 Wyer; #44 Graddon; #45 Richmond; #47 Rogers
+1915	Hereford Street	Hewertson Street	35	42	55	8	4	17..31	#17 Moseley; #19 Betts; #30 Wonfor; #31 Norvill
+1901	Coseley Street	Courtybella Terrace	28	35	67	8	4	1..12	#1 Cheffers; #2 Worthy; #5 Swift; #12 Shea
+1903	Portskewett Street	Portland Street	3	10	43	8	4	15..19	#15 Dresker; #17 Lowe; #18 Nash; #19 Danahar
+1900	Bilston Street	Bishton Street	20	27	43	8	4	39..61	#39 Canby; #43 Thomas; #47 Richards; #61 Cox
+1925	Emlyn Street	Eton Road	47	54	54	8	4	36..26	#36 Vivian; #32 Pugsley; #30 Rees; #26 Wigmore
+1924	Mansel Street	Maple Avenue	27	34	82	8	4	4..18	#4 Davies Benjamin; #10 Pocock A. E.; #14 Ratty Wm. H.; #18 Gunstone F. C.
+1920	Slade Street	Shaftesbury Street	14	21	24	8	4	3..11	#3 Manley; #7 Keen; #9 Brown; #11 Margerison
+1915	Albany Terrace	Pottery Terrace	10	17	19	8	4	3..9	#3 Upton; #6 Senior; #8 Picton; #9 Broughton
+1936	Westville Road	Wharf Road	30	37	93	8	4	41..53	#41 Edmunds; #45 Riddle; #49 Phillips; #53 Brend
+1936	Westville Road	Wharf Road	43	50	93	8	4	106..66	#106 Siviter; #102 Gill; #98 Bowen; #66 Parry
+1925	Maple Avenue	Mansel Street	2	9	19	8	4	4..18	#4 Davies Benjamin; #10 Pocock A. E; #14 Ratty Wm. H; #18 Gunstone F. C
+1903	Baldwin Street	Bailey Street	34	40	74	7	4	86..70	#86 Neil; #78 Welsh; #76 Phillips; #70 Crowley
+1900	Church Road	Commercial Road	6	12	13	7	4	36..42	#36 South; #37 Fry; #40 Courtney; #42 Osmond
+1901	David Street	Dean Street	43	49	71	7	4	21..27	#21 Dare; #24 Saviger; #26 Gerlach; #27 Shellard
+1895	Wyndham Terrace	Marshes Road	3	9	46	7	4	95..101	#95 Hazell; #97 Williams&Jordan; #100 Giles; #101 Fletcher
+1971	Powell's Place	Power Street	2	8	12	7	4	22..10	#22 Ryan; #20 Wilcox; #14 Lavis; #10 Needs
+1901	Railway Street	Redland Street	28	34	55	7	4	50..38	#50 Yendall; #44 Rowlands; #40 Bond; #38 Price
+1915	Stow Hill	Stow Park Gardens	134	140	142	7	4	29..36	#29 Handford T. L; #33 Moore A. Nichols; #34 Mollett Arthur R; #36 Gratte Alfred
+1894	Adeline Street	Adelaide Street	32	38	48	7	4	43..49	#43 Dunn; #44 Irvine; #46 Atkinson; #49 Hulbert
+1900	Granville Street	Halstead Street	36	42	121	7	4	11..23	#11 Selby; #15 Redman; #17 Rossitter; #23 Lee
+1901	Henry Street	Harrow Road	99	105	108	7	4	97..103	#97 Couch Joseph; #98 Longville Samuel; #101 Gilbert E. L.; #103 Parker Robert
+1893	Herbert Street	Gothic Villas	25	31	34	7	4	22..28	#22 Critchley; #25 Wilhelmsen; #26 Nicoli; #28 Emil
+1915	Power Street	Preston Avenue	33	39	87	7	4	7..13	#7 Shellard; #9 Mills; #11 Dodd; #13 John
+1887	Upper Raglan Street	Upper Williams Street	72	78	78	7	4	17..23	#17 George; #18 Barrett; #21 Symonds; #23 Street
+1927	Carlisle Place	Caerleon Road	58	64	94	7	4	464..454	#464 Ayliffe; #458 Dark; #456 Hanbury; #454 Woodfield
+1902	Manchester Street	Malpas Road	38	44	49	7	4	55..61	#55 Probert; #56 West; #59 Thomas; #61 Rowe
+1903	Constance Street	Commercial Street	8	14	55	7	4	170..171	#170 Evans; #169 Bevan; #170 Nelson; #171 Domestic
+1924	Hoskins Street	Ifton Street	108	114	157	7	4	10..4	#10 Cotterill; #8 Morrell; #6 Fernand; #4 Fallon
+1925	Morris Street	Mountjoy Road	45	51	51	7	4	1..7	#1 Budden; #3 Traynor; #6 Gore; #7 Dawes
+1910	Harrow Road	Henry Street	105	111	114	7	4	97..103	#97 Couch Joseph; #98 Longville Samuel; #101 Gilbert E. L.; #103 Parker Robert
+1910	Dawley Street	Dean Street	28	34	41	7	4	29..35	#29 Pitman; #31 Tucker; #34 Winnacott; #35 Denning
+1924	Auckland	Upton Place	1	7	18	7	4	116..106	#116 Home; #114 Bastick; #112 Woodgates; #106 Atherton
+1925	Commercial Street	Friars Street	295	300	337	6	4	16..26	#16 Waterworks; #18 Water Works; #22 Agland; #26 Weights & Measures
+1971	Caerleon Road	Caerau Road	2	7	621	6	4	39..45	#39 Holehouse; #42 Curson; #44 Cambridge; #45 Howard-Jones
+1890	Charles Street	Charlotte Street	12	17	25	6	4	7..11	#7 Nutt; #8 Jeffery; #9 Baiss; #11 Sparkes
+1925	Llanarth Street	Llanthewy Road	42	47	88	6	4	48..58	#48 Groves; #50 Bibby; #52 Vivian; #58 Roberts
+1924	Devon Place	Dewsland Park Road	106	111	151	6	4	70..5	#70 Dickenson; #20 Jenkins; #66 Wilks; #5 Swallow
+1900	Dock Street	Commercial Street	57	62	63	6	4	178..189	#178 Baker W. A. & Co. Ltd; #183 Phillips W. jeweller; #186 Gill T. S. leather merch; #189 Harris E. E. house furnisher
+1886	Dolphin Street	East Market Street	98	103	121	6	4	5..10	#5 Bettridge; #7 Rowe; #8 Shellard; #10 Merritt
+1887	East Market Street	Dolphin Street	1	6	12	6	4	5..10	#5 Bettridge; #7 Rowe; #8 Shellard; #10 Merritt
+1893	Hereford Place	Hereford Street	15	20	28	6	4	3..8	#3 Hamer; #4 Sergeant; #7 Dacey; #8 Batty
+1878	High Street	High Street, Pill	108	113	130	6	4	20..25	#20 Nicholls; #21 Foley; #24 Mulcahy; #25 Sullivan
+1878	Potter Street	Queen Street	9	14	14	6	4	10..15	#10 Pollard; #12 Tripp; #13 Hillier; #15 Hillier
+1900	Evans Street	Eveswell Street	29	34	45	6	4	29..34	#29 Crandon; #31 Birch George; #32 Stevens; #34 Bailey
+1900	Granville Street	Halstead Street	63	68	121	6	4	54..44	#54 Haley; #50 Hookway; #46 Burns; #44 Ralph
+1886	St. Julian Street	St. Mary Street	46	51	54	6	4	58..62	#58 Marshall; #59 Vaughan; #60 Collard; #62 Manship
+1936	Duckpool Road	Melton Terrace	101	106	152	6	4	94..98	#94 Dawkins; #95 Warry; #96 Thomas; #98 Huish
+1920	Carlisle Place	Oak Street	148	153	155	6	4	16..6	#16 Dunning; #14 Bundy; #10 Owen; #6 Liddiatt
+1902	Cambria Cottages	Providence Place	39	44	91	6	4	85..90	#85 Whittaker; #86 Brown; #88 Robt; #90 Fred
+1898	Lawson Terrace	Exeter Street	48	53	80	6	4	26..30	#26 Sainsbury; #27 Vaughan; #29 Kendall; #30 Holder
+1920	Fairoak Terrace	Collingwood Street	12	17	33	6	4	22..12	#22 Heard; #20 Goodreid; #14 Hough; #12 Ruberry
+1903	Livingstone Place	Liverpool Street	41	46	46	6	4	41..46	#41 Florida; #43 Jordan; #45 Yeates; #46 Faulks
+1893	Woodland Road	Winmill Street	13	18	19	6	4	58..63	#58 Morris; #60 Blatchley; #62 Humphrey; #63 McDaniell
+1910	Ombersley Road	Risca Road	34	39	44	6	4	77..26	#77 Partridge; #81 King; #83 Hall; #26 Harry
+1925	Usk Street	Victoria Avenue	21	26	118	6	4	22..5	#22 Hockey; #3 Mostow; #4 Pearce; #5 Burt
+1893	West Park Road	West Street	8	13	19	6	4	9..14	#9 Warren; #11 Glanville; #12 Daley; #14 Hurn
+1900	Somerton Place	Upton Place	5	10	12	6	4	186..174	#186 Summers; #180 Howarth; #176 Williams; #174 Taylor
+1925	Godfrey Road	Goodrich Crescent	45	50	63	6	4	36..28	#36 Marlow; #34 Cooper; #30 Trevelyan; #28 Moran
+1924	Highweek Terrace	Morden Road	4	9	10	6	4	30..35	#30 Hawes; #31 Yeates; #34 Cankett; #35 Howell
+1898	West-side of Old Dock	King's Parade	16	21	22	6	4	24..30	#24 Coughlan; #28 Duggan; #29 Fitzgerald; #30 Leary
+1903	Ronald Road	Goodrich Crescent	5	10	50	6	4	31..41	#31 Birkett; #35 Grubb; #39 Bond; #41 Ley
+1895	Adelaide Street	Adeline Street	19	24	34	6	4	43..49	#43 Dunn; #44 Irvine; #46 Atkinson; #49 Hulbert
+1903	Brynglas Road	Bryngwyn Road	32	37	52	6	4	15..9	#15 Longstaff; #13 Lewer; #11 Traylor; #9 Joseph
+1924	Cyril Street	David Street	61	66	72	6	4	11..15	#11 Stretch; #13 Foster; #14 Kerrell; #15 Lewis
+1900	Hewertson Street	Raglan Street	112	117	206	6	4	7..12	#7 Burgess; #9 Lanfear; #10 Shields; #12 Cann
+1910	Shaftesbury Street	Hewertson Street	17	22	174	6	4	64..69	#64 Toms; #65 Hicks; #66 Cromwell; #69 Kelly
+1902	Goodrich Crescent	Ronald Road	2	7	14	6	4	31..41	#31 Birkett; #35 Grubb; #39 Bond; #41 Ley
+1903	Caerleon Park	Caerau Road	1	6	8	6	4	44..48	#44 Cambridge; #45 White; #47 Lewis; #48 Arthur
+1924	Radnor Road	Raglan Street	2	7	87	6	4	31..90	#31 Weeks; #88 Morgan; #33 Greenwood; #90 Jones
+1920	Alma Street	Alexandra Road	75	79	165	5	4	55..47	#55 Clark; #53 Bailey; #49 Weaver; #47 Thoms
+1895	Caerau Road	Caerleon Road	94	98	99	5	4	193..215	#193 Searle; #211 James; #213 Dando; #215 Christopher
+1898	Caerleon Road	Caerau Road	79	83	136	5	4	193..215	#193 Searle; #211 James; #213 Dando; #215 Christopher
+1924	Chepstow Road	Malpas Road	103	107	109	5	4	138..130	#138 Higgs; #134 Vernon; #132 Prosser; #130 Holtham
+1971	Chepstow Road	Cherwell Walk	665	669	678	5	4	45..35	#45 Madden; #43 Drave; #39 Franklin; #35 Toms
+1898	Clyffard Crescent	Clytha Crescent	48	52	74	5	4	2..6	#2 Martin; #4 Tolley; #5 Gower; #6 Walker
+1899	Commercial Road	Sidney Street	149	153	154	5	4	1..5	#1 Critchley; #2 Pope; #4 Hart; #5 Sellick
+1892	Union Street	Upper Alma Street	37	41	43	5	4	68..71	#68 Kear; #69 Cleave; #70 Phillips; #71 Boag
+1890	Upper Alma Street	Union Street	44	48	79	5	4	68..71	#68 Kear; #69 Cleave; #70 Phillips; #71 Boag
+1915	Risca Road	Riverside	109	113	117	5	4	9..13	#9 Collins; #10 Hunt; #12 Date; #13 Johnson
+1920	St. Julian Street	St. Mark's Crescent	39	43	124	5	4	4..6	#4 Gaze James; #4 Wildy John; #5 Bennett George; #6 Webb Frank E.
+1887	Fothergill Street	Francis Street	23	27	33	5	4	1..5	#1 Whitaker; #3 Parkes; #4 Morton; #5 Schulman
+1913	Barnard Street	Barrack Hill	23	27	27	5	4	100..82	#100 Glover; #88 Collier; #86 Wood; #82 Saunders
+1898	Lawson Terrace	Fairoak Terrace	27	31	80	5	4	15..19	#15 White; #16 Sturley; #18 Lee; #19 Rocke
+1920	Fairoak Terrace	Fields Park Road	3	7	33	5	4	50..34	#50 Morgan Theophilus; #46 Jones William; #42 Mould Francis; #34 Hoskins William
+1893	Maindee Parade	Victoria Place	44	48	97	5	4	16..20	#16 Lavis; #17 Warren; #19 Bevan; #20 Broom
+1886	Dawlish Place	Maindee Parade	25	29	36	5	4	4..8	#4 Berry; #5 Virgo; #6 Workman; #8 Bridges
+1925	Brynderwen Road	Brynglas Crescent	12	16	17	5	4	12..4	#12 Merrick; #10 Tucker; #8 Hicks; #4 Tidman
+1900	Alexandra Road	Adeline Street	2	6	32	5	4	22..4	#22 Tyldesley; #2 Parsons; #3 Gould; #4 Fontaine
+1927	Hoskins Street	James Street	1	5	26	5	4	19..23	#19 Humphreys; #20 Chinnock; #22 Sanders; #23 Hughes
+1899	Brickyard Road	Bridge Street	6	10	13	5	4	26..29	#26 Porter John; #27 Nicholas; #28 Fry; #29 Stock
+1902	Halstead Street	Granville Street	1	5	57	5	4	41..49	#41 Bynon; #43 Harrison; #47 Hurford; #49 Scaresbrook
+1913	Agincourt Street	Adeline Street	11	15	91	5	4	22..30	#22 Hobbs; #24 Marsh; #28 Bradbury; #30 Littlejohns
+1915	Corelli Street	Corporation Road	89	93	119	5	4	29..35	#29 Maggs; #31 Padfield; #33 Dyer; #35 Lovelock
+1902	Factory Road	Eveswell Street	4	8	9	5	4	30..34	#30 Whelpton; #31 Birch; #32 Stevens; #34 Bailey
+1971	Factory Road	Exeter Road	4	8	8	5	4	3..11	#3 Pollard; #6 Haywood; #7 Emery; #11 Burrell
+1913	Shaftesbury Street	Somerset Road	46	50	276	5	4	19..27	#19 Nutt; #23 Cock; #25 Whitton; #27 Bell
+1902	Bishton Street	Blewitt Street	21	25	70	5	4	64..56	#64 Penn; #62 Dean; #58 Hillier; #56 Palmer
+1900	Llewellyn Street	Llanthewy Road	13	17	17	5	4	9..1	#9 Haynes; #7 Henry; #5 Groves; #1 Blackborow H.S
+1971	Exeter Road	Factory Road	14	18	18	5	4	3..11	#3 Pollard; #6 Haywood; #7 Emery; #11 Burrell
+1924	St. Mark's Crescent	St. Julian Street	47	51	59	5	4	4..6	#4 Gaze James; #4A Wildy John; #5 Bennett George; #6 Webb Frank E.
+1913	King Road	Kirby Street	7	11	11	5	4	1..5	#1 Colwill; #2 Wall; #4 Jeffreys; #5 Brown
+1924	Kimberley Terrace	Malpas Road	68	72	121	5	4	90..82	#90 Scott; #86 Dyke; #84 Hunt; #82 Ware
+1936	Hawarden Road	Henry Street	38	42	86	5	4	59..63	#59 Absolom; #61 Hayden; #62 Couch; #63 Russell
+1925	Shifnal Street	Sidney Street	2	6	7	5	4	1..4	#1 Critchley; #2 Austen; #3 Vincent; #4 Hart
+1925	Radnor Road	Redland Street	103	107	107	5	4	10..2	#10 Cooling; #8 Colley; #6 Aldridge; #2 Moss
+1971	Cherwell Walk	Chepstow Road	16	20	27	5	4	45..35	#45 Madden; #43 Drave; #39 Franklin; #35 Toms
+1900	Chepstow Road	Lyne Road	176	179	181	4	4	38..41	#38 Stevens; #39 Bevister; #40 Stephens; #41 Powell
+1924	Chepstow Road	Batchelor Road	4	7	109	4	4	16..10	#16 Blackburn; #14 Pugsley; #12 Llew; #10 Robb
+1882	Commercial Road	Commercial Street	85	88	91	4	4	45..48	#45 Allen; #46 Shelley; #47 Dando; #48 Francis
+1886	Courtybella Street	Commercial Road	3	6	56	4	4	113..116	#113 Cambray; #114 Prewett; #115 Lipman; #116 Betts
+1903	Courtybella Street	Coseley Street	3	6	32	4	4	1..4	#1 Weeks; #2 Carless; #3 Ford; #4 O'Neil
+1925	Marshes Road	Merchant Street	41	44	44	4	4	26..29	#26 Hunt; #27 Purcell; #28 Silcox; #29 Robins
+1900	Wolseley Street	Windsor Terrace	46	49	50	4	4	15..18	#15 Wilks; #16 Pritchard; #17 Watkins; #18 Johns
+1924	Stow Hill	St. Julian Street	16	19	122	4	4	21..44	#21 Robson James; #23 Burke John; #25 Fontaine E.; #44 Hardwick George
+1924	Lewis Street	Libeneth Road	142	145	147	4	4	5..11	#5 Gibson; #7 Short; #9 Stocker; #11 Wills
+1920	St. Julian Street	Stow Hill	1	4	124	4	4	21..44	#21 Robson James; #23 Burke John; #25 Fontaine E.; #44 Hardwick George
+1893	Maindee Parade	Manchester Street	72	75	97	4	4	6..9	#6 Pullin; #7 Hitchings; #8 Leach; #9 Newberry
+1936	Maindee Parade	Sidbury Terrace	41	44	45	4	4	41..44	#41 McLean; #42 Burston; #43 Bennett; #44 Lavis
+1899	Queen's Hill	Raglan Street	18	21	29	4	4	7..10	#7 Burgess; #8 Bullock; #9 Lanfear; #10 Shields
+1913	Ailesbury Street	Albany Street	30	33	41	4	4	39..43	#39 Dallimore; #40 Manley; #41 Lockyer; #43 Hillman
+1915	Ailesbury Street	Providence Place	77	80	154	4	4	82..86	#82 Poole; #83 Sextone; #85 Jenkins; #86 Brown
+1915	Annesley Road	Aragon Street	15	18	59	4	4	3..6	#3 Bryant; #4 Reardon; #5 Lacey; #6 Willey
+1903	Durham Road	Duke Street	134	137	162	4	4	126..120	#126 Carter; #124 Orders; #122 Pritchard; #120 Pritchard
+1927	Batchelor Road	Chepstow Road	1	4	8	4	4	16..10	#16 Blackburn; #14 Pugsley; #12 Llew; #10 Robb
+1893	Hoskins Street	James Street	61	64	68	4	4	3..9	#3 Grant; #4 Clapp; #7 Greenwood; #9 Pritchard
+1899	Newport Arcade	New Street	62	65	68	4	4	22..25	#22 Hannen; #23 Binding; #24 Burke; #25 Plummer
+1903	New Cottages	East Usk Road	5	8	18	4	4	21..24	#21 Stretch; #22 Batty; #23 Long; #24 Hillman
+1903	G.W. Wharf	Wharf Road	37	40	44	4	4	68..62	#68 Hicks; #66 Harris; #64 Harris; #62 Hertsch
+1913	St. Mark's Crescent	St. Mary Street	63	66	84	4	4	43..10	#43 Goodwin; #44 Porter; #12 Manship; #10 Heard
+1903	Blewitt Street	Bishton Street	14	20	83	7	3	66..62	#66 Bryant; #64 Penn; #62 Dean
+1899	Clarence Place	Clarence Street	49	55	82	7	3	6..11	#6 Dann; #9 Barry; #11 Regan
+1903	St. Woolos Road	St. Mary Street	10	16	75	7	3	41..43	#41 James; #42 Cox; #43 Edwards
+1903	St. Woolos Road	St. Julian Street	19	25	75	7	3	44..46	#44 Perry; #45 Ford; #46 Harvey
+1925	Commercial Road	Clytha Square	96	102	271	7	3	17..23	#17 Edwards J; #20 Harper Bros; #23 Boughton H. R
+1924	Devon Place	Dewsland Park Road	40	46	151	7	3	54..58	#54 Dark; #56 Hewertson; #58 Taverner
+1887	Dock Parade	Devon Place	35	41	107	7	3	36..42	#36 Simmonds; #39 Arbour; #42 Hart
+1903	George Street	Gibbs Road	80	86	112	7	3	3..15	#3 Adams; #9 Cooper; #15 Jamieson
+1882	Gloster Street	Granville Square	76	82	98	7	3	7..9	#7 Edmonds; #8 Haggarty; #9 Young
+1915	Pottery Terrace	Power Street	26	32	41	7	3	56..44	#56 Crocker; #52 Vella; #44 Brooks
+1924	Ombersley Road	Orchard Street	15	21	55	7	3	17..21	#17 Bebell; #19 Payne; #21 Banks
+1913	Malpas Road	Manchester Street	40	46	51	7	3	37..59	#37 Cook; #56 Reed; #59 Atkins
+1898	Somerton Place	Upton Place	2	8	8	7	3	160..148	#160 Bevan; #154 Alker; #148 Simmonds
+1924	Oakfield Road	Oakley Street	34	40	42	7	3	40..46	#40 Troath; #44 Saxon; #46 Walters
+1899	Moulders' Arms Terrace	Shaftesbury Street	21	27	86	7	3	169..183	#169 Manning; #177 Stanton; #183 Brooks
+1893	Tregare Street	Triley Street	4	10	17	7	3	1..9	#1 Payne; #4 Beynon; #9 Holland
+1893	Market	Wyndham Terrace	49	55	73	7	3	107..110	#107 Taylor; #108 Phillips; #110 Byard
+1910	Severn View	Shaftesbury Street	110	116	153	7	3	36..6	#36 Newcombe Bros.; #30 Giles & Williams; #6 Shaftesbury Restaurant
+1924	Radnor Road	Raglan Street	47	53	87	7	3	7..9	#7 Burgess; #8 Holland; #9 Lanfear
+1971	Dawson Close	Dawley Street	68	74	79	7	3	34..42	#34 Wonnacott; #37 Tidball; #42 Amesbury
+1910	Bridge Street	Tredegar Place	84	89	116	6	3	67..72	#67 Pullen; #70 Young; #72 Ingleton
+1920	Bridge Street	Bream Place	28	33	153	6	3	8-10..12	#8-10 Smith H. A. (Newport); #11 Harris L. L. motor and; #12 Hovey Mrs. M. tobac'nst
+1878	Commercial Street	Jones Street	291	296	572	6	3	31..36	#31 Hillier; #34 Coles; #36 Peters
+1895	Caerau Road	Caerleon Road	81	86	99	6	3	69..87	#69 Phillips; #75 Linton; #87 Lock
+1898	Chepstow Road	Albion Street	40	45	175	6	3	20..25	#20 Tyas; #23 Powell; #25 Wiltshire
+1903	Commercial Road	Coldra Road	52	57	333	6	3	65..61	#65 Heaton; #63 Noakes; #61 Ellis
+1900	Devon Place	Dock Parade	55	60	68	6	3	4..9	#4 Thompson; #6 Quest; #9 Anderson
+1913	Dolphin Street	Dock Street	59	64	119	6	3	182..187	#182 Strong H. J. & Co.; #186 Gill T. S.; #187 Little S. & Co.
+1903	George Street	Gaskell Street	63	68	112	6	3	67..72	#67 O'Brien; #70 Kelly; #72 Hayward
+1887	Wyndham Terrace	Marshes Road	7	12	13	6	3	41..97	#41 Payne; #43 Norvill; #97 Crotty
+1924	Mill Parade	Milman Street	55	60	95	6	3	54..58	#54 Duddridge; #56 Allison; #58 May
+1895	St. Edward Street	Rutland Place	12	17	64	6	3	12..17	#12 Bubb; #14 Rudge; #17 Chris.
+1915	Tunnel Terrace	Upton Road	8	13	73	6	3	52..48	#52 Rawlings; #50 Deer; #48 Jenkins
+1886	Williams Street	Victoria Crescent	14	19	70	6	3	14..19	#14 Antill; #17 Chivers; #19 Cousins
+1899	Winmill Street	Wolseley Street	26	31	72	6	3	36..32	#36 Watts; #34 Pope; #32 Sully
+1915	Power Street	Preston Avenue	62	67	87	6	3	35..41	#35 Mayo; #37 Plaisted; #41 Ostler
+1903	South Market Street	Stow Hill	47	52	68	6	3	72..78	#72 Waddle; #74 Watts; #78 Collett
+1887	Victoria Crescent	Williams Street	35	40	52	6	3	14..19	#14 Antill; #17 Chivers; #19 Cousins
+1936	Duckpool Road	Melton Terrace	110	115	152	6	3	102..106	#102 Rossiter; #104 Simcox; #106 Hylands
+1924	Easton Place	Duckpool Road	1	6	13	6	3	24..29	#24 Bennett; #26 Comley; #29 Lyne
+1895	Broseley Terrace	Lawson Terrace	30	35	38	6	3	43..48	#43 Francis; #45 Bath; #48 Bridges
+1936	Christchurch Road	Penylan Terrace	242	247	269	6	3	60..50	#60 Newbury; #56 Owen; #50 Trevethan
+1915	Faulkner Road	Fairfax Road	2	7	18	6	3	59..61	#59 Cattell; #60 Padden; #61 Reese
+1924	Gore Street	Grafton Road	21	26	35	6	3	5..15	#5 Gapper; #9 Barrow; #15 McPherson
+1898	Morden Road	Acacia Terrace	22	27	32	6	3	69..74	#69 Lang; #71 Popham; #74 Warne
+1927	Morden Road	Milman Street	50	55	72	6	3	15..7	#15 Nash; #13 Critchley; #7 Suller
+1924	Kingsland Terrace	Chepstow Road	13	18	46	6	3	165..171	#165 MacDonald; #169 Robson; #171 Gillman
+1903	Moulders' Arms Terrace	Sidney Street	39	44	44	6	3	4..5	#4 Hart; #4 Hart; #5 Sellick
+1892	Outer Circle	Stow Park Terrace	25	30	35	6	3	104..109	#104 Mossman; #107 Handy; #109 Duckham
+1925	Preston Avenue	Price Street	72	77	96	6	3	27..29	#27 Dummer; #28 Earles; #29 Brian
+1915	Prospect Street	Pugsley Street	9	14	19	6	3	30..32	#30 Wright; #31 Williams; #32 Charles
+1901	Agincourt Street	Adeline Street	26	31	57	6	3	31..21	#31 Gearon; #27 Beecham; #21 Pritchard
+1900	Emlyn Terrace	Emlyn Street	15	20	58	6	3	44..51	#44 Flook; #47 Kalaher; #51 Loveday
+1915	Emlyn Street	Eton Road	54	59	66	6	3	1..5	#1 O'Leary; #3 Groves; #5 Lawson
+1900	St. Mary's Street	Commercial Road	26	31	85	6	3	37..42	#37 Fry; #40 Courtney; #42 Osmond
+1924	Oakley Street	Oakfield Road	11	16	31	6	3	87..83	#87 Wood; #85 Griffiths; #83 Jones
+1915	St. Michael Street	St. Stephen's Road	5	10	11	6	3	17..22	#17 Beddis; #19 Hollis; #22 Guillemard
+1920	Llanthanthi	Livingstone Place	1	6	10	6	3	36..41	#36 Munn; #38 Taylor; #41 Probert
+1924	Poplar Road	Somerton Gardens Estate	4	9	9	6	3	5..2	#5 Jack; #6 Hunt; #2 Matty
+1971	Dibdin Close	Dickens Drive	10	15	58	6	3	19..29	#19 Dabinett; #23 Bird; #29 Tyler
+1971	Dickens Drive	Dibdin Close	9	14	71	6	3	19..29	#19 Dabinett; #23 Bird; #29 Tyler
+1971	Wilson Road	Williams Street	23	28	29	6	3	80..87	#80 Grant; #82 Benson; #87 Godwin
+1895	Alma Street	Upper Alma Street	67	71	125	5	3	67..71	#67 Rees; #70 Phillips; #71 Boag
+1902	Baldwin Street	Bailey Street	14	18	54	5	3	64..56	#64 Sullivan; #60 Pullen; #56 Thompson
+1920	Barrack Hill	Stow Hill	85	89	200	5	3	57..49	#57 Ferris; #51 Cox; #49 Idle
+1878	Commercial Street	Jeddo Street	238	242	572	5	3	12..16	#12 Ford; #14 Bryan; #16 Hitchins
+1894	Commercial Street	Dock Street	213	217	261	5	3	192..196	#192 Jones; #195 Richards; #196 Bibby
+1900	Commercial Street	Victoria Road	122	126	151	5	3	28..32	#28 Neweombe; #29 Hausey; #32 Driscoll
+1903	Commercial Street	Constance Street	207	211	219	5	3	169..170	#169 Bevan; #13 Moss; #170 Nelson
+1920	Commercial Street	Station Street	224	228	529	5	3	9..14	#9 O'Neil; #12 Ponsonby; #14 Sutherland
+1895	Caerleon Road	Osborne Place	76	80	83	5	3	265..273	#265 Trickey; #271 Jenkins; #273 Merryweather
+1915	Caerleon Road	Carlisle Place	128	132	485	5	3	331..335	#331 Scooging; #333 Williams; #335 Richards
+1915	Caerleon Road	Carlisle Place	160	164	485	5	3	389..393	#389 Phillips; #391 Haggett; #393 Williams
+1924	Capel Street	Cardiff Road	126	130	193	5	3	23..27	#23 Edmunds James; #25 Davies E. & son; #27 Gibb W. J. & Sons
+1890	Chepstow Road	Church Road	136	140	154	5	3	19..23	#19 Dix; #22 Perkins; #23 Goldfinch
+1898	Chepstow Road	Albert Terrace	28	32	175	5	3	18..22	#18 Beer; #19 Goddard; #22 Witts
+1899	Church Road	Calne Place	48	52	89	5	3	64..68	#64 Pendleton; #65 Porter; #68 Jones
+1927	Clytha Square	Coldra Road	2	6	35	5	3	25..17	#25 Jones Hbt. gas inspector; #23 Coslett; #17 Elias James
+1913	Commercial Road	Oak Street	80	84	251	5	3	12..4	#12 Passwater; #8 Owen; #4 Colegate
+1903	Courtybella Street	Coseley Street	21	25	32	5	3	17..21	#17 Cox; #18 Fleming; #21 Morgan
+1898	Jones Street	King's Parade	22	26	36	5	3	5..8	#5 Madden; #7 Roach; #8 Pring
+1893	King's Parade	Kingsmill Terrace	10	14	35	5	3	8..12	#8 Pring; #10 Dermody; #12 Lynn
+1899	King's Parade	West-side of Old Dock	2	6	11	5	3	23..28	#23 Ryan; #24 Coughlan; #28 Duggan
+1913	Courtybella Terrace	Coverack Road	53	57	61	5	3	19..9	#19 Foster; #11 Moxley; #9 Barrett
+1882	Devon Place	Dock Parade	50	54	73	5	3	15..19	#15 Dix; #17 Durban; #19 Savord
+1882	Hereford Place	High Street	29	33	40	5	3	59..27	#59 Ostler; #60 Lewis; #27 Dew
+1900	High Street	Blewitt Terrace	114	118	226	5	3	14..16	#14 Ward George; #15 Little Edward; #16 Cox James
+1887	Hill Street	Victoria Road	22	26	56	5	3	26..29	#26 Hoffman; #28 McCombe; #29 Nancekievill
+1894	Portland Street	Potter Street	62	66	83	5	3	13..18	#13 Buck; #16 Hannen; #18 Plummer
+1899	Potter Street	Pottery Terrace	52	56	64	5	3	1..5	#1 Parsons; #4 Tompkins; #5 Harvey
+1924	Potter Street	Portskewett Street	21	25	55	5	3	13..21	#13 Gibson; #15 Tennant; #21 Pratten
+1915	Tunnel Terrace	Upton Road	23	27	73	5	3	36..32	#36 Mrs; #34 Gibbons; #32 Albert E. Watkins comp
+1886	Williams Street	Windsor Terrace	57	61	70	5	3	2..6	#2 Phillips; #3 Frost; #6 Praill
+1899	Stow Hill	Stow Park Circus	184	188	193	5	3	4-8..10-12	#4-8 Liscombe; #8-11 Raikes; #10-12 Dawson
+1913	Stow Hill	Charles Street	44	48	128	5	3	23..27	#23 Rowberry; #24 Coxon; #27 Shewring
+1924	Stow Hill	Cambria Place	50	54	122	5	3	143..135	#143 Rickards; #141 Sykes; #135 Brewer
+1924	Bream Place	Bridge Street	20	24	81	5	3	6..11	#6 Corras; #8-10 Smith H. A. (Newport); #11 Harris L. L. motor and
+1887	Cambria Place	Stow Park Terrace	61	65	122	5	3	79..83	#79 Smith; #81 Lewis; #83 Price
+1893	Daniel Street	Dean Street	57	61	93	5	3	18..21	#18 Grice; #19 Gorman; #21 Garrett
+1915	Granville Street	Halstead Street	31	35	55	5	3	41..45	#41 Davies; #43 Rogers; #45 Hayward
+1915	Marion Street	Market	113	117	140	5	3	107..113	#107 Bowden Bros; #111-12 Cordey T. Ltd; #113 Williams W. A
+1924	Market Street	Marlborough Road	21	25	39	5	3	75..83	#75 Ballantyne; #77 Leveson; #83 Willis
+1915	Power Street	Preston Avenue	54	58	87	5	3	27..31	#27 Thornley; #29 Stanford; #31 Lucas
+1893	Risca Road	Robert Street	31	35	39	5	3	43..47	#43 Roderick; #45 Walters; #47 Vickery
+1913	Risca Road	Pugsley Street	25	29	90	5	3	13..21	#13 Boshier; #19 Armstrong; #21 Throssel
+1920	St. Julian Street	St. Mary Street	70	74	124	5	3	29..33	#29 Jenkins Lewis; #31 Lewis John; #33 Crimp John
+1924	St. Mary Street	St. Julian Street	20	24	24	5	3	29..33	#29 Jenkins Lewis; #31 Lewis John; #33 Crimp John
+1887	Upper Lewis Street	Upper Baldwin Street	4	8	64	5	3	5..9	#5 Hutchings; #8 Heard; #9 Agius
+1887	Victoria Crescent	Victoria Place	43	47	52	5	3	1..5	#1 Scott; #2 Beynon; #5 Hallen
+1886	Upper Baldwin Street	Upper Lewis Street	1	5	38	5	3	5..9	#5 Hutchings; #8 Heard; #9 Agius
+1892	Dorset Place	Arlington Terrace	10	14	17	5	3	48..51	#48 Hornby; #50 Thomas, Stow Hill house; #51 Andrew, Ivy cot
+1920	Duckpool Road	Seamoor Terrace	48	52	106	5	3	38..42	#38 Plaisted; #40 Hands; #42 Dart
+1895	Carlisle Place	Caerleon Road	63	67	113	5	3	100..92	#100 Little; #94 Hilton; #92 Lewis
+1895	Carlisle Place	Caerleon Road	85	89	113	5	3	58..50	#58 Waters; #52 Ventom; #50 Nutt
+1893	Rutland Place	St. Edward Street	37	41	85	5	3	25..29	#25 Hillier; #27 Telling; #29 Bickley
+1900	Rutland Place	St. Woolos Place	1	5	113	5	3	9..13	#9 Bradshaw; #11 Watkins; #13 Brown
+1900	Lawson Terrace	Cambria Cottages	75	79	96	5	3	36..40	#36 Bubb; #37 Downing; #40 Davey
+1915	Hereford Street	Hewertson Street	8	12	55	5	3	2..4	#2 Sprudd; #3 Moran; #4 Miles
+1915	Hereford Street	Hewertson Street	46	50	55	5	3	34..36	#34 Upton; #35 Newman; #36 Boon
+1893	London Street	Lord Street	11	15	16	5	3	9..13	#9 Pedro; #10 Holman; #13 Murphy
+1893	Christchurch Road	Auckland Terrace	1	5	13	5	3	99..104	#99 Camfield; #102 Baldwin; #104 Greenly
+1894	Christchurch Road	Auckland Villas	8	12	61	5	3	8..12	#8 Fraser; #11 Hitchman; #12 Charles
+1899	Queen's Hill	Raglan Street	10	14	29	5	3	1..4	#1 Broad; #3 Worthy; #4 J. and Jones Sons
+1927	Victoria Avenue	Usk Street	50	54	119	5	3	66..71	#66 Whitehouse; #70 Heighton; #71 Fenemore
+1903	Ombersley Road	Redland Street	53	57	88	5	3	18..10	#18 Collard; #16 Biggs; #10 Finch
+1901	Cattle Market	Tredegar Street	2	6	11	5	3	1..5	#1 Nicholls; #2 Ashman; #5 Westlake
+1903	Osborne Place	Caerleon Road	1	5	72	5	3	141..142	#141 Simmonds; #141A Hawkins; #142 Eastman's
+1898	Garth Terrace	Courtybella Terrace	10	14	54	5	3	22..24	#22 Maggs; #23 George; #24 Johns
+1895	Arlington Terrace	Dorset Place	29	33	36	5	3	48..51	#48 Hornby; #50 Thomas, Stow Hill house; #51 Andrew, Ivy cot
+1925	Constance Street	Commercial Street	24	28	51	5	3	31..39	#31 Wiltshire; #35 Hurst; #39 Beanland
+1920	Llanthewy Road	Hereford Street	1	5	83	5	3	45..49	#45 Dutson; #46 Mahoney; #49 Gibbons
+1894	Rose Street	Rudry Street	33	37	39	5	3	16..20	#16 Lacey; #19 Merrick; #20 Mogford
+1893	Usk Street	Victoria Avenue	37	41	56	5	3	10..14	#10 Hardy; #13 Golledge; #14 Morley
+1893	Aragon Street	Archibald Street	12	16	16	5	3	1..5	#1 Witts; #4 Moat; #5 Dowden
+1915	Batchelor Road	Bedford Road	2	6	40	5	3	7..11	#7 Morgan; #9 Francis; #11 Harris
+1902	Gibbs Road	George Street	1	5	16	5	3	80..82	#80 Jeffery; #81 Clissit; #82 Flook
+1924	Gibbs Road	Gloster Place	84	88	107	5	3	1..3	#1 Clements; #2 Edmunds; #3 Smale
+1924	Stanley Road	Stockton Road	7	11	18	5	3	30..34	#30 Gribble; #32 Wagstaff; #34 Bartlett
+1924	Hoskins Street	Hubert Road	45	49	157	5	3	19..23	#19 Haines; #21 Poole; #23 Trickey
+1898	Moulders' Arms Terrace	Skinner Street	1	5	11	5	3	12..14	#12 Vaughan W. E. & Co., Ltd., steam dyers; #13 Pooley H. & Son, Ltd., weighing machine mftrs; #14 Parnall R. & Co. millers and corn merchants
+1892	Union Lane	Union Street	12	16	17	5	3	10..14	#10 Gillard; #11 Levi; #14 Morrison
+1920	Vicarage Lane	Victoria Avenue	11	15	18	5	3	98..100	#98 Charles; #99 Parkinson; #100 Williams
+1892	Brodawel Gardens	York Place	28	32	36	5	3	28..32	#28 Misses; #29 Griffiths; #32 Summers
+1893	Fields Road	Ford Street	9	13	17	5	3	1..5	#1 Musty; #2 Holmes; #5 Woodridge
+1927	Market	Marion Street	60	64	69	5	3	63..79	#63 Holtham; #78 Dickens; #79 Cattell
+1971	Bachelor Road	Batchelor Road	5	9	24	5	3	9..17	#9 Leyland; #15 Lee; #17 Woolley
+1898	Wheeler Street	Williams Street	37	41	42	5	3	42..45	#42 Ellis; #44 Lawrence; #45 Castle
+1910	Redland Street	Ombersley Road	4	8	15	5	3	18..10	#18 Collard; #16 Biggs; #10 Finch
+1894	Vivian Road	Victoria Road	10	14	18	5	3	8..12	#8 Charrett; #9 Condor; #12 Griffiths
+1903	Brynglas Road	Bryngwyn Road	11	15	52	5	3	26..30	#26 Ball; #28 Barnett; #30 Crabbe
+1913	Corporation Road	Conway Road	72	76	337	5	3	125..131	#125 Ellis; #129 Randall; #131 Hawkes
+1920	Corporation Road	Shaftesbury Street	132	136	201	5	3	172..162	#172 Price; #164 Rising; #162 Co-operative
+1924	Fields Park Road	Fairoak Terrace	3	7	84	5	3	50..42	#50 Morgan Theophilus; #46 Jones William; #42 Mould Francis
+1936	Fields Park Road	Fotheringham Place	78	82	82	5	3	9..1	#9 Fields; #3 Skingley; #1 Devonfield
+1895	Ford Street	Fields Road	2	6	10	5	3	1..5	#1 Musty; #2 Holmes; #5 Woodridge
+1902	Halstead Street	Hampton Street	43	47	57	5	3	21..29	#21 Gwynne; #27 Fussell; #29 Baldwin
+1913	Lambert Street	King Road	58	62	62	5	3	46..38	#46 Golledge; #40 Manning; #38 Bowman
+1900	Morris Street	Emlyn Street	1	5	55	5	3	25..29	#25 Hobbs; #28 Hobbs; #29 Crowley
+1913	Oak Street	Oak Terrace	35	39	40	5	3	4..8	#4 West; #5 Hubbard; #8 Wheeler
+1902	Gaskell Street	Gibbs Road	35	39	66	5	3	10..2	#10 Eady; #6 Lewison; #2 Dimmock
+1903	Bishton Street	Blewitt Street	54	58	90	5	3	28..30	#28 Collier; #29 Daley; #30 Booth
+1901	Mansel Street	Marion Street	33	37	39	5	3	32..24	#32 Rock; #30 Burford; #24 Regan
+1936	Marlborough Road	Market Street	43	47	82	5	3	75..83	#75 Ballantyne; #77 Leveson; #83 Willis
+1903	Dudley Street	Durham Road	1	5	33	5	3	21..25	#21 Hiles; #23 Barber; #25 Price
+1902	Llanvair Road	Llanwern Street	13	17	27	5	3	17..22	#17 Pulman; #24 Yendoll; #22 Elias
+1971	St. Stephen's Road	St. Mary Street	19	23	35	5	3	14..4	#14 Thain; #6 Lanigan; #4 Tolcher
+1915	Blenheim Road	Blewitt Street	2	6	36	5	3	32..34	#32 Mrs; #33 Smith; #34 Lander
+1920	Blenheim Road	Bishton Street	4	8	38	5	3	18..10	#18 Dyke; #14 Eynon; #10 Barnfield
+1924	Conway Road	Commercial Street	3	7	89	5	3	31..39	#31 Wiltshire; #35 Hurst; #39 Beanland
+1936	Conway Road	Coleridge Road	65	69	96	5	3	71..63	#71 Walters; #69 Shott; #63 Millar
+1915	Hawthorne Avenue	Harrow Road	7	11	20	5	3	22..16	#22 Hodge; #18 Hankins; #16 Ewings
+1915	Wyverne Road	Woodland Park Road	3	7	16	5	3	15..23	#15 Millward; #19 Seal; #23 Giles
+1925	Edward VII Avenue	Edwin Street	70	74	76	5	3	18..20	#18 Doran; #19 Bishop; #20 Fouweather
+1936	Fotheringham Place	Fields Park Road	32	36	36	5	3	9..1	#9 Fields; #3 Skingley; #1 Devonfield
+1936	Brynglas Avenue	Bristol Street	5	9	35	5	3	12..22	#12 Ryder; #16 Rollason; #22 Franklin
+1925	Newport Street	Dock Street	8	12	17	5	3	90..93	#90 James & Emanuel; #91 Priest M. A. Richmond Hotel; #93 Partridge
+1924	Sycamore Avenue	Temple Street	94	98	130	5	3	2..5	#2 Bagg; #3 Bassett; #5 Heness
+1925	New Road	Stow Hill	151	155	214	5	3	117..113	#117 Swallow; #115 Phillips&Sons; #113 Bere
+1936	Nant Coch Hill	Bassaleg Road	136	140	157	5	3	35..29	#35 Hornby; #33 Latch; #29 Foreman
+1971	Coleridge Road	Conway Road	17	21	50	5	3	71..63	#71 Walters; #69 Shott; #63 Millar
+1971	Thompson Avenue	Thompson Close	58	62	109	5	3	32..24	#32 Dovey; #30 Blakemore; #24 Chaston
+1971	Thompson Close	Thompson Avenue	8	12	26	5	3	32..24	#32 Dovey; #30 Blakemore; #24 Chaston
+1971	Clydach Close	Clyffard Crescent	21	25	35	5	3	27..31	#27 Duncanson; #28 Bain; #31 Watkins
+1898	Bishop Street	Bilston Street	19	22	23	4	3	22..25	#22 Moss; #24 Dell; #25 Chamberlain
+1878	Commercial Street	Bridge Street	1	4	572	4	3	13..15	#13 Woodburn; #15 Middleton; #15 Middleton
+1878	Commercial Street	Lower Cross Street	409	412	572	4	3	12..16	#12 Morse; #13 Hobbs; #16 Gough
+1903	Commercial Street	Constance Street	215	218	219	4	3	19..21	#19 Marsh; #171 Domestic; #21 Comley
+1913	Commercial Street	Dock Street	265	268	480	4	3	141..144	#141 Coughlan; #142 Barker; #144 Lee
+1925	Commercial Street	Provision Market	274	277	337	4	3	197-8..201	#197-8 Small H. J. fruit and potato merchant; #199 Motton; #201 Reider
+1899	Chepstow Road	Eveswell Terrace	91	94	315	4	3	240..232	#240 Powell; #238 Martin; #232 Sanders
+1924	Chepstow Road	Lawn Terrace	77	80	109	4	3	206..200	#206 Davies; #202 Morgan; #200 Owen
+1925	Church Road	Clyffard Crescent	143	146	276	4	3	29..32	#29 Walters; #30 Gall; #32 Parfitt The Misses
+1925	Church Road	Windsor Road	258	261	276	4	3	23..29	#23 Round; #25 Pearson; #29 Law
+1927	Clyffard Crescent	Clytha Crescent	13	16	17	4	3	11..14	#11 Tamplin; #12 Warman; #14 Day
+1894	Clytha Park Road	Clytha Crescent	3	6	17	4	3	2..5	#2 Martin; #4 Tolley; #5 Gower
+1920	Clytha Park	Clytha Square	24	27	34	4	3	13..15	#13 Murray W.; #14 Pitchford J. B.; #15 Duckham Mrs. Jas
+1886	Clytha Square	Commercial Road	41	44	58	4	3	80-1..83	#80-1 Faulkner; #82 Scrobizza; #83 Urratia
+1924	Clytha Square	Commercial Road	123	126	137	4	3	35A..37	#35A Lambros S. & Sons; #36 Crosta J. & P.; #37 Jones D. Anthony
+1899	Commercial Road	Dock Street	49	52	154	4	3	19..22	#19 Jones W. E. Windsor Castle; #21 Model Lodging house; #22 Anstee C. A. Potter's Arms
+1900	Commercial Road	Marion Street	304	307	451	4	3	62..56	#62 Jenkins; #58 Short; #56 Barber
+1925	Commercial Road	Clytha Square	122	125	271	4	3	41..42	#41 Kay L; #41a Austin G. A; #42 Davies W. G
+1925	Llanarth Street	Llanthewy Road	85	88	88	4	3	5..1	#5 Groves; #3 Jacobs; #1 Samuels
+1887	David Street	Dean Street	36	39	50	4	3	24..27	#24 Marley; #26 Hooper; #27 Hancock
+1895	Dock Street	Commercial Road	19	22	280	4	3	19..22	#19 Jones W. E. Windsor Castle; #21 Model Lodging house; #22 Anstee C. A. Potters' Arms
+1887	Hereford Place	Clytha Square	45	48	92	4	3	24A..24A	#24A Davies; #24A Davies; #24A Davies
+1898	Ivor Street	James Street	6	9	11	4	3	3..6	#3 Mahoney; #5 Betts; #6 Casey
+1900	Queen Street	Queen's Hill Terrace	30	33	57	4	3	3..6	#3 Roderick; #5 Mackie; #6 Wathan
+1887	Potter Street	Pyne's Cottages	6	9	32	4	3	5..8	#5 Landers; #6 Morrison; #8 Buckley
+1900	Raglan Street	Queen's Hill	18	21	65	4	3	92..95	#92 Speary; #93 Lloyd; #95 Beard
+1887	Railway Street	Rees' Buildings	33	36	70	4	3	3..6	#3 Saunders; #4 Simmonds; #6 Clapton
+1920	Stow Hill	Carlisle Place	32	35	139	4	3	17..20	#17 Bickley; #18 Wilson; #20 Boucher
+1924	Stow Hill	St. Michael Street	43	46	122	4	3	8..2	#8 Young Alfred; #4 Osmond Frank; #2 Baker George
+1886	Adeline Street	Albert Terrace	19	22	22	4	3	20..23	#20 Westlake; #21 Brunt; #23 Clark
+1915	Adeline Street	Aberthaw Road	27	30	46	4	3	50..56	#50 Chicken; #52 Gapper; #56 Hall
+1910	Henry Street	Harrow Road	13	16	33	4	3	16..19	#16 Johnstone Miss Mary J.; #17 Hawkins Robert; #19 Morgan Mrs. Emma
+1882	Lansdowne Place	Lewis Street	68	71	71	4	3	53..55	#53 Brooks; #54 Barrett; #55 Hayes
+1900	Lime Street	Cardiff Road	88	91	132	4	3	3..5	#3 Skinner; #4 Johns; #5 Cock
+1915	Marion Street	Market	136	139	140	4	3	138-9..142	#138-9 Bowden Bros; #141 Baker E; #142 Baker J. G
+1936	North Street	Carlisle Place	9	12	14	4	3	36..39	#36 Tugby; #38 Knight; #39 Hannan
+1900	Providence Place	Emlyn Street	8	11	29	4	3	25..29	#25 Hobbs; #28 Hobbs; #29 Crowley
+1924	Providence Place	Albion Street	68	71	84	4	3	4..7	#4 Ross; #6 Granville; #7 Pope
+1971	Risca Road	Riverside	215	218	218	4	3	39..42	#39 Sheppard; #41 Merchant; #42 Robbins
+1936	St. Julian Street	St. Julian's Avenue	61	64	92	4	3	60..64	#60 Hayes; #62 Clark; #64 Spickett
+1886	Crindau Cottages	Aragon Street	1	4	9	4	3	1..4	#1 Manley; #3 Gane; #4 Sweet
+1892	Dorset Place	Stow Hill	4	7	17	4	3	42..45	#42 Collett; #43 Glanville; #45 Brewer
+1924	Carlisle Place	Oak Terrace	173	176	201	4	3	5..8	#5 Hubbard; #6 Macdonald; #8 Wheeler
+1886	Pyne's Cottages	Potter Street	2	5	16	4	3	5..8	#5 Landers; #6 Morrison; #8 Buckley
+1924	Price Street	Prince Street	70	73	104	4	3	2..5	#2 Hockey; #3 Spittle; #5 Blythe
+1924	Price Street	Prince Street	100	103	104	4	3	30..30C	#30 Tovey; #30A Pepper; #30C Perkins
+1886	Rees' Buildings	Railway Street	3	6	6	4	3	3..6	#3 Saunders; #4 Simmonds; #6 Clapton
+1893	Rutland Place	St. Edward Street	29	32	85	4	3	17..20	#17 Rudge; #19 Walker; #20 Albert
+1913	Upton Place	Auckland	48	51	69	4	3	116..112	#116 Home; #114 Bastick; #112 Woodgates
+1893	Crescent Road	Pembroke Terrace	12	15	89	4	3	12..15	#12 Groome; #14 Reakes; #15 Chenhall
+1903	Cambria Cottages	Lawson Terrace	36	39	40	4	3	66..68	#66 Rossiter; #67 Pitt; #68 Wallace
+1890	Fairoak Terrace	F. Oak Terrace	3	6	27	4	3	5..8	#5 Tothill; #6 Howells; #8 Lever
+1886	F. Oak Terrace	Fairoak Terrace	18	21	26	4	3	5..8	#5 Tothill; #6 Howells; #8 Lever
+1910	Albany Street	Albert Avenue	65	68	84	4	3	18..20	#18 Hipsley; #19 Bastin; #20 Deacon
+1936	Pentonville	Gold Tops	32	35	69	4	3	21..24	#21 Mawson; #22 Tennyson-Evans; #24 Pagefield College
+1903	Ombersley Road	Park Square	84	87	88	4	3	1..4	#1 Moon; #2 Peters; #4 Massy
+1901	Lucas Street	Lyne Road	80	83	84	4	3	50..53	#50 Meadows George,; #52 Hallett Charles,; #53 Charles Francis,
+1890	Hillminster Terrace	St. Woolos Road	3	6	8	4	3	30..33	#30 Partridge; #31 Collard; #33 James
+1900	Stow Park Gardens	Stow Park Circus	35	38	43	4	3	19..25	#19 Filleul; #21 Howell; #25 Payne
+1920	Queensland Terrace	Chepstow Road	4	7	10	4	3	65..71	#65 Purnell; #67 McHaig; #71 McHale
+1924	Durham Road	Caerleon Road	161	164	203	4	3	82..76	#82 Marsh; #80 Vaughan; #76 Peck
+1900	Sidbury Terrace	Malpas Road	24	27	52	4	3	35..45	#35 Brown John H; #37 Hicks Edward; #45 Drewett
+1910	Auckland Villas	Christchurch Road	11	14	52	4	3	21..27	#21 Wicks; #25 Turner; #27 Humphrey
+1893	Hoskins Street	Ivor Street	50	53	68	4	3	2..5	#2 Nichol; #3 Cartmell; #5 Hawes
+1899	Hoskins Street	Jeddo Street	75	78	79	4	3	93..99	#93 Slattery; #97 Morgan; #99 Dunn
+1900	Moulders' Arms Terrace	Corporation Road	23	26	66	4	3	58..52	#58 Estate office; #54 Osborne; #52 temperance hotel
+1900	Union Lane	Tunnel Terrace	2	5	6	4	3	1..4	#1 Harrison; #3 Lewis; #4 Townsend
+1927	Adelaide Street	Adeline Street	17	20	28	4	3	8..10	#8 Noakes; #9 Jones; #10 Phillips
+1910	Corporation Road	Wharf Road	330	333	410	4	3	14..8	#14 Orders; #10 Harrison; #8 Underwood
+1902	Halstead Street	Henry Street	54	57	57	4	3	40..43	#40 Stack; #42 Pitman; #43 James
+1910	Jenkins Street	Jones Street	53	56	88	4	3	35..38	#35 Halse; #37 Vokins; #38 Daymond
+1927	Llandaff Street	Llanthewy Road	2	5	10	4	3	72..78	#72 Young; #76 Stevens; #78 Watkins
+1936	Oak Street	Oakley Street	19	22	28	4	3	18..12	#18 Talbot; #14 Walpole; #12 Poole
+1920	Harrow Road	Henry Street	33	36	39	4	3	16..19	#16 Johnstone Miss Mary J.; #17 Hawkins Robert; #19 Morgan Mrs. Emma
+1903	Llanwern Street	Llanvair Road	24	27	37	4	3	17..22	#17 Pulman; #24 Yendoll; #22 Elias
+1899	Portskewett Street	Portland Street	2	5	15	4	3	25..28	#25 Cashman; #27 Hughes; #28 Vowell
+1927	Clevedon Terrace	Woodland Road	18	21	39	4	3	47..50	#47 Lightwood; #48 Argent; #50 Agnes
+1925	Hampton Street	Handsworth Street	2	5	6	4	3	2..5	#2 Moore; #3 Wheeler; #5 Crowther
+1900	St. Mary's Street	Commercial Road	1	4	85	4	3	1..4	#1 Rowlands; #3 Neal; #4 Pring
+1902	Summerhill Avenue	Summerhill Road	31	34	35	4	3	38..42	#38 Gough; #41 Overstone; #42 Llewellin
+1900	Wallis Street	Watchhouse Parade	7	10	34	4	3	14..17	#14 Pring; #15 Yendall; #17 Short
+1915	Goodrich Crescent	Godfrey Road	58	61	66	4	3	18..12	#18 Wookey; #16 Haley; #12 Rackley
+1925	Goodrich Crescent	Godfrey Road	44	47	73	4	3	43..49	#43 Meredith; #47 Ryall; #49 Milford
+1915	Lilleshall Street	Lime Street	22	25	29	4	3	73..79	#73 Blackborough; #77 Bickle; #79 McCarthy
+1925	Lilleshall Street	Lime Street	43	46	53	4	3	73..79	#73 Blackorough; #75 Price; #79 Cadogan
+1924	Marshfield Street	May Street	18	21	21	4	3	3..9	#3 Kersley; #7 Golightly; #9 Garland
+1886	Alfred Street	Nelson Street	48	50	54	3	3	6..8	#6 Boon; #7 Doggett; #8 Vaughan
+1893	Tredegar Place	Trinity Place	12	14	26	3	3	7..9	#7 Simmonds; #8 O'Brien; #9 Hawke
+1901	Blewitt Terrace	High Street	20	22	22	3	3	14..16	#14 Ward George; #15 Little Edward; #16 Cox James
+1913	Commercial Street	Dock Street	244	246	480	3	3	129..131	#129 L. & N.W.Ry.Co.'s offices—J. T. White; #130 Bernasconi; #131 Société
+1925	Commercial Street	Canal Parade	10	12	337	3	3	35..37	#35 Daly; #36 Bateman; #37 Fitzgerald
+1925	Commercial Street	Ebenezer Terrace	283	285	337	3	3	5..6	#5 Wainfur; #5B Bonelly; #6 Kelly
+1895	Caerleon Road	Caerau Road	13	15	83	3	3	161..165	#161 Edwards; #163 Ventom; #165 Weston
+1901	Charlotte Street	Queensland Terrace	24	26	26	3	3	73..77	#73 Wright; #75 Gould; #77 Williams
+1890	Chepstow Road	Church Road	147	149	154	3	3	30..32	#30 Davis; #31 Long; #32 Davey
+1887	Clarence Street	Clifton Road	49	51	53	3	3	5..7	#5 Geary; #6 Thomas (Jnr); #7 Jenkins
+1901	Clyffard Crescent	Clytha Crescent	63	65	79	3	3	14..15	#14 Oliver; #15 Harse; #15 Harse
+1924	Clytha Square	Commercial Road	133	135	137	3	3	41..42	#41 Kay L.; #41A Austin G. A.; #42 Davies W. G.
+1898	Commercial Road	Dock Street	243	245	255	3	3	21..23	#21 Model; #22 Anstee; #23 Shewring
+1925	Marshes Road	Mendalgief Road	15	17	44	3	3	98..102	#98 Traynor; #100 Beckett; #102 Dance
+1901	Cross Street	Crown Street	3	5	5	3	3	24..28	#24 Gatehouse; #27 Howe; #28 Tucker
+1901	David Street	Dean Street	29	31	71	3	3	1..3	#1 Rothero; #2 Cleverley; #3 Parfitt
+1971	East Usk Road	Eastmoor Road	43	45	110	3	3	25..29	#25 Thorn; #27 Anslow; #29 Goodyear
+1971	Jeddo Street	Japonica Close	51	53	104	3	3	102..98	#102 Oldfield; #100 Bale; #98 Sellwood
+1899	Potter Street	Portland Street	22	24	64	3	3	19..21	#19 Simmonds; #20 Reeks; #21 Long
+1899	Potter Street	Pottery Terrace	29	31	64	3	3	19..21	#19 Franklin; #20 Heaven; #21 Lynn
+1925	Watchhouse Parade	Watchhouse Par	19	21	26	3	3	26..28	#26 Jordan; #27 Swift; #28 Crawford
+1886	Williams Street	Winmill Street	67	69	70	3	3	1..3	#1 Phillips & Sons; #2 James; #3 James
+1887	Williams Street	Victoria Place	25	27	126	3	3	11..13	#11 Brewer; #12 Henry; #13 Townsend
+1925	Friars Road	Frederick Street	41	43	54	3	3	20..22	#20 Jones; #21 King; #22 Calnon
+1893	Daniel Street	Depot Street	65	67	93	3	3	2..4	#2 Torrington; #3 Reeve; #4 Howe
+1971	Henry Street	Hawarden Road	44	46	83	3	3	61..63	#61 Hayden; #62 Couch; #63 Russell
+1886	Screw Packet Road	South Market Street	6	8	9	3	3	2..4	#2 Larcomb; #3 Haward; #4 Glynn
+1903	South Market Street	Stow Hill	66	68	68	3	3	116..118	#116 Richardson; #116a Hunt; #118 Phillips
+1894	Victoria Crescent	West Market Street	63	65	70	3	3	2..4	#2 Baylis; #3 Stone; #4 Broad
+1903	Jayne's Buildings	James Street	4	6	13	3	3	4..6	#4 Clapp; #5 Lewis; #6 Reed
+1920	Duckpool Road	Easton Place	41	43	106	3	3	34..35	#34 Bishop; #34A Thickens; #35 Perry
+1898	Lyne Road	Macarthy's Court	47	49	51	3	3	2..4	#2 W. Herbert; #3 Morris; #4 Seth
+1899	Carlisle Place	Caerleon Road	57	59	121	3	3	162..158	#162 Stokes; #160 Walker; #158 Davies
+1927	Carlisle Place	St. Julian's Park	55	57	94	3	3	470..466	#470 Rowe; #468 Jones; #466 Anstice
+1927	Carlisle Place	Caerleon Road	76	78	94	3	3	432..428	#432 Howells; #430 Moulton; #428 Horton
+1901	Bolton Road	Bond Street	22	24	24	3	3	23..25	#23 Moss; #24 Metcalfe; #25 Bladon
+1902	Albert Avenue	Chepstow Road	23	25	25	3	3	25..27	#25 Tandy; #26 Harris; #27 Morgan
+1924	Richmond Terrace	Duckpool Road	15	17	26	3	3	133..135	#133 Reece; #134 Bell; #135 Aldous
+1890	Leicester Road	King's Parade	3	5	24	3	3	25..27	#25 Warnken; #26 Hayes; #27 Keefe
+1913	Manchester Street	Albert Avenue	12	14	111	3	3	6..6	#6 Vowles; #6 Vowles; #6 Vowles
+1913	Manchester Street	Upper Lime Street	22	24	111	3	3	10..10	#10 Morris; #10 Morris; #10 Morris
+1913	Manchester Street	Capel Street	37	39	111	3	3	15..15	#15 Brooks; #15 Brooks; #15 Brooks
+1913	Manchester Street	Graig Park Parade	43	45	111	3	3	17..17	#17 Shepherd; #17 Shepherd; #17 Shepherd
+1913	Manchester Street	Marion Street	79	81	111	3	3	29..29	#29 Walsh; #29 Walsh; #29 Walsh
+1913	Manchester Street	Hoskins Street	91	93	111	3	3	33..33	#33 Morris; #33 Morris; #33 Morris
+1900	Mendalgief Road	Mill Parade	12	14	38	3	3	1..3	#1 Griffiths; #2 Nelson; #3 Dummer
+1920	Mendalgief Road	Archibald Street	2	4	43	3	3	56..58	#56 Pope; #57 Daniels; #58 Bowen
+1924	Victoria Avenue	Usk Street	33	35	84	3	3	27..29	#27 Green; #28 Beer; #29 Goverd
+1901	East-side Old Dock	Commercial Wharf	8	10	45	3	3	13..28	#13 Newman; #27 Gillard; #28 Holton
+1924	Kingsmill Gardens	Turner Street	242	244	256	3	3	3..5	#3 Donovan; #4 Tucker; #5 Howlett
+1899	Osborne Place	Oxford Street	7	9	15	3	3	7..9	#7 Golledge; #8 Redmore; #9 Pullen
+1924	Gore Street	Granville Square	30	32	35	3	3	1..3	#1 Lister; #2 Skuse; #3 Littlejohns
+1920	Morden Road	Acacia Terrace	48	50	75	3	3	52..54	#52 Groves; #53 Rocke; #54 Stewart
+1925	Morden Road	Mountjoy Place	77	79	95	3	3	5..7	#5 Jones; #6 Organ; #7 Alfred
+1893	Durham Road	Upper Durham Road	65	67	81	3	3	105..107	#105 Hutchings; #106 Edwards; #107 Millward
+1913	Malpas Road	Prince Street	13	15	51	3	3	22..22	#22 Richards; #22 Richards; #22 Richards
+1913	Malpas Road	Temple Street	19	21	51	3	3	18..18	#18 Bell; #18 Bell; #18 Bell
+1913	Malpas Road	Eric Coates Walk	29	31	51	3	3	10..10	#10 Curtis; #10 Curtis; #10 Curtis
+1913	Malpas Road	St. Mary Street	32	34	51	3	3	8..8	#8 Young; #8 Young; #8 Young
+1913	Malpas Road	Clyffard Crescent	35	37	51	3	3	6..6	#6 Nelson; #6 Nelson; #6 Nelson
+1925	Malpas Road	Kimberley Terrace	62	64	94	3	3	40..36	#40 Duggan; #38 Neville; #36 Morris
+1895	St. Mary's Road	Westfield Road	26	28	40	3	3	1..3	#1 Young; #2 Jordan; #3 Martin
+1920	Hoskins Street	Jeddo Street	160	162	225	3	3	8..4	#8 Pearson; #6 England; #4 Gilchrist
+1900	Moulders' Arms Terrace	Shaftesbury Street	41	43	66	3	3	123-5..129	#123-5 Dyke; #127 Williams; #129 Price
+1892	Outer Circle	Stow Park Terrace	19	21	35	3	3	100..102	#100 Hawkes; #101 Wagstaff; #102 Fletcher
+1915	Inner Circle	Stow Park Circus	7	9	11	3	3	8..12	#8 Raikes; #10 Dawson; #12 Vachell
+1898	Summerhill Road	Temple Street	22	24	31	3	3	25..27	#25 Golding; #26 Spurrier; #27 Tucker
+1900	Wrington Terrace	Wyndham Street	46	48	65	3	3	1..3	#1 Harrington T. Coalman; #2 Parker; #3 Prosser
+1910	Fields Road	Frederick Street	75	77	102	3	3	8..10	#8 Jackson; #9 Williams; #10 Cashman
+1895	Provision Market	Commercial Road	4	6	46	3	3	140..142	#140 Alexandra Tea Co.; #141 Eastman's Ltd. butchers; #142 Phillips J. & Co. drapers,
+1900	Corporation Road	Moulders' Arms Terrace	36	38	87	3	3	58..52	#58 Estate office; #54 Osborne; #52 temperance hotel
+1900	Corporation Road	Shaftesbury Street	79	81	87	3	3	148..144	#148 Eastmans; #146 Fletcher & Michael; #144 Palmer
+1895	Upper Durham Road	Durham Road	53	55	56	3	3	105..107	#105 Hutchings; #106 Edwards; #107 Millward
+1898	Austin Road	Bailey Street	7	9	19	3	3	7..9	#7 Gibbs; #8 Phillips; #9 Sergeant
+1924	Bedford Road	Bishton Street	42	44	47	3	3	33..37	#33 Marsh; #35 Nelson; #37 Adams
+1936	Bedford Road	Chepstow Road	47	49	52	3	3	14..10	#14 Pugsley; #12 Llew; #10 Robb
+1920	Corelli Street	Corporation Road	20	22	22	3	3	243..247	#243 Roberts; #245 Wolkand; #247 Legge
+1920	Emlyn Terrace	Emlyn Street	15	17	27	3	3	18..20	#18 Maddin; #19 Reardon; #20 Neale
+1910	Gaskell Street	George Street	14	16	22	3	3	75..77	#75 Richards; #76 Lee; #77 Couppey
+1920	Gaskell Street	Friars Street	47	49	54	3	3	16..12	#16 Lambert; #14 Trubshaw; #12 Alcock
+1899	Shaftesbury Street	Moulders' Arms Terrace	41	43	108	3	3	123-5..129	#123-5 Dyke; #127 Williams; #129 Price
+1924	Walford Street	Wallis Street	24	26	42	3	3	12..8	#12 Pring; #10 Walsh; #8 Kerslake
+1927	Emlyn Street	Eton Road	12	14	47	3	3	27..31	#27 Bryant; #29 Bailey; #31 Harrison
+1901	Summerhill Avenue	Summer Hill Villas	11	13	13	3	3	47..49	#47 Cherry; #48 Ponsford; #49 Searle
+1924	Wallis Street	Wednesbury Street	52	54	58	3	3	3..7	#3 Lovell; #5 Thonbury; #7 Polson
+1901	Williams Road	Dock Street	16	18	58	3	3	80..82	#80 Herbert J.; #81 Maybury & Co.'s yard; #82 G.W.R. goods depôt
+1925	Cromwell Road	Coverack Road	12	14	64	3	3	32..34	#32 Hale; #33 Wade; #34 Brewer
+1913	Walsall Street	Watchhouse Par	24	26	36	3	3	26..28	#26 Jordan; #27 Swift; #28 Crawford
+1920	Conway Road	Coomassie Street	92	94	168	3	3	12..14	#12 Gardner; #13 Walters; #14 Wren
+1920	Fairfax Road	Fairoak Terrace	5	7	31	3	3	40..42	#40 Pauling; #41 Tucker; #42 Unet
+1920	Fairfax Road	Fairoak Terrace	14	16	31	3	3	49..51	#49 Martin; #50 Lister; #51 Escott
+1913	Kimberley Terrace	Malpas Road	172	174	210	3	3	36..36	#36 Moss; #36 Moss; #36 Moss
+1913	Kimberley Terrace	Malpas Road	187	189	210	3	3	144..144	#144 Parsons; #144 Parsons; #144 Parsons
+1913	Kimberley Terrace	Malpas Road	203	205	210	3	3	138..138	#138 Jarvis; #138 Jarvis; #138 Jarvis
+1913	Clythrough Road	Clytha Square	2	4	6	3	3	30..32	#30 Austin; #31 Amaral; #32 Lane
+1925	Hawarden Road	Henry Street	76	78	128	3	3	55..57	#55 Tayne; #56 Friberg; #57 Barry
+1924	Brynhyfryd Avenue	Brynhyfryd Road	30	32	34	3	3	10..6	#10 Haskins; #8 Alger; #6 Gwatkin
+1924	St. Julian's Park	Carlisle Place	1	3	69	3	3	470..466	#470 Rowe; #468 Jones; #466 Anstice
+1924	Palm Square	Portland Street	80	82	82	3	3	33..35	#33 Mahoney; #34 Keen; #35 Mrs. Charlotte
+1927	Sycamore Avenue	Corporation Road	1	3	47	3	3	28..30	#28 Purcell; #29 Wallis; #30 Seamen’s Home
+1925	Arcades	Market Arcade	7	9	9	3	3	6..2	#6 Dennis; #4 Sully; #2 Taylor
+1925	New Road	Rosslyn Road	76	78	214	3	3	6..2	#6 Rowe; #4 Greenfield; #2 Welland
+1925	New Road	Cambria Place	96	98	214	3	3	210..214	#210 Lawton; #212 Watson; #214 Jones
+1936	Nant Coch Hill	Bassaleg Road	150	152	157	3	3	9..5	#9 Tait; #7 Banks; #5 Lonnon
+1936	Gaer Park Avenue	Frome Walk	29	31	90	3	3	67..71	#67 Worts; #69 Tidman; #71 Rossiter
+1971	Graig Park Road	Graig Park Villas	25	27	44	3	3	14..18	#14 Cheetham; #16 Foley; #18 Crump
+1936	Woodland Avenue	Woodland Road	11	13	33	3	3	46..48	#46 Bertera; #47 Lightwood; #48 Argent
+1971	Eastmoor Road	East Usk Road	39	41	46	3	3	25..29	#25 Thorn; #27 Anslow; #29 Goodyear
+1971	Frome Walk	Gaer Park Avenue	82	84	123	3	3	67..71	#67 Worts; #69 Tidman; #71 Rossiter
+1971	Japonica Close	Jeddo Street	35	37	43	3	3	102..98	#102 Oldfield; #100 Bale; #98 Sellwood
+1971	Oakfield Gardens	Oakfield Road	75	77	122	3	3	93..91	#93 Barnes; #93 Barnes; #91 Roberts

@@ -1,0 +1,137 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,Stow hill,23,,,Powell Digby,,
+resident,Stow hill,24,,,Griffiths John,,
+resident,Stow hill,25,,,Rawlings Rev T. F.,,Eversley
+resident,Stow hill,,,,Little Edward,,Beechcroft
+resident,Stow hill,,,,Homfray Mrs,,Penllyn
+resident,Stow hill,,,,Hearsey Mrs,,
+resident,Stow hill,26,,,Herbert Jas.,,Eaglescliffe
+resident,Stow hill,27,,,Trevena,,void
+resident,Stow hill,28,,,Brightholm,,void
+resident,Stow hill,29,,,Handford T. L.,,Norwood
+resident,Stow hill,30,,,Powell W. H.,,J.P.
+resident,Stow hill,31,,,Heard Mrs G. O.,,
+resident,Stow hill,32,,,Winn James H.,,
+resident,Stow hill,33,,,Ingram S. D.,,Ivington
+resident,Stow hill,34,,,Mollett Arthur R.,,Newcot
+resident,Stow hill,35,,,Stewart John J.,,
+resident,Stow hill,36,,,Gratte Alfred,,Preswylfa
+resident,Stow hill,37,,,Phillips Miss E. B.,,Seaview
+resident,Stow hill,38,,,Carney J. H.,,Glengariffe
+resident,Stow hill,,,,Board Schools (Stow hill),,,
+resident,Stow hill,19,,,Robinson Alfred,,
+resident,Stow hill,17,,,Rees Hugh,,
+resident,Stow hill,,,,Albert Hall Chambers,,,
+resident,Stow hill,,,,Christadelphian's Room,,,
+resident,Stow hill,15,,,Thomas G. L.,wholesale grocer,
+building,Stow hill,13,The Drill Hall,Head Quarters 2nd V.B. S.W. Borderers,,
+resident,Stow hill,11,,,Franks Alf. & Co.,agents,
+resident,Stow hill,,,,Tapson The Misses,,
+resident,Stow hill,9,,,Mills Robert,gardener,
+resident,Stow hill,7,,,O'Neill James,plasterer,
+resident,Stow hill,5,,,Bailey Rev Michael,,
+resident,Stow hill,,,,Barron Rev Philip,,
+resident,Stow hill,,,,Ottway Rev Francis,,
+resident,Stow hill,,,,Butcher Rev Edward,,
+resident,Stow hill,,,,King Rev Ernest,,
+resident,Stow hill,,S. Marie's Catholic Ch.,,,,
+resident,Stow hill,3,Catholic repository,,,
+resident,Stow hill,,,,Davies Mrs Caroline,,
+resident,Stow hill,,,,Rawlings John,,
+resident,Stow hill,1,,,Wilks T.,photographer,
+street,Stow Park Avenue,,,,,,From Waterloo-rd. to Stow-hill
+cross_street,Stow Park Avenue,,,,,,[LEFT HAND SIDE.]
+resident,Stow Park Avenue,1,Cambridge house,Lyne H. S.,,
+resident,Stow Park Avenue,2,Ellesmere house,Harrhy Miss,,
+resident,Stow Park Avenue,3,Glenthorne,Pain Wynd. C.,,
+resident,Stow Park Avenue,4,,,Void,,
+resident,Stow Park Avenue,5,Brynglas vil,Mann R. T.,,
+resident,Stow Park Avenue,6,Hazlewood house,Garwood A. E.,C.E.,
+resident,Stow Park Avenue,7,Stow Park ho,Wallis Mrs,,
+resident,Stow Park Avenue,8,Chester-holme,Wallis C.T.,J.P.,
+resident,Stow Park Avenue,9,Brendon,Grove E.,J.P.,
+resident,Stow Park Avenue,10,Holme lea,Bear A. R.,J.P.,
+resident,Stow Park Avenue,11,Woolmer,LeBrasseur Hy.,,
+cross_street,Stow Park Avenue,,,,,,(return.)
+resident,Stow Park Avenue,,,,Stow Park Gardens,,,
+resident,Stow Park Avenue,12,,,The Knoll,,Void
+resident,Stow Park Avenue,13,,,Goldsworthy W. L.,,
+resident,Stow Park Avenue,14,,,Powell Percy,,
+resident,Stow Park Avenue,15,,,Fothergill G. H.,,
+resident,Stow Park Avenue,16,,,Grunnah Nicholas,,
+resident,Stow Park Avenue,17,,,Parfitt Dyson,,
+resident,Stow Park Avenue,18,,,Pugsley Richard B.,,
+resident,Stow Park Avenue,20,,,Baker Henry D.,,
+resident,Stow Park Avenue,21,,,Hunter Walter,,
+resident,Stow Park Avenue,22,,,Stevens A. J.,J.P.,
+street,Stow Park Crescent,,,,,,Stow-park.
+cross_street,Stow Park Crescent,,,,,,[LEFT HAND SIDE.]
+resident,Stow Park Crescent,1,Fairlight,Kirk T. C.,,
+resident,Stow Park Crescent,2,Bron-gain ho,Jayne Hy.,,
+resident,Stow Park Crescent,3,Winchester house,Heard W. E.,J.P.,
+resident,Stow Park Crescent,4,Clarendon h,Morris Mrs C.,,
+resident,Stow Park Crescent,5,Briar hill,Gething Robt.,,
+resident,Stow Park Crescent,6,Braeside,Cox Wm. Geo.,,
+resident,Stow Park Crescent,7,Villetta,Fawckner Percy,,
+resident,Stow Park Crescent,8,Skelmorlie,Martyn G. R.,J.P.,
+cross_street,Stow Park Crescent,,,,,,(return.)
+resident,Stow Park Crescent,10,Minevia,Kirby Mrs S.,,
+resident,Stow Park Crescent,11,Woodside v,Jones Mrs E. P.,,
+resident,Stow Park Crescent,12,Dunmarklyn,Davies J. E.,,
+resident,Stow Park Crescent,15,Ferncliffe,Budd F. S.,,
+resident,Stow Park Crescent,16,Draycot vil,Williams A. P.,,
+resident,Stow Park Crescent,17,Severn villa,Void,,
+resident,Stow Park Crescent,18,Holmes view,Evans Mrs,,
+street,Stow Park Circus,,,,,,Stow-park.
+cross_street,Stow Park Circus,,,,,,OUTER CIRCLE—
+resident,Stow Park Circus,1,The Hawthorns,Colborne Mrs Thos.,,
+resident,Stow Park Circus,3,The Woodlands,Linton J.,,
+resident,Stow Park Circus,5,Lynwood,Williams Mrs M.,,
+resident,Stow Park Circus,7,Rosetta,Vaughan Fred.,,
+resident,Stow Park Circus,9,Brynsholme,Orders W. J.,,
+resident,Stow Park Circus,11,Jesmond,Mordey Mark,J.P.,
+resident,Stow Park Circus,13,Craighafren,Llewellyn J. C.,,
+resident,Stow Park Circus,15,Croome,Williams R. P.,,
+resident,Stow Park Circus,17,Ynys-môn,Jones W. S.,,
+resident,Stow Park Circus,19,Grouville,Filluel Mrs Harriet A.,,
+resident,Stow Park Circus,21,Cader Idris,Howell T. H.,J.P.,
+resident,Stow Park Circus,23,Wynnstay,Williams W. H.,,
+resident,Stow Park Circus,25,Kenilworth,Payne Mrs E.,,
+resident,Stow Park Circus,27,,,Banks R. C.,,
+resident,Stow Park Circus,29,TheGrange,Cordey T.,J.P.,
+resident,Stow Park Circus,,St Helens,Chambers W. H.,,
+resident,Stow Park Circus,,St. Olaves,Davies John,,
+cross_street,Stow Park Circus,,,,,,INNER CIRCLE—
+resident,Stow Park Circus,2,Lawnside,Lewis Rev D. A.,Vicar of Nash,
+resident,Stow Park Circus,4,Bron-y-gaer,Liscombe J.,,
+resident,Stow Park Circus,6,Rock dale,Marsh C. W. Earle,J.P.,
+resident,Stow Park Circus,8,Redlands,Raikes F. W.,,
+resident,Stow Park Circus,10,Rothbury,Dawson Thos.,,
+resident,Stow Park Circus,12,St. Gwnlliw,Vachell T. J.,,
+resident,Stow Park Circus,14,Rothesay,Phillips W. C.,,
+street,Stow Park Gardens,,,,,,Nos. 12-22 Stow Park-avenue.
+street,Stow Park Road,,,,,,Now Stow Park-avenue.
+street,Stow Passage,,,,,,From 82 Stow-hill.
+resident,Stow Passage,1,,,Wood William,labourer,
+resident,Stow Passage,2,,,Wooley F.,cabman,
+resident,Stow Passage,3,,,Mahoney Jeremiah,seaman,
+resident,Stow Passage,4,,,Smith Tom H.,plumber,
+resident,Stow Passage,5,,,Coleman H. Jas.,labourer,
+resident,Stow Passage,6,,,Robinson John,labourer,
+resident,Stow Passage,7,,,Manley John,labourer,
+resident,Stow Passage,8,,,Tobin James,labourer,
+street,Summer Hill Avenue,,,,,,Right side Christchurch-road to Victoria-avenue.
+resident,Summer Hill Avenue,1,,,Stallard James,Eidsvold
+resident,Summer Hill Avenue,2,,,Hopkins John,reporter,
+resident,Summer Hill Avenue,3,,,Watkins Leonard,,
+resident,Summer Hill Avenue,4,,,Wenter Wm. H.,teacher,
+resident,Summer Hill Avenue,5,,,Davies Tom,ironmonger,
+resident,Summer Hill Avenue,6,,,Swanton Young,plasterer,
+resident,Summer Hill Avenue,7,,,Shepherd George,teacher,
+resident,Summer Hill Avenue,8,,,Evans J. D.,fitter,
+resident,Summer Hill Avenue,9,,,Beynon Mrs Elizabeth,,
+resident,Summer Hill Avenue,10,,,Evans Chas.,timber mer,
+resident,Summer Hill Avenue,11,,,Poole James,Hill side
+resident,Summer Hill Avenue,12,,,Morgan Geo.,Brynview
+resident,Summer Hill Avenue,13,,,Morris Jas. T.,builder,
+resident,Summer Hill Avenue,14,,,Thomas Mrs J. F.,,

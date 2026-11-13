@@ -1,0 +1,182 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,RON,9,,Ernest E.,Thomas,,,
+resident,RON,10,,Mrs. A. M.,Garry,,,
+street,ROSE STREET,,,,,,"C 4"
+cross_street,ROSE STREET,,,,,,"From Locke-st. to Lucas-st."
+cross_street,ROSE STREET,,,,,,"(LEFT HAND SIDE.)"
+resident,ROSE STREET,1,,John,Morgan,shopkeeper,,
+resident,ROSE STREET,2,,James,Howells,painter,,
+resident,ROSE STREET,3,,Matthew J.,Jones,foreman,,
+resident,ROSE STREET,4,,Francis,Ryan,postman,,
+resident,ROSE STREET,5,,H.,Close,crane driver,,
+resident,ROSE STREET,6,,Sidney,Hill,painter,,
+resident,ROSE STREET,7,,Wm.,Abbott,,Dos works
+resident,ROSE STREET,8,,George,Thomas,,,
+resident,ROSE STREET,9,,Henry J.,Weight,plumber,,
+resident,ROSE STREET,10,,Thos.,Richards,engine dvr,,
+resident,ROSE STREET,11,,Richard H.,Hewitt,G.W.R.,,
+resident,ROSE STREET,12,,Jos. J.,George,guard,,
+resident,ROSE STREET,,,Fredk. T.,Woodbury,portr,,
+resident,ROSE STREET,13,,Thomas,Pates,Walter,,
+resident,ROSE STREET,14,,Robert A.,McNeil,porter,,
+resident,ROSE STREET,15,,Hy. Rd.,Hillman,bricklyr,,
+cross_street,ROSE STREET,,,,,,"(return)"
+resident,ROSE STREET,16,,Fredk. Wm.,Kew,insp.,,
+resident,ROSE STREET,17,,Mrs. Mary Ann,Murphy,,,
+resident,ROSE STREET,18,,Edwd.,Delaney,gas works,,
+resident,ROSE STREET,19,,Cosmo,Mitchell,carpenter,,
+resident,ROSE STREET,20,,Thos.,Jones,John,G.W.R.
+resident,ROSE STREET,21,,Mrs. Eliza A.,Stallard,,,
+resident,ROSE STREET,22,,Chas.,Bancroft,foreman,,
+resident,ROSE STREET,23,,William,Mills,G.W.R.,,
+resident,ROSE STREET,24,,Richard M.,Jones,gas inspt,,
+street,ROSS STREET,,,,,,"B 4"
+cross_street,ROSS STREET,,,,,,"Off Brynglas-road"
+cross_street,ROSS STREET,,,,,,"(RIGHT HAND SIDE.)"
+resident,ROSS STREET,2,,John,Jenkins,blind maker,,
+resident,ROSS STREET,4,,,,,Roberts —
+resident,ROSS STREET,6,,Robert,Cousins,,,
+resident,ROSS STREET,8,,David,Ruston,foundrymn,,
+resident,ROSS STREET,10,,Bert,Wright,G.W.R.,,
+resident,ROSS STREET,12,,William,Ballinger,,,
+resident,ROSS STREET,14,,Bertram,Levi,glasswkr,,
+resident,ROSS STREET,16,,Wm. Henry,Mullis,,,
+resident,ROSS STREET,18,,Oscar H.,Howard,traveller,,
+resident,ROSS STREET,20,,Alfred Ll.,Kendall,,,
+resident,ROSS STREET,22,,Ambrose,Strong,G.W.R.,,
+resident,ROSS STREET,24,,Francis J.,White,tinsmith,,
+resident,ROSS STREET,26,,Sam,Doughty,crane drivr,,
+resident,ROSS STREET,28,,George,Heard,guard,,
+resident,ROSS STREET,30,,Oliver,Kirby,engineer,,
+resident,ROSS STREET,32,,Rd. Harry,Harman,police,,
+resident,ROSS STREET,34,,Wm. R.,Williams,carpentr,,
+resident,ROSS STREET,36,,William,Bristow,,,
+resident,ROSS STREET,38,,Harry John,Cook,managr,,
+resident,ROSS STREET,40,,William Edward,Huxter,,,
+resident,ROSS STREET,42,,Arthur Wm.,Millington,,,
+resident,ROSS STREET,44,,Herbt.,Chalker,ironwkr,,
+resident,ROSS STREET,,,,,,Vacant sites
+cross_street,ROSS STREET,,,,,,"(return)"
+resident,ROSS STREET,,,,,,3 houses building
+resident,ROSS STREET,,,,,,Vacant sites
+resident,ROSS STREET,49,,S. Frost,Jones,shoemkr,,
+resident,ROSS STREET,47,,Geo. Jno.,Coffey,labourer,,
+resident,ROSS STREET,45,,Evan,Davies,steward,,
+resident,ROSS STREET,43,,A. T.,Sumption,roll turner,,
+resident,ROSS STREET,41,,John,Clake,guard,G.W.R.,,
+resident,ROSS STREET,39,,J.,Young,signal fitter,,
+resident,ROSS STREET,37,,William,Evenson,engine driver,,
+resident,ROSS STREET,35,,George,Phillips,postman,,
+resident,ROSS STREET,33,,Tom,King,clerk,,
+resident,ROSS STREET,31,,Wm.,Tearne,ironworker,,
+resident,ROSS STREET,29,,Frank Edwd.,Bell,haulier,,
+resident,ROSS STREET,27,,Arthur,Rendle,shunter,,
+resident,ROSS STREET,25,,Elvin,Margrett,eng dvr,,
+resident,ROSS STREET,23,,Percy,Rate,engine driver,,
+resident,ROSS STREET,21,,George,Vincent,G.W.R.,,
+resident,ROSS STREET,19,,John,Jobbins,boatman,,
+resident,ROSS STREET,17,,Hy. John,Brown,postman,,
+resident,ROSS STREET,15,,James,Vaughan,driver,,
+resident,ROSS STREET,13,,Walter R.,Baker,police,,
+resident,ROSS STREET,11,,Richd. Hy.,Cottrell,police,,
+resident,ROSS STREET,9,,William C.,Thomas,,,
+resident,ROSS STREET,7,,Alfred,Pearson,postman,,
+resident,ROSS STREET,5,,C. L.,Abbott,draughtsman,,
+resident,ROSS STREET,3,,Alfred,Dowding,G.W.R.,,
+resident,ROSS STREET,1,,H. E.,Morrish,baker, etc.,,
+street,ROSLYN ROAD,,,,,,"D 3"
+cross_street,ROSLYN ROAD,,,,,,"Off Chepstow-road"
+cross_street,ROSLYN ROAD,,,,,,"(LEFT HAND SIDE.)"
+resident,ROSLYN ROAD,1,,B. W.,Bathe,,,
+resident,ROSLYN ROAD,3,,Mrs. Louisa,Jordan,,,
+resident,ROSLYN ROAD,5,,Raymond,Clarke,,,
+resident,ROSLYN ROAD,7,,William James,Williams,,,
+resident,ROSLYN ROAD,9,,George B.,Walker,,,
+resident,ROSLYN ROAD,11,,Robert James,Badham,,,
+resident,ROSLYN ROAD,13,,Benj.,Greenfield,ironwrkr,,
+resident,ROSLYN ROAD,15,,Harry T.,Thomas,,,
+resident,ROSLYN ROAD,17,,Wm. Henry,Clarke,,,
+resident,ROSLYN ROAD,19,,J. Henry,Haigh,,,
+resident,ROSLYN ROAD,21,,C. H.,Williams,carpenter,,
+resident,ROSLYN ROAD,23,,Stephen,Martin,,,
+resident,ROSLYN ROAD,25,,Stephen Martin,Jewell,,,
+resident,ROSLYN ROAD,27,,Albert,Jones,ironworker,,
+resident,ROSLYN ROAD,29,,Albert Edward,Pennell,,,
+resident,ROSLYN ROAD,31,,Chas. James,Greening,,,
+resident,ROSLYN ROAD,,,Wm. Hy.,Stephens,,,
+resident,ROSLYN ROAD,,,,,,Vacant sites
+cross_street,ROSLYN ROAD,,,,,,"(return)"
+resident,ROSLYN ROAD,,,,J. C.,Drewett,shop,,
+resident,ROSLYN ROAD,42,,J. C.,Drewett,clerk,,
+resident,ROSLYN ROAD,40,,John,Taylor,carpenter,,
+resident,ROSLYN ROAD,38,,Thos. Wm.,Howard,bricklr,,
+resident,ROSLYN ROAD,36,,Iforoswyn G.,Evans,,,
+resident,ROSLYN ROAD,34,,John,Russell,,,
+resident,ROSLYN ROAD,32,,Mrs. Emma,Sturley,,,
+resident,ROSLYN ROAD,30,,John,John,smith,,
+resident,ROSLYN ROAD,28,,Mrs. Abigail,Welberg,,,
+resident,ROSLYN ROAD,26,,Mrs. Emma,Aldous,,,
+resident,ROSLYN ROAD,24,,James,Reilly,sailmaker,,
+resident,ROSLYN ROAD,22,,William,Thomas,,,
+resident,ROSLYN ROAD,20,,Geo. Charles,Franklin,,,
+resident,ROSLYN ROAD,18,,G. A.,Bullock,,,
+resident,ROSLYN ROAD,16,,William H.,Whiteman,,,
+resident,ROSLYN ROAD,14,,Mrs. N.,Roberts,,,
+resident,ROSLYN ROAD,12,,R.,Andrews,porter, G.W.R.,,
+resident,ROSLYN ROAD,10,,Dudley Vincent,Matthews,,,
+resident,ROSLYN ROAD,8,,Mrs. C.,Horlock,,,
+resident,ROSLYN ROAD,6,,James,Rowe,plasterer,,
+resident,ROSLYN ROAD,4,,Henry,Heath,ironwrkr,,
+resident,ROSLYN ROAD,2,,William,Frampton,,,
+street,ROTHESAY ROAD,,,,,,"D 3"
+cross_street,ROTHESAY ROAD,,,,,,"Off Chepstow-road"
+cross_street,ROTHESAY ROAD,,,,,,"(LEFT HAND SIDE.)"
+resident,ROTHESAY ROAD,1,,W. H.,Mills,plumber,,
+resident,ROTHESAY ROAD,3,,Hy. Chas.,Townsend,grcr,,
+resident,ROTHESAY ROAD,5,,Joseph,Trenchard,,,
+resident,ROTHESAY ROAD,7,,George,Jones,manager,,
+resident,ROTHESAY ROAD,9,,Ernest J.,Cousins,ironwkr,,
+resident,ROTHESAY ROAD,11,,Alfred,Wright,carpenter,,
+resident,ROTHESAY ROAD,,,,,,Vacant sites
+cross_street,ROTHESAY ROAD,,,,,,"(return)"
+resident,ROTHESAY ROAD,,,George,Goring,shop,,
+resident,ROTHESAY ROAD,,,,,,Vacant sites
+resident,ROTHESAY ROAD,20,,Robert Lewis,Johns,,,
+resident,ROTHESAY ROAD,18,,Melville,Wangler,,,
+resident,ROTHESAY ROAD,16,,Arthur,Gillett,,,
+resident,ROTHESAY ROAD,14,,Alfd. Jas.,Williams,wghmn,,
+resident,ROTHESAY ROAD,12,,John,Brace,ironworker,,
+resident,ROTHESAY ROAD,10,,Arthur,Williams,tailor,,
+resident,ROTHESAY ROAD,8,,John Jenkin,Jones,,,
+resident,ROTHESAY ROAD,6,,Wm. G.,Harrison,ironwkr,,
+resident,ROTHESAY ROAD,4,,Charles,Shimmell,,,
+resident,ROTHESAY ROAD,2,,William E.,Campbell,,,
+street,RUDRY STREET,,,,,,"C 4"
+cross_street,RUDRY STREET,,,,,,"From Tregare-st., E. Usk-rd."
+cross_street,RUDRY STREET,,,,,,"(LEFT HAND SIDE.)"
+resident,RUDRY STREET,1,,Wm. J.,Duffett,labourer,,
+resident,RUDRY STREET,2,,James,Maylin,haulier,,
+resident,RUDRY STREET,3,,George,Topham,labourer,,
+resident,RUDRY STREET,4,,William,Scott,stonemason,,
+resident,RUDRY STREET,5,,Edward,Woods,labourer,,
+resident,RUDRY STREET,6,,Albt. Ernest,Maisey,labr.,,
+resident,RUDRY STREET,7,,James,Vickery,,,
+resident,RUDRY STREET,8,,Edwin,Thomas,,,
+resident,RUDRY STREET,9,,Mrs. Elizabeth,Jones,,,
+resident,RUDRY STREET,10,,Mrs. Annie,Murphy,,,
+resident,RUDRY STREET,11,,Saml. W.,Fewings,eng'eer,,
+resident,RUDRY STREET,12,,Mrs. Susan,Baker,,,
+resident,RUDRY STREET,13,,John,Marrett,carpenter,,
+resident,RUDRY STREET,14,,Thomas,Morgan,labourer,,
+resident,RUDRY STREET,15,,John,Cross,labourer,,
+resident,RUDRY STREET,16,,William Henry,Sidney,,,
+resident,RUDRY STREET,17,,George,Oakley,plumber,,
+resident,RUDRY STREET,18,,Pat.,Burgoyne,billposter,,
+resident,RUDRY STREET,19,,Alf.,Merrick,signal fitter,,
+resident,RUDRY STREET,20,,Mrs. Julia,Anthony,,,
+cross_street,RUDRY STREET,,,,,,"(return)"
+resident,RUDRY STREET,,,,A. & W.,Purnell,,saw mills
+resident,RUDRY STREET,,,,"H. Richards & Co., Ltd.",,Usk Engineering & Motor wks
+resident,RUDRY STREET,,,,,,Vacant sites
+resident,RUDRY STREET,21,,,,,Void
+resident,RUDRY STREET,22,,,,,Void

@@ -1,0 +1,172 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,JON,51,,,Geo. S.,Parry,baker,
+resident,JON,52,,,John,Capel,labourer,
+resident,JON,53,,,Henry,Vout,,
+resident,JON,54,,,Richard John,Rees,,
+resident,JON,55,,,Thomas Ray,Williams,,
+resident,JON,56,,,George,Holt,,
+resident,JON,57,,,Wm.,Brickley,shoemaker,
+resident,JON,58,,,William,Taylor,,
+resident,JON,59,,,William,Parsons,G.W.R.,
+resident,JON,60,,,Mich.,Murray,labourer,
+resident,JON,61,,,Augustus,Banks,,
+resident,JON,62,,,William,Goodwin,,
+resident,JON,63,,,Thomas,Whiting,G.W.R.,
+resident,JON,64,,,John,Davies,labourer,
+resident,JON,65,,,John,Hughes,fitter,
+resident,JON,66,,,George,Venn,fireman,
+resident,JON,67,,,Wm.,Newman,labourer,
+resident,JON,68,,,Mrs. Hannah,Mahoney,,
+resident,JON,69,,,Francis M.,Workman,,
+resident,JON,70,,,Henry,Callaway,bootmkr,
+resident,JON,71,,,T. C.,Hislop,tailor,
+resident,JON,72,,,J.,Giffen,window cleaner,
+resident,JON,73,,,Thos. J.,Williams,porter,
+resident,JON,74,,,Frank,James,painter,
+resident,JON,75,,,John,Dunk,assistant,
+street,JUNCTION ROAD,,,,,,,C 3
+cross_street,JUNCTION ROAD,,,,,,,Caerleon-rd. to Duckpool-rd.
+cross_street,JUNCTION ROAD,,,,,,,[LEFT HAND SIDE.]
+resident,JUNCTION ROAD,1,,,Thomas,Butlin,showman,
+resident,JUNCTION ROAD,2,,,Mrs. Margaret,Hurst,,
+resident,JUNCTION ROAD,3,,,Wm.,Holmes,platelayer,
+resident,JUNCTION ROAD,4,,,Albert,Jones,labourer,
+resident,JUNCTION ROAD,5,,,William,Corten,groom,
+resident,JUNCTION ROAD,6,,,Hy.,Hurley,gas stoker,
+resident,JUNCTION ROAD,7,,,Ed., jun.,Holmes,bricklyr,
+resident,JUNCTION ROAD,8,,,Wm.,Brooks,ironworker,
+cross_street,JUNCTION ROAD,,,,,,,here is Bishop-street
+resident,JUNCTION ROAD,9,,,John,Walsh,labourer,
+cross_street,JUNCTION ROAD,,,,,,,here is Dean-street
+resident,JUNCTION ROAD,10,,,Sidney,Musty,G.W.R.,
+resident,JUNCTION ROAD,11,,,Henry,Samuel,bootmaker,
+resident,JUNCTION ROAD,12,,,Clarke,James,labourer,
+street,KATHERINE STREET,,,,,,,D 4
+cross_street,KATHERINE STREET,,,,,,,Off Brynglas-road
+street,KEAR STREET,,,,,,,D 2
+cross_street,KEAR STREET,,,,,,,From 3 Emlyn-street
+street,KEENE STREET,,,,,,,C 3
+cross_street,KEENE STREET,,,,,,,Off Cromwell-road
+cross_street,KEENE STREET,,,,,,,[RIGHT HAND SIDE.]
+resident,KEENE STREET,1,,,Chas.,Clarke,ironworker,
+resident,KEENE STREET,3,,,,Void,,
+resident,KEENE STREET,5,,,Hy.,Birch,warehouseman,
+resident,KEENE STREET,7,,,James,Payne,ironwkr,
+resident,KEENE STREET,9,,,Robert,Loveridge,,
+resident,KEENE STREET,11,,,Ed. J.,Williams,roller,
+resident,KEENE STREET,13,,,Frank,Priestnall,ironwkr,
+resident,KEENE STREET,15,,,Samuel,Berry,ironwrkr,
+resident,KEENE STREET,17,,,John,Whiting,ironwrkr,
+resident,KEENE STREET,,,,,Vacant sites,,
+cross_street,KENSINGTON PL.,,,,,,,(return)
+resident,KENSINGTON PL.,10,,,J.,Edwards,boilermaker,
+resident,KENSINGTON PL.,8,,,Job,Davies,ironworker
+resident,KENSINGTON PL.,6,,,Alfred,Davies,do
+resident,KENSINGTON PL.,4,,,Fred.,Bloor,do
+resident,KENSINGTON PL.,2,,,Rd.,Lockley,do
+street,KELVEDON STREET,,,,,,,D 3
+cross_street,KELVEDON STREET,,,,,,,Off Corporation-road
+cross_street,KELVEDON STREET,,,,,,,[RIGHT HAND SIDE.]
+resident,KELVEDON STREET,2,,,George,Wilkey,,
+resident,KELVEDON STREET,4,,,,Void,,
+resident,KELVEDON STREET,6,,,James,Stone,dk. labourer
+resident,KELVEDON STREET,8,,,,Void,,
+resident,KELVEDON STREET,10,,,James,Russell,ironwrkr
+resident,KELVEDON STREET,,,,,Vacant sites,,
+cross_street,KELVEDON STREET,,,,,,,(return)
+resident,KELVEDON STREET,,,,,Vacant sites,,
+resident,KELVEDON STREET,7,,,Thos.,Sheppard,ironworker
+resident,KELVEDON STREET,9,,,Wm.,London,do
+resident,KELVEDON STREET,,,,J. H.,Williams,builder and contractor,
+street,KENILWORTH ROAD,,,,,,,D 2
+cross_street,KENILWORTH ROAD,,,,,,,Chepstow-road, Cross Hands
+cross_street,KENILWORTH ROAD,,,,,,,[LEFT HAND SIDE.]
+resident,KENILWORTH ROAD,1,,,Fredk. Jno.,Pugh,,
+resident,KENILWORTH ROAD,3,,,Henry,Waters,rivet mkr
+resident,KENILWORTH ROAD,5,,,Thos. Wm.,Popplewell,,
+resident,KENILWORTH ROAD,9,,,—,Gapper,,
+resident,KENILWORTH ROAD,11,,,William,Nicholls,rivetter
+resident,KENILWORTH ROAD,13,,,Norman D.,Brant,,
+resident,KENILWORTH ROAD,15,,,Wm. Henry,Butt,clerk
+resident,KENILWORTH ROAD,17,,,Ivor,Popham,baker
+resident,KENILWORTH ROAD,19,,,Fredk. Robt.,Taylor,cycle mechanic
+cross_street,KENILWORTH ROAD,,,,,,,(return)
+resident,KENILWORTH ROAD,20,,,William,Neile,ironworker
+resident,KENILWORTH ROAD,18,,,Wm.,Morris,sheetweigher
+resident,KENILWORTH ROAD,16,,,Gilbert Chas.,Harris,,
+resident,KENILWORTH ROAD,14,,,Thomas,Anderson,electrical engineer
+resident,KENILWORTH ROAD,12,,,Wilfred J. M.,Moore,,
+resident,KENILWORTH ROAD,10,,,Walter E.,Thomas,managr
+resident,KENILWORTH ROAD,8,,,Edward J.,Ward,,
+resident,KENILWORTH ROAD,6,,,,Void,,
+resident,KENILWORTH ROAD,4,,,Mrs. Sarah,Penney,,
+resident,KENILWORTH ROAD,2,,,Chas.,Taylor,Skidmore
+street,KENSINGTON GROVE,,,,,,,D 3
+cross_street,KENSINGTON GROVE,,,,,,,Near Kensington-place
+cross_street,KENSINGTON GROVE,,,,,,,[LEFT HAND SIDE.]
+resident,KENSINGTON GROVE,3,,,Richard,Lewis,,
+resident,KENSINGTON GROVE,5,,,William,Holder,,
+resident,KENSINGTON GROVE,7,,,H. S.,Eales,,
+resident,KENSINGTON GROVE,9,,,Mrs. Sarah,Hatfield,,
+cross_street,KENSINGTON GROVE,,,,,,,(return)
+resident,KENSINGTON GROVE,12,,,,Void,,
+resident,KENSINGTON GROVE,10,,,Herbert W.,Clarke,,
+resident,KENSINGTON GROVE,8,,,,Void,,
+resident,KENSINGTON GROVE,6,,,James M.,Hall,,
+resident,KENSINGTON GROVE,4,,,W.,Graves,police inspectr
+resident,KENSINGTON GROVE,2,Grove house,S.,Ogle,,
+street,KENSINGTON PL.,,,,,,,D 3
+cross_street,KENSINGTON PL,,,,,,,From 175 Chepstow-road
+cross_street,KENSINGTON PL,,,,,,,[LEFT HAND SIDE.]
+resident,KENSINGTON PL.,1-2,,,F. S.,Dauncey,solicitor
+resident,KENSINGTON PL.,3,,,Harvey J.,Locke,,
+resident,KENSINGTON PL.,4,,,,Void,,
+resident,KENSINGTON PL.,5,,,John,Pitt,,
+resident,KENSINGTON PL.,6,,,The Misses,Lloyd,,
+resident,KENSINGTON PL.,7,,,,Void,,
+resident,KENSINGTON PL.,8,,,A. R.,Petty,Bd. of Trade
+resident,KENSINGTON PL.,9,,,,Void,,
+resident,KENSINGTON PL.,10,,,John,Platt,,
+resident,KENSINGTON PL.,11,,,Samuel,Little,,
+resident,KENSINGTON PL.,12,,,Charles Claridge,Brewer,,
+resident,KENSINGTON PL.,13,,,Ivor M.,Jones,,
+resident,KENSINGTON PL.,14,,,Mrs.,Perry,,
+resident,KENSINGTON PL.,15,,,Alfred F.,Tysoe,,
+resident,KENSINGTON PL.,16,,,Benjamin,Lawrence,,
+resident,KENSINGTON PL.,17,,,Albert Edward,Whitcutt,,
+resident,KENSINGTON PL.,18,,,Rev. George,Brain,,
+resident,KENSINGTON PL.,19,,,John S.,Watchman,,
+resident,KENSINGTON PL.,20,,,J. T.,Enstone,,
+resident,KENSINGTON PL.,21,,,Miss,Richards,ladies' sch
+resident,KENSINGTON PL.,,,,Sidney G.,Burge,,
+resident,KENSINGTON PL.,22,,,,Void,,
+resident,KENSINGTON PL.,23,,,William L.,Morris,,
+resident,KENSINGTON PL.,24,,,Chas. E.,Gower,,
+resident,KENSINGTON PL.,25,,,Ronald C.,Huggett,,
+resident,KENSINGTON PL.,26,,,F. W. B.,Southern,,
+resident,KENSINGTON PL.,27,,,F. H.,Dauncey,solicitor
+cross_street,KENSINGTON PL.,,,,,,,here is Victoria-lane
+resident,KENSINGTON PL.,28,Kensington h,F.,Wheeler,,
+resident,KENSINGTON PL.,29,Harlyn,W. T.,Bond,,
+resident,KENSINGTON PL.,30,,,Ernest,Lawrence,,
+resident,KENSINGTON PL.,31,R. H. M.D.,Burpitt,,
+resident,KENSINGTON PL.,32,Rockleigh,John,Price,,
+resident,KENSINGTON PL.,33,High view,Calvin,Frost,,
+resident,KENSINGTON PL.,34,Gaerwood,Alfred,Searle,,
+cross_street,KENSINGTON PL.,,,,,,,(return)
+resident,KENSINGTON PL.,35,Loxhore,Fredk. Willis,Peard,,
+cross_street,KENSINGTON PL.,,,,,,,OAKLANDS ROAD
+resident,KENSINGTON PL.,,Oaklands,W. J.,Lloyd,,
+resident,KENSINGTON PL.,,Cefn pare,G. F.,Colborne,,
+resident,KENSINGTON PL.,,,,CH.,S. JOHN EVANGELIST,
+resident,KENSINGTON PL.,37,Caerwent,Miss H.,Gwyther,,
+resident,KENSINGTON PL.,38,Longleat, buildr,T.,Prosser,,
+street,KIMBERLEY TERRACE,,,,,,,B 4
+cross_street,KIMBERLEY TERRACE,,,,,,,See Malpas-road
+street,KING'S CHAMBERS,,,,,,,
+cross_street,KING'S CHAMBERS,,,,,,,See 67 High-street
+street,KING'S HILL.,,,,,,,D 5
+cross_street,KING'S HILL.,,,,,,,From Palmyra-place
+resident,KING'S HILL.,,,King's hill ho,L.,Llewellyn,,
+street,KINGSMILL GARDENS.,,,,,,,D 5
+cross_street,KINGSMILL GARDENS.,,,,,,,See Clyffard-crescent and Tunnel-terrace

@@ -1,0 +1,144 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,,7,,Jas.,Francis,labourer,Pen-y-graig
+resident,,8,,Rich.,Davies,,Derwen ho
+resident,,9,,,,Void,
+cross_street,,,,,,,(Return.)
+resident,,30,,Charles,Drummond,,
+resident,,31,,Albert N.,Morgan,mason,
+resident,,32,,S. F.,Stephens,ironworkr
+resident,,33,,Chas.,McCarthy,lathrendr
+resident,,34,,Rbt.,Jordan,cabinetmakr
+resident,,35,,Ralph J.,Hackett,clerk,
+resident,,35,,Mrs.,Jones,,Sea-view cot.
+resident,,56,,Payne,Trayton,,
+resident,,58,,Geo.,Bond,telegraphist
+resident,,60,,Wm.,Smith,timber inspt
+resident,,62,,Evan,Davies,,
+cross_street,,,,,,,Entrance to Crindau-rd.
+resident,,,All Saints' Vicarage,Rev. C.,Bennett,,All Saints'
+cross_street,,,,,,,(return.)
+resident,,,,John,Jones,,Morthoe
+street,Brynglas Crescent,,,,,,Redland-street to Crindau-rd
+resident,Brynglas Crescent,1,,John,Vawer,,
+resident,Brynglas Crescent,3,,,,Void,
+resident,Brynglas Crescent,5,,Wm.,Goodwin,carpenter,
+resident,Brynglas Crescent,7,,Ralph H. C.,Otton,supt. attendance officer,
+resident,Brynglas Crescent,9,,Wm.,Griffiths,gasworks,
+resident,Brynglas Crescent,11,,Arthur F.,Moore,,
+resident,Brynglas Crescent,13,,Joseph W.,Young,tailor,
+resident,Brynglas Crescent,15,,Austin,Mackay,engineer,
+resident,Brynglas Crescent,17,,Andrew,Larsen,rigger,
+street,Brynglas Road,,,,,,From Malpas-road.
+cross_street,Brynglas Road,,,,,,[RIGHT HAND SIDE.]
+resident,Brynglas Road,,,,,Bartlett Archibald,
+resident,Brynglas Road,4,,Chas.,Wilkins,mason,
+resident,Brynglas Road,6,,W. H.,Astbury,labourer,
+resident,Brynglas Road,8,,David,Jones,factory,
+resident,Brynglas Road,10,,J. P.,McLaren,M.B.,
+resident,Brynglas Road,12,,Chas.,Bickley,L. & N.W.R.
+resident,Brynglas Road,14,,Mrs. A. J.,Phillips,,
+resident,Brynglas Road,16,,John,Piaggi,modeller,
+resident,Brynglas Road,18,,William,Stokes,,
+resident,Brynglas Road,20,,Arthur,Rowley,grocer,
+resident,Brynglas Road,22,,Wm.,Nind,assistant,
+resident,Brynglas Road,24,,—,Hammond,,
+resident,Brynglas Road,26,,Morris,John,mariner,
+resident,Brynglas Road,28,,Henry,Bowen,nailmaker,
+resident,Brynglas Road,30,,William John,Matthews,,
+resident,Brynglas Road,32,,Thos.,Thomas,pat. maker,
+resident,Brynglas Road,34,,Thos.,Watkins,traveller,
+resident,Brynglas Road,36,,Chas. L.,Lewis,milkman,
+cross_street,Brynglas Road,,,,,,here is Chelston-place.
+resident,Brynglas Road,38,,Edmund,Jones,clerk,
+resident,Brynglas Road,40,,Walton,Evans,factory,
+resident,Brynglas Road,42,,Philip,Olds,,
+resident,Brynglas Road,44,,George,Elkins,,
+resident,Brynglas Road,46,,Charles,Teague,Henry
+resident,Brynglas Road,48,,John,Taylor,,
+resident,Brynglas Road,50,,Edwin,Jackson,,
+resident,Brynglas Road,52,,Henry,Watson,clerk,
+resident,Brynglas Road,54,,John Stephen,Winn,,
+resident,,51,,Thos.,Edwards,labourer,
+resident,,52,,Mrs. Marie,Salmon,,
+resident,,53,,Arthur,Degarty,painter,
+resident,,54,,John,Bransfield,ins. agt,
+resident,,55,,James,Barnett,tailor,
+resident,,56,,William,Shean,labourer,
+resident,,57,,John,Redmore,,
+resident,,58,,A. T.,Broom,haulier,
+resident,,59,,F.,Morris,machine ruler,
+resident,,60,,W. M.,Banks,baker,
+resident,,61,,Edwd.,Knight,shopkeepr,
+cross_street,,,,,,,here is Hereford-street.
+resident,,62,,Alfred,Moore,dealer,
+resident,,63,,John,Davies,tailor,
+resident,,64,,Edwd.,Morgan,labourer,
+resident,,65,,John,Newberry,factory,
+resident,,66,,David,Elliott,mason,
+resident,,67,,Thomas,Tucker,labourer,
+resident,,68,,Philip,Porter,caretaker,
+resident,,69,,Wm. T.,Goddard,lab'rer,
+resident,,70,,William,Brown,wireman,
+resident,,71,,Mrs. Annie,McDougall,,
+resident,,72,,Tom,Edwards,platelayer,
+resident,,73,,John,Atfield,shoemaker,
+resident,,74,,Henry,Matthews,lab'rer,
+resident,,75,,Geo.,Mundon,sugar boiler,
+resident,,76,,James F.,Carr,guard,
+street,Broad Street, P.,,,,,,Frederick-st. to Portland-st.
+resident,Broad Street, P.,,,,Wm. Pope,plasterer's yard,
+resident,Broad Street, P.,1,,John,Bridge,labourer,
+resident,Broad Street, P.,2,,Francis A.,Bordessa,steward,
+resident,Broad Street, P.,3,,John,Tasker,trimmer,
+resident,Broad Street, P.,4,,Mrs. Ann,Davies,,
+resident,Broad Street, P.,5,,& Jewell,White,wheelw'ghts
+resident,Broad Street, P.,6,,Daniel,Mahoney,trimmer,
+resident,Broad Street, P.,7,,J. B.,Morgan,assistant,
+resident,Broad Street, P.,8,,John,McCarthy,trimmer,
+resident,Broad Street, P.,,,Charles,Waite,brassfounder,
+street,Brodawell Gardens,,,,,,See York-place.
+street,Broseley Terrace, M.,,,,,,See Fair Oak-avenue.
+street,Brynderwen Road, M.,,,,,,From Victoria-avenue to Christchurch-road.
+resident,Brynderwen Road, M.,1,,Alfred,Oates,,
+resident,Brynderwen Road, M.,2,,George Henry,Bannister,,
+resident,Brynderwen Road, M.,3,,F. S.,Portnell,,
+resident,Brynderwen Road, M.,4,,R. S.,Roberts,,
+resident,Brynderwen Road, M.,5,,Francis W.,Fry,,Pen-y-dre
+resident,Brynderwen Road, M.,6,,Joseph,Firbank,,Pen-y-lan
+street,Bryngwyn Road,,,,,,From 13 Clytha-park-road.
+cross_street,Bryngwyn Road,,,,,,[RIGHT-HAND SIDE.]
+resident,Bryngwyn Road,2,,Wm.,Tanner,,The Leys
+resident,Bryngwyn Road,4,,H. J.,Pillinger,,Downfield
+resident,Bryngwyn Road,6,,Mrs. M.,Quarm,,Arbaland
+resident,Bryngwyn Road,,,F.,Parry,,
+resident,Bryngwyn Road,8,,Geo. T.,Taylor,,Brookfield
+resident,Bryngwyn Road,10,,Arth.,Leveson,,St. Helier
+resident,Bryngwyn Road,12,,T.,Phillips,,Gwynfryn
+resident,Bryngwyn Road,14,,W. Guy,Browne,,Caersws
+resident,Bryngwyn Road,,,J. D.,Whittaker,,
+resident,Bryngwyn Road,16,,T. M.,Prosser,,Wembley
+resident,Bryngwyn Road,18,,Misses,Evans,,
+resident,Bryngwyn Road,20,,Robert,Hyslop,,
+resident,Bryngwyn Road,22,,Mrs. M. E.,Clarke,,Glenbro'k
+resident,Bryngwyn Road,24,,Mrs. F. E.,Willcox,,Croham-hurst
+resident,Bryngwyn Road,,,H. J.,Willcox,,[hurst]
+resident,Bryngwyn Road,26,,Wm.,Ball,,Ridgebourn
+resident,Bryngwyn Road,28,,Sol.,Barnett,,Laleham
+resident,Bryngwyn Road,30,,G. F.,Crabbe,,Brooklands
+resident,Bryngwyn Road,32,,George L.,Scott,,
+resident,Bryngwyn Road,34,,John W.,Atkins,,
+resident,Bryngwyn Road,36,,John,Mathias,,
+resident,Bryngwyn Road,38,,L. L.,Morris,,Wimborne
+resident,Bryngwyn Road,,,Miss,Morris,masseuse,
+cross_street,Bryngwyn Road,,,,,,(return.)
+resident,Bryngwyn Road,,,Six villas building,,,
+resident,Bryngwyn Road,17,,Jones J.,Andrews,,Canol-y-rhiw
+resident,Bryngwyn Road,15,,Hy.,Longstaff,,Ashbrook
+resident,Bryngwyn Road,13,,Hy. C.,Lewer,,Abbotsford
+resident,Bryngwyn Road,11,,W. J.,Traylor,,Wyvenhoe
+resident,Bryngwyn Road,9,,W. Nant,Joseph,Herbert
+resident,Bryngwyn Road,5,,Rev. E.,Skinner,Walrond,Trevaine
+resident,Bryngwyn Road,3,,J. O. K.,Gething,,Cargate
+resident,Bryngwyn Road,1,,Mrs. R. M.,Williams,,Pen-craig
+street,Brynhyfryd Road,,,,,,Stow-hill to Clyffard-crescent.
+street,Burleigh Road,,,,,,Bryngwyn-rd. to Llanthewy-rd

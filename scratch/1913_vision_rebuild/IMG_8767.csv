@@ -1,0 +1,101 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,High Street,,,,,,
+resident,High Street,,,Newport Builders' Supply Ltd.,,,,
+cross_street,High Street,,,,,,here is Screw Packet-road and Dock-street
+resident,High Street,3,Old Green Hotel,George F.,Bees,,,
+resident,High Street,4,Bristol Dining Rooms,Mrs. S.,James,,,
+resident,High Street,5,,,Albert,Smith,chemist and surgeon dentist,
+resident,High Street,6,Great Western Dining Rooms,Hy.,Dowdall,,,
+resident,High Street,7,,,Newport & County Club,,,
+resident,High Street,8,King's Head Hotel,Blackburn & Co.,,"proptrs",
+cross_street,High Street,,,,,,Carpenters' Arms-lane
+resident,High Street,9,,,John & Co., Ltd.,Dobell,wine and spirit merchants,
+resident,High Street,10A,,,H.,Wauters,confectioner,
+resident,High Street,10,,,H.,Phillips,tobacconist,
+resident,High Street,,,,Gould & Co.,,turf com. agts,
+resident,High Street,,,,H. Meyrick,Williams,solicitor,
+resident,High Street,,,,Cardiff & South Wales Mercantile Offices,,,medical agents; accountants; and surveyors
+resident,High Street,11,,,E. & Sons,Fennell,fishmongers; poulterers; etc.,
+cross_street,High Street,,,,,,here is Market-arcade
+resident,High Street,,Arcade Chambers,Hy.,Hammer,corn merchant,
+resident,High Street,,Arcade Chambers,James,Stevens,auctioneer,
+resident,High Street,,Arcade Chambers,Frank,Lewis,solicitor and commissioner for oaths,
+resident,High Street,,Arcade Chambers,W. Pitt,Lewis,solicitor,
+resident,High Street,,Arcade Chambers,Hearts of Oak Insurance Co. Ltd.,,,"H. W. Hill, dist, mgr"
+resident,High Street,25,,,Robert & Co.,Scott,boot dealers,
+resident,High Street,,Griffiths Chambers,Harold E.,Griffiths,member Incorporated Dental Socty,
+resident,High Street,,Griffiths Chambers,W. E. & Co.,Freeguard,stock and share brokers,
+resident,High Street,,Griffiths Chambers,,Dura,photographer,
+resident,High Street,,Griffiths Chambers,Alfred,Bradburn,quantity surveyor,
+resident,High Street,3,Griffiths Chambers,Harold,Griffiths,"(F.C.I.B.A.) & Co., incorpt. insurance brokers",
+resident,High Street,12-13,,,W. E. & Co., Ltd.,Evans,bootmakers,
+resident,High Street,14,,,South Wales Argus and Weekly Argus Office,,,
+resident,High Street,15,,,C. E.,Keene,tobacconist and hairdresser,
+resident,High Street,16,,,John H.,Dean,tailor,
+resident,High Street,17-18,Bunch of Grapes,Wm.,Gregory,,,
+resident,High Street,19,,,E. P., Ltd.,Lawler,house furnishers,
+resident,High Street,20,,,Lovell & Co.,confectioners,
+resident,High Street,,,,Seaton Burridge,,,specialists in hair and ladies' hairdressers,
+resident,High Street,21,Old Ship,J.,Derrett,,,
+cross_street,High Street,,,,,,here is Market-street
+resident,High Street,22,Western Mail Office,C. H.,Langmaid,house and estate agent [Society,Star Permanent Money
+resident,High Street,,,,Western Navigation Coal Company-R. P. Kilmister,,,manager
+resident,High Street,,,,Monmouthshire & S. Wales Boot Co. Ltd.,,,
+resident,High Street,,,,London & Manchester Industrial Assurance Co. Ltd.-H. B. Hawkes,,,superintendent [1st
+resident,High Street,22A,,,Eric,Rees,eyesight specialist,
+resident,High Street,22B,The City Tailoring Co.,,,,
+resident,High Street,23,,,H.,Samuel,jeweller; etc.,
+resident,High Street,23A,,,Stead & Simpson, Ltd.,"'National' boot manufacturers",
+cross_street,High Street,,,,,,Entrance to the Market
+resident,High Street,23B,,,Lloyd & Yorath, Ltd.,brewers; wine and spirit merchants; and mineral water manufacturers,
+resident,High Street,,,,T. A.,Hince,Crown Wine Vaults,
+resident,High Street,24B,,,Artie,Phillips,hosier; etc.,
+resident,High Street,,,,Clifford,Harris,tailor; etc.,
+resident,High Street,24,,,O. G.,Bland,confectioner,
+resident,High Street,,,,A. J.,Esdaile,optician and surveying instrument maker,
+resident,High Street,25,,,John & Sons,Purser,jewellers & watchmakers,
+resident,High Street,26,,,Alf.,Simmonds,hatter; &c.,
+resident,High Street,26A,,,H.,Samuel,jeweller,
+resident,High Street,,Griffin Chambers,Joseph & Sons,May,wholesale clothiers,
+resident,High Street,,Griffin Chambers,Gregory & Phillips,,,auctioneers; valuers; house; and estate agents
+resident,High Street,,Griffin Chambers,J. Francis,Jupp,"A.M.I.C.E., civil engineer",
+cross_street,High Street,,,,,,here is Griffin-street
+resident,High Street,,Kelvin Chambers,Hunter & White,,,solicitors; notaries; and com oaths
+resident,High Street,,Kelvin Chambers,Atkins & Co.,,,house agts
+resident,High Street,27,,,Cecil & Co., Ltd.,outfitters and drapers,
+resident,High Street,27A,Void,,,,,,
+resident,High Street,28,,,E. & Sons,Hall,family grocers at store prices; agents for W. and A. Gilbey's wines and spirits; and Whitbread's ales and stouts in bottles. Tel. 275,
+resident,High Street,,,,Bland & Sons, Ltd.,,"'The Mikado'",
+resident,High Street,,Winchester Chambers,Wm. C.,Hall,solicitor,
+resident,High Street,,Winchester Chambers,H.,Akers,engraver,
+resident,High Street,,Winchester Chambers,A. E.,Sheppard,architect and surveyor,
+resident,High Street,29,,,Fred, Ltd.,Burn,tailors,
+resident,High Street,30,,,Cash & Co.,boot manufacturers,
+resident,High Street,,Pembroke Chambers,C.,Morgan,dentist,
+resident,High Street,,Pembroke Chambers,J.,Clarke,accountant,
+resident,High Street,,Pembroke Chambers,Minerva Mutual Money Society-J. A. Head,,,secty.
+resident,High Street,,Pembroke Chambers,John,Hillman,house agt,
+resident,High Street,,Pembroke Chambers,Jack,Tann,commission agt,
+resident,High Street,31-32,,,Hodges & Sons (cloths) Ltd.,,,
+resident,High Street,33,United Counties Bank,,,,,,
+resident,High Street,,Gloucester Chambers,Le Brasseur & Co.,,,solicitors First Floor
+resident,High Street,,Gloucester Chambers,Moore (Lyndon) & Cooper,,,solicitors
+resident,High Street,,Gloucester Chambers,W. Lyndon,Moore,"solicitor; Borough Coroner; commissioner for oaths",
+resident,High Street,,Gloucester Chambers,F. Lyndon,Cooper,"solicitor; commissioner for oaths and Deputy Coroner",
+resident,High Street,,Gloucester Chambers,Wm.,Baker,"registrar of births and deaths (13-14) Second Floor",
+resident,High Street,,Gloucester Chambers,John,Powell,"iron and steel merchant (23)",
+resident,High Street,,Gloucester Chambers,W. Calvin,Thomas,"local manager Scottish Temp. Life Assurance Co. Ltd.",
+cross_street,High Street,,,,,,here is Skinner-street and Commercial-street
+cross_street,High Street,,,,,,[return]
+resident,High Street,,,,Nat. Provincial Bank Ltd.-W. T. Duke Williams,,,manager
+resident,High Street,34,,,S. M.,Bowen,tobacconist,
+resident,High Street,35-35A,Cordey's Stores, Ltd.,,,,
+resident,High Street,36,,,S. Wales Tobacco Manufacturing Co., Ltd.,,,
+resident,High Street,37,,,Walter H.,Williams,wine and spirit merchant,
+resident,High Street,38,,,J. & Co.,Barter,tailors,
+resident,High Street,38A,Donegal Tweed Co.,,,,
+resident,High Street,,,,Peglers' Stores Ltd.,,,provision merchants
+resident,High Street,,Emlyn Chambers,J. D.,Gunn,tailor,
+resident,High Street,,Emlyn Chambers,C.,Fuller,teeth adaptor,
+resident,High Street,39-40,,,Masters & Co. (Clothiers), Ltd.,Cardiff & Swansea-E. Whitsun Jones; mgr,
+resident,High Street,,,Wm. F.,Blake,photographer,

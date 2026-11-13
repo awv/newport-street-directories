@@ -1,0 +1,174 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,CAR,13,,Saml.,Pursehouse,roller,"NEWPORT STREET DIRECTORY."
+resident,CAR,15,,J. C.,Morgan,engineer,
+resident,CAR,17,,William G.,Shaw,polisher,
+resident,CAR,19,,Jabez,Bambridge,sawyer,
+resident,CAR,21,,Jas.,Bickerton,ironworker,
+resident,CAR,23,,John,Pugsley,labourer,
+resident,CAR,,,Hamlet,Hopkins,stlwrkr,
+resident,CAR,25,,Fredk. Wm.,Hall,G.W.R.,
+resident,CAR,27,,Mrs. Hilda,Bowen,,
+resident,CAR,29,,Joseph,Motlow,ironworker,
+resident,CAR,31,,Vincent,Davey,labourer,
+resident,CAR,,,Edward,Hayes,crane driver,
+resident,CAR,33,,Mrs. Sarah A.,Hughes,,
+resident,CAR,35,,E. A.,Gilbert,eng driver,
+resident,CAR,37,,Cecil Geo.,Ward,draper,
+cross_street,CAR,,,,,,Vacant sites
+cross_street,CAR,,,,,,(return)
+cross_street,CAR,,,,,,Vacant sites
+building,CAR,,,House building,,,
+resident,CAR,36,,Mrs. Flossie,West,,
+resident,CAR,34,,Daniel W.,Pope,printer,
+resident,CAR,,,Wm. H.,Morgan,assistant,
+resident,CAR,32,,Eli,Harvey,ironworker,
+resident,CAR,30,,William,Powell,keeper,
+resident,CAR,28,,Robert,Hodge,architect,
+resident,CAR,26,,Mrs. Isabella,Henderson,,
+resident,CAR,24,,A. G.,Porter,piano tuner,
+resident,CAR,22,,Edward,Cogbill,G.W.R.,
+resident,CAR,20,,Wm. E.,Minor,electrtcian,
+resident,CAR,18,,Hubert,Perkins,assistant,
+resident,CAR,,,G. cold,Bird,roller,
+resident,CAR,16,,Tom M.,Pritchard,clerk,
+resident,CAR,14,,Ed. T.,Adams,signalman,
+resident,CAR,12,,A. M.,Nelson,piano tuner,
+resident,CAR,10,,George,Payne,,
+resident,CAR,8,,Hanbury J.,Davies,potter,
+resident,CAR,6,,Mrs. Ellen,Devney,,
+resident,CAR,4,,Albert C.,Thomas,baker,
+resident,CAR,2,,Mrs. Clara,Smith,,
+street,CARLISLE PLACE,,,,,,C 5
+cross_street,CARLISLE PLACE,,,,,,Nos. 1 to 10 North-street
+street,CARLISLE STREET,,,,,,E 5
+cross_street,CARLISLE STREET,,,,,,From Alexandra-road
+cross_street,CARLISLE STREET,,,,,,(RIGHT HAND SIDE)
+resident,CARLISLE STREET,1,,Wm.,Sanders,maltster,
+resident,CARLISLE STREET,2,,George B.,Davies,fitter,
+resident,CARLISLE STREET,,,J. S.,Mogford,dairyman,
+resident,CARLISLE STREET,3,,Luke,Rogers,dk labourer,
+resident,CARLISLE STREET,4,,John H.,Kidman,dock labourer,
+resident,CARLISLE STREET,5,,Edwin,Fowle,ins agent,
+resident,CARLISLE STREET,,,Henry J.,Morgan,G.W.R.,
+resident,CARLISLE STREET,6,,Mrs. Julia,Ray,,
+resident,CARLISLE STREET,7,,David,Evans,G.W.R.,
+resident,CARLISLE STREET,,,Lionel,Llewellyn,G.W.R.,
+resident,CARLISLE STREET,8,,Mrs. Amelia,Boon,,
+cross_street,CARLISLE STREET,,,,,,(return)
+resident,CARLISLE STREET,9,,Mrs. Annie,Becker,,
+resident,CARLISLE STREET,10,,W. H.,Lewis,Hazeldene,
+resident,CARLISLE STREET,11,,Mrs. Ellen L.,Stevens,,
+resident,CARLISLE STREET,12,Wyndcliffe,John E.,Garrett,blrmkr,
+resident,CARLISLE STREET,13,Claremont,Mrs. Elizabeth M.,James,,
+street,CARLTON CHAMBERS,,,,,,
+cross_street,CARLTON CHAMBERS,,,,,,See 43 High-street
+street,CAROLINE STREET,,,,,,D 4
+cross_street,CAROLINE STREET,,,,,,From 64 Dock-street
+cross_street,CAROLINE STREET,,,,,,(LEFT HAND SIDE)
+resident,CAROLINE STREET,1,,W.,Montgomery,boatman
+resident,CAROLINE STREET,2,,Richard,Brown,smith
+resident,CAROLINE STREET,3,,Jorgen,Anson,steelwrkr
+resident,CAROLINE STREET,4,,Hy. F.,Porter,greengr'er
+resident,CAROLINE STREET,5,,John,Manley,labourer
+resident,CAROLINE STREET,6,,William,Dacey,gas worker
+resident,CAROLINE STREET,7,,John,Morrish,labourer
+resident,CAROLINE STREET,8,,Thos. H.,Davies,doubler
+resident,CAROLINE STREET,9,,W.,James,dock labourer
+resident,CAROLINE STREET,10,,Edw. iron wkr,Lenahan,,
+resident,CAROLINE STREET,11,,Benj. V.,Rogerson,labr.
+resident,CAROLINE STREET,12,,Mathew,Dacey,labourer
+resident,CAROLINE STREET,13,,Chas.,Coombs,ironmouldr
+resident,CAROLINE STREET,14,,Mrs. Susan,Perkins,,
+resident,CAROLINE STREET,15,,Edwrad,Twohigg,labr
+resident,CAROLINE STREET,15a,,Wm.,Clarke,striker
+resident,CAROLINE STREET,15b,,F.,Hart,sugar boiler
+resident,CAROLINE STREET,15c,,Dennis,McCarthy,labr
+cross_street,CAROLINE STREET,,,,,,(return)
+resident,CAROLINE STREET,16,,Henry,Whitney,carpenter
+resident,CAROLINE STREET,17,,Alf. J.,Teakle,blacksmith
+resident,CAROLINE STREET,18,,William,Hobbs,labourer
+resident,CAROLINE STREET,19,,Wm.,Alford,labourer
+resident,CAROLINE STREET,20,,Jeremiah,Shea,labourer
+resident,CAROLINE STREET,21,,Fletcher,Smith,pole drsr
+resident,CAROLINE STREET,22,,William,Sefton,labourer
+resident,CAROLINE STREET,23,,John F.,Elliott,chaffeur
+resident,CAROLINE STREET,24,,Edwin W.,Radmore,blkist
+resident,CAROLINE STREET,25,,G. H.,Cook,checker
+resident,CAROLINE STREET,26,,Mrs. Mary Ann,Cook,,
+resident,CAROLINE STREET,27,,Jas.,Stevens,G.W.R.
+resident,CAROLINE STREET,28,,Mrs. Elizabeth,May,,
+street,CARPENTERS' ARMS LANE,,,,,,
+cross_street,CARPENTERS' ARMS LANE,,,,,,From 8 High-street
+street,CASTLE PRECINCTS,,,,,,C 4
+cross_street,CASTLE PRECINCTS,,,,,,From 1 Shaftesbury-street
+resident,CASTLE PRECINCTS,3,,Alfd.,Williams,wireman
+resident,CASTLE PRECINCTS,4,,Wm. Chas.,Thomas,labr
+resident,CASTLE PRECINCTS,5,,Thomas,Roberts,,
+street,CASTLE STREET,,,,,,E 4
+cross_street,CASTLE STREET,,,,,,From Potter-st. to Church-st.
+cross_street,CASTLE STREET,,,,,,(LEFT HAND SIDE)
+resident,CASTLE STREET,1a,,Dl. Thos.,Powell,gateman
+resident,CASTLE STREET,1b,,Evan,Lewis,labourer
+resident,CASTLE STREET,1,,William J.,Cousins,labr
+resident,CASTLE STREET,3,,Wm.,Cotterill,fireman
+resident,CASTLE STREET,5,,Geo.,Pritchard,labourer
+resident,CASTLE STREET,7,,Wm.,Buckley,labourer
+resident,CASTLE STREET,9,,Mrs. Edith,Dermody,,
+resident,CED,11,,W.,Manship,labourer,
+resident,CED,13,,Thos.,Blackley,fireman,
+resident,CED,15,,Mrs. Ann,Murphy,,
+resident,CED,17,,Daniel,Hart,labourer,
+resident,CED,19,,R. C.,Kewell,crane driver,
+resident,CED,21,,George,Dale,goods guard,
+resident,CED,23,,Fred.,Harwood,weigher,
+cross_street,CED,,,,,,here is Linton-street
+resident,CED,25,,Miss Mary Anne,Ryan,,
+resident,CED,27,,Stanley,Johnson,labourer,
+cross_street,CED,,,,,,here is Wallis-street
+resident,CED,29,,Michl. J.,McCarthy,trimr
+resident,CED,31,,Robert,Pring,hobbler
+cross_street,CED,,,,,,here is Wilson-street
+resident,CED,33,,James,Mellon,labourer
+building,CED,,,Ukside Engineering Wks,,,
+cross_street,CED,,,,,,here is St. Michael-street
+resident,CED,22,,John,Hansen,grocer
+resident,CED,20,,Hy.,Russell,
+resident,CED,18,,James,Duggan,labourer
+resident,CED,16,,Thomas,Scanlon,labourer
+resident,CED,14,,Geo. J.,Stewart,carpenter
+resident,CED,12,,Mrs. Kate,Thorne,
+resident,CED,10,,Nicholas,Kearns,labourer
+resident,CED,8,,Patrick,Murphy,moulder
+resident,CED,6,,William,Tait,dk labourer
+resident,CED,4,,Charles,Regan,ins agent
+resident,CED,2,,William,Lane,
+street,CAXTON PLACE,,,,,,C 5
+cross_street,CAXTON PLACE,,,,,,From 23 Bridge-street
+cross_street,CAXTON PLACE,,,,,,(LEFT HAND SIDE.)
+building,CAXTON PLACE,,,Lloyd's Stores,,,
+resident,CAXTON PLACE,1,,Stanley G.,Walters,auct'r
+resident,CAXTON PLACE,,,A. E.,Morgan,accountant
+resident,CAXTON PLACE,2,,John L.,Stevens,w clenr
+resident,CAXTON PLACE,3,,William,Price,tailor
+cross_street,CAXTON PLACE,,,,,,(return)
+resident,CAXTON PLACE,4,,George,Thomas,fish bar
+resident,CAXTON PLACE,5,,Ivor,Avery,seaman
+street,CEDAR ROAD,,,,,,C 4
+cross_street,CEDAR ROAD,,,,,,From 36 Chepstow-road to Corporation-road
+cross_street,CEDAR ROAD,,,,,,(LEFT HAND SIDE.)
+resident,CEDAR ROAD,1,,Miss M.,Young,teacher
+resident,CEDAR ROAD,3,,Arth. E.,Evans,Mona ho
+resident,CEDAR ROAD,5,,Tom,Parselle,Ellesmere
+resident,CEDAR ROAD,7,Amberley,R. P.,Kilmister,manager,
+resident,CEDAR ROAD,9,,E. A.,Hadden,inspector
+cross_street,CEDAR ROAD,,,,,,here is Bedford-road
+resident,CEDAR ROAD,11,,W.,Sherred,Knockley
+resident,CEDAR ROAD,13,,Miss Edith E.,James,,
+resident,CEDAR ROAD,15,,W. A.,Hutson,piano tuner
+resident,CEDAR ROAD,17,Earlswd,Mrs. S.,Crossman,,
+resident,CEDAR ROAD,19,Wakefield,Wm.,Prince,,
+resident,CEDAR ROAD,21,Chelwood ho,D.,Linton,,
+resident,CEDAR ROAD,23,,L.,Mogridge,grocer's asst
+cross_street,CEDAR ROAD,,,,,,here is Corporation-road
+cross_street,CEDAR ROAD,,,,,,(return)
+resident,CEDAR ROAD,20,The Laurels,Mrs. E.,Jones,,

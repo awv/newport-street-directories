@@ -1,0 +1,153 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Walsall Street,39,,,,,,Left hand side Corporation-rd
+resident,Walsall Street,39,,,Reginald,Howe,clerk,
+resident,Walsall Street,37,,,Robert,Powell,,
+resident,Walsall Street,35,,,Wm.,Morgan,ironworker,
+resident,Walsall Street,33,,,,,
+resident,Walsall Street,31,,,Thos.,Davies,furnaceman,
+resident,Walsall Street,29,,,James,Bell,com. agent,
+resident,Walsall Street,27,,,Emmanuel,Halford,,
+resident,Walsall Street,25,,,,,Void
+resident,Walsall Street,23,,,Joseph,Aston,ironworkr,
+resident,Walsall Street,21,,,H. W.,Bagnall,assistant,
+resident,Walsall Street,19,,,,,Void
+resident,Walsall Street,17,,,Luke,Noakes,ironworker,
+resident,Walsall Street,15,,,Alfred,Noakes,ironworkr,
+resident,Walsall Street,13,,,William,Ashburner,,
+resident,Walsall Street,11,,,Walter,Grey,ironworker,
+resident,Walsall Street,9,,,Frank,Stanton,gas fitter,
+resident,Walsall Street,7,,,Chas.,Edwards,stevedore,
+resident,Walsall Street,5,,,Henry,Tonks,,
+resident,Walsall Street,3,,,Richard H.,Collins,mason,
+resident,Walsall Street,1,,,Andrew,Aston,ironworkr,
+cross_street,Walsall Street,,,,,,[RIGHT HAND SIDE.]
+resident,Walsall Street,2,,,George,Wooton,ironwkr,
+resident,Walsall Street,4,,,J. C.,Minchin,ironworker,
+resident,Walsall Street,6,,,Wm.,Russell,ironworker,
+resident,Walsall Street,8,,,A. sen.,Attwood,carputr,
+resident,Walsall Street,10,,,J. E.,Griffiths,carpenter,
+resident,Walsall Street,12,,,W. J.,Warne,mason,
+resident,Walsall Street,14,,,Geo.,George,collier,
+resident,Walsall Street,,,,Wm.,Evans,tailor,
+resident,Walsall Street,16,,,W. H.,McMillan,ironwrk,
+resident,Walsall Street,18,,,John L.,Eatough,assisstnt,
+resident,Walsall Street,20,,,Anthony, jun.,Attwood,,
+resident,Walsall Street,22,,,Wm.,Davies,fitter,
+resident,Walsall Street,24,,,Wm. E.,Willey,,
+resident,Walsall Street,26,,,Jos. C.,Wilkes,ironwkr,
+resident,Walsall Street,28,,,T.,Halfpenny,bricklayer,
+resident,Walsall Street,30,,,Geo. W.,Edwards,ironwkr,
+resident,Walsall Street,32,,,Samuel,Neachell,ironwkr,
+resident,Walsall Street,34,,,Wm.,Wreford,ironworker,
+resident,Walsall Street,36,,,Saml.,Corbett,ironworker,
+resident,Walsall Street,38,,,Alexander,McMullen,,
+resident,Walsall Street,40,,,John T.,Tuff,ironworker,
+resident,Walsall Street,42,,,Rd.,Hutchings,ironwkr,
+resident,Walsall Street,44,,,Edward,Gustafson,,
+resident,Walsall Street,46,,,George,Payne,roller,
+resident,Walsall Street,48,,,Saml. R.,Cox,asst. mangr,
+resident,Walsall Street,50,,,Charles,Paynter,,
+resident,Walsall Street,52,,,,,Void
+resident,Walsall Street,54,,,Louis,Marchand,ironwkr,
+resident,Walsall Street,56,,,Thomas,Poole,,
+resident,Walsall Street,58,,,H. W.,Jones,ironworker,
+cross_street,Walsall Street,,,,,,Vacant sites
+cross_street,Walsall Street,,,,,,(return)
+cross_street,Walsall Street,,,,,,Vacant sites
+resident,Walsall Street,51,,,Wm.,Lovell,dock labr,
+resident,Walsall Street,49,,,David,Gough,ironworker,
+resident,Walsall Street,47,,,John Jos.,Brammah,,
+resident,Walsall Street,45,,,Thomas,Jones,,
+resident,Walsall Street,43,,,Dd.,Evans,draper,
+resident,Walsall Street,41,,,Edward,Ward,Ernest,
+resident,Walsall Street,26,,,,,Void
+resident,Walsall Street,24,,,,,Void
+resident,Walsall Street,22,,,Henry James,Musker,,
+resident,Walsall Street,20,,,,,Void
+resident,Walsall Street,18,,,Abraham,Eaton,,
+resident,Walsall Street,16,,,Hy. Howard,Evans,,
+resident,Walsall Street,14,,,Archibald,Blair,,
+resident,Walsall Street,12,,,Jonathan,Humphries,,
+resident,Walsall Street,10,,,Albert J.,Croft,tailor,
+resident,Walsall Street,8,,,W. J.,Brown,manager,
+resident,Walsall Street,6,,,Harry T.,Thomas,,
+resident,Walsall Street,4,,,Mrs. E.,Pask,,
+resident,Walsall Street,2,,,J. B.,Day,gardener,
+street,Warwick Road,E 2,,,,,,Between Eveswell and Cross Hands.
+cross_street,Warwick Road,,,,,,(Chepstow-road.)
+cross_street,Warwick Road,,,,,,[LEFT HAND SIDE.]
+resident,Warwick Road,1,,,George,Glover,,
+resident,Warwick Road,3,,,Herbert,Addicott,,
+resident,Warwick Road,5,,,W. B.,Edwards,,
+resident,Warwick Road,7,,,E. C. J.,Badger,,
+resident,Warwick Road,9,,,Samuel,Pursehouse,,
+resident,Warwick Road,11,,,,,Void
+cross_street,Warwick Road,,,,,,Houses building
+cross_street,Warwick Road,,,,,,Vacant sites
+cross_street,Warwick Road,,,,,,(return)
+cross_street,Warwick Road,,,,,,Vacant sites
+cross_street,Warwick Road,,,,,,Houses building
+resident,Warwick Road,12,,,Jas. Henry,Willis,,
+resident,Warwick Road,10,,,George W.,Cowie,,
+resident,Warwick Road,8,,,William,Lewis,,
+resident,Warwick Road,6,,,Frank,Greathead,,
+resident,Warwick Road,4,,,Herbert,Taylor,,
+resident,Warwick Road,2,,,Walter,Rowland,,
+street,Watchhouse Par.,F 5,,,,,,From Mill-parade.
+resident,Watchhouse Par.,1,,,Jesse H.,Smith,inspector,
+resident,Watchhouse Par.,2,,,Wm.,Phillis,fuel works,
+resident,Watchhouse Par.,3,,,Geo.,Phillis,fuel works,
+resident,Watchhouse Par.,4,,,Wm.,Yendall,coal trimr,
+resident,Watchhouse Par.,5,,,Mrs. R.,Morgan,,
+resident,Watchhouse Par.,,,Waterloo Hotel,F. T.,Ellis,,
+cross_street,Watchhouse Par.,,,,,,here is Alexandra-road.
+resident,Watchhouse Par.,13,,,,Minett,restaurant,
+resident,Watchhouse Par.,14,,,,Tuck & Co., Ltd.,India rubber merchants,
+resident,Watchhouse Par.,15,,,,Tuck & Co., Ltd.,India rubber merchants,
+resident,Watchhouse Par.,16,,,S.,Thorn,manager,
+resident,Watchhouse Par.,17,,,Cardiff Channel Dry Docks and Pontoon Co.'s,branch office,Wickett Thos. C.
+resident,Watchhouse Par.,18,,,,Wolfe & Co.,family grocers,
+resident,Watchhouse Par.,19,,,Richard,Brunt,butcher,
+resident,Watchhouse Par.,20,,,,,Void
+resident,Watchhouse Par.,21,,,,,Void
+resident,Watchhouse Par.,22,,,Robt.,Crawford,rigger,
+resident,Watchhouse Par.,23,,,E.,Bilbao,boarding house,
+cross_street,Watchhouse Par,,,,,,,here is Wolseley-street.
+resident,Watchhouse Par.,24,,,Samuel,Dodge,,
+resident,Watchhouse Par.,25,,,Chas.,Ebsworth,pilot,
+resident,Watchhouse Par.,26,,,Hy.,Thomas,boatman,
+resident,Watchhouse Par.,27,,,,,Void
+resident,Watchhouse Par.,28,,,,,Void
+resident,Watchhouse Par.,29,,,Edward,James,,
+resident,Watchhouse Par.,30,,,Swift & Son,,cab proptrs,
+resident,Watchhouse Par.,,,,Uriah,Swift,,
+resident,Watchhouse Par.,31,,,W. & Son,Morgan,mat and bag merchants,
+resident,Watchhouse Par.,32,,,,Dawson T. & Co., Ltd.,ships chandlers,
+resident,Watchhouse Par.,34,,,,Dawson T. & Co., Ltd.,ships chandlers,
+resident,Watchhouse Par.,35,,,Alexandra Dock Hotel,A. Thomas,proprietor,Entrance to Alexandra Dock
+street,Waterloo Road,D 5,,,,,,Cardif-road to Friars-road.
+resident,Waterloo Road,1,,,Geo.,Manley,,Gaer cot
+resident,Waterloo Road,2,,,John,Davies,,Patterdale
+resident,Waterloo Road,3,,,H. J.,Lanfear,,Osland ho
+resident,Waterloo Road,4,,,Robt. G.,Sach,,Hillside
+resident,Waterloo Road,5,,,Wm.,Bowen,,Raymond h
+resident,Waterloo Road,6,,,M. H.,Griffiths,,Bodnant
+cross_street,Waterloo Road,,,,,,here is Gaer-street
+resident,Waterloo Road,7,,,Jno.,Davies,pilot,Belmont
+resident,Waterloo Road,8,,,Wm. J.,Pearce,,Parkfield
+resident,Waterloo Road,9,,,Thos.,Knowles,,Rylstone
+resident,Waterloo Road,10,,,Mrs. J.,Thompson,,Waterloo house
+resident,Waterloo Road,11,,,Asa,Jenkins,,Cleved'n view
+resident,Waterloo Road,12,,,Frank,Jones,,Sea view
+resident,Waterloo Road,13,,,Jas.,Knight,,Channel view
+resident,Waterloo Road,14,,,F. W.,Cutcliffe,,Greyville
+resident,Waterloo Road,15,,,Wm.,Francis,,South view
+resident,Waterloo Road,16,,,H. E.,Clubb,,Essex house
+resident,Waterloo Road,17,,,Fred.,Jones,,Harbour view
+resident,Waterloo Road,18,,,Wm.,Parkes,,Fair view
+resident,Waterloo Road,19,,,John,Lyle,,Penmorva
+resident,Waterloo Road,20,,,Dd. Robt.,Evans,,Parkside
+resident,Waterloo Road,21,,,W.,Ray,pilot,Creselly
+resident,Waterloo Road,22,,,Robt.,Radley,,Fields view
+resident,Waterloo Road,23,,,W.,Griffiths,,Danesbury h
+resident,Waterloo Road,24,,,R. J.,Fowler,,

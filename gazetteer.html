@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Early Gazetteers & Trade Directories (1822 & 1835) — Newport Cartographic Archive</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  
+  <link rel="stylesheet" href="src/styles/main.css">
+  <style>
+    /* Ensure the entire document and page shell scroll smoothly */
+    html, body {
+      height: auto !important;
+      min-height: 100vh !important;
+      overflow-x: auto !important;
+      overflow-y: auto !important;
+      position: relative !important;
+    }
+
+    .app-shell {
+      height: auto !important;
+      min-height: 100vh !important;
+      width: 100% !important;
+      display: flex !important;
+      overflow: visible !important;
+      position: relative !important;
+    }
+
+    .app-sidebar {
+      height: 100vh !important;
+      position: sticky !important;
+      top: 0 !important;
+      align-self: flex-start !important;
+      overflow-y: auto !important;
+    }
+
+    .app-canvas {
+      height: auto !important;
+      min-height: 100vh !important;
+      flex: 1 !important;
+      overflow: visible !important;
+      display: flex !important;
+      flex-direction: column !important;
+      position: relative !important;
+    }
+
+    .gazetteer-container {
+      max-width: 1300px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 6rem 1.5rem;
+      width: 100%;
+    }
+
+    .gazetteer-hero {
+      background: #FFFFFF;
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 2.25rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+    }
+
+    .gazetteer-pill-row {
+      display: flex;
+      gap: 0.75rem;
+      margin-top: 1.25rem;
+      flex-wrap: wrap;
+    }
+
+    .gazetteer-nav-pill {
+      background: #FAF9F6;
+      border: 1px solid var(--border-color);
+      color: var(--text-secondary);
+      padding: 0.55rem 1.25rem;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: all 0.2s ease;
+    }
+
+    .gazetteer-nav-pill:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+      transform: translateY(-1px);
+    }
+
+    .gazetteer-nav-pill.active {
+      background: var(--accent);
+      color: #FFFFFF;
+      border-color: var(--accent);
+      box-shadow: 0 3px 10px rgba(197, 155, 39, 0.25);
+    }
+    
+    .gazetteer-tabs {
+      display: flex;
+      gap: 0.5rem;
+      border-bottom: 2px solid var(--border-warm);
+      margin-bottom: 1.5rem;
+      overflow-x: auto;
+    }
+
+    .g-tab-btn {
+      background: transparent;
+      border: none;
+      padding: 0.85rem 1.35rem;
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--text-secondary);
+      cursor: pointer;
+      border-bottom: 3px solid transparent;
+      margin-bottom: -2px;
+      white-space: nowrap;
+      transition: all 0.15s ease;
+    }
+
+    .g-tab-btn:hover {
+      color: var(--accent-hover);
+    }
+
+    .g-tab-btn.active {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+    }
+
+    .narrative-card {
+      background: #FFFFFF;
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 2rem;
+      line-height: 1.75;
+      font-size: 0.98rem;
+      color: var(--text-primary);
+      margin-bottom: 2rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+    }
+
+    .narrative-card h3 {
+      font-family: var(--heading-font);
+      font-size: 1.8rem;
+      color: var(--accent);
+      margin-bottom: 1rem;
+    }
+    
+    .gentry-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+      gap: 1.15rem;
+      margin-bottom: 2rem;
+    }
+
+    .gentry-card {
+      background: #FFFFFF;
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 1.15rem;
+      transition: all 0.2s ease;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+    }
+
+    .gentry-card:hover {
+      border-color: var(--accent);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.05);
+    }
+
+    .gentry-name {
+      font-weight: 700;
+      color: var(--text-primary);
+      font-size: 1.05rem;
+      line-height: 1.3;
+    }
+
+    .gentry-res {
+      color: var(--accent);
+      font-size: 0.88rem;
+      font-weight: 600;
+      margin-top: 0.4rem;
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
+    .category-section {
+      margin-bottom: 2.25rem;
+    }
+
+    .category-header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      border-bottom: 2px solid var(--border-warm);
+      padding-bottom: 0.4rem;
+      margin-bottom: 1rem;
+    }
+
+    .category-title {
+      font-family: var(--heading-font);
+      font-size: 1.6rem;
+      color: var(--accent);
+    }
+
+    .category-count {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      font-weight: 600;
+    }
+    
+    .entries-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1rem;
+    }
+
+    .entry-card {
+      background: #FFFFFF;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 1rem 1.15rem;
+      transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .entry-card:hover {
+      border-color: var(--accent);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+    }
+
+    .entry-title {
+      font-weight: 700;
+      color: var(--text-primary);
+      font-size: 1.02rem;
+      line-height: 1.3;
+    }
+
+    .entry-trade {
+      font-size: 0.86rem;
+      color: var(--text-secondary);
+      margin-top: 0.35rem;
+      line-height: 1.4;
+    }
+
+    .entry-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 0.6rem;
+      font-size: 0.82rem;
+      padding-top: 0.5rem;
+      border-top: 1px dashed var(--border-color);
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+
+    .entry-street-tag {
+      color: var(--accent);
+      font-weight: 600;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+    }
+
+    .entry-street-tag:hover {
+      text-decoration: underline;
+    }
+
+    .scans-shelf {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+      gap: 1.25rem;
+      margin-top: 1rem;
+    }
+
+    .scan-thumb {
+      height: 260px;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid var(--border-color);
+      cursor: pointer;
+      position: relative;
+      transition: all 0.2s ease;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+
+    .scan-thumb:hover {
+      transform: scale(1.03);
+      border-color: var(--accent);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+    }
+
+    .scan-thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .scan-label {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(15, 23, 42, 0.88);
+      color: #FFFFFF;
+      font-size: 0.78rem;
+      font-weight: 500;
+      padding: 0.45rem 0.6rem;
+      text-align: center;
+      line-height: 1.25;
+    }
+
+    @media (max-width: 768px) {
+      .app-sidebar {
+        position: fixed !important;
+        left: -280px !important;
+        transition: left 0.25s ease !important;
+        z-index: 999 !important;
+      }
+      .app-sidebar.mobile-open {
+        left: 0 !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="app-shell">
+    <!-- LEFT SIDEBAR -->
+    <aside class="app-sidebar">
+      <div class="sidebar-header">
+        <a href="index.html#home" class="sidebar-logo">
+          <i class="ph ph-compass-rose logo-icon"></i>
+          <div>
+            <div class="logo-title">NEWPORT ARCHIVE</div>
+            <div class="logo-sub">Cartographic & Street Ledger</div>
+          </div>
+        </a>
+      </div>
+
+      <nav class="sidebar-nav">
+        <div class="nav-section-label">ARCHIVE EXPLORER</div>
+        <a href="index.html#home" class="nav-item"><i class="ph ph-house-line"></i><span>Overview</span></a>
+        <a href="index.html#streets" class="nav-item"><i class="ph ph-path"></i><span>Street Directory</span><span class="nav-badge">759</span></a>
+        <a href="index.html#directories" class="nav-item"><i class="ph ph-books"></i><span>Directory Books</span></a>
+        <a href="gazetteer.html" class="nav-item active"><i class="ph ph-scroll"></i><span>Early Gazetteers (1822–35)</span></a>
+        <a href="trades.html" class="nav-item"><i class="ph ph-briefcase"></i><span>Occupations Audit</span></a>
+        <a href="map.html" class="nav-item"><i class="ph ph-map-trifold"></i><span>Cartographic Map</span></a>
+
+        <div class="nav-section-label" style="margin-top: 1.5rem;">DATA AUDIT</div>
+        <a href="timeline.html" class="nav-item"><i class="ph ph-chart-line-up"></i><span>Street Timeline Audit</span></a>
+        <a href="editor.html" class="nav-item"><i class="ph ph-table"></i><span>Master Table Editor</span></a>
+      </nav>
+
+      <div class="sidebar-audit-widget" style="margin-top: auto;">
+        <div class="audit-widget-title"><i class="ph ph-clock-counter-clockwise" style="color: var(--accent);"></i><span>Early Era Added</span></div>
+        <div class="audit-widget-desc">Pigot's 1822 & 1835 Trade Gazetteers Active</div>
+      </div>
+    </aside>
+
+    <!-- MAIN CANVAS -->
+    <main class="app-canvas">
+      <header class="canvas-header">
+        <div class="breadcrumb-container">
+          <a href="index.html#home">Home</a> <i class="ph ph-caret-right"></i> <span>Early Gazetteers & Trade Directories</span>
+        </div>
+        <div class="canvas-header-actions">
+          <a id="btn-download-pdf" href="pdf_reports/pigot_1835_directory.pdf" download class="header-btn" style="background: rgba(197, 155, 39, 0.12); color: var(--accent-hover); border-color: var(--accent-border); font-weight: 600;"><i class="ph ph-file-pdf"></i> Download 1835 PDF</a>
+          <a href="index.html#streets" class="header-btn"><i class="ph ph-arrow-left"></i> Back to Street Directory</a>
+        </div>
+      </header>
+
+      <div class="gazetteer-container">
+        <!-- HERO BANNER -->
+        <div class="gazetteer-hero">
+          <div class="hero-badge" style="display: inline-flex; align-items: center; gap: 0.35rem; background: rgba(197, 155, 39, 0.1); color: var(--accent-hover); padding: 0.25rem 0.65rem; border-radius: 4px; font-weight: 600; font-size: 0.8rem; margin-bottom: 0.75rem;">
+            <i class="ph ph-sparkle"></i> Pre-Victorian Regency Era • 1822 & 1835
+          </div>
+          <h1 style="font-family: var(--heading-font); font-size: 2.75rem; color: var(--text-primary); line-height: 1.15; margin-bottom: 0.5rem;">
+            Pigot & Co.’s Early Trade Gazetteers
+          </h1>
+          <p style="color: var(--text-secondary); max-width: 850px; font-size: 0.95rem; line-height: 1.6;">
+            Published before systematic house numbering was established in Newport, Pigot & Co.'s directories catalogue the town by commercial trade, manufacture, gentry seats, and port commerce during the dawn of the Industrial Revolution.
+          </p>
+
+          <!-- YEAR EDITION TOGGLE -->
+          <div class="gazetteer-pill-row">
+            <button class="gazetteer-nav-pill active" id="pill-1835" onclick="setDirectoryYear(1835)">
+              <i class="ph ph-book-open"></i> Pigot's 1835 National Commercial Directory
+            </button>
+            <button class="gazetteer-nav-pill" id="pill-1822" onclick="setDirectoryYear(1822)">
+              <i class="ph ph-book-open"></i> Pigot's 1822–23 London & Provincial Directory
+            </button>
+          </div>
+        </div>
+
+        <!-- VIEW TABS -->
+        <div class="gazetteer-tabs">
+          <button class="g-tab-btn active" id="tab-btn-trades" onclick="switchGazetteerTab('trades')">
+            <i class="ph ph-briefcase"></i> Classified Trades & Merchants (<span id="count-trades">0</span>)
+          </button>
+          <button class="g-tab-btn" id="tab-btn-gentry" onclick="switchGazetteerTab('gentry')">
+            <i class="ph ph-crown"></i> Nobility, Gentry & Clergy (<span id="count-gentry">0</span>)
+          </button>
+          <button class="g-tab-btn" id="tab-btn-narrative" onclick="switchGazetteerTab('narrative')">
+            <i class="ph ph-article"></i> Historical Town Narrative & Port Data
+          </button>
+          <button class="g-tab-btn" id="tab-btn-scans" onclick="switchGazetteerTab('scans')">
+            <i class="ph ph-images"></i> Original Page Scans (<span id="count-scans">0</span>)
+          </button>
+        </div>
+
+        <!-- SEARCH / FILTER CONTROLS -->
+        <div style="margin-bottom: 1.75rem; display: flex; gap: 0.75rem; align-items: center;" id="search-bar-row">
+          <div style="position: relative; flex: 1;">
+            <i class="ph ph-magnifying-glass" style="position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: var(--text-muted); font-size: 1.1rem;"></i>
+            <input type="text" id="gazetteer-search" placeholder="Filter by trader name, occupation, or street (e.g. John Frost, The Misses King, Commercial st)..." class="form-input" style="padding-left: 2.4rem; width: 100%; height: 44px; font-size: 0.95rem;" oninput="handleSearch(this.value)">
+          </div>
+        </div>
+
+        <!-- TAB CONTENT AREAS -->
+        <div id="content-trades" class="tab-pane"></div>
+        <div id="content-gentry" class="tab-pane" style="display: none;"></div>
+        <div id="content-narrative" class="tab-pane" style="display: none;"></div>
+        <div id="content-scans" class="tab-pane" style="display: none;"></div>
+
+        <!-- SITE FOOTER -->
+        <footer style="margin-top: 4rem; padding: 2rem 1rem; border-top: 1px solid var(--border-color); text-align: center; color: var(--text-secondary); font-size: 0.88rem;">
+          <div>Created by <strong>Robert Gale</strong>, <em>Newport Cornucopia</em> — <a href="https://www.newportcornucopia.co.uk" target="_blank" rel="noopener" style="color: var(--accent); font-weight: 600; text-decoration: none;">www.newportcornucopia.co.uk</a></div>
+        </footer>
+      </div>
+    </main>
+  </div>
+
+  <!-- SCAN VIEWER MODAL -->
+  <div class="editor-modal-backdrop" id="scan-modal" onclick="closeScanModal()">
+    <div class="editor-modal" style="max-width: 950px; width: 95%; max-height: 90vh;" onclick="event.stopPropagation()">
+      <div class="editor-modal-header">
+        <div class="editor-modal-title" id="scan-modal-title">📷 Original Directory Page Scan</div>
+        <button class="editor-modal-close" onclick="closeScanModal()">&times;</button>
+      </div>
+      <div style="padding: 1rem; overflow: auto; text-align: center; max-height: 80vh; background: #0F172A;">
+        <img id="scan-modal-img" src="" alt="Scan" style="max-width: 100%; height: auto; border-radius: 4px; box-shadow: 0 4px 20px rgba(0,0,0,0.5);">
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let activeYear = 1835;
+    let activeTab = 'trades';
+    let data1822 = null;
+    let data1835 = null;
+    let searchQuery = '';
+
+    const scanFiles = {
+      1822: [
+        { file: 'data/early_directories/scans/IMG_0178.jpeg', label: 'Page 275 • Newport Narrative & History' },
+        { file: 'data/early_directories/scans/IMG_0179.jpeg', label: 'Page 276 • Classified Trades A–T' },
+        { file: 'data/early_directories/scans/IMG_0180.jpeg', label: 'Page 277 • Classified Trades T–Z' }
+      ],
+      1835: [
+        { file: 'data/early_directories/scans/IMG_9086.jpeg', label: 'Page 258 • Caerleon & Newport Narrative' },
+        { file: 'data/early_directories/scans/IMG_9087.jpeg', label: 'Page 259 • Gentry, Clergy & Trades A–C' },
+        { file: 'data/early_directories/scans/IMG_9088.jpeg', label: 'Page 260 • Classified Trades C–I' },
+        { file: 'data/early_directories/scans/IMG_9089.jpeg', label: 'Page 261 • Classified Trades I–T' },
+        { file: 'data/early_directories/scans/IMG_9090.jpeg', label: 'Page 262 • Carriers & Shipping Routes' }
+      ]
+    };
+
+    async function loadData() {
+      const [r1822, r1835] = await Promise.all([
+        fetch('data/early_directories/pigot_1822.json').then(r => r.json()),
+        fetch('data/early_directories/pigot_1835.json').then(r => r.json())
+      ]);
+      data1822 = r1822;
+      data1835 = r1835;
+      renderCurrentView();
+    }
+
+    function setDirectoryYear(year) {
+      activeYear = year;
+      document.getElementById('pill-1822').classList.toggle('active', year === 1822);
+      document.getElementById('pill-1835').classList.toggle('active', year === 1835);
+
+      const pdfBtn = document.getElementById('btn-download-pdf');
+      if (pdfBtn) {
+        pdfBtn.href = `pdf_reports/pigot_${year}_directory.pdf`;
+        pdfBtn.innerHTML = `<i class="ph ph-file-pdf"></i> Download ${year} PDF`;
+      }
+
+      renderCurrentView();
+    }
+
+    function switchGazetteerTab(tab) {
+      activeTab = tab;
+      document.querySelectorAll('.g-tab-btn').forEach(b => b.classList.remove('active'));
+      document.getElementById(`tab-btn-${tab}`).classList.add('active');
+
+      document.querySelectorAll('.tab-pane').forEach(p => p.style.display = 'none');
+      document.getElementById(`content-${tab}`).style.display = 'block';
+
+      const searchRow = document.getElementById('search-bar-row');
+      if (tab === 'trades' || tab === 'gentry') {
+        searchRow.style.display = 'flex';
+      } else {
+        searchRow.style.display = 'none';
+      }
+
+      renderCurrentView();
+    }
+
+    function handleSearch(val) {
+      searchQuery = val.toLowerCase().trim();
+      renderCurrentView();
+    }
+
+    function renderCurrentView() {
+      const data = activeYear === 1835 ? data1835 : data1822;
+      if (!data) return;
+
+      // Update counters
+      const totalTrades = data.sections.reduce((acc, s) => acc + s.entries.length, 0);
+      document.getElementById('count-trades').innerText = totalTrades;
+      const gentryCount = (data.nobility_gentry_clergy || []).length;
+      document.getElementById('count-gentry').innerText = gentryCount;
+      document.getElementById('count-scans').innerText = scanFiles[activeYear].length;
+
+      // 1. Render Classified Trades Tab
+      const tradesContainer = document.getElementById('content-trades');
+      let tradesHtml = '';
+      data.sections.forEach(sec => {
+        let matching = sec.entries;
+        if (searchQuery) {
+          matching = sec.entries.filter(e => {
+            const displayName = e.formatted_name || e.name;
+            return displayName.toLowerCase().includes(searchQuery) ||
+                   e.name.toLowerCase().includes(searchQuery) ||
+                   (e.trade && e.trade.toLowerCase().includes(searchQuery)) ||
+                   (e.street && e.street.toLowerCase().includes(searchQuery)) ||
+                   (e.notes && e.notes.toLowerCase().includes(searchQuery)) ||
+                   sec.category.toLowerCase().includes(searchQuery);
+          });
+        }
+
+        if (matching.length === 0) return;
+
+        tradesHtml += `
+          <div class="category-section">
+            <div class="category-header">
+              <span class="category-title">${sec.category}</span>
+              <span class="category-count">${matching.length} Entry${matching.length > 1 ? 's' : ''}</span>
+            </div>
+            <div class="entries-grid">
+              ${matching.map(e => {
+                const displayName = e.formatted_name || e.name;
+                return `
+                  <div class="entry-card">
+                    <div>
+                      <div class="entry-title">${displayName}</div>
+                      <div class="entry-trade">${e.trade || sec.category}</div>
+                    </div>
+                    <div class="entry-meta">
+                      ${e.street ? `<a href="index.html#street=${encodeURIComponent(cleanStreetName(e.street))}" class="entry-street-tag" title="View Street Walkthrough"><i class="ph ph-map-pin"></i> ${e.street}</a>` : `<span style="color: var(--text-muted); font-style: italic;">Newport General</span>`}
+                      ${e.notes ? `<span style="color: var(--text-muted); font-size: 0.78rem;">${e.notes}</span>` : ''}
+                    </div>
+                  </div>
+                `;
+              }).join('')}
+            </div>
+          </div>
+        `;
+      });
+      tradesContainer.innerHTML = tradesHtml || '<div style="padding: 2.5rem; color: var(--text-secondary); text-align: center;">No matching traders found for query.</div>';
+
+      // 2. Render Gentry Tab
+      const gentryContainer = document.getElementById('content-gentry');
+      const gentryList = data.nobility_gentry_clergy || [];
+      if (gentryList.length > 0) {
+        let matchingGentry = gentryList;
+        if (searchQuery) {
+          matchingGentry = gentryList.filter(g => {
+            const dispName = g.formatted_name || g.name;
+            return dispName.toLowerCase().includes(searchQuery) ||
+                   g.name.toLowerCase().includes(searchQuery) ||
+                   g.residence.toLowerCase().includes(searchQuery);
+          });
+        }
+        gentryContainer.innerHTML = `
+          <div class="gentry-grid">
+            ${matchingGentry.map(g => {
+              const dispName = g.formatted_name || g.name;
+              return `
+                <div class="gentry-card">
+                  <div class="gentry-name">${dispName}</div>
+                  <div class="gentry-res"><i class="ph ph-house"></i> ${g.residence}</div>
+                  ${g.notes ? `<div style="font-size: 0.78rem; color: var(--text-muted); margin-top: 0.35rem;">${g.notes}</div>` : ''}
+                </div>
+              `;
+            }).join('')}
+          </div>
+        `;
+      } else {
+        gentryContainer.innerHTML = '<div class="narrative-card"><p>In the 1822 edition, gentry and clergy were listed within individual profession, civic magistrate, and parish estate sections.</p></div>';
+      }
+
+      // 3. Render Historical Narrative Tab
+      const narrativeContainer = document.getElementById('content-narrative');
+      narrativeContainer.innerHTML = `
+        <div class="narrative-card">
+          <h3>Historical Overview & Topographical Survey (${activeYear})</h3>
+          <p style="white-space: pre-line;">${data.narrative}</p>
+        </div>
+      `;
+
+      // 4. Render Original Page Scans Tab
+      const scansContainer = document.getElementById('content-scans');
+      const currentScans = scanFiles[activeYear] || [];
+      scansContainer.innerHTML = `
+        <div class="narrative-card">
+          <h3>Original Photographic Scans • Pigot & Co. (${activeYear})</h3>
+          <p style="color: var(--text-secondary); margin-bottom: 1.25rem;">Click any page to inspect the high-resolution original scan:</p>
+          <div class="scans-shelf">
+            ${currentScans.map(s => `
+              <div class="scan-thumb" onclick="openScanModal('${s.file}', '${s.label}')">
+                <img src="${s.file}" alt="${s.label}">
+                <div class="scan-label">${s.label}</div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `;
+    }
+
+    function cleanStreetName(str) {
+      if (!str) return 'High Street';
+      let clean = str.replace(/,\s*&c\.?/i, '').replace(/\bst\b/i, 'Street').replace(/\brd\b/i, 'Road').trim();
+      return clean;
+    }
+
+    function openScanModal(src, title) {
+      document.getElementById('scan-modal-img').src = src;
+      document.getElementById('scan-modal-title').innerText = title;
+      document.getElementById('scan-modal').classList.add('active');
+    }
+
+    function closeScanModal() {
+      document.getElementById('scan-modal').classList.remove('active');
+    }
+
+    window.addEventListener('DOMContentLoaded', loadData);
+  </script>
+</body>
+</html>

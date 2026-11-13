@@ -1,0 +1,146 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Eton Road, D 3,,,,,"Corporation-road to Marlborough-road."
+cross_street,Eton Road, D 3,,,,,LEFT HAND SIDE.
+resident,Eton Road, D 3,1,,,"Eton house—void",,
+resident,Eton Road, D 3,3,Henner ho,G. E.,Groves,,
+resident,Eton Road, D 3,5,Crediton ho,Alf.,Lawson,,
+resident,Eton Road, D 3,7,St. Aubin ho,Hy.,Green,,
+resident,Eton Road, D 3,9,,,C. R.,Gwyther,,
+cross_street,Eton Road, D 3,,,,,here is Rugby-road.
+resident,Eton Road, D 3,9A,Ravensdale,J. T.,Smith,,
+resident,Eton Road, D 3,11,Coldra ho,W. J.,Purnell,,
+resident,Eton Road, D 3,13,Weardale,W. H.,Hopkins,,
+resident,Eton Road, D 3,15,,,Alfred George,Richards,,
+resident,Eton Road, D 3,17,,,Edgar James,Williams,,
+resident,Eton Road, D 3,19,,,Geo.,Sweetland,fireman,
+resident,Eton Road, D 3,21,,,G. H.,Green,,
+resident,Eton Road, D 3,23,Heathfield h,Wm.,Stokes,,
+resident,Eton Road, D 3,25,Ashgrove,William,Davies,,
+cross_street,Eton Road, D 3,,,,,here is Bedford-road.
+resident,Eton Road, D 3,27,Compton h,Mrs. A.,Kerr,,
+resident,Eton Road, D 3,29,Glan-y-don,Fk.,Withers,,
+resident,Eton Road, D 3,31,Christchurch,E. C.,Wring,,
+resident,Eton Road, D 3,33,Beachcroft,Miss K.,Wring,,
+resident,Eton Road, D 3,35,Hirwain house,Mrs. Esther,Williams,,
+resident,Eton Road, D 3,37,Windsor house,Mrs. J. W.,Bottomley,,
+resident,Eton Road, D 3,39,Grosvenor,T. P.,Knowles,,
+resident,Eton Road, D 3,41,Brooklands,W. H.,James,,
+resident,Eton Road, D 3,43,,,Albt. E.,Linton,carpenter,
+resident,Eton Road, D 3,45,Ellesmere,Wm.,Joint,,
+resident,Eton Road, D 3,47,Cambridge,R. J.,Reed,,
+cross_street,Eton Road, D 3,,,,,return
+resident,Eton Road, D 3,46,Pen-y-bryn,A.,Edwards,,
+resident,Eton Road, D 3,44,Beta,George,McKee,,
+resident,Eton Road, D 3,42,Penrhyw,George,Ball,,
+resident,Eton Road, D 3,40,Athenic,Mrs. L.,Newman,,
+resident,Eton Road, D 3,38,Ravenscar,Herbert,Poole,,
+resident,Eton Road, D 3,36,St. Arvans,Edwd.,Vivian,,
+resident,Eton Road, D 3,34,,,P.,Fleming,Stewart,
+resident,Eton Road, D 3,32,Westbourne,Mrs. E.,Bown,,
+resident,Eton Road, D 3,30,Macnade ho,Wm.,Rees,,
+cross_street,Eton Road, D 3,,,,,here is Methven-road.
+resident,Eton Road, D 3,28,Ivy Glen,Anthony,Hiley,,
+resident,Eton Road, D 3,26,Dalmeny,Fredk.,Parkes,,
+resident,Eton Road, D 3,24,,,Stephen,Iggulden,,
+resident,Eton Road, D 3,22,,,James,Gibbon,,
+resident,Eton Road, D 3,20,Highlands,A.,Siberry,,
+resident,Eton Road, D 3,18,St.Corri,Mrs. E.,Westwood,,
+resident,Eton Road, D 3,16,Holborn,J. G.W.R.,Howell,,
+resident,Eton Road, D 3,14,Rolbyn,Hy.,Ray,,
+resident,Eton Road, D 3,12,,,"Tregothnan—void",,
+resident,Eton Road, D 3,10,Jesmond [erdene,W. T.,Johnson,,
+resident,Eton Road, D 3,8,Heath-,Sylvanus,Gronow,,
+resident,Eton Road, D 3,6,Hazledene,John,Osmond,,
+cross_street,Eton Road, D 3,,,,,here is Rugby-road.
+resident,Eton Road, D 3,4,Llangstone,Wm.,Victory,,
+resident,Eton Road, D 3,2,Holmeswood,Rev. E. R.,Jones,,
+street,Evans Street, C 4,,,,,"From 162 Shaftesbury-street."
+cross_street,Evans Street, C 4,,,,,LEFT HAND SIDE.
+resident,Evans Street, C 4,1,,,Chas.,Forester,school ho,
+resident,Evans Street, C 4,3,,,E. F.,Hunt,dealer,
+resident,Evans Street, C 4,5,,,William,Griffiths,smith,
+resident,Evans Street, C 4,7,,,Plaisidor,Rossi,,
+resident,Evans Street, C 4,9,,,Samuel,Tutton,gen.shop,
+cross_street,Evans Street, C 4,,,,,here is Hoskins-street.
+resident,Evans Street, C 4,,,EVANS ST. MISSION ROOM,,,
+cross_street,Evans Street, C 4,,,,,SHAFTESBURY PARK,
+cross_street,Evans Street, C 4,,,,,cross and return.
+cross_street,Evans Street, C 4,,,,,here is Pugsley-street.
+resident,Evans Street, C 4,20,,,Mrs. A. M.,Bevan,,
+resident,Evans Street, C 4,18,,,Thomas,Jones,painter,
+resident,Evans Street, C 4,16,,,John,Jones,puddler,
+resident,Evans Street, C 4,14,,,John,Critchley,tug boat,
+resident,Evans Street, C 4,12,,,Jenkinson,Charles,,
+cross_street,Evans Street, C 4,,,,,here is Wheeler-street.
+cross_street,Evans Street, C 4,,,,,here is Hoskins-street.
+cross_street,Evans Street, C 4,,,,,here is Henry-street.
+resident,Evans Street, C 4,10,,,Harry,Venn,shop,
+resident,Evans Street, C 4,8,,,E.,Holley,shopkeeper,
+cross_street,Evans Street, C 4,,,,,here is Heverston-street.
+resident,Evans Street, C 4,6,,,Simon,Herschman,travlr.,
+resident,Evans Street, C 4,4,,,E.,Palmer,greengrocer,
+resident,Evans Street, C 4,2,,,Charles,Hughes,,
+street,Eveswell Park, D 2,,,,,"From 211 Chepstow-road."
+resident,Eveswell Park, D 2,,,,,Halford F. T.,Staunton,
+resident,Eveswell Park, D 2,,,Gwenlyn,Lewis,Williams,,jn.
+resident,Eveswell Park, D 2,,,Bryntirion,Chas. E.,Lawrence,,
+resident,Eveswell Park, D 2,,,Elstow,George,Hussey,,
+resident,Eveswell Park, D 2,,,Staddon,Albert Wm.,Brownscombe,,
+resident,Eveswell Park, D 2,,,Rosendale,James,Basham,,
+resident,Eveswell Park, D 2,,,Mnt Eveswell,Rich.,Richards,,
+resident,Eveswell Park, D 2,,,Euroclydon,P. J.,McGinn,physician and surgeon,
+cross_street,Eveswell Park, D 2,,,,,"(See St. John's & Batchelor-roads.)"
+street,Eveswell Street, D 3,,,,,"From 232 Chepstow-road to Archibald-street."
+cross_street,Eveswell Street, D 3,,,,,LEFT HAND SIDE.
+resident,Eveswell Street, D 3,1,,,John,Henson,,
+resident,Eveswell Street, D 3,2,,,Mrs. J.,James,,
+resident,Eveswell Street, D 3,3,,,Albert,Miller,bricklayer,
+resident,Eveswell Street, D 3,4,,,Fredk.,Verren,fireman,
+resident,Eveswell Street, D 3,5,,,Mrs. S. C.,Butcher,,
+resident,Eveswell Street, D 3,6,,,T. J.,Read,berthing mas.,
+resident,Eveswell Street, D 3,7,,,John,Grainger,roller,
+resident,Eveswell Street, D 3,8,,,James,Bradford,smith,
+resident,Eveswell Street, D 3,9,,,Thomas,French,painter,
+resident,Eveswell Street, D 3,10,,,E.,Browning,baker,
+resident,Eveswell Street, D 3,11,,,Mrs. Mary E.,Roberts,,
+resident,Eveswell Street, D 3,12,,,Fredk.,Mole,sawyer,
+resident,Eveswell Street, D 3,13,,,B.,Jeanes,cook,
+resident,Eveswell Street, D 3,14,,,Geo.,James,engine driver,
+resident,Eveswell Street, D 3,15,,,John,Garland,driver,
+resident,Eveswell Street, D 3,16,,,Chas.,Thomas,eng. driver,
+resident,Eveswell Street, D 3,17,,,J.H.,Alexander,boilercov'r,
+cross_street,Eveswell Street, D 3,,,,,return
+resident,Eveswell Street, D 3,18,,,Charles,Abbott,mason,
+resident,Eveswell Street, D 3,19,,,Sydney,Hill,bricklayer,
+resident,Eveswell Street, D 3,20,,,Wm.,Hill,bricklayer,
+resident,Eveswell Street, D 3,21,,,John A.,Stiles,cooper,
+resident,Eveswell Street, D 3,22,,,Adam,Slade,cabinetmakr,
+resident,Eveswell Street, D 3,23,,,Charles,Morgan,mason,
+resident,Eveswell Street, D 3,24,,,James,Garvey,shearer,
+resident,Eveswell Street, D 3,25,,,F. A.,Marsh,carpenter,
+resident,Eveswell Street, D 3,26,,,Wm. E.,Law,ironworker,
+resident,Eveswell Street, D 3,27,,,John,Milner,carpenter,
+resident,Eveswell Street, D 3,28,,,Geo.,Hodder,chem. wkr,
+resident,Eveswell Street, D 3,29,,,Dd.,Crandon,labourer,
+resident,Eveswell Street, D 3,30,,,John,Gayton,carpenter,
+resident,Eveswell Street, D 3,31,,,George,Birch,tinman,
+resident,Eveswell Street, D 3,32,,,Edwd.,Stevens,labourer,
+resident,Eveswell Street, D 3,33,,,Wm.,Lewis,ironworker,
+resident,Eveswell Street, D 3,34,,,Robert,Bailey,mason,
+resident,Eveswell Street, D 3,35,,,Wm. Ed.,Webb,decorator,
+street,Eveswell Terrace, D 3,,,,,"No. 242-252 Chepstow-road."
+street,Exeter Road, D 3,,,,,"From Exeter-street."
+resident,Exeter Road, D 3,1,,,E. W.,Coles,carpenter,
+resident,Exeter Road, D 3,3,,,John P.,Morris,tailor,
+resident,Exeter Road, D 3,5,,,D. J.,Driscoll,,
+resident,Exeter Road, D 3,7,,,Edward,Jones,carpenter,
+cross_street,Exeter Road, D 3,,,,,return
+resident,Exeter Road, D 3,,,,,Vacant sites,,
+resident,Exeter Road, D 3,10,,,Fredk.,Roberts,,
+resident,Exeter Road, D 3,8,,,Fredk.,White,carpenter,
+resident,Exeter Road, D 3,6,,,Charles,Desmarons,,
+resident,Exeter Road, D 3,4,,,Arth.,Allsopp,coachsmith,
+resident,Exeter Road, D 3,2,,,Geo.,Arnold,insp. G.W.R.,
+street,Exeter Street, D 3,,,,,"From 45 Hereford-street to Exeter-road."
+cross_street,Exeter Street, D 3,,,,,LEFT HAND SIDE.
+resident,Exeter Street, D 3,1A,,,W.,Coldwell,tailor,

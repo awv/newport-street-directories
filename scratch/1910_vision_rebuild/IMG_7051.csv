@@ -1,0 +1,141 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Castle Precincts,,,,,,continued
+resident,Castle Precincts,3,,Mrs. E.,Wood,,
+resident,Castle Precincts,4,,John,Oliver,labourer,
+resident,Castle Precincts,5,,Thomas,Roberts,,
+resident,Castle Precincts,6,,Walter Henry,Hillman,,
+street,Castle Street, E 4,,,,,From Potter-st. to Church-st.
+cross_street,Castle Street,,,,,,[LEFT HAND SIDE.]
+resident,Castle Street,1A,,Geo. R.,Williams,dk pilot,
+resident,Castle Street,1B,,Wm.,Smith,labourer,
+resident,Castle Street,1,,John,Townsend,,
+resident,Castle Street,3,,,,,Void
+resident,Castle Street,5,,John,Keith,bricklayer,
+resident,Castle Street,7,,Wm.,Limbrick,labourer,
+resident,Castle Street,9,,Wm.,Wilson,dock labr,
+resident,Castle Street,11,,Thomas,Oldfield,labr,
+resident,Castle Street,13,,Thomas,Chesher,,
+resident,Castle Street,15,,Wm.,Taylor,,
+resident,Castle Street,17,,Michael,Malcahy,dk lab,
+resident,Castle Street,19,,,,,Void
+resident,Castle Street,21,,,,,Void
+resident,Castle Street,23,,John,Willis,labourer,
+cross_street,Castle Street,,,,,,here is Linton-street.
+resident,Castle Street,25,,Mary Ann,Ryan,,
+resident,Castle Street,27,,Charles,Hemmings,,
+cross_street,Castle Street,,,,,,here is Wallis-street.
+resident,Castle Street,29,,Michl. J.,McCarthy,trmr,
+resident,Castle Street,31,,Robt. C.,Pring,hobbler,
+cross_street,Castle Street,,,,,,here is Wilson-street.
+resident,Castle Street,33,,John,Persons,seaman,
+cross_street,Castle Street,,,,,,(return)
+resident,Castle Street,,Uskside Engineering Wks,,,,
+cross_street,Castle Street,,,,,,here is St. Michael-street.
+resident,Castle Street,22,,John,Webb,grocer,
+resident,Castle Street,20,,Thos.,O'Keefe,rigger,
+resident,Castle Street,18,,John,Donovan,,
+resident,Castle Street,16,,I.,Dermody,labourer,
+resident,Castle Street,,,,,Cantwell,guard,
+resident,Castle Street,14,,John J.,Stewart,carpenter,
+resident,Castle Street,12,,Daniel,Hart,labourer,
+resident,Castle Street,10,,James,Mellon,,
+resident,Castle Street,8,,Patrick,Murphy,moulder,
+resident,Castle Street,6,,Wm.,Tait,dock labourer,
+resident,Castle Street,4,,Chas.,Regan,labourer,
+resident,Castle Street,2,,John,Danaher,dk labr,
+street,Caxton Place, C 5,,,,,From 23 Bridge-street.
+cross_street,Caxton Place,,,,,,[LEFT HAND SIDE.]
+resident,Caxton Place,1,,William,Price,tailor,
+resident,Caxton Place,,,,,Pinchin & Co.,upholster's
+resident,Caxton Place,2,,William,Smith,porter,
+resident,Caxton Place,3,,Wm.,Price,tailor,
+cross_street,Caxton Place,,,,,,(return)
+resident,Cedar Road,4,,W. J. & Sons,Gibb,poulterers etc.,
+resident,Cedar Road,5,,John,Griffiths,eng. driver,
+street,Cedar Road, C 4,,,,,From 36 Chepstow-road to Corporation-road.
+cross_street,Cedar Road,,,,,,[LEFT HAND SIDE.]
+resident,Cedar Road,1,,T. A.,Baldwin,,
+resident,Cedar Road,3,Mona house,Edwd.,Jones,,
+resident,Cedar Road,5,Ellesmere,J. W.,Lewis,,
+resident,Cedar Road,7,,Alfred Jas.,Ashton,,
+resident,Cedar Road,9,,Edwin,Lewis,traveller,
+cross_street,Cedar Road,,,,,,here is Bedford-road.
+resident,Cedar Road,11,St. Ives,W.,Batty,,
+resident,Cedar Road,13,Ingleside,Philip,Osborne,,
+resident,Cedar Road,15,,C. T.,Watkins,,
+resident,Cedar Road,17,Earlswood,Jas.,Jones,,
+resident,Cedar Road,19,,Edwin,Andrews,,
+resident,Cedar Road,21,Chelwood hse,D.,Linton,,
+resident,Cedar Road,23,,Thos.,Weight,ins. agent,
+cross_street,Cedar Road,,,,,,here is Corporation-road.
+cross_street,Cedar Road,,,,,,(return)
+resident,Cedar Road,20,,Daniel,Conniff,,
+resident,Cedar Road,18,,Samuel J.,Gibbs,,
+resident,Cedar Road,16,,F. J.,Roberts,,
+resident,Cedar Road,14,,F. P.,Williams,,
+resident,Cedar Road,12,,Wm.,Williams,,
+cross_street,Cedar Road,,,,,,here is Bedford-road.
+resident,Cedar Road,10,Leverington,Jos.,Flook,,
+resident,Cedar Road,8,,George James,Clarke,,
+resident,Cedar Road,6,,Percy,Parsons,,
+resident,Cedar Road,4,Riversdale,Misses,Jones,B.A.,
+resident,Cedar Road,2,,Geo. Thos.,Malone,,
+street,Cemetery Lane,,,,,North-street to Clifton-road.
+street,Cenfedd Street, C 3,,,,,Off Constance-street.
+resident,Cenfedd Street,1,,Hy. J.,Vittle,blrmkr,
+resident,Cenfedd Street,3,,Thomas Wm.,Rate,G.W.R.,
+resident,Cenfedd Street,5,,Wm.,Stone,,
+resident,Cenfedd Street,7,,James,Williams,painter,
+resident,Cenfedd Street,9,,E. D.,Andrews,printer,
+resident,Cenfedd Street,11,,Chas. Fredk. A.,Parsons,,
+street,Charles Street, D 4,,,,,From 149 Commercial-street to Stow-hill.
+resident,Charles Street,,,,THE EMPIRE—Moss Empires Ltd. proprietors,,
+cross_street,Charles Street,,,,,,here is Talbot-lane.
+resident,Charles Street,,,,,Foslett & Co.,gas fitters,
+resident,Charles Street,6,,T.,Miles,cabinetmaker,
+resident,Charlotte Street,7,,F. R.,Cozens,embroiderer,
+resident,Charlotte Street,8,,Mrs. E.,Pacello,,
+resident,Charlotte Street,9,,Albert,Thomas,baker,
+resident,Charlotte Street,10,,A. G.,Bird,house decorator,
+resident,Charlotte Street,11,,F. W.,Powles,builder,
+resident,Charlotte Street,,ENGLISH BAPTIST CHURCH,,,,
+resident,Charlotte Street,,NEWPORT EDUCATION OFFICES,,,,
+resident,Charlotte Street,,,T. A.,Eaves,sec. Elementary Department,
+resident,Charlotte Street,,,G. W.,Moores,secretary Secondary Department,
+resident,Charlotte Street,,P. T. CENTRE,,,,
+resident,Charlotte Street,,,Caleb,Squire,caretaker,
+resident,Charlotte Street,17,,G. E. & Co.,Rogers,plumbers,
+resident,Charlotte Street,18,,Israel,Lefcovitch,tailor,
+resident,Charlotte Street,19,,—,Harper,,
+resident,Charlotte Street,20,,Madame,Budge,costumier,
+resident,Charlotte Street,21,Bible and Tract Depôt,,,,
+cross_street,Charlotte Street,,,,,,(return)
+resident,Charlotte Street,22,,Mrs. A.,Blunt,grocer,
+resident,Charlotte Street,23,,Wm.,Rowberry,herbalist,
+resident,Charlotte Street,24,,John,Coxon,fruite'er,
+resident,Charlotte Street,25,,John,Platt,bootmaker,
+resident,Charlotte Street,26,,Fdk.,Watts,plumber etc.,
+resident,Charlotte Street,27,,Jos.,Shewring,sign writer,
+resident,Charlotte Street,,,Wm.,Frew,tailor,
+resident,Charlotte Street,28,,Jos.,Maddocks,eng. drvr,
+resident,Charlotte Street,29,UNITARIAN MEETING RM,,,,
+resident,Charlotte Street,30,,Wm.,Quick,carman,
+resident,Charlotte Street,31,,Louis,Mendelsohn,tailor,
+resident,Charlotte Street,32,,W. Chas.,Morris,tailor,
+resident,Charlotte Street,33,,Albert,Fennell,hairdrssr,
+resident,Charlotte Street,34-5,,Isrl.,Cohen,confectioner,
+resident,Charlotte Street,,entrance to Infants' School and Cookery Centre,,,,
+resident,Charlotte Street,39-40,,Reynolds & Co. Ltd.,house furnishers & draprs,
+street,Charlotte Street, E 5,,,,,From 23 Alma-st. to Capel-st
+cross_street,Charlotte Street,,,,,,[LEFT HAND SIDE.]
+resident,Charlotte Street,1,,Geo. N.,Dowdall,caterer,
+resident,Charlotte Street,2,,Edwin,Ford,labourer,
+resident,Charlotte Street,3,,,,,
+resident,Charlotte Street,4,,Robert,Willis,blacksmith,
+cross_street,Charlotte Street,,,,,,here is Lewis-street
+resident,Charlotte Street,,,,,Burleigh & Jones,undertakers
+cross_street,Charlotte Street,,,,,,here is Raglan-street.
+resident,Charlotte Street,,,James A.,Thomas,shoemaker,
+resident,Charlotte Street,,,,,Thomas D. & Co.,pattern makers
+resident,Charlotte Street,5,,Geo.,Marley,labourer,
+cross_street,Charlotte Street,,,,,,here is Williams-street.

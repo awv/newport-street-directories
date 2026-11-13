@@ -1,0 +1,63 @@
+[2026-11-06 22:35:12] Creating safety backup: /Users/robgale/Documents/Newport Street Directory Project/data.csv.bak_before_batch_vision_1920_1927...
+[2026-11-06 22:35:12] 
+=======================================================
+[2026-11-06 22:35:12] === Starting Year 1920 Vision Reprocessing: 126 scans (5 Workers) ===
+[2026-11-06 22:35:12] =======================================================
+[2026-11-06 22:36:23] [1920] Progress: 15/126 scans processed (11.9%)
+[2026-11-06 22:37:45] [1920] Progress: 30/126 scans processed (23.8%)
+[2026-11-06 22:38:51] [1920] Progress: 45/126 scans processed (35.7%)
+[2026-11-06 22:39:56] [1920] Progress: 60/126 scans processed (47.6%)
+[2026-11-06 22:40:56] [1920] Progress: 75/126 scans processed (59.5%)
+[2026-11-06 22:42:07] [1920] Progress: 90/126 scans processed (71.4%)
+[2026-11-06 22:43:13] [1920] Progress: 105/126 scans processed (83.3%)
+[2026-11-06 22:44:16] [1920] Progress: 120/126 scans processed (95.2%)
+[2026-11-06 22:44:41] [1920] Progress: 126/126 scans processed (100.0%)
+[2026-11-06 22:44:41] === All 126 scans for 1920 processed. Compiling volume CSV... ===
+[2026-11-06 22:44:41] Volume 1920 Compiled: 17,435 vision residents across 612 streets.
+[2026-11-06 22:44:41] Executing merge_1920.py into data.csv...
+[2026-11-06 22:44:42] Year 1920 successfully merged into data.csv!
+[2026-11-06 22:44:42] 
+=======================================================
+[2026-11-06 22:44:42] === Starting Year 1924 Vision Reprocessing: 135 scans (5 Workers) ===
+[2026-11-06 22:44:42] =======================================================
+[2026-11-06 22:45:52] [1924] Progress: 15/135 scans processed (11.1%)
+[2026-11-06 22:47:20] [1924] Progress: 30/135 scans processed (22.2%)
+[2026-11-06 22:48:25] [1924] Progress: 45/135 scans processed (33.3%)
+[2026-11-06 22:49:22] [1924] Progress: 60/135 scans processed (44.4%)
+[2026-11-06 22:50:21] [1924] Progress: 75/135 scans processed (55.6%)
+[2026-11-06 22:51:36] [1924] Progress: 90/135 scans processed (66.7%)
+[2026-11-06 22:52:41] [1924] Progress: 105/135 scans processed (77.8%)
+[2026-11-06 22:53:45] [1924] Progress: 120/135 scans processed (88.9%)
+[2026-11-06 22:54:40] [1924] Progress: 135/135 scans processed (100.0%)
+[2026-11-06 22:54:40] === All 135 scans for 1924 processed. Compiling volume CSV... ===
+[2026-11-06 22:54:41] Volume 1924 Compiled: 18,488 vision residents across 638 streets.
+[2026-11-06 22:54:41] Executing merge_1924.py into data.csv...
+[2026-11-06 22:54:41] Year 1924 successfully merged into data.csv!
+[2026-11-06 22:54:41] 
+=======================================================
+[2026-11-06 22:54:41] === Starting Year 1927 Vision Reprocessing: 154 scans (5 Workers) ===
+[2026-11-06 22:54:41] =======================================================
+[2026-11-06 22:55:56] [1927] Progress: 15/154 scans processed (9.7%)
+[2026-11-06 22:57:02] [1927] Progress: 30/154 scans processed (19.5%)
+[2026-11-06 22:58:09] [1927] Progress: 45/154 scans processed (29.2%)
+[2026-11-06 22:59:17] [1927] Progress: 60/154 scans processed (39.0%)
+[2026-11-06 23:00:25] [1927] Progress: 75/154 scans processed (48.7%)
+[2026-11-06 23:01:26] [1927] Progress: 90/154 scans processed (58.4%)
+[2026-11-06 23:02:32] [1927] Progress: 105/154 scans processed (68.2%)
+[2026-11-06 23:03:35] [1927] Progress: 120/154 scans processed (77.9%)
+[2026-11-06 23:04:40] [1927] Progress: 135/154 scans processed (87.7%)
+[2026-11-06 23:05:43] [1927] Progress: 150/154 scans processed (97.4%)
+[2026-11-06 23:05:57] [1927] Progress: 154/154 scans processed (100.0%)
+[2026-11-06 23:05:57] === All 154 scans for 1927 processed. Compiling volume CSV... ===
+[2026-11-06 23:05:57] Volume 1927 Compiled: 21,218 vision residents across 683 streets.
+[2026-11-06 23:05:57] Executing merge_1927.py into data.csv...
+[2026-11-06 23:05:57] Year 1927 successfully merged into data.csv!
+[2026-11-06 23:05:57] 
+=======================================================
+[2026-11-06 23:05:57] === All batch volumes processed! Running post-processing and site build... ===
+[2026-11-06 23:05:57] =======================================================
+[2026-11-06 23:05:57] Running clean_non_streets.py...
+[2026-11-06 23:06:07] Running build_site_data.py...
+[2026-11-06 23:06:11] Running build_stats_data.py...
+[2026-11-06 23:06:13] 
+BATCH VISION REPROCESSING COMPLETE for [1920, 1924, 1927] in 31.0 minutes!

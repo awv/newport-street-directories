@@ -1,0 +1,155 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,Dawley Street,24,,,Wm.,Holwell,hoistman,Land William rigger
+resident,Dawley Street,25,,,Albert Edward,Hurd,,
+resident,Dawley Street,26,,,Mrs. Mary,Rice,,
+resident,Dawley Street,27,,,P. Geo.,Durant,grocer,
+street,Dawley Street,,,,,,
+resident,Dawley Street,,,,,,Off Corporation-road.
+street,Dean Street,C 3,,,,,
+cross_street,Dean Street,,,,,,From 29 Church-road to Caerleon-road.
+cross_street,Dean Street,,,,,,[LEFT HAND SIDE.]
+resident,Dean Street,1,,,Hy.,Walkley,storekeeper,
+resident,Dean Street,2,,,Victor,Gabica,dealer,
+resident,Dean Street,3,,,,,Void,
+resident,Dean Street,4,,,Mrs. Ellen,Shea,,
+resident,Dean Street,5,,,Thomas,Gollege,painter,
+resident,Dean Street,6,,,James,Smith,labourer,
+resident,Dean Street,7,,,Wm. Henry,Harris,,
+resident,Dean Street,8,,,William,Price,labourer,
+cross_street,Dean Street,,,,,,here is Junction-road.
+resident,Dean Street,9,,,Robert,Shaw,,
+resident,Dean Street,10,,,James,Rose,labourer,
+resident,Dean Street,11,,,Wm. Jas.,Graham,G.W.R.,
+resident,Dean Street,12,,,Richard,Munsch,labourer,
+resident,Dean Street,13,,,Henry,Webley,porter,
+resident,Dean Street,14,,,Fred,Jordan,labourer,
+resident,Dean Street,15,,,Wm.,Hemmings,labourer,
+resident,Dean Street,16,,,Chas.,Gough,shoemaker,
+resident,Dean Street,17,,,Mrs. T.,Woodward,,
+resident,Dean Street,18,,,Wm.,Grice,labourer,
+resident,Dean Street,19,,Clythia brwy,Jas.,Gorman,,
+resident,Dean Street,20,,,C. R.,Matson,mason,
+resident,Dean Street,21,,,Job A.,Shephard,haulier,
+cross_street,Dean Street,,,,,,here is Caerleon-road.
+cross_street,Dean Street,,,,,,(return)
+resident,Dean Street,22,,,Harry,Williams,upholstr
+resident,Dean Street,23,,,Chas.,Morgan,bricklayer
+resident,Dean Street,24,,,Jacob,Thomas,haulier,
+resident,Dean Street,25,,,Mrs. M. A.,Vaughan,,
+resident,Dean Street,26,,,Alfd. Geo.,Jones,decoratr
+resident,Dean Street,27,,,Frank,Hann,Arthur
+resident,Dean Street,28,,,Thomas,Cousins,labourer,
+resident,Dean Street,29,,,Peter,Pitman,foreman,
+resident,Dean Street,30,,,James,Trout,labourer,
+resident,Dean Street,31,,,Jno. A.,Tucker,labourer,
+resident,Dean Street,32,,,Charles,Parry,haulier,
+resident,Dean Street,33,,,Wm. P.,Moss,dealer,
+resident,Dean Street,34,,,John,Whittaker,,
+resident,Dean Street,35,,,Frank,Denning,labourer,
+resident,Dean Street,36,,,Henry,Bowles,mason,
+resident,Dean Street,37,,,Mrs. Alice,Walters,,
+resident,Dean Street,38,,,Wm. S.,James,labourer,
+resident,Dean Street,39,,,Thos.,Coles,G.W.R.,
+cross_street,Dean Street,,,,,,here is Junction-road.
+resident,Dean Street,40,,,Wm.,Sheedy,labourer,
+resident,Dean Street,41,,,Albt. J.,Parsons,haulier,
+resident,Dean Street,42,,,John,Glumley,eng. drvr
+resident,Dean Street,43,,,John,Jenkins,painter,
+resident,Dean Street,44,,,John,Hoare,labourer,
+resident,Dean Street,45,,,Geo.,Wareham,iron wrkr
+resident,Dean Street,46,,,James,Dobson,labourer,
+resident,Dean Street,47,,,John,Berry,carpenter,
+resident,Dean Street,48,,,William,Young,sweep,
+street,Depot Street,C 5,,,,,
+cross_street,Depot Street,,,,,,From 51 Bridge-street.
+resident,Depot Street,1,,,Miss Hannah,Baker,,
+resident,Depot Street,2,,,Geo.,Williams,labourer,
+resident,Depot Street,3,,,Thomas,Davies,salesman,
+resident,Depot Street,4,,,John,Marshall,draper,
+resident,Depot Street,5,,,Mrs. H.,Phillips,,"shop and office fitter; Phillips H. carpenter"
+street,Devon Place,C 5,,,,,
+cross_street,Devon Place,,,,,,From Mill-st. to Godfrey-rd.
+cross_street,Devon Place,,,,,,[LEFT HAND SIDE.]
+resident,Devon Place,1,,,Joseph,Meredith,,
+resident,Devon Place,2,,,Mrs. Catherine,Astman,,
+resident,Devon Place,3,,,Wm.,Davies,traveller,
+resident,Devon Place,4,,,Wm. Ed.,Davies,foreman,
+resident,Devon Place,5,,,W. H.,Hurn,signalman,
+resident,Devon Place,6,,,Wm.,Lippiatt,signalman,
+resident,Devon Place,7,,,Hubert,Brimfield,,
+resident,Devon Place,8,,,Mrs. Harriett,Morgan,,
+resident,Devon Place,9,,,W. H.,Roberts,carpenter,
+resident,Devon Place,10,,,Mrs. Hannah,Wall,,
+resident,Devon Place,11,,,Hy. W.,Jenkins,signalmn,
+resident,Devon Place,12,,,C.bathstone,Milman,masn
+resident,Devon Place,13,,,Miss M. J.,Pickering,,
+resident,Devon Place,14,,,Nathaniel B.,Calder,,
+resident,Devon Place,15,,,Mrs. Martha,Ayres,,
+resident,Devon Place,16,,,,,Void,
+resident,Devon Place,17,,,Mrs. E.,Hopkins,,
+resident,Devon Place,18,,,Mrs. Jane,Pearce,grocer,
+resident,Devon Place,19,,,Francis,Watkins,florist,
+resident,Devon Place,20,,,L. & Son,Watkins,florists,
+resident,Devon Place,,G.W.R. Engineers' offices,,,,Hayter Mrs. Augusta
+resident,Devon Place,27,,,,,Void,
+resident,Devon Place,28,,,Wm.,Jenkins,signalman,
+resident,Devon Place,29,,,Miss,Keates,,
+resident,Devon Place,30,,,Henry,Davies,plasterer,
+resident,Devon Place,31,,,Jno.,Kibblewhite,guard,
+resident,Devon Place,32,,,Wm.,Lewis,engine driver
+resident,Devon Place,33,,,Mrs. Wm.,Cawthorn,,
+resident,Devon Place,34,,,John,Murray,signalman,
+resident,Devon Place,35,,,Miss,Breillatt,,registry office
+resident,Devon Place,36,,,Arthur,Gatehouse,joiner,
+cross_street,Devon Place,,,,,,(return)
+resident,Devon Place,37,,Glyn cot,Wm. J.,Williams,,
+resident,Devon Place,38,,Devon cot,Wm.,Watson,,
+resident,Devon Place,39,,Egryn villa,G. P.,Greenland,,
+resident,Devon Place,40,,,G. W.,Jones,,
+resident,Devon Place,41,,,Thos.,Stephens,manager,Lyndhurst
+cross_street,Devon Place,,,,,,here is Stanley-road.
+resident,Devon Place,42,,,Jos.,Cocker,,Shirley
+resident,Devon Place,43,,,J. H.,Swallow,,Acomb
+resident,Devon Place,44,,,George,Grabner,,Grove h
+resident,Devon Place,45,,,A. Ernest,Jones,,Darwen h
+resident,Devon Place,46,,,A. T.,Bromage,,Llanbedr h
+resident,Devon Place,47,,,Mrs. E.,Parfitt,,Sandford h
+resident,Devon Place,48,,,Mrs. S.,Tanner,,Frome vil
+resident,Devon Place,49,,,Saml.,Kendall,,
+resident,Devon Place,50,,,Mrs. Anne E.,Hayes,,
+resident,Devon Place,51,,,P.,Sansome,,
+resident,Devon Place,52,,Exeter villa,J.,Wall,,
+street,Dewsland Park,D 5,,,,,
+cross_street,Dewsland Park,,,,,,Off Friars-road, Stow-hill.
+cross_street,Dewsland Park,,,,,,[RIGHT HAND SIDE.]
+resident,Dewsland Park,2,,Dewsland house,David,Jones,,
+resident,Dewsland Park,4,,Glenrise,Sidney,Burgess,,
+resident,Dewsland Park,6,,Avelon,Wynd.,Stokes,,
+resident,Dewsland Park,8,,—void,Abbotsham,,
+resident,Dewsland Park,10,,Caerhafren,Ern. G.,Jones,,
+resident,Dewsland Park,12,,,Francis,Hole,,
+resident,Dewsland Park,14,,Tregonissey,A. G.,Watkins,,
+resident,Dewsland Park,16,,Sunny Bank,W. J.,Cookes,,
+resident,Dewsland Park,18,,,David William,Roberts,,
+resident,Dewsland Park,20,,Angorfa,A. B.,Badger,,
+resident,Dewsland Park,22,,Oakdene,Percy,Fawckner,,
+resident,Dewsland Park,24,,,H. S.,Abbott,,
+resident,Dewsland Park,26,,,Rev. T.,Richards,,Arwel
+resident,Dewsland Park,28,,,Mrs. Mary,Latimer,,
+resident,Dewsland Park,,,L. Bayonne,du Vergede,R.,
+resident,Dewsland Park,30,,Usk view,Wm.,Edwards,,
+resident,Dewsland Park,32,,The Glebe,W. H.,Shute,,
+cross_street,Dewsland Park,,,,,,(return.)
+resident,Dewsland Park,25,,,A. A. C.,Davies,,
+resident,Dewsland Park,23,,,Rev. D. W.,Davies,,Raleigh
+resident,Dewsland Park,21,,,Rev. Hy.,Abraham,,
+resident,Dewsland Park,19,,,W. B.,Ellison,,
+resident,Dewsland Park,17,,Auckland v,James,Pool,,
+resident,Dewsland Park,15,,Harlesden,Hrbt. T.,Marsh,,
+resident,Dewsland Park,13,,Ael-y-bryn,W. E.,Freeguard,,
+resident,Dewsland Park,11,,,Wm.,Baker,,St. Brides
+resident,Dewsland Park,9,,,A. C.,Harvey,,
+resident,Dewsland Park,7,,Haldane villa,T. C.,Calder,,
+resident,Dewsland Park,6,,Ravenna,Alfd. E.,Jenkins,,
+resident,Dewsland Park,3,,Oban,W. H.,Oliver,,
+resident,Dewsland Park,1,,,Fred.,Partridge,,

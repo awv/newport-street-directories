@@ -1,0 +1,159 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+entry,STO,4,Bron-y-gaer,Sir A.,Thomas,Garrod,J.P.
+entry,STO,6,Rock dale,C. W.,Marsh,Earle,J.P.
+entry,STO,8,Redlands,F. W.,Raikes,,
+entry,STO,10,Rothbury,Thos.,Dawson,J.P.
+entry,STO,12,St. Gwynlliw,T. J.,Vachell,,
+entry,STO,14,Treharne,O.,Morgan,,
+entry,STO,,Rothesay,,,,
+street,STOW PARK CRESCENT. D 6,,,,,,Stow Park
+cross_street,STOW PARK CRESCENT. D 6,,,,,,(LEFT HAND SIDE.)
+entry,STOW PARK CRESCENT. D 6,1,Fairlight,J. W.,Hunt,,
+entry,STOW PARK CRESCENT. D 6,2,Bron-gain house,J. J.,Stewart,,
+entry,STOW PARK CRESCENT. D 6,3,Winchester house,W. E.,Heard,J.P.,
+entry,STOW PARK CRESCENT. D 6,4,Clarendon ho,F. S.,Budd,,
+entry,STOW PARK CRESCENT. D 6,5,Briar hill,Mrs. R.,Gething,,
+entry,STOW PARK CRESCENT. D 6,6,Braeside,C. D.,Stentiford,,
+entry,STOW PARK CRESCENT. D 6,7,Villetta,H. J.,Griggs,,
+entry,STOW PARK CRESCENT. D 6,8,Skelmorlie,G. R.,Martyn,J.P.,
+cross_street,STOW PARK CRESCENT. D 6,,,,,,(return)
+entry,STOW PARK CRESCENT. D 6,10,Mineva,Mrs. J. O.,Dibble,,
+entry,STOW PARK CRESCENT. D 6,11,Woodside,Mrs. E. P.,Jones,,
+entry,STOW PARK CRESCENT. D 6,12,Dunmarklyn,J. E.,Davies,,
+entry,STOW PARK CRESCENT. D 6,15,Ferncliffe,G.,Phillips,,
+entry,STOW PARK CRESCENT. D 6,16,,A. P.,Williams,,Draycot v
+entry,STOW PARK CRESCENT. D 6,17,,Jas. H.,Winn,,Severn v
+entry,STOW PARK CRESCENT. D 6,18,,Mrs S. E.,Davies,,Holmes view
+street,STOW PARK GARDENS,,,,,,Nos. 13-23 Stow Park-avenue
+street,STOW PASSAGE. D 5,,,,,,From 85 Stow-hill
+entry,STOW PASSAGE. D 5,1,,,Corbett,warehouseman,Mich.
+entry,STOW PASSAGE. D 5,2,,,Welsh,Mrs. Hannah,
+entry,STOW PASSAGE. D 5,3,,,Davey,labourer,George
+entry,STOW PASSAGE. D 5,4,,,Shea,labourer,Frank
+entry,STOW PASSAGE. D 5,5,,,Harrington,labr,Thos.
+entry,STOW PASSAGE. D 5,6,,,Matthews,labourer,John
+entry,STOW PASSAGE. D 5,7,,,Jones,Mrs. Maria,
+entry,STOW PASSAGE. D 5,8,,,Simmonds,Wm. A.,
+street,SUEDSHILL STREET. E 3,,,,,,Off Corporation-road
+street,SUMMERHILL AVENUE C 3,,,,,,Christchurch-rd. to Victoria-avenue
+cross_street,SUMMERHILL AVENUE C 3,,,,,,(RIGHT HAND SIDE.)
+entry,SUMMERHILL AVENUE C 3,2,Brynview,W. H.,Morgan,,
+entry,SUMMERHILL AVENUE C 3,4,Bryn-haven,Fredk.,Tarrant,,
+entry,SUMMERHILL AVENUE C 3,6,,Robert J. S.,Glendenning,,
+entry,SUMMERHILL AVENUE C 3,8,The Firs,F. J.,Kimpton,,
+entry,SUMMERHILL AVENUE C 3,10,,G. S.,Thorne,,
+entry,NEWPORT STREET DIRECTORY.,12,Northern-haye-void,,,,
+entry,NEWPORT STREET DIRECTORY.,14,The View,W. P.,Williams,,
+entry,NEWPORT STREET DIRECTORY.,16,Ravenswood,A. J.,Ashton,,
+entry,NEWPORT STREET DIRECTORY.,18,,Herbert,Turner,Ernest,
+entry,NEWPORT STREET DIRECTORY.,20,Ilfracombe,H. B.,Poole,,
+entry,NEWPORT STREET DIRECTORY.,22,Charles,Edwards,Robert,
+entry,NEWPORT STREET DIRECTORY.,24,O'Leary Arthur,Lawrence,,
+entry,NEWPORT STREET DIRECTORY.,24a,,Albert E.,Jones,,
+entry,NEWPORT STREET DIRECTORY.,,,Wm. Frank,Frost,,Moira
+entry,NEWPORT STREET DIRECTORY.,26,,Harold,Gardner,Jos.,
+entry,NEWPORT STREET DIRECTORY.,28,,Walter,Charles,,
+entry,NEWPORT STREET DIRECTORY.,30,,J. F.,Pearson,,
+entry,NEWPORT STREET DIRECTORY.,32,,John,Young,Arthur,
+entry,NEWPORT STREET DIRECTORY.,34,,Christopher,Griffiths,Wm.,
+entry,NEWPORT STREET DIRECTORY.,36,,George,Dartnell,C.,
+entry,NEWPORT STREET DIRECTORY.,38,,William,Lloyd,,
+entry,NEWPORT STREET DIRECTORY.,40,,William,Turnbull,,
+entry,NEWPORT STREET DIRECTORY.,42,,Wm.,Tommy,George,
+entry,NEWPORT STREET DIRECTORY.,44,,James,Hopkins,,
+cross_street,NEWPORT STREET DIRECTORY.,,,,,,here is Albert-avenue
+entry,NEWPORT STREET DIRECTORY.,46,,S.,Taylor,baker,
+cross_street,NEWPORT STREET DIRECTORY.,,,,,, (return)
+entry,NEWPORT STREET DIRECTORY.,37,,Arthur,Wells,clerk,
+entry,NEWPORT STREET DIRECTORY.,35,,Ed. S.,Simpson,plasterer,
+entry,NEWPORT STREET DIRECTORY.,33,,Miss,Morris,Margaret,
+entry,NEWPORT STREET DIRECTORY.,,,Sidney,Williams,ins. agent,
+entry,NEWPORT STREET DIRECTORY.,31,,Ernest,Edwards,E.,
+entry,NEWPORT STREET DIRECTORY.,29,,William,Harris,E. engineer,
+entry,NEWPORT STREET DIRECTORY.,27,,Mrs.,Williams,Eliza,
+entry,NEWPORT STREET DIRECTORY.,25,,Alfred,Hando,,
+entry,NEWPORT STREET DIRECTORY.,23,,Wm.,Gough,Hy.,
+entry,NEWPORT STREET DIRECTORY.,19,Rutland villa,Mrs. G. F.,Thorne,,
+entry,NEWPORT STREET DIRECTORY.,17,Arran villa,W. T.,Ley Jas.,
+entry,NEWPORT STREET DIRECTORY.,,Reginald,Adams,M',,
+entry,NEWPORT STREET DIRECTORY.,15,Peringa villa,William,Watkins,,
+entry,NEWPORT STREET DIRECTORY.,13,Sunny Mt.,T. A.,Grove,,
+entry,NEWPORT STREET DIRECTORY.,,,SUMMER HILL VILLAS,,,,
+entry,NEWPORT STREET DIRECTORY.,11,G. H. (Baptist),Rev.,Cook,,
+entry,NEWPORT STREET DIRECTORY.,9,Clwyd villa,R.,Twist,,
+entry,NEWPORT STREET DIRECTORY.,7,Bertram,Rev.,Fletcher,F.
+entry,NEWPORT STREET DIRECTORY.,5,W.,Rev.,Lenton,Arthur,B.A., B.D.
+entry,NEWPORT STREET DIRECTORY.,3,Glenview,E.,Lewis,Clyde,
+entry,NEWPORT STREET DIRECTORY.,1,Bryn-derwyn,Jestyn,Williams,,
+street,SUTTON ROAD. B 3,,,,,,West of Durham-road
+cross_street,SUTTON ROAD. B 3,,,,,,(LEFT HAND SIDE.)
+entry,SUTTON ROAD. B 3,1,,,Cooper,Allen Tom,
+entry,SUTTON ROAD. B 3,3,,,Warry,glasswkr,Robert
+entry,SUTTON ROAD. B 3,5,,,George,Francis John,
+entry,SUTTON ROAD. B 3,7,,,Whitson,carpenter,Wm.
+entry,SUTTON ROAD. B 3,9,,,Price,George I.,
+entry,SUTTON ROAD. B 3,11,,,Jones,printer,Jos. Jas.
+entry,SUTTON ROAD. B 3,13,,,Gibbons,carpenter,Albt.
+entry,SUTTON ROAD. B 3,15,,,Trew,Digby Francis,
+entry,SUTTON ROAD. B 3,17,,,Jennings,waiter,Fred
+entry,SUTTON ROAD. B 3,19,,,Pullen,gardener,Samuel
+entry,SUTTON ROAD. B 3,21,,,Stone,G.W.R.,William
+entry,SUT,23,,Wyndham,Jones,iron-moulder,
+entry,SUT,25,,J. J.,Bottomley,accountant,
+entry,SUT,27,,Chas. Ed.,Rees,fitter,
+entry,SUT,29,,W. B.,Hill,G.W.R.,
+entry,SUT,31,,Cecil E.,Townsend,plumber,
+entry,SUT,33,,William,Mogridge,,
+entry,SUT,35,,Dd. eng,Williams,driver,
+entry,SUT,37,,Peter Chas.,Cessac,clerk,
+entry,SUT,39,,George,Noville,fitter,
+entry,SUT,41,,Elias, eng.,Cockran,driver,
+entry,SUT,43,,Wm. J.,Galloway,plumber,
+entry,SUT,45,,Robert O.,Evans,fitter,
+entry,SUT,47,,Albert Victor,Harrison,shunter G.W.R.,
+entry,SUT,49,,David Thos.,Hill,shunter,
+entry,SUT,51,,Alfred Walter,Hooper,salesman,
+entry,SUT,53,,Chas.,Renouf,watchman,
+entry,SUT,55,,Cyrus A.,Brown,carpenter,
+entry,SUT,57,,J.,Richards,butcher,
+cross_street,SUT,,,,,,here is Oak-street
+entry,SUT,59,,Jas. Thos.,Chidzey,guard,
+entry,SUT,61,,C.,Evans,signal fitter,
+entry,SUT,63,,Geo. V.,Dawson,hairdresr,
+entry,SUT,65,,Milward Hy.,Wade,mangr,
+entry,SUT,67,,Fredk. dk,Harding,police,
+entry,SUT,69,,Chas.,Anderson,steward,
+entry,SUT,71,,Tom,Sansom,baker,
+entry,SUT,73,,William,Evans,traveller,
+entry,SUT,75,,Harry,Coggan,labourer,
+entry,SUT,77,,Tom W.,Cale,police,
+entry,SUT,79,,Alfred,Howes,do.,
+entry,SUT,81,,Wm.,Hancock,printer,
+entry,SUT,83,,Alfred,Rooke,signal fitter,
+entry,SUT,85,,Jas. Hy. ins.,Matthews,agt,
+entry,SUT,87,,Alfred,Stephenson,,
+entry,SUT,89,,Thos.,Neighbours,labourer,
+entry,SUT,91,,Robert,Clarke,,
+entry,SUT,93,,Joseph,Cook,ins. agent,
+entry,SUT,95,,James,Richards,butcher,
+entry,SUT,97,,Mrs. G.,Canham,,
+entry,SUT,99,,Edgar,Stinchcombe,mas'n,
+entry,SUT,101,,Fdk. E.,Rees,Lavington,
+cross_street,SUT,,,,,,(return)
+entry,SUT,102,,Benson,James,,
+entry,SUT,100,,Thomas Henry,Parker,,
+entry,SUT,98,,Thos.,Howard,plasterer,
+entry,SUT,96,,Alfred,James,timbernan,
+entry,SUT,94,,John,Newbury,eng driver,
+entry,SUT,92,,James Chas. iron-,Kenny,worker,
+entry,SUT,90,,Wm. Hy.,Prowse,,
+entry,SUT,88,,S. Rd.,Edwards,haulier,
+entry,SUT,86,,Wm. J.,Allen,clerk,
+entry,SUT,84,,Henry John,Jenner,,
+entry,SUT,82,,Wm. Henry,Hurn,pntr,
+entry,SUT,80,,A. E.,Porter,fitter,
+entry,SUT,78,,Benj.,Davies,boilermaker,
+entry,SUT,76,,W. T.,Evans,drayman,
+entry,SUT,74,,Wilfd. Rd.,Thomas,firem'n,
+entry,SUT,72,,Alfred John,Lightfoot,G.,
+entry,SUT,70,,E. F.,White,carpenter,

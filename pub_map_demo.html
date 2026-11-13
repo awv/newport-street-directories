@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newport Historic Pubs - Address Resolution Prototype</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    
+    <style>
+        :root {
+            --bg-dark: #0f1115;
+            --bg-card: #181b21;
+            --bg-card-hover: #222630;
+            --gold-primary: #d4af37;
+            --gold-light: #f3e5ab;
+            --gold-dim: #8a7322;
+            --text-main: #e2e8f0;
+            --text-muted: #94a3b8;
+            --border-color: rgba(212, 175, 55, 0.25);
+            --font-heading: 'Cinzel', serif;
+            --font-body: 'Inter', sans-serif;
+            --accent-amber: #f59e0b;
+            --accent-green: #10b981;
+            --accent-blue: #3b82f6;
+            --accent-purple: #8b5cf6;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: var(--font-body);
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        /* Top Header */
+        header {
+            background-color: rgba(15, 17, 21, 0.98);
+            border-bottom: 1px solid var(--border-color);
+            padding: 12px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .title-block h1 {
+            font-family: var(--font-heading);
+            font-size: 1.25rem;
+            color: var(--gold-light);
+            letter-spacing: 0.5px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .title-block p {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-top: 2px;
+        }
+
+        /* Confidence Legend Bar */
+        .legend-bar {
+            display: flex;
+            gap: 14px;
+            align-items: center;
+            background: rgba(24, 27, 33, 0.9);
+            padding: 6px 14px;
+            border-radius: 20px;
+            border: 1px solid var(--border-color);
+            font-size: 0.75rem;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+        .dot.exact { background: var(--accent-green); box-shadow: 0 0 6px var(--accent-green); }
+        .dot.linked { background: var(--accent-blue); box-shadow: 0 0 6px var(--accent-blue); }
+        .dot.landmark { background: var(--accent-purple); box-shadow: 0 0 6px var(--accent-purple); }
+        .dot.street-only { background: var(--accent-amber); border: 2px dashed #fff; box-sizing: border-box; }
+
+        /* Main Workspace */
+        .workspace {
+            display: flex;
+            flex: 1;
+            position: relative;
+            height: calc(100vh - 65px);
+        }
+
+        /* Sidebar */
+        aside {
+            width: 420px;
+            background-color: var(--bg-card);
+            border-right: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+            z-index: 500;
+            overflow: hidden;
+        }
+
+        .sidebar-header {
+            padding: 16px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .sidebar-header h2 {
+            font-family: var(--font-heading);
+            font-size: 0.95rem;
+            color: var(--gold-primary);
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .sidebar-header p {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            line-height: 1.4;
+        }
+
+        .pub-list {
+            flex: 1;
+            overflow-y: auto;
+            padding: 12px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .pub-card {
+            background: #111317;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 8px;
+            padding: 12px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            position: relative;
+        }
+
+        .pub-card:hover, .pub-card.active {
+            border-color: var(--gold-primary);
+            background: #191c24;
+            transform: translateX(3px);
+        }
+
+        .pub-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 6px;
+        }
+
+        .pub-title {
+            font-weight: 600;
+            font-size: 0.95rem;
+            color: #fff;
+        }
+
+        .badge {
+            font-size: 0.68rem;
+            font-weight: 600;
+            padding: 2px 7px;
+            border-radius: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .badge-exact { background: rgba(16, 185, 129, 0.2); color: #34d399; border: 1px solid #10b981; }
+        .badge-linked { background: rgba(59, 130, 246, 0.2); color: #60a5fa; border: 1px solid #3b82f6; }
+        .badge-landmark { background: rgba(139, 92, 246, 0.2); color: #a78bfa; border: 1px solid #8b5cf6; }
+        .badge-street { background: rgba(245, 158, 11, 0.2); color: #fbbf24; border: 1px dashed #f59e0b; }
+
+        .pub-meta {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            margin-bottom: 6px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .pub-explanation {
+            font-size: 0.75rem;
+            color: #cbd5e1;
+            background: rgba(0, 0, 0, 0.35);
+            padding: 6px 8px;
+            border-radius: 4px;
+            border-left: 2px solid var(--gold-dim);
+            line-height: 1.35;
+        }
+
+        /* Map Container */
+        #map {
+            flex: 1;
+            height: 100%;
+            background: #0f1115;
+        }
+
+        /* Vanished Pubs Drawer at Bottom-Right */
+        .street-drawer {
+            position: absolute;
+            bottom: 24px;
+            right: 24px;
+            width: 380px;
+            max-height: 280px;
+            background: rgba(24, 27, 33, 0.96);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.7);
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            backdrop-filter: blur(8px);
+        }
+
+        .drawer-header {
+            padding: 10px 14px;
+            background: rgba(212, 175, 55, 0.1);
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .drawer-header h3 {
+            font-family: var(--font-heading);
+            font-size: 0.85rem;
+            color: var(--gold-light);
+        }
+
+        .drawer-body {
+            padding: 10px 14px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            font-size: 0.8rem;
+        }
+
+        .vanished-item {
+            background: rgba(0,0,0,0.3);
+            border-left: 3px solid var(--accent-amber);
+            padding: 8px;
+            border-radius: 0 4px 4px 0;
+        }
+
+        .vanished-name {
+            font-weight: 600;
+            color: #fef08a;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        /* Custom Leaflet Markers */
+        .custom-pin {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            color: white;
+            font-weight: bold;
+            font-size: 11px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.6);
+            transition: transform 0.2s;
+        }
+        .custom-pin:hover {
+            transform: scale(1.2);
+        }
+        .pin-exact { background: #10b981; border: 2px solid #ffffff; }
+        .pin-linked { background: #3b82f6; border: 2px solid #ffffff; }
+        .pin-landmark { background: #8b5cf6; border: 2px solid #ffffff; }
+        .pin-street { background: rgba(245, 158, 11, 0.8); border: 2px dashed #ffffff; }
+
+        /* Custom Popup styling */
+        .leaflet-popup-content-wrapper {
+            background: #181b21 !important;
+            color: #e2e8f0 !important;
+            border: 1px solid var(--border-color) !important;
+            border-radius: 8px !important;
+            padding: 4px !important;
+        }
+        .leaflet-popup-tip {
+            background: #181b21 !important;
+        }
+        /* Custom Layers Control styling */
+        .leaflet-control-layers {
+            background: #181b21 !important;
+            color: #e2e8f0 !important;
+            border: 1px solid var(--border-color) !important;
+            border-radius: 8px !important;
+            padding: 8px 12px !important;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5) !important;
+        }
+        .leaflet-control-layers label {
+            color: #e2e8f0 !important;
+            font-size: 0.78rem;
+            cursor: pointer;
+        }
+        .popup-box h4 {
+            font-family: var(--font-heading);
+            color: var(--gold-light);
+            font-size: 0.95rem;
+            margin-bottom: 4px;
+        }
+        .popup-meta {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+        }
+        .popup-badge {
+            display: inline-block;
+            margin-bottom: 8px;
+        }
+        .popup-lineage {
+            font-size: 0.72rem;
+            line-height: 1.4;
+            background: rgba(0,0,0,0.4);
+            padding: 6px;
+            border-radius: 4px;
+            border-left: 2px solid var(--gold-dim);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="title-block">
+            <h1>🍺 Newport Historic Pubs & Innkeepers</h1>
+            <p>Interactive Resolution Prototype for Pre-1870 Unnumbered Street Addresses</p>
+        </div>
+
+        <div class="legend-bar">
+            <span style="color: var(--text-muted); font-size: 0.7rem; text-transform: uppercase;">Location Tiers:</span>
+            <div class="legend-item"><span class="dot exact"></span> Confirmed Door No.</div>
+            <div class="legend-item"><span class="dot linked"></span> Forward-Linked (1822→1878)</div>
+            <div class="legend-item"><span class="dot landmark"></span> Landmark / Junction Anchor</div>
+            <div class="legend-item"><span class="dot street-only"></span> Street Halo (Vanished)</div>
+        </div>
+    </header>
+
+    <!-- Main Workspace -->
+    <div class="workspace">
+        
+        <!-- Sidebar -->
+        <aside>
+            <div class="sidebar-header">
+                <h2>Four Methods in Action</h2>
+                <p>Click any pub below to fly to its position and see how we handle address uncertainty without falsifying history.</p>
+            </div>
+
+            <div class="pub-list" id="pubList">
+                <!-- Pub items injected by JS -->
+            </div>
+        </aside>
+
+        <!-- Leaflet Map -->
+        <div id="map"></div>
+
+        <!-- Vanished Pubs Drawer -->
+        <div class="street-drawer" id="streetDrawer">
+            <div class="drawer-header">
+                <h3 id="drawerTitle">🏛️ High Street: 2 Vanished Early Inns</h3>
+                <span class="badge badge-street">Pre-1850</span>
+            </div>
+            <div class="drawer-body" id="drawerBody">
+                <div class="vanished-item">
+                    <div class="vanished-name">
+                        <span>Blue Boar</span>
+                        <span>1822</span>
+                    </div>
+                    <div style="font-size: 0.72rem; color: var(--text-muted); margin-top: 2px;">
+                        Proprietor: John Chessell • Pigot's 1822 Gazetteer
+                    </div>
+                    <p style="margin-top: 4px; font-size: 0.73rem; color: #cbd5e1;">
+                        Only recorded as "High Street". Demolished or renamed prior to 1878 street survey. Clustered to street corridor rather than a misleading fake door pin.
+                    </p>
+                </div>
+
+                <div class="vanished-item">
+                    <div class="vanished-name">
+                        <span>Heath Cock</span>
+                        <span>1822</span>
+                    </div>
+                    <div style="font-size: 0.72rem; color: var(--text-muted); margin-top: 2px;">
+                        Proprietor: Henry Jones • Pigot's 1822 Gazetteer
+                    </div>
+                    <p style="margin-top: 4px; font-size: 0.73rem; color: #cbd5e1;">
+                        Early Posting Inn listed without number. Kept inside this street-level historical register until further documentary clues surface.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <script>
+        // Sample real data showing the 4 tiers of resolution
+        const samplePubs = [
+            {
+                id: "kings-head",
+                name: "King's Head Hotel",
+                street: "High Street",
+                number: "2",
+                tier: "exact",
+                badgeClass: "badge-exact",
+                pinClass: "pin-exact",
+                badgeText: "Confirmed Door No.",
+                lat: 51.5888,
+                lng: -2.9972,
+                firstYear: 1822,
+                lastYear: 1971,
+                landlords: "John Morgan (1822) • F. Matthews (1878) • Phillips Brewery",
+                resolutionNote: "Continuous presence from 1822 Pigot's through Victorian directories. Confirmed building footprint directly opposite the modern station entrance."
+            },
+            {
+                id: "carpenters-arms",
+                name: "Carpenters' Arms",
+                street: "High Street",
+                number: "9",
+                tier: "linked",
+                badgeClass: "badge-linked",
+                pinClass: "pin-linked",
+                badgeText: "Lane & Survey Anchor",
+                lat: 51.5891,
+                lng: -2.9970,
+                firstYear: 1822,
+                lastYear: 1971,
+                landlords: "Adam Williams (1822) • Dobell & Co (Wine Merchants)",
+                resolutionNote: "Pigot's 1822 lists simply 'High Street'. Anchored conclusively to No. 9 via the historical 'Carpenters' Arms Lane' and arcade entry recorded at this exact plot."
+            },
+            {
+                id: "new-bridge-inn",
+                name: "New Bridge Inn",
+                street: "Bridge Street",
+                number: "7 (Old Footprint)",
+                tier: "landmark",
+                badgeClass: "badge-landmark",
+                pinClass: "pin-landmark",
+                badgeText: "Landmark Anchor",
+                lat: 51.5904,
+                lng: -2.9953,
+                firstYear: 1878,
+                lastYear: 1920,
+                landlords: "J. W. Bath (1878)",
+                resolutionNote: "Demolished during modern bridge and roundabout realignments. Position anchored using 1883 OS Map landmark: 'Adjacent to Old Town Bridge approach'."
+            },
+            {
+                id: "high-street-halo",
+                name: "High Street Vanished Inns",
+                street: "High Street (Corridor)",
+                number: "Pre-1850 Unnumbered",
+                tier: "street",
+                badgeClass: "badge-street",
+                pinClass: "pin-street",
+                badgeText: "Street Halo Corridor",
+                lat: 51.5893,
+                lng: -2.9967,
+                firstYear: 1822,
+                lastYear: 1835,
+                landlords: "John Chessell (Blue Boar) • Henry Jones (Heath Cock)",
+                resolutionNote: "These pubs existed only in early pre-numbering gazetteers. Instead of placing a fake door pin, a dashed street corridor pin is used and opens the 'Vanished Pubs' drawer."
+            },
+            {
+                id: "lamb-inn",
+                name: "Lamb Inn",
+                street: "Baneswell Road",
+                number: "5",
+                tier: "exact",
+                badgeClass: "badge-exact",
+                pinClass: "pin-exact",
+                badgeText: "Confirmed Door No.",
+                lat: 51.5872,
+                lng: -2.9995,
+                firstYear: 1878,
+                lastYear: 1936,
+                landlords: "Mrs. Wood (1878) • Arthur Edwards (1910)",
+                resolutionNote: "Verified Victorian beerhouse location at 5 Baneswell Road with door-to-door resident progression in data.csv."
+            }
+        ];
+
+        // Initialize Map
+        const map = L.map('map', {
+            center: [51.5890, -2.9965],
+            zoom: 16,
+            zoomControl: false
+        });
+
+        // Add Zoom Control to Top-Left
+        L.control.zoom({ position: 'topleft' }).addTo(map);
+
+        // Tile Layers - 100% Free, NO API KEY required
+        const osmStandard = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+            maxZoom: 19
+        });
+
+        const cartoVoyager = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+            attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
+            subdomains: 'abcd',
+            maxZoom: 19
+        });
+
+        const cartoDark = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+            attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
+            subdomains: 'abcd',
+            maxZoom: 19
+        });
+
+        // Use standard OpenStreetMap by default (Zero API key needed)
+        osmStandard.addTo(map);
+
+        // Layer switcher control (top-right)
+        const baseMaps = {
+            "OpenStreetMap (Standard)": osmStandard,
+            "Voyager (Clean Detail)": cartoVoyager,
+            "Dark Theme": cartoDark
+        };
+        L.control.layers(baseMaps, null, { position: 'topright' }).addTo(map);
+
+        // Add High Street Halo Corridor Line (demonstrating how a street is highlighted for unanchored pubs)
+        const highStreetCoords = [
+            [51.5878, -2.9967], // Westgate end
+            [51.5888, -2.9972], // Kings Head
+            [51.5902, -2.9960]  // Old Green end
+        ];
+        const highStreetHalo = L.polyline(highStreetCoords, {
+            color: '#f59e0b',
+            weight: 8,
+            opacity: 0.35,
+            dashArray: '8, 8'
+        }).addTo(map);
+
+        const markers = {};
+
+        // Render Sidebar and Pins
+        const pubListContainer = document.getElementById('pubList');
+        const streetDrawer = document.getElementById('streetDrawer');
+
+        samplePubs.forEach(pub => {
+            // 1. Sidebar Card
+            const card = document.createElement('div');
+            card.className = 'pub-card';
+            card.id = `card-${pub.id}`;
+            card.innerHTML = `
+                <div class="pub-header">
+                    <span class="pub-title">${pub.name}</span>
+                    <span class="badge ${pub.badgeClass}">${pub.badgeText}</span>
+                </div>
+                <div class="pub-meta">
+                    <span>📍 ${pub.street} ${pub.number ? '(' + pub.number + ')' : ''}</span>
+                    <span>⏳ ${pub.firstYear}–${pub.lastYear}</span>
+                </div>
+                <div class="pub-explanation">
+                    <strong>Address Resolution:</strong> ${pub.resolutionNote}
+                </div>
+            `;
+            card.addEventListener('click', () => selectPub(pub));
+            pubListContainer.appendChild(card);
+
+            // 2. Leaflet Custom Icon
+            const iconHtml = `<div class="custom-pin ${pub.pinClass}" style="width:28px; height:28px;">🍺</div>`;
+            const customIcon = L.divIcon({
+                className: 'custom-leaflet-icon',
+                html: iconHtml,
+                iconSize: [28, 28],
+                iconAnchor: [14, 14],
+                popupAnchor: [0, -14]
+            });
+
+            // 3. Leaflet Marker
+            const marker = L.marker([pub.lat, pub.lng], { icon: customIcon }).addTo(map);
+
+            const popupContent = `
+                <div class="popup-box">
+                    <h4>${pub.name}</h4>
+                    <div class="popup-meta">📍 ${pub.street} ${pub.number ? '• No. ' + pub.number : ''}</div>
+                    <div class="popup-badge"><span class="badge ${pub.badgeClass}">${pub.badgeText}</span></div>
+                    <div class="popup-lineage">
+                        <div><strong>Landlords:</strong> ${pub.landlords}</div>
+                        <div style="margin-top:4px;"><strong>Location Note:</strong> ${pub.resolutionNote}</div>
+                    </div>
+                </div>
+            `;
+            marker.bindPopup(popupContent);
+            marker.on('click', () => selectPub(pub));
+
+            markers[pub.id] = marker;
+        });
+
+        function selectPub(pub) {
+            // Highlight sidebar card
+            document.querySelectorAll('.pub-card').forEach(c => c.classList.remove('active'));
+            const activeCard = document.getElementById(`card-${pub.id}`);
+            if (activeCard) {
+                activeCard.classList.add('active');
+                activeCard.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }
+
+            // Fly to coordinates
+            map.flyTo([pub.lat, pub.lng], 17, { duration: 1 });
+            markers[pub.id].openPopup();
+
+            // Toggle Vanished Drawer if street halo is selected
+            if (pub.tier === 'street') {
+                streetDrawer.style.display = 'flex';
+                highStreetHalo.setStyle({ opacity: 0.8, weight: 12 });
+            } else {
+                highStreetHalo.setStyle({ opacity: 0.35, weight: 8 });
+            }
+        }
+    </script>
+</body>
+</html>

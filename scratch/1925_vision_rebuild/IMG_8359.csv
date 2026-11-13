@@ -1,0 +1,161 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,BUCKINGHAM ROAD,,,,,,C 2
+cross_street,BUCKINGHAM ROAD,,,,,,From Christchurch-rd. (LEFT HAND SIDE.)
+resident,BUCKINGHAM ROAD,,St. Donats,Rt. W.,Parker,,
+resident,BUCKINGHAM ROAD,,Wavertree,Reg.,East,police,
+resident,BUCKINGHAM ROAD,,,Lance H.,Gibson,builder,
+resident,BUCKINGHAM ROAD,,Velindra,Harry,Gibson,builder,
+street,BURLEIGH ROAD,,,,,,C 6
+cross_street,BURLEIGH ROAD,,,,,,Bryngwyn-road to Llanthewy-road.
+street,CAERAU CRESCENT,,,,,,D 6
+cross_street,CAERAU CRESCENT,,,,,,Stow-hill to Caerau-road. (LEFT HAND SIDE.)
+resident,CAERAU CRESCENT,1,The Lawn,E. W.,Jones,,
+resident,CAERAU CRESCENT,2,Caerhayes,Frank,Jones,,
+resident,CAERAU CRESCENT,3,Highfield,Norton,Deane,,
+resident,CAERAU CRESCENT,4,Westray,A. E. M.,Cope,,
+resident,CAERAU CRESCENT,5,Elibank,Jas.,Simmons,,
+resident,CAERAU CRESCENT,6,Greytree house,Mrs.,Pratt,,
+resident,CAERAU CRESCENT,7,Gwynfa v,H.,Edwards,,
+cross_street,CAERAU CRESCENT,,,,,,PENCRAIG FLATS-
+resident,CAERAU CRESCENT,1,,H. P.,Eames,surveyor,
+resident,CAERAU CRESCENT,2,,Wm. H.,Williams,barr'str
+resident,CAERAU CRESCENT,3,,E. Chas.,Linton,sch'mstr
+resident,CAERAU CRESCENT,4,,B. B.,Gibbs,contractor
+resident,CAERAU CRESCENT,5,,M. Hy.,Davies,H.M.INSP
+resident,CAERAU CRESCENT,6,,Geo.,Ingham,elect. eng.
+cross_street,CAERAU CRESCENT,,,,,,(return)
+resident,CAERAU CRESCENT,9,,,Morris David Owen,,
+resident,CAERAU CRESCENT,,,Wm.,Baxter George,,
+resident,CAERAU CRESCENT,10,Anwyl,Mrs. M.,Edwards,,
+resident,CAERAU CRESCENT,11,Glaslyn,J. D.,Parfitt,,
+resident,CAERAU CRESCENT,,,Cecil Albert,Allison,,
+resident,CAERAU CRESCENT,,,George Morris,Dowdall,,
+resident,CAERAU CRESCENT,12,Penrhos,P.,Fligelstone,,
+resident,CAERAU CRESCENT,13,Mount View,Uric J. G.,Mulligan,M.B.,
+resident,CAERAU CRESCENT,14,Dolgelly,Thos. F.,Davies,,
+street,CAERAU PARK,,,,,,D 6
+cross_street,CAERAU PARK,,,,,,Stow-hill (right hand) opposite Stow-park
+street,CAERAU ROAD,,,,,,C 5
+cross_street,CAERAU ROAD,,,,,,Clytha-park-road to Stow-hill (LEFT HAND SIDE.)
+resident,CAERAU ROAD,1,,,Arthur,Taylor,traveller,
+resident,CAERAU ROAD,2,,,Robert R.,Hewinson,,
+resident,CAERAU ROAD,3,,,Henry,Grindley,,
+resident,CAERAU ROAD,4,,,Wm.,Keyes,foreman
+resident,CAERAU ROAD,5,,,Wm. Chas.,Purnell,engr
+resident,CAERAU ROAD,6,,,W.,Underwood,bricklyr
+resident,CAERAU ROAD,7,,,Mrs. Mary,Jones,,
+resident,CAERAU ROAD,8,,,A. F.,Millard,eng. drvr
+resident,CAERAU ROAD,9,,,A. E.,Chick,builder, etc.
+resident,CAERAU ROAD,10,,,Alf.,Downer,gardener
+resident,CAERAU ROAD,11,,,Henry J.,Rowlands,,
+resident,CAERAU ROAD,12,,,Manfred,Turner,engineer
+resident,CAERAU ROAD,13,,,Edward,Burgess,,
+resident,CAERAU ROAD,14,,,Edward Hbt.,Markwell,,
+resident,CAERAU ROAD,15,,,John G.,Cope,lithographer
+resident,CAERAU ROAD,16,,,Albert,Lampitt,ironworkr
+resident,CAERAU ROAD,,,V. C.,Whitney,roll turner
+resident,CAERAU ROAD,17,,,Edmund C.,Everson,,
+resident,CAERAU ROAD,18,,,Ivor,Lewis,engine driver
+resident,CAERAU ROAD,19,,,Mrs. T. W.,Busfield,,
+resident,CAERAU ROAD,20,,,Miss P.,Harry,,
+resident,CAERAU ROAD,21,,,John,Davies,cabinet mkr
+resident,CAERAU ROAD,22,,,E. J.,Williams,baker
+resident,CAERAU ROAD,23,,,William,Evans,gardener
+resident,CAERAU ROAD,24,,,Robert,Bradfield,,
+resident,CAERAU ROAD,25,,,Miss Henrietta,Gardner,,
+resident,CAERAU ROAD,26,,,Mrs. Alice,Thorne,,
+resident,CAERAU ROAD,27,,,R.,Weights,accountant
+resident,CAERAU ROAD,28,,,W. M. S. A.,Rosser,arch't
+resident,CAERAU ROAD,29,,,Adolphus,Grandin,,
+resident,CAERAU ROAD,30,,,Geo.,Griffiths,engineer
+resident,CAERAU ROAD,31,,,Mrs. Ellen,Curran,,
+resident,CAERAU ROAD,32,,,Charles,Chambers,,
+resident,CAERAU ROAD,33,Mont Caerau,Arthur William,Farmer,,
+resident,CAERAU ROAD,34,Hillsbro,E. E.,Harris,,
+resident,CAERAU ROAD,35,Glencairn v,T. W.,Wring,,
+cross_street,CAERAU ROAD,,,,,,here is Clyfford-crescent.
+resident,CAERAU ROAD,36,Hudson v,Miss M.,White,,
+resident,CAERAU ROAD,37,Clyro villa,J. A.,Gaccon,,
+resident,CAERAU ROAD,38,St. Fagan's,W. H.,Eglington,,
+resident,CAERAU ROAD,39,Clevedon,Misses,Holehouse,,
+resident,CAERAU ROAD,40,Torvill,A. G. S.,Batchelor,,
+resident,CAERAU ROAD,41,Gainford,A. W.,Heard,,
+resident,CAERAU ROAD,42,Hampton,Mrs. E.,Lewis,,
+resident,CAERAU ROAD,43,,Duncan,McFarlene,,
+resident,CAERAU ROAD,44,Carlton ho,H.,Cambridge,,
+resident,CAERAU ROAD,45,Torrington,Dr. J.,Howard-Jones,,
+resident,CAERAU ROAD,46,The Caerau,T. Gill,Williams,dentist / surgeon
+resident,CAERAU ROAD,47,Pentwyn,Frank,Duckham,,
+resident,CAERAU ROAD,48,Eborville,Geo.,Hogan,,
+resident,CAERAU ROAD,49,Hurstleigh,C. Wilfred,Alderton,,
+resident,CAERAU ROAD,50,Leura villa,E.,Sheppard,,
+cross_street,CAERAU ROAD,,,,,,here is Stow-hill.
+cross_street,CAERAU ROAD,,,,,,(return)
+resident,CAERAU ROAD,51,Helston,T. I.,Candy,Dr.
+resident,CAERAU ROAD,52,Idar ho,Fred A.,Williams,,
+resident,CAERAU ROAD,53,Kemeys,H. J. C.,Evans,,
+resident,CAERAU ROAD,54,Camelot villa,H. J.,Powell,,
+resident,CAERAU ROAD,55,Northfield,William M.,Mordey,,
+cross_street,CAERAU ROAD,,,,,,here is Caerau-crescent and Spencer-road.
+resident,CAERAU ROAD,56,Greystone,Harold,Wood,,
+resident,CAERAU ROAD,,Dinsdale,Mrs. Elizabeth J.,Grant,,
+resident,CAERAU ROAD,57,,,A. T. W.,James,printer,
+resident,CAERAU ROAD,58,Oakleigh,Ivor H.,Smith,,
+resident,CAERAU ROAD,59,Pen-carrig,Percy,Powell,,
+resident,CAERAU ROAD,60,Caergwyn,George,Jones,,
+resident,CAERAU ROAD,61,The Hollies,C. H.,Adams,,
+resident,CAERAU ROAD,62,Caerau Nursing Home,Kathleen,Carmody,mtrn.,
+resident,CAERAU ROAD,63,Kingsley v,H. F.,Nicholls,,
+resident,CAERAU ROAD,64,Cromer ho,C. D.,Phillips,,
+resident,CAERAU ROAD,65,Fairv'w,C. P.,Hollingdale,,
+resident,CAERAU ROAD,66,Ballantrae,E. W.,Taylor,,
+resident,CAERAU ROAD,67,Melrose,W. H. B.,Williams,,
+resident,CAERAU ROAD,68,Crugmwel,J. H.,Birrell,,
+resident,CAERAU ROAD,69,Caswell villa,J. C. G.,Allen,,
+resident,CAERAU ROAD,70,Daleside,S. J. C.,Padfield,,
+resident,CAERAU ROAD,71,Verwood v,Mis. E.,Davies,,
+resident,CAERAU ROAD,72,St Dunstans,John,Davies,,
+resident,CAERAU ROAD,73,Elizabeth J.,Mrs.,Rees,,
+resident,CAERAU ROAD,74,Brooklands,Mrs.,Elms,,
+resident,CAERAU ROAD,75,Finsbury,Miss R.,French,,
+resident,CAERAU ROAD,76,Ashley v,Rev. H. G.,Howell,,
+resident,CAERAU ROAD,77,Highbury villa,Misses,Marshall,,
+resident,CAERAU ROAD,78,Brynley house,Mrs. Elizb. M.,Thomas,,
+resident,CAERAU ROAD,79,Hillside,Edgar W.,Jenkins,,
+resident,CAERAU ROAD,80,Park h,Robt. J.,Williams,,
+resident,CAERAU ROAD,,,Miss L. M.,Williams,,
+street,CAERLEON ROAD,,,,,,C 5
+cross_street,CAERLEON ROAD,,,,,,From Clarence-place. (LEFT HAND SIDE.)
+resident,CAERLEON ROAD,1,,,Mrs. S.,White,grocer
+resident,CAERLEON ROAD,3,,,W. H.,Phillips,tobacconist
+resident,CAERLEON ROAD,5,,,Alf. W.,Davies,hairdrsr
+resident,CAERLEON ROAD,7,,,Bros.,Houghton,funeral directors / motor car and charabanc proprietors
+resident,CAERLEON ROAD,9,,,J.,Williams,painter, etc.
+resident,CAERLEON ROAD,11,,,Miss Fanny,Barrett,,
+resident,CAERLEON ROAD,13,,,Owen,Purnell,tugboatm'n
+resident,CAERAU ROAD,15,,,Miss Alice J.,Gwatkin,,
+resident,CAERAU ROAD,17,,,Josiah,Richards,labr
+resident,CAERAU ROAD,19,,,F. J.,Carver,,
+resident,CAERAU ROAD,,,Mrs.,Carver,dressmaker
+resident,CAERAU ROAD,21,,,T.,James,draper
+resident,CAERAU ROAD,21a,,,S.,James,draper
+resident,CAERAU ROAD,23a,,,Miss E. H.,Pauncefort,,
+resident,CAERAU ROAD,23,,,Arthur,Morgan,hairdressr
+cross_street,CAERLEON ROAD,,,,,,RAILWAY BRIDGES
+resident,CAERLEON ROAD,37,Fairlawn,William,Lewis,,
+resident,CAERLEON ROAD,39,Bromley house,Misses A. & M.,French,,
+resident,CAERLEON ROAD,43,,,W. E.,Robertson,tobacnst
+resident,CAERLEON ROAD,,,C.,Waite,upholstery wks
+resident,CAERLEON ROAD,,,& Hayes,Davis,carriage builders
+resident,CAERLEON ROAD,,,H. J.,Strong,brush factory
+resident,CAERLEON ROAD,,,Ernest W.,Cole,builder
+resident,CAERLEON ROAD,47,,,C. T.,Beckett,upholsterer
+resident,CAERLEON ROAD,49,,,Mrs. Sarah,Davies,,
+resident,CAERLEON ROAD,51,,,Joseph,Darch,wks police
+resident,CAERLEON ROAD,53,,,Thos.,Morgan,engine drvr
+resident,CAERLEON ROAD,55,,,T. S.,Gower,tregenna h
+resident,CAERLEON ROAD,57,,,Edwin,Evans,foreman
+resident,CAERLEON ROAD,59,,,R.,Duffield,Westwood
+resident,CAERLEON ROAD,61,,,V.,Clarke,corn merchant
+cross_street,CAERLEON ROAD,,,,,,here is Turner-street.
+resident,CAERLEON ROAD,63,,,F. N. & Co.,Morgan,motor engineers,Ltd.

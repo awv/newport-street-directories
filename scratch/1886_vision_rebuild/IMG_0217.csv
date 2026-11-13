@@ -1,0 +1,112 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Marshes Road,,,,,,continued
+resident,Marshes Road,,,,Thos.,Icke,assistant,
+resident,Marshes Road,,,,Thos.,Floud,coaler,
+resident,Marshes Road,17,Winning Horse,J.,Cavill,,CHURCH TERRACE
+resident,Marshes Road,18,,Thos.,Griffiths,labourer,
+resident,Marshes Road,19,,,,Void,
+resident,Marshes Road,,Harrington,Thos.,,labourer,
+resident,Marshes Road,20,,Herbert,Thomas,mason,St. Mark's Mission Church
+resident,Marshes Road,21,,Chas.,Dowding,labourer,Lippiatt Alfd. labourer
+resident,Marshes Road,22,,Mrs B.,Bowen,laundress,Oak Abner, labourer
+resident,Marshes Road,23,,Thomas,Moss,carpenter,Barton Alfd. iron roller
+resident,Marshes Road,24,,Henry,Lodge,policeman,Rappel Wm. H. mason
+resident,Marshes Road,25,,Richard,Smith,,Powell C. H. fireman
+resident,Marshes Road,26,,Wm. T.,Pearce,platelayer,Jones John, gas fitter
+resident,Marshes Road,27,,Sarah,Morgan,,Banwell Geo. brick manufr
+resident,Marshes Road,28,,Thomas,Gay,shoemaker,Amey Robt. brickmaker
+resident,Marshes Road,29,,Hy.,Moseley,platelayer,Merchant Edw.d. labourer
+resident,Marshes Road,30,,Frank,Bowen,Dos works,Wetter Chas. miller
+cross_street,Marshes Road,,,,,,"here is Lyne-road."
+resident,Marshes Road,31,,Mary,Martin,,Marshes-road Board Schools
+resident,Marshes Road,32,,Emma,Derham,widow,
+cross_street,Marshes Road,,,,,,"here is Evans-street."
+resident,Marshes Road,33,,John,Rees,shopkeeper,WYNDHAM TERRACE
+resident,Marshes Road,34,,John,Williams,labourer,
+resident,Marshes Road,35,,T.,Fletcher,bootmaker,93 Fox E. grocer, &c.
+resident,Marshes Road,36,,James,Thomas,shop,Fox G. T. book agent
+resident,Marshes Road,37,,John,S-Gould,Rising Sun,94 Pope Jacob, labourer
+resident,Marshes Road,39,,J. W.,Barnaby,shopkr,95 Davies Joseph, haulier
+resident,Marshes Road,40,,Thos.,Phillips,labourer,96 Davies Amos, shoemakr
+resident,Marshes Road,41,,John,Payne,blacksmith,97 Crotty John, factoryhand
+resident,Marshes Road,42,,William,Daniell,,98 Wright Geo. sawyer
+resident,Marshes Road,43,,George,Norvill,sailor,99 Sheppard Joseph, mason
+resident,Marshes Road,44,,James,Griffiths,labourer,100 Batten Chas. wheelwgt
+resident,Marshes Road,45,,Michl.,Mahoney,labourer,101 Evans Arthur, labourer
+resident,Marshes Road,46,,James,Gentle,bruslımkr,102 Furpess J. temp agent
+resident,Marshes Road,47,,Henry,Wall,labourer,103 Leggatt Edn. plasterer
+resident,Marshes Road,48,,Chas.,Newton,platelayer,104 Jones Thos. lamplighter
+resident,Marshes Road,49,,Dl.,Lavender,labourer,105 Mansfield Hy. coachman
+resident,Marshes Road,50,,Hy.,Peacock,bricklayer,106 Brown Wm. bootmaker
+resident,Marshes Road,51,,Wm.,Price,haulier,107 Miles Wm. missionary
+resident,Marshes Road,52,,John,Parry,labourer,108 Llewellyn W. tallow ch
+resident,Marshes Road,53,,Michl.,Barrett,labourer,Wesleyan Metho Chapel
+resident,Marshes Road,54,,John,Applebee,porter,110 Gatehouse Geo. bootmkr
+resident,Marshes Road,55,,John,Rowe,chainmaker,111 Hitchins Elizabeth
+resident,Marshes Road,56,,William,Burt,seaman,112 Inker Elizabeth
+resident,Marshes Road,57,,John,Morgan,puddler,Gilliam Hy. tailor
+resident,Marshes Road,58,,Thos.,Green,labourer,113 Brown Hy. gas works
+resident,Marshes Road,59,,Chas.,Rosier,labourer,114 Browning Geo. carpentr
+resident,Marshes Road,60,,George,Jones,carpenter,115 Hodge John, miller
+resident,Marshes Road,61,,James,Cavill,shop,116 Jones Joseph, wheelwgt
+resident,Marshes Road,62,,Richd.,Hobbs,labourer,117 Hayward Wm. ironwkr
+resident,Marshes Road,63,,Chas.,Forester,haulier,118 Chorley Hannah, wdw
+resident,Marshes Road,64,,Francis,Benians,laborer,119 Lenahan Mich. shoemkr
+resident,Marshes Road,65,,Edward,Baker,tinman,120 Martin Wm. carpenter
+resident,Marshes Road,66,,James,Dyke,baker,121 Ward Eliza, widow
+resident,Marshes Road,67,,Thomas,Jones,labourer,122 Edwardthy Jas. shopkpr
+cross_street,Marshes Road,,,,,,"here is Railway arch"
+resident,Marshes Road,,,,,,123 Holdstock B. insurance
+resident,Marshes Road,,,,,,Tunnel Yard, G. W. R. Co.,124 Shattock James, clerk
+cross_street,Marshes Road,,,,,,"here is Barrack-hill"
+resident,Marshes Road,,,,,,125 Baker Edward, grocer
+cross_street,Marshes Road,,,,,,"[return]"
+cross_street,Marshes Road,,,,,,"here is Wyndham-street."
+cross_street,Marshes Road,,,,,,"entrance to Crindau"
+resident,Marshes Road,,,,,,126-7 White Charles, grocer
+resident,Marshes Road,,,,,,17 Regan John, ropemaker
+street,Mellon's Square,,,,,,Mellon-st. to George-street.
+street,Mellon Street,,,,,,From 92 Dock-st. to George-st.
+resident,Mellon Street,1,,Campbell,,working cutler,
+resident,Mellon Street,2,,,,Southall's stores,
+resident,Mellon Street,3,,Dl.,Clarke,labourer,
+resident,Mellon Street,4,,John,Sullivan,hobbler,
+resident,Mellon Street,5,,Jno.,Griffiths,sailmaker,
+resident,Mellon Street,6,,William,Hayes,laborer,
+resident,Mellon Street,7,,Mrs. William,Dorin,,
+resident,Mellon Street,8,,Dennis,Lane,labourer,
+resident,Mellon Street,9,,Mary,Long,general shp,
+resident,Mellon Street,10,,John,Horsey,hobbler,
+resident,Mellon Street,11,,Daniel,Daley,labourer,
+resident,Mellon Street,12,,Johanna,Portall,widow,
+resident,Mellon Street,13,,Wm.,Shea,moulder,
+resident,Mellon Street,14,,M.,Manley,coal dealer,
+cross_street,Mellon Street,,,,,,"[return]"
+resident,Mellon Street,,,,,,Newport Firewood Co.
+resident,Mellon Street,,,,,,Watkin's marine store
+cross_street,Mellon Street,,,,,,"here is Robbin's-lane."
+resident,Mellon Street,,,,J.,Maybury,stonemason,
+resident,Mellon Street,15,,Patrick,Green,labourer,
+resident,Mellon Street,16,,John,Myers,shoemaker,
+resident,Mellon Street,17,,Wm.,Fitzgerald,labourer,
+resident,Mellon Street,18,,Mary,Mead,widow,
+resident,Mellon Street,19,,John,Donoghue,,
+resident,Mellon Street,20,,Julia,Daley,widow,
+resident,Mellon Street,21,,Henry,Blanks,moulder,
+resident,Mellon Street,22,,Wm.,Jenkins,mariner,
+resident,Mellon Street,23,,Thos.,McGrath,milkman,
+resident,Mellon Street,24,,J.,Rogers,Irishman's Arms,
+resident,Mellon Street,25,,Timothy,Daley,labourer,
+resident,Mellon Street,26,,Mary,Slocombe,widow,
+resident,Mellon Street,27,,Ed.,Fitzpatrick,labourer,
+resident,Mellon Street,28,,Jere.,Collins,labourer,
+resident,Mellon Street,29,,C.,Collins,carpenter,
+resident,Mellon Street,30,,Richard,Collins,ditto,
+resident,Mellon Street,31,,Geo.,Bennett,shopkeepr,Watkins' marine store
+resident,Mellon Street,32,,John,Connelly,hobbler,
+resident,Mellon Street,33,,James,Russell,,Russell Mrs. botanist
+street,Mendalglef Road,,,,,,Cardiff-rd to Alexandra dock.
+street,Merchant Street,,,,,,Opposite back of Town Hall.
+resident,Merchant Street,12,,W.,Williams,town crier,
+resident,Merchant Street,14,,Henry,Lewis,haulier,
+resident,Merchant Street,15,,Weights & measure office,,

@@ -1,0 +1,157 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,Luc,7,,Jas.,Stockwell,gas inspec,
+resident,Luc,8,,William Henry,Davey,,
+resident,Luc,9,,Wm. Hy.,John,inspector,
+resident,Luc,10,,Tom,Coward,inspector,
+resident,Luc,11,,William,Turner,fitter,
+resident,Luc,12,,A. E.,Horlock,postman,
+resident,Luc,13,,Joseph,Harding,labourer,
+resident,Luc,14,,Edwin,Hankins,inspctr.,
+resident,Luc,15,,F. E.,Thomas,Dos works,
+resident,Luc,16,,Albert,Comley,carpenter,
+resident,Luc,17,,Robt.,Hammonds,cretaker,
+resident,Luc,18,,Tom,Hawes,gardener,
+resident,Luc,19,,John,Lewis,caretaker,
+cross_street,Luc,,,,,,(return.)
+resident,Luc,20,,Thomas,Hale,dealer,
+resident,Luc,21,,Geo.,Williams,labourer,
+resident,Luc,22,,T.,Buckley,engine driver,
+resident,Luc,23,,Samuel,Evans,machinist,
+resident,Luc,24,,John,Marsh,eng. driver,
+resident,Luc,25,,Rowland,Worbosie,,
+resident,Luc,26,,William,Evans,boots,
+resident,Luc,27,,Edwd.,Lyons,compositor,
+resident,Luc,28,,Mrs. Emma,Lewis,,
+resident,Luc,29,,Ralph H. C.,Otton,,
+resident,Luc,,,Archibald,Otton,bootmnkr,
+cross_street,Luc,,,,,,here is Rose-street.
+resident,Luc,30,,Robert,Mauly,brssfoundr,
+resident,Luc,31,,C.,Worrall,inspect. G.W.R.,
+resident,Luc,32,,Richard Henry,Hewitt,,
+resident,Luc,33,,Robert,Taylor,engineer,
+resident,Luc,34,,Walter,Allman,smith,
+resident,Luc,35,,Hy.,Waters,rivet maker,
+street,Lyne Road,B 4,,,,,"From 164 Shaftesbury-street to Albany-street."
+cross_street,Lyne Road,,,,,,[LEFT HAND SIDE.]
+resident,Lyne Road,,Rising Sun Hotel,R. T.,Mann,,
+resident,Lyne Road,1,Branch Reading Room,,,,
+resident,Lyne Road,2,,John,Oliver,dk. labourer,
+resident,Lyne Road,3,,Charles William,Vaughan,,
+resident,Lyne Road,4,,Alfred John,Stevens,,
+resident,Lyne Road,5,,Thomas,Moss,carpenter,
+resident,Lyne Road,6,,Alfd.,Groves,bottle blwer,
+resident,Lyne Road,7,,Wm.,Wood,labourer,
+resident,Lyne Road,8,,Mrs. Ann,Fox,,
+resident,Lyne Road,9,,Charles,Bowen,labourer,
+resident,Lyne Road,10,,William T.,Pearce,G.W.R.,
+resident,Lyne Road,11,,Albert,Rowe,fitter,
+resident,Lyne Road,12,,Ernest J.,Shellam,,
+resident,Lyne Road,13,,Mrs. Harriet,Harris,,
+resident,Lyne Road,14,,John,Thomas,labourer,
+resident,Lyne Road,15,,James J.,Waters,bath attendant,
+resident,Lyne Road,16,,Thomas,Bray,grocer,
+cross_street,Lyne Road,,,,,,here is Edwin-street.
+resident,Mag,17,,Thos.,Morrish,gen. shop,
+resident,Mag,18,,Joseph,Reynolds,painter,
+resident,Mag,19,,Geo. H.,Hillman,labourer,
+resident,Mag,,,Primitive Meth. Chapel,,,,
+cross_street,Mag,,,,,,(return.)
+resident,Mag,30,,E. T.,Webb,shopkeeper,
+resident,Mag,31,,Cor.,Collins,gas works,
+resident,Mag,32,,Stephen,Cleverly,,
+resident,Mag,33,,Joseph,Vaughan,labourer,
+resident,Mag,34,,Geo. F.,Cooke,G.W.R.,
+resident,Mag,35,,Francis William,Hancock,fitter,
+resident,Mag,36,,James,Cooke,,
+resident,Mag,37,All Saints' Mission house,G.,Brimblecombe,caretkr,
+resident,Mag,38,,Thos.,Stevens,watchman,
+resident,Mag,39,,Geo. Hy.,Clarke,labourer,
+resident,Mag,40,,Chas.,Workman,labourer,
+resident,Mag,41,,Geo.,Edworthy,bottlemkr,
+resident,Mag,42,,N.,Rubinstein,picture frame maker,
+resident,Mag,43,,John,Crosswhite,watermn,
+resident,Mag,44,,Wm. Arthur,Brooks,,
+resident,Mag,45,,Patrick,O'Brien,labourer,
+resident,Mag,46,,Joseph,Gibson,glassblowr,
+resident,Mag,47,,Arnold,Herbert,labourer,
+resident,Mag,48,,E. G.,Holtham,painter,
+resident,Mag,49,,Robert,Logan,,
+resident,Mag,50,,George,Meadows,ganger,
+resident,Mag,51,,F.,Larcombe,bottlemaker,
+resident,Mag,52,,Charles,Hallett,mason,
+resident,Mag,53,,Francis,Charles,gasfitter,
+resident,Mag,,Shaftesbury St. Schools,,,,
+street,Macarthy's Court,D 4,,,,,"From 153 Commercial-street."
+resident,Macarthy's Court,6,,Saml.,Bannister,labourer,
+resident,Macarthy's Court,5,,Mrs.,Lawless,widow,
+resident,Macarthy's Court,4,,James,Williams,painter,
+street,Maddox Close,C 4,,,,,"From Factory-road."
+street,Magor Street,E 3,,,,,"Left-hand side Corporation-rd"
+cross_street,Magor Street,,,,,,[LEFT HAND SIDE.]
+resident,Magor Street,11,,Henry,Counsell,labourer,
+resident,Magor Street,13,,Simeon,White,labourer,
+resident,Magor Street,15,,Joseph,Rowley,ironworkr,
+resident,Magor Street,17,,Thomas,Baird,ironworkr,
+resident,Magor Street,19,,Benj.,Dalton,shearer,
+resident,Magor Street,21,,Geo. Hy.,Churm,ironwrkr,
+resident,Magor Street,23,,Mrs.,Hancock,,
+resident,Magor Street,25,,,,,Void
+resident,Magor Street,27,,Saml.,Wilkinson,labourer,
+resident,Magor Street,29,,Joseph,Bird,ironworker,
+resident,Magor Street,31,,John H.,Jarvis,ironworkr,
+resident,Mag,33,,,,,Void
+resident,Mag,35,,Geo. H.,Arthur,ironworkr
+resident,Mag,37,,,,,Void
+resident,Mag,39,,Samuel,Timmins,fireman
+resident,Mag,41,,Alfred,Edwards,ironwrkr
+resident,Mag,43,,,,,Void
+resident,Mag,45,,,,,do
+resident,Mag,47,,,,,do
+resident,Mag,49,,,,,do
+resident,Mag,51,,Arthur,Duggan,labourer
+resident,Mag,53,,,,,Void
+resident,Mag,55,,Mrs. Mary A.,Hales,,
+resident,Mag,57,,,,,Void
+resident,Mag,59,,Alfred,Waters,steward
+resident,Mag,61,,,,,Void
+resident,Mag,63,,Joseph,Sockett,ironwkr
+resident,Mag,65,,Albert,Horton,ironwkr
+resident,Mag,67,,J.,Mclaughlin,ironworkr
+resident,Mag,69,,Wm.,Cummins,ironwrkr
+resident,Mag,71,,John,Vaughan,collier
+cross_street,Mag,,,,,,(return.)
+resident,Mag,,,3 houses building,,,,
+resident,Mag,90,,J. T.,Richards,ironworker
+resident,Mag,88,,Edwd.,Walker,ironwrkr
+resident,Mag,86,,Joseph,Cooper,ironwrkr
+resident,Mag,84,,Wm.,Moseley,ironworker
+resident,Mag,82,,Wm.,Woolley,ironworker
+resident,Mag,80,,Benjamin,Smith,,
+resident,Mag,78,,James,Ellis,sheetweigher
+resident,Mag,76,,Thos.,Whild,ironworker
+resident,Mag,74,,,,,Void
+resident,Mag,72,,,,,do
+resident,Mag,70,,Wm.,Williams,ironworkr
+resident,Macarthy's Court,68,,,,,Void
+resident,Macarthy's Court,66,,Joseph,North,ironwrkr
+resident,Macarthy's Court,64,,John Thos.,Hill,ironwrkr
+resident,Macarthy's Court,62,,,,,Void
+resident,Macarthy's Court,60,,R.,Hayward,ironworker
+resident,Macarthy's Court,58,,George,Jones,,
+resident,Macarthy's Court,56,,Geo.,Haywood,ironworkr
+resident,Macarthy's Court,54,,Daniel,Mound,puddler
+resident,Macarthy's Court,52,,William,Trickett,,
+resident,Macarthy's Court,50,,James,Jones,mill worker
+resident,Magor Street,48,,Mrs. Martha,Perry,,
+resident,Magor Street,46,,Edward,Lowe,ironworkr
+resident,Magor Street,44,,Joseph,Kempson,irnrwkr
+resident,Magor Street,42,,George,Arthur,fitter
+resident,Magor Street,40,,Saml.,Perry,ironworker
+resident,Magor Street,38,,William Chas.,Lightwood,,
+resident,Magor Street,36,,Alfred,Edward,irnwrker
+resident,Magor Street,34,,Wm.,Beddington,do
+resident,Magor Street,32,,Geo.,Wilkinson,do
+resident,Magor Street,30,,Chas.,Williams,gardener
+resident,Magor Street,28,,Hy. D.,Griffiths,ironworkr
+resident,Magor Street,26,,Wm. Hy.,Walters,do
+resident,Magor Street,24,,Saml.,Yeates,do

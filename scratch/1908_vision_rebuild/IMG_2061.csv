@@ -1,0 +1,153 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+cross_street,Bolt Street,,,,,,From 55 Commercial-road to Canal-terrace.
+cross_street,Bolt Street,,,,,,[LEFT HAND SIDE.]
+resident,Bolt Street,,,Midland Rlway Carriage and Wagon Co., Ltd.,,works,
+resident,Bolt Street,,,Ford & Pickford,,timber merchants,
+resident,Bolt Street,1,,Joseph,Lewis,labourer,
+resident,Bolt Street,2,,Thomas,Starr,,
+resident,Bolt Street,3,,Fdk.,Williams,platelayer,
+resident,Bolt Street,4,,Geo.,Barnes,shipwright,
+resident,Bolt Street,5,,Geo.,Richards,shipwright,
+resident,Bolt Street,6,,Hy.,Sydney,tram exam.,
+resident,Bolt Street,,,Tom,Wilce,blacksmith,
+resident,Bolt Street,7,,Jas.,Worthy,boilermaker,
+resident,Bolt Street,,,Henry,Hillier,trimmer,
+resident,Bolt Street,8,,John,Archer,labourer,
+resident,Bolt Street,9,,John,Edwards,,
+resident,Bolt Street,,,Miss A.,Beer,,
+resident,Bolt Street,10,,Joseph,Hallett,foreman,
+resident,Bolt Street,11,,Chas. J.,Rysdale,dk labr,
+resident,Bolt Street,12,,D. G.,Thomas,shipwright,
+resident,Bolt Street,13,,Frank,Powell,fitter,
+resident,Bolt Street,14,,Wm. R.,Denley,seaman,
+resident,Bolt Street,15,,J. B.,Channing,platelayer,
+resident,Bolt Street,16,,Wm.,Pullin,foreman,
+resident,Bolt Street,17,,Wm.,Law,labourer,
+resident,Bolt Street,18,,William,Elwyn,brushmaker,
+resident,Bolt Street,,,Wm.,Irvine,trimmer,
+resident,Bolt Street,19,,John,Wilson,grocer, etc.
+cross_street,Bolt Street,,,,,,here is Duke-street.
+resident,Bolt Street,,,BOLT STREET SCHOOL—Boys' entrance,,,
+resident,Bolt Street,21,,John,Pearse,inspector,
+resident,Bolt Street,22,,Alfred,Lewis,labourer,
+resident,Bolt Street,23,,James,Noonan,seaman,
+resident,Bolt Street,24,,George,Evans,labourer,
+resident,Bolt Street,25,,John,Griffiths,labourer,
+resident,Bolt Street,26,,Mrs. Margaret,Morgan,,
+resident,Bolt Street,27,,John,Bear,labourer,
+resident,Bolt Street,28,,Wm.,Seaman,carpenter,
+resident,Bolt Street,29,,W. A.,Griffiths,labourer,
+resident,Bolt Street,30,,Edwin,Brown,labourer,
+resident,Bolt Street,31,,George,Pring,helper,
+resident,Bolt Street,32,,Mrs. Margaret,Rees,,
+resident,Bolt Street,33,,Dd. Jno.,Morgan,shipwgt,
+resident,Bolt Street,34,,E. J.,Morgan,,
+resident,Bolt Street,35,,Chas.,Thomas,hoistman,
+resident,Bolt Street,36,,Arthur H.,Perrett,guard,
+resident,Bolt Street,37,,Frank,Wollen,dock labr,
+resident,Bolt Street,38,,John,Lindbom,seaman,
+resident,Bolt Street,38A,,Thomas,Brown,,
+resident,Bolt Street,39,,Francis,Jeffrey,labourer,
+resident,Bolt Street,21,,Edward,Jones,seaman,
+resident,Bolt Street,22,,Albert,Blake,oil mercht,
+cross_street,Bolt Street,,,,,,(return)
+resident,Bolt Street,23,,Wm.,Moss Rd.,carpenter,
+resident,Bolt Street,24,,Saml.,Townsend,mill lab.
+resident,Bolt Street,25,,Hy. G.,Bladon,eng. drivr
+resident,Bolt Street,26,,John,Reed,engineer,
+resident,Bolt Street,27,,Robert,Parr,potter,
+cross_street,Bolt Street,,,,,,here is Frank-street
+resident,Bolt Street,28,,Fdk. A.,Avery,wheelwgt.
+street,Bolton Road,Bolton Road,,,,,
+cross_street,Bolton Road,,,,,,From Risca-road.
+cross_street,Bolton Road,,,,,,[RIGHT HAND SIDE.]
+resident,Bolton Road,1,,James,Wiggins,gardener,
+resident,Bolton Road,2,Home cot,Daniel,Powell,,
+resident,Bolton Road,3,Rose cot,Alfred G.,Witts,,
+resident,Bolton Road,4,,Mrs. A.,Young,,
+resident,Bolton Road,5,Hillcote,W. C.,Major,,
+resident,Bolton Road,6,,James Fdk.,Freeguard,,
+resident,Bolton Road,7,,Joseph Chas.,Freeguard,,
+resident,Bolton Road,,,Glyn-caerau,,,
+resident,Bolton Road,8,Clarebrook vil,E. J.,Gill,,
+resident,Bolton Road,9,Hazelbrae,J. W.,Wheeler,,
+resident,Bolton Road,10,,Mrs. A.,Bush,,
+resident,Bolton Road,11,,Alfred,John,,
+resident,Bolton Road,12,Kenwith,H. G.,Davies,,
+cross_street,Bolton Road,,,,,,(return.)
+resident,Bolton Road,13,Shipton villa,Mrs. Helen,Gall,,
+resident,Bolton Road,14,Glenlyn,J. H.,Hughes,,
+resident,Bolton Road,15,Belmont,Edwd. R.,Parry,,
+resident,Bolton Road,16,Fern cottage,David,Price,,
+resident,Bolton Road,17,Vine cott,Adam,Nichol,,
+resident,Bolton Road,18,Alltwen,Fredk.,Rawlings,,
+resident,Bolton Road,19,Penrhyn,Daniel,Rees,,
+resident,Bolton Road,20,Forth ho,Wm. H.,Lewis,,
+resident,Bolton Road,21,Elmsdale,Mrs. M. E.,Evans,,
+street,Bolton Street,Bolton Street,,,,,
+cross_street,Bolton Street,,,,,,From Hopefield, Barrack-hill
+resident,Bolton Street,3,,John F.,James,carpenter,
+resident,Bolton Street,4,,Arthur J.,Garland,lab'rer,
+street,Bond Street,Bond Street,,,,,
+cross_street,Bond Street,,,,,,From East Usk-road to River
+cross_street,Bond Street,,,,,,[LEFT HAND SIDE.]
+resident,Bond Street,1,,Arthur,Oliver,driver,
+resident,Bond Street,2,,,,Void,
+resident,Bond Street,3,,Mrs. Mary,White,,
+resident,Bond Street,4,,Thomas,Evans,driver,
+resident,Bond Street,5,,Mrs. E. M.,Lewis,,
+resident,Bond Street,6,,Nicholas,Caswell,bricklyr
+resident,Bond Street,7,,James,Worrall,comp.
+resident,Bond Street,8,,Frank,Waite,hawker,
+resident,Bond Street,9,,Fredk.,Davies,smith,
+resident,Bond Street,10,,Bert,Rice,labourer,
+resident,Bond Street,11,,Jas. Jos.,Scanlan,labourer
+resident,Bond Street,12,,George,Barnett,ostler,
+resident,Bond Street,13,,Chas. E.,Powell,labourer
+resident,Bond Street,14,,Reg. A.,Cosslett,haulier,
+resident,Bond Street,15,,T.,McCarthy,dock lab'rer
+resident,Bond Street,16,,Wm.,Williams,blacksmth
+resident,Bond Street,17,,Walter Ed.,Phelps,lab'rer
+resident,Bond Street,18,,Wm.,Morgan,spokemaker
+resident,Bond Street,19,,Charles,Cording,sawyer,
+resident,Bond Street,20,,Chas. Ed.,Amos,labourer,
+street,Borough Chambers,Borough Chambers,,,,,
+cross_street,Borough Chambers,,,,,,See 12 Skinner-street.
+street,Bream Place,Bream Place,,,,,
+cross_street,Bream Place,,,,,,From 157 Dock-street.
+cross_street,Bream Place,,,,,,[RIGHT HAND SIDE.]
+resident,Bream Place,1,,Mrs. R.,Reardon,,
+resident,Bream Place,2,,Geo. W.,Fitzgerald,labr
+resident,Bream Place,3,,Geo.,Challicon,caretaker
+resident,Bream Place,4,,Thos.,Sullivan,labourer
+resident,Bream Place,5,,Wm.,Merry,labourer,
+resident,Bream Place,6,,Thos.,Barrett,labourer,
+resident,Bream Place,7,,Alfred,Stanton,labourer
+resident,Bream Place,8,,Mrs.,Davies,,
+resident,Bream Place,,,Abbott & Baker's,,stores,
+cross_street,Bream Place,,,,,,(return)
+resident,Bream Place,,,Ayliffe & Son's,,motor garage,
+resident,Bream Place,9,,F. R.,Wallington,haulier,
+resident,Bream Place,10,,Hy. J.,Trump,storekeepr
+resident,Bream Place,11,,Alfred W.,Davies,haulier,
+resident,Bream Place,12,,William,Coughlin,paintr
+resident,Bream Place,13,,James,Horton,labourer
+resident,Bream Place,14,,Walter,James,labourer,
+resident,Bream Place,15,,Christopher,Hurley,labr
+resident,Bream Place,16,,John,Hart,labourer,
+resident,Bream Place,17,,Wm.,Reardon,labourer,
+resident,Bream Place,18,,Cornelius,Portal,lab'rer
+street,Brickyard Road,Brickyard Road,,,,,
+cross_street,Brickyard Road,,,,,,From 373 Caerleon-road.
+cross_street,Brickyard Road,,,,,,[RIGHT HAND SIDE.]
+resident,Brickyard Road,1,,James,James,labourer,
+resident,Brickyard Road,2,,James, sen.,Cronk,lab'rer
+resident,Brickyard Road,3,,John,Jones,driver,
+resident,Brickyard Road,4,,Edgar,Price,labourer,
+resident,Brickyard Road,5,,Mrs. Susan,Jones,,
+resident,Brickyard Road,6,,Benjamin,Fry,labourer,
+resident,Brickyard Road,7,,William,Barrett,labourer,
+cross_street,Brickyard Road,,,,,,(return)
+resident,Brickyard Road,9,,Jonathan,Cronk,labourer,
+resident,Brickyard Road,7,,Wm.,Brooks,labourer,
+resident,Brickyard Road,,,St. Julian's Brick Co., Ltd.,,Brickworks and Pottery,

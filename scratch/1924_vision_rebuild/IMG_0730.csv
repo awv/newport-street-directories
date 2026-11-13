@@ -1,0 +1,156 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,ALBION STREET,,,,,,
+resident,ALBION STREET,17,,Cornelius,Burke,trimmer,
+resident,ALBION STREET,18,,T. E.,Bright,fitter's hlpr,
+resident,ALBION STREET,19,,Henry,Harris,painter,
+resident,ALBION STREET,20,,E. G.,Andrews,platelayer,
+resident,ALBION STREET,21,,Mrs. Margaret,Lee,,
+resident,ALBION STREET,22,,Morgan F.,James,fitter,
+resident,ALBION STREET,23,,F. J.,Chambers,dk. labr,
+resident,ALBION STREET,24,,Robert,Caines,boilermkr,
+resident,ALBION STREET,25,,Charles,Iles,labourer,
+resident,ALBION STREET,26,,Henry,Bunting,labr,
+resident,ALBION STREET,26a,,W.,Landrey,labourer,
+resident,ALBION STREET,27,,Thos. I.,Gunter,dk. labr,
+resident,ALBION STREET,28,,James,Hunt,trimmer,
+resident,ALBION STREET,29,,Mrs. Kate,Jones,,
+resident,ALBION STREET,30,,W. J.,Kelleher,labourer,
+resident,ALBION STREET,30a,,Daniel,Mansfield,labr,
+resident,ALBION STREET,31,,Owen,Coughlan,coaltmr,
+resident,ALBION STREET,31a,,Spencer,Rawlings,,
+resident,ALBION STREET,32,,Thomas,English,seaman,
+resident,ALBION STREET,33,,Bros.,Houghton,undertkrs motor car and charabanc proprietors,
+resident,ALBION STREET,,,Bros.,Houghton,firewood yard,
+street,ALDERNEY STREET,,,,,,B 4
+cross_street,ALDERNEY STREET,,,,,,"From 49 Albany-street."
+cross_street,ALDERNEY STREET,,,,,,"(LEFT HAND SIDE)"
+resident,ALDERNEY STREET,,,W. Richard,Phillips,labr,
+resident,ALDERNEY STREET,,,R. G.,Rees,,Lawrenny
+resident,ALDERNEY STREET,,,G. F. & Co.,Lovell,canteen,
+resident,ALDERNEY STREET,,Sonoma,John,McGowan,,
+resident,ALDERNEY STREET,,Marshall villa,Harry,James,,
+resident,ALDERNEY STREET,,Meton villa,Daniel,Williams,,
+street,ALEXANDRA DOCKS,,,,,,F 5
+cross_street,ALEXANDRA DOCKS,,,,,,"From Alexandra Road."
+cross_street,ALEXANDRA DOCKS,,,,,,"(East-side.)"
+resident,ALEXANDRA DOCKS,,,,,,"G.W. Ry. Docks police office"
+resident,ALEXANDRA DOCKS,,,,,,"Board of Trade Labour Exchange—Docks branch"
+resident,ALEXANDRA DOCKS,,,,,The Mersey Insulation Co. Ltd.
+resident,ALEXANDRA DOCKS,,,,,Geo. & Co. stevedores Scott,Discharging berths
+resident,ALEXANDRA DOCKS,,,,,,"Great Western Railway Company—General Dock Superintendent's offices.—J. H. Swallow, Dock Supt."
+resident,ALEXANDRA DOCKS,,,,,Rea Transport Co., Ltd.,
+resident,ALEXANDRA DOCKS,,,,,,"G.W.R., Dock Engineer's office—W. Cleaver, resident engineer"
+resident,ALEXANDRA DOCKS,,,,,,"Telephone Call Office"
+resident,ALEXANDRA DOCKS,,,,,C. H. Bailey's Dry Dock,
+cross_street,ALEXANDRA DOCKS,,,,,,"DOCK COTTAGES—"
+resident,ALEXANDRA DOCKS,4,,Roland,Hale,dockman,
+resident,ALEXANDRA DOCKS,5,,John,Johnson,,
+resident,ALEXANDRA DOCKS,6,,Wm. T.,Soffe,dockman,
+resident,ALEXANDRA DOCKS,11,,J. P.,Bradbury,eng. dvr,
+resident,ALEXANDRA DOCKS,12,,E.,Rowland,berth master,
+resident,ALEXANDRA DOCKS,13,,Thomas,England,fitter,
+resident,ALEXANDRA DOCKS,,,,Mountstuart Dry Docks & Shearman's Ltd.,,
+resident,ALEXANDRA DOCKS,,,,,G.W.R. Commercial Dry Dock,
+resident,ALEXANDRA DOCKS,,,,,G.W.R. Stores Office,
+resident,ALEXANDRA DOCKS,,,,,Engine houses and workshops,
+resident,ALEXANDRA DOCKS,,,,,G.W.R. Canteen,
+resident,ALEXANDRA DOCKS,,,,,East Lock.,
+cross_street,ALEXANDRA DOCKS,,,,,,"South Quay—"
+resident,ALEXANDRA DOCKS,,,,,Custom House,South Dock
+resident,ALEXANDRA DOCKS,,,,,T. Cheshire & Co.,
+resident,ALEXANDRA DOCKS,,No. 4 Bonded warehouse,,,
+resident,ALEXANDRA DOCKS,,The Bungalow,Thos.,Brown,Ltd.
+resident,ALEXANDRA DOCKS,,,,,Houlder Bros. & Co., Ltd.
+resident,ALEXANDRA DOCKS,,,,,Jones, Heard & Co., Ltd.
+resident,ALEXANDRA DOCKS,,3 Warehouses (Nos. 5, 6 & 8),,,
+resident,ALEXANDRA DOCKS,,,(C.) Lovell & Sons,Snaw,,
+resident,ALEXANDRA DOCKS,,No. 7 shed,Bros.,Houlder,
+resident,ALEXANDRA DOCKS,,Blue house cot.,T. G.,Taylor,
+resident,ALEXANDRA DOCKS,,,,,Newport Cold Storage & Ice Co., Ltd.
+resident,ALEXANDRA DOCKS,,,,,Pumping, Electrical and Hyd. Power Station,
+resident,ALEXANDRA DOCKS,,,,,Pier Masters', Pilots', and Tel. Offices,
+cross_street,ALEXANDRA DOCKS,,,,,,"South Lock Entrance"
+cross_street,ALEXANDRA DOCKS,,,,,,"(return)"
+cross_street,ALEXANDRA DOCKS,,,,,,"(West-side.)"
+resident,ALEXANDRA DOCKS,,,,,,"South Dock—Coal hoists and necessary sidings"
+resident,ALEXANDRA DOCKS,,,,,Mountstuart Dry Docks & Shearman's Ltd.—Branch works,
+resident,ALEXANDRA DOCKS,,,,,Alex. Dk. Carpenters' dept.,
+resident,ALEXANDRA DOCKS,,,,,Telephone Call Box,
+resident,ALEXANDRA DOCKS,,,,,G.W.R. Ambulance station,
+resident,ALEXANDRA DOCKS,,,,,Burt, Boulton & Haywood, Ltd. sleeper mchts, creosote works, etc, & at Port Talbot
+resident,ALEXANDRA DOCKS,,,,,Nicholas & Co.'s Ltd., steam sawing & moulding mills
+resident,ALEXANDRA DOCKS,,,,,Timber float,
+resident,ALEXANDRA DOCKS,,,,,Stephen T. G. Cleverley,
+resident,ALEXANDRA DOCKS,,,,,Wm. H. Gabb,
+resident,ALEXANDRA DOCKS,,,,,Hydraulic Power Station,
+cross_street,ALEXANDRA DOCKS,,,,,,"(North Side)"
+resident,ALEXANDRA DOCKS,,,,,Timber berths,
+resident,ALEXANDRA DOCKS,,,,,G.W.R. pay office,
+resident,ALEXANDRA DOCKS,,,,,H.M. Customs,
+resident,ALEXANDRA DOCKS,,,,,G.W.R. enquiry office,
+resident,ALEXANDRA DOCKS,,,,,G.W.R. Goods Station,
+resident,ALEXANDRA DOCKS,,,,,Great Western Railway.—Docks Traffic Coal Shipping Office,
+street,ALEXANDRA ROAD,,,,,,E 5
+cross_street,ALEXANDRA ROAD,,,,,,"From end of Commercial-road."
+cross_street,ALEXANDRA ROAD,,,,,,"(RIGHT HAND SIDE.)"
+resident,ALEXANDRA ROAD,2,,D. H.,Thomas,grocer,
+resident,ALEXANDRA ROAD,4,,& Orler,Goldstein,tobcts,
+resident,ALEXANDRA ROAD,6,,Sures,Cralcbon,boardg ho,
+resident,ALEXANDRA ROAD,8,,H. & Co.,Woodley,butchrs,
+resident,ALEXANDRA ROAD,10,,Thos.,Casey,dk. labourer,
+resident,ALEXANDRA ROAD,10,,J.,Kirby,boot repairer,
+resident,ALEXANDRA ROAD,,,,,C. E.,Jones,boilermkr hlp,
+resident,ALEXANDRA ROAD,12,,Mrs. A.,Marks,tobacconist,
+resident,ALEXANDRA ROAD,14,,W.,Baldock,pork butcher,
+resident,ALEXANDRA ROAD,16,,& Hood,Harris,shipch'ndlrs,
+resident,ALEXANDRA ROAD,18,,,'s fish saloon,Jones,
+resident,ALEXANDRA ROAD,20,,Associated Tredegar Collieries and Shipping Co., Ltd.,,
+resident,ALEXANDRA ROAD,22,,D. C. & Co.,Jenkins,coal exporters
+resident,ALEXANDRA ROAD,24-26,,Powell Duffryn Steam Coal Co. Ltd.—R. T. Martin, agent,,
+resident,ALEXANDRA ROAD,26,,Mrs.,Soffe,caretaker,
+cross_street,ALEXANDRA ROAD,,,,,,"here is James-street."
+resident,ALEXANDRA ROAD,28,,D. J.,Evans,butcher,
+resident,ALEXANDRA ROAD,30,,Mrs. M.,James,confect'ner,
+resident,ALEXANDRA ROAD,32,,Albert,Cowen,jeweller,
+resident,ALEXANDRA ROAD,34,,Albert H.,Mills,greengrcr,
+resident,ALEXANDRA ROAD,,,,,St. Stephen's Schools,
+resident,ALEXANDRA ROAD,36,,Ernest,Webb,sailor,
+resident,ALEXANDRA ROAD,38,,D. J.,Evans,butcher,
+resident,ALEXANDRA ROAD,40,,William J.,Bartlett,grocer,
+cross_street,ALEXANDRA ROAD,,,,,,"here is Adeline-street."
+resident,ALEXANDRA ROAD,,,,,St. Stephen's Church,
+cross_street,ALEXANDRA ROAD,,,,,,"here is Pottery-terrace."
+resident,ALEXANDRA ROAD,42,,E.,Roberts,baker, &c.,
+resident,ALEXANDRA ROAD,,,,,(Public Call Office),
+resident,ALEXANDRA ROAD,,,D.,Stephens,dentist,
+resident,ALEXANDRA ROAD,44,,A. G.,Jones,news & hairdr,
+resident,ALEXANDRA ROAD,46,,Mrs. R.,Evans,greengrocer,
+resident,ALEXANDRA ROAD,48,,E.,Ostolozaga,fish bar,
+resident,ALEXANDRA ROAD,,,,,Baptist Chapel,
+cross_street,ALEXANDRA ROAD,,,,,,"here is Milman-street."
+resident,ALEXANDRA ROAD,50,,Docks Conservative Club—Lewis Chas. A., steward,,
+resident,ALEXANDRA ROAD,52,,Sam. H.,Dunn,agent,
+resident,ALEXANDRA ROAD,54,,John,Purnell,restaurant,
+resident,ALEXANDRA ROAD,56,,Holzapfels Compo.Co. Ltd.,,
+resident,ALEXANDRA ROAD,,,Ernest William,Poole,,
+resident,ALEXANDRA ROAD,58,,C. J.,Parfitt,eng. driver,
+resident,ALEXANDRA ROAD,60,,H.,Abraham,boatman,
+resident,ALEXANDRA ROAD,62,,H. J.,Gregory,pattern mkr,
+resident,ALEXANDRA ROAD,64,,Ll.,Lloyd,engine driver,
+resident,ALEXANDRA ROAD,66,,Mrs. Fanny,Gapper,,
+resident,ALEXANDRA ROAD,68,,Mrs. Annie,Burlington,,
+resident,ALEXANDRA ROAD,70,,W. C.,Christerson,carp.,
+resident,ALEXANDRA ROAD,72,,Fredk.,Sheffers,lorry dvr,
+resident,ALEXANDRA ROAD,74,,Ernest J.,Elliott,garage,
+resident,ALEXANDRA ROAD,76,,S. H.,Clode,butcher,
+resident,ALEXANDRA ROAD,78,,Bros.,Scarfi,cycle dealers,
+resident,ALEXANDRA ROAD,,,E.,Ostolozoga,boarding h,
+resident,ALEXANDRA ROAD,80,,Albert E.,Hurd,greengcr,
+resident,ALEXANDRA ROAD,82,,John,Roach,bdg house,
+resident,ALEXANDRA ROAD,84,,Antonio,Bellanto,boarding house
+resident,ALEXANDRA ROAD,86,,N. & Sons,Cueto,fish bar,
+resident,ALEXANDRA ROAD,88,,G. S.,Jeffreys,hairdresser,
+resident,ALEXANDRA ROAD,90,,Thos. H.,Lewis,weighman,
+resident,ALEXANDRA ROAD,92,,Sidney,Webb,fitter,
+resident,ALEXANDRA ROAD,94,,Albert,Edwards,John,
+resident,ALEXANDRA ROAD,96,,A.,Squibbs,postal clerk,

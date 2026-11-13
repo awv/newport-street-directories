@@ -1,0 +1,150 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,NEWPORT STREET LIST.,,,,,,"Win to Yor"
+street,WOODLAND PARK, M.,,,,,,From Woodland-road.
+resident,WOODLAND PARK, M.,,,,T. B.,Wilson,R.,Methven
+resident,WOODLAND PARK, M.,,,W. S.,Smyth,,Glenbank
+resident,WOODLAND PARK, M.,,,,A. H.,Tapson,,Rougemont
+resident,WOODLAND PARK, M.,,,,Wm.,Edwards,J.P.,The Firs
+resident,WOODLAND PARK, M.,,,,R. C. E.,Barton,Rev.,Pensbury
+street,WOODLAND ROAD, M.,,,,,,From 81 Victoria-avenue to Crescent-road.
+cross_street,WOODLAND ROAD, M.,,,,,,"[LEFT HAND SIDE.]"
+resident,WOODLAND ROAD, M.,1,,Benj.,Willans,,Wrington v
+resident,WOODLAND ROAD, M.,2,Brighton villa,W. J.,Dix,,
+resident,WOODLAND ROAD, M.,3,,James,Keene,clerk,
+resident,WOODLAND ROAD, M.,4,,H. B.,Keene,,
+resident,WOODLAND ROAD, M.,5,,John E.,Southall,,
+resident,WOODLAND ROAD, M.,,,Fair view,Mrs E.,Metcalfe,,
+resident,WOODLAND ROAD, M.,6,,G. C.,Hill,fitter,Harley b
+resident,WOODLAND ROAD, M.,7,,,,,,Void
+resident,WOODLAND ROAD, M.,8,Fernside v,Mrs M.,Jordan,,
+resident,WOODLAND ROAD, M.,9,Glynmawr c,J.,Parkinson,,
+resident,WOODLAND ROAD, M.,10,,John,Dean,signalman,
+resident,WOODLAND ROAD, M.,11,,Wm. E.,Dudley,merchant,
+resident,WOODLAND ROAD, M.,12,,Wm. H.,Wilks,engineer,
+cross_street,WOODLAND ROAD, M.,,,,,,CLEVEDON TERRACE-
+resident,WOODLAND ROAD, M.,13,,Daniel,Davies,gardener,
+resident,WOODLAND ROAD, M.,14,,Frank,Hunter,builder,
+resident,WOODLAND ROAD, M.,15,,Frank,Atherton,police,
+resident,WOODLAND ROAD, M.,16,,George,Burden,,
+resident,WOODLAND ROAD, M.,17,,William,Evans,,
+resident,WOODLAND ROAD, M.,18,,E. J.,Grant,clerk,
+resident,WOODLAND ROAD, M.,19,,Wm. J.,Mathias,auctioneer,
+resident,WOODLAND ROAD, M.,20,,Mrs A.,Bleasdale,,
+cross_street,WOODLAND ROAD, M.,,,,,,Woodland Nursery
+resident,WOODLAND ROAD, M.,22,Woodland house,W. M.,Willett,Rev.,[cottage
+resident,WOODLAND ROAD, M.,23,Woodland 1,Arthur,Horlor,,
+resident,WOODLAND ROAD, M.,24,Woodland v,Mrs M,Spenser-,,
+resident,WOODLAND ROAD, M.,25,,Oliver,Glover,,
+resident,WOODLAND ROAD, M.,,,The Woodlands,J.,Berlyn,,
+cross_street,WOODLAND ROAD, M.,,,,,,here is Woodland-park.
+resident,WOODLAND ROAD, M.,45,,Jas.,Williams,coal dealer,
+resident,WOODLAND ROAD, M.,46,,Geronthius,Bertera-,junr.,
+resident,WOODLAND ROAD, M.,47,,John,Laking,,
+resident,WOODLAND ROAD, M.,48,,Mrs R. J.,McLellan,,
+resident,WOODLAND ROAD, M.,49,,Edward,Vivian,gardener,
+resident,WOODLAND ROAD, M.,50,,Arthur,Wells,clerk,
+resident,WOODLAND ROAD, M.,51,,S. E.,English,traveller,
+resident,WOODLAND ROAD, M.,52,,Wm. Hy.,Wright,managr,
+resident,WOODLAND ROAD, M.,53,,J. J.,Bothomley,,
+resident,WOODLAND ROAD, M.,54,,Mrs M. A.,Rowe,[Italian,
+resident,WOODLAND ROAD, M.,55,,Geronthius,Bertera-,prof.,
+resident,WOODLAND ROAD, M.,57,Woodbine v,Thos. P.,Smale,,
+resident,WOODLAND ROAD, M.,58,Frankville,A. T.,Stephens,,
+resident,WOODLAND ROAD, M.,59,Ivy cottage,John,Fowler,,
+resident,WOODLAND ROAD, M.,60,Glen villa,Albert,Crum,,
+resident,WOODLAND ROAD, M.,61,Abbotsford,Jas.,Brennau,,
+resident,WOODLAND ROAD, M.,62,,,,,,Gordon house-void
+resident,WOODLAND ROAD, M.,63,Kent ho,Alfred,Williams,,
+resident,WOODLAND ROAD, M.,64,Roseville house-void,,,,,,
+street,WRINGTON TERRACE, M.,,,,,,From 50 Victoria-avenue.
+street,WYNDHAM STREET.,,,,,,From 96 Shaftesbury-street.
+resident,WYNDHAM STREET.,1,,T.,Harrington,coalman,
+resident,WYNDHAM STREET.,2,,William,Parker,traveller,
+resident,WYNDHAM STREET.,3,,Heury,Prosser,drover,
+resident,WYNDHAM STREET.,,,,Newport (Mon.) Hide, Skin, Fat, and Wool Co., Ltd.,,
+resident,WYNDHAM STREET.,,,Public Slaughter houses,,,
+resident,WYNDHAM STREET.,,,James Hooper,manager,,
+resident,WYNDHAM STREET.,,,Newport Steam Bakery,,,H. P. Lewis & Son
+street,YORK PLACE.,,,,,,From 120 Stow-hill to Clyffard-crescent.
+cross_street,YORK PLACE.,,,,,,"[LEFT HAND SIDE.]"
+resident,YORK PLACE.,1,,W. B.,Thorne,,
+resident,YORK PLACE.,3,,E. W.,Evans,,
+resident,YORK PLACE.,5,,Mrs J. R.,Hall,,
+resident,YORK PLACE.,7,,Rev William,Charnell,,
+resident,YORK PLACE.,9,,William,Woodhall,verger,
+resident,YORK PLACE.,11,,,,,,Void
+resident,YORK PLACE.,13,,John,Brownscombe,,
+resident,YORK PLACE.,15,,James,Needham,,
+resident,YORK PLACE.,17,,Mrs Elizabeth,Joshua,,
+resident,YORK PLACE.,19,,T. C.,Morgan,draper,
+resident,YORK PLACE.,21,,W. E.,Edwards,prof. music,
+resident,YORK PLACE.,23,,Thomas,Hazell,Henry
+resident,YORK PLACE.,25,,,,,,Void
+resident,YORK PLACE.,27,,Mrs J.,Davey,,
+resident,YORK PLACE.,29,,C. W.,Richards,Elmdene,
+resident,YORK PLACE.,31,,E. B.,Sherrin,St. Gothard's,
+resident,YORK PLACE.,33,,Mrs Louisa,Watts,Vesey h
+resident,YORK PLACE.,35,,Rev H.,Abraham,Shorwell,
+resident,YORK PLACE.,37,,Alfred,Hancock,Mon Abri
+resident,YORK PLACE.,39,,Edwyn,Richards,builder,
+resident,YORK PLACE.,41,,W. A.,Smith,draper,
+resident,YORK PLACE.,43,,Jas.,Newcombe,corn mer
+resident,YORK PLACE.,45,,J. W.,Atkins,,
+resident,YORK PLACE.,47,,Nicholas,William,,
+resident,YORK PLACE.,49,,Rev Geo.,Evans,The Glyu
+resident,YORK PLACE.,51,,M.,Spiridion,Fern lea
+resident,YORK PLACE.,53,,T.,Berryman,Glen view
+resident,YORK PLACE.,55,,Misses,Morgan,Brodawel
+resident,YORK PLACE.,,,W. F.,Cole,,
+street,NEWPORT STREET LIST. (CONTINUED),,,,,,Win to Yor
+resident,NEWPORT STREET LIST. (CONTINUED),6,,George,Evans,wharfman,
+resident,NEWPORT STREET LIST. (CONTINUED),4,,S. J.,Bartlett,labourer,
+resident,NEWPORT STREET LIST. (CONTINUED),15,Ash cottage,Thos.,Wilks,,
+resident,NEWPORT STREET LIST. (CONTINUED),16,Stanway c,Jas.,Pritchard,,
+resident,NEWPORT STREET LIST. (CONTINUED),17,Hope cot,Mrs P.,Watkins,,
+resident,NEWPORT STREET LIST. (CONTINUED),18,Sunnyb'k,Mrs W.N.,Johns,,
+resident,NEWPORT STREET LIST. (CONTINUED),19,Springhill,C. M.,Charles,,
+street,WINMILL STREET.,,,,,,John-street to S. Market-street
+resident,WINMILL STREET.,1,,Mrs Margaret,James,,
+resident,WINMILL STREET.,2,,Mrs Elizabeth,James,,
+resident,WINMILL STREET.,3,,H. B.,Frayley,brewer,
+resident,WINMILL STREET.,4,,Thomas,Purvis,seaman,
+resident,WINMILL STREET.,5,,Charles,Benson,labourer,
+street,WITHEY BED.,,,,,,From 22 Dos-road.
+resident,WITHEY BED.,,,,William,Nott,mason,
+resident,WITHEY BED.,,,,Mrs Ann,Lewis,,
+resident,WITHEY BED.,,,,George,Stott,waterman,
+resident,WITHEY BED.,,,,William,Morgan,carpenter,
+street,WOLSELEY STREET, P.,,,,,,From 23 Watchhouse-parade.
+cross_street,WOLSELEY STREET, P.,,,,,,"[LEFT HAND SIDE.]"
+resident,WOLSELEY STREET, P.,1,,John,Davies,trimmer,
+resident,WOLSELEY STREET, P.,3,,Joseph,Copal,rigger,
+resident,WOLSELEY STREET, P.,5,,William,Taylor,labourer,
+resident,WOLSELEY STREET, P.,7,,Wm.,Sheppard,labourer,
+cross_street,WOLSELEY STREET, P.,,,,,,here is David-street.
+resident,WOLSELEY STREET, P.,9,,George,Durrant,grocer,
+resident,WOLSELEY STREET, P.,13,,Richard,Foulks,labourer,
+resident,WOLSELEY STREET, P.,15,,Leonard,Dyer,donkeymn
+resident,WOLSELEY STREET, P.,17,,John,Ball,engine driver,
+resident,WOLSELEY STREET, P.,19,,Samuel,Smith,craneman,
+resident,WOLSELEY STREET, P.,21,,Mrs E.,Counsell,shopkpr,
+cross_street,WOLSELEY STREET, P.,,,,,,(return.)
+resident,WOLSELEY STREET, P.,42,,Jas.,Williams,boilermakr
+resident,WOLSELEY STREET, P.,40,,Wm.,Hood,coal trimmer
+resident,WOLSELEY STREET, P.,38,,Thomas,Duncan,engineer
+resident,WOLSELEY STREET, P.,36,,William,Watts,pilot
+resident,WOLSELEY STREET, P.,34,,Israel,Pope,labourer
+resident,WOLSELEY STREET, P.,32,,Alfred,Sully,tug boat
+resident,WOLSELEY STREET, P.,30,,John,Purnell,coal trimr
+resident,WOLSELEY STREET, P.,28,,Ed.,Trowbridge,cabman
+resident,WOLSELEY STREET, P.,26,,Thomas E.,Jackson,,
+resident,WOLSELEY STREET, P.,24,,Alfred,Knapp,mason
+resident,WOLSELEY STREET, P.,22,,Wm.,Hood,coal trimmer
+resident,WOLSELEY STREET, P.,20,,Henry,Thomas,eng. drvr
+resident,WOLSELEY STREET, P.,18,,James,Ingram,dockman
+resident,WOLSELEY STREET, P.,16,,Jas. S.,Dunsby,missionary,S.W. Sailors Gospel Mis'n
+resident,WOLSELEY STREET, P.,14,,Mrs Mary Ann,Stevens,,
+resident,WOLSELEY STREET, P.,12,,David,Evans,coal trimmer
+resident,WOLSELEY STREET, P.,10,,John,Pearce,guard,
+cross_street,WOLSELEY STREET, P.,,,,,,WOLSELEY STREET CHAPEL
+resident,WOLSELEY STREET, P.,8,,William,Evans,hobbler,161 and 162 Commercial Street, NEWPORT.

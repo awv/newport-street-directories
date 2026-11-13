@@ -1,0 +1,168 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Wharf Road,,,,,,continued
+resident,Wharf Road,22,,Edwin,Powell,,
+resident,Wharf Road,,,Wm.,Littlejohns,cab't mkr,
+resident,Wharf Road,,,,Snelling E. & Son,coach builders,
+cross_street,Wharf Road,,,,,,here is Glebe-street
+resident,Wharf Road,,,MAINDEE LIBERAL CLUB,,,
+resident,Wharf Road,20a,,John,Stokes,fish shop,
+resident,Wharf Road,20,,E. C.,Hill,general shop,
+resident,Wharf Road,18,,George,Hill,mason,
+resident,Wharf Road,16,,George,West,labourer,
+resident,Wharf Road,14,,Chas.,Orders,painter,
+resident,Wharf Road,12,,Peter,Davidson,labourer,
+resident,Wharf Road,10,,Geo.,Ford Alfred,labourer,
+resident,Wharf Road,8,,Arthur,Underwood,labr,
+resident,Wharf Road,6,,H.,Jervis,ins agent,
+resident,Wharf Road,4,,Mrs. D. A.,Morris,grocer,
+resident,Wharf Road,2,,John,Paget,furniture dlr,
+resident,Wharf Road,,Fair Oak house,J.,Baker,,
+resident,Wharf Road,,,Townsend's Newport Ltd.,,warehouse
+resident,Wharf Road,,Shaftesbury Park Lodge,G.,Barnes,lab,Winifred h
+resident,Wharf Road,,,,,Sims Charles,,
+cross_street,Wharf Road,,,,,,here is Evans-street
+resident,Wharf Road,28,,Silas,Holley,,
+resident,Wharf Road,29,,J. D.,Collins,crane driver,
+resident,Wharf Road,30,,Mrs. Rosina,Harding,,
+resident,Wharf Road,31,,Mrs. E.,Phillips,,
+resident,Wharf Road,32,,Mrs. Elizabeth,Lewis,,
+resident,Wharf Road,33,,Walter,Bickerton,,
+resident,Wharf Road,,,George,Limbrick,labourer,
+resident,Wharf Road,34,,Percy,Taylor,assistant,
+resident,Wharf Road,,,Ivor J.,Greenhaf,tram dvr,
+street,WHITBY PLACE,,,,,,"From Prince-street, C 3"
+resident,WHITBY PLACE,1,,Mrs. Clara Ada,Thickens,,
+resident,WHITBY PLACE,2,,Geo. Henry,Dando,G.W.R.,
+resident,WHITBY PLACE,3,,William,Andress,baker,
+resident,WHITBY PLACE,4,,John,Chappell,haulier,
+resident,WHITBY PLACE,,,G.,Berry,confectioner,
+resident,WHITBY PLACE,,,J. S.,Johnson,prov. warehse,
+resident,WHITBY PLACE,,,David,Embling,conf. warehse,
+resident,WHITBY PLACE,,,J.,Smith,fitter,Hollyhurst
+resident,WHITBY PLACE,,,John,Dyke,Alma house,
+resident,WHITBY PLACE,,,Joseph R.,Pitman,G.W.R.,Rosslyn
+resident,WHITBY PLACE,,,F.,Fennell,G.W.R.,Homestead
+resident,WHITBY PLACE,,,J.,Fennell,G.W.R.,Brooklyn
+resident,WHITBY PLACE,,,E. F.,Mills,Primrose cot,
+resident,WHITBY PLACE,,,H.,Spragg,miner,Cardiff cot
+resident,WHITBY PLACE,,,Wm. G.,Richards,Yorkley ch
+resident,WHITBY PLACE,,,J.,Manners,signalman,White croft
+resident,WHITBY PLACE,,,Amos J.,Shott,The Ferns
+resident,WHITBY PLACE,,,Mrs. B.,Smedley,Rose cot
+resident,WHITBY PLACE,,,Arthur M.,Noad,Hatherleigh
+resident,WHITBY PLACE,,,Wm.,Watkins,1 Channel view
+resident,WHITBY PLACE,,,Mrs. Sarah,Rowe,2 do
+resident,WHITBY PLACE,,,C. E.,Cox,Pleasant view
+resident,WHITBY PLACE,,,T.,Ball,eng. dvr,1 The Firs
+resident,WHITBY PLACE,,,E.,Spillane,2 The Firs
+resident,WHITBY PLACE,,,Jos.,Hood,coachman,Fair vw
+resident,WHITBY PLACE,,,Frank C.,Hunter,Claremont
+street,WHITE LION COURT,,,,,,"From 31 Mill-street, C 4"
+resident,WHITE LION COURT,1,,James,Edwards,haulier,
+resident,WHITE LION COURT,2,,Frederick,Edmonds,,
+resident,WHITE LION COURT,3,,Void,,,
+resident,WHITE LION COURT,4,,John,Williams,labourer,
+resident,WHITE LION COURT,5,,Frederick,Davies,,
+resident,WHITE LION COURT,6,,Francis,Morris,ironwkr,
+street,WHITSTONE ROAD,,,,,,"Off Christchurch-road, C 1"
+resident,WHITSTONE ROAD,,,Harry,Adams,Mayfield,
+resident,WHITSTONE ROAD,,,G. E.,Greenway,Weston,
+resident,WHITSTONE ROAD,,,John,Harrison,Trewogan,
+resident,WHITSTONE ROAD,,,P.,Daykin,ironwkr,Penarth c
+resident,WHITSTONE ROAD,,,Fred.,Griffiths,Fairholme,
+resident,WHITSTONE ROAD,,,Joseph,Williams,Fir cot,
+resident,WHITSTONE ROAD,,,W. G.,Essery,Whitby cottage
+resident,WHITSTONE ROAD,,,Clifford F.,Rowe,G.W.R.,Beechwood cottage
+resident,WHITSTONE ROAD,,,Leslie,Jones,butcher,
+resident,WHITSTONE ROAD,,,Wm.,Rowland,River view,
+resident,WHITSTONE ROAD,,,Geo.,Thomas,hairdresser,
+resident,WHITSTONE ROAD,,,Nicholas,Richards,Cogan,
+resident,WHITSTONE ROAD,,,J.,Shaw,window clnr,Ludlow
+resident,WHITSTONE ROAD,,,C.,Watkins,ironworker,Glendale
+resident,WHITSTONE ROAD,,,Robert W.,Wright,Saltram
+resident,WHITSTONE ROAD,,,Mrs. Annie,Ward,Llandough
+resident,WHITSTONE ROAD,,,Alfred,Jenkins,Cowanlea,
+resident,WHITSTONE ROAD,,,Wm. R.,Croome,Chepstow cottage
+resident,WHITSTONE ROAD,,,Theo.,Smedley,Wenvoe,
+resident,WHITSTONE ROAD,,,Wm.,Hill,Pursefield cot,
+resident,WHITSTONE ROAD,,,Edwin,Barnes,Clare cottage
+resident,WHITSTONE ROAD,,,Walter,Hooper,Holme Lea
+resident,WHITSTONE ROAD,,,E. W.,Bunce,West view,
+cross_street,WHITSTONE ROAD,,,,,,(return)
+cross_street,WHITSTONE ROAD,,,,,,here is Diana-street
+resident,WHITSTONE ROAD,,,P.,Sivertsen,sailor,Trelleck,
+street,WHEELER STREET,,,,,,"From 15 Pugsley-street, C 4"
+cross_street,WHEELER STREET,,,,,,(LEFT HAND SIDE.)
+resident,WHEELER STREET,,,J.,Latham,coal yard,
+resident,WHEELER STREET,1,,G. P.,Hayman,taxi driver,
+resident,WHEELER STREET,2,,Mrs. H. L.,Morgan,,
+resident,WHEELER STREET,3,,John,Partridge,,
+resident,WHEELER STREET,4,,Rd.,Radcliffe,carman,
+resident,WHEELER STREET,5,,Hy.,Wetter,police,
+resident,WHEELER STREET,6,,T. A.,Hutchings,G.W.R.,
+resident,WHEELER STREET,,,Sidney,Wetter,clerk,
+resident,WHEELER STREET,7,,Void,,,
+resident,WHEELER STREET,8,,Ed.,Wall,timekeeper,
+resident,WHEELER STREET,9,,Robt. E.,Smith,warehouseman
+resident,WHEELER STREET,10,,Mrs. Martha,Griffiths,,
+resident,WHEELER STREET,,,Wilfred V.,Henson,ironwk
+resident,WHEELER STREET,11,,James H.,Taylor,chaffeur
+resident,WHEELER STREET,12,,Charles,Watts,guard,
+resident,WHEELER STREET,13,,Charles A.,Evans,driver,
+resident,WHEELER STREET,14,,Rd.,Jenkins,ironworker,
+resident,WHEELER STREET,15,,Fred,Williams,labourer,
+resident,WHEELER STREET,16,,Harry,Finch,sugar boiler,
+resident,WHEELER STREET,17,,David,Thomas,labourer,
+cross_street,WHEELER STREET,,,,,,here is Evans-street
+resident,WHEELER STREET,18,,Chas.,Morris,gas works,
+resident,WHEELER STREET,,,Edwin,Carter,outfitter,
+resident,WHEELER STREET,19,,J. H.,Jennings,seaman,
+resident,WHEELER STREET,20,,Ed. J.,Latham,coal merc,
+resident,WHEELER STREET,21,,Mrs. Annie,Bowsher,,
+resident,WHEELER STREET,22,,David,Morgan,,
+resident,WHEELER STREET,23,,Mrs. E.,Monks,,
+resident,WHEELER STREET,24,,Stephen J.,Edwards,labr,
+resident,WHEELER STREET,,,Gordon,Tucker,baker,
+resident,WHEELER STREET,,,James,Chapell,clerk,
+resident,WHEELER STREET,25,,John,Williams,collier,
+resident,WHEELER STREET,26,,Joseph H.,Bond,stlwkr,
+resident,WHEELER STREET,,,Llewellyn,Griffiths,G.W.R.,
+resident,WHEELER STREET,27,,Mrs. A. M.,Jessop,,
+cross_street,WHEELER STREET,,,,,,(return)
+street,WILLIAMS STREET,,,,,,"From 153 Commercial-road to Capel-crescent, E 5"
+cross_street,WILLIAMS STREET,,,,,,(LEFT HAND SIDE.)
+resident,WILLIAMS STREET,1,,John,Daley,labourer,
+resident,WILLIAMS STREET,2,,William,Cooper,fitter,
+resident,WILLIAMS STREET,,,John,Brooks,labourer,
+resident,WILLIAMS STREET,3,,C.,Robins,warehouseman
+resident,WILLIAMS STREET,4,,Thomas,Webb,seaman,
+resident,WILLIAMS STREET,5,,Mrs. A.,Williams,,
+resident,WILLIAMS STREET,6,,George,Glover,fitter,
+resident,WILLIAMS STREET,7,,J.,Waite,John,
+resident,WILLIAMS STREET,8,,Alfred,Manley,boilermkr
+resident,WILLIAMS STREET,9,,John,Richards,labourer,
+resident,WILLIAMS STREET,10,,Mrs. Eliza,Paine,,
+resident,WILLIAMS STREET,11,,Walter,Bartlett,smith,
+resident,WILLIAMS STREET,,,Thos.,Pethrick,found'mn
+resident,WILLIAMS STREET,12,,James,Sullivan,labourer,
+resident,WILLIAMS STREET,,,George,Comer,traveller,
+resident,WILLIAMS STREET,13,,Charles,Goman,labourer,
+resident,WILLIAMS STREET,,,Ernest,Jones,haulier,
+resident,WILLIAMS STREET,14,,David Hy.,James,,
+resident,WILLIAMS STREET,15,,Thomas,Berry,stoker,
+resident,WILLIAMS STREET,16,,Thos. W.,Rose,police,
+resident,WILLIAMS STREET,17,,Wm. J.,Clements,lithogr
+resident,WILLIAMS STREET,18,,Wm. C.,Harvey,labourer,
+resident,WILLIAMS STREET,19,,Samuel,Arthurs,labourer,
+resident,WILLIAMS STREET,20,,John,Coleman,seaman,
+resident,WILLIAMS STREET,21,,Charles,Evans,engineer,
+resident,WILLIAMS STREET,22,,Void,,,
+resident,WILLIAMS STREET,23,,Mrs. Elizabeth,May,,
+resident,WILLIAMS STREET,,,Christopher S.,Bale,tr'mn
+resident,WILLIAMS STREET,24,,Charles,McCarthy,G.W.R.,
+resident,WILLIAMS STREET,,,Mrs. Norah,Phillis,,
+resident,WILLIAMS STREET,25,,Mrs. Mary,Morrison,,
+resident,WILLIAMS STREET,26,,Ivor,Davies,jointer,
+resident,WILLIAMS STREET,,,Alfred,Windsor,labourer,
+resident,WILLIAMS STREET,27,,W. R. & Sons,Giddings,decorators
+resident,WILLIAMS STREET,,,W. R.,Giddings,,

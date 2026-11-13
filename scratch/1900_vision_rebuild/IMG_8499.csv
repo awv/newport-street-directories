@@ -1,0 +1,156 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,Bryngwyn-rd.to Llanthewy-rd,12,,,Bickley Chas.,,L.&N.W.R
+resident,Bryngwyn-rd.to Llanthewy-rd,14,,,Phillips Alfred,,James
+resident,Bryngwyn-rd.to Llanthewy-rd,16,,,Piaggi John,,moulder
+resident,Bryngwyn-rd.to Llanthewy-rd,18,,,Stokes William,,traveller
+resident,Bryngwyn-rd.to Llanthewy-rd,20,,,Rowley Arthur,,grocer
+resident,Bryngwyn-rd.to Llanthewy-rd,22,,,Bown Robert,,smith
+resident,Bryngwyn-rd.to Llanthewy-rd,24,,,Cookson Henry,,guard
+resident,Bryngwyn-rd.to Llanthewy-rd,26,,,John Morris,,mariner
+resident,Bryngwyn-rd.to Llanthewy-rd,28,,,Jones Edwin,,clerk
+resident,Bryngwyn-rd.to Llanthewy-rd,30,,,Matthews William,,John
+resident,Bryngwyn-rd.to Llanthewy-rd,32,,,Thomas Thos.,,pat. maker
+resident,Bryngwyn-rd.to Llanthewy-rd,34,,,Day John,,
+resident,Bryngwyn-rd.to Llanthewy-rd,36,,,Lewis Chas. L.,,milkman
+cross_street,Bryngwyn-rd.to Llanthewy-rd,,,here is Chelston-place,,,
+resident,Bryngwyn-rd.to Llanthewy-rd,38,,Void,,,
+resident,Bryngwyn-rd.to Llanthewy-rd,40,,,Evans Walton,,factory
+resident,Bryngwyn-rd.to Llanthewy-rd,42,,,Richards Regd.,,carpenter
+resident,Bryngwyn-rd.to Llanthewy-rd,44,,,Dyer Frank,,
+resident,Bryngwyn-rd.to Llanthewy-rd,46,,,Kent Chas. Wm.,,assistant
+resident,Bryngwyn-rd.to Llanthewy-rd,48,,,Jennings Fred,,waiter
+resident,Bryngwyn-rd.to Llanthewy-rd,50,,,Harrington T. J.,,
+resident,Bryngwyn-rd.to Llanthewy-rd,52,,,Budding William,,Henry
+resident,Bryngwyn-rd.to Llanthewy-rd,54,,,Bullen John,,
+resident,Bryngwyn-rd.to Llanthewy-rd,56,,,Godfrey F. W.,,
+resident,Bryngwyn-rd.to Llanthewy-rd,58,,,Bond Geo.,,telegraphist
+resident,Bryngwyn-rd.to Llanthewy-rd,60,,Void,,,
+resident,Bryngwyn-rd.to Llanthewy-rd,62,,,Noble Philip,,
+cross_street,Bryngwyn-rd.to Llanthewy-rd,,,entrance to Crindau road,,,
+cross_street,Bryngwyn-rd.to Llanthewy-rd,,,(return.),,,
+resident,Bryngwyn-rd.to Llanthewy-rd,,ALL SAINTS CHURCH,,,,
+resident,Bryngwyn-rd.to Llanthewy-rd,1,Morthoe,Jones John,,,
+street,Bryngwyn Road.,,,,,From 13 Clytha-park-road.
+cross_street,Bryngwyn Road.,,,[RIGHT HAND SIDE.],,,
+resident,Bryngwyn Road.,2,The Leys,Tanner Wm.,,,
+resident,Bryngwyn Road.,4,Downfield,Pillinger H. J.,,,
+resident,Bryngwyn Road.,6,Arbaland,Quarm Mrs M.,,,
+resident,Bryngwyn Road.,8,Brookfield,Taylor Geo. T.,,,
+resident,Bryngwyn Road.,10,St. Helier,Leveson Arth.,,,
+resident,Bryngwyn Road.,12,Gwynyryn,Phillips T.,,,
+resident,Bryngwyn Road.,14,Caersws,Whitaker J. D.,,,
+resident,Bryngwyn Road.,,do,Browne W. Guy,,,
+resident,Bryngwyn Road.,,do,Brown Jos. senr.,,,
+resident,Bryngwyn Road.,16,Wembley,Osborne Jas.,,,
+resident,Bryngwyn Road.,18,Derllwyn,Evan John,,,
+resident,Bryngwyn Road.,20,Castledene,Hartley E.,,,
+resident,Bryngwyn Road.,22,Glenbrook,Weight Arth.,,,
+resident,Bryngwyn Road.,24,Preswylfa,Kirby Conyers,,,
+resident,Bryngwyn Road.,26,Ridgebourn,Ball Wm.,,,
+resident,Bryngwyn Road.,28,Laleham,Parsons Albert,,,
+resident,Bryngwyn Road.,30,,Crabbe G. F.,,,
+cross_street,Bryngwyn Road.,,,(return.),,,
+resident,Bryngwyn Road.,,Villa void,,,,
+resident,Bryngwyn Road.,,do,,,,
+resident,Bryngwyn Road.,13,Abbotsford,Reynolds G.P.,,,
+resident,Burleigh Road.,11,Wyvenhoe,Traylor W. J.,,,
+resident,Burleigh Road.,9,,Joseph W.,,Nant Herbert
+resident,Burleigh Road.,5,,Skinner Rev E.,,Walrond, etc.
+resident,Burleigh Road.,,Trevaine,,,,
+resident,Burleigh Road.,3,Cargate-void,,,,
+resident,Burleigh Road.,1,Crombehurst,Stone W.N.,,,
+street,Burleigh Road.,,,,,Bryngwyn-rd. to Llanthewy-rd
+street,Caerau Crescent.,,,,,Stow-hill to Caerau-road.
+cross_street,Caerau Crescent.,,,[LEFT HAND SIDE.],,,
+resident,Caerau Crescent.,1,The Lawn,Cullum Chas.,,,
+resident,Caerau Crescent.,2,Merrifield,Rainforth J. F.,,,
+resident,Caerau Crescent.,3,Highfield,Webber E.,,,
+resident,Caerau Crescent.,4,Westray,Gibbons F. W.,,,
+resident,Caerau Crescent.,5,Elibank,Simmonds James,,,
+resident,Caerau Crescent.,6,Greytree ho,Pratt Wm.,,,
+resident,Caerau Crescent.,7,Gwynfa,James Alfred M.,,,
+resident,Caerau Crescent.,8,Pencraig,Llewellyn G. H.,,,
+cross_street,Caerau Crescent.,,,(return.),,,
+resident,Caerau Crescent.,9,Norfolk h,Thatcher Edwn.,,,
+resident,Caerau Crescent.,10,Englefield,Reynolds Mrs,,,
+resident,Caerau Crescent.,11,Glaslyn,Parsons Chas. E.,,,
+resident,Caerau Crescent.,12,Laurels,,,,
+resident,Caerau Crescent.,13,Mt. view,Lawrence Benj.,,,
+resident,Caerau Crescent.,14,Dolgelly,Jones E. W.,,,
+street,Caerau Park.,,,,,Stow-hill (right-hand) opposite Stow-park.
+street,Caerau Road.,,,,,Clytha Park-road to Stow-hill
+cross_street,Caerau Road.,,,[LEFT HAND SIDE.],,,
+resident,Caerau Road.,1,,Jones John,,rlwy foreman
+resident,Caerau Road.,2,,Williams Jas.,,engine drvr
+resident,Caerau Road.,3,,Smoothey Mrs,,Ann
+resident,Caerau Road.,4,,Herbert Elizabeth,,,
+resident,Caerau Road.,5,,Bartou Thomas,,George
+resident,Caerau Road.,6,,Jenkins Edward,,,
+resident,Caerau Road.,7,,Jeffreys Mrs,,Elizabeth
+resident,Caerau Road.,8,,Gwynn Charles,,miller
+resident,Caerau Road.,9,,Taylor A. J.,,traveller
+resident,Caerau Road.,10,,Parsons William,,,
+resident,Caerau Road.,11,,Davies Mrs,,Harriet
+resident,Caerau Road.,12,,Ayland Charles,,,
+resident,Caerau Road.,13,,Winter Edwin,,traveller
+resident,Caerau Road.,14,,Winter Mrs,,M. A.
+resident,Caerau Road.,15,,Halse Charles,,,
+resident,Caerau Road.,16,,Morris George,,,
+resident,Caerau Road.,,,Morris Mrs,,dressmaker
+resident,Caerau Road.,17,,Corcoran Mrs,,E.
+resident,Caerau Road.,18,,Pool Mrs,,S. E.
+resident,Caerau Road.,19,,Fontaine Miss,,,
+resident,Caerau Road.,20,,Harry & Wood, the Misses,,,
+resident,Caerau Road.,21,Iserlohn ho,Evans Hy.,,,
+resident,Caerau Road.,22,,Coombs T.,,baker, etc.
+resident,Caerau Road.,23,,Hardwick William,,,
+resident,Caerau Road.,24,,Robertson Mrs,,Eliza
+resident,Caerau Road.,25,,Davies John,,cabinetmkr
+resident,Caerau Road.,26,,Moon Robert,,,
+resident,Caerau Road.,27,,Bruce Mrs,,Ann
+resident,Caerau Road.,28,,Jones Charles,,W. clerk
+resident,Caerau Road.,29,,Owen Misses,,costumiers
+resident,Caerau Road.,30,,Witts Mrs,,Mary A.
+resident,Caerau Road.,31,,Ross William,,,
+resident,Caerau Road.,32,,Cross Thomas,,Clifford
+resident,Caerau Road.,33,,Clements Jas.,,iron merch
+resident,Caerau Road.,34,Hillsbro',Pope Arthur,,,
+resident,Caerau Road.,35,Glencairn,Boucher Chas.,,,
+cross_street,Caerau Road.,,,here is Clyffard-crescent.,,,
+resident,Caerau Road.,36,Hudson villa,Davis Thos.,,,
+resident,Caerau Road.,37,Clyro villa,Gacon J. A.,,,
+resident,Caerau Road.,38,Locksbrooke,Townsend A.,,,
+resident,Caerau Road.,39,Clevedon v,Holehouse J.,,,
+resident,Caerau Road.,40,Torville,Batchelor A. G. S.,,,
+resident,Caerau Road.,41,Orwell villa,Boddy John,,,
+resident,Caerau Road.,42,Hampton villa,Jones John Rees,,,
+resident,Caerau Road.,43,,Morris Lewis,,Llewellyn
+resident,Caerau Road.,44,Carlton ho,Cambridge Hy.,,,
+resident,Caerau Road.,45,Linda vista,White G. W.,,,
+resident,Caerau Road.,46,Caerau,Clapp Miss,,,
+resident,Caerau Road.,47,Pentwyn,Lewis Daniel,,,
+resident,Caerau Road.,48,Ebor villa,Arthur W. D.,,,
+resident,Caerau Road.,49,H.M. inspt,Holliday Saml.,,,
+resident,Caerau Road.,50,Tredegar v,Lewis Mrs O.,,,
+cross_street,Caerau Road.,,,(return.),,,
+resident,Caerau Road.,51,Helston vil,Hunter Robt.,,,
+resident,Caerau Road.,52,Handel h,Richards E. G. R.,,,
+resident,Caerau Road.,53,Kemeys vil,Stewart J. J.,,,
+resident,Caerau Road.,54,Camelot vil,Young John,,,
+resident,Caerau Road.,55,Northfield,Budd Charles,,,
+cross_street,Caerau Road.,,,here is Caerau-crescent.,,,
+resident,Caerau Road.,56,Winslade,Kirby W. C.,,,
+resident,Caerau Road.,57,Caerwent ho,Splatt John,,,
+resident,Caerau Road.,,Bricknell Richard,,,,
+resident,Caerau Road.,58,Athos,Hellyer Henry,,,
+resident,Caerau Road.,,A.C.A.,Hellyer A. Lee,,,
+resident,Caerau Road.,59,Pen-carrig,Lloyd H. G.,,,
+resident,Caerau Road.,60,Caergwyn,Smyth W. S.,,,
+resident,Caerau Road.,61,The Hollies,Fennell S. E.,,,
+resident,Caerau Road.,62,Clyfford ho,Scott G. L.,,,
+resident,Caerau Road.,63,Kingsley vil,Meacock W.,,,
+resident,Caerau Road.,64,,Duckham Miss,,Preparatory school, Cromer ho
+resident,Caerau Road.,65,Fair view,Rowe Mrs M. J.,,,
+resident,Caerau Road.,,,Spencer Miss,,Mary
+resident,Caerau Road.,,,Spencer Miss,,Bessie
+resident,Caerau Road.,66,Falkner vil,Morgan Jere,,,

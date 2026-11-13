@@ -1,0 +1,95 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,NEWPORT STREET DIRECTORY,,"",,,,
+cross_street,NEWPORT STREET DIRECTORY,,,here is Hill-street,,,
+resident,NEWPORT STREET DIRECTORY,187,"","","",Void,
+resident,NEWPORT STREET DIRECTORY,187A,"",Herbert,Handy,house furnisher,
+resident,NEWPORT STREET DIRECTORY,138,"",Reid & Co., Ltd.,Fleming,Scotch wool stores,
+resident,NEWPORT STREET DIRECTORY,,"Free Church Girls' Guild",,,,
+resident,NEWPORT STREET DIRECTORY,139,"",C. H.,Burcham,hatter hosier and glover,
+resident,NEWPORT STREET DIRECTORY,140,"",Ltd.,Hipps,tailors,
+resident,NEWPORT STREET DIRECTORY,140A,"",Ltd.,Maynards,conf'trs,
+resident,NEWPORT STREET DIRECTORY,141,"", & Son,Scrivener,outfttrs,
+resident,NEWPORT STREET DIRECTORY,,"COMMERCIAL ST. BAPTIST CHAPEL",,,,
+resident,NEWPORT STREET DIRECTORY,142,"",W. E. & Co., Ltd.,Vaughan,dyers and cleaners,
+resident,NEWPORT STREET DIRECTORY,143,"",C. Limited,Collier,pastry cooks Temperance Restaurant,
+resident,NEWPORT STREET DIRECTORY,,"STAR BUILDINGS",,,,
+resident,NEWPORT STREET DIRECTORY,,"",A. & Co., Ltd.,Greenhalgh,dyers and cleaners,STAR BUILDINGS
+resident,NEWPORT STREET DIRECTORY,,"",Ltd.,South Wales Rinks,,"STAR BUILDINGS"
+resident,NEWPORT STREET DIRECTORY,,"", & Johns,Roberts,shipbrokers & wagon owners,STAR BUILDINGS
+resident,NEWPORT STREET DIRECTORY,,"",,Newport Concert Direction,,STAR BUILDINGS
+resident,NEWPORT STREET DIRECTORY,,"Christadelphian hall",,,,STAR BUILDINGS
+resident,NEWPORT STREET DIRECTORY,,"",F.,Gardner,solicitor,STAR BUILDINGS Official Receiver in Bankruptcy
+resident,NEWPORT STREET DIRECTORY,144,"",,International Rubber Company,,
+resident,NEWPORT STREET DIRECTORY,145,"",Bros.,Williams,tailors,
+resident,NEWPORT STREET DIRECTORY,146,"",W. E.,Robertson,tobenst,
+resident,NEWPORT STREET DIRECTORY,,"",Arthur Edward,Bartlett,,
+resident,NEWPORT STREET DIRECTORY,,"IMPERIAL CHAMBERS",,,,void
+resident,NEWPORT STREET DIRECTORY,148,"Talbot Hotel",David E.,Humphreys,,
+cross_street,NEWPORT STREET DIRECTORY,,,here is Charles-street,,,
+resident,NEWPORT STREET DIRECTORY,149,"", & Co., Ltd.,Reynolds,drapers milliners & fancy warehousemen,
+resident,NEWPORT STREET DIRECTORY,150,"", & Co., Ltd.,Reynolds,drapers milliners & fancy warehousemen,
+resident,NEWPORT STREET DIRECTORY,151,"",,,and house furnishers,
+resident,NEWPORT STREET DIRECTORY,152,"",W. E. & Co., Ltd.,Evans,bootmakers Leicester,
+resident,NEWPORT STREET DIRECTORY,153,"The County Café", & Sons,Bland,pastrycooks and confectioners,
+cross_street,NEWPORT STREET DIRECTORY,,,here is McCarthy's-court,,,
+resident,NEWPORT STREET DIRECTORY,154,"",J. P.,Handford,shipping and general ironmonger,
+resident,NEWPORT STREET DIRECTORY,155,"",J. E. & Co.,Davies,Linens Carpets Linoleums & Soft Furnishing Goods,
+resident,NEWPORT STREET DIRECTORY,155A,"",J. E. & Co.,Davies,Hosiery Gloves Lace and Fancy Drapery,
+resident,NEWPORT STREET DIRECTORY,156,"",J. E. & Co.,Davies,Dresses Silks Mantles & Millinery Showrooms,
+resident,NEWPORT STREET DIRECTORY,156A,"",J. E. & Co.,Davies,Ladies' and Children's Outfitting and Baby Linen,
+resident,NEWPORT STREET DIRECTORY,,"WESLEY CHAMBERS",,,,
+resident,NEWPORT STREET DIRECTORY,,"",A. & G.,Taylor,photographic artists,WESLEY CHAMBERS
+resident,NEWPORT STREET DIRECTORY,,"",W. & Co.,Jesseman,rubber gutta percha asbestos and leather merchants and at 117 Dock street and 50 George street & Barry Dock West Hartlepool Cardiff Southampton and London,WESLEY CHAMBERS
+resident,NEWPORT STREET DIRECTORY,157,"", & Co.,Hemus,mantle warehouse,
+resident,NEWPORT STREET DIRECTORY,158,"",J. & Son, Ltd.,Baker,boot dealers,
+resident,NEWPORT STREET DIRECTORY,159,"",Wm.,Jones,bookseller printer and stationer,
+resident,NEWPORT STREET DIRECTORY,160,"Old Bush",Geo.,Carter,,
+resident,NEWPORT STREET DIRECTORY,161,"",P. E.,Gane,cabinet mkr and house furnisher,
+resident,NEWPORT STREET DIRECTORY,162,"",P. E.,Gane,cabinet mkr and house furnisher,
+resident,NEWPORT STREET DIRECTORY,163,"Home & Colonial Store",,,,
+resident,NEWPORT STREET DIRECTORY,163A,"Furnishing Arcade",P. E.,Gane,Cottage,
+resident,NEWPORT STREET DIRECTORY,,"ELDON CHAMBERS",,,,
+resident,NEWPORT STREET DIRECTORY,,"", & Baker Jones,Hornby,solicitors coms. of oaths,ELDON CHAMBERS
+resident,NEWPORT STREET DIRECTORY,,"",Louis Hy.,Hornby,notary Registrar of County Court & District Registrar High Court of Justice,ELDON CHAMBERS
+resident,NEWPORT STREET DIRECTORY,164,"Albert Restaurant",Mrs. W.,Gibbs,,
+resident,NEWPORT STREET DIRECTORY,164A,"Pilot Hotel",Mat.,Hannan,Ship and,
+resident,NEWPORT STREET DIRECTORY,165,"", & Allen, Ltd.,Evans,drapers,
+resident,NEWPORT STREET DIRECTORY,171,"", & Allen, Ltd.,Evans,drapers,to 171
+resident,NEWPORT STREET DIRECTORY,169,"", & Co., Ltd.,Bevan,house furnishers,
+resident,NEWPORT STREET DIRECTORY,170,"","","",Void,
+resident,NEWPORT STREET DIRECTORY,171A,"Domestic Bazaar Co.",,,,
+resident,NEWPORT STREET DIRECTORY,,"WESTGATE CHAMBERS",,,,1st Floor.
+resident,NEWPORT STREET DIRECTORY,,"",Chas. L. & Co.,Barfoot,accountants & auditors (9-12),WESTGATE CHAMBERS
+resident,NEWPORT STREET DIRECTORY,,"",A. P.,Williams,solicitor (7-8),WESTGATE CHAMBERS
+resident,NEWPORT STREET DIRECTORY,,"",R. & Son,Edington,solicitors (3-4),WESTGATE CHAMBERS
+resident,NEWPORT STREET DIRECTORY,,"",Bickerton, junr.,Pratt,solicitor (6),WESTGATE CHAMBERS
+resident,NEWPORT STREET DIRECTORY,,"",,,2nd Floor.,WESTGATE CHAMBERS
+resident,NEWPORT STREET DIRECTORY,,"",,"Llanover Estate Trustees' office", (14-18),WESTGATE CHAMBERS 2nd Floor.
+resident,NEWPORT STREET DIRECTORY,,"",E. Maples,Linton,architect,WESTGATE CHAMBERS 2nd Floor.
+resident,NEWPORT STREET DIRECTORY,,"",Hellyer & Co.,Ware,accountants (20-21),WESTGATE CHAMBERS 2nd Floor.
+resident,NEWPORT STREET DIRECTORY,,"",,,3rd Floor.,WESTGATE CHAMBERS
+resident,NEWPORT STREET DIRECTORY,,"",Wood & Co.,Blackborow,incorporated accountants (24),WESTGATE CHAMBERS 3rd Floor.
+resident,NEWPORT STREET DIRECTORY,,"",Edgar C.,Jones,house and estate agent (29),WESTGATE CHAMBERS 3rd Floor.
+resident,NEWPORT STREET DIRECTORY,,"",F. R.,Bates,architect (26),WESTGATE CHAMBERS 3rd Floor.
+resident,NEWPORT STREET DIRECTORY,,"",,,4th Floor.,WESTGATE CHAMBERS
+resident,NEWPORT STREET DIRECTORY,,"",John & Son (C. F. Williams),Williams,wharfgrs,WESTGATE CHAMBERS 4th Floor.
+resident,NEWPORT STREET DIRECTORY,,"",,National Cash Register Co.,(38-39),WESTGATE CHAMBERS 4th Floor.
+resident,NEWPORT STREET DIRECTORY,,"",E. W.,Williams,accountant (43),WESTGATE CHAMBERS 4th Floor.
+resident,NEWPORT STREET DIRECTORY,,"",J.,Hall Miss,typewritr (40),WESTGATE CHAMBERS 4th Floor.
+resident,NEWPORT STREET DIRECTORY,,"",,Smith Premier Typewriter Co. Ltd.,(37),WESTGATE CHAMBERS 4th Floor.
+resident,NEWPORT STREET DIRECTORY,,"",,South Wales Plate Glass Insurance Co.,(42),WESTGATE CHAMBERS 4th Floor.
+resident,NEWPORT STREET DIRECTORY,,"",E. H.,Mason,accountant (37-41),WESTGATE CHAMBERS 4th Floor.
+resident,NEWPORT STREET DIRECTORY,172,"",Samuel H.,Jeweller,,
+resident,NEWPORT STREET DIRECTORY,173,"",Ltd.,Wildings,clothiers,
+resident,NEWPORT STREET DIRECTORY,,"WESTGATE CHAMBERS",,,,
+resident,NEWPORT STREET DIRECTORY,,"",E. L.,Lyne,Llanarth Estate offices,WESTGATE CHAMBERS
+resident,NEWPORT STREET DIRECTORY,,"", & Co.,Lyne,solicitors,WESTGATE CHAMBERS
+resident,NEWPORT STREET DIRECTORY,,"",E. L.,Lyne,mining engr,WESTGATE CHAMBERS
+resident,NEWPORT STREET DIRECTORY,174,"",F. J.,Batchelor,mantle warehouse,
+resident,NEWPORT STREET DIRECTORY,175,"",,Public Benefit Boot Co.,,
+resident,NEWPORT STREET DIRECTORY,,"Westgate livery stables",Alfred & Son,Morgan,,
+resident,NEWPORT STREET DIRECTORY,,"WESTGATE BUILDINGS",,,,
+resident,NEWPORT STREET DIRECTORY,,"Westgate Hotel Bar",,,,WESTGATE BUILDINGS
+resident,NEWPORT STREET DIRECTORY,,"", & Deakin,Evans,fancy drapery and millinery,WESTGATE BUILDINGS
+resident,NEWPORT STREET DIRECTORY,,"The Fancy Fair",Misses Payne,general fancy dlrs,WESTGATE BUILDINGS
+resident,NEWPORT STREET DIRECTORY,,"Westgate Hotel The",,,,WESTGATE BUILDINGS

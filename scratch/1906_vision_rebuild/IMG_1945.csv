@@ -1,0 +1,145 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Burleigh Road,,,,,,C 6 Bryngwyn-rd to Llanthewy-rd
+resident,Burleigh Road,22,,T.,Coombs,baker, etc.
+resident,Burleigh Road,23,,William,Evans,gardener
+resident,Burleigh Road,24,,Mrs. Eliza,Robertson,
+resident,Burleigh Road,25,,Mrs. C. S.,Stott,
+resident,Burleigh Road,26,,T. B.,Thorne,patternmkr
+resident,Burleigh Road,27,,John Henry,Rees,clerk
+resident,Burleigh Road,28,,Charles W.,Jones,clerk
+resident,Burleigh Road,29,,Misses,Owen,costumiers
+resident,Burleigh Road,30,,Mrs. Mary A.,Witts,
+resident,Burleigh Road,31,,A. F.,Moreton,G.W.R.
+resident,Burleigh Road,32,,G. J.,Clark,
+resident,Burleigh Road,,,Owen,Davies,
+resident,Burleigh Road,33,,Jas.,Clements,iron mer.
+resident,Burleigh Road,34,,M., Wheeler,J.P., Hillsbro
+resident,Burleigh Road,35,,Chas.,Boucher,Glencairn
+cross_street,Burleigh Road,,,,,here is Clyfford-crescent
+resident,Burleigh Road,36,Hudson v,Miss M.,White,
+resident,Burleigh Road,37,Clyro villa,J. A.,Gaecon,
+resident,Burleigh Road,38,St. Fagan's,A.,Townsend,
+resident,Burleigh Road,39,Clevedon v,J.,Holehouse,
+resident,Burleigh Road,40,Toville,A.G.S.,Batchelor,
+resident,Burleigh Road,41,Orwell villa,C. E.,Smith,
+resident,Burleigh Road,42,Hampton v,John,Swain,
+resident,Burleigh Road,43,The Tors,C. D.,Phillips,
+resident,Burleigh Road,44,Carlton h,H.,Cambridge,
+resident,Burleigh Road,45,Linda vista,G.W.,White,
+resident,Burleigh Road,46,Caerau,John H.,Young,
+resident,Burleigh Road,47,Pentwyn,Daniel,Lewis,
+resident,Burleigh Road,48,Eborville,T. H.,Hazell,
+resident,Burleigh Road,49,Wilfrid, Hursrleigh,C.,Alderton,
+resident,Burleigh Road,50,Leura villa,James P.,Gwatkin,
+cross_street,Burleigh Road,,,,,here is Stow-hill
+cross_street,Burleigh Road,,,,,(return)
+resident,Burleigh Road,51,Helston villa,John W.,Shotton,
+resident,Burleigh Road,52,Idar,David,Milne,
+resident,Burleigh Road,53,Kemeys v,Adam E.,Frost,
+resident,Burleigh Road,54,Camelot vil,John,Young,
+resident,Burleigh Road,55,Northfield,Albt.,Parsons,
+cross_street,Burleigh Road,,,,,here is Caerau-crescent and Spencer-road
+resident,Burleigh Road,56,Rock villa,G. C.,Tovey,
+resident,Burleigh Road,57,Dinsdale,John,Boddy,
+resident,Burleigh Road,58,Oakleigh,Herbt. J.,Smith,
+resident,Burleigh Road,59,Pen-carrig,Arthur H.,Wallis,C.I.E.
+resident,Burleigh Road,60,Caergwyn,George,Jones,
+resident,Burleigh Road,61,The Hollies,L. S.,Abrahamson,
+resident,Burleigh Road,62,Clyffard h,J.,MacCelland,
+resident,Burleigh Road,63,Kingsley vil,W.,Meacock,
+resident,Burleigh Road,64,Cromer ho,Joseph,Sykes,
+resident,Burleigh Road,65,Fairview,Mrs. M. J. C.,Rowe,
+resident,Burleigh Road,,,Miss Fanny,Spencer,
+resident,Burleigh Road,66,Falkner h,Arth.,Williams,
+resident,Burleigh Road,67,Melrose villa,Mrs. J.,Maddock,
+resident,Burleigh Road,68,Crugmeer,H. G.,Barter,
+resident,Burleigh Road,69,Caswell villa,J. C.,Allen,
+resident,Burleigh Road,70,Daleside,James,Abbott,
+resident,Burleigh Road,71,Verwood vil,D. L.,Davies
+resident,Burleigh Road,72,St.Dunstan's,John,Davies
+resident,Burleigh Road,73,Glenrise,Henry,Payne
+resident,Burleigh Road,74,Brooklands,John P.,Elms
+resident,Burleigh Road,75,,—,Finsbury villa—void,
+resident,Burleigh Road,76,Ashley villa,Wm.,Jones
+resident,Burleigh Road,77,Highbury v,T.,Marshall
+resident,Burleigh Road,78,Brinley ho,T. J.,Jones
+resident,Burleigh Road,79,Hillside,Mrs. D.,Jenkins
+resident,Burleigh Road,80,Parkho,Robt. J.,Williams
+resident,Burleigh Road,,,Miss L. M.,Williams,
+street,Caerau Crescent,,,,,,D 6 Stow-hill to Caerau-road.
+cross_street,Caerau Crescent,,,,,[LEFT HAND SIDE.]
+resident,Caerau Crescent,1,The Lawn,Chas.,Cullum
+resident,Caerau Crescent,2,Caerhayes,Frank,Jones
+resident,Caerau Crescent,3,Highfield,Norton,Deane
+resident,Caerau Crescent,4,Westray,F. W.,Gibbons
+resident,Caerau Crescent,5,Elibank,James,Simmons
+resident,Caerau Crescent,6,Greytree ho,Wm.,Pratt
+resident,Caerau Crescent,7,Gwynfa,Alfred M.,James
+resident,Caerau Crescent,8,Pencraig college,Misses,Buchanan
+cross_street,Caerau Crescent,,,,,(return.)
+resident,Caerau Crescent,,Norfolk house,H. Collings,Bishop
+resident,Caerau Crescent,10,Englefield,Mrs.,Reynolds
+resident,Caerau Crescent,,Englefield,T. H.,Reynolds
+resident,Caerau Crescent,,Englefield,Miss S. A.,John
+resident,Caerau Crescent,11,Glaslyn,Francis E.,Battersby
+resident,Caerau Crescent,12,The Laurels,Alf.,Newland
+resident,Caerau Crescent,13,Mt. view,Benj.,Lawrence
+resident,Caerau Crescent,14,Dolgelly,E. W.,Jones
+street,Caerau Park,,,,,,D 6 Stow-hill (right hand) opposite Stow-park.
+street,Caerau Road,,,,,,C 5 Clytha-park-road to Stow hill
+cross_street,Caerau Road,,,,,[LEFT HAND SIDE.]
+resident,Caerau Road,1,,John,Jones,rlway foremn
+resident,Caerau Road,2,,R.,Hewinson,lamp lighter
+resident,Caerau Road,3,,,,Void
+resident,Caerau Road,4,,Thomas,Deer,engineer
+resident,Caerau Road,,,Charles Henry,Inns,
+resident,Caerau Road,5,,S.,Jones,blacksmth
+resident,Caerau Road,6,,Mrs. Sarah,Cullimore,
+resident,Caerau Road,7,,Mrs. Elizabeth,Jeffreys,
+resident,Caerau Road,8,,Wilman J.,Cookes,
+resident,Caerau Road,9,,Rev. D. D.,Joseph,
+resident,Caerau Road,10,,William,Parsons,
+resident,Caerau Road,11,,Sidney,Whitley,salesman
+resident,Caerau Road,12,,Chas.,Ayland,carpenter
+resident,Caerau Road,13,,Arth.,Sheppard,architect
+resident,Caerau Road,14,,J. G.,Jeffreys,pork butcher
+resident,Caerau Road,15,,John,Cope,lithographer
+resident,Caerau Road,16,,George,Morris,
+resident,Caerau Road,17,,Peter,Stringa,H.M.C.
+resident,Caerau Road,18,,H. A.,Holcoombe,
+resident,Caerau Road,19,,Miss,Fontaine,
+resident,Caerau Road,20,,the Misses,Harry & Wood,
+resident,Caerau Road,21,,John,Davies,cabinetmkr
+street,Caerleon Road,,,,,,C 4 From Clarence-place.
+cross_street,Caerleon Road,,,,,[LEFT HAND SIDE.]
+resident,Caerleon Road,1,,Hy James,White,grocer
+resident,Caerleon Road,3,,Alfred E.,Hadden,
+resident,Caerleon Road,,,Miss M.,Hadden,tobac'nist
+resident,Caerleon Road,5,,Stephen,McCall,
+resident,Caerleon Road,7,,Miss,Gomm,dressmaker
+resident,Caerleon Road,9,,Mrs. C,Horwood,
+resident,Caerleon Road,11,,Mrs. Elizabeth,Barrett,
+resident,Caerleon Road,13,,Wallace S.,Brown,electric cable jointer
+resident,Caerleon Road,15,,Mrs. J. W.,Gwatkin,
+resident,Caerleon Road,17,,C. Valentine,Mapp,tailor
+resident,Caerleon Road,,,E. M.,Townsend,dressmkr
+resident,Caerleon Road,19,,H. G.,Resden,moulder
+resident,Caerleon Road,21,,E. C.,Covell,electrician
+resident,Caerleon Road,23,,Joshua,Hall,frame maker
+resident,Caerleon Road,37,,Mrs. M.A.,Lewis,Fair-lawn
+resident,Caerleon Road,,,William,Lewis,
+resident,Caerleon Road,39,Bromley ho,Mrs.,French
+resident,Caerleon Road,41,,Thos.,Stevens,bootmaker
+resident,Caerleon Road,,,Ltd.,Hawkins & Bailey,Griffin Cabinet Works
+resident,Caerleon Road,,,Davis,Knight &,wheelwvts
+resident,Caerleon Road,47,,C. E.,Hawkins,
+resident,Caerleon Road,49,Brunswick house,Thomas,Leonard,
+resident,Caerleon Road,51,Waverley ho,Wm.,White
+resident,Caerleon Road,53,Trafalgar h,Wm.,Prosser
+resident,Caerleon Road,55,Tregenna h,F.,Scrivener
+resident,Caerleon Road,57,Prescot h,W. H.,Phillips
+resident,Caerleon Road,59,Emsworth,Hy.,Biggins
+resident,Caerleon Road,,Edmund,Thorburn,
+resident,Caerleon Road,61,,V.,Clark,corn merchant
+cross_street,Caerleon Road,,,,,here is Turner-street.
+resident,Caerleon Road,63,,George,Morgan,builders' mer. & brick manufactr.

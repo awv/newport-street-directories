@@ -1,0 +1,159 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+cross_street,NORTHUMBERLAND ROAD,,,55,Gaisford Alf.,,ironworker
+resident,NORTHUMBERLAND ROAD,56,,Wm.,Gaisford,,collier
+resident,NORTHUMBERLAND ROAD,57,,Mrs. Elizabeth,Whelton,,
+resident,NORTHUMBERLAND ROAD,,,John,Whelton,reporter,
+resident,NORTHUMBERLAND ROAD,58,,Stephen,Iggulden,furniture dealer,
+cross_street,NORTHUMBERLAND ROAD,,,,,,(LEFT HAND SIDE.)
+resident,NORTHUMBERLAND ROAD,,,,Reginald,Dacey,,
+cross_street,NORTHUMBERLAND ROAD,,,,,,here is Waters-lane
+resident,NORTHUMBERLAND ROAD,5,,E.,Tucker,sanitary engnr,
+resident,NORTHUMBERLAND ROAD,6,,Arthur,Upson,,
+resident,NORTHUMBERLAND ROAD,7,,W. H.,Howells,signalman,
+resident,NORTHUMBERLAND ROAD,8,,Thos.,Cromwell,cleaner,
+resident,NORTHUMBERLAND ROAD,10,,T. D.,Thomas,traffic insp,
+resident,NORTHUMBERLAND ROAD,10a,,,& Sons Clemes,carptrs etc,
+resident,NORTHUMBERLAND ROAD,11,,,& Curnuck Williams,printers,
+building,NORTHUMBERLAND ROAD,,BRITANNIA BUILDINGS,,,,
+cross_street,NORTHUMBERLAND ROAD,,,,,,here is Providence-place
+resident,NORTHUMBERLAND ROAD,12,,George,Miles,labourer,
+resident,NORTHUMBERLAND ROAD,13,,Robert,Roden,labourer,
+resident,NORTHUMBERLAND ROAD,14,,Benjamin,Harper,,
+resident,NORTHUMBERLAND ROAD,15,Britannia Inn,Mrs. H. M.,Watkins,,
+cross_street,NORTHUMBERLAND ROAD,,,,,,here is Wesley-place
+building,NORTHUMBERLAND ROAD,,CORPORATION BATHS,,,,
+resident,NORTHUMBERLAND ROAD,16,,Albert,Prescott,repairer,
+resident,NORTHUMBERLAND ROAD,17,,A.,Bickley,cabinet maker,
+resident,NORTHUMBERLAND ROAD,18,,Mrs. H. E.,Wilson,,
+cross_street,NORTHUMBERLAND ROAD,,,,,,here is Havelock-street
+resident,NORTHUMBERLAND ROAD,19,,Jas.,Fallows,fitter,
+resident,NORTHUMBERLAND ROAD,20,,Chas.,Boucher,gardener,
+building,NORTHUMBERLAND ROAD,,North St. Meeting-Rm.,,,,
+resident,NORTHUMBERLAND ROAD,21,,Rd.,Williams,dock lab'r,
+cross_street,NORTHUMBERLAND ROAD,,,,,,(return)
+cross_street,NORTHUMBERLAND ROAD,,,,,,here is St. Mary-street
+resident,NORTHUMBERLAND ROAD,22,,Mrs. M. E.,Nelson,grocer,
+resident,NORTHUMBERLAND ROAD,23,,Sidney,Cuffe,,
+resident,NORTHUMBERLAND ROAD,24,,Thos. T.,Lewis,fireman,
+resident,NORTHUMBERLAND ROAD,25,,William,Morgan,butcher,
+resident,NORTHUMBERLAND ROAD,26,,Henry,Roach,,
+resident,NORTHUMBERLAND ROAD,27,,Reuben G.,Legge,G.W.R.,
+resident,NORTHUMBERLAND ROAD,28,,Mrs. Mary,Manship,,
+resident,NORTHUMBERLAND ROAD,29,,Thos. A.,Powell,,
+resident,NORTHUMBERLAND ROAD,30,,Josiah,Ashton,bklayer,
+resident,NORTHUMBERLAND ROAD,31,,Danl. Jas.,Archer,G.W.R.,
+resident,NORTHUMBERLAND ROAD,32,,Wm.,Dixey,carman,
+resident,NORTHUMBERLAND ROAD,33,,Mrs. A.,Morgan,,
+resident,NORTHUMBERLAND ROAD,34,,E.,Butt,Charles,
+resident,NORTHUMBERLAND ROAD,35,,Francis,George,eng dvr,
+resident,NORTHUMBERLAND ROAD,36,,John,Tugby,labourer,
+resident,NORTHUMBERLAND ROAD,37,,Wm.,Johnson,timekeeper,
+resident,NORTHUMBERLAND ROAD,38,,Stanley,Knight,,
+resident,NORTHUMBERLAND ROAD,39,,Mrs. John,Hannan,,
+resident,NORTHUMBERLAND ROAD,40,,J. H.,Banks,cellarman,
+resident,NORTHUMBERLAND ROAD,41,,James,Tilley,labourer,
+cross_street,NORTHUMBERLAND ROAD,,,,,,here is Scard-street
+resident,NORTHUMBERLAND ROAD,42,,T. J.,Carless,shopkeeper,
+resident,NORTHUMBERLAND ROAD,43,,George,Cole,labourer,
+resident,NORTHUMBERLAND ROAD,44,,W. J.,Edwards,G.W.R.,
+resident,NORTHUMBERLAND ROAD,45,,William,Price,,
+resident,NORTHUMBERLAND ROAD,46,,John,Morrisey,labourer,
+resident,NORTHUMBERLAND ROAD,47,,Chas. Alfred,Deakin,,
+resident,NORTHUMBERLAND ROAD,48,,Mrs. Jessie,Locke,,
+resident,NORTHUMBERLAND ROAD,49,,George,Lixton,labourer,
+resident,NORTHUMBERLAND ROAD,50,,Harry,Pearce,labourer,
+resident,NORTHUMBERLAND ROAD,51,,& Phillips' Gregory,warehouse,
+resident,NORTHUMBERLAND ROAD,52,,Mrs. Mary E.,Tate,,
+resident,NORTHUMBERLAND ROAD,53,,John,Jones,tailor,
+resident,NORTHUMBERLAND ROAD,54,,C. H.,Reeves,labourer,
+street,OAKFIELD ROAD,,,,,,,Clytha Park
+cross_street,OAKFIELD ROAD,,,,,,(RIGHT HAND SIDE.)
+resident,OAKFIELD ROAD,2,Daisy Lawn,Mrs. W. J.,Bailey,,
+resident,OAKFIELD ROAD,4,Bryn-clytha,A. Reg. E.,Every-Clayton,,
+resident,OAKFIELD ROAD,6,,W. H.,Robinson,,
+resident,OAKFIELD ROAD,8,Ty-melyn,E. B.,Newman,,
+cross_street,OAKFIELD ROAD,,,,,,here is Parkfield-place
+resident,OAKFIELD ROAD,10,Tynemouth,A. E.,Flook,,
+resident,OAKFIELD ROAD,18,Glen view,John,Davies,,
+cross_street,OAKFIELD ROAD,,,,,,here is Hilla-road
+resident,OAKFIELD ROAD,20,The Mount,A. J.,Phillips,,
+resident,OAKFIELD ROAD,22,Florence,Mrs.,Carney,,
+resident,OAKFIELD ROAD,24,,Guy,Parry,minstry of pensions,
+resident,OAKFIELD ROAD,26,Oakhurst,James,Prosser,,
+resident,OAKFIELD ROAD,28,Gladys,Mrs.,Thompson,,
+building,OAKFIELD ROAD,,Hazelmere,,,,
+resident,OAKFIELD ROAD,30,,Howard T.,Whittaker,,
+resident,OAKFIELD ROAD,32,,E. W.,Griffiths,,
+resident,OAKFIELD ROAD,34,Blaenpant,Benj.,Williams,,
+resident,OAKFIELD ROAD,36,,James,Clements,,
+resident,OAKFIELD ROAD,38,Olinda,G. H.,Ingham,,
+resident,OAKFIELD ROAD,40,Strathclyde,Mrs. J.,Roberts,,
+cross_street,OAKFIELD ROAD,,,,,,here is Llwynderi-road
+resident,OAKFIELD ROAD,42,Glynarthen,G.,Kerslake,,
+resident,OAKFIELD ROAD,44,Helmecroft,R. C.,Jones,,
+resident,OAKFIELD ROAD,46,Sharuhen,Mrs. C. M.,Cooper,,
+resident,OAKFIELD ROAD,48,Arosfa,Mrs. Annie M.,Serjent,,
+resident,OAKFIELD ROAD,50,The Dingle,Thomas E.,Alger,,
+resident,OAKFIELD ROAD,52,Handel house,E. G. R.,Richards,,
+cross_street,OAKFIELD ROAD,,,,,,here is Tyllwyd-road
+resident,OAKFIELD ROAD,54,Dargle,S. D.,Bloom,,
+resident,OAKFIELD ROAD,56,,Mrs. C. M.,Barnes,,
+resident,OAKFIELD ROAD,58,,Henry B.,Hudson,,
+resident,OAKFIELD ROAD,60,,Cecil,Jacobs,,
+building,OAKFIELD ROAD,,S. JOHN BAPTIST MISSION HOUSE,,,,(The Clewer Sisters) Sister Florence, sister superior
+resident,OAKFIELD ROAD,64,S. John's Vicarage,Rev. H. E.,Palmer,,
+cross_street,OAKFIELD ROAD,,,,,,here is Risca-road
+cross_street,OAKFIELD ROAD,,,,,,(return)
+resident,OAKFIELD ROAD,99,The Wyelands,Mrs. Elizabeth,Daniel,,
+resident,OAKFIELD ROAD,97,,Mrs. M. E.,Edwards,,
+resident,OAKFIELD ROAD,95,,William,Morgan,,
+resident,OAKFIELD ROAD,93,Garthcelyn,Mrs. Irene,Emanuel,,
+resident,OAKFIELD ROAD,91,Jesmond house,Watkin,Davies,,
+resident,OAKFIELD ROAD,89,,Sidney,Goodwin,,
+resident,OAKFIELD ROAD,87,,Mrs. J.,Wood,Martin,
+resident,OAKFIELD ROAD,85,,James,Griffiths,Henry,
+resident,OAKFIELD ROAD,83,Lansdowne,J. H.,Jones,,
+street,OAK STREET,,,,,,,From 307 Caerleon-road to Durham-road
+resident,OAK STREET,,,J. R.,Griffiths,bootrepairer,
+cross_street,OAK STREET,,,,,,(LEFT HAND SIDE.)
+resident,OAK STREET,1,,Mrs. C. B.,Samuel,,
+resident,OAK STREET,3,,Mrs. E.,Waters,,
+resident,OAK STREET,5,,James V.,Adams,ironwkr,
+resident,OAK STREET,7,,Percy,Ellison,assistant,
+resident,OAK STREET,9,,Geo. F.,Smith,decorator and house repairer,
+resident,OAK STREET,11,,F. H.,Taylor,waterman,
+resident,OAK STREET,13,,D. Benj.,Michael,tailor,
+resident,OAK STREET,15,,Mrs. Kate,Hutchings,,
+building,OAK STREET,,St. Julian's Bakery,,,,C. J. Price, sec. Master Bakers Association.—Tel. 3551
+cross_street,OAK STREET,,,,,,here is Durham-road
+cross_street,OAK STREET,,,,,,here is Sutton-road
+resident,OAK STREET,,Donnington,J.,Richards,,
+cross_street,OAK STREET,,,,,,here is Stockton-road
+cross_street,OAK STREET,,,,,,(return)
+notes,OAK STREET,,,,,,Vacant sites
+resident,OAK STREET,17,,Hugh,Maguire,,
+resident,OAK STREET,26,,Mrs. Elizabeth,Masters,,
+resident,OAK STREET,24,,George,Tucker,carpenter,
+cross_street,OAK STREET,,,,,,here is Stockton-road
+resident,OAK STREET,20,,Hy.,Lawrence,blacksmth,
+cross_street,OAK STREET,,,,,,here is Sutton-road
+resident,OAK STREET,18,,Wm.,Powell,engine driver,
+cross_street,OAK STREET,,,,,,here is Durham-road
+resident,OAK STREET,16,,Mrs. Annie M.,Dunning,,
+resident,OAK STREET,14,,Wm.,Bundy,tin worker,
+resident,OAK STREET,12,,Joseph,Passwater,seaman,
+resident,OAK STREET,10,,Arthur,Owen,tipper,
+resident,OAK STREET,8,,C.,Manley,coal tipper,
+resident,OAK STREET,6,,W. H.,Liddiatt,metal wkr,
+resident,OAK STREET,4,,Mrs. Edith,Warrington,,
+resident,OAK STREET,2,,Mrs. Jane,Owen,,
+street,OAK TERRACE,,,,,,,From 7 Thomas-street
+notes,OAK TERRACE,1,,,,,void,
+notes,OAK TERRACE,2,,,,,void,
+resident,OAK TERRACE,3,,Thos.,Mack,tram driver,
+resident,OAK TERRACE,4,,Thos.,Davies,basket maker,
+resident,OAK TERRACE,5,,Alfred,Hubbard,,
+resident,OAK TERRACE,6,,Mrs. M.,Macdonald,,
+resident,OAK TERRACE,7,,James,Smith,haulier,
+notes,OAK TERRACE,8,,,,,void,
+notes,OAK TERRACE,9,,,,,void,

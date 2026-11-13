@@ -1,0 +1,132 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,GLEBE STREET,,,,,,continued
+resident,GLEBE STREET,31,,George,Clarke,,,
+resident,GLEBE STREET,32,,William,Adney,mason,,
+resident,GLEBE STREET,33,,Fredk.,Randall,labourer,,
+resident,GLEBE STREET,33a,,George,Small,mason,,
+resident,GLEBE STREET,34,,T.,Gosney,marine dealer,,
+resident,GLEBE STREET,35,,G.,Clarke,metal merch,,
+resident,GLEBE STREET,36,,Jacob,Hughes,ironworker,,
+resident,GLEBE STREET,37,,Henry R.,Morris,seaman,,
+resident,GLEBE STREET,38,,Thos.,Randal,labourer,,
+resident,GLEBE STREET,39,,Albert,Kelson,seaman,,
+resident,GLEBE STREET,40,,Mrs. Sarah,Dowsell,,,
+resident,GLEBE STREET,41,,Edwd. J.,Lewis,ironwrkr,,
+resident,GLEBE STREET,42,,Mrs. Annie,Rocke,,,
+resident,GLEBE STREET,,,"Mrs. Emily L., Thomas Miss M.",Mulholland,gen shop,,
+street,GLOUCESTER CHAMBERS,,,,,,
+cross_street,GLOUCESTER CHAMBERS,,,,,,See 33 High-street
+street,GLO'STER PLACE,C 3 21,,,,,From 1 Church-road
+resident,GLO'STER PLACE,1,,Mrs. Ann,Clements,,,
+resident,GLO'STER PLACE,2,,John,Edmunds,gardener,,
+resident,GLO'STER PLACE,3,,Mrs. Fanny E.,Smale,,,
+resident,GLO'STER PLACE,4,,Tom,Miller,ironworker,,
+resident,GLO'STER PLACE,5,,Fred,Taylor,collier,,
+resident,GLO'STER PLACE,6,,Mrs. Annie,Jenkins,,,
+resident,GLO'STER PLACE,7,,John,Jones,,,
+resident,GLO'STER PLACE,8,,H.,Taylor,plumber,,
+resident,GLO'STER PLACE,9,,Lionel V.,Banks,labr,,
+resident,GLO'STER PLACE,10,,Robt.,Wright,hairdresser,,
+street,GLO'STER STREET,C 3 28,,,,,From Junction-road to Schools
+resident,GLO'STER STREET,1,,Thomas,Murray,labourer,,
+resident,GLO'STER STREET,2,,Christopher,Brown,labr,,
+resident,GLO'STER STREET,3,,Mrs. Elizabeth A.,Savager,,,
+resident,GLO'STER STREET,4,,Stephen,Hart,sweet mkr,,
+resident,GLO'STER STREET,5,,Jack W.,Cummings,bottle blower,,
+cross_street,GLO'STER STREET,,,,,,(return)
+resident,GLO'STER STREET,10,,Joseph,Mazey,labourer,,
+resident,GLO'STER STREET,11,,Mrs. Ellen,Richards,,,
+resident,GLO'STER STREET,12,,Ed.,Roockley,,,
+resident,GLO'STER STREET,13,,E.,Goddard,steelwkr,,
+street,GODFREY ROAD,C 5,,,,,From Bridge-st. to Fields-rd. (LEFT HAND SIDE.)
+resident,GODFREY ROAD,,,Arnold & Son,,,stores
+resident,GODFREY ROAD,1,,Harold,Hobbs,mechnc,,
+resident,GODFREY ROAD,2,,Mrs. Elizabeth,Smythe,,,
+resident,GODFREY ROAD,,,"Harry C., Stanley",Edington,,,
+resident,GODFREY ROAD,3,,Mrs. Harriet Jane,Smart,,,
+resident,GODFREY ROAD,4,Elsinore,J.,Littlestone,,,
+resident,GODFREY ROAD,5,,Edward,Childs,,,
+resident,GODFREY ROAD,,,"William, C. J.",Atherly,,,
+resident,GODFREY ROAD,6,,Mrs. Harriet,Uppington,,,
+resident,GODFREY ROAD,7,Sidmouth house,,,Maggs,,,
+street,GODFREY ROAD,,,,,,continued
+resident,GODFREY ROAD,8,Ivyvdale,Jas. W.,Gooding,,,
+resident,GODFREY ROAD,9,Schubert h,John,Purvis,,,
+resident,GODFREY ROAD,10,,Mrs. Ethel,Cook,,,
+resident,GODFREY ROAD,,Faulkner-road,,Cook Miss,,,here is Faulkner-road
+resident,GODFREY ROAD,11,Sunnydale,Wm.,Baker,,,
+resident,GODFREY ROAD,12,Ventnor ho,O. W.,Morgan,physician and surgeon,,
+resident,GODFREY ROAD,13,Brooklea,Misses E., G. & M.,Deakin,,,
+resident,GODFREY ROAD,14,Lyndale,Gordon,Dearlove,,,
+resident,GODFREY ROAD,15,Dagenham,Mrs. Fanny,Plummer,,,
+resident,GODFREY ROAD,,,"Mrs. Lilian, David J.",Lee,,,
+resident,GODFREY ROAD,16,Ashleigh,Harold F.,Lloyd,,,
+resident,GODFREY ROAD,17,,Albert John,Richards,,,
+resident,GODFREY ROAD,18,Courtwav,Frederick W.,Williams,,,
+resident,GODFREY ROAD,19,Glendower,Miss Harriet Rose,Morrice,,,
+resident,GODFREY ROAD,20,,O. G.,Winch,Laurels,,
+resident,GODFREY ROAD,21,,A. S. D.,Webb,,,
+resident,GODFREY ROAD,,,"Miss Leah, J. W.",Buckley,,,
+resident,GODFREY ROAD,22,Pensylva,T.,Harry,,,
+resident,GODFREY ROAD,23,St. Mark's view,Mrs. A. E.,Powell,,,
+resident,GODFREY ROAD,24,,Major,Hayes,,,
+resident,GODFREY ROAD,25,Victor,Bryn-tirion,Evans,,,
+resident,GODFREY ROAD,26,The Uplands,A. J.,Cooke,,,
+resident,GODFREY ROAD,27,Hafod villa,Mrs. A.,Stock,,,
+resident,GODFREY ROAD,28,Corwen villa,Fredk.,Campbell,,,
+resident,GODFREY ROAD,29,The Lea,Walter,Fisher,,,
+resident,GODFREY ROAD,30,1 St. Ia v,W. E.,Jenkins,,,
+resident,GODFREY ROAD,31,2 St. Ia v,Miss I.,Watts,,,
+resident,GODFREY ROAD,32,Enville house,,Patterson,,,
+cross_street,GODFREY ROAD,,,,,,(return)
+resident,GODFREY ROAD,33,The Chase,Miss M. A. B.,Skyrme,,,
+resident,GODFREY ROAD,34,Fern Glen,Miss Rhys,Jones,,,
+resident,GODFREY ROAD,35,Hillsdene,Cyrus T.,Clissitt,J.P.,,
+cross_street,GODFREY ROAD,,,,,,"here is Serpentine-road"
+resident,GODFREY ROAD,36,Garthlyn,Chas.,Lodge,,,
+street,GOLD TOPS,C 5,,,,,From Mill-street (LEFT HAND SIDE.)
+resident,GOLD TOPS,1,,Belle vue,,,void
+resident,GOLD TOPS,2,,Mon. County Council office,,,Every-Clayton F.S.I. land agent-A.
+resident,GOLD TOPS,,,J.,Barry,caretaker,,
+resident,GOLD TOPS,3,Twyn Ila,Mrs. Nora Elizabh,Wynn,,,
+resident,GOLD TOPS,4,Cambourne,W. W.,Jeremiah,,,
+resident,GOLD TOPS,5,,Westbury house,,,void
+resident,GOLD TOPS,6,,Sandhurst,,,void
+cross_street,GOLD TOPS,,,,,,here is Serpentine-road
+resident,GOLD TOPS,,ST. MARK'S CHURCH,,,,
+resident,GOLD TOPS,7,St. Mark's Vicarage,Rev. Isaiah,Roberts,M.A.,,
+resident,GOLD TOPS,8,,Dr. V. A.,Crinks,Scudamore,,
+resident,GOLD TOPS,9,Claremont,Mrs. Margaret Ann,Fox,,,
+resident,GOLD TOPS,10,,Colin L.,Jones,The Bryn,,
+cross_street,GOLD TOPS,,,,,,(return)
+resident,GOLD TOPS,11,,R. J.,Coulter,"M.B., D.O., F.R.C.S.I., oph surgeon",
+resident,GOLD TOPS,12,,George,Geen,Lismore,,
+resident,GOLD TOPS,13,,Mrs. M.,Harding,Derwent,,
+resident,GOLD TOPS,14,,Oak villa,,,void
+resident,GOLD TOPS,15,,Reynold,Richards,"Clyde v Bryn Tegid",
+resident,GOLD TOPS,16,,J. A.,Lee,"M.B., F.R.C.S., Chester ho",
+resident,GOLD TOPS,17,,A. C.,Mitchell,"Chester ho Forsyth Chas. E., M.B., M.R.C.P., D.P.H., phys and surgeon, St. Aubyns",
+resident,GOLD TOPS,19,,W. J.,Greer,surgeon,,
+resident,GOLD TOPS,20,,Miss Cicely Ida,Tilney,"Tilney Miss E. L. Melrose villa",
+resident,GOLD TOPS,21,,A.,Mawson,Greencourt villa,,
+resident,GOLD TOPS,22,Coed-rath,Mrs. L. M.,Railton,,,
+resident,GOLD TOPS,23,Bryn-aur villa,Ernest E.,Thomas,,,
+resident,GOLD TOPS,24,Pagefield college,Harold F.,Reeve,,,
+resident,GOLD TOPS,,,Tredegar Estate Offices,,,"J. I. Storrar, agent (town estate)"
+resident,GOLD TOPS,,,L. Foster Stedman,,,agent (agricultural estate)
+resident,GOLD TOPS,,,J. F. Groves,,,architect
+resident,GOLD TOPS,,,P. W. Mitchell,,,account't
+resident,GOLD TOPS,,,Henry,Williams,caretaker,,
+resident,GOLD TOPS,,,Public telephone kiosk,,,,
+street,GOODRICH CRESCENT,B 4,,,,,From 43 Malpas-road (LEFT HAND SIDE.) (FORMERLY ROSS AND GOODRICH STREETS)
+resident,GOODRICH CRESCENT,,Steam Bakery,J.,Davies,,,
+resident,GOODRICH CRESCENT,,,(Wm.) & Sons,Jewell,builders,,
+resident,GOODRICH CRESCENT,1a,,W. P.,Hicks,marine strs,,
+resident,GOODRICH CRESCENT,1,,Linton Bros.,engineers,,
+resident,GOODRICH CRESCENT,1,,S.,Cross,haulage contrctr,,
+resident,GOODRICH CRESCENT,3,,Mrs. Esther,Donovan,,,
+resident,GOODRICH CRESCENT,5,,Wm. A.,Edwards,travlr,,
+resident,GOODRICH CRESCENT,7,,Walter,Lord,insur agent,,
+resident,GOODRICH CRESCENT,9,,Percy,Osmond,,,
+resident,GOODRICH CRESCENT,11,,Mrs. Esther,Toulouse,,,
+resident,GOODRICH CRESCENT,13,,George,Ackerman,printer,,

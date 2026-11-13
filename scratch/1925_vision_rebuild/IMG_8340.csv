@@ -1,0 +1,121 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,ABERTHAW ROAD,,,,,,now merged into Lime Cres.
+street,ACACIA AVENUE,,,,,,E 2 (Somerton Garden Estate) OFF CHEPSTOW ROAD
+cross_street,ACACIA AVENUE,,,,,,(LEFT HAND SIDE)
+resident,ACACIA AVENUE,1,,A. C.,Jeenes,stonemason,
+resident,ACACIA AVENUE,3,,C. H.,Whitehouse,"i, wkr",
+resident,ACACIA AVENUE,5,,Thos.,Burley,furnacemn,
+resident,ACACIA AVENUE,7,,Enoch S.,Martin,taxi dvr,
+cross_street,ACACIA AVENUE,,,,,,here is Acacia Square
+resident,ACACIA AVENUE,9,,R. C.,Ford,gas worker,
+resident,ACACIA AVENUE,11,,John R.,Gill,capt. tugboat,
+cross_street,ACACIA AVENUE,,,,,,here is Myrtle Grove
+cross_street,ACACIA AVENUE,,,,,,here is Maple Avenue
+cross_street,ACACIA AVENUE,,,,,,(return)
+cross_street,ACACIA AVENUE,,,,,,here is Chestnut Avenue
+cross_street,ACACIA AVENUE,,,,,,here is Sycamore Avenue
+resident,ACACIA AVENUE,20,,H. A.,Skinner,shoemaker,
+resident,ACACIA AVENUE,18,,Chas.,Hammett,cachbldr,
+resident,ACACIA AVENUE,16,,C. E.,Townshend,plumber,
+resident,ACACIA AVENUE,14,,Alfred J.,Harris,eng dvr,
+resident,ACACIA AVENUE,12,,Edgar,Jones,ironworker,
+resident,ACACIA AVENUE,10,,Thos. W.,Reece,asst,
+cross_street,ACACIA AVENUE,,,,,,here is Poplar Road
+resident,ACACIA AVENUE,8,,Geo. E.,Beaven,carp'tr,
+resident,ACACIA AVENUE,6,,B. A.,Evans,coal trimmer,
+resident,ACACIA AVENUE,4,,Albert,Worthy,mill wkr,
+resident,ACACIA AVENUE,2,,S. T.,Jeffries,electrician,
+street,ACACIA SQUARE,,,,,,E 2 (Somerton Garden Estate) off Acacia Avenue
+cross_street,ACACIA SQUARE,,,,,,(LEFT HAND SIDE)
+resident,ACACIA SQUARE,1,,Edw. G.,Jones,carpenter,
+resident,ACACIA SQUARE,2,,John W.,Heulin,labr,
+resident,ACACIA SQUARE,3,,Wm. Hy.,Ellis,police,
+resident,ACACIA SQUARE,4,,Fredk.,Jordan,platelayer,
+resident,ACACIA SQUARE,5,,Wm. R.,Gay,steelworker,
+resident,ACACIA SQUARE,6,,L.,Hitchcock,G.W.R.,
+resident,ACACIA SQUARE,,,"Hy. J., motor dvr",Garland,,
+resident,ACACIA SQUARE,7,,Chas. H.,Owen,ironwrk,
+resident,ACACIA SQUARE,8,,A. E.,Ashwin,furnace bldr,
+resident,ACACIA SQUARE,9,,Joseph J.,Turner,ironwkr,
+resident,ACACIA SQUARE,,Y,,,,
+street,ADAM STREET,,,,,,B 4 Albany-street towards river.
+resident,ADAM STREET,10,,Robert H.,Sims,trimmer,
+resident,ADAM STREET,11,,John,Nicholson,capt.,
+resident,ADAM STREET,12,,Worthy H.,Mercy,rigger,
+street,ADELAIDE STREET,,,,,,B 4 14 East side Albany street.
+cross_street,ADELAIDE STREET,,,,,,(LEFT HAND SIDE)
+resident,ADELAIDE STREET,1,,Chas.,Tutton,fish bar,
+resident,ADELAIDE STREET,1a,,Walter,Jones,gen dealer,
+resident,ADELAIDE STREET,3,,Joseph,Rosier,platelayer,
+resident,ADELAIDE STREET,5,,Chas. Edward,Powell,,
+resident,ADELAIDE STREET,7,,Mrs. Amelia,Baker,,
+resident,ADELAIDE STREET,9,,William,Francis,fitter,
+resident,ADELAIDE STREET,11,,John,Bayliss,labourer,
+resident,ADELAIDE STREET,13,,W. J.,Baker,engine dvr,
+resident,ADELAIDE STREET,15,,Frank,Purnell,bottlemkr,
+resident,ADELAIDE STREET,17,,John,Morris,collier,
+resident,ADELAIDE STREET,19,,William,Ridout,labr,
+cross_street,ADELAIDE STREET,,,,,,(return)
+resident,ADELAIDE STREET,,,G. F. & Co.,Lovell,garage,
+resident,ADELAIDE STREET,6,,Arthur,Brunt,carman,
+resident,ADELAIDE STREET,4,,Wm. G,Chivers,taxi drivr,
+resident,ADELAIDE STREET,2,,W. A.,Wright,motor driver,
+resident,ADELAIDE STREET,,,John & Sons,Charles,builders,
+resident,ADELAIDE STREET,,,Thos.,Charles,coal merchant,blacksmith and
+street,ADELINE STREET,,,,,,E 5 60 From 16 Alexandra-road
+cross_street,ADELINE STREET,,,,,,(LEFT HAND SIDE.)
+resident,ADELINE STREET,1,,Mrs. Lydia,Williams,,
+resident,ADELINE STREET,2,,Mrs. S. S.,Davies,,
+resident,ADELINE STREET,3,,James,Griffiths,shipwright,
+resident,ADELINE STREET,4,,Henry,Rosser,,
+resident,ADELINE STREET,5,,George James,Lawrence,,
+resident,ADELINE STREET,6,,Trevor A.,Evans,boatman,
+resident,ADELINE STREET,7,,John H.,Bobbetts,,
+resident,ADELINE STREET,8,,William G.,Noakes,,
+resident,ADELINE STREET,,,Williams & Son,,pattern makers,
+resident,ADELINE STREET,9,,Mrs. Sarah,Jones,,
+resident,ADELINE STREET,10,,David T.,Phillips,cptr,
+resident,ADELINE STREET,11,,Wm.,Morgan,butcher,
+resident,ADELINE STREET,12,,French,Thomas,,
+resident,ADELINE STREET,14,,Mrs. Lily,Marsh,,
+resident,ADELINE STREET,13,,J. P.,Collins,fitter,
+resident,ADELINE STREET,15,,Samuel J.,Steer,bootmakr,
+resident,ADELINE STREET,16,,Richard Thos.,Bower,,
+resident,ADELINE STREET,17,,Alfred,Prosser,labourer,
+resident,ADELINE STREET,18,,Wm.,Griffin,labourer,
+cross_street,ADELINE STREET,,,,,,here is Pottery-terrace
+cross_street,ADELINE STREET,,,,,,ALEXANDRA SCHOOLS.
+resident,ADELINE STREET,20,,Miss Hilda J.,Jones,,
+resident,ADELINE STREET,22,,Frederick,Hobbs,cr.driver,
+resident,ADELINE STREET,24,,Benjamin,Marsh,boilerm'r,
+resident,ADELINE STREET,26,,Sidney,Jones,fitter,
+resident,ADELINE STREET,28,,Mrs. M. A.,Bradbury,,
+resident,ADELINE STREET,30,,Tom,Pomeroy,,
+resident,ADELINE STREET,32,,Albert,Harris,guard,
+resident,ADELINE STREET,34,,J. E.,Vaughan,engine dvr.,
+resident,ADELINE STREET,36,,Mrs. Sophia,Jones,,
+resident,ADELINE STREET,38,,W. H.,Morgan,clerk,
+resident,ADELINE STREET,40,,Robt.,Chicken,coal trimr,
+resident,ADELINE STREET,42,,Samuel,West,railwayman,
+resident,ADELINE STREET,44,,John R.,Beattie,,
+resident,ADELINE STREET,46,,John,Terry,,
+resident,ADELINE STREET,48,,Thomas,Powell,,
+resident,ADELINE STREET,50,,Clem. H.,Gapper,dk pilot,
+resident,ADELINE STREET,52,,Fred.,Williams,patternmkr,
+resident,ADELINE STREET,54,,James,Burrows,B.T.,
+resident,ADELINE STREET,56,,Albert,Davies,labourer,
+resident,ADELINE STREET,58,,G.,Hogel,donkeyman,
+resident,ADELINE STREET,60,,Wm. G.,Williams,tipper,
+resident,ADELINE STREET,62,,Mrs. Mary J.,Trigg,,
+cross_street,ADELINE STREET,,,,,,(return)
+resident,ADELINE STREET,77,,Mrs. Annie,Bickerstaff,,
+resident,ADELINE STREET,75,,F.,Warner,,
+resident,ADELINE STREET,73,,Philip,Thomas,weigher,
+resident,ADELINE STREET,71,,J. A.,Spooner,blksmith,
+resident,ADELINE STREET,69,,J. O.,Hulbert,weighman,
+resident,ADELINE STREET,67,,George,Bright,labourer,
+resident,ADELINE STREET,,,H. B.,Moore,printer,
+resident,ADELINE STREET,65,,Fred. J.,White,fitter,
+resident,ADELINE STREET,,,Rixon's Dairy,,,
+resident,ADELINE STREET,63,,C.,Palmer,grocer,
+resident,ADELINE STREET,61,,William,O'Brien,fitter,

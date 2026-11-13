@@ -1,0 +1,138 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Church Street,E 4,,,,,From 110 Commercial-road to Dock-parade.
+resident,Church Street,4,Tredegar Arms,E.,Sargant,,
+resident,Church Street,7,,Henry,Gearon,trimmer,
+resident,Church Street,8,,John,Lewis,dockman,
+resident,Church Street,9,,Maurice,Creese,labourer,
+resident,Church Street,10,,Hy.,Nelmes,coal shipper,
+resident,Church Street,11,,Jas. W.,Robson,rigger,
+resident,Church Street,12,,Jesse,Badger,moulder,
+resident,Church Street,14,Carpenters' Arms,Mrs. J.,Davis,,
+resident,Church Street,15,,J.,Sullivan,iron dresser,
+resident,Church Street,16,,Geo.,Faulkner,platelayer,
+resident,Church Street,17,,Michael,Dahill,trimmer,
+resident,Church Street,18,,John,Young,labourer,
+resident,Church Street,19,,Jos.,Williams,pilot's man,
+cross_street,Church Street,,,,,,here is St. Michael's-street.
+resident,Church Street,21,Ship & Pilot,John,Evans,,
+resident,Church Street,22,,Dennis,McCarthy,lab'rer,
+resident,Church Street,23,,Eliza,Manship,shop,
+resident,Church Street,24,Hope Inn,C.,Ashton,,
+resident,Church Street,25,,Wm. Hy.,Rew,seaman,
+resident,Church Street,26,,Frederick,Wiltshire,,
+resident,Church Street,,,,,Uskside Engineering and Rivet Co., Ltd.,
+cross_street,Church Street,,,,,,here is Castle-street.
+resident,Church Street,,Dock foundry,A. J.,Fontaine,,
+street,Clarence Place,C 4,,,,,From Bridge to Chepstow-rd. [RIGHT HAND SIDE.]
+resident,Clarence Place,,,,,Davies Bros. (Newport), Ltd. builders' merchants,London wharf
+cross_street,Clarence Place,,,,,,here is Artillery-place.
+resident,Clarence Place,1,,,,Hutchinson T. H. piano-forte wareho., Bridge ho
+resident,Clarence Place,2,,,,Rickards A. A. cycle depôt
+cross_street,Clarence Place,,,,,,here is Rodney-road.
+resident,Clarence Place,,,,,Site for Technical Schools
+resident,Clarence Place,5,,Bros.,Houghton,break proprietors,
+resident,Clarence Place,,,,,Henry Houghton,
+resident,Clarence Place,6,,Geo. & Co.,Jones,wheelwrights,
+resident,Clarence Place,7,,C. R.,Gwyther,coal mrchnt
+resident,Clarence Place,8,,,,Void,
+resident,Clarence Place,9,,,,,Liverpool Victoria Legal Frndly Socty.-J. Lang, supt.
+resident,Clarence Place,,,,,G. F. Lovell & Co. conftrs
+resident,Clarence Place,10,,Gran,Thomas,fruit-erer and florist
+resident,Clarence Place,11,,,,Void,
+resident,Clarence Place,12,,,,Void,
+resident,Clarence Place,13,,Fry & Co.,Poynton,Clarence Fine Art Reposit'ry
+resident,Clarence Place,14,,R.,Rees,draper & milliner,
+resident,Clarence Place,15,,Mrs. S. A.,Spiers,fruiterer,
+resident,Clarence Place,17,,W.,Creed,butcher,
+resident,Clarence Place,18,,,,,Newport Dairy Supply Co.
+resident,Clarence Place,19,,E.,Dymond,house furnshr
+resident,Clarence Place,,,,,P. C. Hodgson, corn mer.
+resident,Clarence Place,20,,W. J.,Hollingdale,grocer,Clarence stores
+resident,Clarence Place,,,,,Mrs. E. Dimond, tobaconst
+resident,Clarence Place,,,,,Shop void
+resident,Clarence Place,,,,,Chas. H. Driscoll, jeweller
+resident,Clarence Place,,,,,Misses Saunders, Clarence place Library
+resident,Clarence Place,,,,,CLARENCE PLACE T.S.O., M.O., S.B. & A. & I. OFFICE
+cross_street,Clarence Place,,,,,,(return).
+cross_street,Clarence Place,,,,,,here is East Usk-road.
+resident,Clarence Place,21,,H. T.,Nurse,ironmonger,
+resident,Clarence Place,22,,James & Son, Ltd,Nelson,,
+resident,Clarence Place,23,,A. E.,Booth,bootmaker,
+resident,Clarence Place,24,,Arthur,Edwards,butcher,
+resident,Clarence Place,25,,Miss C.,Bailey,confectnr,
+resident,Clarence Place,26,,Mrs. S. A.,Spiers,fruiterer,
+resident,Clarence Place,27,,F. E.,Hallett,hairdresser,
+resident,Clarence Place,29,,Jas.,Mogford,pork butch'r,
+resident,Clarence Place,30,Ivy Bush,John Frederick,Hughes,,
+resident,Clarence Place,31,,J.,John,shoeing & gen. smth
+resident,Clarence Place,32,Oyster Bar,J.,Spiers,,
+resident,Clarence Place,33,,& Son,Gwatkin,coach builders & wheelwrights
+resident,Clarence Place,34,,J. & Son,Williams,monumental masons
+resident,Clarence Place,35,,Miss M.,Miller,tobacconist,
+resident,Clarence Place,36,,E. G.,Nicholls,confectioner,
+resident,Clarence Place,37,,E.,Williams,hairdresser,
+resident,Clarence Place,,,,,Thomas & Price, engineers
+resident,Clarence Place,37A,,William,Light,saddler,
+resident,Clarence Place,38,,Geo.,Andrews,bootmaker,
+resident,Clarence Place,39,,T.,Giles,pic. frame maker,
+resident,Clarence Place,40,,T.,Vacara,fish shop,
+resident,Clarence Place,,,,,Davies Bros. timber yard
+resident,Clarence Place,41,Isca Hotel,Ben,Thomas,,
+resident,Clarence Place,42,,S. H.,Spencer,cycle agent,
+resident,Clarence Place,43,,E.,Anderson,hairdresser,
+resident,Clarence Place,44,Temperance Bar,Thomas',,,
+resident,Clarence Place,45,,J. S. & Son,Stone,carriage and cart builders, etc.,
+street,Clarence Street,E 4,,,,,From 32 Potter-street to St. Michael-street. [LEFT HAND SIDE.]
+resident,Clarence Street,,,,,Dennis' shoeing forge
+resident,Clarence Street,1,,Michael,O'Neill,trimmer,
+resident,Clarence Street,,,,,Michael Collins, labourer
+resident,Clarence Street,2,,James,Jones,labourer,
+resident,Clarence Street,3,,David,Lomas,,
+resident,Clarence Street,4,,Wm.,Pritchard,rigger,
+resident,Clarence Street,5,,Henry,Swift,seaman,
+resident,Clarence Street,6,,Peter,Hansen,,
+resident,Clarence Street,7,,Mrs. Mary Ann,Thane,,
+resident,Clarence Street,8,,Wm.,Hunt,coal trimmer,
+resident,Clarence Street,9,Exeter Inn,B.,Milton,,
+resident,Clarence Street,10,,Wm.,Williams,labourer,
+resident,Clarence Street,11,,John,Barry,trimmer,
+resident,Clarence Street,12,,A. H. R.,Simmonds,g.w.r.,
+resident,Clarence Street,,,,,ST. MICHAEL'S INFANTS SCH
+resident,Clarence Street,,,,,ST. MICHAEL'S CATHOLIC CHURCH
+resident,Clarence Street,20,,Peter,Lynn,labourer,
+resident,Clarence Street,,,,,John Lynn, coal trimmer
+resident,Clarence Street,21,,Francis,Whitfield,,
+resident,Clarence Street,22,,William,Casey,labourer,
+resident,Clarence Street,23,,Jos.,McCarthy,trimmer,
+resident,Clarence Street,24,,Edward,Rogers,,
+resident,Clarence Street,25,,George,Sanders,,
+resident,Clarence Street,26,,Floh.,McCarthy,trimmer,
+resident,Clarence Street,27,,Dennis,Sullivan,labourer,
+resident,Clarence Street,28,,Wm.,Townsend,rigger,
+resident,Clarence Street,29,,Mrs. Mary Ann,Hall,,
+resident,Clarence Street,30,,Henry,Moore,seaman,
+resident,Clarence Street,31,,Wm. E.,Ferris,rigger,
+resident,Clarence Street,32,,Thomas,Dickson,,
+resident,Clarence Street,33,,Wm.,Hurley,dk labourer,
+resident,Clarence Street,34,,Charles,Lindblom,,
+resident,Clarence Street,35,,William,Babbington,,
+resident,Clarence Street,36,,Mrs. Alice,Denn,,
+resident,Clarence Street,37,,George,Stone,,
+resident,Clarence Street,38,,Mrs. Mary,Cherry,,
+resident,Clarence Street,39,,William,O'Brien,labourer,
+street,Clifton Place,D 5,,,,,From Clifton-road.
+resident,Clifton Place,1,,Edwin J.,Summers,,
+resident,Clifton Place,,,,,Thomas Summers,
+resident,Clifton Place,2,,Mrs. Rowland,Nicholas,,
+resident,Clifton Place,,,,,Robert Tait
+resident,Clifton Place,3,,Edwin,Thatcher,,
+resident,Clifton Place,4,,Wm.,Frame,,
+resident,Clifton Place,5,,Mrs. Wyndham,Jones,,
+resident,Clifton Place,6,,Thomas,Butterworth,,
+resident,Clifton Place,7,,Arthur,Allen,,
+resident,Clifton Place,8,,H. M.,Holding,,
+resident,Clifton Place,9,,Mrs. S. S.,Davies,,
+resident,Clifton Place,,,,,Miss L. L. Anstice
+resident,Clifton Place,10,,F.,Smith-Halvorsen,Danish Vice-Consul
+resident,Clifton Place,11,,Willie,Ponsford,,
+resident,Clifton Place,12,,Mrs. E. S.,Blake,Albert h

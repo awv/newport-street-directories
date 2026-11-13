@@ -1,0 +1,151 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,METROPOLITAN BANK CHAMBERS,,,,,,
+cross_street,METROPOLITAN BANK CHAMBERS,,,,,,"See Commercial-street"
+street,MIDLAND BANK CHAMBS.,,,,,,F 5
+cross_street,MIDLAND BANK CHAMBS.,,,,,,"1 Bridge-street"
+street,MILL PARADE,,,,,,F 5
+cross_street,MILL PARADE,,,,,,From end of Commercial-road to Watchhouse-parade
+cross_street,MILL PARADE,,,,,,(RIGHT HAND SIDE)
+resident,MILL PARADE,1,Ship Hotel,C. W.,Griffiths,,
+resident,MILL PARADE,,,"Brothers, Ltd.",Griffiths,brewers, etc.
+resident,MILL PARADE,2,,,C.,Glycos,general shop,
+resident,MILL PARADE,3,,,Fred G.,Carter,hairdresser,
+resident,MILL PARADE,,,,Wm. J.,Carter,,
+resident,MILL PARADE,4,,,John,Robinson,boatswain,
+resident,MILL PARADE,5,,,Mrs. Rachel,Watkins,shop,
+resident,MILL PARADE,,,,Thos.,Watkins,haul contr,
+cross_street,MILL PARADE,,,,,,here is Pottery-road
+resident,MILL PARADE,7,,,Mrs. Edith M.,Sandoe,,
+resident,MILL PARADE,,,,Thos.,Shelley,ironwkr,
+resident,MILL PARADE,8,,,Thomas,Maggs,boilermkr,
+resident,MILL PARADE,9,,,Fred J.,Roberts,boilermkr,
+resident,MILL PARADE,,,,,,,"Sub Power Station (Newport Corporation)"
+resident,MILL PARADE,,,"& Scrutton, Ltd.",Coubro,ship-chandlers sailmakers and riggers,
+resident,MILL PARADE,14,,,Wm.,Watkins,haulier,
+resident,MILL PARADE,15,,,John,Wall,fitter,
+resident,MILL PARADE,,,,Fredk.,Marshall,boot rep,
+resident,MILL PARADE,16,,,T. A.,Hughes,police,
+resident,MILL PARADE,17,,,Frank,Roberts,fitter,
+resident,MILL PARADE,18,,,James,Casey,coal trimmer,
+resident,MILL PARADE,19,,,E.,Gooding,police,
+resident,MILL PARADE,20,,,Robt.,Webb,dk pilot,
+resident,MILL PARADE,,,,G. W.,Thompson,ship repr,
+resident,MILL PARADE,,,,William C.,Houghton,funeral furnisher,
+resident,MILL PARADE,,,,C. H.,Bailey,engineer &c.,
+resident,MILL PARADE,,,,,,Tyne Engine Works
+resident,MILL PARADE,,,,,,Isca Foundry Co. Ltd.
+resident,MILL PARADE,23,,,Arthur,Coombs,,
+resident,MILL PARADE,24,,,William,Payne,labourer,
+resident,MILL PARADE,25,,,D. J.,Lavender,blacksmh,
+resident,MILL PARADE,26,,,Tom,Fisher,dock labourer,
+resident,MILL PARADE,27,,,Isaac,Bevan,boilermaker,
+resident,MILL PARADE,28,,,Mrs. Catherine,Smith,,
+resident,MILL PARADE,29,,,Mrs. Annie,Sully,,
+resident,MILL PARADE,30,,,Mrs. S. A.,Walters,,
+resident,MILL PARADE,,,,Jas.,Parry,coal merchant,
+resident,MILL PARADE,31,,,William,Parsons,miner,
+resident,MILL PARADE,32,,,Thos. A.,Roderick,fitter,
+resident,MILL PARADE,33,,,Frank S.,Bush,gen shop,
+resident,MILL PARADE,,,,William,Pitt,labourer,
+resident,MILL PARADE,,,,Wm.,Evans,ironworker,
+cross_street,MILL PARADE,,,,,,here is Coomassie-street
+resident,MILL PARADE,34,,,"& Co.",Bicarrequi,grocers,
+resident,MILL PARADE,35,,,Rubin S.,Price,foreman,
+resident,MILL PARADE,36,,,Jabez,Venton,labourer,
+resident,MILL PARADE,37,,,Jose,Rivas,boarding ho,
+resident,MILL PARADE,38,,,Wm. Hy.,Walkley,labr,
+resident,MILL PARADE,,,,Wm. J.,Edwards,labourer,
+resident,MILL PARADE,39,,,Roman,Gaitero,seaman,
+resident,MILL PARADE,40,,,Mrs Helen,Humphries,,
+resident,MILL PARADE,41,,,Jas. T.,Perkins,labourer,
+resident,MILL PARADE,42,West of England Tavern,Mrs. Mary,Trew,,
+cross_street,MILL PARADE,,,,,,here is Brunel-street
+cross_street,MILL PARADE,,,,,,here is Watchhouse-parade
+cross_street,MILL PARADE,,,,,,(return)
+resident,MILL PARADE,,,"Co., Ltd.,—D. R. Evans, manager",Arrow Fuel,,
+cross_street,MILL PARADE,,,,,,TRANSPORTER BRIDGE
+resident,MILL PARADE,,,"Peter & Co., Ltd.",Wright,ships painters & contracts,
+resident,MILL PARADE,,,"Conveyor Co., Ltd.",Finlay,coal conveying plant,
+resident,MILL PARADE,,,,,,Britdir yard manufac of,
+resident,MILL PARADE,,,,Chas. & Son,Parry,coal office,
+resident,MILL PARADE,,,"& Kyte",French,wheelwrights and motor body builders,
+resident,MILL PARADE,,,"J. O. & Co.",Dibble,oil & grease stores,
+resident,MILL PARADE,,,"Foundry Co.—E. H. Thatcher B.Sc. TECH.",Newport,ironwkr,
+resident,MILL PARADE,,,"Dry Docks and Shearman's Ltd.",Mountstuart,,
+resident,MILL PARADE,,,"Dry Dock and Wharf Co. Ltd.",Tredegar,engineers and ship repairers dry dock owners and wharfingers,
+street,MILL STREET,,,,,,C 4
+cross_street,MILL STREET,,,,,,From Shaftesbury-street to Pentonville
+cross_street,MILL STREET,,,,,,(LEFT HAND SIDE.)
+resident,MILL STREET,1,,,W. J.,Young,,
+resident,MILL STREET,,,,,,Thomas-street Subway
+cross_street,MILL STREET,,,,,,here is Railway-bridge
+cross_street,MILL STREET,,,,,,(return)
+resident,MILL STREET,19,,,G.,Smith,steelworker,
+resident,MILL STREET,20,,,Thomas J.,Phillips,,
+resident,MILL STREET,21,,,Mrs. Clara,Hamar,,
+resident,MILL STREET,22,,,Arthur E.,Clubb,mechanic,
+resident,MILL STREET,23,,,Geo.,Dixon,tailor,
+resident,MILL STREET,,,,,,CONGREGATIONAL CHURCH
+resident,MILL STREET,24,,,Void,,,
+resident,MILL STREET,26,,,W.,Jones,steelworker,
+resident,MILL STREET,27,George and Dragon,W. H.,Hurley,,
+resident,MILL STREET,28,,,Mrs. Ellen,Mulcahy,,
+resident,MILL STREET,29,,,Pickford's Ltd.,Deposit-ories,
+resident,MILL STREET,30,,,J.,Hammond,shopkeeper,
+cross_street,MILL STREET,,,,,,here is White Lion-court
+resident,MILL STREET,31,Old White Lion,John,Fulford,,
+cross_street,MILL STREET,,,,,,here is Factory-road
+resident,MILL STREET,,,,,,here is Dos Works yard
+resident,MILL STREET,,,"(Dos works) Ltd.",Cordes,nail manufacturers,
+resident,MILL STREET,,,"J. J.",Partridge,builder,
+resident,MILL STREET,35,,,"Gas works (Mon.) Gas Co. W. Stanford secretary J. H. Canning engineer",Newport,,
+resident,MILL STREET,,,,,,G.W.R. Institute
+resident,MILL STREET,,,,,,Mill-street yard (G.W.R.)
+resident,MILL STREET,,,,,,Reliance Coal Co. colliery agents,
+resident,MILL STREET,,,,A. H.,Kelly,coal factor,
+resident,MILL STREET,,,,,,G.W.R. Goods office
+resident,MILL STREET,,,,,,Newport Co-operative Industrial Soc.—coal office,
+resident,MILL STREET,,,,,,Twinlng L. & Co. coal factors,
+resident,MILL STREET,,,,,,Barker & Lovering colliery agents,
+resident,MILL STREET,,,,Philip,Lewis,coal factor,
+resident,MILL STREET,,,,Mark,Howells,coal factor,
+resident,MILL STREET,,,,James & Emanuel,,
+resident,MILL STREET,,,,R. & Sons,Wynn,haulage contractors,
+street,MILTON ROAD,,,,,,
+cross_street,MILTON ROAD,,,,,,MAINDEE PARK HOUSING SITE
+street,MILMAN STREET,,,,,,F 5
+cross_street,MILMAN STREET,,,,,,Crossing Alexandra-road
+cross_street,MILMAN STREET,,,,,,(RIGHT HAND SIDE.)
+resident,MILMAN STREET,,,,,,Thissen & Jenkins shipping agents,
+cross_street,MILMAN STREET,,,,,,(return)
+resident,MILMAN STREET,2,,,Mrs. Rosina,Morgan,,
+resident,MILMAN STREET,4,,,John,Lawrence,Holcombe,
+resident,MILMAN STREET,6,,,Mrs. Elizabeth,Williams,,
+resident,MILMAN STREET,8,,,Alfred,Harding,rigger,
+resident,MILMAN STREET,10,,,George,Davison,engineer,
+resident,MILMAN STREET,12,,,Daniel,Fielden,,
+resident,MILMAN STREET,14,,,Mrs. Caroline,Tyldesley,,
+resident,MILMAN STREET,,,,Knut B.,Waage,fitter,
+cross_street,MILMAN STREET,,,,,,here is Alexandra-road
+resident,MILMAN STREET,16,,,George H.,Osborne,inspr,
+resident,MILMAN STREET,18,,,Thomas G.,Pearce,engineer,
+resident,MILMAN STREET,20,,,Henry,Adams,blrmaker,
+resident,MILMAN STREET,22,,,Frederick Edgar,Pearce,,
+resident,MILMAN STREET,24,,,Arthur C.,Young,fireman,
+resident,MILMAN STREET,26,,,Francis,Kerrell,Henry,
+resident,MILMAN STREET,28,,,Mrs. Elizabeth A.,Davies,,
+resident,MILMAN STREET,30,,,Henry,Long,N.,
+resident,MILMAN STREET,32,,,Wm. J.,Phillips,foreman,
+resident,MILMAN STREET,34,,,Walter W.,Sears,shipwht,
+resident,MILMAN STREET,36,,,Stephen A.,Wood,G.W.R.,
+resident,MILMAN STREET,38,,,Wm. T.,Evans,boatman,
+resident,MILMAN STREET,40,,,John V. H.,Davies,dairy,
+resident,MILMAN STREET,,,,Arthur L.,Evans,pilot,
+cross_street,MILMAN STREET,,,,,,here is Wolseley-street
+resident,MILMAN STREET,42,,,Bertram G.,Davies,plater,
+resident,MILMAN STREET,44,,,Denis,Hayes,trimmer,
+resident,MILMAN STREET,46,,,Geo.,Cornell,ships rigger,
+resident,MILMAN STREET,,,,Edgar,Vickery,salesman,
+resident,MILMAN STREET,48,,,David,James,boatman,
+resident,MILMAN STREET,50,,,Simon,Bigmore,dk pilot,
+resident,MILMAN STREET,52,,,W. H.,Graham,shipwright,

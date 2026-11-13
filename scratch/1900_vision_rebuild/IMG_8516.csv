@@ -1,0 +1,95 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Commercial St.,,,,,,"continued"
+resident,Commercial St.,141,,J. & C.,Sankey,grocers,
+resident,Commercial St.,,,,Baptist Chapel,,
+resident,Commercial St.,142,,I.,Wyber,hosier & hatter,
+resident,Commercial St.,143,,C.,Collier,Ltd.,pastry cooks, Temperance Restaurant
+resident,Commercial St.,144,,,,,Void
+resident,Commercial St.,145,,,Williams Bros.,tailors,
+resident,Commercial St.,146,,H. C.,Frundt,fancy repos
+resident,Commercial St.,147,,,Reynolds & Co., Ltd.,cabinetmakers
+resident,Commercial St.,148,,David E.,Humphreys,London House,
+resident,Commercial St.,,,,Talbot Hotel,,
+cross_street,Commercial St.,,,,here is Charles-street,,,
+resident,Commercial St.,"149, 150 & 151",,,Reynolds & Co., Ltd.,drapers, milliners, fancy warehousemen, and house furnishers,London House
+resident,Commercial St.,152,,W. & Co.,Evans,bootmakers,Leicester ho
+resident,Commercial St.,153,,,Bland & Sons,pastry cooks and confectioners,
+cross_street,Commercial St.,,,,here is McCarthy's-court,,,
+resident,Commercial St.,154,,,,,Void
+resident,Commercial St.,155,,,,,do
+resident,Commercial St.,,"WESLEY BUILDINGS, 1",J. E. & Co.,Davies,drapers, milliners, and household furnishers,
+resident,Commercial St.,,"WESLEY BUILDINGS, 2",J. E. & Co.,Davies,drapers, milliners, and household furnishers,
+resident,Commercial St.,,"WESLEY BUILDINGS, 3",J. E. & Co.,Davies,drapers, milliners, and household furnishers,
+resident,Commercial St.,157,WESLEY CHAMBERS,,Wesley Hairdr'sing Sal'n,,
+resident,Commercial St.,157,WESLEY CHAMBERS,A. & G.,Taylor,photographic artists,
+resident,Commercial St.,157,WESLEY CHAMBERS,Alfred,School of Music—Mrs Morris,R.A.M.
+resident,Commercial St.,157,WESLEY CHAMBERS,W. & Co.,Jesseman,India Rubber manufacturers and depôt for Athletics. Punching balls, clubs, bar bells, fencing, cricket, and tennis, requisites, footballs, hockey clubs, and all kinds of gymnastic apparatus. Special quotations to Clubs; and at Barry & W. Hartlepool,
+resident,Commercial St.,158,,J.,Jones,Andrews, drapr
+resident,Commercial St.,159,,Wm.,Jones,bookseller, stationer, and printer
+resident,Commercial St.,160,,Fred.,Dowdall,Bush Inn
+cross_street,Commercial St.,,,,Entrance to Drill-hall,,,
+resident,Commercial St.,161,,,Trapnell & Gane,cabinet makers and house furnishers
+resident,Commercial St.,162½,,,Trapnell & Gane,cabinet makers and house furnishers
+resident,Commercial St.,163A,,,,Home & Colonial stores,
+resident,Commercial St.,163,,Mrs.,Keene,hairdresser and tobacconist,
+resident,Commercial St.,,ELDON CHAMBERS,Llewellyn J.,Phillips,solicitor,
+resident,Commercial St.,,ELDON CHAMBERS,G. T.,Nicholl,land and estate agent
+resident,Commercial St.,164,,W.,Gibbs,Royal Albert Restaurant,
+resident,Commercial St.,165,,Mrs M.,Shenton,Ship and Pilot Hotel,
+resident,Commercial St.,165,,David E.,Humphreys,mantles, costumes, dresses, boots, & shoes,London House
+resident,Commercial St.,"166, 167",,,,London House,fancy drapery
+resident,Commercial St.,168,,,,London House,Manchester and household linens—Evans & Allen, Ltd. proprietors
+resident,Commercial St.,169,,,Bevan & Co. Ltd.,house furnishers,London House
+resident,Commercial St.,170,,,,London House,carpets and curtains, bedsteads, bedding, and general furnishing—Evans & Allen, Ltd.
+resident,Commercial St.,171,WESTGATE CHAMBERS,,,Evans & Allen, Ltd.,
+resident,Commercial St.,,WESTGATE CHAMBERS 1st Floor,F. J.,Roberts,auctioneer & house agt (1),
+resident,Commercial St.,,WESTGATE CHAMBERS 1st Floor,Digby,Powell,solicitor, & deputy coroner (7-8)
+resident,Commercial St.,,WESTGATE CHAMBERS 1st Floor,G. H.,Official Receiver in Bankruptcy Llewellyn (9-12),
+resident,Commercial St.,,WESTGATE CHAMBERS 2nd Floor,,,Llanover Estates Trustees' office (15-6),
+resident,Commercial St.,,WESTGATE CHAMBERS 2nd Floor,,Linton & Barker,architects (23)
+resident,Commercial St.,,WESTGATE CHAMBERS 2nd Floor,,,Geen & Linton, contrctrs
+resident,Commercial St.,,WESTGATE CHAMBERS 2nd Floor,G. H.,South Wales Plate Glass Ins. Co.—Porter,
+resident,Commercial St.,,WESTGATE CHAMBERS 3rd Floor,H. S.,Blackborow,accountant (29)
+resident,Commercial St.,,WESTGATE CHAMBERS 3rd Floor,F. R.,Bates,architect (26)
+resident,Commercial St.,,WESTGATE CHAMBERS 4th Floor,,,Rees & McPherson, architects
+resident,Commercial St.,,WESTGATE CHAMBERS 4th Floor,E. W.,Williams,account't 9
+resident,Commercial St.,172,,,Wildings, Ltd.,tailors, clothiers, hatters, and hosiers
+resident,Commercial St.,172A,,,Wildings, Ltd.,tailors, clothiers, hatters, and hosiers
+resident,Commercial St.,173,,,Wildings, Ltd.,tailors, clothiers, hatters, and hosiers
+resident,Commercial St.,,WESTGATE CHAMBERS,Charles,Lyne,Llanarth Estate offices
+resident,Commercial St.,,WESTGATE CHAMBERS,,Lyne & Co.,solicitors
+resident,Commercial St.,,WESTGATE CHAMBERS,E. L.,Lyne,mining eng'nr
+resident,Commercial St.,174,,F. J.,Batchelor,mantle warehouse
+resident,Commercial St.,175,,,Boyle & Co.,boot merchants
+resident,Commercial St.,,,Alfred,Morgan,Westgate livery stables,
+resident,Commercial St.,,WESTGATE BUILDINGS,,,Westgate Hotel Bar,
+resident,Commercial St.,,WESTGATE BUILDINGS,,Evans and Deakin,fancy drapery and millinery
+resident,Commercial St.,,WESTGATE BUILDINGS,Howell,Treharne,chemist
+resident,Commercial St.,,WESTGATE BUILDINGS,,Westgate Hotel, The—Samuel Dean, lessee
+resident,Commercial St.,,WESTGATE BUILDINGS,,Lovell & Co.,confectioners
+resident,Commercial St.,,WESTGATE BUILDINGS,A. W.,Payne,tobacconist
+resident,Commercial St.,,WESTGATE BUILDINGS,,Rainforth and Son,watchmakers and jewellers
+street,Commercial Wharf.,,,,,,East-side Old Dock.
+resident,Commercial Wharf.,1,,Mrs,Murison,Commercial Hotel,
+resident,Commercial Wharf.,10,,Mrs Sarah,Walker,Mariners' Arms,
+resident,Commercial Wharf.,11,,Walter,Williams,dockman
+resident,Commercial Wharf.,12,,James,Howlett,dockman
+resident,Commercial Wharf.,13,,James,Newman,gateman
+resident,Commercial Wharf.,27,,George,Gillard,moulder
+resident,Commercial Wharf.,28,,Chas.,Holton,coal trim'r
+resident,Commercial Wharf.,29,,Henry,Richards,
+resident,Commercial Wharf.,30,,Thomas,Evan,
+resident,Commercial Wharf.,31,,William,Plaisted,
+resident,Commercial Wharf.,32,,Thomas,Lewis,painter
+resident,Commercial Wharf.,33,,Edward,Evans,labourer
+notes,Commercial Wharf.,,,,,,"See also the Dock."
+street,Constable's Lane.,,,,,,From 109 Commercial-road.
+resident,Constable's Lane.,1,,Daniel,Crowley,labourer
+resident,Constable's Lane.,2,,Dennis,Hayes,hobbler
+resident,Constable's Lane.,3,,William,Howells,labourer
+resident,Constable's Lane.,4,,Robert,Bale,rigger
+resident,Constable's Lane.,5,,Alfred,Short,moulder
+resident,Constable's Lane.,6,,Henry,Bunting,sailor
+resident,Constable's Lane.,7,,John,Curtis,
+resident,Constable's Lane.,8,,Mrs M. J.,Dart,
+resident,Constable's Lane.,9,,Elizabeth,Inker,

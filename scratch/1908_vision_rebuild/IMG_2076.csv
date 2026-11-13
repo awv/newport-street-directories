@@ -1,0 +1,153 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,Chesterfield Street,42,Hewson house,E.,Sayer,veterinary surgeon,
+resident,Chesterfield Street,40,Bath house,,,,void
+resident,Chesterfield Street,38,Stafford h,Miss Mary,Cooke,,
+cross_street,Chesterfield Street,,,here is Cedar-road,,,
+resident,Chesterfield Street,36,Cedar villa,Miss,Gregory,,
+resident,Chesterfield Street,34,East Lynne,F. J.,Richards,,
+resident,Chesterfield Street,32,Belmont,Henry,Ivins,,
+resident,Chesterfield Street,30,Claremont,John,Williams,,
+resident,Chesterfield Street,28,,J.,Buckner,physician and surgeon,Linton villa
+resident,Chesterfield Street,26,,C. J.,Francis,,
+resident,Chesterfield Street,24,,A.,Sutherland,Curson vil
+resident,Chesterfield Street,,,William,Sutherland,,
+resident,Chesterfield Street,22,Hursley,Miss,Hall,,
+resident,Chesterfield Street,20,,,,void,Nemerland
+resident,Chesterfield Street,18,,D. Ed.,Thomas,physician and surgeon,
+resident,Chesterfield Street,16,,,,void,Wenvoe
+resident,Chesterfield Street,14,Monreith,William,Scott,,
+resident,Chesterfield Street,12,,Thos.,Wilks,photographer,
+resident,Chesterfield Street,10,Belgrade,R. B.,Kerr,,
+resident,Chesterfield Street,8,Idris h,L. & M.,Illes,Misses,
+resident,Chesterfield Street,6,,,,void,
+resident,Chesterfield Street,4,,Chas. A.,Burpitt,L.D.S.,
+resident,Chesterfield Street,2,,surg.-dentist,R.C.S.,ENG.,
+cross_street,Chesterfield Street,,,Corporation-road,,,
+street,Chesterfield Street,,,,,,
+cross_street,Chesterfield Street,,,Off Corporation-road,,,
+street,Christchurch Rd.,,,,,,C 3
+cross_street,Christchurch Rd.,,,From Church-road,,,
+cross_street,Christchurch Rd.,,,[LEFT HAND SIDE],,,
+cross_street,Christchurch Rd.,,,AUCKLAND VILLAS,,,
+resident,Christchurch Rd.,1,,George Hy.,Stevens,p.o.,Auckland villas
+resident,Christchurch Rd.,3,,Henry,Cordy,manager,
+resident,Christchurch Rd.,5,,John,Capper,,
+resident,Christchurch Rd.,7,,Saml. Hy.,Smith,traveller,
+resident,Christchurch Rd.,9,,J. W. R.,Woodfield,clerk,
+resident,Christchurch Rd.,11,,David,Thomas,police-sgt,
+resident,Christchurch Rd.,13,,Mrs. E.,James,,
+resident,Christchurch Rd.,15,,James,Fraser,engineer,
+resident,Christchurch Rd.,17,,M.,McPherson,draper,
+resident,Christchurch Rd.,19,,Alfred,Knight,bailiff,
+resident,Christchurch Rd.,21,,G.,Wicks,school att. officer,
+resident,Christchurch Rd.,23,,W. Ed.,Winter,,
+resident,Christchurch Rd.,25,,J. H.,Turner,traveller,
+cross_street,Christchurch Rd.,,,here is Morden-road,,,
+resident,Christchurch Rd.,27,Hazledean,W.,Humphrey,,
+resident,Christchurch Rd.,29,Selworthy,L. E.,Summerfield,,
+resident,Christchurch Rd.,31,Victoria manse,J.,Clarke,Rev. Walker,
+cross_street,Christchurch Rd.,,,here is Somerset-road,,,
+cross_street,Christchurch Rd.,,,here cross over,,,
+cross_street,Christchurch Rd.,,,[RIGHT HAND SIDE],,,
+resident,Christchurch Rd.,2,,Jas. Edward,Willey,,
+resident,Christchurch Rd.,4,,John,Lloyd,,
+resident,Christchurch Rd.,6,,Alfred,Taylor,traveller,
+resident,Christchurch Rd.,8,,Mrs. E.,Watkins,,
+resident,Christchurch Rd.,10,,Miss J.,Sims,carpenter,
+resident,Christchurch Rd.,12,,Young,Swanton,plaster'r,
+resident,Christchurch Rd.,14,,Geo.,Shepperd,teacher,
+resident,Christchurch Rd.,16,,E. T.,Williams,ins. agent,
+resident,Christchurch Rd.,18,,C. T.,Rosser,traveller,
+resident,Christchurch Rd.,20,,Charles,Evans,,
+resident,Christchurch Rd.,22,,James,Poole,Hillside
+cross_street,Christchurch Rd.,,,Broadview-void,,,
+resident,Christchurch Rd.,,Hygeia,Charles James,Hill,,
+resident,Christchurch Rd.,,,Miss Alice,Kirby,,
+resident,Christchurch Rd.,,,Geo. R.,Newberry,eng. driver,
+resident,Christchurch Rd.,,,John,Jones,haulier,
+resident,Christchurch Rd.,,,Wm.,Newberry,machinist,
+resident,Christchurch Rd.,,,Richard,Hobbs,gardener,
+resident,Christchurch Rd.,,,Sidney,Meaker,painter,
+resident,Christchurch Rd.,,,Walter,Codling,police,
+resident,Christchurch Rd.,,,Dd.,Jennings,lathrender,
+cross_street,Christchurch Rd.,,,TEMPERANCE COTTAGES,,,
+resident,Christchurch Rd.,7,,Frank,Bastin,printer,Temperance cottages
+resident,Christchurch Rd.,6,,Thos. Hy.,Sims,decorator,Temperance cottages
+resident,Christchurch Rd.,5,,William,Walton,plasterer,Temperance cottages
+resident,Christchurch Rd.,4,,Thomas,Dally,platelayer,Temperance cottages
+resident,Christchurch Rd.,3,,Robert,Culverwell,fitter,Temperance cottages
+resident,Christchurch Rd.,2,,Thos. W.,Lane,eng. driver,Temperance cottages
+resident,Christchurch Rd.,1,,R. L.,Jones,assistant,Temperance cottages
+cross_street,Christchurch Rd.,,,here is Victoria-avenue,,,
+resident,Christchurch Rd.,3,Sparkenhoe,C. A.,Boulton,,
+cross_street,Christchurch Rd.,,,NEW BUILDINGS,,,
+resident,Christchurch Rd.,1,,T. J.,Cunningham,carptr,New buildings
+resident,Christchurch Rd.,2,,W. A.,Kelson,sheetwghr,New buildings
+resident,Christchurch Rd.,3,,Chas.,Manley,hoistman,New buildings
+resident,Christchurch Rd.,4,,Frederick,Freeguard,,New buildings
+resident,Christchurch Rd.,5,,John,Saunders,plasterer,New buildings
+resident,Christchurch Rd.,6,,John B.,Sweeney,agent,New buildings
+resident,Christchurch Rd.,7,,Benj.,Boshier,baker,New buildings
+resident,Christchurch Rd.,8,,T. W.,Davies,blacksmith,New buildings
+resident,Christchurch Rd.,9,,Chas.,Baldwin,musician,New buildings
+resident,Christchurch Rd.,10,,Albt.,Pollock,wndw clnr,New buildings
+resident,Christchurch Rd.,11,,Arthur,Collman,,New buildings
+resident,Christchurch Rd.,12,,T. Y.,Griffiths,G.W.R. fitter,New buildings
+resident,Christchurch Rd.,13,,Wm.,Francis,roadman,New buildings
+resident,Christchurch Rd.,14,,John,Matthews,,New buildings
+cross_street,Christchurch Rd.,,,BEECHWOOD PUBLIC PARK,,,
+cross_street,Christchurch Rd.,,,here is Woodland-road,,,
+cross_street,Christchurch Rd.,,,here is Beechwood-road,,,
+resident,Christchurch Rd.,10,Myrtle villa,Wm. John,Page,,
+resident,Christchurch Rd.,11,Southernwood v,J.,Kerslake,,
+resident,Christchurch Rd.,12,Viburnum v,Mrs. M. A.,Gratte,,
+resident,Christchurch Rd.,13,,Chas.,Haine,florist,
+cross_street,Christchurch Rd.,,,here is Gibbs-road,,,
+resident,Christchurch Rd.,,Hill top,S. G.,Morgan,,
+resident,Christchurch Rd.,,Overhill house,J. H.,Harris,,
+resident,Christchurch Rd.,,High view,Henry,Hill,,
+resident,Christchurch Rd.,,Woodview,Joseph L.,Tanner,,
+cross_street,Christchurch Rd.,,,PENYLAN TERRACE,,,
+resident,Christchurch Rd.,1,,C. C.,Watkins,ironworker,Penylan terrace
+resident,Christchurch Rd.,2,,James,Dowen,ironworker,Penylan terrace
+resident,Christchurch Rd.,3,,William,Richins,,Penylan terrace
+resident,Christchurch Rd.,4,,Francis,Lander,schoolmstr,Penylan terrace
+resident,Christchurch Rd.,5,,S. J.,Ellis,shop,Penylan terrace
+cross_street,Christchurch Rd.,,,CHRISTCHURCH ROAD POST OFFICE, M.O., & S.B., &A.&I.,,,
+cross_street,Christchurch Rd.,,,here is Whitstone-road,,,
+resident,Christchurch Rd.,,Mountview,J.,Evans,,
+resident,Christchurch Rd.,,Jessiman v,Wm. J.,Davies,,
+resident,Christchurch Rd.,,Malvern villa,Charles,Grice,,
+resident,Christchurch Rd.,,Ashley house,George,Evans,,
+resident,Christchurch Rd.,,Vandyke house,Robt.,Snook,,
+resident,Christchurch Rd.,,The Bryn,T. H.,Wilks,,
+resident,Christchurch Rd.,,,Sydney,Jobbins,mason,
+resident,Christchurch Rd.,,,Thomas,Drew,engineer,
+resident,Christchurch Rd.,,Kennel cot.,Charles,Gough,,
+cross_street,Christchurch Rd.,,,CHRISTCHURCH CEMETERY—Wm. Ford, superintendent,,,
+cross_street,Christchurch Rd.,,,(return),,,
+resident,Christchurch Rd.,,Woodbine cottage,Mrs. Martha,Brown,,
+resident,Christchurch Rd.,,George Hill cottage,Albert,Morgan,,
+street,Church Path,,,,,,
+cross_street,Church Path,,,now Victoria-lane,,,
+street,Church Road,,,,,,C 3
+cross_street,Church Road,,,From 16 Caerleon-road to Duckpool-road,,,
+cross_street,Church Road,,,LEFT HAND SIDE,,,
+resident,Church Road,,,,,Robertson,tobacconist,W. E. tobacconist
+resident,Church Road,,,,John,Clements,eng. driver,
+resident,Church Road,,,,G. E.,Clements,greengrocer,
+cross_street,Church Road,,,here is Gloucester-place,,,
+resident,Church Road,,,,Robert,Wright,hairdresser,
+resident,Church Road,1,,,,Davies,bootmaker,W. H. bootmaker
+resident,Church Road,2,,,,Jones,coal merchnt,W. D. coal merchnt
+resident,Church Road,3,,,,,,void
+resident,Church Road,4 to 5,,,,,,do
+resident,Church Road,6, 7 & 8,,,,Payne,dealer,T. dealer
+resident,Church Road,9,,,,Howell,wardrobe dealer,Mrs. Annie, wardrobe dealer
+cross_street,Church Road,,,here is Alfred-street,,,
+resident,Church Road,10,,,,Williams,hairdresser,Eli, hairdresser
+resident,Church Road,11,,,,Gilpin,Charles,Wm. Charles
+resident,Church Road,12,,,,Jones,Mrs. Mary,Mrs. Mary
+resident,Church Road,13,,,,Clissett,Mrs. E.,Mrs. E.
+cross_street,Church Road,,,Barnard Town School,,,
+resident,Church Road,15,,Co-operative Br'ch Stores,,,,

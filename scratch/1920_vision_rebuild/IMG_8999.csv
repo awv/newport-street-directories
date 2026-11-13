@@ -1,0 +1,162 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,ETO STREET,,,,,,
+resident,ETO STREET,42,Penrhiw,George,Ball,,
+resident,ETO STREET,40,Athenic,Mrs. L.,Newman,,
+resident,ETO STREET,38,Ravenscar,H.,Poole,clerk,
+resident,ETO STREET,36,Arvans,Mrs. E. A.,Vivian,,
+cross_street,ETO STREET,,,,,,"St. Norman G., cabinetmaker"
+resident,ETO STREET,34,Westbourne,Reg. C.,Pullin,electrician,
+resident,ETO STREET,32,Macnade ho,Wm.,Rees,,
+cross_street,ETO STREET,,,,,,"here is Methuen-road"
+resident,ETO STREET,30,Ivy Glen,Geo. Stephen,Jones,,
+resident,ETO STREET,28,Dalmeny,Wm. Jos.,Wigmore,,
+resident,ETO STREET,26,,Reginald,Pearce Victor,,
+resident,ETO STREET,24,,Thomas,Walker,,
+resident,ETO STREET,22,,R. W.,Sheppard,engineer,
+resident,ETO STREET,20,St. Corri,Rd.,Dayman,,
+resident,ETO STREET,18,Holborn,J.,Howell,G.W.R.,
+resident,ETO STREET,16,Rolbyn,Theo.,Wray,,
+resident,ETO STREET,14,Tregothan,Robt.,Merryweather,,
+resident,ETO STREET,12,Jesmond Dene,W. T.,Johnson,,
+resident,ETO STREET,10,,Mrs. K.,Thomas,,
+resident,ETO STREET,8,Heatherdene,Ch.,Homan,,
+resident,ETO STREET,6,Hazeldene,John,Keepin,,
+cross_street,ETO STREET,,,,,,"here is Rugby-road"
+resident,ETO STREET,4,Langston,Mrs.,Hicks,,
+resident,ETO STREET,2,Holmeswood,Rev. E. R.,Jones,,
+street,EVANS STREET,C 4,,,,,"From 162 Shaftesbury-street"
+cross_street,EVANS STREET,,,,,,"(LEFT HAND SIDE.)"
+resident,EVANS STREET,1,,Chas.,Forester,School ho,
+resident,EVANS STREET,3,,F. T.,Hunt,dealer,
+cross_street,EVANS STREET,,,,,,"here is Henry-street"
+resident,EVANS STREET,5,,William,Griffiths,smith,
+resident,EVANS STREET,7,,Robert,Logan,,
+resident,EVANS STREET,9,,Samuel,Tutton,gen. shop,
+cross_street,EVANS STREET,,,,,,"here is Hoskins-street"
+resident,EVANS STREET,,,MARSHES HALL (FORWARD MOVEMENT),,,,
+cross_street,EVANS STREET,,,,,,Shaftesbury Park
+cross_street,EVANS STREET,,,,,,"(cross and return)"
+cross_street,EVANS STREET,,,,,,"here is Pugsley-street"
+resident,EVANS STREET,20,,William,Bevan,John,
+resident,EVANS STREET,18,,William,Body,labourer,
+resident,EVANS STREET,16,,John,Jones,ironworker,
+resident,EVANS STREET,14,,Thomas,Dowling,labourer,
+resident,EVANS STREET,12,,S.,Trembeth,,
+resident,EVANS STREET,12A,,Edwin,Tutton,labourer,
+resident,EVANS STREET,12B,,Charles,Jenkinson,,
+cross_street,EVANS STREET,,,,,,"here is Wheeler-street"
+cross_street,EVANS STREET,,,,,,"here is Hoskins-street"
+cross_street,EVANS STREET,,,,,,"here is Henry-street"
+resident,EVANS STREET,10,,Harry,Venn,shop,
+resident,EVANS STREET,8,,E.,Holley,shopkeeper,
+cross_street,EVANS STREET,,,,,,"here is Hewertson-street"
+resident,EVANS STREET,6,,Thomas,Rudall,labourer,
+resident,EVANS STREET,4,Dairy,Newport Co-operative,,,
+resident,EVANS STREET,2,,Void,,,
+street,EVESWELL PARK,D 2,,,,,"From 211 Chepstow-road"
+cross_street,EVESWELL PARK,,,,,,"(RIGHT HAND SIDE.)"
+resident,EVESWELL PARK,1,Glynlyn,T. R. P.,Herbert,Staunton surgeon,
+resident,EVESWELL PARK,2,,,,,Johnson --
+resident,EVESWELL PARK,3,Dolecoed,A.,Smallwood,,
+resident,EVESWELL PARK,4,Bryntirion,W.,Hinxman,,
+resident,EVESWELL PARK,,Elstow,George,Hussey,,
+resident,EVESWELL PARK,,Staddon,---,Bell,,
+resident,EVESWELL PARK,,Rosendale,James,Basham,,
+resident,EVESWELL PARK,,Mount Eveswell,Mrs.,Richards,,
+cross_street,EVESWELL PARK,,,,,,Vacant sites
+resident,EVESWELL PARK,,Mt. Pleasant,Douglas,Perry,,
+cross_street,EVESWELL PARK,,,,,,Vacant sites
+resident,EVESWELL PARK,,Rydal Mount,Joseph,Cliffe,,
+cross_street,EVESWELL PARK,,,,,,"(return)"
+resident,EVESWELL PARK,,Bourton,Jas. J.,Mansfield,,
+resident,EVESWELL PARK,,Croft Ambury,Mrs. K. E.,Cayzer,,
+resident,EVESWELL PARK,,The Cliff,G. T.,Meggitt,,
+resident,EVESWELL PARK,,Rosehill,Mrs. K.,Thomas,,
+cross_street,EVESWELL PARK,,,,,,Vacant sites
+cross_street,EVESWELL PARK,,,,,,"(See St. John's and Batchelor roads)"
+street,EVESWELL STREET,D 3,,,,,"From 232 Chepstow-road to Archibald-street"
+cross_street,EVESWELL STREET,,,,,,"(LEFT HAND SIDE,)"
+resident,EVESWELL STREET,1,,Mrs. Elizabeth,Westwood,,
+resident,EVESWELL STREET,2,,George,Ball,ins. agent,
+resident,EVESWELL STREET,3,,Herbert,Dayman,porter,
+resident,EVESWELL STREET,4,,Albert,Pullin,crane driver,
+resident,EVESWELL STREET,5,,Mrs. Ann,Butcher,,
+resident,EVESWELL STREET,6,,T. J.,Read,berthing master,
+resident,EVESWELL STREET,7,,Francis C.,Maunders,police,
+resident,EVESWELL STREET,8,,James,Bradford,smith,
+resident,EVESWELL STREET,9,,Alfred,Crick,pilotsman,
+resident,EVESWELL STREET,,coach painter,S.,Goodwin,,
+resident,EVESWELL STREET,10,,Ephraim,Browning,baker,
+resident,EVESWELL STREET,11,,Mrs.,Bevan,nurse,
+resident,EVESWELL STREET,12,,Joseph,Harris,gardener,
+resident,EVESWELL STREET,13,,Boaz,Jeanes,cook,
+resident,EVESWELL STREET,14,,Geo.,James,engine driver,
+resident,EVESWELL STREET,15,,John,Garland,driver,
+resident,EVESWELL STREET,16,,Mrs. C.,Thomas,,
+resident,EVESWELL STREET,17,,Jas. Hammond,Alexander,,
+cross_street,EVESWELL STREET,,,,,,"(return)"
+resident,EVESWELL STREET,18,,Mrs. G.,Wilmot,,
+resident,EVESWELL STREET,19,,Sydney,Hill,bricklayer,
+resident,EVESWELL STREET,20,,William,Hill,bricklayer,
+resident,EVESWELL STREET,21,,George,Frampton,labr,
+resident,EVESWELL STREET,22,,W.,Perryman,dockman,
+resident,EVESWELL STREET,,G.W.F.,George,Cripps,,
+resident,EVESWELL STREET,23,,Hy.,Alexander,Stanley,
+resident,EVESWELL STREET,24,,A. W.,Trigg,car. examnr,
+resident,EVESWELL STREET,25,,Fredk. A.,Marsh,carpenter,
+resident,EVESWELL STREET,26,,Mrs. Elizabeth,Swift,,
+resident,EVESWELL STREET,27,,Herbert,Atwood,,
+resident,EVESWELL STREET,28,,Thomas,Wilkins,,
+resident,EVESWELL STREET,29,,James,Stephens,,
+resident,EVESWELL STREET,30,,John,Gayton,carpenter,
+resident,EVESWELL STREET,31,,John,Bailey,,
+resident,EVESWELL STREET,32,,Edward,Stevens,labr,
+resident,EVESWELL STREET,33,,T. F.,Thomas,traveller,
+resident,EVESWELL STREET,34,,Arthur,Price,caretaker,
+resident,EVESWELL STREET,35,,Richard,Brend,labourer,
+street,EVESWELL TERRACE,D 3,,,,,"No. 242-232 Chepstow-road"
+street,EXCHANGE ROAD,C 4,,,,,"See 70 High-street"
+street,EXETER ROAD,D 3,,,,,"From Exeter-street"
+cross_street,EXETER ROAD,,,,,,"(LEFT HAND SIDE.)"
+resident,EXETER ROAD,1,,Thos.,Sheppard,roadman,
+resident,EXETER ROAD,3,,A.,Simpson,furniture dlr,
+resident,EXETER ROAD,5,,D. J.,Driscoll,,
+resident,EXETER ROAD,7,,Bert,Lewis,,
+cross_street,EXETER ROAD,,,,,,Vacant sites
+cross_street,EXETER ROAD,,,,,,"(return)"
+resident,EXETER ROAD,10,,Frank,Carpenter,ironwkr,
+resident,EXETER ROAD,8,,Fredk.,White,carpenter,
+resident,EXETER ROAD,6,,Mrs. C.,Evans,,
+resident,EXETER ROAD,4,,Fred,Clarke,contractor,
+resident,EXETER ROAD,2,,Geo.,Pearce,ironworker,
+street,EXETER STREET,D 3,,,,,"From 45 Hereford-street to Exeter-road"
+cross_street,EXETER STREET,,,,,,"(LEFT HAND SIDE.)"
+resident,EXETER STREET,1A,,Edgar,Bowen,timekeeper,
+resident,EXETER STREET,1B,,Fredk. J.,Oke,plumber,
+resident,EXETER STREET,1,Wyndcliffe house,Frank,Perkins,,
+resident,EXETER STREET,3,Porth house,James,King,,
+resident,EXETER STREET,5,Fireman,John,Archer,,
+resident,EXETER STREET,7,Chemical wks,J.,Oxenbury,,
+resident,EXETER STREET,9,Exeter house,Hy.,Morgan,,
+resident,EXETER STREET,11,Emma,Acteson Mrs.,,
+resident,EXETER STREET,13,Warehousemn,A. J.,Jones,,
+resident,EXETER STREET,15,Clerk,William,Crowley,,
+cross_street,EXETER STREET,,,,,,"here is London-street"
+resident,EXETER STREET,19,Traveller,Thomas,Lloyd,,
+resident,EXETER STREET,21,E. A.,Williams Albert,,
+resident,EXETER STREET,,Maple house,,,,
+resident,EXETER STREET,23,,William,Williams,,
+resident,EXETER STREET,25,,Jas.,Trump,Van,
+cross_street,EXETER STREET,,,,,,"(return)"
+resident,EXETER STREET,20,,William E.,Mason,,
+resident,EXETER STREET,18,,Edward,Jones,carpenter,
+resident,EXETER STREET,16,,T. G.,Hackett,Bailbrook,
+resident,EXETER STREET,14,,T. A.,Brown,Milford,
+resident,EXETER STREET,12,,Mis. Ellen,Wellington,,
+cross_street,EXETER STREET,,,,,,"here is London-street"
+resident,EXETER STREET,10,,Hopton,Williams,foreman G.W.R.,
+resident,EXETER STREET,8,,Wm.,Kirkham,tram inspct,
+resident,EXETER STREET,6,,J. T.,Carss,marine eng'eer,
+resident,EXETER STREET,4,,Raymond,Slocombe,,
+resident,EXETER STREET,2,,Robert,Keeble,guard,
+resident,EXETER STREET,,,Joseph,Griffiths,,

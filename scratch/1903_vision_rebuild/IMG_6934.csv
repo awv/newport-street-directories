@@ -1,0 +1,140 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Carlton Chambers,,,,,,See No. 43 High-street.
+street,Caroline Street,,,,,,From 61 Dock-street.
+cross_street,Caroline Street,,,,,,[LEFT HAND SIDE.]
+resident,Caroline Street,1,,,Keighley Cor.,cattle dlr,
+resident,Caroline Street,2,,,Hall James,platelayer,
+resident,Caroline Street,3,,,Miles Mrs Helena,,
+resident,Caroline Street,4,,,Griffiths William,,
+resident,Caroline Street,5,,,Evans John,,
+resident,Caroline Street,6,,,Davies Thomas,stevedore,
+resident,Caroline Street,7,,,Void,,
+resident,Caroline Street,8,,,Void,,
+resident,Caroline Street,9,,,Collins Alan,crane drivr,
+resident,Caroline Street,10,,,Davies Robert,labourer,
+resident,Caroline Street,11,,,Mills Henry,ostler,
+resident,Caroline Street,12,,,Rimer John,labourer,
+resident,Caroline Street,13,,,Coombs Barrick Fred.,,
+resident,Caroline Street,14,,,Metcalf Ephraim,seaman,
+resident,Caroline Street,15,,,Keating Nicholas,coal trm,
+cross_street,Caroline Street,,,,,,(return.)
+resident,Caroline Street,,,,Donovan T.,foreman,
+resident,Caroline Street,,,,Hart F.,sugar boiler,
+resident,Caroline Street,16,,,Taylor Jas. Hy.,moulder,
+resident,Caroline Street,17,,,Witheridge James,,
+resident,Caroline Street,18,,,Seal Edward,haulier,
+resident,Caroline Street,19,,,Green Michael,carman,
+resident,Caroline Street,20,,,Griffiths John T.,cooper,
+resident,Caroline Street,21,,,Evans William,mariner,
+resident,Caroline Street,22,,,Keefe Patrick,platelayer,
+resident,Caroline Street,23,,,Barnes Wm.,bricklayer,
+resident,Caroline Street,24,,,Davies Wm. E.,bricklayer,
+resident,Caroline Street,25,,,Millinship Walter,mouldr,
+resident,Caroline Street,26,,,Cooke George,electrician,
+resident,Caroline Street,27,,,Grant James,,
+resident,Caroline Street,28,,,Griffiths James,sailmakr,
+street,Carpenters' A. Lane,,,,,,From 8 High-street.
+street,Castle Precincts,,,,,,From 1 Shaftesbury-street.
+resident,Castle Precincts,1,,,Hardy Isaac,,
+resident,Castle Precincts,2,,,,,,
+resident,Castle Precincts,3,,,Jones Mrs.,,
+resident,Castle Precincts,4,,,Corfield William,haulier,
+resident,Castle Precincts,5,Castle Inn,,Roberts Thos.,,
+resident,Castle Precincts,6,,,Hillman Walter Henry,,
+street,Castle Street, P.,,,,,,From Potter-st. to Church-st.
+cross_street,Castle Street, P.,,,,,,[LEFT HAND SIDE.]
+resident,Castle Street, P.,1,,,Mahoney's,marine stores,
+resident,Castle Street, P.,2,,,Dunn Frank,moulder,
+resident,Caroline Street,3,,,Dowling Mrs Mary,,
+cross_street,Caroline Street,,,,,,here is Linton-street.
+cross_street,Caroline Street,,,,,,here is Wallace-street.
+cross_street,Caroline Street,,,,,,here is Wilson-street.
+cross_street,Caroline Street,,,,,,here is Prothero's-row.
+resident,Caroline Street,34,,,Fontaine Ernest,engineer,
+cross_street,Caroline Street,,,,,,(return.)
+resident,Caroline Street,,,,Ukside Engineering Works,,
+cross_street,Caroline Street,,,,,,here is St. Michael-stree.
+resident,Caroline Street,35,,,Webb John,grocer,
+resident,Caroline Street,36,,,Morrison Jas.,coaltrimmer,
+resident,Caroline Street,37,,,Johnson William,rigger,
+resident,Caroline Street,,,,Hemmens Chas.,trimmer,
+resident,Caroline Street,38,,,Burke Thomas,trimmer,
+resident,Caroline Street,39,,,Donovan Tim, eng driver,
+resident,Caroline Street,39A,,,Hart Daniel,trimmer,
+resident,Caroline Street,40,,,Ryan Michael,shoemaker,
+resident,Caroline Street,41,,,Murphy Patrick,moulder,
+resident,Caroline Street,42,,,Miles Michael,labourer,
+resident,Caroline Street,43,,,Johnson A.,carpenter,
+resident,Caroline Street,44,,,Lee James,moulder,
+street,Caxton Place,,,,,,From 23 Bridge-street.
+resident,Caxton Place,1,,,Price William,tailor,
+resident,Caxton Place,2,,,Smith William,porter,
+resident,Caxton Place,3,,,Hogg Nicholas,insurance agent,
+resident,Caxton Place,4,,,Gibb W. J. & Sons,poulterers &c.,
+resident,Caxton Place,5,,,Curnuck Arthur,,
+street,Cedar Road,,,,,,From 36 Chepstow-road to Corporation-road.
+cross_street,Cedar Road,,,,,,[LEFT HAND SIDE.]
+resident,Cedar Road,1,The Nutshell,,Morgan W.,,
+resident,Cedar Road,3,Mona ho,,Jones Edward,,
+resident,Cedar Road,5,,,Duckham Fred G.,,
+resident,Cedar Road,7,,,Edwards Evan S.,,
+resident,Cedar Road,9,,,Beeston George,overseer,
+cross_street,Cedar Road,,,,,,here is Bedford-road.
+resident,Cedar Road,11,St. Ives,,Corner G. W.,,
+resident,Cedar Road,13,St. Ivins,,Howell David,,
+resident,Cedar Road,15,,,Griffiths William,,
+resident,Cedar Road,17,Earlswood,,Hayman John,,
+resident,Cedar Road,19,Wakefield ho,,Hagarty W.,,
+resident,Cedar Road,21,Chelwood ho,,Linton Dd.,,
+resident,Cedar Road,23,,,Phillips William John,,
+cross_street,Cedar Road,,,,,,here is Corporation-road.
+cross_street,Cedar Road,,,,,,(return.)
+resident,Castle Street, P.,20,,,George Charles Edward,,
+resident,Castle Street, P.,18,,,Price Benjamin,,
+resident,Castle Street, P.,16,,,Evans Wm. Hy.,comp.,
+resident,Castle Street, P.,14,,,Williams F. P.,,
+resident,Castle Street, P.,12,,,Harris E. E.,,
+resident,Caroline Street,10,,,Watson Tom W.,,
+resident,Caroline Street,8,,,LeVesconte Horatio,,
+resident,Caroline Street,6,,,Jones Misses B. and A.,,
+resident,Caroline Street,4,Riversdale,,Beer John,,
+resident,Caroline Street,2,,,Heffer Miss Mary,,
+street,Cemetery Lane,,,,,,North-street to Clifton-road.
+street,Charles Street,,,,,,From 149 Commercial-street to Stow-hill.
+resident,Charles Street,,THE EMPIRE—Moss Empires, Ltd.,,,proprietors
+resident,Charles Street,6,,,Miles T.,cabinetmaker,
+resident,Charles Street,7,,,Slade, Mrs A.embroiderer,,
+resident,Charles Street,3,,,Pacello R.,wardrobe dealr,
+resident,Charles Street,9,,,Hobbs Alexander,ostler,
+resident,Charles Street,10,,,Foslett & Co.,gasfitters,&c,
+resident,Charles Street,11,,,Powles F. W.,builder,
+resident,Charles Street,,,,ENGLISH BAPTIST CHAPEL,,
+resident,Charles Street,,,,NEWPORT SCHOOL BOARD OFFICES & P. T. CENTRE,,Hutchins J., solicitor
+resident,Charles Street,17,,,Rogers G.E.& Co.,plumbrs,
+resident,Charles Street,18,,,Jones Mrs Maria,,
+resident,Charles Street,19,,,Walters P.,watchmaker,
+resident,Charles Street,20,,,Warhurst J. E.,bootmkr,
+resident,Charles Street,21,,,Bible and Tract dépôt,,
+cross_street,Charles Street,,,,,,(return.)
+resident,Charles Street,22,,,Blunt Alex.,grocer,
+resident,Charles Street,23,,,Rowberry Wm.,herbalist,
+resident,Charles Street,24,,,Coxon John,fruiterer,
+resident,Charles Street,25,,,Platt John,bootmaker,
+resident,Charles Street,26,,,Stanley T.,hairdresser,
+resident,Charles Street,27,,,Shewring Joseph,signwtr,
+resident,Charles Street,28,,,Bancroft Chas.,confectnr,
+resident,Charles Street,29,,,FRIENDS' MEETING HOUSE,,
+resident,Charles Street,30,,,Gabb Albert,baker,
+resident,Charles Street,31,,,Friends' Adult School,,Richardson F. J.
+resident,Charles Street,32,,,Bland Oct.,George,
+resident,Charles Street,33,,,Pullin R. & Co.electricians,,
+resident,Charles Street,34,,,Levi Morris tailor,,
+resident,Charles Street,,,Fry E.,tobacconist,
+resident,Charles Street,35,,,Void,,
+cross_street,Charles Street,,,,,,entrance to Infants' School and Cookery Centre.
+resident,Charles Street,,Woodbine cot,,Reed Mr. S.,,
+resident,Charles Street,30-40,,,Reynolds & Co., Ltd.,,
+street,Charlotte Street, P.,,,,,,From 23 Alma-st. to Capel-st.
+cross_street,Charlotte Street, P.,,,,,,[LEFT HAND SIDE.]
+resident,Charlotte Street, P.,1,,,Dowdall Geo. N.,caterer,
+resident,Charlotte Street, P.,2,,,Dallimore Mary Ann,,

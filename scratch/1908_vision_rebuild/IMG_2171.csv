@@ -1,0 +1,155 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,Windsor Road,12,,Danl.,McCarthy,labourer,
+resident,Windsor Road,10,,John Hy.,Pring,trimmer,
+resident,Windsor Road,8,,Wm.,Watt,timekeeper,
+resident,Windsor Road,6,,John,Ganner,labourer,
+resident,Windsor Road,4,,Thos.,Williams,carpenter,
+resident,Windsor Road,2,,John,Haden,labourer,
+street,Windsor Road,E 2,,,,,"Right hand side Chepstow-rd."
+cross_street,Windsor Road,,,,,,[LEFT HAND SIDE.]
+resident,Windsor Road,1,,James K.,Stewart,,
+resident,Windsor Road,3,,John William,Hall,salesman,
+resident,Windsor Road,5,,,,Void,
+resident,Windsor Road,7,,Dryden Carver,Hepburn,,
+resident,Windsor Road,9,,Fred C.,Shaw,manager,
+resident,Windsor Road,11,,Henry,Rees,,
+resident,Windsor Road,13,,Samuel,Constance,,
+resident,Windsor Road,15,,Fred.,Green,,
+resident,Windsor Road,17,,George Henry,Hughes,,
+resident,Windsor Road,19,,Mrs. L.,Herbert,,
+resident,Windsor Road,21,,Albert,Williams,,
+resident,Windsor Road,23,,Wm. Jas.,Morris,,
+resident,Windsor Road,25,,Albert E.,Ruston,engnr,
+resident,Windsor Road,27,,,,Void,
+resident,Windsor Road,29,,J. W.,Hambling,,
+resident,Windsor Road,31,,,,Void,
+resident,Windsor Road,33,,David Wm.,Jones,,
+resident,Windsor Road,35,,Mrs. F. C.,Prujean,,
+resident,Windsor Road,37,,A. E.,Moss,"builder, etc.",
+resident,Windsor Road,,,,,Vacant sites,
+cross_street,Windsor Road,,,,,,(return)
+resident,Windsor Road,44,,Alfred G.,Sarjent,,
+resident,Windsor Road,42,,John S.,Cullen,,
+resident,Windsor Road,40,,Trevor James,Wilson,,
+resident,Windsor Road,38,,Gaythorne,Ross,,
+resident,Windsor Road,36,,,,Void,
+resident,Windsor Road,34,,,,Void,
+resident,Windsor Road,32,,E. R.,Charles,,
+resident,Windsor Road,30,,,,Void,
+resident,Windsor Road,28,,James,Oldrieve,,
+resident,Windsor Road,26,,David George,Williams,,
+resident,Windsor Road,24,,Melville,Hawkes,,
+resident,Windsor Road,22,,Frank Oliver,Forrest,,
+resident,Windsor Road,20,,George F.,Cobley,,
+resident,Windsor Road,18,,Sidney,Harding,,
+resident,Windsor Road,16,,W. E.,Morris,traveller,
+resident,Windsor Road,14,,W. L.,Drake,outfitter,
+resident,Windsor Road,12,,Wm. Jas.,Grose,,
+resident,Windsor Road,10,,Henry Harold,Evans,,
+resident,Windsor Road,8,,Alfred,Greenway,bricklayer,
+resident,Windsor Road,6,,William,Finch,,
+resident,Windsor Road,4,,J. T.,Wareham,,
+resident,Windsor Road,2,,Walter,Evans,,
+street,Windsor Terrace,D 5,,,,,"From Tunnel-terrace to Albert-terrace."
+cross_street,Windsor Terrace,,,,,,[RIGHT HAND SIDE]
+resident,Windsor Terrace,1,,Thomas,Probyn,,
+resident,Windsor Terrace,2,,Geo.,Ashman,engineer,
+resident,Windsor Terrace,3,,William,Frost,agent,
+resident,Windsor Terrace,4,,Daniel,Conniff,,
+resident,Windsor Terrace,5,,W. H.,Williams,,
+resident,Windsor Terrace,6,,Wm. Hy.,Lovett,ins. agt,
+resident,Windsor Terrace,7,,Charles,Betterton,G.W.R.,
+resident,Windsor Terrace,8,,J. A.,Gower,,
+resident,Windsor Terrace,9,,Jos.,Rowe,drawing master,
+resident,Windsor Terrace,10,Moss bank,T.,Chambers,,
+resident,Windsor Terrace,11,Kelso villa,Mrs.,Nott,,
+resident,Windsor Terrace,,Kelso villa,Geo.,Nott,music teacher,
+resident,Windsor Terrace,12,,A. W.,Bartholomew,music teacher,
+cross_street,Windsor Terrace,,,,,,(return)
+resident,Windsor Terrace,13,Mabel vil,Mrs. A.,George,,
+resident,Windsor Terrace,14,Rose cott,T. B.,Edwards,,
+resident,Windsor Terrace,15,Ash cottage,I.,Jacobs,,
+resident,Windsor Terrace,16,Stanway cot,J.,Pritchard,,
+resident,Windsor Terrace,17,Hope cot,Mrs. P.,Watkins,,
+resident,Windsor Terrace,18,Sunnybank,,,Void,
+resident,Windsor Terrace,19,Springhill,A. E.,Williams,,
+street,Wingate Street,F 5,,,,,"Wolseley-st. to Mendalgief-rd"
+cross_street,Wingate Street,,,,,,[RIGHT HAND SIDE.]
+resident,Wingate Street,,,,,Wm. eng. driver,Johnston
+resident,Wingate Street,,,,,Mrs. Jane,Attwell
+resident,Wingate Street,,,,,Edwd. foreman,Cracknell
+resident,Wingate Street,,,,,John, trimmer,Purnell
+resident,Wingate Street,,,,,House void,
+resident,Wingate Street,,,,,William, coal trimmer,Evans
+resident,Wingate Street,,,,,Alfred, trimmer,Sully
+resident,Wingate Street,,,,,Elias, police,Merry
+resident,Wingate Street,,,,,Thomas, trimmer,Geary
+resident,Wingate Street,,,,,Wm. bus driver,Mackie
+resident,Wingate Street,,,,,John, eng. driver,Thomas
+resident,Wingate Street,,,,,Thomas, foreman,Clarke
+resident,Wingate Street,,,,,John, rigger,Martin
+cross_street,Wingate Street,,,,,,(return)
+resident,Wingate Street,,,,,John, rigger,Blake
+resident,Wingate Street,,,,,David, engineer,Miles
+resident,Wingate Street,,,,,Edwd. trimmer,Irvine
+resident,Wingate Street,,,,,Wm. trimmer,Leahy
+resident,Wingate Street,,,,,Stephen,Bromfield
+resident,Wingate Street,,,,,Samuel, diver,Sully
+resident,Wingate Street,,,,,Thomas, signalman,Raines
+resident,Wingate Street,,,,,Robert, trimmer,Sims
+resident,Wingate Street,,,,,Evan, barman,James
+resident,Wingate Street,,,,,Benjamin, trimmer,Harper
+resident,Wingate Street,,,,,Frederick, boatman,Davies
+resident,Wingate Street,,,,,Harry, grocer,Lawrence
+street,Winmill Street,E 4,,,,,"John-st. to South Market-st."
+resident,Winmill Street,1,,Mrs. Margaret,James,,
+resident,Winmill Street,2,,Mrs. Elizabeth,James,,
+resident,Winmill Street,3,,James,Perkins,labourer,
+resident,Winmill Street,4,,Mrs. Caroline,Purvis,,
+resident,Winmill Street,5,,Charles,Benson,labourer,
+street,Witham Street,D 3,,,,,"Off Coverack-road. Rt-hand side Corporation-rd."
+cross_street,Witham Street,,,,,,[LEFT HAND SIDE.]
+resident,Witham Street,1,,Thomas,Ryan,haulier,
+resident,Witham Street,3,,Joseph,Tutton,labourer,
+resident,Witham Street,5,,W.,Whitehouse,ironwkr,
+resident,Witham Street,7,,John,Goodwin,labourer,
+resident,Witham Street,9,,Frederick J.,Griffiths,,
+resident,Witham Street,11,,Geo.,Schofield,ironwkr,
+resident,Witham Street,13,,Stephen,Robinson,,
+resident,Witham Street,15,,Fredk.,Johnson,ironwkr,
+resident,Witham Street,17,,Henry,Brown,labourer,
+resident,Witham Street,19,,Henry,Sefton,labourer,
+resident,Witham Street,21,,Henry,Palmer,eng. drvr,
+resident,Witham Street,23,,Tim.,Williams,ironwkr,
+resident,Witham Street,25,,Arthur,Barnes,eng. drvr,
+resident,Witham Street,27,,Edwd. J.,Sealey,ironwkr,
+resident,Witham Street,29,,Tom J.,Allen,eng. fitter,
+resident,Witham Street,31,,A. W.,Edge,wiredrawer,
+resident,Witham Street,33,,Zachariah,Richards,mason,
+resident,Witham Street,35,,,,Void,
+resident,Witham Street,37,,,,Knight Charles,
+resident,Witham Street,39,,Mrs. S.,Evans,,
+resident,Witham Street,41,,Mrs. Esther,Pepper,,
+resident,Witham Street,43,,Harry,Smith,ironworker,
+resident,Witham Street,45,,Joseph,Watts,labourer,
+resident,Witham Street,47,,George,Ellis,,
+resident,Witham Street,49,,Benjamin,Hunt,ironwkr,
+resident,Witham Street,51,,John,Lodge,ironworker,
+resident,Witham Street,53,,Allbt.,Stratford,ironwkr,
+resident,Witham Street,55,,Frank,Vaughan,mason,
+resident,Witham Street,57,,George,Cregg,ironwkr,
+resident,Witham Street,59,,Joseph,Weaver,ironwkr,
+resident,Witham Street,61,,John,Cording,,
+resident,Witham Street,63,,G. M.,James,wireman,
+resident,Witham Street,65,,Edward,Clement,labr,
+resident,Witham Street,67,,Frank,Evans,elec wiremn,
+resident,Witham Street,69,,Eli,Wilks,fireman,
+resident,Witham Street,71,,Walt.,Bradley,bar drawr,
+resident,Witham Street,73,,Jas.,Bickerton,ironwkr,
+resident,Witham Street,75,,G. N.,Allen,smith,
+resident,Witham Street,77,,Henry J.,Tobin,carpentr,
+resident,Witham Street,79,,W. C.,Garland,sawyer,
+resident,Witham Street,81,,John,Evans,labourer,
+cross_street,Witham Street,,,,,,(return)
+resident,Witham Street,,,,,Vacant sites,
+resident,Witham Street,56,,Edward,Brady,labourer,

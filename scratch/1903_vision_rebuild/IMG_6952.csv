@@ -1,0 +1,130 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Devon Place,,,,,,continued
+resident,Devon Place,5,,W. H.,Hurn,signalman,
+resident,Devon Place,6,,James,Jones,clerk,
+resident,Devon Place,7,,Hubert,Brimfield,,
+resident,Devon Place,8,,Mrs Harriet,Morgan,,
+resident,Devon Place,9,,Mrs Mary,Jones,,
+resident,Devon Place,10,,Miss,Jones,registry office,
+resident,Devon Place,10,,W. T.,Smith,signalman,
+resident,Devon Place,11,,Mrs Mary,Hodges,,
+resident,Devon Place,12,,C.,Milman,bathstne mason,
+resident,Devon Place,13,,Thos.,Stephens,assistant,
+resident,Devon Place,14,,Frederick C.,Burrough,,
+resident,Devon Place,15,,Geo.,Maddox,signalman,
+resident,Devon Place,16,,,,,Void
+resident,Devon Place,17,,Mrs E.,Hopkins,,
+resident,Devon Place,18,,George,Pearce,grocer,
+resident,Devon Place,19,,A. F.,Tanner,tailor,
+resident,Devon Place,28,,L.,Watkins,seedsman,etc.
+resident,Devon Place,,Engineers' Depot,G.W.R.,,,,
+resident,Devon Place,27,,Mrs Augusta,Hayter,,
+resident,Devon Place,28,,Mrs Theresa,Brown,,
+resident,Devon Place,29,,John,Wilkins,eng driver,
+resident,Devon Place,30,,Mrs Louisa,Latch,,
+resident,Devon Place,31,,Henry,Davies,plasterer,
+resident,Devon Place,32,,Ivor,Lewis,engine driver,
+resident,Devon Place,33,,Wm.,Lewis,engine driver,
+resident,Devon Place,34,,William,Cawthorn,,
+resident,Devon Place,35,,,,,Void
+resident,Devon Place,36,,,,,do
+resident,Devon Place,37,,Arthur,Gatehouse,joiner,
+cross_street,Devon Place,,,,,,[Return.]
+resident,Devon Place,38,,Wm. J.,Williams,,Glyn cot
+resident,Devon Place,39,,G. P.,Greenland,,Egrynv
+resident,Devon Place,40,,H.,Greenland,,Sellarville c
+resident,Devon Place,41,,Albert E.,Williams,,P.O.
+resident,Devon Place,,Sproule,Rev. J.,,B.A.,
+cross_street,Devon Place,,,,,,here is Stanley-road.
+resident,Devon Place,42,,Mrs Elizabeth,Gould,,
+resident,Devon Place,43,,Barry,Hands,Shirley,
+resident,Devon Place,44,,Mrs Charlotte,Burge,,
+resident,Devon Place,45,,A. Ernest,Jones,Grove ho,
+resident,Devon Place,46,,W. F.,Taylor,Darwen ho,
+resident,Devon Place,47,,F.,Delamare,Llanbedr ho,
+resident,Devon Place,48,,Mrs.,Diamond,Sandford h,
+resident,Devon Place,49,,Saml.,Kendal,Frome vil,
+resident,Devon Place,50,,Mrs Ann E.,Hayes,,
+resident,Devon Place,51,,John,Richards,refreshment contractor,
+resident,Devon Place,52,,J.,Wall,Exeter villa,
+street,Dewsland Road,,,,,,Off Friars-road; Stow-hill.
+resident,Dewsland Road,,,David,Roberts,William,
+resident,Dewsland Road,,,Alfred B.,Badger,,
+resident,Dewsland Road,,,R. F.,Lawrence,architect,
+street,Dock Parade, P.,,,,,,Church-street to Docks.
+resident,Dock Parade, P.,,Pill Wagon works,J.,Pugh,proprietor,
+resident,Dock Parade, P.,,Welsh House Fuel Co.'s wks,,,,
+resident,Dock Parade, P.,1,,George,Davies,fuel works,
+resident,Dock Parade, P.,2,,Richard,Davies,boatman,
+resident,Dock Parade, P.,3,,James,Pound,dealer,
+resident,Dock Parade, P.,4,,Mrs Louisa,Thompson,,
+resident,Dock Parade, P.,5,,,,,Void
+resident,Dock Parade, P.,6,,Mrs Theresa,Quest,shop,
+resident,Dock Parade, P.,7,,Hy.,Richardson,foreman,
+resident,Dock Parade, P.,8,,Michael,Duggan,moulder,
+resident,Dock Parade, P.,9,Cornwall House,Mrs M.,Setterlund,Devon and Cornwall House,
+resident,Dock Parade, P.,10,,Frederick,Baker,labourer,
+resident,Dock Parade, P.,11,,Mrs Sarah,Jenkins,,
+resident,Dock Parade, P.,12,,John,Mogford,labourer,
+resident,Dock Parade, P.,13,,Samuel,Evans,dealer,
+resident,Dock Parade, P.,14,Dock Hotel,Mrs Mary Ann,Yendoll,,
+street,Dock Road,,,,,,East side of Old Dock.
+street,Dock Road Chambers,,,,,,(See 103 Dock-street.)
+street,Dock (The Old),,,,,,East side from Dock-street.
+resident,Dock (The Old),,,,,Coal shipping staithes (5),
+resident,Dock (The Old),,,,Mordey, Carney & Co., Ltd.,shipbuilders,&c.,Dry Dock,
+resident,Dock (The Old),,,,Harris & Coxon,blockmakers,ship repairers,
+resident,Dock (The Old),,,,A. J. Goss,T. oil merchant & grease manufacturer,
+resident,Dock (The Old),,,,Köhler Roofing Tile C.,,
+resident,Dock (The Old),,,,Dock Supt. & Engineer's office,Blaina wharf-Dock Co.,
+resident,Dock (The Old),,,,James,Farmer,labourer,
+resident,Dock (The Old),,,,Stephens D. & Co.,ship repairs,
+resident,Dock (The Old),,,,Lancaster, Speir & Co., Ltd.,colliery proprtrs, Russell's whf-J.H.Jones, manager,
+resident,Dock (The Old),,,,Hale & Dalton,shipwrights, boat builders, etc.,
+resident,Dock (The Old),,,Cwmtillery Red Ash Colliery Co., Ltd.,,,
+cross_street,Dock (The Old),,,,,,here is Commercial-wharf.
+resident,Dock (The Old),,Cambrian Iron and Brass Foundry,T.,Spittle,Ltd.,,
+resident,Dock (The Old),,,,John,Edwards,Rhymney wf,
+resident,Dock (The Old),,,,Phillips & Sons',maltings,
+resident,Dock (The Old),,Roberts B.,,Wilkinson Chas. R.,malster,Dock house
+resident,Dock (The Old),,National Telephone call room,,,,,
+cross_street,Dock (The Old),,,,,,here is Dock entrance.
+resident,Dock (The Old),,Customs Watchhouse,,,,,
+resident,Dock (The Old),,,Hopkins & Lewis,plumbers,
+resident,Dock (The Old),,Scandinavian Church—Elin,,,,,
+cross_street,Dock (The Old),,,,,,here is Dock-parade.
+resident,Dock (The Old),,Dock Hotel,Mrs E.,Yendoll,,
+resident,Dock (The Old),,Dock stores,,,,,
+resident,Dock (The Old),,,,Newport Hay Importing Co.,The West-side is used for dis. cargoes, loading iron, etc. See also Alexandra Dock.
+street,Dock Street,,,,,,From High-street to Docks. [LEFT HAND SIDE.]
+resident,Dock Street,1,,E.,Wilcox,rope & twinestrs
+resident,Dock Street,2,Crown Saddlery Co.,,,,
+resident,Dock Street,3,,Wm.,Carter,hairdresser
+resident,Dock Street,4,,Mrs A.,Phillips,tobacconist
+resident,Dock Street,5,,H. B.,Williams,bootmaker
+resident,Dock Street,6,Handy's Furniture stores,,,,
+resident,Dock Street,7,,D. A. & Co.,Vaughan,potato merchants
+resident,Dock Street,8,,G. F.,Thorne,corn stores
+resident,Dock Street,9,,G. F.,Thorne,grocer
+cross_street,Dock Street,,,,,,Corporation Market yard
+resident,Dock Street,10,,Nicholas & Co., Ltd.,timber, slate, & cement merchants,
+resident,Dock Street,11,,John R.,Jacob,corn merct
+resident,Dock Street,12,,& Co.,McMahon,potato merchants
+resident,Dock Street,13,,Capper & Co.,wholesale provision merchants
+resident,Dock Street,14,,A.,Frost,corn & chaff mer
+resident,Dock Street,15 & 16,,,,,Void
+resident,Dock Street,,CATHOLIC GUILDHALL,,,,,
+cross_street,Dock Street,,,,,,here is Skinner-street.
+resident,Dock Street,17 & 18,,W. A. & Co.'s,Baker,stores and showrooms
+resident,Dock Street,19,Windsor Castle,W. E.,Jones,,
+resident,Dock Street,20,,F.,Chambers,grocer, etc.
+resident,Dock Street,21,Model Lodging house,,,,,
+cross_street,Dock Street,,,,,,here is Corn-street.
+resident,Dock Street,22,Potters' Arms,J. R.,Wallace,,
+resident,Dock Street,23,,,,,
+resident,Dock Street,24,,S.,Wainwright,umbrella maker
+resident,Dock Street,,Corporation yard,,,,,
+cross_street,Dock Street,,,,,,here is Merchant-street.
+resident,Dock Street,,AUSTIN FRIARS CHAMBERS,,,,,
+resident,Dock Street,26,,T. B. & S.,Batchelor,timber & slate merchants
+resident,Dock Street,,,J. K.,Stone,accountant,&c.

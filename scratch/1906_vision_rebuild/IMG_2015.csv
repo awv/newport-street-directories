@@ -1,0 +1,153 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,North Street,continued,,,,,""
+resident,North Street,46,,John,Morrissey,factory,""
+resident,North Street,47,,Paul,Burgoyne,,""
+resident,North Street,48,,,Void,,""
+resident,North Street,49,,John,Nolan,labourer,""
+resident,North Street,50,,,Void,,""
+resident,North Street,51,,A.,Scard,,corn warehouse,""
+resident,North Street,52,,Henry,Pearce,labourer,""
+resident,North Street,53,,Herbert,Smith,labourer,""
+resident,North Street,54,,C. H.,Reeves,labourer,""
+resident,North Street,55,,Henry,Lester,,""
+resident,North Street,56,,Miss Elizabeth,Lewis,,""
+resident,North Street,57,Carlisle cottage,J. O.,Yates,clerk,""
+resident,North Street,,,Wm.,Collard,,""
+resident,North Street,,,A. W.,Dawson,,printers,"Ltd."
+street,Oak Street,B 2,,,,,"From 307 Caerleon-road to Durham-road."
+cross_street,Oak Street,,,,,,"[LEFT HAND SIDE.]"
+resident,Oak Street,1,,Arthur,Smith,,""
+resident,Oak Street,3,,,,Void,,""
+resident,Oak Street,5,,Wm. Hy.,Daw,joiner,""
+resident,Oak Street,7,,Philip,Allen,plasterer,""
+resident,Oak Street,9,,James,Mountford,H.M.C.,"Mountford James, H.M.C."
+resident,Oak Street,11,,John,Fitzgerald,,""
+resident,Oak Street,13,,Saml. A.,Wilson,traveller,""
+resident,Oak Street,15,,T. P.,Hutchings,shipwright,""
+resident,Oak Street,,St. Julian's Steam Bakery,C. J.,Price,,"St. Julian's Steam Bakery—C. J. Price"
+resident,Oak Street,,,Hy. T.,Dale,,Donnington
+cross_street,Oak Street,,,,,,"(return.)"
+resident,Oak Street,18,,C.,Jones,plasterer & bldr,""
+resident,Oak Street,16,,C. J.,Price,baker,""
+resident,Oak Street,14,,Wm.,Williams,labourer,""
+resident,Oak Street,12,,Jos.,Passwater,seaman,""
+resident,Oak Street,10,,W.,Mortimer,senior,""
+resident,Oak Street,8,,Ernest,Braund,ins agent,""
+resident,Oak Street,6,,Charles J.,Greening,,""
+resident,Oak Street,4,,Charles,Colegate,waiter,""
+resident,Oak Street,2,,Robt. W.,Howells,milkmn,""
+street,Oak Terrace,C 4,,,,,"From 7 Thomas-street."
+resident,Oak Terrace,1,,Mrs. Mary Ann,Preece,,""
+resident,Oak Terrace,2,,D.,Shellam,labourer,""
+resident,Oak Terrace,3,,Edward,Evans,haulier,""
+resident,Oak Terrace,4,,A.,Horlock,sigralman,""
+resident,Oak Terrace,5,,Alfred,Hubbard,,""
+resident,Oak Terrace,6,,William,Poulson,labourer,""
+resident,Oak Terrace,7,,William,Gloyns,labourer,""
+resident,Oak Terrace,8,,Henry,Wheeler,,""
+resident,Oak Terrace,9,,Mrs. Ann,West,,""
+street,Oakfield Road,C 5,,,,,"See Clytha-park."
+street,Oaklands Road,D 3,,,,,"See Kensington-place."
+street,Oakley Street,E 3,,,,,"Left-hand side Corporation-rd"
+cross_street,Oakley Street,,,,,,"[RIGHT HAND SIDE.]"
+resident,Oakley Street,2,,Jonathan,Turner,ironwkr,""
+resident,Oakley Street,4,,Francis,Hornby,do,""
+resident,Oakley Street,6,,Wm. R.,Meeson,fireman,""
+resident,Oakley Street,8,,Benj.,Phillips,engineer,""
+resident,Oakley Street,10,,John,Harley,ironworker,""
+resident,Oakley Street,12,,Aubrey,James,steelwrkr,""
+resident,Oakley Street,14,,Mrs. Mary,Griffiths,shop,""
+resident,Oakley Street,16,,Alfd.,Westwood,ironwrkr,""
+resident,Oakley Street,18,,Joseph,White,labourer,""
+resident,Oakley Street,20,,Ed. J.,Williams,ironwrkr,""
+resident,Oakley Street,22,,Edward,Foy,ironworker,""
+resident,Oakley Street,24,,Chas.,Clarke,ironworker,""
+resident,Oakley Street,26,,Enoch,Williams,ironwrkr,""
+resident,Oakley Street,28,,Oliver,Attewell,roadman,""
+resident,Oakley Street,30,,Patrk.,McGeever,ironwkr,""
+resident,Oakley Street,32,,George,Hulett,labourer,""
+resident,Oakley Street,34,,Joseph,Weaver,ironwkr,""
+resident,Oakley Street,36,,William,Taylor,ironwkr,""
+resident,Oakley Street,38,,Fred.,Buckley,ironworkr,""
+resident,Oakley Street,40,,James,Rew,ironworker,""
+resident,Oakley Street,42,,George,Phipps,ironworkr,""
+resident,Oakley Street,44,,Joseph,Sockett,ironwrkr,""
+resident,Oakley Street,46,,John,Goodwin,ironwrkr,""
+resident,Oakley Street,48,,Richard,Cox,ironworker,""
+resident,Oakley Street,50,,Wm.,Fletcher,ironworker,""
+resident,Oakley Street,52,,Alfred,Jones,ironworker,""
+resident,Oakley Street,54,,Hy.,Middleton,ironworkr,""
+resident,Oakley Street,56,,Arth.,Faulkner,labourer,""
+resident,Oakley Street,58,,Geo.,Bourne,ironworker,""
+resident,Oakley Street,60,,,Void,,""
+resident,Oakley Street,62,,Jas.,Goodwin,ironworker,""
+cross_street,Oakley Street,,,,,,"(return.)"
+resident,Oakley Street,33,,Wm.,Hawkins,ironworkr,""
+resident,Oakley Street,31,,Samuel,Lee,genl. dealer,""
+resident,Oakley Street,29,,David,Hodson,labourer,""
+resident,Oakley Street,27,,William,Clarke,shearer,""
+resident,Oakley Street,25,,Aaron,Lockley,ironwrkr,""
+resident,Oakley Street,23,,Thomas,Howling,shingler,""
+resident,Oakley Street,21,,Jabez,Screen,ironworker,""
+resident,Oakley Street,19,,Wm.,Buncce,ironworker,""
+resident,Oakley Street,17,,Thomas,Owen,ironworkr,""
+resident,Oakley Street,15,,Wm.,Robinson,fireman,""
+resident,Oakley Street,13,,S. J.,Griffiths,ironworker,""
+resident,Oakley Street,11,,A.,Walters,sheet weigher,""
+cross_street,Oakley Street,,,,,,"here is Slade-street."
+resident,Oakley Street,9,,Mrs. Sarah,Spruce,,""
+resident,Oakley Street,7,,Michael,Morris,irnwrker,""
+resident,Oakley Street,5,,Wm.,Newall,do,""
+resident,Oakley Street,3,,John,Wyatt,mason,""
+resident,Oakley Street,1,,James,Allen,fireman,""
+street,Ombersley Road,C 6,,,,,"Bassalleg-road to Upton-road."
+cross_street,Ombersley Road,,,,,,"[RIGHT HAND SIDE.]"
+resident,Ombersley Road,2,,David,Williams,,Llogell h
+resident,Ombersley Road,4,,William,Dunn,,Holman
+resident,Ombersley Road,6,,A. H. S.,Stone,,Carn villa
+resident,Ombersley Road,8,,Miss L.,Thomas,,Highfield
+resident,Ombersley Road,10,,The Misses,Cullum,,""
+resident,Ombersley Road,12,,Charles Albert,Miles,,""
+resident,Ombersley Road,14,,Percy,Smithson,,Rosedale
+resident,Ombersley Road,16,,Ernest,Joyce,,""
+resident,Ombersley Road,18,,Mrs.,Nicholls,,""
+resident,Ombersley Road,20,,E. H.,Mason,,Mayfield
+resident,Ombersley Road,22,,G. H.,Saunders,,Westleigh
+resident,Ombersley Road,24,,Mrs. Ann,Bruce,,""
+resident,Ombersley Road,26,,Rev. H.,Keafes,M.A.,"Keafes Rev. H., M.A."
+resident,Ombersley Road,28,,John,Nicholls,,Langley h
+resident,Ombersley Road,30,,A. M.,Cullimore,,Tresilian
+resident,Ombersley Road,32,,Mrs. Charlotte,Price,,""
+resident,Ombersley Road,34,,The Misses,Phelps,,""
+resident,Ombersley Road,36,,T. N.,Pickford,,""
+resident,Ombersley Road,38,,J.,Harries,traveller,""
+resident,Ombersley Road,40,,Alex.,Stewart,,Wynyard
+resident,Ombersley Road,42,,Mrs. F. A.,Smith,,Haulfryn
+resident,Ombersley Road,44,,F.,Robinson,,Brockhurst
+resident,Ombersley Road,46,,Rev. F. W.,Cropper,,Melrose
+resident,Ombersley Road,48,,Mrs. C.,Rowland,,Hurstleigh
+resident,Ombersley Road,50,,J. C.,Fothergill,,Lancaster h
+resident,Ombersley Road,,,J. M.,Needham,coal mer.,"Needham J. M. coal mer."
+resident,Ombersley Road,52,,Mrs. M.,Latimer,,""
+resident,Ombersley Road,54,,Miss,Jayne,,""
+resident,Ombersley Road,56,,T. Cecil,Williams,,""
+resident,Ombersley Road,58,,Mrs. F.,Lewis,,Brynterion
+resident,Ombersley Road,60,,G. W.,Hayward,,Aberglais
+cross_street,Ombersley Road,,,,,,"(return.)"
+resident,Ombersley Road,33,,William,Owen,traveller,""
+resident,Ombersley Road,,,C. H.,Owen,do,"Owen C. H. do."
+resident,Ombersley Road,31,,Ed. W.,Jones,,Whitsunville
+resident,Ombersley Road,29,,J. C.,Brook,,Avonlea
+resident,Ombersley Road,27,,F. C.,Jones,,Brooklyn
+resident,Ombersley Road,25,,T. W.,Rees,,Aldersyde
+resident,Ombersley Road,23,,John H.,Bunford,,Cartref
+resident,Ombersley Road,21,,H. E.,Boothroyd,,Nylic
+resident,Ombersley Road,19,,Edward,Rice,,""
+resident,Ombersley Road,17,,J. E.,Williams,,Schubert h
+resident,Ombersley Road,15,,Nicholas,Lewis,master mariner,"Lewis Nicholas, master mariner, Brynaeron"
+resident,Ombersley Road,13,,Francis,Harris,,Bryntrion
+resident,Ombersley Road,11,,J. E.,Thomas,,Ogwen
+resident,Ombersley Road,9,,Rev. Dl.,Davies,,Penlan
+resident,Ombersley Road,7,,C. W.,Richards,,Airdrie
+resident,Ombersley Road,5,,Mrs. H. R.,Hudson,,Eastville
+resident,Ombersley Road,,,R. C.,Hudson,accountant,"Hudson R. C., accountant"

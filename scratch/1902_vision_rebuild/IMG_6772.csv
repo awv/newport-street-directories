@@ -1,0 +1,154 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Kear Street,,,,,,From 3 Emlyn-street.
+street,Kelvedon Street,,,,,,Off Coverack-road.
+street,Kensington Place, M.,,,,,,From 175 Chepstow-road.
+cross_street,Kensington Place, M.,,,,,,LEFT HAND SIDE
+resident,Kensington Place, M.,1-2,,Dauncey F. S.,solicitor,
+resident,Kensington Place, M.,3,,Locke Harvey J.,,
+resident,Kensington Place, M.,4,,Williams William L.,,
+resident,Kensington Place, M.,5,,Hayward Charles L. N.,,
+resident,Kensington Place, M.,,,Hayward Mrs,,art teacher
+resident,Kensington Place, M.,6,,Lloyd The Misses,,
+resident,Kensington Place, M.,7,,Sainsbury Mrs,,
+resident,Kensington Place, M.,8,,Petty A. R.,,Bd. of Trade
+resident,Kensington Place, M.,9,,Jones Rev W.,,
+resident,Kensington Place, M.,,,Jones Wm. Owen,,
+resident,Kensington Place, M.,10,,,Void,
+resident,Kensington Place, M.,11,,Little Samuel,,
+resident,Kensington Place, M.,12,,Brewer Charles Claridge,,
+resident,Kensington Place, M.,13,,Allen James,,
+resident,Kensington Place, M.,14,,Jones Mrs,,
+resident,Kensington Place, M.,15,,Isaac William,,
+resident,Kensington Place, M.,16,,Brooks William,,
+resident,Kensington Place, M.,17,,Hosbons Rev J. R.,,
+resident,Kensington Place, M.,18,,Wilson Miss H. E.,,
+resident,Kensington Place, M.,,,Nickless Mrs Jane,,
+resident,Kensington Place, M.,19,,Watchman John S.,,
+resident,Kensington Place, M.,20,,Enstone J. T.,,
+resident,Kensington Place, M.,21,,Richards George,,
+resident,Kensington Place, M.,,,Richards Miss,,ladies' sch
+resident,Kensington Place, M.,22,,Challis Charles,,
+resident,Kensington Place, M.,23,,Brewer James,,auctioneer
+resident,Kensington Place, M.,24,,Copland C. D.,,electrical engineer
+resident,Kensington Place, M.,25,,Sach Mrs Henry,,
+resident,Kensington Place, M.,26,,Pugsley Henry,,
+resident,Kensington Place, M.,27,,Cross Thomas Clifford,,
+cross_street,Kensington Place, M.,,,,,,here is Victoria-lane.
+resident,Kensington Place, M.,,,Rowlands Dd.,,Kensington ho
+resident,Kensington Place, M.,,,Price John,,Rockleigh
+resident,Kensington Place, M.,,,Bond W. T.,,do
+resident,Kensington Place, M.,,,Gale Philip G.,,High view
+resident,Kensington Place, M.,,,Evans William,,Gaerwood
+cross_street,Kensington Place, M.,,,,,,return.
+cross_street,Kensington Place, M.,,,,,,OAKLANDS ROAD-
+resident,Kensington Place, M.,,,Pugsley T.,,J.P. Loxhore
+resident,Kensington Place, M.,,,Lloyd W. J.,,Oaklands
+resident,Kensington Place, M.,,,Colborne G. F.,,Cefn parc
+cross_street,Kensington Place, M.,,,,,,S. JOHN EVANGELIST CHURCH
+cross_street,Kensington Place, M.,,,,,,ST. JOHN'S ROAD-
+resident,Kensington Place, M.,,,Spittle Thomas,,Cambrian house
+cross_street,Junction Road, B.T.,,,,,,return.
+resident,Junction Road, B.T.,38,,Daymond S. W.,grocer &c,
+resident,Junction Road, B.T.,39,,Cook Mrs Sarah,,
+resident,Junction Road, B.T.,40,,Green Thomas,,shunter
+resident,Junction Road, B.T.,41,,Morgan Henry,,mason
+resident,Junction Road, B.T.,42,,Jenkins Mrs Matilda,,
+resident,Junction Road, B.T.,43,,Keating Alfred,,haulier
+resident,Junction Road, B.T.,44,,Saunderson Fdk.,cabman,
+resident,Junction Road, B.T.,45,,Lixton George,,foreman
+resident,Junction Road, B.T.,46,,Jenkins Wm.,labourer,
+resident,Junction Road, B.T.,47,,Hart Henry,,tailor
+resident,Junction Road, B.T.,48,,Clifton Tavern,Fowler Jos.,,
+resident,Junction Road, B.T.,49,,Webb Aaron,,porter
+resident,Junction Road, B.T.,50,,Sexstone Mrs,,
+resident,Junction Road, B.T.,51,,Orphan Jas.,stonemason,
+resident,Junction Road, B.T.,52,,Capel John,,labourer
+resident,Junction Road, B.T.,53,,Westcott W. J.,engineman,
+resident,Junction Road, B.T.,54,,Diment William,,labourer
+resident,Junction Road, B.T.,55,,Hopkins Charles,,currier
+resident,Junction Road, B.T.,56,,Holt George,,gardener
+resident,Junction Road, B.T.,57,,Brickley Wm.,shoemaker,
+resident,Junction Road, B.T.,58,,Lewis David,,hawker
+resident,Junction Road, B.T.,59,,Liversedge Walter,,
+resident,Junction Road, B.T.,60,,Watkins George,,painter
+resident,Junction Road, B.T.,61,,Banks Augustus,,
+resident,Junction Road, B.T.,62,,Tilley James,,labourer
+resident,Junction Road, B.T.,63,,Pugsley George,,labourer
+resident,Junction Road, B.T.,64,,Davies John,,labourer
+resident,Junction Road, B.T.,65,,Hughes John,,fitter
+resident,Junction Road, B.T.,66,,Venn George J.,fireman,
+resident,Junction Road, B.T.,67,,Newman Wm.,labourer,
+resident,Junction Road, B.T.,68,,Mahoney Wm.,boilermkr,
+resident,Junction Road, B.T.,69,,Bailey Henry,,labourer
+resident,Junction Road, B.T.,70,,Power Mrs Ann,,
+resident,Junction Road, B.T.,71,,Hislop T. C.,tailor,
+resident,Junction Road, B.T.,72,,Giffen J.,landscape gardr,
+resident,Junction Road, B.T.,73,,Honeywill Thomas,,tailor
+resident,Junction Road, B.T.,74,,Evans Francis,,haulier
+resident,Junction Road, B.T.,75,,Fowler Joseph,,smith
+street,Junction Road, B.T.,,,,,,Caerleon-rd. to Duckpool-rd.
+resident,Junction Road, B.T.,1,,Whittall Wm.,cab propr,
+resident,Junction Road, B.T.,2,,Davies William,,lab'rer
+resident,Junction Road, B.T.,3,,Morgan, Wm.,eng drivr,
+resident,Junction Road, B.T.,4,,Heaton James,,striker
+resident,Junction Road, B.T.,5,,Bowden Mrs Harriett,,
+resident,Junction Road, B.T.,6,,Hancock George,,labourer
+resident,Junction Road, B.T.,7,,Bowkett John,,cab driver
+resident,Junction Road, B.T.,8,,Holmes Wm.,plasterer,
+cross_street,Junction Road, B.T.,,,,,,here is Bishop-street.
+resident,Junction Road, B.T.,9,,Gale James,,shopkeeper
+cross_street,Junction Road, B.T.,,,,,,here is Dean-street.
+resident,Junction Road, B.T.,10,,Ford Geo.,cab proprietor,
+resident,Junction Road, B.T.,11,,Edwards Bros.,grocers,
+resident,Junction Road, B.T.,12,,James Charles,,labourer
+resident,Junction Road, B.T.,18,,Small Charles,,bricklayer
+resident,Junction Road, B.T.,16,,Williams Thomas,,painter
+resident,Junction Road, B.T.,14,,Bisset J.,foregeman,
+resident,Junction Road, B.T.,12,,Richards J.,butcher,
+resident,Junction Road, B.T.,10,,Inker David,,pottery hand
+resident,Junction Road, B.T.,8,,Mock Henry,,plasterer
+resident,Junction Road, B.T.,6,,Fear Thomas,,platelayer
+resident,Junction Road, B.T.,4,,Harrison James,,platelayr
+resident,Junction Road, B.T.,2,,Bartlett J.,mason,
+street,John Street,,,,,,From 103 Dock-street.
+resident,John Street,,,,Trigg Oliver,,,"H., Heber house"
+cross_street,John Street,,,,,,entrance to Winmill-street.
+street,Jones Street, B.,,,,,,From top of North-street to St. Woolos-road.
+cross_street,Jones Street, B.,,,,,,RIGHT HAND SIDE.
+resident,Jones Street, B.,1,,New Inn,Matthews F. J.,,
+resident,Jones Street, B.,2,,Dyer Mrs F.,,
+resident,Jones Street, B.,3,,Taylor Thos. W.,striker,
+resident,Jones Street, B.,4,,Scard Thomas,,machinist
+resident,Jones Street, B.,5,,Pritchard R.,labourer,
+resident,Jones Street, B.,6,,Parsons John,,plasterer
+resident,Jones Street, B.,7,,Brickley Wm.,caretaker,
+resident,Jones Street, B.,8,,Pearn William,,seaman
+resident,Jones Street, B.,9,,Bullock Edwin,,porter
+resident,Jones Street, B.,10,,Taylor Fredk.,labourer,
+resident,Jones Street, B.,11,,Williams L.,,
+resident,Jones Street, B.,12,,Smith Owen,,labourer
+resident,Jones Street, B.,13,,Waters James,,labourer
+resident,Jones Street, B.,14,,Muffett Arthur J.,,
+resident,Jones Street, B.,15,,Johns John,,furnaceman
+resident,Jones Street, B.,16,,McCarthy Matthew,,
+resident,Jones Street, B.,17,,Dunk Frederick,,fireman
+resident,Jones Street, B.,18,,Etheridge Mrs Caroline,,
+resident,Jones Street, B.,19,,Parry George S.,baker,
+resident,Jones Street, B.,20,,Knight Wm.,shopkeeper,
+resident,Jones Street, B.,21,,Abbott Wm.,signalman,
+resident,Jones Street, B.,22,,Fowler George Edward,,
+resident,Jones Street, B.,23,,Hawes Edwin,,gardener
+resident,Jones Street, B.,24,,Molloy Moses,,labourer
+resident,Jones Street, B.,25,,Pope Mark,,plasterer
+resident,Jones Street, B.,26,,Green Alfred,,die setter
+resident,Jones Street, B.,27,,Sulvey Oliver,,labourer
+resident,Jones Street, B.,28,,Moore W.,brazier,
+resident,Jones Street, B.,29,,Byfield A.,warehouseman,
+resident,Jones Street, B.,30,,,Void,
+resident,Jones Street, B.,31,,Bassett Wm.,pilots' man,
+resident,Jones Street, B.,32,,Ewings Frank,,bricklayer
+resident,Jones Street, B.,33,,Shellard Thos.,labourer,
+resident,Jones Street, B.,34,,Coles Walter,,shop assist
+resident,Jones Street, B.,35,,Halse Mrs Elizabeth,,
+resident,Jones Street, B.,36,,Daymond Mrs Mary,,
+resident,Jones Street, B.,37,,Daymond Samuel,,grocer

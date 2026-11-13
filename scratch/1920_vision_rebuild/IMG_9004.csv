@@ -1,0 +1,167 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,The Friars,The Friars—Gwent Hospital Convalescent Home,,,,,"here is Belle Vue-park"
+cross_street,The Friars,,,,,,(return)
+cross_street,BURTON HOMES,,,,,,
+cross_street,BURTON HOMES,,Block A.,,,,
+resident,BURTON HOMES,1,,Miss,Townsend,,
+resident,BURTON HOMES,2,,Miss,Williams,,
+resident,BURTON HOMES,3,,Miss,Watkins,,
+resident,BURTON HOMES,4,,Mrs.,Thomas,,
+resident,BURTON HOMES,5,,Mrs.,Taylor,,
+resident,BURTON HOMES,6,,Miss,Willmott,,
+cross_street,BURTON HOMES,,Block B.,,,,
+resident,BURTON HOMES,7,,Mrs.,Collard,,
+resident,BURTON HOMES,8,,Miss,Jones,,
+resident,BURTON HOMES,9,,Mrs.,Morgan,,
+resident,BURTON HOMES,10,,Mrs.,Blackmore,,
+resident,BURTON HOMES,11,,Mrs.,Morris,,
+resident,BURTON HOMES,12,,M.,Davies,,
+resident,BURTON HOMES,46,,Robert,Scott,,
+resident,BURTON HOMES,44,,H.,Whittaker,,
+resident,BURTON HOMES,42,Homestead,Fred.,Dunn,,
+resident,BURTON HOMES,40,Crosby,Thos. C.,Calder,,
+resident,BURTON HOMES,38,,A. Ernest,Jones,,
+resident,BURTON HOMES,34,,William,Edwards,,
+resident,BURTON HOMES,32,Northorpe,Thos.,Pullin,,
+resident,BURTON HOMES,30,,Patrick J.,Ryan,,
+resident,BURTON HOMES,28,,Wm. G.,Stokes,fitter,
+resident,BURTON HOMES,26,Franella,Frank,James,,
+resident,BURTON HOMES,24,,A. W.,Brownscombe,Ogbe
+resident,BURTON HOMES,22,Willowdene,W. R.,Parker,,
+resident,BURTON HOMES,20,,J. R. W.,Lamey,,
+resident,BURTON HOMES,18,,Frederick,Parkes,,
+resident,BURTON HOMES,16,,William,Prosser,,
+resident,BURTON HOMES,14,,A. R.,Adams,engineer,
+resident,BURTON HOMES,12,,G. H.,Jones,,
+resident,BURTON HOMES,10,,Geo. Hy.,Capel,,
+resident,BURTON HOMES,8,,Sydney G.,Burge,,
+resident,BURTON HOMES,6,,Henry C.,Wauters,,
+resident,BURTON HOMES,4,,L. W.,Jenkins,,
+resident,BURTON HOMES,2,,Henry E.,Smith,,
+street,FRIARS CHAMBERS,Friars-street,,,,,
+street,FRIARS STREET,D 4,,,,,"From 34 Commercial-street"
+resident,FRIARS STREET,4,,M.,Bevan,house furnisher,
+resident,FRIARS STREET,6,,Walter F.,Pope,printer,
+resident,FRIARS STREET,8,,G. E. S.,Heybyrne,"A.S.A.A., incorporated accountant"
+resident,FRIARS STREET,12,,& Brown,Heybyrne,"insurance brokers, etc."
+resident,FRIARS STREET,,,Mon. & S. Wales P.B. Building Society,,,
+cross_street,FRIARS STREET,,,,,,here is Dock-street
+resident,FRIARS STREET,16,,Waterworks Insp. office,,,
+resident,FRIARS STREET,18,,Water Works yard,,,
+resident,FRIARS STREET,20,,E. F.,Jones,inspector,
+resident,FRIARS STREET,22,,Simeon,Huntley,foreman,
+resident,FRIARS STREET,24,,Sanitary yard,,,
+resident,FRIARS STREET,26,,Weights & Measures and Gas Meter office,,,
+street,FULFORD'S COTTAGES,D 3,,,,Nos. 23-7 Victoria-avenue
+resident,FULFORD'S COTTAGES,7,,Michael,Hart,trimmer,
+resident,FULFORD'S COTTAGES,,,Builder's yard,,,
+resident,FULFORD'S COTTAGES,8,,Samuel,Harris,painter,
+resident,FULFORD'S COTTAGES,9,,James,Isaac,labourer,
+resident,FULFORD'S COTTAGES,10,,John,Lenahan,trimmer,
+resident,FULFORD'S COTTAGES,11,,N.,Versettaffell,,
+resident,FULFORD'S COTTAGES,12,,Geo.,Fitzgerald,labourer,
+resident,FULFORD'S COTTAGES,13,,John,Castle,,
+resident,FULFORD'S COTTAGES,14,,John,Landers,labourer,
+resident,FULFORD'S COTTAGES,15,,John,Haley,labourer,
+resident,FULFORD'S COTTAGES,16,,D.,Williams,painter,
+resident,FULFORD'S COTTAGES,17,,Wm.,Pritchard,labourer,
+resident,FULFORD'S COTTAGES,18,,John,Buckley,shop
+resident,FULFORD'S COTTAGES,19-20-21,,(Caleb & Joshua) & Co.,Griffiths,clothing manufacturers,
+resident,FULFORD'S COTTAGES,22,,Robert,Priddle,James
+resident,FULFORD'S COTTAGES,23,,Lewis,Perryman,checker,
+resident,FULFORD'S COTTAGES,24,,Albert,Collins,shipper,
+resident,FULFORD'S COTTAGES,25,,John,Hill,,
+resident,FULFORD'S COTTAGES,26,,Elijah,Griffin,shop,
+resident,FULFORD'S COTTAGES,27,,James,Neill,rigger,
+cross_street,FULFORD'S COTTAGES,,,,,,here is Dock-street
+resident,FULFORD'S COTTAGES,28,,Will,Powell,,
+resident,FULFORD'S COTTAGES,29,,Mrs. Jane,Hawkins,,
+resident,FULFORD'S COTTAGES,30,,Mrs. Cecilia,Davies,,
+resident,FULFORD'S COTTAGES,31,,Mrs. Eliza,Reynolds,,
+resident,FULFORD'S COTTAGES,32,,Cornelius,Sullivan,,
+resident,FULFORD'S COTTAGES,33,,Arthur,Legresley,driver,
+resident,FULFORD'S COTTAGES,34,,James,Raines,shopkeeper,
+cross_street,FULFORD'S COTTAGES,,,,,,here is Granville-square
+resident,FULFORD'S COTTAGES,35,,Joseph,Power,dk labourer
+resident,FULFORD'S COTTAGES,36,,Leonard,Lloyd,ostler,
+resident,FULFORD'S COTTAGES,37,,Arthur,Wills,smith,
+resident,FULFORD'S COTTAGES,38,,J. L.,Wills,fitter's helper
+resident,FULFORD'S COTTAGES,39,,Daniel,White,labourer,
+resident,FULFORD'S COTTAGES,40-41,,A.,Jenkins,"grocer and baker"
+resident,FULFORD'S COTTAGES,42,,Albert,Luckett,haulier,
+resident,FULFORD'S COTTAGES,,,John,Fitzgerald,,
+resident,FULFORD'S COTTAGES,43,,Thos. S.,Rich,labourer,
+resident,FULFORD'S COTTAGES,44,,Emil,Johnson,,
+resident,FULFORD'S COTTAGES,45,,Wm. L.,Price,labourer,
+cross_street,FULFORD'S COTTAGES,,,,,,here is Granville-lane
+resident,FULFORD'S COTTAGES,46,,Void,,,
+resident,FULFORD'S COTTAGES,47,,Mrs. Theresa,Phillips,,
+resident,FULFORD'S COTTAGES,48,,William,Lewis,labourer,
+resident,FULFORD'S COTTAGES,,,L. & N.W.R. Goods station,,,
+cross_street,FULFORD'S COTTAGES,,,,,,(return)
+cross_street,FULFORD'S COTTAGES,,,,,,here is Dock-street
+resident,FULFORD'S COTTAGES,49,,Mrs. K.,Whiston,boarding house
+resident,FULFORD'S COTTAGES,50,,& Co.,Jesseman,India rubber manufacturers
+resident,FULFORD'S COTTAGES,51,,John,Mogford,,
+resident,FULFORD'S COTTAGES,52,,Mrs. Hannah,Newman,,
+resident,FULFORD'S COTTAGES,53,,Mrs. Elizabeth,Mahoney,,
+resident,FULFORD'S COTTAGES,54,,Henry,Swift,labourer,
+resident,FULFORD'S COTTAGES,55,,William,Jenkins,,
+resident,FULFORD'S COTTAGES,56,,Edwin,Channon,,
+resident,FULFORD'S COTTAGES,57,,Mrs. Margaret,Dunn,,
+resident,FULFORD'S COTTAGES,58,,Henry,Baldwin,,
+resident,FULFORD'S COTTAGES,59,,G.,Collins,wagon repairer
+street,GAER STREET,D 6,,,,From foot of Waterloo-road
+cross_street,GAER STREET,,(LEFT HAND SIDE.),,,,
+resident,GAER STREET,1,,T. J.,Robinson,insp G.W.R.
+resident,GAER STREET,3,,Robert,Moncrieff,,
+resident,GAER STREET,5,,Meredith,Davies,eng drvr
+resident,GAER STREET,7,,John,Evans,labourer,
+resident,GAER STREET,9,,Robt.,Lawrence,guard,
+resident,GAER STREET,11,,William,Routley,,
+resident,GAER STREET,13,,David,Watkins,grocer,
+cross_street,GAER STREET,,,,,,(return)
+resident,GAER STREET,10,,W. N.,Collings,clerk,
+resident,GAER STREET,8,,John,Penn,,
+resident,GAER STREET,6,,George,Shingler,stoker,
+resident,GAER STREET,4,,E. N.,Hodgson,railway clk
+resident,GAER STREET,2,,Christopher,Short,fitter,
+street,GASKELL STREET,E 3,,,,,Right hand side Corporation-road
+cross_street,GASKELL STREET,,(LEFT HAND SIDE.),,,,
+resident,GASKELL STREET,1,,Henry,Church,hawker,
+resident,GASKELL STREET,3,,Frederick,Payne,,
+resident,GASKELL STREET,5,,Jos.,Wheatley,ironworker,
+resident,GASKELL STREET,7,,Mrs. Caroline,Bowen,do
+resident,GASKELL STREET,9,,Wm.,Bayley,ironworker,
+resident,GASKELL STREET,11,,Joseph,Beal,do
+cross_street,GASKELL STREET,,,,,,here is Portskewett-street
+resident,GASKELL STREET,13,,Mrs. Sarah A.,Kehmstedt,,
+resident,GASKELL STREET,15,,Matt.,Davies,ironworker,
+resident,GASKELL STREET,17,,Herbt. Charles,Kehmstedt,,
+resident,GASKELL STREET,19,,Martin,McHale,,
+resident,GASKELL STREET,21,,James,Berry,ironworker,
+resident,GASKELL STREET,23,,George,Postle,do
+resident,GASKELL STREET,25,,Jos. T.,Richards,eng.man
+resident,GASKELL STREET,27,,Mrs. Mary,McHale,,
+resident,GASKELL STREET,29,,W.,Edwards,ironworker,
+cross_street,GASKELL STREET,,,,,,(return)
+resident,GASKELL STREET,26,,Chas.,Clifford,do
+resident,GASKELL STREET,24,,Elijah,Hinton,,
+resident,GASKELL STREET,22,,Mrs. Catherine,Whiting,,
+resident,GASKELL STREET,20,,Hy.,Groves,sheetworker,
+resident,GASKELL STREET,18,,John,Trubshaw,labourer,
+resident,GASKELL STREET,16,,Mrs.,Lambert,,
+resident,GASKELL STREET,14,,John T.,Baynes,ironwkr
+cross_street,GASKELL STREET,,,,,,here is Portskewett-street
+resident,GASKELL STREET,12,,Mrs. Sarah,Alcock,,
+resident,GASKELL STREET,10,,Richard,Griffin,,
+resident,GASKELL STREET,8,,Edwd.,Piggott,ironworker,
+resident,GASKELL STREET,6,,James,Price,ironworker,
+resident,GASKELL STREET,4,,Mrs. Mary Jane,Dyer,,
+resident,GASKELL STREET,2,,John,Knee,labourer,
+street,GEORGE STREET,D 4,,,,Commercial-rd. to Canal-par
+cross_street,GEORGE STREET,,(LEFT HAND SIDE.),,,,
+resident,GEORGE STREET,3,,John,Davies,,
+resident,GEORGE STREET,4,,John,Davies,boarding ho
+resident,GEORGE STREET,5,,James,Jenkins,seaman,
+resident,GEORGE STREET,6,,John,Waite,,

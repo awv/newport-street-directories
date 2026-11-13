@@ -1,0 +1,144 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Castle Street,,,,,,continued
+resident,Castle Street,20,,Jno.,Burke,coal trimmer,
+resident,Castle Street,21,,John,Miles,hobbler,
+resident,Castle Street,22,,Patk.,Mahoney,hobbler,
+resident,Castle Street,23,,Fredk.,Baker,shipper,
+resident,Castle Street,24,,Thos.,Burke,coal trimmer,
+resident,Castle Street,25,,Daniel,Connell,labourer,
+resident,Castle Street,26,,Mich.,Regan,labourer,
+resident,Castle Street,27,,Denis,Driscoll,labourer,
+resident,Castle Street,28,,Ellen,O'Brian,widow,
+resident,Castle Street,29,,T.,Pring,coal trimmer,
+resident,Castle Street,30,Dolphin Inn,G. E.,South,,
+resident,Castle Street,31,,Rhoda,Hynes,widow,
+resident,Castle Street,32,,Mary A.,Carey,widow,
+resident,Castle Street,33,,John,Webb,grocer,
+cross_street,Castle Street,,,,,,"here is Prothero's-row."
+resident,Castle Street,34,,Alfred J.,Fontaine,,
+cross_street,Castle Street,,,,,,"(return.)"
+resident,Castle Street,,,Uskside Engineering Co.,,,
+cross_street,Castle Street,,,,,,"here is High-street."
+resident,Castle Street,35,,Wm.,Langmaid,grocer,
+resident,Castle Street,36,,Ellen,Morrison,widow,
+resident,Castle Street,37,,D.,Barry,labourer,
+resident,Castle Street,38,,Tim,Buckley,hobbler,
+resident,Castle Street,39,,Wm.,Davies,sailor,
+resident,Castle Street,40,,Mrs. Ann,Franklin,,
+resident,Castle Street,41,,Patrick,Murphy,lab'rer,
+resident,Castle Street,42,,D.,Mahoney,hobbler,
+resident,Castle Street,43,,Wm.,Molloy,hobbler,
+resident,Castle Street,44,,Wm.,Tasker,labourer,
+resident,Castle Street,45,,Jno.,Haley,coal trimmer,
+resident,Castle Street,46,,Thos.,Lynch,coal trim'r,
+resident,Castle Street,47,,Edwin,Watkins,shop,
+street,Caxton Place,,,,,,From 34 Bridge-street.
+resident,Caxton Place,1,,W.,Price,tailor,
+resident,Caxton Place,,,Victoria Aerated Water works—Boshier & Co.,,,
+resident,Caxton Place,,,Globe Parcels Express,,,
+resident,Caxton Place,2,,Wm.,Smith,porter,
+resident,Caxton Place,3,,W.,Price,tailor,
+resident,Caxton Place,4 & 5,,,Gibb W. J.,poulterer & bootmaker,
+resident,Caxton Place,,,G.,Jones,builders' merct.,
+street,Charles Street,,,,,,From 149 Commercial-street to Stow-hill.
+resident,Charles Street,,Talbot Hotel—D. E. Humphreys,proprietor,,,
+resident,Charles Street,,,Harry & Wood,,confect'nrs,
+resident,Charles Street,,,Davies & Sons,,fruiterers,
+resident,Charles Street,,THE NEW THEATRE,,,,
+resident,Charles Street,,Talbot hairdressing saloon,,,,
+resident,Charles Street,1,,T.,Miles,cabinet maker,
+resident,Charles Street,2,,Mrs.,Pacello,clothes d'lr,
+resident,Charles Street,,,Thomas,Evans,farrier,
+resident,Charles Street,3,,,,,Void
+resident,Charles Street,4,,Mrs.,Howard,wardrobes,
+resident,Charles Street,5-7,,,,,Void
+resident,Charles Street,8,,Jos.,Foslett,gasfitter, &c,
+resident,Charles Street,9,,Jas.,Fitzgerald,shoemakr,
+resident,Charles Street,,,ENGLISH BAPTIST CHAPEL,,,
+resident,Charles Street,10,,Wm. E.,Davies,fitter,
+resident,Charles Street,11,,W.,Broomsgrove,lab'rer,
+resident,Charles Street,12,,Charles,Davies,sweep,
+resident,Charles Street,13,D. Court (5 Tenants),,,,
+resident,Charles Street,15,,T. G.,Diamond,builder,
+resident,Charles Street,16,,,,,Void
+resident,Charles Street,17,,,,,Do.
+resident,Charles Street,18,,J.,Hunt,bootmaker,
+resident,Charles Street,19,Bible and Tract Depôt,,,,
+cross_street,Charles Street,,,,,,"(return.)"
+resident,Charles Street,,Red Lion,R.,Joshua,,
+resident,Charles Street,20,,Mrs. M.,Cashmore,grocer,
+resident,Charles Street,21,,D.,Brooke,plaster'm'ldr and tobacconjst,
+resident,Charles Street,,,Mrs.,Brooke,registry office for servants,
+resident,Charles Street,22,,W.,Coles,fruiterer, etc.,
+resident,Charles Street,23,,,,,Void
+resident,Charles Street,24,,,,,Do.
+resident,Charles Street,25,,,,,Do.
+resident,Charles Street,26,,Chas.,Bancroft,confec'tr,
+resident,Charles Street,,,Friends Meeting house,,,
+resident,Charles Street,27,,Miss,Snowdon,dressmkr,
+resident,Charles Street,28,,,,,Void
+resident,Charles Street,29,,,,,Do.
+resident,Charles Street,30,,,,,Do.
+resident,Charles Street,31,,Mrs.,Robins,clothes d'lr,
+resident,Charles Street,32,,B. W.,Winter,sculptor,
+cross_street,Charles Street,,,,,,"entrance to Board School (Infants.)"
+resident,Charles Street,,Woodbine cot,Chas.,Reed,,
+resident,Charles Street,33 & 34,,,Edwards & Co.,ironmongers & iron merct,
+street,Charlotte Street, P.,,,,,,From 23 Alma-street to Capel-street.
+resident,Charlotte Street, P.,1,,Jas.,Brooks,shipwright,
+resident,Charlotte Street, P.,2,,Mary Ann,Dallimore,,
+resident,Charlotte Street, P.,3,,Wm.,Bladon,gardener,
+resident,Charlotte Street, P.,4,,C.,Jenkins,platelayer,
+resident,Charlotte Street, P.,,Mounce H. bakehouse,,,
+cross_street,Charlotte Street, P.,,,,,,here is Lewis-street.
+resident,Charlotte Street, P.,,,Evan,Jones,oil seller,
+cross_street,Charlotte Street, P.,,,,,,here is Raglan-street.
+resident,Charlotte Street, P.,,Staunton T. coach builder,,,
+resident,Charlotte Street, P.,5,,Steph.,Pithers,lampman,
+cross_street,Charlotte Street, P.,,,,,,here is Williams-street.
+resident,Charlotte Street, P.,6,,D.,Thomas,patternmaker,
+cross_street,Charlotte Street, P.,,,,,,here is Capel-st. (return.)
+resident,Charlotte Street, P.,6A,,A.,Tiscornia,greengrocer,
+resident,Charlotte Street, P.,7,,Wm. J.,Nutt,labourer,
+resident,Charlotte Street, P.,8,,J.,Jeffery,boat builder,
+resident,Charlotte Street, P.,9,,D.,Baiss,iron dresser,
+resident,Charlotte Street, P.,10,,J. H.,Blake,genl. dealer,
+cross_street,Charlotte Street, P.,,,,,,here is Upper Williams-st.
+resident,Charlotte Street, P.,,Tredegar Wf. Infsnts' schl,,,
+resident,Charlotte Street, P.,11,,Jno.,Sparkes,bricklayer,
+resident,Charlotte Street, P.,11A,,A.,Daniell,shopkeeper,
+cross_street,Charlotte Street, P.,,,,,,here is Up. Raglan-street.
+resident,Charlotte Street, P.,12,,John,Jones,Llewellyn,
+resident,Charlotte Street, P.,,British Gas Meter Co. Ltd,,,
+resident,Charlotte Street, P.,13,,Wm.,Lewis,plasterer,
+resident,Charlotte Street, P.,14,,J.,Williams,blacksmith,
+resident,Charlotte Street, P.,15,,W.,Charlton,furnaceman,
+resident,Charlotte Street, P.,16,,Saml.,Davies,surveyor,
+resident,Charlotte Street, P.,,,Thos.,Davies,surveyor,
+street,Chepstow Road,,,,,,From Clarence-place.
+resident,Chepstow Road,,,W.,Bush,1 Eastgate villas,
+resident,Chepstow Road,,,James,Vaughan,2 ditto,
+resident,Chepstow Road,,Lyncornbe [villa,Mrs. E.,Greenland,,
+resident,Chepstow Road,,Melverton,J. T.,Williams,,
+resident,Chepstow Road,1,,W.,Sheaf,veterinary surgeon,Windsor villa
+resident,Chepstow Road,2,,J.,Williams,Victoria vil,
+resident,Chepstow Road,3,,The Misses,Willmett,Cambridge villa,
+resident,Chepstow Road,4,,Charles J.,Chapman,Osborne villa,
+resident,Chepstow Road,5,,Chas.,Wilks,Beaufort vil,
+resident,Chepstow Road,6,,Thos.,Stedall,Clytha vil,
+resident,Chepstow Road,7,,W. F.,Taylor,Carisbrooke villa,
+resident,Chepstow Road,8,,John,Lewis,Eling villa,
+resident,Chepstow Road,9,,J.,Kerslake,Atherstone v,
+resident,Chepstow Road,10,,W.,Kinsey-Morgan,Albert villa,
+resident,Chepstow Road,11,,,,,Hilston villa—void
+resident,Chepstow Road,12,,Dl.,Lewis,Upton villa,
+resident,Chepstow Road,13,,Henry,Willmett,Glenbrook villa,
+resident,Chepstow Road,14,,Mrs. Wm.,Needham,Clifton villa,
+resident,Chepstow Road,15,,Dr.,Hill,Grantham villa,
+resident,Chepstow Road,16,,Jos. S.,Korslake,York vil,
+resident,Chepstow Road,,,A. B.,Hodgkinson,,
+resident,Chepstow Road,17,,J. B.,Serjeant,Clarence vil,
+resident,Chepstow Road,18,,Hy.,Layton,Rochefort vil,
+resident,Chepstow Road,19,,F. P.,Robjent,Usk villa,
+resident,Chepstow Road,20,,R. B.,Evans,Belvoir ho,
+resident,Chepstow Road,21,,,,,Nolton villa—void

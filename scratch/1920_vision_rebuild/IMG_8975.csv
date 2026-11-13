@@ -1,0 +1,156 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,,31,Bryn Caerau,Mrs. W.,Watkins,,
+resident,,32,Caerau,The Misses,Parfitt,,
+cross_street,,,,,,,(return)
+cross_street,,,,,,,KINGSMILL GARDENS--
+resident,,,Westbourne,T. P.,Knowles,,
+cross_street,,,,,,,here is Tunnel-terrace
+resident,,33,Wilton villa,A. H.,Davies,,
+resident,,34,Ormond,Dd.,Davies,,
+cross_street,,,,,,,here is Kingsmill-terrace
+cross_street,,,,,,,here is Windsor-terrace
+resident,,35,Fernbank,G.,Mahnke,,
+street,CLYTHA CRESCENT,D 5,,,,,,
+notes,,,,,,,Facing Clytha-square
+resident,CLYTHA CRESCENT,1,,,Price,Miss Grace,
+resident,CLYTHA CRESCENT,2,,,William,Neill,,
+resident,CLYTHA CRESCENT,3,,,Gwynne,Harries,fitter,
+resident,CLYTHA CRESCENT,4,,,W. H.,Palmer,engraver,
+resident,CLYTHA CRESCENT,5,,,Albert J.,Kenny,,
+resident,CLYTHA CRESCENT,6,,,James,Binding,haulier,
+resident,CLYTHA CRESCENT,7,,,Herbert,George,hoistman,
+cross_street,CLYTHA CRESCENT,,,,,,here is Mountjoy-place
+resident,CLYTHA CRESCENT,8,,,Mrs. L.,Musker,,
+resident,CLYTHA CRESCENT,9,,,Dennis,Hurley,,
+resident,CLYTHA CRESCENT,10,,,Miss Fanny,Jones,,
+resident,CLYTHA CRESCENT,11,,,E.,Tamplin,marine enginr,
+resident,CLYTHA CRESCENT,12,,,Henry A.,Warman,,
+resident,CLYTHA CRESCENT,13,,,Frederick John,Morgan,,
+resident,CLYTHA CRESCENT,14,,,Harry,Day,,
+resident,CLYTHA CRESCENT,15,,,Miss Blanche,Cleave,,
+resident,CLYTHA CRESCENT,,Belle Isle,H. T.,Goldsworthy,,
+street,CLYTHA PARK ROAD, C 5,,,,,,
+notes,,,,,,,CLYTHA PARK.
+notes,,,,,,,From Bridge-street
+notes,,,,,,,See also Bryngwyn-rd., Llanthewy-road, Parkfield-place Oakfield and Westfield-road.
+cross_street,CLYTHA PARK ROAD,,,,,,(LEFT HAND SIDE.)
+resident,CLYTHA PARK ROAD,1,,,D.,Powell,grocer, etc.
+resident,CLYTHA PARK ROAD,2A,,,G. & Son,Martin,steam joinery works
+resident,CLYTHA PARK ROAD,2,,,A. W.,Farmer,,
+resident,CLYTHA PARK ROAD,3,,,Mrs. Annie,Bevan,,
+resident,CLYTHA PARK ROAD,4,,,James,Beer,,
+resident,CLYTHA PARK ROAD,5,,,Thomas,Dalley,,
+resident,CLYTHA PARK ROAD,,,,Charles,Page,,
+resident,CLYTHA PARK ROAD,6,,,Albert,Hartley,G.W.R
+resident,CLYTHA PARK ROAD,7,,,W. J.,Hewinson,window cleaner
+cross_street,CLYTHA PARK ROAD,,,,,,here is Caerau-road
+resident,CLYTHA PARK ROAD,9,Greenhilly,Marcus,Harris,,
+resident,CLYTHA PARK ROAD,10,,,Newport Child Welfare and Maternity Scheme Clinic,,
+resident,CLYTHA PARK ROAD,,St. Leonards,M. A.,Benner,M.B., B.Ch., medical officer
+resident,CLYTHA PARK ROAD,11,Bryn Ivor,L. Ernest,Acomb,physician and surgeon
+resident,,12,Nevis,T. Morrell,Thomas,M.D.,
+resident,,13,Windermere,Wm.,Evans,,
+cross_street,,,,,,,here are Llanthewy and Bryngwyn-roads
+resident,,14,,Jno. W.,Gunn,salesmen field house [salesmen
+resident,,15,Glynclytha,Mrs. T. A.,Duckham,J. & F. cattle
+cross_street,,,,,,,here is Oakfield-road
+resident,,15,The Norlands,J. H.,Vickery,,
+cross_street,,,,,,,here is Westfield-road
+resident,,16,Holmeswood,D. W.,Jones,,
+cross_street,,,,,,, (return)
+resident,,17,,,Richard,Andrews,,
+resident,,17A,,,Miss E.,Williams,,
+resident,,18,,,Geoffrey,Watson,,
+cross_street,,,,,,,ST. MARY'S ROAD.
+resident,,19,Aragon ho,Mrs.,Canning,,
+resident,,20,Parkdale,O. E.,Marsh,J.P., physician & surgeon
+resident,,21,Portugal ho,Alfred,Frost,,
+resident,,22,The Retreat,T.,Evans,Lloyd
+resident,,23,Fernside,F. A.,Ayliffe,,
+resident,,24,Ivybank,Miss E.,Ellis,,
+resident,,25,Convalescent Home,,,,
+cross_street,,,,,,,here is Faulkner road [tute
+resident,,26,Nursing Insti-,Bryngwyn,,
+resident,,27,Glynderwen,H. R.,Price,,
+resident,,28,Ferndale,William,Jeffreys,,
+resident,,29,Rosendale,W.,Craig,tailor
+resident,,30,,,Thomas,Whitley,,
+resident,,31,,,W.,Brooks,,
+resident,,32,,,C. & E.,Bezant,chlds outft
+resident,,33,,,K. E.,Hopkins,tobacconist and confectioner
+resident,,34,,,Daniel,Powell,,
+resident,,34A,,,D.,Powell,florist, etc.
+cross_street,,,,,,,CLYTHA PARK P.O.
+notes,,,,,,,P.O. TEL., M.O.,A. & I. & S.B
+street,CLYTHA SQUARE, D 5,,,,,,
+notes,,,,,,,From 18 Cardiff-road
+cross_street,CLYTHA SQUARE,,,,,,(RIGHT HAND SIDE.)
+resident,CLYTHA SQUARE,,The Avenue,Wm.,Thompson,,
+cross_street,CLYTHA SQUARE,,,,,,(LEFT HAND SIDE.)
+resident,CLYTHA SQUARE,1,,,J.,Simpson,asst manager
+resident,CLYTHA SQUARE,,,R. J.,Parry,asst overseer
+resident,CLYTHA SQUARE,2,Bohemia,Ivor M.,Johns,,
+resident,CLYTHA SQUARE,3,,,Miss Winifred,McCarthy,,
+resident,CLYTHA SQUARE,4,,,W. O.,Price,,
+resident,CLYTHA SQUARE,5,,,John,Phillips,pilot
+resident,CLYTHA SQUARE,6,Monkleigh house,Mrs. J. P.,Handford,,
+resident,CLYTHA SQUARE,7,Alwington house,Wm.,Thomas,chris., shipping brkr
+resident,CLYTHA SQUARE,8,Lillesdon house,W. H.,Shute,senr. warehouseman
+resident,CLYTHA SQUARE,9,West Walton,Jos.,Taylor,outfitter
+resident,CLYTHA SQUARE,10,,,A. D.,Murray,engineer
+resident,CLYTHA SQUARE,11,,,I.,Green,traveller
+resident,CLYTHA SQUARE,12,Richmond house,Richard,Williams,,
+resident,,13,,W.,Murray,civil engineer, Rosendale
+resident,,14,,J. B.,Pitchford,pork btchr
+resident,,15,,Mrs. T. A.,Duckham,lanrig house
+cross_street,,,,,,,here is Vicarage-lane
+resident,,16,,F. C.,Allen,clerk, Wynberg
+resident,,17,,F. C.,Soloman,clerk, Wynberg
+resident,,18,,David,White,Seaton ho
+resident,,19,,Miss H.,Vaughan,
+resident,,20,,Wm. Henry,Green,Lyegrove house
+resident,,21,,J. G. B.,Watson,manager
+resident,,22,,James,Splatt,Wenvoe ho
+resident,,23,,Mrs. W. L.,Kerr,Penmon h
+resident,,24,,Mrs. E.,Davies,St. Helen's
+resident,,25,,J. H.,Monks,contractor, Wrington house
+resident,,26,,Joseph H.,Dunn,Troy ho
+resident,,,Mrs. T.,Smith,
+resident,,27,,F. W.,Shepherd,ptr & decr
+resident,,28,,C. F.,Parry,coal dealer
+resident,,29,,Ed. L.,Williams,clerk
+resident,,30,,Miss,Bullen,
+resident,,31,,Fellows Association,Void [fellows Association
+resident,,32,,D.,Burke,surgeon, Odd-
+resident,,,Rev. H.,Morgan,Clytha ho
+resident,,,J. A.,Roe,The Grove
+street,COLDRA ROAD, D 6,,,,,,
+notes,,,,,,,From 10 Gaer-street, Waterlooroad, to Llandaff-street
+cross_street,COLDRA ROAD,,,,,,(RIGHT HAND SIDE.)
+resident,COLDRA ROAD,2,,,Wm.,Hopkins,smith
+resident,COLDRA ROAD,4,,,Ralph C.,Parkes,clerk
+resident,COLDRA ROAD,6,,,Jos. Geo.,Cox,clerk
+resident,COLDRA ROAD,8,,,Edward,Tizard,H.M.C.
+resident,COLDRA ROAD,10,,,Jno. P.,Phillips,pilotsman
+resident,COLDRA ROAD,12,,,P. H.,Parkes,plumber
+resident,COLDRA ROAD,14,,,Harry,Rees,timekeeper
+resident,COLDRA ROAD,16,,,Frederick,Yates,blrmkr
+resident,COLDRA ROAD,18,,,J. M.,Francis,goods G.W.R.
+resident,COLDRA ROAD,20,,,V.,Jolliffe,elec engineer
+resident,COLDRA ROAD,22,,,W. A.,Watkins,foreman
+resident,COLDRA ROAD,24,,,John,Rowe,engine driver
+resident,COLDRA ROAD,26,,,J.,Huntley,clerk, Westhoe
+resident,COLDRA ROAD,28,,,Mrs. M.,Evans,Oakfield
+resident,COLDRA ROAD,30,,,John,Williams,eng driver
+resident,COLDRA ROAD,32,,,George,Jones,grocer
+resident,COLDRA ROAD,34,,,Herbert,Ravalde,clerk
+resident,COLDRA ROAD,36,,,Frank,Marks,carpenter
+resident,COLDRA ROAD,38,,,W. A.,Chicken,engineer
+resident,COLDRA ROAD,40,,,Ernest,Silvey,plumber
+resident,COLDRA ROAD,42,,,Jas.,Tait,engineer, Elstree
+resident,COLDRA ROAD,44,,,John,Radford,
+resident,COLDRA ROAD,46,,,T. M.,Brown,inspector
+resident,COLDRA ROAD,48,,,Wm. E.,Wiltshire,baker
+resident,COLDRA ROAD,50,,,W. H.,Nicholas,ins agent
+resident,COLDRA ROAD,52,,,Duckham Brice,clerk
+resident,COLDRA ROAD,,,Ivor,Duckham,secretary

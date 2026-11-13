@@ -1,0 +1,155 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Bristol Street, B.T.,,,,,,"Camelot-place to Duckpool-rd."
+resident,Bristol Street, B.T.,1,,Mrs Mary,Sweeney,,
+resident,Bristol Street, B.T.,2,,Albert,Redman,haulier,
+resident,Bristol Street, B.T.,3,,Thos.,Sweeney,enginemn
+resident,Bristol Street, B.T.,4,,Ernest S.,Hughes,painter
+resident,Bristol Street, B.T.,5,,Wm.,Ballinger,platelayer
+resident,Bristol Street, B.T.,6,,Jas.,Oxonbury,crane drvr
+resident,Bristol Street, B.T.,7,,George,Millet,plasterer
+resident,Bristol Street, B.T.,8,,Theo.,Morgan,labourer
+resident,Bristol Street, B.T.,9,,Edward,Arthur,seaman
+resident,Bristol Street, B.T.,10,,Mrs Emily,Davey,,
+resident,Bristol Street, B.T.,11,,Thomas,Fear,platelayer
+resident,Bristol Street, B.T.,12,,Jas.,Morgan,butcher, etc.
+cross_street,Bristol Street, B.T.,,,,,,"here is Hereford-street."
+resident,Bristol Street, B.T.,13,,Geo. Hy.,Knight,eng.drvr
+resident,Bristol Street, B.T.,14,,Joseph,Watson,,
+resident,Bristol Street, B.T.,15,,Geo.,Dunning,foundrymu
+resident,Bristol Street, B.T.,16,,John,Evans,mariner
+resident,Bristol Street, B.T.,17,,John,Langford,smith
+resident,Bristol Street, B.T.,18,,Arthur,Evans,labourer
+resident,Bristol Street, B.T.,19,,Alfd.,Harrington,foreman
+resident,Bristol Street, B.T.,20,,Harry,Moore,labourer
+resident,Bristol Street, B.T.,21,,William,Foster,turner
+resident,Bristol Street, B.T.,22,,Alf. Thos.,Groom,lab'rer
+resident,Bristol Street, B.T.,23,,Richard,Pomeroy,,
+resident,Bristol Street, B.T.,24,,James,Baiss,moulder
+resident,Bristol Street, B.T.,25,,Henry,Thomas,labourer
+resident,Bristol Street, B.T.,26,,James,Lewis,signal fitter
+resident,Bristol Street, B.T.,27,,Wm.,Lewis,hurdlemaker
+resident,Bristol Street, B.T.,28,,Wm.,Griffiths,labourer
+resident,Bristol Street, B.T.,29,,George,Maxfield,haulier
+resident,Bristol Street, B.T.,30,,Henry,Rowe,carpenter
+resident,Bristol Street, B.T.,31,,Jas.,Knowles,carpenter
+resident,Bristol Street, B.T.,32,,Alfd. J.,Watkins,ins. agt
+resident,Bristol Street, B.T.,33,,Jas. Wm.,Walton,G.W.R.
+resident,Bristol Street, B.T.,34,,Geo. Hy.,Riley,steward
+resident,Bristol Street, B.T.,35,,Wm.,Moreton,coachbldr
+resident,Bristol Street, B.T.,36,,Henry,Shepherd,seaman
+resident,Bristol Street, B.T.,37,,William,Vokes,brewer
+resident,Bristol Street, B.T.,38,,T. H.,Kelymack,cab'ntmkr
+resident,Bristol Street, B.T.,39,,Jno. Alf.,Jones,carpenter
+resident,Bristol Street, B.T.,40,,David,Howells,roller
+cross_street,Bristol Street, B.T.,,,,,,"(return.)"
+resident,Bristol Street, B.T.,42,,T.,Knapman,gen. haulier
+cross_street,Bristol Street, B.T.,,,,,,"here is London-street."
+resident,Bristol Street, B.T.,,,,Newport George,shop,
+resident,Bristol Street, B.T.,43,,Jonathan,Hodges,forem'n
+resident,Bristol Street, B.T.,44,,George,Bevan,steward
+resident,Bristol Street, B.T.,45,,Reuben,Sweet,linesman
+resident,Bristol Street, B.T.,46,,John,Kirby,labourer
+resident,Bristol Street, B.T.,47,,William,Owen,plasterer
+resident,Bristol Street, B.T.,48,,Thos.,Doble,waterman
+resident,Bristol Street, B.T.,49,,Wm. Hy.,Moss,wheelwgrt
+resident,Bristol Street, B.T.,50,,L.,Downes,plasterer
+resident,Bristol Street, B.T.,51,,Thos.,Edwards,labourer
+resident,Bristol Street, B.T.,52,,Wm.,Foster,engine drivr
+resident,Bristol Street, B.T.,53,,Samuel,Pitman,labourer
+resident,Bristol Street, B.T.,54,,George,Gully,,
+resident,Bristol Street, B.T.,55,,James,Barnett,tailor
+resident,Bristol Street, B.T.,56,,William,Shean,,
+resident,Bristol Street, B.T.,57,,Mrs Alice,Viney,,
+resident,Bristol Street, B.T.,58,,William,Hewitt,mason
+resident,Bristol Street, B.T.,59,,F.,Morris,machine ruler
+resident,Bristol Street, B.T.,60,,W. M.,Banks,baker
+resident,Bristol Street, B.T.,61,,Edwd.,Knight,shopkeepr
+cross_street,Bristol Street, B.T.,,,,,,"here is Hereford-street."
+resident,Bristol Street, B.T.,62,,Alfred,Moore,dealer
+resident,Bristol Street, B.T.,63,,James,Page,labourer
+resident,Bristol Street, B.T.,64,,Edwd.,Morgan,labourer
+resident,Bristol Street, B.T.,65,,John,Newberry,factory
+resident,Bristol Street, B.T.,66,,David,Elliott,mason
+resident,Bristol Street, B.T.,67,,Henry,Brown,platelayer
+resident,Bristol Street, B.T.,68,,Wm.,Millington,traveller
+resident,Bristol Street, B.T.,69,,William,Jones,labourer
+resident,Bristol Street, B.T.,70,,Geo.,Gillard,carpenter
+resident,Bristol Street, B.T.,71,,John,Rook,guard
+resident,Bristol Street, B.T.,72,,Wm.,Donaldson,hawker
+resident,Bristol Street, B.T.,73,,John,Atfield,shoemaker
+resident,Bristol Street, B.T.,74,,William,Barnsley,dealer
+resident,Bristol Street, B.T.,75,,Albt.,Hawkins,wheel tapr
+resident,Bristol Street, B.T.,76,,Thomas,Morgan,shunter
+street,Broad Street, P.,,,,,,"Frederick-st. to Portland-st."
+resident,Broad Street, P.,,,Wm.,Pope,plasterer's yard,
+resident,Broad Street, P.,1,,John,Bridge,labourer
+resident,Broad Street, P.,2,,William,Hopkins,labourer
+resident,Broad Street, P.,3,,George,Latham,labourer
+resident,Broad Street, P.,4,,Mrs Ann,Davies,,
+resident,Broad Street, P.,5,,Thomas,Danaher,labourer
+resident,Broad Street, P.,6,,Rd.,Delahay,carpenter
+resident,Broad Street, P.,7,,Charles,Hughes,fitter
+resident,Broad Street, P.,8,,John,McCarthy,trimmer
+street,Brodawell Gardens.,,,,,,"See York-place."
+street,Broseley Terrace, M.,,,,,,"See Fair Oak-avenue."
+street,Brynderwyn Road, M.,,,,,,"From Victoria-avenue to Christchurch-road."
+resident,Brynderwyn Road, M.,1,Peugelly,Rev. J. W.,Tucker,,
+resident,Brynderwyn Road, M.,2,Penderyn,J. H.,Jones,,
+resident,Brynderwyn Road, M.,3,Pen-twyn,Mrs G. C.,Wilcox,,
+resident,Brynderwyn Road, M.,4,Pen-y-bryn,Frank,Lewis,,
+resident,Brynderwyn Road, M.,5,Pen-y-dre,Francis W.,Fry,,
+resident,Brynderwyn Road, M.,6,Pen-y-lan,Thos.,Jenkins,,
+resident,Brynderwyn Road, M.,7,Pen-y-graig,Alfred,Oates,,
+resident,Brynderwyn Road, M.,8,Derwen ho,Rich.,Davies,,
+resident,Brynderwyn Road, M.,9,,Jas.,Robertson,gardener
+cross_street,Brynderwyn Road, M.,,,,,,"(return.)"
+resident,Brynderwyn Road, M.,30,,Albert N.,Morgan,mason
+resident,Brynderwyn Road, M.,31,,Walter,Spratling,H.M.C.
+resident,Brynderwyn Road, M.,32,,David,Frazer,assistant
+resident,Brynderwyn Road, M.,33,,Chas.,McCarthy,lathrendr
+resident,Brynderwyn Road, M.,34,,Henry,Coulls,H.M.C.
+resident,Brynderwyn Road, M.,35,,Thos.,Packer,insur. agent
+resident,Brynderwyn Road, M.,36,Sea-view cot,Mrs.,Jones,,
+street,Brynglas Road.,,,,,,"From Malpas-road."
+resident,Brynglas Road.,2,,Miss Agnes,Carter,,
+resident,Brynglas Road.,4,,Tom,Littlemore,agent
+resident,Brynglas Road.,6,,J. I.,McLaren,M.B.
+resident,Brynglas Road.,8,,David,Jones,factory
+cross_street,Brynglas Road.,,,,,,"here is Prospect-street."
+resident,Brynglas Road.,10,,Alfred,Whittaker,,
+resident,Brynglas Road.,12,,Chas.,Bickley,L.&N.W.R.
+resident,Brynglas Road.,14,,Alfred James,Phillips,,
+resident,Brynglas Road.,16,,John,Piaggi,moulder
+resident,Brynglas Road.,18,,William,Stokes,traveller
+resident,Brynglas Road.,20,,Arthur,Rowley,grocer
+resident,Brynglas Road.,22,,Charles,Thomas,mason
+resident,Brynglas Road.,24,,Henry,Cookson,guard
+resident,Brynglas Road.,26,,John,Morris,mariner
+resident,Brynglas Road.,28,,Daniel,Davies,Christmas
+resident,Brynglas Road.,30,,Mrs Alice,Webb,,
+resident,Brynglas Road.,32,,Thos.,Thomas,pat. maker
+resident,Brynglas Road.,34,,John,Day,,
+resident,Brynglas Road.,36,,Chas. L.,Lewis,milkman
+cross_street,Brynglas Road.,,,,,,"here is Chelston-place."
+resident,Brynglas Road.,38,,Frank,Obourn,,
+resident,Brynglas Road.,40,,Walton,Evans,factory
+resident,Brynglas Road.,42,,Regd.,Richards,carpenter
+resident,Brynglas Road.,44,,Frank,Dyer,,
+resident,Brynglas Road.,46,,Wm.,Kent,assistant
+resident,Brynglas Road.,48,,Fred,Jennings,waiter
+resident,Brynglas Road.,50,,T. J.,Harrington,,
+resident,Brynglas Road.,52,,,Void,,
+resident,Brynglas Road.,54,,George,Armstead,,
+resident,Brynglas Road.,56,,,Void,,
+resident,Brynglas Road.,58,,,do,,
+resident,Brynglas Road.,60,,,do,,
+resident,Brynglas Road.,69,,Philip,Noble,,
+cross_street,Brynglas Road.,,,,,,"entrance to Crindau villas."
+cross_street,Brynglas Road.,,,,,,"(return.)"
+resident,Brynglas Road.,,ALL SAINTS CHURCH,,,
+resident,Brynglas Road.,1,Morthoe,John,Jones,,
+street,Bryngwyn Road.,,,,,,"From 13 Clytha-park-road."
+resident,Bryngwyn Road.,2,The Leys,Wm.,Tanner,,
+resident,Bryngwyn Road.,4,Downfield,H. J.,Pillinger,,
+resident,Bryngwyn Road.,6,Arbaland,Mrs M.,Quarm,,
+resident,Bryngwyn Road.,8,Brookfield,Geo. T.,Taylor,,

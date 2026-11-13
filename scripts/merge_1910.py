@@ -26,7 +26,9 @@ try:
         reader = csv.reader(f_new)
         new_header = next(reader) # Skip header
         for row in reader:
-            new_records.append(row)
+            if len(row) < len(header):
+                row.extend([""] * (len(header) - len(row)))
+            new_records.append(row[:len(header)])
 except FileNotFoundError:
     print(f"Warning: {cleaned_csv} not found. No new records merged.")
 

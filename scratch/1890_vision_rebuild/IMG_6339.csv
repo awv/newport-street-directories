@@ -1,0 +1,132 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,Con,24,,,Wm.,Millinship,moulder,
+resident,Con,25,,,Hy.,James,engineman,
+resident,Con,26,,,Geo.,Goodwin,haulier,
+resident,Con,27,,,Geo.,Morse,coal shipper,
+resident,Con,28,,,Charles,Holtom,haulier,
+resident,Con,29,,,Jno.,Sullivan,labourer,
+resident,Con,30,,,Jno.,Jones,coal shipper,
+resident,Con,31,,,Jno.,Pritchard,labourer,
+resident,Con,32,,,Thos.,Lewis,painter,
+resident,Con,33,,,Richd.,French,labourer,
+cross_street,Con,,,,,,See also the Docks.
+street,Constable's Lane.,,,,,,"From 109 Commercial-road."
+street,Constance Street.,,,,,,"From Caerleon-rd. to Railway"
+resident,Constance Street.,1,Sunnydale house,Mrs. E.,Dawkins,,
+resident,Constance Street.,2,Penrose ho,C. E.,George,,
+resident,Constance Street.,3,Oak view ho,Chas.,Fennell,,
+resident,Constance Street.,4,Pemberton ho,Mrs. J.,Ball,,
+resident,Constance Street.,5,,,,House—void,
+resident,Constance Street.,6,,,Alfred J.,Gale,grocer,
+resident,Constance Street.,,,,Two houses—void,,
+resident,Constance Street.,,,,House and shop—void,,
+street,Coomassie Street.,,,,,,"From 30 Mill-parade to Alexandra-road."
+cross_street,Coomassie Street.,,,,,,[Left-hand side.]
+resident,Coomassie Street.,,,,Charles,Cox,accountant,
+resident,Coomassie Street.,,,,Chas.,Lawrence,mast. mar.,
+resident,Coomassie Street.,,,,Thos.,Allison,boilermaker,
+resident,Coomassie Street.,7,,,Houses building,,
+cross_street,Coomassie Street.,,,,,,[Right-hand side.]
+resident,Coomassie Street.,1,,,Thomas,Hawkins,,
+resident,Coomassie Street.,,,,John,Evans,haulier,
+resident,Coomassie Street.,2,,,Lazarus,Morgan,lab'rer,
+resident,Coomassie Street.,3,,,Wm.,Pritchard,dockman,
+resident,Coomassie Street.,4,,,Wm.,Gapper,mast. mar.,
+resident,Coomassie Street.,5,,,John T.,Crump,riveter,
+resident,Coomassie Street.,6,,,Chas.,Allen,labourer,
+resident,Coomassie Street.,7,,,Thos.,Knapman,haulier,
+resident,Coomassie Street.,8,,,W. B.,Evans,shipper,
+resident,Coomassie Street.,9,,,Wm.,Kenmure,timek'pr,
+resident,Coomassie Street.,10,,,George,Harris,haulier,
+resident,Coomassie Street.,,,,R. and Son,Arthur,engineers etc.,Newcastle engine works
+resident,Coomassie Street.,11,,,T. sen.,Knapman,haulier,
+resident,Coomassie Street.,12,,,James,Venn,rigger,
+resident,Coomassie Street.,13,,,Henry,Hill,puddler,
+resident,Coomassie Street.,14,,,Chas.,Hood,coal trimmer,
+resident,Coomassie Street.,15,,,Jesse,Doel,fitter,
+resident,Coomassie Street.,16,,,Joseph,Smith,engineer,
+street,Corn Street.,,,,,,"From 14 Commercial-street to Canal-parade."
+resident,Corn Street.,,,,Hy.,Gustard,solicitor and notary public,Mon. County Council offices
+resident,Corn Street.,,,,Wm.,Tanner,surveyor,Lawrence John
+cross_street,Corn Street.,,,,,,"here is Mullock's-court."
+resident,Corn Street.,3,,,Ed.,Powell,shopkeeper,
+resident,Corn Street.,4,,,Wm.,Barrett,labourer,
+resident,Corn Street.,5,,,T. S.,Stratton,umbrella maker,
+cross_street,Corn Street.,,,,,,"here is Dock-street."
+resident,Corn Street.,,,,Model Lodging houses,,
+resident,Corn Street.,12-3,,,Alf.,Davies,lodging ho,
+cross_street,Corn Street.,,,,,,(return.)
+resident,Corn Street.,14,,,G. F.,Sharrem,builder & Venetian blind mftr.,
+resident,Corn Street.,15,,,Wm.,Parsons,wareho'mn,
+resident,Corn Street.,16,,,Geo.,Watkins,foreman,
+resident,Corn Street.,17-8,Potter's Arms,Dl.,Davies,,
+cross_street,Corn Street.,,,,,,"here is Dock-street."
+resident,Corn Street.,,,,W. & Co. Limited,Evans,"flour & provision mer's"
+resident,Corn Street.,24,,,John,Rumble,labourer,
+resident,Corn Street.,25,,,Geo.,Lixton,labourer,
+resident,Corn Street.,26,,,Newland C.,work. jewellr,
+street,Courtybella St. P.,,,,,,"From 111 Commercial-road to Temple-street."
+resident,Courtybella St. P.,1,,,Mrs. Catherine,Reardon,,
+resident,Courtybella St. P.,2,,,Mrs. Catherine,Connor,,
+resident,Courtybella St. P.,3,,,James,Hooper,labourer,
+resident,Courtybella St. P.,4,,,Fredk.,Sweeting,lab'rer,
+resident,Courtybella St. P.,5,,,Jas.,Sheeney,labourer,
+resident,Courtybella St. P.,6,,,Robt.,Tolcher,labourer,
+resident,Courtybella St. P.,7,,,Timothy,Coughlan,tailor,
+resident,Courtybella St. P.,8,,,Wm.,Watkins,haulier,
+resident,Courtybella St. P.,9,,,Saml.,Watkins,labourer,
+resident,Courtybella St. P.,10,,,Henry,Jones,coaler,
+resident,Courtybella St. P.,11,,,Jno.,Cummings,labourer,
+resident,Courtybella St. P.,12,,,Wm.,Power,shipwright,
+resident,Courtybella St. P.,13,,,Mich.,Mulcahy,hobbler,
+cross_street,Courtybella St. P.,,,,,,"here is New-street."
+resident,Courtybella St. P.,14,,,John,Wilson,mariner,
+resident,Courtybella St. P.,15,,,James,West,fireman,
+resident,Courtybella St. P.,16,,,Jno.,Mapstone,labourer,
+resident,Courtybella St. P.,17,,,Chas.,Hughes,coal trimr,
+resident,Courtybella St. P.,18,,,Thos.,Owens,labourer,
+resident,Courtybella St. P.,19,,,Evan,Williams,hobbler,
+resident,Courtybella St. P.,20,,,Jas.,Lurvey,seaman,
+resident,Courtybella St. P.,21,,,Thos.,Hughes,coal trim'r,
+resident,Courtybella St. P.,22,,,Mrs. Eliza,Wetherill,,
+resident,Courtybella St. P.,23,,,George,Strode,labourer,
+street,Courtybella Terrace.,,,,,,"From 1 Alexandra-road to Spring-gardens."
+resident,Courtybella Terrace.,,,,Nos. 1 to 5 taken down,,
+resident,Courtybella Terrace.,6,,,Mrs. Harriet,Pring,,
+resident,Courtybella Terrace.,7,,,Hy.,Cole,labourer,
+resident,Courtybella Terrace.,8,,,Newport Engineering & Ship Repairing Co.,,
+resident,Courtybella Terrace.,9,,,D. B. & Co.,McCallum,brass founders & copper smiths,
+resident,Courtybella Terrace.,10,,,Dl.,Crowley,hobbler,
+resident,Courtybella Terrace.,11,,,Mrs. Mary,Roycroft,,
+resident,Courtybella Terrace.,12,,,Oliver,Huish,labourer,
+resident,Courtybella Terrace.,,,,and Dix,Thomas,ship-smiths and engineers,
+resident,Courtybella Terrace.,,,,Alexandra Coal Company,,
+resident,Courtybella Terrace.,,,,Jas.,Dyer,lime works,
+resident,Courtybella Terrace.,13,,,Wm.,Strode,coal trim'r,
+resident,Courtybella Terrace.,14,,,Mary Ann,Dyer,,
+resident,Courtybella Terrace.,15,,,Charles,Price,labourer,
+resident,Courtybella Terrace.,16,Cumberland House,Jane,Bickerstaff,,
+resident,Courtybella Terrace.,17,,,George J.,Cox,mariner,
+resident,Courtybella Terrace.,18,,,John,Evans,grocer,
+resident,Courtybella Terrace.,19,,,Wm.,Matthews,grocer and baker,
+cross_street,Courtybella Terrace.,,,,,,"here is Baldwin-street."
+resident,Courtybella Terrace.,20,,,Henry,Williams,haulier,
+resident,Courtybella Terrace.,21,,,Thomas,Dunn,labourer,
+resident,Courtybella Terrace.,22,,,Dl.,Herbert,platelayer,
+resident,Courtybella Terrace.,23,,,George,Stone,milkman,
+resident,Courtybella Terrace.,,,,Rosser,George,coal mer,
+cross_street,Courtybella Terrace.,,,,,,"here is Jeddo-street."
+resident,Courtybella Terrace.,,Royal Oak,Wm.,Gibbs,,
+cross_street,Courtybella Terrace.,,,,,,"here is Lime-street."
+resident,Courtybella Terrace.,24,,,W. C.,Johns,grocer,
+resident,Courtybella Terrace.,25,,,Wm.,Chicken,fitter,
+resident,Courtybella Terrace.,26,,,Chas. E.,John,tug boat,
+cross_street,Courtybella Terrace.,,,,,,"here is Price-street."
+resident,Courtybella Terrace.,,,,Mon. Wagon Co.'s repairing shops,,Till Bank yard
+cross_street,Courtybella Terrace.,,,,,,"here is Robert-street."
+resident,Courtybella Terrace.,27,,,Hy.,Lawrence,coal mer and ironfounder,
+resident,Courtybella Terrace.,28,,,Jno.,Walker,engine drivr,
+resident,Courtybella Terrace.,29,,,Thos.,Embrey,eng. driver,
+resident,Courtybella Terrace.,30,,,Hy.,Corfield,eng. driver,
+street,Corn Exchange Chambers.,,,,,See High-street.
+street,Courtybella.,,,,,From Cardiff-road.

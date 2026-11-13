@@ -1,0 +1,85 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Windsor Terrace,,,,,,(facing Windsor Crescent)
+resident,Windsor Terrace,1,,Wm.,Richards,foreman,
+resident,Windsor Terrace,2,,Mrs Richard,Phillips,,
+resident,Windsor Terrace,3,,W.,Frost,agent,
+resident,Windsor Terrace,4,,Charles,Parkinson,,
+resident,Windsor Terrace,5,,Thos. J.,Watkins,clerk,
+resident,Windsor Terrace,6,,H.,Praill,mangr. Telegram,
+resident,Windsor Terrace,7,,Edwin S.,Ward,clerk,
+resident,Windsor Terrace,8,,Edwd.,Gower,mechanic,
+resident,Windsor Terrace,9,,Wm.,James,,
+resident,Windsor Terrace,10,,J.,Walters,relieving offic'r,
+resident,Windsor Terrace,11,,E. B.,Blackborow,,
+resident,Windsor Terrace,,,F. H.,Selden,land surveyor,
+street,Winmill Street,,,,,,(fr. John st. to S. Market st.)
+resident,Winmill Street,1,,,Phillips & Sons,wine mer,
+resident,Winmill Street,2,,Philip W.,James,fireman,
+resident,Winmill Street,3,,Benj.,James,seaman,
+resident,Winmill Street,4,,Mrs B.,Bennett,,
+resident,Winmill Street,5,,James,McGrath,labourer,
+resident,Winmill Street,6,,Henry,Morris,seaman,
+resident,Winmill Street,7,,Mrs Sarah,Williams,,
+resident,Winmill Street,8,,Peter,Bordessa,clerk,
+cross_street,Winmill Street,,,,,,"(return)"
+resident,Winmill Street,9,,Mrs.,Waters,,
+resident,Winmill Street,10,,George,Roberts,dresser,
+resident,Winmill Street,11,,John,Corbin,labourer,
+street,Withey Bed,,,,,,(see Dos road.)
+street,Wolseley Street,,,,,,(from 23 Watchhouse parade)
+resident,Wolseley Street,1,,J.,Stevens,general dealer,
+resident,Wolseley Street,2,,J.,Brown,rigger,
+resident,Wolseley Street,3,,J.,Morgan,labourer,
+resident,Wolseley Street,4,,Wm.,Carthy,shoemaker,
+resident,Wolseley Street,5,,Jos.,Attwell,labourer,
+resident,Wolseley Street,6,,Mrs.,Lynch,,
+resident,Wolseley Street,7,,Wm.,Friend,smith,
+resident,Wolseley Street,8,,Charles,Handford,labr.,
+street,Wyndham Street,,,,,,(entrance to the Marshes).
+resident,Wyndham Street,,,Charles,Meredith,shop,
+resident,Wyndham Street,,,Charles,Rappel,builder,
+resident,Wyndham Street,,,Jas.,Hooper,manager,Public Slaughter Houses
+resident,Wyndham Street,,,Enoch,Griffiths,bake house,
+street,Wyndham Terrace,,,,,,(See Marshes road)
+street,York Place,,,,,,(from 54 Stow hill)
+resident,York Place,,,Hugh,Morgan,Kensington v.,
+resident,York Place,2-3,,Henry James,Moss,,
+resident,York Place,4,,Mrs.,Stephens,,
+resident,York Place,5,,Rev. J.,Douglas,,(Baptist)
+resident,York Place,6,,David Lloyd,Davies,,
+resident,York Place,7,,T.,Cooper,Smith,clerk
+resident,York Place,8,,James,Tucker,corn mer.,
+resident,York Place,9,,Rev. T. L.,Lister,,
+resident,York Place,10,,David Edward,Davies,,
+resident,York Place,11,,G. J.,Kenvyn,,
+resident,York Place,12,,G. T.,Rogers,prof. of music,
+resident,York Place,,,Jas. E.,Gething,Brodawel,
+cross_street,York Place,,,,,,"(return)"
+resident,York Place,21,,Thomas,Howell,,
+resident,York Place,22,,Delamark,Ingleton,,
+resident,York Place,23,,Thomas,Horton,,
+resident,York Place,24,,James,Paton,,
+resident,York Place,25,,Mrs.,Rennie,,
+resident,York Place,,,Rev. D.,Wilkes,,(Trinity)
+resident,York Place,26,,Mrs M. A.,Evans,,
+resident,York Place,27,,James,Wood,,
+resident,York Place,28,,Misses,Stone,,
+resident,York Place,29,,Rev. T. D.,Griffiths,,
+resident,York Place,30,,Mrs Henrietta,Matthews,,
+resident,York Place,31,,J.,Bucknall,draughtsman,
+resident,York Place,32,,Mrs Henry,Newton,,
+resident,York Place,,,Ed.,Bellerby,cashier,
+resident,York Place,33,,H. H.,Monro,teacher,
+resident,York Place,34,,Rev. D.,Bowen,,(S. Woolos)
+resident,York Place,,,Rev. J.,Rees,,(S. Mark's)
+resident,York Place,35,,J.,Green,Whittall,
+resident,York Place,36,,William,Ward,,
+resident,York Place,37,,Charles Edwd.,Morgan,,
+resident,York Place,38,,William,Routley,,
+resident,York Place,39,,Thomas H. B.,Harris,,
+resident,York Place,40,,Mrs.,Coombs,,
+resident,York Place,41,,Miss,Whittaker,,
+resident,York Place,42,,Robert,Hunter,,
+resident,York Place,43,,Edward,Thomas,,
+resident,York Place,44,,Fk.,Gibbons,Clyde house,
+resident,York Place,45,,Jas. H.,Wynn,,

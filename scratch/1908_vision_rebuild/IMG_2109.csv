@@ -1,0 +1,153 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,,27,Jesmond Dene,Kenwyn Griffith,Davies,,
+resident,,29,Ivy Dene,H. A.,Beech,,
+resident,,31,Mt. view,E. J.,Culverwell,,
+resident,,33,Oakhurst,Dyson,Parfitt,,
+resident,,35,Dalehurst,Wm.,Morgan,,
+resident,,37,Hilcrest,Peter,Wright,,
+resident,,39,Southview,A. J.,Spear,,
+resident,,41,Rothesay,Mrs. E. M.,Slater,,
+resident,,43,Ash villa,George,Kyd,,
+resident,,45,Oak view,Mrs. Titus,Lewis,,
+resident,,47,Huscote,John A.,Young,,
+resident,,,Normanhurst,Mrs. E. M.,Parnall,,
+resident,,,,,,Vacant sites
+cross_street,,,,,,,(return)
+resident,,,Myrtle cot,James,Frowen,,
+resident,,,Tenby cot,Thos.,Johnson,,
+resident,,,Westview,Hannibal,Chinn,,
+cross_street,,,,,,,here is Whitstone-road.
+cross_street,,,,,,,here is Diana-street.
+resident,,,,George,Ball,grocer,
+resident,,,Beechwood villa,Norman T. J.,Moses,,
+resident,,,The Garn,,,[void],
+resident,,,Laurel,Arch. R.,Edwards,,
+resident,,,Fern villa,P. G.,Gale,,
+resident,,,Corsley,Arthur H.,Goss,,
+resident,,,Raskelf,A. J.,Shepherd,,
+resident,,,Sea view,,,[void],
+resident,,,Park view,Mrs.,Lennox,,
+resident,,,Westwood,Reg.,Tuffin,,
+resident,,,Brooklyn,,,[void],
+resident,,,Broughton,Evans,,,
+resident,,,Kenilworth,C. A.,Williams,,
+resident,,,,,,Vacant sites
+resident,,,Cora Linn,J. C.,Bell,,
+resident,,22,,,N. A.,Pugh,,
+resident,,20,,,[void],St. Kilda,
+resident,,18,Sunfield,Dd.,Thomas,,
+resident,,16,Cwmdu,Thos.,Emery,,
+resident,,14,The Dingle,Frank,Eady,,
+cross_street,,,,,,,here is Carey-road.
+resident,,12,Ingleside,Arthur,Baker,,
+resident,,10,Cotsmore,John,Gordon,,
+resident,,8,Bundarra,Herbt.,Jones,,
+resident,,6,Shireland,F. W.,Everson,,
+resident,,4,Kenmuir,Fk.,Greathead,,
+resident,,2,Iona ho,A. H.,Felton,,
+resident,,4,,,Thos.,Pearson,glass works
+resident,,5,,,Thos.,Steel,do.
+resident,,6,,,Alfred,Ware,do.
+resident,,7,,,Oliver,Purnell,do.
+resident,,8,,,H. B.,Thompson,do.
+resident,,9,,,A.,Saunders,do.
+resident,,10,,,James,Holder,do.
+resident,,11,,,F.,Lacombe,bottlemaker
+resident,,12,,,Frank,Hadley,glass works
+resident,,13,,,[Void],,
+resident,,14,,,Geo.,Hadley,glass works
+resident,,15,,,Wm.,Davies,do.
+resident,,16,,,Robert,Williams,fitter
+resident,,17,,,Wm.,Taylor,glass works
+resident,,18,,,Thos.,Powell,do.
+resident,,19,,,W.,Hutchinson,do.
+resident,,20,,,Jas.,Waddington,do.
+resident,,21,,,Jas.,Parkin,glass works
+resident,,22,,,Fredk.,Power,do.
+resident,,23,,,E.,Fouweather,do.
+resident,,24,,,Jos.,Bywater,do.
+resident,,25,,,[Void],,
+resident,,,Arnsbrae ho,Jas.,Adamson,,
+street,Glebe Street,C 3,,,,,"From Livingstone-place."
+cross_street,,,,,,,[RIGHT HAND SIDE]
+resident,Glebe Street,1,,,W. H.,Williams,groom,
+resident,Glebe Street,2,,,Thomas,Dowsell,mason,
+resident,Glebe Street,3,,,John T.,Wilkins,labourer,
+resident,Glebe Street,4,,,Esaias,Pewtner,,
+resident,Glebe Street,5,,,Mrs.,Small,,
+resident,Glebe Street,6,,,Hy.,Groom,ironworker,
+resident,Glebe Street,7,,,William,Hodge,labourer,
+resident,Glebe Street,8,,,Isaac,Hodge,labourer,
+resident,Glebe Street,9,,,Thomas,Mansfield,,
+resident,Glebe Street,10,,,James,Page,labourer,
+resident,Glebe Street,11,,,Fredk.,Buller,stableman,
+resident,Glebe Street,12,,,Thos.,Witchard,labourer,
+resident,Glebe Street,13,,,John,Edwards,saddler,
+resident,Glebe Street,14,,,James,Lewis,labourer,
+resident,Glebe Street,15,,,H. J.,Thomas,labourer,
+resident,Glebe Street,16,,,Thos.,Williams,labourer,
+resident,Glebe Street,17,,,David,Evans,labourer,
+resident,Glebe Street,18,,,William,Beighton,haulier,
+resident,Glebe Street,19,,,Benjamin,Cross,grocer,
+resident,Glebe Street,20,,,Joseph,Purcell,,
+resident,Glebe Street,21,,,Jas.,Portsmouth,gardener,
+resident,Glebe Street,22,,,Saml.,Starr,general grocer
+cross_street,,,,,,,(return)
+resident,Glebe Street,23,,,George,Vincent,haulier,
+resident,Glebe Street,24,,,Benj.,Warry,labourer,
+resident,Glebe Street,25,,,Henry,Phillips,labourer,
+resident,Glebe Street,26,,,John,Ireland,,
+resident,Glebe Street,27,,,John,Fitzgerald,,
+resident,Glebe Street,28,,,Henry,Dyer,labourer,
+resident,Glebe Street,29,,,D.,Hughes,signal fitter,
+resident,Glebe Street,30,,,Geo.,Framptou,eng. fitter,
+resident,Glebe Street,31,,,Jas. Wm.,Page,painter,
+resident,Glebe Street,32,,,Geo.,Collins,carpenter,
+resident,Glebe Street,33,,,George,Smaill,mason,
+resident,Glebe Street,33a,,,[Void],,
+resident,Glebe Street,34,,,Thomas,Gosuew,,
+resident,Glebe Street,35,,,Jeremiah,Gallivan,,
+resident,Glebe Street,36,,,Ed. J.,Lewis,ironworker,
+resident,Glebe Street,37,,,Albert,Kelson,seaman,
+resident,Glebe Street,38,,,Mrs. Mary,Jordan,,
+resident,Glebe Street,39,,,James,Dyer,labourer,
+resident,Glebe Street,40,,,Wm.,Stevens,labourer,
+resident,Glebe Street,41,,,[Void],,
+resident,Glebe Street,42,,,Wm.,Nelson,carpenter,
+street,Gloucester Chambers,,,,,,See 33 High-street.
+street,Glo'ster Place,C 3,,,,,"From 1 Church-road."
+resident,Glo'ster Place,1,,,J.,Clements,engine driver,
+resident,Glo'ster Place,2,,,Augustus,Tanner,,
+resident,Glo'ster Place,3,,,William,Smale,labourer,
+resident,Glo'ster Place,4,,,Edwin,King,moulder,
+resident,Glo'ster Place,5,,,Albert,Williams,haulier,
+resident,Glo'ster Place,6,,,Augustus,Jenkins,,
+resident,Glo'ster Place,7,,,William,Sambrook,,
+resident,Glo'ster Place,8,,,David,Moss,wheelwright,
+resident,Glo'ster Place,9,,,D. J.,Banks,,
+resident,Glo'ster Place,10,,,Robt.,Wright,hairdresser,
+street,Glo'ster Street,C 3,,,,,"From Junction-rd to Schools."
+resident,Glo'ster Street,1,,,Charles,Orpin,bricklayer,
+resident,Glo'ster Street,2,,,Thos.,Rowe,shoemaker,
+resident,Glo'ster Street,3,,,William,Savager,mason,
+resident,Glo'ster Street,4,,,Edward,Fletcher,hawker,
+resident,Glo'ster Street,5,,,[Void],,
+cross_street,,,,,,,(return)
+resident,Glo'ster Street,10,,,J.,Murphy,costermonger,
+resident,Glo'ster Street,11,,,Mrs. Ellen,Richards,,
+resident,Glo'ster Street,12,,,George,Davies,,
+resident,Glo'ster Street,13,,,Elijah,Barton,smith,
+street,Godfrey Road,C 5,,,,,"From Bridge-st. to Fields-rd."
+cross_street,,,,,,,[LEFT HAND SIDE]
+resident,Godfrey Road,,,A. S. & Co.,Morgan,builders,
+resident,Godfrey Road,2,,,Mrs. Catherine,Williams,,
+resident,Godfrey Road,3,Barfield,J.,Griffith Jones,,
+resident,Godfrey Road,4,Kelvin grove,J.,Kenward,,
+resident,Godfrey Road,5,Elsinore,Mrs. A.,James,,
+resident,Godfrey Road,6,Homewood,Mrs E.,Brewer,,
+resident,Godfrey Road,7,Sidmouth h,A. G.,Maggs,,
+resident,Godfrey Road,8,Annesley h,Chas. S.,Jones,,
+street,Glass Works Cottages,B 4,,,,,"From Albany-street."
+resident,Glass Works Cottages,1,,,John,Starr,glass works,
+resident,Glass Works Cottages,2,,,J.,Rawlinson,do.,
+resident,Glass Works Cottages,3,,,J.,Fouweather,do.,

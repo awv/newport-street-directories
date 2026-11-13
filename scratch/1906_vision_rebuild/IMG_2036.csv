@@ -1,0 +1,147 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,Sto,,"Briar hill",Robt.,Gething,,""
+resident,Sto,5,"Braeside",Wm. Geo.,Cox,,
+resident,Sto,6,,H. J.,Griggs,,"Viletta"
+resident,Sto,7,,G. R.,Martyn,J.P.,Skelmorlie
+cross_street,Sto,,,(return.),,,
+resident,Sto,10,,F. R.,Bates,,"Minevia"
+resident,Sto,11,,Mrs. E. P.,Jones,,"Woodside"
+resident,Sto,12,,J. E.,Davies,,"Dunmarklyn"
+resident,Sto,15,,F. S.,Budd,,"Ferncliffe"
+resident,Sto,16,,A. P.,Williams,,"Draycot vil"
+resident,Sto,17,,Walt.,Hunter,,"Severn vil"
+resident,Sto,18,,Miss S. E.,Davies,,"Holmesview"
+street,Stow Park Gardens, D 6,,,,,""
+notes,Stow Park Gardens, D 6,,,,,Nos. 12-22 Stow Park-avenue
+street,Stow Park Road, D 6,,,,,""
+notes,Stow Park Road, D 6,,,,,Now Stow Park-avenue.
+street,Stow Passage, D 5,,,,,"From 82 Stow-hill."
+resident,Stow Passage, D 5,1,,,,,"Void"
+resident,Stow Passage, D 5,2,,,William,Lewis,labourer,
+resident,Stow Passage, D 5,3,,,William,Taylor,labourer,
+resident,Stow Passage, D 5,4,,,Mrs. Norah,Connors,,
+resident,Stow Passage, D 5,5,,,Geo.,Willmett,eng. driver,
+resident,Stow Passage, D 5,6,,,,,"Void"
+resident,Stow Passage, D 5,7,,,John,Hannan,labourer,
+resident,Stow Passage, D 5,8,,,James,Tobin,labourer,
+street,Suedshill Street, E 3,,,,,"Off Corporation-road."
+street,Summerhill Aven., C 3,,,,,"Right side Christchurch-road to Victoria-avenue."
+resident,Summerhill Aven., C 3,1,,,,,"Void"
+resident,Summerhill Aven., C 3,2,,,Thomas,Isaacs,traveller,
+resident,Summerhill Aven., C 3,3,,,Alfred,Taylor,traveller,
+resident,Summerhill Aven., C 3,4,,,Mrs. Emma,Watkins,,
+resident,Summerhill Aven., C 3,5,,,David,Fisher,carpenter,
+resident,Summerhill Aven., C 3,6,,,Young,Swanton,plasterer,
+resident,Summerhill Aven., C 3,7,,,George,Shepherd,teacher,
+resident,Summerhill Aven., C 3,8,,,Wm. C.,Forward,carpntr,
+resident,Summerhill Aven., C 3,9,,,R. H.,Townsend,,
+resident,Summerhill Aven., C 3,10,,,Charles,Evans,,
+resident,Summerhill Aven., C 3,11,"Hillside",James,Poole,,
+resident,Summerhill Aven., C 3,12,"Brynview",Geo.,Morgan,,
+resident,Summerhill Aven., C 3,13,,,Jas. T.,Morris,builder,
+resident,Summerhill Aven., C 3,14,"Craigside",James,Francis,,
+resident,Summerhill Aven., C 3,15,"The Firs",F. J.,Kimpton,,
+resident,Sto,16,,,Henry,Cockcroft,,
+resident,Sto,17,,,H. J.,Hill,,"Northernhaye"
+resident,Sto,18,,,W. P.,Williams,,"The View"
+resident,Sto,19,,,J.B.,Williams,,"Ravenswood"
+resident,Sto,20,,,,,"Void"
+resident,Sto,21,,,Mrs. S.,Webber,,"Ilfracombe"
+resident,Sto,22,,,villa,Aberystwith,,"void"
+resident,Sto,23,,,W.,Charles,,"Cardigan v"
+cross_street,Sto,,,,here is Albert-avenue,,,
+resident,Sto,30,,,S.,Taylor,baker,
+cross_street,Sto,,,(return.),,,
+resident,Sto,31,,,Arthur,Wells,clerk,
+resident,Sto,32,,,Ed.,Simpson,plasterer,
+resident,Sto,33,,,Wm.,Morton,coachbuildr
+resident,Sto,34,,,Alfred,Hando,G.P.O.
+resident,Sto,35,,,Mrs. Wm.,Cheeseman,,
+resident,Sto,36,,,Mrs. E.,Williams,,
+resident,Sto,,,A. W. J.,Evans,chemist,
+resident,Sto,37,,,Oliver,Eadie,manager,
+resident,Sto,38,,,W. H.,Gough,telegraph superintendent,
+resident,Sto,40,,,G. F.,Thorne,,"Rutland v"
+resident,Sto,41,,,Lloyd,Overstone,,"Arran v"
+resident,Sto,42,,,Wm.,Watkins,,"Peringa v"
+resident,Sto,43,,,Williams,J.P.,Sunny Mount,Edwards
+cross_street,Sto,,,,SUMMER HILL VILLAS-,,,
+resident,Sto,44,,,Rev. G. H. (Baptist),Cook,,
+resident,Sto,45,,,R.,Twist,,"Clwyd villa"
+resident,Sto,46,,,Mrs.,Watkins,,"TheRetreat"
+resident,Sto,47,,,Edwin,Cherry,,
+resident,Sto,48,,,Glenview,,"void",
+resident,Sto,49,,,A.,Searle,,"Brynderwyn"
+street,Sutton Road, B 3,,,,,"West of Durham-road."
+cross_street,Sutton Road, B 3,,,,[LEFT HAND SIDE],,,
+resident,Sutton Road, B 3,1,,,Alfred,Sandey,agent,
+resident,Sutton Road, B 3,3,,,Mrs. Fanny,James,,
+resident,Sutton Road, B 3,5,,,J.,Walters,insur. agent,
+resident,Sutton Road, B 3,7,,,Wm.,Whitson,carpenter,
+resident,Sutton Road, B 3,9,,,C.,Wall,mar. engr,Fredk.
+resident,Sutton Road, B 3,11,,,J. J.,Jones,printer,
+resident,Sutton Road, B 3,13,,,Fredk. E.,Green,painter,
+resident,Sutton Road, B 3,15,,,Albert,Jackson,plumber,
+resident,Sutton Road, B 3,17,,,Edward,Evans,signalman,
+resident,Sutton Road, B 3,19,,,C.,Ashill,Wm. shunter,
+resident,Sutton Road, B 3,21,,,T.W.,Phillips,genl haulier,
+resident,Sutton Road, B 3,23,,,Thos.,Jones,brick works,
+resident,Sutton Road, B 3,25,,,Chas.,Alford,Wm. fitter,
+resident,Sutton Road, B 3,27,,,Albert,Lewis,plumber,
+resident,Sutton Road, B 3,29,,,Percy,Hale,carpenter,
+resident,Sutton Road, B 3,31,,,John,Bale,manager,
+resident,Sutton Road, B 3,33,,,Thomas C.,Jewell,H.M.C.
+resident,Sutton Road, B 3,35,,,Andrew,Jewell,sailmaker
+resident,Tal,37,,,Henry,Milton,traveller,
+resident,Tal,39,,,Sydney,Lewis,sheetwghr
+resident,Tal,41,,,Albert,Moseley,police,
+resident,Tal,43,,,Ernest,Wade,carpenter,
+resident,Tal,45,,,Robert O.,Evans,fitter,
+resident,Tal,47,,,Albert Wm.,Foxon,guard,
+resident,Tal,49,,,David Thos.,Hill,shunter,
+resident,Tal,51,,,Edwd. G.,Summers,ins.agt,
+resident,Tal,53,,,William,Hodges,printer,
+resident,Tal,55,,,Reg. Jas.,Jones,plumber,
+resident,Tal,57,,,Harry T.,Dale,butcher,
+cross_street,Tal,,,,here is Oak-street.,,,
+resident,Tal,59,,,Wm.,Dunning,shipwright,
+resident,Tal,61,,,Jas.,Mountford,H.M.C.,
+resident,Tal,,,,,"Vacant sites",
+resident,Tal,,,,,"Houses building",
+cross_street,Tal,,,(return.),,,
+resident,Tal,,,,,"Vacant sites",
+resident,Tal,,,,,"Houses building",
+cross_street,Tal,,,,here is Oak-street.,,,
+resident,Tal,60,,,William,Parven,clerk,
+resident,Tal,58,,,Albert,Gale,plumber,
+resident,Tal,56,,,Dd.,Davies,asst.schoolmtr,
+resident,Tal,54,,,Jas.,Chidzey,Thos. guard,
+resident,Tal,52,,,William,Dunn,seaman,
+resident,Tal,50,,,Chas.,Short,ship carpentr,
+resident,Tal,48,,,G. R.,Hart,salesman,
+resident,Tal,46,,,Geo.,Dawson,hairdresser,
+resident,Tal,44,,,Harold J.,Moses,clerk,
+resident,Tal,42,,,William,Beale,manager,
+resident,Tal,40,,,Albert F.,Phillips,H.M.C.,
+resident,Tal,38,,,Jas.,Whitehouse,electricn,
+resident,Tal,36,,,Isaac,Miles,checker,
+resident,Tal,34,,,Fredk.,Thomas,labourer,
+resident,Tal,32,,,Hy. J.,Meaker,painter,
+resident,Tal,30,,,Fred. G.,Vernon,traveller,
+resident,Tal,28,,,W.H.,Cruickshank,ins agt,
+resident,Tal,26,,,Edward,Brewer,seaman,
+resident,Tal,24,,,Jas.,Hartland,Sid. clerk,
+resident,Tal,22,,,Jas.,Wyatt,railwayman,
+resident,Tal,20,,,Sidney,Smith,labourer,
+resident,Tal,18,,,Thos.,Morgan,bricklayer,
+resident,Tal,16,,,Hy.,Price,plasterer,
+resident,Tal,14,,,John,Cromwell,printer,
+resident,Tal,12,,,W. H.,Williams,manager,
+resident,Tal,10,,,William,Chambers,clerk,
+resident,Tal,8,,,Geo. I.,Price,coachpaintr,
+resident,Tal,6,,,Ernest J.,Clarke,,
+resident,Tal,4,,,W. H.,Thompson,fitter,
+resident,Tal,2,,,J. H.,Blake,oil dealer,
+street,Talbot Lane, D 5,,,,,"From 5 Charles-street."
+resident,Talbot Lane, D 5,,,,Foslett & Co.,gasfitters,
+resident,Talbot Lane, D 5,,,,McLeod A.,tinsmith,

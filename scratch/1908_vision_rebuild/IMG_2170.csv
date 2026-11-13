@@ -1,0 +1,159 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Whitstone Road,,,,,,continued
+resident,Whitstone Road,,,Fredk.,Rich,,
+resident,Whitstone Road,,Penarth c,Reg.,Long,carpntr,
+resident,Whitstone Road,,Moss cot,Albert Ed.,Phelps,,
+resident,Whitstone Road,,Fir cot,Benj. J.,Bingall,labr.,
+resident,Whitstone Road,,Violet cot,Francis H.,Kettle,,
+resident,Whitstone Road,,Beechw'd,Jos.,Clarke,blrmkr,
+resident,Whitstone Road,,River view,Richard,Eardley,,
+resident,Whitstone Road,,,Wm.,Hunt,,
+resident,Whitstone Road,,,Walter,Grey,ironworker,
+resident,Whitstone Road,,Glendale,George,Whiting,,
+resident,Whitstone Road,,,James,Anderson,engineer,
+resident,Whitstone Road,,,W. dk. lab.,Warner,Landough,
+resident,Whitstone Road,,,John,Manners,signalman,
+resident,Whitstone Road,,Chepst'w,L. cy. mkr,Atkinson,,
+resident,Whitstone Road,,Wenvoe,Ivor,Davies,seaman
+resident,Whitstone Road,,Pursefield cottage,Wm.,Packington,labourer,
+resident,Whitstone Road,,,Bertie,Fontaine,plate worker,22 Bird David, guard
+resident,Whitstone Road,,Claremont cottage,John,May,ship carpenter,23
+resident,Whitstone Road,,Holme Lea,Thos.,Weaver,butcher,24 Gabb Edwin, fitter
+cross_street,Whitstone Road,,,,,(return),
+resident,Whitstone Road,,,George,Ball,grocer,
+cross_street,Whitstone Road,,,,,here is Diana-street.,
+resident,Whitstone Road,,,Peter,Sivertson,seaman,
+resident,Whitstone Road,,,Thomas,O'Leary,H.M.C.,
+resident,Whitstone Road,,,Joseph,Smith,fitter,
+resident,Whitstone Road,,,Wm.,Vincent,insur. agent,
+resident,Whitstone Road,,,William,Davies,farmer,
+resident,Whitstone Road,,,Charles,Jenkins,roller,
+resident,Whitstone Road,,,,,House void,
+resident,Whitstone Road,,,Charles,Hill,labourer,
+resident,Whitstone Road,,,Mrs. R.,Mills,,
+resident,Whitstone Road,,,William,Woodford,checker,
+resident,Whitstone Road,,,Wm. Jas.,Wilkins,labourer,
+resident,Whitstone Road,,,Henry,Dowden,brickmaker,
+resident,Whitstone Road,,,,,PENYLAN MISSION ROOM,
+resident,Whitstone Road,,Fern cottage,C. F.,Dimmack,,
+resident,Whitstone Road,,Rose cottage,Thos.,Smedley,,
+resident,Whitstone Road,,Hatherl'h,W.E.,Noad,gardner,
+resident,Whitstone Road,,1 Channel view,A.,Grandin,,
+resident,Whitstone Road,,2 do,G.,Rowe,dnr,
+resident,Whitstone Road,,Pleasantvw,C.stonemasn,Cox,,
+resident,Whitstone Road,,The Firs,H.,Collett,butcher,
+resident,Whitstone Road,,do,T.,Ball,eng. driver,
+resident,Whitstone Road,,Fair view,Jos.,Wood,coachmn,
+resident,Whitstone Road,,Claremont,Charles,Morgan,,
+resident,Whitstone Road,4,,,Glover,George,fitter
+resident,Whitstone Road,5,,,Murrow,Henry,sailmakr
+resident,Whitstone Road,6,,,Peters,Mrs. Mary,
+resident,Whitstone Road,7,,,Carter,Wm. J.,
+resident,Whitstone Road,8,,,Simmonds,Bert,
+resident,Whitstone Road,9,,,Gardiner,W. H.,eng. drvvr
+resident,Whitstone Road,10,,,Payne,John,coal shipper
+resident,Whitstone Road,11,,,Reade,Mrs Rachel,
+resident,Whitstone Road,12,,,Chappell,Albert,baker
+resident,Whitstone Road,13,,,Crawley,Park,boilersmth
+resident,Whitstone Road,14,,,Cox,William,fitter
+resident,Whitstone Road,15,,,Berry,Thomas,stoker
+resident,Whitstone Road,16,,,Ford,William,
+resident,Whitstone Road,17,,,Williams,Mrs. E. S.,
+resident,Whitstone Road,18,,,Harvey,Wm.,labourer
+resident,Whitstone Road,19,,,Hammett,John,carpenter
+resident,Whitstone Road,20,,,Turner,Wm.,labourer
+resident,Whitstone Road,21,,,Evans,Henry,
+resident,Whitstone Road,22,,,Bird,David,guard
+resident,Whitstone Road,23,,,May,John,ship carpenter
+resident,Whitstone Road,24,,,Gabb,Edwin,fitter
+resident,Whitstone Road,25,,,Morrison,John,brews'lab
+resident,Whitstone Road,26,,,David,Alfred,smith
+resident,Whitstone Road,27,,,Giddings,W. R. & Sons,decorators
+resident,Whitstone Road,,,,Giddings,W. R.,
+resident,Whitstone Road,28,,,Dalton,C. E.,J. ship cptr
+resident,Whitstone Road,29,,,Holmes,John,guard
+resident,Whitstone Road,30,,,Flynn,J. H.,stevedore
+cross_street,Whitstone Road,,,,,here is Charlotte-street.,
+resident,Whitstone Road,31,,,Evans,William John,
+resident,Whitstone Road,32,,,Baker,James,platelayer
+resident,Whitstone Road,,,Panting,Mrs. Ann,
+resident,Whitstone Road,33,,,Hayman,Wm.,engine dvr
+resident,Whitstone Road,34,,,Harris,John,baker
+resident,Whitstone Road,35,,,Attewell,Edmd.,moulder
+resident,Whitstone Road,36,,,Gillett,Thos. N.,haulier
+resident,Whitstone Road,37,,,Vincent,Thomas,smith
+resident,Whitstone Road,38,,,Cole,Wm.,patternmaker
+resident,Whitstone Road,39,,,Moore,James,builder and contractor
+resident,Whitstone Road,40,,,Pulley,Charles,
+resident,Whitstone Road,41,,,Pugsley,Edwin,ship'soffier
+resident,Whitstone Road,42,,,Phillips,F. J.,H.M.C.
+resident,Whitstone Road,42a,Fern cottage,Foster,F.,,
+cross_street,Whitstone Road,,,,,(return),
+resident,Whitstone Road,43,,,Kirby,James,bootmaker
+resident,Whitstone Road,44,,,Tibbles,Eli,mechanic
+resident,Whitstone Road,45,,,Castle,Saml.,ship carpntr
+resident,Whitstone Road,46,,,Williams,Watkin,trimmr
+resident,Whitstone Road,47,,,Davies,Jas.,guard, G.W.R.
+resident,Whitstone Road,48,,,Fontaine,John,labourer
+resident,Whitstone Road,49,,,Morgan,John Bright,
+resident,Whitstone Road,50,,,Dean,John,mason
+resident,Whitstone Road,51,,,Gibbons,Edwd.,moulder
+resident,Whitstone Road,52,,,Davey,Thomas James,
+resident,Whitstone Road,53,,,Viner,Mrs. Ellen,
+resident,Whitstone Road,,,,,,TREDEGAR WHARF SCHOOLS
+resident,Whitstone Road,54,,,May,Miss M. A.,
+cross_street,Whitstone Road,,,,,here is Charlotte-street.,
+resident,Whitstone Road,55,,,Trew,Digby F.,ins. agent
+resident,Whitstone Road,56,,,Clarke,Mrs. Sarah,
+resident,Whitstone Road,57,,,Langmaid,Miss M.,
+resident,Whitstone Road,58,,,West,Fredk. Jas.,
+resident,Whitstone Road,59,,,Manly & Son,brass fndrs
+resident,Whitstone Road,60,,,Thomas,John,
+resident,Whitstone Road,61,,,Kelly,George,mason
+resident,Whitstone Road,62,,,George,Jas.,goods guard
+resident,Whitstone Road,63,,,Hill,Thos. W.,eng. driver
+resident,Whitstone Road,64,,,Joues,Mrs. Elizabeth,
+resident,Whitstone Road,65,,,Hobbs,Edgar James,
+resident,Whitstone Road,66,,,Williams,Charles,water clerk
+resident,Whitstone Road,67,,,Waite,Jno. Jas.,eng. drvr
+resident,Whitstone Road,68,,,Wreford,Wm.,shipwright
+resident,Whitstone Road,69,,,Graddou,Augustus John,
+resident,Whitstone Road,70,,,Manley,Alfred,boilermkr
+resident,Whitstone Road,71,,,Griffiths,Chas.,hoistman
+resident,Whitstone Road,72,,,Williams,Hy.,engine drvr
+resident,Whitstone Road,73,,,Purnell,John,trimmer
+resident,Whitstone Road,74,,,Taylor,Jas.,engine driver
+resident,Whitstone Road,75,,,Hill,Mrs. Ann,
+resident,Whitstone Road,76,,,Harwood,Rd.,labourer
+resident,Whitstone Road,77,,,Davies,John,helper
+resident,Whitstone Road,78,,,Tindle,Robert,haulier
+resident,Whitstone Road,79,,,Davies,William,
+resident,Whitstone Road,80,,,Grant,William,
+resident,Whitstone Road,81,,,Edwards,Morris,boatman
+resident,Whitstone Road,82,,,Whelan,George,moulder
+resident,Whitstone Road,83,,,Andress,Wm.,engineer
+resident,Whitstone Road,84,,,Brown,Rd.,smith
+resident,Whitstone Road,85,,,Spriggs,James,
+resident,Whitstone Road,86,,,,,Warehouse
+resident,Whitstone Road,87,,,Stokes,J.,printing works
+resident,Whitstone Road,88,,,,,Void
+street,Williams Street, E 5,,,,,,From 153 Commercial-road to Capel-crescent.
+cross_street,Williams Street, E 5,,,,,[LEFT HAND SIDE.],
+resident,Williams Street, E 5,1,,,Stokes,John,printer,
+resident,Williams Street, E 5,2,,,Cooper,William,fitter,
+resident,Williams Street, E 5,3,,,Avons,Jas.,ship carpenter,
+street,Wilson Street, E 4,,,,,,King's-parade to Castle-street
+cross_street,Wilson Street, E 4,,,,,[LEFT HAND SIDE.],
+resident,Wilson Street, E 4,1,,,Smith,Wm.,labourer
+resident,Wilson Street, E 4,3,,,Burke,William,labourer
+resident,Wilson Street, E 4,5,,,Mulcahy,James,labourer
+resident,Wilson Street, E 4,7,,,Collins,John,labourer
+resident,Wilson Street, E 4,9,,,Holmes,John,
+resident,Wilson Street, E 4,11,,,Pitcher,Benj.,eng. driver
+resident,Wilson Street, E 4,13,,,Baker,Frederick,trimmer
+resident,Wilson Street, E 4,15,,,Mulcahy,William,
+resident,Wilson Street, E 4,17,,,Cogan,Charles,carpenter
+cross_street,Wilson Street, E 4,,,,,(return),
+resident,Wilson Street, E 4,18,,,Barrett,Rd.,labourer
+resident,Wilson Street, E 4,16,,,Duggan,Mrs. Mary,
+resident,Wilson Street, E 4,14,,,Keelan,James,labourer

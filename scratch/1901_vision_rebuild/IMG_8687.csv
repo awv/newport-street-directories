@@ -1,0 +1,145 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,Westgate street,24,,,Mrs,Jones,tailoress,
+resident,Westgate street,25,,,Edward,Curran,mason,
+resident,Westgate street,26,,,William,Smith,butcher,
+resident,Westgate street,27,,,Richard,Mealing,mason,
+resident,Westgate street,28,,,Tom,Lewis,tailor,
+resident,Westgate street,29,,,James,James,labourer,
+resident,Westgate street,30,,,Arthur,Welsh,carman,
+resident,Westgate street,31,,,Thomas,Broomgrove,,
+resident,Westgate street,32,,,Arthur,Taylor,labourer,
+resident,Westgate street,33,,,Thos. H.,Mogford,painter,
+resident,Westgate street,34,,,Wm. Chas.,Hale,mason,
+resident,Westgate street,35,,,William,Hale,mason,
+resident,Westgate street,36,,,Mrs Mary,Snellgrove,,
+resident,Westgate street,37,,,Arthur,Thomas,printer,
+resident,Westgate street,38,,,Henry,Withers,saddler,
+resident,Westgate street,39,Angel Hotel,J.,McCarthy,,
+street,Wharf Road, M.,,,,,,"From 174 Chepstow-road to Corporation-road."
+cross_street,Wharf Road, M.,,,,,,"[LEFT HAND SIDE.]"
+resident,Wharf Road, M.,1,,,Wm.,Crew,chemical wks,
+resident,Wharf Road, M.,3,,,Charles,Rose,stoker,
+resident,Wharf Road, M.,5,,,John,Sheppard,labourer,
+resident,Wharf Road, M.,7,,,Mrs Elizabeth,Pritchard,,
+resident,Wharf Road, M.,9,Salvation Army Quarters,,,,
+resident,Wharf Road, M.,11,,,John,Boyce,labourer,
+resident,Wharf Road, M.,13,,,Arthur,Everson,platelayr,
+resident,Wharf Road, M.,15,,,Charles,G. W. R.,Cutter,
+resident,Wharf Road, M.,17,,,Tim,Pritchard,labourer,
+resident,Wharf Road, M.,19,,,Alfd.,Pratley,china dealer,
+resident,Wharf Road, M.,21,,,,,Void,
+cross_street,Wharf Road, M.,,,,,,"here is Archibald-street."
+resident,Wharf Road, M.,23,,,J.,Everson,"grocer and provision merchant",
+resident,Wharf Road, M.,,,,,J. H.,Williams,"wholesale grocer and baker",
+resident,Wharf Road, M.,25,,,William,Cresswell,,
+resident,Wharf Road, M.,27,,,William,Brend,labourer,
+resident,Wharf Road, M.,,"G. W. Wharf depôt for coal, bricks, stones, etc.",,,,
+cross_street,Wharf Road, M.,,,,,,"here is Phillips-street."
+cross_street,Wharf Road, M.,,,,,,"here is Gordon-street."
+resident,Wharf Road, M.,31,,,T.,Fox,boot repairer,
+cross_street,Wharf Road, M.,,,,,,"here is May-street."
+resident,Wharf Road, M.,,,,Alfred,Owen,shopkeeper,
+resident,Wharf Road, M.,33,,,H. A.,Derrick,clerk,
+resident,Wharf Road, M.,35,,,Geo.,Shortland,ironwrkr,
+resident,Wharf Road, M.,37,,,Robt.,Townsend,labourer,
+resident,Wharf Road, M.,39,,,George,Hicks,timekeeper,
+resident,Wharf Road, M.,41,,,William,Clarke,mason,
+resident,Wharf Road, M.,43,,,H. W.,Smith,stationer,
+resident,Wharf Road, M.,45,,,Ahiram,Riddle,labourer,
+resident,Wharf Road, M.,,,,Henry,Hillier,plumber,
+cross_street,Wharf Road, M.,,,,,,"here is Essex-street."
+resident,Wharf Road, M.,47,,,Henry,Brunt,grocer,
+resident,Wharf Road, M.,49,,,Harry,Migness,waiter,
+resident,Wharf Road, M.,51,,,John,Morrison,uphol'st,
+resident,Wharf Road, M.,53,,,Jos.,Gregory,furnacemn,
+resident,Wharf Road, M.,55,,,Mrs M. A.,Summerfield,,
+resident,Wharf Road, M.,57,,,Henry,Lumb,insur. agent,
+cross_street,Wharf Road, M.,,,,,,"here is Corporation-road."
+cross_street,Wharf Road, M.,,,,,,"(return.)"
+resident,Wharf Road, M.,112,,,John,Daley,crane drivr,
+resident,Wharf Road, M.,110,,,Samuel,Chapman,police,
+resident,Wharf Road, M.,108,,,,,Void,
+resident,Wharf Road, M.,106,,,Joseph,Thorn,mason,
+resident,Wharf Road, M.,104,,,James,Lewis,shunter,
+resident,Wharf Road, M.,102,,,Arthur,Witts,H.M.C.,
+resident,Wharf Road, M.,100,,,Geo.,Browning,labourer,
+resident,Wharf Road, M.,98,,,Arthur,Reaks,manager,
+resident,Wharf Road, M.,96,,,A. D.,Goldsmith,watchmkr,
+resident,Wharf Road, M.,94,,,Frank,Hodge,labourer,
+resident,Wharf Road, M.,92,,,John,Griffiths,furnacemn,
+resident,Wharf Road, M.,90,,,Charles,Boswell,smith,
+resident,Wharf Road, M.,88,,,William,Hicks,carpenter,
+resident,Wharf Road, M.,86,,,Hy. Geo.,Porter,traveller,
+resident,Wharf Road, M.,84,,,R. J.,Pullin,painter,
+resident,Wharf Road, M.,82,,,R. J.,Nunn,painter,
+resident,Wharf Road, M.,80,,,A.,Whitehead,schoolmastr,
+resident,Wharf Road, M.,78,,,John,Davies,crane driver,
+resident,Wharf Road, M.,76,,,David,Davies,mason,
+resident,Wharf Road, M.,74,,,W.,Korner,marine engn'r,
+resident,Wharf Road, M.,72,,,John,Gosden,hoistman,
+resident,Wharf Road, M.,70,,,Hugh,Hughes,carpenter,
+resident,Wharf Road, M.,68,,,Fredk. E.,Lee,stocktaker,
+resident,Wharf Road, M.,66,,,Alfred,Harris,ins. agent,
+resident,Wharf Road, M.,64,,,Fredk.,Harris,mechanic,
+resident,Wharf Road, M.,62,,,Chas.,Gardener,eng. drvr,
+resident,Wharf Road, M.,58,,,,"do",
+resident,Wharf Road, M.,56,,,,"do",
+resident,Wharf Road, M.,54,,,J. H.,Ridler,labourer,
+resident,Wharf Road, M.,52,,,George,Hill,mason,
+resident,Wharf Road, M.,50,,,E. C.,Hill,mason,
+resident,Wharf Road, M.,48,,,Albt. J.,Stockwell,carptr,
+resident,Wharf Road, M.,46,,,John,Harvey,carpenter,
+resident,Wharf Road, M.,44,,,Albert,Walters,doubler,
+resident,Wharf Road, M.,42,,,Charles,Bishop,labourer,
+resident,Wharf Road, M.,40,,,John,Beavon,bricklayer,
+resident,Wharf Road, M.,38,,,Ernest,Powell,oil mercht,
+resident,Wharf Road, M.,36,,,Frank,Walker,labourer,
+resident,Wharf Road, M.,34,,,John,Gage,shopkeeper,
+cross_street,Wharf Road, M.,,,,,,"here is Jeffery-street."
+cross_street,Wharf Road, M.,,,,,,"here is Glebe-street."
+resident,Wharf Road, M.,26,,,,,," "
+resident,Wharf Road, M.,24,,,Benj.,Bristow,marblewkr,
+resident,Wharf Road, M.,22,,,Mrs Catherine,Brookes,,
+resident,Wharf Road, M.,20,,,Saml.,Starr,greengrocer,
+resident,Wharf Road, M.,18,,,D. J.,Connell,assistant,
+resident,Wharf Road, M.,16,,,Charles,Green,police,
+resident,Wharf Road, M.,14,,,Charles,Orders,painter,
+resident,Wharf Road, M.,12,,,G. Hy.,Thomas,postman,
+resident,Wharf Road, M.,10,,,John,Harrison,tram drvr,
+resident,Wharf Road, M.,8,,,Edwd.,Underwood,lab'rer,
+street,Wharves (The), &c.,,,,,,From the Bridge.
+cross_street,Wharves (The), &c.,,,,,,"WEST SIDE."
+resident,Wharves (The), &c.,,Bangor wharf,,,Newport Builders' Supply, Ltd.,," "
+resident,Wharves (The), &c.,,Baltic wharf,,,Nicholas & Co., Ltd.,"timber & slate merchts",
+cross_street,Wharves (The), &c.,,,,,,"here is the Town Pill."
+resident,Wharves (The), &c.,,Cinderhill wharf,,,,,
+resident,Wharves (The), &c.,,,,"Newport Milling Co. Ltd.—Star Mills",,
+resident,Wharves (The), &c.,,Moderator wharf,,,R. Burton & Son, Ltd.,"carriers & w'fingers",
+resident,Wharves (The), &c.,,Beaufort do,,,," "
+resident,Wharves (The), &c.,,Bristol Packet do,,,," "
+resident,Wharves (The), &c.,,Nantyglo do,,,," "
+resident,Wharves (The), &c.,,,,"Guest, Keen, & Co., Ltd., Patent Nut & Bolt wharf",,
+resident,Wharves (The), &c.,,Liverpool wharf,,,S. Wales & Liverpool St. Ship Co. Ltd.,,
+resident,Wharves (The), &c.,,,,Robert Gilchrist & Co.,,
+resident,Wharves (The), &c.,,,,"Lewis C. & Co. iron merchts",,
+resident,Wharves (The), &c.,,,,Isaac Cox,stone merchant,
+resident,Wharves (The), &c.,,,,"Sunlight Soap depôt",,
+resident,Wharves (The), &c.,,Ebbw Vale wharf,,,Ebbw Vale Steel, Iron, and Coal Co.'s,"F. C. Thomas, coal agent",
+resident,Wharves (The), &c.,,Powell's Town wharf,,,H. Powell,colliery proprietor,"George James, foreman"
+resident,Wharves (The), &c.,,,,,,"House void"
+resident,Wharves (The), &c.,,Pontypool whf,,,E. Vale Co.,,
+resident,Wharves (The), &c.,,Mariners' wharf,,,,"do",
+resident,Wharves (The), &c.,,,,,Ebbw Vale Coal Co.'s wharf,"Fredk. Larcombe, foreman"
+resident,Wharves (The), &c.,,Vipond J. & Co.'s wharf,,,,," "
+resident,Wharves (The), &c.,,Gloucester whf,,,G. W. R. Co.,,
+resident,Wharves (The), &c.,,,,Bros. Tucker,manure stores,
+resident,Wharves (The), &c.,,,,Jas. Clements,iron merchant,
+resident,Wharves (The), &c.,,,,Maybury & Co.,builders'mers,
+resident,Wharves (The), &c.,,Victoria wf,,,Ebbw Vale Co.,"iron ore, pitwood, etc."
+cross_street,Wharves (The), &c.,,,,,,"here is Jack's Pill."
+resident,Wharves (The), &c.,,Newport (The) Dry Docks,,,Mordey, Carney & Co. Ltd.,"engineers, iron ship builders and ship repairers"
+resident,Wharves (The), &c.,,,,,Alfred Allen,caretaker,
+resident,Wharves (The), &c.,,Llanarth whf,,,A. J. T. Goss,"oil and grease merchant",
+resident,Wharves (The), &c.,,,,,Harris & Coxon,shiprepair'rs,
+resident,Wharves (The), &c.,,Blaina wharf,,,Dock Co.,,
+resident,Wharves (The), &c.,,,,,C. H. d'kgatefor'mn Edwards,," "

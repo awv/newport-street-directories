@@ -1,0 +1,142 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,SIDNEY STREET,,,,,,
+resident,SIDNEY STREET,2,,Mrs. Emily,Austen,,,
+resident,SIDNEY STREET,,,Clifford H.,Hicks,haulage contractor,,
+resident,SIDNEY STREET,3,,William,Vincent,,,
+resident,SIDNEY STREET,4,,Mrs. W.,Hart,,,
+resident,SIDNEY STREET,5,,Thos.,Hart,painter,,
+cross_street,SIDNEY STREET,,,,,,"(return)"
+resident,SIDNEY STREET,6,,E. L.,Boulter,house agent,,
+street,SKINNER LANE,,,,,,C 4
+cross_street,SKINNER LANE,,,,,,From 29 Skinner-street
+street,SKINNER STREET,,,,,,C 4
+cross_street,SKINNER STREET,,,,,,From 33 High-street
+cross_street,SKINNER STREET,,,,,,(LEFT HAND SIDE.)
+resident,SKINNER STREET,,GLOUCESTER CHAMBERS,,,,(See 33 High-street)
+resident,SKINNER STREET,2,,Edgar,Chambers,incor. accountant and auditor,,
+resident,SKINNER STREET,3,,Albert,Lonnon,tailor,Ltd.
+resident,SKINNER STREET,4,Employers' Liability Assurance Corp'tn, Ltd.,,,R. C. Hudson
+resident,SKINNER STREET,5,,,Hampton,prov. stores,,
+resident,SKINNER STREET,6,,Taylor & Co.,Rennie,F.A.I. auctioneers,,
+resident,SKINNER STREET,,,The Lavender Tea Rooms,,,Ltd.
+resident,SKINNER STREET,7,,A. G. & Son,Arnold,electrical heating and sanitary engineers,,
+resident,SKINNER STREET,,HIGHBURY CHAMBERS,,,,,
+resident,SKINNER STREET,8,,,& Herbert,solictrs,,
+resident,SKINNER STREET,,,Jas. & Co.,Clements,iron and metal merchants,steel
+resident,SKINNER STREET,,,Leslie,Colledge,tailor,,
+resident,SKINNER STREET,,,W.,Ponsford,engr & mer.,,
+resident,SKINNER STREET,,,Ltd.,Factors,machinery plant merchants,,
+resident,SKINNER STREET,,,Ladyhill Estate offices,,,,
+resident,SKINNER STREET,,,J.,Jones,Tudor tailor,,
+resident,SKINNER STREET,,,Geo.,Nichol,draper,,
+resident,SKINNER STREET,,,W.,Griffiths,tailor,,
+resident,SKINNER STREET,9,,,Spencer's Stores,prov mer,,
+resident,SKINNER STREET,10,,W. J. & Son,Pinnell,btchrs,,
+resident,SKINNER STREET,11-12,,& Phillips,Gregory,salerooms,,
+resident,SKINNER STREET,,,Newport Mercantile Co., Ltd.,,,,
+resident,SKINNER STREET,13,,W. & T., Ltd.,Avery,weighing machine manufacturers and repairers,,
+resident,SKINNER STREET,,BOROUGH CHAMBERS,,,,,
+resident,SKINNER STREET,,,Searle & Burge,solicitors,,
+resident,SKINNER STREET,8,,G.,Hanham,house agent,,
+cross_street,SKINNER STREET,,,,,,here is Dock-street
+resident,SKINNER STREET,,SKINNER STREET CHAMBERS,,,,,
+resident,SKINNER STREET,14,,NEWPORT AND COUNTY LIBERAL CLUB,,,,
+resident,SKINNER STREET,16,,Ltd.,Allinson's,proprietors National Food Co.,,
+cross_street,SKINNER STREET,,,,,,(return)
+resident,SKINNER STREET,18-19,,& Co.,Capper,wholesale provision merchants,,
+resident,SKINNER STREET,20,,Mrs. Hannah,Giddings,Windsor Castle,,
+cross_street,SKINNER STREET,,,,,,here is Dock-street
+resident,SKINNER STREET,21,,& Co.,MacMahon,potato importers,,
+resident,SKINNER STREET,22,,W. A. & Co.,Sanday,wool merchants,,
+resident,SKINNER STREET,23,,Mon. Insurance Committee,,,C. Butler Jones clerk
+resident,SKINNER STREET,,,Valuation offices Inland Revenue,,,,
+resident,SKINNER STREET,24-25,,M.,Vacara,fish shop,,
+resident,SKINNER STREET,26,,Engineering Equipment Co. (1919) Ltd.,,,,
+resident,SKINNER STREET,27,,Moseley's,gramophone dealers,,
+resident,SKINNER STREET,28,,G. F. & Co., Ltd.,Lovell,confectioners,,
+resident,SKINNER STREET,,,Olympia Cinema Theatre,,,,
+cross_street,SKINNER STREET,,,,,,here is Skinner-lane
+resident,SKINNER STREET,29,,G. F. & Co., Ltd.,Lovell,confectioners,,
+resident,SKINNER STREET,,ALBANY CHAMBERS,,,,,see Commercial-street
+street,SLADE STREET,,,,,,E 3
+cross_street,SLADE STREET,,,,,,Cromwell-road to Oakley-street
+cross_street,SLADE STREET,,,,,,(RIGHT HAND SIDE.)
+resident,SLADE STREET,1,,Geo.,Pearson,navvy,,
+resident,SLADE STREET,3,,Samuel,Pitt,bricklayer,,
+resident,SLADE STREET,5,,Edward,Shergold,labr,,
+resident,SLADE STREET,7,,John,Nicholls,ironworker,,
+resident,SLADE STREET,9,,James,Ralph,shop,,
+cross_street,SLADE STREET,,,,,,(return)
+resident,SLADE STREET,10,,T.,Wesson,coal merchnt,,
+resident,SLADE STREET,8,,Walter,Flauenskjold,iwkr,,
+resident,SLADE STREET,6,,William,Shefford,iron-worker,,
+resident,SLADE STREET,4,,C.,Whatmore,warehsman,,
+resident,SLADE STREET,2,,William F.,Elson,labr,,
+street,SLIPWAY COTTAGES,,,,,,H 4
+cross_street,SLIPWAY COTTAGES,,,,,,End of Corporation-road
+resident,SLIPWAY COTTAGES,1-2,,John B.,Hunt,manager,,
+resident,SLIPWAY COTTAGES,3,,Richard,Manley,driver,,
+resident,SLIPWAY COTTAGES,4,,William,Jackson,fitter,,
+resident,SLIPWAY COTTAGES,5-6,,B.,Griffiths,shipwright,,
+resident,SLIPWAY COTTAGES,7,,Albert,Keen,motor driver,,
+resident,SLIPWAY COTTAGES,8,,R. J.,Harvey,dry dock wkr,,
+resident,SLIPWAY COTTAGES,9,,Fredk.,Brown,watchman,,
+resident,SLIPWAY COTTAGES,10,,Ralph,Gower,electrician,,
+resident,SLIPWAY COTTAGES,11,,Ralph James,Jones,,,
+resident,SLIPWAY COTTAGES,12,,T. H.,Sims,coppersmith,,
+resident,SLIPWAY COTTAGES,,,Mountstuart Dry Docks and Shearmans Ltd.,,,,
+resident,SLIPWAY COTTAGES,,,Cardiff Channel Docks and Pontoon Co., Ltd.,,,,
+resident,SLIPWAY COTTAGES,,,Ernest,Batten,Bungalow,,
+resident,SLIPWAY COTTAGES,,,G.,Davies,fitter Bungalow,,
+street,SOHO STREET,,,,,,D 3
+cross_street,SOHO STREET,,,,,,Dudley-street to Tipton-street
+street,SOMERSET ROAD,,,,,,C 3
+cross_street,SOMERSET ROAD,,,,,,Caerleon-rd. to Christchurch-rd
+cross_street,SOMERSET ROAD,,,,,,(LEFT HAND SIDE.)
+resident,SOMERSET ROAD,1,,George W.,Edwards,,,
+resident,SOMERSET ROAD,3,,void,,,,
+resident,SOMERSET ROAD,5,,Mrs. Jane H.,Kershaw,,,
+resident,SOMERSET ROAD,7,,Henry W.,Williams,,,
+resident,SOMERSET ROAD,9,,John E.,Harries,traveller,,
+resident,SOMERSET ROAD,11,,F.,Gulliver,Sunnyside,,
+resident,SOMERSET ROAD,13,,R. J.,Williams,Montpelier,,
+resident,SOMERSET ROAD,15,,William,Norman,clerk,,
+resident,SOMERSET ROAD,17,,Henry,King,Penycefn,,
+resident,SOMERSET ROAD,19,,Frederick,Nutt,,,
+resident,SOMERSET ROAD,21,,Wilfred J.,Davies,,,
+resident,SOMERSET ROAD,23,,George Walter,Cock,,,
+resident,SOMERSET ROAD,25,,Arthur,Whitton,,,
+resident,SOMERSET ROAD,27,,Matthew,Bell,Rylston,,
+resident,SOMERSET ROAD,29,,Henry P.,Marais,,,
+resident,SOMERSET ROAD,31,,H. Melville,Twist,Lyncombe,,
+resident,SOMERSET ROAD,33,,George,Mills,,,
+resident,SOMERSET ROAD,35,,Mrs. E. L.,Kerr,Langland,,
+resident,SOMERSET ROAD,37,,David,Narbett,saddler,,
+resident,SOMERSET ROAD,39,,William E.,Robertson,,,
+resident,SOMERSET ROAD,41,,Geo. N.,Jesseman,Oakdene,,
+resident,SOMERSET ROAD,43,,David,Edwards,traveller Rhydri,,
+resident,SOMERSET ROAD,45,,H. J.,Charles,Hartpury,,
+resident,SOMERSET ROAD,47,,Wm. A.,Berridge,clerk,,
+resident,SOMERSET ROAD,49,,Thomas,Harris,engineer,,
+resident,SOMERSET ROAD,51,,J. Hugh,Roberts,schoolmaster Angorfa,,
+resident,SOMERSET ROAD,53,,Walter,Walters,Cedar ho,,
+resident,SOMERSET ROAD,55,,John E.,Beese,account'nt Bryn-y-mor,,
+resident,SOMERSET ROAD,57,,Bj. H.,Seccombe,Alverton,,
+resident,SOMERSET ROAD,59,,Reg. S.,Dunster,teacher,,
+resident,SOMERSET ROAD,61,,Edward,Love,Victoria house,,
+cross_street,SOMERSET ROAD,,,,,,here is Ronald-road
+resident,SOMERSET ROAD,63,,Mrs. A. E.,Williams,IIchester,,
+resident,SOMERSET ROAD,65,,--,Shaw,Clevedon,,
+resident,SOMERSET ROAD,67,,Alfred J.,Wood,Riverview,,
+resident,SOMERSET ROAD,69,,Mrs. M.,Williams,Bryn-hardd,,
+resident,SOMERSET ROAD,71,,Henry,Evatt,Haulfryn,,
+resident,SOMERSET ROAD,73,,Fredk. W.,Kirk,The Den,,
+resident,SOMERSET ROAD,75,,Mrs. E.,Gibson,Braemar,,
+resident,SOMERSET ROAD,77,,Rev. C. J.,Norris,Highfields,,
+cross_street,SOMERSET ROAD,,,,,,here is Leicester-road
+resident,SOMERSET ROAD,79,,Lewis M.,Squire,Sec. Co-op. Society Dinan,,
+resident,SOMERSET ROAD,81,,W. H.,Stoneman,Elvaston,,
+resident,SOMERSET ROAD,83,,E. J.,Grant,Belmont,,
+resident,SOMERSET ROAD,85,,S. T.,Evans,Rhosmaen,,
+resident,SOMERSET ROAD,87,,Edg. W.,Griffiths,Hillside,,
+resident,SOMERSET ROAD,89,,Miss E. B.,Brown,,,

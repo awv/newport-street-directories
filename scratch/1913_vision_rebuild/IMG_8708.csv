@@ -1,0 +1,156 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,ARTHUR STREET,,,,,,
+resident,ARTHUR STREET,19,,C. H.,Ashworth,fitter,
+resident,ARTHUR STREET,20,,W.,Lilley,foreman platelyr,
+resident,ARTHUR STREET,21,,Stephen,Ferris,foreman,
+resident,ARTHUR STREET,22,,E.,Williams,engineman,
+resident,ARTHUR STREET,23,,Wm. H.,Mockridge,eng.dvr,
+resident,ARTHUR STREET,24,,Mich.,O'Neill,coal trimmer,
+resident,ARTHUR STREET,25,,Mrs. Mary,Raycroft,,
+cross_street,ARTHUR STREET,,,(return),,,
+resident,ARTHUR STREET,,,Mrs. Alice M.,Preece,,Spring Gardens School
+resident,ARTHUR STREET,26,,Alice M.,Preece,,
+resident,ARTHUR STREET,27,,Thos.,Mandry,eng. driver,
+resident,ARTHUR STREET,28,,John,Donovan,foreman,
+resident,ARTHUR STREET,29,,Henry,Shellard,labourer,
+resident,ARTHUR STREET,30,,Jabez,Daniel,guard,
+resident,ARTHUR STREET,31,,John,Stratton,guard,
+resident,ARTHUR STREET,32,,George,Wyatt,guard,
+resident,ARTHUR STREET,33,,James,Wellington,G.W.R.,
+resident,ARTHUR STREET,34,,Charles,Parry,coal dealer,
+resident,ARTHUR STREET,35,,Mrs. Florence,Johns,,
+street,ARTILLERY PLACE,,,,,,From Clarence-place.
+resident,ARTILLERY PLACE,,,,Davies Bros. (Newport), Ltd.,slate & cement merchants,London Wharf
+resident,ARTILLERY PLACE,,Bridge house,,,builders' merchants,
+resident,ARTILLERY PLACE,,,Mrs. M.,Osmond,corsetmaker,
+resident,ARTILLERY PLACE,,,David,Taylor,greengrocer,
+resident,ARTILLERY PLACE,,,4th Welsh Brigade R.F.A.,,Drill Hall house—Sergt.-Mjr. [John Parkes
+resident,ARTILLERY PLACE,,,,Harbour Commissioners' landing stage,,
+resident,ARTILLERY PLACE,,,P. & A.,Campbell,Ltd.,,R. S. Roberts, agent
+resident,ARTILLERY PLACE,,Rodney house,,Roberts & Johns,wagon owners,
+street,ARUNDEL ROAD,,,,,,Right hand side Chepstow-road, near Eveswell.
+cross_street,ARUNDEL ROAD,,,[LEFT HAND SIDE.],,,
+resident,ARUNDEL ROAD,1,,Harry,Hodges,painter,
+resident,ARUNDEL ROAD,3,,J. C.,Jones,,
+resident,ARUNDEL ROAD,5,,Wm. J.,Doel,attend. officer,
+resident,ARUNDEL ROAD,7,,Fredk.,Evans,gym. instctr,
+resident,ARUNDEL ROAD,9,,Geo.,Martin,stocktaker,
+resident,ARUNDEL ROAD,11,,Charles,Taylor,carpenter,
+resident,ARUNDEL ROAD,13,,Philip A.,Steele,ironwrkr,
+resident,ARUNDEL ROAD,15,,Albt. Jas.,Eddolls,plumbr,
+resident,ARUNDEL ROAD,17,,Thos.,Richards,ironwrkr,
+resident,ARUNDEL ROAD,19,,Chas. H.,Davey,milkman,
+resident,ARUNDEL ROAD,21,,Frank G.,Thomas,engineer,
+resident,ARUNDEL ROAD,23,,Albt. Ernest,Miller,fitter,
+resident,ARUNDEL ROAD,,,,,,Vacant sites
+cross_street,ARUNDEL ROAD,,,(return),,,
+resident,ARUNDEL ROAD,12,,Arnold,Riding,,
+resident,ARUNDEL ROAD,10,,Edgar,Hackett,George,
+resident,ARUNDEL ROAD,8,,Mrs. Dorothea,Garland,,
+resident,ARUNDEL ROAD,6,,Geo. B.,Kovachich,smith,
+resident,ARUNDEL ROAD,4,,Wynd.,Parkes,carpenter,
+resident,ARUNDEL ROAD,2,,Ronald H.,Parker,brewer,
+street,ASTON CRESCENT,,,,,,Off Brynglas-road.
+cross_street,ASTON CRESCENT,,,[LEFT HAND SIDE.],,,
+resident,ASTON CRESCENT,3,,Thos. H.,Jones,bookbinder,
+resident,ASTON CRESCENT,5,,Arthur,Telling,Henry,
+resident,ASTON CRESCENT,7,,Mrs. Mary,Wakely,,
+resident,ASTON CRESCENT,9,,Mrs. Bert,Neil,,
+resident,ASTON CRESCENT,11,,John,Lewison,ganger,
+resident,ASTON CRESCENT,13,,Mrs. Sarah,Smythe,,
+resident,ASTON CRESCENT,15,,H. E.,Morrish,shop,
+cross_street,ASTON CRESCENT,,,here is Ross-street,,,
+cross_street,ASTON CRESCENT,,,(return),,,
+resident,ASTON CRESCENT,,,,,,4 houses building
+resident,ASTON CRESCENT,,,Charles Edward,Steer,,
+resident,ASTON CRESCENT,,,Albert,Parsons,,
+resident,ASTON CRESCENT,,,Henry,Parfitt,Ellington
+resident,ASTON CRESCENT,,,Thomas Henry,Sims,,
+resident,ASTON CRESCENT,,,Geo. Frederick,Hawkins,,
+resident,ASTON CRESCENT,,,Thomas John,Parkin,Aston
+resident,ASTON CRESCENT,,,Robt. H.,Parkin,Glasllyn
+resident,ASTON CRESCENT,,,Thomas,Hampton,Bryn
+resident,ASTON CRESCENT,4,,Lemuel G.,Miles,Rosslyn
+resident,ASTON CRESCENT,,,John,Coughlin,Glenview
+resident,ASTON CRESCENT,,,Harry,Morgan,clerk G.W.R
+resident,ASTON CRESCENT,,,,,,3 houses void
+street,AUCKLAND TERRACE,,,,,,Nos. 104-114 Duckpool-road
+street,AUCKLAND VILLAS,,,,,,Nos. 1-13 Christchurch-road.
+street,AUSTIN FRIARS,,,,,,From 23 Commercial-street.
+resident,AUSTIN FRIARS,,,,Health Department—Dr. J. Howard Jones,,,Borough Architect's Department—C. F. Ward
+resident,AUSTIN FRIARS,,,,Education Authority—Treas. Department,,,Overseers' Offices—W. J. Beeston, assistant overseer
+resident,AUSTIN FRIARS,,,P. J.,McGinn,surgeon,
+resident,AUSTIN FRIARS,,,,Mullock & Sons, Ltd.,printers,
+street,AUSTIN FRIARS CHAMBERS,,,,,,See 26 Dock-street.
+street,BAILEY STREET,,,,,,From 6 Baneswell-road.
+cross_street,BAILEY STREET,,,[LEFT HAND SIDE.],,,
+resident,BAILEY STREET,1,,Miss I.,Lewis,greengrocer,
+resident,BAILEY STREET,2,,Mrs. Maria,Marshall,,
+resident,BAILEY STREET,3,,Albert,Jones,labourer,
+resident,BAILEY STREET,4,,Matthew,Francis,agent,
+resident,BAILEY STREET,5,,Wm.,Sergeant,mason,
+resident,BAILEY STREET,6,,Henry,Spanswick,,
+resident,BAILEY STREET,7,,Mrs. Annie,Cousins,,
+resident,BAILEY STREET,8,,Henry Jas.,Hill,fireman,
+resident,BAILEY STREET,9,,Wm. H.,Meese,blacksmith,
+resident,BAILEY STREET,10,,Jos.,Wilding,ironworker,
+resident,BAILEY STREET,11,,Miss R.,Jones,,
+resident,BAILEY STREET,12,,Thomas,Cox,wireman,
+resident,BAILEY STREET,13,,G. J.,Cook,,London Inn
+cross_street,BAILEY STREET,,,here is Scard-street.,,,
+resident,BAILEY STREET,14,,C. H. A.,Pickering,dk police,
+resident,BAILEY STREET,15,,Mrs. E.,Crowther,,
+resident,BAILEY STREET,16,,Mrs. Elizabeth,Bailey,,
+resident,BAILEY STREET,17,,Frederick,Clarke,G.P.O.,
+resident,BAILEY STREET,18,,J. D.,Burcher,hay cutter,
+resident,BAILEY STREET,19,,Mrs. Selina,Daw,,
+resident,BAILEY STREET,20,,James,Edwards,mason,
+resident,BAILEY STREET,21,,E.,Hodges,warehouseman,
+resident,BAILEY STREET,22,,William,Williams,,
+resident,BAILEY STREET,23,,Thomas,Ridd,stamper,
+resident,BAILEY STREET,24,,Leonard J.,Oakey,carpenter,
+resident,BAILEY STREET,25,,Henry,Swallow,painter,
+cross_street,BAILEY STREET,,,(return),,,
+resident,BAILEY STREET,,,,,,St. Woolos Infants' Schl.
+resident,BAILEY STREET,,,,Miss,Pitson,,
+resident,BAILEY STREET,,,,Mrs. Geo.,Winnacott,,
+cross_street,BAILEY STREET,,,here is Victoria crescent,,,
+resident,BAILEY STREET,26,,Wm. Hy.,Tudor,collier,
+resident,BAILEY STREET,27,,Walter,Ingleson,blrmker,
+resident,BAILEY STREET,28,,Henry,White,,
+resident,BAILEY STREET,29,,Alfred W.,James,bootmkr,
+resident,BAILEY STREET,30,,Albert,Browning,carpentr,
+resident,BAILEY STREET,31,,Miss Mary Ann,Coney,,
+resident,BAILEY STREET,32,,Wm. Thomas,Richards,,
+resident,BAILEY STREET,33,,Fredk.,Woodman,blrmker,
+resident,BAILEY STREET,34,,Nich.,Mahoney,porter,
+resident,BAILEY STREET,35,,David,Morgan,labourer,
+resident,BAILEY STREET,36,,Herbert,Webb,ironworker,
+resident,BAILEY STREET,37,,Henry John,Whelton,,
+resident,BAILEY STREET,38,,Thomas M.,Organ,,
+resident,BAILEY STREET,39,,Mrs. Hannah,Lewis,,
+resident,BAILEY STREET,40,,John,Organ,machinist
+resident,BAILEY STREET,,,,M.,Organ,coal merchant,
+resident,BAILEY STREET,41,,Alfd. T.,Meese,asphalter,
+resident,BAILEY STREET,42,,Miss Rose,Williams,,
+resident,BAILEY STREET,43,,Mrs. Eliza,Saysill,,
+resident,BAILEY STREET,44,,Geo.,Coward,manager,
+resident,BAILEY STREET,,,,,,The Retail Dairy Co.
+street,BALDWIN STREET,,,,,,From 24 Courtybella-terrace.
+cross_street,BALDWIN STREET,,,[LEFT HAND SIDE.],,,
+resident,BALDWIN STREET,5,,Chas.,Manship,groundsman,
+cross_street,BALDWIN STREET,,,here is James-street.,,,
+resident,BALDWIN STREET,7,,,,,,Void
+resident,BALDWIN STREET,9,,Mrs. Alicia,Betts,,
+resident,BALDWIN STREET,11,,Eph.,Franklin,fireman,
+resident,BALDWIN STREET,13,,John,Herbert,machinist,
+resident,BALDWIN STREET,15,,Wm. R.,Manship,labourer,
+resident,BALDWIN STREET,17,,Joachim,Mendez,,
+resident,BALDWIN STREET,19,,,,,,Void
+resident,BALDWIN STREET,21,,,,,,Void
+resident,BALDWIN STREET,23,,Thos.,Raymond,fireman,
+resident,BALDWIN STREET,25,,Arthur,Reynolds,labourer,
+resident,BALDWIN STREET,27,,,,,,Void
+resident,BALDWIN STREET,29,,William,Garwood,trimmer,
+resident,BALDWIN STREET,31,,Chas.,Burch,labourer,
+resident,BALDWIN STREET,33,,William,Pitman,haulier,

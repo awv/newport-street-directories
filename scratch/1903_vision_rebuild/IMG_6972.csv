@@ -1,0 +1,101 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,High Street,,,,,,
+cross_street,High Street,,,,,,here is Skinner-street and Commercial-street. (return.)
+resident,High Street,23b,,Lloyd & Yorath, Ltd.,brewers and wine and spirit merchants,
+resident,High Street,,,T. A.,Hince,Crown Wine Vaults,
+resident,High Street,24,,Wm.,Evans,saddler and harness maker,
+resident,High Street,25,,,Eastman's Ltd.,purveyors,
+resident,High Street,26,,Alf.,Simmonds,hatter, &c
+resident,High Street,26A,,A. E.,Jones,boot dealer,
+cross_street,High Street,,,,,,here is Griffin-street.
+resident,High Street,27 & 27A,,Geo.,Oliver,boot mftr.,John Ed. Reed, manager
+resident,High Street,28,,E. & Sons,Hall,family grocers, at Civil Service prices, & agents for W. & A. Gilbey
+resident,High Street,,,Bland & Sons,"The Mikado",
+resident,High Street,,,,,,WINCHESTER CHAMBERS—
+resident,High Street,,,,William C.,Hall,solicitor,Winchester Chambers
+resident,High Street,29,,& Co.,Jones,hatters, hosiers, etc.,E. W. Jones, manager
+resident,High Street,30,,& Co.,Cash,boot manuftrs.,Siedle Bros. photograprs
+resident,High Street,,,,,,PEMBROKE CHAMBERS—
+resident,High Street,,,T. & Co.,Jones,steel & iron merchants,Pembroke Chambers
+resident,High Street,,,C.,Morgan,dentist,Pembroke Chambers
+resident,High Street,,,T. & W.,Ponsford,mehts,Pembroke Chambers
+resident,High Street,31 & 32,,,Clarence Wharf Saw Mills Co. Ltd.,timber merchts,
+resident,High Street,33,,& Sons,Hodges,tailors and outfitters,
+resident,High Street,,,District and Counties Banking Co. Ltd,Birmingham,GLO'STER BANK CHAMBERS—,
+resident,High Street,,,1st floor.,,,GLO'STER BANK CHAMBERS
+resident,High Street,,,,,,LeBrasseur & Bowen, solicitors; GLO'STER BANK CHAMBERS 1st floor
+resident,High Street,,,W. Lyndon,Moore,solicitor, Borough Coroner,GLO'STER BANK CHAMBERS 1st floor
+resident,High Street,,,F. Lyndon,Cooper,solictr,GLO'STER BANK CHAMBERS 1st floor
+resident,High Street,,,Wm.,Baker,registrar of births and deaths,GLO'STER BANK CHAMBERS 1st floor
+resident,High Street,,,W. E.,Phillips,civil and mining engineer,GLO'STER BANK CHAMBERS 1st floor
+resident,High Street,,,2nd floor.,,,GLO'STER BANK CHAMBERS
+resident,High Street,,,Edgar,Chambers,accountant and auditor (17),GLO'STER BANK CHAMBERS 2nd floor
+resident,High Street,,,W. Calvin,Thomas,resident Sec. Scottish Temp. Life Association, Ltd.,GLO'STER BANK CHAMBERS 2nd floor
+resident,High Street,,,3rd floor.,,,GLO'STER BANK CHAMBERS
+resident,High Street,,,Void,,,GLO'STER BANK CHAMBERS 3rd floor
+resident,High Street,,,,Nat. Provincial Bank, Ltd,E. Webber, manager,
+resident,High Street,34,,S. M.,Bowen,tobacconist,
+resident,High Street,35,,Thos.,Cordey,Monmouthshire and South Wales Supply stores,
+resident,High Street,36,,S. Wales Tobacco Manufacturing Co. Ltd.,,,
+resident,High Street,37,,Walter H.,Williams,wine and spirit merchant,
+resident,High Street,38,,J. & Co.,Barter,tailors,
+resident,High Street,,,H.,Kibbler,family butcher,
+resident,High Street,,,,,,EMLYN CHAMBERS—
+resident,High Street,,,W. H.,Stephens,photogr'pr,Emlyn Chambers
+resident,High Street,,,W.,Pegler,provision mer.,Emlyn Chambers
+resident,High Street,39,,& Co.,Masters,The Newport Clothiers, also Cardiff and Swansea—
+resident,High Street,40 & 40A,,& Manhire,Baker,drapers and milliners,
+resident,High Street,,,,,,QUEEN'S CHAMBERS—
+resident,High Street,41,,,Habershon, Faulkner and Groves, architects and surveyors,Queen's Chambers
+resident,High Street,,,Maypole Dairy Co.,,,
+resident,High Street,42,,G.,Oliver,boot manufacturer—G. White, mangr,
+resident,High Street,43,,& Gait,Taylor,drapers,
+resident,High Street,,,,,,CARLTON CHAMBERS—
+resident,High Street,,,First Floor.,,,CARLTON CHAMBERS
+resident,High Street,,,Henry J. & Co.,Pillinger,stock and share brokers (6-7-9),CARLTON CHAMBERS First Floor
+resident,High Street,,,C. L.,Barfoot,incorporated accountant, auditor, and chartered secretary (4-5),CARLTON CHAMBERS First Floor
+resident,High Street,,,Geo. & Co.,Jones,iron and metal merchants (11-2),CARLTON CHAMBERS First Floor
+resident,High Street,,,C. F.,Farr,accountant (15),CARLTON CHAMBERS First Floor
+resident,High Street,,,Walter & Co.,Meacock,chartered accountants (23),CARLTON CHAMBERS First Floor
+resident,High Street,,,,Inland Revenue offices—,,CARLTON CHAMBERS
+resident,High Street,,,,,Surveyor of Taxes (13-4),CARLTON CHAMBERS
+resident,High Street,,,,,Supervisor, &c. (19 & 22),CARLTON CHAMBERS
+resident,High Street,,,,,Newport Master Builders' Associat'n—R. Richards, secretary (20),CARLTON CHAMBERS
+resident,High Street,,,,,Newport & South Wales Wine & Spirit Co., Ltd., Secretary's office (2),CARLTON CHAMBERS
+resident,High Street,,,Second Floor.,,,CARLTON CHAMBERS
+resident,High Street,,,S. J.,King,collector of taxes,CARLTON CHAMBERS Second Floor
+resident,High Street,,,G. A.,Derrick,architect and surveyor (27),CARLTON CHAMBERS Second Floor
+resident,High Street,,,,Lawson A. & Co. contrctrs,CARLTON CHAMBERS Second Floor
+resident,High Street,,,Mrs.,Morgan,masseuse,CARLTON CHAMBERS Second Floor
+resident,High Street,44,,W. & Co.,Gibbons,clothiers,
+resident,High Street,,,,,,THE NEWPORT ARCADE
+resident,High Street,45,,,Newcombe E. ladies' and children's underclothing,The Newport Arcade
+resident,High Street,45,,,Newport & S. W. Wine and Spirit Co., Ltd.—John Pritchard, mangr,
+resident,High Street,46,,,Bombay Tea Co.,
+resident,High Street,47,,J. & Co.,Williams,drapm.,
+resident,High Street,48,,Wm.,Watkins,The People's Provider,
+resident,High Street,49,,Geo.,Carter,Greyhound Hotel,
+resident,High Street,50,,& Co.,Greenland,stationers and fancy dealers, Noah's Ark Corridor,
+resident,High Street,51,,,Newport Trimming shop,
+resident,High Street,52,,Charles,Joyce,bookseller, stationer, printer, etc.,
+resident,High Street,53,,J. N.,Pennington,confectioner and pastrycook,
+resident,High Street,54,,John H.,Young,Tredegar Arms Hotel,
+resident,High Street,55,,D. W.,Price,hosier, etc.,
+resident,High Street,56,,J.,Jones,Andrews, draper,
+cross_street,High Street,,,,,,entrance to Railway-station.
+resident,High Street,58,,,Silver Grill restaurant—Bland & Sons, proprietors,
+resident,High Street,59,,T.,Heath,florist,
+resident,High Street,60,,T.,Lewis,tailor, hosier, and hatter,
+resident,High Street,61,,,,,General Post Office—See Local Information
+resident,High Street,62,,W. P.,Williams,fancy rep.,
+resident,High Street,63,,Western Coffee tavern,G.,—C. Lee, proprietor,
+resident,High Street,64,,,,,,
+cross_street,High Street,,,,,,here is Thomas-street.
+resident,High Street,,,,,,TREDEGAR ESTATE OFFICES—
+resident,High Street,,,,,,CORN EXCHANGE CHAMBERS—
+resident,High Street,,,,Treharne & Sons,Rees,civil engineers, etc.,Corn Exchange Chambers
+resident,High Street,,,G. P.,Tredegar Corn Exchange,Tredegar Estate office—G. P. Innes-Mitchell,
+resident,High Street,65,,,Innes-Mitchell,,
+resident,High Street,66,,Lloyds, & Wilson,Davis,solicitors,
+resident,High Street,67,,A.,Harman,newsagent & tobacconist,
+resident,High Street,,,,,,S. Mon. Conservative office—L. Foster Stedman, agnt

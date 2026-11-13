@@ -1,0 +1,163 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,LLWYDERI ROAD,,,R. H.,Waters,farmer,"Eschol villa, Off Oakfield-road, (LEFT HAND SIDE)"
+resident,LLWYDERI ROAD,,,R. H.,Waters,farmer,Eschol villa
+cross_street,LLWYDERI ROAD,,,,,,here cross over
+resident,LLWYDERI ROAD,,Bilston,Ernest,Hughes,,
+resident,LLWYDERI ROAD,,Rosslyn,Simeon,Salt,,
+resident,LLWYDERI ROAD,,Highfield,John,Richards,,
+resident,LLWYDERI ROAD,,Tettenhall,Edward,Page,,
+resident,LLWYDERI ROAD,,Compton,Henry,Nokes,,
+resident,LLWYDERI ROAD,,Wren's Nest,David,Roberts,,
+resident,LLWYDERI ROAD,,Freystrop,George C.,Ruck,,
+resident,LLWYDERI ROAD,,,,William,John,milkman,
+resident,LLWYDERI ROAD,,The Ferns,Thos. C.,Burch,,
+resident,LLWYDERI ROAD,,,,Alfred,Johns,milkman,
+resident,LLWYDERI ROAD,,,,C. Jas.,Wilkins,ironworker,
+resident,LLWYDERI ROAD,,,,Mrs.,Hockey,,
+resident,LLWYDERI ROAD,,,,Thomas,Phillips,,
+resident,LLWYDERI ROAD,,,,William,Schofield,,
+resident,LLWYDERI ROAD,,,,Arthur S.,Pratt,ironworker,
+resident,LLWYDERI ROAD,,,,Mrs. M.,Miller,,
+resident,LLWYDERI ROAD,,,,Robert,Dent,milkman,
+resident,LLWYDERI ROAD,1 Vine place,,,Mrs. Ann,Jones,
+resident,LLWYDERI ROAD,,,,Henry,Price,quarryman,
+resident,LLWYDERI ROAD,,Orchard dairy,Wm.,Brown,,
+resident,LLWYDERI ROAD,,,,James,Blackmore,smith,
+resident,LLWYDERI ROAD,,,,Albert,Norris,quarryman,
+resident,LLWYDERI ROAD,,,,Thos. W.,Heath,ironworke
+resident,LLWYDERI ROAD,,,,Henry,Price,quarryman,
+resident,LLWYDERI ROAD,,,,Joseph,Wallace,quarryman
+resident,LLWYDERI ROAD,,,,Robert,Bennett,quarryman
+resident,LLWYDERI ROAD,,,,Mrs. Ruth,Gough,,
+resident,LLWYDERI ROAD,,,,Edward,Hodges,platelayer
+resident,LLWYDERI ROAD,,,,Mrs. T.,Thomas,,
+resident,LLWYDERI ROAD,,,,William J.,Dowden,G.W.R.
+resident,LLWYDERI ROAD,,Jessamine house,Mrs. Susan,Thomas,,
+resident,LLWYDERI ROAD,,,,William,Fife,shipwright
+resident,LLWYDERI ROAD,,,,Edwin,Poole,quarryman
+resident,LLWYDERI ROAD,,,,Thos.,Gough,limeworker
+resident,LLWYDERI ROAD,,,,William,Harris,quarryman
+resident,LLWYDERI ROAD,,Crown,William,Williams,,
+resident,LLWYDERI ROAD,,,,Fred.,Bowen,ironworker
+resident,LLWYDERI ROAD,,,,Edward,Gardner,eng. driver
+resident,LLWYDERI ROAD,,,,Alfred,Royster,ironworker,Rockfield
+resident,LLWYDERI ROAD,,,,Job,Phillips,labourer
+resident,LLWYDERI ROAD,,,,Ernest,Homfray,,
+resident,LLWYDERI ROAD,,,,Thos.,Pearce,quarryman
+resident,LLWYDERI ROAD,,,,John,Harris,quarryman
+cross_street,LLWYDERI ROAD,,,,,,here is Lliswerry-crossing
+resident,LLWYDERI ROAD,,Lliswerry Hotel,F.,Moseley,,
+resident,LLWYDERI ROAD,,,,F.,Thomas,lime burner,Springfield
+resident,LLWYDERI ROAD,,Lliswerry house,Mrs. W.,Evans,farmer,
+resident,LLWYDERI ROAD,,Bro Deg,E. S.,Edwards,,
+resident,LLWYDERI ROAD,,Elms farm,Henry M.,Lewis,,
+resident,LLWYDERI ROAD,,Belle Vue farm,F. F.,Dent,,
+resident,LLWYDERI ROAD,,Olway farm,John G.,Dent,,
+resident,LLWYDERI ROAD,,Lliswerry farm,T.,Thompson,,
+resident,LLWYDERI ROAD,,Golf house,Mrs. M.,Howell,,
+resident,LLWYDERI ROAD,,Eschol villa,R. H.,Waters,farmer,"[villa See also Libeneth-road, Aberthaw-rd. and Somerton-rd,"
+street,LLWYDERI ROAD (continued),,,,,,,Houses building
+cross_street,LLWYDERI ROAD (continued),,,,,,(return)
+resident,LLWYDERI ROAD (continued),,,,,,,Vacant sites
+street,LOCKE STREET,,,,,,"C 5, Queen's-hill to Factory-road, [LEFT HAND SIDE.]"
+resident,LOCKE STREET,1,,,Samuel,Evans,machinist,
+resident,LOCKE STREET,2,,,Henry,Rogers,foreman
+resident,LOCKE STREET,3,,,Cuthbert,Thomas,postmn
+resident,LOCKE STREET,4,,,Thomas,Wren,mason
+resident,LOCKE STREET,5,,,George,Coates,s.a. officer
+resident,LOCKE STREET,6,,,Jas. H.,Weatherley,grocer
+resident,LOCKE STREET,7,,,Thos.,Donovan,foreman
+resident,LOCKE STREET,8,,,Charles,Ward,labourer
+cross_street,LOCKE STREET,,,,,,(return)
+resident,LOCKE STREET,9,,,Charles,Deakin,,
+resident,LOCKE STREET,10,,,Evan,Lougher,guard
+resident,LOCKE STREET,11,,,E.,Orlidge,toy dealer
+resident,LOCKE STREET,12,,,James,Howell,painter
+resident,LOCKE STREET,13,,,Mrs. Mary A.,Dunbar,,
+resident,LOCKE STREET,14,,,George,Smith,haulier
+resident,LOCKE STREET,15,,,Fredk.,Giddings,G.W.R.
+resident,LOCKE STREET,15a,,,Richard,Hodge,labourer
+resident,LOCKE STREET,16,,,Henry,Lane,labourer
+resident,LOCKE STREET,17,,,Albert,Hail,dealer
+resident,LOCKE STREET,18,,,James,Kite,G.W.R.
+resident,LOCKE STREET,19,,,Mrs. Hannah E.,Hufnell,,
+resident,LOCKE STREET,20,,,Mrs. Lucy,Churches,,
+resident,LOCKE STREET,21,,,Thos.,Evans,cabinet mkr
+resident,LOCKE STREET,22,,,John,Raikes,,
+resident,LOCKE STREET,23,,,G. W.,Soffe,,
+resident,LOCKE STREET,24,,,George,Needs,plasterer
+resident,LOCKE STREET,25,,,John,Thomas,do
+street,LONDON STREET,,,,,,"D 3, From 87 Chepstow-road to Bristol-street"
+cross_street,LONDON STREET,,,,,,(LEFT HAND SIDE.)
+resident,LONDON STREET,7,,,Fredk.,Mole,sawyer
+resident,LONDON STREET,9,,,Thomas,Bowen,ironwrkr
+resident,LONDON STREET,11,,,Geo.,Rennolds,coal mer
+resident,LONDON STREET,13,,,David,James,driver
+resident,LONDON STREET,15,,,John,Nicholas,blacksmith
+resident,LONDON STREET,17,,,Wm.,Chapman,G.W.R.
+resident,LONDON STREET,19,,,James,Powell,,
+resident,LONDON STREET,21,,,William,Light,,
+resident,LONDON STREET,23,,,Ralph,Greenway,,
+resident,LONDON STREET,25,,,Mrs. Annie,Stacey,shop
+cross_street,LONDON STREET,,,,,,here is Liverpool-street
+resident,LONDON STREET,27,Criccieth,C.,Christophers,,
+resident,LONDON STREET,29,Blackthorne,Wm.,Fowler,,
+resident,LONDON STREET,31,Rosedene,Hugh,Williams,,
+resident,LONDON STREET,35,Bryn-derwen,Mrs. Ann,Jenkins,,
+resident,LONDON STREET,37,,,Ralph,Williams,police
+resident,LONDON STREET,39,,,Francis H.,Heath,carputr
+resident,LONDON STREET,41,,,Albt. Edwd.,Wills,sig.fittr
+resident,LONDON STREET,43,,,,Void,,
+street,LLOYD'S BANK CHAMB'S.,,,,,,"E 2, See Commercial-street"
+street,LLOYD STREET,,,,,,"From Somerton-road, (RIGHT HAND SIDE.)"
+resident,LLOYD STREET,1,,,R. J.,Hooper,G.W.R.
+resident,LLOYD STREET,3,,,George,Edwards,ironwrkr
+resident,LLOYD STREET,5,,,Arth. V.,Davies,ironwrk
+resident,LLOYD STREET,7,,,Henry,Madge,labourer
+resident,LLOYD STREET,9,,,George,Little,ironworker
+resident,LLOYD STREET,11,,,Herbert,Jones,ironworker
+resident,LLOYD STREET,13,,,Henry,Pitman,Charles
+cross_street,LLOYD STREET,,,,,,here is Ifton-street
+resident,LLOYD STREET,15a,,,Mrs. H.,Rogers,shop
+resident,LLOYD STREET,15,,,James,Phillips,ironwrk
+resident,LLOYD STREET,17,,,George,Pullen,boot repr
+resident,LLOYD STREET,19,,,Mrs. Mary,Hall,,
+resident,LLOYD STREET,21,,,Urias,Littlehales,ironwnkr
+resident,LLOYD STREET,23,,,Edwin,Pitt,labourer
+resident,LLOYD STREET,25,,,James,Davies,,
+resident,LLOYD STREET,27,,,Thos.,Edwards,marker
+resident,LLOYD STREET,29,,,James,Cox,mason
+resident,LLOYD STREET,31,,,Chas.,Rogers,ironworker
+resident,LLOYD STREET,33,,,Alfred,Jackson,do
+resident,LLOYD STREET,35,,,Samuel,Rogers,do
+resident,LLOYD STREET,37,,,Albert,Pearce,fireman
+resident,LLOYD STREET,,,,Whitbread & Co's stores,,,
+street,LLISWERRY ROAD.,,,,,,"F 2, From Somerton-road"
+resident,LLISWERRY ROAD.,,,Aberthaw Lias Lime & Portland Cement manufacturers,J. & Co.,Davies,,
+resident,LLISWERRY ROAD.,,Brookfield,Ed. C.,Badger,,
+resident,LLISWERRY ROAD.,,Killamey,W. A.,Nash,ironworker,
+resident,LLISWERRY ROAD.,,Fields view,Charles Geo.,Clarke,turner,
+resident,LLISWERRY ROAD.,,Eschol,R. H.,Waters,farmer,
+street,LOCKE STREET (continued),,,,,,
+resident,LOCKE STREET (continued),5,,,Mrs. Mary,Poole,,
+resident,LOCKE STREET (continued),7,,,Wm.,Pearce,labourer
+resident,LOCKE STREET (continued),9,,,Geo. Hy.,Vince,ironworker
+resident,LOCKE STREET (continued),11,,,Robert,Ellis,mason
+resident,LOCKE STREET (continued),13,,,Wm. M.,Bailey,ironworker
+resident,LOCKE STREET (continued),15,,,Wm.,Sheppard,labourer
+resident,LOCKE STREET (continued),17,,,Tom,Price,ironworker
+resident,LOCKE STREET (continued),19,,,Robt. Jas.,Howard,do
+resident,LOCKE STREET (continued),21,,,Enoch,Pearson,do
+cross_street,LOCKE STREET (continued),,,,,,(return)
+resident,LOCKE STREET (continued),24,,,Mrs. Alice,Hall,,
+resident,LOCKE STREET (continued),22,,,Wm. Geo.,Harris,platelyr
+resident,LOCKE STREET (continued),20,,,George,Bond,haulier
+resident,LOCKE STREET (continued),18,,,Miss Sarah,Adams,,
+resident,LOCKE STREET (continued),16,,,Thos.,Bennett,millman
+resident,LOCKE STREET (continued),14,,,Mrs. B.,Stanley,,
+resident,LOCKE STREET (continued),12,,,Wm. B.,Adlington,irnwkr
+resident,LOCKE STREET (continued),10,,,Henry,Preece,foreman
+resident,LOCKE STREET (continued),8,,,Mrs. R.,Ellis,,
+resident,LOCKE STREET (continued),6,,,Chas.,Baldwin,musician
+resident,LOCKE STREET (continued),4,,,Chas.,Preece Hy.,carpentr
+resident,LOCKE STREET (continued),2,,,Ebenezer,Phillips,labr

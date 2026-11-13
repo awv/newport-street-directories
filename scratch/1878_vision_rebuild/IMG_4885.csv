@@ -1,0 +1,163 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,RAGLAN STREET (Continued),,,,,,""
+resident,RAGLAN STREET (Continued),43,,John,Thomas,clerk,
+resident,RAGLAN STREET (Continued),44,,Chas.,Shute,blacksmith,
+resident,RAGLAN STREET (Continued),45,,Mark,Huntley,foreman,
+resident,RAGLAN STREET (Continued),,,J. G.,Pollock,harpist,
+resident,RAGLAN STREET (Continued),46,,Mrs. H.,Jones,lodgings,
+resident,RAGLAN STREET (Continued),47,,Rees,Williams,builder,
+resident,RAGLAN STREET (Continued),48,,Rev. Timothy,Thomas,,
+resident,RAGLAN STREET (Continued),49,,David,Thomas,mariner,
+resident,RAGLAN STREET (Continued),50,,Peter,Sparkes,moulder,
+resident,RAGLAN STREET (Continued),51,,John,Pugsley,mariner,
+resident,RAGLAN STREET (Continued),52,,Mrs. Virtue,Jones,,
+resident,RAGLAN STREET (Continued),53,,John,Davies,moulder,
+resident,RAGLAN STREET (Continued),55,,John,Davies,seaman,
+resident,RAGLAN STREET (Continued),56,,John,Thomas,blacksmith,
+resident,RAGLAN STREET (Continued),57,,H.,Morris,pattern maker,
+resident,RAGLAN STREET (Continued),58,,Joseph,Meyrick,seaman,
+resident,RAGLAN STREET (Continued),59,,John,Vowles,porter,
+resident,RAGLAN STREET (Continued),60,,Thomas,Williams,fitter,
+resident,RAGLAN STREET (Continued),,,Geo. J.,Horwood,brewery,
+street,RAILWAY STREET,,,,,,(from Depot st to Station st)
+resident,RAILWAY STREET,1,,D.,Turner,plasterer,
+resident,RAILWAY STREET,2,,John,Jones,puddler,
+resident,RAILWAY STREET,3,,Alfred,Innes,fitter,
+resident,RAILWAY STREET,4,,John,Martin,foreman,
+resident,RAILWAY STREET,5,,Wm.,Hopton,compositor,
+resident,RAILWAY STREET,6,,W.,Crayford,fitter,
+resident,RAILWAY STREET,7,,J.,Williams,stone mason,
+resident,RAILWAY STREET,8,,Sidney,Redmond,,
+resident,RAILWAY STREET,9,,Francis,Hicks,carrier,
+resident,RAILWAY STREET,10,,W.,Price,foreman G. W. R.,
+resident,RAILWAY STREET,11,,Richard,Price,ostler,
+resident,RAILWAY STREET,12,,C.,Evans,timber mrchnt,
+resident,RAILWAY STREET,13,,Charles,Slade,clerk,
+resident,RAILWAY STREET,14,,Edward,Castle,,
+cross_street,RAILWAY STREET,,,,,,(return)
+resident,RAILWAY STREET,15,,Chas.,Kick,hair cutter,
+resident,RAILWAY STREET,16,,C.,Morgan,coachsmith,
+resident,RAILWAY STREET,17,,E. J.,Gill,clerk,
+resident,RAILWAY STREET,18,,James,Day,cellarman,
+resident,RAILWAY STREET,,,S. C.,Pope,carriage bldr,
+resident,RAILWAY STREET,19,,Mrs. Ellen,Greenland,,
+resident,RAILWAY STREET,20,,Miss Priscilla,Jones,,
+resident,RAILWAY STREET,21,,Bartholomew,Tinn,labourer,
+resident,RAILWAY STREET,22,,Mrs. E.,Parsons,dressmkr,
+resident,RAILWAY STREET,,,W.,Richards,teacher,
+resident,RAILWAY STREET,23,,T.,Mogford,labourer,
+resident,RAILWAY STREET,24,,Alfred,Pope,porter,
+resident,RAILWAY STREET,25,,Mrs. Susan,Davies,,
+resident,RAILWAY STREET,26,,W. H.,Sully,watchmaker,
+resident,RAILWAY STREET,27,,Charles,Pearson,,
+resident,RAILWAY STREET,28,,Mrs. Thos.,Griffiths,,
+resident,RAILWAY STREET,,,Thomas,Walker,clerk,
+resident,RAILWAY STREET,29,,Thomas,Barrett,,
+street,REFORM BUILDINGS,,,,,,(from 1 Lower Cross st to 53 Canal parade)
+resident,REFORM BUILDINGS,,,J. C.,Reilly,marine stores,
+resident,REFORM BUILDINGS,,Forester's Arms,A.,Syner,,
+resident,REFORM BUILDINGS,,,Lovell's,,timber yard
+street,REES'S BUILDINGS,,,,,,(from Mountjoy road)
+street,RODNEY PARADE,,,,,,(east side of the Usk)
+resident,RODNEY PARADE,,,Phoenix Potatoe Co.,,stores
+resident,RODNEY PARADE,,,A. H.,Tapson,shipbroker
+resident,RODNEY PARADE,,,W.,Essery,shipwright
+resident,RODNEY PARADE,,Gridiron Wharf,G.,Mills,master mariner
+resident,RODNEY PARADE,,,Cheeseman & Co.,gridiron keepr
+resident,RODNEY PARADE,,,Hewertson's,bark & timbr yd
+resident,RODNEY PARADE,,,Spittle's,boiler works
+resident,RODNEY PARADE,,,Dyer's,lime kilns
+resident,RODNEY PARADE,,,T.,Fitzgerald,labourer
+resident,RODNEY PARADE,,,W.,Hendy,labourer
+resident,RODNEY PARADE,,,T.,Westlake,labourer
+resident,RODNEY PARADE,,,W.,Welsh,,
+resident,RODNEY PARADE,,,D.,Welsh,haulier
+resident,RODNEY PARADE,,Great Western Wharf,,,,
+street,ROOKERY (THE),,,,,,(from 73 Stow hill)
+street,RUPERRA STREET,,,,,,(from 17 Commercial road to Dock street)
+resident,RUPERRA STREET,1-2,,W. S.,Clarke,com mer,
+resident,RUPERRA STREET,5,,Mrs.,Wells,ladies' school,
+resident,RUPERRA STREET,6,,John,Bremner,draper,
+resident,RUPERRA STREET,7,,E. G.,Penny,auctioneer,
+resident,RUPERRA STREET,,,T. E.,Cooke,,
+resident,RUPERRA STREET,8,,F.,Downham,accountant,
+resident,RUPERRA STREET,9,,Eliza,Martin,,
+resident,RUPERRA STREET,10,,W.,Jones,tinman,
+resident,RUPERRA STREET,11,,Wm.,Rowberry,botanist,
+resident,RUPERRA STREET,12,,Ann,Williams,,
+resident,RUPERRA STREET,13,,J.,Davies,station master,
+resident,RUPERRA STREET,14,,Mrs. E.,French,,
+resident,RUPERRA STREET,15,,T. S.,Jones,tailor,
+resident,RUPERRA STREET,16,,W.,Parry,watchmaker,
+resident,RUPERRA STREET,17,,Mrs. A.,Seymour,,
+resident,RUPERRA STREET,,,Mrs. M.,Stevens,,
+cross_street,RUPERRA STREET,,,,,,(here is New Ruperra street)
+resident,RUPERRA STREET,18,,Stephen,Smoothey,clerk,
+resident,RUPERRA STREET,19,,J.,Burns,clothes dealer,
+resident,RUPERRA STREET,20,,B.,Growtihns,shipbroker,
+resident,RUPERRA STREET,22,,J.,Johns,shipping agent,
+resident,RUPERRA STREET,23,,A.,Stonehouse,shipbroker,
+resident,RUPERRA STREET,24,,Mrs. Jane,Pring,,
+resident,RUPERRA STREET,25,,J.,Herbert,com. traveller,
+resident,RUPERRA STREET,26,,Mrs.,Blackmore,,
+resident,RUPERRA STREET,27,,J.,Jones,shipbroker,
+resident,RUPERRA STREET,28,,G.,Williams,mast mariner,
+resident,RUPERRA STREET,29,,Mrs. M. A.,Bethell,,
+resident,RUPERRA STREET,30,,David,Lewis,seaman,
+resident,RUPERRA STREET,31,,J.,Sully,brass finisher,
+cross_street,RUPERRA STREET,,,,,,(return)
+resident,RUPERRA STREET,,Masonic hall,,,,
+resident,RUPERRA STREET,,,Angel Single and Co.,ship brokers
+resident,RUPERRA STREET,,,W. T. C.,Pratt,medical inspector of seamen
+resident,RUPERRA STREET,32,,S.,Price,coal factor,
+resident,RUPERRA STREET,,,J. Moses and Co.,shipbrks
+cross_street,RUPERRA STREET,,,,,,here is East Market-street
+resident,RUPERRA STREET,,The Cattle Market,,,,
+resident,RUPERRA STREET,33,,R. P.,Jones,Portuguese Consulate Office
+resident,RUPERRA STREET,34,,William,Clarke,clerk,
+resident,RUPERRA STREET,35,,J.,Richardson,boiler mkr,
+resident,RUPERRA STREET,36,,J.,Jones,Temperance hotel,
+resident,RUPERRA STREET,37,,W.,Edmonds,sewing machine agent
+resident,RUPERRA STREET,38,,George,Jones,painter,
+resident,RUPERRA STREET,39,,Mrs. M.,Collier,lodgings,
+resident,RUPERRA STREET,40,,Walter S.,Moffatt,tailor,
+street,ST. EDWARD STREET,,,,,,(from end of St. Mary-street)
+resident,ST. EDWARD STREET,1,,Mrs. Elizabeth,Harvey,,
+resident,ST. EDWARD STREET,2,,James,Powell,shoemaker,
+resident,ST. EDWARD STREET,3,,R.,Marston,mechanic,
+resident,ST. EDWARD STREET,4,,R.,Coomber,warehouseman,
+resident,ST. EDWARD STREET,5,,W.,Dunegan,plasterer,
+resident,ST. EDWARD STREET,6,,Edk.,Clayfield,mechanic,
+resident,ST. EDWARD STREET,7,,Wm.,Morgan,shoemaker,
+resident,ST. EDWARD STREET,8,,John,Fry,policeman,
+resident,ST. EDWARD STREET,9,,Fredk.,Payne,policeman,
+resident,ST. EDWARD STREET,10,,Thomas,Evans,mechanic,
+resident,ST. EDWARD STREET,11,,Wm.,Smele,carter,
+resident,ST. EDWARD STREET,12,,S. E.,Morgan,compositor,
+resident,ST. EDWARD STREET,13,,Fredk.,Orders,plumber,
+resident,ST. EDWARD STREET,14,,J.,Gwynne,cabinet maker,
+resident,ST. EDWARD STREET,15,,George,Sharp,fitter,
+resident,ST. EDWARD STREET,16,,Mrs. M.,Lewis,grocer,
+resident,ST. EDWARD STREET,17,,H.,Jeremy,pointsman,
+resident,ST. EDWARD STREET,18,,Ebenezer,Morgan,tailor,
+resident,ST. EDWARD STREET,19,,Mrs. Mary,Hando,,
+resident,ST. EDWARD STREET,20,,Benjamin,Dier,mechanic,
+resident,ST. EDWARD STREET,21,,George,Purkis,waiter,
+resident,ST. EDWARD STREET,22,,J.,Malpas,railway police,
+resident,ST. EDWARD STREET,,,Mrs.,Malpas,straw bon mk,
+resident,ST. EDWARD STREET,23,,Thos.,Edwards,policeman,
+resident,ST. EDWARD STREET,24,,Mrs.,Thompson,,
+resident,ST. EDWARD STREET,25,,Geo.,Philpin,smith,
+resident,ST. EDWARD STREET,26,,John,Davies,clerk,
+resident,ST. EDWARD STREET,27,,W.,Down,wheelwright,
+resident,ST. EDWARD STREET,28,,Thomas,Lewis,fitter,
+resident,ST. EDWARD STREET,29,,T.,Napton,coach painter,
+resident,ST. EDWARD STREET,30,,Isaac,Harding,carpenter,
+resident,ST. EDWARD STREET,31,,S. T.,Merry,upholsterer,
+resident,ST. EDWARD STREET,31a,,Wm.,Carroll,carrier,
+resident,ST. EDWARD STREET,31b,,E.,Dowle,clerk,
+cross_street,ST. EDWARD STREET,,,,,,(return)
+resident,ST. EDWARD STREET,32,,Wm.,Gorton,compositor,
+resident,ST. EDWARD STREET,33,,Elijah,Barton,smith,
+resident,ST. EDWARD STREET,34,,William,Hale,policeman,
+resident,ST. EDWARD STREET,35,,Hugh,Ross,fitter,

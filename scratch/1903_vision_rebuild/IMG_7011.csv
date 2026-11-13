@@ -1,0 +1,143 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,,34,,Arthur R.,Mullett,,"Newcot"
+resident,,35,,John J.,Stewart,,
+resident,,36,,Alfred,Gratte,,"Preswylfa"
+resident,,37,,Miss E.,Phillips,,"Seaview"
+resident,,38,,J. H.,Carney,,"Glengariffe"
+resident,,11,,Mrs E. P.,Jones,,"Woodside"
+resident,,12,,J. E.,Davies,,"Dunmarklyn"
+resident,,15,,F. S.,Budd,,"Ferncliffe"
+resident,,16,,A. P.,Williams,,"Draycot vil"
+resident,,17,,,Severn villa-void,,
+resident,,18,,Mrs.,Evans,,Holmes view
+resident,,34,,Alfred,Hando,,G.P.O.
+resident,,35,,Francis William,Johns,,
+resident,,36,,Mrs E.,Williams,,
+resident,,37,,Oliver,Eadie,,manager
+resident,,38,,W. H.,Gough,,G.P.O.
+resident,,40,,Geo. F.,Thorne,,"Rutland v"
+resident,,41,,Lloyd,Overstone,,"Arran v"
+resident,,42,,Wm.,Watkins,,"Peringa v"
+resident,,43,,William,Edwards,J.P.,Sunny Mount
+street,Stow Park Circus,,,,,,Stow-park.
+cross_street,Stow Park Circus,,,,,,OUTER CIRCLE
+resident,Stow Park Circus,1,,Mrs Thos.,Colborne,,"The Hawthorns"
+resident,Stow Park Circus,3,,J.,Lintou,,"The Woodlands"
+resident,Stow Park Circus,5,,Mrs M.,Williams,,"Lynwood"
+resident,Stow Park Circus,7,,Fred.,Vaughan,,"Rosetta"
+resident,Stow Park Circus,9,,W. J.,Orders,,"Brynholme"
+resident,Stow Park Circus,11,,Mark,Mordey,J.P.,Jesmond
+resident,Stow Park Circus,13,,J. C.,Llewelling,,"Craigrafren"
+resident,Stow Park Circus,15,,R. P.,Williams,,"Croome"
+resident,Stow Park Circus,17,,W. S.,Jones,,"Ynys-môn"
+resident,Stow Park Circus,19,,,Grouville-void,,
+resident,Stow Park Circus,21,,T. H.,Howell,J.P.,Cader Idris
+resident,Stow Park Circus,23,,Col. W. H.,Williams,,"Wynnstay"
+resident,Stow Park Circus,25,,Mrs E.,Payne,,"Kenilworth"
+resident,Stow Park Circus,27,,R. C.,Banks,,
+resident,Stow Park Circus,29,,T.,Cordey,J.P.,The Grange
+resident,Stow Park Circus,,,W. H.,Chambers,,"St Helens"
+resident,Stow Park Circus,,,John,Davies,St. Olaves,
+cross_street,Stow Park Circus,,,,,,INNER CIRCLE
+resident,Stow Park Circus,2,,Rev D. A.,Lewis,,Vicar of Nash; Lawnside
+resident,Stow Park Circus,4,,J.,Liscombe,,"Bron-y-gaer"
+resident,Stow Park Circus,6,,C. W.,Marsh,Earle, J.P.,Rock dale
+resident,Stow Park Circus,8,,F. W.,Raikes,,"Redlands"
+resident,Stow Park Circus,10,,Thos.,Dawson,,"Rothbury"
+resident,Stow Park Circus,12,,T. J.,Vachell,St. Gwynlliw
+resident,Stow Park Circus,14,,W. C.,Phillips,,"Rothesay"
+street,Stow Park Crescent,,,,,,Stow-park.
+cross_street,Stow Park Crescent,,,,,,[LEFT HAND SIDE.]
+resident,Stow Park Crescent,1,,T. C.,Kirk,,"Fairlight"
+resident,Stow Crescent,2,,Hy.,Jayne,,"Bron-gain ho"
+resident,Stow Park Crescent,3,,W. E.,Heard,J.P.,Winchester house
+resident,Stow Park Crescent,4,,Mrs C.,Morris,,"Clarendon h"
+resident,Stow Park Crescent,5,,Robt.,Gething,,"Briar hill"
+resident,Stow Park Crescent,6,,Wm. Geo.,Cox,,"Braeside"
+resident,Stow Park Crescent,7,,Percy,Fawckner,,"Viletta"
+resident,Stow Park Crescent,8,,G. R.,Martyn,J.P.,Skelmorlie
+cross_street,Stow Park Crescent,,,,,,(return.)
+resident,Stow Park Crescent,10,,F. R.,Bates,,"Minevia"
+street,Stow Park Gardens,,,,,,Nos. 12-22 Stow Park-avenue
+street,Stow Park Road,,,,,,Now Stow Park-avenue.
+street,Stow Passage,,,,,,From 82 Stow-hill.
+resident,Stow Passage,1,,William,Wood,labourer,
+resident,Stow Passage,2,,F.,Wooley,cabman,
+resident,Stow Passage,3,,Jeremiah,Mahoney,seaman,
+resident,Stow Passage,4,,E.,Richards,slaughterman,
+resident,Stow Passage,5,,George,Poole,,
+resident,Stow Passage,6,,,Void,,
+resident,Stow Passage,7,,Mrs,Weech,,
+resident,Stow Passage,8,,James,Tobin,labourer,
+street,Summer Hill Avenue,,,,,,Right side Christchurch-road to Victoria-avenue.
+resident,Summer Hill Avenue,1,,James,Stallard,,"Eidsvold"
+resident,Summer Hill Avenue,2,,John,Hopkins,reporter,
+resident,Summer Hill Avenue,3,,Leonard,Watkins,,
+resident,Summer Hill Avenue,4,,W. H.,Copp,fitter,
+resident,Summer Hill Avenue,5,,Thomas,Isaacs,traveller,
+resident,Summer Hill Avenue,6,,Young,Swanton,plasterer,
+resident,Summer Hill Avenue,7,,George,Shepherd,teacher,
+resident,Summer Hill Avenue,8,,William,Hunt,baker,
+resident,Summer Hill Avenue,9,,Mrs Elizabeth,Beynon,,
+resident,Summer Hill Avenue,10,,Chas.,Evans,timber mer,
+resident,Summer Hill Avenue,11,,James,Poole,Hill side,
+resident,Summer Hill Avenue,12,,Geo.,Morgan,Brynview,
+resident,Summer Hill Avenue,13,,Jas. T.,Morris,builder,
+resident,Summer Hill Avenue,14,,Mrs J. F.,Thomas,,
+resident,Summer Hill Avenue,15,,Mrs,Welsh,,
+resident,Summer Hill Avenue,16,,Theo. H.,Frederick,,
+resident,Summer Hill Avenue,17,,H. J.,Hill,Northernhaye,
+resident,Summer Hill Avenue,18,,W. P.,Williams,The View,
+resident,Summer Hill Avenue,19,,,Ravenswood-void,,
+resident,Summer Hill Avenue,20,,Robert,Moxham,,
+resident,Summer Hill Avenue,21,,Richard,Webber,builder,
+resident,Summer Hill Avenue,22,,J.,Davies,Abersytwith v,
+resident,Summer Hill Avenue,23,,Wm.,Jones,Cardigan v,
+cross_street,Summer Hill Avenue,,,,,,here is Albert-avenue.
+resident,Summer Hill Avenue,30,,S.,Taylor,baker,
+cross_street,Summer Hill Avenue,,,,,,(return.)
+resident,Summer Hill Avenue,31,,Arthur,Wells,clerk,
+resident,Summer Hill Avenue,32,,Geo.,Williams,engineer,
+resident,Summer Hill Avenue,33,,Wm.,Morton,coachbuildr,
+street,Summer Hill Villas,,,,,,
+resident,Summer Hill Villas,44,,Rev G. H.,Cook,,(Baptist)
+resident,Summer Hill Villas,45,,R.,Twist,,Clwyd villa
+resident,Summer Hill Villas,46,,Mrs,Watkins,The Retreat,
+resident,Summer Hill Villas,47,,Edwin,Cherry,,
+resident,Summer Hill Villas,48,,Thos.,Ponsford,Glenview,
+resident,Summer Hill Villas,49,,Rd.,Searle,Brynderwyn,
+street,Sutton Road,,,,,,West of Durham-road.
+cross_street,Sutton Road,,,,,,[LEFT HAND SIDE.]
+resident,Sutton Road,1,,T.,Shore,coal merchant,
+resident,Sutton Road,3,,Mrs Fanny,James,,
+resident,Sutton Road,5,,J.,Walters,insurance agt,
+resident,Sutton Road,7,,Wm.,Whitson,carpenter,
+resident,Sutton Road,9,,Fredk. C.,Wall,mar. engr,
+resident,Sutton Road,11,,A. E.,Jones,tailor,
+resident,Sutton Road,13,,Sidney E.,James,clerk,
+resident,Sutton Road,15,,Albert,Jackson,plumber,
+resident,Sutton Road,17,,G. H.,Ackerman,oil dlr,
+resident,Sutton Road,19,,C Wm.,Ashill,brakesman,
+resident,Sutton Road,21,,T. W.,Phillips,geul haulier,
+resident,Sutton Road,23,,Thos.,Jones,brick works,
+resident,Sutton Road,25,,J.,Evans,collier,
+resident,Sutton Road,27,,Albert,Lewis,plumber,
+cross_street,Sutton Road,,,,,,(return.)
+resident,Sutton Road,24,,Jas.,Hartland,Sid. clerk,
+resident,Sutton Road,22,,H.,Marsh,insur. agent,
+resident,Sutton Road,20,,Sidney,Smith,labourer,
+resident,Sutton Road,18,,Thos.,Morgan,bricklayer,
+resident,Sutton Road,16,,John H.,Glass,steward,
+resident,Sutton Road,14,,Thos.,Finlay,labourer,
+resident,Sutton Road,12,,Wm. H.,French,shipwright,
+resident,Sutton Road,10,,William,Chambers,clerk,
+resident,Sutton Road,8,,Ernest,Powis,wheelwght,
+resident,Sutton Road,6,,Francis,Davies,mas. mar.,
+resident,Sutton Road,4,,Heury T.,Wright,police,
+resident,Sutton Road,2,,J. H.,Blake,oil dealer,
+street,Temple Street, P.,,,,,,From 133 Commercial-road.
+cross_street,Temple Street, P.,,,,,, [LEFT HAND SIDE.]
+resident,Temple Street, P.,1,,James,White,fitter,
+resident,Temple Street, P.,2,,James,Baggs,labourer,
+resident,Temple Street, P.,3,,Wm.,Lamprey,labourer,
+resident,Temple Street, P.,4,,Mrs Mary,Honeywill,,

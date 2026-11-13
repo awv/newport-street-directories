@@ -1,0 +1,143 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,PARK SQUARE,5,,,W. H.,Webb,,,Sydenham
+street,PARK SQUARE,6,,,Mrs. Isabella,Phillips,,
+street,PARK SQUARE,7,,,C. H.,Jones,,,Malvern villa
+street,PARK SQUARE,8,,,Charles,Waite,,,Richmond v
+street,PARK SQUARE,9,,,Mrs. A.,Shepherd,,,Rosslyn
+street,PARK SQUARE,10,,,Mrs. F.,Rowe,,,Thorntree
+street,PARK SQUARE,11,,,Herbt. Egerton,Williams,surgeon,The Mount
+street,PARK SQUARE,12,,,A. H.,Smith,,,Prospect v
+street,PARK SQUARE,13,,,Robert C. L.,Thomas,,
+cross_street,PARK SQUARE,,,,,,(return)
+street,PARK SQUARE,15,,,John,Webb,carpenter,
+street,PARK SQUARE,16,,,Mrs. E.,Williams,,
+street,PARK SQUARE,17,,,Mrs. Mary,Evans,,
+street,PARK SQUARE,18,,,Alfred,Taylor,cycle mfr,
+street,PARK SQUARE,19,,,J. Thomas,Davies,,
+street,PARK SQUARE,20,,,Llewellyn,Phillips,eng dvr,
+street,PARK SQUARE,21,,,William Henry,Padget,,
+street,PARK SQUARE,22,,,Arthur,Pearse,,
+street,PARK SQUARE,23,,,Robert R.,Alward,,
+street,PARK SQUARE,24,,,Percy,Bagshaw,,
+street,PARK SQUARE,25,,,Thomas R.,Giddy,,
+street,PARK SQUARE,26,,,Ben Thomas,Jenkins,,
+street,PARK SQUARE,27,,,Miss Elizabeth,Townsend,,
+street,PARK SQUARE,28,,,Thomas,Vacara,fish mer,
+street,PARK SQUARE,29,,,Miss G.,Williams,,
+street,PARK SQUARE,30,,,Evan,Edwards,,
+cross_street,PARK SQUARE,,,,,,here is Ivor-street
+street,PARK SQUARE,31,,,Miss Florence,Dean,,
+street,PARK SQUARE,32,,,James,Barry,boilermaker,
+street,PARK SQUARE,33,,,Thomas,Cole,painter,
+street,PARK SQUARE,34,,,Thomas,Dodd,,
+street,PARK SQUARE,35,,,Geo. F.,Smith,G.W.R.,
+street,PARK SQUARE,36,,,Mrs. Clara L.,Lewis,,
+street,PARK SQUARE,37,,,Frederick Wm.,Horsey,,
+street,PARK SQUARE,38,,,John,Davies,musician,
+street,PARK SQUARE,39,,,James,Vicara,,
+street,PARK SQUARE,40,,,Hermann,Storbeck,,
+street,PARK STREET,,,,,,,,D 5; Now Park-square, Nos. 14-30
+street,PARKFIELD PLACE,,,,,,,,C 5; Clytha-park
+street,PARKFIELD PLACE,,,,T. H.,Gunning,,,Coniston
+street,PARKFIELD PLACE,,,,John,Hazell,,,Lynmouth
+street,PEMBROKE CHAMBERS,,,,,,,,See 30 High-street
+street,PENLLYN AVENUE,,,,,,,,C 6; Risca-road; (LEFT HAND SIDE.)
+street,PENLLYN AVENUE,,,,L.,Harris,boot dealer,
+street,PENLLYN AVENUE,2,,,Jesse H.,Isacke,,
+street,PENLLYN AVENUE,4,,,Henry J.,Brown,carpenter,
+street,PENLLYN AVENUE,6,,,Hy. John,Hart,G.W.R.,
+street,PENLLYN AVENUE,8,,,Thomas,Stapleton,,
+street,PENLLYN AVENUE,10,,,Isaiah,Sage,gardener,
+street,PENLLYN AVENUE,12,,,Mrs. L. B. L.,Greenhof,,
+street,PENLLYN AVENUE,14,,,Robert S.,Yates,,
+street,PENLLYN AVENUE,16,,,A. E.,Marshall,linesman,
+street,PARK SQUARE,18,,,Mrs. Kathleen,Davies,,
+street,PARK SQUARE,20,,,William,Soper,G.W.R.,
+street,PARK SQUARE,22,,,James,Watson,electrician,
+street,PARK SQUARE,24,,,Walter M.,Porter,,
+street,PARK SQUARE,26,,,John H.,Taylor,gardener,
+street,PARK SQUARE,28,,,Wm. H.,Sage,gardener,
+street,PARK SQUARE,30,,,William,Holt,engineer,
+street,PARK SQUARE,32,,,Wm. R.,Churches,police,
+street,PARK SQUARE,34,,,Wm. P.,Herring,carman,
+street,PARK SQUARE,36,,,Ben H.,Price,,
+street,PARK SQUARE,,West Park Steam Laundry Company, Ltd.,,,,
+cross_street,PARK SQUARE,,,,,,(return)
+street,PARK SQUARE,37,,,E. J.,Rose,lino operator,
+street,PARK SQUARE,35,,,Wyndham E.,Sansom,,
+street,PARK SQUARE,33,,,Frank,Grandin,G.W.R.,
+street,PARK SQUARE,31,,,John R.,Gamble,wghts. ins,
+street,PARK SQUARE,29,,,Mrs. M.,Humphries,,
+street,PARK SQUARE,27,,,Jas.,Williams,moulder,
+street,PARK SQUARE,25,,,Mrs. Maria,Marshall,,
+street,PARK SQUARE,23,,,Ernest F.,Brown,,
+street,PARK SQUARE,21,,,Jos.,Barber,mason,
+street,PARK SQUARE,19,,,Christopher,Williams,,
+street,PARK SQUARE,17,,,Stanley Thos.,Brown,,
+street,PARK SQUARE,15,,,J. Lloyd,Jones,manager,
+street,PARK SQUARE,13,,,Mrs. Angelina,Smith,,
+street,PARK SQUARE,11,,,William,Childs,gardener,
+street,PARK SQUARE,9,,,Herbert R.,Rhys,,
+street,PARK SQUARE,7,,,William,Morgan,,
+street,PARK SQUARE,5,,,George,Skeldon,,
+street,PARK SQUARE,3,,,William J.,Sambrook,,
+street,PARK SQUARE,1A,,,F. J.,Jenkins,watchmkr,
+street,PARK SQUARE,1,,,E. A. S.,Jones,,Penllyn str
+street,PARK SQUARE,,,,,Davis H. & Sons,sculptors,
+street,PENROSE STREET,,,,,,,,C 3; Off Caerleon-road
+street,PENTONVILLE,,,,,,,,C 4; From Mill-street; (LEFT HAND SIDE.)
+street,PENTONVILLE,2,,,A. G. Roy,White,,Ottery v
+street,PENTONVILLE,3,,,W. M.,Madge,Kingscott,
+street,PENTONVILLE,4,,,Mrs. E. M.,Burge,,Torres v
+street,PENTONVILLE,5,,,Mrs. E.,Jones,,Coombe
+street,PENTONVILLE,6,,,E. A.,Charles,,Belnie
+street,PENTONVILLE,7,,,Mrs. L.,Seidler,,Silverton
+street,PENTONVILLE,8,,,Gwynfa—void,,,
+cross_street,PENTONVILLE,,,,,,here is Gold-tops
+street,PENTONVILLE,,Tredegar Estate office,,J. I. Storrar,agent (town estate),,
+street,PENTONVILLE,,Tredegar Estate office,,L. Foster Stedman,agent (agricultural estate),,
+street,PENTONVILLE,,,,J. F.,Groves,architect,
+street,PENTONVILLE,,,,P. W.,Mitchell,accountant,
+street,PENTONVILLE,,,,Hy.,Williams,caretaker,
+cross_street,PENTONVILLE,,,,,,(return)
+street,PENTONVILLE,9,COUNTY HALL,,Thomas Hughes,clerk,County Hall
+street,PENTONVILLE,9,COUNTY HALL,,S. A. Bennett,County surveyor,A.M.I.C.E.
+street,PENTONVILLE,9,COUNTY HALL,,Dr. Rocyn Jones,medical officer,County Health Department
+street,PENTONVILLE,9,COUNTY HALL,,P. H.,Stafford,County Accountant,
+street,PENTONVILLE,9,COUNTY HALL,,T. S.,Butterworth,Local Taxation Department
+street,PENTONVILLE,9,COUNTY HALL,,A. Every-Clayton,County Land Agent
+street,PENTONVILLE,9,COUNTY HALL,,F. E. B.,Haynes,Inspector under Shops Act
+street,PENTONVILLE,9,COUNTY HALL,,Chas.,Dauncey,secretary to County Education Committee and Caerleon Training College
+street,PENTONVILLE,9,COUNTY HALL,,T. G.,James,director of Education
+street,PENTONVILLE,9,COUNTY HALL,,John,Bain,architect to County Education Committee,F.R.I.B.A.
+street,PENTONVILLE,9,COUNTY HALL,,F.,Hiscott,Finance Clerk,Education
+street,PENTONVILLE,9,COUNTY HALL,,D. Brynmor Morgan,director,Mining Dept. B.Sc.
+street,PENTONVILLE,9,COUNTY POLICE STATION,,Albert,Powell,Insp.,Station house
+cross_street,PENTONVILLE,,,,,,here is Queen's-hill
+street,PENTONVILLE,10,,,T. J.,Kenure,milliner,
+street,PENTONVILLE,10A,,,P.,Skelton,hairdresser,
+street,PENTONVILLE,11,,,Wm.,James,greengrocer,
+street,PENTONVILLE,12,,,Geo. P.,Thomas,,
+street,PENTONVILLE,13,,,T. W. J.,Tamplin,bootmaker,
+street,PENTONVILLE,14,,,Foster & Baker,newsagts and tobacconists,
+street,PENTONVILLE,15,,,Mrs. Catherina,Thomas,,
+street,PENTONVILLE,16,,,Tom,Smith,,
+street,PENTONVILLE,17,,,Mrs. H. W.,Morrish,,The Lindens
+street,PENTONVILLE,18,,,C. H.,Thomas,,Eccleston
+street,PENYLAN PARK,,,,,,,,D 2; Left-hand side Chepstow-road near Cross Hands
+street,PHILLIP STREET,,,,,,,,D 3; From Wharf-road
+street,PHILLIP STREET,1,,,Mrs. E. M.,Stevens,,
+street,PHILLIP STREET,2,,,John,Green,labourer,
+street,PHILLIP STREET,3,,,John,Clarke,labourer,
+street,PHILLIP STREET,4,,,William,Vick,labourer,
+street,PHILLIP STREET,5,,,W. J.,Cooper,shearer,
+street,PHILLIP STREET,6,,,John,Haswell,labourer,
+street,PHILLIP STREET,7,,,Arthur,Haswell,moulder,
+street,PHILLIP STREET,8,,,Victor E.,Lane,,
+street,PHILLIP STREET,9,,,Thos.,Hood,moulder,
+street,PHILLIP STREET,10,,,A. A.,Allsopp,railwayman,
+street,PHILLIP STREET,11,,,F. H.,Harwood,porter,
+street,PHILLIP STREET,12,,,Frank,Fennell,,
+street,PHILLIP STREET,13,,,Sidney,Perrett,guard,
+street,PHILLIP STREET,14,,,Peter,Drave,labourer,
+street,PHILLIP STREET,15,,,Mrs. Sophia,Haswell,,

@@ -1,0 +1,163 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Alm,,,,,,
+cross_street,Alm,,,,,,here is Francis-street.
+resident,Alm,11,,,Thomas,engineer,King
+resident,Alm,12,,,George,Mrs Hannah,
+resident,Alm,13,,,Francis W.,eng. drvr,Peace
+resident,Alm,14,,,Richards Hy.,engineer,
+resident,Alm,15,,,Charles,foreman,Nimmo
+resident,Alm,,,,Lane & Son's workshops,,,
+resident,Alm,16,,,W. H.,porter,Nottingham
+resident,Alm,17,,,Abraham,,Rothwell
+resident,Alm,18,,,Thomas H.,,Tyas
+resident,Alm,19,,,Geo.,engine driver,Tyas
+resident,Alm,20,,,Mrs,,Whitehill
+resident,Alm,21,,,Mrs S. A.,,Evans
+resident,Alm,22,,,David,sailor,Evans
+resident,Alm,23,,,George,mason,Taylor
+cross_street,Alm,,,,,,here is Charlotte-street.
+resident,Alm,24,,,Josiah,steward,Douglas
+resident,Alm,25,,,Hy.,brassfounder,Manly
+resident,Alm,26,,,Geo.,cab proprietor,Wall
+resident,Alm,27,,,John,guard,Harding
+resident,Alm,28,,,Thomas,labourer,Driscoll
+resident,Alm,,,,Thos.,ironworker,Jones
+resident,Alm,,,,PARTICULAR BAPT. CHAPEL,,,
+resident,Alm,30,,,Anthony,clerk,Pugsley
+resident,Alm,31,,,Thomas,,Williams
+resident,Alm,32,,,John,weighman,Screen
+resident,Alm,33,,,Mrs Sarah,,Phillips
+resident,Alm,34,,,Wm. E.,labourer,Pantill
+resident,Alm,35,,,John,baker,Weston
+cross_street,Alm,,,,,,here is Kirby-street.
+resident,Alm,36,,,Sydney,cabinetmkr,Hill
+resident,Alm,37,,,Mrs Martha,,Jones
+resident,Alm,38,,,Wm. Hy.,haulier,Davey
+resident,Alm,39,,,Alexander,,McGregor
+resident,Alm,40,,,Thos.,engineer,Chicken
+resident,Alm,41,,,Wm.,dairyman,Graves
+resident,Alm,42,,,George,guard,Storey
+resident,Alm,43,,,Fredk.,steward,Hedder
+resident,Alm,44,,,George,roofer,Anstee
+resident,Alm,45,,,Geo. Jas.,rivetter,Bishop
+resident,Alm,46,,,Thos.,sailmaker,Moore
+resident,Alm,47,,,Albert,carpenter,Comer
+resident,Alm,,,,Chas.,shoeing smith,Priest
+resident,Alm,48,,,William,,Luker
+resident,Alm,49,,,George,fitter,Brown
+resident,Alm,50,,,Thos.,mas. mariner,Lewis
+resident,Alm,51,,,Samuel J.,pilot,Small
+resident,Alm,52,,,Peter,seaman,Petersen
+resident,Alm,53,,,Robert,guard,Lawrence
+resident,Alm,54,,,Walter,engine driver,Fly
+resident,Alm,55,,,J. H.,ærated water manufacturer,Vile
+resident,Alm,56,,,Geo. P.,cutter,Williams
+cross_street,Alm,,,,,,path to Cardiff-road.
+cross_street,Alm,,,,,,(return.)
+resident,Alm,61,,,Robert,shipwright,Cozon
+resident,Alm,62,,,Robert,clerk,Gladstone
+cross_street,Alm,,,,,,Street James F.
+resident,Alm,63,,,James,boilermkr,Newton
+resident,Alm,64,,,Joseph Robert,Ellis
+resident,Alm,65,,,Robert J.,,Searles
+resident,Alm,66,,,Jas.,Humber ho,Pugsley
+resident,Alm,67,,,E. W.,carriage bldr,Avery
+resident,Alm,68,,,W. H.,clerk,Strawbridge
+resident,Alm,69,,,James,pilot,Comerford
+resident,Alm,70,,,George,mariner,McKerr
+resident,Alm,71,,,Thos. George,pilot,Jones
+resident,Alm,72,,,R.,,Flood
+resident,Alm,,,,David,,Thomas
+resident,Alm,73,,,Rd.,carpenter,Popham
+resident,Alm,74,,,S.,master mariner,Evans
+resident,Alm,75,,,Henry,,Gardner
+resident,Alm,76,,,Miss Sarah M.,Jones
+cross_street,Alm,,,,,,here is Rutland-place.
+resident,Alm,77,,,John,mariner,Wilcox
+resident,Alm,78,,,John,manager,Hutchings
+resident,Alm,79,,,Mrs Elizabeth,Thompson
+resident,Alm,80,,,Francis,clerk,Jones
+resident,Alm,81,,,Benjamin,,Milton
+resident,Alm,82,,,Thos.,mas. mariner,James
+resident,Alm,83,,,Henry R.,grocer,Main
+resident,Alm,84,,,Joshua,coal trimmr,Parker
+resident,Alm,85,,,George,smith,Folland
+resident,Alm,86,,,John,,Fishwick
+resident,Alm,87,,,Mrs E.,grocer,Thomas
+cross_street,Alm,,,,,,here is Daniel-street.
+resident,Alm,88,,,Fred J.,assistant,Hussell
+resident,Alm,89,,,Miss Ann,,Jones
+resident,Alm,90,,,Geo.,watchmkr,Stoneman
+resident,Alm,91,,,Charles,mason,Matson
+resident,Alm,92,,,Saml.,seaman,Woodruff
+resident,Alm,93,,,John,,Scannell
+resident,Alm,94,,,Richard,fitter,Langmaid
+resident,Alm,95,,,Enoch,smith,Barwell
+resident,Alm,96,,,Arth.,shipptr,Torrington
+resident,Alm,97,,,Elon,porter,Hodge
+resident,Alm,98,,,Geo.,cabinetmkr,Norman
+resident,Alm,99,,,James L.,guard,Lewis
+resident,Alm,100,,,John,smith,Goatman
+resident,Alm,101,,,Mrs Emma,Fullilove
+resident,Alm,102,,,Thomas,labourer,Stock
+resident,Alm,103,,,Benj.,grocer,Harries
+cross_street,Alm,,,,,,here is Herbert-street.
+resident,Alm,,,,Thatcher & Son,Ltd.—Bristol Brewery,,
+resident,Alm,104,,,Mrs S. A.,Jones
+resident,Alm,105,,,Thomas J.,pilot,Ray
+resident,Alm,106,,,P. G.,shipcarpenter,Trigg
+resident,Alm,107,,,Peter,rly. inspr.,Evans
+resident,Alm,108,,,J. M.,mas. mariner,Evans
+resident,Alm,109,,,Geo.,moulder,Cambray
+resident,Alm,110,,,Andrew,rigger,Larsen
+resident,Alm,111,,,Jas.,mechanic,Richards
+resident,Alm,112,,,Dd.,engine drvr,Thomas
+resident,Alm,113,,,Henry,fitter,Jones
+resident,Alm,114,,,Fred,carpenter,Bowen
+resident,Alm,115,,,Edwd.,coal trimmr,Morgan
+resident,Alm,116,,,Geo.,oil dealer,Budden
+street,Alteryu.,,,,,,,From Barrack-hill to Canal.
+resident,Alteryu.,,,,Charles,Alteryu ho,Gaskell
+resident,Alteryu.,,,,CORPORATION HOSPITAL—,,,
+resident,Alteryu.,,,,Miss B.,matron,Greenlaw
+resident,Alteryu.,,,,Albert,porter,Colwell
+resident,Alteryu.,,,,George,haulier,Tazewell
+resident,Alteryu.,,,,Richard,,Humphreys
+resident,Alteryu.,,,,Thomas,labourer,Carr
+resident,Alteryu.,,,,George,senior,Tazewell
+resident,Alteryu.,,,,William,factory hand,Jones
+resident,Alteryu.,,,,James,labourer,Mills
+resident,Alteryu.,,,,Charles,labourer,Coles
+resident,Alteryu.,,,,Edward,labourer,Morgan
+cross_street,Alteryu.,,,,,,ALTERYN ROAD—
+resident,Alteryu.,,,,James,,Field
+resident,Alteryu.,,,,William,labourer,Jones
+resident,Alteryu.,,,,Tom,roof erector,Morris
+resident,Alteryu.,,,,David,labourer,Downes
+resident,Alteryu.,,,,Chas.,gardener,Summerhayes
+resident,Alteryu.,,,,Mrs E.,Grove house,Harrison
+resident,Alteryu.,,,,E. & W.,Wernddu farm,Baker
+resident,Alteryu.,,,,Alteryn Brick Co.'s works,,,
+resident,Alteryu.,,,,John,labourer,Griffiths
+resident,Alteryu.,,,,George,labourer,Evans
+resident,Alteryu.,,,,John,labourer,Teague
+resident,Alteryu.,,,,John,labourer,Whittaker
+resident,Alteryu.,,,,Samuel,labourer,Morris
+resident,Alteryu.,,,,James,labourer,Fitzgerald
+resident,Alteryu.,,,,Mrs Catherine,,Shean
+resident,Alteryu.,,,,Mrs,,Mahoney
+resident,Alteryu.,,,,Benj.,brickmaker,Edwards
+resident,Alteryu.,,,,James,labourer,Miles
+resident,Alteryu.,,,,William,oil dealer,Jones
+resident,Alteryu.,,,,Mrs Amy,boat owner,Jones
+resident,Alteryu.,,,,Joseph,boatman,Jones
+street,Annesley Road, M.,,,,,,,From 126 Caerleon-road to Leicester-road.
+cross_street,Annesley Road, M.,,,,,,[RIGHT HAND SIDE.]
+resident,Annesley Road, M.,1,,,Thomas,fitter,Wills
+resident,Annesley Road, M.,2,,,John,,Carter
+resident,Annesley Road, M.,3,,,Jos.,storekeeper,Cowling
+resident,Annesley Road, M.,4,,,Philip,signwriter,Cox
+resident,Annesley Road, M.,5,,,Thomas,joiner,Sedger
+resident,Annesley Road, M.,6,,,Rbt. Wm.,m'g'r,Ferguson
+resident,Annesley Road, M.,7,,,Mrs Jane,,Cherrington
+resident,Annesley Road, M.,8,,,Fredk.,confectioner,Bailey

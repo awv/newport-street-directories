@@ -1,0 +1,156 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Chepstow Road,Chepstow Road,,,,,,
+notes,Chepstow Road,,,,,,"Site of Corporation bldgs"
+cross_street,Chepstow Road,,,,,,"here is London-street."
+notes,Chepstow Road,,,"KINGSLAND TERRACE-",,,,
+resident,Chepstow Road,42,Maindee college,Edgar, Rev Williams,,"KINGSLAND TERRACE-"
+resident,Chepstow Road,43,,Mrs Jemima,Morgan,,,
+resident,Chepstow Road,44,,Alfred,Frost,corn mer.,
+resident,Chepstow Road,45,,Alexander,Sutherland,,,
+resident,Chepstow Road,46,,Misses A. & H.,Brettell,dressmakers,
+resident,Chepstow Road,47,,Thos. Edwd.,Green,,,
+resident,Chepstow Road,48,,R. H.,Gomm,,,
+resident,Chepstow Road,,,Miss,Gomm,dressmaker,
+notes,Chepstow Road,,,,,,"Maindee Board Schools"
+resident,Chepstow Road,49,Schoolhouse,P. G.,Gale,,,
+cross_street,Chepstow Road,,,,,,"entrance to Marriott's-pl."
+resident,Chepstow Road,50,1 Fair Oak v,Saml.,Small,,,
+resident,Chepstow Road,51,2 do,Mrs Harriet,Burford,,,
+cross_street,Chepstow Road,,,,,,"here is Fair Oak-terrace."
+resident,Chepstow Road,52,Maindee Hotel,Mrs.,Fry,,,
+resident,Chepstow Road,53,,Robert,Murison,,,
+notes,Chepstow Road,,,"PAGE'S PLACE-",,,,
+resident,Chepstow Road,54,,Thos. W.,Page,ironmonger,"PAGE'S PLACE-"
+resident,Chepstow Road,55,,W.,Garland,bootmaker,"PAGE'S PLACE-"
+resident,Chepstow Road,,,Jos. J. S.,Crowther,mn'gr,"PAGE'S PLACE-"
+resident,Chepstow Road,56,,E. A.,Waetzig,ironmonger,
+resident,Chepstow Road,57,,D. E.,Lovell,confectioner,
+resident,Chepstow Road,58,,Francis,Bright,pensioner,
+resident,Chepstow Road,59,Royal Oak,Wm.,Hockey,,,
+resident,Chepstow Road,60,China depot,,Watkins',,,
+resident,Chepstow Road,61,,R. & Co.,Dennis,dairymen,
+resident,Chepstow Road,62,,M. A.,Trestrail,confect'nr and restaurant,
+cross_street,Chepstow Road,,,,,,"entrance to Duckpool-rd. and Albert-avenue."
+resident,Chepstow Road,63,Dean cot,Mrs.,Smallwood,,,
+resident,Chepstow Road,,do,Mrs.,Sier,,,
+notes,Chepstow Road,,,"MILE END TERRACE-",,,,
+resident,Chepstow Road,64,Maindee Post office,John,Farmer,postmaster,"MILE END TERRACE-"
+resident,Chepstow Road,65,,James,Harris,butcher,"MILE END TERRACE-"
+resident,Chepstow Road,66 & 67,Liverpool ho,,Mercantile Co.,general clothiers,"MILE END TERRACE-"
+resident,Chepstow Road,68,,John,Powell,ironmonger,"MILE END TERRACE-"
+resident,Chepstow Road,69,,Samuel,Dowden,mason,"MILE END TERRACE-"
+resident,Chepstow Road,70,,Sidney,Coltman,painter,"MILE END TERRACE-"
+resident,Chepstow Road,71,Shepherd's Pride,Frank,Blunt,confectioner,"MILE END TERRACE-"
+resident,Chepstow Road,72,,Hy.,Watkins,,,
+resident,Chepstow Road,73,,Wm.,Jones,confectioner,
+resident,Chepstow Road,73A,,Alfred,Gwyther,coal mer,
+resident,Chepstow Road,73B,,James,Waters,butcher,
+resident,Chepstow Road,73C,,Thos.,Barron,fishmonger,
+resident,Chepstow Road,74,George Hotel,Jas.,Martin,,,
+cross_street,Chepstow Road,,,,,,"here is Victoria-avenue."
+resident,Chepstow Road,75,,Dd.,Watkins,shopkeeper,
+resident,Chepstow Road,76,,Hy.,Jenkins,hairdresser,
+resident,Chepstow Road,77,,F. W.,Jennings,corn and seed merchant,
+resident,Chepstow Road,78,Milksup'ly,Emma,Hooper,,,
+resident,Chepstow Road,,Giles,Hooper,tailor,
+resident,Chepstow Road,79,,J.,Chard,plumber & gasfi'tr,
+resident,Chepstow Road,80,Fern cottage,J. H.,Ewins,,,
+resident,Chepstow Road,81,Frampton co,Miss K.,Good,,,
+resident,Chepstow Road,82,villa-void,,Gore,,,
+resident,Chepstow Road,83,Drayton ho,G. J.,Kenvyn,,,
+cross_street,Chepstow Road,,,,,,"here is Kensington-place."
+resident,Chepstow Road,84,Maindee lawn,Rd.,Searle,,,
+resident,Chepstow Road,85,house-Void,,Eveswell,,,
+resident,Chepstow Road,86,Ffrwd vale,Ed.,Phillips,,,
+notes,Chepstow Road,,,,,,"Eveswell Board Schools"
+resident,Chepstow Road,,Bute house,Alex.,Sutherland,draper,
+resident,Chepstow Road,,The Meade,Geo.,Jope,,,
+resident,Chepstow Road,,Morlais ho,Edwd.,Samuel,,,
+resident,Chepstow Road,,Boncath ho,Wyndham,Rees,,,
+resident,Chepstow Road,,Oswald ho,Lewis,Williams,,,
+cross_street,Chepstow Road,,,,,,"here is Batchelor-road."
+resident,Chepstow Road,4,Devonia Villas-void,James,Dunbar,,,
+cross_street,Chepstow Road,,,,,,"St. John's-rd. Eveswell-park."
+resident,Chepstow Road,,Maindee hall,Val.,Trayes,,,
+resident,Chepstow Road,,Maindee pk,G. Inglis,Jones,,,
+resident,Chepstow Road,,Park Lodge,Thomas,Hicks,,,
+cross_street,Chepstow Road,,,,,,"here is Beechwood-road."
+resident,Chepstow Road,,Beechwood-void,,,,
+cross_street,Chepstow Road,,,,,,"PEN-Y-LAN PARK-"
+resident,Chepstow Road,,Beechfield vil,Thos.,Gregory,,,
+resident,Chepstow Road,,Oakfield ho,W. Milton,Locke,,,
+resident,Chepstow Road,,Mayfield-void,,,,
+resident,Chepstow Road,,Carisbrook ho,John,Phillips,,,
+resident,Chepstow Road,,Glen view,Miss,Pride,,,
+resident,Chepstow Road,,Rydalmount,J. E.,Calderwell,,,
+resident,Chepstow Road,,Edenville,James N.,James,,,
+resident,Chepstow Road,,Lawrence villa,Emil,Edlin,,,
+resident,Chepstow Road,,Instow villa,James,Pugsley,,,
+resident,Chepstow Road,,Sidney,Nicholson,,,
+resident,Chepstow Road,,Glengarry villa,T.,Dando,,,
+resident,Chepstow Road,,The Firs,Mrs.,Welsh,,,
+cross_street,Chepstow Road,,,,,,"here is Gibbs-road."
+resident,Chepstow Road,,Villa building,,,,
+resident,Chepstow Road,,Oakleigh villa,Mrs.,Hume,,,
+resident,Chepstow Road,,Bryngolan,Wm.,Davies,,,
+cross_street,Chepstow Road,,,,,,"here is Lawrence-hill."
+resident,Chepstow Road,,Farmwood nursery,T.,Davies,,,
+cross_street,Chepstow Road,,,,,,"(return.)"
+resident,Chepstow Road,,market gardnr,Enoch,Anstee,,,
+notes,Chepstow Road,,,"FARM COTTAGES-",,,,
+resident,Chepstow Road,6,,Void,,"FARM COTTAGES-"
+resident,Chepstow Road,5,,Walter,Stratford,packer,"FARM COTTAGES-"
+resident,Chepstow Road,4,,Thomas,Cliss,roadman,"FARM COTTAGES-"
+resident,Chepstow Road,3,,Wm.,Gill,waggoner,"FARM COTTAGES-"
+resident,Chepstow Road,2,,George,Savin,"FARM COTTAGES-"
+resident,Chepstow Road,1,,Edwin,Harris,machineman,"FARM COTTAGES-"
+notes,Chepstow Road,,,"SOMERTON PLACE-",,,,
+resident,Chepstow Road,6,,Walter,Short,Edmund,"SOMERTON PLACE-"
+resident,Chepstow Road,5,,Granville,Anstee,"SOMERTON PLACE-"
+resident,Chepstow Road,4,,Herbert E.,Jones,engineer,"SOMERTON PLACE-"
+resident,Chepstow Road,3,,Cornelius,Blunt,"SOMERTON PLACE-"
+resident,Chepstow Road,2,,John,Ford,labourer,"SOMERTON PLACE-"
+resident,Chepstow Road,1,,Robert,Dray,saddler,"SOMERTON PLACE-"
+cross_street,Chepstow Road,,,,,,"here is Aberthaw-road."
+resident,Chepstow Road,,House void,,,,
+resident,Chepstow Road,2,Bolton place,Thos.,Collett,,,
+resident,Chepstow Road,1,ditto,Gilbert,Price,,,
+resident,Chepstow Road,,Joseph,Kelson,,,
+resident,Chepstow Road,,Francis,Bevan,labourer,
+resident,Chepstow Road,,Charles,Morgan,labourer,
+resident,Chepstow Road,,Void,,,,
+resident,Chepstow Road,Cross Hands,Wm.,Puttock,,,
+cross_street,Chepstow Road,,,,,,"here is Somerton-road."
+resident,Chepstow Road,,Maindee lodge,Eb.,Lewis,J.P., The
+resident,Chepstow Road,,Thos.,Green,,,
+notes,Chepstow Road,,,"EVESWELL TERRACE-",,,,
+resident,Chepstow Road,87,,George,Tweedy,surveyor,"EVESWELL TERRACE-"
+resident,Chepstow Road,88,,The Misses,Cullum,,"EVESWELL TERRACE-"
+resident,Chepstow Road,89,,John Henry,Williams,,"EVESWELL TERRACE-"
+resident,Chepstow Road,90,,Walter,Jakeway,,"EVESWELL TERRACE-"
+resident,Chepstow Road,91,,Wm. Frederick,Bentley,,"EVESWELL TERRACE-"
+resident,Chepstow Road,92,,William John,Ridley,,"EVESWELL TERRACE-"
+cross_street,Chepstow Road,,,,,,"here is Eveswell-street."
+notes,Chepstow Road,,,"LAWN TERRACE-",,,,
+resident,Chepstow Road,93,Grove house,T. G.,Orphant,"LAWN TERRACE-"
+resident,Chepstow Road,94,Melrose ho,Chas. J.,Fox,"LAWN TERRACE-"
+resident,Chepstow Road,95,,Arthur L.,Peterson,"LAWN TERRACE-"
+resident,Chepstow Road,96,,W.,Bruton,"LAWN TERRACE-"
+resident,Chepstow Road,97,Piermont ho,Mrs W. H.,Jones,"LAWN TERRACE-"
+resident,Chepstow Road,98,Westoe ho,Robt.,Hodge,"LAWN TERRACE-"
+resident,Chepstow Road,99,Hollins ho,F. T.,Hammett,"LAWN TERRACE-"
+resident,Chepstow Road,100,Henry,Roe William,,"LAWN TERRACE-"
+resident,Chepstow Road,101,Leighton h,Philip,Davies,"LAWN TERRACE-"
+resident,Chepstow Road,102,Cam-bridge villa,W. W.,Phillips,"LAWN TERRACE-"
+resident,Chepstow Road,103,Oxford vil,Jas.,Brooks,,,
+cross_street,Chepstow Road,,,,,,"here is Oxford-street."
+resident,Chepstow Road,104,Frankfort house,Mrs. J.,Brewer,,,
+resident,Chepstow Road,105,Moorlane [house],Mrs. E.,Morgan,,,
+resident,Chepstow Road,106,Gold-thorn house,T. A.,Ballard,J.P.,,
+resident,Chepstow Road,107,Alstone ho,Jas.,Vaughan,,,
+resident,Chepstow Road,108,Eltham vil,G. E.,Banks,,,
+resident,Chepstow Road,109,Dunedin ho,D. J.,Owen,,,
+notes,Chepstow Road,,,"UPTON PLACE-",,,,
+resident,Chepstow Road,110,,Wm. Thos.,Corner,"UPTON PLACE-"
+resident,Chepstow Road,111,,Luke,Warne,"UPTON PLACE-"
+resident,Chepstow Road,112,,Mrs. M. A.,Richards,"UPTON PLACE-"

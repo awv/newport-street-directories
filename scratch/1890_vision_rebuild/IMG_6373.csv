@@ -1,0 +1,20 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,,17,,Thos.,Sadler,porter,
+resident,,18,,G.,Williams,donkeyman,
+resident,,19,,Robt.,Murison,mas. mar,
+resident,,20,,W. F.,Morgan,machinist,
+resident,,21,,Thos.,Robinson,shunter,
+resident,,22,,Richd.,Reed,carpenter,
+property,,23,,,,Unfinished
+property,,24,,,,Ditto
+street,Rudry Street,,,,,,East Usk-road.
+property,Rudry Street,,,10 Cottages unfinished,,,
+street,Ruperra Street,,,,,,From 17 Commercial-road to Dock-street.
+resident,Ruperra Street,1,,G.,Bucknall,bootmaker,
+resident,Ruperra Street,2,,Catherine,Ward,shopkpr,
+resident,Ruperra Street,3,provident dispensary,S.,Shekleton,,
+resident,Ruperra Street,4,,Mrs. Emily,Dunkerley,,
+resident,Ruperra Street,5,,W. J.,Pulman,confect'nr,
+resident,Ruperra Street,6,,Jno.,Bremner,"draper, &c",
+resident,Ruperra Street,7,,Mrs. Thirza A.,Allen,,
+resident,Ruperra Street,8,,Rev

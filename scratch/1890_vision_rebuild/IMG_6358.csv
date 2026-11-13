@@ -1,0 +1,148 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,John Street,,,,,,From 65 Dock-street
+resident,John Street,,,Geo. H.,Moore,Heber house; oil merchants, etc.
+resident,John Street,,,,Jones, Phillips and Co. Ltd.,timber merchants, etc.
+cross_street,John Street,,,,,,entrance to Windmill-street
+street,Jones Street, B.,,,,,,From top of North-street to St. Woolos-road.
+resident,Jones Street, B.,1,New Inn,G.,West,,
+resident,Jones Street, B.,2,,Frank,Dyer,painter,
+resident,Jones Street, B.,3,,Thos.,Taylor,striker,
+resident,Jones Street, B.,4,,Thos.,Scard,machinist,
+resident,Jones Street, B.,5,,R.,Pritchard,labourer,
+resident,Jones Street, B.,6,,Geo.,Weston,machinist,
+resident,Jones Street, B.,7,,L.,Sheppard,shedman,
+resident,Jones Street, B.,8,,Edwin,Farrant,painter,
+resident,Jones Street, B.,9,,John,Gillard,baker,
+resident,Jones Street, B.,10,,Wm.,James,shoemaker,
+resident,Jones Street, B.,11,,Sarah,Evans,widow,
+resident,Jones Street, B.,12,,Stephen,Iggulden,lab'r,
+resident,Jones Street, B.,13,,Jas.,Waters,labourer,
+resident,Jones Street, B.,14,,Chas.,Bromley,plasterer,
+resident,Jones Street, B.,15,,W.,Woodridge,signalmn,
+resident,Jones Street, B.,16,,Jesse,Dunk,curator,
+resident,Jones Street, B.,17,,Samuel,Lee,labourer,
+resident,Jones Street, B.,18,,Wm.,Price,tailor,
+resident,Jones Street, B.,19,,Chas.,Hopkins,currier,
+resident,Jones Street, B.,20,,G.,Brunt,baker, etc.,
+resident,Jones Street, B.,21,,Wm.,Abbot,signalman,
+resident,Jones Street, B.,22,,Herbert,Morley,,
+resident,Jones Street, B.,23,,James,Boucher,sailor,
+resident,Jones Street, B.,24,,Moses,Molloy,labourer,
+resident,Jones Street, B.,25,,Alex.,Reid,baker,
+resident,Jones Street, B.,26,,Mrs. Mary L.,Wright,,
+resident,Jones Street, B.,27,,Swinfield,Williams,lab'r,
+resident,Jones Street, B.,28,,W.,Moore,brazier,
+resident,Jones Street, B.,29,,A.,Byfield,warehousemn,
+resident,Jones Street, B.,30,,Thos.,Shellard,labourer,
+resident,Jones Street, B.,31,,Ann,Jones,widow,
+resident,Jones Street, B.,32,,John,Lewis,dockman,
+resident,Jones Street, B.,33,,James,Tiley,salesman,
+resident,Jones Street, B.,34,,Walter,Coles,shopman,
+resident,Jones Street, B.,35,,Wm.,Hopkins,labourer,
+resident,Jones Street, B.,36,,J.,Peters,road contractor,
+resident,Jones Street, B.,37,,Saml.,Daymond,grocer,
+cross_street,Jones Street, B.,,,,,,(return.)
+resident,Jones Street, B.,38,,Mrs. E.,Garrett,grocer, etc.,
+resident,Jones Street, B.,39,,Sarah,Cook,widow,
+resident,Jones Street, B.,40,,Henry,Hart,tailor,
+resident,Jones Street, B.,41,,Hy.,Morgan,mechanic,
+resident,Jones Street, B.,42,,Wm.,Seaton,ord. survey,
+resident,Jones Street, B.,43,,John,James,painter,
+resident,Jones Street, B.,44,,Jas.,White,labourer,
+resident,Jones Street, B.,45,,Ll.,Williams,reporter,
+resident,Jones Street, B.,46,,,,,,
+resident,Jones Street, B.,47,,Hy.,Parsons,cab driver,
+resident,Jones Street, B.,48,Clifton Tav,Albt. E.,Porter,,
+resident,Jones Street, B.,49,,Aaron,Webb,porter,
+resident,Jones Street, B.,50,,Albt. E.,Walker,storeman,
+resident,Jones Street, B.,51,,Thos.,Teesdale,tailor,
+resident,Jones Street, B.,52,,John,Capel,labourer,
+resident,Jones Street, B.,53,,Tim.,Holland,cable d'lr,
+resident,Jones Street, B.,54,,Mrs. Mary,Mogford,,
+resident,Jones Street, B.,55,,John,Parsons,plasterer,
+resident,Jones Street, B.,56,,Geo.,Holt,gardener,
+resident,Jones Street, B.,57,,Wm.,Brickley,shoemaker,
+resident,Jones Street, B.,58,,Dd.,Lewis,hawker,
+resident,Jones Street, B.,59,,Chas.,Greenman,mason,
+resident,Jones Street, B.,60,,Geo.,Watkins,painter,
+resident,Jones Street, B.,61,,Arthur,Hague,carpentr,
+resident,Jones Street, B.,62,,Edwd.,Charles,carpenter,
+resident,Jones Street, B.,63,,Jas.,Edwards,mason,
+resident,Jones Street, B.,64,,Jas.,Roberts,painter,
+resident,Jones Street, B.,65,,Henry,Bailey,labourer,
+resident,Jones Street, B.,66,,Wm. T.,Jones,mason,
+resident,Jones Street, B.,67,,Wm.,Newman,labourer,
+resident,Jones Street, B.,68,,Wm.,Mahoney,lab'rer,
+resident,Jones Street, B.,69,,Wm.,Johnstone,tailor,
+resident,Jones Street, B.,70,,Thos.,Evans,coal mer,
+resident,Jones Street, B.,71,,Thos.,Morgan,labourer,
+resident,Jones Street, B.,72,,Wm.,Gatchenn,seaman,
+resident,Jones Street, B.,73,,Thos.,Honeywill,tailor,
+resident,Jones Street, B.,74,,Wm.,Green,chairmaker,
+resident,Jones Street, B.,75,,Joseph,Fowler,smith,
+street,Jubilee Terrace,,,,,,See North-street.
+street,Junction Place,,,,,,(Left-hand.) Caerleon-road.
+resident,Junction Place,,,,John,Turner,mason,
+resident,Junction Place,,,,Wm.,Turner,stonemason,
+street,Junction Road, B.T.,,,,,,From Caerleon-rd. to Duckpool-road.
+resident,Junction Road, B.T.,1,,Wm.,Whittall,cab propr,
+resident,Junction Road, B.T.,2,,Tom,Yalland,haulier,
+resident,Junction Road, B.T.,3,,John,Arnold,butcher,
+resident,Junction Road, B.T.,4,,,,,,
+resident,Junction Road, B.T.,5,,Thos.,Bowden,labourer,
+resident,Junction Road, B.T.,6,,Geo.,Hancock,labourer,
+resident,Junction Road, B.T.,7,,Hy.,Jenkyns,plasterer,
+resident,Junction Road, B.T.,8,,Wm.,Holmes,plasterer,
+cross_street,Junction Road, B.T.,,,,,,here is Bishop-street.
+resident,Junction Road, B.T.,9,,Jas.,Gale,shopkeeper,
+cross_street,Junction Road, B.T.,,,,,,here is Dean-street.
+resident,Junction Road, B.T.,10,,Thos.,Elliott,cab prop'tr,
+cross_street,Junction Road, B.T.,,,,,,Duckpool-road. (return.)
+resident,Junction Road, B.T.,11,,Jas.,Shattock,grocer,
+resident,Junction Road, B.T.,12,,Jas.,Croker,labourer,
+resident,Junction Road, B.T.,13,,Thos.,Cole,greengrocer,
+street,Kear Street,,,,,,From 3 Cross-street.
+resident,Kear Street,2,,Denis,Maddigan,labourer,
+resident,Kear Street,3,,Johanna,Mahoney,,
+resident,Kear Street,4,,Cath.,Donovan,widow,
+resident,Kear Street,5,,John,Driscoll,labourer,
+resident,Kear Street,6,,Mary,Conners,,
+street,Kensington Place, M.,,,,,,Fr Chepstow-rd. to Gaer-wd.
+resident,Kensington Place, M.,1,,F. S.,Dauncey,solicitor,
+resident,Kensington Place, M.,2,,John,Bladon,,
+resident,Kensington Place, M.,3,,,,,Void,
+resident,Kensington Place, M.,4,,,,,Do.,
+resident,Kensington Place, M.,5,,,,,Do.,
+resident,Kensington Place, M.,6,,,The Misses Lloyd,,
+resident,Kensington Place, M.,7,,W. J.,Sainsbury,,
+resident,Kensington Place, M.,8,,,,,Void,
+resident,Kensington Place, M.,9,,Mrs. Phoebe,Davies,,
+resident,Kensington Place, M.,10,,T. Llewellyn,Evans,,
+resident,Kensington Place, M.,11,,,,,Void,
+resident,Kensington Place, M.,12,,C. B.,Bumstead,prof. mus,
+resident,Kensington Place, M.,13,,John,Seville,,
+resident,Kensington Place, M.,14,,Percy E.,Fennell,,
+resident,Kensington Place, M.,15,,William,Isaacs,,
+resident,Kensington Place, M.,16,,John N.,Davies,,
+resident,Kensington Place, M.,17,,H. C.,Evans,,
+resident,Kensington Place, M.,18,,G. B.,Taylor,solicitor,
+resident,Kensington Place, M.,19,,Jas. Needham,James,,
+resident,Kensington Place, M.,20,,Mrs. Rowland,Nicholas,,
+resident,Kensington Place, M.,,,Robert,Tait,,
+resident,Kensington Place, M.,21,,Miss,Richards,ladies' sch,
+cross_street,Kensington Place, M.,,,,,,here is Church-path.
+resident,Kensington Place, M.,,,Edwd.,Cole,Kensington ho
+resident,Kensington Place, M.,,,Geo.,Muxworthy,Rockleigh
+resident,Kensington Place, M.,,,Mrs. H.,Whatmough,Highview
+resident,Kensington Place, M.,,,William,Evans,Gaerwood
+cross_street,Kensington Place, M.,,,,,,(return.)
+resident,Kensington Place, M.,,,Thos.,Pugsley,Loxhore ho
+resident,Kensington Place, M.,,,W. J.,Lloyd,Oaklands
+resident,Kensington Place, M.,,,Dr. Andrew,Davies,Cefnpare
+resident,Kensington Place, M.,,,,,St. John Evangelist's Church
+resident,Kensington Place, M.,,,Mrs. T.,Spittle,Cambrian ho
+cross_street,Kensington Place, M.,,,,,,roadway to Eveswell-park.
+resident,Kensington Place, M.,,,Richd.,Searle,Maindee Lawn
+street,Keyse's Buildings,,,,,,From 42 Mill-parade.
+street,King's Hill,,,,,,From Palmyra-place.
+resident,King's Hill,,,,Thos. E.,Thomas,,

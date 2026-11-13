@@ -1,0 +1,95 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,DOC,74,Custom House,,,,see local information
+resident,DOC,75-6,,,,,Bonded Stores
+resident,DOC,77,,,,Maybury & Co.,builders' merchants & manufacturers,
+resident,DOC,77,,,,Christopher,Pond,colliery proprietor,
+resident,DOC,,,Lovell (C. Shaw) & Sons, Ltd.,,,shipbrokers,
+resident,DOC,78,,,,Maybury's Adamant Plaster & Keene's Cement Co.,,
+resident,DOC,,,,G. A. & Co.,Ramsland,shipping agents,
+resident,DOC,,,,,Newport Screw Towing Co.,
+resident,DOC,,,,,F. H. Dunn,
+resident,DOC,80,Railway Hotel,,,Herbert's Ltd.,,
+cross_street,DOC,,,here is Granville-street and George-street,,,,
+resident,DOC,81,,,,Maybury & Co.'s,yard,
+resident,DOC,82,,,,G. W. R.,goods depot,
+resident,DOC,,,,L. & N. W.,do.,
+cross_street,DOC,,,Road to Docks,,,,
+resident,DOC,83,,,,Thomas' Patent Metallic Packing Co.,,
+cross_street,DOC,,,(return),,,,
+resident,DOC,,,,Mordey, Jones & Co.,steam ship owners and brokers and coal exporters,
+cross_street,DOC,,,here is Dolphin-street,,,,
+resident,DOC,84,,,,Thomas & Co. Ld.,Pugsley,bonded store and provision merchants,
+resident,DOC,85,,,,R. junr. & Co.,Gething,ship brokers,
+resident,DOC,,,,,Fisher, Renwick & Co.,coal exporters, etc.
+resident,DOC,,,,,Alexandra (Newport and S. Wales) Docks & Railway Co.,T. A. Eastwood, collector for Town Dock
+resident,DOC,86-87,,,,Fred & Co., Ltd.,Jones,shipbrokers & coal exporters,
+resident,DOC,,,,,Aadnesen & Dahl Ltd.,coal exporters,
+resident,DOC,,,,,H. C. & Co.,Vivian,
+resident,DOC,,,,,Tirpentwys Black Vein Steam Coal & Coke Co. Ltd.,and at Cardiff—G. H. Jones, manager
+resident,DOC,87,,,,Mrs. Kate,Marsh,
+resident,DOC,88,Caledonian Hotel,,,T.,Smith,
+resident,DOC,89,,,,T. & Co. Ltd.,Beynon,shipbrokers, ship owners and colliery proprietors
+resident,DOC,,,,,J. & Co. Ltd.,Lancaster,
+resident,DOC,,,,,Powell's Tillery Steam Coal Co. Ltd.,
+resident,DOC,,,,,Lloyd's Agency,
+resident,DOC,,,,,The Beynon Shipping Co. Ltd.,
+resident,DOC,,,,,Vice-Consulate for Chili,
+resident,DOC,,,,J. P. & Co.,Gwatkin,shipbrokers, etc.
+resident,DOC,90,,,,James & Emanuel, Ltd.,colliery proprietors and pitwood importers, sole selling agents Mynydd Maen Colliery Co. Ltd., Pontypool and Millbrook Colliery Co. Crumlin Millbrook Colliery Co.
+resident,DOC,91,Richmond Hotel,,,M. A.,Priest,
+cross_street,DOC,,,here is South Market-street,,,,
+resident,DOC,92,Eagle Hotel,,,K.,Birkeland,
+resident,DOC,93,,,,Jones & Co.,Partridge,Ltd. colliery proprietors, shipbrokers, etc.—J. H. Murrow, agent
+resident,DOC,94,,,,E. E.,Williams,optician and chronometer maker
+resident,DOC,95,,,,R. & Son,Twist,ship chandlers and sailmakers
+resident,DOC,96,,,,Jonathan & Co.,Williams,colliery agents and merchants
+resident,DOC,,,,,Whittingham W. M. & Co.,shipbrokers, agents for Nelson and Houston's Line River Plate and Royal Line (Canadian) steamers
+resident,DOC,97,,,,Telegraph Office & Branch Post Office,,
+resident,DOC,98,,,,Budd & Co., Ltd.,shipbrokers, and at Cardiff
+resident,DOC,,,,,Miss K.,Mason,newsagent and tobacconist
+resident,DOC,99,,,,Kjelsen Bros., Ltd.,ship chandlers,
+resident,DOC,,,,,Danish Vice-consulate,
+resident,DOC,100,,,,Mrs. L.,Smith,
+resident,DOC,101,,,,F. & Co.,Pearson,opticians, etc.
+resident,DOC,,,,,M. J. & Co., Ltd.,Begg,shipbrokers
+resident,DOC,102,,,,Wilkinson Bros.,coal exporters and shipbrokers gravel, pitwood & potato merchants
+resident,DOC,,,,,Ocean Coal Co.,
+resident,DOC,,,Dock Road Chambers,,,,
+resident,DOC,103,,,,Fred R. & Co.,Howe,coal exporters
+resident,DOC,,,,,Lysberg Ltd.,shipowners, exporters, etc.
+resident,DOC,,,,,Kelly & Co.,Vivyan,shipbrokers
+resident,DOC,,,,,Phillips & Sons Ltd.,wine and spirit merchants
+resident,DOC,,,,,Mrs. A. G.,Watkins,
+cross_street,DOC,,,here is John-street,,,,
+resident,DOC,104,,,,Blaenavon Co., Ltd.,B. Edwards, agent
+resident,DOC,,,,,H. Chalinder Evans,vice-consul for the Netherlands
+resident,DOC,,,,W. A.,Campbell & Co.,shipping & coaling agts
+resident,DOC,,,,G.W.R.,offices—James W. George, traffic agent; J. Bassage, District goods manager, G.W.R. Crumlin Valleys Colliery Co. Ltd.
+resident,DOC,105,,,,J. F. & Co.,Thomas,shipbrokers, etc. ; and at Cardiff
+resident,DOC,,,,,Bargoed (The) Coal Co., Ltd.
+resident,DOC,106,,,,Hunter & White,solicitors, commissioners for oaths
+resident,DOC,,,,,Charles,Hunter,notary public
+resident,DOC,107,,,,Jones Heard & Co., Ltd.,merchants, shipbrokers etc.
+resident,DOC,,,,,Agents for the "Conference" Lines,
+resident,DOC,,,,,Nixon Navigation Coal Co., Ltd.
+resident,DOC,108,,,,Board of Trade office—Nigel Lewis, R.N.R. supt
+resident,DOC,109,Masonic Hall,,,E. W.,Jones,tyler
+resident,DOC,,,,,Alfred J. Ltd.,Smith,coal shipper, and at Bristol
+resident,DOC,,,,,John Moses (Newport) Ld,shipbrokers
+cross_street,DOC,,,here is Ruperra-street,,,,
+resident,DOC,110,Masonic Hotel,,,S.,Sutton,
+resident,DOC,111,,,,,Italian Consular Agency,
+resident,DOC,,,,,Swedish Vice-Consulate,
+resident,DOC,,,,,Norwegian V.-Consulate,
+resident,DOC,,,,,Portuguese Consulate—B. C. Amaral
+resident,DOC,,,,,Charles H. Ltd.,Huss,ship chandlers and paint manfrs. and at Cardiff
+resident,DOC,112,,,,R. W. & Co.,Jones,coal exporters & shipowners
+resident,DOC,,,,, "Uskside" S.C. Co. Ltd.,
+resident,DOC,,,,,Brazilian Vice-Consulate,
+resident,DOC,113,,,,John & Co. Ltd.,Vipond,colliery proprietors
+resident,DOC,,,,,William E.,Walliker,
+resident,DOC,,,,,Bonded Stores (25),
+resident,DOC,114,,,,O. & Co.,Goss,ship-chandlers and bonded store merchants
+resident,DOC,115,Vulcan Hotel,,,C. T.,Setterlund,
+resident,DOC,116,,,,Thomas & Co.,Pardoe,Ltd. shipowners & brkrs.
+cross_street,DOC,,,here is George-street,,,,

@@ -1,0 +1,150 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,NEW RUPERRA STREET,,,Herbert,Gripton,ironworker,Greenmeadow farm
+resident,NEW RUPERRA STREET,,,George C.,Chapman,labr,
+resident,NEW RUPERRA STREET,,,Arthur,Baker,gardener,
+resident,NEW RUPERRA STREET,,,David,Williams,ironworker,
+resident,NEW RUPERRA STREET,,,L.,Attewell,,Lower Lakes farm
+cross_street,NEW RUPERRA STREET,,,,,,(return)
+resident,NEW RUPERRA STREET,,,C. F.,Phillips,,Bryngwyn farm
+resident,NEW RUPERRA STREET,,,J. F.,Haime,,Upper Lakes farm
+resident,NEW RUPERRA STREET,,,F. H.,Haime,,Nash-rd. bakery
+resident,NEW RUPERRA STREET,,,James,Heath,iron worker,High Mead
+resident,NEW RUPERRA STREET,,,,,,2 houses void
+resident,NEW RUPERRA STREET,,,John,Griffiths,crane driver,Jesmond
+resident,NEW RUPERRA STREET,,,,,,House void
+resident,NEW RUPERRA STREET,,,Richard,Rees,tailor,
+resident,NEW RUPERRA STREET,,,Sidney,Gardner,gen stores,
+resident,NEW RUPERRA STREET,,,,,,Vacant site
+resident,NEW RUPERRA STREET,,,Wm.,Rees,taxi dvr,Hatherleigh
+resident,NEW RUPERRA STREET,,,Ralph E.,Rogers,warehsman,Hazelmene
+resident,NEW RUPERRA STREET,,,Wm.,Curtis,G.W.R.,Moorcliffe
+resident,NEW RUPERRA STREET,,,Geo. E.,Henny,G.W.R.,St. Nazaire
+resident,NEW RUPERRA STREET,,,Fred,Davies,ironworker,St. Ives
+resident,NEW RUPERRA STREET,,,John,Morris,ironwrkr,Melville
+resident,NEW RUPERRA STREET,,,John T.,Jones,ironworker,Cordale
+resident,NEW RUPERRA STREET,,,Alfred,Clarke,ironwrkr,Edonsor
+resident,NEW RUPERRA STREET,,,Harold,Jeavons,ironworker,Ladymoor
+resident,NEW RUPERRA STREET,,,Adam,Round,ironwrkr,Pennfields
+resident,NEW RUPERRA STREET,,,John,Kitson,iron worker,Braemar
+resident,NEW RUPERRA STREET,,,James,Rew,iron worker,Pendine
+resident,NEW RUPERRA STREET,,,Joseph,Stokes,iron worker,St. Asaph
+resident,NEW RUPERRA STREET,,,Wm.,Stone,coal haulier,Albert house
+resident,NEW RUPERRA STREET,,,T.,Jones,decorator,Enyrglyn
+resident,NEW RUPERRA STREET,,,James,Boden,Glendale,
+resident,NEW RUPERRA STREET,,,Arthur Henry,Williams,shop,
+resident,NEW RUPERRA STREET,,,Albert,James,,Fern Lea
+cross_street,NEW RUPERRA STREET,,,,,COMPTON TERRACE—,
+resident,NEW RUPERRA STREET,9,,Reuben,Stokes,ironwkr,
+resident,NEW RUPERRA STREET,8,,Mrs. Beatrice,Darby,,
+resident,NEW RUPERRA STREET,7,,John T.,Bennett,ironwkr,
+resident,NEW RUPERRA STREET,6,,W.,Crosscoombes,iwrkr,
+resident,NEW RUPERRA STREET,5,,Reg. J.,Barnett,G.W.R.,
+resident,NEW RUPERRA STREET,4,,Albert,Smurfit,boilermkr,
+resident,NEW RUPERRA STREET,3,,Thomas,Phillips,carpenter,
+resident,NEW RUPERRA STREET,2,,Francis H.,Baker,shearer,
+resident,NEW RUPERRA STREET,1,,W. H.,Morgan,grease blr,
+resident,NEW RUPERRA STREET,,,Evans C.,,,
+resident,NEW RUPERRA STREET,,,Alfred,Dalton,,Pontvane farm
+street,NEW RUPERRA STREET,,,,,,D 4 12
+cross_street,NEW RUPERRA STREET,,,,,,From 17 Ruperra-street
+cross_street,NEW RUPERRA STREET,,,,,,(LEFT HAND SIDE)
+resident,NEW RUPERRA STREET,1,,Mrs. E.,Debono,,
+resident,NEW RUPERRA STREET,3,,Mrs. Louisa,Fotheringham,,
+resident,NEW RUPERRA STREET,5,,James,Jones,guard,
+resident,NEW RUPERRA STREET,7,,John Hy.,Stacey,labourer,
+resident,NEW RUPERRA STREET,9,,John,Roderiguez,,
+resident,NEW RUPERRA STREET,,,Jesse,John,fitter,
+cross_street,NEW RUPERRA STREET,,,,,,(return)
+resident,NEW RUPERRA STREET,6,,T.,Thomas,lodging ho,
+resident,NEW RUPERRA STREET,4,,Miss N,St. Barnabas,,Ch'rch
+resident,NEW RUPERRA STREET,4,,Michael,Baker,trimmer,
+street,NEW STREET,,,,,,E 5
+cross_street,NEW STREET,,,,,,From 125 Commercial-road
+cross_street,NEW STREET,,,,,,(LEFT HAND SIDE)
+resident,NEW STREET,1,,Thos. Hy.,Rowlands,trm'r,
+resident,NEW STREET,3,,Wilfred T.,Knight,boot rp,
+resident,NEW STREET,5,,John,Hogan,labourer,
+resident,NEW STREET,7,,Cornelius,Portal,labourer,
+resident,NEW STREET,9,,William,James,bricklayer,
+resident,NEW STREET,11,,John,Mansfield,trimmer,
+resident,NEW STREET,13,,Christopher,Manaitt,labr,
+resident,NEW STREET,15,,Arthur J.,Houghton,rlwy,
+resident,NEW STREET,17,,Fred,Barton,steelwkr,
+resident,NEW STREET,19,,Obadiah,Thain,trimmer,
+resident,NEW STREET,21,,Stephen T.,Fowler,seamn,
+cross_street,NEW STREET,,,,,,(return)
+resident,NEW STREET,32,,Harry,Vokes,plasterer,
+resident,NEW STREET,30,,Samuel,Purnell,trimmer,
+resident,NEW STREET,28,,Patk.,Shannon,labourer,
+resident,NEW STREET,,,Walter,Jones,labourer,
+resident,NEW STREET,26,,Jesse,Reece,labourer,
+resident,NEW STREET,24,,Bert,Ward,labourer,
+resident,NEW STREET,,,Thomas,Sutton,labourer,
+resident,NEW STREET,22,,Aug.,Hennah,crane dvr,
+resident,NEW STREET,20,,Jacob,Thomas,labourer,
+resident,NEW STREET,18,,Wm.,Jacobsen,blrmaker,
+resident,NEW STREET,16,,T. George,Jones,seaman,
+resident,NEW STREET,,,Edmund,Gobin,seaman,
+resident,NEW STREET,14,,Stephen,Manship,trimmer,
+resident,NEW STREET,12,,Alexander,Clarke,seaman,
+resident,NEW STREET,,,Wm.,Barry,seaman,
+resident,NEW STREET,10,,Mrs. Sarah,Watkins,,
+resident,NEW STREET,8,,Maurice,Walsh,,
+resident,NEW STREET,6,,James,Williams,labourer,
+resident,NEW STREET,4,,Mrs. Elizabeth,Clements,,
+resident,NEW STREET,2,Foresters' Arms,Alfred,Thomas,,Bowen
+street,NEWPORT ARCADES,,,,,,
+cross_street,NEWPORT ARCADES,,,,,,See Arcades
+street,NORFOLK ROAD,,,,,,
+cross_street,NORFOLK ROAD,,,,,,Off St. Julians-road
+cross_street,NORFOLK ROAD,,,,,,(LEFT HAND SIDE)
+resident,NORFOLK ROAD,16,,Isaac,Davies,pntr,Hazelmere
+resident,NORFOLK ROAD,14,,Tom,Beaven,juter,Barrington
+resident,NORFOLK ROAD,,,Gerald,Haines,,
+resident,NORFOLK ROAD,12,,Wm.,Hambly,joiner,Morwenstow
+resident,NORFOLK ROAD,10,,William,Bate,contractor,Talvan
+cross_street,NORFOLK ROAD,,,,,,here is Hertford-place
+resident,NORFOLK ROAD,8,,Thos. J.,Berry,builder,Woodstock
+resident,NORFOLK ROAD,6,,Alf. E.,Harris,builder,Milnerton
+resident,NORFOLK ROAD,4,,David,Williams,G.W.R.,Pentwyn
+resident,NORFOLK ROAD,2,,Walter,Griffiths,Hillcrest
+cross_street,NORFOLK ROAD,,,,,,(return)
+resident,NORFOLK ROAD,1,,Herbert L.,Francis,grcr asst.,Norfolk house
+resident,NORFOLK ROAD,3,,James,Lewis,sampler,La Bouille
+resident,NORFOLK ROAD,5,,Arthur J.,Ley,teacher,Kelso
+resident,NORFOLK ROAD,7,,Mrs. Edith,Cartwright,,
+resident,NORFOLK ROAD,9,,Norman,Cartwright,The Cottage
+resident,NORFOLK ROAD,11,,James,Martin,confect'nr
+resident,NORFOLK ROAD,13,,Rd.,Davies,dental mech.,Monkstone
+resident,NORFOLK ROAD,15,,Wm.,Roberts,Sarona
+resident,NORFOLK ROAD,17,,Thos.,Poulton,teacher,Glen View
+resident,NORFOLK ROAD,,,George,Sheppard,,
+resident,NORFOLK ROAD,19,,Walter,Ray,Merrington
+resident,NORFOLK ROAD,21,,Richd.,Lewis,contractor,Windyridge
+resident,NORFOLK ROAD,23,,Hy. J.,Sutton,relieving officer,Somerleyton
+street,NORTH STREET,,,,,,D 5
+cross_street,NORTH STREET,,,,,,Baneswell-road to Jones-street
+cross_street,NORTH STREET,,,,,,(LEFT HAND SIDE)
+resident,NORTH STREET,1A,,John,Warman,labourer,
+resident,NORTH STREET,2A,,Joseph,Williams,G.W.R.,
+cross_street,NORTH STREET,,,,,,here is Victoria-square
+resident,NORTH STREET,,,,Tredegar Constitutional Club,,
+cross_street,NORTH STREET,,,,,CARLISLE PLACE,
+resident,NORTH STREET,1,,Mrs. Edith,Evans,,
+resident,NORTH STREET,2,,W. T.,Lewis,labourer,
+resident,NORTH STREET,3,,William Henry,Mayberry,,
+resident,NORTH STREET,4,,Peter,O'Neill,,
+resident,NORTH STREET,5,,E.,Tucker,sanitary engnr,
+cross_street,NORTH STREET,,,,,,here is Waters-lane
+resident,NORTH STREET,6,,Arthur,Upson,,
+resident,NORTH STREET,7,,W. H.,Howells,signalman,
+resident,NORTH STREET,8,,Thos.,Cromwell,cleaner,
+resident,NORTH STREET,10,,T. D.,Thomas,traffic insp,Scott & Block warehouse
+resident,NORTH STREET,10A,,& Sons,Clemes,carprts etc,
+resident,NORTH STREET,11,,& Curnuck,Williams,prnrters,
+cross_street,NORTH STREET,,,,,,here is Providence-place
+cross_street,NORTH STREET,,,,,BRITANNIA BUILDINGS,
+resident,NORTH STREET,12,,George,Miles,labourer,
+resident,NORTH STREET,13,,Robert,Roden,labourer,
+resident,NORTH STREET,14,,Benjamin,Harper,,
+resident,NORTH STREET,15,,Mrs. H. M.,Watkins,,

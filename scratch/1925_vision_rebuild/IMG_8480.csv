@@ -1,0 +1,173 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,WINCHESTER STREET,21,,Howard,Williams,,manager Sunnybank
+resident,WINCHESTER STREET,21,,Chas. H.,Tarrett,manager,
+resident,WINCHESTER STREET,23,,Frederick,Round,,
+resident,WINCHESTER STREET,25,,John Edward,Pearson,,
+resident,WINCHESTER STREET,27,,C. W.,Richards,carptr,
+resident,WINCHESTER STREET,29,,Wm. E.,Law,ironworker,
+resident,WINCHESTER STREET,,,Howard G.,Parry,cutter,
+resident,WINCHESTER STREET,31,,Albert David,Davies,,
+resident,WINCHESTER STREET,33,,Sidney,Casburn,traveller,
+resident,WINCHESTER STREET,35,,Thos.,Ebdon,furnaceman,
+resident,WINCHESTER STREET,37,,Edward,Thomas,,
+cross_street,WINCHESTER STREET,,,,,,here is Balmoral-road
+resident,WINCHESTER STREET,39,,E. J.,Graves,shop & dairy,
+cross_street,WINCHESTER STREET,,,,,,Vacant sites
+cross_street,WINCHESTER STREET,,,,,,(return)
+cross_street,WINCHESTER STREET,,,,,,Vacant sites
+resident,WINCHESTER STREET,44,,Philip,Bach,,
+resident,WINCHESTER STREET,42,,A. H.,Dight,printer,
+resident,WINCHESTER STREET,40,,P. L.,Phillips,,
+resident,WINCHESTER STREET,38,,Harold,Mockridge,,
+resident,WINCHESTER STREET,36,,Edward Thos.,Ridge,,
+resident,WINCHESTER STREET,34,,W. T.,Edwards,,
+resident,WINCHESTER STREET,32,,Mrs. E.,Williams,,
+resident,WINCHESTER STREET,30,,Mrs. M. A.,Watkins,,
+resident,WINCHESTER STREET,28,,Joseph,Kelson,,
+resident,WINCHESTER STREET,26,,I.,Jones Morgan,inspector Welsh Board of Health,
+resident,WINCHESTER STREET,24,,Ernest C,Lowther,,
+resident,WINCHESTER STREET,22,,Edward,Tribbeck,,
+resident,WINCHESTER STREET,20,,Reuben,Boore,schoolmstr,
+resident,WINCHESTER STREET,18,,Thomas,Perrett,,
+resident,WINCHESTER STREET,16,,L. G.,Nowell,electrician,
+resident,WINCHESTER STREET,14,,Mrs. H.,Stroud,,
+resident,WINCHESTER STREET,12,,William Dennis,Hurley,,
+resident,WINCHESTER STREET,10,,Mrs. H.,Martin,,
+resident,WINCHESTER STREET,8,,Mrs. Elizabeth,Bowen,,
+resident,WINCHESTER STREET,6,,Alfred Edward,Stanfield,,
+resident,WINCHESTER STREET,4,,J.,Marsden,elec engineer,
+resident,WINCHESTER STREET,,,Nathaniel,Williams,fitter,
+street,WINDSOR TERRACE,5,,,,,"From Tunnel-terrace to Albert-terrace"
+cross_street,WINDSOR TERRACE,,,,,,(RIGHT HAND SIDE.)
+resident,WINDSOR TERRACE,1,,D. T.,Kew,G.W.R.,
+resident,WINDSOR TERRACE,2,,Mrs. M.,Sheppard,,
+resident,WINDSOR TERRACE,3,,Thomas James,Frost,,
+resident,WINDSOR TERRACE,4,,Mrs. Ellen E.,Snell,,
+resident,WINDSOR TERRACE,5,,William John,Curtis,,
+resident,WINDSOR TERRACE,,,Ernest C.,Smith,,
+resident,WINDSOR TERRACE,6,,W. H.,Lovatt,insur. agent,
+resident,WINDSOR TERRACE,7,,Chas.,Betterton,G.W.R.,
+resident,WINDSOR TERRACE,8,,William John,Wells,,
+resident,WINDSOR TERRACE,9,,Mrs. Georgina,Gower,,
+resident,WINDSOR TERRACE,10,Moss bank,Miss,Chambers,,
+resident,WINDSOR TERRACE,11,Kelso v,Robt. H.,Beavan,,
+resident,WINDSOR TERRACE,12,,John J.,Rogers,electron,
+cross_street,WINDSOR TERRACE,,,,,,(return)
+resident,WINDSOR TERRACE,13,Mabel v,C. K.,Wilkinson,,
+resident,WINDSOR TERRACE,14,Rose c,Mrs. E. W.,Welch,,
+resident,WINDSOR TERRACE,15,Ash cottage,I.,Jacobs,,
+resident,WINDSOR TERRACE,16,Stanway cottage,Mrs.,Pritchard,,
+resident,WINDSOR TERRACE,17,Hope cot,Wm.,Humphries,,
+street,WINGATE STREET,F 5,,,,,"Mendalgief-road to Wolseley-st"
+cross_street,WINGATE STREET,,,,,,(LEFT HAND SIDE.)
+resident,WINGATE STREET,1,,Mrs. L.,Francis,,
+resident,WINGATE STREET,3,,A. J.,Critchley,tugbt capt,
+resident,WINGATE STREET,5,,John,Collins,trimmer,
+resident,WINGATE STREET,7,,David,Jones,trimmer,
+resident,WINGATE STREET,9,,Mrs. A. J.,Adams,,
+resident,WINGATE STREET,11,,Mrs. Florence,Merry,,
+resident,WINGATE STREET,13,,Alfred,Sully,trimmer,
+resident,WINGATE STREET,,,Wm. H.,Morgan,tipper,
+resident,WINGATE STREET,15,,Chas. J.,Pearce,fitter,
+resident,WINGATE STREET,17,,Robert John,Carpenter,,
+resident,WINGATE STREET,19,,John,Purnell,trimmer,
+resident,WINGATE STREET,21,,G. A.,Shinton,ironwrkr,
+resident,WINGATE STREET,23,,Edward,Travers,trimmer,
+resident,WINGATE STREET,25,,Mrs. M.,Bradbury,,
+cross_street,WINGATE STREET,,,,,,(return)
+resident,WINGATE STREET,24,,H.,Lawrence,tugboat agt,
+resident,WINGATE STREET,22,,Fredk.,Davies,boatman,
+resident,WINGATE STREET,20,,Benjamin,Harper,trimmer,
+resident,WINGATE STREET,18,,Arthur J.,Powell,carpenter,
+resident,WINGATE STREET,16,,Robert,Sims,trimmer,
+resident,WINGATE STREET,14,,John,Mahoney,trimmer,
+resident,WINGATE STREET,12,,Jasper,Travers,trimmer,
+resident,WINGATE STREET,10,,H.,Jones,bricklayer,
+resident,WINGATE STREET,8,,Wm.,Phillips,dk labourer,
+resident,WINGATE STREET,6,,Sam,Hockey,baker,
+resident,WINGATE STREET,4,,James,Leaby,coal trimmr,
+resident,WINGATE STREET,2,,Edward,Aston,comms'nr,
+street,WINMILL STREET,E 4,,,,,"John-street to South Market-st"
+resident,WINMILL STREET,1,,James,Evan,,
+resident,WINMILL STREET,2,,Mrs. Emily,Davies,,
+resident,WINMILL STREET,3,,Alfred,Evans,labourer,
+resident,WINMILL STREET,4,,W. F.,Davies,labourer,
+resident,WINMILL STREET,5,,Mrs. C.,Benson,,
+resident,WINMILL STREET,6,,Century,Institute,,
+resident,WINMILL STREET,,,Transport and General Workers' Union—John O'Leary dist. sec.,,,
+street,WITHAM STREET,D 3,,,,,"Off Coverack-road"
+cross_street,WITHAM STREET,,,,,,Rt. hand side Corporation-rd
+cross_street,WITHAM STREET,,,,,,(LEFT HAND SIDE.)
+resident,WITHAM STREET,1,,Richard T.,Evans,,
+resident,WITHAM STREET,3,,Harry,Smith,hawker,
+resident,WITHAM STREET,5,,Benj,Hunt,ironworker,
+resident,WITHAM STREET,7,,John,Farley,labourer,
+resident,WITHAM STREET,9,,Frederick J.,Griffiths,,
+resident,WITHAM STREET,11,,Sidney,Hales,ironworker,
+resident,WITHAM STREET,13,,Robert,Halliday,labourer,
+resident,WITHAM STREET,15,,William,Clark,ironwrkr,
+resident,WITHAM STREET,17,,Harry,Thomas,fuel wkr,
+resident,WITHAM STREET,19,,Alfred,Lines,labourer,
+resident,WITHAM STREET,21,,Henry,Palmer,engine dvr,
+resident,WITHAM STREET,23,,Thos.,Ireland,ironworker,
+resident,WITHAM STREET,25,,Arthur William,Edge,
+resident,WITHAM STREET,27,,Edward J.,Sealey,ironwrkr
+resident,WITHAM STREET,29,,Mrs. S.,Chandler,
+resident,WITHAM STREET,31,,Stores,,
+resident,WITHAM STREET,33,,H. Thomas,Spencer,bklyr
+resident,WITHAM STREET,35,,Mrs. E.,Williams,
+resident,WITHAM STREET,37,,Mrs. Edith,Keyes,
+resident,WITHAM STREET,39,,T.,Quinlan,G.W.R.
+resident,WITHAM STREET,41,,Mrs. Nina,Price,
+resident,WITHAM STREET,43,,John,Jones,labourer
+resident,WITHAM STREET,45,,William,Leonard,
+resident,WITHAM STREET,47,,Sidney,Smith,moulder
+resident,WITHAM STREET,49,,John,Booth,
+resident,WITHAM STREET,51,,Francis,Iles,eng driver
+resident,WITHAM STREET,53,,Mrs. Lydia,Preston,
+resident,WITHAM STREET,55,,Jos.,Whittington,labr
+resident,WITHAM STREET,57,,John,Cregg,ironworker
+resident,WITHAM STREET,59,,Joseph,Weaver,ironwrkr
+resident,WITHAM STREET,61,,Stephen,Bennett,ironwrkr
+resident,WITHAM STREET,63,,Frank,Williams,
+resident,WITHAM STREET,65,,Sidney,Martin,
+resident,WITHAM STREET,67,,Hy.,Chapman,watchman
+resident,WITHAM STREET,69,,Eli,Wilks,fireman
+resident,WITHAM STREET,71,,Wm.,Dunning,dk labr
+resident,WITHAM STREET,73,,Ralph,Collier,labourer
+resident,WITHAM STREET,75,,George,Fowler,
+resident,WITHAM STREET,77,,Mrs. E. J.,Hope,
+resident,WITHAM STREET,79,,John,Crighton,ironwrkr
+resident,WITHAM STREET,81,,Joseph,Morgan,ironwrkr
+cross_street,WITHAM STREET,,,,,,(return)
+cross_street,WITHAM STREET,,,,,,Vacant sites
+resident,WITHAM STREET,56,,Mrs. Emma,Giles,
+resident,WITHAM STREET,54,,Albert,Burgess,ironworker
+resident,WITHAM STREET,52,,Mrs. Esther A.,Watling,
+resident,WITHAM STREET,50,,J.,Bees,ironworker
+resident,WITHAM STREET,48,,Ed.,Nethercott,gardener
+resident,WITHAM STREET,46,,Joseph,Sargent,labourer
+resident,WITHAM STREET,44,,Wm.,Hyde,wire drawer
+resident,WITHAM STREET,42,,Thos.,Staines,gen shop
+resident,WITHAM STREET,40,,Edward C.,Williams,labr
+resident,WITHAM STREET,38,,Edwin,Barton,ironworker
+resident,WITHAM STREET,36,,Mrs. Sarah,Jeffrey,
+resident,WITHAM STREET,34,,William H.,Evans,
+resident,WITHAM STREET,32,,Wm.,Wallace,ironworker
+resident,WITHAM STREET,30,,George,Jones,labourer
+resident,WITHAM STREET,28,,Mrs. May,Gibbs,
+resident,WITHAM STREET,26,,Mrs. Sarah,Athay,
+resident,WITHAM STREET,24,,Thomas,White,ironwork'r
+resident,WITHAM STREET,22,,John,Crandon,
+resident,WITHAM STREET,20,,Frank,Rogers,shearer
+resident,WITHAM STREET,18,,Peter,Morris,
+resident,WITHAM STREET,16,,Geo.,Watkins,ironworker
+resident,WITHAM STREET,14,,Mrs. Susannah,Sheen,
+resident,WITHAM STREET,12,,F.,Easthope,labourer
+resident,WITHAM STREET,10,,Hy. J.,Llewellyn,labourer
+resident,WITHAM STREET,8,,Alfred,Mogford,pickler
+resident,WITHAM STREET,6,,Chas.,Payne,ironworker
+resident,WITHAM STREET,4,,John,Kiely,
+resident,WITHAM STREET,2,,Mrs. Sarah,Smith,
+street,WITHEY BED.,B 4,,,,,"From 22 Dos-road"
+resident,WITHEY BED.,,,Thos. W.,Butler,fitter,

@@ -1,0 +1,155 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Lliswerry,,,,,,
+resident,Lliswerry,,,James,Wilkins,ironworker,
+resident,Lliswerry,,,S.,Hockey,quarryman,
+resident,Lliswerry,,,Wm. A.,Thomas,quarryman,
+resident,Lliswerry,,,Ebenezer,Phillips,ironworkr,
+resident,Lliswerry,,,Arthur S.,Pratt,ironworker,
+resident,Lliswerry,,,William,Johns,labourer,
+resident,Lliswerry,,,Henry,Jones,carriage buildr,
+resident,Lliswerry,,,Miss Ann,Jones,,1 Vine-place
+resident,Lliswerry,,,Henry,Price,quarryman,
+resident,Lliswerry,,,Wm.,Brown,,Orchard diary
+resident,Lliswerry,,,David,Fray,engineer,
+resident,Lliswerry,,,Thos. W.,Heath,ironworker,
+resident,Lliswerry,,,John,Price,quarryman,
+resident,Lliswerry,,,Joseph,Wallace,quarryman,
+resident,Lliswerry,,,Robert,Bennett,quarryman,
+resident,Lliswerry,,,Mrs. Ruth,Gough,,
+resident,Lliswerry,,,Edward,Hodges,platelayer,
+resident,Lliswerry,,,Thomas,Thomas,platelayer,
+resident,Lliswerry,,,Mrs. Susan,Thomas,,lime-burner; Crossing kilns
+resident,Lliswerry,,,Edwin,Jones,painter,
+resident,Lliswerry,,,William,Short,quarryman,
+resident,Lliswerry,,,Edwin,Poole,quarryman,
+resident,Lliswerry,,,George,Gough,quarryman,
+resident,Lliswerry,,,Henry,Price,labourer,
+resident,Lliswerry,,,William,Harris,quarryman,
+resident,Lliswerry,,,Charles,Williams,engine drvr,
+resident,Lliswerry,,,Catherine,Williams,,Crown
+resident,Lliswerry,,,Alfred Hy.,Green,mason,
+resident,Lliswerry,,,William,Jones,labourer,
+resident,Lliswerry,,,Job,Phillips,labourer,
+resident,Lliswerry,,,Stephen,Hibberd,platelayer,
+resident,Lliswerry,,,Thomas,Pearce,quarryman,
+resident,Lliswerry,,,John,Harris,quarryman,
+cross_street,Lliswerry,,,,,,here is Lliswerry crossing
+resident,Lliswerry,,Lliswerry Hotel,T.,Phillips,,
+resident,Lliswerry,,,Francis,Thomas,lime burner,
+resident,Lliswerry,,,W.,Evans,farmer,Lliswerry house
+resident,Lliswerry,,,Charles,Lloyd,coach,
+resident,Lliswerry,,,Henry,Lewis,,Elms farm
+resident,Lliswerry,,,F.,Dent,,Belle Vne farm
+resident,Lliswerry,,,John G.,Dent,,Olway farm
+resident,Lliswerry,,,T.,Thompson,,Lliswerry farm
+resident,Lliswerry,,,John,Ross,caretaker,
+cross_street,Lliswerry,,,,,,See also Libeneth-road; Aberthaw-rd.; and Somerton-rd.
+street,Locke Street,C 5,,,,,Queen's-hill to Factory-road.
+cross_street,Locke Street,,,,,,[LEFT HAND SIDE.]
+resident,Locke Street,1,,George,Smith,haulier,
+resident,Locke Street,2,,Henry,Rogers,foreman,
+resident,Locke Street,3,,Zeph.,Butler,G.W.R. inspt,
+resident,Locke Street,4,,Thomas,Wren,mason,
+resident,Locke Street,5,,Mrs. E.,Jones,,
+resident,Locke Street,6,,Mrs. Mary,Blackburn,,
+resident,Locke Street,7,,Thos.,Donovan,foreman,
+resident,Locke Street,8,,Robt.,Needs,stonemason,
+cross_street,Locke Street,,,,,,(return.)
+resident,Locke Street,9,,Charles,Deakin,cleaner,
+resident,Locke Street,10,,Evan,Lougher,guard,
+resident,Locke Street,11,,,,,Void
+resident,Locke Street,12,,James,Howells,painter,
+resident,Locke Street,13,,Wm. Hy.,Rappell,mason,
+resident,Locke Street,14,,Alfred,Rice,cellarman,
+resident,Locke Street,15,,George,Webb,painter,
+resident,Locke Street,15a,,Richard,Hodge,labourer,
+resident,Locke Street,16,,Henry,Lane,labourer,
+resident,Locke Street,17,,Albert,Hail,dealer,
+resident,Locke Street,18,,Albert E.,Adams,guard,
+resident,Locke Street,19,,Geo. Hy.,Wreford,clerk,postal
+resident,Locke Street,20,,Thos.,Churches,labourer,
+resident,Locke Street,21,,Thos.,Evans,cabinetmakr,
+resident,Locke Street,22,,Wm.,Stephens,foreman,
+resident,Locke Street,23,,G. W.,Soffe,postman,
+resident,Locke Street,24,,George,Needs,plasterer,
+resident,Locke Street,25,,John,Thomas,plasterer,
+street,London Street,D 3,,,,,From 87 Chepstow-road to Bristol-street.
+cross_street,London Street,,,,,,[LEFT HAND SIDE.]
+resident,London Street,7,,Fdk.,Parsons,,Islington
+resident,London Street,9,,A. C.,Millership,tinman,
+resident,London Street,11,,Geo.,Rennolds,coal mer.,
+resident,London Street,13,,David,James,driver,
+resident,London Street,15,,John,Nicholas,blacksmth,
+resident,London Street,13,,Jas. B.,Nicholas,manager,
+resident,London Street,19,,Mrs. A. E.,Gardner,,
+resident,London Street,21,,William,Light,saddler,
+resident,London Street,23,,Robert,Moxham,traveller,
+resident,London Street,25,,L. E.,Webb,shop,
+cross_street,London Street,,,,,,here is Liverpool-street.
+resident,London Street,27,,C.,Christophers,,Criccieth
+resident,London Street,29,,Herbert,Fisher,,Clement
+resident,London Street,31,,Wm.,Fowler,,Blackthorne
+resident,London Street,33,,Hugh,Williams,,Rosedale
+resident,London Street,35,,Mrs. Ann,Jenkins,,Bryn-derwen
+resident,London Street,37,,E. O.,Williams,butcher,
+resident,London Street,39,,Henry,Earley,fitter,
+resident,London Street,41,,Mrs. Mary A.,Richards,,
+resident,London Street,43,,A. E.,Webb,baker,
+cross_street,London Street,,,,,,here is Bristol-street.
+cross_street,London Street,,,,,,(return)
+resident,London Street,70,,Henry,Doble,haulier,
+resident,London Street,68,,William,Frost,packer,
+resident,London Street,66,,Edward,James,plasterer,
+resident,London Street,64,,Saml.,Stephens,ironwkr,
+resident,London Street,62,,Alfred,Noble,police,John
+resident,London Street,60,,Edward,King,haulier,
+resident,London Street,58,,Mrs. Kate,James,,
+resident,London Street,56,,Wm.,Plaister,labourer,
+resident,London Street,54,,Joe,Rogers,signal fitter,
+resident,London Street,52,,Thos.,Phillips,carpenter,
+resident,London Street,50a,,Henry,Meyrick,driver,
+resident,London Street,,Greenway A.&Son; maans,,Greenway A.&Son; maans,,
+resident,London Street,50,,Samuel,Vowles,,
+resident,London Street,48,,Alfred,Smith,,
+resident,London Street,46,,William,Hobbs,waiter,
+resident,London Street,44,,A. R.,Thoroughgood,travlr,
+resident,London Street,42,,Wm. E.,Efford,carpenter,
+resident,London Street,40,,E.,Crompton,tea dealer,
+resident,London Street,38,,,,,Void
+resident,London Street,36,,Geo. Ed.,Watkins,painter,
+resident,London Street,34,,Thos.,Davis,salesman,
+resident,London Street,32,,Edwin J.,Grant,,Winley
+resident,London Street,30,,James,Simms,carpenter,
+resident,London Street,28,,Wm.,Harris,,Yardley ho
+resident,London Street,26,,Wm. Thos.,Jones,mason,
+resident,London Street,24,,A. B.,Hall,clerk G.W.R.,
+resident,London Street,22,,Mrs. E.,Gastrell,,
+resident,London Street,20,,Edgar A.,Morgan,butcher,
+resident,London Street,18,,V. J.,Ashton,cyclemnfetrs,
+resident,London Street,16,,Walter J.,Locke,butcher,
+resident,London Street,14,,Thomas,Jones,labourer,
+resident,London Street,,,Eliza,Adams,nurse,
+resident,London Street,12,,Silvester R.,Pope,,
+resident,London Street,10,,Arthur,Dowle,clerk,
+resident,London Street,8,,Mrs.,Pugsley,,Ty Gwaliod
+building,London Street,,,Congregational CHAPEL,,,,
+street,Lord Street,C 3,,,,,From Junction-road to School
+cross_street,Lord Street,,,,,,[LEFT HAND SIDE.]
+resident,Lord Street,1,,Harry,Whitcombe,labr.,
+resident,Lord Street,2,,Wm.,Saunders,painter,
+resident,Lord Street,3,,William,Baker,ostler,
+resident,Lord Street,4,,Henry,Mason,labourer,
+resident,Lord Street,5,,H.,Whitburn,labourer,
+resident,Lord Street,10,,William,Spencer,laborer,
+resident,Lord Street,11,,Henry,Brown,labourer,
+resident,Lord Street,12,,William,Lewis,labourer,
+resident,Lord Street,13,,Thomas,Doble,waterman,
+resident,Lord Street,14,,John,Murphy,lime burner,
+street,Lucas Street,C 4,,,,,Queen's-hill to Factory-road.
+cross_street,Lucas Street,,,,,,[LEFT HAND SIDE.]
+resident,Lucas Street,1,,Mrs. Hannah M.,Kilmister,,
+resident,Lucas Street,2,,George,Gibbon,,
+resident,Lucas Street,3,,Rev. D. J.,Sproule,,
+resident,Lucas Street,4,,Wm.,Collman,stamper; P.O.,
+resident,Lord Street,5,,William,Dowdall,,
+resident,Lord Street,6,,Henry,Mills,miller,

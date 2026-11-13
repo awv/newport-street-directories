@@ -1,0 +1,177 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+cross_street,MILMAN STREET,,,,,,here is Factory-road
+resident,MILMAN STREET,,,Cordes (Dos works) Ltd.,,,nail manufacturers
+resident,MILMAN STREET,,Newport Gas works,,,,,
+resident,MILMAN STREET,34,,,Geary,Michael,,
+resident,MILMAN STREET,35,,,Newport (Mon.) Gas Co.,,T. H. Hazell secretary T. Canning engineer
+resident,MILMAN STREET,,,,,,Mill-street yard (G.W.R.)
+street,MILMAN STREET,,,,,,F 5
+cross_street,MILMAN STREET,,,,,,Crossing Alexandra-road
+cross_street,MILMAN STREET,,,,,,(RIGHT HAND SIDE.)
+resident,MILMAN STREET,2,,,Oakley,Edwin J.,,
+resident,MILMAN STREET,4,,,Lawrence,John,,Holcombe
+resident,MILMAN STREET,6,,,Irvine,Edward,,trimmer
+resident,MILMAN STREET,8,,,Harnett,Mrs. Catherine,,
+resident,MILMAN STREET,10,,,Davidson,George,,
+resident,MILMAN STREET,12,,,Fielden,Daniel,,
+resident,MILMAN STREET,14,,,Tydesley,Mrs. Caroline,,
+cross_street,MILMAN STREET,,,,,,here is Alexandra-road
+resident,MILMAN STREET,16,,,Perchard,John P.,,
+resident,MILMAN STREET,18,,,Pearce,Thomas G.,engineer,
+resident,MILMAN STREET,20,,,Adams,Henry,,boilermakr
+resident,MILMAN STREET,22,,,Pearce,Frederick Edgar,,
+resident,MILMAN STREET,24,,,Chicken,William A.,,
+resident,MILMAN STREET,26,,,Kerrell,Francis Henry,,
+resident,MILMAN STREET,28,,,Davies,John,,pilot
+resident,MILMAN STREET,30,,,Stevens,Mrs. Ellen L.,,
+resident,MILMAN STREET,32,,,Phillips,Wm. J.,foreman,
+resident,MILMAN STREET,34,,,Fox,Mrs. Sarah,,
+resident,MILMAN STREET,36,,,Climo,Daniel,,
+resident,MILMAN STREET,38,,,Morgan,Alfred,,tugboatman
+resident,MILMAN STREET,40,,,Goold,Stephen,,boatman
+cross_street,MILMAN STREET,,,,,,here is Wolseley-street
+resident,MILMAN STREET,42,,,Travers,John R.,trimmer,
+resident,MILMAN STREET,44,,,Hayes,Dennis,,trimmer
+resident,MILMAN STREET,46,,,Bigmore,Mrs. Ellen,,
+resident,MILMAN STREET,48,,,Down,Thos.,,boilermaker
+resident,MILMAN STREET,50,,,Spurrier,Albert W.,,
+resident,MILMAN STREET,52,,,Roxburgh,John B.,,
+resident,MILMAN STREET,54,,,Duddridge,Hbt.,assistant,
+resident,MILMAN STREET,56,,,Allison,John,,boilermaker
+resident,MILMAN STREET,58,,,May,Albert H.,traveller,
+resident,MILMAN STREET,60,,,Baker,E. C.,coal trimmer,
+resident,MILMAN STREET,62,,,Hockey,Samuel,,baker
+resident,MILMAN STREET,64,,,Jones,Geo.,coal trimmer,
+cross_street,MILMAN STREET,,,,,,(return)
+resident,MILMAN STREET,41,,,French,James,,coal trimmr
+resident,MILMAN STREET,39,,,Bastian,William,,trimmer
+resident,MILMAN STREET,37,,,Collins,John,,labourer
+resident,MILMAN STREET,35,,,Allison,Richard,,
+resident,MILMAN STREET,33,,,O'Neill,Wm.,,trimmer
+resident,MILMAN STREET,31,,,Sadler,Fredk.,storekeeper,
+resident,MILMAN STREET,29,,,Bigmore,Simon,,
+resident,MILMAN STREET,27,,,Pritchard,Ernest J.,,
+resident,MILMAN STREET,25,,,Richards,William,,
+resident,MILMAN STREET,23,,,Bale,William Henry,,
+resident,MILMAN STREET,21,,,Thomas,Idris,,
+resident,MILMAN STREET,19,,The Grange,Stevens,R. J.,,
+cross_street,MILMAN STREET,,,,,,here is Wolseley-street
+resident,MILMAN STREET,17,,Westleigh,Williams,W. H.,,
+resident,MILNER STREET,15,,Pen-y-lan,Nash,Geo.,dock boatman,
+resident,MILNER STREET,13,,,Critchley,John,,
+resident,MILNER STREET,11,,Fernlea,Embrey,Albert R.,,
+resident,MILNER STREET,9,,Pendeen,Spurrier,D.,,
+resident,MILNER STREET,7,,,Suller,Frederick,,
+resident,MILNER STREET,5,,,Mahoney,John,,haulier
+resident,MILNER STREET,3,,,Jones,Thomas G.,pilot,
+resident,MILNER STREET,1,,,Dunn,Richard H.,,
+street,MILNER STREET,,,,,,E 3
+notes,MILNER STREET,,,,,,Off Corporation-road
+cross_street,MILNER STREET,,,,,,(RIGHT HAND SIDE.)
+resident,MILNER STREET,2,,,Morgan,William Samuel,,
+resident,MILNER STREET,4,,,Warner,Ernest George,,
+resident,MILNER STREET,6,,,Turford,Thomas,,ironrwkr
+resident,MILNER STREET,8,,,Postle,Joseph,,do
+resident,MILNER STREET,10,,,Beal,Job,,do
+resident,MILNER STREET,12,,,Screen,William,,do
+resident,MILNER STREET,14,,,Blunt,Mrs. S.,,
+resident,MILNER STREET,16,,,Edwards,Wm.,ironworker,
+resident,MILNER STREET,18,,,Cousins,George,,do
+resident,MILNER STREET,20,,,Yeates,Samuel,,
+resident,MILNER STREET,22,,,Tyler,Rd. A.,ship painter,
+resident,MILNER STREET,24,,,Onions,John T.,ironrwkr,
+resident,MILNER STREET,26,,,Webb,W. H.,caretaker,
+resident,MILNER STREET,28,,,Russell,John,,ironworker,
+resident,MILNER STREET,30,,,Carthy,Robert W.,do,
+resident,MILNER STREET,32,,,Cooper,Fredk.,,do
+resident,MILNER STREET,34,,,Head,James,,do
+resident,MILNER STREET,36,,,Carthy,James,,do
+resident,MILNER STREET,38,,,Beech,Caleb,,do
+resident,MILNER STREET,40,,,Hicks,George,,do
+resident,MILNER STREET,42,,,Whitehouse,Rd.,do,
+resident,MILNER STREET,44,,,Nash,Chas. E.,do,
+resident,MILNER STREET,46,,,Williams,Job,,do
+resident,MILNER STREET,48,,,Lockley,Joseph,,do
+resident,MILNER STREET,,,,,,Vacant sites,,
+cross_street,MILNER STREET,,,,,,(return)
+resident,MILNER STREET,,,,,,Vacant sites,,
+resident,MILNER STREET,13,,,Millard,Geo. Edwin,do,
+resident,MILNER STREET,11,,,Head,Jonathan,,do
+resident,MILNER STREET,9,,,Arnold,Frank,,do
+resident,MILNER STREET,7,,,Arthur,William,,do
+resident,MILNER STREET,5,,,James,Wm. Hy.,do,
+resident,MILNER STREET,3,,,Edwards,Albert,,do
+resident,MILNER STREET,1,,,Stone,William,,do
+street,MORDEN ROAD,,,,,,C 3
+notes,MORDEN ROAD,,,,,,From 140 Caerleon-road to Christchurch-road.
+cross_street,MORDEN ROAD,,,,,,(LEFT HAND SIDE.)
+resident,MORDEN ROAD,,Morden h,McDaniel,H. D.,,
+resident,MORDEN ROAD,1,,The Glynn,Daly,John,,
+resident,MORDEN ROAD,2,,indo house,Capper,John Herbert,Cal-,
+resident,MORDEN ROAD,3,,Bryn rhos,Bevan,Miss C.,,
+resident,MORDEN ROAD,4,,,Moss,George Alfred,,
+resident,MORDEN ROAD,5,,,Tandy,Edward George,,
+resident,MORDEN ROAD,6,,,Miller,Alfred,,
+resident,MORDEN ROAD,7,,,Turner,John,,bldg inspctr
+resident,MORDEN ROAD,8,,,Jewell,Fred. Jas.,,
+resident,MORDEN ROAD,9,,,Franklyn,Harry Lionel,,
+resident,MORDEN ROAD,10,,,Richards,Charles H.,,
+resident,MORDEN ROAD,11,,,Steer,Richard G.,,
+resident,MORDEN ROAD,12,,,Snook,James,,traveller
+resident,MORDEN ROAD,13,,Llandogo ho,Morris,John,,
+resident,MORDEN ROAD,14,,,Evans,Dd. W.,,ins. supt.
+resident,MORDEN ROAD,15,,,Miles,Thomas Hy.,,
+resident,MORDEN ROAD,16,,,Morris,Ern. Edwd.,p.o.
+resident,MORDEN ROAD,17,,,Gordon,Wm. Thos.,N.
+resident,MORDEN ROAD,18,,,Hyndman,Wm. D.,P. O.
+resident,MORDEN ROAD,19,,,Robertson,Charles,,
+resident,MORDEN ROAD,20,,,Blatchley,J. J.,gas fitter,
+resident,MORDEN ROAD,21,,Hadley h,Martin,Mrs. H.,,
+resident,MORDEN ROAD,22,,Whitley house,Trew,E. J.,clerk,
+resident,MORDEN ROAD,23,,,Morris,William,,
+resident,MORDEN ROAD,24,,,Benwell,Frank,,
+resident,MORDEN ROAD,25,,Greencroft,Ward,George,,
+resident,MORDEN ROAD,26,,,Howells,Benj. Philip,,
+cross_street,MORDEN ROAD,,,,,,here is Ronald-road
+resident,MORDEN ROAD,,,HIGHWEEK TERRACE-,,,
+resident,MORDEN ROAD,27,,Ingleside,Little,Mrs. L. M.,,
+resident,MORDEN ROAD,28,,Mt. Pleasant,Taylor,H. V.,,
+resident,MORDEN ROAD,29,,,Hodgson,George,,
+resident,MORDEN ROAD,30,,,Blowen,Edward John,,
+resident,MORDEN ROAD,31,,,Yeates,Wm.,traveller,
+resident,MORDEN ROAD,32,,,Page,C.,Ernest architect,
+resident,MORDEN ROAD,33,,Melverton h,Phillips,Brin.,,
+resident,MORDEN ROAD,34,,,Foxon,W. H.,,
+resident,MORDEN ROAD,35,,Staverton,Cole,A.Kenrick,,
+cross_street,MORDEN ROAD,,,,,,here is Leicester-road
+resident,MORDEN ROAD,,,BELLE VUE TERRACE-,,,
+resident,MORDEN ROAD,36,,,White,Hy. Jas.,grocer,
+resident,MORDEN ROAD,37,,,Holmes,Chas. F.,,Cynon v
+resident,MORDEN ROAD,38,,,Williams,Harry,,
+resident,MORDEN ROAD,39,,,Clements,F.,Charles,
+resident,MORDEN ROAD,40,,,Jory,Hubert Vaughan,,
+resident,MORDEN ROAD,41,,,Oldrieve,James,,
+resident,MORDEN ROAD,42,,,Wenter,Mrs. A.,,
+resident,MORDEN ROAD,43,,Crofton ho,King,Joseph,,
+resident,MORDEN ROAD,44,,,Johns,Joseph,,
+resident,MORDEN ROAD,45,,Norwood ho,Swanton,Mrs. Susannah Stout Wm.,,
+cross_street,MORDEN ROAD,,,,,,(return)
+resident,MORDEN ROAD,46,,,Hughes,John,,
+resident,MORDEN ROAD,47,,,Allen,W. A.,,
+resident,MORDEN ROAD,48,,,Hall,Lawrence George,,
+cross_street,MORDEN ROAD,,,,,,here is Leicester-road
+resident,MORDEN ROAD,,,ARCADIA TERRACE-,,,
+resident,MORDEN ROAD,49,,,Isaacs,Mrs. Gwenllian,,
+resident,MORDEN ROAD,50,,,Willey,Ernest Alfred,,
+resident,MORDEN ROAD,51,,,Attwood,Alfred,,probation officer
+resident,MORDEN ROAD,52,,,Groves,Richard,,
+resident,MORDEN ROAD,53,,,Rocke,Nurse E. L.,,
+resident,MORDEN ROAD,54,,,Stewart,Jas. B.,,
+cross_street,MORDEN ROAD,,,,,,here is Ronald-road
+resident,MORDEN ROAD,55,,,Troakes,Mrs. Martha,,
+resident,MORDEN ROAD,56,,,Davies,Thomas G.,,
+resident,MORDEN ROAD,57,,,Sier,Mrs. Emma,,
+resident,MORDEN ROAD,58,,,Void,,,
+resident,MORDEN ROAD,59,,,Attewell,Mrs. W. J.,,
+resident,MORDEN ROAD,60,,,Scott,James McFarlane,,
+resident,MORDEN ROAD,61,,Tudwal,Evans,Rev. Dd.,,

@@ -9,7 +9,10 @@
   <link rel="stylesheet" href="src/styles/main.css">
   
   <style>
-    body {
+    html, body {
+      height: auto !important;
+      overflow-x: auto !important;
+      overflow-y: auto !important;
       padding: 0;
       background-color: var(--bg);
       color: var(--text);
@@ -413,6 +416,7 @@
       <button class="btn" onclick="resetSessionEdits()" title="Clear all local session edits">
         🔄 Clear Session Edits
       </button>
+      <a href="timeline.html" class="btn">📈 Timeline Audit</a>
       <a href="index.html" class="btn">🏠 Home Page</a>
       <a href="trades.html" class="btn">💼 Trades Audit</a>
     </div>

@@ -1,0 +1,174 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,CRESCENT ROAD,,,,,,
+resident,CRESCENT ROAD,41,,T.,Edwards,Uplands,
+resident,CRESCENT ROAD,45,,Henry B.,Wilks,shop,
+resident,CRESCENT ROAD,46,,Thos. P.,Smale,haulier,
+resident,CRESCENT ROAD,47,,Daniel H.,Walton,,
+resident,CRESCENT ROAD,48,,Robt.,Ricks,gas works,
+street,CRINDAU ROAD,,,,,,B 4
+cross_street,CRINDAU ROAD,,,,,,From Brynglas-road
+resident,CRINDAU ROAD,,,Theophilus,Jones,Crindau h,
+resident,CRINDAU ROAD,,,J.,Smith,Haines do,
+resident,CRINDAU ROAD,1,,Rev. J. C.,Rowlands,,
+resident,CRINDAU ROAD,3,,W. H.,Willis,Hillside villa,
+resident,CRINDAU ROAD,5,,Wm. R.,Wilson,sorting clk,
+resident,CRINDAU ROAD,7,,Arthur P.,O'Leary,,
+resident,CRINDAU ROAD,9,,George,Young,timepeeper,
+resident,CRINDAU ROAD,11,,John,Piaggi,modeller,
+cross_street,CRINDAU ROAD,,,,,,(return)
+resident,CRINDAU ROAD,14,,David,Woodliff,engineer,
+resident,CRINDAU ROAD,12,,Thos.,Jones,bridge painter,
+resident,CRINDAU ROAD,10,,Arthur L.,Wort,,
+resident,CRINDAU ROAD,8,,Fredk. Jas.,Lea,chemist,
+resident,CRINDAU ROAD,6,,W. J.,Taylor,F. gasfitter,
+resident,CRINDAU ROAD,4,,Edward,Coughlin,,
+resident,CRINDAU ROAD,,,Edgar Luke,Smith,,
+resident,CRINDAU ROAD,2,,Luke,Smith,labourer,
+cross_street,CRINDAU ROAD,,,,,,here is Spring-street
+cross_street,CRINDAU ROAD,,,,,,From Albany-street
+resident,CRINDAU ROAD,,,,S. Wales Glass Manufacturing Co., Ltd.,,glass works
+resident,CRINDAU ROAD,,,,Crindau Gas Works,,,see also Albany-street
+street,CROMWELL ROAD,,,,,,E 3
+cross_street,CROMWELL ROAD,,,,,,Off Corporation-road
+cross_street,CROMWELL ROAD,,,,,,[RIGHT HAND SIDE.]
+resident,CROMWELL ROAD,2,,Wm. R.,Pitt,builder,
+resident,CROMWELL ROAD,4,,Richard,Mayberry,roller,
+resident,CROMWELL ROAD,6,,Frank V.,Jones,ironworker,
+resident,CROMWELL ROAD,8,,Wm.,Harrison,ironworker,
+resident,CROMWELL ROAD,10,,Frederick,Blythe,shop,
+cross_street,CROMWELL ROAD,,,,,,here is Slade-street
+resident,CROMWELL ROAD,,,,,,Vacant sites
+cross_street,CROMWELL ROAD,,,,,,here is Oakley-street
+resident,CROMWELL ROAD,,,,,,PRIM. METH. CHURCH,
+resident,CROMWELL ROAD,,,,,,Vacant sites
+resident,CROMWELL ROAD,174,,Frank,Chapman,butcher,
+resident,CROMWELL ROAD,176,,Humphrey,O'Sullivan,labourer,
+resident,CROMWELL ROAD,178,,Alfred,Clarke,ironworker,
+resident,CROMWELL ROAD,180,,Fredk.,Walters,hairdressr,
+resident,CROMWELL ROAD,182,,Robert,Kitson,shop,
+resident,CROMWELL ROAD,184,,Fredk.,Davies,shop,
+resident,CROMWELL ROAD,186,,,,,Void
+resident,CROMWELL ROAD,188,,Jos.,Fellows,boot dealer,
+resident,CROMWELL ROAD,190,,Geo.,Sharrem,Wm. shop,
+resident,CROMWELL ROAD,,,,,,Vacant sites
+cross_street,CROMWELL ROAD,,,,,,here is Jenkins-street
+resident,CROMWELL ROAD,194,,Benjamin,Wilkins,ironwr,
+resident,CROMWELL ROAD,196,,Edward A.,Williams,i.wr,
+resident,CROMWELL ROAD,198,,Philip,Hughes,ironwkr,
+resident,CROMWELL ROAD,200,,Rd.,Roberts,ironworker,
+resident,CROMWELL ROAD,,,,,,Vacant sites
+resident,CROMWELL ROAD,214,,John,Baker,labourer,
+resident,CROMWELL ROAD,216,,John,Johnson,ironwkr,
+resident,CROMWELL ROAD,218,,Hy.,Jones,carriage bldr,
+resident,CROMWELL ROAD,220,,Wm. H.,Newland,fitter,
+resident,CROMWELL ROAD,222,,James,Lewis,labourer,
+resident,CROMWELL ROAD,224,,Mrs. E. J.,Ellis,,
+resident,CROMWELL ROAD,,,,,,Vacant sites
+resident,CROMWELL ROAD,242,,J.,Woodhall,coal mercht,
+resident,CROMWELL ROAD,244,,John,Hyde,wiredrawer,
+resident,CROMWELL ROAD,,,,,,Vacant sites
+resident,CROMWELL ROAD,256,,C.,Lewis,grocer,
+resident,CROMWELL ROAD,258,,George,Anstee,shop,
+resident,CROMWELL ROAD,260,,W.,Luckett,bootmaker,
+resident,CROMWELL ROAD,262,,James,James,butcher,
+resident,CROMWELL ROAD,,,Wm. A.,Thomas,coal mer,
+cross_street,CROMWELL ROAD,,,,,,(return)
+resident,CROMWELL ROAD,,,County Football Ground,,,
+resident,CROMWELL ROAD,,,,,,Vacant sites
+resident,CROMWELL ROAD,151,,W. R.,Moulton,carpenter,
+resident,CROMWELL ROAD,149,,Rees,Hopkins,manager,
+resident,CROMWELL ROAD,147,,George,Thorneycroft,,
+resident,CROMWELL ROAD,145,,George,Corfield,ironwkr,
+cross_street,CROMWELL ROAD,,,,,,here is Fairfax-street
+resident,CROMWELL ROAD,143,,Mrs. Margt.,Thorneycroft,shop,
+resident,CROMWELL ROAD,141,,John G.,Ennis,ironwkr,
+resident,CROMWELL ROAD,139,,John T.,Hill,ironworker,
+resident,CROMWELL ROAD,137,,Benj.,Kitson,ironworker,
+resident,CROMWELL ROAD,135,,John,Rickman,,
+resident,CROMWELL ROAD,,,,,,Vacant sites
+cross_street,CROMWELL ROAD,,,,,,here is Liscombe-street
+cross_street,CROMWELL ROAD,,,,,,here is Henson-street
+resident,CROMWELL ROAD,,,,,,Vacant sites
+cross_street,CROMWELL ROAD,,,,,,here is Keen-street
+street,CROSS LANE,,,,,,D 4
+cross_street,CROSS LANE,,,,,,From 58 Dock-street
+resident,CROSS LANE,,,James,Reardon,labourer,
+resident,CROSS LANE,,,Ernest,Hill,shoeing forge,
+resident,CROSS LANE,,,Frederick,Hart,sugar boiler,
+resident,CROSS LANE,,,J. T.,Griffiths,cooper,
+street,CROSS STREET,,,,,,D 4
+cross_street,CROSS STREET,,,,,,New Emlyn-street (which see)
+street,CROWN STREET,,,,,,D 3
+cross_street,CROWN STREET,,,,,,Victoria-av. to Albert-av.
+cross_street,CROWN STREET,,,,,,[LEFT HAND SIDE.]
+resident,CROWN STREET,1,,Joseph,Watson,caretaker,
+resident,CROWN STREET,2,,Robt.,Moggridge,porter,
+resident,CROWN STREET,3,,Benjamin,Kelly,painter,
+resident,CROWN STREET,4,,William,Bellhouse,haulier,
+resident,CROWN STREET,5,,Robert,Moggridge,,
+resident,CROWN STREET,,,Geo. junr.,Moggridge,clerk,
+resident,CROWN STREET,6,,Martin,Underwood,labr,
+resident,CROWN STREET,7,,Herbt.,Vowles,bricklayer,
+resident,CROWN STREET,8,,Saml.,Whitburn,plasterer,
+resident,CROWN STREET,9,,Geo.,Prowle,carriage bldr,
+resident,CROWN STREET,10,,Mrs. H.,Clarke,dressmaker,
+resident,CROWN STREET,11,,Joseph,Kelson,bricklayer,
+resident,CROWN STREET,12,,Mrs. Harriett,McCarthy,,
+resident,CROWN STREET,13,,Mrs. Louise,Richards,,
+resident,CROWN STREET,14,,Edward,Bishop,mason,
+resident,CROWN STREET,15,,William J.,Hockey,,
+resident,CROWN STREET,16,,Edgar,Prosser,painter,
+resident,CROWN STREET,17,,Edmund,Rosser,stonem,
+cross_street,CROWN STREET,,,,,,(return)
+resident,CROWN STREET,18,Crown Hotel,Dd.,Jones,,
+resident,CROWN STREET,19,,George,Perkins,labourer,
+resident,CROWN STREET,20,,James,Morgan,wireman,
+resident,CROWN STREET,21,,Andrew,Charles,haulier,
+resident,CROWN STREET,22,Little Crown,H.,Gatehouse,,
+resident,CROWN STREET,27,,Aaron,Howe,carpenter,
+resident,CROWN STREET,28,,John,Tucker,mason,
+street,CROYDON ROAD,,,,,,
+cross_street,CROYDON ROAD,,,,,,Off Caerleon-road
+resident,CROYDON ROAD,2,,Henry,Gill,St. Basils,
+street,CUMBERLAND ROAD,,,,,,
+cross_street,CUMBERLAND ROAD,,,,,,From 389 Caerleon-road
+cross_street,CUMBERLAND ROAD,,,,,,[LEFT HAND SIDE.]
+resident,CUMBERLAND ROAD,1,,James,Sims,,
+resident,CUMBERLAND ROAD,3,,Frank,Miles,draughtsman,
+resident,CUMBERLAND ROAD,5,,Fred,Wise,clerk,
+resident,CUMBERLAND ROAD,7,,J. E.,Beese,,
+resident,CUMBERLAND ROAD,9,,William Arthur,Jones,foreman,
+resident,CUMBERLAND ROAD,11,,George H.,Parcelle,,
+resident,CUMBERLAND ROAD,13,,Benjamin,Lambert,,
+resident,CUMBERLAND ROAD,15,,Geo. Chas. D.,Williams,fitter,
+resident,CUMBERLAND ROAD,17,,Evan Ralph,Evans,,
+resident,CUMBERLAND ROAD,,,,,,Vacant sites
+cross_street,CUMBERLAND ROAD,,,,,,(return)
+resident,CUMBERLAND ROAD,,,,,,Vacant sites
+resident,CUMBERLAND ROAD,12,,Albert E.,Thomas,,
+resident,CUMBERLAND ROAD,10,,Jack,Pullen,cutter,
+resident,CUMBERLAND ROAD,8,,W. P. Ll.,Workman,,
+resident,CUMBERLAND ROAD,6,,Arthur Robert,Lloyd,,
+resident,CUMBERLAND ROAD,4,,Charles J.,Eddolls,,
+resident,CUMBERLAND ROAD,2,,Fred,Mitchell,,
+street,CYRIL STREET,,,,,,D 3
+cross_street,CYRIL STREET,,,,,,Corporation-road to Riverside
+cross_street,CYRIL STREET,,,,,,[LEFT HAND SIDE.]
+resident,CYRIL STREET,1,,Geo. W.,Cambray,mldr,
+resident,CYRIL STREET,3,,Robert,Corbin,G.W.R.,
+resident,CYRIL STREET,5,,Alfred Benj.,Gardiner,guard G.W.R.,
+resident,CYRIL STREET,7,,Albert James,Hudson,G.W.R.,
+resident,CYRIL STREET,9,,Mrs. Martha,Strickland,,
+resident,CYRIL STREET,11,,Fred W.,Birt,bootmaker,
+resident,CYRIL STREET,13,,Thos. C.,Davis,ironworker,
+resident,CYRIL STREET,15,,Thos.,Ashley,wiredrawer,
+resident,CYRIL STREET,17,,Mrs. N.,Roberts,,
+resident,CYRIL STREET,19,,Ernest,Tye,signalman,
+resident,CYRIL STREET,21,,Frank J.,Richards,painter,
+resident,CYRIL STREET,23,,Henry,Hoggett,,
+resident,CYRIL STREET,25,,Walter,Grey,ironworker,
+resident,CYRIL STREET,27,,John,Davies,fitter,
+resident,CYRIL STREET,29,,Edm. Thos.,Smith,,
+resident,CYRIL STREET,31,,Frank,Iles,engine driver,
+resident,CYRIL STREET,33,,Theodore,Golledge,,
+resident,CYRIL STREET,35,,Benj.,Spruce,ironworker,

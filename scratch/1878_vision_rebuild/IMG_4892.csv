@@ -1,0 +1,133 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,WHA,,,,,,
+resident,WHA,,,C.,Lewis & Co.,general wharfingers,Liverpool wharf
+resident,WHA,,,Jno.,Williams,general shipping agent,Cross Street wharf
+resident,WHA,,,J.,Monks,stone merchant,
+resident,WHA,,,Thos.,Ebbw Vale Iron whf,Jones,agent,Abercarne Coal Office
+resident,WHA,,,T. B.,Bell,agent,Abercarne Coal Office
+resident,WHA,,,H. & W.,Powell's Town wharf,colly proptrs,
+resident,WHA,,,Thomas,Pontypool wharf,Jones,agent; officcat Ebbw V. Iron wharf
+resident,WHA,,,Pickford,Mariners' wharf,Ford & Co. tmbr mrchnts.,
+resident,WHA,,,Vipond & Co.,colly props,
+resident,WHA,,,T. B.,Ebbw Vale Coal wharf,Bell,agent
+resident,WHA,,,M. R. & C.,Gloucester wharf,Tucker Bros. corn merchnts; Parry Thos. manure depot
+resident,WHA,,,Ebbw Vale Co.,Victoria wharf,F. Orders, agent
+cross_street,WHA,,,,,,Jack's Pill
+resident,WHA,,,H. M.,Newport Dry Dock and Ship Building Co.,Williams, manager
+resident,WHA,,,Batchelor & Co.,tmbr mrchs,
+resident,WHA,,,O.,Llanarth wharf,Goss,oil and grease merchant
+resident,WHA,,,Nantyglo and Blaina Iron Co,Upper Canada wharf,Nantyglo wharf
+resident,WHA,,,John,Nutt,coal merchant,
+resident,WHA,,,Clapp & Co.,Clapp's wharf,colliery proprietors
+resident,WHA,,,Jno.,Russell's wharf,Bladon, agent; South Wales Colliery Co.
+resident,WHA,,,South Wales Coal Co,Risca wharf,London and
+resident,WHA,,,Partridge & Jones,Carngethin whf,colliery proptors
+resident,WHA,,,J.,Hoskins,shipping agnt.,
+resident,WHA,,,S. A.,Oakley,bark and timber merchant
+resident,WHA,,,Gelly Coal Co.,Deri wharf,Cwm Blackwood
+resident,WHA,,,T. H.,Aberbeeg wharf,Bladon, coal merchant
+resident,WHA,,,T.,Cambrian wharf,Spittle,
+resident,WHA,,,Cambrian Iron Foundry,,,,
+resident,WHA,,,Rhymney Iron Co,Rhymney wharf,Burton & Sons, ags
+resident,WHA,,,W.,Birkett,coal merchnt,
+resident,WHA,,,Brynmawr Coal and Iron Co.,Tillery wharf,
+resident,WHA,,,J.,Broad,boat builder
+resident,WHA,,,Watts J. G.,Penner wharf,coal and pitwood merchnt
+cross_street,WHA,,,,,,Dock entrance
+resident,WHA,,,Custom's watch house,,,
+resident,WHA,,,S. James's Chapel (seamen's),,,
+resident,WHA,,,Powell Duffryn St'em Coal Co,R. T. Martin, agent
+resident,WHA,,,J. Thompson,Phillips' wharf,coal merchant
+resident,WHA,,,Thomas,Penmwen wharf,agent
+resident,WHA,,,The Protheroe Trust,Protheroe's wharf,J. Cole, agent, Prospect House
+resident,WHA,,,Midland Wagon Co.,,,
+cross_street,WHA,,,,,,The Pill
+resident,WHA,,,Tredegar Iron wharf,Tredegar Iron and Coal Co,Tredegar Iron wharf
+resident,WHA,,,Joseph,Latch & Co.,colliery proprietors,Tredegar Iron wharf
+resident,WHA,,,Rock wharf,Rock Coal Co.,Frederick Phillips, agent
+resident,WHA,,,W. S.,Waterloo wharf,Cartwright, colliery props
+resident,WHA,,,L. A. Homfray,Brithdir whf,
+resident,WHA,,,Bevan & Pryce,Rhoswen wharf,colliery proprietors
+resident,WHA,,,T. J.,Rhos Llantwit Coal Co.,Simpson, agent
+resident,WHA,,,Jas.,Cork Steam Ship wharf,Maddock, agent
+resident,WHA,,,Alexandra Dock,,,see p.p. 26 and 48
+resident,WHA,,,Alexandra Graving Dock,,,
+resident,WHA,,,The Watch House,,,
+resident,WHA,,,The Powder Magazine,,,
+street,WILLIAMS STREET,,,,,,(from 153 Commercial road)
+resident,WILLIAMS STREET,1,,,John,Spittle,foreman,
+resident,WILLIAMS STREET,2,,,James,Row,cooper,
+resident,WILLIAMS STREET,3,,,Miss,Johns,dressmaker,
+resident,WILLIAMS STREET,3,,,Abraham,Gillmore,pilot,
+resident,WILLIAMS STREET,4,,,George,Pyer,compositor,
+resident,WILLIAMS STREET,5,,,J.,Murrow,master mar.,
+resident,WILLIAMS STREET,6,,,Mary,Edmunds,,
+resident,WILLIAMS STREET,7,,,Joseph,Eynon,mariner,
+resident,WILLIAMS STREET,8,,,G. B.,Jones,coal agent,
+resident,WILLIAMS STREET,8,,,Mrs.,Jones,school,
+resident,WILLIAMS STREET,9,,,Mrs.,Worgan,,
+resident,WILLIAMS STREET,10,,,Joseph,Cox,pilot,
+resident,WILLIAMS STREET,11,,,Richard,Hale,mariner,
+resident,WILLIAMS STREET,12,,,E. S.,Kelley,railw'y clerk,
+resident,WILLIAMS STREET,13,,,E. S.,Goldsworthy,pilot,
+resident,WILLIAMS STREET,14,,,Mrs.,Moore,,
+resident,WILLIAMS STREET,15,,,Abraham,Toyle,mech'nic,
+resident,WILLIAMS STREET,16,,,Lawrence,Harvard,,
+resident,WILLIAMS STREET,17,,,W. H.,Williams,carpentr,
+resident,WILLIAMS STREET,18,,,Wm. E.,Abbott,fitter,
+resident,WILLIAMS STREET,,Powell,,,James,fitter,
+resident,WILLIAMS STREET,19,,,James,Lee,mechanic,
+resident,WILLIAMS STREET,20,,,Benj.,Jones,mechanic,
+resident,WILLIAMS STREET,21,,,H.,Evans,Customs officer,
+resident,WILLIAMS STREET,22,,,Roderick,Rees,mechanic,
+resident,WILLIAMS STREET,23,,,Samuel,Davis,bookbinder,
+resident,WILLIAMS STREET,24,,,Isaac,Beacham,mechanic,
+resident,WILLIAMS STREET,25,,,Hy.,Prosser,mechanic,
+resident,WILLIAMS STREET,26,,,L. M.,Rees,Customs offic.,
+resident,WILLIAMS STREET,27,,,Thos.,Cox,pilot,
+resident,WILLIAMS STREET,28,,,Thos.,Griffiths,mariner,
+resident,WILLIAMS STREET,29,,,Dnv.,Griffiths,eng. driver,
+resident,WILLIAMS STREET,30,,,Thos.,Baldwin,fitter,
+cross_street,WILLIAMS STREET,,,,,,(return)
+resident,WILLIAMS STREET,31,,,John,Wilkins,eng. driver,
+resident,WILLIAMS STREET,32,,,Wm.,Kilmister,porter,
+resident,WILLIAMS STREET,32,,,Mrs. M.,Langmaid,,
+resident,WILLIAMS STREET,34,,,John,Rees,moulder,
+resident,WILLIAMS STREET,35,,,Jno.,Dunstan,pattern mk.,
+resident,WILLIAMS STREET,36,,,Ed.,Charles,E.O. Custms,
+resident,WILLIAMS STREET,37,,,Mrs.,Edmunds,lodgings,
+resident,WILLIAMS STREET,38,,,Jas.,White,compositor,
+resident,WILLIAMS STREET,39,,,Thomas,Jones,pilot,
+resident,WILLIAMS STREET,40,,,John,Hopkins,brazier,
+resident,WILLIAMS STREET,41,,,Wm. H.,Fisher,pilot,
+resident,WILLIAMS STREET,42,,,James,Lewis,pilot,
+resident,WILLIAMS STREET,43,,,Thos. S.,Weeks,pilot,
+resident,WILLIAMS STREET,44,,,John,Lott,clerk,
+resident,WILLIAMS STREET,45,,,John,Langmaid,grocer,
+resident,WILLIAMS STREET,46,,,E.,Roberts,master mar.,
+resident,WILLIAMS STREET,47,,,W.,Nash,master mar.,
+resident,WILLIAMS STREET,48,,,Lewis,Moses,rlwy. guard,
+resident,WILLIAMS STREET,49,,,J.,Panting,railway guard,
+resident,WILLIAMS STREET,50,,,Elias,Beacham,mechanic,
+resident,WILLIAMS STREET,51,,,Mrs. T.,Ellery,,
+resident,WILLIAMS STREET,52,,,Jas.,Sayce,guard,
+resident,WILLIAMS STREET,53,,,W.,Burleigh,stonemason,
+resident,WILLIAMS STREET,54,,,Wm.,Jones,builder,
+resident,WILLIAMS STREET,55,,,W.,Grant,clerk,
+resident,WILLIAMS STREET,56,,,Wm.,Howe,clerk,
+resident,WILLIAMS STREET,57,,,Thos.,Atkinson,mechanic,
+resident,WILLIAMS STREET,58,,,Howell,Jenkins,carpent'r,
+resident,WILLIAMS STREET,59,,,Wm.,Ford,fitter,
+resident,WILLIAMS STREET,60,,,George,Burden,,
+resident,WILLIAMS STREET,61,,,J.,Winter,bootmaker,
+resident,WILLIAMS STREET,,,Seamen's Bethel,,,,
+cross_street,WILLIAMS STREET,,,,,,(see also Up. Williams street)
+street,WINDSOR CRESCENT,,,,,,(from Tunnel ter. to Blewitt terrace)
+resident,WINDSOR CRESCENT,,,Sunny bank,W. N.,Johns,
+resident,WINDSOR CRESCENT,,,School Board visitor,Wm.,Barton,Hope cottage
+resident,WINDSOR CRESCENT,,,Stanway cot.,Jas.,Pritchard,
+resident,WINDSOR CRESCENT,,,Ash cottage,P. H.,Holmes,
+resident,WINDSOR CRESCENT,,,Rose villa,John,Nicholas,
+resident,WINDSOR CRESCENT,,,Mabel villa,Morgan,Davies,
+resident,WINDSOR CRESCENT,,,Berridge,,,Wm.,
+resident,WINDSOR CRESCENT,,,Cameley cot.,G. T.,Brimfield,

@@ -69,7 +69,58 @@ def clean_name_abbr(name):
     name = re.sub(r'\bChas\.?\b', 'Charles', name)
     name = re.sub(r'\bRobt?\.?\b', 'Robert', name)
     name = re.sub(r'\bFredk?\.?\b', 'Frederick', name)
+    name = re.sub(r'\bHy\.?\b', 'Henry', name)
+    name = re.sub(r'\bEdwd?\.?\b', 'Edward', name)
+    name = re.sub(r'\bJno\.?\b', 'John', name)
+    name = re.sub(r'\bAlfd?\.?\b', 'Alfred', name)
+    name = re.sub(r'\bAlbt\.?\b', 'Albert', name)
+    name = re.sub(r'\bDanl?\.?\b', 'Daniel', name)
+    name = re.sub(r'\bJas\.?\b', 'James', name)
     return name.strip(' ,"-~')
+
+COMMON_TITLES = {'mrs', 'mrs.', 'miss', 'miss.', 'rev', 'rev.', 'dr', 'dr.', 'capt', 'col', 'hon', 'lady', 'sir'}
+
+KNOWN_TRADE_KEYWORDS = [
+    'grocer', 'labourer', 'ironworker', 'carpenter', 'mason', 'fitter', 'haulier', 
+    'clerk', 'painter', 'seaman', 'smith', 'tailor', 'butcher', 'trimmer', 'baker', 
+    'engineer', 'plasterer', 'guard', 'moulder', 'gardener', 'foreman', 'boilermaker', 
+    'fireman', 'builder', 'traveller', 'manager', 'hairdresser', 'agent', 'blacksmith', 
+    'greengrocer', 'bootmaker', 'signalman', 'shipwright', 'plumber', 'hobbler', 
+    'platelayer', 'porter', 'bricklayer', 'rigger', 'shopkeeper', 'mariner', 'shoemaker', 
+    'draper', 'steelworker', 'pilot', 'confectioner', 'postman', 'driver', 'sawyer', 
+    'policeman', 'printer', 'sailor', 'solicitor', 'mechanic', 'machinist', 'steward', 
+    'joiner', 'striker', 'miller', 'tobacconist', 'dealer', 'fruiterer', 'caretaker', 
+    'inspector', 'decorator', 'warehouseman', 'saddler', 'shunter', 'boatman', 
+    'hoistman', 'milkman', 'cooper', 'dairyman', 'watchmaker', 'electrician', 'accountant', 
+    'hawker', 'dressmaker', 'cabinetmaker', 'wheelwright', 'docker', 'roller', 
+    'furnaceman', 'chemist', 'motor driver', 'weighman', 'gasfitter', 'puddler', 
+    'timekeeper', 'newsagent', 'checker', 'sailmaker', 'coachman', 'stevedore', 
+    'storekeeper', 'packer', 'outfitter', 'tinsmith', 'carman', 'surgeon', 'ostler', 
+    'watchman', 'shearer', 'patternmaker', 'architect', 'surveyor', 'dentist', 'shipper', 
+    'weigher', 'sheet wghr', 'groundsman', 'mason\'s labr', 'glass worker', 'glass blowr', 
+    'glass blower', 'brick bnr', 'gas worker', 'bottle blowr', 'coach builder', 'cr.driver', 
+    'boilerm\'r', 'trim\'r', 'bootmakr', 'blksmith', 'engine dvr.', 'engine driver', 
+    'dock police', 'glasswkr', 'ironmkr', 'collier', 'miners\' agent', 'p.c.', 'b.t.',
+    'brass finisher', 'rivetter', 'riveter', 'horseshoer', 'wood turner', 'optician',
+    'fishmonger', 'beer retailer', 'publican', 'innkeeper', 'waiter', 'sugar boiler',
+    'telegraphist', 'typewriter', 'nurse', 'midwife', 'cinematograph operator',
+    'taxi drivr', 'brewery hd', 'fish bar', 'marine stores'
+]
+
+TRADE_REGEX_SPLIT = re.compile(
+    r'\b(' + '|'.join(re.escape(t) for t in sorted(KNOWN_TRADE_KEYWORDS, key=len, reverse=True)) + r')\b',
+    re.I
+)
+
+NAME_TOKENS = {
+    'john', 'mary', 'elizabeth', 'james', 'ann', 'anne', 'george', 'william', 
+    'thomas', 'david', 'henry', 'sarah', 'jane', 'charles', 'margaret', 'robert', 
+    'edward', 'arthur', 'richard', 'joseph', 'samuel', 'frederick', 'alfred', 
+    'ellen', 'alice', 'hannah', 'emma', 'martha', 'florence', 'annie', 'edith', 
+    'walter', 'albert', 'frank', 'herbert', 'ernest', 'harry', 'harold', 'percy', 
+    'sidney', 'sydney', 'edgar', 'clarence', 'emily', 'louisa', 'jno', 'hy', 'wm', 'thos', 'chas', 'edwd', 'geo',
+    'e.', 'a.', 'j.', 'h.', 'w.', 'c.', 'g.', 'm.', 'r.', 't.', 'f.', 's.', 'lydia', 'albt'
+}
 
 CROSS_STREET_PAT = re.compile(
     r'\b(?:avenue|st|street|rd|road|lane|place|terrace|hill|way|drive|crescent|cres|cres\.|parade|pde|av|av\.)\b.*?\bto\b.*?\b(?:avenue|st|street|rd|road|lane|place|terrace|hill|way|drive|crescent|cres|cres\.|parade|pde|av|av\.|square)\b'
@@ -137,7 +188,9 @@ def is_valid_street_name(s):
         "TEMPERANCE COTTAGES", "NEW TERRITORIAL DRILL", "MARSHES HALL", "NORTH STREET MEETING",
         "PENYLAN MISSION ROOM", "PILLGWENLLY WESLEYAN", "PUBLIC PARK", "FOR GOOD SHIRT AND COLLAR DRESSING",
         "KINDLY SERVICE THE KEYNOTE OF THIS ESTABLISHMENT", "WOODLAND STREET DIRECTORY",
-        "CALL OFFICE", "TELEPHONE CALL OFFICE"
+        "CALL OFFICE", "TELEPHONE CALL OFFICE",
+        "G.W.R.", "G.W.R", "GWR", "TOP FLOOR", "1ST FLOOR", "2ND FLOOR", "3RD FLOOR",
+        "HOLY TRINITY CHURCH"
     }
     norm_clean = re.sub(r'[^A-Z0-9\s]', '', s_clean).strip()
     if norm_clean in {re.sub(r'[^A-Z0-9\s]', '', h) for h in ignored_headers}:
@@ -156,6 +209,7 @@ def is_valid_street_name(s):
 def parse_tsv(input_path, output_path):
     records = []
     current_street = ""
+    pending_h_num = ""
     
     with open(input_path, "r", encoding="utf-8") as f:
         for line_num, line in enumerate(f, start=1):
@@ -176,6 +230,7 @@ def parse_tsv(input_path, output_path):
             matched_street_name = ""
             page_abbrev_map = {
                 "FAI": "FAIROAK TERRACE",
+                "POT": "POTTER STREET",
             }
             col0_upper = col0.upper().strip()
             if "BISHOPGATE PAR" in col0_upper or "BISHOPSGATE PAR" in col0_upper:
@@ -194,6 +249,12 @@ def parse_tsv(input_path, output_path):
                 s_clean = re.sub(r'\b(?:from|to|off)\s+.*', '', s_clean, flags=re.I).strip()
                 s_clean = re.sub(r'[\(\[].*?[\)\]]', '', s_clean, flags=re.I).strip()
                 current_street = clean_street_name(s_clean)
+                pending_h_num = ""
+                continue
+                
+            # If line is just a house number alone on its own line (e.g. on High Street)
+            if re.match(r'^\d+[A-Za-z]?$', col0) and not any(p for p in parts[1:]):
+                pending_h_num = col0
                 continue
                 
             # Combine all non-empty columns with a space to check cross-street descriptions
@@ -230,6 +291,64 @@ def parse_tsv(input_path, output_path):
             bldg = parts[4]
             notes = parts[5]
             
+            # Use pending house number if this line has text without a house number
+            if pending_h_num:
+                if not h_num or not re.match(r'^\d+[A-Za-z]?$', h_num):
+                    if not surname and not forename and not trade:
+                        combined = col0
+                        if ',' in combined:
+                            name_part, trade_part = combined.split(',', 1)
+                            trade = trade_part.strip()
+                            name_parts = name_part.strip().split(maxsplit=1)
+                            if len(name_parts) == 2:
+                                surname = name_parts[0]
+                                forename = name_parts[1]
+                            else:
+                                surname = name_part.strip()
+                        elif '—' in combined:
+                            bldg_part, name_part = combined.split('—', 1)
+                            bldg = bldg_part.strip()
+                            surname = name_part.strip()
+                        else:
+                            name_parts = combined.split(maxsplit=1)
+                            if len(name_parts) == 2:
+                                surname = name_parts[0]
+                                forename = name_parts[1]
+                            else:
+                                surname = combined
+                    h_num = pending_h_num
+                pending_h_num = ""
+
+            # Handle col0 having house number and resident text combined (e.g. "3 Bees George F., Old Green Hotel")
+            if h_num and not surname and not forename and not trade and not re.match(r'^\d+[a-zA-Z]?$', h_num):
+                m_num = re.match(r'^(\d+[A-Za-z]?)\s+(.*)$', h_num)
+                if m_num:
+                    h_num = m_num.group(1)
+                    combined = m_num.group(2).strip()
+                else:
+                    combined = h_num.strip()
+                    h_num = ""
+                if ',' in combined:
+                    name_part, trade_part = combined.split(',', 1)
+                    trade = trade_part.strip()
+                    name_parts = name_part.strip().split(maxsplit=1)
+                    if len(name_parts) == 2:
+                        surname = name_parts[0]
+                        forename = name_parts[1]
+                    else:
+                        surname = name_part.strip()
+                elif '—' in combined:
+                    bldg_part, name_part = combined.split('—', 1)
+                    bldg = bldg_part.strip()
+                    surname = name_part.strip()
+                else:
+                    name_parts = combined.split(maxsplit=1)
+                    if len(name_parts) == 2:
+                        surname = name_parts[0]
+                        forename = name_parts[1]
+                    else:
+                        surname = combined
+            
             # Post-process: If the row has no surname and no trade, but has a forename,
             # it means the model did not separate columns with tabs. Let's split it.
             if not surname and not trade and forename:
@@ -254,6 +373,79 @@ def parse_tsv(input_path, output_path):
                         forename = ""
                     trade = ""
             
+            # Smart column resolution for 1920:
+            # Case 1: 2-column format with comma in parts[1], e.g. 'Bowen Henry, \t labourer'
+            if (parts[1].endswith(',') or ',' in parts[1]) and parts[2] and not parts[3]:
+                raw_np = parts[1].strip(' ,')
+                if ',' in raw_np:
+                    s, fo = [x.strip() for x in raw_np.split(',', 1)]
+                    surname, forename = s, fo
+                elif ' ' in raw_np:
+                    tokens = raw_np.split()
+                    surname = tokens[0]
+                    forename = ' '.join(tokens[1:])
+                else:
+                    surname = raw_np
+                    forename = ''
+                trade = parts[2].strip()
+                
+            # Case 2: Title in parts[2] (e.g. 'Williams \t Mrs. \t Lydia' or 'Ware \t Mrs. \t J.')
+            elif parts[2].lower().rstrip('.') in COMMON_TITLES:
+                surname = parts[1]
+                fn_tokens = [parts[2]]
+                trade = ''
+                if parts[3]:
+                    if TRADE_REGEX_SPLIT.search(parts[3]) and not any(parts[3].lower().strip('. ') in NAME_TOKENS for _ in [1]):
+                        trade = parts[3]
+                    else:
+                        fn_tokens.append(parts[3])
+                        if parts[4]:
+                            if TRADE_REGEX_SPLIT.search(parts[4]):
+                                trade = parts[4]
+                            else:
+                                fn_tokens.append(parts[4])
+                forename = ' '.join(fn_tokens).strip()
+                if not trade and parts[4] and parts[4] not in fn_tokens:
+                    trade = parts[4]
+                    
+            # Case 3: Standard parts[1], parts[2], parts[3]
+            elif parts[1] or parts[2] or parts[3]:
+                surname = parts[1]
+                forename = parts[2]
+                trade = parts[3]
+                
+                # Check if parts[3] is an initial or forename (e.g. 'Rosser \t Henry \t E.' or 'Lawrence \t George \t James' or 'Woodridge \t Albert \t Wm. \t groundsman')
+                if trade and (len(trade.strip('.')) <= 2 or trade.lower().strip('.') in NAME_TOKENS):
+                    if not TRADE_REGEX_SPLIT.search(trade):
+                        forename = f"{forename} {trade}".strip()
+                        trade = parts[4] if len(parts) > 4 and parts[4] else ""
+                        
+                # Check if trade has an initial prefix like 'G., taxi drivr' or 'Fdk., fireman'
+                if trade and ',' in trade:
+                    p_init, p_tr = [x.strip() for x in trade.split(',', 1)]
+                    if len(p_init.strip('.')) <= 3 or p_init.lower().strip('.') in NAME_TOKENS:
+                        forename = f"{forename} {p_init}".strip()
+                        trade = p_tr
+                        
+                # Check if forename contains an occupational word
+                if forename:
+                    if ',' in forename:
+                        fo, tr = [x.strip() for x in forename.split(',', 1)]
+                        forename = fo
+                        if not trade:
+                            trade = tr
+                        else:
+                            trade = f"{tr}, {trade}".strip(' ,')
+                    else:
+                        m_tr = TRADE_REGEX_SPLIT.search(forename)
+                        if m_tr:
+                            found_tr = m_tr.group(0)
+                            forename = forename[:m_tr.start()].strip(' ,.-')
+                            if not trade:
+                                trade = found_tr
+                            else:
+                                trade = f"{found_tr}, {trade}".strip(' ,')
+
             # General cleanup: If there is a comma in forename or surname, extract the trade
             if forename and ',' in forename:
                 forename_part, trade_part = forename.split(',', 1)
