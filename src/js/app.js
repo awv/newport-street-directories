@@ -453,6 +453,8 @@ function toggleMobileSidebar() {
         if (u === 'G.W.R.' || u === 'G.W.R') return 'G.W.R.';
         if (u === 'G.P.O.' || u === 'G.P.O') return 'G.P.O.';
         if (u === 'H.M.C.' || u === 'H.M.C') return 'H.M.C.';
+        if (u === "H.M.'S" || u === "H.M'S") return "H.M.'s";
+        if (u === 'H.M.' || u === 'H.M') return 'H.M.';
         if (u === 'J.P.' || u === 'J.P') return 'J.P.';
         if (u === 'R.A.' || u === 'R.A') return 'R.A.';
         if (u === 'R.N.' || u === 'R.N') return 'R.N.';

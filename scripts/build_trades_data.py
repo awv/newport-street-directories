@@ -71,7 +71,9 @@ def to_title_case(text):
     words = text.split()
     clean_words = []
     for w in words:
-        if w.upper() in ('G.W.R.', 'G.W.R', 'G.P.O.', 'GPO', 'P.C.', 'H.M.C.'):
+        if w.upper() in ("H.M.'S", "H.M'S"):
+            clean_words.append("H.M.'s")
+        elif w.upper() in ('G.W.R.', 'G.W.R', 'G.P.O.', 'GPO', 'P.C.', 'H.M.C.', 'H.M.', 'H.M'):
             clean_words.append(w.upper())
         elif w.lower() in ('and', 'of', '&', 'for', 'the', 'in', 'at'):
             clean_words.append(w.lower() if clean_words else w.capitalize())

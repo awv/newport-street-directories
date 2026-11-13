@@ -6,7 +6,7 @@
     "total_streets": 1029,
     "total_years": 27,
     "years_span": "1876\u20131936",
-    "unique_trade_strings": 25488
+    "unique_trade_strings": 25451
   },
   "yearly_overview": [
     {
@@ -2397,7 +2397,7 @@
       },
       {
         "street": "High Street",
-        "count": 96,
+        "count": 97,
         "total": 2781,
         "pct": 3.5
       },
@@ -2409,7 +2409,7 @@
       },
       {
         "street": "Dock Street",
-        "count": 62,
+        "count": 63,
         "total": 4193,
         "pct": 1.5
       },
@@ -2427,9 +2427,9 @@
       },
       {
         "street": "Morden Road",
-        "count": 45,
+        "count": 47,
         "total": 742,
-        "pct": 6.1
+        "pct": 6.3
       },
       {
         "street": "Commercial Road",
