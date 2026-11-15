@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>House History Dossier — Newport Street Directory Archive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <link rel="stylesheet" href="src/styles/main.css">
+  <style>
+    :root {
+      --heading-font: 'Cormorant Garamond', Georgia, serif;
+      --sans-font: 'Inter', system-ui, -apple-system, sans-serif;
+      --accent: #B48214;
+      --accent-hover: #8F650D;
+      --accent-light: #FFFBEB;
+      --accent-border: #FDE68A;
+      --border-color: #E2E8F0;
+      --text-secondary: #475569;
+      --text-muted: #64748B;
+    }
+
+    body {
+      font-family: var(--sans-font);
+      background: #F8FAFC;
+      color: #0F172A;
+      margin: 0;
+    }
+
+    .dossier-shell {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 2rem 1.75rem 3.5rem;
+    }
+
+    .dossier-hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .dossier-hero h1 {
+      font-family: var(--heading-font);
+      font-size: 2.35rem;
+      font-weight: 700;
+      margin: 0;
+      color: #0F172A;
+      line-height: 1.1;
+    }
+
+    .dossier-hero p {
+      margin: 0.35rem 0 0;
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+    }
+
+    .search-card {
+      background: #FFFFFF;
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 1px 3px rgba(15, 23, 42, 0.03);
+    }
+
+    .address-form {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr auto;
+      gap: 0.9rem;
+      align-items: end;
+    }
+
+    @media (max-width: 780px) {
+      .address-form {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .field-group {
+      position: relative;
+    }
+
+    .field-group label {
+      display: block;
+      font-size: 0.78rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--text-secondary);
+      margin-bottom: 0.35rem;
+    }
+
+    .field-group input {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 0.6rem 0.85rem;
+      border: 1px solid #CBD5E1;
+      border-radius: 8px;
+      font-family: var(--sans-font);
+      font-size: 0.92rem;
+      color: #0F172A;
+      background: #FFFFFF;
+    }
+
+    .field-group input:focus {
+      outline: 2px solid var(--accent);
+      outline-offset: 1px;
+    }
+
+    .typeahead-menu {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: calc(100% + 4px);
+      background: #FFFFFF;
+      border: 1px solid #CBD5E1;
+      border-radius: 8px;
+      box-shadow: 0 10px 25px rgba(15, 23, 42, 0.12);
+      max-height: 260px;
+      overflow-y: auto;
+      z-index: 50;
+    }
+
+    .typeahead-item {
+      width: 100%;
+      text-align: left;
+      background: none;
+      border: none;
+      border-bottom: 1px solid #F1F5F9;
+      padding: 0.5rem 0.8rem;
+      font-family: var(--sans-font);
+      font-size: 0.88rem;
+      color: #0F172A;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .typeahead-item:hover,
+    .typeahead-item.active {
+      background: var(--accent-light);
+      color: var(--accent-hover);
+    }
+
+    .typeahead-meta {
+      font-size: 0.76rem;
+      color: var(--text-muted);
+      white-space: nowrap;
+    }
+
+    .btn-primary, .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.45rem;
+      padding: 0.62rem 1.15rem;
+      border-radius: 8px;
+      font-family: var(--sans-font);
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      border: 1px solid transparent;
+      text-decoration: none;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: #FFFFFF;
+    }
+
+    .btn-primary:hover {
+      background: var(--accent-hover);
+    }
+
+    .btn-secondary {
+      background: #FFFFFF;
+      color: #0F172A;
+      border-color: #CBD5E1;
+    }
+
+    .btn-secondary:hover {
+      background: #F1F5F9;
+    }
+
+    .quick-examples {
+      margin-top: 0.75rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.45rem;
+      align-items: center;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .example-pill {
+      background: #F1F5F9;
+      border: 1px solid #E2E8F0;
+      border-radius: 999px;
+      padding: 0.2rem 0.65rem;
+      font-size: 0.78rem;
+      color: #334155;
+      cursor: pointer;
+    }
+
+    .example-pill:hover {
+      background: var(--accent-light);
+      border-color: var(--accent-border);
+      color: var(--accent-hover);
+    }
+
+    .dossier-paper {
+      background: #FFFFFF;
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 2px 6px rgba(15, 23, 42, 0.04);
+    }
+
+    .dossier-banner {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 1rem;
+      padding-bottom: 1.25rem;
+      border-bottom: 2px solid #0F172A;
+      margin-bottom: 1.5rem;
+    }
+
+    .dossier-kicker {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent-hover);
+      margin-bottom: 0.25rem;
+    }
+
+    .dossier-title {
+      font-family: var(--heading-font);
+      font-size: 2.2rem;
+      font-weight: 700;
+      margin: 0;
+      color: #0F172A;
+    }
+
+    .dossier-subtitle {
+      margin: 0.3rem 0 0;
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+    }
+
+    .kpi-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 0.9rem;
+      margin-bottom: 1.75rem;
+    }
+
+    .kpi-mini {
+      background: #F8FAFC;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 0.85rem 1rem;
+    }
+
+    .kpi-mini-label {
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    .kpi-mini-val {
+      font-family: var(--heading-font);
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: #0F172A;
+      margin-top: 0.2rem;
+    }
+
+    .kpi-mini-sub {
+      font-size: 0.78rem;
+      color: var(--text-secondary);
+      margin-top: 0.15rem;
+    }
+
+    .ledger-table-wrap {
+      overflow-x: auto;
+    }
+
+    .ledger-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+    }
+
+    .ledger-table th {
+      text-align: left;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-secondary);
+      border-bottom: 2px solid var(--border-color);
+      padding: 0.65rem 0.75rem;
+    }
+
+    .ledger-table td {
+      padding: 0.7rem 0.75rem;
+      border-bottom: 1px solid #F1F5F9;
+      vertical-align: top;
+    }
+
+    .ledger-year {
+      font-weight: 700;
+      color: #0F172A;
+      white-space: nowrap;
+      width: 72px;
+    }
+
+    .trade-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      background: var(--accent-light);
+      border: 1px solid var(--accent-border);
+      color: #78350F;
+      padding: 0.18rem 0.55rem;
+      border-radius: 6px;
+      font-size: 0.82rem;
+      font-weight: 500;
+    }
+
+    .trade-inline-def {
+      display: block;
+      margin-top: 0.25rem;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      line-height: 1.4;
+    }
+
+    .glossary-section {
+      margin-top: 2rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--border-color);
+    }
+
+    .glossary-section h3 {
+      font-family: var(--heading-font);
+      font-size: 1.45rem;
+      margin: 0 0 0.75rem;
+      color: #0F172A;
+    }
+
+    .glossary-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 0.75rem;
+    }
+
+    .glossary-item {
+      background: #F8FAFC;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 0.75rem 0.9rem;
+      break-inside: avoid;
+    }
+
+    .glossary-item strong {
+      color: #0F172A;
+      font-size: 0.88rem;
+    }
+
+    .glossary-item span.sector-tag {
+      font-size: 0.72rem;
+      color: var(--accent-hover);
+      margin-left: 0.35rem;
+    }
+
+    .glossary-item p {
+      margin: 0.25rem 0 0;
+      font-size: 0.82rem;
+      color: var(--text-secondary);
+      line-height: 1.45;
+    }
+
+    .dossier-footer-note {
+      margin-top: 1.5rem;
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      border-top: 1px dashed var(--border-color);
+      padding-top: 0.75rem;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    @page {
+      size: A4;
+      margin: 14mm;
+    }
+
+    @media print {
+      body {
+        background: #FFFFFF !important;
+      }
+      .no-print {
+        display: none !important;
+      }
+      .dossier-shell {
+        padding: 0 !important;
+        max-width: 100% !important;
+      }
+      .dossier-paper {
+        border: none !important;
+        box-shadow: none !important;
+        padding: 0 !important;
+      }
+      .ledger-table tr {
+        break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="dossier-shell">
+    <header class="dossier-hero no-print">
+      <div>
+        <a href="index.html" style="font-size: 0.85rem; color: var(--accent-hover); text-decoration: none; font-weight: 600;">← Back to Newport Directory Ledger</a>
+        <h1>House History Dossier</h1>
+        <p>Search any individual Newport address across historic Johns Directories (1878–1936) and print an archival PDF summary.</p>
+      </div>
+      <div>
+        <button type="button" id="print-pdf-btn" class="btn-primary" hidden>
+          <i class="ph ph-printer"></i>
+          <span>Print / Save as PDF</span>
+        </button>
+      </div>
+    </header>
+
+    <section class="search-card no-print" aria-label="Address lookup">
+      <form id="address-form" class="address-form">
+        <div class="field-group">
+          <label for="street-input">Street Name</label>
+          <input type="text" id="street-input" placeholder="Type to search 901 streets (e.g. Stow Hill)..." required autocomplete="off" aria-autocomplete="list" aria-expanded="false" aria-controls="street-menu">
+          <div id="street-menu" class="typeahead-menu" role="listbox" hidden></div>
+        </div>
+        <div class="field-group">
+          <label for="number-input">House Number or Building Name</label>
+          <input type="text" id="number-input" placeholder="Pick or type a number (e.g. 14, 14A)..." required autocomplete="off" aria-autocomplete="list" aria-expanded="false" aria-controls="number-menu">
+          <div id="number-menu" class="typeahead-menu" role="listbox" hidden></div>
+        </div>
+        <button type="submit" class="btn-primary">
+          <i class="ph ph-magnifying-glass"></i>
+          <span>Build Dossier</span>
+        </button>
+      </form>
+      <div class="quick-examples">
+        <span>Try an example:</span>
+        <button type="button" class="example-pill" data-street="St. Julian Street" data-number="12">12 St. Julian Street</button>
+        <button type="button" class="example-pill" data-street="Stow Hill" data-number="103">103 Stow Hill</button>
+        <button type="button" class="example-pill" data-street="Commercial Street" data-number="162">162 Commercial Street</button>
+        <button type="button" class="example-pill" data-street="Railway Street" data-number="19">19 Railway Street</button>
+      </div>
+    </section>
+
+    <article id="dossier-paper" class="dossier-paper" hidden>
+      <div class="dossier-banner">
+        <div>
+          <div class="dossier-kicker">Newport Street Directory Archive • Property Dossier</div>
+          <h2 id="dossier-address-title" class="dossier-title"></h2>
+          <p id="dossier-address-subtitle" class="dossier-subtitle"></p>
+        </div>
+        <div class="no-print" style="display:flex; gap:0.5rem;">
+          <a id="open-street-link" href="index.html" class="btn-secondary">
+            <i class="ph ph-books"></i>
+            <span>Full Street Ledger</span>
+          </a>
+        </div>
+      </div>
+
+      <div id="dossier-kpis" class="kpi-strip"></div>
+
+      <div class="ledger-table-wrap">
+        <table class="ledger-table" aria-label="Chronological residents at this address">
+          <thead>
+            <tr>
+              <th scope="col">Year</th>
+              <th scope="col">Occupant / Household</th>
+              <th scope="col">Occupation &amp; Context</th>
+              <th scope="col">Building / Notes</th>
+            </tr>
+          </thead>
+          <tbody id="dossier-tbody"></tbody>
+        </table>
+      </div>
+
+      <section id="dossier-glossary" class="glossary-section" hidden>
+        <h3>Glossary of Historical Trades Mentioned</h3>
+        <div id="glossary-grid" class="glossary-grid"></div>
+      </section>
+
+      <div class="dossier-footer-note">
+        <span>Compiled from Johns's Newport Street Directories (1878–1936).</span>
+        <span id="dossier-generated-date"></span>
+      </div>
+    </article>
+
+    <div id="empty-state" class="search-card" style="text-align:center; color:var(--text-secondary); padding: 2.5rem 1.5rem;">
+      Choose a street and house number above to generate its chronological resident dossier and printable PDF.
+    </div>
+  </main>
+
+  <script>
+    let STREETS_LIST = [];
+    let TRADE_GLOSSARY = {};
+    let CURRENT_STREET_DATA = null;
+    let STREET_NUMBERS_LIST = [];
+
+    function normText(val) {
+      return (val || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+    }
+
+    function normNum(val) {
+      return (val || '').trim().toLowerCase().replace(/\s+/g, '');
+    }
+
+    function lookupTradeDef(rawTrade) {
+      const t = (rawTrade || '').trim().replace(/[.,;]+$/, '');
+      if (!t) return null;
+      const low = t.toLowerCase();
+      if (TRADE_GLOSSARY[low]) return TRADE_GLOSSARY[low];
+      if (low.endsWith('s') && TRADE_GLOSSARY[low.slice(0, -1)]) return TRADE_GLOSSARY[low.slice(0, -1)];
+      if (low.endsWith('es') && TRADE_GLOSSARY[low.slice(0, -2)]) return TRADE_GLOSSARY[low.slice(0, -2)];
+      const words = low.split(/[\s,&/]+/).filter(Boolean);
+      for (let i = 0; i < words.length - 1; i++) {
+        const pair = `${words[i]} ${words[i + 1]}`;
+        if (TRADE_GLOSSARY[pair]) return TRADE_GLOSSARY[pair];
+      }
+      for (let i = words.length - 1; i >= 0; i--) {
+        const w = words[i];
+        if (w.length >= 4 && TRADE_GLOSSARY[w]) return TRADE_GLOSSARY[w];
+        if (w.endsWith('s') && w.length >= 5 && TRADE_GLOSSARY[w.slice(0, -1)]) return TRADE_GLOSSARY[w.slice(0, -1)];
+      }
+      return null;
+    }
+
+    function findStreetMatch(query) {
+      const qRaw = (query || '').trim().toLowerCase();
+      const qNorm = normText(query);
+      if (!qRaw) return null;
+      return STREETS_LIST.find(s => s.displayName.toLowerCase() === qRaw)
+        || STREETS_LIST.find(s => normText(s.displayName) === qNorm)
+        || STREETS_LIST.find(s => s.displayName.toLowerCase().startsWith(qRaw))
+        || STREETS_LIST.find(s => normText(s.displayName).includes(qNorm));
+    }
+
+    function renderStreetMenu(query) {
+      const menu = document.getElementById('street-menu');
+      const input = document.getElementById('street-input');
+      const q = (query || '').trim().toLowerCase();
+      const qNorm = normText(query);
+      const matches = !q
+        ? STREETS_LIST.slice().sort((a, b) => (b.recordsCount || 0) - (a.recordsCount || 0)).slice(0, 25)
+        : STREETS_LIST.filter(s => s.displayName.toLowerCase().includes(q) || normText(s.displayName).includes(qNorm))
+            .sort((a, b) => {
+              const aStart = a.displayName.toLowerCase().startsWith(q) ? 0 : 1;
+              const bStart = b.displayName.toLowerCase().startsWith(q) ? 0 : 1;
+              if (aStart !== bStart) return aStart - bStart;
+              return (b.recordsCount || 0) - (a.recordsCount || 0);
+            })
+            .slice(0, 30);
+
+      if (!matches.length) {
+        menu.innerHTML = `<div class="typeahead-item" style="color:var(--text-muted); cursor:default;">No matching streets</div>`;
+      } else {
+        menu.innerHTML = matches.map(s => `
+          <button type="button" class="typeahead-item" role="option" data-street="${s.displayName}">
+            <span>${s.displayName}</span>
+            <span class="typeahead-meta">${(s.recordsCount || 0).toLocaleString()} entries</span>
+          </button>
+        `).join('');
+      }
+      menu.hidden = false;
+      input.setAttribute('aria-expanded', 'true');
+    }
+
+    function renderNumberMenu(query) {
+      const menu = document.getElementById('number-menu');
+      const input = document.getElementById('number-input');
+      if (!STREET_NUMBERS_LIST.length) {
+        menu.hidden = true;
+        input.setAttribute('aria-expanded', 'false');
+        return;
+      }
+      const q = (query || '').trim().toLowerCase();
+      const matches = !q
+        ? STREET_NUMBERS_LIST.slice(0, 40)
+        : STREET_NUMBERS_LIST.filter(item => item.label.toLowerCase().includes(q)).slice(0, 40);
+
+      if (!matches.length) {
+        menu.innerHTML = `<div class="typeahead-item" style="color:var(--text-muted); cursor:default;">No matching number on this street</div>`;
+      } else {
+        menu.innerHTML = matches.map(item => `
+          <button type="button" class="typeahead-item" role="option" data-number="${item.label}">
+            <span>${item.label}</span>
+            <span class="typeahead-meta">${item.count} ${item.count === 1 ? 'entry' : 'entries'}</span>
+          </button>
+        `).join('');
+      }
+      menu.hidden = false;
+      input.setAttribute('aria-expanded', 'true');
+    }
+
+    async function populateStreetNumbers(streetName) {
+      const match = findStreetMatch(streetName);
+      if (!match) {
+        STREET_NUMBERS_LIST = [];
+        return null;
+      }
+      if (!CURRENT_STREET_DATA || CURRENT_STREET_DATA.slug !== match.slug) {
+        const res = await fetch(`data/streets/${match.slug}.json`);
+        CURRENT_STREET_DATA = await res.json();
+      }
+      const counts = new Map();
+      (CURRENT_STREET_DATA.records || []).forEach(r => {
+        const key = (r.house_number && r.house_number.trim()) ? r.house_number.trim() : (r.building_name || '').trim();
+        if (key) counts.set(key, (counts.get(key) || 0) + 1);
+      });
+      STREET_NUMBERS_LIST = Array.from(counts.entries())
+        .map(([label, count]) => ({ label, count }))
+        .sort((a, b) => {
+          const na = parseInt(a.label, 10), nb = parseInt(b.label, 10);
+          if (!isNaN(na) && !isNaN(nb) && na !== nb) return na - nb;
+          return a.label.localeCompare(b.label);
+        });
+      return match;
+    }
+
+    async function renderDossier(streetName, queryVal) {
+      const match = await populateStreetNumbers(streetName);
+      if (!match || !CURRENT_STREET_DATA) {
+        alert(`Street "${streetName}" was not found in the directory index.`);
+        return;
+      }
+      document.getElementById('street-input').value = match.displayName;
+
+      const targetNorm = normNum(queryVal);
+      const qLower = queryVal.trim().toLowerCase();
+      const matched = (CURRENT_STREET_DATA.records || []).filter(r => {
+        const hn = normNum(r.house_number);
+        const bn = (r.building_name || '').trim().toLowerCase();
+        return (hn && hn === targetNorm) || (bn && bn === qLower);
+      }).sort((a, b) => Number(a.year) - Number(b.year));
+
+      const paperEl = document.getElementById('dossier-paper');
+      const emptyEl = document.getElementById('empty-state');
+      const printBtn = document.getElementById('print-pdf-btn');
+
+      if (matched.length === 0) {
+        paperEl.hidden = true;
+        printBtn.hidden = true;
+        emptyEl.hidden = false;
+        emptyEl.innerHTML = `No directory records found for <strong>${queryVal}</strong> on <strong>${match.displayName}</strong>. Click the House Number field to pick from ${STREET_NUMBERS_LIST.length} recorded addresses.`;
+        return;
+      }
+
+      const url = new URL(window.location);
+      url.searchParams.set('street', match.displayName);
+      url.searchParams.set('number', queryVal.trim());
+      window.history.replaceState({}, '', url);
+
+      emptyEl.hidden = true;
+      paperEl.hidden = false;
+      printBtn.hidden = false;
+
+      const isNumeric = /^\d/.test(queryVal.trim());
+      document.getElementById('dossier-address-title').innerText = isNumeric
+        ? `${queryVal.trim()} ${match.displayName}`
+        : `${queryVal.trim()}, ${match.displayName}`;
+
+      const years = matched.map(r => Number(r.year));
+      const minY = Math.min(...years);
+      const maxY = Math.max(...years);
+      const formerNote = match.formerNames && match.formerNames.length
+        ? ` • Also indexed under: ${match.formerNames.join(', ')}`
+        : '';
+      document.getElementById('dossier-address-subtitle').innerText =
+        `Newport, Monmouthshire • Recorded across ${matched.length} directory entries (${minY}–${maxY})${formerNote}`;
+      document.getElementById('open-street-link').href = `index.html#street=${encodeURIComponent(match.displayName)}`;
+
+      const surnameCounts = {};
+      matched.forEach(r => {
+        const sn = (r.surname || '').trim();
+        if (sn && sn.toLowerCase() !== 'void') {
+          surnameCounts[sn] = (surnameCounts[sn] || 0) + 1;
+        }
+      });
+      const topFamily = Object.entries(surnameCounts).sort((a, b) => b[1] - a[1])[0];
+      const voidCount = matched.filter(r => (r.trade || '').toLowerCase() === 'void' || (r.surname || '').toLowerCase() === 'void').length;
+
+      document.getElementById('dossier-kpis').innerHTML = `
+        <div class="kpi-mini">
+          <div class="kpi-mini-label">Recorded Span</div>
+          <div class="kpi-mini-val">${minY}–${maxY}</div>
+          <div class="kpi-mini-sub">${matched.length} directory appearances</div>
+        </div>
+        <div class="kpi-mini">
+          <div class="kpi-mini-label">Distinct Surnames</div>
+          <div class="kpi-mini-val">${Object.keys(surnameCounts).length}</div>
+          <div class="kpi-mini-sub">${voidCount ? `${voidCount} vacant ("Void") entries` : 'Continuous occupancy'}</div>
+        </div>
+        <div class="kpi-mini">
+          <div class="kpi-mini-label">Longest-Standing Name</div>
+          <div class="kpi-mini-val">${topFamily ? topFamily[0] : '—'}</div>
+          <div class="kpi-mini-sub">${topFamily ? `Appears in ${topFamily[1]} volumes` : 'Commercial / unnamed'}</div>
+        </div>
+      `;
+
+      const usedGlossary = new Map();
+      document.getElementById('dossier-tbody').innerHTML = matched.map(r => {
+        const name = [r.forename, r.surname].filter(Boolean).join(' ').trim() || (r.building_name ? r.building_name : '—');
+        const trade = (r.trade || '').trim();
+        const def = lookupTradeDef(trade);
+        if (def && !usedGlossary.has(def.title)) {
+          usedGlossary.set(def.title, def);
+        }
+        const tradeHtml = trade
+          ? `<span class="trade-pill">${trade}</span>${def && def.summary ? `<span class="trade-inline-def">${def.summary}</span>` : ''}`
+          : '<span style="color:var(--text-muted);">—</span>';
+        const bldg = (r.building_name || '').trim();
+        return `
+          <tr>
+            <td class="ledger-year">${r.year}</td>
+            <td><strong>${name}</strong></td>
+            <td>${tradeHtml}</td>
+            <td style="color:var(--text-secondary);">${bldg || '—'}</td>
+          </tr>
+        `;
+      }).join('');
+
+      const glossarySec = document.getElementById('dossier-glossary');
+      const glossaryGrid = document.getElementById('glossary-grid');
+      glossarySec.hidden = false;
+      if (usedGlossary.size > 0) {
+        glossaryGrid.innerHTML = Array.from(usedGlossary.values()).map(g => `
+          <div class="glossary-item">
+            <strong>${g.title}</strong><span class="sector-tag">• ${g.sector}</span>
+            <p>${g.summary || ''}</p>
+          </div>
+        `).join('');
+      } else {
+        glossaryGrid.innerHTML = `<div style="color:var(--text-muted); font-size:0.85rem;">No historical trade terms from the glossary were recorded for this specific address.</div>`;
+      }
+
+      document.getElementById('dossier-generated-date').innerText = `Generated ${new Date().toLocaleDateString('en-GB', { year: 'numeric', month: 'short', day: 'numeric' })}`;
+    }
+
+    async function init() {
+      const [streetsRes, glossaryRes] = await Promise.all([
+        fetch('data/streets.json'),
+        fetch('data/trade_glossary.json').catch(() => null)
+      ]);
+      STREETS_LIST = await streetsRes.json();
+      if (glossaryRes && glossaryRes.ok) {
+        const gJson = await glossaryRes.json();
+        TRADE_GLOSSARY = gJson.trades || {};
+      }
+
+      const params = new URLSearchParams(window.location.search);
+      const stParam = params.get('street');
+      const numParam = params.get('number') || params.get('building');
+      if (stParam) {
+        document.getElementById('street-input').value = stParam;
+        await populateStreetNumbers(stParam);
+        if (numParam) {
+          document.getElementById('number-input').value = numParam;
+          renderDossier(stParam, numParam);
+        }
+      }
+    }
+
+    const streetInput = document.getElementById('street-input');
+    const streetMenu = document.getElementById('street-menu');
+    const numberInput = document.getElementById('number-input');
+    const numberMenu = document.getElementById('number-menu');
+
+    streetInput.addEventListener('focus', () => renderStreetMenu(streetInput.value));
+    streetInput.addEventListener('input', () => renderStreetMenu(streetInput.value));
+    streetMenu.addEventListener('click', async (e) => {
+      const btn = e.target.closest('.typeahead-item[data-street]');
+      if (!btn) return;
+      streetInput.value = btn.dataset.street;
+      streetMenu.hidden = true;
+      streetInput.setAttribute('aria-expanded', 'false');
+      numberInput.value = '';
+      await populateStreetNumbers(btn.dataset.street);
+      numberInput.focus();
+      renderNumberMenu('');
+    });
+
+    numberInput.addEventListener('focus', async () => {
+      if (!CURRENT_STREET_DATA && streetInput.value.trim()) {
+        await populateStreetNumbers(streetInput.value);
+      }
+      renderNumberMenu(numberInput.value);
+    });
+    numberInput.addEventListener('input', () => renderNumberMenu(numberInput.value));
+    numberMenu.addEventListener('click', (e) => {
+      const btn = e.target.closest('.typeahead-item[data-number]');
+      if (!btn) return;
+      numberInput.value = btn.dataset.number;
+      numberMenu.hidden = true;
+      numberInput.setAttribute('aria-expanded', 'false');
+      renderDossier(streetInput.value, btn.dataset.number);
+    });
+
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('.field-group')) {
+        streetMenu.hidden = true;
+        streetInput.setAttribute('aria-expanded', 'false');
+        numberMenu.hidden = true;
+        numberInput.setAttribute('aria-expanded', 'false');
+      }
+    });
+
+    document.getElementById('address-form').addEventListener('submit', (e) => {
+      e.preventDefault();
+      streetMenu.hidden = true;
+      numberMenu.hidden = true;
+      if (streetInput.value && numberInput.value) {
+        renderDossier(streetInput.value, numberInput.value);
+      }
+    });
+
+    document.querySelectorAll('.example-pill').forEach(btn => {
+      btn.addEventListener('click', () => {
+        streetInput.value = btn.dataset.street;
+        numberInput.value = btn.dataset.number;
+        renderDossier(btn.dataset.street, btn.dataset.number);
+      });
+    });
+
+    document.getElementById('print-pdf-btn').addEventListener('click', () => window.print());
+
+    init();
+  </script>
+</body>
+</html>
