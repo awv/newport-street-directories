@@ -6,7 +6,7 @@
     "total_streets": 952,
     "total_years": 29,
     "years_span": "1876\u20131936",
-    "unique_trade_strings": 25093
+    "unique_trade_strings": 24972
   },
   "yearly_overview": [
     {
@@ -178,7 +178,7 @@
       "pct": 67.3,
       "streets_count": 412,
       "trades_in_names": 10,
-      "names_in_trades": 44
+      "names_in_trades": 43
     },
     {
       "year": "1910",
@@ -223,7 +223,7 @@
       "pct": 51.8,
       "streets_count": 570,
       "trades_in_names": 15,
-      "names_in_trades": 543
+      "names_in_trades": 542
     },
     {
       "year": "1920",
@@ -241,7 +241,7 @@
       "pct": 61.2,
       "streets_count": 503,
       "trades_in_names": 11,
-      "names_in_trades": 21
+      "names_in_trades": 20
     },
     {
       "year": "1925",
@@ -250,7 +250,7 @@
       "pct": 61.3,
       "streets_count": 514,
       "trades_in_names": 9,
-      "names_in_trades": 24
+      "names_in_trades": 23
     },
     {
       "year": "1927",
@@ -259,7 +259,7 @@
       "pct": 64.6,
       "streets_count": 527,
       "trades_in_names": 9,
-      "names_in_trades": 42
+      "names_in_trades": 41
     },
     {
       "year": "1936",
@@ -268,7 +268,7 @@
       "pct": 56.9,
       "streets_count": 521,
       "trades_in_names": 3,
-      "names_in_trades": 33
+      "names_in_trades": 32
     }
   ],
   "street_expansion": [
@@ -615,55 +615,55 @@
     ],
     "by_decade": {
       "1870s": {
-        "Docks & Maritime": 259,
+        "Docks & Maritime": 260,
         "Iron & Heavy Industry": 192,
         "Building & Timber": 368,
         "Transport & Rail": 195,
-        "Retail & Hospitality": 380,
+        "Retail & Hospitality": 382,
         "Clerical & Professional": 249
       },
       "1880s": {
         "Docks & Maritime": 1294,
         "Iron & Heavy Industry": 955,
         "Building & Timber": 1540,
-        "Transport & Rail": 1048,
+        "Transport & Rail": 1054,
         "Retail & Hospitality": 1466,
         "Clerical & Professional": 805
       },
       "1890s": {
-        "Docks & Maritime": 3875,
+        "Docks & Maritime": 3879,
         "Iron & Heavy Industry": 3424,
         "Building & Timber": 5841,
-        "Transport & Rail": 4229,
-        "Retail & Hospitality": 4608,
+        "Transport & Rail": 4228,
+        "Retail & Hospitality": 4610,
         "Clerical & Professional": 3121
       },
       "1900s": {
-        "Docks & Maritime": 3148,
-        "Iron & Heavy Industry": 4804,
+        "Docks & Maritime": 3183,
+        "Iron & Heavy Industry": 4808,
         "Building & Timber": 5691,
         "Transport & Rail": 5017,
-        "Retail & Hospitality": 4658,
+        "Retail & Hospitality": 4659,
         "Clerical & Professional": 2969
       },
       "1910s": {
-        "Docks & Maritime": 2217,
-        "Iron & Heavy Industry": 5566,
-        "Building & Timber": 3957,
-        "Transport & Rail": 4840,
-        "Retail & Hospitality": 3899,
+        "Docks & Maritime": 2331,
+        "Iron & Heavy Industry": 5581,
+        "Building & Timber": 3954,
+        "Transport & Rail": 4837,
+        "Retail & Hospitality": 3916,
         "Clerical & Professional": 2477
       },
       "1920s": {
-        "Docks & Maritime": 1963,
+        "Docks & Maritime": 2156,
         "Iron & Heavy Industry": 6465,
-        "Building & Timber": 3319,
+        "Building & Timber": 3318,
         "Transport & Rail": 5158,
         "Retail & Hospitality": 3560,
         "Clerical & Professional": 2893
       },
       "1930s": {
-        "Docks & Maritime": 805,
+        "Docks & Maritime": 806,
         "Iron & Heavy Industry": 2372,
         "Building & Timber": 913,
         "Transport & Rail": 2228,
@@ -1330,8 +1330,8 @@
     ]
   },
   "names_in_trades": {
-    "total_detected": 1440,
-    "initials_as_trade_count": 686,
+    "total_detected": 1434,
+    "initials_as_trade_count": 680,
     "forenames_as_trade_count": 754,
     "top_names": [
       {
@@ -1472,17 +1472,17 @@
       "1902": 7,
       "1903": 18,
       "1906": 49,
-      "1908": 44,
+      "1908": 43,
       "1910": 26,
       "1913": 25,
       "1914": 412,
       "1915": 25,
-      "1917": 543,
+      "1917": 542,
       "1920": 20,
-      "1924": 21,
-      "1925": 24,
-      "1927": 42,
-      "1936": 33
+      "1924": 20,
+      "1925": 23,
+      "1927": 41,
+      "1936": 32
     },
     "samples": [
       {
@@ -1679,11 +1679,11 @@
       },
       {
         "year": "1936",
-        "street": "Westville Road",
-        "house_number": "",
-        "surname": "cab't",
-        "forename": "",
-        "trade": "Mkr"
+        "street": "Woodland Park Road",
+        "house_number": "24",
+        "surname": "Prof Of Music",
+        "forename": "Er",
+        "trade": "Van"
       },
       {
         "year": "1878",
@@ -2010,7 +2010,7 @@
     },
     {
       "trade": "Boilermaker",
-      "count": 1682,
+      "count": 1745,
       "earliest": 1878,
       "latest": 1936
     },
@@ -2064,7 +2064,7 @@
     },
     {
       "trade": "Bootmaker",
-      "count": 1282,
+      "count": 1297,
       "earliest": 1878,
       "latest": 1936
     },
@@ -2148,7 +2148,7 @@
     },
     {
       "trade": "Shoemaker",
-      "count": 885,
+      "count": 886,
       "earliest": 1878,
       "latest": 1936
     },
@@ -2231,6 +2231,12 @@
       "latest": 1936
     },
     {
+      "trade": "Dock Labourer",
+      "count": 636,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
       "trade": "Vacant sites",
       "count": 604,
       "earliest": 1886,
@@ -2239,12 +2245,6 @@
     {
       "trade": "Assistant",
       "count": 577,
-      "earliest": 1878,
-      "latest": 1936
-    },
-    {
-      "trade": "Printer",
-      "count": 574,
       "earliest": 1878,
       "latest": 1936
     }
@@ -2490,9 +2490,9 @@
       },
       {
         "street": "Caerleon Road",
-        "count": 325,
+        "count": 328,
         "total": 3121,
-        "pct": 10.4
+        "pct": 10.5
       },
       {
         "street": "Church Road",
@@ -2558,21 +2558,21 @@
     "industrial": [
       {
         "street": "Baldwin Street",
-        "count": 838,
+        "count": 840,
         "total": 1671,
-        "pct": 50.1
+        "pct": 50.3
       },
       {
         "street": "Dolphin Street",
-        "count": 705,
+        "count": 706,
         "total": 2047,
-        "pct": 34.4
+        "pct": 34.5
       },
       {
         "street": "Jeddo Street",
-        "count": 685,
+        "count": 686,
         "total": 1765,
-        "pct": 38.8
+        "pct": 38.9
       },
       {
         "street": "Hewertson Street",
@@ -2624,7 +2624,7 @@
       },
       {
         "street": "Raglan Street",
-        "count": 424,
+        "count": 425,
         "total": 2059,
         "pct": 20.6
       },
@@ -2635,16 +2635,16 @@
         "pct": 21.0
       },
       {
+        "street": "Marion Street",
+        "count": 414,
+        "total": 1399,
+        "pct": 29.6
+      },
+      {
         "street": "Agincourt Street",
         "count": 413,
         "total": 742,
         "pct": 55.7
-      },
-      {
-        "street": "Marion Street",
-        "count": 412,
-        "total": 1399,
-        "pct": 29.4
       }
     ],
     "railway": [
@@ -2964,7 +2964,7 @@
       },
       {
         "trade": "Dressmaker",
-        "count": 359
+        "count": 372
       },
       {
         "trade": "Grocer",
@@ -3128,18 +3128,6 @@
       "latest": 1917
     },
     {
-      "trade": "Factory Hd",
-      "count": 52,
-      "earliest": 1878,
-      "latest": 1913
-    },
-    {
-      "trade": "Chairmaker",
-      "count": 51,
-      "earliest": 1878,
-      "latest": 1901
-    },
-    {
       "trade": "Irondresser",
       "count": 51,
       "earliest": 1892,
@@ -3194,6 +3182,12 @@
       "latest": 1917
     },
     {
+      "trade": "Bottle Maker",
+      "count": 42,
+      "earliest": 1887,
+      "latest": 1917
+    },
+    {
       "trade": "Brassfounder",
       "count": 41,
       "earliest": 1882,
@@ -3210,6 +3204,12 @@
       "count": 36,
       "earliest": 1878,
       "latest": 1910
+    },
+    {
+      "trade": "Brazier",
+      "count": 36,
+      "earliest": 1878,
+      "latest": 1920
     }
   ],
   "emerging_trades": [
@@ -3248,7 +3248,7 @@
     "counts": {
       "ditto_variants": 450,
       "pure_symbols": 0,
-      "single_initial_trade": 686,
+      "single_initial_trade": 680,
       "numbers_in_trade": 0,
       "short_tokens": 0,
       "spillover_suffix": 90
@@ -3449,11 +3449,11 @@
         },
         {
           "year": "1936",
-          "street": "Westville Road",
-          "house_number": "",
-          "surname": "cab't",
-          "forename": "",
-          "trade": "Mkr"
+          "street": "Woodland Park Road",
+          "house_number": "24",
+          "surname": "Prof Of Music",
+          "forename": "Er",
+          "trade": "Van"
         }
       ],
       "spillover_suffix": [
