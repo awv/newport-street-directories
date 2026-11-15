@@ -6,7 +6,7 @@
     "total_streets": 952,
     "total_years": 29,
     "years_span": "1876\u20131936",
-    "unique_trade_strings": 24882
+    "unique_trade_strings": 24815
   },
   "yearly_overview": [
     {
@@ -250,7 +250,7 @@
       "pct": 61.3,
       "streets_count": 514,
       "trades_in_names": 9,
-      "names_in_trades": 23
+      "names_in_trades": 22
     },
     {
       "year": "1927",
@@ -259,7 +259,7 @@
       "pct": 64.6,
       "streets_count": 527,
       "trades_in_names": 9,
-      "names_in_trades": 41
+      "names_in_trades": 40
     },
     {
       "year": "1936",
@@ -268,7 +268,7 @@
       "pct": 56.9,
       "streets_count": 521,
       "trades_in_names": 3,
-      "names_in_trades": 32
+      "names_in_trades": 31
     }
   ],
   "street_expansion": [
@@ -627,7 +627,7 @@
         "Iron & Heavy Industry": 955,
         "Building & Timber": 1540,
         "Transport & Rail": 1054,
-        "Retail & Hospitality": 1466,
+        "Retail & Hospitality": 1470,
         "Clerical & Professional": 818
       },
       "1890s": {
@@ -635,7 +635,7 @@
         "Iron & Heavy Industry": 3424,
         "Building & Timber": 5841,
         "Transport & Rail": 4228,
-        "Retail & Hospitality": 4616,
+        "Retail & Hospitality": 4620,
         "Clerical & Professional": 3126
       },
       "1900s": {
@@ -643,7 +643,7 @@
         "Iron & Heavy Industry": 4808,
         "Building & Timber": 5691,
         "Transport & Rail": 5017,
-        "Retail & Hospitality": 4661,
+        "Retail & Hospitality": 4665,
         "Clerical & Professional": 2970
       },
       "1910s": {
@@ -651,7 +651,7 @@
         "Iron & Heavy Industry": 5581,
         "Building & Timber": 3953,
         "Transport & Rail": 4837,
-        "Retail & Hospitality": 3935,
+        "Retail & Hospitality": 3942,
         "Clerical & Professional": 2479
       },
       "1920s": {
@@ -659,7 +659,7 @@
         "Iron & Heavy Industry": 6465,
         "Building & Timber": 3318,
         "Transport & Rail": 5158,
-        "Retail & Hospitality": 3560,
+        "Retail & Hospitality": 3571,
         "Clerical & Professional": 2897
       },
       "1930s": {
@@ -1330,8 +1330,8 @@
     ]
   },
   "names_in_trades": {
-    "total_detected": 1434,
-    "initials_as_trade_count": 680,
+    "total_detected": 1431,
+    "initials_as_trade_count": 677,
     "forenames_as_trade_count": 754,
     "top_names": [
       {
@@ -1480,9 +1480,9 @@
       "1917": 542,
       "1920": 20,
       "1924": 20,
-      "1925": 23,
-      "1927": 41,
-      "1936": 32
+      "1925": 22,
+      "1927": 40,
+      "1936": 31
     },
     "samples": [
       {
@@ -1564,14 +1564,6 @@
         "surname": "Samuel",
         "forename": "W. Astley Cl",
         "trade": "Yne"
-      },
-      {
-        "year": "1936",
-        "street": "Hill Street",
-        "house_number": "15",
-        "surname": "dock",
-        "forename": "",
-        "trade": "Wkr"
       },
       {
         "year": "1936",
@@ -1684,6 +1676,14 @@
         "surname": "Prof Of Music",
         "forename": "Er",
         "trade": "Van"
+      },
+      {
+        "year": "1936",
+        "street": "York Road",
+        "house_number": "8",
+        "surname": "Slocombe",
+        "forename": "Edwin J",
+        "trade": "\u8868\u73fe"
       },
       {
         "year": "1878",
@@ -2016,7 +2016,7 @@
     },
     {
       "trade": "Baker",
-      "count": 1672,
+      "count": 1673,
       "earliest": 1878,
       "latest": 1936
     },
@@ -2112,7 +2112,7 @@
     },
     {
       "trade": "Confectioner",
-      "count": 1070,
+      "count": 1083,
       "earliest": 1878,
       "latest": 1936
     },
@@ -2195,6 +2195,12 @@
       "latest": 1936
     },
     {
+      "trade": "Tobacconist",
+      "count": 698,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
       "trade": "Sawyer",
       "count": 698,
       "earliest": 1878,
@@ -2203,12 +2209,6 @@
     {
       "trade": "Pilot",
       "count": 696,
-      "earliest": 1878,
-      "latest": 1936
-    },
-    {
-      "trade": "Tobacconist",
-      "count": 680,
       "earliest": 1878,
       "latest": 1936
     },
@@ -2244,7 +2244,7 @@
     },
     {
       "trade": "Assistant",
-      "count": 577,
+      "count": 579,
       "earliest": 1878,
       "latest": 1936
     }
@@ -2409,7 +2409,7 @@
       "1890s": 369,
       "1900s": 225,
       "1910s": 202,
-      "1920s": 319,
+      "1920s": 320,
       "1930s": 124
     },
     "Motor Driver": {
@@ -2472,33 +2472,33 @@
       },
       {
         "street": "Commercial Street",
-        "count": 555,
+        "count": 558,
         "total": 5846,
         "pct": 9.5
       },
       {
         "street": "Chepstow Road",
-        "count": 505,
+        "count": 506,
         "total": 3263,
         "pct": 15.5
       },
       {
         "street": "Corporation Road",
-        "count": 446,
+        "count": 448,
         "total": 3043,
         "pct": 14.7
       },
       {
         "street": "Caerleon Road",
-        "count": 332,
+        "count": 336,
         "total": 3121,
-        "pct": 10.6
+        "pct": 10.8
       },
       {
         "street": "Church Road",
-        "count": 314,
+        "count": 316,
         "total": 1436,
-        "pct": 21.9
+        "pct": 22.0
       },
       {
         "street": "Market (provision)",
@@ -2514,7 +2514,7 @@
       },
       {
         "street": "High Street",
-        "count": 235,
+        "count": 236,
         "total": 3028,
         "pct": 7.8
       },
@@ -2550,9 +2550,9 @@
       },
       {
         "street": "Shaftesbury Street",
-        "count": 165,
+        "count": 169,
         "total": 1975,
-        "pct": 8.4
+        "pct": 8.6
       }
     ],
     "industrial": [
@@ -2976,11 +2976,11 @@
       },
       {
         "trade": "Tobacconist",
-        "count": 136
+        "count": 138
       },
       {
         "trade": "Confectioner",
-        "count": 133
+        "count": 135
       },
       {
         "trade": "Greengrocer",
@@ -3117,7 +3117,7 @@
     },
     {
       "trade": "Grocer & Baker",
-      "count": 56,
+      "count": 66,
       "earliest": 1878,
       "latest": 1915
     },
@@ -3238,9 +3238,21 @@
       "latest": 1936
     },
     {
+      "trade": "Transport Worker",
+      "count": 37,
+      "earliest": 1924,
+      "latest": 1936
+    },
+    {
       "trade": "Taxi Proprietor",
       "count": 36,
       "earliest": 1917,
+      "latest": 1936
+    },
+    {
+      "trade": "Cargo Worker",
+      "count": 30,
+      "earliest": 1924,
       "latest": 1936
     }
   ],
@@ -3248,7 +3260,7 @@
     "counts": {
       "ditto_variants": 450,
       "pure_symbols": 0,
-      "single_initial_trade": 680,
+      "single_initial_trade": 677,
       "numbers_in_trade": 0,
       "short_tokens": 0,
       "spillover_suffix": 90
@@ -3334,14 +3346,6 @@
           "surname": "Samuel",
           "forename": "W. Astley Cl",
           "trade": "Yne"
-        },
-        {
-          "year": "1936",
-          "street": "Hill Street",
-          "house_number": "15",
-          "surname": "dock",
-          "forename": "",
-          "trade": "Wkr"
         },
         {
           "year": "1936",
@@ -3454,6 +3458,14 @@
           "surname": "Prof Of Music",
           "forename": "Er",
           "trade": "Van"
+        },
+        {
+          "year": "1936",
+          "street": "York Road",
+          "house_number": "8",
+          "surname": "Slocombe",
+          "forename": "Edwin J",
+          "trade": "\u8868\u73fe"
         }
       ],
       "spillover_suffix": [
