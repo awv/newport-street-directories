@@ -6,7 +6,7 @@
     "total_streets": 952,
     "total_years": 29,
     "years_span": "1876\u20131936",
-    "unique_trade_strings": 24972
+    "unique_trade_strings": 24882
   },
   "yearly_overview": [
     {
@@ -620,7 +620,7 @@
         "Building & Timber": 368,
         "Transport & Rail": 195,
         "Retail & Hospitality": 382,
-        "Clerical & Professional": 249
+        "Clerical & Professional": 254
       },
       "1880s": {
         "Docks & Maritime": 1294,
@@ -628,31 +628,31 @@
         "Building & Timber": 1540,
         "Transport & Rail": 1054,
         "Retail & Hospitality": 1466,
-        "Clerical & Professional": 805
+        "Clerical & Professional": 818
       },
       "1890s": {
         "Docks & Maritime": 3879,
         "Iron & Heavy Industry": 3424,
         "Building & Timber": 5841,
         "Transport & Rail": 4228,
-        "Retail & Hospitality": 4610,
-        "Clerical & Professional": 3121
+        "Retail & Hospitality": 4616,
+        "Clerical & Professional": 3126
       },
       "1900s": {
         "Docks & Maritime": 3183,
         "Iron & Heavy Industry": 4808,
         "Building & Timber": 5691,
         "Transport & Rail": 5017,
-        "Retail & Hospitality": 4659,
-        "Clerical & Professional": 2969
+        "Retail & Hospitality": 4661,
+        "Clerical & Professional": 2970
       },
       "1910s": {
         "Docks & Maritime": 2331,
         "Iron & Heavy Industry": 5581,
-        "Building & Timber": 3954,
+        "Building & Timber": 3953,
         "Transport & Rail": 4837,
-        "Retail & Hospitality": 3916,
-        "Clerical & Professional": 2477
+        "Retail & Hospitality": 3935,
+        "Clerical & Professional": 2479
       },
       "1920s": {
         "Docks & Maritime": 2156,
@@ -660,7 +660,7 @@
         "Building & Timber": 3318,
         "Transport & Rail": 5158,
         "Retail & Hospitality": 3560,
-        "Clerical & Professional": 2893
+        "Clerical & Professional": 2897
       },
       "1930s": {
         "Docks & Maritime": 806,
@@ -668,7 +668,7 @@
         "Building & Timber": 913,
         "Transport & Rail": 2228,
         "Retail & Hospitality": 924,
-        "Clerical & Professional": 1115
+        "Clerical & Professional": 1116
       }
     }
   },
@@ -1968,7 +1968,7 @@
     },
     {
       "trade": "Butcher",
-      "count": 2324,
+      "count": 2329,
       "earliest": 1878,
       "latest": 1936
     },
@@ -2046,7 +2046,7 @@
     },
     {
       "trade": "Greengrocer",
-      "count": 1439,
+      "count": 1442,
       "earliest": 1878,
       "latest": 1936
     },
@@ -2070,7 +2070,7 @@
     },
     {
       "trade": "Hairdresser",
-      "count": 1244,
+      "count": 1261,
       "earliest": 1878,
       "latest": 1936
     },
@@ -2207,6 +2207,12 @@
       "latest": 1936
     },
     {
+      "trade": "Tobacconist",
+      "count": 680,
+      "earliest": 1878,
+      "latest": 1936
+    },
+    {
       "trade": "Porter",
       "count": 665,
       "earliest": 1878,
@@ -2215,12 +2221,6 @@
     {
       "trade": "Driver",
       "count": 654,
-      "earliest": 1878,
-      "latest": 1936
-    },
-    {
-      "trade": "Tobacconist",
-      "count": 650,
       "earliest": 1878,
       "latest": 1936
     },
@@ -2397,7 +2397,7 @@
     "Butcher": {
       "1870s": 37,
       "1880s": 135,
-      "1890s": 416,
+      "1890s": 418,
       "1900s": 322,
       "1910s": 350,
       "1920s": 459,
@@ -2466,33 +2466,33 @@
     "commercial": [
       {
         "street": "Commercial Road",
-        "count": 994,
+        "count": 1001,
         "total": 4382,
-        "pct": 22.7
+        "pct": 22.8
       },
       {
         "street": "Commercial Street",
-        "count": 552,
+        "count": 555,
         "total": 5846,
-        "pct": 9.4
+        "pct": 9.5
       },
       {
         "street": "Chepstow Road",
-        "count": 500,
+        "count": 505,
         "total": 3263,
-        "pct": 15.3
+        "pct": 15.5
       },
       {
         "street": "Corporation Road",
-        "count": 442,
+        "count": 446,
         "total": 3043,
-        "pct": 14.5
+        "pct": 14.7
       },
       {
         "street": "Caerleon Road",
-        "count": 328,
+        "count": 332,
         "total": 3121,
-        "pct": 10.5
+        "pct": 10.6
       },
       {
         "street": "Church Road",
@@ -2520,27 +2520,27 @@
       },
       {
         "street": "Clarence Place",
-        "count": 207,
+        "count": 208,
         "total": 1117,
-        "pct": 18.5
+        "pct": 18.6
       },
       {
         "street": "Bridge Street",
-        "count": 185,
+        "count": 188,
         "total": 1602,
-        "pct": 11.5
+        "pct": 11.7
+      },
+      {
+        "street": "Duckpool Road",
+        "count": 185,
+        "total": 2548,
+        "pct": 7.3
       },
       {
         "street": "Blewitt Street",
         "count": 184,
         "total": 1558,
         "pct": 11.8
-      },
-      {
-        "street": "Duckpool Road",
-        "count": 182,
-        "total": 2548,
-        "pct": 7.1
       },
       {
         "street": "Alexandra Road",
@@ -2975,12 +2975,12 @@
         "count": 175
       },
       {
-        "trade": "Confectioner",
-        "count": 133
+        "trade": "Tobacconist",
+        "count": 136
       },
       {
-        "trade": "Tobacconist",
-        "count": 128
+        "trade": "Confectioner",
+        "count": 133
       },
       {
         "trade": "Greengrocer",
@@ -2995,6 +2995,10 @@
         "count": 66
       },
       {
+        "trade": "Butcher",
+        "count": 62
+      },
+      {
         "trade": "Nurse",
         "count": 61
       },
@@ -3007,20 +3011,16 @@
         "count": 60
       },
       {
-        "trade": "Butcher",
-        "count": 60
-      },
-      {
         "trade": "School",
         "count": 53
       },
       {
-        "trade": "Fruiterer",
-        "count": 46
+        "trade": "General Shop",
+        "count": 48
       },
       {
-        "trade": "General Shop",
-        "count": 42
+        "trade": "Fruiterer",
+        "count": 46
       },
       {
         "trade": "Caretaker",
@@ -3032,7 +3032,7 @@
       },
       {
         "trade": "Boarding House",
-        "count": 37
+        "count": 40
       },
       {
         "trade": "Florist",
@@ -3043,12 +3043,12 @@
         "count": 35
       },
       {
-        "trade": "Registry Office",
+        "trade": "Hairdresser",
         "count": 32
       },
       {
-        "trade": "Hairdresser",
-        "count": 31
+        "trade": "Registry Office",
+        "count": 32
       },
       {
         "trade": "Teacher",
@@ -3087,7 +3087,7 @@
     },
     {
       "trade": "Coal Dealer",
-      "count": 103,
+      "count": 104,
       "earliest": 1878,
       "latest": 1920
     },
@@ -3195,8 +3195,14 @@
     },
     {
       "trade": "Clothes Dealer",
-      "count": 38,
+      "count": 40,
       "earliest": 1878,
+      "latest": 1920
+    },
+    {
+      "trade": "Family Butcher",
+      "count": 37,
+      "earliest": 1887,
       "latest": 1920
     },
     {
@@ -3204,12 +3210,6 @@
       "count": 36,
       "earliest": 1878,
       "latest": 1910
-    },
-    {
-      "trade": "Brazier",
-      "count": 36,
-      "earliest": 1878,
-      "latest": 1920
     }
   ],
   "emerging_trades": [
