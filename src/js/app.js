@@ -2143,8 +2143,9 @@ function toggleMobileSidebar() {
             const numHtml = (meta.size > 1 && !meta.start)
               ? ''
               : `<div class="ledger-num-cell">${houseLabel}</div>${meta.size > 1 ? `<div class="ledger-group-badge">${meta.size} occupants</div>` : ''}`;
+            const subPrefix = /flat/i.test(r.building_name || '') ? 'Flat' : (/chamber/i.test(r.building_name || '') ? 'Room' : 'No.');
             const unitBadge = (meta.isBuildingGroup && meta.size > 1 && r.house_number)
-              ? `<span class="ledger-group-badge" style="margin-left:6px;">Unit ${r.house_number}</span>`
+              ? `<span class="ledger-group-badge" style="margin-left:8px; text-decoration:none;">${subPrefix} ${r.house_number}</span>`
               : '';
             const bldgSub = (r.building_name && r.house_number && !(meta.isBuildingGroup && meta.size > 1))
               ? `<div style="font-size: 0.78rem; color: var(--accent); margin-top: 2px;">📍 ${r.building_name}</div>`
@@ -2155,8 +2156,11 @@ function toggleMobileSidebar() {
                 ${numHtml}
               </td>
               <td>
-                <div class="ledger-resident-name-link" style="cursor: pointer;" onclick="event.stopPropagation(); openInspectorDrawer('${targetKey}')">
-                  <span>${residentName}</span>${unitBadge}
+                <div style="display:flex; align-items:center; flex-wrap:wrap; gap:2px;">
+                  <div class="ledger-resident-name-link" style="cursor: pointer;" onclick="event.stopPropagation(); openInspectorDrawer('${targetKey}')">
+                    <span>${residentName}</span>
+                  </div>
+                  ${unitBadge}
                 </div>
                 ${bldgSub}
               </td>
