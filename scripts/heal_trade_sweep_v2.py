@@ -114,6 +114,8 @@ WORD_MAP = {
     "insur": "Insurance",
     "eng": "Engineer",
     "surg": "Surgeon",
+    "schoolrm": "Schoolroom",
+    "dist": "District",
     "cellarmn": "Cellarman",
     "hoistmn": "Hoistman",
     "cabmn": "Cabman",
