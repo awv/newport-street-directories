@@ -2050,18 +2050,29 @@ function toggleMobileSidebar() {
           let gIdx = 0;
           let gAlt = false;
           while (gIdx < yearRecords.length) {
-            const info = getGroupInfo(yearRecords[gIdx]);
+            const rec0 = yearRecords[gIdx];
+            const info = getGroupInfo(rec0);
             if (!info.key) {
               groupMeta[gIdx] = { size: 1, start: true, end: true, alt: gAlt, isBuildingGroup: false };
               if (!info.isDivider) gAlt = !gAlt;
               gIdx++;
               continue;
             }
+            const bldg0 = (rec0.building_name || '').trim();
+            const isBldgHeader = info.isBuildingGroup && (
+              /[-—]$/.test(bldg0) || !(rec0.cleanFullName || '').trim()
+            );
             let endIdx = gIdx;
             while (endIdx + 1 < yearRecords.length) {
-              const nextInfo = getGroupInfo(yearRecords[endIdx + 1]);
-              if (nextInfo.key === info.key) endIdx++;
-              else break;
+              const nextRec = yearRecords[endIdx + 1];
+              const nextInfo = getGroupInfo(nextRec);
+              if (nextInfo.key === info.key) {
+                endIdx++;
+              } else if (isBldgHeader && !nextInfo.isDivider && !nextInfo.key) {
+                endIdx++;
+              } else {
+                break;
+              }
             }
             const sz = endIdx - gIdx + 1;
             for (let k = gIdx; k <= endIdx; k++) {
@@ -2124,9 +2135,11 @@ function toggleMobileSidebar() {
 
             const meta = groupMeta[idx] || { size: 1, start: true, end: true, alt: false, isBuildingGroup: false };
             let houseLabel = (meta.isBuildingGroup && meta.size > 1 && r.building_name)
-              ? r.building_name
-              : (r.house_number ? `No. ${r.house_number}` : (r.building_name || ''));
-            let residentName = r.cleanFullName || 'Residence / Vacant';
+              ? r.building_name.replace(/[-—]+$/, '').trim()
+              : (r.house_number ? `No. ${r.house_number}` : (r.building_name || '').replace(/[-—]+$/, '').trim());
+            const rawTrade = (r.trade || '').trim();
+            const hasRealTrade = rawTrade && rawTrade !== 'Residence / Private' && rawTrade.toLowerCase() !== 'void';
+            let residentName = r.cleanFullName || (hasRealTrade ? '—' : 'Residence / Vacant');
             let targetKey = r.house_number || r.building_name || 'unnumbered';
 
             const tr = document.createElement('tr');
