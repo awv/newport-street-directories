@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>House History Dossier — Newport Street Directory Archive</title>
+  <title>House History — Newport Street Directory Archive</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -432,15 +432,98 @@
       .ledger-table tr {
         break-inside: avoid;
       }
+      .app-sidebar {
+        display: none !important;
+      }
+      .app-shell, .house-main {
+        height: auto !important;
+        overflow: visible !important;
+        display: block !important;
+      }
+    }
+    .house-main {
+      flex: 1;
+      height: 100vh;
+      overflow-y: auto;
+      background: #F8FAFC;
     }
   </style>
 </head>
-<body>
-  <main class="dossier-shell">
+<body class="app-body">
+  <div class="app-shell">
+    <aside class="app-sidebar no-print">
+      <div class="sidebar-header">
+        <a href="index.html#home" class="sidebar-logo">
+          <i class="ph ph-buildings logo-icon"></i>
+          <div class="logo-text">
+            <span class="brand-title">Newport Archive</span>
+            <span class="brand-subtitle">Directory &amp; Map Ledger</span>
+          </div>
+        </a>
+      </div>
+
+      <nav class="sidebar-nav">
+        <div class="nav-section-label">ARCHIVE EXPLORER</div>
+        <a href="index.html#home" class="nav-item">
+          <i class="ph ph-house-line"></i>
+          <span>Overview</span>
+        </a>
+        <a href="index.html#streets" class="nav-item">
+          <i class="ph ph-path"></i>
+          <span>Street Directory</span>
+          <span class="nav-badge">951</span>
+        </a>
+        <a href="house.html" class="nav-item active">
+          <i class="ph ph-house-line"></i>
+          <span>House History</span>
+        </a>
+        <a href="index.html#directories" class="nav-item">
+          <i class="ph ph-books"></i>
+          <span>Directory Books</span>
+        </a>
+        <a href="gazetteer.html" class="nav-item">
+          <i class="ph ph-scroll"></i>
+          <span>Early Gazetteers (1822–65)</span>
+        </a>
+        <a href="trades.html" class="nav-item">
+          <i class="ph ph-briefcase"></i>
+          <span>Occupations &amp; Trades</span>
+        </a>
+        <a href="stats.html" class="nav-item">
+          <i class="ph ph-chart-polar"></i>
+          <span>Archive Statistics</span>
+        </a>
+        <a href="map.html" class="nav-item">
+          <i class="ph ph-map-trifold"></i>
+          <span>Cartographic Map</span>
+        </a>
+
+        <details style="margin-top: 1.5rem;">
+          <summary class="nav-section-label" style="cursor: pointer; list-style: none; display: flex; align-items: center; justify-content: space-between;">
+            <span>RESEARCHER TOOLS</span>
+            <i class="ph ph-caret-down" style="font-size: 0.75rem;"></i>
+          </summary>
+          <a href="streets_audit.html" class="nav-item">
+            <i class="ph ph-check-square-offset"></i>
+            <span>Street Master Audit</span>
+          </a>
+          <a href="timeline.html" class="nav-item">
+            <i class="ph ph-chart-line-up"></i>
+            <span>Street Timeline Audit</span>
+          </a>
+          <a href="editor.html" class="nav-item">
+            <i class="ph ph-table"></i>
+            <span>Master Table Editor</span>
+          </a>
+        </details>
+      </nav>
+    </aside>
+
+    <div class="house-main">
+      <main class="dossier-shell">
     <header class="dossier-hero no-print">
       <div>
-        <a href="index.html" style="font-size: 0.85rem; color: var(--accent-hover); text-decoration: none; font-weight: 600;">← Back to Newport Directory Ledger</a>
-        <h1>House History Dossier</h1>
+        <h1>House History</h1>
         <p>Search any individual Newport address across historic Johns Directories (1878–1936) and print an archival PDF summary.</p>
       </div>
       <div>
@@ -455,7 +538,7 @@
       <form id="address-form" class="address-form">
         <div class="field-group">
           <label for="street-input">Street Name</label>
-          <input type="text" id="street-input" placeholder="Type to search 901 streets (e.g. Stow Hill)..." required autocomplete="off" aria-autocomplete="list" aria-expanded="false" aria-controls="street-menu">
+          <input type="text" id="street-input" placeholder="Type to search 951 streets (e.g. Stow Hill)..." required autocomplete="off" aria-autocomplete="list" aria-expanded="false" aria-controls="street-menu">
           <div id="street-menu" class="typeahead-menu" role="listbox" hidden></div>
         </div>
         <div class="field-group">
@@ -465,7 +548,7 @@
         </div>
         <button type="submit" class="btn-primary">
           <i class="ph ph-magnifying-glass"></i>
-          <span>Build Dossier</span>
+          <span>View History</span>
         </button>
       </form>
       <div class="quick-examples">
@@ -480,13 +563,13 @@
     <article id="dossier-paper" class="dossier-paper" hidden>
       <div class="dossier-banner">
         <div>
-          <div class="dossier-kicker">Newport Street Directory Archive • Property Dossier</div>
+          <div class="dossier-kicker">Newport Street Directory Archive • Property History</div>
           <h2 id="dossier-address-title" class="dossier-title"></h2>
           <p id="dossier-address-subtitle" class="dossier-subtitle"></p>
         </div>
         <div class="no-print" style="display:flex; gap:0.5rem;">
-          <a id="open-street-link" href="index.html" class="btn-secondary">
-            <i class="ph ph-books"></i>
+          <a id="open-street-link" href="index.html#streets" class="btn-secondary">
+            <i class="ph ph-path"></i>
             <span>Full Street Ledger</span>
           </a>
         </div>
@@ -520,9 +603,11 @@
     </article>
 
     <div id="empty-state" class="search-card" style="text-align:center; color:var(--text-secondary); padding: 2.5rem 1.5rem;">
-      Choose a street and house number above to generate its chronological resident dossier and printable PDF.
+      Choose a street and house number above to view its chronological resident history and printable PDF.
     </div>
   </main>
+    </div>
+  </div>
 
   <script>
     let STREETS_LIST = [];
@@ -599,6 +684,13 @@
       input.setAttribute('aria-expanded', 'true');
     }
 
+    function isNoisyNumberKey(label, count) {
+      if (count > 1) return false;
+      if (/^[—–\-(]/.test(label)) return true;
+      if (label.includes(',') || label.length > 36) return true;
+      return false;
+    }
+
     function renderNumberMenu(query) {
       const menu = document.getElementById('number-menu');
       const input = document.getElementById('number-input');
@@ -609,7 +701,7 @@
       }
       const q = (query || '').trim().toLowerCase();
       const matches = !q
-        ? STREET_NUMBERS_LIST.slice(0, 40)
+        ? STREET_NUMBERS_LIST.filter(item => !isNoisyNumberKey(item.label, item.count)).slice(0, 40)
         : STREET_NUMBERS_LIST.filter(item => item.label.toLowerCase().includes(q)).slice(0, 40);
 
       if (!matches.length) {
@@ -641,11 +733,18 @@
         const key = (r.house_number && r.house_number.trim()) ? r.house_number.trim() : (r.building_name || '').trim();
         if (key) counts.set(key, (counts.get(key) || 0) + 1);
       });
+      const numRe = /^\d+[a-zA-Z]?$/;
       STREET_NUMBERS_LIST = Array.from(counts.entries())
         .map(([label, count]) => ({ label, count }))
         .sort((a, b) => {
-          const na = parseInt(a.label, 10), nb = parseInt(b.label, 10);
-          if (!isNaN(na) && !isNaN(nb) && na !== nb) return na - nb;
+          const aNum = numRe.test(a.label), bNum = numRe.test(b.label);
+          if (aNum !== bNum) return aNum ? -1 : 1;
+          if (aNum && bNum) {
+            const na = parseInt(a.label, 10), nb = parseInt(b.label, 10);
+            if (na !== nb) return na - nb;
+            return a.label.localeCompare(b.label);
+          }
+          if (b.count !== a.count) return b.count - a.count;
           return a.label.localeCompare(b.label);
         });
       return match;
@@ -702,7 +801,7 @@
       document.getElementById('dossier-address-subtitle').innerText =
         `Newport, Monmouthshire • Recorded across ${matched.length} directory entries (${minY}–${maxY})${formerNote}`;
       const streetLink = document.getElementById('open-street-link');
-      streetLink.href = `archive.html#street=${encodeURIComponent(match.displayName)}`;
+      streetLink.href = `index.html#street=${encodeURIComponent(match.displayName)}`;
       streetLink.innerHTML = `<i class="ph ph-path"></i> Explore All of ${match.displayName}`;
 
       const surnameCounts = {};
