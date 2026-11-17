@@ -22,7 +22,11 @@
       --text-muted: #64748B;
     }
 
-    body {
+    html, body {
+      height: auto;
+      min-height: 100%;
+      overflow-x: hidden;
+      overflow-y: auto;
       font-family: var(--sans-font);
       background: #F8FAFC;
       color: #0F172A;
@@ -697,7 +701,9 @@
         : '';
       document.getElementById('dossier-address-subtitle').innerText =
         `Newport, Monmouthshire • Recorded across ${matched.length} directory entries (${minY}–${maxY})${formerNote}`;
-      document.getElementById('open-street-link').href = `index.html#street=${encodeURIComponent(match.displayName)}`;
+      const streetLink = document.getElementById('open-street-link');
+      streetLink.href = `archive.html#street=${encodeURIComponent(match.displayName)}`;
+      streetLink.innerHTML = `<i class="ph ph-path"></i> Explore All of ${match.displayName}`;
 
       const surnameCounts = {};
       matched.forEach(r => {
