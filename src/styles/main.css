@@ -2828,10 +2828,10 @@ body.editor-mode .override-drawer {
 
 
 /* GROUPED ADDRESS BLOCKS (Chambers & multi-occupant properties) */
-.street-ledger-row.ledger-group-plain {
+.street-ledger-table tr.street-ledger-row.ledger-group-plain td {
   background-color: #ffffff;
 }
-.street-ledger-row.ledger-group-alt {
+.street-ledger-table tr.street-ledger-row.ledger-group-alt td {
   background-color: #faf8f2;
 }
 .street-ledger-row.ledger-group-start td:first-child,
