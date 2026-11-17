@@ -558,7 +558,8 @@
       const qRaw = (query || '').trim().toLowerCase();
       const qNorm = normText(query);
       if (!qRaw) return null;
-      return STREETS_LIST.find(s => s.displayName.toLowerCase() === qRaw)
+      return STREETS_LIST.find(s => s.slug.toLowerCase() === qRaw)
+        || STREETS_LIST.find(s => s.displayName.toLowerCase() === qRaw)
         || STREETS_LIST.find(s => normText(s.displayName) === qNorm)
         || STREETS_LIST.find(s => s.displayName.toLowerCase().startsWith(qRaw))
         || STREETS_LIST.find(s => normText(s.displayName).includes(qNorm));
@@ -852,7 +853,21 @@
 
     document.getElementById('print-pdf-btn').addEventListener('click', () => window.print());
 
-    init();
+    init().then(() => {
+      const params = new URLSearchParams(window.location.search);
+      const qStreet = params.get('street');
+      const qNumber = params.get('number');
+      if (qStreet) {
+        const match = findStreetMatch(qStreet);
+        streetInput.value = match ? match.displayName : qStreet;
+        if (qNumber) {
+          numberInput.value = qNumber;
+          renderDossier(streetInput.value, qNumber);
+        } else if (match) {
+          loadStreet(match);
+        }
+      }
+    });
   </script>
 </body>
 </html>
