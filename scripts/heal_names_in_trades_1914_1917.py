@@ -20,6 +20,9 @@ DATA_CSV = ROOT / "data.csv"
 CORP_SURNAME_RE = re.compile(
     r"^(Ltd\.?|Limited|Co\.?|Bros\.?|&\s*Co\.?|&\s*Sons\.?|&\s*Son\.?)$", re.IGNORECASE
 )
+INITIALS_SURNAME_RE = re.compile(
+    r"^[A-Z]\.(?:\s*[A-Z]\.)*(?:\s+(?:Ltd\.?|Limited|&\s*Co\.?|&\s*Sons?))?$"
+)
 PERSON_PACKED_RE = re.compile(
     r"^([A-Z][a-z'’-]{2,})\s+([A-Z]\.(?:\s*[A-Z]\.)*)$"
 )
@@ -124,6 +127,30 @@ def main():
                 r["surname"] = ""
                 stats["corp_suffix_folded"] += 1
                 sn = ""
+
+        # 1b. Initials (optionally + Ltd.) in surname with empty forename (e.g. '' | 'J. P. Ltd.' | 'Handford')
+        if not fn and sn and INITIALS_SURNAME_RE.match(sn):
+            if tr and re.match(r"^[A-Z][a-z'’-]+$", tr) and is_likely_surname(tr, st_l, hn_l):
+                r["forename"] = sn
+                r["surname"] = tr
+                r["trade"] = ""
+                stats["initials_surname_swapped"] += 1
+                continue
+            m_comma = re.match(r"^([A-Z][a-z'’-]{2,}),\s+(.+)$", tr)
+            if m_comma and is_likely_surname(m_comma.group(1), st_l, hn_l):
+                r["forename"] = sn
+                r["surname"] = m_comma.group(1)
+                r["trade"] = m_comma.group(2).strip()
+                stats["initials_comma_swapped"] += 1
+                continue
+
+        # 1c. Leading 'Ltd. ' in trade (e.g. 1920 'J. P.' | 'Handford' | 'Ltd. shipping...')
+        if tr.startswith("Ltd. ") and fn and sn and "ltd" not in fn.lower():
+            r["forename"] = f"{fn} Ltd."
+            r["trade"] = tr[5:].strip()
+            stats["leading_ltd_in_trade_moved"] += 1
+            tr = r["trade"]
+            fn = r["forename"]
 
         # 2. Empty surname + leaked surname in trade (1914 & 1917, or comma-prefix matching address history)
         if not sn and fn and tr and not CORP_OR_INST_WORDS.search(fn):
