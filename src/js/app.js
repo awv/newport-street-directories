@@ -2143,6 +2143,20 @@ function toggleMobileSidebar() {
             const numHtml = (meta.size > 1 && !meta.start)
               ? ''
               : `<div class="ledger-num-cell">${houseLabel}</div>${meta.size > 1 ? `<div class="ledger-group-badge">${meta.size} occupants</div>` : ''}`;
+            const formatDisplayCase = (txt) => {
+              if (!txt) return txt;
+              const minor = new Set(['and', 'of', 'the', 'for', 'to', 'in', 'on', 'at', 'by', 'or', 'etc']);
+              let wordIdx = 0;
+              return txt.replace(/([A-Za-z][A-Za-z'’]*)/g, (w) => {
+                const lw = w.toLowerCase();
+                const isFirst = wordIdx++ === 0;
+                if (!isFirst && minor.has(lw)) return w;
+                if (w === w.toUpperCase() && w.length <= 4) return w;
+                if (/^[a-z]/.test(w)) return w.charAt(0).toUpperCase() + w.slice(1);
+                return w;
+              });
+            };
+
             const subPrefix = /flat/i.test(r.building_name || '') ? 'Flat' : (/chamber/i.test(r.building_name || '') ? 'Room' : 'No.');
             const unitBadge = (meta.isBuildingGroup && meta.size > 1 && r.house_number)
               ? `<span class="ledger-group-badge" style="margin-left:8px; text-decoration:none;">${subPrefix} ${r.house_number}</span>`
@@ -2150,6 +2164,8 @@ function toggleMobileSidebar() {
             const bldgSub = (r.building_name && r.house_number && !(meta.isBuildingGroup && meta.size > 1))
               ? `<div style="font-size: 0.78rem; color: var(--accent); margin-top: 2px;">📍 ${r.building_name}</div>`
               : '';
+            const displayResidentName = formatDisplayCase(residentName);
+            const displayTradeText = formatDisplayCase(r.trade || 'Private Resident');
 
             tr.innerHTML = `
               <td>
@@ -2158,14 +2174,14 @@ function toggleMobileSidebar() {
               <td>
                 <div style="display:flex; align-items:center; flex-wrap:wrap; gap:2px;">
                   <div class="ledger-resident-name-link" style="cursor: pointer;" onclick="event.stopPropagation(); openInspectorDrawer('${targetKey}')">
-                    <span>${residentName}</span>
+                    <span>${displayResidentName}</span>
                   </div>
                   ${unitBadge}
                 </div>
                 ${bldgSub}
               </td>
               <td>
-                <div class="ledger-trade-text">${r.trade || 'Private Resident'}</div>
+                <div class="ledger-trade-text">${displayTradeText}</div>
               </td>
               <td>
                 <div class="year-pills-wrapper">

@@ -1793,15 +1793,11 @@ html, body {
 .ledger-resident-name-link {
   color: #111827;
   text-decoration: none;
-  border-bottom: 1px dashed #8C6F1D;
-  padding-bottom: 1px;
   cursor: pointer;
   transition: all 0.15s ease;
 }
 .ledger-resident-name-link:hover {
   color: #8C6F1D;
-  border-bottom-style: solid;
-  border-bottom-color: #8C6F1D;
 }
 .ledger-drawer-btn {
   background: #FAF9F6;
