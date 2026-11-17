@@ -2029,14 +2029,23 @@ function toggleMobileSidebar() {
 
       // If a specific year edition is selected (e.g. 1903), render 100% verbatim scan sequence for that volume
       if (yearFilter && yearFilter !== 'all') {
-        const yearRecords = window._currentRawCleanRecords ? window._currentRawCleanRecords.filter(r => String(r.year) === String(yearFilter)) : [];
+        const rawYearRecords = window._currentRawCleanRecords ? window._currentRawCleanRecords.filter(r => String(r.year) === String(yearFilter)) : [];
+        // Drop empty building-header placeholder rows when immediately followed by tenants of the same building
+        const yearRecords = rawYearRecords.filter((r, i) => {
+          const isEmptyPlaceholder = !(r.house_number || '').trim() && !(r.surname || '').trim() && !(r.forename || '').trim() && !(r.trade || '').trim();
+          const bldg = (r.building_name || '').trim().toLowerCase();
+          if (!isEmptyPlaceholder || !bldg) return true;
+          const next = rawYearRecords[i + 1];
+          return !(next && (next.building_name || '').trim().toLowerCase() === bldg);
+        });
         if (yearRecords.length > 0) {
           // Group consecutive rows sharing a multi-unit building name (Flats/Chambers/Buildings) or street number
           const multiUnitRe = /\b(flats?|chambers?|buildings?|arcade|mansions?|court|yard)\b/i;
           const getGroupInfo = (rec) => {
             const sl = (rec.surname || '').toLowerCase();
+            const fl = (rec.forename || '').toLowerCase();
             const dtl = (rec.building_name || rec.house_number || '').toLowerCase();
-            const isDivider = sl.startsWith('from ') || sl.includes('side]') || sl.includes('return') || dtl.includes('return') || sl.includes('here is');
+            const isDivider = sl.startsWith('from ') || sl.includes('side]') || sl.includes('return') || dtl.includes('return') || sl.includes('here is') || fl.includes('here is');
             if (isDivider) return { isDivider: true, key: '', isBuildingGroup: false };
             const bldg = (rec.building_name || '').replace(/[-—]+$/, '').trim();
             const num = (rec.house_number || '').trim();
@@ -2084,6 +2093,7 @@ function toggleMobileSidebar() {
 
           yearRecords.forEach((r, idx) => {
             const surnameLower = (r.surname || '').toLowerCase();
+            const forenameLower = (r.forename || '').toLowerCase();
             const displayTitleLower = (r.building_name || r.house_number || '').toLowerCase();
 
             // Render printed volume header row (e.g. "From Depôt-st. to Station-st. [LEFT HAND SIDE]")
@@ -2117,8 +2127,9 @@ function toggleMobileSidebar() {
             }
 
             // Render side street junction row
-            if (surnameLower.includes('here is')) {
-              const junctionStreetName = r.surname.replace(/here is\s*/i, '').trim();
+            if (surnameLower.includes('here is') || forenameLower.includes('here is')) {
+              const rawJunction = surnameLower.includes('here is') ? r.surname : r.forename;
+              const junctionStreetName = rawJunction.replace(/here is\s*/i, '').trim();
               const trJunction = document.createElement('tr');
               trJunction.className = 'ledger-junction-row';
               trJunction.innerHTML = `
