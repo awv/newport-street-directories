@@ -124,6 +124,7 @@ WORD_MAP = {
     "acct": "Accountant",
     "acct'nt": "Accountant",
     "accts": "Accountants",
+    "wiredrwr": "Wiredrawer",
     "cellarmn": "Cellarman",
     "hoistmn": "Hoistman",
     "cabmn": "Cabman",
