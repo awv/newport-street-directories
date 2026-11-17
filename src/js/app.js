@@ -2038,7 +2038,7 @@ function toggleMobileSidebar() {
             const dtl = (rec.building_name || rec.house_number || '').toLowerCase();
             const isDivider = sl.startsWith('from ') || sl.includes('side]') || sl.includes('return') || dtl.includes('return') || sl.includes('here is');
             if (isDivider) return { isDivider: true, key: '', isBuildingGroup: false };
-            const bldg = (rec.building_name || '').trim();
+            const bldg = (rec.building_name || '').replace(/[-—]+$/, '').trim();
             const num = (rec.house_number || '').trim();
             if (bldg && multiUnitRe.test(bldg)) {
               return { isDivider: false, key: `bldg:${bldg.toLowerCase()}`, isBuildingGroup: true };
