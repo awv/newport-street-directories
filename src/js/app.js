@@ -2180,15 +2180,17 @@ function toggleMobileSidebar() {
             const displayResidentName = formatDisplayCase(residentName);
             const displayTradeText = formatDisplayCase(r.trade || 'Private Resident');
 
+            const nameHtml = displayResidentName === '—'
+              ? `<span style="color: var(--text-muted);">—</span>`
+              : `<div class="ledger-resident-name-link" style="cursor: pointer;" onclick="event.stopPropagation(); openInspectorDrawer('${targetKey}')"><span>${displayResidentName}</span></div>`;
+
             tr.innerHTML = `
               <td>
                 ${numHtml}
               </td>
               <td>
                 <div style="display:flex; align-items:center; flex-wrap:wrap; gap:2px;">
-                  <div class="ledger-resident-name-link" style="cursor: pointer;" onclick="event.stopPropagation(); openInspectorDrawer('${targetKey}')">
-                    <span>${displayResidentName}</span>
-                  </div>
+                  ${nameHtml}
                   ${unitBadge}
                 </div>
                 ${bldgSub}
