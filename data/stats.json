@@ -3,10 +3,10 @@
     "total_records": 370813,
     "total_with_trade": 242265,
     "pct_with_trade": 65.3,
-    "total_streets": 952,
+    "total_streets": 951,
     "total_years": 29,
     "years_span": "1876\u20131936",
-    "unique_trade_strings": 24815
+    "unique_trade_strings": 24814
   },
   "yearly_overview": [
     {
@@ -32,7 +32,7 @@
       "total": 5757,
       "with_trade": 4404,
       "pct": 76.5,
-      "streets_count": 209,
+      "streets_count": 208,
       "trades_in_names": 0,
       "names_in_trades": 15
     },
