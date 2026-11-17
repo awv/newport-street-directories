@@ -6,7 +6,7 @@
     "total_streets": 951,
     "total_years": 29,
     "years_span": "1876\u20131936",
-    "unique_trade_strings": 24085
+    "unique_trade_strings": 24073
   },
   "yearly_overview": [
     {
@@ -628,7 +628,7 @@
         "Building & Timber": 1576,
         "Transport & Rail": 1082,
         "Retail & Hospitality": 1470,
-        "Clerical & Professional": 858
+        "Clerical & Professional": 860
       },
       "1890s": {
         "Docks & Maritime": 3887,
@@ -636,7 +636,7 @@
         "Building & Timber": 5868,
         "Transport & Rail": 4280,
         "Retail & Hospitality": 4620,
-        "Clerical & Professional": 3262
+        "Clerical & Professional": 3266
       },
       "1900s": {
         "Docks & Maritime": 3223,
@@ -652,7 +652,7 @@
         "Building & Timber": 4115,
         "Transport & Rail": 5048,
         "Retail & Hospitality": 3947,
-        "Clerical & Professional": 2591
+        "Clerical & Professional": 2595
       },
       "1920s": {
         "Docks & Maritime": 2184,
@@ -660,7 +660,7 @@
         "Building & Timber": 3430,
         "Transport & Rail": 5255,
         "Retail & Hospitality": 3573,
-        "Clerical & Professional": 3025
+        "Clerical & Professional": 3046
       },
       "1930s": {
         "Docks & Maritime": 815,
@@ -668,7 +668,7 @@
         "Building & Timber": 920,
         "Transport & Rail": 2239,
         "Retail & Hospitality": 984,
-        "Clerical & Professional": 1167
+        "Clerical & Professional": 1174
       }
     }
   },
@@ -2834,27 +2834,27 @@
     "professional": [
       {
         "street": "Commercial Street",
-        "count": 195,
+        "count": 198,
         "total": 6033,
-        "pct": 3.2
+        "pct": 3.3
       },
       {
         "street": "Stow Hill",
-        "count": 132,
+        "count": 134,
         "total": 2116,
-        "pct": 6.2
+        "pct": 6.3
       },
       {
         "street": "High Street",
-        "count": 115,
+        "count": 118,
         "total": 3015,
-        "pct": 3.8
+        "pct": 3.9
       },
       {
         "street": "Bridge Street",
-        "count": 88,
+        "count": 89,
         "total": 1601,
-        "pct": 5.5
+        "pct": 5.6
       },
       {
         "street": "Dock Street",

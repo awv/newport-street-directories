@@ -116,6 +116,14 @@ WORD_MAP = {
     "surg": "Surgeon",
     "schoolrm": "Schoolroom",
     "dist": "District",
+    "solctr": "Solicitor",
+    "solct": "Solicitor",
+    "solc": "Solicitor",
+    "solr": "Solicitor",
+    "solctrs": "Solicitors",
+    "acct": "Accountant",
+    "acct'nt": "Accountant",
+    "accts": "Accountants",
     "cellarmn": "Cellarman",
     "hoistmn": "Hoistman",
     "cabmn": "Cabman",
@@ -156,6 +164,7 @@ def normalize_trade(raw: str) -> str:
         return t
 
     out = TOKEN_RE.sub(repl, t)
+    out = re.sub(r"\bComm?\.?\s+For\s+Oaths\b", "Commissioner for Oaths", out, flags=re.I)
     out = re.sub(r"\s+", " ", out).strip()
     return out
 

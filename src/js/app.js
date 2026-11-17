@@ -2031,7 +2031,41 @@ function toggleMobileSidebar() {
       if (yearFilter && yearFilter !== 'all') {
         const yearRecords = window._currentRawCleanRecords ? window._currentRawCleanRecords.filter(r => String(r.year) === String(yearFilter)) : [];
         if (yearRecords.length > 0) {
-          yearRecords.forEach(r => {
+          // Group consecutive rows sharing the same house number or Chambers/building name
+          const groupMeta = new Array(yearRecords.length);
+          let gIdx = 0;
+          let gAlt = false;
+          while (gIdx < yearRecords.length) {
+            const rec = yearRecords[gIdx];
+            const sl = (rec.surname || '').toLowerCase();
+            const dtl = (rec.building_name || rec.house_number || '').toLowerCase();
+            const isDivider = sl.startsWith('from ') || sl.includes('side]') || sl.includes('return') || dtl.includes('return') || sl.includes('here is');
+            const key = isDivider ? '' : (rec.house_number || rec.building_name || '').trim();
+            if (!key) {
+              groupMeta[gIdx] = { size: 1, start: true, end: true, alt: gAlt };
+              if (!isDivider) gAlt = !gAlt;
+              gIdx++;
+              continue;
+            }
+            let endIdx = gIdx;
+            while (endIdx + 1 < yearRecords.length) {
+              const nxt = yearRecords[endIdx + 1];
+              const nsl = (nxt.surname || '').toLowerCase();
+              const ndtl = (nxt.building_name || nxt.house_number || '').toLowerCase();
+              const nDiv = nsl.startsWith('from ') || nsl.includes('side]') || nsl.includes('return') || ndtl.includes('return') || nsl.includes('here is');
+              const nKey = nDiv ? '' : (nxt.house_number || nxt.building_name || '').trim();
+              if (nKey.toLowerCase() === key.toLowerCase()) endIdx++;
+              else break;
+            }
+            const sz = endIdx - gIdx + 1;
+            for (let k = gIdx; k <= endIdx; k++) {
+              groupMeta[k] = { size: sz, start: k === gIdx, end: k === endIdx, alt: gAlt };
+            }
+            gAlt = !gAlt;
+            gIdx = endIdx + 1;
+          }
+
+          yearRecords.forEach((r, idx) => {
             const surnameLower = (r.surname || '').toLowerCase();
             const displayTitleLower = (r.building_name || r.house_number || '').toLowerCase();
 
@@ -2082,17 +2116,29 @@ function toggleMobileSidebar() {
               return;
             }
 
+            const meta = groupMeta[idx] || { size: 1, start: true, end: true, alt: false };
             let houseLabel = r.house_number ? `No. ${r.house_number}` : (r.building_name || '');
             let residentName = r.cleanFullName || 'Residence / Vacant';
             let targetKey = r.house_number || r.building_name || 'unnumbered';
 
             const tr = document.createElement('tr');
-            tr.className = 'street-ledger-row';
+            const grpClasses = [
+              'street-ledger-row',
+              meta.alt ? 'ledger-group-alt' : 'ledger-group-plain',
+              meta.size > 1 ? (meta.start ? 'ledger-group-start' : 'ledger-group-cont') : '',
+              meta.size > 1 && meta.end ? 'ledger-group-end' : ''
+            ].filter(Boolean).join(' ');
+            tr.className = grpClasses;
             tr.style.cursor = 'pointer';
             tr.onclick = () => openInspectorDrawer(targetKey);
+
+            const numHtml = (meta.size > 1 && !meta.start)
+              ? ''
+              : `<div class="ledger-num-cell">${houseLabel}</div>${meta.size > 1 ? `<div class="ledger-group-badge">${meta.size} occupants</div>` : ''}`;
+
             tr.innerHTML = `
               <td>
-                <div class="ledger-num-cell">${houseLabel}</div>
+                ${numHtml}
               </td>
               <td>
                 <div class="ledger-resident-name-link" style="cursor: pointer;" onclick="event.stopPropagation(); openInspectorDrawer('${targetKey}')">

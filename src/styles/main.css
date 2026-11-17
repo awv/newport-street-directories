@@ -2826,3 +2826,32 @@ body.editor-mode .override-drawer {
   }
 }
 
+
+/* GROUPED ADDRESS BLOCKS (Chambers & multi-occupant properties) */
+.street-ledger-row.ledger-group-plain {
+  background-color: #ffffff;
+}
+.street-ledger-row.ledger-group-alt {
+  background-color: #faf8f2;
+}
+.street-ledger-row.ledger-group-start td:first-child,
+.street-ledger-row.ledger-group-cont td:first-child {
+  border-left: 3px solid #c89d54;
+}
+.street-ledger-row.ledger-group-start td,
+.street-ledger-row.ledger-group-cont td {
+  border-bottom: 1px dashed #ebe6da;
+}
+.street-ledger-row.ledger-group-end td {
+  border-bottom: 1px solid #dfd8c8;
+}
+.ledger-group-badge {
+  display: inline-block;
+  margin-top: 3px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #8f650d;
+  background: rgba(200, 157, 84, 0.14);
+  padding: 1px 6px;
+  border-radius: 999px;
+}
