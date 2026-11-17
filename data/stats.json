@@ -1,12 +1,12 @@
 {
   "meta": {
     "total_records": 370813,
-    "total_with_trade": 242265,
+    "total_with_trade": 242241,
     "pct_with_trade": 65.3,
     "total_streets": 951,
     "total_years": 29,
     "years_span": "1876\u20131936",
-    "unique_trade_strings": 24148
+    "unique_trade_strings": 24117
   },
   "yearly_overview": [
     {
@@ -93,7 +93,7 @@
     {
       "year": "1895",
       "total": 10544,
-      "with_trade": 7602,
+      "with_trade": 7601,
       "pct": 72.1,
       "streets_count": 356,
       "trades_in_names": 8,
@@ -201,7 +201,7 @@
     {
       "year": "1914",
       "total": 19619,
-      "with_trade": 10740,
+      "with_trade": 10729,
       "pct": 54.7,
       "streets_count": 564,
       "trades_in_names": 20,
@@ -219,11 +219,11 @@
     {
       "year": "1917",
       "total": 19934,
-      "with_trade": 10328,
+      "with_trade": 10316,
       "pct": 51.8,
       "streets_count": 570,
       "trades_in_names": 15,
-      "names_in_trades": 542
+      "names_in_trades": 540
     },
     {
       "year": "1920",
@@ -627,13 +627,13 @@
         "Iron & Heavy Industry": 960,
         "Building & Timber": 1576,
         "Transport & Rail": 1082,
-        "Retail & Hospitality": 1469,
+        "Retail & Hospitality": 1470,
         "Clerical & Professional": 858
       },
       "1890s": {
         "Docks & Maritime": 3887,
         "Iron & Heavy Industry": 3461,
-        "Building & Timber": 5869,
+        "Building & Timber": 5868,
         "Transport & Rail": 4281,
         "Retail & Hospitality": 4620,
         "Clerical & Professional": 3262
@@ -651,8 +651,8 @@
         "Iron & Heavy Industry": 5693,
         "Building & Timber": 4115,
         "Transport & Rail": 5049,
-        "Retail & Hospitality": 3945,
-        "Clerical & Professional": 2590
+        "Retail & Hospitality": 3947,
+        "Clerical & Professional": 2591
       },
       "1920s": {
         "Docks & Maritime": 2184,
@@ -660,7 +660,7 @@
         "Building & Timber": 3430,
         "Transport & Rail": 5255,
         "Retail & Hospitality": 3573,
-        "Clerical & Professional": 3024
+        "Clerical & Professional": 3025
       },
       "1930s": {
         "Docks & Maritime": 808,
@@ -1330,9 +1330,9 @@
     ]
   },
   "names_in_trades": {
-    "total_detected": 1424,
-    "initials_as_trade_count": 670,
-    "forenames_as_trade_count": 754,
+    "total_detected": 1422,
+    "initials_as_trade_count": 669,
+    "forenames_as_trade_count": 753,
     "top_names": [
       {
         "name": "DO",
@@ -1344,7 +1344,7 @@
       },
       {
         "name": "Jones",
-        "count": 82
+        "count": 81
       },
       {
         "name": "Thomas",
@@ -1411,12 +1411,12 @@
         "count": 10
       },
       {
-        "name": "LEE",
+        "name": "Robert",
         "count": 10
       },
       {
-        "name": "Robert",
-        "count": 10
+        "name": "LEE",
+        "count": 9
       },
       {
         "name": "THE",
@@ -1477,7 +1477,7 @@
       "1913": 25,
       "1914": 412,
       "1915": 25,
-      "1917": 542,
+      "1917": 540,
       "1920": 20,
       "1924": 20,
       "1925": 22,
@@ -1896,7 +1896,7 @@
     },
     {
       "trade": "Ironworker",
-      "count": 8570,
+      "count": 8571,
       "earliest": 1882,
       "latest": 1936
     },
@@ -1914,7 +1914,7 @@
     },
     {
       "trade": "G.W.R.",
-      "count": 4537,
+      "count": 4541,
       "earliest": 1886,
       "latest": 1936
     },
@@ -2016,7 +2016,7 @@
     },
     {
       "trade": "Baker",
-      "count": 1673,
+      "count": 1674,
       "earliest": 1878,
       "latest": 1936
     },
@@ -2154,7 +2154,7 @@
     },
     {
       "trade": "Shoemaker",
-      "count": 886,
+      "count": 888,
       "earliest": 1878,
       "latest": 1936
     },
@@ -2265,7 +2265,7 @@
       "1890s": 55,
       "1900s": 323,
       "1910s": 2122,
-      "1920s": 3261,
+      "1920s": 3262,
       "1930s": 1034
     },
     "Steelworker": {
@@ -2405,7 +2405,7 @@
     },
     "Baker": {
       "1870s": 26,
-      "1880s": 138,
+      "1880s": 139,
       "1890s": 369,
       "1900s": 225,
       "1910s": 202,
@@ -2467,13 +2467,13 @@
       {
         "street": "Commercial Road",
         "count": 1001,
-        "total": 4382,
+        "total": 4381,
         "pct": 22.8
       },
       {
         "street": "Commercial Street",
         "count": 558,
-        "total": 5846,
+        "total": 5844,
         "pct": 9.5
       },
       {
@@ -2485,13 +2485,13 @@
       {
         "street": "Corporation Road",
         "count": 448,
-        "total": 3043,
+        "total": 3042,
         "pct": 14.7
       },
       {
         "street": "Caerleon Road",
         "count": 336,
-        "total": 3121,
+        "total": 3119,
         "pct": 10.8
       },
       {
@@ -2515,7 +2515,7 @@
       {
         "street": "High Street",
         "count": 236,
-        "total": 3028,
+        "total": 3025,
         "pct": 7.8
       },
       {
@@ -2527,7 +2527,7 @@
       {
         "street": "Bridge Street",
         "count": 188,
-        "total": 1602,
+        "total": 1601,
         "pct": 11.7
       },
       {
@@ -2545,7 +2545,7 @@
       {
         "street": "Alexandra Road",
         "count": 170,
-        "total": 1406,
+        "total": 1404,
         "pct": 12.1
       },
       {
@@ -2669,7 +2669,7 @@
       {
         "street": "Capel Street",
         "count": 193,
-        "total": 1443,
+        "total": 1442,
         "pct": 13.4
       },
       {
@@ -2785,7 +2785,7 @@
       {
         "street": "Capel Street",
         "count": 203,
-        "total": 1443,
+        "total": 1442,
         "pct": 14.1
       },
       {
@@ -2821,7 +2821,7 @@
       {
         "street": "Bolt Street",
         "count": 157,
-        "total": 958,
+        "total": 957,
         "pct": 16.4
       },
       {
@@ -2835,7 +2835,7 @@
       {
         "street": "Commercial Street",
         "count": 192,
-        "total": 5846,
+        "total": 5844,
         "pct": 3.3
       },
       {
@@ -2847,19 +2847,19 @@
       {
         "street": "High Street",
         "count": 115,
-        "total": 3028,
+        "total": 3025,
         "pct": 3.8
       },
       {
         "street": "Bridge Street",
         "count": 88,
-        "total": 1602,
+        "total": 1601,
         "pct": 5.5
       },
       {
         "street": "Dock Street",
         "count": 70,
-        "total": 4548,
+        "total": 4540,
         "pct": 1.5
       },
       {
@@ -2883,7 +2883,7 @@
       {
         "street": "Commercial Road",
         "count": 47,
-        "total": 4382,
+        "total": 4381,
         "pct": 1.1
       },
       {
@@ -3254,7 +3254,7 @@
     "counts": {
       "ditto_variants": 450,
       "pure_symbols": 0,
-      "single_initial_trade": 670,
+      "single_initial_trade": 669,
       "numbers_in_trade": 0,
       "short_tokens": 0,
       "spillover_suffix": 90
