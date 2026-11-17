@@ -1,12 +1,12 @@
 {
   "meta": {
-    "total_records": 371442,
-    "total_with_trade": 242341,
-    "pct_with_trade": 65.2,
+    "total_records": 371399,
+    "total_with_trade": 242385,
+    "pct_with_trade": 65.3,
     "total_streets": 951,
     "total_years": 29,
     "years_span": "1876\u20131936",
-    "unique_trade_strings": 24073
+    "unique_trade_strings": 24079
   },
   "yearly_overview": [
     {
@@ -263,12 +263,12 @@
     },
     {
       "year": "1936",
-      "total": 25280,
-      "with_trade": 14400,
-      "pct": 57.0,
+      "total": 25237,
+      "with_trade": 14444,
+      "pct": 57.2,
       "streets_count": 522,
-      "trades_in_names": 3,
-      "names_in_trades": 34
+      "trades_in_names": 2,
+      "names_in_trades": 35
     }
   ],
   "street_expansion": [
@@ -309,7 +309,7 @@
         {
           "street": "High Street",
           "first_year": 1878,
-          "records": 4057
+          "records": 4014
         },
         {
           "street": "Lewis Street",
@@ -619,7 +619,7 @@
         "Iron & Heavy Industry": 193,
         "Building & Timber": 372,
         "Transport & Rail": 198,
-        "Retail & Hospitality": 382,
+        "Retail & Hospitality": 386,
         "Clerical & Professional": 268
       },
       "1880s": {
@@ -627,8 +627,8 @@
         "Iron & Heavy Industry": 960,
         "Building & Timber": 1576,
         "Transport & Rail": 1082,
-        "Retail & Hospitality": 1470,
-        "Clerical & Professional": 860
+        "Retail & Hospitality": 1471,
+        "Clerical & Professional": 862
       },
       "1890s": {
         "Docks & Maritime": 3887,
@@ -636,15 +636,15 @@
         "Building & Timber": 5868,
         "Transport & Rail": 4280,
         "Retail & Hospitality": 4620,
-        "Clerical & Professional": 3266
+        "Clerical & Professional": 3267
       },
       "1900s": {
         "Docks & Maritime": 3223,
         "Iron & Heavy Industry": 4903,
         "Building & Timber": 5785,
         "Transport & Rail": 5141,
-        "Retail & Hospitality": 4665,
-        "Clerical & Professional": 3139
+        "Retail & Hospitality": 4666,
+        "Clerical & Professional": 3140
       },
       "1910s": {
         "Docks & Maritime": 2375,
@@ -652,30 +652,30 @@
         "Building & Timber": 4115,
         "Transport & Rail": 5048,
         "Retail & Hospitality": 3947,
-        "Clerical & Professional": 2595
+        "Clerical & Professional": 2604
       },
       "1920s": {
         "Docks & Maritime": 2184,
         "Iron & Heavy Industry": 6585,
         "Building & Timber": 3430,
         "Transport & Rail": 5255,
-        "Retail & Hospitality": 3573,
-        "Clerical & Professional": 3046
+        "Retail & Hospitality": 3576,
+        "Clerical & Professional": 3052
       },
       "1930s": {
         "Docks & Maritime": 815,
         "Iron & Heavy Industry": 2387,
-        "Building & Timber": 920,
-        "Transport & Rail": 2239,
-        "Retail & Hospitality": 984,
-        "Clerical & Professional": 1174
+        "Building & Timber": 922,
+        "Transport & Rail": 2237,
+        "Retail & Hospitality": 989,
+        "Clerical & Professional": 1180
       }
     }
   },
   "trades_in_names": {
-    "total_detected": 203,
+    "total_detected": 202,
     "in_forename_count": 151,
-    "in_surname_count": 52,
+    "in_surname_count": 51,
     "top_trapped_trades": [
       {
         "trade": "Labourer",
@@ -710,12 +710,12 @@
         "count": 8
       },
       {
-        "trade": "Hairdresser",
+        "trade": "Builder",
         "count": 7
       },
       {
-        "trade": "Builder",
-        "count": 7
+        "trade": "Hairdresser",
+        "count": 6
       },
       {
         "trade": "Brewer",
@@ -824,7 +824,7 @@
       "1924": 11,
       "1925": 9,
       "1927": 9,
-      "1936": 3
+      "1936": 2
     },
     "samples": [
       {
@@ -1188,16 +1188,6 @@
         "field": "surname"
       },
       {
-        "year": "1936",
-        "street": "High Street",
-        "house_number": "",
-        "surname": "Tobacconists & Hairdressers",
-        "forename": "",
-        "trade": "",
-        "found": "Hairdresser",
-        "field": "surname"
-      },
-      {
         "year": "1886",
         "street": "Cross Lane",
         "house_number": "",
@@ -1326,13 +1316,23 @@
         "trade": "Rich",
         "found": "Labourer",
         "field": "surname"
+      },
+      {
+        "year": "1900",
+        "street": "Lime Street",
+        "house_number": "77",
+        "surname": "coal trimmer",
+        "forename": "Edwin",
+        "trade": "Bale",
+        "found": "Coal Trimmer",
+        "field": "surname"
       }
     ]
   },
   "names_in_trades": {
-    "total_detected": 1398,
+    "total_detected": 1399,
     "initials_as_trade_count": 664,
-    "forenames_as_trade_count": 734,
+    "forenames_as_trade_count": 735,
     "top_names": [
       {
         "name": "DO",
@@ -1376,7 +1376,7 @@
       },
       {
         "name": "George",
-        "count": 23
+        "count": 24
       },
       {
         "name": "Mrs.",
@@ -1482,7 +1482,7 @@
       "1924": 20,
       "1925": 22,
       "1927": 37,
-      "1936": 34
+      "1936": 35
     },
     "samples": [
       {
@@ -1908,7 +1908,7 @@
     },
     {
       "trade": "Void",
-      "count": 5246,
+      "count": 5245,
       "earliest": 1878,
       "latest": 1936
     },
@@ -1986,7 +1986,7 @@
     },
     {
       "trade": "Engineer",
-      "count": 2046,
+      "count": 2045,
       "earliest": 1878,
       "latest": 1936
     },
@@ -2070,7 +2070,7 @@
     },
     {
       "trade": "Hairdresser",
-      "count": 1267,
+      "count": 1266,
       "earliest": 1878,
       "latest": 1936
     },
@@ -2082,7 +2082,7 @@
     },
     {
       "trade": "Manager",
-      "count": 1174,
+      "count": 1173,
       "earliest": 1878,
       "latest": 1936
     },
@@ -2112,7 +2112,7 @@
     },
     {
       "trade": "Confectioner",
-      "count": 1085,
+      "count": 1084,
       "earliest": 1878,
       "latest": 1936
     },
@@ -2172,7 +2172,7 @@
     },
     {
       "trade": "Draper",
-      "count": 819,
+      "count": 822,
       "earliest": 1878,
       "latest": 1936
     },
@@ -2189,14 +2189,14 @@
       "latest": 1936
     },
     {
-      "trade": "Agent",
-      "count": 751,
+      "trade": "Mariner",
+      "count": 750,
       "earliest": 1878,
       "latest": 1936
     },
     {
-      "trade": "Mariner",
-      "count": 750,
+      "trade": "Agent",
+      "count": 747,
       "earliest": 1878,
       "latest": 1936
     },
@@ -2466,9 +2466,9 @@
     "commercial": [
       {
         "street": "Commercial Road",
-        "count": 1025,
+        "count": 1027,
         "total": 4527,
-        "pct": 22.6
+        "pct": 22.7
       },
       {
         "street": "Commercial Street",
@@ -2478,7 +2478,7 @@
       },
       {
         "street": "Chepstow Road",
-        "count": 506,
+        "count": 507,
         "total": 3254,
         "pct": 15.6
       },
@@ -2514,9 +2514,9 @@
       },
       {
         "street": "High Street",
-        "count": 236,
-        "total": 3015,
-        "pct": 7.8
+        "count": 235,
+        "total": 3059,
+        "pct": 7.7
       },
       {
         "street": "Clarence Place",
@@ -2846,8 +2846,8 @@
       },
       {
         "street": "High Street",
-        "count": 118,
-        "total": 3015,
+        "count": 120,
+        "total": 3059,
         "pct": 3.9
       },
       {
@@ -2925,7 +2925,7 @@
     ]
   },
   "women_in_directories": {
-    "total_female_heads": 38147,
+    "total_female_heads": 38146,
     "by_year": {
       "1876": 0,
       "1878": 486,
@@ -2955,7 +2955,7 @@
       "1924": 2409,
       "1925": 2545,
       "1927": 2849,
-      "1936": 3113
+      "1936": 3112
     },
     "top_trades": [
       {
@@ -3015,16 +3015,16 @@
         "count": 54
       },
       {
+        "trade": "Caretaker",
+        "count": 54
+      },
+      {
         "trade": "General Shop",
         "count": 48
       },
       {
         "trade": "Fruiterer",
         "count": 46
-      },
-      {
-        "trade": "Caretaker",
-        "count": 45
       },
       {
         "trade": "Wardrobe Dealer",
@@ -3069,7 +3069,7 @@
     },
     {
       "trade": "Cab Proprietor",
-      "count": 275,
+      "count": 280,
       "earliest": 1878,
       "latest": 1920
     },
@@ -3239,7 +3239,7 @@
     },
     {
       "trade": "Taxi Proprietor",
-      "count": 36,
+      "count": 37,
       "earliest": 1917,
       "latest": 1936
     },
@@ -3257,7 +3257,7 @@
       "single_initial_trade": 664,
       "numbers_in_trade": 0,
       "short_tokens": 0,
-      "spillover_suffix": 106
+      "spillover_suffix": 107
     },
     "samples": {
       "initial_as_trade": [
