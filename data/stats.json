@@ -3,7 +3,7 @@
     "total_records": 396139,
     "total_with_trade": 261435,
     "pct_with_trade": 66.0,
-    "total_streets": 1053,
+    "total_streets": 994,
     "total_years": 30,
     "years_span": "1876\u20131936",
     "unique_trade_strings": 25629
@@ -266,7 +266,7 @@
       "total": 23452,
       "with_trade": 16092,
       "pct": 68.6,
-      "streets_count": 577,
+      "streets_count": 529,
       "trades_in_names": 14,
       "names_in_trades": 42
     },
@@ -288,12 +288,12 @@
         {
           "street": "Commercial Street",
           "first_year": 1878,
-          "records": 7990
+          "records": 8016
         },
         {
           "street": "Chepstow Road",
           "first_year": 1878,
-          "records": 7796
+          "records": 7897
         },
         {
           "street": "Caerleon Road",
@@ -303,7 +303,7 @@
         {
           "street": "Dock Street",
           "first_year": 1878,
-          "records": 6948
+          "records": 6960
         },
         {
           "street": "Commercial Road",
@@ -313,12 +313,12 @@
         {
           "street": "Stow Hill",
           "first_year": 1878,
-          "records": 4819
+          "records": 4859
         },
         {
           "street": "High Street",
           "first_year": 1878,
-          "records": 4123
+          "records": 4143
         },
         {
           "street": "Lewis Street",
@@ -339,12 +339,12 @@
         {
           "street": "Victoria Avenue",
           "first_year": 1886,
-          "records": 2776
+          "records": 2781
         },
         {
           "street": "Christchurch Road",
           "first_year": 1886,
-          "records": 2632
+          "records": 2682
         },
         {
           "street": "Alexandra Road",
@@ -395,7 +395,7 @@
         {
           "street": "Shaftesbury Street",
           "first_year": 1898,
-          "records": 3204
+          "records": 3214
         },
         {
           "street": "Redland Street",
@@ -454,14 +454,14 @@
           "records": 816
         },
         {
+          "street": "St. Julian's Avenue",
+          "first_year": 1902,
+          "records": 753
+        },
+        {
           "street": "Feering Street",
           "first_year": 1903,
           "records": 731
-        },
-        {
-          "street": "Walsall Street",
-          "first_year": 1902,
-          "records": 687
         }
       ]
     },
@@ -507,7 +507,7 @@
         {
           "street": "St. Vincent Road",
           "first_year": 1910,
-          "records": 425
+          "records": 464
         }
       ]
     },
@@ -559,7 +559,7 @@
     },
     {
       "decade": "1930s",
-      "new_streets_count": 103,
+      "new_streets_count": 83,
       "samples": [
         {
           "street": "Maesglas Crescent",
@@ -577,14 +577,14 @@
           "records": 279
         },
         {
-          "street": "Queen's Close",
-          "first_year": 1933,
-          "records": 263
-        },
-        {
           "street": "Gaer Park Drive",
           "first_year": 1933,
           "records": 245
+        },
+        {
+          "street": "Queen's Close",
+          "first_year": 1933,
+          "records": 235
         },
         {
           "street": "Park Drive",
@@ -592,14 +592,14 @@
           "records": 210
         },
         {
-          "street": "St Julian's Avenue",
-          "first_year": 1933,
-          "records": 209
-        },
-        {
           "street": "Glasllwch Crescent",
           "first_year": 1933,
-          "records": 204
+          "records": 200
+        },
+        {
+          "street": "Gaer Park Avenue",
+          "first_year": 1933,
+          "records": 189
         }
       ]
     }
@@ -2483,14 +2483,14 @@
       },
       {
         "street": "Chepstow Road",
-        "count": 588,
-        "total": 3928,
-        "pct": 15.0
+        "count": 594,
+        "total": 3993,
+        "pct": 14.9
       },
       {
         "street": "Commercial Street",
-        "count": 571,
-        "total": 6166,
+        "count": 574,
+        "total": 6187,
         "pct": 9.3
       },
       {
@@ -2507,9 +2507,9 @@
       },
       {
         "street": "Church Road",
-        "count": 340,
-        "total": 1656,
-        "pct": 20.5
+        "count": 339,
+        "total": 1619,
+        "pct": 20.9
       },
       {
         "street": "Market (provision)",
@@ -2526,7 +2526,7 @@
       {
         "street": "High Street",
         "count": 241,
-        "total": 3158,
+        "total": 3176,
         "pct": 7.6
       },
       {
@@ -2544,7 +2544,7 @@
       {
         "street": "Bridge Street",
         "count": 195,
-        "total": 1694,
+        "total": 1700,
         "pct": 11.5
       },
       {
@@ -2562,8 +2562,8 @@
       {
         "street": "Shaftesbury Street",
         "count": 180,
-        "total": 2105,
-        "pct": 8.6
+        "total": 2110,
+        "pct": 8.5
       }
     ],
     "industrial": [
@@ -2641,8 +2641,8 @@
       },
       {
         "street": "Shaftesbury Street",
-        "count": 437,
-        "total": 2105,
+        "count": 439,
+        "total": 2110,
         "pct": 20.8
       },
       {
@@ -2846,37 +2846,37 @@
       {
         "street": "Commercial Street",
         "count": 201,
-        "total": 6166,
-        "pct": 3.3
+        "total": 6187,
+        "pct": 3.2
       },
       {
         "street": "Stow Hill",
-        "count": 139,
-        "total": 2308,
+        "count": 140,
+        "total": 2334,
         "pct": 6.0
       },
       {
         "street": "High Street",
-        "count": 129,
-        "total": 3158,
-        "pct": 4.1
+        "count": 132,
+        "total": 3176,
+        "pct": 4.2
       },
       {
         "street": "Bridge Street",
         "count": 89,
-        "total": 1694,
-        "pct": 5.3
+        "total": 1700,
+        "pct": 5.2
       },
       {
         "street": "Chepstow Road",
-        "count": 82,
-        "total": 3928,
+        "count": 83,
+        "total": 3993,
         "pct": 2.1
       },
       {
         "street": "Dock Street",
         "count": 70,
-        "total": 4788,
+        "total": 4800,
         "pct": 1.5
       },
       {
@@ -2888,8 +2888,8 @@
       {
         "street": "Victoria Place",
         "count": 57,
-        "total": 272,
-        "pct": 21.0
+        "total": 261,
+        "pct": 21.8
       },
       {
         "street": "Commercial Road",
@@ -2912,7 +2912,7 @@
       {
         "street": "Skinner Street",
         "count": 21,
-        "total": 599,
+        "total": 608,
         "pct": 3.5
       },
       {

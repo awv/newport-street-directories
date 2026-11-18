@@ -112,11 +112,14 @@ def parse_1933_line(line, street_canon):
 
     bldg = ""
     left = line
+    street_out = street_canon
     if " ~ " in line:
         left, right = line.rsplit(" ~ ", 1)
         right = right.strip()
         if "," in right:
-            bldg = right.rsplit(",", 1)[0].strip().title()
+            bldg_part, st_part = right.rsplit(",", 1)
+            bldg = bldg_part.strip().title()
+            street_out = st_part.strip()
 
     hn = ""
     m_hn = re.match(r"^(\d+[A-Za-z]?(?:\s*[-–&/,]\s*\d+[A-Za-z]?)*)\s*,\s*(.+)$", left.strip())
@@ -126,7 +129,7 @@ def parse_1933_line(line, street_canon):
 
     if "here is " in left.lower():
         return {
-            "year": "1933", "street": street_canon, "house_number": "", "building_name": "",
+            "year": "1933", "street": street_out, "house_number": "", "building_name": "",
             "surname": left.strip(), "forename": "", "trade": "", "source_type": "newportpast_html"
         }
 
@@ -139,18 +142,24 @@ def parse_1933_line(line, street_canon):
 
     sn = ""
     fn = ""
-    if CORP_WORDS_RE.search(name_part):
-        sn = name_part.replace(", &", " &").strip(" ,")
-    elif "," in name_part:
+    if "," in name_part:
         p1, p2 = name_part.split(",", 1)
-        sn = p1.strip()
-        fn = p2.strip()
+        p1, p2 = p1.strip(), p2.strip()
+        if CORP_WORDS_RE.search(name_part):
+            # e.g. 'Fletcher, J Kyrle Ltd' -> 'J Kyrle Fletcher Ltd', 'Hall, John Ltd' -> 'John Hall Ltd'
+            if p2.startswith("&"):
+                sn = f"{p1} {p2}".strip()
+            else:
+                sn = f"{p2} {p1}".strip()
+        else:
+            sn = p1
+            fn = p2
     else:
         sn = name_part.strip()
 
     return {
         "year": "1933",
-        "street": street_canon,
+        "street": street_out,
         "house_number": hn,
         "building_name": bldg,
         "surname": sn,
@@ -246,12 +255,18 @@ def main():
         for (raw_param, label), html_file in zip(streets, files):
             if not html_file.exists():
                 continue
-            st_canon = n14.clean_street_name(label, canon_by_lower) or label.title()
+            # If 1933 sub-page is 'CASTLE CHAMBERS, HIGH ST', resolve street from the part after ','
+            st_label = label.rsplit(",", 1)[-1].strip() if (year == "1933" and "," in label) else label
+            st_label = re.sub(r"^St\s+", "St. ", st_label, flags=re.I)
+            st_canon = n14.clean_street_name(st_label, canon_by_lower) or st_label.title()
             lines = extract_td_lines(html_file.read_text(encoding="utf-8", errors="ignore"))
             if year == "1933":
                 for ln in lines:
                     row = parse_1933_line(ln, st_canon)
                     if row and any(row[k] for k in ("house_number", "building_name", "surname", "forename", "trade")):
+                        # Canonicalize any street_out extracted from ' ~ Building, Street'
+                        raw_st = re.sub(r"^St\s+", "St. ", row["street"], flags=re.I)
+                        row["street"] = n14.clean_street_name(raw_st, canon_by_lower) or st_canon
                         year_rows.append(row)
             else:
                 year_rows.extend(parse_1938_lines(lines, st_canon))
