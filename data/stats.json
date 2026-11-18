@@ -3,7 +3,7 @@
     "total_records": 441283,
     "total_with_trade": 288988,
     "pct_with_trade": 65.5,
-    "total_streets": 1201,
+    "total_streets": 1074,
     "total_years": 32,
     "years_span": "1876\u20131936",
     "unique_trade_strings": 28709
@@ -176,7 +176,7 @@
       "total": 15978,
       "with_trade": 7297,
       "pct": 45.7,
-      "streets_count": 498,
+      "streets_count": 496,
       "trades_in_names": 849,
       "names_in_trades": 7
     },
@@ -326,7 +326,7 @@
         {
           "street": "Commercial Road",
           "first_year": 1876,
-          "records": 6465
+          "records": 6708
         },
         {
           "street": "Stow Hill",
@@ -341,38 +341,38 @@
         {
           "street": "Lewis Street",
           "first_year": 1876,
-          "records": 3555
+          "records": 3695
         }
       ]
     },
     {
       "decade": "1880s",
-      "new_streets_count": 112,
+      "new_streets_count": 111,
       "samples": [
         {
           "street": "Duckpool Road",
           "first_year": 1886,
-          "records": 3784
+          "records": 3950
         },
         {
           "street": "Victoria Avenue",
           "first_year": 1886,
-          "records": 3006
+          "records": 3136
         },
         {
           "street": "Christchurch Road",
           "first_year": 1886,
-          "records": 2825
+          "records": 2911
         },
         {
           "street": "Bristol Street",
           "first_year": 1886,
-          "records": 2090
+          "records": 2171
         },
         {
           "street": "Alexandra Road",
           "first_year": 1887,
-          "records": 2058
+          "records": 2134
         },
         {
           "street": "Risca Road",
@@ -382,12 +382,12 @@
         {
           "street": "Capel Crescent",
           "first_year": 1882,
-          "records": 1937
+          "records": 2016
         },
         {
           "street": "Archibald Street",
           "first_year": 1886,
-          "records": 1912
+          "records": 1987
         }
       ]
     },
@@ -421,6 +421,11 @@
           "records": 2154
         },
         {
+          "street": "Morden Road",
+          "first_year": 1890,
+          "records": 1936
+        },
+        {
           "street": "Hoskins Street",
           "first_year": 1892,
           "records": 1886
@@ -429,17 +434,12 @@
           "street": "Hewertson Street",
           "first_year": 1899,
           "records": 1856
-        },
-        {
-          "street": "Morden Road",
-          "first_year": 1890,
-          "records": 1849
         }
       ]
     },
     {
       "decade": "1900s",
-      "new_streets_count": 260,
+      "new_streets_count": 156,
       "samples": [
         {
           "street": "Magor Street",
@@ -485,7 +485,7 @@
     },
     {
       "decade": "1910s",
-      "new_streets_count": 80,
+      "new_streets_count": 78,
       "samples": [
         {
           "street": "Lliswerry Road",
@@ -2502,9 +2502,9 @@
     "commercial": [
       {
         "street": "Commercial Road",
-        "count": 1182,
-        "total": 5153,
-        "pct": 22.9
+        "count": 1196,
+        "total": 5242,
+        "pct": 22.8
       },
       {
         "street": "Chepstow Road",
@@ -2532,9 +2532,9 @@
       },
       {
         "street": "Church Road",
-        "count": 374,
-        "total": 1805,
-        "pct": 20.7
+        "count": 379,
+        "total": 1844,
+        "pct": 20.6
       },
       {
         "street": "Malpas Road",
@@ -2568,15 +2568,15 @@
       },
       {
         "street": "Duckpool Road",
-        "count": 211,
-        "total": 2971,
+        "count": 215,
+        "total": 3028,
         "pct": 7.1
       },
       {
         "street": "Blewitt Street",
-        "count": 205,
-        "total": 1778,
-        "pct": 11.5
+        "count": 209,
+        "total": 1804,
+        "pct": 11.6
       },
       {
         "street": "Shaftesbury Street",
@@ -2586,29 +2586,29 @@
       },
       {
         "street": "Alexandra Road",
-        "count": 189,
-        "total": 1595,
-        "pct": 11.8
+        "count": 192,
+        "total": 1614,
+        "pct": 11.9
       }
     ],
     "industrial": [
       {
         "street": "Baldwin Street",
-        "count": 956,
-        "total": 1866,
-        "pct": 51.2
+        "count": 977,
+        "total": 1920,
+        "pct": 50.9
       },
       {
         "street": "Dolphin Street",
-        "count": 790,
-        "total": 2290,
-        "pct": 34.5
+        "count": 811,
+        "total": 2329,
+        "pct": 34.8
       },
       {
         "street": "Jeddo Street",
-        "count": 786,
-        "total": 2032,
-        "pct": 38.7
+        "count": 803,
+        "total": 2086,
+        "pct": 38.5
       },
       {
         "street": "Henry Street",
@@ -2624,21 +2624,27 @@
       },
       {
         "street": "Gordon Street",
-        "count": 607,
-        "total": 1381,
-        "pct": 44.0
+        "count": 627,
+        "total": 1419,
+        "pct": 44.2
       },
       {
         "street": "Lime Street",
-        "count": 584,
-        "total": 2038,
-        "pct": 28.7
+        "count": 594,
+        "total": 2082,
+        "pct": 28.5
       },
       {
         "street": "Archibald Street",
-        "count": 514,
-        "total": 1541,
-        "pct": 33.4
+        "count": 532,
+        "total": 1584,
+        "pct": 33.6
+      },
+      {
+        "street": "Jones Street",
+        "count": 510,
+        "total": 1769,
+        "pct": 28.8
       },
       {
         "street": "Shaftesbury Street",
@@ -2653,10 +2659,10 @@
         "pct": 48.3
       },
       {
-        "street": "Jones Street",
-        "count": 495,
-        "total": 1732,
-        "pct": 28.6
+        "street": "Marion Street",
+        "count": 486,
+        "total": 1566,
+        "pct": 31.0
       },
       {
         "street": "George Street",
@@ -2666,71 +2672,65 @@
       },
       {
         "street": "Raglan Street",
-        "count": 472,
-        "total": 2382,
-        "pct": 19.8
+        "count": 480,
+        "total": 2441,
+        "pct": 19.7
       },
       {
-        "street": "Marion Street",
-        "count": 466,
-        "total": 1523,
-        "pct": 30.6
-      },
-      {
-        "street": "Durham Road",
-        "count": 463,
-        "total": 3572,
-        "pct": 13.0
+        "street": "Agincourt Street",
+        "count": 471,
+        "total": 851,
+        "pct": 55.3
       }
     ],
     "railway": [
       {
         "street": "Capel Crescent",
-        "count": 373,
-        "total": 1584,
-        "pct": 23.5
+        "count": 378,
+        "total": 1618,
+        "pct": 23.4
       },
       {
         "street": "Lewis Street",
-        "count": 308,
-        "total": 2733,
-        "pct": 11.3
+        "count": 316,
+        "total": 2783,
+        "pct": 11.4
       },
       {
         "street": "Raglan Street",
-        "count": 254,
-        "total": 2382,
+        "count": 262,
+        "total": 2441,
         "pct": 10.7
       },
       {
         "street": "Capel Street",
-        "count": 225,
-        "total": 1648,
-        "pct": 13.7
+        "count": 227,
+        "total": 1671,
+        "pct": 13.6
       },
       {
         "street": "Price Street",
-        "count": 196,
-        "total": 1519,
-        "pct": 12.9
+        "count": 199,
+        "total": 1554,
+        "pct": 12.8
       },
       {
         "street": "Williams Street",
-        "count": 185,
-        "total": 2004,
-        "pct": 9.2
+        "count": 187,
+        "total": 2045,
+        "pct": 9.1
       },
       {
         "street": "Duckpool Road",
-        "count": 176,
-        "total": 2971,
-        "pct": 5.9
+        "count": 181,
+        "total": 3028,
+        "pct": 6.0
       },
       {
         "street": "Alma Street",
-        "count": 152,
-        "total": 2446,
-        "pct": 6.2
+        "count": 158,
+        "total": 2500,
+        "pct": 6.3
       },
       {
         "street": "Durham Road",
@@ -2740,15 +2740,15 @@
       },
       {
         "street": "Jeddo Street",
-        "count": 135,
-        "total": 2032,
-        "pct": 6.6
+        "count": 139,
+        "total": 2086,
+        "pct": 6.7
       },
       {
         "street": "Arthur Street",
-        "count": 129,
-        "total": 835,
-        "pct": 15.4
+        "count": 132,
+        "total": 850,
+        "pct": 15.5
       },
       {
         "street": "Redland Street",
@@ -2763,48 +2763,48 @@
         "pct": 10.2
       },
       {
+        "street": "Graham Street",
+        "count": 97,
+        "total": 1238,
+        "pct": 7.8
+      },
+      {
         "street": "Devon Place",
         "count": 95,
         "total": 727,
         "pct": 13.1
-      },
-      {
-        "street": "Graham Street",
-        "count": 93,
-        "total": 1213,
-        "pct": 7.7
       }
     ],
     "maritime": [
       {
         "street": "Marion Street",
-        "count": 472,
-        "total": 1523,
-        "pct": 31.0
+        "count": 483,
+        "total": 1566,
+        "pct": 30.8
       },
       {
         "street": "Jeddo Street",
-        "count": 455,
-        "total": 2032,
-        "pct": 22.4
+        "count": 471,
+        "total": 2086,
+        "pct": 22.6
       },
       {
         "street": "Lime Street",
-        "count": 398,
-        "total": 2038,
-        "pct": 19.5
+        "count": 412,
+        "total": 2082,
+        "pct": 19.8
       },
       {
         "street": "Baldwin Street",
-        "count": 281,
-        "total": 1866,
+        "count": 289,
+        "total": 1920,
         "pct": 15.1
       },
       {
         "street": "Dolphin Street",
-        "count": 276,
-        "total": 2290,
-        "pct": 12.1
+        "count": 278,
+        "total": 2329,
+        "pct": 11.9
       },
       {
         "street": "George Street",
@@ -2814,57 +2814,57 @@
       },
       {
         "street": "Price Street",
-        "count": 241,
-        "total": 1519,
+        "count": 247,
+        "total": 1554,
         "pct": 15.9
       },
       {
         "street": "Clarence Street",
-        "count": 240,
-        "total": 951,
-        "pct": 25.2
+        "count": 244,
+        "total": 963,
+        "pct": 25.3
       },
       {
         "street": "Capel Street",
-        "count": 234,
-        "total": 1648,
+        "count": 238,
+        "total": 1671,
         "pct": 14.2
       },
       {
         "street": "Raglan Street",
-        "count": 187,
-        "total": 2382,
+        "count": 192,
+        "total": 2441,
         "pct": 7.9
       },
       {
-        "street": "Castle Street",
-        "count": 184,
-        "total": 762,
-        "pct": 24.1
-      },
-      {
         "street": "Wolseley Street",
-        "count": 183,
-        "total": 892,
-        "pct": 20.5
+        "count": 187,
+        "total": 907,
+        "pct": 20.6
       },
       {
-        "street": "Williams Street",
-        "count": 180,
-        "total": 2004,
-        "pct": 9.0
-      },
-      {
-        "street": "Robert Street",
-        "count": 179,
-        "total": 1025,
-        "pct": 17.5
+        "street": "Castle Street",
+        "count": 186,
+        "total": 770,
+        "pct": 24.2
       },
       {
         "street": "Bolt Street",
-        "count": 178,
-        "total": 1087,
-        "pct": 16.4
+        "count": 183,
+        "total": 1110,
+        "pct": 16.5
+      },
+      {
+        "street": "Robert Street",
+        "count": 183,
+        "total": 1049,
+        "pct": 17.4
+      },
+      {
+        "street": "Williams Street",
+        "count": 182,
+        "total": 2045,
+        "pct": 8.9
       }
     ],
     "professional": [
@@ -2906,9 +2906,9 @@
       },
       {
         "street": "Morden Road",
-        "count": 68,
-        "total": 905,
-        "pct": 7.5
+        "count": 69,
+        "total": 937,
+        "pct": 7.4
       },
       {
         "street": "Victoria Place",
@@ -2919,7 +2919,7 @@
       {
         "street": "Commercial Road",
         "count": 54,
-        "total": 5153,
+        "total": 5242,
         "pct": 1.0
       },
       {

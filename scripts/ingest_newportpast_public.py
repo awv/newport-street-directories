@@ -140,7 +140,10 @@ def main():
         for (raw_param, label), html_file in zip(streets, files):
             if not html_file.exists():
                 continue
-            st_label = re.sub(r"^St\s+", "St. ", label.strip().rstrip("."), flags=re.I)
+            st_label = label.strip().rstrip(".")
+            st_label = re.sub(r"\s*\(part of\)\s*$", "", st_label, flags=re.I)
+            st_label = re.sub(r"[.,]?\s+(?:B\.?\s*T\.?|M|P|C|L|Ll|Ch|B)\.?$", "", st_label).strip().rstrip(".,")
+            st_label = re.sub(r"^St\s+", "St. ", st_label, flags=re.I)
             st_canon = n14.clean_street_name(st_label, canon_by_lower) or st_label.title()
             html_text = html_file.read_text(encoding="utf-8", errors="ignore")
             if year == "1897":
