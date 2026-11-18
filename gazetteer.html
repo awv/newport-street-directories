@@ -382,17 +382,20 @@
         <!-- HERO BANNER -->
         <div class="gazetteer-hero">
           <div class="hero-badge" style="display: inline-flex; align-items: center; gap: 0.35rem; background: rgba(197, 155, 39, 0.1); color: var(--accent-hover); padding: 0.25rem 0.65rem; border-radius: 4px; font-weight: 600; font-size: 0.8rem; margin-bottom: 0.75rem;">
-            <i class="ph ph-sparkle"></i> Pre-Victorian Regency Era • 1822 & 1835
+            <i class="ph ph-sparkle"></i> Pre-1870 Era • 1822, 1835 &amp; 1848
           </div>
           <h1 style="font-family: var(--heading-font); font-size: 2.75rem; color: var(--text-primary); line-height: 1.15; margin-bottom: 0.5rem;">
-            Pigot & Co.’s Early Trade Gazetteers
+            Early Newport Trade Gazetteers
           </h1>
           <p style="color: var(--text-secondary); max-width: 850px; font-size: 0.95rem; line-height: 1.6;">
-            Published before systematic house numbering was established in Newport, Pigot & Co.'s directories catalogue the town by commercial trade, manufacture, gentry seats, and port commerce during the dawn of the Industrial Revolution.
+            Published before systematic street-by-street numbering was established in Newport, Pigot &amp; Co.'s (1822, 1835) and Kelly's (1848) directories catalogue the town by commercial trade, gentry, and port commerce.
           </p>
 
           <!-- YEAR EDITION TOGGLE -->
           <div class="gazetteer-pill-row">
+            <button class="gazetteer-nav-pill" id="pill-1848" onclick="setDirectoryYear(1848)">
+              <i class="ph ph-book-open"></i> Kelly's 1848 Newport Directory
+            </button>
             <button class="gazetteer-nav-pill active" id="pill-1835" onclick="setDirectoryYear(1835)">
               <i class="ph ph-book-open"></i> Pigot's 1835 National Commercial Directory
             </button>
@@ -458,6 +461,7 @@
     let activeTab = 'trades';
     let data1822 = null;
     let data1835 = null;
+    let data1848 = null;
     let searchQuery = '';
 
     const scanFiles = {
@@ -472,16 +476,19 @@
         { file: 'data/early_directories/scans/IMG_9088.jpeg', label: 'Page 260 • Classified Trades C–I' },
         { file: 'data/early_directories/scans/IMG_9089.jpeg', label: 'Page 261 • Classified Trades I–T' },
         { file: 'data/early_directories/scans/IMG_9090.jpeg', label: 'Page 262 • Carriers & Shipping Routes' }
-      ]
+      ],
+      1848: []
     };
 
     async function loadData() {
-      const [r1822, r1835] = await Promise.all([
+      const [r1822, r1835, r1848] = await Promise.all([
         fetch('data/early_directories/pigot_1822.json').then(r => r.json()),
-        fetch('data/early_directories/pigot_1835.json').then(r => r.json())
+        fetch('data/early_directories/pigot_1835.json').then(r => r.json()),
+        fetch('data/early_directories/kelly_1848.json').then(r => r.json())
       ]);
       data1822 = r1822;
       data1835 = r1835;
+      data1848 = r1848;
       renderCurrentView();
     }
 
@@ -489,11 +496,24 @@
       activeYear = year;
       document.getElementById('pill-1822').classList.toggle('active', year === 1822);
       document.getElementById('pill-1835').classList.toggle('active', year === 1835);
+      document.getElementById('pill-1848').classList.toggle('active', year === 1848);
+
+      const scansTabBtn = document.getElementById('tab-btn-scans');
+      const hasScans = (scanFiles[year] || []).length > 0;
+      if (scansTabBtn) scansTabBtn.style.display = hasScans ? '' : 'none';
+      if (!hasScans && activeTab === 'scans') {
+        switchGazetteerTab('trades');
+      }
 
       const pdfBtn = document.getElementById('btn-download-pdf');
       if (pdfBtn) {
-        pdfBtn.href = `pdf_reports/pigot_${year}_directory.pdf`;
-        pdfBtn.innerHTML = `<i class="ph ph-file-pdf"></i> Download ${year} PDF`;
+        if (year === 1848) {
+          pdfBtn.style.display = 'none';
+        } else {
+          pdfBtn.style.display = '';
+          pdfBtn.href = `pdf_reports/pigot_${year}_directory.pdf`;
+          pdfBtn.innerHTML = `<i class="ph ph-file-pdf"></i> Download ${year} PDF`;
+        }
       }
 
       renderCurrentView();
@@ -523,7 +543,7 @@
     }
 
     function renderCurrentView() {
-      const data = activeYear === 1835 ? data1835 : data1822;
+      const data = activeYear === 1848 ? data1848 : (activeYear === 1835 ? data1835 : data1822);
       if (!data) return;
 
       // Update counters
