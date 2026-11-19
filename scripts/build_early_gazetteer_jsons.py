@@ -248,7 +248,15 @@ def build_trade_gazetteer(year: int, title: str, tsv_name: str, max_line: int | 
         if len(cleaned) == 1:
             line_txt = cleaned[0]
             num_note, st = extract_num_and_street(line_txt)
-            if st:
+            # Reattach partner/company suffix if it landed in trade (e.g. "and Co.", "& Sons", "& Taylor")
+        m_partner_tr = re.match(r"^((?:and|&)\s+(?:Co\.?|Sons?|Bros\.?|Brothers|[A-Z][a-z'\-]+))(?:\s*,\s*(.*))?$", trade, re.I)
+        if m_partner_tr and not trade.lower().startswith(("and at ", "and in ", "and civil ", "and town", "and land", "and portrait", "and house", "and free", "and library", "and wine")):
+            suffix_part = m_partner_tr.group(1).strip()
+            rest_tr = (m_partner_tr.group(2) or "").strip()
+            if suffix_part.lower() not in fmt.lower():
+                fmt = f"{fmt} {suffix_part}".strip()
+                name = f"{name} {suffix_part}".strip()
+            trade = rest_tr
                 notes = num_note
                 street = st
                 name_part = strip_addr_from_text(line_txt, num_note, st)
@@ -282,7 +290,15 @@ def build_trade_gazetteer(year: int, title: str, tsv_name: str, max_line: int | 
             if addr_idx is not None:
                 addr_blob = cleaned[addr_idx]
                 num_note, st = extract_num_and_street(addr_blob)
-                if st:
+                # Reattach partner/company suffix if it landed in trade (e.g. "and Co.", "& Sons", "& Taylor")
+        m_partner_tr = re.match(r"^((?:and|&)\s+(?:Co\.?|Sons?|Bros\.?|Brothers|[A-Z][a-z'\-]+))(?:\s*,\s*(.*))?$", trade, re.I)
+        if m_partner_tr and not trade.lower().startswith(("and at ", "and in ", "and civil ", "and town", "and land", "and portrait", "and house", "and free", "and library", "and wine")):
+            suffix_part = m_partner_tr.group(1).strip()
+            rest_tr = (m_partner_tr.group(2) or "").strip()
+            if suffix_part.lower() not in fmt.lower():
+                fmt = f"{fmt} {suffix_part}".strip()
+                name = f"{name} {suffix_part}".strip()
+            trade = rest_tr
                     notes = num_note
                     street = st
                 else:
@@ -433,7 +449,12 @@ def build_alphabetical_gazetteer(year: int, title: str, tsv_name: str, gentry_en
                     name, fmt = format_person(f"{c0}, {c1}", surname_first=True)
                     if name and name[0].isalpha() and name[0].upper() >= cur_alpha and ord(name[0].upper()) - ord(cur_alpha) <= 2:
                         cur_alpha = name[0].upper()
-                trade = c2
+                if c2 and re.match(r"^(?:and|&)\s+(?:Co\.?|Sons?|Bros\.?|Brothers)\b", c2, re.I):
+                    fmt = f"{fmt} {c2}".strip()
+                    name = f"{name} {c2}".strip()
+                    trade = trimmed[3] if len(trimmed) > 3 else ""
+                else:
+                    trade = c2
             else:
                 name, fmt = format_person(c0, surname_first=True)
                 trade = c1
@@ -479,7 +500,15 @@ def build_alphabetical_gazetteer(year: int, title: str, tsv_name: str, gentry_en
                 name, fmt = format_person(c0 or c1, surname_first=True)
                 trade = c2
 
-        if st:
+        # Reattach partner/company suffix if it landed in trade (e.g. "and Co.", "& Sons", "& Taylor")
+        m_partner_tr = re.match(r"^((?:and|&)\s+(?:Co\.?|Sons?|Bros\.?|Brothers|[A-Z][a-z'\-]+))(?:\s*,\s*(.*))?$", trade, re.I)
+        if m_partner_tr and not trade.lower().startswith(("and at ", "and in ", "and civil ", "and town", "and land", "and portrait", "and house", "and free", "and library", "and wine")):
+            suffix_part = m_partner_tr.group(1).strip()
+            rest_tr = (m_partner_tr.group(2) or "").strip()
+            if suffix_part.lower() not in fmt.lower():
+                fmt = f"{fmt} {suffix_part}".strip()
+                name = f"{name} {suffix_part}".strip()
+            trade = rest_tr
             trade = strip_addr_from_text(trade, num_note, st)
             st = st.lstrip("”\"' ").strip()
         if num_note:
