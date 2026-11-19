@@ -10,14 +10,14 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Acacia Avenue,,Springfield,John,Mrs.,,vision_ocr
 1936,Acacia Avenue,,The Grove,Betts,,,vision_ocr
 1936,Acacia Avenue,20,,,,Hunt,vision_ocr
-1936,Acacia Avenue,18,,Hammett,Chas.,cochbldr,vision_ocr
+1936,Acacia Avenue,18,,Hammett,Chas.,Coachbuilder,vision_ocr
 1936,Acacia Avenue,16,,Townshend,Cecil E.,plbr,vision_ocr
 1936,Acacia Avenue,14,,Challicombe,Fredk.,tram driver,vision_ocr
 1936,Acacia Avenue,12,,Jones,Edgar,ironworker,vision_ocr
 1936,Acacia Avenue,10,,Mills,Chas. C.,furnaceman,vision_ocr
-1936,Acacia Avenue,8,,Beaven,Geo. E.,carp'tr,vision_ocr
+1936,Acacia Avenue,8,,Beaven,Geo. E.,Carpenter,vision_ocr
 1936,Acacia Avenue,6,,Appleby,Frank,eng dvr,vision_ocr
-1936,Acacia Avenue,4,,Pearce,Edward,coal f'man,vision_ocr
+1936,Acacia Avenue,4,,Pearce,Edward,Coal Foreman,vision_ocr
 1936,Acacia Avenue,2,,Sheen,E. A.,G.W.R.,vision_ocr
 1936,Acacia Square,1,,Jones,Edw. G.,carpenter,vision_ocr
 1936,Acacia Square,2,,Smith,J.,ironworker,vision_ocr
@@ -707,7 +707,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Alice Street,19,,Pring,David,tugboatman,vision_ocr
 1936,Alice Street,21,,Pollock,Henry J.,,vision_ocr
 1936,Alice Street,23,,Hall,Mrs. Mabel,,vision_ocr
-1936,Alice Street,25,,Oakley,Edward A.,carp'tr,vision_ocr
+1936,Alice Street,25,,Oakley,Edward A.,Carpenter,vision_ocr
 1936,Alice Street,27,,Davies,Fredk.,eng dvr,vision_ocr
 1936,Alice Street,29,,Huggins,Frank L.,electcn,vision_ocr
 1936,Alice Street,31,,J.P.,W. G.,Rudd,vision_ocr
@@ -913,7 +913,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Allt-yr-yn Close,5,Highmead,Jeffreys,J.,teacher,vision_ocr
 1936,Allt-yr-yn Close,3,,Dix,Francis Y.,,vision_ocr
 1936,Allt-yr-yn Close,1a,High Bank,Limbrick,Percival Cliff,fish merch.,vision_ocr
-1936,Allt-yr-yn Close,1,Chaddesley,Antill,Thomas H.,trav'lr,vision_ocr
+1936,Allt-yr-yn Close,1,Chaddesley,Antill,Thomas H.,Traveller,vision_ocr
 1936,Allt-yr-yn Road,,Ridgetgate,Moore,Reg. B.,,vision_ocr
 1936,Allt-yr-yn Road,1,Bleak ho,Akers,James M.,,vision_ocr
 1936,Allt-yr-yn Road,3,Angorfa,Roberts,J. H.,,vision_ocr
@@ -4085,7 +4085,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Caerleon Road,386,,White,Mrs. Susan,,vision_ocr
 1936,Caerleon Road,384,,Jenkins,F.,G.W.R. insp,vision_ocr
 1936,Caerleon Road,382,,Pinkard,Frank,,vision_ocr
-1936,Caerleon Road,380,,Isaac,W. E.,com trav'lr,vision_ocr
+1936,Caerleon Road,380,,Isaac,W. E.,com Traveller,vision_ocr
 1936,Caerleon Road,378,,Wyatt,Percy J.,engnr,vision_ocr
 1936,Caerleon Road,376,,Vernall,Wm. C.,tinwkr,vision_ocr
 1936,Caerleon Road,374,,Murray,Edward P.,,vision_ocr
@@ -9365,7 +9365,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Dewsland Park Road,20,Angorfa,Jenkins,A. E.,,vision_ocr
 1936,Dewsland Park Road,22,Oakdene,Fawckner,Mrs. Percy,,vision_ocr
 1936,Dewsland Park Road,24,Breandown,Jenkins,D.,pilot,vision_ocr
-1936,Dewsland Park Road,26,Arwell,Deacon,G.,trav'lr,vision_ocr
+1936,Dewsland Park Road,26,Arwell,Deacon,G.,Traveller,vision_ocr
 1936,Dewsland Park Road,28,,Bale,Alfred,shipping supr,vision_ocr
 1936,Dewsland Park Road,30,Font Burn,Day,Geo. F.,secretary,vision_ocr
 1936,Dewsland Park Road,32,The Glebe,Dunn,Joseph,,vision_ocr
@@ -9387,7 +9387,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Dewsland Park Road,64,Anchorage,Jameson,John,H.M.C.,vision_ocr
 1936,Dewsland Park Road,66,Cheristow,Colwill,J.,bldr,vision_ocr
 1936,Dewsland Park Road,68,,,,Thomas,vision_ocr
-1936,Dewsland Park Road,70,,Matthews,J.,com trav'lr,vision_ocr
+1936,Dewsland Park Road,70,,Matthews,J.,com Traveller,vision_ocr
 1936,Dewsland Park Road,47,,Gapper F.,,pilot,vision_ocr
 1936,Dewsland Park Road,45,,Collings,Bertram,pilot,vision_ocr
 1936,Dewsland Park Road,43,,Channon,Harry,dock wkr,vision_ocr
@@ -15000,7 +15000,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Jones Street,,,,,Off Corporation-road,vision_ocr
 1936,Jones Street,,,,,(RIGHT HAND SIDE.),vision_ocr
 1936,Jones Street,2,,Griffiths,L.,ironworker,vision_ocr
-1936,Jones Street,4,,Aldridge,John H.,rlyman,vision_ocr
+1936,Jones Street,4,,Aldridge,John H.,Railwayman,vision_ocr
 1936,Jones Street,6,,Henley,George,,vision_ocr
 1936,Jones Street,8,,Sheehy,Christopher P.,clk,vision_ocr
 1936,Jones Street,10,,,,,vision_ocr
@@ -16082,7 +16082,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Llanwern Street,2,,Law,Geo.,engineer,vision_ocr
 1936,Llanwern Street,4,,Howell,Alf.,annealer,vision_ocr
 1936,Llanwern Street,,,Williams,H.,labourer,vision_ocr
-1936,Llanwern Street,6,,Colley,Ernest H.,carp'tr,vision_ocr
+1936,Llanwern Street,6,,Colley,Ernest H.,Carpenter,vision_ocr
 1936,Llanwern Street,8,,Dunleavie,Mrs. E.,,vision_ocr
 1936,Llanwern Street,10,,Williams,Alfd.,ins. agent,vision_ocr
 1936,Llanwern Street,,,Evans,Thos. J.,painter,vision_ocr
@@ -20445,7 +20445,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Prince Street,8,,Stevens,Harold,wireman,vision_ocr
 1936,Prince Street,9,,Corfield,Francis J.,labr,vision_ocr
 1936,Prince Street,10,,Hodkinson,L.,cycle fitter,vision_ocr
-1936,Prince Street,11,,Ley,Arthur Jas.,carp'tr,vision_ocr
+1936,Prince Street,11,,Ley,Arthur Jas.,Carpenter,vision_ocr
 1936,Prince Street,12,,Green,Walter,slate mason,vision_ocr
 1936,Prince Street,13,,East,William C.,collier,vision_ocr
 1936,Prince Street,14,,Gatehouse,Wyndham H.,tramdriver,vision_ocr
