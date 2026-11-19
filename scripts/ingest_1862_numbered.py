@@ -108,6 +108,8 @@ def clean_trade(trade: str) -> str:
     t = re.sub(r"\bh\.,?\s*[^;.]*$", "", t, flags=re.I)
     t = re.sub(r"\s*,\s*,+", ", ", t)
     t = re.sub(r"\s+", " ", t).strip(" ,.;:-")
+    if t.lower() in {"and", "&", "or", "at", "of"}:
+        return ""
     return t
 
 
@@ -206,6 +208,23 @@ def extract_rows(canonical_streets: dict[str, str]) -> tuple[list[dict], list[tu
                 parts = c_c2.split(",", 1)
                 forename = clean_name_part(parts[0])
                 trade = parts[1].strip()
+            # Pattern B0: c_c2 is lowercase -> c_c2 is actually trade, and c_c1 is full name/firm (e.g. 'Matthews Jno. | corn and flour dealer')
+            elif c_c1 and c_c2 and c_c2[0].islower() and not c_c2.startswith(("the ", "of ")):
+                trade = c_c2
+                if any(w in c_c1.lower() for w in [" & ", " and ", "co.", "son", "bros", "brothers"]):
+                    surname = clean_case(c_c1)
+                    forename = ""
+                elif re.match(r"^(Mc\.?\s+[A-Z][a-z'\-]+)\s+(.+)$", c_c1):
+                    m_mc = re.match(r"^(Mc\.?\s+[A-Z][a-z'\-]+)\s+(.+)$", c_c1)
+                    surname = clean_case(m_mc.group(1))
+                    forename = clean_name_part(m_mc.group(2))
+                elif " " in c_c1:
+                    first_w, rest_w = c_c1.split(" ", 1)
+                    surname = clean_case(first_w)
+                    forename = clean_name_part(rest_w)
+                else:
+                    surname = clean_case(c_c1)
+                    forename = ""
             # Pattern B: Forename in c_c1, Surname in c_c2 (e.g. L629..639 'Margaret | Harris', L872 'James & Son | Lewis')
             elif c_c1 and c_c2 and (
                 (looks_like_forename(c_c1) and not looks_like_forename(c_c2) and len(c_c2.split()) == 1)

@@ -1,9 +1,9 @@
 year,street,house_number,building_name,surname,forename,trade,source_type
 1862,Albert Terrace,5,,Clarke,Mrs.,laundress,commercial_directory
-1862,Albion Street,1,,Mc Lean Alexander,carpenter,Pill,commercial_directory
+1862,Albion Street,1,,Mc Lean,Alexander,carpenter,commercial_directory
 1862,Albion Street,2,,Taylor,Charles,"mason, Pill",commercial_directory
 1862,Albion Street,6,,Bourne,Rev. F. W.,,commercial_directory
-1862,Albion Street,7,,Marshall Samuel,mariner,,commercial_directory
+1862,Albion Street,7,,Marshall,Samuel,mariner,commercial_directory
 1862,Albion Street,11,,Griffiths,Thomas,"master mariner, Pill",commercial_directory
 1862,Albion Street,12,,Freeman,Samuel,"shopkeeper, Pill",commercial_directory
 1862,Albion Street,14,,Williams,Charles,carpenter,commercial_directory
@@ -18,7 +18,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1862,Bailey Street,46,,Hill,Alfred,boot and shoemaker,commercial_directory
 1862,Baneswell Road,3,,Grant,Jno.,tailor,commercial_directory
 1862,Baneswell Road,3,,James,John,"painter, plumber and glazier",commercial_directory
-1862,Blewitt Street,1,,Mealing Richard,beer retailer,Baneswell,commercial_directory
+1862,Blewitt Street,1,,Mealing,Richard,beer retailer,commercial_directory
 1862,Blewitt Street,4,,Williams,Joshua,"master mariner, Baneswell",commercial_directory
 1862,Blewitt Street,16,,Smith,R. J.,policeman,commercial_directory
 1862,Blewitt Street,17,,Evan,Thomas,"clerk, Baneswell",commercial_directory
@@ -26,7 +26,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1862,Blewitt Street,57,,Baker,James,shoemaker,commercial_directory
 1862,Blewitt Street,63,,Thomas,Mrs. Mary,"day school, Baneswell",commercial_directory
 1862,Blewitt Street,67,,Davies,William,butcher,commercial_directory
-1862,Blewitt Street,68,,Marshall Alfred,grocer & baker,Baneswell,commercial_directory
+1862,Blewitt Street,68,,Marshall,Alfred,grocer & baker,commercial_directory
 1862,Bolt Street,14,,James,Jas.,tidewaiter,commercial_directory
 1862,Bolt Street,15,,Tuplin,Thomas,master mariner,commercial_directory
 1862,Bolt Street,16,,Williams,Thomas,master mariner,commercial_directory
@@ -40,7 +40,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1862,Cambria Place,1,,Wrightson,Robert,"Welsh and Staffordshire iron broker, agent to Adams & Co., railway and tram waggon manufacturer, Birmingham, Stow hill",commercial_directory
 1862,Cambria Place,2,,Oxley,John A.,"maltster and hop merchant, Stow-hill",commercial_directory
 1862,Cambria Place,3,,Handy,John,deputy town clerk,commercial_directory
-1862,Cambria Place,4,,Jewell and Ponder,dyers and scourers,Jewell and Ponder,commercial_directory
+1862,Cambria Place,4,,Jewell and Ponder,,dyers and scourers,commercial_directory
 1862,Cambria Place,4,,Philip,John,draper,commercial_directory
 1862,Cambria Place,5,,Arthur John,Murphy,"agent to the Blaenavon Company, Blaenavon Wharf",commercial_directory
 1862,Cambria Place,6,,Aitchison,William Rev. (Baptist),,commercial_directory
@@ -96,7 +96,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1862,Church Street,3,,Munday,Samuel,grocer,commercial_directory
 1862,Church Street,4,,Lewis,John,"“Tredegar Arms,”",commercial_directory
 1862,Church Street,5,,Hopkins,Charles,hair dresser,commercial_directory
-1862,Church Street,8,,Manning Stephen,master mariner,Pill,commercial_directory
+1862,Church Street,8,,Manning,Stephen,master mariner,commercial_directory
 1862,Church Street,8,,Powell,Mrs.,beer retailer,commercial_directory
 1862,Church Street,9,,Morgan,Thomas,earthenware dealer,commercial_directory
 1862,Church Street,10,,Wilton,Patrick,"beer retailer, Pill",commercial_directory
@@ -126,7 +126,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1862,Club Row,29,,Pell,James,confectioner,commercial_directory
 1862,Commercial Road,6,,Evans,Geo.,beer retailer,commercial_directory
 1862,Commercial Road,8,,Church,Charles,beer retailer,commercial_directory
-1862,Commercial Road,9,,Martin Richard,lodgings,,commercial_directory
+1862,Commercial Road,9,,Martin,Richard,lodgings,commercial_directory
 1862,Commercial Road,10,,Carter,Valentine,butcher,commercial_directory
 1862,Commercial Road,10,,Hopgood,Richard,master mariner,commercial_directory
 1862,Commercial Road,11,,Howard,William,chemist and tobacconist,commercial_directory
@@ -144,7 +144,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1862,Commercial Road,22,,Walker,James,clock and watchmaker,commercial_directory
 1862,Commercial Road,24,,Philip Henry,Furney,inland revenue officer,commercial_directory
 1862,Commercial Road,25,,Dixon,George,grocer and publican,commercial_directory
-1862,Commercial Road,28,,Miller William,beer retailer,,commercial_directory
+1862,Commercial Road,28,,Miller,William,beer retailer,commercial_directory
 1862,Commercial Road,29,,Stock,Charles,butcher,commercial_directory
 1862,Commercial Road,32,,Wilde,Samuel,bill discounter,commercial_directory
 1862,Commercial Road,33,,Taylor,Henry,confectioner,commercial_directory
@@ -158,7 +158,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1862,Commercial Road,42,,Amelia,Pollock,beer retailer,commercial_directory
 1862,Commercial Road,44,,Jacob,Jones,beer retailer,commercial_directory
 1862,Commercial Road,46,,Wall,Thomas,green grocer,commercial_directory
-1862,Commercial Road,47,,Row,grocer and beer retailer,"Row Matthew, grocer and beer retailer",commercial_directory
+1862,Commercial Road,47,,Row,,grocer and beer retailer,commercial_directory
 1862,Commercial Road,49,,Harse,George,green grocer,commercial_directory
 1862,Commercial Road,50,,Thomas,D.,"Thomas, schoolmaster",commercial_directory
 1862,Commercial Road,51,,Chapman,Edward,shoemaker,commercial_directory
@@ -168,7 +168,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1862,Commercial Road,56,,Ray,"Henry, sen.",pilot,commercial_directory
 1862,Commercial Road,57,,Gratte,Henry,chemist and druggist,commercial_directory
 1862,Commercial Road,59,,Jones,Mrs. Martha,,commercial_directory
-1862,Commercial Road,60,,Marsh Thomas,china and earthenware dealer,,commercial_directory
+1862,Commercial Road,60,,Marsh,Thomas,china and earthenware dealer,commercial_directory
 1862,Commercial Road,65,,Hartree,Thomas,boot and shoe maker,commercial_directory
 1862,Commercial Road,71,,Beynon,Morgan,shipping agent,commercial_directory
 1862,Commercial Road,72,,Scantlebury,James,master mariner,commercial_directory
@@ -189,8 +189,8 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1862,Commercial Road,86,,Wells,George,grocer,commercial_directory
 1862,Commercial Road,87,,Griffiths,William,tailor,commercial_directory
 1862,Commercial Road,88,,Kerslake,William,"steam flour mills, and baker and grocer",commercial_directory
-1862,Commercial Road,89,,Mogg and Frost,milliners and dressmakers,,commercial_directory
-1862,Commercial Road,89,,Monoy Myers,pawnbroker,,commercial_directory
+1862,Commercial Road,89,,Mogg and Frost,,milliners and dressmakers,commercial_directory
+1862,Commercial Road,89,,Monoy,Myers,pawnbroker,commercial_directory
 1862,Commercial Road,90,,Davies,Richard,linen draper,commercial_directory
 1862,Commercial Road,90,,Linen,Richard,draper,commercial_directory
 1862,Commercial Road,91,,Davies,Richard,linen draper,commercial_directory
@@ -213,12 +213,12 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1862,Commercial Road,108,,Turk,John,beer retailer,commercial_directory
 1862,Commercial Road,109,,Constable,Walter,baker and grocer,commercial_directory
 1862,Commercial Road,110,,Power,Edward,beer retailer,commercial_directory
-1862,Commercial Road,112,,Miles Charles,greengrocer,,commercial_directory
+1862,Commercial Road,112,,Miles,Charles,greengrocer,commercial_directory
 1862,Commercial Road,115,,Harris,Margaret,bakery,commercial_directory
 1862,Commercial Road,116,,Hilton,James,"Bristow, grocer",commercial_directory
 1862,Commercial Road,117,,Baker,James,draper,commercial_directory
 1862,Commercial Road,118,,Bean,James,boot and shoemaker,commercial_directory
-1862,Commercial Road,118,,Mc. Bean James,boot and shoe maker,,commercial_directory
+1862,Commercial Road,118,,Mc. Bean,James,boot and shoe maker,commercial_directory
 1862,Commercial Road,120,,Skinnerty,Henry,green grocer,commercial_directory
 1862,Commercial Road,121,,Williams,Ann,grocer,commercial_directory
 1862,Commercial Road,123,,Gregory,Thomas,butcher,commercial_directory
@@ -248,7 +248,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1862,Commercial Road,154,,Jones,Miss Catherine,lodging house keeper,commercial_directory
 1862,Commercial Road,155,,Enoch,Griffiths,grocer,commercial_directory
 1862,Commercial Road,156,,Baker,Agnes Eliza,schoolmistress,commercial_directory
-1862,Commercial Road,157,,Mayo Thomas,boot and shoemaker,,commercial_directory
+1862,Commercial Road,157,,Mayo,Thomas,boot and shoemaker,commercial_directory
 1862,Commercial Road,158,,Griffiths,James,pilot,commercial_directory
 1862,Commercial Road,159,,Collings,W. M.,"painter, plumber, and glazier",commercial_directory
 1862,Commercial Road,161,,Ball,Josiah,beer retailer,commercial_directory
@@ -287,7 +287,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1862,Commercial Street,7,,Christopher,William,"printer, bookseller, stationer, and news agent, and agent for the Birmingham Fire and Eagle Life Assurance and Guarantee Society",commercial_directory
 1862,Commercial Street,7,,"The Monmouthshire Merlin, published every Friday, by William Christophers, of 7, Commercial street, at the Merlin Office, 15, Commercial street",,,commercial_directory
 1862,Commercial Street,8,,Caldicott,Mrs.,milliner and straw bonnet maker,commercial_directory
-1862,Commercial Street,9,,Matthews Isaac,boot and shoemaker,,commercial_directory
+1862,Commercial Street,9,,Matthews,Isaac,boot and shoemaker,commercial_directory
 1862,Commercial Street,10,,Richards,Richard,saddler and harness maker,commercial_directory
 1862,Commercial Street,11,,Pearman,Henry,"pharmaceutical chemist, &c",commercial_directory
 1862,Commercial Street,12,,Capella,James,"jeweller, cutler, hardware-man, and nautical instrument maker",commercial_directory
@@ -297,7 +297,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1862,Commercial Street,16,,Mullock,Henry,printer and stationer,commercial_directory
 1862,Commercial Street,16,,"The Newport Advertiser, monthly, by Henry Mullock, 16, Commercial street",,,commercial_directory
 1862,Commercial Street,17,,Evans,William,"wholesale and retail grocer and provision merchant, *, office and Stores, Corn street",commercial_directory
-1862,Commercial Street,19,,Matthews Wm. R. & Co.,"tea, coffee, and provision merchants",and Skinner street,commercial_directory
+1862,Commercial Street,19,,Matthews Wm. R. & Co.,,"tea, coffee, and provision merchants",commercial_directory
 1862,Commercial Street,20,,Poole,Henry and Son,"engineers and patentees of platform weighing machines, weigh bridges, &c., works, Liverpool, (See advt.)",commercial_directory
 1862,Commercial Street,21,,Oliver,Charles Henry,"printer, bookseller, and stationer",commercial_directory
 1862,Commercial Street,22,,Hugh,Morgan,butcher,commercial_directory
@@ -311,7 +311,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1862,Commercial Street,31,,Pritchard,Brothers,"grocers; tea dealers, &c., and",commercial_directory
 1862,Commercial Street,32,,Bradbury,Joseph,toy dealer,commercial_directory
 1862,Commercial Street,35,,"and Co., auctioneers and estate agents, 35, Commercial street",Graham,,commercial_directory
-1862,Commercial Street,36,,Isaacs,and Son,"pawnbrokers, silversmiths, and outfitters",commercial_directory
+1862,Commercial Street,36,,Isaacs,,and Son,commercial_directory
 1862,Commercial Street,37,,John,Mrs. Ann,"""Hare and Greyhound"" wine and spirit vaults",commercial_directory
 1862,Commercial Street,38,,Davies,Joseph,boot and shoemaker,commercial_directory
 1862,Commercial Street,39,,Wells,Frederick Craft,grocer and tea dealer,commercial_directory
@@ -361,14 +361,14 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1862,Commercial Street,83,,Lloyd,W. J.,stationer and bookseller,commercial_directory
 1862,Commercial Street,92,,Phillips,Jno.,chemist and druggist,commercial_directory
 1862,Commercial Street,93,,Phillips,Charles,"""William the Fourth Commercial Hotel and Posting House,""",commercial_directory
-1862,Commercial Street,100,,hairdresser,James,"James, hairdresser",commercial_directory
+1862,Commercial Street,100,,James,,hairdresser,commercial_directory
 1862,Commercial Street,101,,Harrison,Mary Ann,milliner and dressmaker,commercial_directory
 1862,Commercial Street,101,,Jenkins,John,master mariner,commercial_directory
-1862,Commercial Street,102,,Marsh Joseph,seedsman,,commercial_directory
+1862,Commercial Street,102,,Marsh,Joseph,seedsman,commercial_directory
 1862,Commercial Street,104,,Heffer,Thos.,plumber,commercial_directory
 1862,Commercial Street,105,,Evans,Henry and Co.,"printers, lithographers, and general commission and insurance agents",commercial_directory
 1862,Commercial Street,106,,Powell,James,boot and shoemaker,commercial_directory
-1862,Commercial Street,107,,Matthews Jno.,corn and flour dealer,and,commercial_directory
+1862,Commercial Street,107,,Matthews,Jno.,corn and flour dealer,commercial_directory
 1862,Commercial Street,109,,Harry,Edward,printer,commercial_directory
 1862,Commercial Street,109,,Horton,Thos.,“Victoria Inn”,commercial_directory
 1862,Commercial Street,109,,Partridge,Henry Mitchell,"auctioneer and appraiser, house, estate and land agent ; agent to the English and Scottish Life Assurance and Loan Association, Leeds and Yorkshire Insurance Co., Bristol, West of England and South Wales Building Society, &c., ; h., 3, St. Woollos place",commercial_directory
@@ -403,7 +403,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1862,Commercial Street,134,,Pugh,Thomas,signal fitter and cabinet maker,commercial_directory
 1862,Commercial Street,135,,Evans,William,tailor and draper,commercial_directory
 1862,Commercial Street,136,,King,Chas.,,commercial_directory
-1862,Commercial Street,136,,Mills Samuel,"plumber, painter, and glazier","""Tradesman's Arms,""",commercial_directory
+1862,Commercial Street,136,,Mills,Samuel,"plumber, painter, and glazier",commercial_directory
 1862,Commercial Street,137,,"William, and Co.",Jones,"painter, plumber and glazier, cabinet makers ""Prince of Wales""",commercial_directory
 1862,Commercial Street,138,,Flowers,John,shoemaker,commercial_directory
 1862,Commercial Street,139,,Aston,Alfred,ironmonger,commercial_directory
@@ -417,12 +417,12 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1862,Commercial Street,148,,Joyner,Wm.,"""Parrot Commercial Hotel""",commercial_directory
 1862,Commercial Street,149,,Greenland,William G.,""" Rum Puncheon,""",commercial_directory
 1862,Commercial Street,150,,Woollett,Thos. Esq.,,commercial_directory
-1862,Commercial Street,151,,Middleton Jno.,"ironmonger brazier, bell-hanger and gas-fitter",,commercial_directory
+1862,Commercial Street,151,,Middleton,Jno.,"ironmonger brazier, bell-hanger and gas-fitter",commercial_directory
 1862,Commercial Street,153,,Brewer,"Jehoida, Esq.",,commercial_directory
 1862,Commercial Street,153,,Brewer,Jehorida,surgeon,commercial_directory
 1862,Commercial Street,155,,Morgan,C. E.,draper,commercial_directory
 1862,Commercial Street,157,,Watkins,William,hatter,commercial_directory
-1862,Commercial Street,158,,Mills Charles,tailor and draper,,commercial_directory
+1862,Commercial Street,158,,Mills,Charles,tailor and draper,commercial_directory
 1862,Commercial Street,159,,Morgan,Edward,butcher,commercial_directory
 1862,Commercial Street,160,,Brixey,William,staymaker,commercial_directory
 1862,Commercial Street,161,,Stewart,John,"""The Old Bush Inn,""",commercial_directory
@@ -431,13 +431,13 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1862,Commercial Street,163,,Gardiner,Wm.,draper,commercial_directory
 1862,Commercial Street,166,,Evans,Benjamin,"silk mercer, draper, and carpet factor, ""London House,""",commercial_directory
 1862,Commercial Street,167,,Evans,Benjamin,"silk mercer, draper, and carpet factor, ""London House,""",commercial_directory
-1862,Commercial Street,169,,Jewell and Ponder,dyers and scourers,Jewell and Ponder,commercial_directory
+1862,Commercial Street,169,,Jewell and Ponder,,dyers and scourers,commercial_directory
 1862,Commercial Street,169,,Philip,John,draper,commercial_directory
 1862,Commercial Street,170,,Thomas,David,confectioner,commercial_directory
 1862,Commercial Street,170,,Thomas,John,confectioner,commercial_directory
 1862,Commercial Street,171,,Brothers,Garrett,chemists and druggists,commercial_directory
 1862,Commercial Street,172,,Wood,Henry,tailor and draper,commercial_directory
-1862,Commercial Street,173,,Mason John,grocer and tea dealer,,commercial_directory
+1862,Commercial Street,173,,Mason John,,grocer and tea dealer,commercial_directory
 1862,Commercial Street,174,,Brian,John,tailor and woollen draper,commercial_directory
 1862,Commercial Street,175,,Hurndall,Henry,draper,commercial_directory
 1862,Commercial Wharf,100,,James,William,shopkeeper,commercial_directory
@@ -463,7 +463,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1862,Devon Place,31,,Lawrence,Moore,contractor and builder,commercial_directory
 1862,Devon Place,35,,Brown,John,hay dealer,commercial_directory
 1862,Devon Place,36,,Reeves,Rev. Geo.,,commercial_directory
-1862,Devon Place,38,,Martin Jno.,clerk,,commercial_directory
+1862,Devon Place,38,,Martin,Jno.,clerk,commercial_directory
 1862,Devon Place,39,,Chandler,F. R.,"""Collegiate school""",commercial_directory
 1862,Dock Parade,2,,Thompson,James,"agent to Sir Thomas Phillips, Pillgwenlly",commercial_directory
 1862,Dock Parade,3,,Parfitt,Miss Elizabeth,(lodgings),commercial_directory
@@ -556,7 +556,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1862,George Street,44,,Donnelly,John,tailor,commercial_directory
 1862,George Street,46,,Lloyd,Mrs. Ann,,commercial_directory
 1862,George Street,48,,Robins,James,beer retailer and grocer,commercial_directory
-1862,George Street,55,,Matthews Jno.,corn and flour dealer,and,commercial_directory
+1862,George Street,55,,Matthews,Jno.,corn and flour dealer,commercial_directory
 1862,George Street,56,,Adams,Richard,shopkeeper,commercial_directory
 1862,Graham Street,1,,Wheeler,Moses,grocer and shoemaker,commercial_directory
 1862,Griffin Street,2,,Townsend,Joseph,cabinet maker,commercial_directory
@@ -574,14 +574,14 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1862,High Street,16,,Whitchurch,John,boot and shoemaker,commercial_directory
 1862,High Street,17,,Bowman,John,"Frederick, baker, and",commercial_directory
 1862,High Street,18,,Watkins,William,"""Bunch of Grapes,""",commercial_directory
-1862,High Street,19,,Meredith John,furnishing and agricultural ironmonger,,commercial_directory
+1862,High Street,19,,Meredith,John,furnishing and agricultural ironmonger,commercial_directory
 1862,High Street,20,,Phillips,Edward J.,chemist and druggist,commercial_directory
 1862,High Street,21,,Owen,D. G.,,commercial_directory
 1862,High Street,21,,Owen,John Gwynne,Herbert,commercial_directory
 1862,High Street,22,,Wells,Nugent,"watch, clock, and chronometer maker, and practical optician",commercial_directory
 1862,High Street,23,,Boulton,John,"“Crown Hotel,”",commercial_directory
 1862,High Street,24,,& Co.,Fowler,woollen drapers and general outfitters,commercial_directory
-1862,High Street,26,,Little and Son,merchant tailors,,commercial_directory
+1862,High Street,26,,Little and Son,,merchant tailors,commercial_directory
 1862,High Street,27,,Dew,Henry,linen and woolen draper,commercial_directory
 1862,High Street,27,,Pritchard,Brothers,"grocers; tea dealers, &c., and",commercial_directory
 1862,High Street,30,,Evans,Richard B.,linen and woollen drapers,commercial_directory
@@ -629,7 +629,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1862,Hill Street,24,,Prosser,Mr. John,,commercial_directory
 1862,Hill Street,25,,Williams,Thomas,carpenter and builder,commercial_directory
 1862,Hill Street,26,,Tombs,Mrs.,,commercial_directory
-1862,Hill Street,28,,Jones and Co.,hat manufacturers,Jones and Co,commercial_directory
+1862,Hill Street,28,,Jones and Co.,,hat manufacturers,commercial_directory
 1862,Hill Street,28,,Spencer,Mrs.,boarding and day school,commercial_directory
 1862,Hill Street,31,,Collins,Miss L. J.,dress and mantle maker,commercial_directory
 1862,Hill Street,32,,Dibble,Jane,milliner,commercial_directory
@@ -659,7 +659,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1862,Llanarth Street,22,,Goddard,James,organ builder,commercial_directory
 1862,Llanarth Street,25,,Keyser,James,brewer and corn merchant,commercial_directory
 1862,Llanarth Street,28,,Roberts,F. H.,"schoolmaster, Charles street",commercial_directory
-1862,Llanarth Street,29,,Smith & Co.,"carriers, offices","Smith & Co., carriers, offices",commercial_directory
+1862,Llanarth Street,29,,Smith & Co.,,"carriers, offices",commercial_directory
 1862,Llanarth Street,33,,Pritchard,Mrs.,beer retailer,commercial_directory
 1862,Llanarth Street,34,,Evans,Wm.,Temperance Hotel,commercial_directory
 1862,Llanarth Street,39,,Chapman,Mark,"plumber, painter and glazier",commercial_directory
@@ -691,7 +691,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1862,Morgan Street,4,,Williams,Miss,"milliner, &c",commercial_directory
 1862,Morgan Street,5,,Jackson,J. E.,builder,commercial_directory
 1862,Morgan Street,5,,Jackson,Mrs.,French stay maker,commercial_directory
-1862,Morgan Street,6,,Mc Fee William,ballast master,,commercial_directory
+1862,Morgan Street,6,,Mc Fee,William,ballast master,commercial_directory
 1862,Morgan Street,9,,R. and C. Co.,Hill,superintendent of police for Mon. R. and C. Co,commercial_directory
 1862,Morgan Street,10,,Herd,W. E.,clerk,commercial_directory
 1862,Mountjoy Place,2,,Jones,Abraham,master mariner,commercial_directory
@@ -776,10 +776,10 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1862,Ruperra Street,18,,Seymour,Charles,builder,commercial_directory
 1862,Ruperra Street,20,,Vines,Mary,beer retailer,commercial_directory
 1862,Ruperra Street,23,,Little,Thomas,travelling draper and tea dealer,commercial_directory
-1862,Ruperra Street,36,,Miles David,carpenter and builder and patent window sashes manufacturer,,commercial_directory
+1862,Ruperra Street,36,,Miles,David,carpenter and builder and patent window sashes manufacturer,commercial_directory
 1862,Ruperra Street,40,,Davies,Thomas,tailor,commercial_directory
 1862,Skinner Street,2,,Dale,Ludlow,ale and porter agent,commercial_directory
-1862,Skinner Street,4,,Michael B. & Co.,provision factors and commission merchants,,commercial_directory
+1862,Skinner Street,4,,Michael B. & Co.,,provision factors and commission merchants,commercial_directory
 1862,Skinner Street,10,,Nibley,Charles,sheriff's officer,commercial_directory
 1862,Skinner Street,11,,Lewis,D. W.,tallow chandler,commercial_directory
 1862,South Market Street,23,,Thomas,Robert,grocer,commercial_directory
@@ -790,8 +790,8 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1862,Stow Hill,1,,Clements,Abraham,"chemist and druggist, and stamp office",commercial_directory
 1862,Stow Hill,1,,Clements,J. M. and W.,ale and porter merchants,commercial_directory
 1862,Stow Hill,1,,"Stamp Office, 1, Stow hill.",,,commercial_directory
-1862,Stow Hill,2,,Prothero,and Fox,solicitors,commercial_directory
-1862,Stow Hill,5,,Woodhouse (Secretan),and Colborne,"solicitors, solicitors to the Rhymney Railway Co",commercial_directory
+1862,Stow Hill,2,,Prothero,,and Fox,commercial_directory
+1862,Stow Hill,5,,Woodhouse,(Secretan),and Colborne,commercial_directory
 1862,Stow Hill,7,,Trigg,Philip,beer retailer,commercial_directory
 1862,Stow Hill,9,,Rosser,Henry,grocer & baker,commercial_directory
 1862,Stow Hill,10,,Thomas,Mr. Benjamin,,commercial_directory
@@ -805,7 +805,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1862,Stow Hill,23,,Jones,Thomas,chartering agent to the E'Vab Co,commercial_directory
 1862,Stow Hill,24,,Gwyther,Miss,dress and mantle maker,commercial_directory
 1862,Stow Hill,32,,Watts,Thomas,agent,commercial_directory
-1862,Stow Hill,34,,Matthews Elizabeth,beer retailer,,commercial_directory
+1862,Stow Hill,34,,Matthews,Elizabeth,beer retailer,commercial_directory
 1862,Stow Hill,35,,Coles,Mrs. Hannah,upholsteress and nurse,commercial_directory
 1862,Stow Hill,37,,Roberts,James,clerk St. Woollos Church,commercial_directory
 1862,Stow Hill,39,,Knife,William,groer,commercial_directory
@@ -820,7 +820,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1862,Stow Hill,98,,Llewellin,Mr. Thomas,,commercial_directory
 1862,Stow Hill,99,,Gregory,Henry,"maltster and brewer, Cambrian brewery, Baneswell",commercial_directory
 1862,Stow Hill,100,,Moses,Mr. John,,commercial_directory
-1862,Stow Hill,101,,Mason John,grocer and tea dealer,,commercial_directory
+1862,Stow Hill,101,,Mason John,,grocer and tea dealer,commercial_directory
 1862,Stow Hill,103,,Weston,William,stationer,commercial_directory
 1862,Stow Hill,105,,Phillips,Mrs.,,commercial_directory
 1862,Stow Hill,106,,Wilkes,Thomas,veterinary surgeon,commercial_directory
