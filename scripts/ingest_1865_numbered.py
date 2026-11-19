@@ -105,6 +105,7 @@ def clean_trade(trade: str) -> str:
     t = trade.replace("\\N", " ").strip()
     t = re.sub(r"\bPriv\.?\s*res\.?[^;.]*", "", t, flags=re.I)
     t = re.sub(r"\(see advt\.[^)]*\)", "", t, flags=re.I)
+    t = re.sub(r"\bdye,\s*&c\.?", "dyer, &c.", t, flags=re.I)
     t = re.sub(r"\s*,\s*,+", ", ", t)
     t = re.sub(r"\s+", " ", t).strip(" ,.;:-")
     return t
