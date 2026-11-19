@@ -20,6 +20,22 @@ NUM_STREET_RE = re.compile(
     r"(?:[Ss]treet|[Ss]t\.?|[Rr]oad|[Rr]d\.?|[Hh]ill|[Pp]lace|[Pp]l\.?|[Pp]arade|[Rr]ow|[Tt]errace|[Tt]er\.?|[Ll]ane|[Ll]n\.?|[Ss]quare|[Ss]q\.?|[Ww]harf|[Cc]ourt))",
 )
 
+FIRM_RE = re.compile(
+    r"(?:\bCompany\b|\bCompy\b|\bSociety\b|\bBank\b|\bWorks\b|\bHotel\b|\bInn\b|\bTavern\b|\bOffice\b|\bRailway\b|\bSchool\b|\bCo\.?\b|\bBros\.?\b|\bBrothers\b|\bSons?\b|\band\b|&)",
+    re.I,
+)
+TITLE_PREFIX_RE = re.compile(r"^(?:Mr\.?|Mrs\.?|Miss|Misses|Rev\.?|Dr\.?|Sir|Capt\.?|Captain|Major|Col\.?|Colonel|Gen\.?|The)\b", re.I)
+SUFFIX_ONLY_RE = re.compile(r"^(?:Esq\.?|J\.?P\.?|M\.?D\.?|M\.?A\.?|C\.?E\.?|jun\.?|sen\.?|Bart\.?)(?:[,\s]+(?:Esq\.?|J\.?P\.?|M\.?D\.?|M\.?A\.?|C\.?E\.?|jun\.?|sen\.?|Bart\.?))*$", re.I)
+COMMON_FORENAMES = {
+    "william", "wm.", "john", "jno.", "thomas", "thos.", "james", "jas.",
+    "george", "geo.", "henry", "hy.", "charles", "chas.", "edward", "edwd.",
+    "samuel", "richard", "richd.", "robert", "robt.", "joseph", "benjamin",
+    "alfred", "edwin", "frederick", "walter", "david", "daniel", "stephen",
+    "arthur", "alexander", "adam", "amelia", "alice", "margaret", "mary", "ann",
+    "elizabeth", "jane", "sarah", "harriet", "maria", "eliza", "catherine", "ellen",
+    "mrs.", "mr.", "miss", "misses", "rev.", "dr.",
+}
+
 
 def clean_cell(c: str) -> str:
     c = c.strip()
@@ -50,6 +66,50 @@ def extract_num_and_street(text: str) -> tuple[str, str]:
     return "", ""
 
 
+def format_person(raw_name: str, surname_first: bool = True) -> tuple[str, str]:
+    """Return (name, formatted_name) with formatted_name in Forename Surname order."""
+    s = re.sub(r"\s+", " ", raw_name).strip(" ,.;:-*")
+    if not s:
+        return "", ""
+
+    # Handle "Surname, Forename" (e.g. "Allen, Rev. William"), but do NOT flip suffixes like "George, Esq."
+    if "," in s:
+        p1, p2 = [p.strip() for p in s.split(",", 1)]
+        if p1 and p2 and not FIRM_RE.search(p1) and not SUFFIX_ONLY_RE.match(p2):
+            sur = clean_case(p1)
+            fore = clean_case(p2) if p2.isupper() else p2
+            return f"{sur}, {fore}", f"{fore} {sur}".strip()
+        return clean_case(s), clean_case(s)
+
+    # Do not flip firms, companies, or already-titled names ("Sir Charles G. Morgan", "Rev. John Jones")
+    if FIRM_RE.search(s) or TITLE_PREFIX_RE.match(s):
+        return clean_case(s), clean_case(s)
+
+    if surname_first and " " in s:
+        # Handle "Mc Lean Alexander" / "Mc. Bean James"
+        m_mc = re.match(r"^(Mc\.?\s+[A-Z][a-z'\-]+)\s+(.+)$", s)
+        if m_mc:
+            sur = clean_case(m_mc.group(1))
+            fore = clean_case(m_mc.group(2)) if m_mc.group(2).isupper() else m_mc.group(2)
+            return f"{sur}, {fore}", f"{fore} {sur}".strip()
+        first_w, rest_w = s.split(" ", 1)
+        sur = clean_case(first_w)
+        fore = clean_case(rest_w) if rest_w.isupper() else rest_w
+        return f"{sur}, {fore}", f"{fore} {sur}".strip()
+
+    return clean_case(s), clean_case(s)
+
+
+def strip_addr_from_text(text: str, num_note: str, street: str) -> str:
+    t = text
+    if num_note and street:
+        num = num_note.replace("No. ", "")
+        t = re.sub(re.escape(num) + r",?\s*" + re.escape(street), "", t, flags=re.I)
+    if street:
+        t = re.sub(r",?\s*" + re.escape(street) + r".*$", "", t, flags=re.I)
+    return t.strip(" ,.;:-")
+
+
 def build_trade_gazetteer(year: int, title: str, tsv_name: str, max_line: int | None = None, default_narrative: str = "") -> dict:
     """Parse trade-classified directories (1844, 1850, 1858)."""
     with open(RAW_DIR / tsv_name, encoding="utf-8", errors="replace") as f:
@@ -71,12 +131,10 @@ def build_trade_gazetteer(year: int, title: str, tsv_name: str, max_line: int | 
         if not non_empty:
             continue
 
-        # Capture narrative paragraphs (long prose sentences)
         if len(non_empty) == 1 and len(non_empty[0]) > 140 and not is_heading(non_empty[0]):
             narrative_parts.append(non_empty[0])
             continue
 
-        # Check standalone heading
         if len(set(non_empty)) == 1 and is_heading(non_empty[0]):
             h = non_empty[0].strip(" .:")
             if any(k in h.upper() for k in ("NOBILITY", "GENTRY", "CLERGY")):
@@ -86,15 +144,13 @@ def build_trade_gazetteer(year: int, title: str, tsv_name: str, max_line: int | 
                 cur_cat = h.title()
             continue
 
-        # Trim leading blanks
         trimmed = cells[:]
         while trimmed and trimmed[0] == "":
             trimmed.pop(0)
 
-        # Check inline category in trimmed (e.g. 1844: ['Thomas', 'David', 'GROCERS & TEA DEALERS.', '', 'Skinner st'] or 1850: ['Bakers & Flour Dealers', 'Clunn Charles', 'Commercial st'])
         row_cat = None
         cleaned = []
-        for pos, c in enumerate(trimmed):
+        for c in trimmed:
             if is_heading(c):
                 h = c.strip(" .:")
                 if any(k in h.upper() for k in ("NOBILITY", "GENTRY", "CLERGY")):
@@ -109,7 +165,6 @@ def build_trade_gazetteer(year: int, title: str, tsv_name: str, max_line: int | 
         if not cleaned:
             continue
 
-        # 1850 pattern: ['Bakers & Flour Dealers', 'Clunn Charles', 'Commercial st']
         if year == 1850 and len(cleaned) >= 2 and re.search(r"(?:&|Dealers|Makers|Agents|Grocers|Tailors|Builders|Butchers|Merchants|Schools|Inns|Taverns|Chemists|Drapers|Printers|Surgeons|Solicitors)", cleaned[0]) and not STREET_HINT_RE.search(cleaned[0]):
             row_cat = cleaned[0].strip(" .:")
             cur_cat = row_cat
@@ -118,23 +173,28 @@ def build_trade_gazetteer(year: int, title: str, tsv_name: str, max_line: int | 
         if not cleaned:
             continue
 
-        # Early gentry rows (top of 1844/1850/1858 before first trade section)
         if in_gentry or (idx <= 95 and year in (1844, 1850) and cur_cat == "General Trades & Residents"):
-            text_all = " ".join(cleaned)
             if len(cleaned) >= 2 and not STREET_HINT_RE.search(cleaned[0]):
                 if len(cleaned) >= 3 and not STREET_HINT_RE.search(cleaned[1]):
-                    name = f"{cleaned[0]}, {cleaned[1]}".strip(", ")
-                    fmt = f"{cleaned[1]} {cleaned[0]}".strip()
+                    name, fmt = format_person(f"{cleaned[0]}, {cleaned[1]}", surname_first=True)
                     res = ", ".join(cleaned[2:])
                 else:
-                    name = cleaned[0]
-                    fmt = cleaned[0]
+                    name, fmt = format_person(cleaned[0], surname_first=True)
                     res = ", ".join(cleaned[1:])
             else:
-                name = cleaned[0].split(",")[0].strip()
-                fmt = name
-                res = cleaned[0][len(name):].strip(" ,")
-            if name:
+                # e.g. "Allen, Rev. William, Hillst" or "Rowland Mrs. Decima, Gt. Dock st"
+                raw_line = cleaned[0]
+                parts = [p.strip() for p in raw_line.split(",")]
+                if len(parts) >= 3 and re.match(r"^(?:Rev|Mr|Mrs|Miss|Esq|Dr)", parts[1], re.I):
+                    name, fmt = format_person(f"{parts[0]}, {parts[1]}", surname_first=True)
+                    res = ", ".join(parts[2:])
+                elif len(parts) >= 2 and STREET_HINT_RE.search(parts[-1]):
+                    name, fmt = format_person(", ".join(parts[:-1]), surname_first=True)
+                    res = parts[-1]
+                else:
+                    name, fmt = format_person(parts[0], surname_first=True)
+                    res = ", ".join(parts[1:])
+            if name and len(name) <= 100:
                 gentry.append({"name": name, "formatted_name": fmt, "residence": res or "Newport", "notes": ""})
             continue
 
@@ -151,16 +211,20 @@ def build_trade_gazetteer(year: int, title: str, tsv_name: str, max_line: int | 
             if st:
                 notes = num_note
                 street = st
-                idx_st = line_txt.lower().find(num_note.replace("No. ", "").lower()) if num_note else -1
-                name_part = line_txt[:idx_st].strip(" ,.;:-") if idx_st > 0 else line_txt
+                name_part = strip_addr_from_text(line_txt, num_note, st)
             elif "," in line_txt and STREET_HINT_RE.search(line_txt.rsplit(",", 1)[1]):
                 name_part, street = [p.strip() for p in line_txt.rsplit(",", 1)]
             else:
                 name_part = line_txt
-            name = clean_case(name_part)
-            fmt = name
+
+            # Strip trailing parentheticals like "(house)" or "(to John Russell)" into trade
+            m_par = re.search(r"\(([^)]+)\)", name_part)
+            if m_par:
+                trade = m_par.group(1).strip()
+                name_part = (name_part[:m_par.start()] + " " + name_part[m_par.end():]).strip(" ,.;:-")
+
+            name, fmt = format_person(name_part, surname_first=True)
         else:
-            # Multi-column: find last cell with street hint or number+street
             addr_idx = None
             for i in range(len(cleaned) - 1, 0, -1):
                 if cleaned[i] and (STREET_HINT_RE.search(cleaned[i]) or NUM_STREET_RE.search(cleaned[i])):
@@ -179,17 +243,14 @@ def build_trade_gazetteer(year: int, title: str, tsv_name: str, max_line: int | 
                 left = [c for c in cleaned if c]
 
             if len(left) >= 2 and left[1] and left[1][0].islower():
-                name = clean_case(left[0])
-                fmt = name
+                name, fmt = format_person(left[0], surname_first=True)
                 trade = left[1]
             elif len(left) >= 2:
-                name = f"{clean_case(left[0])}, {left[1]}".strip(", ")
-                fmt = f"{left[1]} {clean_case(left[0])}".strip()
+                name, fmt = format_person(f"{left[0]}, {left[1]}", surname_first=True)
                 if len(left) >= 3:
                     trade = "; ".join(left[2:])
             elif left:
-                name = clean_case(left[0])
-                fmt = name
+                name, fmt = format_person(left[0], surname_first=True)
 
         if not name or len(name) > 120:
             continue
@@ -224,6 +285,7 @@ def build_alphabetical_gazetteer(year: int, title: str, tsv_name: str, gentry_en
     gentry = []
     alpha_map: dict[str, list[dict]] = defaultdict(list)
     narrative_parts = []
+    cur_alpha = "A"
 
     for idx, raw in enumerate(lines, 1):
         if idx == 1:
@@ -233,7 +295,6 @@ def build_alphabetical_gazetteer(year: int, title: str, tsv_name: str, gentry_en
         if not non_empty:
             continue
 
-        # Capture narrative paragraphs
         if idx < gentry_end and len(non_empty) == 1 and len(non_empty[0]) > 140 and not is_heading(non_empty[0]):
             narrative_parts.append(non_empty[0])
             continue
@@ -243,7 +304,6 @@ def build_alphabetical_gazetteer(year: int, title: str, tsv_name: str, gentry_en
             trimmed.pop(0)
 
         if idx < comm_start:
-            # Gentry / Private Residents
             if len(non_empty) == 1 and is_heading(non_empty[0]):
                 continue
             blob = " | ".join(trimmed)
@@ -251,18 +311,24 @@ def build_alphabetical_gazetteer(year: int, title: str, tsv_name: str, gentry_en
                 continue
             if len(trimmed) >= 2:
                 if "," in trimmed[0]:
-                    name = trimmed[0]
-                    fmt = trimmed[0]
+                    name, fmt = format_person(trimmed[0], surname_first=True)
                     res = ", ".join(trimmed[1:])
+                elif year == 1865 and len(trimmed[0].split()) >= 2 and not TITLE_PREFIX_RE.match(trimmed[0]):
+                    # 1865 gentry sometimes has "Cole John Thos." in trimmed[0] or "Rev. Wm." in trimmed[0]
+                    name, fmt = format_person(f"{trimmed[1]}, {trimmed[0]}" if len(trimmed[1].split()) == 1 and not STREET_HINT_RE.search(trimmed[1]) else trimmed[0], surname_first=True)
+                    res = ", ".join(trimmed[2:]) if len(trimmed) > 2 else trimmed[1]
                 else:
-                    name = f"{trimmed[1]}, {trimmed[0]}".strip(", ")
-                    fmt = f"{trimmed[0]} {trimmed[1]}".strip()
-                    res = ", ".join(trimmed[2:]) if len(trimmed) > 2 else ""
+                    # Forename in trimmed[0], Surname in trimmed[1] (e.g. "Thos. Esq. | Woollett")
+                    if SUFFIX_ONLY_RE.match(trimmed[1]):
+                        name, fmt = format_person(trimmed[0], surname_first=True)
+                        res = ", ".join(trimmed[2:]) if len(trimmed) > 2 else ""
+                    else:
+                        name, fmt = format_person(f"{trimmed[1]}, {trimmed[0]}", surname_first=True)
+                        res = ", ".join(trimmed[2:]) if len(trimmed) > 2 else ""
                 if name and len(name) <= 90:
-                    gentry.append({"name": clean_case(name), "formatted_name": fmt, "residence": res or "Newport", "notes": ""})
+                    gentry.append({"name": name, "formatted_name": fmt, "residence": res or "Newport", "notes": ""})
             continue
 
-        # Commercial alphabetical entries
         if len(set(non_empty)) == 1 and is_heading(non_empty[0]):
             continue
 
@@ -274,39 +340,58 @@ def build_alphabetical_gazetteer(year: int, title: str, tsv_name: str, gentry_en
                     st = c
                     break
 
+        trade = ""
         if year == 1862:
             c0 = trimmed[0] if len(trimmed) > 0 else ""
             c1 = trimmed[1] if len(trimmed) > 1 else ""
             c2 = trimmed[2] if len(trimmed) > 2 else ""
             if c0 and c1 and c1[0].islower():
-                name = clean_case(c0)
-                fmt = name
+                name, fmt = format_person(c0, surname_first=True)
                 trade = c1
             elif c0 and c1:
-                name = f"{clean_case(c0)}, {c1}".strip(", ")
-                fmt = f"{c1} {clean_case(c0)}".strip()
+                c0_first = c0.split()[0].lower()
+                c1_is_alpha = c1[0].isalpha() and c1[0].upper() == cur_alpha and c0[0].upper() != cur_alpha
+                if (c0_first in COMMON_FORENAMES or TITLE_PREFIX_RE.match(c0) or c1_is_alpha) and len(c1.split()) == 1:
+                    name, fmt = format_person(f"{c1}, {c0}", surname_first=True)
+                else:
+                    name, fmt = format_person(f"{c0}, {c1}", surname_first=True)
+                    if name and name[0].isalpha() and name[0].upper() >= cur_alpha and ord(name[0].upper()) - ord(cur_alpha) <= 2:
+                        cur_alpha = name[0].upper()
                 trade = c2
             else:
-                name = clean_case(c0)
-                fmt = name
+                name, fmt = format_person(c0, surname_first=True)
                 trade = c1
         else:
-            # 1865: Forenames | Surname | Trade | ...
+            # 1865: Forenames | Surname | Trade | ... OR "Surname, Forename trade..." in c0
             c0 = trimmed[0] if len(trimmed) > 0 else ""
             c1 = trimmed[1] if len(trimmed) > 1 else ""
             c2 = trimmed[2] if len(trimmed) > 2 else ""
             if "," in c0 and not c1:
                 parts = [p.strip() for p in c0.split(",", 2)]
-                name = f"{clean_case(parts[0])}, {parts[1]}" if len(parts) > 1 else clean_case(parts[0])
-                fmt = f"{parts[1]} {clean_case(parts[0])}" if len(parts) > 1 else clean_case(parts[0])
-                trade = parts[2] if len(parts) > 2 else c2
+                raw_n = f"{parts[0]}, {parts[1]}" if len(parts) > 1 else parts[0]
+                # Check if trailing lowercase trade stuck to parts[1] (e.g. "Hazell, George agent")
+                m_tr = re.match(r"^(.+?)\s+([a-z].*)$", raw_n)
+                if m_tr:
+                    raw_n = m_tr.group(1)
+                    trade = m_tr.group(2)
+                name, fmt = format_person(raw_n, surname_first=True)
+                if len(parts) > 2 and not trade:
+                    trade = parts[2]
             elif c0 and c1:
-                name = f"{clean_case(c1)}, {c0}".strip(", ")
-                fmt = f"{c0} {clean_case(c1)}".strip()
-                trade = c2
+                if c1[0].islower():
+                    name, fmt = format_person(c0, surname_first=True)
+                    trade = c1
+                else:
+                    # Check if c0 has trailing lowercase trade (e.g. "James, grocer | Abbott")
+                    if "," in c0 and re.search(r",\s*[a-z]", c0):
+                        f_part, tr_part = c0.split(",", 1)
+                        name, fmt = format_person(f"{c1}, {f_part}", surname_first=True)
+                        trade = tr_part.strip()
+                    else:
+                        name, fmt = format_person(f"{c1}, {c0}", surname_first=True)
+                        trade = c2
             else:
-                name = clean_case(c0 or c1)
-                fmt = name
+                name, fmt = format_person(c0 or c1, surname_first=True)
                 trade = c2
 
         if st:
