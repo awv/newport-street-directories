@@ -31,7 +31,7 @@ COMMON_FORENAMES = {
     "william", "wm.", "john", "jno.", "thomas", "thos.", "james", "jas.",
     "george", "geo.", "henry", "hy.", "charles", "chas.", "edward", "edwd.",
     "samuel", "richard", "richd.", "robert", "robt.", "joseph", "benjamin",
-    "alfred", "edwin", "frederick", "walter", "david", "daniel", "stephen",
+    "alfred", "edwin", "frederick", "walter", "david", "daniel", "stephen", "evan",
     "arthur", "alexander", "adam", "amelia", "alice", "margaret", "mary", "ann",
     "elizabeth", "jane", "sarah", "harriet", "maria", "eliza", "catherine", "ellen",
     "cornelius", "caleb", "jacob", "isaac", "abraham", "moses", "elijah", "enoch",
@@ -443,10 +443,13 @@ def build_alphabetical_gazetteer(year: int, title: str, tsv_name: str, gentry_en
                         name = f"{clean_case(c1)}, {c0}".strip()
                         fmt = f"{c0} {clean_case(c1)}".strip()
                     trade = c2
+                elif c1.startswith(('"', '“')):
+                    name, fmt = format_person(c0, surname_first=True)
+                    trade = c1
                 else:
                     c0_first = c0.split()[0].lower()
                     c1_is_alpha = c1[0].isalpha() and c1[0].upper() == cur_alpha and c0[0].upper() != cur_alpha
-                    if (c0_first in COMMON_FORENAMES or TITLE_PREFIX_RE.match(c0) or c1_is_alpha) and len(c1.split()) == 1:
+                    if (c0_first in COMMON_FORENAMES or TITLE_PREFIX_RE.match(c0) or c1_is_alpha) and len(c1.split()) == 1 and not INITIALS_RE.match(c1):
                         name, fmt = format_person(f"{c1}, {c0}", surname_first=True)
                     else:
                         name, fmt = format_person(f"{c0}, {c1}", surname_first=True)
@@ -517,7 +520,10 @@ def build_alphabetical_gazetteer(year: int, title: str, tsv_name: str, gentry_en
             st = st.lstrip("”\"' ").strip()
         if num_note:
             trade = trade.replace(num_note.replace("No. ", ""), "").strip(" ,.;:-")
-        # Strip trailing "h.," or empty "h." from trade
+        # Strip trailing "h.," or empty "h.", and leading repeated surname "Thomas, schoolmaster"
+        sur_head = name.split(",", 1)[0].strip()
+        if sur_head and trade.lower().startswith(sur_head.lower() + ","):
+            trade = trade[len(sur_head) + 1:].strip()
         trade = re.sub(r",?\s*\bh\.?$", "", trade).strip(" ,.;:-")
         if trade.startswith(("“", '"')) and not trade.endswith(("”", '"')):
             trade = trade + "”"

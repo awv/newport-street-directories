@@ -2655,6 +2655,13 @@
       "category": "D",
       "entries": [
         {
+          "name": "Davies, Evan",
+          "formatted_name": "Evan Davies",
+          "street": "Commercial street",
+          "trade": "master mariner",
+          "notes": "No. 83"
+        },
+        {
           "name": "Davies, James T",
           "formatted_name": "James T Davies",
           "street": "Commercial street",
@@ -2856,6 +2863,13 @@
           "street": "Portland st",
           "trade": "fireman",
           "notes": "No. 27"
+        },
+        {
+          "name": "Davies, Evan",
+          "formatted_name": "Evan Davies",
+          "street": "Commercial street",
+          "trade": "master mariner",
+          "notes": "No. 83"
         },
         {
           "name": "Davies, James T",
@@ -3264,13 +3278,6 @@
           "notes": "No. 2"
         },
         {
-          "name": "D, Thomas",
-          "formatted_name": "Thomas D",
-          "street": "Commercial road",
-          "trade": "Thomas, schoolmaster",
-          "notes": "No. 50"
-        },
-        {
           "name": "David, Thomas",
           "formatted_name": "Thomas David",
           "street": "Commercial street",
@@ -3407,27 +3414,6 @@
           "street": "St. Woollos",
           "trade": "carpenter",
           "notes": ""
-        },
-        {
-          "name": "Evan, Davies",
-          "formatted_name": "Davies Evan",
-          "street": "Commercial street",
-          "trade": "master mariner",
-          "notes": "No. 83"
-        },
-        {
-          "name": "Edward, 13",
-          "formatted_name": "13 Edward",
-          "street": "Edward Coxons tiler and pl",
-          "trade": "Coxons",
-          "notes": "No. 13"
-        },
-        {
-          "name": "Evan, Davies",
-          "formatted_name": "Davies Evan",
-          "street": "Commercial street",
-          "trade": "master mariner",
-          "notes": "No. 83"
         },
         {
           "name": "Enos, Dix",
@@ -3654,8 +3640,8 @@
           "notes": "No. 5"
         },
         {
-          "name": "Evan, Evans",
-          "formatted_name": "Evans Evan",
+          "name": "Evans, Evan",
+          "formatted_name": "Evan Evans",
           "street": "Temple street",
           "trade": "blacksmith",
           "notes": "No. 21"
@@ -3829,13 +3815,6 @@
           "notes": ""
         },
         {
-          "name": "Evan, Harris",
-          "formatted_name": "Harris Evan",
-          "street": "Baneswell",
-          "trade": "commercial traveller, 17, St. Mary's street",
-          "notes": ""
-        },
-        {
           "name": "Edmund, Howard",
           "formatted_name": "Howard Edmund",
           "street": "High street",
@@ -3862,27 +3841,6 @@
           "street": "Lower Dock street",
           "trade": "ironmonger and ship chandler",
           "notes": "No. 17"
-        },
-        {
-          "name": "Evan, Jones",
-          "formatted_name": "Jones Evan",
-          "street": "Lower George street",
-          "trade": "master mariner",
-          "notes": "No. 17"
-        },
-        {
-          "name": "Evan S, Jones",
-          "formatted_name": "Jones Evan S",
-          "street": "Great Dock street",
-          "trade": "outfitter and general hosier, woollen draper and tailor",
-          "notes": "No. 14 and 15"
-        },
-        {
-          "name": "Evan, Jones",
-          "formatted_name": "Jones Evan",
-          "street": "Canal parade",
-          "trade": "\"Albion Inn\"",
-          "notes": ""
         },
         {
           "name": "Edmund, Nicholls",
@@ -4735,13 +4693,6 @@
           "notes": "No. 133"
         },
         {
-          "name": "G, Thomas",
-          "formatted_name": "Thomas G",
-          "street": "Llanarth street",
-          "trade": "\"Globe Inn”",
-          "notes": ""
-        },
-        {
           "name": "G. W. Jones",
           "formatted_name": "G. W. Jones",
           "street": "",
@@ -4940,6 +4891,13 @@
           "formatted_name": "Benjamin Harris",
           "street": "",
           "trade": "beer retailer, Pillgwenl,y",
+          "notes": ""
+        },
+        {
+          "name": "Harris, Evan",
+          "formatted_name": "Evan Harris",
+          "street": "Baneswell",
+          "trade": "commercial traveller, 17, St. Mary's street",
           "notes": ""
         },
         {
@@ -6108,6 +6066,20 @@
           "notes": "No. 5"
         },
         {
+          "name": "Jones, Evan",
+          "formatted_name": "Evan Jones",
+          "street": "Lower George street",
+          "trade": "master mariner",
+          "notes": "No. 17"
+        },
+        {
+          "name": "Jones, Evan S",
+          "formatted_name": "Evan S Jones",
+          "street": "Great Dock street",
+          "trade": "outfitter and general hosier, woollen draper and tailor",
+          "notes": "No. 14 and 15"
+        },
+        {
           "name": "Jones, George",
           "formatted_name": "George Jones",
           "street": "Tredigan place",
@@ -6204,6 +6176,13 @@
           "street": "York place York place",
           "trade": "York place",
           "notes": "No. 12"
+        },
+        {
+          "name": "Jones, Evan",
+          "formatted_name": "Evan Jones",
+          "street": "Canal parade",
+          "trade": "\"Albion Inn\"",
+          "notes": ""
         },
         {
           "name": "Jones, Mrs. Martha",
@@ -7313,10 +7292,10 @@
           "notes": "No. 38"
         },
         {
-          "name": "Martin Joseph, \"Moulders' Arms\"",
-          "formatted_name": "\"Moulders' Arms\" Martin Joseph",
+          "name": "Martin, Joseph",
+          "formatted_name": "Joseph Martin",
           "street": "ashes road",
-          "trade": "Moulders' Arms",
+          "trade": "\"Moulders' Arms\"",
           "notes": ""
         },
         {
@@ -7334,10 +7313,10 @@
           "notes": "No. 9"
         },
         {
-          "name": "Martin T, \"Market Tavern\"",
-          "formatted_name": "\"Market Tavern\" Martin T",
+          "name": "Martin, T",
+          "formatted_name": "T Martin",
           "street": "Griffin st",
-          "trade": "",
+          "trade": "\"Market Tavern\"",
           "notes": ""
         },
         {
@@ -8579,6 +8558,13 @@
           "street": "Dock street",
           "trade": "Cox",
           "notes": ""
+        },
+        {
+          "name": "13, Edward",
+          "formatted_name": "Edward 13",
+          "street": "Edward Coxons tiler and pl",
+          "trade": "Coxons",
+          "notes": "No. 13"
         },
         {
           "name": "18, Dickson and Mathias",
@@ -11271,6 +11257,20 @@
           "street": "Frederick street",
           "trade": "mastermariner",
           "notes": "No. 32"
+        },
+        {
+          "name": "Thomas, D",
+          "formatted_name": "D Thomas",
+          "street": "Commercial road",
+          "trade": "schoolmaster",
+          "notes": "No. 50"
+        },
+        {
+          "name": "Thomas, G",
+          "formatted_name": "G Thomas",
+          "street": "Llanarth street",
+          "trade": "\"Globe Inn”",
+          "notes": ""
         },
         {
           "name": "Thomas, James Felix",
