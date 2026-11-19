@@ -382,25 +382,40 @@
         <!-- HERO BANNER -->
         <div class="gazetteer-hero">
           <div class="hero-badge" style="display: inline-flex; align-items: center; gap: 0.35rem; background: rgba(197, 155, 39, 0.1); color: var(--accent-hover); padding: 0.25rem 0.65rem; border-radius: 4px; font-weight: 600; font-size: 0.8rem; margin-bottom: 0.75rem;">
-            <i class="ph ph-sparkle"></i> Pre-1870 Era • 1822, 1835 &amp; 1848
+            <i class="ph ph-sparkle"></i> Pre-1870 Era • 1822–1865
           </div>
           <h1 style="font-family: var(--heading-font); font-size: 2.75rem; color: var(--text-primary); line-height: 1.15; margin-bottom: 0.5rem;">
             Early Newport Trade Gazetteers
           </h1>
           <p style="color: var(--text-secondary); max-width: 850px; font-size: 0.95rem; line-height: 1.6;">
-            Published before systematic street-by-street numbering was established in Newport, Pigot &amp; Co.'s (1822, 1835) and Kelly's (1848) directories catalogue the town by commercial trade, gentry, and port commerce.
+            Published before systematic street-by-street numbering was established in Newport, these early editions (Pigot &amp; Co., Kelly's, Slater's, Morris's, and Webster's) catalogue the town by commercial trade, gentry, and alphabetical listings.
           </p>
 
           <!-- YEAR EDITION TOGGLE -->
           <div class="gazetteer-pill-row">
+            <button class="gazetteer-nav-pill" id="pill-1865" onclick="setDirectoryYear(1865)">
+              <i class="ph ph-book-open"></i> Webster's 1865
+            </button>
+            <button class="gazetteer-nav-pill" id="pill-1862" onclick="setDirectoryYear(1862)">
+              <i class="ph ph-book-open"></i> Morris's 1862
+            </button>
+            <button class="gazetteer-nav-pill" id="pill-1858" onclick="setDirectoryYear(1858)">
+              <i class="ph ph-book-open"></i> Slater's 1858–59
+            </button>
+            <button class="gazetteer-nav-pill" id="pill-1850" onclick="setDirectoryYear(1850)">
+              <i class="ph ph-book-open"></i> Slater's 1850
+            </button>
             <button class="gazetteer-nav-pill" id="pill-1848" onclick="setDirectoryYear(1848)">
-              <i class="ph ph-book-open"></i> Kelly's 1848 Newport Directory
+              <i class="ph ph-book-open"></i> Kelly's 1848
+            </button>
+            <button class="gazetteer-nav-pill" id="pill-1844" onclick="setDirectoryYear(1844)">
+              <i class="ph ph-book-open"></i> Pigot's 1844
             </button>
             <button class="gazetteer-nav-pill active" id="pill-1835" onclick="setDirectoryYear(1835)">
-              <i class="ph ph-book-open"></i> Pigot's 1835 National Commercial Directory
+              <i class="ph ph-book-open"></i> Pigot's 1835
             </button>
             <button class="gazetteer-nav-pill" id="pill-1822" onclick="setDirectoryYear(1822)">
-              <i class="ph ph-book-open"></i> Pigot's 1822–23 London & Provincial Directory
+              <i class="ph ph-book-open"></i> Pigot's 1822–23
             </button>
           </div>
         </div>
@@ -457,11 +472,21 @@
   </div>
 
   <script>
-    let activeYear = 1835;
+    const DIRECTORY_FILES = {
+      1822: 'data/early_directories/pigot_1822.json',
+      1835: 'data/early_directories/pigot_1835.json',
+      1844: 'data/early_directories/pigot_1844.json',
+      1848: 'data/early_directories/kelly_1848.json',
+      1850: 'data/early_directories/slater_1850.json',
+      1858: 'data/early_directories/slater_1858.json',
+      1862: 'data/early_directories/morris_1862.json',
+      1865: 'data/early_directories/webster_1865.json'
+    };
+
+    const urlYearParam = parseInt(new URLSearchParams(window.location.search).get('year'), 10);
+    let activeYear = DIRECTORY_FILES[urlYearParam] ? urlYearParam : 1835;
     let activeTab = 'trades';
-    let data1822 = null;
-    let data1835 = null;
-    let data1848 = null;
+    const directoryDatasets = {};
     let searchQuery = '';
 
     const scanFiles = {
@@ -476,27 +501,35 @@
         { file: 'data/early_directories/scans/IMG_9088.jpeg', label: 'Page 260 • Classified Trades C–I' },
         { file: 'data/early_directories/scans/IMG_9089.jpeg', label: 'Page 261 • Classified Trades I–T' },
         { file: 'data/early_directories/scans/IMG_9090.jpeg', label: 'Page 262 • Carriers & Shipping Routes' }
-      ],
-      1848: []
+      ]
     };
 
-    async function loadData() {
-      const [r1822, r1835, r1848] = await Promise.all([
-        fetch('data/early_directories/pigot_1822.json').then(r => r.json()),
-        fetch('data/early_directories/pigot_1835.json').then(r => r.json()),
-        fetch('data/early_directories/kelly_1848.json').then(r => r.json())
-      ]);
-      data1822 = r1822;
-      data1835 = r1835;
-      data1848 = r1848;
-      renderCurrentView();
+    async function ensureYearLoaded(year) {
+      if (directoryDatasets[year]) return directoryDatasets[year];
+      const url = DIRECTORY_FILES[year];
+      if (!url) return null;
+      const data = await fetch(url).then(r => r.json());
+      directoryDatasets[year] = data;
+      return data;
     }
 
-    function setDirectoryYear(year) {
+    async function loadData() {
+      await setDirectoryYear(activeYear, false);
+    }
+
+    async function setDirectoryYear(year, updateUrl = true) {
+      if (!DIRECTORY_FILES[year]) return;
       activeYear = year;
-      document.getElementById('pill-1822').classList.toggle('active', year === 1822);
-      document.getElementById('pill-1835').classList.toggle('active', year === 1835);
-      document.getElementById('pill-1848').classList.toggle('active', year === 1848);
+      Object.keys(DIRECTORY_FILES).forEach(y => {
+        const pill = document.getElementById(`pill-${y}`);
+        if (pill) pill.classList.toggle('active', Number(y) === year);
+      });
+
+      if (updateUrl && window.history && window.history.replaceState) {
+        const u = new URL(window.location.href);
+        u.searchParams.set('year', year);
+        window.history.replaceState({}, '', u.toString());
+      }
 
       const scansTabBtn = document.getElementById('tab-btn-scans');
       const hasScans = (scanFiles[year] || []).length > 0;
@@ -507,15 +540,16 @@
 
       const pdfBtn = document.getElementById('btn-download-pdf');
       if (pdfBtn) {
-        if (year === 1848) {
-          pdfBtn.style.display = 'none';
-        } else {
+        if (year === 1822 || year === 1835) {
           pdfBtn.style.display = '';
           pdfBtn.href = `pdf_reports/pigot_${year}_directory.pdf`;
           pdfBtn.innerHTML = `<i class="ph ph-file-pdf"></i> Download ${year} PDF`;
+        } else {
+          pdfBtn.style.display = 'none';
         }
       }
 
+      await ensureYearLoaded(year);
       renderCurrentView();
     }
 
@@ -543,7 +577,7 @@
     }
 
     function renderCurrentView() {
-      const data = activeYear === 1848 ? data1848 : (activeYear === 1835 ? data1835 : data1822);
+      const data = directoryDatasets[activeYear];
       if (!data) return;
 
       // Update counters
@@ -551,7 +585,7 @@
       document.getElementById('count-trades').innerText = totalTrades;
       const gentryCount = (data.nobility_gentry_clergy || []).length;
       document.getElementById('count-gentry').innerText = gentryCount;
-      document.getElementById('count-scans').innerText = scanFiles[activeYear].length;
+      document.getElementById('count-scans').innerText = (scanFiles[activeYear] || []).length;
 
       // 1. Render Classified Trades Tab
       const tradesContainer = document.getElementById('content-trades');

@@ -2031,9 +2031,7 @@ function toggleMobileSidebar() {
       if (noticeEl) {
         const yrNum = parseInt(yearFilter, 10);
         if (!isNaN(yrNum) && yrNum < 1870) {
-          const gazetteerLink = yrNum === 1848
-            ? ` <a href="gazetteer.html" style="color: var(--accent); font-weight: 600; text-decoration: underline;">Browse the full 1848 alphabetical directory &rarr;</a>`
-            : '';
+          const gazetteerLink = ` <a href="gazetteer.html?year=${yrNum}" style="color: var(--accent); font-weight: 600; text-decoration: underline;">Browse the full ${yrNum} directory &rarr;</a>`;
           noticeEl.innerHTML = `<i class="ph ph-info" style="vertical-align: -2px; margin-right: 0.35rem;"></i><strong>Partial numbered coverage (${yrNum}):</strong> Pre-1870 directories were alphabetical or trade-classified rather than full house-by-house street walks. Only entries with a house number printed in the ${yrNum} directory are shown here &mdash; many other properties and unnumbered residents existed on this street.${gazetteerLink}`;
           noticeEl.style.display = 'block';
         } else {
