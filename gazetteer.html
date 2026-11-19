@@ -619,7 +619,7 @@
                   <div class="entry-card">
                     <div>
                       <div class="entry-title">${displayName}</div>
-                      <div class="entry-trade">${e.trade || sec.category}</div>
+                      <div class="entry-trade">${e.trade || (sec.category.length > 1 ? sec.category : 'Residence / Private')}</div>
                     </div>
                     <div class="entry-meta">
                       ${e.street ? `<a href="index.html#street=${encodeURIComponent(cleanStreetName(e.street))}" class="entry-street-tag" title="View Street Walkthrough"><i class="ph ph-map-pin"></i> ${e.street}</a>` : `<span style="color: var(--text-muted); font-style: italic;">Newport General</span>`}
