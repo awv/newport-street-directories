@@ -19,6 +19,20 @@ REPLACEMENTS = [
     (re.compile(r"\bmac['’]st\b", re.I), "Machinist"),
     (re.compile(r"\btrav['’]lr\b", re.I), "Traveller"),
     (re.compile(r"\brlyman\b", re.I), "Railwayman"),
+    (re.compile(r"railwy['’]?yman", re.I), "Railwayman"),
+    (re.compile(r"\bbus\s+cond\.?(?=\b|\s|$)", re.I), "Bus Conductor"),
+    (re.compile(r"\bplastr['’]?r?\b", re.I), "Plasterer"),
+    (re.compile(r"\bice\s+crm\s+vr\.?(?=\b|\s|$)", re.I), "Ice Cream Vendor"),
+    (re.compile(r"\bacet\.?\s+br(?:nr)?\.?(?=\b|\s|$)", re.I), "Acetylene Burner"),
+    (re.compile(r"\bglass\s+worker\.", re.I), "Glass Worker"),
+    (re.compile(r"\bblr\.?\s+cleaner\b", re.I), "Boiler Cleaner"),
+    (re.compile(r"\btrss\.?(?=\b|\s|$)", re.I), "Tailoress"),
+    (re.compile(r"\bcom\.?\s+agent\b", re.I), "Commercial Agent"),
+    (re.compile(r"\bbrklr\.?(?=\b|\s|$)", re.I), "Bricklayer"),
+    (re.compile(r"\bgas\s+wks\.?(?=\b|\s|$)", re.I), "Gas Works"),
+    (re.compile(r"\btram\s+dr\.?(?=\b|\s|$)", re.I), "Tram Driver"),
+    (re.compile(r"\btram\s+con\.?(?=\b|\s|$)", re.I), "Tram Conductor"),
+    (re.compile(r"\bballast\s+grd\.?(?=\b|\s|$)", re.I), "Ballast Guard"),
 ]
 
 
@@ -37,10 +51,32 @@ def process_csv(path: Path) -> int:
 
     changed = 0
     for r in rows:
+        row_changed = False
+        sur = (r.get("surname") or "").strip()
+        fore = (r.get("forename") or "").strip()
+        tr = (r.get("trade") or "").strip()
+
+        # Fix "senr." / "junr." in surname with "<RealSurname>, <Trade>" (or "<RealSurname>") in trade
+        if sur.lower().rstrip(".") in {"senr", "junr", "jr", "sr"} and tr:
+            m = re.match(r"^([A-Z][a-z'\-]+)(?:,\s*(.*))?$", tr)
+            if m:
+                r["surname"] = m.group(1)
+                r["forename"] = f"{fore} {sur}".strip()
+                r["trade"] = (m.group(2) or "").strip()
+                row_changed = True
+        elif tr.lower().startswith("senr. ") or tr.lower().startswith("junr. "):
+            parts = tr.split(" ", 1)
+            r["forename"] = f"{fore} {parts[0]}".strip()
+            r["trade"] = parts[1].strip()
+            row_changed = True
+
         old = r.get("trade") or ""
         new = fix_trade(old)
         if new != old:
             r["trade"] = new
+            row_changed = True
+
+        if row_changed:
             changed += 1
 
     if changed:

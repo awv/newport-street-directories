@@ -170,7 +170,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Ailesbury Street,15,,Morris,Mrs. Martha,,vision_ocr
 1917,Ailesbury Street,17,,Heirene,Dennis,,vision_ocr
 1917,Ailesbury Street,19,,Morris,John junr.,,vision_ocr
-1917,Ailesbury Street,21,,Morris,John,senr. labr.,vision_ocr
+1917,Ailesbury Street,21,,Morris,John senr.,labr.,vision_ocr
 1917,Ailesbury Street,23,,Brewis,Joseph,glass wkr,vision_ocr
 1917,Ailesbury Street,25,,Regan,Michael John,,vision_ocr
 1917,Ailesbury Street,27,,Blewitt,Thomas,haulier,vision_ocr
@@ -199,7 +199,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Ailesbury Street,10,,Hunton,Mrs. R.,tailoress,vision_ocr
 1917,Ailesbury Street,8,,Isaac,Jas. Hy.,wareh'man,vision_ocr
 1917,Ailesbury Street,6,,Corton,James,,vision_ocr
-1917,Ailesbury Street,4,,Clements,Wm. Jas.,brklr,vision_ocr
+1917,Ailesbury Street,4,,Clements,Wm. Jas.,Bricklayer,vision_ocr
 1917,Ailesbury Street,2,,Tutton,Joseph,haulier,vision_ocr
 1917,Albany Chambers,,,,,,vision_ocr
 1917,Albany Street,,,,,,vision_ocr
@@ -1591,7 +1591,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Barrack Hill,118,,Connell,Mrs. E.,,vision_ocr
 1917,Barrack Hill,116,,Taylor,James,labourer,vision_ocr
 1917,Barrack Hill,114,,Jones,Joseph,G.W.R.,vision_ocr
-1917,Barrack Hill,112,,senr.,George,Gibson,vision_ocr
+1917,Barrack Hill,112,,Gibson,George senr.,,vision_ocr
 1917,Barrack Hill,110,,Void,,,vision_ocr
 1917,Barrack Hill,108,,Void,,,vision_ocr
 1917,Barrack Hill,106,,Rixon,W. John,fireman,vision_ocr
@@ -2118,14 +2118,14 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Brickyard Road,,,,,,vision_ocr
 1917,Brickyard Road,,,,,,vision_ocr
 1917,Brickyard Road,1,,James,James,labourer,vision_ocr
-1917,Brickyard Road,2,,senr.,James,Cronk,vision_ocr
+1917,Brickyard Road,2,,Cronk,James senr.,,vision_ocr
 1917,Brickyard Road,3,,Jones,John,driver,vision_ocr
 1917,Brickyard Road,4,,Hughes,Thomas,burner,vision_ocr
 1917,Brickyard Road,5,,Hitchings,F. J.,striker,vision_ocr
 1917,Brickyard Road,6,,Phillips,Thos.,brickmaker,vision_ocr
 1917,Brickyard Road,7,,Barrett,William,labourer,vision_ocr
 1917,Brickyard Road,8,,Phillips,William,labourer,vision_ocr
-1917,Brickyard Road,9,,junr.,James,Cronk,vision_ocr
+1917,Brickyard Road,9,,Cronk,James junr.,,vision_ocr
 1917,Brickyard Road,,St. Julian's Brick Co.,,Ltd.,,vision_ocr
 1917,Brickyard Road,,,,,,vision_ocr
 1917,Bridge Street,,,,,,vision_ocr
@@ -2173,7 +2173,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Bridge Street,27,,Guy,H. C. S.,grocer,vision_ocr
 1917,Bridge Street,28,,Smith,A. Henry,L.D.S. R.C.S. (Eng.) dental surg.,vision_ocr
 1917,Bridge Street,,W. H.,engraver,Palmer,,vision_ocr
-1917,Bridge Street,29,,White,W. A.,com. agent,vision_ocr
+1917,Bridge Street,29,,White,W. A.,Commercial Agent,vision_ocr
 1917,Bridge Street,29-30,,"Russell & Partners, successors",,house furnishers,vision_ocr
 1917,Bridge Street,29-30,,Capel,Geo. H.,manager,vision_ocr
 1917,Bridge Street,31,,,,,vision_ocr
@@ -2337,7 +2337,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Broad Street,,,,White & Jewell,wheel'hts,vision_ocr
 1917,Broad Street,5,,Romans,Alf. J.,labourer,vision_ocr
 1917,Broad Street,,,,,,vision_ocr
-1917,Broad Street,6,,junr.,John,Bridge,vision_ocr
+1917,Broad Street,6,,Bridge,John junr.,,vision_ocr
 1917,Broad Street,7,,Casey,James,,vision_ocr
 1917,Broad Street,8,,Thomas,Mrs. G.,,vision_ocr
 1917,Broadwell Gardens,,,,,,vision_ocr
@@ -2958,7 +2958,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Caerleon Road,,St. Julians Lodge,junior,James,Eaton,vision_ocr
 1917,Caerleon Road,,Lower St. Julians,Eaton,James,,vision_ocr
 1917,Caerleon Road,419,,Law,William,,vision_ocr
-1917,Caerleon Road,421,,Dare,Bert,com. agent,vision_ocr
+1917,Caerleon Road,421,,Dare,Bert,Commercial Agent,vision_ocr
 1917,Caerleon Road,423,,Parker,Robert,,vision_ocr
 1917,Caerleon Road,425,,Crook,Lewis Thomas,,vision_ocr
 1917,Caerleon Road,427,,Dunn,Mrs. Phyllis,,vision_ocr
@@ -7476,7 +7476,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Dock Street,140,,O'Neill,Thos.,gen. shop,vision_ocr
 1917,Dock Street,141,,Mahoney,Mrs. A.,coffee tavern,vision_ocr
 1917,Dock Street,142,,Barker,William,lodging house,vision_ocr
-1917,Dock Street,143,,senr.,James,Coughlan,vision_ocr
+1917,Dock Street,143,,Coughlan,James senr.,,vision_ocr
 1917,Dock Street,144,,Lee,Frank,hairdresser,vision_ocr
 1917,Dock Street,145,,Allen,A. & Sons,bakers and grocers,vision_ocr
 1917,Dock Street,,,,,,vision_ocr
@@ -11088,7 +11088,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Jeddo Street,73,,Smith,Herbert,labourer,vision_ocr
 1917,Jeddo Street,75,,Smith,Thomas,labourer,vision_ocr
 1917,Jeddo Street,77,,Ramsay,Andrew,labourer,vision_ocr
-1917,Jeddo Street,79,,junr.,Dennis,Dacey,vision_ocr
+1917,Jeddo Street,79,,Dacey,Dennis junr.,,vision_ocr
 1917,Jeddo Street,81,,Dacey,Dennis,labourer,vision_ocr
 1917,Jeddo Street,83,,Williams,Thomas,storekeeper,vision_ocr
 1917,Jeddo Street,85,,Scadden,Robert,seaman,vision_ocr
@@ -11246,7 +11246,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Jones Street,10,,Parsons,Ed.,plasterer,vision_ocr
 1917,Jones Street,11,,Williams,L.,,vision_ocr
 1917,Jones Street,12,,Stallard,Wm. Arch.,eng. dr,vision_ocr
-1917,Jones Street,13,,junr.,James,Giffen,vision_ocr
+1917,Jones Street,13,,Giffen,James junr.,,vision_ocr
 1917,Jones Street,14,,Phillips,William,platelyr,vision_ocr
 1917,Jones Street,15,,Dunning,Joseph Wm. H.,,vision_ocr
 1917,Jones Street,16,,Ellaway,Josiah,,vision_ocr
@@ -12928,7 +12928,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Malpas Road,112-10,Lyceum Tavern,Cook,C. J.,,vision_ocr
 1917,Malpas Road,,,Morrish,George,baker,vision_ocr
 1917,Malpas Road,108,,Griffiths,Mrs. E. L.,grocer,vision_ocr
-1917,Malpas Road,106,,Smith,Frank,com. agent,vision_ocr
+1917,Malpas Road,106,,Smith,Frank,Commercial Agent,vision_ocr
 1917,Malpas Road,104,,Baggs,Robert,painter,vision_ocr
 1917,Malpas Road,102,,Tarr,Mrs. Elizabeth A.,,vision_ocr
 1917,Malpas Road,100,,Francis,Reginald,,vision_ocr
@@ -16843,7 +16843,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Shaftesbury Street,,,,,,vision_ocr
 1917,Shaftesbury Street,206,,Morgan,Rees,surgeon,vision_ocr
 1917,Shaftesbury Street,,,Wood,Henry,caretaker,vision_ocr
-1917,Shaftesbury Street,204,,Donovan,Wm.,gas wks,vision_ocr
+1917,Shaftesbury Street,204,,Donovan,Wm.,Gas Works,vision_ocr
 1917,Shaftesbury Street,202,,Jones,John,labourer,vision_ocr
 1917,Shaftesbury Street,200,,Beniams,Francis,,vision_ocr
 1917,Shaftesbury Street,198,,Jones,Wm.,warehousemn,vision_ocr
@@ -16854,7 +16854,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Shaftesbury Street,188,,Toomer,Gerald,labourer,vision_ocr
 1917,Shaftesbury Street,186,,Jones,Alfred J.,,vision_ocr
 1917,Shaftesbury Street,184,,Cooper,James A.,,vision_ocr
-1917,Shaftesbury Street,182,,Stockwell,Alfred,gas wks,vision_ocr
+1917,Shaftesbury Street,182,,Stockwell,Alfred,Gas Works,vision_ocr
 1917,Shaftesbury Street,180,,Buss,John,cellarman,vision_ocr
 1917,Shaftesbury Street,178,,Carson,Robert,,vision_ocr
 1917,Shaftesbury Street,176,,Widdows,George,,vision_ocr
@@ -18793,7 +18793,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Walsall Street,35,,Lord,Richard,carpenter,vision_ocr
 1917,Walsall Street,33,,Booth,John,fitter,vision_ocr
 1917,Walsall Street,31,,Davis,Thos.,furnaceman,vision_ocr
-1917,Walsall Street,29,,Bell,James,com. agent,vision_ocr
+1917,Walsall Street,29,,Bell,James,Commercial Agent,vision_ocr
 1917,Walsall Street,27,,Wood,Sidney Sam'l.,i.w.,vision_ocr
 1917,Walsall Street,25,,Sparkes,Mrs. Eliza,,vision_ocr
 1917,Walsall Street,23,,Shergold,Bradney,ironwkr,vision_ocr
