@@ -25,6 +25,7 @@ FIRM_RE = re.compile(
     re.I,
 )
 TITLE_PREFIX_RE = re.compile(r"^(?:Mr\.?|Mrs\.?|Miss|Misses|Rev\.?|Dr\.?|Sir|Capt\.?|Captain|Major|Col\.?|Colonel|Gen\.?|The)\b", re.I)
+INITIALS_RE = re.compile(r"^(?:[A-Z]\.\s*)+$")
 SUFFIX_ONLY_RE = re.compile(r"^(?:Esq\.?|J\.?P\.?|M\.?D\.?|M\.?A\.?|C\.?E\.?|jun\.?|sen\.?|Bart\.?)(?:[,\s]+(?:Esq\.?|J\.?P\.?|M\.?D\.?|M\.?A\.?|C\.?E\.?|jun\.?|sen\.?|Bart\.?))*$", re.I)
 COMMON_FORENAMES = {
     "william", "wm.", "john", "jno.", "thomas", "thos.", "james", "jas.",
@@ -33,6 +34,9 @@ COMMON_FORENAMES = {
     "alfred", "edwin", "frederick", "walter", "david", "daniel", "stephen",
     "arthur", "alexander", "adam", "amelia", "alice", "margaret", "mary", "ann",
     "elizabeth", "jane", "sarah", "harriet", "maria", "eliza", "catherine", "ellen",
+    "cornelius", "caleb", "jacob", "isaac", "abraham", "moses", "elijah", "enoch",
+    "reuben", "solomon", "susan", "sophia", "emma", "louisa", "augusta", "fanny",
+    "rebecca", "rachel", "emily", "charlotte", "caroline", "anne", "hannah",
     "mrs.", "mr.", "miss", "misses", "rev.", "dr.",
 }
 
@@ -425,20 +429,35 @@ def build_alphabetical_gazetteer(year: int, title: str, tsv_name: str, gentry_en
                 name, fmt = format_person(f"{c0}, {fore_part}", surname_first=True)
                 trade = rest_part
             elif c0 and c1:
-                c0_first = c0.split()[0].lower()
-                c1_is_alpha = c1[0].isalpha() and c1[0].upper() == cur_alpha and c0[0].upper() != cur_alpha
-                if (c0_first in COMMON_FORENAMES or TITLE_PREFIX_RE.match(c0) or c1_is_alpha) and len(c1.split()) == 1:
-                    name, fmt = format_person(f"{c1}, {c0}", surname_first=True)
-                else:
-                    name, fmt = format_person(f"{c0}, {c1}", surname_first=True)
-                    if name and name[0].isalpha() and name[0].upper() >= cur_alpha and ord(name[0].upper()) - ord(cur_alpha) <= 2:
-                        cur_alpha = name[0].upper()
-                if c2 and re.match(r"^(?:and|&)\s+(?:Co\.?|Sons?|Bros\.?|Brothers)\b", c2, re.I):
-                    fmt = f"{fmt} {c2}".strip()
-                    name = f"{name} {c2}".strip()
-                    trade = trimmed[3] if len(trimmed) > 3 else ""
-                else:
+                if "," in c0 and re.search(r",\s*[a-z]", c0) and len(c1.split()) <= 2:
+                    f_part, tr_part = c0.split(",", 1)
+                    name, fmt = format_person(f"{c1}, {f_part}", surname_first=True)
+                    trade = tr_part.strip()
+                elif INITIALS_RE.match(c0):
+                    # e.g. "C. | Hawkins", "C. | Higley", "C. | Folk Henry"
+                    c1_parts = c1.split(" ", 1)
+                    if len(c1_parts) == 2:
+                        name = f"{clean_case(c1_parts[0])}, {c1_parts[1]} {c0}".strip()
+                        fmt = f"{c1_parts[1]} {c0} {clean_case(c1_parts[0])}".strip()
+                    else:
+                        name = f"{clean_case(c1)}, {c0}".strip()
+                        fmt = f"{c0} {clean_case(c1)}".strip()
                     trade = c2
+                else:
+                    c0_first = c0.split()[0].lower()
+                    c1_is_alpha = c1[0].isalpha() and c1[0].upper() == cur_alpha and c0[0].upper() != cur_alpha
+                    if (c0_first in COMMON_FORENAMES or TITLE_PREFIX_RE.match(c0) or c1_is_alpha) and len(c1.split()) == 1:
+                        name, fmt = format_person(f"{c1}, {c0}", surname_first=True)
+                    else:
+                        name, fmt = format_person(f"{c0}, {c1}", surname_first=True)
+                        if name and name[0].isalpha() and name[0].upper() >= cur_alpha and ord(name[0].upper()) - ord(cur_alpha) <= 2:
+                            cur_alpha = name[0].upper()
+                    if c2 and re.match(r"^(?:and|&)\s+(?:Co\.?|Sons?|Bros\.?|Brothers)\b", c2, re.I):
+                        fmt = f"{fmt} {c2}".strip()
+                        name = f"{name} {c2}".strip()
+                        trade = trimmed[3] if len(trimmed) > 3 else ""
+                    else:
+                        trade = c2
             else:
                 name, fmt = format_person(c0, surname_first=True)
                 trade = c1
