@@ -258,6 +258,12 @@ def extract_rows(canonical_streets: dict[str, str]) -> tuple[list[dict], list[tu
             for _, _, full_match in addrs:
                 trade = re.sub(re.escape(full_match) + r"(?:\s*\([^)]*\))?", "", trade, flags=re.I)
             trade = clean_trade(trade)
+            if trade and trade.lower() in {
+                f"{forename} {surname}".strip().lower(),
+                f"{surname} {forename}".strip().lower(),
+                surname.lower(),
+            }:
+                trade = ""
 
         if not surname:
             continue
