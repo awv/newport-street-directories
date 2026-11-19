@@ -296,7 +296,12 @@ def build_trade_gazetteer(year: int, title: str, tsv_name: str, max_line: int | 
             else:
                 left = [c for c in cleaned if c]
 
-            if len(left) >= 2 and left[1] and left[1][0].islower():
+            if len(left) >= 2 and left[1] and re.match(r"^(?:and|&)\s+[A-Z]", left[1]):
+                firm_str = f"{clean_case(left[0])} {left[1]}"
+                name, fmt = firm_str, firm_str
+                if len(left) >= 3:
+                    trade = "; ".join(left[2:])
+            elif len(left) >= 2 and left[1] and left[1][0].islower():
                 name, fmt = format_person(left[0], surname_first=True)
                 trade = left[1]
             elif len(left) >= 2:
@@ -402,7 +407,16 @@ def build_alphabetical_gazetteer(year: int, title: str, tsv_name: str, gentry_en
             c0 = trimmed[0] if len(trimmed) > 0 else ""
             c1 = trimmed[1] if len(trimmed) > 1 else ""
             c2 = trimmed[2] if len(trimmed) > 2 else ""
-            if c0 and c1 and c1[0].islower():
+            if c0 and c1 and re.match(r"^(?:and|&)\s+[A-Z]", c1):
+                if "," in c1:
+                    c1_tail, c1_tr = [p.strip() for p in c1.split(",", 1)]
+                    name = f"{clean_case(c0)} {c1_tail}"
+                    trade = c1_tr
+                else:
+                    name = f"{clean_case(c0)} {c1}"
+                    trade = c2
+                fmt = name
+            elif c0 and c1 and c1[0].islower():
                 name, fmt = format_person(c0, surname_first=True)
                 trade = c1
             elif c0 and c1 and "," in c1 and not SUFFIX_ONLY_RE.match(c1.split(",", 1)[1].strip()):
@@ -440,7 +454,16 @@ def build_alphabetical_gazetteer(year: int, title: str, tsv_name: str, gentry_en
                 if len(parts) > 2 and not trade:
                     trade = parts[2]
             elif c0 and c1:
-                if c1[0].islower():
+                if re.match(r"^(?:and|&)\s+[A-Z]", c1):
+                    if "," in c1:
+                        c1_tail, c1_tr = [p.strip() for p in c1.split(",", 1)]
+                        name = f"{clean_case(c0)} {c1_tail}"
+                        trade = c1_tr
+                    else:
+                        name = f"{clean_case(c0)} {c1}"
+                        trade = c2
+                    fmt = name
+                elif c1[0].islower():
                     name, fmt = format_person(c0, surname_first=True)
                     trade = c1
                 else:
