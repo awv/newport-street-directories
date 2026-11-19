@@ -33,6 +33,13 @@ REPLACEMENTS = [
     (re.compile(r"\btram\s+dr\.?(?=\b|\s|$)", re.I), "Tram Driver"),
     (re.compile(r"\btram\s+con\.?(?=\b|\s|$)", re.I), "Tram Conductor"),
     (re.compile(r"\bballast\s+grd\.?(?=\b|\s|$)", re.I), "Ballast Guard"),
+    (re.compile(r"\bstore\s+kpr\.?(?=\b|\s|$)", re.I), "Store Keeper"),
+    (re.compile(r"\bbeef\s+retailer\b", re.I), "Beer Retailer"),
+    (re.compile(r"\bins['’]nce\s+agent\b", re.I), "Insurance Agent"),
+    (re.compile(r"\brly\.?\s+porter\b", re.I), "Railway Porter"),
+    (re.compile(r"\brlwy['’]?man\b", re.I), "Railwayman"),
+    (re.compile(r"\bgard['’]nr\b", re.I), "Gardener"),
+    (re.compile(r"\bB\.?\s*&\s*M\.?\s*R\.?(?=\b|\s|$)", re.I), "Brecon & Merthyr Railway"),
 ]
 
 
@@ -69,6 +76,63 @@ def process_csv(path: Path) -> int:
             r["forename"] = f"{fore} {parts[0]}".strip()
             r["trade"] = parts[1].strip()
             row_changed = True
+
+        # Fix Albert Terrace No. 3 (Engineers' Arms) and No. 24 (Camelly Cottage / Camley House)
+        if r.get("street") == "Albert Terrace":
+            hn = (r.get("house_number") or "").strip()
+            yr = (r.get("year") or "").strip()
+            if hn == "3":
+                if yr in {"1895", "1904", "1908", "1910", "1933"} and "engineer" in tr.lower():
+                    r["building_name"] = "Engineers' Arms"
+                    r["trade"] = ""
+                    row_changed = True
+                elif yr == "1894" and "engineer" in fore.lower():
+                    r["surname"] = "Witts"
+                    r["forename"] = "F."
+                    row_changed = True
+                elif yr == "1913" and "witts" in tr.lower():
+                    r["building_name"] = "Engineers' Arms"
+                    r["surname"] = "Witts"
+                    r["forename"] = "E. S."
+                    r["trade"] = ""
+                    row_changed = True
+                elif yr == "1927" and "witts" in tr.lower():
+                    r["building_name"] = "Engineers' Arms"
+                    r["surname"] = "Witts"
+                    r["forename"] = "Hubert H."
+                    r["trade"] = ""
+                    row_changed = True
+                elif yr == "1936" and sur == "Miss" and "Witts" in fore:
+                    r["surname"] = "Witts"
+                    r["forename"] = "Miss Laura L."
+                    row_changed = True
+                elif yr in {"1938", "1946"} and "engineer" in sur.lower():
+                    r["building_name"] = "Engineers' Arms"
+                    r["surname"] = "Witts"
+                    r["forename"] = "Miss Laura L."
+                    r["trade"] = ""
+                    row_changed = True
+                elif yr == "1950" and "engineers arms" in tr.lower():
+                    r["building_name"] = "Engineers' Arms"
+                    r["trade"] = ""
+                    row_changed = True
+            elif hn == "24":
+                if yr == "1913" and sur == "Reginald" and tr == "Poole":
+                    r["building_name"] = "Camelly Cottage"
+                    r["surname"] = "Poole"
+                    r["forename"] = "Reginald"
+                    r["trade"] = ""
+                    row_changed = True
+                elif yr == "1920" and sur == "Camelly" and "Poole" in fore:
+                    r["building_name"] = "Camelly Cottage"
+                    r["surname"] = "Poole"
+                    r["forename"] = "Reginald"
+                    row_changed = True
+                elif yr == "1933" and sur == "Camley House" and "Griffiths" in fore:
+                    r["building_name"] = "Camley House"
+                    r["surname"] = "Griffiths"
+                    r["forename"] = "BTA"
+                    row_changed = True
 
         old = r.get("trade") or ""
         new = fix_trade(old)
