@@ -248,15 +248,7 @@ def build_trade_gazetteer(year: int, title: str, tsv_name: str, max_line: int | 
         if len(cleaned) == 1:
             line_txt = cleaned[0]
             num_note, st = extract_num_and_street(line_txt)
-            # Reattach partner/company suffix if it landed in trade (e.g. "and Co.", "& Sons", "& Taylor")
-        m_partner_tr = re.match(r"^((?:and|&)\s+(?:Co\.?|Sons?|Bros\.?|Brothers|[A-Z][a-z'\-]+))(?:\s*,\s*(.*))?$", trade, re.I)
-        if m_partner_tr and not trade.lower().startswith(("and at ", "and in ", "and civil ", "and town", "and land", "and portrait", "and house", "and free", "and library", "and wine")):
-            suffix_part = m_partner_tr.group(1).strip()
-            rest_tr = (m_partner_tr.group(2) or "").strip()
-            if suffix_part.lower() not in fmt.lower():
-                fmt = f"{fmt} {suffix_part}".strip()
-                name = f"{name} {suffix_part}".strip()
-            trade = rest_tr
+            if st:
                 notes = num_note
                 street = st
                 name_part = strip_addr_from_text(line_txt, num_note, st)
@@ -290,15 +282,7 @@ def build_trade_gazetteer(year: int, title: str, tsv_name: str, max_line: int | 
             if addr_idx is not None:
                 addr_blob = cleaned[addr_idx]
                 num_note, st = extract_num_and_street(addr_blob)
-                # Reattach partner/company suffix if it landed in trade (e.g. "and Co.", "& Sons", "& Taylor")
-        m_partner_tr = re.match(r"^((?:and|&)\s+(?:Co\.?|Sons?|Bros\.?|Brothers|[A-Z][a-z'\-]+))(?:\s*,\s*(.*))?$", trade, re.I)
-        if m_partner_tr and not trade.lower().startswith(("and at ", "and in ", "and civil ", "and town", "and land", "and portrait", "and house", "and free", "and library", "and wine")):
-            suffix_part = m_partner_tr.group(1).strip()
-            rest_tr = (m_partner_tr.group(2) or "").strip()
-            if suffix_part.lower() not in fmt.lower():
-                fmt = f"{fmt} {suffix_part}".strip()
-                name = f"{name} {suffix_part}".strip()
-            trade = rest_tr
+                if st:
                     notes = num_note
                     street = st
                 else:
@@ -509,6 +493,7 @@ def build_alphabetical_gazetteer(year: int, title: str, tsv_name: str, gentry_en
                 fmt = f"{fmt} {suffix_part}".strip()
                 name = f"{name} {suffix_part}".strip()
             trade = rest_tr
+        if st:
             trade = strip_addr_from_text(trade, num_note, st)
             st = st.lstrip("”\"' ").strip()
         if num_note:
