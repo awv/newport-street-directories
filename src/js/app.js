@@ -2023,6 +2023,20 @@ function toggleMobileSidebar() {
       `;
     }
 
+    window._tradeGlossaryMap = {};
+    fetch('data/trade_glossary.json')
+      .then(r => r.ok ? r.json() : null)
+      .then(gd => {
+        if (!gd || !gd.terms) return;
+        gd.terms.forEach(t => {
+          window._tradeGlossaryMap[t.term.toLowerCase()] = t;
+          (t.variants || []).forEach(v => {
+            window._tradeGlossaryMap[v.toLowerCase()] = t;
+          });
+        });
+      })
+      .catch(() => {});
+
     function renderLedgerBody(yearFilter) {
       const tbody = document.getElementById('street-ledger-body');
       if (!tbody || !window._currentStreetLocations) return;
@@ -2205,6 +2219,10 @@ function toggleMobileSidebar() {
               : '';
             const displayResidentName = formatDisplayCase(residentName);
             const displayTradeText = formatDisplayCase(r.trade || 'Private Resident');
+            const gEntry = window._tradeGlossaryMap && r.trade ? window._tradeGlossaryMap[r.trade.trim().toLowerCase()] : null;
+            const glossaryBadge = gEntry
+              ? `<a href="glossary.html#${gEntry.slug}" title="${gEntry.term}: ${gEntry.description.replace(/"/g, '&quot;')}" style="color: var(--accent-hover); margin-left: 0.35rem; font-size: 0.85rem; vertical-align: -1px; text-decoration: none;" onclick="event.stopPropagation();"><i class="ph ph-book-bookmark"></i></a>`
+              : '';
 
             const nameHtml = displayResidentName === '—'
               ? `<span style="color: var(--text-muted);">—</span>`
@@ -2222,7 +2240,7 @@ function toggleMobileSidebar() {
                 ${bldgSub}
               </td>
               <td>
-                <div class="ledger-trade-text">${displayTradeText}</div>
+                <div class="ledger-trade-text">${displayTradeText}${glossaryBadge}</div>
               </td>
               <td>
                 <div class="year-pills-wrapper">

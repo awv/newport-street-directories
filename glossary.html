@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trade & Occupation Glossary — Newport Street Directory</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <link rel="stylesheet" href="src/styles/main.css" />
+  <style>
+    .glossary-container {
+      padding: 2rem 2.5rem;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    .glossary-hero {
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.96) 0%, rgba(253, 248, 236, 0.95) 100%);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 2.25rem;
+      margin-bottom: 1.75rem;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+    }
+
+    .glossary-pill-row {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      margin-top: 1.25rem;
+    }
+
+    .glossary-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.45rem 0.95rem;
+      border-radius: 999px;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      color: var(--text-secondary);
+      font-weight: 600;
+      font-size: 0.84rem;
+      cursor: pointer;
+      transition: all 0.18s ease;
+    }
+
+    .glossary-pill:hover {
+      border-color: var(--accent);
+      color: var(--text-primary);
+    }
+
+    .glossary-pill.active {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+
+    .glossary-pill.archaic-toggle.active {
+      background: #7C5818;
+      border-color: #7C5818;
+      color: #fff;
+    }
+
+    .controls-bar {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 1.25rem;
+    }
+
+    .az-bar {
+      display: flex;
+      gap: 0.25rem;
+      flex-wrap: wrap;
+      margin-bottom: 1.75rem;
+      padding: 0.65rem 0.85rem;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+    }
+
+    .az-btn {
+      min-width: 28px;
+      height: 28px;
+      padding: 0 0.35rem;
+      border-radius: 5px;
+      border: 1px solid transparent;
+      background: transparent;
+      color: var(--text-primary);
+      font-weight: 600;
+      font-size: 0.82rem;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .az-btn:hover:not(:disabled) {
+      background: rgba(197, 155, 39, 0.14);
+      color: var(--accent-hover);
+      border-color: rgba(197, 155, 39, 0.35);
+    }
+
+    .az-btn:disabled {
+      color: var(--text-muted);
+      opacity: 0.4;
+      cursor: default;
+    }
+
+    .letter-section {
+      margin-bottom: 2.25rem;
+    }
+
+    .letter-header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      border-bottom: 2px solid rgba(197, 155, 39, 0.3);
+      padding-bottom: 0.4rem;
+      margin-bottom: 1rem;
+    }
+
+    .letter-title {
+      font-family: var(--heading-font);
+      font-size: 1.85rem;
+      color: var(--accent-hover);
+    }
+
+    .glossary-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 1rem;
+    }
+
+    .glossary-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 1.15rem 1.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+      transition: all 0.18s ease;
+      scroll-margin-top: 90px;
+    }
+
+    .glossary-card:hover {
+      border-color: var(--accent);
+      box-shadow: 0 4px 14px rgba(0,0,0,0.04);
+    }
+
+    .glossary-card.highlighted {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(197, 155, 39, 0.22);
+      background: #FFFDF7;
+    }
+
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 0.5rem;
+    }
+
+    .term-title {
+      font-family: var(--heading-font);
+      font-size: 1.4rem;
+      color: var(--text-primary);
+      line-height: 1.15;
+    }
+
+    .badge-row {
+      display: flex;
+      gap: 0.35rem;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .family-badge {
+      font-size: 0.72rem;
+      font-weight: 600;
+      padding: 0.18rem 0.5rem;
+      border-radius: 4px;
+      background: rgba(197, 155, 39, 0.12);
+      color: var(--accent-hover);
+      white-space: nowrap;
+    }
+
+    .archaic-badge {
+      font-size: 0.7rem;
+      font-weight: 600;
+      padding: 0.18rem 0.45rem;
+      border-radius: 4px;
+      background: #F3EAD3;
+      color: #6B5319;
+      white-space: nowrap;
+    }
+
+    .term-desc {
+      font-size: 0.91rem;
+      line-height: 1.55;
+      color: var(--text-secondary);
+    }
+
+    .term-variants {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .card-footer {
+      margin-top: auto;
+      padding-top: 0.65rem;
+      border-top: 1px dashed var(--border-color);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      font-size: 0.8rem;
+    }
+
+    .footprint-meta {
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    .sample-link {
+      color: var(--accent-hover);
+      font-weight: 600;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+    }
+
+    .sample-link:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .glossary-container { padding: 1.25rem 1rem; }
+      .glossary-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="app-shell">
+    <!-- LEFT SIDEBAR -->
+    <aside class="app-sidebar">
+      <div class="sidebar-header">
+        <a href="index.html#home" class="sidebar-logo">
+          <i class="ph ph-compass-rose logo-icon"></i>
+          <div>
+            <div class="logo-title">NEWPORT ARCHIVE</div>
+            <div class="logo-sub">Cartographic & Street Ledger</div>
+          </div>
+        </a>
+      </div>
+
+      <nav class="sidebar-nav">
+        <div class="nav-section-label">ARCHIVE EXPLORER</div>
+        <a href="index.html#home" class="nav-item"><i class="ph ph-house-line"></i><span>Overview</span></a>
+        <a href="index.html#streets" class="nav-item"><i class="ph ph-path"></i><span>Street Directory</span></a>
+        <a href="index.html#directories" class="nav-item"><i class="ph ph-books"></i><span>Directory Books</span></a>
+        <a href="gazetteer.html" class="nav-item"><i class="ph ph-scroll"></i><span>Early Gazetteers</span></a>
+        <a href="glossary.html" class="nav-item active"><i class="ph ph-book-bookmark"></i><span>Trade Glossary</span></a>
+        <a href="trades.html" class="nav-item"><i class="ph ph-briefcase"></i><span>Occupations Audit</span></a>
+        <a href="map.html" class="nav-item"><i class="ph ph-map-trifold"></i><span>Cartographic Map</span></a>
+
+        <div class="nav-section-label" style="margin-top: 1.5rem;">DATA AUDIT</div>
+        <a href="timeline.html" class="nav-item"><i class="ph ph-chart-line-up"></i><span>Street Timeline Audit</span></a>
+        <a href="editor.html" class="nav-item"><i class="ph ph-table"></i><span>Master Table Editor</span></a>
+      </nav>
+    </aside>
+
+    <!-- MAIN CANVAS -->
+    <main class="app-canvas">
+      <header class="canvas-header">
+        <div class="breadcrumb-container">
+          <a href="index.html#home">Home</a> <i class="ph ph-caret-right"></i> <span>Trade &amp; Occupation Glossary</span>
+        </div>
+        <div class="canvas-header-actions">
+          <a href="index.html#streets" class="header-btn"><i class="ph ph-arrow-left"></i> Back to Street Directory</a>
+        </div>
+      </header>
+
+      <div class="glossary-container">
+        <div class="glossary-hero">
+          <div class="hero-badge" style="display: inline-flex; align-items: center; gap: 0.35rem; background: rgba(197, 155, 39, 0.1); color: var(--accent-hover); padding: 0.25rem 0.65rem; border-radius: 4px; font-weight: 600; font-size: 0.8rem; margin-bottom: 0.75rem;">
+            <i class="ph ph-book-bookmark"></i> Historical Trades Reference • <span id="hero-stats">101 Occupations</span>
+          </div>
+          <h1 style="font-family: var(--heading-font); font-size: 2.65rem; color: var(--text-primary); line-height: 1.15; margin-bottom: 0.5rem;">
+            Newport Trade &amp; Occupation Glossary
+          </h1>
+          <p style="color: var(--text-secondary); max-width: 850px; font-size: 0.95rem; line-height: 1.6;">
+            Plain-English definitions of the Victorian and early-20th-century trades found across Newport's street directories — from dockside <em>Hobblers</em> and <em>Coal Trimmers</em> to ironworks <em>Puddlers</em> and railway <em>Ballast Guards</em> — linked to real Newport residents.
+          </p>
+
+          <div class="glossary-pill-row" id="family-pills"></div>
+        </div>
+
+        <div class="controls-bar">
+          <div style="position: relative; flex: 1; min-width: 260px;">
+            <i class="ph ph-magnifying-glass" style="position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: var(--text-muted); font-size: 1.1rem;"></i>
+            <input type="text" id="glossary-search" placeholder="Search trades, abbreviations, or keywords (e.g. Puddler, docks, leather, tram)..." class="form-input" style="padding-left: 2.4rem; width: 100%; height: 44px; font-size: 0.95rem;" oninput="handleSearch(this.value)">
+          </div>
+          <button type="button" class="glossary-pill archaic-toggle" id="btn-archaic" onclick="toggleArchaic()">
+            <i class="ph ph-hourglass-medium"></i> Obsolete / Archaic Only
+          </button>
+          <span id="visible-count" style="font-size: 0.86rem; color: var(--text-muted); font-weight: 600;"></span>
+        </div>
+
+        <div class="az-bar" id="az-bar"></div>
+        <div id="glossary-content"></div>
+
+        <footer style="margin-top: 4rem; padding: 2rem 1rem; border-top: 1px solid var(--border-color); text-align: center; color: var(--text-secondary); font-size: 0.88rem;">
+          <div>Created by <strong>Robert Gale</strong>, <em>Newport Cornucopia</em> — <a href="https://www.newportcornucopia.co.uk" target="_blank" rel="noopener" style="color: var(--accent); font-weight: 600; text-decoration: none;">www.newportcornucopia.co.uk</a></div>
+        </footer>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    let glossaryData = null;
+    let activeFamily = 'All';
+    let archaicOnly = false;
+    let searchQuery = '';
+
+    async function loadGlossary() {
+      const res = await fetch('data/trade_glossary.json');
+      glossaryData = await res.json();
+
+      const totalRecords = glossaryData.terms.reduce((sum, t) => sum + (t.count || 0), 0);
+      document.getElementById('hero-stats').textContent =
+        `${glossaryData.total_terms} Occupations • ${totalRecords.toLocaleString()} Directory Entries`;
+
+      renderFamilyPills();
+      renderGlossary();
+      scrollToHash();
+    }
+
+    function renderFamilyPills() {
+      const row = document.getElementById('family-pills');
+      const families = ['All', ...glossaryData.families];
+      row.innerHTML = families.map(f => {
+        const isActive = activeFamily === f;
+        const label = f === 'All' ? 'All Trades' : f;
+        return `<button type="button" class="glossary-pill ${isActive ? 'active' : ''}" onclick="selectFamily('${f.replace(/'/g, "\\'")}')">${label}</button>`;
+      }).join('');
+    }
+
+    function selectFamily(family) {
+      activeFamily = family;
+      renderFamilyPills();
+      renderGlossary();
+    }
+
+    function toggleArchaic() {
+      archaicOnly = !archaicOnly;
+      document.getElementById('btn-archaic').classList.toggle('active', archaicOnly);
+      renderGlossary();
+    }
+
+    function handleSearch(val) {
+      searchQuery = val.toLowerCase().trim();
+      renderGlossary();
+    }
+
+    function jumpToLetter(letter) {
+      const el = document.getElementById(`letter-${letter}`);
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    function renderGlossary() {
+      if (!glossaryData) return;
+
+      const filtered = glossaryData.terms.filter(t => {
+        if (activeFamily !== 'All' && t.family !== activeFamily) return false;
+        if (archaicOnly && !t.archaic) return false;
+        if (searchQuery) {
+          const hay = [
+            t.term,
+            t.family,
+            t.description,
+            ...(t.variants || [])
+          ].join(' ').toLowerCase();
+          if (!hay.includes(searchQuery)) return false;
+        }
+        return true;
+      });
+
+      document.getElementById('visible-count').textContent =
+        `Showing ${filtered.length} of ${glossaryData.total_terms}`;
+
+      // Group by first letter
+      const groups = {};
+      filtered.forEach(t => {
+        const letter = t.term.charAt(0).toUpperCase();
+        if (!groups[letter]) groups[letter] = [];
+        groups[letter].push(t);
+      });
+
+      // Render A-Z bar
+      const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+      document.getElementById('az-bar').innerHTML = alphabet.map(l => {
+        const hasItems = Boolean(groups[l] && groups[l].length);
+        return `<button type="button" class="az-btn" ${hasItems ? '' : 'disabled'} onclick="jumpToLetter('${l}')">${l}</button>`;
+      }).join('');
+
+      const container = document.getElementById('glossary-content');
+      if (filtered.length === 0) {
+        container.innerHTML = `<div style="padding: 3rem; text-align: center; color: var(--text-secondary); background: var(--bg-surface); border: 1px solid var(--border-color); border-radius: 10px;">No matching trades found for your current filters.</div>`;
+        return;
+      }
+
+      const targetSlug = (window.location.hash || '').replace(/^#/, '');
+      container.innerHTML = Object.keys(groups).sort().map(letter => `
+        <section class="letter-section" id="letter-${letter}">
+          <div class="letter-header">
+            <span class="letter-title">${letter}</span>
+            <span style="font-size: 0.82rem; color: var(--text-muted); font-weight: 600;">${groups[letter].length} term${groups[letter].length === 1 ? '' : 's'}</span>
+          </div>
+          <div class="glossary-grid">
+            ${groups[letter].map(t => {
+              const isHighlighted = targetSlug && t.slug === targetSlug;
+              const variantsHtml = (t.variants && t.variants.length)
+                ? `<div class="term-variants"><strong>Also seen as:</strong> ${t.variants.join(', ')}</div>`
+                : '';
+              const spanText = t.earliest && t.latest ? `${t.earliest}–${t.latest}` : '';
+              const sampleHtml = t.sample && t.sample.street
+                ? `<a class="sample-link" href="index.html#street=${encodeURIComponent(t.sample.slug)}" title="View ${t.sample.street} in Street Directory"><i class="ph ph-map-pin"></i> e.g. ${t.sample.name || t.sample.street}${t.sample.house_number ? `, No. ${t.sample.house_number}` : ''} ${t.sample.street} (${t.sample.year})</a>`
+                : '';
+              return `
+                <article class="glossary-card ${isHighlighted ? 'highlighted' : ''}" id="${t.slug}">
+                  <div class="card-top">
+                    <div class="term-title">${t.term}</div>
+                    <div class="badge-row">
+                      ${t.archaic ? '<span class="archaic-badge">Historic / Archaic</span>' : ''}
+                      <span class="family-badge">${t.family}</span>
+                    </div>
+                  </div>
+                  <div class="term-desc">${t.description}</div>
+                  ${variantsHtml}
+                  <div class="card-footer">
+                    <span class="footprint-meta">${(t.count || 0).toLocaleString()} entries${spanText ? ` • ${spanText}` : ''}</span>
+                    ${sampleHtml}
+                  </div>
+                </article>
+              `;
+            }).join('')}
+          </div>
+        </section>
+      `).join('');
+    }
+
+    function scrollToHash() {
+      const slug = (window.location.hash || '').replace(/^#/, '');
+      if (!slug) return;
+      const el = document.getElementById(slug);
+      if (el) {
+        setTimeout(() => el.scrollIntoView({ behavior: 'smooth', block: 'center' }), 80);
+      }
+    }
+
+    window.addEventListener('hashchange', () => {
+      renderGlossary();
+      scrollToHash();
+    });
+
+    loadGlossary();
+  </script>
+</body>
+</html>
