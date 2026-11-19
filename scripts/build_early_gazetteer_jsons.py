@@ -123,8 +123,8 @@ def format_person(raw_name: str, surname_first: bool = True) -> tuple[str, str]:
         expanded = expand_forenames(clean_case(s))
         return expanded, expanded
 
-    # Do not flip firms, companies, or already-titled names ("Sir Charles G. Morgan", "Rev. John Jones")
-    if FIRM_RE.search(s) or TITLE_PREFIX_RE.match(s):
+    # Do not flip firms, companies, already-titled names ("Sir Charles G. Morgan"), or initial-prefixed names ("C. T. Wood", "C. Lyne")
+    if FIRM_RE.search(s) or TITLE_PREFIX_RE.match(s) or re.match(r"^(?:[A-Z]\.\s+)+", s):
         expanded = expand_forenames(clean_case(s))
         return expanded, expanded
 
