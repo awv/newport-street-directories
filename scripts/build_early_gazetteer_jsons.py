@@ -36,7 +36,8 @@ COMMON_FORENAMES = {
     "elizabeth", "jane", "sarah", "harriet", "maria", "eliza", "catherine", "ellen",
     "cornelius", "caleb", "jacob", "isaac", "abraham", "moses", "elijah", "enoch",
     "reuben", "solomon", "susan", "sophia", "emma", "louisa", "augusta", "fanny",
-    "rebecca", "rachel", "emily", "charlotte", "caroline", "anne", "hannah",
+    "rebecca", "rachel", "emily", "charlotte", "caroline", "anne", "hannah", "job",
+    "wm", "geo", "thos", "chas", "jno", "jas", "jos", "robt", "richd", "edwd", "hy", "saml", "benj", "fredk",
     "mrs.", "mr.", "miss", "misses", "rev.", "dr.",
 }
 
@@ -118,6 +119,12 @@ def format_person(raw_name: str, surname_first: bool = True) -> tuple[str, str]:
         p1, p2 = [p.strip() for p in s.split(",", 1)]
         if p1 and p2 and not FIRM_RE.search(p1) and not SUFFIX_ONLY_RE.match(p2):
             sur = clean_case(p1)
+            # Move trailing suffix from p2 (e.g. "James, M.D.") to end of formatted_name
+            m_suf = re.match(r"^(.+?),\s*((?:M\.?D\.?|Esq\.?|J\.?P\.?|M\.?A\.?|C\.?E\.?|jun\.?|sen\.?|Bart\.?))$", p2, re.I)
+            if m_suf:
+                fore = expand_forenames(clean_case(m_suf.group(1)))
+                suf = m_suf.group(2)
+                return f"{sur}, {fore}, {suf}", f"{fore} {sur}, {suf}".strip()
             fore = expand_forenames(clean_case(p2) if p2.isupper() else p2)
             return f"{sur}, {fore}", f"{fore} {sur}".strip()
         expanded = expand_forenames(clean_case(s))
@@ -447,9 +454,11 @@ def build_alphabetical_gazetteer(year: int, title: str, tsv_name: str, gentry_en
                     name, fmt = format_person(c0, surname_first=True)
                     trade = c1
                 else:
-                    c0_first = c0.split()[0].lower()
+                    c0_first = c0.split()[0].lower().rstrip(",")
+                    c1_low = c1.strip().lower()
+                    c1_is_fore_abbr = c1_low.rstrip(".") in COMMON_FORENAMES or c1.strip() in FORENAME_EXPANSIONS or INITIALS_RE.match(c1)
                     c1_is_alpha = c1[0].isalpha() and c1[0].upper() == cur_alpha and c0[0].upper() != cur_alpha
-                    if (c0_first in COMMON_FORENAMES or TITLE_PREFIX_RE.match(c0) or c1_is_alpha) and len(c1.split()) == 1 and not INITIALS_RE.match(c1):
+                    if (c0_first in COMMON_FORENAMES or TITLE_PREFIX_RE.match(c0) or c1_is_alpha) and len(c1.split()) == 1 and not c1_is_fore_abbr:
                         name, fmt = format_person(f"{c1}, {c0}", surname_first=True)
                     else:
                         name, fmt = format_person(f"{c0}, {c1}", surname_first=True)

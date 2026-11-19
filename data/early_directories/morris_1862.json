@@ -792,6 +792,13 @@
           "notes": ""
         },
         {
+          "name": "Alexander, Charles",
+          "formatted_name": "Charles Alexander",
+          "street": "Commercial road",
+          "trade": "herbalist and surgeon",
+          "notes": "No. 37"
+        },
+        {
           "name": "Alger, Rowland",
           "formatted_name": "Rowland Alger",
           "street": "Commercial street",
@@ -1777,13 +1784,6 @@
           "notes": "No. 171"
         },
         {
-          "name": "Benjamin, James",
-          "formatted_name": "James Benjamin",
-          "street": "Commercial street",
-          "trade": "grocer, tea and provision dealer",
-          "notes": "No. 2"
-        },
-        {
           "name": "Bank Chambers, Frederick",
           "formatted_name": "Bank Chambers, Frederick",
           "street": "High street",
@@ -1803,13 +1803,6 @@
           "street": "Park street",
           "trade": "commercial traveller",
           "notes": "No. 6"
-        },
-        {
-          "name": "Benjamin, Thomas",
-          "formatted_name": "Thomas Benjamin",
-          "street": "Stow hill",
-          "trade": "farmer",
-          "notes": "No. 10"
         },
         {
           "name": "Borough, Magistrates",
@@ -1928,13 +1921,6 @@
     {
       "category": "C",
       "entries": [
-        {
-          "name": "Charles, Alexander",
-          "formatted_name": "Alexander Charles",
-          "street": "Commercial road",
-          "trade": "herbalist and surgeon",
-          "notes": "No. 37"
-        },
         {
           "name": "Caldicott, Mrs",
           "formatted_name": "Mrs Caldicott",
@@ -2097,6 +2083,27 @@
           "notes": "No. 1"
         },
         {
+          "name": "Charles, Edward",
+          "formatted_name": "Edward Charles",
+          "street": "High street",
+          "trade": "\"Old Three Horse Shoes\"",
+          "notes": ""
+        },
+        {
+          "name": "Charles, Edward",
+          "formatted_name": "Edward Charles",
+          "street": "St. Woollos",
+          "trade": "carpenter",
+          "notes": ""
+        },
+        {
+          "name": "Charles, Thomas",
+          "formatted_name": "Thomas Charles",
+          "street": "Bailey street",
+          "trade": "carpenter",
+          "notes": "No. 44"
+        },
+        {
           "name": "Chave, Thomas",
           "formatted_name": "Thomas Chave",
           "street": "Dock parade",
@@ -2112,7 +2119,7 @@
         },
         {
           "name": "Christie, James, M.D",
-          "formatted_name": "James, M.D Christie",
+          "formatted_name": "James Christie, M.D",
           "street": "",
           "trade": "Dock street, consulting physician to the Newport Dispensary, and surgeon to Isca foundry",
           "notes": ""
@@ -2466,27 +2473,6 @@
           "street": "Temple street",
           "trade": "pilot",
           "notes": "No. 19"
-        },
-        {
-          "name": "Caleb, Thomas",
-          "formatted_name": "Thomas Caleb",
-          "street": "Dock street",
-          "trade": "Jenkins, solicitor's clerk",
-          "notes": ""
-        },
-        {
-          "name": "Catherine, Thomas",
-          "formatted_name": "Thomas Catherine",
-          "street": "St. Mary st",
-          "trade": "laundress",
-          "notes": ""
-        },
-        {
-          "name": "Charles, Thomas",
-          "formatted_name": "Thomas Charles",
-          "street": "Ruperra street",
-          "trade": "bonded store agent",
-          "notes": ""
         },
         {
           "name": "C. Lyne",
@@ -3257,13 +3243,6 @@
           "notes": ""
         },
         {
-          "name": "David, James",
-          "formatted_name": "James David",
-          "street": "Mill Brook terrace",
-          "trade": "master mariner",
-          "notes": "No. 2"
-        },
-        {
           "name": "Dennis, Leary",
           "formatted_name": "Leary Dennis",
           "street": "Dock street",
@@ -3276,34 +3255,6 @@
           "street": "Skinner street",
           "trade": "ale and porter agent",
           "notes": "No. 2"
-        },
-        {
-          "name": "David, Thomas",
-          "formatted_name": "Thomas David",
-          "street": "Commercial street",
-          "trade": "confectioner",
-          "notes": "No. 170"
-        },
-        {
-          "name": "David, Thomas",
-          "formatted_name": "Thomas David",
-          "street": "Mill street",
-          "trade": "\"Vulcan Inn”",
-          "notes": ""
-        },
-        {
-          "name": "Daniel, Thomas",
-          "formatted_name": "Thomas Daniel",
-          "street": "Lower George st",
-          "trade": "haulier",
-          "notes": "No. 1"
-        },
-        {
-          "name": "David, Thomas",
-          "formatted_name": "Thomas David",
-          "street": "Raglan street",
-          "trade": "master mariner",
-          "notes": "No. 23"
         },
         {
           "name": "D. Prosser",
@@ -3401,20 +3352,6 @@
     {
       "category": "E",
       "entries": [
-        {
-          "name": "Edward, Charles",
-          "formatted_name": "Charles Edward",
-          "street": "High street",
-          "trade": "\"Old Three Horse Shoes\"",
-          "notes": ""
-        },
-        {
-          "name": "Edward, Charles",
-          "formatted_name": "Charles Edward",
-          "street": "St. Woollos",
-          "trade": "carpenter",
-          "notes": ""
-        },
         {
           "name": "Enos, Dix",
           "formatted_name": "Dix Enos",
@@ -3848,20 +3785,6 @@
           "street": "",
           "trade": "baker, &c",
           "notes": ""
-        },
-        {
-          "name": "Edward, Thomas",
-          "formatted_name": "Thomas Edward",
-          "street": "York place",
-          "trade": "collector of rates-office, Town Hall",
-          "notes": "No. 2"
-        },
-        {
-          "name": "Evan, Thomas",
-          "formatted_name": "Thomas Evan",
-          "street": "Blewitt street",
-          "trade": "clerk, , Baneswell",
-          "notes": "No. 17"
         },
         {
           "name": "East, Ward—1862",
@@ -4320,6 +4243,13 @@
           "street": "Commercial road",
           "trade": "harbour master",
           "notes": "No. 193"
+        },
+        {
+          "name": "Gething, Robert, Junr",
+          "formatted_name": "Robert, Junr Gething",
+          "street": "Commercial road",
+          "trade": "clerk",
+          "notes": "No. 185"
         },
         {
           "name": "Giddy, Thomas R",
@@ -4922,6 +4852,13 @@
           "notes": ""
         },
         {
+          "name": "Harris, Job",
+          "formatted_name": "Job Harris",
+          "street": "Canal parade",
+          "trade": "beer retailer",
+          "notes": ""
+        },
+        {
           "name": "Harris, Margaret",
           "formatted_name": "Margaret Harris",
           "street": "Commercial road",
@@ -5004,6 +4941,13 @@
           "street": "Dolphin street",
           "trade": "chairmaker",
           "notes": "No. 1"
+        },
+        {
+          "name": "Hawkins, James, M.D",
+          "formatted_name": "James Hawkins, M.D",
+          "street": "High street",
+          "trade": "surgeon",
+          "notes": ""
         },
         {
           "name": "Hawkins, Joseph",
@@ -5384,13 +5328,6 @@
           "notes": ""
         },
         {
-          "name": "Henry, Iggulden",
-          "formatted_name": "Iggulden Henry",
-          "street": "",
-          "trade": "carpenter",
-          "notes": ""
-        },
-        {
           "name": "Hugh, Jones",
           "formatted_name": "Jones Hugh",
           "street": "",
@@ -5529,6 +5466,13 @@
       "category": "I",
       "entries": [
         {
+          "name": "Iggulden, Henry",
+          "formatted_name": "Henry Iggulden",
+          "street": "",
+          "trade": "carpenter",
+          "notes": ""
+        },
+        {
           "name": "Ingram, Charles W",
           "formatted_name": "Charles W Ingram",
           "street": "Baneswell",
@@ -5541,6 +5485,13 @@
           "street": "",
           "trade": "agent to Lorenzo Augustus Humfray, Pillgwenly",
           "notes": ""
+        },
+        {
+          "name": "Isaac, Jacob",
+          "formatted_name": "Jacob Isaac",
+          "street": "Commercial street",
+          "trade": "pawnbroker, silversmith, clothier, &c",
+          "notes": "No. 47"
         },
         {
           "name": "Isaacs and Son",
@@ -5583,27 +5534,6 @@
       "category": "J",
       "entries": [
         {
-          "name": "Job, Harris",
-          "formatted_name": "Harris Job",
-          "street": "Canal parade",
-          "trade": "beer retailer",
-          "notes": ""
-        },
-        {
-          "name": "James, M.D., Hawkins",
-          "formatted_name": "M.D., Hawkins James",
-          "street": "High street",
-          "trade": "surgeon",
-          "notes": ""
-        },
-        {
-          "name": "Jacob, Isaac",
-          "formatted_name": "Isaac Jacob",
-          "street": "Commercial street",
-          "trade": "pawnbroker, silversmith, clothier, &c",
-          "notes": "No. 47"
-        },
-        {
           "name": "Jacobs, Samuel",
           "formatted_name": "Samuel Jacobs",
           "street": "Blewitt street",
@@ -5639,11 +5569,25 @@
           "notes": ""
         },
         {
+          "name": "James, Benjamin",
+          "formatted_name": "Benjamin James",
+          "street": "Commercial street",
+          "trade": "grocer, tea and provision dealer",
+          "notes": "No. 2"
+        },
+        {
           "name": "James, D. L",
           "formatted_name": "D. L James",
           "street": "Pill",
           "trade": "pilot",
           "notes": ""
+        },
+        {
+          "name": "James, David",
+          "formatted_name": "David James",
+          "street": "Mill Brook terrace",
+          "trade": "master mariner",
+          "notes": "No. 2"
         },
         {
           "name": "James, Henry and Co",
@@ -5660,22 +5604,22 @@
           "notes": ""
         },
         {
-          "name": "Jas, James",
-          "formatted_name": "James Jas",
+          "name": "James, James",
+          "formatted_name": "James James",
           "street": "Bolt street",
           "trade": "tidewaiter",
           "notes": "No. 14"
         },
         {
-          "name": "John, James",
-          "formatted_name": "James John",
+          "name": "James, John",
+          "formatted_name": "John James",
           "street": "Baneswell road",
           "trade": "painter, plumber and glazier",
           "notes": "No. 3"
         },
         {
-          "name": "John, James",
-          "formatted_name": "James John",
+          "name": "James, John",
+          "formatted_name": "John James",
           "street": "Lower George street",
           "trade": "shipping agent",
           "notes": "No. 8"
@@ -5695,6 +5639,13 @@
           "notes": ""
         },
         {
+          "name": "James, Thomas",
+          "formatted_name": "Thomas James",
+          "street": "Stow hill",
+          "trade": "tailor",
+          "notes": "No. 111"
+        },
+        {
           "name": "James and Thomas",
           "formatted_name": "James and Thomas",
           "street": "Skinner street",
@@ -5702,11 +5653,46 @@
           "notes": ""
         },
         {
+          "name": "James, William",
+          "formatted_name": "William James",
+          "street": "Charles street",
+          "trade": "stone mason",
+          "notes": ""
+        },
+        {
+          "name": "James, William",
+          "formatted_name": "William James",
+          "street": "Commercial road",
+          "trade": "surgeon",
+          "notes": "No. 186"
+        },
+        {
+          "name": "James, William",
+          "formatted_name": "William James",
+          "street": "Pill",
+          "trade": "grocer",
+          "notes": ""
+        },
+        {
+          "name": "James, William",
+          "formatted_name": "William James",
+          "street": "Commercial wharf",
+          "trade": "shopkeeper",
+          "notes": "No. 100"
+        },
+        {
           "name": "James",
           "formatted_name": "James",
           "street": "Commercial street",
           "trade": "hairdresser",
           "notes": "No. 100"
+        },
+        {
+          "name": "James, William",
+          "formatted_name": "William James",
+          "street": "Frederick street",
+          "trade": "carpenter",
+          "notes": "No. 8"
         },
         {
           "name": "Jebb, Mr",
@@ -6255,17 +6241,10 @@
           "notes": ""
         },
         {
-          "name": "Job, Thomas",
-          "formatted_name": "Thomas Job",
-          "street": "Clarence place. (See advt.)",
-          "trade": "marble, slate, and stone sculpture works",
-          "notes": ""
-        },
-        {
-          "name": "John, Thomas",
-          "formatted_name": "Thomas John",
-          "street": "Baneswell. (See advertisement.)",
-          "trade": "grocer and provision dealer, corner of West street",
+          "name": "John and Co., Moses",
+          "formatted_name": "John and Co., Moses",
+          "street": "Dock street",
+          "trade": "shipbrokers and commission agents",
           "notes": ""
         },
         {
@@ -6382,7 +6361,7 @@
         },
         {
           "name": "Joseph, Bryan, jun",
-          "formatted_name": "Bryan, jun Joseph",
+          "formatted_name": "Bryan Joseph, jun",
           "street": "",
           "trade": "collector",
           "notes": ""
@@ -6406,6 +6385,13 @@
           "formatted_name": "agent James Maddox",
           "street": "",
           "trade": "",
+          "notes": ""
+        },
+        {
+          "name": "James, Thomas",
+          "formatted_name": "Thomas James",
+          "street": "",
+          "trade": "master",
           "notes": ""
         }
       ]
@@ -7747,15 +7733,8 @@
           "notes": "No. 9"
         },
         {
-          "name": "Moses, John and Co",
-          "formatted_name": "John and Co Moses",
-          "street": "Dock street",
-          "trade": "shipbrokers and commission agents",
-          "notes": ""
-        },
-        {
-          "name": "Moses, Mrs. Margaret",
-          "formatted_name": "Mrs. Margaret Moses",
+          "name": "Mrs. Margaret, Moses",
+          "formatted_name": "Moses Mrs. Margaret",
           "street": "Lower George street",
           "trade": "day school",
           "notes": "No. 3"
@@ -9919,13 +9898,6 @@
       "category": "R",
       "entries": [
         {
-          "name": "Robert, Junr., Gething",
-          "formatted_name": "Junr., Gething Robert",
-          "street": "Commercial road",
-          "trade": "clerk",
-          "notes": "No. 185"
-        },
-        {
           "name": "R. and C. Co., Hill",
           "formatted_name": "R. and C. Co., Hill",
           "street": "Morgan street",
@@ -9976,7 +9948,7 @@
         },
         {
           "name": "Ray, Henry, sen",
-          "formatted_name": "Henry, sen Ray",
+          "formatted_name": "Henry Ray, sen",
           "street": "Commercial road",
           "trade": "Henry, sen",
           "notes": "No. 56"
@@ -11112,13 +11084,6 @@
       "category": "T",
       "entries": [
         {
-          "name": "Thomas, Charles",
-          "formatted_name": "Charles Thomas",
-          "street": "Bailey street",
-          "trade": "carpenter",
-          "notes": "No. 44"
-        },
-        {
           "name": "Timothy, Davies",
           "formatted_name": "Davies Timothy",
           "street": "Dolphin street",
@@ -11131,13 +11096,6 @@
           "street": "Dolphin street",
           "trade": "carpenter",
           "notes": "No. 37"
-        },
-        {
-          "name": "Thomas, James",
-          "formatted_name": "James Thomas",
-          "street": "Stow hill",
-          "trade": "tailor",
-          "notes": "No. 111"
         },
         {
           "name": "Todd, Mrs",
@@ -11252,11 +11210,39 @@
           "notes": "No. 22"
         },
         {
+          "name": "Thomas, Benjamin",
+          "formatted_name": "Benjamin Thomas",
+          "street": "Stow hill",
+          "trade": "farmer",
+          "notes": "No. 10"
+        },
+        {
           "name": "Thomas, B. R",
           "formatted_name": "B. R Thomas",
           "street": "Frederick street",
           "trade": "mastermariner",
           "notes": "No. 32"
+        },
+        {
+          "name": "Thomas, Caleb",
+          "formatted_name": "Caleb Thomas",
+          "street": "Dock street",
+          "trade": "Jenkins, solicitor's clerk",
+          "notes": ""
+        },
+        {
+          "name": "Thomas, Catherine",
+          "formatted_name": "Catherine Thomas",
+          "street": "St. Mary st",
+          "trade": "laundress",
+          "notes": ""
+        },
+        {
+          "name": "Thomas, Charles",
+          "formatted_name": "Charles Thomas",
+          "street": "Ruperra street",
+          "trade": "bonded store agent",
+          "notes": ""
         },
         {
           "name": "Thomas, D",
@@ -11266,10 +11252,59 @@
           "notes": "No. 50"
         },
         {
+          "name": "Thomas, David",
+          "formatted_name": "David Thomas",
+          "street": "Commercial street",
+          "trade": "confectioner",
+          "notes": "No. 170"
+        },
+        {
+          "name": "Thomas, David",
+          "formatted_name": "David Thomas",
+          "street": "Mill street",
+          "trade": "\"Vulcan Inn”",
+          "notes": ""
+        },
+        {
+          "name": "Thomas, Daniel",
+          "formatted_name": "Daniel Thomas",
+          "street": "Lower George st",
+          "trade": "haulier",
+          "notes": "No. 1"
+        },
+        {
+          "name": "Thomas, David",
+          "formatted_name": "David Thomas",
+          "street": "Raglan street",
+          "trade": "master mariner",
+          "notes": "No. 23"
+        },
+        {
+          "name": "Thomas, Edward",
+          "formatted_name": "Edward Thomas",
+          "street": "York place",
+          "trade": "collector of rates-office, Town Hall",
+          "notes": "No. 2"
+        },
+        {
+          "name": "Thomas, Evan",
+          "formatted_name": "Evan Thomas",
+          "street": "Blewitt street",
+          "trade": "clerk, , Baneswell",
+          "notes": "No. 17"
+        },
+        {
           "name": "Thomas, G",
           "formatted_name": "G Thomas",
           "street": "Llanarth street",
           "trade": "\"Globe Inn”",
+          "notes": ""
+        },
+        {
+          "name": "Thomas, Job",
+          "formatted_name": "Job Thomas",
+          "street": "Clarence place. (See advt.)",
+          "trade": "marble, slate, and stone sculpture works",
           "notes": ""
         },
         {
@@ -11278,6 +11313,13 @@
           "street": "Park st",
           "trade": "coal agent",
           "notes": "No. 8"
+        },
+        {
+          "name": "Thomas, John",
+          "formatted_name": "John Thomas",
+          "street": "Baneswell. (See advertisement.)",
+          "trade": "grocer and provision dealer, corner of West street",
+          "notes": ""
         },
         {
           "name": "Thomas, John",
@@ -11665,83 +11707,6 @@
           "notes": "No. 25"
         },
         {
-          "name": "Thomas, Wall",
-          "formatted_name": "Wall Thomas",
-          "street": "Commercial road",
-          "trade": "green grocer",
-          "notes": "No. 46"
-        },
-        {
-          "name": "Thomas, Walker",
-          "formatted_name": "Walker Thomas",
-          "street": "Dolphin street",
-          "trade": "\"White Lion Inn,\"",
-          "notes": "No. 72"
-        },
-        {
-          "name": "Thomas, Watts",
-          "formatted_name": "Watts Thomas",
-          "street": "Stow hill",
-          "trade": "agent",
-          "notes": "No. 32"
-        },
-        {
-          "name": "Thomas, Whitrow",
-          "formatted_name": "Whitrow Thomas",
-          "street": "Commercial street",
-          "trade": "boot and builder",
-          "notes": "No. 29"
-        },
-        {
-          "name": "Thomas, Wilkes",
-          "formatted_name": "Wilkes Thomas",
-          "street": "Stow hill",
-          "trade": "veterinary surgeon",
-          "notes": "No. 106"
-        },
-        {
-          "name": "Thomas, Williams",
-          "formatted_name": "Williams Thomas",
-          "street": "Hill street",
-          "trade": "carpenter and builder",
-          "notes": "No. 25"
-        },
-        {
-          "name": "Thomas, Williams",
-          "formatted_name": "Williams Thomas",
-          "street": "Commercial road",
-          "trade": "herbalist",
-          "notes": "No. 182"
-        },
-        {
-          "name": "Thomas, Williams",
-          "formatted_name": "Williams Thomas",
-          "street": "Commercial road",
-          "trade": "beer retailer",
-          "notes": "No. 136"
-        },
-        {
-          "name": "Thomas, Williams",
-          "formatted_name": "Williams Thomas",
-          "street": "Bolt st",
-          "trade": "master mariner",
-          "notes": "No. 16"
-        },
-        {
-          "name": "Thomas, Wilson",
-          "formatted_name": "Wilson Thomas",
-          "street": "Dock street",
-          "trade": "travelling draper, &c",
-          "notes": ""
-        },
-        {
-          "name": "Thos, Woollett",
-          "formatted_name": "Woollett Thos",
-          "street": "",
-          "trade": "solicitor, notary public, and town clerk, Town Hall",
-          "notes": ""
-        },
-        {
           "name": "The Mayor",
           "formatted_name": "The Mayor",
           "street": "",
@@ -11915,13 +11880,6 @@
           "street": "",
           "trade": "mistress",
           "notes": ""
-        },
-        {
-          "name": "Thomas, James",
-          "formatted_name": "James Thomas",
-          "street": "",
-          "trade": "master",
-          "notes": ""
         }
       ]
     },
@@ -12037,41 +11995,6 @@
           "notes": "No. 4"
         },
         {
-          "name": "William, James",
-          "formatted_name": "James William",
-          "street": "Charles street",
-          "trade": "stone mason",
-          "notes": ""
-        },
-        {
-          "name": "Wm, James",
-          "formatted_name": "James Wm",
-          "street": "Commercial road",
-          "trade": "surgeon",
-          "notes": "No. 186"
-        },
-        {
-          "name": "Wm, James",
-          "formatted_name": "James Wm",
-          "street": "Pill",
-          "trade": "grocer",
-          "notes": ""
-        },
-        {
-          "name": "William, James",
-          "formatted_name": "James William",
-          "street": "Commercial wharf",
-          "trade": "shopkeeper",
-          "notes": "No. 100"
-        },
-        {
-          "name": "Wm, James",
-          "formatted_name": "James Wm",
-          "street": "Frederick street",
-          "trade": "carpenter",
-          "notes": "No. 8"
-        },
-        {
           "name": "William, joiner and builder, East side of Dock",
           "formatted_name": "joiner and builder, East side of Dock William",
           "street": "Bolt street",
@@ -12105,6 +12028,13 @@
           "street": "Dock street",
           "trade": "ship chandler, sail maker, and ironmonger",
           "notes": ""
+        },
+        {
+          "name": "Wall, Thomas",
+          "formatted_name": "Thomas Wall",
+          "street": "Commercial road",
+          "trade": "green grocer",
+          "notes": "No. 46"
         },
         {
           "name": "Wallace, John Alexander",
@@ -12147,6 +12077,13 @@
           "street": "",
           "trade": "travelling draper",
           "notes": ""
+        },
+        {
+          "name": "Walker, Thomas",
+          "formatted_name": "Thomas Walker",
+          "street": "Dolphin street",
+          "trade": "\"White Lion Inn,\"",
+          "notes": "No. 72"
         },
         {
           "name": "Walker, William",
@@ -12287,6 +12224,13 @@
           "street": "Dock street",
           "trade": "coal merchant",
           "notes": "No. 15"
+        },
+        {
+          "name": "Watts, Thomas",
+          "formatted_name": "Thomas Watts",
+          "street": "Stow hill",
+          "trade": "agent",
+          "notes": "No. 32"
         },
         {
           "name": "Watt, W",
@@ -12478,6 +12422,13 @@
           "notes": "No. 16"
         },
         {
+          "name": "Whitrow, Thomas",
+          "formatted_name": "Thomas Whitrow",
+          "street": "Commercial street",
+          "trade": "boot and builder",
+          "notes": "No. 29"
+        },
+        {
           "name": "Whittaker, John",
           "formatted_name": "John Whittaker",
           "street": "Park place",
@@ -12525,6 +12476,13 @@
           "street": "",
           "trade": "accountant",
           "notes": ""
+        },
+        {
+          "name": "Wilkes, Thomas",
+          "formatted_name": "Thomas Wilkes",
+          "street": "Stow hill",
+          "trade": "veterinary surgeon",
+          "notes": "No. 106"
         },
         {
           "name": "Williams, Ann",
@@ -12751,6 +12709,27 @@
           "notes": ""
         },
         {
+          "name": "Williams, Thomas",
+          "formatted_name": "Thomas Williams",
+          "street": "Hill street",
+          "trade": "carpenter and builder",
+          "notes": "No. 25"
+        },
+        {
+          "name": "Williams, Thomas",
+          "formatted_name": "Thomas Williams",
+          "street": "Commercial road",
+          "trade": "herbalist",
+          "notes": "No. 182"
+        },
+        {
+          "name": "Williams, Thomas",
+          "formatted_name": "Thomas Williams",
+          "street": "Commercial road",
+          "trade": "beer retailer",
+          "notes": "No. 136"
+        },
+        {
           "name": "Williams, T. C",
           "formatted_name": "T. C Williams",
           "street": "Commercial road",
@@ -12863,6 +12842,13 @@
           "notes": "No. 4"
         },
         {
+          "name": "Williams, Thomas",
+          "formatted_name": "Thomas Williams",
+          "street": "Bolt st",
+          "trade": "master mariner",
+          "notes": "No. 16"
+        },
+        {
           "name": "Willmett, Mrs. Mary",
           "formatted_name": "Mrs. Mary Willmett",
           "street": "Commercial road",
@@ -12896,6 +12882,13 @@
           "street": "Tredegar Place",
           "trade": "wine and spirit merchant, , Baneswell (see advt)",
           "notes": "No. 1"
+        },
+        {
+          "name": "Wilson, Thomas",
+          "formatted_name": "Thomas Wilson",
+          "street": "Dock street",
+          "trade": "travelling draper, &c",
+          "notes": ""
         },
         {
           "name": "Wilton, Patrick",
@@ -12961,8 +12954,15 @@
           "notes": ""
         },
         {
-          "name": "Woollett, R. F., Esq",
-          "formatted_name": "R. F., Esq Woollett",
+          "name": "Woollett, Thomas",
+          "formatted_name": "Thomas Woollett",
+          "street": "",
+          "trade": "solicitor, notary public, and town clerk, Town Hall",
+          "notes": ""
+        },
+        {
+          "name": "Woollett, R. F, Esq",
+          "formatted_name": "R. F Woollett, Esq",
           "street": "",
           "trade": "surgeon, The Mount",
           "notes": ""
