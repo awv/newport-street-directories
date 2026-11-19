@@ -576,6 +576,17 @@
       renderCurrentView();
     }
 
+    function formatTradeDisplay(str) {
+      if (!str) return '';
+      const minor = new Set(['and', 'or', 'of', 'to', 'for', 'in', 'at', 'by', 'on', 'the', 'a', 'an', 'with', '&c.', '&c']);
+      return String(str).replace(/\b([A-Za-z][A-Za-z'\.]*)/g, (word, _m, offset) => {
+        if (/^[A-Z]{2,}(\.[A-Z]+)*\.?$/.test(word)) return word;
+        const low = word.toLowerCase();
+        if (offset > 0 && minor.has(low)) return low;
+        return low.charAt(0).toUpperCase() + low.slice(1);
+      });
+    }
+
     function renderCurrentView() {
       const data = directoryDatasets[activeYear];
       if (!data) return;
@@ -619,7 +630,7 @@
                   <div class="entry-card">
                     <div>
                       <div class="entry-title">${displayName}</div>
-                      <div class="entry-trade">${e.trade || (sec.category.length > 1 ? sec.category : 'Residence / Private')}</div>
+                      <div class="entry-trade">${formatTradeDisplay(e.trade || (sec.category.length > 1 ? sec.category : 'Residence / Private'))}</div>
                     </div>
                     <div class="entry-meta">
                       ${e.street ? `<a href="index.html#street=${encodeURIComponent(cleanStreetName(e.street))}" class="entry-street-tag" title="View Street Walkthrough"><i class="ph ph-map-pin"></i> ${e.street}</a>` : `<span style="color: var(--text-muted); font-style: italic;">Newport General</span>`}
