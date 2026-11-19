@@ -1,5 +1,5 @@
 {
-  "total_terms": 101,
+  "total_terms": 146,
   "families": [
     "Building & Construction",
     "Clerical & Commercial",
@@ -33,6 +33,44 @@
         "slug": "gore-street",
         "house_number": "10",
         "name": "reg. Shatford"
+      }
+    },
+    {
+      "term": "Annealer",
+      "slug": "annealer",
+      "family": "Metal & Iron Workers",
+      "archaic": true,
+      "variants": [],
+      "description": "Mill worker who heat-treated rolled steel and tinplate sheets in annealing pots to soften the metal for further processing.",
+      "count": 80,
+      "earliest": "1886",
+      "latest": "1936",
+      "sample": {
+        "year": "1886",
+        "street": "Lansdowne Place",
+        "slug": "lansdowne-place",
+        "house_number": "",
+        "name": "Joseph Williams"
+      }
+    },
+    {
+      "term": "Auctioneer",
+      "slug": "auctioneer",
+      "family": "Clerical & Commercial",
+      "archaic": false,
+      "variants": [
+        "Auctioneers"
+      ],
+      "description": "Licensed appraiser and public auctioneer selling property, livestock, and ships' cargoes.",
+      "count": 157,
+      "earliest": "1862",
+      "latest": "1936",
+      "sample": {
+        "year": "1878",
+        "street": "Bridge Street",
+        "slug": "bridge-street",
+        "house_number": "",
+        "name": "C. C. Green"
       }
     },
     {
@@ -115,6 +153,24 @@
       }
     },
     {
+      "term": "Boarding House",
+      "slug": "boarding-house",
+      "family": "Service & Domestic",
+      "archaic": false,
+      "variants": [],
+      "description": "Householder providing lodging and meals for sailors, railwaymen, clerks, and commercial travellers.",
+      "count": 276,
+      "earliest": "1876",
+      "latest": "1936",
+      "sample": {
+        "year": "1878",
+        "street": "King's Parade",
+        "slug": "king-s-parade",
+        "house_number": "25",
+        "name": "John Warnken"
+      }
+    },
+    {
       "term": "Boiler Cleaner",
       "slug": "boiler-cleaner",
       "family": "Metal & Iron Workers",
@@ -191,6 +247,24 @@
       }
     },
     {
+      "term": "Bridgeman",
+      "slug": "bridgeman",
+      "family": "Maritime & Docks",
+      "archaic": true,
+      "variants": [],
+      "description": "Attendant operating swing bridges, dock gates, or toll bridges across the River Usk and dock entrances.",
+      "count": 22,
+      "earliest": "1892",
+      "latest": "1914",
+      "sample": {
+        "year": "1892",
+        "street": "Graham Street",
+        "slug": "graham-street",
+        "house_number": "20",
+        "name": "Thomas W. Dally"
+      }
+    },
+    {
       "term": "Brushmaker",
       "slug": "brushmaker",
       "family": "Crafts & Artisans",
@@ -264,6 +338,24 @@
         "slug": "canal-parade",
         "house_number": "21",
         "name": "Frederick Clarke"
+      }
+    },
+    {
+      "term": "Cabinetmaker",
+      "slug": "cabinetmaker",
+      "family": "Crafts & Artisans",
+      "archaic": false,
+      "variants": [],
+      "description": "Skilled woodworker crafting fine domestic furniture, chests, sideboards, and veneered cabinetry.",
+      "count": 382,
+      "earliest": "1878",
+      "latest": "1936",
+      "sample": {
+        "year": "1878",
+        "street": "Dock Street",
+        "slug": "dock-street",
+        "house_number": "3",
+        "name": "Jos Townsend"
       }
     },
     {
@@ -362,6 +454,26 @@
       }
     },
     {
+      "term": "Checker",
+      "slug": "checker",
+      "family": "Clerical & Commercial",
+      "archaic": false,
+      "variants": [
+        "Tally Clerk"
+      ],
+      "description": "Goods-yard or dockside clerk counting and verifying cargo crates, timber, and wagon loads.",
+      "count": 316,
+      "earliest": "1890",
+      "latest": "1936",
+      "sample": {
+        "year": "1890",
+        "street": "Beaufort Terrace",
+        "slug": "beaufort-terrace",
+        "house_number": "21",
+        "name": "Frederick Pearce"
+      }
+    },
+    {
       "term": "Chemist",
       "slug": "chemist",
       "family": "Shopkeepers & Retail",
@@ -380,6 +492,26 @@
         "slug": "commercial-road",
         "house_number": "6",
         "name": "Benj Griffiths"
+      }
+    },
+    {
+      "term": "Chimney Sweep",
+      "slug": "chimney-sweep",
+      "family": "Service & Domestic",
+      "archaic": true,
+      "variants": [
+        "Sweep"
+      ],
+      "description": "Tradesman sweeping soot from domestic and bakery flues using jointed rods and brushes.",
+      "count": 209,
+      "earliest": "1882",
+      "latest": "1936",
+      "sample": {
+        "year": "1882",
+        "street": "Charles Street",
+        "slug": "charles-street",
+        "house_number": "2",
+        "name": "Thomas Williams"
       }
     },
     {
@@ -431,11 +563,13 @@
       "family": "Transport & Drivers",
       "archaic": true,
       "variants": [
-        "Cab Driver"
+        "Cab Driver",
+        "Cabman",
+        "Cab Proprietor"
       ],
-      "description": "Driver of private horse-drawn carriages or hackney cabs.",
-      "count": 436,
-      "earliest": "1876",
+      "description": "Driver of private horse-drawn carriages, hackney cabs, or owner of cab horses for hire.",
+      "count": 999,
+      "earliest": "1865",
       "latest": "1936",
       "sample": {
         "year": "1878",
@@ -463,6 +597,26 @@
         "slug": "llanarth-street",
         "house_number": "23",
         "name": "Thomas Black"
+      }
+    },
+    {
+      "term": "Coal Tipper",
+      "slug": "coal-tipper",
+      "family": "Maritime & Docks",
+      "archaic": true,
+      "variants": [
+        "Tipper"
+      ],
+      "description": "Dockside operator of hydraulic coal tips that lifted entire railway wagons and tipped coal down chutes into ships' holds.",
+      "count": 263,
+      "earliest": "1878",
+      "latest": "1936",
+      "sample": {
+        "year": "1902",
+        "street": "Archibald Street",
+        "slug": "archibald-street",
+        "house_number": "27",
+        "name": "George Weston"
       }
     },
     {
@@ -564,6 +718,24 @@
       }
     },
     {
+      "term": "Coppersmith",
+      "slug": "coppersmith",
+      "family": "Metal & Iron Workers",
+      "archaic": true,
+      "variants": [],
+      "description": "Smith shaping copper pipes, stills, and fittings for breweries, ships, and locomotives.",
+      "count": 64,
+      "earliest": "1882",
+      "latest": "1936",
+      "sample": {
+        "year": "1882",
+        "street": "Raglan Street",
+        "slug": "raglan-street",
+        "house_number": "25",
+        "name": "William H. Stokes"
+      }
+    },
+    {
       "term": "Cordwainer",
       "slug": "cordwainer",
       "family": "Crafts & Artisans",
@@ -607,10 +779,12 @@
       "slug": "crane-driver",
       "family": "Transport & Drivers",
       "archaic": false,
-      "variants": [],
+      "variants": [
+        "Craneman"
+      ],
       "description": "Operator of hydraulic or steam cranes hoisting coal wagons and cargo at Newport Docks.",
-      "count": 936,
-      "earliest": "1886",
+      "count": 991,
+      "earliest": "1882",
       "latest": "1936",
       "sample": {
         "year": "1886",
@@ -621,15 +795,34 @@
       }
     },
     {
+      "term": "Currier",
+      "slug": "currier",
+      "family": "Crafts & Artisans",
+      "archaic": true,
+      "variants": [],
+      "description": "Leather craftsman who shaved, greased, and dyed rough tanned hides to make supple leather for boots and saddlery.",
+      "count": 62,
+      "earliest": "1848",
+      "latest": "1927",
+      "sample": {
+        "year": "1848",
+        "street": "Stow Hill",
+        "slug": "stow-hill",
+        "house_number": "116",
+        "name": "David Francis"
+      }
+    },
+    {
       "term": "Dock Labourer",
       "slug": "dock-labourer",
       "family": "Maritime & Docks",
       "archaic": false,
       "variants": [
-        "Docker"
+        "Docker",
+        "Dockman"
       ],
       "description": "General dockside labourer employed loading and unloading timber, iron, pitprops, and general cargo at Alexandra and Town Docks.",
-      "count": 1020,
+      "count": 1286,
       "earliest": "1876",
       "latest": "1936",
       "sample": {
@@ -647,12 +840,13 @@
       "archaic": false,
       "variants": [
         "Police",
+        "Policeman",
         "Police Sergeant",
         "Police Inspector"
       ],
       "description": "Constable employed by the Alexandra Dock Company or Newport Borough Police to patrol quays, warehouses, and streets.",
-      "count": 1368,
-      "earliest": "1876",
+      "count": 1655,
+      "earliest": "1862",
       "latest": "1936",
       "sample": {
         "year": "1878",
@@ -660,6 +854,42 @@
         "slug": "bailey-street",
         "house_number": "33",
         "name": "John Rawlings"
+      }
+    },
+    {
+      "term": "Donkeyman",
+      "slug": "donkeyman",
+      "family": "Maritime & Docks",
+      "archaic": true,
+      "variants": [],
+      "description": "Crewman or dock worker tending small auxiliary 'donkey' steam engines used to power winches, pumps, and cargo gear.",
+      "count": 88,
+      "earliest": "1886",
+      "latest": "1936",
+      "sample": {
+        "year": "1886",
+        "street": "Upper Lewis Street",
+        "slug": "upper-lewis-street",
+        "house_number": "27",
+        "name": "And. Francis"
+      }
+    },
+    {
+      "term": "Doubler",
+      "slug": "doubler",
+      "family": "Metal & Iron Workers",
+      "archaic": true,
+      "variants": [],
+      "description": "Skilled South Wales tinplate mill worker who folded hot rolled iron or steel sheets double with tongs before reheating and rolling.",
+      "count": 85,
+      "earliest": "1899",
+      "latest": "1936",
+      "sample": {
+        "year": "1899",
+        "street": "Corporation Road",
+        "slug": "corporation-road",
+        "house_number": "",
+        "name": "William Davies"
       }
     },
     {
@@ -702,6 +932,24 @@
       }
     },
     {
+      "term": "Electrician",
+      "slug": "electrician",
+      "family": "Building & Construction",
+      "archaic": false,
+      "variants": [],
+      "description": "Technician wiring electric lighting, bells, and power equipment from the late Victorian era onward.",
+      "count": 414,
+      "earliest": "1886",
+      "latest": "1936",
+      "sample": {
+        "year": "1886",
+        "street": "Alexandra Docks",
+        "slug": "alexandra-docks",
+        "house_number": "12",
+        "name": "E. Weare"
+      }
+    },
+    {
       "term": "Engine Driver",
       "slug": "engine-driver",
       "family": "Railway",
@@ -719,6 +967,42 @@
         "slug": "bolt-street",
         "house_number": "5",
         "name": "John Davies"
+      }
+    },
+    {
+      "term": "Engineman",
+      "slug": "engineman",
+      "family": "Railway",
+      "archaic": true,
+      "variants": [],
+      "description": "Operator tending stationary steam engines for dock hydraulics, waterworks, or colliery winding gear.",
+      "count": 324,
+      "earliest": "1882",
+      "latest": "1936",
+      "sample": {
+        "year": "1882",
+        "street": "Grenville Street",
+        "slug": "grenville-street",
+        "house_number": "28",
+        "name": "George Price"
+      }
+    },
+    {
+      "term": "Farrier",
+      "slug": "farrier",
+      "family": "Metal & Iron Workers",
+      "archaic": true,
+      "variants": [],
+      "description": "Specialist equine blacksmith who shod horses and treated hoof and leg ailments.",
+      "count": 52,
+      "earliest": "1882",
+      "latest": "1936",
+      "sample": {
+        "year": "1882",
+        "street": "Baneswell Road",
+        "slug": "baneswell-road",
+        "house_number": "27",
+        "name": "Thomas Evans"
       }
     },
     {
@@ -800,6 +1084,24 @@
       }
     },
     {
+      "term": "Fruiterer",
+      "slug": "fruiterer",
+      "family": "Shopkeepers & Retail",
+      "archaic": false,
+      "variants": [],
+      "description": "Shopkeeper specializing in fresh and dried fruit.",
+      "count": 501,
+      "earliest": "1865",
+      "latest": "1936",
+      "sample": {
+        "year": "1878",
+        "street": "Arcade (The)",
+        "slug": "arcade-the",
+        "house_number": "6",
+        "name": "J. Francis"
+      }
+    },
+    {
       "term": "Furnaceman",
       "slug": "furnaceman",
       "family": "Metal & Iron Workers",
@@ -859,6 +1161,44 @@
       }
     },
     {
+      "term": "Gas Worker",
+      "slug": "gas-worker",
+      "family": "Building & Construction",
+      "archaic": false,
+      "variants": [
+        "Gas Works"
+      ],
+      "description": "Worker at Newport's gasworks retorts and purifiers producing coal gas for street lamps and homes.",
+      "count": 831,
+      "earliest": "1882",
+      "latest": "1936",
+      "sample": {
+        "year": "1882",
+        "street": "Bishop Street",
+        "slug": "bishop-street",
+        "house_number": "14",
+        "name": "Thomas Connell"
+      }
+    },
+    {
+      "term": "Glazier",
+      "slug": "glazier",
+      "family": "Building & Construction",
+      "archaic": false,
+      "variants": [],
+      "description": "Tradesman cutting and fitting glass panes into wooden and iron window frames.",
+      "count": 19,
+      "earliest": "1878",
+      "latest": "1936",
+      "sample": {
+        "year": "1878",
+        "street": "Clarence Street",
+        "slug": "clarence-street",
+        "house_number": "4",
+        "name": "Isaac Lyons"
+      }
+    },
+    {
       "term": "Greengrocer",
       "slug": "greengrocer",
       "family": "Shopkeepers & Retail",
@@ -899,6 +1239,44 @@
       }
     },
     {
+      "term": "Hairdresser",
+      "slug": "hairdresser",
+      "family": "Shopkeepers & Retail",
+      "archaic": false,
+      "variants": [],
+      "description": "Barber and hairdresser cutting hair, shaving, and often selling tobacco or perfumery.",
+      "count": 1482,
+      "earliest": "1848",
+      "latest": "1936",
+      "sample": {
+        "year": "1848",
+        "street": "Thomas Street",
+        "slug": "thomas-street",
+        "house_number": "4",
+        "name": "W. Symmons"
+      }
+    },
+    {
+      "term": "Hatter",
+      "slug": "hatter",
+      "family": "Shopkeepers & Retail",
+      "archaic": true,
+      "variants": [
+        "Hatters"
+      ],
+      "description": "Maker or retailer of men's silk top hats, bowlers, and caps.",
+      "count": 75,
+      "earliest": "1858",
+      "latest": "1936",
+      "sample": {
+        "year": "1878",
+        "street": "Commercial Road",
+        "slug": "commercial-road",
+        "house_number": "12",
+        "name": "Philip Selwood"
+      }
+    },
+    {
       "term": "Haulier",
       "slug": "haulier",
       "family": "Transport & Drivers",
@@ -919,6 +1297,42 @@
       }
     },
     {
+      "term": "Hawker",
+      "slug": "hawker",
+      "family": "Shopkeepers & Retail",
+      "archaic": true,
+      "variants": [],
+      "description": "Itinerant street trader travelling door-to-door selling household wares, produce, or haberdashery.",
+      "count": 417,
+      "earliest": "1878",
+      "latest": "1936",
+      "sample": {
+        "year": "1878",
+        "street": "Canal Parade",
+        "slug": "canal-parade",
+        "house_number": "60",
+        "name": "Leonard Smith"
+      }
+    },
+    {
+      "term": "Herbalist",
+      "slug": "herbalist",
+      "family": "Shopkeepers & Retail",
+      "archaic": true,
+      "variants": [],
+      "description": "Practitioner and shopkeeper selling botanical remedies, tonics, and dried medicinal herbs.",
+      "count": 58,
+      "earliest": "1862",
+      "latest": "1936",
+      "sample": {
+        "year": "1886",
+        "street": "Commercial Road",
+        "slug": "commercial-road",
+        "house_number": "26A",
+        "name": "W. Rowberry"
+      }
+    },
+    {
       "term": "Hobbler",
       "slug": "hobbler",
       "family": "Maritime & Docks",
@@ -936,6 +1350,44 @@
         "slug": "baldwin-street",
         "house_number": "17",
         "name": "William Pitman"
+      }
+    },
+    {
+      "term": "Hoistman",
+      "slug": "hoistman",
+      "family": "Maritime & Docks",
+      "archaic": true,
+      "variants": [],
+      "description": "Operator of hydraulic or electric coal hoists raising loaded coal wagons at Newport's Alexandra Docks.",
+      "count": 455,
+      "earliest": "1886",
+      "latest": "1936",
+      "sample": {
+        "year": "1886",
+        "street": "Canal Parade",
+        "slug": "canal-parade",
+        "house_number": "4",
+        "name": "William Noakes"
+      }
+    },
+    {
+      "term": "Hosier",
+      "slug": "hosier",
+      "family": "Shopkeepers & Retail",
+      "archaic": true,
+      "variants": [
+        "Hosiers"
+      ],
+      "description": "Retailer of knitted stockings, socks, gloves, and undergarments.",
+      "count": 100,
+      "earliest": "1858",
+      "latest": "1936",
+      "sample": {
+        "year": "1878",
+        "street": "Commercial Street",
+        "slug": "commercial-street",
+        "house_number": "20",
+        "name": "F. B. Barry"
       }
     },
     {
@@ -1037,6 +1489,26 @@
       }
     },
     {
+      "term": "Lamplighter",
+      "slug": "lamplighter",
+      "family": "Professional & Civic",
+      "archaic": true,
+      "variants": [
+        "Lamplightr"
+      ],
+      "description": "Municipal worker walking a dusk-and-dawn round with a ladder or pole to light, trim, and extinguish gas street lamps.",
+      "count": 146,
+      "earliest": "1876",
+      "latest": "1927",
+      "sample": {
+        "year": "1878",
+        "street": "Blewitt Street",
+        "slug": "blewitt-street",
+        "house_number": "21",
+        "name": "John Lewis"
+      }
+    },
+    {
       "term": "Laundress",
       "slug": "laundress",
       "family": "Service & Domestic",
@@ -1073,6 +1545,62 @@
         "slug": "corn-street",
         "house_number": "19",
         "name": "William Rees"
+      }
+    },
+    {
+      "term": "Machinist",
+      "slug": "machinist",
+      "family": "Metal & Iron Workers",
+      "archaic": false,
+      "variants": [],
+      "description": "Worker operating power-driven lathes, drills, and milling machines in engineering workshops.",
+      "count": 544,
+      "earliest": "1878",
+      "latest": "1936",
+      "sample": {
+        "year": "1878",
+        "street": "Caxton Place",
+        "slug": "caxton-place",
+        "house_number": "4",
+        "name": "George N. Dowdall"
+      }
+    },
+    {
+      "term": "Maltster",
+      "slug": "maltster",
+      "family": "Crafts & Artisans",
+      "archaic": true,
+      "variants": [],
+      "description": "Craftsman steeping, germinating, and kilning barley into malt to supply Newport's breweries.",
+      "count": 59,
+      "earliest": "1898",
+      "latest": "1936",
+      "sample": {
+        "year": "1898",
+        "street": "Town Dock",
+        "slug": "town-dock",
+        "house_number": "",
+        "name": "Charles R. Wilkinson"
+      }
+    },
+    {
+      "term": "Marine Store Dealer",
+      "slug": "marine-store-dealer",
+      "family": "Maritime & Docks",
+      "archaic": true,
+      "variants": [
+        "Marine Stores"
+      ],
+      "description": "Merchant buying and reselling old rope, canvas, scrap iron, rags, and salvaged ships' fittings.",
+      "count": 136,
+      "earliest": "1862",
+      "latest": "1936",
+      "sample": {
+        "year": "1878",
+        "street": "Reform Buildings",
+        "slug": "reform-buildings",
+        "house_number": "",
+        "name": "J. C. Reilly"
       }
     },
     {
@@ -1118,6 +1646,44 @@
       }
     },
     {
+      "term": "Milkman",
+      "slug": "milkman",
+      "family": "Shopkeepers & Retail",
+      "archaic": false,
+      "variants": [
+        "Dairyman"
+      ],
+      "description": "Dairy vendor delivering fresh milk by churn and ladle along street rounds.",
+      "count": 805,
+      "earliest": "1862",
+      "latest": "1936",
+      "sample": {
+        "year": "1878",
+        "street": "Canal Street",
+        "slug": "canal-street",
+        "house_number": "",
+        "name": "Frank Curnick"
+      }
+    },
+    {
+      "term": "Miller",
+      "slug": "miller",
+      "family": "Shopkeepers & Retail",
+      "archaic": true,
+      "variants": [],
+      "description": "Operator of a water or steam corn mill grinding wheat and oats into flour and animal feed.",
+      "count": 330,
+      "earliest": "1865",
+      "latest": "1936",
+      "sample": {
+        "year": "1878",
+        "street": "Commercial Road",
+        "slug": "commercial-road",
+        "house_number": "88",
+        "name": "W. Kerslake"
+      }
+    },
+    {
       "term": "Milliner",
       "slug": "milliner",
       "family": "Crafts & Artisans",
@@ -1133,6 +1699,24 @@
         "slug": "commercial-street",
         "house_number": "75",
         "name": "Mrs Townsend"
+      }
+    },
+    {
+      "term": "Millwright",
+      "slug": "millwright",
+      "family": "Metal & Iron Workers",
+      "archaic": true,
+      "variants": [],
+      "description": "Master mechanic who installed, aligned, and repaired heavy shafting, gearing, and steam-driven mill machinery.",
+      "count": 49,
+      "earliest": "1878",
+      "latest": "1936",
+      "sample": {
+        "year": "1878",
+        "street": "Upper Lewis Street",
+        "slug": "upper-lewis-street",
+        "house_number": "",
+        "name": "Sam Thomas"
       }
     },
     {
@@ -1257,6 +1841,63 @@
       }
     },
     {
+      "term": "Patternmaker",
+      "slug": "patternmaker",
+      "family": "Metal & Iron Workers",
+      "archaic": true,
+      "variants": [],
+      "description": "Highly skilled woodworker crafting exact wooden patterns used by foundry moulders to cast metal parts.",
+      "count": 271,
+      "earliest": "1878",
+      "latest": "1936",
+      "sample": {
+        "year": "1878",
+        "street": "Upper Raglan Street",
+        "slug": "upper-raglan-street",
+        "house_number": "",
+        "name": "George Spencer"
+      }
+    },
+    {
+      "term": "Pawnbroker",
+      "slug": "pawnbroker",
+      "family": "Shopkeepers & Retail",
+      "archaic": true,
+      "variants": [
+        "Pawnbroker And Outfitter",
+        "Pawnbrokers & Outfitters"
+      ],
+      "description": "Licensed lender advancing small cash loans against pledged household goods, watches, or clothing.",
+      "count": 179,
+      "earliest": "1848",
+      "latest": "1936",
+      "sample": {
+        "year": "1848",
+        "street": "Commercial Road",
+        "slug": "commercial-road",
+        "house_number": "67",
+        "name": "Mary Leake"
+      }
+    },
+    {
+      "term": "Pickler",
+      "slug": "pickler",
+      "family": "Metal & Iron Workers",
+      "archaic": true,
+      "variants": [],
+      "description": "Tinplate worker who dipped rolled iron or steel sheets into acid vats to remove oxide scale before coating with tin.",
+      "count": 20,
+      "earliest": "1893",
+      "latest": "1936",
+      "sample": {
+        "year": "1893",
+        "street": "Henry Street",
+        "slug": "henry-street",
+        "house_number": "1",
+        "name": "Thomas Hardyman"
+      }
+    },
+    {
       "term": "Pilot",
       "slug": "pilot",
       "family": "Maritime & Docks",
@@ -1337,6 +1978,24 @@
         "slug": "blewitt-street",
         "house_number": "40",
         "name": "Tom Heffer"
+      }
+    },
+    {
+      "term": "Pointsman",
+      "slug": "pointsman",
+      "family": "Railway",
+      "archaic": true,
+      "variants": [],
+      "description": "Early railway worker stationed beside track junctions to throw hand levers switching trains onto sidings.",
+      "count": 60,
+      "earliest": "1876",
+      "latest": "1936",
+      "sample": {
+        "year": "1878",
+        "street": "Bishop Street",
+        "slug": "bishop-street",
+        "house_number": "19",
+        "name": "John Davies"
       }
     },
     {
@@ -1456,6 +2115,26 @@
       }
     },
     {
+      "term": "Rivetter",
+      "slug": "rivetter",
+      "family": "Metal & Iron Workers",
+      "archaic": true,
+      "variants": [
+        "Rivet Maker"
+      ],
+      "description": "Shipyard or boiler-shop worker who hammered red-hot iron rivets to fasten steel plates together.",
+      "count": 196,
+      "earliest": "1887",
+      "latest": "1936",
+      "sample": {
+        "year": "1890",
+        "street": "Daniel Street",
+        "slug": "daniel-street",
+        "house_number": "27",
+        "name": "John Billam"
+      }
+    },
+    {
       "term": "Roller",
       "slug": "roller",
       "family": "Metal & Iron Workers",
@@ -1471,6 +2150,24 @@
         "slug": "blewitt-street",
         "house_number": "53",
         "name": "Henry Jeffreys"
+      }
+    },
+    {
+      "term": "Ropemaker",
+      "slug": "ropemaker",
+      "family": "Maritime & Docks",
+      "archaic": true,
+      "variants": [],
+      "description": "Craftsman twisting hemp and manila fibres into heavy hawsers, rigging, and mooring lines for ships.",
+      "count": 18,
+      "earliest": "1878",
+      "latest": "1906",
+      "sample": {
+        "year": "1878",
+        "street": "Mellon Street",
+        "slug": "mellon-street",
+        "house_number": "4",
+        "name": "M. Rhegan"
       }
     },
     {
@@ -1530,6 +2227,24 @@
       }
     },
     {
+      "term": "Scaler",
+      "slug": "scaler",
+      "family": "Metal & Iron Workers",
+      "archaic": true,
+      "variants": [],
+      "description": "Shipyard or dockside worker who chipped rust, barnacles, and limescale from ship hulls and marine boilers.",
+      "count": 24,
+      "earliest": "1917",
+      "latest": "1936",
+      "sample": {
+        "year": "1925",
+        "street": "Dolphin Street",
+        "slug": "dolphin-street",
+        "house_number": "14",
+        "name": "Frank Banzes"
+      }
+    },
+    {
       "term": "Schoolmaster",
       "slug": "schoolmaster",
       "family": "Professional & Civic",
@@ -1547,6 +2262,44 @@
         "slug": "herbert-street",
         "house_number": "2",
         "name": "W. L. Cock"
+      }
+    },
+    {
+      "term": "Shearer",
+      "slug": "shearer",
+      "family": "Metal & Iron Workers",
+      "archaic": true,
+      "variants": [],
+      "description": "Mill worker operating heavy powered shears to trim hot or cold rolled iron and steel sheets to size.",
+      "count": 285,
+      "earliest": "1878",
+      "latest": "1936",
+      "sample": {
+        "year": "1878",
+        "street": "Dos Road",
+        "slug": "dos-road",
+        "house_number": "16",
+        "name": "James Williams"
+      }
+    },
+    {
+      "term": "Shipbroker",
+      "slug": "shipbroker",
+      "family": "Maritime & Docks",
+      "archaic": false,
+      "variants": [
+        "Shipbrokers"
+      ],
+      "description": "Maritime agent arranging ship charters, cargo space, insurance, and port clearance for vessels trading out of Newport.",
+      "count": 195,
+      "earliest": "1862",
+      "latest": "1936",
+      "sample": {
+        "year": "1882",
+        "street": "Ruperra Street",
+        "slug": "ruperra-street",
+        "house_number": "26",
+        "name": "J. & Co. Berrill"
       }
     },
     {
@@ -1574,9 +2327,11 @@
       "slug": "shunter",
       "family": "Railway",
       "archaic": false,
-      "variants": [],
+      "variants": [
+        "shunter G.W.R."
+      ],
       "description": "Railway yard worker who coupled, uncoupled, and directed wagons onto sidings to assemble coal and freight trains.",
-      "count": 437,
+      "count": 465,
       "earliest": "1878",
       "latest": "1936",
       "sample": {
@@ -1628,17 +2383,20 @@
       "slug": "steelworker",
       "family": "Metal & Iron Workers",
       "archaic": false,
-      "variants": [],
+      "variants": [
+        "steel worker",
+        "steelwkr"
+      ],
       "description": "Worker employed in steelmaking furnaces and rolling mills, increasingly replacing wrought iron from the late 19th century.",
-      "count": 183,
+      "count": 738,
       "earliest": "1903",
       "latest": "1936",
       "sample": {
-        "year": "1903",
-        "street": "Durham Road",
-        "slug": "durham-road",
-        "house_number": "151",
-        "name": "F. Hall"
+        "year": "1910",
+        "street": "Goodrich Crescent",
+        "slug": "goodrich-crescent",
+        "house_number": "20",
+        "name": "Hubert Wood"
       }
     },
     {
@@ -1738,6 +2496,24 @@
       }
     },
     {
+      "term": "Tanner",
+      "slug": "tanner",
+      "family": "Crafts & Artisans",
+      "archaic": true,
+      "variants": [],
+      "description": "Craftsman soaking raw animal hides in lime and oak-bark pits to preserve and convert them into leather.",
+      "count": 21,
+      "earliest": "1882",
+      "latest": "1936",
+      "sample": {
+        "year": "1882",
+        "street": "Lord Street",
+        "slug": "lord-street",
+        "house_number": "8",
+        "name": "John Clapp"
+      }
+    },
+    {
       "term": "Tidewaiter",
       "slug": "tidewaiter",
       "family": "Maritime & Docks",
@@ -1758,24 +2534,43 @@
       }
     },
     {
+      "term": "Timekeeper",
+      "slug": "timekeeper",
+      "family": "Clerical & Commercial",
+      "archaic": false,
+      "variants": [],
+      "description": "Factory or dock gatekeeper logging workers' arrival, departure, and shift hours for payroll.",
+      "count": 334,
+      "earliest": "1876",
+      "latest": "1936",
+      "sample": {
+        "year": "1878",
+        "street": "Albert Terrace",
+        "slug": "albert-terrace",
+        "house_number": "16",
+        "name": "J. E. Lanfear"
+      }
+    },
+    {
       "term": "Tinplate Worker",
       "slug": "tinplate-worker",
       "family": "Metal & Iron Workers",
       "archaic": true,
       "variants": [
         "Tinman",
-        "Brazier"
+        "Brazier",
+        "Tinsmith"
       ],
       "description": "Craftsman working sheet iron coated with tin to make cans, kettles, lanterns, and domestic utensils.",
-      "count": 165,
+      "count": 438,
       "earliest": "1848",
-      "latest": "1933",
+      "latest": "1936",
       "sample": {
-        "year": "1848",
-        "street": "Skinner Street",
-        "slug": "skinner-street",
-        "house_number": "17",
-        "name": "Thomas Summers"
+        "year": "1878",
+        "street": "Cross Street",
+        "slug": "cross-street",
+        "house_number": "4",
+        "name": "Hy James"
       }
     },
     {
@@ -1858,6 +2653,26 @@
       }
     },
     {
+      "term": "Undertaker",
+      "slug": "undertaker",
+      "family": "Service & Domestic",
+      "archaic": false,
+      "variants": [
+        "Undertakers"
+      ],
+      "description": "Funeral director arranging coffins, horse-drawn hearses, and burials.",
+      "count": 110,
+      "earliest": "1862",
+      "latest": "1936",
+      "sample": {
+        "year": "1886",
+        "street": "Dock Street",
+        "slug": "dock-street",
+        "house_number": "7",
+        "name": "D. & Sons Tovey"
+      }
+    },
+    {
       "term": "Upholsterer",
       "slug": "upholsterer",
       "family": "Crafts & Artisans",
@@ -1915,6 +2730,27 @@
       }
     },
     {
+      "term": "Warehouseman",
+      "slug": "warehouseman",
+      "family": "Clerical & Commercial",
+      "archaic": false,
+      "variants": [
+        "Storekeeper",
+        "Packer"
+      ],
+      "description": "Worker receiving, storing, packing, and dispatching wholesale merchandise in warehouses.",
+      "count": 1231,
+      "earliest": "1876",
+      "latest": "1936",
+      "sample": {
+        "year": "1878",
+        "street": "East Market Street",
+        "slug": "east-market-street",
+        "house_number": "1",
+        "name": "Benjamin Belgion"
+      }
+    },
+    {
       "term": "Watchmaker",
       "slug": "watchmaker",
       "family": "Crafts & Artisans",
@@ -1932,6 +2768,24 @@
         "slug": "commercial-street",
         "house_number": "36",
         "name": "P. Birkley"
+      }
+    },
+    {
+      "term": "Weighman",
+      "slug": "weighman",
+      "family": "Clerical & Commercial",
+      "archaic": true,
+      "variants": [],
+      "description": "Weighbridge clerk recording the tonnage of coal wagons, iron, and cargo at docks and works.",
+      "count": 344,
+      "earliest": "1882",
+      "latest": "1936",
+      "sample": {
+        "year": "1882",
+        "street": "Alice Street",
+        "slug": "alice-street",
+        "house_number": "10",
+        "name": "Charles Stephens"
       }
     },
     {
