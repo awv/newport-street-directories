@@ -10,6 +10,39 @@
   <script src="https://unpkg.com/@phosphor-icons/web"></script>
   <link rel="stylesheet" href="src/styles/main.css" />
   <style>
+    /* Ensure the entire document and page shell scroll smoothly */
+    html, body {
+      height: auto !important;
+      min-height: 100vh !important;
+      overflow-x: auto !important;
+      overflow-y: auto !important;
+      position: relative !important;
+    }
+
+    .app-shell {
+      height: auto !important;
+      min-height: 100vh !important;
+      width: 100% !important;
+      display: flex !important;
+      overflow: visible !important;
+      position: relative !important;
+    }
+
+    .app-sidebar {
+      height: 100vh !important;
+      position: sticky !important;
+      top: 0 !important;
+      align-self: flex-start !important;
+      overflow-y: auto !important;
+    }
+
+    .app-canvas {
+      height: auto !important;
+      min-height: 100vh !important;
+      flex: 1 !important;
+      overflow: visible !important;
+    }
+
     .glossary-container {
       padding: 2rem 2.5rem;
       max-width: 1400px;
