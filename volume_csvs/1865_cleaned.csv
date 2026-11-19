@@ -21,7 +21,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,Blewitt Street,68,,Martin,Alfred,"pastrycook, confectioner, and baker",commercial_directory
 1865,Blewitt Street,69,,Fletcher,Henry,"greengrocer, Baneswell",commercial_directory
 1865,Bolt Street,17,,Short,Richard,boat builder,commercial_directory
-1865,Bolt Street,20,,beer retailer,Lewis,David M,commercial_directory
+1865,Bolt Street,20,,Lewis,David M.,,commercial_directory
 1865,Bolt Street,21,,Long,Robert,coal dealer and haulier,commercial_directory
 1865,Bolt Street,38,,White,Mrs. Ann,shopkeeper,commercial_directory
 1865,Bolt Street,41,,Hopkins and Lewis,,plumbers and tinplate-workers,commercial_directory
@@ -38,7 +38,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,Canal Parade,7,,Jones,Thomas,milk seller,commercial_directory
 1865,Canal Parade,8,,Haggarty,Daniel,beer retr,commercial_directory
 1865,Canal Parade,12,,Dix,William,baker and grocer,commercial_directory
-1865,Canal Parade,12,,master mariner,Thomas,William,commercial_directory
+1865,Canal Parade,12,,Thomas,William,master mariner,commercial_directory
 1865,Canal Parade,13,,Dix,William,baker and grocer,commercial_directory
 1865,Canal Parade,14,,Morgan,Miss Sarah,butcher,commercial_directory
 1865,Canal Parade,16,,Griffiths,George,baker and grocer,commercial_directory
@@ -92,7 +92,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,Charles Street,21,,Phillips,Josiah,"butcher, Charles street",commercial_directory
 1865,Charles Street,22,,Higley,Charles,grocer and beer retailer,commercial_directory
 1865,Charles Street,24,,Smith,George,"saddler, &c",commercial_directory
-1865,Charles Street,25,,Thomas,,David,commercial_directory
+1865,Charles Street,25,,Thomas,David,schoolmaster of Ragged school,commercial_directory
 1865,Charles Street,26,,Wanklin,Charles,baker,commercial_directory
 1865,Charles Street,27,,Dudley,Sarah,shopkr,commercial_directory
 1865,Charles Street,28,,Poyner,Mrs. Fanny,dressmaker,commercial_directory
@@ -129,7 +129,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,Commercial Road,1,,Samuel,Henry,boot and shoe maker,commercial_directory
 1865,Commercial Road,1,,Shorbridge,Wm.,confectioner,commercial_directory
 1865,Commercial Road,1,,Wood,James,furniture broker,commercial_directory
-1865,Commercial Road,2,,grocer and baker,Thomas,William,commercial_directory
+1865,Commercial Road,2,,Thomas,William,grocer and baker,commercial_directory
 1865,Commercial Road,3,,"Jno., Castrey",,shopkeeper,commercial_directory
 1865,Commercial Road,3,,Scard,George,beer retailer,commercial_directory
 1865,Commercial Road,4,,Duckham,Robert,sen,commercial_directory
@@ -176,7 +176,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,Commercial Road,51,,Newman,Alfred,bookbinder and stationer,commercial_directory
 1865,Commercial Road,52,,Elton,Thomas,inland revenue officer,commercial_directory
 1865,Commercial Road,52,,Green,John,agent,commercial_directory
-1865,Commercial Road,54,,Taylor,,Henry,commercial_directory
+1865,Commercial Road,54,,Taylor,Henry,baker and grocer,commercial_directory
 1865,Commercial Road,55,,Hutchings,Philip,The Windsor Castle,commercial_directory
 1865,Commercial Road,55,,Manoy,Myers,pawnbroker,commercial_directory
 1865,Commercial Road,56,,Ray,Henry,sen. pilot,commercial_directory
@@ -186,7 +186,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,Commercial Road,62,,Shaxton,Lang,WM,commercial_directory
 1865,Commercial Road,64,,Hill,Edwin,collector of taxes,commercial_directory
 1865,Commercial Road,65,,Hopgood,Jno.,coal agent,commercial_directory
-1865,Commercial Road,66,,Thomas,,JOHN,commercial_directory
+1865,Commercial Road,66,,Thomas,John,"English and foreign timber merchant, steam sawmill proprietor and slate merchant",commercial_directory
 1865,Commercial Road,67,,Evans,Daniel,beer retailer,commercial_directory
 1865,Commercial Road,71,,Beynon,Mrs. Mary,ladies seminary,commercial_directory
 1865,Commercial Road,72,,Scantlebury,James,master mariner,commercial_directory
@@ -225,7 +225,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,Commercial Road,106,,Stock,Wm.,butcher,commercial_directory
 1865,Commercial Road,107,,Roberts,Thomas,greengrocer,commercial_directory
 1865,Commercial Road,108,,Williams,Mrs. Catherine,confectioner,commercial_directory
-1865,Commercial Road,109,,grocer,Thompson,William,commercial_directory
+1865,Commercial Road,109,,Thompson,William,grocer,commercial_directory
 1865,Commercial Road,110,,"Saml., Channing",,butcher,commercial_directory
 1865,Commercial Road,111,,Morgan,William,"chemist, stationer, and sub-postmaster",commercial_directory
 1865,Commercial Road,111,,Powell,Edward,beer retailer,commercial_directory
@@ -253,11 +253,11 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,Commercial Road,129,,Watts,Andrew,broker and greengrocer,commercial_directory
 1865,Commercial Road,130,,Pearce,Joseph (firm of Pearce and Richards),Commercial road,commercial_directory
 1865,Commercial Road,133,,Griffith,Thomas,King's Arms Inn,commercial_directory
-1865,Commercial Road,134,,beer retailer,Leonard,James,commercial_directory
+1865,Commercial Road,134,,Leonard,James,,commercial_directory
 1865,Commercial Road,135,,Sanders,Frank,grocer & baker,commercial_directory
 1865,Commercial Road,136,,Rogers,Joseph,"brownware and flowerpot manufacturer, the Pottery",commercial_directory
 1865,Commercial Road,138,,Prosser,David,pilot,commercial_directory
-1865,Commercial Road,144,,Thomas,,Richd,commercial_directory
+1865,Commercial Road,144,,Thomas,Richd.,tailor,commercial_directory
 1865,Commercial Road,146,,Richards,John (firm of Pearce and Richards),"Richards, John (firm of Pearce and Richards)",commercial_directory
 1865,Commercial Road,147,,Robert,Cock,builder,commercial_directory
 1865,Commercial Road,148,,Hazell,Pyet,Thomas,commercial_directory
@@ -265,8 +265,8 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,Commercial Road,152,,Balley,John,master mariner,commercial_directory
 1865,Commercial Road,152,,Heal,Eliza Ann,preparatory school,commercial_directory
 1865,Commercial Road,153,,Serjent,Geo. Edward,brass and bell founder and finisher,commercial_directory
-1865,Commercial Road,154,,Robert,,Trew,commercial_directory
 1865,Commercial Road,154,,Sloane,Mrs. Hannah,glass and china dealer,commercial_directory
+1865,Commercial Road,154,,Trew,Robert,master mariner,commercial_directory
 1865,Commercial Road,156,,Guest,Mrs. C.,lodging house,commercial_directory
 1865,Commercial Road,157,,May,Thomas,boot and shoe maker,commercial_directory
 1865,Commercial Road,158,,Fornacon,Ferdinand,"(firm of Fornacon, Hall, and Co.)",commercial_directory
@@ -360,13 +360,13 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,Commercial Street,57,,Batson,Geo.,"basket maker and toy warehouse, BATSON, GEO",commercial_directory
 1865,Commercial Street,58,,Mogford,John,pork butcher,commercial_directory
 1865,Commercial Street,60,,Duckham,Robert,jun,commercial_directory
-1865,Commercial Street,61,,Sydenham,,John,commercial_directory
+1865,Commercial Street,61,,Sydenham,John,saddler and harness maker,commercial_directory
 1865,Commercial Street,62,,Shellam,Daniel,fruiterer,commercial_directory
 1865,Commercial Street,63,,Bingley,John,grocer and butcher,commercial_directory
 1865,Commercial Street,64,,Scandrett,William,butcher,commercial_directory
 1865,Commercial Street,65,,Hancock,James,eating house,commercial_directory
 1865,Commercial Street,66,,Birt,James,beer retailer,commercial_directory
-1865,Commercial Street,67,,Stringa,,Peter,commercial_directory
+1865,Commercial Street,67,,Stringa,Peter,hardware dealer,commercial_directory
 1865,Commercial Street,68,,Fothergill,,"tobacco, snuff, and cigar manufacturer, and",commercial_directory
 1865,Commercial Street,69,,Coles,John,hairdresser and photographer,commercial_directory
 1865,Commercial Street,70,,Davies,John Thomas,hairdresser and photographer,commercial_directory
@@ -381,7 +381,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,Commercial Street,79,,Peach,William,"confectioner and baker, Commercial street",commercial_directory
 1865,Commercial Street,80,,Francis,James,greengrocer,commercial_directory
 1865,Commercial Street,82,,Loder,Wm. Warren,"bookseller, stationer, binder, and account book maker, paper hanging warehouse, and branch post office",commercial_directory
-1865,Commercial Street,82,,Thomas,,R,commercial_directory
+1865,Commercial Street,82,,Thomas,R.,practical bookbinder,commercial_directory
 1865,Commercial Street,83,,Crouch,Mrs. Betsy,leather seller,commercial_directory
 1865,Commercial Street,92,,Phillips,John,pharmaceutical chemist,commercial_directory
 1865,Commercial Street,93,,Phillips,Charles,"William IV. Inn, and licensed to let horses, William IV. Inn",commercial_directory
@@ -415,7 +415,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,Commercial Street,127,,Jones,William,accountant,commercial_directory
 1865,Commercial Street,127,,Jones-Sumption,J. H.,family and dispensing chemist,commercial_directory
 1865,Commercial Street,128,,Blackmore,John,butcher,commercial_directory
-1865,Commercial Street,129,,Thomas,,John,commercial_directory
+1865,Commercial Street,129,,Thomas,John,"joiner, pastrycook & confectioner",commercial_directory
 1865,Commercial Street,130,,Read,Miss,Berlin wool and fancy repository,commercial_directory
 1865,Commercial Street,131,,Alway,Robert,"general ironmonger, and , Pillgwenlly",commercial_directory
 1865,Commercial Street,132,,Williams,"Mrs. Fanny, furnishing and general ironmonger",,commercial_directory
@@ -455,17 +455,17 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,Commercial Street,166,,Evans,Benjamin,"mantle, shawl, silk, fur, and general drapery establishment and furnishing carpet warehouse, London house",commercial_directory
 1865,Commercial Street,167,,Evans,Benjamin,"mantle, shawl, silk, fur, and general drapery establishment and furnishing carpet warehouse, London house",commercial_directory
 1865,Commercial Street,168,,Provincial Banking Corporation,Limited,"with which is incorporated the Bank of Wales, Limited, . Draw on the London and County Bank, Lombard street, London, E.C. Hours from 10 till 3, and on Thursdays 10 till 1. John Cross, Esq., manager",commercial_directory
-1865,Commercial Street,170,,Thomas,,DAVID,commercial_directory
+1865,Commercial Street,170,,Thomas,David,"pastrycook & confectioner, & baker",commercial_directory
 1865,Commercial Street,171,,Garrett,Brothers,family and dispensing chemist,commercial_directory
 1865,Commercial Street,172,,Richards,John R.,"tailor, draper, and hatter",commercial_directory
 1865,Commercial Street,173,,Mason,John,"family grocer, tea, coffee, and spice dealer, and provision merchant",commercial_directory
 1865,Commercial Street,174,,Brian,John,tailor and draper,commercial_directory
 1865,Commercial Street,175,,Howe and Corps,,"linen and woollen drapers, silk mercers, and mourning warehouse",commercial_directory
 1865,Corn Street,1,,Bear,Alfred R.,"linendraper, Albion house, and Albion house",commercial_directory
-1865,Corn Street,15,,potato and cider merchant,Le Couteur,JOHN,commercial_directory
+1865,Corn Street,15,,Le Couteur,John,,commercial_directory
 1865,Corn Street,16,,Pope,Charles,"coach builder, Skinner street",commercial_directory
-1865,Corn Street,18,,greengrocer,Leary,Daniel,commercial_directory
-1865,Corn Street,18,,potato and cider merchant,Le Couteur,JOHN,commercial_directory
+1865,Corn Street,18,,Le Couteur,John,,commercial_directory
+1865,Corn Street,18,,Leary,Daniel,and,commercial_directory
 1865,Corn Street,19,,Richmond and Poole,,grocers,commercial_directory
 1865,Corn Street,20,,Stewart,Anthony,hairdresser,commercial_directory
 1865,Corn Street,22,,Trubey,Mrs. Mary,beer retailer,commercial_directory
@@ -480,7 +480,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,Devon Place,35,,Brown,John,hay dealer,commercial_directory
 1865,Devon Place,36,,Ewins,Mr. James,,commercial_directory
 1865,Devon Place,38,,Brown,Alfred,clerk,commercial_directory
-1865,Dock Parade,2,,coal merchant,Thompson,James,commercial_directory
+1865,Dock Parade,2,,Thompson,James,coal merchant,commercial_directory
 1865,Dock Parade,3,,Parfitt,Miss Elizabeth,lodgings,commercial_directory
 1865,Dock Parade,7,,Coombs,Samuel,lodgings,commercial_directory
 1865,Dock Parade,9,,"Pier Head. Priv. res., 9 Dock parade",William,boat builder,commercial_directory
@@ -504,7 +504,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,Dock Street,6,,Watkins,Alfred Octavius,architect,commercial_directory
 1865,Dock Street,7,,Derrett,Wm.,sen,commercial_directory
 1865,Dock Street,7,,ironmasters,LEVICK and SIMPSON,"Office, . Mr. Charles Simpson, agent. Works at Blaina",commercial_directory
-1865,Dock Street,7,,Tovey,,D. & I,commercial_directory
+1865,Dock Street,7,,Tovey,D. & I.,"general funeral furnishing establishment, and undertakers",commercial_directory
 1865,Dock Street,9,,Baynham,Henry,shipowner,commercial_directory
 1865,Dock Street,9,,Williams,William R.,"chronometer and nautical instrument maker, optician, and teacher of navigation",commercial_directory
 1865,Dock Street,10,,Phillipotts,John,,commercial_directory
@@ -531,7 +531,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,Dock Street,152,,Davis,David,bookbinder and stationer,commercial_directory
 1865,Dock Street,153,,Malin,Sidney,"agent for Pickford and Co., railway carriers",commercial_directory
 1865,Dock Street,153,,"PICKFORD AND CO., agents for the London and North Western and Monmouthshire Railway Companies, and general carriers and hauliers. Offices, 153 Dock street, and at Railway station. Mr. S. Malin, agent",,"Dock street, and at Railway station",commercial_directory
-1865,Dock Street,154,,Thomas,,DAVID,commercial_directory
+1865,Dock Street,154,,Thomas,David,wholesale tea dealer,commercial_directory
 1865,Dock Street,156,,Jones,John,Temperance Hotel,commercial_directory
 1865,Dolphin Street,3,,Watkins,Mrs. Ann,greengrocer,commercial_directory
 1865,Dolphin Street,18,,Evans,Mrs.Sarah,gngrocer,commercial_directory
@@ -562,7 +562,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,Dorset Place,6,,Gething,Mr. Wm.,,commercial_directory
 1865,Dorset Place,7,,Green,John,,commercial_directory
 1865,East Street,1,,Cross,John,Engineers' Arms,commercial_directory
-1865,East Street,18,,Theophilus,,Thomas,commercial_directory
+1865,East Street,18,,Theophilus,Thomas,shoemaker,commercial_directory
 1865,East Street,18,,Tucker,John,master mariner,commercial_directory
 1865,East Street,18,,Tuplin,William,tailor,commercial_directory
 1865,Ebenezer Terrace,32,,Davies,David,custom house officer,commercial_directory
@@ -570,14 +570,14 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,Ebenezer Terrace,34,,Brown,George,umbrella maker,commercial_directory
 1865,Frederick Street,16,,Bragg,Thomas,master mariner,commercial_directory
 1865,Frederick Street,17,,Cade,Miss Rebecca,dressmaker,commercial_directory
-1865,Frederick Street,17,,master mariner,Thomas,Thomas,commercial_directory
+1865,Frederick Street,17,,Thomas,,master mariner,commercial_directory
 1865,Frederick Street,25,,Redmore,H. J.,master mariner,commercial_directory
 1865,Frederick Street,26,,Tuplin,John O.,master mariner,commercial_directory
 1865,George Street,2,,Daniel,Lewis,"JAMES salt merchant, drysalter and stores",commercial_directory
 1865,George Street,4,,Evans,Peter,shoemaker,commercial_directory
 1865,George Street,5,,Andrews,Joseph,greengrocer,commercial_directory
 1865,George Street,8,,Thomas,Rev. Wm. (Baptist),,commercial_directory
-1865,George Street,9,,Robert,,Trew,commercial_directory
+1865,George Street,9,,Trew,Robert,"dye, &c",commercial_directory
 1865,George Street,10,,Jones,Mr. Thomas,,commercial_directory
 1865,George Street,15,,Grant,Richard,"rope and rag merchant, and coal dealer",commercial_directory
 1865,George Street,23,,Spencer,Samuel,"wheelwright, &c., Robbins' lane",commercial_directory
@@ -592,8 +592,8 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,George Street,56,,Dix,Chas.,grocer & baker,commercial_directory
 1865,Graham Street,1,,Wheeler,Moses,"boot and shoe maker, 9 St. Woollos road, and",commercial_directory
 1865,Grenville Street,15,,Hilton,James B.,"grocer, beer retailer",commercial_directory
-1865,Grenville Street,24,,Thomas,,John,commercial_directory
-1865,Griffin Street,2,,Townsend,,J.Sph,commercial_directory
+1865,Grenville Street,24,,Thomas,John,haulier & coal merchant,commercial_directory
+1865,Griffin Street,2,,Townsend,J.Sph.,cabinet maker,commercial_directory
 1865,Griffin Street,3,,Drayton,Wm.,beer retailer,commercial_directory
 1865,Griffin Street,3,,Naish,Mrs. Sebra,"basket, chair, and sieve maker",commercial_directory
 1865,Griffin Street,12,,Huntleysupp.,Robert,"shipping agent at the butter merchant, and grocer and provision factor",commercial_directory
@@ -644,14 +644,14 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,High Street,35,,Williams,Watkin,grocer and baker,commercial_directory
 1865,High Street,36,,Cocks,SAMUEL FREDk.,cider and provision merchant. Office,commercial_directory
 1865,High Street,36,,Martin,Alfred,"pastrycook, confectioner, and baker",commercial_directory
-1865,High Street,37,,jeweller and watchmaker,Latch,William,commercial_directory
+1865,High Street,37,,Latch,William,,commercial_directory
 1865,High Street,38,,Morgan,John,grocer and tallow chandler,commercial_directory
 1865,High Street,39,,Greenland,George,stationer and news-agent,commercial_directory
 1865,High Street,40,,Parsons,William Hy.,"tanner, currier, and leather merchant",commercial_directory
 1865,High Street,41,,Horrigan,Michael,butcher,commercial_directory
 1865,High Street,41,,Wegener,Charles,shopkeeper,commercial_directory
 1865,High Street,42,,Reed,M. A.,stationer and fancy warehouse,commercial_directory
-1865,High Street,43,,Taylor,,George,commercial_directory
+1865,High Street,43,,Taylor,George,"linen draper, &c",commercial_directory
 1865,High Street,44,,Green,Mr. John,agent and tea dealer,commercial_directory
 1865,High Street,45,,Harry,Mr. David,,commercial_directory
 1865,High Street,45,,Harry,David,importer of foreign wines and spirits,commercial_directory
@@ -667,11 +667,11 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,High Street,58,,Compton,William,"grocer, tea dealer, and tallow chandler",commercial_directory
 1865,High Street,59,,Ewins,Joseph.,"FRANCIS, pastrycook, confectioner, fruiterer, &c",commercial_directory
 1865,High Street,60,,Elsdsen,William,hair-dresser and perfumer,commercial_directory
-1865,High Street,60A,,tailor,Lewis,Thomas,commercial_directory
+1865,High Street,60A,,Lewis,Thomas,,commercial_directory
 1865,High Street,64,,Morgan,Mrs. Susan,draper,commercial_directory
 1865,High Street,66,,Clarke,Mr.,,commercial_directory
 1865,High Street,74,,Ford,Hamet,shopkeeper,commercial_directory
-1865,High Street,75,,Charles Wm.,,TRUBEY,commercial_directory
+1865,High Street,75,,Trubey,Charles Wm.,"King William, and agent for Sutton and Co., general carriers and forwarding agents",commercial_directory
 1865,Hill Street,5,,Chappell,Daniel,,commercial_directory
 1865,Hill Street,5,,Edwards,Thomas,Electric and International Telegraph Company's clerk in charge,commercial_directory
 1865,Hill Street,5,,Taylor,"Taylor, Mrs. Susan",lodging ho,commercial_directory
@@ -681,7 +681,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,Hill Street,11,,Burfoot,Frederick Dixon,coal agent,commercial_directory
 1865,Hill Street,12,,Smith,Edward J.,"master of British school, Stow hill. Friv. res",commercial_directory
 1865,Hill Street,13,,Row,Charles,accountant,commercial_directory
-1865,Hill Street,14,,Thomas,,Chas. Jones,commercial_directory
+1865,Hill Street,14,,Thomas,Chas. Jones,bonded store agent,commercial_directory
 1865,Hill Street,18,,Price,George,dispensing and family chemist,commercial_directory
 1865,Hill Street,19,,Morgan,the Misses,lodging house,commercial_directory
 1865,Hill Street,21,,Huxtable,William Chas.,clerk,commercial_directory
@@ -718,7 +718,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,Lewis Street,9,,Comer,James,carpenter,commercial_directory
 1865,Lewis Street,14,,Bowden,William,master mariner,commercial_directory
 1865,Llanarth Street,1,,Edwin,Cherry,chemist and druggist,commercial_directory
-1865,Llanarth Street,1,,Mear,Samuel,Globe,commercial_directory
+1865,Llanarth Street,1,,Globe,Mear,Samuel,commercial_directory
 1865,Llanarth Street,2,,O'Hare,Francis A. (firm of O'Hare and Vaughan),agent,commercial_directory
 1865,Llanarth Street,3,,Hussey,John,beer retailer and furniture broker,commercial_directory
 1865,Llanarth Street,4,,Vennor,Mr. Henry,,commercial_directory
@@ -756,12 +756,12 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,Lower George Street,3,,Smith,Joseph,clerk,commercial_directory
 1865,Lower George Street,5,,Parker,Miss Sophia,dress maker,commercial_directory
 1865,Lower George Street,6,,Jones,Thomas,greengrocer,commercial_directory
-1865,Lower George Street,14,,Todd,,ISAAC,commercial_directory
+1865,Lower George Street,14,,Todd,Isaac,Prince’s Head,commercial_directory
 1865,Market Street,2,,Carver,James,hairdresser,commercial_directory
-1865,Market Street,2,,umbrella maker,Tipton,Richard,commercial_directory
+1865,Market Street,2,,Tipton,Richard,umbrella maker,commercial_directory
 1865,Market Street,4,,Davies,Morgan,"family grocer, corn, seed, and salt merchant",commercial_directory
 1865,Market Street,5,,Davies,Morgan,"family grocer, corn, seed, and salt merchant",commercial_directory
-1865,Mellon Street,3,,greengrocer,Leary,Daniel,commercial_directory
+1865,Mellon Street,3,,Leary,Daniel,and,commercial_directory
 1865,Mellon Street,4,,Holland,James,tailor,commercial_directory
 1865,Mellon Street,9,,Rees,Morgan,beer retailer,commercial_directory
 1865,Mellon Street,12,,Kelly,Martin,beer retailer,commercial_directory
@@ -788,7 +788,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,North Street,1,,Scard,Simeon,corn merchant and provision factor,commercial_directory
 1865,North Street,4,,Hall,George,shopkeeper,commercial_directory
 1865,North Street,15,,Belgeon,Benj.,shopkeeper,commercial_directory
-1865,Palmyra Place,2,,Thomas,,Thomas,commercial_directory
+1865,Palmyra Place,2,,Thomas,,"(firm of Griffiths and Thomas, railway contractors)",commercial_directory
 1865,Palmyra Place,4,,Jennings,Octavius H.,,commercial_directory
 1865,Palmyra Place,5,,Batchelor,George,"solicitor, com. in chancery and com. law courts. Office, Stow hill",commercial_directory
 1865,Palmyra Place,6,,Mackrell,Benjamin M.,commercial traveller,commercial_directory
@@ -799,8 +799,8 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,Park Street,2,,Bodmen,Rudolph (firm of Bodmer Brothers),"contractor and builder, steam sawing, planing, and moulding mills, Austin Friars, Commercial street",commercial_directory
 1865,Park Street,3,,Williams,"JOHN ANDREW, commission and general merchant",4 Skinner street,commercial_directory
 1865,Park Street,4,,Michel,Richd.,"Bawden, engineer",commercial_directory
-1865,Park Street,5,,tallow chandler,Lewis,David W,commercial_directory
-1865,Park Street,6,,Thomas,,Bartholomew,commercial_directory
+1865,Park Street,5,,Lewis,David W.,Skinner street,commercial_directory
+1865,Park Street,6,,Thomas,Bartholomew,commercial traveller,commercial_directory
 1865,Park Street,7,,Bond,Robert,traffic manager of the Sirhowy railway,commercial_directory
 1865,Park Street,9,,Speary,"Mrs., Richard",,commercial_directory
 1865,Park Street,10,,Welsh,Robert Hammet,commercial traveller,commercial_directory
@@ -821,7 +821,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,Potter's Parade,4,,Oakley,Edwin,grocer,commercial_directory
 1865,Raglan Street,46,,Williams,Rees,"carpenter, &c",commercial_directory
 1865,Railway Street,1,,Turner,David,slater and plasterer,commercial_directory
-1865,Railway Street,16,,shoemaker,Langford,John,commercial_directory
+1865,Railway Street,16,,Langford,John,Baneswell,commercial_directory
 1865,Railway Street,28,,While,Alfred,"coal merchant, Old Green",commercial_directory
 1865,Ruperra Street,2,,Hicks,Albert,butcher,commercial_directory
 1865,Ruperra Street,3,,William Smart,Clarke,corn and flour dealer,commercial_directory
@@ -832,7 +832,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,Ruperra Street,9,,Randall,William,"agent to H.P. Burt and Co., creosote works",commercial_directory
 1865,Ruperra Street,10,,Chambers,Thomas,clerk,commercial_directory
 1865,Ruperra Street,11,,Powell,Mrs. Mary,,commercial_directory
-1865,Ruperra Street,12,,accountant,Lewis,Benjamin,commercial_directory
+1865,Ruperra Street,12,,Lewis,Benjamin,,commercial_directory
 1865,Ruperra Street,13,,Powell,Wm.,rate collector,commercial_directory
 1865,Ruperra Street,14,,Jones,Miss D.,milliner and dressmaker,commercial_directory
 1865,Ruperra Street,15,,Maddock,Mr. David,,commercial_directory
@@ -841,7 +841,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,Ruperra Street,17,,Parry,William,watch and clock maker,commercial_directory
 1865,Ruperra Street,18,,Seymour,"Mrs., Ann",,commercial_directory
 1865,Ruperra Street,19,,Bray,Miss S. A.,dress and mantle maker,commercial_directory
-1865,Ruperra Street,20,,Thomas,,Thomas,commercial_directory
+1865,Ruperra Street,20,,Thomas,,travelling draper,commercial_directory
 1865,Ruperra Street,22,,Penny,Edward George,"collector of taxes, Ruperra street",commercial_directory
 1865,Ruperra Street,23,,Stapleton,James,master mariner,commercial_directory
 1865,Ruperra Street,24,,Williams,John,master mariner,commercial_directory
@@ -851,9 +851,9 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,Skinner Street,4,,Williams,"JOHN ANDREW, commission and general merchant",4 Skinner street,commercial_directory
 1865,South Market Street,11,,Webb,Samson,basket maker,commercial_directory
 1865,South Market Street,22,,Richards,Lewis,chimney sweeper,commercial_directory
-1865,South Market Street,23,,Thomas,,Robert,commercial_directory
+1865,South Market Street,23,,Thomas,Robert,"grocer, &c",commercial_directory
 1865,South Market Street,24,,Price,John,coal dealer,commercial_directory
-1865,South Market Street,25,,Thomas,,Thomas,commercial_directory
+1865,South Market Street,25,,Thomas,,tailor,commercial_directory
 1865,South Market Street,31,,Sibly,Mrs. Rebecca,milliner & dressmaker,commercial_directory
 1865,South Market Street,33,,Enwright,Hy.,tailor,commercial_directory
 1865,South Market Street,39,,Phillips,Wm.,"pilot, South Market st",commercial_directory
@@ -869,7 +869,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,Stow Hill,10,,Thomas,"Benjamin, Esq.",,commercial_directory
 1865,Stow Hill,14,,Warr,Alfred,funeral furnisher,commercial_directory
 1865,Stow Hill,15,,Whiting,James,shoemaker,commercial_directory
-1865,Stow Hill,16,,beer retailer,Tooze,James,commercial_directory
+1865,Stow Hill,16,,Tooze,James,beer retailer,commercial_directory
 1865,Stow Hill,20,,Pritchard,John Alfred,firm of Pritchard Brothers),commercial_directory
 1865,Stow Hill,21,,Warren,"John, Esq., C.E.",,commercial_directory
 1865,Stow Hill,21,,Warren,John,"land and mineral surveyor, and civil engineer",commercial_directory
@@ -877,7 +877,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,Stow Hill,23,,Jones,Thomas,"chartering agent to the Ebbw Vale Company, Limited",commercial_directory
 1865,Stow Hill,24,,Gwygther,the Misses,milliners and mantle makers,commercial_directory
 1865,Stow Hill,30,,Evans,John,greengrocer,commercial_directory
-1865,Stow Hill,79,,Tanner,,Charles,commercial_directory
+1865,Stow Hill,79,,Tanner,Charles,shoemaker,commercial_directory
 1865,Stow Hill,87,,Vines,Edward,shopkeeper,commercial_directory
 1865,Stow Hill,96,,Mullock,James Flewitt,"artist, and clerk to the burial board",commercial_directory
 1865,Stow Hill,97,,Hunt,Mrs.,lodgings,commercial_directory
@@ -890,7 +890,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,Stow Hill,104,,Beech,John (firm of Beech and Ingleton),,commercial_directory
 1865,Stow Hill,104,,Iggulden,Delamark,,commercial_directory
 1865,Stow Hill,107,,Spickett,William,"agent for John Bland, railway carrier. Office, Great-Western railway station",commercial_directory
-1865,Stow Hill,109,,butcher,Lawrence,William,commercial_directory
+1865,Stow Hill,109,,Lawrence,William,the Market,commercial_directory
 1865,Stow Hill,109,,Waters,Geo.,greengrocer,commercial_directory
 1865,Stow Hill,110,,Burgess,John,Market Boat Inn,commercial_directory
 1865,Stow Hill,112,,Stockwell,,"Stockwell, William, brightsmith and bell-hanger",commercial_directory
@@ -903,10 +903,10 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,Temple Street,19,,Cox,Charles,pilot,commercial_directory
 1865,Thomas Street,12,,Edmonds,Jas.,jun,commercial_directory
 1865,Tredegar Place,3,,Little,Robert and Christopher,travelling drapers,commercial_directory
-1865,Tredegar Place,7,,architect and surveyor,Lawrence,Benjamin,commercial_directory
 1865,Tredegar Place,7,,Beckingham,E. E.,"agent for W. and A. Gilbey, wine importers and distillers, of London, Dublin, and Edinburgh. Stores and offices, . . E",commercial_directory
 1865,Tredegar Place,7,,commission agents,"Lewis, Mrs. and Miles",Office,commercial_directory
 1865,Tredegar Place,7,,Eames,Wm.,"Bunch of Grapes, Skinner st",commercial_directory
+1865,Tredegar Place,7,,Lawrence,Benjamin,Office,commercial_directory
 1865,Tredegar Place,7,,s Office,,Newport Cemetery Company,commercial_directory
 1865,Tredegar Place,7,,Slade,R. B. T.,"public accountant and auditor, secretary to the Newport Cemetery Company, agent to the East Cornwall Powder Company, and to the Yorkshire Insurance Office, . ., page 4)",commercial_directory
 1865,Tredegar Street,1,,Bartlett,Emanuel,master mariner,commercial_directory
@@ -936,7 +936,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,Windsor Terrace,3,,Evans,Charles,"carpenter, timber and bark merchant, Rodney Wharf. Office, High street",commercial_directory
 1865,Windsor Terrace,5,,Norman,Edward F.,station master,commercial_directory
 1865,York Place,1,,Railton,James,,commercial_directory
-1865,York Place,2,,Thomas,,Edward,commercial_directory
+1865,York Place,2,,Thomas,Edward,collector of rates,commercial_directory
 1865,York Place,4,,Whittaker,Miss Harriet,lodgings,commercial_directory
 1865,York Place,5,,Jones,Mrs. Eleanor,lodgings,commercial_directory
 1865,York Place,7,,Freeman,Frank,"engineer, Great Western Railway",commercial_directory

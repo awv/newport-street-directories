@@ -159,9 +159,12 @@ def extract_rows(canonical_streets: dict[str, str]) -> tuple[list[dict], list[tu
                         _add_match(rows, unmatched, seen, canonical_streets, line_no, num, raw_st, s, fn, tr)
                 continue
 
-        # Normalize 7-column shifted rows (e.g. ['', '', 'Henry', 'Mullock', 'bookseller...', 'Mullock, Henry', ''])
-        if len(cells) >= 7 and cells[0] == "" and cells[1] == "" and cells[2] and cells[3] and not ADDR_RE.search(cells[3]) and len(cells[3]) < 30:
-            cells = cells[1:]
+        # Normalize 7-column, 6-column, or 5-column shifted rows (e.g. ['', '', 'Robert', 'Trew', 'dye, &c.', '9 George street'])
+        if cells[0] == "" and cells[1] == "" and len(cells) >= 5 and cells[2] and cells[3]:
+            if len(cells) >= 7 and not ADDR_RE.search(cells[3]) and len(cells[3]) < 30:
+                cells = cells[1:]
+            elif len(cells) in (5, 6) and cells[4] and re.match(r"^[A-Z][a-zA-Z'\-]+$", cells[3]) and cells[3] != "Office":
+                cells = cells[1:]
 
         while len(cells) < 6:
             cells.append("")
@@ -220,10 +223,18 @@ def extract_rows(canonical_streets: dict[str, str]) -> tuple[list[dict], list[tu
                     forename = ""
                 elif "," in c_fore and not any(t in c_fore.lower() for t in ["esq", "mr.", "mrs.", "miss", "rev."]):
                     parts = [p.strip() for p in c_fore.split(",", 1)]
-                    forename = clean_name_part(parts[0])
-                    if parts[1]:
-                        trade = parts[1]
-                    surname = clean_case(c_sur)
+                    # Case 1: c_fore is "Surname, Forename" and c_sur is either repeated Surname or a lowercase trade
+                    if parts[1] and parts[1][0].isupper() and (c_sur.lower() == parts[0].lower() or (c_sur and c_sur[0].islower())):
+                        surname = clean_case(parts[0])
+                        forename = clean_name_part(parts[1])
+                        if c_sur.lower() != parts[0].lower():
+                            trade = c_trade or c_sur
+                    else:
+                        # Case 2: c_fore is "Forename, trade" (e.g. "James, grocer | Abbott")
+                        forename = clean_name_part(parts[0])
+                        if parts[1]:
+                            trade = parts[1]
+                        surname = clean_case(c_sur)
                 else:
                     surname = clean_case(c_sur)
                     forename = clean_name_part(c_fore)
