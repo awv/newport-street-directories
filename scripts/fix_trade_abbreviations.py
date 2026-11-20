@@ -142,6 +142,7 @@ HO_RE = re.compile(
     r"\b([A-Za-z'\-]+)([\s\-])ho\.?(?![A-Za-z])",
     re.I,
 )
+HSE_RE = re.compile(r"\bhse\.?(?![A-Za-z])", re.I)
 
 
 def fix_ho(val: str, col: str) -> str:
@@ -149,6 +150,7 @@ def fix_ho(val: str, col: str) -> str:
         lambda m: m.group(0) if m.group(1).lower() == "westward" else f"{m.group(1)}{m.group(2)}House",
         val,
     )
+    new_val = HSE_RE.sub("House", new_val)
     if col == "trade":
         new_val = re.sub(r"(?i)^ho\s+agent\b", "House Agent", new_val)
         new_val = re.sub(r"(?i)^ho\s+furnisher\b", "House Furnisher", new_val)
