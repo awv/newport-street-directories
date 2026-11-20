@@ -320,6 +320,18 @@ def process_csv(path: Path, known_surnames: set[str] | None = None) -> int:
                 fore = r["forename"]
                 row_changed = True
 
+        # Fix 1933 rows where house name is in surname and "RealSurname, RealForename" is in forename
+        if (r.get("year") or "").strip() == "1933" and sur and fore:
+            m_33 = re.match(r"^([A-Z][A-Za-z'\-]+),\s+([A-Z].*)$", fore)
+            if m_33:
+                r["building_name"] = f"{bldg}, {sur}" if bldg else sur
+                r["surname"] = m_33.group(1).strip()
+                r["forename"] = m_33.group(2).strip()
+                bldg = r["building_name"]
+                sur = r["surname"]
+                fore = r["forename"]
+                row_changed = True
+
         # Fix forename-only in surname/forename with real surname stranded in trade (e.g. Bedford Rd 1898 No. 15: William | Wilson)
         if ((not sur and fore.lower() in COMMON_FORE) or (not fore and sur.lower() in COMMON_FORE)) and tr:
             if (
