@@ -186,6 +186,14 @@ HO_RE = re.compile(
     re.I,
 )
 HSE_RE = re.compile(r"\bhse\.?(?![A-Za-z])", re.I)
+EDGE_DASH_TRAIL_RE = re.compile(r"(?:^|\s)[-\u2013\u2014]+$")
+EDGE_DASH_LEAD_RE = re.compile(r"^[-\u2013\u2014]+(?:\s+|$)")
+
+
+def strip_edge_dashes(val: str) -> str:
+    s = EDGE_DASH_TRAIL_RE.sub("", val.strip())
+    s = EDGE_DASH_LEAD_RE.sub("", s)
+    return s.strip()
 
 
 def fix_ho(val: str, col: str) -> str:
@@ -418,7 +426,7 @@ def process_csv(path: Path, known_surnames: set[str] | None = None) -> int:
 
         for col in ("building_name", "trade", "surname", "forename"):
             old_val = r.get(col) or ""
-            new_val = fix_ho(old_val, col)
+            new_val = strip_edge_dashes(fix_ho(old_val, col))
             if new_val != old_val:
                 r[col] = new_val
                 row_changed = True

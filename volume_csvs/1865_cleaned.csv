@@ -57,7 +57,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,Capel Street,9,,Ray,Henry,pilot,commercial_directory
 1865,Cardiff Road,2,,Hudd,Mrs. Mary,laundress,commercial_directory
 1865,Cardiff Road,3,,Davies,William,hairdresser and tobacconist,commercial_directory
-1865,Cardiff Road,3,,Davies,—,road surveyor,commercial_directory
+1865,Cardiff Road,3,,Davies,,road surveyor,commercial_directory
 1865,Cardiff Road,9,,Harry,John,shopkeeper,commercial_directory
 1865,Cardiff Road,10,,Ablart,Mrs. Ann,shopkeeper,commercial_directory
 1865,Cardiff Road,13,,Bethell,John,cattle dealer,commercial_directory
@@ -160,7 +160,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,Commercial Road,32,,Baker,George,loan and discount office,commercial_directory
 1865,Commercial Road,32,,Loan And Discount Office,,"Mr. George Baker, manager",commercial_directory
 1865,Commercial Road,33,,Cobbledick,Henry,grocer and provision dealer,commercial_directory
-1865,Commercial Road,35,,Williams,-,herbalist,commercial_directory
+1865,Commercial Road,35,,Williams,,herbalist,commercial_directory
 1865,Commercial Road,36,,Cyrus,Clislit,chair manufacturer,commercial_directory
 1865,Commercial Road,38,,White,Edward,butcher,commercial_directory
 1865,Commercial Road,39,,Wilkins,Richard,contractor,commercial_directory
@@ -552,7 +552,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,Dolphin Street,86,,Evans,James,beer retailer,commercial_directory
 1865,Dolphin Street,92,,Pugsley,John,master mariner,commercial_directory
 1865,Dolphin Street,94,,Brooks,Mrs. Elizabeth,straw bonnet maker,commercial_directory
-1865,Dolphin Street,94,,Brooks,—,master mariner,commercial_directory
+1865,Dolphin Street,94,,Brooks,,master mariner,commercial_directory
 1865,Dorset Place,1,,Turner,John T.,commercial academy,commercial_directory
 1865,Dorset Place,2,,Davies,,,commercial_directory
 1865,Dorset Place,2,,Davies,Benjamin,"physician, medical officer of health",commercial_directory
@@ -704,7 +704,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,Ivor Street,4,,Pugsley,James,clerk,commercial_directory
 1865,Jeddo Street,1,,Lloyd,James,"coal merchant, Courtybella terrace",commercial_directory
 1865,Jones Street,1,,Skinner,,beer retailer and coal dealer,commercial_directory
-1865,Jones Street,9,,Duckham,—,butcher,commercial_directory
+1865,Jones Street,9,,Duckham,,butcher,commercial_directory
 1865,Jones Street,11,,Watkins,Stephen,shopkeeper,commercial_directory
 1865,Jones Street,23,,Boutcher,Mrs.Susan,landress,commercial_directory
 1865,Jones Street,37,,Hoskins,Mr. George,agent,commercial_directory
@@ -777,7 +777,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,Morgan Street,9,,Hill,Jas.,"superintendent of the Western Valleys Railway Company. Office, Dock street station",commercial_directory
 1865,Mountjoy Place,1,,Kerr,Wm.,travelling draper,commercial_directory
 1865,Mountjoy Place,3,,Harrison,James (firm of J. Harrison and Co.),,commercial_directory
-1865,Mountjoy Place,4,,"travelling draper, 4 Mountjoy pl.",Kerr,—,commercial_directory
+1865,Mountjoy Place,4,,"travelling draper, 4 Mountjoy pl.",Kerr,,commercial_directory
 1865,Mountjoy Place,5,,Spillane,Mrs. Mary Ann,"lime burner, . Works at Liswerry",commercial_directory
 1865,Mountjoy Place,6,,Williams,,mastermariner,commercial_directory
 1865,Mountjoy Place,7,,Wadsworth,Rev. John (curate of St. Paul's),,commercial_directory

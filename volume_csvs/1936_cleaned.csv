@@ -1105,7 +1105,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Alma Street,101,,Wilkinson,Rbt.,cranedvr,vision_ocr
 1936,Alma Street,103,,Scannell,John J.,fitter,vision_ocr
 1936,Alma Street,105,,Gabb,Edwin,fitter,vision_ocr
-1936,Alma Street,107,,Gibbons,—,,vision_ocr
+1936,Alma Street,107,,Gibbons,,,vision_ocr
 1936,Alma Street,,,,,aerated water manufacturers,vision_ocr
 1936,Alma Street,109,,Vile,Mrs. Edith M.,,vision_ocr
 1936,Alma Street,111,,Dalton,Chas. E. J.,ship carpenter,vision_ocr
@@ -2100,7 +2100,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Bassalleg Road,,Denisfont,Jones,Augustus,,vision_ocr
 1936,Bassalleg Road,,Wildermouth,Howell,Iltyd,,vision_ocr
 1936,Bassalleg Road,,Cricklewood,Jenkins,A. S.,,vision_ocr
-1936,Bassalleg Road,,St. Denis,Smith,—,,vision_ocr
+1936,Bassalleg Road,,St. Denis,Smith,,,vision_ocr
 1936,Bassalleg Road,,The Bungalow,Meacock,Wilfred,,vision_ocr
 1936,Bassalleg Road,,Miskin,Lloyd,David,,vision_ocr
 1936,Bassalleg Road,,Whitehouse,Rowe,J.,,vision_ocr
@@ -2214,11 +2214,11 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Beaufort Road,16,,Preston,Allan G.,elec eng,vision_ocr
 1936,Beaufort Road,14,,Haggett,Miss Gladys M.,,vision_ocr
 1936,Beaufort Road,12,,Griffiths,Benj. M.,sch tchr,vision_ocr
-1936,Beaufort Road,10,,Codling,—,electrician,vision_ocr
+1936,Beaufort Road,10,,Codling,,electrician,vision_ocr
 1936,Beaufort Road,8,,Sach,Arthur V.,electrn,vision_ocr
 1936,Beaufort Road,6,,Johnson,Frdk.,,vision_ocr
 1936,Beaufort Road,4,,Gwyther,Melvyn,ins agnt,vision_ocr
-1936,Beaufort Road,2,,Howells,—,,vision_ocr
+1936,Beaufort Road,2,,Howells,,,vision_ocr
 1936,Bedford Road,1a,,Webb,Mrs. Violet B.,,vision_ocr
 1936,Bedford Road,1,,Barnfield,T.,contractor,vision_ocr
 1936,Bedford Road,3,Erminie,Pritchards,C. S.,,vision_ocr
@@ -2310,7 +2310,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Beechdale Road,24,The Croft,Richards,Godfrey,,vision_ocr
 1936,Beechdale Road,22,Sungari,Jones,Douglas,,vision_ocr
 1936,Beechdale Road,20,Blemton,Clough,Fredk.,,vision_ocr
-1936,Beechdale Road,18,,Davies,—,traveller,vision_ocr
+1936,Beechdale Road,18,,Davies,,traveller,vision_ocr
 1936,Beechdale Road,16,,Luen,Brindley,pier mstr,vision_ocr
 1936,Beechdale Road,14,,Higgins,Ernest,,vision_ocr
 1936,Beechdale Road,12,,Martin,Edgar,,vision_ocr
@@ -2543,10 +2543,10 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Bishop Street,18,,Mendleson,Lance,steelwkr,vision_ocr
 1936,Bishop Street,16,,Shutt,Arthur,steelwkr,vision_ocr
 1936,Bishop Street,14,,Butcher,Henry,docksman,vision_ocr
-1936,Bishop Street,12,,Watts,—,,vision_ocr
+1936,Bishop Street,12,,Watts,,,vision_ocr
 1936,Bishop Street,10,,Bennett,Edwin R.,mch,vision_ocr
 1936,Bishop Street,8,,Penn,Geo.,hairdresser,vision_ocr
-1936,Bishop Street,6,,Rogers,—,,vision_ocr
+1936,Bishop Street,6,,Rogers,,,vision_ocr
 1936,Bishop Street,4,,Pugh,Edwin,labourer,vision_ocr
 1936,Bishop Street,2,,Banwell,W. J.,furniture remover,vision_ocr
 1936,Blenheim Road,,,,,(RIGHT HAND SIDE),vision_ocr
@@ -2554,7 +2554,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Blenheim Road,4,,Powell,Carl,storekeeper,vision_ocr
 1936,Blenheim Road,6,,Talbot,Arthur J.,ins agnt,vision_ocr
 1936,Blenheim Road,8,,Wiltshire,Edwin P.,,vision_ocr
-1936,Blenheim Road,10,,Smith,—,,vision_ocr
+1936,Blenheim Road,10,,Smith,,,vision_ocr
 1936,Blenheim Road,12,,Forrest,Frank O.,,vision_ocr
 1936,Blenheim Road,14,,Downing,Fred,crane dvr,vision_ocr
 1936,Blenheim Road,16,,Brown,Wm. J.,draper,vision_ocr
@@ -2631,7 +2631,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Blewitt Street,41,,Baker,W. L.,grocer,vision_ocr
 1936,Blewitt Street,,,Beer,Thos. C.,tram drvr,vision_ocr
 1936,Blewitt Street,42,,Jones,Fred,gasworker,vision_ocr
-1936,Blewitt Street,43,,Jones,—,,vision_ocr
+1936,Blewitt Street,43,,Jones,,,vision_ocr
 1936,Blewitt Street,44,,Jones,Wm. Henry,fireman,vision_ocr
 1936,Blewitt Street,45,,Mary,Mrs,Oakley,vision_ocr
 1936,Blewitt Street,46,,Way,Thos. H.,carpenter,vision_ocr
@@ -3273,7 +3273,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Brynglas Road,31,Twyn-Cecil,Middleton,Jas.,clk,vision_ocr
 1936,Brynglas Road,29,Cartref,Jones,Thos.,G.W.R.,vision_ocr
 1936,Brynglas Road,27,,Owen,Walter B.,relv off,vision_ocr
-1936,Brynglas Road,25,,Taverner,—,,vision_ocr
+1936,Brynglas Road,25,,Taverner,,,vision_ocr
 1936,Brynglas Road,23,,Hall,Wm.,G.W.R.,vision_ocr
 1936,Brynglas Road,21,Kennington,Millin,A. C.,P.C.,vision_ocr
 1936,Brynglas Road,19,Mexboro,Pinchin,J.,shop manager,vision_ocr
@@ -3474,7 +3474,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Cae Brynton Road,2,Harbour View,Harris,Wm. D.,fruiterer,vision_ocr
 1936,Cae Brynton Road,3,Ataraxia,Brook,Mrs. Elizabeth,,vision_ocr
 1936,Cae Brynton Road,,Hyllrene,Rondel,Henry,hoistman,vision_ocr
-1936,Cae Brynton Road,,Brent-Tor,Price,—,G.W.R.,vision_ocr
+1936,Cae Brynton Road,,Brent-Tor,Price,,G.W.R.,vision_ocr
 1936,Cae Brynton Road,,Petti-Tor,Ray,James,labr,vision_ocr
 1936,Cae Brynton Road,,Lorna Doone,Haynes,Cyril,fitter,vision_ocr
 1936,Cae Brynton Road,,Glen Rosa,Morgan,Dd. J.,furnaceman,vision_ocr
@@ -3527,7 +3527,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Cae Brynton Road,18,Newnham,Hunt,S.,,vision_ocr
 1936,Cae Brynton Road,16,St. Quinton,Dyer,Wallis,G.W.R.,vision_ocr
 1936,Cae Brynton Road,14,,Hughes,H.,fireman,vision_ocr
-1936,Cae Brynton Road,12,,Harris,—,G.W.R.,vision_ocr
+1936,Cae Brynton Road,12,,Harris,,G.W.R.,vision_ocr
 1936,Cae Brynton Road,10,,Rowsell,Gordon,shop mgr,vision_ocr
 1936,Cae Brynton Road,8,,Garland,Mrs.,,vision_ocr
 1936,Cae Brynton Road,6,Gladwyn,Glynn,Fred. W.,,vision_ocr
@@ -3572,7 +3572,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Caerau Road,15,,Cope,John G.,lithographer,vision_ocr
 1936,Caerau Road,16,,Whitney,V. C.,roll turner,vision_ocr
 1936,Caerau Road,17,,Everson,Edmund C.,,vision_ocr
-1936,Caerau Road,18,,Stephens,—,,vision_ocr
+1936,Caerau Road,18,,Stephens,,,vision_ocr
 1936,Caerau Road,19,,Weights,Miss Elizabeth,,vision_ocr
 1936,Caerau Road,20,,Booth,Fredk. W.,G.W.R.,vision_ocr
 1936,Caerau Road,21,,Davies,John,cabinet mkr,vision_ocr
@@ -5361,7 +5361,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Chepstow Road,147,,Lewis,W. J.,caretaker,vision_ocr
 1936,Chepstow Road,147a-149,,Hughes,A. E. & Son,cycle & wireless dealers,vision_ocr
 1936,Chepstow Road,149a,Maindee Central Garage Knowlton Bros.,,,build's mchs proprietor,vision_ocr
-1936,Chepstow Road,,,Morris,---,proprietor,vision_ocr
+1936,Chepstow Road,,,Morris,,proprietor,vision_ocr
 1936,Chepstow Road,151,,Uzzell,John,fruiterer,vision_ocr
 1936,Chepstow Road,,,Fraser,D. D.,,vision_ocr
 1936,Chepstow Road,153,,Davies,T.,manager,vision_ocr
@@ -5512,7 +5512,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Chepstow Road,569,,Stiley,Alfred,,vision_ocr
 1936,Chepstow Road,571,,Blomley,Vivian,G.W.R.,vision_ocr
 1936,Chepstow Road,573,,Thornton,Lister,travlr,vision_ocr
-1936,Chepstow Road,575,Cartref Melus,West,—,,vision_ocr
+1936,Chepstow Road,575,Cartref Melus,West,,,vision_ocr
 1936,Chepstow Road,577,Revelstone,Amos,Mrs. E. L.,,vision_ocr
 1936,Chepstow Road,579,Cwm Regwlys,Laugharne,Wm. J.,,vision_ocr
 1936,Chepstow Road,581,Briardene,Probert,Wm. J.,,vision_ocr
@@ -7019,7 +7019,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Colston Avenue,3,,Oldland,Harry A.,ironwkr,vision_ocr
 1936,Colston Avenue,5,,,Void,,vision_ocr
 1936,Colston Avenue,7,,Phillips,Thos. G.,,vision_ocr
-1936,Colston Avenue,9,,Jordan,—,,vision_ocr
+1936,Colston Avenue,9,,Jordan,,,vision_ocr
 1936,Colston Avenue,11,,Cheadle,Thos.,ironwkr,vision_ocr
 1936,Colston Avenue,13,,Redmond,S. J.,steelwkr,vision_ocr
 1936,Colston Avenue,15,,Jones,Evan,labourer,vision_ocr
@@ -7855,7 +7855,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Conway Road,132,,Watkin,Evan R.,driver,vision_ocr
 1936,Conway Road,134,,Evans,Jos. J.,newsvndr,vision_ocr
 1936,Conway Road,136,,Perry,Albert,signalman,vision_ocr
-1936,Conway Road,138,,Newberry,—,labourer,vision_ocr
+1936,Conway Road,138,,Newberry,,labourer,vision_ocr
 1936,Conway Road,140,,Bowen,Harry,steelwkr,vision_ocr
 1936,Conway Road,142,,Young,Mrs. E.,,vision_ocr
 1936,Conway Road,144,,Weston,Samuel,annealer,vision_ocr
@@ -7876,7 +7876,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Conway Road,,,Punt,Samuel A.,,vision_ocr
 1936,Conway Road,172,,Hodder,Mrs. Rose,,vision_ocr
 1936,Conway Road,174,,Hicks,Robert,haulier,vision_ocr
-1936,Conway Road,176,,Edwards,—,,vision_ocr
+1936,Conway Road,176,,Edwards,,,vision_ocr
 1936,Conway Road,178,,Brimblecombe,C. C.,engr,vision_ocr
 1936,Conway Road,180,,Morgan,Mrs. Mary,,vision_ocr
 1936,Conway Road,182,,Wright,Wm. G.,stlwkr,vision_ocr
@@ -7912,7 +7912,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Conway Road,242,,Fitzgerald,Bernard,mach,vision_ocr
 1936,Conway Road,244,,Ralph,Thos.,steelwkr,vision_ocr
 1936,Conway Road,246,,Jensen,Trevor,G.W.R.,vision_ocr
-1936,Conway Road,248,,Moss,—,builders yd.,vision_ocr
+1936,Conway Road,248,,Moss,,builders yd.,vision_ocr
 1936,Conway Road,250,,Strickland,Wm.,agent,vision_ocr
 1936,Conway Road,252,,Lewis,Geo.,labourer,vision_ocr
 1936,Conway Road,254,,Ryder,Geo.,G.W.R.,vision_ocr
@@ -7971,7 +7971,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Conway Road,73,,Vickery,Edgar,grocer,vision_ocr
 1936,Conway Road,71,,Walters,John,,vision_ocr
 1936,Conway Road,69,,Shott,Llew.,steelworker,vision_ocr
-1936,Conway Road,67,,Dark,—,,vision_ocr
+1936,Conway Road,67,,Dark,,,vision_ocr
 1936,Conway Road,65,,Griffiths,Ivor,bus driver,vision_ocr
 1936,Conway Road,63,,Millar,Ken C.,G.W.R.,vision_ocr
 1936,Conway Road,61,,Jenkins,Lewis,tailor,vision_ocr
@@ -8246,7 +8246,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Corporation Road,91,Belle Vue,Griffiths,C. E.,,vision_ocr
 1936,Corporation Road,93,Woodbine,Morrish,Ivor,,vision_ocr
 1936,Corporation Road,95,,Richards,John,,vision_ocr
-1936,Corporation Road,97,,—,,Walters,vision_ocr
+1936,Corporation Road,97,,,,Walters,vision_ocr
 1936,Corporation Road,99,,Purnell,Mrs. Florence,,vision_ocr
 1936,Corporation Road,,,Vacant sites,,,vision_ocr
 1936,Corporation Road,123,,Herbert,E. J.,,vision_ocr
@@ -8461,10 +8461,10 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Corporation Road,264,,Carter,T. S.,grocer,vision_ocr
 1936,Corporation Road,264,,Williams,Harold,labr,vision_ocr
 1936,Corporation Road,262,,Hughes,& Sons,cycle agt Popham T. I. bakery,vision_ocr
-1936,Corporation Road,260,,Popham,T. I.,confctr Clarke —,vision_ocr
-1936,Corporation Road,258,,Webb,H. B.,butcher Rees —,vision_ocr
+1936,Corporation Road,260,,Popham,T. I.,confctr Clarke,vision_ocr
+1936,Corporation Road,258,,Webb,H. B.,butcher Rees,vision_ocr
 1936,Corporation Road,256,,,,,vision_ocr
-1936,Corporation Road,254,,,Higgs - Locke -,,vision_ocr
+1936,Corporation Road,254,,,Higgs - Locke,,vision_ocr
 1936,Corporation Road,252,,Nicholson,F. W.,cycle and wireless agent,vision_ocr
 1936,Corporation Road,250,,Burrows,Mrs. Annie,,vision_ocr
 1936,Corporation Road,248,,Griffin,Jas. H.,confectnr,vision_ocr
@@ -8500,7 +8500,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Corporation Road,192,,Shelley,Mrs. Clara,drug stores,vision_ocr
 1936,Corporation Road,192a,,Johnson,A. E.,ironworkr,vision_ocr
 1936,Corporation Road,190,,Reid,Mrs. E.,gen shop,vision_ocr
-1936,Corporation Road,188,,Johnson,J. S.,grocers Greenway —,vision_ocr
+1936,Corporation Road,188,,Johnson,J. S.,grocers Greenway,vision_ocr
 1936,Corporation Road,,,,here is Morris-street,,vision_ocr
 1936,Corporation Road,186,,Pope,Mrs. Elizabeth,,vision_ocr
 1936,Corporation Road,184,,Sayer,& Sayer,grocers Jukes Mrs.,vision_ocr
@@ -8665,7 +8665,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Courtybella Terrace,20,,Ogilvie,Morris F.,,vision_ocr
 1936,Courtybella Terrace,21,Cumberland Inn,Welsher,H. J.,,vision_ocr
 1936,Courtybella Terrace,22,,Pritchard,Thos. V.,slsman,vision_ocr
-1936,Courtybella Terrace,23,,Wilshire,—,ironworker,vision_ocr
+1936,Courtybella Terrace,23,,Wilshire,,ironworker,vision_ocr
 1936,Courtybella Terrace,24,,Evans,Mrs. M. A.,grocer,vision_ocr
 1936,Courtybella Terrace,,,,here is Baldwin-street,,vision_ocr
 1936,Courtybella Terrace,25,,Snatchel,Mrs.,,vision_ocr
@@ -8749,7 +8749,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Crawford Street,32,,Murphy,John,steelworker,vision_ocr
 1936,Crawford Street,34,,Lynch,Henry,labourer,vision_ocr
 1936,Crawford Street,36,,Pearce,John J.,G.W.R.,vision_ocr
-1936,Crawford Street,38,,Cummings,—,,vision_ocr
+1936,Crawford Street,38,,Cummings,,,vision_ocr
 1936,Crawford Street,40,,Reardon,Arthur,platelyr,vision_ocr
 1936,Crawford Street,42,,Short,Edgar,caretaker,vision_ocr
 1936,Crawford Street,44,Lyncroft,Martin,Geo.,tubeworker,vision_ocr
@@ -8782,7 +8782,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Crescent Road,,,Evans,Wm.,slinger,vision_ocr
 1936,Crescent Road,16,,Witton,Enoch,ironworker,vision_ocr
 1936,Crescent Road,17,,Sully,Chas. H.,guard,vision_ocr
-1936,Crescent Road,18,,Winfield,—,,vision_ocr
+1936,Crescent Road,18,,Winfield,,,vision_ocr
 1936,Crescent Road,19,,Cornwall,J.,,vision_ocr
 1936,Crescent Road,20,,Burns,Mrs. Annie,,vision_ocr
 1936,Crescent Road,21,,Jones,Alfred,ironworker,vision_ocr
@@ -8844,7 +8844,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Cromwell Road,,,,,Vacant site,vision_ocr
 1936,Cromwell Road,,METHODIST CHURCH,,,,vision_ocr
 1936,Cromwell Road,152,,Watts,R. J.,gen dealer,vision_ocr
-1936,Cromwell Road,152a,,Hodge,—,hairdresser,vision_ocr
+1936,Cromwell Road,152a,,Hodge,,hairdresser,vision_ocr
 1936,Cromwell Road,154,,,,,vision_ocr
 1936,Cromwell Road,156,,Castle,Edward,greengrcr,vision_ocr
 1936,Cromwell Road,158,,Sparkes,J. A.,builder,vision_ocr
@@ -8852,7 +8852,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Cromwell Road,166,,Osborne,M. S.,grocer,vision_ocr
 1936,Cromwell Road,168,,Otton,A.,boot repairer,vision_ocr
 1936,Cromwell Road,174,,Williams,Joseph D.,steel worker,vision_ocr
-1936,Cromwell Road,176,,Webb,—,,vision_ocr
+1936,Cromwell Road,176,,Webb,,,vision_ocr
 1936,Cromwell Road,178,,Kitson,Mrs. Flor.,shop,vision_ocr
 1936,Cromwell Road,180,,Thomas,H. & Sons,btchs,vision_ocr
 1936,Cromwell Road,182,,Roach,T. W.,grocer,vision_ocr
@@ -11740,7 +11740,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Gaer Park Avenue,98,,Palfrey,Lancelot,gasfitter,vision_ocr
 1936,Gaer Park Avenue,,,,Vacant site,,vision_ocr
 1936,Gaer Park Avenue,96,,Rosser,Charles,platelyr,vision_ocr
-1936,Gaer Park Avenue,94,,Freeman,Rev. —,,vision_ocr
+1936,Gaer Park Avenue,94,,Freeman,Rev.,,vision_ocr
 1936,Gaer Park Avenue,92,,Anderson,Alex,builder,vision_ocr
 1936,Gaer Park Avenue,90,,,Void,,vision_ocr
 1936,Gaer Park Avenue,88,,Salter,Albert,accountant,vision_ocr
@@ -11765,14 +11765,14 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Gaer Park Avenue,50,,Magrie,Miss M. A.,,vision_ocr
 1936,Gaer Park Avenue,48,,Guy,Henry C.,traveller,vision_ocr
 1936,Gaer Park Avenue,46,,Hughes,Mrs. A.,,vision_ocr
-1936,Gaer Park Avenue,44,,Heslop,—,traveller,vision_ocr
+1936,Gaer Park Avenue,44,,Heslop,,traveller,vision_ocr
 1936,Gaer Park Avenue,42,,Birch,James H.,,vision_ocr
 1936,Gaer Park Avenue,40,,Gardner,H. W.,G.W.R.,vision_ocr
 1936,Gaer Park Avenue,38,,Stephens,John,mechanic,vision_ocr
 1936,Gaer Park Avenue,36,,Megan,Robt.,clerk,vision_ocr
 1936,Gaer Park Avenue,34,,Johnson,Mrs. Susannah,,vision_ocr
 1936,Gaer Park Avenue,32,,Houghton,Mrs. Dora,,vision_ocr
-1936,Gaer Park Avenue,30,,Turney,—,steelworker,vision_ocr
+1936,Gaer Park Avenue,30,,Turney,,steelworker,vision_ocr
 1936,Gaer Park Avenue,28,,Waite,William,,vision_ocr
 1936,Gaer Park Avenue,26,,Overland,Harold,elec eng,vision_ocr
 1936,Gaer Park Avenue,24,,Vowles,Edw. G.,clerk,vision_ocr
@@ -11802,7 +11802,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Gaer Park Crescent,13,,Anthony,Mrs. Martha,,vision_ocr
 1936,Gaer Park Crescent,14,,Freestone,Norman E.,,vision_ocr
 1936,Gaer Park Crescent,15,,Crawley,Henry P.,,vision_ocr
-1936,Gaer Park Crescent,16,,Haggett,—,,vision_ocr
+1936,Gaer Park Crescent,16,,Haggett,,,vision_ocr
 1936,Gaer Park Crescent,17,,Ferguson,John,chief stwd,vision_ocr
 1936,Gaer Park Crescent,18,,Clarke,Geo.,civil servant,vision_ocr
 1936,Gaer Park Crescent,19,,Phillips,Mrs.,,vision_ocr
@@ -12947,7 +12947,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Graig Park Circle,1,,Henker,Alfred,steel erectr,vision_ocr
 1936,Graig Park Hill,1,,Hunt,A. Geo.,gas worker,vision_ocr
 1936,Graig Park Hill,3,,Powell,Wm. F.,G.W.R.,vision_ocr
-1936,Graig Park Hill,5,,Morgan,-,foreman,vision_ocr
+1936,Graig Park Hill,5,,Morgan,,foreman,vision_ocr
 1936,Graig Park Hill,7,,Clutton,Chas. R.,chauffr,vision_ocr
 1936,Graig Park Hill,9,,Kenny,James,engineer,vision_ocr
 1936,Graig Park Hill,11,,Emery,Geo. H.,coal tipper,vision_ocr
@@ -13003,7 +13003,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Graig Park Lane,22,,Holder,Reg.,lorry drvr,vision_ocr
 1936,Graig Park Lane,20,,,Void,,vision_ocr
 1936,Graig Park Lane,18,,Carter,E. J.,,vision_ocr
-1936,Graig Park Lane,16,,Priestley,-,,vision_ocr
+1936,Graig Park Lane,16,,Priestley,,,vision_ocr
 1936,Graig Park Lane,14,,Jenkins,A. T.,postman,vision_ocr
 1936,Graig Park Lane,12,,Rich,Arthur,postman,vision_ocr
 1936,Graig Park Lane,10,,Smith,Harold,ironworker,vision_ocr
@@ -13260,7 +13260,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Haisbro Avenue,,Ty-Gwyn,Morgan,Joseph,,vision_ocr
 1936,Haisbro Avenue,,,Edwards,Robert,agent,vision_ocr
 1936,Haisbro Avenue,,,Baker,Wm.,engine driver,vision_ocr
-1936,Haisbro Avenue,,St. Denys,Parsons,-,Mrs.,vision_ocr
+1936,Haisbro Avenue,,St. Denys,Parsons,,Mrs.,vision_ocr
 1936,Haisbro Avenue,,St. Helier,,,,vision_ocr
 1936,Haisbro Avenue,,Myrtle Grove,Gough,Herbert,,vision_ocr
 1936,Haisbro Avenue,,Riversdale,Davies,I.,,vision_ocr
@@ -15125,7 +15125,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Kingston Road,22,,Hawkins,David,G.W.R.,vision_ocr
 1936,Kirby Street,1,,Marshall,Thos.,tipper,vision_ocr
 1936,Kirby Street,,,Colwill,J. & Son,carpenters and builders,vision_ocr
-1936,Kirby Street,2,,,Hall —,,vision_ocr
+1936,Kirby Street,2,,,Hall,,vision_ocr
 1936,Kirby Street,,,,Lloyd Bros.,wire workers,vision_ocr
 1936,Kirby Street,,,Moore,Wm. & Sons,contrs,vision_ocr
 1936,Kirby Street,3,,Collins,Geo.,greengrocer,vision_ocr
@@ -15229,7 +15229,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Leicester Road,20,,Coldrick,Henry,ironwkr,vision_ocr
 1936,Leicester Road,18,,Morgan,Albert,butcher,vision_ocr
 1936,Leicester Road,16,,White,Edwd. C.,baker,vision_ocr
-1936,Leicester Road,14,,Gilson,—,,vision_ocr
+1936,Leicester Road,14,,Gilson,,,vision_ocr
 1936,Leicester Road,12,,Rogers,Ivor T.,plasterer,vision_ocr
 1936,Leicester Road,,,Gower,Mrs. M.,,vision_ocr
 1936,Leicester Road,10,The Manse,Leitch,Rev. Alexander,,vision_ocr
@@ -15369,7 +15369,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Lewis Street,84,,O'Neil,Percy,ironworker,vision_ocr
 1936,Lewis Street,85,,Durrant,Robert,guard,vision_ocr
 1936,Lewis Street,86,,Coster,Edgar C.,G.W.R.,vision_ocr
-1936,Lewis Street,87,,Linburgh,—,,vision_ocr
+1936,Lewis Street,87,,Linburgh,,,vision_ocr
 1936,Lewis Street,88,,Graddon,John,shop,vision_ocr
 1936,Lewis Street,89,,Graddon,Albert,steelwkr,vision_ocr
 1936,Lewis Street,90,,Fitzpatrick,Ed. J.,stlwkr,vision_ocr
@@ -15650,7 +15650,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Lime Street,30,,Monk,Wm.,labourer,vision_ocr
 1936,Lime Street,28,,Harvey,W. L.,grocer,vision_ocr
 1936,Lime Street,26,,Orchard,Wm.,G.W.R.,vision_ocr
-1936,Lime Street,,,Westacott,—,,vision_ocr
+1936,Lime Street,,,Westacott,,,vision_ocr
 1936,Lime Street,24,,Pullin,Albert,crane driver,vision_ocr
 1936,Lime Street,22,,O'Connell,W.,,vision_ocr
 1936,Lime Street,20,,Francis,Arthur,sawyer,vision_ocr
@@ -16169,7 +16169,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Lliswerry Road,,Cartref,Lewis,David T.,machinist,vision_ocr
 1936,Lliswerry Road,,Iris Bungalow,Fletcher,Samuel,ironwkr,vision_ocr
 1936,Lliswerry Road,,The Olives,Bennett,Wm.,chem. worker,vision_ocr
-1936,Lliswerry Road,,Turf Moor,Taylor,—,,vision_ocr
+1936,Lliswerry Road,,Turf Moor,Taylor,,,vision_ocr
 1936,Lliswerry Road,,Kia Ora,Robbins,Chas. H.,ship paintr,vision_ocr
 1936,Lliswerry Road,,Colwyn,Thomas,Stanley L.,quarryman,vision_ocr
 1936,Lliswerry Road,,,,,"here is Greenmeadow-road, Avenue and Close",vision_ocr
@@ -16701,7 +16701,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Maesglas Crescent,131,,Atwell,Elisha,coal trmr,vision_ocr
 1936,Maesglas Crescent,133,,Collins,Wilson,fitter,vision_ocr
 1936,Maesglas Crescent,135,,Alpin,T. G.,rigger,vision_ocr
-1936,Maesglas Crescent,137,,Gould,—,,vision_ocr
+1936,Maesglas Crescent,137,,Gould,,,vision_ocr
 1936,Maesglas Crescent,139,,Williams,Wm. E.,labr,vision_ocr
 1936,Maesglas Crescent,141,,Jacobsen,Chas.,labourer,vision_ocr
 1936,Maesglas Crescent,143,,Kelley,Horace,G.W.R.,vision_ocr
@@ -16728,7 +16728,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Maesglas Crescent,185,,Pearce,Francis,labourer,vision_ocr
 1936,Maesglas Crescent,187,,McSheedy,Mrs. Emily,,vision_ocr
 1936,Maesglas Crescent,189,,Summers,Mrs. Elizabeth,,vision_ocr
-1936,Maesglas Crescent,191,,Chard,—,,vision_ocr
+1936,Maesglas Crescent,191,,Chard,,,vision_ocr
 1936,Maesglas Crescent,193,,Westacott,H. J.,labr,vision_ocr
 1936,Maesglas Crescent,195,,Evans,Arthur,labourer,vision_ocr
 1936,Maesglas Crescent,197,,Johnson,Mrs. Elizabeth,,vision_ocr
@@ -16831,7 +16831,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Maesglas Crescent,32,,Powis,Fredk.,gardener,vision_ocr
 1936,Maesglas Crescent,30,,Swanson,Edwd.,painter,vision_ocr
 1936,Maesglas Crescent,28,,Tyler,Mrs. Elsie,,vision_ocr
-1936,Maesglas Crescent,26,,Thomas,—,G.W.R.,vision_ocr
+1936,Maesglas Crescent,26,,Thomas,,G.W.R.,vision_ocr
 1936,Maesglas Crescent,24,,Avery,Fredk.,chauffeur,vision_ocr
 1936,Maesglas Crescent,22,,Danaher,Jas.,docker,vision_ocr
 1936,Maesglas Crescent,20,,Davison,Fredk. T.,G.W.R.,vision_ocr
@@ -17108,7 +17108,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Maindee Parade,23,,Young,James,G.W.R.,vision_ocr
 1936,Maindee Parade,24,,Gale,Mrs. Winifred M.,,vision_ocr
 1936,Maindee Parade,25,,Thorogood,Arth. R.,trvlr,vision_ocr
-1936,Maindee Parade,26,,Prowse,—,,vision_ocr
+1936,Maindee Parade,26,,Prowse,,,vision_ocr
 1936,Maindee Parade,27,,Fell,Albert,seaman,vision_ocr
 1936,Maindee Parade,28,,James,Mrs. Margaret,,vision_ocr
 1936,Maindee Parade,29,,,,Void,vision_ocr
@@ -17240,7 +17240,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Kimberley Terrace,24,,Andrews,John W.,labr,vision_ocr
 1936,Kimberley Terrace,25,,Page,Mrs. C.,,vision_ocr
 1936,Kimberley Terrace,26,,Moulder,George,plasterer,vision_ocr
-1936,Kimberley Terrace,27,,Batty,Mrs. —,,vision_ocr
+1936,Kimberley Terrace,27,,Batty,Mrs.,,vision_ocr
 1936,Malpas Road,,,Boyles,F. H.,Ltd.,vision_ocr
 1936,Malpas Road,,,,Malpas Road Recreation Ground,,vision_ocr
 1936,Malpas Road,,,,(return),,vision_ocr
@@ -17466,7 +17466,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Mount Pleasant,,,Fred. Wm.,Pendeen,Holyoake,vision_ocr
 1936,Malpas (main) Rd,,,Haggett,Frank,,vision_ocr
 1936,Malpas (main) Rd,,,Curly,Oliver,,vision_ocr
-1936,Malpas (main) Rd,,,Turnbull,—,,vision_ocr
+1936,Malpas (main) Rd,,,Turnbull,,,vision_ocr
 1936,Malpas (main) Rd,,,Blackwell,Mrs. Jane,,vision_ocr
 1936,Malpas (main) Rd,,,Belcher,Miss C. J.,,vision_ocr
 1936,Malpas (main) Rd,,,Shaw,Clifford,traveller,vision_ocr
@@ -17500,14 +17500,14 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Graig Park Crescent,26,,Poole,George,butcher,vision_ocr
 1936,Graig Park Crescent,25,,Williams,J. H.,grocer,vision_ocr
 1936,Graig Park Crescent,24,,Snell,G. A.,civil servant,vision_ocr
-1936,Graig Park Crescent,23,,Parsons,—,,vision_ocr
+1936,Graig Park Crescent,23,,Parsons,,,vision_ocr
 1936,Graig Park Crescent,22,,Mogridge,R. G.,clerk,vision_ocr
 1936,Graig Park Crescent,21,,Bowcott,Rupert M.,engnr,vision_ocr
 1936,Graig Park Crescent,20,,Millar,E. G.,elect. welder,vision_ocr
 1936,Graig Park Crescent,19,,Brown,W. J.,grocr's asst,vision_ocr
 1936,Graig Park Crescent,18,,Griffiths,Wm.,G.W.R.,vision_ocr
 1936,Graig Park Crescent,17,,Collins,R. C.,insur agent,vision_ocr
-1936,Graig Park Crescent,16,,Smith,—,,vision_ocr
+1936,Graig Park Crescent,16,,Smith,,,vision_ocr
 1936,Graig Park Crescent,,,here is Telephone Kiosk,,,vision_ocr
 1936,Graig Park Crescent,,,here is Graig Park road,,,vision_ocr
 1936,Graig Park Crescent,15,,Mullins,Godfrey,motor coach builder,vision_ocr
@@ -17523,7 +17523,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Graig Park Crescent,5,,Notts,Mrs. Ida Ann,,vision_ocr
 1936,Graig Park Crescent,4,,Collard,Mrs. M.,,vision_ocr
 1936,Graig Park Crescent,3,,Avery,Fred.,,vision_ocr
-1936,Graig Park Crescent,2,,West,—,,vision_ocr
+1936,Graig Park Crescent,2,,West,,,vision_ocr
 1936,Graig Park Crescent,1,,Shute,Miss E. M.,,vision_ocr
 1936,Graig Park Crescent,,,White,Patrick,draper,vision_ocr
 1936,Graig Park Crescent,,,Baker,Leonard,chauffeur,vision_ocr
@@ -17999,7 +17999,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Marsh Road,44a,,Evans,John,joiner,vision_ocr
 1936,Marsh Road,44,,Nicholas,David John,,vision_ocr
 1936,Marsh Road,42,,Jenkins,W. H.,,vision_ocr
-1936,Marsh Road,40,,Nixon,—,outfitter,vision_ocr
+1936,Marsh Road,40,,Nixon,,outfitter,vision_ocr
 1936,Marsh Road,38,,Ryan,George H.,clerk,vision_ocr
 1936,Marsh Road,36,Ferndale,Abbott,Mrs. A.,,vision_ocr
 1936,Marsh Road,34,Germistan,Hocking,Mrs. Nellie,,vision_ocr
@@ -18042,7 +18042,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Marshfield Street,31,,Stephens,Elwyn,labourer,vision_ocr
 1936,Marshfield Street,33,,Taylor,Harry,plasterer,vision_ocr
 1936,Marshfield Street,35,,Stokes,Stephen,iron sorter,vision_ocr
-1936,Marshfield Street,37,,Littlejohn,—,steelworker,vision_ocr
+1936,Marshfield Street,37,,Littlejohn,,steelworker,vision_ocr
 1936,Marshfield Street,39,,Watkins,Stanley,driver,vision_ocr
 1936,Marshfield Street,41,,Rogers,Harry,welder,vision_ocr
 1936,Marshfield Street,43,,Studley,Edward,labourer,vision_ocr
@@ -18137,7 +18137,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Melfort Road,,,Gulley,Donald,traveller,vision_ocr
 1936,Melfort Road,,The Gnoll,Salter,Albert,accountant,vision_ocr
 1936,Melfort Road,,Amberley,Wilks,Leonard,traveller,vision_ocr
-1936,Melfort Road,,Fields View,Stone,-,,vision_ocr
+1936,Melfort Road,,Fields View,Stone,,,vision_ocr
 1936,Melfort Road,,Hillcrest,Hanbury,Jno. Ed.,,vision_ocr
 1936,Melfort Road,,Modene,,Thomas D.,,vision_ocr
 1936,Melfort Road,,,Tyrrell,Jno. R.,lab. asstnt,vision_ocr
@@ -18658,7 +18658,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Morden Road,51,,Parfitt,Fredk.,traveller,vision_ocr
 1936,Morden Road,52,,Thomas,Mrs. Lilian,,vision_ocr
 1936,Morden Road,,,Pritchard,Mrs.,,vision_ocr
-1936,Morden Road,,,Lewis,-,,vision_ocr
+1936,Morden Road,,,Lewis,,,vision_ocr
 1936,Morden Road,53,,Bater,Mrs. Edith L.,,vision_ocr
 1936,Morden Road,54,,Nicholas,Fredk. C.,,vision_ocr
 1936,Morden Road,,,here is Ronald-road,,,vision_ocr
@@ -18698,7 +18698,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Moreland Avenue,8,,Priestnall,Clarence F.,stlkr,vision_ocr
 1936,Moreland Avenue,9,,Wood,Alf. P.,van driver,vision_ocr
 1936,Moreland Avenue,10,,Nicholls,John N.,ironwkr,vision_ocr
-1936,Moreland Avenue,11,,Norris,-,steelworker,vision_ocr
+1936,Moreland Avenue,11,,Norris,,steelworker,vision_ocr
 1936,Moreland Avenue,12,,Cann,Jehosophat,stlwkr,vision_ocr
 1936,Moreland Avenue,,,,Houses building,,vision_ocr
 1936,Moreland Avenue,,,Leighton,Horace,,vision_ocr
@@ -19067,7 +19067,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,North Street,32,,Evans,Victor,labourer,vision_ocr
 1936,North Street,33,,Wickham,Chas,,vision_ocr
 1936,North Street,34,,Loveridge,Walter W.,p.c.,vision_ocr
-1936,North Street,35,,Devonshire,—,labourer,vision_ocr
+1936,North Street,35,,Devonshire,,labourer,vision_ocr
 1936,North Street,36,,Tugby,John,sweep,vision_ocr
 1936,North Street,37,,Harmer,Mrs. Florence,,vision_ocr
 1936,North Street,38,,Knight,Mrs. Rhoda,,vision_ocr
@@ -19443,7 +19443,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Oxford Street,7,,Taylor,Ferdinand,win'dw cleaner,vision_ocr
 1936,Oxford Street,8,,Gear,James W.,labourer,vision_ocr
 1936,Oxford Street,9,,Wood,Sidney S.,electricn,vision_ocr
-1936,Oxford Street,10,,Thomas,—,,vision_ocr
+1936,Oxford Street,10,,Thomas,,,vision_ocr
 1936,Oxford Street,11,,Powles,Tom H.,carpenter,vision_ocr
 1936,Oxford Street,12,,Hackwood,Herbert,,vision_ocr
 1936,Oxford Street,13,,Overton,Joseph H.,G.W.R.,vision_ocr
@@ -19464,7 +19464,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Oxford Street,28,,Stratford,Bert,G.W.R.,vision_ocr
 1936,Oxford Street,29,,Harris,Frank,carpenter,vision_ocr
 1936,Oxford Street,30,,Pritchard,Timothy,labr,vision_ocr
-1936,Palm Square,1,,Evans,—,,vision_ocr
+1936,Palm Square,1,,Evans,,,vision_ocr
 1936,Palm Square,3,,Sully,Sidney,bus condctr,vision_ocr
 1936,Palm Square,5,,Gardner,Geo. T.,,vision_ocr
 1936,Palm Square,7,,Baker,Wm.,G.W.R.,vision_ocr
@@ -19781,7 +19781,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Penylan Road,33,Beechcroft,Watkins,Miss A. M.,tcher,vision_ocr
 1936,Penylan Road,35,Belmont,Fairclough,E.,,vision_ocr
 1936,Penylan Road,37,,Mathias,Jno. Cecil Lewis,bank cashier,vision_ocr
-1936,Penylan Road,39,,Elliott,—,mastr mariner,vision_ocr
+1936,Penylan Road,39,,Elliott,,mastr mariner,vision_ocr
 1936,Penylan Road,,,,here is Gibbs-road,,vision_ocr
 1936,Penylan Road,,,,(return),,vision_ocr
 1936,Penylan Road,,,,here is Beechwood-crescent,,vision_ocr
@@ -19840,7 +19840,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Pill Mawr Road,,The Firs,Laybourne,Miss P. H.,,vision_ocr
 1936,Pill Mawr Road,,Rose Cottage,Merrett,C. R.,,vision_ocr
 1936,Pill Mawr Road,,,,here is Brynglas Road,,vision_ocr
-1936,Pill Mawr Road,,Grove cottage,Hewins,—,,vision_ocr
+1936,Pill Mawr Road,,Grove cottage,Hewins,,,vision_ocr
 1936,Pill Mawr Road,2,Villas building,,,,vision_ocr
 1936,Pill Mawr Road,,Eastwood,Gibbons,Albert,insur agent,vision_ocr
 1936,Pill Mawr Road,,Westwood,Coggans,Harry,ship breaker,vision_ocr
@@ -21185,8 +21185,8 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Ridgeway Crescent,,Tanybryn,Arthur,T. L.,,vision_ocr
 1936,Ridgeway Crescent,17,,Lewis,Mrs. Lester,,vision_ocr
 1936,Ridgeway Crescent,19,,White Mrs.,Graham,,vision_ocr
-1936,Ridgeway Crescent,,Windrush,Gabriel,—,,vision_ocr
-1936,Ridgeway Crescent,,Lansdowne,Woods,—,,vision_ocr
+1936,Ridgeway Crescent,,Windrush,Gabriel,,,vision_ocr
+1936,Ridgeway Crescent,,Lansdowne,Woods,,,vision_ocr
 1936,Ridgeway Crescent,,Ramallo,Croome,Wm.,,vision_ocr
 1936,Ridgeway Crescent,,Treetops,Pritchard,R. W.,,vision_ocr
 1936,Ridgeway Crescent,,Woodbridge,Bartlett,R. V.,,vision_ocr
@@ -21926,7 +21926,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Ross Street,17,,Hughes,Mrs. Rose,,vision_ocr
 1936,Ross Street,15,,Williams,Robert,,vision_ocr
 1936,Ross Street,13,,Thomas,Thos. J.,ins agnt,vision_ocr
-1936,Ross Street,11,,Booth,Mrs. -,,vision_ocr
+1936,Ross Street,11,,Booth,Mrs.,,vision_ocr
 1936,Ross Street,9,,Griffiths,Herbt. J.,,vision_ocr
 1936,Ross Street,7,,James,T.,salesman,vision_ocr
 1936,Ross Street,5,,Needham,Edward,,vision_ocr
@@ -22244,7 +22244,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,St. Edward Street,59,,Deacon,Mrs. Elizabeth,,vision_ocr
 1936,St. Edward Street,,,O'Donovan,M.,ironwkr,vision_ocr
 1936,St. Edward Street,60,,Harris,Richard,ironwkr,vision_ocr
-1936,St. Edward Street,61,,Lockyer,—,,vision_ocr
+1936,St. Edward Street,61,,Lockyer,,,vision_ocr
 1936,St. Edward Street,62,,Kerr,Malcolm,moulder,vision_ocr
 1936,St. Edward Street,63,,Houlden,Hy. A.,shop,vision_ocr
 1936,St. John's Road,2,St. John's lodge,Welbirg,Percy,civil serv,vision_ocr
@@ -22344,7 +22344,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,St. Julian's Avenue,22,Oakdene,Jenkins,W.,,vision_ocr
 1936,St. Julian's Avenue,24,Kingsdown,Morgan,Wm. H.,grocer's manager,vision_ocr
 1936,St. Julian's Avenue,,Kingsdown,Pope,D. W.,compositor,vision_ocr
-1936,St. Julian's Avenue,26,St. Aubin,Gower,Mrs. —,,vision_ocr
+1936,St. Julian's Avenue,26,St. Aubin,Gower,Mrs.,,vision_ocr
 1936,St. Julian's Avenue,28,,Hoare,Geo. H.,journalist,vision_ocr
 1936,St. Julian's Avenue,30,,James,William W.,,vision_ocr
 1936,St. Julian's Avenue,32,Arnside,Hopkins,Rev. Morgan S.,,vision_ocr
@@ -23184,10 +23184,10 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Somerset Road,51,Angorfa,Seymour,Mrs. E.,,vision_ocr
 1936,Somerset Road,53,,Pritchard,Albert H.,furnaceman,vision_ocr
 1936,Somerset Road,55,Bryn-y-mor,Beese,John E.,account'nt,vision_ocr
-1936,Somerset Road,57,,Jones,Mrs. —,,vision_ocr
+1936,Somerset Road,57,,Jones,Mrs.,,vision_ocr
 1936,Somerset Road,59,,Dunster,Reg. S.,teacher,vision_ocr
 1936,Somerset Road,61,Victoria house,Love,Edward,,vision_ocr
-1936,Somerset Road,63,,Evatt,—,,vision_ocr
+1936,Somerset Road,63,,Evatt,,,vision_ocr
 1936,Somerset Road,65,Clevedon,Shaw,Wm. H.,,vision_ocr
 1936,Somerset Road,67,,Shorney,Frank,traveller,vision_ocr
 1936,Somerset Road,69,Bryn-hardd,Williams,Mrs. M.,,vision_ocr
@@ -23232,7 +23232,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Somerset Road,36,,Espeland,Andrew,,vision_ocr
 1936,Somerset Road,34,Ferryside,Williams,Miss Gladys L.,,vision_ocr
 1936,Somerset Road,32,,King,A. W.,,vision_ocr
-1936,Somerset Road,30,,Haynes,Mrs. —,,vision_ocr
+1936,Somerset Road,30,,Haynes,Mrs.,,vision_ocr
 1936,Somerset Road,28,,Hurn,Thos. C.,,vision_ocr
 1936,Somerset Road,26,Aber-gwaun,Rowland,Mrs. F.,,vision_ocr
 1936,Somerset Road,24,Bryngwyn,Rowland,G.,,vision_ocr
@@ -23240,11 +23240,11 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Somerset Road,20,The Grove,Miss,James,,vision_ocr
 1936,Somerset Road,18,Roma,Evans,David,,vision_ocr
 1936,Somerset Road,16,Devon,Loveday,John,,vision_ocr
-1936,Somerset Road,14,,Gibson,—,,vision_ocr
+1936,Somerset Road,14,,Gibson,,,vision_ocr
 1936,Somerset Road,12,Wellington,Harding,Isaac M.,,vision_ocr
 1936,Somerset Road,,,Harding,Reginald,tailor,vision_ocr
 1936,Somerset Road,10,,Taylor,Mrs. Elizabeth,,vision_ocr
-1936,Somerset Road,8,Glencorse,Grant,Miss —,,vision_ocr
+1936,Somerset Road,8,Glencorse,Grant,Miss,,vision_ocr
 1936,Somerset Road,6,,Llewellin,Robert O.,,vision_ocr
 1936,Somerset Road,4,Hollis House,Eddolls,Mrs. Jane,,vision_ocr
 1936,Somerset Road,2,,Jones,Mrs. Emily L.,,vision_ocr
@@ -23320,9 +23320,9 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Somerton Road,,,Beard,Bernard,shopkeeper,vision_ocr
 1936,Somerton Road,,,Hughes,E. A.,general stores,vision_ocr
 1936,Somerton Road,,The King,Hughes,Arthur,,vision_ocr
-1936,Somerton Road,,,Davies Mrs.,—,,vision_ocr
+1936,Somerton Road,,,Davies Mrs.,,,vision_ocr
 1936,Somerton Road,,,Johnson,William,ironworker,vision_ocr
-1936,Somerton Road,,,Hillman,—,,vision_ocr
+1936,Somerton Road,,,Hillman,,,vision_ocr
 1936,Somerton Road,,,Cook,Horace,motor driver,vision_ocr
 1936,Somerton Road,,,Skelding,Wm. D.,G.W.R.,vision_ocr
 1936,Somerton Road,,,Francis,Ronald,cleaner,vision_ocr
@@ -23602,7 +23602,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Stockton Road,38,,Williams,F. H. T.,,vision_ocr
 1936,Stockton Road,40,,Roberts,Albert Cuthbert,,vision_ocr
 1936,Stockton Road,42,,Gregory,Edwin,,vision_ocr
-1936,Stockton Road,44,,—,,Williams,vision_ocr
+1936,Stockton Road,44,,,,Williams,vision_ocr
 1936,Stockton Road,46,,Harding,Wm.,,vision_ocr
 1936,Stockton Road,48,,Beeton,Wm.,,vision_ocr
 1936,Stockton Road,50,,Brynmor I.,,Jones,vision_ocr
@@ -23615,13 +23615,13 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Stockton Road,62,,Bullock,Mrs. J.,,vision_ocr
 1936,Stockton Road,64,,Jefferies,Wm.,,vision_ocr
 1936,Stockton Road,66,,Whitehead,Mrs. Mary,,vision_ocr
-1936,Stockton Road,68,,—,,Carter,vision_ocr
+1936,Stockton Road,68,,,,Carter,vision_ocr
 1936,Stockton Road,70,,Macreadie,W.,,vision_ocr
 1936,Stockton Road,72,,Geo. S.,,Bubb,vision_ocr
 1936,Stockton Road,74,,Dew,William,,vision_ocr
 1936,Stockton Road,76,,Lock,Henry,,vision_ocr
 1936,Stockton Road,78,,Fredk. J.,,Cook,vision_ocr
-1936,Stockton Road,80,,Ingram,Mrs. —,,vision_ocr
+1936,Stockton Road,80,,Ingram,Mrs.,,vision_ocr
 1936,Stockton Road,82,,Price,R.,,vision_ocr
 1936,Stockton Road,84,,Fradd,R. J.,,vision_ocr
 1936,Stockton Road,86,,Short,Horace,,vision_ocr
@@ -23636,7 +23636,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Stockton Road,104,,Clements,G.,,vision_ocr
 1936,Stockton Road,106,,George,Alfred,Munday,vision_ocr
 1936,Stockton Road,108,,Hoare,J. J.,,vision_ocr
-1936,Stockton Road,110,,—,,Price,vision_ocr
+1936,Stockton Road,110,,,,Price,vision_ocr
 1936,Stockton Road,103,,Bulley,Alfred W.,,vision_ocr
 1936,Stockton Road,105,,Lacey,A.,,vision_ocr
 1936,Stockton Road,107,,Jones,Ivor,,vision_ocr
@@ -23887,7 +23887,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Stow Hill,119-121,Dewsland dairy,South Wales & Mon Dairy,,,vision_ocr
 1936,Stow Hill,119-121,,Jenkins,L. G.,,vision_ocr
 1936,Stow Hill,117,,Bere,W.,,vision_ocr
-1936,Stow Hill,117,,Wade,Miss —,,vision_ocr
+1936,Stow Hill,117,,Wade,Miss,,vision_ocr
 1936,Stow Hill,115,,& Sons,,Phillips,vision_ocr
 1936,Stow Hill,,Stow Park Post Office,A. & I.,,Phillips,vision_ocr
 1936,Stow Hill,113,,& Co.,,Thomas H.,vision_ocr
@@ -23898,8 +23898,8 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Stow Hill,111,,Telephone Kiosk,,,vision_ocr
 1936,Stow Hill,109,Six Bells,J. B.,,Sergeant,vision_ocr
 1936,Stow Hill,,,here is Severn-terrace,,,vision_ocr
-1936,Stow Hill,107,FLATS,Hill,Mrs. —,,vision_ocr
-1936,Stow Hill,107,FLATS,Sullivan,Mrs. —,,vision_ocr
+1936,Stow Hill,107,FLATS,Hill,Mrs.,,vision_ocr
+1936,Stow Hill,107,FLATS,Sullivan,Mrs.,,vision_ocr
 1936,Stow Hill,107,FLATS,Robathan,George,,vision_ocr
 1936,Stow Hill,107,FLATS,Norman,,Tunnaly,vision_ocr
 1936,Stow Hill,105,The Deanery,The Very Rev. J.L.,,Phillips,vision_ocr
@@ -23926,7 +23926,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Stow Hill,67,Casual WARD,Davies,W. H.,,vision_ocr
 1936,Stow Hill,65,,Evans,Ernest,,vision_ocr
 1936,Stow Hill,63,Dancing Academy,Madame,,Huxtable's,vision_ocr
-1936,Stow Hill,61,,—,,Whiting,vision_ocr
+1936,Stow Hill,61,,,,Whiting,vision_ocr
 1936,Stow Hill,59,,Albt. E,,Powell,vision_ocr
 1936,Stow Hill,57,,Ferris,Dennis,,vision_ocr
 1936,Stow Hill,55,,Hawkes,Henry M.,,vision_ocr
@@ -23974,7 +23974,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Stow Park Avenue,5,Brynglas,Parry,Arthur C.,,vision_ocr
 1936,Stow Park Avenue,6,Hazelwood house,Jones,T. Baker,,vision_ocr
 1936,Stow Park Avenue,7,Stow Park House,Mann,R. T.,,vision_ocr
-1936,Stow Park Avenue,8,Chesterholme,Coulman,-,Mrs.,vision_ocr
+1936,Stow Park Avenue,8,Chesterholme,Coulman,,Mrs.,vision_ocr
 1936,Stow Park Avenue,9,Brenden view,Ingram,P. C. P.,Dr.,vision_ocr
 1936,Stow Park Avenue,10,Alona,Moore,A. Nichols,electrical engineer,vision_ocr
 1936,Stow Park Avenue,11,Woolmer,LeBrasseur,Hy.,,vision_ocr
@@ -23986,8 +23986,8 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Stow Park Avenue,13,Revelstoke,Polden,Sarah,Mrs.,vision_ocr
 1936,Stow Park Avenue,13,Revelstoke,Davies,Sidney H.,,vision_ocr
 1936,Stow Park Avenue,14,,Stevens,Ellen,Mrs.,vision_ocr
-1936,Stow Park Avenue,14,,Bryant,-,Mrs.,vision_ocr
-1936,Stow Park Avenue,14,,Burley,-,Mrs.,vision_ocr
+1936,Stow Park Avenue,14,,Bryant,,Mrs.,vision_ocr
+1936,Stow Park Avenue,14,,Burley,,Mrs.,vision_ocr
 1936,Stow Park Avenue,15,,Watkins,David,Rev.,vision_ocr
 1936,Stow Park Avenue,16,,Holtham,W. G.,,vision_ocr
 1936,Stow Park Avenue,17,,Fontaine,Sarah A.,Mrs.,vision_ocr
@@ -24004,7 +24004,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Stow Park Avenue,28,Torbay house-void,,,,vision_ocr
 1936,Stow Park Avenue,29,St. Davids,Forsyth,Charles,Dr. M.B. M.R.C.P. (Lond.) D.P.H.,vision_ocr
 1936,Stow Park Avenue,30,Brightholm,Swallow,John H.,,vision_ocr
-1936,Stow Park Avenue,31,Norwood,Handford,-,Mrs.,vision_ocr
+1936,Stow Park Avenue,31,Norwood,Handford,,Mrs.,vision_ocr
 1936,Stow Park Avenue,32,Napoli,Phillips,Harold D.,,vision_ocr
 1936,Stow Park Avenue,33,,Giles,C.,,vision_ocr
 1936,Stow Park Avenue,34,,Murphy,Miss Onah,,vision_ocr
@@ -24021,7 +24021,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Stow Park Circle,3,The Woodlands,Martyn,C. G.,,vision_ocr
 1936,Stow Park Circle,5,Lynwood,Jupp,J. F.,civil engineer,vision_ocr
 1936,Stow Park Circle,7,Rosetta,Evans,Osborne,,vision_ocr
-1936,Stow Park Circle,9,Brynholme,Orders,-,Mrs.,vision_ocr
+1936,Stow Park Circle,9,Brynholme,Orders,,Mrs.,vision_ocr
 1936,Stow Park Circle,11,Jesmond-void,,,,vision_ocr
 1936,Stow Park Circle,13,Stoughton,Davies,A. J.,,vision_ocr
 1936,Stow Park Circle,15,Elmscott,Moore,W. Lyndon,D.L.,vision_ocr
@@ -24274,7 +24274,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Sycamore Avenue,55,,Rogers,R. E.,warehseman,vision_ocr
 1936,Sycamore Avenue,57,,North,Geo. W.,electrician,vision_ocr
 1936,Sycamore Avenue,59,,Greenwell,W.,patternmkr,vision_ocr
-1936,Sycamore Avenue,61,,Jones,Mrs. —,,vision_ocr
+1936,Sycamore Avenue,61,,Jones,Mrs.,,vision_ocr
 1936,Sycamore Avenue,63,,Lock,Albert E.,bus dvr,vision_ocr
 1936,Sycamore Avenue,65,,Tilsley,Samuel,ironwkr,vision_ocr
 1936,Sycamore Avenue,67,,Williams,Eb. T.,painter,vision_ocr
@@ -24306,7 +24306,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Sycamore Avenue,60,,Donovan,Edwd. J.,G.W.R.,vision_ocr
 1936,Sycamore Avenue,58,,Hughes,Mrs. Mary,,vision_ocr
 1936,Sycamore Avenue,56,,Larner,Percy,G.W.R.,vision_ocr
-1936,Sycamore Avenue,54,,Owen,—,,vision_ocr
+1936,Sycamore Avenue,54,,Owen,,,vision_ocr
 1936,Sycamore Avenue,52,,Hughes,Albert H.,G.W.R.,vision_ocr
 1936,Sycamore Avenue,50,,Schultz,Fredk.,G.W.R.,vision_ocr
 1936,Sycamore Avenue,48,,Williams,Leslie,,vision_ocr
@@ -24364,7 +24364,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Temple Street,16,,Hyden,John,tugboatman,vision_ocr
 1936,Temple Street,17,,Scaplehorn,A.,coal trmr,vision_ocr
 1936,Temple Street,18,,Thompson,Augustus,trmr,vision_ocr
-1936,Temple Street,19,,Slocombe,Mrs. —,,vision_ocr
+1936,Temple Street,19,,Slocombe,Mrs.,,vision_ocr
 1936,Temple Street,20,,Hurley,John,boilermaker,vision_ocr
 1936,Temple Street,21,,Thomas,William,,vision_ocr
 1936,Temple Street,22,,Hurley,Mrs. Eliza,,vision_ocr
@@ -24719,12 +24719,12 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Usk Street,11,,Gale,Horace,,vision_ocr
 1936,Usk Street,12,,Jones,J. W.,,vision_ocr
 1936,Usk Street,13,,Mogford,Ivor,,vision_ocr
-1936,Usk Street,14,,—,,Gear,vision_ocr
+1936,Usk Street,14,,,,Gear,vision_ocr
 1936,Usk Street,15,,Manship,F.,,vision_ocr
 1936,Usk Street,16,,Parham,G.,,vision_ocr
 1936,Usk Street,17,,Francis J.,,Perrett,vision_ocr
 1936,Usk Street,18,,Newman,Henry J.,,vision_ocr
-1936,Usk Street,19,,—,,Walkley,vision_ocr
+1936,Usk Street,19,,,,Walkley,vision_ocr
 1936,Usk Street,,,,,(return),vision_ocr
 1936,Usk Street,20,,Jones,Trevor,,vision_ocr
 1936,Usk Street,21,,Nethercott,Alfred,,vision_ocr
@@ -24753,7 +24753,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Vicarage Hill,9,,Stokes,W. W.,,vision_ocr
 1936,Vicarage Hill,11,,Geo.,Beverley,Hughes,vision_ocr
 1936,Vicarage Hill,13,,Chas.,Charlena,Williams,vision_ocr
-1936,Vicarage Hill,15,,—,,King,vision_ocr
+1936,Vicarage Hill,15,,,,King,vision_ocr
 1936,Vicarage Hill,17,,J. H.,Wyecroft,Adams,vision_ocr
 1936,Vicarage Hill,19,,E. W.,Holmlea,Harding,vision_ocr
 1936,Victoria Avenue,,,,,(LEFT HAND SIDE.),vision_ocr
@@ -24960,7 +24960,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Victoria Place,14,,Robins,Mrs. A. M.,,vision_ocr
 1936,Victoria Place,7,,Huxtable,Fred,,vision_ocr
 1936,Victoria Place,,,Madame Flora,,Huxtable,vision_ocr
-1936,Victoria Place,8,,—,,James,vision_ocr
+1936,Victoria Place,8,,,,James,vision_ocr
 1936,Victoria Place,,,Mathissen,Henrick,,vision_ocr
 1936,Victoria Place,,,Stackhouse,James,,vision_ocr
 1936,Victoria Place,9,,Miss G. H.,Hillstowe house,Roberts,vision_ocr
@@ -26200,7 +26200,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,Woodland Road,46,,Bertera,Geronzio,,vision_ocr
 1936,Woodland Road,47,,Lightwood,H.,clerk,vision_ocr
 1936,Woodland Road,48,,Argent,Arthur,ins agent,vision_ocr
-1936,Woodland Road,49,,Saunsers,—,,vision_ocr
+1936,Woodland Road,49,,Saunsers,,,vision_ocr
 1936,Woodland Road,50,,Reade,Harold W.,caretkr,vision_ocr
 1936,Woodland Road,51,,Poynton,Edward,,vision_ocr
 1936,Woodland Road,52,,Poynton,W. H.,pat'n mkr,vision_ocr
@@ -26329,7 +26329,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,York Place,39,,Kew,Dan Thomas,,vision_ocr
 1936,York Place,41,,Smith,Harold E.,shop ast,vision_ocr
 1936,York Place,43,,Davies,Misses O. & C.,,vision_ocr
-1936,York Place,45,,Jones,—,,vision_ocr
+1936,York Place,45,,Jones,,,vision_ocr
 1936,York Place,47,,Rogers,A. E.,shop asstnt,vision_ocr
 1936,York Place,49,,Watts,Fredk. Wm.,,vision_ocr
 1936,York Place,51,,Stevens,Campbell,blacksmith,vision_ocr
@@ -26372,7 +26372,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1936,York Place,14,,,,,vision_ocr
 1936,York Place,12,,Jeffery,Mrs. Emily,,vision_ocr
 1936,York Place,10,,Hall,Robert George,,vision_ocr
-1936,York Place,8,,Evans,—,,vision_ocr
+1936,York Place,8,,Evans,,,vision_ocr
 1936,York Place,6,Mount Ida,Brookes,R. C.,,vision_ocr
 1936,York Place,4,Clyde house,Powell,P. R.,decorator,vision_ocr
 1936,York Place,2,,Williams,E. B.,,vision_ocr
