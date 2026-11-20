@@ -1,0 +1,151 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,CAE BRYNTON ROAD,,,,,,E 7; Off Gaer-road
+cross_street,CAE BRYNTON ROAD,,,,,,(LEFT HAND SIDE)
+resident,CAE BRYNTON ROAD,1,The Beeches,Edward,Bath,gardener,
+resident,CAE BRYNTON ROAD,2,Harbour View,Wm. D.,Harris,fruiterer,
+resident,CAE BRYNTON ROAD,3,Ataraxia,Mrs. Elizabeth,Brook,,
+resident,CAE BRYNTON ROAD,,Hyllrene,Henry,Rondel,hoistman,
+resident,CAE BRYNTON ROAD,,Brent-Tor,—,Price,G.W.R.,
+resident,CAE BRYNTON ROAD,,Petti-Tor,James,Ray,labr
+resident,CAE BRYNTON ROAD,,Lorna Doone,Cyril,Haynes,fitter,
+resident,CAE BRYNTON ROAD,,Glen Rosa,Dd. J.,Morgan,furnaceman,
+resident,CAE BRYNTON ROAD,,High Field,Wm.,Jackson,fitter
+resident,CAE BRYNTON ROAD,,Roclin Court,A.,Harries,paintr
+resident,CAE BRYNTON ROAD,,Y-nith,Reg.,Ray,clerk
+resident,CAE BRYNTON ROAD,,Lassington,Wm.,Evenson,engine dvr
+resident,CAE BRYNTON ROAD,,Rossbank,John,Bickerstaffe,stevedore
+resident,CAE BRYNTON ROAD,,Rougemont,L.,Rowden,G.W.R.
+resident,CAE BRYNTON ROAD,,Verdula,Ed.,Hurd,upholst
+resident,CAE BRYNTON ROAD,,Glanceri,John,Francis,trav
+resident,CAE BRYNTON ROAD,,Hillside,Thomas,Jones,,
+resident,CAE BRYNTON ROAD,,Ailsa Craig,George,Lloyd,shipwright
+cross_street,CAE BRYNTON ROAD,,,,,,here is Cae Perllan-road
+cross_street,CAE BRYNTON ROAD,,,,,,here is Cardiff-road
+cross_street,CAE BRYNTON ROAD,,,,,,(return)
+resident,CAE BRYNTON ROAD,,Holmwood,Jas.,Williams,pass guard
+cross_street,CAE BRYNTON ROAD,,,,,,here is Lyndhurst-avenue
+resident,CAE BRYNTON ROAD,,Longdendale,J.,Bissex,baker
+resident,CAE BRYNTON ROAD,,Netley,Henry,Bright,,
+resident,CAE BRYNTON ROAD,,Kynance,R. H.,Jones,clerk
+resident,CAE BRYNTON ROAD,,Sunnyholme,E. C.,Rossiter,traveller
+resident,CAE BRYNTON ROAD,,Arlesford,Douglas F.,Morey,,
+resident,CAE BRYNTON ROAD,,Earlswood,Fredk. M.,Lewis,,
+resident,CAE BRYNTON ROAD,,Hatfield,Geo.,Cecil,G.W.R.
+resident,CAE BRYNTON ROAD,,Glen Avon,Wm. H.,Jones,decorator
+resident,CAE BRYNTON ROAD,,Fairmont,Thomas,Rowitt,,
+resident,CAE BRYNTON ROAD,,Grace Home,Mrs. M.,Grace,,
+resident,CAE BRYNTON ROAD,,Kenvere,K. J.,Brown,,
+resident,CAE BRYNTON ROAD,,Crantock,D.,Cancart,,
+resident,CAE BRYNTON ROAD,,Edenhome,Alf. E.,Jones,,
+resident,CAE BRYNTON ROAD,,Dunromin,M. H.,Griffiths,,
+resident,CAE BRYNTON ROAD,,Dorstone,Wm.,Saviour,,
+resident,CAE BRYNTON ROAD,,Semley,A. J.,Harris,,
+resident,CAE BRYNTON ROAD,,Ael-y-Bryn,R.,Brooks,,
+resident,CAE BRYNTON ROAD,,Viking,Wm.,Watkins,,
+resident,CAE BRYNTON ROAD,,,Wm. Thomas,Heath,,
+street,CAE PERLLAN ROAD,,,,,,E 7; From Cae Brynton-rd., Cardiff road
+cross_street,CAE PERLLAN ROAD,,,,,,(LEFT HAND SIDE)
+resident,CAE PERLLAN ROAD,,Inglecote,,,,Void
+resident,CAE BRYNTON ROAD,,Dulverton,Henry C.,Dyer,engine dvr.
+resident,CAE BRYNTON ROAD,,Hillcrest,I. Ll.,Morgan,steel roller
+resident,CAE BRYNTON ROAD,,Ruradean,Harry,Ray,G.W.R. shunter
+resident,CAE BRYNTON ROAD,,Restormel,E. L.,Bing,engine driver
+resident,CAE BRYNTON ROAD,,Azarael,Thos.,Hodges,dock foreman
+resident,CAE BRYNTON ROAD,,Irabel,Herbert,Sparkes,G.W.R.
+resident,CAE BRYNTON ROAD,,Ellenswood,Thos.,Davidson,,
+resident,CAE BRYNTON ROAD,,Heckmondwyke,W. H.,Price,,
+resident,CAE BRYNTON ROAD,,Greenfield,R.,Baker,,
+resident,CAE BRYNTON ROAD,,Villas Building,,,,Vacant site
+cross_street,CAE BRYNTON ROAD,,,,,,(return)
+resident,CAE BRYNTON ROAD,28,,Sidney,Absolom,mechanic,
+resident,CAE BRYNTON ROAD,26,,Percy R.,Collins,G.W.R.,
+resident,CAE BRYNTON ROAD,24,Tolvadden,Percy J.,Stickler,G.W.R.,
+resident,CAE BRYNTON ROAD,22,,J.,Watkins,,
+resident,CAE BRYNTON ROAD,20,,W.,Short,,
+resident,CAE BRYNTON ROAD,18,Newnham,S.,Hunt,,
+resident,CAE BRYNTON ROAD,16,St. Quinton,Wallis,Dyer,G.W.R.,
+resident,CAE BRYNTON ROAD,14,,H.,Hughes,fireman,
+resident,CAE BRYNTON ROAD,12,,—,Harris,G.W.R.,
+resident,CAE BRYNTON ROAD,10,,Gordon,Rowsell,shop mgr,
+resident,CAE BRYNTON ROAD,8,,Mrs.,Garland,,
+resident,CAE BRYNTON ROAD,6,Gladwyn,Fred. W.,Glynn,,
+resident,CAE BRYNTON ROAD,4,,John,Thomas,patrn mkr,
+resident,CAE BRYNTON ROAD,2,,Alf.,James,bootmaker,
+street,CAERAU CRESCENT,,,,,,D 6; Stow-hill to Caerau-road.
+cross_street,CAERAU CRESCENT,,,,,,(LEFT HAND SIDE.)
+resident,CAERAU CRESCENT,1,The Lawn,Iltyd,Howells,,
+resident,CAERAU CRESCENT,2,Caerhayes,Frank,Jones,,
+resident,CAERAU CRESCENT,3,Highfield,L. F.,Vincent,brewer,
+resident,CAERAU CRESCENT,4,Westray,John,Gibbs,,
+resident,CAERAU CRESCENT,5,Elibank,Jas.,Simmonds,,
+resident,CAERAU CRESCENT,6,Greytree,Mrs. Frances,Southcliffe,,
+resident,CAERAU CRESCENT,7,Gwynfa,Maj. Parry,Brown,,
+cross_street,CAERAU CRESCENT,,,,,,PENCRAIG FLATS—
+resident,CAERAU CRESCENT,1,,,Gibbs Ben. D.,contractor,
+resident,CAERAU CRESCENT,2,,,,,Void
+resident,CAERAU CRESCENT,3,,,,,Void
+resident,CAERAU CRESCENT,4,,Miss F.,Pullin,,
+resident,CAERAU CRESCENT,5,,Misses M. & W.,Roberts,,
+resident,CAERAU CRESCENT,6,,G. C.,Williams,bank clk,
+cross_street,CAERAU CRESCENT,,,,,,(return)
+resident,CAERAU CRESCENT,9,,J. C.,Emery,caretaker,
+resident,CAERAU CRESCENT,10,Englefield,Capt. M. E.,Edwards,,
+resident,CAERAU CRESCENT,11,,Mrs. Edith,Jones,,
+resident,CAERAU CRESCENT,,,Chris.,Thomas,,
+resident,CAERAU CRESCENT,12,,C.,Ball,organist,
+resident,CAERAU CRESCENT,,,Miss E.,Cleher,,
+resident,CAERAU CRESCENT,,,Sidney,Potter,,
+resident,CAERAU CRESCENT,13,Mt. View,H. W.,Baddeley,,
+resident,CAERAU CRESCENT,14,Dolgelly,E. P.,Glover,"high school master"
+street,CAERAU PARK,,,,,,D 6; Stow-hill (right hand) opposite Stow-park
+street,CAERAU ROAD,,,,,,C 5; Clytha-park-road to Stow-hill
+cross_street,CAERAU ROAD,,,,,,(LEFT HAND SIDE.)
+resident,CAERAU ROAD,1,,Chas. J.,Page,secretary,
+resident,CAERAU ROAD,2,,Wm.,Hart,decorator,
+resident,CAERAU ROAD,3,,F.,Jones,carpenter,
+resident,CAERAU ROAD,4,,Wm.,Keyes,foreman,
+resident,CAERAU ROAD,5,,W.,Hewinson,window clnr,
+resident,CAERAU ROAD,6,,W.,Underwood,bricklyr,
+resident,CAERAU ROAD,7,,Felix O.,Jones,,
+resident,CAERAU ROAD,8,,Mrs. Elizabeth,Hurley,,
+resident,CAERAU ROAD,9,,A. E.,Chick,"builder, etc.",
+resident,CAERAU ROAD,10,,Alf.,Downer,gardener,
+resident,CAERAU ROAD,11,,Samuel,Hole,plasterer,
+resident,CAERAU ROAD,12,,Mrs. Elizabeth,Turner,,
+resident,CAERAU ROAD,13,,Edward,Burgess,mason,
+resident,CAERAU ROAD,14,,Harold K.,Hook,electcn,
+resident,CAERAU ROAD,15,,John G.,Cope,lithographer,
+resident,CAERAU ROAD,16,,V. C.,Whitney,roll turner,
+resident,CAERAU ROAD,17,,Edmund C.,Everson,,
+resident,CAERAU ROAD,18,,—,Stephens,,
+resident,CAERAU ROAD,19,,Miss Elizabeth,Weights,,
+resident,CAERAU ROAD,20,,Fredk. W.,Booth,G.W.R.,
+resident,CAERAU ROAD,21,,John,Davies,cabinet mkr,
+resident,CAERAU ROAD,22,,Eben. Jas.,Williams,shop,
+resident,CAERAU ROAD,23,,Cecil James,Burrows,,
+resident,CAERAU ROAD,24,,Rbt.,Bradfield,carpenter,
+resident,CAERAU ROAD,25,,Miss Henrietta,Gardner,,
+resident,CAERAU ROAD,26,,Bishop,house furnisher,
+resident,CAERAU ROAD,27,,,,,Void
+resident,CAERAU ROAD,28,,Wm.,Harvey,manager,
+resident,CAERAU ROAD,29,,Leonard,Birks,,
+resident,CAERAU ROAD,30,,Geo.,Griffiths,engineer,
+resident,CAERAU ROAD,31,,,,,Void
+resident,CAERAU ROAD,32,,Charles,Chambers,,
+resident,CAERAU ROAD,33,,Mrs. R. H.,Beavan,,
+resident,CAERAU ROAD,34,,Miss C. M.,Beavan,ladies' hairdresser,
+resident,CAERAU ROAD,34,,Rev. J. A.,French,,
+resident,CAERAU ROAD,35,Glencairn,T. W.,Wring,,
+cross_street,CAERAU ROAD,,,,,,here is Clyffard-crescent.
+resident,CAERAU ROAD,36,,P.,Flint,chemist,
+resident,CAERAU ROAD,37,Clyro villa,Mrs.,Gaccon,,
+resident,CAERAU ROAD,38,St. Fagan's,John,Tippins,,
+resident,CAERAU ROAD,39,Clevedon,Miss Mary O.,Holehouse,,
+resident,CAERAU ROAD,40,Torvill,A. G. S.,Batchelor,,
+resident,CAERAU ROAD,41,Gainford,A. W.,Heard,,
+resident,CAERAU ROAD,42,,Charles,Curson,manager,
+resident,CAERAU ROAD,43,,the Misses R. C. D. and E. C.,Pullens,,
+resident,CAERAU ROAD,44,Carlton ho,H.,Cambridge,,
+resident,CAERAU ROAD,45,Torrington,Dr. J.,Howard-Jones,,
+resident,CAERAU ROAD,,,Dr. L. M.,Griffiths,,
+resident,CAERAU ROAD,,,G. K.,Horser,"B.SC., head-mistress High Schools",

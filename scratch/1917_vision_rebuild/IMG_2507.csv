@@ -1,0 +1,162 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,Capel Street,47,,Alfred John,Ward,,continued
+resident,Capel Street,48,,Thomas,Thomas,fitter,
+resident,Capel Street,49,,Jos. H.,Chicken,fitter,
+resident,Capel Street,50,,T.,Hatton,ships' painter,
+resident,Capel Street,51,,Wm.,Davies,hoistman,
+resident,Capel Street,52,,Chas. D.,Edwards,,
+resident,Capel Street,53,,Patrick,Maher,,
+resident,Capel Street,54,,Henry James,Fry,pilot,
+resident,Capel Street,55,,William,Carrol,,
+resident,Capel Street,56,,Alfred,Williams,fireman,
+resident,Capel Street,57,,S. A.,Cox,Mrs.,
+resident,Capel Street,58,,Edwd. J.,Russell,labourer,
+resident,Capel Street,59,,Philip,Richards,dk pilot,
+resident,Capel Street,60,,Mrs.,Tucker,widow,
+street,CARDIFF ROAD,,,,,,D 5
+cross_street,CARDIFF ROAD,,,,,,From 96 Commercial-street.
+cross_street,CARDIFF ROAD,,,,,,(LEFT HAND SIDE.)
+resident,CARDIFF ROAD,1,Victoria cot,Mrs.,Brown,,
+resident,CARDIFF ROAD,2,,Frank,Smith,builder,
+resident,CARDIFF ROAD,3,,E. & Co.,Wood,yeast mchts,Matthews Nurton
+resident,CARDIFF ROAD,4,Friars view,Ivor M.,Johns,,
+resident,CARDIFF ROAD,,Friars view,Beatrice R.,Johns,Miss,
+resident,CARDIFF ROAD,5,Rockleigh ho,John,Cock,,
+resident,CARDIFF ROAD,,Rockleigh ho,F.,Ekers,stone carver,
+cross_street,CARDIFF ROAD,,,,,,here is Daniel-street
+resident,CARDIFF ROAD,6,Montrose,John,Pugh,,
+resident,CARDIFF ROAD,6A,Laburnam,W.,Harding,,
+resident,CARDIFF ROAD,6B,Belvoir,Edwin,Moore,,
+resident,CARDIFF ROAD,7,Longfield,J. M.,Akers,,
+resident,CARDIFF ROAD,8,Conway h,F. S.,Thompsen,,
+resident,CARDIFF ROAD,9,,William T.,Jones,builder,
+cross_street,CARDIFF ROAD,,,,,,here is Rutland-place
+resident,CARDIFF ROAD,10,The Planes,H. E.,Thatcher,,
+resident,CARDIFF ROAD,11,,Clifford J.,Sansom,,
+resident,CARDIFF ROAD,,Courtybella,W. C.,Johns,,
+resident,CARDIFF ROAD,,Montreal,Hy.,Cheesman,Mrs.,
+resident,CARDIFF ROAD,,,,,,Vacant sites
+resident,CARDIFF ROAD,,Langtree,James,Moore,builder,
+resident,CARDIFF ROAD,,Pencader,Ed.,Perchard,,
+resident,CARDIFF ROAD,,Glenrosa,John,Screen,,
+resident,CARDIFF ROAD,,Belmont,Frank,Wakelin,,
+resident,CARDIFF ROAD,,Westminster,Louis,Thevenot,,
+resident,CARDIFF ROAD,,Ardington,J. M.,Ray,Mrs.,
+resident,CARDIFF ROAD,,Risca ho,E.,George,Mrs.,
+resident,CARDIFF ROAD,,,Angus,F. W. J.,
+resident,CARDIFF ROAD,,Gwynne,T.,Maddock,,
+resident,CARDIFF ROAD,,Wearside,Ern.,Elliot,Jas.,
+cross_street,CARDIFF ROAD,,,,,,entrance to Mendalgief-road
+resident,CARDIFF ROAD,,,,,Whitehead Iron and Steel Co., Ltd. (site for new works)
+resident,CARDIFF ROAD,,Courtybella farm,J. H.,Scott,Mrs.,
+resident,CARDIFF ROAD,,,Albert,Thomas,labourer,
+cross_street,CARDIFF ROAD,,,,,,(return)
+resident,CARDIFF ROAD,,The Gaer,C. D.,Phillips,Mrs.,
+resident,CARDIFF ROAD,,Lower Gaer lodge,John,Clutton,,
+resident,CARDIFF ROAD,,Gaer Fach,Alban,Thomas,,
+resident,CARDIFF ROAD,,,M. W.,Wilkinson,packer,
+resident,CARDIFF ROAD,,The Oaks,C. H.,Smith,,
+resident,CARDIFF ROAD,,Gaer lodge,John,Masi,gardener,
+cross_street,CARDIFF ROAD,,,,,,here is Waterloo-road
+resident,CARDIFF ROAD,,BELLE VUE PUBLIC PARK,John,Trowbridge,supt.,
+resident,CARDIFF ROAD,,Belle Vue Court,Wm.,Ford,caretaker,
+cross_street,CARDIFF ROAD,,,,,,here is Belle Vue-lane
+resident,CARDIFF ROAD,15,,John,Bevan,labourer,
+resident,CARDIFF ROAD,16,ROYAL GWENT HOSPITAL,,Hospital Offices,J. K. Millward sec.-supt.,
+resident,CARDIFF ROAD,17,Nurses' Home,,,,
+resident,CARDIFF ROAD,18,Roseberry h,M.,Freedman,,
+cross_street,CARDIFF ROAD,,,,,,here is Clytha-square
+resident,CARDIFF ROAD,19,,F. W.,Daniels,surgeon,
+resident,CARDIFF ROAD,20,Argentina,,,Void,
+resident,CARDIFF ROAD,21,Glentworth,Thos. J.,Ray,,
+cross_street,CARDIFF ROAD,,,,,,entrance to Clytha-square
+resident,CARDIFF ROAD,22,Bromley house,R. Gordon,Oliver,draper,
+resident,CARDIFF ROAD,23,The Grange,James,Edmunds,,
+resident,CARDIFF ROAD,24,Overton,Hy.,Wellsteed,,
+resident,CARDIFF ROAD,25,,E. & Son,Davies,plastrs,
+resident,CARDIFF ROAD,26,,A. H.,Lewis,decorator,
+resident,CARDIFF ROAD,27,,W. J. & Sons,Gibb,fruiterers and poulterers,
+resident,CARDIFF ROAD,27,,Arthur,Birch,clerk,
+resident,CARDIFF ROAD,28,,F.,Murphy,draper,
+resident,CARDIFF ROAD,29,,G. H.,Sewell,bootmaker,
+resident,CARDIFF ROAD,30,,& Son,Willshire,confrs,
+resident,CARDIFF ROAD,31,,N.,Jacomis,shopkeeper,
+resident,CARDIFF ROAD,32,,S.,Boswell,frame maker,
+resident,CARDIFF ROAD,33,,Bros.,Gould,printers,George Stanley
+resident,CARDIFF ROAD,34,Clytha dairy,J.,Pocock,,
+resident,CARDIFF ROAD,35,,F. J.,Marsh,temp. bar,
+cross_street,CARDIFF ROAD,,,,,,here is Queen-street
+resident,CARDIFF ROAD,36,,L. M.,Phillips,Miss,confectioner & tobacconist,
+resident,CARDIFF ROAD,37,,R.,Parry,tailor,
+resident,CARDIFF ROAD,38,Golden Hart,M. A.,Debley,Mrs.,
+resident,CARDIFF ROAD,39,,Chas.,Eldridge,newsagent,
+resident,CARDIFF ROAD,40,,R. H.,Davies,bootmaker,
+resident,CARDIFF ROAD,41,,Jas.,Smith,confectioner,
+resident,CARDIFF ROAD,42,,,,Void,,
+resident,CARDIFF ROAD,43,,C. H.,Gillard,gasfitter,
+resident,CARDIFF ROAD,44,,F.,Downing,auctioneer,
+resident,CARDIFF ROAD,45,Prince of Wales Hotel,Wm.,Treherne,,
+street,CAREY ROAD,,,,,,E 2
+cross_street,CAREY ROAD,,,,,,Chepstow-road to Gibbs-road.
+resident,CAREY ROAD,1,,Lewis A.,Clarke,,
+resident,CAREY ROAD,2,,S.,Bourne,rod turner,
+resident,CAREY ROAD,3,,Arthur,Thomas,,
+street,CARISBROOKE ROAD,,,,,,D 2
+cross_street,CARISBROOKE ROAD,,,,,,Off Chepstow-road
+cross_street,CARISBROOKE ROAD,,,,,,(LEFT HAND SIDE.)
+resident,CARISBROOKE ROAD,1,,Thos.,Bright,boot slsman,Fisher Wm. Geo.
+resident,CARISBROOKE ROAD,3,,Louisa,Cruse,Miss,
+resident,CARISBROOKE ROAD,5,,Paul,Page,ironworker,
+resident,CARISBROOKE ROAD,7,,John Thomas,Pratt,ironw,
+resident,CARISBROOKE ROAD,9,,L. H.,Kyte,,
+resident,CARISBROOKE ROAD,11,,Thomas,Davies,fitter,
+resident,CARISBROOKE ROAD,13,,Hy. Jas.,Sutton,relieving officer,
+resident,CARISBROOKE ROAD,15,,John Charles,Morgan,,
+resident,CARISBROOKE ROAD,17,,William G.,Shaw,polisher,
+resident,CARISBROOKE ROAD,19,,Jabez,Bambridge,,
+resident,CARISBROOKE ROAD,21,,Jas.,Bickerton,ironworker,
+resident,CARISBROOKE ROAD,23,,John,Toomey,,
+resident,CARISBROOKE ROAD,25,,Mrs.,Newberry,,
+resident,CARISBROOKE ROAD,27,,John T.,Marks,ironwkr,
+resident,CARISBROOKE ROAD,29,,Joseph,Motill,ironworker,
+resident,CARISBROOKE ROAD,31,,John,Middleton,Fdk.irwkr,
+resident,CARISBROOKE ROAD,33,,Sarah,Hughes,Mrs.,
+resident,CARISBROOKE ROAD,35,,Fdk.,Channon,ins agent,
+resident,CARISBROOKE ROAD,37,,G. Thos.,Goulding,bklayer,
+resident,CARISBROOKE ROAD,,,,,,Vacant sites
+cross_street,CARISBROOKE ROAD,,,,,,(return)
+resident,CARISBROOKE ROAD,,,,,,Vacant sites
+resident,CARISBROOKE ROAD,36,,Albert Ed.,Phillips,travlr,
+resident,CARISBROOKE ROAD,34,,Chas. Wm.,Rodway,clerk,
+resident,CARISBROOKE ROAD,32,,Frank,Bailey,assistant,
+resident,CARISBROOKE ROAD,30,,William,Powell,keeper,
+resident,CARISBROOKE ROAD,28,,Robert,Hodge,architect,
+resident,CARISBROOKE ROAD,26,,Isabella,Henderson,Mrs.,
+resident,CARISBROOKE ROAD,24,,Arthur George,Porter,,
+resident,CARISBROOKE ROAD,22,,Fredk.,Cogbill,ironwkr,
+resident,CARISBROOKE ROAD,20,,William,Jones,ironwkr,
+resident,CARISBROOKE ROAD,18,,Herbert,Perkin,assistant,
+resident,CARISBROOKE ROAD,16,,Arthur,Tribbeck,blrmkr,
+resident,CARISBROOKE ROAD,14,,Jas. Er.,Walker,platelayer,
+resident,CARISBROOKE ROAD,12,,A. M.,Nelson,piano tuner,
+resident,CARISBROOKE ROAD,10,,William,Hobbs,waiter,
+resident,CARISBROOKE ROAD,8,,Hambury,Davies,potter,
+resident,CARISBROOKE ROAD,6,,Ellen,Devney,Mrs.,
+resident,CARISBROOKE ROAD,4,,Walter,Douglas,traveller,
+resident,CARISBROOKE ROAD,2,,Chas.,Smith,schoolmaster,
+street,CARLISLE PLACE,,,,,,C 5
+cross_street,CARLISLE PLACE,,,,,,Nos. 1 to 10 North-street
+street,CARLISLE STREET,,,,,,E 5
+cross_street,CARLISLE STREET,,,,,,From Alexandra-road
+cross_street,CARLISLE STREET,,,,,,(RIGHT HAND SIDE)
+resident,CARLISLE STREET,1,,Henry,Robins,hawker,
+resident,CARLISLE STREET,2,,Wm.,Rixon,labourer,
+resident,CARLISLE STREET,3,,Patrick,Flannagan,,
+resident,CARLISLE STREET,4,,John H.,Kidman,dk labr,
+resident,CARLISLE STREET,5,,Thos. H.,Brooks,fitter,
+resident,CARLISLE STREET,6,,Thos. A.,Ray,rigger,
+resident,CARLISLE STREET,7,,Edwin,Barnes,,
+resident,CARLISLE STREET,8,,Ann,Boon,Mrs.,
+cross_street,CARLISLE STREET,,,,,,(return)
+resident,CARLISLE STREET,9,Windermere,Wm.,Becker,,
+resident,CARLISLE STREET,10,Hazeldene,W. H.,Lewis,,

@@ -1,0 +1,138 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,DIANA STREET,,,,,,continued
+resident,DIANA STREET,2,,Henry,Price,quarryman,
+resident,DIANA STREET,3,,Wm.,Pullin,labourer,
+resident,DIANA STREET,4,,Saml.,Jones,shunter G.W.R.,
+resident,DIANA STREET,5,,William,Harris,,
+resident,DIANA STREET,6,,J. H.,Francis,ironworker,
+resident,DIANA STREET,7,,James,Horn,painter,
+resident,DIANA STREET,8,,John,Nelson,steelworker,
+resident,DIANA STREET,9,,John,Harris,tipper,
+street,DOCK PARADE,,,,,,F 4
+cross_street,DOCK PARADE,,,,,,Church-street to Docks
+resident,DOCK PARADE,,,Cambrian Wagon Works Goulds Foundries Ltd.,,,
+resident,DOCK PARADE,1,,Mrs. C.,Brown,,
+resident,DOCK PARADE,2,,Miss Margaret,Davies,,
+resident,DOCK PARADE,3,,F. C.,Fernguist,fitter,
+resident,DOCK PARADE,4,,C.,Thompson,trimmer,
+resident,DOCK PARADE,5,,Evan,Williams,boatman,
+resident,DOCK PARADE,6,,Mrs. Elizabeth,Quest,shop,
+resident,DOCK PARADE,7,,Mrs. Mary Ann,Duggan,,
+resident,DOCK PARADE,8,,T.,Sutcliffe,labourer,
+resident,DOCK PARADE,9,,Mrs. Sidney,Boswell,,
+resident,DOCK PARADE,,,Joseph,Bonnie,seaman,
+resident,DOCK PARADE,10,,Wm.,Geary,labourer,
+resident,DOCK PARADE,,,James,Wall,labourer,
+resident,DOCK PARADE,11,,Mrs. Emma,Thomas,,
+resident,DOCK PARADE,,,Cuthbert,Thomas,tug,
+resident,DOCK PARADE,,,Ben,Davies,dock wkr,
+resident,DOCK PARADE,12,,Ivor H.,Willis,wireman,
+resident,DOCK PARADE,13,,Fredk. J.,Baker,trimmer,
+resident,DOCK PARADE,14,Dock Hotel,Wm. Henry,Phillips,,
+cross_street,DOCK PARADE,,,,,,(return)
+resident,DOCK PARADE,,,Shell Mex and B.P. Ltd.,,,
+resident,DOCK PARADE,,,Anglo American Oil Co. and Pratt's Spirit Co.,,,
+street,DOCK ROAD,,,,,,E 4
+cross_street,DOCK ROAD,,,,,,East side of Town Dock
+street,DOCK ROAD CHAMBERS,,,,,,(see 103 Dock-street)
+street,DOCK (THE TOWN),,,,,,E 4
+cross_street,DOCK (THE TOWN),,,,,,East side from Dock-street
+cross_street,DOCK (THE TOWN),,,,,,See also Alexandra Dock
+resident,DOCK (THE TOWN),,Risca Wharf,,,,void
+resident,DOCK (THE TOWN),,Commercial Wharf,,,,
+resident,DOCK (THE TOWN),10 Commercial Wharf,Tom,Flook,G.W.R.,
+resident,DOCK (THE TOWN),11 Commercial Wharf,J.,Howlett,,
+resident,DOCK (THE TOWN),12 Commercial Wharf,A.,Waite,,
+resident,DOCK (THE TOWN),13 Commercial Wharf,Herbert,Flook,,
+resident,DOCK (THE TOWN),1 Commercial Wharf,Commercial Hotel,E. J.,Walker,,
+resident,DOCK (THE TOWN),2 Commercial Wharf,,Geo.,Phillips,pipemaker,
+resident,DOCK (THE TOWN),8 Commercial Wharf,,Alfred,Witt,,
+resident,DOCK (THE TOWN),9 Commercial Wharf,,F.,Jones,,
+resident,DOCK (THE TOWN),28 Commercial Wharf,,Bert,Holtham,carpenter,
+resident,DOCK (THE TOWN),,Newport Enamel Slate Co. (1910) Ltd.,,,,
+resident,DOCK (THE TOWN),,Baker W. A. & Co. (1910) Ltd.,,,Westgate foundries and iron works,
+resident,DOCK (THE TOWN),,Cambrian Iron Foundry—T. Spittle Ltd.,,,,
+resident,DOCK (THE TOWN),,Rhymney wharf,,,,void
+resident,DOCK (THE TOWN),,Vacant site,,,,
+resident,DOCK (THE TOWN),,Rhymney house,John,Price,carpenter,
+resident,DOCK (THE TOWN),,Penner wharf,,,,
+resident,DOCK (THE TOWN),,Phillips & Sons, Ltd.,,,malt ho,
+resident,DOCK (THE TOWN),,,J. H.,Beddow,maltster,
+resident,DOCK (THE TOWN),,,S.,Thompson,platelayer,
+resident,DOCK (THE TOWN),,Dock house,,,,
+resident,DOCK (THE TOWN),,Dock cottage,Mrs.,Neath,,
+cross_street,DOCK (THE TOWN),,,,,,here is Town Dock-entrance
+cross_street,DOCK (THE TOWN),,,,,,The Town Dock is now closed
+cross_street,DOCK (THE TOWN),,,,,,West side from Dock-street
+resident,DOCK (THE TOWN),,,Mahoney James & Co.,,iron and metal merchants,
+resident,DOCK (THE TOWN),,,MacMahon & Co.,,potato merchants,
+resident,DOCK (THE TOWN),,,Shell Mex Ltd.,,petrol products,
+resident,DOCK (THE TOWN),,,Morris Henry, Ltd.,,oil imprtrs and grease manufacturers Baltic Oil and Grease works,
+cross_street,DOCK (THE TOWN),,,,,,here is Dock-parade
+resident,DOCK (THE TOWN),,Customs Watchhouse,,,,
+resident,DOCK (THE TOWN),,Jack's Wharf,Matthews & Wood,,iron merchants,
+resident,DOCK (THE TOWN),,Offices and yard,,,,void
+resident,DOCK (THE TOWN),,Llanarth Wharf,A. J. T. & Co.,Goss,oil merchants & grease manufacturers,
+resident,DOCK (THE TOWN),,Blaina Wharf,John Cashmore Ltd.,,,ship breakers & engineers,
+resident,DOCK (THE TOWN),,,Newport (Mon.) Pilot Boat Co., Ltd. (Reg. office),,,
+resident,DOCK (THE TOWN),,,,Capt. J. Witherage,mngr,
+resident,DOCK (THE TOWN),,,,Chas. J. Page,secretary,
+resident,DOCK (THE TOWN),,,Jno. Cashmore Ltd.,,,
+resident,DOCK (THE TOWN),,Clapps Wharf,J.,Knight,coal merchant,
+street,DOCK STREET,,,,,,C 4
+cross_street,DOCK STREET,,,,,,From 3 High-street to Town Dock and Dolphin-street
+cross_street,DOCK STREET,,,,,,(LEFT HAND SIDE.)
+resident,DOCK STREET,1,,E. J.,Wilcox,,Newport Rope and Twine stores
+resident,DOCK STREET,2,Fussell's Sports Depot,,,,
+resident,DOCK STREET,3,Newport Electrical Co. Ltd.,,,,
+resident,DOCK STREET,,,W. J.,Carter,hairdresser,
+resident,DOCK STREET,4-5,,A.,Phillips,wholesale & retail tobacconist air-mail specialist,
+resident,DOCK STREET,,,J.,Gilbert,tailor,
+resident,DOCK STREET,,,M. Lloyd,Davies,,
+resident,DOCK STREET,,,Mrs.,Price,,
+resident,DOCK STREET,6,,T.,Lewis,chemist,
+resident,DOCK STREET,7,,D. A. & Co.,Vaughan,potato merchants,
+resident,DOCK STREET,8,,G. S.,Thorne,corn store,
+resident,DOCK STREET,9,,G. S.,Thorne,grocers,
+resident,DOCK STREET,,,J.,Capus,grocer,
+resident,DOCK STREET,,,A.,Griffiths,tobacconist & confectioner,
+cross_street,DOCK STREET,,,,,,CORPORATION YARD—
+resident,DOCK STREET,3 Corporation Yard,,,,void,
+resident,DOCK STREET,4 Corporation Yard,,,,void,
+resident,DOCK STREET,5 Corporation Yard,,,,void,
+resident,DOCK STREET,6 Corporation Yard,,H. J.,Small,fruit salesman,
+resident,DOCK STREET,7 Corporation Yard,,A. S.,Jones,nurseryman,
+resident,DOCK STREET,8-9 Corporation Yard,,J. & Son,Bowkett,fruit salesmen,
+resident,DOCK STREET,10 Corporation Yard,,,,void,
+resident,DOCK STREET,11 Corporation Yard,,Fred,Anstie,mkt gardener,
+resident,DOCK STREET,12 Corporation Yard,,T.,Hicks,market do.,
+resident,DOCK STREET,13 Corporation Yard,,J.,Maddocks,florist,
+resident,DOCK STREET,14 Corporation Yard,,Jake,Collingbourne,do.,
+resident,DOCK STREET,10,,Nicholas & Co. Ltd.,,timber importers,
+resident,DOCK STREET,,,Richard, Ltd.,England,fruit & potato importers,
+resident,DOCK STREET,11,,C.,Evans,sheet metal wkr,
+resident,DOCK STREET,,,Western Sign Co.,,,
+resident,DOCK STREET,12,,& Co. Ltd.,MacMahon,potato importers,
+resident,DOCK STREET,,Union Jack Club,C.,Price,secretary,
+resident,DOCK STREET,13,,Son & Co. Ltd.,Ashworth,weighing mac & scale mk,
+resident,DOCK STREET,14,,A. A.,Wright,fruit mercht,
+resident,DOCK STREET,15-16,,Wright & Lodge Ltd.,,fruit merchants etc.,
+cross_street,DOCK STREET,,,,,,here is Skinner-street
+resident,DOCK STREET,17,,Elders and Fyffes, Ltd.,,fruit importers,
+resident,DOCK STREET,18,,& Thornton V.,Wallace,wholesale fish and fruit,
+resident,DOCK STREET,19,Windsor Castle,A.,Bailey,,
+resident,DOCK STREET,20-21,MUNICIPAL CHAMBERS,,,,(see Corn street)
+cross_street,DOCK STREET,,,,,,here is Corn-street
+resident,DOCK STREET,22,Potter's Arms,E. B.,Sadler,,
+resident,DOCK STREET,23,,H. O.,Williams,type-writer specialist,
+resident,DOCK STREET,24,,Robert H. (electrical) Ltd.,Williams,radio dealer,
+resident,DOCK STREET,,IMPERIAL CHAMBERS,P.,Telford,draper etc.,
+resident,DOCK STREET,,Corporation yard,,,,
+cross_street,DOCK STREET,,,,,,here is Merchant-street
+street,AUSTIN FRIARS CHAMBERS,,,,,,
+resident,DOCK STREET,26,,Dolman & Sons,,solicitors,
+resident,DOCK STREET,,Building site,,,,
+resident,DOCK STREET,,Capitol Car Park and Service Station,,,,(Site of ancient Austin Friary)
+cross_street,DOCK STREET,,,,,,here is Friars-street
+resident,DOCK STREET,27,CAPITOL CINEMA, THE,,,
+resident,DOCK STREET,28,Fire Brigade Station,G. H.,Scott,superintdt,

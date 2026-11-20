@@ -1,0 +1,176 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,ST. VINCENT'S ROAD,,,,,,
+resident,ST. VINCENT'S ROAD,8,,Richard,Phillips,,
+resident,ST. VINCENT'S ROAD,6,,Wm.,Eynon,clerk of wks,
+resident,ST. VINCENT'S ROAD,4,,David,Griffiths,clerk,
+street,ST. WOOLOS PLACE,,,,,,D 5
+cross_street,ST. WOOLOS PLACE,,,,,,From 23 St. Woolos-road
+cross_street,ST. WOOLOS PLACE,,,,,,(RIGHT HAND SIDE.)
+resident,ST. WOOLOS PLACE,1,,John,Davies,platelayer,
+resident,ST. WOOLOS PLACE,2,,Leonard,Innes,platelayer,
+resident,ST. WOOLOS PLACE,3,,Frank W.,Skinner,,
+resident,ST. WOOLOS PLACE,4,,Henry,Phelps,,
+resident,ST. WOOLOS PLACE,5,,G. E.,Williams,coachman,
+resident,ST. WOOLOS PLACE,6,,David,Jones,signalman,
+resident,ST. WOOLOS PLACE,7,,Philip W.,James,baker,
+resident,ST. WOOLOS PLACE,8,,Wm. J. H.,Baker,haulier,
+cross_street,ST. WOOLOS PLACE,,,,,,(return)
+resident,ST. WOOLOS PLACE,9,,Henry,Bridgens,,
+resident,ST. WOOLOS PLACE,10,,Alfd.,Myland,endine dvr,
+resident,ST. WOOLOS PLACE,11,,Chas.,Watkins,machinist,
+resident,ST. WOOLOS PLACE,12,,Benjamin D.,Stone,labr,
+resident,ST. WOOLOS PLACE,13,,Dd. H.,Davies,fireman,
+resident,ST. WOOLOS PLACE,14,,William Henry,Picton,,
+resident,ST. WOOLOS PLACE,15,,W. H.,Edmunds,painter,
+street,ST. WOOLOS ROAD,,,,,,D 5
+cross_street,ST. WOOLOS ROAD,,,,,,34 St. Mary-st. to Clifton-rd.
+cross_street,ST. WOOLOS ROAD,,,,,,(RIGHT HAND SIDE.)
+resident,ST. WOOLOS ROAD,1,Prince of Wales,Francis Ernest,Miller,,
+resident,ST. WOOLOS ROAD,2,,Philip,Morgan,smith,
+resident,ST. WOOLOS ROAD,3,,Joseph,Gumm,gardener,
+resident,ST. WOOLOS ROAD,4,,Jos. Hy.,Nicholas,labr,
+resident,ST. WOOLOS ROAD,5,,Charles,Jones,driver,
+resident,ST. WOOLOS ROAD,6,,Miss,Marment,dressmaker,
+resident,ST. WOOLOS ROAD,7,,Chas. E.,Gardner,ins. agent,
+resident,ST. WOOLOS ROAD,8,,Sidney,Rogers,fish bar,
+resident,ST. WOOLOS ROAD,8A,,Wm. A.,James,bootmaker,
+cross_street,ST. WOOLOS ROAD,,,,,,here is Graham-street
+resident,ST. WOOLOS ROAD,9,Wellington Inn,James,Reynolds,,
+resident,ST. WOOLOS ROAD,10,,Mrs. Mary Jane,Gale,,
+resident,ST. WOOLOS ROAD,11,,,,,Void
+resident,ST. WOOLOS ROAD,12,,,,,,
+resident,ST. WOOLOS ROAD,13,,Henry West,Jenkins,,
+resident,ST. WOOLOS ROAD,14,,John,Tooze,,
+resident,ST. WOOLOS ROAD,15,,F. E.,Bamford,grocer,
+cross_street,ST. WOOLOS ROAD,,,,,,here is St. Julian-street
+resident,ST. WOOLOS ROAD,16,,G.,Stacey,berthing master,
+resident,ST. WOOLOS ROAD,17,,Alexander,Hall,,
+resident,ST. WOOLOS ROAD,18,,Arthur,Packer,,
+resident,ST. WOOLOS ROAD,19,,Mrs. G.,Lewis,,
+resident,ST. WOOLOS ROAD,20,,John,Pegler,gardener,
+resident,ST. WOOLOS ROAD,21,,James William,Mountain,,
+resident,ST. WOOLOS ROAD,22,,Charles,Moulton,shunter,
+resident,ST. WOOLOS ROAD,23,,J.,Bartlett,boilermaker,
+cross_street,ST. WOOLOS ROAD,,,,,,here is St. Woolos-place
+resident,ST. WOOLOS ROAD,24,,,,,,
+resident,ST. WOOLOS ROAD,25,,Henry,Weston,verger,
+resident,ST. WOOLOS ROAD,26,,Thomas,Weetch,baker,
+resident,ST. WOOLOS ROAD,27,,Philip R.,Powell,painter,
+cross_street,ST. WOOLOS ROAD,,,,,,(return)
+resident,ST. WOOLOS ROAD,28,,Mrs. H.,Underwood,,
+resident,ST. WOOLOS ROAD,29,,Jos. F.,Lyons,metal wkr,
+resident,ST. WOOLOS ROAD,30,,W. C.,Morgan,carpenter,
+resident,ST. WOOLOS ROAD,31,,John,Lyons,painter,
+resident,ST. WOOLOS ROAD,32,,Wm. Robt.,Cane,inspector,
+resident,ST. WOOLOS ROAD,33,,Thomas,James,baker,
+resident,ST. WOOLOS ROAD,,,James' bakehouse,,,
+cross_street,ST. WOOLOS ROAD,,,,,,here is Jones-street
+resident,ST. WOOLOS ROAD,34,,Thos.,Chalklin,crane dvr,
+street,SALISBURY ROAD,,,,,,C 6
+cross_street,SALISBURY ROAD,,,,,,Bryngwyn-rd. to Llanthewy-rd.
+street,SCARD STREET,,,,,,D 5
+cross_street,SCARD STREET,,,,,,From North-st. to Bailey-st.
+cross_street,SCARD STREET,,,,,,(LEFT HAND SIDE.)
+resident,SCARD STREET,1,,Mrs. R.,Stewart,,
+resident,SCARD STREET,2,,John,Sullivan,shopkeeper,
+resident,SCARD STREET,,,Phillips & Clark,,builders,
+resident,SCARD STREET,3,,,,,,
+resident,SCARD STREET,4,,J.,Swallow,guard B.&.M.R.,
+resident,SCARD STREET,5,,George T.,North,,
+cross_street,SCARD STREET,,,,,,(return)
+resident,SCARD STREET,6,,James,Hovey,ruler,
+resident,SCARD STREET,7,,Edward,Elworthy,carptr,
+resident,SCARD STREET,8,,Rd.,Cook,railwayman,
+resident,SCARD STREET,9,,Mrs. Jane,Watkins,,
+street,SCREW PACKET RD.,,,,,,C 4
+cross_street,SCREW PACKET RD.,,,,,,From High-street [Ltd.
+resident,SCREW PACKET RD,,,Newport Builders' Supply Ltd.,,,
+resident,SCREW PACKET RD,,,Nicholas & Co.,,Baltic wharf,
+resident,SCREW PACKET RD,,,Phillips & Sons,,flour stores,
+resident,SCREW PACKET RD,,,E.,Hill,shoeing smith,
+resident,SCREW PACKET RD,,,Tom,Pitt,R.S.S. shoeing smith,
+street,SERPENTINE ROAD,,,,,,C 5
+cross_street,SERPENTINE ROAD,,,,,,Godfrey-road to Gold-tops
+resident,SERPENTINE ROAD,1,Tregleath,B. H.,Jones,,
+resident,SERPENTINE ROAD,2,Vaindre,R. S.,Roberts,,
+resident,SERPENTINE ROAD,3,Bindon,F. R.,Bates,,
+resident,SERPENTINE ROAD,4,Elmwood,Henry,Griffiths,,
+resident,SERPENTINE ROAD,5,Sharnbrook,A.,Billingham,,
+resident,SERPENTINE ROAD,6,Langorse,Mrs.,Jackson,,
+resident,SERPENTINE ROAD,7,Thornton,Mrs. Eliza,Jay,,
+resident,SERPENTINE ROAD,8,,,,,Wentbridge—void
+resident,SERPENTINE ROAD,9,Silverhowe,Ern, G.,Baker,,
+resident,SERPENTINE ROAD,10,Colwinstone,J.,Pappe,,
+street,SEVERN TERRACE,,,,,,D 5
+cross_street,SEVERN TERRACE,,,,,,Opposite St. Woolos Church
+resident,SEVERN TERRACE,1,,John,Price,,
+resident,SEVERN TERRACE,,,—,Wilshire,,
+resident,SEVERN TERRACE,2,,John O.,Davies,,
+resident,SEVERN TERRACE,,,Charles A.,Desmarons,,
+resident,SEVERN TERRACE,3,,H. J.,Strong,,
+resident,SEVERN TERRACE,4,,Arthur J. H.,Roberts,,
+resident,SEVERN TERRACE,5,,Thomas J.,Flanigan,,
+resident,SEVERN TERRACE,6,,Charles,Saysill,,
+street,SEVERN VIEW,,,,,,D 5
+cross_street,SEVERN VIEW,,,,,,(Formerly the Rookery)
+cross_street,SEVERN VIEW,,,,,,From 105 Stow-hill
+resident,SEVERN VIEW,1,,,,,Void
+resident,SEVERN VIEW,2,,,,,,
+resident,SEVERN VIEW,3,,Mrs. Mary,Morgan,,
+resident,SEVERN VIEW,4,,Antonio,Icardi,,
+resident,SEVERN VIEW,5,,Albert Edward,Keevil,,
+resident,SEVERN VIEW,6,,John,Pugsley,labourer,
+resident,SEVERN VIEW,7,,Charles,Geen,,
+resident,SEVERN VIEW,8,,Michael,Kelly,labourer,
+resident,SEVERN VIEW,9,,Wyndham,Taylor,labour'r,
+resident,SEVERN VIEW,10,,John,Hogan,labourer,
+street,SHAFTESBURY ST.,,,,,,C 4
+cross_street,SHAFTESBURY ST.,,,,,,From 69 High-st. to Malpas-rd
+cross_street,SHAFTESBURY ST.,,,,,, (LEFT HAND SIDE.)
+resident,SHAFTESBURY ST.,1,Castle Hotel,F.,Kelly,,
+cross_street,SHAFTESBURY ST.,,,,,,Entrance to Castle precincts
+resident,SHAFTESBURY ST.,9,Eastern Valleys Inn,Geo.,Hill,,
+resident,SHAFTESBURY ST.,11,,Mrs. F.,Cleanstein,dealer,
+resident,SHAFTESBURY ST.,13,,C. H.,Cox,newsagent etc.,
+resident,SHAFTESBURY ST.,15,,Mrs. E. A.,Hillman,tobacst,
+resident,SHAFTESBURY ST.,17,,A.,Pearce,hairdresser,
+resident,SHAFTESBURY ST.,19,,E. & Co.,Thomas,saddlers,
+resident,SHAFTESBURY ST.,21,,Gopsill & Sons,Brown,sack contractors,
+cross_street,SHAFTESBURY ST.,,,,,,here is Mill-street
+resident,SHAFTESBURY ST.,23,,,,,Void
+resident,SHAFTESBURY ST.,25,,Thomas,Neale,haulier,
+resident,SHAFTESBURY ST.,27,,William,Evans,haulier,
+resident,SHAFTESBURY ST.,29,,Stanley Jas.,Moss,,
+resident,SHAFTESBURY ST.,30,Station Inn,Frank,Lane,,
+cross_street,SHAFTESBURY ST.,,,,,,BROWN'S BUILDINGS—
+resident,SHAFTESBURY ST.,1,,William,Holland,,
+resident,SHAFTESBURY ST.,2,,Joseph,Sheppard,,
+resident,SHAFTESBURY ST.,3,,Mrs. Hannah,Watkins,,
+resident,SHAFTESBURY ST.,4,,Paul,Kift,,
+resident,SHAFTESBURY ST.,5,,John,Dowers,labourer,
+resident,SHAFTESBURY ST.,6,,John,Morris,,
+resident,SHAFTESBURY ST.,7,,Mrs. Elizabeth,Roberts,,
+resident,SHAFTESBURY ST.,8,,James,Allen,,
+resident,SHAFTESBURY ST.,9,,Mrs. Annie,Rosser,,
+resident,SHAFTESBURY ST.,10,,George,Wright,labourer,
+resident,SHAFTESBURY ST.,11,,William,Kyle,labourer,
+resident,SHAFTESBURY ST.,12,,Daniel,McDonald,,
+resident,SHAFTESBURY ST.,53,,Albert,Bennett,,
+resident,SHAFTESBURY ST.,55,,John,Holland,labourer,
+resident,SHAFTESBURY ST.,57,,John,Donoghue,labourer,
+resident,SHAFTESBURY ST.,59,,Thos. Edwin,Lloyd,labr,
+resident,SHAFTESBURY ST.,61,,George,Gardner,,
+resident,SHAFTESBURY ST.,63,,Wm. Alfred,Lane,smith,
+resident,SHAFTESBURY ST.,65,,Alfred,Legresley,,
+resident,SHAFTESBURY ST.,67,Moulders' Arms,W. H.,Broadribb,,
+resident,SHAFTESBURY ST.,69,,Mrs. Alice,Simmonds,,
+resident,SHAFTESBURY ST.,77 to 83,,,,,void
+resident,SHAFTESBURY ST.,85,,Fredk.,Martin,labourer,
+resident,SHAFTESBURY ST.,87,,A. Ll.,Hopkins,labourer,
+resident,SHAFTESBURY ST.,89,,F.,Snell,chimney sweep,
+resident,SHAFTESBURY ST.,91,Winning Horse,C. E.,Cavill,,
+resident,SHAFTESBURY ST.,93,,Arthur,Powell,labourer,
+resident,SHAFTESBURY ST.,95,,Albert Ed.,Bryant,,
+resident,SHAFTESBURY ST.,97,,Mrs. Jane,Davies,,
+resident,SHAFTESBURY ST.,99,,Elijah,Boulton,labourer,
+resident,SHAFTESBURY ST.,101,,—,Lifford,,

@@ -1,0 +1,173 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+cross_street,TUNNEL TERRACE,,,,,,Tunnel Terrace—continued.
+resident,TUNNEL TERRACE,44,Rockleigh,Richard,Jones,,
+cross_street,TUNNEL TERRACE,,,,,,(return)
+resident,TUNNEL TERRACE,45,Hazelhurst,W. C.,Davies,,
+resident,TUNNEL TERRACE,46,Pen-y-bryn,Mrs. Elizabeth,Blunt,,
+resident,TUNNEL TERRACE,47,Avalon house,Harry J. C.,Evans,,
+street,TURNER STREET,,,,,,C 3
+cross_street,TURNER STREET,,,,,,From 61 Caerleon-road
+resident,TURNER STREET,1,,Mrs. Mary,Marsh,,
+resident,TURNER STREET,2,,Albt. Hy.,Lale,boots,
+resident,TURNER STREET,,,James & Harris,,monumental masons,
+resident,TURNER STREET,,,,Davies Bros.,timber mchts,
+cross_street,TURNER STREET,,,,,,(return)
+resident,TURNER STREET,3,,John,Donovan,gas wkr,
+resident,TURNER STREET,4,,T. B.,Tucker,clerk,
+resident,TURNER STREET,5,,H. C.,Hill,,
+street,TYLLWYD ROAD,,,,,,C 6
+cross_street,TYLLWYD ROAD,,,,,,Off Oakfield-road
+cross_street,TYLLWYD ROAD,,,,,,(RIGHT HAND SIDE.)
+resident,TYLLWYD ROAD,1,,Harry J.,Herbert,,
+resident,TYLLWYD ROAD,2,,,,Void,
+resident,TYLLWYD ROAD,3,The Haven,Rev. Jas.,Seldon,,
+resident,TYLLWYD ROAD,4,,Guy,Jones,Treverton,
+resident,TYLLWYD ROAD,5,Arfryn,Evan Dd.,Harries,,
+resident,TYLLWYD ROAD,6,Craiglas,Frank,Smith,,
+cross_street,TYLLWYD ROAD,,,,,,(return)
+cross_street,TYLLWYD ROAD,,,,,,here is Southville-road
+resident,TYLLWYD ROAD,,Llangattock,W. E.,Matthews,,
+resident,TYLLWYD ROAD,,The Laurels,E. E.,Williams,,
+street,UNION LANE,,,,,,D 4
+cross_street,UNION LANE,,,,,,Dock-street to Union-street
+resident,UNION LANE,,,Geo.,Boots,marine stores,
+street,UNION STREET,,,,,,D 4
+cross_street,UNION STREET,,,,,,From 32 Llanarth-street
+resident,UNION STREET,1,,Thomas,Murray,labourer,
+resident,UNION STREET,2,,John,Daley,labourer,
+resident,UNION STREET,3,,James,Thomas,labourer,
+resident,UNION STREET,4,,William,Stanton,labourer,
+resident,UNION STREET,5,,Herbert,Signot,haulier,
+resident,UNION STREET,6,,Wm.,Kalahar,labourer,
+resident,UNION STREET,7,,James,Allen,labourer,
+resident,UNION STREET,8,,Evan John,Davies,labr,
+resident,UNION STREET,9,,Michael,Sweeney,tailor,
+resident,UNION STREET,10,,Thomas,Sterry,labourer,
+resident,UNION STREET,11,,Fred,Jones,labourer,
+resident,UNION STREET,,,Star works,Avery & Sons,carriage builders,
+cross_street,UNION STREET,,,,,,(return)
+resident,UNION STREET,14,,John,Le Clare,labourer,
+resident,UNION STREET,15,,Thomas,Welsh,labourer,
+resident,UNION STREET,,,Thos.,Dunscombe,caretkr,
+street,UPTON PLACE,,,,,,
+cross_street,UPTON PLACE,,,,,,No. 182 to 196 Chepstow-road
+street,UPTON ROAD,,,,,,C 6
+cross_street,UPTON ROAD,,,,,,From 87 Risca-road to West Park-road
+cross_street,UPTON ROAD,,,,,,(LEFT HAND SIDE.)
+resident,UPTON ROAD,1,Overdale,W. H.,Wilson,,
+resident,UPTON ROAD,3,,James,Parkes,,
+resident,UPTON ROAD,5,,Rees,Davies,,
+resident,UPTON ROAD,7,,John,Zeal,,
+resident,UPTON ROAD,9,,Richard,Davies,,
+resident,UPTON ROAD,11,,Orlando,Davies,,
+cross_street,UPTON ROAD,,,,,,here is Ombersley-road
+resident,UPTON ROAD,13,,Jos. G.,Ellis,,
+resident,UPTON ROAD,15,,Robt.,Giddings,gardener,
+resident,UPTON ROAD,17,,William,Vanderplank,,
+cross_street,UPTON ROAD,,,,,,here is West Park-road
+resident,UPTON ROAD,52,,John,Rawlings,,
+resident,UPTON ROAD,50,,George,Hill,,
+cross_street,UPTON ROAD,,,,,,(return)
+resident,UPTON ROAD,48,,David,Jenkins,carpenter,
+resident,UPTON ROAD,46,,Frank,Jeffries,,
+resident,UPTON ROAD,44,,Wm.,Graham,timekeeper,
+resident,UPTON ROAD,42,,Mrs. M. E.,Davies,,
+resident,UPTON ROAD,40,,Archibald,MacLachlan,,
+resident,UPTON ROAD,38,,Wm.,Smale,foreman,
+resident,UPTON ROAD,36,,Mrs. Catherine,Cooper,,
+resident,UPTON ROAD,34,,George S.,Gibbons,,
+resident,UPTON ROAD,32,,Albert E.,Watkins,comp.,
+resident,UPTON ROAD,30,,Cuthbert,Dunn,,
+resident,UPTON ROAD,28,,W. J.,Sambrook,,
+resident,UPTON ROAD,26,,Godfrey,Phillips,,
+resident,UPTON ROAD,24,,J. Le C.,Kicke,fitter,
+resident,UPTON ROAD,22,,Wm.,Rendell,signalman,
+resident,UPTON ROAD,20,,Thos. Wm.,Mitchell,junr.,
+resident,UPTON ROAD,18,,Frank,Cleverly,gardener,
+resident,UPTON ROAD,16,,Jenkyn,Francis,,
+resident,UPTON ROAD,14,,Chas.,Pobjoy,foreman,
+resident,UPTON ROAD,12,,Thomas W.,Mitchell,senr.,
+resident,UPTON ROAD,10,,Herbert,Garland,gardener,
+resident,UPTON ROAD,8,,Miss Mary G.,James,,
+resident,UPTON ROAD,6,,W. S.,Cooper,gym. instr.,
+resident,UPTON ROAD,4,,John,Hopkins,gardener,
+resident,UPTON ROAD,2,,Miss Jessie,Vaughan,,
+street,USK STREET,,,,,,C 3
+cross_street,USK STREET,,,,,,Bath-street to Constance-street
+cross_street,USK STREET,,,,,,(LEFT HAND SIDE.)
+resident,USK STREET,1,,Edwin,Hawes,gardener,
+resident,USK STREET,2,,Walter,Pitman,carpenter,
+resident,USK STREET,3,,Wm.,Oliver,roadman,
+resident,USK STREET,4,,Albert Leonard,Saddler,,
+resident,USK STREET,5,,Mrs. Sarah,Lovel,,
+resident,USK STREET,6,,Edward,Borough,,
+resident,USK STREET,7,,W. H.,Davies,shopkeeper,
+cross_street,USK STREET,,,,,,here is Gore-street
+resident,USK STREET,8,,Arthur Edward,Knowles,,
+resident,USK STREET,9,,Ebenezer,Williams,carptr,
+resident,USK STREET,10,,William,Hollister,,
+resident,USK STREET,11,,J. E.,Harvey,postman,
+resident,USK STREET,12,,J. W.,Jones,wagon exmnr,
+resident,USK STREET,13,,James,Porter,wireman,
+resident,USK STREET,,,Thos. Geo.,Ryan,postman,
+resident,USK STREET,14,,Thos.,Richards,postman,
+resident,USK STREET,15,,Wm.,Tucker,carpenter,
+resident,USK STREET,16,,Chas. W.,May,moulder,
+resident,USK STREET,17,,Herbt. Chas.,Lacey,G.W.R.,
+resident,USK STREET,18,,Wm.,Pugsley,postman,
+resident,USK STREET,19,,Regd.,Dacey,ironworker,
+cross_street,USK STREET,,,,,,(return)
+resident,USK STREET,20,,Mrs. E.,Fussell,shopkeeper,
+resident,USK STREET,21,,John Davis,Haynes,asst,
+resident,USK STREET,22,,,,Price,,
+resident,USK STREET,23,,Chas. F.,Prevost,shunter,
+resident,USK STREET,24,,George,Hopkins,uphlstrer,
+resident,USK STREET,25,,John,Pearce,ironworker,
+resident,USK STREET,26,,Chas. G. W.,Poole,postman,
+resident,USK STREET,27,,Thos.,Faulkes,police,
+resident,USK STREET,28,,Wm.,Beer,Charles,
+resident,USK STREET,29,,John H.,Goverd,labourer,
+resident,USK STREET,30,,Saml.,Harwood,coachbldr,
+resident,USK STREET,31,,Rd. Jas.,Parkman,,
+resident,USK STREET,32,,Henry,Gilpin,,
+resident,USK STREET,33,,George,Pearce,haulier,
+resident,USK STREET,34,,Mrs. Eliza,Beer,,
+resident,USK STREET,35,,Michael,O'Brien,,
+resident,USK STREET,36,,Wm. Oliver,Zeale,eng dvr,
+resident,USK STREET,37,,George,Coughlin,baker,
+resident,USK STREET,38,,Jas.,Davies,cab proprietor,
+street,VICARAGE LANE,,,,,,D 5
+cross_street,VICARAGE LANE,,,,,,Stow-hill-to Clytha-square
+street,VICTORIA AVENUE,,,,,,D 5
+cross_street,VICTORIA AVENUE,,,,,,From the George Hotel to Christchurch-road
+cross_street,VICTORIA AVENUE,,,,,,(LEFT HAND SIDE.)
+resident,VICTORIA AVENUE,2,,Henry G.,Anning,police,
+resident,VICTORIA AVENUE,3,,Sidney J.,Short,labourer,
+resident,VICTORIA AVENUE,4,,Samuel T.,Evans,carpentr,
+resident,VICTORIA AVENUE,5,,Geo. S.,Prosser,builder,
+resident,VICTORIA AVENUE,6,,Geo.,Maddicks,compositor,
+resident,VICTORIA AVENUE,7,,Miss,Edwards,dressmkr,
+resident,VICTORIA AVENUE,8,,Chas.,Bryant,roadman,
+resident,VICTORIA AVENUE,9,,Mrs. Mabel A.,Weeks,,
+resident,VICTORIA AVENUE,10,,Mrs. H.,Crum,,
+resident,VICTORIA AVENUE,11,Moss cot.,Edm.,Llewellyn,,
+resident,VICTORIA AVENUE,12,Fern cot,B. smith,Florida,,
+resident,VICTORIA AVENUE,13,,Henry,Martin,builder,
+resident,VICTORIA AVENUE,14,,Thos. Walter,Webb,ironworker,
+resident,VICTORIA AVENUE,15,,Wm. H.,Macey,ironwkr,
+resident,VICTORIA AVENUE,16,,Alfred,Tanner,platelayer,
+resident,VICTORIA AVENUE,,,Victoria Brotherhood Inst.,,,
+resident,VICTORIA AVENUE,,,VICTORIA WESLEYAN CHP.,,,
+resident,VICTORIA AVENUE,18,,John,Sims,labourer,
+resident,VICTORIA AVENUE,19,,Albt. John,Henson,dk. lbr,
+resident,VICTORIA AVENUE,20,,Edward R.,Bowns,shop,
+cross_street,VICTORIA AVENUE,,,,,,here is Crown street
+resident,VICTORIA AVENUE,22,,Mrs. Miriam,Hockey,,
+resident,VICTORIA AVENUE,23,,Frank,Aldridge,,
+resident,VICTORIA AVENUE,24,,Henry,Jones,labourer,
+resident,VICTORIA AVENUE,25,,Richard,Vowles,do.,
+resident,VICTORIA AVENUE,26,,George,Beck,,
+resident,VICTORIA AVENUE,27,,Mrs. Mary,Elliott,,
+resident,VICTORIA AVENUE,28,,James,Webber,builder,
+resident,VICTORIA AVENUE,29,,Albt. E.,Whittaker,painter,
+resident,VICTORIA AVENUE,30,Glencoe v,Frank,Bristow,,

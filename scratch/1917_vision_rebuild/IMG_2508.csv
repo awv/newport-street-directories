@@ -1,0 +1,152 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,CARDIFF ROAD,11,,Percival,Parry,,Ellesmere
+resident,CARDIFF ROAD,12,,John Elias,Garrett,,Wyndcliffe
+resident,CARDIFF ROAD,13,,Mrs. Elizabeth M.,James,,Claremont
+street,CARLTON CHAMBERS,,,,,,"See 43 High-street"
+street,CAROLINE STREET,D 4,,,,,"From 64 Dock-street"
+cross_street,CAROLINE STREET,,,,,,"(LEFT HAND SIDE)"
+resident,CAROLINE STREET,1,,Mrs. Julia,Kehely,,
+resident,CAROLINE STREET,2,,Richard,Brown,smith,
+resident,CAROLINE STREET,3,,James,James,labourer,
+resident,CAROLINE STREET,4,,George Charles,Pelling,,
+resident,CAROLINE STREET,5,,John,Manley,labourer,
+resident,CAROLINE STREET,6,,William,Dacey,gas worker,
+resident,CAROLINE STREET,7,,John,Morrish,labourer,
+resident,CAROLINE STREET,8,,Thomas J.,Davis,doubler,
+resident,CAROLINE STREET,9,,William,James,mason,
+resident,CAROLINE STREET,10,,Edw.,Lenahan,iron wkr,
+resident,CAROLINE STREET,11,,Benj. V.,Rogerson,labr,
+resident,CAROLINE STREET,12,,Mathew,Dacey,labourer,
+resident,CAROLINE STREET,13,,Mrs. Selina,Coombs,,
+resident,CAROLINE STREET,14,,Mrs. Susannah,Perkins,,
+resident,CAROLINE STREET,15,,Chas.,Bennett,blacksmith,
+resident,CAROLINE STREET,15A,,Wm.,Clarke,striker,
+resident,CAROLINE STREET,15B,,F.,Hart,sugar boiler,
+resident,CAROLINE STREET,15C,,Dennis,McCarthy,labr,
+cross_street,CAROLINE STREET,,,,,,"(return)"
+resident,CAROLINE STREET,16,,Henry,Whitney,carpenter,
+resident,CAROLINE STREET,17,,Percival O.,Harding,fitter,
+resident,CAROLINE STREET,18,,William,Hobbs,,
+resident,CAROLINE STREET,19,,Mrs. Lily,Coombs,,
+resident,CAROLINE STREET,20,,F.,Fisher,carpenter,
+resident,CAROLINE STREET,21,,Mrs. Mary,Jones,,
+resident,CAROLINE STREET,22,,William,Sefton,labourer,
+resident,CAROLINE STREET,23,,John,Elliott,labourer,
+resident,CAROLINE STREET,24,,Edward,Radmore,,
+resident,CAROLINE STREET,,,W.,Millinship,moulder,
+resident,CAROLINE STREET,25,,G. H.,Cook,checker,
+resident,CAROLINE STREET,26,,Geo. D.,Cook,electrician,
+resident,CAROLINE STREET,27,,Mrs. Emma,Jones,,
+resident,CAROLINE STREET,28,,Mrs. Elizabeth,May,,
+street,CARPENTERS' ARMS LANE,,,,,,"From 8 High-street"
+street,CASTLE PRECINCTS,C 4,,,,,"From 1 Shaftesbury-street"
+resident,CASTLE PRECINCTS,1,,G. L.,Vincent,fireman,
+resident,CASTLE PRECINCTS,2,,Walter Henry,Hillman,,
+resident,CASTLE PRECINCTS,3,,Alfd.,Williams,wireman,
+resident,CASTLE PRECINCTS,4,,Wm. Chas.,Thomas,labr,
+resident,CASTLE PRECINCTS,5,,Thomas,Roberts,,
+resident,CASTLE PRECINCTS,6,,Thomas,Tucker,ferryman,
+street,CASTLE STREET,E 4 15,,,,,"From Potter-st. to Church-st."
+cross_street,CASTLE STREET,,,,,,"(LEFT HAND SIDE.)"
+resident,CASTLE STREET,1A,,Dl. Thos.,Powell,gateman,
+resident,CASTLE STREET,1B,,Evan,Lewis,labourer,
+resident,CASTLE STREET,1,,Wm. Hy.,Powell,labourer,
+resident,CASTLE STREET,3,,Wm.,Cotterill,fireman,
+resident,CASTLE STREET,5,,Geo.,Pritchard,labourer,
+resident,CASTLE STREET,7,,Wm.,Buckley,labourer,
+resident,CASTLE STREET,9,,Geo.,Dermody,labourer,
+resident,CASTLE STREET,11,,W.,Manship,labourer,
+resident,CASTLE STREET,13,,Thos.,Blackley,labourer,
+resident,CASTLE STREET,15,,Jas.,Murphy,stevedore,
+resident,CASTLE STREET,17,,Daniel,Hart,labourer,
+resident,CASTLE STREET,19,,R. C.,Kewell,crane driver,
+resident,CASTLE STREET,21,,George,Dale,goods guard,
+resident,CASTLE STREET,23,,Fred.,Harwood,weigher,
+cross_street,CASTLE STREET,,,,,,"here is Linton-street"
+resident,CASTLE STREET,25,,Mary Ann,Ryan,,
+resident,CASTLE STREET,27,,Stanley,Johnson,labourer,
+cross_street,CASTLE STREET,,,,,,"here is Wallis-street"
+resident,CASTLE STREET,29,,Michl. J.,McCarthy,trimr,
+resident,CASTLE STREET,31,,Robert C.,Pring,hobbler,
+cross_street,CASTLE STREET,,,,,,"here is Wilson-street"
+resident,CASTLE STREET,33,,James,Mellon,labourer,
+resident,CASTLE STREET,,,Uskside Engineering Wks,,,
+cross_street,CASTLE STREET,,,,,,"here is St. Michael-street"
+resident,CASTLE STREET,22,,John,Webb,grocer,
+resident,CASTLE STREET,20,,Hy.,Russell,labourer,
+resident,CASTLE STREET,18,,James,Duggan,labourer,
+resident,CASTLE STREET,16,,Thomas,Scannell,labourer,
+resident,CASTLE STREET,14,,Geo. J.,Stewart,carpenter,
+resident,CASTLE STREET,12,,Wm.,Thorne,labourer,
+resident,CASTLE STREET,10,,Nicholas,Kearns,,
+resident,CASTLE STREET,8,,Patrick,Murphy,moulder,
+resident,CASTLE STREET,6,,William,Tait,dk labourer,
+resident,CASTLE STREET,4,,Charles,Regan,labourer,
+resident,CASTLE STREET,2,,Mrs. M.,Lane,,
+street,CAXTON PLACE,C 5,,,,,"From 23 Bridge-street"
+cross_street,CAXTON PLACE,,,,,,"(LEFT HAND SIDE.)"
+resident,CAXTON PLACE,1,,J. A. T. & Sons,Williams,art furnishers,
+resident,CAXTON PLACE,2,,William,Smith,,
+resident,CAXTON PLACE,3,,William,Price,tailor,
+cross_street,CAXTON PLACE,,,,,,"(return)"
+resident,CAXTON PLACE,4,,A. J.,Featherstone,refreshments,
+resident,CAXTON PLACE,5,,Mrs. Julia,Meany,,
+street,CEDAR ROAD,C 4,,,,,"From 36 Chepstow-road to Corporation-road"
+cross_street,CEDAR ROAD,,,,,,"(LEFT HAND SIDE.)"
+resident,CEDAR ROAD,1,,H.,Weaven,,The Nutshell
+resident,CEDAR ROAD,3,,Edwd.,Jones,,Mona house
+resident,CEDAR ROAD,5,,Tom,Parselle,,Ellesmere
+resident,CEDAR ROAD,7,,R. P.,Kilmister,,
+resident,CEDAR ROAD,9,,Edwin,Lewis,traveller,
+cross_street,CEDAR ROAD,,,,,,"here is Bedford-road"
+resident,CEDAR ROAD,11,,Wm.,Batty,,St. Ives
+resident,CEDAR ROAD,13,,H. E.,Baker,,Ingleside
+resident,CEDAR ROAD,15,,Joseph M.,Lavis,,
+resident,CEDAR ROAD,17,,Walt.,Crossman,,Earlsw'd
+resident,CEDAR ROAD,19,,Nathaniel,Marks,,
+resident,CEDAR ROAD,21,,D.,Linton,,Chelwood ho
+resident,CEDAR ROAD,23,,Chas. Herbert,Pitman,,
+cross_street,CEDAR ROAD,,,,,,"here is Corporation-road"
+cross_street,CEDAR ROAD,,,,,,"(return)"
+resident,CEDAR ROAD,20,,Edwin,Jones,,
+resident,CEDAR ROAD,18,,Mrs. M. A. E.,Williams,,
+resident,CEDAR ROAD,,,W. C.,Richards,carpenter,
+resident,CEDAR ROAD,16,,Mrs. Mary J.,Davies,,
+resident,CEDAR ROAD,14,,Fredk. Phelps,Williams,,
+resident,CEDAR ROAD,12,,Mrs. Emma,Seymour,,
+cross_street,CEDAR ROAD,,,,,,"here is Bedford-road [ton"
+resident,CEDAR ROAD,10,,Mrs. K.,Clarke,,Levering-
+resident,CEDAR ROAD,8,,A.,Graham,solicitor,
+resident,CEDAR ROAD,6,,Percy,Parsons,,
+resident,CEDAR ROAD,4,,Misses B. & A.,Jones,,Riversdale
+resident,CEDAR ROAD,2,,W. J.,Bowden,pilot,
+street,CEMETERY LANE,D 5,,,,,"North-street to Clifton-road"
+street,CENFEDD STREET,C 3,,,,,"Off Constance-street"
+resident,CENFEDD STREET,1,,Wm. Hy. J.,Vittle,blrmkr,
+resident,CENFEDD STREET,3,,Wm.,Rose,G.W.R.,
+resident,CENFEDD STREET,5,,Thos. E.,Tanner,painter,
+resident,CENFEDD STREET,7,,Geo.,Marley,traffic irman,
+resident,CENFEDD STREET,9,,Reg.,Pring,seaman,
+resident,CENFEDD STREET,11,,Robt. O.,Evans,G.W.R.,
+street,CHARLES STREET,D 4,,,,,"From 149 Commercial-street to Stow-hill"
+resident,CHARLES STREET,,,The Empire—Moss Empires Ltd.,,proprietors,
+cross_street,CHARLES STREET,,,,,,"here is Talbot-lane"
+resident,CHARLES STREET,6,,T.,Miles,cabinet maker,
+resident,CHARLES STREET,7,Union Jack Rooms,,,,
+resident,CHARLES STREET,8,,Mrs. Emily,Pacello,,
+resident,CHARLES STREET,9,,W. Chas.,Morris,tailor,
+resident,CHARLES STREET,10,,A. G.,Bird,house decorator,
+resident,CHARLES STREET,11,,Southern Equitable Advance Co., Ltd.—Edwd. Gardner,manager,
+resident,CHARLES STREET,,,English Baptist Church,,,
+resident,CHARLES STREET,,,Newport Elementary Education Offices—Eaves T. A.,sec.,
+resident,CHARLES STREET,,,School Medical Department,,,
+resident,CHARLES STREET,,,Caleb,Squire,caretaker,
+resident,CHARLES STREET,,,W. & Son,Collard,"office and showrooms",
+resident,CHARLES STREET,17,,Wm.,Collard,builder,
+resident,CHARLES STREET,18,Newport War Pensions and Local Committee,,,"Hon. Sec.: Mrs. H. Wallis-Jones"
+resident,CHARLES STREET,19,,Joseph,Grande,,
+resident,CHARLES STREET,20,,Rosser & Llewellyn,,costumiers,
+resident,CHARLES STREET,21,Bible and Tract Depot,,,,
+cross_street,CHARLES STREET,,,,,,"(return)"
+resident,CHARLES STREET,22,,John,Roberts,grocer,
+resident,CHARLES STREET,23,,Mrs. Wm.,Rowberry,,

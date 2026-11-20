@@ -1,0 +1,181 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,ROSS STREET,,,,,,"B 4"
+cross_street,ROSS STREET,,,,,,Off Brynglas-road
+cross_street,ROSS STREET,,,,,,(RIGHT HAND SIDE.)
+resident,ROSS STREET,2,,,Jenkins,blind maker,John
+resident,ROSS STREET,4,,,Roberts,,
+resident,ROSS STREET,6,,,Cousins,,Robert
+resident,ROSS STREET,8,,,Ruston,foundrymn,David
+resident,ROSS STREET,10,,,Wright,G.W.R.,Bert
+resident,ROSS STREET,12,,,Ballinger,,William
+resident,ROSS STREET,14,,,Levi,glasswkr,Bertram
+resident,ROSS STREET,16,,,Mullis,,Wm. Henry
+resident,ROSS STREET,18,,,Howard,traveller,Oscar H.
+resident,ROSS STREET,20,,,Kendall,,Alfred Ll.
+resident,ROSS STREET,22,,,Strong,G.W.R.,Ambrose
+resident,ROSS STREET,24,,,White,tinsmith,Francis J.
+resident,ROSS STREET,26,,,Doughty,crane drivr,Sam
+resident,ROSS STREET,28,,,Heard,guard,George
+resident,ROSS STREET,30,,,Kirby,tailor,John
+resident,ROSS STREET,32,,,Harman,police,Rd. Harry
+resident,ROSS STREET,34,,,Williams,carpentr,Wm. R.
+resident,ROSS STREET,36,,,Bristow,,William
+resident,ROSS STREET,38,,,Cook,managr,Harry John
+resident,ROSS STREET,40,,,Hoxton,,William
+resident,ROSS STREET,42,,,Millington,,Arthur Wm.
+resident,ROSS STREET,44,,,Chalker,ironwkr,Herbt.
+cross_street,ROSS STREET,,,,,,Vacant sites
+cross_street,ROSS STREET,,,,,,(return)
+cross_street,ROSS STREET,,,,,,Vacant sites
+resident,ROSS STREET,45,,,Davies,steward,Evan
+resident,ROSS STREET,43,,,Sumption,roll turner,A. T.
+resident,ROSS STREET,41,,,Clarke,guard G.W.R.,John
+resident,ROSS STREET,39,,,Young,signal fitter,J.
+resident,ROSS STREET,37,,,Evenson,engine driver,William
+resident,ROSS STREET,35,,,Phillips,postman,George
+resident,ROSS STREET,33,,,King,clerk,Tom
+resident,ROSS STREET,31,,,Tearne,ironworker,Wm.
+resident,ROSS STREET,29,,,Bell,haulier,Frank Edwd.
+resident,ROSS STREET,27,,,Rendle,shunter,Arthur
+resident,ROSS STREET,25,,,Jennings,eng. driver,Hy.
+resident,ROSS STREET,23,,,Rate,engine driver,Percy
+resident,ROSS STREET,21,,,Vincent,G.W.R.,George
+resident,ROSS STREET,19,,,Jobbins,boatman,John
+resident,ROSS STREET,17,,,Brown,postman,Hy. John
+resident,ROSS STREET,15,,,Vivian,gas worker,Alfd.
+resident,ROSS STREET,13,,,Robertson,chaffeur,W. G.
+resident,ROSS STREET,11,,,Jones,bootmaker,Samuel
+resident,ROSS STREET,9,,,Thomas,,William C.
+resident,ROSS STREET,7,,,Pearson,postman,Alfred
+resident,ROSS STREET,5,,,Abbott,draughtsman,C. L.
+resident,ROSS STREET,3,,,Dowding,G.W.R.,Alfred
+resident,ROSS STREET,1,,,Morrish,baker etc.,H. E.
+street,ROSSLYN ROAD,,,,,,"D 3"
+cross_street,ROSSLYN ROAD,,,,,,Off Chepstow-road
+cross_street,ROSSLYN ROAD,,,,,,(LEFT HAND SIDE.)
+resident,ROSSLYN ROAD,1,,,Bathe,,B. W.
+resident,ROSSLYN ROAD,3,,,Jordan,,Mrs. Louisa
+resident,ROSSLYN ROAD,5,,,Clarke,,Raymond
+resident,ROSSLYN ROAD,7,,,Gosling,,Alfred William
+resident,ROSSLYN ROAD,9,,,Walker,,George B.
+resident,ROSSLYN ROAD,11,,,Badham,,Robert James
+resident,ROSSLYN ROAD,13,,,Greenfield,ironwkr,Benj.
+resident,ROSSLYN ROAD,15,,,Thomas,,Harry T.
+resident,ROSSLYN ROAD,17,,,Clarke,,Wm. Henry
+resident,ROSSLYN ROAD,19,,,Haigh,,J. Henry
+resident,ROSSLYN ROAD,21,,,Williams,carpenter,C. H.
+resident,ROSSLYN ROAD,23,,,Lewis,decorator,A. H.
+cross_street,ROSSLYN ROAD,,,,,,Vacant sites
+cross_street,ROSSLYN ROAD,,,,,,(return)
+resident,ROSSLYN ROAD,,Shop void,,,,
+resident,ROSSLYN ROAD,42,,,Drewett,clerk,J. C.
+resident,ROSSLYN ROAD,40,,,Taylor,carpenter,John
+resident,ROSSLYN ROAD,38,,,Howard,bricklr,Thos. Wm.
+resident,ROSSLYN ROAD,36,,,Evans,,Iforoswyn G.
+resident,ROSSLYN ROAD,34,,,Pritchard,,William
+resident,ROSSLYN ROAD,32,,,Sturley,,Mrs. Emma
+resident,ROSSLYN ROAD,30,,,John,smith,John
+resident,ROSSLYN ROAD,28,,,Welberg,,Mrs. Abigail
+resident,ROSSLYN ROAD,26,,,Aldons,,Mrs. Emma
+resident,ROSSLYN ROAD,24,,,Reilly,sailmaker,James
+resident,ROSSLYN ROAD,22,,,Nicholls,,Thomas
+resident,ROSSLYN ROAD,20,,,Franklin,,Geo. Charles
+resident,ROSSLYN ROAD,18,,,Bullock,,G. A.
+resident,ROSSLYN ROAD,16,,,Plowman,R.S.P.C.A.,M.
+resident,ROSSLYN ROAD,14,,,Roberts,,Mrs. N.
+resident,ROSSLYN ROAD,12,,,Andrews,porter G.W.R.,R.
+resident,ROSSLYN ROAD,10,,,Matthews,,Dudley Vincent
+resident,ROSSLYN ROAD,8,,,Horlock,,Mrs. C.
+resident,ROSSLYN ROAD,6,,,Rowe,plasterer,James
+resident,ROSSLYN ROAD,4,,,Heath,ironwkr,Henry
+resident,ROSSLYN ROAD,2,,,Frampton,,William
+street,ROTHESAY ROAD,,,,,,"D 3"
+cross_street,ROTHESAY ROAD,,,,,,Off Chepstow-road
+cross_street,ROTHESAY ROAD,,,,,,(LEFT HAND SIDE.)
+resident,ROTHESAY ROAD,1,,,Mills,plumber,W. H.
+resident,ROTHESAY ROAD,3,,,Townsend,chas. grcr,Hy.
+resident,ROTHESAY ROAD,5,,,Trenchard,,Joseph
+resident,ROTHESAY ROAD,7,,,Jones,manager,George
+resident,ROTHESAY ROAD,9,,,Cousins,ironwkr,Ernest J.
+resident,ROTHESAY ROAD,11,,,Wright,carpenter,Alfred
+cross_street,ROTHESAY ROAD,,,,,,Vacant sites
+cross_street,ROTHESAY ROAD,,,,,,(return)
+resident,ROTHESAY ROAD,,shop,,,Goring,George
+cross_street,ROTHESAY ROAD,,,,,,Vacant sites
+resident,ROTHESAY ROAD,20,,,Johns,,Robert Lewis
+resident,ROTHESAY ROAD,18,,,Wangler,,Melville
+resident,ROTHESAY ROAD,16,,,Gillett,,Arthur
+resident,ROTHESAY ROAD,14,,,Williams,wghmn,Alfd. Jas.
+resident,ROTHESAY ROAD,12,,,Brace,ironworker,John
+resident,ROTHESAY ROAD,10,,,Williams,tailor,Arthur
+resident,ROTHESAY ROAD,8,,,Taylor,,Albert Edward
+resident,ROTHESAY ROAD,6,,,Harrison,ironwkr,Wm. G.
+resident,ROTHESAY ROAD,4,,,Dando,P.O.,Thomas
+resident,ROTHESAY ROAD,2,,,Campbell,,William E.
+street,RUDRY STREET,,,,,,"C 4"
+cross_street,RUDRY STREET,,,,,,From Tregare-st. E. Usk-rd.
+cross_street,RUDRY STREET,,,,,,(LEFT HAND SIDE.)
+resident,RUDRY STREET,1,,,Slattery,labr,C. H. dk.
+resident,RUDRY STREET,2,,,Maylin,haulier,James
+resident,RUDRY STREET,3,,,Thomas,wagon examinr,E.
+resident,RUDRY STREET,4,,,Scott,stonemason,William
+resident,RUDRY STREET,5,,,Woods,labourer,Edward
+resident,RUDRY STREET,6,,,Maisey,labr.,Albt. Ernest
+resident,RUDRY STREET,7,,,Vickery,,James
+resident,RUDRY STREET,8,,,Thomas,,Edwin
+resident,RUDRY STREET,9,,,Jones,,Mrs. Elizabeth
+resident,RUDRY STREET,10,,,Murphy,,Mrs. Annie
+resident,RUDRY STREET,11,,,Roach,,Thomas
+resident,RUDRY STREET,12,,,Baker,,Mrs. Susan
+resident,RUDRY STREET,13,,,Marrett,carpenter,John
+resident,RUDRY STREET,14,,,Morgan,labourer,Thomas
+resident,RUDRY STREET,15,,,Void,,
+resident,RUDRY STREET,16,,,Sidney,,William Henry
+resident,RUDRY STREET,17,,,Oakley,plumber,George
+resident,RUDRY STREET,18,,,Burgoyne,billposter,Pat.
+resident,RUDRY STREET,19,,,Merrick,signal fitter,Alf.
+resident,RUDRY STREET,20,,,Anthony,,Mrs. Julia
+cross_street,RUDRY STREET,,,,,,(return)
+resident,RUDRY STREET,,,,Purnell A. & W.,saw mills,
+resident,RUDRY STREET,,,,Richards H. & Co.,Engineering & Motor wks,Usk
+cross_street,RUDRY STREET,,,,,,Vacant sites
+resident,RUDRY STREET,21,,,Void,,
+resident,RUDRY STREET,22,,,Void,,
+street,RUGBY ROAD,,,,,,"D 4"
+cross_street,RUGBY ROAD,,,,,,From Harrow-rd. to Eton-rd.
+cross_street,RUGBY ROAD,,,,,,(LEFT HAND SIDE.)
+resident,RUGBY ROAD,1,The Elms,,Gay,,Henry
+resident,RUGBY ROAD,3,,,Uppington,,Thomas
+resident,RUGBY ROAD,5,The Oaks,,Donoghue,,P. E.
+resident,RUGBY ROAD,7,The Beeches,,Williams,,Dd.
+resident,RUGBY ROAD,9,The Limes,,Elliott,,Mrs. Mary H.
+resident,RUGBY ROAD,11,,,Llewellyn,,Henry
+resident,RUGBY ROAD,13,,,Davies,ins. supt.,Geo. F.
+resident,RUGBY ROAD,15,St. Clair,,Howe,,Reginald B.
+resident,RUGBY ROAD,17,St. Ives,,Blandford,,Edwin
+resident,RUGBY ROAD,19,,,Gordon,,John
+resident,RUGBY ROAD,21,,,Joyce,,Charles I.
+resident,RUGBY ROAD,23,Cardigan house,,Mason,,Jesse
+resident,RUGBY ROAD,25,Glen Neuk,,Doody,,Mrs. Kate
+resident,RUGBY ROAD,27,,,Mayo,traveller,Geo. A.
+resident,RUGBY ROAD,29,,,Parry,provision mer,Wm.
+cross_street,RUGBY ROAD,,,,,,here is Eton-road
+cross_street,RUGBY ROAD,,,,,,here is Cambridge-road
+resident,RUGBY ROAD,,,Children's Recreation ground,,,
+cross_street,RUGBY ROAD,,,,,,here is Kingston-road
+resident,RUGBY ROAD,,Rosedale,,Jones,,John
+cross_street,RUGBY ROAD,,,,,,(return)
+resident,RUGBY ROAD,66,,,Richards,ironworker,Wm.
+resident,RUGBY ROAD,64,,,Shortland,ironwkr,Geo.
+resident,RUGBY ROAD,62,,,Payne,,George
+resident,RUGBY ROAD,60,,,Dark,joiner,William
+resident,RUGBY ROAD,58,,,Adams,,Albert Edward
+resident,RUGBY ROAD,56,,,Griffiths,,Mrs. Mary E.
+resident,RUGBY ROAD,54,Bayston ho,,Evans,ins. supt.,Arthur
+resident,RUGBY ROAD,52,,,Owen,ins. supt.,E. Chas.
+cross_street,RUGBY ROAD,,,,,,here is Malvern-road
+resident,RUGBY ROAD,50,,,Hodges,shopkeeper,Benj.
+resident,RUGBY ROAD,48,,,Gilbert,fitter,John
+resident,RUGBY ROAD,46,,,Jones,,Henry
+resident,RUGBY ROAD,44,,,Brittan,,Albert
+resident,RUGBY ROAD,42,,,Edwards,ironworker,Wm.

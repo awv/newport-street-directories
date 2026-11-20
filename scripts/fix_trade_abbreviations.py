@@ -138,6 +138,24 @@ PACKED_NAME_RE = re.compile(
 )
 
 
+HO_RE = re.compile(
+    r"\b([A-Za-z'\-]+)([\s\-])ho\.?(?![A-Za-z])",
+    re.I,
+)
+
+
+def fix_ho(val: str, col: str) -> str:
+    new_val = HO_RE.sub(
+        lambda m: m.group(0) if m.group(1).lower() == "westward" else f"{m.group(1)}{m.group(2)}House",
+        val,
+    )
+    if col == "trade":
+        new_val = re.sub(r"(?i)^ho\s+agent\b", "House Agent", new_val)
+        new_val = re.sub(r"(?i)^ho\s+furnisher\b", "House Furnisher", new_val)
+        new_val = re.sub(r"(?i)\bho,\s*Alteryn\b", "House, Alteryn", new_val)
+    return new_val
+
+
 def fix_trade(trade: str) -> str:
     t = trade
     for pat, rep in REPLACEMENTS:
@@ -274,6 +292,13 @@ def process_csv(path: Path) -> int:
                     r["surname"] = "Griffiths"
                     r["forename"] = "BTA"
                     row_changed = True
+
+        for col in ("building_name", "trade", "surname", "forename"):
+            old_val = r.get(col) or ""
+            new_val = fix_ho(old_val, col)
+            if new_val != old_val:
+                r[col] = new_val
+                row_changed = True
 
         old = r.get("trade") or ""
         new = fix_trade(old)

@@ -1,0 +1,97 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,HIGH STREET,,,,,,
+resident,HIGH STREET,24,,O. G.,Bland,confectioner,
+resident,HIGH STREET,,,A. J.,Esdaile,optician etc.,
+resident,HIGH STREET,25,,,Davies Latimer Limited,chemists,
+resident,HIGH STREET,26,,Alf.,Simmonds,hatter &c.,
+resident,HIGH STREET,26A,,H.,Samuel,jeweller,
+resident,HIGH STREET,,Griffin Chambers,,May Joseph & Sons,wholesale clothiers,
+resident,HIGH STREET,,Griffin Chambers,J. Francis,Jupp,M.I.C.E. civil engineer,
+cross_street,HIGH STREET,,,here is Griffin-street,,,
+resident,HIGH STREET,,Kelvin Chambers,,,Atkins & Co.,house agents,
+resident,HIGH STREET,27,,,Cecil & Co. Ltd.,outfitters and drapers,
+resident,HIGH STREET,27A,,,Style & Mantle,costumiers,
+resident,HIGH STREET,28,,E. & Sons,Hall,"family grocers at store prices agents for W. & A. Gilbey's wines and spirits and Whitbread's ales and stouts in bottles Tel. 3504",
+resident,HIGH STREET,28,,,"Bland & Sons, Ltd.",""" The Mikado """,
+resident,HIGH STREET,,Winchester Chambers,H.,Akers,engraver,
+resident,HIGH STREET,29,,Fred.,Burn,Ltd. tailors,
+resident,HIGH STREET,30,,,Cash & Co.,boot manufacturers,
+resident,HIGH STREET,,Pembroke Chambers,B. B.,Homan,dental surgery,
+resident,HIGH STREET,,Pembroke Chambers,John,Hillman,house agt.,
+resident,HIGH STREET,31-32,,,Hodges & Sons,clothrs Ltd.,
+resident,HIGH STREET,33,,F. P.,United Counties Bank,Horden manager Barclay & Co. Ltd.,
+resident,HIGH STREET,,Gloucester Chambers,,Le Brasseur & Co.,solicitors,First Floor
+resident,HIGH STREET,,Gloucester Chambers,(Lyndon) & Cooper,Moore,solicitors,First Floor
+resident,HIGH STREET,,Gloucester Chambers,W. Lyndon,Moore,"solicitor Borough Coroner commissioner for oaths",First Floor
+resident,HIGH STREET,,Gloucester Chambers,F. Lyndon,Cooper,"solicitor commissioner for oaths and Deputy Coroner",First Floor
+resident,HIGH STREET,,Gloucester Chambers,E. C.,Wring,registrar of births and deaths for Newport West (13-14),First Floor
+resident,HIGH STREET,,Gloucester Chambers,John,Powell,iron and steel merchant (23),Second Floor
+resident,HIGH STREET,,Gloucester Chambers,W. Calvin,Thomas,manager Scottish Temp. Life Assurance Co. Ltd.,Second Floor local
+cross_street,HIGH STREET,,,here is Skinner-street and Commercial-street (return),,,
+resident,HIGH STREET,,,"W. T. Duke Williams, manager",Nat. Provincial Bank Ltd.,,
+resident,HIGH STREET,34,,S. M.,Bowen,tobacconist,
+resident,HIGH STREET,35-35A,,,Cordey's Stores Ltd.,,
+resident,HIGH STREET,36,,,Lloyd's Mantle shop,,
+resident,HIGH STREET,37,,Walter H.,Williams,wine and spirit merchant,
+resident,HIGH STREET,38,,J. & Co.,Barter,tailors,
+resident,HIGH STREET,38A,,,Donegal Tweed Co.,,
+resident,HIGH STREET,38A,,,Pegler's Stores Ltd.,provision merchants,
+resident,HIGH STREET,,Emlyn Chambers,C.,Fuller,dentistry,
+resident,HIGH STREET,39-40,,E. Whitsun Jones mgr.,"Masters & Co. (Clothiers) Ltd. Cardiff & Swansea",,
+resident,HIGH STREET,39-40,,Wm. F.,Blake,photogrph,
+resident,HIGH STREET,40A,,,Baker & Manhire Ltd.,drapers and milliners,
+resident,HIGH STREET,,Queen's Chambers,,Habershon Fawckner & Co.,F.R.I.B.A. architects and surveyors,
+resident,HIGH STREET,,Queen's Chambers,,,Maypole Dairy Co. Ltd.,
+resident,HIGH STREET,42,,G. White managr,Oliver G.,boot manufacturer,
+resident,HIGH STREET,43,,E. G. & Sons,Taylor,"drapers milliners and furnishers",
+resident,HIGH STREET,,Carlton Chambers,,Pillinger Henry J. & Co.,stock and share brokers (3-5-7-9),First Floor
+resident,HIGH STREET,,Carlton Chambers,Cuthbert F.,Thompson,mechanical and consulting engineer (6),First Floor
+resident,HIGH STREET,,Carlton Chambers,E. C.,Jordan & Sons,contractors (14),First Floor
+resident,HIGH STREET,,Carlton Chambers,J. H.,Wagstaff,chiropodist,First Floor
+resident,HIGH STREET,,Carlton Chambers,Walter & Co.,Meacock,chartered accountants (23-24),First Floor
+resident,HIGH STREET,,Carlton Chambers,Jos.,Sykes,solicitor (19-22),First Floor
+resident,HIGH STREET,,Carlton Chambers,William & Co.,Clarence,accountants (33),First Floor
+resident,HIGH STREET,,Carlton Chambers,S. G.,Walters,house agt.,32 Carlton chambers
+resident,HIGH STREET,,Carlton Chambers,,,Newport & South Wales Wine & Spirit Co. Ltd.,Secretary's office (2)
+resident,HIGH STREET,,Carlton Chambers,,Francombe Wintle & Co.,builders' merchants (26),Second Floor
+resident,HIGH STREET,,Carlton Chambers,Abraham,Smith,caretaker,Third Floor
+resident,HIGH STREET,44,,F. J.,Kimpton,outfitter,
+cross_street,HIGH STREET,,,THE NEWPORT ARCADE,,,
+resident,HIGH STREET,45,,W. H.,Florida,jeweller,
+resident,HIGH STREET,45,,John Pritchard manager,Newport & S. W. Wine and Spirit Co. Ltd.,,
+resident,HIGH STREET,46,,,Trueform Boot Co. Ltd.,,
+resident,HIGH STREET,47,,Williams & Davies,Newport Trimming Shop,,
+resident,HIGH STREET,48,,Wm. jun.,Watkins,toy dealer,
+resident,HIGH STREET,49,Greyhound Hotel,George,Carter,,
+resident,HIGH STREET,50,Noah's Ark Corrider,,Greenland & Co.,stationers and fancy dealers,
+resident,HIGH STREET,50,,,Maynard's Ltd.,conf'rs,
+resident,HIGH STREET,50,,,Marks & Spencer Ltd.,1d. bazaar,
+resident,HIGH STREET,50,,W.,Bibby,jeweller,
+resident,HIGH STREET,51,Mercantile Chambers,,Jones Geo. & Co.,iron and metal merchants,
+resident,HIGH STREET,51,Mercantile Chambers,,,Provident Clothing and Supply Co. Ltd.,,
+resident,HIGH STREET,51,Mercantile Chambers,J. G.,Taylor,accountant,
+resident,HIGH STREET,51,Mercantile Chambers,,,Phillips Griffiths & Co. Ltd.,colliery proprietors,
+resident,HIGH STREET,51,Mercantile Chambers,,Joyce & Sons,"booksellers stationers printers etc.",
+resident,HIGH STREET,52,,,Joyce & Sons,drapers and milliners,
+resident,HIGH STREET,53,,J. N.,Pennington,"Muren-ger house confectioner and restaurant",
+resident,HIGH STREET,54,Tredegar Arms Hotel,P. D.,Carter,,
+resident,HIGH STREET,55,,Bros.,Williams,tailors,
+resident,HIGH STREET,55,,,Boodles Ltd.,teeth adaptrs,
+resident,HIGH STREET,56,,,Newport Electric Theatre,,
+cross_street,HIGH STREET,,,Entrance to Railway-station,,,
+resident,HIGH STREET,,Savoy Buildings E. C. Bland manager,Savoy Hotel,,,
+resident,HIGH STREET,,Savoy Buildings,,Monmouthshire Club,,
+resident,HIGH STREET,,Savoy Buildings,,Ministry of Munitions,(2nd floor)
+resident,HIGH STREET,58,,C. E.,Keene,tobacconist,
+resident,HIGH STREET,58,,,Bland A. W. & Sons Ltd.,restaurant,
+resident,HIGH STREET,59,,C. H.,Burcham,"gentlemen's outfitter hatter and hosier",
+resident,HIGH STREET,60-1-2,,,General Post Office,See Local Information,
+cross_street,HIGH STREET,,,here is Thomas-street,,,
+resident,HIGH STREET,,Corn Exchange,,Newport Exchange,,
+resident,HIGH STREET,,Corn Exchange Exchange Chambers,,Rees W. G. & Sons,,
+resident,HIGH STREET,,Corn Exchange Exchange Chambers,Blethyn T.,Rees,C.E.,
+resident,HIGH STREET,63,,,Davis Lloyds & Wilson,solicitors ocmmissioners for oaths,
+resident,HIGH STREET,63,,C. F. Davey agt.,South Mon. Conservative Asstn.,,
+resident,HIGH STREET,63,,,R.N.V.R. Recruiting Of.,,
+resident,HIGH STREET,63,Dutch Cafe,,Stevens T. Ld.,,
+resident,HIGH STREET,64,,,,Void,

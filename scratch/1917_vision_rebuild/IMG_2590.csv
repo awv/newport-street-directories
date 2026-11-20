@@ -1,0 +1,129 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,SHA,154,,,David,Williams,draper,
+resident,SHA,152,,,Robert,Smith,boot dealer,
+resident,SHA,150,,,A. C.,Wanklyn,hairdressr,
+resident,SHA,148,,,Thomas J,Thomas,butcher,
+resident,SHA,146,,,Fletcher & Michael,,boot makers,
+resident,SHA,144,,,M.,Palmer,greengrocer,
+resident,SHA,142,,,Newport Corn Co.,,,Curtis J. S.
+resident,SHA,140,,,English & Colon'l Meat Co.,,,
+resident,SHA,138,,,Watkins' Grocery Stores,,,
+resident,SHA,136,,,Pegrams Ltd.,,grocers,
+resident,SHA,134,,,M.,Cavill,tobacconist,
+resident,SHA,132,,,Tonge D,haircut'g saloon,,
+resident,SHA,,WESLEYAN METH. CHAPEL,,,,
+resident,SHA,128,,,Mrs. Jane,Browning,,
+resident,SHA,126,,,Barnett,King,tobac'nist and newsagent,
+resident,SHA,124,,,Harry,Prosser,drover,
+resident,SHA,122,,,John,Rowlands,drover,
+resident,SHA,120,,,Samuel,Ford,labourer,
+resident,SHA,118,,,William,Collier,labourer,
+resident,SHA,116,,,Wm.,Bradshaw,greengrcr,
+resident,SHA,114,,,Samuel G.,Bush,butcher,
+resident,SHA,112,,,Miss,Cook,draper,
+resident,SHA,110,,,W.,Carter,hairdresser,
+resident,SHA,108,,,Wm.,Martin,carpenter,
+resident,SHA,106,,,William,Parnell,,
+resident,SHA,104,,,Miss A.,Wilson,shop,
+resident,SHA,102,,,Mrs. L.,Radford,grocer,
+resident,SHA,100,,,J.,Littlejohns,fish bar,
+resident,SHA,98,,,M.,Ash,pawnbroker,
+cross_street,SHA,,,,,,here is Wyndham-street
+resident,SHA,96-94,,,W. Evans & Co., Ltd.,,wholesale provision merchants,
+resident,SHA,,,,Cardiff Pure Ice and Cold Storage Co.,,,
+resident,SHA,70-68,,Crown Bakery,,,C. White & Son - Shaftesbury-st.
+resident,SHA,66,,,British & Argentine Meat Co., Ltd.,,,
+resident,SHA,64,,,Mrs. S.,Ainge,clothes dlr,
+resident,SHA,62,,,A. J.,Lovelock,shopkeeper,
+resident,SHA,60,,,M.,Rubin,dealer,
+resident,SHA,58,,,C.,Whiting,hardware dlr,
+resident,SHA,56,,,Frank,Knee,furniture dlr,
+resident,SHA,54-52,,Workmen's Reform Clb,,,B. Thomas steward
+resident,SHA,50,,,Robert,Wynn,steam haulage contractor & gen car'r,
+resident,SHA,46,,,W. W. & Co., Ltd.,Ware,curriers etc.,
+resident,SHA,44,,,J.,Pugsley,shoeing smith,
+resident,SHA,,,,Armour & Co., Ltd.,,meat importers,
+resident,SHA,42,,,Swift Beef Co., Ltd.,,,
+resident,SHA,40,,,John,Gradden,engineer,
+resident,SHA,,,,John,Jenkins,window blind manufacturer,
+resident,SHA,38,,,Sansinena Co.,,meat imptrs,
+resident,SHA,36,,,Newcombe Bros.,,corn dlrs,S. Vincent manager
+resident,SHA,34-32,,,Void,,,
+resident,SHA,30,,,Giles & Williams,,coach builders,
+resident,SHA,12,,NEWPORT CASTLE,,,,
+resident,SHA,8,,,Mrs. R.,Morris,newsagent,
+resident,SHA,6,,Shaftesbury Restaurant,,,H. Davies Ltd. proprietors
+street,SHIFNAL STREET,,,,,,,E 3 Off Corporation-road
+street,SIDNEY STREET,,,,,,,C 5 From 17 Tunnel-terrace
+resident,SIDNEY STREET,1,,,Mrs. L.,Critchley,,
+resident,SIDNEY STREET,2,,,Frederick,Haveland,,
+resident,SIDNEY STREET,,,,Henry,Pope,,
+resident,SIDNEY STREET,3,,,William,Vincent,,
+resident,SIDNEY STREET,4,,,Mrs. W.,Hart,,
+resident,SIDNEY STREET,5,,,Thos.,Hart,painter,
+cross_street,SIDNEY STREET,,,,,,(return)
+resident,SIDNEY STREET,6,,,E. L.,Boulter,house agent,
+street,SKINNER STREET,,,,,,,C 4 From 33 High-street
+cross_street,SKINNER STREET,,,,,,(LEFT HAND SIDE.)
+resident,SKINNER STREET,,GLOUCESTER CHAMBERS,,,,(See 33 High-street)
+resident,SKINNER STREET,2,,,Edgar,Chambers,incor. accountant and auditor,
+resident,SKINNER STREET,3,,,Albert,Lonnon,tailors,Ltd.
+resident,SKINNER STREET,4,,,William,Law,fruit and potato merchant,
+resident,SKINNER STREET,5,,Newport (Premier) Institute of Health Culture and Massage,,,E. Geo. Jones principal
+resident,SKINNER STREET,6,,,J. H. & Co.,Rennie,auctioneers,
+resident,SKINNER STREET,,,,Prisoners of War Help Committee Mon. Regt.,,,
+resident,SKINNER STREET,7,,,Arnold & Son,,electrical heating and sanitary engineers,
+resident,SKINNER STREET,,HIGHBURY CHAMBERS,,,,
+resident,SKINNER STREET,8,,,Gardner & Herbert,,solictrs,
+resident,SKINNER STREET,,,,Offices of Caerleon Urban District Council,,,
+resident,SKINNER STREET,,,,Jas.,Clements,steel iron and metal merchant,
+resident,SKINNER STREET,,,,Belgian Refugees' Store Room,,,
+resident,SKINNER STREET,,,,A. R.,Bezant,estate agent,
+resident,SKINNER STREET,,,,W.,Ponsford,engr & mer.,
+resident,SKINNER STREET,9,,,F. J.,Morris,grocer,
+resident,SKINNER STREET,10,,,W. J.,Pinnell,butcher,
+resident,SKINNER STREET,,STOW CHAMBERS,,,,
+resident,SKINNER STREET,11,,,John R.,Rowlands,house agent,
+resident,SKINNER STREET,,,,South Wales Equitable Money Society,,,
+resident,SKINNER STREET,,,,Capper & Co.,,wholesale provision merchants,
+resident,SKINNER STREET,12,,,Gregory & Phillips,,sale-rooms,
+resident,SKINNER STREET,,,,Newport Mercantile Co., Ltd.,,,
+resident,SKINNER STREET,,,,C. I. & Co.,Joyce,com. agts,
+resident,SKINNER STREET,13,,,H. & Son, Ltd.,Pooley,weighing machine mftrs,
+resident,SKINNER STREET,,,,Bartlett & Son, Ltd.,,weighing machine mftrs,
+resident,SKINNER STREET,,BOROUGH CHAMBERS,,,,
+resident,SKINNER STREET,,,,Searle & Burge,,solicitors,
+cross_street,SKINNER STREET,,,,,,here is Dock-street
+resident,SKINNER STREET,,SKINNER STREET CHAMBERS,,,,
+resident,SKINNER STREET,14,,,Webster Bros. & Co.,,wholesale clothiers,
+resident,SKINNER STREET,"15, 16, 17, 18",,,Smiths Newport Ltd.,,flour millers corn merchants & condiment manufacturers,
+cross_street,SKINNER STREET,,,,,,(return)
+resident,SKINNER STREET,,,,Cambrian Tent and Tarpaulin Co., Ltd.,,,
+resident,SKINNER STREET,19,,,J. & Co.,Herbert,tallow chandlers,
+resident,SKINNER STREET,20,,Windsor Castle,H. L.,Bramwell,,
+cross_street,SKINNER STREET,,,,,,here is Dock-street
+resident,SKINNER STREET,21,,,MacMahon & Co.,,potato importers,
+resident,SKINNER STREET,22-23,,,Gregory & Phillips,,auctioneers etc.,
+resident,SKINNER STREET,,,,R. C.,Hudson,insurance agent,
+resident,SKINNER STREET,,,,Mon. Insurance Committee,,,C. Butler Jones clerk
+resident,SKINNER STREET,24,,,M.,Vacara,fish shop,
+resident,SKINNER STREET,25,,,Void,,,
+resident,SKINNER STREET,26,,,Bignell & Moseley,,gramophone dealers,
+resident,SKINNER STREET,27,,,G. F. & Co.,Lovell,confectioners,
+resident,SKINNER STREET,,,,Olympia Cinema Theatre,,,
+cross_street,SKINNER STREET,,,,,,here is Skinner-lane
+resident,SKINNER STREET,29,,Floral Hall The,,,Miss M. Jarman proprietress
+resident,SKINNER STREET,,ALBANY CHAMBERS,,,,see Commercial-street
+street,SLADE STREET,,,,,,,C 3 Cromwell-road to Oakley-street
+cross_street,SLADE STREET,,,,,,(RIGHT HAND SIDE.)
+resident,SLADE STREET,1,,,Edwin,Warren,ironwkr,
+resident,SLADE STREET,3,,,Samuel,Pitt,bricklayer,
+resident,SLADE STREET,5,,,Void,,,
+resident,SLADE STREET,7,,,John,Nicholls,ironworker,
+resident,SLADE STREET,9,,,James,Ralph,do,
+cross_street,SLADE STREET,,,,,,(return)
+resident,SLADE STREET,10,,,Thomas,Wesson,do,
+resident,SLADE STREET,8,,,Samuel,Haynes,do,
+resident,SLADE STREET,6,,,Chas.,Whatmore,ironwkr,
+resident,SLADE STREET,4,,,E. T.,Broom,labourer,
+resident,SLADE STREET,2,,,William,Powell,,

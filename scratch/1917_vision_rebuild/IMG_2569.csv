@@ -1,0 +1,173 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,MELLON STREET,,,,,,D 3
+cross_street,MELLON STREET,,,,,,From 134 Dock-st. to George-st.
+cross_street,MELLON STREET,,,,,,(LEFT HAND SIDE.)
+resident,MELLON STREET,1,,James,Hardy,labourer,
+resident,MELLON STREET,3,,Mrs. Jane,Morgan,,
+resident,MELLON STREET,5,,O.,Desmond,labourer,
+resident,MELLON STREET,7,,James,Reardon,labourer,
+resident,MELLON STREET,9,,William,Evans,labourer,
+resident,MELLON STREET,11,,Albert,Riddle,labourer,
+resident,MELLON STREET,13,,Ralph,Rumble,,
+resident,MELLON STREET,15,,Norton,Miller,seaman,
+resident,MELLON STREET,17,,Marshall,O'Brien,,
+resident,MELLON STREET,19,,John,Watts,labourer,
+resident,MELLON STREET,21,,Jeremiah,Haggerty,do,
+cross_street,MELLON STREET,,,,,,(return)
+resident,MELLON STREET,40,,Wm.,Smith,labourer,
+resident,MELLON STREET,38,,Thos.,Pollard,trimmer,
+cross_street,MELLON STREET,,,,,,here is Robbins-lane
+resident,MELLON STREET,36,,,Phillips & Sons,stables,
+resident,MELLON STREET,34,,Hy. C.,Westbury,foreman,
+resident,MELLON STREET,32,,Mrs. Phoebe,Mellon,,
+resident,MELLON STREET,30,,Cor.,Sullivan,labourer,
+resident,MELLON STREET,28,,Henry,Blanks,do,
+resident,MELLON STREET,26,,Alfred,Young,do,
+resident,MELLON STREET,24,,John,Dervin,do,
+resident,MELLON STREET,22,Irishman's Arms,Mrs. Julia,Daley,,
+resident,MELLON STREET,20,,Henry,White,,
+resident,MELLON STREET,18,,George,Thackwell,mason,
+resident,MELLON STREET,16,,Thomas,Sterry,labourer,
+resident,MELLON STREET,14,,Mrs. Sarah,Scott,,
+resident,MELLON STREET,12,,Mrs. Elizabeth,Trump,,
+resident,MELLON STREET,10,,Mrs. Mary E.,Collins,,
+resident,MELLON STREET,8,,Albert,Stevens,guard,
+resident,MELLON STREET,6,,Aaron,Pugh,labourer,
+resident,MELLON STREET,4,,William,Dowd,,
+resident,MELLON STREET,2,,Robert George,Hall,,
+street,MENDALGIFF ROAD,,,,,,E 5
+cross_street,MENDALGIFF ROAD,,,,,,From Watchhouse-parade to Cardiff-road
+cross_street,MENDALGIFF ROAD,,,,,,(RIGHT HAND SIDE.)
+cross_street,MENDALGIFF ROAD,,,,,,here is David-street
+cross_street,MENDALGIFF ROAD,,,,,,here is Wingate-street
+resident,MENDALGIFF ROAD,2,,Joseph,Hill,engine driver,
+resident,MENDALGIFF ROAD,4,,James,Casey,trimmer,
+resident,MENDALGIFF ROAD,6,,Patrick,Walsh,trimmer,
+resident,MENDALGIFF ROAD,8,,Fdk. Geo.,Case,boatman,
+resident,MENDALGIFF ROAD,10,,William,Hood,trimmer,
+resident,MENDALGIFF ROAD,12,,Arthur,Watts,goods gd.,
+resident,MENDALGIFF ROAD,14,,J. B.,Witheridge,,
+resident,MENDALGIFF ROAD,16,,Thomas,Adams,labourer,
+resident,MENDALGIFF ROAD,18,,Jno. Hy.,Jones,labourer,
+resident,MENDALGIFF ROAD,20,,L. Rees,Powell,,
+cross_street,MENDALGIFF ROAD,,,,,,here is Milman-street
+resident,MENDALGIFF ROAD,22,,William,Casey,trimmer,
+resident,MENDALGIFF ROAD,24,,Thos. D.,Purnell,trimmer,
+resident,MENDALGIFF ROAD,26,,Wm.,Johnston,engine dvr,
+resident,MENDALGIFF ROAD,28,,James,Pearce,plumber,
+resident,MENDALGIFF ROAD,30,,Thomas,Chicken,,
+resident,MENDALGIFF ROAD,32,,John,Lloyd,dk. gateman,
+resident,MENDALGIFF ROAD,34,,Thos.,Maggs,boilermaker,
+resident,MENDALGIFF ROAD,36,,Joseph Charles,Pulley,,
+cross_street,MENDALGIFF ROAD,,,,,,here is Alice-street
+resident,MENDALGIFF ROAD,38,,John,Martin,rigger,
+resident,MENDALGIFF ROAD,40,,Jos.,Bright,labourer,
+resident,MENDALGIFF ROAD,42,,John,Hughes,shunter,
+resident,MENDALGIFF ROAD,44,,Wm.,Smith,labourer,
+resident,MENDALGIFF ROAD,46,,Gilbert,Gough,guard,
+resident,MENDALGIFF ROAD,48,,Alfred,Cann,shipwright,
+resident,MENDALGIFF ROAD,50,,Wm.,Thomas,engine driver,
+resident,MENDALGIFF ROAD,52,,Joseph,Nowell,inspector,
+resident,MENDALGIFF ROAD,54,,George,Williams,guard,
+resident,MENDALGIFF ROAD,56,,Thos. John,Avery,carpter,
+cross_street,MENDALGIFF ROAD,,,,,,here is Adeline-street
+resident,MENDALGIFF ROAD,58,,W.,Carpenter,weighman,
+resident,MENDALGIFF ROAD,60,,Chas. D.,Phillips,farmer,
+resident,MENDALGIFF ROAD,62,,M. H.,Griffiths,eng. driver,
+resident,MENDALGIFF ROAD,64,,Thos.,Adams,boilermaker,
+resident,MENDALGIFF ROAD,66,,Wm. Herbt.,Powell,supt.,
+resident,MENDALGIFF ROAD,68,,Thos. A.,Cann,shipwright,
+resident,MENDALGIFF ROAD,70,,G. H.,Burrows,boilermkr,
+resident,MENDALGIFF ROAD,72,,A. E. C.,Harris,decorator,
+resident,MENDALGIFF ROAD,74,,Wm.,Maggs,hammerman,
+resident,MENDALGIFF ROAD,76,,Walter,Thayer,gateman,
+resident,MENDALGIFF ROAD,,,PILL RECREATION GROUND,,,
+resident,MENDALGIFF ROAD,,,NEW TERRITORIAL DRILL HALL,,,4th Welsh Brigade R.F.A.
+resident,MENDALGIFF ROAD,,,,Vacant sites,,
+resident,MENDALGIFF ROAD,98,,Daniel,Murphy,trimmer,
+resident,MENDALGIFF ROAD,100,,Chas.,Rudman,ganger,
+resident,MENDALGIFF ROAD,102,,Thomas,Dance,trimmer,
+resident,MENDALGIFF ROAD,104,,James,Thomas,,
+resident,MENDALGIFF ROAD,,,,Vacant sites,,
+cross_street,MENDALGIFF ROAD,,,,,,here is Price-street.
+cross_street,MENDALGIFF ROAD,,,,,,here is Robert-street.
+resident,MENDALGIFF ROAD,,,,Vacant sites,,
+resident,MENDALGIFF ROAD,,,,House void,,
+cross_street,MENDALGIFF ROAD,,,,,,here is Arthur-street.
+cross_street,MENDALGIFF ROAD,,,,,,(return)
+resident,MENDALGIFF ROAD,,,,Corporation Allotments,,
+resident,MENDALGIFF ROAD,,,PILL ATHLETIC GROUND,,,
+resident,MENDALGIFF ROAD,,Verdun,Aug.,Howells,,
+street,MERCHANT STREET,,,,,,D 4
+cross_street,MERCHANT STREET,,,,,,Opposite back of Town-hall
+resident,MERCHANT STREET,,,,Horton's lodging-house,,
+resident,MERCHANT STREET,24,,,Void,,
+resident,MERCHANT STREET,,,,H. E.,Banfield,carpenter,
+resident,MERCHANT STREET,,,,G. J. & Co.,Jones,builders' merchants,
+resident,MERCHANT STREET,25,,Frank,Page,,
+resident,MERCHANT STREET,26,,Wm.,Hunt,compositor,
+resident,MERCHANT STREET,27,,Patrick,Purcell,,
+resident,MERCHANT STREET,28,,Frank,Silcox,,
+resident,MERCHANT STREET,29,,Henry,Robins,,
+street,MERRIOTT'S PLACE,,,,,,D 3
+cross_street,MERRIOTT'S PLACE,,,,,,From Schools, Chepstow-road
+resident,MERRIOTT'S PLACE,1,,Ed. James,Coles,ironwkr,
+resident,MERRIOTT'S PLACE,,,Mrs. M. A.,Turner,,
+resident,MERRIOTT'S PLACE,2,,Ernest,Turner,,
+resident,MERRIOTT'S PLACE,3,,William,Davies,labourer,
+resident,MERRIOTT'S PLACE,4,,John,Batts,labourer,
+resident,MERRIOTT'S PLACE,5,,Chas. Fredk.,Gilbert,steelworker,
+resident,MERRIOTT'S PLACE,6,,James L. E.,Edwards,,
+resident,MERRIOTT'S PLACE,7,,Hbt.,Williams,shopkeeper,
+resident,MERRIOTT'S PLACE,8,,Chas.,Perry,wagon repair'r,
+resident,MERRIOTT'S PLACE,9,,George Henry,Cann,,
+resident,MERRIOTT'S PLACE,10,,Mrs. Hannah,Kettle,,
+resident,MERRIOTT'S PLACE,11,,Daniel,Maynard,labourer,
+resident,MERRIOTT'S PLACE,12,,Charles,Parry,,
+resident,MERRIOTT'S PLACE,13,,Frank,Creed,labourer,
+street,METHUEN ROAD,,,,,,E 3
+cross_street,METHUEN ROAD,,,,,,Off Eton-road
+resident,METHUEN ROAD,1,,Henry Edward,Williams,,
+resident,METHUEN ROAD,3,,William Alfred,Whittaker,,
+resident,METHUEN ROAD,5,,Ewart G.,Bown,,
+resident,METHUEN ROAD,7,,Wm. C. H.,Beaumont,,
+resident,METHUEN ROAD,9,,Mrs. Mary A.,Biggs,,
+resident,METHUEN ROAD,11,,Philip Ed.,Hutchins,,
+resident,METHUEN ROAD,13,,Mrs. C.,Fulton,,
+cross_street,METHUEN ROAD,,,,,,here is Oriel-road
+resident,METHUEN ROAD,15,,Archibald S.,Madge,,
+resident,METHUEN ROAD,17,,John,Hughes,,
+resident,METHUEN ROAD,19,,Misses,Greenland,,
+resident,METHUEN ROAD,21,,Fredk.,Williams,baker,
+resident,METHUEN ROAD,23,,Frederick,Thomas,,
+resident,METHUEN ROAD,25,,James Francis,Davies,,
+resident,METHUEN ROAD,27,,Bruce Brian,Homan,,
+resident,METHUEN ROAD,29,St. Malo,Geo.,Brown,,
+resident,METHUEN ROAD,31,,Thomas,Baugh,,
+resident,METHUEN ROAD,,,,Vacant sites,,
+cross_street,METHUEN ROAD,,,,,,(return)
+resident,METHUEN ROAD,10,,,,,
+resident,METHUEN ROAD,8,Mithsdale,Archibald,Bell,,
+resident,METHUEN ROAD,4,Woodbury,Alfred Rd.,Long,,
+resident,METHUEN ROAD,,,,Vacant sites,,
+cross_street,METHUEN ROAD,,,,,,here is Kingston-road
+resident,METHUEN ROAD,,,,Recreation Ground,,
+cross_street,METHUEN ROAD,,,,,,here is Cambridge-road
+resident,METHUEN ROAD,2,,Philip Stanley,Eynon,,
+street,METROPOLITAN BANK CHAMBERS,,,,,,
+cross_street,METROPOLITAN BANK CHAMBERS,,,,,,See Commercial-street
+street,MIDLAND BANK CHAMBS.,,,,,,
+resident,MIDLAND BANK CHAMBS.,1,,,,,1 Bridge-street
+street,MILL PARADE,,,,,,F 5
+cross_street,MILL PARADE,,,,,,From end of Commercial-road to Watchhouse-parade
+resident,MILL PARADE,1,Ship Hotel,C.,Griffiths,,
+resident,MILL PARADE,,,Brothers, Ltd.,Griffiths,brewers, etc.,
+resident,MILL PARADE,2,,William,Ash,shop,
+resident,MILL PARADE,3,,Fred G.,Carter,hairdresser,
+resident,MILL PARADE,4,,Manuel,Zaraty,,
+resident,MILL PARADE,5,,Ernest Wm.,Arr,labourer,
+cross_street,MILL PARADE,,,,,,here is Pottery-road
+resident,MILL PARADE,7,,Mrs Edith,Sandoe,,
+resident,MILL PARADE,9,,John,Cartwright,,
+resident,MILL PARADE,,,,Sub Power Station buildg,,
+resident,MILL PARADE,,,Coubro & Scrutton,,shipchandlers,

@@ -1,0 +1,131 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,TEMPLE STREET,25,,Jos. Jas.,Wallis,ganger,
+resident,TEMPLE STREET,26,,R. T.,Betts,steelworker,
+resident,TEMPLE STREET,27,,G. H.,Ingleson,boilermkr,
+resident,TEMPLE STREET,28,,Kate,Purcell Mrs.,,
+resident,TEMPLE STREET,29,,Lewis,Fava,seaman,
+resident,TEMPLE STREET,30,Missions to Seamen Hostel,,,,
+resident,TEMPLE STREET,31-32,Mission to Seamen Society Church and Institute,Rev. J. A.,French,Chaplain,M.R.C.V.S.
+resident,TEMPLE STREET,31-32,,T.,Smith,Missioner,
+street,TENNYSON ROAD,,,,,,D 2
+cross_street,TENNYSON ROAD,,,,,,MAINDEE PARK HOUSING SITE
+cross_street,TENNYSON ROAD,,,,,,(RIGHT HAND SIDE)
+cross_street,TENNYSON ROAD,,,,,,here is Shelley-road
+resident,TENNYSON ROAD,2,Camden villa,R. H.,Williams,police sgt.,
+resident,TENNYSON ROAD,4,Alvestoo,Leonard,Phillips,clerk,
+resident,TENNYSON ROAD,6,Pendruid,Edgar A.,Ward,foreman,
+resident,TENNYSON ROAD,8,Braemar,Horace V.,Burn,fitter,
+resident,TENNYSON ROAD,10,Avalon,Don.,Burnell,clk,
+resident,TENNYSON ROAD,12,Cartrefle,John W.,Doughty,blacksmith,
+resident,TENNYSON ROAD,14,Camelot,C.,Williams,travlr,
+resident,TENNYSON ROAD,16,Somersby,H.,Williams,,
+resident,TENNYSON ROAD,18,The Firs,Arthur,Robinson,clerk,
+resident,TENNYSON ROAD,20,Ennisclare,H. C. T.,Poole,,
+resident,TENNYSON ROAD,22,Pembroke,Ed. W. W.,George,,G.W.R.
+resident,TENNYSON ROAD,24,Sea View,Alfred H.,Fry,ins agent,
+resident,TENNYSON ROAD,26,Carn-Brea,Edward G.,Toghill,,
+resident,TENNYSON ROAD,28,Blean Cefn,Alb.,Sheppard,,
+resident,TENNYSON ROAD,30,Kewstoke,F. D.,Headworth,clerk,
+resident,TENNYSON ROAD,32,Westward Ho,Clifford John,Dyer,wire drawer,
+resident,TENNYSON ROAD,34,Le Chalet,Leslie,Stockwell,,
+resident,TENNYSON ROAD,36,Anchorage,Thos. W.,Lewis,pilot's assistant,
+resident,TENNYSON ROAD,38,Wrockwardine,Alfred E.,Bethell,clerk,
+resident,TENNYSON ROAD,40,Glentworth Bay,Thomas,Richards,,
+resident,TENNYSON ROAD,42,Holford,Frank B.,Whitcutt,teachr,
+resident,TENNYSON ROAD,44,Gold Croft,Trevor,Heard,,
+resident,TENNYSON ROAD,46,Mount Carmel,W. E.,Beard,,
+resident,TENNYSON ROAD,48,Briar Glen,Miss,Nikrews,tchr,
+resident,TENNYSON ROAD,50,Boscobel,J. R.,Williams,,
+resident,TENNYSON ROAD,52,Graig-y-don,Wm.,Dyment,foreman,
+resident,TENNYSON ROAD,54,Durley Chine,—.,Lewis,,
+resident,TENNYSON ROAD,56,Hayesham,Harry,Hampton,clerk,
+resident,TENNYSON ROAD,58,Careth,Harold Dd.,John,,G.W.R.
+resident,TENNYSON ROAD,60,Maryland,Wm.,Hancock,printer,
+resident,TENNYSON ROAD,62,Crohamhurst,Cyril,Galliford,ins agent,
+cross_street,TENNYSON ROAD,,,,,,here is Coleridge-road
+resident,TENNYSON ROAD,64,Sunnyside,—.,Evans,,G.W.R.
+resident,TENNYSON ROAD,66,,James,Barrell,ins super,
+resident,TENNYSON ROAD,,The Rest,,,,
+resident,TENNYSON ROAD,,Vacant sites,,,,
+cross_street,TENNYSON ROAD,,,,,,here is Milton-road
+cross_street,TENNYSON ROAD,,,,,,(return)
+resident,TENNYSON ROAD,75,Cartref,Francis J.,Evans,clerk,
+resident,TENNYSON ROAD,73,Beechcroft,Wm.,East,police,G.W.R.
+resident,TENNYSON ROAD,71,Homelea,Wallace,Driscoll,,
+resident,TENNYSON ROAD,69,Denbigh,Henry R.,Hayward,clerk,
+resident,TENNYSON ROAD,67,,C. V.,Williams,surveyor,
+resident,TENNYSON ROAD,65,Belmont,Jeffrey,Berrow,,
+resident,TENNYSON ROAD,63,Avoca,Thos. E.,Carroll,,
+resident,TENNYSON ROAD,61,Hillcrest,F. N. R.,Lowndes,,
+resident,TENNYSON ROAD,59,Dagna,E. W.,Bell,inwkr,
+resident,TENNYSON ROAD,57,Glen Roy,Ernest J.,Tilley,ironwkr,
+resident,TENNYSON ROAD,55,Burdale,Eva K.,Cobb Mrs.,,
+resident,TENNYSON ROAD,53,Amphion,Arthur,Welland,,
+resident,TENNYSON ROAD,51,Gazanie,Ed. A.,Godley,,R.S.P.C.A.
+resident,TENNYSON ROAD,49,Noreena,Norman,Spendley,engnr,
+resident,TENNYSON ROAD,47,Pambu,C. H.,Barrett,,G.W.R.
+resident,TENNYSON ROAD,45,Dundagil,Thos.,MacGill,travlr,
+resident,TENNYSON ROAD,43,Inishowen,Wm.,Jones,,G.W.R.
+resident,TENNYSON ROAD,41,,Ralph,Britton,machinist,
+resident,TENNYSON ROAD,39,Claremont,G. H.,Abbott Mrs.,,
+resident,TENNYSON ROAD,37,Croydon,V. J.,Pearce,,
+resident,TENNYSON ROAD,35,Jesmond,Herbt. J.,Lewis,postman,
+resident,TENNYSON ROAD,33,Beverley,Fredk. Ivor,Twiggs,clerk,
+resident,TENNYSON ROAD,31,Edlyn,Rowland,Eke,motor engr,
+resident,TENNYSON ROAD,29,Hazeldene,E. F.,Watson Mrs.,,
+resident,TENNYSON ROAD,27,Trevethyn,H. A.,Cox,clk,
+resident,TENNYSON ROAD,25,Rodona,Illtyd,Hopkins,,
+resident,TENNYSON ROAD,23,Park Hill,W.,Sherrard,,
+resident,TENNYSON ROAD,21,,Jno.,Honeywell,civil engr,
+resident,TENNYSON ROAD,19a,,Frederick J.,Rudd,,
+resident,TENNYSON ROAD,19,,Herbt. C.,Hodges,clerk,
+resident,TENNYSON ROAD,17,,John R.,Allsop,,
+resident,TENNYSON ROAD,15,,M.,Rees Mrs.,,
+resident,TENNYSON ROAD,13,,Mrs.,Howells,,
+resident,TENNYSON ROAD,11,,Harold,Smith,,
+resident,TENNYSON ROAD,9,,William,Robins,,
+resident,TENNYSON ROAD,7,,L. G.,Nowell,,
+resident,TENNYSON ROAD,5,,Trevor,Hammond,,
+resident,TENNYSON ROAD,3,,Victor C.,Edwards,,
+resident,TENNYSON ROAD,1,,Harcourt G.,Polson,,
+street,THOMAS STREET,,,,,,C 4
+cross_street,THOMAS STREET,,,,,,From 64 High-street
+cross_street,THOMAS STREET,,,,,,(LEFT HAND SIDE)
+resident,THOMAS STREET,,,Post Office (back entrance),,,,
+cross_street,THOMAS STREET,,,,,,(return)
+cross_street,THOMAS STREET,,,,,,Subway to Mill-street
+resident,THOMAS STREET,10,Railway Inn,E. M.,Jones Mrs.,,
+cross_street,THOMAS STREET,,,,,,here is Exchange-road
+resident,THOMAS STREET,,EXCHANGE CHAMBERS,,,,see High-street
+street,TIPTON STREET,,,,,,E 3
+cross_street,TIPTON STREET,,,,,,Coseley-street to Soho-street
+street,TRE-AP-GWILYM,,,,,,D 5
+cross_street,TRE-AP-GWILYM,,,,,,See Cardiff-road.
+street,TREDEGAR CHAMBERS,,,,,,
+cross_street,TREDEGAR CHAMBERS,,,,,,See 78 Bridge-street
+street,TREDEGAR PLACE,,,,,,C 5
+cross_street,TREDEGAR PLACE,,,,,,Nos. 67-82 Bridge-street
+street,TREDEGAR STREET,,,,,,E 4
+cross_street,TREDEGAR STREET,,,,,,From 26 Commercial-road to Cattle Market
+resident,TREDEGAR STREET,1,,M.,Williams,hairdresser,
+resident,TREDEGAR STREET,2,,Jas.,Williams,tram driver,
+resident,TREDEGAR STREET,3,,Alex.,Skujin,quarryman,
+resident,TREDEGAR STREET,4,,Ellen,Westlake Mrs.,,
+resident,TREDEGAR STREET,5,,Edw.,Dwyer,poultryman,
+resident,TREDEGAR STREET,,White Hart,Miss T.,Lucey,,
+resident,TREDEGAR STREET,,CATTLE MARKET,Geo. Hy.,Baker,manager,
+resident,TREDEGAR STREET,,CATTLE MARKET,,,Newcombe Bros.,hay and corn merchants,
+street,TREGARE STREET,,,,,,C 4
+cross_street,TREGARE STREET,,,,,,East Usk-road
+resident,TREGARE STREET,,,garage,(Ernest),Morgan,Ltd.,
+resident,TREGARE STREET,1,,Thos.,Chick,carp & joiner,
+resident,TREGARE STREET,2,,Arthur,Clarke,ironwkr,
+resident,TREGARE STREET,2,Cornwall Arthur,bakery,,,,
+cross_street,TREGARE STREET,,,,,,here is Rupery-street
+resident,TREGARE STREET,3,,M.,Shellard Mrs.,,
+resident,TREGARE STREET,4,India Rubber Co.'s works,,S.W. Brattice Cloth and,,,
+cross_street,TREGARE STREET,,,,,,here is Llanvair-road
+resident,TREGARE STREET,5,,Gwendoline,Case Mrs.,gen shop,
+resident,TREGARE STREET,,,Morris & Biddle,builders,,,
+cross_street,TREGARE STREET,,,,,,here is Corelli-street
+resident,TREGARE STREET,,Gwent Brush works,H. J. & Co.,Strong,,,

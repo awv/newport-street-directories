@@ -1,0 +1,179 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,SOMERTON ROAD,26,,Wm. T.,Smith,,Abergwaun
+resident,SOMERTON ROAD,24,,Mrs. L.,Herbert,,Bryngwyn
+resident,SOMERTON ROAD,22,,Lewis,Jones,,Fair view
+resident,SOMERTON ROAD,20,,Walter,Lloyd,,The Grove
+resident,SOMERTON ROAD,18,,Regd. C.,Orphan,,Roma
+resident,SOMERTON ROAD,16,,George,Lloyd,,Devon
+resident,SOMERTON ROAD,14,,J. E.,Dufner,,Pendennis
+resident,SOMERTON ROAD,12,,J. V.,Barrett,,Wellington
+resident,SOMERTON ROAD,10,,W. M.,Spickett,,Arnprior
+resident,SOMERTON ROAD,8,,W. W.,Grant,,Glencorse
+resident,SOMERTON ROAD,6,,Misses,Cook,,Sefton house
+resident,SOMERTON ROAD,4,,Mrs. Jane,Eddolls,,Hollis h
+resident,SOMERTON ROAD,2,,Mrs. C.,Moses,,Vernon ho
+street,SOMERTON ROAD,,,,,,E 2
+cross_street,SOMERTON ROAD,,,From Cross Hands,,,
+cross_street,SOMERTON ROAD,,,(RIGHT HAND SIDE.),,,
+resident,SOMERTON ROAD,2,,F. E.,Farley,grocer,
+resident,SOMERTON ROAD,4,,Ernest Jas.,Garvey,,Llanilltyd
+resident,SOMERTON ROAD,6,,George,Kyd,,Glenview
+resident,SOMERTON ROAD,8,,Albt.,Millwood,,Brantwood
+resident,SOMERTON ROAD,10,,Miss E.,Jones,,Ivydene
+resident,SOMERTON ROAD,12,,Wm. Clark,Woodsford,,Gwynfryn
+cross_street,SOMERTON ROAD,,,here is Mansell-street,,,
+resident,SOMERTON ROAD,14,,C. J.,Bond,,St. Helier
+resident,SOMERTON ROAD,16,,T.,Wildman,,Claremont
+resident,SOMERTON ROAD,18,,Jos. E.,Chalklin,,Louisville
+resident,SOMERTON ROAD,20,,Charles,Bull,,Georgia
+resident,SOMERTON ROAD,22,,Hy.,Williams,,Glenrose
+resident,SOMERTON ROAD,24,,Wm. G.,Busby,,Lingfield
+resident,SOMERTON ROAD,26,,Titus,Fullwood,,Stanfield
+cross_street,SOMERTON ROAD,,,here is Llewellyn-street,,,
+resident,SOMERTON ROAD,28,,Chas.,Brown,,Darlington
+resident,SOMERTON ROAD,30,,Wm.,Collett,,Cranborne
+resident,SOMERTON ROAD,32,,Hy. E.,Burt,,Palmyra
+resident,SOMERTON ROAD,34,,William Hy.,Viner,,
+resident,SOMERTON ROAD,36,,George,Cowley,,Stelvio
+resident,SOMERTON ROAD,38,,Ernest B.,Thomas,,Allasin
+resident,SOMERTON ROAD,40,,Alexander,Murray,,
+resident,SOMERTON ROAD,42,,Arthur,Harris,ironworker,
+resident,SOMERTON ROAD,44,,Jesse,Chance,ironworker,
+cross_street,SOMERTON ROAD,,,here is Balmoral-road,,,
+resident,SOMERTON ROAD,46,,Chas. G.,Bulpitt,clerk,
+resident,SOMERTON ROAD,48,,Thomas,Webber,clerk,
+resident,SOMERTON ROAD,50,,Ernest,Mole,sawyer,
+resident,SOMERTON ROAD,52,,Mrs. Selina,Davies,,
+resident,SOMERTON ROAD,54,,Miss E. M.,Enstone,,
+cross_street,SOMERTON ROAD,,,Railway-bridge,,,
+cross_street,SOMERTON ROAD,,,(LEFT HAND SIDE.),,,
+resident,SOMERTON ROAD,,,Albert Wm.,Caple,,Somerton cottage
+resident,SOMERTON ROAD,1,,P. F.,Prujean,,
+resident,SOMERTON ROAD,3,,John, senior,Gordon,,Melbourne
+cross_street,SOMERTON ROAD,,,here Somerton Suburb Estate,,,
+resident,SOMERTON ROAD,9,,Ernest,Colquhoun,architect's assistant,
+resident,SOMERTON ROAD,11,,Hugh,Groves,waterworks supt.,Llanvaches
+resident,SOMERTON ROAD,13,,David,Ford,,Clare villa
+resident,SOMERTON ROAD,15,,Chas.,Downing,,Monteville
+resident,SOMERTON ROAD,17,,F.,Pinkard,,Somerton ho
+resident,SOMERTON ROAD,19,,W. H.,Hollingdale,,Java v
+resident,SOMERTON ROAD,21,,W.,Pheasey,,Somerton v
+resident,SOMERTON ROAD,23,,T. W.,Francis,,Somerton
+cross_street,SOMERTON ROAD,,,here is Libeneth-road,,,
+cross_street,SOMERTON ROAD,,,Somerton-lane,,,
+resident,SOMERTON ROAD,,,Thomas,Horton,haulier,
+resident,SOMERTON ROAD,,,Chas. Jos.,Burchell,,The villa
+resident,SOMERTON ROAD,,,Thomas,Burchell,,
+resident,SOMERTON ROAD,,,Charles,Harris,,
+resident,SOMERTON ROAD,,,Mrs. E.,Bate,,Greystone ho
+resident,SOMERTON ROAD,,,E. R.,Bate,compositor,
+resident,SOMERTON ROAD,,,Reginald,Long,G.W.R.,
+resident,SOMERTON ROAD,,,,Heeley & Peart,South Wales Malleable Iron Foundry,
+street,SOMERTON LANE,,,,,,
+resident,SOMERTON LANE,1,,James,Morris,police,
+resident,SOMERTON LANE,2,,Chas.,Lloyd,ironworker,
+resident,SOMERTON LANE,4,,J.,Cherrington,ironworker,
+resident,SOMERTON LANE,6,,John Wm.,Barton,gard'n'r,
+resident,SOMERTON LANE,,,Luke,Evans,carpenter,
+resident,SOMERTON LANE,8,,Arthur,Cotton,ironworker,
+cross_street,SOMERTON LANE,,,here is Cromwell-road,,,
+resident,SOMERTON LANE,,,Thomas,White,ironworker,
+resident,SOMERTON LANE,,,Geo.,Coldrick,,Somerton cot
+resident,SOMERTON LANE,,,W. A.,Thomas,,Ivydene
+resident,SOMERTON LANE,,Black Horse,Mrs. Edith,Williams,,
+cross_street,SOMERTON LANE,,,here is Lloyd-street,,,
+resident,SOMERTON LANE,,,Charles, R. T.,Cook,grocer,
+resident,SOMERTON LANE,,,Edward,Harris,lime burner,
+resident,SOMERTON LANE,,,F.,Harris,monumental sculpt'r,
+resident,SOMERTON LANE,,,John,Byrnes,ironworker,
+resident,SOMERTON LANE,,BAPTIST CHAPEL,,,,
+cross_street,SOMERTON LANE,,,here is Downing-street,,,
+resident,SOMERTON LANE,,,E.,Parsons,hawker,
+resident,SOMERTON LANE,,,Bernard,Beard,shopkeeper,
+resident,SOMERTON LANE,,King of Prussia,Mrs. Jane,Love,,
+resident,SOMERTON LANE,,,Alfred,Horton,clerk,
+resident,SOMERTON LANE,,,Mrs. A. S.,Horton,baker, etc.,
+resident,SOMERTON LANE,,,Henry,Coldrick,ironworker,
+resident,SOMERTON LANE,,,Mrs. A.,Perry,,
+resident,SOMERTON LANE,,,Wm. senior,Coldrick,,
+resident,SOMERTON LANE,,,Horace,Hughes,,
+resident,SOMERTON LANE,,,William,Johnson,,
+resident,SOMERTON LANE,,,David,Paul,shoemaker,
+resident,SOMERTON LANE,,,Wm. E. junior,Coldrick,,
+resident,SOMERTON LANE,,,Saml. Edwin,Berry,postman,
+resident,SOMERTON LANE,,,James,Smith,ironworker,
+cross_street,SOMERTON LANE,,,CLAREMONT TERRACE-,,,
+resident,SOMERTON LANE,1,,Jos. H.,Bird,ironworker,
+resident,SOMERTON LANE,2,,Robert,Clifford,ironwkr,
+resident,SOMERTON LANE,3,,Elijah A.,Hughes,ins. agt.,
+resident,SOMERTON LANE,4,,Joseph,Murriott,ironwkr,
+resident,SOMERTON LANE,,,John William,Kitson,,
+resident,SOMERTON LANE,,,Thomas,Baxter,baker,
+resident,SOMERTON LANE,,,S.,Richards,ironworker,
+resident,SOMERTON LANE,,,Louis,Marchand,do,
+resident,SOMERTON LANE,,,Elijah,Higgins,do,
+resident,SOMERTON LANE,,,Richard,Richards,do,
+resident,SOMERTON LANE,,,Charles,Scott,do,
+resident,SOMERTON LANE,,,Owen,Davies,do,
+resident,SOMERTON LANE,,,Frank,Williams,Post office,
+resident,SOMERTON LANE,,,Henry,Davies,labourer,
+resident,SOMERTON LANE,,,William,Johnson,ironwkr,
+resident,SOMERTON LANE,,,Wm.,Matthews,,
+resident,SOMERTON LANE,,,Walter,Skeldon,,
+resident,SOMERTON LANE,,,James,Doyle,,Newerne
+resident,SOMERTON LANE,,,Frederick John,Nicholls,,
+resident,SOMERTON LANE,,,John T.,Smith,ironworker,
+resident,SOMERTON LANE,,,Chas.,Hubble,ironworker,
+resident,SOMERTON LANE,,,Walter,England,,
+resident,SOMERTON LANE,,ST. ANDREW'S CHURCH,,,,
+resident,SOMERTON LANE,,Old Chapel,,,,
+street,SOUTH MARKET ST.,,,,,,E 4
+cross_street,SOUTH MARKET ST.,,,Dock-st. to West Market-st.,,,
+resident,SOUTH MARKET ST.,1,,R.,Turberville,shop,
+resident,SOUTH MARKET ST.,2,,Mrs. Jane,Armstrong,,
+resident,SOUTH MARKET ST.,3,,Joseph,Barner,maltster,
+resident,SOUTH MARKET ST.,4,,Edwd. P.,Bryant,ins. agnt,
+resident,SOUTH MARKET ST.,5,,Fred. W.,Lampre,labr,
+resident,SOUTH MARKET ST.,6,,Mrs. Fanny,Mogford,,
+cross_street,SOUTH MARKET ST.,,,here is Winmill-street,,,
+resident,SOUTHMARKET ST.,7,,Andrew C.,Young,labourer,
+resident,SOUTH MARKET ST.,8,,John,Luxton,painter,
+resident,SOUTH MARKET ST.,9,,W. G.,Llewellyn,crane dvr,
+resident,SOUTH MARKET ST.,10,,John,Malone,helper,
+resident,SOUTH MARKET ST.,11,,Robert,Trickey,moulder,
+resident,SOUTH MARKET ST.,12,,James,Rice,seaman,
+cross_street,SOUTH MARKET ST.,,,(return),,,
+resident,SOUTH MARKET ST.,15,,Charles,Bestwick,mlkvndr,
+resident,SOUTH MARKET ST.,16,,Arthur,Perkins,tinsmith,
+resident,SOUTH MARKET ST.,17,,Cornelius,Dowds,labourer,
+resident,SOUTH MARKET ST.,18,,Geo.,Williams,boatman,
+resident,SOUTH MARKET ST.,19,,Geo.,Farmer,labourer,
+resident,SOUTH MARKET ST.,20,,Daniel,Hollaran,trimmer,
+resident,SOUTH MARKET ST.,21,,Edwin C.,Wood,labourer,
+resident,SOUTH MARKET ST.,22,,Dudley,Lawrence,labr,
+resident,SOUTH MARKET ST.,23,,James,White,rivetter,
+resident,SOUTH MARKET ST.,24,,Wm.,Hancock,labourer,
+resident,SOUTH MARKET ST.,25,,Thomas,James,labourer,
+resident,SOUTH MARKET ST.,26,,Jos.,Taylor,hairdresser,
+resident,SOUTH MARKET ST.,27,,Michael,Burke,seaman,
+resident,SOUTH MARKET ST.,28,,Daniel,Morgan,labourer,
+resident,SOUTH MARKET ST.,29,,Wm.,Watkins,labourer,
+resident,SOUTH MARKET ST.,30,,Henry,Evans,labourer,
+cross_street,SOUTH MARKET ST.,,,here is East Market-street,,,
+resident,SOUTH MARKET ST.,31,,Mrs. Jane,Criddle,,
+resident,SOUTH MARKET ST.,32,,Wm.,Maddocks,eng dvr,
+resident,SOUTH MARKET ST.,,,John,Penn,,
+resident,SOUTH MARKET ST.,33,,William,Hurley,coal trimr,
+resident,SOUTH MARKET ST.,34,,Mrs. Annie,Barber,,
+resident,SOUTH MARKET ST.,35,,Mrs. Johanna,Cecil,,
+resident,SOUTH MARKET ST.,36,,Joseph,Bayliss,driller,
+resident,SOUTH MARKET ST.,37,,Alfred,Windor,haulier,
+resident,SOUTH MARKET ST.,38,,John,Paris,P.O.,
+resident,SOUTH MARKET ST.,39,,John,Davies,labourer,
+resident,SOUTH MARKET ST.,40,,Samuel,Manship,labourer,
+resident,SOUTH MARKET ST.,41,,Wm.,Edwards,attendant,
+resident,SOUTH MARKET ST.,42,,William,Hughes,packer,
+resident,SOUTH MARKET ST.,43,,Fred,Lewis,labourer,
+resident,SOUTH MARKET ST.,44,,John,Sparks,bricklayer,
+resident,SOUTH MARKET ST.,45,,John,Reeves,bricklayer,
+resident,SOUTH MARKET ST.,46,,Wm. Geo.,Cecil,storekeeper,

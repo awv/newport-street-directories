@@ -1,0 +1,113 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,NEWPORT STREET DIRECTORY.,,,,,,"[Heading: DOC / NEWPORT STREET DIRECTORY. / DOC]"
+resident,NEWPORT STREET DIRECTORY.,,,W. Rhys,Williams,engineer,"Engineers' Dept."
+resident,NEWPORT STREET DIRECTORY.,,,A. B.,Beedie,harb. master,Capt.
+resident,NEWPORT STREET DIRECTORY.,,,C. C.,Brewer,secty,Newport Pilotage offices
+resident,NEWPORT STREET DIRECTORY.,,,Miss J. R.,Hall,caretkr,
+resident,NEWPORT STREET DIRECTORY.,125,,Walter,Montgomery,boatman,dk
+resident,NEWPORT STREET DIRECTORY.,,,,,"Shop—void",
+resident,NEWPORT STREET DIRECTORY.,126,,Fredk. D.,Watkins,labr,
+resident,NEWPORT STREET DIRECTORY.,127,,John,Wennen,seaman,
+resident,NEWPORT STREET DIRECTORY.,,,,,"Shop—void",
+resident,NEWPORT STREET DIRECTORY.,128,,,,void,
+resident,NEWPORT STREET DIRECTORY.,129,,Mrs. Emily,Butt,caretkr,Offices—void
+resident,NEWPORT STREET DIRECTORY.,129,,,Postle Noah,,
+resident,NEWPORT STREET DIRECTORY.,130,,C. A.,Carter,,Newport Coal and Fuel Supplies—agent
+resident,NEWPORT STREET DIRECTORY.,130,,,Ocean Oil Co., Ltd.,,
+resident,NEWPORT STREET DIRECTORY.,130,,,Howells,,
+resident,NEWPORT STREET DIRECTORY.,130,,J. H.,Lumbard,printer & paper merchant,
+resident,NEWPORT STREET DIRECTORY.,130,,A. E.,Cappell,haulage contractor,
+resident,NEWPORT STREET DIRECTORY.,131,,,,void,
+resident,NEWPORT STREET DIRECTORY.,132,,,,void,
+resident,NEWPORT STREET DIRECTORY.,133,,M.,DeMarco,,
+cross_street,NEWPORT STREET DIRECTORY.,,,,,"here is Mellon-street",
+resident,NEWPORT STREET DIRECTORY.,139,,,Bethell, Gwyn & Co.,shipowners and shipbrokers,
+resident,NEWPORT STREET DIRECTORY.,140,,Thos.,Fitzgerald,irnwkr,
+resident,NEWPORT STREET DIRECTORY.,141,,John,Kiely,,
+resident,NEWPORT STREET DIRECTORY.,142,,Ali,Ben.,seaman,
+resident,NEWPORT STREET DIRECTORY.,143,,James,Kerr,gen shop,
+resident,NEWPORT STREET DIRECTORY.,144,,Miss Pat.,Woodman,hrdr,
+resident,NEWPORT STREET DIRECTORY.,144,,Lionel,Maskell,,
+resident,NEWPORT STREET DIRECTORY.,145,,,Allen A. & Sons,bakers and grocers,
+cross_street,NEWPORT STREET DIRECTORY.,,,,,"here is Ebenezer-terrace",
+resident,NEWPORT STREET DIRECTORY.,146,Hope and Anchor,Edward Thos.,Hayes,,
+cross_street,NEWPORT STREET DIRECTORY.,,,,,"here is Emlyn-street",
+resident,NEWPORT STREET DIRECTORY.,147,,,Roberts Bros.,confctrs,
+resident,NEWPORT STREET DIRECTORY.,148,,Mrs. Maud,Morgan,lodge house,
+resident,NEWPORT STREET DIRECTORY.,149-150,,,Packer Harry & Co., Ltd.,provision merchs.,
+resident,NEWPORT STREET DIRECTORY.,,St. James' Church,,,,
+resident,NEWPORT STREET DIRECTORY.,151,,R. Graham,White,dental surgeon,"L.D.S., R.C.S. (ENG.)"
+resident,NEWPORT STREET DIRECTORY.,151,,Graham A. O.,White,,L.D.S., R.C.S. (ENG.)
+resident,NEWPORT STREET DIRECTORY.,151,,Jesse,Willett,,
+resident,NEWPORT STREET DIRECTORY.,151,,Florence,Keats,,
+resident,NEWPORT STREET DIRECTORY.,152,,Mrs. Sarah,Elson,,
+resident,NEWPORT STREET DIRECTORY.,152,,Henry J.,Johnson,clerk,
+resident,NEWPORT STREET DIRECTORY.,153,,E. S. W.,Little,dental surg,"L.D.S., R.C.S. (ENG.)"
+resident,NEWPORT STREET DIRECTORY.,,,J. F. S.,Reynolds,dental surg,"L.D.S., R.C.S. (ENG.)"
+resident,NEWPORT STREET DIRECTORY.,,,Harry,Fright,caretaker,
+resident,NEWPORT STREET DIRECTORY.,154,,M. J.,Gatfield,grocer,
+resident,NEWPORT STREET DIRECTORY.,155,,Miss M.,Sullivan,,
+resident,NEWPORT STREET DIRECTORY.,156,,W.,Dunford,,
+resident,NEWPORT STREET DIRECTORY.,156,,B.,Burke,tram driver,
+resident,NEWPORT STREET DIRECTORY.,157,,E.,Perman,plumber & sanitary engineer,M.S.I.
+cross_street,NEWPORT STREET DIRECTORY.,,,,,"entrance to Bream-place",
+resident,NEWPORT STREET DIRECTORY.,158,Central Public Library,J.,Warner,libn,
+resident,NEWPORT STREET DIRECTORY.,158,Museum & Art Gallery,W. A.,Gunn,curator,
+resident,NEWPORT STREET DIRECTORY.,158,,Benj. E.,Ray,caretaker,
+resident,NEWPORT STREET DIRECTORY.,159,,,Johns R. H. Ltd.,Directory Press & printing works,
+resident,NEWPORT STREET DIRECTORY.,159A-160,,,Alger R. & Sons, Ltd.,electric light and power heating sanitary and ventilating engnrs,
+resident,NEWPORT STREET DIRECTORY.,159A-160,,,Alger's Wholesale Supplies Ltd.,wireless and electrical factors,
+resident,NEWPORT STREET DIRECTORY.,161,,D.,Heirene,lodging hse,
+resident,NEWPORT STREET DIRECTORY.,163,Tabernacle Schoolrm,,,,
+resident,NEWPORT STREET DIRECTORY.,164-5,,,Phillips W. & Sons,pawnbrokers & outfittrs,
+cross_street,NEWPORT STREET DIRECTORY.,,,,,"here is Llanarth-street",
+resident,NEWPORT STREET DIRECTORY.,167 to 172,,,Co-operative Industrial Society, Ltd.,"boots, butcher's meat, hardware, furnishing, grocery, bakery, confectionery, drapery and outfitting",
+resident,NEWPORT STREET DIRECTORY.,167 to 172,,,Co-operative Insurance Society Ltd.,"Thos. Ball, dist. mngr. (The joint Insurance dept. of the C.W.S. and S.C.W.S.)",
+resident,NEWPORT STREET DIRECTORY.,,Friars Chambers,(Lucian J.),Brown,"accountants, insur. brokers, house agents, etc.",and Notley
+resident,NEWPORT STREET DIRECTORY.,,Friars Chambers,,,Monmouthshire & South Wales Building Society,,
+cross_street,NEWPORT STREET DIRECTORY.,,,,,"here is Friars-street",
+resident,NEWPORT STREET DIRECTORY.,,,,Pan-Produce Ltd.,grocery and provision merchants,
+resident,NEWPORT STREET DIRECTORY.,,,,Post Office Engineering department,,
+resident,NEWPORT STREET DIRECTORY.,,,,Customs & Excise office,,
+resident,NEWPORT STREET DIRECTORY.,,,,Old Age Pensions office,,
+resident,NEWPORT STREET DIRECTORY.,,,,Welsh Board of Health,,(office for contributory pensions)
+resident,NEWPORT STREET DIRECTORY.,,,,Unemployment Assistance Board,,
+resident,NEWPORT STREET DIRECTORY.,,,,Mullock & Sons, Ltd.,printers,
+resident,NEWPORT STREET DIRECTORY.,,,A. W.,Payne,tobacconst,
+cross_street,NEWPORT STREET DIRECTORY.,,,,,"here is Austin-friars",
+resident,NEWPORT STREET DIRECTORY.,,Town Hall,W. H.,Robinson,chief constable,Chief Constable's office and Police Headqrt'rs
+resident,NEWPORT STREET DIRECTORY.,,Town Hall,Clifford,Harris,supt.,
+resident,NEWPORT STREET DIRECTORY.,177,Police Station,,,Detective dept. & Central Police Court
+resident,NEWPORT STREET DIRECTORY.,177,,J. E.,Parkyn,hallkeeper,
+resident,NEWPORT STREET DIRECTORY.,177,,A. A.,Wright,fruit merchants,
+cross_street,NEWPORT STREET DIRECTORY.,,,,,"here is Corn-street",
+resident,NEWPORT STREET DIRECTORY.,178,Olympia Cinema Theatre,,,
+resident,NEWPORT STREET DIRECTORY.,178,,,Phillips & Cross,undertakers' warehousemen,
+cross_street,NEWPORT STREET DIRECTORY.,,,,,"here is Skinner-street",
+resident,NEWPORT STREET DIRECTORY.,179,,,Wood John & Son,incorporated account's,
+resident,NEWPORT STREET DIRECTORY.,179,,,Principality Building Society,,
+resident,NEWPORT STREET DIRECTORY.,180,,G.,Burcher,leather merchant,
+resident,NEWPORT STREET DIRECTORY.,181,,,Cook W. & R. Limited,clothiers,
+resident,NEWPORT STREET DIRECTORY.,181,,,Mason G. J. & Co.,mantle manufacturers,
+resident,NEWPORT STREET DIRECTORY.,181,,H. B.,Keen,manager,
+resident,NEWPORT STREET DIRECTORY.,182,,,Strong H. J. & Co.,hardware merchants,
+resident,NEWPORT STREET DIRECTORY.,183-4,,,Phillips W. & Sons,jewellers outfitters and pawnbrokers,
+resident,NEWPORT STREET DIRECTORY.,183-4,,J.,Halliday,,
+resident,NEWPORT STREET DIRECTORY.,185,Victoria Stores,,,,
+resident,NEWPORT STREET DIRECTORY.,186,,,Armstead G. W. & Co.,leather and grindery merchants,
+cross_street,NEWPORT STREET DIRECTORY.,,,,,"here is Griffin-street",
+resident,NEWPORT STREET DIRECTORY.,,Market Buildings,,,,"[Heading: MARKET BUILDINGS]"
+resident,NEWPORT STREET DIRECTORY.,187,,A. A.,Wright,fruit merchant,
+resident,NEWPORT STREET DIRECTORY.,188,,D.,Narbett,saddler,
+resident,NEWPORT STREET DIRECTORY.,189,,,Candle King Ltd.,grocers,
+resident,NEWPORT STREET DIRECTORY.,190,,H.,Wheeler,fruit and flower salesman,
+resident,NEWPORT STREET DIRECTORY.,,Provision Market,F.,Paginton,manager,"[Heading: PROVISION MARKET]"
+resident,NEWPORT STREET DIRECTORY.,191-2,,,,show rooms,Electricity dept.
+resident,NEWPORT STREET DIRECTORY.,193,,E. T.,Williams,restaurant,
+resident,NEWPORT STREET DIRECTORY.,194,,E.,Nancekievill,harness maker and leather goods,
+cross_street,NEWPORT STREET DIRECTORY.,,,,,"here is Market-street",
+resident,NEWPORT STREET DIRECTORY.,195,,,Jacobs A. J. & Son,pawnbrokers & outfitters,
+resident,NEWPORT STREET DIRECTORY.,195,,Frank,Nichols,,
+resident,NEWPORT STREET DIRECTORY.,196,,J. F.,Paull,wireless & cycles,
+resident,NEWPORT STREET DIRECTORY.,197,,Freda,Rickard,milliner,
+resident,NEWPORT STREET DIRECTORY.,198,,H.,Thomas,btchrs,& Son

@@ -1,0 +1,153 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,Oswald Road,7,,Wm. Thos.,Williams,,
+resident,Oswald Road,9,,J.,Lee Olonso,wagon rep,
+resident,Oswald Road,11,,Leonard,Davies,,
+resident,Oswald Road,13,,M.,McCarthy,clerk,
+resident,Oswald Road,15,,Wm. James,Ridley,,
+resident,Oswald Road,17,,D. T.,MacLachlan,tailor,
+resident,Oswald Road,19,,Mrs. Rosina,Sully,,
+cross_street,Oswald Road,,,,,,here is Adeline-street
+resident,Oswald Road,21,,F. P.,Suller,plater,
+resident,Oswald Road,23,,Mrs. Catherine,Denley,,
+resident,Oswald Road,25,,Rowland G.,Bigglestone,ironworker,
+resident,Oswald Road,27,,Chas.,Whiting,G.W.R.,
+resident,Oswald Road,29,,Robt.,Chicken,trimmer,
+resident,Oswald Road,31,,H. E.,Griffiths,cook,
+resident,Oswald Road,33,,Edwin,Davies,fitter,
+resident,Oswald Road,35,,Clifford,Evans,trimmer,
+resident,Oswald Road,37,,Walter,Gray,hoistman,
+resident,Oswald Road,39,,Geo.,Tyldesley,shipper,
+resident,Oswald Road,41,,Richard,Stevens,G.W.R.,
+cross_street,Oswald Road,,,,,,(return)
+resident,Oswald Road,,,,Oswald-road R.C. school,,
+resident,Oswald Road,10,,Ivor,James,hairdresser,Grenville
+resident,Oswald Road,8,,Idris,Thomas,G.W.R.,
+resident,Oswald Road,6,,David,Bartlett,labourer,
+resident,Oswald Road,4,,Gilbert,Smith,fitter,
+resident,Oswald Road,2,,Chas.,Collins,dock pilot,
+street,OXFORD STREET,,,,,,D 3
+cross_street,OXFORD STREET,,,,,,From 210 Chepstow-road to Archibald-street
+cross_street,OXFORD STREET,,,,,,(LEFT HAND SIDE.)
+resident,OXFORD STREET,1,,Mrs. A.,Fry,,
+resident,OXFORD STREET,2,,Mrs, M. J.,Arundell,,
+resident,OXFORD STREET,,,,E. F.,Burt,credit draper,
+resident,OXFORD STREET,3,,Albert,Davies,postman,
+resident,OXFORD STREET,4,,Walter B.,Alexander,irnwr,
+resident,OXFORD STREET,5,,Alfred,Dean,postman,
+resident,OXFORD STREET,6,,Albert,Richards,baker,
+resident,OXFORD STREET,7,,Ferdinand,Taylor,win'dw cleaner,
+resident,OXFORD STREET,8,,James W.,Gear,labourer,
+resident,OXFORD STREET,9,,Sidney S.,Wood,electricn,
+resident,OXFORD STREET,10,,—,Thomas,,
+resident,OXFORD STREET,11,,Tom H.,Powles,carpenter,
+resident,OXFORD STREET,12,,Herbert,Hackwood,,
+resident,OXFORD STREET,13,,Joseph H.,Overton,G.W.R.,
+resident,OXFORD STREET,14,,Miss M.,Morris,,
+resident,OXFORD STREET,15,,William,Essery,cabt. mkr,
+resident,OXFORD STREET,16,,Herbt.,Williams,trench polisher,
+cross_street,OXFORD STREET,,,,,,(return)
+resident,OXFORD STREET,17,,John Thos.,Fry,roller,
+resident,OXFORD STREET,18,,Hy. G.,Brooks,G.P.O.,
+resident,OXFORD STREET,19,,Mrs. Eliza,Griffiths,,
+resident,OXFORD STREET,20,,Mrs. E.,Thomas,,
+resident,OXFORD STREET,21,,Roland,Shaw,ironworker,
+resident,OXFORD STREET,22,,Mrs. J.,Lyons,,
+resident,OXFORD STREET,23,,Frank,Genge,ironworker,
+resident,OXFORD STREET,24,,Arthur George,Stickler,,
+resident,OXFORD STREET,25,,H. J.,Reakes,labourer,
+resident,OXFORD STREET,26,,Mrs. E.,Marsh,,
+resident,OXFORD STREET,27,,Void,,,
+resident,OXFORD STREET,28,,Bert,Stratford,G.W.R.,
+resident,OXFORD STREET,29,,Frank,Harris,carpenter,
+resident,OXFORD STREET,30,,Timothy,Pritchard,labr,
+street,PALM SQUARE,,,,,,E 2
+cross_street,PALM SQUARE,,,,,,SOMERTON GARDENS ESTATE
+cross_street,PALM SQUARE,,,,,,From Sycamore-avenue
+cross_street,PALM SQUARE,,,,,,(LEFT HAND SIDE)
+resident,PALM SQUARE,1,,—,Evans,,
+resident,PALM SQUARE,3,,Sidney,Sully,bus condctr,
+resident,PALM SQUARE,5,,Geo. T.,Gardner,,Kia-ora
+resident,PALM SQUARE,7,,Wm.,Baker,G.W.R.,
+resident,PALM SQUARE,9,,Herbt. W.,Smith,moulder,
+resident,PALM SQUARE,11,,William Hy.,Swattridge,,
+resident,PALM SQUARE,13,,Robert E.,Williams,fitter,
+resident,PALM SQUARE,15,,F.,Lewis,,
+cross_street,PALM SQUARE,,,,,,(return)
+resident,PALM SQUARE,12,,A.,Mellons,trimmer,
+resident,PALM SQUARE,10,,Fredk. W.,Elliott,labr,
+resident,PALM SQUARE,8,,Harold B.,Baynes,ironwrkr,
+resident,PALM SQUARE,6,,Chas.,Brittan,labourer,
+resident,PALM SQUARE,4,,Frank H.,Baker,shearer,
+resident,PALM SQUARE,2,,F. W.,Davies,G.W.R.,
+street,PANT ROAD,,,,,,B 4
+cross_street,PANT ROAD,,,,,,From 146 Malpas-road
+cross_street,PANT ROAD,,,,,,(LEFT HAND SIDE.)
+cross_street,PANT ROAD,,,,,,here is Pant-lane
+resident,PANT ROAD,1,,John,Phillips,G.W.R.,
+resident,PANT ROAD,3,,George,Slater,fireman,
+resident,PANT ROAD,5,,Leslie Wm.,Musto,baker,
+resident,PANT ROAD,7,,Pryce,Price,,
+resident,PANT ROAD,9,,Geo.,Lewis,G.W.R.,
+resident,PANT ROAD,11,,George,Henry,printer,
+resident,PANT ROAD,13,,Mrs.,Francis,,
+resident,PANT ROAD,15,,Geo.,Gillard,moulder,
+resident,PANT ROAD,17,,Miss E.,Davies,,
+resident,PANT ROAD,19,,Alf. R.,Pearson,machinist,
+resident,PANT ROAD,21,,Peter,Ryan,weighman,
+resident,PANT ROAD,23,,Geo. M.,Lewis,coal mcht,
+resident,PANT ROAD,25,,Thos. J.,Orphan,clerk,
+resident,PANT ROAD,27,,Chas.,Williams,clerk,The Glen
+resident,PANT ROAD,29,,Edgar T.,Wright,engnr,Galen
+resident,PANT ROAD,,,,Vacant sites,,
+cross_street,PANT ROAD,,,,,,(return)
+resident,PANT ROAD,28,,Bert,Davies,carpenter,
+resident,PANT ROAD,26,,Chas. Jno.,Payne,blksmth,
+resident,PANT ROAD,24,,Donald J.,Prosser,meter mechanic,
+resident,PANT ROAD,22,,Corbet,Coker,tobacconist,
+resident,PANT ROAD,20,,Fred H.,Cox,G.W.R.,
+resident,PANT ROAD,18,,Alfred,Howell,G.W.R.,
+resident,PANT ROAD,16,,Fredk.,Nicholls,G.W.R.,
+cross_street,PANT ROAD,,,,,,here is Ross-street
+resident,PANT ROAD,14,,Wm.,Bartlett,gen shop,
+resident,PANT ROAD,12,,H. J.,Hodginson,G.W.R.,
+resident,PANT ROAD,10,,Mrs. Elizabeth,Cavill,,
+resident,PANT ROAD,8,,Jno.,Davies,ships painter,
+resident,PANT ROAD,6,,Wm.,Mayor,annealer,
+resident,PANT ROAD,4,,Wm.,Thompson,motr dvrl,
+resident,PANT ROAD,2,,Mrs. Henrietta,Jones,gen shop,
+street,PALMYRA PLACE,,,,,,D 5
+cross_street,PALMYRA PLACE,,,,,,From St. Paul's Church to Park-square
+cross_street,PALMYRA PLACE,,,,,,(RIGHT HAND SIDE)
+resident,PALMYRA PLACE,,Hunts' magneto & dynamo works,,,,
+resident,PALMYRA PLACE,,London & Man. Insurance Co.,,,,
+resident,PALMYRA PLACE,,,,C. R.,Saville,,
+resident,PALMYRA PLACE,,Berry & Pearce, plumbers and sheet metal workers,,,,
+resident,PALMYRA PLACE,1,,Thomas,Thomas,,
+resident,PALMYRA PLACE,2,,R. V.,Richards,physician and surgeon,
+resident,PALMYRA PLACE,3,,Y.W.C.A. Hostel & Club—Davidson Miss E. M.,,,
+resident,PALMYRA PLACE,4,,Welsh National Memorial Tuberculosis Institute—A. Carveth Johnson, M.A., M.B., Tuberculosis Officer for Newport and East Mon.,,,
+resident,PALMYRA PLACE,5,,W. H.,Allen,,
+resident,PALMYRA PLACE,,,,E. W.,Poole,,
+resident,PALMYRA PLACE,,,,David,Burns,,
+cross_street,PALMYRA PLACE,,,,,,(return)
+resident,PALMYRA PLACE,,,Palmyra house,W. C.,Phillips,,
+street,PARFITT STREET,,,,,,F 2
+cross_street,PARFITT STREET,,,,,,From Lliswerry road
+cross_street,PARFITT STREET,,,,,,(LEFT HAND SIDE)
+resident,PARFITT STREET,,,Montana,Geo.,James,van salesman,
+resident,PARFITT STREET,1,,Sidney,Brown,G.W.R.,
+resident,PARFITT STREET,3,,Alfred,Evans,ironworker,
+resident,PARFITT STREET,5,,Geo.,Wilkinson,ironwrkr,
+resident,PARFITT STREET,7,,Trevor,Watkins,car clnr,
+resident,PARFITT STREET,9,,Mrs. Emma,Livell,,
+resident,PARFITT STREET,,,Glen Haven,Wm.,Williams,,
+resident,PARFITT STREET,,,Hazlewood,W.,Millington,ironworker,
+resident,PARFITT STREET,,,Braer Glen,Stanley,Knight,ironworkr,
+cross_street,PARFITT STREET,,,,,,(return)
+resident,PARFITT STREET,,,Bright Holm,R.,Hockey,haulier,
+resident,PARFITT STREET,,,Helmaen,Chas.,Tuft,crane driver,
+resident,PARFITT STREET,,,Danes Bord,Geo. H.,Phillips,agent,
+resident,PARFITT STREET,,,Ivydene,Stan.,Kippey,G.W.R.,
+resident,PARFITT STREET,,,Glyn-dor,Thos.,Edward,ironworkr,
+resident,PARFITT STREET,,,Hunderton,Wm.,Wilcox,weighman,
+resident,PARFITT STREET,,,Malvern house,Fredk.,Rides,excavator,

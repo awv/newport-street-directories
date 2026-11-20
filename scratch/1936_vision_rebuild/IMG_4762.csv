@@ -1,0 +1,159 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,ST. STEPHEN'S ROAD. E 4,,,,,,Carlisle-st to Alexandra-rd.
+cross_street,ST. STEPHEN'S ROAD. E 4,,,,,,(LEFT HAND SIDE)
+resident,ST. STEPHEN'S ROAD. E 4,1,,Wm. G.,Becker,,G.W.R.
+resident,ST. STEPHEN'S ROAD. E 4,2,,Joseph,Muscat,water clk,
+resident,ST. STEPHEN'S ROAD. E 4,3,,William,Parsons,foreman,
+resident,ST. STEPHEN'S ROAD. E 4,4,,Ernest,Steel,eng driver,
+resident,ST. STEPHEN'S ROAD. E 4,5,,John,Callagan,baker,
+resident,ST. STEPHEN'S ROAD. E 4,6,,Wm. A.,Stokes,fireman,
+resident,ST. STEPHEN'S ROAD. E 4,7,,W. J.,Perry,coal merch,
+resident,ST. STEPHEN'S ROAD. E 4,8,,Thos.,Webber,hoistman,
+resident,ST. STEPHEN'S ROAD. E 4,9,,Chas.,Stephens,weighman,
+resident,ST. STEPHEN'S ROAD. E 4,10,,,,,Void
+resident,ST. STEPHEN'S ROAD. E 4,11,,Harry,Williams,labourer,
+resident,ST. STEPHEN'S ROAD. E 4,12,,W. F.,Hunter,boatman,
+resident,ST. STEPHEN'S ROAD. E 4,13,,Wm.,Foley,,G.W.R.
+resident,ST. STEPHEN'S ROAD. E 4,14,,Walter F.,Pritchard,fitter,
+resident,ST. STEPHEN'S ROAD. E 4,15,,Frank,Marsh,shipwright,
+resident,ST. STEPHEN'S ROAD. E 4,16,,Thomas,Horton,fitter,
+cross_street,ST. STEPHEN'S ROAD. E 4,,,,,,(return)
+resident,ST. STEPHEN'S ROAD. E 4,,,J. M.,Beddis,coal mercht,motor coach proprietor haulage contractor
+resident,ST. STEPHEN'S ROAD. E 4,,,,Armature Engineering Co.,,
+resident,ST. STEPHEN'S ROAD. E 4,17,,J. M.,Beddis,,
+resident,ST. STEPHEN'S ROAD. E 4,,,Joseph Chas.,Beddis,,
+resident,ST. STEPHEN'S ROAD. E 4,18,,Mrs. Sarah,Ashill,,
+resident,ST. STEPHEN'S ROAD. E 4,19,,V. G.,King,wagon rep'er,
+resident,ST. STEPHEN'S ROAD. E 4,20,,Mrs. W.,Lynch,,
+resident,ST. STEPHEN'S ROAD. E 4,21,,David,Walsh,dock wrkr,
+resident,ST. STEPHEN'S ROAD. E 4,22,,Tom.,Jackson,coal trmr,
+street,ST. VINCENT ROAD. C 4,,,,,,Corporation-rd. to Rodney-rd
+cross_street,ST. VINCENT ROAD. C 4,,,,,,(LEFT HAND SIDE.)
+resident,ST. VINCENT ROAD. C 4,,,,Venton & Cleasby,fish bar,Sweeting's bakery
+resident,ST. VINCENT ROAD. C 4,1,,Mrs. M.,Mattock,,
+resident,ST. VINCENT ROAD. C 4,3,,G. A.,Coes,docker,
+resident,ST. VINCENT ROAD. C 4,5,,Lewis,Poloway,tailor,
+resident,ST. VINCENT ROAD. C 4,7,,J.,Groves,insur agent,
+resident,ST. VINCENT ROAD. C 4,9,,Mrs. Noreen,Kimpton,,
+resident,ST. VINCENT ROAD. C 4,11,,Leslie W.,Boundy,asst,G.,
+resident,ST. VINCENT ROAD. C 4,13,,Mrs. R. H.,Meredith,,
+resident,ST. VINCENT ROAD. C 4,15,,John,Price,shop assistant,
+resident,ST. VINCENT ROAD. C 4,17,,Wm. Hy.,O'Neill,,
+resident,ST. VINCENT ROAD. C 4,19,,Reg. T.,Braund,painter,
+resident,ST. VINCENT ROAD. C 4,21,,Henry C.,Thomas,chemist,
+resident,ST. VINCENT ROAD. C 4,23,,Margaret,Morris,,
+resident,ST. VINCENT ROAD. C 4,25,,Clarence W.,Noad,clerk,
+resident,ST. VINCENT ROAD. C 4,27,,Mrs. A. L.,Wood,,
+resident,ST. VINCENT ROAD. C 4,29,,,,,Void
+resident,ST. VINCENT ROAD. C 4,31,,Tom,Williams,caretaker,
+resident,ST. VINCENT ROAD. C 4,33,,Fredk.,Condon,traveller,
+resident,ST. VINCENT ROAD. C 4,35,,Albert,James,electrician,
+resident,ST. VINCENT ROAD. C 4,37,,Leonard A.,Tucker,,G.W.R.
+resident,ST. VINCENT ROAD. C 4,39,,Charles,Powles,mariner,
+resident,ST. VINCENT ROAD. C 4,41,,Victor Wm.,Evans,stlwkr,
+resident,ST. VINCENT ROAD. C 4,,,,Richards & Sons,bakery,
+cross_street,ST. VINCENT ROAD. C 4,,,,,,(return)
+resident,ST. VINCENT ROAD. C 4,,,Technical College,,,
+resident,ST. VINCENT ROAD. C 4,,,Ernest,Gadd,mechanic,
+resident,ST. VINCENT ROAD. C 4,,,Corporation Weighing Machine,,,
+resident,ST. VINCENT ROAD. C 4,36,,Miss Lilly,Page,,
+resident,ST. VINCENT ROAD. C 4,34,,W.,Hartley,traffic supt,
+resident,ST. VINCENT ROAD. C 4,32,,Mrs. Alice,Turner,,
+resident,ST. VINCENT ROAD. C 4,30,,John,Harris,engineer,
+resident,ST. VINCENT ROAD. C 4,28,,W. E,Taylor,,
+resident,ST. VINCENT ROAD. C 4,26,,Archibald,Takel,bus dvr,
+resident,ST. VINCENT ROAD. C 4,24,,Miss Louisa J.,Vowles,,
+resident,ST. VINCENT ROAD. C 4,22,,Mrs. Minnie,Bevan,,
+resident,ST. VINCENT ROAD. C 4,20,,Ivor,Lewis,haulage contcr,
+resident,ST. VINCENT ROAD. C 4,18,,Mrs. W. C.,Lloyd,,
+resident,ST. VINCENT ROAD. C 4,16,,Jas. G.,Laurence,,
+resident,ST. VINCENT ROAD. C 4,14,,Reginald,Rudd,traveller,
+resident,ST. VINCENT ROAD. C 4,12,,Thos. J.,James,milliner,
+resident,ST. VINCENT ROAD. C 4,10,,,,,Void
+resident,ST. VINCENT ROAD. C 4,8,,S.,Smith,loco foreman,
+resident,ST. VINCENT ROAD. C 4,6,,Joseph,Darch,bus driver,
+resident,ST. VINCENT ROAD. C 4,4,,T. G.,Dickinson,miner,
+street,ST. WOOLOS PLACE. D 5,,,,,,From 23 St. Woolos-road
+cross_street,ST. WOOLOS PLACE. D 5,,,,,,(RIGHT HAND SIDE.)
+resident,ST. WOOLOS PLACE. D 5,1,,Mrs. Isabella E.,Davies,,
+resident,ST. WOOLOS PLACE. D 5,2,,John W.,Forest,labourer,
+resident,ST. WOOLOS PLACE. D 5,3,,F. W.,Skinner,eng driver,
+resident,ST. WOOLOS PLACE. D 5,4,,Reg. A.,Lewis,steward,
+resident,ST. WOOLOS PLACE. D 5,5,,G. E.,Williams,gardener,
+resident,ST. WOOLOS PLACE. D 5,6,,Joseph,Romero,seaman,
+resident,ST. WOOLOS PLACE. D 5,7,,Samuel,Berry,postman,
+resident,ST. WOOLOS PLACE. D 5,8,,Wm. Ivor,Reese,,G.W.R.
+cross_street,ST. WOOLOS PLACE. D 5,,,,,,(return)
+resident,ST. WOOLOS PLACE. D 5,9,,Patrick,Mahoney,,G.W.R.
+resident,ST. WOOLOS PLACE. D 5,10,,Alfd.,Myland,guard,
+resident,ST. WOOLOS PLACE. D 5,11,,Thos.,Bennett,carpenter,
+resident,ST. WOOLOS PLACE. D 5,12,,Benjamin D.,Stone,labr,
+resident,ST. WOOLOS PLACE. D 5,13,,E. A.,Meredith,painter,
+resident,ST. WOOLOS PLACE. D 5,14,,A.,Meredith,policeman,
+resident,ST. WOOLOS PLACE. D 5,15,,Robert J.,Pullen,painter,
+street,ST. WOOLOS ROAD. D 5,,,,,,St. Mary-st. to Clifton-rd.
+cross_street,ST. WOOLOS ROAD. D 5,,,,,,(RIGHT HAND SIDE.)
+resident,ST. WOOLOS ROAD. D 5,1,Prince of Wales,Leo.,Jones,,
+resident,ST. WOOLOS ROAD. D 5,2,,H. Hy.,Constance,crane driver,
+resident,ST. WOOLOS ROAD. D 5,3,,Mrs. Emma,Howells,,
+resident,ST. WOOLOS ROAD. D 5,4,,Mrs. K.,Nicholls,,
+resident,ST. WOOLOS ROAD. D 5,5,,Stan.,Sheppard,acet wldr,
+resident,ST. WOOLOS ROAD. D 5,6,,Chas. E.,Gardiner,iwkr,
+resident,ST. WOOLOS ROAD. D 5,7,,Mrs. Louise,Fortune,,
+resident,ST. WOOLOS ROAD. D 5,8,,Jas.,Masters,fish bar,
+resident,ST. WOOLOS ROAD. D 5,8a,,Mrs. Sarah Ann,Lewis,,
+resident,ST. WOOLOS ROAD. D 5,,,W. A.,James,boot repr,
+cross_street,ST. WOOLOS ROAD. D 5,,,,,,here is Graham-street
+resident,ST. WOOLOS ROAD. D 5,9,Wellington Inn,Melville,Powell,,
+resident,ST. WOOLOS ROAD. D 5,10,,Mrs. Mary Jane,Gale,,
+resident,ST. WOOLOS ROAD. D 5,11,,Thomas William,Dally,,
+resident,ST. WOOLOS ROAD. D 5,12,,John,Ingram,ironworker,
+resident,ST. WOOLOS ROAD. D 5,13,,Mrs. Elsie,Chown,,
+resident,ST. WOOLOS ROAD. D 5,14,,Edward,Lyons,clerk,
+resident,ST. WOOLOS ROAD. D 5,15,,F. E.,Bamford,grocer,
+cross_street,ST. WOOLOS ROAD. D 5,,,,,,here is St. Julian-street
+resident,ST. WOOLOS ROAD. D 5,16,,John P.,Gale,,G.W.R.
+resident,ST. WOOLOS ROAD. D 5,17,,Alexander,Hall,electcn,
+resident,ST. WOOLOS ROAD. D 5,18,,Arthur,Packer,,
+resident,ST. WOOLOS ROAD. D 5,19,,T. J.,Burgess,taxi driver,
+resident,ST. WOOLOS ROAD. D 5,20,,Mrs. J.,Pegler,,
+resident,ST. WOOLOS ROAD. D 5,21,,Fred,Barber,,G.W.R.
+resident,ST. WOOLOS ROAD. D 5,22,,W. C.,Moulton,shunter,
+resident,ST. WOOLOS ROAD. D 5,23,,Miss Eva,Bartlett,,
+cross_street,ST. WOOLOS ROAD. D 5,,,,,,here is St. Woolos-place
+resident,ST. WOOLOS ROAD. D 5,24,,Tom M.,Dent,butcher,
+resident,ST. WOOLOS ROAD. D 5,25,,Jno. C.,Dennison,crane driver,
+resident,ST. WOOLOS ROAD. D 5,26,,Miss Ellen,Weetch,,
+resident,ST. WOOLOS ROAD. D 5,27,,Albert E.,Gulley,motor coach proprietor,
+cross_street,ST. WOOLOS ROAD. D 5,,,,,,(return)
+resident,ST. WOOLOS ROAD. D 5,28,,W. J.,O'Brien,labourer,
+resident,ST. WOOLOS ROAD. D 5,29,,Jos. F.,Lyons,metal wkr,
+resident,ST. WOOLOS ROAD. D 5,30,,J. F. G.,Evans,postman,
+resident,ST. WOOLOS ROAD. D 5,31,,John,Lyons,painter,
+resident,ST. WOOLOS ROAD. D 5,32,,Stanley,James,baker,
+resident,ST. WOOLOS ROAD. D 5,33,,Geo. A.,Davies,assistant labour master,
+resident,ST. WOOLOS ROAD. D 5,,,Alfred,Salter,tailor,James' bakehouse
+cross_street,ST. WOOLOS ROAD. D 5,,,,,,here is Jones-street
+resident,ST. WOOLOS ROAD. D 5,34,,H. R.,Dolling,greengrcr,
+street,SALISBURY ROAD. C 6,,,,,,Bryngwyn-rd. to Llanthewy-rd.
+street,SCARD STREET. D 5,,,,,,From North-st. to Bailey-st.
+cross_street,SCARD STREET. D 5,,,,,,(LEFT HAND SIDE.)
+resident,SCARD STREET. D 5,1,,,,,Void
+resident,SCARD STREET. D 5,2,,,,,Void
+resident,SCARD STREET. D 5,3,,Edwin J.,Jones,lavatory attendant,
+resident,SCARD STREET. D 5,4,,Misses T. & H.,Swallow,,
+resident,SCARD STREET. D 5,5,,,,,Void
+cross_street,SCARD STREET. D 5,,,,,,(return)
+resident,SCARD STREET. D 5,6,,James,Ballinger,elect'n,
+resident,SCARD STREET. D 5,7,,Wm. J.,Elworthy,carpntr,
+resident,SCARD STREET. D 5,8,,David,Banks,boilermaker,
+resident,SCARD STREET. D 5,9,,Mrs. Ada,Parker,confctr,
+street,SCHOOL LANE.,,,,,,From Charles-st.
+resident,SCHOOL LANE.,,Premier Hall,W. J.,Lewis,proprietor,
+resident,SCHOOL LANE.,,Newport Secondary School,,,
+resident,SCHOOL LANE.,,,Robert,Carter,caretaker,
+street,SCREW PACKET RD. C 4,,,,,,From 84 High-street
+resident,SCREW PACKET RD. C 4,,,,Newport Builders' Supply Limited,,
+resident,SCREW PACKET RD. C 4,,,,Nicholas & Co.,timber mchts,Baltic wharf
+resident,SCREW PACKET RD. C 4,,,Tom,Pitt,shoeing smith,R.S.S.
+resident,SCREW PACKET RD. C 4,,,Mrs. Mary E.,Fisher,,

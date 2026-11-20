@@ -1,0 +1,133 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+cross_street,WHARF ROAD,,,,,(return),
+resident,WHARF ROAD,112,,,Roberts,George,,
+resident,WHARF ROAD,110,,,Daley,John,crane driver,
+resident,WHARF ROAD,108,,,Lloyd,Thos. Hy.,crane driver,
+resident,WHARF ROAD,106,,,Siviter,John Thos.,ironworker,
+resident,WHARF ROAD,104,,,Cowell,John,motorman,
+resident,WHARF ROAD,102,,,Gill,John William,,
+resident,WHARF ROAD,100,,,Bull,George,,
+resident,WHARF ROAD,98,,,Bowen,Wm. G.,ironworker,
+resident,WHARF ROAD,96,,,Taylor,William,,
+resident,WHARF ROAD,94,,,Griffiths,John,ironworker,
+resident,WHARF ROAD,92,,,Green,Charles,,
+resident,WHARF ROAD,90,,,Eaton,James Henry,,
+resident,WHARF ROAD,,,,Rogers,George H.,,
+resident,WHARF ROAD,88,,,Williams,Geo.,carpenter,
+resident,WHARF ROAD,86,,,Hopkins,A. G.,wire drawer,
+resident,WHARF ROAD,84,,,Webster,Reg.,ironworker,
+resident,WHARF ROAD,82,,,Lowe,Thomas,ironworker,
+resident,WHARF ROAD,80,,,Lowe,John,,
+resident,WHARF ROAD,78,,,Foster,C. Edwd.,ironwkr,
+resident,WHARF ROAD,76,,,Collard,Chas.,insur. agent,
+resident,WHARF ROAD,74,,,Norman,William,,
+resident,WHARF ROAD,72,,,Hurford,Alfred,dk wkr,
+resident,WHARF ROAD,70,,,Chapman,Bertram,,
+resident,WHARF ROAD,68,,,Richards,Oswald,,
+resident,WHARF ROAD,66,,,Moore,Charles,,
+resident,WHARF ROAD,64,,,Harris,Fredk.,mechanic,
+resident,WHARF ROAD,62,,,Sheppard,Mrs. Elizabeth,,
+resident,WHARF ROAD,60,,,Homfray,Arthur Vincent,ironworker,
+resident,WHARF ROAD,58,,,Groom,Henry,ironworker,
+resident,WHARF ROAD,56,,,Pewtner,Geo.,labourer,
+resident,WHARF ROAD,54,,,Richards,Wm. H.,labr,
+resident,WHARF ROAD,52,,,Morgan,Mrs. Martha,,
+resident,WHARF ROAD,50,,,Hill,E. C.,mason,
+resident,WHARF ROAD,48,,,Stockwell,Mrs. Isod,,
+resident,WHARF ROAD,46,,,Dunleavie,Jas.,boilermkr,
+resident,WHARF ROAD,44,,,Russell,James,,
+resident,WHARF ROAD,42,,,Hourahane,James,,
+resident,WHARF ROAD,40,,,Perkins,Thomas,seaman,
+resident,WHARF ROAD,38,,,Hobbs,Henry,,
+resident,WHARF ROAD,36,,,Watkins,Albert,,
+resident,WHARF ROAD,34,,,Tripp,Adam S.,,
+cross_street,WHARF ROAD,,,,,,here is Jeffrey-street
+resident,WHARF ROAD,,,,,,Gabica & Sons marine strs,
+resident,WHARF ROAD,28,,,Burrows,Edward,labourer,
+resident,WHARF ROAD,26,,,Nicholas,Morgan,ironwkr,
+resident,WHARF ROAD,24,,,East,Francis,ironworker,
+resident,WHARF ROAD,22,,,Powell,Edwin John,,
+resident,WHARF ROAD,,,,Littlejohns,Wm.,cabinet maker,
+cross_street,WHARF ROAD,,,,,,here is Glebe-street
+resident,WHARF ROAD,,MAINDEE AND EAST WARD LIBERAL CLUB,,,,,
+resident,WHARF ROAD,20A,,,Stokes,John,fish shop,
+resident,WHARF ROAD,20,,,Mayne,Mrs. E.,,
+resident,WHARF ROAD,18,,,Hill,George,mason,
+resident,WHARF ROAD,16,,,West,Thomas,,
+resident,WHARF ROAD,14,,,Orders,Chas.,painter,
+resident,WHARF ROAD,12,,,Baylis,Ernest,,
+resident,WHARF ROAD,10,,,Ford,Alfred Geo.,labourer,
+resident,WHARF ROAD,8,,,Underwood,Edwd.,labr,
+resident,WHARF ROAD,6,,,Jarvis,H. H.,,
+resident,WHARF ROAD,4,,,Andrews,Mrs.,shop,
+resident,WHARF ROAD,2,,,Beighton,W.,furniture dlr,
+resident,WHARF ROAD,,,,Woodgates,J. W. Ltd.,carriage factory,
+street,WHARVES (THE), &c.,,,,,,,From the Bridge WEST SIDE
+resident,WHARVES (THE), &c.,,,Bangor Wharf,,,Newport Builders' Supply Ltd.
+resident,WHARVES (THE), &c.,,,Baltic Wharf,,,Nicholas & Co. Ltd. timber and slate merchants
+cross_street,WHARVES (THE), &c.,,,,,,here is the Town Pill
+resident,WHARVES (THE), &c.,,,Cinderhill wharf,,,Star Mills—Smiths Newport Ltd.
+resident,WHARVES (THE), &c.,,,Moderator wharf,,,Beaufort wharf Bristol Packet whrf
+resident,WHARVES (THE), &c.,,,Nantyglo wharf,,,R. Burton & Son Ltd. carriers and wharfingers
+resident,WHARVES (THE), &c.,,,,,,Guest Keen & Nettlefolds Ltd. Patent Nut and Bolt wharf
+resident,WHARVES (THE), &c.,,,Liverpool wharf,,,S. Wales & Liverpool St. Ship Co. Ltd.—Robert Gilchrist & Co.
+resident,WHARVES (THE), &c.,,,,,,Lewis C. & Co. iron merchants
+resident,WHARVES (THE), &c.,,,,,,Ebbw Vale Steel Iron and Coal Co.'s wharf
+resident,WHARVES (THE), &c.,,,Powell's Town whrf,,,Eudd & Co. colliery proprietors
+resident,WHARVES (THE), &c.,,,Pontypool whrf,,,E. Vale Co
+resident,WHARVES (THE), &c.,,,Mariner's wharf,,,do
+resident,WHARVES (THE), &c.,,,,,,Ebbw Vale Coal Co.'s wharf
+resident,WHARVES (THE), &c.,,,,,,Vipond J. & Co.'s wharf
+resident,WHARVES (THE), &c.,,,Gloucester whf,,,G.W.R. Co.
+resident,WHARVES (THE), &c.,,,,,,Clements J. iron merchant
+resident,WHARVES (THE), &c.,,,,,,Maybury & Co. builders' merchants
+resident,WHARVES (THE), &c.,,,Victoria whf,,,Ebbw Vale. Co—iron ore pitwood etc.
+cross_street,WHARVES (THE), &c.,,,,,,here is Jack's Pill
+resident,WHARVES (THE), &c.,,,Newport (The) Dry Docks,,,Mordey Carney & Co. Ltd engineers iron shipbuilders and ship repairers
+resident,WHARVES (THE), &c.,,,Llanarth whf,,,A. J. T. Goss oil and grease merchant
+resident,WHARVES (THE), &c.,,,,,,Harris & Coxon ship repair'rs
+resident,WHARVES (THE), &c.,,,Blaina wharf,,,Dock Co.
+resident,WHARVES (THE), &c.,,,,Williams,Walter,,
+resident,WHARVES (THE), &c.,,,,Evans,John,wagon insprtr,
+resident,WHARVES (THE), &c.,,,Tillery wharf,,,& Co. London Adamant Plaster & Keene's Cement Works,
+resident,WHARVES (THE), &c.,,,Clapp's wharf,,,& Co. London Adamant Plaster & Keene's Cement Works,
+resident,WHARVES (THE), &c.,,,,Farmer,James,platelayer,
+resident,WHARVES (THE), &c.,,,,Stephens,Dd. & Co.,smiths,
+resident,WHARVES (THE), &c.,,,Russell's wharf,,,Williams John & Co. (C. F. Williams) wharfingers sand and gravel merchants
+resident,WHARVES (THE), &c.,,,Risca wharf,,,Watts Watts & Co. Ltd.
+resident,WHARVES (THE), &c.,,,Newport Enamelled Slate Co. Ltd.,,,,
+resident,WHARVES (THE), &c.,,,Carngethin wharf,,,W. A. Baker & Co. Ltd. ironfounders &c. (Westgate foundry)
+resident,WHARVES (THE), &c.,,,Commercial wharf,,,
+resident,WHARVES (THE), &c.,,,Deri wharf Aberbeeg wharf,,,Cambrian wharf—T. Spittle Limited engineers and iron and brass founders
+resident,WHARVES (THE), &c.,,,Rhymney wharf,,,
+resident,WHARVES (THE), &c.,,,Devonshire wharf,,,
+resident,WHARVES (THE), &c.,,,Penner wharf,,,Edwards John
+resident,WHARVES (THE), &c.,,,,,,Phillips & Sons malthouse
+cross_street,WHARVES (THE), &c.,,,TOWN DOCK ENTRANCE,,,Customs' watch house,
+resident,WHARVES (THE), &c.,,,Phillips' wharf,,,
+resident,WHARVES (THE), &c.,,,Powell Duffryn wharf,,,
+resident,WHARVES (THE), &c.,,,Penmaen wharf,,,
+resident,WHARVES (THE), &c.,,,,,,Campbell's landing stage
+resident,WHARVES (THE), &c.,,,Pillgwenlly wharf,,,Partridge Jones & Co. Ltd.
+resident,WHARVES (THE), &c.,,,,,,Evans B. & Co. coal merchts.
+resident,WHARVES (THE), &c.,,,,,,Newport Adamant Plaster & Keene's Cement Co.
+resident,WHARVES (THE), &c.,,,,Anderson,Mrs.,,
+resident,WHARVES (THE), &c.,,,,Kingdom,Mrs. Maria,,
+resident,WHARVES (THE), &c.,,,,Larcombe,Henry,,
+resident,WHARVES (THE), &c.,,,,Harding,G. F.,iron and steel merchant,
+resident,WHARVES (THE), &c.,,,Tredegar Dry Dock & Wharf Co. Ltd.,,,,
+resident,WHARVES (THE), &c.,,,Latch's wharf,,,
+resident,WHARVES (THE), &c.,,,,,,Shearman John & Co. (Newport) Ltd. engineers boilermakers ship repairers etc.
+resident,WHARVES (THE), &c.,,,Newport Foundry Co.,,,,
+resident,WHARVES (THE), &c.,,,Rock wharf,,,Lydney & Crump Meadow Colliery Co.
+resident,WHARVES (THE), &c.,,,Waterloo wharf,,,Payne Thos. foreman
+resident,WHARVES (THE), &c.,,,,,,Allen Bros. wheelwrights
+cross_street,WHARVES (THE), &c.,,,TRANSPORTER BRIDGE,,,,
+resident,WHARVES (THE), &c.,,,Channel Dry Docks & Pontoon Co. Ltd.,,,,
+resident,WHARVES (THE), &c.,,,Rhoswen wharf,,,Cardiff and Newport Pat. Fuel Co. Ltd.—J. Evans manager
+resident,WHARVES (THE), &c.,,,Rhos. Llantwit wharf,,,
+resident,WHARVES (THE), &c.,,,Machen wharf,,,Geo. Scott & Co.
+resident,WHARVES (THE), &c.,,,Cork wharf,,,
+resident,WHARVES (THE), &c.,,,,Taylor,Mrs. William Hy.,,
+cross_street,WHARVES (THE), &c.,,,ALEXANDRA DOCKS,The Watch house,,South Docks' Entrance
+resident,WHARVES (THE), &c.,,,,,,Harbour Commissioners' ballast jetties

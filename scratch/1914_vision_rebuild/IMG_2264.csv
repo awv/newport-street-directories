@@ -1,0 +1,168 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,CLARENCE STREET,21,,Mrs. Sarah,Harley,,
+resident,CLARENCE STREET,22,,William,Casey,labourer,
+resident,CLARENCE STREET,23,,Jos.,M'Carthy,trimmer,
+resident,CLARENCE STREET,24,,James,Mansfield,labourer,
+resident,CLARENCE STREET,25,,Wm.,Townsend,rigger,
+resident,CLARENCE STREET,26,,Floh.,McCarthy,trimmer,
+resident,CLARENCE STREET,27,,Albert,Hall,labourer,
+resident,CLARENCE STREET,28,,,Void,,
+resident,CLARENCE STREET,29,,James,Sullivan,labourer,
+resident,CLARENCE STREET,30,,Henry,Moore,seaman,
+resident,CLARENCE STREET,31,,James,Nash,labourer,
+resident,CLARENCE STREET,32,,Mrs. Mary Margaret,Soffe,,
+resident,CLARENCE STREET,,,Edward,Dwyer,labourer,
+resident,CLARENCE STREET,33,,Alfred,Tanner,platelayer,
+resident,CLARENCE STREET,34,,Thos.,Jacobsen,labourer,
+resident,CLARENCE STREET,35,,John,Lewis,labourer,
+resident,CLARENCE STREET,36,,Mrs. Alice,Denn,,
+resident,CLARENCE STREET,37,,Mrs. Jane,Stone,,
+resident,CLARENCE STREET,38,,Albt.,Fryer,dock labourer,
+resident,CLARENCE STREET,39,,John Henry,Nelson,,
+resident,CLARENCE STREET,40,,Thos.,Fitzgerald,labourer,
+resident,CLARENCE STREET,41,,Jas.,Brunnock,labourer,
+resident,CLARENCE STREET,42,,Charles,Jones,labourer,
+street,CLAYTON STREET,,,,,,"C 4"
+cross_street,CLAYTON STREET,,,,,,Off Corelli-street
+cross_street,CLAYTON STREET,,,,,,(LEFT HAND SIDE.)
+resident,CLAYTON STREET,1,,Chas.,Sparrow,,G.W.R.
+resident,CLAYTON STREET,3,,Chas.,Middicott,platelayer,G.W.R.
+resident,CLAYTON STREET,5,,Evan,Evans,,G.W.R.
+resident,CLAYTON STREET,7,,Arthur J.,Powell,,G.W.R.
+resident,CLAYTON STREET,9,,Chas. Wallis,Rule,baker,
+resident,CLAYTON STREET,11,,Joseph,Alder,shunter,
+resident,CLAYTON STREET,13,,Jas. Jno.,Wright,attendnt,
+resident,CLAYTON STREET,15,,Albert,Evans,shunter,
+resident,CLAYTON STREET,17,,Wm. C. A.,Mathews,portr,
+resident,CLAYTON STREET,19,,Wm. R.,Bicker,eng. driver,
+resident,CLAYTON STREET,21,,John Hy.,Farmer,dk. labr,
+resident,CLAYTON STREET,23,,Francis Chas.,Hart,,G.W.R.
+cross_street,CLAYTON STREET,,,,,,(return)
+resident,CLAYTON STREET,,,Ivor E.,Sansom,baker,
+resident,CLAYTON STREET,,,,Vacant sites,,
+street,CLEVEDON ROAD,,,,,,"D 2"
+cross_street,CLEVEDON ROAD,,,,,,Woodland-park
+cross_street,CLEVEDON ROAD,,,,,,(LEFT HAND SIDE.)
+resident,CLEVEDON ROAD,,,,Vacant sites,,
+resident,CLEVEDON ROAD,,Gelly-gron,A. B. Ll.,Jones,,
+resident,CLEVEDON ROAD,,,,Vacant sites,,
+resident,CLEVEDON ROAD,,The Croft,Wm. R.,Grindley,,
+resident,CLEVEDON ROAD,,,House void,,,
+resident,CLEVEDON ROAD,,Wilton,Albert Jas.,Esdaile,,
+resident,CLEVEDON ROAD,,,Walter,Emery,,
+resident,CLEVEDON ROAD,,,G. W.,Owen,,
+resident,CLEVEDON ROAD,,The Gables,Rd. Albert,Rowley-Morris,,
+resident,CLEVEDON ROAD,,,,Vacant sites,,
+cross_street,CLEVEDON ROAD,,,,,,(return)
+resident,CLEVEDON ROAD,1,Wynds Point,Edward Thomas,Fowles,,
+resident,CLEVEDON ROAD,2,The Camp,Norman,Milne,,
+resident,CLEVEDON ROAD,3,,Geo. Jas.,Metcalfe,,
+resident,CLEVEDON ROAD,4,,A. S.,Dawson,mar. supt,
+resident,CLEVEDON ROAD,,,,Vacant sites,,
+street,CLIFTON PLACE,,,,,,"D 5"
+cross_street,CLIFTON PLACE,,,,,,From Clifton-road
+resident,CLIFTON PLACE,1,,Edwin J.,Summers,,
+resident,CLIFTON PLACE,,,Thomas,Summers,,
+resident,CLIFTON PLACE,2,,Herbert,Taylor,,
+resident,CLIFTON PLACE,3,Lamorna,Edwin,Thatcher,,
+resident,CLIFTON PLACE,4,,William H.,Shute,,
+resident,CLIFTON PLACE,5,,Mrs. W. H.,Powell,,
+resident,CLIFTON PLACE,6,,Thomas,Butterworth,,
+resident,CLIFTON PLACE,7,,Arthur,Allen,,
+resident,CLIFTON PLACE,8,,John A. S.,Burridge,,
+resident,CLIFTON PLACE,9,,Mrs. Emily,Price,,
+resident,CLIFTON PLACE,10,,Mrs. Annie,Morgan,,
+resident,CLIFTON PLACE,11,,Mrs. Isabella,Probert,,
+resident,CLIFTON PLACE,12,,Misses,Bebell,,
+resident,CLIFTON PLACE,13,,Mrs. E.,Stewart,,
+resident,CLIFTON PLACE,,,Wm. J.,Roberts,cashier,
+resident,CLIFTON PLACE,14,,Miss Julia,Pickford,,
+resident,CLIFTON PLACE,15,,Charles,Cankett,,
+resident,CLIFTON PLACE,16,,Arthur,Reynolds,,
+resident,CLIFTON PLACE,17,,J. C.,James,,
+resident,CLIFTON PLACE,,,W. H.,James,,
+resident,CLIFTON PLACE,18,,Percy,Harris,,
+street,CLIFTON ROAD,,,,,,"D 5"
+cross_street,CLIFTON ROAD,,,,,,From 108 Stow-hill
+resident,CLIFTON ROAD,1,,William,Davies,builder,
+resident,CLIFTON ROAD,2,,James W.,Barber,,
+resident,CLIFTON ROAD,3,The Glynn,C. B.,Paine,,
+resident,CLIFTON ROAD,,,The Old Cemetery,,,
+resident,CLIFTON ROAD,4,Clifton road Nursery,F.,Watts,plumber, etc.,
+cross_street,CLIFTON ROAD,,,,,,here is Clifton-place
+resident,CLIFTON ROAD,5,,Arthur Charles,Jenkins,,
+resident,CLIFTON ROAD,6,,Tom Hy.,Davies,,
+resident,CLIFTON ROAD,7,,John Henry,Jenkins,,
+resident,CLIFTON ROAD,8,,John,Herbert,bookseller,
+resident,CLIFTON ROAD,9,,Jno.,Herbert,coal mercht,
+resident,CLIFTON ROAD,10,,Gwynne H.,Morgan,,
+resident,CLIFTON ROAD,11,,Miss C. E.,Jenkins,,
+resident,CLIFTON ROAD,,,Jno., Ltd.,Jenkins,builders,
+resident,CLIFTON ROAD,12,,J.,Herbert,,yard
+resident,CLIFTON ROAD,,,Arthur T.,Thomas,P.O. linesman,
+street,CLYFFARD CRESCENT,,,,,,"D 5"
+cross_street,CLYFFARD CRESCENT,,,,,,From Blewitt-street
+cross_street,CLYFFARD CRESCENT,,,,,,(LEFT HAND SIDE.)
+resident,CLYFFARD CRESCENT,1A,Blewitt cot,Waltr.,Hazell,,
+resident,CLYFFARD CRESCENT,1B,2 ditto,Fredk.,Collier,fitter,
+resident,CLYFFARD CRESCENT,1,,John,Andrew,chem. wkr.,
+resident,CLYFFARD CRESCENT,2,,Robert,Waterman,,
+resident,CLYFFARD CRESCENT,3,,Mrs. W.,Reeves,,
+resident,CLYFFARD CRESCENT,4,,William John,Inns,,
+resident,CLYFFARD CRESCENT,5,,Mrs. Lillian,Prosser,,
+resident,CLYFFARD CRESCENT,6,,,Void,,
+resident,CLYFFARD CRESCENT,7,,E. F.,Rawlings,printer,
+resident,CLYFFARD CRESCENT,8,,Mrs. Hugh,Woodburn,,
+resident,CLYFFARD CRESCENT,9,,Jno.,Bennett,carpenter,
+resident,CLYFFARD CRESCENT,10,,Alfred,Joseph,,
+resident,CLYFFARD CRESCENT,11,,George,White,clerk,
+resident,CLYFFARD CRESCENT,12,,John,Doran,tailor,
+resident,CLYFFARD CRESCENT,13,,Mrs. Adelaide,Yeo,,
+resident,CLYFFARD CRESCENT,14,,John,Williams,builder,
+resident,CLYFFARD CRESCENT,15,,James,Lewis,,
+resident,CLYFFARD CRESCENT,16,,Walter William,Devine,,
+resident,CLYFFARD CRESCENT,17,Endsleigh,Arth.,Edwards,,
+resident,CLYFFARD CRESCENT,18,The Birches,Wm. T.,Pritchard,Webb,
+resident,CLYFFARD CRESCENT,19,Clyde villa,Mrs. H. M.,Clements,,
+resident,CLYFFARD CRESCENT,20,Meda v,Mrs. Sarah,Dutton,,
+cross_street,CLYFFARD CRESCENT,,,,,,entrance to York-place
+resident,CLYFFARD CRESCENT,21,,Jno.,Williams,colliery agt,
+resident,CLYFFARD CRESCENT,22,Silverthorn villa,Mrs.,Tamplin,,
+resident,CLYFFARD CRESCENT,23,Southfield,A. E.,Sheppard,,
+resident,CLYFFARD CRESCENT,24,Lochfan villa,Rev. D. H.,Williams,,
+cross_street,CLYFFARD CRESCENT,,,,,,here is Brynhyfryd-road
+resident,CLYFFARD CRESCENT,26,Sydenham v,Walt.,Jones,,
+resident,CLYFFARD CRESCENT,27,Albany villa,R. McGregor,Duncanson,,
+resident,CLYFFARD CRESCENT,28,Bleak house,J.,Bain,,
+resident,CLYFFARD CRESCENT,29,Wentwood view,Mrs.,Walters,,
+resident,CLYFFARD CRESCENT,30,Mountpleasant,S. W.,Nicholson,,
+resident,CLYFFARD CRESCENT,31,Bryn caerau,Mrs. W.,Watkins,,
+resident,CLYFFARD CRESCENT,32,Caerau v,Frank,Duckham,,
+cross_street,CLYFFARD CRESCENT,,,,,,(return)
+cross_street,CLYFFARD CRESCENT,,,,,,KINGSMILL GARDENS—
+resident,CLYFFARD CRESCENT,,Westbourne,A. T. W.,James,,
+cross_street,CLYFFARD CRESCENT,,,,,,here is Tunnel-terrace
+resident,CLYFFARD CRESCENT,33,Wilton villa,A. H.,Davies,,
+resident,CLYFFARD CRESCENT,34,Dennington,H. F.,Nicholls,professor of music,
+cross_street,CLYFFARD CRESCENT,,,,,,here is Kingsmill-terrace
+cross_street,CLYFFARD CRESCENT,,,,,,here is Windsor-terrace
+resident,CLYFFARD CRESCENT,35,Fernbank,Mrs. A.,Anderson,,
+street,CLYTHA CRESCENT,,,,,,"D 5"
+cross_street,CLYTHA CRESCENT,,,,,,Facing Clytha-square
+resident,CLYTHA CRESCENT,1,,Miss Grace,Price,,
+resident,CLYTHA CRESCENT,2,,William,Neill,,
+resident,CLYTHA CRESCENT,3,,Charles Hy.,Edwards,,
+resident,CLYTHA CRESCENT,4,,Joseph B.,Witheridge,,
+resident,CLYTHA CRESCENT,5,,Albert J.,Kenny,,
+resident,CLYTHA CRESCENT,6,,James,Binding,haulier,
+resident,CLYTHA CRESCENT,7,,T.,Kinlock,draper,
+cross_street,CLYTHA CRESCENT,,,,,,here is Mountjoy-place
+resident,CLYTHA CRESCENT,8,,,,,
+resident,CLYTHA CRESCENT,9,,Dennis,Hurley,,
+resident,CLYTHA CRESCENT,10,,John,Davies,pier master,
+resident,CLYTHA CRESCENT,11,,E.,Tamplin,marine enginr,
+resident,CLYTHA CRESCENT,12,,Henry A.,Warman,,
+resident,CLYTHA CRESCENT,13,,Frederick John,Morgan,,
+resident,CLYTHA CRESCENT,14,,Harry,Day,,
+resident,CLYTHA CRESCENT,15,,Robert,Cleave,manager,
+resident,CLYTHA CRESCENT,,Belle Isle,H. T.,Goldsworthy,,

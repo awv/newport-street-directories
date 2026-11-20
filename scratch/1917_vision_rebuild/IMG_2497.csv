@@ -1,0 +1,158 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,Bolt Street,,,,,,continued
+resident,Bolt Street,22,,Ernest,Turberville,,
+resident,Bolt Street,23,,James,Noonan,seaman,
+resident,Bolt Street,24,,Mary Ann,Evans Mrs.,,
+resident,Bolt Street,25,,Susan,Ford Mrs.,,
+resident,Bolt Street,26,,John,Griffiths,labourer,
+resident,Bolt Street,27,,Edwin,Brown,labourer,
+resident,Bolt Street,28,,William,Seaman,carpentr,
+resident,Bolt Street,29,,John,Hunt,striker,
+resident,Bolt Street,30,,James,Woods,sweep,
+resident,Bolt Street,31,,James,Craddock,labourer,
+resident,Bolt Street,32,,Margaret,Rees Mrs.,,
+resident,Bolt Street,33,,Thomas,Olsen,seaman,
+resident,Bolt Street,34,,D. J.,Morgan,shipwright,
+resident,Bolt Street,35,,Charles,Thomas,hoistman,
+resident,Bolt Street,36,,Arthur H.,Perrett,guard,
+resident,Bolt Street,37,,Wm.,Rondel,crane driver,
+resident,Bolt Street,38,,Fredk.,Bond,labourer,
+resident,Bolt Street,,,Wm.,Reynolds,seaman,
+resident,Bolt Street,38a,,Ernest,Phillips,labourer,
+resident,Bolt Street,39,,George,Furze,assistant,
+street,BOLTON ROAD,,,,,,C 6
+cross_street,BOLTON ROAD,,,,,,From Risca-road.
+cross_street,BOLTON ROAD,,,,,,(RIGHT HAND SIDE.)
+resident,BOLTON ROAD,1,,Joseph,Prosser,,
+resident,BOLTON ROAD,2,Home c,Thos.,Hutchins,,
+resident,BOLTON ROAD,3,Rose c,W. W.,Newton,,
+resident,BOLTON ROAD,4,,Margaret,Young Miss,,
+resident,BOLTON ROAD,5,Hillcote,-,Ley,,
+resident,BOLTON ROAD,6,,C.,Pritchard Mrs.,,
+resident,BOLTON ROAD,7,Glyn-caerau,Mrs.,Miles,,
+resident,BOLTON ROAD,8,Clarebrook villa,E. J.,Gill,,
+resident,BOLTON ROAD,9,Hazelbrae,J. W.,Wheeler,,
+resident,BOLTON ROAD,10,,Emily,Meadows Mrs.,,
+resident,BOLTON ROAD,11,,Frank,Brown,,
+resident,BOLTON ROAD,12,Kenwith,George,Elliment,,
+cross_street,BOLTON ROAD,,,,,,(return)
+resident,BOLTON ROAD,13,Shipton,Ellen,Gall Mrs.,,
+resident,BOLTON ROAD,14,Glenlyn,Thos. B.,Edward,,
+resident,BOLTON ROAD,15,Belmont,E. R.,Parry,,
+resident,BOLTON ROAD,16,Fern cot,Edith,Adams Mrs.,,
+resident,BOLTON ROAD,17,Vine c,Mary A.,Nichol Mrs.,,
+resident,BOLTON ROAD,18,Alltwen,M. A.,Rawlings Mrs.,,
+resident,BOLTON ROAD,19,Penrhyn,Reg.,Morgan,,
+resident,BOLTON ROAD,20,,W. H.,Lewis,,
+resident,BOLTON ROAD,21,,John H. F.,Dickinson,,
+street,BOLTON STREET,,,,,,B 4
+cross_street,BOLTON STREET,,,,,,From Hopefield, Barrack-hill
+resident,BOLTON STREET,3,,Edwd. L.,Florida,carpentr,
+resident,BOLTON STREET,4,,Thomas,Neill,,
+street,BOND STREET,,,,,,C 4
+cross_street,BOND STREET,,,,,,From East Usk-road to River.
+cross_street,BOND STREET,,,,,,(LEFT HAND SIDE.)
+resident,BOND STREET,1,,William,Hiscox,labourer,
+resident,BOND STREET,2,,J. T.,Foster,boilermaker,
+resident,BOND STREET,3,,Harry S.,Cope,guard,
+resident,BOND STREET,4,,Fred.,Marchant,,
+resident,BOND STREET,5,,Wm.,Knight,labourer,
+resident,BOND STREET,6,,Ivor,Parry,labourer,
+resident,BOND STREET,7,,William,Johns,haulier,
+resident,BOND STREET,8,,Denis,Calnan,,
+resident,BOND STREET,9,,Geo,Davies,smith,
+resident,BOND STREET,10,,William,Polson,labourer,
+resident,BOND STREET,11,,Stephen,Mannix,fireman,
+resident,BOND STREET,12,,James,Sexton,haulier,
+resident,BOND STREET,13,,Chas. E.,Powell,labourer,
+resident,BOND STREET,14,,C. J.,Winniatt,wagon exm,
+resident,BOND STREET,15,,F. T.,Woodbury,porter,
+resident,BOND STREET,16,,Wm.,Williams,blacksmith,
+resident,BOND STREET,17,,E.,Phillips Mrs.,,
+resident,BOND STREET,18,,Charles,Shott,,
+resident,BOND STREET,19,,Charles,Cording,sawyer,
+resident,BOND STREET,20,,Chas. Ed.,Amos,labourer,
+resident,BOND STREET,21,,Wm.,Harris,foreman,
+resident,BOND STREET,22,,Albert,Blake,oil merchant,
+cross_street,BOND STREET,,,,,,(return)
+resident,BOND STREET,23,,Rd. Wm.,Moss,carpenter,
+resident,BOND STREET,24,,Thomas,Sallis,G.W.R.,
+resident,BOND STREET,25,,Hy. G.,Bladon,eng. dvr,
+resident,BOND STREET,26,,Jenkin,Hopkin,G.W.R.,
+resident,BOND STREET,27,,Robert,Parr,potter,
+cross_street,BOND STREET,,,,,,here is Frank-street.
+resident,BOND STREET,28,,Wm. Hy.,Phillips,st'mason,
+street,BOROUGH CHAMBERS,,,,,,
+cross_street,BOROUGH CHAMBERS,,,,,,See 12 Skinner-street.
+street,BREAM PLACE,,,,,,D 4
+cross_street,BREAM PLACE,,,,,,From 157 Dock-street.
+cross_street,BREAM PLACE,,,,,,(RIGHT HAND SIDE.)
+resident,BREAM PLACE,1,,Fredk.,Scrivener,labourer,
+resident,BREAM PLACE,2,,G. W.,Fitzgerald,labourer,
+resident,BREAM PLACE,3,,Jos.,Parker,basketmaker,
+resident,BREAM PLACE,4,,Ellen,Sullivan Mrs.,,
+resident,BREAM PLACE,5,,Mary E.,Horton Mrs.,,
+resident,BREAM PLACE,6,,Harry,Hodge,labourer,
+resident,BREAM PLACE,7,,Karl,Gratchell,,
+resident,BREAM PLACE,8,,Margaret,Davies Mrs.,,
+resident,BREAM PLACE,,,Abbott & Baker's,stores,,
+cross_street,BREAM PLACE,,,,,,(return)
+resident,BREAM PLACE,,,Harrington J.,builder's yd,,
+resident,BREAM PLACE,9,,Hy. Jas.,Trump,,
+resident,BREAM PLACE,10,,Thos.,Barrett,labourer,
+resident,BREAM PLACE,11,,Elizabeth,Davies Mrs.,,
+resident,BREAM PLACE,12,,William,Coughlin,painter,
+resident,BREAM PLACE,13,,Agnes,Eliott Mrs.,,
+resident,BREAM PLACE,14,,Walter,James,labourer,
+resident,BREAM PLACE,15,,John,Roberts,labourer,
+resident,BREAM PLACE,16,,Alf.,Stanton,labourer,
+resident,BREAM PLACE,17,,Wm.,Reardon,labourer,
+resident,BREAM PLACE,18,,Walter,Ruscoe,cleaner,
+street,BRICKYARD ROAD,,,,,,B 2
+cross_street,BRICKYARD ROAD,,,,,,From 373 Caerleon-road.
+cross_street,BRICKYARD ROAD,,,,,,(RIGHT HAND SIDE.)
+resident,BRICKYARD ROAD,1,,James,James,labourer,
+resident,BRICKYARD ROAD,2,,James, senr.,Cronk,labr,
+resident,BRICKYARD ROAD,3,,John,Jones,driver,
+resident,BRICKYARD ROAD,4,,Thomas,Hughes,burner,
+resident,BRICKYARD ROAD,5,,F. J.,Hitchings,striker,
+resident,BRICKYARD ROAD,6,,Thos.,Phillips,brickmaker,
+resident,BRICKYARD ROAD,7,,William,Barrett,labourer,
+resident,BRICKYARD ROAD,8,,William,Phillips,labourer,
+resident,BRICKYARD ROAD,9,,James, junr.,Cronk,,
+resident,BRICKYARD ROAD,,St. Julian's Brick Co., Ltd.,,,Brickworks and Pottery,
+cross_street,BRICKYARD ROAD,,,,,,(return)
+street,BRIDGE STREET,,,,,,C 5
+cross_street,BRIDGE STREET,,,,,,Stow-hill to Railway Bridge.
+resident,BRIDGE STREET,,,London City & Midland Bank,,,
+resident,BRIDGE STREET,,MIDLAND BANK CHAMBERS,,,
+resident,BRIDGE STREET,,,W. Slade & Co.,Crawford,accountants,MIDLAND BANK CHAMBERS
+resident,BRIDGE STREET,,,Lloyd's Register of Shipping,,,MIDLAND BANK CHAMBERS
+resident,BRIDGE STREET,,,Graham (W.) Hitchcox & Co.,,"land agents, surveyors, auctioneers, &c.",MIDLAND BANK CHAMBERS
+resident,BRIDGE STREET,,,Corfield L. C. & Co.,,"iron merchants, agents British Mannesmann Tube Co.",MIDLAND BANK CHAMBERS
+resident,BRIDGE STREET,,,Reliance Coal Co. Ltd.,,,MIDLAND BANK CHAMBERS
+resident,BRIDGE STREET,,,Alfred,Swash,F.R.I.B.A. architect and surveyor; architect to the Fields estate,MIDLAND BANK CHAMBERS
+resident,BRIDGE STREET,,,Samuel D. & Son,Williams,"merchants, Ecuadorian Consulate of Venezuela, Guatemala & Hayti",MIDLAND BANK CHAMBERS
+resident,BRIDGE STREET,,,Newport Chamber of Commerce Incorporated,"S. D. Williams, secretary",MIDLAND BANK CHAMBERS
+resident,BRIDGE STREET,,,Frank,Shackel,caretaker,MIDLAND BANK CHAMBERS
+resident,BRIDGE STREET,3,,W. E.,Robertson,tobac'nst,
+resident,BRIDGE STREET,4-5,,Davies & Sons,,"fruiterers, poulterers, florists, and cycle agents",
+resident,BRIDGE STREET,6,Lamb Inn,Mrs.,Phillips,,
+resident,BRIDGE STREET,7,,Henry,Davies,grocer,
+resident,BRIDGE STREET,8-10,,H. A. (Newport) Ltd.,Smith,wine & spirit stores,
+resident,BRIDGE STREET,11,,L. L.,Harris,motor and cycle agent,
+resident,BRIDGE STREET,12,,Mrs. M.,Hovey,tobac'nst,
+resident,BRIDGE STREET,13,NEWPORT & COUNTY LIBERAL CLUB,,,Mrs. A. Mills managress.,
+resident,BRIDGE STREET,14,,Miss C.,Brown,florist,
+resident,BRIDGE STREET,15,,B. D.,Thomas,hairdresser,
+resident,BRIDGE STREET,16,,Void,,,
+resident,BRIDGE STREET,17,,Thomas,Griffiths,,
+resident,BRIDGE STREET,18,,S. Wales Daily News and Echo offices,,T. Griffiths manager,
+resident,BRIDGE STREET,19,Queen's Hotel,,Morgan Mrs. E. H.,manageress,
+resident,BRIDGE STREET,,VICTORIA CHAMBERS,,,
+resident,BRIDGE STREET,20,,Nantyglo & Blaina Ironworks Co. Ltd.,,,VICTORIA CHAMBERS
+resident,BRIDGE STREET,,,Colborne Coulman and Lawrence,,solicitors,VICTORIA CHAMBERS
+resident,BRIDGE STREET,,,G. F.,Colborne,solicitor,VICTORIA CHAMBERS
+resident,BRIDGE STREET,21,,De Rees Billpost'g Co. Ld,,,
+resident,BRIDGE STREET,,,Miss,Edwards,photographr,
+resident,BRIDGE STREET,,,E. H.,Hackett,house and estate agent,

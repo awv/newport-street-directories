@@ -1,0 +1,158 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+cross_street,COV,,,,,,(return)
+resident,COV,,,Guest, Keen & Nettlefolds Ltd.,Imperial Mills,,
+resident,COV,,,Wm. S.,Morgan,blacksmth,
+resident,COV,,,,,Vacant sites,
+resident,COV,,New House,Eric,Warry,labourer,
+cross_street,COV,,,,,,here is Feeving-street
+resident,COV,19,,Mrs. F. J.,Foster,grngcr,
+resident,COV,,,,,Vacant sites,
+resident,COV,13,,Reuben,Dennison,ironwkr,
+resident,COV,,,John,Morgan,ironwkr,
+resident,COV,11,,Wm.,Neale,labourer,
+resident,COV,9,,Mrs. Martha,Barrett,,
+cross_street,COV,,,,,,here is Witham-street
+resident,COV,7,,H. G.,Hook,general dealer,
+resident,COV,5,,Mrs. Eliza,Williams,,
+resident,COV,3,,A.,Raybould,ironworker,
+resident,COV,1,,Alf. J.,Waite,ironworker,
+street,CRAWFORD STREET,C 3,,,,,(off Turner-street)
+cross_street,CRAWFORD STREET,,,,,,(RIGHT HAND SIDE)
+resident,CRAWFORD STREET,2,,Cecil,Bailey,furntr removr,
+resident,CRAWFORD STREET,4,Lorna house,D.,Lawrence,painter,
+resident,CRAWFORD STREET,,,Reece's yard,,,
+resident,CRAWFORD STREET,,The Bungalow,Alb.,Merrett,ironworker,
+resident,CRAWFORD STREET,,,,Walters & Lane,wheelwrights,
+resident,CRAWFORD STREET,10,,Henry,Huggins,hardwr dr,
+resident,CRAWFORD STREET,16-20,,,,,Void
+resident,CRAWFORD STREET,18-20-22,,Venn & McPherson, Ltd.,garage & warehouse,,
+resident,CRAWFORD STREET,24,Aylesham,Ernest,Harvey,G.W.R.,
+resident,CRAWFORD STREET,26,,C. H.,Henricken,carpntr,
+resident,CRAWFORD STREET,28,Cardington,Geo.,Young,porter,
+resident,CRAWFORD STREET,30,,John,Pugh,steelworker,
+resident,CRAWFORD STREET,32,,John,Murphy,steelworker,
+resident,CRAWFORD STREET,34,,Henry,Lynch,labourer,
+resident,CRAWFORD STREET,36,,John J.,Pearce,G.W.R.,
+resident,CRAWFORD STREET,38,,—,Cummings,,
+resident,CRAWFORD STREET,40,,Arthur,Reardon,platelyr,
+resident,CRAWFORD STREET,42,,Edgar,Short,caretaker,
+resident,CRAWFORD STREET,44,Lyncroft,Geo.,Martin,tubeworker,
+resident,CRAWFORD STREET,46,Westward Ho,Geo.,Price,stm roller drvr,
+resident,CRAWFORD STREET,48,,Wm.,Hiscox,Usk View,
+cross_street,CRAWFORD STREET,,,,,,(return)
+resident,CRAWFORD STREET,15,Brookside,Wm.,Maddocks,,
+resident,CRAWFORD STREET,13,,Mrs. Annie,Bateman,,
+resident,CRAWFORD STREET,11,Ashley,R. O.,Hawyes,labourer,
+resident,CRAWFORD STREET,9,Roxburg,Albert J.,Stanley,G.W.R.,
+resident,CRAWFORD STREET,7,Ellsmere,M.,Davies,checker,
+resident,CRAWFORD STREET,5,-y-don,Edw.,Rees,postman, Craig
+resident,CRESCENT ROAD,3,Hazeldene,W. A.,Sheehan,fruit salesman,
+resident,CRESCENT ROAD,1,Sunnyside,Ernest W.,Hill,lorry drvr,
+cross_street,CRESCENT ROAD,,,,,,here is Morgan-street
+cross_street,CRESCENT ROAD,,,,,,here is Courtney-square
+street,CRESCENT ROAD,D 2,,,,,"Victoria-av. to Woodland-rd."
+cross_street,CRESCENT ROAD,,,,,,(LEFT HAND SIDE.)
+resident,CRESCENT ROAD,1,,Fred,Turner,P.O.,
+resident,CRESCENT ROAD,2,,H.,Norval,carpenter,
+resident,CRESCENT ROAD,3,,Ralph J.,Hackett,,
+cross_street,CRESCENT ROAD,,,,,,PEMBROKE TERRACE—
+resident,CRESCENT ROAD,4,,Melville,Burgoyne,haulier,
+resident,CRESCENT ROAD,,,Mrs. Edith,Hutt,,
+resident,CRESCENT ROAD,5,,J. E.,Head,chem worker,
+resident,CRESCENT ROAD,6,,Albert,James,George,
+resident,CRESCENT ROAD,7,,A. J.,Radford,bootmaker,
+resident,CRESCENT ROAD,8,,W. J.,Radford,do.,
+resident,CRESCENT ROAD,9,,Wm. Chris.,Jones,driver,
+resident,CRESCENT ROAD,10,,B. H.,Jones,chief steward,
+resident,CRESCENT ROAD,11,,Thomas,Edwards,driver,
+resident,CRESCENT ROAD,12,,Collin,Radmore,rly engr,
+resident,CRESCENT ROAD,13,,J. E.,Maidment,eng dvr,
+resident,CRESCENT ROAD,14,,Wm. H.,Kneebone,painter,
+resident,CRESCENT ROAD,15,,Mrs. Mary L.,Francis,,
+resident,CRESCENT ROAD,,,Wm.,Evans,slinger,
+resident,CRESCENT ROAD,16,,Enoch,Witton,ironworker,
+cross_street,CRESCENT ROAD,,,,,,GARTH TERRACE—
+resident,CRESCENT ROAD,17,,Chas. H.,Sully,guard,
+resident,CRESCENT ROAD,18,,—,Winfield,,
+resident,CRESCENT ROAD,19,,J.,Cornwall,,
+resident,CRESCENT ROAD,20,,Mrs. Annie,Burns,,
+resident,CRESCENT ROAD,21,,Alfred,Jones,ironworker,
+resident,CRESCENT ROAD,22,Olivemount,Miss E.,Masters,,
+resident,CRESCENT ROAD,23,The Woodlands,J. M.,Broadfoot,contrctr,
+cross_street,CRESCENT ROAD,,,,,,(return)
+resident,CRESCENT ROAD,30,,J. J.,Robbins,gardener,
+resident,CRESCENT ROAD,31,,Geo. Fredk.,Baker,draper,
+resident,CRESCENT ROAD,32,,William,Hale,fireman,
+resident,CRESCENT ROAD,33,,Mrs. R.,Wade,,
+resident,CRESCENT ROAD,34,,Jas. S.,Brewer,cabinetmkr,
+resident,CRESCENT ROAD,35,,Mrs. E. A.,Paget,,
+resident,CRESCENT ROAD,36,,Wilfred,Rose,labourer,
+resident,CRESCENT ROAD,37,,John T.,Morgan,salesman,
+resident,CRESCENT ROAD,39,,Albert,Crum,bricklayer,
+resident,CRESCENT ROAD,40,,A. M.,Rudman,steelwkr,
+resident,CRESCENT ROAD,,,J. R.,Manhire,garage,
+resident,CRESCENT ROAD,41,,Cyril,Dawes,welder,
+resident,CRESCENT ROAD,45,Crescent road P.O.,Mrs. Lena,Wilks,gen shop,
+resident,CRESCENT ROAD,46,,Mrs. Mary,Smale,,
+resident,CRESCENT ROAD,,,A.,Jones,clerk,
+resident,CRESCENT ROAD,47,,Mrs. Dorothy,Watson,,
+resident,CRESCENT ROAD,48,,Edgar V.,Ricks,polisher,
+street,CRINDAU ROAD,B 4,,,,,"From Brynglas-road"
+cross_street,CRINDAU ROAD,,,,,,LEFT HAND SIDE
+resident,CRINDAU ROAD,1,,Mrs. Mary G.,Cooper,,
+resident,CRINDAU ROAD,3,,Mrs. Annie,Willis,teacher of music,Hillside villa
+resident,CRINDAU ROAD,5,,Wm. R.,Wilson,,
+resident,CRINDAU ROAD,7,,Michael,Sullivan,com agt,
+resident,CRINDAU ROAD,9,,,,,Void
+resident,CRINDAU ROAD,11,,Chas. W.,Wilson,electcn,
+cross_street,CRINDAU ROAD,,,,,,(return)
+resident,CRINDAU ROAD,14,,David,Woodliff,engineer,
+resident,CRINDAU ROAD,12,,James,Pritchard,,
+resident,CRINDAU ROAD,10,,H. J.,Charles,joiner,
+resident,CRINDAU ROAD,8,,C. E.,Edwards,G.W.R.,
+resident,CRINDAU ROAD,6,,W.,Taylor,gasfitter,
+resident,CRINDAU ROAD,4,,S.,Cross,haulier,
+resident,CRINDAU ROAD,2,,Mrs. A. E.,English,,
+cross_street,CRINDAU ROAD,,,,,,here is Spring-street
+cross_street,CRINDAU ROAD,,,,,,From Albany-street
+resident,CRINDAU ROAD,,,,Crindau Gas Works,,see also Albany-street
+street,CROMWELL ROAD,E3,,,,,"Off Corporation-road."
+cross_street,CROMWELL ROAD,,,,,,(RIGHT HAND SIDE.)
+resident,CROMWELL ROAD,2,,R.,Davies,coal merchant,
+resident,CROMWELL ROAD,2a,,Dr. T. G.,Lewis,surgery,
+resident,CROMWELL ROAD,4,,Francis,Hornby,ironwkr,
+resident,CROMWELL ROAD,6,,Herbert,Bennett,steelwkr,
+resident,CROMWELL ROAD,8,,Wm.,Harrison,ironworker,
+resident,CROMWELL ROAD,10,,Mrs. C.,Adams,shop,
+cross_street,CROMWELL ROAD,,,,,,here is Slade-street
+resident,CROMWELL ROAD,12,,,,,Void
+resident,CROMWELL ROAD,14,,Albert,Rees,,
+resident,CROMWELL ROAD,,,Mrs. Merle,Jones,dairy,
+resident,CROMWELL ROAD,16,,A. E. E.,Williams,house furnisher,
+resident,CROMWELL ROAD,18,,W. M.,Harris,greengrocer,
+resident,CROMWELL ROAD,20,,John T.,Hughes,annealer,
+resident,CROMWELL ROAD,22,,W.,Davis,steelworker,
+resident,CROMWELL ROAD,24,,Jno.,O'Brian,labourer,
+resident,CROMWELL ROAD,26,,Mrs.,Sanderson,,
+resident,CROMWELL ROAD,28,,Ivor J.,Baynham,dairymn,
+resident,CROMWELL ROAD,30,,Fredk.,Collier,traveller,
+resident,CROMWELL ROAD,32,,John H.,Wilkinson,stlwkr,
+resident,CROMWELL ROAD,34,,C. G.,Gough,baker,
+resident,CROMWELL ROAD,,,J. A.,Sparkes,bldrs yard,
+resident,CROMWELL ROAD,,,,,Warehouses building
+resident,CROMWELL ROAD,,,,,Vacant site
+cross_street,CROMWELL ROAD,,,,,,here is Oakley-street
+resident,CROMWELL ROAD,,METHODIST CHURCH,,,,
+resident,CROMWELL ROAD,152,,R. J.,Watts,gen dealer,
+resident,CROMWELL ROAD,152a,,—,Hodge,hairdresser,
+resident,CROMWELL ROAD,154,,,,,Void
+resident,CROMWELL ROAD,156,,Edward,Castle,greengrcr,
+resident,CROMWELL ROAD,158,,J. A.,Sparkes,builder,
+resident,CROMWELL ROAD,,,,,Vacant sites
+resident,CROMWELL ROAD,166,,M. S.,Osborne,grocer,
+resident,CROMWELL ROAD,168,,A.,Otton,boot repairer,
+resident,CROMWELL ROAD,174,,Joseph D.,Williams,steel worker,
+resident,CROMWELL ROAD,176,,—,Webb,,
+resident,CROMWELL ROAD,178,,Mrs. Flor.,Kitson,shop,
+resident,CROMWELL ROAD,180,,H. & Sons,Thomas,btchs,
+resident,CROMWELL ROAD,182,,T. W.,Roach,grocer,

@@ -1,0 +1,164 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+street,OXFORD STREET,,,,,,continued
+resident,OXFORD STREET,16,,Mrs. Alice E.,Pennell,,
+resident,OXFORD STREET,,,Wm.,Littlejohns,cabinet maker,
+cross_street,OXFORD STREET,,,,,,"(return)"
+resident,OXFORD STREET,17,,Joseph,Noakes,haulier,
+resident,OXFORD STREET,18,,George,Turner,labourer,
+resident,OXFORD STREET,19,,Mrs. Eliza,Griffiths,,
+resident,OXFORD STREET,20,,William,Thomas,,
+resident,OXFORD STREET,21,,Rowland,Shaw,ironwkr,
+resident,OXFORD STREET,22,,John J.,Lyons,,
+resident,OXFORD STREET,23,,Frank,Genge,ironworker,
+resident,OXFORD STREET,24,,William,Tyler,puddler,
+resident,OXFORD STREET,25,,Henry,Reakes,labourer,
+resident,OXFORD STREET,26,,Henry O.,Marsh,agent,
+resident,OXFORD STREET,,,Geo. Wm.,Morse,builder's yard,
+resident,OXFORD STREET,27,,Geo. Wm.,Morse,builder,
+resident,OXFORD STREET,28,,Mrs. Elizabeth,Delahay,,
+resident,OXFORD STREET,29,,Mrs. Elizabeth,Harris,,
+resident,OXFORD STREET,30,,Timothy,Pritchard,labr,
+street,PANT ROAD,,,,,,B 4
+cross_street,PANT ROAD,,,,,,From 146 Malpas-road
+cross_street,PANT ROAD,,,,,,(LEFT HAND SIDE.)
+resident,PANT ROAD,1,,John,Phillips,carpenter,
+resident,PANT ROAD,3,,Richard,Marsh,roadman,
+resident,PANT ROAD,5,,Leslie Wm.,Musto,baker,
+resident,PANT ROAD,7,,Pryce,Price,,
+resident,PANT ROAD,9,,William,Davis,G.W.R.,
+resident,PANT ROAD,11,,George,Henry,,
+resident,PANT ROAD,13,,Hy. J.,Denham,tinsmith,
+resident,PANT ROAD,15,,Geo.,Gillard,moulder,
+resident,PANT ROAD,17,,Wm.,Davies,G.W.R.,
+resident,PANT ROAD,19,,Henry,Morgan,gas fitter,
+resident,PANT ROAD,21,,William Stanley,Moore,,
+cross_street,PANT ROAD,,,,,,"(return)"
+cross_street,PANT ROAD,,,,,,here is Ross-street
+resident,PANT ROAD,14,,William,Bartlett,,
+resident,PANT ROAD,12,,Hy. J.,Hodgkinson,labr,
+resident,PANT ROAD,10,,James,Cavill,nailmaker,
+resident,PANT ROAD,8,,Frank,Jeffries,,
+resident,PANT ROAD,6,,Albt. Geo.,Tranter,G.W.R,
+resident,PANT ROAD,4,,Mrs. E.,Harrison,,
+resident,PANT ROAD,2,,Paul,Larsen,,
+street,PALMYRA PLACE,,,,,,D 5
+cross_street,PALMYRA PLACE,,,,,,From St. Paul's Church to Park-square
+resident,PALMYRA PLACE,,,E. L.,Jay,tailor,
+resident,PALMYRA PLACE,1,,Mrs. M. J.,Stock,reg office,
+resident,PALMYRA PLACE,2,,R. V.,Sutton,phys. and surgeon,
+resident,PALMYRA PLACE,3,Y.W.C.A. House and Hall,Miss E.,Andrews,secretary and superintendent,
+resident,PALMYRA PLACE,4,Welsh National Memorial Tuberculosis Institute,E. H. Rhys,Harries,M.D. B.S. D.P.H. Tuberculosis Officer for Newport and East Mon.,
+resident,PALMYRA PLACE,5,Beecher ho,Frank,Rees,,
+resident,PALMYRA PLACE,,King's hill lodge,Wm.,Sheppard,gardener,
+resident,PALMYRA PLACE,,King's hill,,Llewellyn,,
+resident,PALMYRA PLACE,,Palmyra house,,,"void",
+street,PARFITT STREET,,,,,,F 2
+cross_street,PARFITT STREET,,,,,,From Somerton-road
+resident,PARFITT STREET,1,,Sidney,Brown,G.W.R.,
+resident,PARFITT STREET,3,,Alfred,Evans,,
+resident,PARFITT STREET,5,,George,Wilkinson,ironwkr,
+resident,PARFITT STREET,7,,Alfred,Cann,,
+resident,PARFITT STREET,9,,Edwd.,Lovell,quarryman,
+street,PARK SQUARE,,,,,,D 5
+cross_street,PARK SQUARE,,,,,,From Palmyra-place
+cross_street,PARK SQUARE,,,,,,PUBLIC PARK
+resident,PARK SQUARE,1,,Robert W.,Moon,builder,
+resident,PARK SQUARE,2,,J. G.,Worsley,Peterston v
+resident,PARK SQUARE,3,Lothian villa,Wm. J.,Kerr,,
+resident,PARK SQUARE,4,Park villa,T.,Hewertson,,
+resident,PARK SQUARE,5,Sydenham v,J.,Richards,,
+resident,PARK SQUARE,6,Alma villa,Alfred,Phillips,,
+resident,PARK SQUARE,7,Malvern villa,C. H.,Jones,,
+resident,PARK SQUARE,8,Richmond villa,Charles,Waite,,
+resident,PARK SQUARE,9,Rosslyn ho,M.,Shepherd,,
+resident,PARK SQUARE,10,Thorntree house,,,"void",
+resident,PARK SQUARE,11,The Mount,Herbt. Egerton,Williams,surgeon,
+resident,PARK SQUARE,12,Prospect v,A. H.,Smith,,
+resident,PARK SQUARE,13,Balmoral villa,W. Calvin,Thomas,,
+cross_street,PARK SQUARE,,,,,,"(return)"
+resident,PARK SQUARE,15,,John,Webb,carpenter,
+resident,PARK SQUARE,16,,Sgt-Mjr A. J.,Humphreys,,
+resident,PARK SQUARE,17,,Mrs. Samuel,Evans,,
+resident,PARK SQUARE,18,,Alfred,Taylor,cycle mfr,
+resident,PARK SQUARE,19,,James,Coates,,
+resident,PARK SQUARE,20,,Wm.,Hughes,carpenter,
+resident,PARK SQUARE,21,,William Henry,Padgett,,
+resident,PARK SQUARE,22,,Taliesin,Morgan,,
+resident,PARK SQUARE,23,,Robert R.,Alward,,
+resident,PARK SQUARE,24,,Percy,Bagshaw,,
+resident,PARK SQUARE,25,,Thomas R.,Giddy,,
+resident,PARK SQUARE,26,,Mrs. M.,Merrill,,
+resident,PARK SQUARE,27,,Mrs. Sarah,Gabb,,
+resident,PARK SQUARE,28,,H. W.,Townsend,,
+resident,PARK SQUARE,29,,Miss G.,Williams,,
+resident,PARK SQUARE,30,,Mrs. M. A.,Avery,,
+cross_street,PARK SQUARE,,,,,,here is Ivor-street
+resident,PARK SQUARE,31,,James,Stevens,,
+resident,PARK SQUARE,32,,James,Barry,boilermaker,
+resident,PARK SQUARE,33,,Thomas,Cole,painter,
+resident,PARK SQUARE,34,,Mrs, S.,Polden,,
+resident,PARK SQUARE,35,,Albert,Quest,,
+resident,PARK SQUARE,36,,Mrs. Mary,Evans,,
+resident,PARK SQUARE,37,,Frederick Wm.,Horsey,,
+resident,PARK SQUARE,38,,John,Davies,musician,
+resident,PARK SQUARE,39,,Thos.,Ryan,dispenser,
+resident,PARK SQUARE,40,,Hermann,Storbeck,,
+street,PARK STREET,,,,,,D 5
+cross_street,PARK STREET,,,,,,Now Park-square Nos. 14-30
+street,PARKFIELD PLACE,,,,,,C 4
+cross_street,PARKFIELD PLACE,,,,,,Clytha-park
+resident,PARKFIELD PLACE,,Coniston,T. H.,Gunning,,
+resident,PARKFIELD PLACE,,Brantwood,Mrs. J.,Lawrence,,
+street,PEMBROKE CHAMBERS,,,,,,
+cross_street,PEMBROKE CHAMBERS,,,,,,See 30 High-street
+street,PENLLYN AVENUE,,,,,,C 6
+cross_street,PENLLYN AVENUE,,,,,,Risca-road
+cross_street,PENLLYN AVENUE,,,,,,(LEFT HAND SIDE.)
+resident,PENLLYN AVENUE,,,John,Tyldesley,boot dlr,
+resident,PENLLYN AVENUE,2,,John,Henney,,
+resident,PENLLYN AVENUE,4,,Henry J.,Brown,carpenter,
+resident,PENLLYN AVENUE,6,,Hy. John,Hart,G.W.R.,
+resident,PENLLYN AVENUE,8,,Thomas,Stapleton,,
+resident,PENLLYN AVENUE,10,,Isaiah,Sage,gardener,
+resident,PENLLYN AVENUE,12,,Frank E.,Greenoff,clerk,
+resident,PENLLYN AVENUE,14,,Ernest,Brown,gardener,
+resident,PENLLYN AVENUE,16,,John,Marshall,,
+resident,PENLLYN AVENUE,18,,Jos.,Baynham,railwayman,
+resident,PENLLYN AVENUE,20,,William,Soper,G.W.R.,
+resident,PENLLYN AVENUE,22,,James,Watson,electrician,
+resident,PENLLYN AVENUE,24,,,"void",,
+resident,PENLLYN AVENUE,26,,John R.,Taylor,gardener,
+resident,PENLLYN AVENUE,28,,Wm. H.,Sage,gardener,
+resident,PENLLYN AVENUE,30,,William,Holt,engineer,
+resident,PENLLYN AVENUE,32,,Wm. R.,Churches,police,
+resident,PENLLYN AVENUE,34,,Walter,Evans,,
+resident,PENLLYN AVENUE,36,,Alex. J. G.,Polson,,
+resident,PENLLYN AVENUE,,West Park Steam Laundry Company Ltd.,,,,
+cross_street,PENLLYN AVENUE,,,,,,"(return)"
+resident,PENLLYN AVENUE,37,,Henry,Thompson,,
+resident,PENLLYN AVENUE,35,,Alfred,Palmer,,
+resident,PENLLYN AVENUE,33,,Edwd. J.,Rose,comp,
+resident,PENLLYN AVENUE,31,,John R.,Gamble,wghts. ins,
+resident,PENLLYN AVENUE,29,,Lionel,Davies,,
+resident,PENLLYN AVENUE,27,,Jas.,Williams,moulder,
+resident,PENLLYN AVENUE,25,,Mrs. Maria,Marshall,,
+resident,PENLLYN AVENUE,23,,Wyndham,Sansom,baker,
+resident,PENLLYN AVENUE,21,,Jos.,Barber,mason,
+resident,PENLLYN AVENUE,19,,Christopher,Wiliams,,
+resident,PENLLYN AVENUE,17,,John,McInroy,,
+resident,PENLLYN AVENUE,15,,J. Lloyd,Jones,manager,
+resident,PENLLYN AVENUE,13,,Archer,Williams,P.O.,
+resident,PENLLYN AVENUE,11,,—,Childs,,
+resident,PENLLYN AVENUE,9,,Llewellin,Rhys,,
+resident,PENLLYN AVENUE,7,,William,Morgan,,
+resident,PENLLYN AVENUE,5,,George,Skeldon,,
+resident,PENLLYN AVENUE,3,,William J.,Sambrook,,
+resident,PENLLYN AVENUE,1,,Mrs. A.,Jones,Penllyn strs,
+street,PENROSE STREET,,,,,,C 3
+cross_street,PENROSE STREET,,,,,,Off Caerleon-road
+street,PENTONVILLE,,,,,,C 4
+cross_street,PENTONVILLE,,,,,,From Mill-street
+cross_street,PENTONVILLE,,,,,,(LEFT HAND SIDE.)
+resident,PENTONVILLE,2,Ottery villa,A. G. Roy,White,,
+resident,PENTONVILLE,3,Kingscott,W.,Harrington,,
+resident,PENTONVILLE,4,Torres v,Mrs. E. M.,Burge,,

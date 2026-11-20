@@ -1,0 +1,130 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,PARK STREET,30,,A.,Bush,labourer,
+cross_street,PARK STREET,,,,,,here is Ivor-street
+resident,PARK STREET,31,,Miss Florence,Dean,,
+resident,PARK STREET,,,Alfred H.,Jukes,,Stanley house
+resident,PARK STREET,32,,James,Barry,boilermaker,
+resident,PARK STREET,33,,Edwin,Davies,,
+resident,PARK STREET,,,Mrs. Evelyn,Jones,,
+resident,PARK STREET,34,,Ivor,Collins,orn ironwrkr,
+resident,PARK STREET,35,,George,Pollard,docker,
+resident,PARK STREET,36,,Percy J.,Thompson,seaman,
+resident,PARK STREET,37,,Frederick Wm.,Horsey,,
+resident,PARK STREET,38,,John,Davies,musician,
+resident,PARK STREET,39,,James,Vacara,fish merch,
+resident,PARK STREET,40,,Hermann,Storbeck,,
+street,PARK STREET,,,,,,"D 5, Now Park-square, Nos. 14-30"
+street,PARKFIELD PLACE,,,,,,C 5 Clytha-park
+resident,PARKFIELD PLACE,,,T. H.,Gunning,,Coniston
+resident,PARKFIELD PLACE,,,W. Ewart,Evans,,Lynmouth
+street,PEMBROKE CHAMBERS,,,,,,See 30 High-street
+street,PENLLYN AVENUE,,,,,,C 6 Risca-road
+cross_street,PENLLYN AVENUE,,,,,,(LEFT HAND SIDE.)
+resident,PENLLYN AVENUE,,,,E. E.,Rawlinson,boot rpr,
+resident,PENLLYN AVENUE,2,,Jesse H.,Isacke,,
+resident,PENLLYN AVENUE,4,,Henry J.,Brown,carpenter,
+resident,PENLLYN AVENUE,6,,H. J.,Hart,van salesman,
+resident,PENLLYN AVENUE,8,,Wm. S.,Morgan,engineer,
+resident,PENLLYN AVENUE,10,,Mrs.,Sage,,
+resident,PENLLYN AVENUE,12,,George,Parsons,baker,
+resident,PENLLYN AVENUE,14,,Chas. W.,Burrows,gdnr,
+resident,PENLLYN AVENUE,16,,A. E.,Marshall,linesman,
+resident,PENLLYN AVENUE,18,,Mrs. Kathleen,Davies,,
+resident,PENLLYN AVENUE,20,,William,Soper,G.W.R.,
+resident,PENLLYN AVENUE,22,,James,Watson,electrician,
+resident,PENLLYN AVENUE,24,,John C.,Reed,waterworks,
+resident,PENLLYN AVENUE,26,,John R.,Taylor,gardener,
+resident,PENLLYN AVENUE,28,,Wm. H.,Sage,gardener,
+resident,PENLLYN AVENUE,30,,William,Holt,engineer,
+resident,PENLLYN AVENUE,32,,Wm. A.,Brooks,manager,
+resident,PENLLYN AVENUE,34,,Wm. P.,Herring,carman,
+resident,PENLLYN AVENUE,36,,Ben H.,Price,,
+resident,PENLLYN AVENUE,,,,,,West Park Steam Laundry Company Ltd.
+cross_street,PENLLYN AVENUE,,,,,,(return)
+resident,PENLLYN AVENUE,37,,E. J.,Rose,lino operator,
+resident,PENLLYN AVENUE,35,,Wyndham E.,Sansom,,
+resident,PENLLYN AVENUE,33,,Frank,Dixey,window clnr,
+resident,PENLLYN AVENUE,31,,John R.,Gamble,wghts. ins,
+resident,PENLLYN AVENUE,29,,Chas. W.,Lewis,electrcn,
+resident,PENLLYN AVENUE,27,,Bartley,Williams,insur ag,
+resident,PENLLYN AVENUE,25,,Mrs. Maria,Marshall,,
+resident,PENLLYN AVENUE,23,,Melville,Williams,,
+resident,PENLLYN AVENUE,21,,Jos,Barber,mason,
+resident,PENLLYN AVENUE,19,,Arthur E.,Roberts,dcrtr,
+resident,PENLLYN AVENUE,17,,John W.,Weatherley,,
+resident,PENLLYN AVENUE,15,,J. Lloyd,Jones,traveller,
+resident,PENLLYN AVENUE,13,,James,Hislop,,
+resident,PENLLYN AVENUE,11,,Stanley Thomas,Brown,,
+resident,PENLLYN AVENUE,9,,Herbert R.,Rhys,,
+resident,PENLLYN AVENUE,7,,Wm. H.,Morgan,joiner,
+resident,PENLLYN AVENUE,5,,A. T.,Williams,G.W.R.,
+resident,PENLLYN AVENUE,3,,,,Clarke,,
+resident,PENLLYN AVENUE,1A,,F. J.,Jenkins,watchmkr,
+resident,PENLLYN AVENUE,1,,Mrs. V.,Walton,,Penllyn stores
+resident,PENLLYN AVENUE,,,H. & Sons,Davis,sculptors,
+street,PENROSE STREET,,,,,,C 3 Off Caerleon-road
+street,PENTONVILLE,,,,,,C 4 From Mill-street
+cross_street,PENTONVILLE,,,,,,(LEFT HAND SIDE.)
+resident,PENTONVILLE,2,,Miss J. E.,Davies,,
+resident,PENTONVILLE,3,,W. M.,Madge,,Kingscott
+resident,PENTONVILLE,4,,Mrs. Margaret,Macrae,,Torres villa
+resident,PENTONVILLE,5,,Leslie P.,Thomas,engnr,Coombe
+resident,PENTONVILLE,6,,Frank,Tanner,clk,Belnie
+resident,PENTONVILLE,7,,Mrs. M.,Arthur,,
+resident,PENTONVILLE,8,,Havard,Swalwell,architects and surveyors,
+resident,PENTONVILLE,,,,,,Mon. Rural Community Council—secretary D. L. Jones
+resident,PENTONVILLE,,,,Arthur E.,Sheppard,architect and surveyor,
+cross_street,PENTONVILLE,,,,,,here is Gold-tops
+cross_street,PENTONVILLE,,,,,,here is Public Tel. kiosk
+resident,PENTONVILLE,,,,,,Tredegar Estate office—
+resident,PENTONVILLE,,,,J. I.,Storrar,agent (town estate),
+resident,PENTONVILLE,,,,L. Foster,Stedman,agent (agricultural estate),
+resident,PENTONVILLE,,,,J. F.,Groves,architect,
+resident,PENTONVILLE,,,,P. R. W.,Perry,account.,
+resident,PENTONVILLE,,,,Percival,Bundock,caretkr,
+cross_street,PENTONVILLE,,,,,,(return)
+resident,PENTONVILLE,9,COUNTY HALL,Thomas,Hughes,clerk,
+resident,PENTONVILLE,9,COUNTY HALL,Albert,Davies,chief clk,
+resident,PENTONVILLE,9,COUNTY HALL,S. A.,Bennett,county surveyor,A.M.I.C.E. F.S.I.
+resident,PENTONVILLE,9,COUNTY HALL,Godfrey,Wade,deputy county surveyor,
+resident,PENTONVILLE,9,COUNTY HALL,Reginald,Cornish,deputy county engineer,
+resident,PENTONVILLE,9,COUNTY HALL,,,County Health Department—,
+resident,PENTONVILLE,9,COUNTY HALL,Dr. Rocyn,Jones,medical officer,C.B.E.
+resident,PENTONVILLE,9,COUNTY HALL,Gwyn Rocyn,Jones,,,B.A. M.B. B.CH. L.R.C.S. M.R.C.P.
+resident,PENTONVILLE,9,COUNTY HALL,,,County Accountant—,
+resident,PENTONVILLE,9,COUNTY HALL,P. H.,Stafford,,F.I.M.T.A. F.S.A.A.
+resident,PENTONVILLE,9,COUNTY HALL,R. J.,Kent,County Valuer—,
+resident,PENTONVILLE,9,COUNTY HALL,John,Edwards,Public Assistance Officer—,
+resident,PENTONVILLE,9,COUNTY HALL,T. S.,Butterworth,Local Taxation Department—,
+resident,PENTONVILLE,9,COUNTY HALL,A.,Every-Clayton,County Land Agent—,F.S.I.
+resident,PENTONVILLE,9,COUNTY HALL,F. E. B.,Haynes,Inspector under Shops Act—,
+resident,PENTONVILLE,9,COUNTY HALL,E. G.,Evans,secretary to County Education Committee,
+resident,PENTONVILLE,9,COUNTY HALL,T. G.,James,director of Education,M.A. M.B.E.
+resident,PENTONVILLE,9,COUNTY HALL,Colin L.,Jones,architect to County Education Committee,L.R.I.B.A.
+resident,PENTONVILLE,9,COUNTY HALL,F.,Hiscott,Education Finance Clerk,
+resident,PENTONVILLE,9,COUNTY HALL,D. Brynmor,Morgans,Mining Dept.--,B.Sc. director
+resident,PENTONVILLE,,COUNTY POLICE STATION,Arthur Wm.,Cotterell,Station house-Inspector,
+cross_street,PENTONVILLE,,,,,,here is Queen's-hill
+resident,PENTONVILLE,10,,T. J.,Kenure,milliner,
+resident,PENTONVILLE,10a,,T. J.,Smith,hairdresser and newsagent,
+resident,PENTONVILLE,11,,E.,Gray,greengrocer,
+resident,PENTONVILLE,12,,Geo. P.,Thomas,,
+resident,PENTONVILLE,,,Mrs. Sarah,Lewis,,
+resident,PENTONVILLE,13,,A. F. & Co. Ltd.,Bateman,bootmakers,
+resident,PENTONVILLE,14,,Miss M.,Stallard,newsagt and tobacconist,
+resident,PENTONVILLE,15,,Mrs. Catherina,Thomas,,
+resident,PENTONVILLE,16,,Tom,Smith,,
+resident,PENTONVILLE,17,,Mrs. H. W.,Morrish,,The Lindens
+resident,PENTONVILLE,18,,D. J.,Dalton,dental surg.,Eccleston
+resident,PENTONVILLE,,,Mrs. M. E.,Jenkins,,
+street,PENYLAN PARK,,,,,,D 2 Left-hand side Chepstow-road near Cross Hands
+street,PENYLAN ROAD,,,,,,Off Beechwood-road
+cross_street,PENYLAN ROAD,,,,,,(LEFT HAND SIDE)
+resident,PENYLAN ROAD,1,,H. C.,Eddington,solicitor,
+resident,PENYLAN ROAD,3,,T.,Watson,acct,Sherwood
+resident,PENYLAN ROAD,5,,Nelson R.,Gray,traveller,Maritzburg
+resident,PENYLAN ROAD,7,,Ernest,Boon,police inspt.,Taw Vale
+resident,PENYLAN ROAD,9,,W.,Codlin,,Millmore
+resident,PENYLAN ROAD,11,,W.,Watkins,foreman,Cranleigh
+resident,PENYLAN ROAD,13,,Fredk,Brown,traveller,Double View
+resident,PENYLAN ROAD,15,,Arth. C.,Hobbs,,Dorrington

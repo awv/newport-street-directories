@@ -1,0 +1,150 @@
+type,street,house_number,building_name,forename,surname,trade,notes
+resident,,,24,,Griffiths James H.,,
+resident,,,,,Griffiths Joshua,,
+resident,,,,,Wilson Major,,Ad. 3rd Western Gen. Hospital
+resident,,,25,,Limon Rev. Marshall,,Eversley
+resident,,,,,Jones Ald. S. N.,,Cartref-Melus
+resident,,,,,Homfray Mrs.,,Penllyn
+resident,,,,,Hearsey Mrs.,,do
+resident,,,26,,Healey John A.,,Torbay h
+resident,,,27,,Propert M. D.,,St. David's
+resident,,,28,,Thompson Mrs. J.,,Bright-holme
+resident,,,29,,Handford T. L.,,Norwood
+resident,,,30,,Fowler Robert James,,
+resident,,,31,,Heard Mrs. G. O.,,
+resident,,,32,,Catherall J. R.,,
+resident,,,33,,Moore A. Nichols,,Alona
+resident,,,34,,Mollett Arthur R.,,Newcot
+resident,,,35,,Vaughan C.,,
+resident,,,36,,Gratte Alfred,,Preswylfa
+resident,,,37,,Lewis Mrs. Daniel,,Seaview
+resident,,,38,,Pritchard Frank,,
+street,STOW PARK CIRCUS. D 6,,,,,,Stow Park
+cross_street,STOW PARK CIRCUS. D 6,,,,,OUTER CIRCLE-,
+resident,STOW PARK CIRCUS. D 6,1,The Hawthorns,T. Morris,Prosser,,
+resident,STOW PARK CIRCUS. D 6,3,The Woodlands,Mrs. J.,Linton,,
+resident,STOW PARK CIRCUS. D 6,5,Lynwood,Mrs. M.,Williams,,
+resident,STOW PARK CIRCUS. D 6,7,Rosetta,Fred,Vaughan,,
+resident,STOW PARK CIRCUS. D 6,9,Brynholme,Mrs.,Orders,,
+resident,STOW PARK CIRCUS. D 6,11,Jesmond,Ven. C. A. H.,Green,,D.D. Archdeacon of Monmouth
+resident,STOW PARK CIRCUS. D 6,13,Craig-hafren,Mrs. Phoebe,Rees,,
+resident,STOW PARK CIRCUS. D 6,15,Elms-cott,W. Lyndon,Moore,,
+resident,STOW PARK CIRCUS. D 6,17,Dacia [ville,Mrs. E. A.,Richardson,,
+resident,STOW PARK CIRCUS. D 6,19,Grou-,Mark,Mordey,,J.P.
+resident,STOW PARK CIRCUS. D 6,21,Cader-Idris,T. H.,Howell,,J.P.
+resident,STOW PARK CIRCUS. D 6,23,Wynstay,Mrs.,Williams,,
+resident,STOW PARK CIRCUS. D 6,25,Kenilworth,Cecil,Acomb,,
+resident,STOW PARK CIRCUS. D 6,27,,R. C.,Banks,,
+resident,STOW PARK CIRCUS. D 6,28,The Grange,T.,Cordey,,J.P.
+resident,STOW PARK CIRCUS. D 6,,St. Helens,W. H.,Chambers,,
+resident,STOW PARK CIRCUS. D 6,,St. Olaves [side,Mrs. T.,Davies,,
+cross_street,STOW PARK CIRCUS. D 6,,,,,INNER CIRCLE-,
+resident,STOW PARK CIRCUS. D 6,2,Lawn,A. J.,Stevens,,J.P.
+resident,STOW PARK CIRCUS. D 6,4,Bron-y-gaer,Sir A. Garrod,Thomas,,
+resident,STOW PARK CIRCUS. D 6,6,Rock dale,C. W. Earle,Marsh,,J.P.
+resident,STOW PARK CIRCUS. D 6,8,Redlands,F. W.,Raikes,,
+resident,STOW PARK CIRCUS. D 6,10,Rothvury,Hy.,Duckham,,
+resident,STOW PARK CIRCUS. D 6,12,Gwynlliw,T. J.,Vachell,,St.
+resident,STOW PARK CIRCUS. D 6,14,Rothesay,Mrs. C.,Budd,,
+street,STOW PARK CRESCENT. D 6,,,,,,Stow Park
+cross_street,STOW PARK CRESCENT. D 6,,,,,(LEFT HAND SIDE.),
+resident,STOW PARK CRESCENT. D 6,1,Fairlight,J. W.,Hunt,,
+resident,STOW PARK CRESCENT. D 6,2,Bron-gain,Frank,James,,
+resident,STOW PARK CRESCENT. D 6,3,Winchester house,W. E.,Heard,,J.P.
+resident,STOW PARK CRESCENT. D 6,4,Clarendon ho,F. S.,Budd,,
+resident,STOW PARK CRESCENT. D 6,5,Briar Hill,,,,,void
+resident,STOW PARK CRESCENT. D 6,6,Braeside,C. D.,Stentiford,,
+resident,STOW PARK CRESCENT. D 6,7,Villetta,H. J.,Griggs,,
+resident,STOW PARK CRESCENT. D 6,8,Skelmorlie,G. R.,Martyn,,J.P.
+cross_street,STOW PARK CRESCENT. D 6,,,,,(return),
+resident,STOW PARK CRESCENT. D 6,10,Mineva,Mrs. J. O.,Dibble,,
+resident,STOW PARK CRESCENT. D 6,11,Woodside,,,,,void
+resident,STOW PARK CRESCENT. D 6,12,Dunmarklyn,J. E.,Davies,,
+resident,STOW PARK CRESCENT. D 6,15,,R. J.,Coulter,,ophthalmic surgeon
+resident,STOW PARK CRESCENT. D 6,16,Draycot v,A. P.,Williams,,
+resident,STOW PARK CRESCENT. D 6,17,Severn v,Jas. H.,Winn,,
+resident,STOW PARK CRESCENT. D 6,18,Holmes view,Miss S. E.,Davies,,
+street,STOW PARK GARDENS,,,,,,Nos. 13-23 Stow Park-avenue
+street,STOW PASSAGE. D 5,,,,,,From 85 Stow-hill
+resident,STOW PASSAGE. D 5,1,,Reg.,Saysell,,
+resident,STOW PASSAGE. D 5,2,,Mrs. Hannah,Welsh,,
+resident,STOW PASSAGE. D 5,3,,George,Davey,labourer,
+resident,STOW PASSAGE. D 5,4,,Frank,Shea,labourer,
+resident,STOW PASSAGE. D 5,5,,Thos.,Harrington,labr,
+resident,STOW PASSAGE. D 5,6,,Edwin,Thomas,,
+resident,STOW PASSAGE. D 5,7,,Mrs. Maria,Jones,,
+resident,STOW PASSAGE. D 5,8,,William,Crowley,,
+street,SUEDSHILL STREET. E 3,,,,,,Off Corporation-road
+street,SUMMERHILL AVENUE C 3,,,,,,Christchurch-rd. to Victoria-avenue
+cross_street,SUMMERHILL AVENUE C 3,,,,,(RIGHT HAND SIDE.),
+resident,SUMMERHILL AVENUE C 3,2,Brynview,W. H.,Morgan,,
+resident,SUMMERHILL AVENUE C 3,4,Bryn-haven,Ernest Fred,Clarke,,
+resident,SUMMERHILL AVENUE C 3,6,,Robert J.,Glendenning,,
+resident,SUMMERHILL AVENUE C 3,8,The Firs,F. J.,Kimpton,,
+resident,SUMMERHILL AVENUE C 3,10,,Mrs. James,Leslie,,
+resident,SUMMERHILL AVENUE C 3,12,,C. H.,Edwards,,
+resident,SUMMERHILL AVENUE C 3,,,P.,Lane,,
+resident,SUMMERHILL AVENUE C 3,14,The View,W. P.,Williams,,
+resident,SUMMERHILL AVENUE C 3,16,Ravenswood,A. J.,Ashton,,
+resident,SUMMERHILL AVENUE C 3,18,,Herbert Ernest,Turner,,
+resident,SUMMERHILL AVENUE C 3,20,Ilfracombe,H. B.,Poole,,
+resident,SUMMERHILL AVENUE C 3,22,,Charles Robert,Edwards,,
+resident,SUMMERHILL AVENUE C 3,24,,Arthur Lawrence,O'Leary,,
+resident,SUMMERHILL AVENUE C 3,,Moira,Mrs. M. C.,Frost,,
+resident,SUMMERHILL AVENUE C 3,24A,,Albert E.,Jones,,
+resident,SUMMERHILL AVENUE C 3,,,Mrs. S. J.,Gardner,,
+resident,STOW PARK CRESCENT. D 6,28,,Walter,Charles,,
+resident,STOW PARK CRESCENT. D 6,30,,J. F.,Pearson,,
+resident,STOW PARK CRESCENT. D 6,32,,John Arthur,Young,,
+resident,STOW PARK CRESCENT. D 6,34,,Christopher Wm.,Griffiths,,
+resident,STOW PARK CRESCENT. D 6,36,,George C.,Dartnell,,
+resident,STOW PARK CRESCENT. D 6,38,,William,Lloyd,,
+resident,STOW PARK CRESCENT. D 6,40,,William,Turnbull,,
+resident,STOW PARK CRESCENT. D 6,42,,David,Owen,,
+resident,STOW PARK CRESCENT. D 6,44,,James,Hopkins,,
+cross_street,STOW PARK CRESCENT. D 6,,,,,here is Albert-avenue,
+resident,STOW PARK CRESCENT. D 6,46,,S.,Taylor,baker,
+cross_street,STOW PARK CRESCENT. D 6,,,,,(return),
+resident,STOW PARK CRESCENT. D 6,37,,Arthur,Wells,clerk,
+resident,STOW PARK CRESCENT. D 6,35,,Ed. S.,Simpson,plasterer,
+resident,STOW PARK CRESCENT. D 6,33,,Miss Margaret,Morris,,
+resident,STOW PARK CRESCENT. D 6,,,Sidney,Williams,ins. agent,
+resident,STOW PARK CRESCENT. D 6,31,,George,Hayes,,
+resident,STOW PARK CRESCENT. D 6,29,,Tom,Berry,,
+resident,STOW PARK CRESCENT. D 6,27,,Mrs. Eliza,Williams,,
+resident,STOW PARK CRESCENT. D 6,25,,Alfred,Hando,,
+resident,STOW PARK CRESCENT. D 6,23,,Wm. Hy.,Gough,,
+resident,STOW PARK CRESCENT. D 6,19,Rutland villa,Mrs. G. F.,Thorne,,
+resident,STOW PARK CRESCENT. D 6,17,Arran villa,W. L.,Price,,
+resident,STOW PARK CRESCENT. D 6,,,W. S.,Thompson,,
+resident,STOW PARK CRESCENT. D 6,15,Peringa villa,William,Watkins,,
+resident,STOW PARK CRESCENT. D 6,13,Sunny Mt.,T. A.,Grove,,
+cross_street,SUMMER HILL VILLAS,,,,,SUMMER HILL VILLAS,
+resident,SUMMER HILL VILLAS,11,,Rev. G. H.,Cook,,(Baptist)
+resident,SUMMER HILL VILLAS,9,Clwyd villa,R.,Twist,,
+resident,SUMMER HILL VILLAS,7,The Retreat,Godfrey,Thorne,,
+resident,SUMMER HILL VILLAS,5,Spring bank,Rev. Harry,Taylor,,
+resident,SUMMER HILL VILLAS,3,Glenview,,,,
+resident,SUMMER HILL VILLAS,1,Brynderwyn,Jestyn,Williams,,
+street,SUTTON ROAD. B 3,,,,,,West of Durham-road
+cross_street,SUTTON ROAD. B 3,,,,,(LEFT HAND SIDE.),
+resident,SUTTON ROAD. B 3,1,,Chas.,Lane,shunter,
+resident,SUTTON ROAD. B 3,3,,Mrs. Edith,Giles,,
+resident,SUTTON ROAD. B 3,5,,Mrs.,Woodrow,,
+resident,SUTTON ROAD. B 3,7,,Wm.,Whitson,carpenter,
+resident,SUTTON ROAD. B 3,9,,George I.,Price,,
+resident,SUTTON ROAD. B 3,11,,Jos. Jas.,Jones,printer,
+resident,SUTTON ROAD. B 3,13,,Albt.,Gibbons,carpenter,
+resident,SUTTON ROAD. B 3,15,,Thomas,Cullinane,,
+resident,SUTTON ROAD. B 3,17,,Fred,Jennings,waiter,
+resident,SUTTON ROAD. B 3,19,,Samuel,Pullen,gardener,
+resident,SUTTON ROAD. B 3,21,,Walter,Tooze,wireman,
+resident,SUTTON ROAD. B 3,23,,Wyndham,Jones,ironmoulder,
+resident,SUTTON ROAD. B 3,25,,J. J.,Bottomley,accountant,
+resident,SUTTON ROAD. B 3,27,,Chas. Ed.,Rees,fitter,
+resident,SUTTON ROAD. B 3,29,,W. B.,Hill,,G.W.R.
+resident,SUTTON ROAD. B 3,31,,David John,Nicholas,,
+resident,SUTTON ROAD. B 3,33,,William,Mogridge,,
+resident,SUTTON ROAD. B 3,35,,Dd.,Williams,eng driver,
+resident,SUTTON ROAD. B 3,37,,Peter Chas.,Cessac,clerk,
+resident,SUTTON ROAD. B 3,39,,George,Noville,fitter,
