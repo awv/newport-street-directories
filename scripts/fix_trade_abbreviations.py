@@ -295,9 +295,17 @@ def process_csv(path: Path, known_surnames: set[str] | None = None) -> int:
                 fore = r["forename"]
                 row_changed = True
 
-        # Fix forename stranded in building_name when house_number is empty
+        # Fix numeric house number stranded in building_name when house_number is empty
         bldg = (r.get("building_name") or "").strip()
         hn = (r.get("house_number") or "").strip()
+        if not hn and bldg and re.match(r"^\d+[A-Za-z]?(?:-\d+[A-Za-z]?)?$", bldg):
+            r["house_number"] = bldg
+            r["building_name"] = ""
+            hn = bldg
+            bldg = ""
+            row_changed = True
+
+        # Fix forename stranded in building_name when house_number is empty
         if not hn and bldg and FORE_BLDG_RE.match(bldg) and not BLDG_SUFFIX_RE.search(bldg):
             if not sur and fore and fore[0].isupper():
                 r["surname"] = fore
