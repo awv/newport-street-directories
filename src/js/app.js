@@ -2141,7 +2141,14 @@ function toggleMobileSidebar() {
             }
 
             // Render (return.) divider row
-            if (surnameLower.includes('return') || displayTitleLower.includes('return')) {
+            const returnRe = /^\(?\s*return\.?\s*\)?\.?$/i;
+            const rawTr = (r.trade || '').trim();
+            if (
+              returnRe.test(surnameLower) ||
+              returnRe.test(forenameLower) ||
+              returnRe.test(displayTitleLower) ||
+              (!r.surname && !r.forename && returnRe.test(rawTr))
+            ) {
               const trReturn = document.createElement('tr');
               trReturn.className = 'ledger-junction-row';
               trReturn.innerHTML = `
