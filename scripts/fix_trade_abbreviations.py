@@ -42,6 +42,11 @@ REPLACEMENTS = [
     (re.compile(r"\bcoal\s+tipr\.?(?=\b|\s|$)", re.I), "Coal Tipper"),
     (re.compile(r"\bcontractr\.?(?=\b|\s|$)", re.I), "Contractor"),
     (re.compile(r"\bB\.?\s*&\s*M\.?\s*R\.?(?=\b|\s|$)", re.I), "Brecon & Merthyr Railway"),
+    (re.compile(r"\bboot\s*rep['’]?rs\b", re.I), "Boot Repairers"),
+    (re.compile(r"\bboot\s*rep['’]?r\.?(?=\b|\s|$)", re.I), "Boot Repairer"),
+    (re.compile(r"\bstat['’]?nrs\b", re.I), "Stationers"),
+    (re.compile(r"\bstat['’]?nr\.?(?=\b|\s|$)", re.I), "Stationer"),
+    (re.compile(r"\bst['’\.]?mason\b", re.I), "Stonemason"),
 ]
 
 COMMON_FORE = {
