@@ -11,7 +11,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,Bailey Street,46,,Hill,Alfred,boot and shoe maker,commercial_directory
 1865,Baneswell Road,2,,Hunter,Charles,baker and grocer,commercial_directory
 1865,Baneswell Road,4,,Waters,Charles,jobbing smith,commercial_directory
-1865,Blewitt Street,1,,Mealing Richard,,beer retailer,commercial_directory
+1865,Blewitt Street,1,,Mealing,Richard,beer retailer,commercial_directory
 1865,Blewitt Street,40,,Brimfield,George,"Theophilus, commission agent and accountant",commercial_directory
 1865,Blewitt Street,40,,Brimfield,Miss F. J.,"dressmaker, Baneswell",commercial_directory
 1865,Blewitt Street,57,,Sainsbury,Mrs. Jane,beer retailer,commercial_directory
@@ -659,7 +659,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1865,High Street,48,,Smart,James,butcher,commercial_directory
 1865,High Street,49,,Davies,William,"Greyhound, &c",commercial_directory
 1865,High Street,50,,Hopkins,William,"hairdresser, and perfumer",commercial_directory
-1865,High Street,51,,Daniel Edward,,"saddler and harness maker, vulcanized india rubber dépôt",commercial_directory
+1865,High Street,51,,Daniel,Edward,"saddler and harness maker, vulcanized india rubber dépôt",commercial_directory
 1865,High Street,52,,Jones,Jacob,"grocer, &c",commercial_directory
 1865,High Street,53,,Moss,William,cabinet maker,commercial_directory
 1865,High Street,55,,Tadd,"Tadd, Mrs.",millinery warehouse,commercial_directory

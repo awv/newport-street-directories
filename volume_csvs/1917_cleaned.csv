@@ -390,7 +390,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Albert Terrace,4,Mon. Blind Workers' Association,Clapp,Edward Jno.,,vision_ocr
 1917,Albert Terrace,5,,Clayton,Mrs. Ann,,vision_ocr
 1917,Albert Terrace,6,,Weight,G. H.,plumber,vision_ocr
-1917,Albert Terrace,7,,Standerwick,Wm.,gard'ner,vision_ocr
+1917,Albert Terrace,7,,Standerwick,Wm.,Gardener,vision_ocr
 1917,Albert Terrace,8,,Goddard,John,carpenter,vision_ocr
 1917,Albert Terrace,9,,Minnett,John,mason,vision_ocr
 1917,Albert Terrace,10,,Legge,Thomas,,vision_ocr
@@ -560,7 +560,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Alexandra Road,E 5,88,G. S.,,Jeffreys,vision_ocr
 1917,Alexandra Road,E 5,90,Eb.,,Parry,vision_ocr
 1917,Alexandra Road,E 5,92,Sidney,,Webb,vision_ocr
-1917,Alexandra Road,E 5,94,Albert John,,Edwards,vision_ocr
+1917,Alexandra Road,E 5,94,Albert,John,Edwards,vision_ocr
 1917,Alexandra Road,E 5,96,Henry N.,,Long,vision_ocr
 1917,Alexandra Road,E 5,98,Dock Post Office,,Mrs. E.,vision_ocr
 1917,Alexandra Road,E 5,100,Mrs. E. M.,,Edwards,vision_ocr
@@ -1000,7 +1000,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Archibald Street,2,,William Tamplin,,,vision_ocr
 1917,Archibald Street,3,,Arthur J. Rose,,platelayer,vision_ocr
 1917,Archibald Street,4,,Charles Rose,,haulier,vision_ocr
-1917,Archibald Street,5,,John Jas. Turner,,,vision_ocr
+1917,Archibald Street,5,,John,Jas. Turner,,vision_ocr
 1917,Archibald Street,6,,Jas. Simpson,,,vision_ocr
 1917,Archibald Street,7,,William Ellis,,,vision_ocr
 1917,Archibald Street,8,,Jas. Homfray,,ironworker,vision_ocr
@@ -1023,7 +1023,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Archibald Street,25,,Alfd. Bradbury,,plasterer,vision_ocr
 1917,Archibald Street,26,,Geo. Pugsley,,haulier,vision_ocr
 1917,Archibald Street,27,,Thomas Pullin,,labourer,vision_ocr
-1917,Archibald Street,28,,Frederick Wm. Verren,,,vision_ocr
+1917,Archibald Street,28,,Frederick,Wm. Verren,,vision_ocr
 1917,Archibald Street,29,,Benj. Hodges,,ironworker,vision_ocr
 1917,Archibald Street,30,,Thomas V. Rudge,,,vision_ocr
 1917,Archibald Street,31,,John Mogford,,striker,vision_ocr
@@ -1033,7 +1033,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Archibald Street,35,,Arthur Day,,railway hand,vision_ocr
 1917,Archibald Street,36,,William Hodge,,labourer,vision_ocr
 1917,Archibald Street,37,,Wm. H. Willey,,,vision_ocr
-1917,Archibald Street,38,,Evan Morgan,,ironworker,vision_ocr
+1917,Archibald Street,38,,Evan,Morgan,ironworker,vision_ocr
 1917,Archibald Street,39,,Clem. Giulietti,,ironworker,vision_ocr
 1917,Archibald Street,40,,S. Hodder,,window cleaner,vision_ocr
 1917,Archibald Street,41,,John Bower,,G.W.R.,vision_ocr
@@ -1068,7 +1068,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Archibald Street,64,,Thomas Duke,,labourer,vision_ocr
 1917,Archibald Street,65,,Thomas Walters,,labourer,vision_ocr
 1917,Archibald Street,66,,James Gunter,,shoemaker,vision_ocr
-1917,Archibald Street,67,,George James Gillard,,,vision_ocr
+1917,Archibald Street,67,,George,James Gillard,,vision_ocr
 1917,Archibald Street,68,,Wm. Williams,,agent,vision_ocr
 1917,Archibald Street,69,,Thomas Gibbs,,ironworker,vision_ocr
 1917,Archibald Street,70,,A. E. Linton,,,vision_ocr
@@ -1076,7 +1076,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Argyle Street,,,,,,vision_ocr
 1917,Argyle Street,,,,,,vision_ocr
 1917,Argyle Street,1,,Jno. Hy. Dix,,labourer,vision_ocr
-1917,Argyle Street,3,,Henry Albert Jones,,labr,vision_ocr
+1917,Argyle Street,3,,Henry,Albert Jones,labr,vision_ocr
 1917,Argyle Street,5,,George Pye,,miller,vision_ocr
 1917,Argyle Street,7,,G. H. Rumsey,,labourer,vision_ocr
 1917,Argyle Street,9,,Thos. Curtis,,bottle maker,vision_ocr
@@ -1096,7 +1096,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Argyle Street,42,,A. Graig,,manager,vision_ocr
 1917,Argyle Street,40,,Robert Phillips,,,vision_ocr
 1917,Argyle Street,38,,A. G. Williams,,driver,vision_ocr
-1917,Argyle Street,36,,James William,,,vision_ocr
+1917,Argyle Street,36,,James,William,,vision_ocr
 1917,Argyle Street,34,,James Woods,,bricklayer,vision_ocr
 1917,Argyle Street,32,,G. Bennett,,brewery hand,vision_ocr
 1917,Argyle Street,30,,John Luxton,,,vision_ocr
@@ -1119,12 +1119,12 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Arthur Street,,,,,,vision_ocr
 1917,Arthur Street,1,,Thos. Williams,,labourer,vision_ocr
 1917,Arthur Street,2,,R. Radnage,,goods guard,vision_ocr
-1917,Arthur Street,3,,Edgar Jno. Lamprey,,,vision_ocr
-1917,Arthur Street,4,,Miss Ellen Grace,,,vision_ocr
+1917,Arthur Street,3,,Edgar,Jno. Lamprey,,vision_ocr
+1917,Arthur Street,4,,Miss,Ellen Grace,,vision_ocr
 1917,Arthur Street,5,,T. P. Hammett,,mas. mar.,vision_ocr
 1917,Arthur Street,6,,John Coughlin,,eng. drvr,vision_ocr
 1917,Arthur Street,7,,Geo. Abraham,,labourer,vision_ocr
-1917,Arthur Street,8,,John Chas. Emery,,,vision_ocr
+1917,Arthur Street,8,,John,Chas. Emery,,vision_ocr
 1917,Arthur Street,9,,James Moore,,,vision_ocr
 1917,Arthur Street,10,,Thos. Thomas,,moulder,vision_ocr
 1917,Arthur Street,11,,Chas. Campbell,,F. G.W.R.,vision_ocr
@@ -1866,14 +1866,14 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Bishopsgate Street,12,,Frederick,,Prouse,vision_ocr
 1917,Bishopsgate Street,10,,Jno.,,Barnfield,vision_ocr
 1917,Bishopsgate Street,8,,S.,,Harris,vision_ocr
-1917,Bishopsgate Street,6,,Robert James,,Mason,vision_ocr
+1917,Bishopsgate Street,6,,Robert,James,Mason,vision_ocr
 1917,Bishopsgate Street,4,,Geo. Edward,,Pugh,vision_ocr
 1917,Bishopsgate Street,2,,W. J.,,Banwell,vision_ocr
 1917,Blake Street,,,,,,vision_ocr
 1917,Blenheim Road,,,,,,vision_ocr
 1917,Blenheim Road,2,,James,,Lewis,vision_ocr
 1917,Blenheim Road,4,,Wm.,,Magness,vision_ocr
-1917,Blenheim Road,6,,Patrick Jos.,,O'Grady,vision_ocr
+1917,Blenheim Road,6,,Patrick,Jos.,O'Grady,vision_ocr
 1917,Blenheim Road,8,,Mrs. E. S.,,Watkins,vision_ocr
 1917,Blenheim Road,10,,Lewis,,Johnson,vision_ocr
 1917,Blenheim Road,12,,Frank O.,,Forrest,vision_ocr
@@ -1885,7 +1885,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Blenheim Road,,,,,(return),vision_ocr
 1917,Blenheim Road,,,,,here is Balmoral-road.,vision_ocr
 1917,Blenheim Road,,,,,Vacant sites,vision_ocr
-1917,Blenheim Road,23,,Edward Chas.,,Hayes,vision_ocr
+1917,Blenheim Road,23,,Edward,Chas.,Hayes,vision_ocr
 1917,Blenheim Road,21,,Henry S.,,Thomason,vision_ocr
 1917,Blenheim Road,19,,Samuel,,Constance,vision_ocr
 1917,Blenheim Road,17,,John B.,,Brown,vision_ocr
@@ -1989,7 +1989,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Bolt Street,7,,Sidney,,Quinton,vision_ocr
 1917,Bolt Street,,,Walter,,Guy,vision_ocr
 1917,Bolt Street,8,,Isaac,,Thomas,vision_ocr
-1917,Bolt Street,,,Thomas,,Gardner,vision_ocr
+1917,Bolt Street,,,Thomas,,Gardener,vision_ocr
 1917,Bolt Street,9,,Arthur,,Gibbon,vision_ocr
 1917,Bolt Street,,,Sidney,,Smith,vision_ocr
 1917,Bolt Street,10,,Thomas,,Stock,vision_ocr
@@ -2154,7 +2154,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Bridge Street,16,,,Void,,vision_ocr
 1917,Bridge Street,17,,Griffiths,Thomas,,vision_ocr
 1917,Bridge Street,18,,,S. Wales Daily News and Echo offices,T. Griffiths manager,vision_ocr
-1917,Bridge Street,19,Queen's Hotel,Morgan Mrs. E. H.,,manageress,vision_ocr
+1917,Bridge Street,19,Queen's Hotel,Morgan,Mrs. E. H.,manageress,vision_ocr
 1917,Bridge Street,,VICTORIA CHAMBERS,,,,vision_ocr
 1917,Bridge Street,20,,,Nantyglo & Blaina Ironworks Co. Ltd.,,vision_ocr
 1917,Bridge Street,,,,Colborne Coulman and Lawrence,solicitors,vision_ocr
@@ -2166,7 +2166,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Bridge Street,22,Lyceum Chambers,Kinsey-Morgan,Edward Cecil,solicitor,vision_ocr
 1917,Bridge Street,23,,Lloyd,R. H.,Lloyd's grocery provision and drug stores,vision_ocr
 1917,Bridge Street,,here is Caxton-place,,,,vision_ocr
-1917,Bridge Street,24,,Inland Rev. Valuation Dpt,,,vision_ocr
+1917,Bridge Street,24,,Inland,Rev. Valuation Dpt,,vision_ocr
 1917,Bridge Street,24,,Hall J.,,caretaker,vision_ocr
 1917,Bridge Street,25,,Downham,E. T.,house furnisher,vision_ocr
 1917,Bridge Street,26,,Pritchard & Co.,,milliners and fancy drapers Regent house,vision_ocr
@@ -2657,7 +2657,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Caerau Road,16,,J.,,Neath,vision_ocr
 1917,Caerau Road,17,,Edmund,,Everson,vision_ocr
 1917,Caerau Road,18,,Ivor,,Lewis,vision_ocr
-1917,Caerau Road,19,,Miss Jane,,Fontaine,vision_ocr
+1917,Caerau Road,19,,Miss,Jane,Fontaine,vision_ocr
 1917,Caerau Road,20,,the Misses,,Harry & Wood,vision_ocr
 1917,Caerau Road,21,,John,,Davies,vision_ocr
 1917,Caerau Road,22,,E. J.,,Williams,vision_ocr
@@ -2783,7 +2783,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Caerleon Road,101,,D. W.,,Pope,vision_ocr
 1917,Caerleon Road,,,,,,vision_ocr
 1917,Caerleon Road,103,,,,,vision_ocr
-1917,Caerleon Road,105,,Harold Sidney,,Hodges,vision_ocr
+1917,Caerleon Road,105,,Harold,Sidney,Hodges,vision_ocr
 1917,Caerleon Road,107,,William,,Sowdon,vision_ocr
 1917,Caerleon Road,,,Sowdon,Misses,dressmkr,vision_ocr
 1917,Caerleon Road,109,,Bragg,Fred G.,Sherwell,vision_ocr
@@ -2814,7 +2814,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Caerleon Road,143,,Powell,Geo.,confectioner,vision_ocr
 1917,Caerleon Road,145,,Turner,H. E,furniture dr,vision_ocr
 1917,Caerleon Road,147,,Maypole Dairy,Co. Ltd,,vision_ocr
-1917,Caerleon Road,149,,White William I.,,,vision_ocr
+1917,Caerleon Road,149,,White,William I.,,vision_ocr
 1917,Caerleon Road,(149),Caerleon Road Post Office T.S.O.,T.O.,M.O.,S.B. and A. and I. Office. Telephone Call Office.,vision_ocr
 1917,Caerleon Road,151,,Heyes,F.,The Don cafe,vision_ocr
 1917,Caerleon Road,153,,Games,D. J.,Clarence ho,vision_ocr
@@ -3284,7 +3284,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Cambrian Road,,,Lloyd & Yorath,Ltd.,Cambrian brewery,vision_ocr
 1917,Cambrian Road,,,,,,vision_ocr
 1917,Cambrian Road,,,"Smith, wholesale newsagents",W. H. & Son,wholesale newsagents,vision_ocr
-1917,Cambrian Road,,,Griffiths Mrs. S. E.,,milliner,vision_ocr
+1917,Cambrian Road,,,Griffiths,Mrs. S. E.,milliner,vision_ocr
 1917,Cambrian Road,,Crown Chambers,,,,vision_ocr
 1917,Cambrian Road,,Crown Chambers,Inland Revenue Offices,,,vision_ocr
 1917,Cambrian Road,,Crown Chambers,Surveyor of Taxes No. 1 and 2 districts,,,vision_ocr
@@ -4325,7 +4325,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Chepstow Road,184-182,,UPTON PLACE,,,vision_ocr
 1917,Chepstow Road,180,,UPTON PLACE,,John,vision_ocr
 1917,Chepstow Road,178,,UPTON PLACE,,S.,vision_ocr
-1917,Chepstow Road,176,,King William III.,,John,vision_ocr
+1917,Chepstow Road,176,,King,William III.,John,vision_ocr
 1917,Chepstow Road,,,,,,vision_ocr
 1917,Chepstow Road,174,,Fairoak ho,,James,vision_ocr
 1917,Chepstow Road,174A,,,,Wolfe & Sons,vision_ocr
@@ -4432,7 +4432,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Chepstow Road,10,Belgrade,Cooper,Frank W. H.,,vision_ocr
 1917,Chepstow Road,8,,Baker,Mrs. Annie,,vision_ocr
 1917,Chepstow Road,6,Holegate,Hutson,W. A.,,vision_ocr
-1917,Chepstow Road,4-2,,Burpitt Chas. A.,,L.D.S.,vision_ocr
+1917,Chepstow Road,4-2,,Burpitt,Chas. A.,L.D.S.,vision_ocr
 1917,Chepstow Road,,,Wm. S. L.D.S.,,R.C.S. ENG.,vision_ocr
 1917,Chepstow Road,,,,,,vision_ocr
 1917,Chesterfield Street,,,,,,vision_ocr
@@ -4450,7 +4450,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Christchurch Road,C 3,13,Mrs. E. J.,,James,vision_ocr
 1917,Christchurch Road,C 3,15,James Barnes,,Fraser,vision_ocr
 1917,Christchurch Road,C 3,17,Herbert,,Davies,vision_ocr
-1917,Christchurch Road,C 3,19,Samuel Henry,,Smith,vision_ocr
+1917,Christchurch Road,C 3,19,Samuel,Henry,Smith,vision_ocr
 1917,Christchurch Road,C 3,21,G.,,Wicks,vision_ocr
 1917,Christchurch Road,C 3,23,W. E.,,Winter,vision_ocr
 1917,Christchurch Road,C 3,25,Mrs. Phoebe,,Turner,vision_ocr
@@ -4539,10 +4539,10 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Christchurch Road,C 3,104,,,James,vision_ocr
 1917,Christchurch Road,C 3,106,,,Henry John,vision_ocr
 1917,Christchurch Road,C 3,108,,,Albt.,vision_ocr
-1917,Christchurch Road,110,,Collman Arthur,,,vision_ocr
+1917,Christchurch Road,110,,Collman,Arthur,,vision_ocr
 1917,Christchurch Road,112,,Haines Rupert,,ironwkr,vision_ocr
-1917,Christchurch Road,114,,Morris James,,ironworker,vision_ocr
-1917,Christchurch Road,116,,Pater Joseph Philip,,,vision_ocr
+1917,Christchurch Road,114,,Morris,James,ironworker,vision_ocr
+1917,Christchurch Road,116,,Pater,Joseph Philip,,vision_ocr
 1917,Christchurch Road,,,Vacant sites,,,vision_ocr
 1917,Christchurch Road,,,,,,vision_ocr
 1917,Christchurch Road,,,BEECHWOOD PUBLIC PARK,,,vision_ocr
@@ -4558,10 +4558,10 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Christchurch Road,,Wood view,,Thomas Oswald,,vision_ocr
 1917,Christchurch Road,,,Penylan Mission Room,,,vision_ocr
 1917,Christchurch Road,,,,,,vision_ocr
-1917,Christchurch Road,1,,Morgan Jas. Bertram,,marine engineer,vision_ocr
+1917,Christchurch Road,1,,Morgan,Jas. Bertram,marine engineer,vision_ocr
 1917,Christchurch Road,2,,Fennell E. J.,,G.W.R.,vision_ocr
 1917,Christchurch Road,3,,Void,,,vision_ocr
-1917,Christchurch Road,4,,Lambert Samuel,,watchman,vision_ocr
+1917,Christchurch Road,4,,Lambert,Samuel,watchman,vision_ocr
 1917,Christchurch Road,5,,Ellis S. J.,,shop,vision_ocr
 1917,Christchurch Road,,,CHRISTCHURCH ROAD POST OFFICE,,M.O.,vision_ocr
 1917,Christchurch Road,,,,,,vision_ocr
@@ -4589,10 +4589,10 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Church Road,,,,,,vision_ocr
 1917,Church Road,,,,,,vision_ocr
 1917,Church Road,,,Robertson W. E.,,tobacconist,vision_ocr
-1917,Church Road,,,Clements John,,engine driver,vision_ocr
+1917,Church Road,,,Clements,John,engine driver,vision_ocr
 1917,Church Road,,,Clements G. E.,,greengrocer,vision_ocr
 1917,Church Road,,,,,,vision_ocr
-1917,Church Road,,,Wright Robert,,hairdresser,vision_ocr
+1917,Church Road,,,Wright,Robert,hairdresser,vision_ocr
 1917,Church Road,1,,Void,,,vision_ocr
 1917,Church Road,2,,Davies W. H.,,bootmaker,vision_ocr
 1917,Church Road,3,,More R. & Co.,,drapers,vision_ocr
@@ -4602,60 +4602,60 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Church Road,7-8,,Payne T.,,antique dealer,vision_ocr
 1917,Church Road,9,,Stevens F.,,oil and colour stores,vision_ocr
 1917,Church Road,,,,,,vision_ocr
-1917,Church Road,10,,Hawkins John E.,,fish bar,vision_ocr
-1917,Church Road,11,,Gilpin William Charles,,,vision_ocr
+1917,Church Road,10,,Hawkins,John E.,fish bar,vision_ocr
+1917,Church Road,11,,Gilpin,William Charles,,vision_ocr
 1917,Church Road,12,,Gower J.,,watchman,vision_ocr
-1917,Church Road,13,,Clissett Mrs. O.,,,vision_ocr
+1917,Church Road,13,,Clissett,Mrs. O.,,vision_ocr
 1917,Church Road,,,Clissett & Son,,chair makrs,vision_ocr
 1917,Church Road,,,BARNARD TOWN SCHOOL,,,vision_ocr
 1917,Church Road,15,,Co-operative Branch St'res,,,vision_ocr
 1917,Church Road,16,,Counsell W.,,grocer,vision_ocr
-1917,Church Road,17,,Gregory David,,greengcr,vision_ocr
+1917,Church Road,17,,Gregory,David,greengcr,vision_ocr
 1917,Church Road,,,St. Matthew's Mission Room and Institute,,,vision_ocr
 1917,Church Road,,,,,,vision_ocr
 1917,Church Road,18,Herbert Arms,,Bevan Hy.,,vision_ocr
-1917,Church Road,19,,Gallagher Geo.,,storekeeper,vision_ocr
-1917,Church Road,20,,Phelps Walter,,general dlr,vision_ocr
+1917,Church Road,19,,Gallagher,Geo.,storekeeper,vision_ocr
+1917,Church Road,20,,Phelps,Walter,general dlr,vision_ocr
 1917,Church Road,21,,Matthews K.,,confectioner,vision_ocr
 1917,Church Road,22,,Woolf P.,,taxi proprietor,vision_ocr
-1917,Church Road,23,,Dawes Wm.,,asst. checker,vision_ocr
-1917,Church Road,,,Thomas William Jacob,,,vision_ocr
+1917,Church Road,23,,Dawes,Wm.,asst. checker,vision_ocr
+1917,Church Road,,,Thomas,William Jacob,,vision_ocr
 1917,Church Road,24,,Eastman's Ltd.,,butcher,vision_ocr
 1917,Church Road,,,Pitcher F.,,manager,vision_ocr
-1917,Church Road,,,Partridge Frank,,,vision_ocr
+1917,Church Road,,,Partridge,Frank,,vision_ocr
 1917,Church Road,25,,Duncan A. P.,,draper,vision_ocr
-1917,Church Road,26,,Francis Jas.,,dyeing and cleaning works,vision_ocr
-1917,Church Road,27,,Menhinick John,,chemist,vision_ocr
-1917,Church Road,28,,Jones Ernest,,baker,vision_ocr
+1917,Church Road,26,,Francis,Jas.,dyeing and cleaning works,vision_ocr
+1917,Church Road,27,,Menhinick,John,chemist,vision_ocr
+1917,Church Road,28,,Jones,Ernest,baker,vision_ocr
 1917,Church Road,29,,George A.,,greengrocer,vision_ocr
-1917,Church Road,30,,Henry Thomas,,grocer,vision_ocr
+1917,Church Road,30,,Henry,Thomas,grocer,vision_ocr
 1917,Church Road,,,,,,vision_ocr
 1917,Church Road,31,,Davis J.,,family butcher,vision_ocr
-1917,Church Road,32,,Filey James,,greengrocer,vision_ocr
-1917,Church Road,33,,Coomb John W.,,gen dealer,vision_ocr
+1917,Church Road,32,,Filey,James,greengrocer,vision_ocr
+1917,Church Road,33,,Coomb,John W.,gen dealer,vision_ocr
 1917,Church Road,34,,Jones A. E.,,confectioner,vision_ocr
-1917,Church Road,35,,Bethell Wm.,,stationer,vision_ocr
+1917,Church Road,35,,Bethell,Wm.,stationer,vision_ocr
 1917,Church Road,,,BARNARD TOWN POST OFFICE,,M.O.,vision_ocr
-1917,Church Road,36,,Howells Jas.,,baker,vision_ocr
+1917,Church Road,36,,Howells,Jas.,baker,vision_ocr
 1917,Church Road,36A,,Locke W. H.,,butcher,vision_ocr
 1917,Church Road,,,,,,vision_ocr
 1917,Church Road,37,,Odell A. M.,,ironmonger,vision_ocr
 1917,Church Road,38,,Allen Aug. Jas.,,crane dvr.,vision_ocr
-1917,Church Road,39,,Channon Fredk.,,agent,vision_ocr
-1917,Church Road,40,,Rogers Frank,,ironworker,vision_ocr
-1917,Church Road,41,,Furnham Charles,,,vision_ocr
+1917,Church Road,39,,Channon,Fredk.,agent,vision_ocr
+1917,Church Road,40,,Rogers,Frank,ironworker,vision_ocr
+1917,Church Road,41,,Furnham,Charles,,vision_ocr
 1917,Church Road,42,,Morris F. W.,,ruler,vision_ocr
-1917,Church Road,43,,Hadden Miss G.,,,vision_ocr
-1917,Church Road,44,,Ulett Alfred,,fitter,vision_ocr
-1917,Church Road,45,,Wood Mrs. N.,,,vision_ocr
+1917,Church Road,43,,Hadden,Miss G.,,vision_ocr
+1917,Church Road,44,,Ulett,Alfred,fitter,vision_ocr
+1917,Church Road,45,,Wood,Mrs. N.,,vision_ocr
 1917,Church Road,46,,Void,,,vision_ocr
-1917,Church Road,47,,Bellew John,,engine driver,vision_ocr
+1917,Church Road,47,,Bellew,John,engine driver,vision_ocr
 1917,Church Road,48,,Void,,,vision_ocr
-1917,Church Road,49,,Rosser Herbert,,upholstr'r,vision_ocr
+1917,Church Road,49,,Rosser,Herbert,upholstr'r,vision_ocr
 1917,Church Road,50,,Aulsebrook A.,,grocer,vision_ocr
-1917,Church Road,51,,Coxwell Mrs. Harriett,,,vision_ocr
-1917,Church Road,52,,Morgan Charles,,bricklayer,vision_ocr
-1917,Church Road,53,,Fry Alfred,,labourer,vision_ocr
+1917,Church Road,51,,Coxwell,Mrs. Harriett,,vision_ocr
+1917,Church Road,52,,Morgan,Charles,bricklayer,vision_ocr
+1917,Church Road,53,,Fry,Alfred,labourer,vision_ocr
 1917,Church Road,54,,Banfield H. E.,,carpenter,vision_ocr
 1917,Church Road,55,,Carrington J. G.,,upholst'r,vision_ocr
 1917,Church Road,56,Seamoor ho,,Woolf Geo.,,vision_ocr
@@ -4663,49 +4663,49 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Church Road,,,ST. MATTHEW'S CHURCH,,,vision_ocr
 1917,Church Road,,,,,,vision_ocr
 1917,Church Road,59,,Lewis W. H.,,clothier,vision_ocr
-1917,Church Road,60,,Evans Charles,,inspector,vision_ocr
-1917,Church Road,61,,Jewell Mrs. M.,,,vision_ocr
-1917,Church Road,62,,Miller Frederick,,haulier,vision_ocr
-1917,Church Road,63,,Smith Wm. S.,,waterman,vision_ocr
-1917,Church Road,64,,Hardwick Charles,,,vision_ocr
-1917,Church Road,,,Ravenhill James,,,vision_ocr
+1917,Church Road,60,,Evans,Charles,inspector,vision_ocr
+1917,Church Road,61,,Jewell,Mrs. M.,,vision_ocr
+1917,Church Road,62,,Miller,Frederick,haulier,vision_ocr
+1917,Church Road,63,,Smith,Wm. S.,waterman,vision_ocr
+1917,Church Road,64,,Hardwick,Charles,,vision_ocr
+1917,Church Road,,,Ravenhill,James,,vision_ocr
 1917,Church Road,65,Oak cottage,,Luffman W.,,vision_ocr
-1917,Church Road,66,,Radford Samuel J.,,tailor,vision_ocr
-1917,Church Road,67,,Hillman George,,bricklyr,vision_ocr
-1917,Church Road,68,,Creese Albert,,salesman,vision_ocr
+1917,Church Road,66,,Radford,Samuel J.,tailor,vision_ocr
+1917,Church Road,67,,Hillman,George,bricklyr,vision_ocr
+1917,Church Road,68,,Creese,Albert,salesman,vision_ocr
 1917,Church Road,69,,Anning H. G.,,police,vision_ocr
-1917,Church Road,70,,Stevens Herbert A.,,,vision_ocr
-1917,Church Road,71,,Lewis John,,carpenter,vision_ocr
-1917,Church Road,72,,Williams Mrs. E.,,shop,vision_ocr
+1917,Church Road,70,,Stevens,Herbert A.,,vision_ocr
+1917,Church Road,71,,Lewis,John,carpenter,vision_ocr
+1917,Church Road,72,,Williams,Mrs. E.,shop,vision_ocr
 1917,Church Road,73,,Atherton A.,,grocer,vision_ocr
 1917,Church Road,,,Rogers Mrs.,,,vision_ocr
-1917,Church Road,74,,Berry Charles,,confectioner,vision_ocr
+1917,Church Road,74,,Berry,Charles,confectioner,vision_ocr
 1917,Church Road,75,,Smith G. L.,,decorator,vision_ocr
-1917,Church Road,76,,Hallett Thos.,,factory,vision_ocr
-1917,Church Road,77,,Mole Thomas,,factory,vision_ocr
-1917,Church Road,78,,Norvill Albert,,haulier,vision_ocr
-1917,Church Road,79,,Jeffries Henry B.,,,vision_ocr
+1917,Church Road,76,,Hallett,Thos.,factory,vision_ocr
+1917,Church Road,77,,Mole,Thomas,factory,vision_ocr
+1917,Church Road,78,,Norvill,Albert,haulier,vision_ocr
+1917,Church Road,79,,Jeffries,Henry B.,,vision_ocr
 1917,Church Road,80,Temple of Health,,Banks Professor & Son,,vision_ocr
 1917,Church Road,,,,,,vision_ocr
 1917,Church Road,81,,Naval Brigade Drill Hall,,,vision_ocr
-1917,Church Road,82,,Embling David,,confectnr,vision_ocr
+1917,Church Road,82,,Embling,David,confectnr,vision_ocr
 1917,Church Road,83,,Cook Ezra,,grocer,vision_ocr
 1917,Church Road,84,,Phillips Fred G.,,,vision_ocr
-1917,Church Road,85,,Coles Walter,,,vision_ocr
+1917,Church Road,85,,Coles,Walter,,vision_ocr
 1917,Church Road,86,,Lewis Albt. Geo.,,tailor,vision_ocr
-1917,Church Road,87,,Culverwell Chas. L.,,draper,vision_ocr
-1917,Church Road,88,,Gumbrill Albert,,,vision_ocr
-1917,Church Road,89,,Allen Miss Lucy,,,vision_ocr
+1917,Church Road,87,,Culverwell,Chas. L.,draper,vision_ocr
+1917,Church Road,88,,Gumbrill,Albert,,vision_ocr
+1917,Church Road,89,,Allen,Miss Lucy,,vision_ocr
 1917,Church Street,,,,,,vision_ocr
 1917,Church Street,1,,Scott J. H.,,oilskin manufacturers,vision_ocr
 1917,Church Street,2,,Anstice S.,,ballast master,vision_ocr
 1917,Church Street,3,,Scott J. H.,,,vision_ocr
 1917,Church Street,4,Tredegar Arms,,Plummer Mrs. Edith,,vision_ocr
-1917,Church Street,7,,Lewis Wm. Geo.,,eng. dvr.,vision_ocr
-1917,Church Street,8,,Lewis John,,dockman,vision_ocr
-1917,Church Street,9,,Bray Albert Victor,,boilermaker,vision_ocr
-1917,Church Street,10,,Nelmes Hy.,,coal shipper,vision_ocr
-1917,Church Street,11,,Robson James W.,,rigger,vision_ocr
+1917,Church Street,7,,Lewis,Wm. Geo.,eng. dvr.,vision_ocr
+1917,Church Street,8,,Lewis,John,dockman,vision_ocr
+1917,Church Street,9,,Bray,Albert Victor,boilermaker,vision_ocr
+1917,Church Street,10,,Nelmes,Hy.,coal shipper,vision_ocr
+1917,Church Street,11,,Robson,James W.,rigger,vision_ocr
 1917,Church Street,12,,O'Connell John,,,vision_ocr
 1917,Church Street,13,,James,,Lynch,vision_ocr
 1917,Church Street,,,BOILERMAKERS' INSTITUTE,,,vision_ocr
@@ -7302,11 +7302,11 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Dock Street,53,,Peter,,Bonella,vision_ocr
 1917,Dock Street,54,,George,,Wainfur,vision_ocr
 1917,Dock Street,55,,C.,,Steadman,vision_ocr
-1917,Dock Street,56A,,John Hy.,,Mogford,vision_ocr
+1917,Dock Street,56A,,John,Hy.,Mogford,vision_ocr
 1917,Dock Street,,,,,Shop void,vision_ocr
 1917,Dock Street,,,,,John Evans & Co.,vision_ocr
 1917,Dock Street,56,,St. John's Clothing Depot,,,vision_ocr
-1917,Dock Street,,,Isaac Jos.,,Taylor,vision_ocr
+1917,Dock Street,,,Isaac,Jos.,Taylor,vision_ocr
 1917,Dock Street,,,,,,vision_ocr
 1917,Dock Street,57,,Pickford & Co.,,Ltd.,vision_ocr
 1917,Dock Street,,,A. H.,,Kelly,vision_ocr
@@ -8323,7 +8323,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Ebenezer Terrace,20,,Henry,,Hammerton,vision_ocr
 1917,Ebenezer Terrace,21,,Miss F.,,Traynor,vision_ocr
 1917,Ebenezer Terrace,22,,John,,Brooks,vision_ocr
-1917,Ebenezer Terrace,23,,Mrs Sarah A.,,Powell,vision_ocr
+1917,Ebenezer Terrace,23,,Mrs,Sarah A.,Powell,vision_ocr
 1917,Ebenezer Terrace,24,,T. H.,,Locke,vision_ocr
 1917,Ebenezer Terrace,25,,Alfred,,Griff,vision_ocr
 1917,Ebenezer Terrace,26,,Lionel J. E.,,Moore,vision_ocr
@@ -8450,7 +8450,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Emlyn Street,36,,Mrs. Eliza,,Croston,vision_ocr
 1917,Emlyn Street,37,,Dennis,,Driscoll,vision_ocr
 1917,Emlyn Street,38,,John,,Keating,vision_ocr
-1917,Emlyn Street,39,,Mary Ann,,Morgan,vision_ocr
+1917,Emlyn Street,39,,Mary,Ann,Morgan,vision_ocr
 1917,Emlyn Street,40,,Thomas,,Fricker,vision_ocr
 1917,Emlyn Street,41,,James,,Downing,vision_ocr
 1917,Emlyn Street,42,,,,,vision_ocr
@@ -9891,7 +9891,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Graham Street,28,,Knight,Frederick,,vision_ocr
 1917,Graham Street,29,,Morrissey,Gastine,,vision_ocr
 1917,Graham Street,30,,Bayliss,James,plasterer,vision_ocr
-1917,Graham Street,31,,Browning,Arthur,gardn'r,vision_ocr
+1917,Graham Street,31,,Browning,Arthur,Gardener,vision_ocr
 1917,Graham Street,,,,,(return),vision_ocr
 1917,Graham Street,32,,Evans,Llewellyn,labourer,vision_ocr
 1917,Graham Street,33,,Edwards,Wm.,mason,vision_ocr
@@ -11898,7 +11898,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Lime Street,11,,Mrs. Ellen,,Lane,vision_ocr
 1917,Lime Street,13,,W.,,Gibbs,vision_ocr
 1917,Lime Street,15,,John,,Bell,vision_ocr
-1917,Lime Street,17,,John Edwin,,Morgan,vision_ocr
+1917,Lime Street,17,,John,Edwin,Morgan,vision_ocr
 1917,Lime Street,19,,Frederick,,Climo,vision_ocr
 1917,Lime Street,21,,Thos.,,Brown,vision_ocr
 1917,Lime Street,23,,Andrew,,Grey,vision_ocr
@@ -11918,7 +11918,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Lime Street,49,,Wm.,,Harvey,vision_ocr
 1917,Lime Street,51,,Arthur,,Edwards,vision_ocr
 1917,Lime Street,53,,Mrs. Eliza,,Morgan,vision_ocr
-1917,Lime Street,55,,Elijah Frederick,,Hooper,vision_ocr
+1917,Lime Street,55,,Elijah,Frederick,Hooper,vision_ocr
 1917,Lime Street,,,Herbt.,,Shepperd,vision_ocr
 1917,Lime Street,57,,John,,Hooper,vision_ocr
 1917,Lime Street,59,,Mrs. Ann,,Price,vision_ocr
@@ -11963,7 +11963,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Lime Street,48,,Thomas,,Rich,vision_ocr
 1917,Lime Street,46,,E. G.,,Staunton,vision_ocr
 1917,Lime Street,44,,Thos. A.,,Bevan,vision_ocr
-1917,Lime Street,42,,John Herbert,,Rees,vision_ocr
+1917,Lime Street,42,,John,Herbert,Rees,vision_ocr
 1917,Lime Street,40,,Wm.,,Pantall,vision_ocr
 1917,Lime Street,38,,Edward J.,,Thomas,vision_ocr
 1917,Lime Street,36,,Wm. John,,Harper,vision_ocr
@@ -11982,7 +11982,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Lime Street,14,,Wm.,,Nicholas,vision_ocr
 1917,Lime Street,12,,Thomas,,Powell,vision_ocr
 1917,Lime Street,10,,Robert,,Pring,vision_ocr
-1917,Lime Street,8,,John Hy.,,Bale,vision_ocr
+1917,Lime Street,8,,John,Hy.,Bale,vision_ocr
 1917,Lime Street,6,,Albert,,Williams,vision_ocr
 1917,Lime Street,4,,Abram,,Manship,vision_ocr
 1917,Lime Street,2,,Geo.,,Martinsen,vision_ocr
@@ -12233,7 +12233,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Llanthewy Road,37,Scethrog,Edwards,W. E.,L.R.A.M.,vision_ocr
 1917,Llanthewy Road,33,Craigston,Storrar,Dd. M.,,vision_ocr
 1917,Llanthewy Road,31,Arvon,Foote,Mrs. E. E.,,vision_ocr
-1917,Llanthewy Road,,,Foote Harold,,,vision_ocr
+1917,Llanthewy Road,,,Foote,Harold,,vision_ocr
 1917,Llanthewy Road,29,Rydal,Alger,F. J.,,vision_ocr
 1917,Llanthewy Road,27,,Bull,George,,vision_ocr
 1917,Llanthewy Road,25,Trelawney,Hammer,Hy.,,vision_ocr
@@ -12327,7 +12327,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Llanwern Street,5,,Hollingdrake,Harry,clerk,vision_ocr
 1917,Llanwern Street,,,,here is Rugby-road,,vision_ocr
 1917,Llanwern Street,3,,Williams,Sidney,,vision_ocr
-1917,Llanwern Street,,,Fitzgerald Robert,,,vision_ocr
+1917,Llanwern Street,,,Fitzgerald,Robert,,vision_ocr
 1917,Llanwern Street,1,,Lamb,Ernest,shearer,vision_ocr
 1917,Llewellin Street,,,,,,vision_ocr
 1917,Llewellin Street,,,,From 26 Somerton-road (LEFT HAND SIDE.),,vision_ocr
@@ -12796,7 +12796,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Malpas Road,,,,,,vision_ocr
 1917,Malpas Road,,,,,,vision_ocr
 1917,Malpas Road,,,,,,vision_ocr
-1917,Malpas Road,1,,Reed Chas. H.,,builder,vision_ocr
+1917,Malpas Road,1,,Reed,Chas. H.,builder,vision_ocr
 1917,Malpas Road,,,J. G.,,Anderson,vision_ocr
 1917,Malpas Road,3,,Eveleigh,Mrs. E. S.,,vision_ocr
 1917,Malpas Road,5,,McGowan,John,,vision_ocr
@@ -13976,11 +13976,11 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Nash Road,,,Thomas,,Phillips,vision_ocr
 1917,Nash Road,,,Albert,,Ashwin,vision_ocr
 1917,Nash Road,,,William,,Wilkinson,vision_ocr
-1917,Nash Road,,,John Thomas,,Bennett,vision_ocr
-1917,Nash Road,,,John William,,Darby,vision_ocr
+1917,Nash Road,,,John,Thomas,Bennett,vision_ocr
+1917,Nash Road,,,John,William,Darby,vision_ocr
 1917,Nash Road,,,Reuben,,Stokes,vision_ocr
 1917,Nash Road,,,Albert,,James,vision_ocr
-1917,Nash Road,,,William Henry,,Bailey,vision_ocr
+1917,Nash Road,,,William,Henry,Bailey,vision_ocr
 1917,Nash Road,,,James,,Boden,vision_ocr
 1917,Nash Road,,,Thomas,,Jones,vision_ocr
 1917,Nash Road,,,George,,Heath,vision_ocr
@@ -14047,7 +14047,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,North Street,,,,,,vision_ocr
 1917,North Street,,,,,,vision_ocr
 1917,North Street,,,John,,Warman,vision_ocr
-1917,North Street,,,John Charles,,Burr,vision_ocr
+1917,North Street,,,John,Charles,Burr,vision_ocr
 1917,North Street,,,,,,vision_ocr
 1917,North Street,,,Tredegar Constitutional Club,,,vision_ocr
 1917,North Street,,,,,,vision_ocr
@@ -16421,7 +16421,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,St. Mark's Crescent,45,Westbury,Hill,George,,vision_ocr
 1917,St. Mark's Crescent,47,,Lewis,,Webb,vision_ocr
 1917,St. Mark's Crescent,49,,Jos. Anthony,,Roe,vision_ocr
-1917,St. Mark's Crescent,51,,William Charles,,Major,vision_ocr
+1917,St. Mark's Crescent,51,,William,Charles,Major,vision_ocr
 1917,St. Mark's Crescent,53,Coniston,Broughton,C. W.,,vision_ocr
 1917,St. Mark's Crescent,,,,,here is Alteryn-road,vision_ocr
 1917,St. Mark's Crescent,,,,,(return),vision_ocr
@@ -16431,7 +16431,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,St. Mark's Crescent,16,Brockweir,Dibdin,George Edwin,,vision_ocr
 1917,St. Mark's Crescent,14,Adswood,Ramsdale,Jos. H.,,vision_ocr
 1917,St. Mark's Crescent,12,,Edward,,Hicks,vision_ocr
-1917,St. Mark's Crescent,10,,Thomas John,,Hill,vision_ocr
+1917,St. Mark's Crescent,10,,Thomas,John,Hill,vision_ocr
 1917,St. Mark's Crescent,8,Silverton,Coe,L. A.,,vision_ocr
 1917,St. Mark's Crescent,6,Urishay,Russell,Harry,,vision_ocr
 1917,St. Mark's Crescent,4,The Homest'd,Davies,A. J.,,vision_ocr
@@ -16501,7 +16501,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,St. Mary Street,47,,John,,Edwards,vision_ocr
 1917,St. Mary Street,48,,John,,Evans,vision_ocr
 1917,St. Mary Street,49,,Albert H. D.,,Fishwick,vision_ocr
-1917,St. Mary Street,50,,John Albert,,Tucker,vision_ocr
+1917,St. Mary Street,50,,John,Albert,Tucker,vision_ocr
 1917,St. Mary Street,51,,Jonathan,,Davies,vision_ocr
 1917,St. Mary Street,52,,Thos. H.,,Smith,vision_ocr
 1917,St. Mary Street,53,,John,,Harris,vision_ocr
@@ -16999,15 +16999,15 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Slipway Cottages,,,,,,vision_ocr
 1917,Slipway Cottages,,,,,,vision_ocr
 1917,Slipway Cottages,1-2,,Hunt Jack,Mordey Carney—manager,,vision_ocr
-1917,Slipway Cottages,3,,Manley Richard,,driver,vision_ocr
-1917,Slipway Cottages,4,,Jackson William,,fitter,vision_ocr
-1917,Slipway Cottages,5,,Wall Saml. Jas.,,shearer,vision_ocr
+1917,Slipway Cottages,3,,Manley,Richard,driver,vision_ocr
+1917,Slipway Cottages,4,,Jackson,William,fitter,vision_ocr
+1917,Slipway Cottages,5,,Wall,Saml. Jas.,shearer,vision_ocr
 1917,Slipway Cottages,6,,Void,,,vision_ocr
 1917,Slipway Cottages,7,,Void,,,vision_ocr
 1917,Slipway Cottages,8,,Harvey R. J.,,dry dock,vision_ocr
-1917,Slipway Cottages,9,,Brown Fredk.,,watchman,vision_ocr
+1917,Slipway Cottages,9,,Brown,Fredk.,watchman,vision_ocr
 1917,Slipway Cottages,10,,Clarke W F,,,vision_ocr
-1917,Slipway Cottages,11,,Johnson Mrs. E.,,,vision_ocr
+1917,Slipway Cottages,11,,Johnson,Mrs. E.,,vision_ocr
 1917,Slipway Cottages,12,,Lawrence T. H.,,watchman,vision_ocr
 1917,Slipway Cottages,,,Mordey,,Carney & Co.,vision_ocr
 1917,Slipway Cottages,,,Cardiff Channel Docks and Pontoon Co.,,Ltd.,vision_ocr
@@ -17016,26 +17016,26 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Somerset Road,,,,,,vision_ocr
 1917,Somerset Road,,,,,,vision_ocr
 1917,Somerset Road,,,,,,vision_ocr
-1917,Somerset Road,1,,Stephens Edward,,,vision_ocr
-1917,Somerset Road,3,,Newman William,,,vision_ocr
-1917,Somerset Road,5,,Kershaw Mrs. Jane H.,,,vision_ocr
-1917,Somerset Road,7,,Kidd Robert Henry,,,vision_ocr
-1917,Somerset Road,9,,Harries John E.,,traveller,vision_ocr
+1917,Somerset Road,1,,Stephens,Edward,,vision_ocr
+1917,Somerset Road,3,,Newman,William,,vision_ocr
+1917,Somerset Road,5,,Kershaw,Mrs. Jane H.,,vision_ocr
+1917,Somerset Road,7,,Kidd,Robert Henry,,vision_ocr
+1917,Somerset Road,9,,Harries,John E.,traveller,vision_ocr
 1917,Somerset Road,11,Sunnyside,,Gulliver F.,,vision_ocr
 1917,Somerset Road,13,Montpelier,,Spencer S. H.,,vision_ocr
 1917,Somerset Road,15,,Frederick Theo. Harper,,,vision_ocr
 1917,Somerset Road,17,Penycefn,,King Henry,,vision_ocr
-1917,Somerset Road,19,,Nutt Frederick,,,vision_ocr
-1917,Somerset Road,21,,Jones James,,ironmonger,vision_ocr
-1917,Somerset Road,23,,Cock Mrs. Blanche,,,vision_ocr
-1917,Somerset Road,25,,Whitton Arthur,,,vision_ocr
+1917,Somerset Road,19,,Nutt,Frederick,,vision_ocr
+1917,Somerset Road,21,,Jones,James,ironmonger,vision_ocr
+1917,Somerset Road,23,,Cock,Mrs. Blanche,,vision_ocr
+1917,Somerset Road,25,,Whitton,Arthur,,vision_ocr
 1917,Somerset Road,27,Rylston,,Bell Matthew,,vision_ocr
-1917,Somerset Road,29,,Marais Henry,,,vision_ocr
+1917,Somerset Road,29,,Marais,Henry,,vision_ocr
 1917,Somerset Road,31,Lyncombe,,Twist H. Melville,,vision_ocr
 1917,Somerset Road,33,,Jenkins Edgar W.,,,vision_ocr
 1917,Somerset Road,35,Langland,,Kerr Mrs. E. L.,,vision_ocr
-1917,Somerset Road,37,,Narbett David,,,vision_ocr
-1917,Somerset Road,39,,Robertson William E.,,,vision_ocr
+1917,Somerset Road,37,,Narbett,David,,vision_ocr
+1917,Somerset Road,39,,Robertson,William E.,,vision_ocr
 1917,Somerset Road,41,Oakdene,,Jesseman Geo. N.,,vision_ocr
 1917,Somerset Road,43,Rhydri,,Edwards David,,vision_ocr
 1917,Somerset Road,45,Hartpury,,Charles H. J.,,vision_ocr
@@ -17050,7 +17050,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Somerset Road,,,,,,vision_ocr
 1917,Somerset Road,63,Ilchester,,Williams Mrs. E.,,vision_ocr
 1917,Somerset Road,,,solct,Williams H. Meyrick,,vision_ocr
-1917,Somerset Road,65,,Scrivener George F.,,,vision_ocr
+1917,Somerset Road,65,,Scrivener,George F.,,vision_ocr
 1917,Somerset Road,67,River view,,Jones Mrs. E.,,vision_ocr
 1917,Somerset Road,69,Brynhardd,,Williams David,,vision_ocr
 1917,Somerset Road,71,Haulfryn,,Evatt Henry,,vision_ocr
@@ -17067,11 +17067,11 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Somerset Road,89,,Void,,,vision_ocr
 1917,Somerset Road,,,,,,vision_ocr
 1917,Somerset Road,,,,,,vision_ocr
-1917,Somerset Road,82,,Jones John Thomas,,,vision_ocr
-1917,Somerset Road,80,,Turner Chas. G.,,,vision_ocr
-1917,Somerset Road,78,,Turner John,,,vision_ocr
+1917,Somerset Road,82,,Jones,John Thomas,,vision_ocr
+1917,Somerset Road,80,,Turner,Chas. G.,,vision_ocr
+1917,Somerset Road,78,,Turner,John,,vision_ocr
 1917,Somerset Road,,,Symons Cecil,,,vision_ocr
-1917,Somerset Road,76,,Stowe Sidney Duncan,,,vision_ocr
+1917,Somerset Road,76,,Stowe,Sidney Duncan,,vision_ocr
 1917,Somerset Road,74,The Copse,,Hancock C. G.,,vision_ocr
 1917,Somerset Road,,,,,,vision_ocr
 1917,Somerset Road,72,,Bryant Abraham,,,vision_ocr
@@ -17088,16 +17088,16 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Somerset Road,52,,Fell Jose Percival,,,vision_ocr
 1917,Somerset Road,50A,Tettenhall,,Dunckley C. H.,,vision_ocr
 1917,Somerset Road,50,Glynberros,,Poole Henry,,vision_ocr
-1917,Somerset Road,48,,Henry Miss Dorothy,,,vision_ocr
-1917,Somerset Road,46,,Turner Frederick Wm.,,,vision_ocr
-1917,Somerset Road,44,,Price Joseph H.,,,vision_ocr
+1917,Somerset Road,48,,Henry,Miss Dorothy,,vision_ocr
+1917,Somerset Road,46,,Turner,Frederick Wm.,,vision_ocr
+1917,Somerset Road,44,,Price,Joseph H.,,vision_ocr
 1917,Somerset Road,42,,Barnett Wilfred J.,,,vision_ocr
 1917,Somerset Road,40,,Thomas Enoch,,,vision_ocr
-1917,Somerset Road,38,,Roberts David,,,vision_ocr
-1917,Somerset Road,36,,Watkins Robert,,,vision_ocr
+1917,Somerset Road,38,,Roberts,David,,vision_ocr
+1917,Somerset Road,36,,Watkins,Robert,,vision_ocr
 1917,Somerset Road,34,Ferryside,,Williams Herbert,,vision_ocr
-1917,Somerset Road,32,,Gillard Charles T.,,,vision_ocr
-1917,Somerset Road,30,,Haynes William J.,,,vision_ocr
+1917,Somerset Road,32,,Gillard,Charles T.,,vision_ocr
+1917,Somerset Road,30,,Haynes,William J.,,vision_ocr
 1917,Somerset Road,28,Norge,,Williams Mrs. J.,,vision_ocr
 1917,Somerset Road,26,Abergwaun,,Rowlands T.,,vision_ocr
 1917,Somerset Road,24,Bryngwyn,,Herbert Mrs. L.,,vision_ocr
@@ -17107,7 +17107,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Somerset Road,16,Devon,,Lloyd George,,vision_ocr
 1917,Somerset Road,14,Pendennis,,Dufner J. E.,,vision_ocr
 1917,Somerset Road,12,Wellington,,Barnett J.,,vision_ocr
-1917,Somerset Road,10,,Brenton Sidney,,,vision_ocr
+1917,Somerset Road,10,,Brenton,Sidney,,vision_ocr
 1917,Somerset Road,8,Glencorse,,Grant W. W.,,vision_ocr
 1917,Somerset Road,6,Sefton ho,,Finlay Mrs. E.,,vision_ocr
 1917,Somerset Road,4,Hollish,,Eddolls Mrs. Jane,,vision_ocr
@@ -17133,25 +17133,25 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Somerton Road,28,Darlington,,Brown Chas.,,vision_ocr
 1917,Somerton Road,30,Cranborne,,Collett Wm.,,vision_ocr
 1917,Somerton Road,32,Palmyra,,Burt Hy. E.,,vision_ocr
-1917,Somerton Road,34,,Viner William Hy.,,,vision_ocr
+1917,Somerton Road,34,,Viner,William Hy.,,vision_ocr
 1917,Somerton Road,36,Stelvio,,Prince Mrs. Grace,,vision_ocr
 1917,Somerton Road,38,Allasin,,Thomas Ernest B.,,vision_ocr
 1917,Somerton Road,40,,Murray Alexander,,,vision_ocr
-1917,Somerton Road,42,,Harris Arthur,,ironworker,vision_ocr
+1917,Somerton Road,42,,Harris,Arthur,ironworker,vision_ocr
 1917,Somerton Road,44,,Chance Jesse,,ironworker,vision_ocr
 1917,Somerton Road,,,,,,vision_ocr
-1917,Somerton Road,46,,Smith Thomas,,,vision_ocr
-1917,Somerton Road,48,,Webber Thomas,,clerk,vision_ocr
-1917,Somerton Road,50,,Mole Ernest,,sawyer,vision_ocr
-1917,Somerton Road,52,,Davies Miss Selina,,,vision_ocr
-1917,Somerton Road,54,,Enstone Miss E. M.,,,vision_ocr
+1917,Somerton Road,46,,Smith,Thomas,,vision_ocr
+1917,Somerton Road,48,,Webber,Thomas,clerk,vision_ocr
+1917,Somerton Road,50,,Mole,Ernest,sawyer,vision_ocr
+1917,Somerton Road,52,,Davies,Miss Selina,,vision_ocr
+1917,Somerton Road,54,,Enstone,Miss E. M.,,vision_ocr
 1917,Somerton Road,,,,,,vision_ocr
 1917,Somerton Road,,,,,,vision_ocr
 1917,Somerton Road,,Somerton cottage,,Caple Albert Wm.,,vision_ocr
 1917,Somerton Road,1,,Huggins Mrs.,,,vision_ocr
 1917,Somerton Road,3,Melbourne,senior,Gordon John,,vision_ocr
 1917,Somerton Road,,,,,,vision_ocr
-1917,Somerton Road,9,,Colquhoun Ernest,,architect's assistant,vision_ocr
+1917,Somerton Road,9,,Colquhoun,Ernest,architect's assistant,vision_ocr
 1917,Somerton Road,11,Llanvaches,waterworks supt.,Groves Hugh,,vision_ocr
 1917,Somerton Road,13,Clare villa,,Ford David,,vision_ocr
 1917,Somerton Road,15,Monteville,,Downing Chas.,,vision_ocr
@@ -17161,10 +17161,10 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Somerton Road,23,Somerton,,Francis T. W.,,vision_ocr
 1917,Somerton Road,,,,,,vision_ocr
 1917,Somerton Road,,,,Somerton-lane,,vision_ocr
-1917,Somerton Road,,,Horton Thomas,,haulier,vision_ocr
+1917,Somerton Road,,,Horton,Thomas,haulier,vision_ocr
 1917,Somerton Road,,,Burchell Chas. Jos.,The Villa,,vision_ocr
-1917,Somerton Road,,,Burchell Thomas,,,vision_ocr
-1917,Somerton Road,,,Harris Charles,,,vision_ocr
+1917,Somerton Road,,,Burchell,Thomas,,vision_ocr
+1917,Somerton Road,,,Harris,Charles,,vision_ocr
 1917,Somerton Road,,,Bate Mrs. E.,Greystone ho,,vision_ocr
 1917,Somerton Road,,,Bate E. R.,,compositor,vision_ocr
 1917,Somerton Lane,,,Long,Reginald,G.W.R.,vision_ocr
@@ -17548,7 +17548,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Stow Hill,18,,T. A.,,Grove,vision_ocr
 1917,Stow Hill,20,,,,The Mon. & Newport Constitutional Club,vision_ocr
 1917,Stow Hill,22,Caerleon Chambers,Parry Thomas & Son,,auctioneers,vision_ocr
-1917,Stow Hill,,Caerleon Chambers,Parry Thomas,,Supt. Registrar,vision_ocr
+1917,Stow Hill,,Caerleon Chambers,Parry,Thomas,Supt. Registrar,vision_ocr
 1917,Stow Hill,,Caerleon Chambers,Wring,Tom W.,Registrar of Marriages,vision_ocr
 1917,Stow Hill,,Caerleon Chambers,,,Goytre Estate Office,vision_ocr
 1917,Stow Hill,24,,T. S. & Son,,Edwards,vision_ocr
@@ -17592,7 +17592,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Stow Hill,82,,E. A.,,Hadden,vision_ocr
 1917,Stow Hill,,,,,,vision_ocr
 1917,Stow Hill,84,,Lloyd,,Overstone,vision_ocr
-1917,Stow Hill,86,,Miss Alice,,Emmett,vision_ocr
+1917,Stow Hill,86,,Miss,Alice,Emmett,vision_ocr
 1917,Stow Hill,88,,Lionel,,Falkman,vision_ocr
 1917,Stow Hill,90,,Herbert,,Lenton,vision_ocr
 1917,Stow Hill,92,,William,,Bird,vision_ocr
@@ -17623,7 +17623,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Stow Hill,,,Charles,,Gibbs,vision_ocr
 1917,Stow Hill,,,G.,,Davies,vision_ocr
 1917,Stow Hill,,,John,,Platt,vision_ocr
-1917,Stow Hill,,,Albert Ernest,,Webb,vision_ocr
+1917,Stow Hill,,,Albert,Ernest,Webb,vision_ocr
 1917,Stow Hill,,,,,,vision_ocr
 1917,Stow Hill,144,,Amos,,Barroll,vision_ocr
 1917,Stow Hill,146,,Mrs. Elizabeth,,Johnson,vision_ocr
@@ -17632,7 +17632,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Stow Hill,150,,Hector B.,,Rickards,vision_ocr
 1917,Stow Hill,152,,William,,Rogers,vision_ocr
 1917,Stow Hill,154,,Alfred,,Mart,vision_ocr
-1917,Stow Hill,156,,Arthur Charles,,Jenkins,vision_ocr
+1917,Stow Hill,156,,Arthur,Charles,Jenkins,vision_ocr
 1917,Stow Hill,158,,Mrs. A. E.,,Harries,vision_ocr
 1917,Stow Hill,,,,,,vision_ocr
 1917,Stow Hill,,,Mrs. W. D.,,Arthur,vision_ocr
@@ -17643,7 +17643,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Stow Hill,198,,,,,vision_ocr
 1917,Stow Hill,,,,,,vision_ocr
 1917,Stow Hill,200,,Jas.,,Barter,vision_ocr
-1917,Stow Hill,202,,Miss Louisa B.,,Higgins,vision_ocr
+1917,Stow Hill,202,,Miss,Louisa B.,Higgins,vision_ocr
 1917,Stow Hill,,,,,,vision_ocr
 1917,Stow Hill,204,Oakfield Boys' School,Pitt,Horace (INT. B.A. Lond.),,vision_ocr
 1917,Stow Hill,206,Pen Caerau,Saunders,A.,,vision_ocr
@@ -17778,26 +17778,26 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Stow Park Gardens,22,,Couper,J. Duncan C.,,vision_ocr
 1917,Stow Park Gardens,23,,Ingram,Col. S. D. V.D.,,vision_ocr
 1917,Stow Park Gardens,23,,Ingram,P. C. P. M.B. B.S. LOND.,,vision_ocr
-1917,Stow Park Gardens,,24,Griffiths James H.,,,vision_ocr
+1917,Stow Park Gardens,,24,Griffiths,James H.,,vision_ocr
 1917,Stow Park Gardens,,,Griffiths Joshua,,,vision_ocr
 1917,Stow Park Gardens,,,Wilson Major,,,vision_ocr
-1917,Stow Park Gardens,,25,Limon Rev. Marshall,,,vision_ocr
+1917,Stow Park Gardens,,25,Limon,Rev. Marshall,,vision_ocr
 1917,Stow Park Gardens,,,Jones Ald. S. N.,,,vision_ocr
 1917,Stow Park Gardens,,,Homfray Mrs.,,,vision_ocr
 1917,Stow Park Gardens,,,Hearsey Mrs.,,,vision_ocr
-1917,Stow Park Gardens,,26,Healey John A.,,,vision_ocr
+1917,Stow Park Gardens,,26,Healey,John A.,,vision_ocr
 1917,Stow Park Gardens,,27,Propert M. D.,,,vision_ocr
-1917,Stow Park Gardens,,28,Thompson Mrs. J.,,,vision_ocr
+1917,Stow Park Gardens,,28,Thompson,Mrs. J.,,vision_ocr
 1917,Stow Park Gardens,,29,Handford T. L.,,,vision_ocr
-1917,Stow Park Gardens,,30,Fowler Robert James,,,vision_ocr
-1917,Stow Park Gardens,,31,Heard Mrs. G. O.,,,vision_ocr
+1917,Stow Park Gardens,,30,Fowler,Robert James,,vision_ocr
+1917,Stow Park Gardens,,31,Heard,Mrs. G. O.,,vision_ocr
 1917,Stow Park Gardens,,32,Catherall J. R.,,,vision_ocr
 1917,Stow Park Gardens,,33,Moore A. Nichols,,,vision_ocr
-1917,Stow Park Gardens,,34,Mollett Arthur R.,,,vision_ocr
+1917,Stow Park Gardens,,34,Mollett,Arthur R.,,vision_ocr
 1917,Stow Park Gardens,,35,Vaughan C.,,,vision_ocr
-1917,Stow Park Gardens,,36,Gratte Alfred,,,vision_ocr
-1917,Stow Park Gardens,,37,Lewis Mrs. Daniel,,,vision_ocr
-1917,Stow Park Gardens,,38,Pritchard Frank,,,vision_ocr
+1917,Stow Park Gardens,,36,Gratte,Alfred,,vision_ocr
+1917,Stow Park Gardens,,37,Lewis,Mrs. Daniel,,vision_ocr
+1917,Stow Park Gardens,,38,Pritchard,Frank,,vision_ocr
 1917,Stow Park Circus,,,,,,vision_ocr
 1917,Stow Park Circus,,,,,OUTER CIRCLE-,vision_ocr
 1917,Stow Park Circus,1,The Hawthorns,Prosser,T. Morris,,vision_ocr
@@ -18114,13 +18114,13 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Traston Road,,,,,From Nash-road,vision_ocr
 1917,Traston Road,,,Joseph,,Cooper,vision_ocr
 1917,Traston Road,,,George,,Rickman,vision_ocr
-1917,Traston Road,,,Joseph Henry,,Greenhill,vision_ocr
+1917,Traston Road,,,Joseph,Henry,Greenhill,vision_ocr
 1917,Traston Road,,,Richard,,Griffin,vision_ocr
 1917,Traston Road,,,Albert,,Jenkins,vision_ocr
-1917,Traston Road,,,Harry Albert,,Hayes,vision_ocr
+1917,Traston Road,,,Harry,Albert,Hayes,vision_ocr
 1917,Traston Road,,,Lot,,Roberts,vision_ocr
 1917,Traston Road,,,Henry,,Haines,vision_ocr
-1917,Traston Road,,,John David,,Roberts,vision_ocr
+1917,Traston Road,,,John,David,Roberts,vision_ocr
 1917,Traston Road,,,Alfred,,Stocker,vision_ocr
 1917,Traston Road,,,Joseph H.,,Ginell,vision_ocr
 1917,Traston Road,,,R.,Little Trostan,Hickman,vision_ocr
@@ -18280,7 +18280,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Upton Road,24,,Kicke,J. Le C.,fitter,vision_ocr
 1917,Upton Road,22,,Rendell,Wm.,signalman,vision_ocr
 1917,Upton Road,20,,Mitchell,Thos. Wm. junr.,,vision_ocr
-1917,Upton Road,18,,Cleverly,Frederick,gardnr,vision_ocr
+1917,Upton Road,18,,Cleverly,Frederick,Gardener,vision_ocr
 1917,Upton Road,16,,Francis,Jenkyn,,vision_ocr
 1917,Upton Road,14,,Pobjoy,Chas.,foreman,vision_ocr
 1917,Upton Road,12,,Mitchell,Thomas W. senr.,,vision_ocr
@@ -18435,166 +18435,166 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Victoria Avenue,77,,Berry,Mrs. Lydia,,vision_ocr
 1917,Victoria Avenue,78,,Davies,William,smith,vision_ocr
 1917,Victoria Avenue,79,,Shone,Charles Henry,,vision_ocr
-1917,Victoria Avenue,80,,Counsell William,,,vision_ocr
-1917,Victoria Avenue,81,,Johns Henry,,bricklayer,vision_ocr
+1917,Victoria Avenue,80,,Counsell,William,,vision_ocr
+1917,Victoria Avenue,81,,Johns,Henry,bricklayer,vision_ocr
 1917,Victoria Avenue,,,,,,vision_ocr
 1917,Victoria Avenue,82,,Davies W. H.,,,vision_ocr
-1917,Victoria Avenue,83,,Venn John James,,,vision_ocr
+1917,Victoria Avenue,83,,Venn,John James,,vision_ocr
 1917,Victoria Avenue,84,,Void,,,vision_ocr
-1917,Victoria Avenue,85,,Bray George William,,,vision_ocr
-1917,Victoria Avenue,86,,Alker Jas. G.,,watchmaker,vision_ocr
+1917,Victoria Avenue,85,,Bray,George William,,vision_ocr
+1917,Victoria Avenue,86,,Alker,Jas. G.,watchmaker,vision_ocr
 1917,Victoria Avenue,87,,Bradford Wltr.,,for. mason,vision_ocr
 1917,Victoria Avenue,88,,Mills Allen,,florist,vision_ocr
-1917,Victoria Avenue,89,,Mitchell William Henry,,,vision_ocr
-1917,Victoria Avenue,90,,Coward Edwd.,,gardener,vision_ocr
-1917,Victoria Avenue,91,,Cooper Henry,,engineer,vision_ocr
-1917,Victoria Avenue,92,,Burbidge Frank John,,,vision_ocr
-1917,Victoria Avenue,93,Avenue villa,Rutter Jas.,,,vision_ocr
+1917,Victoria Avenue,89,,Mitchell,William Henry,,vision_ocr
+1917,Victoria Avenue,90,,Coward,Edwd.,gardener,vision_ocr
+1917,Victoria Avenue,91,,Cooper,Henry,engineer,vision_ocr
+1917,Victoria Avenue,92,,Burbidge,Frank John,,vision_ocr
+1917,Victoria Avenue,93,Avenue villa,Rutter,Jas.,,vision_ocr
 1917,Victoria Avenue,,,,,,vision_ocr
 1917,Victoria Avenue,94,,Bannister G. H.,,schoolmsr,vision_ocr
-1917,Victoria Avenue,95,,Shopland Chas.,,builder,vision_ocr
-1917,Victoria Avenue,96,Fernside,Hawkins Edwin,,,vision_ocr
-1917,Victoria Avenue,97,Holt villa,Lane George,,,vision_ocr
+1917,Victoria Avenue,95,,Shopland,Chas.,builder,vision_ocr
+1917,Victoria Avenue,96,Fernside,Hawkins,Edwin,,vision_ocr
+1917,Victoria Avenue,97,Holt villa,Lane,George,,vision_ocr
 1917,Victoria Avenue,,Swiss v,Lane,Percy,sign writer,vision_ocr
-1917,Victoria Avenue,98,,Charles Sidney J.,,,vision_ocr
-1917,Victoria Avenue,99,Marienberg,Parkinson Mrs. Elizabeth,,,vision_ocr
+1917,Victoria Avenue,98,,Charles,Sidney J.,,vision_ocr
+1917,Victoria Avenue,99,Marienberg,Parkinson,Mrs. Elizabeth,,vision_ocr
 1917,Victoria Avenue,100,,Williams C. G.,,registrar of births and deaths,vision_ocr
-1917,Victoria Avenue,101,,Williams Miss S. A.,,,vision_ocr
+1917,Victoria Avenue,101,,Williams,Miss S. A.,,vision_ocr
 1917,Victoria Avenue,,Victoria nursery,Holbrook,W.,,vision_ocr
-1917,Victoria Avenue,102,,Sturley Wm.,,lathrender,vision_ocr
-1917,Victoria Avenue,103,,Morgan Arthur,,painter,vision_ocr
-1917,Victoria Avenue,104,,Shattock Jas.,,ironwkr,vision_ocr
-1917,Victoria Avenue,106,Cowling cottage,Taylor Mrs. Mary,,,vision_ocr
-1917,Victoria Avenue,107,,Jory Geo.,,cab proprietor,vision_ocr
-1917,Victoria Avenue,108,Clyde villa,Williams Robert J.,,roller,vision_ocr
-1917,Victoria Avenue,109,Silverton villa,Fry Robt.,,,vision_ocr
+1917,Victoria Avenue,102,,Sturley,Wm.,lathrender,vision_ocr
+1917,Victoria Avenue,103,,Morgan,Arthur,painter,vision_ocr
+1917,Victoria Avenue,104,,Shattock,Jas.,ironwkr,vision_ocr
+1917,Victoria Avenue,106,Cowling cottage,Taylor,Mrs. Mary,,vision_ocr
+1917,Victoria Avenue,107,,Jory,Geo.,cab proprietor,vision_ocr
+1917,Victoria Avenue,108,Clyde villa,Williams,Robert J.,roller,vision_ocr
+1917,Victoria Avenue,109,Silverton villa,Fry,Robt.,,vision_ocr
 1917,Victoria Avenue,110,,Chesterman W.,,butcher,vision_ocr
-1917,Victoria Avenue,111,,Harvey John,,baker,vision_ocr
-1917,Victoria Avenue,112,,Walliker William,,,vision_ocr
-1917,Victoria Avenue,113,,Penford Mrs. Sarah,,,vision_ocr
-1917,Victoria Avenue,114,,Ferris Arthur Robert,,,vision_ocr
+1917,Victoria Avenue,111,,Harvey,John,baker,vision_ocr
+1917,Victoria Avenue,112,,Walliker,William,,vision_ocr
+1917,Victoria Avenue,113,,Penford,Mrs. Sarah,,vision_ocr
+1917,Victoria Avenue,114,,Ferris,Arthur Robert,,vision_ocr
 1917,Victoria Avenue,120,,Fry A. H.,,insurance agt,vision_ocr
-1917,Victoria Avenue,121,,Thomas Thos.,,traveller,vision_ocr
-1917,Victoria Avenue,122,,Stephenson Harold,,ironworker,vision_ocr
-1917,Victoria Avenue,123,,Dodds Robt. J.,,clerk,vision_ocr
+1917,Victoria Avenue,121,,Thomas,Thos.,traveller,vision_ocr
+1917,Victoria Avenue,122,,Stephenson,Harold,ironworker,vision_ocr
+1917,Victoria Avenue,123,,Dodds,Robt. J.,clerk,vision_ocr
 1917,Victoria Avenue,124,,Stickler Josiah,,,vision_ocr
-1917,Victoria Avenue,125,,Sanders Joseph,,assistant,vision_ocr
-1917,Victoria Avenue,126,,Reeves Hy. John,,printer,vision_ocr
-1917,Victoria Avenue,127,,Chave Mrs. Hannah,,,vision_ocr
-1917,Victoria Avenue,128,,Evans Alfred Aug.,,,vision_ocr
+1917,Victoria Avenue,125,,Sanders,Joseph,assistant,vision_ocr
+1917,Victoria Avenue,126,,Reeves,Hy. John,printer,vision_ocr
+1917,Victoria Avenue,127,,Chave,Mrs. Hannah,,vision_ocr
+1917,Victoria Avenue,128,,Evans,Alfred Aug.,,vision_ocr
 1917,Victoria Avenue,,,Knowlton J.,,taxi proptr,vision_ocr
 1917,Victoria Chambers,,,,,,vision_ocr
 1917,Victoria Crescent,,,,,,vision_ocr
 1917,Victoria Crescent,,,,,,vision_ocr
-1917,Victoria Crescent,1,,Weston Miss Elizabeth,,,vision_ocr
-1917,Victoria Crescent,2,,Jones Mrs. Esther,,,vision_ocr
-1917,Victoria Crescent,3,,Perry Mrs. Elizabeth A. M.,,,vision_ocr
+1917,Victoria Crescent,1,,Weston,Miss Elizabeth,,vision_ocr
+1917,Victoria Crescent,2,,Jones,Mrs. Esther,,vision_ocr
+1917,Victoria Crescent,3,,Perry,Mrs. Elizabeth A. M.,,vision_ocr
 1917,Victoria Crescent,4,,Thomas B. C.,,clerk,vision_ocr
 1917,Victoria Crescent,5,,Purnell Owen Charles,,,vision_ocr
-1917,Victoria Crescent,6,,Holmes Wm.,,postman,vision_ocr
+1917,Victoria Crescent,6,,Holmes,Wm.,postman,vision_ocr
 1917,Victoria Crescent,7,Dursley house,Trace H. R.,,decorator,vision_ocr
 1917,Victoria Crescent,,,,,,vision_ocr
-1917,Victoria Crescent,8,,Coxon Mrs. Helen,,,vision_ocr
-1917,Victoria Crescent,9,,Buxton Mrs. Edith,,,vision_ocr
+1917,Victoria Crescent,8,,Coxon,Mrs. Helen,,vision_ocr
+1917,Victoria Crescent,9,,Buxton,Mrs. Edith,,vision_ocr
 1917,Victoria Crescent,10,,Elsworthy Ephraim,,,vision_ocr
-1917,Victoria Crescent,11,,Astman Mrs. Catherine,,,vision_ocr
-1917,Victoria Crescent,12,,Hill Mrs. F. J.,,,vision_ocr
-1917,Victoria Crescent,13,,Landers Wm.,,sawyer,vision_ocr
-1917,Victoria Crescent,14,,Dyer John Hy.,,cab't mkr,vision_ocr
-1917,Victoria Crescent,15,,Meredith James,,carpenter,vision_ocr
-1917,Victoria Crescent,16,,Lewis Mrs. Hannah,,,vision_ocr
-1917,Victoria Crescent,17,,Gale Joseph,,painter,vision_ocr
-1917,Victoria Crescent,18,,Sully Chas.,,steelworker,vision_ocr
-1917,Victoria Crescent,19,,Evans Henry George,,,vision_ocr
-1917,Victoria Crescent,20,,Maull Albert Edward,,,vision_ocr
-1917,Victoria Crescent,21,,James Wm.,,labourer,vision_ocr
+1917,Victoria Crescent,11,,Astman,Mrs. Catherine,,vision_ocr
+1917,Victoria Crescent,12,,Hill,Mrs. F. J.,,vision_ocr
+1917,Victoria Crescent,13,,Landers,Wm.,sawyer,vision_ocr
+1917,Victoria Crescent,14,,Dyer,John Hy.,cab't mkr,vision_ocr
+1917,Victoria Crescent,15,,Meredith,James,carpenter,vision_ocr
+1917,Victoria Crescent,16,,Lewis,Mrs. Hannah,,vision_ocr
+1917,Victoria Crescent,17,,Gale,Joseph,painter,vision_ocr
+1917,Victoria Crescent,18,,Sully,Chas.,steelworker,vision_ocr
+1917,Victoria Crescent,19,,Evans,Henry George,,vision_ocr
+1917,Victoria Crescent,20,,Maull,Albert Edward,,vision_ocr
+1917,Victoria Crescent,21,,James,Wm.,labourer,vision_ocr
 1917,Victoria Crescent,,,,,,vision_ocr
-1917,Victoria Crescent,22,,Harris Thomas,,labourer,vision_ocr
+1917,Victoria Crescent,22,,Harris,Thomas,labourer,vision_ocr
 1917,Victoria Crescent,23,,Wall T. R.,,sweep,vision_ocr
-1917,Victoria Crescent,24,,Farrow Mrs. E.,,,vision_ocr
+1917,Victoria Crescent,24,,Farrow,Mrs. E.,,vision_ocr
 1917,Victoria Crescent,25,,Barber Ivor,,G.W.R.,vision_ocr
 1917,Victoria Crescent,26,,Strong Francis,,labourer,vision_ocr
-1917,Victoria Crescent,27,,Elliott Albert,,painter,vision_ocr
-1917,Victoria Crescent,28,,Baldwin Ernest J.,,engin'r,vision_ocr
-1917,Victoria Crescent,29,,Miller Mrs. Mary J.,,,vision_ocr
+1917,Victoria Crescent,27,,Elliott,Albert,painter,vision_ocr
+1917,Victoria Crescent,28,,Baldwin,Ernest J.,engin'r,vision_ocr
+1917,Victoria Crescent,29,,Miller,Mrs. Mary J.,,vision_ocr
 1917,Victoria Crescent,,,,,,vision_ocr
-1917,Victoria Crescent,30,,Hovey James,,ruler,vision_ocr
+1917,Victoria Crescent,30,,Hovey,James,ruler,vision_ocr
 1917,Victoria Lane,,,,,,vision_ocr
-1917,Victoria Lane,1,,Edwards William,,,vision_ocr
-1917,Victoria Lane,2,,Blackwell Wm.,,ironwkr,vision_ocr
-1917,Victoria Lane,3,,Thomas William,,,vision_ocr
-1917,Victoria Lane,4,,Senior Albert,,,vision_ocr
+1917,Victoria Lane,1,,Edwards,William,,vision_ocr
+1917,Victoria Lane,2,,Blackwell,Wm.,ironwkr,vision_ocr
+1917,Victoria Lane,3,,Thomas,William,,vision_ocr
+1917,Victoria Lane,4,,Senior,Albert,,vision_ocr
 1917,Victoria Place,,,,,,vision_ocr
 1917,Victoria Place,,,,,,vision_ocr
 1917,Victoria Place,1,,Mullens Cyril,,masseur,vision_ocr
-1917,Victoria Place,2,Solva house,Cooke Thos. Eborall,,,vision_ocr
-1917,Victoria Place,3,,Roe Miss M. G.,,,vision_ocr
-1917,Victoria Place,4,,Harvey Mrs. Jane,,,vision_ocr
-1917,Victoria Place,5,,Johnson Miss A. M.,,choropodist,vision_ocr
-1917,Victoria Place,6,,Smith Mrs. George,,,vision_ocr
+1917,Victoria Place,2,Solva house,Cooke,Thos. Eborall,,vision_ocr
+1917,Victoria Place,3,,Roe,Miss M. G.,,vision_ocr
+1917,Victoria Place,4,,Harvey,Mrs. Jane,,vision_ocr
+1917,Victoria Place,5,,Johnson,Miss A. M.,choropodist,vision_ocr
+1917,Victoria Place,6,,Smith,Mrs. George,,vision_ocr
 1917,Victoria Place,13,,Void,,,vision_ocr
-1917,Victoria Place,14,,Gardner Wm.,,architect,vision_ocr
+1917,Victoria Place,14,,Gardner,Wm.,architect,vision_ocr
 1917,Victoria Place,,,,,,vision_ocr
 1917,Victoria Place,7,,Brewer R. E. W.,,surgeon,vision_ocr
-1917,Victoria Place,8,,Lea Mrs. M. F.,,,vision_ocr
-1917,Victoria Place,9,Hillstowe house,Roberts Miss G. H.,,,vision_ocr
-1917,Victoria Place,10,,Cheetham John,,,vision_ocr
-1917,Victoria Place,11,,Roberts Mrs. E. T.,,,vision_ocr
-1917,Victoria Place,12,,Donald Rev. David,,,vision_ocr
+1917,Victoria Place,8,,Lea,Mrs. M. F.,,vision_ocr
+1917,Victoria Place,9,Hillstowe house,Roberts,Miss G. H.,,vision_ocr
+1917,Victoria Place,10,,Cheetham,John,,vision_ocr
+1917,Victoria Place,11,,Roberts,Mrs. E. T.,,vision_ocr
+1917,Victoria Place,12,,Donald,Rev. David,,vision_ocr
 1917,Victoria Road,,,,,,vision_ocr
 1917,Victoria Road,,,,,,vision_ocr
 1917,Victoria Square,,,,,,vision_ocr
-1917,Victoria Square,5,,Connors Mrs. Louisa,,,vision_ocr
-1917,Victoria Square,6,,Knight Thomas,,,vision_ocr
-1917,Victoria Square,,,Smith Thomas,,,vision_ocr
+1917,Victoria Square,5,,Connors,Mrs. Louisa,,vision_ocr
+1917,Victoria Square,6,,Knight,Thomas,,vision_ocr
+1917,Victoria Square,,,Smith,Thomas,,vision_ocr
 1917,Victoria Square,7,,Foster R. A.,,tram condctr,vision_ocr
-1917,Victoria Square,8,,Knight Henry S.,,labourer,vision_ocr
-1917,Victoria Square,9,,Mento Joseph,,labourer,vision_ocr
-1917,Victoria Square,10,,Bowsher Henry,,platelyr,vision_ocr
-1917,Victoria Square,11,,Long Mrs. Margaret,,,vision_ocr
-1917,Victoria Square,12,,Woodruff Thomas,,,vision_ocr
+1917,Victoria Square,8,,Knight,Henry S.,labourer,vision_ocr
+1917,Victoria Square,9,,Mento,Joseph,labourer,vision_ocr
+1917,Victoria Square,10,,Bowsher,Henry,platelyr,vision_ocr
+1917,Victoria Square,11,,Long,Mrs. Margaret,,vision_ocr
+1917,Victoria Square,12,,Woodruff,Thomas,,vision_ocr
 1917,Victoria Square,13,,Woodruff Jarvis,,,vision_ocr
-1917,Victoria Square,14,,Goulding Jas.,,lamplighter,vision_ocr
+1917,Victoria Square,14,,Goulding,Jas.,lamplighter,vision_ocr
 1917,Vine Place,,,,,,vision_ocr
-1917,Vine Place,1,,Jones Wm. Hy.,,labourer,vision_ocr
-1917,Vine Place,2,,Thomas Arthur,,,vision_ocr
-1917,Vine Place,3,,Price George,,gardener,vision_ocr
-1917,Vine Place,4,,Wood William,,labourer,vision_ocr
-1917,Vine Place,5,,Mitchell Fredk.,,bricklyr,vision_ocr
+1917,Vine Place,1,,Jones,Wm. Hy.,labourer,vision_ocr
+1917,Vine Place,2,,Thomas,Arthur,,vision_ocr
+1917,Vine Place,3,,Price,George,gardener,vision_ocr
+1917,Vine Place,4,,Wood,William,labourer,vision_ocr
+1917,Vine Place,5,,Mitchell,Fredk.,bricklyr,vision_ocr
 1917,Vivian Road,,,,,,vision_ocr
 1917,Vivian Road,,,,,,vision_ocr
-1917,Vivian Road,1,,Lazaretti Mrs. Mary Ann,,,vision_ocr
+1917,Vivian Road,1,,Lazaretti,Mrs. Mary Ann,,vision_ocr
 1917,Vivian Road,3,,Wells Howard,,ironwkr,vision_ocr
 1917,Vivian Road,5,,Maiden Francis,,ironwkr,vision_ocr
-1917,Vivian Road,7,,Rogers Geo.,,watchman,vision_ocr
-1917,Vivian Road,9,,Bradey Chas.,,labourer,vision_ocr
-1917,Vivian Road,11,,Percy Thomas,,labourer,vision_ocr
-1917,Vivian Road,13,,Allen George,,ironworker,vision_ocr
-1917,Vivian Road,15,,Simmonds Jos.,,do,vision_ocr
-1917,Vivian Road,17,,Lavell Thos.,,do,vision_ocr
-1917,Vivian Road,19,,Clarke Saml.,,do,vision_ocr
-1917,Vivian Road,21,,Goodwin Chas.,,do,vision_ocr
+1917,Vivian Road,7,,Rogers,Geo.,watchman,vision_ocr
+1917,Vivian Road,9,,Bradey,Chas.,labourer,vision_ocr
+1917,Vivian Road,11,,Percy,Thomas,labourer,vision_ocr
+1917,Vivian Road,13,,Allen,George,ironworker,vision_ocr
+1917,Vivian Road,15,,Simmonds,Jos.,do,vision_ocr
+1917,Vivian Road,17,,Lavell,Thos.,do,vision_ocr
+1917,Vivian Road,19,,Clarke,Saml.,do,vision_ocr
+1917,Vivian Road,21,,Goodwin,Chas.,do,vision_ocr
 1917,Vivian Road,23,,Ford Morris,,labourer,vision_ocr
 1917,Vivian Road,25,,Reardon Jere.,,ironworker,vision_ocr
-1917,Vivian Road,27,,Parker James,,do,vision_ocr
-1917,Vivian Road,29,,James Wm. John,,do,vision_ocr
-1917,Vivian Road,31,,Whittaker Thos.,,do,vision_ocr
-1917,Vivian Road,33,,Peters Alfred,,ironworker,vision_ocr
-1917,Vivian Road,35,,Barton Richard,,do,vision_ocr
-1917,Vivian Road,37,,Redmond Mrs. Louisa R.,,,vision_ocr
-1917,Vivian Road,39,,Griffiths Mrs. Patience,,,vision_ocr
-1917,Vivian Road,41,,Worner John,,fireman,vision_ocr
-1917,Vivian Road,43,,Long Alfred,,agent,vision_ocr
-1917,Vivian Road,45,,Goddard John,,carpenter,vision_ocr
+1917,Vivian Road,27,,Parker,James,do,vision_ocr
+1917,Vivian Road,29,,James,Wm. John,do,vision_ocr
+1917,Vivian Road,31,,Whittaker,Thos.,do,vision_ocr
+1917,Vivian Road,33,,Peters,Alfred,ironworker,vision_ocr
+1917,Vivian Road,35,,Barton,Richard,do,vision_ocr
+1917,Vivian Road,37,,Redmond,Mrs. Louisa R.,,vision_ocr
+1917,Vivian Road,39,,Griffiths,Mrs. Patience,,vision_ocr
+1917,Vivian Road,41,,Worner,John,fireman,vision_ocr
+1917,Vivian Road,43,,Long,Alfred,agent,vision_ocr
+1917,Vivian Road,45,,Goddard,John,carpenter,vision_ocr
 1917,Vivian Road,47,,Freeman W. A.,,,vision_ocr
-1917,Vivian Road,49,,Rogers Mrs. Sarah J.,,,vision_ocr
-1917,Vivian Road,51,,Wheaton Alfred C. E.,,chemical worker,vision_ocr
-1917,Vivian Road,53,,Lord Richard,,carpenter,vision_ocr
+1917,Vivian Road,49,,Rogers,Mrs. Sarah J.,,vision_ocr
+1917,Vivian Road,51,,Wheaton,Alfred C. E.,chemical worker,vision_ocr
+1917,Vivian Road,53,,Lord,Richard,carpenter,vision_ocr
 1917,Vivian Road,55,,Bates Edmund,,foreman,vision_ocr
 1917,Vivian Road,57,,Barker J. C.,,,vision_ocr
 1917,Vivian Road,,,,,,vision_ocr
-1917,Vivian Road,58,,Brown Wm. Hy.,,labourer,vision_ocr
-1917,Vivian Road,56,,Routley John,,,vision_ocr
+1917,Vivian Road,58,,Brown,Wm. Hy.,labourer,vision_ocr
+1917,Vivian Road,56,,Routley,John,,vision_ocr
 1917,Vivian Road,54,,Davey L.,,general shop,vision_ocr
 1917,Vivian Road,,,,,,vision_ocr
 1917,Vivian Road,52,,Little,William,,vision_ocr
@@ -19280,7 +19280,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Wheeler Street,,,,,,vision_ocr
 1917,Wheeler Street,18,,Chas.,,Morris,vision_ocr
 1917,Wheeler Street,19,,Henry,,Jennings,vision_ocr
-1917,Wheeler Street,20,,Edward John,,Latham,vision_ocr
+1917,Wheeler Street,20,,Edward,John,Latham,vision_ocr
 1917,Wheeler Street,21,,Mrs. Annie,,Bowsher,vision_ocr
 1917,Wheeler Street,22,,David,,Morgan,vision_ocr
 1917,Wheeler Street,23,,Stephen,,Monks,vision_ocr
@@ -19392,7 +19392,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1917,Williams Street,30,,J. H.,,Flynn,vision_ocr
 1917,Williams Street,,,,,,vision_ocr
 1917,Williams Street,31,,Richard,,White,vision_ocr
-1917,Williams Street,32,,Ernest John,,Panting,vision_ocr
+1917,Williams Street,32,,Ernest,John,Panting,vision_ocr
 1917,Williams Street,33,,Wm.,,Hayman,vision_ocr
 1917,Williams Street,34,,John,,Harris,vision_ocr
 1917,Williams Street,35,,Olafson,,Collier,vision_ocr

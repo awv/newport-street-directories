@@ -38,9 +38,21 @@ REPLACEMENTS = [
     (re.compile(r"\bins['’]nce\s+agent\b", re.I), "Insurance Agent"),
     (re.compile(r"\brly\.?\s+porter\b", re.I), "Railway Porter"),
     (re.compile(r"\brlwy['’]?man\b", re.I), "Railwayman"),
-    (re.compile(r"\bgard['’]nr\b", re.I), "Gardener"),
+    (re.compile(r"\bgard['’]?n[e']?r\b", re.I), "Gardener"),
+    (re.compile(r"\bcoal\s+tipr\.?(?=\b|\s|$)", re.I), "Coal Tipper"),
     (re.compile(r"\bB\.?\s*&\s*M\.?\s*R\.?(?=\b|\s|$)", re.I), "Brecon & Merthyr Railway"),
 ]
+
+PACKED_FIRM_RE = re.compile(
+    r"(&|\band\b|\bco\.?\b|\bltd\.?\b|\bbros\.?\b|\bson\b|\bsons\b|\bcompany\b|\bsociety\b|\bassociation\b|\bbank\b|\bworks\b|\bschool\b|\bchurch\b|\bchapel\b|\bhotel\b|\binn\b|\btavern\b|\bstores\b|\bhall\b|\bclub\b|\bdepot\b|\boffice\b|\bhere is\b|\bapartments\b|\bbuilding\b|\bhouse\b|\bcottage\b|\bvilla\b)",
+    re.I,
+)
+PACKED_NAME_RE = re.compile(
+    r"^([A-Z][a-z'\-]+)\s+("
+    r"(?:Mrs\.?|Mr\.?|Miss|Rev\.?|Dr\.?)\s+.*|"
+    r"(?:William|Wm\.?|John|Jno\.?|Thomas|Thos\.?|George|Geo\.?|Charles|Chas\.?|James|Jas\.?|Henry|Hy\.?|Edward|Edwd\.?|Richard|Richd\.?|Robert|Robt\.?|Joseph|Jos\.?|Samuel|Saml\.?|Benjamin|Benj\.?|Frederick|Fredk\.?|Alfred|Arthur|Albert|Herbert|Walter|David|Daniel|Stephen|Ernest|Frank|Harry|Edwin|Hubert|Reginald|Sidney|Harold|Percy|Stanley|Evan|Morgan|Clement|Elizabeth|Mary|Ann|Sarah|Jane|Susan|Caroline|Margaret|Ellen|Hannah|Harriet|Alice|Emma|Louisa|Eliza|Clara|Emily|Charlotte|Catherine|Lena|Minnie|Matilda|Nancy|Amelia|Thirza|Jemima)\b.*"
+    r")$"
+)
 
 
 def fix_trade(trade: str) -> str:
@@ -77,10 +89,24 @@ def process_csv(path: Path) -> int:
             r["trade"] = parts[1].strip()
             row_changed = True
 
-        # Fix Albert Terrace No. 3 (Engineers' Arms) and No. 24 (Camelly Cottage / Camley House)
+        # Split packed "Surname Forename" / "Surname Mrs. Forename" when forename is empty
+        if not fore and sur and not PACKED_FIRM_RE.search(sur):
+            m_pn = PACKED_NAME_RE.match(sur)
+            if m_pn:
+                r["surname"] = m_pn.group(1).strip()
+                r["forename"] = m_pn.group(2).strip()
+                sur = r["surname"]
+                fore = r["forename"]
+                row_changed = True
+
+        # Fix Albert Terrace No. 3 (Engineers' Arms), No. 19 (1910), and No. 24 (Camelly Cottage / Camley House)
         if r.get("street") == "Albert Terrace":
             hn = (r.get("house_number") or "").strip()
             yr = (r.get("year") or "").strip()
+            if hn == "19" and yr == "1910" and "B. & M.R." in fore:
+                r["forename"] = fore.replace("B. & M.R.", "").strip()
+                r["trade"] = "Brecon & Merthyr Railway"
+                row_changed = True
             if hn == "3":
                 if yr in {"1895", "1904", "1908", "1910", "1933"} and "engineer" in tr.lower():
                     r["building_name"] = "Engineers' Arms"

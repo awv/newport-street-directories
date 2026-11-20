@@ -47,7 +47,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Aberthaw Road,36,,Davies,Thos.,munition wkr,newportpast_html
 1946,Aberthaw Road,37,,Lewis,Wm.,"labourer, The Wayside",newportpast_html
 1946,Aberthaw Road,38,,Constantakes,Marina,Springdale t,newportpast_html
-1946,Aberthaw Road,39,,"Lenderyou John P.,electn",,,newportpast_html
+1946,Aberthaw Road,39,,Lenderyou,"John P.,electn",,newportpast_html
 1946,Aberthaw Road,40,,Thompson,David,,newportpast_html
 1946,Aberthaw Road,41,,Brodie,J. D.,clerk,newportpast_html
 1946,Aberthaw Road,42,,Price,Daniel,carpenter,newportpast_html
@@ -269,12 +269,12 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Ailesbury Street,39,,Thomas,Wm. M.,labourer,newportpast_html
 1946,Ailesbury Street,41,,Cane,Fredk.,labourer,newportpast_html
 1946,Ailesbury Street,43,,Bane,Wm. Jno.,labr.,newportpast_html
-1946,Ailesbury Street,45,,Thomas Geo. Hy. labr,,,newportpast_html
+1946,Ailesbury Street,45,,Thomas,Geo. Hy. labr,,newportpast_html
 1946,Ailesbury Street,47,,Lee,Arthur,van driver,newportpast_html
 1946,Ailesbury Street,49,,Hallford,Wm.,ironwkr,newportpast_html
 1946,Ailesbury Street,51,,Rossiter,Mrs. Rose,,newportpast_html
 1946,Ailesbury Street,53,,Windsor,Ivor,labourer,newportpast_html
-1946,Ailesbury Street,55,,Pumford Wm. Hy. A. navvy,,,newportpast_html
+1946,Ailesbury Street,55,,Pumford,Wm. Hy. A. navvy,,newportpast_html
 1946,Ailesbury Street,57,,Reynolds,Harold,lorry driver,newportpast_html
 1946,Ailesbury Street,59,,Miles,Sydney C.,G.W.R.,newportpast_html
 1946,Ailesbury Street,61,,Hughes,Hugh,tinplate worker,newportpast_html
@@ -296,7 +296,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Ailesbury Street,30,,Cody,Wm.,seaman,newportpast_html
 1946,Ailesbury Street,28,,Evans,William,labourer,newportpast_html
 1946,Ailesbury Street,26,,Grace,Thomas,,newportpast_html
-1946,Ailesbury Street,24,,"Toomer Geo. E.,f'nceman",,,newportpast_html
+1946,Ailesbury Street,24,,Toomer,"Geo. E.,f'nceman",,newportpast_html
 1946,Ailesbury Street,22,,Toms,Wm.,labourer,newportpast_html
 1946,Ailesbury Street,20,,Wilks,Fred.,general shop,newportpast_html
 1946,Ailesbury Street,18,,Wilkins,George,mason,newportpast_html
@@ -476,7 +476,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Albert Avenue,92,,Poole,Alfred J.,comp.,newportpast_html
 1946,Albert Avenue,93,,Dingle,Alfred C.,machnst,newportpast_html
 1946,Albert Avenue,94,,Avery,James H.,coachbld,newportpast_html
-1946,Albert Avenue,95,,"Davies Henry J.,storekpr",,,newportpast_html
+1946,Albert Avenue,95,,Davies,"Henry J.,storekpr",,newportpast_html
 1946,Albert Avenue,96,,Coote,Mrs.,,newportpast_html
 1946,Albert Avenue,98,,Stroud,Mrs. M.,,newportpast_html
 1946,Albert Avenue,99,,Mitchel,Fred B.,labourer,newportpast_html
@@ -507,7 +507,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Albert Terrace,14,,Isaac,John,,newportpast_html
 1946,Albert Terrace,15,,Lewis,Mrs. Gertrude,,newportpast_html
 1946,Albert Terrace,16,,Johnson,Harold H.,G.W.R.,newportpast_html
-1946,Albert Terrace,17,,Hathway Harry mechanic,,,newportpast_html
+1946,Albert Terrace,17,,Hathway,Harry mechanic,,newportpast_html
 1946,Albert Terrace,18,,Davies,Mrs. E. L.,,newportpast_html
 1946,Albert Terrace,19,,Powell,Wm.,G.W.R.,newportpast_html
 1946,Albert Terrace,20,,Hopkins,C. H.,G.W.R.,newportpast_html
@@ -552,7 +552,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Albion Street,33,,Dowding,James,steelwkr,newportpast_html
 1946,Albion Street,,,Houghton Bros.,,offices &yrd,newportpast_html
 1946,Alderney Street,,,Phillips,Wm. Richd.,machst.,newportpast_html
-1946,Alderney Street,,,Jenkins David manager (sweets department),,,newportpast_html
+1946,Alderney Street,,,Jenkins,David manager (sweets department),,newportpast_html
 1946,Alderney Street,,,"Lovell G. F. & Co., Ltd.",,canteen,newportpast_html
 1946,Alderney Street,,,McGowan John,,Sonoma,newportpast_html
 1946,Alderney Street,,,Cowell,Ernest,"manager, Marshall villa",newportpast_html
@@ -753,7 +753,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Alexandra Road,,,here is Pottery-terrace.,,,newportpast_html
 1946,Alexandra Road,,,ST. STEPHEN'S CHURCH,,,newportpast_html
 1946,Alexandra Road,,,here is Adeline-street.,,,newportpast_html
-1946,Alexandra Road,40,,Bartlett William J. grocer,,,newportpast_html
+1946,Alexandra Road,40,,Bartlett,William J. grocer,,newportpast_html
 1946,Alexandra Road,38,,Fudge,Mrs. Beatrice,,newportpast_html
 1946,Alexandra Road,36,,Binding,William,,newportpast_html
 1946,Alexandra Road,,,Binding,E. G.,dairy,newportpast_html
@@ -861,7 +861,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Allt-yr-yn Avenue,33,,Birt,Fred,Serena,newportpast_html
 1946,Allt-yr-yn Avenue,35,,Daniels,Fredk. Hugh,Troed-y-Bryn,newportpast_html
 1946,Allt-yr-yn Avenue,37,,Matthews,N.,"yeast mcht, Forest House",newportpast_html
-1946,Allt-yr-yn Avenue,39,,Monkley Wm. E .,,Elmley,newportpast_html
+1946,Allt-yr-yn Avenue,39,,Monkley,Wm. E .,Elmley,newportpast_html
 1946,Allt-yr-yn Avenue,41,,Pritchard,Ernest J.,Norcliffe,newportpast_html
 1946,Allt-yr-yn Avenue,43,,Rees,Stephen Morris,school teacher,newportpast_html
 1946,Allt-yr-yn Avenue,45,,King,H. N.,Ridgeway,newportpast_html
@@ -1068,7 +1068,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Allt-yr-yn Road,83,,Morgan,Thos. J. T. L.,Little Nook,newportpast_html
 1946,Allt-yr-yn Road,85,,Marfell,James H.,"civil servant, Cwmbychan",newportpast_html
 1946,Allt-yr-yn Road,87,,Whitcutt,Frank B.,"school teacher, Rockville",newportpast_html
-1946,Allt-yr-yn Road,89,,Woods John W .,,Ridgedene,newportpast_html
+1946,Allt-yr-yn Road,89,,Woods,John W .,Ridgedene,newportpast_html
 1946,Allt-yr-yn Road,91,,Evans,Miss Beatrice E. M. C.,Galen Crest,newportpast_html
 1946,Allt-yr-yn Road,93,,Payne A. G. E .,,"A.R.P. warden, Awelfryn",newportpast_html
 1946,Allt-yr-yn Road,95,,Hopkins,A. J.,"clerk, The Mount",newportpast_html
@@ -1278,7 +1278,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Alma Street,118,,Davies,Thomas,blrmkr,newportpast_html
 1946,Alma Street,116,,Parry,Geo. H.,boilermkr,newportpast_html
 1946,Alma Street,114,,Parsons,Ernest J.,G.W.R.,newportpast_html
-1946,Alma Street,,,Mogford Richard J. warehouseman,,,newportpast_html
+1946,Alma Street,,,Mogford,Richard J. warehouseman,,newportpast_html
 1946,Alma Street,112,,Street,,James F.,newportpast_html
 1946,Alma Street,110,,Gibbs,Mrs. L.,,newportpast_html
 1946,Alma Street,108,,Smith,James T.,fitter,newportpast_html
@@ -1302,7 +1302,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Alma Street,74,,Wright,Fredk.,,newportpast_html
 1946,Alma Street,72,,Goverd,Mrs. Rose E.,,newportpast_html
 1946,Alma Street,70,,Keating,John,trimmer,newportpast_html
-1946,Alma Street,68,,Davies Chas. E. guard,,,newportpast_html
+1946,Alma Street,68,,Davies,Chas. E. guard,,newportpast_html
 1946,Alma Street,66,,Griffiths,Miss Sarah Ann,dressmaker,newportpast_html
 1946,Alma Street,64,,Chivers,Mrs. Annie R.,,newportpast_html
 1946,Alma Street,62,,Pratt,Wm.,general shop,newportpast_html
@@ -1313,12 +1313,12 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Alma Street,54,,Williams,Thos. R.,fireman,newportpast_html
 1946,Alma Street,52,,Bryant,Walter C.,G.W.R.,newportpast_html
 1946,Alma Street,50,,Morgan,Harold,carpntr,newportpast_html
-1946,Alma Street,48,,Hurley Jas. grinder,,,newportpast_html
+1946,Alma Street,48,,Hurley,Jas. grinder,,newportpast_html
 1946,Alma Street,46,,Jones,David,labourer,newportpast_html
 1946,Alma Street,44,,Richardson,L. W.,carpenter,newportpast_html
 1946,Alma Street,42,,Wills,John R.,steelwkr,newportpast_html
 1946,Alma Street,40,,Channing,John Hy.,labr,newportpast_html
-1946,Alma Street,38,,Price Geo. labourer,,,newportpast_html
+1946,Alma Street,38,,Price,Geo. labourer,,newportpast_html
 1946,Alma Street,36,,Rich,John A.,,newportpast_html
 1946,Alma Street,34,,Bennetts,Mrs. Gladys,shop,newportpast_html
 1946,Alma Street,32,,Central,Ward Labour Party Dance Hall,,newportpast_html
@@ -1392,7 +1392,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Alway Crescent,,,here is Alway close,,,newportpast_html
 1946,Alway Crescent,36,,Edwards,Jas. A.,gun insp.,newportpast_html
 1946,Alway Crescent,36a,,O'Neil Joseph,,E. baker,newportpast_html
-1946,Alway Crescent,34,,"Wellbrook Wm.,mch setter",,,newportpast_html
+1946,Alway Crescent,34,,Wellbrook,"Wm.,mch setter",,newportpast_html
 1946,Alway Crescent,32,,Poole,Wm. John,moulder,newportpast_html
 1946,Alway Crescent,30,,Thomas,Ivor G.,barman,newportpast_html
 1946,Alway Crescent,30a,,Ingram,Mrs. E.,,newportpast_html
@@ -1435,7 +1435,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Annesley Road,23,,Paget,Wm.,"striker, G.W.R.",newportpast_html
 1946,Annesley Road,24,,Camfield,Fredk. G.,agent,newportpast_html
 1946,Annesley Road,25,,Hockey Misses M. & M.,,,newportpast_html
-1946,Annesley Road,26,,Harman Alfred G. carptr,,,newportpast_html
+1946,Annesley Road,26,,Harman,Alfred G. carptr,,newportpast_html
 1946,Annesley Road,27,,Head,Jonathan,chemical worker,newportpast_html
 1946,Annesley Road,28,,Hughes,John,,newportpast_html
 1946,Annesley Road,29,,Stanaway,Mrs.,,newportpast_html
@@ -1572,7 +1572,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Argyle Street,16,,Prior,Wilfred H.,haulier,newportpast_html
 1946,Argyle Street,14,,Beasey,Robert T.,seaman,newportpast_html
 1946,Argyle Street,12,,Evans,Geo. F.,steelwkr,newportpast_html
-1946,Argyle Street,10,,Workman Hy. G.W.R.,,,newportpast_html
+1946,Argyle Street,10,,Workman,Hy. G.W.R.,,newportpast_html
 1946,Argyle Street,8,,Dix,Jno. Hy.,G.W.R.,newportpast_html
 1946,Argyle Street,6,,Rumsey,Geo. H.,labourer,newportpast_html
 1946,Argyle Street,4,,Sully,F.,,newportpast_html
@@ -1606,10 +1606,10 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Arthur Street,25,,Wright,O. Robt.,welder,newportpast_html
 1946,Arthur Street,,,BELLE VUE CENTRAL SCHOOL,,,newportpast_html
 1946,Arthur Street,26,,Preece,Mrs. Alice M.,,newportpast_html
-1946,Arthur Street,27,,Gilbert Wm. J. A. plmbr,,,newportpast_html
+1946,Arthur Street,27,,Gilbert,Wm. J. A. plmbr,,newportpast_html
 1946,Arthur Street,28,,Seer,Arthur John,trimmr,newportpast_html
 1946,Arthur Street,29,,Homfray,Arthur V.,roller,newportpast_html
-1946,Arthur Street,30,,Wainwright Albert st wkr,,,newportpast_html
+1946,Arthur Street,30,,Wainwright,Albert st wkr,,newportpast_html
 1946,Arthur Street,31,,McPhillips Mrs. Julia,,,newportpast_html
 1946,Arthur Street,32,,Jones,Horace,baker,newportpast_html
 1946,Arthur Street,33,,Salter,L.,postman,newportpast_html
@@ -1829,7 +1829,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Bailey Street,16,,Knowles,Mrs. Edith,,newportpast_html
 1946,Bailey Street,17,,Clarke,Mrs Elizabeth,,newportpast_html
 1946,Bailey Street,18,,Pritchard,A.,fitters hlpr,newportpast_html
-1946,Bailey Street,19,,Moore John H.. decorator,,,newportpast_html
+1946,Bailey Street,19,,Moore,John H.. decorator,,newportpast_html
 1946,Bailey Street,20,,Thomas,F. G.,labourer,newportpast_html
 1946,Bailey Street,21,,Hodges,E.,warehouseman,newportpast_html
 1946,Bailey Street,22,,Meese,Mrs. R.,,newportpast_html
@@ -1845,7 +1845,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Bailey Street,28,,Ackerman,Reg.,labourer,newportpast_html
 1946,Bailey Street,29,,Webb,Geo.,labourer,newportpast_html
 1946,Bailey Street,30,,Galsworthy,Walter,G.W.R.,newportpast_html
-1946,Bailey Street,31,,Merchant Edward lbr,,,newportpast_html
+1946,Bailey Street,31,,Merchant,Edward lbr,,newportpast_html
 1946,Bailey Street,32,,Fletcher -,,,newportpast_html
 1946,Bailey Street,33,,Brooks,Chas. A.,,newportpast_html
 1946,Bailey Street,34,,Jobbins,Arthur,wharfwkr,newportpast_html
@@ -1899,7 +1899,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Baldwin Street,73,,Price,Alex G.,lorry dvr,newportpast_html
 1946,Baldwin Street,75,,Davies,Henry J.,dck wkr,newportpast_html
 1946,Baldwin Street,77,,Maggs,George,docker,newportpast_html
-1946,Baldwin Street,79,,Galloway Chas.. labourer,,,newportpast_html
+1946,Baldwin Street,79,,Galloway,Chas.. labourer,,newportpast_html
 1946,Baldwin Street,81,,Roberts,Mrs. Laura,,newportpast_html
 1946,Baldwin Street,83,,King,Arthur C.,bricklyr,newportpast_html
 1946,Baldwin Street,,,King,Ernest Wm.,foreman bricklayer,newportpast_html
@@ -1956,7 +1956,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Baldwin Street,20,,Sheppard,Mrs. Jessie,,newportpast_html
 1946,Baldwin Street,18,,Menozzi,Antonio,fireman,newportpast_html
 1946,Baldwin Street,16,,Tucker,Thos.,dock labr,newportpast_html
-1946,Baldwin Street,14,,Holland Wm. A. printer,,,newportpast_html
+1946,Baldwin Street,14,,Holland,Wm. A. printer,,newportpast_html
 1946,Baldwin Street,12,,Pitman,Geo. C.,platelayer,newportpast_html
 1946,Baldwin Street,10,,Card,Chas.,docker,newportpast_html
 1946,Baldwin Street,8,,Coster,Henry,dk labr,newportpast_html
@@ -2031,7 +2031,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Balmoral Road,80,,Willis,Noel,G.P.O.,newportpast_html
 1946,Balmoral Road,78,,Jones,J. R.,"furnaceman, Rosefield",newportpast_html
 1946,Balmoral Road,76,,Geard,Ronald,bus condr,newportpast_html
-1946,Balmoral Road,74,,Dowden Geo. ironworker,,,newportpast_html
+1946,Balmoral Road,74,,Dowden,Geo. ironworker,,newportpast_html
 1946,Balmoral Road,72,,Bowcher,Stan.,"labourer, Brondeg",newportpast_html
 1946,Balmoral Road,70,,Hewitt,Rowland V.,stlwkr,newportpast_html
 1946,Balmoral Road,68,,Chicken,Thos. W.,elec. engineer,newportpast_html
@@ -2141,7 +2141,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Barnard Street,3,,Morgan,James R.,stlwkr,newportpast_html
 1946,Barnard Street,4,,Bennett,Herbt.,ironwkr,newportpast_html
 1946,Barnard Street,5,,Barrett,Philip,labourer,newportpast_html
-1946,Barnard Street,6,,Price Albert E. labourer,,,newportpast_html
+1946,Barnard Street,6,,Price,Albert E. labourer,,newportpast_html
 1946,Barnard Street,7,,Davies,Percy G.,guard,newportpast_html
 1946,Barnard Street,8,,Giddy,F. E.,plumber,newportpast_html
 1946,Barnard Street,9,,Pearce,Edward,"warehouseman, A.R.P. warden",newportpast_html
@@ -2328,7 +2328,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Bassalleg Road,38,,Davis,Mrs. Mary A.,West Park house,newportpast_html
 1946,Bassalleg Road,40,,Haines,S. A.,"Usk view, A.R.P. warden",newportpast_html
 1946,Bassalleg Road,42,,Tongue,Wm.,Brookdale,newportpast_html
-1946,Bassalleg Road,44,,Parish Chas.; manager,,Gatchel,newportpast_html
+1946,Bassalleg Road,44,,Parish,Chas.; manager,Gatchel,newportpast_html
 1946,Bassalleg Road,46,,Graves,J. A.,engineer,newportpast_html
 1946,Bassalleg Road,,,Cemetery,Lodge,Arnold S.,newportpast_html
 1946,Bassalleg Road,,,THE CEMETERY,,,newportpast_html
@@ -2381,7 +2381,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Bassalleg Road,6,,Hellier,Sidney,clerk,newportpast_html
 1946,Bassalleg Road,5,,Woods,J.,electrician,newportpast_html
 1946,Bassalleg Road,4,,Ashton,Harold,electrician and plumber,newportpast_html
-1946,Bassalleg Road,3,,"Parker Edward,",,,newportpast_html
+1946,Bassalleg Road,3,,Parker,"Edward,",,newportpast_html
 1946,Bassalleg Road,2,,Cook,Joseph,fitter,newportpast_html
 1946,Bassalleg Road,1,,Matthews,Arthur,lry dvr,newportpast_html
 1946,Bassalleg Road,,,Young,Mrs. F. M.,Tredegar Fach,newportpast_html
@@ -2443,8 +2443,8 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Bassalleg Road,22,,Gwilliam,L. D.,motor me,newportpast_html
 1946,Bassalleg Road,21,,Williams,Llewellyn,ins. agent,newportpast_html
 1946,Bassalleg Road,20,,Richards,Leslie,G.W.R.,newportpast_html
-1946,Bassalleg Road,19,,Lewis Albert E. cranedvr,,,newportpast_html
-1946,Bassalleg Road,18,,Clarke Geo.W.,,civil servnt,newportpast_html
+1946,Bassalleg Road,19,,Lewis,Albert E. cranedvr,,newportpast_html
+1946,Bassalleg Road,18,,Clarke,Geo.W.,civil servnt,newportpast_html
 1946,Bassalleg Road,17,,Ferguson,John,chief stwd,newportpast_html
 1946,Bassalleg Road,16,,Hackett,Jno. Hy.,engnr,newportpast_html
 1946,Bassalleg Road,15,,Crawley,Henry P.,mangr Provident Co.,newportpast_html
@@ -2542,7 +2542,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Bath Street,2,,Lewis,Wm.,ironworker,newportpast_html
 1946,Bath Street,3,,Norville,Mrs. Kate,,newportpast_html
 1946,Bath Street,4,,Hookway,Fred C.,transport manager,newportpast_html
-1946,Bath Street,5,,Elliott Wm. bricklayer,,,newportpast_html
+1946,Bath Street,5,,Elliott,Wm. bricklayer,,newportpast_html
 1946,Bath Street,6,,"NEWPORT STEAM LAUNDRY CO., LTD.",,(late George Greenland and Sons). Tel. 2416.,newportpast_html
 1946,Bath Street,7,,Llewellyn,Wm. Jno.,fitter,newportpast_html
 1946,Bath Street,8,,Seddon,Henry,painter,newportpast_html
@@ -2553,8 +2553,8 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Bath Street,13,,Chubb,Reginald,labourer,newportpast_html
 1946,Bath Street,,,here is Usk-street.,,,newportpast_html
 1946,Bath Street,14,,Cole,John H.,gardener,newportpast_html
-1946,Bath Street,15,,Luxton Wm. eng. driver,,,newportpast_html
-1946,Bath Street,16,,Clague Edwd. labourer,,,newportpast_html
+1946,Bath Street,15,,Luxton,Wm. eng. driver,,newportpast_html
+1946,Bath Street,16,,Clague,Edwd. labourer,,newportpast_html
 1946,Bath Street,17,,Edmunds,George,iromykr,newportpast_html
 1946,Bath Street,18,,White,Mrs. Mary Ann,,newportpast_html
 1946,Beaufort Place,,,Off Beaufort-road,,,newportpast_html
@@ -2667,7 +2667,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Bedford Road,44,,Pearce,Victor G.,elec wldr,newportpast_html
 1946,Bedford Road,42,,Bowden,Mrs. Caroline,,newportpast_html
 1946,Bedford Road,40,,Anstee,Mrs. Laura,,newportpast_html
-1946,Bedford Road,38,,Davies Wm. Be van,,,newportpast_html
+1946,Bedford Road,38,,Davies,Wm. Be van,,newportpast_html
 1946,Bedford Road,36,,Attewell,Thos H.,,newportpast_html
 1946,Bedford Road,34,,Porter,Eddison,fitter,newportpast_html
 1946,Bedford Road,32,,James,Percy,"P.c., Clifford house",newportpast_html
@@ -2727,7 +2727,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Beechcroft Road,28,,Phelps,Ernest H.,"marine engineer, Gwenda",newportpast_html
 1946,Beechcroft Road,26,,Hobbs,Chas. T.,"chief stwd, Nasha Doma",newportpast_html
 1946,Beechcroft Road,24,,Barnes,Ernest G.,"moulder, Branksome",newportpast_html
-1946,Beechcroft Road,22,,Collins Albert R. clerk,,St. Margarets,newportpast_html
+1946,Beechcroft Road,22,,Collins,Albert R. clerk,St. Margarets,newportpast_html
 1946,Beechcroft Road,20,,Burton,Fredk. S.,"clerk, Craig-ny-Baa",newportpast_html
 1946,Beechcroft Road,18,,Morgan,Godfrey J.,The Laurels,newportpast_html
 1946,Beechcroft Road,16,,Richards,J. T.,"roller, Glenworth",newportpast_html
@@ -2862,7 +2862,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Beechwood Road,64,,Jones,Norman G.,grocer,newportpast_html
 1946,Beechwood Road,66,,Roach,Henry,Carthew,newportpast_html
 1946,Beechwood Road,68,,Burns,Dawson,Brockenhurst,newportpast_html
-1946,Beechwood Road,70,,"Tennant Jas. E.,Highgrove",,,newportpast_html
+1946,Beechwood Road,70,,Tennant,"Jas. E.,Highgrove",,newportpast_html
 1946,Beechwood Road,,,here is Beechcroft-road,,,newportpast_html
 1946,Beechwood Road,72-84,,Vacant sites,,,newportpast_html
 1946,Beechwood Road,,,BEECHWOOD PARK,,,newportpast_html
@@ -2963,7 +2963,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Bishton Street,3,,Wyatt,John,mason,newportpast_html
 1946,Bishton Street,5,,Moss,Mrs. Ellen,,newportpast_html
 1946,Bishton Street,7,,Cordey,Leslie,,newportpast_html
-1946,Bishton Street,9,,Tilley Wm. E. -,,,newportpast_html
+1946,Bishton Street,9,,Tilley,Wm. E. -,,newportpast_html
 1946,Bishton Street,11,,Cox,Thomas,platelayer,newportpast_html
 1946,Bishton Street,13,,Liles,Gilbert Hy.,fireman,newportpast_html
 1946,Bishton Street,15,,Lewis,Thos. E. O.,,newportpast_html
@@ -3014,7 +3014,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Bishton Street,44,,Humphries,Mrs. Minnie E.,,newportpast_html
 1946,Bishton Street,42,,Short,Mrs. Annie,,newportpast_html
 1946,Bishton Street,40,,Holbrook,Thos.,ironwkr,newportpast_html
-1946,Bishton Street,38,,"Jeffries Wm. Jas.,steelwkr",,,newportpast_html
+1946,Bishton Street,38,,Jeffries,"Wm. Jas.,steelwkr",,newportpast_html
 1946,Bishton Street,36,,Pearce,Joseph,,newportpast_html
 1946,Bishton Street,34,,Rew,Mrs. Susan,,newportpast_html
 1946,Bishton Street,32,,Boundy,Mrs. Marion,,newportpast_html
@@ -3046,8 +3046,8 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Blaen-y-pant Avenue,10,,Dallimore,S. Thomas,Eromillad,newportpast_html
 1946,Blaen-y-pant Avenue,11,,Rees,Wm. Hy.,"electrn, Geraldine",newportpast_html
 1946,Blaen-y-pant Avenue,12,,Stanley,F. A.,"G.W.R., Belfred",newportpast_html
-1946,Blaen-y-pant Avenue,,,"Hughes Walter R.,engine driver",,Glynbert,newportpast_html
-1946,Blaen-y-pant Avenue,,,"Wilkins Charles C.,ins agent",,Marsdell,newportpast_html
+1946,Blaen-y-pant Avenue,,,Hughes,"Walter R.,engine driver",Glynbert,newportpast_html
+1946,Blaen-y-pant Avenue,,,Wilkins,"Charles C.,ins agent",Marsdell,newportpast_html
 1946,Blaen-y-pant Avenue,,,Goss,Thos.,"G.W.R., Oakdale",newportpast_html
 1946,Blaen-y-pant Avenue,,,Day,G. H.,"clerk, Glenbrae",newportpast_html
 1946,Blaen-y-pant Avenue,,,Warburton,Mrs.,L.R.C.M.,newportpast_html
@@ -3080,7 +3080,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Blaen-Y-Pant Place,,,Clark,A. J.,Kenmore,newportpast_html
 1946,Blaen-Y-Pant Place,,,Davey,F. J.,G.W.R.,newportpast_html
 1946,Blaen-Y-Pant Place,,,James,Henry,"manager, Glen Roy",newportpast_html
-1946,Blaen-Y-Pant Place,,,Watkins Wm civil servant,,Belmont,newportpast_html
+1946,Blaen-Y-Pant Place,,,Watkins,Wm civil servant,Belmont,newportpast_html
 1946,Blaen-Y-Pant Place,,,Griffiths,T.,"bridge insptr, G.W.R., Sunny Bank",newportpast_html
 1946,Blaen-Y-Pant Place,,,Gillard,W. T.,"shop manager, Mylon",newportpast_html
 1946,Blake Road,1,,Ralph,W.,,newportpast_html
@@ -3100,7 +3100,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Blake Road,15,,Bates,George,lorry driver,newportpast_html
 1946,Blake Road,16,,Ridge,Edwd. T.,P.C.,newportpast_html
 1946,Blenheim Road,,,Off Chepstow-road.,,,newportpast_html
-1946,Blenheim Road,1,,Sunderland Wm. millwgt,,,newportpast_html
+1946,Blenheim Road,1,,Sunderland,Wm. millwgt,,newportpast_html
 1946,Blenheim Road,3,,Lewis,Ernest E.,,newportpast_html
 1946,Blenheim Road,5,,Knight,Mrs. W.,,newportpast_html
 1946,Blenheim Road,7,,Gimlett,G. F.,greengrocer|,newportpast_html
@@ -3137,7 +3137,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Blewitt Street,1,,Void,,,newportpast_html
 1946,Blewitt Street,2,,Murphy,Mrs. Florence R.,,newportpast_html
 1946,Blewitt Street,3,,Bailey,Mrs. Lucy,,newportpast_html
-1946,Blewitt Street,4,,Jenkins Arthur -,,,newportpast_html
+1946,Blewitt Street,4,,Jenkins,Arthur -,,newportpast_html
 1946,Blewitt Street,5,,Slade,Gilbert F.,G.W.R.,newportpast_html
 1946,Blewitt Street,6,,Swattridge,Wm.,labourer,newportpast_html
 1946,Blewitt Street,7,,Perry,Thos.,boilermaker,newportpast_html
@@ -4020,7 +4020,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Bryngwyn Road,14,,Williams,Mrs. P.,,newportpast_html
 1946,Bryngwyn Road,12,,Cobley,Leslie,draughtsmn,newportpast_html
 1946,Bryngwyn Road,,,Withers,Mrs. Alice Kate,,newportpast_html
-1946,Bryngwyn Road,10,,Halvorsen Jno -,,,newportpast_html
+1946,Bryngwyn Road,10,,Halvorsen,Jno -,,newportpast_html
 1946,Bryngwyn Road,8,,Williams,J. H.,Brookfield,newportpast_html
 1946,Bryngwyn Road,6,,Duggan,Wm. Geo.,,newportpast_html
 1946,Bryngwyn Road,,,McKay F. J.,,labourer,newportpast_html
@@ -4370,7 +4370,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Caerau Road,28,,Harvey,Wm.,manager,newportpast_html
 1946,Caerau Road,29,,Butler,Wm. Henry,,newportpast_html
 1946,Caerau Road,30,,Griffiths,Geo.,engineer,newportpast_html
-1946,Caerau Road,31,,Curran Chas plumber,,,newportpast_html
+1946,Caerau Road,31,,Curran,Chas plumber,,newportpast_html
 1946,Caerau Road,32,,Chambers,Charles,,newportpast_html
 1946,Caerau Road,33,,Beavan,Miss C. M.,ladies hairdresser,newportpast_html
 1946,Caerau Road,34,,Deane,Frank,accountant,newportpast_html
@@ -4586,7 +4586,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Caerleon Road,225,,Hussell,Mrs.,,newportpast_html
 1946,Caerleon Road,227,,Newman,Wm. A.,stwkr,newportpast_html
 1946,Caerleon Road,229,,Price,Mrs. M.,Cartref,newportpast_html
-1946,Caerleon Road,231,,"Mapp Charles,",,,newportpast_html
+1946,Caerleon Road,231,,Mapp,"Charles,",,newportpast_html
 1946,Caerleon Road,,,here is Orchard-street,,,newportpast_html
 1946,Caerleon Road,,,OSBORNE PLACE,,,newportpast_html
 1946,Caerleon Road,233,,Howells,Albt. G.,painter,newportpast_html
@@ -4662,7 +4662,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Caerleon Road,361,,Fry,George Henry,P.O.,newportpast_html
 1946,Caerleon Road,363,,Prowse,Henry,mason,newportpast_html
 1946,Caerleon Road,365,,Salcombe,Robert A.,,newportpast_html
-1946,Caerleon Road,367,,Hughes Wm.E.,,brick bnr,newportpast_html
+1946,Caerleon Road,367,,Hughes,Wm.E.,brick bnr,newportpast_html
 1946,Caerleon Road,369,,Toms,Wm. J.,G.W.R.,newportpast_html
 1946,Caerleon Road,371,,Herbert,Mrs. Mary Jane,,newportpast_html
 1946,Caerleon Road,373,,Void,,,newportpast_html
@@ -4684,7 +4684,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Caerleon Road,407,,Jones,N. W.,rly wgn cpt,newportpast_html
 1946,Caerleon Road,409,,Keen,Geo. Hy.,,newportpast_html
 1946,Caerleon Road,411,,Horn,Mrs. M.,,newportpast_html
-1946,Caerleon Road,413,,"Lewis Henry H.,Oakleigh",,,newportpast_html
+1946,Caerleon Road,413,,Lewis,"Henry H.,Oakleigh",,newportpast_html
 1946,Caerleon Road,417,,Phillips,Thos. G.,"lab., Old St. Julians' Lodge",newportpast_html
 1946,Caerleon Road,419,,Hall,E. G.,grocer,newportpast_html
 1946,Caerleon Road,421,,Dare,Albert,fireman,newportpast_html
@@ -4823,7 +4823,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Caerleon Road,496,,Spink,Geo. E.,Sonia,newportpast_html
 1946,Caerleon Road,494,,Jones,John D.,Rozel,newportpast_html
 1946,Caerleon Road,492,,Watkins,Jack,"engineer, Brondeg",newportpast_html
-1946,Caerleon Road,490,,Lloyd Geo. W'm.,,carptr,newportpast_html
+1946,Caerleon Road,490,,Lloyd,Geo. W'm.,carptr,newportpast_html
 1946,Caerleon Road,488,,Hayes,Mrs. M.,St. Donats,newportpast_html
 1946,Caerleon Road,486,,Green,Mrs. L. M.,Mylnesia,newportpast_html
 1946,Caerleon Road,484,,Hartland,Reg.,Hermine1,newportpast_html
@@ -5057,7 +5057,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Caerleon Road,,,here is Dean-street.,,,newportpast_html
 1946,Caerleon Road,94,,Hilton,H. B.,Belmont house,newportpast_html
 1946,Caerleon Road,92,,Jeffries Reg. T .,,dentist,newportpast_html
-1946,Caerleon Road,90,,Kirby Alfred LI.,,stone mason,newportpast_html
+1946,Caerleon Road,90,,Kirby,Alfred LI.,stone mason,newportpast_html
 1946,Caerleon Road,88,,Rowe,Edward,grcr asst,newportpast_html
 1946,Caerleon Road,86,,Ravenhill,E.,motor driver,newportpast_html
 1946,Caerleon Road,84,,Fothergill,Francis L.,,newportpast_html
@@ -5196,7 +5196,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Cambridge Road,15,,Lewis,Fred,carpenter,newportpast_html
 1946,Cambridge Road,17,,Dinham,Hv. W.,boilermkr,newportpast_html
 1946,Cambridge Road,19,,Sundy,W. A.,,newportpast_html
-1946,Cambridge Road,21,,"Mansfield Stanley J.,stlwkr",,,newportpast_html
+1946,Cambridge Road,21,,Mansfield,"Stanley J.,stlwkr",,newportpast_html
 1946,Cambridge Road,23,,Wangler,Mrs. J. E.,,newportpast_html
 1946,Cambridge Road,,,Children's,Recreation Ground,,newportpast_html
 1946,Camelot Place,,,Whitby-place to Manchester-st.,,,newportpast_html
@@ -5378,7 +5378,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Capel Crescent,30,,Shatford,P. S.,mill dvr.,newportpast_html
 1946,Capel Crescent,31,,Aston,Fred J.,postman,newportpast_html
 1946,Capel Crescent,32,,Wroot,Alfred,labourer,newportpast_html
-1946,Capel Crescent,33,,Hobbs Jno. Hy. crane drv,,,newportpast_html
+1946,Capel Crescent,33,,Hobbs,Jno. Hy. crane drv,,newportpast_html
 1946,Capel Crescent,34,,Jones,Mrs. T. L.,,newportpast_html
 1946,Capel Crescent,35,,Buckler,Mrs. Annie,,newportpast_html
 1946,Capel Crescent,36,,Lucas,W.,signalman,newportpast_html
@@ -5467,7 +5467,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Capel Street,17,,Tucker,Jack,rivetter,newportpast_html
 1946,Capel Street,18,,Chappell,T. J.,,newportpast_html
 1946,Capel Street,19,,Driscoll,Percy,chargehnd,newportpast_html
-1946,Capel Street,20,,Brooks Wm. K. sawyer,,,newportpast_html
+1946,Capel Street,20,,Brooks,Wm. K. sawyer,,newportpast_html
 1946,Capel Street,21,,Williams,Reg.,,newportpast_html
 1946,Capel Street,22,,Murphy,Daniel,coal trmr,newportpast_html
 1946,Capel Street,23,,Thomas,Walt. E.,,newportpast_html
@@ -5553,7 +5553,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Cardiff Road,,,Thorn,Mrs.,Westonby,newportpast_html
 1946,Cardiff Road,,,Woodman,Mrs.,Glenrosa,newportpast_html
 1946,Cardiff Road,,,Thomas,Mrs. E.,Belmont,newportpast_html
-1946,Cardiff Road,,,Maher Chas. E. (jnr.),,Westminster,newportpast_html
+1946,Cardiff Road,,,Maher,Chas. E. (jnr.),Westminster,newportpast_html
 1946,Cardiff Road,,,Brown,C.,Ardington,newportpast_html
 1946,Cardiff Road,,,Jenkins,Thos. E.,"stevedore, Kingsley",newportpast_html
 1946,Cardiff Road,,,Jones,Mrs. E. M.,Trevarth,newportpast_html
@@ -5694,7 +5694,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Cardiff Road,,,Gilbert,Mrs. E.,general shop. The Glen,newportpast_html
 1946,Cardiff Road,,,Oliver,Hugh H.,"clerk, Hazlemere",newportpast_html
 1946,Cardiff Road,,,Moore,A. E.,"bricklayer, Colwyn",newportpast_html
-1946,Cardiff Road,,,"Mockridge Wm. H.,Estcott",,,newportpast_html
+1946,Cardiff Road,,,Mockridge,"Wm. H.,Estcott",,newportpast_html
 1946,Cardiff Road,,,Cook,Joseph R.,Llanishen,newportpast_html
 1946,Cardiff Road,,,Abraham,Frank,"boatman, Rosscarbery",newportpast_html
 1946,Cardiff Road,,,Mendelson,H.,Tygwyn,newportpast_html
@@ -5813,7 +5813,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Carey Road,2,,Baker,G. H.,fruiterer,newportpast_html
 1946,Carey Road,3,,Thomas,Mrs. K. L.,,newportpast_html
 1946,Carisbrooke Road,,,Off Chepstow-road,,,newportpast_html
-1946,Carisbrooke Road,1,,"Gilbert Jno. Hy.,steelwrkr",,,newportpast_html
+1946,Carisbrooke Road,1,,Gilbert,"Jno. Hy.,steelwrkr",,newportpast_html
 1946,Carisbrooke Road,3,,Rees,Wm.,shop assistant,newportpast_html
 1946,Carisbrooke Road,5,,Ireland,Arthur E.,stwkr,newportpast_html
 1946,Carisbrooke Road,7,,Void,,,newportpast_html
@@ -5821,7 +5821,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Carisbrooke Road,11,,Hopkins,Hamlet,labr,newportpast_html
 1946,Carisbrooke Road,13,,Powell,W.,painter,newportpast_html
 1946,Carisbrooke Road,15,,Morgan,Miss E.,,newportpast_html
-1946,Carisbrooke Road,17,,Shaw William G. polisher,,,newportpast_html
+1946,Carisbrooke Road,17,,Shaw,William G. polisher,,newportpast_html
 1946,Carisbrooke Road,19,,Bambridge,Jabez,sawyer,newportpast_html
 1946,Carisbrooke Road,21,,Bickerton,Jas.,ironworker,newportpast_html
 1946,Carisbrooke Road,23,,Wiggett,Wm. E.,lorry dr,newportpast_html
@@ -6015,7 +6015,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Cenfedd Street,,,off Rockfield-street,,,newportpast_html
 1946,Cenfedd Street,1,,White,Frank B.,lorry dvr,newportpast_html
 1946,Cenfedd Street,3,,Rose,Wm.,G.W.R.,newportpast_html
-1946,Cenfedd Street,5,,Tanner Thos. E. painter,,,newportpast_html
+1946,Cenfedd Street,5,,Tanner,Thos. E. painter,,newportpast_html
 1946,Cenfedd Street,7,,Marley,Geo.,traffic frman,newportpast_html
 1946,Cenfedd Street,9,,O'Connell Thos.,,painter,newportpast_html
 1946,Cenfedd Street,11,,Evans,Mrs.,,newportpast_html
@@ -6110,7 +6110,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Charnwood Road,7,,Dent,Geo.,lorry driver,newportpast_html
 1946,Charnwood Road,5,,Howells,D. J.,van driver,newportpast_html
 1946,Charnwood Road,3,,Pass,Douglas H.,dairy roundsman,newportpast_html
-1946,Charnwood Road,1,,"Westwood Harry J.,firemn",,,newportpast_html
+1946,Charnwood Road,1,,Westwood,"Harry J.,firemn",,newportpast_html
 1946,Chaucer Road,,,Off Tennyson road,,,newportpast_html
 1946,Chaucer Road,,,Barber,W.,Greengates,newportpast_html
 1946,Chaucer Road,,,Pritchard,Wm.,Cranford,newportpast_html
@@ -6190,7 +6190,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Chepstow Road,,,here is London-street,,,newportpast_html
 1946,Chepstow Road,87,,Newman,F. C.,clerk,newportpast_html
 1946,Chepstow Road,,,Broadlick,Miss,,newportpast_html
-1946,Chepstow Road,89,,Giddings Geo. painter,,etc,newportpast_html
+1946,Chepstow Road,89,,Giddings,Geo. painter,etc,newportpast_html
 1946,Chepstow Road,91,,Giddings,R.,painter,newportpast_html
 1946,Chepstow Road,93,,Griffiths,W. H.,bricklyr,newportpast_html
 1946,Chepstow Road,,,Mole,Mrs. A.,,newportpast_html
@@ -6507,7 +6507,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Chepstow Road,,,Walker,Mrs. M.,The Knoll,newportpast_html
 1946,Chepstow Road,,,Hill,J. E.,Lyndhurst,newportpast_html
 1946,Chepstow Road,,,Healing,Mrs. E. B.,Highfield,newportpast_html
-1946,Chepstow Road,,,Price,Wm.,"gardnr, St. Merryn",newportpast_html
+1946,Chepstow Road,,,Price,Wm.,"Gardener, St. Merryn",newportpast_html
 1946,Chepstow Road,,,Smith,Geo.,"motor driver, Springfield",newportpast_html
 1946,Chepstow Road,,,Blease,E.,"P.C., MON. C.C. P. Station, Hainault",newportpast_html
 1946,Chepstow Road,,,Kitcher,Donald,Denewood,newportpast_html
@@ -6850,8 +6850,8 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Chepstow Road,,,Bollom of Bristol Ltd.,,dyers and cleaners,newportpast_html
 1946,Chepstow Road,,,Edwards -,,,newportpast_html
 1946,Chepstow Road,180,,May,George H.,greengcr,newportpast_html
-1946,Chepstow Road,178,,"Brinsdon James A.,btmkr",,,newportpast_html
-1946,Chepstow Road,176,,King William III,,John Kitson,newportpast_html
+1946,Chepstow Road,178,,Brinsdon,"James A.,btmkr",,newportpast_html
+1946,Chepstow Road,176,,King,William III,John Kitson,newportpast_html
 1946,Chepstow Road,,,here is Wharf-road,,,newportpast_html
 1946,Chepstow Road,174,,Phillips Wolfe & Sons,,"pawnbrokers, jewellers and outfitters",newportpast_html
 1946,Chepstow Road,,,Ashwood,John,iron wkr,newportpast_html
@@ -7104,7 +7104,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Christchurch Road,91,,Drummond,Hector A. M,h.w. fitter,newportpast_html
 1946,Christchurch Road,93,,Davies,R. E.,Marlow ho,newportpast_html
 1946,Christchurch Road,95,,Easterby,V. C.,"school attendance officer, A.R.P. warden",newportpast_html
-1946,Christchurch Road,97,,Griffiths Wm.. ironworker,,A.R.P. warden,newportpast_html
+1946,Christchurch Road,97,,Griffiths,Wm.. ironworker,A.R.P. warden,newportpast_html
 1946,Christchurch Road,99,,Spicer,Herbert,ironwkr,newportpast_html
 1946,Christchurch Road,101,,Stevens,Mrs.,St. Elmo,newportpast_html
 1946,Christchurch Road,103,,Davis,Mrs. Maud Rose,South View,newportpast_html
@@ -7258,7 +7258,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Christchurch Road,220,,Evans,George,Ashley h,newportpast_html
 1946,Christchurch Road,218,,Bowdler,Wm. A.,"foreman, Malvern house",newportpast_html
 1946,Christchurch Road,216,,Jenkins,Arthur Wm.,"retired police inspector, Jessiman villa",newportpast_html
-1946,Christchurch Road,214,,Morgan Geo. H .,,"managr., Mount View",newportpast_html
+1946,Christchurch Road,214,,Morgan,Geo. H .,"managr., Mount View",newportpast_html
 1946,Christchurch Road,,,here is Whitstone-road,,,newportpast_html
 1946,Christchurch Road,212,,CHRISTCHURCH RD. POST OFFICE,,"S.B. & A. & I., Williams Mrs. A. J., subpostmistress",newportpast_html
 1946,Christchurch Road,,,Telephone,Kiosk,,newportpast_html
@@ -7350,7 +7350,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Christchurch Road,72,,Clarke,Albert,police,newportpast_html
 1946,Christchurch Road,70,,Morgan,Wm.,"assistant, A.R.P. warden",newportpast_html
 1946,Christchurch Road,68,,Jones,Percy,salesman,newportpast_html
-1946,Christchurch Road,66,,Hobbs Richd. gardener,,,newportpast_html
+1946,Christchurch Road,66,,Hobbs,Richd. gardener,,newportpast_html
 1946,Christchurch Road,64,,Newbury,Wm.,machinist,newportpast_html
 1946,Christchurch Road,62,,Jones,John,haulier,newportpast_html
 1946,Christchurch Road,60,,Newberry,Mrs. M. J.,,newportpast_html
@@ -7572,7 +7572,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Clarence Place,56,,Ewings,Hbt. T.,draper,newportpast_html
 1946,Clarence Place,54,,Ashill,F. E.,tobacconist,newportpast_html
 1946,Clarence Place,52,,Mogford,G. G.,pork btchr,newportpast_html
-1946,Clarence Place,50,,Morgan Wm. greengrocer,,,newportpast_html
+1946,Clarence Place,50,,Morgan,Wm. greengrocer,,newportpast_html
 1946,Clarence Place,48,,Theophilus,,gown shop,newportpast_html
 1946,Clarence Place,,,Fuller,C. V.,dentist,newportpast_html
 1946,Clarence Place,,,Bryant,Miss,,newportpast_html
@@ -7699,7 +7699,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Clevedon Road,,,Sheaf,The Misses,The Firs,newportpast_html
 1946,Clevedon Road,,,A.R.P. wardens Post,,16A,newportpast_html
 1946,Clevedon Road,,,ROUGEMONT SCHOOL,,"Principal : (Mrs.) E. M. Evans, M.R.S.T.",newportpast_html
-1946,Clevedon Road,,,Copp Albert P./ Trevello,,,newportpast_html
+1946,Clevedon Road,,,Copp,Albert P./ Trevello,,newportpast_html
 1946,Clevedon Road,,,Seary,John E. D.,"printer, Sormiou",newportpast_html
 1946,Clevedon Road,,,Jones A. B. LI.,,"solicitor, Gelly-gron",newportpast_html
 1946,Clevedon Road,,,Thomas,Mrs. S. E. L.,The Olives,newportpast_html
@@ -7918,7 +7918,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Clytha Park Road,,,CLYTHA PARK POST OFFICE TEL.3401,,"P.O., MO., A. & I. & S.B.",newportpast_html
 1946,Clytha Square,,,here is Grove lane,,,newportpast_html
 1946,Clytha Square,1,,Long,Miss L. K.,,newportpast_html
-1946,Clytha Square,,,"Pollard John,van postman",,,newportpast_html
+1946,Clytha Square,,,Pollard,"John,van postman",,newportpast_html
 1946,Clytha Square,2,,Johns,Ivor M.,Bohemia,newportpast_html
 1946,Clytha Square,3,,McCarthy Miss Winifred,,,newportpast_html
 1946,Clytha Square,,,O'Riordon Dr. T.,,,newportpast_html
@@ -8042,7 +8042,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Coldra Road,4,,James,James,turner,newportpast_html
 1946,Coldra Road,2,,Turner,Chas.,clerk,newportpast_html
 1946,Coleridge Road,,,Off Chepstow-road,,near Beechwood,newportpast_html
-1946,Coleridge Road,1,,"Sprague Wm.,San Remo",,,newportpast_html
+1946,Coleridge Road,1,,Sprague,"Wm.,San Remo",,newportpast_html
 1946,Coleridge Road,3,,Craigness,,Void,newportpast_html
 1946,Coleridge Road,,,Davies,Mrs. Ellen,,newportpast_html
 1946,Coleridge Road,5,,Holmes,Sami J.,"police, Frogmore",newportpast_html
@@ -8075,7 +8075,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Collier Street,21,,Lewis,Samuel,labourer,newportpast_html
 1946,Collier Street,23,,Harris,Samuel G.,seaman,newportpast_html
 1946,Collier Street,25,,Tucker,Geo.,gardener,newportpast_html
-1946,Collier Street,27,,Powell Hy. engine driver,,,newportpast_html
+1946,Collier Street,27,,Powell,Hy. engine driver,,newportpast_html
 1946,Collier Street,29,,Lea,Wm.,gasfitter,newportpast_html
 1946,Collier Street,31,,Coombes,Fredk. G.,fitter,newportpast_html
 1946,Collier Street,33,,West,Wm. Jas.,docker,newportpast_html
@@ -8128,7 +8128,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Collingwood Road,24,,Lewis,Basil T.,bricklayer,newportpast_html
 1946,Collingwood Road,22,,Heard,Albert,G.W.R.,newportpast_html
 1946,Collingwood Road,20,,Goodreid,John,ironworker,newportpast_html
-1946,Collingwood Road,18,,Clifford Wm. ironworker,,,newportpast_html
+1946,Collingwood Road,18,,Clifford,Wm. ironworker,,newportpast_html
 1946,Collingwood Road,16,,Farrow,Jas.,,newportpast_html
 1946,Collingwood Road,14,,Hough,Richard,ironwkr,newportpast_html
 1946,Collingwood Road,12,,Davies,John,tube worker|,newportpast_html
@@ -8396,7 +8396,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Commercial Road,137,,Powell T. & Sons,,btchrs,newportpast_html
 1946,Commercial Road,,,Powell,W.,butcher,newportpast_html
 1946,Commercial Road,138,,Mullins,,provision stores,newportpast_html
-1946,Commercial Road,139,,Stiff James J tobacco,,,newportpast_html
+1946,Commercial Road,139,,Stiff,James J tobacco,,newportpast_html
 1946,Commercial Road,,,here is Albion-street and railway crossing,,,newportpast_html
 1946,Commercial Road,140,,Shop-void,,,newportpast_html
 1946,Commercial Road,141,,Davies,D. H.,dairy,newportpast_html
@@ -8873,8 +8873,8 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Constance Street,,,here is Usk-street,,,newportpast_html
 1946,Constance Street,13,,Kear,Harry,baker,newportpast_html
 1946,Constance Street,15,,Stock,Alf,ironworker,newportpast_html
-1946,Constance Street,17,,Cook Albert E. collector,,,newportpast_html
-1946,Constance Street,19,,Angill Geo. Fdk. polisher,,,newportpast_html
+1946,Constance Street,17,,Cook,Albert E. collector,,newportpast_html
+1946,Constance Street,19,,Angill,Geo. Fdk. polisher,,newportpast_html
 1946,Constance Street,21,,Rymer,Wm.,G.W.R.,newportpast_html
 1946,Constance Street,23,,Durston,Arthur,postman,newportpast_html
 1946,Constance Street,25,,Oliver L. J. painter,,,newportpast_html
@@ -8898,7 +8898,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Constance Street,54,,Francis,Edward,dairyman,newportpast_html
 1946,Constance Street,52,,Ford,Walter,shop asst,newportpast_html
 1946,Constance Street,50,,Betts,Clement G.,lorrydrv,newportpast_html
-1946,Constance Street,48,,Townsend Thos. L. fitter,,,newportpast_html
+1946,Constance Street,48,,Townsend,Thos. L. fitter,,newportpast_html
 1946,Constance Street,46,,Evans,Albert Jas.,baker,newportpast_html
 1946,Constance Street,44,,Parsons C. F. A. carpenter,,,newportpast_html
 1946,Constance Street,42,,Chambers,A. E.,labourer,newportpast_html
@@ -8912,7 +8912,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Constance Street,32,,St. John Arthur,,steelwkr,newportpast_html
 1946,Constance Street,30,,Nancekeivill,Mrs. L. J .,,newportpast_html
 1946,Constance Street,28,,Legge -,,,newportpast_html
-1946,Constance Street,26,,Leggatt George L. mason,,,newportpast_html
+1946,Constance Street,26,,Leggatt,George L. mason,,newportpast_html
 1946,Constance Street,24,,Smith,Amos,,newportpast_html
 1946,Constance Street,22,,Lairs,Wm.,,newportpast_html
 1946,Constance Street,20,,Fowles,Arthur H.,clerk,newportpast_html
@@ -8951,7 +8951,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Conway Road,12,,Lang,Harry,labourer,newportpast_html
 1946,Conway Road,14,,Lane,Fredk.,bricklayer,newportpast_html
 1946,Conway Road,16,,Edwards,H.,timber man,newportpast_html
-1946,Conway Road,18,,Mabley Jas. ironworker,,,newportpast_html
+1946,Conway Road,18,,Mabley,Jas. ironworker,,newportpast_html
 1946,Conway Road,20,,Anderson,Mrs.,,newportpast_html
 1946,Conway Road,22,,Reynolds,Henry,ironwkr,newportpast_html
 1946,Conway Road,24,,Cooper,Stanley,labourer,newportpast_html
@@ -8982,7 +8982,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Conway Road,76,,Thomas,Ernest S.,plast'er,newportpast_html
 1946,Conway Road,78,,Cronk,Mrs. Edith M. A.,,newportpast_html
 1946,Conway Road,80,,Bateman,Mrs. K.,,newportpast_html
-1946,Conway Road,82,,Jones Ernest -,,,newportpast_html
+1946,Conway Road,82,,Jones,Ernest -,,newportpast_html
 1946,Conway Road,84,,Babbington,Rich. F.,G.W.R.,newportpast_html
 1946,Conway Road,88,,Commins,Wm. B.,stwkr,newportpast_html
 1946,Conway Road,90,,Hale,R. W.,G.P.O.,newportpast_html
@@ -9030,7 +9030,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Conway Road,178,,Devereux,Dillon,vandvr,newportpast_html
 1946,Conway Road,180,,Dyer,Herbert G.,mech,newportpast_html
 1946,Conway Road,182,,Wright,Wm. G.,stlwkr,newportpast_html
-1946,Conway Road,184,,Stephens Richd.T.,,G.W.R.,newportpast_html
+1946,Conway Road,184,,Stephens,Richd.T.,G.W.R.,newportpast_html
 1946,Conway Road,186,,Simpson,Mrs. C.,,newportpast_html
 1946,Conway Road,188,,Prowse,Mrs. Kate,,newportpast_html
 1946,Conway Road,190,,Hipkiss,Arthur,steelwkr,newportpast_html
@@ -9082,7 +9082,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Conway Road,191,,Johnson,Samuel,clerk,newportpast_html
 1946,Conway Road,189,,Mogford,R. A.,groundsm,newportpast_html
 1946,Conway Road,187,,Stokes,Wm. H.,postman,newportpast_html
-1946,Conway Road,185,,Gardner Thos D .,,elec wld,newportpast_html
+1946,Conway Road,185,,Gardner,Thos D .,elec wld,newportpast_html
 1946,Conway Road,183,,Perkins,H.,,newportpast_html
 1946,Conway Road,181,,Bishop,Godfrey,ironwkr,newportpast_html
 1946,Conway Road,179,,Dacey,John W. A.,agent,newportpast_html
@@ -9099,7 +9099,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Conway Road,147,,Torrington,Clifford,time keeper,newportpast_html
 1946,Conway Road,145,,Richards,Mrs. Eva,,newportpast_html
 1946,Conway Road,143,,Sully,Walter,rivetter,newportpast_html
-1946,Conway Road,141,,"Williams Wm.,fnchpolsh",,,newportpast_html
+1946,Conway Road,141,,Williams,"Wm.,fnchpolsh",,newportpast_html
 1946,Conway Road,139,,Prowse,Fred W.,steelwkr,newportpast_html
 1946,Conway Road,137,,Sully,Ebenezer,assistant,newportpast_html
 1946,Conway Road,135,,Berry,Wm.,,newportpast_html
@@ -9263,7 +9263,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Corelli Street,12,,Forty,George,crane driver,newportpast_html
 1946,Corelli Street,10,,Agist,Mrs. S.,,newportpast_html
 1946,Corelli Street,8,,Boyce,Wm.,tube worker,newportpast_html
-1946,Corelli Street,6,,Ridler John H. labourer,,,newportpast_html
+1946,Corelli Street,6,,Ridler,John H. labourer,,newportpast_html
 1946,Corelli Street,4,,Watkins,David,steel wkr,newportpast_html
 1946,Corelli Street,,,Bowden,Mrs. Mary,,newportpast_html
 1946,Corn Street,14,,Commercial-st. to Canal-par,,,newportpast_html
@@ -9577,7 +9577,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Corporation Road,,,Hodson's,Concrete Products,Ltd. Tel. 71470,newportpast_html
 1946,Corporation Road,,,"Lysaght John, Ltd.",,Orb Iron Works,newportpast_html
 1946,Corporation Road,566,,Tennant,Sydney,laundryman,newportpast_html
-1946,Corporation Road,564,,Turton Thos. ironworke,,,newportpast_html
+1946,Corporation Road,564,,Turton,Thos. ironworke,,newportpast_html
 1946,Corporation Road,562,,Clifford Mr3. Sarah,,,newportpast_html
 1946,Corporation Road,560,,Bannister,Mrs. R.,grngrcr,newportpast_html
 1946,Corporation Road,558,,Rouse,W. F.,furacemn,newportpast_html
@@ -9602,7 +9602,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Corporation Road,476,,Hales,J.,,newportpast_html
 1946,Corporation Road,474,,Bull,Fredk.,tool setter,newportpast_html
 1946,Corporation Road,472,,Luckett,Wm. A.,bootrp,newportpast_html
-1946,Corporation Road,470,,Palmer Jas. greengrocer,,,newportpast_html
+1946,Corporation Road,470,,Palmer,Jas. greengrocer,,newportpast_html
 1946,Corporation Road,468,,Coombe,F. T.,grocer,newportpast_html
 1946,Corporation Road,466,,Webb,K. H.,butcher,newportpast_html
 1946,Corporation Road,,,Tennant,F.,,newportpast_html
@@ -10017,7 +10017,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Crescent Road,31,,Baker,Mrs. Rosina,,newportpast_html
 1946,Crescent Road,32,,Lamond,James,steelwkr,newportpast_html
 1946,Crescent Road,33,,Wade,Mrs. R.,,newportpast_html
-1946,Crescent Road,34,,Brewer Jas. S. cabinet mkr,,,newportpast_html
+1946,Crescent Road,34,,Brewer,Jas. S. cabinet mkr,,newportpast_html
 1946,Crescent Road,35,,Paget,Mrs. E. A.,,newportpast_html
 1946,Crescent Road,36,,Oldland,Harry,ironwkr,newportpast_html
 1946,Crescent Road,37,,Morgan,John T.,,newportpast_html
@@ -10110,7 +10110,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Cromwell Road,224,,Evans,James H.,painter,newportpast_html
 1946,Cromwell Road,226,,Heard,Mrs. Elsie,,newportpast_html
 1946,Cromwell Road,228,,Doggett,Fredk.,iron wkr,newportpast_html
-1946,Cromwell Road,230,,Bullock John. Ed. iron wkr,,,newportpast_html
+1946,Cromwell Road,230,,Bullock,John. Ed. iron wkr,,newportpast_html
 1946,Cromwell Road,232,,Watts,Joseph,labourer,newportpast_html
 1946,Cromwell Road,234,,Tucker,James,labourer,newportpast_html
 1946,Cromwell Road,236,,Cooper,Mrs. Phyllis,,newportpast_html
@@ -10155,13 +10155,13 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Cromwell Road,,,ST. PATRICK'S CATHOLIC CH.,,,newportpast_html
 1946,Cromwell Road,151,,Groucott,A.,ironworker,newportpast_html
 1946,Cromwell Road,149,,Hopkins,Rees,manager,newportpast_html
-1946,Cromwell Road,147,,Thornevcroft Geo..irnwkr,,,newportpast_html
+1946,Cromwell Road,147,,Thornevcroft,Geo..irnwkr,,newportpast_html
 1946,Cromwell Road,145,,Corfield,George,ironwkr,newportpast_html
 1946,Cromwell Road,,,here is Fairfax-road,,,newportpast_html
 1946,Cromwell Road,143,,"Thorneycroft Mrs.M.,shop",,,newportpast_html
 1946,Cromwell Road,141,,Walker,Jno.,,newportpast_html
 1946,Cromwell Road,139,,Richards,Ivor L.,ironwkr,newportpast_html
-1946,Cromwell Road,137,,Kitson Benj. ironworker,,,newportpast_html
+1946,Cromwell Road,137,,Kitson,Benj. ironworker,,newportpast_html
 1946,Cromwell Road,135,,Perry,Geo.,steel worker,newportpast_html
 1946,Cromwell Road,133,,Clarke,Horace E.,motor mechanic,newportpast_html
 1946,Cromwell Road,131,,Thompon,F. T.,steel wkr,newportpast_html
@@ -10250,7 +10250,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Crown Street,17,,Marsh,Stanley G.,steelworker,newportpast_html
 1946,Crown Street,18,,Crown Hotel,,Greenslade James,newportpast_html
 1946,Crown Street,19,,Lyne,Cyril H.,G.W.R.,newportpast_html
-1946,Crown Street,20,,Sefton Benjamin ironwkr,,,newportpast_html
+1946,Crown Street,20,,Sefton,Benjamin ironwkr,,newportpast_html
 1946,Crown Street,21,,Butcher,J.,,newportpast_html
 1946,Crown Street,22,,Little,Crown,W. C. Hacker,newportpast_html
 1946,Crown Street,27,,Spurrier,George,fitter,newportpast_html
@@ -10281,7 +10281,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Cumberland Road,29,,Deakin,Wm.,ironwrkr,newportpast_html
 1946,Cumberland Road,31,,Chester,Harry,salesman,newportpast_html
 1946,Cumberland Road,33,,Wright H .E .J .,,eng driver,newportpast_html
-1946,Cumberland Road,35,,Adlam John L. motor ftr,,,newportpast_html
+1946,Cumberland Road,35,,Adlam,John L. motor ftr,,newportpast_html
 1946,Cumberland Road,,,here is Haisbro-avenue,,,newportpast_html
 1946,Cumberland Road,44,,Price,Fredk. J.,baker,newportpast_html
 1946,Cumberland Road,42,,Jones,John T.,signal linesman,newportpast_html
@@ -10307,8 +10307,8 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Cumberland Road,2,,King,Mrs.,,newportpast_html
 1946,Cyril Street,1,,Baynham,Mrs. Lillah Maud,,newportpast_html
 1946,Cyril Street,3,,Corbin,Mrs. Mima,,newportpast_html
-1946,Cyril Street,5,,Gardiner Alfred B. guard,,,newportpast_html
-1946,Cyril Street,7,,Hudson Albert J. G.W.R.,,,newportpast_html
+1946,Cyril Street,5,,Gardiner,Alfred B. guard,,newportpast_html
+1946,Cyril Street,7,,Hudson,Albert J. G.W.R.,,newportpast_html
 1946,Cyril Street,9,,Hudson,Wm.,painter,newportpast_html
 1946,Cyril Street,11,,Birt,Wilfred,steelworker,newportpast_html
 1946,Cyril Street,13,,Hill,Arthur,G.W.R.,newportpast_html
@@ -10410,7 +10410,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Daniel Street,9,,Whitehill,Mrs. Mary,,newportpast_html
 1946,Daniel Street,10,,Ash,Edwin,ironworker,newportpast_html
 1946,Daniel Street,11,,O'Neill Wm.,,engine dvr,newportpast_html
-1946,Daniel Street,12,,Taylor Henry Geo. carptr,,,newportpast_html
+1946,Daniel Street,12,,Taylor,Henry Geo. carptr,,newportpast_html
 1946,Daniel Street,13,,Wildy,Thos.,bricklayer,newportpast_html
 1946,Daniel Street,14,,Chicken,R. W.,cashier,newportpast_html
 1946,Daniel Street,15,,Wootten,C.,,newportpast_html
@@ -10493,7 +10493,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Dean Street,35,,Hines,Sidney,labourer,newportpast_html
 1946,Dean Street,36,,Hodge,Richard,labourer,newportpast_html
 1946,Dean Street,37,,Tidball,Alfred J.,labr,newportpast_html
-1946,Dean Street,38,,James Wm. S. weighman,,,newportpast_html
+1946,Dean Street,38,,James,Wm. S. weighman,,newportpast_html
 1946,Dean Street,39,,Hodge,Tom.,labourer,newportpast_html
 1946,Dean Street,,,here is Junction-road,,,newportpast_html
 1946,Dean Street,40,,White,Frank,gen shop,newportpast_html
@@ -10560,7 +10560,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Devon Place,5,,Void,,,newportpast_html
 1946,Devon Place,6,,Howells,George,G.W.R.,newportpast_html
 1946,Devon Place,7,,Brimfield,Miss Florence,,newportpast_html
-1946,Devon Place,8,,Rees Jno. O. foreman,,,newportpast_html
+1946,Devon Place,8,,Rees,Jno. O. foreman,,newportpast_html
 1946,Devon Place,9,,Rogers,Mrs. Alice M.,,newportpast_html
 1946,Devon Place,10,,McCarthy -,,,newportpast_html
 1946,Devon Place,11,,Henson,Mrs. Harriet,,newportpast_html
@@ -10631,7 +10631,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Dewsland Park Road,46,,Lewis,Thos. Hy.,bank cashier,newportpast_html
 1946,Dewsland Park Road,48,,Bollington,Robert A.,"clothier, Preswylfa",newportpast_html
 1946,Dewsland Park Road,50,,Ireland,Ernest E.,"pilot, Ty-Hir",newportpast_html
-1946,Dewsland Park Road,52,,Gabb Clement P .,,"furnishr., Devonia",newportpast_html
+1946,Dewsland Park Road,52,,Gabb,Clement P .,"furnishr., Devonia",newportpast_html
 1946,Dewsland Park Road,54,,Williams,James,C. pilot,newportpast_html
 1946,Dewsland Park Road,56,,Hewertson,Herbert W.,,newportpast_html
 1946,Dewsland Park Road,58,,Allsopp,Rev. B. J.,baptist minister,newportpast_html
@@ -10680,11 +10680,11 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Dewstow Street,19,,Page,Joseph,ironworker,newportpast_html
 1946,Dewstow Street,,,here is Hathaway street,,,newportpast_html
 1946,Dewstow Street,21,,Shefford,W.,ironworker,newportpast_html
-1946,Dewstow Street,23,,Hazelwood Thos. ironworker,,,newportpast_html
+1946,Dewstow Street,23,,Hazelwood,Thos. ironworker,,newportpast_html
 1946,Dewstow Street,25,,Goodiom,Geo.,grinder,newportpast_html
 1946,Dewstow Street,27,,Bourne,David,ironwkr,newportpast_html
 1946,Dewstow Street,29,,DumayneThos.ironworker,,,newportpast_html
-1946,Dewstow Street,31,,Blakemore John ironworker,,,newportpast_html
+1946,Dewstow Street,31,,Blakemore,John ironworker,,newportpast_html
 1946,Dewstow Street,33,,Eaves,David,ironworker,newportpast_html
 1946,Dewstow Street,35,,Edwards,Joseph,ironwkr,newportpast_html
 1946,Dewstow Street,37,,Osmond,Miss S. A.,,newportpast_html
@@ -10693,25 +10693,25 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Dewstow Street,,,here is Redvers street,,,newportpast_html
 1946,Dewstow Street,43,,Goodyer,Edward,ironwkr,newportpast_html
 1946,Dewstow Street,45,,Bradley,Fredk. J.,ironwkr,newportpast_html
-1946,Dewstow Street,47,,Cox Charles ironworker,,,newportpast_html
+1946,Dewstow Street,47,,Cox,Charles ironworker,,newportpast_html
 1946,Dewstow Street,49,,Hibbard,Herbert,,newportpast_html
 1946,Dewstow Street,51,,Edwards,J.,ironworker,newportpast_html
 1946,Dewstow Street,53,,Pitt,Brynley,motor dvr,newportpast_html
 1946,Dewstow Street,55,,Timmins,Saml.,ironwkr,newportpast_html
 1946,Dewstow Street,57,,Stanley,Albert,ironworker,newportpast_html
 1946,Dewstow Street,59,,Bennett,John,doubler,newportpast_html
-1946,Dewstow Street,61,,Pursall Fredk. J. ironwkr,,,newportpast_html
+1946,Dewstow Street,61,,Pursall,Fredk. J. ironwkr,,newportpast_html
 1946,Dewstow Street,63,,Simms,E. D.,furaceman,newportpast_html
 1946,Dewstow Street,65,,Lees,Arthur,ironworker,newportpast_html
-1946,Dewstow Street,67,,Head Henry ironworker,,,newportpast_html
+1946,Dewstow Street,67,,Head,Henry ironworker,,newportpast_html
 1946,Dewstow Street,69,,Pitt,Richard,ironwkr,newportpast_html
 1946,Dewstow Street,71,,Watkins,Wm. C.,labr,newportpast_html
 1946,Dewstow Street,73,,Jackson,Wm.,ironworker,newportpast_html
 1946,Dewstow Street,75,,Reeves,Mrs. M.,,newportpast_html
 1946,Dewstow Street,77,,Edge,W. E.,ironworker,newportpast_html
 1946,Dewstow Street,79,,Seymour,Henry,ironwkr,newportpast_html
-1946,Dewstow Street,81,,Reeves Joseph ironworker,,,newportpast_html
-1946,Dewstow Street,83,,Edge William ironworker,,,newportpast_html
+1946,Dewstow Street,81,,Reeves,Joseph ironworker,,newportpast_html
+1946,Dewstow Street,83,,Edge,William ironworker,,newportpast_html
 1946,Dewstow Street,85,,Bradford,Alfred W. J.,ironworker,newportpast_html
 1946,Dewstow Street,87,,Harley,John G.,ironwkr,newportpast_html
 1946,Dewstow Street,80,,Priestnall,Clarence F.,lab,newportpast_html
@@ -10720,10 +10720,10 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Dewstow Street,74,,Davies,Enoch,ironworker,newportpast_html
 1946,Dewstow Street,72,,Hubble Dennis ironworker,,,newportpast_html
 1946,Dewstow Street,70,,Hughes,David,ironwkr,newportpast_html
-1946,Dewstow Street,68,,Roberts Robt. ironworker,,,newportpast_html
+1946,Dewstow Street,68,,Roberts,Robt. ironworker,,newportpast_html
 1946,Dewstow Street,66,,Pitt,George,ironworker,newportpast_html
 1946,Dewstow Street,64,,Bunce,William,ironwkr,newportpast_html
-1946,Dewstow Street,62,,Adams Arthur ironworker,,,newportpast_html
+1946,Dewstow Street,62,,Adams,Arthur ironworker,,newportpast_html
 1946,Dewstow Street,60,,Bradford,Mrs. Harriett A.,,newportpast_html
 1946,Dewstow Street,58,,Hubble,Denis A.,fireman,newportpast_html
 1946,Dewstow Street,56,,Williams,Albert,ironwkr,newportpast_html
@@ -10734,7 +10734,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Dewstow Street,46,,White,Geo.,,newportpast_html
 1946,Dewstow Street,44,,Hodge,F. A.,ironworker,newportpast_html
 1946,Dewstow Street,42,,Williams,J. H.,ironwkr,newportpast_html
-1946,Dewstow Street,40,,Richards John ironwkr,,,newportpast_html
+1946,Dewstow Street,40,,Richards,John ironwkr,,newportpast_html
 1946,Dewstow Street,38,,Morgan,Mrs. Sophia,,newportpast_html
 1946,Dewstow Street,36,,Rudge,Mrs. Elsie M.,,newportpast_html
 1946,Dewstow Street,34,,Dorrington,Jos.,ironwkr,newportpast_html
@@ -10742,7 +10742,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Dewstow Street,30,,Gough A. & G.,,gen dlrs,newportpast_html
 1946,Dewstow Street,,,here is Caldicot-street,,,newportpast_html
 1946,Dewstow Street,28,,Jones,Edwin,machinist,newportpast_html
-1946,Dewstow Street,26,,Griffiths Thos H. ironwkr,,,newportpast_html
+1946,Dewstow Street,26,,Griffiths,Thos H. ironwkr,,newportpast_html
 1946,Dewstow Street,24,,Simms,Samuel D.,ironwkr,newportpast_html
 1946,Dewstow Street,22,,Webb,David,ironworker,newportpast_html
 1946,Dewstow Street,20,,Walters,Albert H.,ironwkr,newportpast_html
@@ -10922,7 +10922,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Dock Street,,,here is Cross-lane,,,newportpast_html
 1946,Dock Street,59,,H.Q. 3rd Mon. Battn. Home Guard,,,newportpast_html
 1946,Dock Street,,,here is Caroline-street,,,newportpast_html
-1946,Dock Street,61,,"Humphries Jno.,brwrywkr",,,newportpast_html
+1946,Dock Street,61,,Humphries,"Jno.,brwrywkr",,newportpast_html
 1946,Dock Street,62,,"Keetch (R.) & Son, Ltd.",,transport contractors,newportpast_html
 1946,Dock Street,63,,Newcombe Bros,,corn merchants,newportpast_html
 1946,Dock Street,64,,Barnes,S. L.,shopkeeper,newportpast_html
@@ -11245,7 +11245,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Dolphin Street,47,,Void,,,newportpast_html
 1946,Dolphin Street,48,,Pritchard,John,labourer,newportpast_html
 1946,Dolphin Street,49,,Walsh,Mrs. Ellen,,newportpast_html
-1946,Dolphin Street,50,,Ridler Wm A. labourer,,,newportpast_html
+1946,Dolphin Street,50,,Ridler,Wm A. labourer,,newportpast_html
 1946,Dolphin Street,51,,Llewellyn,Mrs. Rachael,,newportpast_html
 1946,Dolphin Street,52,,Kearns,Patrick,labourer,newportpast_html
 1946,Dolphin Street,53,,Setterland,Carl,labourer,newportpast_html
@@ -11334,7 +11334,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Dos Road,37,,Taylor,Saml. F.,stlwkr,newportpast_html
 1946,Dos Road,38,,Bond,Clem J.,blacksmith,newportpast_html
 1946,Dos Road,39,,Dare,George,riggers asst,newportpast_html
-1946,Dos Road,40,,Eger Chas W. G.W.R.,,,newportpast_html
+1946,Dos Road,40,,Eger,Chas W. G.W.R.,,newportpast_html
 1946,Dos Road,41,,Williams,Mrs. Margt. M.,,newportpast_html
 1946,Dos Road,42,,Buckley,Jno.,labourer,newportpast_html
 1946,Dos Road,43,,Hillson,Albert J.,G.W.R.,newportpast_html
@@ -11358,7 +11358,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Downing Street,32,,"Colleypriest F. J.,ironwrkr",,,newportpast_html
 1946,Downing Street,34,,Light,Horace,labourer,newportpast_html
 1946,Downing Street,36,,Moore,Saml.,cranedriver,newportpast_html
-1946,Downing Street,38,,"Matthias Wm ,G.",,seaman,newportpast_html
+1946,Downing Street,38,,Matthias,"Wm ,G.",seaman,newportpast_html
 1946,Downing Street,40,,Ward,George,platelayer,newportpast_html
 1946,Downing Street,42,,Kale,Mrs. Florence,,newportpast_html
 1946,Downing Street,44,,Cooke,Robert F.,ironwkr,newportpast_html
@@ -11378,7 +11378,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Downing Street,49,,Pritchard,Wm.,crane dvr,newportpast_html
 1946,Downing Street,47,,Cox,Bert Howard,annealr,newportpast_html
 1946,Downing Street,45,,Baylis,Samuel,ironworker,newportpast_html
-1946,Downing Street,43,,Perry Benj. ironworker,,,newportpast_html
+1946,Downing Street,43,,Perry,Benj. ironworker,,newportpast_html
 1946,Downing Street,41,,Charles,William,ironwkr,newportpast_html
 1946,Downing Street,39,,Fellows,Samuel,,newportpast_html
 1946,Downing Street,37,,Short,Walter,labourer,newportpast_html
@@ -11466,8 +11466,8 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Duckpool Road,47,,Eaton,C. A.,china & hardware dealer,newportpast_html
 1946,Duckpool Road,,,here is Bristol-street,,,newportpast_html
 1946,Duckpool Road,48,,Collins,F. E.,gen. shop,newportpast_html
-1946,Duckpool Road,49,,Lewis Stanley C wgn repr,,,newportpast_html
-1946,Duckpool Road,50,,Lane Fredk. Coach prop,,,newportpast_html
+1946,Duckpool Road,49,,Lewis,Stanley C wgn repr,,newportpast_html
+1946,Duckpool Road,50,,Lane,Fredk. Coach prop,,newportpast_html
 1946,Duckpool Road,51,,Williams,F. J.,G.W.R. insp,newportpast_html
 1946,Duckpool Road,52,,Snowden,Bert,printer,newportpast_html
 1946,Duckpool Road,,,Don's furniture warehouse,,,newportpast_html
@@ -11504,7 +11504,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Duckpool Road,80,,Roberts,Miss Bessie,shop,newportpast_html
 1946,Duckpool Road,81,,James,Alick,tinplate wkr,newportpast_html
 1946,Duckpool Road,82,,Hill,Charles,foreman,newportpast_html
-1946,Duckpool Road,83,,"Redmond Henry G.,bus dvr",,,newportpast_html
+1946,Duckpool Road,83,,Redmond,"Henry G.,bus dvr",,newportpast_html
 1946,Duckpool Road,84,,Wilks,Henry,miller,newportpast_html
 1946,Duckpool Road,85,,Webb,Arthur R.,painter,newportpast_html
 1946,Duckpool Road,86,,Jenkins,John,painter,newportpast_html
@@ -11572,7 +11572,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Duckpool Road,142,,May,Alfred,shearer,newportpast_html
 1946,Duckpool Road,,,Jones W. E. (Transport) Ltd.,,,newportpast_html
 1946,Duckpool Road,143,,Pritchard,Chas,gas wkr,newportpast_html
-1946,Duckpool Road,144,,Flavell Thomas -,,,newportpast_html
+1946,Duckpool Road,144,,Flavell,Thomas -,,newportpast_html
 1946,Duckpool Road,145,,Bryant,Charles,,newportpast_html
 1946,Duckpool Road,146,,Porter,Wm. H.,irnwkr,newportpast_html
 1946,Duckpool Road,147,,Needham,James,tailor,newportpast_html
@@ -11617,13 +11617,13 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Dudley Street,34,,Martin,Mrs. Ellen,,newportpast_html
 1946,Dudley Street,32,,Sims,Fredk.,ironwkr,newportpast_html
 1946,Dudley Street,30,,Martin Zach. H. ironwkr,,,newportpast_html
-1946,Dudley Street,28,,Darrall Harry ironwkr,,,newportpast_html
-1946,Dudley Street,26,,Whitton John ironworker,,,newportpast_html
+1946,Dudley Street,28,,Darrall,Harry ironwkr,,newportpast_html
+1946,Dudley Street,26,,Whitton,John ironworker,,newportpast_html
 1946,Dudley Street,24,,Mort,H.,forgeman,newportpast_html
 1946,Dudley Street,22,,Hayes,Mrs. Martha E.,,newportpast_html
 1946,Dudley Street,20,,Clarke,Tom,ironworker,newportpast_html
 1946,Dudley Street,18,,Furness,Mrs. Florence M.,,newportpast_html
-1946,Dudley Street,16,,Glynn Thos. pottery hand,,,newportpast_html
+1946,Dudley Street,16,,Glynn,Thos. pottery hand,,newportpast_html
 1946,Dudley Street,14,,Haswell,James,ironworkr,newportpast_html
 1946,Dudley Street,12,,Morris,Ernest,nailcutter,newportpast_html
 1946,Dudley Street,10,,Witton,John,steelworker,newportpast_html
@@ -11727,7 +11727,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Durham Road,143,,Canham,Mrs. Lily,,newportpast_html
 1946,Durham Road,145,,Crook,Sidney,gardener,newportpast_html
 1946,Durham Road,147,,Eaton,Mrs. L.,,newportpast_html
-1946,Durham Road,149,,Williams Geo. -,,,newportpast_html
+1946,Durham Road,149,,Williams,Geo. -,,newportpast_html
 1946,Durham Road,151,,Phillips,Wm. E.,,newportpast_html
 1946,Durham Road,153,,Couppey,Frank,G.W.R.,newportpast_html
 1946,Durham Road,155,,Williams,Mrs. Emily,,newportpast_html
@@ -11822,7 +11822,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Durham Road,,,here is Orchard-street,,,newportpast_html
 1946,Durham Road,94,,Hill,John,engineer,newportpast_html
 1946,Durham Road,92,,Wilford,Geo. Fk.,enamellr,newportpast_html
-1946,Durham Road,90,,Bubb Harold LI.,,G.W.R.,newportpast_html
+1946,Durham Road,90,,Bubb,Harold LI.,G.W.R.,newportpast_html
 1946,Durham Road,88,,Gibbon,Mrs.,,newportpast_html
 1946,Durham Road,86,,Jones,William,labourer,newportpast_html
 1946,Durham Road,84,,Tiley,Mrs. M.,,newportpast_html
@@ -11835,7 +11835,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Durham Road,70,,Cox,Thomas,,newportpast_html
 1946,Durham Road,68,,Henker,Mrs. Maria,,newportpast_html
 1946,Durham Road,66,,Williams,Mrs. J.,,newportpast_html
-1946,Durham Road,64,,Davies Thos Wm. smith,,,newportpast_html
+1946,Durham Road,64,,Davies,Thos Wm. smith,,newportpast_html
 1946,Durham Road,62,,Bowen,Edward H.,fitter,newportpast_html
 1946,Durham Road,60,,Bowen Ed. H. (senr),,fitter,newportpast_html
 1946,Durham Road,58,,Edwards,Edgar J.,wagon maker,newportpast_html
@@ -11859,7 +11859,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Durham Road,26,,White,Ern. A. F.,carpntr,newportpast_html
 1946,Durham Road,24,,Elliott,Wm. R.,whlwright,newportpast_html
 1946,Durham Road,22,,Ravalde,Edgar,clerk,newportpast_html
-1946,Durham Road,20,,Leek Joseph brickworker,,,newportpast_html
+1946,Durham Road,20,,Leek,Joseph brickworker,,newportpast_html
 1946,Durham Road,18,,Craske,W. J.,patternmaker,newportpast_html
 1946,Durham Road,16,,Bowen,Walter,collector,newportpast_html
 1946,Durham Road,14,,Pass,Walter,milkman,newportpast_html
@@ -11908,7 +11908,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,East Street,11,,Shawyer,E.,,newportpast_html
 1946,East Street,12,,Dredge,Philip John,,newportpast_html
 1946,East Street,13,,Fletcher,Mrs. Gwendoline,,newportpast_html
-1946,East Street,14,,Freeman Wm. Jno. irwkr,,,newportpast_html
+1946,East Street,14,,Freeman,Wm. Jno. irwkr,,newportpast_html
 1946,East Street,15,,Harris,Fredk.,chauffeur,newportpast_html
 1946,East Street,16,,Baldwin,Mrs. Winifred M,,newportpast_html
 1946,East Street,17,,Watkins,James,G.W.R.,newportpast_html
@@ -12014,7 +12014,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Edward VII Avenue,13,,Johns,Mrs. Emily,Hubbastone,newportpast_html
 1946,Edward VII Avenue,15,,Vaughan,Cyril,Newnham,newportpast_html
 1946,Edward VII Avenue,17,,James,Mrs. S. M.,,newportpast_html
-1946,Edward VII Avenue,19,,Griffiths Wm. J. .,,,newportpast_html
+1946,Edward VII Avenue,19,,Griffiths,Wm. J. .,,newportpast_html
 1946,Edward VII Avenue,21,,Morgan,I. J.,Harton,newportpast_html
 1946,Edward VII Avenue,,,here is Tyllwyd-road,,,newportpast_html
 1946,Edward VII Avenue,23,,Payne,Miss C. H.,,newportpast_html
@@ -12097,7 +12097,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Elaine Crescent,11,,Llewellyn,Mrs. S. E.,Brynteg,newportpast_html
 1946,Elaine Crescent,13,,Jones,D. C.,"draper, Medwyn",newportpast_html
 1946,Elaine Crescent,15,,Marsh,John,"ins agent, Nordene",newportpast_html
-1946,Elaine Crescent,17,,Wright Edwd. P.C.,,Thornbury,newportpast_html
+1946,Elaine Crescent,17,,Wright,Edwd. P.C.,Thornbury,newportpast_html
 1946,Elaine Crescent,19,,Plumley,Wilfred,"com. traveller, Richford",newportpast_html
 1946,Elaine Crescent,21,,Wall,Edgar R.,"ins agent, Sesame",newportpast_html
 1946,Elaine Crescent,23,,Moore,Wilfred H.,"clerk, Braemar",newportpast_html
@@ -12230,7 +12230,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Elysia Street,,,DURHAM ROAD SCHOOLS,,,newportpast_html
 1946,Emlyn Chambers,,,See,Station Approach,,newportpast_html
 1946,Emlyn Street,2,,Void,,,newportpast_html
-1946,Emlyn Street,3,,Lovell Robt. marine storesdealer,,,newportpast_html
+1946,Emlyn Street,3,,Lovell,Robt. marine storesdealer,,newportpast_html
 1946,Emlyn Street,3a,,Sanderson,Wm. J.,lorrydriver,newportpast_html
 1946,Emlyn Street,,,here is Kear-street,,,newportpast_html
 1946,Emlyn Street,,,Salvation,Army Barracks,,newportpast_html
@@ -12250,7 +12250,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Emlyn Street,17,,Evans,Thos. T.,lorry dvr,newportpast_html
 1946,Emlyn Street,18,,Reardon,Laurence,labr,newportpast_html
 1946,Emlyn Street,19,,Norris,Mrs. E.,,newportpast_html
-1946,Emlyn Street,20,,Neale Arthur J. labourer,,,newportpast_html
+1946,Emlyn Street,20,,Neale,Arthur J. labourer,,newportpast_html
 1946,Emlyn Street,21,,Blake,Thos.,labourer,newportpast_html
 1946,Emlyn Street,22 - 23,,Emlyn works-Chas. D.,,,newportpast_html
 1946,Emlyn Street,,,"Phillips, Ltd.",,tent and tarpaulin factory,newportpast_html
@@ -12433,14 +12433,14 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Eveswell Street,18 - 24,,Vacant sites,,,newportpast_html
 1946,Eveswell Street,25,,Ford,A. Wm.,seaman,newportpast_html
 1946,Eveswell Street,26,,Hawyes,Fredk. W.,greengrocer,newportpast_html
-1946,Eveswell Street,27,,Quaintance Chas. S.. shop,,,newportpast_html
+1946,Eveswell Street,27,,Quaintance,Chas. S.. shop,,newportpast_html
 1946,Eveswell Street,28,,Wilkins,Charles,,newportpast_html
 1946,Eveswell Street,29,,Void,,,newportpast_html
 1946,Eveswell Street,30,,Gayton,Mrs. Jane A.,,newportpast_html
 1946,Eveswell Street,31,,Williams,Charles Millner,,newportpast_html
 1946,Eveswell Street,32,,Redmore,Mrs. Tabitha,,newportpast_html
 1946,Eveswell Street,33,,Thomas,Mrs. G. C.,,newportpast_html
-1946,Eveswell Street,34,,Gayton William J .,,,newportpast_html
+1946,Eveswell Street,34,,Gayton,William J .,,newportpast_html
 1946,Eveswell Street,35,,Harvey,E.,fitter,newportpast_html
 1946,Eveswell Terrace,,,No. 242 - 232 Chepstow-road,,,newportpast_html
 1946,Exchange Road,,,See 70 High-street,,,newportpast_html
@@ -12473,7 +12473,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Exeter Street,18,,Lamprey,Archie,clerk,newportpast_html
 1946,Exeter Street,16,,Durant,Ern. J.,eng dvr,newportpast_html
 1946,Exeter Street,14,,Brown,T. A.,Milford,newportpast_html
-1946,Exeter Street,12,,Friend Thos. gen cargo wr,,,newportpast_html
+1946,Exeter Street,12,,Friend,Thos. gen cargo wr,,newportpast_html
 1946,Exeter Street,,,here is London-street,,,newportpast_html
 1946,Exeter Street,10,,Carter,Frank,clerk,newportpast_html
 1946,Exeter Street,8,,Kirkham,Mrs. Annie,,newportpast_html
@@ -12541,7 +12541,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Fairoak Avenue,6,,Davey,Ernest,mason,newportpast_html
 1946,Fairoak Avenue,7,,Greenway,Alfred,brklayer,newportpast_html
 1946,Fairoak Avenue,8,,Richardson,Chas.,G.P.O.,newportpast_html
-1946,Fairoak Avenue,9,,Bevan Wm. Hy. (retired),,,newportpast_html
+1946,Fairoak Avenue,9,,Bevan,Wm. Hy. (retired),,newportpast_html
 1946,Fairoak Avenue,10,,Brown,Mrs. Bessie,,newportpast_html
 1946,Fairoak Avenue,11,,Spell,Mrs. Elizabeth M.,,newportpast_html
 1946,Fairoak Avenue,12,,Harvey,H. V.,G.W.R.,newportpast_html
@@ -12591,7 +12591,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Fairoak Avenue,48,,Casey,Mrs. Emily,,newportpast_html
 1946,Fairoak Avenue,49,,Jones,Thos. Hy.,stlwkr,newportpast_html
 1946,Fairoak Avenue,50,,Martin,I. K.,steelwkr,newportpast_html
-1946,Fairoak Avenue,51,,Martin Wm. J .,,builder,newportpast_html
+1946,Fairoak Avenue,51,,Martin,Wm. J .,builder,newportpast_html
 1946,Fairoak Avenue,,,ST. JOSEPH'S SCHOOL,,,newportpast_html
 1946,Fairoak Avenue,52,,Picken,Mrs. L.,,newportpast_html
 1946,Fairoak Avenue,53,,Thomas,S.,,newportpast_html
@@ -12604,7 +12604,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Fairoak Avenue,60,,Williams,Danl.,steelwkr,newportpast_html
 1946,Fairoak Avenue,61,,Wright,S. J.,goods guard,newportpast_html
 1946,Fairoak Avenue,62,,Collingbourne,G.,butcher,newportpast_html
-1946,Fairoak Avenue,63,,Saunders Fredk. decortr,,,newportpast_html
+1946,Fairoak Avenue,63,,Saunders,Fredk. decortr,,newportpast_html
 1946,Fairoak Avenue,64,,Williams,Miss Bertha,,newportpast_html
 1946,Fairoak Avenue,65,,Price,Alfred E.,machinist,newportpast_html
 1946,Fairoak Avenue,66,,Meese,Haywood,blksmith,newportpast_html
@@ -12687,7 +12687,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Feering Street,47,,Blackwood,Mrs. Margaret,,newportpast_html
 1946,Feering Street,49,,Smith,Hy.,lime burner,newportpast_html
 1946,Feering Street,51,,Hyde,Harry E.,,newportpast_html
-1946,Feering Street,53,,Ryan John labourer,,,newportpast_html
+1946,Feering Street,53,,Ryan,John labourer,,newportpast_html
 1946,Feering Street,55,,Pike,Fredk. Jas.,labourer,newportpast_html
 1946,Feering Street,57,,Butler,Robt.,cargo worker,newportpast_html
 1946,Feering Street,59,,Mayo,Albert,labourer,newportpast_html
@@ -12939,7 +12939,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Filey Road,10,,St. John Leon H.,,window cleaner,newportpast_html
 1946,Filey Road,8,,Holland,Mrs. E. M.,,newportpast_html
 1946,Filey Road,6,,Friend,Geo. H.,vanman,newportpast_html
-1946,Filey Road,4,,Fowles Arthur H signalman,,,newportpast_html
+1946,Filey Road,4,,Fowles,Arthur H signalman,,newportpast_html
 1946,Filey Road,2,,Webber,Fred,brickwkr,newportpast_html
 1946,Firbank Avenue,,,off St. Julian's road,,,newportpast_html
 1946,Firbank Avenue,2,,Johns,Wm.,Firbank house,newportpast_html
@@ -13148,7 +13148,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Friars Street,,,Shops,Act Inspect,office,newportpast_html
 1946,Friars Street,,,here is Dock-street,,,newportpast_html
 1946,Friars Street,,,Pan Produce Ltd.,,wholesale provision merchants,newportpast_html
-1946,Friars Street,,,Williams Evan (Printers) Ld.,,Cambrian Printing works,newportpast_html
+1946,Friars Street,,,Williams,Evan (Printers) Ld.,Cambrian Printing works,newportpast_html
 1946,Frobisher Road,,,Off Somerton road,,,newportpast_html
 1946,Frobisher Road,1,,Eaton,Enoch,ironworker,newportpast_html
 1946,Frobisher Road,3,,Wright,Fred T.,timber worker,newportpast_html
@@ -13281,7 +13281,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Gaer Park Avenue,20,,Garroway,W. F.,gasfitter,newportpast_html
 1946,Gaer Park Avenue,18,,Eagle,Jno.,brass polisher,newportpast_html
 1946,Gaer Park Avenue,16,,Goldsworthy,W. F.,G.W.R.,newportpast_html
-1946,Gaer Park Avenue,14,,Stinchcombe Harold A . G.W.R.,,,newportpast_html
+1946,Gaer Park Avenue,14,,Stinchcombe,Harold A . G.W.R.,,newportpast_html
 1946,Gaer Park Avenue,12,,Clapton,H.,guard G.W.R.,newportpast_html
 1946,Gaer Park Avenue,10,,Holland,L.,,newportpast_html
 1946,Gaer Park Avenue,8,,Inker,Jno.,millhand,newportpast_html
@@ -13454,7 +13454,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Gaer Park Hill,,,McCaffray J. C.,,Strathmore,newportpast_html
 1946,Gaer Park Hill,,,Davies,Archibald,"clerk, St. Anthon",newportpast_html
 1946,Gaer Park Hill,,,Hislop,Donald,"labr, Aldon",newportpast_html
-1946,Gaer Park Hill,16,,Johns Fredk. ins. agent,,,newportpast_html
+1946,Gaer Park Hill,16,,Johns,Fredk. ins. agent,,newportpast_html
 1946,Gaer Park Hill,14,,Mills,,"George, engineer",newportpast_html
 1946,Gaer Park Hill,12,,Courtney B ert L.,,grcrs ast,newportpast_html
 1946,Gaer Park Hill,10,,Hancock,Oliver,,newportpast_html
@@ -13495,7 +13495,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Gaer Park Lane,6,,Taylor,W. S.,steelwkr,newportpast_html
 1946,Gaer Park Lane,4,,Bennett,H. R.,steel erector,newportpast_html
 1946,Gaer Park Lane,2,,Conway,R. E.,optician,newportpast_html
-1946,Gaer Park Parade,1,,Atwood,W. John,gardner,newportpast_html
+1946,Gaer Park Parade,1,,Atwood,W. John,Gardener,newportpast_html
 1946,Gaer Park Parade,3,,Evans Leslie P.C.,,,newportpast_html
 1946,Gaer Park Parade,5,,Cuff,Sidney,G.W.R.,newportpast_html
 1946,Gaer Park Parade,7,,Garland,Ferguson J.,baker & confectioner,newportpast_html
@@ -13934,7 +13934,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Glebe Street,8,,Hooper,Wm. T.,labourer,newportpast_html
 1946,Glebe Street,9,,Hodge,John,labourer,newportpast_html
 1946,Glebe Street,10,,Newman,Mrs. Agnes E.,,newportpast_html
-1946,Glebe Street,11,,Buller Fredk. stableman,,,newportpast_html
+1946,Glebe Street,11,,Buller,Fredk. stableman,,newportpast_html
 1946,Glebe Street,12,,Walters,Mrs.,,newportpast_html
 1946,Glebe Street,13,,Underwood,Mrs. Florence,,newportpast_html
 1946,Glebe Street,14,,Evans,George E.,postman,newportpast_html
@@ -14075,7 +14075,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Goodrich Crescent,87,,Workman,Hy. J.,foreman,newportpast_html
 1946,Goodrich Crescent,89,,Jenkins,Mrs. Elizabeth,,newportpast_html
 1946,Goodrich Crescent,91,,Limrick,Wm.,fireman,newportpast_html
-1946,Goodrich Crescent,93,,Purnell Wm. J .,,donkeymn,newportpast_html
+1946,Goodrich Crescent,93,,Purnell,Wm. J .,donkeymn,newportpast_html
 1946,Goodrich Crescent,95,,Howes,Wm. E.,gardener,newportpast_html
 1946,Goodrich Crescent,97,,Symonds,Ernest,G.W.R.,newportpast_html
 1946,Goodrich Crescent,99,,Bevan,Charles,guard,newportpast_html
@@ -14255,7 +14255,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Graham Street,18,,Courtney,H. A.,labourer,newportpast_html
 1946,Graham Street,19,,Smart,G.,,newportpast_html
 1946,Graham Street,20,,Symonds,J. F.,shipwright,newportpast_html
-1946,Graham Street,21,,Redmond Saml. LI.,,"milkman, A.R.P. Warden",newportpast_html
+1946,Graham Street,21,,Redmond,Saml. LI.,"milkman, A.R.P. Warden",newportpast_html
 1946,Graham Street,22,,Browning,Mrs. F.,,newportpast_html
 1946,Graham Street,23,,Pearce,Harold,labourer,newportpast_html
 1946,Graham Street,24,,Naish,Albert G.,G.W.R.,newportpast_html
@@ -14311,7 +14311,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Graig Park Avenue,71,,Green,E. W.,tram drvr,newportpast_html
 1946,Graig Park Avenue,69,,Hesford,A.,motor mech,newportpast_html
 1946,Graig Park Avenue,67,,Phillips,A.,gardener,newportpast_html
-1946,Graig Park Avenue,65,,"Stradling Wm,",,plasterer,newportpast_html
+1946,Graig Park Avenue,65,,Stradling,"Wm,",plasterer,newportpast_html
 1946,Graig Park Avenue,63,,Jeffreys,Frank,,newportpast_html
 1946,Graig Park Avenue,61,,Perkins,G. H.,fireman,newportpast_html
 1946,Graig Park Avenue,59,,Curtis,Charles G.,foreman,newportpast_html
@@ -14779,7 +14779,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Haisbro Avenue,17,,Butler,Wm. G.,french pol,newportpast_html
 1946,Haisbro Avenue,19,,Keene,Alfred Ernest,,newportpast_html
 1946,Haisbro Avenue,21,,Cartmall,E. R.,printer,newportpast_html
-1946,Haisbro Avenue,23,,King,Henry,park gardnr,newportpast_html
+1946,Haisbro Avenue,23,,King,Henry,park Gardener,newportpast_html
 1946,Haisbro Avenue,24,,Beecham,Arthur,brklyr,newportpast_html
 1946,Haisbro Avenue,22,,Rudd,J.,,newportpast_html
 1946,Haisbro Avenue,20,,Edwards,H.,carpenter,newportpast_html
@@ -14830,7 +14830,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Halstead Street,74,,Toole,Walter,ironworker,newportpast_html
 1946,Halstead Street,72,,Field,Arthur,ironwkr,newportpast_html
 1946,Halstead Street,70,,Henthome,James,labr,newportpast_html
-1946,Halstead Street,68,,"Marshall Fredk. J.,bootmk",,,newportpast_html
+1946,Halstead Street,68,,Marshall,"Fredk. J.,bootmk",,newportpast_html
 1946,Halstead Street,66,,Maddicks,P.,fitter,newportpast_html
 1946,Halstead Street,,,here is Gordon-street,,,newportpast_html
 1946,Halstead Street,64,,Phillips,Jno. G.,labourer,newportpast_html
@@ -14884,7 +14884,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Hamilton Street,29,,Lofthouse,John,ironwrkr,newportpast_html
 1946,Hamilton Street,31,,Mason,William,ironwkr,newportpast_html
 1946,Hamilton Street,33,,Jarvis,Arthur,ironworker,newportpast_html
-1946,Hamilton Street,35,,Horton Thos. ironworker,,,newportpast_html
+1946,Hamilton Street,35,,Horton,Thos. ironworker,,newportpast_html
 1946,Hamilton Street,37,,Jones,John,steelworker,newportpast_html
 1946,Hamilton Street,39,,Corfield,Mrs. Sarah,,newportpast_html
 1946,Hamilton Street,41,,Sockett,Joseph,,newportpast_html
@@ -14896,12 +14896,12 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Hamilton Street,48,,Gough,Ivor,machinist,newportpast_html
 1946,Hamilton Street,46,,Jarvis,Mrs. Athalia,,newportpast_html
 1946,Hamilton Street,44,,Sockett,Mrs. Rose,,newportpast_html
-1946,Hamilton Street,42,,Attewell Edwin ironwkr,,,newportpast_html
+1946,Hamilton Street,42,,Attewell,Edwin ironwkr,,newportpast_html
 1946,Hamilton Street,40,,Mannion Michael ironwkr,,,newportpast_html
 1946,Hamilton Street,38,,Fisher,Clifford W.,G.W.R.,newportpast_html
 1946,Hamilton Street,36,,Horton,Rueben J.,labr,newportpast_html
 1946,Hamilton Street,34,,Smith,John E.,ironworker,newportpast_html
-1946,Hamilton Street,32,,Baugh Fredk. ironworker,,,newportpast_html
+1946,Hamilton Street,32,,Baugh,Fredk. ironworker,,newportpast_html
 1946,Hamilton Street,30,,Bourne Bert ironwkr,,,newportpast_html
 1946,Hamilton Street,28,,Blakemore,Isaac E.,ironwkr,newportpast_html
 1946,Hamilton Street,26,,Harley,Jno. Edwd.,labr,newportpast_html
@@ -15218,7 +15218,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Hawthorn Square,10,,Hadley,F. E.,steelworker,newportpast_html
 1946,Hawthorn Square,11,,Witton,Tom,"assist, driver",newportpast_html
 1946,Hawthorn Square,12,,Eynon,Albert V.,forgemn,newportpast_html
-1946,Heather Road,1,,"Jackson Chas.H.,elect engr",,,newportpast_html
+1946,Heather Road,1,,Jackson,"Chas.H.,elect engr",,newportpast_html
 1946,Heather Road,3,,Horler,Ernest,engineer,newportpast_html
 1946,Heather Road,5,,Morgan,Miss A. E.,Penalt,newportpast_html
 1946,Heather Road,7,,Weare,Alfred J.,G.W.R.,newportpast_html
@@ -15318,7 +15318,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Henry Street,19,,Williams,Mrs. May,,newportpast_html
 1946,Henry Street,20,,Andrews,Ambrose J.,labr,newportpast_html
 1946,Henry Street,21,,Gibson,Joseph,steelworkr,newportpast_html
-1946,Henry Street,22,,Lewis Thos. W7m.,,,newportpast_html
+1946,Henry Street,22,,Lewis,Thos. W7m.,,newportpast_html
 1946,Henry Street,23,,Bees,Miss Louisa,,newportpast_html
 1946,Henry Street,24,,O'Brien Hector,,carpenter,newportpast_html
 1946,Henry Street,25,,Blakemore,Hy.,stoker,newportpast_html
@@ -15500,7 +15500,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Hereford Street,17,,Moore,Mrs. Margaret,,newportpast_html
 1946,Hereford Street,18,,Ingleson,Stan.,,newportpast_html
 1946,Hereford Street,19,,Bullock,Christopher,electrician,newportpast_html
-1946,Hereford Street,20,,Trezise James S. steel wkr,,,newportpast_html
+1946,Hereford Street,20,,Trezise,James S. steel wkr,,newportpast_html
 1946,Hereford Street,,,here is Bristol-street,,,newportpast_html
 1946,Hereford Street,21,,Stone,Alfred,labourer,newportpast_html
 1946,Hereford Street,22,,Hayes,Mrs. H. M.,,newportpast_html
@@ -15535,7 +15535,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Hereford Street,,,here is Exeter-street,,,newportpast_html
 1946,Hereford Street,45,,Barton,Mrs.,,newportpast_html
 1946,Hereford Street,46,,Beddows,Joseph,tailor,newportpast_html
-1946,Hereford Street,47,,Allen Arthur S. packer,,,newportpast_html
+1946,Hereford Street,47,,Allen,Arthur S. packer,,newportpast_html
 1946,Hereford Street,48,,Hooper,Oliver E.,,newportpast_html
 1946,Hereford Street,49,,Hill,Mrs. Mary,,newportpast_html
 1946,Hereford Street,50,,Lacey,Percy,ironworker,newportpast_html
@@ -15573,7 +15573,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Hewertson Street,16,,Bastin,Wm.,labourer,newportpast_html
 1946,Hewertson Street,17,,Tyler,Wm.,labourer,newportpast_html
 1946,Hewertson Street,18,,Heames,Reg. F.,labourer,newportpast_html
-1946,Hewertson Street,19,,Betts Wm. J. ironworke',,,newportpast_html
+1946,Hewertson Street,19,,Betts,Wm. J. ironworke',,newportpast_html
 1946,Hewertson Street,20,,Mills,Frederick C.,,newportpast_html
 1946,Hewertson Street,21,,Wookey,A.,labourer,newportpast_html
 1946,Hewertson Street,22,,Reed,Mrs. Sarah Ann,,newportpast_html
@@ -15632,7 +15632,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Hewertson Street,81,,Vaughan,Thomas,labr,newportpast_html
 1946,Hewertson Street,82,,Wreford,Albert,labourer,newportpast_html
 1946,Hewertson Street,83,,Vincent,Chas. A.,marine engineer,newportpast_html
-1946,Hewertson Street,84,,Jones Chas. brewery hand,,,newportpast_html
+1946,Hewertson Street,84,,Jones,Chas. brewery hand,,newportpast_html
 1946,Hewertson Street,85,,Wookey,Richard,labr,newportpast_html
 1946,Hewertson Street,86,,Tiley,Henry,assistant,newportpast_html
 1946,Hewertson Street,87,,Hawkins,Mrs. Louisa,,newportpast_html
@@ -16020,15 +16020,15 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Hoskins Street,13,,Burgoyne,Mrs. Edith,,newportpast_html
 1946,Hoskins Street,14,,Carnell,Ernest,shearer,newportpast_html
 1946,Hoskins Street,15,,Gatehouse,John E,wghr,newportpast_html
-1946,Hoskins Street,16,,Gatehouse Jno. Wm. (jnr),,decorator,newportpast_html
+1946,Hoskins Street,16,,Gatehouse,Jno. Wm. (jnr),decorator,newportpast_html
 1946,Hoskins Street,17,,Sims,Percy,bricklayer,newportpast_html
 1946,Hoskins Street,,,Turner,James,gasworker,newportpast_html
 1946,Hoskins Street,18,,Dearden,Harry,plasterer,newportpast_html
-1946,Hoskins Street,19,,Cole Fredk. mill hand,,,newportpast_html
+1946,Hoskins Street,19,,Cole,Fredk. mill hand,,newportpast_html
 1946,Hoskins Street,20,,Jones,William Herbert,steelworker,newportpast_html
 1946,Hoskins Street,21,,McCarthy Edwin,,labrer,newportpast_html
 1946,Hoskins Street,22,,Allen,Mrs. Ethel May,,newportpast_html
-1946,Hoskins Street,23,,Lavender Wm. E. smith,,,newportpast_html
+1946,Hoskins Street,23,,Lavender,Wm. E. smith,,newportpast_html
 1946,Hoskins Street,24,,Brian,Joseph,,newportpast_html
 1946,Hoskins Street,25,,Harrison,Mrs. Emma,,newportpast_html
 1946,Hoskins Street,26,,Garland F. basketmaker,,,newportpast_html
@@ -16079,7 +16079,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Hoskins Street,68,,Stevens,V.,scalemaker,newportpast_html
 1946,Hoskins Street,69,,Goodwin,Mrs. Lilian,,newportpast_html
 1946,Hoskins Street,70,,Wollen,Wm. T.,furncman,newportpast_html
-1946,Hoskins Street,71,,"Canham Geo. H.,furncemn",,,newportpast_html
+1946,Hoskins Street,71,,Canham,"Geo. H.,furncemn",,newportpast_html
 1946,Hoskins Street,72,,Tilly,Ivor,G.W.R.,newportpast_html
 1946,Hoskins Street,73,,Wilks,Kenneth,driver,newportpast_html
 1946,Hoskins Street,74,,Grace,Thomas,,newportpast_html
@@ -16153,13 +16153,13 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Hubert Road,4,,Morgan,D. P.,fitter,newportpast_html
 1946,Hubert Road,2,,Hackett,Mrs. M. G.,Rocklyn,newportpast_html
 1946,Ifton Street,1,,Satchell Alf. Jas. ironwkr,,,newportpast_html
-1946,Ifton Street,3,,Bate John ironwkr,,,newportpast_html
+1946,Ifton Street,3,,Bate,John ironwkr,,newportpast_html
 1946,Ifton Street,5,,Edwards,Harry,ironwkr,newportpast_html
 1946,Ifton Street,7,,Bates,Andrew,iworker,newportpast_html
 1946,Ifton Street,9,,Thorpe,Frederick,,newportpast_html
 1946,Ifton Street,11,,Bates,Jno.,ironworker,newportpast_html
 1946,Ifton Street,13,,Smith,Mrs. Harriet,,newportpast_html
-1946,Ifton Street,15,,Blud John T ironwrkr,,,newportpast_html
+1946,Ifton Street,15,,Blud,John T ironwrkr,,newportpast_html
 1946,Ifton Street,17,,Wright,W.,labourer,newportpast_html
 1946,Ifton Street,19,,Bate,Edward,ironworker,newportpast_html
 1946,Ifton Street,21,,Williams,Percy,roofer,newportpast_html
@@ -16415,7 +16415,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Jenkins Street,15,,Spruce,John S,labourer,newportpast_html
 1946,Jenkins Street,17,,Spruce,Mrs. Martha,,newportpast_html
 1946,Jenkins Street,19,,Humphries,E,steelwkr,newportpast_html
-1946,Jenkins Street,21,,Flinn Wm. Ge o,,dairyman,newportpast_html
+1946,Jenkins Street,21,,Flinn,Wm. Ge o,dairyman,newportpast_html
 1946,Jenkins Street,23,,Worner,Edwin J,labr,newportpast_html
 1946,Jenkins Street,25,,Tolley Ge o,,Orb works,newportpast_html
 1946,Jenkins Street,27,,Stone,John S,ironworker,newportpast_html
@@ -16476,7 +16476,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Jones Street,29,,Ryan,Mrs. Clara,,newportpast_html
 1946,Jones Street,30,,Waite,Hy.,road foreman,newportpast_html
 1946,Jones Street,31,,Woodridge,Wm. G.,pltlyr,newportpast_html
-1946,Jones Street,32,,Waters John T. platelayer,,,newportpast_html
+1946,Jones Street,32,,Waters,John T. platelayer,,newportpast_html
 1946,Jones Street,33,,Byfield,Mrs. Clara,,newportpast_html
 1946,Jones Street,34,,Evans,William H.,,newportpast_html
 1946,Jones Street,35,,Lewis,Arthur,steelworker,newportpast_html
@@ -16488,7 +16488,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Jones Street,40,,Mitchell,W. H.,labourer,newportpast_html
 1946,Jones Street,41,,Rendell,Albert,painter,newportpast_html
 1946,Jones Street,42,,Burman,Thos. J.,machnst,newportpast_html
-1946,Jones Street,43,,Taylor Fredk. labourer,,,newportpast_html
+1946,Jones Street,43,,Taylor,Fredk. labourer,,newportpast_html
 1946,Jones Street,44,,Gillard,W.,baker,newportpast_html
 1946,Jones Street,45,,Mare,Mrs. Beatrice,,newportpast_html
 1946,Jones Street,46,,Byfield,Wm.,steelworker,newportpast_html
@@ -16553,7 +16553,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Keene Street,21,,Vincent,Geo. L.,stoker,newportpast_html
 1946,Keene Street,10,,Edwards Tohn boilermkr,,,newportpast_html
 1946,Keene Street,8,,Davies,Job,ironworker,newportpast_html
-1946,Keene Street,6,,Davies Alfred ironworker,,,newportpast_html
+1946,Keene Street,6,,Davies,Alfred ironworker,,newportpast_html
 1946,Keene Street,4,,Bloor,Mrs. Elizabeth M.,,newportpast_html
 1946,Keene Street,2,,Lockley,Mrs. Elizabeth,,newportpast_html
 1946,Kelvedon Street,,,Off Corporation-road,,,newportpast_html
@@ -16598,13 +16598,13 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Kenilworth Road,16,,Hayes,John F.,ironwkr,newportpast_html
 1946,Kenilworth Road,14,,Jones,H.,motor body mkr,newportpast_html
 1946,Kenilworth Road,12,,Barklam,W.,roller,newportpast_html
-1946,Kenilworth Road,10,,Thomas Walter E. managr,,,newportpast_html
+1946,Kenilworth Road,10,,Thomas,Walter E. managr,,newportpast_html
 1946,Kenilworth Road,8,,Fowler,Albert E.,teacher,newportpast_html
 1946,Kenilworth Road,6,,Henley,Frank,labourer,newportpast_html
 1946,Kenilworth Road,4,,Eales,Jno.,storekeeper,newportpast_html
 1946,Kenilworth Road,2,,North,F. J.,moulder,newportpast_html
 1946,Kensington Grove,1,,Woodberry,Mrs. L.,,newportpast_html
-1946,Kensington Grove,3,,"Howlett David,master mar",,,newportpast_html
+1946,Kensington Grove,3,,Howlett,"David,master mar",,newportpast_html
 1946,Kensington Grove,5,,Leonard,David,bus dvr,newportpast_html
 1946,Kensington Grove,7,,"Filmer F. W.,flour opertve",,,newportpast_html
 1946,Kensington Grove,9,,Firth,C. W.,,newportpast_html
@@ -16626,7 +16626,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Kensington Place,7,,Bull,F. G.,G.W.R.,newportpast_html
 1946,Kensington Place,8,,Brown,G. L.,decorator,newportpast_html
 1946,Kensington Place,9,,King -,,,newportpast_html
-1946,Kensington Place,10,,"Southall Samuel R .,schoolmaster",,,newportpast_html
+1946,Kensington Place,10,,Southall,"Samuel R .,schoolmaster",,newportpast_html
 1946,Kensington Place,11,,Partridge,Miss Phyllis,,newportpast_html
 1946,Kensington Place,12,,Smith,Trevor R.,,newportpast_html
 1946,Kensington Place,13,,Skinner,H. A.,shoe maker,newportpast_html
@@ -16672,7 +16672,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Kensington Place,,,S.JOHN THE EVANGELIST CHURCH,,,newportpast_html
 1946,Kensington Place,,,Here is St. John's-road,,,newportpast_html
 1946,Kensington Place,36,,Cefn,Parc,Army billets,newportpast_html
-1946,Kensington Place,37,,"Gwyther Chas. R.,Caerwent",,,newportpast_html
+1946,Kensington Place,37,,Gwyther,"Chas. R.,Caerwent",,newportpast_html
 1946,Kensington Place,38,,Mercy,Albert E.,lorry dvr,newportpast_html
 1946,Keynsham Avenue,1,,Bowen,Robert,Alethea,newportpast_html
 1946,Keynsham Avenue,3,,Small,Henry,Corbiere,newportpast_html
@@ -16736,7 +16736,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Kingsmill Terrace,2,,Deacon,Albert,,newportpast_html
 1946,Kingsmill Terrace,3,,Tovey,Reg.,bus driver,newportpast_html
 1946,Kingsmill Terrace,4,,Harris,William,,newportpast_html
-1946,Kingsmill Terrace,5,,Rendall Fredk. engine dvr,,,newportpast_html
+1946,Kingsmill Terrace,5,,Rendall,Fredk. engine dvr,,newportpast_html
 1946,Kingsmill Terrace,6,,Harries,Mrs. Elizabeth,,newportpast_html
 1946,Kingsmill Terrace,7,,Davis,T.,fish salesman,newportpast_html
 1946,Kingsmill Terrace,,,Hughes,B. T.,boilersmith,newportpast_html
@@ -16833,7 +16833,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Lambert Street,1,,Barnes,John,shop asst,newportpast_html
 1946,Lambert Street,3,,Holley,R.,van driver,newportpast_html
 1946,Lambert Street,5,,Taylor,A. B.,meter repr,newportpast_html
-1946,Lambert Street,7,,Davies Wm. T. signalman,,,newportpast_html
+1946,Lambert Street,7,,Davies,Wm. T. signalman,,newportpast_html
 1946,Lambert Street,9,,Kenwrick,Fredk.,G.W.R.,newportpast_html
 1946,Lambert Street,11,,Daniels,Wm. J.,collier,newportpast_html
 1946,Lambert Street,13,,Millard,Frank,labourer,newportpast_html
@@ -16884,7 +16884,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Lambert Street,24,,Pullen,Wm. M.,decorator,newportpast_html
 1946,Lambert Street,22,,Chivers,Fredk.,signalman,newportpast_html
 1946,Lambert Street,20,,Davies,Edwd. A.,clerk,newportpast_html
-1946,Lambert Street,18,,Davies Edward J. inspectr,,,newportpast_html
+1946,Lambert Street,18,,Davies,Edward J. inspectr,,newportpast_html
 1946,Lambert Street,16,,Davies,Ernest M.,G.W.R.,newportpast_html
 1946,Lambert Street,14,,Williams,S.,boilermaker,newportpast_html
 1946,Lambert Street,12,,Marels,Herbt. G.,bricklyr,newportpast_html
@@ -17012,7 +17012,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Lewis Street,35,,Rawling,Spencer,cranedvr,newportpast_html
 1946,Lewis Street,36,,Geary,Richard,postman,newportpast_html
 1946,Lewis Street,37,,Tadman,Albert F.,hobblr,newportpast_html
-1946,Lewis Street,38,,Griffiths Edwd. F. eng.dvr,,,newportpast_html
+1946,Lewis Street,38,,Griffiths,Edwd. F. eng.dvr,,newportpast_html
 1946,Lewis Street,39,,Birt,Charles H.,ironwkr,newportpast_html
 1946,Lewis Street,40,,Bragg -,,,newportpast_html
 1946,Lewis Street,41,,Brimble,Mrs. A.,,newportpast_html
@@ -17051,7 +17051,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Lewis Street,71,,Weaving,Hubert,mtr dvr,newportpast_html
 1946,Lewis Street,,,Vile Bros. Ltd.,,aerated water works,newportpast_html
 1946,Lewis Street,72,,Baker,Mrs. Elizabeth R.,,newportpast_html
-1946,Lewis Street,73,,Tidman Thos. foundryman,,,newportpast_html
+1946,Lewis Street,73,,Tidman,Thos. foundryman,,newportpast_html
 1946,Lewis Street,74,,Morgan,Mrs.,,newportpast_html
 1946,Lewis Street,75,,Hammett,John,carpenter,newportpast_html
 1946,Lewis Street,76,,Pring,John,trimmer,newportpast_html
@@ -17074,7 +17074,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Lewis Street,91,,Price,Edwin J.,,newportpast_html
 1946,Lewis Street,92,,Lavender,Alfred J.,labr,newportpast_html
 1946,Lewis Street,93,,Lewis,Ernest Hy.,,newportpast_html
-1946,Lewis Street,94,,Cusk Hy. cabinetmaker,,,newportpast_html
+1946,Lewis Street,94,,Cusk,Hy. cabinetmaker,,newportpast_html
 1946,Lewis Street,95,,Brickell,Fredk.,irnwkr,newportpast_html
 1946,Lewis Street,96,,Brooks,George,labourer,newportpast_html
 1946,Lewis Street,97,,Fisher,Reg. J.,,newportpast_html
@@ -17218,7 +17218,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Lime Crescent,30,,Kemp,Geo.,quarryman,newportpast_html
 1946,Lime Crescent,28,,Hughes,Fredk.,irnwkr,newportpast_html
 1946,Lime Crescent,26,,Sheppard,Albert,gaswork,newportpast_html
-1946,Lime Crescent,24,,Wix Fredk.. fireman,,,newportpast_html
+1946,Lime Crescent,24,,Wix,Fredk.. fireman,,newportpast_html
 1946,Lime Crescent,22,,Smith,Jack I.,bricklayer,newportpast_html
 1946,Lime Crescent,20,,Gardiner,Geo.,fitter,newportpast_html
 1946,Lime Crescent,18,,Davies,Arthur,ironwkr,newportpast_html
@@ -17241,7 +17241,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Lime Street,15,,Bell,John,ship' s painter,newportpast_html
 1946,Lime Street,17,,Williams,Thos.,G.W.R.,newportpast_html
 1946,Lime Street,19,,Roberts,Mrs. Gertrude,,newportpast_html
-1946,Lime Street,21,,Brown Thos. boilermaker,,,newportpast_html
+1946,Lime Street,21,,Brown,Thos. boilermaker,,newportpast_html
 1946,Lime Street,23,,Gray,Andrew,rivet maker,newportpast_html
 1946,Lime Street,25,,Pollard,Frank,trimmer,newportpast_html
 1946,Lime Street,27,,Edwards,Arthur S.,steelwr,newportpast_html
@@ -17295,7 +17295,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Lime Street,96,,Williams,Dennis,G.W.R.,newportpast_html
 1946,Lime Street,94,,Powrie,Chas.,newsagent,newportpast_html
 1946,Lime Street,92,,Hodges,Fred,ironworker,newportpast_html
-1946,Lime Street,90,,Hobbs Thos. G.W.R.,,,newportpast_html
+1946,Lime Street,90,,Hobbs,Thos. G.W.R.,,newportpast_html
 1946,Lime Street,88,,Allen -',,,newportpast_html
 1946,Lime Street,86,,Williams,Mrs. Iris,,newportpast_html
 1946,Lime Street,84,,Jones,C.,ships painter,newportpast_html
@@ -17355,7 +17355,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Linden Road,19,,Williams,Wm.,schoolmaster,newportpast_html
 1946,Linden Road,21,,Barrett,Thos.,Shenstone,newportpast_html
 1946,Linden Road,20,,Davies,V. C.,clerk of wrks,newportpast_html
-1946,Linden Road,18,,Thomas Jas.. steelwkr,,,newportpast_html
+1946,Linden Road,18,,Thomas,Jas.. steelwkr,,newportpast_html
 1946,Linden Road,16,,Robinson W.W.,,carpntr,newportpast_html
 1946,Linden Road,14,,Davies,Mrs. M. A.,,newportpast_html
 1946,Linden Road,12,,Davies,Wm.,ironwrkr,newportpast_html
@@ -17385,14 +17385,14 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Liscombe Street,16,,McAtee Ivor,,steelworker,newportpast_html
 1946,Liscombe Street,18,,Blakemore,Wm.,irnwkr,newportpast_html
 1946,Liscombe Street,20,,Bennett,Thos.,ironwkr,newportpast_html
-1946,Liscombe Street,22,,Arnold John ironwkr,,,newportpast_html
+1946,Liscombe Street,22,,Arnold,John ironwkr,,newportpast_html
 1946,Liscombe Street,24,,Whiting,Sidney J.,labr.,newportpast_html
 1946,Liscombe Street,26,,Griffiths,John,ironworker,newportpast_html
 1946,Liscombe Street,28,,O'Brien Jno.,,labourer,newportpast_html
 1946,Liscombe Street,30,,Williams,Geo.,irnwkr,newportpast_html
 1946,Liscombe Street,32,,Barrett,J. W.,fitter's helpr,newportpast_html
 1946,Liscombe Street,34,,Rhodes,Frank,ironworker,newportpast_html
-1946,Liscombe Street,36,,Edwards Arthur ironworker,,,newportpast_html
+1946,Liscombe Street,36,,Edwards,Arthur ironworker,,newportpast_html
 1946,Liscombe Street,38,,Stapleton,W. L.,ship's fireman,newportpast_html
 1946,Liscombe Street,40,,Flook,J. H.,labourer,newportpast_html
 1946,Liscombe Street,42,,Beech,Caleb,pickler,newportpast_html
@@ -17410,7 +17410,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Liscombe Street,45,,Yates,J.,ironworker,newportpast_html
 1946,Liscombe Street,43,,Peplow,Joseph,ironworkr,newportpast_html
 1946,Liscombe Street,41,,Arnold,David,ironworker,newportpast_html
-1946,Liscombe Street,39,,Ashwood Benjamin ironwkr,,,newportpast_html
+1946,Liscombe Street,39,,Ashwood,Benjamin ironwkr,,newportpast_html
 1946,Liscombe Street,37,,Hartshome,John,ironwkr,newportpast_html
 1946,Liscombe Street,35,,Poyner,Alfred,ironworker,newportpast_html
 1946,Liscombe Street,33,,Deakin,Jos. D.,ironwkr,newportpast_html
@@ -17424,15 +17424,15 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Liscombe Street,17,,Butterwell,Wm.,Hy. labr,newportpast_html
 1946,Liscombe Street,15,,Green,James,ironworker,newportpast_html
 1946,Liscombe Street,13,,Bennett,Wm. Thos.,ironworker,newportpast_html
-1946,Liscombe Street,11,,Heath Ernest ironworker,,,newportpast_html
-1946,Liscombe Street,9,,Cartwright Geo. H. ironworker,,,newportpast_html
+1946,Liscombe Street,11,,Heath,Ernest ironworker,,newportpast_html
+1946,Liscombe Street,9,,Cartwright,Geo. H. ironworker,,newportpast_html
 1946,Liscombe Street,7,,Painter,John,shop,newportpast_html
 1946,Liscombe Street,5,,Clarke,Wm.,engine driver,newportpast_html
 1946,Liscombe Street,3,,Davies,Thos.,ironworker,newportpast_html
 1946,Liscombe Street,1,,Stevens,Mrs. Beatrice,,newportpast_html
 1946,Liverpool Street,,,Hereford-street to London-street,,,newportpast_html
 1946,Liverpool Street,1,,Hayward,R.,dairyman,newportpast_html
-1946,Liverpool Street,3,,"Speight Thos. F.,tool setter",,,newportpast_html
+1946,Liverpool Street,3,,Speight,"Thos. F.,tool setter",,newportpast_html
 1946,Liverpool Street,5,,Phelps,Mrs. Olive L.,,newportpast_html
 1946,Liverpool Street,7,,Swift,Arthur,bricklayer,newportpast_html
 1946,Liverpool Street,9,,Howe,Mrs. Mabel,,newportpast_html
@@ -17475,7 +17475,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Livingstone Place,29,,Quinlan,Thomas,G.W.R.,newportpast_html
 1946,Livingstone Place,30,,Prangley,E.,,newportpast_html
 1946,Livingstone Place,31,,Barrett,Arthur,bricklyr,newportpast_html
-1946,Livingstone Place,32,,Blackmore Daniel J.haulier,,,newportpast_html
+1946,Livingstone Place,32,,Blackmore,Daniel J.haulier,,newportpast_html
 1946,Livingstone Place,33,,Perryman,J.,steelworker,newportpast_html
 1946,Livingstone Place,,,here is Speke-street,,,newportpast_html
 1946,Livingstone Place,34,,Powell,Saml.,coal mercht,newportpast_html
@@ -17485,7 +17485,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Livingstone Place,38,,Taylor,L. G.,fitters' helper,newportpast_html
 1946,Livingstone Place,39,,Clarke,Geo.,general dlr,newportpast_html
 1946,Livingstone Place,40,,Ackland,Bertram,,newportpast_html
-1946,Livingstone Place,41,,Probert Wm. J. blacksmth,,,newportpast_html
+1946,Livingstone Place,41,,Probert,Wm. J. blacksmth,,newportpast_html
 1946,Livingstone Place,42,,Campion,Jas.,ironworker,newportpast_html
 1946,Livingstone Place,43,,Rind,Mrs. M.,,newportpast_html
 1946,Livingstone Place,44,,Wood,James,,newportpast_html
@@ -17666,7 +17666,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Llanvair Road,26,,White,Wm.,G.W.R.,newportpast_html
 1946,Llanvair Road,28,,Shakesheff,Robert,G.W.R.,newportpast_html
 1946,Llanvair Road,30,,Coombs,Alfred,,newportpast_html
-1946,Llanvair Road,32,,Walkley Wm. E. ironwkr,,,newportpast_html
+1946,Llanvair Road,32,,Walkley,Wm. E. ironwkr,,newportpast_html
 1946,Llanvair Road,,,Parfitt,F. C.,builder's yd and workshops,newportpast_html
 1946,Llanvair Road,34,,Manship,Albert,G.W.R.,newportpast_html
 1946,Llanvair Road,36,,McCarthy Fredk. L.,,lorry driver,newportpast_html
@@ -17911,7 +17911,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Lliswerry Road,,,here is Moreland avenue,,,newportpast_html
 1946,Lliswerry Road,94,,Pope,Mrs. Mary,Chatfield,newportpast_html
 1946,Lliswerry Road,92,,Pritchard,G. H.,"fitter, Trigfan",newportpast_html
-1946,Lliswerry Road,90,,Beddington Frank.foremn,,Clovelly,newportpast_html
+1946,Lliswerry Road,90,,Beddington,Frank.foremn,Clovelly,newportpast_html
 1946,Lliswerry Road,88,,Wesson,Reg.,Westonia,newportpast_html
 1946,Lliswerry Road,86,,Harris,Mrs. C. M.,The Retreat,newportpast_html
 1946,Lliswerry Road,84,,Whittington,John,"labourer, Cefn-Bryn",newportpast_html
@@ -17922,7 +17922,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Lliswerry Road,74,,Bennett,Wm.,"chem. wrkr., The Olives",newportpast_html
 1946,Lliswerry Road,72,,Taylor,A.,Turf Moor,newportpast_html
 1946,Lliswerry Road,70,,Smith,Thomas Hy.,fitter,newportpast_html
-1946,Lliswerry Road,68,,"Thomas Stanley L.,quarryman",,Colwyn,newportpast_html
+1946,Lliswerry Road,68,,Thomas,"Stanley L.,quarryman",Colwyn,newportpast_html
 1946,Lliswerry Road,,,"here is Greenmeadow-road, Avenue and Close",,,newportpast_html
 1946,Lliswerry Road,64,,Mortimer,,"Mrs. Lena M., grocer",newportpast_html
 1946,Lliswerry Road,62,,Blackburn,Mrs. Lilian,Yen Lea,newportpast_html
@@ -17993,7 +17993,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Lloyd Street,40,,Hill -,,,newportpast_html
 1946,Lloyd Street,38,,Jones,E.,lorry driver,newportpast_html
 1946,Lloyd Street,36,,Speight,Albert,machinist,newportpast_html
-1946,Lloyd Street,34,,Collier Thos. V.' K.,,tent maker,newportpast_html
+1946,Lloyd Street,34,,Collier,Thos. V.' K.,tent maker,newportpast_html
 1946,Lloyd Street,32,,Edmondson,Mrs. Lilian,,newportpast_html
 1946,Lloyd Street,30,,Jones,W.,ironworker,newportpast_html
 1946,Lloyd Street,28,,Hadley,Henry,,newportpast_html
@@ -18085,7 +18085,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,London Street,43,,Owen,Mrs. Mary J.,,newportpast_html
 1946,London Street,,,here is Manchester-street,,,newportpast_html
 1946,London Street,,,here is Bristol-street,,,newportpast_html
-1946,London Street,72,,Jones Geo. O. porter,,,newportpast_html
+1946,London Street,72,,Jones,Geo. O. porter,,newportpast_html
 1946,London Street,70,,Merrick,Hy. Jas.,mtr dvr,newportpast_html
 1946,London Street,68,,Fothergill,Mrs. Maud,,newportpast_html
 1946,London Street,66,,Parfitt,Chas.,wareh'smn,newportpast_html
@@ -18127,7 +18127,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Lord Street,,,Davies,Henry W.,signwtr,newportpast_html
 1946,Lord Street,2,,Frost,Mrs.,,newportpast_html
 1946,Lord Street,3,,Pearce,Hy. John,labourer,newportpast_html
-1946,Lord Street,4,,"Bowden Geo. Hy baker,",,,newportpast_html
+1946,Lord Street,4,,Bowden,"Geo. Hy baker,",,newportpast_html
 1946,Lord Street,5,,Johns,A.,rubber worker,newportpast_html
 1946,Lord Street,10,,Doble,Wm. Hy.,labourer,newportpast_html
 1946,Lord Street,11,,Millson,John W.,fireman,newportpast_html
@@ -18240,7 +18240,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Lyne Road,13,,Amos,Geo.,slaughterman,newportpast_html
 1946,Lyne Road,14,,Fortey,Mrs. Eliza,,newportpast_html
 1946,Lyne Road,15,,Latham,Fredk. Wm.,labr.,newportpast_html
-1946,Lyne Road,16,,Sleeman Wm. grocer,,,newportpast_html
+1946,Lyne Road,16,,Sleeman,Wm. grocer,,newportpast_html
 1946,Lyne Road,,,here is Edwin-street,,,newportpast_html
 1946,Lyne Road,17,,Shakeshaff -,,,newportpast_html
 1946,Lyne Road,18,,Smith,F. W. G.,,newportpast_html
@@ -18273,7 +18273,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Lyne Road,53,,Foote,Mrs. Dorothy,,newportpast_html
 1946,Lyne Road,,,Youth's,Unemployment Cntr,,newportpast_html
 1946,Maddox Close,,,Factory-road,,,newportpast_html
-1946,Maesglas Avenue,1,,Edwards Jas W . G.W.R.,,,newportpast_html
+1946,Maesglas Avenue,1,,Edwards,Jas W . G.W.R.,,newportpast_html
 1946,Maesglas Avenue,3,,Cisey,Michael,wagon repr,newportpast_html
 1946,Maesglas Avenue,5,,Bale,Christopher S.,trmr,newportpast_html
 1946,Maesglas Avenue,7,,Bale,Robt. R.,fuelworker,newportpast_html
@@ -18385,7 +18385,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Maesglas Avenue,68,,Simms,Daniel,trimmer,newportpast_html
 1946,Maesglas Avenue,66,,Lewis,Fredk. J.,labr,newportpast_html
 1946,Maesglas Avenue,64,,Upton,A. J.,warehsman,newportpast_html
-1946,Maesglas Avenue,62,,Chard Wm. G .,,driver,newportpast_html
+1946,Maesglas Avenue,62,,Chard,Wm. G .,driver,newportpast_html
 1946,Maesglas Avenue,60,,Higgins,Chas.,stoker,newportpast_html
 1946,Maesglas Avenue,58,,Williams,John G.,bus conductor,newportpast_html
 1946,Maesglas Avenue,56,,Griffiths,C. H.,fitter,newportpast_html
@@ -18471,7 +18471,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Maesglas Crescent,101,,Williams,Geo. R.,labr,newportpast_html
 1946,Maesglas Crescent,103,,Shorney,Albt.,steel erctr,newportpast_html
 1946,Maesglas Crescent,105,,Morris,Jas. Geo.,trimmer,newportpast_html
-1946,Maesglas Crescent,107,,Jones,Victor G.,gardnr,newportpast_html
+1946,Maesglas Crescent,107,,Jones,Victor G.,Gardener,newportpast_html
 1946,Maesglas Crescent,109,,Dyer,Jas. Chas.,lorry dr,newportpast_html
 1946,Maesglas Crescent,111,,Sidney,Jno.,ironworker,newportpast_html
 1946,Maesglas Crescent,113,,Turner -,,,newportpast_html
@@ -18563,7 +18563,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Maesglas Crescent,140,,Woodman,Jno.,G.W.R.,newportpast_html
 1946,Maesglas Crescent,138,,Charlton,Jno.,G.W.R.,newportpast_html
 1946,Maesglas Crescent,136,,Smith,Wm.,steelworker,newportpast_html
-1946,Maesglas Crescent,134,,"Williams Alfred,scrapwkr",,,newportpast_html
+1946,Maesglas Crescent,134,,Williams,"Alfred,scrapwkr",,newportpast_html
 1946,Maesglas Crescent,132,,Dobbs,Wm. H.,G.W.R.,newportpast_html
 1946,Maesglas Crescent,130,,Broome,Mrs.,,newportpast_html
 1946,Maesglas Crescent,128,,Anstice,E. V.,G.W.R.,newportpast_html
@@ -18576,7 +18576,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Maesglas Crescent,116,,Christenson,Frank,boatman,newportpast_html
 1946,Maesglas Crescent,114,,Williams,Geo.,boilr mkr,newportpast_html
 1946,Maesglas Crescent,,,MAESGLAS SCHOOL,,,newportpast_html
-1946,Maesglas Crescent,112,,Rogers Joseph T .,,G.W.R.,newportpast_html
+1946,Maesglas Crescent,112,,Rogers,Joseph T .,G.W.R.,newportpast_html
 1946,Maesglas Crescent,110,,Powis,Ivor G.,labourer,newportpast_html
 1946,Maesglas Crescent,108,,Littlejohns,R.,tally clerk,newportpast_html
 1946,Maesglas Crescent,106,,Stanbury,A. G.,storekpr,newportpast_html
@@ -18860,7 +18860,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Maesglas Road,60,,Litson,Jno.,docker,newportpast_html
 1946,Maesglas Road,58,,Powell,William,trimmer,newportpast_html
 1946,Maesglas Road,56,,Parker,Fredk. T.,process worker,newportpast_html
-1946,Maesglas Road,54,,Jenkins Harold LI.,,mtr dv,newportpast_html
+1946,Maesglas Road,54,,Jenkins,Harold LI.,mtr dv,newportpast_html
 1946,Maesglas Road,52,,O'Sullivan Humphrey,,G.W.R,newportpast_html
 1946,Maesglas Road,50,,O'Connell B. P.,,G.W.R.,newportpast_html
 1946,Maesglas Road,48,,Elworthy,Wm.,stee'lwrkr,newportpast_html
@@ -18930,7 +18930,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Magor Street,51,,Lewis,John,,newportpast_html
 1946,Magor Street,53,,Arthur,Mrs. Sarah J.,,newportpast_html
 1946,Magor Street,55,,Davies,Thomas J.,ironwr,newportpast_html
-1946,Magor Street,57,,Whittington John ironwr,,,newportpast_html
+1946,Magor Street,57,,Whittington,John ironwr,,newportpast_html
 1946,Magor Street,59,,Hancox,Wm.,shop,newportpast_html
 1946,Magor Street,61,,Cleaver,Chas.,labourer,newportpast_html
 1946,Magor Street,63,,Kelly Herbt. Wm. ironwkr,,,newportpast_html
@@ -18950,7 +18950,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Magor Street,80,,Caddick,Harold,ironwkr,newportpast_html
 1946,Magor Street,78,,Lane,Wm. J.,warehsman,newportpast_html
 1946,Magor Street,76,,Lane,James,ironworker,newportpast_html
-1946,Magor Street,74,,Phipps Geo. ironworker,,,newportpast_html
+1946,Magor Street,74,,Phipps,Geo. ironworker,,newportpast_html
 1946,Magor Street,72,,Mustoe,Mrs. G.,,newportpast_html
 1946,Magor Street,70,,Ashforth,Ed.,ironwkr,newportpast_html
 1946,Magor Street,68,,Peed,John Patrick,shop,newportpast_html
@@ -19115,7 +19115,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Malpas (main) Road,,,Thomas,Mrs. Sarah Ann,Rye-Croft,newportpast_html
 1946,Malpas (main) Road,,,Rawlings M r s . A.,,Arlington,newportpast_html
 1946,Malpas (main) Road,,,MOUNT PLEASANT,,,newportpast_html
-1946,Malpas (main) Road,1,,Roberts,Jesse,gardner,newportpast_html
+1946,Malpas (main) Road,1,,Roberts,Jesse,Gardener,newportpast_html
 1946,Malpas (main) Road,2,,Parish,John,painter,newportpast_html
 1946,Malpas (main) Road,3,,Neades,Oliver,gardener,newportpast_html
 1946,Malpas (main) Road,4,,Harris,William,greengrcr,newportpast_html
@@ -19137,7 +19137,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Malpas (main) Road,,,Desmond -,,Lonsdale,newportpast_html
 1946,Malpas (main) Road,,,Coles,Richard G.,"G.P.O. engr, Emsworth",newportpast_html
 1946,Malpas (main) Road,,,Hodder,Mrs. Emily M.,Hortonville,newportpast_html
-1946,Malpas (main) Road,,,Franklin Wm. T .,,Frankfort,newportpast_html
+1946,Malpas (main) Road,,,Franklin,Wm. T .,Frankfort,newportpast_html
 1946,Malpas (main) Road,,,Stephens,W. T.,"secretary, Parkdale",newportpast_html
 1946,Malpas (main) Road,,,Lawrence,E.,Burra Tor,newportpast_html
 1946,Malpas (main) Road,,,Woodland Stores,,"F. Jones, proprietor",newportpast_html
@@ -19347,7 +19347,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Malpas Road,2,,Lockwood,H.,steelworker,newportpast_html
 1946,Malpas Road,3,,Legge,Mrs. Alice,,newportpast_html
 1946,Malpas Road,,,Coles,Fredk.,clerk,newportpast_html
-1946,Malpas Road,4,,Williams Chas. quarryman,,,newportpast_html
+1946,Malpas Road,4,,Williams,Chas. quarryman,,newportpast_html
 1946,Malpas Road,5,,French,Gilbert Rd.,G.W.R.,newportpast_html
 1946,Malpas Road,6,,Legge,Mrs. Florence,,newportpast_html
 1946,Malpas Road,7,,Kirby,W. T.,amb driver,newportpast_html
@@ -19441,7 +19441,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Malpas Road,108,,Evans,Samuel C.,grocer,newportpast_html
 1946,Malpas Road,,,Smith,Geo.,,newportpast_html
 1946,Malpas Road,106,,Somers,Sidney W.,boot repairer,newportpast_html
-1946,Malpas Road,104,,Jenkins Alfred T .,,postmn,newportpast_html
+1946,Malpas Road,104,,Jenkins,Alfred T .,postmn,newportpast_html
 1946,Malpas Road,102,,Read,Clifford,baker,newportpast_html
 1946,Malpas Road,100,,Blakes,W.,G.W.R.,newportpast_html
 1946,Malpas Road,98,,Smith,Mrs. G. W.,,newportpast_html
@@ -19522,7 +19522,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Manchester Street,4,,Kenny,Ivor,scale repr,newportpast_html
 1946,Manchester Street,,,here is Camelot-place,,,newportpast_html
 1946,Manchester Street,5,,Cooper,Mrs. Agnes,,newportpast_html
-1946,Manchester Street,,,Morgan Geo. S .,,labourer,newportpast_html
+1946,Manchester Street,,,Morgan,Geo. S .,labourer,newportpast_html
 1946,Manchester Street,6,,Johnson,Mrs. Mary,,newportpast_html
 1946,Manchester Street,7,,Fife,Robert,shipwright,newportpast_html
 1946,Manchester Street,8,,Dowen,Albert,steelwrkr,newportpast_html
@@ -19532,7 +19532,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Manchester Street,12,,Waters,Morgan,ironwkr,newportpast_html
 1946,Manchester Street,13,,Williams,Wm.,G .W.R.,newportpast_html
 1946,Manchester Street,14,,Ballinger C. G .,,ironwkr,newportpast_html
-1946,Manchester Street,15,,Morris Wm. Jas. ironwkr,,,newportpast_html
+1946,Manchester Street,15,,Morris,Wm. Jas. ironwkr,,newportpast_html
 1946,Manchester Street,16,,Johanson,Mrs. Matilda,,newportpast_html
 1946,Manchester Street,17,,Person,John,painter,newportpast_html
 1946,Manchester Street,18,,Burt,William,,newportpast_html
@@ -19542,7 +19542,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Manchester Street,20,,Roberts -,,,newportpast_html
 1946,Manchester Street,21,,Duggan,S. J.,,newportpast_html
 1946,Manchester Street,22,,Crewe,Harold,,newportpast_html
-1946,Manchester Street,23,,Rackham Wm. salesman,,,newportpast_html
+1946,Manchester Street,23,,Rackham,Wm. salesman,,newportpast_html
 1946,Manchester Street,24,,Plaister,George,postman,newportpast_html
 1946,Manchester Street,25,,Jones,Donald H.,Bus Conductor,newportpast_html
 1946,Manchester Street,26,,Lewis,Ernest,labourer,newportpast_html
@@ -19562,9 +19562,9 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Manchester Street,56,,Beams Alb. G .,,G.W.R.,newportpast_html
 1946,Manchester Street,57,,Dowen,Sidney,ironwkr,newportpast_html
 1946,Manchester Street,58,,Pendree,Howard,tailor,newportpast_html
-1946,Manchester Street,59,,Wright Arthur R .,,fitter,newportpast_html
+1946,Manchester Street,59,,Wright,Arthur R .,fitter,newportpast_html
 1946,Manchester Street,60,,Ballinger,Wm.,ironwkr,newportpast_html
-1946,Manchester Street,61,,Tayler James G .,,G.W.R.,newportpast_html
+1946,Manchester Street,61,,Tayler,James G .,G.W.R.,newportpast_html
 1946,Manchester Street,62,,Harris,Ed. G.,decorator,newportpast_html
 1946,Manchester Street,63,,Alexander,Wm,motor dv,newportpast_html
 1946,Manchester Street,64,,Harbour,Walter W.,bus conductor,newportpast_html
@@ -19578,7 +19578,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Manley Road,6,,Atkins,Gladys,,newportpast_html
 1946,Manley Road,,,Williams H.W.,,civil engnr,newportpast_html
 1946,Manley Road,7,,Hall,Thomas George,,newportpast_html
-1946,Manley Road,8,,Jones,Stewart H.,gardnr,newportpast_html
+1946,Manley Road,8,,Jones,Stewart H.,Gardener,newportpast_html
 1946,Manley Road,9,,Hall,James F.,G.W.R.,newportpast_html
 1946,Manley Road,10,,Williams,Mrs. L.,,newportpast_html
 1946,Manley Road,11,,Ainge,Henry,,newportpast_html
@@ -19643,7 +19643,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Maple Avenue,62,,Platt,Emmanuel J.,ironwr,newportpast_html
 1946,Maple Avenue,64,,Thomas,Desmond,labr,newportpast_html
 1946,Maple Avenue,66,,Satchell,Edwd C.,labr,newportpast_html
-1946,Maple Avenue,68,,"Elliott Wm. - ,",,,newportpast_html
+1946,Maple Avenue,68,,Elliott,"Wm. - ,",,newportpast_html
 1946,Maple Avenue,70,,Berry,William,trimmer,newportpast_html
 1946,Maple Avenue,72,,Williams,Geo. H.,dock wkr,newportpast_html
 1946,Maple Avenue,74,,Wallace,R. E.,storekpr,newportpast_html
@@ -19716,7 +19716,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Marion Street,9,,Murray,Jas.,fitters helper,newportpast_html
 1946,Marion Street,11,,Ward,Thomas,trimmer,newportpast_html
 1946,Marion Street,13,,Orchard,William,,newportpast_html
-1946,Marion Street,15,,Jones Arthur D. hoistman,,,newportpast_html
+1946,Marion Street,15,,Jones,Arthur D. hoistman,,newportpast_html
 1946,Marion Street,17,,Murray,Mrs. Phyllis,,newportpast_html
 1946,Marion Street,19,,French,Thos. J.,steelwkr,newportpast_html
 1946,Marion Street,21,,Jones,Percival,labourer,newportpast_html
@@ -19754,7 +19754,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Marion Street,,,here is Oswald-road,,,newportpast_html
 1946,Marion Street,,,here is Mendalgief-rd.,,,newportpast_html
 1946,Marion Street,,,Recreation ground,,,newportpast_html
-1946,Marion Street,86,,Pring Wm. H. hoistman,,,newportpast_html
+1946,Marion Street,86,,Pring,Wm. H. hoistman,,newportpast_html
 1946,Marion Street,84,,Phillips,Clifford C. T.,painter & decorator,newportpast_html
 1946,Marion Street,82,,Lamerton,A.,groundsman,newportpast_html
 1946,Marion Street,80,,Abdureman,Amhed,seamn,newportpast_html
@@ -19913,7 +19913,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Provision Market,14,,Limbrick,P.,fishmonger,newportpast_html
 1946,Market Arcade,,,(Late Fennell's),,,newportpast_html
 1946,Market Arcade,,Arcade Chambers,(See under High street),,,newportpast_html
-1946,Market Arcade,,Arcade Chambers,Tanner Geo. caretaker,,,newportpast_html
+1946,Market Arcade,,Arcade Chambers,Tanner,Geo. caretaker,,newportpast_html
 1946,Market Arcade,1,,Lewis Misses M. and B.,,,newportpast_html
 1946,Market Arcade,3,,Barrett,T.,florist,newportpast_html
 1946,Market Arcade,5,,Phillips,Miss K.,dairy,newportpast_html
@@ -19961,10 +19961,10 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Marlborough Road,33,,Lannen,Wm.,"com. travlr, Machen house",newportpast_html
 1946,Marlborough Road,35,,Clarke,Mrs G. M,,newportpast_html
 1946,Marlborough Road,37,,Davies,Frederick Isaac,Rothsay,newportpast_html
-1946,Marlborough Road,39,,Dunk Albert J.. Eton view,,,newportpast_html
+1946,Marlborough Road,39,,Dunk,Albert J.. Eton view,,newportpast_html
 1946,Marlborough Road,41,,Warren,H. C.,motor bldr,newportpast_html
 1946,Marlborough Road,,,Moulton,A. A.,sweet wrhse,newportpast_html
-1946,Marlborough Road,43,,"Baynham Ernest W.,dairyman",,,newportpast_html
+1946,Marlborough Road,43,,Baynham,"Ernest W.,dairyman",,newportpast_html
 1946,Marlborough Road,43a,,Eustace,Fred,gear cutter and engineer,newportpast_html
 1946,Marlborough Road,45,,Thompson,Alfred,chef,newportpast_html
 1946,Marlborough Road,47,,MacQueen Jno.,,plater,newportpast_html
@@ -20123,9 +20123,9 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Marshfield Street,6,,Fletcher,Fredk.,ironworkr,newportpast_html
 1946,Marshfield Street,4,,Virgo,Thos. Hy.,labourer,newportpast_html
 1946,Marshfield Street,2,,Virgo,Hy. Geo.,ironwkr,newportpast_html
-1946,May Street,1,,Roberts Wm. platelayer,,,newportpast_html
+1946,May Street,1,,Roberts,Wm. platelayer,,newportpast_html
 1946,May Street,3,,Kersley,Mrs. E,,newportpast_html
-1946,May Street,5,,Small Chas. H. mason,,,newportpast_html
+1946,May Street,5,,Small,Chas. H. mason,,newportpast_html
 1946,May Street,7,,Golightly,Francis George,fitter,newportpast_html
 1946,May Street,9,,Millar,Gilbert J.,waggon repairer,newportpast_html
 1946,May Street,11,,Hughes,Mrs. Annie E.,,newportpast_html
@@ -20210,7 +20210,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Mellon Street,3,,Morgan,Mrs. Gertrude,,newportpast_html
 1946,Mellon Street,5,,Jones,Wm. G.,blacksmith's striker,newportpast_html
 1946,Mellon Street,7,,Truman,Reg. J.,labr,newportpast_html
-1946,Mellon Street,9,,Bishop Geo',,fish frier,newportpast_html
+1946,Mellon Street,9,,Bishop,Geo',fish frier,newportpast_html
 1946,Mellon Street,11,,Ryan,W.,labourer,newportpast_html
 1946,Mellon Street,13,,Reardon,J.,labourer,newportpast_html
 1946,Mellon Street,15,,Reardon,J.,army,newportpast_html
@@ -20250,7 +20250,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Mendalgief Road,12,,Seer,Israel,,newportpast_html
 1946,Mendalgief Road,14,,Welsher,Ernest,foreman,newportpast_html
 1946,Mendalgief Road,16,,Rowlands,Walter A.,coal trimmer,newportpast_html
-1946,Mendalgief Road,18,,Jones Jno. Hy. labourer,,,newportpast_html
+1946,Mendalgief Road,18,,Jones,Jno. Hy. labourer,,newportpast_html
 1946,Mendalgief Road,20,,Hughes,Wm. R.,trimmer,newportpast_html
 1946,Mendalgief Road,,,here is Milman-street,,,newportpast_html
 1946,Mendalgief Road,22,,Casey,Wm.,"J.P., trimmer",newportpast_html
@@ -20263,7 +20263,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Mendalgief Road,36,,Harries,James,G.W.R.,newportpast_html
 1946,Mendalgief Road,,,here is Alice-street,,,newportpast_html
 1946,Mendalgief Road,38,,Pearce,Thos. Hy.,foreman fitter,newportpast_html
-1946,Mendalgief Road,40,,Bright Jos. labourer,,,newportpast_html
+1946,Mendalgief Road,40,,Bright,Jos. labourer,,newportpast_html
 1946,Mendalgief Road,42,,Robins,,"E. A., taxi propr",newportpast_html
 1946,Mendalgief Road,44,,Evans,Thos.,gateman,newportpast_html
 1946,Mendalgief Road,46,,Gough,G. T.,,newportpast_html
@@ -20282,7 +20282,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Mendalgief Road,70,,Williams,Mrs.,,newportpast_html
 1946,Mendalgief Road,,,Maggs,Harry,,newportpast_html
 1946,Mendalgief Road,72,,Whitfield,Alex T.,warehouseman,newportpast_html
-1946,Mendalgief Road,74,,Maggs Wm. hammerman,,,newportpast_html
+1946,Mendalgief Road,74,,Maggs,Wm. hammerman,,newportpast_html
 1946,Mendalgief Road,76,,Thayer,Walter,gateman,newportpast_html
 1946,Mendalgief Road,,,PILL RECREATION GROUND,,,newportpast_html
 1946,Mendalgief Road,,,here is Lime-street,,,newportpast_html
@@ -20464,7 +20464,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Mill Parade,17,,Riordan,Jas. J.,fisherman,newportpast_html
 1946,Mill Parade,18,,Wall,Albert J.,engineer,newportpast_html
 1946,Mill Parade,19,,Maloney,Wm.,G.W.R.,newportpast_html
-1946,Mill Parade,20,,Webb Robt. dock pilot,,,newportpast_html
+1946,Mill Parade,20,,Webb,Robt. dock pilot,,newportpast_html
 1946,Mill Parade,,,South,Wales Motor Traders,Ltd.,newportpast_html
 1946,Mill Parade,,,Tyne Engineering Works,,,newportpast_html
 1946,Mill Parade,,,Scrap,Warehouse,,newportpast_html
@@ -20579,7 +20579,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Milman Street,58,,Lewis,Wm. G.,engine dvr,newportpast_html
 1946,Milman Street,60,,Pitman,Thomas,G.W.R.,newportpast_html
 1946,Milman Street,62,,Craddock,Mrs. Elizabeth,,newportpast_html
-1946,Milman Street,64,,Jones Geo. coal trimmer,,,newportpast_html
+1946,Milman Street,64,,Jones,Geo. coal trimmer,,newportpast_html
 1946,Milman Street,41,,French,James,coal trimmr,newportpast_html
 1946,Milman Street,39,,Purnell,Dd,boilermaker,newportpast_html
 1946,Milman Street,37,,Davies,J. T.,manager,newportpast_html
@@ -20614,7 +20614,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Milner Street,18,,Williams,Albert,crane dvr,newportpast_html
 1946,Milner Street,20,,Tyler,Edward,driver,newportpast_html
 1946,Milner Street,22,,Wight,Ivor G.,G.W.R.,newportpast_html
-1946,Milner Street,24,,Onions John T. ironwkr,,,newportpast_html
+1946,Milner Street,24,,Onions,John T. ironwkr,,newportpast_html
 1946,Milner Street,26,,Smith,Arthur,lorry driver,newportpast_html
 1946,Milner Street,28,,Edwards,Albert E.,picklr,newportpast_html
 1946,Milner Street,30,,Strong,Wm. V.,iron wkr,newportpast_html
@@ -20949,7 +20949,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Myrtle Grove,6,,Bynon,Chas,"H., mason",newportpast_html
 1946,Myrtle Grove,7,,Harris,Wm.,painter,newportpast_html
 1946,Myrtle Grove,8,,Poore,Herbert,iron wkr,newportpast_html
-1946,Myrtle Grove,9,,Hawkins Geo. T.. steward,,,newportpast_html
+1946,Myrtle Grove,9,,Hawkins,Geo. T.. steward,,newportpast_html
 1946,Myrtle Grove,10,,Bown,Wm. A.,blksmith,newportpast_html
 1946,Myrtle Grove,11,,Whittington,Chas.,ironwk,newportpast_html
 1946,Myrtle Grove,12,,Jones,Mrs. May,,newportpast_html
@@ -21004,7 +21004,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Nash Road,108,,Morgan,Syd,,newportpast_html
 1946,Nash Road,110,,Widdows,Wm.,labourer,newportpast_html
 1946,Nash Road,112,,Travers,Leonard,steelwk,newportpast_html
-1946,Nash Road,114,,Otton Fredk. C. boot repr,,,newportpast_html
+1946,Nash Road,114,,Otton,Fredk. C. boot repr,,newportpast_html
 1946,Nash Road,116,,Hennessey,P.,,newportpast_html
 1946,Nash Road,118,,Johnson,P.,ironworker,newportpast_html
 1946,Nash Road,120,,Pearcy,Mrs. S. E.,,newportpast_html
@@ -21392,19 +21392,19 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Oakley Street,2,,Knight,Wm. Jas.,stlwkr,newportpast_html
 1946,Oakley Street,4,,Williams,J. Hy.,ironwkr,newportpast_html
 1946,Oakley Street,6,,Meeson,Mrs. Emma,,newportpast_html
-1946,Oakley Street,8,,Phillips Benj engineer,,,newportpast_html
+1946,Oakley Street,8,,Phillips,Benj engineer,,newportpast_html
 1946,Oakley Street,10,,Goodwin,Mrs. Florence,,newportpast_html
-1946,Oakley Street,12,,Reynolds Wm. ironworker,,,newportpast_html
+1946,Oakley Street,12,,Reynolds,Wm. ironworker,,newportpast_html
 1946,Oakley Street,14,,Wall,Mrs. Martha,,newportpast_html
 1946,Oakley Street,16,,Jones,Rowland,steel wkr,newportpast_html
 1946,Oakley Street,18,,Powell,J. T.,ironworker,newportpast_html
 1946,Oakley Street,20,,Lewis,Charles,ironwkr,newportpast_html
 1946,Oakley Street,22,,Harris,Chas. V.,iron wkr,newportpast_html
-1946,Oakley Street,24,,Loveridge Geo. J. ironwkr,,,newportpast_html
+1946,Oakley Street,24,,Loveridge,Geo. J. ironwkr,,newportpast_html
 1946,Oakley Street,26,,Bloomfield,E.,,newportpast_html
 1946,Oakley Street,28,,Carvell,Joseph,ironworkr,newportpast_html
 1946,Oakley Street,30,,Page,Jas. Wm. Hy.,paintr,newportpast_html
-1946,Oakley Street,32,,Edwards Hy. ironworker,,,newportpast_html
+1946,Oakley Street,32,,Edwards,Hy. ironworker,,newportpast_html
 1946,Oakley Street,34,,Price,Harry,shearer,newportpast_html
 1946,Oakley Street,36,,Holding,Ben,ironworker,newportpast_html
 1946,Oakley Street,38,,Collins -,,,newportpast_html
@@ -21427,9 +21427,9 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Oakley Street,27,,Cureton,Henry,,newportpast_html
 1946,Oakley Street,25,,Still,Jas. Hy.,iron worker,newportpast_html
 1946,Oakley Street,23,,Saunders,E.,watchman,newportpast_html
-1946,Oakley Street,21,,Postle William watchman,,,newportpast_html
+1946,Oakley Street,21,,Postle,William watchman,,newportpast_html
 1946,Oakley Street,19,,Adlington,W. B.,hawker,newportpast_html
-1946,Oakley Street,17,,Russon John E .,,ironwkr,newportpast_html
+1946,Oakley Street,17,,Russon,John E .,ironwkr,newportpast_html
 1946,Oakley Street,15,,Robinson,J.,army,newportpast_html
 1946,Oakley Street,13,,Carpenter,Reg.,ironwkr,newportpast_html
 1946,Oakley Street,11,,Carpenter,Mrs. Amelia A,,newportpast_html
@@ -21438,7 +21438,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Oakley Street,7,,Pearce,Stephen,labourer,newportpast_html
 1946,Oakley Street,5,,Edge H.( ironworker,,,newportpast_html
 1946,Oakley Street,3,,Barley,Mrs Harriett,,newportpast_html
-1946,Oakley Street,1,,Carter Thos. ironworker,,,newportpast_html
+1946,Oakley Street,1,,Carter,Thos. ironworker,,newportpast_html
 1946,Oaks Close,,,off Cae-Brynton-road,,,newportpast_html
 1946,Oaks Close,,,Caygill,Arthur W.,"steelwkr., Tredegar villa",newportpast_html
 1946,Oaks Close,,,Jones,Frederick H.,"G.W.R., Kingston",newportpast_html
@@ -21462,7 +21462,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Oliver Road,23,,Clarke,Mrs. Ethel,,newportpast_html
 1946,Oliver Road,25,,Huish,Frank,bus driver,newportpast_html
 1946,Oliver Road,27,,Jones,Wm.,ironworker,newportpast_html
-1946,Oliver Road,29,,"Jones Wm. H. C. - ,",,,newportpast_html
+1946,Oliver Road,29,,Jones,"Wm. H. C. - ,",,newportpast_html
 1946,Oliver Road,31,,Williams -,,,newportpast_html
 1946,Oliver Road,33,,Biddlecombe,Mrs. M.,,newportpast_html
 1946,Oliver Road,35,,Hammett,Chas. Thos.,steel erector,newportpast_html
@@ -21496,7 +21496,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Oliver Road,14,,Bell,Robt. F.,crane driver,newportpast_html
 1946,Oliver Road,12,,Scott,Walter,labourer,newportpast_html
 1946,Oliver Road,10,,Prosser,Chas.,labourer,newportpast_html
-1946,Oliver Road,8,,Davies Chas. R. steelwkr,,,newportpast_html
+1946,Oliver Road,8,,Davies,Chas. R. steelwkr,,newportpast_html
 1946,Oliver Road,6,,Verren,Regd.,steel wkr,newportpast_html
 1946,Oliver Road,4,,Anslow,S.,,newportpast_html
 1946,Oliver Road,2,,Howells -,,,newportpast_html
@@ -21564,7 +21564,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Orchard Street,,,here is Durham-road,,,newportpast_html
 1946,Orchard Street,,,here is Durham-lane,,,newportpast_html
 1946,Orchard Street,17,,Bebell,Wm. H.,,newportpast_html
-1946,Orchard Street,19,,Payne Ernest A .,,mason,newportpast_html
+1946,Orchard Street,19,,Payne,Ernest A .,mason,newportpast_html
 1946,Orchard Street,21,,Banks,Mrs. Harriett,,newportpast_html
 1946,Orchard Street,23,,Lloyd,Walter,,newportpast_html
 1946,Orchard Street,25,,Watt,Robt. John,mason,newportpast_html
@@ -21648,7 +21648,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Oswald Road,18,,Sully,Chas.,fisherman,newportpast_html
 1946,Oswald Road,16,,Glyn,Mrs. Kate,,newportpast_html
 1946,Oswald Road,14,,Ralph,Albert J.,"baker, Gleneldon",newportpast_html
-1946,Oswald Road,12,,Greer Wm. M .,,boilerman,newportpast_html
+1946,Oswald Road,12,,Greer,Wm. M .,boilerman,newportpast_html
 1946,Oswald Road,,,FATHER HILL'S MEMORIAL R.C. SCHOOL,,,newportpast_html
 1946,Oswald Road,10,,Adams,Wm. Ivor,wagon carpenter,newportpast_html
 1946,Oswald Road,8,,Thomas,Mrs. Winnifred,,newportpast_html
@@ -21658,7 +21658,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Oxford Street,1,,Valentine,E.,,newportpast_html
 1946,Oxford Street,2,,Arundell,,"Mrs, M. J.",newportpast_html
 1946,Oxford Street,3,,Davies,,"Albert, postman",newportpast_html
-1946,Oxford Street,4,,Alexander Walter B .,,irnwr,newportpast_html
+1946,Oxford Street,4,,Alexander,Walter B .,irnwr,newportpast_html
 1946,Oxford Street,5,,Dean,Alfred,postman,newportpast_html
 1946,Oxford Street,6,,Richards,Albert,baker,newportpast_html
 1946,Oxford Street,7,,O'Sullivan H.,,,newportpast_html
@@ -21730,7 +21730,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Pant Road,27,,Stoddley,H.,salesman,newportpast_html
 1946,Pant Road,29,,"Wright Edgar T.. engnr,",,,newportpast_html
 1946,Pant Road,31,,Parfitt,Geo.,welder,newportpast_html
-1946,Pant Road,33,,"Hodson Ernest - ,",,,newportpast_html
+1946,Pant Road,33,,Hodson,"Ernest - ,",,newportpast_html
 1946,Pant Road,,,Vacant sites,,,newportpast_html
 1946,Pant Road,32,,Edwards,Illtyd,timekpr,newportpast_html
 1946,Pant Road,,,Edwards,Mrs. E.,municpl midwife,newportpast_html
@@ -21824,7 +21824,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Park Crescent,,,Blackborow,Wm.,"steelwrkr, St. Julians",newportpast_html
 1946,Park Crescent,,,Pearce,Wm.,"labourer, Homestead",newportpast_html
 1946,Park Crescent,,,Gardner,Reg.,Twyn Heulog,newportpast_html
-1946,Park Crescent,,,Givlin Richd. W .,,"tipper, Blenheim",newportpast_html
+1946,Park Crescent,,,Givlin,Richd. W .,"tipper, Blenheim",newportpast_html
 1946,Park Drive,2,,Graham,Wm. H.,"shipwht, Rosehill",newportpast_html
 1946,Park Drive,4,,Cook,Robert Hy.,"trimmer, Oswald villa",newportpast_html
 1946,Park Drive,6,,Wilson,John H.,G.W.R.,newportpast_html
@@ -21842,7 +21842,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Park Drive,30,,Sims,E. L.,butcher,newportpast_html
 1946,Park Drive,32,,Travers,Robt. G.,trimmer,newportpast_html
 1946,Park Drive,34,,Cherrington,Percy H.,locksmith,newportpast_html
-1946,Park Drive,36,,"Davies Thos. -,",,,newportpast_html
+1946,Park Drive,36,,Davies,"Thos. -,",,newportpast_html
 1946,Park Drive,38,,Pope,Elijah,docker,newportpast_html
 1946,Park Drive,40,,Brown,Jess,fireman,newportpast_html
 1946,Park Drive,42,,Elton,Jno. Wm.,steelwkr,newportpast_html
@@ -21945,7 +21945,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Penllyn Avenue,,,2aRawlinson E. E.,,boot rpr,newportpast_html
 1946,Penllyn Avenue,2,,Davies,Leonard,postman,newportpast_html
 1946,Penllyn Avenue,,,Davis,K. A.,gardener,newportpast_html
-1946,Penllyn Avenue,4,,Brown Henry J. carpenter,,,newportpast_html
+1946,Penllyn Avenue,4,,Brown,Henry J. carpenter,,newportpast_html
 1946,Penllyn Avenue,6,,Hart,H. J.,van salesman,newportpast_html
 1946,Penllyn Avenue,8,,Morgan,Wm. S.,butcher,newportpast_html
 1946,Penllyn Avenue,10,,Porter,Allen,meter fitter,newportpast_html
@@ -21956,7 +21956,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Penllyn Avenue,20,,Soper,William,G.W.R.,newportpast_html
 1946,Penllyn Avenue,22,,Lewis,H. V.,van driver,newportpast_html
 1946,Penllyn Avenue,24,,Reed,John C.,waterworks,newportpast_html
-1946,Penllyn Avenue,26,,Taylor John R. gardener,,,newportpast_html
+1946,Penllyn Avenue,26,,Taylor,John R. gardener,,newportpast_html
 1946,Penllyn Avenue,28,,Jenkins,Walter,gardener,newportpast_html
 1946,Penllyn Avenue,30,,Holt,William,engineer,newportpast_html
 1946,Penllyn Avenue,32,,Brooks,Miss Mabel,,newportpast_html
@@ -21966,7 +21966,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Penllyn Avenue,37,,Punchard,W. G.,,newportpast_html
 1946,Penllyn Avenue,35,,Sansom,Wyndham E.,,newportpast_html
 1946,Penllyn Avenue,33,,Avery,P.,van driver,newportpast_html
-1946,Penllyn Avenue,31,,Gamble John R. wghts. ins,,,newportpast_html
+1946,Penllyn Avenue,31,,Gamble,John R. wghts. ins,,newportpast_html
 1946,Penllyn Avenue,29,,Lewis,Chas. W.,electron,newportpast_html
 1946,Penllyn Avenue,27,,Williams,Bartley,insur ag,newportpast_html
 1946,Penllyn Avenue,25,,Marshall,Mrs. Maria,,newportpast_html
@@ -22131,7 +22131,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Pillmawr Road,,,Blakesley,J. H.,"mill manager, Marwarri",newportpast_html
 1946,Pillmawr Road,,,Tadman,T. H.,"fitter, Trafford house",newportpast_html
 1946,Pillmawr Road,,,Hird,Geo. W.,"mill foreman, The Mount",newportpast_html
-1946,Pillmawr Road,,,"Collett Wm.,timber merchant",,St. Aidan.,newportpast_html
+1946,Pillmawr Road,,,Collett,"Wm.,timber merchant",St. Aidan.,newportpast_html
 1946,Pillmawr Road,,,Johnson,Wm. E.,"customs officer, Jemelle",newportpast_html
 1946,Pillmawr Road,,,Whitehouse,Mrs. E. P.,Rosedale,newportpast_html
 1946,Pillmawr Road,,,Gibbons,,"Albert, coal mcht., Eastwood",newportpast_html
@@ -22210,7 +22210,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Portskewett Street,9,,Windsor M. junr. ironwkr,,,newportpast_html
 1946,Portskewett Street,11,,Grace,D.,seaman,newportpast_html
 1946,Portskewett Street,13,,Gillard,Geo. C.,fireman,newportpast_html
-1946,Portskewett Street,15,,Tennant Jos. ironworker,,,newportpast_html
+1946,Portskewett Street,15,,Tennant,Jos. ironworker,,newportpast_html
 1946,Portskewett Street,17,,Roberts,J.,,newportpast_html
 1946,Portskewett Street,19,,Farr,Carl,,newportpast_html
 1946,Portskewett Street,21,,Potts,James,steelworker,newportpast_html
@@ -22230,7 +22230,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Portskewett Street,16,,Merrett,H. F.,labourer,newportpast_html
 1946,Portskewett Street,14,,Close,L.,army,newportpast_html
 1946,Portskewett Street,12,,Warren,Mrs. Ruth,,newportpast_html
-1946,Portskewett Street,10,,Marshall John A. ironwkr,,,newportpast_html
+1946,Portskewett Street,10,,Marshall,John A. ironwkr,,newportpast_html
 1946,Portskewett Street,8,,Marsh,E.,steelworker,newportpast_html
 1946,Portskewett Street,,,here is Gaskell-street,,,newportpast_html
 1946,Portskewett Street,6,,Gibson,Arth. H.,platelyr,newportpast_html
@@ -22279,7 +22279,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Potter Street,31,,Blake,Ernest,newsagent,newportpast_html
 1946,Potter Street,32,,Parsons,Albert,,newportpast_html
 1946,Potter Street,33,,Broome,Geo. E.,G.W.R.,newportpast_html
-1946,Potter Street,34,,Attwood Wm. labourer,,,newportpast_html
+1946,Potter Street,34,,Attwood,Wm. labourer,,newportpast_html
 1946,Potter Street,35,,Miles,Mrs. Lavinia,,newportpast_html
 1946,Potter Street,,,here is Clarence-street,,,newportpast_html
 1946,Potter Street,36,,PILL PICTURE PALACE,,,newportpast_html
@@ -22308,8 +22308,8 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Pottery Terrace,,,ALEXANDRA SCHOOLS,,,newportpast_html
 1946,Pottery Terrace,,,here is Marion-street,,,newportpast_html
 1946,Pottery Terrace,4,,Hart,Bernard,ironworker,newportpast_html
-1946,Pottery Terrace,5,,Harvey Wm. bootmaker,,,newportpast_html
-1946,Pottery Terrace,,,Yendle Wm. G.W.R.,,,newportpast_html
+1946,Pottery Terrace,5,,Harvey,Wm. bootmaker,,newportpast_html
+1946,Pottery Terrace,,,Yendle,Wm. G.W.R.,,newportpast_html
 1946,Pottery Terrace,6,,Johnstone,James,scaler,newportpast_html
 1946,Pottery Terrace,7,,Sedgemore,James J.,steelworker,newportpast_html
 1946,Pottery Terrace,8,,Baldwin,Leonard H.,steel worker,newportpast_html
@@ -22359,7 +22359,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Power Street,29,,Taylor,Wm. J.,labourer,newportpast_html
 1946,Power Street,31,,Selley,Cyril G.,shop,newportpast_html
 1946,Power Street,33,,Connor,Mrs. H.,,newportpast_html
-1946,Power Street,35,,Llewellyn Wm. P. labr,,,newportpast_html
+1946,Power Street,35,,Llewellyn,Wm. P. labr,,newportpast_html
 1946,Power Street,37,,Hoffrock,Wm.,labourer,newportpast_html
 1946,Power Street,39,,Grandy,Reginald,docker,newportpast_html
 1946,Power Street,41,,Challingsworth,Thos. Wm. Hy.,labourer,newportpast_html
@@ -22372,9 +22372,9 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Power Street,53,,Moylan,Ernest,steelwkr,newportpast_html
 1946,Power Street,55,,Davis,Geo. H.,plumber,newportpast_html
 1946,Power Street,57,,Moylon,Geo. H.,engine dvr,newportpast_html
-1946,Power Street,59,,Robinson Geo. Hy. gaswkr,,,newportpast_html
+1946,Power Street,59,,Robinson,Geo. Hy. gaswkr,,newportpast_html
 1946,Power Street,61,,Connor,Thomas,G.W.R.,newportpast_html
-1946,Power Street,63,,Humphries Geo. steel wkr,,,newportpast_html
+1946,Power Street,63,,Humphries,Geo. steel wkr,,newportpast_html
 1946,Power Street,65,,Jones,Mrs. S. A.,,newportpast_html
 1946,Power Street,67,,Moylon,G. H.,crane dvr,newportpast_html
 1946,Power Street,69,,Nancekivell,Mrs. Margt,,newportpast_html
@@ -22527,7 +22527,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Price Street,25,,Casey,Geo. A.,store dlr,newportpast_html
 1946,Price Street,26,,Carney,Wm.,gen shop,newportpast_html
 1946,Price Street,27,,William,Wm. A. E.,steelworker,newportpast_html
-1946,Price Street,28,,Earles Wm. Jas. pilotman,,,newportpast_html
+1946,Price Street,28,,Earles,Wm. Jas. pilotman,,newportpast_html
 1946,Price Street,29,,Marsh,Wm. E.,docker,newportpast_html
 1946,Price Street,30,,Parry,E. B.,plater,newportpast_html
 1946,Price Street,,,Williams,F.,G.W.R.,newportpast_html
@@ -22545,7 +22545,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Price Street,42,,Roberts,Mrs. Lavinia,,newportpast_html
 1946,Price Street,,,here is Mendalgief-road,,,newportpast_html
 1946,Price Street,51,,Tasker,Ivor,G.W.R.,newportpast_html
-1946,Price Street,52,,Manley Albert G. boatman,,,newportpast_html
+1946,Price Street,52,,Manley,Albert G. boatman,,newportpast_html
 1946,Price Street,53,,Atwell,Joseph,trimmer,newportpast_html
 1946,Price Street,54,,Clissitt,Bert,labourer,newportpast_html
 1946,Price Street,55,,Butteigh,Carl,,newportpast_html
@@ -22559,7 +22559,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Price Street,63,,Morgan,Herbert,baker,newportpast_html
 1946,Price Street,64,,Dummer,Geo.,trimmer,newportpast_html
 1946,Price Street,65,,Counsell,Harold,G.W.R.,newportpast_html
-1946,Price Street,66,,Hicks Wm. holder-up,,,newportpast_html
+1946,Price Street,66,,Hicks,Wm. holder-up,,newportpast_html
 1946,Price Street,,,Lenane,Joseph,ins agent,newportpast_html
 1946,Price Street,67,,Gerry,Wm. E. S.,fitter,newportpast_html
 1946,Price Street,68,,Heard,Wm. J.,,newportpast_html
@@ -22578,7 +22578,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Prince Street,2,,Horner,Kenneth,ironwkr,newportpast_html
 1946,Prince Street,3,,Spittle,A. W.,fitter,newportpast_html
 1946,Prince Street,4,,Webber,Ivor G.,G.W.R.,newportpast_html
-1946,Prince Street,5,,Blythe Jas. haulier,,,newportpast_html
+1946,Prince Street,5,,Blythe,Jas. haulier,,newportpast_html
 1946,Prince Street,6,,Norman,E. F.,,newportpast_html
 1946,Prince Street,7,,Blackley,Chas.,welder,newportpast_html
 1946,Prince Street,8,,Stevens,Harold,wireman,newportpast_html
@@ -22593,7 +22593,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Prince Street,16,,Richards,G.,G.W.R.,newportpast_html
 1946,Prince Street,17,,James,George,G.W.R.,newportpast_html
 1946,Prince Street,18,,Jenkins,Walter,bricklayer,newportpast_html
-1946,Prince Street,19,,Evans Thos. J. labourer,,,newportpast_html
+1946,Prince Street,19,,Evans,Thos. J. labourer,,newportpast_html
 1946,Prince Street,20,,White,A. E.,,newportpast_html
 1946,Prince Street,21,,Breen,Peter,meter fixer,newportpast_html
 1946,Prince Street,22,,Breen,Philip,motorman,newportpast_html
@@ -22607,7 +22607,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Prince Street,28,,Coyle,A. E.,painter,newportpast_html
 1946,Prince Street,29,,Berry,John,foreman,newportpast_html
 1946,Prince Street,30,,Tovey,Arch. J.,crane dvr,newportpast_html
-1946,Prince Street,30A,,Pepper Chas. M. G.W.R.,,,newportpast_html
+1946,Prince Street,30A,,Pepper,Chas. M. G.W.R.,,newportpast_html
 1946,Prince Street,30B,,Comerford,S.,platelayer,newportpast_html
 1946,Prince Street,30c,,Jeffreys,Clifford,hairdrssr,newportpast_html
 1946,Prince Street,30D,,Harris,C.,platers helper,newportpast_html
@@ -22621,12 +22621,12 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Prince Street,,,Flook,H.,motor engnr,newportpast_html
 1946,Prince Street,36,,Gill,Miss L.,,newportpast_html
 1946,Prince Street,37,,Thomas -,,,newportpast_html
-1946,Prince Street,38,,Price Jas. labourer,,,newportpast_html
+1946,Prince Street,38,,Price,Jas. labourer,,newportpast_html
 1946,Prince Street,39,,Dudley,Mrs. Sarah Ann,,newportpast_html
 1946,Prince Street,40,,Morgan,J. H.,furnaceman,newportpast_html
 1946,Prince Street,41,,Hewitt,Mrs. Ida,,newportpast_html
 1946,Prince Street,42,,Nash,Miss Florence,,newportpast_html
-1946,Prince Street,43,,Dutson Sidney tube dressr,,,newportpast_html
+1946,Prince Street,43,,Dutson,Sidney tube dressr,,newportpast_html
 1946,Prince Street,44,,Samuel,Albt. Ed.,G.W.R.,newportpast_html
 1946,Prince Street,45,,Friend,John,labourer,newportpast_html
 1946,Prince Street,46,,Walburton,Jervis,G.W.R.,newportpast_html
@@ -22641,7 +22641,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Prospect Street,3,,Price Misses E. A. & S. S.,,,newportpast_html
 1946,Prospect Street,4,,King,Garnet E.,mason,newportpast_html
 1946,Prospect Street,5,,Harris,Arthur J.,G.W.R.,newportpast_html
-1946,Prospect Street,6,,Sampson John Jas. stoker,,,newportpast_html
+1946,Prospect Street,6,,Sampson,John Jas. stoker,,newportpast_html
 1946,Prospect Street,7,,Robinson,Miss Charlotte,,newportpast_html
 1946,Prospect Street,8,,Browning,Miss A.,,newportpast_html
 1946,Prospect Street,9,,Dunn,Wm. J.,fireman,newportpast_html
@@ -22655,7 +22655,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Pugsley Street,4,,Bickerton,Walter,stlwkr,newportpast_html
 1946,Pugsley Street,5,,Shergold,Mrs. Edith,,newportpast_html
 1946,Pugsley Street,6,,Toms,Mrs.,,newportpast_html
-1946,Pugsley Street,7,,Walters Wm. irondressr,,,newportpast_html
+1946,Pugsley Street,7,,Walters,Wm. irondressr,,newportpast_html
 1946,Pugsley Street,8,,Higgins,Mrs. E. M.,,newportpast_html
 1946,Pugsley Street,,,here is Hoskins-street,,,newportpast_html
 1946,Pugsley Street,9,,Thomas,Mrs.,,newportpast_html
@@ -22780,7 +22780,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Raglan Street,50,,Dunn,Miss Alice,,newportpast_html
 1946,Raglan Street,51,,Davies,Mrs. Margaret,,newportpast_html
 1946,Raglan Street,52,,Titheridge W. H .,,billiard marker,newportpast_html
-1946,Raglan Street,53,,Essery Geo. H.shipwright,,,newportpast_html
+1946,Raglan Street,53,,Essery,Geo. H.shipwright,,newportpast_html
 1946,Raglan Street,54,,Preece,Geo.,,newportpast_html
 1946,Raglan Street,55,,Nash,Robert W.,storekeeper,newportpast_html
 1946,Raglan Street,56 & 57,,Vacant,,,newportpast_html
@@ -22819,7 +22819,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Raglan Street,89,,Davies,Samuel G.,,newportpast_html
 1946,Raglan Street,90,,Jones,Mrs. Florence,,newportpast_html
 1946,Raglan Street,91,,Watts,Mrs. Ann,,newportpast_html
-1946,Raglan Street,92,,Davies Thos. ship painter,,,newportpast_html
+1946,Raglan Street,92,,Davies,Thos. ship painter,,newportpast_html
 1946,Raglan Street,93,,Watkins,Mrs. Catherine,,newportpast_html
 1946,Raglan Street,94,,Ford,Mrs. Florence,,newportpast_html
 1946,Raglan Street,95,,Heaphy,Michael,rigger,newportpast_html
@@ -22902,7 +22902,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Red Brook Road,2,,Davies,Chas. R.,Parkdale,newportpast_html
 1946,Redland Street,1,,Void,,,newportpast_html
 1946,Redland Street,3,,Watkins,Mrs. W.,,newportpast_html
-1946,Redland Street,5,,Beale George guard,,,newportpast_html
+1946,Redland Street,5,,Beale,George guard,,newportpast_html
 1946,Redland Street,7,,Laurence,F. C.,G.W.R.,newportpast_html
 1946,Redland Street,9,,Hughes,Mrs. R.,,newportpast_html
 1946,Redland Street,11,,Bennett,Mrs. Mary,,newportpast_html
@@ -22928,9 +22928,9 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Redland Street,47,,Baynham,Edward,painter,newportpast_html
 1946,Redland Street,49,,Pobjoy,Edwin,G.W.R.,newportpast_html
 1946,Redland Street,51,,Whelan J. Hy. gas stoker,,,newportpast_html
-1946,Redland Street,53,,Lander Albert W. mtr dr,,,newportpast_html
+1946,Redland Street,53,,Lander,Albert W. mtr dr,,newportpast_html
 1946,Redland Street,55,,Wright,Mrs.,,newportpast_html
-1946,Redland Street,57,,Newick Samuel T. plaster'r,,,newportpast_html
+1946,Redland Street,57,,Newick,Samuel T. plaster'r,,newportpast_html
 1946,Redland Street,59,,Gough,Gilbert,G.W.R.,newportpast_html
 1946,Redland Street,61,,Gibbs,Wm. J.,labourer,newportpast_html
 1946,Redland Street,63,,Sercombe M. L shop,,,newportpast_html
@@ -22956,7 +22956,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Redland Street,106,,Evans,Edmund J.,bldr,newportpast_html
 1946,Redland Street,104,,Byram,Albert,printer,newportpast_html
 1946,Redland Street,102,,Henwright -,,,newportpast_html
-1946,Redland Street,100,,Snell Wm. glass worker,,,newportpast_html
+1946,Redland Street,100,,Snell,Wm. glass worker,,newportpast_html
 1946,Redland Street,98,,Lane,Geo.,platelayer,newportpast_html
 1946,Redland Street,96,,Baker,Chas. A.,dairyman,newportpast_html
 1946,Redland Street,94,,Bailey,Geo. W.,bus driver,newportpast_html
@@ -22985,7 +22985,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Redland Street,50,,Reynolds,A.,brick worker,newportpast_html
 1946,Redland Street,48,,Yendall,Hy. G.,rigger,newportpast_html
 1946,Redland Street,46,,Thorne,Harry,engine dvr,newportpast_html
-1946,Redland Street,44,,Rowlands Geo. J. clerk,,,newportpast_html
+1946,Redland Street,44,,Rowlands,Geo. J. clerk,,newportpast_html
 1946,Redland Street,42,,Davies,Mrs. Rosina M.,,newportpast_html
 1946,Redland Street,40,,Gibbons,Fred C.,pipefitter,newportpast_html
 1946,Redland Street,38,,Tait,A. C.,storekeeper,newportpast_html
@@ -23005,7 +23005,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Redland Street,10,,Cooling,Jas.,manager,newportpast_html
 1946,Redland Street,8,,Gabrielson,Sigvart,rigger,newportpast_html
 1946,Redland Street,6,,Aldridge,Mrs. M. E.,,newportpast_html
-1946,Redland Street,4,,Moss Fredk R. plasterer,,,newportpast_html
+1946,Redland Street,4,,Moss,Fredk R. plasterer,,newportpast_html
 1946,Redland Street,2,,Baldwyn,Chas.,machinist,newportpast_html
 1946,Redland Street,,,Brynglas Steam Laundry Ltd.,,,newportpast_html
 1946,Redland Street,,,Cockeram,G.,Redland ho,newportpast_html
@@ -23274,7 +23274,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Ridgeway Park Road,7,,Cann,Wilf.,"newsagt & tobacconist, Sunlight",newportpast_html
 1946,Ridgeway Park Road,9,,Jones,Pugh,"accountant, Lemsford",newportpast_html
 1946,Ridgeway Park Road,11,,Pugh,Geo. H.,"decorator, South Ridge",newportpast_html
-1946,Ridgeway Park Road,13,,Bicker Wm. R .,,Greenhill,newportpast_html
+1946,Ridgeway Park Road,13,,Bicker,Wm. R .,Greenhill,newportpast_html
 1946,Ridgeway Park Road,,,Jobbins,Chas. H.,,newportpast_html
 1946,Ridgeway Park Road,15,,Jones,Dr. V. D.,,newportpast_html
 1946,Ridgeway Park Road,17,,Miller,Fredk W.,,newportpast_html
@@ -23474,7 +23474,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Risca Road,,,Ralph,Richd,The Homestead,newportpast_html
 1946,Risca Road,,,Storer - .,,St. Albans,newportpast_html
 1946,Risca Road,,,Roberts,Lloyd,"bus driver, Domus",newportpast_html
-1946,Risca Road,,,Ingram Chas. L. G.W.R.,,Finstell,newportpast_html
+1946,Risca Road,,,Ingram,Chas. L. G.W.R.,Finstell,newportpast_html
 1946,Risca Road,,,Ley,Lionel J.,"clerk, Birdbush",newportpast_html
 1946,Risca Road,,,Hayman,L.,The Chalet,newportpast_html
 1946,Risca Road,,,Culloty,Timothy,Caslteton,newportpast_html
@@ -23551,7 +23551,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Risca Road,,,Ellis,Wm. Ewart,"engineer's agent, Penshurst",newportpast_html
 1946,Risca Road,,,Bough,Harry,"traveller, Stanzel",newportpast_html
 1946,Risca Road,,,here is Red Brook-road,,,newportpast_html
-1946,Risca Road,,,Flook Jos. Chas.Hy.,,"company director, Treetops",newportpast_html
+1946,Risca Road,,,Flook,Jos. Chas.Hy.,"company director, Treetops",newportpast_html
 1946,Risca Road,,,Henney,John A. C.,Lyndhurst,newportpast_html
 1946,Risca Road,,,Jones,Miss I. H.,Park-side,newportpast_html
 1946,Risca Road,,,Wall,F. G.,"com. travllr., Tralee",newportpast_html
@@ -23742,7 +23742,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Riverside,13,,Johnson,Mrs. Gladys,,newportpast_html
 1946,Riverside,14,,Richards,Sid,,newportpast_html
 1946,Riverside,15,,McHugh Mrs. Mary J.,,,newportpast_html
-1946,Riverside,16,,Needs Edwd. plasterer,,,newportpast_html
+1946,Riverside,16,,Needs,Edwd. plasterer,,newportpast_html
 1946,Riverside,17,,Sweeney,T. J.,ironwkr,newportpast_html
 1946,Riverside,18,,Tanner,J.,,newportpast_html
 1946,Riverside,19,,Butler,Wm. Geo.,foreman,newportpast_html
@@ -23763,7 +23763,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Riverside,33,,Fidler,Herbt.,ironworker,newportpast_html
 1946,Riverside,34,,Homfray,Arthur,labourer,newportpast_html
 1946,Riverside,35,,Hooper -,,,newportpast_html
-1946,Riverside,36,,Phillips Thos. W. wiredrwr,,,newportpast_html
+1946,Riverside,36,,Phillips,Thos. W. wiredrwr,,newportpast_html
 1946,Riverside,37,,Gunter,Jas. Wm. Percy,,newportpast_html
 1946,Riverside,38,,Lewis,Albert,plumber,newportpast_html
 1946,Riverside,39,,Sheppard,Chas.,hairdrsr,newportpast_html
@@ -23828,11 +23828,11 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Robert Street,49a,,Thomas & Evans,,stables,newportpast_html
 1946,Robert Street,50,,Hadden,Mrs. E.,,newportpast_html
 1946,Robert Street,,,Witt,T. L.,labourer,newportpast_html
-1946,Robert Street,51,,Bissex Wm. trimmer,,,newportpast_html
+1946,Robert Street,51,,Bissex,Wm. trimmer,,newportpast_html
 1946,Robert Street,52,,Binding,John,labourer,newportpast_html
 1946,Robert Street,,,Adams A. R. & Son,,engrs,newportpast_html
 1946,Rochester Road,,,Off Chepstow-road,,,newportpast_html
-1946,Rochester Road,1,,"Evans David,",,,newportpast_html
+1946,Rochester Road,1,,Evans,"David,",,newportpast_html
 1946,Rochester Road,3,,Hiley,William,roller,newportpast_html
 1946,Rochester Road,5,,Adams,Mrs. Louisa,,newportpast_html
 1946,Rochester Road,7,,Johns,Mrs. A. M.,,newportpast_html
@@ -23871,7 +23871,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Rockfield Street,9,,Folley,Jos. Walter,ins agt,newportpast_html
 1946,Rockfield Street,11,,Evans,Victor W.,ironwrkr,newportpast_html
 1946,Rockfield Street,13,,Oakley,Thos. W.,storekpr,newportpast_html
-1946,Rockfield Street,15,,Wall,Wallace W.,gardnr,newportpast_html
+1946,Rockfield Street,15,,Wall,Wallace W.,Gardener,newportpast_html
 1946,Rockfield Street,17,,Francis,Leonard,dairymn,newportpast_html
 1946,Rockfield Street,19,,Jenkins,Geo. T.,G.W.R.,newportpast_html
 1946,Rockfield Street,21,,Lea,John,postman,newportpast_html
@@ -23884,7 +23884,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Rockfield Street,35,,Palmer,Regd.,P.C.,newportpast_html
 1946,Rockfield Street,37,,Harvey,Arthur,P.C.,newportpast_html
 1946,Rockfield Street,39,,Lang,Frank,G.W.R.,newportpast_html
-1946,Rockfield Street,41,,Council Ernest C.,,G.W.R.,newportpast_html
+1946,Rockfield Street,41,,Council,Ernest C.,G.W.R.,newportpast_html
 1946,Rockfield Street,43,,James,A. T.,lorry dvr,newportpast_html
 1946,Rockfield Street,,,Nursery,School,,newportpast_html
 1946,Rockfield Street,45,,Murray,A. J.,steelwkr,newportpast_html
@@ -24036,7 +24036,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Rose Street,12,,Sawyer,,"J. P., G.P.O.",newportpast_html
 1946,Rose Street,13,,Stark T . J.,,rope mcht,newportpast_html
 1946,Rose Street,14,,Williams,L.,agent,newportpast_html
-1946,Rose Street,15,,Hillman Hy. Rd. bricklyr,,,newportpast_html
+1946,Rose Street,15,,Hillman,Hy. Rd. bricklyr,,newportpast_html
 1946,Rose Street,16,,Francis,Ernest G.,G.W.R.,newportpast_html
 1946,Rose Street,17,,Williams,Mrs. M. A. E.,,newportpast_html
 1946,Rose Street,18,,Dunn,Oliver,linesman,newportpast_html
@@ -24045,7 +24045,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Rose Street,21,,Stallard,Mrs. Kliza A.,,newportpast_html
 1946,Rose Street,22,,Lippiatt,H. J.,labourer,newportpast_html
 1946,Rose Street,23,,Ward,B. J.,docks foreman,newportpast_html
-1946,Rose Street,24,,Jones Richard M. gas inspt,,,newportpast_html
+1946,Rose Street,24,,Jones,Richard M. gas inspt,,newportpast_html
 1946,Ross Street,2,,Mills,Melville J.,builder,newportpast_html
 1946,Ross Street,4,,Roberts,Victor J.,G.W.R.,newportpast_html
 1946,Ross Street,6,,Thomas,Merville,labr,newportpast_html
@@ -24079,7 +24079,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Ross Street,49,,Bolt,Fred,G.W.R.,newportpast_html
 1946,Ross Street,47,,Brute,Ernest,steelworker,newportpast_html
 1946,Ross Street,45,,Davies,Mrs. Annie,,newportpast_html
-1946,Ross Street,43,,"Righton Saml,",,insp G.W.R.,newportpast_html
+1946,Ross Street,43,,Righton,"Saml,",insp G.W.R.,newportpast_html
 1946,Ross Street,41,,Clake,Mrs. Matilda,,newportpast_html
 1946,Ross Street,39,,Taylor,John,labourer,newportpast_html
 1946,Ross Street,37,,Jefferys,Samuel E. H.,hairdresser,newportpast_html
@@ -24105,7 +24105,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Rosslyn Road,1,,Rayner,Leonard,shop asst,newportpast_html
 1946,Rosslyn Road,3,,Pick,G.,haulage contrctr,newportpast_html
 1946,Rosslyn Road,5,,Clarke,Raymond,,newportpast_html
-1946,Rosslyn Road,7,,Lane,Frank,gardner,newportpast_html
+1946,Rosslyn Road,7,,Lane,Frank,Gardener,newportpast_html
 1946,Rosslyn Road,9,,Williams,William James,,newportpast_html
 1946,Rosslyn Road,11,,Boreham,Fredk.,clerk,newportpast_html
 1946,Rosslyn Road,13,,Charlton,Fredk. J.,mchnst,newportpast_html
@@ -24354,7 +24354,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Ruperra Street,38,,Tiderman,Alfred,seaman,newportpast_html
 1946,Ruperra Street,39,,Debono,Grazio,fuelwkr,newportpast_html
 1946,Ruperra Street,,,Ruperra,Arms,McCheyne W. D.,newportpast_html
-1946,Rutland Place,1,,Thomas Wm. Hy. labr,,,newportpast_html
+1946,Rutland Place,1,,Thomas,Wm. Hy. labr,,newportpast_html
 1946,Rutland Place,2,,Bale,Mrs. Caroline,,newportpast_html
 1946,Rutland Place,3,,Goldsworthy,F. H. T.,pilot,newportpast_html
 1946,Rutland Place,4,,Goldsworthy,Mrs. Clara,,newportpast_html
@@ -24454,7 +24454,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Shaftesbury Street,113,,Parsons,William H.,,newportpast_html
 1946,Shaftesbury Street,115,,Lewis,Gwyn,labourer,newportpast_html
 1946,Shaftesbury Street,117,,Wakeley,William J.,,newportpast_html
-1946,Shaftesbury Street,119,,Sweeting Jos. labourer,,,newportpast_html
+1946,Shaftesbury Street,119,,Sweeting,Jos. labourer,,newportpast_html
 1946,Shaftesbury Street,121,,Cronan,Mrs. Violet,,newportpast_html
 1946,Shaftesbury Street,123 - 125,,Thomas,Mrs. Bessie E.,,newportpast_html
 1946,Shaftesbury Street,127,,Thomas,Miss O.,,newportpast_html
@@ -24479,7 +24479,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Shaftesbury Street,165,,James,Wm.,G.W.R.,newportpast_html
 1946,Shaftesbury Street,167,,McCarthy Mrs. Fanny,,,newportpast_html
 1946,Shaftesbury Street,169,,Carlson-,Mrs. Rose,,newportpast_html
-1946,Shaftesbury Street,171,,Shakesheff Benj. labourer,,,newportpast_html
+1946,Shaftesbury Street,171,,Shakesheff,Benj. labourer,,newportpast_html
 1946,Shaftesbury Street,173,,Gregory,Mrs. E.,,newportpast_html
 1946,Shaftesbury Street,175,,Jones,Wm. H.,fitter,newportpast_html
 1946,Shaftesbury Street,177,,George,Chas.,steelwkr,newportpast_html
@@ -24779,7 +24779,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Somerset Road,14,,Morris,G. C.,chief mate,newportpast_html
 1946,Somerset Road,12,,Collings,Mrs. Elizabeth,,newportpast_html
 1946,Somerset Road,10,,Huggett,Mrs. Mary,,newportpast_html
-1946,Somerset Road,8,,Martin Richard -,,,newportpast_html
+1946,Somerset Road,8,,Martin,Richard -,,newportpast_html
 1946,Somerset Road,6,,Kimble,James H.,labr,newportpast_html
 1946,Somerset Road,,,Hile,H. S.,warehouseman,newportpast_html
 1946,Somerset Road,4,,Wagstaffe,Mrs. Rhoda A.,,newportpast_html
@@ -24886,7 +24886,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Somerton Road,111,,Newman,Ronald,"N.C.T.D. worker, Halford",newportpast_html
 1946,Somerton Road,109,,Hillier,Herbert G.,St. Elmo,newportpast_html
 1946,Somerton Road,107,,White,Stephen,irnwrkr,newportpast_html
-1946,Somerton Road,105,,Johns Robt. V. mtr drvr,,,newportpast_html
+1946,Somerton Road,105,,Johns,Robt. V. mtr drvr,,newportpast_html
 1946,Somerton Road,103,,Hyde,Mrs. Hannah,,newportpast_html
 1946,Somerton Road,101,,Barton,Daniel E.,labr,newportpast_html
 1946,Somerton Road,,,LOWER SOMERTON ROAD,,,newportpast_html
@@ -25119,7 +25119,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,St. Edward Street,39,,Jones,Wm. G.,G.W.R.,newportpast_html
 1946,St. Edward Street,40,,Gotobed,Alfred H.,labr,newportpast_html
 1946,St. Edward Street,41,,Williams,Mrs. F.,,newportpast_html
-1946,St. Edward Street,42,,"Davies Thos.,ex-police insp",,,newportpast_html
+1946,St. Edward Street,42,,Davies,"Thos.,ex-police insp",,newportpast_html
 1946,St. Edward Street,43,,Jermyn,Mrs. Rose,,newportpast_html
 1946,St. Edward Street,44,,Whitcombe,Mrs. Hannah,,newportpast_html
 1946,St. Edward Street,45,,Monaghan,James,painter,newportpast_html
@@ -25144,7 +25144,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,St. Julian Street,1,,Smith,Sidney,ironwkr,newportpast_html
 1946,St. Julian Street,2,,Squire,William H.,ripper,newportpast_html
 1946,St. Julian Street,3,,Howell,Reginald,porter,newportpast_html
-1946,St. Julian Street,4,,Richards Wm. platelayer,,,newportpast_html
+1946,St. Julian Street,4,,Richards,Wm. platelayer,,newportpast_html
 1946,St. Julian Street,5,,Smith,Samuel,ironwkr,newportpast_html
 1946,St. Julian Street,6,,Johnson,Eric,carpenter,newportpast_html
 1946,St. Julian Street,7,,Kelleher,Wm.,,newportpast_html
@@ -25293,7 +25293,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,St. Vincent Road,,,Corporation-road to Rodney-road,,,newportpast_html
 1946,St. Vincent Road,,,Garage,,,newportpast_html
 1946,St. Vincent Road,,,Sweeting's bakery,,,newportpast_html
-1946,St. Vincent Road,1,,"Hawkins Geo. M.,sign writr",,,newportpast_html
+1946,St. Vincent Road,1,,Hawkins,"Geo. M.,sign writr",,newportpast_html
 1946,St. Vincent Road,,,Griffiths,B. T. A.,"Prof., Military artist",newportpast_html
 1946,St. Vincent Road,3,,Coes,G. A.,docker,newportpast_html
 1946,St. Vincent Road,5,,Polo way Mrs.,,,newportpast_html
@@ -25384,7 +25384,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,St. Woolos Road,26,,Weetch,Miss Ellen,,newportpast_html
 1946,St. Woolos Road,27,,Goddard,I. S.,,newportpast_html
 1946,St. Woolos Road,28,,Sharpe,Alfred J.,,newportpast_html
-1946,St. Woolos Road,29,,Lyons Jos F. metal wkr,,,newportpast_html
+1946,St. Woolos Road,29,,Lyons,Jos F. metal wkr,,newportpast_html
 1946,St. Woolos Road,30,,Evans,Mrs. Mary,,newportpast_html
 1946,St. Woolos Road,31,,Peebles,W.,bus driver,newportpast_html
 1946,St. Woolos Road,32,,Stacey,Frank M.,baker,newportpast_html
@@ -25416,10 +25416,10 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Stafford Road,37,,Davies,C. V.,carpenter,newportpast_html
 1946,Stafford Road,39,,Butcher A. F. carpenter,,,newportpast_html
 1946,Stafford Road,41,,Pope,Mrs. Adelaide,,newportpast_html
-1946,Stafford Road,43,,Phipps Arthur J. clerk,,,newportpast_html
+1946,Stafford Road,43,,Phipps,Arthur J. clerk,,newportpast_html
 1946,Stafford Road,45,,Cain,Albert,postman,newportpast_html
 1946,Stafford Road,47,,Dance,Mrs. Jane,,newportpast_html
-1946,Stafford Road,49,,Agg Ernest domestic fitter,,,newportpast_html
+1946,Stafford Road,49,,Agg,Ernest domestic fitter,,newportpast_html
 1946,Stafford Road,51,,Waters,Walter,bus dvr,newportpast_html
 1946,Stafford Road,53,,Macey,Mrs. Annie,,newportpast_html
 1946,Stafford Road,55,,Garvey,Patrick J.,lorry dr,newportpast_html
@@ -25533,9 +25533,9 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Stockton Road,6,,Clutton,Wm. J.,brewery worker,newportpast_html
 1946,Stockton Road,8,,Resden,Mrs. H.,,newportpast_html
 1946,Stockton Road,10,,Webb,Wm. H. A.,G.W.R.,newportpast_html
-1946,Stockton Road,12,,"Schewnk Sidney,felct wldr",,,newportpast_html
-1946,Stockton Road,14,,Dyer Thos. ironfounder,,,newportpast_html
-1946,Stockton Road,16,,Dyer Thos. Geo. junr. Iron founder,,,newportpast_html
+1946,Stockton Road,12,,Schewnk,"Sidney,felct wldr",,newportpast_html
+1946,Stockton Road,14,,Dyer,Thos. ironfounder,,newportpast_html
+1946,Stockton Road,16,,Dyer,Thos. Geo. junr. Iron founder,,newportpast_html
 1946,Stockton Road,18,,England,Mrs. S. M.,,newportpast_html
 1946,Stockton Road,20,,Baynham,Stan. J.,stlwkr,newportpast_html
 1946,Stockton Road,22,,Howells,Joseph S.,blksth,newportpast_html
@@ -25554,7 +25554,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Stockton Road,48,,Beeton,Wm.,police,newportpast_html
 1946,Stockton Road,50,,Jones,Brynmor I.,postmn,newportpast_html
 1946,Stockton Road,52,,Powell,Richard,,newportpast_html
-1946,Stockton Road,54,,"Probert Wm. J.,",,,newportpast_html
+1946,Stockton Road,54,,Probert,"Wm. J.,",,newportpast_html
 1946,Stockton Road,56,,Evans,Chas.,clerk,newportpast_html
 1946,Stockton Road,58,,Lewis,Phillip,butcher's assistant,newportpast_html
 1946,Stockton Road,60,,Percy,James,motor dvr.,newportpast_html
@@ -25612,7 +25612,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Stockton Road,117,,King,W. E.,storekeeper,newportpast_html
 1946,Stockton Road,115,,Williams,John,ins agent,newportpast_html
 1946,Stockton Road,113,,Knowles,Mrs. May,,newportpast_html
-1946,Stockton Road,111,,Healey Sidney J.. G.W.R. police,,,newportpast_html
+1946,Stockton Road,111,,Healey,Sidney J.. G.W.R. police,,newportpast_html
 1946,Stockton Road,109,,James,Ivor,clerk,newportpast_html
 1946,Stockton Road,,,Sharpe,H.,,newportpast_html
 1946,Stockton Road,107,,Lacey,Mrs.,,newportpast_html
@@ -25628,7 +25628,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Stockton Road,89,,Jenkins,Alfred,,newportpast_html
 1946,Stockton Road,87,,Batty,Mrs. S. A.,,newportpast_html
 1946,Stockton Road,85,,Nash,Chas. E.,chauffeur,newportpast_html
-1946,Stockton Road,83,,Lewis,Ed. Chas.,gardnr,newportpast_html
+1946,Stockton Road,83,,Lewis,Ed. Chas.,Gardener,newportpast_html
 1946,Stockton Road,81,,Collins,Edwin,butcher,newportpast_html
 1946,Stockton Road,79,,Andrews,Jno.,busdriver,newportpast_html
 1946,Stockton Road,77,,Stent,William,G.W.R.,newportpast_html
@@ -25664,7 +25664,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Stockton Road,21,,Hewinson,Chas.,,newportpast_html
 1946,Stockton Road,19,,Flanders,Herbt. D.,bread salesman,newportpast_html
 1946,Stockton Road,,,here is Filey-road,,,newportpast_html
-1946,Stockton Road,17,,Jenkins Chas. H. -,,,newportpast_html
+1946,Stockton Road,17,,Jenkins,Chas. H. -,,newportpast_html
 1946,Stockton Road,15,,Rees,Samuel W.,fitter,newportpast_html
 1946,Stockton Road,13,,Gardener,H.,,newportpast_html
 1946,Stockton Road,11,,Tucker,Miss Gladys,,newportpast_html
@@ -26058,7 +26058,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Summerhill Avenue,16,,Baker,Mrs.,Ravenswood,newportpast_html
 1946,Summerhill Avenue,18,,Winson,Walter,account't,newportpast_html
 1946,Summerhill Avenue,20,,Ponsonby,Mrs. Dorothy,,newportpast_html
-1946,Summerhill Avenue,22,,Edwards Chas. R. decortr,,,newportpast_html
+1946,Summerhill Avenue,22,,Edwards,Chas. R. decortr,,newportpast_html
 1946,Summerhill Avenue,,,Wilks Ronald E. master mariner,,,newportpast_html
 1946,Summerhill Avenue,24,,Cankett,C. W.,coal tmr,newportpast_html
 1946,Summerhill Avenue,,,Anstice,R. F.,fitter,newportpast_html
@@ -26185,7 +26185,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Sutton Road,101,,Eaton,Fred G.,oil mercht,newportpast_html
 1946,Sutton Road,102,,Knight,Alfred J.,dcrtr,newportpast_html
 1946,Sutton Road,100,,Pearce,Chas. R.,blksmith,newportpast_html
-1946,Sutton Road,98,,Howard Thos. plasterer,,,newportpast_html
+1946,Sutton Road,98,,Howard,Thos. plasterer,,newportpast_html
 1946,Sutton Road,96,,James,Ivor,timberman,newportpast_html
 1946,Sutton Road,94,,Evans,Wm. K.,G.W.R.,newportpast_html
 1946,Sutton Road,92,,Gatehouse,A. J.,busdvr,newportpast_html
@@ -26194,7 +26194,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Sutton Road,86,,Long,Collin,painter G.W.R.,newportpast_html
 1946,Sutton Road,84,,Jenner,Henry John,,newportpast_html
 1946,Sutton Road,,,Taylor,Geo. H.,G.W.R.,newportpast_html
-1946,Sutton Road,82,,Hurn Wm. Henry pntr,,,newportpast_html
+1946,Sutton Road,82,,Hurn,Wm. Henry pntr,,newportpast_html
 1946,Sutton Road,80,,Liston,D. V.,pump attdt,newportpast_html
 1946,Sutton Road,78,,Davies,Benj.,,newportpast_html
 1946,Sutton Road,76,,Evans,W. T.,,newportpast_html
@@ -26210,7 +26210,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Sutton Road,58,,Gadsby,W. E.,ironmonger,newportpast_html
 1946,Sutton Road,56,,Kyte,Melville H.,,newportpast_html
 1946,Sutton Road,54,,Friswell,A. J. T.,steelwkr,newportpast_html
-1946,Sutton Road,52,,Galloway Chas. S. fitter,,,newportpast_html
+1946,Sutton Road,52,,Galloway,Chas. S. fitter,,newportpast_html
 1946,Sutton Road,50,,Taylor,Thos. I.,assistant,newportpast_html
 1946,Sutton Road,48,,Burgwin,James,steelwkr,newportpast_html
 1946,Sutton Road,46,,Thomas,F. J.,,newportpast_html
@@ -26327,7 +26327,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Sycamore Avenue,8,,Bradbury,Fredk.,ironwkr,newportpast_html
 1946,Sycamore Avenue,6,,Masters,James,labourer,newportpast_html
 1946,Sycamore Avenue,4,,Marsh,Chas.,weighman,newportpast_html
-1946,Sycamore Avenue,2,,Moore Walter -,,,newportpast_html
+1946,Sycamore Avenue,2,,Moore,Walter -,,newportpast_html
 1946,Sycamore Avenue,,,here is Palm-square,,,newportpast_html
 1946,Talbot Lane,,,Butcher,A. F.,carpenter,newportpast_html
 1946,Talbot Lane,,,Phillips Jno. & Son,,seedsmen,newportpast_html
@@ -26671,7 +26671,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Traston Road,9,,Williams,Mrs. Ada F.,,newportpast_html
 1946,Traston Road,10,,Roberts,Jno. D.,"dairyman, Troston Dairy",newportpast_html
 1946,Traston Road,,,Venner,Hy.,Great Troston,newportpast_html
-1946,Traston Road,,,Whant Arthur. Little Troston farm,,,newportpast_html
+1946,Traston Road,,,Whant,Arthur. Little Troston farm,,newportpast_html
 1946,Traston Road,,,Aluminium Works Co.,,,newportpast_html
 1946,Trostrey Street,1,,Powell,Colston,blacksmith,newportpast_html
 1946,Trostrey Street,3,,Collier (Charles) Ltd.,,"bakery & offices. Reg. Office Newport Master Bakers' Association, J.W. Johns, secretary",newportpast_html
@@ -26750,7 +26750,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Tunnel Terrace,22,,Millard,Arthur F.,,newportpast_html
 1946,Tunnel Terrace,23,,Ewings,C.,,newportpast_html
 1946,Tunnel Terrace,24,,Westward,Fredk.,stwkr,newportpast_html
-1946,Tunnel Terrace,25,,Jarvis,Harold H.,gardnr,newportpast_html
+1946,Tunnel Terrace,25,,Jarvis,Harold H.,Gardener,newportpast_html
 1946,Tunnel Terrace,26,,Brown,Ivor,gravedigger,newportpast_html
 1946,Tunnel Terrace,27,,Jones,Miss Mary,,newportpast_html
 1946,Tunnel Terrace,,,Jones,Thos. E.,saddler,newportpast_html
@@ -26829,7 +26829,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Union Street,14,,Le,Clare John,labourer,newportpast_html
 1946,Union Street,15,,Carlsen,Erik,,newportpast_html
 1946,Upton Place,,,Nos. 182 to 196 Chepstow-road,,,newportpast_html
-1946,Upton Road,1,,Buckner John L.R.C.P.,,"M.R.S., Overdale",newportpast_html
+1946,Upton Road,1,,Buckner,John L.R.C.P.,"M.R.S., Overdale",newportpast_html
 1946,Upton Road,3,,Armstrong,Mrs. Winifred H.,,newportpast_html
 1946,Upton Road,5,,Davies,Rees,,newportpast_html
 1946,Upton Road,7,,Page,Miss M.,St. David,newportpast_html
@@ -26855,7 +26855,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Upton Road,36,,Cooper,Mrs. Doris,,newportpast_html
 1946,Upton Road,34,,Gibbons,Charles Thomas,,newportpast_html
 1946,Upton Road,32,,Watkins,Albert E,comp,newportpast_html
-1946,Upton Road,30,,Johns Percy -,,,newportpast_html
+1946,Upton Road,30,,Johns,Percy -,,newportpast_html
 1946,Upton Road,28,,Pembridge,Mrs. Alice M.,,newportpast_html
 1946,Upton Road,26,,Evans,Miss Olive,teacher,newportpast_html
 1946,Upton Road,24,,Kicke,John L.,joiner,newportpast_html
@@ -26926,7 +26926,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Victoria Avenue,,,CORPORATION BATHS,,"Forsyth James, M.N.A.B.S., A.M. (INST.) B.E., general baths superintendent",newportpast_html
 1946,Victoria Avenue,2,,Anthony,Thomas,G.W.R.,newportpast_html
 1946,Victoria Avenue,,,Lloyd,Percy Chas.,stwkr,newportpast_html
-1946,Victoria Avenue,3,,Short Sidney J. labourer,,,newportpast_html
+1946,Victoria Avenue,3,,Short,Sidney J. labourer,,newportpast_html
 1946,Victoria Avenue,4,,Thomas -,,,newportpast_html
 1946,Victoria Avenue,5,,Prosser,David B.,carptr,newportpast_html
 1946,Victoria Avenue,6,,Hagarty,Daniel,labr,newportpast_html
@@ -26990,7 +26990,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Victoria Avenue,55,,Knapman,Jno.,G.W.R.,newportpast_html
 1946,Victoria Avenue,56,,Page,Mrs. - .,,newportpast_html
 1946,Victoria Avenue,,,Sheargold,Bradney,ironwk,newportpast_html
-1946,Victoria Avenue,57,,Pirie Thomas M. -,,,newportpast_html
+1946,Victoria Avenue,57,,Pirie,Thomas M. -,,newportpast_html
 1946,Victoria Avenue,58,,Dix,H.,,newportpast_html
 1946,Victoria Avenue,59,,Jones,Miss Annie,,newportpast_html
 1946,Victoria Avenue,60,,Morgan,Mrs. Ivy Grace,,newportpast_html
@@ -26998,7 +26998,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Victoria Avenue,62,,Whittaker,Mrs. G. M.,,newportpast_html
 1946,Victoria Avenue,63,,Bennett The Misses L. & E.,,,newportpast_html
 1946,Victoria Avenue,64,,Lewis,Evan,accountant,newportpast_html
-1946,Victoria Avenue,65,,Tweedy Herbert E. clerk,,,newportpast_html
+1946,Victoria Avenue,65,,Tweedy,Herbert E. clerk,,newportpast_html
 1946,Victoria Avenue,66,,Moseley,Wm. Chas.,crane driver,newportpast_html
 1946,Victoria Avenue,67,,Spencer,A. W.,ironwkr,newportpast_html
 1946,Victoria Avenue,,,here is Brynderwen-road,,,newportpast_html
@@ -27168,7 +27168,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Vivian Road,13,,Thomas,F.,,newportpast_html
 1946,Vivian Road,15,,Humphries,J. W.,ironwkr,newportpast_html
 1946,Vivian Road,17,,Partridge,Wm.,ironwkr,newportpast_html
-1946,Vivian Road,19,,Clarke Saml. ironwkr,,,newportpast_html
+1946,Vivian Road,19,,Clarke,Saml. ironwkr,,newportpast_html
 1946,Vivian Road,21,,Goodwin,Mrs. Elizabeth,,newportpast_html
 1946,Vivian Road,23,,Ford,Mrs. Catherine,,newportpast_html
 1946,Vivian Road,25,,Reardon,Mrs. Florence L.,,newportpast_html
@@ -27198,8 +27198,8 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Vivian Road,44,,Walkley,Wm.,ironwkr,newportpast_html
 1946,Vivian Road,42,,Webber Rich G. carpenter,,,newportpast_html
 1946,Vivian Road,40,,Johnsey,R. J.,labourer,newportpast_html
-1946,Vivian Road,38,,Witchard Jas. labourer,,,newportpast_html
-1946,Vivian Road,36,,Summerhill Thos. ironwkr,,,newportpast_html
+1946,Vivian Road,38,,Witchard,Jas. labourer,,newportpast_html
+1946,Vivian Road,36,,Summerhill,Thos. ironwkr,,newportpast_html
 1946,Vivian Road,34,,Wetter,J. J.,platelayer,newportpast_html
 1946,Vivian Road,32,,Holloway,Charles,engine driver,newportpast_html
 1946,Vivian Road,30,,Newbury,George,labr,newportpast_html
@@ -27214,14 +27214,14 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Vivian Road,14,,Tonks,Arthur,ironwkr,newportpast_html
 1946,Vivian Road,12,,Guscott,Mrs. Celia Irene,,newportpast_html
 1946,Vivian Road,10,,Tart,Mrs. Dorothy M.,,newportpast_html
-1946,Vivian Road,8,,Lowe John Hy. storeman,,,newportpast_html
+1946,Vivian Road,8,,Lowe,John Hy. storeman,,newportpast_html
 1946,Vivian Road,6,,Woodcock Rd. ironworker,,,newportpast_html
 1946,Vivian Road,4,,Lewis,C. A.,ironworker,newportpast_html
 1946,Vivian Road,,,White,Mrs. Edith,,newportpast_html
 1946,Vivian Road,2,,Lewis,Wm. A.,labourer,newportpast_html
 1946,Vivian Road,,,Alsop & Sons,,motor repr. and body builders,newportpast_html
 1946,Walford Street,2,,Plaisted,Mrs.,,newportpast_html
-1946,Walford Street,4,,Bignold Chas ironworker,,,newportpast_html
+1946,Walford Street,4,,Bignold,Chas ironworker,,newportpast_html
 1946,Walford Street,6,,Dunning,Mrs. Laura,,newportpast_html
 1946,Walford Street,8,,Groombridge,Stan.,motor mechanic,newportpast_html
 1946,Walford Street,10,,Gurney,James,G.W.R.,newportpast_html
@@ -27261,7 +27261,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Walford Street,51,,Roden,Edward,engine driver,newportpast_html
 1946,Walford Street,49,,Bond,J. H.,steelworker,newportpast_html
 1946,Walford Street,47,,Charles,Edward J.,carptr,newportpast_html
-1946,Walford Street,45,,Lavis Alfred Jas. G.W.R. goods guard,,,newportpast_html
+1946,Walford Street,45,,Lavis,Alfred Jas. G.W.R. goods guard,,newportpast_html
 1946,Walford Street,43,,Worthy,Reg.,boilermkr,newportpast_html
 1946,Walford Street,41,,Wetter,Alfred,packer,newportpast_html
 1946,Walford Street,39,,Thomas,Harry,G.W.R.,newportpast_html
@@ -27367,7 +27367,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Walsall Street,20,,Jones,Wm. H.,ironwrkr,newportpast_html
 1946,Walsall Street,22,,Stanley,Albert,,newportpast_html
 1946,Walsall Street,24,,Commins,Mrs. Kate,,newportpast_html
-1946,Walsall Street,26,,Wilkes Jos. C. ironworker,,,newportpast_html
+1946,Walsall Street,26,,Wilkes,Jos. C. ironworker,,newportpast_html
 1946,Walsall Street,28,,Halfpenny T. bricklayer,,,newportpast_html
 1946,Walsall Street,30,,Edwards,Mrs. Sarah,,newportpast_html
 1946,Walsall Street,32,,Studley,Albert,checker,newportpast_html
@@ -27427,7 +27427,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Warwick Road,25,,Hyett,C. F.,motor slsman,newportpast_html
 1946,Warwick Road,27,,Mills,Fredk. G.,clerk,newportpast_html
 1946,Warwick Road,29,,Bayliss,Jas. A.,eng dvr,newportpast_html
-1946,Warwick Road,31,,Richards Harry A. clerk,,,newportpast_html
+1946,Warwick Road,31,,Richards,Harry A. clerk,,newportpast_html
 1946,Warwick Road,32,,Statham,Miss A.,school mistress,newportpast_html
 1946,Warwick Road,30,,Harper,Frank E.,manager,newportpast_html
 1946,Warwick Road,28,,Martin,Tudor J.,furncemn,newportpast_html
@@ -27531,7 +27531,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Wednesbury Street,7,,Bolt,Fredk. E.,lorry dvr,newportpast_html
 1946,Wednesbury Street,,,Vacant sites,,,newportpast_html
 1946,Wednesbury Street,,,Vacant sites,,,newportpast_html
-1946,Wednesbury Street,12,,Hill Thomas ironworker,,,newportpast_html
+1946,Wednesbury Street,12,,Hill,Thomas ironworker,,newportpast_html
 1946,Wednesbury Street,10,,Sims,Matthew,labourer,newportpast_html
 1946,Wednesbury Street,8,,Rogers,George,ironwkr,newportpast_html
 1946,Wednesbury Street,6,,Lane,Albert,ironworker,newportpast_html
@@ -27889,7 +27889,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Wharf Road,26,,Siviter,Fredk.,steelwkr,newportpast_html
 1946,Wharf Road,24,,Hayton,Robert,fitter,newportpast_html
 1946,Wharf Road,22,,Powell,Edwin,caretaker,newportpast_html
-1946,Wharf Road,,,Littlejohns Wm. cab'tmkr,,,newportpast_html
+1946,Wharf Road,,,Littlejohns,Wm. cab'tmkr,,newportpast_html
 1946,Wharf Road,,,here is Glebe-street,,,newportpast_html
 1946,Wharf Road,,,MAINDEE LIBERAL CLUB,,"Nevison C . H., steward",newportpast_html
 1946,Wharf Road,20A,,Stokes,John,fish shop,newportpast_html
@@ -27902,7 +27902,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Wharf Road,8,,Blythe,Robert,Acetylene Burner,newportpast_html
 1946,Wharf Road,6,,Howard,Stanley,G.W.R.,newportpast_html
 1946,Wharf Road,4,,Colley,Mrs. A.,confectnr,newportpast_html
-1946,Wharf Road,2,,"Donaldson Chas. J.,secondhand dealer",,,newportpast_html
+1946,Wharf Road,2,,Donaldson,"Chas. J.,secondhand dealer",,newportpast_html
 1946,Wharf Road,3,,Santons Ltd. factory,,,newportpast_html
 1946,Wharf Road,,,Hunt Bros.,,builders' merchants,newportpast_html
 1946,Wharf Road,,,Graham,Dennis J.,clerk,newportpast_html
@@ -27969,7 +27969,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Whitstone Road,20,,Richards,Nicholas,Cogan,newportpast_html
 1946,Whitstone Road,22,,Shaw,J.,"window clnr, Ludlow",newportpast_html
 1946,Whitstone Road,24,,Jenkins,Reg.,Glendale,newportpast_html
-1946,Whitstone Road,26,,Wright Robt. W .,,Saltram,newportpast_html
+1946,Whitstone Road,26,,Wright,Robt. W .,Saltram,newportpast_html
 1946,Whitstone Road,28,,Ward,Mrs. Annie,Llandough,newportpast_html
 1946,Whitstone Road,30,,Jenkins,Alfred,"gardener, Cowanlea",newportpast_html
 1946,Whitstone Road,32,,Croome,Wm. R.,Chepstow cottage,newportpast_html
@@ -28058,7 +28058,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Williams Street,48,,Chapman,John,boilermkr,newportpast_html
 1946,Williams Street,49,,Jenkins,Wm.,lorry driver,newportpast_html
 1946,Williams Street,50,,Coulson,Wilfred F.,labr,newportpast_html
-1946,Williams Street,51,,Scott Thos. W .,,seaman,newportpast_html
+1946,Williams Street,51,,Scott,Thos. W .,seaman,newportpast_html
 1946,Williams Street,,,TREDEGAR WHARF SCHOOLS,,,newportpast_html
 1946,Williams Street,,,here is Charlotte-street,,,newportpast_html
 1946,Williams Street,55,,Lewis,Walter H.,gen shop,newportpast_html
@@ -28235,9 +28235,9 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Witham Street,17,,Farley,George,,newportpast_html
 1946,Witham Street,19,,Lines,Mrs. -,,newportpast_html
 1946,Witham Street,21,,Palmer,Henry,engine dvr,newportpast_html
-1946,Witham Street,23,,Ireland Thos. ironworker,,,newportpast_html
+1946,Witham Street,23,,Ireland,Thos. ironworker,,newportpast_html
 1946,Witham Street,25,,Donovan,Chas.,sewerman,newportpast_html
-1946,Witham Street,27,,Sealey Edward J. ironwkr,,,newportpast_html
+1946,Witham Street,27,,Sealey,Edward J. ironwkr,,newportpast_html
 1946,Witham Street,29,,Mold,Percy,driver's mate,newportpast_html
 1946,Witham Street,31,,Back entrance to GWENT CLUB & INSTITUTE,,,newportpast_html
 1946,Witham Street,33,,Morris,Peter,irnwkr,newportpast_html
@@ -28263,7 +28263,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Witham Street,71,,Denning,Mrs. Florence M.,,newportpast_html
 1946,Witham Street,73,,Collier,Mrs. E.,,newportpast_html
 1946,Witham Street,75,,Chapman,Mrs. Florence M.,,newportpast_html
-1946,Witham Street,77,,"Shakesheff Wm,",,G.W.R.,newportpast_html
+1946,Witham Street,77,,Shakesheff,"Wm,",G.W.R.,newportpast_html
 1946,Witham Street,79,,Thomas,Mrs. Sophia,,newportpast_html
 1946,Witham Street,81,,Morgan,Joseph,ironwkr,newportpast_html
 1946,Witham Street,83,,Alcardy,Lewis,labourer,newportpast_html
@@ -28415,7 +28415,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Woodland Road,16,,Jones,Allan H.,steel wkr,newportpast_html
 1946,Woodland Road,17,,Birden,Alphonso D.,saddlr,newportpast_html
 1946,Woodland Road,18,,Jenkins,Andrew H. S.,mechanic,newportpast_html
-1946,Woodland Road,19,,Nash Fredk. eng'eer's asst.,,,newportpast_html
+1946,Woodland Road,19,,Nash,Fredk. eng'eer's asst.,,newportpast_html
 1946,Woodland Road,20,,Richardson -,,,newportpast_html
 1946,Woodland Road,21,,Clift,Albert,manager,newportpast_html
 1946,Woodland Road,21a,,Davies A. W. & Son,,nurserymen,newportpast_html
@@ -28425,7 +28425,7 @@ year,street,house_number,building_name,surname,forename,trade,source_type
 1946,Woodland Road,,,Jones,H.,,newportpast_html
 1946,Woodland Road,25,,Goddard,E.,,newportpast_html
 1946,Woodland Road,,,Klein,Robert,labourer,newportpast_html
-1946,Woodland Road,45,,"Davies Thomas H.,salesmn",,,newportpast_html
+1946,Woodland Road,45,,Davies,"Thomas H.,salesmn",,newportpast_html
 1946,Woodland Road,,,Collins,Vinca,estate agent,newportpast_html
 1946,Woodland Road,46,,Bertera,Geronzio,,newportpast_html
 1946,Woodland Road,47,,Widenham,S. H.,labourer,newportpast_html
