@@ -424,6 +424,25 @@ def process_csv(path: Path, known_surnames: set[str] | None = None) -> int:
                 r["trade"] = "Docker"
                 row_changed = True
 
+        # Fix 1886 Canal Parade Nos. 55-76 + Ship & Castle mislabeled as Canal Street
+        if r.get("street") == "Canal Street" and (r.get("year") or "").strip() == "1886":
+            hn_86 = (r.get("house_number") or "").strip()
+            if (
+                hn_86 in {"55", "56", "57", "59", "62", "63", "64", "68", "74-5", "76"}
+                or bldg_raw == "Ship & Castle"
+                or (
+                    not hn_86
+                    and (
+                        "board of health hospital" in fore.lower()
+                        or "batchelor's timber yard" in fore.lower()
+                        or (sur == "Palmer" and fore == "James")
+                        or (sur == "Hurton" and fore in {"Charles", "Chas."})
+                    )
+                )
+            ):
+                r["street"] = "Canal Parade"
+                row_changed = True
+
         for col in ("building_name", "trade", "surname", "forename"):
             old_val = r.get(col) or ""
             new_val = strip_edge_dashes(fix_ho(old_val, col))
