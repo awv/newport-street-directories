@@ -460,6 +460,24 @@ def process_csv(path: Path, known_surnames: set[str] | None = None) -> int:
             changed += 1
         kept_rows.append(r)
 
+    # Fix 1903 Canal Street bleed (38 Canal Parade rows + 9 Canal Street rows + 41 Capel Crescent rows)
+    cs_1903 = [
+        r for r in kept_rows
+        if (r.get("year") or "").strip() == "1903" and r.get("street") == "Canal Street"
+    ]
+    if (
+        len(cs_1903) == 88
+        and "central ironworks" in (cs_1903[0].get("building_name") or cs_1903[0].get("trade") or "").lower()
+        and "kemp" in (cs_1903[38].get("surname") or "").lower()
+        and "watts" in (cs_1903[47].get("surname") or "").lower()
+        and "prance" in (cs_1903[87].get("surname") or "").lower()
+    ):
+        for r in cs_1903[:38]:
+            r["street"] = "Canal Parade"
+        for r in cs_1903[47:]:
+            r["street"] = "Capel Crescent"
+        changed += 79
+
     if changed or dropped:
         with open(path, "w", encoding="utf-8", newline="") as f:
             w = csv.DictWriter(f, fieldnames=fieldnames)
