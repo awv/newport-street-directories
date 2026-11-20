@@ -247,11 +247,21 @@ def process_csv(path: Path, known_surnames: set[str] | None = None) -> int:
         rows = list(reader)
 
     changed = 0
+    dropped = 0
+    kept_rows = []
+    grid_ref_re = re.compile(r"^[A-H]\s+\d+(?:\s*&\s*\d+)?$")
     for r in rows:
         row_changed = False
         sur = (r.get("surname") or "").strip()
         fore = (r.get("forename") or "").strip()
         tr = (r.get("trade") or "").strip()
+        bldg_raw = (r.get("building_name") or "").strip()
+        hn_raw = (r.get("house_number") or "").strip()
+
+        # Drop spurious empty map-grid-reference rows (e.g. "B 4", "D 3")
+        if hn_raw and grid_ref_re.match(hn_raw) and not bldg_raw and not sur and not fore and not tr:
+            dropped += 1
+            continue
 
         # Fix "senr." / "junr." in surname with "<RealSurname>, <Trade>" (or "<RealSurname>") in trade
         if sur.lower().rstrip(".") in {"senr", "junr", "jr", "sr"} and tr:
@@ -379,6 +389,33 @@ def process_csv(path: Path, known_surnames: set[str] | None = None) -> int:
                     r["forename"] = "BTA"
                     row_changed = True
 
+        # Fix Canal Street (1936) Nos. 1, 2, 3, 4h->4, 8, 9
+        if r.get("street") == "Canal Street" and (r.get("year") or "").strip() == "1936":
+            hn_cs = (r.get("house_number") or "").strip()
+            if hn_cs == "1" and sur == "John" and fore == "Ernest" and tr == "Holder":
+                r["surname"] = "Holder"
+                r["forename"] = "John Ernest"
+                r["trade"] = "Labourer"
+                row_changed = True
+            elif hn_cs == "2" and sur == "Lee" and not tr:
+                r["trade"] = "Mason"
+                row_changed = True
+            elif hn_cs == "3" and sur == "Yhnell" and not tr:
+                r["trade"] = "Steelworker"
+                row_changed = True
+            elif hn_cs == "4h" and sur == "Cale":
+                r["house_number"] = "4"
+                r["trade"] = "Steelworker"
+                row_changed = True
+            elif hn_cs == "8" and sur == "Morrish" and not tr:
+                r["trade"] = "Caretaker"
+                row_changed = True
+            elif hn_cs == "9" and sur == "John" and tr == "MacCarthy":
+                r["surname"] = "MacCarthy"
+                r["forename"] = "John"
+                r["trade"] = "Docker"
+                row_changed = True
+
         for col in ("building_name", "trade", "surname", "forename"):
             old_val = r.get(col) or ""
             new_val = fix_ho(old_val, col)
@@ -394,13 +431,14 @@ def process_csv(path: Path, known_surnames: set[str] | None = None) -> int:
 
         if row_changed:
             changed += 1
+        kept_rows.append(r)
 
-    if changed:
+    if changed or dropped:
         with open(path, "w", encoding="utf-8", newline="") as f:
             w = csv.DictWriter(f, fieldnames=fieldnames)
             w.writeheader()
-            w.writerows(rows)
-    return changed
+            w.writerows(kept_rows)
+    return changed + dropped
 
 
 def main() -> None:
