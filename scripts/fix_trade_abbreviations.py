@@ -117,6 +117,15 @@ NON_SURNAME_WORDS = {
     "keeper", "proprietors", "photographers", "solicitors", "shipwrights",
 }
 
+FORE_BLDG_RE = re.compile(
+    r"^(?:(?:Mrs\.?|Mr\.?|Miss|Rev\.?|Dr\.?)\s+[A-Z].*|"
+    r"(?:William|Wm\.?|John|Jno\.?|Thomas|Thos\.?|George|Geo\.?|Charles|Chas\.?|James|Jas\.?|Henry|Hy\.?|Edward|Edwd\.?|Richard|Richd\.?|Robert|Robt\.?|Joseph|Jos\.?|Samuel|Saml\.?|Benjamin|Benj\.?|Frederick|Fredk\.?|Alfred|Arthur|Albert|Herbert|Walter|David|Daniel|Stephen|Ernest|Frank|Harry|Edwin|Hubert|Reginald|Sidney|Harold|Percy|Stanley|Evan|Morgan|Elizabeth|Mary|Ann|Sarah|Jane|Susan|Caroline|Margaret|Ellen|Hannah|Harriet|Alice|Emma|Louisa|Eliza)(?:\s+[A-Z]\.?){0,2})$"
+)
+BLDG_SUFFIX_RE = re.compile(
+    r"\b(?:house|cottage|cottages|villa|villas|lodge|hall|chambers|buildings|flats|apartments|terrace|place|court|yard|wharf|hotel|inn|tavern|school|chapel|church|works|mill|office|offices|shop|stores|farm|manor|abbey|rectory|vicarage|st\.?)\b",
+    re.I,
+)
+
 PACKED_FIRM_RE = re.compile(
     r"(&|\band\b|\bco\.?\b|\bltd\.?\b|\bbros\.?\b|\bson\b|\bsons\b|\bcompany\b|\bsociety\b|\bassociation\b|\bbank\b|\bworks\b|\bschool\b|\bchurch\b|\bchapel\b|\bhotel\b|\binn\b|\btavern\b|\bstores\b|\bhall\b|\bclub\b|\bdepot\b|\boffice\b|\bhere is\b|\bapartments\b|\bbuilding\b|\bhouse\b|\bcottage\b|\bvilla\b)",
     re.I,
@@ -170,6 +179,23 @@ def process_csv(path: Path) -> int:
                 r["surname"] = m_pn.group(1).strip()
                 r["forename"] = m_pn.group(2).strip()
                 sur = r["surname"]
+                fore = r["forename"]
+                row_changed = True
+
+        # Fix forename stranded in building_name when house_number is empty
+        bldg = (r.get("building_name") or "").strip()
+        hn = (r.get("house_number") or "").strip()
+        if not hn and bldg and FORE_BLDG_RE.match(bldg) and not BLDG_SUFFIX_RE.search(bldg):
+            if not sur and fore and fore[0].isupper():
+                r["surname"] = fore
+                r["forename"] = bldg
+                r["building_name"] = ""
+                sur = r["surname"]
+                fore = r["forename"]
+                row_changed = True
+            elif not fore and sur and sur[0].isupper():
+                r["forename"] = bldg
+                r["building_name"] = ""
                 fore = r["forename"]
                 row_changed = True
 
