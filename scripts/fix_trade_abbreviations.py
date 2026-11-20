@@ -3,6 +3,7 @@
 
 import csv
 import re
+from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -47,6 +48,43 @@ REPLACEMENTS = [
     (re.compile(r"\bstat['’]?nrs\b", re.I), "Stationers"),
     (re.compile(r"\bstat['’]?nr\.?(?=\b|\s|$)", re.I), "Stationer"),
     (re.compile(r"\bst['’\.]?mason\b", re.I), "Stonemason"),
+    (re.compile(r"\benginedrvr\b", re.I), "Engine Driver"),
+    (re.compile(r"\btelegraphst\b", re.I), "Telegraphist"),
+    (re.compile(r"\bsignwtr\b", re.I), "Sign Writer"),
+    (re.compile(r"\bstockbrkr\b", re.I), "Stockbroker"),
+    (re.compile(r"\bhelvemkrs\b", re.I), "Helve Makers"),
+    (re.compile(r"\b(?:confctnrs|confrs)\b", re.I), "Confectioners"),
+    (re.compile(r"\bslatewkr\b", re.I), "Slate Worker"),
+    (re.compile(r"\bcarptrs\b", re.I), "Carpenters"),
+    (re.compile(r"\bbricklr\b", re.I), "Bricklayer"),
+    (re.compile(r"\bshipchanlr\b", re.I), "Shipchandler"),
+    (re.compile(r"\bcoachpaintr\b", re.I), "Coachpainter"),
+    (re.compile(r"\bmillwrgt\b", re.I), "Millwright"),
+    (re.compile(r"\bbarmn\b", re.I), "Barman"),
+    (re.compile(r"\bsurvyr\b", re.I), "Surveyor"),
+    (re.compile(r"\bsecy\.?(?=\b|\s|$)", re.I), "Secretary"),
+    (re.compile(r"\blbr\.?(?=\b|\s|$)", re.I), "Labourer"),
+    (re.compile(r"\bwidw\.?(?=\b|\s|$)", re.I), "Widow"),
+    (re.compile(r"\bnewsagts\b", re.I), "Newsagents"),
+    (re.compile(r"\bbrickburnr\b", re.I), "Brickburner"),
+    (re.compile(r"\bupholstrs\b", re.I), "Upholsterers"),
+    (re.compile(r"\bcoppersmth\b", re.I), "Coppersmith"),
+    (re.compile(r"\bhorsebrkr\b", re.I), "Horsebreaker"),
+    (re.compile(r"\bshipbr(?:o)?ks\b", re.I), "Shipbrokers"),
+    (re.compile(r"\bbrewrs\b", re.I), "Brewers"),
+    (re.compile(r"\bhattrs\b", re.I), "Hatters"),
+    (re.compile(r"\bpaintrs\b", re.I), "Painters"),
+    (re.compile(r"\bironmongs\b", re.I), "Ironmongers"),
+    (re.compile(r"\bauctns\b", re.I), "Auctioneers"),
+    (re.compile(r"\bfishmmgr\b", re.I), "Fishmonger"),
+    (re.compile(r"\bwatchmkrs\b", re.I), "Watchmakers"),
+    (re.compile(r"\bbookselr\b", re.I), "Bookseller"),
+    (re.compile(r"\barchit\.?(?=\b|\s|$)", re.I), "Architect"),
+    (re.compile(r"\bshopmanr\b", re.I), "Shopman"),
+    (re.compile(r"\bbrickmakr\b", re.I), "Brickmaker"),
+    (re.compile(r"\bcarpenr\b", re.I), "Carpenter"),
+    (re.compile(r"\bnurseryn\b", re.I), "Nurseryman"),
+    (re.compile(r"\btobacongt\b", re.I), "Tobacconist"),
 ]
 
 COMMON_FORE = {
@@ -170,7 +208,39 @@ def fix_trade(trade: str) -> str:
     return t
 
 
-def process_csv(path: Path) -> int:
+EXTRA_NON_SURNAME = {
+    "customs", "vacant", "unbuilt", "building", "re-building", "rebuilding",
+    "closed", "schoolroom", "continued", "unfinished", "watchhouse", "glaslyn",
+    "penrhiw", "englefield", "wardrobes", "books", "toys", "chaplaincy",
+}
+
+
+def build_known_surnames(path: Path) -> set[str]:
+    counts: Counter[str] = Counter()
+    with open(path, encoding="utf-8", newline="") as f:
+        for r in csv.DictReader(f):
+            s = (r.get("surname") or "").strip()
+            if re.match(r"^[A-Z][a-z'\-]+$", s):
+                counts[s.lower()] += 1
+    return {k for k, v in counts.items() if v >= 3} - NON_SURNAME_WORDS - EXTRA_NON_SURNAME
+
+
+def looks_like_fore(other: str) -> bool:
+    if PACKED_FIRM_RE.search(other):
+        return False
+    if re.match(r"^(?:Mrs?\.?|Miss|Rev\.?|Dr\.?|Capt\.?|Col\.?|Maj\.?)(\s+.*)?$", other, re.I):
+        return True
+    if re.match(r"^[A-Z]\.?(?:\s*[A-Z]\.?){0,3}$", other):
+        return True
+    parts = other.split()
+    if len(parts) == 1 and re.match(r"^[A-Z][a-z'\-]+$", other):
+        return True
+    if parts and parts[0].lower().rstrip(".") in COMMON_FORE:
+        return True
+    return False
+
+
+def process_csv(path: Path, known_surnames: set[str] | None = None) -> int:
     with open(path, encoding="utf-8", newline="") as f:
         reader = csv.DictReader(f)
         fieldnames = list(reader.fieldnames or [])
@@ -231,6 +301,15 @@ def process_csv(path: Path) -> int:
                 and tr.lower() not in NON_SURNAME_WORDS
                 and not re.search(r"(?:ers|ors|ists|wrights|smiths|makers|keepers|dealers)$", tr, re.I)
             ):
+                r["forename"] = fore or sur
+                r["surname"] = tr
+                r["trade"] = ""
+                sur = r["surname"]
+                fore = r["forename"]
+                tr = ""
+                row_changed = True
+        elif known_surnames and ((sur and not fore) or (fore and not sur)) and tr:
+            if tr.lower() in known_surnames and looks_like_fore(sur or fore):
                 r["forename"] = fore or sur
                 r["surname"] = tr
                 r["trade"] = ""
@@ -325,11 +404,12 @@ def process_csv(path: Path) -> int:
 
 
 def main() -> None:
-    total = process_csv(DATA_CSV)
+    known_surnames = build_known_surnames(DATA_CSV)
+    total = process_csv(DATA_CSV, known_surnames)
     print(f"Updated {total} rows in {DATA_CSV.name}.")
 
     for vol_csv in sorted(VOL_DIR.glob("*_cleaned.csv")):
-        vc = process_csv(vol_csv)
+        vc = process_csv(vol_csv, known_surnames)
         if vc:
             print(f"Updated {vc} rows in {vol_csv.name}.")
 

@@ -2553,7 +2553,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,Barrack Hill,28,,Tombs,William T,
 1971,Barrack Hill,26,,Shearn,Henry C,
 1971,Barrack Hill,24,,Young,Mrs. J,
-1971,Barrack Hill,22,Flat 1,,Dunn,Melville
+1971,Barrack Hill,22,Flat 1,Melville,Dunn,
 1971,Barrack Hill,20,,Shorney,William G,
 1971,Barrack Hill,18,,Hill,John,
 1971,Barrack Hill,16,,Brown,James,
@@ -5313,8 +5313,8 @@ year,street,house_number,building_name,surname,forename,trade
 1971,Brynhyfryd Road,19,flat 1,,Russell,Myrtle
 1971,Brynhyfryd Road,19,flat 2,,Jenkins,Miss M. B
 1971,Brynhyfryd Road,19,flat 3,,Harris,Mabel
-1971,Brynhyfryd Road,19,flat 4,,Young,Emma
-1971,Brynhyfryd Road,19,flat 5,,Benton,Irene
+1971,Brynhyfryd Road,19,flat 4,Emma,Young,
+1971,Brynhyfryd Road,19,flat 5,Irene,Benton,
 1971,Brynhyfryd Road,21,,O'Brian,Terence,
 1971,Brynhyfryd Road,25,,Canning,Edward M,
 1971,Brynhyfryd Road,27,,Jones,Peter,
@@ -5351,7 +5351,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,Brynhyfryd Road,54,,Price,Ivor,
 1971,Brynhyfryd Road,52,flat 20,,Walker,Colin A
 1971,Brynhyfryd Road,52,flat 21,,Armstrong,Jn. R
-1971,Brynhyfryd Road,52,flat 22,,Jenkins,Kenneth
+1971,Brynhyfryd Road,52,flat 22,Kenneth,Jenkins,
 1971,Brynhyfryd Road,52,flat 23,,Jiwa,Nizarali H
 1971,Brynhyfryd Road,52,flat 24,,Ruck,Chistine
 1971,Brynhyfryd Road,52,flat 25,,Williams,Gareth M
@@ -5381,7 +5381,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,Brynhyfryd Road,20,,Dickens,Mrs. M. A,
 1971,Brynhyfryd Road,18,,Binnell,William,
 1971,Brynhyfryd Road,16,,Lithaur,Mrs,
-1971,Brynhyfryd Road,14,flat 1,,Watts,Albt
+1971,Brynhyfryd Road,14,flat 1,Albt,Watts,
 1971,Brynhyfryd Road,14,flat 2,,Elliott,Alfd J
 1971,Brynhyfryd Road,14,flat 3,,Carmichael,Donald W
 1971,Brynhyfryd Road,12,,Jenkins,Colin J,
@@ -7354,7 +7354,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,Chaucer Road,23,,Morris,Arthur D,
 1971,Chaucer Road,27,,Smith,Ronald,
 1971,Chaucer Road,31,,Axton,Daniel,
-1971,Chaucer Road,33,flat 2,,Withers,Earl
+1971,Chaucer Road,33,flat 2,Earl,Withers,
 1971,Chaucer Road,33,flat 4,,Jones,Emily
 1971,Chaucer Road,37,York Guest House,York,,
 1971,Chaucer Road,39,,Cumming,Frederick J. R,
@@ -7369,7 +7369,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,Chaucer Road,,,73,,
 1971,Chaucer Road,Auto Facilities,Klingopoulos,office,Auto Facilities,75
 1971,Chepstow Road,,Maindee Municipal Buildings,,,
-1971,Chepstow Road,79,flat 1,,Hicks,Philip
+1971,Chepstow Road,79,flat 1,Philip,Hicks,
 1971,Chepstow Road,81,,Newport,Borough Police,"Newport Borough Police (maindee Station, ""B"" & ""C"" Divisions)"
 1971,Chepstow Road,,"Inland Revenue, H.M. Collector of Taxes (Newport Collection)",,,
 1971,Chepstow Road,83,,"Harris Douglas, care",care- 161 SHEPPARD GEO.,
@@ -7888,7 +7888,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,Chepstow Road,268,,Carter,E. E,
 1971,Chepstow Road,268,,Lewis,John H,
 1971,Chepstow Road,,,…,here is Rochester rd,
-1971,Chepstow Road,266,,Bulley,C. C. & J.,Newsagts
+1971,Chepstow Road,266,,Bulley,C. C. & J.,Newsagents
 1971,Chepstow Road,266,,Bulley,Colin C,
 1971,Chepstow Road,264,,Bulley,Alan D,
 1971,Chepstow Road,262,,Shelley,George Ltd.,Chemists
@@ -7968,7 +7968,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,Chepstow Road,200,flat 40,,,
 1971,Chepstow Road,200,flat 41,,Thomas,Wm G
 1971,Chepstow Road,200,flat 42,,Taylor,Jn S
-1971,Chepstow Road,200,flat 43,,Collins,Arth
+1971,Chepstow Road,200,flat 43,Arth,Collins,
 1971,Chepstow Road,198,,Prust,Mabel,
 1971,Chepstow Road,,,…,here is Fair Oak la.,
 1971,Chepstow Road,172,,Principality Dry Cleaning Co,,Ltd
@@ -17767,7 +17767,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,Harrow Road,,studio,Betty Hutson School of,Dancing,
 1971,Harrow Road,,,Emlyn Canvas & Cordage Co,,Tarpaulin Mfrs
 1971,Harrhy Street,,,Cambrian,House.,
-1971,Harrhy Street,,Southern,Menzies John Ltd,,who. Newsagts
+1971,Harrhy Street,,Southern,Menzies John Ltd,,who. Newsagents
 1971,Harrhy Street,,,Emlyn,Chambers.,
 1971,Harrhy Street,,,County Borough of New,port Housing Dept,
 1971,Harrogate Road,1,,Barrett,Berkley J,
@@ -18110,7 +18110,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,Helford Square,80,,<span>Cecil</span>Jsph,J,
 1971,Helford Square,78,,Cecil,"J. J. & Son, fruitrs",
 1971,Helford Square,76,,2,,
-1971,Helford Square,74,,Furbouys Ltd,,Newsagts
+1971,Helford Square,74,,Furbouys Ltd,,Newsagents
 1971,Helford Square,72,,Edwards,Raymond J,
 1971,Helford Square,70,Newport,Jones Bros. Ltd,,
 1971,Helford Square,,Centurion Inn,,,
@@ -19945,8 +19945,8 @@ year,street,house_number,building_name,surname,forename,trade
 1971,Japonica Close,97,,Morgan,Robert W,
 1971,Japonica Close,99,flat 1,,Ullah,Sami
 1971,Japonica Close,99,flat 1,,Evans,Thos I
-1971,Japonica Close,99,flat 2,,Welchman,Clifford
-1971,Japonica Close,99,flat 3,,Brake,Margt
+1971,Japonica Close,99,flat 2,Clifford,Welchman,
+1971,Japonica Close,99,flat 3,Margt,Brake,
 1971,Japonica Close,,,here is Oswald rd,...,
 1971,Japonica Close,102,,Oldfield,Mrs. E,
 1971,Japonica Close,100,,Bale,Herbert R,
@@ -20008,8 +20008,8 @@ year,street,house_number,building_name,surname,forename,trade
 1971,Jeddo Street,97,,Morgan,Robert W,
 1971,Jeddo Street,99,flat 1,,Ullah,Sami
 1971,Jeddo Street,99,flat 1,,Evans,Thos I
-1971,Jeddo Street,99,flat 2,,Welchman,Clifford
-1971,Jeddo Street,99,flat 3,,Brake,Margt
+1971,Jeddo Street,99,flat 2,Clifford,Welchman,
+1971,Jeddo Street,99,flat 3,Margt,Brake,
 1971,Jeddo Street,,,here is Oswald rd,...,
 1971,Jeddo Street,102,,Oldfield,Mrs. E,
 1971,Jeddo Street,100,,Bale,Herbert R,
@@ -24532,7 +24532,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,Margaret Avenue,143/144,\N,Graves,E.,Shoe Dlr
 1971,Margaret Avenue,145/146,\N,Wilson,E. & Son,Drapers
 1971,Margaret Avenue,,,Ground,Floor Standings.,
-1971,Margaret Avenue,1,\N,Needham,C.,Fishmmgr
+1971,Margaret Avenue,1,\N,Needham,C.,Fishmonger
 1971,Margaret Avenue,2,\N,Hughes,R.,Nurseryman
 1971,Margaret Avenue,3/4,\N,Grant,R. L.,Fruiterer
 1971,Margaret Avenue,5,newsagts,Millingchamp,Mr & Mrs,B. C
@@ -26028,7 +26028,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,Monnow Way,17,,Spooner,B. A,
 1971,Monnow Way,119,,Veronique,ladies' hair-dresser,
 1971,Monnow Way,121,,Greenfield,L. fruit,
-1971,Monnow Way,123,,Forbuoys Ltd,,Newsagts & Post Office
+1971,Monnow Way,123,,Forbuoys Ltd,,Newsagents & Post Office
 1971,Monnow Way,125,Newport,Davies G. F. H. Ltd,,Chemists
 1971,Monnow Way,127/129,,Wixcey C. J. & Sons Ltd,,Grocers
 1971,Monnow Way,191,,Ryan,J,
@@ -26459,7 +26459,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,Monnow Way,558,,Jennings,David,
 1971,Monnow Way,560,,Evans,Glyndwr,
 1971,Monnow Way,562,,Williams,Alan,
-1971,Monnow Way,568,T,,Jones,David
+1971,Monnow Way,568,T,David,Jones,
 1971,Monnow Way,568,M,,Parsons,E
 1971,Monnow Way,568,A,,Heames,H
 1971,Monnow Way,568,A,,Hacking,M
@@ -28119,7 +28119,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,Ombersley Road,50,,Wigg,Duncan C,
 1971,Ombersley Road,52,,Workman,Brenda,
 1971,Ombersley Road,54,,Roberts,William P,
-1971,Ombersley Road,56,flat 1,,Williams,Anthony
+1971,Ombersley Road,56,flat 1,Anthony,Williams,
 1971,Ombersley Road,56,flat 2,,Hicks,Alwyn I
 1971,Ombersley Road,56,flat 3,,Llewellyn,Avril
 1971,Ombersley Road,56,flat 4,,Wood,A. C
@@ -38359,7 +38359,7 @@ year,street,house_number,building_name,surname,forename,trade
 1971,York Place,33,,Mrs,Groves,
 1971,York Place,35,,Mrs. W. E,Shingler,
 1971,York Place,37,flat 2,Gwyneth,Thomas,
-1971,York Place,37,flat 1,,Clark,Jn
+1971,York Place,37,flat 1,Jn,Clark,
 1971,York Place,39,,Mrs,Mortimer,
 1971,York Place,41,,Mrs. E. M,Smith,
 1971,York Place,43,,Diocesan,Monmouth,Shelter For Girls (the)
