@@ -40,8 +40,82 @@ REPLACEMENTS = [
     (re.compile(r"\brlwy['’]?man\b", re.I), "Railwayman"),
     (re.compile(r"\bgard['’]?n[e']?r\b", re.I), "Gardener"),
     (re.compile(r"\bcoal\s+tipr\.?(?=\b|\s|$)", re.I), "Coal Tipper"),
+    (re.compile(r"\bcontractr\.?(?=\b|\s|$)", re.I), "Contractor"),
     (re.compile(r"\bB\.?\s*&\s*M\.?\s*R\.?(?=\b|\s|$)", re.I), "Brecon & Merthyr Railway"),
 ]
+
+COMMON_FORE = {
+    "william", "wm.", "john", "jno.", "thomas", "thos.", "george", "geo.",
+    "james", "jas.", "henry", "hy.", "charles", "chas.", "edward", "edwd.",
+    "samuel", "saml.", "richard", "richd.", "robert", "robt.", "joseph", "jos.",
+    "david", "daniel", "alfred", "arthur", "albert", "frederick", "fredk.",
+    "walter", "ernest", "frank", "harry", "edwin", "herbert", "benjamin",
+    "stephen", "evan", "morgan", "elizabeth", "mary", "ann", "sarah", "jane",
+    "margaret", "ellen", "hannah", "harriet", "alice", "emma", "louisa", "eliza",
+}
+NON_SURNAME_WORDS = {
+    "builder", "grocer", "tailor", "butcher", "baker", "painter", "plumber",
+    "carpenter", "labourer", "clerk", "moulder", "shunter", "fitter", "driver",
+    "mason", "joiner", "carter", "haulier", "seaman", "mariner", "pilot",
+    "rigger", "trimmer", "porter", "guard", "signalman", "platelayer", "caretaker",
+    "secretary", "manager", "agent", "inspector", "constable", "policeman",
+    "teacher", "nurse", "widow", "spinster", "gentleman", "private", "void",
+    "empty", "engineer", "mechanic", "blacksmith", "shoemaker", "bootmaker",
+    "draper", "chemist", "ironmonger", "tobacconist", "confectioner", "fruiterer",
+    "greengrocer", "fishmonger", "newsagent", "stationer", "printer", "saddler",
+    "cooper", "wheelwright", "watchmaker", "upholsterer", "gardener", "milkman",
+    "dairyman", "sawyer", "bricklayer", "plasterer", "slater", "glazier",
+    "shipwright", "stevedore", "hobbler", "puddler", "striker", "roller",
+    "furnaceman", "boilermaker", "ironworker", "steelworker", "machinist",
+    "electrician", "fireman", "stoker", "craneman", "hoistman", "weighman",
+    "checker", "timekeeper", "warehouseman", "storekeeper", "packer", "hawker",
+    "cabman", "coachman", "ostler", "cellarman", "laundress", "charwoman",
+    "dressmaker", "milliner", "tailoress", "hairdresser", "solicitor", "surgeon",
+    "accountant", "traveller", "collector", "auctioneer", "undertaker",
+    "pawnbroker", "herbalist", "farrier", "currier", "tanner", "maltster",
+    "coppersmith", "millwright", "patternmaker", "shearer", "rivetter",
+    "annealer", "doubler", "pickler", "scaler", "tipper", "donkeyman",
+    "wharfinger", "lighterman", "boatman", "waterman", "sailmaker", "ropemaker",
+    "shipbroker", "contractor", "contractr", "merchant", "dealer", "broker",
+    "artist", "musician", "photographer", "journalist", "schoolmaster",
+    "assistant", "foreman", "steward", "postman", "waiter", "cook",
+    "shopkeeper", "victualler", "chandler", "poulterer", "outfitter", "hosier",
+    "hatter", "florist", "cyclist", "barber", "brazier", "tinman", "tinsmith",
+    "decorator", "weaver", "dyer", "miller", "brewer", "turner", "carver",
+    "gilder", "engraver", "optician", "dentist", "veterinary", "apothecary",
+    "midwife", "matron", "minister", "curate", "vicar", "rector", "priest",
+    "pastor", "clergyman", "captain", "major", "colonel", "lieutenant",
+    "sergeant", "corporal", "superintendent", "surveyor", "architect",
+    "draughtsman", "bailiff", "registrar", "overseer", "verger", "sexton",
+    "watchman", "gatekeeper", "lockkeeper", "bridgeman", "pointsman", "ganger",
+    "conductor", "motorman", "chauffeur", "groom", "carman", "drayman",
+    "vanman", "stableman", "herdsman", "shepherd", "farmer", "yeoman",
+    "cottager", "lodger", "pensioner", "annuitant", "independent", "scholar",
+    "student", "apprentice", "servant", "housekeeper", "maid", "valet",
+    "butler", "footman", "page", "governess", "companion", "do", "ditto",
+    "ltd", "co", "son", "sons", "bros", "brothers", "jun", "sen", "junr",
+    "senr", "esq", "mrs", "miss", "mr", "rev", "dr", "sir", "bart",
+    "cottage", "house", "villa", "lodge", "hall", "chambers", "buildings",
+    "flats", "apartments", "shop", "stores", "office", "offices", "works",
+    "yard", "wharf", "quay", "dock", "mill", "foundry", "brewery", "bakery",
+    "dairy", "laundry", "hotel", "inn", "tavern", "vaults", "club", "school",
+    "chapel", "church", "mission", "institute", "hospital", "infirmary",
+    "dispensary", "surgery", "bank", "exchange", "customs", "police", "fire",
+    "post", "telegraph", "telephone", "railway", "station", "depot", "garage",
+    "stables", "garden", "gardens", "nursery", "allotments", "park", "cemetery",
+    "esquire", "gent", "clergy", "reverend", "retd", "retired", "warehouse",
+    "workshop", "workman", "plater", "riveter", "caulker", "smith", "wright",
+    "maker", "setter", "cutter", "finisher", "dresser", "cleaner", "sweeper",
+    "sorter", "loader", "unloader", "carrier", "hauler", "teetotal", "temperance",
+    "billiard", "theatre", "cinema", "studio", "druggist", "bookseller",
+    "opticians", "shipbrokers", "shipowners", "merchants", "trustees",
+    "committee", "commissioners", "guardians", "corporation", "council",
+    "board", "union", "society", "association", "company", "limited",
+    "pumping", "substation", "transformer", "pavilion", "museum", "library",
+    "rest", "home", "homes", "almshouses", "orphanage", "convent", "abbey",
+    "rectory", "vicarage", "manse", "parsonage", "presbytery", "pottery",
+    "keeper", "proprietors", "photographers", "solicitors", "shipwrights",
+}
 
 PACKED_FIRM_RE = re.compile(
     r"(&|\band\b|\bco\.?\b|\bltd\.?\b|\bbros\.?\b|\bson\b|\bsons\b|\bcompany\b|\bsociety\b|\bassociation\b|\bbank\b|\bworks\b|\bschool\b|\bchurch\b|\bchapel\b|\bhotel\b|\binn\b|\btavern\b|\bstores\b|\bhall\b|\bclub\b|\bdepot\b|\boffice\b|\bhere is\b|\bapartments\b|\bbuilding\b|\bhouse\b|\bcottage\b|\bvilla\b)",
@@ -97,6 +171,21 @@ def process_csv(path: Path) -> int:
                 r["forename"] = m_pn.group(2).strip()
                 sur = r["surname"]
                 fore = r["forename"]
+                row_changed = True
+
+        # Fix forename-only in surname/forename with real surname stranded in trade (e.g. Bedford Rd 1898 No. 15: William | Wilson)
+        if ((not sur and fore.lower() in COMMON_FORE) or (not fore and sur.lower() in COMMON_FORE)) and tr:
+            if (
+                re.match(r"^[A-Z][a-z'\-]+$", tr)
+                and tr.lower() not in NON_SURNAME_WORDS
+                and not re.search(r"(?:ers|ors|ists|wrights|smiths|makers|keepers|dealers)$", tr, re.I)
+            ):
+                r["forename"] = fore or sur
+                r["surname"] = tr
+                r["trade"] = ""
+                sur = r["surname"]
+                fore = r["forename"]
+                tr = ""
                 row_changed = True
 
         # Fix Albert Terrace No. 3 (Engineers' Arms), No. 19 (1910), and No. 24 (Camelly Cottage / Camley House)
